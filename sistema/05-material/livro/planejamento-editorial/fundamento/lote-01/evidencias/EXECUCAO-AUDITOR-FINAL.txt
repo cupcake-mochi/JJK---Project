@@ -1,0 +1,1 @@
+{"ok": true, "verificacoes_numericas_textuais": 68, "estados": 39032, "casos_funcionais": 53, "falhas": []}

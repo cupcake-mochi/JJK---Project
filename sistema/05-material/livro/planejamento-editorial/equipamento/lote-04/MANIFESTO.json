@@ -1,0 +1,23 @@
+{
+  "ARMAS.json": "e4c8e78c552f0232445f50e12e5f88cb952d2b44206cead82fbde6dfecc60373",
+  "ARMAS.md": "8fdda195acf479e335fe518cf51ccae32cbbf9735b94b25856642d94e995e48c",
+  "CONFERENCIA.json": "fbab54508b6af127103f60cfa23d9835cfacffe26bca3ba43661d73ffc927232",
+  "CONTRATO-NUMERICO.md": "c57017c6c4616240aca7fe772a6ec7530c35d9dbfc81b3125085ad5122a5c461",
+  "DECISOES.md": "03369367dcd1f166f459a115be994a66379ca5bf293c6ffe03f764eb469a08cb",
+  "ESTRUTURA.json": "9c754179c971abab83db7df0151964826a0453e4d09c1300d2d6d818738b9ba8",
+  "LEIA-ME.md": "3122b461752e4eab13b9ac2c104533934a77c38ea932f3411ba0f5fdf316f562",
+  "PESQUISA-E-BALANCEAMENTO.md": "52ea83d5a5cb38ba1f6d8beea2a925227a53bc8d778f52c7a602f3451f8bb191",
+  "RELATORIO.md": "64b702c59e1c105db0d01b131a589c80393d82e37bb4085e31596ee0eb9d8379",
+  "VALIDACAO.json": "67796f3b50a2ec3c44dca4a1eaa7984b4821b3327d585149400b877fb1df7c0d",
+  "conferir.py": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+  "evidencias/LOCALIZACAO-EDITORIAL.json": "3ca1315cf729e5392da8f754462c8930a4cfb1c99d0c8ab85c6f12a46a2cd1f3",
+  "evidencias/REVISAO-EDITORIAL.json": "ce2ce3b8a087dbe7846580e18f5c72691e961a41d9ee475a5dd2052f12ef5d16",
+  "evidencias/fontes-preservadas.json": "9821bfb5c868822a6291edc8411d782021eb1404653b94be2b0fc81fa78cad64",
+  "evidencias/inspecao-visual.json": "13fbeaca17668b125d148fb549b468d21c0f82060b5df3db30316442c64fb651",
+  "evidencias/pdf-estrutura.json": "e184fa1173e20100b9dfed27cd6f6d21a8b5e9f8fb548b0c2548cb0122c56ddc",
+  "evidencias/pdf-texto.txt": "ec04cb5901718b4b32d112c3b998315d3bbab7102aacda8660781a071d2dd41d",
+  "evidencias/regras-verificadas.json": "51614b9ace1faa915bcb7c456a36f752f0496ce580100f66e618edf87a823cc1",
+  "gerar_pdf.py": "0a36d85979dcbbcbf8036f128fb40b7348af0d44391985626713240e16526a0c",
+  "output/pdf/Projeto-M-Catalogo-de-Armas-Proposta-01.pdf": "af425051e997d252aaafb7ce52afe65f4939a4d8aeaefb0eb07a6d715d2ae8e1",
+  "validar_numeros.py": "68d1532b642116714c00a7873921c4831312a67251bdf854a8a7ffa148a55659"
+}

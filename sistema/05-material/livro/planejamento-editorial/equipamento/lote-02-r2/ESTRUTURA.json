@@ -1,0 +1,36 @@
+{
+  "ordem": [
+    "protecao",
+    "traje",
+    "escudo",
+    "vestir"
+  ],
+  "titulos": {
+    "protecao": "Proteção",
+    "traje": "Trajes",
+    "escudo": "Revestimentos e escudos",
+    "vestir": "Vestir e retirar equipamento"
+  },
+  "paginas": {
+    "protecao": 1,
+    "traje": 2,
+    "escudo": 3,
+    "vestir": 4
+  },
+  "grupos": [
+    [
+      "Proteção",
+      [
+        "protecao",
+        "traje",
+        "escudo"
+      ]
+    ],
+    [
+      "Vestir e retirar equipamento",
+      [
+        "vestir"
+      ]
+    ]
+  ]
+}

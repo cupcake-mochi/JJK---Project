@@ -1,0 +1,330 @@
+{
+  "revisor": "/root/rotas_didatica",
+  "sha256_texto": "c5a6b376afdbcc2439f53b270a1e82323ec99575cbdc530ce11cb31101b14f8f",
+  "sha256_pdf": "f7412f2f24163076640d7fe0c8443191fb2ebe4e8b6a2ea72a8561ee35ec1a3a",
+  "metodo": "Todas as 39 páginas PNG foram abertas individualmente com view_image. Após corrigir a largura de tabela, a página 38 foi aberta e reinspecionada; as outras 38 têm igualdade de pixels registrada pelo autor em CORRECAO-VISUAL-TABELA.json.",
+  "correcao_resolvida": {
+    "pagina": 38,
+    "antes": "Tabela de duas colunas recebia larguras de três colunas e não alcançava margem direita.",
+    "depois": "Seletor corrigido apenas no gerador; alinhamento confirmado visualmente."
+  },
+  "observacao_nao_bloqueadora": "Página 23 conserva ampla área inferior vazia por divisão deliberada. Considerar compactação na montagem integral, sem reduzir a fonte.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de características alinhada; exemplo e seção Carga separados, remissão corrigida visível.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-01.png",
+      "sha256_png": "6a197618c38024ddc0c97d7c06d25eeabd90fc6f8f4090e74295b44d2530758c"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de situações de saque e exemplo íntegros; mãos disponíveis bem separadas.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-02.png",
+      "sha256_png": "0a95df91a4f954efc6ea1ec51ac8dfe51dde22ccb2d3f857f83f1976ba630750"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto mais denso, mas último parágrafo fica acima do rodapé; tabela e caixa sem cortes.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-03.png",
+      "sha256_png": "4597bc42d3cacdbe6a7a293b0ee47330da474d6e6c434c6c06fdfd0deaec77ea"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela longa de propriedades legível, sem linhas divididas; exemplo de Par íntegro.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-04.png",
+      "sha256_png": "d9c245821ade44c7d7667128c7930f7bb249b3a3792a0e6ca831365f49e3bf17"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página densa de ocultação, sem cortes; Embainhada permanece inteira acima do rodapé.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-05.png",
+      "sha256_png": "260a780909cb3f841fbc2eeb6d0f5cabf4535a03c10a959183441fb15c28c41b"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Fórmula de Defesa, exemplo e requisitos alinhados; margens preservadas.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-06.png",
+      "sha256_png": "d90d1c32405ef4c487e55eb070d10d71c8a4665a39f26d420c47798ce2a82f7f"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Duas tabelas e exemplo de Traje legíveis, títulos unidos ao conteúdo.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-07.png",
+      "sha256_png": "9d377ae6d999d2e80ef162d0453499b6f5cfb643ffc2104359a1321167b9cbdf"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabelas de revestimentos e escudos completas; exemplo e mão ocupada bem separados.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-08.png",
+      "sha256_png": "1d6952b2c454d33748a19b4a553d7a01228686b6f7f8534a09a491244cde5833"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de tempos e procedimento de troca sem divisão; parágrafo final acima do rodapé.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-09.png",
+      "sha256_png": "45b4050d346710d9a09391b05c5c749ba7b16c9fa819749d2de61c63d6a30e78"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabelas de munição completas, preços e Volume alinhados e legíveis.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-10.png",
+      "sha256_png": "6e0a851cf32bdeea591aa24124e6b0578597ac4d833623f70ed42e3b575ec5eb"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Lista numerada de recarga bem espaçada; exemplo não atravessa página.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-11.png",
+      "sha256_png": "2bd6226007d665ee71b40801b49b01403e3c76ab5a9427546ec1612b0c73fe7d"
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Reservas, transferência e recuperação cabem sem sobreposição; página densa mas legível.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-12.png",
+      "sha256_png": "5491091212215ed9a66f723f0b0d25295230d4a33490446325edb72b06bc15c8"
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Introdução ao catálogo, tabela de treino e exemplo legíveis, sem espaço anormal entre blocos.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-13.png",
+      "sha256_png": "2484d86a4e72f745f76f69ca0c374de49afbccfdbff1f2140611874d6b575772"
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Duas tabelas de lâminas preservam as sete colunas e todas as linhas; quebras internas legíveis.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-14.png",
+      "sha256_png": "fc647cf3d369da137618fb9a527ea9da2deb04dc4fd367de2f37120197cf4ec6"
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Três tabelas de impacto e manopla completas; última linha fica acima do rodapé.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-15.png",
+      "sha256_png": "60dc411d5114a7dc0f005be87617ce17e3fa24d8874bba3a59d4266e95a032ba"
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabelas de machado, ceifa e armas longas alinhadas; medidas e preços não se sobrepõem.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-16.png",
+      "sha256_png": "9756dc838bdcf41ad1f9b1d6cacddfeab6f7e5588e7b6fde1e2851cde554f2bf"
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabelas de flexíveis e arremesso completas; números não confundem colunas.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-17.png",
+      "sha256_png": "fc7ab71517e2c6ac64ca9478196385af849af34430fe466d98629a367ea14afa"
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página densa com três tabelas; preços de criação/compra quebram dentro da célula, última linha íntegra.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-18.png",
+      "sha256_png": "0f4c846bdf6ab62f6cfd09d8268239eb2ddc8f1e0bacf85eaacf412c9b371088"
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Catálogo de itens com quatro colunas legíveis; caixa de exemplo inteira.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-19.png",
+      "sha256_png": "1b3fc6c86556d1e0da3321faad7407e5749b671bab3ded00a0e0a23e7a5b9465"
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Subtítulos de ferramentas permanecem junto ao texto; entrelinhas e margens uniformes.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-20.png",
+      "sha256_png": "5ebb9b68174dc71aff4ab3a901fdbfab437198f8a5ab57ddaecfbfbe46685c0f"
+    },
+    {
+      "pagina": 21,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabelas de fechaduras e contenção completas, último parágrafo separado do rodapé.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-21.png",
+      "sha256_png": "ce95c72825dd25e3a5dfa2b396416fda8bdff03cd12fbdb4f6e428936a768846"
+    },
+    {
+      "pagina": 22,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Separação da página excedente funcionou: tabelas de Defesa e Vida cabem inteiras com exemplo.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-22.png",
+      "sha256_png": "a99f151bb19cd16074ec6377cf730abbe18b86db115b63c2ce8b17bd1b6dd7d1"
+    },
+    {
+      "pagina": 23,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Blocos de efeitos e barreiras íntegros. Há ampla área vazia inferior por separação deliberada da prova; avaliar compactação na montagem final, sem reduzir a fonte.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-23.png",
+      "sha256_png": "0b824b26d11e6814bfbf012ade8c132a1dbf8d6cd5cd9bdef65c3bbb36176f9a"
+    },
+    {
+      "pagina": 24,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Procedimento e exemplo de arma improvisada íntegros, títulos e parágrafos bem separados.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-24.png",
+      "sha256_png": "1e63e2049b6f934951b7781666d9225dc68d12cbb9760934c1991c0cedf473b3"
+    },
+    {
+      "pagina": 25,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de acesso e exemplo bem separados; links e valores legíveis.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-25.png",
+      "sha256_png": "b02c81b050cf5a4ba234ffab0de11919e06e626b58ab29d37d6888b1f147e6de"
+    },
+    {
+      "pagina": 26,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Preços de proteção alinhados; exemplo monetário e parágrafo final íntegros.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-26.png",
+      "sha256_png": "b0a728942f7337928d705566b32c4f65dbf7592b149aa8fb853828cc5e2a69a8"
+    },
+    {
+      "pagina": 27,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Etapas numeradas, tabela de compras e exemplo de inventário completos.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-27.png",
+      "sha256_png": "062aebd534413d04c9f9029f15a3bc78464420a4ae72ae43278bddbdfb272222"
+    },
+    {
+      "pagina": 28,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Caixa de reposição e seções de empréstimo, venda e conserto sem cortes.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-28.png",
+      "sha256_png": "c03565595effeb3353dabed4b107b0a0e2685203f494ecfaff510afe781020dd"
+    },
+    {
+      "pagina": 29,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de seis tipos de ferramenta e exemplo com largura consistente; negritos não prejudicam leitura.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-29.png",
+      "sha256_png": "8f2a99561e7bd4ba05932cf13cae9ee15208339a966551e89ae184d98dfafecf"
+    },
+    {
+      "pagina": 30,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de graus e nível mínimo inteira, remissões coloridas legíveis.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-30.png",
+      "sha256_png": "4502b1c9d4f66e94af4a35f395be68b16a26461b65f4b8b3b24ac08a3fe0ed4a"
+    },
+    {
+      "pagina": 31,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de conjuntos e limites de itens íntegra; usos e cópias cabem sem divisão.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-31.png",
+      "sha256_png": "3dcbf01624b10a25aaf8c9b3ffa39b036a506637e9b70b35e8c88d50ad78a46e"
+    },
+    {
+      "pagina": 32,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Etapas conceituais de aquisição e criação separadas por subtítulos; exemplo íntegro.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-32.png",
+      "sha256_png": "9344d2c40398789babc45db3f51bbe08c097b989b5b49b0afa9d71fca85805f4"
+    },
+    {
+      "pagina": 33,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Quatro fichas de armas com rótulos e efeitos completos, sem título isolado ou corte.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-33.png",
+      "sha256_png": "d07a18cc07d58cf63ab7e471100c53761aca0c87adcace2327562f27aeb382e2"
+    },
+    {
+      "pagina": 34,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Três fichas de vestimenta e exemplo do Manto íntegros.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-34.png",
+      "sha256_png": "e1fe9b2c71c64403bc6647fcb744a8eceeae9d785a7686691f35936485eaefc4"
+    },
+    {
+      "pagina": 35,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Quatro proteções completas; regras longas do Escudo Suspenso cabem com entrelinha regular.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-35.png",
+      "sha256_png": "82d8a6fcea6fe557d42c5401c52190ccd5849669b50f9cb4a9a8d9a1af819edb"
+    },
+    {
+      "pagina": 36,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Quatro itens com custos e durações legíveis, sem sobreposição de negritos ou títulos.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-36.png",
+      "sha256_png": "8075676f7a211fa7f1b1d21c8b055d4e1ecb370c12c2072d2bc5dd18d2616e79"
+    },
+    {
+      "pagina": 37,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Fichas de grau elevado e exemplo de Anátema completos, sem cortes.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-37.png",
+      "sha256_png": "667fd66e86b9fec0839b76ce2ea5c67cbba8c4a34b0cba841c882aea3d57ec87"
+    },
+    {
+      "pagina": 38,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Primeira tabela de Desgaste corrigida e reinspecionada; agora alcança a mesma margem direita da segunda, com colunas legíveis.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-38.png",
+      "sha256_png": "fecdbb694d06a2a9cba8bbe1ddf7a3022c2ea3ac165fe8538d085bc63ca449ef"
+    },
+    {
+      "pagina": 39,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Seções de objetos amaldiçoados, exemplo e parágrafo final íntegros.",
+      "revisor": "/root/rotas_didatica",
+      "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-39.png",
+      "sha256_png": "a1f481fc55651e2eacdd67926b4e6a77de4de39dd74aab2c5b9a295ef0d512dc"
+    }
+  ],
+  "limites": [
+    "Inspeção por modelo, não leitura de jogadores nem teste de impressão.",
+    "Prova local; integração pode alterar paginação e exige nova inspeção."
+  ]
+}

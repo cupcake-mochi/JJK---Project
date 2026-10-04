@@ -1,0 +1,33 @@
+{
+  "leituras": [
+    {
+      "fonte": "manual/07-glossario.md",
+      "escopo": "Leitura integral; 167 ocorrências mapeadas."
+    },
+    {
+      "fonte": "PLANO-EDITORIAL.md e ROTEIRO-DE-EXECUCAO.md",
+      "escopo": "Consulta aos objetivos de glossário, fichas, referências, navegação e validação."
+    },
+    {
+      "fonte": "R01–R22 listados em FONTES-CANDIDATAS.json",
+      "escopo": "Leitura dos recortes de definição e interfaces; capítulos próprios já lidos integralmente em autoria anterior. O mapa de títulos completo foi extraído, sem confundir extração com leitura integral de todos os capítulos."
+    },
+    {
+      "fonte": "Player’s Handbook D&D2024, exemplar local traduzido, texto /tmp/r07-phb.txt",
+      "escopo": "Função da apresentação e criação (páginas impressas7–8/33), convenções do glossário(360) e índice(378). Não importou regras nem prosa."
+    },
+    {
+      "fonte": "Dungeon Master’s Guide D&D2024, exemplar local, /tmp/r07-dmg-intro.txt e /tmp/r07-dmg.txt",
+      "escopo": "Papel do mestre, preparação e registros das páginas iniciais5–9. Não leu integralmente nem importou XP/encounter budget."
+    },
+    {
+      "fonte": "R22 evidências de fonte oficial JJK",
+      "escopo": "Prévia volume1: imagens27,43,46 vistas diretamente; perfis oficiais Megumi/Panda/Kyoto/MeiMei/Jogo/Hanami lidos. Fonte sustenta apresentação geral, não fórmulas do sistema."
+    },
+    {
+      "fonte": "HANDOFF-ficha-digital.md e PROMPT-ficha-digital.md",
+      "escopo": "Referência histórica de campos; fórmulas antigas não adotadas. Aplicativo em trabalho no Claude não foi validado."
+    }
+  ],
+  "limites": "Não declara leitura integral dos livros comerciais nem revisão humana. Não redistribui seus PDFs ou trechos."
+}

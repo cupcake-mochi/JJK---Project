@@ -1,0 +1,380 @@
+[
+  {
+    "id": "R15-01",
+    "tipo": "editorial",
+    "secao": "guia",
+    "antes": "Introdução Coordenador de Aberturas, metatexto e armas sem treino de verdade.",
+    "depois": "Introdução concreta, atributos e escolhas em tabela; treino e equipamento separados.",
+    "motivo": "Remover descrição depreciativa de armas e esclarecer papel de apoio.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-02",
+    "tipo": "preservação",
+    "secao": "guia",
+    "antes": "Vida5/PE5, Essência, Persuasão/Medicina,5 escolhas com troca2por1arma,TR1, armasFogo/Balestra.",
+    "depois": "Mesmos números, trocas e requisitos.",
+    "motivo": "Não transformar revisão textual em alteração do pacote inicial.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-03",
+    "tipo": "compatibilidade",
+    "secao": "guia",
+    "antes": "contratos-v0.331 disponíveis na pasta integrada.",
+    "depois": "Arquivo conferido: contém somente decisões de Bastião; não foi usado para inventar decisões do Guia.",
+    "motivo": "Rastrear autoridade real da fonte.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-04",
+    "tipo": "editorial",
+    "secao": "guia-progressao",
+    "antes": "Habilidades em citações extensas, sem páginas por assunto.",
+    "depois": "17 blocos com custos destacados, progressão e exemplos; sem preencher tamanho mínimo.",
+    "motivo": "Consulta durante jogo e navegação mais simples.",
+    "impacto_ou_limite": "Nenhuma regra foi removida por estar em página curta.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-05",
+    "tipo": "preservação",
+    "secao": "guia-progressao",
+    "antes": "Abrir Caminho Bônus+1PE, uma vez no próprio turno;18m, aliado voluntário que recebe orientação.",
+    "depois": "Conserva ação, PE, alcance, comunicação e prazo até próximo turno.",
+    "motivo": "Preservar a identidade e o custo do suporte.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-06",
+    "tipo": "mecânica de fechamento",
+    "secao": "guia-progressao",
+    "antes": "Uma Abertura por Guia e por criatura, sem procedimento ao receber de outro Guia.",
+    "depois": "Ao aceitar nova, anterior termina sem consumo, resposta ou repasse.",
+    "motivo": "Impedir acúmulo e gatilhos de substituição sem uso real.",
+    "impacto_ou_limite": "Não proíbe trocar a origem da ajuda; custo anterior não volta.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-07",
+    "tipo": "compatibilidade",
+    "secao": "guia-progressao",
+    "antes": "Não entregar Abertura a si; suporte sem ataques adicionais próprios.",
+    "depois": "Convites e Aberturas dirigidos a outras criaturas.",
+    "motivo": "Não converter a segunda resposta sem custo do Guia em ataque concedido a si próprio.",
+    "impacto_ou_limite": "Outra criatura pode apoiar um Guia normalmente; a proibição é ser o destinatário da própria habilidade.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-08",
+    "tipo": "preservação",
+    "secao": "guia-aberturas",
+    "antes": "Avançar3m, Executar vantagem ataque/perícia, Resguardar vantagemTR;fora1min.",
+    "depois": "Mesmos benefícios, ameaça específica e momento de declaração.",
+    "motivo": "Não confundir Abertura com ação extra nem conceder proteção contra todo ataque de oportunidade.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-09",
+    "tipo": "mecânica de fechamento",
+    "secao": "guia-resposta",
+    "antes": "Texto diz ação/movimento/efeito; exemplo dispara depois de um ataque numa Condução.",
+    "depois": "Tentativa beneficiada, dano e efeitos terminam; resposta; depois continua a ação que continha outros ataques.",
+    "motivo": "Uniformizar procedimento com exemplo aprovado.",
+    "impacto_ou_limite": "Não interrompe dano ou desfaz ataque; pode intercalar resposta entre ataques de uma ação.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-10",
+    "tipo": "compatibilidade",
+    "secao": "guia-resposta",
+    "antes": "Resposta gasta Reação dos dois e não desencadeia outra ação concedida.",
+    "depois": "Esclarece que outro Guia também não gera nova Resposta Coordenada a partir dela.",
+    "motivo": "Evitar circuito de ações concedidas entre apoiadores.",
+    "impacto_ou_limite": "O limite da rodada continua contado entre começos de turno do Guia.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-11",
+    "tipo": "editorial",
+    "secao": "guia-resposta",
+    "antes": "Exemplo mencionava Condução, Vanguarda e Emanador sem necessidade.",
+    "depois": "Exemplo original de ataque e feitiço conhecido de Classe0, sem reexplicar outro Caminho.",
+    "motivo": "Cumprir validador de localização pedido pelo usuário.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-12",
+    "tipo": "compatibilidade",
+    "secao": "guia-resposta",
+    "antes": "Golpe não é AçãoAtacar nem Sequência; entidade utiliza coletiva por R11.",
+    "depois": "Golpe tampouco cria básica de entidade; Reação da beneficiária segue seu dono.",
+    "motivo": "Manter as traduções do capítulo de invocações sem copiar esse capítulo.",
+    "impacto_ou_limite": "Duas entidades compartilham coletiva; segunda resposta do nível30 só dispensa Reação do Guia.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-13",
+    "tipo": "mecânica de fechamento",
+    "secao": "guia-resposta",
+    "antes": "Leitura de Equipe exige escolher2 treinos dentre6; criação pode oferecer só Medicina nesse grupo.",
+    "depois": "Escolhe a que possui e completa a seleção ao treinar outra da lista.",
+    "motivo": "Evitar habilidade indefinida sem conceder treino gratuito.",
+    "impacto_ou_limite": "Um personagem ainda pode ter só uma perícia beneficiada enquanto não treinar outra.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-14",
+    "tipo": "preservação",
+    "secao": "guia-planos",
+    "antes": "Reajustar por Reação antes dos dados, mantém prazo; repasse23 uma vez, outro aliado/outro tipo.",
+    "depois": "Custos, prazo, histórico de participantes/tipos e limite de resposta mantidos.",
+    "motivo": "Reajuste não recupera abertura já gasta nem transforma vantagem depois do erro.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-15",
+    "tipo": "preservação",
+    "secao": "guia-plano-conjunto",
+    "antes": "Nível30 três aliados/tipos e duas respostas; primeira paga reação, segunda dispensa sóGuia.",
+    "depois": "Mesmas travas, gasto por cena na declaração e teto total por rodada.",
+    "motivo": "Não ganhar segunda reação das entidades ou reiniciar primeiro uso de resposta.",
+    "impacto_ou_limite": "Casos incluem resposta anterior na rodada e reajuste que já gastou Reação.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-16",
+    "tipo": "preservação",
+    "secao": "guia-plano-conjunto",
+    "antes": "Trilha, resposta e repasse possuem ordem; intervenções antes dos dados são exceções.",
+    "depois": "Mantém tentativa→ajuda daTrilha→Resposta→repasse, com exceção expressa de timing.",
+    "motivo": "Distinguir custo agregado de concessão de novas ações.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-17",
+    "tipo": "preservação",
+    "secao": "guia-arquiteto",
+    "antes": "Atributo fixo Int/Ess mínimo1, teto2+floorA/2;PV10+N+5A;DEF10+M;duração10A;100Akg.",
+    "depois": "Mesmas fórmulas, vida/duração/peso calculados na criação, teto atual conforme atributo.",
+    "motivo": "Evitar regenerar vida ou prazo ao recalcular atributo.",
+    "impacto_ou_limite": "203 perfis e exemplo N11/A4 conferidos; Grau de item não entra nessas contas.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-18",
+    "tipo": "mecânica solicitada",
+    "secao": "guia-modelos",
+    "antes": "Mureta básica altura1m.",
+    "depois": "Até1,5m; conserva Cobertura Parcial da versão.",
+    "motivo": "Atender pedido de medidas múltiplas de1,5m, confirmado pelo root.",
+    "impacto_ou_limite": "Altura máxima+0,5m (+50%); sem promoção automática a Boa/Total. Categoria comprada e posição continuam necessárias.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-19",
+    "tipo": "compatibilidade",
+    "secao": "guia-modelos",
+    "antes": "Obras possuem vida/DEF próprios mas procedimento de dano não explicado.",
+    "depois": "Remete a Danificar objetos usando ficha própria; sem Bloquear ou resistência pela aparência.",
+    "motivo": "DonoR04/itens diz explicitamente que objetos com ficha própria usam seus valores.",
+    "impacto_ou_limite": "Não usa ataque automático do domínio; ataques/críticos de objeto seguem dono geral.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-20",
+    "tipo": "compatibilidade",
+    "secao": "guia-modelos",
+    "antes": "Encerrar obra no limite só se não protege/sustenta ninguém.",
+    "depois": "Mantém veto; explicita que encerramento voluntário não pode derrubar pessoa ou retirar proteção naquele momento.",
+    "motivo": "Não converter substituição de obra em ataque ambiental sem custo próprio.",
+    "impacto_ou_limite": "Expiração/destruição normal conserva seus efeitos; não torna obra eterna por estar ocupada.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-21",
+    "tipo": "editorial",
+    "secao": "guia-obra-uso",
+    "antes": "Mudar modelo conserva tamanho já pago.",
+    "depois": "Conserva versão comprada e usa dimensões do novo modelo nessa versão.",
+    "motivo": "Mureta/Passarela/Patamar têm dimensões diferentes; tamanho genérico era ambíguo.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-22",
+    "tipo": "preservação",
+    "secao": "guia-obras-maiores",
+    "antes": "Obras2/6/10PE; consertar1/3/5;Ampliada→Grande+4.",
+    "depois": "Mesmos custos, vida restante, prazo e suporte de peso, sem escalar PV por tamanho.",
+    "motivo": "Não esconder aumento de durabilidade no tamanho da obra.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-23",
+    "tipo": "mecânica de fechamento",
+    "secao": "guia-emergencia",
+    "antes": "Emergência cria obra por reação2PE e pode ligar Aberturaanterior; nova abertura implícita pelo preço era ambígua.",
+    "depois": "Só cria obra, não nova Abertura; pode preservar anterior conforme requisitos.",
+    "motivo": "Evitar Abrir Caminho fora do próprio turno e renovação gratuita de cadeia.",
+    "impacto_ou_limite": "Versão maior paga+4/+8, usos1/cena; não recupera investimento antigo.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-24",
+    "tipo": "compatibilidade",
+    "secao": "guia-emergencia",
+    "antes": "Plano Construído perde Abertura se obra destruída; fim por prazo/escolha não dito.",
+    "depois": "Abertura também termina se a obra acabar por duração ou escolha; emergência só pelo gatilho próprio.",
+    "motivo": "Evitar manter oportunidade localizada numa obra inexistente.",
+    "impacto_ou_limite": "Plano Construído continua uma Abertura,18m/comunicação ao assumir, histórico da cadeia preservado.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-25",
+    "tipo": "preservação",
+    "secao": "guia-analista",
+    "antes": "Quatro previsões e confirmação depois da ação; Avançar semReação, repetir falha preservando procedimento.",
+    "depois": "Conserva lista, posição18m, momento posterior e uma repetição por aplicação.",
+    "motivo": "Não ler uma previsão como retroatividade ou certeza sobre o inimigo.",
+    "impacto_ou_limite": "Probabilidades exatas mostram força combinada com vantagem externa; não foi nerfada.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-26",
+    "tipo": "compatibilidade",
+    "secao": "guia-analista",
+    "antes": "Bloquear ou mover confirmam como categorias possíveis.",
+    "depois": "Bloquear confirma após terminar; movimento previsto é voluntário.",
+    "motivo": "Não confirmar antes do dano ou pelo empurrão de outra criatura.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-27",
+    "tipo": "preservação",
+    "secao": "guia-brecha",
+    "antes": "Brecha Executar confirmada3PE, primeiroTR inimigo passa, repete, não teste já repetido.",
+    "depois": "Mesmos limites, semReação, sem efeito nos demais alvos/testes.",
+    "motivo": "Não aplicar duas tentativas de fracasso a todo alvo de uma área.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-28",
+    "tipo": "preservação",
+    "secao": "guia-brecha",
+    "antes": "Rever1PE+Reação após ação diferente da lista.",
+    "depois": "Confirma só para tentativas posteriores, conservando demais campos.",
+    "motivo": "Evitar alterar resultado que já ocorreu.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-29",
+    "tipo": "preservação",
+    "secao": "guia-padrao",
+    "antes": "Padrão1/cena, fim começo terceiroturnoseguinte, mesmoinimigo18m.",
+    "depois": "Preserva prazo, duas próximas oportunidades normais de turno e nenhuma renovação por confirmar de novo.",
+    "motivo": "Separar duração do padrão e duração de cada Abertura.",
+    "impacto_ou_limite": "Sem alteração numérica.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-30",
+    "tipo": "preservação",
+    "secao": "guia-socorrista",
+    "antes": "Cuidado+2PE, aliado1PV e abaixo de metade atual;cura1d8+A e pode ultrapassar metade.",
+    "depois": "Mesmos limiares no recebimento e custo por novo Cuidado antes do nível27.",
+    "motivo": "Metade é condição de acesso, não limite do resultado.",
+    "impacto_ou_limite": "Ao atingir metade exata, cura comum deixa de ser elegível.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-31",
+    "tipo": "compatibilidade",
+    "secao": "guia-tratamento",
+    "antes": "Nível11 permite Cuidado por cura ou condição; escolhe alternativa ao receber.",
+    "depois": "Explicita elegibilidade por qualquer das duas na preparação e escolha válida no recebimento.",
+    "motivo": "Não preparar atendimento preventivo para quem está saudável e sem condição; não obriga selecionar modo antes.",
+    "impacto_ou_limite": "Cuidado preparado para cura pode depois tratar uma condição recebida, se estiver presente ao consumir.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-32",
+    "tipo": "compatibilidade",
+    "secao": "guia-tratamento",
+    "antes": "Derrubado levanta sem gastar movimento; R03 distingue causa que mantém no chão.",
+    "depois": "Encerra uma causa tratável, levanta se nenhuma outra mantiver e existir apoio.",
+    "motivo": "Alinhar remoção de uma fonte de condição com regra geral.",
+    "impacto_ou_limite": "Não ignora outra contenção/efeito nem cria chão; Desarmado exige arma alcançável.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-33",
+    "tipo": "preservação",
+    "secao": "guia-emergencia-cuidado",
+    "antes": "AindaHáTempo1/cena+Reação+2PE, Cuidado já preparado, zero, vivo ecurável;floorA/2d8+A.",
+    "depois": "Mesma emergência e recursos, sem segundo consumo de Abertura que já foi usada.",
+    "motivo": "Não virar cura gratuita de qualquer alvo caído.",
+    "impacto_ou_limite": "Não ignora proibição de curar entidade a0/R11; morte/Integridade futura continua pendente.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-34",
+    "tipo": "preservação",
+    "secao": "guia-emergencia-cuidado",
+    "antes": "Atendimento27 um custo2PE para cadeia, uma cura/tratamento por aliado, emergênciaextra não duplica.",
+    "depois": "Conserva gasto inicial, prazo e limites de emergência.",
+    "motivo": "Distinguir economia de PE de aumento de usos por cena.",
+    "impacto_ou_limite": "N30/A6: três cuidados médios31,5PV por3PE; com uma emergência40,5PV por5PE, sob elegibilidade e ações.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "R15-35",
+    "tipo": "mecânica de fechamento",
+    "secao": "guia-plano-conjunto",
+    "antes": "Duas Respostas Coordenadas na cadeia sem limite explícito por consumo.",
+    "depois": "Cada Abertura consumida permite uma resposta; a segunda exige outra parte consumida.",
+    "motivo": "Preservar a sequência do exemplo aprovado e o papel de Passar a Oportunidade, evitando dois convites pelo mesmo consumo.",
+    "impacto_ou_limite": "Mantém máximo de duas respostas, reduz leitura alternativa que concentrava as duas no primeiro consumo.",
+    "status": "candidata; não publicada"
+  },
+  {
+    "id": "GUIA-36",
+    "antes": "Quadro repetia apenas 5 PV por nível da fonte do Caminho.",
+    "depois": "8 + Constituição inicial e 5 + Constituição seguintes; PE 5 × nível.",
+    "motivo": "Revisão independente detectou omissão da regra de criação na apresentação autocontida.",
+    "tipo": "correção editorial",
+    "impacto": "Nenhuma alteração na vida real: valores do manual20.",
+    "status": "candidata"
+  },
+  {
+    "id": "GUIA-37",
+    "antes": "Obras maiores era página autônoma sem nível de aquisição.",
+    "depois": "A partir do nível 11 na frase inicial.",
+    "motivo": "Preservar o requisito da fonte integrada, removendo leitura que concede variantes no nível 2.",
+    "tipo": "correção editorial/funcional",
+    "impacto": "Não muda nível original; bloqueia leitura indevida.",
+    "status": "candidata"
+  },
+  {
+    "id": "GUIA-38",
+    "antes": "Ainda Há Tempo não declarava exceção ao novo limiar de cura de Morrendo. Em máximos de referência altos, sua cura podia ser incapaz de socorrer o aliado, mesmo no maior resultado.",
+    "depois": "Enquanto o aliado ainda estiver **Morrendo**, esta cura encerra a queda mesmo abaixo do limiar normal de recuperação. Tratamento já acumulado e Sequela seguem **Socorro**, em Dano e Recuperação. Ela não permite voltar à cena depois de **Derrotado**.",
+    "motivo": "Preservar a função expressa de resgate da habilidade após o redesenho de Morrendo: 3d8 + 6 cura no máximo 30, abaixo dos 39 exigidos por uma referência 195. O pedido autorizado permite a exceção específica e mantém o limiar das curas gerais.",
+    "tipo": "ajuste mecânico de compatibilidade",
+    "impacto": "Retira apenas o requisito quantitativo de tratamento para este uso enquanto Morrendo. Mantém nível19, preparo anterior, 18m, percepção, Reação, 2PE adicionais, consumo da Abertura e do Cuidado, uma vez por cena, fórmula de cura e impedimentos do alvo. Não retoma participação após Derrotado, não ressuscita nem cura entidade a zero contra R11.",
+    "status": "candidata; delta sujeito à revisão independente da raiz",
+    "validacao": "auditar.py: modelo de resgate com estados, recursos e cura; 36 perfis exatos de dados versus limiar anterior. Prova/PDF anterior preservado, ainda não reexportado."
+  }
+]

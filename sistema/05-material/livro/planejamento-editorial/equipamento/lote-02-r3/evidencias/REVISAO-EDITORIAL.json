@@ -1,0 +1,26 @@
+{
+  "data": "2026-10-03",
+  "responsavel": "autor desta rodada",
+  "independente": false,
+  "teste_humano": false,
+  "sha256_texto": "18cbff010ba9848b39346d6b77037c3b1b7ec1bbe7f75ae5e36486ac54c679a5",
+  "secoes": [
+    {
+      "id": "protecao",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    },
+    {
+      "id": "traje",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    },
+    {
+      "id": "escudo",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    },
+    {
+      "id": "vestir",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    }
+  ],
+  "revisao_complementar": "Texto relido; somente Volume e exemplos recalculados, ou separação da conversão de corpos. Demais regras herdadas da candidata anterior."
+}

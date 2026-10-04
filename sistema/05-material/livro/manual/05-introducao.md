@@ -39,9 +39,10 @@ Nem todo capítulo é para ler do começo ao fim. Metade dos capítulos é catá
 | **13** | Ritual | *consulta* · o que um feitiço ganha quando você para de omitir |
 | **14** | Bênçãos e Lapidação | *consulta* · o que entra no lugar dos dois para quem não tem energia amaldiçoada |
 | **15** a **16** | Equipamento · Ferramenta Amaldiçoada | *consulta* · o que você carrega |
-| **17** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
+| **17** | Invocações | *consulta* · montar entidades, manifestar e comandar |
+| **18** | Pactos | *consulta* · o que você troca com a sua própria energia, e o que ela cobra |
 | | **A CAMPANHA** | |
-| **18** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
+| **19** | Experiência e Progressão | *consulta* · o que cada nível entrega, do 1 ao 30 |
 | | **Índice remissivo** | no fim: termo, e em que página ele aparece |
 
 **Grupo novo, sem ninguém ter lido nada?** Vá direto para *Antes da primeira sessão*. É uma cena pronta, com ficha e tudo, para jogar antes de estudar o resto.

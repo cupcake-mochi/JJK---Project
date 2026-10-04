@@ -1,0 +1,11 @@
+{
+  "sha256_pdf_anterior": "acae67ca706cd017ecc0a9236ae0d99284d3e438d2d02d485a9bf682ac788cc1",
+  "sha256_pdf": "f7412f2f24163076640d7fe0c8443191fb2ebe4e8b6a2ea72a8561ee35ec1a3a",
+  "alteracao": "Seletor de largura específico de tabelas Grau agora exige três colunas. A tabela de Desgaste com duas colunas usa a largura completa.",
+  "texto_alterado": false,
+  "sha256_texto": "c5a6b376afdbcc2439f53b270a1e82323ec99575cbdc530ce11cb31101b14f8f",
+  "paginas_com_pixels_alterados": [
+    "pagina-38.png"
+  ],
+  "demais_paginas_iguais": 38
+}

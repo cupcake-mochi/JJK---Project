@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "sha256_texto": "f16e12fb1445657ca5cab2466bc8c9a8b85c40b49789ebb414472872a6491645",
+  "origem": "evidencias/AUDITORIA.json",
+  "casos": {
+    "verificacoes": 126,
+    "casos": 73,
+    "perfis_probabilidade": 19,
+    "mutacoes": 6
+  },
+  "independente": "REVISAO-INDEPENDENTE-RAIZ.md"
+}

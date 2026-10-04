@@ -1,0 +1,6663 @@
+{
+  "ok": true,
+  "sha256_texto": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/consulta/lote-01/CONSULTA.md": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980"
+  },
+  "verificacoes": 994,
+  "casos_executados": 48,
+  "pares_d20_por_cenario": 400,
+  "cenarios_d20": 5,
+  "checks": [
+    {
+      "verificacao": "30 seções previstas",
+      "obtido": 30,
+      "esperado": 30,
+      "ok": true
+    },
+    {
+      "verificacao": "Âncoras únicas",
+      "obtido": 30,
+      "esperado": 30,
+      "ok": true
+    },
+    {
+      "verificacao": "Títulos do mapa",
+      "obtido": {
+        "consulta-glossario-1": "Glossário: Ação a Carga",
+        "consulta-glossario-2": "Glossário: Categoria a Espaço",
+        "consulta-glossario-3": "Glossário: Especial a Invocação",
+        "consulta-glossario-4": "Glossário: Invocador a Pacto",
+        "consulta-glossario-5": "Glossário: Patente a Selo",
+        "consulta-glossario-6": "Glossário: Sem a Volume",
+        "consulta-testes": "Testes na mesa",
+        "consulta-ataques": "Ataques e efeitos",
+        "consulta-entidades": "Entidades na mesa",
+        "consulta-ficha-personagem": "Ficha de personagem",
+        "consulta-ficha-repertorio": "Repertório e inventário",
+        "consulta-ficha-feitico": "Ficha de aplicação",
+        "consulta-ficha-entidade": "Ficha de entidade",
+        "consulta-ficha-entidade-capacidades": "Ficha de capacidades da entidade",
+        "consulta-ficha-recuperacao": "Ficha de recuperação",
+        "consulta-registro-missao": "Registro de missão",
+        "consulta-missao": "Preparar uma missão",
+        "consulta-conduzir": "Mestrar uma sessão",
+        "consulta-referencias": "Referências e adaptação",
+        "consulta-indice-1": "Índice: A",
+        "consulta-indice-2": "Índice: A–C",
+        "consulta-indice-3": "Índice: C–D",
+        "consulta-indice-4": "Índice: D–E",
+        "consulta-indice-5": "Índice: E–G",
+        "consulta-indice-6": "Índice: G–L",
+        "consulta-indice-7": "Índice: L–O",
+        "consulta-indice-8": "Índice: O–P",
+        "consulta-indice-9": "Índice: P–S",
+        "consulta-indice-10": "Índice: S–V",
+        "consulta-indice-11": "Índice: V–X"
+      },
+      "esperado": {
+        "consulta-glossario-1": "Glossário: Ação a Carga",
+        "consulta-glossario-2": "Glossário: Categoria a Espaço",
+        "consulta-glossario-3": "Glossário: Especial a Invocação",
+        "consulta-glossario-4": "Glossário: Invocador a Pacto",
+        "consulta-glossario-5": "Glossário: Patente a Selo",
+        "consulta-glossario-6": "Glossário: Sem a Volume",
+        "consulta-testes": "Testes na mesa",
+        "consulta-ataques": "Ataques e efeitos",
+        "consulta-entidades": "Entidades na mesa",
+        "consulta-ficha-personagem": "Ficha de personagem",
+        "consulta-ficha-repertorio": "Repertório e inventário",
+        "consulta-ficha-feitico": "Ficha de aplicação",
+        "consulta-ficha-entidade": "Ficha de entidade",
+        "consulta-ficha-entidade-capacidades": "Ficha de capacidades da entidade",
+        "consulta-ficha-recuperacao": "Ficha de recuperação",
+        "consulta-registro-missao": "Registro de missão",
+        "consulta-missao": "Preparar uma missão",
+        "consulta-conduzir": "Mestrar uma sessão",
+        "consulta-referencias": "Referências e adaptação",
+        "consulta-indice-1": "Índice: A",
+        "consulta-indice-2": "Índice: A–C",
+        "consulta-indice-3": "Índice: C–D",
+        "consulta-indice-4": "Índice: D–E",
+        "consulta-indice-5": "Índice: E–G",
+        "consulta-indice-6": "Índice: G–L",
+        "consulta-indice-7": "Índice: L–O",
+        "consulta-indice-8": "Índice: O–P",
+        "consulta-indice-9": "Índice: P–S",
+        "consulta-indice-10": "Índice: S–V",
+        "consulta-indice-11": "Índice: V–X"
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "89 termos definidos",
+      "obtido": 89,
+      "esperado": 89,
+      "ok": true
+    },
+    {
+      "verificacao": "268 entradas no índice",
+      "obtido": 268,
+      "esperado": 268,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice sem duplicatas",
+      "obtido": 268,
+      "esperado": 268,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice alfabético",
+      "obtido": [
+        "acao",
+        "acao bonus",
+        "acao completa",
+        "acao de movimento",
+        "acao padrao",
+        "agarrado",
+        "agarrar",
+        "agil (nome anterior)",
+        "aguentar",
+        "ajudar",
+        "alcance",
+        "alvo de caca",
+        "amedrontado",
+        "ampliar",
+        "analista",
+        "anteparo",
+        "aparar",
+        "apoio",
+        "aptidao",
+        "aquecer",
+        "area",
+        "armado",
+        "arquiteto",
+        "arredondamento",
+        "assassino",
+        "atacar",
+        "ataque",
+        "atordoado",
+        "atrasar",
+        "atributo",
+        "atuacao basica",
+        "aura",
+        "aviso (melhoria; nome anterior)",
+        "aviso (talento; nome anterior)",
+        "basica",
+        "bastiao",
+        "bencao",
+        "bloquear",
+        "brecha",
+        "calado",
+        "caminho",
+        "canalizar em golpe",
+        "carga",
+        "catalisador",
+        "categoria de efeito",
+        "cd",
+        "ce",
+        "cego",
+        "cena",
+        "cicatriz",
+        "classe",
+        "classe 0",
+        "classe passiva (nome anterior)",
+        "cobertura",
+        "combatente amaldicoado",
+        "combinar aprimoramentos",
+        "concentracao",
+        "concentrada",
+        "condicao",
+        "condicional",
+        "condutor armado",
+        "cone",
+        "corpo",
+        "corpo a corpo",
+        "corpo amaldicoado",
+        "corpo amaldicoado (origem)",
+        "cp (sigla anterior)",
+        "critico",
+        "cura (forma)",
+        "cura (recuperacao)",
+        "dano na alma",
+        "defesa",
+        "defesa sem armadura",
+        "derrotado",
+        "derrubado",
+        "desarmado",
+        "desgaste",
+        "deslocamento",
+        "desvantagem",
+        "divida",
+        "domar",
+        "duracao",
+        "duradoura",
+        "efeito",
+        "efeito proprio",
+        "emanador",
+        "emaranha",
+        "energia amaldicoada pura (dano)",
+        "energia temporaria",
+        "enfeiticado",
+        "entidade",
+        "envenenado",
+        "escolher",
+        "esconder",
+        "espaco conhecido",
+        "espaco de feitico",
+        "especial de invocacao",
+        "especial e repertorio",
+        "essencia",
+        "estabilizar",
+        "estagios de integridade",
+        "estigma",
+        "estimulo muscular",
+        "estudar",
+        "evocador",
+        "exaustao",
+        "expansao de dominio",
+        "expansao sem barreiras",
+        "experiencia semanal",
+        "explosao",
+        "expressao da tecnica",
+        "fabricacao de entidades",
+        "familia",
+        "feitico",
+        "ferramenta amaldicoada",
+        "ferramentas e reparo",
+        "fica",
+        "fineza",
+        "fluidez",
+        "fluxo",
+        "forca (atributo)",
+        "forca (dano)",
+        "forma",
+        "fundamento",
+        "fura",
+        "gatilho",
+        "gesto",
+        "grau",
+        "grau (patente)",
+        "guarda",
+        "guarda aberta",
+        "guia",
+        "identificar feitico",
+        "impedido",
+        "incapacitado (nome anterior)",
+        "inconsciente",
+        "incursor",
+        "inescapavel",
+        "insistir",
+        "integridade",
+        "integridade maxima",
+        "intencao",
+        "inventario",
+        "invocacao",
+        "invocador",
+        "kata",
+        "lapidacao",
+        "legado",
+        "leitura de feiticos",
+        "lento",
+        "leque",
+        "levanta",
+        "leve",
+        "leve, media e pesada",
+        "liberacao maxima",
+        "linha",
+        "longe",
+        "longo alcance",
+        "maestria",
+        "maior",
+        "malabarista",
+        "manejo",
+        "manifestacao e convergencia",
+        "manifestacao em grupo",
+        "manifestar",
+        "mao firme",
+        "marco",
+        "media",
+        "melhoria",
+        "monge (nome anterior)",
+        "morrendo",
+        "movimento imposto",
+        "multiplas invocacoes",
+        "municao",
+        "muro",
+        "nivel",
+        "obras em emergencia",
+        "oculta",
+        "oficio",
+        "ogi",
+        "onda",
+        "ordem antecipada",
+        "origem",
+        "pacto",
+        "par",
+        "parado",
+        "parceria",
+        "passiva (nome anterior)",
+        "passiva livre (nome anterior)",
+        "passiva propria (nome anterior)",
+        "patente",
+        "pe",
+        "pericia",
+        "pesada",
+        "planos em andamento",
+        "pontos",
+        "pontos de energia",
+        "pontos de montagem",
+        "pontos de vida",
+        "pontos de vinculo",
+        "precisao",
+        "preparar",
+        "progressao do guia",
+        "projetil",
+        "promessa",
+        "protecao",
+        "protecao de aliados",
+        "pugilista",
+        "punho",
+        "pv",
+        "quedas",
+        "queima",
+        "rajada",
+        "rapido",
+        "reacao",
+        "reacao coletiva",
+        "reducao de dano",
+        "refino",
+        "regra",
+        "regra da tecnica",
+        "remenda",
+        "ressonante",
+        "restricao",
+        "ritual",
+        "rodada",
+        "rodada inteira",
+        "rompe",
+        "ruptura",
+        "saltos",
+        "selo",
+        "sem tecnica",
+        "sentir energia",
+        "sequela",
+        "sobrecarga e fluxo",
+        "socorrista",
+        "socorro",
+        "socorro de emergencia",
+        "surdo",
+        "talento",
+        "talento proprio",
+        "talha",
+        "tecnica amaldicoada",
+        "tecnica marcial",
+        "tecnica maxima",
+        "teste",
+        "teste de resistencia",
+        "teto",
+        "toca a alma",
+        "toque",
+        "traco",
+        "treino",
+        "trilha",
+        "trocar de entidade",
+        "trocar de trilha",
+        "turno",
+        "uma vez",
+        "uso limitado",
+        "uso livre",
+        "vanguarda",
+        "vantagem",
+        "vasculhar",
+        "versado",
+        "versatil",
+        "vestida",
+        "vida temporaria",
+        "volume",
+        "volumosa",
+        "xp"
+      ],
+      "esperado": [
+        "acao",
+        "acao bonus",
+        "acao completa",
+        "acao de movimento",
+        "acao padrao",
+        "agarrado",
+        "agarrar",
+        "agil (nome anterior)",
+        "aguentar",
+        "ajudar",
+        "alcance",
+        "alvo de caca",
+        "amedrontado",
+        "ampliar",
+        "analista",
+        "anteparo",
+        "aparar",
+        "apoio",
+        "aptidao",
+        "aquecer",
+        "area",
+        "armado",
+        "arquiteto",
+        "arredondamento",
+        "assassino",
+        "atacar",
+        "ataque",
+        "atordoado",
+        "atrasar",
+        "atributo",
+        "atuacao basica",
+        "aura",
+        "aviso (melhoria; nome anterior)",
+        "aviso (talento; nome anterior)",
+        "basica",
+        "bastiao",
+        "bencao",
+        "bloquear",
+        "brecha",
+        "calado",
+        "caminho",
+        "canalizar em golpe",
+        "carga",
+        "catalisador",
+        "categoria de efeito",
+        "cd",
+        "ce",
+        "cego",
+        "cena",
+        "cicatriz",
+        "classe",
+        "classe 0",
+        "classe passiva (nome anterior)",
+        "cobertura",
+        "combatente amaldicoado",
+        "combinar aprimoramentos",
+        "concentracao",
+        "concentrada",
+        "condicao",
+        "condicional",
+        "condutor armado",
+        "cone",
+        "corpo",
+        "corpo a corpo",
+        "corpo amaldicoado",
+        "corpo amaldicoado (origem)",
+        "cp (sigla anterior)",
+        "critico",
+        "cura (forma)",
+        "cura (recuperacao)",
+        "dano na alma",
+        "defesa",
+        "defesa sem armadura",
+        "derrotado",
+        "derrubado",
+        "desarmado",
+        "desgaste",
+        "deslocamento",
+        "desvantagem",
+        "divida",
+        "domar",
+        "duracao",
+        "duradoura",
+        "efeito",
+        "efeito proprio",
+        "emanador",
+        "emaranha",
+        "energia amaldicoada pura (dano)",
+        "energia temporaria",
+        "enfeiticado",
+        "entidade",
+        "envenenado",
+        "escolher",
+        "esconder",
+        "espaco conhecido",
+        "espaco de feitico",
+        "especial de invocacao",
+        "especial e repertorio",
+        "essencia",
+        "estabilizar",
+        "estagios de integridade",
+        "estigma",
+        "estimulo muscular",
+        "estudar",
+        "evocador",
+        "exaustao",
+        "expansao de dominio",
+        "expansao sem barreiras",
+        "experiencia semanal",
+        "explosao",
+        "expressao da tecnica",
+        "fabricacao de entidades",
+        "familia",
+        "feitico",
+        "ferramenta amaldicoada",
+        "ferramentas e reparo",
+        "fica",
+        "fineza",
+        "fluidez",
+        "fluxo",
+        "forca (atributo)",
+        "forca (dano)",
+        "forma",
+        "fundamento",
+        "fura",
+        "gatilho",
+        "gesto",
+        "grau",
+        "grau (patente)",
+        "guarda",
+        "guarda aberta",
+        "guia",
+        "identificar feitico",
+        "impedido",
+        "incapacitado (nome anterior)",
+        "inconsciente",
+        "incursor",
+        "inescapavel",
+        "insistir",
+        "integridade",
+        "integridade maxima",
+        "intencao",
+        "inventario",
+        "invocacao",
+        "invocador",
+        "kata",
+        "lapidacao",
+        "legado",
+        "leitura de feiticos",
+        "lento",
+        "leque",
+        "levanta",
+        "leve",
+        "leve, media e pesada",
+        "liberacao maxima",
+        "linha",
+        "longe",
+        "longo alcance",
+        "maestria",
+        "maior",
+        "malabarista",
+        "manejo",
+        "manifestacao e convergencia",
+        "manifestacao em grupo",
+        "manifestar",
+        "mao firme",
+        "marco",
+        "media",
+        "melhoria",
+        "monge (nome anterior)",
+        "morrendo",
+        "movimento imposto",
+        "multiplas invocacoes",
+        "municao",
+        "muro",
+        "nivel",
+        "obras em emergencia",
+        "oculta",
+        "oficio",
+        "ogi",
+        "onda",
+        "ordem antecipada",
+        "origem",
+        "pacto",
+        "par",
+        "parado",
+        "parceria",
+        "passiva (nome anterior)",
+        "passiva livre (nome anterior)",
+        "passiva propria (nome anterior)",
+        "patente",
+        "pe",
+        "pericia",
+        "pesada",
+        "planos em andamento",
+        "pontos",
+        "pontos de energia",
+        "pontos de montagem",
+        "pontos de vida",
+        "pontos de vinculo",
+        "precisao",
+        "preparar",
+        "progressao do guia",
+        "projetil",
+        "promessa",
+        "protecao",
+        "protecao de aliados",
+        "pugilista",
+        "punho",
+        "pv",
+        "quedas",
+        "queima",
+        "rajada",
+        "rapido",
+        "reacao",
+        "reacao coletiva",
+        "reducao de dano",
+        "refino",
+        "regra",
+        "regra da tecnica",
+        "remenda",
+        "ressonante",
+        "restricao",
+        "ritual",
+        "rodada",
+        "rodada inteira",
+        "rompe",
+        "ruptura",
+        "saltos",
+        "selo",
+        "sem tecnica",
+        "sentir energia",
+        "sequela",
+        "sobrecarga e fluxo",
+        "socorrista",
+        "socorro",
+        "socorro de emergencia",
+        "surdo",
+        "talento",
+        "talento proprio",
+        "talha",
+        "tecnica amaldicoada",
+        "tecnica marcial",
+        "tecnica maxima",
+        "teste",
+        "teste de resistencia",
+        "teto",
+        "toca a alma",
+        "toque",
+        "traco",
+        "treino",
+        "trilha",
+        "trocar de entidade",
+        "trocar de trilha",
+        "turno",
+        "uma vez",
+        "uso limitado",
+        "uso livre",
+        "vanguarda",
+        "vantagem",
+        "vasculhar",
+        "versado",
+        "versatil",
+        "vestida",
+        "vida temporaria",
+        "volume",
+        "volumosa",
+        "xp"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 1: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 1: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 2: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 2: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 3: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 3: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 4: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 4: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 5: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 5: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 6: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 6: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 7: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 7: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 8: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 8: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 9: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 9: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 10: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 10: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 11: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 11: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 12: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 12: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 13: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 13: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 14: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 14: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 15: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 15: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 16: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 16: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 17: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 17: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 18: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 18: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 19: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 19: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 20: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 20: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 21: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 21: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 22: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 22: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 23: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 23: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 24: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 24: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 25: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 25: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 26: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 26: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 27: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 27: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 28: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 28: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 29: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 29: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 30: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 30: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 31: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 31: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 32: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 32: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 33: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 33: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 34: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 34: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 35: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 35: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 36: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 36: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 37: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 37: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 38: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 38: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 39: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 39: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 40: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 40: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 41: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 41: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 42: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 42: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 43: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 43: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 44: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 44: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 45: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 45: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 46: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 46: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 47: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 47: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 48: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 48: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 49: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 49: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 50: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 50: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 51: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 51: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 52: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 52: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 53: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 53: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 54: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 54: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 55: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 55: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 56: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 56: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 57: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 57: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 58: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 58: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 59: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 59: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 60: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 60: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 61: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 61: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 62: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 62: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 63: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 63: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 64: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 64: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 65: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 65: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 66: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 66: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 67: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 67: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 68: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 68: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 69: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 69: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 70: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 70: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 71: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 71: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 72: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 72: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 73: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 73: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 74: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 74: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 75: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 75: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 76: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 76: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 77: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 77: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 78: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 78: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 79: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 79: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 80: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 80: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 81: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 81: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 82: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 82: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 83: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 83: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 84: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 84: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 85: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 85: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 86: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 86: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 87: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 87: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 88: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 88: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 89: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Glossário 89: definição e título reproduzidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 1: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 1: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 2: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 2: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 3: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 3: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 4: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 4: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 5: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 5: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 6: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 6: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 7: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 7: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 8: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 8: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 9: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 9: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 10: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 10: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 11: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 11: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 12: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 12: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 13: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 13: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 14: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 14: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 15: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 15: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 16: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 16: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 17: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 17: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 18: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 18: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 19: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 19: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 20: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 20: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 21: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 21: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 22: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 22: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 23: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 23: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 24: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 24: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 25: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 25: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 26: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 26: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 27: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 27: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 28: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 28: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 29: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 29: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 30: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 30: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 31: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 31: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 32: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 32: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 33: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 33: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 34: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 34: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 35: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 35: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 36: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 36: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 37: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 37: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 38: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 38: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 39: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 39: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 40: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 40: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 41: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 41: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 42: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 42: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 43: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 43: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 44: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 44: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 45: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 45: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 46: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 46: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 47: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 47: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 48: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 48: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 49: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 49: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 50: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 50: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 51: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 51: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 52: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 52: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 53: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 53: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 54: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 54: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 55: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 55: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 56: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 56: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 57: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 57: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 58: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 58: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 59: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 59: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 60: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 60: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 61: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 61: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 62: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 62: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 63: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 63: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 64: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 64: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 65: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 65: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 66: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 66: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 67: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 67: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 68: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 68: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 69: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 69: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 70: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 70: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 71: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 71: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 72: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 72: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 73: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 73: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 74: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 74: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 75: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 75: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 76: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 76: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 77: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 77: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 78: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 78: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 79: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 79: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 80: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 80: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 81: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 81: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 82: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 82: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 83: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 83: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 84: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 84: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 85: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 85: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 86: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 86: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 87: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 87: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 88: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 88: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 89: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 89: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 90: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 90: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 91: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 91: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 92: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 92: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 93: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 93: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 94: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 94: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 95: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 95: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 96: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 96: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 97: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 97: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 98: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 98: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 99: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 99: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 100: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 100: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 101: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 101: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 102: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 102: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 103: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 103: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 104: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 104: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 105: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 105: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 106: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 106: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 107: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 107: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 108: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 108: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 109: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 109: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 110: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 110: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 111: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 111: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 112: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 112: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 113: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 113: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 114: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 114: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 115: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 115: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 116: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 116: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 117: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 117: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 118: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 118: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 119: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 119: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 120: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 120: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 121: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 121: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 122: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 122: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 123: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 123: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 124: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 124: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 125: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 125: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 126: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 126: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 127: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 127: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 128: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 128: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 129: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 129: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 130: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 130: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 131: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 131: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 132: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 132: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 133: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 133: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 134: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 134: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 135: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 135: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 136: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 136: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 137: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 137: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 138: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 138: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 139: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 139: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 140: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 140: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 141: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 141: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 142: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 142: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 143: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 143: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 144: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 144: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 145: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 145: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 146: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 146: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 147: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 147: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 148: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 148: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 149: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 149: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 150: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 150: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 151: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 151: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 152: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 152: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 153: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 153: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 154: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 154: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 155: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 155: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 156: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 156: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 157: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 157: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 158: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 158: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 159: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 159: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 160: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 160: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 161: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 161: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 162: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 162: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 163: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 163: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 164: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 164: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 165: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 165: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 166: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 166: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 167: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 167: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 168: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 168: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 169: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 169: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 170: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 170: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 171: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 171: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 172: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 172: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 173: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 173: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 174: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 174: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 175: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 175: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 176: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 176: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 177: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 177: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 178: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 178: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 179: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 179: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 180: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 180: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 181: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 181: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 182: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 182: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 183: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 183: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 184: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 184: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 185: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 185: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 186: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 186: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 187: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 187: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 188: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 188: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 189: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 189: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 190: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 190: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 191: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 191: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 192: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 192: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 193: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 193: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 194: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 194: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 195: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 195: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 196: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 196: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 197: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 197: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 198: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 198: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 199: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 199: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 200: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 200: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 201: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 201: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 202: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 202: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 203: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 203: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 204: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 204: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 205: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 205: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 206: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 206: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 207: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 207: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 208: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 208: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 209: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 209: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 210: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 210: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 211: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 211: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 212: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 212: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 213: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 213: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 214: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 214: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 215: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 215: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 216: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 216: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 217: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 217: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 218: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 218: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 219: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 219: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 220: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 220: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 221: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 221: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 222: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 222: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 223: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 223: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 224: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 224: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 225: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 225: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 226: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 226: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 227: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 227: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 228: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 228: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 229: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 229: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 230: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 230: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 231: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 231: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 232: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 232: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 233: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 233: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 234: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 234: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 235: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 235: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 236: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 236: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 237: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 237: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 238: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 238: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 239: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 239: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 240: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 240: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 241: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 241: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 242: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 242: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 243: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 243: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 244: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 244: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 245: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 245: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 246: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 246: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 247: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 247: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 248: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 248: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 249: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 249: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 250: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 250: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 251: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 251: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 252: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 252: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 253: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 253: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 254: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 254: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 255: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 255: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 256: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 256: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 257: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 257: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 258: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 258: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 259: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 259: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 260: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 260: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 261: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 261: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 262: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 262: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 263: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 263: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 264: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 264: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 265: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 265: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 266: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 266: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 267: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 267: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 268: destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Índice 268: linha corresponde ao mapa",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "167 ocorrências da fonte mapeadas",
+      "obtido": 167,
+      "esperado": 167,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 1: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 2: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 3: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 4: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 5: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 6: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 7: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 8: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 9: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 10: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 11: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 12: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 13: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 14: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 15: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 16: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 17: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 18: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 19: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 20: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 21: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 22: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 23: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 24: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 25: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 26: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 27: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 28: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 29: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 30: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 31: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 32: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 33: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 34: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 35: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 36: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 37: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 38: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 39: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 40: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 41: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 42: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 43: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 44: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 45: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 46: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 47: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 48: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 49: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 50: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 51: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 52: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 53: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 54: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 55: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 56: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 57: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 58: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 59: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 60: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 61: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 62: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 63: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 64: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 65: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 66: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 67: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 68: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 69: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 70: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 71: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 72: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 73: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 74: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 75: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 76: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 77: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 78: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 79: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 80: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 81: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 82: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 83: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 84: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 85: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 86: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 87: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 88: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 89: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 90: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 91: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 92: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 93: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 94: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 95: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 96: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 97: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 98: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 99: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 100: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 101: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 102: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 103: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 104: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 105: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 106: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 107: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 108: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 109: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 110: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 111: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 112: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 113: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 114: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 115: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 116: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 117: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 118: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 119: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 120: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 121: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 122: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 123: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 124: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 125: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 126: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 127: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 128: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 129: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 130: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 131: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 132: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 133: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 134: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 135: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 136: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 137: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 138: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 139: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 140: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 141: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 142: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 143: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 144: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 145: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 146: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 147: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 148: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 149: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 150: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 151: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 152: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 153: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 154: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 155: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 156: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 157: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 158: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 159: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 160: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 161: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 162: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 163: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 164: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 165: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 166: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte ocorrência 167: termo/linha/destino",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-glossario-1: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-glossario-2: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-glossario-3: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-glossario-4: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-glossario-5: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-glossario-6: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-testes: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ataques: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-entidades: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-personagem: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-repertorio: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-feitico: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-entidade: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-entidade-capacidades: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-recuperacao: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-registro-missao: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-missao: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-conduzir: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-referencias: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-indice-1: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-indice-2: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-indice-3: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-indice-4: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-indice-5: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-indice-6: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-indice-7: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-indice-8: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-indice-9: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-indice-10: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-indice-11: até quatro colunas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Todos os destinos selecionados para o livro único",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Âncora ausente recusada",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Título desatualizado recusado",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Arquivo ausente recusado",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: Role d20 + bônus",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: Igualar é sucesso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: elas se cancelam, mesmo com várias fontes de um lado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: A Reação volta no começo do seu turno",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: Padrão → Bônus → Movimento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: conserva a Reação",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: Anote a preparação no momento em que a ordem for paga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: Entrar e sair não limpa usos gastos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: sem presumir recuperação por terminar a sessão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: um marcador junto do participante",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: PV atuais / máximos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: PE: total e parcela de cada pagador",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: Atributo usado, treino e bônus completo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: Famílias Livres e Fechadas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato textual: saldo e feito de limiar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: TR/teste CD15 bônus4 fontes (0, 0)",
+      "obtido": 200,
+      "esperado": 200,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: TR/teste CD15 bônus4 fontes (1, 0)",
+      "obtido": 300,
+      "esperado": 300,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: TR/teste CD15 bônus4 fontes (0, 1)",
+      "obtido": 100,
+      "esperado": 100,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: TR/teste CD15 bônus4 fontes (2, 1)",
+      "obtido": 200,
+      "esperado": 200,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: TR/teste CD15 bônus4 fontes (1, 4)",
+      "obtido": 200,
+      "esperado": 200,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Igualdade de CD15 com dado11+bônus4",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Falha um ponto abaixo",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Bônus total4 somado uma vez ao dado11",
+      "obtido": 15,
+      "esperado": 15,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Exemplo de dupla contagem detectável",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Padrão para Bônus",
+      "obtido": {
+        "P": 0,
+        "B": 2,
+        "M": 1
+      },
+      "esperado": {
+        "P": 0,
+        "B": 2,
+        "M": 1
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Nova Bônus para Movimento",
+      "obtido": {
+        "P": 0,
+        "B": 1,
+        "M": 2
+      },
+      "esperado": {
+        "P": 0,
+        "B": 1,
+        "M": 2
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Não converter Movimento para Padrão",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Não usar Padrão já gasta",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Conservar quantidade de recursos ao converter",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Completa deixa Reação disponível",
+      "obtido": {
+        "P": 0,
+        "B": 0,
+        "M": 0,
+        "R": 1
+      },
+      "esperado": {
+        "P": 0,
+        "B": 0,
+        "M": 0,
+        "R": 1
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Completa recusada quando Movimento já gasto",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Reação gasta: nova_rodada",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Reação gasta: turno_aliado",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Reação gasta: comeco_proprio_turno",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Preparação registra pagamento uma vez",
+      "obtido": {
+        "PE": {
+          "dono": 6,
+          "corpo": 7
+        },
+        "pendentes": 0,
+        "resolvidas": 1
+      },
+      "esperado": {
+        "PE": {
+          "dono": 6,
+          "corpo": 7
+        },
+        "pendentes": 0,
+        "resolvidas": 1
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Resolver sem ordem pendente recusado",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Corpo com PE separado não paga parcela pessoal",
+      "obtido": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Morrendo sem fórmula concorrente",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Integridade sem fórmula concorrente",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Formulário não concede quatro ativas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Campos não concedem recurso inexistente",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Sem habilidades copiadas no índice",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-personagem: campos necessários",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-repertorio: campos necessários",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-feitico: campos necessários",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-entidade: campos necessários",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-entidade-capacidades: campos necessários",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-ficha-recuperacao: campos necessários",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "consulta-registro-missao: campos necessários",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Consulta específica: Cura (Forma)",
+      "obtido": "amparoformas",
+      "esperado": "amparoformas",
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Consulta específica: Cura (recuperação)",
+      "obtido": "cura",
+      "esperado": "cura",
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Consulta específica: Patente",
+      "obtido": "prog-patentes",
+      "esperado": "prog-patentes",
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Consulta específica: Grau (patente)",
+      "obtido": "prog-patentes",
+      "esperado": "prog-patentes",
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Consulta específica: Inconsciente",
+      "obtido": "inconsciente",
+      "esperado": "inconsciente",
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Consulta específica: Integridade",
+      "obtido": "integridade",
+      "esperado": "integridade",
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Consulta específica: Integridade máxima",
+      "obtido": "alma",
+      "esperado": "alma",
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Consulta específica: Derrotado",
+      "obtido": "derrota",
+      "esperado": "derrota",
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Consulta específica: Estabilizar",
+      "obtido": "socorro",
+      "esperado": "socorro",
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Volumosa aponta sua restrição de porte",
+      "obtido": "eq-oculta",
+      "esperado": "eq-oculta",
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Cura não retorna destino único ambíguo",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Nome e alias: Talento",
+      "obtido": {
+        "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "selo",
+        "titulo": "Selo e Talentos"
+      },
+      "esperado": {
+        "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "selo",
+        "titulo": "Selo e Talentos"
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Nome e alias: Categoria de Efeito",
+      "obtido": {
+        "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "selo",
+        "titulo": "Selo e Talentos"
+      },
+      "esperado": {
+        "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+        "ancora": "selo",
+        "titulo": "Selo e Talentos"
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Nome e alias: Talento Próprio",
+      "obtido": {
+        "arquivo": "catalogo/lote-01/CATALOGO.md",
+        "ancora": "cat-passiva-propria",
+        "titulo": "Talento Próprio"
+      },
+      "esperado": {
+        "arquivo": "catalogo/lote-01/CATALOGO.md",
+        "ancora": "cat-passiva-propria",
+        "titulo": "Talento Próprio"
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Nome e alias: Identificar Feitiço",
+      "obtido": {
+        "arquivo": "catalogo/lote-01/CATALOGO.md",
+        "ancora": "cat-marca-recursos",
+        "titulo": "Marcas e recursos"
+      },
+      "esperado": {
+        "arquivo": "catalogo/lote-01/CATALOGO.md",
+        "ancora": "cat-marca-recursos",
+        "titulo": "Marcas e recursos"
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Nome e alias: Leitura de Feitiços",
+      "obtido": {
+        "arquivo": "catalogo/lote-01/CATALOGO.md",
+        "ancora": "cat-passivas-1",
+        "titulo": "Talentos de Categoria 1"
+      },
+      "esperado": {
+        "arquivo": "catalogo/lote-01/CATALOGO.md",
+        "ancora": "cat-passivas-1",
+        "titulo": "Talentos de Categoria 1"
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Guarda Aberta com alias histórico",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Caso: Modelo não duplica percentuais nem custos fracionários",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "verificacao": "Editoral atual com revisão contextual",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão editorial do hash atual",
+      "obtido": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+      "esperado": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+      "ok": true
+    },
+    {
+      "verificacao": "Mapa de cobertura conserva decisões",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Donos no estado conferido",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    }
+  ],
+  "limites": [
+    "Auditoria é de destinos, conteúdo e modelos dirigidos dos procedimentos de consulta; não simula partidas ou habilidades completas.",
+    "Campos em branco não têm fórmulas executáveis.",
+    "Outros donos conservam hashes lidos em FONTES-CANDIDATAS; alterações exigem nova conferência.",
+    "Leitor independente e inspeção visual serão evidências separadas."
+  ]
+}

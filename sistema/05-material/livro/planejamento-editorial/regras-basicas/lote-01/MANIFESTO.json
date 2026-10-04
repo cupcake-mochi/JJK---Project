@@ -1,0 +1,21 @@
+{
+  "data": "2026-10-03",
+  "arquivos": {
+    "CONFERENCIA.json": "58197602ee374edd1eebc34e162cefeac9f27142cb31708615697d10f8e1dd45",
+    "DECISOES.md": "926eabe04555db26756af6c0bd688bde7d51ab24cbcca56826e10392485f35b8",
+    "ESTRUTURA.json": "d47b01551ed5b6ae36f67623617eb59e78615a26141d184cddd257f50e6a0f13",
+    "LEIA-ME.md": "4610097817a88a97a88667adc4cd7ae0883768fd19cb6aa021df6a9910ddaf47",
+    "RELATORIO.md": "d766f287d0b2b00b740505f2b35c3b41eca8bb2e41e070cca110beaeffe55965",
+    "TESTES-E-TURNOS.md": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35",
+    "conferir.py": "c2dfc0821215fd716ffff38347a043da2adccbd733727aa9dca4c982995d65fd",
+    "evidencias/FONTES-E-DESTINOS.md": "b963c54b1af1ac396749251f4753bcb364060b4cc1ec0f65c293c3338b0bf468",
+    "evidencias/REVISAO-EDITORIAL.json": "9618b5ab4894063d2a77695ad633485171ab20767f761647c89d52d1f31c5646",
+    "evidencias/REVISAO.md": "e8cc008c4d986ba747915c0d8b85bbde72c577407b4e4725e883ea1e93748c1d",
+    "evidencias/fontes-preservadas.json": "3a668c141801e03691b6fbf2091032ffb0bb7dc4210e1e2f646a180d18445830",
+    "evidencias/inspecao-visual.json": "41b358095998fcfe9f3a0564d001b9af705eb4842894b2c5318337fab166596b",
+    "evidencias/pdf-estrutura.json": "0f67576b6916ff55410c5e74740d7e1106d822d639f9ba65ac14ee391d984baa",
+    "evidencias/pdf-texto.txt": "c405cfd00fb0d5b92ed6ead8beed639cc4457ca38a88cd64ad6a2407f95749c8",
+    "gerar_pdf.py": "2c8ef3779d8cae1aa9c28fedcc273a76efefddc4e291557b51a04f05460a19e9",
+    "output/pdf/Projeto-M-Testes-e-Turnos-Proposta-01.pdf": "f8b3653d45a218f761375c6e38d5c76f95e1b641618b46b92c96d999f704bd72"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "sha256_texto": "7ce3150e4d26d747f5088bcd2b3117b621feb42d52ecc1c4bc4a548d53eb531c",
+  "protocolo": "../../validacao-editorial/PROTOCOLO-COMPLETO.md",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "evidencias/fontes-preservadas.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V02",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "ALTERACOES.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V03",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/regras-verificadas.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V04",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "auditar.py",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V05",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Comparação dirigida de alternativas, custos e interfaces. Não equivale a playtest nem garante equilíbrio de todas as fichas."
+    },
+    {
+      "id": "V06",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V07",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json",
+        "CONFERENCIA.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V08",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V09",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V10",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V11",
+      "estado": "sem_nova_alegacao_canonica",
+      "evidencias": [
+        "REVISAO-E-FONTES.md"
+      ],
+      "observacao": "Números e procedimentos são regras do Projeto M. Exemplos originais; acesso documental insuficiente não foi apresentado como confirmação da obra."
+    },
+    {
+      "id": "V12",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-INDEPENDENTE-RESOLUCAO.json"
+      ],
+      "observacao": "Leitura independente por agente. Não é teste de compreensão com pessoas."
+    },
+    {
+      "id": "V13",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "CONFERENCIA.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V14",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/inspecao-visual.json"
+      ],
+      "observacao": "Todas as páginas renderizadas foram inspecionadas. Mudanças posteriores tiveram reinspeção e comparação de pixels das páginas restantes."
+    },
+    {
+      "id": "V15",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "ALTERACOES.json",
+        "MANIFESTO.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    }
+  ],
+  "teste_humano": false,
+  "playtest": false,
+  "integrado": false,
+  "dependencias": [
+    "Revisão conjunta de Morrendo e Integridade",
+    "Consolidação de nomes, progressão e remissões no livro completo"
+  ]
+}

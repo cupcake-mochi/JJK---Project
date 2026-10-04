@@ -1,0 +1,323 @@
+--- rotas/lote-01/ROTAS.md
+
++++ rotas/lote-01/ROTAS.md
+
+@@ -32,5 +32,5 @@
+
+ 2. Escolha a [rota de arma](#rota-armas) ou a [rota de ferramenta](#rota-ferramenta). Essa escolha é permanente.
+ 3. Registre o equipamento que permite executar suas Katas e o atributo utilizado.
+-4. Escolha as Famílias e monte seu repertório. Passivas e entidades usam os mesmos espaços disponíveis para Katas.
++4. Escolha as Famílias e monte seu repertório. Talentos e entidades usam os mesmos espaços disponíveis para Katas.
+ 
+ O **equipamento em uso é seu Selo**. Você precisa empunhar uma arma apropriada ou utilizar a ferramenta escolhida para executar cada Kata. O equipamento deve estar disponível e funcionar conforme sua descrição.
+@@ -95,8 +95,8 @@
+
+ Calado impede uma Kata que dependa de fala ou som. Uma ferramenta que funcione sem voz continua disponível, respeitando as demais condições.
+ 
+-<!-- page:rota-passivas-marciais|Passivas marciais -->
+-# Passivas marciais
+-
+-Passivas desta seção usam as regras de aquisição de **Fundamento — Selo e Passivas**. Classe Passiva 1 ocupa um espaço de Kata e está disponível desde o nível 1. Classe 2 ocupa dois espaços e exige nível 7. Classe 3 ocupa três espaços e exige nível 13. Elas contam no máximo de cinco Passivas pagas.
++<!-- page:rota-passivas-marciais|Talentos marciais -->
++# Talentos marciais
++
++Talentos desta seção usam as regras de aquisição de **Fundamento — Selo e Talentos**. Categoria de Efeito 1 ocupa um espaço de Kata e está disponível desde o nível 1. Categoria 2 ocupa dois espaços e exige nível 7. Categoria 3 ocupa três espaços e exige nível 13. Eles contam no máximo de cinco Talentos pagos.
+ 
+ ## Calo — Livre
+@@ -104,5 +104,5 @@
+
+ Você reconhece pelo toque o encaixe e a textura familiares de armas que costuma usar. Esse detalhe descreve sua relação com o equipamento. Identificar uma arma disfarçada, detectar uma substituição ou obter informação escondida ainda exige o procedimento da cena.
+ 
+-## Maldição do Inventário — Classe Passiva 1
++## Maldição do Inventário — Categoria de Efeito 1
+ 
+ Uma pequena maldição vinculada ao seu estilo guarda o equipamento entregue a ela. Pode encolher para ser abrigada em seu corpo. Você pode **sacar ou guardar até dois itens gratuitamente por turno**, em vez de um. Interações adicionais usam a ação normal.
+@@ -110,24 +110,24 @@
+
+ Equipamento guardado dessa forma deixa de emitir energia perceptível no exterior. Para o personagem sem energia, isso permite atravessar as Barreiras Simples e Cortinas que reconheceriam esses itens. O benefício termina para cada item retirado.
+ 
+-Os objetos continuam contando na sua carga. Guardar o equipamento não o deixa em uso nem satisfaz seu Selo. A pequena maldição representa esta Passiva: não recebe turno, ataques ou ficha de entidade. Uma invocação com atuação própria segue [Invocações desta rota](#rota-invocacoes).
+-
+-## Leitura — Classe Passiva 1
+-
+-Use a **Passiva Leitura**, do Catálogo de criação: ela identifica Classe e Forma de feitiços conjurados a até 18 m. O efeito precisa ser compatível com o funcionamento declarado do seu estilo.
+-
+-Quem não possui energia pessoal precisa de uma ferramenta cujo funcionamento preveja essa leitura. Ela fornece apenas a informação da Passiva, sem conceder Sentir Energia. O mesmo nome não permite receber uma aptidão ou outro benefício além da entrada comprada.
+-
+-<!-- page:rota-passivas-resposta|Passivas de resposta -->
+-# Passivas de resposta
+-
+-As Passivas abaixo complementam uma Técnica Marcial. Cada uma tem seu próprio gatilho e frequência. Pague seus espaços de Kata e confira o nível exigido antes de registrá-la.
+-
+-## Segundo Fôlego — Classe Passiva 2
++Os objetos continuam contando na sua carga. Guardar o equipamento não o deixa em uso nem satisfaz seu Selo. A pequena maldição representa este Talento: não recebe turno, ataques ou ficha de entidade. Uma invocação com atuação própria segue [Invocações desta rota](#rota-invocacoes).
++
++## Leitura — Categoria de Efeito 1
++
++Use o **Talento Leitura**, do Catálogo de criação: ele identifica Classe e Forma de feitiços conjurados a até 18 m. O efeito precisa ser compatível com o funcionamento declarado do seu estilo.
++
++Quem não possui energia pessoal precisa de uma ferramenta cujo funcionamento preveja essa leitura. Ela fornece apenas a informação do Talento, sem conceder Sentir Energia. O mesmo nome não permite receber uma aptidão ou outro benefício além da entrada comprada.
++
++<!-- page:rota-passivas-resposta|Talentos de resposta -->
++# Talentos de resposta
++
++Os Talentos abaixo complementam uma Técnica Marcial. Cada um tem seu próprio gatilho e frequência. Pague seus espaços de Kata e confira o nível exigido antes de registrá-lo.
++
++## Segundo Fôlego — Categoria de Efeito 2
+ 
+ **Uma vez por descanso longo**, ao escolher **Insistir**, você pode dispensar o **primeiro custo de vida máxima**, correspondente a **1/8 do máximo de referência** daquela queda.
+ 
+-Os custos posteriores e a janela de socorro continuam normais. A Passiva não concede rodada ou ação adicional nem recupera vida ou Integridade. A escolha, os pagamentos seguintes e o socorro seguem **Insistir, em Dano e recuperação**.
+-
+-## Contragolpe — Classe Passiva 2
++Os custos posteriores e a janela de socorro continuam normais. O Talento não concede rodada ou ação adicional nem recupera vida ou Integridade. A escolha, os pagamentos seguintes e o socorro seguem **Insistir, em Dano e recuperação**.
++
++## Contragolpe — Categoria de Efeito 2
+ 
+ Quando uma criatura errar um ataque corpo a corpo contra você, pode guardar uma resposta contra ela. Sua **próxima rolagem de ataque de uma Kata contra essa criatura tem vantagem**. O benefício termina depois dessa rolagem ou ao fim da cena.
+@@ -135,11 +135,11 @@
+
+ Você pode guardar uma resposta **um número de vezes por cena igual à sua maestria**. Só mantém uma resposta por vez. Novos erros não acumulam usos guardados. Uma Kata resolvida por TR não recebe vantagem nem obriga o alvo a rolar com desvantagem.
+ 
+-## Aliança — Classe Passiva 3
+-
+-Escolha uma de suas armas ao adquirir esta Passiva. Ela **não pode ser desarmada contra sua vontade** e somente você pode empunhá-la para utilizá-la.
++## Aliança — Categoria de Efeito 3
++
++Escolha uma de suas armas ao adquirir este Talento. Ela **não pode ser desarmada contra sua vontade** e somente você pode empunhá-la para utilizá-la.
+ 
+ A arma ainda pode ser carregada ou transportada por outra criatura. O vínculo impede seu uso por terceiros, sem tornar o objeto indestrutível, alterar seu peso ou transportá-lo de volta para sua mão. Guardar ou largar a arma voluntariamente continua possível.
+ 
+-Essas entradas são efeitos específicos do catálogo. Uma Passiva criada na mesa deve seguir **Catálogo de criação — Criar Passivas**, inclusive os limites de sua Classe Passiva.
++Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa deve seguir **Catálogo de criação — Criar Talentos**, inclusive os limites de sua Categoria de Efeito.
+ 
+ <!-- page:rota-fisga|Fisga -->
+@@ -168,5 +168,5 @@
+
+ ## Repertório
+ 
+-Iori dispõe de **3 espaços** no nível 2. Gancho fechado ocupa um. A Passiva Raiz pode ocupar outro. Sobra um para outra Kata compatível. Seus dois Classe 0 ficam na lista própria.
++Iori dispõe de **3 espaços** no nível 2. Gancho fechado ocupa um. O Talento Raiz pode ocupar outro. Sobra um para outra Kata compatível. Seus dois Classe 0 ficam na lista própria.
+ 
+ Se quiser alcançar um alvo distante, precisará montar uma versão com Projétil e recalcular seus pontos. O alcance da arma não altera Gancho fechado.
+@@ -201,5 +201,5 @@
+
+ As Famílias escolhidas também permitem criar uma Kata de cura baseada em reparo. Na ficha dela, será necessário declarar os corpos e materiais que a ferramenta consegue reparar. Essa cura não se torna Energia Reversa pela escolha da Forma Cura.
+ 
+-Placas de apoio ocupa um dos três espaços de Nao. Uma Passiva Leitura compatível com os sensores da armadura pode ocupar outro. O último permanece disponível para uma Kata.
++Placas de apoio ocupa um dos três espaços de Nao. Um Talento Leitura compatível com os sensores da armadura pode ocupar outro. O último permanece disponível para uma Kata.
+ 
+ <!-- page:rota-invocacoes|Invocações nas rotas -->
+@@ -220,5 +220,5 @@
+
+ Para montar, manifestar e comandar a entidade, consulte **Invocações — Aquisição**. Pague as ações e os custos da mesma forma que os demais personagens. Na rota sem energia, os PE representam o esforço para operar o vínculo e o equipamento. A aquisição não fornece energia pessoal ou aptidões.
+ 
+-Uma Passiva que descreve uma criatura como parte de seu efeito entrega apenas o efeito comprado. Para que ela tenha turno e habilidades de invocação, é preciso atender ao requisito desta seção e adquirir a entidade pelo procedimento correspondente.
++Um Talento que descreve uma criatura como parte de seu efeito entrega apenas o efeito comprado. Para que ela tenha turno e habilidades de invocação, é preciso atender ao requisito desta seção e adquirir a entidade pelo procedimento correspondente.
+ 
+ <!-- page:rota-sem-tecnica|Sem Técnica -->
+@@ -238,5 +238,5 @@
+
+ A **Regra** explica uma aplicação da semente. Domínio Simples pode sustentar um estilo de contenção próximo de você. Energia Reversa pode sustentar um estilo de cura. Transformar a semente em fogo, viagem no tempo ou leitura de memória exigiria um funcionamento que ela não fornece.
+ 
+-Você pode escolher Passivas do Catálogo de criação e Passivas marciais compatíveis com sua semente, preservando seus requisitos e sua frequência. Nessas entradas, leia Manejo no lugar de Kata.
++Você pode escolher Talentos do Catálogo de criação e Talentos marciais compatíveis com sua semente, preservando seus requisitos e sua frequência. Nessas entradas, leia Manejo no lugar de Kata.
+ 
+ ## Semente e Manejos
+@@ -273,5 +273,5 @@
+
+ ## Aptidão Própria
+ 
+-Crie com o mestre uma aptidão de **Classe Passiva 1 ou 2**, pelas regras de Aptidões e Refino. Essa escolha usa a única Aptidão Própria permitida ao personagem. Não pode copiar uma aptidão do catálogo, dispensar seus requisitos sob outro nome ou produzir uma aptidão de Classe Passiva 3.
++Crie com o mestre uma aptidão de **Categoria de Efeito 1 ou 2**, pelas regras de Aptidões e Refino. Essa escolha usa a única Aptidão Própria permitida ao personagem. Não pode copiar uma aptidão do catálogo, dispensar seus requisitos sob outro nome ou produzir uma aptidão de Categoria de Efeito 3.
+ 
+ <!-- page:rota-cura|Cura -->
+@@ -326,5 +326,5 @@
+
+ Domínio Simples é usado à parte, com sua ação e seu custo. Linha de contenção não exige que ele esteja ativo. Se a Regra de outra versão exigir isso, anote a exigência sem presumir uma devolução de pontos.
+ 
+-A Passiva Raiz pode ocupar um dos outros espaços de Rika, respeitando sua compra normal. Ela não vem junto da semente.
++O Talento Raiz pode ocupar um dos outros espaços de Rika, respeitando sua compra normal. Ele não vem junto da semente.
+ 
+ <!-- page:rota-sutura|Sutura Fria -->
+@@ -355,5 +355,5 @@
+
+ ## Desenvolvimento
+ 
+-A Passiva Recomposição pode fazer parte do estilo quando Caio atingir **nível 7** e pagar seus **dois espaços**. Ela não está disponível na criação apenas por ser coerente com a semente.
++O Talento Recomposição pode fazer parte do estilo quando Caio atingir **nível 7** e pagar seus **dois espaços**. Ele não está disponível na criação apenas por ser coerente com a semente.
+ 
+ <!-- page:rota-espinho|Espinho -->
+@@ -385,5 +385,5 @@
+
+ ## Repertório
+ 
+-No nível 5, Hana dispõe de quatro espaços. Resposta curta ocupa um. Instinto, uma Passiva de Classe 1 compatível com sua vigilância, pode ocupar outro. Os dois restantes ficam disponíveis para Manejos, além dos Classe 0 recebidos separadamente.
++No nível 5, Hana dispõe de quatro espaços. Resposta curta ocupa um. Instinto, um Talento de Categoria 1 compatível com sua vigilância, pode ocupar outro. Os dois restantes ficam disponíveis para Manejos, além dos Classe 0 recebidos separadamente.
+ 
+ <!-- page:rota-lapidacao|Lapidação -->
+@@ -402,11 +402,11 @@
+
+ | Corpo | +1 ponto de atributo e treino em uma perícia ou ofício. A partir do nível 10, pode especializar um já treinado, em vez do novo treino. |
+ | Lapidação | +1 de Lapidação e uma Bênção. Se já atingiu Lapidação 10, receba duas Bênçãos. |
+-| Leque | Uma Kata adicional e uma Passiva. |
++| Leque | Uma Kata adicional e um Talento. |
+ 
+ Confira o teto **depois do +1 gratuito**. Quem escolhe Lapidação em todos os marcos recebe duas Bênçãos nos níveis 22, 26 e 30, totalizando dez escolhas pagas. Quem nunca a escolhe termina em Lapidação 8 e conserva apenas as Bênçãos gratuitas.
+ 
+-A Kata concedida por Leque é uma aplicação, não um espaço livre para outra compra. A Passiva é concedida sem pagar espaços e respeita seu nível de acesso. Cada Leque abre uma vaga adicional para essa Passiva além do máximo de cinco pagas. Consulte **Experiência e Progressão — Marcos** para as regras comuns, incluindo a especialização de perícias e ofícios.
+-
+-> **Exemplo:** Davi chega ao nível 6 com Lapidação 1. O ganho básico leva a 2. Escolhe Lapidação, chega a 3 e aprende Faro, de Classe Passiva 1. No nível 10, repete a escolha, chega a 5 e pode aprender Presilha, de Classe Passiva 2, se tiver Força 4. As duas aquisições não ocupam espaços de Kata.
++A Kata concedida por Leque é uma aplicação, não um espaço livre para outra compra. O Talento é concedido sem pagar espaços e respeita seu nível de acesso. Cada Leque abre uma vaga adicional para esse Talento além do máximo de cinco pagos. Consulte **Experiência e Progressão — Marcos** para as regras comuns, incluindo a especialização de perícias e ofícios.
++
++> **Exemplo:** Davi chega ao nível 6 com Lapidação 1. O ganho básico leva a 2. Escolhe Lapidação, chega a 3 e aprende Faro, de Categoria de Efeito 1. No nível 10, repete a escolha, chega a 5 e pode aprender Presilha, de Categoria de Efeito 2, se tiver Força 4. As duas aquisições não ocupam espaços de Kata.
+ 
+ ## Usar o valor
+@@ -423,7 +423,7 @@
+
+ Uma Bênção descreve uma capacidade física ou sensorial de quem não possui energia amaldiçoada. **Defesa sem Armadura e Estímulo Muscular** são gratuitas desde Lapidação 1. As demais são obtidas pela escolha Lapidação nos marcos.
+ 
+-Bênçãos não gastam espaços de Kata. **Classe Passiva**, abreviada CP nas tabelas, indica a categoria do efeito. Cada escolha de Bênção concede uma entrada disponível, independentemente dessa categoria.
+-
+-| Classe Passiva | Lapidação mínima |
++Bênçãos não gastam espaços de Kata. **Categoria de Efeito**, abreviada CE nas tabelas, indica a categoria do efeito. Cada escolha de Bênção concede uma entrada disponível, independentemente dessa categoria.
++
++| Categoria de Efeito | Lapidação mínima |
+ |---|---|
+ | 1 | 1. |
+@@ -433,9 +433,9 @@
+
+ Além dessa exigência, cumpra os requisitos da entrada. Uma Bênção que peça Força 4 exige esse atributo em 4 ou mais. O requisito não acrescenta outro bônus à fórmula: some apenas os valores que o efeito determinar.
+ 
+-Os níveis mínimos das Passivas compradas com espaços pertencem a essa outra aquisição. Uma Bênção é comprada por marco e segue sua própria tabela de Lapidação.
++Os níveis mínimos dos Talentos comprados com espaços pertencem a essa outra aquisição. Uma Bênção é comprada por marco e segue sua própria tabela de Lapidação.
+ 
+ ## Escolhas disponíveis
+ 
+-| Bênção | CP | Requisito adicional |
++| Bênção | CE | Requisito adicional |
+ |---|---|---|
+ | Ímpeto | 2 | Destreza 4. |
+@@ -454,5 +454,5 @@
+
+ Você não compra novamente uma entrada que já possui, salvo autorização expressa dela. A mesma limitação vale quando o marco concede duas escolhas: selecione duas Bênçãos diferentes e disponíveis.
+ 
+-Uma Passiva ou Bênção criada na mesa não permite receber uma entrada indisponível sob outro nome. Os requisitos fazem parte de cada capacidade, mesmo quando os preços de duas aquisições parecem semelhantes.
++Criar um Talento ou uma Bênção na mesa não permite receber uma entrada indisponível sob outro nome. Os requisitos fazem parte de cada capacidade, mesmo quando os preços de duas aquisições parecem semelhantes.
+ 
+ <!-- page:rota-defesa|Defesa sem Armadura -->
+@@ -515,7 +515,7 @@
+
+ # Bênçãos de corpo
+ 
+-Estas Bênçãos favorecem deslocamento, resistência e manobras. Confira a Lapidação mínima da Classe Passiva e os requisitos adicionais de cada entrada.
+-
+-## Ímpeto — Classe Passiva 2
++Estas Bênçãos favorecem deslocamento, resistência e manobras. Confira a Lapidação mínima da Categoria de Efeito e os requisitos adicionais de cada entrada.
++
++## Ímpeto — Categoria de Efeito 2
+ 
+ **Requisito adicional: Destreza 4.** Como **Ação Bônus**, mova-se até seu deslocamento sem provocar ataques de oportunidade. Durante esse movimento, você pode percorrer paredes, líquidos e o ar. Ao terminar o movimento sem um apoio que o sustente, você cai.
+@@ -523,5 +523,5 @@
+
+ Essa travessia não concede permanência no ar. Carga, terreno e condições que alterem seu deslocamento continuam valendo. Você precisa dispor da Ação Bônus para iniciar cada uso.
+ 
+-## Casco — Classe Passiva 3
++## Casco — Categoria de Efeito 3
+ 
+ **Requisito adicional: Constituição 4.** Seu máximo de pontos de vida aumenta em **metade do seu nível, arredondada para baixo**. Recalcule ao subir de nível. Você também recebe **+1 nos TRs de Vigor**.
+@@ -529,5 +529,5 @@
+
+ No nível 14, o aumento é 7 pontos de vida. No nível 30, é 15. O benefício não recupera vida perdida por si só nem aumenta Integridade.
+ 
+-## Presilha — Classe Passiva 2
++## Presilha — Categoria de Efeito 2
+ 
+ **Requisito adicional: Força 4.** **Uma vez por rodada**, quando uma criatura passar num TR para evitar que você a agarre, derrube ou mova à força, pode obrigá-la a repetir esse TR. Use o novo resultado.
+@@ -535,5 +535,5 @@
+
+ Faça a repetição antes de resolver as consequências daquele TR, sem gastar outra ação. Preserve a mesma CD e os modificadores. O benefício não permite uma tentativa proibida por tamanho, alcance ou imunidade. Se um único TR também decidir o dano, mantenha o resultado original para o dano e use a repetição somente para a manobra ou o deslocamento.
+ 
+-## Vigília — Classe Passiva 2
++## Vigília — Categoria de Efeito 2
+ 
+ Ao aplicar as consequências de Exaustão, conte **um estágio a menos**, até o mínimo de zero. Mantenha na ficha o estágio real: ganhar nova Exaustão e removê-la pelo descanso continua usando esse valor.
+@@ -546,5 +546,5 @@
+
+ Sentidos apurados podem revelar marcas de passagem e mudanças no ambiente. Essas Bênçãos descrevem as informações disponíveis. Quando a cena exigir localizar, interpretar ou seguir uma pista difícil, use a perícia apropriada conforme **Exploração** e **Perícias**.
+ 
+-## Faro — Classe Passiva 1
++## Faro — Categoria de Efeito 1
+ 
+ Você pode seguir feiticeiros e maldições pelos vestígios físicos que deixaram: cheiro, marcas e objetos fora do lugar. A Bênção permite perceber essas pistas sem Sentir Energia.
+@@ -552,5 +552,5 @@
+
+ Ao tocar uma marca deixada por uma técnica, reconhece superficialmente **o que aconteceu ali**, como um corte, um impacto ou a deformação de um material. Não identifica o autor, sua localização atual, a montagem da técnica ou detalhes ausentes no vestígio.
+ 
+-## Sem Pegada — Classe Passiva 1
++## Sem Pegada — Categoria de Efeito 1
+ 
+ Sua passagem não deixa pegadas, cheiro, marcas ou som de passos que possam servir de rastro. Faro, animais e técnicas que dependam desses vestígios não conseguem seguir seu caminho por eles.
+@@ -558,5 +558,5 @@
+
+ Uma testemunha ainda pode enxergar você. Voz, armas e objetos que você manipule continuam produzindo seus próprios sons. Esconder-se segue a ação e os requisitos de Furtividade. A Bênção não concede um teste gratuito para se ocultar nem mantém oculto um ataque que revele sua posição.
+ 
+-## Vulto — Classe Passiva 2
++## Vulto — Categoria de Efeito 2
+ 
+ Você possui **visão às cegas** a até **1,5 m × metade da Lapidação, arredondada para baixo**. Percebe criaturas e objetos nessa área por som e movimento, mesmo sem usar os olhos.
+@@ -569,5 +569,5 @@
+
+ # Bênçãos de combate
+ 
+-## Esteio — Classe Passiva 3
++## Esteio — Categoria de Efeito 3
+ 
+ Ao adquirir a Bênção, escolha **um TR: Físico, Vigor, Intelecto ou Espírito**. O menor resultado do d20 nesse TR passa a ser sua **Lapidação, limitada ao atributo do TR +2**.
+@@ -577,5 +577,5 @@
+
+ Com Lapidação 7 e atributo 4, o piso é **6**. Com Lapidação 10 e atributo 6, é **8**. Um resultado maior permanece como foi rolado.
+ 
+-## Antecipar — Classe Passiva 2
++## Antecipar — Categoria de Efeito 2
+ 
+ **Requisito adicional: Inteligência 4.** Depois de falhar num TR contra um efeito, você recebe vantagem nos próximos TRs contra **esse mesmo efeito, produzido pela mesma fonte**, até o fim da cena.
+@@ -583,9 +583,9 @@
+
+ Uma nova aplicação daquela mesma capacidade pela mesma criatura mantém o benefício. Um efeito diferente, outra criatura ou outra fonte exige sua própria falha anterior. A vantagem não refaz o TR que ativou a Bênção.
+ 
+-## Campo — Classe Passiva 1
++## Campo — Categoria de Efeito 1
+ 
+ **Uma vez por cena**, você pode realizar **Estudar como Ação Bônus**, em vez de Ação Padrão. Use a ação descrita em **Ações — Estudar**, com seus alvos, testes e informações disponíveis.
+ 
+-## Assombro — Classe Passiva 1
++## Assombro — Categoria de Efeito 1
+ 
+ **Requisito adicional: Essência 4.** Uma vez por cena, ao entrar nela ou ser visto pela primeira vez, escolha até **metade de sua Lapidação, arredondada para baixo, mínimo 1**, entre as criaturas presentes que enxerguem você.
+@@ -598,5 +598,5 @@
+
+ # Bênção Própria
+ 
+-Você pode desenvolver **uma Bênção Própria por personagem**, de Classe Passiva 1 ou 2. Crie-a com o mestre antes da sessão e adquira-a por uma escolha de Bênção, respeitando a Lapidação mínima da Classe Passiva.
++Você pode desenvolver **uma Bênção Própria por personagem**, de Categoria de Efeito 1 ou 2. Crie-a com o mestre antes da sessão e adquira-a por uma escolha de Bênção, respeitando a Lapidação mínima da Categoria de Efeito.
+ 
+ Escreva primeiro uma frase que diga o que o corpo consegue fazer. Depois, registre gatilho, alcance, duração e limites necessários. A mesa deve conseguir decidir quando o efeito aconteceu sem discutir novamente a proposta a cada uso.
+@@ -604,13 +604,13 @@
+
+ ## Limites
+ 
+-A Bênção segue a orientação de **Aptidões e Refino — Aptidão Própria**. Ela não acrescenta dados de dano. Se for Classe Passiva 2, precisa de um limite por cena. Não pode copiar uma Bênção existente ou fornecer uma capacidade cujo requisito você não alcançou.
++A Bênção segue a orientação de **Aptidões e Refino — Aptidão Própria**. Ela não acrescenta dados de dano. Se for Categoria de Efeito 2, precisa de um limite por cena. Não pode copiar uma Bênção existente ou fornecer uma capacidade cujo requisito você não alcançou.
+ 
+ Uma proposta com requisito de Força ou Constituição deve conceder um feito corporal específico, ligado a sobrevivência, recuperação ou outra capacidade física. Bônus, vantagem ou repetição de uma perícia não bastam para representar esse feito.
+ 
+-Efeitos de Classe Passiva 3 ficam fora desta opção. Se a mesa não conseguir limitar a proposta à Classe 1 ou 2, reduza seu alcance ou escolha outra ideia.
++Efeitos de Categoria de Efeito 3 ficam fora desta opção. Se a mesa não conseguir limitar a proposta à Categoria de Efeito 1 ou 2, reduza seu alcance ou escolha outra ideia.
+ 
+ ## Exemplo: Marca do pulso
+ 
+-**Proposta de Classe Passiva 1:** ao encostar a mão numa estrutura que acabou de sofrer um impacto perceptível, você distingue qual parte conectada a ela recebeu esse impacto, até 3 m do ponto tocado.
++**Proposta de Categoria de Efeito 1:** ao encostar a mão numa estrutura que acabou de sofrer um impacto perceptível, você distingue qual parte conectada a ela recebeu esse impacto, até 3 m do ponto tocado.
+ 
+ O efeito usa a vibração que ainda está ocorrendo. Um piso atingido pode indicar o degrau que acabou de ceder. Uma parede pode indicar a porta que foi golpeada. A Bênção não identifica quem provocou a vibração nem percebe um acontecimento silencioso encerrado antes do contato.

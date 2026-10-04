@@ -1,0 +1,22 @@
+{
+  "unidade": "caminhos/vanguarda/lote-01",
+  "sha256_texto": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+  "sha256_pdf": "8833082ea50f001bdbd154d08388b44d136ebceabdbae1957173f3acaa97da31",
+  "escopo": "Releitura contextual das linhas alteradas; a revisão integral anterior permanece em seus relatórios históricos.",
+  "invariantes": "IDs, numerais, alcance, custos, procedimentos e tabelas conservados. Nomes aprovados e concordância uniformizados.",
+  "historico": "consolidacao/lote-01/migracao-nomes/qa-antes/caminhos/vanguarda/lote-01",
+  "auditoria_numerica": "Execuções novamente concluídas após os nomes; outputs locais vinculados à versão atual.",
+  "paginas_reabertas": [],
+  "paginas_preservadas": 20,
+  "equivalencia_visual": "PDF bitwise idêntico",
+  "revisao_independente_delta": {
+    "revisor": "/root",
+    "resultado": "Sem bloqueador nos diffs nominais completos de Regras gerais, Equipamento, Aptidões, Incursor e Origens, conforme confirmação direta do revisor; unidades de texto idêntico preservam o parecer anterior.",
+    "complemento": "não aplicável"
+  },
+  "limites": [
+    "Sem novo cânone, redesign ou afirmação de equilíbrio final.",
+    "Leitura por modelo não equivale a teste com pessoas.",
+    "Adjetivos passivo/passiva comuns mantidos."
+  ]
+}

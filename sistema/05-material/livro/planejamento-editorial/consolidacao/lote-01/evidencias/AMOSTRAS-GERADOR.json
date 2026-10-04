@@ -1,0 +1,41 @@
+{
+  "estado": "amostras para desenvolvimento; não V14 integral",
+  "revisor": "/root/rotas_didatica (modelo)",
+  "historico": {
+    "paginas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      79,
+      174,
+      185,
+      218,
+      243,
+      316,
+      355,
+      365
+    ],
+    "limite": "Amostras de diagnóstico do gerador; não V14 integral."
+  },
+  "nova_amostra": {
+    "sha256_pdf": "0c5043a6bc6f42b605d1729adc816e3281aa9e13d1560a0ee7394fbe348eae91",
+    "paginas": [
+      {
+        "pagina": 185,
+        "png": "/tmp/livro-prova-atual/pagina-185.png",
+        "sha256_png": "342e12a33fe3cf5aadee3a34aed7cca25522a24e6131c976db150a6f44eba36e",
+        "observacao": "Volume cabe integralmente no cabeçalho da tabela de armas. Corpo e tabela legíveis, sem corte observado."
+      },
+      {
+        "pagina": 373,
+        "png": "/tmp/livro-prova-atual/pagina-373.png",
+        "sha256_png": "4eefa4e0db967fb70ea30c07e29a13d348b65f9de6f8a3ba074ea5d21c2c359b",
+        "observacao": "Índice com links e páginas reais legíveis; título técnico Índice 1: A–A encaminhado e posteriormente simplificado pelo dono, exige regenerar."
+      }
+    ]
+  },
+  "limite": "O PDF foi regenerado depois desta amostra. A amostra confirma o ajuste do gerador, não a versão congelada final."
+}

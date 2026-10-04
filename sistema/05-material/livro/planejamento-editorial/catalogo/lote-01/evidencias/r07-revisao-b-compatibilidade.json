@@ -1,0 +1,66 @@
+{
+  "data": "2026-10-03T17:17:06-03:00",
+  "arquivo": "/tmp/r07-parte-b.md",
+  "sha256": "03b095b8ca58b227558e8d100aec88b0a82e5307ec5e2c41c42fb0dbb5d09f53",
+  "escopo": "Leitura independente das interfaces entre partes A/B e R06. Foco em resolução, parcelas divididas, efeitos secundários, condições e prazos. Sem editar a parte B.",
+  "resultado": "Quatro achados enviados ao autor foram corrigidos e conferidos. Nenhum desses quatro impede a integração. Isto não substitui auditoria numérica, PDF ou playtest do catálogo inteiro.",
+  "achados": [
+    {
+      "id": "B-01",
+      "prioridade_original": "P1",
+      "achado": "Queima podia copiar o total da ficha em cada tiro de Rajada.",
+      "estado": "corrigido_pelo_autor_e_conferido",
+      "linha_atual": 62,
+      "correcao": "Agora utiliza a parcela inicial daquele tiro/alvo, sem multiplicar a ficha.",
+      "teste_textual": "Em Rajada ou Mais Um, use somente os dados destinados àquela aplicação no alvo",
+      "arquivo": "/tmp/r07-parte-b.md"
+    },
+    {
+      "id": "B-02",
+      "prioridade_original": "P1",
+      "achado": "Sugar somava dano parcial que não aplica outras peças.",
+      "estado": "corrigido_pelo_autor_e_conferido",
+      "linha_atual": 195,
+      "correcao": "Só parcelas iniciais com acerto/falhaTR válida entram na cura.",
+      "teste_textual": "Dano parcial de Certeiro ou de um TR bem-sucedido não entra nessa soma",
+      "arquivo": "/tmp/r07-parte-b.md"
+    },
+    {
+      "id": "B-03",
+      "prioridade_original": "P2",
+      "achado": "Acúmulo num alvo poderia elevar a área inteira persistente.",
+      "estado": "corrigido_pelo_autor_e_conferido",
+      "linha_atual": 74,
+      "correcao": "Demais alvos usam a base sem o bônus de Acúmulo.",
+      "teste_textual": "Em Fica, o bônus pertence apenas ao alvo acompanhado",
+      "arquivo": "/tmp/r07-parte-b.md"
+    },
+    {
+      "id": "B-04",
+      "prioridade_original": "P2",
+      "achado": "Levanta prometia ficar de pé apesar de não remover condições mantidas.",
+      "estado": "corrigido_pelo_autor_e_conferido",
+      "linha_atual": 230,
+      "correcao": "Apoio e ausência de outro efeito que mantenha Derrubado são exigidos.",
+      "teste_textual": "não houver outro efeito que o mantenha Derrubado",
+      "arquivo": "/tmp/r07-parte-b.md"
+    }
+  ],
+  "observacoes_integracao": [
+    {
+      "tema": "De Novo e Bloquear",
+      "estado": "root_define_no_R07",
+      "nota": "Conservar resultado de Bloquear já rolado; não redesenhar neste lote o momento da escolha do defensor. Esse ponto pertence à parte A/R02."
+    },
+    {
+      "tema": "Silencioso e Gesto",
+      "estado": "manter_precedencia_R06",
+      "nota": "A Melhoria não cancela a exigência da Restrição enquanto conserva sua devolução. Barulho permanece audível; não inferir ocultação automática."
+    },
+    {
+      "tema": "Teto de dano",
+      "estado": "regra_compartilhada",
+      "nota": "Remate/Quebra Coisa só dano inicial; Queima/Salto/Estilhaço usam a parcela de origem; Acúmulo preserva exceção documentada. Conferir as fórmulas do root sobre esse contrato."
+    }
+  ]
+}

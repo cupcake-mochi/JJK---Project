@@ -1,0 +1,112 @@
+[
+  {
+    "arma": "Besta de Uma Mão",
+    "antes": 0.1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Cassetete",
+    "antes": 0.1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Chakram",
+    "antes": 0.1,
+    "depois": 0.2
+  },
+  {
+    "arma": "Faca",
+    "antes": 1,
+    "depois": 0.2
+  },
+  {
+    "arma": "Kama",
+    "antes": 1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Kunai",
+    "antes": 0.1,
+    "depois": 0.2
+  },
+  {
+    "arma": "Nunchaku",
+    "antes": 1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Punhal",
+    "antes": 1,
+    "depois": 0.2
+  },
+  {
+    "arma": "Sai",
+    "antes": 1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Taco",
+    "antes": 0.1,
+    "depois": 1
+  },
+  {
+    "arma": "Tanto",
+    "antes": 0.1,
+    "depois": 0.2
+  },
+  {
+    "arma": "Tessen",
+    "antes": 0.1,
+    "depois": 0.2
+  },
+  {
+    "arma": "Tonfa",
+    "antes": 0.1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Chicote",
+    "antes": 0.1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Hankyū",
+    "antes": 2,
+    "depois": 1
+  },
+  {
+    "arma": "Machadinha",
+    "antes": 1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Machete",
+    "antes": 1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Manriki",
+    "antes": 0.1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Wakizashi",
+    "antes": 0.1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Pistola",
+    "antes": 0.1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Revólver",
+    "antes": 0.1,
+    "depois": 0.5
+  },
+  {
+    "arma": "Submetralhadora",
+    "antes": 2,
+    "depois": 1
+  }
+]

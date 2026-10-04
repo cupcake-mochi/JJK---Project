@@ -1,0 +1,120 @@
+<!-- page:fab-entidades|Fabricação de entidades -->
+# Fabricação de entidades
+
+Você pode fabricar um talismã que guarda um shikigami ou construir um corpo amaldiçoado. Escolha a entidade, prepare sua ficha em **Criar uma invocação** e reúna os meios para produzi-la. A fabricação usa o procedimento de **Ofícios**, com o teste de conclusão apresentado aqui.
+
+Esta é uma aquisição por criação. **Não exige técnica inata de invocação nem ocupa espaço conhecido.** A entidade conserva o nível em que foi fabricada. Para obter uma versão mais poderosa, você precisa de um novo projeto; subir de nível ou fazer um reparo não a melhora.
+
+## Responsável pelo trabalho
+
+Escolha uma pessoa treinada no ofício adequado. Ela conduz o projeto e faz o teste de conclusão. Pode fabricar para si ou para outro invocador, identificado desde o início.
+
+| Resultado | Ofício do responsável |
+|---|---|
+| Talismã de shikigami | Caligrafia. |
+| Corpo de madeira, pedra ou osso | Entalhador. |
+| Corpo de metal | Forja. |
+
+Um corpo de materiais diferentes usa o ofício de seu trabalho principal. Participantes com outros conhecimentos podem cuidar das etapas que os exigirem, conforme o projeto. Cada entidade exige sua própria tentativa de conclusão.
+
+**O nível da entidade não pode superar o do responsável nem o do futuro invocador.** A diferença de Classe determina a dificuldade do teste, mas não substitui esse limite de nível.
+
+## Conhecimento da fabricação
+
+Treino permite executar o ofício. Para produzir uma entidade, o responsável também precisa conhecer o processo que dá vida ao resultado: uma receita ensinada, um registro acessível ou um método desenvolvido na campanha. O mestre define como esse conhecimento pode ser obtido.
+
+A receita descreve a fonte de energia e os participantes necessários. Pode usar materiais preparados ou a colaboração de alguém capaz de executar sua etapa. Quem não possui energia amaldiçoada pessoal continua sem ela. Conhecer o ofício ou fabricar um corpo não concede uma Origem, técnica, aptidão, alma autônoma ou reserva pessoal de energia.
+
+<!-- page:fab-projeto|Projeto de fabricação -->
+# Projeto de fabricação
+
+Antes de começar, registre o projeto com o mestre. Defina **uma entidade por projeto**, com a ficha final já conferida. Um pedido para fabricar várias cópias informa os recursos e o prazo de cada uma; as tentativas permanecem individuais.
+
+| Campo | Registro necessário |
+|---|---|
+| Resultado | Tipo, nível, ficha da entidade e futuro invocador. |
+| Processo | Receita, responsável, ofício e participantes de cada etapa. |
+| Recursos | Materiais, ferramentas, local e valores a pagar. |
+| Prazo e risco | Horas de trabalho, esperas, teste e consequência da falha. |
+
+## Materiais e custo
+
+O mestre informa quais materiais estão disponíveis e seu custo em ienes. Registre também os obtidos em missão, emprestados ou fornecidos pela instituição. Dinheiro só substitui um componente se houver quem o venda.
+
+Separe materiais consumidos, peças reaproveitáveis e ferramentas. Um estojo de ofício não fornece os consumíveis nem substitui uma oficina exigida. Se o processo gastar PE, indique o pagador, a quantidade e a etapa do pagamento antes de iniciar. **Não existe uma cobrança geral adicional de PE pela fabricação.** Os custos de manifestar e usar a entidade continuam em Invocações em campo.
+
+Não há preço universal por nível, desconto automático pela metade ou conversão entre Classe da entidade e Grau de ferramenta. Os preços de itens comuns valem para as peças realmente compradas. Restrições de acesso aos componentes continuam valendo; conhecer o ofício não concede autorizações de compra.
+
+## Prazo
+
+Registre o trabalho efetivo e as esperas, como secagem ou preparação de material. Uma pausa conserva o progresso possível, conforme o processo. Tempo trabalhado não conta também como descanso. Ajuda só reduz o prazo quando o projeto permite repartir tarefas.
+
+O projeto deve exigir tempo e materiais reais. Nível maior, capacidades mais difíceis de produzir e componentes raros precisam ser considerados no orçamento. Combine os valores antes do gasto, incluindo o que será necessário refazer em caso de falha. Uma ficha pronta, sozinha, não entrega a entidade.
+
+<!-- page:fab-teste|Teste de fabricação -->
+# Teste de fabricação
+
+Depois de cumprir o prazo, fornecer os materiais e executar o processo, o responsável faz **um teste do ofício indicado**. Este teste é exigido na fabricação de entidades, mesmo quando as etapas físicas forem trabalhos rotineiros.
+
+Use o atributo adequado ao trabalho e a Maestria do responsável. A base da dificuldade é **8 + esse atributo + essa Maestria**. Compare a Classe permitida pelo nível da entidade com a permitida pelo nível do responsável, usando a Progressão da entidade.
+
+| Classe da entidade em relação ao responsável | Dificuldade | Ajuste à base |
+|---|---|---|
+| Igual | Difícil | 0 |
+| Uma abaixo | Média | −2 |
+| Duas ou mais abaixo | Fácil | −4 |
+
+**Role d20 + atributo + Maestria.** Igualar a CD é sucesso. Especialização e outros modificadores alteram o teste conforme suas próprias regras; não entram novamente na base da CD. Ajudar segue Tarefas e testes. Uma contribuição não fornece ao responsável o treino que lhe falta.
+
+> **Exemplo:** uma calígrafa de nível 13, Destreza 4 e Maestria 2 fabrica uma entidade de nível 9. As Classes são 4 e 3: a dificuldade é Média. A CD fica **8 + 4 + 2 − 2 = 12**. Seu teste é d20 + 6; um 6 no dado basta. Se fabricasse uma entidade de nível 13, a CD seria 14 e precisaria de 8.
+
+## Sucesso e falha
+
+No sucesso, conclua a entidade com a ficha combinada e registre seu invocador. Na falha, ela ainda não funciona. Aplique apenas o atraso, retrabalho ou perda de materiais que o projeto anunciou. Não crie automaticamente uma criatura hostil nem destrua todos os componentes.
+
+Uma nova tentativa exige cumprir o retrabalho previsto e pagar seus custos. Repete-se o teste de conclusão, sem repetir as etapas que permaneceram aproveitáveis. Enquanto faltar uma condição do projeto, não há nova rolagem. Vários participantes não podem testar a mesma peça em sequência para evitar o retrabalho.
+
+<!-- page:fab-conclusao|Conclusão e transferência -->
+# Conclusão e transferência
+
+Uma entidade nova começa com vida máxima. O shikigami fica recolhido em seu talismã, **sem carga adiantada**; o corpo permanece inativo onde foi construído. A conclusão não manifesta, ativa ou transporta a entidade. Antes de usá-la, siga **Invocações em campo** e seus limites de controle. Um corpo que exceda seu limite permanece no mundo sem controle até haver espaço; fabricar ou receber outro não amplia esse limite.
+
+O talismã ocupa **0,5 de Volume**. Transporte, carga de energia e recuperação seguem aquele capítulo. Os materiais escolhidos não concedem proteção, resistência, imunidade ou habilidade além da ficha conferida. Equipar a criatura também exige obter as peças usadas.
+
+## Transferência e herança
+
+Um talismã ou corpo criado pode passar a outro invocador. A transferência exige um **projeto para mudar o vínculo**, fora de combate, pelo mesmo ofício que o fabrica. O objeto precisa estar acessível durante o trabalho. O shikigami deve estar recolhido; o corpo, inativo ou Desligada.
+
+O invocador anterior precisa consentir ou estar morto. Possuir um objeto roubado não permite trocar seu vínculo por este procedimento. O projeto informa como alcançar o registro do vínculo, os materiais e o tempo necessários. Use um responsável treinado e o mesmo teste de fabricação, com o nível da entidade limitado ao dele e ao do novo invocador.
+
+No sucesso, registre **um único invocador**. O anterior perde o controle quando o novo vínculo termina de ser estabelecido. Na falha, o vínculo anterior permanece, ou o objeto continua sem invocador vivo, conforme o caso. O retrabalho segue o projeto.
+
+**A transferência conserva nível, ficha, vida atual, queda, carga do talismã e usos gastos.** Atualize somente os valores que dependem da ficha do invocador. Ela não recupera energia, não dá outra atuação no ciclo e não religa um corpo Desligada. O novo invocador precisa cumprir os limites de controle e os procedimentos normais de retorno e entrada.
+
+Uma entidade destruída exige nova fabricação. Reaproveitar restos depende do projeto e não traz de volta a criatura anterior. Reparar uma entidade existente, conservar seu vínculo ou herdar uma peça não concede aumento de nível nem ocupa espaço conhecido.
+
+<!-- page:fab-exemplo|Talismã de vigia -->
+# Talismã de vigia
+
+Rina, de nível 13, quer fabricar um shikigami de nível 9 para vigiar um depósito. Sua ficha foi montada em **Criar uma invocação**, com sentidos e habilidades que permitem a tarefa. Rina é treinada em Caligrafia, tem Destreza 4, Maestria 2 e conhece a receita.
+
+O mestre prepara o projeto abaixo. **Os preços e prazos deste exemplo pertencem a este projeto; não são uma tabela para todo talismã.**
+
+| Campo | Projeto combinado |
+|---|---|
+| Resultado | Um talismã com uma entidade de nível 9, vinculada a Rina. |
+| Recursos | Papel e tinta preparados: ¥30.000. Estojo de Caligrafia próprio e mesa de trabalho. A energia está nos materiais; nenhum PE adicional. |
+| Prazo | 16 horas de trabalho, divididas conforme a disponibilidade de Rina. |
+| Falha | Refazer a inscrição: mais 4 horas e ¥6.000 em materiais a cada nova tentativa. |
+
+A receita e os materiais já estão disponíveis na campanha. Se Rina precisasse comprar o estojo, pagaria os **¥10.000** de Ferramentas de ofício separadamente; ele continuaria com ela depois do trabalho.
+
+## Execução
+
+Rina gasta ¥30.000 e trabalha 16 horas. Faz seu teste de Caligrafia contra CD 12. Tira 5: **5 + 4 + 2 = 11**, uma falha. O talismã continua sem funcionar; o projeto exige retrabalho.
+
+Ela escolhe continuar, compra ¥6.000 de materiais e trabalha mais 4 horas. Na nova tentativa, tira 9: **9 + 4 + 2 = 15**, sucesso. O gasto total foi **¥36.000 e 20 horas**, além do estojo que já possuía.
+
+Rina anota a entidade de nível 9 e o talismã de 0,5 Volume, sem carga. Manifestá-la seguirá seu custo normal. Quando Rina subir de nível, esta entidade continuará no 9.
+
+Para fabricar um corpo, ela precisaria do responsável em Entalhador ou Forja, do processo e dos materiais compatíveis. O projeto acima não transforma papel e tinta em um corpo de metal pelo mesmo preço.

@@ -1,0 +1,18 @@
+--- caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md
++++ candidata/INCURSOR-COMPLETO.md
+@@ -45,7 +45,7 @@
+ 
+ Seu deslocamento aumenta em **3 m**. Um deslocamento comum de 9 m passa a 12 m.
+ 
+-Durante seu movimento, pode percorrer até **metade do seu deslocamento** por paredes ou atravessando espaços ocupados por criaturas de até uma categoria de tamanho maior que você. Esse limite é compartilhado pelos trechos acrobáticos.
++Durante seu movimento, pode percorrer até **metade do seu deslocamento** por paredes ou atravessando espaços ocupados por criaturas de qualquer tamanho. Esse limite é compartilhado pelos trechos acrobáticos.
+ 
+ Termine o trecho em um espaço livre com apoio normal. Isso usa seu movimento disponível, não aumenta a distância que pode percorrer e não impede ataques de oportunidade. Não exige PE, Fluidez ou uma ação adicional. Obstáculos, testes necessários e demais regras de movimento continuam valendo.
+ 
+@@ -125,7 +125,6 @@
+ 
+ - Seu deslocamento dobra.
+ - Seus movimentos não provocam ataques de oportunidade.
+-- Movimento Acrobático permite atravessar espaços de criaturas de qualquer tamanho, mantendo a exigência de terminar em espaço livre com apoio.
+ 
+ Esse turno substitui seu turno habitual daquela rodada. Depois de terminá-lo, a criatura que iria agir começa o turno dela. Não joga novamente quando chegar sua posição habitual na iniciativa; nas rodadas seguintes, conserva essa posição.

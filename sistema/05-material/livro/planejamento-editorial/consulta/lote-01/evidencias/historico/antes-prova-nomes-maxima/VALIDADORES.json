@@ -1,0 +1,95 @@
+{
+  "sha256_texto": "148ebf0e59568ebf42626f53bc149875c3614d631a71e255fe1dfd8f8f36122a",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "estado": "concluido",
+      "evidencia": "COBERTURA-GLOSSARIO-ANTIGO.json; GLOSSARIO.json; INDICE.json e modelos completos por finalidade."
+    },
+    {
+      "id": "V02",
+      "nome": "Regras e fontes",
+      "estado": "concluido-com-dependencias",
+      "evidencia": "FONTES-CANDIDATAS.json; Patente e R01–R03 deverão ser reconciliados na integração."
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionamento",
+      "estado": "concluido",
+      "evidencia": "auditar.py executa resolução de destinos, regressões do validador e casos de consulta/recursos."
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "estado": "concluido",
+      "evidencia": "auditoria-numerica.json: exemplos de d20, conversão e recursos. Não cria custos ou escalas."
+    },
+    {
+      "id": "V05",
+      "nome": "Balanceamento",
+      "estado": "nao-aplicavel-com-interface",
+      "evidencia": "Nenhuma regra numérica nova; exemplos e campos não concedem recursos. Risco é erro de consulta, coberto por testes."
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "estado": "concluido-com-dependencias",
+      "evidencia": "INTERFACES.md; ordem paga/recursos pessoais e coletivos; campos não inventam espaços."
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos e vocabulário",
+      "estado": "concluido",
+      "evidencia": "Validador automático + LOCALIZACAO-EDITORIAL.json; índice somente remete."
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza e suficiência",
+      "estado": "concluido",
+      "evidencia": "REVISAO-EDITORIAL.json por seção; modelos têm espaço para regra completa e conferência."
+    },
+    {
+      "id": "V09",
+      "nome": "Voz e redundância",
+      "estado": "concluido",
+      "evidencia": "Autorrevisão contextual por seção; comparação funcional com PHB/DMG nos limites de LEITURAS."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "estado": "concluido",
+      "evidencia": "Donos por arquivo/âncora; sem cópia de habilidades. Quadros resumem apenas procedimentos comuns."
+    },
+    {
+      "id": "V11",
+      "nome": "Obra e referências",
+      "estado": "concluido-no-escopo",
+      "evidencia": "Não cria afirmação nova de cânone; referências delimitadas à conferência da abertura e autoria original."
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "estado": "pendente",
+      "evidencia": "Outro leitor e hash ainda não disponíveis; autorrevisão não substitui."
+    },
+    {
+      "id": "V13",
+      "nome": "PDF e navegação",
+      "estado": "exportado-conferencia-geometrica-em-andamento",
+      "evidencia": "PDF avulso28 páginas,5 grupos/33marcadores; conferência de texto e geometria em PRE-CONFERENCIA-PDF. Links globais dependem da integração."
+    },
+    {
+      "id": "V14",
+      "nome": "Visual",
+      "estado": "pendente",
+      "evidencia": "Raiz inspecionará todas as páginas renderizadas. Nenhuma imagem de IA."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "estado": "concluido",
+      "evidencia": "ALTERACOES, cobertura, fontes, scripts e hashes; manifesto após exportação."
+    }
+  ]
+}

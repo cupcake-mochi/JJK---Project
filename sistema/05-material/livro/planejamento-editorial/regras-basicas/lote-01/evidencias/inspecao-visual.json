@@ -1,0 +1,54 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "f8b3653d45a218f761375c6e38d5c76f95e1b641618b46b92c96d999f704bd72",
+  "metodo": "Inspeção visual individual dos sete PNGs renderizados do PDF final, além da conferência automatizada de geometria e texto.",
+  "revisor": "autor da candidata",
+  "paginas": [
+    {
+      "pagina": 1,
+      "sha256_png": "bdec28c9bc6c3af83b66b80ac956d5ea2bec28524798ef8dc8e8e33263b858bf",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Tabela de atributos e progressão legíveis, sem cortes."
+    },
+    {
+      "pagina": 2,
+      "sha256_png": "fb1b21ceb4e40124a6265697ad5afdfd8d5be937ec24bb92cd9f2bc4b2d9f029",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Tabela de CDs e exemplo acomodados; distinção entre escalas visível."
+    },
+    {
+      "pagina": 3,
+      "sha256_png": "29045f10e1a9b948a432f2002204209ddd5c004e6ee580c371a9d11ca6fbd9c8",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Perícias, especialização e exemplos completos; hierarquia clara."
+    },
+    {
+      "pagina": 4,
+      "sha256_png": "64fcec8f8088479be3029d46ecf801ada1dc34231b595ba0e0316bb9df474afc",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Tabela de TRs e texto final dentro da área útil."
+    },
+    {
+      "pagina": 5,
+      "sha256_png": "d7f9de8392b9027e12ca2b09221af92c395ec672624da690fcb66b2518ff4bf2",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Recursos, conversão e movimento completos; exemplo separado visualmente."
+    },
+    {
+      "pagina": 6,
+      "sha256_png": "45a8b70378f721ed0edcf00448a08cd47c71c28d91b023d67afdee7ae4e5a177",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Tabela de ações e opções bônus legíveis; último bloco e rodapé separados."
+    },
+    {
+      "pagina": 7,
+      "sha256_png": "db55f53dc2cbdc33d52f42f7f3943b6a7027bdc3cbf3a1a631e90996de538317",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Reações, concentração e Carregar completos; exemplos e rodapé sem sobreposição."
+    }
+  ],
+  "limites": [
+    "Não equivale a teste de leitura com jogadores.",
+    "Prévia renderizada com dimensão máxima de 1300 pixels."
+  ]
+}

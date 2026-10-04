@@ -1,0 +1,8 @@
+{
+  "id": "REM-06",
+  "antes": "conforme Recuperação.",
+  "depois": "conforme Socorro, em Dano e recuperação.",
+  "motivo": "Remissão ao título e dono atuais. Não altera regra.",
+  "sha256_antes": "c7759aebe3c3cb1da8af76d79f802387eb447dddbff7d0585acf535b18397834",
+  "sha256_depois": "ba2d9a0a0d321116a07f6133252e84c3dad273e17eb2aa45c116ee991703f512"
+}

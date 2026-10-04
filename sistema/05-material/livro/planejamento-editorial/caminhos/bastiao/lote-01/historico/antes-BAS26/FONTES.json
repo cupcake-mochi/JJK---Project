@@ -1,0 +1,96 @@
+{
+  "data": "2026-10-03",
+  "precedencia": "Decisões humanas vigentes e integrado v0.331 > fontes históricas; regras candidatas como interfaces registradas.",
+  "fontes": [
+    {
+      "id": "integrado",
+      "arquivo": "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+      "sha256": "330d1420415d7e36bdb35e46ad9a3c0a9d26769556833f7b2c9883886168b19c",
+      "papel": "Fonte de entrega integrada; preserva decisões humanas v0.331."
+    },
+    {
+      "id": "contrato",
+      "arquivo": "caminhos/05-Edicao-Integrada/contratos-v0.331.json",
+      "sha256": "df0471f49959c86c585944137a95d5b355003105de66acd0aeed4afb74358594",
+      "papel": "Regressão das alterações autorizadas."
+    },
+    {
+      "id": "manual35",
+      "arquivo": "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+      "sha256": "948dc94babd1d17022e5a3b5b817e160d2cf1e92c61d37d02462f412ff4e1e44",
+      "papel": "Confere integração e regras comuns de troca."
+    },
+    {
+      "id": "criacao",
+      "arquivo": "sistema/05-material/livro/manual/20-criacao-de-personagem.md",
+      "sha256": "bae6e4333d9e13add07696ee6feb383e7a48b6ac34d66887339d87fe826db698",
+      "papel": "Vida inicial 12, progressão 7 e criação."
+    },
+    {
+      "id": "progressao",
+      "arquivo": "sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+      "sha256": "11943325cbd9887c2fb6d312df0ec52f70eab50440d9f9bb12a080a9d2e8e24e",
+      "papel": "PE, Classe máxima e níveis."
+    },
+    {
+      "id": "R01",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "sha256": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35",
+      "papel": "Ações, Reação e Provocar."
+    },
+    {
+      "id": "R02",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "sha256": "afd311cfde0914af381f09cee3e756138a6ddb976a4c6276e4f6b378b2eac477",
+      "papel": "Ataques, crítico, Bloquear, Aparar e Brecha."
+    },
+    {
+      "id": "R03",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "sha256": "b902a11dc5bca2fc78b9c3a8daf87dbdb276185da48a699637946bf7654a531d",
+      "papel": "Ordem de dano, resistência, Alma e condições."
+    },
+    {
+      "id": "R04",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-04-r2/RECUPERACAO.md",
+      "sha256": "dccb0dcf2744679c51051bcd1abe0f665f61295136837febc69f9815670f822c",
+      "papel": "Zero de vida e energia temporária."
+    },
+    {
+      "id": "comuns",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "sha256": "3a7c2783e8f07a1d0de20317d1115d592d45c8b96cbbf7452e28d970ef03bb06",
+      "papel": "Contenção, deslocamento forçado e escape."
+    },
+    {
+      "id": "R06",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+      "sha256": "91db84efd1813de6f85f4ea30daf01528d0bdf60cfb47ce7cf512ed3121ca5b0",
+      "papel": "Feitiços, Classes, custos e limites por turno."
+    },
+    {
+      "id": "R07",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+      "sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+      "papel": "Dano no erro, preparo e restrições."
+    },
+    {
+      "id": "R09",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "sha256": "dec4688ba921e2a8655e190b363c862d237b9be10dc960449ba91c47a27aae51",
+      "papel": "Canalizar e proteções."
+    },
+    {
+      "id": "R10",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md",
+      "sha256": "d4ac61d33127980c24ce6b9acbcb12458dce4633a5f96db3f1ba9263c354c811",
+      "papel": "Estímulo e equivalências de feitiços/PE."
+    },
+    {
+      "id": "log",
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256": "31a6d658c08df72104d1183445ad106dae2f551552b643b6fde6858ed8988597",
+      "papel": "Rastreia v0.331/v0.280/v0.279; não substitui aprovação humana."
+    }
+  ]
+}

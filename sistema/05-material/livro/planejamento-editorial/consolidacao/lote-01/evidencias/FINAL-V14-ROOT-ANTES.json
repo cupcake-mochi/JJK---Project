@@ -1,0 +1,484 @@
+{
+  "sha256_pdf": "565e98135d44f9788cb6b4f65054916c094d1b6976ff5dbacd5f5f246ebc1c08",
+  "revisor": "raiz",
+  "metodo": "Páginas 1–48 vistas antes da pausa; 49–55 e316–354 vistas na retomada. Todas em mosaicos de quatro páginas, com ampliações complementares a registrar.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "vista": true,
+      "sha256_png": "68801dcd7bc18e1a57486dda0a5282c3b612b423c35336e5902ca5ef0bcafb4d"
+    },
+    {
+      "pagina": 2,
+      "vista": true,
+      "sha256_png": "c3cad27568d6b6dd3e524f1703e7e8790448de7ed51bde411dfe83434021d6ef"
+    },
+    {
+      "pagina": 3,
+      "vista": true,
+      "sha256_png": "673cf327e64486dcd09de5ca13533ae8b4df9754bec4e5d5a776f18f285773f3"
+    },
+    {
+      "pagina": 4,
+      "vista": true,
+      "sha256_png": "1e085019fd7df6d82fbcd9d1bffdcdfc457dbb25f335806bf9b4d7bde370949b"
+    },
+    {
+      "pagina": 5,
+      "vista": true,
+      "sha256_png": "2b794d0942655646bb629013a7ab1940a2758831b7505f5b6c258d4bacb6c8c6"
+    },
+    {
+      "pagina": 6,
+      "vista": true,
+      "sha256_png": "e818cdbb3c65539c79814264a90513524fd5a8edc97ea6be64b9851634cac2a5"
+    },
+    {
+      "pagina": 7,
+      "vista": true,
+      "sha256_png": "95cded7c37f6b04efceead74bf702e726344a3fff03cbc7b41fdc9538b5b6c35"
+    },
+    {
+      "pagina": 8,
+      "vista": true,
+      "sha256_png": "433cb9fe4e350ba44e0c3732593817db316fd02494faadef126a11208f65a967"
+    },
+    {
+      "pagina": 9,
+      "vista": true,
+      "sha256_png": "03f7026ed81a678bb2b50c514fb923e6fc4a72f422fdc79757acfb76b19b6839"
+    },
+    {
+      "pagina": 10,
+      "vista": true,
+      "sha256_png": "a6ea02120121dfbfb6c449afdb5a491dfa2c235ed0ed0e7bf0bd2fbc70c3396c"
+    },
+    {
+      "pagina": 11,
+      "vista": true,
+      "sha256_png": "e450e3c9125d0ddf0041054fdfe890ad335b6df066cdb4ba1a9a822b677d73c9"
+    },
+    {
+      "pagina": 12,
+      "vista": true,
+      "sha256_png": "052f34bdcbc889ed2fbfc8a0bfc9d91b15c0a45c7ad37b36920b901554205e52"
+    },
+    {
+      "pagina": 13,
+      "vista": true,
+      "sha256_png": "bf3590906b2844dbb6eee7839a2f3474a7d7f16e5a38f0a75c3629642623dca7"
+    },
+    {
+      "pagina": 14,
+      "vista": true,
+      "sha256_png": "466cdc8b2ad7853f22e9d151c08f6c75b11926a7997c9a0bce1a619f5465da85"
+    },
+    {
+      "pagina": 15,
+      "vista": true,
+      "sha256_png": "754de81319b3571faf604d32deeb5dc4f4d26e3c8cb21ae810e366e8e1a155c4"
+    },
+    {
+      "pagina": 16,
+      "vista": true,
+      "sha256_png": "1a25896c0a019bdc15ab18db58568760501517c13c9f07b88f2213a195689f2a"
+    },
+    {
+      "pagina": 17,
+      "vista": true,
+      "sha256_png": "5faf89bd57949e6f25eaef155565fb6ad05c884aa658326981c32f054f89bdfd"
+    },
+    {
+      "pagina": 18,
+      "vista": true,
+      "sha256_png": "576c2b454c9138cd5d0b8e27854b99edb3f193833faaf85d5f86bf2b74aa6b3b"
+    },
+    {
+      "pagina": 19,
+      "vista": true,
+      "sha256_png": "26892d0919f29486a56624e52c52dd05c6eb4497217b66312b59e82f85b9b8df"
+    },
+    {
+      "pagina": 20,
+      "vista": true,
+      "sha256_png": "5cc51a858bb94792971bbac81596d28862217a71d6fdc99815f050df7d171faa"
+    },
+    {
+      "pagina": 21,
+      "vista": true,
+      "sha256_png": "f66bb8289f7d7879d42d7cc2c9a3c046cf7dcd204c1624ac6debd7af40f73dbd"
+    },
+    {
+      "pagina": 22,
+      "vista": true,
+      "sha256_png": "941dca265c767778c697bfd02d6985756c1c09226e3d931a296b099ad59ef1ae"
+    },
+    {
+      "pagina": 23,
+      "vista": true,
+      "sha256_png": "4803e441ad8fb19c855b796745823c2fd674af3f7358788b2669e278ac6980f8"
+    },
+    {
+      "pagina": 24,
+      "vista": true,
+      "sha256_png": "58c709eee99048bd1a891b6207bf48ac6e70d5ba8ef7eeb03896d595e7b6a6b4"
+    },
+    {
+      "pagina": 25,
+      "vista": true,
+      "sha256_png": "a02eddb80b21ffe4acd4667734e3644a5b6fd961186af450f1a0b9fc67b4c756"
+    },
+    {
+      "pagina": 26,
+      "vista": true,
+      "sha256_png": "6ca5b44b9b60bc9d2e64018e9a26ded307b6b82798cfeb9d10f9759c3664c09e"
+    },
+    {
+      "pagina": 27,
+      "vista": true,
+      "sha256_png": "ab424897c0d5ebb1b03f800d3554e3d12fa8a34ef10d9ffecd77ca078ee9ac8a"
+    },
+    {
+      "pagina": 28,
+      "vista": true,
+      "sha256_png": "e02d5bf284590c4e14803128a3b19c979f9353df8f553040a1f3916d36f0cd59"
+    },
+    {
+      "pagina": 29,
+      "vista": true,
+      "sha256_png": "981e6ac2a394ef9f2fabae2888a203ea23a80069db54f2a36d827ab706414ecc"
+    },
+    {
+      "pagina": 30,
+      "vista": true,
+      "sha256_png": "d4906550e894213dc344d36756b55bddd205ec7c24c4463106fd2fa5840524dc"
+    },
+    {
+      "pagina": 31,
+      "vista": true,
+      "sha256_png": "7ad754fbb2f73066864a460d138712ff26ca44093cb97e22349cd371ecdc2435"
+    },
+    {
+      "pagina": 32,
+      "vista": true,
+      "sha256_png": "3a63c961593a1d4c2f1806e042c24bbe0235ce8a8bb78bf64321862925696597"
+    },
+    {
+      "pagina": 33,
+      "vista": true,
+      "sha256_png": "7aa9fafd2388dd2864823e15b9b1d1dc6042f813a9124a07847c9dfc4e6f51c4"
+    },
+    {
+      "pagina": 34,
+      "vista": true,
+      "sha256_png": "3fc5aec5744916cbfa7074e6041685d858a2dc6f0113a28c49221a2d97b1e3b8"
+    },
+    {
+      "pagina": 35,
+      "vista": true,
+      "sha256_png": "3ff1496dbe4ffcdff0feec115e9d7c9c5ef67e622880a7762878383a7c4b0e2e"
+    },
+    {
+      "pagina": 36,
+      "vista": true,
+      "sha256_png": "7febdf2f729bba1107fe685681bfc8eddab76ad15ddf6ac54e7bfaf6e81c4b87"
+    },
+    {
+      "pagina": 37,
+      "vista": true,
+      "sha256_png": "f0ac4f6dffbd2783f15f7afce4ecdea0f634895df3a3c551ac31c7c7ccd3f715"
+    },
+    {
+      "pagina": 38,
+      "vista": true,
+      "sha256_png": "db3202d9895dd98faf5db5a7755248a2c3850ae974f6d29e40545ec774f8cc2e"
+    },
+    {
+      "pagina": 39,
+      "vista": true,
+      "sha256_png": "cb82bdcb61e4a5efbaa361ac61b49e518124a9a8b63b2d0eccdf82fa1f6e618e"
+    },
+    {
+      "pagina": 40,
+      "vista": true,
+      "sha256_png": "58c7e5fe8e0583e6cb64a55b1e4dc257f4e9078928686497c21903ff2c2a29cc"
+    },
+    {
+      "pagina": 41,
+      "vista": true,
+      "sha256_png": "05493b2d1e831a648c4f853f720390670a8ae6e6bd65218f42be1c58d6ece050"
+    },
+    {
+      "pagina": 42,
+      "vista": true,
+      "sha256_png": "fe15bd996a0e64f58b620bbc11d85098d7affd7f1a6636830f13869d91622af0"
+    },
+    {
+      "pagina": 43,
+      "vista": true,
+      "sha256_png": "7a26f1ed1303508b0dcfe3a43820c81236462a48b95fc6eeaf1cfebed811216a"
+    },
+    {
+      "pagina": 44,
+      "vista": true,
+      "sha256_png": "4f68f83fcfbf8deafc668898bdb6bbde78df05d75e605226f9efaf96a91d7daf"
+    },
+    {
+      "pagina": 45,
+      "vista": true,
+      "sha256_png": "d017ae0ddfc352667def06e14e19a773000b155ab18ff7e2e41bca20239ef55f"
+    },
+    {
+      "pagina": 46,
+      "vista": true,
+      "sha256_png": "223d9b4c966a1959f89fec373c6e4b8513800acb699c484caeb7b2502b85287a"
+    },
+    {
+      "pagina": 47,
+      "vista": true,
+      "sha256_png": "29ac4630c53efdfccea6c57b2acc52b360e7ada11580b1e9365d77e4ae8687a2"
+    },
+    {
+      "pagina": 48,
+      "vista": true,
+      "sha256_png": "f7bc005a2ff64ef8cd8b53b91bc5a0e9a6ecc445e8ec46e40533a6b485f97f30"
+    },
+    {
+      "pagina": 49,
+      "vista": true,
+      "sha256_png": "21fc560925d7b76a36d578f92eb35a29454dfbe97fcf42b59ddc3cba6c7b0dbb"
+    },
+    {
+      "pagina": 50,
+      "vista": true,
+      "sha256_png": "035dbb4daadc961b920e7268213b700f2374a5cfd1c11ff795f121849c222fc9"
+    },
+    {
+      "pagina": 51,
+      "vista": true,
+      "sha256_png": "68204c1ef7ac22fb8c72a0bdb1bea7fd25235cd2939fe14b1258b9fe2d064d61"
+    },
+    {
+      "pagina": 52,
+      "vista": true,
+      "sha256_png": "94fef35fae86736b2bd170877c64fc598a30f80a487f7af95b343ab8cd75e8fe"
+    },
+    {
+      "pagina": 53,
+      "vista": true,
+      "sha256_png": "9b513227d9aa0a7654482f5bfd5ad9838991e3d4589863774b32e6f0892d39c9"
+    },
+    {
+      "pagina": 54,
+      "vista": true,
+      "sha256_png": "667275d9e1a59af0e0a7da0473d3f8d7e89cc8fd0f88f96484af8280cce5d2f3"
+    },
+    {
+      "pagina": 55,
+      "vista": true,
+      "sha256_png": "ffb1be629c5ee3817075c7508376fe7d048b26cbd55d7d79b5659e9437302d9a"
+    },
+    {
+      "pagina": 316,
+      "vista": true,
+      "sha256_png": "e0b14027be98895ae18dca72134c83f8482c4c4e59b4919cca081472017aa28b"
+    },
+    {
+      "pagina": 317,
+      "vista": true,
+      "sha256_png": "b466fc1d8449fdda0761e15dcd8ada9e206b94b6032ffb6a42024cc971c2c707"
+    },
+    {
+      "pagina": 318,
+      "vista": true,
+      "sha256_png": "7293a7115498792c0940032008a0d055529a5b5f5dbe03310c78549d950b3e09"
+    },
+    {
+      "pagina": 319,
+      "vista": true,
+      "sha256_png": "2e944e3aed47bacf00e14eb4a259cfe8eae874022188b2595d50cf79f2800570"
+    },
+    {
+      "pagina": 320,
+      "vista": true,
+      "sha256_png": "941273817ee4b10929c15955bc416c08b31c22723a21649b933ce9fc8596b632"
+    },
+    {
+      "pagina": 321,
+      "vista": true,
+      "sha256_png": "84d9cae97c2154c051127d4d1c3b818658661bbb2c9b5cd547d033eb0137bfda"
+    },
+    {
+      "pagina": 322,
+      "vista": true,
+      "sha256_png": "95d5b5b79c706b67c9395274135a5fb0414c25333d2ae2afa5bd48f2a79b81e6"
+    },
+    {
+      "pagina": 323,
+      "vista": true,
+      "sha256_png": "53fa79ed289075d5b01c6922afb5853cbb1cdc82235df4cf04f538ae023c6a06"
+    },
+    {
+      "pagina": 324,
+      "vista": true,
+      "sha256_png": "d3dd443e20d8bba21a28c634d4c3552a50ef5dea09349d136e7e5abc0f02c50a"
+    },
+    {
+      "pagina": 325,
+      "vista": true,
+      "sha256_png": "fcfaa42e68ca971bc7a48b0ae9ef3832c5586470c331c98e990bf5358f9d474f"
+    },
+    {
+      "pagina": 326,
+      "vista": true,
+      "sha256_png": "cf8a854b4b656985cf89ea33dd0373b6a0cd81aa4bd587ff4895c6d75d52bd3a"
+    },
+    {
+      "pagina": 327,
+      "vista": true,
+      "sha256_png": "c996c0943bf28c8d1b429e4beabcdb2d30743a68ad3fb8c752fdd5c7dbea7769"
+    },
+    {
+      "pagina": 328,
+      "vista": true,
+      "sha256_png": "18fade5bd01413b9241461f144f5d1b4d7f5b1733c74b8e9d3789c80d5abf788"
+    },
+    {
+      "pagina": 329,
+      "vista": true,
+      "sha256_png": "75f8b8576d3ca64b1e50935e52fd5409ccb77858504fecc14c48b52519fae83b"
+    },
+    {
+      "pagina": 330,
+      "vista": true,
+      "sha256_png": "97bda182e1e531482aa09814d12e79bc790b11dde3f6b79237b76fedf2a5313f"
+    },
+    {
+      "pagina": 331,
+      "vista": true,
+      "sha256_png": "88a33e5131cf6e859c55bd3790215bcc42dc7585fbc428cf2658c9c277c58700"
+    },
+    {
+      "pagina": 332,
+      "vista": true,
+      "sha256_png": "0dc513009443ccf8f61b33e153b7c3336e85fc1e655d91afd5f73a8101117aee"
+    },
+    {
+      "pagina": 333,
+      "vista": true,
+      "sha256_png": "efc41edab9039fc31967647377f018375acdaf326f825e9bbced4d6b0b54b018"
+    },
+    {
+      "pagina": 334,
+      "vista": true,
+      "sha256_png": "18521bf12dd84c77d4191687cdc82fab8fb3b9db9a7342fb2e72ffedf94346b3"
+    },
+    {
+      "pagina": 335,
+      "vista": true,
+      "sha256_png": "88f808947abda72285f70975d8363305bff388ec07180c5b978932ebbf89b6e9"
+    },
+    {
+      "pagina": 336,
+      "vista": true,
+      "sha256_png": "79a78af6c2964d1aa7754eabded4d807ca1f59e2155c75aff45ff69b68b71c04"
+    },
+    {
+      "pagina": 337,
+      "vista": true,
+      "sha256_png": "43f67d711167a511cd1afb88258bdff6278007a1e65c7f7dabc9054d26e28bc0"
+    },
+    {
+      "pagina": 338,
+      "vista": true,
+      "sha256_png": "211e5d660e04efffd8671cb5f207127872adc75588adf1cc090cb6bfda6ec638"
+    },
+    {
+      "pagina": 339,
+      "vista": true,
+      "sha256_png": "26ba1413cfdc22dd310e2817a2cb48de22052b1b3173f596792610359175b1b1"
+    },
+    {
+      "pagina": 340,
+      "vista": true,
+      "sha256_png": "6e3cb41e6885c5036bd51ff041da09e1bec3a2488539ec57fb27079aaa7c0de4"
+    },
+    {
+      "pagina": 341,
+      "vista": true,
+      "sha256_png": "546596ceb62473467615770a36273c7e7729c01afc86c597a2c50ab6587970dc"
+    },
+    {
+      "pagina": 342,
+      "vista": true,
+      "sha256_png": "b5421c4d5ef4731914c20c9acbaa560aa7788b2e8adb86df774a25df335e7937"
+    },
+    {
+      "pagina": 343,
+      "vista": true,
+      "sha256_png": "5e6f6e8725fc4ac23c7abaaa2356d7fb03d250133acb6b024e6c455d80fd64da"
+    },
+    {
+      "pagina": 344,
+      "vista": true,
+      "sha256_png": "56432a305f64b5c556216e6be24207b48bc20486cb58d6947d280a9c63894938"
+    },
+    {
+      "pagina": 345,
+      "vista": true,
+      "sha256_png": "e7693205685bd90cef8df5972a82e9c19003e02d9ff75c7eaa8340a5e9218eb5"
+    },
+    {
+      "pagina": 346,
+      "vista": true,
+      "sha256_png": "3096dd6da186ccef98d6e8b5fa3e406cc5416f55bccddba9e2909343c0991d1a"
+    },
+    {
+      "pagina": 347,
+      "vista": true,
+      "sha256_png": "dfcc97bd159ecacd51a8af8c37156855f256f6579ee53ec95f88036c4491b79e"
+    },
+    {
+      "pagina": 348,
+      "vista": true,
+      "sha256_png": "c11a6ecac7869bd7855082017802b855341584df8966efeeaa2317fe43a0dc93"
+    },
+    {
+      "pagina": 349,
+      "vista": true,
+      "sha256_png": "60d6d7d1f17098116e3553a2c35d9e15c58931f600f15e984c12046f7b505014"
+    },
+    {
+      "pagina": 350,
+      "vista": true,
+      "sha256_png": "b927b71e9c3d10477b16fd604dc7eaf7abd6535a5a902bbee8c25df8cefab5c2"
+    },
+    {
+      "pagina": 351,
+      "vista": true,
+      "sha256_png": "3386a258e5bed7c4f3b22f3718e893461e3284e42e7e13e1a6210dbf80b35dc0"
+    },
+    {
+      "pagina": 352,
+      "vista": true,
+      "sha256_png": "5dbe1a7c1673be70efab360c77c23369aaa388c3a9e18e28a125db13f17cc2b4"
+    },
+    {
+      "pagina": 353,
+      "vista": true,
+      "sha256_png": "82810b8896076670211d56bdf7d72dc7d45df79e308cae616af6dc734606d9dc"
+    },
+    {
+      "pagina": 354,
+      "vista": true,
+      "sha256_png": "d45c9de05c8b88137eba5b2aa505a5a78b4aa253b57ec94d606db57da94ef84f"
+    }
+  ],
+  "achados": [
+    {
+      "pagina": 39,
+      "problema": "Parágrafo final isolado antes de novo capítulo; manter exemplo completo."
+    }
+  ],
+  "limite": "Esta inspeção pertence à prova anterior aos ajustes finais, não certifica o PDF regenerado."
+}

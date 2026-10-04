@@ -1,0 +1,176 @@
+PÁGINA 1
+PROJETO - M
+COMPRAS E EQUIPAMENTO
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+1
+Dinheiro e acesso
+Uma missão pode exigir armas, proteção, ferramentas e suprimentos. O dinheiro disponível define o
+que você consegue comprar; a patente e as autorizações da campanha determinam quais equipamentos
+restritos estão ao seu alcance.
+Dinheiro
+Os preços deste livro estão em ienes (¥). Anote o dinheiro do personagem e desconte cada compra.
+Armas, munição e itens comuns têm seus preços nos respectivos catálogos; os de uniformes e escudos
+estão em Preços de proteção (p. 2).
+Na instituição do Projeto M, o pagamento regular depende da patente e da participação em missões.
+Valores, frequência e ajustes da campanha estão em Salário, no capítulo de Experiência e Progressão.
+Receber equipamento ou terminar uma missão não concede outro pagamento por conta própria.
+Equipamento restrito
+ Equipamento
+Acesso necessário
+Armas de fogo e sua munição
+Grau 2 ou superior, ou autorização prévia.
+Revestimento 2
+Grau 3 ou superior.
+Revestimento 3
+Grau 2 ou superior.
+Nesta tabela, uma patente superior é a de maior posição na instituição: Grau 1 está acima de Grau 2, e
+Especial está acima de ambos. A autorização para armas de fogo deve ser combinada com o mestre ou
+com a organização da guilda antes da compra; registre seu alcance na ficha.
+Cumprir o acesso permite procurar o equipamento pelos canais da campanha. A tabela não garante que
+qualquer loja tenha o item disponível. O mestre informa o fornecedor e eventuais condições para
+obtê-lo.
+Compra e uso
+Ter dinheiro para comprar um item não dispensa treino, Força, mãos disponíveis ou limite de carga.
+Confira esses requisitos na ficha do equipamento antes de gastar. Um personagem pode transportar
+uma peça para outra pessoa sem poder usá-la, desde que consiga carregá-la.
+Ferramentas e objetos amaldiçoados seguem as regras de aquisição e os requisitos de suas próprias
+fichas. A autorização para uma arma comum não concede automaticamente uma ferramenta
+amaldiçoada equivalente.
+Exemplo: Kaori começa no Grau 3 e tem dinheiro suficiente para um Rifle de Precisão. Ainda precisa de
+autorização, pois o acesso comum às armas de fogo começa no Grau 2. Mesmo autorizada, deve conferir a
+Força exigida pela arma e a carga do conjunto que pretende levar.
+
+
+PÁGINA 2
+PROJETO - M
+COMPRAS E EQUIPAMENTO
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+2
+Preços de proteção
+Os valores abaixo são para uma peça comum do tipo indicado. Proteção, teto de Destreza, Força exigida
+e Volume estão em Proteção. Os requisitos de compra estão em Equipamento restrito (p. 1).
+Peça
+Preço (¥)
+Traje 1
+30.000
+Traje 2
+90.000
+Traje 3
+270.000
+Revestimento 1
+150.000
+Revestimento 2
+450.000
+Revestimento 3
+1.350.000
+Broquel
+12.000
+Escudo Médio
+36.000
+Escudo Torre
+108.000
+Uniforme da instituição
+Na criação padrão, você recebe um Traje 1, sem descontar seu preço do dinheiro inicial. A linha de
+¥30.000 vale para uma compra posterior ou uma peça adicional. Trocar de dono, perder o uniforme ou
+começar outra missão não concede automaticamente outro Traje gratuito.
+Você pode comprar uma proteção diferente. Registre também o destino do Traje recebido: se continuar
+levando-o, ele ocupa espaço mesmo guardado. Vestir uma peça sobre a outra não soma a proteção dos
+dois uniformes.
+Escolher uma peça
+Compare a proteção oferecida com a Defesa que você já tem. Um preço maior não garante uma Defesa
+maior para toda ficha: o teto de Destreza e os requisitos da peça continuam valendo.
+Exemplo: Rina dispõe de ¥150.000. Comprar um Traje 2 por ¥90.000 deixa ¥60.000. Ela pode usar essa
+quantia para uma Katana de ¥48.000 e guardar os ¥12.000 restantes, ou escolher outro conjunto. A soma
+cabe no dinheiro inicial; carga e requisitos ainda precisam ser conferidos.
+Um Revestimento 1 custa todo o fundo padrão de ¥150.000. Quem o escolher não recebe uma arma
+comprada junto; os ataques desarmados seguem Combate. Essa é uma escolha possível, desde que a
+ficha cumpra os requisitos da peça.
+
+
+PÁGINA 3
+PROJETO - M
+COMPRAS E EQUIPAMENTO
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+3
+Equipamento inicial
+Na criação padrão, você começa no Grau 4, recebe um Traje 1 e dispõe de ¥150.000 para comprar os
+demais itens. Escolha suas compras livremente dentro do orçamento e dos requisitos; não há pacote
+obrigatório por Caminho.
+Se a campanha começar em outra patente, o fundo inicial corresponde a uma mensalidade padrão dessa
+patente, indicada em Salário. O mestre define a patente inicial. Começar em nível mais alto não concede
+uma patente por conta própria. Campanhas com outra forma de sustento definem o fundo antes das
+compras.
+Montar o inventário
+ 1. Escolha armas e proteção. Confira o acesso, o treino, a Força e as mãos necessárias para usá-las.
+ 2. Use o preço de criação para armas de fogo e o preço comum para os demais itens. Desconte cada
+ compra; o dinheiro que sobrar continua com você.
+3. Acrescente o estoque inicial de munição indicado em Munição. Anote as quantidades na arma e na
+ reserva; esse fornecimento não se repete em compras futuras.
+4. Escolha ferramentas e suprimentos. Some o Volume de tudo que vai levar, incluindo a proteção e os
+ recipientes. Separe o que ficará guardado em outro local.
+Exemplos de compras
+Os conjuntos abaixo incluem o Traje 1 gratuito na carga. O dinheiro indicado é apenas o gasto com as
+compras; você pode usar o restante em outros itens.
+Compra
+Preço (¥)
+Volume total
+Força mínima
+Katana e Broquel
+60.000
+1,2
+0
+Hankyū e 20 flechas
+40.000
+1,6
+0
+Naginata
+36.000
+2,1
+3
+Pistola e duas reservas
+125.000
+1
+0
+Força mínima considera carga e uso do conjunto, com os demais requisitos atendidos. A Pistola está
+carregada e inclui duas reservas; exige autorização para quem começa no Grau 4. Os exemplos não
+incluem mochila, alimento, telefone ou ferramentas. Receber munição não aumenta a capacidade de
+carga.
+Exemplo: Rina compra Katana e Broquel por ¥60.000. Acrescenta mochila, corda, lanterna, pilhas e cantil
+por ¥13.000. Gasta ¥73.000, guarda ¥77.000 e leva 2,4 Volume, incluindo o Traje 1. Com Força 0, seu limite
+é 5.
+
+
+PÁGINA 4
+PROJETO - M
+COMPRAS E EQUIPAMENTO
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+4
+Compras e reposição
+Depois da criação, use o preço de compra posterior da arma de fogo. Perder uma arma, trocá-la ou
+conseguir autorização mais tarde não reabre o desconto inicial. Para os demais equipamentos, continue
+usando o preço comum do catálogo.
+Antes de sair para uma missão, confira o dinheiro disponível, os itens acessíveis para compra e o que
+ainda resta no inventário. Um suprimento só entra na ficha depois de ser comprado, recebido ou
+encontrado na cena.
+Repor suprimentos
+Munição, alimento, pilhas e outros consumíveis não se renovam entre cenas ou sessões. Confira a
+quantidade restante antes de comprar mais. O preço da munição corresponde ao conjunto da tabela;
+capacidade, recarga e recuperação de projéteis ficam em Munição.
+Exemplo: Kaori tem ¥10.000. Compra três carregadores de Rifle por ¥4.500, uma lanterna por ¥3.000 e uma
+reposição de pilhas por ¥500. Gasta ¥8.000, fica com ¥2.000 e acrescenta 1,2 Volume ao inventário. Os
+carregadores fornecem 9 ataques de reserva, além da munição que já estiver na arma.
+Equipamento do grupo
+Ao passar um item para outra pessoa, retire-o do inventário de quem entregou e registre-o com quem
+recebeu. Transfira também seu estado e os suprimentos restantes. O mesmo objeto não pode constar
+como disponível para duas pessoas ao mesmo tempo.
+Um empréstimo não muda os requisitos do equipamento. Combine com o proprietário quando devolver
+a peça e como lidar com consumo, perda ou dano. Itens fornecidos para uma missão devem ter
+quantidade e condições de devolução definidas quando forem entregues.
+Venda, troca e conserto
+O preço de compra do catálogo não garante um valor de revenda. O mestre informa se há comprador ou
+possibilidade de troca e considera o estado, a origem e a disponibilidade do item. Não acrescente
+dinheiro à ficha antes de concluir essa negociação. Na montagem inicial, itens gratuitos não se
+convertem em crédito de compra.
+Um objeto danificado não volta ao estado original por ser vendido, guardado ou transferido. Reparos e
+fabricação seguem Ofícios. Serviços e objetos sem preço tabelado precisam ter seu custo combinado
+antes da compra; não se presume que sejam gratuitos.

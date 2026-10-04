@@ -1,0 +1,208 @@
+{
+  "decisoes": [
+    {
+      "id": "EMA01",
+      "tipo": "E",
+      "antes": "Texto em blocos e quadros repetidos.",
+      "depois": "Dezenove páginas por procedimento, preservando nomes e entregas.",
+      "motivo": "Consulta por escolha, custo e gatilho sem copiar catálogo geral."
+    },
+    {
+      "id": "EMA02",
+      "tipo": "E",
+      "antes": "Vida inicial ausente na fonte do Caminho.",
+      "depois": "Inclui6+Con inicial,4+Con por nível e6×nívelPE.",
+      "motivo": "Criação/progressão são donos da conta, reproduzida na ficha do Caminho."
+    },
+    {
+      "id": "EMA03",
+      "tipo": "E",
+      "antes": "Treino de arma com justificativa depreciativa de disparo.",
+      "depois": "Concede Arma de Fogo/Balestra sem dizer que não exigem treino de verdade.",
+      "motivo": "É regra de acesso, não afirmação factual sobre armamento. Permanece troca de2perícias por uma arma."
+    },
+    {
+      "id": "EMA04",
+      "tipo": "M",
+      "antes": "Remodelar permitia sobra descartada e exigia pagar diferença, mas não fixava ordem frente à devolução.",
+      "depois": "Paga diferença positiva dos preços trocados com resultado; recálculo do orçamento pode retirar mais, nunca devolver o que foi pago.",
+      "motivo": "Evita duas interpretações de recuperação de dados e respeita fonte que manda descartar sobra; root aprovou direção conservadora."
+    },
+    {
+      "id": "EMA05",
+      "tipo": "E",
+      "antes": "Modulação mantém dados, mas texto geral mandava respeitar orçamento.",
+      "depois": "Explicita que PE adicional paga a peça, sem descontá-la novamente dos dados.",
+      "motivo": "Esta é a exceção própria da habilidade, limitada a uma e uma vaga extra."
+    },
+    {
+      "id": "EMA06",
+      "tipo": "E",
+      "antes": "Trocar peça por peça sem registrar compatibilidade atual.",
+      "depois": "Famílias Fechadas, Selo, Reação pré-definida e Efeito Próprio preservados; sem Toque+Longe ou Gesto dispensado.",
+      "motivo": "R06/R07 fecham combinações; flexibilidade não concede Família proibida."
+    },
+    {
+      "id": "EMA07",
+      "tipo": "M",
+      "antes": "Forma Fluida não explicava conversão entre dano/cura/apoio.",
+      "depois": "Compara saldo útil em pontos antes de converter, sem crescimento, aplicando teto da nova Forma.",
+      "motivo": "Permite troca prevista sem converter cada1PVtemporário em1d8 ou contornar Cura2C."
+    },
+    {
+      "id": "EMA08",
+      "tipo": "M",
+      "antes": "Duas trocas simultâneas sem ordem de custo.",
+      "depois": "Em Composição, compara preço conjunto das peças trocadas, paga diferença positiva e descarta sobra.",
+      "motivo": "O mesmo Desdobramento pode compensar uma troca pela outra, mas não gerar saldo ou reaproveitar sobra descartada de outra conjuração."
+    },
+    {
+      "id": "EMA09",
+      "tipo": "M",
+      "antes": "Versões Familiares compartilhavam Afinidade, mas Único não era nominal.",
+      "depois": "Original/Familiar compartilham usos por ficha como Único.",
+      "motivo": "Não fabricar uso extra por alternar o texto da mesma aplicação."
+    },
+    {
+      "id": "EMA10",
+      "tipo": "M",
+      "antes": "Interação entre Afinidade e metades de Eco/Cobrança não fechada.",
+      "depois": "Escolha uma fórmula completa: Afinidade reduz a base original e soma a diferença integral de Ampliar; Eco/Cobrança reduzem o custo normal da Classe conjurada. Nunca aplique metade ao valor já reduzido. Gatilhos de primeira/próxima conjuração são consumidos mesmo se outra alternativa for escolhida.",
+      "motivo": "Comparação Classe 2 → 4: Afinidade 9 PE, Eco 6 PE, composição indevida 5 PE. A decisão nova conserva as fórmulas de cada dono e foi aprovada pela raiz; não é atribuída à publicação histórica."
+    },
+    {
+      "id": "EMA11",
+      "tipo": "M",
+      "antes": "Ritual Energia com Afinidade Ampliada sem ordem.",
+      "depois": "O desconto fixo de Ritual reduz a base pertinente à alternativa escolhida antes de calcular a metade, com mínimo 1: base original para Afinidade, custo da Classe efetiva para Eco/Cobrança. Custos independentes são somados depois.",
+      "motivo": "Preserva a ordem fixa-antes-metade de R19 sem transferir a diferença integral de Afinidade para a fórmula diferente de Eco. Sincronizar donos no fechamento global."
+    },
+    {
+      "id": "EMA12",
+      "tipo": "M",
+      "antes": "Instintiva1PE com outros descontos ambígua.",
+      "depois": "A base de 1 PE de Instintiva não recebe novos abatimentos e exige Padrão. Instintiva é uma alternativa completa: ao Ampliar de Classe 2 para 5, pode escolher Instintiva 10 PE ou Eco 8 PE, sem dividir os 10 por dois.",
+      "motivo": "Mantém custo positivo, verifica a ação final e não obriga a usar uma alternativa mais cara. Extras continuam separados; custos de Bônus não recebem o preço Instintivo."
+    },
+    {
+      "id": "EMA13",
+      "tipo": "E",
+      "antes": "Cadência separa partes mas não distingue de feitiço carregado.",
+      "depois": "Ataque e conjuração são resoluções separadas; ataque pode usar Canalizar.",
+      "motivo": "R09 só retira Canalizar de ataque que transporta feitiço de dano."
+    },
+    {
+      "id": "EMA14",
+      "tipo": "M",
+      "antes": "Chamado recolhe/manifesta sem custo de manipulação explícito.",
+      "depois": "Guardar/sacar usam manipulação normal; retornoBônus sóarma solta e mão disponível.",
+      "motivo": "Não inventar saque gratuito repetido nem desarmar quem segura o item."
+    },
+    {
+      "id": "EMA15",
+      "tipo": "M",
+      "antes": "Forma Mutável mantém munição sem tipo/capacidade/retorno do perfil.",
+      "depois": "Não converte, repõe ou repara. Descarregar antes de assumir perfil incompatível ou capacidade menor. Ao terminar vínculo volta perfil original; munição inadequada impede disparar até ajuste.",
+      "motivo": "Conservação do inventário e ausência de fabricação permanente de mercadoria. Root aprovou fechamento."
+    },
+    {
+      "id": "EMA16",
+      "tipo": "M",
+      "antes": "Passo da Arma exige perceber arma, mas não espaço de chegada.",
+      "depois": "Exige perceber espaço livre e arma, com mão para recebê-la; não leva criaturas.",
+      "motivo": "Direção oferecida por Sentido não identifica espaço livre do outro lado de parede."
+    },
+    {
+      "id": "EMA17",
+      "tipo": "M",
+      "antes": "Âncora: até liberar, sem ação ou destruição.",
+      "depois": "Liberar sem ação no próprio turno; destruir arma/apoio também encerra.",
+      "motivo": "Define saída operacional sem tornar apoio indestrutível."
+    },
+    {
+      "id": "EMA18",
+      "tipo": "E",
+      "antes": "VínculoDuplo diz mesmo ato sem método.",
+      "depois": "Paga uma manipulação para ambas; limites por cena compartilhados.",
+      "motivo": "Duas armas não dobram usos nem criam ações extras."
+    },
+    {
+      "id": "EMA19",
+      "tipo": "Exceção de medida",
+      "antes": "Sentido do Vínculo usa1km.",
+      "depois": "Preserva1km como distância narrativa, não como alcance de ataque/área.",
+      "motivo": "Root orientou conservar número familiar; arredondar para999m piora leitura sem utilidade de grade. Demais medidas de combate em múltiplos1,5."
+    },
+    {
+      "id": "EMA20",
+      "tipo": "M",
+      "antes": "Manifestação novaorigem versus CorpoaCorpo e Formas centradas.",
+      "depois": "Cone/Linha podem partir do ponto, mas Toque/Aura não afastam aplicação mantendo devolução e Forma que exige centropróprio conserva requisito.",
+      "motivo": "R07proíbe explicitamente outrobenefício ampliarToque/Aura mantendoCorpoaCorpo. Rootaprovouinterface."
+    },
+    {
+      "id": "EMA21",
+      "tipo": "M",
+      "antes": "Ressonante: ExpressãoFamiliar pode ser entendida como Desdobramento grátis.",
+      "depois": "Familiar sozinha não geraEco; alteração adicionalporDesdobramento pode gerar.",
+      "motivo": "Fonte doCatalisador citaFamiliar expressamente, enquantoEcoTécnico exigeDesdobramento. SemcadeiadeEcosgratis."
+    },
+    {
+      "id": "EMA22",
+      "tipo": "M",
+      "antes": "Ecos/Impulso apósresolver poderiam repetir poralvo ou área persistente.",
+      "depois": "Geração única apósresoluçãoinicial; preparaçãoadiada só gera apósdisparo; parcelas posteriores não geram.",
+      "motivo": "Evita múltiplosrecursos gratuitos por um mesmo uso; conserva gatilhodefeitiço resolvido."
+    },
+    {
+      "id": "EMA23",
+      "tipo": "M",
+      "antes": "DoisEcosdiferentes sem critério.",
+      "depois": "Registro usa peça+maneira. Duas cópias da mesma peça pelo mesmo método não ocupam duasvagas.",
+      "motivo": "Método está explicitamente guardado na fonte; aplicações ainda obedecem repetibilidade."
+    },
+    {
+      "id": "EMA24",
+      "tipo": "E",
+      "antes": "Acorde menciona trêsalterações sem decompor.",
+      "depois": "DoisEcos deixam espaço para apenas uma nova alteração, mesmo comComposição.",
+      "motivo": "Evita2+2=4 poracumular duas redações."
+    },
+    {
+      "id": "EMA25",
+      "tipo": "M",
+      "antes": "Impulso é gasto em outra aplicação dessas, ação de gasto pouco clara.",
+      "depois": "Geração exigePadrão; gasto exigeClasse1+alterada/Familiar. Acelerar sóPadrão. Outrasopções conservam açãodaaplicação.",
+      "motivo": "Distinguecondiçãodeganho deuso, semliberarClasse0oufeitiçoinalterado."
+    },
+    {
+      "id": "EMA26",
+      "tipo": "E",
+      "antes": "Correção sem casos de alvos e conjuntos.",
+      "depois": "Umataque ouprimeiroTRdecriaturapreselecionado, repetindoprocedimento e usandosegundo; dano repete cada1/2 sóuma vez.",
+      "motivo": "Não repetirfeitiçointeiro ou misturar melhoresdados de duas rolagens."
+    },
+    {
+      "id": "EMA27",
+      "tipo": "Correção ortográfica",
+      "antes": "Sobre Carregar Energia.",
+      "depois": "Sobrecarregar Energia.",
+      "motivo": "Corrige a grafia do verbo, preservaefeito e equivalência; evita colisão do título com RestriçãoCarregar."
+    },
+    {
+      "id": "EMA28",
+      "tipo": "M",
+      "antes": "Sobrecarga+Correção reserva preço sem registrar momento do recurso.",
+      "depois": "GastaImpulso e uso de cena ao declararcombinação; parcelaCorreçãosósererrolar.",
+      "motivo": "Não preservarusodecenaseataqueacerta e nãocorrige."
+    },
+    {
+      "id": "EMA29",
+      "tipo": "M",
+      "antes": "FluxoContínuo não dizia efeito de bloqueio jáexistente.",
+      "depois": "Não ignora bloqueiodeganho atéfimpróximoturno imposto porSobrecarga.",
+      "motivo": "Não gerarImpulso pela habilidade27 durantevedaçãoexpressa19."
+    }
+  ],
+  "publicacao": "Candidata isolada. Nenhuma decisão nova foi atribuída à fonte histórica."
+}

@@ -1,0 +1,52 @@
+{
+  "ordem": [
+    "cura",
+    "temporarios",
+    "zero",
+    "insistir",
+    "sequelas",
+    "descansos",
+    "exaustao",
+    "usos"
+  ],
+  "titulos": {
+    "cura": "Cura",
+    "temporarios": "Vida e energia temporárias",
+    "zero": "Vida a zero",
+    "insistir": "Insistir",
+    "sequelas": "Sequelas e Cicatrizes",
+    "descansos": "Descansos",
+    "exaustao": "Exaustão",
+    "usos": "Cena e usos de habilidades"
+  },
+  "paginas": {
+    "cura": 1,
+    "temporarios": 2,
+    "zero": 3,
+    "insistir": 4,
+    "sequelas": 5,
+    "descansos": 6,
+    "exaustao": 7,
+    "usos": 8
+  },
+  "grupos": [
+    [
+      "Vida e socorro",
+      [
+        "cura",
+        "temporarios",
+        "zero",
+        "insistir",
+        "sequelas"
+      ]
+    ],
+    [
+      "Descanso e recursos",
+      [
+        "descansos",
+        "exaustao",
+        "usos"
+      ]
+    ]
+  ]
+}

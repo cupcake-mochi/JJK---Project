@@ -1,0 +1,54 @@
+{
+  "sha256_pdf": "b4e355ed95660601fcccd5056ea8a5c3fc3f9bf98491233fa3f5e97e6a7d9a8b",
+  "metodo": "Todas as oito páginas renderizadas por Poppler e examinadas pelo autor, a1300px.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "imagem": "/tmp/projeto-m-recuperacao-1.png",
+      "sha256_png": "19e876a8e89588547f3cd288941b4a745e788a83e0e3da0964686c69907fa491",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "imagem": "/tmp/projeto-m-recuperacao-2.png",
+      "sha256_png": "f23ab219bfc6559e1a15409a54436504ec98629bf00e30f6d5965567487129eb",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "imagem": "/tmp/projeto-m-recuperacao-3.png",
+      "sha256_png": "050dfa9c08e9850b9327ec66d2d8ccfa239078366b29a527cd084d7325325478",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "imagem": "/tmp/projeto-m-recuperacao-4.png",
+      "sha256_png": "6f8b77ab65bbcc36d2e68d6e51ec380e55e177e56b6b3058cab6dc26351c917c",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 5,
+      "imagem": "/tmp/projeto-m-recuperacao-5.png",
+      "sha256_png": "1ef72d00e7c24f96bf526391930be474dd94be91fe592a8fdbb64b62dad1cd1f",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 6,
+      "imagem": "/tmp/projeto-m-recuperacao-6.png",
+      "sha256_png": "6b3bf8a37967a97da3140acc77f15d97c1b0d8e98cd70eab4d6038c522c2fca7",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 7,
+      "imagem": "/tmp/projeto-m-recuperacao-7.png",
+      "sha256_png": "80bccf8bb1eef77e09ad00f89dab8f9bda268853a167787ec2cf7b71e0f43789",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 8,
+      "imagem": "/tmp/projeto-m-recuperacao-8.png",
+      "sha256_png": "8a5e6d461683aace06f295c2007eb2bfb68fea6d68f24948117ca138c5a5ea1d",
+      "resultado": "sem defeito visual observado"
+    }
+  ]
+}

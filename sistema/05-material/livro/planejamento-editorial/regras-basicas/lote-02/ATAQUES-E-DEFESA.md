@@ -1,0 +1,198 @@
+<!-- page:ataques|Ataques -->
+# Ataques
+
+Um ataque pode ser um golpe de espada, um soco, um arremesso ou um feitiço que exija rolagem de acerto. Você rola **d20 + bônus de ataque** e compara o total com a Defesa do alvo. **Igualar ou superar a Defesa é um acerto.** O alvo pode substituir esse número por uma rolagem de [Bloquear](#bloquear).
+
+## Ação Atacar
+
+A **Ação Atacar** custa sua Ação Padrão e permite realizar um ataque com arma ou desarmado. Habilidades podem acrescentar ataques a essa ação. Resolva cada um separadamente, incluindo as respostas do alvo, antes de passar ao seguinte.
+
+Um ataque concedido por Ação Bônus, Reação ou outro efeito segue o custo e os limites daquilo que o concedeu. Receber um ataque adicional não concede outra Ação Atacar inteira. Conjurar um feitiço usa a ação indicada na ficha dele.
+
+## Resolução
+
+1. **Declare o ataque e o alvo.** Confira alcance, equipamento e requisitos. Resolva as habilidades que precisam ser usadas antes da rolagem.
+2. **Role o acerto.** Aplique os bônus e a vantagem ou desvantagem. Havendo ambas, elas se anulam conforme as regras de Testes.
+3. **Resolva a defesa.** Compare o total com a Defesa ou com Bloquear. Considere as regras de crítico e dos resultados duplos de Bloquear.
+4. **Resolva o golpe.** Se acertar, aplique o dano e os efeitos previstos. Se errar, aplique apenas o que declarar funcionar no erro. Cada habilidade conserva seu momento de uso.
+
+## Bônus de ataque
+
+| Ataque | Rolagem |
+|---|---|
+| Corpo a corpo, com arma ou desarmado | d20 + Força + maestria. Fineza permite usar Destreza no corpo a corpo. |
+| À distância, com arma | d20 + Destreza + maestria. Inclui disparos e arremessos. |
+| Conjuração | d20 + atributo da técnica + maestria. |
+
+O atributo da técnica é escolhido na criação dela. A maestria já faz parte do bônus de ataque; se a ficha disser **ataque +6**, some 6 ao d20 uma única vez. Treinos e requisitos continuam determinando quais armas você pode usar.
+
+> **Exemplo:** Sousuke usa a Ação Atacar contra um inimigo a 1,5 m. Tem Força 4 e maestria 2: ataque +6. Tira 11 no d20, total 17. O inimigo tem Defesa 17 e decide mantê-la: o golpe acerta. Sousuke passa à rolagem de dano.
+
+## Feitiços
+
+Feitiços de **Acerto** usam a rolagem de conjuração. Nos de **Teste de Resistência**, o alvo rola contra a CD indicada pelo feitiço. Os **Automáticos** não exigem essas rolagens. Bloquear só pode ser usado na primeira dessas resoluções; ele não substitui um TR nem impede um efeito automático.
+
+<!-- page:alcance|Alcance -->
+# Alcance
+
+O ataque precisa alcançar seu alvo a partir da posição de quem ataca. Confira a distância, os obstáculos e as exigências de visão antes de rolar. Uma habilidade que mude a origem ou a trajetória do ataque explica como medir seu alcance.
+
+## Corpo a corpo
+
+O alcance comum é **1,5 m**. Uma arma com alcance maior ou uma habilidade pode alterar essa distância; use o valor indicado por ela. Estar ao alcance permite tentar o golpe, mas não atravessar uma parede ou outro obstáculo que impeça o ataque.
+
+## Armas à distância
+
+Armas de disparo e arremesso têm duas faixas, indicadas em metros. O primeiro número é a **faixa normal**; o segundo, o limite da **faixa longa**.
+
+| Distância do alvo | Ataque |
+|---|---|
+| Até o limite da faixa normal | Sem desvantagem pela distância. |
+| Além da faixa normal, até o limite da longa | Com desvantagem. |
+| Além da faixa longa | A arma não alcança o alvo. |
+
+**Um inimigo adjacente a você impõe desvantagem aos seus ataques com armas de projétil ou arremesso**, mesmo que você mire outra criatura. Adjacente corresponde a estar a 1,5 m. A habilidade de uma Trilha pode retirar essa penalidade nas situações que ela indicar.
+
+Estar junto de um inimigo e atacar na faixa longa não exige três d20: as duas fontes de desvantagem continuam valendo uma. A vantagem de outra fonte cancela a desvantagem pelas regras de Testes.
+
+> **Exemplo:** o Kunai tem faixas de 6 m e 18 m. Rina pode arremessá-lo normalmente contra um alvo a 6 m. A 9 m, ataca com desvantagem; a 18 m, também. A 19,5 m, não alcança. Se um inimigo estiver a 1,5 m de Rina, o arremesso a 6 m também terá desvantagem.
+
+Feitiços usam o alcance e os requisitos de sua própria montagem. Ter uma rolagem de conjuração não lhes concede as duas faixas de uma arma.
+
+## Visão e cobertura
+
+Saber onde alguém está permite tentar ataques que não exijam visão, mas não elimina a desvantagem por não enxergá-lo. Se você ataca um espaço onde a criatura não está, erra. Uma exigência de enxergar continua valendo mesmo que outro sentido tenha localizado o alvo.
+
+Objetos no caminho podem conceder [cobertura](#defesa). Escuridão e fumaça dificultam a visão conforme as regras de Percepção; a ocultação e sua perda depois de atacar são tratadas em **Ataques e ocultação**, nas regras comuns.
+
+<!-- page:critico|Dano e crítico -->
+# Dano e crítico
+
+Ao acertar, role o dano indicado pela arma, pelo ataque desarmado ou pelo feitiço. Some os modificadores aplicáveis. O atributo do acerto e o atributo do dano podem ser diferentes: confira ambos na ficha.
+
+## Dano do ataque
+
+| Fonte | Dano básico |
+|---|---|
+| Arma corpo a corpo ou ataque desarmado | Dados do ataque + Força; Fineza permite usar Destreza no corpo a corpo. |
+| Arremesso | Dados da arma + Força, salvo habilidade específica. |
+| Arco, categoria Yumi | Dados da arma + Destreza. |
+| Balestra ou Arma de Fogo | Dados da arma, sem somar atributo. |
+| Feitiço | Dados e demais efeitos indicados em sua montagem. |
+
+O dado desarmado é **d4 com maestria 1, d6 com maestria 2, d8 com maestria 3 e d10 com maestria 4**. Uma Trilha pode melhorá-lo ou mudar seu atributo.
+
+> **Exemplo:** com Destreza 4, Força 2 e maestria 2, Rina arremessa o Kunai com ataque +6, mas soma apenas 2 de Força ao dano. Fineza, por si só, altera apenas o corpo a corpo.
+
+## Crítico
+
+**20 natural** é o resultado 20 no d20 escolhido, antes de somar bônus. Numa rolagem de acerto, ele acerta e causa um **crítico**, mesmo contra Bloquear ou Aparar. Um total 20 obtido com bônus não é um 20 natural.
+
+No crítico, **role o dobro dos dados básicos daquele ataque**. Some o atributo e os outros valores fixos uma única vez.
+
+| Dados | Regra geral no crítico |
+|---|---|
+| Dados da arma ou do ataque desarmado | Dobram. |
+| Dados da Classe do feitiço que rolou acerto | Dobram, inclusive no feitiço de Toque. |
+| Dados adicionais de Melhoria, aptidão ou Bênção | Não dobram, salvo permissão expressa. |
+
+> **Exemplo:** a Espada Longa de Sousuke causa 1d8 + 4. Num crítico, ele rola **2d8 + 4**. Se Canalizar em Golpe acrescentar 3d4, o total será **2d8 + 4 + 3d4**. Golpe Cirúrgico tem uma exceção própria que também dobra os dados de Canalizar e os dados adicionais daquela habilidade.
+
+Um feitiço que acompanha outro ataque tem sua própria regra de crítico. Uma margem ampliada não transforma um 19 em 20 natural: o ataque ainda precisa acertar e continua sujeito a Aparar, salvo regra específica. Feitiços resolvidos por TR ou de modo Automático não causam crítico. Resistências, reduções e demais consequências do dano são tratadas em **Dano e Condições**.
+
+<!-- page:defesa|Defesa e cobertura -->
+# Defesa e cobertura
+
+A **Defesa** é o número que uma rolagem de acerto precisa alcançar para atingir você. Ela funciona sem gastar uma ação ou Reação.
+
+> **Defesa = 10 + Destreza + proteção**, com os limites e modificadores aplicáveis.
+
+## Proteção
+
+Proteção pode vir de equipamento ou de uma aptidão. **Traje e Revestimento substituem a proteção passiva de energia**; não some as duas fontes. Escudo soma com a proteção permitida pela sua montagem.
+
+O equipamento pode limitar quanto de Destreza entra na Defesa. Se houver dois limites diferentes, use o menor. O Revestimento, por exemplo, permite somar 0 de Destreza, mesmo que esse atributo seja maior na ficha. Os valores e requisitos completos ficam em **Equipamento**.
+
+> **Exemplo:** Rina tem Destreza 3 e Traje com proteção 2. Sua Defesa é **10 + 3 + 2 = 15**. Com um Revestimento de proteção 5, também teria Defesa 15: **10 + 0 + 5**. Ela só pode vestir cada opção se cumprir os requisitos do equipamento.
+
+Bônus e penalidades de Defesa também alteram a base de Bloquear. Se a Defesa subir de 15 para 17 contra um ataque, a linha de Bloquear passa de **2d10 + 4** para **2d10 + 6** contra esse mesmo ataque.
+
+## Cobertura
+
+Uma mureta, um veículo ou outra criatura pode proteger você de ataques vindos do outro lado. O mestre determina o grau de cobertura a partir da posição de quem ataca e da parte do corpo protegida.
+
+| Cobertura | Benefício contra o que vem do outro lado |
+|---|---|
+| Parcial | +2 à Defesa e ao TR Físico. |
+| Boa | +5 à Defesa e ao TR Físico. |
+| Total | Você não pode ser escolhido diretamente como alvo através dela. |
+
+**Apenas a maior cobertura conta.** Duas coberturas Parciais não somam +4 nem se tornam Boa. Os bônus de Defesa também entram em Bloquear.
+
+Cobertura Total não concede um bônus numérico. Um efeito de área ainda pode alcançar você se as regras desse efeito permitirem atingir o local sem linha até o alvo. Uma parede não concede essa permissão ao efeito por si só.
+
+> **Exemplo:** Sousuke tem Defesa 15 e cobertura Boa contra um atirador. Sua Defesa é 20 contra o disparo; se escolher Bloquear, rola **2d10 + 9**. Contra um inimigo do mesmo lado do obstáculo, Sousuke não recebe esse bônus.
+
+## Redução de Dano
+
+Depois de resolver o acerto, aplique as reduções de dano que forem permitidas. Elas não aumentam a Defesa nem transformam um acerto em erro. Uma habilidade que reduza o dano pode exigir Reação ou outro recurso; Bloquear, por si só, não paga esses custos.
+
+<!-- page:bloquear|Bloquear -->
+# Bloquear
+
+**Quando você é alvo de um ataque com rolagem de acerto, pode substituir sua Defesa por uma rolagem de Bloquear.** Essa escolha é feita contra cada ataque, depois de conhecer sua rolagem e antes de aplicar o dano e os efeitos do acerto. Uma habilidade que exija uso antes da rolagem do atacante conserva essa exigência.
+
+> **Bloquear = 2d10 + (sua Defesa - 11)**.
+
+Bloquear é gratuito, **não gasta Reação** e está disponível tanto para personagens quanto para inimigos. Não exige arma ou escudo. Você pode usá-lo novamente contra outro ataque, mesmo que já tenha gasto sua Reação.
+
+## Resolução
+
+1. Use sua Defesa contra aquele ataque, incluindo cobertura, bônus e penalidades aplicáveis. Subtraia 11 para encontrar o modificador de Bloquear.
+2. Role dois d10 e some esse modificador. Confira antes os resultados **duplo 10 e duplo 1**, explicados em [Aparar e Brecha](#aparar).
+3. Fora desses extremos, compare o ataque com o total obtido. Se o ataque igualar ou superar Bloquear, acerta. Se ficar abaixo, erra.
+
+**O resultado substitui a Defesa, mesmo se for menor.** Você não escolhe o maior dos dois depois de rolar. A ficha pode trazer a conta pronta: **Defesa 17; Bloquear 2d10 + 6**.
+
+> **Exemplo:** uma maldição obtém 18 no ataque contra Rina, cuja Defesa é 17. Rina escolhe Bloquear e tira 7 e 4: **7 + 4 + 6 = 17**. O ataque acerta. Se os dados fossem 8 e 5, Bloquear daria 19, e o ataque erraria.
+
+## Limites
+
+**Incapacitado impede Bloquear.** Estar Derrubado, Agarrado ou sem Reação não impede essa rolagem por si só. Outras habilidades podem proibir Bloquear contra um ataque específico.
+
+Bloquear não pode ser usado contra um Teste de Resistência nem contra um efeito Automático. Um 20 natural continua sendo um acerto crítico, independentemente do resultado de Bloquear. Uma habilidade pode ainda usar os dados dessa rolagem, como Duro de Matar, seguindo seu próprio texto.
+
+A propriedade **Talha** aplica **-1 ao resultado de Bloquear** contra a arma que a possui. Ela não reduz sua Defesa estática nem muda os resultados naturais dos dois d10.
+
+Quando uma habilidade impuser desvantagem a Bloquear, role o conjunto completo duas vezes e mantenha o resultado menos favorável ao defensor. Os duplos do conjunto descartado não produzem Aparar ou Brecha.
+
+<!-- page:aparar|Aparar e Brecha -->
+# Aparar e Brecha
+
+Os resultados duplos usam os números mostrados nos dois d10 de Bloquear. Bônus de Defesa, cobertura e Talha não transformam outros resultados em um duplo.
+
+## Aparar
+
+**Se os dois d10 mostrarem 10, você apara o ataque: ele erra.** Isso vale mesmo que o total do atacante alcançasse o resultado numérico de Bloquear. A exceção é o **20 natural do atacante**, que continua acertando como crítico.
+
+Depois de aparar um ataque e impedir o acerto, você pode gastar sua **Reação** para atacar o agressor imediatamente, com **+3 de dano**. Esse valor é fixo e não dobra num crítico.
+
+Sem Reação disponível, você ainda impede o acerto, mas não pode pagar essa resposta. O contra-ataque também precisa cumprir seus requisitos, inclusive alcançar o agressor. Aparar um disparo distante não coloca o atirador ao alcance da sua espada.
+
+> **Exemplo:** Sousuke está ao alcance de Rina e obtém 23 no ataque. Ela tira dois 10 em Bloquear: o golpe erra por Aparar. Rina tem Reação e decide gastá-la para revidar. Faz uma nova rolagem de ataque; se acertar, soma 3 ao dano normal. Se o d20 de Sousuke fosse um 20 natural, Aparar não impediria o acerto nem concederia esse revide.
+
+## Brecha
+
+**Se os dois d10 mostrarem 1, o ataque acerta**, mesmo que seu total numérico não alcançasse Bloquear. Brecha não transforma esse acerto em crítico por si só.
+
+O agressor pode gastar a **Reação dele** para atacar você mais uma vez, imediatamente, sem bônus de dano concedido por Brecha. Ele precisa ter essa Reação disponível e cumprir os requisitos do novo ataque.
+
+> **Exemplo:** Rina tira dois 1 em Bloquear. O ataque original acerta. A maldição já gastou sua Reação desde o começo do último turno dela, então não pode realizar o ataque adicional de Brecha. O acerto original continua valendo.
+
+## Ataques de resposta
+
+Essas respostas permitem **um ataque**, não uma Ação Atacar completa. São ataques físicos com arma ou desarmados; um feitiço exige permissão específica. Faça uma nova rolagem de acerto e resolva a Defesa ou Bloquear de quem recebe o golpe.
+
+Cada resposta paga a Reação indicada por seu gatilho. Um novo Aparar ou Brecha pode oferecer outra resposta, mas não devolve uma Reação já gasta. Cada criatura recupera sua Reação no começo do próprio turno, conforme as regras de Turnos.
+
+O ataque original conserva seu resultado. Resolver um revide não transforma retroativamente um acerto em erro ou recupera recursos gastos. As permissões adicionais de Caminhos, Trilhas e entidades continuam usando seus custos e limites próprios.

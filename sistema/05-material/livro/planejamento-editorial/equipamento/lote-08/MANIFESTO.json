@@ -1,0 +1,22 @@
+{
+  "CATALOGO.json": "af55c94a5e1ae29441b4c510612cb09f866f8ae6f606a2d166605da3701bdb69",
+  "CONFERENCIA.json": "8da08fd8f716e68c5bda26cf8b9165706de60dc3beb8cbf5790af85c8a5fa6e2",
+  "CONTRATO-NUMERICO.md": "4b91de5a4f878d4ea8dd1426dbcb51a7455377a2e8310e80a691cb8bddd35f8d",
+  "EQUIPAMENTO-AMALDICOADO.md": "f6966f9810cb27193c671a692d475d88c341f9833938d7aa1fda646df4724d13",
+  "ESTRUTURA.json": "9bf01e28819f895d207319d2576c2ad34067be06ee9466e449c02dcae0ccd699",
+  "LEIA-ME.md": "6bcec4ad77025de8b30b4bc06fe50aacaf5bbc0767bc9fc156061f30790b56bf",
+  "REVISAO-E-FONTES.md": "b35c0fd3b685c532e8433cdf61bb1b0244ce8542472bd4793908bb4dcdedb3c6",
+  "VALIDACAO.json": "f5ce5a0696dc21df55945d10a69f0dbc63772b66025cca940f7b8b497e05b281",
+  "conferir.py": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+  "evidencias/LOCALIZACAO-EDITORIAL.json": "638ca5cbfe0e1385dfaa5d5689aec66732d795a3626afb3401029651b270157f",
+  "evidencias/REVISAO-EDITORIAL.json": "0197b3ad361db144719c52e5ac6c23118ed6cbbc3c4cf6d59d7d95af2f95666b",
+  "evidencias/auditoria-numerica.json": "ea59571637d9d2eedac960b40de817a0035c18a5c31aa28bfdad4fa8d60eddda",
+  "evidencias/fontes-preservadas.json": "9ade08e2aa37ca0fa8a71fca75083b134187937ff4197522fb027a1646e9e12f",
+  "evidencias/inspecao-visual.json": "adc7b13feb1b9d0be949d5ecd7776d0d2d5da0c61c8b7d6631fc5df55de30a7f",
+  "evidencias/pdf-estrutura.json": "454d2a46563e509a59cba4c9bae2e2c4377e0ce994077469875241ea79933e9d",
+  "evidencias/pdf-texto.txt": "f0460351b92b95fecb680269484ee78afb96385708dbad6da8d2aa36d449ba54",
+  "evidencias/regras-verificadas.json": "99ae9dbb2b06121b4191c4f91988eb135f2a2a0bbf7f6a5bb8e1a2a592609077",
+  "gerar_pdf.py": "2543f63fd79a8be6c249abcada11f548b91f10395195355d6e6ef8ef33288565",
+  "output/pdf/Projeto-M-Equipamento-Amaldicoado-Proposta-02.pdf": "3fc979ab7e05081a573cf5f1ee8e01a89df0260e37479cfa1f5adece45fd0384",
+  "validar_modelos.py": "ff6e57daf4983cf8afdde51949b49d106b7865323edf95be774cd9a3e2f65b68"
+}

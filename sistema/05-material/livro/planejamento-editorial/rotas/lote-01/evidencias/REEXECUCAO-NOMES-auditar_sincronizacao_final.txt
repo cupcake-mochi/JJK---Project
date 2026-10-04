@@ -1,0 +1,1 @@
+{"arquivo": "ROTAS.md", "sha256": "ba2d9a0a0d321116a07f6133252e84c3dad273e17eb2aa45c116ee991703f512", "ok": true, "verificacoes": 1612, "perfis": 640}

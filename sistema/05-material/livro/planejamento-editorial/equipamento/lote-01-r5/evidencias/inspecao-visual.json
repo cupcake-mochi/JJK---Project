@@ -1,0 +1,26 @@
+{
+  "sha256_pdf": "7b790fe490754cba87dd108f1bd88b0bc36972508ae1063205c707ee4bcbb932",
+  "revisor": "autor da rodada; inspeção de todas as páginas renderizadas",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado"
+    }
+  ]
+}

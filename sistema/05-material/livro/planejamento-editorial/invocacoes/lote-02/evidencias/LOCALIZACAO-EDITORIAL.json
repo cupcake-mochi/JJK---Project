@@ -1,0 +1,33 @@
+{
+  "sha256_texto": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "revisor": "Agente autor R12, revisão contextual por seção e interfaces com os donos",
+  "excecoes_localizacao": [
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Onda de Classe 1. Sua utilidade vem das Melhorias: Onda (2) + Impulso (1) + Gesto (devolve 1) cabe nos 2 pontos e concede o benefício de Impulso aos aliados no raio de 3 m por 3 PE. A entidade precisa conseguir cumprir Gesto. O saldo é zero. Sem saldo nem uma Melhoria benéfica aplicável, a montagem não produz efeito útil. Esses tetos comuns não substituem os dados fixos de cura da Técnica Máxima. Cura contra alvo hostil exige acesso efetivo a Energia Reversa e segue Ferir maldições, em Aptidões e Refino. Escolher a Forma não concede a aptidão. Entidades a zero e corpos amaldiçoados conservam as limitações de recuperação de Invocações em campo.",
+      "papel": "requisito",
+      "justificativa": "Requisito indispensável da aplicação hostil de Cura. O capítulo não reproduz a aptidão ou seu procedimento de dano.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Mão Firme",
+      "trecho": "| Mão Firme | Protege Concentração e Carregar de ocorrências pequenas de dano. | Talentos de Categoria 1. |",
+      "papel": "remissao",
+      "justificativa": "Identifica uma das treze opções permitidas e sua localização no catálogo, sem reproduzir a entrada completa.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Confira também as escolhas exclusivas. Comprar duas básicas amplia as opções. Comprar uma especial reativa não cria outro recurso de atuação. Abrir Amparo oferece suas peças, mas não fornece Energia Reversa por conta própria.",
+      "papel": "requisito",
+      "justificativa": "Requisito indispensável da aplicação hostil de Cura. O capítulo não reproduz a aptidão ou seu procedimento de dano.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "complemento_reserva": "Releitura das seções Lista de ritual e criação, Tipos de entidade e Vida e Defesa; remissões conferidas com R11 atualizado.",
+  "delta_nominal_final": "DELTA-QA-FINAL.json"
+}

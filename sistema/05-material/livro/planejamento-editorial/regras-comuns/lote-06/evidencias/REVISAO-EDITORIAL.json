@@ -1,0 +1,35 @@
+{
+  "sha256_texto": "674d9fac25d2238fa22b5e0331e4e0b25ea7aa52801392d4734e354213db9272",
+  "casos_documentais": 18,
+  "secoes": [
+    {
+      "id": "espacos",
+      "titulo": "Espaço e posição",
+      "suficiencia": "Tamanho, passagem e mapa antes da exceção.",
+      "titulos_e_compreensao": "Tabela consulta bem; Incapacitado explicado pelo efeito local.",
+      "redundancia_destino_pendencia": "Montaria e colisão complexa permanecem fora."
+    },
+    {
+      "id": "rastejar",
+      "titulo": "Rastejar e passagens estreitas",
+      "suficiencia": "Custo por trecho evita metade aplicada duas vezes.",
+      "titulos_e_compreensao": "Rastejar e passagens estreitas são termos diretos; tabela resolve custos combinados.",
+      "redundancia_destino_pendencia": "Levantar e Derrubado exigem sincronização; espremer-se é proposta."
+    },
+    {
+      "id": "voo",
+      "titulo": "Voo",
+      "suficiencia": "Separar acesso a voo de uso do deslocamento.",
+      "titulos_e_compreensao": "Voo é título simples; exemplo ensina troca sem reserva duplicada.",
+      "redundancia_destino_pendencia": "Falta confronto com fontes específicas; não oferece compra universal."
+    },
+    {
+      "id": "carga",
+      "titulo": "Carga",
+      "suficiencia": "Limite e soma sem arredondamento.",
+      "titulos_e_compreensao": "Carga é título mais comum que régua de Volume; definição vem na primeira frase.",
+      "redundancia_destino_pendencia": "Consolidar em Equipamento, sem repetir a tabela em Movimento."
+    }
+  ],
+  "tipo": "Revisão pelo autor; sem teste humano ou parecer independente."
+}

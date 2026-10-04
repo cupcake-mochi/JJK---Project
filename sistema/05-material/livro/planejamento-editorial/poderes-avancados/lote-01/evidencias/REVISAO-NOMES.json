@@ -1,0 +1,22 @@
+{
+  "unidade": "poderes-avancados/lote-01",
+  "sha256_texto": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+  "sha256_pdf": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
+  "escopo": "Releitura contextual das linhas alteradas; a revisão integral anterior permanece em seus relatórios históricos.",
+  "invariantes": "IDs, numerais, alcance, custos, procedimentos e tabelas conservados. Nomes aprovados e concordância uniformizados.",
+  "historico": "consolidacao/lote-01/migracao-nomes/qa-antes/poderes-avancados/lote-01",
+  "auditoria_numerica": "Execuções novamente concluídas após os nomes; outputs locais vinculados à versão atual.",
+  "paginas_reabertas": [],
+  "paginas_preservadas": 15,
+  "equivalencia_visual": "PDF bitwise idêntico",
+  "revisao_independente_delta": {
+    "revisor": "/root",
+    "resultado": "Sem bloqueador nos diffs nominais completos de Regras gerais, Equipamento, Aptidões, Incursor e Origens, conforme confirmação direta do revisor; unidades de texto idêntico preservam o parecer anterior.",
+    "complemento": "não aplicável"
+  },
+  "limites": [
+    "Sem novo cânone, redesign ou afirmação de equilíbrio final.",
+    "Leitura por modelo não equivale a teste com pessoas.",
+    "Adjetivos passivo/passiva comuns mantidos."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sha256_texto": "8d31690c58add9b93df17fbc57b798328ee2201b80061bb13170efc224c53393",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "revisor": "Agente compatibilidade, autor; leitura contextual completa R09",
+  "notas": "Requisitos de Origem em3ocorrências Corpo Amaldiçoado são exceções de aquisição/alvo da própria aptidão, sem copiar criação ou legado. Nenhuma habilidade de Caminho/Trilha é ensinada. Scanner exige adequação de proprietários pelo root, sem apagamento de regras.",
+  "excecoes_localizacao": [
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "| Extensão de Domínio | Refino 7 e nível 18; aprendizado registrado; indisponível ao Corpo Amaldiçoado. | 3 |",
+      "papel": "requisito",
+      "justificativa": "Identifica quem não pode receber a cura ou adquirir esta aptidão. É requisito operacional indispensável da entrada, sem explicar a criação, o reparo ou os Legados da Origem.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "O Corpo Amaldiçoado não recupera vida com Energia Reversa nem com cura construída a partir dela. Suas formas de reparo estão na Origem. Outras incompatibilidades de alvo também continuam valendo.",
+      "papel": "incompatibilidade",
+      "justificativa": "Identifica quem não pode receber a cura ou adquirir esta aptidão. É requisito operacional indispensável da entrada, sem explicar a criação, o reparo ou os Legados da Origem.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "Requisitos: Refino 7 e nível 18. Classe Passiva 3. Você precisa ter visto uma Extensão em uso, estudado seu funcionamento ou aprendido com alguém. Registre isso na ficha. Corpo Amaldiçoado não pode adquirir esta aptidão.",
+      "papel": "requisito",
+      "justificativa": "Identifica quem não pode receber a cura ou adquirir esta aptidão. É requisito operacional indispensável da entrada, sem explicar a criação, o reparo ou os Legados da Origem.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "revisao_adicional": "Releitura após remissão da exceção de passagem da rota sem energia. As restrições físicas e os objetos carregados permanecem nos seus donos."
+}

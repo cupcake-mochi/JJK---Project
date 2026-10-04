@@ -1,0 +1,240 @@
+[
+  {
+    "id": "C01",
+    "secao": "Dano",
+    "situacao": "21 de Fogo, resistência, RD 4 e vida temporária 3",
+    "resolucao": "11 após resistência; 7 após RD; perde 4 de vida.",
+    "limite": "D02 é interpretação candidata."
+  },
+  {
+    "id": "C02",
+    "secao": "Dano",
+    "situacao": "40 com resistência e duas RD somando 27",
+    "resolucao": "20 antes de RD; dano final zero. Ordem inversa produziria 7.",
+    "limite": "D01 preserva a ordem local."
+  },
+  {
+    "id": "C03",
+    "secao": "Dano",
+    "situacao": "21 do mesmo tipo com resistência e vulnerabilidade",
+    "resolucao": "21 antes de RD, sem duas etapas de arredondamento.",
+    "limite": "D02."
+  },
+  {
+    "id": "C04",
+    "secao": "Dano",
+    "situacao": "Resistência específica e resistência ao grupo",
+    "resolucao": "Aplicar metade uma vez à mesma parcela.",
+    "limite": "D02."
+  },
+  {
+    "id": "C05",
+    "secao": "Dano",
+    "situacao": "Dano reduzido a zero e condição ao acertar",
+    "resolucao": "O acerto subsiste; condição ao acertar ainda pode entrar. Gatilho causar dano falha.",
+    "limite": "Conferir exceções de cada habilidade."
+  },
+  {
+    "id": "C06",
+    "secao": "Tipos",
+    "situacao": "Imune a dano de Veneno, condição aplicada por acerto",
+    "resolucao": "Dano zero; Envenenado pode entrar.",
+    "limite": "Não concede imunidade a condição."
+  },
+  {
+    "id": "C07",
+    "secao": "Tipos",
+    "situacao": "10 Cortante + 8 Fogo; resistência a Fogo",
+    "resolucao": "14 antes da RD global; não repetir essa RD em cada parcela.",
+    "limite": "D01."
+  },
+  {
+    "id": "C08",
+    "secao": "Tipos",
+    "situacao": "Ataque de Fogo sem texto de queimadura",
+    "resolucao": "Sem dano contínuo concedido pelo tipo.",
+    "limite": "D03."
+  },
+  {
+    "id": "C09",
+    "secao": "Redução",
+    "situacao": "Duro com 7 e 4 nos dados, Constituição 3",
+    "resolucao": "Reduz 14; não inclui modificador de Defesa.",
+    "limite": "Fonte integrada."
+  },
+  {
+    "id": "C10",
+    "secao": "Redução",
+    "situacao": "Casca com 6 e 5, Constituição 3",
+    "resolucao": "Reduz 13, cumulativo com Duro quando os dois gatilhos ocorrem.",
+    "limite": "Fonte integrada."
+  },
+  {
+    "id": "C11",
+    "secao": "Redução",
+    "situacao": "Assumir gastou a única Reação",
+    "resolucao": "Não pode pagar Cobrir-se também. Pode Bloquear e aplicar passivas.",
+    "limite": "Fonte integrada; D04 para momento de Cobrir-se."
+  },
+  {
+    "id": "C12",
+    "secao": "Redução",
+    "situacao": "Cobrir-se com refino 3, Defesa 17 e proteção 4",
+    "resolucao": "RD 4; Defesa 13, Bloquear 2d10+2 nos ataques seguintes.",
+    "limite": "D04."
+  },
+  {
+    "id": "C13",
+    "secao": "Alma",
+    "situacao": "Nível 2, Essência 1",
+    "resolucao": "Integridade máxima 26.",
+    "limite": "Fórmula publicada."
+  },
+  {
+    "id": "C14",
+    "secao": "Alma",
+    "situacao": "Máximo 26; perde 6 ou 7",
+    "resolucao": "6 não alcança quarto; 7 alcança estágio 1.",
+    "limite": "D11."
+  },
+  {
+    "id": "C15",
+    "secao": "Alma",
+    "situacao": "Perde 7 de 26 e falha no primeiro TR",
+    "resolucao": "Estágio pela fração 1, depois falha leva a 2.",
+    "limite": "D09 é proposta material."
+  },
+  {
+    "id": "C16",
+    "secao": "Alma",
+    "situacao": "Segundo dano de Alma na mesma rodada",
+    "resolucao": "Sem segundo TR; pode avançar pela fração perdida.",
+    "limite": "D08."
+  },
+  {
+    "id": "C17",
+    "secao": "Alma",
+    "situacao": "1 de Alma por rodada; quatro falhas consecutivas",
+    "resolucao": "Candidata chega a estágio 4 com só 4 de perda.",
+    "limite": "Achado de risco; não valida equilíbrio."
+  },
+  {
+    "id": "C18",
+    "secao": "Alma",
+    "situacao": "Remenda enche reserva de quem atingiu estágio 2",
+    "resolucao": "Na candidata, estágio 2 permanece; descanso longo limpa.",
+    "limite": "D10 pendente; efeito severo não aprovado."
+  },
+  {
+    "id": "C19",
+    "secao": "Alma",
+    "situacao": "7 de Alma e 3 de vida temporária",
+    "resolucao": "Perde 4 de vida, 7 de Integridade e toda a vida temporária.",
+    "limite": "D07 proposto."
+  },
+  {
+    "id": "C20",
+    "secao": "Alma",
+    "situacao": "Classe máxima 0, 1 ou 5 no estágio 3",
+    "resolucao": "Tetos candidatos 0, 1 e 2; não libera Classe 1 para quem não a tem.",
+    "limite": "D11."
+  },
+  {
+    "id": "C21",
+    "secao": "Condições",
+    "situacao": "Remoção com teto 2 PE tentando Cego",
+    "resolucao": "Não remove Pesada de custo 3; três usos de 1 não contornam o teto.",
+    "limite": "Conferir acesso e quantidade na habilidade."
+  },
+  {
+    "id": "C22",
+    "secao": "Condições",
+    "situacao": "Dois agarrões; escapa de um",
+    "resolucao": "O outro continua; deslocamento ainda zero.",
+    "limite": "Consolidado comum candidato."
+  },
+  {
+    "id": "C23",
+    "secao": "Condições",
+    "situacao": "Pesada por acerto sem TR ou CD de saída",
+    "resolucao": "Efeito incompleto para integração; preencher dono, não inventar teste na mesa.",
+    "limite": "Pendência D14."
+  },
+  {
+    "id": "C24",
+    "secao": "Leves",
+    "situacao": "Incapacitado sozinho",
+    "resolucao": "Pode agir; mantém Defesa estática; não Bloqueia; crítico só nos ataques especificados.",
+    "limite": "Custo depende da auditoria de Bloquear."
+  },
+  {
+    "id": "C25",
+    "secao": "Leves",
+    "situacao": "Agarrado e Derrubado",
+    "resolucao": "Pode gastar Movimento inteiro para levantar no lugar; agarrão persiste.",
+    "limite": "Consolidado comum candidato."
+  },
+  {
+    "id": "C26",
+    "secao": "Leves",
+    "situacao": "Surdo aplicado depois de fixar iniciativa",
+    "resolucao": "−2 não reordena a rodada nesta proposta.",
+    "limite": "D17 pendente."
+  },
+  {
+    "id": "C27",
+    "secao": "Médias",
+    "situacao": "Calado com Selo de voz ou Selo de toque",
+    "resolucao": "Impede voz; toque silencioso pode ocorrer.",
+    "limite": "Requisito da Kata/ferramenta ainda precisa ser conciliado."
+  },
+  {
+    "id": "C28",
+    "secao": "Médias",
+    "situacao": "Aliado ataca e erra alvo Enfeitiçado",
+    "resolucao": "Enfeitiçado termina nesta interpretação; paga o ataque normalmente.",
+    "limite": "D18: rota de remoção a avaliar."
+  },
+  {
+    "id": "C29",
+    "secao": "Médias",
+    "situacao": "Efeito causa dano e aplica Enfeitiçado",
+    "resolucao": "Resolve o dano primeiro, aplica depois; não se encerra sozinho.",
+    "limite": "Ponte candidata D18."
+  },
+  {
+    "id": "C30",
+    "secao": "Pesadas",
+    "situacao": "Cego que apenas sente energia",
+    "resolucao": "Localiza conforme Sentir Energia; mantém penalidades que exigem visão.",
+    "limite": "Consolidado comum candidato."
+  },
+  {
+    "id": "C31",
+    "secao": "Pesadas",
+    "situacao": "Dois combatentes sem visão nem sentido equivalente",
+    "resolucao": "Ambos atacam com desvantagem; cegueira não dá vantagem contra quem não enxerga.",
+    "limite": "Consolidado comum candidato."
+  },
+  {
+    "id": "C32",
+    "secao": "Pesadas",
+    "situacao": "Atordoado, única Padrão e Reação",
+    "resolucao": "Perde Padrão/Reações, mantém Bônus/Movimento e Bloquear; sucesso ao fim não devolve ação.",
+    "limite": "D19."
+  },
+  {
+    "id": "C33",
+    "secao": "Pesadas",
+    "situacao": "Impedido tentando TR Físico de saída",
+    "resolucao": "Seu TR tem desvantagem; Envenenado sozinho não prejudica TR de Vigor.",
+    "limite": "Aplicar a condição durante seu teste."
+  },
+  {
+    "id": "C34",
+    "secao": "Pesadas",
+    "situacao": "Incapacitado mais Atordoado",
+    "resolucao": "Efeitos coexistem: ações perdidas pelo segundo, Bloquear proibido pelo primeiro.",
+    "limite": "Não importar efeitos homônimos de D&D."
+  }
+]

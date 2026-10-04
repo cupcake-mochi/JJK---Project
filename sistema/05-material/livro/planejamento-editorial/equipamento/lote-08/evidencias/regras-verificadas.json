@@ -1,0 +1,546 @@
+{
+  "ok": true,
+  "sha256_texto": "f6966f9810cb27193c671a692d475d88c341f9833938d7aa1fda646df4724d13",
+  "casos": [
+    {
+      "caso": "Kunai Fiel: grau",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "caso": "Kunai Fiel: frequência contínua/livre",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tanto Aferido: grau",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "caso": "Tanto Aferido: frequência contínua/livre",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Espada Avulsa: grau",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Espada Avulsa: frequência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Corrente Extensível: grau",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Corrente Extensível: frequência contínua/livre",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Uniforme Mutável: grau",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "caso": "Uniforme Mutável: frequência contínua/livre",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Traje de Fuga: grau",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Traje de Fuga: frequência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Manto de Passagem: grau",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Manto de Passagem: frequência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Revestimento Ancorado: grau",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Revestimento Ancorado: frequência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Escudo da Retirada: grau",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Escudo da Retirada: frequência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Escudo Suspenso: grau",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Escudo Suspenso: frequência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Revestimento Quebranto: grau",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Revestimento Quebranto: frequência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Medalhão de Presságio: grau",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "caso": "Medalhão de Presságio: frequência contínua/livre",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Capa Perene: grau",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "caso": "Capa Perene: frequência contínua/livre",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Machado Contrapeso: grau",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Machado Contrapeso: frequência contínua/livre",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Colar de Ar: grau",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colar de Ar: frequência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Lâmina de Cisão: grau",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Lâmina de Cisão: frequência contínua/livre",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Lança do Anátema: grau",
+      "obtido": "especial",
+      "esperado": "especial",
+      "ok": true
+    },
+    {
+      "caso": "Lança do Anátema: frequência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Seis tipos cobertos",
+      "obtido": [
+        "acessório",
+        "arma",
+        "escudo",
+        "revestimento",
+        "roupa",
+        "traje"
+      ],
+      "esperado": [
+        "acessório",
+        "arma",
+        "escudo",
+        "revestimento",
+        "roupa",
+        "traje"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Dezessete fichas distintas",
+      "obtido": 17,
+      "esperado": 17,
+      "ok": true
+    },
+    {
+      "caso": "Distâncias múltiplas de 1,5m",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Retorno usa propriedade existente",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recipiente não consumido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Teto quatro efeitos em 6561 combinações",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "caso": "Duas armas e vestimenta + acessório",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Escudo flutua + arma2 + roupa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Escudo flutua não mantém duas vagas extras",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Roupa e Traje com efeitos não empilham",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Duas proteções de escudo não acumulam",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Mutação: retirar custo flutuante detectada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação: três vagas detectada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Primeiro uso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Cópia não repõe usuário",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Empréstimo não repõe objeto",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Outro personagem e outra cópia",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Descanso só do usuário não recupera objeto",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação de ambos permite novo uso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Vinte gatilhos, vinte cópias: dois ataques Avulsa",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Fiel (1, 1, 1, 0, 18, 18)",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Fiel (1, 0, 1, 0, 6, 18)",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Fiel (0, 1, 1, 0, 6, 18)",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Fiel (1, 1, 0, 0, 6, 18)",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Fiel (1, 1, 1, 1, 6, 18)",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Fiel (1, 1, 1, 0, 19.5, 18)",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Insondável fora do turno: alcance de base",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Roupa simples não acrescenta proteção",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Revestimento3 + Torre / Dex2",
+      "obtido": 19,
+      "esperado": 19,
+      "ok": true
+    },
+    {
+      "caso": "Escudo suspenso mantém exigência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "TR equivalente: 65%",
+      "obtido": "13/20",
+      "esperado": "13/20",
+      "ok": true
+    },
+    {
+      "caso": "TR quatro pontos atrás: 45%",
+      "obtido": "9/20",
+      "esperado": "9/20",
+      "ok": true
+    },
+    {
+      "caso": "Dano médio comum contra feitiço de40",
+      "obtido": 27.0,
+      "esperado": 27.0,
+      "ok": true
+    },
+    {
+      "caso": "Quebranto previne média7 nesse cenário",
+      "obtido": 7.0,
+      "esperado": 7.0,
+      "ok": true
+    },
+    {
+      "caso": "Anátema previne17.55 nesse cenário, uma vez",
+      "obtido": 17.55,
+      "esperado": 17.55,
+      "ok": true
+    },
+    {
+      "caso": "Cisão solo: metade tempo até uma barra esgotar",
+      "obtido": 0.5,
+      "esperado": 0.5,
+      "ok": true
+    },
+    {
+      "caso": "Cisão grupo4: dispersão aumenta tempo nessa hipótese",
+      "obtido": 1.3333333333333333,
+      "esperado": 1.3333333333333333,
+      "ok": true
+    },
+    {
+      "caso": "Cisão não soma perda de vida",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Desgaste 3, missões uso/pausa/uso/uso",
+      "obtido": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "esperado": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Última missão inteira explicitada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Contrato textual: até dois itens vestidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo: até dois itens vestidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Contrato textual: apenas um pode ser uma vestimenta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo: apenas um pode ser uma vestimenta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Contrato textual: Cópias do mesmo efeito compartilham o limite por personagem",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo: Cópias do mesmo efeito compartilham o limite por personagem",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Contrato textual: Duas vezes por cena",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo: Duas vezes por cena",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Contrato textual: não acrescenta automaticamente bônus",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo: não acrescenta automaticamente bônus",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Contrato textual: somente a Integridade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo: somente a Integridade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "data": "2026-10-03",
+  "artefato": "/tmp/r07-parte-a.md",
+  "sha256": "cd4076136da0c0af067a87437158eba25d88de5e0b8e7d90a668781bc97407de",
+  "escopo": "Leitura independente das oito páginas e 30 peças; cotejo local com R06 e interface B. Não é playtest.",
+  "bloqueadores_confirmados": 0,
+  "achados": [
+    {
+      "id": "A-R01",
+      "prioridade": "clareza mecânica antes de integrar",
+      "ancoras": [
+        "Mais Um",
+        "Rajada"
+      ],
+      "linhas": [
+        50,
+        54
+      ],
+      "problema": "Efeitos indivisíveis nos vários acertos ficam implícitos; a regra de Junto não deve ser importada por engano.",
+      "decisao_do_principal": "Permitir aplicação de condição por acerto inicial; não empilhar ou renovar a mesma condição várias vezes no mesmo alvo pela mesma conjuração. Limites próprios das peças prevalecem.",
+      "texto_sugerido": "Cada alvo ou tiro com dados pode aplicar suas Melhorias quando sua própria resolução permitir. Uma mesma condição não se acumula nem renova seu prazo no mesmo alvo pelos demais tiros desta conjuração. Limites próprios, como uma Troca ou um Empurrão por conjuração, continuam valendo.",
+      "comparacao": {
+        "classe": 5,
+        "custos_neutros": {
+          "Condicao_Pesada": 8,
+          "Rajada": 3
+        },
+        "base": 15,
+        "saldo_com_Rajada": 4,
+        "tiros_1d8": 4,
+        "acerto_por_tiro": 0.5,
+        "chance_ao_menos_um_acerto": 0.9375,
+        "sem_Rajada_dados": 7,
+        "sem_Rajada_chance_condicao": 0.5,
+        "dano_medio_com_Rajada_sem_critico": 9.0,
+        "dano_medio_sem_Rajada_sem_critico": 15.75
+      },
+      "risco": "Grande aumento na probabilidade de controle, pago por dados e vaga de Melhoria. Não afirmar balanceamento só por contar dano. Não altera a resolução particular de condições Pesadas."
+    },
+    {
+      "id": "A-R02",
+      "prioridade": "clareza localizada",
+      "ancoras": [
+        "Fica",
+        "Salto"
+      ],
+      "linhas": [
+        61,
+        67
+      ],
+      "problema": "Dados iniciais pode ser lido incluindo dados de crítico do ataque anterior, embora R06 limite crítico ao alvo daquele ataque e B já use base anterior ao crítico em Queima/Estilhaço.",
+      "texto_sugerido": "Ao calcular metade dos dados para esse dano posterior, use a parcela inicial antes dos dados adicionais de um crítico. Em Fica, conserve a base própria de cada alvo quando Acúmulo tiver acrescentado dados apenas ao alvo acompanhado.",
+      "cenario": "Uma parcela inicial de4d8 faz crítico e rola8d8. Salto/Fica derivados usam2d8, não4d8, pela interpretação coerente com R06.",
+      "tipo": "Esclarecimento de base numérica; se optar por herdar crítico, registrar mudança e refazer custos dos derivados."
+    },
+    {
+      "id": "A-R03",
+      "prioridade": "escopo de uso a explicitar",
+      "ancora": "De Novo",
+      "linha": 94,
+      "problema": "Uma vez por cena não declara expressamente se o uso é compartilhado por todas as fichas do personagem ou reinicia por ficha. A entrada diz deste feitiço, permitindo duas leituras.",
+      "recomendacao": "Declarar a unidade do limite. Não presumir que a unidade global candidata de Levanta automaticamente se aplica a De Novo. Registrar o escopo escolhido como fechamento de interface.",
+      "limite": "Não classificado como bloqueador do manuscrito inteiro; é uma ambiguidade pontual de recurso para a decisão central."
+    }
+  ],
+  "conferencias_sem_achado": [
+    "Troca já limita uma única troca por conjuração, inclusive área.",
+    "Empurrão limita um alvo e não soma com Puxa sobre a mesma criatura.",
+    "Rajada exige dados positivos, tem limite Classe+1 e não copia área.",
+    "Mais Um não substitui Junto em Cura/Apoio.",
+    "Certeiro e De Novo conservam resultado final único e não duplicam dano.",
+    "Precisão conserva CD e o bônus de saída quando a mesma CD for usada.",
+    "Condição Pesada preserva TR de saída; duração maior não elimina saída.",
+    "Desarma o Feitiço requer efeito/barreira de Classe conhecida e não inventa Classe de artefato ou Domínio.",
+    "Anteparo tem vida compartilhada, geometria e prazo próprio.",
+    "Armado escolhe alvo ao disparar: Perseguir não serve para fixar previamente uma vítima sem alcance."
+  ],
+  "limites": [
+    "Leitura e aritmética localizada, sem rolagens simuladas, mapas ou mesa humana.",
+    "Nenhum arquivo A ou R06 foi editado.",
+    "O texto sugerido requer incorporação pelo principal; este relatório não assume que já esteja incorporado."
+  ]
+}

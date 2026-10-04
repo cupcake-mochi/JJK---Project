@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/origens/lote-01/ORIGENS-E-LEGADOS.md": "1bc29a638b68f985a296a5e960290ea4b0325e33b7db41e6a86da5eb830be3a2"
+  },
+  "fonte": "AUDITORIA.json",
+  "quantidades": {
+    "verificacoes": 333,
+    "casos": 35,
+    "pares_legados": 268,
+    "perfis_reparo": 105,
+    "perfis_probabilidade": 19,
+    "mutacoes": 6
+  }
+}

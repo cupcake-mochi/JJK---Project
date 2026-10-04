@@ -1,0 +1,4531 @@
+{
+  "base": "v0.331",
+  "data": "2026-10-02",
+  "status": "planejamento; nenhuma mudança editorial aplicada ao livro",
+  "metodo_contagem": "regex lexical Unicode; títulos, tabelas e números incluídos; palavras e sequências numéricas contadas; não é contagem do Word",
+  "total_fontes": 22,
+  "total_palavras": 109263,
+  "capitulos_atuais": 19,
+  "capitulos_propostos": [
+    {
+      "numero": 1,
+      "titulo": "Como jogar",
+      "parte": "I"
+    },
+    {
+      "numero": 2,
+      "titulo": "Criação de personagem",
+      "parte": "I"
+    },
+    {
+      "numero": 3,
+      "titulo": "Origens e Legados",
+      "parte": "II"
+    },
+    {
+      "numero": 4,
+      "titulo": "Caminhos e Trilhas",
+      "parte": "II"
+    },
+    {
+      "numero": 5,
+      "titulo": "Perícias e Ofícios",
+      "parte": "II"
+    },
+    {
+      "numero": 6,
+      "titulo": "Equipamento e ferramentas amaldiçoadas",
+      "parte": "II"
+    },
+    {
+      "numero": 7,
+      "titulo": "Experiência e progressão",
+      "parte": "II"
+    },
+    {
+      "numero": 8,
+      "titulo": "Turnos e combate",
+      "parte": "III"
+    },
+    {
+      "numero": 9,
+      "titulo": "Dano, condições e recuperação",
+      "parte": "III"
+    },
+    {
+      "numero": 10,
+      "titulo": "Aptidões e Refino",
+      "parte": "IV"
+    },
+    {
+      "numero": 11,
+      "titulo": "Fundamento e criação de feitiços",
+      "parte": "IV"
+    },
+    {
+      "numero": 12,
+      "titulo": "Formas, Melhorias e Restrições",
+      "parte": "IV"
+    },
+    {
+      "numero": 13,
+      "titulo": "Liberação Máxima, Técnica Máxima e Domínio",
+      "parte": "IV"
+    },
+    {
+      "numero": 14,
+      "titulo": "Técnica Marcial",
+      "parte": "IV"
+    },
+    {
+      "numero": 15,
+      "titulo": "Sem Técnica",
+      "parte": "IV"
+    },
+    {
+      "numero": 16,
+      "titulo": "Bênçãos e Lapidação",
+      "parte": "IV"
+    },
+    {
+      "numero": 17,
+      "titulo": "Ritual",
+      "parte": "IV"
+    },
+    {
+      "numero": 18,
+      "titulo": "Pactos",
+      "parte": "IV"
+    },
+    {
+      "numero": 19,
+      "titulo": "Invocações em campo",
+      "parte": "V"
+    },
+    {
+      "numero": 20,
+      "titulo": "Montagem de entidades",
+      "parte": "V"
+    }
+  ],
+  "fontes": [
+    {
+      "arquivo": "sistema/05-material/livro/manual/05-introducao.md",
+      "bytes": 3979,
+      "palavras": 622,
+      "titulos": 3,
+      "tabelas": 1,
+      "sha256": "c7e02ab389d71d3e1ca6b31ece6f6a1b2d2f6ad4bb9526b4d4e293ea7f66128c",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Bem-vindo à Guilda",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Material da mesa",
+          "linha": 7
+        },
+        {
+          "nivel": 2,
+          "titulo": "Organização do manual",
+          "linha": 14
+        }
+      ],
+      "capitulo_atual": null,
+      "destinos_propostos": "Abertura",
+      "operacao_proposta": "Atualizar o mapa de leitura e as informações do público. A orientação do livro fica aqui."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/07-glossario.md",
+      "bytes": 20995,
+      "palavras": 3187,
+      "titulos": 14,
+      "tabelas": 13,
+      "sha256": "c801d153f3a9cf25af93672945ee07fc6c046ab5b9b7304425ce3fb8afff9591",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "O vocabulário do sistema",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Rolagens",
+          "linha": 5
+        },
+        {
+          "nivel": 2,
+          "titulo": "Números da ficha",
+          "linha": 25
+        },
+        {
+          "nivel": 2,
+          "titulo": "Personagem",
+          "linha": 51
+        },
+        {
+          "nivel": 2,
+          "titulo": "Técnica",
+          "linha": 95
+        },
+        {
+          "nivel": 2,
+          "titulo": "Técnica Marcial",
+          "linha": 128
+        },
+        {
+          "nivel": 2,
+          "titulo": "Bênçãos e Lapidação",
+          "linha": 142
+        },
+        {
+          "nivel": 2,
+          "titulo": "Progressão",
+          "linha": 156
+        },
+        {
+          "nivel": 2,
+          "titulo": "Turno",
+          "linha": 168
+        },
+        {
+          "nivel": 2,
+          "titulo": "Condições",
+          "linha": 186
+        },
+        {
+          "nivel": 2,
+          "titulo": "Equipamento",
+          "linha": 210
+        },
+        {
+          "nivel": 2,
+          "titulo": "Formas, Melhorias e Restrições do Fundamento",
+          "linha": 231
+        },
+        {
+          "nivel": 2,
+          "titulo": "Caminhos e Trilhas",
+          "linha": 259
+        },
+        {
+          "nivel": 2,
+          "titulo": "Palavras com sentido próprio",
+          "linha": 268
+        }
+      ],
+      "capitulo_atual": null,
+      "destinos_propostos": "Referências finais e quadro breve de abertura",
+      "operacao_proposta": "Preservar as definições; selecionar as essenciais para a abertura. Revisar as remissões por destino."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/08-inicio-rapido.md",
+      "bytes": 5304,
+      "palavras": 880,
+      "titulos": 5,
+      "tabelas": 1,
+      "sha256": "9a348b4f1eb4bb876c1b6c2ca0db7dde823debcd7cb799d1dda3feb88bea00e6",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Antes da primeira sessão",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Regras da cena",
+          "linha": 7
+        },
+        {
+          "nivel": 2,
+          "titulo": "Kaori",
+          "linha": 25
+        },
+        {
+          "nivel": 2,
+          "titulo": "Corredor da ala oeste",
+          "linha": 68
+        },
+        {
+          "nivel": 2,
+          "titulo": "Depois da cena",
+          "linha": 102
+        }
+      ],
+      "capitulo_atual": null,
+      "destinos_propostos": "1",
+      "operacao_proposta": "Integrar a cena guiada e a ficha de Kaori à apresentação; conferir contra a ficha completa e as regras atuais."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/10-como-jogar.md",
+      "bytes": 21572,
+      "palavras": 3580,
+      "titulos": 30,
+      "tabelas": 7,
+      "sha256": "12296c9fca2d0033ca0f2116991c5f4ea2fd57ff3cc7e7fc28845923e076c4f5",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Como Jogar",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Teste",
+          "linha": 3
+        },
+        {
+          "nivel": 3,
+          "titulo": "Teste de perícia",
+          "linha": 27
+        },
+        {
+          "nivel": 3,
+          "titulo": "Vantagem e desvantagem",
+          "linha": 36
+        },
+        {
+          "nivel": 3,
+          "titulo": "Ajudar",
+          "linha": 46
+        },
+        {
+          "nivel": 3,
+          "titulo": "Teste de grupo",
+          "linha": 54
+        },
+        {
+          "nivel": 3,
+          "titulo": "Falha",
+          "linha": 58
+        },
+        {
+          "nivel": 2,
+          "titulo": "Atributos",
+          "linha": 68
+        },
+        {
+          "nivel": 2,
+          "titulo": "Maestria",
+          "linha": 89
+        },
+        {
+          "nivel": 2,
+          "titulo": "Acertar",
+          "linha": 104
+        },
+        {
+          "nivel": 3,
+          "titulo": "Crítico",
+          "linha": 129
+        },
+        {
+          "nivel": 2,
+          "titulo": "Defesa",
+          "linha": 139
+        },
+        {
+          "nivel": 3,
+          "titulo": "Cobertura",
+          "linha": 149
+        },
+        {
+          "nivel": 2,
+          "titulo": "Bloquear",
+          "linha": 153
+        },
+        {
+          "nivel": 3,
+          "titulo": "Linha da ficha",
+          "linha": 161
+        },
+        {
+          "nivel": 3,
+          "titulo": "Aparar e Brecha",
+          "linha": 169
+        },
+        {
+          "nivel": 3,
+          "titulo": "Limites",
+          "linha": 181
+        },
+        {
+          "nivel": 2,
+          "titulo": "Testes de Resistência",
+          "linha": 189
+        },
+        {
+          "nivel": 2,
+          "titulo": "Vida, energia e alma",
+          "linha": 214
+        },
+        {
+          "nivel": 3,
+          "titulo": "Pontos de vida",
+          "linha": 218
+        },
+        {
+          "nivel": 3,
+          "titulo": "Vida temporária",
+          "linha": 240
+        },
+        {
+          "nivel": 3,
+          "titulo": "Pontos de energia",
+          "linha": 252
+        },
+        {
+          "nivel": 3,
+          "titulo": "Energia temporária",
+          "linha": 262
+        },
+        {
+          "nivel": 3,
+          "titulo": "Integridade",
+          "linha": 270
+        },
+        {
+          "nivel": 2,
+          "titulo": "Arredondamento",
+          "linha": 282
+        },
+        {
+          "nivel": 2,
+          "titulo": "Vida a 0",
+          "linha": 293
+        },
+        {
+          "nivel": 3,
+          "titulo": "Sequela e Cicatriz",
+          "linha": 311
+        },
+        {
+          "nivel": 3,
+          "titulo": "Inconsciente",
+          "linha": 331
+        },
+        {
+          "nivel": 2,
+          "titulo": "Condições",
+          "linha": 344
+        },
+        {
+          "nivel": 2,
+          "titulo": "Notação e nomes",
+          "linha": 350
+        }
+      ],
+      "capitulo_atual": 1,
+      "destinos_propostos": "1, 8 e 9",
+      "operacao_proposta": "Separar resolução geral, ataque/defesa e consequências. O detalhe da divisão está abaixo."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/11-o-turno.md",
+      "bytes": 11896,
+      "palavras": 2000,
+      "titulos": 17,
+      "tabelas": 3,
+      "sha256": "de552097688d2aefe2f7286f0e3f542ec912cff02cf51a7bf20a1e2d33f2b644",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "O Turno",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Iniciativa",
+          "linha": 7
+        },
+        {
+          "nivel": 2,
+          "titulo": "Recursos do turno",
+          "linha": 17
+        },
+        {
+          "nivel": 3,
+          "titulo": "Deslocamento",
+          "linha": 35
+        },
+        {
+          "nivel": 3,
+          "titulo": "Sacar e guardar",
+          "linha": 41
+        },
+        {
+          "nivel": 3,
+          "titulo": "Rodada inteira",
+          "linha": 51
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ações de Ação Padrão",
+          "linha": 57
+        },
+        {
+          "nivel": 3,
+          "titulo": "Agarrar e Derrubar",
+          "linha": 80
+        },
+        {
+          "nivel": 3,
+          "titulo": "Ajudar",
+          "linha": 84
+        },
+        {
+          "nivel": 3,
+          "titulo": "Influenciar",
+          "linha": 88
+        },
+        {
+          "nivel": 3,
+          "titulo": "Preparar",
+          "linha": 94
+        },
+        {
+          "nivel": 3,
+          "titulo": "Vasculhar e Estudar",
+          "linha": 104
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ações de Ação Bônus",
+          "linha": 108
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ataque de oportunidade",
+          "linha": 120
+        },
+        {
+          "nivel": 2,
+          "titulo": "Concentração",
+          "linha": 130
+        },
+        {
+          "nivel": 3,
+          "titulo": "Concentração e Carregar",
+          "linha": 146
+        },
+        {
+          "nivel": 2,
+          "titulo": "Limites",
+          "linha": 160
+        }
+      ],
+      "capitulo_atual": 2,
+      "destinos_propostos": "8",
+      "operacao_proposta": "Mover inteiro; reunir com os procedimentos de ataque, Defesa e Bloquear."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/12-pericias-e-oficios.md",
+      "bytes": 13424,
+      "palavras": 1977,
+      "titulos": 15,
+      "tabelas": 5,
+      "sha256": "62f41d5d4ca7abe451eac31264c6a7ead7f3993a8218cede144f2b79c28e98ca",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Perícias e Ofícios",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Rolagem de perícia e ofício",
+          "linha": 21
+        },
+        {
+          "nivel": 3,
+          "titulo": "Atributo do ofício",
+          "linha": 31
+        },
+        {
+          "nivel": 3,
+          "titulo": "Sem treino",
+          "linha": 37
+        },
+        {
+          "nivel": 2,
+          "titulo": "Catálogo",
+          "linha": 47
+        },
+        {
+          "nivel": 2,
+          "titulo": "Perícias",
+          "linha": 94
+        },
+        {
+          "nivel": 3,
+          "titulo": "Força",
+          "linha": 96
+        },
+        {
+          "nivel": 3,
+          "titulo": "Destreza",
+          "linha": 100
+        },
+        {
+          "nivel": 3,
+          "titulo": "Inteligência",
+          "linha": 110
+        },
+        {
+          "nivel": 3,
+          "titulo": "Essência",
+          "linha": 134
+        },
+        {
+          "nivel": 3,
+          "titulo": "Técnica do inimigo",
+          "linha": 150
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ofícios",
+          "linha": 162
+        },
+        {
+          "nivel": 2,
+          "titulo": "Treino",
+          "linha": 188
+        },
+        {
+          "nivel": 3,
+          "titulo": "Perícias da Origem",
+          "linha": 207
+        },
+        {
+          "nivel": 3,
+          "titulo": "Testes de Resistência",
+          "linha": 223
+        }
+      ],
+      "capitulo_atual": 3,
+      "destinos_propostos": "5",
+      "operacao_proposta": "Mover inteiro; manter aplicações de perícia e limites atuais dos ofícios."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+      "bytes": 15806,
+      "palavras": 2388,
+      "titulos": 32,
+      "tabelas": 5,
+      "sha256": "ff5bc2d0b953cda1c70f57a345d1946b789541236a6971cc5f4bac3862831cfb",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Dano, Condições e Cobertura",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Tipos de dano",
+          "linha": 3
+        },
+        {
+          "nivel": 3,
+          "titulo": "Catálogo",
+          "linha": 15
+        },
+        {
+          "nivel": 4,
+          "titulo": "Físicos",
+          "linha": 19
+        },
+        {
+          "nivel": 4,
+          "titulo": "Elementais",
+          "linha": 27
+        },
+        {
+          "nivel": 4,
+          "titulo": "Especiais",
+          "linha": 41
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nomes repetidos",
+          "linha": 53
+        },
+        {
+          "nivel": 3,
+          "titulo": "Dano na alma",
+          "linha": 70
+        },
+        {
+          "nivel": 4,
+          "titulo": "Dano direto na alma",
+          "linha": 98
+        },
+        {
+          "nivel": 2,
+          "titulo": "Condições",
+          "linha": 106
+        },
+        {
+          "nivel": 3,
+          "titulo": "Como ler",
+          "linha": 114
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível `Leve`",
+          "linha": 124
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Lento`",
+          "linha": 126
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Incapacitado`",
+          "linha": 134
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Derrubado`",
+          "linha": 144
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Agarrado`",
+          "linha": 154
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Desarmado`",
+          "linha": 164
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Surdo`",
+          "linha": 171
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível `Média`",
+          "linha": 179
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Calado`",
+          "linha": 181
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Enfeitiçado`",
+          "linha": 189
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível `Pesada`",
+          "linha": 199
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Impedido`",
+          "linha": 204
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Cego`",
+          "linha": 216
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Amedrontado`",
+          "linha": 226
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Envenenado`",
+          "linha": 236
+        },
+        {
+          "nivel": 4,
+          "titulo": "`Atordoado`",
+          "linha": 244
+        },
+        {
+          "nivel": 3,
+          "titulo": "Condições em uma linha",
+          "linha": 253
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Inconsciente`, `Exaustão` e `Invisível`",
+          "linha": 276
+        },
+        {
+          "nivel": 3,
+          "titulo": "Comprar uma condição",
+          "linha": 289
+        },
+        {
+          "nivel": 3,
+          "titulo": "Tirar uma condição",
+          "linha": 298
+        },
+        {
+          "nivel": 2,
+          "titulo": "Cobertura",
+          "linha": 306
+        }
+      ],
+      "capitulo_atual": 4,
+      "destinos_propostos": "9",
+      "operacao_proposta": "Mover inteiro; ligar dano, condições, cobertura e recuperação."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/20-criacao-de-personagem.md",
+      "bytes": 15391,
+      "palavras": 2440,
+      "titulos": 24,
+      "tabelas": 8,
+      "sha256": "bae6e4333d9e13add07696ee6feb383e7a48b6ac34d66887339d87fe826db698",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Criação de Personagem",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Peças da ficha",
+          "linha": 3
+        },
+        {
+          "nivel": 2,
+          "titulo": "Nível inicial",
+          "linha": 15
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ordem dos passos",
+          "linha": 23
+        },
+        {
+          "nivel": 2,
+          "titulo": "Passo 1 · Origem",
+          "linha": 29
+        },
+        {
+          "nivel": 2,
+          "titulo": "Passo 2 · Regra da técnica",
+          "linha": 55
+        },
+        {
+          "nivel": 2,
+          "titulo": "Passo 3 · Caminho e Trilha",
+          "linha": 69
+        },
+        {
+          "nivel": 3,
+          "titulo": "Características do Caminho",
+          "linha": 87
+        },
+        {
+          "nivel": 3,
+          "titulo": "Equipamento",
+          "linha": 103
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha",
+          "linha": 113
+        },
+        {
+          "nivel": 2,
+          "titulo": "Passo 4 · Atributos",
+          "linha": 121
+        },
+        {
+          "nivel": 2,
+          "titulo": "Passo 5 · Técnica inteira",
+          "linha": 133
+        },
+        {
+          "nivel": 2,
+          "titulo": "Passo 6 · Perícias, ofícios e Testes de Resistência",
+          "linha": 145
+        },
+        {
+          "nivel": 2,
+          "titulo": "Passo 7 · Números derivados",
+          "linha": 175
+        },
+        {
+          "nivel": 2,
+          "titulo": "Passo 8 · Pactos",
+          "linha": 203
+        },
+        {
+          "nivel": 2,
+          "titulo": "Exemplo",
+          "linha": 221
+        },
+        {
+          "nivel": 3,
+          "titulo": "Origem",
+          "linha": 225
+        },
+        {
+          "nivel": 3,
+          "titulo": "Regra",
+          "linha": 237
+        },
+        {
+          "nivel": 3,
+          "titulo": "Caminho e Trilha",
+          "linha": 241
+        },
+        {
+          "nivel": 3,
+          "titulo": "Atributos",
+          "linha": 245
+        },
+        {
+          "nivel": 3,
+          "titulo": "Técnica",
+          "linha": 249
+        },
+        {
+          "nivel": 3,
+          "titulo": "Perícias e ofícios",
+          "linha": 253
+        },
+        {
+          "nivel": 3,
+          "titulo": "Números",
+          "linha": 259
+        },
+        {
+          "nivel": 2,
+          "titulo": "Conferência da ficha",
+          "linha": 276
+        }
+      ],
+      "capitulo_atual": 6,
+      "destinos_propostos": "2",
+      "operacao_proposta": "Antecipar o roteiro; refazer referências e o exemplo quando Origens, termos e ficha estiverem conciliados."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/25-origens.md",
+      "bytes": 45445,
+      "palavras": 7451,
+      "titulos": 94,
+      "tabelas": 3,
+      "sha256": "dac3ae94462e81858c3d7758b938dd5de71870175f811ed1c3b8f341018ac59e",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Origens e Legados",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Características da Origem",
+          "linha": 7
+        },
+        {
+          "nivel": 3,
+          "titulo": "Limites",
+          "linha": 22
+        },
+        {
+          "nivel": 4,
+          "titulo": "Atributo",
+          "linha": 24
+        },
+        {
+          "nivel": 4,
+          "titulo": "Feitiço",
+          "linha": 28
+        },
+        {
+          "nivel": 4,
+          "titulo": "Patente",
+          "linha": 32
+        },
+        {
+          "nivel": 3,
+          "titulo": "Como ler uma Origem",
+          "linha": 36
+        },
+        {
+          "nivel": 2,
+          "titulo": "Legados",
+          "linha": 44
+        },
+        {
+          "nivel": 3,
+          "titulo": "Como ler um Destranca",
+          "linha": 55
+        },
+        {
+          "nivel": 3,
+          "titulo": "Como ler um Ajusta",
+          "linha": 61
+        },
+        {
+          "nivel": 3,
+          "titulo": "Como ler um Desliga",
+          "linha": 67
+        },
+        {
+          "nivel": 2,
+          "titulo": "Latente",
+          "linha": 73
+        },
+        {
+          "nivel": 3,
+          "titulo": "Efeito na ficha",
+          "linha": 79
+        },
+        {
+          "nivel": 4,
+          "titulo": "Perícias",
+          "linha": 81
+        },
+        {
+          "nivel": 4,
+          "titulo": "Teste de Resistência",
+          "linha": 89
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destrancas",
+          "linha": 95
+        },
+        {
+          "nivel": 4,
+          "titulo": "Criação",
+          "linha": 99
+        },
+        {
+          "nivel": 3,
+          "titulo": "Legados da Latente",
+          "linha": 103
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destranca",
+          "linha": 105
+        },
+        {
+          "nivel": 4,
+          "titulo": "Ajusta",
+          "linha": 120
+        },
+        {
+          "nivel": 4,
+          "titulo": "Desliga",
+          "linha": 134
+        },
+        {
+          "nivel": 2,
+          "titulo": "Receptáculo",
+          "linha": 142
+        },
+        {
+          "nivel": 3,
+          "titulo": "Efeito na ficha",
+          "linha": 148
+        },
+        {
+          "nivel": 4,
+          "titulo": "Perícias",
+          "linha": 150
+        },
+        {
+          "nivel": 4,
+          "titulo": "Teste de Resistência",
+          "linha": 158
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destrancas",
+          "linha": 164
+        },
+        {
+          "nivel": 4,
+          "titulo": "Criação",
+          "linha": 168
+        },
+        {
+          "nivel": 3,
+          "titulo": "Legados do Receptáculo",
+          "linha": 172
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destranca",
+          "linha": 174
+        },
+        {
+          "nivel": 4,
+          "titulo": "Ajusta",
+          "linha": 192
+        },
+        {
+          "nivel": 4,
+          "titulo": "Desliga",
+          "linha": 205
+        },
+        {
+          "nivel": 2,
+          "titulo": "Descendente",
+          "linha": 213
+        },
+        {
+          "nivel": 3,
+          "titulo": "Efeito na ficha",
+          "linha": 219
+        },
+        {
+          "nivel": 4,
+          "titulo": "Perícias",
+          "linha": 221
+        },
+        {
+          "nivel": 4,
+          "titulo": "Teste de Resistência",
+          "linha": 229
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destrancas",
+          "linha": 235
+        },
+        {
+          "nivel": 4,
+          "titulo": "Criação",
+          "linha": 239
+        },
+        {
+          "nivel": 3,
+          "titulo": "Legados do Descendente",
+          "linha": 243
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destranca",
+          "linha": 245
+        },
+        {
+          "nivel": 4,
+          "titulo": "Ajusta",
+          "linha": 266
+        },
+        {
+          "nivel": 4,
+          "titulo": "Desliga",
+          "linha": 279
+        },
+        {
+          "nivel": 2,
+          "titulo": "Reencarnado",
+          "linha": 287
+        },
+        {
+          "nivel": 3,
+          "titulo": "Efeito na ficha",
+          "linha": 295
+        },
+        {
+          "nivel": 4,
+          "titulo": "Perícias",
+          "linha": 297
+        },
+        {
+          "nivel": 4,
+          "titulo": "Teste de Resistência",
+          "linha": 305
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destrancas",
+          "linha": 311
+        },
+        {
+          "nivel": 4,
+          "titulo": "Criação",
+          "linha": 315
+        },
+        {
+          "nivel": 3,
+          "titulo": "Legados do Reencarnado",
+          "linha": 319
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destranca",
+          "linha": 321
+        },
+        {
+          "nivel": 4,
+          "titulo": "Ajusta",
+          "linha": 339
+        },
+        {
+          "nivel": 4,
+          "titulo": "Desliga",
+          "linha": 353
+        },
+        {
+          "nivel": 2,
+          "titulo": "Feto",
+          "linha": 361
+        },
+        {
+          "nivel": 3,
+          "titulo": "Efeito na ficha",
+          "linha": 367
+        },
+        {
+          "nivel": 4,
+          "titulo": "Perícias",
+          "linha": 369
+        },
+        {
+          "nivel": 4,
+          "titulo": "Teste de Resistência",
+          "linha": 377
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destrancas",
+          "linha": 383
+        },
+        {
+          "nivel": 4,
+          "titulo": "Criação",
+          "linha": 387
+        },
+        {
+          "nivel": 3,
+          "titulo": "Legados do Feto",
+          "linha": 391
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destranca",
+          "linha": 393
+        },
+        {
+          "nivel": 4,
+          "titulo": "Ajusta",
+          "linha": 411
+        },
+        {
+          "nivel": 4,
+          "titulo": "Desliga",
+          "linha": 425
+        },
+        {
+          "nivel": 2,
+          "titulo": "Sem Técnica",
+          "linha": 433
+        },
+        {
+          "nivel": 3,
+          "titulo": "Efeito na ficha",
+          "linha": 449
+        },
+        {
+          "nivel": 4,
+          "titulo": "Criação",
+          "linha": 455
+        },
+        {
+          "nivel": 3,
+          "titulo": "Legado de Sem Técnica",
+          "linha": 461
+        },
+        {
+          "nivel": 2,
+          "titulo": "Corpo Amaldiçoado",
+          "linha": 469
+        },
+        {
+          "nivel": 3,
+          "titulo": "Efeito na ficha",
+          "linha": 475
+        },
+        {
+          "nivel": 4,
+          "titulo": "Perícias",
+          "linha": 479
+        },
+        {
+          "nivel": 4,
+          "titulo": "Teste de Resistência",
+          "linha": 487
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destrancas",
+          "linha": 493
+        },
+        {
+          "nivel": 4,
+          "titulo": "Criação",
+          "linha": 497
+        },
+        {
+          "nivel": 4,
+          "titulo": "Cura",
+          "linha": 503
+        },
+        {
+          "nivel": 4,
+          "titulo": "Imunidade",
+          "linha": 509
+        },
+        {
+          "nivel": 3,
+          "titulo": "Legados do Corpo Amaldiçoado",
+          "linha": 513
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destranca",
+          "linha": 515
+        },
+        {
+          "nivel": 4,
+          "titulo": "Ajusta",
+          "linha": 531
+        },
+        {
+          "nivel": 5,
+          "titulo": "Ninhada",
+          "linha": 535
+        },
+        {
+          "nivel": 5,
+          "titulo": "Gêmeos",
+          "linha": 546
+        },
+        {
+          "nivel": 5,
+          "titulo": "Inteiro",
+          "linha": 557
+        },
+        {
+          "nivel": 5,
+          "titulo": "Manutenção",
+          "linha": 568
+        },
+        {
+          "nivel": 4,
+          "titulo": "Desliga",
+          "linha": 579
+        },
+        {
+          "nivel": 2,
+          "titulo": "Restrição Celestial",
+          "linha": 584
+        },
+        {
+          "nivel": 3,
+          "titulo": "Efeito na ficha",
+          "linha": 596
+        },
+        {
+          "nivel": 4,
+          "titulo": "Perícias",
+          "linha": 608
+        },
+        {
+          "nivel": 4,
+          "titulo": "Teste de Resistência",
+          "linha": 624
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destrancas",
+          "linha": 630
+        },
+        {
+          "nivel": 3,
+          "titulo": "Legados: Corpo pela Técnica",
+          "linha": 634
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destranca",
+          "linha": 638
+        },
+        {
+          "nivel": 4,
+          "titulo": "Ajusta",
+          "linha": 651
+        },
+        {
+          "nivel": 3,
+          "titulo": "Legados: Sem Energia",
+          "linha": 665
+        },
+        {
+          "nivel": 4,
+          "titulo": "Destranca",
+          "linha": 669
+        },
+        {
+          "nivel": 4,
+          "titulo": "Ajusta",
+          "linha": 685
+        },
+        {
+          "nivel": 3,
+          "titulo": "Legados: Desliga",
+          "linha": 699
+        },
+        {
+          "nivel": 2,
+          "titulo": "Criar o seu Legado",
+          "linha": 709
+        }
+      ],
+      "capitulo_atual": 7,
+      "destinos_propostos": "3",
+      "operacao_proposta": "Receber a entrega externa antes da redação definitiva. Não congelar o catálogo antigo como exigência."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+      "bytes": 213295,
+      "palavras": 32234,
+      "titulos": 233,
+      "tabelas": 60,
+      "sha256": "948dc94babd1d17022e5a3b5b817e160d2cf1e92c61d37d02462f412ff4e1e44",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Caminhos e Trilhas",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Como ler um Caminho",
+          "linha": 6
+        },
+        {
+          "nivel": 3,
+          "titulo": "Vida e energia",
+          "linha": 28
+        },
+        {
+          "nivel": 3,
+          "titulo": "Termos dos degraus",
+          "linha": 42
+        },
+        {
+          "nivel": 3,
+          "titulo": "Treino de arma",
+          "linha": 56
+        },
+        {
+          "nivel": 3,
+          "titulo": "Limites",
+          "linha": 68
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilhas",
+          "linha": 72
+        },
+        {
+          "nivel": 2,
+          "titulo": "Bastião",
+          "linha": 98
+        },
+        {
+          "nivel": 3,
+          "titulo": "Características do Bastião",
+          "linha": 102
+        },
+        {
+          "nivel": 3,
+          "titulo": "Degraus do Bastião",
+          "linha": 124
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Muro",
+          "linha": 169
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Punho",
+          "linha": 195
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Combatente Amaldiçoado",
+          "linha": 227
+        },
+        {
+          "nivel": 2,
+          "titulo": "Vanguarda",
+          "linha": 261
+        },
+        {
+          "nivel": 3,
+          "titulo": "Características da Vanguarda",
+          "linha": 265
+        },
+        {
+          "nivel": 3,
+          "titulo": "Degraus da Vanguarda",
+          "linha": 287
+        },
+        {
+          "nivel": 4,
+          "titulo": "Golpe Inicial",
+          "linha": 304
+        },
+        {
+          "nivel": 4,
+          "titulo": "Conduzir",
+          "linha": 320
+        },
+        {
+          "nivel": 4,
+          "titulo": "Concluir",
+          "linha": 342
+        },
+        {
+          "nivel": 4,
+          "titulo": "Prazo e troca de alvo",
+          "linha": 364
+        },
+        {
+          "nivel": 4,
+          "titulo": "Escola de Arma",
+          "linha": 372
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Estocada",
+          "linha": 406
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Batedor",
+          "linha": 462
+        },
+        {
+          "nivel": 4,
+          "titulo": "Rota: Yumi",
+          "linha": 476
+        },
+        {
+          "nivel": 5,
+          "titulo": "Armar uma Conclusão",
+          "linha": 482
+        },
+        {
+          "nivel": 5,
+          "titulo": "Soltura Simples",
+          "linha": 494
+        },
+        {
+          "nivel": 5,
+          "titulo": "Conduções do Yumi",
+          "linha": 500
+        },
+        {
+          "nivel": 5,
+          "titulo": "Conclusões do Yumi",
+          "linha": 510
+        },
+        {
+          "nivel": 5,
+          "titulo": "Duração e Conclusão Dupla",
+          "linha": 526
+        },
+        {
+          "nivel": 4,
+          "titulo": "Rota: Besta",
+          "linha": 552
+        },
+        {
+          "nivel": 5,
+          "titulo": "Conduções da Besta",
+          "linha": 564
+        },
+        {
+          "nivel": 5,
+          "titulo": "Conclusões da Besta",
+          "linha": 572
+        },
+        {
+          "nivel": 4,
+          "titulo": "Rota: Arma de Fogo",
+          "linha": 604
+        },
+        {
+          "nivel": 5,
+          "titulo": "Oportunidade Tática",
+          "linha": 610
+        },
+        {
+          "nivel": 5,
+          "titulo": "Conduções da Arma de Fogo",
+          "linha": 616
+        },
+        {
+          "nivel": 5,
+          "titulo": "Conclusões da Arma de Fogo",
+          "linha": 624
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Executor",
+          "linha": 666
+        },
+        {
+          "nivel": 4,
+          "titulo": "Resposta do adversário",
+          "linha": 684
+        },
+        {
+          "nivel": 4,
+          "titulo": "Decisão do Executor",
+          "linha": 690
+        },
+        {
+          "nivel": 4,
+          "titulo": "Conclusões do Executor",
+          "linha": 696
+        },
+        {
+          "nivel": 4,
+          "titulo": "Finta e Conclusão Dupla",
+          "linha": 730
+        },
+        {
+          "nivel": 2,
+          "titulo": "Guia",
+          "linha": 736
+        },
+        {
+          "nivel": 3,
+          "titulo": "Características do Guia",
+          "linha": 740
+        },
+        {
+          "nivel": 3,
+          "titulo": "Degraus do Guia",
+          "linha": 764
+        },
+        {
+          "nivel": 4,
+          "titulo": "Avançar",
+          "linha": 785
+        },
+        {
+          "nivel": 4,
+          "titulo": "Executar",
+          "linha": 793
+        },
+        {
+          "nivel": 4,
+          "titulo": "Resguardar",
+          "linha": 799
+        },
+        {
+          "nivel": 4,
+          "titulo": "Fora de combate",
+          "linha": 805
+        },
+        {
+          "nivel": 4,
+          "titulo": "Leitura de Equipe",
+          "linha": 831
+        },
+        {
+          "nivel": 4,
+          "titulo": "Usando as Trilhas com as Aberturas",
+          "linha": 873
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Arquiteto",
+          "linha": 879
+        },
+        {
+          "nivel": 4,
+          "titulo": "Modelos de construção",
+          "linha": 900
+        },
+        {
+          "nivel": 4,
+          "titulo": "Aberturas junto das obras",
+          "linha": 915
+        },
+        {
+          "nivel": 4,
+          "titulo": "Obras maiores",
+          "linha": 931
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Analista",
+          "linha": 968
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Socorrista",
+          "linha": 1021
+        },
+        {
+          "nivel": 4,
+          "titulo": "Receber o socorro antes",
+          "linha": 1035
+        },
+        {
+          "nivel": 2,
+          "titulo": "Emanador",
+          "linha": 1089
+        },
+        {
+          "nivel": 3,
+          "titulo": "Características do Emanador",
+          "linha": 1093
+        },
+        {
+          "nivel": 3,
+          "titulo": "Degraus do Emanador",
+          "linha": 1115
+        },
+        {
+          "nivel": 4,
+          "titulo": "Antes de usar o Caminho",
+          "linha": 1128
+        },
+        {
+          "nivel": 4,
+          "titulo": "Remodelar",
+          "linha": 1138
+        },
+        {
+          "nivel": 4,
+          "titulo": "Modulações Dominadas",
+          "linha": 1157
+        },
+        {
+          "nivel": 4,
+          "titulo": "Forçar uma Modulação",
+          "linha": 1174
+        },
+        {
+          "nivel": 4,
+          "titulo": "Afinidade Técnica",
+          "linha": 1188
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Condutor Armado",
+          "linha": 1242
+        },
+        {
+          "nivel": 4,
+          "titulo": "Cadência Técnica",
+          "linha": 1260
+        },
+        {
+          "nivel": 4,
+          "titulo": "Artes de Cadência",
+          "linha": 1276
+        },
+        {
+          "nivel": 4,
+          "titulo": "Propriedades de Vínculo",
+          "linha": 1284
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Ressonante",
+          "linha": 1324
+        },
+        {
+          "nivel": 4,
+          "titulo": "Eco de Remodelagem",
+          "linha": 1346
+        },
+        {
+          "nivel": 4,
+          "titulo": "Eco de Modulação",
+          "linha": 1352
+        },
+        {
+          "nivel": 4,
+          "titulo": "Limites da aplicação",
+          "linha": 1358
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Catalisador",
+          "linha": 1392
+        },
+        {
+          "nivel": 2,
+          "titulo": "Evocador",
+          "linha": 1444
+        },
+        {
+          "nivel": 3,
+          "titulo": "Características do Evocador",
+          "linha": 1448
+        },
+        {
+          "nivel": 3,
+          "titulo": "Progressão do Caminho",
+          "linha": 1471
+        },
+        {
+          "nivel": 3,
+          "titulo": "Antes de jogar",
+          "linha": 1481
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 2 — Aprimoramentos e Pontos de Vínculo",
+          "linha": 1491
+        },
+        {
+          "nivel": 4,
+          "titulo": "Pontos de Vínculo",
+          "linha": 1493
+        },
+        {
+          "nivel": 4,
+          "titulo": "Escolher o aprimoramento",
+          "linha": 1499
+        },
+        {
+          "nivel": 4,
+          "titulo": "Usos compartilhados dos aprimoramentos",
+          "linha": 1507
+        },
+        {
+          "nivel": 4,
+          "titulo": "Catálogo de aprimoramentos",
+          "linha": 1519
+        },
+        {
+          "nivel": 5,
+          "titulo": "Precisão à Distância — nível 2",
+          "linha": 1523
+        },
+        {
+          "nivel": 5,
+          "titulo": "Avanço Corpo a Corpo — nível 2",
+          "linha": 1529
+        },
+        {
+          "nivel": 5,
+          "titulo": "Proteção Reforçada — nível 2",
+          "linha": 1537
+        },
+        {
+          "nivel": 5,
+          "titulo": "Execução de Tarefas — nível 2",
+          "linha": 1547
+        },
+        {
+          "nivel": 5,
+          "titulo": "Dificultar a Resistência — nível 7",
+          "linha": 1553
+        },
+        {
+          "nivel": 4,
+          "titulo": "Catálogo de Intervenções de Vínculo",
+          "linha": 1559
+        },
+        {
+          "nivel": 5,
+          "titulo": "Corrigir uma Falha — nível 2",
+          "linha": 1569
+        },
+        {
+          "nivel": 5,
+          "titulo": "Mudar o Aprimoramento — nível 2",
+          "linha": 1579
+        },
+        {
+          "nivel": 5,
+          "titulo": "Superar Cobertura — nível 2",
+          "linha": 1589
+        },
+        {
+          "nivel": 5,
+          "titulo": "Reposicionar a Invocação — nível 2",
+          "linha": 1595
+        },
+        {
+          "nivel": 5,
+          "titulo": "Ajustar a Preparação — nível 7",
+          "linha": 1607
+        },
+        {
+          "nivel": 5,
+          "titulo": "Recolher sob Ataque — nível 7",
+          "linha": 1615
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 7 — Atuação Complementar",
+          "linha": 1625
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 15 — Combinar Aprimoramentos",
+          "linha": 1647
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 23 — Intervenção Eficiente",
+          "linha": 1659
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 30 — Especial Combinada",
+          "linha": 1673
+        },
+        {
+          "nivel": 3,
+          "titulo": "Exemplos de turno",
+          "linha": 1696
+        },
+        {
+          "nivel": 4,
+          "titulo": "Favorecer a ave e depois o lobo",
+          "linha": 1698
+        },
+        {
+          "nivel": 4,
+          "titulo": "Combinar sem ampliar a ação auxiliar",
+          "linha": 1702
+        },
+        {
+          "nivel": 4,
+          "titulo": "Intervir sem pontos guardados",
+          "linha": 1706
+        },
+        {
+          "nivel": 4,
+          "titulo": "Dedicar o turno à combinação",
+          "linha": 1710
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Invocação Principal",
+          "linha": 1714
+        },
+        {
+          "nivel": 4,
+          "titulo": "Progressão da Trilha",
+          "linha": 1718
+        },
+        {
+          "nivel": 4,
+          "titulo": "Quando a Trilha funciona",
+          "linha": 1727
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 — Duas Atuações Básicas",
+          "linha": 1737
+        },
+        {
+          "nivel": 5,
+          "titulo": "Especial primeiro",
+          "linha": 1743
+        },
+        {
+          "nivel": 5,
+          "titulo": "Outras escolhas",
+          "linha": 1753
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 — Repertório Ampliado",
+          "linha": 1759
+        },
+        {
+          "nivel": 4,
+          "titulo": "Substituir a principal",
+          "linha": 1771
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 11 — Intervenções da Invocação Principal",
+          "linha": 1791
+        },
+        {
+          "nivel": 5,
+          "titulo": "Proteger a Manifestação",
+          "linha": 1799
+        },
+        {
+          "nivel": 5,
+          "titulo": "Adaptar o Aprimoramento",
+          "linha": 1821
+        },
+        {
+          "nivel": 5,
+          "titulo": "Preservar o Aprimoramento",
+          "linha": 1831
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 19 — Especial de Continuidade",
+          "linha": 1839
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 27 — Intervenção Reflexa",
+          "linha": 1859
+        },
+        {
+          "nivel": 4,
+          "titulo": "Exemplos de jogo",
+          "linha": 1876
+        },
+        {
+          "nivel": 5,
+          "titulo": "A principal luta enquanto você age",
+          "linha": 1878
+        },
+        {
+          "nivel": 5,
+          "titulo": "Especial seguida de escolha",
+          "linha": 1882
+        },
+        {
+          "nivel": 5,
+          "titulo": "Mudar a função entre atuações",
+          "linha": 1886
+        },
+        {
+          "nivel": 5,
+          "titulo": "Trocar sem renovar o saldo",
+          "linha": 1890
+        },
+        {
+          "nivel": 5,
+          "titulo": "Escolher onde gastar sua Reação",
+          "linha": 1894
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Parceria",
+          "linha": 1898
+        },
+        {
+          "nivel": 4,
+          "titulo": "Progressão da Trilha",
+          "linha": 1902
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 — Abertura da Parceria",
+          "linha": 1913
+        },
+        {
+          "nivel": 5,
+          "titulo": "Entrada Ágil",
+          "linha": 1915
+        },
+        {
+          "nivel": 5,
+          "titulo": "Treino de Combate",
+          "linha": 1921
+        },
+        {
+          "nivel": 5,
+          "titulo": "Repertório de Parceria",
+          "linha": 1925
+        },
+        {
+          "nivel": 5,
+          "titulo": "Aprimoramentos de Parceria",
+          "linha": 1931
+        },
+        {
+          "nivel": 6,
+          "titulo": "Acompanhar a Especial",
+          "linha": 1939
+        },
+        {
+          "nivel": 6,
+          "titulo": "Golpe Acompanhado",
+          "linha": 1947
+        },
+        {
+          "nivel": 6,
+          "titulo": "Resposta ao Agressor",
+          "linha": 1957
+        },
+        {
+          "nivel": 4,
+          "titulo": "Atuação Complementar — interação com o nível 7 do Caminho",
+          "linha": 1968
+        },
+        {
+          "nivel": 4,
+          "titulo": "Exemplos",
+          "linha": 1980
+        },
+        {
+          "nivel": 5,
+          "titulo": "Especial e golpe do dono",
+          "linha": 1982
+        },
+        {
+          "nivel": 5,
+          "titulo": "Técnica e ataque acompanhado",
+          "linha": 1986
+        },
+        {
+          "nivel": 5,
+          "titulo": "Apoio e resposta",
+          "linha": 1990
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 11 — Intervenções de Parceria",
+          "linha": 1996
+        },
+        {
+          "nivel": 5,
+          "titulo": "Abrir Espaço para o Parceiro",
+          "linha": 2006
+        },
+        {
+          "nivel": 5,
+          "titulo": "Corrigir o Ataque Conjunto",
+          "linha": 2017
+        },
+        {
+          "nivel": 5,
+          "titulo": "Cobrir o Parceiro",
+          "linha": 2026
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 19 — Técnicas em Conjunto",
+          "linha": 2041
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 27 — Resposta Técnica da Dupla",
+          "linha": 2061
+        },
+        {
+          "nivel": 5,
+          "titulo": "Exemplos",
+          "linha": 2082
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Múltiplas Invocações",
+          "linha": 2090
+        },
+        {
+          "nivel": 4,
+          "titulo": "Progressão da Trilha",
+          "linha": 2094
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 — Conjunto Ampliado",
+          "linha": 2105
+        },
+        {
+          "nivel": 5,
+          "titulo": "Atuação ofensiva",
+          "linha": 2111
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 — Famílias do Conjunto",
+          "linha": 2120
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 — Manifestação em Grupo",
+          "linha": 2126
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 — Entrada Ágil",
+          "linha": 2142
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 — Aquisição em Duplas",
+          "linha": 2148
+        },
+        {
+          "nivel": 4,
+          "titulo": "Repertório na abertura",
+          "linha": 2156
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 11 — Intervenções do Conjunto",
+          "linha": 2163
+        },
+        {
+          "nivel": 5,
+          "titulo": "Dificultar o Ataque",
+          "linha": 2171
+        },
+        {
+          "nivel": 5,
+          "titulo": "Proteger um Aliado",
+          "linha": 2181
+        },
+        {
+          "nivel": 5,
+          "titulo": "Conduzir a Especial",
+          "linha": 2191
+        },
+        {
+          "nivel": 5,
+          "titulo": "Retirada em Conjunto",
+          "linha": 2209
+        },
+        {
+          "nivel": 4,
+          "titulo": "Um turno com quatro corpos",
+          "linha": 2221
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 19 — Aprimoramentos Distribuídos",
+          "linha": 2231
+        },
+        {
+          "nivel": 5,
+          "titulo": "Exemplo",
+          "linha": 2249
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 27 — Formação Renovada",
+          "linha": 2253
+        },
+        {
+          "nivel": 5,
+          "titulo": "Exemplo — completar o grupo",
+          "linha": 2272
+        },
+        {
+          "nivel": 5,
+          "titulo": "Exemplo — mudar a composição",
+          "linha": 2278
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 27 — Repertório do Conjunto",
+          "linha": 2282
+        },
+        {
+          "nivel": 5,
+          "titulo": "Exemplo — funções complementares",
+          "linha": 2301
+        },
+        {
+          "nivel": 2,
+          "titulo": "Incursor",
+          "linha": 2307
+        },
+        {
+          "nivel": 3,
+          "titulo": "Características do Incursor",
+          "linha": 2311
+        },
+        {
+          "nivel": 3,
+          "titulo": "Progressão do Caminho",
+          "linha": 2334
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 2 — Agilidade de Combate",
+          "linha": 2346
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 2 — Movimento Acrobático",
+          "linha": 2350
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 2 — Fluidez",
+          "linha": 2358
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 7",
+          "linha": 2384
+        },
+        {
+          "nivel": 4,
+          "titulo": "Mais oportunidades de Fluidez",
+          "linha": 2386
+        },
+        {
+          "nivel": 4,
+          "titulo": "Correr ou Esquivar pela Bônus",
+          "linha": 2390
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 15 — Melhorias de Fluidez",
+          "linha": 2399
+        },
+        {
+          "nivel": 4,
+          "titulo": "Passo Guardado",
+          "linha": 2406
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 23",
+          "linha": 2414
+        },
+        {
+          "nivel": 4,
+          "titulo": "Retomar o Ritmo",
+          "linha": 2416
+        },
+        {
+          "nivel": 4,
+          "titulo": "Movimento Acrobático ampliado",
+          "linha": 2420
+        },
+        {
+          "nivel": 3,
+          "titulo": "Nível 30 — Um Passo à Frente",
+          "linha": 2424
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Assassino",
+          "linha": 2440
+        },
+        {
+          "nivel": 4,
+          "titulo": "Progressão da Trilha",
+          "linha": 2444
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 — Alvo Estudado",
+          "linha": 2453
+        },
+        {
+          "nivel": 5,
+          "titulo": "Estudar a Guarda",
+          "linha": 2468
+        },
+        {
+          "nivel": 5,
+          "titulo": "Golpe Cirúrgico",
+          "linha": 2480
+        },
+        {
+          "nivel": 6,
+          "titulo": "Combinação com Instante Decisivo",
+          "linha": 2500
+        },
+        {
+          "nivel": 5,
+          "titulo": "Cortar a Fuga",
+          "linha": 2510
+        },
+        {
+          "nivel": 5,
+          "titulo": "Obtenção e gasto de Fluidez",
+          "linha": 2520
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 — Parkour",
+          "linha": 2526
+        },
+        {
+          "nivel": 5,
+          "titulo": "Apoios de infiltração",
+          "linha": 2534
+        },
+        {
+          "nivel": 5,
+          "titulo": "Aproximação de abate",
+          "linha": 2540
+        },
+        {
+          "nivel": 5,
+          "titulo": "A vítima como apoio",
+          "linha": 2549
+        },
+        {
+          "nivel": 5,
+          "titulo": "Movimento e aterrissagem",
+          "linha": 2557
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 11 — Desaparecer no Percurso",
+          "linha": 2567
+        },
+        {
+          "nivel": 5,
+          "titulo": "Escolher a Próxima Vítima",
+          "linha": 2573
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 19 — Brecha Fatal",
+          "linha": 2579
+        },
+        {
+          "nivel": 5,
+          "titulo": "Execução fora do turno",
+          "linha": 2587
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 27 — Sentença Final",
+          "linha": 2597
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Pugilista",
+          "linha": 2613
+        },
+        {
+          "nivel": 4,
+          "titulo": "Progressão da Trilha",
+          "linha": 2617
+        },
+        {
+          "nivel": 4,
+          "titulo": "CD das habilidades da Trilha",
+          "linha": 2629
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 Corpo Treinado",
+          "linha": 2639
+        },
+        {
+          "nivel": 5,
+          "titulo": "Rajada Marcial a partir do nível 7",
+          "linha": 2656
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 Quebrar o Compasso",
+          "linha": 2664
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 Recuperar a Base",
+          "linha": 2672
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 11 — Guarda, contenção e travessia",
+          "linha": 2684
+        },
+        {
+          "nivel": 5,
+          "titulo": "Guarda Marcial",
+          "linha": 2686
+        },
+        {
+          "nivel": 5,
+          "titulo": "Interceptar e Prender",
+          "linha": 2699
+        },
+        {
+          "nivel": 5,
+          "titulo": "Movimento sobre líquidos",
+          "linha": 2713
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 19 Golpe Desarticulador",
+          "linha": 2719
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 19 Projeção Marcial",
+          "linha": 2731
+        },
+        {
+          "nivel": 5,
+          "titulo": "Resolução da projeção",
+          "linha": 2741
+        },
+        {
+          "nivel": 5,
+          "titulo": "Colisão",
+          "linha": 2749
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 27 Corpo em Harmonia",
+          "linha": 2757
+        },
+        {
+          "nivel": 5,
+          "titulo": "Rajada e Guarda",
+          "linha": 2761
+        },
+        {
+          "nivel": 5,
+          "titulo": "Redirecionar a Força",
+          "linha": 2767
+        },
+        {
+          "nivel": 3,
+          "titulo": "Trilha: Malabarista",
+          "linha": 2789
+        },
+        {
+          "nivel": 4,
+          "titulo": "Progressão da Trilha",
+          "linha": 2793
+        },
+        {
+          "nivel": 4,
+          "titulo": "Como as continuações funcionam",
+          "linha": 2802
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 Manejo de Combate",
+          "linha": 2816
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 Ofensiva em Movimento",
+          "linha": 2822
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 2 Ricochete",
+          "linha": 2832
+        },
+        {
+          "nivel": 4,
+          "titulo": "Outros usos de Fluidez",
+          "linha": 2850
+        },
+        {
+          "nivel": 5,
+          "titulo": "Lançamento Cruzado",
+          "linha": 2852
+        },
+        {
+          "nivel": 5,
+          "titulo": "Mudar o Destino",
+          "linha": 2862
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 11 Trajetória de Retorno",
+          "linha": 2872
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 11 Manejo Contínuo",
+          "linha": 2884
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 19 Finta de Retorno",
+          "linha": 2894
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 19 Manejo Contínuo ampliado",
+          "linha": 2910
+        },
+        {
+          "nivel": 4,
+          "titulo": "Nível 27 Trajetória Perfeita",
+          "linha": 2916
+        }
+      ],
+      "capitulo_atual": 8,
+      "destinos_propostos": "4",
+      "operacao_proposta": "Preservar as seis unidades e dezoito Trilhas; padronizar leitura dentro de cada família de habilidade."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/40-fundamento.md",
+      "bytes": 87100,
+      "palavras": 13948,
+      "titulos": 78,
+      "tabelas": 59,
+      "sha256": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Fundamento",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Técnica e feitiços",
+          "linha": 3
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe do feitiço",
+          "linha": 9
+        },
+        {
+          "nivel": 3,
+          "titulo": "Exemplo",
+          "linha": 35
+        },
+        {
+          "nivel": 3,
+          "titulo": "Atributo da técnica",
+          "linha": 46
+        },
+        {
+          "nivel": 3,
+          "titulo": "CD de feitiço",
+          "linha": 58
+        },
+        {
+          "nivel": 3,
+          "titulo": "Peças da técnica",
+          "linha": 70
+        },
+        {
+          "nivel": 2,
+          "titulo": "Números da montagem",
+          "linha": 83
+        },
+        {
+          "nivel": 3,
+          "titulo": "Melhorias e Restrições por Classe",
+          "linha": 109
+        },
+        {
+          "nivel": 3,
+          "titulo": "Energia",
+          "linha": 124
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe 0",
+          "linha": 144
+        },
+        {
+          "nivel": 3,
+          "titulo": "Dado",
+          "linha": 160
+        },
+        {
+          "nivel": 2,
+          "titulo": "Escrevendo o seu Fundamento",
+          "linha": 182
+        },
+        {
+          "nivel": 3,
+          "titulo": "Descrição",
+          "linha": 193
+        },
+        {
+          "nivel": 3,
+          "titulo": "Regra",
+          "linha": 201
+        },
+        {
+          "nivel": 3,
+          "titulo": "Famílias",
+          "linha": 213
+        },
+        {
+          "nivel": 3,
+          "titulo": "Selo",
+          "linha": 244
+        },
+        {
+          "nivel": 3,
+          "titulo": "Passivas",
+          "linha": 280
+        },
+        {
+          "nivel": 4,
+          "titulo": "Passiva Livre",
+          "linha": 296
+        },
+        {
+          "nivel": 4,
+          "titulo": "Limites",
+          "linha": 304
+        },
+        {
+          "nivel": 4,
+          "titulo": "Lista",
+          "linha": 312
+        },
+        {
+          "nivel": 4,
+          "titulo": "Regra Própria",
+          "linha": 338
+        },
+        {
+          "nivel": 2,
+          "titulo": "Fundamentos prontos",
+          "linha": 354
+        },
+        {
+          "nivel": 3,
+          "titulo": "Régua",
+          "linha": 360
+        },
+        {
+          "nivel": 3,
+          "titulo": "Sentença",
+          "linha": 373
+        },
+        {
+          "nivel": 3,
+          "titulo": "Banca",
+          "linha": 387
+        },
+        {
+          "nivel": 2,
+          "titulo": "Criando feitiços",
+          "linha": 401
+        },
+        {
+          "nivel": 3,
+          "titulo": "Teto de feitiços",
+          "linha": 405
+        },
+        {
+          "nivel": 3,
+          "titulo": "Passos",
+          "linha": 427
+        },
+        {
+          "nivel": 3,
+          "titulo": "Exemplo guiado: o primeiro feitiço da Régua",
+          "linha": 438
+        },
+        {
+          "nivel": 3,
+          "titulo": "Formas",
+          "linha": 472
+        },
+        {
+          "nivel": 4,
+          "titulo": "Base por Classe",
+          "linha": 496
+        },
+        {
+          "nivel": 3,
+          "titulo": "Escadas",
+          "linha": 513
+        },
+        {
+          "nivel": 3,
+          "titulo": "Ampliar",
+          "linha": 530
+        },
+        {
+          "nivel": 3,
+          "titulo": "Cura",
+          "linha": 545
+        },
+        {
+          "nivel": 3,
+          "titulo": "Controle",
+          "linha": 564
+        },
+        {
+          "nivel": 2,
+          "titulo": "Melhorias por família",
+          "linha": 589
+        },
+        {
+          "nivel": 3,
+          "titulo": "Alcance",
+          "linha": 595
+        },
+        {
+          "nivel": 3,
+          "titulo": "Área",
+          "linha": 612
+        },
+        {
+          "nivel": 3,
+          "titulo": "Mira",
+          "linha": 630
+        },
+        {
+          "nivel": 3,
+          "titulo": "Controle",
+          "linha": 648
+        },
+        {
+          "nivel": 3,
+          "titulo": "Condições",
+          "linha": 665
+        },
+        {
+          "nivel": 3,
+          "titulo": "Auxiliares",
+          "linha": 702
+        },
+        {
+          "nivel": 3,
+          "titulo": "Castigo",
+          "linha": 721
+        },
+        {
+          "nivel": 3,
+          "titulo": "Tempo",
+          "linha": 738
+        },
+        {
+          "nivel": 3,
+          "titulo": "Marca",
+          "linha": 769
+        },
+        {
+          "nivel": 3,
+          "titulo": "Amparo",
+          "linha": 786
+        },
+        {
+          "nivel": 3,
+          "titulo": "Fora de família",
+          "linha": 803
+        },
+        {
+          "nivel": 2,
+          "titulo": "Restrições",
+          "linha": 812
+        },
+        {
+          "nivel": 3,
+          "titulo": "Restrição Própria",
+          "linha": 842
+        },
+        {
+          "nivel": 3,
+          "titulo": "Combinações inviáveis",
+          "linha": 866
+        },
+        {
+          "nivel": 2,
+          "titulo": "Fora de combate",
+          "linha": 878
+        },
+        {
+          "nivel": 3,
+          "titulo": "Uso Livre",
+          "linha": 882
+        },
+        {
+          "nivel": 3,
+          "titulo": "Forma Efeito",
+          "linha": 910
+        },
+        {
+          "nivel": 2,
+          "titulo": "Liberação Máxima",
+          "linha": 937
+        },
+        {
+          "nivel": 2,
+          "titulo": "Técnica Máxima",
+          "linha": 962
+        },
+        {
+          "nivel": 3,
+          "titulo": "Montagem",
+          "linha": 980
+        },
+        {
+          "nivel": 2,
+          "titulo": "Expandindo o seu Domínio",
+          "linha": 998
+        },
+        {
+          "nivel": 3,
+          "titulo": "Degraus",
+          "linha": 1008
+        },
+        {
+          "nivel": 3,
+          "titulo": "Acerto e Efeito",
+          "linha": 1027
+        },
+        {
+          "nivel": 3,
+          "titulo": "Abrir o Domínio",
+          "linha": 1044
+        },
+        {
+          "nivel": 3,
+          "titulo": "Barreira e Rescaldo",
+          "linha": 1068
+        },
+        {
+          "nivel": 3,
+          "titulo": "Abrir sem barreira",
+          "linha": 1080
+        },
+        {
+          "nivel": 3,
+          "titulo": "Domínios da obra",
+          "linha": 1096
+        },
+        {
+          "nivel": 3,
+          "titulo": "Domínios sobrepostos",
+          "linha": 1117
+        },
+        {
+          "nivel": 2,
+          "titulo": "Regras de ouro",
+          "linha": 1176
+        },
+        {
+          "nivel": 2,
+          "titulo": "Progressão",
+          "linha": 1194
+        },
+        {
+          "nivel": 2,
+          "titulo": "Feitiços prontos",
+          "linha": 1222
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe 1 · 3 pontos · 3 PE",
+          "linha": 1226
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe 2 · 6 pontos · 6 PE",
+          "linha": 1238
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe 3 · 9 pontos · 9 PE",
+          "linha": 1251
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe 4 · 12 pontos · 12 PE",
+          "linha": 1266
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe 5 · 15 pontos · 15 PE",
+          "linha": 1281
+        },
+        {
+          "nivel": 3,
+          "titulo": "Liberações Máximas",
+          "linha": 1296
+        },
+        {
+          "nivel": 3,
+          "titulo": "Técnicas Máximas",
+          "linha": 1311
+        },
+        {
+          "nivel": 2,
+          "titulo": "Apêndice",
+          "linha": 1323
+        },
+        {
+          "nivel": 3,
+          "titulo": "Ficha de feitiço",
+          "linha": 1327
+        },
+        {
+          "nivel": 3,
+          "titulo": "Catálogo de temas",
+          "linha": 1345
+        }
+      ],
+      "capitulo_atual": 9,
+      "destinos_propostos": "7, 11, 12, 13 e referências",
+      "operacao_proposta": "Separar procedimento, catálogo e recursos avançados. Progressão só repete a regra com dono e conferência."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+      "bytes": 11558,
+      "palavras": 1813,
+      "titulos": 23,
+      "tabelas": 5,
+      "sha256": "d3dcdd307d4542219d8f279a6f7f32da04ae4edc953872e312a4e410911042e5",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Técnica Marcial",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Máquina herdada",
+          "linha": 9
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Kata`",
+          "linha": 15
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Ruptura`",
+          "linha": 19
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Ōgi`",
+          "linha": 25
+        },
+        {
+          "nivel": 3,
+          "titulo": "Selo e Expansão de Domínio",
+          "linha": 31
+        },
+        {
+          "nivel": 2,
+          "titulo": "Rotas",
+          "linha": 39
+        },
+        {
+          "nivel": 3,
+          "titulo": "Rota de arma",
+          "linha": 43
+        },
+        {
+          "nivel": 4,
+          "titulo": "Limites",
+          "linha": 50
+        },
+        {
+          "nivel": 4,
+          "titulo": "Atributo",
+          "linha": 58
+        },
+        {
+          "nivel": 3,
+          "titulo": "Rota de ferramenta",
+          "linha": 74
+        },
+        {
+          "nivel": 2,
+          "titulo": "Selo",
+          "linha": 88
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ferir maldição",
+          "linha": 102
+        },
+        {
+          "nivel": 2,
+          "titulo": "Passivas",
+          "linha": 123
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Calo`",
+          "linha": 131
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Maldição do Inventário`",
+          "linha": 139
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Leitura`",
+          "linha": 154
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Segundo Fôlego`",
+          "linha": 162
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Contragolpe`",
+          "linha": 172
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Aliança`",
+          "linha": 182
+        },
+        {
+          "nivel": 2,
+          "titulo": "Técnicas Marciais prontas",
+          "linha": 192
+        },
+        {
+          "nivel": 3,
+          "titulo": "Fisga",
+          "linha": 194
+        },
+        {
+          "nivel": 3,
+          "titulo": "Bancada",
+          "linha": 210
+        }
+      ],
+      "capitulo_atual": 10,
+      "destinos_propostos": "14",
+      "operacao_proposta": "Manter a transformação do procedimento comum; atualizar os destinos após a divisão do Fundamento."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+      "bytes": 8623,
+      "palavras": 1468,
+      "titulos": 16,
+      "tabelas": 3,
+      "sha256": "bf4296c61b167717bffc98459ba26bce8c1b0a46fc8de1230df833486b8c70b7",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Sem Técnica",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Máquina herdada",
+          "linha": 11
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Manejo`",
+          "linha": 17
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Auge`",
+          "linha": 23
+        },
+        {
+          "nivel": 3,
+          "titulo": "Liberação Máxima",
+          "linha": 29
+        },
+        {
+          "nivel": 3,
+          "titulo": "Expansão de Domínio",
+          "linha": 35
+        },
+        {
+          "nivel": 2,
+          "titulo": "Semente",
+          "linha": 43
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Domínio Simples`",
+          "linha": 62
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Energia Reversa`",
+          "linha": 70
+        },
+        {
+          "nivel": 3,
+          "titulo": "Aptidão própria",
+          "linha": 76
+        },
+        {
+          "nivel": 2,
+          "titulo": "Regra",
+          "linha": 82
+        },
+        {
+          "nivel": 2,
+          "titulo": "Cura",
+          "linha": 93
+        },
+        {
+          "nivel": 2,
+          "titulo": "Passivas",
+          "linha": 101
+        },
+        {
+          "nivel": 2,
+          "titulo": "Fundamentos prontos",
+          "linha": 107
+        },
+        {
+          "nivel": 3,
+          "titulo": "Redoma",
+          "linha": 111
+        },
+        {
+          "nivel": 3,
+          "titulo": "Sutura Fria",
+          "linha": 126
+        }
+      ],
+      "capitulo_atual": 11,
+      "destinos_propostos": "15",
+      "operacao_proposta": "Manter acesso e adaptações; distinguir esta rota da ausência de energia."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/45-aptidoes-e-refino.md",
+      "bytes": 27459,
+      "palavras": 4640,
+      "titulos": 32,
+      "tabelas": 9,
+      "sha256": "8cde6375fbe213fb3ee23cd62ff3fb94660fa90b9c4bec5013dd2d4ef66e6be2",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Aptidões e Refino",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Refino",
+          "linha": 11
+        },
+        {
+          "nivel": 3,
+          "titulo": "Efeito do refino",
+          "linha": 37
+        },
+        {
+          "nivel": 2,
+          "titulo": "Marco",
+          "linha": 58
+        },
+        {
+          "nivel": 2,
+          "titulo": "Aptidões",
+          "linha": 82
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe Passiva",
+          "linha": 90
+        },
+        {
+          "nivel": 3,
+          "titulo": "Requisito",
+          "linha": 98
+        },
+        {
+          "nivel": 2,
+          "titulo": "Catálogo",
+          "linha": 104
+        },
+        {
+          "nivel": 3,
+          "titulo": "Como uma aptidão funciona",
+          "linha": 106
+        },
+        {
+          "nivel": 2,
+          "titulo": "Aptidões de graça",
+          "linha": 133
+        },
+        {
+          "nivel": 3,
+          "titulo": "Cobrir-se de energia",
+          "linha": 137
+        },
+        {
+          "nivel": 3,
+          "titulo": "Canalizar energia",
+          "linha": 147
+        },
+        {
+          "nivel": 2,
+          "titulo": "Energia crua",
+          "linha": 161
+        },
+        {
+          "nivel": 3,
+          "titulo": "Projetar energia",
+          "linha": 163
+        },
+        {
+          "nivel": 3,
+          "titulo": "Energia Reversa",
+          "linha": 171
+        },
+        {
+          "nivel": 3,
+          "titulo": "Circulação",
+          "linha": 181
+        },
+        {
+          "nivel": 3,
+          "titulo": "Regravação",
+          "linha": 201
+        },
+        {
+          "nivel": 2,
+          "titulo": "Aptidões de kokusen",
+          "linha": 215
+        },
+        {
+          "nivel": 3,
+          "titulo": "Kokusen",
+          "linha": 217
+        },
+        {
+          "nivel": 3,
+          "titulo": "Kokusen Melhorado",
+          "linha": 229
+        },
+        {
+          "nivel": 3,
+          "titulo": "Kokusen Constante",
+          "linha": 235
+        },
+        {
+          "nivel": 2,
+          "titulo": "Aptidões anti-domínio, e a `Extensão de Domínio`",
+          "linha": 241
+        },
+        {
+          "nivel": 3,
+          "titulo": "Cesta Oca de Vime",
+          "linha": 261
+        },
+        {
+          "nivel": 3,
+          "titulo": "Domínio Simples",
+          "linha": 273
+        },
+        {
+          "nivel": 3,
+          "titulo": "Pétala",
+          "linha": 301
+        },
+        {
+          "nivel": 3,
+          "titulo": "Extensão de Domínio",
+          "linha": 324
+        },
+        {
+          "nivel": 2,
+          "titulo": "Aptidões de barreira",
+          "linha": 336
+        },
+        {
+          "nivel": 3,
+          "titulo": "Barreira Simples",
+          "linha": 340
+        },
+        {
+          "nivel": 3,
+          "titulo": "Cortina",
+          "linha": 348
+        },
+        {
+          "nivel": 2,
+          "titulo": "Escrever uma aptidão",
+          "linha": 366
+        },
+        {
+          "nivel": 3,
+          "titulo": "Aptidão Própria",
+          "linha": 368
+        },
+        {
+          "nivel": 2,
+          "titulo": "Expansão de Domínio",
+          "linha": 414
+        }
+      ],
+      "capitulo_atual": 12,
+      "destinos_propostos": "10",
+      "operacao_proposta": "Mover inteiro; revisar pontes para Passivas, progressão e poderes avançados, sem tornar capítulos pré-requisitos."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/46-ritual.md",
+      "bytes": 8119,
+      "palavras": 1342,
+      "titulos": 11,
+      "tabelas": 4,
+      "sha256": "c959df9447db7434376a36355f78c8c29d2ac6de965d6d9e71aaa3153c39d360",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Ritual",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Pontos de Ritual",
+          "linha": 11
+        },
+        {
+          "nivel": 2,
+          "titulo": "Teste de Ocultismo",
+          "linha": 28
+        },
+        {
+          "nivel": 3,
+          "titulo": "Falha no ritual",
+          "linha": 47
+        },
+        {
+          "nivel": 2,
+          "titulo": "Melhorias de Ritual",
+          "linha": 53
+        },
+        {
+          "nivel": 3,
+          "titulo": "Restrição desfeita pelo ritual",
+          "linha": 79
+        },
+        {
+          "nivel": 2,
+          "titulo": "Melhorias por Forma",
+          "linha": 88
+        },
+        {
+          "nivel": 2,
+          "titulo": "Liberação Máxima e ritual",
+          "linha": 103
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ritual em dupla",
+          "linha": 111
+        },
+        {
+          "nivel": 2,
+          "titulo": "Acesso",
+          "linha": 119
+        },
+        {
+          "nivel": 2,
+          "titulo": "Exemplo",
+          "linha": 125
+        }
+      ],
+      "capitulo_atual": 13,
+      "destinos_propostos": "17",
+      "operacao_proposta": "Mover inteiro; manter acesso e exclusões já decididos."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+      "bytes": 12143,
+      "palavras": 1904,
+      "titulos": 27,
+      "tabelas": 1,
+      "sha256": "c400089ab383f8368f66801f4a6004092929a26c3dba2f76ea9af90c8bce446d",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Bênçãos e Lapidação",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Lapidação",
+          "linha": 7
+        },
+        {
+          "nivel": 2,
+          "titulo": "Marco",
+          "linha": 21
+        },
+        {
+          "nivel": 2,
+          "titulo": "Bênçãos",
+          "linha": 38
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe Passiva",
+          "linha": 42
+        },
+        {
+          "nivel": 3,
+          "titulo": "Requisito",
+          "linha": 50
+        },
+        {
+          "nivel": 2,
+          "titulo": "Catálogo",
+          "linha": 56
+        },
+        {
+          "nivel": 3,
+          "titulo": "Como funciona uma Bênção",
+          "linha": 58
+        },
+        {
+          "nivel": 2,
+          "titulo": "Bênçãos de graça",
+          "linha": 84
+        },
+        {
+          "nivel": 3,
+          "titulo": "Defesa sem Armadura",
+          "linha": 88
+        },
+        {
+          "nivel": 3,
+          "titulo": "Estímulo Muscular",
+          "linha": 109
+        },
+        {
+          "nivel": 2,
+          "titulo": "Bênçãos de corpo",
+          "linha": 125
+        },
+        {
+          "nivel": 3,
+          "titulo": "Ímpeto",
+          "linha": 127
+        },
+        {
+          "nivel": 3,
+          "titulo": "Casco",
+          "linha": 135
+        },
+        {
+          "nivel": 3,
+          "titulo": "Presilha",
+          "linha": 141
+        },
+        {
+          "nivel": 3,
+          "titulo": "Vigília",
+          "linha": 147
+        },
+        {
+          "nivel": 3,
+          "titulo": "Esteio",
+          "linha": 157
+        },
+        {
+          "nivel": 2,
+          "titulo": "Bênçãos de perseguição",
+          "linha": 165
+        },
+        {
+          "nivel": 3,
+          "titulo": "Faro",
+          "linha": 167
+        },
+        {
+          "nivel": 3,
+          "titulo": "Sem Pegada",
+          "linha": 175
+        },
+        {
+          "nivel": 2,
+          "titulo": "Bênçãos de combate",
+          "linha": 183
+        },
+        {
+          "nivel": 3,
+          "titulo": "Vulto",
+          "linha": 185
+        },
+        {
+          "nivel": 3,
+          "titulo": "Antecipar",
+          "linha": 191
+        },
+        {
+          "nivel": 3,
+          "titulo": "Campo",
+          "linha": 197
+        },
+        {
+          "nivel": 3,
+          "titulo": "Assombro",
+          "linha": 203
+        },
+        {
+          "nivel": 2,
+          "titulo": "Escrever uma Bênção",
+          "linha": 213
+        },
+        {
+          "nivel": 3,
+          "titulo": "Bênção Própria",
+          "linha": 215
+        }
+      ],
+      "capitulo_atual": 14,
+      "destinos_propostos": "16",
+      "operacao_proposta": "Mover inteiro; revisar a correspondência com Refino e a rota sem energia."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/50-equipamento.md",
+      "bytes": 24435,
+      "palavras": 3704,
+      "titulos": 37,
+      "tabelas": 17,
+      "sha256": "5224d4e5a06ac1b4ce623370d16aa2853dc0984648855ec5694c13cbd6ba8991",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Equipamento",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Proteção",
+          "linha": 5
+        },
+        {
+          "nivel": 3,
+          "titulo": "Como ler as tabelas de proteção",
+          "linha": 11
+        },
+        {
+          "nivel": 3,
+          "titulo": "Traje",
+          "linha": 21
+        },
+        {
+          "nivel": 4,
+          "titulo": "Situação do Traje",
+          "linha": 36
+        },
+        {
+          "nivel": 3,
+          "titulo": "Revestimento",
+          "linha": 64
+        },
+        {
+          "nivel": 4,
+          "titulo": "Uniforme e energia amaldiçoada",
+          "linha": 77
+        },
+        {
+          "nivel": 2,
+          "titulo": "Escudo",
+          "linha": 83
+        },
+        {
+          "nivel": 2,
+          "titulo": "Armas",
+          "linha": 99
+        },
+        {
+          "nivel": 3,
+          "titulo": "Como ler uma arma",
+          "linha": 105
+        },
+        {
+          "nivel": 3,
+          "titulo": "Propriedades",
+          "linha": 118
+        },
+        {
+          "nivel": 3,
+          "titulo": "Restrições",
+          "linha": 138
+        },
+        {
+          "nivel": 3,
+          "titulo": "Alcance no corpo a corpo",
+          "linha": 153
+        },
+        {
+          "nivel": 3,
+          "titulo": "Faixa de projétil",
+          "linha": 157
+        },
+        {
+          "nivel": 3,
+          "titulo": "Munição",
+          "linha": 193
+        },
+        {
+          "nivel": 2,
+          "titulo": "Treino de arma",
+          "linha": 211
+        },
+        {
+          "nivel": 2,
+          "titulo": "Catálogo",
+          "linha": 236
+        },
+        {
+          "nivel": 3,
+          "titulo": "Armas por treino",
+          "linha": 238
+        },
+        {
+          "nivel": 3,
+          "titulo": "Lâmina Curta",
+          "linha": 301
+        },
+        {
+          "nivel": 3,
+          "titulo": "Lâmina Longa",
+          "linha": 305
+        },
+        {
+          "nivel": 3,
+          "titulo": "Massa",
+          "linha": 311
+        },
+        {
+          "nivel": 3,
+          "titulo": "Porrete",
+          "linha": 315
+        },
+        {
+          "nivel": 3,
+          "titulo": "Manopla",
+          "linha": 319
+        },
+        {
+          "nivel": 3,
+          "titulo": "Machado",
+          "linha": 325
+        },
+        {
+          "nivel": 3,
+          "titulo": "Ceifa",
+          "linha": 331
+        },
+        {
+          "nivel": 3,
+          "titulo": "Armas Longas",
+          "linha": 335
+        },
+        {
+          "nivel": 3,
+          "titulo": "Flexível",
+          "linha": 339
+        },
+        {
+          "nivel": 3,
+          "titulo": "Arremesso",
+          "linha": 343
+        },
+        {
+          "nivel": 3,
+          "titulo": "Yumi",
+          "linha": 347
+        },
+        {
+          "nivel": 3,
+          "titulo": "Balestra",
+          "linha": 353
+        },
+        {
+          "nivel": 3,
+          "titulo": "Arma de Fogo",
+          "linha": 357
+        },
+        {
+          "nivel": 2,
+          "titulo": "Soco",
+          "linha": 363
+        },
+        {
+          "nivel": 2,
+          "titulo": "Peso",
+          "linha": 380
+        },
+        {
+          "nivel": 3,
+          "titulo": "Peso item a item",
+          "linha": 390
+        },
+        {
+          "nivel": 2,
+          "titulo": "Dinheiro e acesso",
+          "linha": 411
+        },
+        {
+          "nivel": 3,
+          "titulo": "Preços",
+          "linha": 423
+        },
+        {
+          "nivel": 3,
+          "titulo": "Kit inicial",
+          "linha": 493
+        }
+      ],
+      "capitulo_atual": 15,
+      "destinos_propostos": "6",
+      "operacao_proposta": "Primeira parte do capítulo: equipamento comum, compra, uso e carga."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/55-ferramenta-amaldicoada.md",
+      "bytes": 8457,
+      "palavras": 1347,
+      "titulos": 19,
+      "tabelas": 4,
+      "sha256": "4e25e19f0c616769cfc93fd5f6a7d4eae1775e119aa10b5b3fe519366c6bd702",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Ferramenta Amaldiçoada",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Na mão ou no corpo",
+          "linha": 10
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ferramenta forjada",
+          "linha": 20
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ferramenta, objeto, cadáver e maldição solta",
+          "linha": 26
+        },
+        {
+          "nivel": 2,
+          "titulo": "Objeto amaldiçoado",
+          "linha": 40
+        },
+        {
+          "nivel": 3,
+          "titulo": "Atração",
+          "linha": 46
+        },
+        {
+          "nivel": 3,
+          "titulo": "Selo",
+          "linha": 52
+        },
+        {
+          "nivel": 3,
+          "titulo": "`Kiko`",
+          "linha": 62
+        },
+        {
+          "nivel": 3,
+          "titulo": "Encarnação",
+          "linha": 66
+        },
+        {
+          "nivel": 2,
+          "titulo": "Grau",
+          "linha": 79
+        },
+        {
+          "nivel": 3,
+          "titulo": "Grau 4",
+          "linha": 96
+        },
+        {
+          "nivel": 3,
+          "titulo": "Grau 1 e especial",
+          "linha": 100
+        },
+        {
+          "nivel": 3,
+          "titulo": "Grau e patente",
+          "linha": 106
+        },
+        {
+          "nivel": 2,
+          "titulo": "`Desgaste`",
+          "linha": 112
+        },
+        {
+          "nivel": 2,
+          "titulo": "Catálogo de `Estigma`",
+          "linha": 139
+        },
+        {
+          "nivel": 3,
+          "titulo": "Entrada",
+          "linha": 143
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe 1 · grau 3 · sem nível mínimo",
+          "linha": 147
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe 2 · grau 2 · nível 7",
+          "linha": 157
+        },
+        {
+          "nivel": 3,
+          "titulo": "Classe 3 · grau 1 e especial · nível 13",
+          "linha": 163
+        }
+      ],
+      "capitulo_atual": 16,
+      "destinos_propostos": "6",
+      "operacao_proposta": "Segunda parte, demarcada: ferramentas, objetos, graus e Estigmas."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "bytes": 100686,
+      "palavras": 16371,
+      "titulos": 62,
+      "tabelas": 26,
+      "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Invocações",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Entrada rápida",
+          "linha": 13
+        },
+        {
+          "nivel": 2,
+          "titulo": "Aquisição",
+          "linha": 41
+        },
+        {
+          "nivel": 3,
+          "titulo": "Domar",
+          "linha": 57
+        },
+        {
+          "nivel": 2,
+          "titulo": "Montagem da entidade",
+          "linha": 67
+        },
+        {
+          "nivel": 3,
+          "titulo": "Definição",
+          "linha": 73
+        },
+        {
+          "nivel": 3,
+          "titulo": "Famílias",
+          "linha": 81
+        },
+        {
+          "nivel": 3,
+          "titulo": "Básica e especial",
+          "linha": 106
+        },
+        {
+          "nivel": 3,
+          "titulo": "Espaços e passivas",
+          "linha": 133
+        },
+        {
+          "nivel": 3,
+          "titulo": "Progressão",
+          "linha": 143
+        },
+        {
+          "nivel": 3,
+          "titulo": "Montagem da habilidade",
+          "linha": 149
+        },
+        {
+          "nivel": 3,
+          "titulo": "Formas",
+          "linha": 176
+        },
+        {
+          "nivel": 3,
+          "titulo": "Catálogo de Melhorias",
+          "linha": 242
+        },
+        {
+          "nivel": 3,
+          "titulo": "Restrições",
+          "linha": 425
+        },
+        {
+          "nivel": 3,
+          "titulo": "Escolha das passivas",
+          "linha": 466
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ficha da entidade",
+          "linha": 495
+        },
+        {
+          "nivel": 3,
+          "titulo": "Traje e Revestimento",
+          "linha": 519
+        },
+        {
+          "nivel": 2,
+          "titulo": "Exemplo de montagem",
+          "linha": 529
+        },
+        {
+          "nivel": 2,
+          "titulo": "Entidade em campo",
+          "linha": 555
+        },
+        {
+          "nivel": 3,
+          "titulo": "Recursos e ciclo",
+          "linha": 557
+        },
+        {
+          "nivel": 3,
+          "titulo": "Entrada e recolhimento",
+          "linha": 577
+        },
+        {
+          "nivel": 3,
+          "titulo": "Troca",
+          "linha": 597
+        },
+        {
+          "nivel": 3,
+          "titulo": "Retorno e reserva",
+          "linha": 617
+        },
+        {
+          "nivel": 2,
+          "titulo": "Intenção",
+          "linha": 629
+        },
+        {
+          "nivel": 3,
+          "titulo": "Redirecionamento",
+          "linha": 637
+        },
+        {
+          "nivel": 3,
+          "titulo": "Impedimento e tarefa concluída",
+          "linha": 645
+        },
+        {
+          "nivel": 3,
+          "titulo": "Comunicação",
+          "linha": 655
+        },
+        {
+          "nivel": 2,
+          "titulo": "Básica e limite de ataques",
+          "linha": 671
+        },
+        {
+          "nivel": 3,
+          "titulo": "Ações comuns",
+          "linha": 683
+        },
+        {
+          "nivel": 2,
+          "titulo": "Especial",
+          "linha": 697
+        },
+        {
+          "nivel": 3,
+          "titulo": "Energia",
+          "linha": 707
+        },
+        {
+          "nivel": 3,
+          "titulo": "Ordem antecipada",
+          "linha": 721
+        },
+        {
+          "nivel": 3,
+          "titulo": "Ordens pendentes",
+          "linha": 751
+        },
+        {
+          "nivel": 2,
+          "titulo": "Preparar",
+          "linha": 763
+        },
+        {
+          "nivel": 3,
+          "titulo": "Especial preparada",
+          "linha": 775
+        },
+        {
+          "nivel": 3,
+          "titulo": "Cruzamento e movimento",
+          "linha": 791
+        },
+        {
+          "nivel": 3,
+          "titulo": "Mudança de modalidade",
+          "linha": 799
+        },
+        {
+          "nivel": 2,
+          "titulo": "Movimento e defesa",
+          "linha": 807
+        },
+        {
+          "nivel": 3,
+          "titulo": "Reação coletiva",
+          "linha": 811
+        },
+        {
+          "nivel": 3,
+          "titulo": "Bloquear",
+          "linha": 819
+        },
+        {
+          "nivel": 3,
+          "titulo": "Esquivar e condições",
+          "linha": 827
+        },
+        {
+          "nivel": 3,
+          "titulo": "Respostas do Guia",
+          "linha": 839
+        },
+        {
+          "nivel": 2,
+          "titulo": "Talismã",
+          "linha": 857
+        },
+        {
+          "nivel": 2,
+          "titulo": "Corpo amaldiçoado",
+          "linha": 871
+        },
+        {
+          "nivel": 3,
+          "titulo": "Modo inativo",
+          "linha": 875
+        },
+        {
+          "nivel": 3,
+          "titulo": "Imunidades e cura",
+          "linha": 887
+        },
+        {
+          "nivel": 3,
+          "titulo": "Reparo",
+          "linha": 895
+        },
+        {
+          "nivel": 2,
+          "titulo": "Trunfos da domada",
+          "linha": 905
+        },
+        {
+          "nivel": 3,
+          "titulo": "Liberação Máxima",
+          "linha": 929
+        },
+        {
+          "nivel": 3,
+          "titulo": "Técnica Máxima",
+          "linha": 941
+        },
+        {
+          "nivel": 3,
+          "titulo": "Expansão de Domínio",
+          "linha": 949
+        },
+        {
+          "nivel": 2,
+          "titulo": "Queda e morte",
+          "linha": 983
+        },
+        {
+          "nivel": 3,
+          "titulo": "Morte definitiva",
+          "linha": 987
+        },
+        {
+          "nivel": 3,
+          "titulo": "Queda sem destruição",
+          "linha": 999
+        },
+        {
+          "nivel": 3,
+          "titulo": "Volta",
+          "linha": 1009
+        },
+        {
+          "nivel": 3,
+          "titulo": "Desligada",
+          "linha": 1017
+        },
+        {
+          "nivel": 2,
+          "titulo": "Efeitos fora de campo",
+          "linha": 1029
+        },
+        {
+          "nivel": 2,
+          "titulo": "Invocador inconsciente",
+          "linha": 1043
+        },
+        {
+          "nivel": 3,
+          "titulo": "Manutenção",
+          "linha": 1055
+        },
+        {
+          "nivel": 2,
+          "titulo": "Morte do invocador",
+          "linha": 1065
+        },
+        {
+          "nivel": 2,
+          "titulo": "Carga e equipamento",
+          "linha": 1081
+        },
+        {
+          "nivel": 3,
+          "titulo": "Saída com equipamento",
+          "linha": 1091
+        }
+      ],
+      "capitulo_atual": 17,
+      "destinos_propostos": "19 e 20",
+      "operacao_proposta": "Separar operação em campo e construção. Preservar os custos reduzidos e exceções próprios das entidades."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/65-pactos.md",
+      "bytes": 9221,
+      "palavras": 1501,
+      "titulos": 15,
+      "tabelas": 6,
+      "sha256": "2ed3c22e4e5a8b7bd3760ad74e6b1fb1ef6b36452d14f9e411a69ee8d1a6950d",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Pactos",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Formas de pacto",
+          "linha": 7
+        },
+        {
+          "nivel": 3,
+          "titulo": "Câmbio",
+          "linha": 21
+        },
+        {
+          "nivel": 2,
+          "titulo": "Pacto permanente",
+          "linha": 29
+        },
+        {
+          "nivel": 3,
+          "titulo": "Características de um pacto permanente",
+          "linha": 49
+        },
+        {
+          "nivel": 3,
+          "titulo": "Limites",
+          "linha": 65
+        },
+        {
+          "nivel": 2,
+          "titulo": "Pacto temporário",
+          "linha": 71
+        },
+        {
+          "nivel": 2,
+          "titulo": "Promessa",
+          "linha": 79
+        },
+        {
+          "nivel": 3,
+          "titulo": "Termos de uma Promessa",
+          "linha": 87
+        },
+        {
+          "nivel": 3,
+          "titulo": "Quebrar uma Promessa",
+          "linha": 98
+        },
+        {
+          "nivel": 2,
+          "titulo": "Pacto de restrição",
+          "linha": 104
+        },
+        {
+          "nivel": 2,
+          "titulo": "Catálogo",
+          "linha": 114
+        },
+        {
+          "nivel": 3,
+          "titulo": "Pactos da obra",
+          "linha": 116
+        },
+        {
+          "nivel": 3,
+          "titulo": "Ideias de restrição",
+          "linha": 132
+        },
+        {
+          "nivel": 2,
+          "titulo": "Pactos na criação",
+          "linha": 150
+        }
+      ],
+      "capitulo_atual": 18,
+      "destinos_propostos": "18",
+      "operacao_proposta": "Mover inteiro; preservar todas as formas de pacto."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md",
+      "bytes": 7156,
+      "palavras": 1126,
+      "titulos": 14,
+      "tabelas": 5,
+      "sha256": "4efd5d5ec7cceef4f3840d2b2f19be777cf01ab7b5081e309f44b1abbc919dc0",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Descanso e Recuperação",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Cena",
+          "linha": 11
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ambiente propício",
+          "linha": 15
+        },
+        {
+          "nivel": 2,
+          "titulo": "Recuperação",
+          "linha": 31
+        },
+        {
+          "nivel": 3,
+          "titulo": "PE",
+          "linha": 35
+        },
+        {
+          "nivel": 3,
+          "titulo": "Descanso curto",
+          "linha": 39
+        },
+        {
+          "nivel": 3,
+          "titulo": "Descanso longo",
+          "linha": 56
+        },
+        {
+          "nivel": 2,
+          "titulo": "Exaustão",
+          "linha": 76
+        },
+        {
+          "nivel": 3,
+          "titulo": "Contagem de luta",
+          "linha": 80
+        },
+        {
+          "nivel": 3,
+          "titulo": "Degraus",
+          "linha": 94
+        },
+        {
+          "nivel": 3,
+          "titulo": "Exaustão e Integridade ao mesmo tempo",
+          "linha": 110
+        },
+        {
+          "nivel": 3,
+          "titulo": "Teto",
+          "linha": 127
+        },
+        {
+          "nivel": 2,
+          "titulo": "Relógios",
+          "linha": 135
+        },
+        {
+          "nivel": 2,
+          "titulo": "Exemplo",
+          "linha": 149
+        }
+      ],
+      "capitulo_atual": 5,
+      "destinos_propostos": "9",
+      "operacao_proposta": "Reunir descanso, recuperação e reparo com suas consequências e estados."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+      "bytes": 19450,
+      "palavras": 3340,
+      "titulos": 20,
+      "tabelas": 11,
+      "sha256": "11943325cbd9887c2fb6d312df0ec52f70eab50440d9f9bb12a080a9d2e8e24e",
+      "estrutura": [
+        {
+          "nivel": 1,
+          "titulo": "Experiência e Progressão",
+          "linha": 1
+        },
+        {
+          "nivel": 2,
+          "titulo": "Curva de XP",
+          "linha": 21
+        },
+        {
+          "nivel": 2,
+          "titulo": "Tamanho da missão",
+          "linha": 42
+        },
+        {
+          "nivel": 2,
+          "titulo": "Ritmo de subida",
+          "linha": 58
+        },
+        {
+          "nivel": 2,
+          "titulo": "Desconto da semana",
+          "linha": 75
+        },
+        {
+          "nivel": 2,
+          "titulo": "Tempo de campanha",
+          "linha": 92
+        },
+        {
+          "nivel": 2,
+          "titulo": "Acelerar o ritmo do seu servidor",
+          "linha": 111
+        },
+        {
+          "nivel": 2,
+          "titulo": "Distância entre quem joga muito e quem joga pouco",
+          "linha": 137
+        },
+        {
+          "nivel": 2,
+          "titulo": "Falhar",
+          "linha": 160
+        },
+        {
+          "nivel": 2,
+          "titulo": "XP de quem mestra",
+          "linha": 166
+        },
+        {
+          "nivel": 2,
+          "titulo": "Salário",
+          "linha": 176
+        },
+        {
+          "nivel": 2,
+          "titulo": "Limiar do nível 20",
+          "linha": 199
+        },
+        {
+          "nivel": 2,
+          "titulo": "Operação na mesa",
+          "linha": 225
+        },
+        {
+          "nivel": 2,
+          "titulo": "Progressão por nível",
+          "linha": 235
+        },
+        {
+          "nivel": 3,
+          "titulo": "Colunas de progressão",
+          "linha": 277
+        },
+        {
+          "nivel": 3,
+          "titulo": "Feitiços por nível",
+          "linha": 287
+        },
+        {
+          "nivel": 3,
+          "titulo": "Vida e PE",
+          "linha": 295
+        },
+        {
+          "nivel": 2,
+          "titulo": "Marcos",
+          "linha": 303
+        },
+        {
+          "nivel": 3,
+          "titulo": "Maestria",
+          "linha": 324
+        },
+        {
+          "nivel": 3,
+          "titulo": "Teto de Passivas",
+          "linha": 337
+        }
+      ],
+      "capitulo_atual": 19,
+      "destinos_propostos": "7",
+      "operacao_proposta": "Mover progressão; separar regra do personagem de recomendação administrativa, preservando acesso ao que o jogador precisa."
+    }
+  ],
+  "artefatos_publicados": [
+    {
+      "arquivo": "sistema/05-material/livro/Projeto-M-Manual-da-Guilda-A-atual.pdf",
+      "bytes": 1365491,
+      "sha256": "b17864e0559e2cae386cb2eec56159664676ceea977bf22244dd7200bcdd8aed"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/Projeto-M-Manual-da-Guilda-C-duas-colunas.pdf",
+      "bytes": 3587327,
+      "sha256": "776afeddb230c0af462f9027552274c2181c0b2d4167b8fb6c28b63ca8a3e3d0"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/Projeto-M-Manual-da-Guilda-REVISAO.docx",
+      "bytes": 309117,
+      "sha256": "3e4ad62343fc64395133fd718d9e7b35ec2b2b8a888d17625b71c08c6ade4e1d"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/Projeto-M-Manual-da-Guilda-TEXTO.md",
+      "bytes": 688820,
+      "sha256": "e69ac355d31c456393f2c2089aefa7bad8a0f5969886d5e432579c44c68387f7"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/Projeto-M-Manual-da-Guilda.pdf",
+      "bytes": 3657700,
+      "sha256": "22396617ba54f36556777d42d1acec1ddcf216a1eeac9104e218c4cd98cbaa10"
+    }
+  ]
+}

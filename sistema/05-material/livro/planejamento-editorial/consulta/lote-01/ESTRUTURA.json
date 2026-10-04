@@ -1,0 +1,155 @@
+{
+  "ordem": [
+    "consulta-glossario-1",
+    "consulta-glossario-2",
+    "consulta-glossario-3",
+    "consulta-glossario-4",
+    "consulta-glossario-5",
+    "consulta-glossario-6",
+    "consulta-testes",
+    "consulta-ataques",
+    "consulta-entidades",
+    "consulta-ficha-personagem",
+    "consulta-ficha-repertorio",
+    "consulta-ficha-feitico",
+    "consulta-ficha-entidade",
+    "consulta-ficha-entidade-capacidades",
+    "consulta-ficha-recuperacao",
+    "consulta-registro-missao",
+    "consulta-missao",
+    "consulta-conduzir",
+    "consulta-referencias",
+    "consulta-indice-1",
+    "consulta-indice-2",
+    "consulta-indice-3",
+    "consulta-indice-4",
+    "consulta-indice-5",
+    "consulta-indice-6",
+    "consulta-indice-7",
+    "consulta-indice-8",
+    "consulta-indice-9",
+    "consulta-indice-10",
+    "consulta-indice-11"
+  ],
+  "titulos": {
+    "consulta-glossario-1": "Glossário: Ação a Carga",
+    "consulta-glossario-2": "Glossário: Categoria a Espaço",
+    "consulta-glossario-3": "Glossário: Especial a Invocação",
+    "consulta-glossario-4": "Glossário: Invocador a Pacto",
+    "consulta-glossario-5": "Glossário: Patente a Selo",
+    "consulta-glossario-6": "Glossário: Sem a Volume",
+    "consulta-testes": "Testes na mesa",
+    "consulta-ataques": "Ataques e efeitos",
+    "consulta-entidades": "Entidades na mesa",
+    "consulta-ficha-personagem": "Ficha de personagem",
+    "consulta-ficha-repertorio": "Repertório e inventário",
+    "consulta-ficha-feitico": "Ficha de aplicação",
+    "consulta-ficha-entidade": "Ficha de entidade",
+    "consulta-ficha-entidade-capacidades": "Ficha de capacidades da entidade",
+    "consulta-ficha-recuperacao": "Ficha de recuperação",
+    "consulta-registro-missao": "Registro de missão",
+    "consulta-missao": "Preparar uma missão",
+    "consulta-conduzir": "Mestrar uma sessão",
+    "consulta-referencias": "Referências e adaptação",
+    "consulta-indice-1": "Índice: A",
+    "consulta-indice-2": "Índice: A–C",
+    "consulta-indice-3": "Índice: C–D",
+    "consulta-indice-4": "Índice: D–E",
+    "consulta-indice-5": "Índice: E–G",
+    "consulta-indice-6": "Índice: G–L",
+    "consulta-indice-7": "Índice: L–O",
+    "consulta-indice-8": "Índice: O–P",
+    "consulta-indice-9": "Índice: P–S",
+    "consulta-indice-10": "Índice: S–V",
+    "consulta-indice-11": "Índice: V–X"
+  },
+  "paginas": {
+    "consulta-glossario-1": 1,
+    "consulta-glossario-2": 2,
+    "consulta-glossario-3": 3,
+    "consulta-glossario-4": 4,
+    "consulta-glossario-5": 5,
+    "consulta-glossario-6": 6,
+    "consulta-testes": 7,
+    "consulta-ataques": 8,
+    "consulta-entidades": 9,
+    "consulta-ficha-personagem": 10,
+    "consulta-ficha-repertorio": 11,
+    "consulta-ficha-feitico": 12,
+    "consulta-ficha-entidade": 13,
+    "consulta-ficha-entidade-capacidades": 14,
+    "consulta-ficha-recuperacao": 15,
+    "consulta-registro-missao": 16,
+    "consulta-missao": 17,
+    "consulta-conduzir": 18,
+    "consulta-referencias": 19,
+    "consulta-indice-1": 20,
+    "consulta-indice-2": 21,
+    "consulta-indice-3": 22,
+    "consulta-indice-4": 23,
+    "consulta-indice-5": 24,
+    "consulta-indice-6": 25,
+    "consulta-indice-7": 26,
+    "consulta-indice-8": 27,
+    "consulta-indice-9": 28,
+    "consulta-indice-10": 29,
+    "consulta-indice-11": 30
+  },
+  "grupos": [
+    [
+      "Glossário",
+      [
+        "consulta-glossario-1",
+        "consulta-glossario-2",
+        "consulta-glossario-3",
+        "consulta-glossario-4",
+        "consulta-glossario-5",
+        "consulta-glossario-6"
+      ]
+    ],
+    [
+      "Referências rápidas",
+      [
+        "consulta-testes",
+        "consulta-ataques",
+        "consulta-entidades"
+      ]
+    ],
+    [
+      "Modelos de ficha",
+      [
+        "consulta-ficha-personagem",
+        "consulta-ficha-repertorio",
+        "consulta-ficha-feitico",
+        "consulta-ficha-entidade",
+        "consulta-ficha-entidade-capacidades",
+        "consulta-ficha-recuperacao",
+        "consulta-registro-missao"
+      ]
+    ],
+    [
+      "Mestre e referências",
+      [
+        "consulta-missao",
+        "consulta-conduzir",
+        "consulta-referencias"
+      ]
+    ],
+    [
+      "Índice",
+      [
+        "consulta-indice-1",
+        "consulta-indice-2",
+        "consulta-indice-3",
+        "consulta-indice-4",
+        "consulta-indice-5",
+        "consulta-indice-6",
+        "consulta-indice-7",
+        "consulta-indice-8",
+        "consulta-indice-9",
+        "consulta-indice-10",
+        "consulta-indice-11"
+      ]
+    ]
+  ]
+}

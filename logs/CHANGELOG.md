@@ -8,6 +8,20 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.331] — 02/10/2026
+
+**Adicionado:** Evocador e Incursor completos, com suas seis Trilhas, e o capítulo de Invocações aprovado, incluindo os catálogos comuns do Fundamento e a decisão de treino da entidade. O Manual da Guilda passa a seis Caminhos, dezoito Trilhas e dezenove capítulos. **Malabarista** é o nome aprovado da terceira Trilha do Incursor.
+
+**Alterado:** Assumir um golpe é declarado antes da rolagem, usando a Defesa ou Bloquear do Bastião; Duro de Matar funciona em todo Bloquear que falha. Nem Um Arranhão é vantagem passiva no TR Físico contra ataque de uma criatura dentro de Olhos Em Mim. Arrastão amplia o controle por 2 PE por alvo atacado além do primeiro. Mão Pesada permite Agarrado ou Derrubado; explicita alcance, mão livre e CD 8 + Força + maestria para resolver o TR. Contra a Parede acompanha o primeiro ou segundo ataque, uma vez na ação; seu feitiço não crita e o ataque escolhido não recebe Canalizar em Golpe. Casca Grossa, Trocação Franca e Retaliação acompanham a nova resolução de Assumir.
+
+**Decidido:** a edição jogável e as referências atuais foram separadas das coleções históricas, sem alterar seus arquivos originais. A calibração dos inimigos conserva os quatro Caminhos de referência da v0.330; uma nova média de seis fica na fila. A revisão ampla de nomes, texto e apresentação artística permanece para a próxima etapa. O catálogo do gerador local foi atualizado; o trabalho externo do Claude nas fichas não foi editado.
+
+**Validação:** relatório da integração em `sistema/01-pesquisa/integracao-v0.331/RELATORIO.md`, com regressão, cotejo das fontes, cenários e perturbações. Isso verifica implementação e coerência; não equivale a equilíbrio comprovado por playtest.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`: fila atual da v0.331, revisão textual e de nomes, ajustes pequenos e apresentação do livro.
+
+---
+
 ## [0.330] — 30/09/2026
 
 **As Invocações ganharam o §114: o que a entidade leva quando sai de campo.** *O §112 deixou pendente o que ela veste ou segura ao ser recolhida, ao cair ou no fim da manifestação. As opções eram o que veste vai junto e o que segura cai (A), tudo cai (B, que pedia regra de tempo para vestir e punha o uniforme na carga do invocador) e tudo vai (C, um depósito sem peso e sem fundo).* **Resposta do Mizuki: "A, mas o que segura vai junto caso seja arma dela ou por exemplo, resto cai".** *O que ela veste vai junto, e ela volta vestida; do que segura, vai o que é dela, e o resto cai no lugar. A leitura de "dela" — o equipamento da entidade, e não o que ela segura para alguém — ficou para ele vetar, e a brecha de um item de reserva viajar numa entidade ficou declarada.*

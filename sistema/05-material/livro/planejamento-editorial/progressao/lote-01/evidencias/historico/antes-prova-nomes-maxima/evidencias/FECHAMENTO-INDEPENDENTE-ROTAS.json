@@ -1,0 +1,1259 @@
+{
+  "sha256": "f357c3008c2493965e1cf32bf1339a3921abe0b9f8fc9ad49b6524383d45aa57",
+  "metodo": "Releitura integral da candidata reparada; conferência específica PRO32–34 e modelos de oscilação. Complementa o parecer anterior, não substitui a fotografia anterior.",
+  "casos": [
+    {
+      "id": "feito_aceita_socorro",
+      "passou": true
+    },
+    {
+      "id": "estado_no_fim",
+      "passou": true
+    },
+    {
+      "id": "crescimento_antes_troca",
+      "passou": true
+    },
+    {
+      "id": "apenas_crescimento_soma",
+      "passou": true
+    },
+    {
+      "id": "zero_pv_preservado",
+      "passou": true
+    },
+    {
+      "id": "zero_pe_recebe_delta",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_nao_cura",
+      "passou": true
+    },
+    {
+      "id": "selecao_corpos_fixa",
+      "passou": true
+    },
+    {
+      "id": "cidade_nao_alterna",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_0_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_0_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_0_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_1_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_1_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_1_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_2_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_2_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_2_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_3_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_3_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_3_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_4_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_4_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_4_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_5_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_5_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_5_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_6_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_6_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_6_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_7_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_7_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_7_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_8_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_8_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_8_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_9_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_9_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_9_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_10_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_10_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_10_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_11_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_11_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_11_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_12_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_12_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_12_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_13_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_13_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_13_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_14_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_14_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_14_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_15_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_15_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_15_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_16_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_16_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_16_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_17_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_17_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_17_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_18_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_18_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_18_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_19_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_19_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_19_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_20_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_20_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_20_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_21_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_21_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_21_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_22_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_22_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_22_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_23_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_23_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_23_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_24_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_24_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_24_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_25_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_25_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_25_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_26_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_26_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_26_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_27_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_27_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_27_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_28_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_28_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_28_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_29_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_29_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_29_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_30_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_30_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_30_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_31_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_31_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_31_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_32_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_32_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_32_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_33_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_33_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_33_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_34_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_34_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_34_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_35_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_35_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_35_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_36_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_36_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_36_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_37_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_37_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_37_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_38_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_38_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_38_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_39_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_39_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_39_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_40_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_40_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_40_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_41_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_41_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_41_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_42_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_42_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_42_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_43_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_43_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_43_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_44_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_44_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_44_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_45_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_45_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_45_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_46_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_46_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_46_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_47_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_47_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_47_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_48_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_48_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_48_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_49_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_49_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_49_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_50_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_50_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_50_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_51_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_51_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_51_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_52_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_52_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_52_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_53_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_53_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_53_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_54_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_54_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_54_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_55_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_55_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_55_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_56_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_56_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_56_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_57_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_57_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_57_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_58_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_58_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_58_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_59_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_59_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_59_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_60_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_60_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_60_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_61_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_61_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_61_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_62_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_62_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_62_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_63_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_63_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_63_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_64_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_64_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_64_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_65_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_65_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_65_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_66_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_66_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_66_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_67_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_67_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_67_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_68_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_68_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_68_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_69_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_69_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_69_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_70_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_70_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_70_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_71_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_71_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_71_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_72_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_72_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_72_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_73_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_73_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_73_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_74_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_74_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_74_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_75_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_75_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_75_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_76_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_76_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_76_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_77_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_77_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_77_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_78_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_78_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_78_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_79_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_79_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_79_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_80_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_80_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_80_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_81_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_81_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_81_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_82_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_82_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_82_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_83_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_83_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_83_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_84_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_84_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_84_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_85_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_85_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_85_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_86_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_86_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_86_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_87_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_87_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_87_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_88_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_88_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_88_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_89_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_89_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_89_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_90_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_90_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_90_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_91_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_91_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_91_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_92_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_92_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_92_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_93_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_93_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_93_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_94_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_94_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_94_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_95_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_95_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_95_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_96_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_96_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_96_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_97_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_97_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_97_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_98_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_98_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_98_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_99_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_99_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_99_90",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_100_30",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_100_50",
+      "passou": true
+    },
+    {
+      "id": "oscilacao_100_90",
+      "passou": true
+    }
+  ],
+  "ok": true,
+  "limites": [
+    "Auditoria por modelo, sem teste com leitores humanos ou playtest.",
+    "Morrendo e Integridade conservam interfaces pendentes da revisão proprietária."
+  ]
+}

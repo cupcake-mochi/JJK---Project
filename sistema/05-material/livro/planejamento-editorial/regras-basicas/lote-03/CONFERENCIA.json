@@ -1,0 +1,906 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "sha256_texto": "0abe2cda2ee076f7a0507c5ea9420bf91c66e078ece52f4ea506bf1d93a07ac6",
+  "sha256_pdf": "22a508c6d5873a1bc9adcd8ac4c4bba332332864bc6979c2eb33e8c5df4cd8a6",
+  "verificacoes": 110,
+  "checks": [
+    {
+      "verificacao": "Oito páginas e seções",
+      "obtido": [
+        8,
+        8
+      ],
+      "esperado": [
+        8,
+        8
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Ordem de leitura",
+      "obtido": [
+        "dano",
+        "tipos",
+        "reducao",
+        "alma",
+        "condicoes",
+        "leves",
+        "medias",
+        "pesadas"
+      ],
+      "esperado": [
+        "dano",
+        "tipos",
+        "reducao",
+        "alma",
+        "condicoes",
+        "leves",
+        "medias",
+        "pesadas"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Subtítulos não repetem título da seção",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Todos os títulos coincidem com o mapa",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Duas entradas principais",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Grupos iniciam recolhidos",
+      "obtido": [
+        -4,
+        -4
+      ],
+      "esperado": [
+        -4,
+        -4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Marcadores com destinos válidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p1: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: links PDF para destinos esperados",
+      "obtido": [
+        4
+      ],
+      "esperado": [
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: número da remissão alma",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p2: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: links PDF para destinos esperados",
+      "obtido": [
+        4
+      ],
+      "esperado": [
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: número da remissão alma",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p3: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p4: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p5: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p6: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p7: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p7: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p7: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p7: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p8: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p8: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p8: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p8: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p8: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p8: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p8: links PDF para destinos esperados",
+      "obtido": [
+        5
+      ],
+      "esperado": [
+        5
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p8: número da remissão condicoes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Exemplo Rina: resistência",
+      "obtido": 11,
+      "esperado": 11,
+      "ok": true
+    },
+    {
+      "verificacao": "Exemplo Rina: RD e vida temporária",
+      "obtido": {
+        "dano": 7,
+        "absorvido": 3,
+        "vida": 4,
+        "temp": 0
+      },
+      "esperado": {
+        "dano": 7,
+        "absorvido": 3,
+        "vida": 4,
+        "temp": 0
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Ordem resistência antes de RD",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Contraprova: ordem inversa mudaria resultado",
+      "obtido": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "verificacao": "Resistência + vulnerabilidade no dano ímpar",
+      "obtido": 21,
+      "esperado": 21,
+      "ok": true
+    },
+    {
+      "verificacao": "Imunidade prevalece",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano zero permanece zero",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano misto: resistência só na parcela",
+      "obtido": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "verificacao": "RD global uma vez",
+      "obtido": 11,
+      "esperado": 11,
+      "ok": true
+    },
+    {
+      "verificacao": "RD maior que dano não cura",
+      "obtido": {
+        "dano": 0,
+        "absorvido": 0,
+        "vida": 0,
+        "temp": 2
+      },
+      "esperado": {
+        "dano": 0,
+        "absorvido": 0,
+        "vida": 0,
+        "temp": 2
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Duro: dados crus + Constituição",
+      "obtido": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "verificacao": "Casca: dados independentes menos1 + Constituição",
+      "obtido": 13,
+      "esperado": 13,
+      "ok": true
+    },
+    {
+      "verificacao": "Reduções somadas no exemplo",
+      "obtido": 13,
+      "esperado": 13,
+      "ok": true
+    },
+    {
+      "verificacao": "Cobrir-se refino ímpar",
+      "obtido": [
+        1,
+        3,
+        4,
+        7,
+        15
+      ],
+      "esperado": [
+        1,
+        3,
+        4,
+        7,
+        15
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Proteção perdida altera Defesa e Bloquear",
+      "obtido": [
+        13,
+        2
+      ],
+      "esperado": [
+        13,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade Kaori",
+      "obtido": 26,
+      "esperado": 26,
+      "ok": true
+    },
+    {
+      "verificacao": "Integridade NPC ímpar",
+      "obtido": 17,
+      "esperado": 17,
+      "ok": true
+    },
+    {
+      "verificacao": "Limiares exatos max26",
+      "obtido": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "esperado": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Perda de7 e TR aprovado",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Perda de7 e TR falho",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Novo dano sem novo TR mantém estágio maior",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Risco registrado:4falhas com perda4 chegam ao estágio4",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "Remenda restaura reserva sem retirar estágio na candidata",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Metade da Classe não libera acesso novo",
+      "obtido": [
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "esperado": [
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Alma e vida temporária: perdas de vida/Integridade",
+      "obtido": [
+        4,
+        7
+      ],
+      "esperado": [
+        4,
+        7
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "1020 combinações: conservação de dano e vida temporária",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Grade cobre1020 casos",
+      "obtido": 1020,
+      "esperado": 1020,
+      "ok": true
+    },
+    {
+      "verificacao": "Tipos:14 sem repetição, grupos3/6/5",
+      "obtido": [
+        14,
+        [
+          3,
+          6,
+          5
+        ]
+      ],
+      "esperado": [
+        14,
+        [
+          3,
+          6,
+          5
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Condições:13, grupos6/2/5",
+      "obtido": [
+        6,
+        2,
+        5
+      ],
+      "esperado": [
+        6,
+        2,
+        5
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Exceção crítica mantida",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Estágio4 encerra Aguentar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Campos de saída sem default inventado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Metade dos dados distingue metade do resultado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "34 casos documentais com IDs únicos",
+      "obtido": 34,
+      "esperado": 34,
+      "ok": true
+    },
+    {
+      "verificacao": "Oito seções avaliadas editorialmente",
+      "obtido": [
+        "alma",
+        "condicoes",
+        "dano",
+        "leves",
+        "medias",
+        "pesadas",
+        "reducao",
+        "tipos"
+      ],
+      "esperado": [
+        "alma",
+        "condicoes",
+        "dano",
+        "leves",
+        "medias",
+        "pesadas",
+        "reducao",
+        "tipos"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão ligada ao texto",
+      "obtido": "0abe2cda2ee076f7a0507c5ea9420bf91c66e078ece52f4ea506bf1d93a07ac6",
+      "esperado": "0abe2cda2ee076f7a0507c5ea9420bf91c66e078ece52f4ea506bf1d93a07ac6",
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes e consolidado anterior preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Livro e exportações preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "137 arquivos protegidos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Inspeção visual ligada ao PDF",
+      "obtido": "22a508c6d5873a1bc9adcd8ac4c4bba332332864bc6979c2eb33e8c5df4cd8a6",
+      "esperado": "22a508c6d5873a1bc9adcd8ac4c4bba332332864bc6979c2eb33e8c5df4cd8a6",
+      "ok": true
+    },
+    {
+      "verificacao": "Oito páginas visualmente examinadas",
+      "obtido": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Sem defeitos visuais registrados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "34 casos documentais",
+      "obtido": 34,
+      "esperado": 34,
+      "ok": true
+    },
+    {
+      "verificacao": "Links do dossiê",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    }
+  ],
+  "geometria": [
+    {
+      "pagina": 1,
+      "secao": "dano",
+      "final_corpo": 731.72,
+      "links": [
+        4
+      ]
+    },
+    {
+      "pagina": 2,
+      "secao": "tipos",
+      "final_corpo": 698.62,
+      "links": [
+        4
+      ]
+    },
+    {
+      "pagina": 3,
+      "secao": "reducao",
+      "final_corpo": 714.82,
+      "links": []
+    },
+    {
+      "pagina": 4,
+      "secao": "alma",
+      "final_corpo": 770.72,
+      "links": []
+    },
+    {
+      "pagina": 5,
+      "secao": "condicoes",
+      "final_corpo": 754.22,
+      "links": []
+    },
+    {
+      "pagina": 6,
+      "secao": "leves",
+      "final_corpo": 738.97,
+      "links": []
+    },
+    {
+      "pagina": 7,
+      "secao": "medias",
+      "final_corpo": 645.82,
+      "links": []
+    },
+    {
+      "pagina": 8,
+      "secao": "pesadas",
+      "final_corpo": 729.72,
+      "links": [
+        5
+      ]
+    }
+  ],
+  "limites": [
+    "Não é teste humano ou prova de equilíbrio.",
+    "Revisão pelo autor, sem nova revisão independente.",
+    "Decisões candidatas e pendências identificadas em DECISOES.md."
+  ]
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "secao": "movimento",
+    "antes": "**Amostra revisada sobre a v0.331, revisão 3.** Reúne o movimento já existente e propostas de regras comuns. Os números novos estão registrados à parte; o livro publicado ainda não foi alterado.\n\n",
+    "depois": "",
+    "motivo": "Estado editorial reunido na abertura; retirar recados de produção do procedimento."
+  },
+  {
+    "secao": "perceber",
+    "antes": "**Proposta de regras comuns sobre a v0.331.** Revisão 2: procedimentos de visão, ocultação e busca. As correções e as lacunas que ainda dependem de decisão estão registradas à parte.\n\n",
+    "depois": "",
+    "motivo": "Estado editorial reunido na abertura; retirar recados de produção do procedimento."
+  },
+  {
+    "secao": "manobras",
+    "antes": "**Proposta sobre a v0.331.** Procedimentos candidatos de manobras, informação e respostas preparadas.\n\n",
+    "depois": "",
+    "motivo": "Estado editorial reunido na abertura; retirar recados de produção do procedimento."
+  },
+  {
+    "secao": "movimento",
+    "antes": "nesta proposta",
+    "depois": "neste capítulo",
+    "motivo": "Voz do capítulo, sem alterar regra candidata."
+  },
+  {
+    "secao": "habilidades",
+    "antes": "Na conciliação desta amostra, o limite",
+    "depois": "O limite",
+    "motivo": "Justificativa editorial fica no relatório; procedimento permanece."
+  },
+  {
+    "secao": "procurar",
+    "antes": "## Energia e sentidos especiais\n\nUma habilidade que detecte uma presença informa o que seu texto permitir: notar energia, conhecer a posição e enxergar são resultados diferentes. **Sentir Energia não concede, por si só, visão às cegas ou localização automática através de paredes.** A perícia mantém suas aplicações existentes, sem o radar universal de 9 m da versão anterior.\n\n**Vulto** fornece visão às cegas em seu alcance. **Rastro** acompanha o alvo afetado, pela duração própria. Nenhum desses efeitos atravessa obstáculos com um ataque ou dispensa a Melhoria **Sem Ver** quando a conjuração exigir essa adaptação.\n\n**Faro, o Legado**, conserva sua substituição específica de Investigação por Sentir Energia ao procurar uma maldição. **Faro, a Bênção**, trata de rastros e vestígios de técnica. **Sem Pegada** elimina os vestígios descritos na Bênção, mas não apaga a presença vista por uma testemunha. Nenhuma dessas permissões se torna geral.\n\n> **Ainda fora desta proposta:** falta definir o alcance e o resultado da detecção comum de energia. Até essa revisão, não use o raio descartado nem trate a perícia como um sentido que revela todas as criaturas da área.",
+    "depois": "## Qual procedimento usar\n\n| Sua intenção | Onde resolver |\n|---|---|\n| Encontrar uma presença ou pista pelos sentidos comuns | Vasculhar, nesta página. |\n| Localizar uma fonte de energia | [Vasculhar com Sentir Energia](#buscar). |\n| Compreender uma criatura, um objeto ou um sinal que já observa | [Estudar](#estudar). |\n| Reconstruir um acontecimento ou seguir resíduos | [Examinar vestígios](#ler). |\n\nUma habilidade de percepção informa o que seu texto permitir. Conhecer uma posição e enxergar continuam sendo resultados diferentes; os limites de visão e ataques estão em [Atacar sem enxergar o alvo](#atacar).\n",
+    "motivo": "Eliminar nota superada de lacuna e catálogo repetido; mapa de tarefas com destinos exatos."
+  },
+  {
+    "secao": "estudar",
+    "antes": "Escolha uma criatura ou objeto que você consiga enxergar e faça uma pergunta concreta.",
+    "depois": "Escolha uma criatura ou objeto que você consiga enxergar, ou perceber por um sentido que substitua a visão, e faça uma pergunta concreta.",
+    "motivo": "Conciliar permissão já explícita na candidata de energia; não conceder visão a Sentir Energia."
+  },
+  {
+    "secao": "estudar",
+    "antes": "Estudar não amplia os seus sentidos. Uma criatura escondida precisa ser localizada antes; uma superfície opaca continua impedindo examinar o que há atrás dela.",
+    "depois": "Estudar não amplia os seus sentidos. Conhecer somente o espaço de uma criatura escondida não basta: você precisa conseguir observá-la. Uma superfície opaca continua impedindo examinar o que há atrás dela.",
+    "motivo": "Fechar leitura de localizar como requisito suficiente; harmonizar com energia."
+  },
+  {
+    "secao": "estudar",
+    "antes": "**Vasculhar** procura uma criatura, um objeto ou uma pista.",
+    "depois": "**[Vasculhar](#procurar)** procura uma criatura, um objeto ou uma pista.",
+    "motivo": "Remissão no ponto de confusão."
+  },
+  {
+    "secao": "ler",
+    "antes": "| O que você quer descobrir | Como procurar |\n|---|---|\n| Onde está uma fonte atual de energia? | Vasculhar com Sentir Energia, seguindo a busca local. |\n| O que a energia de uma criatura ou objeto observado está mostrando? | Estudar, com Sentir Energia ou outra perícia adequada. |\n| O que as pistas revelam sobre o ocorrido? | Investigação; outras perícias entram conforme a informação procurada. |\n| Por onde alguém passou e para onde o rastro continua? | Sobrevivência, inclusive para seguir resíduos de energia. |\n\n",
+    "depois": "",
+    "motivo": "Tabela de escolha de tarefa agora tem um único dono em Vasculhar."
+  },
+  {
+    "secao": "ler",
+    "antes": "**Ação Padrão em combate.** Escolha a criatura ou o objeto que consegue enxergar, ou perceber por um sentido que substitua a visão, e faça uma pergunta concreta. Conhecer somente seu espaço pela busca energética não basta. Continue usando o procedimento de Estudar.",
+    "depois": "Use **[Estudar](#estudar)**, com Ação Padrão em combate, para examinar uma criatura ou objeto observável. Conhecer somente seu espaço pela busca energética não basta. Faça uma pergunta sobre o que a energia está mostrando.",
+    "motivo": "Conservar custo e limite de observação como lembrete; procedimento e requisitos completos ficam em Estudar."
+  },
+  {
+    "secao": "ler",
+    "antes": "Quando a resposta depende de conhecimento, use a escada fixa de dificuldade. Quando depende do poder de um efeito criado, use a CD correspondente ao criador. O mestre indica a tarefa e a dificuldade antes do teste. A perícia não fornece automaticamente grau ou reserva exata de PE: **Aferido** conserva sua leitura do grau ao tocar uma maldição.",
+    "depois": "A dificuldade segue [Estudar](#estudar). Sentir Energia não fornece automaticamente grau ou reserva exata de PE: **Aferido** conserva sua leitura do grau ao tocar uma maldição.",
+    "motivo": "Evitar segunda formulação da mesma escolha de CD; manter exceção específica."
+  },
+  {
+    "secao": "mundo",
+    "antes": "> **Regras do Projeto M:** ações, dificuldades, alcance de 18 m e limites de obstáculos e acompanhamento são escolhas desta proposta de jogo. Os exemplos da obra ajudam a orientar a adaptação; não estabelecem esses números nem uma capacidade idêntica para todo personagem.",
+    "depois": "",
+    "motivo": "Nota de status e adaptação reunida no guia; registro canônico preservado no dossiê e fontes da versão anterior."
+  },
+  {
+    "secao": "mundo",
+    "antes": "**Procurar** serve para localizar uma fonte acessível. **Estudar** examina o que uma fonte observável está mostrando. **Investigar e seguir vestígios** ajudam a reconstruir acontecimentos e percursos. As próximas páginas explicam o que cada tarefa permite descobrir.",
+    "depois": "**[Vasculhar com Sentir Energia](#buscar)** localiza uma fonte acessível. **[Estudar](#estudar)** examina o que uma fonte observável está mostrando. **[Examinar vestígios](#ler)** ajuda a reconstruir acontecimentos e percursos.",
+    "motivo": "Usar nome da ação e destinos precisos, sem renomear a ação como Procurar."
+  },
+  {
+    "secao": "pressao",
+    "antes": "Em combate, uma nova busca custa outra Ação Padrão. Fora dele, combine o tempo e a consequência da demora antes do teste. Repetir o mesmo exame exige uma nova abordagem, informação ou consequência pelo tempo gasto. Uma tentativa incapaz de alcançar a informação precisa de outra solução.",
+    "depois": "Uma nova busca segue [Vasculhar](#procurar): custa outra Ação Padrão em combate; fora dele, exige nova abordagem, informação ou consequência pelo tempo gasto. Uma tentativa incapaz de alcançar a informação precisa de outra solução.",
+    "motivo": "Regra de repetição tem dono; lembrete conserva custo no ponto de uso."
+  },
+  {
+    "secao": "usar",
+    "antes": "**Silencioso** impede que o uso do feitiço revele automaticamente sua origem, nos termos da Melhoria. Perceber seu efeito não localiza sozinho o conjurador. Uma busca independente pode encontrar a energia do conjurador, se ela estiver acessível e o teste superar sua ocultação; não usa o efeito como um rastro gratuito até ele.",
+    "depois": "**Silencioso** segue as regras de [Ataques e ocultação](#atacar). Uma busca energética independente pode encontrar o conjurador se sua energia estiver acessível e o teste superar a ocultação. Perceber o efeito do feitiço não fornece um rastro gratuito até ele.",
+    "motivo": "Evitar duplicação integral da revelação por conjuração; conservar aplicação energética."
+  },
+  {
+    "secao": "contencoes",
+    "antes": "Quedas e perigos reais do cenário seguem suas regras.",
+    "depois": "[Quedas](#quedas) e perigos reais do cenário seguem suas regras.",
+    "motivo": "Remissão para consequência do arrasto."
+  },
+  {
+    "secao": "saltos",
+    "antes": "Saltar para baixo também segue as regras de queda.",
+    "depois": "Saltar para baixo também segue as regras de [Quedas e movimento imposto](#quedas).",
+    "motivo": "Remissão para consequência do salto."
+  },
+  {
+    "secao": "quedas",
+    "antes": "## Movimento imposto",
+    "depois": "## Empurrões e movimento imposto",
+    "motivo": "Termo de consulta comum preservado no subtítulo."
+  },
+  {
+    "secao": "movimento",
+    "antes": "> **Exemplo:** com 9 m disponíveis, Rina anda 3 m, atravessa 1,5 m de entulho por 3 m e anda os 3 m restantes. Percorreu 7,5 m e gastou seus 9 m de movimento.",
+    "depois": "> **Exemplo:** com 9 m disponíveis, Rina anda 3 m, atravessa 1,5 m de entulho por 3 m e anda os 3 m restantes. Percorreu 7,5 m e gastou seus 9 m de movimento.\n\nAs travessias especiais do Incursor e suas Trilhas estão em [Movimento Acrobático e Parkour](#habilidades).",
+    "motivo": "Mover exceções extensas para final sem perder acesso a elas."
+  },
+  {
+    "secao": "quedas",
+    "antes": "# Quedas e empurrões",
+    "depois": "# Quedas e movimento imposto",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "perceber",
+    "antes": "# O que você percebe",
+    "depois": "# Percepção e visibilidade",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "procurar",
+    "antes": "# Procurar e detectar",
+    "depois": "# Vasculhar",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "atacar",
+    "antes": "# Atacar sem ser visto",
+    "depois": "# Ataques e ocultação",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "contencoes",
+    "antes": "# Escapar e manter uma contenção",
+    "depois": "# Agarrado: escapar e arrastar",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "estudar",
+    "antes": "# Estudar uma criatura ou objeto",
+    "depois": "# Estudar",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "preparar",
+    "antes": "# Preparar uma resposta",
+    "depois": "# Preparar",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "buscar",
+    "antes": "# Procurar energia",
+    "depois": "# Vasculhar com Sentir Energia",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "pressao",
+    "antes": "# Energia além do esconderijo",
+    "depois": "# Sinais de energia no ambiente",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "ler",
+    "antes": "# Ler energia e seguir vestígios",
+    "depois": "# Examinar vestígios",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "usar",
+    "antes": "# Depois de encontrar",
+    "depois": "# Usar a posição encontrada",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "habilidades",
+    "antes": "# Movimento das Trilhas",
+    "depois": "# Movimento Acrobático e Parkour",
+    "motivo": "Título de consulta explícito; nomes mecânicos mantidos."
+  },
+  {
+    "secao": "ler",
+    "antes": "Examinar vestígios",
+    "depois": "Ler energia e examinar vestígios",
+    "motivo": "Título deve abranger também o exame de energia atual."
+  },
+  {
+    "secao": "usar",
+    "antes": "Usar a posição encontrada",
+    "depois": "Localização e ataques",
+    "motivo": "Nomear os assuntos de consulta em vez de uma etapa vaga."
+  },
+  {
+    "secao": "procurar/buscar",
+    "antes": "Subtítulos repetindo Vasculhar e Vasculhar com Sentir Energia",
+    "depois": "Abertura seguida do custo e do procedimento, sem repetir o título",
+    "motivo": "Achado da inspeção visual: redundância de hierarquia."
+  }
+]

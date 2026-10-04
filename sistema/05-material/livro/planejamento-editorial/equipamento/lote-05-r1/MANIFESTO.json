@@ -1,0 +1,18 @@
+{
+  "CONFERENCIA.json": "2b55c4fa5438b3fb575f5c4a38559b6ed392e8899db0503308054de2bd51505a",
+  "ESTRUTURA.json": "781dc59944193afadea0a5d35ccb38fc6068e94263bc66a723e71745e9a76ad3",
+  "ITENS-E-OBJETOS.md": "1781aaf0047bc2789e48c8de0741c6d8b8470b123c311b39f2a423ead0c5413c",
+  "LEIA-ME.md": "915c1175de77b155d5d18f07acf794d6ed68ae997398702465f3722eb406df87",
+  "VALIDACAO.json": "75bfe049e4bec1f67a16f492cf0e63e2084dd91bc7843b35fa0f5fbb6514fe6c",
+  "conferir.py": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+  "evidencias/LOCALIZACAO-EDITORIAL.json": "653598c6cbb20fcbe2e31f118b0e2be46b2884ed03a86d01798a23c1ff489af8",
+  "evidencias/REVISAO-EDITORIAL.json": "34b34eb158f1432eeb435387fbf039197849b66c381610aeee7edccbf682f6ad",
+  "evidencias/auditoria-numerica.json": "c5bca904ce96c9d49bb2f5a4ef917ae9459801ab9198e4f30edaea35531f0c0a",
+  "evidencias/fontes-preservadas.json": "4577b77c0b64b49fed1d044fdaa72c116b64c4bae477031842a6caf8a72c1377",
+  "evidencias/inspecao-visual.json": "380c3c410907fa884737b092f4f99328d791e31bc7a62811dde1a62536b34d81",
+  "evidencias/pdf-estrutura.json": "62564ad9b83c4b1e0317e04d9ca763ecd8197f5ebdf80601579da165ab45b557",
+  "evidencias/pdf-texto.txt": "f26db090d068e2feed7d07d990d8e2b9bf69a2b6e289477dfee8364aca5b9a66",
+  "evidencias/regras-verificadas.json": "ebd0efb5694b6f38e46444d4ecd7c644bc8d1e6c31bf77539536be3ab1aaa743",
+  "gerar_pdf.py": "723d5095eacc74628b3ac4633b9a3d5c41254b2a57c84866d9debee22dc9c7ff",
+  "output/pdf/Projeto-M-Itens-e-Objetos-Proposta-01-Carga-R5.pdf": "37bd1a364f0a46671d8dbeb0b28ff1aeb86603ad4487d404eaa53a75ec589b1d"
+}

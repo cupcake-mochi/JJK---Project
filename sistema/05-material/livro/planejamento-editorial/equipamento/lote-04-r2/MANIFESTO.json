@@ -1,0 +1,22 @@
+{
+  "ARMAS.json": "e1343d9eecf027da44f6f443017522c72f7658f1b21ccf12f967bc7fb2d3b7c2",
+  "ARMAS.md": "c0839cd1a0e14f87785895cc144a844ae23ec8aee0eb40a678bb7470b5764520",
+  "CONFERENCIA.json": "c253cd082a0f7746c71b997252d8372daaae020c1f1104fc219d3a53c4bf445b",
+  "CONTRATO-NUMERICO.md": "1f157ef9399e666a29681f204905fde2c68eb88b4d2b71e41863ae0abb3ef4c7",
+  "DECISOES.md": "1f157ef9399e666a29681f204905fde2c68eb88b4d2b71e41863ae0abb3ef4c7",
+  "ESTRUTURA.json": "9c754179c971abab83db7df0151964826a0453e4d09c1300d2d6d818738b9ba8",
+  "LEIA-ME.md": "1f157ef9399e666a29681f204905fde2c68eb88b4d2b71e41863ae0abb3ef4c7",
+  "PESQUISA-E-BALANCEAMENTO.md": "1f157ef9399e666a29681f204905fde2c68eb88b4d2b71e41863ae0abb3ef4c7",
+  "RELATORIO.md": "1f157ef9399e666a29681f204905fde2c68eb88b4d2b71e41863ae0abb3ef4c7",
+  "VALIDACAO.json": "d70409c145ecf3dde05dc9916ef1b9486db0295597dfba44df15d91cf8a70f23",
+  "conferir.py": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+  "evidencias/LOCALIZACAO-EDITORIAL.json": "88f1ba86250733ccb9fd5b1858736791ad14819e7ed15f03b5fd8ec960adc543",
+  "evidencias/REVISAO-EDITORIAL.json": "70c885657f94634d8bab910da7a4d6881088d87749777bcf6f277f72753d7ff8",
+  "evidencias/fontes-preservadas.json": "53b112892e861aa399f40f751b18b68b5e3970b31e2e8bf455c274aa57c93187",
+  "evidencias/inspecao-visual.json": "f06e0de30c470a099c2662b6850f05ab7f0c55d0b91f6a8f6f5f42ff15b764ca",
+  "evidencias/pdf-estrutura.json": "23021ab180eff411e06f02f36d791a9ef345f457df88739228cd9b5c272a5c16",
+  "evidencias/pdf-texto.txt": "1b109f70de1d966013588cbfe74889d09480b6093f4a85fffbbeccc30ad4d79e",
+  "evidencias/regras-verificadas.json": "010c83c1c7d3a3f79ca79acd861adedd5f74cc98cdd588053910e720df30c550",
+  "gerar_pdf.py": "9e89d559f8bcce6a9f103764379ad373f9efb318b2d75cd6f18059e685ef5eab",
+  "output/pdf/Projeto-M-Catalogo-de-Armas-Proposta-02.pdf": "554e56f4015627d0c2c819799a7d7572bd54a9e6614a2c6fbdbb544eb7eee660"
+}

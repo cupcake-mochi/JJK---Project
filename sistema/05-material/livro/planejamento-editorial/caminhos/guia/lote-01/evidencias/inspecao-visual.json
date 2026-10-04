@@ -1,0 +1,126 @@
+{
+  "sha256_pdf": "3d0e955534d0b8bb42fcab9abf8ab2bbe5ca15f33e8fbe7d2a469677ffd1dc7f",
+  "sha256_texto": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+  "metodo": "Comparação de todas as páginas a85dpi com PDF anterior inspecionado, seguida de abertura real por view_image de todas as diferenças. Evidências anteriores preservadas.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "d24d4603154d4ff9a194ace5d3d17b3c6450feb1b92772eee822e760894d69e1",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "a5867f0acadb1ef14c1897a1fd98a72eaa96bd83dc9a1b99dbb865d92214807b",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "27abb5e7945215e4f15c2e130f903d8047dbe6d7161c1c9a6cdf816e2d74331f",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "83eaf2c3b4ca2ae3fc4a7a439e6bd02f44d89ca8e11d2b94bcd3eb36fd12c340",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "fcc849a0bfbbb69b8a07e7e2e5aab9c3e2c627125acf58c75c21ec1eef022db7",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "a86cbc4fef0a76d4c06c282bdfe7982e093a08dc44efbc580b021227dcea020b",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "791a2de87210bf6b00da1fdb9aa544475540ab02a6a3f75b53e0f1b3498d8ddc",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "e826e164de4ccb2f0b972a18393afb51d5a640108f8a37da03978ab5c0445220",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "434d537144177774f00c2e0a5ea8ded5f9d9686a5c1cc4010f8c7341b529177f",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "116f53306291e690dbbc1f25b80a1a0afa1f8782d035781ee1b69527eba016a8",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "033c7f8c5eaf8c232bf5dfd86e5e4b3f40dfca23ef0fcd6c4a6aa340b38868d6",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "21cef40c4a2f8445ae8516181b96e793391b54d6d25d35e39c88838a470a9850",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "b8e8497f51c7532c68c1d3d68f6c22603a58c3a94bb4df73524ecda7924d79c9",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "fd34c594bb6a6e42fe40557060ec98edd44fa97ded149408a390df1a58b7ee05",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "427b7eb5cc73528fae778402ef9a6ad63aa60de4a5346b9333ae0853e6f99da8",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página aberta integralmente por view_image nesta etapa. Texto, tabelas, títulos e margens legíveis, sem cortes ou sobreposições.",
+      "sha256_png": "c94d231ffe1ce3976adfab436358ac2ba6792646af1501d29e58edc6f2437387",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página aberta integralmente por view_image nesta etapa. Texto, tabelas, títulos e margens legíveis, sem cortes ou sobreposições.",
+      "sha256_png": "cf558737e522f74bfef973306cbdbc642500432f34b840698cf3cbb670b2879a",
+      "revisor": "/root/maxima"
+    }
+  ]
+}

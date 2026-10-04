@@ -1,0 +1,26 @@
+{
+  "sha256_pdf": "8c0e8ada941ffb40e8797711044c996464ce93c71573a1869cfb71dad104bea4",
+  "metodo": "Inspeção visual das quatro páginas renderizadas a 1400 px; autor da rodada, sem revisor independente.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, corpo, tabela de limites e exemplo completos; margens e hierarquia consistentes."
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de graus, remissão de página e exemplo completos; página densa sem conflito com rodapé."
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de missões e exemplo de quatro missões legíveis; linhas não cortadas e encerramento separado do rodapé."
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto e caixa de exemplo completos; seções de encarnação e guarda localizáveis."
+    }
+  ]
+}

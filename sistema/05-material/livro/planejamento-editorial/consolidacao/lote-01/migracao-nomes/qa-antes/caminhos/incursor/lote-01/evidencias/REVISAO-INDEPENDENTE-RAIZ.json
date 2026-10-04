@@ -1,0 +1,169 @@
+{
+  "sha256_texto": "cd608cb7a2ad671becaef2da0b56ee77229a24f8212df1dbbbf7b002e9f268d4",
+  "ok": true,
+  "tipo": "26 casos dirigidos resolvidos por leitor distinto do autor, não simulação integral",
+  "casos": [
+    {
+      "id": 1,
+      "cenario": "ganho",
+      "conclusao": "Fluidezguardadanãoempilha,nemgastaobtenção",
+      "coerente": true
+    },
+    {
+      "id": 2,
+      "cenario": "instante",
+      "conclusao": "crit19não recuperamesmoacerto",
+      "coerente": true
+    },
+    {
+      "id": 3,
+      "cenario": "evasao",
+      "conclusao": "custoprévio+Reação;erro poderecuperar",
+      "coerente": true
+    },
+    {
+      "id": 4,
+      "cenario": "reflexo",
+      "conclusao": "erro recémgeradorsemestadodesde declaraçãoimpede",
+      "coerente": true
+    },
+    {
+      "id": 5,
+      "cenario": "guardado",
+      "conclusao": "não gastaestado,1intervalo,metade deslocamento",
+      "coerente": true
+    },
+    {
+      "id": 6,
+      "cenario": "retomar",
+      "conclusao": "Movimentointeiro,semFluidezno começo",
+      "coerente": true
+    },
+    {
+      "id": 7,
+      "cenario": "antecipar",
+      "conclusao": "nãojájogou;substituiturnonormal",
+      "coerente": true
+    },
+    {
+      "id": 8,
+      "cenario": "leve",
+      "conclusao": "21/52,Tacoúnicocorte",
+      "coerente": true
+    },
+    {
+      "id": 9,
+      "cenario": "guarda",
+      "conclusao": "movimentoprévionarodadaimpede",
+      "coerente": true
+    },
+    {
+      "id": 10,
+      "cenario": "cirurgico",
+      "conclusao": "Dex5custa4PE,4dados",
+      "coerente": true
+    },
+    {
+      "id": 11,
+      "cenario": "critico",
+      "conclusao": "1d8+7d4→2d8+14d4+atributo",
+      "coerente": true
+    },
+    {
+      "id": 12,
+      "cenario": "combinar",
+      "conclusao": "Dex5+Instante8PE,4dados",
+      "coerente": true
+    },
+    {
+      "id": 13,
+      "cenario": "atributobaixo",
+      "conclusao": "0ou1→0PEe0dados,Fluidezgasta",
+      "coerente": true
+    },
+    {
+      "id": 14,
+      "cenario": "parkour",
+      "conclusao": "6parede+4,5salto+1,5final=12",
+      "coerente": true
+    },
+    {
+      "id": 15,
+      "cenario": "brecha",
+      "conclusao": "2PEmaisreforço,Reação",
+      "coerente": true
+    },
+    {
+      "id": 16,
+      "cenario": "sentenca",
+      "conclusao": "ocultona declaração;acerto obrigatórioparacrit",
+      "coerente": true
+    },
+    {
+      "id": 17,
+      "cenario": "rajada",
+      "conclusao": "1Atacar+2Bônus=3,3PE",
+      "coerente": true
+    },
+    {
+      "id": 18,
+      "cenario": "guarda",
+      "conclusao": "antes27umgolpe+Esquivar,alternativa àrajada",
+      "coerente": true
+    },
+    {
+      "id": 19,
+      "cenario": "harmonia",
+      "conclusao": "6PEtotais,2golpesBônusesquiva",
+      "coerente": true
+    },
+    {
+      "id": 20,
+      "cenario": "projecao",
+      "conclusao": "TRnãocrit,nãogeraFluidezporacerto",
+      "coerente": true
+    },
+    {
+      "id": 21,
+      "cenario": "colisao",
+      "conclusao": "copiaimpacto,nãoquedaextra",
+      "coerente": true
+    },
+    {
+      "id": 22,
+      "cenario": "redirecionar",
+      "conclusao": "alcanceagressor,mesmod20,novojogadorpodeBloquear",
+      "coerente": true
+    },
+    {
+      "id": 23,
+      "cenario": "cruzado",
+      "conclusao": "2próprios+1continuação,6PE,outravítima",
+      "coerente": true
+    },
+    {
+      "id": 24,
+      "cenario": "retorno",
+      "conclusao": "3porvítimanoturno,7PE,eventualReflexo4",
+      "coerente": true
+    },
+    {
+      "id": 25,
+      "cenario": "ricochete",
+      "conclusao": "6/18,3mparede→9msegundotrechonormal,24mtotalmáximo",
+      "coerente": true
+    },
+    {
+      "id": 26,
+      "cenario": "perfeita",
+      "conclusao": "4alvos+1normal,semcruzado;até2na mesmavítimanoturno",
+      "coerente": true
+    }
+  ],
+  "limites": [
+    "Leve depende sincronizar R05",
+    "Movimento/CDcopiados dependem remoção no dono geral",
+    "PDFvisual pendente",
+    "Sem playtest humano"
+  ]
+}

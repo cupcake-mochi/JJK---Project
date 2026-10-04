@@ -1,0 +1,2550 @@
+[
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 0,
+    "CD": 9,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 1,
+    "CD": 9,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 2,
+    "CD": 9,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 3,
+    "CD": 9,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 4,
+    "CD": 9,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 5,
+    "CD": 9,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 6,
+    "CD": 9,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 7,
+    "CD": 9,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 8,
+    "CD": 9,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 9,
+    "CD": 9,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 10,
+    "CD": 9,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 11,
+    "CD": 9,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 1,
+    "TR": 12,
+    "CD": 9,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 0,
+    "CD": 10,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 1,
+    "CD": 10,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 2,
+    "CD": 10,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 3,
+    "CD": 10,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 4,
+    "CD": 10,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 5,
+    "CD": 10,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 6,
+    "CD": 10,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 7,
+    "CD": 10,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 8,
+    "CD": 10,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 9,
+    "CD": 10,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 10,
+    "CD": 10,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 11,
+    "CD": 10,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 2,
+    "TR": 12,
+    "CD": 10,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 0,
+    "CD": 11,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 1,
+    "CD": 11,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 2,
+    "CD": 11,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 3,
+    "CD": 11,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 4,
+    "CD": 11,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 5,
+    "CD": 11,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 6,
+    "CD": 11,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 7,
+    "CD": 11,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 8,
+    "CD": 11,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 9,
+    "CD": 11,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 10,
+    "CD": 11,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 11,
+    "CD": 11,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 3,
+    "TR": 12,
+    "CD": 11,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 0,
+    "CD": 12,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 1,
+    "CD": 12,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 2,
+    "CD": 12,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 3,
+    "CD": 12,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 4,
+    "CD": 12,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 5,
+    "CD": 12,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 6,
+    "CD": 12,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 7,
+    "CD": 12,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 8,
+    "CD": 12,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 9,
+    "CD": 12,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 10,
+    "CD": 12,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 11,
+    "CD": 12,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 0,
+    "maestria": 4,
+    "TR": 12,
+    "CD": 12,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 0,
+    "CD": 10,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 1,
+    "CD": 10,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 2,
+    "CD": 10,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 3,
+    "CD": 10,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 4,
+    "CD": 10,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 5,
+    "CD": 10,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 6,
+    "CD": 10,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 7,
+    "CD": 10,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 8,
+    "CD": 10,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 9,
+    "CD": 10,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 10,
+    "CD": 10,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 11,
+    "CD": 10,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 1,
+    "maestria": 1,
+    "TR": 12,
+    "CD": 10,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 0,
+    "CD": 11,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 1,
+    "CD": 11,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 2,
+    "CD": 11,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 3,
+    "CD": 11,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 4,
+    "CD": 11,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 5,
+    "CD": 11,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 6,
+    "CD": 11,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 7,
+    "CD": 11,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 8,
+    "CD": 11,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 9,
+    "CD": 11,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 10,
+    "CD": 11,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 11,
+    "CD": 11,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 1,
+    "maestria": 2,
+    "TR": 12,
+    "CD": 11,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 0,
+    "CD": 12,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 1,
+    "CD": 12,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 2,
+    "CD": 12,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 3,
+    "CD": 12,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 4,
+    "CD": 12,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 5,
+    "CD": 12,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 6,
+    "CD": 12,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 7,
+    "CD": 12,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 8,
+    "CD": 12,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 9,
+    "CD": 12,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 10,
+    "CD": 12,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 11,
+    "CD": 12,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 1,
+    "maestria": 3,
+    "TR": 12,
+    "CD": 12,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 0,
+    "CD": 13,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 1,
+    "CD": 13,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 2,
+    "CD": 13,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 3,
+    "CD": 13,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 4,
+    "CD": 13,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 5,
+    "CD": 13,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 6,
+    "CD": 13,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 7,
+    "CD": 13,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 8,
+    "CD": 13,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 9,
+    "CD": 13,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 10,
+    "CD": 13,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 11,
+    "CD": 13,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 1,
+    "maestria": 4,
+    "TR": 12,
+    "CD": 13,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 0,
+    "CD": 11,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 1,
+    "CD": 11,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 2,
+    "CD": 11,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 3,
+    "CD": 11,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 4,
+    "CD": 11,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 5,
+    "CD": 11,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 6,
+    "CD": 11,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 7,
+    "CD": 11,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 8,
+    "CD": 11,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 9,
+    "CD": 11,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 10,
+    "CD": 11,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 11,
+    "CD": 11,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 2,
+    "maestria": 1,
+    "TR": 12,
+    "CD": 11,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 0,
+    "CD": 12,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 1,
+    "CD": 12,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 2,
+    "CD": 12,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 3,
+    "CD": 12,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 4,
+    "CD": 12,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 5,
+    "CD": 12,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 6,
+    "CD": 12,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 7,
+    "CD": 12,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 8,
+    "CD": 12,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 9,
+    "CD": 12,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 10,
+    "CD": 12,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 11,
+    "CD": 12,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 2,
+    "maestria": 2,
+    "TR": 12,
+    "CD": 12,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 0,
+    "CD": 13,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 1,
+    "CD": 13,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 2,
+    "CD": 13,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 3,
+    "CD": 13,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 4,
+    "CD": 13,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 5,
+    "CD": 13,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 6,
+    "CD": 13,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 7,
+    "CD": 13,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 8,
+    "CD": 13,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 9,
+    "CD": 13,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 10,
+    "CD": 13,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 11,
+    "CD": 13,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 2,
+    "maestria": 3,
+    "TR": 12,
+    "CD": 13,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 0,
+    "CD": 14,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 1,
+    "CD": 14,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 2,
+    "CD": 14,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 3,
+    "CD": 14,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 4,
+    "CD": 14,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 5,
+    "CD": 14,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 6,
+    "CD": 14,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 7,
+    "CD": 14,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 8,
+    "CD": 14,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 9,
+    "CD": 14,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 10,
+    "CD": 14,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 11,
+    "CD": 14,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 2,
+    "maestria": 4,
+    "TR": 12,
+    "CD": 14,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 0,
+    "CD": 12,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 1,
+    "CD": 12,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 2,
+    "CD": 12,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 3,
+    "CD": 12,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 4,
+    "CD": 12,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 5,
+    "CD": 12,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 6,
+    "CD": 12,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 7,
+    "CD": 12,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 8,
+    "CD": 12,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 9,
+    "CD": 12,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 10,
+    "CD": 12,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 11,
+    "CD": 12,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 3,
+    "maestria": 1,
+    "TR": 12,
+    "CD": 12,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 0,
+    "CD": 13,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 1,
+    "CD": 13,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 2,
+    "CD": 13,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 3,
+    "CD": 13,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 4,
+    "CD": 13,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 5,
+    "CD": 13,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 6,
+    "CD": 13,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 7,
+    "CD": 13,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 8,
+    "CD": 13,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 9,
+    "CD": 13,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 10,
+    "CD": 13,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 11,
+    "CD": 13,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 3,
+    "maestria": 2,
+    "TR": 12,
+    "CD": 13,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 0,
+    "CD": 14,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 1,
+    "CD": 14,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 2,
+    "CD": 14,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 3,
+    "CD": 14,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 4,
+    "CD": 14,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 5,
+    "CD": 14,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 6,
+    "CD": 14,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 7,
+    "CD": 14,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 8,
+    "CD": 14,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 9,
+    "CD": 14,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 10,
+    "CD": 14,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 11,
+    "CD": 14,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 3,
+    "maestria": 3,
+    "TR": 12,
+    "CD": 14,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 0,
+    "CD": 15,
+    "prob_falha": 0.7
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 1,
+    "CD": 15,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 2,
+    "CD": 15,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 3,
+    "CD": 15,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 4,
+    "CD": 15,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 5,
+    "CD": 15,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 6,
+    "CD": 15,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 7,
+    "CD": 15,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 8,
+    "CD": 15,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 9,
+    "CD": 15,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 10,
+    "CD": 15,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 11,
+    "CD": 15,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 3,
+    "maestria": 4,
+    "TR": 12,
+    "CD": 15,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 0,
+    "CD": 13,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 1,
+    "CD": 13,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 2,
+    "CD": 13,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 3,
+    "CD": 13,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 4,
+    "CD": 13,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 5,
+    "CD": 13,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 6,
+    "CD": 13,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 7,
+    "CD": 13,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 8,
+    "CD": 13,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 9,
+    "CD": 13,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 10,
+    "CD": 13,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 11,
+    "CD": 13,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 4,
+    "maestria": 1,
+    "TR": 12,
+    "CD": 13,
+    "prob_falha": 0.0
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 0,
+    "CD": 14,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 1,
+    "CD": 14,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 2,
+    "CD": 14,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 3,
+    "CD": 14,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 4,
+    "CD": 14,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 5,
+    "CD": 14,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 6,
+    "CD": 14,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 7,
+    "CD": 14,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 8,
+    "CD": 14,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 9,
+    "CD": 14,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 10,
+    "CD": 14,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 11,
+    "CD": 14,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 4,
+    "maestria": 2,
+    "TR": 12,
+    "CD": 14,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 0,
+    "CD": 15,
+    "prob_falha": 0.7
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 1,
+    "CD": 15,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 2,
+    "CD": 15,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 3,
+    "CD": 15,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 4,
+    "CD": 15,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 5,
+    "CD": 15,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 6,
+    "CD": 15,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 7,
+    "CD": 15,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 8,
+    "CD": 15,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 9,
+    "CD": 15,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 10,
+    "CD": 15,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 11,
+    "CD": 15,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 4,
+    "maestria": 3,
+    "TR": 12,
+    "CD": 15,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 0,
+    "CD": 16,
+    "prob_falha": 0.75
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 1,
+    "CD": 16,
+    "prob_falha": 0.7
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 2,
+    "CD": 16,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 3,
+    "CD": 16,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 4,
+    "CD": 16,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 5,
+    "CD": 16,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 6,
+    "CD": 16,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 7,
+    "CD": 16,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 8,
+    "CD": 16,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 9,
+    "CD": 16,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 10,
+    "CD": 16,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 11,
+    "CD": 16,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 4,
+    "maestria": 4,
+    "TR": 12,
+    "CD": 16,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 0,
+    "CD": 14,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 1,
+    "CD": 14,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 2,
+    "CD": 14,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 3,
+    "CD": 14,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 4,
+    "CD": 14,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 5,
+    "CD": 14,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 6,
+    "CD": 14,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 7,
+    "CD": 14,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 8,
+    "CD": 14,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 9,
+    "CD": 14,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 10,
+    "CD": 14,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 11,
+    "CD": 14,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 5,
+    "maestria": 1,
+    "TR": 12,
+    "CD": 14,
+    "prob_falha": 0.05
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 0,
+    "CD": 15,
+    "prob_falha": 0.7
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 1,
+    "CD": 15,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 2,
+    "CD": 15,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 3,
+    "CD": 15,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 4,
+    "CD": 15,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 5,
+    "CD": 15,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 6,
+    "CD": 15,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 7,
+    "CD": 15,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 8,
+    "CD": 15,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 9,
+    "CD": 15,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 10,
+    "CD": 15,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 11,
+    "CD": 15,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 5,
+    "maestria": 2,
+    "TR": 12,
+    "CD": 15,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 0,
+    "CD": 16,
+    "prob_falha": 0.75
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 1,
+    "CD": 16,
+    "prob_falha": 0.7
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 2,
+    "CD": 16,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 3,
+    "CD": 16,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 4,
+    "CD": 16,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 5,
+    "CD": 16,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 6,
+    "CD": 16,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 7,
+    "CD": 16,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 8,
+    "CD": 16,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 9,
+    "CD": 16,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 10,
+    "CD": 16,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 11,
+    "CD": 16,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 5,
+    "maestria": 3,
+    "TR": 12,
+    "CD": 16,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 0,
+    "CD": 17,
+    "prob_falha": 0.8
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 1,
+    "CD": 17,
+    "prob_falha": 0.75
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 2,
+    "CD": 17,
+    "prob_falha": 0.7
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 3,
+    "CD": 17,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 4,
+    "CD": 17,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 5,
+    "CD": 17,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 6,
+    "CD": 17,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 7,
+    "CD": 17,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 8,
+    "CD": 17,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 9,
+    "CD": 17,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 10,
+    "CD": 17,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 11,
+    "CD": 17,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 5,
+    "maestria": 4,
+    "TR": 12,
+    "CD": 17,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 0,
+    "CD": 15,
+    "prob_falha": 0.7
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 1,
+    "CD": 15,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 2,
+    "CD": 15,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 3,
+    "CD": 15,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 4,
+    "CD": 15,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 5,
+    "CD": 15,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 6,
+    "CD": 15,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 7,
+    "CD": 15,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 8,
+    "CD": 15,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 9,
+    "CD": 15,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 10,
+    "CD": 15,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 11,
+    "CD": 15,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 6,
+    "maestria": 1,
+    "TR": 12,
+    "CD": 15,
+    "prob_falha": 0.1
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 0,
+    "CD": 16,
+    "prob_falha": 0.75
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 1,
+    "CD": 16,
+    "prob_falha": 0.7
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 2,
+    "CD": 16,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 3,
+    "CD": 16,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 4,
+    "CD": 16,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 5,
+    "CD": 16,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 6,
+    "CD": 16,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 7,
+    "CD": 16,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 8,
+    "CD": 16,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 9,
+    "CD": 16,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 10,
+    "CD": 16,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 11,
+    "CD": 16,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 6,
+    "maestria": 2,
+    "TR": 12,
+    "CD": 16,
+    "prob_falha": 0.15
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 0,
+    "CD": 17,
+    "prob_falha": 0.8
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 1,
+    "CD": 17,
+    "prob_falha": 0.75
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 2,
+    "CD": 17,
+    "prob_falha": 0.7
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 3,
+    "CD": 17,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 4,
+    "CD": 17,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 5,
+    "CD": 17,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 6,
+    "CD": 17,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 7,
+    "CD": 17,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 8,
+    "CD": 17,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 9,
+    "CD": 17,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 10,
+    "CD": 17,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 11,
+    "CD": 17,
+    "prob_falha": 0.25
+  },
+  {
+    "atributo": 6,
+    "maestria": 3,
+    "TR": 12,
+    "CD": 17,
+    "prob_falha": 0.2
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 0,
+    "CD": 18,
+    "prob_falha": 0.85
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 1,
+    "CD": 18,
+    "prob_falha": 0.8
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 2,
+    "CD": 18,
+    "prob_falha": 0.75
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 3,
+    "CD": 18,
+    "prob_falha": 0.7
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 4,
+    "CD": 18,
+    "prob_falha": 0.65
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 5,
+    "CD": 18,
+    "prob_falha": 0.6
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 6,
+    "CD": 18,
+    "prob_falha": 0.55
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 7,
+    "CD": 18,
+    "prob_falha": 0.5
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 8,
+    "CD": 18,
+    "prob_falha": 0.45
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 9,
+    "CD": 18,
+    "prob_falha": 0.4
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 10,
+    "CD": 18,
+    "prob_falha": 0.35
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 11,
+    "CD": 18,
+    "prob_falha": 0.3
+  },
+  {
+    "atributo": 6,
+    "maestria": 4,
+    "TR": 12,
+    "CD": 18,
+    "prob_falha": 0.25
+  }
+]

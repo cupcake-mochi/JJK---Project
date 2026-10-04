@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "sha256_texto": "ea450639368f916c37a6a17de3112a6e2365db575aa8c4953a7a2f7429db941a",
+  "revisor": "subagente maxima",
+  "cobertura": "COBERTURA.json",
+  "decisoes": "../ALTERACOES.json",
+  "limites": [
+    "Revisão autoral, não independente.",
+    "Modelos numéricos são contas dirigidas, não playtest humano."
+  ]
+}

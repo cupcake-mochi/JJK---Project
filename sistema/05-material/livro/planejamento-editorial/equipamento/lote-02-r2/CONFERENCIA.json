@@ -1,0 +1,697 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "verificacoes": 61,
+  "sha256_pdf": "49204867ac009600c5a60d5e97e04f9a97b659544fa688b96565b8d265497bba",
+  "sha256_texto": "6fa7ebf79d5e05dc62ca419c4fb5395925a919bc1bb17e694c8bc2a54710b25c",
+  "checks": [
+    {
+      "verificacao": "Quantidade de páginas e seções",
+      "obtido": [
+        4,
+        4
+      ],
+      "esperado": [
+        4,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Sequência",
+      "obtido": [
+        "protecao",
+        "traje",
+        "escudo",
+        "vestir"
+      ],
+      "esperado": [
+        "protecao",
+        "traje",
+        "escudo",
+        "vestir"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Títulos correspondem ao mapa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entradas principais",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Grupos recolhidos",
+      "obtido": [
+        -3
+      ],
+      "esperado": [
+        -3
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Destinos de marcadores válidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p1: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: links corretos",
+      "obtido": [
+        2,
+        3,
+        4
+      ],
+      "esperado": [
+        2,
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada escudo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada traje",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada vestir",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p2: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p3: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p4: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes e versões anteriores preservadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Livro e exportações preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão do texto atual",
+      "obtido": "6fa7ebf79d5e05dc62ca419c4fb5395925a919bc1bb17e694c8bc2a54710b25c",
+      "esperado": "6fa7ebf79d5e05dc62ca419c4fb5395925a919bc1bb17e694c8bc2a54710b25c",
+      "ok": true
+    },
+    {
+      "verificacao": "Seções lidas",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "Inspeção do PDF atual",
+      "obtido": "49204867ac009600c5a60d5e97e04f9a97b659544fa688b96565b8d265497bba",
+      "esperado": "49204867ac009600c5a60d5e97e04f9a97b659544fa688b96565b8d265497bba",
+      "ok": true
+    },
+    {
+      "verificacao": "Todas páginas visualmente examinadas",
+      "obtido": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Inspeção sem defeitos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Bloqueio editorial e revisão contextual",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Casos documentais registrados",
+      "obtido": 18,
+      "esperado": 18,
+      "ok": true
+    },
+    {
+      "verificacao": "9 perfis correspondem ao dono",
+      "obtido": [
+        [
+          "Traje1",
+          1.0,
+          null,
+          null,
+          0.1
+        ],
+        [
+          "Traje2",
+          2.0,
+          null,
+          null,
+          1.0
+        ],
+        [
+          "Traje3",
+          3.0,
+          null,
+          3.0,
+          2.0
+        ],
+        [
+          "Revestimento1",
+          4.0,
+          0.0,
+          3.0,
+          2.0
+        ],
+        [
+          "Revestimento2",
+          5.0,
+          0.0,
+          4.0,
+          3.0
+        ],
+        [
+          "Revestimento3",
+          6.0,
+          0.0,
+          6.0,
+          4.0
+        ],
+        [
+          "Broquel",
+          1.0,
+          5.0,
+          null,
+          0.1
+        ],
+        [
+          "Médio",
+          2.0,
+          3.0,
+          3.0,
+          1.0
+        ],
+        [
+          "Torre",
+          3.0,
+          1.0,
+          5.0,
+          2.0
+        ]
+      ],
+      "esperado": [
+        [
+          "Traje1",
+          1,
+          null,
+          null,
+          0.1
+        ],
+        [
+          "Traje2",
+          2,
+          null,
+          null,
+          1
+        ],
+        [
+          "Traje3",
+          3,
+          null,
+          3,
+          2
+        ],
+        [
+          "Revestimento1",
+          4,
+          0,
+          3,
+          2
+        ],
+        [
+          "Revestimento2",
+          5,
+          0,
+          4,
+          3
+        ],
+        [
+          "Revestimento3",
+          6,
+          0,
+          6,
+          4
+        ],
+        [
+          "Broquel",
+          1,
+          5,
+          null,
+          0.1
+        ],
+        [
+          "Médio",
+          2,
+          3,
+          3,
+          1
+        ],
+        [
+          "Torre",
+          3,
+          1,
+          5,
+          2
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Tabela candidata preserva os9perfis",
+      "obtido": [
+        [
+          "Traje1",
+          1.0,
+          null,
+          null,
+          0.1
+        ],
+        [
+          "Traje2",
+          2.0,
+          null,
+          null,
+          1.0
+        ],
+        [
+          "Traje3",
+          3.0,
+          null,
+          3.0,
+          2.0
+        ],
+        [
+          "Revestimento1",
+          4.0,
+          0.0,
+          3.0,
+          2.0
+        ],
+        [
+          "Revestimento2",
+          5.0,
+          0.0,
+          4.0,
+          3.0
+        ],
+        [
+          "Revestimento3",
+          6.0,
+          0.0,
+          6.0,
+          4.0
+        ],
+        [
+          "Broquel",
+          1.0,
+          5.0,
+          null,
+          0.1
+        ],
+        [
+          "Médio",
+          2.0,
+          3.0,
+          3.0,
+          1.0
+        ],
+        [
+          "Torre",
+          3.0,
+          1.0,
+          5.0,
+          2.0
+        ]
+      ],
+      "esperado": [
+        [
+          "Traje1",
+          1.0,
+          null,
+          null,
+          0.1
+        ],
+        [
+          "Traje2",
+          2.0,
+          null,
+          null,
+          1.0
+        ],
+        [
+          "Traje3",
+          3.0,
+          null,
+          3.0,
+          2.0
+        ],
+        [
+          "Revestimento1",
+          4.0,
+          0.0,
+          3.0,
+          2.0
+        ],
+        [
+          "Revestimento2",
+          5.0,
+          0.0,
+          4.0,
+          3.0
+        ],
+        [
+          "Revestimento3",
+          6.0,
+          0.0,
+          6.0,
+          4.0
+        ],
+        [
+          "Broquel",
+          1.0,
+          5.0,
+          null,
+          0.1
+        ],
+        [
+          "Médio",
+          2.0,
+          3.0,
+          3.0,
+          1.0
+        ],
+        [
+          "Torre",
+          3.0,
+          1.0,
+          5.0,
+          2.0
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "ExemploRinaTraje2",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "verificacao": "ExemploRinaMédio",
+      "obtido": 17,
+      "esperado": 17,
+      "ok": true
+    },
+    {
+      "verificacao": "ExemploSousuke",
+      "obtido": 19,
+      "esperado": 19,
+      "ok": true
+    },
+    {
+      "verificacao": "Durante retiradaTraje2 semescudo",
+      "obtido": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "verificacao": "Montagens legais não ultrapassam teto publicado20",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "verificacao": "Teto0 sempre elimina parcelaDex",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Energia passiva não soma comTraje",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "verificacao": "Volume6 e capacidade11",
+      "obtido": [
+        6,
+        11
+      ],
+      "esperado": [
+        6,
+        11
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Situações publicadas preservadas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Sem benefício antes de finalizar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Sem restauração passiva ao retirar parcialmente",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Cenários da restrição de Trajes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Cenários do Traje usam texto atual",
+      "obtido": "6fa7ebf79d5e05dc62ca419c4fb5395925a919bc1bb17e694c8bc2a54710b25c",
+      "esperado": "6fa7ebf79d5e05dc62ca419c4fb5395925a919bc1bb17e694c8bc2a54710b25c",
+      "ok": true
+    }
+  ],
+  "geometria": [
+    {
+      "pagina": 1,
+      "final_corpo": 586.52
+    },
+    {
+      "pagina": 2,
+      "final_corpo": 742.92
+    },
+    {
+      "pagina": 3,
+      "final_corpo": 641.62
+    },
+    {
+      "pagina": 4,
+      "final_corpo": 643.02
+    }
+  ],
+  "limites": [
+    "Não substitui revisão independente, teste humano ou playtest.",
+    "Convenções novas identificadas em DECISOES.md."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "sha256_texto": "f6966f9810cb27193c671a692d475d88c341f9833938d7aa1fda646df4724d13",
+  "secoes": [
+    {
+      "id": "equipamento",
+      "parecer": "Apresenta função e seis tipos; roupa sem proteção distinguida de Traje. Sem repetir habilidades de Caminho."
+    },
+    {
+      "id": "graus",
+      "parecer": "Grau, degrau e patente separados. Requisitos 7/13 mantidos; escala declarada como adaptação."
+    },
+    {
+      "id": "uso",
+      "parecer": "Limites pelas mãos e dois itens vestidos. Cópias compartilham frequência sem reintroduzir sintonização."
+    },
+    {
+      "id": "aquisicao",
+      "parecer": "Aquisição separada de uso e fabricação. Valores de base não inventam preço mágico universal."
+    },
+    {
+      "id": "armas",
+      "parecer": "Gatilho, alcance, sobrevivência e mãos conferidos. Aferido usa ataque desarmado para resolver contato hostil."
+    },
+    {
+      "id": "roupas",
+      "parecer": "Identidade visual, fuga e teleporte com destinos, amarras e ações definidos."
+    },
+    {
+      "id": "protecao",
+      "parecer": "Escudo flutuante ocupa vaga vestida. Quebranto não apaga efeitos de sucesso."
+    },
+    {
+      "id": "acessorios",
+      "parecer": "Detecção limitada e Contrapeso sem alterar carga. Ar não cria natação nem proteção ambiental."
+    },
+    {
+      "id": "reliquias",
+      "parecer": "Cisão mantém interface com Integridade; Anátema é peça própria, não reprodução declarada da obra."
+    },
+    {
+      "id": "desgaste",
+      "parecer": "Última missão inteira; frequência não é reposta. Uso e transporte distinguidos."
+    },
+    {
+      "id": "objetos",
+      "parecer": "Cânone e convenções do jogo separados, seguindo evidências oficiais de lote-07."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

@@ -1,0 +1,9 @@
+{
+  "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/CONSTRUIR-INVOCACOES.md": {
+    "sha256_anterior": "b5cdf71d370efc1d32ed005d6abe4099be9e3cdcbda2666f6cf9fb337a1282c0",
+    "sha256_final": "0e47b1295d76cac0caeadacec227cc37c0221d537b59e89cfa10455c962389d1",
+    "autor": "raiz, confirmado por mensagem nesta sessão",
+    "mudanca": "R12 decisão31: remissão a Cura e reparo e limite de corpos mantidos (p7/10) em vez de inativos; nenhuma fórmula mudou.",
+    "cotejo": "Releitura de aquisição/tipos/progressão nesta sessão. Compatível comFAB11 e nova remissão; não exige alterar manuscrito de fabricação."
+  }
+}

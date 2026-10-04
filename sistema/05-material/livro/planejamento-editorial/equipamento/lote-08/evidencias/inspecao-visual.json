@@ -1,0 +1,50 @@
+{
+  "sha256_pdf": "3fc979ab7e05081a573cf5f1ee8e01a89df0260e37479cfa1f5adece45fd0384",
+  "metodo": "Renderização PNG em 1250px; leitura visual de todas as páginas. Após correção, páginas 4 e 5 reexaminadas e outras nove comparadas pixel a pixel com a prova examinada.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "ordem": [
+    "degraus",
+    "criardominio",
+    "acerto",
+    "protecao",
+    "abertura",
+    "barreira",
+    "rescaldo",
+    "sembarreiras",
+    "disputa",
+    "manterdisputa",
+    "sobreposicao",
+    "multiplos",
+    "galeriavidro",
+    "salatregua",
+    "confronto"
+  ],
+  "titulos": {
+    "degraus": "Expansão de Domínio",
+    "criardominio": "Criar um domínio",
+    "acerto": "Acerto do domínio",
+    "protecao": "Proteção contra domínios",
+    "abertura": "Abrir e manter",
+    "barreira": "Barreira e movimento",
+    "rescaldo": "Encerramento e Rescaldo",
+    "sembarreiras": "Expansão sem Barreiras",
+    "disputa": "Disputa de domínios",
+    "manterdisputa": "Manter uma disputa",
+    "sobreposicao": "Áreas sobrepostas",
+    "multiplos": "Vários domínios",
+    "galeriavidro": "Galeria de Vidro",
+    "salatregua": "Sala de Trégua",
+    "confronto": "Exemplo de confronto"
+  },
+  "paginas": {
+    "degraus": 1,
+    "criardominio": 2,
+    "acerto": 3,
+    "protecao": 4,
+    "abertura": 5,
+    "barreira": 6,
+    "rescaldo": 7,
+    "sembarreiras": 8,
+    "disputa": 9,
+    "manterdisputa": 10,
+    "sobreposicao": 11,
+    "multiplos": 12,
+    "galeriavidro": 13,
+    "salatregua": 14,
+    "confronto": 15
+  },
+  "grupos": [
+    [
+      "Criar o domínio",
+      [
+        "degraus",
+        "criardominio",
+        "acerto",
+        "protecao"
+      ]
+    ],
+    [
+      "Usar o domínio",
+      [
+        "abertura",
+        "barreira",
+        "rescaldo",
+        "sembarreiras"
+      ]
+    ],
+    [
+      "Disputas",
+      [
+        "disputa",
+        "manterdisputa",
+        "sobreposicao",
+        "multiplos"
+      ]
+    ],
+    [
+      "Exemplos",
+      [
+        "galeriavidro",
+        "salatregua",
+        "confronto"
+      ]
+    ]
+  ]
+}

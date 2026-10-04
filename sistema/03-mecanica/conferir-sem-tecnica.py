@@ -69,9 +69,10 @@ _m = re.search(r'PE por nível \|([^\n]+)\|', P06)
 PE_CAM = []
 if _m:
     PE_CAM = [int(x) for x in re.findall(r'\b(\d)\b', _m.group(1))]
-if len(PE_CAM) != 5:
+_ncam331 = len(re.findall(r'^\| \*\*([^*]+)\*\* \|', P06.split('## 2.')[0], re.M))
+if not _ncam331 or len(PE_CAM) != _ncam331:
     erro(f'1: li {len(PE_CAM)} coluna(s) de PE por nivel na peca 6 §5 e os Caminhos '
-         'sao cinco — o extrator parou de casar, e esta checagem nao tem contra o '
+         f'sao {_ncam331} — o extrator parou de casar, e esta checagem nao tem contra o '
          'que comparar')
 else:
     print(f'  PE por nivel, lido da peca 6 §5: {" · ".join(map(str, PE_CAM))}')

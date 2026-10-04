@@ -45,3 +45,7 @@ sistema/05-material/livro/build/manual.html
 # PDFs de sistemas de terceiros. Ficam no disco como referencia de medida,
 # nunca no repositorio — sao material comercial de outra pessoa.
 PDFs - Sistemas Extras/
+
+# Provas rasterizadas e pacotes antigos de transferência ficam no ambiente local.
+entregas/continuidade-work-2026-10-03/
+sistema/05-material/livro/planejamento-editorial/**/*.png

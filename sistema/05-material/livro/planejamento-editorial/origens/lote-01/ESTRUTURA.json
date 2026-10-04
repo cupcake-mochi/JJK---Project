@@ -1,0 +1,164 @@
+{
+  "ordem": [
+    "origens",
+    "origem-escolhas",
+    "legados",
+    "origem-latente",
+    "latente-beneficios",
+    "origem-receptaculo",
+    "receptaculo-acordos",
+    "receptaculo-excecoes",
+    "origem-descendente",
+    "descendente-beneficios",
+    "origem-encarnado",
+    "encarnado-beneficios",
+    "origem-feto",
+    "feto-beneficios",
+    "origem-sem-tecnica",
+    "origem-corpo",
+    "origem-reparo",
+    "corpo-configuracoes",
+    "corpo-ninhada-gemeos",
+    "corpo-inteiro-manutencao",
+    "origem-restricao",
+    "restricao-corpo",
+    "restricao-sem-energia",
+    "restricao-beneficios",
+    "legado-criar",
+    "legados-exemplos"
+  ],
+  "titulos": {
+    "origens": "Origens",
+    "origem-escolhas": "Escolhas da Origem",
+    "legados": "Legados",
+    "origem-latente": "Latente",
+    "latente-beneficios": "Legados do Latente",
+    "origem-receptaculo": "Receptáculo",
+    "receptaculo-acordos": "Presença no corpo",
+    "receptaculo-excecoes": "Legados de exceção do Receptáculo",
+    "origem-descendente": "Descendente",
+    "descendente-beneficios": "Legados do Descendente",
+    "origem-encarnado": "Encarnado",
+    "encarnado-beneficios": "Legados do Encarnado",
+    "origem-feto": "Feto",
+    "feto-beneficios": "Legados do Feto",
+    "origem-sem-tecnica": "Sem Técnica",
+    "origem-corpo": "Corpo Amaldiçoado",
+    "origem-reparo": "Reparo do corpo",
+    "corpo-configuracoes": "Configurações do corpo",
+    "corpo-ninhada-gemeos": "Legados de Ninhada e Gêmeos",
+    "corpo-inteiro-manutencao": "Legados de Inteiro e Manutenção",
+    "origem-restricao": "Restrição Celestial",
+    "restricao-corpo": "Legados de Corpo pela Técnica",
+    "restricao-sem-energia": "Legados narrativos de Sem Energia",
+    "restricao-beneficios": "Benefícios da Restrição Celestial",
+    "legado-criar": "Criar um Legado",
+    "legados-exemplos": "Exemplos de personagens"
+  },
+  "paginas": {
+    "origens": 1,
+    "origem-escolhas": 2,
+    "legados": 3,
+    "origem-latente": 4,
+    "latente-beneficios": 5,
+    "origem-receptaculo": 6,
+    "receptaculo-acordos": 7,
+    "receptaculo-excecoes": 8,
+    "origem-descendente": 9,
+    "descendente-beneficios": 10,
+    "origem-encarnado": 11,
+    "encarnado-beneficios": 12,
+    "origem-feto": 13,
+    "feto-beneficios": 14,
+    "origem-sem-tecnica": 15,
+    "origem-corpo": 16,
+    "origem-reparo": 17,
+    "corpo-configuracoes": 18,
+    "corpo-ninhada-gemeos": 19,
+    "corpo-inteiro-manutencao": 20,
+    "origem-restricao": 21,
+    "restricao-corpo": 22,
+    "restricao-sem-energia": 23,
+    "restricao-beneficios": 24,
+    "legado-criar": 25,
+    "legados-exemplos": 26
+  },
+  "grupos": [
+    [
+      "Origens e escolhas",
+      [
+        "origens",
+        "origem-escolhas",
+        "legados"
+      ]
+    ],
+    [
+      "Latente",
+      [
+        "origem-latente",
+        "latente-beneficios"
+      ]
+    ],
+    [
+      "Receptáculo",
+      [
+        "origem-receptaculo",
+        "receptaculo-acordos",
+        "receptaculo-excecoes"
+      ]
+    ],
+    [
+      "Descendente",
+      [
+        "origem-descendente",
+        "descendente-beneficios"
+      ]
+    ],
+    [
+      "Encarnado",
+      [
+        "origem-encarnado",
+        "encarnado-beneficios"
+      ]
+    ],
+    [
+      "Feto",
+      [
+        "origem-feto",
+        "feto-beneficios"
+      ]
+    ],
+    [
+      "Sem Técnica",
+      [
+        "origem-sem-tecnica"
+      ]
+    ],
+    [
+      "Corpo Amaldiçoado",
+      [
+        "origem-corpo",
+        "origem-reparo",
+        "corpo-configuracoes",
+        "corpo-ninhada-gemeos",
+        "corpo-inteiro-manutencao"
+      ]
+    ],
+    [
+      "Restrição Celestial",
+      [
+        "origem-restricao",
+        "restricao-corpo",
+        "restricao-sem-energia",
+        "restricao-beneficios"
+      ]
+    ],
+    [
+      "Criação e exemplos",
+      [
+        "legado-criar",
+        "legados-exemplos"
+      ]
+    ]
+  ]
+}

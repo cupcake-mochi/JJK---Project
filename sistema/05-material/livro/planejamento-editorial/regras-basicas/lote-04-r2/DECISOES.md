@@ -1,0 +1,46 @@
+# Decisões de Recuperação
+
+Proposta sobre a v0.331. Regras declaradas nas fontes, interpretações e lacunas são identificadas separadamente. Os rótulos “nesta proposta” no manuscrito impedem que uma convenção nova pareça regra histórica já aprovada.
+
+| ID | Tratamento na candidata | Evidência e situação |
+|---|---|---|
+| R01 | Cura respeita o máximo atual; excesso não vira vida temporária. | Esclarecimento compatível com as reservas e o Cuidado integrado. Sem importar a morte/retorno de D&D. |
+| R02 | Corpo Amaldiçoado pode receber reparo por ofício no descanso e técnica apropriada em combate. | Preserva manual 25 e decisão v0.326 no histórico. Não afirmar que toda cura exige Energia Reversa, frase antiga que conflita com essa exceção. Consulta à Origem local, sem editar o trabalho externo. |
+| R03 | Vida/energia temporárias: consome primeiro, maior saldo em vez de soma, metade do máximo e fim da cena. | Peça 01 §§5.1.1–5.1.2 e manual 10. Comparar saldo restante com nova concessão explicita o procedimento. Não importar a duração até descanso longo de D&D. Falta fechar ajuste se o máximo diminuir depois de concedida a reserva. |
+| R04 | **Revisada em r2:** referência desconsidera a redução de máximo causada por Insistir. | Proposta de correção: a habilidade não barateia as próprias próximas ativações nem o socorro. Modificadores de máximo vindos de outras fontes ainda exigem conciliação. Não é decisão autoral anterior confirmada. |
+| R05 | Aguentar conta voltas completas desde o ponto da queda; danos positivos à vida reduzem mais uma rodada. | A fonte dá três rodadas e redução por dano, mas não fixa marco temporal. Convenção de ensaio; não conta por turno adicional nem concede turno extra. Revisar manipulação de iniciativa e fim do combate. |
+| R06 | Aguentar exige 20% em uma cura; curas menores não se acumulam nem saem de zero. Levanta é exceção. | Percentual, uso único e Levanta estão explícitos. Descartar cura insuficiente é **interpretação material** para fechar o procedimento, ainda não aprovada. Confirmar com tratamentos persistentes. |
+| R07 | Dano a zero começa depois do golpe da queda; só conta o que chega à vida, não o custo de Insistir. | Exclusão do custo está explícita. Excluir excesso inicial e absorção por temporários são convenções candidatas. Fonte não fecha o excesso. Ultrapassar metade usa comparação estrita, não “igual ou maior”. |
+| R08 | Insistir paga logo ao escolher, depois a cada volta; frações sobre referência fixa. | Frações 1/8, 1/4, 1/2 e custo arredondado para cima são preservados; marco do pagamento é novo. Máxima fixa segue exemplos publicados e validador. |
+| R09 | Cura de pelo menos 1 encerra Insistir antes de desabar. | A fonte permite autocura em Insistir para evitar Cicatriz, mas não explicita o limiar de saída nesse momento. Leitura candidata; não confundir com os 20% de Aguentar ou 50% após desabar. É decisão de balanceamento antes de integrar. |
+| R10 | Após desabar, tratamento soma até metade da referência; volta limitado ao máximo atual. | Soma de curas e limiar estão explícitos; controle separado é necessário para o caso referência 80/máximo atual 10, que exige 40 de tratamento. **A fonte não resolve dano recebido depois de desabar**, prazo desse estado nem fim de cena; manuscrito reconhece a lacuna, sem declarar invulnerabilidade. |
+| R11 | Sequela encurta Aguentar, sem alterar a escada de Insistir. Cicatriz surge ao levantar da segunda queda desde limpar Sequelas. | O desconto é descrito como janela e o exemplo o liga a Aguentar; a frase “próxima queda” pode ser mais ampla. Delimitação candidata. Marco e período de Cicatriz também não estão completos na fonte. Risco: Insistir pode virar escolha forçada com três Sequelas. |
+| R12 | Inconsciente não age nem Bloqueia; não foi importado pacote D&D de críticos/Defesa. | “Apaga/não age” é explícito; proibição de escolher Bloquear é inferência funcional, precisa confirmação. Defesa, acerto contra inconsciente e interação com condições devem ser fechados no confronto de combate. |
+| R13 | Longo fora da base estabelece piso de metade, preservando saldo maior; restaura máximo antes. | Peça 10 chama metade de piso, mas tabela diz devolve. Esta leitura evita curar mais ao repetir descanso e evita perder recursos por descansar. Detalhe de cálculo é candidato. |
+| R14 | Longo depende do fim da missão; dormir em missão só renova por dia, salvo outra permissão. | Definição e distinção de relógios da peça 10 apoiam isso. **O exemplo final do manual 70 dá metade de vida/PE ao dormir ainda em missão, em contradição com a definição.** Candidata segue a definição, omite esse desfecho do exemplo e registra o conflito. Confirmar se o usuário deseja recuperação noturna parcial própria. |
+| R15 | Exaustão 2 limita deslocamento a 4,5 m. | **Decisão aprovada na v0.176**, logs/CHANGELOG.md, tabela “revisão mexeu em REGRA”. Manual 70 já traz 4,5; peça 10 e conferir-descanso.py ainda usam 6. Candidata preserva a mudança autoral; não atualizar o dono nesta fase de provas. |
+| R16 | Exaustão conserva efeitos anteriores e soma degraus ao concluir a quarta luta e seguintes. | Cumulatividade e momento final são explicitações. Piso de movimento não aumenta quem tem menos; ao combinar com Integridade, usa o menor corte sem multiplicá-los. Pior das duas está explícito na peça 10. Mudança autoral para 4,5 invalida a alegação antiga de que Alma sempre corta mais. |
+| R17 | Uma pausa contínua não gera infinitos descansos; cena não muda só por trocar cômodo. | Delimitação candidata dos gatilhos ficcionais. Usos “por descanso” sem espécie precisam de correção na fonte; sem renovação presumida para todo tipo de pausa. Longo renovar também usos de curto é interface ainda a conferir nas habilidades. |
+| R18 | Remenda restaura pontos; limpar estágios no descanso não desfaz desfecho permanente. | Recuperação total/limpeza vêm das fontes; Remenda não limpar estágio é a candidata D10 anterior, **continua pendente**. Estágio 4 usa consequência definida pela mesa; não criar ressurreição ou transformação em maldição por inferência. |
+
+## Achados prioritários antes da integração
+
+1. **Tratado numericamente em r2, ainda candidato:** referência sem perdas de Insistir e pagamento só se restar ao menos 1. Primeira parcela inviável impede escolher Insistir; posterior inviável causa colapso sem pagar. Não muda frações. Decisão de design registrada em R19; equilíbrio não confirmado.
+2. **Colapso de Insistir não tem desfecho completo:** limiar de cura existe, mas dano posterior e prazo não. Precisa regra de combate, não frase ornamental.
+3. **O que significa máxima original em quedas sucessivas e qual janela a Sequela encurta.** Resolver R04/R11 junto do item anterior, para não favorecer reinícios ilimitados.
+4. **Descanso durante missão:** decidir a divergência definição/exemplo e conferir recarga de curto após longo.
+5. **Alma:** R18 não fecha as pendências D06–D11. Cura de Integridade, estágio por TR e morte devem ser decididos como conjunto.
+
+Esses achados não impedem revisar a prosa como candidata; impedem declará-la sistema de queda completamente resolvido. Nova revisão independente e teste com jogadores seguem pendentes.
+
+## R19 - Custo que não barateia a própria repetição
+
+**Proposta, não aplicação à v0.331.** Custos e limiares passam a usar o máximo sem a redução causada por Insistir. O máximo atual guarda a perda acumulada. Não se pode pagar uma parcela que deixe menos de 1: se for a primeira, Insistir não está disponível; se for posterior, ocorre colapso sem esse pagamento. A janela de Aguentar continua dependendo das Sequelas; não se concede janela mínima grátis.
+
+Com referência 80, todas as primeiras parcelas custam 10, mesmo quando o máximo atual for 70. Se restar 10, não pode escolher Insistir novamente. As frações 1/8, 1/4, 1/2 permanecem; três parcelas da primeira queda deixam 10, como antes. Nenhum pagamento zera o máximo.
+
+Comparador deliberadamente isolado: supor cura e nova queda depois de cada primeira parcela, com a mesma proteção contra zero nos dois modelos. Recalcular a base pela perda permite 13, 22 e 31 ativações para referências 23, 80 e 305; conservar a base permite 7 nas três. Isso não são números de ataques ou rodadas reais: não modela PE, cura disponível, Sequela, inimigos ou chance de cair. Demonstra só o desconto cumulativo.
+
+Grade exata: 80.200 pares de referência/saldo, referências 1–400; 200.001 parcelas examinadas, incluindo interrupção por pagamento impossível. O código e resultados estão em evidencias. As antigas contas sobre referência baixa ficam como regressão do problema, não como regra atual da r2.
+
+**Ainda aberto:** custo/critério da cura durante Insistir, consequências de dano após colapso, alcance da Sequela sobre esse ramo, referência sob outros modificadores de máximo, duração depois do combate e Remenda/estágios. R19 corrige um defeito de cálculo; não fecha toda a máquina de queda.

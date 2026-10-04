@@ -1,0 +1,213 @@
+{
+  "sha256_texto": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+  "metodo": "Leitura contextual pelo agente principal, confrontando toda a fonte e as interfaces indicadas. Não é teste com jogadores.",
+  "secoes": [
+    {
+      "id": "van-base",
+      "titulo": "Vanguarda",
+      "palavras": 151,
+      "parecer": "Características e progressão preservadas. Treinos remetem aos seus catálogos.",
+      "clareza": "Características e progressão preservadas. Treinos remetem aos seus catálogos.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-sequencia",
+      "titulo": "Sequência de Condução",
+      "palavras": 353,
+      "parecer": "Etapas usam ataques disponíveis. Custo, redução de dano, erro e exemplo estão no mesmo procedimento.",
+      "clareza": "Etapas usam ataques disponíveis. Custo, redução de dano, erro e exemplo estão no mesmo procedimento.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-conducoes",
+      "titulo": "Conduções",
+      "palavras": 202,
+      "parecer": "Seis opções preservadas. Movimento evita oportunidade apenas do alvo. Prazos identificados.",
+      "clareza": "Seis opções preservadas. Movimento evita oportunidade apenas do alvo. Prazos identificados.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-conclusoes",
+      "titulo": "Conclusões",
+      "palavras": 290,
+      "parecer": "Sete opções comuns com fonte de ataque, preparo mínimo, TR e saída próprios.",
+      "clareza": "Sete opções comuns com fonte de ataque, preparo mínimo, TR e saída próprios.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-escola",
+      "titulo": "Prazo e Escola de Arma",
+      "palavras": 268,
+      "parecer": "Prazo da Sequência e escolha da Escola completos. Manha ocorre depois do dano, sem reativação livre.",
+      "clareza": "Prazo da Sequência e escolha da Escola completos. Manha ocorre depois do dano, sem reativação livre.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-avanco",
+      "titulo": "Habilidades avançadas",
+      "palavras": 243,
+      "parecer": "Níveis 7/15/23/30 conservados. Dupla tem requisitos antes dos testes. Persistência não transforma erro em acerto.",
+      "clareza": "Níveis 7/15/23/30 conservados. Dupla tem requisitos antes dos testes. Persistência não transforma erro em acerto.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-estocada",
+      "titulo": "Estocada",
+      "palavras": 176,
+      "parecer": "Compasso apresenta categoria, atributo, PE e Classe mínima. Troca de atributo não retira requisito de Força.",
+      "clareza": "Compasso apresenta categoria, atributo, PE e Classe mínima. Troca de atributo não retira requisito de Força.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-feiticos",
+      "titulo": "Conclusões de feitiço",
+      "palavras": 404,
+      "parecer": "Seis Conclusões de feitiço, com uma resolução inicial escolhida. Efeitos novos não alteram testes do mesmo lançamento.",
+      "clareza": "Seis Conclusões de feitiço, com uma resolução inicial escolhida. Efeitos novos não alteram testes do mesmo lançamento.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-bote",
+      "titulo": "Bote e Ferrão",
+      "palavras": 245,
+      "parecer": "Bote e Ferrão são alternativas. Ataque Extra conserva limite da rodada. Ferrão exige acerto e resolução própria do Classe 0.",
+      "clareza": "Bote e Ferrão são alternativas. Ataque Extra conserva limite da rodada. Ferrão exige acerto e resolução própria do Classe 0.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-yumi",
+      "titulo": "Batedor: Yumi",
+      "palavras": 413,
+      "parecer": "Escolha de rota, escalada e reserva da flecha. Atraso consome ataque no turno e Reação na soltura.",
+      "clareza": "Escolha de rota, escalada e reserva da flecha. Atraso consome ataque no turno e Reação na soltura.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-yumi-conducoes",
+      "titulo": "Conduções e Conclusões do Yumi",
+      "palavras": 429,
+      "parecer": "Três modos e duas Conclusões de Yumi. O momento e os prazos não se prorrogam por esperar.",
+      "clareza": "Três modos e duas Conclusões de Yumi. O momento e os prazos não se prorrogam por esperar.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-yumi-avanco",
+      "titulo": "Leituras do Yumi",
+      "palavras": 320,
+      "parecer": "Leitura ativa e reserva distinguem acerto, erro preservado e troca. Nenhuma devolve Reação.",
+      "clareza": "Leitura ativa e reserva distinguem acerto, erro preservado e troca. Nenhuma devolve Reação.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-besta",
+      "titulo": "Batedor: Besta",
+      "palavras": 246,
+      "parecer": "Munição física separada de marcadores. Três Conduções e retirada por ação explicitadas. Revisão independente: mão disponível é necessária para colocar outro virote, não para disparar um já carregado.",
+      "clareza": "Munição física separada de marcadores. Três Conduções e retirada por ação explicitadas.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-besta-conclusoes",
+      "titulo": "Conclusões da Besta",
+      "palavras": 213,
+      "parecer": "Duas Conclusões da Besta e Farpa preservadas. Pagamento ocorre antes de acerto e TR.",
+      "clareza": "Duas Conclusões da Besta e Farpa preservadas. Pagamento ocorre antes de acerto e TR.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-besta-avanco",
+      "titulo": "Preparação com virotes",
+      "palavras": 240,
+      "parecer": "Fixação usa Reação após retirada verdadeira. Remanescente preserva só um virote e não preserva acertos de Condução.",
+      "clareza": "Fixação usa Reação após retirada verdadeira. Remanescente preserva só um virote e não preserva acertos de Condução.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-fogo",
+      "titulo": "Batedor: Arma de Fogo",
+      "palavras": 289,
+      "parecer": "Capacidade adicional exige estoque. Três preparos de Oportunidade com seus momentos próprios.",
+      "clareza": "Capacidade adicional exige estoque. Três preparos de Oportunidade com seus momentos próprios.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-fogo-conclusoes",
+      "titulo": "Conclusões da Arma de Fogo",
+      "palavras": 237,
+      "parecer": "Duas Conclusões e Reorientar. Recarga de Ruptura não prepara arma que já estava impedida de disparar.",
+      "clareza": "Duas Conclusões e Reorientar. Recarga de Ruptura não prepara arma que já estava impedida de disparar.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-fogo-avanco",
+      "titulo": "Retirada e continuidade",
+      "palavras": 428,
+      "parecer": "Retirada exige movimento efetivo. Continuidade exige recarga de Ruptura, sem aproveitar qualquer reposição.",
+      "clareza": "Retirada exige movimento efetivo. Continuidade exige recarga de Ruptura, sem aproveitar qualquer reposição.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-executor",
+      "titulo": "Executor",
+      "palavras": 425,
+      "parecer": "Finta apresenta anúncio, resposta e decisão antes do catálogo de quatro Conclusões. Sem rolagem durante a negociação.",
+      "clareza": "Finta apresenta anúncio, resposta e decisão antes do catálogo de quatro Conclusões. Sem rolagem durante a negociação.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    },
+    {
+      "id": "van-executor-avanco",
+      "titulo": "Intenções do Executor",
+      "palavras": 331,
+      "parecer": "Duas Intenções escolhe um efeito, Dupla pode aplicar dois por outra regra. Dobrar a Aposta não combina com Dupla.",
+      "clareza": "Duas Intenções escolhe um efeito, Dupla pode aplicar dois por outra regra. Dobrar a Aposta não combina com Dupla.",
+      "suficiencia": "Requisitos, custos, resolução, prazo e limitações confrontados com a fonte.",
+      "voz": "Preservada a escrita funcional já revista da fonte, com menos semicolons e remissões antigas.",
+      "canone": "Regras próprias. Nenhuma nova alegação sobre cenas de JJK."
+    }
+  ],
+  "revisao_delta_nomes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_previo": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+    "sha256_atual": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+    "escopo": "Somente o delta nominal foi relido nesta etapa; leitura integral anterior preservada no snapshot. Números e âncoras idênticos.",
+    "evidencia": "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  }
+}

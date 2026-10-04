@@ -1,0 +1,35 @@
+{
+  "sha256_texto": "f357c3008c2493965e1cf32bf1339a3921abe0b9f8fc9ad49b6524383d45aa57",
+  "itens": [
+    {
+      "dono": "R01/R03",
+      "regra": "Atualização no fim da missão. Só o crescimento por novo nível e marco acrescenta diferença de máximo, calculado antes da troca. PV zero permanece zero; PE zero recebe aumento. Trocas e ajustes apenas conservam ou limitam saldo.",
+      "estado": "Sincronizar dono geral de recuperação."
+    },
+    {
+      "dono": "R06/R07/R09/R10",
+      "regra": "Uma revisão de aplicação ou espaço; Passivas pagas e Leque concedido separados. Refino/Lapidação básico antes da escolha.",
+      "estado": "Compatível; evitar copiar tabelas detalhadas nos outros capítulos."
+    },
+    {
+      "dono": "R11/R12/R17/Fabricação",
+      "regra": "Troca de Trilha transforma dupla em uma entidade por vaga. Capacidade de corpos4→2 reduz total mantido. Fichas e corpos persistem; retomar controle exige aquisição ou transferência permitida, sem alternância gratuita. Retirar capacidades concedidas pela Trilha.",
+      "estado": "Fechamentos candidatos autorizados, remeter nos donos."
+    },
+    {
+      "dono": "R20",
+      "regra": "Origem e Legados são escolhas da criação. Não concede novas vagas ou entregas de Legado por XP.",
+      "estado": "Alinhado à candidata de Origens."
+    },
+    {
+      "dono": "R22/Administração",
+      "regra": "Recompensas de campanha opcionais e salário autoral. R21 é dono dos custos, frações e contas de XP.",
+      "estado": "Evitar duplicação."
+    },
+    {
+      "dono": "Revisão de Morrendo/Integridade",
+      "regra": "Feitos5/8 referem estágio4. Feito4 depende de socorro; feito2 exige estar consciente e capaz de agir ao sair/encerrar a Expansão, sem invalidar queda anterior socorrida. Repetir estes casos após a revisão da morte.",
+      "estado": "Pendência autorizada, sem redesenho nesta unidade."
+    }
+  ]
+}

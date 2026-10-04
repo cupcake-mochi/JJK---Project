@@ -1,0 +1,23 @@
+{
+  "sha256_texto": "d2fd74cb4329d5d7080c3b553698eb7a32fb77f230dba47c5fd815c89dd907f6",
+  "secoes": [
+    {
+      "id": "ferramentas",
+      "parecer": "Uso e inventário separados; Estigma definido antes da primeira regra. Limite de mãos não tratado como limite de mochila. Sem explicação de classe ou trilha. Retirar item não elimina sua energia. Contador pertence ao item: esclarecimento candidato explícito no relatório."
+    },
+    {
+      "id": "graus",
+      "parecer": "Tabela retira exemplos canônicos não comprovados. Requisitos 7/13 lidos da peça 16 §3.1, não de Aptidões. Grau, Classe e patente distinguidos; aquisição não garante uso. Não há custo de marco inventado nem receita automática de forja."
+    },
+    {
+      "id": "desgaste",
+      "parecer": "Condição, contagem e término separados. Exemplo mostra missão sem uso e empréstimo, sem repetir efeito de Estigma. A última missão funciona inteira. Usos por cena continuam valendo. Fim como objeto comum segue regra principal e é decisão candidata de conciliação."
+    },
+    {
+      "id": "objetos",
+      "parecer": "Exemplo canônico limitado aos dedos de Sukuna, com apoio oficial. Selo envelhecendo conferido no capítulo 1. Atração geral e amuleto são convenções do Projeto - M, sem absolutos sobre todos os objetos. Origens só recebe remissão, sem catálogo duplicado. Sem promessa de criação de personagem por ingestão."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

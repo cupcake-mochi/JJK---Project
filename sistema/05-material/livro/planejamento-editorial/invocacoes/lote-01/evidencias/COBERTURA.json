@@ -1,0 +1,588 @@
+{
+  "sha256_texto": "baf821fbcb12f848e8b17615ebfee01ec9406166fe4475c00af4693c508da1f4",
+  "sha256_fonte": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+  "secoes_fonte": 44,
+  "inventario": [
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        555,
+        556
+      ],
+      "titulo": "Entidade em campo",
+      "destinos": [
+        "inv-campo",
+        "inv-ciclo"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        557,
+        576
+      ],
+      "titulo": "Recursos e ciclo",
+      "destinos": [
+        "inv-ciclo"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        577,
+        596
+      ],
+      "titulo": "Entrada e recolhimento",
+      "destinos": [
+        "inv-entrada"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        597,
+        616
+      ],
+      "titulo": "Troca",
+      "destinos": [
+        "inv-troca"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        617,
+        628
+      ],
+      "titulo": "Retorno e reserva",
+      "destinos": [
+        "inv-ciclo",
+        "inv-troca"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        629,
+        636
+      ],
+      "titulo": "Intenção",
+      "destinos": [
+        "inv-intencao"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        637,
+        644
+      ],
+      "titulo": "Redirecionamento",
+      "destinos": [
+        "inv-intencao"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        645,
+        654
+      ],
+      "titulo": "Impedimento e tarefa concluída",
+      "destinos": [
+        "inv-intencao"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        655,
+        670
+      ],
+      "titulo": "Comunicação",
+      "destinos": [
+        "inv-comunicacao"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        671,
+        682
+      ],
+      "titulo": "Básica e limite de ataques",
+      "destinos": [
+        "inv-basica"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        683,
+        696
+      ],
+      "titulo": "Ações comuns",
+      "destinos": [
+        "inv-basica"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        697,
+        706
+      ],
+      "titulo": "Especial",
+      "destinos": [
+        "inv-especial"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        707,
+        720
+      ],
+      "titulo": "Energia",
+      "destinos": [
+        "inv-energia"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        721,
+        750
+      ],
+      "titulo": "Ordem antecipada",
+      "destinos": [
+        "inv-antecipada",
+        "inv-pendentes"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        751,
+        762
+      ],
+      "titulo": "Ordens pendentes",
+      "destinos": [
+        "inv-pendentes"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        763,
+        774
+      ],
+      "titulo": "Preparar",
+      "destinos": [
+        "inv-preparar"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        775,
+        790
+      ],
+      "titulo": "Especial preparada",
+      "destinos": [
+        "inv-preparar",
+        "inv-gatilhos"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        791,
+        798
+      ],
+      "titulo": "Cruzamento e movimento",
+      "destinos": [
+        "inv-gatilhos"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        799,
+        806
+      ],
+      "titulo": "Mudança de modalidade",
+      "destinos": [
+        "inv-pendentes"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        807,
+        810
+      ],
+      "titulo": "Movimento e defesa",
+      "destinos": [
+        "inv-defesa"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        811,
+        818
+      ],
+      "titulo": "Reação coletiva",
+      "destinos": [
+        "inv-defesa"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        819,
+        826
+      ],
+      "titulo": "Bloquear",
+      "destinos": [
+        "inv-defesa"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        827,
+        838
+      ],
+      "titulo": "Esquivar e condições",
+      "destinos": [
+        "inv-defesa"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        839,
+        856
+      ],
+      "titulo": "Respostas do Guia",
+      "destinos": [
+        "inv-respostas"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Habilidades do Guia permanecem no capítulo de Caminhos; apenas recursos de resposta ficam aqui."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        857,
+        870
+      ],
+      "titulo": "Talismã",
+      "destinos": [
+        "inv-talisma"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        871,
+        874
+      ],
+      "titulo": "Corpo amaldiçoado",
+      "destinos": [
+        "inv-corpos"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        875,
+        886
+      ],
+      "titulo": "Modo inativo",
+      "destinos": [
+        "inv-corpos"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        887,
+        894
+      ],
+      "titulo": "Imunidades e cura",
+      "destinos": [
+        "inv-reparo"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        895,
+        904
+      ],
+      "titulo": "Reparo",
+      "destinos": [
+        "inv-reparo"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        905,
+        928
+      ],
+      "titulo": "Trunfos da domada",
+      "destinos": [
+        "inv-liberacao"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        929,
+        940
+      ],
+      "titulo": "Liberação Máxima",
+      "destinos": [
+        "inv-liberacao"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        941,
+        948
+      ],
+      "titulo": "Técnica Máxima",
+      "destinos": [
+        "inv-maxima"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        949,
+        982
+      ],
+      "titulo": "Expansão de Domínio",
+      "destinos": [
+        "inv-dominio"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Remissão às regras atuais R08; particularidades domadas permanecem."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        983,
+        986
+      ],
+      "titulo": "Queda e morte",
+      "destinos": [
+        "inv-queda"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        987,
+        998
+      ],
+      "titulo": "Morte definitiva",
+      "destinos": [
+        "inv-queda"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        999,
+        1008
+      ],
+      "titulo": "Queda sem destruição",
+      "destinos": [
+        "inv-queda"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        1009,
+        1016
+      ],
+      "titulo": "Volta",
+      "destinos": [
+        "inv-retorno"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        1017,
+        1028
+      ],
+      "titulo": "Desligada",
+      "destinos": [
+        "inv-retorno"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        1029,
+        1042
+      ],
+      "titulo": "Efeitos fora de campo",
+      "destinos": [
+        "inv-fora"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        1043,
+        1054
+      ],
+      "titulo": "Invocador inconsciente",
+      "destinos": [
+        "inv-inconsciente"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        1055,
+        1064
+      ],
+      "titulo": "Manutenção",
+      "destinos": [
+        "inv-manutencao"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        1065,
+        1080
+      ],
+      "titulo": "Morte do invocador",
+      "destinos": [
+        "inv-morte"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        1081,
+        1090
+      ],
+      "titulo": "Carga e equipamento",
+      "destinos": [
+        "inv-carga"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    },
+    {
+      "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "linhas": [
+        1091,
+        1097
+      ],
+      "titulo": "Saída com equipamento",
+      "destinos": [
+        "inv-carga"
+      ],
+      "status": "coberto; requisitos particulares preservados",
+      "decisao": "Ver ALTERACOES por âncora para fechamentos/editoriais."
+    }
+  ],
+  "fora_escopo": [
+    "Aquisição e construção completas, atributos, Famílias/Formas/Melhorias/Restrições/passivas: R12.",
+    "Regras completas de condições, ações comuns, Guia/Evocador: respectivos donos.",
+    "Revisão futura de morte/Morrendo/Integridade: pendência global, não resolvida por R11."
+  ]
+}

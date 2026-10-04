@@ -1,0 +1,31 @@
+{
+  "sha256_texto": "c0839cd1a0e14f87785895cc144a844ae23ec8aee0eb40a678bb7470b5764520",
+  "secoes": [
+    {
+      "id": "armas",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    },
+    {
+      "id": "laminas",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    },
+    {
+      "id": "impacto",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    },
+    {
+      "id": "hastes",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    },
+    {
+      "id": "flexiveis",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    },
+    {
+      "id": "tiro",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

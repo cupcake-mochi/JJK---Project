@@ -1,0 +1,31 @@
+{
+  "sha256_texto": "ef4cfe39859124fac44744b59d7b4a91bd1effdd54f24ebc8e0d4fb511daaf49",
+  "secoes": [
+    {
+      "id": "armas",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    },
+    {
+      "id": "laminas",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    },
+    {
+      "id": "impacto",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    },
+    {
+      "id": "hastes",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    },
+    {
+      "id": "flexiveis",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    },
+    {
+      "id": "tiro",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

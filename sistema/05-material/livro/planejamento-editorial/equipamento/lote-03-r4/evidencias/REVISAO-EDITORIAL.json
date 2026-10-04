@@ -1,0 +1,19 @@
+{
+  "sha256_texto": "2b9d7ea9c9f57a2e1653fce9e74dff02baf5699cc93917db225ea513e3c698d7",
+  "secoes": [
+    {
+      "id": "municao",
+      "parecer": "Releitura contextual do bloco: nomes diretos, carga separada de manejo, exemplos e tabelas revistos; sem duplicar habilidades de Caminho."
+    },
+    {
+      "id": "recarga",
+      "parecer": "Releitura contextual do bloco: nomes diretos, carga separada de manejo, exemplos e tabelas revistos; sem duplicar habilidades de Caminho."
+    },
+    {
+      "id": "reserva",
+      "parecer": "Releitura contextual do bloco: nomes diretos, carga separada de manejo, exemplos e tabelas revistos; sem duplicar habilidades de Caminho."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

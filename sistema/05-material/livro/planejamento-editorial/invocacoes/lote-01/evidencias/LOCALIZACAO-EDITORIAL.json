@@ -1,0 +1,37 @@
+{
+  "sha256_texto": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "| Técnica | Shikigami ou corpo amaldiçoado ligado à sua técnica. |",
+      "papel": "requisito",
+      "justificativa": "Corpo amaldiçoado designa aqui um tipo de entidade invocada; não é explicação da Origem homônima de personagem. Regras de tipo são o assunto proprietário de Invocações.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "trecho": "Todo corpo amaldiçoado é imune a Envenenado. Um corpo não autônomo não tem alma e é imune ao dano de Alma e às consequências desse dano. A condição autônoma precisa constar da ficha; não é obtida ao ativar o corpo.",
+      "papel": "requisito",
+      "justificativa": "Corpo amaldiçoado designa aqui um tipo de entidade invocada; não é explicação da Origem homônima de personagem. Regras de tipo são o assunto proprietário de Invocações.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Corpos só recuperam vida por técnica feita para repará-los, reparo ou descanso longo. Energia Reversa e curas baseadas nela não os curam. O retorno depois de uma queda sem destruição continua concedendo metade da vida máxima.",
+      "papel": "incompatibilidade",
+      "justificativa": "Exceção de cura indispensável ao uso de corpos; não descreve aquisição, ativação, custo ou funcionamento da aptidão Energia Reversa.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "revisor": "subagente maxima; leitura contextual integral R11",
+  "notas": "Sem reprodução de habilidades de Caminho; referências de custo/compatibilidade servem à execução de invocações. Catálogos e fichas em R12, Fundamento em R06, expansão em R08.",
+  "revisao_delta_nominal": {
+    "revisor": "/root",
+    "diff": "consolidacao/lote-01/migracao-nomes/diffs/campo.diff",
+    "conclusao": "Diff completo lido. Preços, ações, limites, acesso e efeitos permanecem iguais. Mudam categoria, nomes e concordância gramatical."
+  }
+}

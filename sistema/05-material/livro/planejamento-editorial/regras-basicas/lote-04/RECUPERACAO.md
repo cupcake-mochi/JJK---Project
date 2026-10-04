@@ -1,0 +1,270 @@
+<!-- page:cura|Cura -->
+# Cura
+
+Quando uma habilidade recupera vida, some o valor à sua vida atual, até o máximo que você tem naquele momento. O excesso é perdido. Uma redução de vida máxima limita a cura até ser removida.
+
+> **Exemplo:** Rina tem 14 de vida, de um máximo de 20. Recebe 8 de cura: recupera **6** e fica com 20. Os 2 restantes não viram vida temporária.
+
+## Receber tratamento
+
+Use os requisitos da fonte de cura: ação, custo, alvo, alcance e frequência. Uma habilidade que só atenda alguém com pelo menos 1 de vida não pode socorrer quem está a zero. Uma habilidade que remova condições não recupera vida, salvo se também disser isso.
+
+**Sem Cura** impede receber cura durante seu prazo. Uma cura recebida antes de o efeito terminar não fica guardada para depois. Remover o impedimento exige a permissão de uma regra específica.
+
+> **Exemplo:** Cuidado Preparado, da Trilha Sutura, atende um aliado com pelo menos 1 de vida e menos da metade da vida máxima atual. Um aliado com 45 de 100 pode recebê-lo. Se recuperar 10, fica com 55; já não cumpre o requisito para outra cura desse Cuidado. Com zero de vida, precisa de outro recurso de socorro.
+
+## Corpos e fontes de cura
+
+A fonte e o alvo precisam ser compatíveis. Pela regra da Origem **Corpo Amaldiçoado**, Energia Reversa não recupera sua vida. Essa Origem admite técnicas cuja Regra alcance o reparo de um corpo construído; não existe proibição geral de curá-la em combate.
+
+No descanso curto, alguém com **Entalhador ou Forja** pode tentar o reparo previsto na Origem, uma vez por descanso. No sucesso, o personagem recupera metade da vida máxima. O teste usa a escada de dificuldade do ofício; confira o procedimento em Origens.
+
+## Integridade
+
+Cura de vida não recupera Integridade. A Melhoria **Remenda** devolve **5 × Classe de Integridade** a um aliado, limitada a uma vez por cena por alvo e ao máximo dessa reserva. Ela não é Levanta e não socorre alguém a zero de vida por si só.
+
+O descanso longo restaura toda a Integridade e limpa seus estágios. Nesta proposta, Remenda recupera pontos sem remover automaticamente os estágios já atingidos, conforme **Dano na alma**. Essa interação permanece em avaliação mecânica.
+
+Ao tratar quem caiu, use os procedimentos de [Aguentar](#zero) ou [Insistir](#insistir). Receber vida temporária não substitui esse socorro.
+
+<!-- page:temporarios|Vida e energia temporárias -->
+# Vida e energia temporárias
+
+Algumas habilidades concedem uma reserva temporária. Anote-a separadamente da reserva comum: ela é consumida primeiro, tem seu próprio limite e normalmente desaparece no fim da cena.
+
+| Reserva | Limite e uso |
+|---|---|
+| Vida temporária | Até metade da vida máxima. Absorve o dano antes da vida comum. |
+| Energia temporária | Até metade dos PE máximos. É gasta antes dos PE comuns. |
+
+Arredonde essas metades para baixo. O mínimo de 1 da regra geral só se aplica a uma fração positiva; ter máximo zero não cria uma reserva temporária.
+
+## Receber outra fonte
+
+Reservas temporárias do mesmo recurso **não se somam**. Compare o que ainda resta com a nova concessão, já limitada pelo teto, e fique com o maior valor. Vida temporária e energia temporária são recursos diferentes; uma não substitui a outra.
+
+> **Exemplo:** Mei tem vida máxima 23 e recebe 15 de vida temporária. O teto é **11**, então anota 11. Depois perde 8 e fica com 3. Uma nova concessão de 9 deixa sua reserva temporária em **9**, não em 12. Se sofrer 12 de dano, perde os 9 temporários e **3 de vida**.
+
+## Duração
+
+O que restar desaparece no fim da cena, salvo uma duração própria. O mestre pode conservar a reserva para a cena seguinte quando ela veio de preparação deliberada: preparar a proteção antes de entrar no prédio não precisa desperdiçá-la na mudança de cena.
+
+Isso não repõe pontos gastos. Se havia 3 de uma concessão de 9, conservar a preparação mantém os **3 restantes**.
+
+## Limites
+
+Vida temporária não aumenta sua vida máxima e não é cura. Com zero de vida, receber essa reserva não faz você acordar nem encerra Insistir. Ela não aumenta o valor usado para calcular os custos e limiares de uma queda.
+
+Depois de resistência e Redução de Dano, desconte o dano da vida temporária. Efeitos que a ignorem, como **Rasga Escudo**, seguem sua exceção. Dano de Alma também afeta Integridade conforme a regra desse tipo.
+
+Energia temporária paga custos de PE permitidos, mas não aumenta seus PE máximos. O descanso recupera PE comuns; ele não refaz uma reserva temporária concedida por uma habilidade.
+
+> **Exemplo:** Rina tem 8 PE máximos, 2 PE comuns e recebe 6 temporários. O teto deixa **4 temporários**. Ao gastar 5 PE, usa esses 4 e mais 1 comum: termina com **1 PE comum** e nenhum temporário.
+
+<!-- page:zero|Vida a zero -->
+# Vida a zero
+
+Ao chegar a zero de vida, escolha imediatamente **Aguentar** ou **Insistir**. Essas regras são para personagens jogadores; entidades e inimigos seguem seus procedimentos próprios.
+
+| Escolha | Consequência imediata |
+|---|---|
+| Aguentar | Você fica Inconsciente e espera socorro dentro de uma janela limitada. |
+| Insistir | Você continua agindo a zero, pagando vida máxima para permanecer de pé. |
+
+Anote a vida máxima que tinha ao cair, sem vida temporária: esse valor é a **máxima de referência desta queda**. Registre também as Sequelas e o dano recebido enquanto estiver a zero.
+
+## Aguentar
+
+Você fica **Inconsciente**: não age, não usa Reações e não escolhe Bloquear. A janela para socorro começa em **3 rodadas**, menos uma por Sequela que já tiver. Se ela acabar sem socorro, você chega ao estágio 4 de dano na alma.
+
+**Convenção de contagem desta proposta:** marque o ponto da iniciativa em que caiu. Cada volta completa até esse ponto consome uma rodada da janela. Receber dano enquanto estiver apagado consome mais uma imediatamente. Esse dano precisa ser maior que zero depois das proteções.
+
+Uma cura de **20% ou mais da máxima de referência, de uma vez**, permite voltar a agir. Arredonde o valor exigido para cima. A Melhoria **Levanta** permite o retorno com seu próprio valor de cura, mesmo abaixo desse limiar.
+
+Nesta proposta, curas menores que o limiar não retiram você de zero nem se acumulam para levantar por Aguentar. Quem socorre precisa escolher uma fonte capaz de cumprir o requisito.
+
+> **Exemplo:** Mei cai com máxima de referência **23**, sem Sequelas. Precisa de pelo menos **5 de cura de uma vez**, pois 20% de 23 é 4,6. Duas curas separadas de 3 não a levantam. Uma cura de 5 levanta; ela volta com 5 de vida e ganha uma Sequela.
+
+## Dano enquanto está a zero
+
+Some o dano que efetivamente chega à vida enquanto estiver a zero. Quando o total **ultrapassar metade da máxima de referência**, Aguentar termina no estágio 4; em Insistir, você desaba. Igualar a metade ainda não ultrapassa o limite.
+
+A contagem começa depois do golpe que o levou a zero, nesta proposta. O excesso desse golpe não é contado novamente. O custo de Insistir também fica fora do acumulado.
+
+> **Exemplo:** com máxima de referência 40, acumular 20 de dano a zero não encerra o estado por esse limite; chegar a 21 encerra. Em Aguentar, a janela pode acabar antes disso por tempo ou pelos golpes recebidos.
+
+<!-- page:insistir|Insistir -->
+# Insistir
+
+Ao escolher **Insistir**, você permanece a zero de vida e continua usando suas ações, habilidades e recursos disponíveis. Cada rodada de permanência reduz sua vida máxima. A referência para todos os custos é o máximo anotado ao cair; não recalcule a fração sobre o máximo já reduzido.
+
+| Período | Custo de vida máxima | Com referência 80 |
+|---|---|---|
+| Primeira rodada | 1/8 da referência. | Paga 10; máximo fica 70. |
+| Segunda rodada | 1/4 da referência. | Paga 20; máximo fica 50. |
+| Terceira rodada | 1/2 da referência. | Paga 40; máximo fica 10. |
+| Começo da quarta | Você desaba. | Não paga uma quarta fração. |
+
+**Convenção desta proposta:** pague a primeira fração ao escolher Insistir e marque aquele ponto da iniciativa. A cada volta completa, pague a próxima; na terceira volta, desabe. Custos fracionários arredondam para cima. A contagem não concede turnos ou ações adicionais.
+
+O dano recebido a zero segue o [limite acumulado](#zero). Ultrapassá-lo faz você desabar antes do prazo. Reduzir a vida máxima para pagar Insistir não é receber dano e não aciona habilidades com esse gatilho.
+
+## Receber cura enquanto age
+
+Nesta proposta, uma cura válida que recupere pelo menos 1 de vida encerra Insistir antes do colapso. Você ganha a Sequela da queda; a vida máxima já paga continua reduzida até o descanso longo. A cura respeita esse máximo reduzido.
+
+> **Exemplo:** Kaito tinha máximo 80 e já pagou 10 para Insistir. Ele usa uma habilidade válida para recuperar 8 de vida. Sai de zero com 8, máximo atual 70 e uma Sequela. Não paga as frações seguintes dessa queda.
+
+## Depois de desabar
+
+Você fica Inconsciente. Para voltar a agir, precisa receber cura que alcance **metade da máxima de referência**, arredondada para cima. Aqui, os valores **podem ser somados entre fontes e rodadas**. Levanta permite o retorno com seu próprio valor, sem exigir esse total.
+
+Registre o tratamento acumulado separadamente. Ao atingir o limiar, volte com a vida que a cura concederia, limitada ao máximo atual. Nesta proposta, o colapso não abre uma nova janela de Aguentar nem reinicia Insistir.
+
+> **Exemplo:** depois de pagar as três frações sobre 80, Kaito desaba com máximo atual **10**. O socorro exige **40 de cura acumulada**. Um aliado fornece 25 e outro, 15: alcançam 40. Kaito acorda com **10 de vida**, seu máximo atual, e ganha uma Sequela.
+
+O que acontece se ele receber novos danos depois do colapso ainda exige decisão específica antes da integração. O limiar de cura acima não concede invulnerabilidade ou suspensão das consequências da cena.
+
+<!-- page:sequelas|Sequelas e Cicatrizes -->
+# Sequelas e Cicatrizes
+
+Levantar de uma queda deixa uma **Sequela**. Registre uma sempre que sair do estado causado por chegar a zero, inclusive com Levanta ou cura própria. As Sequelas desaparecem no descanso longo; cura comum e Energia Reversa não as removem antes disso.
+
+## Sequela
+
+Cada Sequela encurta em uma rodada a janela de **Aguentar na próxima queda**. Ela não aplica penalidade a ataques, perícias ou Testes de Resistência.
+
+| Sequelas antes da queda | Janela de Aguentar |
+|---|---|
+| Nenhuma | 3 rodadas. |
+| Uma | 2 rodadas. |
+| Duas | 1 rodada. |
+| Três ou mais | Sem janela disponível. |
+
+A Sequela recebida ao levantar afeta a próxima queda, não a que já foi encerrada. Nesta proposta, o desconto não altera a escada de custos de Insistir; essa delimitação continua em avaliação.
+
+> **Exemplo:** Mei levantou uma vez durante a missão. Ao cair novamente e escolher Aguentar, tem **duas rodadas** para receber socorro. Levantar dessa segunda queda deixa-a com **duas Sequelas**. Na próxima queda, sua janela será de uma rodada.
+
+## Cicatriz
+
+A partir da segunda queda antes de limpar as Sequelas, levantar também pode deixar uma **Cicatriz permanente**. Ela concede **vantagem em Intimidação** e **desvantagem em Persuasão**. Não modifica suas demais rolagens.
+
+A Cicatriz dessa queda não se forma se quem fechar o ferimento for sua própria **Energia Reversa**. Cura de outra fonte, inclusive Energia Reversa de outra pessoa, deixa a marca. A exceção evita a nova Cicatriz; não apaga uma que já exista.
+
+> **Exemplo:** na segunda queda, Kaito escolhe Insistir e usa sua própria Energia Reversa para sair de zero. Ganha a Sequela, mas evita a Cicatriz dessa queda. Se fosse levantado pela cura de um aliado, receberia ambas.
+
+Ter várias Cicatrizes não acumula vantagens ou desvantagens. Anote as marcas que importam à história; o modificador de cada uma dessas perícias continua o mesmo. Descanso longo remove Sequelas, mas conserva Cicatrizes.
+
+## Desfecho da queda
+
+O estágio 4 de dano na alma encerra a atuação normal do personagem. O mestre determina o desfecho segundo as consequências estabelecidas para a mesa. Se a missão permitir morte permanente, isso deve ser informado na abertura.
+
+Chegar ao estágio 4 não é, por este texto, uma regra de ressurreição nem uma transformação automática em maldição. O descanso restaura recursos de personagens que possam recebê-lo; não desfaz um desfecho permanente decidido para a cena.
+
+<!-- page:descansos|Descansos -->
+# Descansos
+
+O Projeto M usa dois tipos de descanso, definidos pela situação da missão. Não é necessário contar uma quantidade fixa de horas.
+
+**Descanso curto:** uma pausa segura entre confrontos. Você parou e não está sendo perseguido naquele momento. **Descanso longo:** a missão terminou e você pôde parar de trabalhar.
+
+O mestre confirma quando o descanso acontece e se o lugar é propício. Uma pausa contínua conta como um descanso; anunciar a mesma pausa várias vezes não repete a recuperação.
+
+## Ambiente propício
+
+Um lugar propício oferece abrigo, suprimentos e meios de atendimento. Exemplos incluem a escola, um posto oficial equipado, um hospital, a casa de um clã que recebe o grupo ou um veículo de apoio com kit.
+
+Confira as condições reais: a escola sob ataque pode não oferecer descanso seguro; outro abrigo pode ter os recursos necessários. Sempre que possível, o mestre apresenta essas opções antes da missão para o grupo planejar o retorno.
+
+## Descanso curto
+
+Recupere **25% dos PE máximos**, sem ultrapassar o máximo. Vida e Integridade não voltam por esse descanso sozinho. Habilidades que curem ou permitam reparos durante a pausa continuam funcionando conforme suas regras.
+
+Arredonde a recuperação para baixo, mínimo 1 quando a fração for positiva. Fora de ambiente propício, use a porcentagem do seu degrau de [Exaustão](#exaustao). Um resultado que diga **nada** continua sendo zero.
+
+> **Exemplo:** Rina tem máximo 10 PE e está com 1. Sem Exaustão, recupera **2 PE** no descanso curto, ficando com 3. Sua vida não muda. Se tivesse 9 PE, recuperaria apenas 1, por já alcançar o máximo.
+
+## Descanso longo
+
+| Recurso | Em ambiente propício | Fora dele |
+|---|---|---|
+| Vida e PE | Voltam ao máximo. | Ficam, no mínimo, na metade do máximo. |
+| Integridade | Volta ao máximo; estágios são limpos. | Volta ao máximo; estágios são limpos. |
+| Exaustão | É removida. | Permanece. |
+| Sequelas e máximo perdido por Insistir | Sequelas são removidas; máximo é restaurado. | Sequelas são removidas; máximo é restaurado. |
+
+Restaure o máximo perdido por Insistir antes de calcular a vida recuperada. Fora de lugar propício, a metade é um **piso**, nesta proposta: não se soma ao saldo nem reduz uma reserva que já esteja acima dela.
+
+> **Exemplo:** ao terminar a missão fora da base, Mei tem máximo 23 de vida e saldo 3. Vai a **11**, metade arredondada para baixo. Se já tivesse 18, conservaria 18. Um personagem com máximo 60 PE e saldo 8 vai a **30 PE**.
+
+Dormir durante uma missão ainda em andamento renova usos **por dia**; não equivale automaticamente ao descanso longo descrito aqui.
+
+<!-- page:exaustao|Exaustão -->
+# Exaustão
+
+**Da quarta luta do dia em diante, cada luta acrescenta um degrau de Exaustão, até o máximo de três.** Registre o total ao terminar cada confronto. A primeira, a segunda e a terceira luta não acrescentam degraus por essa regra.
+
+O mestre identifica o que contou como luta. Um combate com oposição, uma fuga que exigiu recursos ou uma contenção sob ataque podem contar. Um treino ou uma ameaça encerrada sem esforço relevante normalmente não contam. A decisão não depende apenas de ter rolado iniciativa.
+
+## Efeitos
+
+Os efeitos dos degraus anteriores continuam valendo. A última coluna vale para descanso curto **fora de ambiente propício**.
+
+| Degrau | Efeito | Recuperação de PE |
+|---|---|---|
+| 0 | Nenhuma penalidade. | 25% do máximo. |
+| 1 | Desvantagem em perícias e ofícios. | 15% do máximo. |
+| 2 | Deslocamento limitado a 4,5 m. | 5% do máximo. |
+| 3 | Desvantagem em ataques e TRs. | Nada. |
+
+Em ambiente propício, o descanso curto devolve **25% em qualquer degrau**. Ele não remove a Exaustão por isso. O limite de 4,5 m não aumenta um deslocamento que já esteja menor ou zerado.
+
+> **Exemplo:** com máximo 8 PE, Rina recupera 2, 1, 1 ou zero em uma pausa fora da base, conforme esteja nos degraus 0, 1, 2 ou 3. Nos degraus 1 e 2, o valor coincide pelo arredondamento e pelo mínimo de 1; as penalidades continuam diferentes.
+
+## Recuperação
+
+Descanso longo em ambiente propício remove toda a Exaustão. Fora dele, ela permanece. O mestre também pode retirar um degrau quando a situação justificar, como após uma noite de recuperação adequada; não acrescenta degraus fora dos gatilhos da regra.
+
+Recomeçar a contagem de lutas de um novo dia não remove os degraus que você já tinha.
+
+## Exaustão e Integridade
+
+Quando ambas impõem a mesma penalidade, use a pior, sem multiplicar esses cortes entre si. Desvantagem continua sem se acumular. Para movimento, compare o limite da Exaustão com metade do deslocamento pela Integridade e use o menor; ajuste o resultado à escala de 1,5 m.
+
+> **Exemplo:** com deslocamento 9 m, Exaustão 2 limita a 4,5 m; Integridade no estágio 2 também resulta em 4,5 m. A combinação mantém **4,5 m**. Com deslocamento 6 m, a metade da Integridade é 3 m, então usa **3 m**.
+
+As consequências que só uma das duas impõe permanecem: o custo adicional de PE e o teto de Classe são da Integridade. Recuperar PE não remove essas penalidades.
+
+<!-- page:usos|Cena e usos de habilidades -->
+# Cena e usos de habilidades
+
+O texto de uma habilidade informa quando seus usos voltam. Marque cada uso gasto na ficha e apague a marca quando cumprir a recuperação indicada. Recuperar um uso não devolve os PE pagos anteriormente.
+
+| Limite | Quando o uso volta |
+|---|---|
+| Por cena | Quando aquela cena termina. |
+| Por descanso curto | Ao concluir esse descanso. |
+| Por dia | Depois de dormir para começar um novo dia. |
+| Por descanso longo | Ao concluir esse descanso, no fim da missão. |
+
+Siga o nome completo do limite. Uma habilidade que recarrega apenas em descanso longo não volta por fazer uma pausa curta. Se disser só “por descanso”, sem especificar qual, a descrição precisa ser completada antes de entrar em jogo.
+
+## Cena
+
+Uma **cena** é um trecho de jogo com uma situação em andamento. Pode abranger uma sala, várias salas ou um combate. Ela termina quando a pressão daquele trecho acaba: o inimigo foi vencido, o grupo escapou ou o problema imediato foi resolvido. O mestre anuncia a mudança quando ela afetar recursos.
+
+Mudar de cômodo durante a mesma perseguição não cria, por si só, outra cena. Da mesma forma, terminar uma luta não garante uma pausa segura se ainda houver perseguidores próximos.
+
+> **Exemplo:** Mei usa Remenda em Rina durante o confronto. Na mesma cena, outra conjuração de Remenda não pode recuperar a Integridade de Rina novamente, pois o limite é por alvo. Depois que a cena acabar, o alvo pode receber um novo uso, com os custos e requisitos habituais.
+
+## Missões longas
+
+Uma missão pode atravessar vários dias. Dormir renova os usos por dia; o descanso longo depende de encerrar a missão e poder parar. Não renove todas as habilidades só porque a mesa terminou a sessão.
+
+> **Exemplo:** em uma missão de três dias, Rina pode renovar uma habilidade por dia após cada noite de sono. Uma habilidade por descanso longo permanece gasta até o descanso de encerramento da missão. Se uma pausa segura no segundo dia contar como descanso curto, apenas os usos com essa recuperação voltam por causa dela.
+
+## Conferência da ficha
+
+Ao concluir um descanso, atualize vida, PE e Integridade; confira máximos reduzidos, estágios, Sequelas e Exaustão; depois renove os usos correspondentes. Cicatrizes permanecem. Vida e energia temporárias seguem a duração de suas fontes e o fim da cena, não uma recuperação automática pelo descanso.
+
+O registro de consequências permanentes e a disponibilidade do personagem para outra missão seguem os acordos da mesa. A recuperação das reservas não apaga decisões de história nem restaura automaticamente uma entidade destruída.

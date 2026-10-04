@@ -1,0 +1,25 @@
+{
+  "data": "2026-10-03",
+  "responsavel": "autor desta rodada",
+  "independente": false,
+  "teste_humano": false,
+  "sha256_texto": "674f3dc2e4da97f79860af3b12a8b452d99409d98a7a5a33ae48279d8ecfc427",
+  "secoes": [
+    {
+      "id": "protecao",
+      "parecer": "Título pelo assunto; informação do próprio domínio; leitura contextual e visual realizada. Dependências e propostas descritas em DECISOES.md."
+    },
+    {
+      "id": "traje",
+      "parecer": "Título pelo assunto; informação do próprio domínio; leitura contextual e visual realizada. Dependências e propostas descritas em DECISOES.md."
+    },
+    {
+      "id": "escudo",
+      "parecer": "Título pelo assunto; informação do próprio domínio; leitura contextual e visual realizada. Dependências e propostas descritas em DECISOES.md."
+    },
+    {
+      "id": "vestir",
+      "parecer": "Título pelo assunto; informação do próprio domínio; leitura contextual e visual realizada. Dependências e propostas descritas em DECISOES.md."
+    }
+  ]
+}

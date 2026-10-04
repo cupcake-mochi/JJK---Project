@@ -1,0 +1,200 @@
+{
+  "data": "2026-10-03",
+  "status": "candidata revisada, não integrada",
+  "manuscrito": "ROTAS.md",
+  "sha256_texto": "4ad33a8841c7b77bc38af1852b6cbd5d8eec9b4e1aff7791a1629bfb9d371831",
+  "paginas": 23,
+  "arquivos": [
+    {
+      "arquivo": "ALTERACOES.json",
+      "sha256": "194c7ab24a82d50efdda1298b7cfac89c07fd0353f5deb66006ecc05c23b3b97",
+      "bytes": 30148
+    },
+    {
+      "arquivo": "ALTERACOES.md",
+      "sha256": "2c3cd5ffd4676a106cf08b9a5ed8ed36abb500dfdbaf57d067b824a94abca72c",
+      "bytes": 20400
+    },
+    {
+      "arquivo": "AUDITORIA.json",
+      "sha256": "9adc6ec9ded63e1f0c7205f553b15783d297c6b0ae93bd914e9f6b9c94c70b2b",
+      "bytes": 13739
+    },
+    {
+      "arquivo": "CONFERENCIA.json",
+      "sha256": "12e7fe0d8e6eae7cf6e288f1a132ee007e777c7eeca1d74ed79b4ca1bd236313",
+      "bytes": 26787
+    },
+    {
+      "arquivo": "ESTRUTURA.json",
+      "sha256": "bef26be1c86f644c73e60a20efbfcc52bf69e50d923ab74837aabbdd781e7ffc",
+      "bytes": 2755
+    },
+    {
+      "arquivo": "INTERFACES.md",
+      "sha256": "f3efba70ca294b63af4a7d6c0fdd6b2b74e43d4cd2e785126e2d8ef3d9daf8ba",
+      "bytes": 4575
+    },
+    {
+      "arquivo": "INVENTARIO.json",
+      "sha256": "10164757fc5f7a895f22e42956a94c951cb689bec51befc1fab61dd9fbdbbb60",
+      "bytes": 14665
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "sha256": "7359a79447d4fba35cf330767149d6d8b2717f2f34461564e12e9bc7e0d7724d",
+      "bytes": 2152
+    },
+    {
+      "arquivo": "REVISAO-E-FONTES.md",
+      "sha256": "04e97b27a56ee8eca06214dc6d8d5ad1d5c04689b2d74ee56ed9b5adef53d621",
+      "bytes": 6244
+    },
+    {
+      "arquivo": "ROTAS.md",
+      "sha256": "4ad33a8841c7b77bc38af1852b6cbd5d8eec9b4e1aff7791a1629bfb9d371831",
+      "bytes": 45120
+    },
+    {
+      "arquivo": "VALIDACAO.json",
+      "sha256": "62b921caf2335eaf4200a0c5cfcd7bc723ee948e51ed67519fd09c5f92833b5c",
+      "bytes": 154
+    },
+    {
+      "arquivo": "VALIDADORES.json",
+      "sha256": "3c7e26d86f7c108794556ccdf8bc02480dfd1b65d8dae712278218e572bbd463",
+      "bytes": 5497
+    },
+    {
+      "arquivo": "auditar.py",
+      "sha256": "1e23f9ae273b8a5624955432f7984154126295c7d2e42bb18e81ec0930f03ba0",
+      "bytes": 9496
+    },
+    {
+      "arquivo": "auditar_sincronizacao_final.py",
+      "sha256": "d53c3fb186cc2937817d1a094b8f0d5a38faf5e7686faa18e8122ddfce25993d",
+      "bytes": 5751
+    },
+    {
+      "arquivo": "conferir.py",
+      "sha256": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+      "bytes": 208
+    },
+    {
+      "arquivo": "evidencias/CASOS.json",
+      "sha256": "8fc22556fdc12fdca3612bb9e5469323bced27807ab76242dc455b130fdbbfe6",
+      "bytes": 24037
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-VISUAL-SINCRONIZACAO.json",
+      "sha256": "2c73ce65d27e1c9060b44007cbac7a87fa84ffaeabf5343b186ca0396555e364",
+      "bytes": 6230
+    },
+    {
+      "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "sha256": "81cc86418b6433b4657dc7ccf5897ae0e2994bed58f9c38bc66c4fb1478ab830",
+      "bytes": 9134
+    },
+    {
+      "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "55d78f0fa60da4591cb7dfd435d59e3b26964823a09f4e1b52bd95e5e473d85d",
+      "bytes": 21659
+    },
+    {
+      "arquivo": "evidencias/REVISAO-INDEPENDENTE-RAIZ.md",
+      "sha256": "638cc9afb4f06877aa1c82177bc4f4991086a4170e37a99dd78b3df4f730583d",
+      "bytes": 1218
+    },
+    {
+      "arquivo": "evidencias/REVISAO-SINCRONIZACAO-COMPATIBILIDADE.json",
+      "sha256": "44cae136670469a0bcb1a5055072e0ebb62aa69c6a62ee10681a23b82f99aa04",
+      "bytes": 26725
+    },
+    {
+      "arquivo": "evidencias/REVISAO-SINCRONIZACAO-COMPATIBILIDADE.md",
+      "sha256": "22aaab1f9455a22257613cf21e1c02e8cb343ddb03819356145c8695be850469",
+      "bytes": 834
+    },
+    {
+      "arquivo": "evidencias/SINCRONIZACAO-FINAL.json",
+      "sha256": "5292ed44f2b74790f0306a916fbdd8d19e6c4c1d0f24a624c7a05a3dc520879a",
+      "bytes": 426404
+    },
+    {
+      "arquivo": "evidencias/SINCRONIZACAO-FINAL.md",
+      "sha256": "3b87f5a4d579fd11557b30c467a8417be1606154fcc1dde019cc24600c3d6e04",
+      "bytes": 3197
+    },
+    {
+      "arquivo": "evidencias/auditoria-numerica.json",
+      "sha256": "a6c4f8fef70db12aade6efcc6c28699d3e4a4d3cf0277b47868aab5f79266b5c",
+      "bytes": 99488
+    },
+    {
+      "arquivo": "evidencias/fontes-lidas-na-autoria.json",
+      "sha256": "3327d8756499773f04ef7cf65e5d7a41d5a41ce7e8e3f987228d85ae3eea3a4a",
+      "bytes": 2947
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas.json",
+      "sha256": "b30766f238d007843bc31f11fcd032b15849b67ec84388312889ab5a465c1500",
+      "bytes": 1203
+    },
+    {
+      "arquivo": "evidencias/inspecao-visual.json",
+      "sha256": "40d449b75a3acc0be2cb63a7b4334811197798c11011171d4679553f9e728623",
+      "bytes": 11756
+    },
+    {
+      "arquivo": "evidencias/interfaces-conferidas.json",
+      "sha256": "76362810f37591435dc863589d5abb6f9f8faf8d8b678c32c394dd44af61ada3",
+      "bytes": 1921
+    },
+    {
+      "arquivo": "evidencias/pdf-estrutura.json",
+      "sha256": "d71bf533e5ae03292de94b876ac1479b68f7ed40922b3d05a12dd3ccb96e92d1",
+      "bytes": 355
+    },
+    {
+      "arquivo": "evidencias/pdf-texto.txt",
+      "sha256": "c712396bdd8ce3cd4814725562c3dfb3d2bdfb6e53f37fa0a8f14a96eb16d4ed",
+      "bytes": 44286
+    },
+    {
+      "arquivo": "evidencias/regras-verificadas.json",
+      "sha256": "264e563749532dc781f74461e326158307d225804962d1c073d2b792a99c835f",
+      "bytes": 13501
+    },
+    {
+      "arquivo": "gerar_pdf.py",
+      "sha256": "578d4b8616a849329ea4dda5ab247a9eb00da47b6b82372103d879060b1e1335",
+      "bytes": 7784
+    },
+    {
+      "arquivo": "historico/antes-revisao-localizacao/ROTAS.md",
+      "sha256": "98c294a6412d62f819c9e6131de4412e97c03d0775e001cd8416aec6c1f4927b",
+      "bytes": 45115
+    },
+    {
+      "arquivo": "historico/antes-sincronizacao-final/Projeto-M-Rotas-Proposta-01.pdf",
+      "sha256": "055176c0480599d4374970f88f004ce53a0b75b4b618e39c24e9e61623e05b42",
+      "bytes": 108925
+    },
+    {
+      "arquivo": "historico/antes-sincronizacao-final/ROTAS.md",
+      "sha256": "d4ac61d33127980c24ce6b9acbcb12458dce4633a5f96db3f1ba9263c354c811",
+      "bytes": 45069
+    },
+    {
+      "arquivo": "historico/antes-sincronizacao-final/inspecao-visual.json",
+      "sha256": "507d5bd21edcd323e50c9e175359d06b6d22b8a5ca82578fbd41c6778cc7822d",
+      "bytes": 8202
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Rotas-Proposta-01.pdf",
+      "sha256": "6f30a2b7519c99293460cc5062471497c32fd422be28ad836410667978569060",
+      "bytes": 108985
+    }
+  ],
+  "sha256_pdf": "6f30a2b7519c99293460cc5062471497c32fd422be28ad836410667978569060"
+}

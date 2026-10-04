@@ -1,0 +1,20 @@
+--- caminhos/incursor/lote-01/INCURSOR.md
+
++++ caminhos/incursor/lote-01/INCURSOR.md
+
+@@ -64,5 +64,5 @@
+
+ Resolva cada gatilho uma única vez. Gastar a Fluidez depois de um acontecimento não permite usar esse mesmo acontecimento para recuperá-la.
+ 
+-Fluidez dura até ser gasta, você ficar Incapacitado ou o combate terminar. Enquanto estiver Incapacitado, não pode ganhar ou manter Fluidez.
++Fluidez dura até ser gasta, você ficar com a Guarda Aberta ou o combate terminar. Enquanto estiver com a Guarda Aberta, não pode ganhar ou manter Fluidez.
+ 
+ ## Investida
+@@ -451,5 +451,5 @@
+
+ O alvo pode gastar uma **Ação Padrão** para realizar outro **TR Físico contra a CD do Pugilista**, escapando no sucesso. Se a contenção prender uma arma, ele também pode soltá-la: a contenção termina e a arma fica na sua mão.
+ 
+-A contenção termina se você liberar o alvo, deixar de manter a mão ocupada nela, ficar Incapacitado ou o alvo sair do alcance do seu ataque desarmado. Soltar o alvo não exige ação.
++A contenção termina se você liberar o alvo, deixar de manter a mão ocupada nela, ficar com a Guarda Aberta ou o alvo sair do alcance do seu ataque desarmado. Soltar o alvo não exige ação.
+ 
+ ## Movimento sobre líquidos

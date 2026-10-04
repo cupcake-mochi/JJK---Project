@@ -1,0 +1,558 @@
+{
+  "sha256_texto": "15ed0d3535dd08c546cc4d3de9e4385746c73eae15267b6fd14f2db553617908",
+  "leitor": "maxima",
+  "ok": true,
+  "verificacoes": 29,
+  "casos": [
+    {
+      "caso": "Bastião30 Con6 H395",
+      "obtido": 395,
+      "esperado": 395,
+      "ok": true
+    },
+    {
+      "caso": "limiar79",
+      "obtido": 79,
+      "esperado": 79,
+      "ok": true
+    },
+    {
+      "caso": "Reversa7d8 não alcança79",
+      "obtido": 0.0,
+      "esperado": 0.0,
+      "ok": true
+    },
+    {
+      "caso": "duas curas3 recuperam referência23",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "último custo Insistir H80 deixa10",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "limiar16 pode ser convertido no teto10",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "janela2 jamais cobra terceira rodada",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Golpe misto soma1 perda de rodada",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Rajada3 tiros positivos resolve3 perdas",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "DuasSequelas, primeiro dano positivo encerra",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Nenhuma perda por dano zerado",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Integridade26 atual26",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Integridade26 atual20",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Integridade26 atual19",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Integridade26 atual13",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Integridade26 atual7",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Integridade26 atual6",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Integridade26 atual0",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "caso": "Integridade26 atual17",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Aguentar cura80 com referência80",
+      "obtido": 80,
+      "esperado": 80,
+      "ok": true
+    },
+    {
+      "caso": "Insistir cura80 após custo10",
+      "obtido": 70,
+      "esperado": 70,
+      "ok": true
+    },
+    {
+      "caso": "Cura20 em Aguentar e Insistir dá mesma vida atual",
+      "obtido": [
+        20,
+        20
+      ],
+      "esperado": [
+        20,
+        20
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Texto preserva Cada ocorrência de dano",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Texto preserva Ataques distintos contam separadamente",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Texto preserva não recebe a redução pela metade própria do TR",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Texto preserva Ao recuperar Integridade, recalcule o estágio",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Texto preserva Não recebe uma segunda janela",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Texto preserva até aquela queda terminar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Texto preserva As curas podem vir de várias fontes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "perfis_cura": [
+    {
+      "caminho": "Bastião",
+      "nivel": 2,
+      "Constituicao": 3,
+      "PV": 25,
+      "limiar": 5,
+      "Classe": 1,
+      "Cura_maxima_comum_d8": 2,
+      "PE": 3,
+      "prob_sair_em_uma_Cura": 0.90625,
+      "prob_sair_em_duas_Curas": 0.999755859375,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 2,
+      "Constituicao": 3,
+      "PV": 16,
+      "limiar": 4,
+      "Classe": 1,
+      "Cura_maxima_comum_d8": 2,
+      "PE": 3,
+      "prob_sair_em_uma_Cura": 0.953125,
+      "prob_sair_em_duas_Curas": 1.0,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 5,
+      "Constituicao": 3,
+      "PV": 55,
+      "limiar": 11,
+      "Classe": 2,
+      "Cura_maxima_comum_d8": 4,
+      "PE": 6,
+      "prob_sair_em_uma_Cura": 0.94873046875,
+      "prob_sair_em_duas_Curas": 0.9999973177909851,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 5,
+      "Constituicao": 3,
+      "PV": 37,
+      "limiar": 8,
+      "Classe": 2,
+      "Cura_maxima_comum_d8": 4,
+      "PE": 6,
+      "prob_sair_em_uma_Cura": 0.991455078125,
+      "prob_sair_em_duas_Curas": 1.0,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 9,
+      "Constituicao": 3,
+      "PV": 95,
+      "limiar": 19,
+      "Classe": 3,
+      "Cura_maxima_comum_d8": 6,
+      "PE": 9,
+      "prob_sair_em_uma_Cura": 0.933990478515625,
+      "prob_sair_em_duas_Curas": 0.9999997298582457,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 9,
+      "Constituicao": 3,
+      "PV": 65,
+      "limiar": 13,
+      "Classe": 3,
+      "Cura_maxima_comum_d8": 6,
+      "PE": 9,
+      "prob_sair_em_uma_Cura": 0.9964752197265625,
+      "prob_sair_em_duas_Curas": 0.9999999999854481,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 13,
+      "Constituicao": 3,
+      "PV": 135,
+      "limiar": 27,
+      "Classe": 4,
+      "Cura_maxima_comum_d8": 8,
+      "PE": 12,
+      "prob_sair_em_uma_Cura": 0.927671492099762,
+      "prob_sair_em_duas_Curas": 0.9999999811376235,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 13,
+      "Constituicao": 3,
+      "PV": 93,
+      "limiar": 19,
+      "Classe": 4,
+      "Cura_maxima_comum_d8": 8,
+      "PE": 12,
+      "prob_sair_em_uma_Cura": 0.9974132776260376,
+      "prob_sair_em_duas_Curas": 0.9999999999994564,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 17,
+      "Constituicao": 3,
+      "PV": 175,
+      "limiar": 35,
+      "Classe": 5,
+      "Cura_maxima_comum_d8": 10,
+      "PE": 15,
+      "prob_sair_em_uma_Cura": 0.9255130253732204,
+      "prob_sair_em_duas_Curas": 0.9999999987966475,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 17,
+      "Constituicao": 3,
+      "PV": 121,
+      "limiar": 25,
+      "Classe": 5,
+      "Cura_maxima_comum_d8": 10,
+      "PE": 15,
+      "prob_sair_em_uma_Cura": 0.9982480183243752,
+      "prob_sair_em_duas_Curas": 0.9999999999999908,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 21,
+      "Constituicao": 3,
+      "PV": 215,
+      "limiar": 43,
+      "Classe": 6,
+      "Cura_maxima_comum_d8": 12,
+      "PE": 18,
+      "prob_sair_em_uma_Cura": 0.9256223596166819,
+      "prob_sair_em_duas_Curas": 0.9999999999257682,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 21,
+      "Constituicao": 3,
+      "PV": 149,
+      "limiar": 30,
+      "Classe": 6,
+      "Cura_maxima_comum_d8": 12,
+      "PE": 18,
+      "prob_sair_em_uma_Cura": 0.9992961292009568,
+      "prob_sair_em_duas_Curas": 1.0,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 26,
+      "Constituicao": 3,
+      "PV": 265,
+      "limiar": 53,
+      "Classe": 7,
+      "Cura_maxima_comum_d8": 14,
+      "PE": 21,
+      "prob_sair_em_uma_Cura": 0.888476753138093,
+      "prob_sair_em_duas_Curas": 0.999999999978559,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 26,
+      "Constituicao": 3,
+      "PV": 184,
+      "limiar": 37,
+      "Classe": 7,
+      "Cura_maxima_comum_d8": 14,
+      "PE": 21,
+      "prob_sair_em_uma_Cura": 0.9992637203922641,
+      "prob_sair_em_duas_Curas": 1.0,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 30,
+      "Constituicao": 3,
+      "PV": 305,
+      "limiar": 61,
+      "Classe": 7,
+      "Cura_maxima_comum_d8": 14,
+      "PE": 21,
+      "prob_sair_em_uma_Cura": 0.6135613083133649,
+      "prob_sair_em_duas_Curas": 0.9999999952468865,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 30,
+      "Constituicao": 3,
+      "PV": 212,
+      "limiar": 43,
+      "Classe": 7,
+      "Cura_maxima_comum_d8": 14,
+      "PE": 21,
+      "prob_sair_em_uma_Cura": 0.9922123818168984,
+      "prob_sair_em_duas_Curas": 0.9999999999999972,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 17,
+      "Constituicao": 6,
+      "PV": 226,
+      "limiar": 46,
+      "Classe": 5,
+      "Cura_maxima_comum_d8": 10,
+      "PE": 15,
+      "prob_sair_em_uma_Cura": 0.4728988818824291,
+      "prob_sair_em_duas_Curas": 0.9999975248390532,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 17,
+      "Constituicao": 6,
+      "PV": 172,
+      "limiar": 35,
+      "Classe": 5,
+      "Cura_maxima_comum_d8": 10,
+      "PE": 15,
+      "prob_sair_em_uma_Cura": 0.9255130253732204,
+      "prob_sair_em_duas_Curas": 0.9999999987966475,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 21,
+      "Constituicao": 6,
+      "PV": 278,
+      "limiar": 56,
+      "Classe": 6,
+      "Cura_maxima_comum_d8": 12,
+      "PE": 18,
+      "prob_sair_em_uma_Cura": 0.4259565608226694,
+      "prob_sair_em_duas_Curas": 0.9999995534967779,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 21,
+      "Constituicao": 6,
+      "PV": 212,
+      "limiar": 43,
+      "Classe": 6,
+      "Cura_maxima_comum_d8": 12,
+      "PE": 18,
+      "prob_sair_em_uma_Cura": 0.9256223596166819,
+      "prob_sair_em_duas_Curas": 0.9999999999257682,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 26,
+      "Constituicao": 6,
+      "PV": 343,
+      "limiar": 69,
+      "Classe": 7,
+      "Cura_maxima_comum_d8": 14,
+      "PE": 21,
+      "prob_sair_em_uma_Cura": 0.2624866113947064,
+      "prob_sair_em_duas_Curas": 0.9999996264700913,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 26,
+      "Constituicao": 6,
+      "PV": 262,
+      "limiar": 53,
+      "Classe": 7,
+      "Cura_maxima_comum_d8": 14,
+      "PE": 21,
+      "prob_sair_em_uma_Cura": 0.888476753138093,
+      "prob_sair_em_duas_Curas": 0.999999999978559,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Bastião",
+      "nivel": 30,
+      "Constituicao": 6,
+      "PV": 395,
+      "limiar": 79,
+      "Classe": 7,
+      "Cura_maxima_comum_d8": 14,
+      "PE": 21,
+      "prob_sair_em_uma_Cura": 0.035082594167988645,
+      "prob_sair_em_duas_Curas": 0.9999708254985735,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    },
+    {
+      "caminho": "Emanador",
+      "nivel": 30,
+      "Constituicao": 6,
+      "PV": 302,
+      "limiar": 61,
+      "Classe": 7,
+      "Cura_maxima_comum_d8": 14,
+      "PE": 21,
+      "prob_sair_em_uma_Cura": 0.6135613083133649,
+      "prob_sair_em_duas_Curas": 0.9999999952468865,
+      "Aguentar_e_Insistir": "mesma exigência; a probabilidade pressupõe cura disponível e nenhum golpe adicional durante o intervalo."
+    }
+  ],
+  "interfaces_cura": [
+    {
+      "nivel": 19,
+      "Con": 3,
+      "PV_Bastiao": 195,
+      "limiar": 39,
+      "prob_AindaDePe": 0.0,
+      "prob_Socorrista3d8mais6": 0.0,
+      "prob_Reversa": 0.00018310546875,
+      "prob_duas_Reversas": 0.8125596381723881,
+      "prob_CirculacaoPadrao": 0.12693023681640625,
+      "nota": "Ainda de Pé exige uso disponível; Socorrista exige Cuidado prévio, Reação e PE; Reversa/Circulação exigem aptidão e ação, não disponíveis a toda ficha."
+    },
+    {
+      "nivel": 19,
+      "Con": 6,
+      "PV_Bastiao": 252,
+      "limiar": 51,
+      "prob_AindaDePe": 0.0,
+      "prob_Socorrista3d8mais6": 0.0,
+      "prob_Reversa": 0.0,
+      "prob_duas_Reversas": 0.2266339547932148,
+      "prob_CirculacaoPadrao": 0.000377655029296875,
+      "nota": "Ainda de Pé exige uso disponível; Socorrista exige Cuidado prévio, Reação e PE; Reversa/Circulação exigem aptidão e ação, não disponíveis a toda ficha."
+    },
+    {
+      "nivel": 30,
+      "Con": 3,
+      "PV_Bastiao": 305,
+      "limiar": 61,
+      "prob_AindaDePe": 0.0,
+      "prob_Socorrista3d8mais6": 0.0,
+      "prob_Reversa": 0.0,
+      "prob_duas_Reversas": 0.6135613083133649,
+      "prob_CirculacaoPadrao": 0.01538146287202835,
+      "nota": "Ainda de Pé exige uso disponível; Socorrista exige Cuidado prévio, Reação e PE; Reversa/Circulação exigem aptidão e ação, não disponíveis a toda ficha."
+    },
+    {
+      "nivel": 30,
+      "Con": 6,
+      "PV_Bastiao": 395,
+      "limiar": 79,
+      "prob_AindaDePe": 0.0,
+      "prob_Socorrista3d8mais6": 0.0,
+      "prob_Reversa": 0.0,
+      "prob_duas_Reversas": 0.035082594167988645,
+      "prob_CirculacaoPadrao": 1.0244548320770264e-08,
+      "nota": "Ainda de Pé exige uso disponível; Socorrista exige Cuidado prévio, Reação e PE; Reversa/Circulação exigem aptidão e ação, não disponíveis a toda ficha."
+    }
+  ],
+  "limites": [
+    "Distribuições exatas dos dados, sem estimar frequência real de quedas, acertos, turnos de cura ou disponibilidade de PE.",
+    "Cura comum de2×Classe d8: FormaCura sem Melhorias ou Restrições; acesso depende da técnica.",
+    "Con3 é perfil constante de comparação; Con6 avançado é cenário, não pressupõe ficha típica nem teto de atributo.",
+    "Não são partidas ou leitura por jogadores."
+  ]
+}

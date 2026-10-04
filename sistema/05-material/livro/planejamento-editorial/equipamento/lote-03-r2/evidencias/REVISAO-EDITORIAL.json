@@ -1,0 +1,19 @@
+{
+  "sha256_texto": "1eb8ff3bde5dede4ae9f87b5ce28196ad5b37658d47d296f0854bf4eae34918c",
+  "secoes": [
+    {
+      "id": "municao",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    },
+    {
+      "id": "recarga",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    },
+    {
+      "id": "reserva",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

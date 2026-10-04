@@ -1,0 +1,618 @@
+<!-- page:rotas|Rotas de criação -->
+# Rotas de criação
+
+Uma Técnica Marcial reúne o que você consegue fazer com seu corpo e seu equipamento. Um Manejo desenvolve uma aptidão aprendida, como Energia Reversa. Ambas usam o procedimento de **Fundamento**, com as diferenças apresentadas neste capítulo.
+
+Sua Origem indica a rota disponível. Confira essa escolha em **Origens e Legados** antes de criar suas aplicações.
+
+| Rota | Quem a usa | Aplicações | Desenvolvimento |
+|---|---|---|---|
+| Técnica Marcial | Corpo Amaldiçoado. | Katas. | Refino e aptidões. |
+| Técnica Marcial | Restrição Celestial sem energia. | Katas. | Lapidação e Bênçãos. |
+| Sem Técnica | Personagem com essa sub-origem. | Manejos. | Refino e aptidões. |
+
+## Termos das rotas
+
+**Kata** é uma aplicação de Técnica Marcial. **Manejo** é uma aplicação da rota Sem Técnica. Quando uma regra mencionar feitiço, ela também alcança Katas e Manejos, salvo uma exceção expressa. Classes, ações, PE, montagem, condições e limites de conjuração continuam os mesmos.
+
+**PE** significa Pontos de Energia para quem possui energia amaldiçoada e Pontos de Esforço para quem não possui. O Caminho entrega a mesma quantidade e cada regra cobra o mesmo valor. Recuperar PE ou pagar uma Kata não faz surgir energia amaldiçoada num personagem que nasceu sem ela.
+
+Uma Kata pode produzir um efeito sobrenatural por meio de um equipamento amaldiçoado. Isso não concede ao usuário sentidos de energia, aptidões ou outras capacidades ausentes de sua Origem. Da mesma forma, ser Sem Técnica significa não possuir uma técnica inata. Esse personagem ainda usa energia amaldiçoada.
+
+Comece pela seção de sua rota. Depois, use **Fundamento — Seu primeiro feitiço** para montar uma aplicação e o **Catálogo de criação** para consultar as peças. As tabelas comuns permanecem nesses capítulos.
+
+<!-- page:rota-marcial|Técnica Marcial -->
+# Técnica Marcial
+
+Você desenvolve um estilo ligado a armas ou a uma ferramenta amaldiçoada. Uma lutadora pode conduzir suas Katas pela lâmina. Um Corpo Amaldiçoado pode usar uma armadura de engenharia para proteger os companheiros. Descreva primeiro o funcionamento desse estilo.
+
+## Criação
+
+1. Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.
+2. Escolha a [rota de arma](#rota-armas) ou a [rota de ferramenta](#rota-ferramenta). Essa escolha é permanente.
+3. Registre o equipamento que permite executar suas Katas e o atributo utilizado.
+4. Escolha as Famílias e monte seu repertório. Talentos e entidades usam os mesmos espaços disponíveis para Katas.
+
+O **equipamento em uso é seu Selo**. Você precisa empunhar uma arma apropriada ou utilizar a ferramenta escolhida para executar cada Kata. O equipamento deve estar disponível e funcionar conforme sua descrição.
+
+Katas têm os mesmos custos e limites dos feitiços. Seus dados vêm da montagem. **O dado da arma não se soma ao dano da Kata.** Um ataque comum com essa arma usa as regras de equipamento.
+
+## Desenvolvimento
+
+**Ruptura** é o nome da sua Liberação Máxima. Você recebe uma nos níveis 10, 20 e 30 e usa o procedimento de **Fundamento — Liberação Máxima**.
+
+**Ōgi** é sua Técnica Máxima, disponível a partir do nível 17. Crie seu resultado principal, de ataque, cura ou utilidade, por **Fundamento — Técnica Máxima**, respeitando o estilo e o equipamento.
+
+Esta rota não concede **Expansão de Domínio**, incompleta ou completa, nem **Extensão de Domínio**. Também não permite aprender ou auxiliar **Ritual**. Essas exceções continuam valendo para o Corpo Amaldiçoado, embora ele possua energia e aptidões.
+
+<!-- page:rota-armas|Armas -->
+# Armas
+
+Ao escolher esta rota, selecione **três grupos de armas diferentes** entre os grupos de Equipamento. Você recebe uma arma de cada grupo, todas de **grau 4**, e fica treinado nos três grupos, além dos treinos concedidos por outras escolhas.
+
+Você pode executar suas Katas com qualquer **arma amaldiçoada de um desses grupos**, inclusive uma obtida depois. Grau 4 permite ferir maldições. Efeitos especiais de graus maiores seguem **Equipamentos amaldiçoados**.
+
+Essa escolha fornece armas, treino e o Selo. Manhas e outras habilidades de combate dependem de suas próprias fontes. As armas não sobem de grau com seu nível.
+
+## Atributo da Kata
+
+Use o atributo de ataque da arma empregada naquela execução tanto para o ataque quanto para a CD da Kata:
+
+- **Ataque:** d20 + atributo da arma + maestria.
+- **CD:** 8 + atributo da arma + maestria.
+
+Se a arma permitir escolher entre Força e Destreza, declare qual está usando nessa execução. Use o mesmo atributo até terminar de resolvê-la. Um efeito com duração conserva a CD definida ao ser aplicado, mesmo se você trocar de arma depois.
+
+Assim, é possível escolher um grupo de Força e outro de Destreza. O atributo de uma arma não modifica o atributo exigido pela outra. Consulte cada arma em **Equipamento** para treino, mãos ocupadas, alcance e propriedades.
+
+## Equipamento em uso
+
+Sacar uma arma de reserva segue **Ações — Interagir com objetos**. Uma arma guardada não cumpre o Selo de outra que você perdeu. Os efeitos especiais do equipamento seguem seus limites de uso e de itens ativos, sem multiplicar benefícios pelas armas guardadas.
+
+Uma Kata conserva o alcance da Forma escolhida. Empunhar uma arma longa não aumenta, por si só, o alcance de uma Kata de Toque.
+
+<!-- page:rota-ferramenta|Ferramenta -->
+# Ferramenta
+
+Você recebe **uma ferramenta amaldiçoada de grau 4**, criada com o mestre. Pode ser uma armadura, uma câmera, um instrumento ou outro objeto de apoio. Registre seu funcionamento, como é utilizado e qual atributo explica seu controle.
+
+Escolha **um dos cinco atributos** para os ataques e a CD de suas Katas. Uma armadura de engenharia pode usar Inteligência. Um instrumento pode depender de Essência. A escolha deve acompanhar a Descrição da ferramenta e permanece na ficha.
+
+Somente essa ferramenta cumpre o Selo de suas Katas. Ela não possui um dado de arma adicional. Caso seja representada por uma arma do catálogo, use os números daquela arma nos ataques comuns, sem acrescentar um segundo dano por ela também ser sua ferramenta.
+
+Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Ela não acrescenta outra camada de proteção. Uma roupa sem proteção continua sendo roupa, conforme Equipamento.
+
+## Ataques comuns
+
+Na criação, registre se seus ataques desarmados passam pelo objeto. Uma manopla, armadura, máscara ou bota pode permitir isso. Uma câmera, lanterna ou maleta apenas carregada não faz o mesmo.
+
+Esse registro decide se o equipamento permite ao seu **ataque desarmado ferir maldições**. Todas as Katas válidas já podem feri-las, pois passam pela ferramenta amaldiçoada. O Corpo Amaldiçoado também pode usar Canalizar Energia nos ataques comuns, pelas regras da aptidão.
+
+## Mãos e voz
+
+O Selo não devolve pontos. Exigir novamente “estar com meu equipamento” numa Restrição não concede devolução. **Gesto** exige duas mãos livres e voz audível. Só pode ser cumprido se a ferramenta puder continuar em uso nessas condições.
+
+Calado impede uma Kata que dependa de fala ou som. Uma ferramenta que funcione sem voz continua disponível, respeitando as demais condições.
+
+<!-- page:rota-passivas-marciais|Talentos marciais -->
+# Talentos marciais
+
+Talentos desta seção usam as regras de aquisição de **Fundamento — Selo e Talentos**. Categoria de Efeito 1 ocupa um espaço de Kata e está disponível desde o nível 1. Categoria 2 ocupa dois espaços e exige nível 7. Categoria 3 ocupa três espaços e exige nível 13. Eles contam no máximo de cinco Talentos pagos.
+
+## Calo — Livre
+
+Você reconhece pelo toque o encaixe e a textura familiares de armas que costuma usar. Esse detalhe descreve sua relação com o equipamento. Identificar uma arma disfarçada, detectar uma substituição ou obter informação escondida ainda exige o procedimento da cena.
+
+## Maldição do Inventário — Categoria de Efeito 1
+
+Uma pequena maldição vinculada ao seu estilo guarda o equipamento entregue a ela. Pode encolher para ser abrigada em seu corpo. Você pode **sacar ou guardar até dois itens gratuitamente por turno**, em vez de um. Interações adicionais usam a ação normal.
+
+Equipamento guardado dessa forma deixa de emitir energia perceptível no exterior. Para o personagem sem energia, isso permite atravessar as Barreiras Simples e Cortinas que reconheceriam esses itens. O benefício termina para cada item retirado.
+
+Os objetos continuam contando na sua carga. Guardar o equipamento não o deixa em uso nem satisfaz seu Selo. A pequena maldição representa este Talento: não recebe turno, ataques ou ficha de entidade. Uma invocação com atuação própria segue [Invocações desta rota](#rota-invocacoes).
+
+## Leitura — Categoria de Efeito 1
+
+Use o **Talento Leitura**, do Catálogo de criação: ele identifica Classe e Forma de feitiços conjurados a até 18 m. O efeito precisa ser compatível com o funcionamento declarado do seu estilo.
+
+Quem não possui energia pessoal precisa de uma ferramenta cujo funcionamento preveja essa leitura. Ela fornece apenas a informação do Talento, sem conceder Sentir Energia. O mesmo nome não permite receber uma aptidão ou outro benefício além da entrada comprada.
+
+<!-- page:rota-passivas-resposta|Talentos de resposta -->
+# Talentos de resposta
+
+Os Talentos abaixo complementam uma Técnica Marcial. Cada um tem seu próprio gatilho e frequência. Pague seus espaços de Kata e confira o nível exigido antes de registrá-lo.
+
+## Segundo Fôlego — Categoria de Efeito 2
+
+**Uma vez por descanso longo**, ao escolher **Insistir**, você pode dispensar o **primeiro custo de vida máxima**, correspondente a **1/8 do máximo de referência** daquela queda.
+
+Os custos posteriores e a janela de socorro continuam normais. O Talento não concede rodada ou ação adicional nem recupera vida ou Integridade. A escolha, os pagamentos seguintes e o socorro seguem **Insistir, em Dano e recuperação**.
+
+## Contragolpe — Categoria de Efeito 2
+
+Quando uma criatura errar um ataque corpo a corpo contra você, pode guardar uma resposta contra ela. Sua **próxima rolagem de ataque de uma Kata contra essa criatura tem vantagem**. O benefício termina depois dessa rolagem ou ao fim da cena.
+
+Você pode guardar uma resposta **um número de vezes por cena igual à sua maestria**. Só mantém uma resposta por vez. Novos erros não acumulam usos guardados. Uma Kata resolvida por TR não recebe vantagem nem obriga o alvo a rolar com desvantagem.
+
+## Aliança — Categoria de Efeito 3
+
+Escolha uma de suas armas ao adquirir este Talento. Ela **não pode ser desarmada contra sua vontade** e somente você pode empunhá-la para utilizá-la.
+
+A arma ainda pode ser carregada ou transportada por outra criatura. O vínculo impede seu uso por terceiros, sem tornar o objeto indestrutível, alterar seu peso ou transportá-lo de volta para sua mão. Guardar ou largar a arma voluntariamente continua possível.
+
+Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa deve seguir **Catálogo de criação — Criar Talentos**, inclusive os limites de sua Categoria de Efeito.
+
+<!-- page:rota-fisga|Fisga -->
+# Fisga
+
+**Exemplo de Técnica Marcial pela rota de arma, no nível 2.** Iori usa ganchos e hastes para ferir um adversário e limitar sua movimentação. Pode executar o estilo com Armas Longas, Ceifa ou Flexível. Começa com uma arma de grau 4 de cada grupo.
+
+| Campo | Escolha |
+|---|---|
+| Descrição | Ganchos e cabos amaldiçoados prendem o adversário atingido. |
+| Regra | Os cabos partem da arma e seguram o que alcançam. |
+| Famílias Livres | Alcance e Controle. |
+| Famílias Fechadas | Amparo, Auxiliares e Área. |
+| Selo | Usar uma arma amaldiçoada de um dos três grupos. |
+| Atributo | O da arma usada naquela Kata. |
+| Tipo de dano | Cortante. |
+
+## Gancho fechado
+
+Iori escolhe **Toque + Prende**, de Classe 1. Prende é Média e custa 1 ponto nessa Classe. Corpo a Corpo já acompanha Toque e devolve 1 ponto, exatamente o gasto. A conta é **3 − 1 + 1 = 3**.
+
+**Ficha:** Ação Padrão, 3 PE, uma criatura a até 1,5 m. Faça um ataque da Kata. No acerto, cause **3d8 de Cortante** e aplique Prende até o fim do próximo turno do alvo. Para as tentativas de saída, registre **TR Físico contra sua CD da Kata**.
+
+Com Força 3 e maestria 1, usando uma arma de Força, o ataque é **d20 + 4** e a CD é **12**. Prende permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.
+
+## Repertório
+
+Iori dispõe de **3 espaços** no nível 2. Gancho fechado ocupa um. O Talento Raiz pode ocupar outro. Sobra um para outra Kata compatível. Seus dois Classe 0 ficam na lista própria.
+
+Se quiser alcançar um alvo distante, precisará montar uma versão com Projétil e recalcular seus pontos. O alcance da arma não altera Gancho fechado.
+
+<!-- page:rota-bancada|Bancada -->
+# Bancada
+
+**Exemplo de Técnica Marcial pela rota de ferramenta, no nível 2.** Nao utiliza uma armadura de engenharia para distribuir suportes e amortecer impactos. Seu funcionamento combina mecanismos físicos com as propriedades amaldiçoadas do equipamento.
+
+| Campo | Escolha |
+|---|---|
+| Descrição | A armadura projeta placas articuladas que sustentam e protegem pessoas próximas. |
+| Regra | As placas sustentam corpos e repartem os impactos recebidos. |
+| Famílias Livres | Auxiliares e Amparo. |
+| Famílias Fechadas | Área, Marca e Castigo. |
+| Ferramenta e Selo | Armadura de grau 4, vestida e em funcionamento. |
+| Atributo | Inteligência. |
+| Tipo de dano | Concussão, nas aplicações ofensivas. |
+
+A armadura usa os números de um Revestimento escolhido em Equipamento. Os golpes desarmados passam por ela e podem ferir maldições. Isso não acrescenta um dado de arma às Katas nem uma segunda proteção à ficha.
+
+## Placas de apoio
+
+Nao monta **Apoio + Guarda**, de Classe 1. Apoio custa 0 pontos e Guarda custa 1. Sem Restrições, restam **3 − 1 = 2 pontos**.
+
+**Ficha:** Ação Padrão, 3 PE, um aliado disposto a até 9 m, incluindo Nao. O alvo recebe **6 pontos de vida temporária** e **+2 na Defesa até o fim do próximo turno dele**. O efeito é automático. A reserva temporária segue seus limites e duração próprios, em Dano e Recuperação.
+
+Essa aplicação protege sem causar dano ao beneficiário. A ficha separa o prazo de Guarda da duração da reserva de vida temporária.
+
+## Outras aplicações
+
+As Famílias escolhidas também permitem criar uma Kata de cura baseada em reparo. Na ficha dela, será necessário declarar os corpos e materiais que a ferramenta consegue reparar. Essa cura não se torna Energia Reversa pela escolha da Forma Cura.
+
+Placas de apoio ocupa um dos três espaços de Nao. Um Talento Leitura compatível com os sensores da armadura pode ocupar outro. O último permanece disponível para uma Kata.
+
+<!-- page:rota-invocacoes|Invocações nas rotas -->
+# Invocações nas rotas
+
+Você pode ocupar **um espaço de Kata ou de Manejo com uma entidade**, em vez de uma aplicação conhecida, quando o conceito da rota prevê invocações. A Descrição e a Regra precisam explicar como você cria, chama ou controla a entidade.
+
+Na Técnica Marcial, esse funcionamento depende do estilo e do equipamento. Uma ferramenta construída para operar pequenos corpos auxiliares pode atender ao requisito. Uma espada usada somente para cortar não concede uma entidade por ter um espaço sobrando.
+
+Em Sem Técnica, o vínculo precisa nascer da **semente escolhida e de sua Regra**. Descrever uma técnica que trata ferimentos não basta para adquirir uma criatura autônoma. A mesa precisa conseguir apontar, na ficha da rota, a capacidade que permite a invocação.
+
+## Aquisição e uso
+
+A entidade tem seu nível e progride com você. O espaço continua ocupado mesmo quando ela está fora de campo. Ao subir de nível, trocar uma aplicação conhecida por entidade, ou o contrário, usa a mesma revisão de um espaço descrita em **Fundamento — Feitiços conhecidos**. Preencher um espaço novo não gasta essa revisão.
+
+Classes 0, Rupturas, Liberações Máximas, Ōgi e Auge têm aquisição própria e não podem ser convertidos por essa troca.
+
+Para montar a entidade, consulte **Criar uma invocação**. Manifestação e comandos seguem **Invocações em campo**. Pague as ações e os custos da mesma forma que os demais personagens. Na rota sem energia, os PE representam o esforço para operar o vínculo e o equipamento. A aquisição não fornece energia pessoal ou aptidões.
+
+Um Talento que descreve uma criatura como parte de seu efeito entrega apenas o efeito comprado. Para que ela tenha turno e habilidades de invocação, é preciso atender ao requisito desta seção e adquirir a entidade pelo procedimento correspondente.
+
+<!-- page:rota-sem-tecnica|Sem Técnica -->
+# Sem Técnica
+
+Você aprendeu a usar energia amaldiçoada sem desenvolver uma técnica inata. Seu repertório nasce de uma **semente**: uma aptidão que você estudou e transformou em seu próprio estilo de combate ou apoio.
+
+Escolha Sem Técnica entre as opções permitidas por **Origens e Legados**. Esta rota conserva PE de energia, refino e aptidões. Ela não concede Expansão de Domínio nem permite aprender ou auxiliar Ritual.
+
+## Criação
+
+1. Escolha uma das [sementes](#rota-sementes). A escolha é permanente.
+2. Escreva uma Descrição que mostre como você desenvolveu essa aptidão.
+3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.
+4. Escolha as Famílias e monte seus Manejos.
+
+A **Regra** explica uma aplicação da semente. Domínio Simples pode sustentar um estilo de contenção próximo de você. Energia Reversa pode sustentar um estilo de cura. Transformar a semente em fogo, viagem no tempo ou leitura de memória exigiria um funcionamento que ela não fornece.
+
+Você pode escolher Talentos do Catálogo de criação e Talentos marciais compatíveis com sua semente, preservando seus requisitos e sua frequência. Nessas entradas, leia Manejo no lugar de Kata.
+
+## Semente e Manejos
+
+Você recebe a aptidão escolhida como semente **no nível 2**, sem gastar marco e sem cumprir os requisitos comuns de nível e refino dela. Ela conta como uma aptidão adicional. As demais exigências e regras de uso permanecem, incluindo a aprendizagem descrita em Aptidões.
+
+Usar a aptidão e conjurar um Manejo são procedimentos diferentes. Cada um paga sua ação e seu custo. Uma semente não precisa estar ativa para todos os Manejos, a menos que a Regra ou a ficha exija isso.
+
+Você recebe **Liberação Máxima** normalmente, nos níveis 10, 20 e 30. **Auge** é o nome da sua Técnica Máxima, a partir do nível 17. Use os procedimentos de Fundamento, escolhendo resultados compatíveis com a semente. Auge pode causar dano, curar ou produzir outro efeito permitido pela montagem.
+
+<!-- page:rota-sementes|Sementes -->
+# Sementes
+
+Escolha **uma** das quatro opções abaixo. A semente define de onde vêm seus Manejos. O efeito completo da aptidão nomeada está em **Aptidões e Refino**. Adquirir a semente não concede outras aptidões que dependam dela.
+
+## Domínio Simples
+
+Você aprende a estabelecer um domínio ao seu redor. A aptidão protege conforme suas regras contra os efeitos de uma Expansão. Seus Manejos podem desenvolver controle do espaço próximo, defesa e intervenções dentro dos limites que a Regra definir.
+
+Antes de usar a semente, confira **Voto do iniciante**, na entrada de Domínio Simples em Aptidões. A aquisição antecipada desta rota conserva esse requisito, além da duração, da área e dos testes da aptidão.
+
+## Energia Reversa
+
+Você aprende a produzir energia positiva e a curar o próprio corpo. A aptidão segue seu custo e sua recuperação. Seus Manejos podem criar outras aplicações de cura, inclusive para aliados, conforme [Cura](#rota-cura).
+
+A semente não torna toda conjuração uma cura nem permite ignorar um alvo incompatível com energia positiva.
+
+## Pétala
+
+Você aprende a manter energia junto ao corpo para responder ao contato. A defesa da aptidão atua contra o Acerto de Expansões. Seus contra-ataques seguem as exigências de arma e gatilho descritas na entrada.
+
+Manejos derivados de Pétala são **reativos e próximos do corpo**: respondem a quem encosta ou ataca, dentro do alcance comprado. A semente não autoriza um ataque distante independente desse contato. Sua proteção específica também não se torna imunidade a ataques comuns.
+
+## Aptidão Própria
+
+Crie com o mestre uma aptidão de **Categoria de Efeito 1 ou 2**, pelas regras de Aptidões e Refino. Essa escolha usa a única Aptidão Própria permitida ao personagem. Não pode copiar uma aptidão do catálogo, dispensar seus requisitos sob outro nome ou produzir uma aptidão de Categoria de Efeito 3.
+
+<!-- page:rota-cura|Cura -->
+# Cura
+
+Escolher **Energia Reversa como semente** concede um bônus às suas curas em si mesmo. Some **um terço do refino, arredondado para baixo**, ao total de cada rolagem de cura que você produzir e aplicar em você. No **refino 10**, esse bônus é **+4**.
+
+| Refino | 1–2 | 3–5 | 6–8 | 9 | 10 |
+|---|---|---|---|---|---|
+| Bônus de autocura | +0 | +1 | +2 | +3 | +4 |
+
+Acrescente o bônus uma vez ao total, não a cada dado. Ele vale tanto para a aptidão quanto para uma cura de outra fonte sua. Curar um aliado ou receber a cura de outra pessoa não concede esse bônus. O limite continua sendo sua vida máxima.
+
+## Aptidão e Manejo
+
+**Energia Reversa, a aptidão, cura você.** Aplicá-la diretamente em outra criatura exige uma regra que conceda essa permissão. A semente, sozinha, não a fornece.
+
+Um **Manejo com Forma Cura** pode recuperar a vida de um aliado disposto a até 9 m, seguindo a Forma e sua Classe. Você precisa ter Amparo disponível e descrever uma cura coerente com a semente. Isso ocupa um espaço de Manejo e paga seu custo de conjuração.
+
+Energia Reversa e curas construídas a partir dela **não curam Corpo Amaldiçoado**, conforme essa Origem. Um efeito de reparo apropriado usa sua própria capacidade. Escolher Forma Cura não muda o material ou o tipo de corpo que a Regra consegue tratar.
+
+## Energia positiva contra maldições
+
+Um Manejo de Forma Cura produzido por Energia Reversa pode ser usado contra uma maldição hostil pelo procedimento de **Aptidões e Refino — Ferir maldições**. Confira ali o ataque, a conversão dos dados em dano e o aumento próprio dessa aplicação.
+
+O bônus de autocura desta rota não entra nesse dano de Energia Reversa. Usar diretamente a aptidão sobre outro alvo continua exigindo uma permissão expressa. A Forma Cura e a aptidão conservam suas diferentes ações, custos e requisitos.
+
+<!-- page:rota-redoma|Redoma -->
+# Redoma
+
+**Exemplo de Sem Técnica com Domínio Simples, no nível 2.** Rika treina para impedir que um adversário atravesse o espaço que ela protege. Sua postura delimita linhas próximas, e seus Manejos prendem ou dificultam os movimentos de quem as cruza.
+
+| Campo | Escolha |
+|---|---|
+| Semente | Domínio Simples. |
+| Descrição | Rika conduz energia rente ao chão para segurar pernas e desviar golpes. |
+| Regra | Minha energia prende e desequilibra quem alcança minhas linhas. |
+| Atributo | Destreza. |
+| Selo | Firmar os pés e traçar um arco com uma mão. |
+| Famílias Livres | Controle e Auxiliares. |
+| Famílias Fechadas | Área, Alcance e Amparo. |
+| Tipo de dano | Cortante. |
+
+## Linha de contenção
+
+O Manejo usa **Toque + Prende**, Classe 1. A Melhoria custa 1 ponto e Corpo a Corpo devolve esse ponto. Rika escolhe **TR Físico contra sua CD**, em vez de ataque, na criação dessa ficha.
+
+**Ficha:** Ação Padrão, 3 PE, uma criatura a até 1,5 m. Na falha do TR, o alvo sofre **3d8 de Cortante** e não pode se deslocar voluntariamente até o fim do próximo turno dele. No sucesso, sofre metade dos dados e não fica preso. As saídas posteriores de Prende usam TR Físico contra a mesma CD.
+
+Com Destreza 3 e maestria 1, a CD é **12**. O Selo exige os pés firmes no momento da conjuração. Ele não concede pontos por si nem obriga Rika a permanecer imóvel pelo resto do turno.
+
+Domínio Simples é usado à parte, com sua ação e seu custo. Linha de contenção não exige que ele esteja ativo. Se a Regra de outra versão exigir isso, anote a exigência sem presumir uma devolução de pontos.
+
+O Talento Raiz pode ocupar um dos outros espaços de Rika, respeitando sua compra normal. Ele não vem junto da semente.
+
+<!-- page:rota-sutura|Sutura Fria -->
+# Sutura Fria
+
+**Exemplo de Sem Técnica com Energia Reversa, no nível 2.** Caio aprendeu a fechar ferimentos conduzindo energia positiva pelas regiões lesionadas. Ele cria Manejos para tratar a equipe e usa a aptidão quando precisa recuperar o próprio corpo.
+
+| Campo | Escolha |
+|---|---|
+| Semente | Energia Reversa. |
+| Descrição | Fios de energia positiva aproximam tecidos e fecham ferimentos. |
+| Regra | Conduzo energia positiva para recuperar o tecido ferido que consigo alcançar. |
+| Atributo | Inteligência. |
+| Selo | Aproximar dois dedos e identificar o ferimento à vista. |
+| Famílias Livres | Amparo e Auxiliares. |
+| Famílias Fechadas | Área, Castigo e Marca. |
+
+## Fechar ferimento
+
+Caio monta **Cura**, Classe 1, sem Melhorias ou Restrições. A Forma custa 1 ponto. Restam **3 − 1 = 2 pontos**, que se tornam **2d8 de cura**, dentro do limite da Forma.
+
+**Ficha:** Ação Padrão, 3 PE, um aliado disposto a até 9 m, incluindo Caio. O alvo recupera **2d8 pontos de vida**, até seu máximo. No refino 1, Caio ainda não recebe bônus adicional. Com refino 3, recuperaria **2d8 + 1 em si mesmo** e continuaria curando **2d8 num aliado**.
+
+Esse Manejo ocupa um espaço. Ele não precisa de uma permissão para aplicar diretamente a aptidão em outras pessoas: utiliza a Forma Cura com seus próprios custos. Um Corpo Amaldiçoado continua incompatível com essa energia.
+
+O exemplo pode ser usado para socorrer alguém conforme Socorro, em Dano e recuperação. Fechar ferimento não remove uma condição, recupera Integridade ou ressuscita por si só. Esses resultados precisam de regras específicas.
+
+## Desenvolvimento
+
+O Talento Recomposição pode fazer parte do estilo quando Caio atingir **nível 7** e pagar seus **dois espaços**. Ele não está disponível na criação apenas por ser coerente com a semente.
+
+<!-- page:rota-espinho|Espinho -->
+# Espinho
+
+**Exemplo de Sem Técnica com Pétala, no nível 5.** Hana mantém sua energia próxima do corpo. Seus Manejos respondem a agressões que chegam até ela. A Pétala continua tendo seu uso separado, voltado às exigências da aptidão.
+
+| Campo | Escolha |
+|---|---|
+| Semente | Pétala. |
+| Descrição | A energia junto à pele forma espinhos quando Hana é golpeada. |
+| Regra | Minha energia responde de perto a quem me atinge. |
+| Atributo | Essência. |
+| Selo | Fechar uma das mãos. |
+| Famílias Livres | Tempo e Castigo. |
+| Famílias Fechadas | Alcance, Área e Marca. |
+| Tipo de dano | Força. |
+
+## Resposta curta
+
+O Manejo usa **Toque + Reação**, Classe 2. Reação é Pesada, custa 3 pontos e recebe desconto 1 de Tempo Livre: custo final **2**. Corpo a Corpo devolve 2, até o gasto. O saldo fica **6 − 2 + 2 = 6**.
+
+**Gatilho:** depois que uma criatura a até 1,5 m acertar Hana com um ataque corpo a corpo, ela pode usar sua **Reação e 6 PE** para atacar essa criatura. No acerto, causa **6d8 de Força**. O dano do golpe que provocou a resposta é resolvido primeiro.
+
+Hana precisa poder fechar a mão, perceber o gatilho e escolher um alvo válido no momento da resposta. Se o atacante já estiver fora de 1,5 m ao concluir o golpe, a Forma não o alcança.
+
+Esse Manejo compra uma reação própria. A defesa e o contra-ataque da aptidão Pétala não concedem usos adicionais dele. Se duas opções exigirem Reação para o mesmo acontecimento, Hana escolhe qual usar.
+
+## Repertório
+
+No nível 5, Hana dispõe de quatro espaços. Resposta curta ocupa um. Instinto, um Talento de Categoria 1 compatível com sua vigilância, pode ocupar outro. Os dois restantes ficam disponíveis para Manejos, além dos Classe 0 recebidos separadamente.
+
+<!-- page:rota-lapidacao|Lapidação -->
+# Lapidação
+
+Personagens com **Restrição Celestial sem energia** usam Lapidação e Bênçãos no lugar de refino e aptidões. Corpo Amaldiçoado conserva refino e aptidões, pois produz energia amaldiçoada.
+
+**Lapidação** mede o desenvolvimento das capacidades do corpo. Começa em **1**, tem máximo **10** e aumenta nos marcos de progressão: níveis **6, 10, 14, 18, 22, 26 e 30**.
+
+## Ganhos de marco
+
+Em cada marco, receba **+1 ponto de atributo, +1 de Lapidação e +1 espaço de Kata**. Depois, escolha uma opção:
+
+| Escolha | Benefício adicional |
+|---|---|
+| Corpo | +1 ponto de atributo e treino em uma perícia ou ofício. A partir do nível 10, pode especializar um já treinado, em vez do novo treino. |
+| Lapidação | +1 de Lapidação e uma Bênção. Se já atingiu Lapidação 10, receba duas Bênçãos. |
+| Leque | Uma Kata adicional e um Talento. |
+
+Confira o teto **depois do +1 gratuito**. Quem escolhe Lapidação em todos os marcos recebe duas Bênçãos nos níveis 22, 26 e 30, totalizando dez escolhas pagas. Quem nunca a escolhe termina em Lapidação 8 e conserva apenas as Bênçãos gratuitas.
+
+A Kata concedida por Leque é uma aplicação, não um espaço livre para outra compra. O Talento é concedido sem pagar espaços e respeita seu nível de acesso. Cada Leque abre uma vaga adicional para esse Talento além do máximo de cinco pagos. Consulte **Experiência e Progressão — Marcos** para as regras comuns, incluindo a especialização de perícias e ofícios.
+
+> **Exemplo:** Davi chega ao nível 6 com Lapidação 1. O ganho básico leva a 2. Escolhe Lapidação, chega a 3 e aprende Faro, de Categoria de Efeito 1. No nível 10, repete a escolha, chega a 5 e pode aprender Presilha, de Categoria de Efeito 2, se tiver Força 4. As duas aquisições não ocupam espaços de Kata.
+
+## Usar o valor
+
+Lapidação só entra numa conta quando a regra mencionar esse valor. Ela não é somada diretamente aos ataques, à CD ou aos TR. As Bênçãos usam esse desenvolvimento para definir proteção, frequência, alcance e outros efeitos próprios.
+
+Divisões são arredondadas para baixo. Por exemplo, metade de Lapidação 5 é 2. Quando um benefício declarar mínimo 1, aplique esse mínimo depois da divisão.
+
+As Classes, os custos e os dados de suas Katas continuam definidos por Fundamento. Aumentar Lapidação não aumenta seu orçamento de montagem.
+
+<!-- page:rota-bencaos|Bênçãos -->
+# Bênçãos
+
+Uma Bênção descreve uma capacidade física ou sensorial de quem não possui energia amaldiçoada. **Defesa sem Armadura e Estímulo Muscular** são gratuitas desde Lapidação 1. As demais são obtidas pela escolha Lapidação nos marcos.
+
+Bênçãos não gastam espaços de Kata. **Categoria de Efeito**, abreviada CE nas tabelas, indica a categoria do efeito. Cada escolha de Bênção concede uma entrada disponível, independentemente dessa categoria.
+
+| Categoria de Efeito | Lapidação mínima |
+|---|---|
+| 1 | 1. |
+| 2 | 4. |
+| 3 | 7. |
+
+Além dessa exigência, cumpra os requisitos da entrada. Uma Bênção que peça Força 4 exige esse atributo em 4 ou mais. O requisito não acrescenta outro bônus à fórmula: some apenas os valores que o efeito determinar.
+
+Os níveis mínimos dos Talentos comprados com espaços pertencem a essa outra aquisição. Uma Bênção é comprada por marco e segue sua própria tabela de Lapidação.
+
+## Escolhas disponíveis
+
+| Bênção | CE | Requisito adicional |
+|---|---|---|
+| Ímpeto | 2 | Destreza 4. |
+| Casco | 3 | Constituição 4. |
+| Presilha | 2 | Força 4. |
+| Vigília | 2 | — |
+| Faro | 1 | — |
+| Sem Pegada | 1 | — |
+| Vulto | 2 | — |
+| Esteio | 3 | — |
+| Antecipar | 2 | Inteligência 4. |
+| Campo | 1 | — |
+| Assombro | 1 | Essência 4. |
+| Bênção Própria | 1 ou 2 | Uma por personagem. |
+
+Você não compra novamente uma entrada que já possui, salvo autorização expressa dela. A mesma limitação vale quando o marco concede duas escolhas: selecione duas Bênçãos diferentes e disponíveis.
+
+Criar um Talento ou uma Bênção na mesa não permite receber uma entrada indisponível sob outro nome. Os requisitos fazem parte de cada capacidade, mesmo quando os preços de duas aquisições parecem semelhantes.
+
+<!-- page:rota-defesa|Defesa sem Armadura -->
+# Defesa sem Armadura
+
+**Bênção gratuita, Lapidação 1.** Enquanto não usar Traje nem Revestimento, você recebe **proteção igual a um terço da Lapidação, arredondado para baixo, +1**. Um escudo pode ser somado conforme suas regras.
+
+| Lapidação | 1–2 | 3–5 | 6–8 | 9–10 |
+|---|---|---|---|---|
+| Proteção | 1 | 2 | 3 | 4 |
+
+## Resistir ao golpe
+
+Quando sofrer dano de um golpe, depois das defesas aplicáveis e antes de descontar vida, você pode gastar sua **Reação e 2 PE** para reduzi-lo em **1,5 × Lapidação, arredondado para baixo**. Depois, fica **sem proteção até o fim do seu próximo turno**, inclusive a de Traje, Revestimento e escudo.
+
+Você pode usar essa redução mesmo com equipamento de proteção ou enquanto estiver sem proteção, pagando a Reação e os PE em cada uso. O novo uso mantém a perda até o fim do próximo turno correspondente. Outros valores da Defesa seguem suas regras.
+
+## Ausência de energia
+
+Pelas regras desta Origem, **Barreira Simples e Cortina** não reconhecem nem impedem seu corpo pela energia amaldiçoada. O **Acerto garantido de uma Expansão completa** também não seleciona você por esse critério. Os efeitos que acontecem no ambiente e os ataques de uma Expansão incompleta continuam usando suas regras.
+
+Essas permissões vêm da ausência de energia e permanecem quando você usa um Traje ou Revestimento. Vestir proteção desliga apenas a proteção passiva desta Bênção. A redução como Reação continua disponível com seu custo completo.
+
+## Equipamento amaldiçoado
+
+Seus itens ainda emitem energia. Uma Barreira Simples ou Cortina pode detectá-los ou impedir sua passagem, conforme seu funcionamento. O corpo passar não transporta automaticamente um item bloqueado.
+
+Contra o Acerto garantido, carregar um item amaldiçoado não transforma seu corpo num alvo com energia pessoal. Efeitos que atinjam objetos ou o ambiente conservam o alcance que suas próprias regras definem. A permissão de passagem vale para as regras nomeadas acima. Ela não permite atravessar uma parede material, um Anteparo ou qualquer obstáculo apenas por você não possuir energia. Também não concede imunidade geral aos efeitos de um domínio.
+
+<!-- page:rota-estimulo|Estímulo Muscular -->
+# Estímulo Muscular
+
+**Bênção gratuita, Lapidação 1.** Escolha uma **perícia** e um **Teste de Resistência** na criação. As escolhas são permanentes.
+
+**Uma vez por cena**, antes de rolar um deles, você pode receber vantagem naquela rolagem. No máximo de **Lapidação 10**, passa a ter **dois usos por cena**, compartilhados entre a perícia e o TR escolhidos.
+
+A perícia não precisa usar Força ou Destreza. Você pode escolher Ocultismo e TR de Intelecto, por exemplo. A Bênção não fornece treinamento nem muda o atributo utilizado nesses testes.
+
+## Dano adicional
+
+Seus ataques com arma ou desarmados recebem os dados abaixo. Cada ataque válido aplica esse adicional uma vez, do mesmo tipo de dano do golpe. Os dados adicionais não são dobrados por crítico, salvo uma habilidade que permita isso expressamente.
+
+| Lapidação | Dano adicional |
+|---|---|
+| 1–2 | 1d4. |
+| 3–5 | 2d4. |
+| 6–8 | 3d4. |
+| 9 | 4d4. |
+| 10 | 4d6. |
+
+O adicional não entra no dano de Katas. Se **o mesmo ataque** transportar uma Kata de dano de Classe 0 ou maior, use a montagem dela sem acrescentar estes dados. Outro ataque da rodada que não transporte essa Kata continua elegível.
+
+Uma manobra que substitui um ataque sem causar dano não recebe o adicional. Empurrar alguém ou agarrá-lo não se transforma num golpe com dados por causa da Bênção.
+
+> **Exemplo:** com Lapidação 6, um golpe desarmado recebe 3d4 adicionais. Uma Kata lançada em seguida usa somente seus próprios dados. Se o personagem fizer outro ataque comum, ele volta a receber 3d4.
+
+Estímulo Muscular não concede energia amaldiçoada. Para ferir uma maldição com o golpe, você ainda precisa de uma arma amaldiçoada ou da ferramenta que transmita o ataque, conforme sua Técnica Marcial.
+
+<!-- page:rota-corpo|Bênçãos de corpo -->
+# Bênçãos de corpo
+
+Estas Bênçãos favorecem deslocamento, resistência e manobras. Confira a Lapidação mínima da Categoria de Efeito e os requisitos adicionais de cada entrada.
+
+## Ímpeto — Categoria de Efeito 2
+
+**Requisito adicional: Destreza 4.** Como **Ação Bônus**, mova-se até seu deslocamento sem provocar ataques de oportunidade. Durante esse movimento, você pode percorrer paredes, líquidos e o ar. Ao terminar o movimento sem um apoio que o sustente, você cai.
+
+Essa travessia não concede permanência no ar. Carga, terreno e condições que alterem seu deslocamento continuam valendo. Você precisa dispor da Ação Bônus para iniciar cada uso.
+
+## Casco — Categoria de Efeito 3
+
+**Requisito adicional: Constituição 4.** Seu máximo de pontos de vida aumenta em **metade do seu nível, arredondada para baixo**. Recalcule ao subir de nível. Você também recebe **+1 nos TRs de Vigor**.
+
+No nível 14, o aumento é 7 pontos de vida. No nível 30, é 15. O benefício não recupera vida perdida por si só nem aumenta Integridade.
+
+## Presilha — Categoria de Efeito 2
+
+**Requisito adicional: Força 4.** **Uma vez por rodada**, quando uma criatura passar num TR para evitar que você a agarre, derrube ou mova à força, pode obrigá-la a repetir esse TR. Use o novo resultado.
+
+Faça a repetição antes de resolver as consequências daquele TR, sem gastar outra ação. Preserve a mesma CD e os modificadores. O benefício não permite uma tentativa proibida por tamanho, alcance ou imunidade. Se um único TR também decidir o dano, mantenha o resultado original para o dano e use a repetição somente para a manobra ou o deslocamento.
+
+## Vigília — Categoria de Efeito 2
+
+Ao aplicar as consequências de Exaustão, conte **um estágio a menos**, até o mínimo de zero. Mantenha na ficha o estágio real: ganhar nova Exaustão e removê-la pelo descanso continua usando esse valor.
+
+Ter Exaustão 1 elimina suas consequências enquanto a Bênção estiver ativa. Ter Exaustão 3 aplica as consequências do estágio 2. A Bênção não remove o estágio marcado.
+
+<!-- page:rota-perseguicao|Bênçãos de perseguição -->
+# Bênçãos de perseguição
+
+Sentidos apurados podem revelar marcas de passagem e mudanças no ambiente. Essas Bênçãos descrevem as informações disponíveis. Quando a cena exigir localizar, interpretar ou seguir uma pista difícil, use a perícia apropriada conforme **Exploração** e **Perícias**.
+
+## Faro — Categoria de Efeito 1
+
+Você pode seguir feiticeiros e maldições pelos vestígios físicos que deixaram: cheiro, marcas e objetos fora do lugar. A Bênção permite perceber essas pistas sem Sentir Energia.
+
+Ao tocar uma marca deixada por uma técnica, reconhece superficialmente **o que aconteceu ali**, como um corte, um impacto ou a deformação de um material. Não identifica o autor, sua localização atual, a montagem da técnica ou detalhes ausentes no vestígio.
+
+## Sem Pegada — Categoria de Efeito 1
+
+Sua passagem não deixa pegadas, cheiro, marcas ou som de passos que possam servir de rastro. Faro, animais e técnicas que dependam desses vestígios não conseguem seguir seu caminho por eles.
+
+Uma testemunha ainda pode enxergar você. Voz, armas e objetos que você manipule continuam produzindo seus próprios sons. Esconder-se segue a ação e os requisitos de Furtividade. A Bênção não concede um teste gratuito para se ocultar nem mantém oculto um ataque que revele sua posição.
+
+## Vulto — Categoria de Efeito 2
+
+Você possui **visão às cegas** a até **1,5 m × metade da Lapidação, arredondada para baixo**. Percebe criaturas e objetos nessa área por som e movimento, mesmo sem usar os olhos.
+
+Um obstáculo sólido bloqueia essa percepção. Vulto não revela o interior de uma sala fechada. Se a cena impedir tanto som quanto sinais de movimento de chegarem até você, esses sinais deixam de fornecer percepção.
+
+Com Lapidação 4 ou 5, o alcance é 3 m. Com Lapidação 10, é 7,5 m. Fora dessa distância, use seus outros sentidos normalmente. A percepção não altera o alcance de seus ataques ou Katas.
+
+<!-- page:rota-combate|Bênçãos de combate -->
+# Bênçãos de combate
+
+## Esteio — Categoria de Efeito 3
+
+Ao adquirir a Bênção, escolha **um TR: Físico, Vigor, Intelecto ou Espírito**. O menor resultado do d20 nesse TR passa a ser sua **Lapidação, limitada ao atributo do TR +2**.
+
+No Físico, use Força ou Destreza conforme a escolha fixa da sua ficha. Vigor usa Constituição, Intelecto usa Inteligência e Espírito usa Essência. Some os modificadores normais depois de aplicar o piso. O piso não modifica o número efetivamente rolado para uma regra que exija um resultado natural.
+
+Com Lapidação 7 e atributo 4, o piso é **6**. Com Lapidação 10 e atributo 6, é **8**. Um resultado maior permanece como foi rolado.
+
+## Antecipar — Categoria de Efeito 2
+
+**Requisito adicional: Inteligência 4.** Depois de falhar num TR contra um efeito, você recebe vantagem nos próximos TRs contra **esse mesmo efeito, produzido pela mesma fonte**, até o fim da cena.
+
+Uma nova aplicação daquela mesma capacidade pela mesma criatura mantém o benefício. Um efeito diferente, outra criatura ou outra fonte exige sua própria falha anterior. A vantagem não refaz o TR que ativou a Bênção.
+
+## Campo — Categoria de Efeito 1
+
+**Uma vez por cena**, você pode realizar **Estudar como Ação Bônus**, em vez de Ação Padrão. Use a ação descrita em **Ações — Estudar**, com seus alvos, testes e informações disponíveis.
+
+## Assombro — Categoria de Efeito 1
+
+**Requisito adicional: Essência 4.** Uma vez por cena, ao entrar nela ou ser visto pela primeira vez, escolha até **metade de sua Lapidação, arredondada para baixo, mínimo 1**, entre as criaturas presentes que enxerguem você.
+
+Cada uma faz **TR de Espírito contra CD 8 + sua Essência + sua maestria**. Na falha, fica **Amedrontada até o fim do próximo turno dela**. A presença do personagem provoca o efeito, sem exigir arma ou ferramenta em uso.
+
+Essência entra uma única vez na CD. O requisito de acesso não acrescenta um segundo bônus.
+
+<!-- page:rota-propria|Bênção Própria -->
+# Bênção Própria
+
+Você pode desenvolver **uma Bênção Própria por personagem**, de Categoria de Efeito 1 ou 2. Crie-a com o mestre antes da sessão e adquira-a por uma escolha de Bênção, respeitando a Lapidação mínima da Categoria de Efeito.
+
+Escreva primeiro uma frase que diga o que o corpo consegue fazer. Depois, registre gatilho, alcance, duração e limites necessários. A mesa deve conseguir decidir quando o efeito aconteceu sem discutir novamente a proposta a cada uso.
+
+## Limites
+
+A Bênção segue a orientação de **Aptidões e Refino — Aptidão Própria**. Ela não acrescenta dados de dano. Se for Categoria de Efeito 2, precisa de um limite por cena. Não pode copiar uma Bênção existente ou fornecer uma capacidade cujo requisito você não alcançou.
+
+Uma proposta com requisito de Força ou Constituição deve conceder um feito corporal específico, ligado a sobrevivência, recuperação ou outra capacidade física. Bônus, vantagem ou repetição de uma perícia não bastam para representar esse feito.
+
+Efeitos de Categoria de Efeito 3 ficam fora desta opção. Se a mesa não conseguir limitar a proposta à Categoria de Efeito 1 ou 2, reduza seu alcance ou escolha outra ideia.
+
+## Exemplo: Marca do pulso
+
+**Proposta de Categoria de Efeito 1:** ao encostar a mão numa estrutura que acabou de sofrer um impacto perceptível, você distingue qual parte conectada a ela recebeu esse impacto, até 3 m do ponto tocado.
+
+O efeito usa a vibração que ainda está ocorrendo. Um piso atingido pode indicar o degrau que acabou de ceder. Uma parede pode indicar a porta que foi golpeada. A Bênção não identifica quem provocou a vibração nem percebe um acontecimento silencioso encerrado antes do contato.
+
+Essa proposta concede uma informação corporal estreita. Não substitui Faro, não revela uma criatura atrás da parede e não permite escolher alvos sem visão. Sua aprovação e seus limites devem ficar registrados na ficha. Outros exemplos são avaliados pelo efeito concreto, não apenas pelo nome.

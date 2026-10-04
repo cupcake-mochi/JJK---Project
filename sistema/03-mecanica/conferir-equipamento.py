@@ -464,7 +464,7 @@ bloco('12. TREINO POR CAMINHO — quem alcanca qual balde, lido da peca 6')
 # So a (a) sairia verde com um Caminho faltando; so a (b) sairia verde com uma
 # categoria inventada.
 P6 = ler('06-caminhos-e-trilhas.md')
-CAMINHOS_5 = ['Bastião', 'Vanguarda', 'Guia', 'Emanador', 'Evocador']
+CAMINHOS_5 = ['Bastião', 'Vanguarda', 'Guia', 'Emanador', 'Evocador', 'Incursor']
 
 try:
     _s8 = P6[P6.index('### 8.0 Qual Caminho treina'):P6.index('### 8.1')]
@@ -539,6 +539,24 @@ if _s8:
 
 
 # --------------------------------------------------------------- 13. O DINHEIRO
+# O capitulo de equipamento tambem precisa incluir todo o catalogo atual.
+# Cada frase de treino deve citar os Caminhos do balde correspondente na peca 6.
+_eq_livro = os.path.join(AQUI, '../05-material/livro/manual/50-equipamento.md')
+if os.path.exists(_eq_livro):
+    _eq_texto = open(_eq_livro, encoding='utf-8').read()
+    _frases = re.findall(r'(?m)^> \*\*([^*]+treinam[^*]+)\*\*', _eq_texto)
+    for _linha in _s8.splitlines():
+        if not _linha.startswith('| '):
+            continue
+        _cel = [c.strip().replace('**', '') for c in _linha.strip('|').split('|')]
+        if len(_cel) < 3:
+            continue
+        _quem = [c for c in CAMINHOS_5 if c in _cel[0]]
+        _grupo = 'treze categorias' if 'treze' in _cel[1] else 'Arma de Fogo e Balestra'
+        for _nome in _quem:
+            if not any(_nome in _frase and _grupo in _frase for _frase in _frases):
+                erro(f'LIVRO cap. 15: a frase de treino omite {_nome} ou seu grupo de armas')
+
 # -- 12.1: o ponteiro para o catalogo, no comeco de cada Caminho. ------------
 # A tabela `Caracteristicas de <X>` diz em que armas o Caminho treina, e nao diz
 # que a arma se COMPRA. O capitulo 6 ja escrevia a frase certa — "o Caminho te

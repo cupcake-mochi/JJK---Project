@@ -1,0 +1,12 @@
+{
+  "aprovado": true,
+  "quantidades": {
+    "checks": 102,
+    "casos": 73,
+    "sequencias_marcos": 2187,
+    "perfis_ritmo": 5,
+    "mutacoes": 4,
+    "perfis_saldo": 808
+  },
+  "falhas": []
+}

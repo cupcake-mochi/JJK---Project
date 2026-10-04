@@ -1,0 +1,27 @@
+{
+  "sha256_texto": "7ce3150e4d26d747f5088bcd2b3117b621feb42d52ecc1c4bc4a548d53eb531c",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "revisor": "Agente principal (autoria) e compatibilidade (revisão independente, correções RP25–RP32 e releitura das interfaces alteradas).",
+  "notas": "Títulos diretos, remissões apenas para resolver interações. Revisão independente encerrada no texto e nos modelos; PDF atualizado ainda depende do agente principal.",
+  "atualizacao_independente": {
+    "revisor": "compatibilidade",
+    "parecer_original": "historico/revisao-independente-01/r19-revisao-independente.json",
+    "corrigidos": [
+      "RI-01",
+      "RI-02",
+      "RI-03",
+      "RI-04",
+      "RI-05",
+      "RI-06",
+      "RI-07",
+      "RI-08"
+    ],
+    "pendentes": [
+      "Exportação, conferência estrutural e inspeção visual pelo agente principal."
+    ],
+    "leitura": "Releitura das páginas de cópias, combinações, auxílio e pacto permanente após as decisões; testes por página e modelos salvos. Não declara playtest nem equilíbrio universal."
+  }
+}

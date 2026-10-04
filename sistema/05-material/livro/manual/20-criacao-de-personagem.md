@@ -79,8 +79,10 @@ Que lugar você ocupa numa equipe. Um Caminho por personagem, escolhido agora e 
 | **Vanguarda** | a arma como resposta: alcançar, cortar, acabar | Destreza, Força |
 | **Guia** | o outro como resposta: estender, recuperar, reposicionar | Essência |
 | **Emanador** | a técnica como resposta: mais feitiço, e mais barato | Inteligência, Essência |
+| **Evocador** | o vínculo com suas invocações | Inteligência, Essência |
+| **Incursor** | movimento e abertura no confronto | Destreza, Força |
 
-O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mexe em dados de dano e Classe de feitiço.
+O Caminho mexe em posicionamento, alvo, duração e recuperação. Cada habilidade declara suas exceções de dano, Classe e recuperação; cumpra os custos e requisitos do capítulo 8.
 
 ### Características do Caminho
 
@@ -93,8 +95,10 @@ O Caminho mexe em posicionamento, alvo, duração e recuperação. Ele nunca mex
 | **Vanguarda** | 8 (d8) | 5 | 5 | Acrobacia · Percepção |
 | **Guia** | 8 (d8) | 5 | 5 | Persuasão · Medicina |
 | **Emanador** | 6 (d6) | 4 | 6 | Ocultismo · Investigação |
+| **Evocador** | 6 (d6) | 4 | 6 | Religião · Lidar com Animais |
+| **Incursor** | 6 (d6) | 4 | 6 | Acrobacia · Intuição |
 
-Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias do sistema, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**. *Os dois ofícios se trocam por mais uma perícia, e no `Guia` e no `Emanador` duas das cinco se trocam por treino em uma arma.*
+Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias do sistema, **dois ofícios à sua escolha** e **um Teste de Resistência treinado**. *Os dois ofícios se trocam por mais uma perícia, e no `Guia`, no `Emanador` e no `Evocador` duas das cinco se trocam por treino em uma arma.*
 
 ### Equipamento
 
@@ -112,7 +116,7 @@ A Trilha é escolhida agora, junto do Caminho, e nasce com o personagem. São tr
 
 > **A Trilha já entrega no nível 2**, junto do primeiro degrau do Caminho, e volta a entregar nos níveis 11, 19 e 27. O texto de cada uma está no capítulo 8, *Caminhos e Trilhas*.
 >
-> **O Evocador está fora desta edição**, com as três Trilhas dele e as invocações. Ele volta quando o subsistema de Invocações fechar, e até lá nenhuma ficha nova o escolhe.
+> **Para jogar com invocações**, leia também o capítulo 17, *Invocações*. O Evocador aprimora esse subsistema; outros Caminhos podem utilizá-lo seguindo suas regras comuns.
 
 ## Passo 4 · Atributos
 
@@ -158,7 +162,7 @@ Os dois ofícios da Origem se trocam por mais uma perícia livre, e as duas rota
 | ficando com os ofícios | 9 de 23 | 2 de 11 |
 | trocando os dois | 10 de 23 | 0 de 11 |
 
-**E nos dois Caminhos que não treinam arma de verdade — `Guia` e `Emanador` — duas das cinco perícias à sua escolha viram treino em uma arma da lista.** *Não a categoria e não o tipo: uma arma.*
+**E nos três Caminhos com treino inicial em Arma de Fogo e Balestra — `Guia`, `Emanador` e `Evocador` — duas das cinco perícias à sua escolha viram treino em uma arma da lista.** *Não a categoria e não o tipo: uma arma.*
 
 Os dois Testes de Resistência treinados saem de quatro: Físico, Vigor, Espírito e Intelecto. Um vem da Origem, o outro do Caminho.
 
@@ -210,9 +214,9 @@ Pacto é o que você trocou por poder, e as quatro formas dele têm onde morar:
 | *"a minha técnica fica maior sob uma condição que eu aceitei"* | **Restrição**, por feitiço, no capítulo 9 |
 | *"a minha técnica impõe uma regra ao mundo"* | **`Regra Própria`**, por técnica, no capítulo 9 |
 | *"eu troquei uma coisa antes de a campanha começar"* | **Legado**, na criação, no capítulo 7 |
-| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | **Pactos**, no capítulo 17 |
+| *"eu e mais alguém fechamos um trato, aqui, na mesa"* | **Pactos**, no capítulo 18 |
 
-> **Das quatro formas do capítulo 17, só o pacto de restrição entra na criação**, e ele se escreve junto da Origem ou da técnica. As outras três nascem em jogo.
+> **Das quatro formas do capítulo 18, só o pacto de restrição entra na criação**, e ele se escreve junto da Origem ou da técnica. As outras três nascem em jogo.
 
 ## Exemplo
 

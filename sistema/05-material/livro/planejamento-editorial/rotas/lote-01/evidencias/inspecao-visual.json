@@ -1,0 +1,146 @@
+{
+  "sha256_pdf": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
+  "revisor": "/root/rotas_didatica",
+  "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-NOMES-ROOT.json.",
+  "sha256_pdf_anterior": "6f30a2b7519c99293460cc5062471497c32fd422be28ad836410667978569060",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "metodo": "pixels idênticos à prova inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-01.png"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-02.png"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "metodo": "pixels idênticos à prova inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-03.png"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "metodo": "pixels idênticos à prova inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-04.png"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-05.png"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-06.png"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-07.png"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-08.png"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-09.png"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-10.png"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-11.png"
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "metodo": "pixels idênticos à prova inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-12.png"
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-13.png"
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-14.png"
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-15.png"
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-16.png"
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-17.png"
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "metodo": "pixels idênticos à prova inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-18.png"
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "metodo": "pixels idênticos à prova inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-19.png"
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-20.png"
+    },
+    {
+      "pagina": 21,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-21.png"
+    },
+    {
+      "pagina": 22,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-22.png"
+    },
+    {
+      "pagina": 23,
+      "resultado": "sem defeito visual observado",
+      "metodo": "imagem atual aberta e inspecionada",
+      "arquivo": "output/comparacao-nomes/depois/pagina-23.png"
+    }
+  ]
+}

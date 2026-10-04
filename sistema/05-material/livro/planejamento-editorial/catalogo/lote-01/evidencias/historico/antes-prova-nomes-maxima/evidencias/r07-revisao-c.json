@@ -1,0 +1,131 @@
+{
+  "data": "2026-10-03T17:22:59.706970-03:00",
+  "escopo": "Revisão textual e de interface da parte C com R06 e partes A/B. Sem edição das fontes ou dos arquivos dos demais agentes.",
+  "hashes": {
+    "C": "1ecc97e18d5480342cfe2810c12f017c76fc026dda30746f53b314b41a93c20f",
+    "A": "a41bb03e44afcb250c7a0556629275d2a005e7285b4b0e826a809cf8c90ad63f",
+    "B": "b00db2bbcab4846209ab43583ff62e1c9ace03831a63f60af9bbff4978d536b4",
+    "R06": "a381ff3ae9a8460732658875a63e61caa604c12f617b86be0ac78409a334e7b8"
+  },
+  "verificacoes": [
+    {
+      "verificacao": "Entradas completas",
+      "resultado": "conforme",
+      "evidencia": "18 Restrições + Restrição Própria; 16 Passivas + Regra Própria + Passiva Própria, conferidas por nome contra os dois catálogos da fonte."
+    },
+    {
+      "verificacao": "Identificadores de página únicos",
+      "resultado": "conforme",
+      "evidencia": [
+        "cat-restricoes-conjuracao",
+        "cat-restricoes-consequencias",
+        "cat-restricoes-uso",
+        "cat-restricoes-proprias",
+        "cat-passivas-1",
+        "cat-passivas-2-recursos",
+        "cat-passivas-2-protecao",
+        "cat-passivas-3",
+        "cat-regra-propria",
+        "cat-passiva-propria"
+      ]
+    },
+    {
+      "verificacao": "Títulos sem artigo inicial e sem Como ler",
+      "resultado": "conforme",
+      "evidencia": "Todos os títulos e nomes atuais de entradas foram mantidos diretos; não foi executada renomeação global."
+    },
+    {
+      "verificacao": "Conceito de invocação obrigatório em R06",
+      "resultado": "conforme",
+      "evidencia": "R06:27 e 176–180 exigem conceito que preveja entidades, para Fundamento/Manejo/Kata; possuir espaço não basta."
+    },
+    {
+      "verificacao": "Invocação não surge de Passiva própria",
+      "resultado": "conforme",
+      "evidencia": "C: Passiva Própria mantém o acesso condicionado ao conceito e à aquisição em Invocações."
+    },
+    {
+      "verificacao": "Carregar e Concentração separados",
+      "resultado": "conforme",
+      "evidencia": "Mão Firme protege os dois procedimentos por dano até 10. Frágil é encerramento sem teste e permanece fora da proteção."
+    },
+    {
+      "verificacao": "Afinidade e Sem Cobertura coerentes",
+      "resultado": "conforme",
+      "evidencia": "Ambas ignoram somente cobertura Parcial, sem apagar requisito de alvo e trajetória."
+    },
+    {
+      "verificacao": "Sem Volta exige risco real",
+      "resultado": "conforme",
+      "evidencia": "Coerente com Inescapável sem Restrições e com Certeiro causando metade no erro. Peça 27:155 já excluía Sem Volta + Ritual de Meio Acerto."
+    },
+    {
+      "verificacao": "Morte e Integridade não redesenhadas",
+      "resultado": "rever",
+      "evidencia": "Costura previne a queda, sem cura retroativa. Levanta e Remenda continuam na parte B com seus alvos e limites. A revisão futura de Morrendo/Integridade não foi executada."
+    },
+    {
+      "verificacao": "Frágil preserva fonte exata",
+      "resultado": "conforme",
+      "evidencia": "40-fundamento.md:834 diz antes do seu próximo turno, sem a palavra fim. Começo foi interpretação explícita dessa frase."
+    },
+    {
+      "verificacao": "Pesada mantém saída",
+      "resultado": "conforme",
+      "evidencia": "Peso da Presença aplica Amedrontado; Dano e condições, lote 03-r3:241, concede saída para cada aplicação de Pesada."
+    }
+  ],
+  "achados": [
+    {
+      "id": "R07-C-REV-01",
+      "prioridade": "P2",
+      "estado": "decisão pendente do parent",
+      "assunto": "Barulho e Assinatura",
+      "evidencia": "Fonte 40:874 cita dois jeitos de te entregar entre duplicações proibidas. R06 atual cobra mesmo impedimento. C não proíbe automaticamente aviso imediato e autoria por uma hora.",
+      "recomendacao": "Se preservar a intenção restritiva antiga, escrever que Barulho e Assinatura não podem ser usadas juntas. Se aceitar dificuldades diferentes, registrar a mudança como mecânica, sem apresentá-la apenas como clareza textual."
+    },
+    {
+      "id": "R07-C-REV-02",
+      "prioridade": "P2",
+      "estado": "escolha candidata registrada",
+      "assunto": "Autoria de Assinatura",
+      "evidencia": "Aponta para você era ambíguo. C usa identificação do autor e exclui rastreamento contínuo de sua posição.",
+      "recomendacao": "Manter o fechamento como candidato revisável. Não afirmar que a fonte original já continha essa distinção."
+    },
+    {
+      "id": "R07-C-REV-03",
+      "prioridade": "P2",
+      "estado": "sincronização solicitada à parte B",
+      "assunto": "Eco e Cobrança",
+      "evidencia": "C já aplica uma única metade e consome ambos quando coexistem. Mensagem enviada ao agente de B para mesma frase.",
+      "recomendacao": "Conferir B final antes da montagem. O desconto opera no custo normal; Dívida se acrescenta depois."
+    },
+    {
+      "id": "R07-C-REV-04",
+      "prioridade": "P2",
+      "estado": "preservado para avaliação empírica posterior",
+      "assunto": "Raiz em Classe Passiva 1",
+      "evidencia": "Fonte expressa permite resistência completa a deslocamento imposto e Derrubado. Há conflito de força com limites genéricos de criação própria.",
+      "recomendacao": "Preservar exceção nominal solicitada pelo parent. Levar força relativa ao playtest, sem declarar equilíbrio medido nesta revisão."
+    },
+    {
+      "id": "R07-C-REV-05",
+      "prioridade": "P3",
+      "estado": "clareza de escopo",
+      "assunto": "Leitura de livros e validação externa",
+      "evidencia": "Até este fechamento, a verificação foi por agente sobre fontes locais do Projeto M e candidatas R06/R07. Os casos são previstos, não sessões reais.",
+      "recomendacao": "Separar a pesquisa editorial dirigida posterior de validação mecânica. Não chamar comparação editorial de playtest."
+    }
+  ],
+  "limites": [
+    "Não houve playtest, leitor humano independente ou simulação estatística de campanhas.",
+    "Contramedida 2 PE, Peso da Presença contra Capanga, expiração de Carregar, interação de descontos e algumas ambiguidades são fechamentos candidatos identificados como M.",
+    "Catálogo de invocações usa aquisição e subset próprios de Passivas. Este catálogo pessoal não amplia automaticamente o acesso de entidades.",
+    "Revisão global de nomes, de voz do livro, de Morrendo e de Integridade permanece na fila."
+  ],
+  "pontuacao": {
+    "ponto_e_virgula": 1,
+    "paginas_planejadas": 10,
+    "palavras_aproximadas": 3793
+  }
+}

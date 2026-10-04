@@ -1,0 +1,32 @@
+--- origens/lote-01/ORIGENS-E-LEGADOS.md
+
++++ origens/lote-01/ORIGENS-E-LEGADOS.md
+
+@@ -155,7 +155,7 @@
+
+ A energia continua presente e perceptível. Uma Cortina que identifique assinaturas pode reagir à do passageiro. Uma barreira que impeça qualquer criatura com energia continua reconhecendo a sua presença. Máscara não ignora critérios independentes de identidade, como tamanho, objetos carregados ou uma obstrução física.
+ 
+-**Revezamento.** **Uma vez por descanso longo**, quando você ficaria **Incapacitado**, impeça essa aplicação. A outra presença sustenta a resposta do corpo. Em troca, quem observa percebe que outra consciência agiu por você. O mestre considera essa revelação nas reações das pessoas presentes.
+-
+-Incapacitado é a condição nomeada em Dano e Condições. Revezamento não impede Inconsciente, a perda de vida ou as consequências de chegar a zero. Se a mesma capacidade causar dano e Incapacitado, o dano continua sendo resolvido.
++**Revezamento.** **Uma vez por descanso longo**, quando você ficaria **com a Guarda Aberta**, impeça essa aplicação. A outra presença sustenta a resposta do corpo. Em troca, quem observa percebe que outra consciência agiu por você. O mestre considera essa revelação nas reações das pessoas presentes.
++
++Guarda Aberta é a condição nomeada em Dano e Condições. Revezamento não impede Inconsciente, a perda de vida ou as consequências de chegar a zero. Se a mesma capacidade causar dano e Guarda Aberta, o dano continua sendo resolvido.
+ 
+ ## Acordos na mesa
+@@ -163,5 +163,5 @@
+
+ Registre o nome ou a descrição do passageiro, o que ele quer e a relação atual entre vocês. Os Legados podem modificar essa relação, mas não determinam a história inteira. Um acordo de cooperação pode se desgastar, e uma relação hostil pode mudar durante a campanha.
+ 
+-> **Exemplo:** Ren usa Revezamento diante de uma patrulha. Impede Incapacitado, mas recebe normalmente o dano do efeito. A patrulha vê a mudança de expressão e ouve outra voz. Na conversa seguinte, Ren precisará explicar o que aconteceu, se quiser conservar a confiança dela.
++> **Exemplo:** Ren usa Revezamento diante de uma patrulha. Impede Guarda Aberta, mas recebe normalmente o dano do efeito. A patrulha vê a mudança de expressão e ouve outra voz. Na conversa seguinte, Ren precisará explicar o que aconteceu, se quiser conservar a confiança dela.
+ 
+ <!-- page:origem-descendente|Descendente -->
+@@ -231,5 +231,5 @@
+
+ ## Legados de rolagem
+ 
+-**Corpo Emprestado.** **Uma vez por cena**, faça com vantagem um Teste de Resistência contra ficar Incapacitado. Essa condição é diferente de Inconsciente ou das consequências de chegar a zero de vida.
++**Corpo Emprestado.** **Uma vez por cena**, faça com vantagem um Teste de Resistência contra ficar com a Guarda Aberta. Essa condição é diferente de Inconsciente ou das consequências de chegar a zero de vida.
+ 
+ **Espasmo.** **Uma vez por descanso curto**, refaça um Teste de Resistência Físico ou de Vigor em que falhou.

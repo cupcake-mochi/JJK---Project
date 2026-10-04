@@ -1,0 +1,136 @@
+{
+  "status": "primeira prova; não é a aprovação final do livro",
+  "sha256_pdf": "f7273315bc9ab1d78f94aa70a92803768031b32d9d6af228d6461f41e8780d9a",
+  "sha256_texto": "46bb2a1bcd97283b1dbff20bf85e5b478a9da8463f08a1386c585d08c820ebfe",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "estado": "executado na montagem",
+      "evidencias": [
+        "evidencias/MAPA-BLOCOS.json",
+        "evidencias/QA-ESTRUTURAL.json"
+      ],
+      "limites": "510 blocos de 23 manuscritos capturados aparecem exatamente uma vez; alterações posteriores exigem outra geração."
+    },
+    {
+      "id": "V02",
+      "nome": "Fonte e preservação",
+      "estado": "executado na montagem",
+      "evidencias": [
+        "evidencias/GERACAO.json",
+        "evidencias/fontes-capturadas",
+        "evidencias/QA-ESTRUTURAL.json"
+      ],
+      "limites": "Comparação independente de tokens de cada bloco; apenas hierarquia e remissões são alteradas. Não revalida a escolha mecânica das fontes."
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionamento",
+      "estado": "pendente de fechamento transversal",
+      "evidencias": [],
+      "limites": "Montagem não muda regras; os casos dos donos não substituem a avaliação final do conjunto."
+    },
+    {
+      "id": "V04",
+      "nome": "Validação numérica",
+      "estado": "pendente de fechamento transversal",
+      "evidencias": [],
+      "limites": "Orçamentos e números foram preservados, sem nova simulação de toda a obra nesta tarefa."
+    },
+    {
+      "id": "V05",
+      "nome": "Balanceamento",
+      "estado": "pendente de fechamento transversal",
+      "evidencias": [],
+      "limites": "Nenhum playtest ou leitor humano; equilíbrio não é provado por estrutura PDF."
+    },
+    {
+      "id": "V06",
+      "nome": "Interfaces",
+      "estado": "parcial",
+      "evidencias": [
+        "evidencias/DESTINOS-PENDENTES.json",
+        "evidencias/REMISSOES-TEXTUAIS.json"
+      ],
+      "limites": "Links resolvidos; remissões textuais desatualizadas foram encaminhadas, e regras entre capítulos ainda dependem da rodada final."
+    },
+    {
+      "id": "V07",
+      "nome": "Edição automática",
+      "estado": "parcial",
+      "evidencias": [
+        "evidencias/REMISSOES-TEXTUAIS.json"
+      ],
+      "limites": "Busca dirigida contextual, sem certificar que toda remissão implícita esteja correta."
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza e suficiência",
+      "estado": "pendente de leitura final do conjunto",
+      "evidencias": [],
+      "limites": "Não confundir leitura de amostras da prova com revisão integral de 383 páginas."
+    },
+    {
+      "id": "V09",
+      "nome": "Comparação com livros de RPG",
+      "estado": "não repetida na montagem",
+      "evidencias": [],
+      "limites": "Os donos documentam suas leituras dirigidas; esta etapa preserva os textos e organiza o PDF."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização do conteúdo",
+      "estado": "parcial",
+      "evidencias": [
+        "ORDEM.json",
+        "evidencias/MAPA-BLOCOS.json",
+        "evidencias/REMISSOES-TEXTUAIS.json"
+      ],
+      "limites": "Não há duplicação de blocos; a existência de redundância semântica entre blocos diferentes pede leitura final."
+    },
+    {
+      "id": "V11",
+      "nome": "Cânone",
+      "estado": "não repetido na montagem",
+      "evidencias": [],
+      "limites": "Nenhuma informação nova da obra foi criada; validações específicas continuam nos respectivos donos."
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "estado": "pendente para o livro reunido",
+      "evidencias": [],
+      "limites": "QA executado pelo autor do gerador; revisões dos donos não se transferem automaticamente à montagem final."
+    },
+    {
+      "id": "V13",
+      "nome": "Preflight do PDF",
+      "estado": "executado na prova",
+      "evidencias": [
+        "evidencias/QA-ESTRUTURAL.json"
+      ],
+      "limites": "3485 verificações passaram no PDF f7273315bc9ab1d78f94aa70a92803768031b32d9d6af228d6461f41e8780d9a; sem defeito detectado de texto fora de página, fonte não incorporada ou destino inválido."
+    },
+    {
+      "id": "V14",
+      "nome": "Inspeção visual integral",
+      "estado": "pendente",
+      "evidencias": [
+        "evidencias/AMOSTRAS-GERADOR.json"
+      ],
+      "limites": "Amostras corrigiram largura de Volume; todas as páginas finais precisam ser realmente abertas após congelar fontes."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade e reprodução",
+      "estado": "executado com limites",
+      "evidencias": [
+        "evidencias/GERACAO.json",
+        "evidencias/DETERMINISMO.json",
+        "MANIFESTO.json"
+      ],
+      "limites": "Duas execuções idênticas confirmadas numa prova anterior; reexecutar conferência e manifesto após congelamento final."
+    }
+  ]
+}

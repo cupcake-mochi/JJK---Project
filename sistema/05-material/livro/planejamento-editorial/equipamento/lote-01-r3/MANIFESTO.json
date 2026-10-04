@@ -1,0 +1,26 @@
+{
+  "data": "2026-10-03",
+  "arquivos": {
+    "CONFERENCIA.json": "a0a9bd5418d8ce6d7afbd2654512cb96571b194126febbe02f9eb13590532cc0",
+    "DECISOES.md": "b1fbc7a274dde9197addf9aa7dfb82c4cb53fd6ac985eaecc44b769c53645fdf",
+    "EQUIPAMENTO-EM-JOGO.md": "8d8311f3777014ea84df2b531f64d91540b3885cf2930a3cb071eebf21e3d7a1",
+    "ESTRUTURA.json": "e3535d9c2005318b8766c5c53c3757ade1b95e72f930adbe8434de88491e51a8",
+    "LEIA-ME.md": "b24785391dde5a648033bf32d6bd18418d94a3ee5298a3424dd7b2708378bd43",
+    "RELATORIO.md": "574512262bc6b7b95d0c6d12956ddb3b33d47f422e327a0eeed28b7292ad2ac5",
+    "VALIDACAO.json": "20593a23b62d380322fd8c171e1a79b1117e1b7e9b5ba4fe189e8d668ecd677a",
+    "conferir.py": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+    "evidencias/LOCALIZACAO-EDITORIAL.json": "0f18059124ffef06909ac5b652c317a1f65f9a2b33289293eaefe94dc63b156c",
+    "evidencias/REVISAO-EDITORIAL.json": "5c4455494d0a86f30714e7a118001789834674085ac22b24835a65f5122cb3d4",
+    "evidencias/REVISAO.md": "574512262bc6b7b95d0c6d12956ddb3b33d47f422e327a0eeed28b7292ad2ac5",
+    "evidencias/analise-numerica.json": "2cbbde3d1c53963a9a43ecc1a18abf8f784af7fbc99256d8dbe91825c1b4f09e",
+    "evidencias/casos-documentais.json": "be4063b238b06a97ce720b7d5e158ed75de8cc7a30a083f2d14541a30f07bbb3",
+    "evidencias/fontes-preservadas.json": "b7646bff8b276c694d6764ffe05a7d8d2287d0dac36e88ca71f61b111be032f4",
+    "evidencias/inspecao-visual.json": "c60ced63d5ce639cc1beea8614b4a63e9c471906de20c1f84cafe114ff9af675",
+    "evidencias/pdf-estrutura.json": "9c448905b745243e566f410aea50b70dc17bd7302be3913d9aed71bc0bb6c456",
+    "evidencias/pdf-texto.txt": "9d842930c380b00e52ea74b496d7c8791a04b15a8e5dedb5f6fd61a607acf2b0",
+    "evidencias/regras-verificadas.json": "c783809eb55d9bf30d4ec36ea42bc90775f58dd37003c00b70c842afa06a57a5",
+    "evidencias/validador-base.txt": "94217152e97945d0e217c88124e5a08a374773dcd743a0a0219bd61e28256fca",
+    "gerar_pdf.py": "d6f0dfe6879725da77fe997a458e75724c1c42d2bc5b362445e1da62d5a7371c",
+    "output/pdf/Projeto-M-Equipamento-em-Jogo-Proposta-03.pdf": "157e06b28762e67856f00ec393f362dbb259297cb647c31908f4ff7228adcbd1"
+  }
+}

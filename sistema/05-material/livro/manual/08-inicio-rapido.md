@@ -58,8 +58,8 @@ físico: as duas mãos precisam se tocar antes de qualquer feitiço sair.
 > **`Olhos Em Mim`** · Ação Bônus, do Caminho Bastião
 > Uma área de `6 m` em volta dela, que anda com ela até o fim da cena. Ao abrir a área, ela
 > tenta Provocar até **dois** inimigos dentro dela — metade da Força, `3 ÷ 2` para baixo, mais
-> um. Enquanto a área estiver aberta, ela pode gastar a **Reação** para receber no lugar de um
-> aliado o golpe que acertou ele.
+> um. Enquanto a área estiver aberta, antes da rolagem de um ataque contra um aliado nela, pode
+> gastar a **Reação** para assumir esse ataque. O atacante rola contra a Defesa dela ou seu Bloquear.
 
 > **`Alicerce`** · da Trilha Muro
 > Ela escolheu `Cortante` e `Concussão` no último descanso longo. Enquanto `Olhos Em Mim`

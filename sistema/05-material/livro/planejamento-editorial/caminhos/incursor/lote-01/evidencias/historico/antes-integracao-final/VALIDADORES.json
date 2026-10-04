@@ -1,0 +1,146 @@
+{
+  "sha256_texto": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "estado": "executado",
+      "evidencia": "65 headings e41 nomes; inventário por âncora.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V02",
+      "nome": "Fidelidade",
+      "estado": "executado",
+      "evidencia": "Publicado e integrada idênticos; hashes preservados; alterações explícitas.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionalidade",
+      "estado": "executado",
+      "evidencia": "76 casos dirigidos positivos/negativos/limites; não simulação integral.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "estado": "executado",
+      "evidencia": "46.875 sequências,70perfisdeGolpe,400trajetórias,364TR; script reproduzível.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V05",
+      "nome": "Balanceamento",
+      "estado": "executado-com-limites",
+      "evidencia": "Pressão em5perfis; custos e oportunidades, sem certificação global.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "estado": "executado-com-interfaces",
+      "evidencia": "Leve exige sincronizarR05; permissões deR01 migradas sem duplicar catálogo.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos e vocabulário",
+      "estado": "autorrevisado",
+      "evidencia": "26seções, sem títulos Como ler ou artigos iniciais; validador separado.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza e suficiência",
+      "estado": "autorrevisado",
+      "evidencia": "Parecer contextual por página; requer leitor externo para medir compreensão.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V09",
+      "nome": "Voz e comparação RPG",
+      "estado": "autorrevisado",
+      "evidencia": "PHB local como estrutura; sem adaptar narrativa ou números.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "estado": "autorrevisado-com-interfaces",
+      "evidencia": "Canalizar referido por necessidade de cálculo; explicações próprias de movimento migradas.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V11",
+      "nome": "Cânone",
+      "estado": "nao-aplicavel",
+      "evidencia": "Sem nova alegação factual sobre JJK; identidades e habilidades de sistema.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "estado": "executado",
+      "evidencia": "Leitura independente e casos dirigidos registrados em evidencias/REVISAO-INDEPENDENTE-RAIZ ou FECHAMENTO-INDEPENDENTE-ROTAS, conforme o capítulo. Correções verificadas no hash final.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V13",
+      "nome": "Exportação PDF",
+      "estado": "executado",
+      "evidencia": "PDF26p;198 verificações documentais/estruturais em PRE-CONFERENCIA-PDF.json; inspeção visual separada.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    },
+    {
+      "id": "V14",
+      "nome": "Inspeção visual",
+      "estado": "executado",
+      "evidencia": "Todas as 26 páginas renderizadas abertas e inspecionadas pela raiz. Hashes em evidencias/inspecao-visual.json. Sem defeito visual observado na prova.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "limite_delta": "2 páginas abertas; 24 preservadas por identidade da prova."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "estado": "executado",
+      "evidencia": "SHA, fontes,21 decisões, inventário e casos salvos.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json"
+    }
+  ],
+  "sha256_pdf": "cd47ec69eb86f24df55f4ad545320d02a992869412687b87282f184669b58b5a",
+  "revalidacao_nomes": {
+    "unidade": "caminhos/incursor/lote-01",
+    "sha256_texto": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+    "sha256_pdf": "cd47ec69eb86f24df55f4ad545320d02a992869412687b87282f184669b58b5a",
+    "escopo": "Releitura contextual das linhas alteradas; a revisão integral anterior permanece em seus relatórios históricos.",
+    "invariantes": "IDs, numerais, alcance, custos, procedimentos e tabelas conservados. Nomes aprovados e concordância uniformizados.",
+    "historico": "consolidacao/lote-01/migracao-nomes/qa-antes/caminhos/incursor/lote-01",
+    "auditoria_numerica": "Execuções novamente concluídas após os nomes; outputs locais vinculados à versão atual.",
+    "paginas_reabertas": [
+      3,
+      16
+    ],
+    "paginas_preservadas": 24,
+    "equivalencia_visual": "Hashes de pixels por página, COMPARACAO-NOMES-PDF.json",
+    "revisao_independente_delta": {
+      "revisor": "/root",
+      "resultado": "Sem bloqueador nos diffs nominais completos de Regras gerais, Equipamento, Aptidões, Incursor e Origens, conforme confirmação direta do revisor; unidades de texto idêntico preservam o parecer anterior.",
+      "complemento": "não aplicável"
+    },
+    "limites": [
+      "Sem novo cânone, redesign ou afirmação de equilíbrio final.",
+      "Leitura por modelo não equivale a teste com pessoas.",
+      "Adjetivos passivo/passiva comuns mantidos."
+    ]
+  },
+  "fechamento_migracao": {
+    "estado": "concluído no escopo nominal e remissões",
+    "conferencia": "CONFERENCIA.json",
+    "limites": "Evidências mecânicas anteriores preservadas e execuções repetidas nos textos atuais. Revisão de nomes/remissões não é novo playtest.",
+    "paginas_abertas": [
+      3,
+      16
+    ]
+  }
+}

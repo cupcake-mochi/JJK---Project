@@ -1,0 +1,140 @@
+========================================================================================
+CONFERIR-CATALOGO — a peca 17 contra os tres DESENHO
+========================================================================================
+
+========================================================================================
+1. TOTAIS — a tabela de totais contra o contado das tabelas de cima
+========================================================================================
+  contado: Trilha 68 · Caminho 20 · Manha 14 = 102
+           com nome 101 · sem nome 0 · vaga 1
+  [x] todo total escrito foi recontado da propria peca. Nenhum foi digitado a mao.
+
+========================================================================================
+2. SOMAS — o total fecha por dois caminhos diferentes
+========================================================================================
+  por familia: 68 + 20 + 14 = 102
+  por estado : 101 + 0 + 1 = 102
+  [x] as duas fecham no mesmo numero. Uma entrada sem estado nao passa por aqui.
+
+========================================================================================
+3. INDICE — todo nome do indice existe no DESENHO dono dele
+========================================================================================
+  102 nomes no indice, conferidos contra os tres arquivos
+  [x] nenhum nome do indice esta orfao. Renomear de um lado so falha aqui.
+
+========================================================================================
+4. VOLTA — todo nome batizado num degrau do DESENHO esta no indice
+========================================================================================
+  67 nomes batizados em linha de preco, conferidos contra o indice
+  [x] nenhuma entrega batizada ficou fora do indice.
+
+========================================================================================
+5. BLOCO — toda entrega de Trilha com nome tem bloco de regra escrito
+========================================================================================
+  67 entregas com nome, 68 blocos de regra achados
+  [x] toda entrega batizada tem texto que o mestre le na mesa.
+
+========================================================================================
+6. GATE — o bloco de regra nao contradiz o gate da linha de preco
+========================================================================================
+  Esta e a checagem que a Estocada nv27 custou: a linha de preco dizia
+  "se o feitico acertou" e o bloco dizia "carrega SEMPRE".
+  68 pares (linha de preco, bloco de regra) conferidos
+  [x] nenhum bloco promete permanencia onde o preco cobrou condicao.
+
+========================================================================================
+7. CONTAGEM — a pasta tem 27 pecas e 27 validadores
+========================================================================================
+  pecas na pasta      : 27
+  validadores na pasta: 27
+  [x] peca e validador andam em par, e o par bate com o numero declarado.
+
+========================================================================================
+8. COPIAS — todo documento que cita o total concorda com o contado
+========================================================================================
+  A peca 17 e a DONA de "quantas entradas existem". Todo outro documento
+  que repete o numero e copia, e copia sem dono vira a licao no 9.
+  8 citacoes de "indice das NN entradas" conferidas contra o dono
+  [x] as 8 copias do total dizem 102, que e o que a pasta tem.
+
+========================================================================================
+9. VALOR — toda Classe que a linha de preco cobra aparece no bloco de regra
+========================================================================================
+  A checagem 6 pega gate contra "sempre". Esta pega VALOR contra valor, que
+  foi o que deixou o nivel 19 da Brasa publicar Classe 2 por tres versoes
+  enquanto a tabela e o argumento diziam Classe 3, e Classe 4 do nivel 21.
+  68 pares conferidos, na direcao preco -> bloco
+  (o bloco PODE citar Classe a mais: exemplo de custo nao e promessa)
+  [x] nenhum bloco entrega Classe menor do que a que foi paga.
+
+========================================================================================
+10. CALENDARIO — o degrau de Caminho publicado sai do dono
+========================================================================================
+  dono: a colecao v0.4, em caminhos/, diz `2 · 7 · 15 · 23 · 30`
+  3 copia(s) viva(s) do calendario conferida(s) contra o dono
+  [x] toda copia viva bate com o dono, e os calendarios aposentados nao sobraram.
+  [x] o `Parrudo` diz `5 ×` a maestria no dono e na copia do museu,
+      registro historico: Parrudo nao integra o Evocador atual.
+  [x] as 1408 frases e celulas da v0.4 estao no capitulo 35, com as 13 adaptacoes de voz declaradas e os 13 renomes da peca 6.
+  [x] a rampa desce nos 29 niveis: o `Absorver` (nivel + 1d6) e no minimo 2.79x
+      a Reacao de cobrir-se (1,5 x refino), e ele e de graca.
+  [x] 10.4 a cerca: 11 entregas do capitulo 8 curam ou descontam dano, e todas estao na peca 5 §4 — 4 excecoes declaradas, 3 que so parecem furar, e o quadro de Limites nomeia as excecoes
+  [x] 10.5 as pendencias da v0.4: o quadro de cada uma das 2 entregas decididas na peca 6 §2 diz a frase da tabela
+
+========================================================================================
+11. CAPITALIZACAO — todo nome batizado do indice comeca com maiuscula
+========================================================================================
+  102 nome(s) batizado(s) em 101 celula(s) com nome (uma celula de Caminho carrega duas entregas, por isso 102 > 101)
+  [x] nenhuma das entradas batizadas do indice tem nome em minuscula.
+
+========================================================================================
+12. PRECO — toda entrega de Trilha tem fatia legivel, e o total bate com as linhas
+========================================================================================
+  68 linha(s) de preco lida(s) em 17 Trilha(s); 16 total(is) de cabecalho recontado(s)
+  [x] nenhuma entrega de Trilha esta sem preco, e todo total de cabecalho
+      recontado cai dentro do que as linhas dele somam.
+
+========================================================================================
+13. A BANDA DAS MANHAS — o catalogo contra o filtro de dominancia
+========================================================================================
+  13 Manhas com preco; banda medida 0.53 a 1.18, dominancia 2.23x
+  o documento publica 0.53 a 1.18, dominancia 2.22x, filtro 3.00x
+  [x] a banda recontada bate com a publicada, e ela passa no filtro.
+
+  13.1 a mesma banda com UM ataque por rodada — os niveis 2 a 6
+       13 Manhas declaradas; 5 escalam com o numero de golpes
+       banda recontada 0.53 a 1.06, dominancia 2.00x, media 0.80
+       [x] a banda de um ataque reconta da tabela dona e passa no filtro.
+
+========================================================================================
+14. A DERIVACAO DAS TRAVAS — toda Manha diz de onde a trava dela sai
+========================================================================================
+  13 Manhas no catalogo, 13 na tabela de derivacao, 4 familias declaradas
+     Teste de Resistência: 5 · acerto: 2 · cenário: 2 · sem portão: 4
+  [x] toda Manha do catalogo aponta para a familia de onde a trava dela sai.
+
+========================================================================================
+15. MATRIZ DE COLUNAS — a dominancia entre Trilhas do mesmo Caminho
+========================================================================================
+  7 Trilha(s) com coluna declarada em linha de preco; 3 do Evocador
+  ação/alvo · defesa · recuperação
+  [x] a matriz publicada reconta das 12 linhas de preco.
+    `Matilha`                   ação/alvo 5.04 · defesa 0.00 · recuperação 0.00   total 5.04
+    `Servo`                     ação/alvo 2.13 · defesa 4.38 · recuperação 0.82   total 7.33
+    `Coro`                      ação/alvo 7.67 · defesa 0.00 · recuperação 0.00   total 7.67
+  6 pares, 1 dominancia(s) pelas colunas, 1 declarada(s) no texto
+  [x] a dominancia achada esta declarada, e a declaracao nomeia o eixo que a resolve fora desta matriz.
+
+========================================================================================
+16. O EIXO DO X — as duas faixas da `Arma de Fogo` sao a MESMA variavel
+========================================================================================
+  A 12 confere que o total cabe entre as pontas soltas. Esta confere que ele
+  sai de UMA arma: mesmo X nas duas faixas, na mesma linha.
+  [x] 2 arma(s) conferida(s): o total de cada uma sai das quatro entregas DELA.
+  [x] a faixa publicada (4.78 a 5.16) e o intervalo das armas, nao o das pontas soltas.
+  [x] `Ferrolho` [0.58, 0.37, 0.24] encolhe e `Descarga` [1.17, 1.89] cresce: as duas faixas se cancelam, que e o que a secao afirma.
+
+========================================================================================
+  [x] v0.331: seis fontes completas, dezoito Trilhas, novos Caminhos fieis e contratos do Bastiao conferidos
+>>> TUDO OK — o indice bate com os tres DESENHO nas duas direcoes, todo
+    total foi recontado, e nenhum bloco de regra contradiz o preco dele.

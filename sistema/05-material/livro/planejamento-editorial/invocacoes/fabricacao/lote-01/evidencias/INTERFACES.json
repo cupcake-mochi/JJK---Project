@@ -1,0 +1,35 @@
+{
+  "sha256_texto": "6b0c6fdc6690e154c064c44ddad58e02593fb3c1a38da3f3ba097e376fc471b0",
+  "interfaces": [
+    {
+      "destino": "R12 aquisição",
+      "acao_raiz": "Manter remissão Fabricação de entidades; resolver parafab-entidades na consolidação.",
+      "regra": "Criação sem técnica/slot; nível fixo. Ficha e montagem continuam emR12."
+    },
+    {
+      "destino": "R11 morte/transferência",
+      "acao_raiz": "Remissão a fab-conclusao; registrar novos fechamentosFAB09/10.",
+      "regra": "Herança com objeto presente; estados não resetam; bodyexcedente semcontroleR11-48."
+    },
+    {
+      "destino": "R04 Ofícios",
+      "acao_raiz": "Opcional remissão no dono Fabricação a esta especialização, sem copiar procedimento.",
+      "regra": "Teste final obrigatório é exceção à dispensa para rotina. Manter ajudas/consequências gerais."
+    },
+    {
+      "destino": "R05 equipamentos",
+      "acao_raiz": "Não alterar preços/volume/graus existentes.",
+      "regra": "Materiais são orçamento de projeto; equipamento incorporado continua pago e obedece aos gates."
+    },
+    {
+      "destino": "Publicação",
+      "acao_raiz": "Inserir como subseção de Fabricação/Ofícios, preservando decisão107 de não ser parte do capítulo de campo/montagem.",
+      "regra": "Pasta invocacoes só organiza produção; não dita localização final."
+    },
+    {
+      "destino": "Roteiro de campanha/guilda",
+      "acao_raiz": "Testar projetos reais antes de criar tabela econômica global.",
+      "regra": "Preço e tempo intencionalmente variáveis, seguindoR04. Falta calendário/economia consensual para certificar esses valores."
+    }
+  ]
+}

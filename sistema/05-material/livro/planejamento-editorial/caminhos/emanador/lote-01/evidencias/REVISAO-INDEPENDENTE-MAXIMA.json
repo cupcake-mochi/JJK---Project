@@ -1,0 +1,295 @@
+{
+  "revisor": "maxima, diferente do autor compatibilidade",
+  "sha256_texto": "b71b2d1424a0b48971fee676d791cd9e1b9ca40207ea6b40f95344bdff31d48e",
+  "sha256_fonte_integrada": "cfb12bbee0d12c71012a41dbf55b2fe8465f9305b966cdc78368fcde53fab279",
+  "escopo": "Leitura integral das19 páginas e fonte integrada,29decisões, script do autor; leitura cruzada deR07Tempo/CorpoaCorpo, R19descontoEnergia eR09Canalizar conforme interface descrita. Sem edição do manuscrito.",
+  "veredito": "Nenhum bloqueador concreto encontrado. Pronto para exportação/visual, preservados limites abaixo.",
+  "achados_bloqueadores": [],
+  "observacoes": [
+    {
+      "id": "OBS01",
+      "gravidade": "limite de comparação",
+      "texto": "Cadência Marcial impede conjuração pela Cadência, não proíbe uma Bônus concedida por outra regra. Fonte e candidata conservam essa distinção. Não declarar que o teto universal doCondutor seja doisataques semfeitiço."
+    },
+    {
+      "id": "OBS02",
+      "gravidade": "decisão explícita",
+      "texto": "1km emSentido doVínculo não é múltiplo de1,5m, mas EMA19 documenta exceção narrativa orientada pela raiz. Não é número de ataque/área nem esquecimento silencioso. Registrar essa exceção na validação global de medidas; não alterar novamente sem motivo."
+    },
+    {
+      "id": "OBS03",
+      "gravidade": "limite dos modelos",
+      "texto": "Modelo doautor deestoques usa índice deturnos próprio simplificado. Texto inclui gatilhos posteriores ao disparo deArmado/Segura. Não houve simulação de combate completa, casos humanos ou visualização dePDF nesta revisão."
+    },
+    {
+      "id": "OBS04",
+      "gravidade": "implementação de custos",
+      "texto": "Afinidade,Instintiva,Eco são alternativas completas. O modelo compara alternativas quando disponíveis; não concede Eco a todosos feitiços nem confunde EcoAmaldiçoado comPassivaEco."
+    }
+  ],
+  "checagens_independentes": [
+    {
+      "nome": "Média d8 sem modificação",
+      "obtido": 4.5,
+      "esperado": 4.5,
+      "passou": true
+    },
+    {
+      "nome": "Média d8 com um reroll obrigatório de1/2",
+      "obtido": 5.25,
+      "esperado": 5.25,
+      "passou": true
+    },
+    {
+      "nome": "Média em1d8",
+      "obtido": 5.25,
+      "esperado": 5.25,
+      "passou": true
+    },
+    {
+      "nome": "Média em6d8",
+      "obtido": 31.5,
+      "esperado": 31.5,
+      "passou": true
+    },
+    {
+      "nome": "Média em9d8",
+      "obtido": 47.25,
+      "esperado": 47.25,
+      "passou": true
+    },
+    {
+      "nome": "Média em12d8",
+      "obtido": 63.0,
+      "esperado": 63.0,
+      "passou": true
+    },
+    {
+      "nome": "Média em18d8",
+      "obtido": 94.5,
+      "esperado": 94.5,
+      "passou": true
+    },
+    {
+      "nome": "Média em21d8",
+      "obtido": 110.25,
+      "esperado": 110.25,
+      "passou": true
+    },
+    {
+      "nome": "Afinidade2→4",
+      "obtido": 9,
+      "esperado": 9,
+      "passou": true
+    },
+    {
+      "nome": "Eco2→4",
+      "obtido": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "nome": "Instintiva2→5",
+      "obtido": 10,
+      "esperado": 10,
+      "passou": true
+    },
+    {
+      "nome": "Eco2→5",
+      "obtido": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "nome": "Ritual2 antes deAfinidade2→4",
+      "obtido": 8,
+      "esperado": 8,
+      "passou": true
+    },
+    {
+      "nome": "Ritual2 antes deEco2→4",
+      "obtido": 5,
+      "esperado": 5,
+      "passou": true
+    },
+    {
+      "nome": "Modulação extras não entram na metade",
+      "obtido": 11,
+      "esperado": 11,
+      "passou": true
+    },
+    {
+      "nome": "ForçarLongeClasse3 semLivre",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true
+    },
+    {
+      "nome": "ForçarLongeLivre piso1",
+      "obtido": 1,
+      "esperado": 1,
+      "passou": true
+    },
+    {
+      "nome": "Eco repeteLonge pelo preço atual daClasse7",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true
+    },
+    {
+      "nome": "Classe3 Fura→Rápido reduz dados",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "nome": "Aura paraExplosão perde devolução",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "nome": "SobrecarregarC4 duas opções baratas",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true
+    },
+    {
+      "nome": "CorreçãoC4 custa somente quando escolhida",
+      "obtido": 6,
+      "esperado": 6,
+      "passou": true
+    },
+    {
+      "nome": "DesvantagemTR e repetiçãoT6 ordenadas",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "nome": "DesvantagemTR e repetiçãoT8 ordenadas",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "nome": "DesvantagemTR e repetiçãoT11 ordenadas",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "nome": "DesvantagemTR e repetiçãoT14 ordenadas",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "nome": "DesvantagemTR e repetiçãoT16 ordenadas",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "nome": "19 páginas",
+      "obtido": 19,
+      "esperado": 19,
+      "passou": true
+    },
+    {
+      "nome": "Contrato literal: não recebe novos abatimentos",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "nome": "Contrato literal: até o fim do seu próximo turno",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "nome": "Contrato literal: Só pode haver **uma Modulação Forçada por conjuração**",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "nome": "Contrato literal: o conjunto permite **no máximo três alterações**",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "nome": "Contrato literal: não produz outro por si",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "nome": "Contrato literal: se ela estiver solta",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    },
+    {
+      "nome": "Contrato literal: não altera o tipo ou a quantidade da munição",
+      "obtido": true,
+      "esperado": true,
+      "passou": true
+    }
+  ],
+  "probabilidades_independentes": [
+    {
+      "CD_sem_bonus": 6,
+      "normal": 0.25,
+      "desvantagem": 0.4375,
+      "desvantagem_e_correcao": 0.68359375
+    },
+    {
+      "CD_sem_bonus": 8,
+      "normal": 0.35,
+      "desvantagem": 0.5775,
+      "desvantagem_e_correcao": 0.82149375
+    },
+    {
+      "CD_sem_bonus": 11,
+      "normal": 0.5,
+      "desvantagem": 0.75,
+      "desvantagem_e_correcao": 0.9375
+    },
+    {
+      "CD_sem_bonus": 14,
+      "normal": 0.65,
+      "desvantagem": 0.8775,
+      "desvantagem_e_correcao": 0.98499375
+    },
+    {
+      "CD_sem_bonus": 16,
+      "normal": 0.75,
+      "desvantagem": 0.9375,
+      "desvantagem_e_correcao": 0.99609375
+    }
+  ],
+  "validadores_revistos": [
+    "V01 cobertura comparada à fonte",
+    "V02 decisões e regras",
+    "V03 ações/recursos/retornos",
+    "V04 contas independentes",
+    "V05 limites de balanço",
+    "V06 interfaces",
+    "V07 títulos/vocabulário",
+    "V08 completude dos efeitos",
+    "V09 clareza/vozes",
+    "V10 localização",
+    "V11 semnovaafirmaçãocanônica",
+    "V15 rastreabilidade/hash"
+  ],
+  "nao_executado": [
+    "PDF extraído/navegação",
+    "inspeção visual doPDF",
+    "playtest humano",
+    "prova exaustiva de equilíbrio entreCaminhos"
+  ],
+  "nenhum_manuscrito_editado": true
+}

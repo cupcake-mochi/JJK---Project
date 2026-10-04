@@ -1,0 +1,63 @@
+[
+  {
+    "arquivo": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "papel": "Fonte mecânica aprovada, leitura integral.",
+    "sha256": "3f4b555cec99f2ae94e1d9e79f818368b3b67a6148ac32c412f6780aed0b5a65"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+    "papel": "Dono publicado, seção Incursor idêntica à integrada.",
+    "sha256": "948dc94babd1d17022e5a3b5b817e160d2cf1e92c61d37d02462f412ff4e1e44"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/manual/50-equipamento.md",
+    "papel": "Elegibilidade histórica das52armas.",
+    "sha256": "5224d4e5a06ac1b4ce623370d16aa2853dc0984648855ec5694c13cbd6ba8991"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-04-r4/ARMAS.md",
+    "papel": "52armas atuais; não converterVolumeemLeve.",
+    "sha256": "ef4cfe39859124fac44744b59d7b4a91bd1effdd54f24ebc8e0d4fb511daaf49"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+    "papel": "Fineza,Par,Vestida,manipulação; não mudar dano/atributos.",
+    "sha256": "55c434659e311604659d7e2bb9edd3a56975966b0a57942ec28e07152d8bf3cb"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+    "papel": "Movimento,Parkour,manobras,empurrão e colisão: migração ao dono.",
+    "sha256": "3a7c2783e8f07a1d0de20317d1115d592d45c8b96cbbf7452e28d970ef03bb06"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+    "papel": "Qualquer tamanho como exceção; Volume atual.",
+    "sha256": "2b2a7a7379cf81a78bc53ccad0f9f415f4c4c5e393895395c787ed318847d3a4"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-01/TESTES-E-TURNOS.md",
+    "papel": "Ações,Reação,conversões e preparação.",
+    "sha256": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+    "papel": "Incapacitado,Derrubado,Lento,Impedido e saída.",
+    "sha256": "b902a11dc5bca2fc78b9c3a8daf87dbdb276185da48a699637946bf7654a531d"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/APTIDOES-E-REFINO.md",
+    "papel": "Canalizar e crítico.",
+    "sha256": "dec4688ba921e2a8655e190b363c862d237b9be10dc960449ba91c47a27aae51"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md",
+    "papel": "Estímulo Muscular e conflito com Kata no mesmo ataque.",
+    "sha256": "d4ac61d33127980c24ce6b9acbcb12458dce4633a5f96db3f1ba9263c354c811"
+  },
+  {
+    "arquivo": "PDFs - Sistemas Extras/PDF_Sistemas/Player_Hand_Book_DnD_2024.pdf.zip",
+    "trecho_lido": "Texto extraído /tmp/r07-phb.txt, páginas impressas137–139,159–161",
+    "papel": "Comparação editorial: quadro de traços, progressão, nível e nome de habilidade; custo/ação precedem exceção. Não importar números,condições,recursos ou armaduras.",
+    "sha256_extracao": "7a066746a0f1a6ee4cf521b9863d2d4e6cacd303aad1aa23910bc16caf447c18"
+  }
+]

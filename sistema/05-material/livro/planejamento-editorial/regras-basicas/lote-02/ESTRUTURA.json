@@ -1,0 +1,44 @@
+{
+  "ordem": [
+    "ataques",
+    "alcance",
+    "critico",
+    "defesa",
+    "bloquear",
+    "aparar"
+  ],
+  "titulos": {
+    "ataques": "Ataques",
+    "alcance": "Alcance",
+    "critico": "Dano e crítico",
+    "defesa": "Defesa e cobertura",
+    "bloquear": "Bloquear",
+    "aparar": "Aparar e Brecha"
+  },
+  "paginas": {
+    "ataques": 1,
+    "alcance": 2,
+    "critico": 3,
+    "defesa": 4,
+    "bloquear": 5,
+    "aparar": 6
+  },
+  "grupos": [
+    [
+      "Ataques",
+      [
+        "ataques",
+        "alcance",
+        "critico"
+      ]
+    ],
+    [
+      "Defesa",
+      [
+        "defesa",
+        "bloquear",
+        "aparar"
+      ]
+    ]
+  ]
+}

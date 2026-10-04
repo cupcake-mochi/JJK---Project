@@ -1,10 +1,224 @@
+# Continuidade editorial — Trajes, Munição e vocabulário — 03/10/2026
+
+**Correntes:** planejamento-editorial/equipamento/lote-02-r2 (Proteção, 4 páginas), lote-01-r3 (Equipamento em jogo, 5 páginas) e lote-03 (Munição, 3 páginas). O livro publicado v0.331 permanece intacto.
+
+**Trajes:** na situação escolhida, vantagem só em um tipo de TR e em perícias em quantidade igual à Maestria. Escolhas do personagem, persistentes entre Trajes; aumento de Maestria acrescenta perícia. Pedido do usuário aplicado à candidata, com avaliação em DECISOES.md. Perfis de equipamento não mudaram.
+
+**Munição:** estoque finito para todas as 11 armas de tiro, capacidade abstrata preservando X, preços/Volume propostos, recarga parcial e gatilho de 1/2 conservando sobra. Preços, fornecimento inicial, recuperação e logística ainda são candidatos. Procedimento antigo retirado de Equipamento em jogo, evitando dois donos.
+
+**Vocabulário:** usuário pediu evitar sentidos técnicos ambíguos/palavras pouco usuais, como legal no sentido de permitido. Protocolo recorrente atualizado; VOCABULARIO.json, E005 contextual e E006 exigindo leitura vigente. Exceções justificadas por trecho e hash. 29 testes passaram; o cadastro não substitui leitura nem teste com iniciantes.
+
+**Verificações:** 19 cenários dos Trajes; 34 casos de munição e 6.820 estados de conservação. PDFs: 61 verificações de Proteção, 57 de Equipamento, 38 de Munição; todas passaram. As 12 páginas foram examinadas visualmente. Sem revisão independente ou playtest novo. Candidatas anteriores ainda têm alertas editoriais; não declarar o livro inteiro aprovado.
+
+**Próximo:** R05, catálogo das 52 armas, depois itens/ferramentas, compras e kit. Fila completa em planejamento-editorial/FILA-COMPLETA.md. Morrendo continua adiado. Sem imagens de IA, manter as cores. Origens e fichas externas precisam conciliação.
+
+---
+
+## Histórico anterior
+
 # Estado atual do projeto
+
+## Continuidade local: validador editorial, fila e Proteção,03/10/2026
+
+**Última orientação:** proibir títulos “Como ler...” e evitar explicação de Caminhos/Trilhas/habilidades fora do próprio dono. Atendida nos lotes correntes: Movimento06-r3,4páginas; Equipamento01-r2,6páginas. Incursor de qualquer tamanho foi mantido no manuscrito próprio, retirado da prova geral. Validador em planejamento-editorial/validacao-editorial, ligado aos3geradores novos, com22testes aprovados e revisão contextual por hash. Auditoria retroativa dos anteriores ainda acusa alertas; não declarar verde global.
+
+**Próximo item solicitado também escrito:** equipamento/lote-02, Proteção,4páginas.9perfis preservados; tempos/retirada/situação deTraje têm decisões candidatas P01–P10. Verificações dos lotes:54,89,59, todas passaram.14páginas inspecionadas. Não houve leitura independente nova/teste humano.
+
+**Fila completa:** planejamento-editorial/FILA-COMPLETA.md. Estamos emR05; próximo é catálogo/itens, começando pela munição no inventário (preço, Volume, capacidade e consumo). Depois completar Equipamento e seguir Perícias/Ofícios e demais23unidades. “Morrendo” permanece adiado. Nomes, mundo/cânone, Origens/fichas externas, integração e diagramação seguem na fila. v0.331 e fontes protegidas intactas; sem imagens deIA.
+
+---
+
+## Continuidade local: Incursor e Equipamento, 03/10/2026
+
+**Incursor aprovado:** Movimento Acrobático atravessa criaturas de qualquer tamanho desde nível2. A versão completa de trabalho está em `planejamento-editorial/regras-comuns/lote-06-r2/sincronizacoes/INCURSOR-COMPLETO.md`; somente a expressão de tamanho no2 e a concessão redundante no30 foram alteradas. Fonte integrada, manual35, contratos e exportações publicados continuam preservados; aplicar sincronização na integração. Tamanho das manobras do Pugilista intacto.
+
+**Movimento corrente:** lote-06-r2, cinco páginas,61 verificações,25 casos e inspeção das cinco páginas. Lote-06 preservado como versão anterior; M23–M32 seguem candidatas, M33 foi aprovada pelo usuário.
+
+**Nova escrita:** `planejamento-editorial/equipamento/lote-01`, seis páginas de equipamento em jogo, manipulação, objetos, propriedades, Oculta e Munição;88 verificações,34 casos e inspeção completa. Regras preservadas e propostas E01–E15 distinguidas. Par multidados, Oculta, mão para recarga, manipulação simples e Embainhada têm decisões candidatas; não presumir aprovação mecânica geral. Validador publicado de Equipamento passou contra a base.
+
+**Novo requisito expresso:** munição no inventário, com preço, peso/Volume, capacidade e unidade adequada a cada arma; direção é uma unidade para a carga completa. Salvo em `planejamento-editorial/equipamento/PENDENCIAS-DE-ITENS.md`. Ao escrever os itens, conciliar capacidade com X, consumo no1/2 natural, recarga preventiva/parcial, recipientes, compatibilidade e kit inicial. Nenhum preço/peso/valor ou descarte foi escolhido ainda.
+
+**Próximo:** Proteção, escudos e equipamento vestido (Selos, tempo de vestir/retirar); depois catálogo/itens, estoque de munição, preços e kit. Conferir alcance fora da categoria Armas Longas e procedimento de objetos resistentes. “Morrendo” continua adiado para revisão própria. Livro v0.331, fichas e Origens preservados; sem imagens de IA. Não houve novo parecer independente ou teste humano.
+
+---
+
+## Continuidade local — energia pura, “morrendo” adiado e movimento, 03/10/2026
+
+**Orientação mais recente:** o usuário quer rever futuramente todo o sistema de “morrendo”: premissa boa, funcionamento muito desalinhado ao restante do sistema. Continuar os outros capítulos. Pauta em `planejamento-editorial/REVISAO-MORRENDO.md`. Não retomar a revisão de queda automaticamente na próxima rodada.
+
+**Energia pura:** candidata atual `regras-basicas/lote-03-r3`. Força cobre energia amaldiçoada pura e Projetar Energia; Energético não virou 16º tipo. Reforçar uma arma não altera seu tipo automaticamente; feitiço de Fogo mantém Fogo. Sincronização de Projetar preparada sem aplicar aos donos. Achado separado: manual 45 cobra PE/Xd6; peça 11 ainda diz dano fixo gratuito. Resolver na unidade de Aptidões.
+
+**Estudo de queda:** `regras-basicas/lote-04-r2` foi iniciado antes da orientação de adiar. Guarda proposta de referência sem perdas de Insistir e pagamento sem zerar máximo, com análise matemática. NÃO é versão corrente; revisão visual/editorial final não concluída e nada aprovado ou integrado. Recuperação corrente continua como candidata em lote-04, com suas lacunas declaradas.
+
+**Nova escrita:** `regras-comuns/lote-06/LEIA-ME.md`, quatro páginas de Espaço/posição, Rastejar/passagens estreitas, Voo e Carga. Limites de Volume preservados; demais convenções novas registradas M23–M32. Incursor/Parkour conservam benefícios; sem voo concedido pela regra geral e sem dupla redução ao rastejar.
+
+**Verificação:** Dano r3: 116 verificações/36 casos, página 2 inspecionada e demais renderizações idênticas às anteriores. Movimento: 63 verificações/18 casos, matriz editorial de 4 seções, quatro páginas inspecionadas. Sem teste humano, playtest ou novo parecer independente. Sem afirmação nova de cânone; sem imagens de IA.
+
+**Preservado:** v0.331, fontes/exportações protegidas, Caminhos/Invocações, provas anteriores, Origens e fichas externas. Nada foi integrado ao livro publicado.
+
+**Próxima escrita:** Equipamento e interações com objetos: localização de informação, usos, Volume, requisitos, propriedades e pendências de Oculta/Munição. Perícias/ofícios e demais unidades seguem o roteiro. “Morrendo” permanece na fila de revisão própria, sem impedir o restante do livro.
+
+---
+
+## Continuidade local — Força e Recuperação, 03/10/2026
+
+**Pedido novo atendido na revisão editorial:** Força entrou como 15º tipo, em Especiais (grupos 3/6/6), na `regras-basicas/lote-03-r2`. É impacto de energia concentrada; Concussão continua representando impactos físicos. O glossário oficial D&D define Force como energia mágica pura, não todo impacto cinético. Nome do tipo não exige atributo Força nem concede empurrão/ignora-RD. A inclusão foi aprovada pelo usuário; sincronização dos donos publicados/seletores fica para integração.
+
+**Nova escrita:** `sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-04/LEIA-ME.md`. Oito páginas de Recuperação: cura, reservas temporárias, vida a zero, Insistir, Sequelas/Cicatrizes, descansos, Exaustão e usos. Exaustão preserva o limite de 4,5 m aprovado na v0.176; peça 10 e seu validador ainda guardam 6 m. Sem imagens de IA, cores mantidas.
+
+**Pendências que exigem decisão:** R01–R18 em DECISOES.md distinguem regra histórica de ensaio. Insistir repetido com máximo baixo pode zerar ou exceder o máximo antes de completar as parcelas (referência 10: 2 + 3 + 5; referência 5: 1 + 2 + 3). Colapso não define novos danos/prazo; máxima original em quedas sucessivas e alcance da Sequela são ambíguos. O exemplo de sono em missão contradiz o gatilho declarado de descanso longo; candidata segue fim da missão. Remenda/estágios de Alma continua em discussão, sem confirmação presumida. Bloquear do lote 02 ainda aberto.
+
+**Validação:** Dano r2: 113 verificações, 35 casos, página 2 reexaminada e demais imagens idênticas às inspecionadas. Recuperação: 106 verificações, 28 casos documentais, grade de 600 combinações de descanso e enumeração de referências 1–80 de Insistir; revisão editorial e visual das 8 páginas. Validadores publicados de atributos/descanso passaram contra a base, mas não cobrem essas lacunas. Sem novo parecer independente, leitor humano ou playtest; sem afirmações novas de cânone.
+
+**Preservação:** v0.331, fontes/exportações, edições integradas e candidatas anteriores intactas; lote 03 original preservado ao criar r2. Origens e fichas externas não foram editadas. Nenhuma prova substitui o livro publicado.
+
+**Próximo passo:** confronto das interfaces de regras básicas/comuns, priorizando decisões que impedem fechar queda, Integridade e descanso; depois, movimento (espaços ocupados, rastejar, voo e carga), perícias e equipamento conforme roteiro. Não continuar acumulando interpretações de queda sem decidir as já expostas. Nomes, abertura/mundo e demais capítulos permanecem na fila.
+
+---
+
+## Continuidade local — Dano e Condições, 03/10/2026
+
+**Nova escrita candidata:** `sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03/LEIA-ME.md`. Oito páginas: Dano, Tipos de dano, Redução de Dano, Dano na alma, Condições e seus três grupos. Dois grupos principais recolhidos no PDF; cores mantidas, sem imagens de IA.
+
+**Revisão:** ordem resistência/RD/vida temporária, aplicação das reduções do Bastião, tipo de dano sem condição automática, Calado restrito à execução dependente de voz e conciliação com agarrão/visão das candidatas comuns. D&D usado como referência editorial dirigida, sem importar sua ordem de RD, arredondamento ou condições homônimas.
+
+**Pendências materiais:** DECISOES.md tem D01–D19. A candidata resolve limiar de Integridade antes do avanço por TR, conserva estágios após Remenda e escolhe a primeira ocorrência por rodada para testar. Isso não é aprovação mecânica: quatro falhas podem alcançar estágio 4 com só quatro pontos de dano. RD de Alma tem conflito entre fontes; o desfecho do estágio 4 ainda é vago. Duração de uma rodada, Surdo aplicado em combate, saída de Pesadas e Enfeitiçado também têm interpretações a fechar. A pendência de Bloquear do lote 02 permanece e pode afetar a precificação de Incapacitado.
+
+**Verificação:** 110 checagens automáticas, grade de conservação com 1.020 combinações, 34 casos documentais, revisão editorial de oito seções e inspeção das oito páginas. Validadores publicados de dano/alma passaram contra fontes preservadas; não certificam a candidata. Sem nova revisão independente, teste humano, playtest ou afirmação nova de cânone.
+
+**Preservado:** v0.331, fontes/exportações protegidas, Caminhos integrados, consolidado comum e lotes básicos anteriores. Origens e fichas externas intactas. Nenhuma candidata foi integrada ao dono publicado.
+
+**Próximo trabalho:** Recuperação — cura, vida temporária, zero de vida, Aguentar, Insistir, descansos e Exaustão. Conciliar Remenda e estágios com os donos antes de fechar a unidade de Alma. Depois, seguir a frente de interfaces e as demais unidades do roteiro. Nomes, abertura/mundo e integração permanecem na fila.
+
+---
+
+## Continuidade local — Ataques e Defesa, 03/10/2026
+
+**Nova escrita candidata:** `sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-02/LEIA-ME.md`. Seis páginas: Ataques, Alcance, Dano e crítico, Defesa e cobertura, Bloquear, Aparar e Brecha. Títulos simples, dois grupos principais recolhidos no PDF. Cores mantidas, sem imagens de IA.
+
+**Correções de redação e interfaces:** crítico geral reconhece exceção de Golpe Cirúrgico; acerto/dano de arremesso separados; bônus de cobertura entram em Bloquear; contra-ataque exige recursos e alcance. Confrontos dirigidos com Bastião, Vanguarda, Incursor e regras de entidades. Não houve auditoria integral de todas as Trilhas.
+
+**Achado que precisa de decisão:** o exemplo publicado escolhe Bloquear depois de conhecer o ataque, e Redirecionar a Força conserva essa possibilidade. A candidata explicita essa leitura; não muda para declaração anterior. O argumento publicado de neutralidade não cobre essa escolha: Defesa 17/ataque +6 passa de 50% de acerto para 41,75% se só bloquear acertos. Cálculo novo abrange 160 pares com 2.000 combinações cada e confronto por distribuição triangular; não modela dano, respostas ou talentos. O validador publicado passa mas não mede isso; sua função principal também não força o acerto de Brecha em todos os casos. DECISOES.md registra A01–A08 e confirmações necessárias para integração, inclusive 20 natural/margem 19 e revide de Aparar.
+
+**Verificação:** 78 verificações automáticas aprovadas, 26 casos documentais, revisão editorial das seis seções e inspeção das seis páginas. Validadores publicados de atributos e Bloquear executados com saída positiva contra fontes preservadas. Sem nova revisão independente, teste humano ou playtest; sem afirmação nova de cânone.
+
+**Preservado:** v0.331, fontes/exportações protegidas, Caminhos integrados, consolidado comum e lote 01. Origens e fichas externas não foram alteradas. A candidata não substitui o dono publicado da regra.
+
+**Próximo trabalho:** Dano e Condições; começar pela aplicação do dano, resistência/reduções e procedimentos das condições. Rever Agarrado, Cego, Incapacitado, reação de Cobrir-se e interação com Duro de Matar/Casca Grossa. Recuperação vem depois. Equipamento conserva pendências de Oculta/Munição; nomes, abertura/mundo e integração seguem no roteiro.
+
+---
+
+## Continuidade local — Atributos, Testes e Turnos, 03/10/2026
+
+**Nova escrita concluída como candidata:** `sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-01/LEIA-ME.md`. Sete páginas: Atributos, Testes, Perícias e ofícios, Testes de Resistência, Turnos, Ações, Reações e concentração. Duas entradas principais de navegação, grupos recolhidos. Títulos simples pelo assunto/ação, conforme esclarecimento do usuário.
+
+**Revisão:** corrige na candidata a contagem das dificuldades, a omissão de especialização no resumo e a apresentação da Ação Bônus; preserva o sistema próprio de atributos e economia de ações. D&D usado como referência editorial em leitura dirigida. Completar desempate de iniciativa, explicitar o momento do ataque de oportunidade e esclarecer concentração por dano estão registrados como decisões candidatas, não aprovação mecânica definitiva. Empate de Provocar e outras interfaces permanecem abertos em DECISOES.md.
+
+**Verificação:** 79 verificações automáticas aprovadas, 16 casos documentais, matriz editorial das sete seções e inspeção das sete páginas. Sem nova revisão independente, teste humano ou playtest. Não foram acrescentadas afirmações de cânone. Cores mantidas, sem imagens de IA.
+
+**Preservado:** v0.331, fontes/exportações protegidas e consolidado anterior. Nenhuma candidata foi integrada aos donos publicados. Origens e fichas externas não foram alteradas.
+
+**Próximo trabalho:** escrever Ataques, Defesa e Bloquear; depois Dano e Condições. Seguir o resumo atual em `planejamento-editorial/ROTEIRO-DE-EXECUCAO.md` para as demais frentes. Conciliar lacunas de movimento, perícias, poderes e habilidades; retomar abertura/mundo, nomenclatura e integração completa conforme dependências. A ordem de escrita não fixa o sumário do livro.
+
+---
+
+## Continuidade local — prova consolidada e revisão editorial, 03/10/2026
+
+**Etapa concluída:** `sistema/05-material/livro/planejamento-editorial/regras-comuns/consolidado-r1/LEIA-ME.md`. Prova contínua de 18 páginas reúne movimento r3, percepção/furtividade r2, manobras e energia r2. Acrescenta guia de consulta, títulos mais previsíveis, remissões com página e link e seis entradas principais na navegação; quatro grupos ficam recolhidos. Movimento das Trilhas foi deslocado para referência final.
+
+**Nova validação pedida pelo usuário:** adequação a livro de RPG, suficiência/excesso, redundância, familiaridade e localização de cada informação. Incorporada ao protocolo e a uma ficha reutilizável; matriz aplicada às 18 seções. Cotejo dirigido com PHB2024 (PDF21,25,30,374,379) e DMG2024 (PDF12–13), além dos estudos anteriores. Não copiar escrita ou importar regras estrangeiras. As demais validações permanecem obrigatórias.
+
+**Correções:** retirar notas de versão repetidas e lacuna de energia superada; dar destino único à escada de CDs de Estudar e ao mapa de tarefas; corrigir títulos vagos e dois subtítulos duplicados; harmonizar Estudar com a candidata de energia: posição isolada não basta, visão ou sentido equivalente é necessária. Sem recalibrar custos, dano ou alcance.
+
+**Verificação:** 185 verificações automáticas aprovadas, 18 casos documentais de regressão, matriz editorial das 18 seções e inspeção das 18 páginas. Revisão desta consolidação pelo autor, sem nova revisão independente, teste humano ou playtest. Cânone não ampliado; pesquisa dirigida anterior permanece como base. Isso não é validação do livro inteiro.
+
+**Preservado:** livro v0.331, fontes/exportações protegidas e todos os arquivos dos lotes anteriores. Sem imagens de IA; cores mantidas. Candidatas não integradas aos donos publicados.
+
+**Próximo trabalho:** seguir `DEPENDENCIAS-PARA-INTEGRACAO.md` no consolidado: conectar turno/testes/condições, auditar espaços ocupados, rastejar, voo e Peso, e verificar exceções atingidas antes da integração. Teste de consulta humana continua pendente. Abertura geral, nomes e pequenas mudanças restantes seguem na fila; Origens e fichas externas não foram alteradas.
+
+---
+
+## Continuidade local — validação de cânone, 03/10/2026
+
+**Nova exigência do usuário:** validar informações do mundo na obra, incluindo percepção de energia; fóruns ajudam a localizar passagens e controvérsias, não substituem inspeção das fontes. O protocolo de regras comuns ganhou uma seção própria para todas as rodadas futuras.
+
+**Candidata atual de energia:** `sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-05-r2/LEIA-ME.md`. Cinco páginas, com apresentação breve do mundo e correção da distinção entre vestígio abandonado e presença do antigo portador. Pesquisa primária dirigida em páginas dos capítulos 1 e 71 nas amostras oficiais da Shueisha. Registro de fontes separa confirmação, adaptação e pendência; não houve leitura integral dos volumes.
+
+**Verificação:** 55 verificações automáticas aprovadas; 14 casos documentais da r2; cinco páginas renderizadas e inspecionadas. Revisão da r2 pelo autor, sem nova revisão independente ou teste humano. As duas revisões por agentes do lote 05 original não certificam o texto novo. 18 m, ação, paredes e duração continuam convenções candidatas; não são alcances ou leis do cânone.
+
+**Preservado:** v0.331, fontes/exportações protegidas, lotes 02–04 e manuscrito/PDF do lote 05 original. Substituições para prosa de Sentir Energia e Refino foram preparadas em `SINCRONIZACOES-PROPOSTAS.md`, ainda sem aplicação aos donos publicados. Cores mantidas, sem imagens de IA ou painéis de mangá na entrega.
+
+**Próximo trabalho:** consolidar os procedimentos comuns em prova contínua e conferir sequência/remissões. Ao ampliar ocultação energética e barreiras, inspecionar fontes próprias; explicações atribuídas aos capítulos 19 e 73 ainda não receberam leitura primária nesta rodada. Abertura geral, nomes, pequenas alterações restantes, Origens externas e fichas continuam na fila.
+
+---
+
+## Continuidade local — energia e vestígios, 03/10/2026
+
+**O usuário cancelou a tentativa de continuar na nuvem e pediu prosseguimento por aqui.** Os ZIPs anteriores ficam como retratos históricos; não há tarefa de transferência em andamento. Esta é a retomada atual, acima das notas anteriores.
+
+**Nova unidade produzida:** `sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-05/LEIA-ME.md`. O texto de quatro páginas trata de Sentir Energia: busca local com Padrão, alcance **candidato de ensaio de 18 m**, oposição à Furtividade guardada, leitura instantânea sem visão ou seguimento contínuo; pressão como pista de cena; Estudar e vestígios separados de rastreamento. Sem segunda CD passiva de energia. Antena, Sentido Treinado, Faro, Vulto, Rastro, Silencioso e sentidos de entidades tiveram interações conferidas. E01–E14 registram decisões novas e pontos a sincronizar, sem alegar alcance canônico.
+
+**Validação desta unidade:** 46 verificações automáticas aprovadas; 33 cenários documentais; contas exatas condicionadas ao sucesso de Esconder; duas revisões por agentes com releitura após as correções; quatro páginas inspecionadas. Foram corrigidos acompanhamento ambíguo da aura, requisito adicional indevido de Sentido Treinado, combinação de interferência com ocultação e Antena em sucesso parcial. Não houve teste humano, playtest ou comprovação de que 18 m seja o melhor alcance.
+
+**Preservado:** livro v0.331, 22 fontes/cinco exportações do inventário, 137 arquivos do retrato de regras comuns e manuscritos dos lotes 02–04. O lote 05 é complemento candidato; o trecho antigo do lote 03 que registra a lacuna foi conservado para comparação. Não há integração automática nem aprovação presumida do usuário.
+
+**Próximo passo:** avaliar as escolhas candidatas e consolidar os procedimentos comuns numa prova contínua de leitura, verificando sequência, exemplos e remissões. Depois, avançar na revisão das exceções e retomar a abertura conforme o retorno do usuário. Presságio ainda precisa de precisão em seu alcance próprio; exemplos de Antena/Faro/Máscara e a introdução de Refino têm conciliações registradas. Revisão ampla de nomes, demais pequenas mudanças, Origens externas e fichas no Claude continuam na fila. Cores preservadas; sem imagens geradas por IA.
+
+---
+
+## Histórico da tentativa de transferência — 03/10/2026
+
+**Registro da transferência posteriormente cancelada; a continuidade local acima prevalece.** A edição jogável continua na **v0.331**; a integração de Evocador, Incursor, seis Trilhas, Invocações e ajustes do Bastião já foi feita. A revisão editorial ainda não substituiu as fontes publicadas.
+
+**Candidatas atuais**, em `sistema/05-material/livro/planejamento-editorial/regras-comuns/`: movimento e quedas no **lote-02, revisão 3** (R01–R12); percepção e furtividade no **lote-03, revisão 2** (F01–F10); manobras, fuga, Estudar e Preparar no **lote-04, revisão 1** (A01–A13). O relatório conjunto registra 122 verificações e preservação de 137 arquivos, com conjuntos sobrepostos ao inventário da edição. Isso não equivale a teste com jogadores ou validação integral de equilíbrio.
+
+**Decisões que não podem regredir:** percepção passiva candidata usa 10 + bônus completo; foi retirada a manutenção gratuita de Furtividade após ataques; o radar universal de Sentir Energia em 9 m foi descartado. A detecção comum de energia continua aberta. Manobras já receberam uma proposta: não começar esse lote novamente como se faltasse. Distâncias em múltiplos de 1,5 m; Parkour mantém seus apoios exclusivos. As versões anteriores estão em histórico.
+
+**Continuidade sugerida:** resolver detecção comum de energia e suas interfaces; conferir as propostas e exemplos; preparar sua futura integração coordenada. Abertura, revisão textual integral, revisão de nomes e pequenas alterações restantes continuam na fila. Preservar as cores e não usar imagens geradas por IA. Origens e fichas são frentes externas: receber e conciliar os resultados antes de sobrescrever qualquer uma delas.
+
+**Transferência:** os pacotes em `entregas/continuidade-work-2026-10-03/` levam fontes, provas, decisões, ferramentas e um prompt escrito para este retrato. A edição Completa acrescenta os dez PDFs de referência enviados pelo usuário; a Leve conserva os estudos e omite apenas esses dez originais. Não é sincronização automática: o trabalho feito na nuvem deve retornar como arquivos e registro de mudanças.
+
+---
+
+## Retomada atual — v0.331, 02/10/2026
+
+**Concluído:** integração ao livro de Evocador, Incursor, seis Trilhas e capítulo de Invocações; nome Malabarista; cinco ajustes do Bastião pedidos nos itens 4.1–4.5. Fontes atuais em `caminhos/05-Edicao-Integrada/` e `invocacoes/05-Edicao-Integrada/`. O histórico abaixo conserva decisões anteriores, inclusive a suspensão do Evocador, **superada nesta versão por autorização expressa**.
+
+**Planejamento editorial atualizado em 02/10/2026, proposta 3:** `sistema/05-material/livro/planejamento-editorial/PILOTO-EDITORIAL.md` delimita a próxima entrega: abertura do mundo, primeira experiência, início da criação, amostra de proteção do Bastião e prova visual. Outras amostras técnicas entram no segundo lote. `sistema/05-material/livro/planejamento-editorial/NOMES-PRIMEIRA-RODADA.md` discute Fundamento, Classe/Classe Passiva e Refino; nenhum renome foi aplicado. `sistema/05-material/livro/planejamento-editorial/evidencias/preparacao-kaori.md` confere contas, omissões e fontes: Peso nas Mãos custa 3 PE; a decisão v0.176 resolve o adicional inicial de Canalizar, mas há sincronizações documentais pendentes. O plano geral conserva a pesquisa dos livros, o método, a paleta e a proposta de vinte capítulos. A edição jogável não foi reorganizada. Há 34 achados editoriais no verificador estrito de voz, registrados para triagem, e nenhum teste humano novo foi realizado. A primeira execução está registrada abaixo; os nomes atuais continuam valendo enquanto as alternativas forem discutidas.
+
+**Piloto editorial 1 produzido:** `sistema/05-material/livro/piloto-editorial-r1/LEIA-ME.md` dá acesso à proposta de dez páginas e ao comparativo de uma e duas colunas para a proteção do Bastião. Inclui abertura, mundo, exemplo de mesa, Kaori, início de criação, regra de proteção e diagrama. Texto editável e relatório acompanham os PDFs. As 22 fontes e os cinco artefatos publicados da v0.331 permanecem iguais. Houve conferência de contas, cotejo pelo próprio autor e inspeção visual; leitura independente e teste humano ainda não foram feitos para o piloto. **Nova exigência expressa: não usar imagens geradas por IA.** A ilustração gerada antes dessa orientação ficou fora do piloto e do pacote; a prova usa composição tipográfica e diagrama vetorial. O próximo passo é revisar esta amostra e, depois, produzir o segundo lote técnico.
+
+**Piloto editorial 2 concluído:** `sistema/05-material/livro/piloto-editorial-r2/LEIA-ME.md` reúne narrativa revisada e segundo lote técnico, em PDFs de 10 e 11 páginas. Kaori tem uma missão de resgate concreta e movimento demonstrado. Malabarista, montagem de feitiço, ciclo de entidade e tabela de 23 perícias têm amostras. Três agentes fizeram leituras críticas separadas; ajustes tratados e verificação final preservados. As 21 páginas foram inspecionadas; 15 contas explícitas, atributos, saldos, marcadores e integridade conferidos. Ainda sem teste humano. `planejamento-editorial/ADENDO-REGRAS-COMUNS.md` prioriza movimento/terreno, ocultação/detecção e manobras/informação: parte das regras é dispersa, parte está incompleta. Não completar por analogia com F&M, usado apenas como referência editorial. O total de vinte capítulos deixa de ser meta fixa. Sem imagens geradas por IA; livro v0.331 e piloto 1 preservados. Próximo passo: decisões dessas regras comuns e exemplos correspondentes, antes de revisar as exceções das Trilhas em escala. A fila de nomes e pequenas alterações de classe continua aberta.
+
+**Continuação editorial — movimento e retorno sobre a abertura:** o Mizuki prefere a apresentação da introdução antiga, embora considere melhor a narrativa da r2. A diretriz em `planejamento-editorial/evidencias/abertura-retorno-pos-r2.md` manda preservar o resgate e recuperar a proposta específica do Projeto M; releitura dirigida de 3D&T e PHB 2024 fundamenta a próxima tentativa, sem imitar a redação. A abertura não foi reescrita nesta rodada. A fila avançou para `planejamento-editorial/regras-comuns/01-MOVIMENTO-MINUTA.md`: base existente reunida e custos candidatos de terreno/escalada/natação, com conciliação do Movimento Acrobático. `01-DECISOES.md` registra pesquisa primária de D&D 2024, Pathfinder Player Core e Cairn, interações e limites. Saltos, dano/mitigação de queda, renovação da quota acrobática e deslocamento forçado continuam abertos; nenhum número novo foi publicado. Testes com leitores ficam para depois. Próximo trabalho: fechar os procedimentos de salto, apoio e queda com esses casos de compatibilidade, antes de entrar em ocultação/detecção.
+
+**Continuação editorial — saltos, apoios e quedas (lote 2):** `planejamento-editorial/regras-comuns/lote-02/LEIA-ME.md` reúne a proposta de sete páginas e suas decisões M07–M22. Tabelas de salto, falhas, bordas, quedas, controle, empurrões e limite acrobático receberam procedimentos e três exemplos. Pesquisa complementar, comparação matemática e duas leituras críticas por agentes levaram a correções de posição na falha, respostas em queda longa, terreno na borda, limite fora de combate e referência de nível. As sete páginas foram inspecionadas. O relatório e a conferência preservam as evidências; não houve teste com jogadores. Todos os novos valores e ajustes de compatibilidade continuam candidatos, sem integração à v0.331. Próximo assunto: percepção, esconder e detectar. Abertura, nomes e pequenas alterações de classe permanecem na pauta; sem imagens geradas por IA.
+
+**Retorno aplicado — base D&D e avanço para furtividade:** em 02/10/2026, o usuário aprovou a escrita e pediu regras comuns mais simples, inspiradas em D&D, com adaptação ao Projeto M, distâncias em múltiplos de 1,5 m e sem distribuir os apoios específicos do Parkour. `planejamento-editorial/regras-comuns/lote-02/LEIA-ME.md` agora aponta para quatro páginas de movimento, terreno, saltos e quedas; a amostra anterior de sete páginas está no histórico. A continuidade de percepção e furtividade está em `regras-comuns/lote-03/LEIA-ME.md`, com outras quatro páginas. R01–R10 e F01–F08 registram as escolhas, incluindo o raio candidato de 9 m de Sentir Energia. Pesquisa primária, dúvidas públicas, três críticas por agentes e conferência visual acompanham. Sem imagens de IA; nenhum teste humano ou alteração da edição jogável. Próximo: manobras, fuga, Estudar e Preparar. Abertura, nomes e ajustes restantes continuam na fila.
+
+**Frentes que ficam abertas:**
+
+| Item | Próximo trabalho | Limite já decidido |
+|---|---|---|
+| 1 | Revisão textual integral com os livros de referência que o Mizuki fornecer | melhorar consulta e compreensão; registrar toda mudança de regra separadamente |
+| 2 | Revisão ampla de nomes do sistema, Caminhos e habilidades | substituir nomes confusos e provisórios; Malabarista já aprovado, demais renomes exigem discussão |
+| 3 | Outras pequenas mudanças nas classes — restante do item 4 do pedido | os cinco ajustes do Bastião estão aplicados; não supor novos ajustes aprovados |
+| 4 | Diagramação, imagens, exemplos de mesa e elementos artísticos | definir direção visual e começar por um capítulo piloto antes de redesenhar o livro |
+| 5 | Origens em outro ambiente e fichas no Claude | receber o resultado e conciliar com a v0.331; não sobrescrever trabalho externo |
+| 6 | Pendências documentadas das invocações e das duas novas classes | consultar relatório e notas originais preservadas na integração |
+| 7 | Avaliar novamente calibração e equilíbrio com os seis Caminhos | conservar por ora os números de inimigos da v0.330; não declarar equilíbrio comprovado |
+
+**Pendências específicas preservadas:** quantidade do kit inicial ampliado; troca de Trilha e aquisições em duplas; repertório quando o atributo cai; corpos excedentes ao fim do combate; comandos, preparo e estados que cruzem as exceções das Trilhas; procedimentos gerais de Agarrar, Derrubar, Empurrar e Estudar. As regras específicas aprovadas do Pugilista e do Assassino seguem seus próprios textos. Colisões de Reflexo e Sentença Final ficam para a revisão de nomes.
+
+**Retomar por esta seção.** Os itens antigos da fila são registros; quando divergirem, a decisão posterior da v0.331 é a atual. O relatório desta integração fica em `sistema/01-pesquisa/integracao-v0.331/RELATORIO.md`.
+
+---
 
 > **Continuidade de 29/09 — ordem mais recente de Mizuki:** o Git foi posto em dia — as v0.277 a v0.287 subiram num commit só, e a entrega como recorte da v0.287. O planejamento das Invocações virou o primeiro lote de desenvolvimento, que fica no HD, em `/media/mizuki/HD Externo II/Claude/invocacoes-pos46/`, e deu o §47 na v0.288 (o invocador apagado não derruba a sustentação), o §48 na v0.289 (quando ele morre, as entidades saem de campo), o §49 na v0.290 (cada entidade tem a própria ficha, e o limite é um teto de corpos), o §50 na v0.291 (uma básica por corpo por ciclo), o §51 na v0.292 (uma Bônus redireciona todas as entidades em campo, cada uma com a própria intenção de básica), o §52 na v0.293 (o limite de ataques por turno conta só a atuação com dano; a condição Média ou Pesada só vem de especial comandada), o §53 na v0.294 (a entidade só entra em campo no turno do invocador), o §54 na v0.295 (e só é recolhida no turno dele), o §55 na v0.296 (aparece colada no invocador, e na troca no lugar de quem sai), o §56 na v0.297 (a entrada e a troca custam a Ação Bônus), o §57 na v0.298 (o recolhimento também), o §58 na v0.299 (as manifestadas antes da luta começam em campo), o §59 na v0.300, fechado na v0.301 (a energia das especiais: do invocador, e da reserva própria de quem tem técnica, de 1 + ⅓ da Essência por nível, meio a meio) e o §60 na v0.302 (o conjunto rende até uma Rotina e meia por rodada, com preço), o §61 na v0.303 (a vida da entidade sai da fórmula de ficha, com 5 no nível 1 e 3 por nível, mais a Constituição), o §62 na v0.304 (sem supor Trilha, o teto de base é 2 entidades em campo), o §63 na v0.305 (o limite de base é 2, as duas atacam, e quem leva uma tem dano parelho com quem leva duas), o §64 na v0.306 (uma entidade completa até meia Rotina, e duas até dois terços), o §65 na v0.307 (a ficha da entidade é a da peça 15 antiga), o §66 na v0.308 (a Defesa com a metade do dono, e o traje no lugar), o §67 na v0.309 (cada entrada paga a Classe do nível da entidade em PE), o §68 na v0.310 (tudo que depende de nível segue o da entidade, até o do invocador), o §69 na v0.311 (a especial custa 3 × a Classe do nível da entidade, como um feitiço), o §70 na v0.312 (a manifestação dura até o fim da cena, e o fim do combate a encerra), o §71 na v0.313 (toda invocação exige uma troca para ser obtida, e o preço é a troca somada ao que já cobra), a correção dele e o §72 na v0.314 (o espaço dá a entidade no nível do invocador; a reserva recupera como o PE), o §73 na v0.315 (a morte definitiva, a volta com metade da vida, e a vaga da lista de ritual que se perde), o §74 na v0.316 (ficam `Desligada` o corpo amaldiçoado e a domada sem técnica), o §75 na v0.317 (a `Desligada` é um objeto no campo, fora do teto), o §76 na v0.318 (a cura: a de pé se cura, a zero só pela entrada, e o corpo amaldiçoado não se cura por energia amaldiçoada), os §§77 a 84 na v0.319 (os cinco tipos, em dois eixos, com a carga do talismã, a técnica e o nível parado da domada, e o modo inativo dos corpos amaldiçoados), o §85 na v0.320 (a volta da caída custa o dobro do PE da entrada), o §86 na v0.321 (o destino das entidades quando o invocador morre, por origem), o §87 na v0.322 (o efeito que repete numa `Desligada` continua), o §88 na v0.323 (a manutenção com o invocador apagado), os §§89 a 105 na v0.324 (o construtor da entidade, e o domar), os §§106 a 109 na v0.325 (o reparo, sem limite de entidades, e o atalho de domar e o criar, fora do capítulo). Em 29/09 o Mizuki mandou focar nas Invocações até terminar ("temos q terminar tudo de invocação"); a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas (o que sobe a básica, abre Famílias e dá Livres) e a volta do capítulo ao livro, que é decisão dele; o traje, o talismã em campo e o que a entidade carrega fecharam na v0.328 (§§111 a 113), e o que ela leva quando sai de campo na v0.330 (§114); a fila do sistema fechou a cura da Origem `Corpo Amaldiçoado` na v0.326 (o mesmo reparo das invocações, no descanso curto) o peso na v0.327 (o talismã pesa `0,5` de `Volume`, e cada leve vale `0,1`, sem arredondar) e a imunidade dela a `Envenenado` na v0.329, sem medição; o que sobra na fila é o que já estava aberto antes. Fichas de personagem ficam para depois.
 
 Atualizado em 30/09/2026, na v0.330 (última peça fechada: **Ritual**, a peça 27, na v0.262, com o `conferir-ritual.py` e sete checagens; antes dela, o **Bestiário**, a peça 26, na v0.198; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.330.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
+**Versão v0.331.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
 
 **Continuidade atual:** resistência pontual aprovada e integrada em Claude 2; o próximo ensaio está em `bestiario/05-sukuna/ENSAIO-integracao-grade-v286.md`. PV-base aprovado como referência da cura e das partes destrutíveis; no nível 30, cura de ação 78 e partes de 157 PV. Sukuna concluído na v0.287, com a política de débito corrente aprovada. O planejamento das Invocações virou o primeiro lote de desenvolvimento, no HD, e deu os §§47 a 109 da v0.288 à v0.325; a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas (o que sobe a básica, abre Famílias e dá Livres) e a volta do capítulo ao livro, que é decisão dele; o traje, o talismã em campo e o que a entidade carrega fecharam na v0.328 (§§111 a 113), e o que ela leva quando sai de campo na v0.330 (§114); a fila do sistema fechou a cura da Origem `Corpo Amaldiçoado` na v0.326 (o mesmo reparo das invocações, no descanso curto) o peso na v0.327 (o talismã pesa `0,5` de `Volume`, e cada leve vale `0,1`, sem arredondar) e a imunidade dela a `Envenenado` na v0.329, sem medição; o que sobra na fila é o que já estava aberto antes. O histórico abaixo permanece para consulta.
 

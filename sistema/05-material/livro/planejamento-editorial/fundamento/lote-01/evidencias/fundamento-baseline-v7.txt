@@ -1,0 +1,218 @@
+==============================================================================================
+1) ECONOMIA DE PE — custo = 3 x Classe (= os pontos do feitico)
+==============================================================================================
+PE por nivel: conjurador 6 · demais 5 · combatente 4
+
+Nivel  Classe maxPE conjurador   custo do topo   usos do topo   ref. 5e             
+1      1         6               3               2.0            2 espacos de 1o     
+5      2         30              6               5.0            ~9 espacos          
+9      3         54              9               6.0            ~14 espacos         
+13     4         78              12              6.5            ~17 espacos         
+17     5         102             15              6.8            ~20 espacos         
+20     5         120             15              8.0            ~22 espacos         
+
+  Tecnica Maxima: custa 5 x Classe maximo de PE (25/30/35 por faixa) e volta ao fim do
+  terceiro turno seguinte. A conta esta na secao 7.
+  Liberacao Maxima: +50% no custo (arredonda pra cima). Preco na hora: Vazio, Sangue ou Peso.
+  Classe 0: gratis. Quantos: 2 no nivel 1, 3 no 5, 4 no 11, 5 no 17. Dano 2/3/4/5/6d8 (25).
+
+==============================================================================================
+2) LIMITE DE MELHORIAS ESCALONADO POR CLASSE
+==============================================================================================
+Classe Pontos   Melhorias max   Restricoes max   linhas na ficha   
+1      3        2               2                4                 
+2      6        2               2                4                 
+3      9        3               2                5                 
+4      12       3               2                5                 
+5      15       4               2                6                 
+6      18       4               2                6                 
+7      21       4               2                6                 
+
+  Regra enunciada:  2 Melhorias nas Classes 1-2 · 3 nas Classes 3-4 · 4 da Classe 5 pra cima.
+  Restricoes: ate 2, sempre.
+
+==============================================================================================
+3) CONTROLE — gatilho por DANO FINAL, nao por gasto
+==============================================================================================
+Regra v7.1: dano final ate UM QUARTO do teto -> efeitos de Controle duram +1 rodada.
+Dano ZERO (o Controle levou o orcamento inteiro) -> tambem CD +2 contra eles.
+(O degrau da METADE saiu: uma condicao de Media sozinha dava exatamente 2xGrau =
+ metade do teto em TODO Classe, entao o bonus era automatico e nao uma escolha.)
+v0.104: a Melhoria e uma so, `Condicao`, e o preco dela e o NIVEL da condicao.
+ As tres colunas abaixo sao os tres niveis, e a quarta e a montagem de duas.
+
+Classeteto  quarto  Cond.Leve       Cond.Media      Cond.Pesada     Pesada+Media    
+1     4     1       2d8 nada        2d8 nada        1d8 +1 rodada   0d8 CD+2 e +1rd 
+2     8     2       5d8 nada        4d8 nada        3d8 nada        1d8 +1 rodada   
+3     12    3       7d8 nada        6d8 nada        4d8 nada        1d8 +1 rodada   
+4     16    4       10d8 nada       8d8 nada        6d8 nada        2d8 +1 rodada   
+5     20    5       12d8 nada       10d8 nada       7d8 nada        2d8 +1 rodada   
+6     24    6       15d8 nada       12d8 nada       9d8 nada        3d8 +1 rodada   
+7     28    7       17d8 nada       14d8 nada       10d8 nada       3d8 +1 rodada   
+
+  Uma condicao Media SOZINHA nao ganha nada (o bonus virou escolha):  SIM
+  Uma condicao Leve sozinha tambem nao ganha nada (ela sobra mais):   SIM
+  Pesada + mais uma Media sempre dispara o +1 rodada:                 SIM
+  CD+2 exige dano ZERO, alcancavel em toda Classe com 2-3 pecas de Controle.
+  Restricao nao infla mais nada: o gatilho e o numero final de dados, e Restricao nunca vira dado.
+
+==============================================================================================
+4) BUSCA EXAUSTIVA — dois regimes: feitico comum e Liberacao Maxima
+==============================================================================================
+Modelo pessimista (multiplicadores hipoteticos ate 1,5, empilhaveis) — prova de robustez:
+ClassePontos  Teto      perfis   legais        MAXIMO   como                       
+1     3       4            288      201       4 dados =  18.0   0L+0M+0P mel, 0L+0M restr, LIB
+2     6       8            288      216       8 dados =  36.0   0L+0M+0P mel, 0L+0M restr, LIB
+3     9       12           984      782      12 dados =  54.0   0L+0M+0P mel, 0L+0M restr, LIB
+4     12      16           984      797      16 dados =  72.0   0L+0M+0P mel, 0L+0M restr, LIB
+5     15      20          3132     2774      20 dados =  90.0   0L+0M+0P mel, 0L+0M restr, LIB
+6     18      24          3132     2790      24 dados = 108.0   0L+0M+0P mel, 0L+0M restr, LIB
+7     21      28          3132     2769      28 dados = 126.0   0L+0M+0P mel, 0L+0M restr, LIB
+
+  Liberacao Maxima bate no teto (4 x Classe) em toda Classe: SIM
+  Pico do nivel 20 (Liberacao Classe 5): 90.0  (meta 90: OK)
+
+Catalogo real (Remate 1,25, comprado uma vez) — os dois regimes lado a lado:
+Classepontos  FEITICO COMUM           LIBERACAO MAXIMA        para nos pontos?  
+1     3       3.75d8 = 17             4d8 = 18                SIM               
+2     6       7.5d8 = 34              8d8 = 36                SIM               
+3     9       11.25d8 = 51            12d8 = 54               SIM               
+4     12      15d8 = 68               16d8 = 72               SIM               
+5     15      18.75d8 = 84            20d8 = 90               SIM               
+6     18      22.5d8 = 101            24d8 = 108              SIM               
+7     21      26.25d8 = 118           28d8 = 126              SIM               
+  Feitico comum so passa dos pontos da Classe via Remate (+25% contra alvo ferido), e mesmo
+  assim fica abaixo da Liberacao em toda Classe. Nenhuma outra peca multiplica dano.
+  Este modelo mede UM feitico, numa rodada. Duas pecas somam fora dele e nao entram aqui:
+  o Acumulo (+1 dado por rodada seguida no mesmo alvo, ate +3) e o Alvo de Caca (+1d4 por
+  acerto seu contra o alvo marcado, v0.255). Nenhuma das duas MULTIPLICA — as duas somam —,
+  e o Acumulo somado ao Remate passa dos pontos da Classe num alvo so: ESTADO-ATUAL, item 14.
+  Nivel 20: feitico comum 84 · Liberacao 90 · Tecnica Maxima 108
+
+==============================================================================================
+5) PASSIVAS COM CLASSE (os Tracos da v4, renomeados)
+==============================================================================================
+  Passiva Livre     gratis, todo mundo tem 1. Nao rola dado, nao muda numero, nao faz ninguem rolar.
+  Passiva Classe 1    custa 1 espaco de feitico. Efeito pequeno, condicional ou de informacao.
+  Passiva Classe 2    custa 2 espacos. Reativo, com limite de uso.   Libera no nivel 7.
+  Passiva Classe 3    custa 3 espacos. Permanente, muda como voce joga. Libera no nivel 13.
+  Maximo de 5 Passivas pagas.
+  Regra Propria e o unico compravel em Classe 1 desde o nivel 1; sobe pagando a diferenca.
+
+==============================================================================================
+6) FAMILIAS — tres Fechadas na criacao
+==============================================================================================
+  v4 (2 livres + 2 fechadas no nv 1, terceira no nv 9): 36 x 21 = 756 perfis na criacao
+  v5 (2 livres + 3 fechadas no nv 1):                   36 x 35 = 1260 perfis na criacao
+  Ganho de identidades distintas ja no nivel 1: +67%
+  Regra nova que acompanha: feitico que deixar de ser legal se reescreve de graca, na hora.
+
+==============================================================================================
+7) TECNICA MAXIMA RECARREGAVEL — 5 x Classe maximo de PE, volta em 3 turnos
+==============================================================================================
+  Redacao travada: 'Depois de usar, voce nao usa de novo ate o fim do seu terceiro
+  turno seguinte.' (ancorada no turno de quem usa; 'a cada 3 rodadas' e ambiguo em iniciativa)
+
+Faixa    Dano    PE (5xG)  % do pool nv20/25/30*   usos que o PE permite 
+17-20    108     25        21                      4                     
+21-25    126     30        (depende do PE 21-30)   idem                  
+26-30    144     35        (depende do PE 21-30)   idem                  
+  * o ganho de PE nos niveis 21-30 continua em aberto; o custo 5 x Classe segura a proporcao
+    em ~20% do pool se o PE escalar como ate aqui.
+
+  Media por rodada, nivel 20 (rotina 76):
+    v4  (1x/dia, 10 rodadas de dia): 79.2  (+4% sobre a rotina)
+    v5  (1 a cada 3 rodadas):        86.7  (+14%)
+
+  4 rodadas contra chefe, nivel 20:
+    v4: 336 de dano, gastando 105 de 120 PE
+    v5: 368 de dano, gastando 80 de 120 PE
+    chefe de 730 de vida, grupo a ~231/rodada: cai em 3.2 rodadas
+    chefe de 880 de vida, grupo a ~231/rodada: cai em 3.8 rodadas
+  O chefe de 730 a 880 continua caindo em 3 a 4 rodadas. A conta de inimigos nao quebra.
+  Valvula, se ficar disponivel demais: somar 'uma vez por cena' em cima do recarregamento.
+
+==============================================================================================
+8) INTEGRIDADE E DANO NA ALMA — taxa 2:1, teto 2 x Classe
+==============================================================================================
+  1 de dano na alma = 1 de dano agora + 1 de teto de vida negado (~2x o valor de 1 de dano
+  normal, antes dos estagios). Dai a taxa: 2 dados normais -> 1 dado na alma.
+
+  TOCA A ALMA (Mira, Leve, so Classe 3+, sem Forcar): dados do feitico viram metade, na alma.
+ClassePontos  apos a Leve  na alma  dano alma  equiv x2  dano puro  razao  
+3     9       7            3        13.5       27.0      40.5       0.67   
+4     12      10           5        22.5       45.0      54.0       0.83   
+5     15      12           6        27.0       54.0      67.5       0.80   
+6     18      15           7        31.5       63.0      81.0       0.78   
+7     21      17           8        36.0       72.0      94.5       0.76   
+  Fica entre 0,67 e 0,83 do dano puro em equivalencia bruta; os estagios pagam a diferenca.
+
+  TETO NA ALMA = 2 x Classe em dados. Maximo alcancavel sem Forcar e 3 x Classe de dados
+  -> na alma vira floor(1,5 x Classe), que nunca passa de 2 x Classe: CONFIRMADO
+  (Toca a Alma nao aceita Forcar, entao o caminho acima do teto nao existe.)
+
+  ESTAGIOS (fracao da Integridade perdida): 1/4 desv. pericia · 1/2 desloc. metade e +1 PE/Classe
+  · 3/4 desv. ataque e TR, nao conjura acima de metade da Classe · toda: decisao do mestre.
+  TR de Integridade contra a CD do atacante decide ESTAGIO, nao reduz dano: o dano entra cheio.
+
+Nivel  Integridade  1/4 dela  golpe de alma da faixa  golpes por estagio
+9      84           21        13.5                    1.6               
+13     116          29        22.5                    1.3               
+17     148          37        27.0                    1.4               
+20     172          43        27.0                    1.6               
+25     212          53        31.5                    1.7               
+30     252          63        36.0                    1.8               
+  Um estagio a cada 1,3 a 1,8 golpes de alma, plano do nivel 9 ao 30.
+
+  REMENDA (Amparo, Pesada): devolve 5 x Classe de Integridade, uma vez por cena.
+    Classe 4: devolve 20 contra um golpe de alma de 22.5 — socorro, nao torneira.
+    Classe 5: devolve 25 contra um golpe de alma de 27.0 — socorro, nao torneira.
+
+  Tecnica Maxima na alma (24d8 -> 12 na alma = 54, 31% da Integridade de um nv 20 + estagio):
+  cabe como momento de chefe; primeira coisa a olhar no playtest.
+
+==============================================================================================
+9) LIBERACAO MAXIMA — o antigo Forcar, agora peca de ficha
+==============================================================================================
+  Classe 3+ · uma no nivel 10, outra no 20, outra no 30 · nao ocupa espaco de feitico
+  conhecido · escrita antes da sessao · aceita Melhoria e Restricao · pode ser Ampliada.
+  Soma +Classe em dados, custa a rodada inteira, +50% de PE e um preco na hora.
+
+Classenivel min  dados max   dano      PE base   PE +50%   % do pool nv20  
+3     10         12          54        9         14        12              
+4     13         16          72        12        18        15              
+5     17         20          90        15        23        19              
+6     21         24          108       18        27        0               
+7     26         28          126       21        32        0               
+
+  No nivel 20 (120 PE) uma Liberacao de Classe 5 custa 23 PE: cabe 5 vezes num dia,
+  mas o freio nao e o PE — e a rodada inteira mais o preco (Vazio, Sangue ou Peso).
+
+  IMPACTO NA LETALIDADE (maior dano numa rodada / vida):
+Nivel   vida    antes (Forcar em tudo)    agora                     rodadas pra cair  
+1       20      18                        14                        1.5               
+5       52      36                        27                        1.9               
+10      92      54                        54                        1.7               
+15      132     72                        72                        1.8               
+20      172     90                        90                        1.9               
+25      212     108                       108                       2.0               
+30      252     126                       126                       2.0               
+  Efeito colateral bom: os niveis 1 a 9 ficaram menos letais (1,4 e 1,9 rodadas em vez
+  de 1,1 e 1,4), porque o pico de 4 x Classe agora exige uma Liberacao, que so vem no 10.
+
+==============================================================================================
+10) COMBINACOES TRAVADAS
+==============================================================================================
+  (a) Duas Restricoes de FREQUENCIA nao entram juntas. Pares bloqueados:
+        Uma Vez + Condicional
+        Uma Vez + Aquecer
+        Uma Vez + Divida
+        Condicional + Aquecer
+        Condicional + Divida
+        Aquecer + Divida
+      Motivo: devolvem o orcamento inteiro em troca de um feitico que quase nunca sai,
+      e o que sai e sempre o pico. Sozinhas continuam valendo.
+  (b) Duas Restricoes nao podem cobrar a mesma coisa (dois turnos de preparo, duas
+      condicoes no seu corpo, dois jeitos de te entregar). Regra aberta, mestre aplica.
+  (c) Rapido + Reacao nao entram no mesmo feitico: incoerencia, nao balanco.
+  Nenhum dos 35 feiticos prontos quebra essas travas (conferido em pac7.py).

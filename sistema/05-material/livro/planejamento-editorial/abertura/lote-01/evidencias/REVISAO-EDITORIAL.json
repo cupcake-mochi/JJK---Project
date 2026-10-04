@@ -1,0 +1,151 @@
+{
+  "sha256_texto": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
+  "conclusao": "Leitura de autoria e independente concluídas. Três achados corrigidos. Treze páginas visualmente inspecionadas.",
+  "comparacao_primaria": "PHB2024local,trechos introdução e criação; introduçãoantiga,pilotor2eretorno do usuário. Estrutura, não redação transplantada.",
+  "secoes": [
+    {
+      "pagina": "ab-apresentacao",
+      "titulo": "Projeto - M",
+      "clareza_suficiencia_localizacao": "RPG e proposta própria,definiçãoúnicadeguilda.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-primeira-sessao",
+      "titulo": "Primeira sessão",
+      "clareza_suficiencia_localizacao": "Dados e preparação,destinosdeconsulta.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-mundo",
+      "titulo": "Mundo jujutsu",
+      "clareza_suficiencia_localizacao": "Cânone curto separado de PE eClasses.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-sociedade",
+      "titulo": "Sociedade jujutsu",
+      "clareza_suficiencia_localizacao": "Sociedade semcronologiaobrigatória,exemploautoral.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-criacao",
+      "titulo": "Criar um personagem",
+      "clareza_suficiencia_localizacao": "Roteiro antesdasopções,9pontos0–3.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-origem",
+      "titulo": "Origem e treinos",
+      "clareza_suficiencia_localizacao": "Treinos eTRdiferentes,OfíciosnaOrigem.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-caminho",
+      "titulo": "Caminho e Trilha",
+      "clareza_suficiencia_localizacao": "Tabela depropostas semcatálogodehabilidades.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-capacidades",
+      "titulo": "Capacidades iniciais",
+      "clareza_suficiencia_localizacao": "Rotas e3+2,atributodetécnica,invo por espaço.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-equipamento",
+      "titulo": "Equipamento e valores",
+      "clareza_suficiencia_localizacao": "Recursos econtas,semduplicarequipamento.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-kaori",
+      "titulo": "Kaori",
+      "clareza_suficiencia_localizacao": "Fichaexplicitamenteparcial,aplicaçãousadanocombate.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-resgate",
+      "titulo": "Resgate na ala oeste",
+      "clareza_suficiencia_localizacao": "Cenaobjetiva,portaCD14,posições.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-combate",
+      "titulo": "Combate de exemplo",
+      "clareza_suficiencia_localizacao": "Dadosetotais,custosantesdouso,recursosnãorenovam.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    },
+    {
+      "pagina": "ab-conferencia",
+      "titulo": "Ficha pronta",
+      "clareza_suficiencia_localizacao": "Checklistsemcopiarregrasinteiras.",
+      "regra_funcionalidade": "Fontes ecasosnaauditoria.",
+      "voz": "Segundapessoa,títulosporassunto,semcontrasteretóricoouhabilidadesalheias.",
+      "numeros": "Script quandoaplicável.",
+      "canone": "FONTES-CANONE para mundo,demaisregrasautorais.",
+      "revisao_independente": "Concluída por maxima no hash atual;40casos.",
+      "pdf_visual": "Página aberta e conferida;inspecao-visual.json."
+    }
+  ],
+  "delta_nominal_final": "DELTA-QA-FINAL.json"
+}

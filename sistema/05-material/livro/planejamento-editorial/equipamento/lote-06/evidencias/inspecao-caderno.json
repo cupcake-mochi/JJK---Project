@@ -1,0 +1,115 @@
+{
+  "ok": true,
+  "sha256_pdf": "1e1094948f7f28f88872bb671e3c4ed32c44796a4e2505b763c28e6dd106d026",
+  "comparacoes": [
+    {
+      "pagina": 1,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 2,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 3,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 4,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 5,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 6,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 7,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 8,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 9,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 10,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 11,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 12,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 13,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 14,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 15,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 16,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 17,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 18,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 19,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 20,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 21,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 22,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 23,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 24,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 25,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 26,
+      "identica_a_prova": true
+    },
+    {
+      "pagina": 27,
+      "identica_a_prova": true
+    }
+  ],
+  "metodo": "27 páginas renderizadas e comparadas às provas; 13 novas/revisadas inspecionadas nesta rodada, demais 14 preservam provas já inspecionadas."
+}

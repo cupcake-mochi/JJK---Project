@@ -1,0 +1,16 @@
+{
+  "sha256_texto": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+  "metodo": "Revisão localizada dos hunks de migração nominal e remissões finais aprovadas. Leitura integral anterior preservada, sem declaração de uma nova leitura integral. Valores e efeitos não alterados nesta etapa.",
+  "fontes": [
+    "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  ],
+  "revisor": "/root/maxima",
+  "estado_visual": "concluido",
+  "ajustes_validadores": [],
+  "paginas_reabertas": [
+    16,
+    17
+  ],
+  "sha256_pdf": "3d0e955534d0b8bb42fcab9abf8ab2bbe5ca15f33e8fbe7d2a469677ffd1dc7f",
+  "adaptores_relatorios": "Auditores escrevem relatórios atuais com hash próprio. Fontes imutáveis são separadas das candidatas concorrentes cotejadas; snapshots iniciais preservados."
+}

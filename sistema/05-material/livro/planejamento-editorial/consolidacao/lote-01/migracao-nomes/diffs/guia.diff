@@ -1,0 +1,12 @@
+--- caminhos/guia/lote-01/GUIA.md
+
++++ caminhos/guia/lote-01/GUIA.md
+
+@@ -351,5 +351,5 @@
+
+ | Condição Leve | Como o tratamento a encerra |
+ |---|---|
+-| **Lento, Surdo ou Incapacitado** | Encerra o efeito escolhido que estava impondo a condição. |
++| **Lento, Surdo ou Guarda Aberta** | Encerra o efeito escolhido que estava impondo a condição. |
+ | **Derrubado** | Encerra uma causa tratável e permite levantar no próprio espaço sem gastar movimento, se nenhuma outra causa ainda o mantiver Derrubado e houver apoio. |
+ | **Agarrado** | Encerra um agarrão que estava prendendo o aliado. |

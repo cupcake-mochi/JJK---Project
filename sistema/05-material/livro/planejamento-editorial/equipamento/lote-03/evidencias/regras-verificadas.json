@@ -1,0 +1,398 @@
+{
+  "ok": true,
+  "sha256_texto": "c82734f8bf73a10fcb3ea6d12c0a30b516f835d68b4ebf2c194ef6cad55c9937",
+  "casos": [
+    {
+      "caso": "Rifle após primeiro 2 natural",
+      "obtido": [
+        2,
+        true,
+        1
+      ],
+      "esperado": [
+        2,
+        true,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Completar após gatilho",
+      "obtido": [
+        3,
+        2,
+        false,
+        true
+      ],
+      "esperado": [
+        3,
+        2,
+        false,
+        true
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Preparar restante sem reserva",
+      "obtido": [
+        2,
+        0,
+        false
+      ],
+      "esperado": [
+        2,
+        0,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Restante permite só dois tiros",
+      "obtido": [
+        0,
+        3,
+        true
+      ],
+      "esperado": [
+        0,
+        3,
+        true
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Sem munição não dispara",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Recarga parcial de pistola",
+      "obtido": [
+        1,
+        0,
+        false
+      ],
+      "esperado": [
+        1,
+        0,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Parcial não cria segundo tiro",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Sem Bônus não prepara",
+      "obtido": [
+        2,
+        3,
+        true,
+        false
+      ],
+      "esperado": [
+        2,
+        3,
+        true,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Mãos ocupadas impedem recarga",
+      "obtido": [
+        2,
+        3,
+        true,
+        false
+      ],
+      "esperado": [
+        2,
+        3,
+        true,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Munição incompatível rejeitada",
+      "obtido": [
+        2,
+        3,
+        true,
+        false
+      ],
+      "esperado": [
+        2,
+        3,
+        true,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Recarga preventiva desconta só um",
+      "obtido": [
+        3,
+        2,
+        true
+      ],
+      "esperado": [
+        3,
+        2,
+        true
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Recarregar cheia não multiplica estoque",
+      "obtido": [
+        3,
+        2
+      ],
+      "esperado": [
+        3,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Dado descartado não bloqueia",
+      "obtido": [
+        2,
+        false
+      ],
+      "esperado": [
+        2,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Desvantagem mantém gatilho",
+      "obtido": [
+        2,
+        true
+      ],
+      "esperado": [
+        2,
+        true
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta: esvaziou e tirou 2, só uma recarga",
+      "obtido": [
+        1,
+        18,
+        true,
+        false
+      ],
+      "esperado": [
+        1,
+        18,
+        true,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Segundo tiro da besta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Terceiro sem nova Bônus",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Transferir custa duas ações e conserva estoque",
+      "obtido": [
+        0,
+        2,
+        0,
+        1,
+        true,
+        true
+      ],
+      "esperado": [
+        0,
+        2,
+        0,
+        1,
+        true,
+        true
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Estado da arma de origem continua vazio",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Troca de arma não restaura primeira",
+      "obtido": [
+        1,
+        true,
+        2,
+        false
+      ],
+      "esperado": [
+        1,
+        true,
+        2,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Conservação em todos estados enumerados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "caso": "Todas capacidades do catálogo preservadas",
+      "obtido": {
+        "Pistola": 2,
+        "Revólver": 2,
+        "Espingarda": 2,
+        "Rifle": 3,
+        "Submetralhadora": 3,
+        "Rifle de Precisão": 2,
+        "Metralhadora Pesada": 4,
+        "Besta": 1,
+        "Besta de Uma Mão": 1
+      },
+      "esperado": {
+        "Metralhadora Pesada": 4,
+        "Rifle": 3,
+        "Submetralhadora": 3,
+        "Pistola": 2,
+        "Revólver": 2,
+        "Espingarda": 2,
+        "Rifle de Precisão": 2,
+        "Besta": 1,
+        "Besta de Uma Mão": 1
+      },
+      "ok": true
+    },
+    {
+      "caso": "Capacidade das bestas expressa no texto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Custo por disparo",
+      "obtido": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        1000,
+        1000
+      ],
+      "esperado": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        1000,
+        1000
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Espingarda cabe na criação com munição incluída",
+      "obtido": 150000,
+      "esperado": 150000,
+      "ok": true
+    },
+    {
+      "caso": "Estoque inicial de fogo por arma",
+      "obtido": [
+        6,
+        6,
+        6,
+        9,
+        9,
+        6,
+        12
+      ],
+      "esperado": [
+        6,
+        6,
+        6,
+        9,
+        9,
+        6,
+        12
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta inicial: instalado + reserva",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "caso": "Carga da pistola e dois recipientes extras",
+      "obtido": "3/10",
+      "esperado": "3/10",
+      "ok": true
+    },
+    {
+      "caso": "Recuperação de 7 flechas acessíveis",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação de uma flecha",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação coletiva explícita",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recarga gratuita por começo do turno proibida",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Retirada de munição na transferência cobra Bônus",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Unidade física e medida de jogo distinguidas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "estados_enumerados": 6820,
+  "limites": [
+    "Modelo de conservação e custos, não playtest. Preço e logística continuam propostas. Capacidade mede ataques de jogo."
+  ]
+}

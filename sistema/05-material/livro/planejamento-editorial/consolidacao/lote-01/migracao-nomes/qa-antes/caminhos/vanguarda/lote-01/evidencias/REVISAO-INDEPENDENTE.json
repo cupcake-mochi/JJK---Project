@@ -1,0 +1,404 @@
+{
+  "revisor": "/root/compatibilidade",
+  "unidade": "R14 — Vanguarda",
+  "data": "2026-10-03",
+  "sha256_manuscrito": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+  "fonte_integrada": "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+  "sha256_fonte": "30e9724802bed8d7baa4a93ecaef05284a1134e0f18d25c536f23803a9e2257f",
+  "escopo": "Leitura integral da candidata e fonte;13decisões;R05Munição/R09/R06;procura independente de falhas. Sem editar manuscrito.",
+  "conclusao": "Apto para fechamento. Os três achados localizados foram corrigidos e relidos. Não encontrei bloqueador estrutural nos procedimentos auditados.",
+  "achados": [
+    {
+      "id": "VGI01",
+      "prioridade": "P2",
+      "tema": "Besta já carregada não precisa ser recarregada antes de disparar",
+      "linha": null,
+      "trecho": "A colocação passa a fazer parte de cada disparo.",
+      "problema": "A redação pode exigir uma mão livre de recarga para disparar uma Besta de Uma Mão já carregada. A regra comum permite atacar assim com outra mão ocupada; a dispensa da Trilha não deveria retirar essa opção.",
+      "caso": "Personagem recebe a besta carregada, segura escudo na outra mão e quer fazer um ataque. Não há virote a colocar. O próximo ataque pode exigir recarga, mas este não.",
+      "correcao": "Distinguir disparo já preparado de recarga integrada ao ataque. Consumir somente o virote na arma; se precisar colocar outro, exigir mão e retirar da reserva.",
+      "tipo": "Esclarecimento de interface, não novo benefício.",
+      "estado": "resolvido no snapshot final auditado",
+      "verificacao": "Trechos novos relidos: recarga integrada apenas quando necessária; concordâncias corrigidas."
+    },
+    {
+      "id": "VGI02",
+      "prioridade": "P2",
+      "tema": "Tiro Controlado: unidades na arma, não apenas disponíveis no inventário",
+      "linha": 383,
+      "trecho": "Precisa ter usos disponíveis para o disparo e o gasto adicional.",
+      "problema": "A candidata passou a ter estoque concreto; disponível pode descrever reserva guardada. Supressão foi corrigida explicitamente para duas carregadas, mas Tiro Controlado conservou a expressão anterior.",
+      "caso": "Arma com uma unidade pronta e quatro na reserva. Concluir com Tiro Controlado não deve consumir a segunda da mochila sem recarga.",
+      "correcao": "Exigir arma pronta e duas unidades carregadas na declaração: uma para o ataque e uma para obter/consumir a Oportunidade. Gastar ambas mesmo no erro.",
+      "tipo": "Esclarecimento da conversão de Munição para inventário.",
+      "estado": "resolvido no snapshot final auditado",
+      "verificacao": "**Tiro Controlado.** Consumo normal. Após acertar, permite gastar **uma unidade adicional de munição** na próxima Conclusão própria para obter e consumir uma Oportunidade na declaração. A arma precisa estar pronta, com duas unidades carregadas: uma para o disparo e outra para esse gasto adicional."
+    },
+    {
+      "id": "VGI03",
+      "prioridade": "P3",
+      "tema": "Concordância em unidades de munição",
+      "linha": null,
+      "problema": "Há três concordâncias quebradas pela troca de usos por unidades.",
+      "correcao": "um unidade → uma unidade; o capacidade → a capacidade; ao menos um unidade → ao menos uma unidade.",
+      "tipo": "Editorial",
+      "estado": "resolvido no snapshot final auditado",
+      "verificacao": "Trechos novos relidos: recarga integrada apenas quando necessária; concordâncias corrigidas."
+    }
+  ],
+  "checks": [
+    {
+      "tema": "Cobertura",
+      "parecer": "Li a fonte integrada inteira e a candidata. Conduções e Conclusões comuns, Estocada, as três rotas do Batedor e Executor foram preservados."
+    },
+    {
+      "tema": "Sequência",
+      "parecer": "Limite de uma Condução ou Conclusão por turno próprio. O Golpe Inicial pode partilhar o turno, mas não é possível abrir depois de Concluir."
+    },
+    {
+      "tema": "Falha e Persistência",
+      "parecer": "Falhar cobra PE e encerra a Sequência. Persistência conserva o estado sem acerto, sem renovar prazo e sem devolver efeitos abandonados."
+    },
+    {
+      "tema": "Conclusão Dupla",
+      "parecer": "O dano acontece uma vez. Os dois efeitos exigem requisitos prévios, e condições novas não prejudicam outro teste do mesmo lançamento."
+    },
+    {
+      "tema": "Compasso",
+      "parecer": "Com maior Classe7, exige Classe4. A conjuração não precisa acertar para liberar a Bônus. Requisitos de Força da arma permanecem."
+    },
+    {
+      "tema": "Ferrão",
+      "parecer": "É declarado antes da arma. Se ela errar, não conjura. Se acertar, o Classe0 tem resolução própria. Seu dano substitui Canalizar ou Estímulo naquele golpe."
+    },
+    {
+      "tema": "Ferrão e conjuração",
+      "parecer": "A exceção expressa resolve o conflito com a restrição de conjurar pela Bônus depois de uma Padrão acima de Classe0. Não concede outro Compasso."
+    },
+    {
+      "tema": "Bote",
+      "parecer": "É alternativa a Ferrão. Usa o adicional por rodada de Ataque Extra e não o renova se já tiver sido gasto."
+    },
+    {
+      "tema": "Yumi e munição",
+      "parecer": "Armar reserva uma flecha. Disparar a consome. Desfazer a armação libera a flecha, sem devolver o ataque comprometido ou a Sequência."
+    },
+    {
+      "tema": "Yumi e Reação",
+      "parecer": "Outra resposta consome a Reação e desfaz a armação. Reter usa a Reação antes da renovação, e Emergência não recupera armação perdida."
+    },
+    {
+      "tema": "Yumi e duração",
+      "parecer": "Adiar não prolonga o efeito. Posição, alcance e requisitos situacionais são conferidos na soltura. Conclusão Dupla é imediata."
+    },
+    {
+      "tema": "Besta e marcadores",
+      "parecer": "Um farpado ocupa uma vaga física entre três e substitui dois comuns apenas no pagamento expressamente autorizado. Não gera munição disponível."
+    },
+    {
+      "tema": "Besta e reserva",
+      "parecer": "Preparação Remanescente mantém apenas um virote que não pagou a Conclusão. A nova Sequência começa com zero Conduções."
+    },
+    {
+      "tema": "Arma de Fogo e capacidade",
+      "parecer": "X+1 aumenta capacidade sem criar estoque. Um carregador com três unidades não passa a conter quatro apenas pela habilidade."
+    },
+    {
+      "tema": "Arma de Fogo e recarga",
+      "parecer": "Reposições descontam a reserva e respeitam capacidade. O gatilho de1/2 permanece. Ruptura exige a Ação de Movimento inteira."
+    },
+    {
+      "tema": "Arma de Fogo e continuidade",
+      "parecer": "Romper o Contato exige movimento efetivo. A Oportunidade e seu preparo são consumidos. Plano exige Ruptura com reposição efetiva."
+    },
+    {
+      "tema": "Executor",
+      "parecer": "Antecipação gasta Reação uma vez por Sequência. Troca de Intenção usa TR normal. Dobrar a Aposta não combina com Dupla nem encadeia respostas."
+    },
+    {
+      "tema": "Executor e Dupla",
+      "parecer": "Finta modifica apenas uma Conclusão, enquanto a segunda fica fixada. Duas Intenções oferece alternativas para um lugar, sem aplicar todas."
+    },
+    {
+      "tema": "R09",
+      "parecer": "O Classe0 ofensivo não soma Canalizar. Mudar o atributo de ataques com arma por Compasso não altera automaticamente o atributo do Fundamento."
+    },
+    {
+      "tema": "Texto",
+      "parecer": "Os procedimentos estão organizados para consulta. As pequenas concordâncias identificadas foram corrigidas. Isto não substitui teste com leitores humanos."
+    }
+  ],
+  "modelos": {
+    "flechas_reservadas": [
+      {
+        "flechas_iniciais": 1,
+        "cancelar": {
+          "stock": 1,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 0,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 2,
+        "cancelar": {
+          "stock": 2,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 1,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 3,
+        "cancelar": {
+          "stock": 3,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 2,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 4,
+        "cancelar": {
+          "stock": 4,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 3,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 5,
+        "cancelar": {
+          "stock": 5,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 4,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 6,
+        "cancelar": {
+          "stock": 6,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 5,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 7,
+        "cancelar": {
+          "stock": 7,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 6,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 8,
+        "cancelar": {
+          "stock": 8,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 7,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 9,
+        "cancelar": {
+          "stock": 9,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 8,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 10,
+        "cancelar": {
+          "stock": 10,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 9,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 11,
+        "cancelar": {
+          "stock": 11,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 10,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 12,
+        "cancelar": {
+          "stock": 12,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 11,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 13,
+        "cancelar": {
+          "stock": 13,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 12,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 14,
+        "cancelar": {
+          "stock": 14,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 13,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 15,
+        "cancelar": {
+          "stock": 15,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 14,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 16,
+        "cancelar": {
+          "stock": 16,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 15,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 17,
+        "cancelar": {
+          "stock": 17,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 16,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 18,
+        "cancelar": {
+          "stock": 18,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 17,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 19,
+        "cancelar": {
+          "stock": 19,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 18,
+          "reserved": 0,
+          "spent": 1
+        }
+      },
+      {
+        "flechas_iniciais": 20,
+        "cancelar": {
+          "stock": 20,
+          "reserved": 0,
+          "spent": 0
+        },
+        "soltar": {
+          "stock": 19,
+          "reserved": 0,
+          "spent": 1
+        }
+      }
+    ],
+    "perfis_recarga_conservacao": 1512
+  },
+  "limites": [
+    "Nenhum PDF inspecionado nesta revisão. Root conduz visual.",
+    "Não executei o script do autor para não regravar suas evidências; li sua implementação depois da leitura das regras.",
+    "Modelos próprios verificam conservação, não equilíbrio de dano global nem experiência de leitores humanos.",
+    "Vida inicial e fórmula de progressão podem ficar no capítulo de criação, mas padronizar entre Caminhos na consolidação."
+  ],
+  "proveniencia_snapshot": "As observações iniciais VGI01 e VGI03 vieram da leitura anterior às correções simultâneas do autor. O SHA deste parecer corresponde ao estado posterior, no qual foram relidas e confirmadas como resolvidas; não se atribui ao snapshot atual uma falha já removida.",
+  "snapshot_anterior": "6b7a0443502962feb972d9ff180e80aec456334675048688e919d4d712e0a41d"
+}

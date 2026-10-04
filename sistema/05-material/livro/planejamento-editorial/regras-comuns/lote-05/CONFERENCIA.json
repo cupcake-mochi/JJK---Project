@@ -1,0 +1,354 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "status": "proposta candidata; não integrada",
+  "sha256_texto": "e492d40892b28830d9a0a31f301bf7d0a96016f88b4bd2a36d2011fbe19c2d26",
+  "sha256_pdf": "c9858a872981114a3ec791ce826c33584ef26d23183600e8bae1ca9ce7ee64bf",
+  "checks": [
+    {
+      "verificacao": "Páginas",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "Seções de leitura",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "Marcadores selecionados",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "Destinos dos marcadores",
+      "obtido": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: texto editável presente no PDF",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p1: conteúdo dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: corpo separado do rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: texto editável presente no PDF",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p2: conteúdo dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: corpo separado do rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: texto editável presente no PDF",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p3: conteúdo dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: corpo separado do rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: texto editável presente no PDF",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p4: conteúdo dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: corpo separado do rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: fontes usadas incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Rina: total da busca",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "verificacao": "Rina: quem encontra",
+      "obtido": [
+        true,
+        false
+      ],
+      "esperado": [
+        true,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Chance CD16 com +6",
+      "obtido": "11/20",
+      "esperado": "11/20",
+      "ok": true
+    },
+    {
+      "verificacao": "Chance CD19 com +6",
+      "obtido": "2/5",
+      "esperado": "2/5",
+      "ok": true
+    },
+    {
+      "verificacao": "Distribuição do exemplo: nenhuma, uma, ambas",
+      "obtido": [
+        9,
+        3,
+        8
+      ],
+      "esperado": [
+        9,
+        3,
+        8
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Interferência18 e Furtividade16, busca17: não basta",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "verificacao": "Antena não vence CD27 com +4",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Medidas em múltiplos de1,5m",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Guarda textual: Sem seguimento energético contínuo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Guarda textual: Interferência não soma CDs",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Guarda textual: Sem teste energético adicional",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Guarda textual: Reserva zero não apaga natureza",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Guarda textual: Sentido Treinado não perde permissão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Guarda textual: Antena preserva achado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Guarda textual: Não concede grau à distância",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Guarda textual: Referência de assinatura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "22 fontes e cinco artefatos publicados preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "137 arquivos protegidos preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Manuscritos dos lotes02-04 preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Links de consulta da entrega",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão final vinculada ao texto: revisao-mecanica-r1.md",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão final vinculada ao texto: revisao-leitura-r1.md",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "pdf": [
+    {
+      "pagina": 1,
+      "final_corpo": 683.22,
+      "fontes": [
+        "AAAAAA+BarlowCondensed-SemiBold",
+        "AAAAAA+Spectral-Regular",
+        "AAAAAA+Spectral-SemiBold"
+      ]
+    },
+    {
+      "pagina": 2,
+      "final_corpo": 757.42,
+      "fontes": [
+        "AAAAAA+BarlowCondensed-SemiBold",
+        "AAAAAA+Spectral-Regular",
+        "AAAAAA+Spectral-SemiBold"
+      ]
+    },
+    {
+      "pagina": 3,
+      "final_corpo": 732.02,
+      "fontes": [
+        "AAAAAA+BarlowCondensed-SemiBold",
+        "AAAAAA+Spectral-Regular",
+        "AAAAAA+Spectral-SemiBold"
+      ]
+    },
+    {
+      "pagina": 4,
+      "final_corpo": 743.12,
+      "fontes": [
+        "AAAAAA+BarlowCondensed-SemiBold",
+        "AAAAAA+Spectral-Regular",
+        "AAAAAA+Spectral-SemiBold"
+      ]
+    }
+  ],
+  "limites": [
+    "Guardas e geometria não certificam leitura ou equilíbrio.",
+    "Ver revisão independente e cenários de funcionamento.",
+    "Inspeção visual é um registro separado, vinculado ao PDF.",
+    "Não houve teste humano.",
+    "18 m é alcance de ensaio; matemática de d20 não o valida."
+  ]
+}

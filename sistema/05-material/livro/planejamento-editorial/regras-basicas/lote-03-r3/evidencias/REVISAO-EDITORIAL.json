@@ -1,0 +1,80 @@
+{
+  "data": "2026-10-03",
+  "tipo": "Revisão pelo autor, sem avaliador independente ou teste humano.",
+  "sha256_texto": "b902a11dc5bca2fc78b9c3a8daf87dbdb276185da48a699637946bf7654a531d",
+  "casos_documentais": 36,
+  "secoes": [
+    {
+      "id": "dano",
+      "objetivo": "Ensinar a ordem completa do cálculo.",
+      "titulos": "Dano e Resolução são títulos previsíveis.",
+      "suficiencia": "Suficiente para um golpe; cura e zero de vida ficam em Recuperação.",
+      "redundancia_destino": "Retomada breve de crítico/TR remete à unidade anterior; não reensina ataque.",
+      "compreensao": "Exemplo com quatro etapas mostra reservas antes/depois.",
+      "pendencia": "Arredondamento e resistência/vulnerabilidade são escolhas a confirmar."
+    },
+    {
+      "id": "tipos",
+      "objetivo": "Localizar o grupo e distinguir tipo de efeito adicional.",
+      "titulos": "Tipos de dano é título convencional.",
+      "suficiencia": "15 tipos em tabela; não inventa ficção para cada nome.",
+      "redundancia_destino": "A distinção Veneno/Envenenado reaparece no catálogo para consulta direta.",
+      "compreensao": "Exemplos evitam confundir imunidade ao dano e à condição.",
+      "pendencia": "Rever descrições temáticas no catálogo ao integrar."
+    },
+    {
+      "id": "reducao",
+      "objetivo": "Aplicar RD e entender o que custa uma resposta.",
+      "titulos": "Nome da regra, habilidades como subtítulos.",
+      "suficiencia": "Dois exemplos detalhados; catálogo de habilidades permanece nos Caminhos.",
+      "redundancia_destino": "Cobrir-se será uma remissão curta na montagem final se Aptidões estiver próximo.",
+      "compreensao": "Explica dados crus, Reação e combinação com resistência.",
+      "pendencia": "Momento de Cobrir-se e equilíbrio de Bloquear pendentes."
+    },
+    {
+      "id": "alma",
+      "objetivo": "Anotar segunda reserva e resolver dano/estágio.",
+      "titulos": "Dano na alma é direto; Integridade é definido na abertura.",
+      "suficiencia": "Denso, mas tabela e exemplo mostram o procedimento.",
+      "redundancia_destino": "Recuperação breve é necessária aqui; capítulo seguinte detalha recursos e descanso.",
+      "compreensao": "Comparação exata de fração impede limiar errado com números ímpares.",
+      "pendencia": "D06–D11 são escolhas materiais; estágio 4 ainda depende de regra de desfecho."
+    },
+    {
+      "id": "condicoes",
+      "objetivo": "Explicar aplicação, duração e remoção.",
+      "titulos": "Condições, duração e remoção são rótulos usuais.",
+      "suficiencia": "Tem o procedimento geral; construção de feitiço fica no Fundamento.",
+      "redundancia_destino": "Repetição curta do TR na página Pesadas é apoio deliberado à consulta.",
+      "compreensao": "Distingue PE para remover de pontos para comprar efeito.",
+      "pendencia": "Campos de TR/CD ainda ausentes em parte das fontes."
+    },
+    {
+      "id": "leves",
+      "objetivo": "Consultar as seis condições Leves.",
+      "titulos": "Nomes atuais como subtítulos; novos nomes ficam para decisão.",
+      "suficiencia": "Efeitos e saídas essenciais; manobras completas ficam nas regras comuns.",
+      "redundancia_destino": "Bloquear precisa ser referido aqui porque Incapacitado tem sentido local incomum.",
+      "compreensao": "Exemplo testa Incapacitado/Atordoado juntos.",
+      "pendencia": "Surdo temporal e mistura de candidatas exigem sincronização."
+    },
+    {
+      "id": "medias",
+      "objetivo": "Consultar Calado e Enfeitiçado.",
+      "titulos": "Grupo e condições identificados diretamente.",
+      "suficiencia": "Página menos densa, com dois exemplos úteis; sem preencher com narrativa.",
+      "redundancia_destino": "Remoção repete só custo e ausência de repetição automática do TR.",
+      "compreensao": "Distingue silêncio de incapacidade e encanto de controle do jogador.",
+      "pendencia": "Kata sonora e gatilho de encerramento de Enfeitiçado precisam decisão."
+    },
+    {
+      "id": "pesadas",
+      "objetivo": "Consultar cinco Pesadas e o TR de saída.",
+      "titulos": "Subtítulos pelos nomes das condições.",
+      "suficiencia": "Não importa pacote de efeitos de D&D; cada estado tem consequências explícitas.",
+      "redundancia_destino": "Sentir Energia recebe ressalva curta, procedimento fica em Percepção.",
+      "compreensao": "Exemplo de Atordoado preserva Bloquear e separa revide.",
+      "pendencia": "Testes de saída precisam estar declarados nos efeitos."
+    }
+  ]
+}

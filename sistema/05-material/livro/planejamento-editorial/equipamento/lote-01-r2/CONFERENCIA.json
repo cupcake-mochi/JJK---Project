@@ -1,0 +1,771 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "verificacoes": 89,
+  "sha256_pdf": "614074e2943f05fbbd43e1026fe1de23572caba80844d3533382f7cf2c766299",
+  "sha256_texto": "0929e2f148e457cb77ba8ef100dd1018528c4166ba8c1179a9f6ca4d764a1f37",
+  "checks": [
+    {
+      "verificacao": "Quantidade de páginas e seções",
+      "obtido": [
+        6,
+        6
+      ],
+      "esperado": [
+        6,
+        6
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Sequência",
+      "obtido": [
+        "equipamento",
+        "manipular",
+        "objetos",
+        "propriedades",
+        "oculta",
+        "municao"
+      ],
+      "esperado": [
+        "equipamento",
+        "manipular",
+        "objetos",
+        "propriedades",
+        "oculta",
+        "municao"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Títulos correspondem ao mapa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Entradas principais",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Grupos recolhidos",
+      "obtido": [
+        -3,
+        -3
+      ],
+      "esperado": [
+        -3,
+        -3
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Destinos de marcadores válidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p1: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: links corretos",
+      "obtido": [
+        2,
+        4,
+        5
+      ],
+      "esperado": [
+        2,
+        4,
+        5
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada oculta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada propriedades",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: página citada manipular",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p2: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p3: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: links corretos",
+      "obtido": [
+        2,
+        4
+      ],
+      "esperado": [
+        2,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: página citada propriedades",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: página citada manipular",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p4: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: links corretos",
+      "obtido": [
+        5,
+        6
+      ],
+      "esperado": [
+        5,
+        6
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: página citada oculta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: página citada municao",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p5: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: texto completo",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p6: texto dentro da página",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: corpo separado de rodapé",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: sem imagem raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: remissões existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: links corretos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes e versões anteriores preservadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Livro e exportações preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão do texto atual",
+      "obtido": "0929e2f148e457cb77ba8ef100dd1018528c4166ba8c1179a9f6ca4d764a1f37",
+      "esperado": "0929e2f148e457cb77ba8ef100dd1018528c4166ba8c1179a9f6ca4d764a1f37",
+      "ok": true
+    },
+    {
+      "verificacao": "Seções lidas",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "verificacao": "Inspeção do PDF atual",
+      "obtido": "614074e2943f05fbbd43e1026fe1de23572caba80844d3533382f7cf2c766299",
+      "esperado": "614074e2943f05fbbd43e1026fe1de23572caba80844d3533382f7cf2c766299",
+      "ok": true
+    },
+    {
+      "verificacao": "Todas páginas visualmente examinadas",
+      "obtido": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Inspeção sem defeitos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Bloqueio editorial e revisão contextual",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Casos documentais registrados",
+      "obtido": 34,
+      "esperado": 34,
+      "ok": true
+    },
+    {
+      "verificacao": "Gatilho normal10%",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Vantagem1%",
+      "obtido": "1/100",
+      "esperado": "1/100",
+      "ok": true
+    },
+    {
+      "verificacao": "Desvantagem19%",
+      "obtido": "19/100",
+      "esperado": "19/100",
+      "ok": true
+    },
+    {
+      "verificacao": "Besta3ataques,1Bônus",
+      "obtido": [
+        2,
+        1,
+        false,
+        1,
+        0
+      ],
+      "esperado": [
+        2,
+        1,
+        false,
+        1,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Pistola2ataques semBônus, primeiro1",
+      "obtido": [
+        1,
+        1,
+        false,
+        0,
+        0
+      ],
+      "esperado": [
+        1,
+        1,
+        false,
+        0,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Rifle terc2, ambosgatilhos",
+      "obtido": [
+        4,
+        1,
+        true,
+        1,
+        0
+      ],
+      "esperado": [
+        4,
+        1,
+        true,
+        1,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Dois1seguidos demandam2recargas",
+      "obtido": [
+        2,
+        1,
+        false,
+        1,
+        0
+      ],
+      "esperado": [
+        2,
+        1,
+        false,
+        1,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Rifle4disparos semnaturalbaixo",
+      "obtido": [
+        4,
+        1,
+        true,
+        1,
+        0
+      ],
+      "esperado": [
+        4,
+        1,
+        true,
+        1,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Metralhadora5disparos",
+      "obtido": [
+        5,
+        1,
+        true,
+        1,
+        0
+      ],
+      "esperado": [
+        5,
+        1,
+        true,
+        1,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "80 casos de disparo no último espaço do ciclo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Troca comum",
+      "obtido": [
+        2,
+        1,
+        1
+      ],
+      "esperado": [
+        2,
+        1,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Largar não acumula gratuidade",
+      "obtido": [
+        3,
+        1,
+        1
+      ],
+      "esperado": [
+        3,
+        1,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Andou antes da troca",
+      "obtido": [
+        1,
+        1,
+        0
+      ],
+      "esperado": [
+        1,
+        1,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Malabarista porta arma",
+      "obtido": [
+        2,
+        2,
+        0
+      ],
+      "esperado": [
+        2,
+        2,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Malabarista arma porta",
+      "obtido": [
+        2,
+        1,
+        1
+      ],
+      "esperado": [
+        2,
+        1,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Empate ocultação: comparação passiva e busca",
+      "obtido": [
+        true,
+        true
+      ],
+      "esperado": [
+        true,
+        true
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Leve preserva décimos",
+      "obtido": "9/10",
+      "esperado": "9/10",
+      "ok": true
+    },
+    {
+      "verificacao": "Par1d6 distribuição",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "verificacao": "Par1d6 melhora média dentro do máximo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Par2d6 distribuição",
+      "obtido": 36,
+      "esperado": 36,
+      "ok": true
+    },
+    {
+      "verificacao": "Par2d6 melhora média dentro do máximo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Par4d6 distribuição",
+      "obtido": 1296,
+      "esperado": 1296,
+      "ok": true
+    },
+    {
+      "verificacao": "Par4d6 melhora média dentro do máximo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Par1d6 preserva caso original",
+      "obtido": "161/36",
+      "esperado": "161/36",
+      "ok": true
+    },
+    {
+      "verificacao": "LimitesMunição correspondem ao dono",
+      "obtido": {
+        "Besta": 1,
+        "Besta de Uma Mão": 1,
+        "Pistola": 2,
+        "Revólver": 2,
+        "Espingarda": 2,
+        "Rifle de Precisão": 2,
+        "Rifle": 3,
+        "Submetralhadora": 3,
+        "Metralhadora Pesada": 4
+      },
+      "esperado": {
+        "Metralhadora Pesada": 4,
+        "Rifle": 3,
+        "Submetralhadora": 3,
+        "Pistola": 2,
+        "Revólver": 2,
+        "Espingarda": 2,
+        "Rifle de Precisão": 2,
+        "Besta": 1,
+        "Besta de Uma Mão": 1
+      },
+      "ok": true
+    }
+  ],
+  "geometria": [
+    {
+      "pagina": 1,
+      "final_corpo": 677.22
+    },
+    {
+      "pagina": 2,
+      "final_corpo": 624.72
+    },
+    {
+      "pagina": 3,
+      "final_corpo": 752.52
+    },
+    {
+      "pagina": 4,
+      "final_corpo": 735.52
+    },
+    {
+      "pagina": 5,
+      "final_corpo": 685.92
+    },
+    {
+      "pagina": 6,
+      "final_corpo": 681.22
+    }
+  ],
+  "limites": [
+    "Não substitui revisão independente, teste humano ou playtest.",
+    "Convenções novas identificadas em DECISOES.md."
+  ]
+}

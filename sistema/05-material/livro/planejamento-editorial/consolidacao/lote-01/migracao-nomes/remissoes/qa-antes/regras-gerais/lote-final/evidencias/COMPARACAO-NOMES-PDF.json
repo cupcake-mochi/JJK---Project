@@ -1,0 +1,295 @@
+{
+  "unidade": "regras-gerais/lote-final",
+  "sha256_antes": "7dc390692a7e76c577c5c4d0110323e3a20846121b44d1a18c9e349914e457ce",
+  "sha256_depois": "3ea70b797814c28bfb8bee12b0af403fdf033c8f9c03bcfb689807e000a723e0",
+  "paginas": 40,
+  "alteradas": [
+    11,
+    16,
+    19,
+    34
+  ],
+  "registros": [
+    {
+      "pagina": 1,
+      "igual": true,
+      "sha256_antes": "59893a87c4b0b862acd52e81e0f970431951688f57b2f2b49d60bf80efa38d30",
+      "sha256_depois": "59893a87c4b0b862acd52e81e0f970431951688f57b2f2b49d60bf80efa38d30",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-01.png"
+    },
+    {
+      "pagina": 2,
+      "igual": true,
+      "sha256_antes": "049ec8e17d938da6c9367a5dd61b41d527b7042a58a7e201a3f74fe396a10927",
+      "sha256_depois": "049ec8e17d938da6c9367a5dd61b41d527b7042a58a7e201a3f74fe396a10927",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-02.png"
+    },
+    {
+      "pagina": 3,
+      "igual": true,
+      "sha256_antes": "b78e790d9b6da164cfb87f09eb6f1adcbfe10031401d553d01a1a51069cf9c09",
+      "sha256_depois": "b78e790d9b6da164cfb87f09eb6f1adcbfe10031401d553d01a1a51069cf9c09",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-03.png"
+    },
+    {
+      "pagina": 4,
+      "igual": true,
+      "sha256_antes": "753ee9dc74ea9bdda509241e2c73a973aa205a018b9f232381d02b2464eba59d",
+      "sha256_depois": "753ee9dc74ea9bdda509241e2c73a973aa205a018b9f232381d02b2464eba59d",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-04.png"
+    },
+    {
+      "pagina": 5,
+      "igual": true,
+      "sha256_antes": "2344a85078e9a53225721be58cc680f3a7659a700885062f850df7329359f11c",
+      "sha256_depois": "2344a85078e9a53225721be58cc680f3a7659a700885062f850df7329359f11c",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-05.png"
+    },
+    {
+      "pagina": 6,
+      "igual": true,
+      "sha256_antes": "fb4e04eaf09a341eb746b039795240bf57e6cc5ec8835a226e3f63b35e0a3b39",
+      "sha256_depois": "fb4e04eaf09a341eb746b039795240bf57e6cc5ec8835a226e3f63b35e0a3b39",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-06.png"
+    },
+    {
+      "pagina": 7,
+      "igual": true,
+      "sha256_antes": "85255bb34ecd2977fb6f085a75b9c383ac418c32b5383851ba0d6863b7bb8e4b",
+      "sha256_depois": "85255bb34ecd2977fb6f085a75b9c383ac418c32b5383851ba0d6863b7bb8e4b",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-07.png"
+    },
+    {
+      "pagina": 8,
+      "igual": true,
+      "sha256_antes": "a13dc4653533b0853a1c9da10cf1013ad6a5a7035feac8d6e5ea84928a893431",
+      "sha256_depois": "a13dc4653533b0853a1c9da10cf1013ad6a5a7035feac8d6e5ea84928a893431",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-08.png"
+    },
+    {
+      "pagina": 9,
+      "igual": true,
+      "sha256_antes": "359430f177e86c45d9d4c3ec147ece4ffe32cdbac1848458ba65cf58e5e94597",
+      "sha256_depois": "359430f177e86c45d9d4c3ec147ece4ffe32cdbac1848458ba65cf58e5e94597",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-09.png"
+    },
+    {
+      "pagina": 10,
+      "igual": true,
+      "sha256_antes": "697904bccf529fe756b6679b4dff1ac7ac8e3984a382862273db0aede9eb03c5",
+      "sha256_depois": "697904bccf529fe756b6679b4dff1ac7ac8e3984a382862273db0aede9eb03c5",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-10.png"
+    },
+    {
+      "pagina": 11,
+      "igual": false,
+      "sha256_antes": "cd9e1d4f9f422b8e331a3980f4a26977a52824346e21b27d2a55acc21b6214b7",
+      "sha256_depois": "e2ff4fa1347e8df407697cb8c2ac698c563e7a1cb2916707e4be1fef076886c2",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-11.png"
+    },
+    {
+      "pagina": 12,
+      "igual": true,
+      "sha256_antes": "ca3f22efa2ad8ee374eda8bd4ac4643690916f45dee79ed12147ad590732b417",
+      "sha256_depois": "ca3f22efa2ad8ee374eda8bd4ac4643690916f45dee79ed12147ad590732b417",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-12.png"
+    },
+    {
+      "pagina": 13,
+      "igual": true,
+      "sha256_antes": "67147820d33166b62cbf5a1afd946b9ced6ae5cbdaf30cf35b6ccfc4a603d963",
+      "sha256_depois": "67147820d33166b62cbf5a1afd946b9ced6ae5cbdaf30cf35b6ccfc4a603d963",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-13.png"
+    },
+    {
+      "pagina": 14,
+      "igual": true,
+      "sha256_antes": "17b3a2f9350c6e711872e945f3164529a00d9a1857c9d4006d1a48661c13f08e",
+      "sha256_depois": "17b3a2f9350c6e711872e945f3164529a00d9a1857c9d4006d1a48661c13f08e",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-14.png"
+    },
+    {
+      "pagina": 15,
+      "igual": true,
+      "sha256_antes": "efa6281d58bf2f8eaa3b987ad563f2ccadc7eb5730e8b0e35efe33b5397335d2",
+      "sha256_depois": "efa6281d58bf2f8eaa3b987ad563f2ccadc7eb5730e8b0e35efe33b5397335d2",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-15.png"
+    },
+    {
+      "pagina": 16,
+      "igual": false,
+      "sha256_antes": "b1166f3552dc53f0190b095438c7e08d6eae0a0f4c2943e023c21595b5b9f234",
+      "sha256_depois": "3aceeabbc74d8623f89e7ee5328703ead7183dd970d4d1345a047e43fe666aeb",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-16.png"
+    },
+    {
+      "pagina": 17,
+      "igual": true,
+      "sha256_antes": "1f916a7cf1d940ec87a061d16a77b3d80bf8f32280378a9dfc88f08e8bf72c23",
+      "sha256_depois": "1f916a7cf1d940ec87a061d16a77b3d80bf8f32280378a9dfc88f08e8bf72c23",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-17.png"
+    },
+    {
+      "pagina": 18,
+      "igual": true,
+      "sha256_antes": "a2922d16e4594e78d3c7e29cbee160bb3758f96d73c86122c5ec8273688736ea",
+      "sha256_depois": "a2922d16e4594e78d3c7e29cbee160bb3758f96d73c86122c5ec8273688736ea",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-18.png"
+    },
+    {
+      "pagina": 19,
+      "igual": false,
+      "sha256_antes": "71b32314638542b7e174f3aa3228954720e1199fb88c4df7954a171a06fb480a",
+      "sha256_depois": "d41d1d5c401cf30718443c1ac74de17c54ee2cbf0e16cf9e60cf23e858ec5aae",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-19.png"
+    },
+    {
+      "pagina": 20,
+      "igual": true,
+      "sha256_antes": "47db17b4454065b2546dd1a0ad476737a6aa9045c7f4fb67567c90b6b0c11804",
+      "sha256_depois": "47db17b4454065b2546dd1a0ad476737a6aa9045c7f4fb67567c90b6b0c11804",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-20.png"
+    },
+    {
+      "pagina": 21,
+      "igual": true,
+      "sha256_antes": "50b0c366ef9b99ff21f2a4352d91e1b079ad3e8393cf982714ec59e3466f946b",
+      "sha256_depois": "50b0c366ef9b99ff21f2a4352d91e1b079ad3e8393cf982714ec59e3466f946b",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-21.png"
+    },
+    {
+      "pagina": 22,
+      "igual": true,
+      "sha256_antes": "93d54f01c827f73bba3f07d9c38ba8d617b5bbec07313e89b5513848dac946ba",
+      "sha256_depois": "93d54f01c827f73bba3f07d9c38ba8d617b5bbec07313e89b5513848dac946ba",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-22.png"
+    },
+    {
+      "pagina": 23,
+      "igual": true,
+      "sha256_antes": "88512ac90cb26b2469d4146012e7840fcf0e3c1b35922c1107723f4294367501",
+      "sha256_depois": "88512ac90cb26b2469d4146012e7840fcf0e3c1b35922c1107723f4294367501",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-23.png"
+    },
+    {
+      "pagina": 24,
+      "igual": true,
+      "sha256_antes": "101e0545d9bd94c3b64c0c0ec1b7dfa107378eb71671ea5a7df53192c11ee448",
+      "sha256_depois": "101e0545d9bd94c3b64c0c0ec1b7dfa107378eb71671ea5a7df53192c11ee448",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-24.png"
+    },
+    {
+      "pagina": 25,
+      "igual": true,
+      "sha256_antes": "810e6de030bfbe594e74f791cecc84b410cd4a4632a8c928a6672c57d8606360",
+      "sha256_depois": "810e6de030bfbe594e74f791cecc84b410cd4a4632a8c928a6672c57d8606360",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-25.png"
+    },
+    {
+      "pagina": 26,
+      "igual": true,
+      "sha256_antes": "41fa5c990f8e0c0721957d875ae10d9dc06d928371b7e5fb737c4883eb6a15cf",
+      "sha256_depois": "41fa5c990f8e0c0721957d875ae10d9dc06d928371b7e5fb737c4883eb6a15cf",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-26.png"
+    },
+    {
+      "pagina": 27,
+      "igual": true,
+      "sha256_antes": "573de496cbfc1f0e5cde2e1a135a1a22c6d2ed67e4bd16a8d3c54b5a210c9467",
+      "sha256_depois": "573de496cbfc1f0e5cde2e1a135a1a22c6d2ed67e4bd16a8d3c54b5a210c9467",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-27.png"
+    },
+    {
+      "pagina": 28,
+      "igual": true,
+      "sha256_antes": "2db6abe7b0e17cfa60e15c8cbef6e78539740a7c1b9fe58ef096a77a0689bbed",
+      "sha256_depois": "2db6abe7b0e17cfa60e15c8cbef6e78539740a7c1b9fe58ef096a77a0689bbed",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-28.png"
+    },
+    {
+      "pagina": 29,
+      "igual": true,
+      "sha256_antes": "4bcdc0e46d01efe711c4891b043d75c82fa1510aaf711bbc0799aa7f6943c246",
+      "sha256_depois": "4bcdc0e46d01efe711c4891b043d75c82fa1510aaf711bbc0799aa7f6943c246",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-29.png"
+    },
+    {
+      "pagina": 30,
+      "igual": true,
+      "sha256_antes": "2e629a391dd3944845e5986435aed02243f6727a720de20c6721ff64c733cabe",
+      "sha256_depois": "2e629a391dd3944845e5986435aed02243f6727a720de20c6721ff64c733cabe",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-30.png"
+    },
+    {
+      "pagina": 31,
+      "igual": true,
+      "sha256_antes": "4f8b52074b908a3f1f787508e049eb45eca52a04bf570854931ff28c132a52bd",
+      "sha256_depois": "4f8b52074b908a3f1f787508e049eb45eca52a04bf570854931ff28c132a52bd",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-31.png"
+    },
+    {
+      "pagina": 32,
+      "igual": true,
+      "sha256_antes": "66da47fb003fc1db0342bf296100b3016ac9d5fce95c304ddc492f37295d6ee3",
+      "sha256_depois": "66da47fb003fc1db0342bf296100b3016ac9d5fce95c304ddc492f37295d6ee3",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-32.png"
+    },
+    {
+      "pagina": 33,
+      "igual": true,
+      "sha256_antes": "c92a3534888b9841c3dc78eaaebe55ee6019e29a312ba9a3308ca6d6a858e25e",
+      "sha256_depois": "c92a3534888b9841c3dc78eaaebe55ee6019e29a312ba9a3308ca6d6a858e25e",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-33.png"
+    },
+    {
+      "pagina": 34,
+      "igual": false,
+      "sha256_antes": "d31ccdb2e8b9257d2db3729f42dc6b17e022ef8117a7063602d4daee4cce975e",
+      "sha256_depois": "807c0c52c9df24abec6be2cf1dc1e67e9d6a09117286d3cc474a728c07474dcd",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-34.png"
+    },
+    {
+      "pagina": 35,
+      "igual": true,
+      "sha256_antes": "c0f333b32ee3a57b15c0386ee1ea6c4a0588b1f96ccb10fcd160f91f9f669b18",
+      "sha256_depois": "c0f333b32ee3a57b15c0386ee1ea6c4a0588b1f96ccb10fcd160f91f9f669b18",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-35.png"
+    },
+    {
+      "pagina": 36,
+      "igual": true,
+      "sha256_antes": "cce32b4e311501b684ad694cee28a6baa82627c38cd41b71cdc2cf10d2d2523e",
+      "sha256_depois": "cce32b4e311501b684ad694cee28a6baa82627c38cd41b71cdc2cf10d2d2523e",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-36.png"
+    },
+    {
+      "pagina": 37,
+      "igual": true,
+      "sha256_antes": "5070dc12764b4b17997aab54a645189284b8f37e4047aa99231413b9c94b6642",
+      "sha256_depois": "5070dc12764b4b17997aab54a645189284b8f37e4047aa99231413b9c94b6642",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-37.png"
+    },
+    {
+      "pagina": 38,
+      "igual": true,
+      "sha256_antes": "de212f03826201f6813202c6ae6e9d035c7bf65f0104677005d11750a0da72dd",
+      "sha256_depois": "de212f03826201f6813202c6ae6e9d035c7bf65f0104677005d11750a0da72dd",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-38.png"
+    },
+    {
+      "pagina": 39,
+      "igual": true,
+      "sha256_antes": "6df10ef35ae9aa4269980485bde5db3fb7c273407ef20cf230f4b7161dd141b1",
+      "sha256_depois": "6df10ef35ae9aa4269980485bde5db3fb7c273407ef20cf230f4b7161dd141b1",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-39.png"
+    },
+    {
+      "pagina": 40,
+      "igual": true,
+      "sha256_antes": "e9ae04063711f64471f19392d4e8cc27ee9069a8aa8fa376f9e211d07139a83c",
+      "sha256_depois": "e9ae04063711f64471f19392d4e8cc27ee9069a8aa8fa376f9e211d07139a83c",
+      "imagem": "/tmp/qa-nomes/regras-gerais/lote-final/depois/pagina-40.png"
+    }
+  ],
+  "PDF_identico": false
+}

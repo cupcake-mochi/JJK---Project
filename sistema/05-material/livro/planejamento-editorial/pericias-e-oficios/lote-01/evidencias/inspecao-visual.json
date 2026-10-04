@@ -1,0 +1,70 @@
+{
+  "sha256_pdf": "8f23c332359e69d433d192905a523ef14c028a0adf09596278d2436ea3473401",
+  "sha256_texto": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+  "metodo": "Comparação de todas as páginas a85dpi com PDF anterior inspecionado, seguida de abertura real por view_image de todas as diferenças. Evidências anteriores preservadas.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "e5cac0164965e9d682f75b3e4a1a2c99d4dffcebc6b25e60055ea83c861363dc",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "5b0ddad58091050bf02174dee7b540f9609c88309a05553b8063b5be2f888a4f",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página aberta integralmente por view_image nesta etapa. Texto, tabelas, títulos e margens legíveis, sem cortes ou sobreposições.",
+      "sha256_png": "c1965e651e085126b6055853b1bba7015f860ba1f3f518080c10f20e10089a88",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "b87d950956238662e7a594cf592353af21bc08707d7b4f7063660883e0c395aa",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página aberta integralmente por view_image nesta etapa. Texto, tabelas, títulos e margens legíveis, sem cortes ou sobreposições.",
+      "sha256_png": "cd8778182a84d4952c7b71aa8927098f217e3b749e6e70e8f388453013ba2df3",
+      "revisor": "/root/maxima"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "0f306461f05a79c1c9dd9d50175171a906a5885a5d01a437c86c2de5f585d8c6",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "45a6aa11e50d734b1dae11cdf52128f9dce8e170a4b1fc16f479d03952fd83fe",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "4afd85e084d7d952b2b159daeaf194892fba39f530deb99cb2e07922edfc21ab",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
+      "sha256_png": "c4e1f64aaec1d6e135547d6949511c920ee90c1fb608f2ea1c4f5a12002da462",
+      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+    }
+  ]
+}

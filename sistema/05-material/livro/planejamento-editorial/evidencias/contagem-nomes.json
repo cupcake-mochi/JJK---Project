@@ -1,0 +1,371 @@
+{
+  "inventario": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/INVENTARIO-BASE.json",
+  "fontes": [
+    {
+      "arquivo": "sistema/05-material/livro/manual/05-introducao.md",
+      "sha256_esperado": "c7e02ab389d71d3e1ca6b31ece6f6a1b2d2f6ad4bb9526b4d4e293ea7f66128c",
+      "sha256_atual": "c7e02ab389d71d3e1ca6b31ece6f6a1b2d2f6ad4bb9526b4d4e293ea7f66128c",
+      "ocorrencias": {
+        "Fundamento": 2,
+        "Fundamentos": 0,
+        "Classe": 0,
+        "Classes": 0,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 1,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/07-glossario.md",
+      "sha256_esperado": "c801d153f3a9cf25af93672945ee07fc6c046ab5b9b7304425ce3fb8afff9591",
+      "sha256_atual": "c801d153f3a9cf25af93672945ee07fc6c046ab5b9b7304425ce3fb8afff9591",
+      "ocorrencias": {
+        "Fundamento": 5,
+        "Fundamentos": 0,
+        "Classe": 16,
+        "Classes": 0,
+        "Classe Passiva": 1,
+        "Classes Passivas": 0,
+        "Refino": 5,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/08-inicio-rapido.md",
+      "sha256_esperado": "9a348b4f1eb4bb876c1b6c2ca0db7dde823debcd7cb799d1dda3feb88bea00e6",
+      "sha256_atual": "9a348b4f1eb4bb876c1b6c2ca0db7dde823debcd7cb799d1dda3feb88bea00e6",
+      "ocorrencias": {
+        "Fundamento": 0,
+        "Fundamentos": 0,
+        "Classe": 1,
+        "Classes": 0,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 0,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/10-como-jogar.md",
+      "sha256_esperado": "12296c9fca2d0033ca0f2116991c5f4ea2fd57ff3cc7e7fc28845923e076c4f5",
+      "sha256_atual": "12296c9fca2d0033ca0f2116991c5f4ea2fd57ff3cc7e7fc28845923e076c4f5",
+      "ocorrencias": {
+        "Fundamento": 2,
+        "Fundamentos": 0,
+        "Classe": 1,
+        "Classes": 0,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 0,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/11-o-turno.md",
+      "sha256_esperado": "de552097688d2aefe2f7286f0e3f542ec912cff02cf51a7bf20a1e2d33f2b644",
+      "sha256_atual": "de552097688d2aefe2f7286f0e3f542ec912cff02cf51a7bf20a1e2d33f2b644",
+      "ocorrencias": {
+        "Fundamento": 1,
+        "Fundamentos": 0,
+        "Classe": 4,
+        "Classes": 0,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 0,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/12-pericias-e-oficios.md",
+      "sha256_esperado": "62f41d5d4ca7abe451eac31264c6a7ead7f3993a8218cede144f2b79c28e98ca",
+      "sha256_atual": "62f41d5d4ca7abe451eac31264c6a7ead7f3993a8218cede144f2b79c28e98ca",
+      "ocorrencias": {
+        "Fundamento": 0,
+        "Fundamentos": 0,
+        "Classe": 0,
+        "Classes": 0,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 0,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+      "sha256_esperado": "ff5bc2d0b953cda1c70f57a345d1946b789541236a6971cc5f4bac3862831cfb",
+      "sha256_atual": "ff5bc2d0b953cda1c70f57a345d1946b789541236a6971cc5f4bac3862831cfb",
+      "ocorrencias": {
+        "Fundamento": 2,
+        "Fundamentos": 0,
+        "Classe": 5,
+        "Classes": 0,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 0,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/20-criacao-de-personagem.md",
+      "sha256_esperado": "bae6e4333d9e13add07696ee6feb383e7a48b6ac34d66887339d87fe826db698",
+      "sha256_atual": "bae6e4333d9e13add07696ee6feb383e7a48b6ac34d66887339d87fe826db698",
+      "ocorrencias": {
+        "Fundamento": 1,
+        "Fundamentos": 0,
+        "Classe": 7,
+        "Classes": 0,
+        "Classe Passiva": 1,
+        "Classes Passivas": 0,
+        "Refino": 5,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/25-origens.md",
+      "sha256_esperado": "dac3ae94462e81858c3d7758b938dd5de71870175f811ed1c3b8f341018ac59e",
+      "sha256_atual": "dac3ae94462e81858c3d7758b938dd5de71870175f811ed1c3b8f341018ac59e",
+      "ocorrencias": {
+        "Fundamento": 15,
+        "Fundamentos": 1,
+        "Classe": 1,
+        "Classes": 0,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 4,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+      "sha256_esperado": "948dc94babd1d17022e5a3b5b817e160d2cf1e92c61d37d02462f412ff4e1e44",
+      "sha256_atual": "948dc94babd1d17022e5a3b5b817e160d2cf1e92c61d37d02462f412ff4e1e44",
+      "ocorrencias": {
+        "Fundamento": 3,
+        "Fundamentos": 0,
+        "Classe": 105,
+        "Classes": 1,
+        "Classe Passiva": 4,
+        "Classes Passivas": 0,
+        "Refino": 1,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/40-fundamento.md",
+      "sha256_esperado": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96",
+      "sha256_atual": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96",
+      "ocorrencias": {
+        "Fundamento": 13,
+        "Fundamentos": 2,
+        "Classe": 198,
+        "Classes": 5,
+        "Classe Passiva": 14,
+        "Classes Passivas": 0,
+        "Refino": 20,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+      "sha256_esperado": "d3dcdd307d4542219d8f279a6f7f32da04ae4edc953872e312a4e410911042e5",
+      "sha256_atual": "d3dcdd307d4542219d8f279a6f7f32da04ae4edc953872e312a4e410911042e5",
+      "ocorrencias": {
+        "Fundamento": 7,
+        "Fundamentos": 0,
+        "Classe": 16,
+        "Classes": 0,
+        "Classe Passiva": 9,
+        "Classes Passivas": 0,
+        "Refino": 4,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+      "sha256_esperado": "bf4296c61b167717bffc98459ba26bce8c1b0a46fc8de1230df833486b8c70b7",
+      "sha256_atual": "bf4296c61b167717bffc98459ba26bce8c1b0a46fc8de1230df833486b8c70b7",
+      "ocorrencias": {
+        "Fundamento": 10,
+        "Fundamentos": 1,
+        "Classe": 8,
+        "Classes": 0,
+        "Classe Passiva": 2,
+        "Classes Passivas": 0,
+        "Refino": 6,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/45-aptidoes-e-refino.md",
+      "sha256_esperado": "8cde6375fbe213fb3ee23cd62ff3fb94660fa90b9c4bec5013dd2d4ef66e6be2",
+      "sha256_atual": "8cde6375fbe213fb3ee23cd62ff3fb94660fa90b9c4bec5013dd2d4ef66e6be2",
+      "ocorrencias": {
+        "Fundamento": 6,
+        "Fundamentos": 0,
+        "Classe": 40,
+        "Classes": 0,
+        "Classe Passiva": 25,
+        "Classes Passivas": 0,
+        "Refino": 91,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/46-ritual.md",
+      "sha256_esperado": "c959df9447db7434376a36355f78c8c29d2ac6de965d6d9e71aaa3153c39d360",
+      "sha256_atual": "c959df9447db7434376a36355f78c8c29d2ac6de965d6d9e71aaa3153c39d360",
+      "ocorrencias": {
+        "Fundamento": 0,
+        "Fundamentos": 0,
+        "Classe": 8,
+        "Classes": 0,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 0,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+      "sha256_esperado": "c400089ab383f8368f66801f4a6004092929a26c3dba2f76ea9af90c8bce446d",
+      "sha256_atual": "c400089ab383f8368f66801f4a6004092929a26c3dba2f76ea9af90c8bce446d",
+      "ocorrencias": {
+        "Fundamento": 1,
+        "Fundamentos": 0,
+        "Classe": 24,
+        "Classes": 0,
+        "Classe Passiva": 23,
+        "Classes Passivas": 0,
+        "Refino": 5,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/50-equipamento.md",
+      "sha256_esperado": "5224d4e5a06ac1b4ce623370d16aa2853dc0984648855ec5694c13cbd6ba8991",
+      "sha256_atual": "5224d4e5a06ac1b4ce623370d16aa2853dc0984648855ec5694c13cbd6ba8991",
+      "ocorrencias": {
+        "Fundamento": 0,
+        "Fundamentos": 0,
+        "Classe": 2,
+        "Classes": 1,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 1,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/55-ferramenta-amaldicoada.md",
+      "sha256_esperado": "4e25e19f0c616769cfc93fd5f6a7d4eae1775e119aa10b5b3fe519366c6bd702",
+      "sha256_atual": "4e25e19f0c616769cfc93fd5f6a7d4eae1775e119aa10b5b3fe519366c6bd702",
+      "ocorrencias": {
+        "Fundamento": 0,
+        "Fundamentos": 0,
+        "Classe": 14,
+        "Classes": 1,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 1,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "sha256_esperado": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+      "sha256_atual": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+      "ocorrencias": {
+        "Fundamento": 0,
+        "Fundamentos": 0,
+        "Classe": 120,
+        "Classes": 8,
+        "Classe Passiva": 13,
+        "Classes Passivas": 0,
+        "Refino": 12,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/65-pactos.md",
+      "sha256_esperado": "2ed3c22e4e5a8b7bd3760ad74e6b1fb1ef6b36452d14f9e411a69ee8d1a6950d",
+      "sha256_atual": "2ed3c22e4e5a8b7bd3760ad74e6b1fb1ef6b36452d14f9e411a69ee8d1a6950d",
+      "ocorrencias": {
+        "Fundamento": 4,
+        "Fundamentos": 0,
+        "Classe": 0,
+        "Classes": 0,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 1,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md",
+      "sha256_esperado": "4efd5d5ec7cceef4f3840d2b2f19be777cf01ab7b5081e309f44b1abbc919dc0",
+      "sha256_atual": "4efd5d5ec7cceef4f3840d2b2f19be777cf01ab7b5081e309f44b1abbc919dc0",
+      "ocorrencias": {
+        "Fundamento": 0,
+        "Fundamentos": 0,
+        "Classe": 4,
+        "Classes": 0,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 0,
+        "Refinos": 0
+      }
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+      "sha256_esperado": "11943325cbd9887c2fb6d312df0ec52f70eab50440d9f9bb12a080a9d2e8e24e",
+      "sha256_atual": "11943325cbd9887c2fb6d312df0ec52f70eab50440d9f9bb12a080a9d2e8e24e",
+      "ocorrencias": {
+        "Fundamento": 1,
+        "Fundamentos": 0,
+        "Classe": 19,
+        "Classes": 0,
+        "Classe Passiva": 0,
+        "Classes Passivas": 0,
+        "Refino": 9,
+        "Refinos": 0
+      }
+    }
+  ],
+  "totais": {
+    "Fundamento": {
+      "ocorrencias": 73,
+      "fontes_com_ocorrencias": 15
+    },
+    "Fundamentos": {
+      "ocorrencias": 4,
+      "fontes_com_ocorrencias": 3
+    },
+    "Classe": {
+      "ocorrencias": 593,
+      "fontes_com_ocorrencias": 19
+    },
+    "Classes": {
+      "ocorrencias": 16,
+      "fontes_com_ocorrencias": 5
+    },
+    "Classe Passiva": {
+      "ocorrencias": 92,
+      "fontes_com_ocorrencias": 9
+    },
+    "Classes Passivas": {
+      "ocorrencias": 0,
+      "fontes_com_ocorrencias": 0
+    },
+    "Refino": {
+      "ocorrencias": 166,
+      "fontes_com_ocorrencias": 15
+    },
+    "Refinos": {
+      "ocorrencias": 0,
+      "fontes_com_ocorrencias": 0
+    }
+  },
+  "fontes_total": 22,
+  "hashes_conferem": true
+}

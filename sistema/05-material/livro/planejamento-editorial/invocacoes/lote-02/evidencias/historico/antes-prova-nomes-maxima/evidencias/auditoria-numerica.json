@@ -1,0 +1,735 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/CONSTRUIR-INVOCACOES.md": "0e47b1295d76cac0caeadacec227cc37c0221d537b59e89cfa10455c962389d1"
+  },
+  "sha256_texto": "0e47b1295d76cac0caeadacec227cc37c0221d537b59e89cfa10455c962389d1",
+  "curva": [
+    {
+      "classe": 1,
+      "especial_d8": 2,
+      "basica_d6": 1,
+      "media_conjunta": 12.5,
+      "feitiço_pessoal_medio": 13.5,
+      "razao": 0.9259259259259259,
+      "desconto_entidade": 1,
+      "desconto_pessoal": 1
+    },
+    {
+      "classe": 2,
+      "especial_d8": 4,
+      "basica_d6": 2,
+      "media_conjunta": 25.0,
+      "feitiço_pessoal_medio": 27.0,
+      "razao": 0.9259259259259259,
+      "desconto_entidade": 1,
+      "desconto_pessoal": 1
+    },
+    {
+      "classe": 3,
+      "especial_d8": 6,
+      "basica_d6": 2,
+      "media_conjunta": 34.0,
+      "feitiço_pessoal_medio": 40.5,
+      "razao": 0.8395061728395061,
+      "desconto_entidade": 1,
+      "desconto_pessoal": 2
+    },
+    {
+      "classe": 4,
+      "especial_d8": 9,
+      "basica_d6": 2,
+      "media_conjunta": 47.5,
+      "feitiço_pessoal_medio": 54.0,
+      "razao": 0.8796296296296297,
+      "desconto_entidade": 2,
+      "desconto_pessoal": 2
+    },
+    {
+      "classe": 5,
+      "especial_d8": 11,
+      "basica_d6": 3,
+      "media_conjunta": 60.0,
+      "feitiço_pessoal_medio": 67.5,
+      "razao": 0.8888888888888888,
+      "desconto_entidade": 2,
+      "desconto_pessoal": 3
+    },
+    {
+      "classe": 6,
+      "especial_d8": 13,
+      "basica_d6": 3,
+      "media_conjunta": 69.0,
+      "feitiço_pessoal_medio": 81.0,
+      "razao": 0.8518518518518519,
+      "desconto_entidade": 3,
+      "desconto_pessoal": 3
+    },
+    {
+      "classe": 7,
+      "especial_d8": 16,
+      "basica_d6": 3,
+      "media_conjunta": 82.5,
+      "feitiço_pessoal_medio": 94.5,
+      "razao": 0.873015873015873,
+      "desconto_entidade": 3,
+      "desconto_pessoal": 4
+    }
+  ],
+  "onda": [
+    {
+      "classe": 1,
+      "antes_limite_sem_reembolso_da_forma": 0,
+      "candidato_limite_util": 0,
+      "pessoal_limite_util": 1,
+      "aumento_de_cura_por_alvo": 0
+    },
+    {
+      "classe": 2,
+      "antes_limite_sem_reembolso_da_forma": 1,
+      "candidato_limite_util": 1,
+      "pessoal_limite_util": 3,
+      "aumento_de_cura_por_alvo": 0
+    },
+    {
+      "classe": 3,
+      "antes_limite_sem_reembolso_da_forma": 1,
+      "candidato_limite_util": 1,
+      "pessoal_limite_util": 4,
+      "aumento_de_cura_por_alvo": 0
+    },
+    {
+      "classe": 4,
+      "antes_limite_sem_reembolso_da_forma": 3,
+      "candidato_limite_util": 3,
+      "pessoal_limite_util": 6,
+      "aumento_de_cura_por_alvo": 0
+    },
+    {
+      "classe": 5,
+      "antes_limite_sem_reembolso_da_forma": 3,
+      "candidato_limite_util": 3,
+      "pessoal_limite_util": 7,
+      "aumento_de_cura_por_alvo": 0
+    },
+    {
+      "classe": 6,
+      "antes_limite_sem_reembolso_da_forma": 4,
+      "candidato_limite_util": 4,
+      "pessoal_limite_util": 9,
+      "aumento_de_cura_por_alvo": 0
+    },
+    {
+      "classe": 7,
+      "antes_limite_sem_reembolso_da_forma": 5,
+      "candidato_limite_util": 5,
+      "pessoal_limite_util": 10,
+      "aumento_de_cura_por_alvo": 0
+    }
+  ],
+  "cura": [
+    {
+      "classe": 1,
+      "antes": 1,
+      "candidato": 1,
+      "pessoal": 2
+    },
+    {
+      "classe": 2,
+      "antes": 2,
+      "candidato": 2,
+      "pessoal": 4
+    },
+    {
+      "classe": 3,
+      "antes": 3,
+      "candidato": 3,
+      "pessoal": 6
+    },
+    {
+      "classe": 4,
+      "antes": 5,
+      "candidato": 5,
+      "pessoal": 8
+    },
+    {
+      "classe": 5,
+      "antes": 6,
+      "candidato": 6,
+      "pessoal": 10
+    },
+    {
+      "classe": 6,
+      "antes": 7,
+      "candidato": 7,
+      "pessoal": 12
+    },
+    {
+      "classe": 7,
+      "antes": 9,
+      "candidato": 9,
+      "pessoal": 14
+    }
+  ],
+  "exemplos": [
+    {
+      "nome": "Mordida precisa C1",
+      "classe": 1,
+      "pontos": 2,
+      "gasto": 1,
+      "devolucao": 1,
+      "saldo": 2,
+      "resultado": 2,
+      "unidade": "d8",
+      "PE": 3
+    },
+    {
+      "nome": "Mordida precisa C2",
+      "classe": 2,
+      "pontos": 4,
+      "gasto": 1,
+      "devolucao": 1,
+      "saldo": 4,
+      "resultado": 4,
+      "unidade": "d8",
+      "PE": 6
+    },
+    {
+      "nome": "Mordida precisa C3",
+      "classe": 3,
+      "pontos": 6,
+      "gasto": 1,
+      "devolucao": 1,
+      "saldo": 6,
+      "resultado": 6,
+      "unidade": "d8",
+      "PE": 9
+    },
+    {
+      "nome": "Fura C2 Livre",
+      "classe": 2,
+      "pontos": 4,
+      "gasto": 1,
+      "devolucao": 0,
+      "saldo": 3,
+      "resultado": 3,
+      "unidade": "d8",
+      "PE": 6
+    },
+    {
+      "nome": "Tiras de resgate",
+      "classe": 2,
+      "pontos": 4,
+      "gasto": 3,
+      "devolucao": 0,
+      "saldo": 1,
+      "resultado": 3,
+      "unidade": "PV temporária",
+      "PE": 6
+    },
+    {
+      "nome": "Remendo de papel",
+      "classe": 1,
+      "pontos": 2,
+      "gasto": 1,
+      "devolucao": 0,
+      "saldo": 1,
+      "resultado": 1,
+      "unidade": "d8",
+      "PE": 3
+    },
+    {
+      "nome": "Onda C1 com Impulso e Gesto",
+      "classe": 1,
+      "pontos": 2,
+      "gasto": 3,
+      "devolucao": 1,
+      "saldo": 0,
+      "resultado": 0,
+      "unidade": "d8",
+      "PE": 3
+    }
+  ],
+  "progressao": [
+    {
+      "nivel": 1,
+      "classe": 1,
+      "espacos": 1,
+      "basicas": 1,
+      "pontos_atributos": 9,
+      "passivas": 1,
+      "CPs_maximas": [
+        1
+      ]
+    },
+    {
+      "nivel": 2,
+      "classe": 1,
+      "espacos": 1,
+      "basicas": 1,
+      "pontos_atributos": 9,
+      "passivas": 1,
+      "CPs_maximas": [
+        1
+      ]
+    },
+    {
+      "nivel": 3,
+      "classe": 1,
+      "espacos": 1,
+      "basicas": 1,
+      "pontos_atributos": 9,
+      "passivas": 1,
+      "CPs_maximas": [
+        1
+      ]
+    },
+    {
+      "nivel": 4,
+      "classe": 1,
+      "espacos": 2,
+      "basicas": 1,
+      "pontos_atributos": 9,
+      "passivas": 1,
+      "CPs_maximas": [
+        1
+      ]
+    },
+    {
+      "nivel": 5,
+      "classe": 2,
+      "espacos": 2,
+      "basicas": 1,
+      "pontos_atributos": 9,
+      "passivas": 1,
+      "CPs_maximas": [
+        1
+      ]
+    },
+    {
+      "nivel": 6,
+      "classe": 2,
+      "espacos": 2,
+      "basicas": 1,
+      "pontos_atributos": 10,
+      "passivas": 2,
+      "CPs_maximas": [
+        1,
+        1
+      ]
+    },
+    {
+      "nivel": 7,
+      "classe": 2,
+      "espacos": 2,
+      "basicas": 1,
+      "pontos_atributos": 10,
+      "passivas": 2,
+      "CPs_maximas": [
+        1,
+        1
+      ]
+    },
+    {
+      "nivel": 8,
+      "classe": 2,
+      "espacos": 3,
+      "basicas": 1,
+      "pontos_atributos": 10,
+      "passivas": 2,
+      "CPs_maximas": [
+        1,
+        1
+      ]
+    },
+    {
+      "nivel": 9,
+      "classe": 3,
+      "espacos": 3,
+      "basicas": 1,
+      "pontos_atributos": 10,
+      "passivas": 2,
+      "CPs_maximas": [
+        1,
+        1
+      ]
+    },
+    {
+      "nivel": 10,
+      "classe": 3,
+      "espacos": 3,
+      "basicas": 1,
+      "pontos_atributos": 11,
+      "passivas": 3,
+      "CPs_maximas": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "nivel": 11,
+      "classe": 3,
+      "espacos": 3,
+      "basicas": 2,
+      "pontos_atributos": 11,
+      "passivas": 3,
+      "CPs_maximas": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "nivel": 12,
+      "classe": 3,
+      "espacos": 4,
+      "basicas": 2,
+      "pontos_atributos": 11,
+      "passivas": 3,
+      "CPs_maximas": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "nivel": 13,
+      "classe": 4,
+      "espacos": 4,
+      "basicas": 2,
+      "pontos_atributos": 11,
+      "passivas": 3,
+      "CPs_maximas": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "nivel": 14,
+      "classe": 4,
+      "espacos": 4,
+      "basicas": 2,
+      "pontos_atributos": 12,
+      "passivas": 4,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "nivel": 15,
+      "classe": 4,
+      "espacos": 4,
+      "basicas": 2,
+      "pontos_atributos": 12,
+      "passivas": 4,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "nivel": 16,
+      "classe": 4,
+      "espacos": 5,
+      "basicas": 2,
+      "pontos_atributos": 12,
+      "passivas": 4,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "nivel": 17,
+      "classe": 5,
+      "espacos": 5,
+      "basicas": 2,
+      "pontos_atributos": 12,
+      "passivas": 4,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "nivel": 18,
+      "classe": 5,
+      "espacos": 5,
+      "basicas": 2,
+      "pontos_atributos": 13,
+      "passivas": 5,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 19,
+      "classe": 5,
+      "espacos": 5,
+      "basicas": 2,
+      "pontos_atributos": 13,
+      "passivas": 5,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 20,
+      "classe": 5,
+      "espacos": 6,
+      "basicas": 2,
+      "pontos_atributos": 13,
+      "passivas": 5,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 21,
+      "classe": 6,
+      "espacos": 6,
+      "basicas": 2,
+      "pontos_atributos": 13,
+      "passivas": 5,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 22,
+      "classe": 6,
+      "espacos": 6,
+      "basicas": 2,
+      "pontos_atributos": 14,
+      "passivas": 6,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 23,
+      "classe": 6,
+      "espacos": 6,
+      "basicas": 2,
+      "pontos_atributos": 14,
+      "passivas": 6,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 24,
+      "classe": 6,
+      "espacos": 7,
+      "basicas": 2,
+      "pontos_atributos": 14,
+      "passivas": 6,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 25,
+      "classe": 6,
+      "espacos": 7,
+      "basicas": 2,
+      "pontos_atributos": 14,
+      "passivas": 6,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 26,
+      "classe": 7,
+      "espacos": 7,
+      "basicas": 2,
+      "pontos_atributos": 15,
+      "passivas": 7,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 27,
+      "classe": 7,
+      "espacos": 7,
+      "basicas": 2,
+      "pontos_atributos": 15,
+      "passivas": 7,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 28,
+      "classe": 7,
+      "espacos": 8,
+      "basicas": 2,
+      "pontos_atributos": 15,
+      "passivas": 7,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 29,
+      "classe": 7,
+      "espacos": 8,
+      "basicas": 2,
+      "pontos_atributos": 15,
+      "passivas": 7,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "nivel": 30,
+      "classe": 7,
+      "espacos": 8,
+      "basicas": 2,
+      "pontos_atributos": 16,
+      "passivas": 8,
+      "CPs_maximas": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ],
+  "vida": [
+    {
+      "nivel": 1,
+      "constituicao": 2,
+      "comum": 7,
+      "criada": 7
+    },
+    {
+      "nivel": 2,
+      "constituicao": 2,
+      "comum": 12,
+      "criada": 13
+    },
+    {
+      "nivel": 4,
+      "constituicao": 2,
+      "comum": 22,
+      "criada": 25
+    },
+    {
+      "nivel": 5,
+      "constituicao": 2,
+      "comum": 27,
+      "criada": 31
+    },
+    {
+      "nivel": 6,
+      "constituicao": 3,
+      "comum": 38,
+      "criada": 43
+    },
+    {
+      "nivel": 30,
+      "constituicao": 6,
+      "comum": 272,
+      "criada": 301
+    }
+  ],
+  "domacao": [
+    {
+      "bonus_equivalente": 2,
+      "CD": 10,
+      "resiste_e_exorciza": 0.65,
+      "domada": 0.35
+    },
+    {
+      "bonus_equivalente": 4,
+      "CD": 12,
+      "resiste_e_exorciza": 0.65,
+      "domada": 0.35
+    },
+    {
+      "bonus_equivalente": 6,
+      "CD": 14,
+      "resiste_e_exorciza": 0.65,
+      "domada": 0.35
+    }
+  ],
+  "sem_playtest": true
+}

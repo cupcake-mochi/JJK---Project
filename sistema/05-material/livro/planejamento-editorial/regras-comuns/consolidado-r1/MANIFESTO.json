@@ -1,0 +1,26 @@
+{
+  "data": "2026-10-03",
+  "status": "prova candidata; não integrada",
+  "arquivos": {
+    "CONFERENCIA.json": "275c5381cdc1653640822406eecb0eda7d0aff27a9ea7ae6a49d68dbe89ed3c0",
+    "DEPENDENCIAS-PARA-INTEGRACAO.md": "0303dc83954617c7246da426dd33584acf4dcdd51d7af96ca64c976a0f2f4016",
+    "ESTRUTURA.json": "b137d82a8630706e55a937d9b579968ca796036b449088a05b652adcdb26815e",
+    "LEIA-ME.md": "e51bb943032e329d0f7095e1a38830816ebf35849ffc873fff72732f426a11ee",
+    "REGRAS-COMUNS.md": "3a7c2783e8f07a1d0de20317d1115d592d45c8b96cbbf7452e28d970ef03bb06",
+    "RELATORIO.md": "cc1638cc6700c8da3a69409440c7f9e720b30beda8e9b6d6af28f72787b06844",
+    "conferir.py": "cd6249896d2787fb4ae386404b4fedd0091f12001a550e18f606978119756e4d",
+    "evidencias/CENARIOS-CONSOLIDADOS.md": "57159cc3cf3591b0a8ef7bf6e7183752593c6553c8c2bf3e62f066fa0ddba0f9",
+    "evidencias/REFERENCIAS-EDITORIAIS.md": "1ed43e78e478e70e3e08c74fa5c06b01a83a7abc275f74fa5812f3eac7301e20",
+    "evidencias/REVISAO-EDITORIAL.json": "d07b85872a01e4268cc99e80098ff184e0b0d4a27428c03b7126fd4398626920",
+    "evidencias/REVISAO-EDITORIAL.md": "2caef47c8ce9057079aaf7f25aa880a0b6c9086eef74e40ae49f2cbe2edd67dc",
+    "evidencias/alteracoes-editoriais.json": "fd4d275c9c0908b29d039452c9a37c2380b1027ecb0973cd4598966015accfdd",
+    "evidencias/fontes-preservadas.json": "0373b06d6f11eeca83fbe1c78f4987f2525a2aa71e19163ba205c799fe7978e3",
+    "evidencias/inspecao-visual.json": "a27e45a8e209c915ee3d18124c8a274e3c2f3232ce3e64cb5acb8403ea6217f4",
+    "evidencias/pdf-estrutura.json": "56a1dd6aa65814db858a7b2cbd1ddf8de47d3ace098037a76a71f8479d15ed6f",
+    "evidencias/pdf-texto.txt": "93259a4da6c349ac2c7c7bd986087aaa426cad542947dd2b3e829b1746eea786",
+    "gerar_pdf.py": "58f4d476e25cf68ee897ac9d898ed857839ba3d9a455753300c272daa1b2074d",
+    "output/pdf/Projeto-M-Regras-Comuns-Prova-Consolidada-01.pdf": "e2b0da143f01e299568e596f25fc577207aaaa869017a98c846af2c4a9e7295d",
+    "evidencias/revisao-titulos-2026-10-03.json": "7c00bfb2bad66786c59e352ddf35c1c3f1ba4e67b494352faf22ce4816088560"
+  },
+  "nota_atualizacao": "Atualização de títulos/validador E007; resultados históricos de outros diagnósticos não foram declarados atuais."
+}

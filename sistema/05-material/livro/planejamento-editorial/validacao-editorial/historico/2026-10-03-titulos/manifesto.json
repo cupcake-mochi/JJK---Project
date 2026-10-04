@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-03T17:24:55-03:00",
+  "arquivos": [
+    {
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "backup": "/tmp/r07-titulos-backup/regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "sha256": "9934a70de9062e1a182d1ef594863c6fff830559f3bcea33cb4b6da84f43c086"
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/evidencias/REVISAO-EDITORIAL.json",
+      "backup": "/tmp/r07-titulos-backup/regras-comuns/consolidado-r1/evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "edf30db99d628328829a218a1ea2eeb4ca565866221dae28fbb9a14c05f12a41"
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/CONFERENCIA.json",
+      "backup": "/tmp/r07-titulos-backup/regras-comuns/consolidado-r1/CONFERENCIA.json",
+      "sha256": "e343b300f2ded8c213f159d2e26b304b031a45aac2f6062dcf5dfa94fde7b97d"
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/MANIFESTO.json",
+      "backup": "/tmp/r07-titulos-backup/regras-comuns/consolidado-r1/MANIFESTO.json",
+      "sha256": "62ca6e8a993b99b63f89e9242fe17741997a58dc6e9ddfd073cd2aa0590e9a70"
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/evidencias/inspecao-visual.json",
+      "backup": "/tmp/r07-titulos-backup/regras-comuns/consolidado-r1/evidencias/inspecao-visual.json",
+      "sha256": "49042361bce79f0335731ada1095767a0cc2f0b13f5ebdfb9733deadf9bf74bb"
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/evidencias/pdf-estrutura.json",
+      "backup": "/tmp/r07-titulos-backup/regras-comuns/consolidado-r1/evidencias/pdf-estrutura.json",
+      "sha256": "565b776c4d566b5acc2da7207543dc12effa222aa80a6bcf70e45b376dd86e5b"
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/evidencias/pdf-texto.txt",
+      "backup": "/tmp/r07-titulos-backup/regras-comuns/consolidado-r1/evidencias/pdf-texto.txt",
+      "sha256": "8625c6b88c3a8a34c2f8a1d1264e39f308124275c2a3c06997a17161b0be5dd4"
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/output/pdf/Projeto-M-Regras-Comuns-Prova-Consolidada-01.pdf",
+      "backup": "/tmp/r07-titulos-backup/regras-comuns/consolidado-r1/output/pdf/Projeto-M-Regras-Comuns-Prova-Consolidada-01.pdf",
+      "sha256": "a88a12691244efa8035e7ccbe4a2465cca70ce7e4175896bec189d14a8c83cf4"
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md",
+      "backup": "/tmp/r07-titulos-backup/regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md",
+      "sha256": "2e2472fa5cb15787a853c88beb27df987cab4892aca0104a892aaad9a2007e6c"
+    }
+  ]
+}

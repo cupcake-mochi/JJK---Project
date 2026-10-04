@@ -1,0 +1,347 @@
+{
+  "sha256_texto": "d5a7af1b3715f695ad8dae3baa7e22a04f23f0c5b692687bdab6d74323a6f489",
+  "decisoes": [
+    {
+      "id": "GER01",
+      "ancora": "geral",
+      "antes": "Quatro unidades com regras comuns e exceções específicas repetidas.",
+      "depois": "Uma unidade para procedimentos gerais e remissões para exceções.",
+      "motivo": "Facilitar consulta e eliminar versões concorrentes.",
+      "tipo": "editorial",
+      "fonte": "R01/R02/consolidado-r1/lote06-r6"
+    },
+    {
+      "id": "GER02",
+      "ancora": "geral",
+      "antes": "Regras de Caminhos, Trilhas e Legados explicadas nas páginas gerais.",
+      "depois": "As explicações específicas ficam nos donos atuais, incluindo Incursor e Origens.",
+      "motivo": "Evitar conceder benefícios específicos a qualquer personagem.",
+      "tipo": "localização",
+      "fonte": "R18 SINCRONIZACOES; R20; R10; R15"
+    },
+    {
+      "id": "GER03",
+      "ancora": "bloquear",
+      "antes": "Manual mostra resultado conhecido antes de Bloquear e chama a escolha de neutra pela média.",
+      "depois": "O momento é preservado; a análise registra o ganho da escolha informada.",
+      "motivo": "Média numérica igual não equivale a probabilidade de acerto igual.",
+      "tipo": "preservação + análise",
+      "fonte": "manual10:Bloquear; R02"
+    },
+    {
+      "id": "GER04",
+      "ancora": "critico",
+      "antes": "Crítico natural e margem ampliada podiam ser confundidos.",
+      "depois": "20 natural supera Aparar; margem ampliada depende de acertar e não o supera.",
+      "motivo": "Preservar exceções sem ampliar o alcance de uma margem.",
+      "tipo": "esclarecimento",
+      "fonte": "R02 crítico/Aparar"
+    },
+    {
+      "id": "GER05",
+      "ancora": "bloquear",
+      "antes": "Desvantagem mandava escolher o resultado menos favorável, sem ordenar duplos.",
+      "depois": "Brecha é pior; depois vêm resultados comuns; Aparar exige dois conjuntos com duplo10.",
+      "motivo": "Remover a escolha conveniente de um duplo descartado.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "R02 Bloquear"
+    },
+    {
+      "id": "GER06",
+      "ancora": "aparar",
+      "antes": "As respostas de Aparar e Brecha podiam sugerir repetição ilimitada.",
+      "depois": "Cada resposta paga a própria Reação e concede um ataque físico, com seus requisitos.",
+      "motivo": "Preservar a fonte sem renovar recursos.",
+      "tipo": "preservação",
+      "fonte": "R02 Aparar e Brecha"
+    },
+    {
+      "id": "GER07",
+      "ancora": "ajudar",
+      "antes": "Ajudar não tinha prazo para usar a vantagem.",
+      "depois": "Expira no começo do próximo turno; fora do combate acompanha uma tentativa concreta.",
+      "motivo": "Evitar estoque de ajuda antes da cena.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "manual10/11; PHB2024 localPDF366"
+    },
+    {
+      "id": "GER08",
+      "ancora": "ajudar",
+      "antes": "Ajuda ofensiva não tinha alvo e posição definidos.",
+      "depois": "Escolhe aliado e inimigo ao alcance corpo a corpo do ajudante; o inimigo percebe a intervenção.",
+      "motivo": "Tornar a contribuição verificável e evitar ajuda ofensiva remota gratuita.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "manual10/11; PHBPDF366 usa1,5m, candidata usaalcancereal"
+    },
+    {
+      "id": "GER09",
+      "ancora": "ajudar",
+      "antes": "Requisitos da contribuição do ajudante ficavam implícitos.",
+      "depois": "Cumprir ferramentas, treino, idioma ou sentidos quando a contribuição exigir.",
+      "motivo": "Uma contribuição diferente, como segurar a escada, não exige o mesmo treino do aliado.",
+      "tipo": "esclarecimento",
+      "fonte": "manual10; R04 ofícios"
+    },
+    {
+      "id": "GER10",
+      "ancora": "interacao",
+      "antes": "Provocar era uma oposição sem regra de empate.",
+      "depois": "O total de Provocar é a CD; o TR de Espírito resiste no empate.",
+      "motivo": "Sincronizar o procedimento com o Bastião.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "R13INTERFACESI01, aprovado raiz"
+    },
+    {
+      "id": "GER11",
+      "ancora": "interacao",
+      "antes": "Provocar não declarava percepção, compreensão ou acúmulo.",
+      "depois": "O alvo percebe e compreende a afronta; fontes múltiplas seguem cancelamento comum.",
+      "motivo": "Evitar provocar sem sinais e preservar a escolha das ações do alvo.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "manual11; regra geral de sinais"
+    },
+    {
+      "id": "GER12",
+      "ancora": "interacao",
+      "antes": "Ler o Ambiente devolvia a ação quando não havia informação, mas não falava do uso por cena.",
+      "depois": "Nesse caso, não gasta ação nem uso.",
+      "motivo": "Uma tentativa sem informação disponível não esgota a capacidade.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "manual11"
+    },
+    {
+      "id": "GER13",
+      "ancora": "interacao",
+      "antes": "Influenciar aparecia na tabela da candidata sem seu procedimento.",
+      "depois": "Essência com a perícia social adequada; viabilidade e CD antes; Padrão em combate.",
+      "motivo": "Restituir o conteúdo publicado sem transformar persuasão em controle mental.",
+      "tipo": "reposição / esclarecimento",
+      "fonte": "manual11 Influenciar"
+    },
+    {
+      "id": "GER14",
+      "ancora": "turnos",
+      "antes": "Conversão de ações era direcional, mas a cadeia não estava explícita.",
+      "depois": "Padrão pode virar Bônus e depois Movimento; converte apenas recursos ainda disponíveis.",
+      "motivo": "Permitir a cadeia da fonte sem renovar limites.",
+      "tipo": "esclarecimento",
+      "fonte": "manual11"
+    },
+    {
+      "id": "GER15",
+      "ancora": "acoes",
+      "antes": "Sacar, guardar e limites de conjuração repetidos no capítulo geral.",
+      "depois": "Equipamento é dono da manipulação; Fundamento, do limite de conjuração.",
+      "motivo": "Concentrar cada procedimento num único dono.",
+      "tipo": "localização",
+      "fonte": "coordenação R05compatibilidade"
+    },
+    {
+      "id": "GER16",
+      "ancora": "oportunidade",
+      "antes": "Oportunidade dizia sair do alcance, sem requisito sensorial fechado.",
+      "depois": "Exige acompanhar a saída por visão ou equivalente; a resposta é um ataque corpo a corpo antes da saída.",
+      "motivo": "Conhecer a posição anterior não permite perceber a saída atual.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "R01/R02/comuns; PHBPDF32"
+    },
+    {
+      "id": "GER17",
+      "ancora": "oportunidade",
+      "antes": "Movimento imposto era protegido, mas teleporte e ordem para andar não estavam separados.",
+      "depois": "Queda, teleporte e movimento imposto não provocam; caminhar com o próprio movimento pode provocar.",
+      "motivo": "Distinguir atravessar a área por conta própria de ser deslocado.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "R01/comuns; PHBPDF32/382"
+    },
+    {
+      "id": "GER18",
+      "ancora": "concentracao",
+      "antes": "Cada golpe causava TR de concentração, mas parcelas de dano podiam ser confundidas com golpes.",
+      "depois": "Um TR por aplicação; tipos mistos do mesmo golpe não multiplicam testes.",
+      "motivo": "Preservar o vínculo à aplicação de dano.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "manual11"
+    },
+    {
+      "id": "GER19",
+      "ancora": "concentracao",
+      "antes": "Dano zero, vida temporária e estados não tinham fechamento conjunto.",
+      "depois": "Zero depois das defesas dispensa; vida temporária conta; Inconsciente encerra, Incapacitado não.",
+      "motivo": "Conciliar o procedimento com as condições específicas do ProjetoM.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "coordenação raizR03; manual11"
+    },
+    {
+      "id": "GER20",
+      "ancora": "alcance",
+      "antes": "Qualquer inimigo adjacente prejudicava disparos, até um inconsciente.",
+      "depois": "O inimigo precisa poder agir e perceber o atacante.",
+      "motivo": "Um corpo sem ação não ameaça a mira; Incapacitado ainda pode fazê-lo.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "R02; PHBPDF32comparação"
+    },
+    {
+      "id": "GER21",
+      "ancora": "espacos",
+      "antes": "Incapacitado não abria passagem, mas um corpo inconsciente não tinha regra.",
+      "depois": "Corpo inconsciente ou imóvel pode ser atravessado com passagem física e terreno difícil.",
+      "motivo": "Distinguir condição específica de ausência de ação.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "lote06-r6; coordenaçãoR03"
+    },
+    {
+      "id": "GER22",
+      "ancora": "distancias",
+      "antes": "Diagonal e altura usavam a mesma escala, sem procedimento numérico.",
+      "depois": "Usar o maior desnível dos três eixos em quadrados de1,5m.",
+      "motivo": "Aplicar a mesma convenção ao movimento e ao alcance.",
+      "tipo": "esclarecimento",
+      "fonte": "lote06-r6; PHBPDF31"
+    },
+    {
+      "id": "GER23",
+      "ancora": "rastejar",
+      "antes": "Derrubado podia sofrer metade do deslocamento e custo dobrado ao rastejar.",
+      "depois": "Aplicar somente o acréscimo por trecho; levantar custa Movimento inteiro.",
+      "motivo": "Evitar cobrar duas vezes a mesma redução.",
+      "tipo": "preservação",
+      "fonte": "lote06-r6; coordenaçãoR03"
+    },
+    {
+      "id": "GER24",
+      "ancora": "voo",
+      "antes": "Troca de modalidades descontava gastos, mas novas ações de Movimento não tinham regra.",
+      "depois": "A primeira reserva desconta gastos; cada ação adicional cria a própria reserva da modalidade escolhida.",
+      "motivo": "Não somar modalidades gratuitamente nem inutilizar ações convertidas.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "lote06-r6 e manual11"
+    },
+    {
+      "id": "GER25",
+      "ancora": "arrasto",
+      "antes": "Arrasto tinha capacidade dobrada sem esclarecer equipamento próprio e corpos inertes.",
+      "depois": "Somar equipamento próprio e carga ao limite dobrado; cobrar dois metros por metro, mais terreno difícil.",
+      "motivo": "Fechar transporte de corpos e resgate sem carga gratuita.",
+      "tipo": "mecânica / fechamento",
+      "fonte": "lote06-r6/comuns; autorizado raiz"
+    },
+    {
+      "id": "GER26",
+      "ancora": "arrasto",
+      "antes": "Transporte em grupo não tinha procedimento.",
+      "depois": "Dividir Volume, respeitar cada capacidade e descontar movimento de todos; simultaneidade exige permissão.",
+      "motivo": "Ajudar num teste não multiplica capacidade ou cria ações.",
+      "tipo": "mecânica / criação",
+      "fonte": "lote06-r6; autorização raiz"
+    },
+    {
+      "id": "GER27",
+      "ancora": "montaria",
+      "antes": "Montaria não tinha regra geral.",
+      "depois": "Anatomia, tamanho, carga, custo de montar e ações de uma montaria treinada foram definidos.",
+      "motivo": "Permitir a situação comum sem conceder turnos ou ataques adicionais.",
+      "tipo": "mecânica / criação",
+      "fonte": "PHBPDF32/33; R11 entidades"
+    },
+    {
+      "id": "GER28",
+      "ancora": "montaria",
+      "antes": "Queda e oportunidade sobre montaria estavam sem procedimento.",
+      "depois": "Oportunidade pode atingir um dos dois; Desengajar protege o transporte; TR FísicoCD10 para manter-se montado.",
+      "motivo": "Evitar imunidade a oportunidade por transporte e resolver quedas.",
+      "tipo": "mecânica / criação",
+      "fonte": "PHBPDF32/33; adaptaçãodoProjetoM"
+    },
+    {
+      "id": "GER29",
+      "ancora": "queda-criatura",
+      "antes": "Queda sobre outra criatura não tinha resultado definido.",
+      "depois": "TR FísicoCD14; diferença máxima de uma categoria; repartir dano antes das defesas; Padrão para mirar previamente.",
+      "motivo": "Resolver acidentes sem duplicar dano ou a colisão própria de uma habilidade.",
+      "tipo": "mecânica / criação",
+      "fonte": "TashaPDF161; autorização raiz; abstraçãodejogo"
+    },
+    {
+      "id": "GER30",
+      "ancora": "mundo",
+      "antes": "A origem das maldições e exemplos da obra eram repetidos nas regras comuns.",
+      "depois": "A introdução fica em R22; aqui permanecem procedimentos informacionais.",
+      "motivo": "Um capítulo de regras não precisa reapresentar todo o mundo.",
+      "tipo": "localização",
+      "fonte": "lote05-r2; R22"
+    },
+    {
+      "id": "GER31",
+      "ancora": "esconder",
+      "antes": "Ocultação já tinha CD10, ajustes passivos e resultado guardado aprovados.",
+      "depois": "Todos preservados; só saem as explicações de exceções de Trilha.",
+      "motivo": "Manter decisões do usuário e evitar testes gratuitos depois de atacar.",
+      "tipo": "preservação",
+      "fonte": "consolidado-r1; decisão CD10"
+    },
+    {
+      "id": "GER32",
+      "ancora": "buscar",
+      "antes": "Busca energética tinha procedimento completo misturado com muitos poderes específicos.",
+      "depois": "Preservados18m, ação, obstáculos, carga e resultado instantâneo; exceções remetem aos donos.",
+      "motivo": "Não transformar uma perícia em acesso a poderes.",
+      "tipo": "preservação + localização",
+      "fonte": "lote05-r2/comuns; fontesprimáriasqualitativas"
+    },
+    {
+      "id": "GER33",
+      "ancora": "manobras",
+      "antes": "Manobras misturavam regra comum, CD do Pugilista e Emaranha.",
+      "depois": "Conservadas CD de Força, tamanho, mão livre e ação; exceções ficam em Incursor e Equipamento.",
+      "motivo": "Separar procedimento geral de permissões específicas.",
+      "tipo": "preservação + localização",
+      "fonte": "comuns; R18 SINCRONIZACOES"
+    },
+    {
+      "id": "GER34",
+      "ancora": "preparar",
+      "antes": "Preparar reensinava Melhorias e comandos de entidades.",
+      "depois": "Preservada Padrão+Reação após o gatilho; conjuração e entidades usam seus próprios donos.",
+      "motivo": "Preparar não concede um feitiço reativo universal.",
+      "tipo": "preservação + localização",
+      "fonte": "consolidado-r1"
+    },
+    {
+      "id": "GER35",
+      "ancora": "testes",
+      "antes": "Arredondamento publicado estava ausente da candidata básica.",
+      "depois": "Custos sobem; ganhos descem; mínimo1 só em ganhos positivos e sem exceção própria.",
+      "motivo": "Restituir a regra sem transformar zero em ganho ou alterar medidas de distância.",
+      "tipo": "esclarecimento",
+      "fonte": "manual10 arredondamento; R21 minpositivos"
+    },
+    {
+      "id": "GER36",
+      "ancora": "defesa",
+      "antes": "proteção passiva de energia",
+      "depois": "proteção passiva da rota",
+      "motivo": "Equipamento substitui a proteção passiva também nas rotas sem energia.",
+      "tipo": "correção editorial de interface",
+      "fonte": "Revisão independente de compatibilidade; R05 e donos de benefícios específicos."
+    },
+    {
+      "id": "GER37",
+      "ancora": "movimento",
+      "antes": "como certas recargas",
+      "depois": "como uma segunda manipulação de item",
+      "motivo": "Recarga corrente custa Ação Bônus; o exemplo deve usar tarefa que realmente consome Movimento.",
+      "tipo": "correção editorial de interface",
+      "fonte": "Revisão independente de compatibilidade; R05 e donos de benefícios específicos."
+    },
+    {
+      "id": "GER38",
+      "ancora": "ler",
+      "antes": " Leituras especiais, como identificar contato energético nas últimas 24 horas, continuam dependendo da habilidade que as fornece.",
+      "depois": "Frase removida.",
+      "motivo": "Remover explicação de benefício específico fora de seu local; a remissão para a capacidade permanece.",
+      "tipo": "correção editorial de interface",
+      "fonte": "Revisão independente de compatibilidade; R05 e donos de benefícios específicos."
+    }
+  ]
+}

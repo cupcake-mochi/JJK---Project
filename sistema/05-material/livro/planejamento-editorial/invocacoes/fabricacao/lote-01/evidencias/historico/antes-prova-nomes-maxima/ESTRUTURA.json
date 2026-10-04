@@ -1,0 +1,35 @@
+{
+  "ordem": [
+    "fab-entidades",
+    "fab-projeto",
+    "fab-teste",
+    "fab-conclusao",
+    "fab-exemplo"
+  ],
+  "titulos": {
+    "fab-entidades": "Fabricação de entidades",
+    "fab-projeto": "Projeto de fabricação",
+    "fab-teste": "Teste de fabricação",
+    "fab-conclusao": "Conclusão e transferência",
+    "fab-exemplo": "Talismã de vigia"
+  },
+  "paginas": {
+    "fab-entidades": 1,
+    "fab-projeto": 2,
+    "fab-teste": 3,
+    "fab-conclusao": 4,
+    "fab-exemplo": 5
+  },
+  "grupos": [
+    [
+      "Fabricação de entidades",
+      [
+        "fab-entidades",
+        "fab-projeto",
+        "fab-teste",
+        "fab-conclusao",
+        "fab-exemplo"
+      ]
+    ]
+  ]
+}

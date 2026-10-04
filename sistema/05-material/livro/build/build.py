@@ -9,6 +9,7 @@ Pipeline conforme "Como o Manual foi diagramado":
   - largura de coluna de tabela calculada por conteúdo
 """
 import os
+import gc
 import re
 import sys
 import unicodedata
@@ -52,6 +53,7 @@ CHAPTERS = [
     ("47-bencaos-e-lapidacao.md",    "Bênçãos e Lapidação",     "恵", None),
     ("50-equipamento.md",            "Equipamento",             "具", None),
     ("55-ferramenta-amaldicoada.md", "Ferramenta Amaldiçoada",  "呪", None),
+    ("60-invocacoes.md",            "Invocações",              "召", None),
     ("65-pactos.md",                 "Pactos",                  "縛", None),
 
     ("80-experiencia-e-progressao.md", "Experiência e Progressão", "成", "A campanha"),
@@ -798,6 +800,12 @@ def desenha_sem_tabela_orfa(folhas):
     for passada in range(1, PASSADAS_MAX + 1):
         with open(OUT_HTML, "w", encoding="utf-8") as f:
             f.write(str(soup))
+        if passada > 1:
+            # Cada render guarda arvores de pagina com ciclos. Libere a anterior
+            # antes de desenhar outra edicao grande do livro.
+            del doc
+            gc.collect()
+        print(f"  renderizando passada {passada}/{PASSADAS_MAX}", flush=True)
         doc = HTML(OUT_HTML).render(stylesheets=folhas)
         pag, alt = {}, {}
         for n, page in enumerate(doc.pages):
@@ -855,6 +863,8 @@ def desenha_sem_tabela_orfa(folhas):
     with open(OUT_HTML, "w", encoding="utf-8") as f:
         f.write(str(soup))
     print(f"  AVISO: as {PASSADAS_MAX} passadas acabaram empurrando; a última pode ter deixado outra órfã")
+    del doc
+    gc.collect()
     return HTML(OUT_HTML).render(stylesheets=folhas), movidas, ficaram
 
 def main():

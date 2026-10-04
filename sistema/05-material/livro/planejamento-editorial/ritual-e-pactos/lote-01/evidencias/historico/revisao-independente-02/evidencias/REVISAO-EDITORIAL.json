@@ -1,0 +1,74 @@
+{
+  "sha256_texto": "6f396e09882b7f42768aa5d2e3e2a6f1f68f2214cf1284a3d417c02da1ea21f4",
+  "revisor": "Agente principal, autor; revisão independente ainda pendente",
+  "teste_humano": false,
+  "secoes": [
+    {
+      "id": "ritual",
+      "parecer": "Entrada define aptidão, requisitos, voz e duração com tabela. Dois tipos de ponto distinguem-se sem digressão de design."
+    },
+    {
+      "id": "rit-teste",
+      "parecer": "Fórmula preservada e exemplo recalculado. Uma falha custa PE, sem inventar ficha de dano reduzido no meio da ação."
+    },
+    {
+      "id": "rit-recitar",
+      "parecer": "Relógio de dois turnos, ação/pagamento/perda, TR e Liberação explícitos. Máxima conserva recarga e vedação à estocagem."
+    },
+    {
+      "id": "rit-melhorias",
+      "parecer": "Oito primeiras entradas com preço fixo. Rerrolagem/energia abaixo da tabela porque exigem exceções."
+    },
+    {
+      "id": "rit-beneficios",
+      "parecer": "Oito últimas entradas e parcelas com exemplo mínimo. Beneficiários adicionais não duplicam gatilhos únicos."
+    },
+    {
+      "id": "rit-limites",
+      "parecer": "Incompatibilidades numa tabela. Referências de catálogo são necessárias para fechar interação, não reproduzem capítulos."
+    },
+    {
+      "id": "rit-ajuda",
+      "parecer": "Auxílio registra alcance, prazo, limite, ambas ações e custo de falha. Exemplo completo de10pontos sem somaerrada."
+    },
+    {
+      "id": "pactos",
+      "parecer": "Pactos abrem com troca, quatro modalidades e preço real. Não vende coerção ou consequência desconhecida como cânone."
+    },
+    {
+      "id": "pacto-permanente",
+      "parecer": "Teto porcampanha/Essência e trêsbenefícios. Retira estilo desatualizado, conserva espaço da rota com requisitos."
+    },
+    {
+      "id": "pacto-temporario",
+      "parecer": "Pacto temporário limita momento e alcance da exceção. Exemplo original de retirada nãopromete tabelas universais."
+    },
+    {
+      "id": "promessa",
+      "parecer": "Promessa precisa partesautônomas,termos,prazos,consequência. Texto suficientepara registrarsem citaralegação canônicanãoverificada."
+    },
+    {
+      "id": "pacto-restricao",
+      "parecer": "Criaçãocomlimitaçãojácontabilizada. Ideias explicitamente não são regras e não oferecem morte/recurso semprocedimento."
+    }
+  ],
+  "notas_atualizacao": "Relidos requisitos de mão livre e remissão às dispensas de teste de Carregar; nenhum outro texto mudado.",
+  "atualizacao_independente": {
+    "revisor": "compatibilidade",
+    "parecer_original": "historico/revisao-independente-01/r19-revisao-independente.json",
+    "corrigidos": [
+      "RI-01",
+      "RI-04",
+      "RI-05",
+      "RI-08",
+      "RI-07: nome Concentrada"
+    ],
+    "pendentes": [
+      "RI-02",
+      "RI-03",
+      "RI-06",
+      "RI-07: matriz de modalidades"
+    ],
+    "leitura": "Releitura dos parágrafos alterados e comparação com snapshot anterior. Atualização do hash não declara os demais achados resolvidos."
+  }
+}

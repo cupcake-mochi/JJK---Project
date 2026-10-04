@@ -1,0 +1,33 @@
+{
+  "data": "2026-10-03",
+  "responsavel": "autor desta rodada",
+  "independente": false,
+  "teste_humano": false,
+  "sha256_texto": "0929e2f148e457cb77ba8ef100dd1018528c4166ba8c1179a9f6ca4d764a1f37",
+  "secoes": [
+    {
+      "id": "equipamento",
+      "parecer": "Título pelo assunto; informação do próprio domínio; leitura contextual e visual realizada. Dependências e propostas descritas em DECISOES.md."
+    },
+    {
+      "id": "manipular",
+      "parecer": "Título pelo assunto; informação do próprio domínio; leitura contextual e visual realizada. Dependências e propostas descritas em DECISOES.md."
+    },
+    {
+      "id": "objetos",
+      "parecer": "Título pelo assunto; informação do próprio domínio; leitura contextual e visual realizada. Dependências e propostas descritas em DECISOES.md."
+    },
+    {
+      "id": "propriedades",
+      "parecer": "Título pelo assunto; informação do próprio domínio; leitura contextual e visual realizada. Dependências e propostas descritas em DECISOES.md."
+    },
+    {
+      "id": "oculta",
+      "parecer": "Título pelo assunto; informação do próprio domínio; leitura contextual e visual realizada. Dependências e propostas descritas em DECISOES.md."
+    },
+    {
+      "id": "municao",
+      "parecer": "Título pelo assunto; informação do próprio domínio; leitura contextual e visual realizada. Dependências e propostas descritas em DECISOES.md."
+    }
+  ]
+}

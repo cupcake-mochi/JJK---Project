@@ -1,0 +1,48 @@
+{
+  "data": "2026-10-03",
+  "afirmacoes": [
+    {
+      "id": "C01",
+      "afirmacao": "Ferramentas permitem combate a quem não tem energia para uso comum do jujutsu.",
+      "fonte": "https://jujutsukaisen.jp/character/index_1st.php",
+      "localizador": "perfil de Maki, primeira temporada",
+      "estado": "apoio_oficial_consultado",
+      "limite": "Perfil contextual; não demonstra números de jogo."
+    },
+    {
+      "id": "C02",
+      "afirmacao": "Os restos de Sukuna atraem maldições; o dedo permite sua encarnação em Yuji.",
+      "fonte": "https://jujutsukaisen.jp/character/index_1st.php",
+      "localizador": "perfil de Sukuna",
+      "estado": "apoio_oficial_consultado",
+      "limite": "Exemplo específico, não lei de compatibilidade universal."
+    },
+    {
+      "id": "C03",
+      "afirmacao": "O selo do objeto encontrado no capítulo 1 enfraqueceu com idade e potência do conteúdo.",
+      "fonte": "https://www.shonenjump.com/p/sp/1807/jujutsu/",
+      "localizador": "capítulo 1, arquivo 08_881516_881516_1_032_001.jpg; painel 033 como contexto",
+      "estado": "painel_primario_inspecionado",
+      "limite": "Não estabelece prazo universal, alcance ou encontros; painéis fora da entrega."
+    },
+    {
+      "id": "C04",
+      "afirmacao": "Atração geral, amuleto repelente, Estigmas, Classes e requisitos.",
+      "fonte": "sistema/03-mecanica/16-ferramenta-amaldicoada.md e 21-objeto-amaldicoado.md",
+      "estado": "adaptacao_projeto_m",
+      "limite": "Regras da adaptação, não atribuídas à obra."
+    },
+    {
+      "id": "C05",
+      "afirmacao": "Todo objeto veio de pessoa; todo selo acumula energia; todos os especiais são indestrutíveis por um mesmo pacto.",
+      "estado": "nao_confirmado",
+      "decisao": "Não publicar esses absolutos; conferir primárias pertinentes se voltarem ao texto."
+    },
+    {
+      "id": "C06",
+      "afirmacao": "Graus exatos da Katana de Alma Partida, machado de Mei Mei e demais exemplos.",
+      "estado": "nao_confirmado",
+      "decisao": "Removidos da tabela de regras; a tabela do jogo continua íntegra."
+    }
+  ]
+}

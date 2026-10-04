@@ -1,0 +1,226 @@
+--- catalogo/lote-01/CATALOGO.md
+
++++ catalogo/lote-01/CATALOGO.md
+
+@@ -2,5 +2,5 @@
+
+ # Catálogo de criação
+ 
+-Uma Melhoria acrescenta um efeito ao feitiço. Uma Restrição aceita uma dificuldade em troca de pontos. Uma Passiva ocupa espaços do repertório e modifica o personagem ou sua técnica. Escolha as entradas que realizam a ideia registrada no seu Fundamento.
++Uma Melhoria acrescenta um efeito ao feitiço. Uma Restrição aceita uma dificuldade em troca de pontos. Um Talento ocupa espaços do repertório e modifica o personagem ou sua técnica. Escolha as entradas que realizam a ideia registrada no seu Fundamento.
+ 
+ As **Formas** definem alcance, área e resolução. Suas tabelas estão em Fundamento, nas seções Formas, Formas de Amparo e Alcance e área. A criação guiada, os preços em pontos e os limites de montagem também ficam nesse capítulo.
+@@ -27,7 +27,7 @@
+
+ Uma compra dá o efeito descrito uma vez. Só repita uma peça quando a entrada permitir. Acrescentar alvos, repetir dano e prolongar duração são efeitos diferentes: nenhum deles concede os outros automaticamente.
+ 
+-**Passivas** que exigem ação ou PE conservam esse custo. Seu nome indica uma aquisição duradoura na ficha. Não significa que todos os seus efeitos aconteçam sem ação.
+-
+-As [Restrições](#cat-restricoes-conjuracao) apresentam os custos e as condições de uso. As [Passivas](#cat-passivas-1) se organizam por Classe Passiva; a [Regra Própria](#cat-regra-propria) tem aquisição específica.
++**Talentos** que exigem ação ou PE conservam esse custo. Seu nome indica uma aquisição duradoura na ficha. Não significa que todos os seus efeitos aconteçam sem ação.
++
++As [Restrições](#cat-restricoes-conjuracao) apresentam os custos e as condições de uso. Os [Talentos](#cat-passivas-1) se organizam por Categoria de Efeito; a [Regra Própria](#cat-regra-propria) tem aquisição específica.
+ 
+ 
+@@ -403,11 +403,11 @@
+
+ Você mantém uma Cobrança por vez. Marcar outra criatura encerra a marca anterior. Não acumule descontos de Cobrança: receber outro enquanto houver um disponível não reduz o custo novamente. O benefício se perde no fim da cena ou após a próxima conjuração, mesmo que ela custe 0 PE.
+ 
+-Cobrança e a Passiva Eco não se multiplicam: quando ambos estiverem disponíveis, aplique uma única redução à metade e consuma os dois na próxima conjuração, inclusive se ela custar 0 PE. O desconto modifica apenas PE. Não reduz ação, outros custos ou recarga. Um efeito de dano que começou depois pode derrubar a criatura e cumprir a marca já aplicada, mas não cria uma nova Cobrança.
+-
+-## Aviso  -  Leve
++Cobrança e o Talento Eco não se multiplicam: quando ambos estiverem disponíveis, aplique uma única redução à metade e consuma os dois na próxima conjuração, inclusive se ela custar 0 PE. O desconto modifica apenas PE. Não reduz ação, outros custos ou recarga. Um efeito de dano que começou depois pode derrubar a criatura e cumprir a marca já aplicada, mas não cria uma nova Cobrança.
++
++## Identificar Feitiço  -  Leve
+ 
+ Você descobre qual foi o último feitiço conjurado pelo alvo e sua Classe. Se ele ainda não conjurou nenhum, recebe essa informação. O resultado identifica aquela aplicação. Não entrega a lista inteira de feitiços, as Famílias ou a ficha de criação.
+ 
+-Aviso é uma informação obtida naquele instante. Concentrada e Duradoura não o transformam em acompanhamento automático das conjurações seguintes.
++Identificar Feitiço fornece uma informação obtida naquele instante. Concentrada e Duradoura não o transformam em acompanhamento automático das conjurações seguintes.
+ 
+ <!-- page:cat-amparo|Amparo -->
+@@ -428,5 +428,5 @@
+
+ Um aliado a **0 de vida**, ainda **Morrendo**, recupera **5 × Classe de vida**, limitado à vida máxima, e pode voltar a agir mesmo abaixo do limiar normal de recuperação. Ele fica de pé se tiver apoio e não houver outro efeito que o mantenha Derrubado. A peça não encerra esse impedimento.
+ 
+-Você pode aplicar Levanta **uma vez por cena**, compartilhando esse limite entre suas fichas. A peça alcança um aliado escolhido, mesmo numa Onda. Não ressuscita uma criatura morta, não recupera Integridade e não elimina as demais condições. Consulte Recuperação para as consequências da queda.
++Você pode aplicar Levanta **uma vez por cena**, compartilhando esse limite entre suas fichas. A peça alcança um aliado escolhido, mesmo numa Onda. Não ressuscita uma criatura morta, não recupera Integridade e não elimina as demais condições. Consulte Socorro para as consequências da queda.
+ 
+ ## Remenda  -  Pesada
+@@ -624,8 +624,8 @@
+
+ Depois de três sessões em que o feitiço tenha sido usado, comparem a dificuldade prevista com o que aconteceu. Troquem uma Restrição que nunca tenha atrapalhado, mantendo uma ficha válida antes do próximo uso.
+ 
+-<!-- page:cat-passivas-1|Passivas de Classe 1 -->
+-# Passivas de Classe 1
+-
+-**Nível mínimo 1. Custo: 1 espaço de feitiço por Passiva.** A Classe Passiva é o preço de aquisição, não uma Classe de conjuração. Cada entrada aplica somente os requisitos que declara. Ter uma Passiva não exige Concentração nem repetir o Selo a cada turno.
++<!-- page:cat-passivas-1|Talentos de Categoria 1 -->
++# Talentos de Categoria 1
++
++**Nível mínimo 1. Custo: 1 espaço de feitiço por Talento.** A Categoria de Efeito é o preço de aquisição, não uma Classe de conjuração. Cada entrada aplica somente os requisitos que declara. Ter um Talento não exige Concentração nem repetir o Selo a cada turno.
+ 
+ ## Leitura
+@@ -639,5 +639,5 @@
+
+ ## Raiz
+ 
+-Você **não é movido à força nem fica Derrubado contra a sua vontade**. Pode aceitar um deslocamento ou se deitar por escolha própria. A Passiva não impede o dano de um efeito que também empurre ou derrube.
++Você **não é movido à força nem fica Derrubado contra a sua vontade**. Pode aceitar um deslocamento ou se deitar por escolha própria. O Talento não impede o dano de um efeito que também empurre ou derrube.
+ 
+ Raiz não cria apoio sob seus pés: se o chão desaparecer, a queda segue suas regras. Esta proteção específica é uma exceção expressa do catálogo. Não autoriza criar imunidade a qualquer outra condição pelo mesmo preço.
+@@ -647,5 +647,5 @@
+
+ Quando uma ocorrência de dano causar **10 pontos ou menos**, você não precisa fazer o teste para manter **Concentração ou Carregar**. Confira o dano de cada ocorrência depois das reduções aplicáveis. Não some todos os golpes da rodada.
+ 
+-Acima de 10, faça o teste normal: Vigor para Concentração, Espírito para Carregar. A Passiva não protege Frágil nem outro efeito que termine por sofrer dano sem teste. Também não dispensa testes próprios de barreiras ou de disputas de domínio.
++Acima de 10, faça o teste normal: Vigor para Concentração, Espírito para Carregar. O Talento não protege Frágil nem outro efeito que termine por sofrer dano sem teste. Também não dispensa testes próprios de barreiras ou de disputas de domínio.
+ 
+ ## Farejador
+@@ -655,14 +655,14 @@
+
+ A informação não revela quem conjurou, a montagem do feitiço, a hora exata ou o caminho que o autor tomou depois. Investigar essas questões segue as regras da cena.
+ 
+-## Aviso
+-
+-**Passiva.** Ao ter um inimigo à vista, você sabe **qual foi o último feitiço que ele usou**, mesmo que não tenha presenciado aquela conjuração. Recebe o nome ou uma descrição suficiente para reconhecer a aplicação, não sua ficha completa.
+-
+-Não aprende esse feitiço nem descobre os demais do repertório. Esta é a Passiva Aviso. A Melhoria de mesmo nome tem outro efeito e é comprada separadamente.
+-
+-<!-- page:cat-passivas-2-recursos|Passivas de Classe 2 -->
+-# Passivas de Classe 2
+-
+-**Nível mínimo 7. Custo: 2 espaços de feitiço por Passiva.** Algumas atuam por um gatilho. Outras exigem ação, Reação ou PE. Use o custo e o limite de cada entrada.
++## Leitura de Feitiços
++
++**Talento.** Ao ter um inimigo à vista, você sabe **qual foi o último feitiço que ele usou**, mesmo que não tenha presenciado aquela conjuração. Recebe o nome ou uma descrição suficiente para reconhecer a aplicação, não sua ficha completa.
++
++Não aprende esse feitiço nem descobre os demais do repertório. Leitura de Feitiços não informa a Classe. A Melhoria Identificar Feitiço tem efeito e aquisição próprios.
++
++<!-- page:cat-passivas-2-recursos|Talentos de Categoria 2 -->
++# Talentos de Categoria 2
++
++**Nível mínimo 7. Custo: 2 espaços de feitiço por Talento.** Alguns atuam por um gatilho. Outros exigem ação, Reação ou PE. Use o custo e o limite de cada entrada.
+ 
+ ## Fluxo
+@@ -693,5 +693,5 @@
+
+ # Proteção e presença
+ 
+-Estas Passivas também são de **Classe Passiva 2: nível mínimo 7 e 2 espaços cada**.
++Estes Talentos também são de **Categoria de Efeito 2: nível mínimo 7 e 2 espaços cada**.
+ 
+ ## Costura
+@@ -699,5 +699,5 @@
+
+ **Uma vez por cena**, quando um aliado a até **9 m** sofreria uma redução de seus pontos de vida a 0, você pode fazer com que ele permaneça com **1 ponto de vida**. Não exige ação nem Reação.
+ 
+-Costura previne essa redução. Não recupera quem já estava a 0, não restaura Integridade e não encerra uma condição. Outras consequências do efeito continuam sendo resolvidas. Uma morte que não dependa de reduzir a vida a 0 não é impedida por esta Passiva.
++Costura previne essa redução. Não recupera quem já estava a 0, não restaura Integridade e não encerra uma condição. Outras consequências do efeito continuam sendo resolvidas. Uma morte que não dependa de reduzir a vida a 0 não é impedida por este Talento.
+ 
+ ## Contramedida
+@@ -705,5 +705,5 @@
+
+ Quando outra criatura a até **9 m** conjurar um feitiço, você pode gastar sua **Reação e 2 PE** para aumentar a **CD desse feitiço em 2**. Declare depois que a conjuração for anunciada e antes dos TR. O aumento vale para os TR contra aquela aplicação enquanto ela durar.
+ 
+-A criatura precisa conjurar um feitiço que tenha CD. Contramedida não melhora ataques contra Defesa, não interrompe a conjuração e não reduz a CD de um inimigo. O mesmo feitiço recebe esse aumento no máximo uma vez, mesmo que mais de uma criatura tenha a Passiva.
++A criatura precisa conjurar um feitiço que tenha CD. Contramedida não melhora ataques contra Defesa, não interrompe a conjuração e não reduz a CD de um inimigo. O mesmo feitiço recebe esse aumento no máximo uma vez, mesmo que mais de uma criatura tenha o Talento.
+ 
+ ## Peso da Presença
+@@ -711,10 +711,10 @@
+
+ Um inimigo da categoria **Capanga** que comece o turno a até **6 m** de você faz um **TR Espírito contra a CD da sua técnica**. Se falhar, fica **Amedrontado por você até o começo do próximo turno dele**. Como Amedrontado é uma condição Pesada, ele repete o TR no fim do turno e encerra essa aplicação se passar. Se permanecer na área, faz o teste do novo turno normalmente.
+ 
+-O efeito não exige ação nem PE. A distância é conferida no começo do turno do alvo. Apenas entrar na área não dispara outro teste. Outras categorias de inimigo e personagens que não usam a categoria Capanga não são afetados por esta Passiva.
+-
+-<!-- page:cat-passivas-3|Passivas de Classe 3 -->
+-# Passivas de Classe 3
+-
+-**Nível mínimo 13. Custo: 3 espaços de feitiço por Passiva.** Escolha os tipos e temas exigidos quando adquirir a Passiva. Eles não mudam a cada uso.
++O efeito não exige ação nem PE. A distância é conferida no começo do turno do alvo. Apenas entrar na área não dispara outro teste. Outras categorias de inimigo e personagens que não usam a categoria Capanga não são afetados por este Talento.
++
++<!-- page:cat-passivas-3|Talentos de Categoria 3 -->
++# Talentos de Categoria 3
++
++**Nível mínimo 13. Custo: 3 espaços de feitiço por Talento.** Escolha os tipos e temas exigidos quando adquirir o Talento. Eles não mudam a cada uso.
+ 
+ ## Escama
+@@ -734,12 +734,12 @@
+
+ Seu **PE máximo aumenta em 3 × sua maior Classe**. Atualize esse acréscimo quando sua maior Classe aumentar.
+ 
+-O aumento é do máximo: a Passiva não é uma ação de recuperação e não pode ser ativada repetidamente para repor PE. Recuperar os pontos segue **Descanso e recuperação**.
++O aumento é do máximo: o Talento não é uma ação de recuperação e não pode ser ativada repetidamente para repor PE. Recuperar os pontos segue **Descanso e recuperação**.
+ 
+ <!-- page:cat-regra-propria|Regra Própria -->
+ # Regra Própria
+ 
+-Técnicas baseadas em aposta, contrato, julgamento ou obrigação podem ter uma **Regra Própria**, definida com o mestre antes da campanha. Ela é uma Passiva específica, com aquisição diferente das demais.
+-
+-| Classe Passiva | Nível mínimo | Espaços ocupados |
++Técnicas baseadas em aposta, contrato, julgamento ou obrigação podem ter uma **Regra Própria**, definida com o mestre antes da campanha. Ela é um Talento específico, com aquisição diferente das demais.
++
++| Categoria de Efeito | Nível mínimo | Espaços ocupados |
+ |---|---|---|
+ | 1 | 1 | Nenhum. É a versão inicial. |
+@@ -747,5 +747,5 @@
+
+ | 3 | 13 | 2 espaços no total. |
+ 
+-Ao melhorar de Classe Passiva 2 para 3, ocupe somente **mais um espaço**. Regra Própria não conta no máximo de cinco Passivas pagas. O nome se refere a este efeito. A **Regra do Fundamento** continua sendo a frase que define o funcionamento da técnica inteira.
++Ao melhorar de Categoria de Efeito 2 para 3, ocupe somente **mais um espaço**. Regra Própria não conta no máximo de cinco Talentos pagos. O nome se refere a este efeito. A **Regra do Fundamento** continua sendo a frase que define o funcionamento da técnica inteira.
+ 
+ ## Escreva o efeito
+@@ -758,5 +758,5 @@
+
+ - **Limite por cena.** Escreva quantas vezes a consequência pode ser aplicada.
+ 
+-Compare seu resultado com as Passivas da mesma Classe. Uma frase como “o alvo fica ligado a mim” ainda precisa dizer o que a ligação faz, quem afeta, quanto dura e como termina. A simetria e o limite não tornam qualquer consequência adequada à Classe Passiva 1.
++Compare seu resultado com os Talentos da mesma Categoria. Uma frase como “o alvo fica ligado a mim” ainda precisa dizer o que a ligação faz, quem afeta, quanto dura e como termina. A simetria e o limite não tornam qualquer consequência adequada à Categoria de Efeito 1.
+ 
+ ## Exemplo: aposta entre dois
+@@ -764,12 +764,12 @@
+
+ **Regra:** uma vez por cena, quando você e outra criatura aceitarem uma aposta sobre uma disputa real entre ambos, quem vencer recebe vantagem no próximo teste que fizer antes do fim da cena.
+ 
+-Os dois precisam entender e aceitar a aposta antes da disputa. Registrem um resultado que possa ser verificado. Empate não concede vantagem e consome a aposta da cena. A Passiva não concede ações nem altera testes já resolvidos. Um resultado combinado antecipadamente não é uma disputa. Esta é uma proposta original de **Classe Passiva 1**, sujeita à aprovação da mesa.
++Os dois precisam entender e aceitar a aposta antes da disputa. Registrem um resultado que possa ser verificado. Empate não concede vantagem e consome a aposta da cena. O Talento não concede ações nem altera testes já resolvidos. Um resultado combinado antecipadamente não é uma disputa. Esta é uma proposta original de **Categoria de Efeito 1**, sujeita à aprovação da mesa.
+ 
+ Uma regra que imponha uma condição a alguém contra a vontade precisa declarar sua defesa ou seu TR, a CD, a duração e a saída. Não basta escrever a obrigação na narrativa para retirar as ações de outra criatura.
+ 
+-<!-- page:cat-passiva-propria|Passiva Própria -->
+-# Passiva Própria
+-
+-**Classe Passiva 1, 2 ou 3. Custos e níveis da Classe escolhida.** Se o catálogo não representar a ideia, escreva o efeito com o mestre antes da sessão. Ele ocupa os espaços correspondentes e conta no máximo de cinco Passivas pagas.
++<!-- page:cat-passiva-propria|Talento Próprio -->
++# Talento Próprio
++
++**Categoria de Efeito 1, 2 ou 3. Custos e níveis da Categoria escolhida.** Se o catálogo não representar a ideia, escreva o efeito com o mestre antes da sessão. Ele ocupa os espaços correspondentes e conta no máximo de cinco Talentos pagos.
+ 
+ ## Defina a aplicação
+@@ -782,7 +782,7 @@
+
+ | Alvos | Quem é afetado, a que distância e com quais requisitos? |
+ | Resolução | Há teste, CD, duração ou forma de encerrar? |
+-| Comparação | Qual Passiva da mesma Classe oferece um benefício semelhante? |
+-
+-Informação limitada ou um efeito pequeno e condicional costuma caber na Classe Passiva 1. Na Classe Passiva 2, compare o benefício e o seu gatilho: nem toda Passiva precisa de um contador, mas uma ativação fácil e repetida exige mais cuidado. A Classe Passiva 3 comporta efeitos permanentes de maior alcance, como resistência a um tipo de dano.
++| Comparação | Qual Talento da mesma Categoria oferece um benefício semelhante? |
++
++Informação limitada ou um efeito pequeno e condicional costuma caber na Categoria de Efeito 1. Na Categoria de Efeito 2, compare o benefício e o seu gatilho: nem todo Talento precisa de um contador, mas uma ativação fácil e repetida exige mais cuidado. A Categoria de Efeito 3 comporta efeitos permanentes de maior alcance, como resistência a um tipo de dano.
+ 
+ ## Limites
+@@ -790,7 +790,7 @@
+
+ Uma criação própria não pode conceder bônus de acerto ou dano permanente e sem condição, uma ação extra por rodada, imunidade completa a um tipo de dano ou condição, cura ilimitada ou redução fixa do dano de todo golpe recebido. Exceções expressas do catálogo, como Raiz, não liberam versões gerais desses benefícios.
+ 
+-A proposta precisa respeitar a Regra e as Famílias disponíveis. Não use uma Passiva própria para obter por outro nome um efeito de Família Fechada, eliminar sempre o custo de uma Restrição ou dispensar o Selo das conjurações sem uma permissão expressa.
+-
+-Passiva Própria e Regra Própria também não concedem acesso automático a entidades. Uma invocação exige que a técnica, o Manejo ou o Kata a preveja de forma explícita e coerente, além da aquisição e das regras de **Invocações**.
+-
+-A Passiva Livre permanece uma opção de aparência e expressão da técnica. Revelar informação protegida, vencer um obstáculo sem teste ou obter uma vantagem funcional exige uma escolha paga adequada. Retirar os números da descrição não transforma esse benefício em Livre.
++A proposta precisa respeitar a Regra e as Famílias disponíveis. Não use um Talento próprio para obter por outro nome um efeito de Família Fechada, eliminar sempre o custo de uma Restrição ou dispensar o Selo das conjurações sem uma permissão expressa.
++
++Talento Próprio e Regra Própria também não concedem acesso automático a entidades. Uma invocação exige que a técnica, o Manejo ou o Kata a preveja de forma explícita e coerente, além da aquisição e das regras de **Invocações**.
++
++A Expressão da técnica reúne detalhes de aparência e expressão pessoal. Revelar informação protegida, vencer um obstáculo sem teste ou obter uma vantagem funcional exige uma escolha paga adequada. Retirar os números da descrição não transforma esse benefício numa Expressão da técnica.

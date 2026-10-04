@@ -1,0 +1,265 @@
+{
+  "ok": true,
+  "revisor": "maxima",
+  "independente_do_autor_dos_deltas": true,
+  "hashes_lidos": {
+    "catalogo/lote-01/CATALOGO.md": "bc7c24c0eaa1aad19502d9d5f4c8a2148653de2e5b1667f7b02902532a90ff75",
+    "progressao/lote-01/PROGRESSAO.md": "b3d405aefb7006ca4260464f665280c3b1c3035ca379d67fe46b42ba651093d6",
+    "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md": "b10dd5e5bfa90efbcc15bc52f127f8a75c14c6f639e70c44ce2f7965dd0e17ed"
+  },
+  "escopo": "Leitura pontual CAT116 e PRO36, logs e interface final R03. Não repete revisão integral de Catálogo/Progressão.",
+  "casos": [
+    {
+      "caso": "Levanta exige ainda Morrendo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Levanta preserva5porClasse",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Levanta uma vez por cena e compartilha fichas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Levanta um único aliado mesmoOnda",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remenda5porClasseIntegridade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remenda limite por alvo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remenda remete estágios e derrota",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Limiar exige saídaDerrotado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Ameaça hostil real",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Treino/fabricação excluídos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "XP/teto inalterados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "LevantaC3resgata15abaixo39",
+      "obtido": {
+        "vida": 15,
+        "estado": "Socorrido",
+        "sequela": 1,
+        "usado": true
+      },
+      "esperado": {
+        "vida": 15,
+        "estado": "Socorrido",
+        "sequela": 1,
+        "usado": true
+      },
+      "ok": true
+    },
+    {
+      "caso": "Levanta acumulação com limite atual",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "caso": "Levanta recusa Derrotado",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Levanta recusa Morto",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Levanta recusa impedimentoCura",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Levanta recusa segundo uso",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "RemendaC3 cruza estágio3para2",
+      "obtido": [
+        35,
+        2,
+        false
+      ],
+      "esperado": [
+        35,
+        2,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "caso": "RemendaC3de0nãoencerraDerrotado",
+      "obtido": [
+        15,
+        3,
+        true
+      ],
+      "esperado": [
+        15,
+        3,
+        true
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Remenda limitado à Integridade máxima",
+      "obtido": [
+        100,
+        0,
+        false
+      ],
+      "esperado": [
+        100,
+        0,
+        false
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Remendaoutroconjurador mesmoalvo bloqueado",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "dominio treino amigável não é feito",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "dominio ameaça hostil real permite feito",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "dominio faixa anterior não conta",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "socorro treino amigável não é feito",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "socorro ameaça hostil real permite feito",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "socorro faixa anterior não conta",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "alma treino amigável não é feito",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "alma ameaça hostil real permite feito",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "alma faixa anterior não conta",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Alma positivo aindaDerrotado não conta retorno",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Socorro acumulado sem acordar não conta",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "SairDomínio incompleto não conta",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "SairDomínio após socorro pode contar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "contagem": 34,
+  "achados": [
+    {
+      "gravidade": "P3-remissao",
+      "texto": "Catálogo Levanta/Reserva ainda citam Recuperação; PRO36 também usa Recuperação na tabela. Atualizar para Socorro ou Derrota e morte/Dano e Recuperação na consolidação. Não afeta a mecânica dos deltas."
+    }
+  ],
+  "parecer": "Não identificado bloqueador mecânico nos deltas. Valores, frequências e condição de conquista preservados; nova exigência de ameaça hostil é mecânica e está registrada em PRO36.",
+  "limites": [
+    "Modelos de interface dirigidos, não habilidades completas, partidas ou compreensão humana.",
+    "Permissões de compra por Classe permanecem no dono; o teste numérico não concede acesso.",
+    "Nenhuma inspeção visual/PDF executada.",
+    "Outras escolhas de limiar não foram redesenhadas nem abrangidas pela regra antitreino além do texto expresso."
+  ]
+}

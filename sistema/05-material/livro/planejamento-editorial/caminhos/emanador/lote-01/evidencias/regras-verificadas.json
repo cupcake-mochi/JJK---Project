@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "sha256_texto": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+  "origem": "evidencias/AUDITORIA.json",
+  "verificacoes": 92,
+  "observacao": "Revisão independente registrada em REVISAO-INDEPENDENTE-MAXIMA.md",
+  "delta_nominal": {
+    "leitor": "/root",
+    "alteracoes": "Migração de nomes, concordância e remissões atuais; fórmulas e procedimentos invariantes.",
+    "evidencia": "consolidacao/lote-01/migracao-nomes/diffs/emanador.diff",
+    "auditoria_reexecutada": "evidencias/AUDITORIA.json"
+  }
+}

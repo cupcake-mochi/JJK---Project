@@ -1,0 +1,685 @@
+{
+  "revisor": "/root/compatibilidade",
+  "sha256_pdf": "565e98135d44f9788cb6b4f65054916c094d1b6976ff5dbacd5f5f246ebc1c08",
+  "intervalo": [
+    56,
+    136
+  ],
+  "total_paginas_abertas": 81,
+  "metodo": "Todos os21mosaicos realmente abertos, quatro páginas por mosaico a450px por página; cinco páginas também abertas em resolução individual. V14 restrito à diagramação da integração, sem releitura completa das regras.",
+  "paginas": [
+    {
+      "pagina": 56,
+      "sha256_png": "0b7c08279fad5bdae986ba1d9e43b1381a07df4eb4f382bcd7a0d372f45415a5",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-056.png",
+      "observacoes": "Abertura de criação e quadro de etapas",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 57,
+      "sha256_png": "0059249df97e7b0ce108f0437c7b318ee2c4997552c0f679dd3dea62cd10cd1d",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-056.png",
+      "observacoes": "Quadro de Caminhos, treinos e subtítulos",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 58,
+      "sha256_png": "d943dfcacd4bcd812101629921d5fa4aad2081802d6359c2073d82cef091cd07",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-056.png",
+      "observacoes": "Rotas, técnica e equipamento inicial",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 59,
+      "sha256_png": "9fdb982bce2537fd6a0818850488b9a17b944d34b4d8675a332e4d832bf1ba09",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-056.png",
+      "observacoes": "Valores e ficha de Kaori",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 60,
+      "sha256_png": "24333dd52d7977742f361eb6a667354399cf7653a81d7364cba5d57656dec76b",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-060.png",
+      "observacoes": "Cena, posições e ficha da maldição",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 61,
+      "sha256_png": "1b8b33773da9556bd4eac3d36a466b1ff7164f6edd249ebacdc93ae93a1f83e4",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-060.png",
+      "observacoes": "Combate e ficha pronta",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 62,
+      "sha256_png": "8b45cc6828039bc7db6937bf0ed9e07952bccc48ad134af3a3f619abe0ccb597",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-060.png",
+      "observacoes": "Fechamento do capítulo, com espaço em branco antes da próxima abertura",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 63,
+      "sha256_png": "dbd99b9697a18302cad3c2bebaa3b503955d42a27a2e97204364b7bb8e8ad3ac",
+      "metodo": "mosaico de quatro páginas a450px por página; ampliação individual do PNG100dpi",
+      "mosaico": "mosaico-060.png",
+      "observacoes": "Duas tabelas de Origens, ampliadas para confirmar a última linha e o rodapé",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 64,
+      "sha256_png": "e2d8d21f16c3be3f7ef567e8b0b4bbb1d8fb31666a3ebe40f5dada9bd35f5f15",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-064.png",
+      "observacoes": "Tipos de Legado e procedimentos",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 65,
+      "sha256_png": "730ee209d49da7ba2a458e90926f19f7b6be7cc86556c37f5b0137187332f681",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-064.png",
+      "observacoes": "Latente e suas entradas",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 66,
+      "sha256_png": "ffb86bcd64cddb68c59da46732c265a2dba7a22453bca266934f91fe5dafa142",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-064.png",
+      "observacoes": "Receptáculo e quadro de exemplo",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 67,
+      "sha256_png": "a6b94d48c14d1a78beeb8ead76d278cf95ef9a096f505f3a87e6b9282bfc3eda",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-064.png",
+      "observacoes": "Exceções e abertura de Descendente",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 68,
+      "sha256_png": "f4c844638ac6fa01c3cdfff4ffb4e874c53a1171796021f2eacc0e16aec28392",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-068.png",
+      "observacoes": "Legados do Descendente e exemplo",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 69,
+      "sha256_png": "3cfaf6903f812946532f8610fbb990475e8fcca5eef8f4efcdb759a8703e4027",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-068.png",
+      "observacoes": "Encarnado e Legados",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 70,
+      "sha256_png": "57f69da763f6cdfe5af2ff381ee870e67f8a05a8dc7205add73516f51fbb3889",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-068.png",
+      "observacoes": "Feto, exemplo e Legados",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 71,
+      "sha256_png": "b597e4bfceb97b3b91361108e8ea94110eb4a3d85ce0af6100d0f43db911b1d0",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-068.png",
+      "observacoes": "Sem Técnica e exemplo",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 72,
+      "sha256_png": "a129b9cb0fc55fce0b30e110bb89a4d8386fd9704f10ad077d32702a2714b6b7",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-072.png",
+      "observacoes": "Corpo e tabela de reparo, sem linha cortada",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 73,
+      "sha256_png": "b7526ecb4b4f3aee6bdf3678529cb1f20173b8dc8d44271ef9c3c4dccb29abdf",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-072.png",
+      "observacoes": "Continuação de reparo e configurações",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 74,
+      "sha256_png": "fb1c0c43d7058411da4f73369b0794c9287c9c138a0aa2f6b66238851b8a063c",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-072.png",
+      "observacoes": "Legados do corpo e abertura de Restrição",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 75,
+      "sha256_png": "b606e3143b353cd451c34e88554aaa9b0b1002c3de320226ba63273371e1f9fd",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-072.png",
+      "observacoes": "Ramos e suas entradas",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 76,
+      "sha256_png": "439e85b791d2ec5250002a985b6ce280429b6a6b549e282af8b448e1009df8c9",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-076.png",
+      "observacoes": "Benefícios dos ramos",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 77,
+      "sha256_png": "243d2b4288ca18e9cb3f04168055cca097bc6b716ffc68890cd4e0c65e520659",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-076.png",
+      "observacoes": "Criação de Legado e exemplos",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 78,
+      "sha256_png": "41ea66720dfd947cb14431b6c4a2c003e1640756c4725fecadb973345a029a07",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-076.png",
+      "observacoes": "Fechamento de Origens, espaço restante antes do novo capítulo",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 79,
+      "sha256_png": "9ba7eeb4694d5ed09a05e7a3b75f32519f2822ae3266daa13ce574403d914ad3",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-076.png",
+      "observacoes": "Abertura de Caminhos, quadros de Bastião",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 80,
+      "sha256_png": "b546987da38207ee82687056a9cfd90250d611bb51546e93af277c979bb27bd5",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-080.png",
+      "observacoes": "Provocação, defesa e recuperação",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 81,
+      "sha256_png": "de08b7b645eab37ed7be7f0b9160bf3b29656f1d10bcce986b2f31059582dbc5",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-080.png",
+      "observacoes": "Transferência e abertura de Muro",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 82,
+      "sha256_png": "d8a0270606a49471b71c6ba7dd14a99337c39d68251a9dc5aa5fc5330831998e",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-080.png",
+      "observacoes": "Quadro de Muro e habilidades",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 83,
+      "sha256_png": "a7d6dcf869f57bb3ec1bab062399a943614ceca3c0f204dcc159beac75c7a0e3",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-080.png",
+      "observacoes": "Punho e Mão Pesada",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 84,
+      "sha256_png": "2d890f89474790676b8e988e15fb9758a1bc8c38ceb586b008b2eb26360d3d02",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-084.png",
+      "observacoes": "Arrastão e tabela de custos",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 85,
+      "sha256_png": "e5a2bcbb2788a11b0c8f3ce4b8b6aa416c7d5f20bf77a4851ac9c174a39c6090",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-084.png",
+      "observacoes": "Combatente e Oportunista",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 86,
+      "sha256_png": "f946ab29a093a45a4f3d2e45385e21f89a83c611bd4be6bd848fbdcd4c6375af",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-084.png",
+      "observacoes": "Contra a Parede inteira, seguida de branco antes de Vanguarda",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 87,
+      "sha256_png": "6dc78d549a2d4f30c28361bd15d2028d5e259d84d61abd191519e66b4a5598b6",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-084.png",
+      "observacoes": "Quadros de Vanguarda e início da Sequência",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 88,
+      "sha256_png": "62ccd26762fc2ecdfbdd0ba6f4aa983c8e4a9cc1269df540736c57e6044423eb",
+      "metodo": "mosaico de quatro páginas a450px por página; ampliação individual do PNG100dpi",
+      "mosaico": "mosaico-088.png",
+      "observacoes": "Tabela de Conduções ampliada; células e margens íntegras",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 89,
+      "sha256_png": "55cfdbb82d977817085243a87bf407142e9549d16b5cd4824317e4f677ffd137",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-088.png",
+      "observacoes": "Conclusões e início da tabela de Manhas",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 90,
+      "sha256_png": "d8260fb5a560db671a3600b5c34b7f202a8cd689627c68bfc9cdbb745fc398dd",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-088.png",
+      "observacoes": "Continuação da tabela com cabeçalho repetido, Estocada",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 91,
+      "sha256_png": "91c3deb3149b3ad1c7d9c7932601f274719654826315d1a3635a25c8254c3177",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-088.png",
+      "observacoes": "Conclusões de feitiço",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 92,
+      "sha256_png": "7301f1ec5e62155c1ba618478187913aa479ada1d7980716c9a1d07ef1ce4673",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-092.png",
+      "observacoes": "Batedor e Yumi",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 93,
+      "sha256_png": "5d5a2789ecce88eee22dc7ae6ed0ca318827c71c057f2fad7636482ad6ae5ebf",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-092.png",
+      "observacoes": "Conduções e conclusões Yumi",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 94,
+      "sha256_png": "3e4b69c7780b4e7e51a7d94b9f3e6cd15d1f5523ffca565344c5fcd66886ddd4",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-092.png",
+      "observacoes": "Leituras e abertura de Besta",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 95,
+      "sha256_png": "33488e74039af1b31f3631ea20fce50e8dd219f210c389cace9de84fee034b76",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-092.png",
+      "observacoes": "Besta, conclusões e preparação",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 96,
+      "sha256_png": "844b19c1ae95ea3bf7db6184e3d5298de0ca0ca8ddb5b0edee92d2eefc8cacb5",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-096.png",
+      "observacoes": "Arma de Fogo e conclusões",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 97,
+      "sha256_png": "18412037f8403a97a2a6719a90af71b64ac1cdebfeab942870b80b3d0c37d087",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-096.png",
+      "observacoes": "Retirada e continuidade",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 98,
+      "sha256_png": "5e0cdbf9e31b0fcc48538c0df967233ae5d571b236254aad8c1506e732d9a2b7",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-096.png",
+      "observacoes": "Executor e quadro de níveis",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 99,
+      "sha256_png": "bc686543b983af0278aad803e33e598cdb22e3a6d8be4506dd38616d34a0fe97",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-096.png",
+      "observacoes": "Intenções e fechamento do Executor",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 100,
+      "sha256_png": "9aed9c0d9c52e990cd15f70192f9394202277a0453fa6eb23d1a196fccbbc054",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-100.png",
+      "observacoes": "Guia e seus quadros",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 101,
+      "sha256_png": "3fd7596f2d28b6ec9fa432b0d6dd7f4478367ac657271434d83ae34a3f642b63",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-100.png",
+      "observacoes": "Aberturas e resposta",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 102,
+      "sha256_png": "2429e7584d0438325de4c6b386ae6f7c9af4246655d1b174f6ca478423e585ee",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-100.png",
+      "observacoes": "Quadro das respostas e planos",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 103,
+      "sha256_png": "13a0d968fc554373dd324c93ffdd81e9781b59820f479d0a333141ee1b06771f",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-100.png",
+      "observacoes": "Plano e abertura de Arquiteto",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 104,
+      "sha256_png": "5fd570fb5f001c542a6d65d9ed3900074fa346e46441083824c0b24782e3ece2",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-104.png",
+      "observacoes": "Duas tabelas de Obras",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 105,
+      "sha256_png": "e3bcf5815cc76ba93addd0e888600e5131c05e4206ebe71107df3e91c7606e14",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-104.png",
+      "observacoes": "Tabela das Obras maiores",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 106,
+      "sha256_png": "3ac0ebf439640a47020340fe83ddadf5ffa522372e545a7fead4963dd403311d",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-104.png",
+      "observacoes": "Analista e tabela de confirmação",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 107,
+      "sha256_png": "17f65b4017a913bbde90e81d34f028f7b4e32bc047f5363d74b07100cafd96d7",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-104.png",
+      "observacoes": "Brecha e padrão",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 108,
+      "sha256_png": "41d9dd4f731bbf96d6456bcac6b91653a1ba55b023e4023c1e3021b8f9fcc61e",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-108.png",
+      "observacoes": "Socorrista e tratamento",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 109,
+      "sha256_png": "62f4825ae9a9529a1b38a0a92fc7ffafd94fb5404a9359241dd68fb22ed0698d",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-108.png",
+      "observacoes": "Tabela de condições e Atendimento em Cadeia",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 110,
+      "sha256_png": "7f0a007686ae3193a4457263d6420e1e80adf1c99c85e9beb218c4f7fb3c7e9c",
+      "metodo": "mosaico de quatro páginas a450px por página; ampliação individual do PNG100dpi",
+      "mosaico": "mosaico-108.png",
+      "observacoes": "Dois parágrafos isolados do final de Atendimento em Cadeia",
+      "resultado": "defeito de distribuição observado"
+    },
+    {
+      "pagina": 111,
+      "sha256_png": "9ce6e201c8411ba25630f5645b81d49ed00a3e1d030ec8a3664d8afdc3675fea",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-108.png",
+      "observacoes": "Emanador e quadros",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 112,
+      "sha256_png": "5668b970aebea058035cfbbdae4a47ad624415bf6bdb49ff7e52df000268117c",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-112.png",
+      "observacoes": "Desdobramento e tabela de remodelagem",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 113,
+      "sha256_png": "34afa4ccea7c453e7a247876c8eff6735b8d42cc034bdccb93672ac5928248c9",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-112.png",
+      "observacoes": "Tabela de Modulações",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 114,
+      "sha256_png": "1504e50262949665cd5d94837c1ed57776d3c96ecbd5b8001bb92d644d4481f4",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-112.png",
+      "observacoes": "Afinidade, forma e composição",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 115,
+      "sha256_png": "d0488e494155c0a8c40cebecd1ccceda9fdaea2cfb23b653554d58cd4e2f1eac",
+      "metodo": "mosaico de quatro páginas a450px por página; ampliação individual do PNG100dpi",
+      "mosaico": "mosaico-112.png",
+      "observacoes": "Condutor e progressão ampliados; as quatro linhas da tabela estão completas",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 116,
+      "sha256_png": "343b6ee23517cc01cbd2679ee3692c1a116095f30f17628ecc7e5ad59a03e500",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-116.png",
+      "observacoes": "Arma Condutora e Cadência",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 117,
+      "sha256_png": "4c48b00328deecff7c6bbb2b12dfa73075442fdc9c5cafdd3d7eaa823f4c9984",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-116.png",
+      "observacoes": "Propriedades e vínculo",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 118,
+      "sha256_png": "54b31a701c971e1c102096bc49539103f6585297364c9c0615f94a302c21354c",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-116.png",
+      "observacoes": "Manifestação e abertura de Ressonante",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 119,
+      "sha256_png": "a81138269cbc7fc33fd20b2969381208ecea1f622d06beeb0c2312f43d07f691",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-116.png",
+      "observacoes": "Quadro de Ressonante e reaproveitamento",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 120,
+      "sha256_png": "4c30f0b689711505732ed5e94a195bbd060967aa53206e9e0595a16cbc61f85f",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-120.png",
+      "observacoes": "Contraponto, reverberação e acorde",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 121,
+      "sha256_png": "5a96115af146e28d2065b3617bed408c249c131d4bd911b70d4547265cc8d69a",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-120.png",
+      "observacoes": "Catalisador e seu quadro",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 122,
+      "sha256_png": "0162e570b6ba1548349e022180dfd136519050ee4efdcc7842b0468d38bc36c8",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-120.png",
+      "observacoes": "Correção, sobrecarga e Fluxo Contínuo",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 123,
+      "sha256_png": "8088bd9c869c09f977cf7bd7169e032b866276a4efb10839b1470fce0eef97ea",
+      "metodo": "mosaico de quatro páginas a450px por página; ampliação individual do PNG100dpi",
+      "mosaico": "mosaico-120.png",
+      "observacoes": "Caixa de exemplo isolada do Fluxo Contínuo",
+      "resultado": "defeito de distribuição observado"
+    },
+    {
+      "pagina": 124,
+      "sha256_png": "cd48a49dcd1f9fec2bb6ff53c507b041e8037b54837e5e41207d93ecc88a05f2",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-124.png",
+      "observacoes": "Evocador e quadros",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 125,
+      "sha256_png": "678cb68e12eb6e934a844601a2650a8c8889dfd4c59ee5b79ef58d7e33fa4c86",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-124.png",
+      "observacoes": "Vínculo e usos",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 126,
+      "sha256_png": "34db46bff2ec2613701678c1c18ce89402dcfe11bfa4cff2aa33bde4f5195f0f",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-124.png",
+      "observacoes": "Aprimoramentos e intervenções",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 127,
+      "sha256_png": "611d7b72ae8d4ce57d3452255c4d0673b1244579a5dffb1bac94b9ab77c797f8",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-124.png",
+      "observacoes": "Intervenções de posição e recolhimento",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 128,
+      "sha256_png": "2e7fde2b4f5c5a919136fa6fa4af227fd539928f6025f5d5d21516357b77dbe3",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-128.png",
+      "observacoes": "Quadro de atuação complementar",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 129,
+      "sha256_png": "f5d1751fb86888f6239f683b0bcbc1bad08bae2fcc4b523da98d411850d755ce",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-128.png",
+      "observacoes": "Eficiência, tabela e especial",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 130,
+      "sha256_png": "40915d102bc00955b1c0b3e93cdc541dacfc2c0d5a42d1731f558a6d509011df",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-128.png",
+      "observacoes": "Especial e quadro da Trilha Principal",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 131,
+      "sha256_png": "05b140f747a3486d5b4662c672256ffdfed091cb4108cf3948fc70e8b020aafe",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-128.png",
+      "observacoes": "Repertório e especial",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 132,
+      "sha256_png": "181bcadea4d3920b4060c956ab96e03b795c7a2755635b821ac7cb243a7dea6c",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-132.png",
+      "observacoes": "Quadro de substituição e intervenções",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 133,
+      "sha256_png": "53f19f9f9058b8e041768789825e275a637b69b4c7685f1dd823ad0a09f906ed",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-132.png",
+      "observacoes": "Tabela de teto de vida temporária",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 134,
+      "sha256_png": "f1118da0bca1b542049c94126d998995a53d2808a669b9f1255b829279364d46",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-132.png",
+      "observacoes": "Tabelas de continuidade e intervenção reflexa",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 135,
+      "sha256_png": "ea21ac1fa482189a8cdacc7c167ed147f16f5df851648ae871315f7476327794",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-132.png",
+      "observacoes": "Parceria e quadro de progressão",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 136,
+      "sha256_png": "ed59e56289e131e7e604afccc9b53541b7eea5260078fe8834a981a9f694d628",
+      "metodo": "mosaico de quatro páginas a450px por página",
+      "mosaico": "mosaico-136.png",
+      "observacoes": "Atuação em parceria e quadro de ações",
+      "resultado": "sem defeito visual observado"
+    }
+  ],
+  "achados": [
+    {
+      "id": "VIS-C01",
+      "pagina": 110,
+      "prioridade": "P2",
+      "achado": "Dois parágrafos finais de Atendimento em Cadeia isolados no topo, com quase toda a página vazia antes de Emanador.",
+      "sugestao": "Redistribuir o encerramento ou manter a habilidade inteira na página seguinte, sem reescrever regra."
+    },
+    {
+      "id": "VIS-C02",
+      "pagina": 123,
+      "prioridade": "P2",
+      "achado": "Apenas uma caixa de exemplo de Fluxo Contínuo no topo, separada da habilidade da página122; quase90% de branco.",
+      "sugestao": "Manter o exemplo junto da habilidade ou redistribuir esse fechamento antes de Evocador."
+    }
+  ],
+  "observacoes_nao_bloqueadoras": [
+    "Página86 encerra Bastião com uma habilidade inteira e grande sobra; conserva limite semântico entre Caminhos.",
+    "Tabelas continuam com cabeçalho repetido quando atravessam páginas; não observei linhas cortadas."
+  ],
+  "limites": [
+    "Não substitui teste impresso ou leitura com pessoas.",
+    "Sem alegação de V14 para páginas fora de56–136.",
+    "Futura prova exige reabrir deltas; o presente parecer pertence ao SHA acima."
+  ]
+}

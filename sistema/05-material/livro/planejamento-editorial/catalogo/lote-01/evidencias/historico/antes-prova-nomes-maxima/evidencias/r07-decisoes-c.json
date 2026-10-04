@@ -1,0 +1,571 @@
+{
+  "data": "2026-10-03T17:20:42.906395-03:00",
+  "fonte_sha256": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96",
+  "r06_sha256": "a381ff3ae9a8460732658875a63e61caa604c12f617b86be0ac78409a334e7b8",
+  "candidata_sha256": "b4e77bf662dbc2c3b99e198075af98b412c54c82b59e1239f1380a147bb5e85a",
+  "escopo": "18 Restrições nomeadas + Restrição Própria; 16 Passivas nomeadas + Regra Própria + Passiva Própria. Passiva Livre permanece explicada em R06 e é delimitada novamente só na interface com criações próprias.",
+  "rotulos": {
+    "E": "Editorial: explicita regra preservada.",
+    "I": "Interpretação conservadora de lacuna ou interface.",
+    "M": "Mudança mecânica ou fechamento que altera leituras possíveis; candidata revisável."
+  },
+  "metodo": "Leitura completa dos dois catálogos de 40-fundamento.md; conciliação dirigida com R06, peças mecânicas e R07 A/B. Não houve playtest nem avaliação por leitores humanos.",
+  "limites": "Regras originais do Projeto M. Sem alegação de cânone. Peso da Presença e Contramedida contêm fechamentos novos aceitos pelo parent para candidatura; nomes, custos de aquisição e níveis preservados. Revisão de Morrendo e Integridade fica pendente.",
+  "decisoes": [
+    {
+      "id": "R07-C-01",
+      "nome": "Corpo a Corpo",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 823,
+        "ancora": "Corpo a Corpo"
+      },
+      "antes": "| `Corpo a Corpo` | `Média` | `Projétil` vira `Toque` (1,5 m). `Explosão` vira `Aura`, centrada em você. `Cone` e `Linha` já saem de você, então não podem pegar esta. |",
+      "depois": "**Devolução: Média.** Projétil se torna **Toque**, com alcance de 1,5 m. Explosão se torna **Aura**, centrada em você. A Restrição já faz parte dessas duas Formas e ocupa uma das duas escolhas disponíveis.\n\nCone e Linha não podem recebê-la. Uma Melhoria ou outro benefício não pode ampliar a distância do Toque nem afastar a origem da Aura mantendo essa devolução. Classe 0 e Técnica Máxima conservam essas exigências, mas não recebem os pontos.",
+      "tipo": "E/I",
+      "motivo": "Explicita que Toque e Aura já contêm a Restrição; preserva Classe 0 e Máxima sem devolução, e veda anular o alcance cobrado. R06: Restrições, Classe 0, Técnica Máxima; peça 27:157.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-02",
+      "nome": "Atrasar",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 824,
+        "ancora": "Atrasar"
+      },
+      "antes": "| `Atrasar` | `Média` | Custa a rodada inteira (Ação Completa): você não se move, não usa ação bônus e não faz mais nada naquele turno. |",
+      "depois": "**Devolução: Média.** A conjuração exige **Ação Completa**: compromete sua Ação Padrão, sua Ação Bônus e sua Ação de Movimento daquele turno. Você precisa ter esses recursos disponíveis e não pode se deslocar voluntariamente nesse turno, antes ou depois da conjuração. Sua Reação permanece disponível.\n\nNão combina com Parado, Rápido ou Reação. Uma Liberação Máxima já exige Ação Completa. Atrasar não lhe concede devolução adicional.",
+      "tipo": "M/sincronização",
+      "motivo": "Corrige o texto antigo que retirava toda ação: Ação Completa preserva Reação. Fecha disponibilidade das ações e movimento voluntário antes/depois; não dá devolução sobre custo já obrigatório. R06: Liberação Máxima; peça 03:49.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-03",
+      "nome": "Parado",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 825,
+        "ancora": "Parado"
+      },
+      "antes": "| `Parado` | `Leve` | Você não se move no turno em que conjura. A ação bônus continua sua. |",
+      "depois": "**Devolução: Leve.** Você não pode ter se deslocado voluntariamente no turno da conjuração, nem fazê-lo depois dela nesse turno. Conserva sua Ação Bônus. Movimento imposto por outra criatura não impede o uso nem desfaz um feitiço já resolvido.\n\nNão combina com Atrasar ou com a Melhoria Reação. Também não devolve pontos quando outra exigência da própria aplicação já impede seu movimento durante todo o turno. Em conjurações adiadas, confira a exigência no turno do pagamento e no do disparo, conforme as Melhorias de Tempo.",
+      "tipo": "I/M",
+      "motivo": "Explicita turno inteiro e movimento voluntário, sem falha retroativa por empurrão. Sincroniza pagamento/disparo com peças Tempo da R07. A resolução para movimento imposto não estava escrita.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-04",
+      "nome": "Gesto",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 826,
+        "ancora": "Gesto"
+      },
+      "antes": "| `Gesto` | `Leve` | Precisa das duas mãos livres e de falar em voz audível. |",
+      "depois": "**Devolução: Leve.** A conjuração exige **as duas mãos livres e fala audível**. Se não puder cumprir as duas partes, não pode usar o feitiço.\n\nUm Selo que exige um gesto simples com uma mão ainda pode receber essa exigência adicional. Se o Selo já exige as duas mãos livres e a fala, não há devolução. Silencioso não pode retirar essas exigências mantendo os pontos de Gesto.",
+      "tipo": "E/I",
+      "motivo": "Compara a exigência integral com Selo. Selo simples de uma mão não impede uma exigência realmente maior. Silencioso não elimina custo vendido por Gesto. R06: Selo e Passivas; Restrições.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-05",
+      "nome": "Carregar",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 829,
+        "ancora": "Carregar"
+      },
+      "antes": "| `Carregar` | `Média` | Você gasta um turno carregando o feitiço antes de disparar. Se tomar dano nesse meio-tempo, faz um Teste de Resistência de Espírito contra a CD de quem te feriu para manter. Se falhar, perde o feitiço. Carregar não é concentração: o feitiço ainda não saiu. |",
+      "depois": "**Devolução: Média.** No primeiro turno, gaste **Ação Padrão** para iniciar a carga e pague o PE do feitiço. Você conserva Movimento e Bônus. No seu turno seguinte, use a ação de conjuração indicada na ficha para liberar o feitiço. Se não o liberar até o fim desse turno, perde a carga e o que pagou por ela.\n\nEnquanto carrega, cada ocorrência de dano exige um **TR Espírito contra a CD de quem o feriu**. Uma falha perde a carga e os recursos já pagos. Mão Firme dispensa esse teste para dano de até 10, por ocorrência.\n\nCarregar não ocupa sua Concentração. Depois da liberação, um efeito que exija Concentração segue seu procedimento normal, com TR Vigor ao sofrer dano. Carregar não combina com Armado.",
+      "tipo": "M",
+      "motivo": "Primeiro turno Padrão e PE; turno seguinte ação da ficha; expiração ao fim desse turno. Fonte fixa a Padrão inicial, o teste Espírito e perda de pagamentos, mas não define liberação, pagamento inicial ou expiração. Fechamento candidato evita carga indefinida e uma liberação gratuita não expressa. Preserva Movimento/Bônus no preparo e separa Concentração. manual/11-o-turno.md:145–158; peça03:61–81.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-06",
+      "nome": "Sangra",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 827,
+        "ancora": "Sangra"
+      },
+      "antes": "| `Sangra` | `Média` | Você toma 2 × Classe de dano que não pode ser reduzido. |",
+      "depois": "**Devolução: Média.** Ao usar o feitiço, você sofre **2 × Classe de dano que não pode ser reduzido**, mesmo se errar ou os alvos resistirem. Esse custo faz parte de cada conjuração.",
+      "tipo": "I",
+      "motivo": "Custo de dano cobrado ao usar, mesmo que a aplicação não acerte. Não inventa tipo de dano nem exige perda direta de PV ignorando vida temporária.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-07",
+      "nome": "Recuo",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 828,
+        "ancora": "Recuo"
+      },
+      "antes": "| `Recuo` | `Leve` ou `Média` | Você fica com uma condição até o fim do seu próximo turno. Ela devolve o nível dela: uma condição `Leve` devolve `Leve`, uma `Média` devolve `Média`. Nível `Pesada` não entra, porque Restrição nunca devolve `Pesada`. |",
+      "depois": "**Devolução: Leve ou Média.** Escolha uma condição na montagem. Ao conjurar, você recebe essa condição até o fim do seu próximo turno, mesmo se o feitiço não afetar ninguém. A devolução tem a gravidade da condição escolhida. Condições Pesadas não entram.\n\nUse as condições de **Dano e condições**. A escolha precisa prejudicar o personagem: uma imunidade que impeça a condição elimina a possibilidade de receber pontos por ela. Não some outra Restrição que cobre a mesma consequência.",
+      "tipo": "E/I",
+      "motivo": "Escolha fixa na montagem, condição aplicada independentemente do acerto, não comprável se sempre impedida por imunidade. Mantém gravidade Leve/Média e prazo até fim do próximo turno.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-08",
+      "nome": "Fraqueza",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 833,
+        "ancora": "Fraqueza"
+      },
+      "antes": "| `Fraqueza` | `Leve` ou `Média` | Depois de usar, você fica com desvantagem num dos quatro Testes de Resistência, escolhido na montagem, até o fim da cena. Vigor ou Intelecto: `Leve`. Físico ou Espírito: `Média`. |",
+      "depois": "**Devolução: Leve ou Média.** Escolha um dos quatro TR na montagem. Depois de conjurar, você faz esse TR com **desvantagem até o fim da cena**. Vigor ou Intelecto devolvem Leve. Físico ou Espírito devolvem Média.\n\nNovos usos mantêm a desvantagem. Não criam outra penalidade. Se outro benefício cancelar sempre a desvantagem, reveja a Restrição: ela precisa continuar cobrando uma dificuldade real.",
+      "tipo": "E/I",
+      "motivo": "Mantém valores distintos dos quatro TR, limite da cena e não empilhamento da própria desvantagem. Revisão de custo real se outra capacidade a cancela sempre.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-09",
+      "nome": "Peso Morto",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 839,
+        "ancora": "Peso Morto"
+      },
+      "antes": "| `Peso Morto` | `Leve` | Seu deslocamento cai pela metade até o fim do próximo turno, e você recebe `−1` no seu Teste de Resistência Físico. |",
+      "depois": "**Devolução: Leve.** Depois de conjurar, seu **deslocamento cai à metade** e você sofre **−1 nos TR Físicos**, até o fim do seu próximo turno. Os dois efeitos pertencem à mesma Restrição. Um novo uso renova o prazo, sem acumular reduções ou penalidades iguais.",
+      "tipo": "I",
+      "motivo": "Atribui o mesmo prazo aos dois efeitos e renova sem multiplicar penalidades iguais. Fonte mencionava prazo apenas junto do deslocamento, deixando −1 sem fim explícito.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-10",
+      "nome": "Frágil",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 834,
+        "ancora": "Frágil"
+      },
+      "antes": "| `Frágil` | `Leve` | Se você tomar dano antes do seu próximo turno, o efeito do feitiço acaba na hora. Só serve em feitiço que deixa algo durando. |",
+      "depois": "**Devolução: Leve.** Se você sofrer dano **antes do começo do seu próximo turno**, o efeito que este feitiço mantém termina imediatamente. Só cabe em uma aplicação que deixe um efeito em andamento.\n\nNão há teste para impedir esse encerramento. Frágil não é Concentração e Mão Firme não o protege. Encerrar o efeito não desfaz dano ou deslocamento que já tenha ocorrido. Num feitiço inteiramente instantâneo, não há efeito futuro a perder nem devolução.",
+      "tipo": "E/I",
+      "motivo": "A fonte exata diz antes do seu próximo turno, sem FIM. Começo explicita essa janela. Efeito contínuo termina sem TR; Mão Firme não substitui sua cláusula por concentração. Resultados instantâneos anteriores não são desfeitos.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-11",
+      "nome": "Sem Volta",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 840,
+        "ancora": "Sem Volta"
+      },
+      "antes": "| `Sem Volta` | `Média` | Se o feitiço não acertar ninguém, você não conjura nada no seu próximo turno. |",
+      "depois": "**Devolução: Média.** Se a resolução do feitiço terminar sem acertar nem afetar nenhum alvo, você **não pode conjurar no seu próximo turno**, nem mesmo Classe 0. Basta um ataque acertar. Numa aplicação por TR, basta um alvo sofrer um dos efeitos.\n\nNão cabe numa aplicação automática nem quando um efeito garantido no erro ou no sucesso do TR impede a falha completa. Por exemplo, causar metade do dano a todos que resistem elimina esse risco. Tudo ou Nada pode restaurá-lo. A restrição não cancela efeitos anteriores que você ainda mantenha.",
+      "tipo": "I/M",
+      "motivo": "Define falha completa em múltiplos alvos e exclui aplicação automática ou dano parcial garantido. Conserva bloqueio só no próximo turno e Classe0 incluída. A peça27:155 já reprova Sem Volta + Ritual de Meio Acerto por inexistir risco; estende o mesmo critério a Certeiro e metade no TR. Não pune a manutenção de efeito anterior.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-12",
+      "nome": "Uma Vez",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 831,
+        "ancora": "Uma Vez"
+      },
+      "antes": "| `Uma Vez` | `Leve` | Uma vez por cena. |",
+      "depois": "**Devolução: Leve.** Você pode conjurar este feitiço **uma vez por cena**. A tentativa consome o uso, mesmo se errar, for interrompida ou não afetar ninguém. Ampliar a Classe não cria outro uso.",
+      "tipo": "I",
+      "motivo": "Tentativa e interrupção consomem o uso; ampliar Classe não cria outro relógio. Fecha uma vez por cena sem transformar em uma vez por versão ampliada.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-13",
+      "nome": "Condicional",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 832,
+        "ancora": "Condicional"
+      },
+      "antes": "| `Condicional` | `Leve` ou `Média` | Só funciona quando uma condição de cena ou de alvo, escrita na ficha, é verdadeira: no escuro, marcado por você, abaixo de metade da vida, perto de água corrente. Falha em menos de uma cena a cada três: devolve `Leve`. Falha na maioria das cenas: devolve `Média`. |",
+      "depois": "**Devolução: Leve ou Média.** Escreva uma condição de cena ou de alvo que precisa existir para conjurar: estar no escuro, atacar alguém marcado por você ou estar perto de água corrente, por exemplo. Registre também seus limites; “perto de água” precisa dizer qual distância e o que conta como água corrente.\n\nA devolução depende da frequência com que a exigência **impede o uso** nas cenas da campanha. Se impedir em pelo menos metade delas, devolve Média. Nos demais casos em que houver dificuldade real, devolve Leve. Se a condição estiver sempre garantida, não devolve pontos. Confiram essa estimativa nas sessões seguintes.",
+      "tipo": "M",
+      "motivo": "Preenche lacuna entre menos de um terço e maioria. Média quando impede em pelo menos metade; Leve nos demais casos com dificuldade real. A referência de metade vem da Restrição Própria do mesmo catálogo. Impedir uso é distinto de falhar na rolagem.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-14",
+      "nome": "Aquecer",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 837,
+        "ancora": "Aquecer"
+      },
+      "antes": "| `Aquecer` | `Leve` | Não pode ser usado na primeira rodada do combate. |",
+      "depois": "**Devolução: Leve.** Você não pode usar este feitiço **na primeira rodada do combate**. A restrição considera a rodada do combate, não a primeira rodada em que você resolveu participar. Fora de combate, ela não impõe um atraso novo.\n\nEla não paga pontos de uma aplicação feita exclusivamente fora de combate, pois nunca a impediria.",
+      "tipo": "I",
+      "motivo": "Primeira rodada pertence ao combate, não à entrada de cada personagem. Não gera nova regra de espera fora dele, nem devolve em aplicação exclusivamente externa ao combate.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-15",
+      "nome": "Dívida",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 838,
+        "ancora": "Dívida"
+      },
+      "antes": "| `Dívida` | `Média` | Depois de usar, o próximo feitiço que você conjurar nesta cena custa **`2 ×` a Classe deste feitiço** de energia a mais — **mesmo que ele seja de Classe 0**. |",
+      "depois": "**Devolução: Média.** Depois de conjurar, anote uma dívida de **2 × a Classe usada neste feitiço**. Seu próximo feitiço nesta cena custa essa quantidade de PE a mais, **mesmo que seja Classe 0**. Pague a dívida junto com a conjuração seguinte e apague a anotação.\n\nSe essa conjuração também tiver Dívida, ela paga a anterior e cria sua própria dívida. A quantia pendente não é reduzida por uma vantagem que diminua ou dispense o custo normal do feitiço seguinte. Se a cena terminar antes de outro feitiço, a dívida termina com ela.",
+      "tipo": "M/I",
+      "motivo": "Explicita consumo, nova dívida na conjuração seguinte e fim da cena. Isola dívida de descontos do PE normal: a redação original exige energia a mais mesmo em Classe0, mas não define interação com dispensa/redução. Evita vender custo posteriormente apagado.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-16",
+      "nome": "Tudo ou Nada",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 830,
+        "ancora": "Tudo ou Nada"
+      },
+      "antes": "| `Tudo ou Nada` | `Leve` | Quem passa no Teste de Resistência não toma nada, em vez de tomar metade. Só em feitiços de Teste de Resistência. |",
+      "depois": "**Devolução: Leve.** Num feitiço que causa dano por TR, um alvo que passe no teste **não sofre dano**, em vez de sofrer metade. Os demais efeitos seguem sua própria resolução.\n\nNão cabe em ataques contra Defesa, em aplicações sem dano ou quando um sucesso no TR já evitava todo o dano: nesses casos, não acrescentaria uma dificuldade.",
+      "tipo": "E/I",
+      "motivo": "Somente feitiço com dano por TR que normalmente conserva metade no sucesso. Não afeta automaticamente outras peças, nem vende desvantagem já existente.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-17",
+      "nome": "Barulho",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 835,
+        "ancora": "Barulho"
+      },
+      "antes": "| `Barulho` | `Leve` | Todo mundo num raio de 90 m ouve, e sabe de onde veio. |",
+      "depois": "**Devolução: Leve.** Ao conjurar, você produz um som que pode ser ouvido **a até 90 m** e denuncia de onde veio. Quem puder ouvi-lo identifica a origem. A Restrição não concede audição a uma criatura surda nem faz o som atravessar um bloqueio que o impeça por completo.\n\nUma fala audível nas proximidades, como a de Gesto, não equivale automaticamente a esse alcance. Se seu Selo ou o próprio efeito já produz esse mesmo aviso a 90 m, Barulho não devolve pontos. Se a ficha tiver Silencioso, o ruído exigido por Barulho continua existindo.",
+      "tipo": "I",
+      "motivo": "Mantém 90 m e identificação da origem. Distingue fala local de aviso ampliado e preserva impedimentos físicos de audição. Não exige haver ouvintes para conjurar. Silencioso não elimina o ruído. Sem devolução se o Selo já exige o mesmo aviso.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-18",
+      "nome": "Assinatura",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 836,
+        "ancora": "Assinatura"
+      },
+      "antes": "| `Assinatura` | `Leve` | O feitiço deixa uma marca visível que dura 1 hora e aponta para você. |",
+      "depois": "**Devolução: Leve.** O feitiço deixa uma **marca visível por 1 hora**, que permite reconhecer você como seu autor. Registre na ficha onde a marca aparece e como ela o identifica. A marca não pode ficar deliberadamente escondida na montagem.\n\nEla denuncia a autoria. Não revela automaticamente sua posição atual nem permite acompanhá-lo à distância. Um efeito que apague ou disfarce sempre essa identificação elimina a dificuldade e sua devolução.",
+      "tipo": "M",
+      "motivo": "A frase antiga aponta para você é ambígua entre autoria e rastreamento direcional. Candidata fixa autoria identificável com marca visível por 1 hora e exclui posição atual. Exige local e aparência na ficha. A decisão precisa ser revista se a intenção original era rastreamento contínuo.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-19",
+      "nome": "Restrição Própria",
+      "categoria": "Restrição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 851,
+        "ancora": "Restrição Própria"
+      },
+      "antes": "| `Restrição Própria` | `Leve` ou `Média` | Uma desvantagem que não existe nesta lista. Escrita com o mestre antes da sessão, nunca no meio dela, e vale só para o feitiço onde nasceu. Conta no limite de duas Restrições e obedece as mesmas travas de todas as outras. |",
+      "depois": "**Devolução: Leve ou Média.** Escreva com o mestre uma dificuldade que as outras entradas não representem. Ela vale para o feitiço em que foi criada, ocupa uma das duas Restrições e precisa estar definida **antes da sessão**.\n\n| Campo | O que definir |\n|---|---|\n| Exigência ou consequência | O que a criatura precisa fazer ou sofrer. |\n| Momento | Quando conferir a exigência ou aplicar o custo. |\n| Duração | Até quando a consequência permanece. |\n| Devolução | Leve ou Média, conforme a dificuldade real. |\n| Compatibilidade | Se repete Selo, Forma, outra Restrição ou algo já obrigatório. |\n\nUse **Média** quando a dificuldade atrapalhar em pelo menos metade das cenas previstas. Nas demais situações com prejuízo real, use **Leve**. Sem uma situação plausível em que atrapalhe, não há devolução. Na dúvida, escolha Leve ou não conceda pontos. Nenhuma Restrição Própria devolve Pesada.\n\nUma limitação equivalente a Uma Vez, Condicional, Aquecer ou Dívida entra no grupo de frequência. Uma exigência de preparo ou um custo de vida não entra nesse grupo só por acontecer antes de conjurar.\n\nSe a proposta reunir duas dificuldades independentes, registre duas Restrições e respeite o limite. Se repetir o mesmo impedimento, conte a devolução uma vez. Ter duas consequências no mesmo instante não basta para torná-las iguais: Sangra e Barulho, por exemplo, cobram vida e exposição.\n\nDepois de três sessões em que o feitiço tenha sido usado, comparem a dificuldade prevista com o que aconteceu. Troquem uma Restrição que nunca tenha atrapalhado, mantendo uma ficha válida antes do próximo uso.",
+      "tipo": "M/I",
+      "motivo": "Completa a lacuna de frequência com mesma régua de Condicional; mantém máximo2, sem Pesada, sem redundância com Selo. Momento igual não torna dois custos iguais (vida + exposição); o critério é impedimento duplicado. Nem todo preparo é automaticamente frequência.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-20",
+      "nome": "Leitura",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 319,
+        "ancora": "Leitura"
+      },
+      "antes": "| `Leitura` | 1 | Você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m. |",
+      "depois": "Você identifica a **Classe e a Forma** de qualquer feitiço conjurado a até **18 m** de você. A informação não fornece a montagem completa, o custo de cada peça ou a localização de um alvo oculto.",
+      "tipo": "I",
+      "motivo": "Preserva qualquer conjuração até 18 m sem inventar requisito de vê-la. Limita a informação à concessão escrita: Classe e Forma, sem receita completa ou posição de alvos ocultos.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-21",
+      "nome": "Instinto",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 320,
+        "ancora": "Instinto"
+      },
+      "antes": "| `Instinto` | 1 | Você não é pego de surpresa enquanto estiver acordado. |",
+      "depois": "Você não é pego de surpresa enquanto estiver **acordado**. Isso não revela criaturas escondidas, não muda sua posição na iniciativa e não concede uma ação adicional.",
+      "tipo": "E/I",
+      "motivo": "Mantém o requisito de estar acordado e a proteção contra surpresa, distinta de revelar criaturas, mudar iniciativa ou ganhar ações.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-22",
+      "nome": "Raiz",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 321,
+        "ancora": "Raiz"
+      },
+      "antes": "| `Raiz` | 1 | Você não é movido à força nem derrubado contra a sua vontade. |",
+      "depois": "Você **não é movido à força nem fica Derrubado contra a sua vontade**. Pode aceitar um deslocamento ou se deitar por escolha própria. A Passiva não impede o dano de um efeito que também empurre ou derrube.\n\nRaiz não cria apoio sob seus pés: se o chão desaparecer, a queda segue suas regras. Esta proteção específica é uma exceção expressa do catálogo. Não autoriza criar imunidade a qualquer outra condição pelo mesmo preço.",
+      "tipo": "I",
+      "motivo": "Preserva a proteção publicada em Classe Passiva 1 como exceção expressa aos limites de criação livre. Não altera dano nem cria apoio no vazio. Nenhuma mudança de custo. A força relativa permanece para playtest. A mesma proteção consta das técnicas marciais prontas, peça 20, linhas 103 e 353.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-23",
+      "nome": "Mão Firme",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 322,
+        "ancora": "Mão Firme"
+      },
+      "antes": "| `Mão Firme` | 1 | Você não perde concentração nem carga por dano de 10 ou menos. |",
+      "depois": "Quando uma ocorrência de dano causar **10 pontos ou menos**, você não precisa fazer o teste para manter **Concentração ou Carregar**. Confira o dano de cada ocorrência depois das reduções aplicáveis. Não some todos os golpes da rodada.\n\nAcima de 10, faça o teste normal: Vigor para Concentração, Espírito para Carregar. A Passiva não protege Frágil nem outro efeito que termine por sofrer dano sem teste. Também não dispensa testes próprios de barreiras ou de disputas de domínio.",
+      "tipo": "E/I",
+      "motivo": "Cada ocorrência de dano até 10 dispensa o teste de Concentração (Vigor) ou de carga (Espírito). Não protege Frágil nem os testes próprios de domínio e barreiras. Fontes: peça 03, linhas 61–81; peça 11, linhas 644, 684 e 719.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-24",
+      "nome": "Farejador",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 323,
+        "ancora": "Farejador"
+      },
+      "antes": "| `Farejador` | 1 | Você sente se alguém conjurou num lugar nas últimas 24 horas, e de que Classe. |",
+      "depois": "Você sente se houve uma conjuração **no local onde está nas últimas 24 horas**, e identifica a Classe deixada por ela. Se houver vestígios de mais de uma Classe, reconhece essas Classes.\n\nA informação não revela quem conjurou, a montagem do feitiço, a hora exata ou o caminho que o autor tomou depois. Investigar essas questões segue as regras da cena.",
+      "tipo": "I",
+      "motivo": "Delimita o lugar ao local em que está. Preserva 24 horas e Classe, sem inventar raio numérico, teste ou ação adicional. Não amplia informação para autoria ou perseguição.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-25",
+      "nome": "Aviso",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 324,
+        "ancora": "Aviso"
+      },
+      "antes": "| `Aviso` | 1 | Você sabe qual foi o último feitiço que um inimigo à vista usou. |",
+      "depois": "**Passiva.** Ao ter um inimigo à vista, você sabe **qual foi o último feitiço que ele usou**, mesmo que não tenha presenciado aquela conjuração. Recebe o nome ou uma descrição suficiente para reconhecer a aplicação, não sua ficha completa.\n\nNão aprende esse feitiço nem descobre os demais do repertório. Esta é a Passiva Aviso. A Melhoria de mesmo nome tem outro efeito e é comprada separadamente.",
+      "tipo": "I",
+      "motivo": "Qualifica como Passiva sem renomear. Revela a última aplicação do inimigo visível mesmo se não observada anteriormente, sem receita completa. O homônimo da Melhoria fica registrado para a revisão futura de nomes.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-26",
+      "nome": "Fluxo",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 325,
+        "ancora": "Fluxo"
+      },
+      "antes": "| `Fluxo` | 2 | Ao conjurar Classe 3 ou mais, você ganha 2 × Classe de vida temporária. |",
+      "depois": "Ao conjurar um feitiço de **Classe 3 ou maior**, você recebe **2 × a Classe usada em pontos de vida temporária**. Uma conjuração concede a reserva uma vez, mesmo que alcance vários alvos ou produza vários ataques.\n\nEssa vida segue as regras gerais: não se soma a outra reserva, tem teto de metade da sua vida máxima e termina no fim da cena, salvo a permissão geral de preparação. Técnica Máxima não tem Classe própria e não ativa Fluxo por usar sua maior Classe para calcular preços.",
+      "tipo": "E/I",
+      "motivo": "Uma reserva por conjuração elegível, de 2 × Classe. Não inventa limite de usos. Mantém regras gerais de vida temporária. Técnica Máxima não possui Classe e não aciona Fluxo apenas por usar Classe como referência de preço. Fontes: manual 10, linhas 242–250; peça 11, linha 206.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-27",
+      "nome": "Recomposição",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 326,
+        "ancora": "Recomposição"
+      },
+      "antes": "| `Recomposição` | 2 | Uma vez por descanso curto, gasta a ação e recupera 5 × a sua maior Classe em vida. |",
+      "depois": "**Uma vez por descanso curto**, use **Ação Padrão** para recuperar **5 × sua maior Classe em pontos de vida**, até sua vida máxima. Não gasta PE. Recuperar vida não remove condições por conta própria.",
+      "tipo": "E",
+      "motivo": "Explicita Ação Padrão e ausência de PE. Preserva uma vez por descanso curto e recuperação de 5 × maior Classe, limitada aos PV máximos. Não remove condições.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-28",
+      "nome": "Segunda Natureza",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 327,
+        "ancora": "Segunda Natureza"
+      },
+      "antes": "| `Segunda Natureza` | 2 | Uma vez por dia, conjura um feitiço de Classe até metade da sua maior sem gastar PE. |",
+      "depois": "**Uma vez por dia**, você pode conjurar um feitiço conhecido de Classe até **metade da sua maior Classe, arredondada para baixo**, sem pagar seu custo normal de PE. Declare o uso antes de conjurar.\n\nVocê ainda gasta a ação indicada, cumpre o Selo e as Restrições e respeita o limite de conjurações do turno. Custos adicionais independentes, como uma Dívida pendente, continuam sendo pagos. O limite é por dia. Realizar um descanso não concede outro uso no mesmo dia.",
+      "tipo": "E/M",
+      "motivo": "Mantém uma vez por dia, diferente de descanso longo conforme peça 10, linha 213. Metade da maior Classe para baixo. Dispensa somente o custo normal de PE, preservando Dívida e custos independentes. Mantém ação, requisitos e momento de declaração.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-29",
+      "nome": "Eco",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 328,
+        "ancora": "Eco"
+      },
+      "antes": "| `Eco` | 2 | Quando você derruba um inimigo com feitiço, o próximo feitiço da cena custa metade. |",
+      "depois": "Quando um feitiço seu reduzir um **inimigo a 0 pontos de vida**, o próximo feitiço que você conjurar nesta cena custa **metade do seu PE normal, arredondada para cima**. Derrubado, a condição, não ativa Eco.\n\nVocê guarda uma redução por vez. Derrubar outros inimigos antes de gastá-la não acumula metades. Se Eco e Cobrança estiverem disponíveis juntos, aplique **uma única metade e consuma os dois benefícios** na próxima conjuração, inclusive Classe 0. Uma nova derrota provocada por essa conjuração pode conceder outra redução. O benefício não altera custos independentes, como Dívida, e não atravessa o fim da cena.\n\n> **Exemplo.** Um feitiço que custa 9 PE passa a custar 5. Se houver uma Dívida de 4 PE, o total será 9 PE. Dois inimigos derrotados pela mesma conjuração não reduzem o preço seguinte para um quarto.",
+      "tipo": "M/I",
+      "motivo": "Derrubar significa reduzir inimigo a 0 PV, não aplicar a condição Derrubado. A próxima conjuração consome o desconto, mesmo Classe 0. O PE reduzido arredonda para cima conforme peça 01, linha 429. Eco e Cobrança juntos aplicam uma metade, consumindo ambos. Essa interação é um fechamento mecânico candidato solicitado pelo parent para evitar um quarto de PE.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-30",
+      "nome": "Costura",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 329,
+        "ancora": "Costura"
+      },
+      "antes": "| `Costura` | 2 | Uma vez por cena, um aliado a até 9 m que cairia a 0 fica com 1. |",
+      "depois": "**Uma vez por cena**, quando um aliado a até **9 m** sofreria uma redução de seus pontos de vida a 0, você pode fazer com que ele permaneça com **1 ponto de vida**. Não exige ação nem Reação.\n\nCostura previne essa redução. Não recupera quem já estava a 0, não restaura Integridade e não encerra uma condição. Outras consequências do efeito continuam sendo resolvidas. Uma morte que não dependa de reduzir a vida a 0 não é impedida por esta Passiva.",
+      "tipo": "I",
+      "motivo": "Previne cair a 0, sem cura retroativa. Efeito opcional no gatilho, sem inventar Reação. Não recupera Integridade nem altera morte que ocorra sem redução dos PV a 0. Morrendo não foi redesenhado. Mantém o alcance de aliado da fonte.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-31",
+      "nome": "Contramedida",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 330,
+        "ancora": "Contramedida"
+      },
+      "antes": "| `Contramedida` | 2 | Como Reação, quando alguém conjura a até 9 m, gasta PE e sobe em 2 a CD daquele feitiço. |",
+      "depois": "Quando outra criatura a até **9 m** conjurar um feitiço, você pode gastar sua **Reação e 2 PE** para aumentar a **CD desse feitiço em 2**. Declare depois que a conjuração for anunciada e antes dos TR. O aumento vale para os TR contra aquela aplicação enquanto ela durar.\n\nA criatura precisa conjurar um feitiço que tenha CD. Contramedida não melhora ataques contra Defesa, não interrompe a conjuração e não reduz a CD de um inimigo. O mesmo feitiço recebe esse aumento no máximo uma vez, mesmo que mais de uma criatura tenha a Passiva.",
+      "tipo": "M",
+      "motivo": "A fonte diz gasta PE, sem número. Candidata fixa 2 PE e Reação, outra criatura a 9 m, +2 CD antes dos TR e no máximo um aumento por aplicação. Não permite uso próprio. Mantém auxílio à conjuração apesar do nome sugerir contramágica. O parent aceitou 2 PE como proposta, não como número recuperado da fonte.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-32",
+      "nome": "Peso da Presença",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 331,
+        "ancora": "Peso da Presença"
+      },
+      "antes": "| `Peso da Presença` | 2 | Inimigos fracos que começam o turno a até 6 m fazem Teste de Resistência ou ficam `Amedrontados` por uma rodada. |",
+      "depois": "Um inimigo da categoria **Capanga** que comece o turno a até **6 m** de você faz um **TR Espírito contra a CD da sua técnica**. Se falhar, fica **Amedrontado por você até o começo do próximo turno dele**. Como Amedrontado é uma condição Pesada, ele repete o TR no fim do turno e encerra essa aplicação se passar. Se permanecer na área, faz o teste do novo turno normalmente.\n\nO efeito não exige ação nem PE. A distância é conferida no começo do turno do alvo. Apenas entrar na área não dispara outro teste. Outras categorias de inimigo e personagens que não usam a categoria Capanga não são afetados por esta Passiva.",
+      "tipo": "M",
+      "motivo": "A fonte não define inimigos fracos nem o TR. Candidata usa a categoria Capanga já publicada (peça 26, linhas 33–47), TR Espírito contra a CD da técnica e prazo até o começo do próximo turno do alvo. Preserva a saída de condição Pesada no fim do turno (Dano e condições, lote 03-r3, linha 241). Não inventa nível relativo nem novo contador. A peça 11, linha 206, confirma que o gatilho basta. Parent aceitou o fechamento. Não houve playtest de força relativa.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-33",
+      "nome": "Escama",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 332,
+        "ancora": "Escama"
+      },
+      "antes": "| `Escama` | 3 | Escolha um tipo de dano que a sua Regra justifique. Você tem resistência a ele: todo dano daquele tipo cai pela metade. |",
+      "depois": "Escolha **um tipo de dano** que a Regra da sua técnica justifique. Você tem **resistência** a esse tipo: sofre metade do dano, com o arredondamento das regras de dano.\n\nDuas fontes de resistência ao mesmo tipo não dividem o dano duas vezes. Escama não concede imunidade nem resistência a outros tipos associados apenas pela descrição.",
+      "tipo": "E/I",
+      "motivo": "Preserva um tipo justificado, Classe Passiva 3 e resistência de metade do dano. Não acumula resistências iguais nem converte resistência em imunidade.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-34",
+      "nome": "Afinidade",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 333,
+        "ancora": "Afinidade"
+      },
+      "antes": "| `Afinidade` | 3 | Escolha um tema da sua Regra. Feitiços daquele tema ignoram cobertura `Parcial` e resistência ao seu tipo de dano. |",
+      "depois": "Escolha **um tema presente na Regra da sua técnica**. Seus feitiços desse tema ignoram **cobertura Parcial e resistência ao tipo de dano que causam**.\n\nRegistre quais aplicações pertencem ao tema. Afinidade não ignora coberturas **Boa ou Total**, imunidade, Redução de Dano ou uma passagem bloqueada, nem permite escolher um alvo que você não poderia escolher normalmente.",
+      "tipo": "E/I",
+      "motivo": "Tema escolhido fica registrado. Preserva cobertura Parcial e resistência. Coberturas Boa e Total, imunidade, RD, obstáculos e escolha de alvo não são ignorados, em consonância com Sem Cobertura.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-35",
+      "nome": "Reserva Profunda",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 334,
+        "ancora": "Reserva Profunda"
+      },
+      "antes": "| `Reserva Profunda` | 3 | Seu PE máximo sobe em 3 × a sua maior Classe. |",
+      "depois": "Seu **PE máximo aumenta em 3 × sua maior Classe**. Atualize esse acréscimo quando sua maior Classe aumentar.\n\nO aumento é do máximo: a Passiva não é uma ação de recuperação e não pode ser ativada repetidamente para repor PE. Recuperar os pontos segue **Descanso e recuperação**.",
+      "tipo": "E/I",
+      "motivo": "Preserva 3 × maior Classe de acréscimo ao PE máximo. Não é recuperação repetível. As substituições de Manejo e Kata continuam determinando o significado desse recurso e não recebem energia pessoal por esta redação.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-36",
+      "nome": "Regra Própria",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 335,
+        "ancora": "Regra Própria"
+      },
+      "antes": "| `Regra Própria` | 1 a 3 | Sua técnica impõe uma regra ao mundo. Ver abaixo. |",
+      "depois": "Técnicas baseadas em aposta, contrato, julgamento ou obrigação podem ter uma **Regra Própria**, definida com o mestre antes da campanha. Ela é uma Passiva específica, com aquisição diferente das demais.\n\n| Classe Passiva | Nível mínimo | Espaços ocupados |\n|---|---|---|\n| 1 | 1 | Nenhum. É a versão inicial. |\n| 2 | 7 | 1 espaço no total. |\n| 3 | 13 | 2 espaços no total. |\n\nAo melhorar de Classe Passiva 2 para 3, ocupe somente **mais um espaço**. Regra Própria não conta no máximo de cinco Passivas pagas. O nome se refere a este efeito. A **Regra do Fundamento** continua sendo a frase que define o funcionamento da técnica inteira.\n\n## Escreva o efeito\n\nComece por uma frase que a mesa consiga aplicar. Depois registre alcance, alvos, consequência e prazo quando forem necessários. A Regra Própria precisa cumprir estas condições:\n\n- **Gatilho verificável.** O grupo identifica quando acontece.\n- **Simetria.** A mesma consequência pode valer contra você, nas mesmas condições.\n- **Sem dano direto.** Ela pode produzir um recurso, uma condição ou uma obrigação com funcionamento definido.\n- **Limite por cena.** Escreva quantas vezes a consequência pode ser aplicada.\n\nCompare seu resultado com as Passivas da mesma Classe. Uma frase como “o alvo fica ligado a mim” ainda precisa dizer o que a ligação faz, quem afeta, quanto dura e como termina. A simetria e o limite não tornam qualquer consequência adequada à Classe Passiva 1.\n\n## Exemplo: aposta entre dois\n\n**Regra:** uma vez por cena, quando você e outra criatura aceitarem uma aposta sobre uma disputa real entre ambos, quem vencer recebe vantagem no próximo teste que fizer antes do fim da cena.\n\nOs dois precisam entender e aceitar a aposta antes da disputa. Registrem um resultado que possa ser verificado. Empate não concede vantagem e consome a aposta da cena. A Passiva não concede ações nem altera testes já resolvidos. Um resultado combinado antecipadamente não é uma disputa. Esta é uma proposta original de **Classe Passiva 1**, sujeita à aprovação da mesa.\n\nUma regra que imponha uma condição a alguém contra a vontade precisa declarar sua defesa ou seu TR, a CD, a duração e a saída. Não basta escrever a obrigação na narrativa para retirar as ações de outra criatura.",
+      "tipo": "M/I",
+      "motivo": "Preserva frase com gatilho verificável, simetria, ausência de dano direto e limite por cena. Acrescenta campos de funcionamento. Classe Passiva 1 é gratuita, Classe 2 ocupa um espaço, Classe 3 ocupa dois no total, sem contar nas cinco pagas. O exemplo de aposta é uma proposta original de Classe Passiva 1. Obrigações impostas a adversários precisam de resolução e saída explícitas.",
+      "publicado": false
+    },
+    {
+      "id": "R07-C-37",
+      "nome": "Passiva Própria",
+      "categoria": "Passiva",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 336,
+        "ancora": "Passiva Própria"
+      },
+      "antes": "| `Passiva Própria` | 1 a 3 | Qualquer outra coisa, montada com o mestre na escala das outras entradas desta tabela. |",
+      "depois": "**Classe Passiva 1, 2 ou 3. Custos e níveis da Classe escolhida.** Se o catálogo não representar a ideia, escreva o efeito com o mestre antes da sessão. Ele ocupa os espaços correspondentes e conta no máximo de cinco Passivas pagas.\n\n## Defina a aplicação\n\n| Campo | Pergunta que a ficha responde |\n|---|---|\n| Função | Qual benefício concreto ela concede? |\n| Gatilho | Quando funciona? O efeito é permanente ou depende de um acontecimento? |\n| Uso | Há ação, Reação, PE ou limite por cena, dia ou descanso? |\n| Alvos | Quem é afetado, a que distância e com quais requisitos? |\n| Resolução | Há teste, CD, duração ou forma de encerrar? |\n| Comparação | Qual Passiva da mesma Classe oferece um benefício semelhante? |\n\nInformação limitada ou um efeito pequeno e condicional costuma caber na Classe Passiva 1. Na Classe Passiva 2, compare o benefício e o seu gatilho: nem toda Passiva precisa de um contador, mas uma ativação fácil e repetida exige mais cuidado. A Classe Passiva 3 comporta efeitos permanentes de maior alcance, como resistência a um tipo de dano.\n\n## Limites\n\nUma criação própria não pode conceder bônus de acerto ou dano permanente e sem condição, uma ação extra por rodada, imunidade completa a um tipo de dano ou condição, cura ilimitada ou redução fixa do dano de todo golpe recebido. Exceções expressas do catálogo, como Raiz, não liberam versões gerais desses benefícios.\n\nA proposta precisa respeitar a Regra e as Famílias disponíveis. Não use uma Passiva própria para obter por outro nome um efeito de Família Fechada, eliminar sempre o custo de uma Restrição ou dispensar o Selo das conjurações sem uma permissão expressa.\n\nPassiva Própria e Regra Própria também não concedem acesso automático a entidades. Uma invocação exige que a técnica, o Manejo ou o Kata a preveja de forma explícita e coerente, além da aquisição e das regras de **Invocações**.\n\nA Passiva Livre permanece uma opção de aparência e expressão da técnica. Revelar informação protegida, vencer um obstáculo sem teste ou obter uma vantagem funcional exige uma escolha paga adequada. Retirar os números da descrição não transforma esse benefício em Livre.",
+      "tipo": "E/I",
+      "motivo": "Mantém Classes Passivas 1–3, seus níveis, custos e limite de cinco pagas. Exceções nomeadas não abrem permissão geral. Não contorna Família Fechada nem cancela permanentemente uma Restrição conservando seus pontos. Acesso a entidades depende de conceito explícito e coerente e da aquisição em Invocações, conforme nova instrução do usuário.",
+      "publicado": false
+    }
+  ]
+}

@@ -9,7 +9,7 @@ erro"*) e `sistema/05-material/livro/README.md` antes de mexer.
 
 O Mizuki abriu `sistema/05-material/livro/Projeto-M-Manual-da-Guilda-REVISAO.docx` no Word e
 revisou o texto — comentários, correções, reescrita de frase, cortes. **Esse `.docx` é saída,
-não fonte**: ele é gerado de `sistema/05-material/livro/manual/*.md` (18 capítulos numerados +
+não fonte**: ele é gerado de `sistema/05-material/livro/manual/*.md` (19 capítulos numerados +
 3 peças de frente) pelo `build_docx.py`. As edições dele precisam voltar para o markdown, e daí
 os quatro artefatos são regerados.
 

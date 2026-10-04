@@ -1,0 +1,194 @@
+PÁGINA 1
+PROJETO - M
+PERCEPÇÃO E FURTIVIDADE
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+1
+O que você percebe
+Proposta de regras comuns sobre a v0.331. Esta amostra completa procedimentos ainda dispersos no
+livro. Ações e exceções existentes foram conferidas; as escolhas novas estão no registro de decisões.
+Uma porta batendo no corredor é perceptível sem teste. Um fio preso ao batente pode passar
+despercebido. Peça uma rolagem quando houver algo incerto a descobrir e uma consequência para não
+notar.
+Ver, localizar e estar oculto
+Você enxerga uma criatura quando consegue vê-la com clareza suficiente para acompanhar suas ações.
+Você localiza uma criatura quando sabe o espaço que ela ocupa, mesmo sem enxergá-la: passos na sala
+escura podem denunciar esse espaço.
+Uma criatura está oculta de você quando escondeu sua presença ou posição e você ainda não a localizou.
+Isso é verificado para cada observador. Um vigia pode descobri-la enquanto outro continua sem saber
+onde ela está.
+Cobertura, escuridão e invisibilidade podem impedir que você veja alguém, mas não apagam
+automaticamente barulho, pegadas ou a posição que acabou de observar. Perder alguém de vista não
+exige esquecer seu último espaço conhecido; acompanhar um deslocamento escondido pode exigir uma
+busca.
+Luz e obstáculos
+ Situação
+O que muda
+Visão livre e luz suficiente
+Você percebe o que estiver evidente. Um
+detalhe escondido ainda pode exigir teste.
+Penumbra, fumaça leve ou vegetação rala
+Percepção baseada na visão tem desvantagem.
+Isso, sozinho, não esconde um corpo
+claramente exposto.
+Escuridão
+Você não enxerga o que estiver sem luz. Um
+alvo iluminado além do trecho escuro ainda
+pode ser visto.
+Fumaça densa ou obstáculo opaco
+Bloqueia a visão através dele. Ouvir ou usar um
+sentido apropriado continua possível.
+Cobertura protege de ataques conforme a regra já existente: Parcial concede +2, Boa concede +5 à
+Defesa e ao TR Físico contra o que vem do outro lado. Total impede escolher diretamente o alvo. Apenas
+a maior cobertura conta.
+Fumaça não segura uma flecha. Uma parede pode bloquear visão e ataques. Quando ambos existirem,
+aplique cada efeito uma vez. Uma técnica que exija enxergar o alvo continua exigindo isso mesmo que
+você saiba onde ele está.
+Visão às cegas, como a de Vulto, substitui a visão para perceber e atacar dentro dos limites próprios.
+Não concede leitura fina, visão através de paredes ou dispensa de um Selo que exija especificamente
+usar os olhos. Sentir Energia não recebe esses benefícios.
+Exemplo: Kaori ouve uma gaveta fechar numa sala escura. Percepção pode localizar quem se moveu ali.
+Investigar a mesa pode revelar o documento retirado. Nenhuma dessas descobertas permite enxergar
+através da parede.
+
+
+PÁGINA 2
+PROJETO - M
+PERCEPÇÃO E FURTIVIDADE
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+2
+Esconder
+Ação Padrão. Escolha um lugar ou percurso que permita esconder seu corpo e reduzir os sinais da sua
+passagem. Faça um teste de Furtividade: d20 + Destreza + maestria, se treinado.
+Quando é possível
+Uma parede, caixas que cubram seu corpo ou escuridão suficiente podem permitir a tentativa. Não é
+possível se esconder de alguém que o vê claramente. Estar atrás de uma cobertura Parcial ou Boa só
+permite a tentativa se a posição e sua postura realmente esconderem o corpo daquele observador.
+Você pode se esconder de uma criatura e continuar visível para outra. O mestre indica quais
+observadores podem perceber a tentativa e por quais sentidos; uma criatura sem acesso a nenhum sinal
+não faz uma detecção automática só por estar no combate.
+Uma rolagem, vários observadores
+Compare seu resultado à CD 8 + o bônus de Percepção de cada observador capaz de perceber sua
+tentativa. Esse bônus é Essência, mais maestria se ele for treinado, além dos modificadores permanentes
+aplicáveis. Empatar com a CD basta.
+Se o observador tiver vantagem ou desvantagem na percepção relevante, ajuste a CD em +5 ou -5,
+respectivamente. Use o sentido disponível: penumbra não prejudica alguém que pode ouvir claramente
+seus passos.
+Ao passar, você fica oculto daquele observador. Ao falhar, ele percebe onde você está. Anote o total de
+Furtividade: ele será a CD de uma busca posterior. Um novo observador compara sua CD de percepção
+a esse total quando passar a ter acesso aos sinais; se o total de Furtividade for menor, ele o localiza.
+Exemplo: Rina obtém 15 em Furtividade. Um vigia tem Percepção +4, portanto CD 12; outro tem +8,
+portanto CD 16. Ela fica oculta do primeiro, mas o segundo a localiza. O resultado guardado para uma
+busca do primeiro é 15.
+Enquanto você permanece escondido
+Não refaça o teste a cada turno ou quadrado. O resultado continua valendo enquanto você conservar um
+percurso que esconda sua passagem. Entrar em visão livre, produzir um ruído que denuncie seu espaço
+ou ser localizado encerra a ocultação para quem percebeu esse sinal.
+Sair da posição e atravessar um corredor aberto pode revelá-lo antes de chegar ao inimigo. Uma nova
+tentativa exige mudar a situação: alcançar outro esconderijo, afastar quem o descobriu ou usar uma
+habilidade apropriada. Esconder de novo não apaga a visão de quem continua olhando diretamente para
+você.
+Travessia em grupo: fora do combate, quando todos precisam passar juntos sem serem notados, use a
+regra existente de teste de grupo: pelo menos metade precisa passar. Em combate, resolva a ocultação de
+cada personagem.
+Incursor: pode usar Esconder como Ação Bônus desde o nível 2. Assassino de nível 11: Desaparecer no
+Percurso permite a tentativa sem ação nas condições da Trilha. Ambos continuam precisando de
+posição adequada e teste. Essas permissões não são concedidas pela regra comum.
+
+
+PÁGINA 3
+PROJETO - M
+PERCEPÇÃO E FURTIVIDADE
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+3
+Procurar e detectar
+Vasculhar
+Ação Padrão. Diga o que procura e em qual lugar. Use Percepção para notar uma presença ou detalhe,
+Investigação para examinar pistas, ou Sentir Energia para localizar uma presença energética atual nas
+condições abaixo.
+Percepção depende de sinais que alcancem seus sentidos. Investigação pode exigir abrir uma gaveta,
+tocar o objeto ou aproximar-se. Uma rolagem alta não encontra alguém numa sala que você não
+procurou nem atravessa um obstáculo que bloqueie o sentido usado.
+Faça uma rolagem por busca e compare-a aos resultados de Furtividade guardados de todas as criaturas
+com sinais acessíveis no lugar declarado. Você localiza aquelas cuja CD alcançar, encerrando a
+ocultação em relação a você. Escuridão, invisibilidade e cobertura continuam valendo. As demais
+permanecem ocultas; em combate, a ação foi gasta.
+Fora do combate, o mestre informa o tempo e o risco da busca. Repita o teste apenas com nova
+abordagem, nova informação ou uma nova consequência pelo tempo gasto. Quem se esconde também
+não recebe uma rolagem nova simplesmente porque foi procurado.
+Exemplo: o vigia procura Rina atrás das caixas. Ela guardou Furtividade 15. Ele tem Percepção +4 e tira 11:
+total 15, suficiente para localizá-la. Pode avisar um aliado onde ela está. O aviso informa o espaço de Rina
+naquele momento, sem acompanhar seus movimentos futuros. A parede continua bloqueando ataques que
+precisem de passagem livre.
+Sentir uma presença
+Nesta proposta, Vasculhar com Sentir Energia procura uma presença atual de energia amaldiçoada em
+até 9 m. Declare o setor procurado. Contra alguém oculto, use a mesma CD de Furtividade; uma regra
+específica de supressão de energia ou barreira prevalece. Presenças sem ocultação ou supressão dentro
+dessas condições são localizadas ao concluir a ação, sem teste. Contra várias presenças ocultas, uma
+rolagem é comparada a todas as CDs acessíveis no setor.
+Uma parede comum não bloqueia essa detecção por si só. O sucesso informa o espaço de origem da
+presença, sem mostrar o corpo, identificar sua técnica ou permitir ataques que exijam visão. Uma
+criatura sem energia perceptível não é encontrada por esse sentido.
+A ação procura a presença atual. Rastros antigos continuam exigindo a perícia adequada à pista,
+normalmente Investigação ou Sobrevivência. Faro conserva sua substituição específica por Sentir
+Energia; a regra comum não concede esse benefício a todos.
+Estudar e Ler o Ambiente
+Estudar examina uma criatura ou objeto que você enxerga, com as perícias previstas na ação. Serve para
+obter informação sobre o que já percebeu. A Melhoria Sem Ver continua necessária quando uma
+conjuração a exige; localizar por energia não substitui enxergar.
+Ler o Ambiente custa Ação Bônus, uma vez por cena, e revela algo aproveitável do lugar. Não localiza
+criaturas nem substitui a busca acima. Se não houver nada que a ação possa revelar, ela não é gasta,
+conforme a regra atual.
+
+
+PÁGINA 4
+PROJETO - M
+PERCEPÇÃO E FURTIVIDADE
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+4
+Atacar sem ser visto
+Visão e posição do alvo
+Se você enxerga o alvo e ele não enxerga você, seu ataque tem vantagem. Se você não enxerga o alvo,
+seu ataque tem desvantagem. Saber o espaço por som ou energia permite tentar um ataque que não exija
+visão, sem retirar essa desvantagem.
+Se nem sabe o espaço, escolha onde atacar. Se a criatura não estiver ali, o ataque erra. Alcance, cobertura
+e exigências de visão continuam valendo. Um efeito que localize alguém não permite atravessar uma
+parede com a arma.
+Quando ambos deixam de se enxergar por escuridão ou fumaça, cada um ataca com desvantagem: a
+vantagem acima exige enxergar o alvo. Benefícios e condições específicos continuam seguindo seus
+próprios textos.
+O ataque revela você?
+Confira se você está oculto ao declarar o ataque. Você pode expor-se pela lateral do esconderijo como
+parte do golpe; precisa obter visão, alcance e passagem livre exigidos. A revelação causada por esse
+gesto vem depois do ataque. Cruzar antes um corredor aberto pode revelá-lo antes da declaração.
+Depois de resolver cada ataque, antes de realizar outro, verifique a revelação:
+Situação
+Resultado
+Você usou uma Arma de Fogo
+Revela sua posição a quem percebeu o disparo.
+Você já não estava oculto daquele observador ao declarar o
+ataque
+O ataque não concede uma tentativa gratuita de
+Esconder.
+Você estava oculto e usou outra arma, inclusive desarmado
+Se ainda houver condições para esconder-se,
+faça Furtividade com desvantagem, sem ação,
+para manter a ocultação. Compare às CDs dos
+observadores que ainda não o localizaram.
+Você terminou claramente exposto ou fez um ruído que
+denuncia sua posição
+É localizado por quem percebeu esse sinal, sem
+teste para mantê-lo oculto.
+O teste de manutenção substitui o total guardado contra os observadores dos quais você continuar
+oculto. Um ataque que erre também pode revelá-lo. Cada ataque adicional é resolvido separadamente;
+uma correção da rolagem do mesmo ataque não cria outro teste de manutenção.
+Conjuração: revela sua posição a quem percebe os gestos, a voz ou outros sinais da execução. A
+Melhoria Silencioso impede a revelação pelo uso: perceber o efeito não revela automaticamente sua
+origem. Expor o corpo, uma busca bem-sucedida ou outra pista independente ainda pode localizá-lo.
+Oportunidades do Assassino
+Golpe Cirúrgico e Cortar a Fuga continuam exigindo os requisitos e custos próprios. Estar oculto é uma
+das oportunidades de abate, e Parkour fornece outras. Sentença Final exige estar oculto do Alvo
+Estudado ao declarar o ataque. Descoberta posterior não desfaz um ataque já resolvido.
+Exemplo: Rina estava oculta e dispara um arco pela lateral das caixas. Após o ataque, continua protegida
+da visão direta. Na manutenção, rola 16 e 8; usa 8 pela desvantagem e soma Furtividade +4: total 12. Passa
+contra o vigia de CD 12 e guarda esse novo total. Se tivesse terminado exposta, perderia a ocultação sem
+esse teste. O Assassino 11 pode recuperá-la com Desaparecer no Percurso, nas condições da Trilha.

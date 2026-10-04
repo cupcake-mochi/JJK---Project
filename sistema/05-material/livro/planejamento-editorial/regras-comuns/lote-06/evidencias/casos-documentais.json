@@ -1,0 +1,92 @@
+[
+  {
+    "id": "M01",
+    "situacao": "Médio contra Médio",
+    "resultado": "Travessia geral proibida; Movimento Acrobático pode permitir."
+  },
+  {
+    "id": "M02",
+    "situacao": "Médio contra Grande/Imenso",
+    "resultado": "Diferença de1 não basta; de2 permite, com terreno difícil e percurso físico."
+  },
+  {
+    "id": "M03",
+    "situacao": "Aliado disposto",
+    "resultado": "Custo regular; terreno difícil real continua cobrando."
+  },
+  {
+    "id": "M04",
+    "situacao": "Incapacitado",
+    "resultado": "Não abre passagem automaticamente: ainda age."
+  },
+  {
+    "id": "M05",
+    "situacao": "Minúsculos",
+    "resultado": "Compartilhamento próprio não libera ocupação entre quaisquer criaturas."
+  },
+  {
+    "id": "M06",
+    "situacao": "Incursor",
+    "resultado": "A travessia especial conserva seu custo/limite; não cobra dificuldade genérica de novo."
+  },
+  {
+    "id": "M07",
+    "situacao": "Rastejar com9",
+    "resultado": "4,5m regular,3m difícil; não dividir reserva novamente pelo mesmo Derrubado."
+  },
+  {
+    "id": "M08",
+    "situacao": "Rastejar com outro corte",
+    "resultado": "Deslocamento4,5 permite1,5m de rastejo regular após passos inteiros."
+  },
+  {
+    "id": "M09",
+    "situacao": "Duto baixo",
+    "resultado": "Rastejar+espremer:4,5 por trecho; com difícil:6."
+  },
+  {
+    "id": "M10",
+    "situacao": "Levantar",
+    "resultado": "Exige Movimento inteiro; andar parte dessa mesma ação impede usá-la inteira depois."
+  },
+  {
+    "id": "M11",
+    "situacao": "Caminhar6/voo12",
+    "resultado": "Restam6 para voo; voltar a caminhada9 depois de consumir12 não renova."
+  },
+  {
+    "id": "M12",
+    "situacao": "Pairar",
+    "resultado": "Zero/Derrubado não causa queda se a exceção mantiver; fim do próprio voo ainda causa."
+  },
+  {
+    "id": "M13",
+    "situacao": "Carga Força2",
+    "resultado": "Limite7 Volume,84kg para o que não tem Volume."
+  },
+  {
+    "id": "M14",
+    "situacao": "Itens leves",
+    "resultado": "Nove são0,9; dez1; nenhum arredondamento apaga itens."
+  },
+  {
+    "id": "M15",
+    "situacao": "Aliado72kg+equipamento2",
+    "resultado": "Total8, excede limite7 em1."
+  },
+  {
+    "id": "M16",
+    "situacao": "Esforço dobrado",
+    "resultado": "Força2 permite esforço14 Volume; não carregar andando com14."
+  },
+  {
+    "id": "M17",
+    "situacao": "Volumosa",
+    "resultado": "Não aumenta peso publicado nem cobra Volume extra."
+  },
+  {
+    "id": "M18",
+    "situacao": "Oportunidade",
+    "resultado": "Permissão de atravessar não elimina reação inimiga sem efeito que o diga."
+  }
+]

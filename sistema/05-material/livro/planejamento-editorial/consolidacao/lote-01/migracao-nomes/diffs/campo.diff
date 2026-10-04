@@ -1,0 +1,56 @@
+--- invocacoes/lote-01/INVOCACOES-EM-CAMPO.md
+
++++ invocacoes/lote-01/INVOCACOES-EM-CAMPO.md
+
+@@ -120,5 +120,5 @@
+
+ **No seu turno, no máximo duas entidades suas podem atuar causando dano.** Conte corpos, não ataques. Especiais comandadas, imediatas, antecipadas ou preparadas, ficam fora dessa contagem. Ações sem dano também ficam fora. Fora do seu turno, esse limite não se aplica. Uma habilidade que mude a quantidade usa seus próprios limites.
+ 
+-**Condições Médias e Pesadas só podem ser aplicadas por uma especial ativa comandada.** Básicas, básicas adicionais, básicas preparadas, respostas reativas autônomas, passivas e auras autônomas não as aplicam. Uma Aura montada como especial comandada pode aplicá-las. A Melhoria Reação também pode fazê-lo quando a execução seguir o comando e os custos próprios dessa especial. Condições Leves cabem numa básica quando sua montagem pagar a peça correspondente. Uma especial comandada não perde essa classificação por ser resolvida fora do seu turno.
++**Condições Médias e Pesadas só podem ser aplicadas por uma especial ativa comandada.** Básicas, básicas adicionais, básicas preparadas, respostas reativas autônomas, talentos e auras autônomas não as aplicam. Uma Aura montada como especial comandada pode aplicá-las. A Melhoria Reação também pode fazê-lo quando a execução seguir o comando e os custos próprios dessa especial. Condições Leves cabem numa básica quando sua montagem pagar a peça correspondente. Uma especial comandada não perde essa classificação por ser resolvida fora do seu turno.
+ 
+ <!-- page:inv-especial|Comandar uma especial -->
+@@ -460,5 +460,5 @@
+
+ O descanso longo recupera a vida inteira. Cura não funciona a zero, esteja a entidade recolhida ou no chão. Recolher uma entidade que ainda tem vida usa uma entrada normal depois, com os mesmos ferimentos.
+ 
+-**Desligada** é o estado de quem caiu e não pode ser recolhido. O corpo vira um objeto no campo: ocupa espaço, pode atrapalhar a passagem e ser carregado. Não age, recebe ordens, usa coletiva ou projeta auras e passivas. Não conta no teto de entidades ativas.
++**Desligada** é o estado de quem caiu e não pode ser recolhido. O corpo vira um objeto no campo: ocupa espaço, pode atrapalhar a passagem e ser carregado. Não age, recebe ordens, usa coletiva ou projeta auras e talentos. Não conta no teto de entidades ativas.
+ 
+ O dano posterior soma ao excedente da queda. Uma nova parcela direta que leve o total acima de metade da vida máxima destrói o corpo. **Dano em área entra na soma, mas não provoca a destruição naquele momento.** Efeitos periódicos já aplicados continuam e áreas locais o alcançam. Cura periódica continua sem funcionar a zero.
+@@ -503,5 +503,5 @@
+
+ Um efeito com manutenção que você possa desligar termina quando você fica inconsciente. A entidade continua existindo e atuando com os recursos permitidos.
+ 
+-Uma passiva que **não possa ser desligada** continua e paga sua manutenção primeiro da reserva da entidade. Se a reserva não cobrir tudo, use seu PE para completar. Sem reserva, o custo sai de você. Essa manutenção não usa a divisão ao meio das especiais.
++Um talento que **não possa ser desligado** continua e paga sua manutenção primeiro da reserva da entidade. Se a reserva não cobrir tudo, use seu PE para completar. Sem reserva, o custo sai de você. Essa manutenção não usa a divisão ao meio das especiais.
+ 
+ Confira o pagamento integral no momento devido. Se as duas fontes juntas não bastarem, não faça uma cobrança parcial: **o efeito fica suspenso até um pagamento válido**. Não produz benefícios durante a suspensão, não gera dívida e não desaparece da ficha. Outros efeitos e a própria entidade não acabam apenas por essa falta de energia.
+@@ -509,7 +509,7 @@
+
+ Tente pagar novamente no próximo momento normal de manutenção. Recuperar PE entre dois vencimentos não religa o efeito imediatamente nem antecipa a cobrança. Uma capacidade que estabeleça outro resultado para a falta de pagamento conserva sua regra específica.
+ 
+-Registre na montagem o custo, a frequência e se a passiva pode ser desligada. Essa indicação resolve quais efeitos cessam com a inconsciência e quais continuam tentando pagar.
+-
+-> **Exemplo.** A passiva exige 3 PE no começo do turno. A reserva tem 2 e Kaito tem 4: pague 2 da reserva e 1 dele. No vencimento seguinte, ambos possuem apenas 1 PE ao todo. Não gaste esse ponto; suspenda o efeito. Mesmo que Kaito recupere energia logo depois, a próxima tentativa de pagamento acontece no começo do turno seguinte. Não há cobrança dos turnos perdidos.
++Registre na montagem o custo, a frequência e se o talento pode ser desligado. Essa indicação resolve quais efeitos cessam com a inconsciência e quais continuam tentando pagar.
++
++> **Exemplo.** O talento exige 3 PE no começo do turno. A reserva tem 2 e Kaito tem 4: pague 2 da reserva e 1 dele. No vencimento seguinte, ambos possuem apenas 1 PE ao todo. Não gaste esse ponto; suspenda o efeito. Mesmo que Kaito recupere energia logo depois, a próxima tentativa de pagamento acontece no começo do turno seguinte. Não há cobrança dos turnos perdidos.
+ 
+ <!-- page:inv-morte|Morte do invocador -->
+@@ -537,9 +537,9 @@
+
+ Uma entidade carrega o que suas mãos permitem segurar. Sem mãos, não recebe essa possibilidade por padrão. Vestir equipamento exige compatibilidade com o corpo e com os requisitos do item.
+ 
+-Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **uma de suas passivas**. Armazenamento usa capacidade de **5 + Força da entidade em Volume**. Para passageiros, registre quantidade, anatomia necessária e custo de Movimento na montagem; não há uma quantidade automática.
+-
+-Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com essa passiva comporta 8 de Volume. Sem a passiva, fica limitada ao que pode segurar e ao equipamento que pode vestir.
+-
+-Na saída de campo, o que a entidade veste vai junto. Entre os objetos que segura, acompanha-a seu próprio equipamento: arma usada por ela, foco ou ferramenta. **Objetos carregados para outra pessoa ou apanhados pelo caminho caem onde ela estava.** Não use uma passiva de armazenamento para contornar esse destino sem uma permissão expressa.
++Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. Armazenamento usa capacidade de **5 + Força da entidade em Volume**. Para passageiros, registre quantidade, anatomia necessária e custo de Movimento na montagem; não há uma quantidade automática.
++
++Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir.
++
++Na saída de campo, o que a entidade veste vai junto. Entre os objetos que segura, acompanha-a seu próprio equipamento: arma usada por ela, foco ou ferramenta. **Objetos carregados para outra pessoa ou apanhados pelo caminho caem onde ela estava.** Não use um talento de armazenamento para contornar esse destino sem uma permissão expressa.
+ 
+ Essas regras valem para recolhimento, queda e fim da manifestação de quem é recolhido. Corpos amaldiçoados e Desligada permanecem no campo com seus objetos. Quando uma entidade é destruída ou desaparece com a morte do dono, deixa todo o equipamento no lugar.

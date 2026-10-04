@@ -1,0 +1,19 @@
+{
+  "sha256_texto": "802e883a22b8571d28dfd518c7d646dbc649cff1c442035b18bbbeb9fced17e7",
+  "secoes": [
+    {
+      "id": "municao",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    },
+    {
+      "id": "recarga",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    },
+    {
+      "id": "reserva",
+      "parecer": "Texto relido: títulos de assunto, regras no dono, compra e manejo separados; exemplos conferidos contra tabelas correntes."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

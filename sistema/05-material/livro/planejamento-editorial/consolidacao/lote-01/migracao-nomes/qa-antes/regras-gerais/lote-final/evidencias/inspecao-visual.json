@@ -1,0 +1,332 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "7dc390692a7e76c577c5c4d0110323e3a20846121b44d1a18c9e349914e457ce",
+  "sha256_texto": "d5a7af1b3715f695ad8dae3baa7e22a04f23f0c5b692687bdab6d74323a6f489",
+  "metodo": "Todas as 40 imagens foram abertas com view_image e inspecionadas individualmente, em lotes de quatro imagens; não houve amostragem. Renderização Poppler de 100 dpi, 827 × 1170 px. Conferência independente de texto, tabelas, quadros, margens, títulos e rodapé.",
+  "limites": [
+    "Prova por tópico: espaços inferiores de páginas curtas serão redistribuídos no livro consolidado.",
+    "A conferência visual não mede compreensão de leitores nem substitui playtest."
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabelas de atributos e maestria alinhadas e legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "59893a87c4b0b862acd52e81e0f970431951688f57b2f2b49d60bf80efa38d30",
+      "imagem": "output/png/pagina-01.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de CDs, fórmula e exemplo completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "049ec8e17d938da6c9367a5dd61b41d527b7042a58a7e201a3f74fe396a10927",
+      "imagem": "output/png/pagina-02.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Quebras de linha nas tabelas preservam a leitura. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "b78e790d9b6da164cfb87f09eb6f1adcbfe10031401d553d01a1a51069cf9c09",
+      "imagem": "output/png/pagina-03.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de Resistência e duas notas dentro das margens. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "753ee9dc74ea9bdda509241e2c73a973aa205a018b9f232381d02b2464eba59d",
+      "imagem": "output/png/pagina-04.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Quadro de recursos e exemplo de conversão legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "2344a85078e9a53225721be58cc680f3a7659a700885062f850df7329359f11c",
+      "imagem": "output/png/pagina-05.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de ações completa, seguida pelas três seções sem corte. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "fb4e04eaf09a341eb746b039795240bf57e6cc5ec8835a226e3f63b35e0a3b39",
+      "imagem": "output/png/pagina-06.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página curta; espaço inferior é consequência da prova por tópico. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "85255bb34ecd2977fb6f085a75b9c383ac418c32b5383851ba0d6863b7bb8e4b",
+      "imagem": "output/png/pagina-07.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Três seções de interação completas. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "a13dc4653533b0853a1c9da10cf1013ad6a5a7035feac8d6e5ea84928a893431",
+      "imagem": "output/png/pagina-08.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Procedimento numerado e nota de conjuração completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "359430f177e86c45d9d4c3ec147ece4ffe32cdbac1848458ba65cf58e5e94597",
+      "imagem": "output/png/pagina-09.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Título e texto de reação e oportunidade ajustados à largura. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "697904bccf529fe756b6679b4dff1ac7ac8e3984a382862273db0aede9eb03c5",
+      "imagem": "output/png/pagina-10.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Quadro de CDs e condições de interrupção legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "cd9e1d4f9f422b8e331a3980f4a26977a52824346e21b27d2a55acc21b6214b7",
+      "imagem": "output/png/pagina-11.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Quatro passos, tabela, exemplo e feitiços completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "ca3f22efa2ad8ee374eda8bd4ac4643690916f45dee79ed12147ad590732b417",
+      "imagem": "output/png/pagina-12.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de alcances, exemplo e remissões legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "67147820d33166b62cbf5a1afd946b9ced6ae5cbdaf30cf35b6ccfc4a603d963",
+      "imagem": "output/png/pagina-13.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Duas tabelas e duas notas; parágrafo final íntegro. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "17b3a2f9350c6e711872e945f3164529a00d9a1857c9d4006d1a48661c13f08e",
+      "imagem": "output/png/pagina-14.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de Defesa e trecho corrigido sobre proteção passiva da rota legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "efa6281d58bf2f8eaa3b987ad563f2ccadc7eb5730e8b0e35efe33b5397335d2",
+      "imagem": "output/png/pagina-15.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Fórmula e procedimento de Bloquear completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "b1166f3552dc53f0190b095438c7e08d6eae0a0f4c2943e023c21595b5b9f234",
+      "imagem": "output/png/pagina-16.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Aparar, Brecha, notas e resposta dentro das margens. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "1f916a7cf1d940ec87a061d16a77b3d80bf8f32280378a9dfc88f08e8bf72c23",
+      "imagem": "output/png/pagina-17.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Exemplo corrigido de segunda manipulação e tabela de terreno legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "a2922d16e4594e78d3c7e29cbee160bb3758f96d73c86122c5ec8273688736ea",
+      "imagem": "output/png/pagina-18.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de tamanho e exemplo de travessia completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "71b32314638542b7e174f3aa3228954720e1199fb88c4df7954a171a06fb480a",
+      "imagem": "output/png/pagina-19.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página curta; limites e medidas legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "47db17b4454065b2546dd1a0ad476737a6aa9045c7f4fb67567c90b6b0c11804",
+      "imagem": "output/png/pagina-20.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 21,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de saltos e regras de esforço completas. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "50b0c366ef9b99ff21f2a4352d91e1b079ad3e8393cf982714ec59e3466f946b",
+      "imagem": "output/png/pagina-21.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 22,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de dano de queda, água e movimento imposto legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "93d54f01c827f73bba3f07d9c38ba8d617b5bbec07313e89b5513848dac946ba",
+      "imagem": "output/png/pagina-22.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 23,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Procedimento de colisão completo; página curta. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "88512ac90cb26b2469d4146012e7840fcf0e3c1b35922c1107723f4294367501",
+      "imagem": "output/png/pagina-23.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 24,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de passagens, duas notas e rastejar legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "101e0545d9bd94c3b64c0c0ec1b7dfa107378eb71671ea5a7df53192c11ee448",
+      "imagem": "output/png/pagina-24.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 25,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Reservas por modalidade de voo e exemplo completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "810e6de030bfbe594e74f791cecc84b410cd4a4632a8c928a6672c57d8606360",
+      "imagem": "output/png/pagina-25.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 26,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de carga, notas e erguer íntegros. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "41fa5c990f8e0c0721957d875ae10d9dc06d928371b7e5fb737c4883eb6a15cf",
+      "imagem": "output/png/pagina-26.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 27,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Arrasto e transporte conjunto completos; página curta. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "573de496cbfc1f0e5cde2e1a135a1a22c6d2ed67e4bd16a8d3c54b5a210c9467",
+      "imagem": "output/png/pagina-27.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 28,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Montaria e referências a comando legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "2db6abe7b0e17cfa60e15c8cbef6e78539740a7c1b9fe58ef096a77a0689bbed",
+      "imagem": "output/png/pagina-28.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 29,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de luz/obstáculos e exemplo de percepção completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "4bcdc0e46d01efe711c4891b043d75c82fa1510aaf711bbc0799aa7f6943c246",
+      "imagem": "output/png/pagina-29.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 30,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Esconder: CD, exemplo e travessia em grupo completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "2e629a391dd3944845e5986435aed02243f6727a720de20c6721ff64c733cabe",
+      "imagem": "output/png/pagina-30.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 31,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de procedimentos e links internos legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "4f8b52074b908a3f1f787508e049eb45eca52a04bf570854931ff28c132a52bd",
+      "imagem": "output/png/pagina-31.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 32,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Ocultação e revelação: texto completo, sem sobreposições. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "66da47fb003fc1db0342bf296100b3016ac9d5fce95c304ddc492f37295d6ee3",
+      "imagem": "output/png/pagina-32.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 33,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de manobras, mãos e exemplo completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "c92a3534888b9841c3dc78eaaebe55ee6019e29a312ba9a3308ca6d6a858e25e",
+      "imagem": "output/png/pagina-33.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 34,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Escape e arrasto legíveis; página curta. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "d31ccdb2e8b9257d2db3729f42dc6b17e022ef8117a7063602d4daee4cce975e",
+      "imagem": "output/png/pagina-34.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 35,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de perícias, exemplo e distinção de procedimentos completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "c0f333b32ee3a57b15c0386ee1ea6c4a0588b1f96ccb10fcd160f91f9f669b18",
+      "imagem": "output/png/pagina-35.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 36,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Tabela de percepção de energia e limites completos; página curta. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "cce32b4e311501b684ad694cee28a6baa82627c38cd41b71cdc2cf10d2d2523e",
+      "imagem": "output/png/pagina-36.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 37,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Procedimento de busca energética e resultados completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "5070dc12764b4b17997aab54a645189284b8f37e4047aa99231413b9c94b6642",
+      "imagem": "output/png/pagina-37.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 38,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Interferência, nova tentativa e alvos sem energia legíveis. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "de212f03826201f6813202c6ae6e9d035c7bf65f0104677005d11750a0da72dd",
+      "imagem": "output/png/pagina-38.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 39,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Estudar fonte e vestígios completos; trecho exclusivo da aptidão foi removido. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "6df10ef35ae9aa4269980485bde5db3fb7c273407ef20cf230f4b7161dd141b1",
+      "imagem": "output/png/pagina-39.png",
+      "revisor": "/root/compatibilidade"
+    },
+    {
+      "pagina": 40,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Exemplo final, carga, resíduos e barreiras completos. Texto, quadros e margens inspecionados em imagem individual.",
+      "sha256_png": "e9ae04063711f64471f19392d4e8cc27ee9069a8aa8fa376f9e211d07139a83c",
+      "imagem": "output/png/pagina-40.png",
+      "revisor": "/root/compatibilidade"
+    }
+  ]
+}

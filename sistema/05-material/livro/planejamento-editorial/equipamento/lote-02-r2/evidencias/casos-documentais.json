@@ -1,0 +1,74 @@
+[
+  {
+    "caso": "Traje2,Dex4",
+    "resultado": "Defesa16."
+  },
+  {
+    "caso": "Traje2+Médio,Dex4",
+    "resultado": "Defesa17; usa teto3."
+  },
+  {
+    "caso": "Revest3+Torre,Dex2",
+    "resultado": "Defesa19; teto0."
+  },
+  {
+    "caso": "Proteção passiva4+Traje2",
+    "resultado": "Traje substitui os4; não soma6."
+  },
+  {
+    "caso": "Semuniforme,passiva4,Broquel,Dex6",
+    "resultado": "Defesa20; Destreza útil5."
+  },
+  {
+    "caso": "Escudo guardado",
+    "resultado": "Não concede proteção."
+  },
+  {
+    "caso": "Doisescudos",
+    "resultado": "Não soma duas proteções."
+  },
+  {
+    "caso": "Doisuniformes",
+    "resultado": "Não soma; apenas uma peça funcional."
+  },
+  {
+    "caso": "Traje na situação escolhida",
+    "resultado": "Vantagem apenas no tipo de TR e nas perícias selecionados, limitadas pela Maestria; nenhum ataque ou Ofício."
+  },
+  {
+    "caso": "Saiu dasituação",
+    "resultado": "Benefício termina."
+  },
+  {
+    "caso": "Subiu degrau doTraje",
+    "resultado": "Continua uma situação."
+  },
+  {
+    "caso": "Escuro semvisão",
+    "resultado": "Vantagem não permite teste visual impossível."
+  },
+  {
+    "caso": "Escudo na mão e efeito2mãoslivres",
+    "resultado": "Requisito não cumprido; não é bloqueio universal da técnica."
+  },
+  {
+    "caso": "Revestimento iniciado masnãofinalizado",
+    "resultado": "Sem nova proteção antes de concluir."
+  },
+  {
+    "caso": "Retirada pausada",
+    "resultado": "Sem proteção da peça; teto e indisponibilidade da proteção passiva permanecem até concluir."
+  },
+  {
+    "caso": "Escudoafivelado abre mão",
+    "resultado": "Permanece preso; não é retirada gratuita."
+  },
+  {
+    "caso": "Escudonãoafivelado largado",
+    "resultado": "Perde proteção imediatamente; preparar de novo custaPadrão."
+  },
+  {
+    "caso": "AbaixoForçamínima",
+    "resultado": "Não adotar como equipamento utilizável; perda temporária após equipar ainda requer decisão de integração."
+  }
+]

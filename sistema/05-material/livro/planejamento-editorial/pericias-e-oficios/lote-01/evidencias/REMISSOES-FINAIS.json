@@ -1,0 +1,20 @@
+{
+  "sha256_antes": "fec7b78ed68c2ebdfc47aae059de9c713249f36d76b137e3baa858238cfde8b6",
+  "sha256_depois": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+  "alteracoes": [
+    {
+      "id": "REM03",
+      "antes": "Tratamento e socorro seguem Recuperação e o efeito usado.",
+      "depois": "Tratamento e socorro seguem o efeito usado e a seção Socorro, em Dano e recuperação.",
+      "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "REM12",
+      "antes": "As regras de Movimento e Combate determinam",
+      "depois": "As seções Movimento e terreno e Ataques, em Regras gerais, determinam",
+      "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
+      "tipo": "editorial"
+    }
+  ]
+}

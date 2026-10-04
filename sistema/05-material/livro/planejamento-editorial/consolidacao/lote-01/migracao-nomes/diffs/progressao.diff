@@ -1,0 +1,88 @@
+--- progressao/lote-01/PROGRESSAO.md
+
++++ progressao/lote-01/PROGRESSAO.md
+
+@@ -87,5 +87,5 @@
+
+ | Concluir uma missão de final de arco. | Categoria anunciada antes da missão. |
+ | Levantar alguém que estava a zero de vida. | O socorro devolveu a capacidade de agir pelas regras de queda. |
+-| Voltar do estágio 4 de dano na alma. | Integridade a zero e saída do estado Derrotado registradas, conforme Recuperação. |
++| Voltar do estágio 4 de dano na alma. | Integridade a zero e saída do estado Derrotado registradas, conforme Derrota e morte. |
+ | Cumprir uma Promessa até o fim, pagando sua parte. | Termos do pacto e seu cumprimento. |
+ | Trazer à guilda uma ferramenta de Grau 1 ou Especial. | Ferramenta obtida e Grau de sua ficha. |
+@@ -103,5 +103,5 @@
+
+ Os valores abaixo já incluem os ganhos comuns de todos os marcos alcançados. **Não some o espaço ou o Refino gratuito do marco outra vez.** As escolhas de marco e os benefícios específicos da ficha são acrescentados separadamente.
+ 
+-| Nível | Maestria | Espaços | Refino básico | Classe máxima | Classe Passiva | Classe 0 |
++| Nível | Maestria | Espaços | Refino básico | Classe máxima | Categoria de Efeito | Classe 0 |
+ |---|---:|---:|---:|---:|---:|---:|
+ | 1 | 1 | 2 | 1 | 1 | 1 | 2 |
+@@ -121,5 +121,5 @@
+
+ | 15 | 2 | 12 | 4 | 4 | 3 | 4 |
+ 
+-**Espaços** são a capacidade comum do repertório. **Classe máxima** permite montar e ampliar aplicações daquela Classe. **Classe Passiva** é o acesso às Passivas adquiridas como tais, não um requisito adicional para toda aptidão que use essa classificação. **Classe 0** é a quantidade recebida fora dos espaços.
++**Espaços** são a capacidade comum do repertório. **Classe máxima** permite montar e ampliar aplicações daquela Classe. **Categoria de Efeito** é o acesso aos Talentos adquiridos como tais, não um requisito adicional para toda aptidão que use essa classificação. **Classe 0** é a quantidade recebida fora dos espaços.
+ 
+ Você recebe habilidades de **Caminho nos níveis 2, 7 e 15** e de **Trilha nos níveis 2 e 11**. Os primeiros marcos são **6, 10 e 14**. A primeira Liberação Máxima chega no **10**.
+@@ -132,5 +132,5 @@
+
+ Continue aplicando os valores comuns da tabela e acrescente as escolhas da sua ficha. A **maestria** sobe nos níveis **10, 18 e 26**. O Refino básico chega a 8 no nível 30; chegar a 10 exige ganhos além dessa linha.
+ 
+-| Nível | Maestria | Espaços | Refino básico | Classe máxima | Classe Passiva | Classe 0 |
++| Nível | Maestria | Espaços | Refino básico | Classe máxima | Categoria de Efeito | Classe 0 |
+ |---|---:|---:|---:|---:|---:|---:|
+ | 16 | 2 | 13 | 4 | 4 | 3 | 4 |
+@@ -154,5 +154,5 @@
+
+ Cada entrega conserva os requisitos do capítulo que a descreve. A tabela não concede automaticamente uma aptidão, Expansão de Domínio ou entidade da Classe recém-aberta. É preciso adquiri-la pelo procedimento adequado.
+ 
+-**Exemplo.** No nível 18, a capacidade comum é 15 espaços. Esses 15 já incluem o espaço gratuito do quarto marco. Se você escolheu Leque três vezes, anote também suas três aplicações adicionais e três Passivas concedidas, separadas das compras feitas nesses 15 espaços.
++**Exemplo.** No nível 18, a capacidade comum é 15 espaços. Esses 15 já incluem o espaço gratuito do quarto marco. Se você escolheu Leque três vezes, anote também suas três aplicações adicionais e três Talentos concedidos, separados das compras feitas nesses 15 espaços.
+ 
+ <!-- page:prog-marcos|Marcos -->
+@@ -165,5 +165,5 @@
+
+ | Corpo | +1 ponto de atributo e treino em uma perícia ou ofício. A partir do nível 10, pode especializar um que já treina, em vez do novo treino. |
+ | Refino | +1 de Refino e uma aptidão. Se já estiver em Refino 10 após o ganho comum, receba duas aptidões no lugar. |
+-| Leque | Um feitiço adicional e uma Passiva, sem pagar espaços por eles. |
++| Leque | Um feitiço adicional e um Talento, sem pagar espaços por eles. |
+ 
+ O máximo de cada atributo é **6**; o de Refino é **10**. Distribua cada ponto de atributo num valor que ainda possa aumentar. Especializar acrescenta **metade da maestria, arredondada para baixo**, ao teste da perícia ou ofício escolhido. Não compre a mesma especialização novamente.
+@@ -173,7 +173,7 @@
+
+ ## Ganhos de Leque
+ 
+-O feitiço concedido é uma aplicação conhecida, não uma vaga livre para comprar Passiva, Domínio ou invocação. A Passiva respeita seu nível de acesso e não ocupa espaços. Cada Leque abre uma vaga própria para ela além do limite de **cinco Passivas pagas**. Registre a origem de cada ganho.
+-
+-No nível 6, por exemplo, Leque concede uma aplicação até Classe 2 e uma Passiva até Classe Passiva 1. Escolher Leque em todos os sete marcos termina em **sete aplicações adicionais e sete Passivas concedidas**, além do repertório comum.
++O feitiço concedido é uma aplicação conhecida, não uma vaga livre para comprar Talento, Domínio ou invocação. O Talento respeita seu nível de acesso e não ocupa espaços. Cada Leque abre uma vaga própria para ele além do limite de **cinco Talentos pagos**. Registre a origem de cada ganho.
++
++No nível 6, por exemplo, Leque concede uma aplicação até Classe 2 e um Talento até Categoria de Efeito 1. Escolher Leque em todos os sete marcos termina em **sete aplicações adicionais e sete Talentos concedidos**, além do repertório comum.
+ 
+ Na rota sem energia, substitua Refino e aptidão por **Lapidação e Bênção**, e o feitiço por **Kata**. As outras rotas usam suas aplicações correspondentes.
+@@ -184,5 +184,5 @@
+
+ Sua capacidade comum é **2 + metade do nível, arredondada para baixo, + a quantidade de marcos alcançados**. A tabela já faz essa conta. Nos níveis pares comuns entra um espaço; num nível de marco entram dois, porque ele também é par.
+ 
+-Um feitiço ocupa um espaço. As Passivas pagas e a Expansão de Domínio usam os preços de seus capítulos. Ocupar uma vaga com uma invocação exige que a técnica, o Manejo ou o Kata a preveja de forma explícita e coerente. Uma vaga livre não cria esse conceito.
++Um feitiço ocupa um espaço. Os Talentos pagos e a Expansão de Domínio usam os preços de seus capítulos. Ocupar uma vaga com uma invocação exige que a técnica, o Manejo ou o Kata a preveja de forma explícita e coerente. Uma vaga livre não cria esse conceito.
+ 
+ **Classe 0, Liberações Máximas e Técnica Máxima** têm suas próprias quantidades e não fornecem espaços para outras compras. Os ganhos de Leque também permanecem registrados à parte.
+@@ -196,5 +196,5 @@
+
+ Uma revisão das regras que invalide uma montagem permite corrigi-la gratuitamente, sem gastar essa revisão. Ajuste o que deixou de funcionar e registre o motivo. Isso não concede revisão livre de toda a ficha.
+ 
+-Passivas, aptidões, Bênçãos, escolhas antigas de marco e detalhes da Origem só mudam por uma permissão que os alcance. A revisão de um feitiço não reescreve a Descrição ou a Regra de toda a técnica. Ampliar uma aplicação durante o uso segue o Fundamento e não exige outra versão conhecida.
++Talentos, aptidões, Bênçãos, escolhas antigas de marco e detalhes da Origem só mudam por uma permissão que os alcance. A revisão de um feitiço não reescreve a Descrição ou a Regra de toda a técnica. Ampliar uma aplicação durante o uso segue o Fundamento e não exige outra versão conhecida.
+ 
+ <!-- page:prog-atualizar|Atualizar a ficha -->
+@@ -267,5 +267,5 @@
+
+ Registre a seleção. Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de vínculo permitida, com os procedimentos de **Fabricação de entidades** e os limites de **Invocações em campo**. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.
+ 
+-Também remova básicas, especiais, Passivas ou Famílias concedidas apenas pela Trilha anterior. Registre versões válidas das fichas afetadas. Entidades domadas ou fabricadas conservam sua aquisição própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
++Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela Trilha anterior. Registre versões válidas das fichas afetadas. Entidades domadas ou fabricadas conservam sua aquisição própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
+ 
+ <!-- page:prog-ritmo|Ritmo de campanha -->

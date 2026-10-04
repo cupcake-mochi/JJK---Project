@@ -77,7 +77,7 @@ Quem escolhe Refino em todo marco bate no teto no nível 22. Dali em diante esco
 
 Mesmo essa ficha não fica sem nada. `Cobrir-se de energia` e `Canalizar energia` vêm de graça no refino 1, e a primeira continua crescendo com o refino passivo até 8. O que ela nunca vai ter é `Energia Reversa` nem `Barreira Simples`.
 
-*O marco é do capítulo 18, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram.*
+*O marco é do capítulo 19, __Experiência e Progressão__: é lá que estão os sete níveis em que ele cai, quanto refino cada rota junta marco a marco, e o que Corpo e Leque compram.*
 
 ## Aptidões
 

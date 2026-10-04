@@ -1,0 +1,296 @@
+{
+  "origem": "Feedback do usuário e de seu leitor; títulos diretos e menos ponto e vírgula.",
+  "titulos": {
+    "A criação": "Criação",
+    "As outras rotas": "Outras rotas",
+    "O que fica fora da conta": "Fora da conta",
+    "A conta": "Cálculo dos pontos",
+    "O que cabe": "Aplicações livres",
+    "O que esta Máxima acrescenta": "Benefícios da Máxima"
+  },
+  "ponto_virgula_antes": 136,
+  "ponto_virgula_depois": 60,
+  "alteracoes_pontuacao": [
+    {
+      "antes": "> **Uma ideia, aplicações diferentes.** Mei produz fios de energia amaldiçoada. Ela pode aprender um feitiço que corta, outro que puxa uma criatura e outro que prende seus movimentos. Todos nascem dos mesmos fios; cada um tem sua própria ficha.",
+      "depois": "> **Uma ideia, aplicações diferentes.** Mei produz fios de energia amaldiçoada. Ela pode aprender um feitiço que corta, outro que puxa uma criatura e outro que prende seus movimentos. Todos nascem dos mesmos fios. Cada um tem sua própria ficha."
+    },
+    {
+      "antes": "Personagens sem técnica inata também criam aplicações. Na rota Sem Técnica, elas se chamam **Manejos**; na Técnica Marcial, **Katas**. As duas usam este processo de montagem, com as substituições e os requisitos dos seus capítulos.",
+      "depois": "Personagens sem técnica inata também criam aplicações. Na rota Sem Técnica, elas se chamam **Manejos**. Na Técnica Marcial, são **Katas**. As duas usam este processo de montagem, com as substituições e os requisitos dos seus capítulos."
+    },
+    {
+      "antes": "Escreva o Fundamento junto com o mestre. Descreva primeiro o que acontece na cena; os números entram na montagem dos feitiços.",
+      "depois": "Escreva o Fundamento junto com o mestre. Descreva primeiro o que acontece na cena. Os números entram na montagem dos feitiços."
+    },
+    {
+      "antes": "Mei pode conceber uma rede para prender alguém ou um fio que puxe um objeto. Curar um ferimento, ler uma lembrança ou voltar no tempo exigiria outro funcionamento; essas propostas não cabem neste Fundamento.",
+      "depois": "Mei pode conceber uma rede para prender alguém ou um fio que puxe um objeto. Curar um ferimento, ler uma lembrança ou voltar no tempo exigiria outro funcionamento. Essas propostas não cabem neste Fundamento."
+    },
+    {
+      "antes": "Escolha um ou dois tipos de dano que combinem com a Descrição. Anote quais seus feitiços usam. Um feitiço com mais de um tipo declara a distribuição na criação; ela não muda depois de conhecer a resistência de um alvo. O catálogo de Dano define cada tipo, incluindo **Força** para energia pura.",
+      "depois": "Escolha um ou dois tipos de dano que combinem com a Descrição. Anote quais seus feitiços usam. Um feitiço com mais de um tipo declara a distribuição na criação. Ela não muda depois de conhecer a resistência de um alvo. O catálogo de Dano define cada tipo, incluindo **Força** para energia pura."
+    },
+    {
+      "antes": "**4. Resultado.** Sobram **3 − 0 − 1 = 2 pontos**, que viram **2d8 de dano**. Mei poderia acrescentar uma Restrição; prefere poder usar o feitiço sem outra exigência.",
+      "depois": "**4. Resultado.** Sobram **3 − 0 − 1 = 2 pontos**, que viram **2d8 de dano**. Mei poderia acrescentar uma Restrição, mas prefere poder usar o feitiço sem outra exigência."
+    },
+    {
+      "antes": "As **Melhorias** acrescentam efeitos aos feitiços. Elas se dividem em nove Famílias. Escolha **duas Livres** e **três Fechadas** para o Fundamento; as quatro restantes têm preço normal. Uma Família não pode estar em duas dessas escolhas.",
+      "depois": "As **Melhorias** acrescentam efeitos aos feitiços. Elas se dividem em nove Famílias. Escolha **duas Livres** e **três Fechadas** para o Fundamento. As quatro restantes têm preço normal. Uma Família não pode estar em duas dessas escolhas."
+    },
+    {
+      "antes": "Um Selo inviável impede a conjuração. Alterá-lo exige revisar a técnica com o mestre; trocar sua descrição não permite ignorar uma mão presa ou outro impedimento durante o uso. A Melhoria Silencioso tem suas próprias permissões para gesto e som.",
+      "depois": "Um Selo inviável impede a conjuração. Alterá-lo exige revisar a técnica com o mestre. Trocar sua descrição não permite ignorar uma mão presa ou outro impedimento durante o uso. A Melhoria Silencioso tem suas próprias permissões para gesto e som."
+    },
+    {
+      "antes": "Seu repertório tem um número limitado de **espaços de feitiço conhecido**. Cada feitiço montado ocupa um deles. Usar o feitiço gasta PE; não apaga seu espaço nem o feitiço da ficha.",
+      "depois": "Seu repertório tem um número limitado de **espaços de feitiço conhecido**. Cada feitiço montado ocupa um deles. Usar o feitiço gasta PE. Não apaga seu espaço nem o feitiço da ficha."
+    },
+    {
+      "antes": "**Isso vale para espaços de feitiço, de Manejo e de Kata.** A troca concede a entidade; manifestar, comandar, pagar seus custos e montar suas habilidades seguem o capítulo de Invocações. Na criação de Manejo ou Kata, a semente, a Regra e o estilo ou equipamento precisam prever esse funcionamento. A troca não acrescenta invocações a um conceito que não as comporta, nem concede atuação gratuita ou energia adicional.",
+      "depois": "**Isso vale para espaços de feitiço, de Manejo e de Kata.** A troca concede a entidade. Manifestar, comandar, pagar seus custos e montar suas habilidades seguem o capítulo de Invocações. Na criação de Manejo ou Kata, a semente, a Regra e o estilo ou equipamento precisam prever esse funcionamento. A troca não acrescenta invocações a um conceito que não as comporta, nem concede atuação gratuita ou energia adicional."
+    },
+    {
+      "antes": "Ao subir de nível, você pode reescrever um feitiço conhecido; uma Liberação Máxima pode ser a escolhida. Se uma revisão das regras invalidar uma montagem, corrija-a gratuitamente, sem gastar essa troca de nível.",
+      "depois": "Ao subir de nível, você pode reescrever um feitiço conhecido. Uma Liberação Máxima pode ser a escolhida. Se uma revisão das regras invalidar uma montagem, corrija-a gratuitamente, sem gastar essa troca de nível."
+    },
+    {
+      "antes": "A Forma não conta como Melhoria. O Efeito Próprio conta como uma. Se você comprar uma peça duas vezes, ambas as compras contam; isso só é permitido quando a peça autoriza repetição. Reunir duas Melhorias sob um nome não reduz seu preço nem a quantidade ocupada.",
+      "depois": "A Forma não conta como Melhoria. O Efeito Próprio conta como uma. Se você comprar uma peça duas vezes, ambas as compras contam. Isso só é permitido quando a peça autoriza repetição. Reunir duas Melhorias sob um nome não reduz seu preço nem a quantidade ocupada."
+    },
+    {
+      "antes": "**Gasto = custo da Forma + custos das Melhorias.** Some as devoluções das Restrições válidas, até 2 × Classe. Aproveite no máximo o valor do gasto; o excedente se perde.",
+      "depois": "**Gasto = custo da Forma + custos das Melhorias.** Some as devoluções das Restrições válidas, até 2 × Classe. Aproveite no máximo o valor do gasto. O excedente se perde."
+    },
+    {
+      "antes": "A **Forma** define por onde o feitiço chega e quem pode atingir. Escolha uma por ficha. As medidas desta página valem nas Classes 1 a 5; a progressão está em [Alcance e área](#alcance).",
+      "depois": "A **Forma** define por onde o feitiço chega e quem pode atingir. Escolha uma por ficha. As medidas desta página valem nas Classes 1 a 5. A progressão está em [Alcance e área](#alcance)."
+    },
+    {
+      "antes": "Toque permanece a 1,5 m. Aura permanece centrada em você. Nenhuma aceita Longe ou Muito Longe. Para lançar de longe uma esfera que nasce sobre um ponto escolhido, use Explosão; para atingir um alvo distante, use Projétil. Nesse caso, a devolução de Corpo a Corpo deixa de existir.",
+      "depois": "Toque permanece a 1,5 m. Aura permanece centrada em você. Nenhuma aceita Longe ou Muito Longe. Para lançar de longe uma esfera que nasce sobre um ponto escolhido, use Explosão. Para atingir um alvo distante, use Projétil. Nesse caso, a devolução de Corpo a Corpo deixa de existir."
+    },
+    {
+      "antes": "Você pode ser o aliado escolhido. Cura e Apoio são automáticos em alvos dispostos; as condições das Melhorias continuam valendo. Vida temporária segue suas regras gerais e não se soma a outra reserva de vida temporária.",
+      "depois": "Você pode ser o aliado escolhido. Cura e Apoio são automáticos em alvos dispostos. As condições das Melhorias continuam valendo. Vida temporária segue suas regras gerais e não se soma a outra reserva de vida temporária."
+    },
+    {
+      "antes": "A Onda aplica o efeito inteiro a cada aliado na área, sem dividir. O seu centro permanece em você; não recebe Longe. Maior aumenta o raio. Na Classe 6, a base do raio passa a 4,5 m.",
+      "depois": "A Onda aplica o efeito inteiro a cada aliado na área, sem dividir. O seu centro permanece em você. Não recebe Longe. Maior aumenta o raio. Na Classe 6, a base do raio passa a 4,5 m."
+    },
+    {
+      "antes": "Seu saldo útil tem limite de **3 × Classe − custo Pesado da Forma**. Se for cura, cada ponto útil vira 1d8; se for apoio, vira 3 pontos de vida temporária. Restrições podem pagar outras peças, mas não ultrapassam esse limite.",
+      "depois": "Seu saldo útil tem limite de **3 × Classe − custo Pesado da Forma**. Se for cura, cada ponto útil vira 1d8. Se for apoio, vira 3 pontos de vida temporária. Restrições podem pagar outras peças, mas não ultrapassam esse limite."
+    },
+    {
+      "antes": "Cura e Onda não estão disponíveis na Classe 0. Para remover uma condição, some a Melhoria apropriada; curar pontos de vida não a remove por conta própria. Socorro a zero de vida e Integridade seguem suas regras específicas.",
+      "depois": "Cura e Onda não estão disponíveis na Classe 0. Para remover uma condição, some a Melhoria apropriada. Curar pontos de vida não a remove por conta própria. Socorro a zero de vida e Integridade seguem suas regras específicas."
+    },
+    {
+      "antes": "**Alcance** é a distância até o alvo ou a origem escolhida. **Área** é o espaço que o efeito ocupa. Uma Explosão pode chegar mais longe sem aumentar seu raio; uma Aura pode crescer sem sair de você.",
+      "depois": "**Alcance** é a distância até o alvo ou a origem escolhida. **Área** é o espaço que o efeito ocupa. Uma Explosão pode chegar mais longe sem aumentar seu raio. Uma Aura pode crescer sem sair de você."
+    },
+    {
+      "antes": "Na Linha, Maior aumenta o comprimento até 60 m; depois aumenta a largura de 1,5 m para 3 m e então 4,5 m. Muito Maior percorre essa mesma sequência. Toque não ganha alcance e áreas centradas em você não ganham um ponto de origem distante.",
+      "depois": "Na Linha, Maior aumenta o comprimento até 60 m. Depois aumenta a largura de 1,5 m para 3 m e então 4,5 m. Muito Maior percorre essa mesma sequência. Toque não ganha alcance e áreas centradas em você não ganham um ponto de origem distante."
+    },
+    {
+      "antes": "**Ataque de conjuração = d20 + atributo da técnica + Maestria.** Compare o resultado com a Defesa do alvo. Acerto aplica o efeito; erro não o aplica, salvo regra específica.",
+      "depois": "**Ataque de conjuração = d20 + atributo da técnica + Maestria.** Compare o resultado com a Defesa do alvo. Acerto aplica o efeito. Erro não o aplica, salvo regra específica."
+    },
+    {
+      "antes": "Escolha na montagem qual dos quatro TRs corresponde ao efeito. O mestre confere essa relação. A escolha fica na ficha; você não troca de TR depois de descobrir os atributos do inimigo.",
+      "depois": "Escolha na montagem qual dos quatro TRs corresponde ao efeito. O mestre confere essa relação. A escolha fica na ficha. Você não troca de TR depois de descobrir os atributos do inimigo."
+    },
+    {
+      "antes": "Num feitiço ofensivo resolvido por TR, falhar aplica dano e efeitos nocivos; passar evita os efeitos nocivos e recebe metade dos dados de dano, arredondada para baixo, salvo indicação específica. O teste de saída de uma condição Pesada continua existindo mesmo depois da falha inicial.",
+      "depois": "Num feitiço ofensivo resolvido por TR, falhar aplica dano e efeitos nocivos. Passar evita os efeitos nocivos e recebe metade dos dados de dano, arredondada para baixo, salvo indicação específica. O teste de saída de uma condição Pesada continua existindo mesmo depois da falha inicial."
+    },
+    {
+      "antes": "O uso normal custa **Ação Padrão**. Bônus, Reação e Ação Completa precisam constar da ficha. No seu turno, uma conjuração de Classe acima de 0 permite apenas mais um feitiço de Classe 0; mudar ou converter ações não remove esse limite. Se conjurar como Bônus ou Reação, o único outro feitiço permitido naquele turno também é de Classe 0.",
+      "depois": "O uso normal custa **Ação Padrão**. Bônus, Reação e Ação Completa precisam constar da ficha. No seu turno, uma conjuração de Classe acima de 0 permite apenas mais um feitiço de Classe 0. Mudar ou converter ações não remove esse limite. Se conjurar como Bônus ou Reação, o único outro feitiço permitido naquele turno também é de Classe 0."
+    },
+    {
+      "antes": "Uma Melhoria também não pode cancelar a dificuldade que pagou por ela. Silencioso não elimina Gesto mantendo sua devolução. Pode conviver com Barulho, mas o som exigido por Barulho continua audível e revela a origem; a conjuração não permanece escondida por causa de Silencioso.",
+      "depois": "Uma Melhoria também não pode cancelar a dificuldade que pagou por ela. Silencioso não elimina Gesto mantendo sua devolução. Pode conviver com Barulho, mas o som exigido por Barulho continua audível e revela a origem. A conjuração não permanece escondida por causa de Silencioso."
+    },
+    {
+      "antes": "Uma ficha com **Certeiro** continua exigindo ataque. Se o resultado final errar um alvo válido, causa metade dos dados de dano, arredondada para baixo; não aplica os outros efeitos e não é crítico. Certeiro custa Média e só pode modificar uma ficha de ataque. Sem linha de visão, alcance ou outro requisito, você não chega a fazer esse ataque.",
+      "depois": "Uma ficha com **Certeiro** continua exigindo ataque. Se o resultado final errar um alvo válido, causa metade dos dados de dano, arredondada para baixo. Não aplica os outros efeitos e não é crítico. Certeiro custa Média e só pode modificar uma ficha de ataque. Sem linha de visão, alcance ou outro requisito, você não chega a fazer esse ataque."
+    },
+    {
+      "antes": "Escolher retira criaturas de uma área existente. Não cria área. Rajada divide os dados em tiros com ataques separados; não cabe numa ficha que resolve tudo por TR. Mais Um divide os dados entre alvos, enquanto Maior modifica o tamanho de uma área.",
+      "depois": "Escolher retira criaturas de uma área existente. Não cria área. Rajada divide os dados em tiros com ataques separados. Não cabe numa ficha que resolve tudo por TR. Mais Um divide os dados entre alvos, enquanto Maior modifica o tamanho de uma área."
+    },
+    {
+      "antes": "Se uma proposta faz exatamente o que uma peça já faz, use a peça existente. Um Efeito Próprio permite escrever uma mecânica ausente do catálogo; não permite copiar uma Família Fechada ou reunir efeitos com desconto.",
+      "depois": "Se uma proposta faz exatamente o que uma peça já faz, use a peça existente. Um Efeito Próprio permite escrever uma mecânica ausente do catálogo. Não permite copiar uma Família Fechada ou reunir efeitos com desconto."
+    },
+    {
+      "antes": "Você pode montar um feitiço para prender um adversário, mudar sua posição ou criar um obstáculo. Escolha o resultado antes de procurar uma condição: impedir passagem pode pedir uma parede; impedir uma criatura de sair pode pedir Prende.",
+      "depois": "Você pode montar um feitiço para prender um adversário, mudar sua posição ou criar um obstáculo. Escolha o resultado antes de procurar uma condição: impedir passagem pode pedir uma parede. Impedir uma criatura de sair pode pedir Prende."
+    },
+    {
+      "antes": "Hana produz raízes que se enroscam em criaturas. Neste exemplo, Área e Controle têm preço normal; suas Famílias Livres são Amparo e Tempo, e as Fechadas são Mira, Marca e Castigo.",
+      "depois": "Hana produz raízes que se enroscam em criaturas. Neste exemplo, Área e Controle têm preço normal. Suas Famílias Livres são Amparo e Tempo, e as Fechadas são Mira, Marca e Castigo."
+    },
+    {
+      "antes": "Ela monta **Explosão (2) + Condição Atordoado (5) + Terreno (2)**, na Classe 3. Gasta os 9 pontos, usa duas Melhorias e não compra Restrição. O saldo é zero: não causa dano; o Controle recebe a rodada adicional e +2 na CD.",
+      "depois": "Ela monta **Explosão (2) + Condição Atordoado (5) + Terreno (2)**, na Classe 3. Gasta os 9 pontos, usa duas Melhorias e não compra Restrição. O saldo é zero: não causa dano. O Controle recebe a rodada adicional e +2 na CD."
+    },
+    {
+      "antes": "> **Na ficha:** Ação Padrão, 9 PE; esfera de raio 3 m num ponto a até 18 m. O solo fica difícil por duas rodadas. Cada criatura na área faz TR Físico contra a CD de Hana +2. Na falha, fica Atordoada por duas rodadas; no sucesso, evita essa condição. Quem ficou Atordoado repete o TR no fim de cada turno para encerrá-la antes. Sair da área não encerra a condição já aplicada.",
+      "depois": "> **Na ficha:** Ação Padrão, 9 PE. Esfera de raio 3 m num ponto a até 18 m. O solo fica difícil por duas rodadas. Cada criatura na área faz TR Físico contra a CD de Hana +2. Na falha, fica Atordoada por duas rodadas. No sucesso, evita essa condição. Quem ficou Atordoado repete o TR no fim de cada turno para encerrá-la antes. Sair da área não encerra a condição já aplicada."
+    },
+    {
+      "antes": "O terreno afeta quem passar por ele enquanto durar. A condição só é aplicada no disparo; entrar na área depois não causa novo Atordoado. As raízes são a aparência desses efeitos, sem acrescentar agarrão ou dano por conta própria.",
+      "depois": "O terreno afeta quem passar por ele enquanto durar. A condição só é aplicada no disparo. Entrar na área depois não causa novo Atordoado. As raízes são a aparência desses efeitos, sem acrescentar agarrão ou dano por conta própria."
+    },
+    {
+      "antes": "Mei prende um fio num apoio à frente e avança pelo chão, puxando o próprio corpo. Ela monta uma aplicação de **Classe 0 com Projétil e Passo**. A Melhoria custa um dado; a ficha descarta também o dano restante e serve apenas ao movimento comprado.",
+      "depois": "Mei prende um fio num apoio à frente e avança pelo chão, puxando o próprio corpo. Ela monta uma aplicação de **Classe 0 com Projétil e Passo**. A Melhoria custa um dado. A ficha descarta também o dano restante e serve apenas ao movimento comprado."
+    },
+    {
+      "antes": "Na Classe 3, Mei pode criar uma parede de fios com **Projétil (0) + Anteparo (1, Controle Livre)**. Descarta os 8 pontos restantes; eles não aumentam a parede nem ativam o bônus de Controle.",
+      "depois": "Na Classe 3, Mei pode criar uma parede de fios com **Projétil (0) + Anteparo (1, Controle Livre)**. Descarta os 8 pontos restantes. Eles não aumentam a parede nem ativam o bônus de Controle."
+    },
+    {
+      "antes": "Ação Padrão, 9 PE. Ela coloca a divisória em espaços livres num ponto a até 18 m. O Anteparo tem **30 pontos de vida**, dura **1 minuto** e usa os 12 quadrados de 1,5 m que a peça permite nesta Classe. Nesta ficha, formam uma parede de 9 m de largura e 3 m de altura. Todos os trechos compartilham essa vida; uma destruição encerra a divisória inteira.",
+      "depois": "Ação Padrão, 9 PE. Ela coloca a divisória em espaços livres num ponto a até 18 m. O Anteparo tem **30 pontos de vida**, dura **1 minuto** e usa os 12 quadrados de 1,5 m que a peça permite nesta Classe. Nesta ficha, formam uma parede de 9 m de largura e 3 m de altura. Todos os trechos compartilham essa vida. Uma destruição encerra a divisória inteira."
+    },
+    {
+      "antes": "Rajada e Mais Um **dividem a quantidade de dados disponível**. Junto faz a divisão de cura ou de um benefício de apoio que possa ser repartido; não copia bônus ou condições. Ao distribuir dados, use números inteiros, antes de rolar, e não exceda o total da ficha. Um tiro ou alvo sem dados não recebe os efeitos de um tiro ao acertar. Dividir 6d8 em três ataques pode resultar em 2d8 por ataque; não produz três ataques de 6d8.",
+      "depois": "Rajada e Mais Um **dividem a quantidade de dados disponível**. Junto faz a divisão de cura ou de um benefício de apoio que possa ser repartido. Não copia bônus ou condições. Ao distribuir dados, use números inteiros, antes de rolar, e não exceda o total da ficha. Um tiro ou alvo sem dados não recebe os efeitos de um tiro ao acertar. Dividir 6d8 em três ataques pode resultar em 2d8 por ataque. Não produz três ataques de 6d8."
+    },
+    {
+      "antes": "Salto, Queima e Estilhaço acrescentam os dados que suas entradas indicam. Some a quantidade inicial com esses acréscimos ao conferir o feitiço: o total não pode passar de **4 × Classe em d8**. Considere também o multiplicador de Remate: 8d8 com aumento de 25% equivale a 10d8 para esse limite. Reduza os dados iniciais na montagem, se necessário; não ganhe pontos por essa redução. Num efeito de área, faça essa conta uma vez, sem multiplicar pelo número de criaturas na área.",
+      "depois": "Salto, Queima e Estilhaço acrescentam os dados que suas entradas indicam. Some a quantidade inicial com esses acréscimos ao conferir o feitiço: o total não pode passar de **4 × Classe em d8**. Considere também o multiplicador de Remate: 8d8 com aumento de 25% equivale a 10d8 para esse limite. Reduza os dados iniciais na montagem, se necessário. Não ganhe pontos por essa redução. Num efeito de área, faça essa conta uma vez, sem multiplicar pelo número de criaturas na área."
+    },
+    {
+      "antes": "Uma repetição de dano não repete deslocamentos, condições, marcas ou outras Melhorias. **Salto e Estilhaço geram, cada um, um único efeito secundário por conjuração**, mesmo quando a área inicial alcança vários alvos. Depois da resolução inicial, escolha um dos alvos que cumpriram o gatilho como origem. O secundário não ativa outra repetição nem os benefícios que dependam de realizar ou acertar um novo ataque; também não causa crítico.",
+      "depois": "Uma repetição de dano não repete deslocamentos, condições, marcas ou outras Melhorias. **Salto e Estilhaço geram, cada um, um único efeito secundário por conjuração**, mesmo quando a área inicial alcança vários alvos. Depois da resolução inicial, escolha um dos alvos que cumpriram o gatilho como origem. O secundário não ativa outra repetição nem os benefícios que dependam de realizar ou acertar um novo ataque. Também não causa crítico."
+    },
+    {
+      "antes": "> **Exemplo.** Classe 2 dá 6 pontos. Projétil + Salto, de preço normal, gasta 2; Gesto devolve 1. São **5d8** no primeiro alvo. Salto acrescenta metade, arredondada para baixo: **2d8** no outro inimigo mais próximo a até 9 m do primeiro; escolha entre os empatados. O total soma **7d8**, dentro do limite 8. Depois de acertar o primeiro alvo, resolva um novo ataque contra o segundo, usando o mesmo bônus; ele pode errar normalmente. Se a ficha usar TR, o salto exige a falha inicial e o segundo alvo faz seu próprio TR. O segundo dano não volta a saltar. Toque exige que ambos os alvos estejam a até 1,5 m de você.",
+      "depois": "> **Exemplo.** Classe 2 dá 6 pontos. Projétil + Salto, de preço normal, gasta 2; Gesto devolve 1. São **5d8** no primeiro alvo. Salto acrescenta metade, arredondada para baixo: **2d8** no outro inimigo mais próximo a até 9 m do primeiro. Escolha entre os empatados. O total soma **7d8**, dentro do limite 8. Depois de acertar o primeiro alvo, resolva um novo ataque contra o segundo, usando o mesmo bônus. Ele pode errar normalmente. Se a ficha usar TR, o salto exige a falha inicial e o segundo alvo faz seu próprio TR. O segundo dano não volta a saltar. Toque exige que ambos os alvos estejam a até 1,5 m de você."
+    },
+    {
+      "antes": "Uma área de dano instantânea se encerra depois da resolução. Para mantê-la no cenário, compre **Fica**. Terreno difícil e uma parede criada têm durações próprias; não repetem dano por permanecerem no mapa.",
+      "depois": "Uma área de dano instantânea se encerra depois da resolução. Para mantê-la no cenário, compre **Fica**. Terreno difícil e uma parede criada têm durações próprias. Não repetem dano por permanecerem no mapa."
+    },
+    {
+      "antes": "Perder concentração encerra a área antes desse prazo. Outra criatura tem sua própria contagem de uma resolução por rodada; não usa nem renova a contagem do primeiro inimigo.",
+      "depois": "Perder concentração encerra a área antes desse prazo. Outra criatura tem sua própria contagem de uma resolução por rodada. Não usa nem renova a contagem do primeiro inimigo."
+    },
+    {
+      "antes": "Você pode aproveitar a descrição para propor soluções. O que muda a regra precisa ser comprado e ter resultado definido; a criatividade ajuda a escolher a aplicação e o momento de usá-la.",
+      "depois": "Você pode aproveitar a descrição para propor soluções. O que muda a regra precisa ser comprado e ter resultado definido. A criatividade ajuda a escolher a aplicação e o momento de usá-la."
+    },
+    {
+      "antes": "Nas Classes 1 a 7, o custo continua sendo **3 × Classe de PE**, e o feitiço ocupa um espaço. Classe 0 segue sua quantidade separada e não gasta PE. Os pontos compram Melhorias; o saldo não vira dados nem outro benefício. Nas Classes 6 e 7, o orçamento aumenta, mas a escala desta Forma permanece a da Classe 5.",
+      "depois": "Nas Classes 1 a 7, o custo continua sendo **3 × Classe de PE**, e o feitiço ocupa um espaço. Classe 0 segue sua quantidade separada e não gasta PE. Os pontos compram Melhorias. O saldo não vira dados nem outro benefício. Nas Classes 6 e 7, o orçamento aumenta, mas a escala desta Forma permanece a da Classe 5."
+    },
+    {
+      "antes": "Registre onde começa, até onde se estende, o que muda, por quanto tempo e como termina. Defina se permanece quando um combate começa. Se uma consequência passar a afetar testes, ataques ou ações, ela precisa da peça correspondente; não surge depois por interpretação.",
+      "depois": "Registre onde começa, até onde se estende, o que muda, por quanto tempo e como termina. Defina se permanece quando um combate começa. Se uma consequência passar a afetar testes, ataques ou ações, ela precisa da peça correspondente. Não surge depois por interpretação."
+    },
+    {
+      "antes": "> **Luz de Oficina.** Uma técnica que produz luz monta Efeito de Classe 2 para iluminar um cômodo grande por 10 minutos. Ação Padrão, 6 PE, sem Melhorias. Iluminação comum; não cega, não revela ocultação sobrenatural e não concede bônus. Os 6 pontos não gastos não produzem outro efeito.",
+      "depois": "> **Luz de Oficina.** Uma técnica que produz luz monta Efeito de Classe 2 para iluminar um cômodo grande por 10 minutos. Ação Padrão, 6 PE, sem Melhorias. Iluminação comum. Não cega, não revela ocultação sobrenatural e não concede bônus. Os 6 pontos não gastos não produzem outro efeito."
+    },
+    {
+      "antes": "Mantêm-se a Forma, as Melhorias, as Restrições, o TR e o resultado escolhido. Ampliar melhora os números previstos pelas peças; não adiciona uma nova Melhoria, mesmo quando a Classe permite mais peças.",
+      "depois": "Mantêm-se a Forma, as Melhorias, as Restrições, o TR e o resultado escolhido. Ampliar melhora os números previstos pelas peças. Não adiciona uma nova Melhoria, mesmo quando a Classe permite mais peças."
+    },
+    {
+      "antes": "Você pode acrescentar **uma Melhoria Leve**, retirando **um dado** do dano-base. Se a peça exigir um valor de Classe, use 0; ela não recebe Classe 1 só por ter sido escolhida aqui. Requisitos mínimos de Classe continuam impedindo a compra.",
+      "depois": "Você pode acrescentar **uma Melhoria Leve**, retirando **um dado** do dano-base. Se a peça exigir um valor de Classe, use 0. Ela não recebe Classe 1 só por ter sido escolhida aqui. Requisitos mínimos de Classe continuam impedindo a compra."
+    },
+    {
+      "antes": "O uso normal custa Ação Padrão. O aumento do dano pela tabela é automático; você não compra uma segunda versão quando sobe de faixa. Mudar as peças exige reescrita. Os Classe 0 não fornecem espaços para adquirir invocações ou Passivas pagas.",
+      "depois": "O uso normal custa Ação Padrão. O aumento do dano pela tabela é automático. Você não compra uma segunda versão quando sobe de faixa. Mudar as peças exige reescrita. Os Classe 0 não fornecem espaços para adquirir invocações ou Passivas pagas."
+    },
+    {
+      "antes": "Escreva primeiro o resultado que você espera na cena. “Fazer dobraduras vivas” pode significar observar um lugar, carregar um objeto ou lutar ao seu lado. São capacidades diferentes. Uma entidade que age por conta própria usa a criação de Invocações; não é adquirida gratuitamente pela aparência de um feitiço.",
+      "depois": "Escreva primeiro o resultado que você espera na cena. “Fazer dobraduras vivas” pode significar observar um lugar, carregar um objeto ou lutar ao seu lado. São capacidades diferentes. Uma entidade que age por conta própria usa a criação de Invocações. Não é adquirida gratuitamente pela aparência de um feitiço."
+    },
+    {
+      "antes": "> **Exemplo de limite.** “Trocar duas pessoas de lugar” precisa dizer quais pessoas, de onde a distância é medida, se precisam aceitar, como uma pessoa hostil resiste e onde chegam. A Melhoria Troca já resolve você e um alvo. Substituir você por uma segunda criatura exige avaliar essa mudança; não é apenas renomear a peça.",
+      "depois": "> **Exemplo de limite.** “Trocar duas pessoas de lugar” precisa dizer quais pessoas, de onde a distância é medida, se precisam aceitar, como uma pessoa hostil resiste e onde chegam. A Melhoria Troca já resolve você e um alvo. Substituir você por uma segunda criatura exige avaliar essa mudança. Não é apenas renomear a peça."
+    },
+    {
+      "antes": "O custo é **3 × Classe de PE, aumentado em 50%**, arredondado para cima. A Liberação exige **Ação Completa**. Ela compromete a Padrão, a Bônus e o Movimento do turno; conserva sua Reação, conforme Turnos.",
+      "depois": "O custo é **3 × Classe de PE, aumentado em 50%**, arredondado para cima. A Liberação exige **Ação Completa**. Ela compromete a Padrão, a Bônus e o Movimento do turno. Conserva sua Reação, conforme Turnos."
+    },
+    {
+      "antes": "Você pode Ampliar uma Liberação e reescrevê-la pela troca de nível. Ela continua obedecendo à Regra, às Famílias e às incompatibilidades das peças. A Técnica Máxima é outra capacidade; não recebe esse acréscimo de dados.",
+      "depois": "Você pode Ampliar uma Liberação e reescrevê-la pela troca de nível. Ela continua obedecendo à Regra, às Famílias e às incompatibilidades das peças. A Técnica Máxima é outra capacidade. Não recebe esse acréscimo de dados."
+    },
+    {
+      "antes": "**Os dados e os pontos são contas separadas.** Comprar Forma e Melhorias não reduz os dados da tabela. Pontos que sobram se perdem; não compram dados adicionais.",
+      "depois": "**Os dados e os pontos são contas separadas.** Comprar Forma e Melhorias não reduz os dados da tabela. Pontos que sobram se perdem. Não compram dados adicionais."
+    },
+    {
+      "antes": "Você pode escrever um requisito necessário à ideia, como preparar duas marcas. Ele precisa constar da ficha e ser cumprido; não amplia o orçamento. O Selo e os requisitos normais da rota continuam valendo.",
+      "depois": "Você pode escrever um requisito necessário à ideia, como preparar duas marcas. Ele precisa constar da ficha e ser cumprido. Não amplia o orçamento. O Selo e os requisitos normais da rota continuam valendo."
+    },
+    {
+      "antes": "Quando o alvo passa no TR de uma Máxima de dano, recebe **três quartos do dano**. Aplique depois as demais defesas e o arredondamento de Dano; frações de dano recebido sobem. Isso não aplica condições nem outros efeitos que o teste tenha evitado. Num ataque que erre, não há dano, salvo permissão expressa.",
+      "depois": "Quando o alvo passa no TR de uma Máxima de dano, recebe **três quartos do dano**. Aplique depois as demais defesas e o arredondamento de Dano. Frações de dano recebido sobem. Isso não aplica condições nem outros efeitos que o teste tenha evitado. Num ataque que erre, não há dano, salvo permissão expressa."
+    },
+    {
+      "antes": "Mei monta **Fenda de Arrasto**, na faixa 17 a 20: Projétil (0), Passo (1, Alcance Livre) e Empurrão (1, Alcance Livre). São **2 dos 8 pontos** e duas Melhorias. Os pontos restantes se perdem; o dano continua **24d8 de Cortante**.",
+      "depois": "Mei monta **Fenda de Arrasto**, na faixa 17 a 20: Projétil (0), Passo (1, Alcance Livre) e Empurrão (1, Alcance Livre). São **2 dos 8 pontos** e duas Melhorias. Os pontos restantes se perdem. O dano continua **24d8 de Cortante**."
+    },
+    {
+      "antes": "> **Na ficha:** Ação Completa e 25 PE; um alvo a até 18 m; ataque de conjuração. No acerto, causa 24d8 e move o alvo até 6 m numa direção permitida. Passo concede a Mei um deslocamento de até 6 m antes ou depois da resolução, sem ataques de oportunidade. É o deslocamento específico de Passo: não devolve a Ação de Movimento consumida. O Selo continua necessário.",
+      "depois": "> **Na ficha:** Ação Completa e 25 PE. Um alvo a até 18 m. Ataque de conjuração. No acerto, causa 24d8 e move o alvo até 6 m numa direção permitida. Passo concede a Mei um deslocamento de até 6 m antes ou depois da resolução, sem ataques de oportunidade. É o deslocamento específico de Passo: não devolve a Ação de Movimento consumida. O Selo continua necessário."
+    },
+    {
+      "antes": "O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado. Os 24d8 causam média de 108 de dano; role os dados normalmente.",
+      "depois": "O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado. Os 24d8 causam média de 108 de dano. Role os dados normalmente."
+    },
+    {
+      "antes": "Áreas aplicam os dados a cada alvo; a mesma criatura não recebe duas aplicações por ocupar mais de um quadrado. Críticos, resistência, vulnerabilidade e RD seguem as regras gerais. Concentrada e Duradoura podem prolongar estados compatíveis, mas não repetem o dano nem reaplicam uma condição que já terminou.",
+      "depois": "Áreas aplicam os dados a cada alvo. A mesma criatura não recebe duas aplicações por ocupar mais de um quadrado. Críticos, resistência, vulnerabilidade e RD seguem as regras gerais. Concentrada e Duradoura podem prolongar estados compatíveis, mas não repetem o dano nem reaplicam uma condição que já terminou."
+    },
+    {
+      "antes": "Uma Máxima sem dano nem cura pode usar **Efeito em combate** quando seu Efeito Próprio autorizar esse uso e definir alvos, resolução, duração e limites. Essa permissão vale apenas para a aplicação registrada; não muda a Forma Efeito dos feitiços comuns.",
+      "depois": "Uma Máxima sem dano nem cura pode usar **Efeito em combate** quando seu Efeito Próprio autorizar esse uso e definir alvos, resolução, duração e limites. Essa permissão vale apenas para a aplicação registrada. Não muda a Forma Efeito dos feitiços comuns."
+    },
+    {
+      "antes": "Ao atingir os níveis 21 e 26, atualize dados, pontos, preços e PE. Conserve as peças da aplicação; se houver pontos e vagas de Melhoria, pode acrescentar peças compatíveis nesse momento. A mudança entra na ficha, antes da sessão. Não se escolhem peças novas durante cada uso.",
+      "depois": "Ao atingir os níveis 21 e 26, atualize dados, pontos, preços e PE. Conserve as peças da aplicação. Se houver pontos e vagas de Melhoria, pode acrescentar peças compatíveis nesse momento. A mudança entra na ficha, antes da sessão. Não se escolhem peças novas durante cada uso."
+    },
+    {
+      "antes": "Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga superfícies por dobraduras. Sua Regra permite unir duas marcas preparadas; suas Famílias Fechadas são Amparo, Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M.",
+      "depois": "Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga superfícies por dobraduras. Sua Regra permite unir duas marcas preparadas. Suas Famílias Fechadas são Amparo, Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M."
+    },
+    {
+      "antes": "A passagem não arrasta criaturas nem retira alguém de uma contenção contra a vontade de quem o prende. Não transporta objetos maiores que a abertura. Uma criatura adjacente pode retirar uma marca com Ação Padrão. Qualquer dano que atinja o papel destrói a marca; para acertá-la, use as regras de objetos. Se a chegada estiver bloqueada, a travessia falha sem levar a criatura; ela permanece na entrada.",
+      "depois": "A passagem não arrasta criaturas nem retira alguém de uma contenção contra a vontade de quem o prende. Não transporta objetos maiores que a abertura. Uma criatura adjacente pode retirar uma marca com Ação Padrão. Qualquer dano que atinja o papel destrói a marca. Para acertá-la, use as regras de objetos. Se a chegada estiver bloqueada, a travessia falha sem levar a criatura. Ela permanece na entrada."
+    },
+    {
+      "antes": "Não atravessa uma barreira sobrenatural que separe os pontos. Se uma barreira surgir entre eles, a passagem termina. Paredes comuns entre os endereços não impedem a ligação; obstáculos diante de uma abertura impedem a travessia.",
+      "depois": "Não atravessa uma barreira sobrenatural que separe os pontos. Se uma barreira surgir entre eles, a passagem termina. Paredes comuns entre os endereços não impedem a ligação. Obstáculos diante de uma abertura impedem a travessia."
+    },
+    {
+      "antes": "Ao começar um combate em qualquer uma das aberturas, a passagem se encerra antes do primeiro turno. Atravessar é imediato: ninguém fica preso dentro dela quando fecha. Você só pode manter um par preparado; fixar um novo par desfaz o anterior. As marcas são consumidas no encerramento; preparar outras não dispensa a recarga da Máxima.",
+      "depois": "Ao começar um combate em qualquer uma das aberturas, a passagem se encerra antes do primeiro turno. Atravessar é imediato: ninguém fica preso dentro dela quando fecha. Você só pode manter um par preparado. Fixar um novo par desfaz o anterior. As marcas são consumidas no encerramento. Preparar outras não dispensa a recarga da Máxima."
+    },
+    {
+      "antes": "Escolha até **seis aliados dispostos que você veja a até 18 m**, incluindo você se desejar. Declare destinos e percursos antes de mover qualquer um; os destinos também precisam estar à sua vista nesse momento. Cada aliado precisa aceitar seu trajeto.",
+      "depois": "Escolha até **seis aliados dispostos que você veja a até 18 m**, incluindo você se desejar. Declare destinos e percursos antes de mover qualquer um. Os destinos também precisam estar à sua vista nesse momento. Cada aliado precisa aceitar seu trajeto."
+    },
+    {
+      "antes": "O movimento acontece pelo cenário. Paredes e barreiras impedem passagem; terreno difícil cobra seu custo. A aplicação não concede voo, escalada, teleporte, ações ou ataques. Também não liberta alguém de uma contenção nem leva junto quem o estiver agarrando. Criaturas carregadas contam no limite de seis.",
+      "depois": "O movimento acontece pelo cenário. Paredes e barreiras impedem passagem. Terreno difícil cobra seu custo. A aplicação não concede voo, escalada, teleporte, ações ou ataques. Também não liberta alguém de uma contenção nem leva junto quem o estiver agarrando. Criaturas carregadas contam no limite de seis."
+    },
+    {
+      "antes": "Condições continuam valendo. Uma criatura sem movimento não pode ser retirada assim. Lento reduz à metade a distância concedida, como nos demais deslocamentos específicos; não cancela a proteção contra ataques de oportunidade. Derrubado precisa seguir o procedimento para levantar ou rastejar. Outros perigos do trajeto continuam funcionando.",
+      "depois": "Condições continuam valendo. Uma criatura sem movimento não pode ser retirada assim. Lento reduz à metade a distância concedida, como nos demais deslocamentos específicos. Não cancela a proteção contra ataques de oportunidade. Derrubado precisa seguir o procedimento para levantar ou rastejar. Outros perigos do trajeto continuam funcionando."
+    }
+  ],
+  "limites": "Esta passagem modifica pontuação e títulos, sem certificar voz natural por métrica automática. Exemplos e revisão contextual registrados à parte."
+}

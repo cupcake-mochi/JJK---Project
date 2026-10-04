@@ -1,0 +1,430 @@
+{
+  "sha256_texto": "efc95812ecf049e756416e15d996399fff98ff465f3aedb981742b4f8a32d292",
+  "decisoes": [
+    {
+      "id": "ORI01",
+      "tipo": "editorial",
+      "antes": "Destranca/Ajusta/Desliga.",
+      "depois": "Legado narrativo/Legado de rolagem/Legado de exceção.",
+      "motivo": "Nomes descrevem o papel, sem metáfora de abertura/fechamento.",
+      "fontes": [
+        "manual25:49–78"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI02",
+      "tipo": "terminologia_e_delimitacao_de_canon",
+      "antes": "Reencarnado; simbiose contra sobrescrita que apagou a pessoa.",
+      "depois": "Encarnado; ponto de vista da consciência retornada, destino do hospedeiro é história combinada.",
+      "motivo": "受肉 no perfil oficial apoia encarnação; fonte acessível não prova extinção de alma.",
+      "fontes": [
+        "manual25:282–292",
+        "https://jujutsukaisen.jp/character/"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI03",
+      "tipo": "esclarecimento_com_impacto",
+      "antes": "Manual introdução permite qualquer formato, outras linhas restringem o segundo a mecânico.",
+      "depois": "Duas escolhas, pelo menos uma narrativa; duas narrativas permitidas.",
+      "motivo": "Prevalência explícita peça09§2/peça13§2, sem ampliar teto mecânico.",
+      "fontes": [
+        "manual25:20",
+        "peça09§2",
+        "peça13§2"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI04",
+      "tipo": "fechamento_de_limite",
+      "antes": "Manual final permite escrita livre sem limite individual claro.",
+      "depois": "No máximo um personalizado; outro catálogo, configuração/ramo preservados.",
+      "motivo": "Resgata limite de peça13§6 e torna seleção executável.",
+      "fontes": [
+        "manual25:Criar o seu Legado",
+        "peça13§6"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI05",
+      "tipo": "editorial",
+      "antes": "Treinos, ofícios e TR repetidos sete vezes; traços omitidos do manual.",
+      "depois": "Uma tabela comum e listas próprias; traços exemplificados em cada Origem.",
+      "motivo": "Reduz duplicação, devolve informação necessária da fonte mecânica.",
+      "fontes": [
+        "manual25:Características",
+        "peça09§3/§5"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI06",
+      "tipo": "precedencia",
+      "antes": "Peça13 mantém Revezamento Impedido e relógios por cena para algumas entradas.",
+      "depois": "Manual vigente prevalece: Revezamento Incapacitado; Repetição/Espasmo/Nunca os Dois/Feito de Uma Peça/Couro por descanso curto.",
+      "motivo": "Não desfazer revisões publicadas posteriores.",
+      "fontes": [
+        "manual25:entradas nomeadas",
+        "peça13§7"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI07",
+      "tipo": "fechamento_procedimental",
+      "antes": "Repetir, vantagem e impedir condição sem janela comum suficiente.",
+      "depois": "Vantagem antes, repetir falha antes das consequências, rolagem completa e novo resultado; exceção impede nova aplicação, não cura antiga.",
+      "motivo": "Explicita uso preservando quantidades, sem prometer sucesso.",
+      "fontes": [
+        "manual25:Legados",
+        "R01:Testes"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI08",
+      "tipo": "correcao_de_ambientacao",
+      "antes": "**escreva na ficha alguém sem energia amaldiçoada que sabe o que você é e nunca contou.** Essa pessoa continua na vida dela, e continua sabendo.",
+      "depois": "Escreva uma pessoa fora do meio jujutsu que conhece seu segredo e nunca o revelou. Ela continua vivendo sua própria vida. Pode ser um vizinho, um familiar ou alguém que você salvou.",
+      "motivo": "Pessoa comum não é automaticamente um ser de energia literalmente zero.",
+      "fontes": [
+        "manual25:115",
+        "peça09:traços Latente"
+      ],
+      "escopo": "A Testemunha"
+    },
+    {
+      "id": "ORI09",
+      "tipo": "esclarecimento",
+      "antes": "**uma vez por cena, role `Sentir Energia` no lugar de `Intuição`**, dizendo como o seu jeito de sentir resolve aquilo.",
+      "depois": "**Uma vez por cena**, use Sentir Energia no lugar de Intuição. Descreva quais sinais de energia permitem interpretar a situação. A substituição mantém a dificuldade, o tempo e os limites da tentativa. Ela não transforma a percepção de energia em leitura de pensamentos.",
+      "motivo": "Substituição não concede leitura mental automática.",
+      "fontes": [
+        "manual25:125",
+        "R05:Sentir Energia"
+      ],
+      "escopo": "Instinto Bruto"
+    },
+    {
+      "id": "ORI10",
+      "tipo": "esclarecimento",
+      "antes": "**para você, qualquer lugar conta como ambiente propício**, no capítulo 5, *Descanso e Recuperação*. Em troca, você não percebe quando os outros não estão aguentando.",
+      "depois": "Qualquer lugar conta como **ambiente propício** para sua recuperação em Descansos. Ainda é preciso conseguir parar para descansar. Em troca, você não percebe espontaneamente quando as condições do lugar estão desgastando seus companheiros. Eles precisam contar ou mostrar o problema.",
+      "motivo": "Ambiente propício não fornece pausa segura nem recuperação repetida.",
+      "fontes": [
+        "manual25:139",
+        "R04:Descansos"
+      ],
+      "escopo": "Chão Duro"
+    },
+    {
+      "id": "ORI11",
+      "tipo": "mecanica",
+      "antes": "**escreva na ficha o que ele quer, e que não é o que você quer. Uma vez por descanso longo, entregue a ele uma coisa que ele queria e ele te dá passagem para o que você precisava.** O mestre narra os dois lados, e o que você cedeu fica escrito na ficha para sempre.",
+      "depois": "Escreva um desejo do passageiro que contrarie o seu. **Uma vez por descanso longo**, você pode lhe entregar algo que ele deseja em troca de ajuda para superar um obstáculo ligado ao conhecimento, à identidade ou às relações dele. Antes da entrega, o mestre apresenta o preço e a ajuda concreta. Registre a concessão na ficha, mesmo depois do descanso. Essa ajuda pode fornecer informação ou acesso, mas não concede ataques, acertos, técnicas ou controle automático sobre outra pessoa.",
+      "motivo": "Preço e ajuda antes da entrega; acesso/informação ligado à presença. O exemplo antigo de golpe automático violava o tipo narrativo.",
+      "fontes": [
+        "manual25:187",
+        "peça13§5:sem ganho direto"
+      ],
+      "escopo": "O Que Ele Quer"
+    },
+    {
+      "id": "ORI12",
+      "tipo": "mecanica_de_janela",
+      "antes": "**uma vez por dia, você deixa ele assumir e refaz qualquer rolagem. Quando você volta, o mestre diz uma coisa que ele fez enquanto estava no comando.** O tempo é decidido pelo mestre, ou por uma negociação usando a **Promessa**.",
+      "depois": "**Uma vez por dia**, permita que o passageiro assuma o corpo e refaça qualquer rolagem. Combine a duração da passagem com o mestre antes de usá-la, ou siga o prazo estabelecido por uma Promessa. Quando retomar o controle, o mestre informa algo que ele fez nesse período. O benefício mecânico desta entrada é a repetição da rolagem. As ações tomadas durante a passagem usam os recursos e as capacidades disponíveis da ficha.",
+      "motivo": "Duração combinada antes evita pagamento sem limite informado; ações do corpo conservam economia.",
+      "fontes": [
+        "manual25:203",
+        "R19:Promessa"
+      ],
+      "escopo": "Passagem"
+    },
+    {
+      "id": "ORI13",
+      "tipo": "esclarecimento_com_impacto",
+      "antes": "**quem sente a sua energia amaldiçoada sente a dele: você não aparece como o que é.** Em troca, o que essas pessoas concluem sobre você costuma ser pior do que a verdade.",
+      "depois": "Quem percebe sua energia amaldiçoada identifica a energia do passageiro. Em troca, as pessoas reagem à identidade que reconheceram, que pode ser mais perigosa para você do que a verdade.\n\nA energia continua presente e perceptível. Uma Cortina que identifique assinaturas pode reagir à do passageiro. Uma barreira que impeça qualquer criatura com energia continua reconhecendo a sua presença. Máscara não ignora critérios independentes de identidade, como tamanho, objetos carregados ou uma obstrução física.",
+      "motivo": "Troca assinatura lida, não dispensa energia/paredes/outros critérios. Exemplo de Cortina antiga generalizava benefício.",
+      "fontes": [
+        "manual25:207",
+        "R09:Barreiras"
+      ],
+      "escopo": "Máscara"
+    },
+    {
+      "id": "ORI14",
+      "tipo": "fechamento_de_requisito",
+      "antes": "**uma vez por cena, role com vantagem o Teste de Resistência contra uma técnica conhecida no mundo jujutsu.**",
+      "depois": "**Uma vez por cena**, faça com vantagem um Teste de Resistência contra uma técnica conhecida no mundo jujutsu. Você precisa reconhecer qual técnica está sendo usada e já conhecer sua existência pelos relatos do meio. O mestre confirma essas duas informações antes do teste. Uma técnica recém-descoberta durante o combate não passa a cumprir o requisito apenas porque alguém viu seu efeito.",
+      "motivo": "Reconhecer a técnica e conhecer antes sua existência concretiza conhecida no mundo, sem restringir só a técnicas de clã como peça antiga.",
+      "fontes": [
+        "manual25:268",
+        "manual25:Conversa de Jantar"
+      ],
+      "escopo": "Conversa de Jantar"
+    },
+    {
+      "id": "ORI15",
+      "tipo": "mecanica",
+      "antes": "**uma vez por cena, você não fica `Derrubado`.** Em troca, o mestre diz uma coisa pequena que o seu corpo passa a fazer errado até o fim da cena.",
+      "depois": "**Uma vez por cena**, impeça uma aplicação de Derrubado. Em troca, o mestre aponta um pequeno problema do corpo que dura até o fim da cena, como tremor ao manipular algo delicado. Combine a consequência concreta antes de confirmar o uso. Ela deve prejudicar uma tarefa cotidiana pertinente, sem retirar ações, incapacitar um membro ou criar dano adicional.",
+      "motivo": "Contrapartida informada, tarefa cotidiana pertinente, sem perda arbitrária de membro/ação ou dano por uma condição Leve.",
+      "fontes": [
+        "manual25:358",
+        "peça13§5:troca"
+      ],
+      "escopo": "Usado"
+    },
+    {
+      "id": "ORI16",
+      "tipo": "esclarecimento_de_autoria",
+      "antes": "**escreva na ficha quantos vocês eram e o que aconteceu com eles. Você reconhece um irmão quando encontra, e sabe quando um morre, esteja onde estiver.** Nem todos se parecem com você.",
+      "depois": "Escreva quantos irmãos tem e o que aconteceu com eles. Você reconhece um irmão ao encontrá-lo e sabe quando um deles morre, mesmo distante. Eles podem ser criações diferentes da mesma pessoa. Combine novas relações com o mestre antes de acrescentá-las à história. O vínculo não informa a localização nem os pensamentos do irmão.",
+      "motivo": "Relações combinadas não controle automático de NPC; sem radar ou telepatia.",
+      "fontes": [
+        "manual25:397",
+        "peça13:Irmãos"
+      ],
+      "escopo": "Irmãos"
+    },
+    {
+      "id": "ORI17",
+      "tipo": "mecanica",
+      "antes": "**você não precisa comer, dormir nem respirar como um humano.** Em troca, o seu corpo tem necessidades que ninguém sabe nomear.",
+      "depois": "Você dispensa comida, sono e respiração humanos. Em troca, escolha com o mestre uma necessidade corporal própria e registre como atendê-la. Para recuperar vida e PE num descanso longo, precisa satisfazê-la durante esse descanso. Um exemplo é mergulhar o corpo numa mistura específica que possa obter e transportar. A necessidade e o meio de satisfazê-la devem ser conhecidos antes da primeira sessão. Escolha algo que possa cumprir sem ferir outra pessoa ou pagar um preço ilimitado. Esse cuidado não substitui o tempo e as condições do descanso.\n\nA dispensa de sono permite permanecer acordado, mas recuperar recursos continua exigindo os descansos normais. Dispensar respiração impede sufocamento, sem conceder imunidade a veneno, doença, dano ou gases que afetem o corpo por outros meios.",
+      "motivo": "Contrapartida antiga sem efeito utilizável. Necessidade definida impede recuperar PV/PE no descanso longo sem atendimento, sem preço letal/ilimitado, sem imundano.",
+      "fontes": [
+        "manual25:427",
+        "peça13§5:contrapartida",
+        "R04:Descansos"
+      ],
+      "escopo": "Sangue que Não é Sangue"
+    },
+    {
+      "id": "ORI18",
+      "tipo": "mecanica",
+      "antes": "**uma vez por cena, você não fica `Agarrado`.** Em troca, você sai por onde couber: quem te agarrou escolhe se você larga o que estava na sua mão ou termina fora da posição que queria.",
+      "depois": "**Uma vez por cena**, impeça uma aplicação de Agarrado. O agressor escolhe a contrapartida: você solta um objeto que segura ou é deslocado **1,5 m** para um espaço livre com apoio que ele escolher, adjacente à sua posição. Se uma opção for impossível, escolha a outra. Se nenhuma for possível, você não pode usar o Legado. Esse deslocamento não provoca ataques de oportunidade.",
+      "motivo": "Contrapartida delimitada: objeto ou deslocamento1,5m livre/apoio; impossibilidade dos dois impede uso; sem oportunidade para tornar a saída resolução única.",
+      "fontes": [
+        "manual25:430",
+        "manual25:Talhe",
+        "R02:movimento forçado"
+      ],
+      "escopo": "Talhe"
+    },
+    {
+      "id": "ORI19",
+      "tipo": "esclarecimento_com_impacto",
+      "antes": "**os degraus de exaustão não te alcançam.** Em troca, você não sente quando está perto de quebrar: você não sabe quantos pontos de vida tem, é difícil discernir.",
+      "depois": "Você não adquire estágios de Exaustão. Em troca, não conhece sua vida atual: o mestre registra os pontos e descreve os sinais de dano que seu corpo apresenta. Ele ainda informa quando você chega a um limite que exige escolha ou permite usar uma habilidade, para que possa decidir. O Legado não impede dano, queda ou destruição do corpo.",
+      "motivo": "Mantém imunidade Exaustão e PVoculto, mas mestre deve anunciar escolhas/requisitos para não bloquear habilidades pela ocultação.",
+      "fontes": [
+        "manual25:581",
+        "manual25:Ferro Velho",
+        "R04:vida0"
+      ],
+      "escopo": "Ferro Velho"
+    },
+    {
+      "id": "ORI20",
+      "tipo": "mecanica",
+      "antes": "**uma vez por cena, role com vantagem um teste feito sem sair do lugar em que você está.**",
+      "depois": "**Uma vez por cena**, faça um teste com vantagem enquanto permanece no mesmo lugar. Em combate, você não pode ter se deslocado voluntariamente desde o começo do seu turno atual ou mais recente e não pode fazê-lo até o começo do próximo. Fora do combate, permaneça no lugar durante toda a tentativa. Deslocamento forçado não invalida uma rolagem já resolvida.",
+      "motivo": "Ficar parado precisava ter duração real. Imobilidade voluntária desde início turno atual/mais recente até próximo, sem anular depois por empurrão. Fora combate dura tentativa inteira.",
+      "fontes": [
+        "manual25:656",
+        "manual25:Do Meu Canto"
+      ],
+      "escopo": "Do Meu Canto"
+    },
+    {
+      "id": "ORI21",
+      "tipo": "esclarecimento",
+      "antes": "**escreva na ficha a coisa pela qual o meio jujutsu te conhece, e que não é o seu corpo: um nome, uma voz, uma casca. Quase ninguém sabe que existe outra pessoa do outro lado.**",
+      "depois": "Escreva pelo que o meio jujutsu conhece você: um nome, uma voz, uma representação ou outro meio diferente do seu corpo. Poucas pessoas sabem quem está por trás disso. Se a representação precisar se mover, falar ou agir à distância, sua ficha deve possuir o recurso apropriado.",
+      "motivo": "Representação narrativa não concede criatura remota; capacidade precisa existir na ficha.",
+      "fontes": [
+        "manual25:645",
+        "peça09:Origem não dá técnica"
+      ],
+      "escopo": "O Substituto"
+    },
+    {
+      "id": "ORI22",
+      "tipo": "esclarecimento_de_canon_e_mecanica",
+      "antes": "**escreva na ficha quem nasceu junto de você e ficou com a outra metade da restrição, e onde essa pessoa está. Enquanto os dois existirem, nenhum dos dois está inteiro.**",
+      "depois": "Escreva quem nasceu junto de você e a ligação dessa pessoa com sua Restrição Celestial. Ela representa a outra parte de uma troca que marcou os dois. Defina onde está e como vocês se relacionam. O Legado estabelece esse vínculo na história. Seu personagem continua usando integralmente as regras de Sem Energia, sem ganhar energia residual ou bônus quando algo acontece à outra pessoa.",
+      "motivo": "Mantém vínculo com gêmeo sem contradizer energia zero ou promover automaticamente ficha se irmão morrer.",
+      "fontes": [
+        "manual25:676",
+        "peça09:ramo Sem Energia"
+      ],
+      "escopo": "Dividido"
+    },
+    {
+      "id": "ORI23",
+      "tipo": "esclarecimento_com_impacto",
+      "antes": "**escreva na ficha como você resolveu não enxergar maldição: o que você usa, ou o que você treinou até substituir o que falta. O método tem limite próprio, e ele fica escrito junto.**",
+      "depois": "Escreva como aprendeu a perceber maldições sem o sentido de energia: um equipamento ou um método de observação. Registre também seus limites. A função concreta deve vir de uma regra disponível à ficha. Este Legado estabelece a história do aprendizado, sem conceder percepção irrestrita ou uma Bênção gratuita.",
+      "motivo": "História do método não concede Bênção/equipamento/sentido grátis; recurso próprio deve sustentar função.",
+      "fontes": [
+        "manual25:682",
+        "R10:Bênçãos"
+      ],
+      "escopo": "Aprendi a Ver"
+    },
+    {
+      "id": "ORI24",
+      "tipo": "fechamento_de_alcance",
+      "antes": "**você percebe ferramenta amaldiçoada, barreira e véu pelo tato e pelo peso, e o que engana feiticeiro não engana você.** Em troca, o aviso vem sem nome: você sente que tem alguma coisa ali, e nunca o que é.",
+      "depois": "Você percebe a presença de ferramenta amaldiçoada, barreira ou véu pelo tato, pelo peso e pelos efeitos físicos que produzem. Essa percepção funciona mesmo quando a energia foi disfarçada. Em troca, o aviso informa somente que existe algo ali, sem identificar sua natureza ou funcionamento. É necessário contato ou um indício físico acessível. Um objeto distante sem sinais ao seu alcance não é detectado.",
+      "motivo": "Tato/peso/indício físico acessível, sem radar ilimitado.",
+      "fontes": [
+        "manual25:703",
+        "manual25:Peso Real"
+      ],
+      "escopo": "Peso Real"
+    },
+    {
+      "id": "ORI25",
+      "tipo": "esclarecimento",
+      "antes": "**uma vez por descanso longo, você não fica `Cego`.** Em troca, escreva na ficha uma coisa comum que você nunca vai conseguir fazer, e ela não volta em nível nenhum.",
+      "depois": "**Uma vez por descanso longo**, impeça uma aplicação de Cego. Em troca, escolha na criação uma atividade cotidiana que seu personagem é incapaz de realizar e registre a limitação permanente. Ela deve ter importância na vida apresentada, como distinguir rostos pela visão. A exceção não concede visão no escuro, alcance sensorial adicional ou identificação de algo que você nunca percebeu.",
+      "motivo": "Negar Cego não fornece visão em escuro nem sentidos novos; contraparte escrita antes.",
+      "fontes": [
+        "manual25:706",
+        "R03:Cego"
+      ],
+      "escopo": "Assinado"
+    },
+    {
+      "id": "ORI26",
+      "tipo": "mecanica_aprovada_pelo_coordenador",
+      "antes": "Reparo326: metadePV, difícil no mesmo nível, CD sem atributo definido.",
+      "depois": "CD8+atributo do ofício+maestria do reparador +0/−2/−4 porClasse; especialização só na rolagem.",
+      "motivo": "Mesma fórmula já aplicada à Fabricação; mantém65/75/85% treinado sem modificadores. Sincronizar R11.",
+      "fontes": [
+        "manual25:Cura",
+        "peça09:v326",
+        "peça04§2.2",
+        "R-fabricação:Teste de fabricação"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI27",
+      "tipo": "preservacao",
+      "antes": "Imunidade329 a Envenenado.",
+      "depois": "Mantida; tipo Veneno não ganha resistência/imunidade.",
+      "motivo": "Distingue condição e tipo de dano sem mudar decisão autoral.",
+      "fontes": [
+        "manual25:Imunidade",
+        "peça09:v329",
+        "R03:Envenenado"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI28",
+      "tipo": "editorial_de_canon",
+      "antes": "Quatro configurações apresentadas como fatos de canon; prazo de3meses generalizado.",
+      "depois": "Panda referência, configurações do sistema explicitadas; prazo universal removido.",
+      "motivo": "Evitar afirmar que criação Inteiro/Gêmeos/Manutenção é canon validado.",
+      "fontes": [
+        "manual25:Corpo",
+        "peça13:configurações",
+        "siteoficial:Panda/Yaga"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI29",
+      "tipo": "sincronizacao",
+      "antes": "Sem Energia descrita como semfeitiçoToque.",
+      "depois": "Proibição de energia pessoal preservada, Katas de contato compatíveis permitidas.",
+      "motivo": "R10jáconservaFormaToque física; não vetar pelo nome da Forma.",
+      "fontes": [
+        "manual25:Restrição",
+        "peça09:v276",
+        "R10:Técnica Marcial"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI30",
+      "tipo": "sincronizacao",
+      "antes": "SemTécnica repete introdução e promete três sementes.",
+      "depois": "Uma entrada compartilhada e remissão a R10 atual com quatro opções.",
+      "motivo": "Evita duplicar sementes/aptidões e envelhecer a quantidade.",
+      "fontes": [
+        "manual25:SemTécnica",
+        "R10:Sementes"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI31",
+      "tipo": "editorial",
+      "antes": "Exemplo de Recarga sugere quatro confrontos=quatro usos.",
+      "depois": "Descansos efetivos necessários entre utilizações.",
+      "motivo": "Frequência por descanso curto não é por combate.",
+      "fontes": [
+        "manual25:Recarga",
+        "R04:Descansos"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI32",
+      "tipo": "editorial_e_funcional",
+      "antes": "Exemplos dizem Tranco contra veneno, Faro revela três andares, NinguémViu nova tentativa implícita.",
+      "depois": "Exemplos limitados ao TR pedido, sentidos disponíveis e ação de esconder-se preservada.",
+      "motivo": "Não introduzir capacidades novas por exemplo.",
+      "fontes": [
+        "manual25:Tranco/Faro/Ninguém Viu",
+        "R03",
+        "R05"
+      ],
+      "escopo": null
+    },
+    {
+      "id": "ORI33",
+      "tipo": "fechamento_mecanico_aprovado",
+      "antes": "Feto tem natureza humana e amaldiçoada sem classificação mecânica explícita para efeitos contra maldições.",
+      "depois": "Para as regras do Projeto M, escolher Feto não classifica seu personagem como uma maldição. Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e recuperação normais, salvo uma exceção expressa da sua ficha.",
+      "motivo": "Achado da revisão independente: R09 cura ofensiva exige alvo maldição. O tipo ficcional misto não deveria decidir essa interação sem regra. Root aprovou separar classificação de jogo de cânone.",
+      "fontes": [
+        "manual25:Feto",
+        "R09:Energia Reversa",
+        "revisão independente compatibilidade e autorização raiz 2026-10-03"
+      ]
+    },
+    {
+      "id": "ORI34",
+      "tipo": "esclarecimento",
+      "antes": "Legados não causam dano, não aumentam com o nível e não ganham novas vagas pela progressão.",
+      "depois": "Legados não causam dano nem concedem novas entregas ou usos por nível. Quando um efeito permite fazer um teste como treinado, use sua maestria atual. A progressão não concede novas vagas de Legado.",
+      "motivo": "Ausência de progressão própria do Legado não congela atributo/maestria da ficha. Achado independente aprovado pela raiz.",
+      "fontes": [
+        "peça13:sem escala de Legado",
+        "R01:treinamento",
+        "R21:maestria atual"
+      ]
+    },
+    {
+      "id": "OR35",
+      "tipo": "C",
+      "antes": "Todos começam Grau4, sem ressalva.",
+      "depois": "Grau4 na criação padrão; exceções e promoção remetem a Patentes.",
+      "motivo": "Concilia permissão de campanha já prevista no equipamento e explicada em PRO35, sem privilégio por Origem."
+    }
+  ],
+  "status": "Candidata; fontes publicadas intocadas. Fechamentos mecânicos são visíveis para revisão independente."
+}

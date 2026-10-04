@@ -1,0 +1,72 @@
+{
+  "fontes_publicadas": [
+    "sistema/05-material/livro/manual/10-como-jogar.md",
+    "sistema/05-material/livro/manual/11-o-turno.md",
+    "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+    "sistema/03-mecanica/01-atributos-acerto-defesa.md",
+    "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md"
+  ],
+  "correntes": [
+    {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "sha256": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35"
+    },
+    {
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "sha256": "afd311cfde0914af381f09cee3e756138a6ddb976a4c6276e4f6b378b2eac477"
+    },
+    {
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "sha256": "3a7c2783e8f07a1d0de20317d1115d592d45c8b96cbbf7452e28d970ef03bb06"
+    },
+    {
+      "arquivo": "regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+      "sha256": "2b2a7a7379cf81a78bc53ccad0f9f415f4c4c5e393895395c787ed318847d3a4"
+    },
+    {
+      "arquivo": "regras-comuns/lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+      "sha256": "8c10c18f03d549f9af401c668910c74f8921a9069882405cd708087b23f7581d"
+    },
+    {
+      "arquivo": "regras-comuns/lote-05-r2/evidencias/CANONE-E-ADAPTACAO.md",
+      "sha256": "c50e10e93517fe98b70bcabb9d19804566f37bd6e8edd02b4d46dadb1783a371"
+    },
+    {
+      "arquivo": "regras-comuns/lote-05-r2/evidencias/fontes-canone.json",
+      "sha256": "f8f3114820857a6f910eab9d4d7489139e4fac99ffd9204f9fe352634a49499e"
+    },
+    {
+      "arquivo": "caminhos/incursor/lote-01/SINCRONIZACOES.md",
+      "sha256": "af896a4243461e8e60b5aff67f3599f71183225af9158ec958e0c2767a7fb6e5"
+    },
+    {
+      "arquivo": "caminhos/bastiao/lote-01/INTERFACES.json",
+      "sha256": "af1ca1ae6a6b0770917d0eb8c0da16f96d911983855e085309c81ffdd41c60ad"
+    },
+    {
+      "arquivo": "caminhos/evocador/lote-01/INTERFACES.json",
+      "sha256": "fc511f564fea5f11398e4ef906e736e8cdd9215855ff8a63ccd33e222a26bf64"
+    },
+    {
+      "arquivo": "aptidoes/lote-01/evidencias/INTERFACES.json",
+      "sha256": "cf3ae11404b8b87bce4dd7db33f0ddb8b89597cd2783483314d5d54f425be338"
+    },
+    {
+      "arquivo": "rotas/lote-01/INTERFACES.md",
+      "sha256": "ea207928838532c481b5dd9ea52604aceb05b458650d5a2795034bbbdfddfb01"
+    }
+  ],
+  "referencias_rpg": [
+    {
+      "arquivo": "Player_Hand_Book_DnD_2024.pdf.zip",
+      "consulta": "Leitura dirigida da edição local em tradução comunitária: PDF30–33 e366/378, movimento, grid, montaria, oportunidade, Ajudar e percepção passiva. Não leitura integral.",
+      "aproveitamento": "Ordem requisito/custo/resolução/prazo; mapa1,5m, divisão de movimento, montagem; mudanças do ProjetoM documentadas sem copiar prosa."
+    },
+    {
+      "arquivo": "dampd-5e---caldeirao-de-tasha-para-tudo.pdf.zip",
+      "consulta": "PDF161, quedas na água e sobre criatura, extração dirigida local.",
+      "aproveitamento": "Dano compartilhado como referência estrutural; ProjetoM CD14, ±1categoria, Padrão deliberada, dano antes das defesas, uma vítima e sem duplicar colisão."
+    }
+  ],
+  "canon": "Registro primário já conferido em lote05-r2, não nova leitura integral nem fonte de números. A narrativa geral do mundo fica em R22."
+}

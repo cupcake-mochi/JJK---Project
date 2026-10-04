@@ -1,0 +1,159 @@
+{
+  "status": "Rodada de reconstrução concluída; candidata para revisão do usuário e teste de mesa",
+  "sha256_pdf": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "sha256_texto": "8e5f441e3059f9d78c9892b899671d5e7618b078fd9da3af6ee24829630f378a",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "estado": "Cobertura integral verificada",
+      "evidencias": [
+        "evidencias/MAPA-BLOCOS.json",
+        "evidencias/QA-ESTRUTURAL.json"
+      ],
+      "limites": "23 fontes e510 blocos, cada um incluído uma vez."
+    },
+    {
+      "id": "V02",
+      "nome": "Fonte e preservação",
+      "estado": "Preservação e proveniência verificadas",
+      "evidencias": [
+        "evidencias/FECHAMENTO-DOS-DONOS.json",
+        "evidencias/GERACAO.json"
+      ],
+      "limites": "Texto final comparado com as fontes. Publicação anterior conservada; fontes de pesquisa e adaptação permanecem documentadas por capítulo."
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionamento",
+      "estado": "Funcionamento revisado no conjunto",
+      "evidencias": [
+        "evidencias/REVISAO-TRANSVERSAL-FINAL.md",
+        "evidencias/FECHAMENTO-DOS-DONOS.json"
+      ],
+      "limites": "Casos dos23donos reaproveitados por preservação do conteúdo, mais interfaces finais. Não é execução de todas as combinações possíveis."
+    },
+    {
+      "id": "V04",
+      "nome": "Validação numérica",
+      "estado": "Validação numérica reaproveitada e delta verificado",
+      "evidencias": [
+        "evidencias/FECHAMENTO-DOS-DONOS.json",
+        "evidencias/AJUSTES-FINAIS-INTEGRACAO.json"
+      ],
+      "limites": "Modelos numéricos dos donos permanecem aplicáveis.17 ajustes finais só mudam remissões; não foram anunciadas novas simulações globais."
+    },
+    {
+      "id": "V05",
+      "nome": "Balanceamento",
+      "estado": "Balanceamento avaliado com limites",
+      "evidencias": [
+        "evidencias/REVISAO-TRANSVERSAL-FINAL.md"
+      ],
+      "limites": "Custos, frequência, ações e combinações foram avaliados nas unidades e interfaces. Sem playtest humano; equilíbrio percebido permanece questão de mesa."
+    },
+    {
+      "id": "V06",
+      "nome": "Interfaces",
+      "estado": "Interfaces e remissões conferidas",
+      "evidencias": [
+        "evidencias/REVISAO-TRANSVERSAL-FINAL.md",
+        "evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+        "evidencias/DESTINOS-PENDENTES.json"
+      ],
+      "limites": "508 links resolvidos. Remissões por título corrigidas, sem presumir que toda referência descritiva seja link."
+    },
+    {
+      "id": "V07",
+      "nome": "Edição automática",
+      "estado": "Validação editorial executada",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL-FINAL.json",
+        "migracao-nomes/MAPA.json"
+      ],
+      "limites": "Sem títulos Como ler ou artigos iniciais A/O/As/Os. Busca automática complementa revisão contextual, sem prometer detecção perfeita de artificialidade."
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza e suficiência",
+      "estado": "Clareza e suficiência revisadas",
+      "evidencias": [
+        "evidencias/REVISAO-TRANSVERSAL-FINAL.md",
+        "evidencias/FECHAMENTO-DOS-DONOS.json"
+      ],
+      "limites": "Leituras integrais dos capítulos e revisão final das interfaces. Entendimento por leitores iniciantes ainda não foi medido com pessoas."
+    },
+    {
+      "id": "V09",
+      "nome": "Comparação com livros de RPG",
+      "estado": "Comparação editorial preservada e aplicação final avaliada",
+      "evidencias": [
+        "evidencias/REVISAO-TRANSVERSAL-FINAL.md"
+      ],
+      "limites": "Referências de D&D e demais livros estão nos relatórios dos donos. Organização, procedimentos, exemplos e consulta aplicados na montagem; sem cópia de prosa ou nova leitura integral dos livros nesta etapa."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização do conteúdo",
+      "estado": "Localização e hierarquia verificadas",
+      "evidencias": [
+        "ORDEM.json",
+        "evidencias/MAPA-BLOCOS.json",
+        "evidencias/QA-ESTRUTURAL.json"
+      ],
+      "limites": "5partes,21capítulos e6Caminhos no painel:32entradas.510blocos sem duplicação; referências rápidas e índice usam síntese intencional."
+    },
+    {
+      "id": "V11",
+      "nome": "Cânone",
+      "estado": "Cânone e adaptação delimitados",
+      "evidencias": [
+        "evidencias/REVISAO-TRANSVERSAL-FINAL.md",
+        "evidencias/FECHAMENTO-DOS-DONOS.json"
+      ],
+      "limites": "Evidências da obra permanecem nos capítulos pertinentes. Nenhuma afirmação canônica foi acrescentada pelo fechamento; regras de jogo não são tratadas como fatos do mangá."
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "estado": "Revisões independentes reunidas e integração revisada",
+      "evidencias": [
+        "evidencias/FINAL-TRANSVERSAL-COMPATIBILIDADE.md",
+        "evidencias/REVISAO-TRANSVERSAL-FINAL.md",
+        "evidencias/FECHAMENTO-DOS-DONOS.json"
+      ],
+      "limites": "Revisores por modelos distintos dos autores conforme registros dos donos; raiz verificou a montagem originalmente produzida por outro agente e os deltas. Não equivale a leitores externos humanos."
+    },
+    {
+      "id": "V13",
+      "nome": "Preflight do PDF",
+      "estado": "Preflight final aprovado",
+      "evidencias": [
+        "evidencias/QA-ESTRUTURAL.json"
+      ],
+      "limites": "3492 verificações; fontes incorporadas, texto pesquisável, geometria e508links válidos."
+    },
+    {
+      "id": "V14",
+      "nome": "Inspeção visual integral",
+      "estado": "Inspeção visual integral concluída",
+      "evidencias": [
+        "evidencias/FINAL-V14.json",
+        "evidencias/DELTA-VISUAL-FINAL.json",
+        "evidencias/DELTA-MALABARISTA.json"
+      ],
+      "limites": "383 páginas cobertas por inspeção real ou identidade visual comprovada com páginas inspecionadas.80 páginas alteradas, complemento50 e ampliações registrados."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade e reprodução",
+      "estado": "Rastreabilidade e reprodução verificadas",
+      "evidencias": [
+        "evidencias/FECHAMENTO-DOS-DONOS.json",
+        "evidencias/DETERMINISMO-FINAL.json",
+        "MANIFESTO.json"
+      ],
+      "limites": "Fontes, alterações, decisões, provas históricas e hashes distinguem a entrega vigente de estados anteriores. ZIP recebe inventário e teste próprio."
+    }
+  ]
+}

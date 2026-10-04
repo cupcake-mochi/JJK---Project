@@ -1,0 +1,1839 @@
+[
+  {
+    "termo": "Teste",
+    "categoria": "Rolagens",
+    "linha": 12,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "testes",
+      "titulo": "Testes"
+    }
+  },
+  {
+    "termo": "CD",
+    "categoria": "Rolagens",
+    "linha": 13,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "testes",
+      "titulo": "Testes"
+    }
+  },
+  {
+    "termo": "Vantagem",
+    "categoria": "Rolagens",
+    "linha": 14,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "pericias",
+      "titulo": "Perícias e ofícios"
+    }
+  },
+  {
+    "termo": "Desvantagem",
+    "categoria": "Rolagens",
+    "linha": 15,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "pericias",
+      "titulo": "Perícias e ofícios"
+    }
+  },
+  {
+    "termo": "Maestria",
+    "categoria": "Rolagens",
+    "linha": 16,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "atributos",
+      "titulo": "Atributos"
+    }
+  },
+  {
+    "termo": "Teste de Resistência",
+    "categoria": "Rolagens",
+    "linha": 17,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "resistencia",
+      "titulo": "Testes de Resistência"
+    }
+  },
+  {
+    "termo": "Defesa",
+    "categoria": "Rolagens",
+    "linha": 18,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "ancora": "defesa",
+      "titulo": "Defesa e cobertura"
+    }
+  },
+  {
+    "termo": "Crítico",
+    "categoria": "Rolagens",
+    "linha": 19,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "ancora": "critico",
+      "titulo": "Dano e crítico"
+    }
+  },
+  {
+    "termo": "Bloquear",
+    "categoria": "Rolagens",
+    "linha": 20,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "ancora": "bloquear",
+      "titulo": "Bloquear"
+    }
+  },
+  {
+    "termo": "Aparar",
+    "categoria": "Rolagens",
+    "linha": 21,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "ancora": "aparar",
+      "titulo": "Aparar e Brecha"
+    }
+  },
+  {
+    "termo": "Brecha",
+    "categoria": "Rolagens",
+    "linha": 22,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "ancora": "aparar",
+      "titulo": "Aparar e Brecha"
+    }
+  },
+  {
+    "termo": "Arredondamento",
+    "categoria": "Rolagens",
+    "linha": 23,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Atributo",
+    "categoria": "Números da ficha",
+    "linha": 32,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "atributos",
+      "titulo": "Atributos"
+    }
+  },
+  {
+    "termo": "Pontos de vida",
+    "categoria": "Números da ficha",
+    "linha": 33,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "dano",
+      "titulo": "Dano"
+    }
+  },
+  {
+    "termo": "Pontos de energia",
+    "categoria": "Números da ficha",
+    "linha": 34,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rotas",
+      "titulo": "Rotas de criação"
+    }
+  },
+  {
+    "termo": "Integridade",
+    "categoria": "Números da ficha",
+    "linha": 35,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "alma",
+      "titulo": "Dano na alma"
+    }
+  },
+  {
+    "termo": "Vida temporária",
+    "categoria": "Números da ficha",
+    "linha": 36,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+      "ancora": "temporarios",
+      "titulo": "Vida e energia temporárias"
+    }
+  },
+  {
+    "termo": "Energia temporária",
+    "categoria": "Números da ficha",
+    "linha": 37,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+      "ancora": "temporarios",
+      "titulo": "Vida e energia temporárias"
+    }
+  },
+  {
+    "termo": "Proteção",
+    "categoria": "Números da ficha",
+    "linha": 38,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "equipamento/lote-02-r3/PROTECAO.md",
+      "ancora": "protecao",
+      "titulo": "Proteção"
+    }
+  },
+  {
+    "termo": "Volume",
+    "categoria": "Números da ficha",
+    "linha": 39,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+      "ancora": "carga",
+      "titulo": "Carga"
+    }
+  },
+  {
+    "termo": "Redução de Dano",
+    "categoria": "Números da ficha",
+    "linha": 40,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "reducao",
+      "titulo": "Redução de Dano"
+    }
+  },
+  {
+    "termo": "Perícia",
+    "categoria": "Números da ficha",
+    "linha": 41,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "ancora": "pericias",
+      "titulo": "Perícias e ofícios"
+    }
+  },
+  {
+    "termo": "Ofício",
+    "categoria": "Números da ficha",
+    "linha": 42,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "ancora": "oficios",
+      "titulo": "Ofícios"
+    }
+  },
+  {
+    "termo": "Condição",
+    "categoria": "Números da ficha",
+    "linha": 43,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "condicoes",
+      "titulo": "Condições"
+    }
+  },
+  {
+    "termo": "Leve",
+    "categoria": "Números da ficha",
+    "linha": 44,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Média",
+    "categoria": "Números da ficha",
+    "linha": 45,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Pesada",
+    "categoria": "Números da ficha",
+    "linha": 46,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Exaustão",
+    "categoria": "Números da ficha",
+    "linha": 47,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+      "ancora": "exaustao",
+      "titulo": "Exaustão"
+    }
+  },
+  {
+    "termo": "Sequela",
+    "categoria": "Números da ficha",
+    "linha": 48,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+      "ancora": "sequelas",
+      "titulo": "Sequelas e Cicatrizes"
+    }
+  },
+  {
+    "termo": "Cicatriz",
+    "categoria": "Números da ficha",
+    "linha": 49,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+      "ancora": "sequelas",
+      "titulo": "Sequelas e Cicatrizes"
+    }
+  },
+  {
+    "termo": "Caminho",
+    "categoria": "Personagem",
+    "linha": 58,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+      "ancora": "ab-caminho",
+      "titulo": "Caminho e Trilha"
+    }
+  },
+  {
+    "termo": "Trilha",
+    "categoria": "Personagem",
+    "linha": 59,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+      "ancora": "ab-caminho",
+      "titulo": "Caminho e Trilha"
+    }
+  },
+  {
+    "termo": "Fluidez",
+    "categoria": "Personagem",
+    "linha": 60,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "ancora": "inc-fluidez",
+      "titulo": "Fluidez"
+    }
+  },
+  {
+    "termo": "Canalizar em Golpe",
+    "categoria": "Personagem",
+    "linha": 61,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "ancora": "apt-canalizar",
+      "titulo": "Canalizar Energia"
+    }
+  },
+  {
+    "termo": "Pontos de Vínculo",
+    "categoria": "Personagem",
+    "linha": 62,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "caminhos/evocador/lote-01/EVOCADOR.md",
+      "ancora": "ev-vinculo",
+      "titulo": "Vínculo"
+    }
+  },
+  {
+    "termo": "Entidade",
+    "categoria": "Personagem",
+    "linha": 63,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "ancora": "entidades-criar",
+      "titulo": "Criar uma invocação"
+    }
+  },
+  {
+    "termo": "Básica",
+    "categoria": "Personagem",
+    "linha": 64,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "ancora": "inv-basica",
+      "titulo": "Atuação básica"
+    }
+  },
+  {
+    "termo": "Especial de invocação",
+    "categoria": "Personagem",
+    "linha": 65,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "ancora": "inv-especial",
+      "titulo": "Comandar uma especial"
+    }
+  },
+  {
+    "termo": "Reação coletiva",
+    "categoria": "Personagem",
+    "linha": 66,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "ancora": "inv-ciclo",
+      "titulo": "Turnos das entidades"
+    }
+  },
+  {
+    "termo": "Rápido",
+    "categoria": "Personagem",
+    "linha": 67,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-tempo",
+      "titulo": "Tempo"
+    }
+  },
+  {
+    "termo": "Aquecer",
+    "categoria": "Personagem",
+    "linha": 68,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-restricoes-uso",
+      "titulo": "Condições de uso"
+    }
+  },
+  {
+    "termo": "Levanta",
+    "categoria": "Personagem",
+    "linha": 69,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-amparo",
+      "titulo": "Amparo"
+    }
+  },
+  {
+    "termo": "Fica",
+    "categoria": "Personagem",
+    "linha": 70,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-area-continua",
+      "titulo": "Efeitos de área"
+    }
+  },
+  {
+    "termo": "Rajada",
+    "categoria": "Personagem",
+    "linha": 71,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-area",
+      "titulo": "Área"
+    }
+  },
+  {
+    "termo": "Inescapável",
+    "categoria": "Personagem",
+    "linha": 72,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-mira",
+      "titulo": "Mira"
+    }
+  },
+  {
+    "termo": "Anteparo",
+    "categoria": "Personagem",
+    "linha": 73,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-obstaculos",
+      "titulo": "Obstáculos e contenção"
+    }
+  },
+  {
+    "termo": "Toca a Alma",
+    "categoria": "Personagem",
+    "linha": 74,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-defesas",
+      "titulo": "Defesas"
+    }
+  },
+  {
+    "termo": "Remenda",
+    "categoria": "Personagem",
+    "linha": 75,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-amparo",
+      "titulo": "Amparo"
+    }
+  },
+  {
+    "termo": "Dívida",
+    "categoria": "Personagem",
+    "linha": 76,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-restricoes-uso",
+      "titulo": "Condições de uso"
+    }
+  },
+  {
+    "termo": "Escolher",
+    "categoria": "Personagem",
+    "linha": 77,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-area",
+      "titulo": "Área"
+    }
+  },
+  {
+    "termo": "Guarda",
+    "categoria": "Personagem",
+    "linha": 78,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-auxiliares-apoio",
+      "titulo": "Proteção e apoio"
+    }
+  },
+  {
+    "termo": "Queima",
+    "categoria": "Personagem",
+    "linha": 79,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-castigo",
+      "titulo": "Castigo"
+    }
+  },
+  {
+    "termo": "Armado",
+    "categoria": "Personagem",
+    "linha": 80,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-tempo",
+      "titulo": "Tempo"
+    }
+  },
+  {
+    "termo": "Efeito Próprio",
+    "categoria": "Personagem",
+    "linha": 81,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-proprio",
+      "titulo": "Efeito Próprio"
+    }
+  },
+  {
+    "termo": "Mão Firme",
+    "categoria": "Personagem",
+    "linha": 82,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-passivas-1",
+      "titulo": "Passivas de Classe 1"
+    }
+  },
+  {
+    "termo": "Fluxo",
+    "categoria": "Personagem",
+    "linha": 83,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-passivas-2-recursos",
+      "titulo": "Passivas de Classe 2"
+    }
+  },
+  {
+    "termo": "Passiva Própria",
+    "categoria": "Personagem",
+    "linha": 84,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-passiva-propria",
+      "titulo": "Passiva Própria"
+    }
+  },
+  {
+    "termo": "Origem",
+    "categoria": "Personagem",
+    "linha": 85,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "ancora": "origens",
+      "titulo": "Origens"
+    }
+  },
+  {
+    "termo": "Legado",
+    "categoria": "Personagem",
+    "linha": 86,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "ancora": "origens",
+      "titulo": "Origens"
+    }
+  },
+  {
+    "termo": "Traço",
+    "categoria": "Personagem",
+    "linha": 87,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "ancora": "origens",
+      "titulo": "Origens"
+    }
+  },
+  {
+    "termo": "Pacto",
+    "categoria": "Personagem",
+    "linha": 88,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+      "ancora": "pactos",
+      "titulo": "Pactos"
+    }
+  },
+  {
+    "termo": "Promessa",
+    "categoria": "Personagem",
+    "linha": 89,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+      "ancora": "promessa",
+      "titulo": "Promessa"
+    }
+  },
+  {
+    "termo": "Patente",
+    "categoria": "Personagem",
+    "linha": 90,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "ancora": "prog-inicio",
+      "titulo": "Experiência e Progressão"
+    }
+  },
+  {
+    "termo": "Fundamento",
+    "categoria": "Técnica",
+    "linha": 102,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "fundamento",
+      "titulo": "Fundamento"
+    }
+  },
+  {
+    "termo": "Regra",
+    "categoria": "Técnica",
+    "linha": 103,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "tecnica",
+      "titulo": "Sua técnica"
+    }
+  },
+  {
+    "termo": "Feitiço",
+    "categoria": "Técnica",
+    "linha": 104,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "primeiro",
+      "titulo": "Seu primeiro feitiço"
+    }
+  },
+  {
+    "termo": "Classe",
+    "categoria": "Técnica",
+    "linha": 105,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Pontos",
+    "categoria": "Técnica",
+    "linha": 106,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Teto",
+    "categoria": "Técnica",
+    "linha": 107,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "danolimites",
+      "titulo": "Dano e repetições"
+    }
+  },
+  {
+    "termo": "Forma",
+    "categoria": "Técnica",
+    "linha": 108,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "formas",
+      "titulo": "Formas de ataque"
+    }
+  },
+  {
+    "termo": "Melhoria",
+    "categoria": "Técnica",
+    "linha": 109,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Restrição",
+    "categoria": "Técnica",
+    "linha": 110,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "restricoes",
+      "titulo": "Restrições"
+    }
+  },
+  {
+    "termo": "Concentrada",
+    "categoria": "Técnica",
+    "linha": 111,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-tempo-duracao",
+      "titulo": "Momento e duração"
+    }
+  },
+  {
+    "termo": "Duradoura",
+    "categoria": "Técnica",
+    "linha": 112,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-tempo-duracao",
+      "titulo": "Momento e duração"
+    }
+  },
+  {
+    "termo": "Alvo de Caça",
+    "categoria": "Técnica",
+    "linha": 113,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-marca",
+      "titulo": "Marca"
+    }
+  },
+  {
+    "termo": "Família",
+    "categoria": "Técnica",
+    "linha": 114,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "familias",
+      "titulo": "Famílias"
+    }
+  },
+  {
+    "termo": "Selo",
+    "categoria": "Técnica",
+    "linha": 115,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "selo",
+      "titulo": "Selo e Passivas"
+    }
+  },
+  {
+    "termo": "Classe 0",
+    "categoria": "Técnica",
+    "linha": 116,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "classezero",
+      "titulo": "Feitiços de Classe 0"
+    }
+  },
+  {
+    "termo": "Passiva",
+    "categoria": "Técnica",
+    "linha": 117,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "selo",
+      "titulo": "Selo e Passivas"
+    }
+  },
+  {
+    "termo": "Classe Passiva",
+    "categoria": "Técnica",
+    "linha": 118,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "selo",
+      "titulo": "Selo e Passivas"
+    }
+  },
+  {
+    "termo": "Espaço de feitiço",
+    "categoria": "Técnica",
+    "linha": 119,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "repertorio",
+      "titulo": "Feitiços conhecidos"
+    }
+  },
+  {
+    "termo": "Ampliar",
+    "categoria": "Técnica",
+    "linha": 120,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "ampliar",
+      "titulo": "Ampliar um feitiço"
+    }
+  },
+  {
+    "termo": "Liberação Máxima",
+    "categoria": "Técnica",
+    "linha": 121,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "liberacao",
+      "titulo": "Liberação Máxima"
+    }
+  },
+  {
+    "termo": "Técnica Máxima",
+    "categoria": "Técnica",
+    "linha": 122,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "maxima",
+      "titulo": "Técnica Máxima"
+    }
+  },
+  {
+    "termo": "Uso Livre",
+    "categoria": "Técnica",
+    "linha": 123,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "livre",
+      "titulo": "Uso Livre"
+    }
+  },
+  {
+    "termo": "Expansão de Domínio",
+    "categoria": "Técnica",
+    "linha": 124,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
+      "ancora": "degraus",
+      "titulo": "Expansão de Domínio"
+    }
+  },
+  {
+    "termo": "Expansão sem Barreiras",
+    "categoria": "Técnica",
+    "linha": 125,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
+      "ancora": "sembarreiras",
+      "titulo": "Expansão sem Barreiras"
+    }
+  },
+  {
+    "termo": "Dano na alma",
+    "categoria": "Técnica",
+    "linha": 126,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "alma",
+      "titulo": "Dano na alma"
+    }
+  },
+  {
+    "termo": "Técnica Marcial",
+    "categoria": "Técnica Marcial",
+    "linha": 137,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-marcial",
+      "titulo": "Técnica Marcial"
+    }
+  },
+  {
+    "termo": "Kata",
+    "categoria": "Técnica Marcial",
+    "linha": 138,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-marcial",
+      "titulo": "Técnica Marcial"
+    }
+  },
+  {
+    "termo": "Ruptura",
+    "categoria": "Técnica Marcial",
+    "linha": 139,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-marcial",
+      "titulo": "Técnica Marcial"
+    }
+  },
+  {
+    "termo": "Ōgi",
+    "categoria": "Técnica Marcial",
+    "linha": 140,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-marcial",
+      "titulo": "Técnica Marcial"
+    }
+  },
+  {
+    "termo": "Lapidação",
+    "categoria": "Bênçãos e Lapidação",
+    "linha": 151,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-lapidacao",
+      "titulo": "Lapidação"
+    }
+  },
+  {
+    "termo": "Bênção",
+    "categoria": "Bênçãos e Lapidação",
+    "linha": 152,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-bencaos",
+      "titulo": "Bênçãos"
+    }
+  },
+  {
+    "termo": "Defesa sem Armadura",
+    "categoria": "Bênçãos e Lapidação",
+    "linha": 153,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-defesa",
+      "titulo": "Defesa sem Armadura"
+    }
+  },
+  {
+    "termo": "Estímulo Muscular",
+    "categoria": "Bênçãos e Lapidação",
+    "linha": 154,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-estimulo",
+      "titulo": "Estímulo Muscular"
+    }
+  },
+  {
+    "termo": "Marco",
+    "categoria": "Progressão",
+    "linha": 163,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "ancora": "prog-marcos",
+      "titulo": "Marcos"
+    }
+  },
+  {
+    "termo": "Refino",
+    "categoria": "Progressão",
+    "linha": 164,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "ancora": "apt-refino",
+      "titulo": "Aptidões e Refino"
+    }
+  },
+  {
+    "termo": "Aptidão",
+    "categoria": "Progressão",
+    "linha": 165,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "ancora": "apt-refino",
+      "titulo": "Aptidões e Refino"
+    }
+  },
+  {
+    "termo": "Corpo",
+    "categoria": "Progressão",
+    "linha": 166,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "ancora": "prog-marcos",
+      "titulo": "Marcos"
+    }
+  },
+  {
+    "termo": "Refino",
+    "categoria": "Progressão",
+    "linha": 166,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "ancora": "apt-refino",
+      "titulo": "Aptidões e Refino"
+    }
+  },
+  {
+    "termo": "Leque",
+    "categoria": "Progressão",
+    "linha": 166,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "ancora": "prog-marcos",
+      "titulo": "Marcos"
+    }
+  },
+  {
+    "termo": "Rodada",
+    "categoria": "Turno",
+    "linha": 175,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "turnos",
+      "titulo": "Turnos"
+    }
+  },
+  {
+    "termo": "Ação de Movimento",
+    "categoria": "Turno",
+    "linha": 176,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "turnos",
+      "titulo": "Turnos"
+    }
+  },
+  {
+    "termo": "Ação Padrão",
+    "categoria": "Turno",
+    "linha": 177,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "acoes",
+      "titulo": "Ações"
+    }
+  },
+  {
+    "termo": "Ação Bônus",
+    "categoria": "Turno",
+    "linha": 178,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "turnos",
+      "titulo": "Turnos"
+    }
+  },
+  {
+    "termo": "Reação",
+    "categoria": "Turno",
+    "linha": 179,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "reacoes",
+      "titulo": "Reações e concentração"
+    }
+  },
+  {
+    "termo": "Rodada inteira",
+    "categoria": "Turno",
+    "linha": 180,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "turnos",
+      "titulo": "Turnos"
+    }
+  },
+  {
+    "termo": "Concentração",
+    "categoria": "Turno",
+    "linha": 181,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "reacoes",
+      "titulo": "Reações e concentração"
+    }
+  },
+  {
+    "termo": "Estudar",
+    "categoria": "Turno",
+    "linha": 182,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "ancora": "estudar",
+      "titulo": "Estudar"
+    }
+  },
+  {
+    "termo": "Cobertura",
+    "categoria": "Turno",
+    "linha": 183,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "ancora": "defesa",
+      "titulo": "Defesa e cobertura"
+    }
+  },
+  {
+    "termo": "Agarrar",
+    "categoria": "Turno",
+    "linha": 184,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "ancora": "manobras",
+      "titulo": "Agarrar, derrubar e empurrar"
+    }
+  },
+  {
+    "termo": "Agarrado",
+    "categoria": "Condições",
+    "linha": 196,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "leves",
+      "titulo": "Condições leves"
+    }
+  },
+  {
+    "termo": "Amedrontado",
+    "categoria": "Condições",
+    "linha": 197,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "pesadas",
+      "titulo": "Condições pesadas"
+    }
+  },
+  {
+    "termo": "Atordoado",
+    "categoria": "Condições",
+    "linha": 198,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "pesadas",
+      "titulo": "Condições pesadas"
+    }
+  },
+  {
+    "termo": "Calado",
+    "categoria": "Condições",
+    "linha": 199,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "medias",
+      "titulo": "Condições médias"
+    }
+  },
+  {
+    "termo": "Cego",
+    "categoria": "Condições",
+    "linha": 200,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "pesadas",
+      "titulo": "Condições pesadas"
+    }
+  },
+  {
+    "termo": "Derrubado",
+    "categoria": "Condições",
+    "linha": 201,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "leves",
+      "titulo": "Condições leves"
+    }
+  },
+  {
+    "termo": "Desarmado",
+    "categoria": "Condições",
+    "linha": 202,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "leves",
+      "titulo": "Condições leves"
+    }
+  },
+  {
+    "termo": "Enfeitiçado",
+    "categoria": "Condições",
+    "linha": 203,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "medias",
+      "titulo": "Condições médias"
+    }
+  },
+  {
+    "termo": "Envenenado",
+    "categoria": "Condições",
+    "linha": 204,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "pesadas",
+      "titulo": "Condições pesadas"
+    }
+  },
+  {
+    "termo": "Impedido",
+    "categoria": "Condições",
+    "linha": 205,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "pesadas",
+      "titulo": "Condições pesadas"
+    }
+  },
+  {
+    "termo": "Incapacitado",
+    "categoria": "Condições",
+    "linha": 206,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "leves",
+      "titulo": "Condições leves"
+    }
+  },
+  {
+    "termo": "Lento",
+    "categoria": "Condições",
+    "linha": 207,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "leves",
+      "titulo": "Condições leves"
+    }
+  },
+  {
+    "termo": "Surdo",
+    "categoria": "Condições",
+    "linha": 208,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "leves",
+      "titulo": "Condições leves"
+    }
+  },
+  {
+    "termo": "Ferramenta amaldiçoada",
+    "categoria": "Equipamento",
+    "linha": 217,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+      "ancora": "equipamento",
+      "titulo": "Equipamento amaldiçoado"
+    }
+  },
+  {
+    "termo": "Estigma",
+    "categoria": "Equipamento",
+    "linha": 218,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+      "ancora": "graus",
+      "titulo": "Graus das ferramentas"
+    }
+  },
+  {
+    "termo": "Desgaste",
+    "categoria": "Equipamento",
+    "linha": 219,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+      "ancora": "desgaste",
+      "titulo": "Desgaste"
+    }
+  },
+  {
+    "termo": "Emaranha",
+    "categoria": "Equipamento",
+    "linha": 220,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "ancora": "propriedades",
+      "titulo": "Propriedades"
+    }
+  },
+  {
+    "termo": "Fineza",
+    "categoria": "Equipamento",
+    "linha": 221,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "ancora": "propriedades",
+      "titulo": "Propriedades"
+    }
+  },
+  {
+    "termo": "Longo Alcance",
+    "categoria": "Equipamento",
+    "linha": 222,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "ancora": "propriedades",
+      "titulo": "Propriedades"
+    }
+  },
+  {
+    "termo": "Oculta",
+    "categoria": "Equipamento",
+    "linha": 223,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "ancora": "oculta",
+      "titulo": "Armas escondidas"
+    }
+  },
+  {
+    "termo": "Par",
+    "categoria": "Equipamento",
+    "linha": 224,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "ancora": "propriedades",
+      "titulo": "Propriedades"
+    }
+  },
+  {
+    "termo": "Rompe",
+    "categoria": "Equipamento",
+    "linha": 225,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "ancora": "propriedades",
+      "titulo": "Propriedades"
+    }
+  },
+  {
+    "termo": "Talha",
+    "categoria": "Equipamento",
+    "linha": 226,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "ancora": "propriedades",
+      "titulo": "Propriedades"
+    }
+  },
+  {
+    "termo": "Versátil",
+    "categoria": "Equipamento",
+    "linha": 227,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "ancora": "propriedades",
+      "titulo": "Propriedades"
+    }
+  },
+  {
+    "termo": "Vestida",
+    "categoria": "Equipamento",
+    "linha": 228,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "ancora": "propriedades",
+      "titulo": "Propriedades"
+    }
+  },
+  {
+    "termo": "Volumosa",
+    "categoria": "Equipamento",
+    "linha": 229,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+      "ancora": "propriedades",
+      "titulo": "Propriedades"
+    }
+  },
+  {
+    "termo": "Projétil",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 238,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "formas",
+      "titulo": "Formas de ataque"
+    }
+  },
+  {
+    "termo": "Toque",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 239,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "formas",
+      "titulo": "Formas de ataque"
+    }
+  },
+  {
+    "termo": "Explosão",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 240,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "formas",
+      "titulo": "Formas de ataque"
+    }
+  },
+  {
+    "termo": "Aura",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 241,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "formas",
+      "titulo": "Formas de ataque"
+    }
+  },
+  {
+    "termo": "Cone",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 242,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "formas",
+      "titulo": "Formas de ataque"
+    }
+  },
+  {
+    "termo": "Linha",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 243,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "formas",
+      "titulo": "Formas de ataque"
+    }
+  },
+  {
+    "termo": "Cura",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 244,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "amparoformas",
+      "titulo": "Formas de amparo e Efeito"
+    }
+  },
+  {
+    "termo": "Apoio",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 245,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "amparoformas",
+      "titulo": "Formas de amparo e Efeito"
+    }
+  },
+  {
+    "termo": "Onda",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 246,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "amparoformas",
+      "titulo": "Formas de amparo e Efeito"
+    }
+  },
+  {
+    "termo": "Efeito",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 247,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "amparoformas",
+      "titulo": "Formas de amparo e Efeito"
+    }
+  },
+  {
+    "termo": "Corpo a Corpo",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 248,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-restricoes-conjuracao",
+      "titulo": "Restrições de conjuração"
+    }
+  },
+  {
+    "termo": "Atrasar",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 249,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-restricoes-conjuracao",
+      "titulo": "Restrições de conjuração"
+    }
+  },
+  {
+    "termo": "Condicional",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 250,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-restricoes-uso",
+      "titulo": "Condições de uso"
+    }
+  },
+  {
+    "termo": "Gesto",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 251,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-restricoes-conjuracao",
+      "titulo": "Restrições de conjuração"
+    }
+  },
+  {
+    "termo": "Parado",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 252,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-restricoes-conjuracao",
+      "titulo": "Restrições de conjuração"
+    }
+  },
+  {
+    "termo": "Uma Vez",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 253,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-restricoes-uso",
+      "titulo": "Condições de uso"
+    }
+  },
+  {
+    "termo": "Fura",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 254,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-defesas",
+      "titulo": "Defesas"
+    }
+  },
+  {
+    "termo": "Longe",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 255,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-alcance",
+      "titulo": "Alcance"
+    }
+  },
+  {
+    "termo": "Maior",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 256,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-area",
+      "titulo": "Área"
+    }
+  },
+  {
+    "termo": "Precisão",
+    "categoria": "Formas, Melhorias e Restrições do Fundamento",
+    "linha": 257,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "ancora": "cat-mira",
+      "titulo": "Mira"
+    }
+  },
+  {
+    "termo": "Versado",
+    "categoria": "Caminhos e Trilhas",
+    "linha": 266,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+      "ancora": "van-escola",
+      "titulo": "Prazo e Escola de Arma"
+    }
+  },
+  {
+    "termo": "Classe",
+    "categoria": "Palavras com sentido próprio",
+    "linha": 275,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Grau",
+    "categoria": "Palavras com sentido próprio",
+    "linha": 276,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+      "ancora": "graus",
+      "titulo": "Graus das ferramentas"
+    }
+  },
+  {
+    "termo": "Restrição",
+    "categoria": "Palavras com sentido próprio",
+    "linha": 277,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "restricoes",
+      "titulo": "Restrições"
+    }
+  },
+  {
+    "termo": "Incapacitado",
+    "categoria": "Palavras com sentido próprio",
+    "linha": 278,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "ancora": "leves",
+      "titulo": "Condições leves"
+    }
+  },
+  {
+    "termo": "Inconsciente",
+    "categoria": "Palavras com sentido próprio",
+    "linha": 279,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+      "ancora": "zero",
+      "titulo": "Vida a zero"
+    }
+  },
+  {
+    "termo": "Exaustão",
+    "categoria": "Palavras com sentido próprio",
+    "linha": 280,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+      "ancora": "exaustao",
+      "titulo": "Exaustão"
+    }
+  },
+  {
+    "termo": "Essência",
+    "categoria": "Palavras com sentido próprio",
+    "linha": 281,
+    "decisao": "Entrada de índice; regra completa permanece no dono",
+    "destino": {
+      "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "ancora": "atributos",
+      "titulo": "Atributos"
+    }
+  },
+  {
+    "termo": "Refino",
+    "categoria": "Palavras com sentido próprio",
+    "linha": 282,
+    "decisao": "Definição breve no glossário",
+    "destino": {
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "ancora": "apt-refino",
+      "titulo": "Aptidões e Refino"
+    }
+  }
+]

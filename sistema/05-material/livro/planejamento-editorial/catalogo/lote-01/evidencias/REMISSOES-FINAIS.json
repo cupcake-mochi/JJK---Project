@@ -1,0 +1,20 @@
+{
+  "sha256_antes": "bf0d8df8707ecfd43c18e9c32c6295e70a8c692c8513b1692d2f53ca5e706b76",
+  "sha256_depois": "35643aec563385fb58020377313fb0ee2c303b1e5d41a173eb942c5c05c5102d",
+  "alteracoes": [
+    {
+      "id": "REM04",
+      "antes": "A zero de vida, a cura segue Recuperação;",
+      "depois": "A zero de vida, a cura segue Socorro, em Dano e recuperação;",
+      "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "REM05",
+      "antes": "Use as condições de **Dano e condições**.",
+      "depois": "Use as condições da seção **Condições, em Dano e recuperação**.",
+      "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
+      "tipo": "editorial"
+    }
+  ]
+}

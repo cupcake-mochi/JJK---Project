@@ -1,0 +1,2312 @@
+{
+  "descricao": "Cadastro ampliável de nomes de Caminhos, Trilhas e habilidades; palavras comuns com colisão usam caixa explícita. Atualizar aliases ao renomear. Não cobre paráfrases sem nome.",
+  "termos": [
+    {
+      "termo": "Bastião",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Olhos Em Mim",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Ataque Extra",
+      "donos": [
+        "bastião",
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Duro de Matar",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Chega Mais",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Passa Pra Mim",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Muro",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ],
+      "sensivel_a_caixa": true,
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Alicerce",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Guarda-Costas",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Casca Grossa",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Inabalável",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Punho",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ],
+      "sensivel_a_caixa": true,
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Trocação Franca",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Mão Pesada",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Minha Vez",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Arrastão",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Combatente Amaldiçoado",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Retaliação",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Embalo",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Oportunista",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Contra a Parede",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Vanguarda",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Sequência de Condução",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Golpe Inicial",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Conduzir",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Concluir",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Escola de Arma",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Não Cede",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Persistência",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Conclusão Dupla",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Estocada",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Compasso",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Conclusões de feitiço",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Bote",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Ferrão",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Batedor",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Rota: Yumi",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Soltura Preparada",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Armar uma Conclusão",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Soltura Simples",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Conduções do Yumi",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Conclusões do Yumi",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Duração e Conclusão Dupla",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Segunda Leitura",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Soltura de Emergência",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Última Leitura",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Rota: Besta",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Virotes Cravados",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Conduções da Besta",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Conclusões da Besta",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Consumir a Farpa",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Fixação Cruzada",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Preparação Remanescente",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Rota: Arma de Fogo",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Combate Irregular",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Oportunidade Tática",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Conduções da Arma de Fogo",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Conclusões da Arma de Fogo",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Reorientar a Pressão",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Romper o Contato",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Plano de Continuidade",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Executor",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Finta de Execução",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Conclusões do Executor",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Troca de Intenção",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Dobrar a Aposta",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Duas Intenções",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Finta e Conclusão Dupla",
+      "donos": [
+        "vanguarda"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Emanador",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Desdobramento Técnico",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Remodelar",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Modulações Dominadas",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Forçar uma Modulação",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Expressões Familiares",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Afinidade Técnica",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Forma Fluida",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Composição Técnica",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Expressão Instintiva",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Condutor Armado",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Arma Condutora",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Cadência Técnica",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Artes do Vínculo",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Artes de Cadência",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Propriedades de Vínculo",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Manifestação Condutora",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Ritmo Convergente",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Ressonante",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Eco Técnico",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Eco de Remodelagem",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Eco de Modulação",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Contraponto",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Reverberação",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Acorde Ressonante",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Catalisador",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Impulso Técnico",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Correção de Fluxo",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Sobre Carregar Energia",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Fluxo Contínuo",
+      "donos": [
+        "emanador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Guia",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ],
+      "sensivel_a_caixa": true,
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Abrir Caminho",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Avançar",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Executar",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Resguardar",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Resposta Coordenada",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Leitura de Equipe",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Reajustar o Plano",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Passar a Oportunidade",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Todos no Mesmo Plano",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Arquiteto",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Obras de Apoio",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Modelos de construção",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Aberturas junto das obras",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Obra em Uso",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Obras maiores",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Obra de Emergência",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Plano Construído",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Analista",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Ler a Resposta",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Apontar a Brecha",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Rever a Leitura",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Padrão Decifrado",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Socorrista",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Cuidado Preparado",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Tratar e Retomar",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Ainda Há Tempo",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Atendimento em Cadeia",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Evocador",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Aprimoramentos e Pontos de Vínculo",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Pontos de Vínculo",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Precisão à Distância — nível 2",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Avanço Corpo a Corpo — nível 2",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Proteção Reforçada — nível 2",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Dificultar a Resistência — nível 7",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Corrigir uma Falha — nível 2",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Mudar o Aprimoramento — nível 2",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Superar Cobertura — nível 2",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Reposicionar a Invocação — nível 2",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Ajustar a Preparação — nível 7",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Recolher sob Ataque — nível 7",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Atuação Complementar",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Combinar Aprimoramentos",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Intervenção Eficiente",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Especial Combinada",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Invocação Principal",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Duas Atuações Básicas",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Repertório Ampliado",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Substituir a principal",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Intervenções da Invocação Principal",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Proteger a Manifestação",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Adaptar o Aprimoramento",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Preservar o Aprimoramento",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Especial de Continuidade",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Intervenção Reflexa",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Parceria",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Abertura da Parceria",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Entrada Ágil",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Treino de Combate",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Repertório de Parceria",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Aprimoramentos de Parceria",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Acompanhar a Especial",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Golpe Acompanhado",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Resposta ao Agressor",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Atuação Complementar — interação com o nível 7 do Caminho",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Intervenções de Parceria",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Abrir Espaço para o Parceiro",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Corrigir o Ataque Conjunto",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Cobrir o Parceiro",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Técnicas em Conjunto",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Resposta Técnica da Dupla",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Múltiplas Invocações",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Conjunto Ampliado",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Atuação ofensiva",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Famílias do Conjunto",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Manifestação em Grupo",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Aquisição em Duplas",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Repertório na abertura",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Intervenções do Conjunto",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Dificultar o Ataque",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Proteger um Aliado",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ],
+      "sensivel_a_caixa": true
+    },
+    {
+      "termo": "Conduzir a Especial",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Retirada em Conjunto",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Aprimoramentos Distribuídos",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Formação Renovada",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Repertório do Conjunto",
+      "donos": [
+        "evocador"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Incursor",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Agilidade de Combate",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Movimento Acrobático",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Fluidez",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Mais oportunidades de Fluidez",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Correr ou Esquivar pela Bônus",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Melhorias de Fluidez",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Passo Guardado",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Retomar o Ritmo",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Movimento Acrobático ampliado",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Um Passo à Frente",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Assassino",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Alvo Estudado",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Estudar a Guarda",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Golpe Cirúrgico",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Cortar a Fuga",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Parkour",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Desaparecer no Percurso",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Escolher a Próxima Vítima",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Brecha Fatal",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Sentença Final",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Pugilista",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Corpo Treinado",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Rajada Marcial a partir do nível 7",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Quebrar o Compasso",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Recuperar a Base",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Guarda Marcial",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Interceptar e Prender",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Golpe Desarticulador",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Projeção Marcial",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Corpo em Harmonia",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Redirecionar a Força",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Malabarista",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Manejo de Combate",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Ofensiva em Movimento",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Ricochete",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Lançamento Cruzado",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Mudar o Destino",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Trajetória de Retorno",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Manejo Contínuo",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Finta de Retorno",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Manejo Contínuo ampliado",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Trajetória Perfeita",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+      ]
+    },
+    {
+      "termo": "Incursora",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Investida",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ],
+      "sensivel_a_caixa": true,
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Instante Decisivo",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Passo Rápido",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Evasão",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ],
+      "sensivel_a_caixa": true,
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Reflexo",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ],
+      "sensivel_a_caixa": true,
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Esquiva Instintiva",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Rajada Marcial",
+      "donos": [
+        "incursor"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Assumir um golpe",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Nem Um Arranhão",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Ainda de Pé",
+      "donos": [
+        "bastião"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Mão na Roda",
+      "donos": [
+        "guia"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Canalizar em Golpe",
+      "donos": [
+        "aptidoes"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Canalizar energia",
+      "donos": [
+        "aptidoes"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Cobrir-se de energia",
+      "donos": [
+        "aptidoes"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Projetar Energia",
+      "donos": [
+        "aptidoes"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Mão Firme",
+      "donos": [
+        "aptidoes",
+        "fundamento"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases",
+        "sistema/05-material/livro/manual/40-fundamento.md:322 — tabela de Passivas, Classe 1"
+      ],
+      "nota_colisao": "Nome também cadastrado em aptidões. Ambos os donos permanecem legítimos; a colisão de nomes segue pendente na revisão de nomenclatura, sem isenção fora desses domínios."
+    },
+    {
+      "termo": "Energia Reversa",
+      "donos": [
+        "aptidoes"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Regravação",
+      "donos": [
+        "aptidoes"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Cesta Oca de Vime",
+      "donos": [
+        "aptidoes"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ]
+    },
+    {
+      "termo": "Remenda",
+      "donos": [
+        "fundamento"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Levanta",
+      "donos": [
+        "fundamento"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ],
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Carregar",
+      "donos": [
+        "fundamento"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases"
+      ],
+      "sensivel_a_caixa": true,
+      "somente_nome_marcado": true
+    },
+    {
+      "termo": "Corpo Amaldiçoado",
+      "donos": [
+        "origens",
+        "invocacoes"
+      ],
+      "fontes": [
+        "registro manual de nomes e aliases",
+        "sistema/05-material/livro/manual/60-invocacoes.md"
+      ],
+      "observacao": "Nome compartilhado pela Origem de personagem e pelo tipo de entidade. Cada dono explica seu próprio procedimento, sem copiar o outro."
+    }
+  ],
+  "fontes_de_blocos": [
+    "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+    "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+    "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+    "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+    "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+    "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md"
+  ]
+}

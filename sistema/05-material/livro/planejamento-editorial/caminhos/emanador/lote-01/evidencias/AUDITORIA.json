@@ -1,0 +1,2946 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/caminhos/emanador/lote-01/EMANADOR.md": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f"
+  },
+  "sha256_texto": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+  "aprovado": true,
+  "checks": [
+    {
+      "nome": "fonte_preservada_caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_caminhos/05-Edicao-Integrada/contratos-v0.331.json",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_sistema/05-material/livro/manual/20-criacao-de-personagem.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "48_entradas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "19_paginas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "180_400_palavras",
+      "passou": true,
+      "detalhe": {
+        "ema-base": 285,
+        "ema-desdobramento": 247,
+        "ema-remodelar": 270,
+        "ema-modulacoes": 323,
+        "ema-familiares": 282,
+        "ema-forma": 290,
+        "ema-instintiva": 370,
+        "ema-condutor": 275,
+        "ema-artes": 251,
+        "ema-propriedades": 307,
+        "ema-propriedades-apoio": 290,
+        "ema-manifestacao": 293,
+        "ema-eco": 270,
+        "ema-repetir": 259,
+        "ema-contraponto": 263,
+        "ema-acorde": 257,
+        "ema-impulso": 258,
+        "ema-correcao": 264,
+        "ema-fluxo": 281
+      }
+    },
+    {
+      "nome": "titulos_diretos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "medidas_grade",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "excecao_narrativa_1km",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_uma Modulação Forçada por conjuração",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_Uma Remodelagem não aumenta os dados",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_não cria Eco",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_não cria outro Eco por si só",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_no máximo três alterações",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_A alteração reaproveitada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_primeira conjuração",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_não recebe novos abatimentos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_não altera o tipo ou a quantidade da munição",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_Sobrecarregar Energia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_uma Modulação Forçada por conjuração",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_Uma Remodelagem não aumenta os dados",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_não cria outro Eco por si só",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_no máximo três alterações",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_não altera o tipo ou a quantidade da munição",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Fura para Rápido C3",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Aura para Explosão C3",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Troca barata perde sobra",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Devolução que sobrava não recompra dado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Sem resultado para pagar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Apoio para Cura mantém teto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Duas trocas compensam entre si",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Longe preço C3",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Longe Livre C3",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Forma não recebe Família Livre",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco Modulação ceil C3",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco não zera preço1",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Afinidade C2 ampliado4",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Instintiva C2 ampliado5",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Extras não recebem metade",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Ritual fixo antes Afinidade",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Instintiva não perde mínimo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Instintiva não em Bônus",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Melhor alternativa não composto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Toque rejeita Extensão",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Uma Modulação",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Família Fechada não contorna",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco Médio com preço1 no11",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco Médio no19",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco Pesado no27",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco Forma grátis depois15",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Contraponto nível11",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Contraponto nível2 não acrescenta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Composição com Contraponto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Acorde não permite quatro",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Acorde não força duas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Munição não converte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Capacidade menor bloqueia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Transformar não retira interrupção",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Cadência limite Cmax7",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Ritmo Cmax7",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Modulações aprendidas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco básico até próximo turno",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco básico expirado depois",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Acorde terceiro turno conserva ambos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Acorde quarto turno perde primeiro",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco mesma identidade não duplica",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco repetido sem novo Desdobramento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco consumido",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Eco não pode ser gasto novamente",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Instintiva ampliada pode perder para Eco",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Afinidade e Eco consomem gatilhos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Fim vínculo conserva munição incompatível",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Fim vínculo excesso não vira disparo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "orcamento_exaustivo",
+      "passou": true,
+      "detalhe": {
+        "casos": 35553
+      }
+    },
+    {
+      "nome": "custos_positivos",
+      "passou": true,
+      "detalhe": {
+        "perfis": 72
+      }
+    },
+    {
+      "nome": "Gerar após aplicação própria",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Gasto comum",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Gasto não regenera",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Fluxo uma vez recupera",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Fluxo reserva ativa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Sobrecarga posterior",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Bloqueio até fim próximo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Geração posterior ao bloqueio",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Bônus não gera",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Fica não gera de novo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "d8 baixa rerrolagem",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "probabilidades_exatas",
+      "passou": true,
+      "detalhe": {
+        "perfis": 133
+      }
+    },
+    {
+      "nome": "Reverberação preserva só um em Acorde",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Cadência uma Padrão e uma Bônus",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Aperfeiçoar compartilhado9d8",
+      "passou": true,
+      "detalhe": null
+    }
+  ],
+  "casos": [
+    {
+      "nome": "Fura para Rápido C3",
+      "obtido": 4,
+      "esperado": 4,
+      "motivo": "Diferença2 paga com2d8; custo PE9+2.",
+      "passou": true
+    },
+    {
+      "nome": "Aura para Explosão C3",
+      "obtido": 4,
+      "esperado": 4,
+      "motivo": "Perde devolução3 de Corpo a Corpo.",
+      "passou": true
+    },
+    {
+      "nome": "Troca barata perde sobra",
+      "obtido": 6,
+      "esperado": 6,
+      "motivo": "Novo orçamento7 não aumenta original6.",
+      "passou": true
+    },
+    {
+      "nome": "Devolução que sobrava não recompra dado",
+      "obtido": 5,
+      "esperado": 5,
+      "motivo": "Diferença1 é paga mesmo se novo orçamento admitir6.",
+      "passou": true
+    },
+    {
+      "nome": "Sem resultado para pagar",
+      "obtido": null,
+      "esperado": null,
+      "motivo": "Falta ponto; não inventa saldo.",
+      "passou": true
+    },
+    {
+      "nome": "Apoio para Cura mantém teto",
+      "obtido": 6,
+      "esperado": 6,
+      "motivo": "9p de apoio→cura, paga3p e respeita6d8.",
+      "passou": true
+    },
+    {
+      "nome": "Duas trocas compensam entre si",
+      "obtido": 6,
+      "esperado": 6,
+      "motivo": "Orçamento final pode exigir ajuste mesmo com diferença zero.",
+      "passou": true
+    },
+    {
+      "nome": "Longe preço C3",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Catálogo antes dos descontos.",
+      "passou": true
+    },
+    {
+      "nome": "Longe Livre C3",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "Forma não recebe Família Livre",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Aura/Explosão não são Melhorias.",
+      "passou": true
+    },
+    {
+      "nome": "Eco Modulação ceil C3",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Metade de2.",
+      "passou": true
+    },
+    {
+      "nome": "Eco não zera preço1",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Metade arredondada para cima.",
+      "passou": true
+    },
+    {
+      "nome": "Afinidade C2 ampliado4",
+      "obtido": 9,
+      "esperado": 9,
+      "motivo": "3+6.",
+      "passou": true
+    },
+    {
+      "nome": "Instintiva C2 ampliado5",
+      "obtido": 10,
+      "esperado": 10,
+      "motivo": "1+9.",
+      "passou": true
+    },
+    {
+      "nome": "Extras não recebem metade",
+      "obtido": 14,
+      "esperado": 14,
+      "motivo": "9+5, não14/2.",
+      "passou": true
+    },
+    {
+      "nome": "Ritual fixo antes Afinidade",
+      "obtido": 8,
+      "esperado": 8,
+      "motivo": "(6−2)/2 +6.",
+      "passou": true
+    },
+    {
+      "nome": "Instintiva não perde mínimo",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Preço substituído, não descontado para0.",
+      "passou": true
+    },
+    {
+      "nome": "Melhor alternativa não composto",
+      "obtido": 6,
+      "esperado": 6,
+      "motivo": "Eco no custo normal12 dá6; não dividir os9 da Afinidade por2.",
+      "passou": true
+    },
+    {
+      "nome": "Toque rejeita Extensão",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "PE extra não compra combinação proibida.",
+      "passou": true
+    },
+    {
+      "nome": "Uma Modulação",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Echo e normal compartilham teto.",
+      "passou": true
+    },
+    {
+      "nome": "Família Fechada não contorna",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Preço nunca libera família.",
+      "passou": true
+    },
+    {
+      "nome": "Eco Médio com preço1 no11",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Categoria antes de desconto.",
+      "passou": true
+    },
+    {
+      "nome": "Eco Médio no19",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Reverberação aumenta categoria.",
+      "passou": true
+    },
+    {
+      "nome": "Eco Pesado no27",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Acorde não libera Pesada.",
+      "passou": true
+    },
+    {
+      "nome": "Eco Forma grátis depois15",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "FormaFluida permite.",
+      "passou": true
+    },
+    {
+      "nome": "Contraponto nível11",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Um Eco+um novo.",
+      "passou": true
+    },
+    {
+      "nome": "Contraponto nível2 não acrescenta",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Eco ocupa Desdobramento.",
+      "passou": true
+    },
+    {
+      "nome": "Composição com Contraponto",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Três alterações.",
+      "passou": true
+    },
+    {
+      "nome": "Acorde não permite quatro",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "DoisEcos+uma nova no máximo.",
+      "passou": true
+    },
+    {
+      "nome": "Acorde não força duas",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "SóumaModulação.",
+      "passou": true
+    },
+    {
+      "nome": "Munição não converte",
+      "obtido": null,
+      "esperado": null,
+      "motivo": "Antes deve descarregar.",
+      "passou": true
+    },
+    {
+      "nome": "Capacidade menor bloqueia",
+      "obtido": null,
+      "esperado": null,
+      "motivo": "Três unidades não cabem em2.",
+      "passou": true
+    },
+    {
+      "nome": "Transformar não retira interrupção",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Estado de recarga permanece.",
+      "passou": true
+    },
+    {
+      "nome": "Cadência limite Cmax7",
+      "obtido": 3,
+      "esperado": 3,
+      "motivo": "Expandida usaClassefinal.",
+      "passou": true
+    },
+    {
+      "nome": "Ritmo Cmax7",
+      "obtido": 6,
+      "esperado": 6,
+      "motivo": "Convergente não liberaClasse7.",
+      "passou": true
+    },
+    {
+      "nome": "Modulações aprendidas",
+      "obtido": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "esperado": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "motivo": "Níveis2/7/15/23; sem quinta antes23.",
+      "passou": true
+    },
+    {
+      "nome": "Eco básico até próximo turno",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Pode usar antes do fim do próprio turno seguinte.",
+      "passou": true
+    },
+    {
+      "nome": "Eco básico expirado depois",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Não pode guardar indefinidamente.",
+      "passou": true
+    },
+    {
+      "nome": "Acorde terceiro turno conserva ambos",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Prazo individual de dois turnos seguintes.",
+      "passou": true
+    },
+    {
+      "nome": "Acorde quarto turno perde primeiro",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Criar o segundo não renova o primeiro.",
+      "passou": true
+    },
+    {
+      "nome": "Eco mesma identidade não duplica",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Mantém o Longe ainda válido e uma identidade Contorno; não três.",
+      "passou": true
+    },
+    {
+      "nome": "Eco repetido sem novo Desdobramento",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Reaproveitar sozinho não gera reserva nova.",
+      "passou": true
+    },
+    {
+      "nome": "Eco consumido",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Gasto na declaração, antes de acertar.",
+      "passou": true
+    },
+    {
+      "nome": "Eco não pode ser gasto novamente",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Mesmo erro não recupera sem gatilho de Reverberação.",
+      "passou": true
+    },
+    {
+      "nome": "Instintiva ampliada pode perder para Eco",
+      "obtido": 8,
+      "esperado": 8,
+      "motivo": "Escolhe Eco sobre custo normal 15, não metade do custo Instintivo 10.",
+      "passou": true
+    },
+    {
+      "nome": "Afinidade e Eco consomem gatilhos",
+      "obtido": {
+        "afinidade_primeira": false,
+        "eco_proxima": false
+      },
+      "esperado": {
+        "afinidade_primeira": false,
+        "eco_proxima": false
+      },
+      "motivo": "Ao escolher Eco, a conjuração ainda foi a primeira da cena e a próxima após o gatilho.",
+      "passou": true
+    },
+    {
+      "nome": "Fim vínculo conserva munição incompatível",
+      "obtido": {
+        "quantidade": 2,
+        "tipo": "Rifle",
+        "pode_disparar": false
+      },
+      "esperado": {
+        "quantidade": 2,
+        "tipo": "Rifle",
+        "pode_disparar": false
+      },
+      "motivo": "Não destrói nem converte estoque; impede disparar até ajustar.",
+      "passou": true
+    },
+    {
+      "nome": "Fim vínculo excesso não vira disparo",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "A capacidade original é conferida sem gerar recarga.",
+      "passou": true
+    },
+    {
+      "nome": "Gerar após aplicação própria",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "PrimeiraresoluçãoPadrãoqualificada.",
+      "passou": true
+    },
+    {
+      "nome": "Gasto comum",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Dentrodo prazo.",
+      "passou": true
+    },
+    {
+      "nome": "Gasto não regenera",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Semciclo de recurso.",
+      "passou": true
+    },
+    {
+      "nome": "Fluxo uma vez recupera",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Habilidade27 concedeexceção.",
+      "passou": true
+    },
+    {
+      "nome": "Fluxo reserva ativa",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Ainda umImpulso.",
+      "passou": true
+    },
+    {
+      "nome": "Sobrecarga posterior",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Podegastarrecuperado.",
+      "passou": true
+    },
+    {
+      "nome": "Bloqueio até fim próximo",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Não gerar no turno4.",
+      "passou": true
+    },
+    {
+      "nome": "Geração posterior ao bloqueio",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "No turno5 voltapermissão.",
+      "passou": true
+    },
+    {
+      "nome": "Bônus não gera",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "AcelerarabrePadrão,masnãogera.",
+      "passou": true
+    },
+    {
+      "nome": "Fica não gera de novo",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Parcelaposteriornãonovaconjuração.",
+      "passou": true
+    },
+    {
+      "nome": "d8 baixa rerrolagem",
+      "obtido": 5.25,
+      "esperado": 5.25,
+      "motivo": "1/2 repetidosuma vez,cada novo obrigatório.",
+      "passou": true
+    },
+    {
+      "nome": "Reverberação preserva só um em Acorde",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Reação não duplica estoque.",
+      "passou": true
+    },
+    {
+      "nome": "Cadência uma Padrão e uma Bônus",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Conta ações, não feitiço na arma.",
+      "passou": true
+    },
+    {
+      "nome": "Aperfeiçoar compartilhado9d8",
+      "obtido": 47.25,
+      "esperado": 47.25,
+      "motivo": "Mesmo total corrigido poralvo; não uma rolagem por criatura.",
+      "passou": true
+    }
+  ],
+  "quantidades": {
+    "checks": 92,
+    "casos": 62,
+    "orcamentos": 35553,
+    "perfis_custo": 72,
+    "perfis_probabilidade": 133,
+    "mutacoes": 5
+  },
+  "palavras_paginas": {
+    "ema-base": 285,
+    "ema-desdobramento": 247,
+    "ema-remodelar": 270,
+    "ema-modulacoes": 323,
+    "ema-familiares": 282,
+    "ema-forma": 290,
+    "ema-instintiva": 370,
+    "ema-condutor": 275,
+    "ema-artes": 251,
+    "ema-propriedades": 307,
+    "ema-propriedades-apoio": 290,
+    "ema-manifestacao": 293,
+    "ema-eco": 270,
+    "ema-repetir": 259,
+    "ema-contraponto": 263,
+    "ema-acorde": 257,
+    "ema-impulso": 258,
+    "ema-correcao": 264,
+    "ema-fluxo": 281
+  },
+  "modelos": {
+    "custos": [
+      {
+        "original": 1,
+        "final": 1,
+        "fixo": 0,
+        "normal": 3,
+        "afinidade": 2,
+        "eco": 2,
+        "escolha": 2,
+        "metades_compostas_proibidas": 1
+      },
+      {
+        "original": 1,
+        "final": 1,
+        "fixo": 1,
+        "normal": 2,
+        "afinidade": 1,
+        "eco": 1,
+        "escolha": 1,
+        "metades_compostas_proibidas": 1
+      },
+      {
+        "original": 1,
+        "final": 1,
+        "fixo": 2,
+        "normal": 1,
+        "afinidade": 1,
+        "eco": 1,
+        "escolha": 1,
+        "metades_compostas_proibidas": 1
+      },
+      {
+        "original": 1,
+        "final": 1,
+        "fixo": 3,
+        "normal": 1,
+        "afinidade": 1,
+        "eco": 1,
+        "escolha": 1,
+        "metades_compostas_proibidas": 1
+      },
+      {
+        "original": 1,
+        "final": 2,
+        "fixo": 0,
+        "normal": 6,
+        "afinidade": 5,
+        "eco": 3,
+        "escolha": 3,
+        "metades_compostas_proibidas": 3
+      },
+      {
+        "original": 1,
+        "final": 2,
+        "fixo": 1,
+        "normal": 5,
+        "afinidade": 4,
+        "eco": 3,
+        "escolha": 3,
+        "metades_compostas_proibidas": 2
+      },
+      {
+        "original": 1,
+        "final": 2,
+        "fixo": 2,
+        "normal": 4,
+        "afinidade": 4,
+        "eco": 2,
+        "escolha": 2,
+        "metades_compostas_proibidas": 2
+      },
+      {
+        "original": 1,
+        "final": 2,
+        "fixo": 3,
+        "normal": 3,
+        "afinidade": 4,
+        "eco": 2,
+        "escolha": 2,
+        "metades_compostas_proibidas": 2
+      },
+      {
+        "original": 1,
+        "final": 3,
+        "fixo": 0,
+        "normal": 9,
+        "afinidade": 8,
+        "eco": 5,
+        "escolha": 5,
+        "metades_compostas_proibidas": 4
+      },
+      {
+        "original": 1,
+        "final": 3,
+        "fixo": 1,
+        "normal": 8,
+        "afinidade": 7,
+        "eco": 4,
+        "escolha": 4,
+        "metades_compostas_proibidas": 4
+      },
+      {
+        "original": 1,
+        "final": 3,
+        "fixo": 2,
+        "normal": 7,
+        "afinidade": 7,
+        "eco": 4,
+        "escolha": 4,
+        "metades_compostas_proibidas": 4
+      },
+      {
+        "original": 1,
+        "final": 3,
+        "fixo": 3,
+        "normal": 6,
+        "afinidade": 7,
+        "eco": 3,
+        "escolha": 3,
+        "metades_compostas_proibidas": 4
+      },
+      {
+        "original": 1,
+        "final": 4,
+        "fixo": 0,
+        "normal": 12,
+        "afinidade": 11,
+        "eco": 6,
+        "escolha": 6,
+        "metades_compostas_proibidas": 6
+      },
+      {
+        "original": 1,
+        "final": 4,
+        "fixo": 1,
+        "normal": 11,
+        "afinidade": 10,
+        "eco": 6,
+        "escolha": 6,
+        "metades_compostas_proibidas": 5
+      },
+      {
+        "original": 1,
+        "final": 4,
+        "fixo": 2,
+        "normal": 10,
+        "afinidade": 10,
+        "eco": 5,
+        "escolha": 5,
+        "metades_compostas_proibidas": 5
+      },
+      {
+        "original": 1,
+        "final": 4,
+        "fixo": 3,
+        "normal": 9,
+        "afinidade": 10,
+        "eco": 5,
+        "escolha": 5,
+        "metades_compostas_proibidas": 5
+      },
+      {
+        "original": 1,
+        "final": 5,
+        "fixo": 0,
+        "normal": 15,
+        "afinidade": 14,
+        "eco": 8,
+        "escolha": 8,
+        "metades_compostas_proibidas": 7
+      },
+      {
+        "original": 1,
+        "final": 5,
+        "fixo": 1,
+        "normal": 14,
+        "afinidade": 13,
+        "eco": 7,
+        "escolha": 7,
+        "metades_compostas_proibidas": 7
+      },
+      {
+        "original": 1,
+        "final": 5,
+        "fixo": 2,
+        "normal": 13,
+        "afinidade": 13,
+        "eco": 7,
+        "escolha": 7,
+        "metades_compostas_proibidas": 7
+      },
+      {
+        "original": 1,
+        "final": 5,
+        "fixo": 3,
+        "normal": 12,
+        "afinidade": 13,
+        "eco": 6,
+        "escolha": 6,
+        "metades_compostas_proibidas": 7
+      },
+      {
+        "original": 1,
+        "final": 6,
+        "fixo": 0,
+        "normal": 18,
+        "afinidade": 17,
+        "eco": 9,
+        "escolha": 9,
+        "metades_compostas_proibidas": 9
+      },
+      {
+        "original": 1,
+        "final": 6,
+        "fixo": 1,
+        "normal": 17,
+        "afinidade": 16,
+        "eco": 9,
+        "escolha": 9,
+        "metades_compostas_proibidas": 8
+      },
+      {
+        "original": 1,
+        "final": 6,
+        "fixo": 2,
+        "normal": 16,
+        "afinidade": 16,
+        "eco": 8,
+        "escolha": 8,
+        "metades_compostas_proibidas": 8
+      },
+      {
+        "original": 1,
+        "final": 6,
+        "fixo": 3,
+        "normal": 15,
+        "afinidade": 16,
+        "eco": 8,
+        "escolha": 8,
+        "metades_compostas_proibidas": 8
+      },
+      {
+        "original": 1,
+        "final": 7,
+        "fixo": 0,
+        "normal": 21,
+        "afinidade": 20,
+        "eco": 11,
+        "escolha": 11,
+        "metades_compostas_proibidas": 10
+      },
+      {
+        "original": 1,
+        "final": 7,
+        "fixo": 1,
+        "normal": 20,
+        "afinidade": 19,
+        "eco": 10,
+        "escolha": 10,
+        "metades_compostas_proibidas": 10
+      },
+      {
+        "original": 1,
+        "final": 7,
+        "fixo": 2,
+        "normal": 19,
+        "afinidade": 19,
+        "eco": 10,
+        "escolha": 10,
+        "metades_compostas_proibidas": 10
+      },
+      {
+        "original": 1,
+        "final": 7,
+        "fixo": 3,
+        "normal": 18,
+        "afinidade": 19,
+        "eco": 9,
+        "escolha": 9,
+        "metades_compostas_proibidas": 10
+      },
+      {
+        "original": 2,
+        "final": 2,
+        "fixo": 0,
+        "normal": 6,
+        "afinidade": 3,
+        "eco": 3,
+        "escolha": 3,
+        "metades_compostas_proibidas": 2
+      },
+      {
+        "original": 2,
+        "final": 2,
+        "fixo": 1,
+        "normal": 5,
+        "afinidade": 3,
+        "eco": 3,
+        "escolha": 3,
+        "metades_compostas_proibidas": 2
+      },
+      {
+        "original": 2,
+        "final": 2,
+        "fixo": 2,
+        "normal": 4,
+        "afinidade": 2,
+        "eco": 2,
+        "escolha": 2,
+        "metades_compostas_proibidas": 1
+      },
+      {
+        "original": 2,
+        "final": 2,
+        "fixo": 3,
+        "normal": 3,
+        "afinidade": 2,
+        "eco": 2,
+        "escolha": 2,
+        "metades_compostas_proibidas": 1
+      },
+      {
+        "original": 2,
+        "final": 3,
+        "fixo": 0,
+        "normal": 9,
+        "afinidade": 6,
+        "eco": 5,
+        "escolha": 5,
+        "metades_compostas_proibidas": 3
+      },
+      {
+        "original": 2,
+        "final": 3,
+        "fixo": 1,
+        "normal": 8,
+        "afinidade": 6,
+        "eco": 4,
+        "escolha": 4,
+        "metades_compostas_proibidas": 3
+      },
+      {
+        "original": 2,
+        "final": 3,
+        "fixo": 2,
+        "normal": 7,
+        "afinidade": 5,
+        "eco": 4,
+        "escolha": 4,
+        "metades_compostas_proibidas": 3
+      },
+      {
+        "original": 2,
+        "final": 3,
+        "fixo": 3,
+        "normal": 6,
+        "afinidade": 5,
+        "eco": 3,
+        "escolha": 3,
+        "metades_compostas_proibidas": 3
+      },
+      {
+        "original": 2,
+        "final": 4,
+        "fixo": 0,
+        "normal": 12,
+        "afinidade": 9,
+        "eco": 6,
+        "escolha": 6,
+        "metades_compostas_proibidas": 5
+      },
+      {
+        "original": 2,
+        "final": 4,
+        "fixo": 1,
+        "normal": 11,
+        "afinidade": 9,
+        "eco": 6,
+        "escolha": 6,
+        "metades_compostas_proibidas": 5
+      },
+      {
+        "original": 2,
+        "final": 4,
+        "fixo": 2,
+        "normal": 10,
+        "afinidade": 8,
+        "eco": 5,
+        "escolha": 5,
+        "metades_compostas_proibidas": 4
+      },
+      {
+        "original": 2,
+        "final": 4,
+        "fixo": 3,
+        "normal": 9,
+        "afinidade": 8,
+        "eco": 5,
+        "escolha": 5,
+        "metades_compostas_proibidas": 4
+      },
+      {
+        "original": 2,
+        "final": 5,
+        "fixo": 0,
+        "normal": 15,
+        "afinidade": 12,
+        "eco": 8,
+        "escolha": 8,
+        "metades_compostas_proibidas": 6
+      },
+      {
+        "original": 2,
+        "final": 5,
+        "fixo": 1,
+        "normal": 14,
+        "afinidade": 12,
+        "eco": 7,
+        "escolha": 7,
+        "metades_compostas_proibidas": 6
+      },
+      {
+        "original": 2,
+        "final": 5,
+        "fixo": 2,
+        "normal": 13,
+        "afinidade": 11,
+        "eco": 7,
+        "escolha": 7,
+        "metades_compostas_proibidas": 6
+      },
+      {
+        "original": 2,
+        "final": 5,
+        "fixo": 3,
+        "normal": 12,
+        "afinidade": 11,
+        "eco": 6,
+        "escolha": 6,
+        "metades_compostas_proibidas": 6
+      },
+      {
+        "original": 2,
+        "final": 6,
+        "fixo": 0,
+        "normal": 18,
+        "afinidade": 15,
+        "eco": 9,
+        "escolha": 9,
+        "metades_compostas_proibidas": 8
+      },
+      {
+        "original": 2,
+        "final": 6,
+        "fixo": 1,
+        "normal": 17,
+        "afinidade": 15,
+        "eco": 9,
+        "escolha": 9,
+        "metades_compostas_proibidas": 8
+      },
+      {
+        "original": 2,
+        "final": 6,
+        "fixo": 2,
+        "normal": 16,
+        "afinidade": 14,
+        "eco": 8,
+        "escolha": 8,
+        "metades_compostas_proibidas": 7
+      },
+      {
+        "original": 2,
+        "final": 6,
+        "fixo": 3,
+        "normal": 15,
+        "afinidade": 14,
+        "eco": 8,
+        "escolha": 8,
+        "metades_compostas_proibidas": 7
+      },
+      {
+        "original": 2,
+        "final": 7,
+        "fixo": 0,
+        "normal": 21,
+        "afinidade": 18,
+        "eco": 11,
+        "escolha": 11,
+        "metades_compostas_proibidas": 9
+      },
+      {
+        "original": 2,
+        "final": 7,
+        "fixo": 1,
+        "normal": 20,
+        "afinidade": 18,
+        "eco": 10,
+        "escolha": 10,
+        "metades_compostas_proibidas": 9
+      },
+      {
+        "original": 2,
+        "final": 7,
+        "fixo": 2,
+        "normal": 19,
+        "afinidade": 17,
+        "eco": 10,
+        "escolha": 10,
+        "metades_compostas_proibidas": 9
+      },
+      {
+        "original": 2,
+        "final": 7,
+        "fixo": 3,
+        "normal": 18,
+        "afinidade": 17,
+        "eco": 9,
+        "escolha": 9,
+        "metades_compostas_proibidas": 9
+      },
+      {
+        "original": 3,
+        "final": 3,
+        "fixo": 0,
+        "normal": 9,
+        "afinidade": 5,
+        "eco": 5,
+        "escolha": 5,
+        "metades_compostas_proibidas": 3
+      },
+      {
+        "original": 3,
+        "final": 3,
+        "fixo": 1,
+        "normal": 8,
+        "afinidade": 4,
+        "eco": 4,
+        "escolha": 4,
+        "metades_compostas_proibidas": 2
+      },
+      {
+        "original": 3,
+        "final": 3,
+        "fixo": 2,
+        "normal": 7,
+        "afinidade": 4,
+        "eco": 4,
+        "escolha": 4,
+        "metades_compostas_proibidas": 2
+      },
+      {
+        "original": 3,
+        "final": 3,
+        "fixo": 3,
+        "normal": 6,
+        "afinidade": 3,
+        "eco": 3,
+        "escolha": 3,
+        "metades_compostas_proibidas": 2
+      },
+      {
+        "original": 3,
+        "final": 4,
+        "fixo": 0,
+        "normal": 12,
+        "afinidade": 8,
+        "eco": 6,
+        "escolha": 6,
+        "metades_compostas_proibidas": 4
+      },
+      {
+        "original": 3,
+        "final": 4,
+        "fixo": 1,
+        "normal": 11,
+        "afinidade": 7,
+        "eco": 6,
+        "escolha": 6,
+        "metades_compostas_proibidas": 4
+      },
+      {
+        "original": 3,
+        "final": 4,
+        "fixo": 2,
+        "normal": 10,
+        "afinidade": 7,
+        "eco": 5,
+        "escolha": 5,
+        "metades_compostas_proibidas": 4
+      },
+      {
+        "original": 3,
+        "final": 4,
+        "fixo": 3,
+        "normal": 9,
+        "afinidade": 6,
+        "eco": 5,
+        "escolha": 5,
+        "metades_compostas_proibidas": 3
+      },
+      {
+        "original": 3,
+        "final": 5,
+        "fixo": 0,
+        "normal": 15,
+        "afinidade": 11,
+        "eco": 8,
+        "escolha": 8,
+        "metades_compostas_proibidas": 6
+      },
+      {
+        "original": 3,
+        "final": 5,
+        "fixo": 1,
+        "normal": 14,
+        "afinidade": 10,
+        "eco": 7,
+        "escolha": 7,
+        "metades_compostas_proibidas": 5
+      },
+      {
+        "original": 3,
+        "final": 5,
+        "fixo": 2,
+        "normal": 13,
+        "afinidade": 10,
+        "eco": 7,
+        "escolha": 7,
+        "metades_compostas_proibidas": 5
+      },
+      {
+        "original": 3,
+        "final": 5,
+        "fixo": 3,
+        "normal": 12,
+        "afinidade": 9,
+        "eco": 6,
+        "escolha": 6,
+        "metades_compostas_proibidas": 5
+      },
+      {
+        "original": 3,
+        "final": 6,
+        "fixo": 0,
+        "normal": 18,
+        "afinidade": 14,
+        "eco": 9,
+        "escolha": 9,
+        "metades_compostas_proibidas": 7
+      },
+      {
+        "original": 3,
+        "final": 6,
+        "fixo": 1,
+        "normal": 17,
+        "afinidade": 13,
+        "eco": 9,
+        "escolha": 9,
+        "metades_compostas_proibidas": 7
+      },
+      {
+        "original": 3,
+        "final": 6,
+        "fixo": 2,
+        "normal": 16,
+        "afinidade": 13,
+        "eco": 8,
+        "escolha": 8,
+        "metades_compostas_proibidas": 7
+      },
+      {
+        "original": 3,
+        "final": 6,
+        "fixo": 3,
+        "normal": 15,
+        "afinidade": 12,
+        "eco": 8,
+        "escolha": 8,
+        "metades_compostas_proibidas": 6
+      },
+      {
+        "original": 3,
+        "final": 7,
+        "fixo": 0,
+        "normal": 21,
+        "afinidade": 17,
+        "eco": 11,
+        "escolha": 11,
+        "metades_compostas_proibidas": 9
+      },
+      {
+        "original": 3,
+        "final": 7,
+        "fixo": 1,
+        "normal": 20,
+        "afinidade": 16,
+        "eco": 10,
+        "escolha": 10,
+        "metades_compostas_proibidas": 8
+      },
+      {
+        "original": 3,
+        "final": 7,
+        "fixo": 2,
+        "normal": 19,
+        "afinidade": 16,
+        "eco": 10,
+        "escolha": 10,
+        "metades_compostas_proibidas": 8
+      },
+      {
+        "original": 3,
+        "final": 7,
+        "fixo": 3,
+        "normal": 18,
+        "afinidade": 15,
+        "eco": 9,
+        "escolha": 9,
+        "metades_compostas_proibidas": 8
+      }
+    ],
+    "rerrolagens": [
+      {
+        "dado": 4,
+        "media_normal": 2.5,
+        "media_corrigida": 3.0,
+        "ganho": 0.5
+      },
+      {
+        "dado": 6,
+        "media_normal": 3.5,
+        "media_corrigida": 4.166666666666667,
+        "ganho": 0.6666666666666666
+      },
+      {
+        "dado": 8,
+        "media_normal": 4.5,
+        "media_corrigida": 5.25,
+        "ganho": 0.75
+      },
+      {
+        "dado": 10,
+        "media_normal": 5.5,
+        "media_corrigida": 6.3,
+        "ganho": 0.8
+      },
+      {
+        "dado": 12,
+        "media_normal": 6.5,
+        "media_corrigida": 7.333333333333333,
+        "ganho": 0.8333333333333334
+      }
+    ],
+    "probabilidades": [
+      {
+        "p_resistir": 0.05,
+        "classe": 1,
+        "efeito_normal": 0.95,
+        "intensificar": 0.9975,
+        "intensificar_corrigir": 0.99999375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.0025
+      },
+      {
+        "p_resistir": 0.05,
+        "classe": 2,
+        "efeito_normal": 0.95,
+        "intensificar": 0.9975,
+        "intensificar_corrigir": 0.99999375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.005
+      },
+      {
+        "p_resistir": 0.05,
+        "classe": 3,
+        "efeito_normal": 0.95,
+        "intensificar": 0.9975,
+        "intensificar_corrigir": 0.99999375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.0075
+      },
+      {
+        "p_resistir": 0.05,
+        "classe": 4,
+        "efeito_normal": 0.95,
+        "intensificar": 0.9975,
+        "intensificar_corrigir": 0.99999375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.01
+      },
+      {
+        "p_resistir": 0.05,
+        "classe": 5,
+        "efeito_normal": 0.95,
+        "intensificar": 0.9975,
+        "intensificar_corrigir": 0.99999375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.0125
+      },
+      {
+        "p_resistir": 0.05,
+        "classe": 6,
+        "efeito_normal": 0.95,
+        "intensificar": 0.9975,
+        "intensificar_corrigir": 0.99999375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.015
+      },
+      {
+        "p_resistir": 0.05,
+        "classe": 7,
+        "efeito_normal": 0.95,
+        "intensificar": 0.9975,
+        "intensificar_corrigir": 0.99999375,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 0.0175
+      },
+      {
+        "p_resistir": 0.1,
+        "classe": 1,
+        "efeito_normal": 0.9,
+        "intensificar": 0.99,
+        "intensificar_corrigir": 0.9999,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.01
+      },
+      {
+        "p_resistir": 0.1,
+        "classe": 2,
+        "efeito_normal": 0.9,
+        "intensificar": 0.99,
+        "intensificar_corrigir": 0.9999,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.02
+      },
+      {
+        "p_resistir": 0.1,
+        "classe": 3,
+        "efeito_normal": 0.9,
+        "intensificar": 0.99,
+        "intensificar_corrigir": 0.9999,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.03
+      },
+      {
+        "p_resistir": 0.1,
+        "classe": 4,
+        "efeito_normal": 0.9,
+        "intensificar": 0.99,
+        "intensificar_corrigir": 0.9999,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.04
+      },
+      {
+        "p_resistir": 0.1,
+        "classe": 5,
+        "efeito_normal": 0.9,
+        "intensificar": 0.99,
+        "intensificar_corrigir": 0.9999,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.05
+      },
+      {
+        "p_resistir": 0.1,
+        "classe": 6,
+        "efeito_normal": 0.9,
+        "intensificar": 0.99,
+        "intensificar_corrigir": 0.9999,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.06
+      },
+      {
+        "p_resistir": 0.1,
+        "classe": 7,
+        "efeito_normal": 0.9,
+        "intensificar": 0.99,
+        "intensificar_corrigir": 0.9999,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 0.07
+      },
+      {
+        "p_resistir": 0.15,
+        "classe": 1,
+        "efeito_normal": 0.85,
+        "intensificar": 0.9775,
+        "intensificar_corrigir": 0.99949375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.0225
+      },
+      {
+        "p_resistir": 0.15,
+        "classe": 2,
+        "efeito_normal": 0.85,
+        "intensificar": 0.9775,
+        "intensificar_corrigir": 0.99949375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.045
+      },
+      {
+        "p_resistir": 0.15,
+        "classe": 3,
+        "efeito_normal": 0.85,
+        "intensificar": 0.9775,
+        "intensificar_corrigir": 0.99949375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.0675
+      },
+      {
+        "p_resistir": 0.15,
+        "classe": 4,
+        "efeito_normal": 0.85,
+        "intensificar": 0.9775,
+        "intensificar_corrigir": 0.99949375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.09
+      },
+      {
+        "p_resistir": 0.15,
+        "classe": 5,
+        "efeito_normal": 0.85,
+        "intensificar": 0.9775,
+        "intensificar_corrigir": 0.99949375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.1125
+      },
+      {
+        "p_resistir": 0.15,
+        "classe": 6,
+        "efeito_normal": 0.85,
+        "intensificar": 0.9775,
+        "intensificar_corrigir": 0.99949375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.135
+      },
+      {
+        "p_resistir": 0.15,
+        "classe": 7,
+        "efeito_normal": 0.85,
+        "intensificar": 0.9775,
+        "intensificar_corrigir": 0.99949375,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 0.1575
+      },
+      {
+        "p_resistir": 0.2,
+        "classe": 1,
+        "efeito_normal": 0.8,
+        "intensificar": 0.96,
+        "intensificar_corrigir": 0.9984,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.04
+      },
+      {
+        "p_resistir": 0.2,
+        "classe": 2,
+        "efeito_normal": 0.8,
+        "intensificar": 0.96,
+        "intensificar_corrigir": 0.9984,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.08
+      },
+      {
+        "p_resistir": 0.2,
+        "classe": 3,
+        "efeito_normal": 0.8,
+        "intensificar": 0.96,
+        "intensificar_corrigir": 0.9984,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.12
+      },
+      {
+        "p_resistir": 0.2,
+        "classe": 4,
+        "efeito_normal": 0.8,
+        "intensificar": 0.96,
+        "intensificar_corrigir": 0.9984,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.16
+      },
+      {
+        "p_resistir": 0.2,
+        "classe": 5,
+        "efeito_normal": 0.8,
+        "intensificar": 0.96,
+        "intensificar_corrigir": 0.9984,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.2
+      },
+      {
+        "p_resistir": 0.2,
+        "classe": 6,
+        "efeito_normal": 0.8,
+        "intensificar": 0.96,
+        "intensificar_corrigir": 0.9984,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.24
+      },
+      {
+        "p_resistir": 0.2,
+        "classe": 7,
+        "efeito_normal": 0.8,
+        "intensificar": 0.96,
+        "intensificar_corrigir": 0.9984,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 0.28
+      },
+      {
+        "p_resistir": 0.25,
+        "classe": 1,
+        "efeito_normal": 0.75,
+        "intensificar": 0.9375,
+        "intensificar_corrigir": 0.99609375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.0625
+      },
+      {
+        "p_resistir": 0.25,
+        "classe": 2,
+        "efeito_normal": 0.75,
+        "intensificar": 0.9375,
+        "intensificar_corrigir": 0.99609375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.125
+      },
+      {
+        "p_resistir": 0.25,
+        "classe": 3,
+        "efeito_normal": 0.75,
+        "intensificar": 0.9375,
+        "intensificar_corrigir": 0.99609375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.1875
+      },
+      {
+        "p_resistir": 0.25,
+        "classe": 4,
+        "efeito_normal": 0.75,
+        "intensificar": 0.9375,
+        "intensificar_corrigir": 0.99609375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.25
+      },
+      {
+        "p_resistir": 0.25,
+        "classe": 5,
+        "efeito_normal": 0.75,
+        "intensificar": 0.9375,
+        "intensificar_corrigir": 0.99609375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.3125
+      },
+      {
+        "p_resistir": 0.25,
+        "classe": 6,
+        "efeito_normal": 0.75,
+        "intensificar": 0.9375,
+        "intensificar_corrigir": 0.99609375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.375
+      },
+      {
+        "p_resistir": 0.25,
+        "classe": 7,
+        "efeito_normal": 0.75,
+        "intensificar": 0.9375,
+        "intensificar_corrigir": 0.99609375,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 0.4375
+      },
+      {
+        "p_resistir": 0.3,
+        "classe": 1,
+        "efeito_normal": 0.7,
+        "intensificar": 0.91,
+        "intensificar_corrigir": 0.9919,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.09
+      },
+      {
+        "p_resistir": 0.3,
+        "classe": 2,
+        "efeito_normal": 0.7,
+        "intensificar": 0.91,
+        "intensificar_corrigir": 0.9919,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.18
+      },
+      {
+        "p_resistir": 0.3,
+        "classe": 3,
+        "efeito_normal": 0.7,
+        "intensificar": 0.91,
+        "intensificar_corrigir": 0.9919,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.27
+      },
+      {
+        "p_resistir": 0.3,
+        "classe": 4,
+        "efeito_normal": 0.7,
+        "intensificar": 0.91,
+        "intensificar_corrigir": 0.9919,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.36
+      },
+      {
+        "p_resistir": 0.3,
+        "classe": 5,
+        "efeito_normal": 0.7,
+        "intensificar": 0.91,
+        "intensificar_corrigir": 0.9919,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.45
+      },
+      {
+        "p_resistir": 0.3,
+        "classe": 6,
+        "efeito_normal": 0.7,
+        "intensificar": 0.91,
+        "intensificar_corrigir": 0.9919,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.54
+      },
+      {
+        "p_resistir": 0.3,
+        "classe": 7,
+        "efeito_normal": 0.7,
+        "intensificar": 0.91,
+        "intensificar_corrigir": 0.9919,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 0.63
+      },
+      {
+        "p_resistir": 0.35,
+        "classe": 1,
+        "efeito_normal": 0.65,
+        "intensificar": 0.8775,
+        "intensificar_corrigir": 0.98499375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.1225
+      },
+      {
+        "p_resistir": 0.35,
+        "classe": 2,
+        "efeito_normal": 0.65,
+        "intensificar": 0.8775,
+        "intensificar_corrigir": 0.98499375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.245
+      },
+      {
+        "p_resistir": 0.35,
+        "classe": 3,
+        "efeito_normal": 0.65,
+        "intensificar": 0.8775,
+        "intensificar_corrigir": 0.98499375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.3675
+      },
+      {
+        "p_resistir": 0.35,
+        "classe": 4,
+        "efeito_normal": 0.65,
+        "intensificar": 0.8775,
+        "intensificar_corrigir": 0.98499375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.49
+      },
+      {
+        "p_resistir": 0.35,
+        "classe": 5,
+        "efeito_normal": 0.65,
+        "intensificar": 0.8775,
+        "intensificar_corrigir": 0.98499375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.6125
+      },
+      {
+        "p_resistir": 0.35,
+        "classe": 6,
+        "efeito_normal": 0.65,
+        "intensificar": 0.8775,
+        "intensificar_corrigir": 0.98499375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.735
+      },
+      {
+        "p_resistir": 0.35,
+        "classe": 7,
+        "efeito_normal": 0.65,
+        "intensificar": 0.8775,
+        "intensificar_corrigir": 0.98499375,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 0.8575
+      },
+      {
+        "p_resistir": 0.4,
+        "classe": 1,
+        "efeito_normal": 0.6,
+        "intensificar": 0.84,
+        "intensificar_corrigir": 0.9744,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.16
+      },
+      {
+        "p_resistir": 0.4,
+        "classe": 2,
+        "efeito_normal": 0.6,
+        "intensificar": 0.84,
+        "intensificar_corrigir": 0.9744,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.32
+      },
+      {
+        "p_resistir": 0.4,
+        "classe": 3,
+        "efeito_normal": 0.6,
+        "intensificar": 0.84,
+        "intensificar_corrigir": 0.9744,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.48
+      },
+      {
+        "p_resistir": 0.4,
+        "classe": 4,
+        "efeito_normal": 0.6,
+        "intensificar": 0.84,
+        "intensificar_corrigir": 0.9744,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.64
+      },
+      {
+        "p_resistir": 0.4,
+        "classe": 5,
+        "efeito_normal": 0.6,
+        "intensificar": 0.84,
+        "intensificar_corrigir": 0.9744,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.8
+      },
+      {
+        "p_resistir": 0.4,
+        "classe": 6,
+        "efeito_normal": 0.6,
+        "intensificar": 0.84,
+        "intensificar_corrigir": 0.9744,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 0.96
+      },
+      {
+        "p_resistir": 0.4,
+        "classe": 7,
+        "efeito_normal": 0.6,
+        "intensificar": 0.84,
+        "intensificar_corrigir": 0.9744,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 1.12
+      },
+      {
+        "p_resistir": 0.45,
+        "classe": 1,
+        "efeito_normal": 0.55,
+        "intensificar": 0.7975,
+        "intensificar_corrigir": 0.95899375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.2025
+      },
+      {
+        "p_resistir": 0.45,
+        "classe": 2,
+        "efeito_normal": 0.55,
+        "intensificar": 0.7975,
+        "intensificar_corrigir": 0.95899375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.405
+      },
+      {
+        "p_resistir": 0.45,
+        "classe": 3,
+        "efeito_normal": 0.55,
+        "intensificar": 0.7975,
+        "intensificar_corrigir": 0.95899375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.6075
+      },
+      {
+        "p_resistir": 0.45,
+        "classe": 4,
+        "efeito_normal": 0.55,
+        "intensificar": 0.7975,
+        "intensificar_corrigir": 0.95899375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.81
+      },
+      {
+        "p_resistir": 0.45,
+        "classe": 5,
+        "efeito_normal": 0.55,
+        "intensificar": 0.7975,
+        "intensificar_corrigir": 0.95899375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 1.0125
+      },
+      {
+        "p_resistir": 0.45,
+        "classe": 6,
+        "efeito_normal": 0.55,
+        "intensificar": 0.7975,
+        "intensificar_corrigir": 0.95899375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 1.215
+      },
+      {
+        "p_resistir": 0.45,
+        "classe": 7,
+        "efeito_normal": 0.55,
+        "intensificar": 0.7975,
+        "intensificar_corrigir": 0.95899375,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 1.4175
+      },
+      {
+        "p_resistir": 0.5,
+        "classe": 1,
+        "efeito_normal": 0.5,
+        "intensificar": 0.75,
+        "intensificar_corrigir": 0.9375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.25
+      },
+      {
+        "p_resistir": 0.5,
+        "classe": 2,
+        "efeito_normal": 0.5,
+        "intensificar": 0.75,
+        "intensificar_corrigir": 0.9375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.5
+      },
+      {
+        "p_resistir": 0.5,
+        "classe": 3,
+        "efeito_normal": 0.5,
+        "intensificar": 0.75,
+        "intensificar_corrigir": 0.9375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.75
+      },
+      {
+        "p_resistir": 0.5,
+        "classe": 4,
+        "efeito_normal": 0.5,
+        "intensificar": 0.75,
+        "intensificar_corrigir": 0.9375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 1.0
+      },
+      {
+        "p_resistir": 0.5,
+        "classe": 5,
+        "efeito_normal": 0.5,
+        "intensificar": 0.75,
+        "intensificar_corrigir": 0.9375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 1.25
+      },
+      {
+        "p_resistir": 0.5,
+        "classe": 6,
+        "efeito_normal": 0.5,
+        "intensificar": 0.75,
+        "intensificar_corrigir": 0.9375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 1.5
+      },
+      {
+        "p_resistir": 0.5,
+        "classe": 7,
+        "efeito_normal": 0.5,
+        "intensificar": 0.75,
+        "intensificar_corrigir": 0.9375,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 1.75
+      },
+      {
+        "p_resistir": 0.55,
+        "classe": 1,
+        "efeito_normal": 0.45,
+        "intensificar": 0.6975,
+        "intensificar_corrigir": 0.90849375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.3025
+      },
+      {
+        "p_resistir": 0.55,
+        "classe": 2,
+        "efeito_normal": 0.45,
+        "intensificar": 0.6975,
+        "intensificar_corrigir": 0.90849375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.605
+      },
+      {
+        "p_resistir": 0.55,
+        "classe": 3,
+        "efeito_normal": 0.45,
+        "intensificar": 0.6975,
+        "intensificar_corrigir": 0.90849375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 0.9075
+      },
+      {
+        "p_resistir": 0.55,
+        "classe": 4,
+        "efeito_normal": 0.45,
+        "intensificar": 0.6975,
+        "intensificar_corrigir": 0.90849375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 1.21
+      },
+      {
+        "p_resistir": 0.55,
+        "classe": 5,
+        "efeito_normal": 0.45,
+        "intensificar": 0.6975,
+        "intensificar_corrigir": 0.90849375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 1.5125
+      },
+      {
+        "p_resistir": 0.55,
+        "classe": 6,
+        "efeito_normal": 0.45,
+        "intensificar": 0.6975,
+        "intensificar_corrigir": 0.90849375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 1.815
+      },
+      {
+        "p_resistir": 0.55,
+        "classe": 7,
+        "efeito_normal": 0.45,
+        "intensificar": 0.6975,
+        "intensificar_corrigir": 0.90849375,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 2.1175
+      },
+      {
+        "p_resistir": 0.6,
+        "classe": 1,
+        "efeito_normal": 0.4,
+        "intensificar": 0.64,
+        "intensificar_corrigir": 0.8704,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.36
+      },
+      {
+        "p_resistir": 0.6,
+        "classe": 2,
+        "efeito_normal": 0.4,
+        "intensificar": 0.64,
+        "intensificar_corrigir": 0.8704,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.72
+      },
+      {
+        "p_resistir": 0.6,
+        "classe": 3,
+        "efeito_normal": 0.4,
+        "intensificar": 0.64,
+        "intensificar_corrigir": 0.8704,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 1.08
+      },
+      {
+        "p_resistir": 0.6,
+        "classe": 4,
+        "efeito_normal": 0.4,
+        "intensificar": 0.64,
+        "intensificar_corrigir": 0.8704,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 1.44
+      },
+      {
+        "p_resistir": 0.6,
+        "classe": 5,
+        "efeito_normal": 0.4,
+        "intensificar": 0.64,
+        "intensificar_corrigir": 0.8704,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 1.8
+      },
+      {
+        "p_resistir": 0.6,
+        "classe": 6,
+        "efeito_normal": 0.4,
+        "intensificar": 0.64,
+        "intensificar_corrigir": 0.8704,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 2.16
+      },
+      {
+        "p_resistir": 0.6,
+        "classe": 7,
+        "efeito_normal": 0.4,
+        "intensificar": 0.64,
+        "intensificar_corrigir": 0.8704,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 2.52
+      },
+      {
+        "p_resistir": 0.65,
+        "classe": 1,
+        "efeito_normal": 0.35,
+        "intensificar": 0.5775,
+        "intensificar_corrigir": 0.82149375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.4225
+      },
+      {
+        "p_resistir": 0.65,
+        "classe": 2,
+        "efeito_normal": 0.35,
+        "intensificar": 0.5775,
+        "intensificar_corrigir": 0.82149375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.845
+      },
+      {
+        "p_resistir": 0.65,
+        "classe": 3,
+        "efeito_normal": 0.35,
+        "intensificar": 0.5775,
+        "intensificar_corrigir": 0.82149375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 1.2675
+      },
+      {
+        "p_resistir": 0.65,
+        "classe": 4,
+        "efeito_normal": 0.35,
+        "intensificar": 0.5775,
+        "intensificar_corrigir": 0.82149375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 1.69
+      },
+      {
+        "p_resistir": 0.65,
+        "classe": 5,
+        "efeito_normal": 0.35,
+        "intensificar": 0.5775,
+        "intensificar_corrigir": 0.82149375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 2.1125
+      },
+      {
+        "p_resistir": 0.65,
+        "classe": 6,
+        "efeito_normal": 0.35,
+        "intensificar": 0.5775,
+        "intensificar_corrigir": 0.82149375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 2.535
+      },
+      {
+        "p_resistir": 0.65,
+        "classe": 7,
+        "efeito_normal": 0.35,
+        "intensificar": 0.5775,
+        "intensificar_corrigir": 0.82149375,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 2.9575
+      },
+      {
+        "p_resistir": 0.7,
+        "classe": 1,
+        "efeito_normal": 0.3,
+        "intensificar": 0.51,
+        "intensificar_corrigir": 0.7599,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.49
+      },
+      {
+        "p_resistir": 0.7,
+        "classe": 2,
+        "efeito_normal": 0.3,
+        "intensificar": 0.51,
+        "intensificar_corrigir": 0.7599,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.98
+      },
+      {
+        "p_resistir": 0.7,
+        "classe": 3,
+        "efeito_normal": 0.3,
+        "intensificar": 0.51,
+        "intensificar_corrigir": 0.7599,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 1.47
+      },
+      {
+        "p_resistir": 0.7,
+        "classe": 4,
+        "efeito_normal": 0.3,
+        "intensificar": 0.51,
+        "intensificar_corrigir": 0.7599,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 1.96
+      },
+      {
+        "p_resistir": 0.7,
+        "classe": 5,
+        "efeito_normal": 0.3,
+        "intensificar": 0.51,
+        "intensificar_corrigir": 0.7599,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 2.45
+      },
+      {
+        "p_resistir": 0.7,
+        "classe": 6,
+        "efeito_normal": 0.3,
+        "intensificar": 0.51,
+        "intensificar_corrigir": 0.7599,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 2.94
+      },
+      {
+        "p_resistir": 0.7,
+        "classe": 7,
+        "efeito_normal": 0.3,
+        "intensificar": 0.51,
+        "intensificar_corrigir": 0.7599,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 3.43
+      },
+      {
+        "p_resistir": 0.75,
+        "classe": 1,
+        "efeito_normal": 0.25,
+        "intensificar": 0.4375,
+        "intensificar_corrigir": 0.68359375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.5625
+      },
+      {
+        "p_resistir": 0.75,
+        "classe": 2,
+        "efeito_normal": 0.25,
+        "intensificar": 0.4375,
+        "intensificar_corrigir": 0.68359375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 1.125
+      },
+      {
+        "p_resistir": 0.75,
+        "classe": 3,
+        "efeito_normal": 0.25,
+        "intensificar": 0.4375,
+        "intensificar_corrigir": 0.68359375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 1.6875
+      },
+      {
+        "p_resistir": 0.75,
+        "classe": 4,
+        "efeito_normal": 0.25,
+        "intensificar": 0.4375,
+        "intensificar_corrigir": 0.68359375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 2.25
+      },
+      {
+        "p_resistir": 0.75,
+        "classe": 5,
+        "efeito_normal": 0.25,
+        "intensificar": 0.4375,
+        "intensificar_corrigir": 0.68359375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 2.8125
+      },
+      {
+        "p_resistir": 0.75,
+        "classe": 6,
+        "efeito_normal": 0.25,
+        "intensificar": 0.4375,
+        "intensificar_corrigir": 0.68359375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 3.375
+      },
+      {
+        "p_resistir": 0.75,
+        "classe": 7,
+        "efeito_normal": 0.25,
+        "intensificar": 0.4375,
+        "intensificar_corrigir": 0.68359375,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 3.9375
+      },
+      {
+        "p_resistir": 0.8,
+        "classe": 1,
+        "efeito_normal": 0.2,
+        "intensificar": 0.36,
+        "intensificar_corrigir": 0.5904,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.64
+      },
+      {
+        "p_resistir": 0.8,
+        "classe": 2,
+        "efeito_normal": 0.2,
+        "intensificar": 0.36,
+        "intensificar_corrigir": 0.5904,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 1.28
+      },
+      {
+        "p_resistir": 0.8,
+        "classe": 3,
+        "efeito_normal": 0.2,
+        "intensificar": 0.36,
+        "intensificar_corrigir": 0.5904,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 1.92
+      },
+      {
+        "p_resistir": 0.8,
+        "classe": 4,
+        "efeito_normal": 0.2,
+        "intensificar": 0.36,
+        "intensificar_corrigir": 0.5904,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 2.56
+      },
+      {
+        "p_resistir": 0.8,
+        "classe": 5,
+        "efeito_normal": 0.2,
+        "intensificar": 0.36,
+        "intensificar_corrigir": 0.5904,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 3.2
+      },
+      {
+        "p_resistir": 0.8,
+        "classe": 6,
+        "efeito_normal": 0.2,
+        "intensificar": 0.36,
+        "intensificar_corrigir": 0.5904,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 3.84
+      },
+      {
+        "p_resistir": 0.8,
+        "classe": 7,
+        "efeito_normal": 0.2,
+        "intensificar": 0.36,
+        "intensificar_corrigir": 0.5904,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 4.48
+      },
+      {
+        "p_resistir": 0.85,
+        "classe": 1,
+        "efeito_normal": 0.15,
+        "intensificar": 0.2775,
+        "intensificar_corrigir": 0.47799375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.7225
+      },
+      {
+        "p_resistir": 0.85,
+        "classe": 2,
+        "efeito_normal": 0.15,
+        "intensificar": 0.2775,
+        "intensificar_corrigir": 0.47799375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 1.445
+      },
+      {
+        "p_resistir": 0.85,
+        "classe": 3,
+        "efeito_normal": 0.15,
+        "intensificar": 0.2775,
+        "intensificar_corrigir": 0.47799375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 2.1675
+      },
+      {
+        "p_resistir": 0.85,
+        "classe": 4,
+        "efeito_normal": 0.15,
+        "intensificar": 0.2775,
+        "intensificar_corrigir": 0.47799375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 2.89
+      },
+      {
+        "p_resistir": 0.85,
+        "classe": 5,
+        "efeito_normal": 0.15,
+        "intensificar": 0.2775,
+        "intensificar_corrigir": 0.47799375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 3.6125
+      },
+      {
+        "p_resistir": 0.85,
+        "classe": 6,
+        "efeito_normal": 0.15,
+        "intensificar": 0.2775,
+        "intensificar_corrigir": 0.47799375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 4.335
+      },
+      {
+        "p_resistir": 0.85,
+        "classe": 7,
+        "efeito_normal": 0.15,
+        "intensificar": 0.2775,
+        "intensificar_corrigir": 0.47799375,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 5.0575
+      },
+      {
+        "p_resistir": 0.9,
+        "classe": 1,
+        "efeito_normal": 0.1,
+        "intensificar": 0.19,
+        "intensificar_corrigir": 0.3439,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.81
+      },
+      {
+        "p_resistir": 0.9,
+        "classe": 2,
+        "efeito_normal": 0.1,
+        "intensificar": 0.19,
+        "intensificar_corrigir": 0.3439,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 1.62
+      },
+      {
+        "p_resistir": 0.9,
+        "classe": 3,
+        "efeito_normal": 0.1,
+        "intensificar": 0.19,
+        "intensificar_corrigir": 0.3439,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 2.43
+      },
+      {
+        "p_resistir": 0.9,
+        "classe": 4,
+        "efeito_normal": 0.1,
+        "intensificar": 0.19,
+        "intensificar_corrigir": 0.3439,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 3.24
+      },
+      {
+        "p_resistir": 0.9,
+        "classe": 5,
+        "efeito_normal": 0.1,
+        "intensificar": 0.19,
+        "intensificar_corrigir": 0.3439,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 4.05
+      },
+      {
+        "p_resistir": 0.9,
+        "classe": 6,
+        "efeito_normal": 0.1,
+        "intensificar": 0.19,
+        "intensificar_corrigir": 0.3439,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 4.86
+      },
+      {
+        "p_resistir": 0.9,
+        "classe": 7,
+        "efeito_normal": 0.1,
+        "intensificar": 0.19,
+        "intensificar_corrigir": 0.3439,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 5.67
+      },
+      {
+        "p_resistir": 0.95,
+        "classe": 1,
+        "efeito_normal": 0.05,
+        "intensificar": 0.0975,
+        "intensificar_corrigir": 0.18549375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 0.9025
+      },
+      {
+        "p_resistir": 0.95,
+        "classe": 2,
+        "efeito_normal": 0.05,
+        "intensificar": 0.0975,
+        "intensificar_corrigir": 0.18549375,
+        "custo_intensificar": 1,
+        "custo_correcao_medio_se_resistir": 1.805
+      },
+      {
+        "p_resistir": 0.95,
+        "classe": 3,
+        "efeito_normal": 0.05,
+        "intensificar": 0.0975,
+        "intensificar_corrigir": 0.18549375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 2.7075
+      },
+      {
+        "p_resistir": 0.95,
+        "classe": 4,
+        "efeito_normal": 0.05,
+        "intensificar": 0.0975,
+        "intensificar_corrigir": 0.18549375,
+        "custo_intensificar": 2,
+        "custo_correcao_medio_se_resistir": 3.61
+      },
+      {
+        "p_resistir": 0.95,
+        "classe": 5,
+        "efeito_normal": 0.05,
+        "intensificar": 0.0975,
+        "intensificar_corrigir": 0.18549375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 4.5125
+      },
+      {
+        "p_resistir": 0.95,
+        "classe": 6,
+        "efeito_normal": 0.05,
+        "intensificar": 0.0975,
+        "intensificar_corrigir": 0.18549375,
+        "custo_intensificar": 3,
+        "custo_correcao_medio_se_resistir": 5.415
+      },
+      {
+        "p_resistir": 0.95,
+        "classe": 7,
+        "efeito_normal": 0.05,
+        "intensificar": 0.0975,
+        "intensificar_corrigir": 0.18549375,
+        "custo_intensificar": 4,
+        "custo_correcao_medio_se_resistir": 6.3175
+      }
+    ]
+  },
+  "limites": [
+    "Não é playtest nem prova de equilíbrio entre os seis Caminhos.",
+    "Ataque/TR usa probabilidade parametrizada; Bloquear/condições reais podem mudar os valores.",
+    "Modelos não medem utilidade narrativa de detectar/gravar/teleportar arma, tempo de mesa ou carga cognitiva.",
+    "Custos são simulações das decisões registradas, não evidência de que toda interação já estava na publicação."
+  ]
+}

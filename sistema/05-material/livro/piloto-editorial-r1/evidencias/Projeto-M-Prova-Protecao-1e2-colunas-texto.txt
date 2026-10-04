@@ -1,0 +1,90 @@
+PÁGINA 1
+PROVA A · UMA COLUNA · MESMO TEXTO DA PROVA B
+AMOSTRA DE REGRA PARA CONSULTA
+Proteção do Bastião
+Kaori recebeu Olhos Em Mim, do Bastião, e Alicerce, da Trilha Muro, no nível 2. A área permite proteger
+um aliado; Alicerce reduz determinados danos que ela própria recebe. Esta página reúne as regras usadas no
+exemplo seguinte.
+Olhos Em Mim
+Ação Bônus · raio de 6 m · até o fim da cena
+Você usa Força nos testes de Provocar e Intimidação, no lugar de Essência.
+Com uma Ação Bônus, estabeleça uma área de 6 m ao seu redor. Ela acompanha você e pode ser
+encerrada como ação livre no seu turno.
+Provocação inicial, uma vez por cena. Ao ativar a área, escolha inimigos dentro dela, até o limite de
+metade da sua Força, arredondada para baixo, mais um. Faça um teste de Provocar contra o TR de
+Espírito de cada um. Quem falhar sofre o efeito de Provocar até o começo do seu próximo turno.
+Inimigos que entrarem depois não recebem essa provocação inicial.
+Assumir um golpe. Com a área ativa, quando uma criatura declarar um ataque com rolagem contra um
+aliado dentro dela, você pode gastar sua Reação, antes da rolagem de acerto, para se tornar o alvo
+desse ataque.
+O atacante compara sua rolagem com sua Defesa, ou com seu Bloquear, se você escolher bloquear.
+Bloquear não exige outra Reação. O ataque conserva o alcance já declarado contra o aliado, e você o
+intercepta sem se mover.
+Se acertar, você recebe o dano e os efeitos do golpe, inclusive o crítico. Se errar, nenhum dos dois
+recebe o golpe. A Reação protege somente o ataque declarado, não os demais ataques da ação.
+Alicerce
+Trilha Muro · benefício do nível 2
+Ao fim de cada descanso longo, escolha dois tipos de dano. Enquanto Olhos Em Mim estiver ativo,
+você recebe metade do dano desses tipos. Kaori escolheu Cortante e Concussão para estes exemplos.
+O efeito de Provocar: até o começo do próximo turno de quem provocou, o alvo afetado ataca essa pessoa
+com vantagem e as outras criaturas com desvantagem. Para Kaori, a provocação inicial alcança até 2 inimi‐
+gos; seu teste é d20 + 4 contra o TR de Espírito de cada um.
+O exemplo seguinte começa com a área já ativa e a provocação inicial encerrada. Ele demonstra a proteção de um aliado,
+sem precisar resolver outra tentativa de Provocar.
+P R O J E T O  -  M Proteção do Bastião
+PILOTO EDITORIAL 1 · REGRAS v0.331 1
+
+PÁGINA 2
+PROVA B · DUAS COLUNAS · MESMO TEXTO DA PROVA A
+AMOSTRA DE REGRA PARA CONSULTA
+Proteção do Bastião
+Kaori recebeu Olhos Em Mim, do Bastião, e Alicerce, da Trilha Muro, no nível 2. A área permite proteger
+um aliado; Alicerce reduz determinados danos que ela própria recebe. Esta página reúne as regras usadas no
+exemplo seguinte.
+Olhos Em Mim
+Ação Bônus · raio de 6 m · até o fim da cena
+Você usa Força nos testes de Provocar e Intimi‐
+dação, no lugar de Essência.
+Com uma Ação Bônus, estabeleça uma área de 6
+m ao seu redor. Ela acompanha você e pode ser
+encerrada como ação livre no seu turno.
+Provocação inicial, uma vez por cena. Ao ativar a
+área, escolha inimigos dentro dela, até o limite de
+metade da sua Força, arredondada para baixo,
+mais um. Faça um teste de Provocar contra o TR
+de Espírito de cada um. Quem falhar sofre o efei‐
+to de Provocar até o começo do seu próximo tur‐
+no. Inimigos que entrarem depois não recebem
+essa provocação inicial.
+Assumir um golpe. Com a área ativa, quando
+uma criatura declarar um ataque com rolagem
+contra um aliado dentro dela, você pode gastar
+sua Reação, antes da rolagem de acerto, para se
+tornar o alvo desse ataque.
+O atacante compara sua rolagem com sua Defesa,
+ou com seu Bloquear, se você escolher bloquear.
+Bloquear não exige outra Reação. O ataque con‐
+serva o alcance já declarado contra o aliado, e
+você o intercepta sem se mover.
+Se acertar, você recebe o dano e os efeitos do
+golpe, inclusive o crítico. Se errar, nenhum dos
+dois recebe o golpe. A Reação protege somente o
+ataque declarado, não os demais ataques da ação.
+Alicerce
+Trilha Muro · benefício do nível 2
+Ao fim de cada descanso longo, escolha dois ti‐
+pos de dano. Enquanto Olhos Em Mim estiver
+ativo, você recebe metade do dano desses tipos.
+Kaori escolheu Cortante e Concussão para estes
+exemplos.
+O efeito de Provocar: até o começo do próximo tur‐
+no de quem provocou, o alvo afetado ataca essa pes‐
+soa com vantagem e as outras criaturas com desvan‐
+tagem. Para Kaori, a provocação inicial alcança até 2
+inimigos; seu teste é d20 + 4 contra o TR de Espírito
+de cada um.
+O exemplo seguinte começa com a área já ativa e a provo‐
+cação inicial encerrada. Ele demonstra a proteção de um
+aliado, sem precisar resolver outra tentativa de Provocar.
+P R O J E T O  -  M Proteção do Bastião
+PILOTO EDITORIAL 1 · REGRAS v0.331 2

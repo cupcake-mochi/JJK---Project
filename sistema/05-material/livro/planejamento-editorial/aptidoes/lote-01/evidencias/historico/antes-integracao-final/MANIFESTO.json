@@ -1,0 +1,340 @@
+{
+  "data": "2026-10-03",
+  "status": "candidata revisada e congelada para consolidação; não publicada",
+  "manuscrito": "APTIDOES-E-REFINO.md",
+  "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+  "sha256_pdf": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
+  "paginas": 20,
+  "arquivos": [
+    {
+      "arquivo": "ALTERACOES.json",
+      "sha256": "1d5ee6bebe209474ab894580d88a3ba5e5c476c31339713d6b8e0023c2e134b9",
+      "bytes": 16172
+    },
+    {
+      "arquivo": "ALTERACOES.md",
+      "sha256": "808ef1b0c19476996bfdf58a89eabe1b5faf90f9d1e5293fa6d0f25ee3984381",
+      "bytes": 13718
+    },
+    {
+      "arquivo": "APTIDOES-E-REFINO.md",
+      "sha256": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+      "bytes": 36421
+    },
+    {
+      "arquivo": "CONFERENCIA.json",
+      "sha256": "1268cc8afd39a3fdb0dfa925db3d47fa0a2a69867d5703dc0bd65e26de26fb0e",
+      "bytes": 23015
+    },
+    {
+      "arquivo": "ESTRUTURA.json",
+      "sha256": "cfa8faf14a41b1e349e4fb7beda500e8c6a9d5aa5a588ed8136ade2b03a4c313",
+      "bytes": 2511
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "sha256": "306e4f127d892bd40e370ec080781dadcd0d9823117aaf28fdd46d4ea2d9ceac",
+      "bytes": 660
+    },
+    {
+      "arquivo": "RELATORIO.md",
+      "sha256": "3a9a6280493a943c938b0df348bfaf1fe10579f96db543e799189dba958ba88a",
+      "bytes": 5259
+    },
+    {
+      "arquivo": "VALIDACAO.json",
+      "sha256": "db85d2e23bfe32bfd6fac8a071389e83cc753b08c662657e63e4d8898ba3e280",
+      "bytes": 178
+    },
+    {
+      "arquivo": "VALIDADORES.json",
+      "sha256": "85874c5adbf89c9d2544adb3ba99b7792c9b9704d83e00b1db5083d5c2ffa145",
+      "bytes": 7784
+    },
+    {
+      "arquivo": "auditar.py",
+      "sha256": "921232ea9735e53831dcdd2fc474051f1bca9c7fe8539e52aaa6474bb9b2c7fc",
+      "bytes": 999
+    },
+    {
+      "arquivo": "conferir.py",
+      "sha256": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+      "bytes": 208
+    },
+    {
+      "arquivo": "evidencias/AUDITORIA-NUMERICA.json",
+      "sha256": "ad28b5e01db3c15a186a32581fbf9d023518d1630fdc8ad8cdcb5a46c140c0a8",
+      "bytes": 161859
+    },
+    {
+      "arquivo": "evidencias/CASOS.json",
+      "sha256": "238de86ea8d111a9fcef72594bf55d07ac306f7f5743caabbe2928762d9af7f7",
+      "bytes": 11506
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-NOMES-PDF.json",
+      "sha256": "68e8bd671350f9b3fba9dd6c340cd8a0f0e7d73810d374f1be72aff0d2b3c012",
+      "bytes": 6479
+    },
+    {
+      "arquivo": "evidencias/INTERFACES.json",
+      "sha256": "cf3ae11404b8b87bce4dd7db33f0ddb8b89597cd2783483314d5d54f425be338",
+      "bytes": 4130
+    },
+    {
+      "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "sha256": "92e7537b1cd2c7551d669ab0ccaf04ee50379c0feebaacd592f552671be55437",
+      "bytes": 5036
+    },
+    {
+      "arquivo": "evidencias/MANIFESTO-AUTORIA.json",
+      "sha256": "9737cfb598c0f661083d24db9115c4d0de09c43de99f1947f6dd863ebf65dc9d",
+      "bytes": 2172
+    },
+    {
+      "arquivo": "evidencias/REGRESSAO-PUBLICADA.json",
+      "sha256": "3842022b489dce9e54f7abd957d039be30d1e6deaff2875f3279c75c4fc1cc54",
+      "bytes": 1748
+    },
+    {
+      "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "713a8e8df35a4ad792d78b3cdb7e826890d6626a22d1527985414ffd679dadbc",
+      "bytes": 24597
+    },
+    {
+      "arquivo": "evidencias/REVISAO-INDEPENDENTE-RAIZ.md",
+      "sha256": "a78bb485e9b3d13b1a2832796f3d35ac7db8ea0d835952b603f8aa13e3ab8f20",
+      "bytes": 1185
+    },
+    {
+      "arquivo": "evidencias/REVISAO-NOMES.json",
+      "sha256": "719863f8589dd0db9874badfe3c95c3828acbfb63edd28c09e50ac64faad2272",
+      "bytes": 1523
+    },
+    {
+      "arquivo": "evidencias/REVISAO-POR-SECAO.json",
+      "sha256": "2ffc33a082b979200eca3f32656f11feaa1737895fd6a909a38eff80d5e7d07c",
+      "bytes": 21277
+    },
+    {
+      "arquivo": "evidencias/auditoria-numerica.json",
+      "sha256": "18d63bf89f107082fc99cc69f28c2e8c42894d7f669222a27110d7a7c5c23717",
+      "bytes": 162069
+    },
+    {
+      "arquivo": "evidencias/conferir-aptidoes-PUBLICADO.txt",
+      "sha256": "fd62e3bbbc411fffc93e623d83eb97764d03b5857b4f48c2db24bc4b948c781b",
+      "bytes": 22837
+    },
+    {
+      "arquivo": "evidencias/conferir_aptidoes_candidata.py",
+      "sha256": "3040276e4bd4a971237d8a73bfa68658302dbf98e9a07745759f17ec14260ec9",
+      "bytes": 13411
+    },
+    {
+      "arquivo": "evidencias/conta-as-quatro-PUBLICADO.txt",
+      "sha256": "f85218f99fc0a6b6f245a53c6c4275f6be40c038de822911a38afc7a7d59ffab",
+      "bytes": 13793
+    },
+    {
+      "arquivo": "evidencias/conta-cesta-oca-PUBLICADO.txt",
+      "sha256": "f8e91eaa50cde4b6a274ceb4faf0186103b47855bf532c43cd155e4dc5ee88d9",
+      "bytes": 6590
+    },
+    {
+      "arquivo": "evidencias/conta-dominio-simples-PUBLICADO.txt",
+      "sha256": "55b588e9610a808f68ddadbd746a335245201b3ac9c977b58bc9d5f2436cd8a8",
+      "bytes": 13539
+    },
+    {
+      "arquivo": "evidencias/conta-extensao-PUBLICADO.txt",
+      "sha256": "0ec32b3c9766ffd36d3aa375eb57feb60e63739d648320dc34637d5b6fcdb04d",
+      "bytes": 389
+    },
+    {
+      "arquivo": "evidencias/conta-petala-PUBLICADO.txt",
+      "sha256": "eb2fdf8dea83b85f125cf95e1230280116f860399bbbe9f317d6e17b54ef7513",
+      "bytes": 17024
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas.json",
+      "sha256": "36cfbd01f52c59514b6f2ed3454d9b1832318bbb4d582d6cb2c2cc7e19e3a856",
+      "bytes": 510
+    },
+    {
+      "arquivo": "evidencias/inspecao-visual.json",
+      "sha256": "0c2a329af7b05e36f08e3482d90ad69ea98303777a929f7c35dd198a42bfd800",
+      "bytes": 11095
+    },
+    {
+      "arquivo": "evidencias/pdf-estrutura.json",
+      "sha256": "a17fd0ba4c5d9547a1f4e4c84d5cb2efd822e17ead27a8f20ce71df32d3f092e",
+      "bytes": 325
+    },
+    {
+      "arquivo": "evidencias/pdf-texto.txt",
+      "sha256": "fa8a0aa6f3d0576a03c3498b8d5fbca02ea0bec9270b71fd451f0df6f8eb2482",
+      "bytes": 35332
+    },
+    {
+      "arquivo": "evidencias/pesquisa-editorial.md",
+      "sha256": "8050eef24352b186cf45fd04d665fcc19812552afa716c62b2e735436150e4e5",
+      "bytes": 3646
+    },
+    {
+      "arquivo": "evidencias/regras-verificadas.json",
+      "sha256": "160a92ddff730f50305972e1941f2ad53514225ec0d2f4615ee2fc367a72198d",
+      "bytes": 15275
+    },
+    {
+      "arquivo": "gerar_pdf.py",
+      "sha256": "7910f3020aafc71b2a463a9c32f8d14b76007b439626c9dc4556ebae282fe859",
+      "bytes": 7809
+    },
+    {
+      "arquivo": "historico/antes-indice-ritual/ALTERACOES.json",
+      "sha256": "49f3a17e4d89c672cfd8017e0f81022e5f79a69947b2996c5ff3587099f52962",
+      "bytes": 15841
+    },
+    {
+      "arquivo": "historico/antes-indice-ritual/APTIDOES-E-REFINO.md",
+      "sha256": "032270836308694def88f8faa66971e2d314b618fe93c505a57bacc6bf09c3d5",
+      "bytes": 36239
+    },
+    {
+      "arquivo": "historico/antes-indice-ritual/inspecao-visual.json",
+      "sha256": "0b10d995fcf4fcac837e59168e63001fceb42832470378f40f803022b23e4336",
+      "bytes": 7044
+    },
+    {
+      "arquivo": "historico/antes-revisao-raiz/APTIDOES-E-REFINO.md",
+      "sha256": "8d31690c58add9b93df17fbc57b798328ee2201b80061bb13170efc224c53393",
+      "bytes": 36241
+    },
+    {
+      "arquivo": "historico/antes-revisao-raiz/AUDITORIA-NUMERICA.json",
+      "sha256": "0367564476480d228057f7c355b2910d965e74b91eafffa2144d25fc7a0df127",
+      "bytes": 161859
+    },
+    {
+      "arquivo": "historico/antes-revisao-raiz/LOCALIZACAO-EDITORIAL.json",
+      "sha256": "1960576fbfa73ec424b8374f7847cf7fb450844ef9df0cf52f17e5db8858899f",
+      "bytes": 2345
+    },
+    {
+      "arquivo": "historico/antes-revisao-raiz/MANIFESTO-AUTORIA.json",
+      "sha256": "9737cfb598c0f661083d24db9115c4d0de09c43de99f1947f6dd863ebf65dc9d",
+      "bytes": 2172
+    },
+    {
+      "arquivo": "historico/antes-revisao-raiz/REVISAO-POR-SECAO.json",
+      "sha256": "2ffc33a082b979200eca3f32656f11feaa1737895fd6a909a38eff80d5e7d07c",
+      "bytes": 21277
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Aptidoes-e-Refino-Proposta-01.pdf",
+      "sha256": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
+      "bytes": 100253
+    },
+    {
+      "arquivo": "output/png/pagina-01.png",
+      "sha256": "c5ea9aa6e78baa6e7350b6348715d52eab80385df80cf78d8ed3d95bfb8bd955",
+      "bytes": 135089
+    },
+    {
+      "arquivo": "output/png/pagina-02.png",
+      "sha256": "a5304934e334089f6805f539e372840cc2e585521911b205c8e16f2f96480eb3",
+      "bytes": 116998
+    },
+    {
+      "arquivo": "output/png/pagina-03.png",
+      "sha256": "24387be1c019badbea09f2e0d8ced6b73897a2eb7e330d6c9e45c78860f75457",
+      "bytes": 136559
+    },
+    {
+      "arquivo": "output/png/pagina-04.png",
+      "sha256": "d86856d727f8024ee0d283d74f710a7f654b65e77f3a3a8ca270cde9fa47cd09",
+      "bytes": 117695
+    },
+    {
+      "arquivo": "output/png/pagina-05.png",
+      "sha256": "8d7cba7b15423f26dd25ccc2767330ecf50fbfc514bea233181a31b218a16818",
+      "bytes": 126338
+    },
+    {
+      "arquivo": "output/png/pagina-06.png",
+      "sha256": "cf8ca02a8be53b7e2e5298746d5a57cfef67ad053a9fc4dfeb3632abc14ca9f4",
+      "bytes": 122740
+    },
+    {
+      "arquivo": "output/png/pagina-07.png",
+      "sha256": "2bf593e9e24f60b6289732968b6b402b032d6321e24788fed1f0f536eac62fdd",
+      "bytes": 110105
+    },
+    {
+      "arquivo": "output/png/pagina-08.png",
+      "sha256": "f07077c11f96551ea686a9886cefe630695f7ff073ec9ef57a00d3fd1314e2dd",
+      "bytes": 130179
+    },
+    {
+      "arquivo": "output/png/pagina-09.png",
+      "sha256": "577cd8d9edceec439f7d93787b0175135e124827dfd78dfc762d10764e1750f4",
+      "bytes": 116534
+    },
+    {
+      "arquivo": "output/png/pagina-10.png",
+      "sha256": "c9476f18facb18e33743efd9a2a9b4a5f76ae4cd05817baf510dfe720127c31f",
+      "bytes": 111655
+    },
+    {
+      "arquivo": "output/png/pagina-11.png",
+      "sha256": "81ca441b56b7f648172d6e20aa8272aa6de92f7ddf3942598cd924706b5da618",
+      "bytes": 138560
+    },
+    {
+      "arquivo": "output/png/pagina-12.png",
+      "sha256": "e3a24363b7c225c0920630d099dc975498f4bc27e8a15b067610569cbb1bf810",
+      "bytes": 134862
+    },
+    {
+      "arquivo": "output/png/pagina-13.png",
+      "sha256": "720f371c67e755142c88d3d0429428cf219ed1f25b1e9215a41932505b36cffb",
+      "bytes": 154472
+    },
+    {
+      "arquivo": "output/png/pagina-14.png",
+      "sha256": "414a0830a62ae587e227823be7df4be3788346b0865409c6f6a39e3bfd0ee8c7",
+      "bytes": 141074
+    },
+    {
+      "arquivo": "output/png/pagina-15.png",
+      "sha256": "2ca7eb02304fd11f7299b3af44020bb85f962a7b26976c026288481ae4e8a10b",
+      "bytes": 170163
+    },
+    {
+      "arquivo": "output/png/pagina-16.png",
+      "sha256": "966835733eac4f91db601cfcde8e0049913df7e4b7242ad7f15057ad6100f64d",
+      "bytes": 159536
+    },
+    {
+      "arquivo": "output/png/pagina-17.png",
+      "sha256": "422ad8718e6ab788be73ce126190490efd5d594318d2e4828c15f1b1a627c0c7",
+      "bytes": 154491
+    },
+    {
+      "arquivo": "output/png/pagina-18.png",
+      "sha256": "33e7380055142cf5a91e95c12e9572b39564e3419dd83cf57a2cfad74cc8085f",
+      "bytes": 171458
+    },
+    {
+      "arquivo": "output/png/pagina-19.png",
+      "sha256": "34460e009d1952c290bb959207e2b503a606074757ebdb95fcc8f065f59df191",
+      "bytes": 156241
+    },
+    {
+      "arquivo": "output/png/pagina-20.png",
+      "sha256": "f8bf49a8dc5fd910c51bcd8a911c713d138b0770afc7ca5b615e4d1f758d596f",
+      "bytes": 151065
+    }
+  ]
+}

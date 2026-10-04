@@ -1,0 +1,25 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "e61cfbb1e4368e2afb325c18db9a41849b31964a08c597e54f6f70a07868d093",
+  "paginas": [
+    {
+      "pagina": 1,
+      "arquivo": "/tmp/projeto-m-trajes-municao/municao-1.png",
+      "sha256_png": "1ef06b31f7868389312398538ccec40f24eb404fb595946b01d07df190c1b13a",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "arquivo": "/tmp/projeto-m-trajes-municao/municao-2.png",
+      "sha256_png": "885c3b61d4320593852021affbf3216c731e96920aa10398c511c6faf801ffca",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "arquivo": "/tmp/projeto-m-trajes-municao/municao-3.png",
+      "sha256_png": "71eb36c2778b4a4f1fcaa73749ea64039f1e273ba7c2d2f157632952d57c42da",
+      "resultado": "sem defeito visual observado"
+    }
+  ],
+  "metodo": "Todas as páginas da exportação final renderizadas com Poppler e examinadas visualmente pelo autor. Não é revisão independente. Página 2 reexaminada após explicitar que a recarga por Bônus é de bestas/armas de fogo, mantendo arcos fora desse custo."
+}

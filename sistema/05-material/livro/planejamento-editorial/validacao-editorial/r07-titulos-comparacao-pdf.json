@@ -1,0 +1,171 @@
+{
+  "paginas": 18,
+  "alteradas": [
+    8,
+    10,
+    13,
+    14,
+    15,
+    18
+  ],
+  "iguais": 12,
+  "comparacao": "Pixels RGB a 1300px pelo Poppler, mesmo comando e ambiente; metadados PDF não contam como alteração visual.",
+  "itens": [
+    {
+      "pagina": 1,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-01.png",
+      "sha256_png": "031a779af3fe03449fa0b7c4124fffa03408a22bb8c0d3519cbf72e7db9ebee4"
+    },
+    {
+      "pagina": 2,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-02.png",
+      "sha256_png": "483bcab64ea32dc5cabf3ce1e956f680bbb72a7d549f5b8d4a2828cfbb61029c"
+    },
+    {
+      "pagina": 3,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-03.png",
+      "sha256_png": "2437e20a38a35652cd0deed5f80298b9341be4ff48d2f6d5f4ad43dc7d3a919d"
+    },
+    {
+      "pagina": 4,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-04.png",
+      "sha256_png": "4623ced11158efd11781f12f3d0a409033e8e89335fe20e910ee9b4e40280f0f"
+    },
+    {
+      "pagina": 5,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-05.png",
+      "sha256_png": "094a81a857aa87fcb358aa91257acd55b78576b9d0aa75c362c2f4ef3c8764cc"
+    },
+    {
+      "pagina": 6,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-06.png",
+      "sha256_png": "90b3d36c2abe06ea6da4141d5186e5f03dab8a9527d9e8ae83404d1efa9baa5e"
+    },
+    {
+      "pagina": 7,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-07.png",
+      "sha256_png": "3d4928970461cac393d4ee2cf509ede0d93f4165ccf87d1422dbd6960a8f4b6d"
+    },
+    {
+      "pagina": 8,
+      "igual_pixels": false,
+      "caixa_diferenca": [
+        97,
+        520,
+        337,
+        543
+      ],
+      "png": "/tmp/r07-titulos-render-depois/pagina-08.png",
+      "sha256_png": "98624406c394372e680f776fae5e7176a0322a8fbc52b8240551e37cf69da137"
+    },
+    {
+      "pagina": 9,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-09.png",
+      "sha256_png": "416b4ddcda2501f7bd29f0399910e73d981bb285bf0ccb58b46cffdc7180da42"
+    },
+    {
+      "pagina": 10,
+      "igual_pixels": false,
+      "caixa_diferenca": [
+        97,
+        883,
+        340,
+        906
+      ],
+      "png": "/tmp/r07-titulos-render-depois/pagina-10.png",
+      "sha256_png": "482048f8ac839101fa662971748f63b5ae30c84f621688b258b8b239bbb227ba"
+    },
+    {
+      "pagina": 11,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-11.png",
+      "sha256_png": "5a67b4181d172c0211e3392c536f768b1b5ec3b9075fa17ca3cf8aeab100dec0"
+    },
+    {
+      "pagina": 12,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-12.png",
+      "sha256_png": "fa84daa06a0d360cdd75712dfe725e784bee45e54f98bab67fe0f6e4efdddc8d"
+    },
+    {
+      "pagina": 13,
+      "igual_pixels": false,
+      "caixa_diferenca": [
+        97,
+        362,
+        336,
+        546
+      ],
+      "png": "/tmp/r07-titulos-render-depois/pagina-13.png",
+      "sha256_png": "2f3fa961688eed88ff5bd8d307caa2d637999188e3ccae40a90e27f039f23ab2"
+    },
+    {
+      "pagina": 14,
+      "igual_pixels": false,
+      "caixa_diferenca": [
+        97,
+        802,
+        310,
+        826
+      ],
+      "png": "/tmp/r07-titulos-render-depois/pagina-14.png",
+      "sha256_png": "53aaad7a557a0a80e9784187a4d2b276b2a7574f4f0a62a8b8acb212021319bf"
+    },
+    {
+      "pagina": 15,
+      "igual_pixels": false,
+      "caixa_diferenca": [
+        97,
+        940,
+        297,
+        964
+      ],
+      "png": "/tmp/r07-titulos-render-depois/pagina-15.png",
+      "sha256_png": "a65bd42e6df6059752650461be7ac077cb89d7f4374f6d1a28050733d93a04c6"
+    },
+    {
+      "pagina": 16,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-16.png",
+      "sha256_png": "d6b76256b5ee87a04d7bd43e4e190952f5f572ed4a9c963007bcbccbdfc6ec84"
+    },
+    {
+      "pagina": 17,
+      "igual_pixels": true,
+      "caixa_diferenca": null,
+      "png": "/tmp/r07-titulos-render-depois/pagina-17.png",
+      "sha256_png": "2d66526caaf77a39b9a90a8c76a3461ca14d2499e88c289c126b1a7457757624"
+    },
+    {
+      "pagina": 18,
+      "igual_pixels": false,
+      "caixa_diferenca": [
+        97,
+        499,
+        282,
+        522
+      ],
+      "png": "/tmp/r07-titulos-render-depois/pagina-18.png",
+      "sha256_png": "944a9152cd20573bdfb9c60a7e491af4eacb5f283c1216cc33da8b68da0ed1d4"
+    }
+  ]
+}

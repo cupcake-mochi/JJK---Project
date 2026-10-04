@@ -1,0 +1,8 @@
+Validação editorial — 03/10/2026
+Comando: python3 sistema/05-material/livro/planejamento-editorial/validacao-editorial/testar_editorial.py
+Resultado observado: 53 testes executados; OK; nenhuma falha.
+Cobertura: regras anteriores E001–E006, E007 (artigos em títulos, formatos, citações/código, acentos, bloqueio de exportação), cadastro fundamentado de Mão Firme.
+Teste de integração: E007 bloqueia exportação mesmo com parecer atual; Mão Firme é permitido em Fundamento e permanece bloqueado fora dos donos.
+Este registro não afirma aprovação editorial de todos os manuscritos; consulte o inventário específico e suas contagens.
+
+2026-10-03, migração nominal: 70 testes passaram. Três novos casos cobrem Mão Firme como Talento sem aptidão homônima, os dois nomes que substituem Aviso e aliases de conceitos compartilhados. Não foram liberadas cópias E003 ou títulos E007.

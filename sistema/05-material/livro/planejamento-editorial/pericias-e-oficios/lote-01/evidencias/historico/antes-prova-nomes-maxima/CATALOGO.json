@@ -1,0 +1,42 @@
+{
+  "pericias": {
+    "Atletismo": "Força",
+    "Acrobacia": "Destreza",
+    "Furtividade": "Destreza",
+    "Pontaria": "Destreza",
+    "Prestidigitação": "Destreza",
+    "Investigação": "Inteligência",
+    "Intuição": "Inteligência",
+    "Ocultismo": "Inteligência",
+    "Religião": "Inteligência",
+    "História": "Inteligência",
+    "Hierarquia": "Inteligência",
+    "Medicina": "Inteligência",
+    "Sobrevivência": "Inteligência",
+    "Natureza": "Inteligência",
+    "Lidar com Animais": "Inteligência",
+    "Tecnologia": "Inteligência",
+    "Sentir Energia": "Essência",
+    "Percepção": "Essência",
+    "Persuasão": "Essência",
+    "Enganação": "Essência",
+    "Intimidação": "Essência",
+    "Atuação": "Essência",
+    "Provocar": "Essência"
+  },
+  "oficios": {
+    "Condução": "Destreza",
+    "Arrombamento": "Destreza",
+    "Herbalismo": "Inteligência",
+    "Forja": "Força",
+    "Caligrafia": "Destreza",
+    "Burocracia": "Inteligência",
+    "Entalhador": "Destreza",
+    "Alfaiate": "Destreza",
+    "Culinária": "Inteligência",
+    "Instrumento": "Essência",
+    "Jogatina": "Essência"
+  },
+  "sha256_texto": "fec7b78ed68c2ebdfc47aae059de9c713249f36d76b137e3baa858238cfde8b6",
+  "fonte": "sistema/03-mecanica/07-pericias-e-oficios.md"
+}

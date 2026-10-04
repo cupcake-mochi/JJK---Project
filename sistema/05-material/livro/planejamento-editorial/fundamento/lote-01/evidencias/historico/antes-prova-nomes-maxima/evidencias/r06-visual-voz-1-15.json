@@ -1,0 +1,168 @@
+{
+  "data": "2026-10-03T17:31:37.085116-03:00",
+  "pdf": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/output/pdf/Projeto-M-Fundamento-Proposta-01.pdf",
+  "pdf_sha256": "7685efa3d8e4143744d17af36e9f4d1509a00a08bb0b0dbe527597b19cf02eb5",
+  "paginas_pdf": 29,
+  "escopo": "Páginas 1 a 15 da renderização de voz. As páginas 16 a 29 são responsabilidade do root.",
+  "metodo": "Inspeção visual de cada PNG original com view_image, em cinco chamadas com três imagens. Texto correspondente também consultado. Não foi criada imagem por IA.",
+  "resultado_geral": "Sem defeito bloqueante observado nas páginas inspecionadas. Há uma referência de página isolada na página 7 e uma observação de clareza da enumeração na página 5.",
+  "limites": [
+    "Não representa leitura por jogador iniciante ou playtest.",
+    "Não substitui a verificação mecânica das regras nem auditoria de acessibilidade por leitor de tela.",
+    "A evidência aplica-se ao hash registrado. Se o PDF mudar, conferir as páginas afetadas e atualizar sua vinculação."
+  ],
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Título, introdução, caixa de exemplo, tabela e remissões legíveis. Margens e rodapé preservados. Branco inferior compatível com a separação de assunto."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-01.png",
+      "imagem_sha256": "1a1ea7c194e2ef86f9ecd5943fd54bf2878eae15bafff6529710bb6221e81090",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 2,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Tabela Fios de Tensão contém todas as linhas visíveis. Texto das células quebra dentro da coluna, sem colisão. Seção Tipos de dano permanece inteira."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-02.png",
+      "imagem_sha256": "67fe533ee8a1992b78b1ed1680caa445517b351f6c9e6bc166cee7e51649e5a4",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 3,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Cinco passos da montagem e ficha final completos. Cabeçalho escuro da tabela tem contraste visual suficiente nesta renderização. Texto posterior e exemplo de rolagem íntegros."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-03.png",
+      "imagem_sha256": "f525c5231f27fded77449b28949c5dc4c5522f03e636f8abb4d278bfbd5f4b37",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 4,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Nove Famílias visíveis na tabela. Exemplo e seções Livres/Fechadas separados com espaçamento consistente. Nenhuma célula vazando."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-04.png",
+      "imagem_sha256": "ed4589951270b8aa2790cc1622be9ce47dbae3d1d073149bd7fa205191e63e5a",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 5,
+      "resultado": "aprovada_com_observacao",
+      "observacoes": [
+        "Nova Passiva Livre, Faíscas e Teatro de sombras cabem inteiros. Corpo permanece legível e há folga entre o último parágrafo e o rodapé. Tabela de Selo conserva seus limites.",
+        "Observação editorial não impeditiva: a enumeração Ela não concede vantagem, resolve testes automaticamente nem revela informações pode exigir releitura para perceber o alcance da negação. Considerar delimitação positiva ou paralelismo mais explícito numa correção de voz."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-05.png",
+      "imagem_sha256": "677a8e4fdc4d0502ac6476ac551996733eb6bceaa10b97000642c14ee994f310",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 6,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Tabela de espaços, requisito temático de invocação, exemplo e seção Fora da conta legíveis. Bloco mais denso, mas sem apertar rodapé nem cortar linha."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-06.png",
+      "imagem_sha256": "1a859c409a3b352814baa5f5e9e9768e33705fc83932b5b1b94b52b08715e237",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 7,
+      "resultado": "aprovada_com_observacao",
+      "observacoes": [
+        "Duas tabelas e fórmulas apresentam dados legíveis, sem cortes ou sobreposição. Caixa inferior permanece dentro da área de texto.",
+        "A referência (p. 21). ficou isolada na última linha do primeiro parágrafo. É uma pequena irregularidade de composição, não transbordamento. Sugestão: encurtar o parágrafo ou manter número de página ligado ao título da remissão."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-07.png",
+      "imagem_sha256": "fa324bc53d9d433da20f776f1c601a1ca15363a04acf7c9cd9581bd1e9604491",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 8,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Tabela de Formas de ataque íntegra, inclusive resoluções que ocupam duas linhas. Seções Toque e Aura e Áreas mantêm espaçamento e leitura."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-08.png",
+      "imagem_sha256": "819b720bc3d4cf65be6c49007418adce529a1fe00f82d2554a306aa523b76495",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 9,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Duas tabelas, remissão de Efeito e limite de Onda ficam dentro das células e margens. Título longo cabe em uma linha. Nenhuma palavra cortada observada."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-09.png",
+      "imagem_sha256": "2837a98cb63a381fb19a144a4042f62a57da28bdd76ef0616baa9048044df661",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 10,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Tabelas de alcance e aumentos completas. Medidas, multiplicações e vírgulas decimais legíveis. Exemplo em caixa e ressalva posterior não invadem o rodapé."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-10.png",
+      "imagem_sha256": "aea892e05557ad94d48fa07fb79bc213736c415cc18e54779a4f6f9e378803c8",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 11,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Título Conjurar e três blocos de procedimento claramente hierarquizados. Fórmulas em negrito legíveis, sem colagem de caracteres. Todos os parágrafos da página aparecem completos."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-11.png",
+      "imagem_sha256": "c9f8b3571ee5b21fd4a4c9165cf9046ed1615edf0cabf9a5285bf22c5b4096d8",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 12,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Tabela de Restrições, combinações e revisão cabem inteiras. Célula Atrasar ocupa duas linhas sem atingir bordas. Não há cabeçalho isolado."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-12.png",
+      "imagem_sha256": "c195acb57323e51ecb34c09310bd90e5b47a00eebe02db298c3c00f556b3db2b",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 13,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Tabela de compatibilidade extensa, mas todas as dez linhas estão visíveis. Colunas permanecem separadas, inclusive na linha Reação. Caixa final tem respiro e não invade rodapé."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-13.png",
+      "imagem_sha256": "40d16d0c7e2a9e0b64ece8024e87caa3aa2f145d52c573909cf667ff4956d55e",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 14,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Tabela de objetivos e texto de Controle completos. Rede de contenção e ficha em caixa não são partidos. Último parágrafo permanece legível e dentro da margem."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-14.png",
+      "imagem_sha256": "4cdd2367f54e8d2516c72f9400cf8b4bd1e1c2c7824830c0068324e8ba36c536",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    },
+    {
+      "pagina": 15,
+      "resultado": "aprovada_na_inspecao_visual",
+      "observacoes": [
+        "Três aplicações com seus próprios subtítulos, parágrafos e números. Sem tabelas ou caixas cortadas. Branco inferior não separa conteúdo dependente."
+      ],
+      "imagem": "/tmp/fundamento-qa-voz/pagina-15.png",
+      "imagem_sha256": "317446333c8964aa2b3370cad4723d93185acfb19bb8593619b77d7f46c8a37e",
+      "metodo": "Imagem aberta e inspecionada efetivamente por view_image nesta rodada."
+    }
+  ]
+}

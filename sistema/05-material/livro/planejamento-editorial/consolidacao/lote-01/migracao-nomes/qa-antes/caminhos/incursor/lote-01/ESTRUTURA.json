@@ -1,0 +1,134 @@
+{
+  "ordem": [
+    "inc-caminho",
+    "inc-movimento",
+    "inc-fluidez",
+    "inc-respostas",
+    "inc-fluidez-avancada",
+    "inc-ritmo",
+    "inc-assassino",
+    "inc-guarda",
+    "inc-cirurgico",
+    "inc-cortar",
+    "inc-parkour",
+    "inc-brecha",
+    "inc-pugilista",
+    "inc-corpo",
+    "inc-base",
+    "inc-interceptar",
+    "inc-projecao",
+    "inc-redirecionar",
+    "inc-redirecionar-resolucao",
+    "inc-malabarista",
+    "inc-continuacoes",
+    "inc-ricochete",
+    "inc-destino",
+    "inc-retorno",
+    "inc-finta",
+    "inc-perfeita"
+  ],
+  "titulos": {
+    "inc-caminho": "Incursor",
+    "inc-movimento": "Movimento Acrobático",
+    "inc-fluidez": "Fluidez",
+    "inc-respostas": "Respostas de Fluidez",
+    "inc-fluidez-avancada": "Fluidez no nível 15",
+    "inc-ritmo": "Retomar o Ritmo",
+    "inc-assassino": "Assassino",
+    "inc-guarda": "Estudar a Guarda",
+    "inc-cirurgico": "Golpe Cirúrgico",
+    "inc-cortar": "Cortar a Fuga",
+    "inc-parkour": "Parkour",
+    "inc-brecha": "Brecha Fatal",
+    "inc-pugilista": "Pugilista",
+    "inc-corpo": "Corpo Treinado",
+    "inc-base": "Recuperar a Base",
+    "inc-interceptar": "Interceptar e Prender",
+    "inc-projecao": "Projeção Marcial",
+    "inc-redirecionar": "Corpo em Harmonia",
+    "inc-redirecionar-resolucao": "Redirecionar a Força",
+    "inc-malabarista": "Malabarista",
+    "inc-continuacoes": "Lançamento Cruzado",
+    "inc-ricochete": "Ricochete",
+    "inc-destino": "Mudar o Destino",
+    "inc-retorno": "Trajetória de Retorno",
+    "inc-finta": "Finta de Retorno",
+    "inc-perfeita": "Trajetória Perfeita"
+  },
+  "paginas": {
+    "inc-caminho": 1,
+    "inc-movimento": 2,
+    "inc-fluidez": 3,
+    "inc-respostas": 4,
+    "inc-fluidez-avancada": 5,
+    "inc-ritmo": 6,
+    "inc-assassino": 7,
+    "inc-guarda": 8,
+    "inc-cirurgico": 9,
+    "inc-cortar": 10,
+    "inc-parkour": 11,
+    "inc-brecha": 12,
+    "inc-pugilista": 13,
+    "inc-corpo": 14,
+    "inc-base": 15,
+    "inc-interceptar": 16,
+    "inc-projecao": 17,
+    "inc-redirecionar": 18,
+    "inc-redirecionar-resolucao": 19,
+    "inc-malabarista": 20,
+    "inc-continuacoes": 21,
+    "inc-ricochete": 22,
+    "inc-destino": 23,
+    "inc-retorno": 24,
+    "inc-finta": 25,
+    "inc-perfeita": 26
+  },
+  "grupos": [
+    [
+      "Incursor",
+      [
+        "inc-caminho",
+        "inc-movimento",
+        "inc-fluidez",
+        "inc-respostas",
+        "inc-fluidez-avancada",
+        "inc-ritmo"
+      ]
+    ],
+    [
+      "Assassino",
+      [
+        "inc-assassino",
+        "inc-guarda",
+        "inc-cirurgico",
+        "inc-cortar",
+        "inc-parkour",
+        "inc-brecha"
+      ]
+    ],
+    [
+      "Pugilista",
+      [
+        "inc-pugilista",
+        "inc-corpo",
+        "inc-base",
+        "inc-interceptar",
+        "inc-projecao",
+        "inc-redirecionar",
+        "inc-redirecionar-resolucao"
+      ]
+    ],
+    [
+      "Malabarista",
+      [
+        "inc-malabarista",
+        "inc-continuacoes",
+        "inc-ricochete",
+        "inc-destino",
+        "inc-retorno",
+        "inc-finta",
+        "inc-perfeita"
+      ]
+    ]
+  ]
+}

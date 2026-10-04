@@ -1,0 +1,500 @@
+[
+  {
+    "id": "ganho-nivel2",
+    "obtido": [
+      true,
+      1
+    ],
+    "esperado": [
+      true,
+      1
+    ],
+    "contexto": "Acerto proprio."
+  },
+  {
+    "id": "cheia-sem-banco",
+    "obtido": [
+      true,
+      1
+    ],
+    "esperado": [
+      true,
+      1
+    ],
+    "contexto": "Novo acerto enquanto cheio nao gasta obtencao nem fica reservado."
+  },
+  {
+    "id": "evento-nao-repetido",
+    "obtido": [
+      false,
+      1
+    ],
+    "esperado": [
+      false,
+      1
+    ],
+    "contexto": "Gastar depois nao permite usar de novo o mesmo acontecimento."
+  },
+  {
+    "id": "cap2-saturado",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Ja usou a unica obtencao do nivel2."
+  },
+  {
+    "id": "nivel7-duas",
+    "obtido": [
+      true,
+      2
+    ],
+    "esperado": [
+      true,
+      2
+    ],
+    "contexto": "Gatilhos distintos dentro do mesmo ciclo."
+  },
+  {
+    "id": "fora-turno-sem-ganho",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Reflexo fora do turno."
+  },
+  {
+    "id": "instante-nao-retorna",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Acerto modificado por Instante Decisivo."
+  },
+  {
+    "id": "incap-sem-fluidez",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Estado mantido impede obter nova Fluidez."
+  },
+  {
+    "id": "retomar-mais2",
+    "obtido": [
+      true,
+      2,
+      true
+    ],
+    "esperado": [
+      true,
+      2,
+      true
+    ],
+    "contexto": "Retomar paga Movimento; duas obtencoes normais continuam disponiveis."
+  },
+  {
+    "id": "retomar-sem-fabrica",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "O evento do comeco nao se repete."
+  },
+  {
+    "id": "retomar-fora-comeco",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Recurso indisponivel mais tarde no turno."
+  },
+  {
+    "id": "retomar-sem-movimento",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Nao aceita Movimento parcial ou ja usado."
+  },
+  {
+    "id": "reacao-compartilhada",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Evasao/Reflexo/Interceptar/Redirecionar usam a mesma Reacao."
+  },
+  {
+    "id": "reflexo-posterior-invalido",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "A Fluidez recem-obtida nao existia na declaracao."
+  },
+  {
+    "id": "acro12-n2",
+    "obtido": "6",
+    "esperado": "6",
+    "contexto": "Distancia acrobatica."
+  },
+  {
+    "id": "acro12-n23",
+    "obtido": "12",
+    "esperado": "12",
+    "contexto": "Quota ampliada, sem metros adicionais."
+  },
+  {
+    "id": "acro-dificil6",
+    "obtido": 12,
+    "esperado": 12,
+    "contexto": "6m percorridos consomem12m de movimento e6m de quota."
+  },
+  {
+    "id": "parkour-salto",
+    "obtido": 1.5,
+    "esperado": 1.5,
+    "contexto": "Salto nao consome novamente quota da parede."
+  },
+  {
+    "id": "correr-nao-renova",
+    "obtido": "0",
+    "esperado": "0",
+    "contexto": "Correr acrescenta12m, mantemquota gasta."
+  },
+  {
+    "id": "retomar-correr",
+    "obtido": 12,
+    "esperado": 12,
+    "contexto": "Com Movimento gasto em Retomar, Correr pela Bonus fornece12m mediante Fluidez."
+  },
+  {
+    "id": "adiantar-duplo",
+    "obtido": "24",
+    "esperado": 24,
+    "contexto": "Um Passo a Frente dobra deslocamento e renova uma vez, sem segundo turno."
+  },
+  {
+    "id": "empurrao6-retorno6",
+    "obtido": "6",
+    "esperado": 6,
+    "contexto": "Deslocamento inalterado."
+  },
+  {
+    "id": "empurrao9-retorno6",
+    "obtido": "6",
+    "esperado": 6,
+    "contexto": "Distancia excedente nao aumenta retorno."
+  },
+  {
+    "id": "empurrao-lento",
+    "obtido": "3",
+    "esperado": 3,
+    "contexto": "Limiar anterior12/2 e retorno atual6/2."
+  },
+  {
+    "id": "queda-nao-soma",
+    "obtido": "0",
+    "esperado": 0,
+    "contexto": "Empurrao3m seguidoqueda nao cumpre limiar6m."
+  },
+  {
+    "id": "cirurgico-exemplo-dados",
+    "obtido": 7,
+    "esperado": 7,
+    "contexto": "3d4 normais+4d4 extras; atributo nao define dado."
+  },
+  {
+    "id": "cirurgico-exemplo-critico",
+    "obtido": 49.0,
+    "esperado": 49.0,
+    "contexto": "2d8+5+14d4."
+  },
+  {
+    "id": "cirurgico-atributo0",
+    "obtido": 0,
+    "esperado": 0,
+    "contexto": "Minimozero; ainda custaFluidez e pode dobrar base no critico."
+  },
+  {
+    "id": "cirurgico-atributo5-combo",
+    "obtido": 8,
+    "esperado": 8,
+    "contexto": "4PE adicionais nao compram maisdados."
+  },
+  {
+    "id": "pug2-ataques",
+    "obtido": 2,
+    "esperado": 2,
+    "contexto": "Atacar+Bonus CorpoTreinado."
+  },
+  {
+    "id": "pug7-ataques",
+    "obtido": 3,
+    "esperado": 3,
+    "contexto": "Rajada substitui um ataqueBonus por dois."
+  },
+  {
+    "id": "pug11-guarda",
+    "obtido": 2,
+    "esperado": 2,
+    "contexto": "Guarda e alternativa aRajada."
+  },
+  {
+    "id": "pug27-ataques",
+    "obtido": 3,
+    "esperado": 3,
+    "contexto": "Harmonia nao soma dois pacotes."
+  },
+  {
+    "id": "pug27-custo",
+    "obtido": 6,
+    "esperado": 6,
+    "contexto": "6PE total."
+  },
+  {
+    "id": "mala-cruzado",
+    "obtido": 6,
+    "esperado": 6,
+    "contexto": "Tresataques, alvosdiferentesna continuacao."
+  },
+  {
+    "id": "mala-retorno",
+    "obtido": 7,
+    "esperado": 7,
+    "contexto": "Ate tresataquespropriosmesmoalvo compercurso."
+  },
+  {
+    "id": "mala-finta",
+    "obtido": 9,
+    "esperado": 9,
+    "contexto": "Ate tresataquesproprios, umafinta."
+  },
+  {
+    "id": "mala-perfeita-total",
+    "obtido": 5,
+    "esperado": 5,
+    "contexto": "Ofensiva2 substitui1 por4alvosdistintos."
+  },
+  {
+    "id": "mala-perfeita-mesmoalvo",
+    "obtido": 2,
+    "esperado": 2,
+    "contexto": "Um na trajetoria+outro ataque daAcao."
+  },
+  {
+    "id": "mala-com-reacao",
+    "obtido": 4,
+    "esperado": 4,
+    "contexto": "Contagem condicional mesma vitima por ciclo, exigegatilho eFluidezpreexistente."
+  },
+  {
+    "id": "mala-perfeita-custo",
+    "obtido": 15,
+    "esperado": 15,
+    "contexto": "Fluidez separada, requercontinuaçãodisponivel."
+  },
+  {
+    "id": "ricochete-exemplo",
+    "obtido": "normal",
+    "esperado": "normal",
+    "contexto": "Total12, primeiroponto dentro18."
+  },
+  {
+    "id": "ricochete-parede-longa",
+    "obtido": "longa",
+    "esperado": "longa",
+    "contexto": "Primeirotrecho9 maior6 mesmo total10,5."
+  },
+  {
+    "id": "ricochete-max",
+    "obtido": "longa",
+    "esperado": "longa",
+    "contexto": "Total24."
+  },
+  {
+    "id": "ricochete-acima-max",
+    "obtido": "inviavel",
+    "esperado": "inviavel",
+    "contexto": "Total25,5."
+  },
+  {
+    "id": "ricochete-ponto-invalido",
+    "obtido": "inviavel",
+    "esperado": "inviavel",
+    "contexto": "Totalcabe,maspontoexcedeoriginal18."
+  },
+  {
+    "id": "ricochete-parede-bloqueia",
+    "obtido": "inviavel",
+    "esperado": "inviavel",
+    "contexto": "Alcancenaosubstituipassagemlivre."
+  },
+  {
+    "id": "retorno-parede1-5",
+    "obtido": true,
+    "esperado": true,
+    "contexto": "Percursovitimaparedevitima."
+  },
+  {
+    "id": "retorno-parede4-5",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Nao usa+6deRicochete."
+  },
+  {
+    "id": "mudar-destino-valido",
+    "obtido": true,
+    "esperado": true,
+    "contexto": "Novoroll,contamesmoataque."
+  },
+  {
+    "id": "mudar-destino-alcance",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Pertoalvoanteriornaodispensaorigem."
+  },
+  {
+    "id": "mudar-destino-repetir",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Naoencadeiacorrecao."
+  },
+  {
+    "id": "mudar-destino-mesmo",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Outra criatura obrigatoria."
+  },
+  {
+    "id": "TR-cd16-bonus6",
+    "obtido": 9,
+    "esperado": 9,
+    "contexto": "45% falha;10 no dado passa."
+  },
+  {
+    "id": "redirect-d20-mantido",
+    "obtido": true,
+    "esperado": true,
+    "contexto": "Resultado17errouDEF18,podeacertarDEF15 sem rerrolar."
+  },
+  {
+    "id": "redirect-sem-alcance",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Segundoalvo3mdoagressor comalcance1,5minviavel."
+  },
+  {
+    "id": "critico19-vantagem",
+    "obtido": 0.19,
+    "esperado": 0.19,
+    "contexto": "Somentea distribuicaodod20,antesde outras exigenciasdoataque."
+  },
+  {
+    "id": "armas22para21",
+    "obtido": [
+      22,
+      21
+    ],
+    "esperado": [
+      22,
+      21
+    ],
+    "contexto": "Corte deliberado unicoTaco."
+  },
+  {
+    "id": "unico-corte",
+    "obtido": [
+      "Taco"
+    ],
+    "esperado": [
+      "Taco"
+    ],
+    "contexto": "Fineza permaneceindependente."
+  },
+  {
+    "id": "guarda-sem-mover",
+    "obtido": true,
+    "esperado": true,
+    "contexto": "Recebe oportunidade no proximo corpo a corpo do turno."
+  },
+  {
+    "id": "guarda-passoguardado-anterior",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Movimento voluntario anterior ao proprio turno ja impede."
+  },
+  {
+    "id": "guarda-empurrao-anterior",
+    "obtido": true,
+    "esperado": true,
+    "contexto": "Movimento imposto nao e voluntario."
+  },
+  {
+    "id": "guarda-fora18",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Nenhuma selecao remota irrestrita."
+  },
+  {
+    "id": "GC-sem-acerto",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Sentenca nao transforma erro em acerto."
+  },
+  {
+    "id": "GC-sem-base",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Ataque que transporta feitico de dano nao recebe base nem reforco."
+  },
+  {
+    "id": "GC-reacao-antes19",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Limite antigo e turno proprio."
+  },
+  {
+    "id": "GC-reacao19",
+    "obtido": true,
+    "esperado": true,
+    "contexto": "Brecha ou outro ataque permitido; gatilhos ainda exigidos."
+  },
+  {
+    "id": "GC-ciclo-consumido",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Nao repete o reforco do turno proprio."
+  },
+  {
+    "id": "perfeita-quatro24",
+    "obtido": true,
+    "esperado": true,
+    "contexto": "Contagem e distancia totais incluem a origem."
+  },
+  {
+    "id": "perfeita-repetir",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Nao concentra os quatro ataques na mesma criatura."
+  },
+  {
+    "id": "perfeita-continua-usada",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Mesmo contador da continuacao."
+  },
+  {
+    "id": "perfeita-sem-fluidez",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "Nao pode financiar a abertura com o primeiro acerto futuro."
+  },
+  {
+    "id": "perfeita-alem24",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "25,5m excede trajeto."
+  },
+  {
+    "id": "colisao-sem-falha-inicial",
+    "obtido": false,
+    "esperado": false,
+    "contexto": "O TR da segunda criatura so ocorre apos falha da primeira."
+  },
+  {
+    "id": "colisao-dano-sem-queda",
+    "obtido": 14,
+    "esperado": 14,
+    "contexto": "Dano de projecao14 e queda posterior7: copia14, nao21."
+  },
+  {
+    "id": "direcao-sentenca",
+    "obtido": true,
+    "esperado": true,
+    "contexto": "Empurrar afasta conforme manobra geral; nenhum puxao novo."
+  }
+]

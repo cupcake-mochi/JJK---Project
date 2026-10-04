@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "arquivo": "40-CATALOGO.md",
+      "verificacao": "hash da fonte",
+      "ok": true
+    },
+    {
+      "arquivo": "40-CATALOGO.md",
+      "verificacao": "trecho anterior1",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "40-CATALOGO.md",
+      "verificacao": "trecho anterior2",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "40-CATALOGO.md",
+      "verificacao": "trecho anterior3",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "40-CATALOGO.md",
+      "verificacao": "trecho anterior4",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "40-CATALOGO.md",
+      "verificacao": "trecho anterior5",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "40-CATALOGO.md",
+      "verificacao": "trecho anterior6",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "40-CATALOGO.md",
+      "verificacao": "trecho anterior7",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "42-TECNICA-MARCIAL.md",
+      "verificacao": "hash da fonte",
+      "ok": true
+    },
+    {
+      "arquivo": "42-TECNICA-MARCIAL.md",
+      "verificacao": "trecho anterior1",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "42-TECNICA-MARCIAL.md",
+      "verificacao": "trecho anterior2",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "42-TECNICA-MARCIAL.md",
+      "verificacao": "trecho anterior3",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "43-SEM-TECNICA.md",
+      "verificacao": "hash da fonte",
+      "ok": true
+    },
+    {
+      "arquivo": "43-SEM-TECNICA.md",
+      "verificacao": "trecho anterior1",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "43-SEM-TECNICA.md",
+      "verificacao": "trecho anterior2",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "43-SEM-TECNICA.md",
+      "verificacao": "trecho anterior3",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "43-SEM-TECNICA.md",
+      "verificacao": "trecho anterior4",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "60-INVOCACOES.md",
+      "verificacao": "hash da fonte",
+      "ok": true
+    },
+    {
+      "arquivo": "60-INVOCACOES.md",
+      "verificacao": "trecho anterior1",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "60-INVOCACOES.md",
+      "verificacao": "trecho anterior2",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "60-INVOCACOES.md",
+      "verificacao": "trecho anterior3",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "80-PROGRESSAO.md",
+      "verificacao": "hash da fonte",
+      "ok": true
+    },
+    {
+      "arquivo": "80-PROGRESSAO.md",
+      "verificacao": "trecho anterior1",
+      "ocorrencias": 1,
+      "ok": true
+    },
+    {
+      "arquivo": "80-PROGRESSAO.md",
+      "verificacao": "trecho anterior2",
+      "ocorrencias": 1,
+      "ok": true
+    }
+  ],
+  "quantidade": 24,
+  "escopo": "Âncoras e fonte principal dos cinco patches; conteúdo novo não é aplicado nem validado exaustivamente por esta busca."
+}

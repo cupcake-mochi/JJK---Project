@@ -1,0 +1,2542 @@
+{
+  "antes": "148ebf0e59568ebf42626f53bc149875c3614d631a71e255fe1dfd8f8f36122a",
+  "depois": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+  "entradas": [
+    {
+      "termo": "Agarrado",
+      "antes": {
+        "termo": "Agarrado",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições leves"
+      },
+      "depois": {
+        "termo": "Agarrado",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições leves"
+      }
+    },
+    {
+      "termo": "Agarrar",
+      "antes": {
+        "termo": "Agarrar",
+        "destino": {
+          "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+          "ancora": "manobras",
+          "titulo": "Agarrar, derrubar e empurrar"
+        },
+        "nota": null,
+        "consulta": "Agarrar, derrubar e empurrar"
+      },
+      "depois": {
+        "termo": "Agarrar",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "manobras",
+          "titulo": "Agarrar, derrubar e empurrar"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Agarrar, derrubar e empurrar"
+      }
+    },
+    {
+      "termo": "Aguentar",
+      "antes": null,
+      "depois": {
+        "termo": "Aguentar",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "zero",
+          "titulo": "Vida a zero"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Vida a zero"
+      }
+    },
+    {
+      "termo": "Ajudar",
+      "antes": {
+        "termo": "Ajudar",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "pericias",
+          "titulo": "Perícias e ofícios"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Perícias e ofícios"
+      },
+      "depois": {
+        "termo": "Ajudar",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "ajudar",
+          "titulo": "Ajudar"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Ajudar"
+      }
+    },
+    {
+      "termo": "Amedrontado",
+      "antes": {
+        "termo": "Amedrontado",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "pesadas",
+          "titulo": "Condições pesadas"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições pesadas"
+      },
+      "depois": {
+        "termo": "Amedrontado",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "pesadas",
+          "titulo": "Condições pesadas"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições pesadas"
+      }
+    },
+    {
+      "termo": "Aparar",
+      "antes": {
+        "termo": "Aparar",
+        "destino": {
+          "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+          "ancora": "aparar",
+          "titulo": "Aparar e Brecha"
+        },
+        "nota": null,
+        "consulta": "Aparar e Brecha"
+      },
+      "depois": {
+        "termo": "Aparar",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "aparar",
+          "titulo": "Aparar e Brecha"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Aparar e Brecha"
+      }
+    },
+    {
+      "termo": "Atacar",
+      "antes": {
+        "termo": "Atacar",
+        "destino": {
+          "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+          "ancora": "ataques",
+          "titulo": "Ataques"
+        },
+        "nota": null,
+        "consulta": "Ataques"
+      },
+      "depois": {
+        "termo": "Atacar",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "ataques",
+          "titulo": "Ataques"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Ataques"
+      }
+    },
+    {
+      "termo": "Ataque",
+      "antes": {
+        "termo": "Ataque",
+        "destino": {
+          "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+          "ancora": "ataques",
+          "titulo": "Ataques"
+        },
+        "nota": null,
+        "consulta": "Ataques"
+      },
+      "depois": {
+        "termo": "Ataque",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "ataques",
+          "titulo": "Ataques"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Ataques"
+      }
+    },
+    {
+      "termo": "Atordoado",
+      "antes": {
+        "termo": "Atordoado",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "pesadas",
+          "titulo": "Condições pesadas"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições pesadas"
+      },
+      "depois": {
+        "termo": "Atordoado",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "pesadas",
+          "titulo": "Condições pesadas"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições pesadas"
+      }
+    },
+    {
+      "termo": "Atributo",
+      "antes": {
+        "termo": "Atributo",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "atributos",
+          "titulo": "Atributos"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Atributos"
+      },
+      "depois": {
+        "termo": "Atributo",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "atributos",
+          "titulo": "Atributos"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Atributos"
+      }
+    },
+    {
+      "termo": "Aviso (Melhoria; nome anterior)",
+      "antes": null,
+      "depois": {
+        "termo": "Aviso (Melhoria; nome anterior)",
+        "destino": {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "ancora": "cat-marca-recursos",
+          "titulo": "Marcas e recursos"
+        },
+        "nota": null,
+        "consulta": "Catálogo: Marcas e recursos"
+      }
+    },
+    {
+      "termo": "Aviso (Talento; nome anterior)",
+      "antes": null,
+      "depois": {
+        "termo": "Aviso (Talento; nome anterior)",
+        "destino": {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "ancora": "cat-passivas-1",
+          "titulo": "Talentos de Categoria 1"
+        },
+        "nota": null,
+        "consulta": "Catálogo: Talentos de Categoria 1"
+      }
+    },
+    {
+      "termo": "Ação",
+      "antes": {
+        "termo": "Ação",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Turnos"
+      },
+      "depois": {
+        "termo": "Ação",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Turnos"
+      }
+    },
+    {
+      "termo": "Ação Bônus",
+      "antes": {
+        "termo": "Ação Bônus",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Turnos"
+      },
+      "depois": {
+        "termo": "Ação Bônus",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Turnos"
+      }
+    },
+    {
+      "termo": "Ação Completa",
+      "antes": {
+        "termo": "Ação Completa",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Turnos"
+      },
+      "depois": {
+        "termo": "Ação Completa",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Turnos"
+      }
+    },
+    {
+      "termo": "Ação Padrão",
+      "antes": {
+        "termo": "Ação Padrão",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "acoes",
+          "titulo": "Ações"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Ações"
+      },
+      "depois": {
+        "termo": "Ação Padrão",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "acoes",
+          "titulo": "Ações"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Ações"
+      }
+    },
+    {
+      "termo": "Ação de Movimento",
+      "antes": {
+        "termo": "Ação de Movimento",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Turnos"
+      },
+      "depois": {
+        "termo": "Ação de Movimento",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Turnos"
+      }
+    },
+    {
+      "termo": "Bloquear",
+      "antes": {
+        "termo": "Bloquear",
+        "destino": {
+          "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+          "ancora": "bloquear",
+          "titulo": "Bloquear"
+        },
+        "nota": null,
+        "consulta": "Bloquear"
+      },
+      "depois": {
+        "termo": "Bloquear",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "bloquear",
+          "titulo": "Bloquear"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Bloquear"
+      }
+    },
+    {
+      "termo": "Brecha",
+      "antes": {
+        "termo": "Brecha",
+        "destino": {
+          "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+          "ancora": "aparar",
+          "titulo": "Aparar e Brecha"
+        },
+        "nota": null,
+        "consulta": "Aparar e Brecha"
+      },
+      "depois": {
+        "termo": "Brecha",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "aparar",
+          "titulo": "Aparar e Brecha"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Aparar e Brecha"
+      }
+    },
+    {
+      "termo": "CD",
+      "antes": {
+        "termo": "CD",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "testes",
+          "titulo": "Testes"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Testes"
+      },
+      "depois": {
+        "termo": "CD",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "testes",
+          "titulo": "Testes"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Testes"
+      }
+    },
+    {
+      "termo": "CE",
+      "antes": null,
+      "depois": {
+        "termo": "CE",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Talentos"
+        },
+        "nota": "Categoria de Efeito.",
+        "consulta": "Fundamento: Selo e Talentos. Categoria de Efeito."
+      }
+    },
+    {
+      "termo": "CP (sigla anterior)",
+      "antes": null,
+      "depois": {
+        "termo": "CP (sigla anterior)",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Talentos"
+        },
+        "nota": "Categoria de Efeito; sigla atual: CE.",
+        "consulta": "Fundamento: Selo e Talentos. Categoria de Efeito; sigla atual: CE."
+      }
+    },
+    {
+      "termo": "Calado",
+      "antes": {
+        "termo": "Calado",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "medias",
+          "titulo": "Condições médias"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições médias"
+      },
+      "depois": {
+        "termo": "Calado",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "medias",
+          "titulo": "Condições médias"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições médias"
+      }
+    },
+    {
+      "termo": "Carga",
+      "antes": {
+        "termo": "Carga",
+        "destino": {
+          "arquivo": "regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+          "ancora": "carga",
+          "titulo": "Carga"
+        },
+        "nota": null,
+        "consulta": "Carga"
+      },
+      "depois": {
+        "termo": "Carga",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "carga",
+          "titulo": "Carga"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Carga"
+      }
+    },
+    {
+      "termo": "Categoria de Efeito",
+      "antes": null,
+      "depois": {
+        "termo": "Categoria de Efeito",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Talentos"
+        },
+        "nota": null,
+        "consulta": "Fundamento: Selo e Talentos"
+      }
+    },
+    {
+      "termo": "Cego",
+      "antes": {
+        "termo": "Cego",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "pesadas",
+          "titulo": "Condições pesadas"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições pesadas"
+      },
+      "depois": {
+        "termo": "Cego",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "pesadas",
+          "titulo": "Condições pesadas"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições pesadas"
+      }
+    },
+    {
+      "termo": "Cena",
+      "antes": {
+        "termo": "Cena",
+        "destino": {
+          "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+          "ancora": "usos",
+          "titulo": "Cena e usos de habilidades"
+        },
+        "nota": null,
+        "consulta": "Recuperação: Cena e usos de habilidades"
+      },
+      "depois": {
+        "termo": "Cena",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "usos",
+          "titulo": "Cena e usos de habilidades"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Cena e usos de habilidades"
+      }
+    },
+    {
+      "termo": "Cicatriz",
+      "antes": {
+        "termo": "Cicatriz",
+        "destino": {
+          "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+          "ancora": "sequelas",
+          "titulo": "Sequelas e Cicatrizes"
+        },
+        "nota": null,
+        "consulta": "Recuperação: Sequelas e Cicatrizes"
+      },
+      "depois": {
+        "termo": "Cicatriz",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "sequelas",
+          "titulo": "Sequelas e Cicatrizes"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Sequelas e Cicatrizes"
+      }
+    },
+    {
+      "termo": "Classe Passiva",
+      "antes": {
+        "termo": "Classe Passiva",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Passivas"
+        },
+        "nota": null,
+        "consulta": "Fundamento: Selo e Passivas"
+      },
+      "depois": null
+    },
+    {
+      "termo": "Classe Passiva (nome anterior)",
+      "antes": null,
+      "depois": {
+        "termo": "Classe Passiva (nome anterior)",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Talentos"
+        },
+        "nota": null,
+        "consulta": "Fundamento: Selo e Talentos"
+      }
+    },
+    {
+      "termo": "Cobertura",
+      "antes": {
+        "termo": "Cobertura",
+        "destino": {
+          "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+          "ancora": "defesa",
+          "titulo": "Defesa e cobertura"
+        },
+        "nota": null,
+        "consulta": "Defesa e cobertura"
+      },
+      "depois": {
+        "termo": "Cobertura",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "defesa",
+          "titulo": "Defesa e cobertura"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Defesa e cobertura"
+      }
+    },
+    {
+      "termo": "Concentração",
+      "antes": {
+        "termo": "Concentração",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "reacoes",
+          "titulo": "Reações e concentração"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Reações e concentração"
+      },
+      "depois": {
+        "termo": "Concentração",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "concentracao",
+          "titulo": "Concentração"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Concentração"
+      }
+    },
+    {
+      "termo": "Condição",
+      "antes": {
+        "termo": "Condição",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "condicoes",
+          "titulo": "Condições"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições"
+      },
+      "depois": {
+        "termo": "Condição",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "condicoes",
+          "titulo": "Condições"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições"
+      }
+    },
+    {
+      "termo": "Crítico",
+      "antes": {
+        "termo": "Crítico",
+        "destino": {
+          "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+          "ancora": "critico",
+          "titulo": "Dano e crítico"
+        },
+        "nota": null,
+        "consulta": "Dano e crítico"
+      },
+      "depois": {
+        "termo": "Crítico",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "critico",
+          "titulo": "Dano e crítico"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Dano e crítico"
+      }
+    },
+    {
+      "termo": "Cura",
+      "antes": {
+        "termo": "Cura",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "amparoformas",
+          "titulo": "Formas de amparo e Efeito"
+        },
+        "nota": null,
+        "consulta": "Fundamento: Formas de amparo e Efeito"
+      },
+      "depois": null
+    },
+    {
+      "termo": "Cura (Forma)",
+      "antes": null,
+      "depois": {
+        "termo": "Cura (Forma)",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "amparoformas",
+          "titulo": "Formas de amparo e Efeito"
+        },
+        "nota": null,
+        "consulta": "Fundamento: Formas de amparo e Efeito"
+      }
+    },
+    {
+      "termo": "Cura (recuperação)",
+      "antes": null,
+      "depois": {
+        "termo": "Cura (recuperação)",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "cura",
+          "titulo": "Cura"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Cura"
+      }
+    },
+    {
+      "termo": "Dano na alma",
+      "antes": {
+        "termo": "Dano na alma",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "alma",
+          "titulo": "Dano na alma"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Dano na alma"
+      },
+      "depois": {
+        "termo": "Dano na alma",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "alma",
+          "titulo": "Dano na alma"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Dano na alma"
+      }
+    },
+    {
+      "termo": "Defesa",
+      "antes": {
+        "termo": "Defesa",
+        "destino": {
+          "arquivo": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+          "ancora": "defesa",
+          "titulo": "Defesa e cobertura"
+        },
+        "nota": null,
+        "consulta": "Defesa e cobertura"
+      },
+      "depois": {
+        "termo": "Defesa",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "defesa",
+          "titulo": "Defesa e cobertura"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Defesa e cobertura"
+      }
+    },
+    {
+      "termo": "Derrotado",
+      "antes": null,
+      "depois": {
+        "termo": "Derrotado",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "derrota",
+          "titulo": "Derrota e morte"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Derrota e morte"
+      }
+    },
+    {
+      "termo": "Derrubado",
+      "antes": {
+        "termo": "Derrubado",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições leves"
+      },
+      "depois": {
+        "termo": "Derrubado",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições leves"
+      }
+    },
+    {
+      "termo": "Desarmado",
+      "antes": {
+        "termo": "Desarmado",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições leves"
+      },
+      "depois": {
+        "termo": "Desarmado",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições leves"
+      }
+    },
+    {
+      "termo": "Desgaste",
+      "antes": {
+        "termo": "Desgaste",
+        "destino": {
+          "arquivo": "equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+          "ancora": "desgaste",
+          "titulo": "Desgaste"
+        },
+        "nota": null,
+        "consulta": "Equipamento amaldiçoado: Desgaste"
+      },
+      "depois": {
+        "termo": "Desgaste",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eqf-desgaste",
+          "titulo": "Desgaste"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Desgaste"
+      }
+    },
+    {
+      "termo": "Deslocamento",
+      "antes": {
+        "termo": "Deslocamento",
+        "destino": {
+          "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+          "ancora": "movimento",
+          "titulo": "Movimento e terreno"
+        },
+        "nota": null,
+        "consulta": "Movimento e terreno"
+      },
+      "depois": {
+        "termo": "Deslocamento",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "movimento",
+          "titulo": "Movimento e terreno"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Movimento e terreno"
+      }
+    },
+    {
+      "termo": "Desvantagem",
+      "antes": {
+        "termo": "Desvantagem",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "pericias",
+          "titulo": "Perícias e ofícios"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Perícias e ofícios"
+      },
+      "depois": {
+        "termo": "Desvantagem",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "pericias",
+          "titulo": "Treino e modificadores"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Treino e modificadores"
+      }
+    },
+    {
+      "termo": "Emaranha",
+      "antes": {
+        "termo": "Emaranha",
+        "destino": {
+          "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+          "ancora": "propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      },
+      "depois": {
+        "termo": "Emaranha",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eq-propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      }
+    },
+    {
+      "termo": "Energia amaldiçoada pura (dano)",
+      "antes": {
+        "termo": "Energia amaldiçoada pura (dano)",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "tipos",
+          "titulo": "Tipos de dano"
+        },
+        "nota": "Tipo Força.",
+        "consulta": "Dano e Condições: Tipos de dano. Tipo Força."
+      },
+      "depois": {
+        "termo": "Energia amaldiçoada pura (dano)",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "tipos",
+          "titulo": "Tipos de dano"
+        },
+        "nota": "Tipo Força.",
+        "consulta": "Dano e Recuperação: Tipos de dano. Tipo Força."
+      }
+    },
+    {
+      "termo": "Energia temporária",
+      "antes": {
+        "termo": "Energia temporária",
+        "destino": {
+          "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+          "ancora": "temporarios",
+          "titulo": "Vida e energia temporárias"
+        },
+        "nota": null,
+        "consulta": "Recuperação: Vida e energia temporárias"
+      },
+      "depois": {
+        "termo": "Energia temporária",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "temporarios",
+          "titulo": "Vida e energia temporárias"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Vida e energia temporárias"
+      }
+    },
+    {
+      "termo": "Enfeitiçado",
+      "antes": {
+        "termo": "Enfeitiçado",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "medias",
+          "titulo": "Condições médias"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições médias"
+      },
+      "depois": {
+        "termo": "Enfeitiçado",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "medias",
+          "titulo": "Condições médias"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições médias"
+      }
+    },
+    {
+      "termo": "Envenenado",
+      "antes": {
+        "termo": "Envenenado",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "pesadas",
+          "titulo": "Condições pesadas"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições pesadas"
+      },
+      "depois": {
+        "termo": "Envenenado",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "pesadas",
+          "titulo": "Condições pesadas"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições pesadas"
+      }
+    },
+    {
+      "termo": "Esconder",
+      "antes": {
+        "termo": "Esconder",
+        "destino": {
+          "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+          "ancora": "esconder",
+          "titulo": "Esconder"
+        },
+        "nota": null,
+        "consulta": "Esconder"
+      },
+      "depois": {
+        "termo": "Esconder",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "esconder",
+          "titulo": "Esconder"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Esconder"
+      }
+    },
+    {
+      "termo": "Essência",
+      "antes": {
+        "termo": "Essência",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "atributos",
+          "titulo": "Atributos"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Atributos"
+      },
+      "depois": {
+        "termo": "Essência",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "atributos",
+          "titulo": "Atributos"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Atributos"
+      }
+    },
+    {
+      "termo": "Estabilizar",
+      "antes": null,
+      "depois": {
+        "termo": "Estabilizar",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "socorro",
+          "titulo": "Socorro"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Socorro"
+      }
+    },
+    {
+      "termo": "Estigma",
+      "antes": {
+        "termo": "Estigma",
+        "destino": {
+          "arquivo": "equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+          "ancora": "graus",
+          "titulo": "Graus das ferramentas"
+        },
+        "nota": "Efeitos das ferramentas, na organização atual.",
+        "consulta": "Equipamento amaldiçoado: Graus das ferramentas. Efeitos das ferramentas, na organização atual."
+      },
+      "depois": {
+        "termo": "Estigma",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eqf-graus",
+          "titulo": "Graus das ferramentas"
+        },
+        "nota": "Efeitos das ferramentas, na organização atual.",
+        "consulta": "Equipamento: Graus das ferramentas. Efeitos das ferramentas, na organização atual."
+      }
+    },
+    {
+      "termo": "Estudar",
+      "antes": {
+        "termo": "Estudar",
+        "destino": {
+          "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+          "ancora": "estudar",
+          "titulo": "Estudar"
+        },
+        "nota": null,
+        "consulta": "Estudar"
+      },
+      "depois": {
+        "termo": "Estudar",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "estudar",
+          "titulo": "Estudar"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Estudar"
+      }
+    },
+    {
+      "termo": "Estágios de Integridade",
+      "antes": null,
+      "depois": {
+        "termo": "Estágios de Integridade",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "integridade",
+          "titulo": "Estágios de Integridade"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Estágios de Integridade"
+      }
+    },
+    {
+      "termo": "Exaustão",
+      "antes": {
+        "termo": "Exaustão",
+        "destino": {
+          "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+          "ancora": "exaustao",
+          "titulo": "Exaustão"
+        },
+        "nota": null,
+        "consulta": "Recuperação: Exaustão"
+      },
+      "depois": {
+        "termo": "Exaustão",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "exaustao",
+          "titulo": "Exaustão"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Exaustão"
+      }
+    },
+    {
+      "termo": "Expressão da técnica",
+      "antes": null,
+      "depois": {
+        "termo": "Expressão da técnica",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Talentos"
+        },
+        "nota": null,
+        "consulta": "Fundamento: Selo e Talentos"
+      }
+    },
+    {
+      "termo": "Ferramenta amaldiçoada",
+      "antes": {
+        "termo": "Ferramenta amaldiçoada",
+        "destino": {
+          "arquivo": "equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+          "ancora": "equipamento",
+          "titulo": "Equipamento amaldiçoado"
+        },
+        "nota": null,
+        "consulta": "Equipamento amaldiçoado"
+      },
+      "depois": {
+        "termo": "Ferramenta amaldiçoada",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eqf-equipamento",
+          "titulo": "Equipamento amaldiçoado"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Equipamento amaldiçoado"
+      }
+    },
+    {
+      "termo": "Fineza",
+      "antes": {
+        "termo": "Fineza",
+        "destino": {
+          "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+          "ancora": "propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      },
+      "depois": {
+        "termo": "Fineza",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eq-propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      }
+    },
+    {
+      "termo": "Fluxo",
+      "antes": {
+        "termo": "Fluxo",
+        "destino": {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "ancora": "cat-passivas-2-recursos",
+          "titulo": "Passivas de Classe 2"
+        },
+        "nota": null,
+        "consulta": "Catálogo: Passivas de Classe 2"
+      },
+      "depois": {
+        "termo": "Fluxo",
+        "destino": {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "ancora": "cat-passivas-2-recursos",
+          "titulo": "Talentos de Categoria 2"
+        },
+        "nota": null,
+        "consulta": "Catálogo: Talentos de Categoria 2"
+      }
+    },
+    {
+      "termo": "Força (atributo)",
+      "antes": {
+        "termo": "Força (atributo)",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "atributos",
+          "titulo": "Atributos"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Atributos"
+      },
+      "depois": {
+        "termo": "Força (atributo)",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "atributos",
+          "titulo": "Atributos"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Atributos"
+      }
+    },
+    {
+      "termo": "Força (dano)",
+      "antes": {
+        "termo": "Força (dano)",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "tipos",
+          "titulo": "Tipos de dano"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Tipos de dano"
+      },
+      "depois": {
+        "termo": "Força (dano)",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "tipos",
+          "titulo": "Tipos de dano"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Tipos de dano"
+      }
+    },
+    {
+      "termo": "Gatilho",
+      "antes": {
+        "termo": "Gatilho",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "reacoes",
+          "titulo": "Reações e concentração"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Reações e concentração"
+      },
+      "depois": {
+        "termo": "Gatilho",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "oportunidade",
+          "titulo": "Reações e ataques de oportunidade"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Reações e ataques de oportunidade"
+      }
+    },
+    {
+      "termo": "Grau",
+      "antes": {
+        "termo": "Grau",
+        "destino": {
+          "arquivo": "equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md",
+          "ancora": "graus",
+          "titulo": "Graus das ferramentas"
+        },
+        "nota": null,
+        "consulta": "Equipamento amaldiçoado: Graus das ferramentas"
+      },
+      "depois": {
+        "termo": "Grau",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eqf-graus",
+          "titulo": "Graus das ferramentas"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Graus das ferramentas"
+      }
+    },
+    {
+      "termo": "Grau (patente)",
+      "antes": {
+        "termo": "Grau (patente)",
+        "destino": {
+          "arquivo": "progressao/lote-01/PROGRESSAO.md",
+          "ancora": "prog-inicio",
+          "titulo": "Experiência e Progressão"
+        },
+        "nota": null,
+        "consulta": "Progressão: Experiência e Progressão"
+      },
+      "depois": {
+        "termo": "Grau (patente)",
+        "destino": {
+          "arquivo": "progressao/lote-01/PROGRESSAO.md",
+          "ancora": "prog-patentes",
+          "titulo": "Patentes"
+        },
+        "nota": null,
+        "consulta": "Progressão: Patentes"
+      }
+    },
+    {
+      "termo": "Guarda Aberta",
+      "antes": null,
+      "depois": {
+        "termo": "Guarda Aberta",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições leves"
+      }
+    },
+    {
+      "termo": "Identificar Feitiço",
+      "antes": null,
+      "depois": {
+        "termo": "Identificar Feitiço",
+        "destino": {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "ancora": "cat-marca-recursos",
+          "titulo": "Marcas e recursos"
+        },
+        "nota": null,
+        "consulta": "Catálogo: Marcas e recursos"
+      }
+    },
+    {
+      "termo": "Impedido",
+      "antes": {
+        "termo": "Impedido",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "pesadas",
+          "titulo": "Condições pesadas"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições pesadas"
+      },
+      "depois": {
+        "termo": "Impedido",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "pesadas",
+          "titulo": "Condições pesadas"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições pesadas"
+      }
+    },
+    {
+      "termo": "Incapacitado",
+      "antes": {
+        "termo": "Incapacitado",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições leves"
+      },
+      "depois": null
+    },
+    {
+      "termo": "Incapacitado (nome anterior)",
+      "antes": null,
+      "depois": {
+        "termo": "Incapacitado (nome anterior)",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições leves"
+      }
+    },
+    {
+      "termo": "Inconsciente",
+      "antes": {
+        "termo": "Inconsciente",
+        "destino": {
+          "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+          "ancora": "zero",
+          "titulo": "Vida a zero"
+        },
+        "nota": null,
+        "consulta": "Recuperação: Vida a zero"
+      },
+      "depois": {
+        "termo": "Inconsciente",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "inconsciente",
+          "titulo": "Inconsciente"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Inconsciente"
+      }
+    },
+    {
+      "termo": "Insistir",
+      "antes": null,
+      "depois": {
+        "termo": "Insistir",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "insistir",
+          "titulo": "Insistir"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Insistir"
+      }
+    },
+    {
+      "termo": "Integridade",
+      "antes": {
+        "termo": "Integridade",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "alma",
+          "titulo": "Dano na alma"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Dano na alma"
+      },
+      "depois": {
+        "termo": "Integridade",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "integridade",
+          "titulo": "Estágios de Integridade"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Estágios de Integridade"
+      }
+    },
+    {
+      "termo": "Integridade máxima",
+      "antes": null,
+      "depois": {
+        "termo": "Integridade máxima",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "alma",
+          "titulo": "Dano na alma"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Dano na alma"
+      }
+    },
+    {
+      "termo": "Inventário",
+      "antes": {
+        "termo": "Inventário",
+        "destino": {
+          "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+          "ancora": "equipamento",
+          "titulo": "Equipamento"
+        },
+        "nota": null,
+        "consulta": "Equipamento"
+      },
+      "depois": {
+        "termo": "Inventário",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eq-equipamento",
+          "titulo": "Equipamento"
+        },
+        "nota": null,
+        "consulta": "Equipamento"
+      }
+    },
+    {
+      "termo": "Leitura de Feitiços",
+      "antes": null,
+      "depois": {
+        "termo": "Leitura de Feitiços",
+        "destino": {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "ancora": "cat-passivas-1",
+          "titulo": "Talentos de Categoria 1"
+        },
+        "nota": null,
+        "consulta": "Catálogo: Talentos de Categoria 1"
+      }
+    },
+    {
+      "termo": "Lento",
+      "antes": {
+        "termo": "Lento",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições leves"
+      },
+      "depois": {
+        "termo": "Lento",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições leves"
+      }
+    },
+    {
+      "termo": "Longo Alcance",
+      "antes": {
+        "termo": "Longo Alcance",
+        "destino": {
+          "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+          "ancora": "propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      },
+      "depois": {
+        "termo": "Longo Alcance",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eq-propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      }
+    },
+    {
+      "termo": "Maestria",
+      "antes": {
+        "termo": "Maestria",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "atributos",
+          "titulo": "Atributos"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Atributos"
+      },
+      "depois": {
+        "termo": "Maestria",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "atributos",
+          "titulo": "Atributos"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Atributos"
+      }
+    },
+    {
+      "termo": "Morrendo",
+      "antes": {
+        "termo": "Morrendo",
+        "destino": {
+          "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+          "ancora": "zero",
+          "titulo": "Vida a zero"
+        },
+        "nota": null,
+        "consulta": "Recuperação: Vida a zero"
+      },
+      "depois": {
+        "termo": "Morrendo",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "zero",
+          "titulo": "Vida a zero"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Vida a zero"
+      }
+    },
+    {
+      "termo": "Movimento imposto",
+      "antes": {
+        "termo": "Movimento imposto",
+        "destino": {
+          "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+          "ancora": "quedas",
+          "titulo": "Quedas e movimento imposto"
+        },
+        "nota": null,
+        "consulta": "Quedas e movimento imposto"
+      },
+      "depois": {
+        "termo": "Movimento imposto",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "quedas",
+          "titulo": "Quedas e movimento imposto"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Quedas e movimento imposto"
+      }
+    },
+    {
+      "termo": "Munição",
+      "antes": {
+        "termo": "Munição",
+        "destino": {
+          "arquivo": "equipamento/lote-03-r5/MUNICAO.md",
+          "ancora": "municao",
+          "titulo": "Munição"
+        },
+        "nota": null,
+        "consulta": "Munição"
+      },
+      "depois": {
+        "termo": "Munição",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eqm-municao",
+          "titulo": "Munição"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Munição"
+      }
+    },
+    {
+      "termo": "Mão Firme",
+      "antes": {
+        "termo": "Mão Firme",
+        "destino": {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "ancora": "cat-passivas-1",
+          "titulo": "Passivas de Classe 1"
+        },
+        "nota": null,
+        "consulta": "Catálogo: Passivas de Classe 1"
+      },
+      "depois": {
+        "termo": "Mão Firme",
+        "destino": {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "ancora": "cat-passivas-1",
+          "titulo": "Talentos de Categoria 1"
+        },
+        "nota": null,
+        "consulta": "Catálogo: Talentos de Categoria 1"
+      }
+    },
+    {
+      "termo": "Oculta",
+      "antes": {
+        "termo": "Oculta",
+        "destino": {
+          "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+          "ancora": "oculta",
+          "titulo": "Armas escondidas"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Armas escondidas"
+      },
+      "depois": {
+        "termo": "Oculta",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eq-oculta",
+          "titulo": "Armas escondidas"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Armas escondidas"
+      }
+    },
+    {
+      "termo": "PV",
+      "antes": {
+        "termo": "PV",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "dano",
+          "titulo": "Dano"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Dano"
+      },
+      "depois": {
+        "termo": "PV",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "dano",
+          "titulo": "Dano"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Dano"
+      }
+    },
+    {
+      "termo": "Par",
+      "antes": {
+        "termo": "Par",
+        "destino": {
+          "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+          "ancora": "propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      },
+      "depois": {
+        "termo": "Par",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eq-propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      }
+    },
+    {
+      "termo": "Passiva",
+      "antes": {
+        "termo": "Passiva",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Passivas"
+        },
+        "nota": null,
+        "consulta": "Fundamento: Selo e Passivas"
+      },
+      "depois": null
+    },
+    {
+      "termo": "Passiva (nome anterior)",
+      "antes": null,
+      "depois": {
+        "termo": "Passiva (nome anterior)",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Talentos"
+        },
+        "nota": null,
+        "consulta": "Fundamento: Selo e Talentos"
+      }
+    },
+    {
+      "termo": "Passiva Livre (nome anterior)",
+      "antes": null,
+      "depois": {
+        "termo": "Passiva Livre (nome anterior)",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Talentos"
+        },
+        "nota": "Expressão da técnica.",
+        "consulta": "Fundamento: Selo e Talentos. Expressão da técnica."
+      }
+    },
+    {
+      "termo": "Passiva Própria",
+      "antes": {
+        "termo": "Passiva Própria",
+        "destino": {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "ancora": "cat-passiva-propria",
+          "titulo": "Passiva Própria"
+        },
+        "nota": null,
+        "consulta": "Catálogo: Passiva Própria"
+      },
+      "depois": null
+    },
+    {
+      "termo": "Passiva Própria (nome anterior)",
+      "antes": null,
+      "depois": {
+        "termo": "Passiva Própria (nome anterior)",
+        "destino": {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "ancora": "cat-passiva-propria",
+          "titulo": "Talento Próprio"
+        },
+        "nota": null,
+        "consulta": "Catálogo: Talento Próprio"
+      }
+    },
+    {
+      "termo": "Patente",
+      "antes": {
+        "termo": "Patente",
+        "destino": {
+          "arquivo": "progressao/lote-01/PROGRESSAO.md",
+          "ancora": "prog-inicio",
+          "titulo": "Experiência e Progressão"
+        },
+        "nota": null,
+        "consulta": "Progressão: Experiência e Progressão"
+      },
+      "depois": {
+        "termo": "Patente",
+        "destino": {
+          "arquivo": "progressao/lote-01/PROGRESSAO.md",
+          "ancora": "prog-patentes",
+          "titulo": "Patentes"
+        },
+        "nota": null,
+        "consulta": "Progressão: Patentes"
+      }
+    },
+    {
+      "termo": "Pontos de vida",
+      "antes": {
+        "termo": "Pontos de vida",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "dano",
+          "titulo": "Dano"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Dano"
+      },
+      "depois": {
+        "termo": "Pontos de vida",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "dano",
+          "titulo": "Dano"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Dano"
+      }
+    },
+    {
+      "termo": "Preparar",
+      "antes": {
+        "termo": "Preparar",
+        "destino": {
+          "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+          "ancora": "preparar",
+          "titulo": "Preparar"
+        },
+        "nota": null,
+        "consulta": "Preparar"
+      },
+      "depois": {
+        "termo": "Preparar",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "preparar",
+          "titulo": "Preparar"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Preparar"
+      }
+    },
+    {
+      "termo": "Proteção",
+      "antes": {
+        "termo": "Proteção",
+        "destino": {
+          "arquivo": "equipamento/lote-02-r3/PROTECAO.md",
+          "ancora": "protecao",
+          "titulo": "Proteção"
+        },
+        "nota": null,
+        "consulta": "Proteção"
+      },
+      "depois": {
+        "termo": "Proteção",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eqp-protecao",
+          "titulo": "Proteção"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Proteção"
+      }
+    },
+    {
+      "termo": "Quedas",
+      "antes": {
+        "termo": "Quedas",
+        "destino": {
+          "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+          "ancora": "quedas",
+          "titulo": "Quedas e movimento imposto"
+        },
+        "nota": null,
+        "consulta": "Quedas e movimento imposto"
+      },
+      "depois": {
+        "termo": "Quedas",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "quedas",
+          "titulo": "Quedas e movimento imposto"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Quedas e movimento imposto"
+      }
+    },
+    {
+      "termo": "Reação",
+      "antes": {
+        "termo": "Reação",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "reacoes",
+          "titulo": "Reações e concentração"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Reações e concentração"
+      },
+      "depois": {
+        "termo": "Reação",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "oportunidade",
+          "titulo": "Reações e ataques de oportunidade"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Reações e ataques de oportunidade"
+      }
+    },
+    {
+      "termo": "Redução de Dano",
+      "antes": {
+        "termo": "Redução de Dano",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "reducao",
+          "titulo": "Redução de Dano"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Redução de Dano"
+      },
+      "depois": {
+        "termo": "Redução de Dano",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "reducao",
+          "titulo": "Redução de Dano"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Redução de Dano"
+      }
+    },
+    {
+      "termo": "Rodada",
+      "antes": {
+        "termo": "Rodada",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Turnos"
+      },
+      "depois": {
+        "termo": "Rodada",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Turnos"
+      }
+    },
+    {
+      "termo": "Rodada inteira",
+      "antes": {
+        "termo": "Rodada inteira",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": "Ação Completa.",
+        "consulta": "Testes e turnos: Turnos. Ação Completa."
+      },
+      "depois": {
+        "termo": "Rodada inteira",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": "Ação Completa.",
+        "consulta": "Regras gerais: Turnos. Ação Completa."
+      }
+    },
+    {
+      "termo": "Rompe",
+      "antes": {
+        "termo": "Rompe",
+        "destino": {
+          "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+          "ancora": "propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      },
+      "depois": {
+        "termo": "Rompe",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eq-propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      }
+    },
+    {
+      "termo": "Saltos",
+      "antes": {
+        "termo": "Saltos",
+        "destino": {
+          "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+          "ancora": "saltos",
+          "titulo": "Saltos"
+        },
+        "nota": null,
+        "consulta": "Saltos"
+      },
+      "depois": {
+        "termo": "Saltos",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "saltos",
+          "titulo": "Saltos"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Saltos"
+      }
+    },
+    {
+      "termo": "Selo",
+      "antes": {
+        "termo": "Selo",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Passivas"
+        },
+        "nota": null,
+        "consulta": "Fundamento: Selo e Passivas"
+      },
+      "depois": {
+        "termo": "Selo",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Talentos"
+        },
+        "nota": null,
+        "consulta": "Fundamento: Selo e Talentos"
+      }
+    },
+    {
+      "termo": "Sentir Energia",
+      "antes": {
+        "termo": "Sentir Energia",
+        "destino": {
+          "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+          "ancora": "mundo",
+          "titulo": "Energia e seus sinais"
+        },
+        "nota": null,
+        "consulta": "Energia e seus sinais"
+      },
+      "depois": {
+        "termo": "Sentir Energia",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "mundo",
+          "titulo": "Percepção de energia"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Percepção de energia"
+      }
+    },
+    {
+      "termo": "Sequela",
+      "antes": {
+        "termo": "Sequela",
+        "destino": {
+          "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+          "ancora": "sequelas",
+          "titulo": "Sequelas e Cicatrizes"
+        },
+        "nota": null,
+        "consulta": "Recuperação: Sequelas e Cicatrizes"
+      },
+      "depois": {
+        "termo": "Sequela",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "sequelas",
+          "titulo": "Sequelas e Cicatrizes"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Sequelas e Cicatrizes"
+      }
+    },
+    {
+      "termo": "Socorro",
+      "antes": null,
+      "depois": {
+        "termo": "Socorro",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "socorro",
+          "titulo": "Socorro"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Socorro"
+      }
+    },
+    {
+      "termo": "Surdo",
+      "antes": {
+        "termo": "Surdo",
+        "destino": {
+          "arquivo": "regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Condições: Condições leves"
+      },
+      "depois": {
+        "termo": "Surdo",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "leves",
+          "titulo": "Condições leves"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Condições leves"
+      }
+    },
+    {
+      "termo": "Talento",
+      "antes": null,
+      "depois": {
+        "termo": "Talento",
+        "destino": {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "ancora": "selo",
+          "titulo": "Selo e Talentos"
+        },
+        "nota": null,
+        "consulta": "Fundamento: Selo e Talentos"
+      }
+    },
+    {
+      "termo": "Talento Próprio",
+      "antes": null,
+      "depois": {
+        "termo": "Talento Próprio",
+        "destino": {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "ancora": "cat-passiva-propria",
+          "titulo": "Talento Próprio"
+        },
+        "nota": null,
+        "consulta": "Catálogo: Talento Próprio"
+      }
+    },
+    {
+      "termo": "Talha",
+      "antes": {
+        "termo": "Talha",
+        "destino": {
+          "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+          "ancora": "propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      },
+      "depois": {
+        "termo": "Talha",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eq-propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      }
+    },
+    {
+      "termo": "Teste",
+      "antes": {
+        "termo": "Teste",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "testes",
+          "titulo": "Testes"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Testes"
+      },
+      "depois": {
+        "termo": "Teste",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "testes",
+          "titulo": "Testes"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Testes"
+      }
+    },
+    {
+      "termo": "Teste de Resistência",
+      "antes": {
+        "termo": "Teste de Resistência",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "resistencia",
+          "titulo": "Testes de Resistência"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Testes de Resistência"
+      },
+      "depois": {
+        "termo": "Teste de Resistência",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "resistencia",
+          "titulo": "Testes de Resistência"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Testes de Resistência"
+      }
+    },
+    {
+      "termo": "Treino",
+      "antes": {
+        "termo": "Treino",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "pericias",
+          "titulo": "Perícias e ofícios"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Perícias e ofícios"
+      },
+      "depois": {
+        "termo": "Treino",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "pericias",
+          "titulo": "Treino e modificadores"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Treino e modificadores"
+      }
+    },
+    {
+      "termo": "Turno",
+      "antes": {
+        "termo": "Turno",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Turnos"
+      },
+      "depois": {
+        "termo": "Turno",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "turnos",
+          "titulo": "Turnos"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Turnos"
+      }
+    },
+    {
+      "termo": "Vantagem",
+      "antes": {
+        "termo": "Vantagem",
+        "destino": {
+          "arquivo": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+          "ancora": "pericias",
+          "titulo": "Perícias e ofícios"
+        },
+        "nota": null,
+        "consulta": "Testes e turnos: Perícias e ofícios"
+      },
+      "depois": {
+        "termo": "Vantagem",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "pericias",
+          "titulo": "Treino e modificadores"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Treino e modificadores"
+      }
+    },
+    {
+      "termo": "Vasculhar",
+      "antes": {
+        "termo": "Vasculhar",
+        "destino": {
+          "arquivo": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+          "ancora": "procurar",
+          "titulo": "Vasculhar"
+        },
+        "nota": null,
+        "consulta": "Vasculhar"
+      },
+      "depois": {
+        "termo": "Vasculhar",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "procurar",
+          "titulo": "Vasculhar"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Vasculhar"
+      }
+    },
+    {
+      "termo": "Versátil",
+      "antes": {
+        "termo": "Versátil",
+        "destino": {
+          "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+          "ancora": "propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      },
+      "depois": {
+        "termo": "Versátil",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eq-propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      }
+    },
+    {
+      "termo": "Vestida",
+      "antes": {
+        "termo": "Vestida",
+        "destino": {
+          "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+          "ancora": "propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      },
+      "depois": {
+        "termo": "Vestida",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eq-propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      }
+    },
+    {
+      "termo": "Vida temporária",
+      "antes": {
+        "termo": "Vida temporária",
+        "destino": {
+          "arquivo": "regras-basicas/lote-04/RECUPERACAO.md",
+          "ancora": "temporarios",
+          "titulo": "Vida e energia temporárias"
+        },
+        "nota": null,
+        "consulta": "Recuperação: Vida e energia temporárias"
+      },
+      "depois": {
+        "termo": "Vida temporária",
+        "destino": {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "ancora": "temporarios",
+          "titulo": "Vida e energia temporárias"
+        },
+        "nota": null,
+        "consulta": "Dano e Recuperação: Vida e energia temporárias"
+      }
+    },
+    {
+      "termo": "Volume",
+      "antes": {
+        "termo": "Volume",
+        "destino": {
+          "arquivo": "regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+          "ancora": "carga",
+          "titulo": "Carga"
+        },
+        "nota": null,
+        "consulta": "Carga"
+      },
+      "depois": {
+        "termo": "Volume",
+        "destino": {
+          "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+          "ancora": "carga",
+          "titulo": "Carga"
+        },
+        "nota": null,
+        "consulta": "Regras gerais: Carga"
+      }
+    },
+    {
+      "termo": "Volumosa",
+      "antes": {
+        "termo": "Volumosa",
+        "destino": {
+          "arquivo": "equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md",
+          "ancora": "propriedades",
+          "titulo": "Propriedades"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Propriedades"
+      },
+      "depois": {
+        "termo": "Volumosa",
+        "destino": {
+          "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+          "ancora": "eq-oculta",
+          "titulo": "Armas escondidas"
+        },
+        "nota": null,
+        "consulta": "Equipamento: Armas escondidas"
+      }
+    }
+  ]
+}

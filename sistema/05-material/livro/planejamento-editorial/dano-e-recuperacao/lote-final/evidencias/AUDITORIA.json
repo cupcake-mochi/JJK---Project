@@ -1,0 +1,520 @@
+{
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43"
+  },
+  "ok": true,
+  "sha256_texto": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+  "verificacoes": 55,
+  "falhas": [],
+  "casos": [
+    {
+      "caso": "janela preserva base3",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "socorro uniforme20%",
+      "obtido": "1/5",
+      "esperado": "1/5",
+      "ok": true
+    },
+    {
+      "caso": "custos preservados",
+      "obtido": [
+        "1/8",
+        "1/4",
+        "1/2"
+      ],
+      "esperado": [
+        "1/8",
+        "1/4",
+        "1/2"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "patamares Alma",
+      "obtido": [
+        "1/4",
+        "1/2",
+        "3/4"
+      ],
+      "esperado": [
+        "1/4",
+        "1/2",
+        "3/4"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "referência80 semSequela",
+      "obtido": [
+        10,
+        [
+          10,
+          20,
+          40
+        ]
+      ],
+      "esperado": [
+        10,
+        [
+          10,
+          20,
+          40
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "referência80 umaSequela",
+      "obtido": [
+        50,
+        [
+          10,
+          20
+        ]
+      ],
+      "esperado": [
+        50,
+        [
+          10,
+          20
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "referência23",
+      "obtido": [
+        2,
+        [
+          3,
+          6,
+          12
+        ]
+      ],
+      "esperado": [
+        2,
+        [
+          3,
+          6,
+          12
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "máximo1 não pode pagar",
+      "obtido": [
+        1,
+        []
+      ],
+      "esperado": [
+        1,
+        []
+      ],
+      "ok": true
+    },
+    {
+      "caso": "trêsSequelas semjanela",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "3000perfis preservam máximo>=1 e custo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "janela menor não cobra rodada inexistente",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "12500perfis de cura acumulada e teto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "duascuras3 referência23",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "cura1 referência80 insuficiente",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "referência80 fimInsistir recupera teto10",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "Integridade26 perdeu6",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Integridade26 perdeu7",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Integridade26 perdeu14",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Remenda5 reduz estágio2para1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "mais3 chega estágio0",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Integridade zero",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "caso": "Integridade melhora monotonicamente com cura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "4golpes1 não expulsam Integridade26",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "exemplo21fogo resistênciaRD4 temporário3",
+      "obtido": [
+        7,
+        3,
+        4
+      ],
+      "esperado": [
+        7,
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "caso": "exemplo30fogoRD6",
+      "obtido": [
+        9,
+        0,
+        9
+      ],
+      "esperado": [
+        9,
+        0,
+        9
+      ],
+      "ok": true
+    },
+    {
+      "caso": "mistura10Cortante8Fogo resistência",
+      "obtido": [
+        14,
+        0,
+        14
+      ],
+      "esperado": [
+        14,
+        0,
+        14
+      ],
+      "ok": true
+    },
+    {
+      "caso": "RDzera",
+      "obtido": [
+        0,
+        0,
+        0
+      ],
+      "esperado": [
+        0,
+        0,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "caso": "danoAlma8RD3temp3",
+      "obtido": [
+        2,
+        5
+      ],
+      "esperado": [
+        2,
+        5
+      ],
+      "ok": true
+    },
+    {
+      "caso": "transições de queda nunca negativas/reiniciadas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Medicina+4CD14 uma tentativa",
+      "obtido": "11/20",
+      "esperado": "11/20",
+      "ok": true
+    },
+    {
+      "caso": "Medicina+4CD14 duas tentativas",
+      "obtido": "319/400",
+      "esperado": "319/400",
+      "ok": true
+    },
+    {
+      "caso": "dano encerra estabilidade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "semsegunda janela",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "cura após derrota não devolve cena",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "máximo pode não pagar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "semTRextraAlma",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "zero dasduasreservas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "sequelenasduasescolhas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "fontesincompatíveis",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Lento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Guarda Aberta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Derrubado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Agarrado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Desarmado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Surdo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Calado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Enfeitiçado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Impedido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Cego",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Amedrontado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Envenenado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "condição preservada Atordoado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida máxima1 conservaIntegridade1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida máxima3 integridade1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "NPC vida máxima20 integridade10",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    }
+  ],
+  "modelos": {
+    "perfis_custo_Insistir": 3000,
+    "perfis_cura": 10000,
+    "perfis_Integridade": 45450,
+    "transicoes_queda": 768,
+    "estabilizacao": [
+      {
+        "bonus": -1,
+        "uma_tentativa": "3/10",
+        "duas_tentativas": "51/100"
+      },
+      {
+        "bonus": 0,
+        "uma_tentativa": "7/20",
+        "duas_tentativas": "231/400"
+      },
+      {
+        "bonus": 1,
+        "uma_tentativa": "2/5",
+        "duas_tentativas": "16/25"
+      },
+      {
+        "bonus": 2,
+        "uma_tentativa": "9/20",
+        "duas_tentativas": "279/400"
+      },
+      {
+        "bonus": 3,
+        "uma_tentativa": "1/2",
+        "duas_tentativas": "3/4"
+      },
+      {
+        "bonus": 4,
+        "uma_tentativa": "11/20",
+        "duas_tentativas": "319/400"
+      },
+      {
+        "bonus": 5,
+        "uma_tentativa": "3/5",
+        "duas_tentativas": "21/25"
+      },
+      {
+        "bonus": 6,
+        "uma_tentativa": "13/20",
+        "duas_tentativas": "351/400"
+      },
+      {
+        "bonus": 7,
+        "uma_tentativa": "7/10",
+        "duas_tentativas": "91/100"
+      },
+      {
+        "bonus": 8,
+        "uma_tentativa": "3/4",
+        "duas_tentativas": "15/16"
+      },
+      {
+        "bonus": 9,
+        "uma_tentativa": "4/5",
+        "duas_tentativas": "24/25"
+      },
+      {
+        "bonus": 10,
+        "uma_tentativa": "17/20",
+        "duas_tentativas": "391/400"
+      },
+      {
+        "bonus": 11,
+        "uma_tentativa": "9/10",
+        "duas_tentativas": "99/100"
+      }
+    ]
+  },
+  "limites": [
+    "Modelos dirigidos, não motor completo de combate.",
+    "Contagem de perfis não é número de partidas ou de casos humanos.",
+    "Comparação por nível e revisão independente constam dos arquivos próprios; esta execução cobre apenas os modelos deste script.",
+    "Não mede diversão, perda de agência percebida ou frequência real de cura."
+  ]
+}

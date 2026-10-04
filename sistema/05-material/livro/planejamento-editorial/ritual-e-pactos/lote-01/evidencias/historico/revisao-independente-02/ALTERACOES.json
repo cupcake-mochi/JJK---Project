@@ -1,0 +1,198 @@
+[
+  {
+    "id": "RP-01",
+    "tipo": "E",
+    "antes": "Abertura metafórica e comentários de design dentro da regra.",
+    "depois": "Procedimento, requisitos, ação e efeito antes dos exemplos.",
+    "motivo": "Facilitar consulta. Leitura editorial orientada pelas amostras locais PHB2024/DMG2024 registradas na R06/R07."
+  },
+  {
+    "id": "RP-02",
+    "tipo": "M",
+    "antes": "Tabela de sucesso dizia80% comDex6/C1 embora fórmula peça27pedisse3+ no d20.",
+    "depois": "Preservada fórmula aprovada; chances recalculadas. Dex6/C1=90%,Dex3/C1=75%,Dex0/C1=60%.",
+    "motivo": "Todas21células antigas têm erro de10pontos percentuais; não alterar fórmula para reproduzir tabela errada."
+  },
+  {
+    "id": "RP-03",
+    "tipo": "M",
+    "antes": "Falha cobrava Classe em pontos, sem declarar moeda. Exemplo retirava dano, ajuda cobrava correção não definida.",
+    "depois": "Penalidade Classe emPE separada para conjurador e auxiliar; ficha/dados preservados. Recursos suficientes exigidos antes.",
+    "motivo": "Escolha necessária entre leituras incompatíveis; PE já usados pela aptidão e aplicáveis à ajuda, evita refazer feitiço durante turno. Não apresentado como decisão antiga do usuário."
+  },
+  {
+    "id": "RP-04",
+    "tipo": "M",
+    "antes": "Dois turnos na Recitação, sem custo explícito de cada turno.",
+    "depois": "DuasAçõesCompletas;pagamentoao começar e perda por interrupção;semtesteOcultismo.",
+    "motivo": "Fechar brecha de carregar enquanto faz duas outras ações; preserva compra10pontos por dois turnos, risco por dano e exceção Liberação."
+  },
+  {
+    "id": "RP-05",
+    "tipo": "M",
+    "antes": "Ritual não delimitavaClasse0/automático/Inescapável.",
+    "depois": "Classe1+;InescapávelnãoaceitaRitual.",
+    "motivo": "Evitar benefício defensivo gratuito todo turno viaClasse0 ou anular pacoteexclusivoInescapável."
+  },
+  {
+    "id": "RP-06",
+    "tipo": "M",
+    "antes": "Selo/Calado/Silencioso presentes sópeça27 e não manual.",
+    "depois": "Voz egestosnecessários;Caladoimpede;SilenciosonãodispensaRitual.",
+    "motivo": "Recuperar requisitos dafonte atual e impedirRitualfurtivogratuito."
+  },
+  {
+    "id": "RP-07",
+    "tipo": "M",
+    "antes": "Liberação/Ritual sem declaração sobreMáxima nova.",
+    "depois": "Liberaçãoritualizada tem6ou10pontos, adicionalmetadeClasse sóRecitação;Máximapode6pontos/AçãoCompleta,semguardar/semadicionalLib.",
+    "motivo": "ConciliarrecargaR06 ealtoorçamento. DadosRitualnãoaumentamMáxima."
+  },
+  {
+    "id": "RP-08",
+    "tipo": "M",
+    "antes": "Repetição livre dos16benefícios, atéDefesa/energia, não estava vedada.",
+    "depois": "Umacompra porbenefício,excetoAcerto/Dificuldade(2).",
+    "motivo": "Preservaexceçõesexpressas,evita4aliados multiplicaremrecursoporempilhamentodelista."
+  },
+  {
+    "id": "RP-09",
+    "tipo": "M",
+    "antes": "Rerrolagem ambígua sobre cura,mínimos repetidos eRajada.",
+    "depois": "Danooucura iniciais;Clase+1dadoscompartilhados;segundofica;semsecundários.",
+    "motivo": "Evitar rerrolagem recursiva e multiplicar limite por tiro. Preserva cura permitida na peça27."
+  },
+  {
+    "id": "RP-10",
+    "tipo": "M",
+    "antes": "MeiaClasse desconto sem arredondamento explícito.",
+    "depois": "Para baixo mínimo1, descontosfixosantesdasmetades;PEpositivomínimo1.",
+    "motivo": "AlinhaR06/R07;penalidadefalhaseparada."
+  },
+  {
+    "id": "RP-11",
+    "tipo": "M",
+    "antes": "Toque aparece na lista deRitualAlcance, área tambémrecebiaTiros.",
+    "depois": "Aplicarbenefíciopelaquantidadequeexiste:Toquenãosobealcance,Tiros sóRajada,Compartilhamento sóCura/Apoio,nãoOnda.",
+    "motivo": "Recuperar compatibilidadeFormaR06 eRajadaR07."
+  },
+  {
+    "id": "RP-12",
+    "tipo": "M",
+    "antes": "Perseguição dizia não pode ser desviado, sem resolução.",
+    "depois": "Equivale àpermissaodelimitadaPerseguir;deslocamentoentreseleçãoeresolução nãoescapaalcance,visão/trajeto/teleporteconservados.",
+    "motivo": "Não viraracerto automático2pontos nemremoverBloeEsquiva porpalavra ambígua."
+  },
+  {
+    "id": "RP-13",
+    "tipo": "M",
+    "antes": "Compartilhamento copiava efeito inteiro apesar deJunto e limitesúnicos.",
+    "depois": "Cópia da menorparcelaapósdivisão,aliadoextra válido;usos únicos não duplicam.",
+    "motivo": "Preservabenefício adicional real semcopiarrestauraçãoúnica ouredistribuiçãominmax."
+  },
+  {
+    "id": "RP-14",
+    "tipo": "M",
+    "antes": "Tiros +1alvo semdivisão não definia quaisdadoscopiar.",
+    "depois": "Cópia da menorparcela, alvo diferente dos tirosdeclarados,antesdosdados.",
+    "motivo": "Impede1d8/1d8/18d8 gerar18d8extra, preservafantasia distribuição."
+  },
+  {
+    "id": "RP-15",
+    "tipo": "M",
+    "antes": "RitualDuração indefinido paraFica/estadosconsumíveis.",
+    "depois": "Sóestado com rodadas, +1rodada,semrepetição;Fica/Concentrada/Duradoura/prazosespecíficosforadessa ampliação.",
+    "motivo": "Não renovaraplicaçãoinstantânea oudanográtis."
+  },
+  {
+    "id": "RP-16",
+    "tipo": "M",
+    "antes": "RitualpodiapagarduastaxasporParado/Atrasar/Carregar.",
+    "depois": "Mesmotempo/imobilidadenãodevolve pontos;ficharitualizadacorrigidaantesdesessão.",
+    "motivo": "PrincípiojáexistentepassoR06aplicado atodos19restrições."
+  },
+  {
+    "id": "RP-17",
+    "tipo": "M",
+    "antes": "Auxíliocomnúmeroilimitado/semalcance/momentovalidade.",
+    "depois": "Umauxiliar,9m,percepçãomútua,açãoCompleta,validadeatéfimpróximoturno,4pontos.",
+    "motivo": "Semtetopontosseriam2+4n,6+4n,10+4n. Limitepreservaduplaefechacoroilimitado."
+  },
+  {
+    "id": "RP-18",
+    "tipo": "M",
+    "antes": "Ameaça/coação e punição porquebra tratadas comoverdadesuniversaisdaobra.",
+    "depois": "Consentimentodosjogadores,termosverificáveisesançõesregistradas comopolíticadejogo.",
+    "motivo": "Nãohávalidacaoprimáriaacessíveldessasafirmaçõesuniversais. Mecânicasoriginaisrotuladasadaptação."
+  },
+  {
+    "id": "RP-19",
+    "tipo": "M",
+    "antes": "Pactopermanente ofereciaestilo doSemTécnica, contradizendov0.168.",
+    "depois": "Apenasaptidão,espaçoconhecido,PE;espaçorotaManejo/Kata,semEstilo/sementeadicional.",
+    "motivo": "Peça22§3.3removialinha,manualreintroduziudesatualizada. Distinguirespaço deManejoprontoque§3.5proíbe."
+  },
+  {
+    "id": "RP-20",
+    "tipo": "M",
+    "antes": "Benefíciodanodepermanente vago comteto sóemdocumentotécnico v0.134.",
+    "depois": "Semconversãolivreemdanonotextodojogador; preservatrêscategoriasdebenefícioaprovadas.",
+    "motivo": "Evitarregraexecutávelsemparâmetros pornível. Réguahistórica0.5fatia/pacto registradanarevisão, nãofingirvalidade atualem todaescala."
+  },
+  {
+    "id": "RP-21",
+    "tipo": "M",
+    "antes": "MetadeEssênciaporcampanha,semregradeperdaposterior.",
+    "depois": "Escolhagastanãoretorna,aumentopodeabrir,queda nãodesfazpactosmasbloqueianovascompras.",
+    "motivo": "Fecha reciclagem benefício emacto sem autorizar atributosacima6."
+  },
+  {
+    "id": "RP-22",
+    "tipo": "E",
+    "antes": "Oitoexemplosdeobra semlocalização ealgumasinferênciasdeorigem do poder.",
+    "depois": "Exemplos própriosdeHana/Mei; removidotextocanôniconãoconferido. Catálogoanteriorpreservadonasfontes.",
+    "motivo": "VIZ expôs índice, não páginas; sinopsesoficiaisnão validamtermosminuciosos. Nãoafirmarleituradoquadroindisponível."
+  },
+  {
+    "id": "RP-23",
+    "tipo": "M",
+    "antes": "Oitoideiasderestriçãoapresentavamnúmerosincompletos comoregras prontas.",
+    "depois": "Quadrodeconceitoscomperguntasdeimplementação; proibidousosemprocedimentovalidado.",
+    "motivo": "Peça22jádisse sãoideias,nãoregras. Fragmentação/vidaePEprecisamreanálisedependenteMorrendo/Integridade."
+  },
+  {
+    "id": "RP-24",
+    "tipo": "E",
+    "antes": "50/50,Aquecendo,Catatau soavamplaceholder/colidiam.",
+    "depois": "Energia alternada,Despertar do corpo,Reserva vital nosconceitos.",
+    "motivo": "Renomes deconceitosnãomecânicos; nãoalteramRestriçãoAquecer nemregraaprovadadeclasse."
+  },
+  {
+    "id": "RP-25",
+    "tipo": "E/M",
+    "antes": "Falha dizia conservar ficha comum após retirar devoluções incompatíveis.",
+    "depois": "Sucesso e falha usam a mesma montagem já ajustada ao Ritual; uma devolução retirada não retorna.",
+    "motivo": "RI-01: C3 Precisão+Atrasar é9d8 comum, mas7d8 sem a devolução. Escolher entre essas versões depois do teste abriria resposta contraditória."
+  },
+  {
+    "id": "RP-26",
+    "tipo": "E/M",
+    "antes": "Auxílio tinha prazo, sem consumo explícito e sem declarar manutenção de alcance/percepção.",
+    "depois": "Uma conjuração indicada; consome na tentativa inclusive falha ou interrupção. Mantém9m, percepção mútua, voz e gestos até a resolução.",
+    "motivo": "RI-05: fecha reaproveitamento por alteração de iniciativa e auxílio à distância após abandonar o local."
+  },
+  {
+    "id": "RP-27",
+    "tipo": "E/M",
+    "antes": "Ajuda podia chegar depois do pagamento na Recitação, sem regra para desconto Energia tardio.",
+    "depois": "Ajuda posterior ao pagamento não compra Energia nem devolve PE; pode acrescentar benefícios ainda não resolvidos.",
+    "motivo": "RI-08: custo antecipado permanece estável, sem crédito retroativo inventado."
+  },
+  {
+    "id": "RP-28",
+    "tipo": "E",
+    "antes": "Quadro usava Segue e Concentração como nomes de peças.",
+    "depois": "Usa Perseguir e Concentrada, correspondentes ao catálogo vigente.",
+    "motivo": "RI-04/RI-07: corrigir destino de remissão sem mudar os efeitos."
+  }
+]

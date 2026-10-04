@@ -1,0 +1,82 @@
+@font-face {font-family:Spectral; src:local('Spectral');}
+:root {--tinta:#251727;--selo:#2B1B2E;--selo-fraco:#9A6F87;--acento:#BC2A6E;--acento-claro:#ECC3D6;--washi:#FDF0F6;--zebra:#FADDEA;--linha:#F8C7DC;--cinza:#847B86;}
+@page {size:A4; margin:17mm 19mm 19mm 20mm; background:#fff;
+ @top-left {content:'PROJETO - M';font:8pt 'Barlow Condensed';letter-spacing:1.7pt;color:#BC2A6E;vertical-align:bottom;padding-bottom:5mm;}
+ @top-right {content:string(heading);font:8pt 'Barlow Condensed';letter-spacing:.6pt;color:#847B86;vertical-align:bottom;padding-bottom:5mm;}
+ @bottom-left {content:'PILOTO EDITORIAL 2 · REGRAS v0.331';font:7.3pt 'Barlow Condensed';letter-spacing:1pt;color:#847B86;vertical-align:top;padding-top:5mm;}
+ @bottom-right {content:counter(page);font:12pt 'Barlow Condensed';color:#BC2A6E;vertical-align:top;padding-top:4mm;}
+}
+@page opening { background:#FDF0F6; @top-left{content:none} @top-right{content:none} }
+*{box-sizing:border-box}
+html{font:10.5pt/1.43 'Spectral',serif;color:var(--tinta);hyphens:auto;}
+body{margin:0}
+section.page{break-before:page;}
+section.page:first-child{break-before:auto;page:opening;}
+h1{font:600 30pt/1.05 'Barlow Condensed',sans-serif;letter-spacing:.1pt;color:var(--selo);margin:0 0 6mm;padding:0 0 4mm;border-bottom:1.2pt solid var(--acento);string-set:heading content();bookmark-level:1;bookmark-state:closed;break-after:avoid;}
+#entrada h1{font-size:49pt;line-height:1.02;border:0;margin:5mm 0 4mm;padding:0;}
+h2{font:600 17pt/1.14 'Barlow Condensed',sans-serif;color:var(--selo);margin:5mm 0 2.3mm;bookmark-level:none;break-after:avoid;}
+p{margin:0 0 2.8mm;orphans:3;widows:3;text-align:left;}
+a{color:var(--acento);text-decoration:none}
+strong{font-weight:700}
+.edition,.eyebrow{font:600 9pt/1.2 'Barlow Condensed';letter-spacing:1.6pt;color:var(--acento);margin:0 0 2.5mm;}
+.lead{font:500 15pt 'Barlow Condensed';margin:0 0 7mm;color:var(--acento);}
+.scene{border-left:3pt solid var(--acento);padding:3mm 5mm 1mm;background:white;margin:0 0 5mm;}
+.scene p{font-style:italic;}
+.note{background:var(--washi);padding:3.6mm 4.6mm;margin:4mm 0;border-left:2pt solid var(--acento);break-inside:avoid;}
+.note p:last-child,.scene p:last-child{margin-bottom:2mm;}
+.route{font:500 11pt/1.55 'Barlow Condensed';padding:3mm 0;margin:3mm 0;border-top:.5pt solid var(--linha);border-bottom:.5pt solid var(--linha);}
+.small{font:9pt/1.35 'Spectral';color:#594655;margin-top:3mm;}
+table{border-collapse:collapse;width:100%;margin:3mm 0 4mm;font-size:9.7pt;line-height:1.35;}
+thead{display:table-header-group}
+tr{break-inside:avoid}
+th{text-align:left;font:600 11pt/1.15 'Barlow Condensed';background:var(--selo);color:#fff;padding:2mm 3mm;}
+td{vertical-align:top;padding:1.8mm 3mm;border-bottom:.5pt solid var(--linha);}
+tr:nth-child(even) td{background:var(--washi)}
+td:first-child{width:31%}
+.equation{display:flex;align-items:center;justify-content:space-between;background:var(--selo);color:white;padding:4mm 9mm;margin:5mm 0;font:600 25pt 'Barlow Condensed';}
+.equation span{text-align:center}.equation small{display:block;font:10pt 'Barlow Condensed';margin-top:1mm;letter-spacing:.3pt;color:var(--acento-claro)}
+.stats{display:flex;justify-content:space-between;margin:5mm 0;border-top:1pt solid var(--acento);border-bottom:1pt solid var(--acento);padding:3mm 0;}
+.stats div{width:24%;text-align:center}.stats strong{display:block;font:600 29pt 'Barlow Condensed';color:var(--selo)}.stats span{font:8pt 'Barlow Condensed';letter-spacing:.6pt}
+.ability{background:var(--washi);border:1pt solid var(--linha);border-top:2pt solid var(--acento);padding:4mm 5mm 2mm;margin:5mm 0;break-inside:avoid;}
+.ability h2{margin-top:0;color:var(--acento);font-size:20pt;}
+.ability.light{background:white;}
+.enemy{border-left:3pt solid var(--acento);padding:3mm 4mm;background:var(--washi);margin:4mm 0;font-size:10pt;}
+.result{padding:3.5mm 4.5mm;background:var(--selo);color:#fff;margin:4mm 0;font-size:10pt;}
+.sheet-fragment{display:flex;gap:4mm;margin-top:5mm;}.sheet-fragment div{border:1pt solid var(--selo-fraco);padding:3mm;width:33.33%;}.sheet-fragment span{display:block;font:9pt 'Barlow Condensed';color:var(--acento);letter-spacing:1pt;}.sheet-fragment strong{display:block;font:600 17pt 'Barlow Condensed';margin-top:2mm;}
+.diagram{display:block;width:100%;height:auto;margin:3mm 0 4mm;}
+ul{padding-left:5mm;margin:3mm 0 4mm}li{margin-bottom:2mm}
+.closing{font:500 17pt/1.3 'Barlow Condensed';color:var(--acento);border-top:1pt solid var(--linha);padding-top:4mm;margin-top:6mm;}
+#protecao{font-size:10.1pt;line-height:1.39;}
+#protecao .ability{margin:3mm 0;padding:3mm 4mm 1mm;}
+#interceptar{font-size:10.2pt;line-height:1.4;}
+#interceptar table{font-size:9.5pt;}
+.comparison-note{font:10pt 'Barlow Condensed';background:var(--selo);color:white;padding:3mm;margin:0 0 5mm;}
+.columns{column-count:2;column-gap:6mm;column-fill:balance;}
+.columns .ability{break-inside:avoid;padding:3mm;font-size:9.8pt;}
+.columns h2{font-size:18pt;}
+@media screen {body{background:#ede8eb;padding:20px;}section.page{background:white;max-width:800px;margin:0 auto 24px;padding:45px;box-shadow:0 2px 12px #0002}section.page:first-child{background:var(--washi)}}
+
+#criacao table:first-of-type{table-layout:fixed}#criacao table:first-of-type th,#criacao table:first-of-type td{width:20%;text-align:center}
+
+#entrada h1{bookmark-label:"Resgate na ala oeste"}#prova-uma h1{bookmark-label:"Proteção: uma coluna"}#prova-duas h1{bookmark-label:"Proteção: duas colunas"}
+
+section.technical:first-child{page:auto}
+#montagem table td:first-child{width:26%}
+#catalogo table{font-size:10pt;line-height:1.4}
+#catalogo td{padding:3mm}
+#catalogo td:first-child{width:25%}
+#catalogo h1{font-size:28pt}
+.caption{font:9pt/1.35 'Spectral';color:#594655;margin:1mm 0 3mm}
+.flow{display:flex;gap:3mm;margin:5mm 0}
+.flow div{flex:1;border-top:2pt solid var(--acento);background:var(--washi);padding:3mm;font-size:10pt}
+.flow strong{display:block;font:600 17pt 'Barlow Condensed';margin-bottom:2mm}
+
+#combate{font-size:10.2pt;line-height:1.36}#combate h2{font-size:16pt;margin:3mm 0 1.8mm}#combate p{margin-bottom:2.3mm}#combate .enemy{margin:3mm 0}
+#movimento h2{margin:3.5mm 0 2mm}#movimento p{margin-bottom:2.3mm}
+#entidades{font-size:10.2pt;line-height:1.38}#entidades h2{margin:3.5mm 0 2mm}#entidades p{margin-bottom:2.3mm}#entidades td{padding:1.5mm 3mm}
+#catalogo th:nth-child(1),#catalogo td:nth-child(1){width:24%}#catalogo th:nth-child(2),#catalogo td:nth-child(2){width:19%}
+
+#montagem{font-size:10.2pt;line-height:1.36}#montagem p{margin-bottom:2.3mm}#montagem h2{margin:3mm 0 2mm}#montagem .note{margin:3mm 0;padding:3mm 4mm}
+#revisao{font-size:10pt;line-height:1.36}#revisao h2{margin:3.5mm 0 2mm}#revisao td{padding:1.6mm 3mm;font-size:9.5pt}
+
+.sheet-fragment div{width:auto;flex:1;min-width:0}

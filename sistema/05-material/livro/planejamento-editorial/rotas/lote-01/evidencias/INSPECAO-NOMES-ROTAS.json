@@ -1,0 +1,172 @@
+{
+  "revisor": "/root/rotas_didatica (modelo)",
+  "tipo": "V14 do delta nominal, inspeção real de cada PNG por view_image",
+  "estado": "V14 do delta concluído: 17 páginas alteradas abertas, seis idênticas por pixels à prova anterior",
+  "sha256_pdf_base_delta": "d3103341bd4073aa4abea119f1566d9865c78e1ebf17fd643766ba26ceaa1183",
+  "sha256_pdf_anterior": "6f30a2b7519c99293460cc5062471497c32fd422be28ad836410667978569060",
+  "paginas_inalteradas": [
+    1,
+    3,
+    4,
+    12,
+    18,
+    19
+  ],
+  "paginas": [
+    {
+      "pagina": 2,
+      "png": "output/comparacao-nomes/depois/pagina-02.png",
+      "sha256_png": "b439a8e493ce9a43950648897a99acab6373e16739915dbf19820e6e0781ba37",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Título e quatro etapas legíveis. Mudança para Talentos cabe sem invadir margens."
+    },
+    {
+      "pagina": 5,
+      "png": "output/comparacao-nomes/depois/pagina-05.png",
+      "sha256_png": "c4e2a8c55087a17335e542e99df8bd04e4ddbc4511096f97501e997c0e4e2405",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Nomes Talentos e Categoria de Efeito legíveis; nenhum título separado do texto."
+    },
+    {
+      "pagina": 6,
+      "png": "output/comparacao-nomes/depois/pagina-06.png",
+      "sha256_png": "b5730e1ae8c0edaa5b9ccb6ff99982e5b8cfea29b66bbb95570cf520f080b478",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Três Talentos e remissão de Insistir legíveis. Segundo Fôlego cabe sem corte."
+    },
+    {
+      "pagina": 7,
+      "png": "output/comparacao-nomes/depois/pagina-07.png",
+      "sha256_png": "4c51d358d925acc5a31c700306f4b2fb460660ed0cb78cdfa03b494876d16dcc",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Tabela e exemplo Fisga legíveis, repertório com Talento Raiz acomodado."
+    },
+    {
+      "pagina": 8,
+      "png": "output/comparacao-nomes/depois/pagina-08.png",
+      "sha256_png": "ef13dfc10e6e033c5e18da886e165e8e009303e20ce9e1c195cfb05ff329a4d6",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Tabela e duas subseções acomodadas, remissão e Talento Leitura sem corte."
+    },
+    {
+      "pagina": 9,
+      "png": "output/comparacao-nomes/depois/pagina-09.png",
+      "sha256_png": "3e02922b9043178c57148732d86337b904d80ab47b880c332e3432ede24ce862",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Remissão distingue Criar uma invocação e Invocações em campo. Parágrafo com quebra normal, sem corte ou colisão."
+    },
+    {
+      "pagina": 10,
+      "png": "output/comparacao-nomes/depois/pagina-10.png",
+      "sha256_png": "5b5023f58e4b2191411a6b6bfc19c839866628912cb421a5c044c0bc63d0962d",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Fluxo de criação e desenvolvimento legíveis, sem overflow."
+    },
+    {
+      "pagina": 11,
+      "png": "output/comparacao-nomes/depois/pagina-11.png",
+      "sha256_png": "00558685ddeafea1418f4dff126b28fcd61cec578dc662b9ba47b86d4dce57f1",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Quatro sementes legíveis, título longo não colide com parágrafo."
+    },
+    {
+      "pagina": 13,
+      "png": "output/comparacao-nomes/depois/pagina-13.png",
+      "sha256_png": "ea7ca4aa4d859fabdea9491726a8612ec156b3c3ad7f314baa6783e9fb7c9360",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Tabela e exemplo Redoma acomodados, fecho Talento Raiz legível."
+    },
+    {
+      "pagina": 14,
+      "png": "output/comparacao-nomes/depois/pagina-14.png",
+      "sha256_png": "2e2b4808e174345bcbebfa709ca4b1a2c229622a8b556bb4e8013475115add46",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Remissão de Socorro em Dano e recuperação incorporada ao exemplo. Tabela e texto cabem, com margem livre antes do rodapé."
+    },
+    {
+      "pagina": 15,
+      "png": "output/comparacao-nomes/depois/pagina-15.png",
+      "sha256_png": "d3a471ef914daa7681a9add91fbd78f1ae49156d661fba024b0f52fa75b460ea",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Tabela, gatilho e repertório do exemplo Espinho acomodados."
+    },
+    {
+      "pagina": 16,
+      "png": "output/comparacao-nomes/depois/pagina-16.png",
+      "sha256_png": "2c28a3d6de3e27512e1b76594e2f8743c0deb7d471ecd2ff838c90bdad0dbe10",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Tabela de marcos e exemplo com Categoria de Efeito acomodados; texto não invade rodapé."
+    },
+    {
+      "pagina": 17,
+      "png": "output/comparacao-nomes/depois/pagina-17.png",
+      "sha256_png": "d9a8b8c8139165c1ff093f3c5af509a90e490e46ccef4cee7dea7cf70bb4f656",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Duas tabelas legíveis, cabeçalhos de Categoria de Efeito e CE ajustados às colunas."
+    },
+    {
+      "pagina": 20,
+      "png": "output/comparacao-nomes/depois/pagina-20.png",
+      "sha256_png": "9be6b7261c000ff21587d7dd1b5da731118926c4a6449318e80489130494261d",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Quatro Bênçãos com novos rótulos acomodadas; títulos unidos ao texto."
+    },
+    {
+      "pagina": 21,
+      "png": "output/comparacao-nomes/depois/pagina-21.png",
+      "sha256_png": "7d799f410079b22317dad02c03bc67c17504f9317d4ce787ba404a2cf34eb1f9",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Três Bênçãos e requisitos visíveis, sem corte ou colisão."
+    },
+    {
+      "pagina": 22,
+      "png": "output/comparacao-nomes/depois/pagina-22.png",
+      "sha256_png": "8c3fd77944ddd3d7d01b76bcd741d4556d865911f9497e9e7abccdc9e6cdbde8",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Quatro Bênçãos legíveis, rótulos Categoria de Efeito acomodados."
+    },
+    {
+      "pagina": 23,
+      "png": "output/comparacao-nomes/depois/pagina-23.png",
+      "sha256_png": "20742b1bc6cb6cadfdeac0d43285dde5eb2d423ba96b5edd8e64ab102d8641fa",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Limites e exemplo criativo cabem; nenhum corte observado."
+    }
+  ],
+  "pendentes": [],
+  "limites": [
+    "A revisão de texto/regra já foi realizada antes; esta inspeção trata o delta nominal e a diagramação.",
+    "Páginas idênticas por pixels permanecem cobertas pela inspeção anterior.",
+    "Não constitui impressão física nem leitura por pessoa externa."
+  ],
+  "amostra_superada": [
+    {
+      "pagina": 9,
+      "png": "output/comparacao-nomes/depois/pagina-09.png",
+      "sha256_png": "3d9fb86b34508d6af46f98d01dad6fdc66d34bfb73b428eff532aa6f743bea65",
+      "aberta_com_view_image": true,
+      "resultado": "sem defeito visual identificado no delta",
+      "observacoes": "Repertório, limites e remissão visíveis, sem quebra irregular."
+    }
+  ],
+  "sha256_pdf": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
+  "sha256_texto": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+  "comparacao_das_15_imagens_ja_abertas": "Todas continuam com os mesmos hashes PNG após a última exportação."
+}

@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "sha256_texto": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+  "auditoria": "auditoria-numerica.json",
+  "casos": "casos-executados.json",
+  "escopo": "Reexecução de contratos e modelos atuais, incluindo GUIA38. Não é playtest nem uma nova revisão independente integral."
+}

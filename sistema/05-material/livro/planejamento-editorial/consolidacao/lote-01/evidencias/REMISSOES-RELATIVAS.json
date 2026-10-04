@@ -1,0 +1,160 @@
+{
+  "sha256_pdf": "565e98135d44f9788cb6b4f65054916c094d1b6976ff5dbacd5f5f246ebc1c08",
+  "quantidade": 17,
+  "ocorrencias": [
+    {
+      "documento": "geral",
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "linha": 936,
+      "ancora": "procurar",
+      "titulo": "Vasculhar",
+      "trecho": "| Encontrar uma presença ou pista pelos sentidos comuns | Vasculhar, nesta página. |",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "origens",
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "linha": 25,
+      "ancora": "origem-escolhas",
+      "titulo": "Escolhas da Origem",
+      "trecho": "Toda Origem concede os benefícios desta página. Sua entrada apresenta as opções específicas e as mudanças na criação de capacidades.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "pericias",
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "linha": 106,
+      "ancora": "conhecimento",
+      "titulo": "Investigação e conhecimento",
+      "trecho": "As perícias desta página usam **Inteligência**. Elas permitem examinar indícios e recorrer ao que o personagem aprendeu. Uma resposta depende dos sinais acessíveis e do conhecimento disponível.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "pericias",
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "linha": 147,
+      "ancora": "ambiente",
+      "titulo": "Ambiente e saúde",
+      "trecho": "As perícias desta página usam **Inteligência**. Servem para compreender o ambiente, os seres vivos e os equipamentos encontrados durante uma missão.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "pericias",
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "linha": 184,
+      "ancora": "essencia",
+      "titulo": "Percepção e influência",
+      "trecho": "As perícias desta página usam **Essência**. Elas cobrem percepção, expressão e contato com outras pessoas. Interações sociais dependem do pedido, da abordagem e do que a outra pessoa está disposta a fazer.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "equip",
+      "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+      "linha": 399,
+      "ancora": "eqa-armas",
+      "titulo": "Armas",
+      "trecho": "Yumi reúne os arcos; Balestra reúne as bestas. Nas páginas seguintes, cada tabela informa a categoria e a lista de treino.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "fundamento",
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "linha": 232,
+      "ancora": "formas",
+      "titulo": "Formas de ataque",
+      "trecho": "A **Forma** define por onde o feitiço chega e quem pode atingir. Escolha uma por ficha. As medidas desta página valem nas Classes 1 a 5. A progressão está em [Alcance e área](#alcance).",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "catalogo",
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "linha": 229,
+      "ancora": "cat-auxiliares-apoio",
+      "titulo": "Proteção e apoio",
+      "trecho": "As peças desta página pertencem à Família Auxiliares. O prazo indicado usa o turno do alvo, salvo Ecoa, que usa o seu.",
+      "classificacao": "falha confirmada na Parte3"
+    },
+    {
+      "documento": "aptidoes",
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "linha": 362,
+      "ancora": "apt-simples",
+      "titulo": "Domínio Simples",
+      "trecho": "Se terminar pelo voto, por encerramento voluntário, falta de manutenção ou inconsciência enquanto segurava uma Expansão, quem perdeu essa proteção recebe um **Acerto adicional imediatamente**, além dos Acertos normais que ainda virão. O fim por esgotar a capacidade segue a regra própria da próxima página.",
+      "classificacao": "falha confirmada na Parte3"
+    },
+    {
+      "documento": "poderes",
+      "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
+      "linha": 37,
+      "ancora": "criardominio",
+      "titulo": "Criar um domínio",
+      "trecho": "O Acerto pode causar dano, transmitir uma informação definida ou estabelecer uma regra comum para o ambiente. Um Acerto de dano segue a quantidade da próxima página. Uma regra de ambiente precisa ser curta, verificável e aplicada igualmente a todos os sujeitos que ela descreve, **incluindo você**.",
+      "classificacao": "falha confirmada na Parte3"
+    },
+    {
+      "documento": "construcao",
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "linha": 310,
+      "ancora": "entidades-familias",
+      "titulo": "Famílias da entidade",
+      "trecho": "> Na Classe 3, uma Melhoria Média custa 3. Na Família Livre da entidade, custa **3 − 1 = 2**. Use a tabela desta página: o desconto de uma entidade não é arredondado como o desconto pessoal de Fundamento.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "construcao",
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "linha": 371,
+      "ancora": "entidades-formas",
+      "titulo": "Formas da entidade",
+      "trecho": "Escolha a Forma que entrega o efeito desejado. Esta tabela mantém os preços e as resoluções comuns. As medidas próprias das entidades estão na próxima página.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "construcao",
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "linha": 445,
+      "ancora": "entidades-efeitos-reduzidos",
+      "titulo": "Efeitos reduzidos",
+      "trecho": "Na básica de Classe 0, use Classe 0 quando a peça pedir esse valor. O mínimo de 1 desta página pertence às **especiais**.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "construcao",
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "linha": 526,
+      "ancora": "entidades-passivas",
+      "titulo": "Talentos da entidade",
+      "trecho": "**Essas escolhas não gastam espaços de especial e não têm o limite de cinco Talentos pagos do personagem.** A entidade pode ter oito no nível 30. Esse acesso é restrito às opções abaixo e na próxima página.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "construcao",
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "linha": 650,
+      "ancora": "entidade-vigia",
+      "titulo": "Vigia de papel",
+      "trecho": "A próxima página registra todas as habilidades desta ficha. A proposta de Registro de cena precisa ser aprovada com o mestre antes da sessão, como qualquer Talento Próprio.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "incursor",
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "linha": 85,
+      "ancora": "inc-respostas",
+      "titulo": "Respostas de Fluidez",
+      "trecho": "Os usos desta página estão disponíveis no **nível 2** e não custam PE.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    },
+    {
+      "documento": "incursor",
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "linha": 533,
+      "ancora": "inc-redirecionar",
+      "titulo": "Corpo em Harmonia",
+      "trecho": "Na falha, siga a resolução de Redirecionar a Força na página seguinte.",
+      "classificacao": "referência dependente de paginação; conferir no intervalo do revisor"
+    }
+  ],
+  "limite": "Não considerar toda ocorrência um erro: três falhas confirmadas visualmente; as demais são inventário para a revisão dos outros intervalos."
+}

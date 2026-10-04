@@ -1,0 +1,110 @@
+{
+  "ok": true,
+  "sha256_pdf": "a2eb580653d98322b6a19a3dd31afc86b7138b45d1171a2e5159aba1bed838f1",
+  "paginas": 17,
+  "comparacoes": [
+    {
+      "bloco": "Proteção",
+      "pagina_local": 1,
+      "pagina_caderno": 1,
+      "identica": true
+    },
+    {
+      "bloco": "Proteção",
+      "pagina_local": 2,
+      "pagina_caderno": 2,
+      "identica": true
+    },
+    {
+      "bloco": "Proteção",
+      "pagina_local": 3,
+      "pagina_caderno": 3,
+      "identica": true
+    },
+    {
+      "bloco": "Proteção",
+      "pagina_local": 4,
+      "pagina_caderno": 4,
+      "identica": true
+    },
+    {
+      "bloco": "Itens comuns",
+      "pagina_local": 1,
+      "pagina_caderno": 5,
+      "identica": true
+    },
+    {
+      "bloco": "Itens comuns",
+      "pagina_local": 2,
+      "pagina_caderno": 6,
+      "identica": true
+    },
+    {
+      "bloco": "Itens comuns",
+      "pagina_local": 3,
+      "pagina_caderno": 7,
+      "identica": true
+    },
+    {
+      "bloco": "Itens comuns",
+      "pagina_local": 4,
+      "pagina_caderno": 8,
+      "identica": true
+    },
+    {
+      "bloco": "Itens comuns",
+      "pagina_local": 5,
+      "pagina_caderno": 9,
+      "identica": true
+    },
+    {
+      "bloco": "Compras",
+      "pagina_local": 1,
+      "pagina_caderno": 10,
+      "identica": true
+    },
+    {
+      "bloco": "Compras",
+      "pagina_local": 2,
+      "pagina_caderno": 11,
+      "identica": true
+    },
+    {
+      "bloco": "Compras",
+      "pagina_local": 3,
+      "pagina_caderno": 12,
+      "identica": true
+    },
+    {
+      "bloco": "Compras",
+      "pagina_local": 4,
+      "pagina_caderno": 13,
+      "identica": true
+    },
+    {
+      "bloco": "Movimento e carga",
+      "pagina_local": 1,
+      "pagina_caderno": 14,
+      "identica": true
+    },
+    {
+      "bloco": "Movimento e carga",
+      "pagina_local": 2,
+      "pagina_caderno": 15,
+      "identica": true
+    },
+    {
+      "bloco": "Movimento e carga",
+      "pagina_local": 3,
+      "pagina_caderno": 16,
+      "identica": true
+    },
+    {
+      "bloco": "Movimento e carga",
+      "pagina_local": 4,
+      "pagina_caderno": 17,
+      "identica": true
+    }
+  ],
+  "revisor": "autor; não independente"
+}

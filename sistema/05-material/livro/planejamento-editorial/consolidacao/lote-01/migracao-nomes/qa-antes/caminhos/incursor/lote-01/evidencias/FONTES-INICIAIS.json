@@ -1,0 +1,26 @@
+[
+  {
+    "arquivo": "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+    "sha256": "3f4b555cec99f2ae94e1d9e79f818368b3b67a6148ac32c412f6780aed0b5a65"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+    "sha256": "948dc94babd1d17022e5a3b5b817e160d2cf1e92c61d37d02462f412ff4e1e44"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/manual/50-equipamento.md",
+    "sha256": "5224d4e5a06ac1b4ce623370d16aa2853dc0984648855ec5694c13cbd6ba8991"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r3/sincronizacoes/INCURSOR-COMPLETO.md",
+    "sha256": "f99aa89ec9c38a3e6a4b0da8c64fa3f18f6d72fd87f1e9a485d620166c94b5f3"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+    "sha256": "2b2a7a7379cf81a78bc53ccad0f9f415f4c4c5e393895395c787ed318847d3a4"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-04-r4/ARMAS.md",
+    "sha256": "ef4cfe39859124fac44744b59d7b4a91bd1effdd54f24ebc8e0d4fb511daaf49"
+  }
+]

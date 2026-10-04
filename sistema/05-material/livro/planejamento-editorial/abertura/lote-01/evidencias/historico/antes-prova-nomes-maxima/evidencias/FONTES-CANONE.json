@@ -1,0 +1,47 @@
+{
+  "data": "2026-10-03",
+  "status": "leitura dirigida, não obra integral",
+  "fontes": [
+    {
+      "fonte": "Shueisha,volume1,capítulo1",
+      "url": "https://shonenjumpplus.com/volume/4856001361007377299/trial",
+      "leitura": "páginas27,43,46,48,50,51: emoções negativas, visão excepcional, risco físico, jujutsu contra maldições",
+      "limite": "Imagens legíveis leitura-vol1-*.png inspecionadas. Não entram no livro. Não inferir radar ou valores mecânicos."
+    },
+    {
+      "fonte": "Apresentação oficial ShonenJump",
+      "url": "https://www.shonenjump.com/j/rensai/jujutsu/",
+      "leitura": "linhas22–27:emoções negativas",
+      "limite": "Paráfrase curta."
+    },
+    {
+      "fonte": "Perfis oficiaisKyoto",
+      "url": "https://jujutsukaisen.jp/character/category2.php",
+      "leitura": "109–123,138–145,173–180,194–210:escola,famílias,professores",
+      "limite": "Sem transplantar conjuntura ou spoilers."
+    },
+    {
+      "fonte": "Perfis oficiaisTóquio",
+      "url": "https://jujutsukaisen.jp/character/index.php",
+      "leitura": "216–224,251–271:escola,Megumi/Panda",
+      "limite": "Sem generalizar capacidades excepcionais."
+    },
+    {
+      "fonte": "Perfis oficiaisfeiticeiros",
+      "url": "https://jujutsukaisen.jp/character/category3.php",
+      "leitura": "79–109,124–140:profissionais,MeiMei,clã",
+      "limite": "Sem salários ou política obrigatória."
+    },
+    {
+      "fonte": "Perfis oficiaismaldições",
+      "url": "https://jujutsukaisen.jp/character/category4.php",
+      "leitura": "181–206:Mahito,Jogo,Hanami falam eplanejam",
+      "limite": "Não afirma que todas falam ou que suas intenções sejam conhecidas."
+    }
+  ],
+  "separacao": [
+    "Guilda,níveis,PE,Classes,Origens são regras doProjetoM.",
+    "Resgate e estação são propostas autorais.",
+    "Percepção mecânica fica em seu capítulo."
+  ]
+}

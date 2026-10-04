@@ -1,0 +1,118 @@
+[
+  {
+    "unidade": "regras-gerais/lote-final",
+    "sha256_texto": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
+    "sha256_pdf": "04ba3959d13aa4b6f032a172ee5200d9c94f28748d127c2f9c3b16a9d75cea81",
+    "paginas": 40,
+    "paginas_alteradas_abertas": [
+      11,
+      14,
+      16,
+      19,
+      34
+    ],
+    "conferencia_ok": true,
+    "checks": 314,
+    "manifesto_sha256": "6d81d1b7a28799bd449747eccc8165288e35977d1926f036193ee27ccfb73188"
+  },
+  {
+    "unidade": "equipamento/lote-final",
+    "sha256_texto": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+    "sha256_pdf": "62143fe6e30b67d42e37242de11c8badcbdc64e3b51d33d6f2cbe74bf7e7d646",
+    "paginas": 39,
+    "paginas_alteradas_abertas": [
+      1,
+      4,
+      9,
+      13,
+      21,
+      26
+    ],
+    "conferencia_ok": true,
+    "checks": 309,
+    "manifesto_sha256": "ee31aa32b7bb84a78bdf3eefe5091a4f48d804ba51febc228bbea0efaf2065f0"
+  },
+  {
+    "unidade": "poderes-avancados/lote-01",
+    "sha256_texto": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+    "sha256_pdf": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
+    "paginas": 15,
+    "paginas_alteradas_abertas": [],
+    "conferencia_ok": true,
+    "checks": 124,
+    "manifesto_sha256": "aec589ad5e9ec00812c2dc5bc475f5c112061e33d1b716489825cd193c9f6bc7"
+  },
+  {
+    "unidade": "aptidoes/lote-01",
+    "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+    "sha256_pdf": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
+    "paginas": 20,
+    "paginas_alteradas_abertas": [
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      16,
+      17,
+      20
+    ],
+    "conferencia_ok": true,
+    "checks": 159,
+    "manifesto_sha256": "f9f529b8a4dcb58d9bc9682d45ab38e93f88c561463c1dbf5c831acaa667b2ed"
+  },
+  {
+    "unidade": "caminhos/bastiao/lote-01",
+    "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+    "sha256_pdf": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+    "paginas": 11,
+    "paginas_alteradas_abertas": [
+      3,
+      4,
+      10
+    ],
+    "conferencia_ok": true,
+    "checks": 96,
+    "manifesto_sha256": "8dc3c981b617da99d26323d216d0ba0bbfb3e27972068af19f1d3f04202d6754"
+  },
+  {
+    "unidade": "caminhos/vanguarda/lote-01",
+    "sha256_texto": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+    "sha256_pdf": "8833082ea50f001bdbd154d08388b44d136ebceabdbae1957173f3acaa97da31",
+    "paginas": 20,
+    "paginas_alteradas_abertas": [],
+    "conferencia_ok": true,
+    "checks": 159,
+    "manifesto_sha256": "5bb1e7bd09a74bd072692eb1bd9a2f28b112635a5ac4161e111e6f08b2888ed8"
+  },
+  {
+    "unidade": "caminhos/incursor/lote-01",
+    "sha256_texto": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+    "sha256_pdf": "cd47ec69eb86f24df55f4ad545320d02a992869412687b87282f184669b58b5a",
+    "paginas": 26,
+    "paginas_alteradas_abertas": [
+      3,
+      16
+    ],
+    "conferencia_ok": true,
+    "checks": 201,
+    "manifesto_sha256": "f210de9d6ff6e59d518d0838a3ce4c8edd05e7ccf239d17c7882b3fa0ff31ec2"
+  },
+  {
+    "unidade": "origens/lote-01",
+    "sha256_texto": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+    "sha256_pdf": "9794238a24a5ca41232384b15bd50fca03b698223481864339cfd7440f102e09",
+    "paginas": 26,
+    "paginas_alteradas_abertas": [
+      8,
+      12,
+      17
+    ],
+    "conferencia_ok": true,
+    "checks": 204,
+    "manifesto_sha256": "c9f0e88146d5dc8a1093e1f6f546a5abe6e7364cf2ea0f506f69de31c37a08ad"
+  }
+]

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/invocacoes/fabricacao/lote-01/auditar.py", line 133, in <module>
+    check('Fontes preservadas ou alteração concorrente cotejada',all(x['preservada'] or accepted.get(x['path'],{}).get('sha256_final')==x['sha256_final'] for x in preserve))
+  File "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/invocacoes/fabricacao/lote-01/auditar.py", line 18, in check
+    if not ok: raise AssertionError(f'{name}: {actual!r} != {expected!r}')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Fontes preservadas ou alteração concorrente cotejada: False != True

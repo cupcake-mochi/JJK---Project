@@ -1,3 +1,9 @@
+# INVOCACOES — DONO ATUAL E REGISTRO HISTÓRICO
+
+**v0.331:** as regras jogáveis atuais estão em `invocacoes/05-Edicao-Integrada/60-invocacoes.md`, copiadas no capítulo 17 do livro. O texto abaixo é o desenho histórico anterior à integração; os números de preço e os testes históricos não são uma certificação do capítulo novo. O validador desta peça também confere separadamente a cópia atual e seus contratos.
+
+---
+
 # 15 — Invocações
 
 **Fase 4, décima quinta peça.** O sistema de criação de invocação: iniciativa, o modelo da Matilha, a ficha, o custo, a morte, o retorno e o catálogo. O validador dono é o `conferir-invocacoes.py`, com as **trinta e quatro** checagens do §5.

@@ -1,0 +1,146 @@
+{
+  "sha256_texto": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+  "protocolo": "../../validacao-editorial/PROTOCOLO-COMPLETO.md",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "INVENTARIO.json",
+        "evidencias/COBERTURA-CATALOGO.json"
+      ],
+      "observacao": "Todas as seções da fonte têm dono, R11 ou R12. Catálogo comum preservado por remissão e exceções locais."
+    },
+    {
+      "id": "V02",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "ALTERACOES.json",
+        "evidencias/fontes-preservadas.json"
+      ],
+      "observacao": "Fonte integrada lida inteira. Histórico marcado como histórico; decisões relevantes consultadas com âncoras."
+    },
+    {
+      "id": "V03",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/regras-verificadas.json"
+      ],
+      "observacao": "Casos positivos e negativos raciocinados por seção, não executados com jogadores."
+    },
+    {
+      "id": "V04",
+      "estado": "executado",
+      "evidencias": [
+        "auditar.py",
+        "AUDITORIA.json",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Executa exemplos, curvas, fronteiras, enumeração de restituição e consistência de tabelas."
+    },
+    {
+      "id": "V05",
+      "estado": "revisado_com_limites",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Compara a saída original, pessoal e da candidata. Não modela todos os encontros, trajes, Caminhos ou composições."
+    },
+    {
+      "id": "V06",
+      "estado": "dependencia_de_integracao",
+      "evidencias": [
+        "INTERFACES.md"
+      ],
+      "observacao": "Interfaces R11 de recursos, condições, Atrasar e Carregar fechadas e remetidas a títulos existentes. Fabricação completa permanece dependência de etapa própria."
+    },
+    {
+      "id": "V07",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json",
+        "evidencias/CONFERENCIA-EDITORIAL.json"
+      ],
+      "observacao": "Títulos simples, sem artigo inicial ou Como ler. Exceções restritas a requisitos/remissões."
+    },
+    {
+      "id": "V08",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Atores, custos, alvos, resultados e saídas conferidos em habilidades e procedimentos. Tabelas de progressão têm campos não aplicáveis."
+    },
+    {
+      "id": "V09",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json",
+        "REVISAO-E-FONTES.md"
+      ],
+      "observacao": "Leitura dirigida de PHB2024 e DMG2024 locais. Exemplos completos e função de cada seção examinados."
+    },
+    {
+      "id": "V10",
+      "estado": "dependencia_de_integracao",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json",
+        "INTERFACES.md"
+      ],
+      "observacao": "Uma fonte para cada regra comum. Fabricação de entidades aguarda título/procedimento do dono da etapa; demais remissões têm destino identificado."
+    },
+    {
+      "id": "V11",
+      "estado": "sem_nova_alegacao_canonica",
+      "evidencias": [
+        "REVISAO-E-FONTES.md"
+      ],
+      "observacao": "Não apresenta regra do sistema ou exemplo original como fato universal do mangá. Cânone específico de tipos tem dono R11."
+    },
+    {
+      "id": "V12",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-INDEPENDENTE-RAIZ.md"
+      ],
+      "observacao": "Revisor diferente do autor, correções verificadas. R11 inclui revisão independente complementar da reserva total. Não equivale a playtest."
+    },
+    {
+      "id": "V13",
+      "estado": "concluido",
+      "evidencias": [
+        "CONFERENCIA.json"
+      ],
+      "observacao": "PDF de 27 páginas gerado; conferência de integridade, texto e navegação registrada separadamente.",
+      "evidencia": "CONFERENCIA.json"
+    },
+    {
+      "id": "V14",
+      "estado": "concluido",
+      "evidencias": [
+        "evidencias/inspecao-visual.json"
+      ],
+      "observacao": "Todas as 27 páginas inspecionadas; versões finais vinculadas por hash. Sem imagem de IA.",
+      "evidencia": "evidencias/inspecao-visual.json e COMPARACAO-PIXELS-FINAL.json"
+    },
+    {
+      "id": "V15",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "ALTERACOES.json",
+        "evidencias/fontes-preservadas.json",
+        "AUDITORIA.json"
+      ],
+      "observacao": "31 decisões registradas; hashes de texto, fontes e prova preservados."
+    }
+  ],
+  "teste_humano": false,
+  "playtest": false,
+  "integrado": false,
+  "fechamento_nominal": {
+    "sha256_texto": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+    "evidencia": "evidencias/FECHAMENTO-NOMES-E-REMISSOES.md",
+    "visual": "concluido"
+  }
+}

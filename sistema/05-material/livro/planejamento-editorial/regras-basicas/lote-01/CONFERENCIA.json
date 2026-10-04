@@ -1,0 +1,678 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "sha256_texto": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35",
+  "sha256_pdf": "f8b3653d45a218f761375c6e38d5c76f95e1b641618b46b92c96d999f704bd72",
+  "verificacoes": 79,
+  "checks": [
+    {
+      "verificacao": "Sete páginas e seções",
+      "obtido": [
+        7,
+        7
+      ],
+      "esperado": [
+        7,
+        7
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Ordem de leitura",
+      "obtido": [
+        "atributos",
+        "testes",
+        "pericias",
+        "resistencia",
+        "turnos",
+        "acoes",
+        "reacoes"
+      ],
+      "esperado": [
+        "atributos",
+        "testes",
+        "pericias",
+        "resistencia",
+        "turnos",
+        "acoes",
+        "reacoes"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Subtítulos não repetem título da seção",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Todos os títulos coincidem com o mapa",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Duas entradas principais",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Grupos iniciam recolhidos",
+      "obtido": [
+        -4,
+        -3
+      ],
+      "esperado": [
+        -4,
+        -3
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Marcadores com destinos válidos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p1: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p1: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p1: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p2: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p2: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p2: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p3: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p3: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p3: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p4: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p4: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p4: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p5: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p5: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p5: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p6: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p6: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p6: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p7: sem palavras perdidas",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "p7: limites físicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: rodapé separado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: fontes incorporadas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p7: sem imagens raster",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "p7: referências existentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "p7: links PDF para destinos esperados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Atributo é modificador direto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Níveis e maestria",
+      "obtido": [
+        [
+          2,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          25,
+          3
+        ],
+        [
+          26,
+          4
+        ],
+        [
+          30,
+          4
+        ]
+      ],
+      "esperado": [
+        [
+          2,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          25,
+          3
+        ],
+        [
+          26,
+          4
+        ],
+        [
+          30,
+          4
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Especialização",
+      "obtido": [
+        1,
+        1,
+        2
+      ],
+      "esperado": [
+        1,
+        1,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Exemplo de perícia",
+      "obtido": [
+        4,
+        3,
+        5
+      ],
+      "esperado": [
+        4,
+        3,
+        5
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Dificuldade do criador",
+      "obtido": [
+        14,
+        16
+      ],
+      "esperado": [
+        14,
+        16
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Vantagem e bônus",
+      "obtido": 21,
+      "esperado": 21,
+      "ok": true
+    },
+    {
+      "verificacao": "TR de Kaito",
+      "obtido": 15,
+      "esperado": 15,
+      "ok": true
+    },
+    {
+      "verificacao": "Grupo ímpar: mínimo de sucessos",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "verificacao": "Sem sucesso automático de20 em perícia",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Seis CDs fixas",
+      "obtido": [
+        "6",
+        "10",
+        "14",
+        "18",
+        "22",
+        "26"
+      ],
+      "esperado": [
+        "6",
+        "10",
+        "14",
+        "18",
+        "22",
+        "26"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Cinco ajustes, sem Extremo inventado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Reação não renova pela rodada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Conversão não remove limite",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "TR Físico fixo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte de vantagem cancela desvantagem",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Concentração Vigor, Carregar Espírito",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fonte com dano zerado não aciona gatilho",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Sete seções avaliadas editorialmente",
+      "obtido": [
+        "acoes",
+        "atributos",
+        "pericias",
+        "reacoes",
+        "resistencia",
+        "testes",
+        "turnos"
+      ],
+      "esperado": [
+        "acoes",
+        "atributos",
+        "pericias",
+        "reacoes",
+        "resistencia",
+        "testes",
+        "turnos"
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Revisão ligada ao texto",
+      "obtido": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35",
+      "esperado": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35",
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes e consolidado anterior preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Livro e exportações preservados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "137 arquivos protegidos",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Links do dossiê",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    }
+  ],
+  "geometria": [
+    {
+      "pagina": 1,
+      "secao": "atributos",
+      "final_corpo": 753.92,
+      "links": []
+    },
+    {
+      "pagina": 2,
+      "secao": "testes",
+      "final_corpo": 724.52,
+      "links": []
+    },
+    {
+      "pagina": 3,
+      "secao": "pericias",
+      "final_corpo": 722.12,
+      "links": []
+    },
+    {
+      "pagina": 4,
+      "secao": "resistencia",
+      "final_corpo": 767.62,
+      "links": []
+    },
+    {
+      "pagina": 5,
+      "secao": "turnos",
+      "final_corpo": 695.72,
+      "links": []
+    },
+    {
+      "pagina": 6,
+      "secao": "acoes",
+      "final_corpo": 751.22,
+      "links": []
+    },
+    {
+      "pagina": 7,
+      "secao": "reacoes",
+      "final_corpo": 745.22,
+      "links": []
+    }
+  ],
+  "limites": [
+    "Não é teste humano ou prova de equilíbrio.",
+    "Revisão pelo autor, sem nova revisão independente.",
+    "Decisões candidatas e pendências identificadas em DECISOES.md."
+  ]
+}

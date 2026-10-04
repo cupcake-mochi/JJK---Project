@@ -1,0 +1,87 @@
+{
+  "paginas": {
+    "ab-apresentacao": 1,
+    "ab-primeira-sessao": 2,
+    "ab-mundo": 3,
+    "ab-sociedade": 4,
+    "ab-criacao": 5,
+    "ab-origem": 6,
+    "ab-caminho": 7,
+    "ab-capacidades": 8,
+    "ab-equipamento": 9,
+    "ab-kaori": 10,
+    "ab-resgate": 11,
+    "ab-combate": 12,
+    "ab-conferencia": 13
+  },
+  "grupos": [
+    [
+      "Apresentação",
+      [
+        "ab-apresentacao",
+        "ab-primeira-sessao"
+      ]
+    ],
+    [
+      "Mundo jujutsu",
+      [
+        "ab-mundo",
+        "ab-sociedade"
+      ]
+    ],
+    [
+      "Criar um personagem",
+      [
+        "ab-criacao",
+        "ab-origem",
+        "ab-caminho",
+        "ab-capacidades",
+        "ab-equipamento"
+      ]
+    ],
+    [
+      "Exemplo de jogo",
+      [
+        "ab-kaori",
+        "ab-resgate",
+        "ab-combate"
+      ]
+    ],
+    [
+      "Conferência",
+      [
+        "ab-conferencia"
+      ]
+    ]
+  ],
+  "ordem": [
+    "ab-apresentacao",
+    "ab-primeira-sessao",
+    "ab-mundo",
+    "ab-sociedade",
+    "ab-criacao",
+    "ab-origem",
+    "ab-caminho",
+    "ab-capacidades",
+    "ab-equipamento",
+    "ab-kaori",
+    "ab-resgate",
+    "ab-combate",
+    "ab-conferencia"
+  ],
+  "titulos": {
+    "ab-apresentacao": "Projeto - M",
+    "ab-primeira-sessao": "Primeira sessão",
+    "ab-mundo": "Mundo jujutsu",
+    "ab-sociedade": "Sociedade jujutsu",
+    "ab-criacao": "Criar um personagem",
+    "ab-origem": "Origem e treinos",
+    "ab-caminho": "Caminho e Trilha",
+    "ab-capacidades": "Capacidades iniciais",
+    "ab-equipamento": "Equipamento e valores",
+    "ab-kaori": "Kaori",
+    "ab-resgate": "Resgate na ala oeste",
+    "ab-combate": "Combate de exemplo",
+    "ab-conferencia": "Ficha pronta"
+  }
+}

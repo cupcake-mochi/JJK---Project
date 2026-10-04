@@ -1,0 +1,393 @@
+{
+  "unidade": "R13 — Bastião e Trilhas",
+  "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+  "estado": "Candidata revisada com prova; sincronizações no livro único ainda pendentes.",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "concluido",
+      "evidencia": "COBERTURA.json:19habilidades,características,progressões e exemplos da fonte.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V02",
+      "estado": "concluido",
+      "evidencia": "FONTES.json,ALTERACOES.json; decisões humanas preservadas. Legado confere somente publicação.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V03",
+      "estado": "concluido",
+      "evidencia": "evidencias/AUDITORIA.json: 52 casos e 113 verificações, incluindo oito casos BAS26, negativos e seis mutações.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V04",
+      "estado": "concluido",
+      "evidencia": "216perfisdefensivos,12TR,27Provocar,10.200transferências; script reproduzível.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V05",
+      "estado": "concluido_com_limites",
+      "evidencia": "REVISAO-E-FONTES.md: alternativas defensivas e recursos. Comparação global entre Caminhos e playtest não executados.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V06",
+      "estado": "concluido_com_sincronizacoes",
+      "evidencia": "INTERFACES.json:Provocar/dano misto/duplicatasR03 remetidos ao root, demais compatíveis.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V07",
+      "estado": "concluido",
+      "evidencia": "Leitura de títulos e vocabulário; checker de exportação com uma incompatibilidade nominal justificada.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V08",
+      "estado": "concluido",
+      "evidencia": "evidencias/REVISAO-POR-SECAO.json:gatilho/custo/alvo/efeito/duração/saída.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V09",
+      "estado": "concluido",
+      "evidencia": "Revisão contextual e comparação primária D&D Beyond; sem copiar regras ou voz; sem alegar teste de leitor.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V10",
+      "estado": "concluido_com_sincronizacoes",
+      "evidencia": "LOCALIZACAO-EDITORIAL.json eINTERFACES:capítulo é dono das19habilidades;exclusãoCanalizarénecessária.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V11",
+      "estado": "nao_aplicavel_ao_canone",
+      "evidencia": "Nenhuma afirmação factual sobre JJK. Mecânicas são ProjetoM. Referência primária deRPG consultada para organização.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V12",
+      "estado": "concluido_com_sincronizacoes",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE.md; BAS26 corrigido. Ordenação do dano misto depende sincronização no R03 antes de publicar.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V13",
+      "estado": "concluido",
+      "evidencia": "CONFERENCIA.json: 96 verificações do PDF aprovadas.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V14",
+      "estado": "concluido",
+      "evidencia": "evidencias/inspecao-visual.json: 11 páginas inspecionadas pelo agente principal.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "limite_delta": "0 páginas abertas; 11 preservadas por identidade da prova.",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    },
+    {
+      "id": "V15",
+      "estado": "concluido",
+      "evidencia": "26 decisões, fontes com SHA, inventário de destinos, auditor reproduzível, revisão independente e snapshot anterior à BAS26.",
+      "delta_nomes": "evidencias/REVISAO-NOMES.json",
+      "delta_remissoes": "evidencias/REVISAO-REMISSOES.json"
+    }
+  ],
+  "por_pagina": [
+    {
+      "pagina": "bas-bastiao",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido_com_sincronizacoes",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-olhos",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido_com_sincronizacoes",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-defesa",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido_com_sincronizacoes",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-aliados",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido_com_sincronizacoes",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-muro",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido_com_sincronizacoes",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-casca",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido_com_sincronizacoes",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-punho",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido_com_sincronizacoes",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-mao",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido_com_sincronizacoes",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-arrastao",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido_com_sincronizacoes",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-combatente",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido_com_sincronizacoes",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    },
+    {
+      "pagina": "bas-oportunista",
+      "validadores": {
+        "V01": "concluido",
+        "V02": "concluido",
+        "V03": "concluido",
+        "V04": "concluido",
+        "V05": "concluido_com_limites",
+        "V06": "concluido_com_sincronizacoes",
+        "V07": "concluido",
+        "V08": "concluido",
+        "V09": "concluido",
+        "V10": "concluido_com_sincronizacoes",
+        "V11": "nao_aplicavel_ao_canone",
+        "V12": "concluido_com_sincronizacoes",
+        "V13": "concluido",
+        "V14": "concluido",
+        "V15": "concluido"
+      },
+      "parecer": "evidencias/REVISAO-POR-SECAO.json"
+    }
+  ],
+  "sem_playtest": true,
+  "sha256_pdf": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+  "revalidacao_nomes": {
+    "unidade": "caminhos/bastiao/lote-01",
+    "sha256_texto": "3334f5e2ff950bc79bbad12ae3f4c2b902e8fbf1539a22e64af7e8826cd14e9d",
+    "sha256_pdf": "05471747af60a9761bb5403db0b060bb555b100c518d081b85cdb8def74ef81a",
+    "escopo": "Releitura contextual das linhas alteradas; a revisão integral anterior permanece em seus relatórios históricos.",
+    "invariantes": "IDs, numerais, alcance, custos, procedimentos e tabelas conservados. Nomes aprovados e concordância uniformizados.",
+    "historico": "consolidacao/lote-01/migracao-nomes/qa-antes/caminhos/bastiao/lote-01",
+    "auditoria_numerica": "Execuções novamente concluídas após os nomes; outputs locais vinculados à versão atual.",
+    "paginas_reabertas": [],
+    "paginas_preservadas": 11,
+    "equivalencia_visual": "PDF bitwise idêntico",
+    "revisao_independente_delta": {
+      "revisor": "/root",
+      "resultado": "Sem bloqueador nos diffs nominais completos de Regras gerais, Equipamento, Aptidões, Incursor e Origens, conforme confirmação direta do revisor; unidades de texto idêntico preservam o parecer anterior.",
+      "complemento": "não aplicável"
+    },
+    "limites": [
+      "Sem novo cânone, redesign ou afirmação de equilíbrio final.",
+      "Leitura por modelo não equivale a teste com pessoas.",
+      "Adjetivos passivo/passiva comuns mantidos."
+    ]
+  },
+  "revalidacao_remissoes": {
+    "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+    "sha256_pdf": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+    "alteracoes": "consolidacao/lote-01/migracao-nomes/remissoes/ALTERACOES.json",
+    "revisao_independente": "/root aprovou as remissões propostas e seus antes/depois em REMISSOES-TEXTUAIS.md; leitura contextual e execução por /root/compatibilidade.",
+    "regra": "Nenhum dado, custo, ação, gatilho ou requisito alterado. Uniforme refere a proteção disponível na ficha sem presumir energia.",
+    "visual_paginas_abertas": [
+      3,
+      4,
+      10
+    ],
+    "visual_identicas": 8
+  },
+  "fechamento_migracao": {
+    "estado": "concluído no escopo nominal e remissões",
+    "conferencia": "CONFERENCIA.json",
+    "limites": "Evidências mecânicas anteriores preservadas e execuções repetidas nos textos atuais. Revisão de nomes/remissões não é novo playtest.",
+    "paginas_abertas": [
+      3,
+      4,
+      10
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "0d717454231dc4efc01285061ff1e075d02182f2bd1f5bc52bd82cf5fef0ac4d",
+  "metodo": "Inspeção visual individual dos seis PNGs finais, dimensão máxima1300px.",
+  "revisor": "autor",
+  "paginas": [
+    {
+      "pagina": 1,
+      "sha256_png": "3401e5c50f0a9b722f4eeeb065c861e0952240b9913f3839e3d2bfe0776aa541",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Passos e tabela completos; exemplo e parágrafo final separados do rodapé."
+    },
+    {
+      "pagina": 2,
+      "sha256_png": "588713758a7eb8ea69beecaef9ffa598c9008d2afd5794a2482b9ebf449d0aad",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Tabela de faixas e exemplo legíveis; sem cortes."
+    },
+    {
+      "pagina": 3,
+      "sha256_png": "4bdb96b0754df3248127d590f653c592339db62f475f49ab4daef09520d53966",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Duas tabelas e exemplos legíveis; parágrafo final cabe antes do rodapé."
+    },
+    {
+      "pagina": 4,
+      "sha256_png": "1a584f3384b44a11c774c4b34306187789024d6234eb11eaa0c9c1e12270968c",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Cobertura e redução completas; remissão e exemplos legíveis."
+    },
+    {
+      "pagina": 5,
+      "sha256_png": "1ce4dac0e4d0383532feb969eafaefe3a96f6aa3f5fedee657af5b7ce1ca558a",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Fórmula, passos e limites sem transbordamento."
+    },
+    {
+      "pagina": 6,
+      "sha256_png": "4167c6452494bca67454c8b7da3231a7d2cfc7a4008e988df59c72f929337f1a",
+      "resultado": "sem defeito visual observado",
+      "observacao": "Dois extremos, exemplos e respostas completos; espaço suficiente no rodapé."
+    }
+  ],
+  "limites": [
+    "Não é teste com leitores."
+  ]
+}

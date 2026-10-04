@@ -1,0 +1,113 @@
+{
+  "unidade": "R21",
+  "sha256_pdf": "e895505a4f862aabc64324131b367d3c8151d2f002414cb9d92326f37131b4a8",
+  "baseline_pdf": "406c88d5c3bc5d7173db0b8ea5a88a4fa51d483ca34a75914763302da1fab06d",
+  "paginas": [
+    {
+      "pagina": 1,
+      "igual": true,
+      "antes": "1e342db6f9d2970667d9b90ee458f9c71582149ec2bcbf17bc0454e6bd2a46f4",
+      "depois": "1e342db6f9d2970667d9b90ee458f9c71582149ec2bcbf17bc0454e6bd2a46f4",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-01.png"
+    },
+    {
+      "pagina": 2,
+      "igual": true,
+      "antes": "66817316c52555cdcb49cc93cbed64225db71da1d6cfb618f934dbd912b28fe6",
+      "depois": "66817316c52555cdcb49cc93cbed64225db71da1d6cfb618f934dbd912b28fe6",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-02.png"
+    },
+    {
+      "pagina": 3,
+      "igual": true,
+      "antes": "147e8c4281e8856edea496f12c4c60a86971eb816531b099b9953199c1d2d336",
+      "depois": "147e8c4281e8856edea496f12c4c60a86971eb816531b099b9953199c1d2d336",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-03.png"
+    },
+    {
+      "pagina": 4,
+      "igual": false,
+      "antes": "b8267f3b893e6dc21a38c954e94b441fa81d1cb9abe2283c1135f55c6b0f1b1d",
+      "depois": "d87614ac3c7aff9cd887b166418b84640679aa1fa29e4aa82d80098dda34f566",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-04.png"
+    },
+    {
+      "pagina": 5,
+      "igual": false,
+      "antes": "bbd4d88511bd5b8d1c008a4c357529e76439564f8bb421af05c640ee04bf387a",
+      "depois": "0dfb2cd5ecb679d8218129cd2c6bfe2a898b4e1623cd8b92dec96219d9c2ff42",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-05.png"
+    },
+    {
+      "pagina": 6,
+      "igual": false,
+      "antes": "856e18a75aa1e49ddc9676c365c8abddc98af56e263afae666739ddc97fe8707",
+      "depois": "a7df0eda0cdf68f47351b8a1eb4c4c615463170f5852bc9d331a8fa10ec24fa9",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-06.png"
+    },
+    {
+      "pagina": 7,
+      "igual": false,
+      "antes": "4292e3e2dbe7bf4bf5db6da92c46e702e8a26590f92c50bbc22c3a6565065686",
+      "depois": "3441e2087010e04f3268bc6794a42f579ecc412d04d6c5e0cc3917ef2aaff452",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-07.png"
+    },
+    {
+      "pagina": 8,
+      "igual": false,
+      "antes": "ea5e83232859f8c71e2168ba193f10c1ab8f9984b10ae1b0ff1fdf9684ef39be",
+      "depois": "af47c8cc6485fde729573a162dd675bc0ca727423f826155a2694058893c5707",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-08.png"
+    },
+    {
+      "pagina": 9,
+      "igual": true,
+      "antes": "45a646ab09152a8eaa2b3eddbc8a299d81cc79cd33359d75a5a1975a8fec0a9d",
+      "depois": "45a646ab09152a8eaa2b3eddbc8a299d81cc79cd33359d75a5a1975a8fec0a9d",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-09.png"
+    },
+    {
+      "pagina": 10,
+      "igual": true,
+      "antes": "8381bbff05d9b4b5ab56670704264471bc3c41af898cc36abfb5f133dc2b3395",
+      "depois": "8381bbff05d9b4b5ab56670704264471bc3c41af898cc36abfb5f133dc2b3395",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-10.png"
+    },
+    {
+      "pagina": 11,
+      "igual": false,
+      "antes": "467866be0843d51b1796cc797b0378085c28d0682928995b959b03f243242cb7",
+      "depois": "5341e0695400207d7d61279e9ae4313d8fce68e4ffc13c8b21d69ff013acd7ca",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-11.png"
+    },
+    {
+      "pagina": 12,
+      "igual": true,
+      "antes": "4e8bc1ab3c3a1f0e0f83275f5441669b33c16db7729168234ad7ecd8c2156d9a",
+      "depois": "4e8bc1ab3c3a1f0e0f83275f5441669b33c16db7729168234ad7ecd8c2156d9a",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-12.png"
+    },
+    {
+      "pagina": 13,
+      "igual": true,
+      "antes": "26b16d573fe3b56e488ee414973e640975e16d38970bdcce6a439af61bc7c3af",
+      "depois": "26b16d573fe3b56e488ee414973e640975e16d38970bdcce6a439af61bc7c3af",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-13.png"
+    },
+    {
+      "pagina": 14,
+      "igual": true,
+      "antes": "e2f0f6d51d2f07dc9fa5f0fbbf3d9e88ea483eae6f9dde09fbda577239b15ffb",
+      "depois": "e2f0f6d51d2f07dc9fa5f0fbbf3d9e88ea483eae6f9dde09fbda577239b15ffb",
+      "png_final": "/tmp/maxima-qa-final/R21/depois-14.png"
+    }
+  ],
+  "diferentes": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    11
+  ]
+}

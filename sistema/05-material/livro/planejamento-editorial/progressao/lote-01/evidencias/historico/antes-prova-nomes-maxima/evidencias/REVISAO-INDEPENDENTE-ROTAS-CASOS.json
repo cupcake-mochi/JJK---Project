@@ -1,0 +1,1025 @@
+{
+  "sha256_texto": "477534ccb33b6174bf94f8182db6b33fd9f766b308c73c54dd4d5d0e8aa8be35",
+  "revisor": "/root/rotas_didatica",
+  "natureza": "Revisão independente documental e numérica por modelo; sem humanos/playtest/PDF.",
+  "casos": [
+    {
+      "id": "cobertura30",
+      "obtido": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_1",
+      "obtido": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      "esperado": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_2",
+      "obtido": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        2
+      ],
+      "esperado": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        2
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_3",
+      "obtido": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        2
+      ],
+      "esperado": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        2
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_4",
+      "obtido": [
+        1,
+        4,
+        1,
+        1,
+        1,
+        2
+      ],
+      "esperado": [
+        1,
+        4,
+        1,
+        1,
+        1,
+        2
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_5",
+      "obtido": [
+        1,
+        4,
+        1,
+        2,
+        1,
+        3
+      ],
+      "esperado": [
+        1,
+        4,
+        1,
+        2,
+        1,
+        3
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_6",
+      "obtido": [
+        1,
+        6,
+        2,
+        2,
+        1,
+        3
+      ],
+      "esperado": [
+        1,
+        6,
+        2,
+        2,
+        1,
+        3
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_7",
+      "obtido": [
+        1,
+        6,
+        2,
+        2,
+        2,
+        3
+      ],
+      "esperado": [
+        1,
+        6,
+        2,
+        2,
+        2,
+        3
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_8",
+      "obtido": [
+        1,
+        7,
+        2,
+        2,
+        2,
+        3
+      ],
+      "esperado": [
+        1,
+        7,
+        2,
+        2,
+        2,
+        3
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_9",
+      "obtido": [
+        1,
+        7,
+        2,
+        3,
+        2,
+        3
+      ],
+      "esperado": [
+        1,
+        7,
+        2,
+        3,
+        2,
+        3
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_10",
+      "obtido": [
+        2,
+        9,
+        3,
+        3,
+        2,
+        3
+      ],
+      "esperado": [
+        2,
+        9,
+        3,
+        3,
+        2,
+        3
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_11",
+      "obtido": [
+        2,
+        9,
+        3,
+        3,
+        2,
+        4
+      ],
+      "esperado": [
+        2,
+        9,
+        3,
+        3,
+        2,
+        4
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_12",
+      "obtido": [
+        2,
+        10,
+        3,
+        3,
+        2,
+        4
+      ],
+      "esperado": [
+        2,
+        10,
+        3,
+        3,
+        2,
+        4
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_13",
+      "obtido": [
+        2,
+        10,
+        3,
+        4,
+        3,
+        4
+      ],
+      "esperado": [
+        2,
+        10,
+        3,
+        4,
+        3,
+        4
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_14",
+      "obtido": [
+        2,
+        12,
+        4,
+        4,
+        3,
+        4
+      ],
+      "esperado": [
+        2,
+        12,
+        4,
+        4,
+        3,
+        4
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_15",
+      "obtido": [
+        2,
+        12,
+        4,
+        4,
+        3,
+        4
+      ],
+      "esperado": [
+        2,
+        12,
+        4,
+        4,
+        3,
+        4
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_16",
+      "obtido": [
+        2,
+        13,
+        4,
+        4,
+        3,
+        4
+      ],
+      "esperado": [
+        2,
+        13,
+        4,
+        4,
+        3,
+        4
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_17",
+      "obtido": [
+        2,
+        13,
+        4,
+        5,
+        3,
+        5
+      ],
+      "esperado": [
+        2,
+        13,
+        4,
+        5,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_18",
+      "obtido": [
+        3,
+        15,
+        5,
+        5,
+        3,
+        5
+      ],
+      "esperado": [
+        3,
+        15,
+        5,
+        5,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_19",
+      "obtido": [
+        3,
+        15,
+        5,
+        5,
+        3,
+        5
+      ],
+      "esperado": [
+        3,
+        15,
+        5,
+        5,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_20",
+      "obtido": [
+        3,
+        16,
+        5,
+        5,
+        3,
+        5
+      ],
+      "esperado": [
+        3,
+        16,
+        5,
+        5,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_21",
+      "obtido": [
+        3,
+        16,
+        5,
+        6,
+        3,
+        5
+      ],
+      "esperado": [
+        3,
+        16,
+        5,
+        6,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_22",
+      "obtido": [
+        3,
+        18,
+        6,
+        6,
+        3,
+        5
+      ],
+      "esperado": [
+        3,
+        18,
+        6,
+        6,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_23",
+      "obtido": [
+        3,
+        18,
+        6,
+        6,
+        3,
+        5
+      ],
+      "esperado": [
+        3,
+        18,
+        6,
+        6,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_24",
+      "obtido": [
+        3,
+        19,
+        6,
+        6,
+        3,
+        5
+      ],
+      "esperado": [
+        3,
+        19,
+        6,
+        6,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_25",
+      "obtido": [
+        3,
+        19,
+        6,
+        6,
+        3,
+        5
+      ],
+      "esperado": [
+        3,
+        19,
+        6,
+        6,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_26",
+      "obtido": [
+        4,
+        21,
+        7,
+        7,
+        3,
+        5
+      ],
+      "esperado": [
+        4,
+        21,
+        7,
+        7,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_27",
+      "obtido": [
+        4,
+        21,
+        7,
+        7,
+        3,
+        5
+      ],
+      "esperado": [
+        4,
+        21,
+        7,
+        7,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_28",
+      "obtido": [
+        4,
+        22,
+        7,
+        7,
+        3,
+        5
+      ],
+      "esperado": [
+        4,
+        22,
+        7,
+        7,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_29",
+      "obtido": [
+        4,
+        22,
+        7,
+        7,
+        3,
+        5
+      ],
+      "esperado": [
+        4,
+        22,
+        7,
+        7,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "linha_30",
+      "obtido": [
+        4,
+        24,
+        8,
+        7,
+        3,
+        5
+      ],
+      "esperado": [
+        4,
+        24,
+        8,
+        7,
+        3,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "xp2_20",
+      "obtido": 14300,
+      "esperado": 14300,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "xp20_30",
+      "obtido": 16400,
+      "esperado": 16400,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "semana1",
+      "obtido": 100,
+      "esperado": 100,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "semana2",
+      "obtido": 100,
+      "esperado": 100,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "semana3",
+      "obtido": 50,
+      "esperado": 50,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "semana4",
+      "obtido": 25,
+      "esperado": 25,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "semana5",
+      "obtido": 12,
+      "esperado": 12,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "semana6",
+      "obtido": 6,
+      "esperado": 6,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "semana7",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "semana8",
+      "obtido": 1,
+      "esperado": 1,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "semana9",
+      "obtido": 1,
+      "esperado": 1,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "semana10",
+      "obtido": 1,
+      "esperado": 1,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "quinta_longa",
+      "obtido": 25,
+      "esperado": 25,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "terceira_longa_falha",
+      "obtido": 50,
+      "esperado": 50,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "nula",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "avance_base",
+      "obtido": [
+        3,
+        100
+      ],
+      "esperado": [
+        3,
+        100
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "avance_banco",
+      "obtido": [
+        21,
+        2500
+      ],
+      "esperado": [
+        21,
+        2500
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "avance_limiar_bloqueia",
+      "obtido": [
+        20,
+        4100
+      ],
+      "esperado": [
+        20,
+        4100
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "avance_nao_infinito",
+      "obtido": [
+        22,
+        498800
+      ],
+      "esperado": [
+        22,
+        498800
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "avance_teto",
+      "obtido": [
+        30,
+        10299
+      ],
+      "esperado": [
+        30,
+        10299
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "refino_teto",
+      "obtido": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "esperado": [
+        [
+          3,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "leque7",
+      "obtido": [
+        7,
+        7,
+        12
+      ],
+      "esperado": [
+        7,
+        7,
+        12
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "duplas4para4vagas",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "corpos7para5",
+      "obtido": [
+        7,
+        5
+      ],
+      "esperado": [
+        7,
+        5
+      ],
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "pv_delta",
+      "obtido": 33,
+      "esperado": 33,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "pv0",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "pe0",
+      "obtido": 8,
+      "esperado": 8,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "reducao_zerada",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "nota": ""
+    },
+    {
+      "id": "reducao_preserva_saldo",
+      "obtido": 40,
+      "esperado": 40,
+      "passou": true,
+      "nota": "Texto permite dano faltante cair60→50, ao contrário da frase geral preserve o dano."
+    },
+    {
+      "id": "volta_ao_maximo",
+      "obtido": 50,
+      "esperado": 50,
+      "passou": true,
+      "nota": "A sequência100→90→100 ganha10PV. Trocas11/19/27 impedem loop ilimitado na mesma cena, mas regra merece delimitação."
+    }
+  ],
+  "aprovados": 61,
+  "total": 61,
+  "limites": [
+    "Casos não executam todas as fichas de Caminhos.",
+    "Valores narrativos de feitos e ritmo real de sessões não modelados.",
+    "Mutação/reforço matemático já coberto pela auditoria do autor; esta revisão reconstrói30linhas e casos selecionados."
+  ]
+}

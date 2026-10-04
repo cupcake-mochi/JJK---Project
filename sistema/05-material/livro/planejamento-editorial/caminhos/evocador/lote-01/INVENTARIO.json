@@ -1,0 +1,486 @@
+{
+  "sha256_texto": "66553c36ce356a971df11a9845724347cdf1684868620a8048b3b7faceb9ba41",
+  "entradas": [
+    {
+      "grupo": "Caminho",
+      "nome": "Aprimoramentos e Pontos de Vínculo",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        48
+      ],
+      "pagina": "ev-vinculo",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Precisão à Distância",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        80
+      ],
+      "pagina": "ev-usos",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Avanço Corpo a Corpo",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        86
+      ],
+      "pagina": "ev-aprimoramentos",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Proteção Reforçada",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        94
+      ],
+      "pagina": "ev-aprimoramentos",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Execução de Tarefas",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        104
+      ],
+      "pagina": "ev-aprimoramentos",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Dificultar a Resistência",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        110
+      ],
+      "pagina": "ev-aprimoramentos",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Corrigir uma Falha",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        126
+      ],
+      "pagina": "ev-intervencoes",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Mudar o Aprimoramento",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        136
+      ],
+      "pagina": "ev-intervencoes",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Superar Cobertura",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        146
+      ],
+      "pagina": "ev-posicao",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Reposicionar a Invocação",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        152
+      ],
+      "pagina": "ev-posicao",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Ajustar a Preparação",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        164
+      ],
+      "pagina": "ev-preparacao",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Recolher sob Ataque",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        172
+      ],
+      "pagina": "ev-preparacao",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Atuação Complementar",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        182,
+        525
+      ],
+      "pagina": "ev-complementar",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Combinar Aprimoramentos",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        204
+      ],
+      "pagina": "ev-combinar",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Intervenção Eficiente",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        216
+      ],
+      "pagina": "ev-combinar",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Caminho",
+      "nome": "Especial Combinada",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        230
+      ],
+      "pagina": "ev-combinada",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Principal",
+      "nome": "Duas Atuações Básicas",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        294
+      ],
+      "pagina": "ev-principal",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Principal",
+      "nome": "Repertório Ampliado",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        316
+      ],
+      "pagina": "ev-principal-especial",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Principal",
+      "nome": "Substituir a principal",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        328
+      ],
+      "pagina": "ev-principal-troca",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Principal",
+      "nome": "Proteger a Manifestação",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        356
+      ],
+      "pagina": "ev-principal-protecao",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Principal",
+      "nome": "Adaptar o Aprimoramento",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        378
+      ],
+      "pagina": "ev-principal-protecao",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Principal",
+      "nome": "Preservar o Aprimoramento",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        388
+      ],
+      "pagina": "ev-principal-continuidade",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Principal",
+      "nome": "Especial de Continuidade",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        396
+      ],
+      "pagina": "ev-principal-continuidade",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Principal",
+      "nome": "Intervenção Reflexa",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        416
+      ],
+      "pagina": "ev-principal-reflexa",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Parceria",
+      "nome": "Entrada Ágil",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        472
+      ],
+      "pagina": "ev-parceria",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Parceria",
+      "nome": "Treino de Combate",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        478
+      ],
+      "pagina": "ev-parceria",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Parceria",
+      "nome": "Repertório de Parceria",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        482
+      ],
+      "pagina": "ev-parceria",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Parceria",
+      "nome": "Acompanhar a Especial",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        496
+      ],
+      "pagina": "ev-parceria-aprimoramentos",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Parceria",
+      "nome": "Golpe Acompanhado",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        504
+      ],
+      "pagina": "ev-parceria-aprimoramentos",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Parceria",
+      "nome": "Resposta ao Agressor",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        514
+      ],
+      "pagina": "ev-parceria-aprimoramentos",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Parceria",
+      "nome": "Abrir Espaço para o Parceiro",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        563
+      ],
+      "pagina": "ev-parceria-intervencoes",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Parceria",
+      "nome": "Corrigir o Ataque Conjunto",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        574
+      ],
+      "pagina": "ev-parceria-intervencoes",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Parceria",
+      "nome": "Cobrir o Parceiro",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        583
+      ],
+      "pagina": "ev-parceria-cobrir",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Parceria",
+      "nome": "Técnicas em Conjunto",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        598
+      ],
+      "pagina": "ev-parceria-tecnicas",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Parceria",
+      "nome": "Resposta Técnica da Dupla",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        618
+      ],
+      "pagina": "ev-parceria-resposta",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Conjunto Ampliado",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        662
+      ],
+      "pagina": "ev-multiplas",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Famílias do Conjunto",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        677
+      ],
+      "pagina": "ev-multiplas",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Manifestação em Grupo",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        683
+      ],
+      "pagina": "ev-multiplas-entrada",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Entrada Ágil",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        699
+      ],
+      "pagina": "ev-multiplas-entrada",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Aquisição em Duplas",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        705
+      ],
+      "pagina": "ev-multiplas-duplas",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Dificultar o Ataque",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        728
+      ],
+      "pagina": "ev-multiplas-protecao",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Proteger um Aliado",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        738
+      ],
+      "pagina": "ev-multiplas-protecao",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Conduzir a Especial",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        748
+      ],
+      "pagina": "ev-multiplas-conduzir",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Retirada em Conjunto",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        766
+      ],
+      "pagina": "ev-multiplas-retirada",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Aprimoramentos Distribuídos",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        788
+      ],
+      "pagina": "ev-multiplas-aprimoramentos",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Formação Renovada",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        810
+      ],
+      "pagina": "ev-multiplas-formacao",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    },
+    {
+      "grupo": "Múltiplas",
+      "nome": "Repertório do Conjunto",
+      "fonte": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "linhas": [
+        839
+      ],
+      "pagina": "ev-multiplas-repertorio",
+      "cobertura": "integral; texto conferido com fonte e registro de decisões"
+    }
+  ],
+  "complementos": [
+    "Características e fórmula de vida/PE",
+    "Treinos e trocas",
+    "Progressão Caminho2/7/15/23/30",
+    "Trilhas2/11/19/27 e troca integral",
+    "Usos compartilhados e histórico por corpo",
+    "Ações de Atuação Complementar para Parceria",
+    "Exemplos de uso e novos turnos completos"
+  ],
+  "limite": "Inventário conta47benefícios/procedimentos, não47ganhos independentes pornível. Os94títulos dafonte incluem progressões, exemplos e cabeçalhos."
+}

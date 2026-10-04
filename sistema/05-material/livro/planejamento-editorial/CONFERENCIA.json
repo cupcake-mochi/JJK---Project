@@ -1,0 +1,73 @@
+{
+  "data": "2026-10-02",
+  "base": "v0.331",
+  "revisao_do_planejamento": 3,
+  "escopo": "execução delimitada do piloto, gabarito de preparação e primeira rodada de nomes; livro e exportações preservados",
+  "fontes_livro_com_hash_preservado": 22,
+  "artefatos_com_hash_preservado": 5,
+  "fontes_com_destino": 22,
+  "capitulos_propostos": 20,
+  "links_locais_conferidos": 108,
+  "conferencia_repositorio": {
+    "resultado": "conferências documentais passaram; uma consulta de histórico não executada",
+    "checagens_nao_executadas": [
+      "7.4 — histórico Git da entrega, excluído na conferência documental"
+    ],
+    "avisos_nao_impeditivos": 0,
+    "saida": "evidencias/repositorio-r3.txt",
+    "reparo_desta_rodada": "caminho do gabarito na retomada corrigido após a primeira execução"
+  },
+  "voz_estrita": {
+    "resultado": "reprovou; achados editoriais já pendentes, registrados para triagem",
+    "achados": 34,
+    "triagens_manuais": 7,
+    "referencias_a_titulos_ausentes": 0,
+    "termos_recorrentes_com_destino": 117,
+    "saida": "evidencias/voz-v0.331.txt"
+  },
+  "auditoria_pdf": {
+    "paginas_unica": 380,
+    "paginas_duas": 240,
+    "paginas_inspecionadas_amostra": 40,
+    "marcadores_por_pdf": 827,
+    "ramos_abertos_por_pdf": 199,
+    "sumario_entradas": 216,
+    "regenerado": false
+  },
+  "referencias_locais": {
+    "arquivos_da_remessa": 9,
+    "zips_correspondem_pdfs": "tamanho e CRC",
+    "leitura": "amostras documentadas; não integral",
+    "paginas_referencia_inspecionadas_visualmente": 9
+  },
+  "revisao_independente": "realizada por agentes; escopo, preparação mecânica, nomenclatura e consistência final revisados; ajustes incorporados",
+  "testes_humanos_novos": "não realizados; protocolo preparado",
+  "piloto": {
+    "estado": "pronto para primeira redação e prova; não produzido",
+    "primeira_entrega": [
+      "abertura e mundo",
+      "funcionamento da mesa",
+      "cena de Kaori",
+      "início da criação",
+      "proteção do Bastião",
+      "prova visual"
+    ],
+    "segunda_entrega": [
+      "Malabarista",
+      "construção de feitiço",
+      "ciclo de entidade",
+      "tabela e habilidade longas"
+    ],
+    "gabarito": "evidencias/preparacao-kaori.md"
+  },
+  "nomes": {
+    "estado": "alternativas para discussão; nenhum renome aplicado",
+    "conceitos": [
+      "Fundamento",
+      "Classe e Classe Passiva",
+      "Refino"
+    ],
+    "contagem": "evidencias/contagem-nomes.json"
+  },
+  "limite": "não é reescrita do livro, aplicação de renomes, correção do PDF, certificação de acessibilidade ou teste de equilíbrio"
+}

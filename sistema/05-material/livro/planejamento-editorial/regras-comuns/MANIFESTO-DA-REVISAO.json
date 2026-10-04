@@ -1,0 +1,26 @@
+{
+  "data": "2026-10-02",
+  "status": "candidatas revisadas, sem integração",
+  "escopo": [
+    "Movimento r3",
+    "Percepção/furtividade r2",
+    "Manobras/informação r1"
+  ],
+  "fontes_revisadas": {
+    "lote-02/02-SALTOS-E-QUEDAS.md": "cbad66f1845bf59084b379b246d19c11d04364c37550d01a288d6bd57f3452c9",
+    "lote-03/03-PERCEPCAO-E-FURTIVIDADE.md": "55cb314a5bd0d420a3be0f8fcdb77ccbe27628604242573288a99a2a4e1ea02b",
+    "lote-04/04-MANOBRAS-E-INFORMACAO.md": "1ea15259408bc967d24476b594f272b406f37b5a72d1585308b2a3558d7a7c80"
+  },
+  "pareceres": [
+    "lote-03/evidencias/reavaliacao04-regras.md",
+    "lote-03/evidencias/reavaliacao04-furtividade-matematica.md",
+    "lote-04/evidencias/testes-adversariais.md",
+    "lote-04/evidencias/leitura-final.md"
+  ],
+  "limites": [
+    "Sem teste humano",
+    "Sem comprovação de equilíbrio integral",
+    "Detecção comum de energia pendente",
+    "Demais amostras e livro entram na revisão por lote"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "data": "2026-10-03",
+  "responsavel": "autor desta rodada",
+  "independente": false,
+  "teste_humano": false,
+  "sha256_texto": "8d8311f3777014ea84df2b531f64d91540b3885cf2930a3cb071eebf21e3d7a1",
+  "secoes": [
+    {
+      "id": "equipamento",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    },
+    {
+      "id": "manipular",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    },
+    {
+      "id": "objetos",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    },
+    {
+      "id": "propriedades",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    },
+    {
+      "id": "oculta",
+      "parecer": "Leitura contextual: assunto de equipamento, título direto, sem explicação de Caminho ou Trilha. Procedimentos e decisões registrados no relatório."
+    }
+  ]
+}

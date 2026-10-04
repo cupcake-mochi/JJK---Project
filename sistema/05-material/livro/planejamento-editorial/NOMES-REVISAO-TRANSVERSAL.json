@@ -1,0 +1,224 @@
+{
+  "data": "2026-10-03",
+  "estado": "proposta, sem alteração nos manuscritos",
+  "corpus": "evidencias/NOMES-TRANSVERSAIS-CORPUS.json",
+  "propostas": [
+    {
+      "id": "NT01",
+      "antes": "Incapacitado / Incapacitada",
+      "novo": "Guarda Aberta",
+      "recomendacao": "aplicar",
+      "tipo": "renome sem alteração mecânica",
+      "motivo": "A condição conserva ações e Defesa estática, mas impede Bloquear e torna críticos os acertos físicos corpo a corpo; incapacidade de agir é justamente o que ela não causa.",
+      "donos": [
+        "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md"
+      ],
+      "referencias": [
+        "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+        "caminhos/guia/lote-01/GUIA.md",
+        "caminhos/incursor/lote-01/INCURSOR.md",
+        "origens/lote-01/ORIGENS-E-LEGADOS.md",
+        "equipamento/lote-final/EQUIPAMENTO.md",
+        "regras-gerais/lote-final/REGRAS-GERAIS.md",
+        "consulta/lote-01/CONSULTA.md",
+        "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md"
+      ],
+      "locucoes": [
+        "ficar Incapacitado → ficar com a Guarda Aberta",
+        "inimigo Incapacitado → inimigo com a Guarda Aberta",
+        "enquanto estiver Incapacitado → enquanto estiver com a Guarda Aberta"
+      ],
+      "invariantes": [
+        "Não reduz Defesa estática.",
+        "Não remove ações, Reação nem Concentração por si.",
+        "Conserva perda de Fluidez e soltura de contenção explicitamente associadas ao estado.",
+        "Mantém o preço Leve e a duração definida pela fonte."
+      ],
+      "risco": "Não escrever sem defesa ou indefeso: ambos sugeririam acertar automaticamente ou perder a Defesa. Não aplicar a palavras comuns incapaz/incapacidade."
+    },
+    {
+      "id": "NT02",
+      "antes": "Aviso — Melhoria de Marca",
+      "novo": "Identificar Feitiço",
+      "recomendacao": "aplicar",
+      "tipo": "renome sem alteração mecânica",
+      "motivo": "Obtém o último feitiço do alvo e sua Classe naquele instante. Aviso sugere alerta futuro, enquanto o efeito identifica uma aplicação anterior.",
+      "donos": [
+        "catalogo/lote-01/CATALOGO.md"
+      ],
+      "referencias": [
+        "catalogo/lote-01/CATALOGO.md",
+        "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md"
+      ],
+      "invariantes": [
+        "Preço Leve, Família Marca e aplicação por montagem preservados.",
+        "Identifica apenas o último feitiço e a Classe; não entrega técnica/ficha/repertório.",
+        "Não se torna monitoramento pela duração."
+      ]
+    },
+    {
+      "id": "NT03",
+      "antes": "Aviso — Passiva",
+      "novo": "Leitura de Feitiços",
+      "recomendacao": "aplicar",
+      "tipo": "renome sem alteração mecânica",
+      "motivo": "Distingue a escolha constante por visão do efeito de montagem e descreve a informação obtida.",
+      "donos": [
+        "catalogo/lote-01/CATALOGO.md"
+      ],
+      "referencias": [
+        "catalogo/lote-01/CATALOGO.md",
+        "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+        "consulta/lote-01/CONSULTA.md"
+      ],
+      "invariantes": [
+        "Categoria/preço/acesso atuais preservados.",
+        "Requer inimigo à vista e informa somente seu último feitiço.",
+        "Não recebe a informação de Classe da Melhoria por associação entre nomes."
+      ],
+      "risco": "Não confundir com Leitura, entrada própria do mesmo catálogo. Manter sempre Leitura de Feitiços por extenso no nome."
+    },
+    {
+      "id": "NT04",
+      "antes": "Passiva Livre",
+      "novo": "Expressão da técnica",
+      "recomendacao": "aplicar",
+      "tipo": "renome sem alteração mecânica",
+      "motivo": "O papel é aparência e expressão pessoal, sem vantagem funcional. O nome identifica a função e deixa de insinuar uma compra mecânica de preço zero.",
+      "donos": [
+        "fundamento/lote-01/FUNDAMENTO.md"
+      ],
+      "referencias": [
+        "fundamento/lote-01/FUNDAMENTO.md",
+        "catalogo/lote-01/CATALOGO.md",
+        "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+        "abertura/lote-01/ABERTURA-E-CRIACAO.md"
+      ],
+      "invariantes": [
+        "Continua gratuita e sem ocupar espaço.",
+        "Não concede vantagem, luz funcional, engano, informação protegida ou solução automática de obstáculo.",
+        "Entidades continuam sem recebê-la automaticamente.",
+        "Não ocupa a posição de Fundamento, que continua a descrição e os limites da técnica."
+      ]
+    },
+    {
+      "id": "NT05",
+      "antes": "Passiva / Passivas (como categoria comprável)",
+      "novo": "Talento / Talentos",
+      "recomendacao": "pacote semântico recomendado, migração transversal própria",
+      "tipo": "renome sem alteração mecânica",
+      "motivo": "Há entradas que gastam Ação Padrão, Reação e PE. Um nome que não promete passividade remove a contradição sem redesenhar efeitos.",
+      "donos": [
+        "fundamento/lote-01/FUNDAMENTO.md",
+        "catalogo/lote-01/CATALOGO.md",
+        "rotas/lote-01/ROTAS.md",
+        "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md"
+      ],
+      "referencias": [
+        "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+        "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+        "caminhos/emanador/lote-01/EMANADOR.md",
+        "caminhos/evocador/lote-01/EVOCADOR.md",
+        "catalogo/lote-01/CATALOGO.md",
+        "consulta/lote-01/CONSULTA.md",
+        "equipamento/lote-final/EQUIPAMENTO.md",
+        "fundamento/lote-01/FUNDAMENTO.md",
+        "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+        "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+        "progressao/lote-01/PROGRESSAO.md",
+        "regras-gerais/lote-final/REGRAS-GERAIS.md",
+        "rotas/lote-01/ROTAS.md"
+      ],
+      "invariantes": [
+        "Teto, espaços, progressão, descontos, requisitos e efeitos não mudam.",
+        "Proteção passiva da rota continua com esse adjetivo comum.",
+        "Passiva Livre migra por NT04, antes da substituição de categoria.",
+        "Passiva Própria torna-se Talento Próprio, sem mudar orçamento.",
+        "Os termos Regra Própria e Aptidão Própria continuam distintos."
+      ]
+    },
+    {
+      "id": "NT06",
+      "antes": "Classe Passiva / Classes Passivas",
+      "novo": "Categoria de Efeito / Categorias de Efeito",
+      "recomendacao": "aplicar junto de NT05",
+      "tipo": "renome sem alteração mecânica",
+      "motivo": "A escala classifica Talentos, Aptidões e Bênçãos e não é a Classe do feitiço. O nome precisa funcionar para os três tipos sem prometer efeito sempre passivo.",
+      "donos": [
+        "catalogo/lote-01/CATALOGO.md",
+        "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+        "rotas/lote-01/ROTAS.md"
+      ],
+      "referencias": [
+        "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+        "caminhos/evocador/lote-01/EVOCADOR.md",
+        "catalogo/lote-01/CATALOGO.md",
+        "consulta/lote-01/CONSULTA.md",
+        "fundamento/lote-01/FUNDAMENTO.md",
+        "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+        "progressao/lote-01/PROGRESSAO.md",
+        "rotas/lote-01/ROTAS.md"
+      ],
+      "invariantes": [
+        "Números 1/2/3, custos e requisitos próprios permanecem.",
+        "Não converter Classe de feitiço, classe de entidade, Classe de Dificuldade ou categoria de arma.",
+        "Passivas de Classe 2 exige revisão semântica para Talentos de Categoria 2; não entra na contagem literal de Classe Passiva.",
+        "Livre cosmética segue NT04; quando a régua mencionar Livre como orçamento narrativo, explicar a correspondência uma vez no dono."
+      ],
+      "risco": "Efeito também é uma Forma. Na definição e fora da tabela local, usar Categoria de Efeito por extenso; dentro de tabelas de Talentos, Categoria basta."
+    }
+  ],
+  "manter": [
+    {
+      "termo": "Mão Firme",
+      "decisao": "manter; corrigir cadastro de donos",
+      "motivo": "Um único benefício vigente. R09 remete ao catálogo para excluir sua aplicação em testes de antodomínio. Peça11§4 declara expressamente que a coluna é cópia da lista de Passivas. Não há aptidão distinta comprovada.",
+      "acao_metadado": "DONOS.json deve identificar fundamento como dono, com aptidoes apenas por exceções contextuais de incompatibilidade/remissão, não como segunda habilidade; remover nota de colisão falsa após conferir as três remissões."
+    },
+    {
+      "termo": "Reflexo",
+      "decisao": "manter",
+      "motivo": "Sete usos próprios do Incursor e um reflexo visual em prosa; o manual antigo também lista Reflexo como tema, sem segunda habilidade homônima ativa. Renomear não resolve colisão atual."
+    },
+    {
+      "termo": "Sentença Final",
+      "decisao": "manter",
+      "motivo": "Quatro usos, todos do Assassino. A outra ocorrência era nome de exemplo histórico de feitiço no manual40:1309, ausente da candidata. Se o exemplo voltar, renomear o exemplo, não a habilidade aprovada."
+    },
+    {
+      "termo": "Fundamento",
+      "decisao": "manter nesta migração",
+      "motivo": "É a base que descreve funcionamento e limites. O candidato já define isso na abertura. Técnica, Técnica Inata e Fundamento não são substituições textuais seguras na rota Sem Técnica. Manter evita confundir procedimento comum com origem inata."
+    },
+    {
+      "termo": "Classe",
+      "decisao": "manter para a escala de aplicações",
+      "motivo": "A colisão interna mais concreta é com Classe Passiva e será resolvida por NT06. A fonte peça11§4 registra que o usuário já associava Classe a feitiço. Retomar Potência, nome aposentado, mudaria 569 usos lexicais sem corrigir outra contradição demonstrada."
+    },
+    {
+      "termo": "Refino / Lapidação",
+      "decisao": "manter",
+      "motivo": "Progressões paralelas com objetos distintos, explicitados nos donos. Controle de Energia é compreensível, mas mais longo e próximo da Família Controle. A mudança não tem benefício de entendimento medido que justifique a migração nesta rodada."
+    },
+    {
+      "termo": "Incursor / Pugilista / Malabarista",
+      "decisao": "manter",
+      "motivo": "Nomes expressamente aprovados pelo usuário."
+    },
+    {
+      "termo": "Família / Forma / Melhoria / Restrição / Selo",
+      "decisao": "manter",
+      "motivo": "Funções distintas e definidas no construtor; o problema demonstrado estava em compatibilidade e apresentação. Não substituir nomenclatura inteira sem novo ganho."
+    },
+    {
+      "termo": "Legado narrativo / de rolagem / de exceção",
+      "decisao": "manter o novo trio de R20",
+      "motivo": "Já substitui Destranca/Ajusta/Desliga e informa a função sem metáfora adicional."
+    }
+  ],
+  "validacao": {
+    "efeitos_mecanicos_novos": false,
+    "propostas_sem_colisao_exata_ativa": true,
+    "limite": "Familiaridade inferida da função descrita e da distinção lexical; não foi feito teste com leitores."
+  }
+}

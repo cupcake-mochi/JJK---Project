@@ -1,0 +1,246 @@
+--- invocacoes/lote-02/CONSTRUIR-INVOCACOES.md
+
++++ invocacoes/lote-02/CONSTRUIR-INVOCACOES.md
+
+@@ -12,8 +12,8 @@
+
+ 3. **Atributos.** Distribua os pontos e calcule acerto, CD, Defesa e vida.
+ 4. **Famílias.** Escolha três abertas e marque uma delas como Livre.
+-5. **Habilidades.** Monte a básica, as especiais e as passivas disponíveis naquele nível.
++5. **Habilidades.** Monte a básica, as especiais e os talentos disponíveis naquele nível.
+ 6. **Registro.** Anote custos, alcances, requisitos e comunicação. Confira a ficha antes de levá-la à sessão.
+ 
+-**Pontos de montagem** compram partes de uma habilidade. **PE** pagam seu uso. Uma especial pode ter 4 pontos de montagem e custar 6 PE, por exemplo. A **Classe** determina essas contas. **Classe Passiva**, abreviada como CP, é uma escala diferente, usada nas características permanentes ou reativas.
++**Pontos de montagem** compram partes de uma habilidade. **PE** pagam seu uso. Uma especial pode ter 4 pontos de montagem e custar 6 PE, por exemplo. A **Classe** determina essas contas. **Categoria de Efeito**, abreviada como CE, é uma escala diferente, usada nas características permanentes ou reativas.
+ 
+ O exemplo [Cão de sombra](#entidade-cao) percorre essas etapas com uma entidade de nível 2. [Vigia de papel](#entidade-vigia) mostra uma entidade voltada à investigação e ao apoio. Os efeitos são propostas originais deste sistema.
+@@ -70,5 +70,5 @@
+
+ | Perícias treinadas | Atletismo, Furtividade, Percepção e Sobrevivência. |
+ 
+-A ficha tem **uma básica, um espaço de especial e uma passiva de CP1**. Mira é Livre. Alcance e Controle são abertas, sem desconto. As seis Famílias restantes ficam Fechadas.
++A ficha tem **uma básica, um espaço de especial e um talento de CE1**. Mira é Livre. Alcance e Controle são abertas, sem desconto. As seis Famílias restantes ficam Fechadas.
+ 
+ Kaito escolhe esse conjunto para perseguição e combate próximo. A definição não permite ao cão curar, falar pela mente ou compartilhar a visão sem adquirir capacidades adequadas.
+@@ -91,5 +91,5 @@
+
+ ## Farejador
+ 
+-**Passiva de CP1.** O cão reconhece se houve conjuração onde está nas últimas 24 horas e suas Classes, seguindo a entrada Farejador do Catálogo. A informação é percebida por ele. Kaito precisa interpretar os sinais combinados para recebê-la. A passiva não identifica automaticamente o autor nem acompanha sua rota.
++**Talento de CE1.** O cão reconhece se houve conjuração onde está nas últimas 24 horas e suas Classes, seguindo a entrada Farejador do Catálogo. A informação é percebida por ele. Kaito precisa interpretar os sinais combinados para recebê-la. O talento não identifica automaticamente o autor nem acompanha sua rota.
+ 
+ ## Evolução
+@@ -97,5 +97,5 @@
+
+ No nível 4, o cão terá **22 de vida** e um segundo espaço de especial. No nível 5, terá **27 de vida**, básica de **2d6** e acesso à Classe 2. Sua Mordida precisa poderá ser ampliada para **4d8 por 6 PE**.
+ 
+-No nível 6, Kaito aumenta a Constituição do cão de 2 para 3. A vida inteira é recalculada: **8 + 6 × 5 = 38**. Ele recebe também sua segunda passiva, até CP1. A segunda básica conhecida só chegará no nível 11.
++No nível 6, Kaito aumenta a Constituição do cão de 2 para 3. A vida inteira é recalculada: **8 + 6 × 5 = 38**. Ele recebe também seu segundo talento, até CE1. A segunda básica conhecida só chegará no nível 11.
+ 
+ <!-- page:entidades-lista-criacao|Lista de ritual e criação -->
+@@ -174,5 +174,5 @@
+
+ > **Cão de sombra:** um cão feito de sombra que reconhece vestígios de energia amaldiçoada e persegue o que seu invocador aponta.
+ 
+-Essa frase orienta a escolha de Farejador e das habilidades de perseguição. A capacidade de reconhecer vestígios virá da passiva. Mencionar o faro na definição não concede seu efeito antes dessa escolha.
++Essa frase orienta a escolha de Farejador e das habilidades de perseguição. A capacidade de reconhecer vestígios virá do talento. Mencionar o faro na definição não concede seu efeito antes dessa escolha.
+ 
+ ## Anatomia e comunicação
+@@ -186,5 +186,5 @@
+
+ ## Características pagas
+ 
+-A entidade não recebe **Regra Própria gratuita**, **Passiva Livre** ou **Selo**. Usa a definição para orientar suas escolhas e recebe as passivas da própria progressão.
++A entidade não recebe **Regra Própria gratuita**, **Expressão da técnica** ou **Selo**. Usa a definição para orientar suas escolhas e recebe os talentos da própria progressão.
+ 
+ Um detalhe de aparência pode ser descrito livremente. Quando o detalhe resolve um obstáculo ou concede um benefício, compare-o às opções pagas. Escolha também um tipo de dano permitido pelo catálogo geral para cada ataque. A aparência de energia pura usa **Força**, conforme **Tipos de dano**.
+@@ -271,5 +271,5 @@
+
+ | Espaços de especiais | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+ 
+-A domada com técnica também usa esses espaços para adquirir seus degraus de Domínio, conforme **Expansão da domada** em Invocações em campo. Passivas têm aquisição própria e ficam fora dessa conta.
++A domada com técnica também usa esses espaços para adquirir seus degraus de Domínio, conforme **Expansão da domada** em Invocações em campo. Talentos têm aquisição própria e ficam fora dessa conta.
+ 
+ ## Ao subir de nível
+@@ -476,5 +476,5 @@
+
+ Uma especial com Melhoria de Controle e dano final de **até a Classe real em dados** recebe **uma rodada adicional nos efeitos de Controle**. Sem dano, recebe também **+2 na CD desses efeitos**. O TR do dano não recebe esse bônus.
+ 
+-Condições **Médias e Pesadas** são reservadas à **especial comandada ativamente**. Elas não entram na básica, numa passiva, numa aura autônoma ou numa resposta reativa autônoma. Uma Forma Aura ou uma especial com Reação comprada pode aplicá-las quando executada por comando, pagando todos os recursos exigidos. Uma condição Pesada conserva o TR de saída e o limite de uma por feitiço. Consulte **Condições** para seus efeitos completos.
++Condições **Médias e Pesadas** são reservadas à **especial comandada ativamente**. Elas não entram na básica, num talento, numa aura autônoma ou numa resposta reativa autônoma. Uma Forma Aura ou uma especial com Reação comprada pode aplicá-las quando executada por comando, pagando todos os recursos exigidos. Uma condição Pesada conserva o TR de saída e o limite de uma por feitiço. Consulte **Condições** para seus efeitos completos.
+ 
+ > Uma especial de Classe 2 com Prende pode ter até 2d8 e receber a rodada adicional. Se a ficha for montada sem dano, ganha também +2 na CD de Prende. O alvo conserva as ações de tentativa de saída indicadas na peça.
+@@ -486,5 +486,5 @@
+
+ Uma entidade continua precisando de comando para sua especial, mesmo fora de combate. Uma básica de Efeito consome sua atuação básica. Descrever a capacidade como parte natural do corpo não elimina seus custos.
+ 
+-Para uma proposta ausente do catálogo, use **Efeito Próprio** ou **Passiva Própria**, conforme a forma de uso. Registre um resultado verificável, alcance, alvos, resolução, duração e término. A proposta precisa respeitar as Famílias disponíveis e os limites de atuação da entidade.
++Para uma proposta ausente do catálogo, use **Efeito Próprio** ou **Talento Próprio**, conforme a forma de uso. Registre um resultado verificável, alcance, alvos, resolução, duração e término. A proposta precisa respeitar as Famílias disponíveis e os limites de atuação da entidade.
+ 
+ <!-- page:entidades-restricoes|Restrições da entidade -->
+@@ -511,10 +511,10 @@
+
+ Ao revisar, observe também os efeitos dos aliados: se outra regra elimina sempre a desvantagem prometida, aquela devolução precisa ser reavaliada.
+ 
+-<!-- page:entidades-passivas|Passivas da entidade -->
+-# Passivas da entidade
+-
+-Passivas são características da ficha. Algumas funcionam continuamente. Outras possuem gatilhos, ações ou custos. A entidade ganha **uma no nível 1** e outra nos níveis **6, 10, 14, 18, 22, 26 e 30**.
+-
+-| Nível do ganho | CP máxima da escolha |
++<!-- page:entidades-passivas|Talentos da entidade -->
++# Talentos da entidade
++
++Talentos são características da ficha. Alguns funcionam continuamente. Outros possuem gatilhos, ações ou custos. A entidade ganha **um no nível 1** e outro nos níveis **6, 10, 14, 18, 22, 26 e 30**.
++
++| Nível do ganho | CE máxima da escolha |
+ |---|---|
+ | 1 e 6 | 1 |
+@@ -522,37 +522,37 @@
+
+ | 14, 18, 22, 26 e 30 | 3 |
+ 
+-Escolha uma passiva até o teto daquele ganho. Ganhar acesso a CP maior não promove automaticamente as passivas antigas. Uma entidade de nível 14 tem quatro escolhas: duas até CP1, uma até CP2 e uma até CP3.
+-
+-**Essas escolhas não gastam espaços de especial e não têm o limite de cinco Passivas pagas do personagem.** A entidade pode ter oito no nível 30. Esse acesso é restrito às opções abaixo e na próxima página.
+-
+-| Passiva de CP1 | Função | Texto completo no Catálogo |
++Escolha um talento até o teto daquele ganho. Ganhar acesso a CE maior não promove automaticamente os talentos antigos. Uma entidade de nível 14 tem quatro escolhas: duas até CE1, uma até CE2 e uma até CE3.
++
++**Essas escolhas não gastam espaços de especial e não têm o limite de cinco Talentos pagos do personagem.** A entidade pode ter oito no nível 30. Esse acesso é restrito às opções abaixo e na próxima página.
++
++| Talento de CE1 | Função | Texto completo no Catálogo |
+ |---|---|---|
+-| Leitura | Identifica Classe e Forma de conjurações próximas. | Passivas de Classe 1. |
+-| Instinto | Protege contra surpresa enquanto acordada. | Passivas de Classe 1. |
+-| Raiz | Impede movimento imposto e Derrubado involuntário. | Passivas de Classe 1. |
+-| Mão Firme | Protege Concentração e Carregar de ocorrências pequenas de dano. | Passivas de Classe 1. |
+-| Farejador | Reconhece vestígios locais de conjuração. | Passivas de Classe 1. |
+-| Aviso | Identifica o último feitiço de um inimigo à vista. | Passivas de Classe 1. |
++| Leitura | Identifica Classe e Forma de conjurações próximas. | Talentos de Categoria 1. |
++| Instinto | Protege contra surpresa enquanto acordada. | Talentos de Categoria 1. |
++| Raiz | Impede movimento imposto e Derrubado involuntário. | Talentos de Categoria 1. |
++| Mão Firme | Protege Concentração e Carregar de ocorrências pequenas de dano. | Talentos de Categoria 1. |
++| Farejador | Reconhece vestígios locais de conjuração. | Talentos de Categoria 1. |
++| Leitura de Feitiços | Identifica o último feitiço de um inimigo à vista. | Talentos de Categoria 1. |
+ 
+ Use integralmente o efeito, o alcance, o gatilho e os limites da entrada indicada. Aqui, a definição substitui a referência à Regra da técnica. A entidade é quem percebe a informação ou recebe o benefício. Transmitir uma descoberta depende da comunicação que sua ficha oferece.
+ 
+-**Aviso, a Passiva, e Aviso, a Melhoria de Marca, são escolhas diferentes.** Uma não compra a outra.
+-
+-<!-- page:entidades-passivas-avancadas|Passivas de Classes 2 e 3 -->
+-# Passivas de Classes 2 e 3
+-
+-As opções seguintes completam o catálogo permitido para entidades. Somadas às seis de CP1, são **treze opções**, incluindo Passiva Própria.
+-
+-| Passiva | CP | Função e localização no Catálogo |
++**Leitura de Feitiços é um Talento; Identificar Feitiço é uma Melhoria de Marca.** Adquirir um desses efeitos não concede o outro.
++
++<!-- page:entidades-passivas-avancadas|Talentos de Categorias 2 e 3 -->
++# Talentos de Categorias 2 e 3
++
++As opções seguintes completam o catálogo permitido para entidades. Somadas às seis de CE1, são **treze opções**, incluindo Talento Próprio.
++
++| Talento | CE | Função e localização no Catálogo |
+ |---|---|---|
+-| Fluxo | 2 | Vida temporária por conjuração. Passivas de Classe 2. |
+-| Eco | 2 | Redução no custo após reduzir um inimigo a zero. Passivas de Classe 2. |
++| Fluxo | 2 | Vida temporária por conjuração. Talentos de Categoria 2. |
++| Eco | 2 | Redução no custo após reduzir um inimigo a zero. Talentos de Categoria 2. |
+ | Costura | 2 | Impede que um aliado caia a zero. Proteção e presença. |
+ | Contramedida | 2 | Reação que aumenta a CD de outro feitiço. Proteção e presença. |
+-| Escama | 3 | Resistência a um tipo de dano. Passivas de Classe 3. |
+-| Afinidade | 3 | Supera cobertura Parcial e resistência no tema escolhido. Passivas de Classe 3. |
+-| Passiva Própria | 1–3 | Capacidade escrita e comparada antes da sessão. Passiva Própria. |
+-
+-A Classe indicada identifica a categoria da opção. Seu custo de aquisição aqui é **uma escolha recebida pela entidade**, até o teto do marco. Os preços em espaços pessoais do Catálogo não se aplicam a esses ganhos.
++| Escama | 3 | Resistência a um tipo de dano. Talentos de Categoria 3. |
++| Afinidade | 3 | Supera cobertura Parcial e resistência no tema escolhido. Talentos de Categoria 3. |
++| Talento Próprio | 1–3 | Capacidade escrita e comparada antes da sessão. Talento Próprio. |
++
++A CE indicada identifica a Categoria de Efeito da opção. Seu custo de aquisição aqui é **uma escolha recebida pela entidade**, até o teto do marco. Os preços em espaços pessoais do Catálogo não se aplicam a esses ganhos.
+ 
+ ## Aplicação na ficha
+@@ -562,14 +562,14 @@
+
+ Eco e Cobrança seguem a trava comum de uma única metade no próximo custo. A redução pertence à conjuração da entidade que a obteve, antes da divisão do pagamento. Não reduz o próximo feitiço pessoal do invocador.
+ 
+-Costura previne uma queda dentro de seu gatilho. Não recupera uma entidade que já esteja a zero nem substitui as regras de destruição. Fluxo usa a Classe real da conjuração. Essas quatro passivas não entram na lista de efeitos com Classe reduzida.
+-
+-Outras Passivas do catálogo pessoal, como Recomposição ou Reserva Profunda, não entram por esta aquisição. O mesmo vale para a Regra Própria gratuita.
++Costura previne uma queda dentro de seu gatilho. Não recupera uma entidade que já esteja a zero nem substitui as regras de destruição. Fluxo usa a Classe real da conjuração. Esses quatro talentos não entram na lista de efeitos com Classe reduzida.
++
++Outros Talentos do catálogo pessoal, como Recomposição ou Reserva Profunda, não entram por esta aquisição. O mesmo vale para a Regra Própria gratuita.
+ 
+ <!-- page:entidades-passiva-propria|Características próprias -->
+ # Características próprias
+ 
+-Use **Passiva Própria** para uma capacidade que a lista não representa. Ela ocupa uma das escolhas recebidas pela entidade. Sua Classe Passiva é definida por comparação com as opções permitidas.
+-
+-Registre benefício, gatilho, alcance, requisitos, usos e término. Se houver ação, Reação ou PE, traduza o custo pelos procedimentos de **Invocações em campo**. Uma passiva reativa não concede uma segunda Reação coletiva.
++Use **Talento Próprio** para uma capacidade que a lista não representa. O Talento ocupa uma das escolhas recebidas pela entidade. Sua Categoria de Efeito é definida por comparação com as opções permitidas.
++
++Registre benefício, gatilho, alcance, requisitos, usos e término. Se houver ação, Reação ou PE, traduza o custo pelos procedimentos de **Invocações em campo**. Um talento reativo não concede uma segunda Reação coletiva.
+ 
+ Capacidades de transporte, armazenamento ou sentidos especiais também precisam desse registro. Um compartimento de objetos segue **Carga e equipamento**: o fato de caber na aparência da criatura não cria espaço de inventário ilimitado.
+@@ -577,13 +577,13 @@
+
+ ## Exemplo: Registro de cena
+ 
+-**Proposta de CP1.** Uma entidade feita de papel pode guardar uma única sequência de até **1 minuto de sons que tenha ouvido normalmente**. Escolhe a sequência enquanto a escuta. Uma nova gravação substitui a anterior.
++**Proposta de CE1.** Uma entidade feita de papel pode guardar uma única sequência de até **1 minuto de sons que tenha ouvido normalmente**. Escolhe a sequência enquanto a escuta. Uma nova gravação substitui a anterior.
+ 
+ Para reproduzir a gravação, usa sua **atuação básica**. O som sai de seu corpo, com volume de conversa comum. A reprodução dura o tempo gravado e termina se a entidade interromper, ficar Desligada ou sair de campo. Ela repete os sons na ordem original, sem editar vozes ou acrescentar palavras. Guardar o som não fornece tradução de idioma nem permite ouvir através de obstáculos.
+ 
+-A proposta ajuda a relatar conversas e comparar depoimentos. Farejador é a referência de CP1 para informação limitada. Registro de cena conserva uma percepção que aconteceu, em vez de revelar conjurações passadas que a entidade não presenciou.
++A proposta ajuda a relatar conversas e comparar depoimentos. Farejador é a referência de CE1 para informação limitada. Registro de cena conserva uma percepção que aconteceu, em vez de revelar conjurações passadas que a entidade não presenciou.
+ 
+ ## Limites da proposta
+ 
+-A aprovação de um efeito informativo não autoriza bônus permanentes de ataque, ações adicionais ou acesso a Famílias Fechadas. Passivas de entidade também não aplicam condições Médias ou Pesadas. Para essas condições, use uma especial comandada e pague sua montagem.
++A aprovação de um efeito informativo não autoriza bônus permanentes de ataque, ações adicionais ou acesso a Famílias Fechadas. Talentos de entidade também não aplicam condições Médias ou Pesadas. Para essas condições, use uma especial comandada e pague sua montagem.
+ 
+ <!-- page:entidades-ampliacao|Ampliar uma especial -->
+@@ -624,5 +624,5 @@
+
+ **Definição:** uma pequena figura de papel que registra os sons da missão e desdobra tiras para amparar pessoas.
+ 
+-A figura é Pequena, caminha sobre duas pernas e tem mãos de papel. Possui visão e audição comuns, entende as ordens faladas de Bruna e reproduz gravações pela passiva. Não voa. Seu deslocamento terrestre é 9 m.
++A figura é Pequena, caminha sobre duas pernas e tem mãos de papel. Possui visão e audição comuns, entende as ordens faladas de Bruna e reproduz gravações pelo talento. Não voa. Seu deslocamento terrestre é 9 m.
+ 
+ ## Ficha
+@@ -644,9 +644,9 @@
+
+ | Perícias treinadas | Acrobacia, Furtividade, Investigação, Percepção e Sobrevivência. |
+ 
+-Inteligência 3 fornece **4 + 1 = 5 perícias**. A ficha tem uma básica, dois espaços de especiais e uma passiva até CP1.
++Inteligência 3 fornece **4 + 1 = 5 perícias**. A ficha tem uma básica, dois espaços de especiais e um talento até CE1.
+ 
+ As Famílias abertas são **Amparo Livre**, **Auxiliares** e **Alcance**. As seis restantes ficam Fechadas. A escolha permite amparo e movimento de um aliado, sem transformar a entidade numa combatente de área.
+ 
+-A próxima página registra todas as habilidades desta ficha. A proposta de Registro de cena precisa ser aprovada com o mestre antes da sessão, como qualquer Passiva Própria.
++A próxima página registra todas as habilidades desta ficha. A proposta de Registro de cena precisa ser aprovada com o mestre antes da sessão, como qualquer Talento Próprio.
+ 
+ <!-- page:entidade-vigia-habilidades|Habilidades do vigia -->
+@@ -673,5 +673,5 @@
+
+ ## Registro de cena
+ 
+-A única passiva é a proposta de **CP1** descrita em [Características próprias](#entidades-passiva-propria). Reproduzir uma gravação usa a mesma atuação básica que Orientação ou uma especial consumiriam naquele ciclo.
++O único talento é a proposta de **CE1** descrita em [Características próprias](#entidades-passiva-propria). Reproduzir uma gravação usa a mesma atuação básica que Orientação ou uma especial consumiriam naquele ciclo.
+ 
+ <!-- page:entidades-conferencia|Conferência da ficha -->
+@@ -690,10 +690,10 @@
+
+ | Básica | Dados por nível, Forma e no máximo uma Melhoria Leve. |
+ | Especiais | Espaços, pontos, peças, devoluções, alcance e PE. |
+-| Passivas | Ganhos por marco, CP de cada escolha e opção permitida. |
++| Talentos | Ganhos por marco, CE de cada escolha e opção permitida. |
+ | Campo | Manifestação, comando, tarefa, custos e recursos compartilhados. |
+ 
+ ## Duas situações de exemplo
+ 
+-Teste uma situação em que cada habilidade funciona e outra em que um requisito impede seu uso. Uma mordida precisa de alvo ao alcance. Um efeito de Cura precisa de alvo que possa recebê-lo. Uma passiva de informação precisa de um meio para comunicar o que foi percebido.
++Teste uma situação em que cada habilidade funciona e outra em que um requisito impede seu uso. Uma mordida precisa de alvo ao alcance. Um efeito de Cura precisa de alvo que possa recebê-lo. Um talento de informação precisa de um meio para comunicar o que foi percebido.
+ 
+ Confira também as escolhas exclusivas. Comprar duas básicas amplia as opções. Comprar uma especial reativa não cria outro recurso de atuação. Abrir Amparo oferece suas peças, mas não fornece Energia Reversa por conta própria.

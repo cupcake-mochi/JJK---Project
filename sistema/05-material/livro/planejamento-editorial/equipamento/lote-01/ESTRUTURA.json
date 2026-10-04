@@ -1,0 +1,44 @@
+{
+  "ordem": [
+    "equipamento",
+    "manipular",
+    "objetos",
+    "propriedades",
+    "oculta",
+    "municao"
+  ],
+  "titulos": {
+    "equipamento": "Equipamento",
+    "manipular": "Sacar e guardar",
+    "objetos": "Usar objetos",
+    "propriedades": "Propriedades",
+    "oculta": "Armas escondidas",
+    "municao": "Munição"
+  },
+  "paginas": {
+    "equipamento": 1,
+    "manipular": 2,
+    "objetos": 3,
+    "propriedades": 4,
+    "oculta": 5,
+    "municao": 6
+  },
+  "grupos": [
+    [
+      "Itens em jogo",
+      [
+        "equipamento",
+        "manipular",
+        "objetos"
+      ]
+    ],
+    [
+      "Armas",
+      [
+        "propriedades",
+        "oculta",
+        "municao"
+      ]
+    ]
+  ]
+}

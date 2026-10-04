@@ -1,0 +1,13 @@
+{
+  "revisor": "/root",
+  "sha256_texto_final": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+  "estado": "deltas revisados; duas correções nominais exatas solicitadas aplicadas",
+  "escopo": "Leitura integral anterior de28blocos, seguida de delta legível para30blocos. Raiz confirmou recuperação, entidade, estados, cura, patentes e equipamento, e solicitou definição CE com Talentos/Aptidões/Bênçãos e alias Aviso singular. Aplicadas literalmente; não se declara releitura integral da versão final.",
+  "evidencias": [
+    "DELTA-PARA-REVISAO-DA-RAIZ.md",
+    "DELTA-DESDE-28-BLOCOS.diff"
+  ],
+  "limitacoes": [
+    "Revisão por outro agente, não por leitor humano ou playtest."
+  ]
+}

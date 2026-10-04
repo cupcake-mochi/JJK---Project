@@ -1,0 +1,26 @@
+[
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+    "sha256_lido_autor": "a873604a9b9887800a7ac51c961c67939ee15781da7db7506a30c9f347512a1f",
+    "sha256_atual": "91db84efd1813de6f85f4ea30daf01528d0bdf60cfb47ce7cf512ed3121ca5b0",
+    "revisao": "R06 mudou apenas remissão Cura; R09 mudou duas frases de clareza e índiceRitual; demais donos preservados. Interfaces numéricas R10 continuam usando mesmas tabelas."
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+    "sha256_lido_autor": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+    "sha256_atual": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+    "revisao": "R06 mudou apenas remissão Cura; R09 mudou duas frases de clareza e índiceRitual; demais donos preservados. Interfaces numéricas R10 continuam usando mesmas tabelas."
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/04-MANOBRAS-E-INFORMACAO.md",
+    "sha256_lido_autor": "1ea15259408bc967d24476b594f272b406f37b5a72d1585308b2a3558d7a7c80",
+    "sha256_atual": "1ea15259408bc967d24476b594f272b406f37b5a72d1585308b2a3558d7a7c80",
+    "revisao": "R06 mudou apenas remissão Cura; R09 mudou duas frases de clareza e índiceRitual; demais donos preservados. Interfaces numéricas R10 continuam usando mesmas tabelas."
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/APTIDOES-E-REFINO.md",
+    "sha256_lido_autor": "062e6d0cf8d2c2e38a97f4b0831718a1404c3a664112dc1d247ab2199275364c",
+    "sha256_atual": "dec4688ba921e2a8655e190b363c862d237b9be10dc960449ba91c47a27aae51",
+    "revisao": "R06 mudou apenas remissão Cura; R09 mudou duas frases de clareza e índiceRitual; demais donos preservados. Interfaces numéricas R10 continuam usando mesmas tabelas."
+  }
+]

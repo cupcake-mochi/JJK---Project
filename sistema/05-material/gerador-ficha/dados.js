@@ -21,24 +21,27 @@ const PERICIAS = [
 const OFICIOS = ['Condução', 'Arrombamento', 'Herbalismo', 'Forja', 'Caligrafia',
                  'Burocracia', 'Entalhador', 'Alfaiate', 'Culinária', 'Instrumento', 'Jogatina'];
 
-// os 5 Caminhos (peca 8, passo 3) — vida no nv1, vida por nivel, PE por nivel.
+// os 6 Caminhos (peca 8, passo 3) — vida no nv1, vida por nivel, PE por nivel.
 // Sem oficio fixo desde a v0.105: o Caminho da dois oficios LIVRES.
 const CAMINHOS = [
   { nome: 'Bastião',   dado: 'd12', vida1: 12, vidaNv: 7, peNv: 4,
     pericias: ['Atletismo', 'Provocar'],
-    trilhas: ['Muro', 'Punho', 'Brasa'] },
+    trilhas: ['Muro', 'Punho', 'Combatente Amaldiçoado'] },
   { nome: 'Vanguarda', dado: 'd8',  vida1: 8,  vidaNv: 5, peNv: 5,
     pericias: ['Acrobacia', 'Percepção'],
     trilhas: ['Estocada', 'Batedor', 'Executor'] },
   { nome: 'Guia',      dado: 'd8',  vida1: 8,  vidaNv: 5, peNv: 5,
     pericias: ['Persuasão', 'Medicina'],
-    trilhas: ['Elo', 'Sutura', 'Perímetro'] },
+    trilhas: ['Arquiteto', 'Analista', 'Socorrista'] },
   { nome: 'Evocador',  dado: 'd6',  vida1: 6,  vidaNv: 4, peNv: 6,
     pericias: ['Religião', 'Lidar com Animais'],
-    trilhas: ['Servo', 'Matilha', 'Coro'] },
+    trilhas: ['Invocação Principal', 'Parceria', 'Múltiplas Invocações'] },
   { nome: 'Emanador',  dado: 'd6',  vida1: 6,  vidaNv: 4, peNv: 6,
     pericias: ['Ocultismo', 'Investigação'],
-    trilhas: ['Torrente', 'Explosivo', 'Arremate'] },
+    trilhas: ['Condutor Armado', 'Ressonante', 'Catalisador'] },
+  { nome: 'Incursor', dado: 'd6', vida1: 6, vidaNv: 4, peNv: 6,
+    pericias: ['Acrobacia', 'Intuição'],
+    trilhas: ['Assassino', 'Pugilista', 'Malabarista'] },
 ];
 
 // as Origens (peca 9)

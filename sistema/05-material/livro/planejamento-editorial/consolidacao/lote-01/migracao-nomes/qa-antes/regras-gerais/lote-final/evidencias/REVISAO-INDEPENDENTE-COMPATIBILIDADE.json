@@ -1,0 +1,3469 @@
+{
+  "sha256_texto": "d5a7af1b3715f695ad8dae3baa7e22a04f23f0c5b692687bdab6d74323a6f489",
+  "snapshot_inicial": "ead95d8138566d9d95cfc42a63b1cf48e30a44ae60c821789c0348d9353457cb",
+  "revisor": "compatibilidade, sem autoria desta unidade",
+  "ok": true,
+  "verificacoes": 360,
+  "checks": [
+    {
+      "caso": "40páginas completas",
+      "obtido": 40,
+      "esperado": 40,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:atributos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:testes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:pericias",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:resistencia",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:turnos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:acoes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:ajudar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:interacao",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:preparar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:oportunidade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:concentracao",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:ataques",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:alcance",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:critico",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:defesa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:bloquear",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:aparar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:movimento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:espacos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:distancias",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:saltos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:quedas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:queda-criatura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:rastejar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:voo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:carga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:arrasto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:montaria",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:perceber",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:esconder",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:procurar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:ocultacao-ataque",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:manobras",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:contencoes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:estudar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:mundo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:buscar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:pressao",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:ler",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título correspondeao marcador:energia-exemplo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:bloquear",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:defesa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:aparar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:quedas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:carga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:buscar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:estudar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:ler",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:ocultacao-ataque",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:procurar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:buscar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:ler",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:pressao",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:procurar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:estudar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Remissão existente:estudar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Atributos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Maestria",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Dados e bônus",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Testes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Dificuldade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Sucesso e falha",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Treino e modificadores",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Especialização",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Vantagem e desvantagem",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Arredondamento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Testes de grupo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Testes de Resistência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:CD e resultado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ataques e defesas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Turnos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Iniciativa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Recursos do turno",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Conversão de ações",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Movimento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ações",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Usar a ação adequada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Conjuração",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Equipamento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ajudar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ajudar num teste",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ajudar num ataque",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Interação durante o combate",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Provocar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ler o Ambiente",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Influenciar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Preparar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Escolha o gatilho e a resposta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Espere o evento terminar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Atacar ou se mover",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Conjuração preparada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Reações e ataques de oportunidade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ataque de oportunidade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Movimento que não provoca",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Concentração",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Dano durante a concentração",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Procedimentos específicos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ataques",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ação Atacar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Resolução",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Bônus de ataque",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Feitiços",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Alcance",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Corpo a corpo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Armas à distância",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Visão e cobertura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Dano e crítico",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Dano do ataque",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Crítico",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Defesa e cobertura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Proteção",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Cobertura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Redução de Dano",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Bloquear",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Resolução",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Aparar e Brecha",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Aparar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Brecha",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ataques de resposta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Movimento e terreno",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Metros disponíveis",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Medidas de 1,5 m",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Terreno, escalada e natação",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Espaço e posição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Atravessar outra criatura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Obstáculos e movimento imposto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Distâncias e altura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Três dimensões",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Mesas sem mapa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Movimento imposto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Saltos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Distância e impulso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Esforço e obstáculos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Quedas e movimento imposto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Dano de queda",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Cair na água",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Empurrões e movimento imposto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Quedas sobre criaturas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Queda deliberada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Rastejar e passagens estreitas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Levantar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Passagem estreita",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Voo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Combinar modalidades",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Obstáculos e alcance",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Perder sustentação",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Carga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Volume dos itens",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Objetos sem valor e criaturas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Erguer",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Arrastar e transportar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Arrastar pelo chão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Transporte em grupo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Combate montado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Turnos e controle",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ameaças e quedas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Percepção e visibilidade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ver, localizar e estar oculto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Luz e obstáculos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Esconder",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Quando é possível",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Uma rolagem, vários observadores",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Enquanto você permanece escondido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Vasculhar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Qual procedimento usar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ataques e ocultação",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Visão e posição do alvo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Ataques e posição revelada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Agarrar, derrubar e empurrar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Faça a manobra",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Mãos, armas e alcance",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Escapar de uma contenção",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Escapar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Arrastar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:No chão e sob ataque",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Estudar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Diga o que procura entender",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Resolva a pergunta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Encontrar, compreender ou explorar o lugar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Percepção de energia",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Fonte e portador",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Limites da leitura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Vasculhar com Sentir Energia",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Resolva a busca",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Resultados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Sinais de energia no ambiente",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Sinais da cena",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Nova tentativa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Alvos sem energia",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Examinar energia e vestígios",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Estudar uma fonte",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Vestígios",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Busca numa sala escura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Usar a descoberta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Carga e resíduos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Títulodireto:Barreiras",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Defesa17/ataque6 estática",
+      "obtido": 0.5,
+      "esperado": 0.5,
+      "ok": true
+    },
+    {
+      "caso": "Defesa17/ataque6 semprebloquear",
+      "obtido": 0.5005,
+      "esperado": 0.5005,
+      "ok": true
+    },
+    {
+      "caso": "Defesa17/ataque6 escolha",
+      "obtido": 0.4175,
+      "esperado": 0.4175,
+      "ok": true
+    },
+    {
+      "caso": "Nenhuma escolha informada pioraqueDefesa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Desvantagem Aparar0,01%",
+      "obtido": "1/10000",
+      "esperado": "1/10000",
+      "ok": true
+    },
+    {
+      "caso": "DesvantagemBrecha1,99%",
+      "obtido": "199/10000",
+      "esperado": "199/10000",
+      "ok": true
+    },
+    {
+      "caso": "20natural superaAparar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "19não superaAparar",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Provocação empate resiste",
+      "obtido": "19/40",
+      "esperado": "19/40",
+      "ok": true
+    },
+    {
+      "caso": "Máximo3Movimentos daeconomia",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Conversão não gera novaPadrão",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "TrêsMovimentos consomemPadrãoBônus",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Salto semimpulso Força1",
+      "obtido": 1.5,
+      "esperado": 1.5,
+      "ok": true
+    },
+    {
+      "caso": "Salto Força5 comimpulso",
+      "obtido": 10.5,
+      "esperado": 10.5,
+      "ok": true
+    },
+    {
+      "caso": "Diagonal6horizontal4.5altura",
+      "obtido": "6",
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "caso": "Salto exemplo paga7,5",
+      "obtido": "15/2",
+      "esperado": "15/2",
+      "ok": true
+    },
+    {
+      "caso": "Rastejar regular9m alcança4,5",
+      "obtido": "9/2",
+      "esperado": "9/2",
+      "ok": true
+    },
+    {
+      "caso": "Rastejar difícil9m alcança3",
+      "obtido": "3",
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Voo9terrestre12voo após6",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "caso": "Reservaextra não recebe gastoanterior",
+      "obtido": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:0",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:2",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:3",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:4",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:5",
+      "obtido": 5,
+      "esperado": 5,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:6",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:7",
+      "obtido": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:8",
+      "obtido": 8,
+      "esperado": 8,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:9",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:10",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:11",
+      "obtido": 11,
+      "esperado": 11,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:12",
+      "obtido": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:13",
+      "obtido": 13,
+      "esperado": 13,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:14",
+      "obtido": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:15",
+      "obtido": 15,
+      "esperado": 15,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:16",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:17",
+      "obtido": 17,
+      "esperado": 17,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:18",
+      "obtido": 18,
+      "esperado": 18,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:19",
+      "obtido": 19,
+      "esperado": 19,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:20",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:21",
+      "obtido": 21,
+      "esperado": 21,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:22",
+      "obtido": 22,
+      "esperado": 22,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:23",
+      "obtido": 23,
+      "esperado": 23,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:24",
+      "obtido": 24,
+      "esperado": 24,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:25",
+      "obtido": 25,
+      "esperado": 25,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:26",
+      "obtido": 26,
+      "esperado": 26,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:27",
+      "obtido": 27,
+      "esperado": 27,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:28",
+      "obtido": 28,
+      "esperado": 28,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:29",
+      "obtido": 29,
+      "esperado": 29,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:30",
+      "obtido": 30,
+      "esperado": 30,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:31",
+      "obtido": 31,
+      "esperado": 31,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:32",
+      "obtido": 32,
+      "esperado": 32,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:33",
+      "obtido": 33,
+      "esperado": 33,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:34",
+      "obtido": 34,
+      "esperado": 34,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:35",
+      "obtido": 35,
+      "esperado": 35,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:36",
+      "obtido": 36,
+      "esperado": 36,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:37",
+      "obtido": 37,
+      "esperado": 37,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:38",
+      "obtido": 38,
+      "esperado": 38,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:39",
+      "obtido": 39,
+      "esperado": 39,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:40",
+      "obtido": 40,
+      "esperado": 40,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:41",
+      "obtido": 41,
+      "esperado": 41,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:42",
+      "obtido": 42,
+      "esperado": 42,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:43",
+      "obtido": 43,
+      "esperado": 43,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:44",
+      "obtido": 44,
+      "esperado": 44,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:45",
+      "obtido": 45,
+      "esperado": 45,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:46",
+      "obtido": 46,
+      "esperado": 46,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:47",
+      "obtido": 47,
+      "esperado": 47,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:48",
+      "obtido": 48,
+      "esperado": 48,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:49",
+      "obtido": 49,
+      "esperado": 49,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:50",
+      "obtido": 50,
+      "esperado": 50,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:51",
+      "obtido": 51,
+      "esperado": 51,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:52",
+      "obtido": 52,
+      "esperado": 52,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:53",
+      "obtido": 53,
+      "esperado": 53,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:54",
+      "obtido": 54,
+      "esperado": 54,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:55",
+      "obtido": 55,
+      "esperado": 55,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:56",
+      "obtido": 56,
+      "esperado": 56,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:57",
+      "obtido": 57,
+      "esperado": 57,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:58",
+      "obtido": 58,
+      "esperado": 58,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:59",
+      "obtido": 59,
+      "esperado": 59,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:60",
+      "obtido": 60,
+      "esperado": 60,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:61",
+      "obtido": 61,
+      "esperado": 61,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:62",
+      "obtido": 62,
+      "esperado": 62,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:63",
+      "obtido": 63,
+      "esperado": 63,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:64",
+      "obtido": 64,
+      "esperado": 64,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:65",
+      "obtido": 65,
+      "esperado": 65,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:66",
+      "obtido": 66,
+      "esperado": 66,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:67",
+      "obtido": 67,
+      "esperado": 67,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:68",
+      "obtido": 68,
+      "esperado": 68,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:69",
+      "obtido": 69,
+      "esperado": 69,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:70",
+      "obtido": 70,
+      "esperado": 70,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:71",
+      "obtido": 71,
+      "esperado": 71,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:72",
+      "obtido": 72,
+      "esperado": 72,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:73",
+      "obtido": 73,
+      "esperado": 73,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:74",
+      "obtido": 74,
+      "esperado": 74,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:75",
+      "obtido": 75,
+      "esperado": 75,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:76",
+      "obtido": 76,
+      "esperado": 76,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:77",
+      "obtido": 77,
+      "esperado": 77,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:78",
+      "obtido": 78,
+      "esperado": 78,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:79",
+      "obtido": 79,
+      "esperado": 79,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:80",
+      "obtido": 80,
+      "esperado": 80,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:81",
+      "obtido": 81,
+      "esperado": 81,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:82",
+      "obtido": 82,
+      "esperado": 82,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:83",
+      "obtido": 83,
+      "esperado": 83,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:84",
+      "obtido": 84,
+      "esperado": 84,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:85",
+      "obtido": 85,
+      "esperado": 85,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:86",
+      "obtido": 86,
+      "esperado": 86,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:87",
+      "obtido": 87,
+      "esperado": 87,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:88",
+      "obtido": 88,
+      "esperado": 88,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:89",
+      "obtido": 89,
+      "esperado": 89,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:90",
+      "obtido": 90,
+      "esperado": 90,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:91",
+      "obtido": 91,
+      "esperado": 91,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:92",
+      "obtido": 92,
+      "esperado": 92,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:93",
+      "obtido": 93,
+      "esperado": 93,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:94",
+      "obtido": 94,
+      "esperado": 94,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:95",
+      "obtido": 95,
+      "esperado": 95,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:96",
+      "obtido": 96,
+      "esperado": 96,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:97",
+      "obtido": 97,
+      "esperado": 97,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:98",
+      "obtido": 98,
+      "esperado": 98,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:99",
+      "obtido": 99,
+      "esperado": 99,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:100",
+      "obtido": 100,
+      "esperado": 100,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:101",
+      "obtido": 101,
+      "esperado": 101,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:102",
+      "obtido": 102,
+      "esperado": 102,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:103",
+      "obtido": 103,
+      "esperado": 103,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:104",
+      "obtido": 104,
+      "esperado": 104,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:105",
+      "obtido": 105,
+      "esperado": 105,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:106",
+      "obtido": 106,
+      "esperado": 106,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:107",
+      "obtido": 107,
+      "esperado": 107,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:108",
+      "obtido": 108,
+      "esperado": 108,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:109",
+      "obtido": 109,
+      "esperado": 109,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:110",
+      "obtido": 110,
+      "esperado": 110,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:111",
+      "obtido": 111,
+      "esperado": 111,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:112",
+      "obtido": 112,
+      "esperado": 112,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:113",
+      "obtido": 113,
+      "esperado": 113,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:114",
+      "obtido": 114,
+      "esperado": 114,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:115",
+      "obtido": 115,
+      "esperado": 115,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:116",
+      "obtido": 116,
+      "esperado": 116,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:117",
+      "obtido": 117,
+      "esperado": 117,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:118",
+      "obtido": 118,
+      "esperado": 118,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:119",
+      "obtido": 119,
+      "esperado": 119,
+      "ok": true
+    },
+    {
+      "caso": "Queda repartida:120",
+      "obtido": 120,
+      "esperado": 120,
+      "ok": true
+    },
+    {
+      "caso": "11dano divide5/6",
+      "obtido": [
+        5,
+        6
+      ],
+      "esperado": [
+        5,
+        6
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Queda dado limite:3/2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Queda dado limite:3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Queda dado limite:9/2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Queda dado limite:6",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Queda dado limite:15/2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Queda dado limite:9",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Queda dado limite:21/2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Queda dado limite:30",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Queda dado limite:60",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Queda dado limite:150",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Queda dado limite:300",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Força0 corpo60kg cabe",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Corpo61kg não cabe",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "ArrastoF0equip1cabecorpo108kg",
+      "obtido": "10",
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "Grupo duas capacidades5-1 somam8",
+      "obtido": 8,
+      "esperado": 8,
+      "ok": true
+    },
+    {
+      "caso": "Maestria tabela1/2/3/4",
+      "obtido": [
+        [
+          2,
+          1
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          26,
+          4
+        ]
+      ],
+      "esperado": [
+        [
+          2,
+          1
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          26,
+          4
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Contrato textual:Empatar resiste.",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Contrato textual:um teste por golpe ou aplicação de dano",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Contrato textual:Inconsciente encerra a concentração",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Contrato textual:Incapacitado, por si só, não a encerra",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "achados": [
+    {
+      "id": "GER-C01",
+      "prioridade": "P3",
+      "local": "Movimento e terreno",
+      "antes": "como certas recargas",
+      "proposta": "Segunda manipulação de item.",
+      "motivo": "Recarga comum custaBônus no donoR05; exemplo atual sugeria outro custo.",
+      "resolvido": true
+    },
+    {
+      "id": "GER-C02",
+      "prioridade": "P3",
+      "local": "Defesa e cobertura",
+      "antes": "substituem a proteção passiva de energia",
+      "proposta": "Proteção passiva da rota.",
+      "motivo": "Compatibilizar com a proteção da rota semenergiaR10 e R05.",
+      "resolvido": true
+    },
+    {
+      "id": "GER-C03",
+      "prioridade": "P3",
+      "local": "Examinar energia e vestígios",
+      "antes": "identificar contato energético nas últimas24horas",
+      "proposta": "Retirar exemplo específico de habilidade.",
+      "motivo": "Pedido humano rejeita descrição de poderes fora do dono; parágrafo genérico já remete.",
+      "resolvido": true
+    }
+  ],
+  "modelos": {
+    "perfis_bloquear": [
+      {
+        "defesa": 10,
+        "bonus": 0,
+        "estatica": 0.55,
+        "semprebloquear": 0.5495,
+        "informada": 0.467
+      },
+      {
+        "defesa": 10,
+        "bonus": 1,
+        "estatica": 0.6,
+        "semprebloquear": 0.5985,
+        "informada": 0.5165
+      },
+      {
+        "defesa": 10,
+        "bonus": 2,
+        "estatica": 0.65,
+        "semprebloquear": 0.6465,
+        "informada": 0.566
+      },
+      {
+        "defesa": 10,
+        "bonus": 3,
+        "estatica": 0.7,
+        "semprebloquear": 0.693,
+        "informada": 0.6155
+      },
+      {
+        "defesa": 10,
+        "bonus": 4,
+        "estatica": 0.75,
+        "semprebloquear": 0.7375,
+        "informada": 0.665
+      },
+      {
+        "defesa": 10,
+        "bonus": 5,
+        "estatica": 0.8,
+        "semprebloquear": 0.7795,
+        "informada": 0.7145
+      },
+      {
+        "defesa": 10,
+        "bonus": 6,
+        "estatica": 0.85,
+        "semprebloquear": 0.8185,
+        "informada": 0.764
+      },
+      {
+        "defesa": 10,
+        "bonus": 7,
+        "estatica": 0.9,
+        "semprebloquear": 0.854,
+        "informada": 0.8135
+      },
+      {
+        "defesa": 10,
+        "bonus": 8,
+        "estatica": 0.95,
+        "semprebloquear": 0.8855,
+        "informada": 0.863
+      },
+      {
+        "defesa": 10,
+        "bonus": 9,
+        "estatica": 1.0,
+        "semprebloquear": 0.9125,
+        "informada": 0.9125
+      },
+      {
+        "defesa": 10,
+        "bonus": 10,
+        "estatica": 1.0,
+        "semprebloquear": 0.9345,
+        "informada": 0.9345
+      },
+      {
+        "defesa": 11,
+        "bonus": 0,
+        "estatica": 0.5,
+        "semprebloquear": 0.5005,
+        "informada": 0.4175
+      },
+      {
+        "defesa": 11,
+        "bonus": 1,
+        "estatica": 0.55,
+        "semprebloquear": 0.5495,
+        "informada": 0.467
+      },
+      {
+        "defesa": 11,
+        "bonus": 2,
+        "estatica": 0.6,
+        "semprebloquear": 0.5985,
+        "informada": 0.5165
+      },
+      {
+        "defesa": 11,
+        "bonus": 3,
+        "estatica": 0.65,
+        "semprebloquear": 0.6465,
+        "informada": 0.566
+      },
+      {
+        "defesa": 11,
+        "bonus": 4,
+        "estatica": 0.7,
+        "semprebloquear": 0.693,
+        "informada": 0.6155
+      },
+      {
+        "defesa": 11,
+        "bonus": 5,
+        "estatica": 0.75,
+        "semprebloquear": 0.7375,
+        "informada": 0.665
+      },
+      {
+        "defesa": 11,
+        "bonus": 6,
+        "estatica": 0.8,
+        "semprebloquear": 0.7795,
+        "informada": 0.7145
+      },
+      {
+        "defesa": 11,
+        "bonus": 7,
+        "estatica": 0.85,
+        "semprebloquear": 0.8185,
+        "informada": 0.764
+      },
+      {
+        "defesa": 11,
+        "bonus": 8,
+        "estatica": 0.9,
+        "semprebloquear": 0.854,
+        "informada": 0.8135
+      },
+      {
+        "defesa": 11,
+        "bonus": 9,
+        "estatica": 0.95,
+        "semprebloquear": 0.8855,
+        "informada": 0.863
+      },
+      {
+        "defesa": 11,
+        "bonus": 10,
+        "estatica": 1.0,
+        "semprebloquear": 0.9125,
+        "informada": 0.9125
+      },
+      {
+        "defesa": 12,
+        "bonus": 0,
+        "estatica": 0.45,
+        "semprebloquear": 0.4515,
+        "informada": 0.368
+      },
+      {
+        "defesa": 12,
+        "bonus": 1,
+        "estatica": 0.5,
+        "semprebloquear": 0.5005,
+        "informada": 0.4175
+      },
+      {
+        "defesa": 12,
+        "bonus": 2,
+        "estatica": 0.55,
+        "semprebloquear": 0.5495,
+        "informada": 0.467
+      },
+      {
+        "defesa": 12,
+        "bonus": 3,
+        "estatica": 0.6,
+        "semprebloquear": 0.5985,
+        "informada": 0.5165
+      },
+      {
+        "defesa": 12,
+        "bonus": 4,
+        "estatica": 0.65,
+        "semprebloquear": 0.6465,
+        "informada": 0.566
+      },
+      {
+        "defesa": 12,
+        "bonus": 5,
+        "estatica": 0.7,
+        "semprebloquear": 0.693,
+        "informada": 0.6155
+      },
+      {
+        "defesa": 12,
+        "bonus": 6,
+        "estatica": 0.75,
+        "semprebloquear": 0.7375,
+        "informada": 0.665
+      },
+      {
+        "defesa": 12,
+        "bonus": 7,
+        "estatica": 0.8,
+        "semprebloquear": 0.7795,
+        "informada": 0.7145
+      },
+      {
+        "defesa": 12,
+        "bonus": 8,
+        "estatica": 0.85,
+        "semprebloquear": 0.8185,
+        "informada": 0.764
+      },
+      {
+        "defesa": 12,
+        "bonus": 9,
+        "estatica": 0.9,
+        "semprebloquear": 0.854,
+        "informada": 0.8135
+      },
+      {
+        "defesa": 12,
+        "bonus": 10,
+        "estatica": 0.95,
+        "semprebloquear": 0.8855,
+        "informada": 0.863
+      },
+      {
+        "defesa": 13,
+        "bonus": 0,
+        "estatica": 0.4,
+        "semprebloquear": 0.4035,
+        "informada": 0.3195
+      },
+      {
+        "defesa": 13,
+        "bonus": 1,
+        "estatica": 0.45,
+        "semprebloquear": 0.4515,
+        "informada": 0.368
+      },
+      {
+        "defesa": 13,
+        "bonus": 2,
+        "estatica": 0.5,
+        "semprebloquear": 0.5005,
+        "informada": 0.4175
+      },
+      {
+        "defesa": 13,
+        "bonus": 3,
+        "estatica": 0.55,
+        "semprebloquear": 0.5495,
+        "informada": 0.467
+      },
+      {
+        "defesa": 13,
+        "bonus": 4,
+        "estatica": 0.6,
+        "semprebloquear": 0.5985,
+        "informada": 0.5165
+      },
+      {
+        "defesa": 13,
+        "bonus": 5,
+        "estatica": 0.65,
+        "semprebloquear": 0.6465,
+        "informada": 0.566
+      },
+      {
+        "defesa": 13,
+        "bonus": 6,
+        "estatica": 0.7,
+        "semprebloquear": 0.693,
+        "informada": 0.6155
+      },
+      {
+        "defesa": 13,
+        "bonus": 7,
+        "estatica": 0.75,
+        "semprebloquear": 0.7375,
+        "informada": 0.665
+      },
+      {
+        "defesa": 13,
+        "bonus": 8,
+        "estatica": 0.8,
+        "semprebloquear": 0.7795,
+        "informada": 0.7145
+      },
+      {
+        "defesa": 13,
+        "bonus": 9,
+        "estatica": 0.85,
+        "semprebloquear": 0.8185,
+        "informada": 0.764
+      },
+      {
+        "defesa": 13,
+        "bonus": 10,
+        "estatica": 0.9,
+        "semprebloquear": 0.854,
+        "informada": 0.8135
+      },
+      {
+        "defesa": 14,
+        "bonus": 0,
+        "estatica": 0.35,
+        "semprebloquear": 0.357,
+        "informada": 0.2725
+      },
+      {
+        "defesa": 14,
+        "bonus": 1,
+        "estatica": 0.4,
+        "semprebloquear": 0.4035,
+        "informada": 0.3195
+      },
+      {
+        "defesa": 14,
+        "bonus": 2,
+        "estatica": 0.45,
+        "semprebloquear": 0.4515,
+        "informada": 0.368
+      },
+      {
+        "defesa": 14,
+        "bonus": 3,
+        "estatica": 0.5,
+        "semprebloquear": 0.5005,
+        "informada": 0.4175
+      },
+      {
+        "defesa": 14,
+        "bonus": 4,
+        "estatica": 0.55,
+        "semprebloquear": 0.5495,
+        "informada": 0.467
+      },
+      {
+        "defesa": 14,
+        "bonus": 5,
+        "estatica": 0.6,
+        "semprebloquear": 0.5985,
+        "informada": 0.5165
+      },
+      {
+        "defesa": 14,
+        "bonus": 6,
+        "estatica": 0.65,
+        "semprebloquear": 0.6465,
+        "informada": 0.566
+      },
+      {
+        "defesa": 14,
+        "bonus": 7,
+        "estatica": 0.7,
+        "semprebloquear": 0.693,
+        "informada": 0.6155
+      },
+      {
+        "defesa": 14,
+        "bonus": 8,
+        "estatica": 0.75,
+        "semprebloquear": 0.7375,
+        "informada": 0.665
+      },
+      {
+        "defesa": 14,
+        "bonus": 9,
+        "estatica": 0.8,
+        "semprebloquear": 0.7795,
+        "informada": 0.7145
+      },
+      {
+        "defesa": 14,
+        "bonus": 10,
+        "estatica": 0.85,
+        "semprebloquear": 0.8185,
+        "informada": 0.764
+      },
+      {
+        "defesa": 15,
+        "bonus": 0,
+        "estatica": 0.3,
+        "semprebloquear": 0.3125,
+        "informada": 0.2275
+      },
+      {
+        "defesa": 15,
+        "bonus": 1,
+        "estatica": 0.35,
+        "semprebloquear": 0.357,
+        "informada": 0.2725
+      },
+      {
+        "defesa": 15,
+        "bonus": 2,
+        "estatica": 0.4,
+        "semprebloquear": 0.4035,
+        "informada": 0.3195
+      },
+      {
+        "defesa": 15,
+        "bonus": 3,
+        "estatica": 0.45,
+        "semprebloquear": 0.4515,
+        "informada": 0.368
+      },
+      {
+        "defesa": 15,
+        "bonus": 4,
+        "estatica": 0.5,
+        "semprebloquear": 0.5005,
+        "informada": 0.4175
+      },
+      {
+        "defesa": 15,
+        "bonus": 5,
+        "estatica": 0.55,
+        "semprebloquear": 0.5495,
+        "informada": 0.467
+      },
+      {
+        "defesa": 15,
+        "bonus": 6,
+        "estatica": 0.6,
+        "semprebloquear": 0.5985,
+        "informada": 0.5165
+      },
+      {
+        "defesa": 15,
+        "bonus": 7,
+        "estatica": 0.65,
+        "semprebloquear": 0.6465,
+        "informada": 0.566
+      },
+      {
+        "defesa": 15,
+        "bonus": 8,
+        "estatica": 0.7,
+        "semprebloquear": 0.693,
+        "informada": 0.6155
+      },
+      {
+        "defesa": 15,
+        "bonus": 9,
+        "estatica": 0.75,
+        "semprebloquear": 0.7375,
+        "informada": 0.665
+      },
+      {
+        "defesa": 15,
+        "bonus": 10,
+        "estatica": 0.8,
+        "semprebloquear": 0.7795,
+        "informada": 0.7145
+      },
+      {
+        "defesa": 16,
+        "bonus": 0,
+        "estatica": 0.25,
+        "semprebloquear": 0.2705,
+        "informada": 0.185
+      },
+      {
+        "defesa": 16,
+        "bonus": 1,
+        "estatica": 0.3,
+        "semprebloquear": 0.3125,
+        "informada": 0.2275
+      },
+      {
+        "defesa": 16,
+        "bonus": 2,
+        "estatica": 0.35,
+        "semprebloquear": 0.357,
+        "informada": 0.2725
+      },
+      {
+        "defesa": 16,
+        "bonus": 3,
+        "estatica": 0.4,
+        "semprebloquear": 0.4035,
+        "informada": 0.3195
+      },
+      {
+        "defesa": 16,
+        "bonus": 4,
+        "estatica": 0.45,
+        "semprebloquear": 0.4515,
+        "informada": 0.368
+      },
+      {
+        "defesa": 16,
+        "bonus": 5,
+        "estatica": 0.5,
+        "semprebloquear": 0.5005,
+        "informada": 0.4175
+      },
+      {
+        "defesa": 16,
+        "bonus": 6,
+        "estatica": 0.55,
+        "semprebloquear": 0.5495,
+        "informada": 0.467
+      },
+      {
+        "defesa": 16,
+        "bonus": 7,
+        "estatica": 0.6,
+        "semprebloquear": 0.5985,
+        "informada": 0.5165
+      },
+      {
+        "defesa": 16,
+        "bonus": 8,
+        "estatica": 0.65,
+        "semprebloquear": 0.6465,
+        "informada": 0.566
+      },
+      {
+        "defesa": 16,
+        "bonus": 9,
+        "estatica": 0.7,
+        "semprebloquear": 0.693,
+        "informada": 0.6155
+      },
+      {
+        "defesa": 16,
+        "bonus": 10,
+        "estatica": 0.75,
+        "semprebloquear": 0.7375,
+        "informada": 0.665
+      },
+      {
+        "defesa": 17,
+        "bonus": 0,
+        "estatica": 0.2,
+        "semprebloquear": 0.2315,
+        "informada": 0.1455
+      },
+      {
+        "defesa": 17,
+        "bonus": 1,
+        "estatica": 0.25,
+        "semprebloquear": 0.2705,
+        "informada": 0.185
+      },
+      {
+        "defesa": 17,
+        "bonus": 2,
+        "estatica": 0.3,
+        "semprebloquear": 0.3125,
+        "informada": 0.2275
+      },
+      {
+        "defesa": 17,
+        "bonus": 3,
+        "estatica": 0.35,
+        "semprebloquear": 0.357,
+        "informada": 0.2725
+      },
+      {
+        "defesa": 17,
+        "bonus": 4,
+        "estatica": 0.4,
+        "semprebloquear": 0.4035,
+        "informada": 0.3195
+      },
+      {
+        "defesa": 17,
+        "bonus": 5,
+        "estatica": 0.45,
+        "semprebloquear": 0.4515,
+        "informada": 0.368
+      },
+      {
+        "defesa": 17,
+        "bonus": 6,
+        "estatica": 0.5,
+        "semprebloquear": 0.5005,
+        "informada": 0.4175
+      },
+      {
+        "defesa": 17,
+        "bonus": 7,
+        "estatica": 0.55,
+        "semprebloquear": 0.5495,
+        "informada": 0.467
+      },
+      {
+        "defesa": 17,
+        "bonus": 8,
+        "estatica": 0.6,
+        "semprebloquear": 0.5985,
+        "informada": 0.5165
+      },
+      {
+        "defesa": 17,
+        "bonus": 9,
+        "estatica": 0.65,
+        "semprebloquear": 0.6465,
+        "informada": 0.566
+      },
+      {
+        "defesa": 17,
+        "bonus": 10,
+        "estatica": 0.7,
+        "semprebloquear": 0.693,
+        "informada": 0.6155
+      },
+      {
+        "defesa": 18,
+        "bonus": 0,
+        "estatica": 0.15,
+        "semprebloquear": 0.196,
+        "informada": 0.1095
+      },
+      {
+        "defesa": 18,
+        "bonus": 1,
+        "estatica": 0.2,
+        "semprebloquear": 0.2315,
+        "informada": 0.1455
+      },
+      {
+        "defesa": 18,
+        "bonus": 2,
+        "estatica": 0.25,
+        "semprebloquear": 0.2705,
+        "informada": 0.185
+      },
+      {
+        "defesa": 18,
+        "bonus": 3,
+        "estatica": 0.3,
+        "semprebloquear": 0.3125,
+        "informada": 0.2275
+      },
+      {
+        "defesa": 18,
+        "bonus": 4,
+        "estatica": 0.35,
+        "semprebloquear": 0.357,
+        "informada": 0.2725
+      },
+      {
+        "defesa": 18,
+        "bonus": 5,
+        "estatica": 0.4,
+        "semprebloquear": 0.4035,
+        "informada": 0.3195
+      },
+      {
+        "defesa": 18,
+        "bonus": 6,
+        "estatica": 0.45,
+        "semprebloquear": 0.4515,
+        "informada": 0.368
+      },
+      {
+        "defesa": 18,
+        "bonus": 7,
+        "estatica": 0.5,
+        "semprebloquear": 0.5005,
+        "informada": 0.4175
+      },
+      {
+        "defesa": 18,
+        "bonus": 8,
+        "estatica": 0.55,
+        "semprebloquear": 0.5495,
+        "informada": 0.467
+      },
+      {
+        "defesa": 18,
+        "bonus": 9,
+        "estatica": 0.6,
+        "semprebloquear": 0.5985,
+        "informada": 0.5165
+      },
+      {
+        "defesa": 18,
+        "bonus": 10,
+        "estatica": 0.65,
+        "semprebloquear": 0.6465,
+        "informada": 0.566
+      },
+      {
+        "defesa": 19,
+        "bonus": 0,
+        "estatica": 0.1,
+        "semprebloquear": 0.1645,
+        "informada": 0.0775
+      },
+      {
+        "defesa": 19,
+        "bonus": 1,
+        "estatica": 0.15,
+        "semprebloquear": 0.196,
+        "informada": 0.1095
+      },
+      {
+        "defesa": 19,
+        "bonus": 2,
+        "estatica": 0.2,
+        "semprebloquear": 0.2315,
+        "informada": 0.1455
+      },
+      {
+        "defesa": 19,
+        "bonus": 3,
+        "estatica": 0.25,
+        "semprebloquear": 0.2705,
+        "informada": 0.185
+      },
+      {
+        "defesa": 19,
+        "bonus": 4,
+        "estatica": 0.3,
+        "semprebloquear": 0.3125,
+        "informada": 0.2275
+      },
+      {
+        "defesa": 19,
+        "bonus": 5,
+        "estatica": 0.35,
+        "semprebloquear": 0.357,
+        "informada": 0.2725
+      },
+      {
+        "defesa": 19,
+        "bonus": 6,
+        "estatica": 0.4,
+        "semprebloquear": 0.4035,
+        "informada": 0.3195
+      },
+      {
+        "defesa": 19,
+        "bonus": 7,
+        "estatica": 0.45,
+        "semprebloquear": 0.4515,
+        "informada": 0.368
+      },
+      {
+        "defesa": 19,
+        "bonus": 8,
+        "estatica": 0.5,
+        "semprebloquear": 0.5005,
+        "informada": 0.4175
+      },
+      {
+        "defesa": 19,
+        "bonus": 9,
+        "estatica": 0.55,
+        "semprebloquear": 0.5495,
+        "informada": 0.467
+      },
+      {
+        "defesa": 19,
+        "bonus": 10,
+        "estatica": 0.6,
+        "semprebloquear": 0.5985,
+        "informada": 0.5165
+      },
+      {
+        "defesa": 20,
+        "bonus": 0,
+        "estatica": 0.05,
+        "semprebloquear": 0.1375,
+        "informada": 0.05
+      },
+      {
+        "defesa": 20,
+        "bonus": 1,
+        "estatica": 0.1,
+        "semprebloquear": 0.1645,
+        "informada": 0.0775
+      },
+      {
+        "defesa": 20,
+        "bonus": 2,
+        "estatica": 0.15,
+        "semprebloquear": 0.196,
+        "informada": 0.1095
+      },
+      {
+        "defesa": 20,
+        "bonus": 3,
+        "estatica": 0.2,
+        "semprebloquear": 0.2315,
+        "informada": 0.1455
+      },
+      {
+        "defesa": 20,
+        "bonus": 4,
+        "estatica": 0.25,
+        "semprebloquear": 0.2705,
+        "informada": 0.185
+      },
+      {
+        "defesa": 20,
+        "bonus": 5,
+        "estatica": 0.3,
+        "semprebloquear": 0.3125,
+        "informada": 0.2275
+      },
+      {
+        "defesa": 20,
+        "bonus": 6,
+        "estatica": 0.35,
+        "semprebloquear": 0.357,
+        "informada": 0.2725
+      },
+      {
+        "defesa": 20,
+        "bonus": 7,
+        "estatica": 0.4,
+        "semprebloquear": 0.4035,
+        "informada": 0.3195
+      },
+      {
+        "defesa": 20,
+        "bonus": 8,
+        "estatica": 0.45,
+        "semprebloquear": 0.4515,
+        "informada": 0.368
+      },
+      {
+        "defesa": 20,
+        "bonus": 9,
+        "estatica": 0.5,
+        "semprebloquear": 0.5005,
+        "informada": 0.4175
+      },
+      {
+        "defesa": 20,
+        "bonus": 10,
+        "estatica": 0.55,
+        "semprebloquear": 0.5495,
+        "informada": 0.467
+      },
+      {
+        "defesa": 21,
+        "bonus": 0,
+        "estatica": 0.05,
+        "semprebloquear": 0.1155,
+        "informada": 0.05
+      },
+      {
+        "defesa": 21,
+        "bonus": 1,
+        "estatica": 0.05,
+        "semprebloquear": 0.1375,
+        "informada": 0.05
+      },
+      {
+        "defesa": 21,
+        "bonus": 2,
+        "estatica": 0.1,
+        "semprebloquear": 0.1645,
+        "informada": 0.0775
+      },
+      {
+        "defesa": 21,
+        "bonus": 3,
+        "estatica": 0.15,
+        "semprebloquear": 0.196,
+        "informada": 0.1095
+      },
+      {
+        "defesa": 21,
+        "bonus": 4,
+        "estatica": 0.2,
+        "semprebloquear": 0.2315,
+        "informada": 0.1455
+      },
+      {
+        "defesa": 21,
+        "bonus": 5,
+        "estatica": 0.25,
+        "semprebloquear": 0.2705,
+        "informada": 0.185
+      },
+      {
+        "defesa": 21,
+        "bonus": 6,
+        "estatica": 0.3,
+        "semprebloquear": 0.3125,
+        "informada": 0.2275
+      },
+      {
+        "defesa": 21,
+        "bonus": 7,
+        "estatica": 0.35,
+        "semprebloquear": 0.357,
+        "informada": 0.2725
+      },
+      {
+        "defesa": 21,
+        "bonus": 8,
+        "estatica": 0.4,
+        "semprebloquear": 0.4035,
+        "informada": 0.3195
+      },
+      {
+        "defesa": 21,
+        "bonus": 9,
+        "estatica": 0.45,
+        "semprebloquear": 0.4515,
+        "informada": 0.368
+      },
+      {
+        "defesa": 21,
+        "bonus": 10,
+        "estatica": 0.5,
+        "semprebloquear": 0.5005,
+        "informada": 0.4175
+      },
+      {
+        "defesa": 22,
+        "bonus": 0,
+        "estatica": 0.05,
+        "semprebloquear": 0.098,
+        "informada": 0.05
+      },
+      {
+        "defesa": 22,
+        "bonus": 1,
+        "estatica": 0.05,
+        "semprebloquear": 0.1155,
+        "informada": 0.05
+      },
+      {
+        "defesa": 22,
+        "bonus": 2,
+        "estatica": 0.05,
+        "semprebloquear": 0.1375,
+        "informada": 0.05
+      },
+      {
+        "defesa": 22,
+        "bonus": 3,
+        "estatica": 0.1,
+        "semprebloquear": 0.1645,
+        "informada": 0.0775
+      },
+      {
+        "defesa": 22,
+        "bonus": 4,
+        "estatica": 0.15,
+        "semprebloquear": 0.196,
+        "informada": 0.1095
+      },
+      {
+        "defesa": 22,
+        "bonus": 5,
+        "estatica": 0.2,
+        "semprebloquear": 0.2315,
+        "informada": 0.1455
+      },
+      {
+        "defesa": 22,
+        "bonus": 6,
+        "estatica": 0.25,
+        "semprebloquear": 0.2705,
+        "informada": 0.185
+      },
+      {
+        "defesa": 22,
+        "bonus": 7,
+        "estatica": 0.3,
+        "semprebloquear": 0.3125,
+        "informada": 0.2275
+      },
+      {
+        "defesa": 22,
+        "bonus": 8,
+        "estatica": 0.35,
+        "semprebloquear": 0.357,
+        "informada": 0.2725
+      },
+      {
+        "defesa": 22,
+        "bonus": 9,
+        "estatica": 0.4,
+        "semprebloquear": 0.4035,
+        "informada": 0.3195
+      },
+      {
+        "defesa": 22,
+        "bonus": 10,
+        "estatica": 0.45,
+        "semprebloquear": 0.4515,
+        "informada": 0.368
+      },
+      {
+        "defesa": 23,
+        "bonus": 0,
+        "estatica": 0.05,
+        "semprebloquear": 0.0845,
+        "informada": 0.05
+      },
+      {
+        "defesa": 23,
+        "bonus": 1,
+        "estatica": 0.05,
+        "semprebloquear": 0.098,
+        "informada": 0.05
+      },
+      {
+        "defesa": 23,
+        "bonus": 2,
+        "estatica": 0.05,
+        "semprebloquear": 0.1155,
+        "informada": 0.05
+      },
+      {
+        "defesa": 23,
+        "bonus": 3,
+        "estatica": 0.05,
+        "semprebloquear": 0.1375,
+        "informada": 0.05
+      },
+      {
+        "defesa": 23,
+        "bonus": 4,
+        "estatica": 0.1,
+        "semprebloquear": 0.1645,
+        "informada": 0.0775
+      },
+      {
+        "defesa": 23,
+        "bonus": 5,
+        "estatica": 0.15,
+        "semprebloquear": 0.196,
+        "informada": 0.1095
+      },
+      {
+        "defesa": 23,
+        "bonus": 6,
+        "estatica": 0.2,
+        "semprebloquear": 0.2315,
+        "informada": 0.1455
+      },
+      {
+        "defesa": 23,
+        "bonus": 7,
+        "estatica": 0.25,
+        "semprebloquear": 0.2705,
+        "informada": 0.185
+      },
+      {
+        "defesa": 23,
+        "bonus": 8,
+        "estatica": 0.3,
+        "semprebloquear": 0.3125,
+        "informada": 0.2275
+      },
+      {
+        "defesa": 23,
+        "bonus": 9,
+        "estatica": 0.35,
+        "semprebloquear": 0.357,
+        "informada": 0.2725
+      },
+      {
+        "defesa": 23,
+        "bonus": 10,
+        "estatica": 0.4,
+        "semprebloquear": 0.4035,
+        "informada": 0.3195
+      },
+      {
+        "defesa": 24,
+        "bonus": 0,
+        "estatica": 0.05,
+        "semprebloquear": 0.0745,
+        "informada": 0.05
+      },
+      {
+        "defesa": 24,
+        "bonus": 1,
+        "estatica": 0.05,
+        "semprebloquear": 0.0845,
+        "informada": 0.05
+      },
+      {
+        "defesa": 24,
+        "bonus": 2,
+        "estatica": 0.05,
+        "semprebloquear": 0.098,
+        "informada": 0.05
+      },
+      {
+        "defesa": 24,
+        "bonus": 3,
+        "estatica": 0.05,
+        "semprebloquear": 0.1155,
+        "informada": 0.05
+      },
+      {
+        "defesa": 24,
+        "bonus": 4,
+        "estatica": 0.05,
+        "semprebloquear": 0.1375,
+        "informada": 0.05
+      },
+      {
+        "defesa": 24,
+        "bonus": 5,
+        "estatica": 0.1,
+        "semprebloquear": 0.1645,
+        "informada": 0.0775
+      },
+      {
+        "defesa": 24,
+        "bonus": 6,
+        "estatica": 0.15,
+        "semprebloquear": 0.196,
+        "informada": 0.1095
+      },
+      {
+        "defesa": 24,
+        "bonus": 7,
+        "estatica": 0.2,
+        "semprebloquear": 0.2315,
+        "informada": 0.1455
+      },
+      {
+        "defesa": 24,
+        "bonus": 8,
+        "estatica": 0.25,
+        "semprebloquear": 0.2705,
+        "informada": 0.185
+      },
+      {
+        "defesa": 24,
+        "bonus": 9,
+        "estatica": 0.3,
+        "semprebloquear": 0.3125,
+        "informada": 0.2275
+      },
+      {
+        "defesa": 24,
+        "bonus": 10,
+        "estatica": 0.35,
+        "semprebloquear": 0.357,
+        "informada": 0.2725
+      }
+    ],
+    "conjuntos_desvantagem": 10000,
+    "estados_conversao": [
+      [
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "saltos": [
+      [
+        0,
+        3.0,
+        1.5
+      ],
+      [
+        1,
+        4.5,
+        1.5
+      ],
+      [
+        2,
+        6.0,
+        3.0
+      ],
+      [
+        3,
+        7.5,
+        3.0
+      ],
+      [
+        4,
+        9.0,
+        4.5
+      ],
+      [
+        5,
+        10.5,
+        4.5
+      ],
+      [
+        6,
+        12.0,
+        6.0
+      ]
+    ]
+  },
+  "limites": [
+    "Leitura integral40p mais alterações e interfaces.",
+    "Confronto dirigido de fontes: manual10/11, tabelas anteriores e decisões de movimento/energia.",
+    "Não é leitura integral de mangá ou livros referenciais. Cânone reavaliado quanto à separação entre fato e adaptação, pelas evidências primárias registradas.",
+    "Não é playtest ou ensaio humano.",
+    "Visual pendente até provafinal."
+  ]
+}

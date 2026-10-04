@@ -55,13 +55,38 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Caminho** | O seu lugar numa equipe. Quatro nesta edição: Bastião, Vanguarda, Guia, Emanador. O Evocador está fora dela. Escolhido na criação, para sempre | 8 |
-| **Trilha** | Quem você é dentro do Caminho. Três por Caminho, doze nesta edição | 8 |
+| **Caminho** | O seu lugar numa equipe. Seis nesta edição: Bastião, Vanguarda, Guia, Emanador, Evocador e Incursor. Escolhido na criação, para sempre | 8 |
+| **Trilha** | Quem você é dentro do Caminho. Três por Caminho, dezoito nesta edição | 8 |
+| **Fluidez** | Estado do Incursor: guarda um por vez e gasta nos usos do Caminho ou da Trilha | 8 |
+| **Canalizar em Golpe** | Nos Caminhos, o dano na arma da aptidão Canalizar energia; cada habilidade declara suas exceções | 12 |
+| **Pontos de Vínculo** | Reserva do Evocador para intervenções; começa em zero e cresce no começo de seus turnos | 8 |
+| **Entidade** | Criatura com ficha própria obtida por técnica, criação ou domínio de uma maldição | 17 |
+| **Básica** | Atuação comum da entidade; conhecer opções não concede atuações adicionais | 17 |
+| **Especial de invocação** | Habilidade que exige seu comando, com custos e requisitos próprios | 17 |
+| **Reação coletiva** | Reserva de Reação compartilhada pelas entidades, separada da sua Reação pessoal | 17 |
+| **`Rápido`** | Melhoria que troca a Ação Padrão do feitiço pela Ação Bônus; requisitos e limites no catálogo | 9 |
+| **`Aquecer`** | Restrição que impede usar o feitiço na primeira rodada do combate; requisitos e limites no catálogo | 9 |
+| **`Levanta`** | Melhoria de Amparo que devolve vida a um aliado caído; requisitos e limites no catálogo | 9 |
+| **`Fica`** | Melhoria que mantém uma área e exige concentração; requisitos e limites no catálogo | 9 |
+| **`Rajada`** | Melhoria que divide o feitiço em tiros com rolagens próprias; requisitos e limites no catálogo | 9 |
+| **`Inescapável`** | Melhoria de dano automático, incompatível com outras peças; requisitos e limites no catálogo | 9 |
+| **`Anteparo`** | Melhoria que cria uma parede ou escudo com vida própria; requisitos e limites no catálogo | 9 |
+| **`Toca a Alma`** | Melhoria que converte dados de dano em dano na alma; requisitos e limites no catálogo | 9 |
+| **`Remenda`** | Melhoria que recupera Integridade de um aliado; requisitos e limites no catálogo | 9 |
+| **`Dívida`** | Restrição que aumenta o PE do próximo feitiço na cena; requisitos e limites no catálogo | 9 |
+| **`Escolher`** | Melhoria que permite escolher quem é atingido na área; requisitos e limites no catálogo | 9 |
+| **`Guarda`** | Melhoria que concede um bônus de Defesa por prazo definido; requisitos e limites no catálogo | 9 |
+| **`Queima`** | Melhoria que repete parte dos dados no começo do turno seguinte do alvo; requisitos e limites no catálogo | 9 |
+| **`Armado`** | Melhoria que reserva um feitiço para um gatilho futuro da cena; requisitos e limites no catálogo | 9 |
+| **`Efeito Próprio`** | Melhoria para uma mecânica definida com o mestre antes da sessão; requisitos e limites no catálogo | 9 |
+| **`Mão Firme`** | Passiva que protege concentração e carga contra dano baixo; requisitos e limites no catálogo | 9 |
+| **`Fluxo`** | Passiva que concede vida temporária ao conjurar uma Classe elegível; requisitos e limites no catálogo | 9 |
+| **`Passiva Própria`** | Passiva definida com o mestre na escala do catálogo; requisitos e limites no catálogo | 9 |
 | **Origem** | De onde vem o seu poder. Sete, mais a sub-origem Sem Técnica | 7 |
 | **Legado** | O que você já trazia, das listas da sua Origem. Dois por ficha | 7 |
 | **Traço** | Marca de história vinda da Origem, sem número | 7 |
-| **Pacto** | O que você trocou por poder. Opcional. Quatro formas: permanente, temporário, `Promessa` e de restrição. Só o permanente tem teto, e ele é metade da Essência | 17 |
-| **`Promessa`** | O pacto entre duas partes, com as duas aceitando. Tem três termos: o que eu dou, o que eu recebo, e a cláusula que eu acrescento | 17 |
+| **Pacto** | O que você trocou por poder. Opcional. Quatro formas: permanente, temporário, `Promessa` e de restrição. Só o permanente tem teto, e ele é metade da Essência | 18 |
+| **`Promessa`** | O pacto entre duas partes, com as duas aceitando. Tem três termos: o que eu dou, o que eu recebo, e a cláusula que eu acrescento | 18 |
 | **Patente** | O seu reconhecimento na instituição, de Grau 4 a Grau 1. Todo personagem começa **Grau 4** | 7 |
 
 > **Cuidado com a palavra `Grau`.** Ela nomeia duas escadas de cinco casas que não se encostam: a **patente** de um feiticeiro e o **grau** de uma ferramenta amaldiçoada. Patente é reconhecimento; grau de ferramenta é a energia que a ferramenta carrega. O capítulo 15 abre a diferença.
@@ -91,7 +116,7 @@ Cada termo vem com uma linha de explicação e o número do capítulo que trata 
 | **Classe 0** | O feitiço grátis: não gasta PE e não ocupa espaço na lista | 9 |
 | **Passiva** | Efeito que fica ligado sozinho. Custa espaço de feitiço | 9 |
 | **Classe Passiva** | A altura de uma Passiva, de Livre a 3. Diz quantos espaços ela cobra e em que nível abre | 9 |
-| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 18 |
+| **Espaço de feitiço** | `2 + (nível ÷ 2)`, arredondando para baixo, mais um por marco. É a moeda que Passiva e Expansão de Domínio também gastam | 19 |
 | **Ampliar** | Lançar um feitiço que você conhece numa Classe maior, pagando o PE da Classe nova | 9 |
 | **Liberação Máxima** | Feitiço à parte, escrito antes da sessão, de Classe 3 ou mais. Rompe o limite de dano num alvo só. Nos níveis 10, 20 e 30 | 9 |
 | **Técnica Máxima** | O golpe de dano fixo que carrega o nome da técnica. Do nível 17 em diante | 9 |
@@ -135,10 +160,10 @@ O eixo de controle de quem não tem energia amaldiçoada nenhuma, no lugar do re
 
 | Termo | O que é | Cap. |
 |---|---|---|
-| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 18 |
+| **Marco** | Um dos sete níveis em que a ficha muda de forma: **6, 10, 14, 18, 22, 26 e 30** | 19 |
 | **Refino** | Quanto da sua energia você não desperdiça. Começa em 1, teto 10. Sobe `+1` de graça em cada marco | 12 |
 | **Aptidão** | O que qualquer feiticeiro pode aprender, independente da técnica. Custa marco, e só marco | 12 |
-| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo e mais uma perícia ou ofício; mais refino e uma aptidão; ou mais feitiço e uma Passiva. Numa ficha sem energia, o eixo do meio é **Lapidação** e entrega Bênção | 18 |
+| **Corpo**, **Refino**, **Leque** | As três escolhas que um marco oferece: mais atributo e mais uma perícia ou ofício; mais refino e uma aptidão; ou mais feitiço e uma Passiva. Numa ficha sem energia, o eixo do meio é **Lapidação** e entrega Bênção | 19 |
 
 ## Turno
 

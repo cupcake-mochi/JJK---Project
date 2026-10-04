@@ -1,0 +1,18 @@
+{
+  "grade_descanso": 600,
+  "maximos_insistir_sem_sobra": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    17
+  ],
+  "limite": "Modelo de procedimentos candidatos, não validação de equilíbrio; custo em máximo reduzido exige decisão."
+}

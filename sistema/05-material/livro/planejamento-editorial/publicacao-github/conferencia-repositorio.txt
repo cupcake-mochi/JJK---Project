@@ -1,0 +1,517 @@
+
+========================================================================================
+1. ESTRUTURA — o que o README promete existe?
+========================================================================================
+  [x] README.md
+  [x] .gitignore
+  [x] logs/CHANGELOG.md
+  [x] logs/CHANGELOG-manual-v6-para-v7.md
+  [x] manual/Fundamento-MANUAL-v7.docx
+  [x] manual/Fundamento-MANUAL-v7.pdf
+  [x] manual/gerador/make.js
+  [x] manual/gerador/COMO-USAR.txt
+  [x] manual/matematica/pac7.py
+  [x] manual/matematica/v7.py
+  [x] sistema/ESTADO-ATUAL.md
+  [x] sistema/LEIA-ME.md
+  [x] sistema/00-fundacao
+  [x] sistema/01-pesquisa
+  [x] sistema/02-esqueleto
+  [x] sistema/03-mecanica
+  [x] sistema/04-playtest
+  [x] sistema/05-material
+  [x] sistema/99-arquivo
+  [x] sistema/skills
+
+  27 pecas de regra, 27 validadores.
+  O README diz vinte e sete e vinte e sete, e a pasta concorda.
+  Numeracao de 01 a 27, sem buraco.
+
+========================================================================================
+2. REFERENCIA MORTA — todo caminho citado resolve?
+========================================================================================
+  !! sistema/ESTADO-ATUAL.md cita `planejamento-editorial/regras-comuns/lote-06-r2/sincronizacoes/INCURSOR-COMPLETO.md`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `planejamento-editorial/equipamento/PENDENCIAS-DE-ITENS.md`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `planejamento-editorial/REVISAO-MORRENDO.md`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `regras-comuns/lote-06/LEIA-ME.md`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `planejamento-editorial/ROTEIRO-DE-EXECUCAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `entregas/continuidade-work-2026-10-03/`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `planejamento-editorial/ADENDO-REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `planejamento-editorial/evidencias/abertura-retorno-pos-r2.md`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `planejamento-editorial/regras-comuns/01-MOVIMENTO-MINUTA.md`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `planejamento-editorial/regras-comuns/lote-02/LEIA-ME.md`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `planejamento-editorial/regras-comuns/lote-02/LEIA-ME.md`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `regras-comuns/lote-03/LEIA-ME.md`, e ele nao existe em lugar nenhum
+  !! sistema/ESTADO-ATUAL.md cita `finalizado/livro/`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/ESTADO-revisao.md cita `finalizado/livro/`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/piloto-editorial-r2/evidencias/comparacao-fm.md cita `/tmp/editorial-r2-fm/`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/piloto-editorial-r2/evidencias/comparacao-fm.md cita `planejamento-editorial/PLANO-EDITORIAL.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/piloto-editorial-r2/evidencias/comparacao-fm.md cita `piloto-editorial-r1/PILOTO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/piloto-editorial-r2/evidencias/revisao-leitor.md cita `manual/60-invocacoes.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/piloto-editorial-r2/evidencias/revisao-leitor.md cita `manual/60-invocacoes.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/piloto-editorial-r2/evidencias/gabarito-tecnico.md cita `piloto-editorial-r2/LOTE-TECNICO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/piloto-editorial-r2/evidencias/gabarito-tecnico.md cita `manual/12-pericias-e-oficios.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/piloto-editorial-r2/evidencias/gabarito-tecnico.md cita `manual/40-fundamento.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/piloto-editorial-r2/evidencias/gabarito-tecnico.md cita `manual/15-dano-e-condicoes.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/piloto-editorial-r2/evidencias/gabarito-tecnico.md cita `piloto-editorial-r2/PILOTO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/RETOMADA-PAUSA-2026-10-03.md cita `consolidacao/lote-01/output/mosaicos-root/`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/RETOMADA-PAUSA-2026-10-03.md cita `evidencias/MOSAICOS-ROOT.json`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/RETOMADA-PAUSA-2026-10-03.md cita `migracao-nomes/QA-FECHAMENTO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/AUDITORIA-DO-PDF.md cita `sistema/05-material/livro/build/manual.html`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/evidencias/abertura-retorno-pos-r2.md cita `manual/05-introducao.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/evidencias/abertura-retorno-pos-r2.md cita `3dt-alpha-manual-revisado-biblioteca-elfica.pdf`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/evidencias/abertura-retorno-pos-r2.md cita `Player_Hand_Book_DnD_2024.pdf`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/evidencias/FILA-ANTES-DO-FECHAMENTO-2026-10-03.md cita `catalogo/lote-01/ALTERACOES.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/evidencias/FILA-ANTES-DO-FECHAMENTO-2026-10-03.md cita `validacao-editorial/PROTOCOLO-COMPLETO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-01/evidencias/FONTES-E-DESTINOS.md cita `Player_Hand_Book_DnD_2024.pdf`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r2/evidencias/FONTES-E-DESTINOS.md cita `manual/45-aptidoes-e-refino.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r2/evidencias/FONTES-E-DESTINOS.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r2/evidencias/FONTES-E-DESTINOS.md cita `regras-basicas/lote-02/DECISOES.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/evidencias/FONTES-E-DESTINOS.md cita `manual/45-aptidoes-e-refino.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/evidencias/FONTES-E-DESTINOS.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/evidencias/FONTES-E-DESTINOS.md cita `regras-basicas/lote-02/DECISOES.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03/evidencias/FONTES-E-DESTINOS.md cita `manual/45-aptidoes-e-refino.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03/evidencias/FONTES-E-DESTINOS.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03/evidencias/FONTES-E-DESTINOS.md cita `regras-basicas/lote-02/DECISOES.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/REVISAO-E-FONTES.md cita `manual/60-invocacoes.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/INTERFACES.md cita `equipamento/lote-final/FONTES.json`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-basicas/lote-03-r3/DANO-E-CONDICOES.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-basicas/lote-02/ATAQUES-E-DEFESA.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-basicas/lote-01/TESTES-E-TURNOS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-basicas/lote-04/RECUPERACAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-final/EQUIPAMENTO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-final/EQUIPAMENTO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-03-r5/MUNICAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-final/EQUIPAMENTO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-02-r3/PROTECAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-final/EQUIPAMENTO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-final/FONTES.json`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `consolidacao/lote-01/migracao-nomes/MIGRACAO.json`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/PROPOSTA-PATENTES.md cita `progressao/lote-01/PROGRESSAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/PROPOSTA-PATENTES.md cita `equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/EVIDENCIA-ESCALA.md cita `manual/20-criacao-de-personagem.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/EVIDENCIA-ESCALA.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/EVIDENCIA-ESCALA.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/EVIDENCIA-ESCALA.md cita `manual/12-pericias-e-oficios.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/EVIDENCIA-ESCALA.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r3/DECISOES.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r3/DECISOES.md cita `regras-basicas/lote-03-r3/DANO-E-CONDICOES.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r2/DECISOES.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r2/DECISOES.md cita `regras-basicas/lote-03-r3/DANO-E-CONDICOES.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/RELATORIO.md cita `../historico/lote-02-r1/`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/revisao-editorial.md cita `/tmp/lote03-referencias-dnd.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/referencias-dnd.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/referencias-dnd.md cita `manual/12-pericias-e-oficios.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/referencias-dnd.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/escala-saltos-quedas.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/escala-saltos-quedas.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/escala-saltos-quedas.md cita `planejamento-editorial/regras-comuns/lote-02/02-SALTOS-E-QUEDAS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/revisao-mecanica.md cita `/tmp/lote03-auditoria-percepcao.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-02-r1/evidencias/revisao-editorial.md cita `manual/35-caminhos-e-trilhas.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-02-r1/evidencias/comparacao-matematica.md cita `/tmp/movimento-lote2-calculo.py`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-02-r1/evidencias/comparacao-matematica.md cita `/tmp/movimento-lote2-fixo.py`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-02-r1/evidencias/comparacao-matematica.md cita `/tmp/movimento-lote2-resultados.json`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/testes-adversariais.md cita `/tmp/lote04-minuta.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/testes-adversariais.md cita `/tmp/lote04-manobras-fontes.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `/tmp/lote04-minuta.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/20-criacao-de-personagem.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/15-dano-e-condicoes.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/15-dano-e-condicoes.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/15-dano-e-condicoes.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/07-glossario.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/50-equipamento.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/07-glossario.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/60-invocacoes.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/35-caminhos-e-trilhas.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06/DECISOES.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06/DECISOES.md cita `regras-basicas/lote-03-r3/DANO-E-CONDICOES.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06/LEIA-ME.md cita `planejamento-editorial/REVISAO-MORRENDO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-05/evidencias/leitura-inicial.md cita `manual/12-pericias-e-oficios.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-05/evidencias/revisao-mecanica-r1.md cita `evidencias/CENARIOS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/reavaliacao04-furtividade-matematica.md cita `/tmp/reavaliacao04-furtividade-matematica.json`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/reavaliacao04-furtividade-matematica.md cita `/tmp/reavaliacao04-furtividade-contas.py`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/revisao-editorial.md cita `/tmp/lote03-referencias-dnd.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/referencias-dnd.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/referencias-dnd.md cita `manual/12-pericias-e-oficios.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/referencias-dnd.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/escala-saltos-quedas.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/escala-saltos-quedas.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/escala-saltos-quedas.md cita `planejamento-editorial/regras-comuns/lote-02/02-SALTOS-E-QUEDAS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/revisao-mecanica.md cita `/tmp/lote03-auditoria-percepcao.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/REVISAO-E-FONTES.md cita `manual/40-fundamento.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/evidencias/REVISAO-CAT116-MAXIMA.md cita `catalogo/lote-01/CATALOGO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/evidencias/REVISAO-CAT116-MAXIMA.md cita `progressao/lote-01/PROGRESSAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/evidencias/REVISAO-CAT116-MAXIMA.md cita `dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/ritual-e-pactos/lote-01/REVISAO-E-FONTES.md cita `fundamento/lote-01/REVISAO-DE-VOZ.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/validacao-editorial/LEIA-ME.md cita `evidencias/LOCALIZACAO-EDITORIAL.json`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/evidencias/fundamento-maxima-ultima-leitura.md cita `sincronizacoes/40-CATALOGO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/evidencias/fundamento-maxima-ultima-leitura.md cita `sincronizacoes/40-CATALOGO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/evidencias/fundamento-revisao-regras.md cita `regras-basicas/lote-02/ATAQUES-E-DEFESA.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/evidencias/fundamento-maxima-limites-final.md cita `sincronizacoes/60-INVOCACOES.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/evidencias/fundamento-rotas-didatica.md cita `manual/40-fundamento.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/progressao/lote-01/evidencias/REVISAO-PRO36-MAXIMA.md cita `catalogo/lote-01/CATALOGO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/progressao/lote-01/evidencias/REVISAO-PRO36-MAXIMA.md cita `progressao/lote-01/PROGRESSAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/progressao/lote-01/evidencias/REVISAO-PRO36-MAXIMA.md cita `dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `abertura/lote-01/ABERTURA-E-CRIACAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `consulta/lote-01/CONSULTA.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `origens/lote-01/ORIGENS-E-LEGADOS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `progressao/lote-01/PROGRESSAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `equipamento/lote-final/EQUIPAMENTO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `fundamento/lote-01/FUNDAMENTO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `catalogo/lote-01/CATALOGO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `aptidoes/lote-01/APTIDOES-E-REFINO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `rotas/lote-01/ROTAS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `poderes-avancados/lote-01/PODERES-AVANCADOS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `invocacoes/lote-01/INVOCACOES-EM-CAMPO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `invocacoes/lote-02/CONSTRUIR-INVOCACOES.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/bastiao/lote-01/BASTIAO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/vanguarda/lote-01/VANGUARDA.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/guia/lote-01/GUIA.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/emanador/lote-01/EMANADOR.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/evocador/lote-01/EVOCADOR.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/incursor/lote-01/INCURSOR.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/historico-estado/ROTEIRO-DE-EXECUCAO.md cita `validacao-editorial/PROTOCOLO-COMPLETO.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/historico-estado/FILA-COMPLETA.md cita `consolidacao/lote-01/ORDEM.json`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/historico-estado/FILA-COMPLETA.md cita `evidencias/FILA-ANTES-DO-FECHAMENTO-2026-10-03.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/rotas/lote-01/REVISAO-E-FONTES.md cita `manual/42-tecnica-marcial.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/rotas/lote-01/REVISAO-E-FONTES.md cita `manual/43-sem-tecnica.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/rotas/lote-01/REVISAO-E-FONTES.md cita `manual/47-bencaos-e-lapidacao.md`, e ele nao existe em lugar nenhum
+  !! sistema/05-material/livro/planejamento-editorial/caminhos/guia/lote-01/ESCOPO-E-FONTES.md cita `manual/35-caminhos-e-trilhas.md`, e ele nao existe em lugar nenhum
+  1796 caminhos citados em .md conferidos, 166 mortos.
+
+  [x] conferir-nomes.py procura o .docx dentro de manual/
+  [x] conferir-manual.py procura o .docx dentro de manual/
+  [x] conferir-pericias.py procura o .docx dentro de manual/
+
+========================================================================================
+3. ESTRUTURA ANTIGA — sobrou alguem apontando para ela?
+========================================================================================
+  Nada aponta para a estrutura antiga.
+  (O 99-arquivo e os changelogs ficam de fora: eles descrevem o que era
+   verdade na epoca, e e por isso que existem.)
+
+========================================================================================
+4. NUMERO COM DOIS DONOS — as copias batem com o dono?
+========================================================================================
+
+  VERSAO DO PROJETO: o dono e logs/CHANGELOG.md e ele diz "0.331".
+    [x] README.md — a linha de abertura
+    [x] sistema/ESTADO-ATUAL.md — a linha de abertura
+    [x] sistema/LEIA-ME.md — a secao "Versao atual"
+
+  VERSAO DO MANUAL: o dono e manual/gerador/COMO-USAR.txt e ele diz "7.41".
+    [x] manual/gerador/partA.js — a CAPA do manual gerado
+    [x] manual/matematica/COMO-USAR.txt — o cabecalho
+    [x] README.md — a linha de abertura
+    [x] sistema/ESTADO-ATUAL.md — a secao do manual
+    [x] sistema/LEIA-ME.md — a secao "Versao atual"
+    [x] sistema/02-esqueleto/arquitetura.md — a abertura
+
+  [x] sistema/ESTADO-ATUAL.md — diz vinte e sete pecas e vinte e sete validadores, e a pasta concorda
+  [x] sistema/LEIA-ME.md — diz vinte e sete pecas e vinte e sete validadores, e a pasta concorda
+
+  Um numero, um dono. Toda copia acima e conferida contra ele, e nenhuma
+  delas fica escrita dentro deste validador.
+
+
+========================================================================================
+5. PONTEIRO DE SECAO — "peca N §M" que aponta para secao inexistente
+========================================================================================
+  [x] 1511 ponteiros de secao conferidos, e os 1511 resolvem
+
+  A checagem 2 confere se o ARQUIVO existe; esta confere se a SECAO existe.
+  Nada em logs/ e conferido: entrada de CHANGELOG e registro do que se
+  pensou naquele dia, e a v0.50 decidiu nao reescrever historico.
+
+
+========================================================================================
+5.1 PECA QUE NAO EXISTE — e existe, na pasta, ha versoes
+========================================================================================
+  [x] as 27 pecas da pasta contra 953 arquivos vivos, e nenhuma
+      linha diz que uma delas nao existe nem que uma pendencia espera por ela.
+
+  Fechado numa peca e ainda aberto na peca vizinha e a familia de defeito que
+  esta checagem existe para pegar. Ela le AFIRMACAO: aspas, crase e riscado
+  saem antes, porque citar a frase morta e registro e nao promessa.
+  FORA do escopo: logs/, finalizado/, PDFs - Sistemas Extras/ e as pastas de
+  build. E ela le uma linha por vez — negacao espalhada em dois paragrafos passa.
+
+----------------------------------------------------------------------------------------
+  6. O MAPA — a tabela "Onde cada coisa esta" contra a pasta de verdade
+----------------------------------------------------------------------------------------
+  27 pecas e 27 validadores na pasta.
+  [x] as 27 pecas aparecem no mapa
+  [x] os 27 validadores aparecem no mapa
+  [x] os 56 arquivos citados no mapa existem
+
+  Um mapa furado nao quebra contagem nenhuma — por isso ele passou seis
+  versoes furado. Quem retoma em conversa nova le o mapa, nao a pasta.
+
+----------------------------------------------------------------------------------------
+  7. A ENTREGA — o recorte confere com a fonte?
+----------------------------------------------------------------------------------------
+  ~~ PULADA. finalizado/ nao existe aqui, e ele e ignorado pelo .gitignore,
+     entao um clone limpo do repositorio de trabalho nao carrega o recorte.
+     NADA da checagem 7 rodou.
+
+
+========================================================================================
+8. PENDENCIA MORTA — item de "Em aberto" apontando para coisa que existe
+========================================================================================
+  37 secoes de pendencia, 107 linhas vivas, manual na v7.41.
+  [x] as 27 pecas tem secao de pendencia, e o extrator acha linha viva em todas
+  [x] nenhuma das 107 linhas vivas pede coisa que ja existe
+
+  8a pede validador que existe · 8b trava em versao do manual que passou ·
+  8c tem por assunto uma peca que existe · 8d espera uma peca que existe.
+  Riscar com ~~ fecha o item E o corpo dele — e e' a convencao da casa.
+
+
+========================================================================================
+9. CONTAGEM DE CHECAGENS — o codigo e o dono, e os documentos sao copia
+========================================================================================
+  28 validadores, 332 checagens no total.
+  27 pecas mapeadas; 7 validador(es) sem peca dona (sao de assunto, e nao de peca): expansao, ficha, manual, nomes, orcamento, repositorio, xp
+  [x] todo validador tem bloco numerado, e nenhuma numeracao tem buraco
+  [x] as 34 afirmacoes de contagem batem com o codigo
+
+  O DONO AQUI E O CODIGO, e e a unica checagem do projeto em que ele e.
+  Uma checagem = um bloco numerado. Sub-bloco conta para o bloco pai.
+  [x] conferir-bestiario: pula 4 de 11, medido rodando
+  [x] conferir-dano: pula 1 de 14, medido rodando
+  [x] conferir-manual: pula 8 de 8, medido rodando
+  [x] conferir-nomes: pula 3 de 6, medido rodando
+  [x] conferir-pericias: pula 1 de 8, medido rodando
+  [x] conferir-progressao: pula 1 de 8, medido rodando
+  [x] os 6 pares do LEIA-ME batem com a tabela do ESTADO-ATUAL
+
+========================================================================================
+10. O LIVRO CONTRA AS PECAS — o conteudo, e nao o recorte
+========================================================================================
+  [x] as tres listas de capitulo batem — 19 numerados e 3 de frente, nos tres arquivos
+  [x] os 22 arquivos de livro/manual/ estao todos declarados, e todo declarado existe
+  [x] as 95 referencias `capitulo N, Titulo` apontam para o capitulo certo
+  [x] a tabela de roteiro da introducao cobre os 19 capitulos, na numeracao do build.py
+  [x] a coluna `Cap.` do glossario bate com o build.py nas 4 secoes que sao titulo de capitulo (157 linhas no total)
+  [x] os 23 termos de sistema vivos nas pecas aparecem no livro
+  [x] os 84 Legados escritos na peca 13 estao todos no livro
+  [x] nenhuma linha do livro anuncia como pendente uma das 18 pecas que existem
+
+  A checagem 7 pergunta se o RECORTE esta atualizado; esta pergunta se o
+  CONTEUDO esta. Sao perguntas diferentes, e ate a v0.124 so uma tinha dono.
+
+
+========================================================================================
+11. A LINHA DE RETOMADA — o `→ Continua em` da entrada do topo
+========================================================================================
+  a regra vale da v0.110 para ca — lido do cabecalho do CHANGELOG.
+  331 entradas no arquivo, 220 com a linha: 217 em `→ **Continua em**` e 3 em `→ Continua em`.
+  As duas grafias passam. O negrito nao muda para onde a linha aponta.
+  3 entrada(s) posterior(es) a decisao SEM a linha, e elas ficam como estao: v0.216, v0.175, v0.174
+  (a v0.50 decidiu nao reescrever historico do CHANGELOG; retroativar a linha delas seria inventar para onde aquela versao continuou)
+  [x] a v0.331 fecha com a linha, e ela e a ultima da entrada
+  [x] o ponteiro da v0.331 resolve: `sistema/ESTADO-ATUAL.md`
+
+  A checagem 2 confere caminho citado em .md e PULA a pasta logs/ inteira,
+  de proposito. Esta e a unica que olha o ponteiro do CHANGELOG, e ela olha
+  so o do topo — que e o unico que alguem vai seguir.
+
+
+========================================================================================
+12. AS MELHORIAS — o livro contra o manual, que e o dono
+========================================================================================
+  82 Melhorias no manual (`partD.js`, o dono) e 82 no livro (`40-fundamento.md`).
+  25 divergencia(s) declarada(s) no ESTADO-revisao.md: 0 aberta(s), 0 decidida(s) e 25 fechada(s).
+  [x] as 82 Melhorias comuns batem, ou divergem por linha declarada `aberta`
+
+  O dono e o `partD.js`; o `.docx` sai dele pelo `make.js` e o livro e copia.
+  Quem decide QUAL lado vence e regra, e nao validador — esta so garante que
+  nenhuma divergencia nova entre calada, e que decisao fechada fique aplicada.
+
+========================================================================================
+>>> 166 PROBLEMA(S):
+   - sistema/ESTADO-ATUAL.md cita `planejamento-editorial/regras-comuns/lote-06-r2/sincronizacoes/INCURSOR-COMPLETO.md`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `planejamento-editorial/equipamento/PENDENCIAS-DE-ITENS.md`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `planejamento-editorial/REVISAO-MORRENDO.md`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `regras-comuns/lote-06/LEIA-ME.md`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `planejamento-editorial/ROTEIRO-DE-EXECUCAO.md`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `entregas/continuidade-work-2026-10-03/`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `planejamento-editorial/ADENDO-REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `planejamento-editorial/evidencias/abertura-retorno-pos-r2.md`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `planejamento-editorial/regras-comuns/01-MOVIMENTO-MINUTA.md`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `planejamento-editorial/regras-comuns/lote-02/LEIA-ME.md`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `planejamento-editorial/regras-comuns/lote-02/LEIA-ME.md`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `regras-comuns/lote-03/LEIA-ME.md`, e ele nao existe em lugar nenhum
+   - sistema/ESTADO-ATUAL.md cita `finalizado/livro/`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/ESTADO-revisao.md cita `finalizado/livro/`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/piloto-editorial-r2/evidencias/comparacao-fm.md cita `/tmp/editorial-r2-fm/`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/piloto-editorial-r2/evidencias/comparacao-fm.md cita `planejamento-editorial/PLANO-EDITORIAL.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/piloto-editorial-r2/evidencias/comparacao-fm.md cita `piloto-editorial-r1/PILOTO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/piloto-editorial-r2/evidencias/revisao-leitor.md cita `manual/60-invocacoes.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/piloto-editorial-r2/evidencias/revisao-leitor.md cita `manual/60-invocacoes.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/piloto-editorial-r2/evidencias/gabarito-tecnico.md cita `piloto-editorial-r2/LOTE-TECNICO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/piloto-editorial-r2/evidencias/gabarito-tecnico.md cita `manual/12-pericias-e-oficios.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/piloto-editorial-r2/evidencias/gabarito-tecnico.md cita `manual/40-fundamento.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/piloto-editorial-r2/evidencias/gabarito-tecnico.md cita `manual/15-dano-e-condicoes.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/piloto-editorial-r2/evidencias/gabarito-tecnico.md cita `piloto-editorial-r2/PILOTO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/RETOMADA-PAUSA-2026-10-03.md cita `consolidacao/lote-01/output/mosaicos-root/`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/RETOMADA-PAUSA-2026-10-03.md cita `evidencias/MOSAICOS-ROOT.json`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/RETOMADA-PAUSA-2026-10-03.md cita `migracao-nomes/QA-FECHAMENTO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/AUDITORIA-DO-PDF.md cita `sistema/05-material/livro/build/manual.html`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/evidencias/abertura-retorno-pos-r2.md cita `manual/05-introducao.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/evidencias/abertura-retorno-pos-r2.md cita `3dt-alpha-manual-revisado-biblioteca-elfica.pdf`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/evidencias/abertura-retorno-pos-r2.md cita `Player_Hand_Book_DnD_2024.pdf`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/evidencias/FILA-ANTES-DO-FECHAMENTO-2026-10-03.md cita `catalogo/lote-01/ALTERACOES.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/evidencias/FILA-ANTES-DO-FECHAMENTO-2026-10-03.md cita `validacao-editorial/PROTOCOLO-COMPLETO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-01/evidencias/FONTES-E-DESTINOS.md cita `Player_Hand_Book_DnD_2024.pdf`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r2/evidencias/FONTES-E-DESTINOS.md cita `manual/45-aptidoes-e-refino.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r2/evidencias/FONTES-E-DESTINOS.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r2/evidencias/FONTES-E-DESTINOS.md cita `regras-basicas/lote-02/DECISOES.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/evidencias/FONTES-E-DESTINOS.md cita `manual/45-aptidoes-e-refino.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/evidencias/FONTES-E-DESTINOS.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/evidencias/FONTES-E-DESTINOS.md cita `regras-basicas/lote-02/DECISOES.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03/evidencias/FONTES-E-DESTINOS.md cita `manual/45-aptidoes-e-refino.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03/evidencias/FONTES-E-DESTINOS.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03/evidencias/FONTES-E-DESTINOS.md cita `regras-basicas/lote-02/DECISOES.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/REVISAO-E-FONTES.md cita `manual/60-invocacoes.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/INTERFACES.md cita `equipamento/lote-final/FONTES.json`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-basicas/lote-03-r3/DANO-E-CONDICOES.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-basicas/lote-02/ATAQUES-E-DEFESA.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-basicas/lote-01/TESTES-E-TURNOS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-basicas/lote-04/RECUPERACAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-final/EQUIPAMENTO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-01-r5/EQUIPAMENTO-EM-JOGO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-final/EQUIPAMENTO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-03-r5/MUNICAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-final/EQUIPAMENTO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-02-r3/PROTECAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-final/EQUIPAMENTO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `equipamento/lote-final/FONTES.json`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/DELTA-PARA-REVISAO-DA-RAIZ.md cita `consolidacao/lote-01/migracao-nomes/MIGRACAO.json`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/PROPOSTA-PATENTES.md cita `progressao/lote-01/PROGRESSAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/PROPOSTA-PATENTES.md cita `equipamento/lote-08/EQUIPAMENTO-AMALDICOADO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/EVIDENCIA-ESCALA.md cita `manual/20-criacao-de-personagem.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/EVIDENCIA-ESCALA.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/EVIDENCIA-ESCALA.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/EVIDENCIA-ESCALA.md cita `manual/12-pericias-e-oficios.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/EVIDENCIA-ESCALA.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r3/DECISOES.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r3/DECISOES.md cita `regras-basicas/lote-03-r3/DANO-E-CONDICOES.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r2/DECISOES.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06-r2/DECISOES.md cita `regras-basicas/lote-03-r3/DANO-E-CONDICOES.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/RELATORIO.md cita `../historico/lote-02-r1/`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/revisao-editorial.md cita `/tmp/lote03-referencias-dnd.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/referencias-dnd.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/referencias-dnd.md cita `manual/12-pericias-e-oficios.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/referencias-dnd.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/escala-saltos-quedas.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/escala-saltos-quedas.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/escala-saltos-quedas.md cita `planejamento-editorial/regras-comuns/lote-02/02-SALTOS-E-QUEDAS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-03-r1/evidencias/revisao-mecanica.md cita `/tmp/lote03-auditoria-percepcao.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-02-r1/evidencias/revisao-editorial.md cita `manual/35-caminhos-e-trilhas.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-02-r1/evidencias/comparacao-matematica.md cita `/tmp/movimento-lote2-calculo.py`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-02-r1/evidencias/comparacao-matematica.md cita `/tmp/movimento-lote2-fixo.py`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/historico/lote-02-r1/evidencias/comparacao-matematica.md cita `/tmp/movimento-lote2-resultados.json`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/testes-adversariais.md cita `/tmp/lote04-minuta.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/testes-adversariais.md cita `/tmp/lote04-manobras-fontes.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `/tmp/lote04-minuta.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/20-criacao-de-personagem.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/15-dano-e-condicoes.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/15-dano-e-condicoes.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/15-dano-e-condicoes.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/07-glossario.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/50-equipamento.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/07-glossario.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/60-invocacoes.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/evidencias/auditoria-fontes.md cita `manual/35-caminhos-e-trilhas.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06/DECISOES.md cita `regras-comuns/consolidado-r1/REGRAS-COMUNS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06/DECISOES.md cita `regras-basicas/lote-03-r3/DANO-E-CONDICOES.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-06/LEIA-ME.md cita `planejamento-editorial/REVISAO-MORRENDO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-05/evidencias/leitura-inicial.md cita `manual/12-pericias-e-oficios.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-05/evidencias/revisao-mecanica-r1.md cita `evidencias/CENARIOS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/reavaliacao04-furtividade-matematica.md cita `/tmp/reavaliacao04-furtividade-matematica.json`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/reavaliacao04-furtividade-matematica.md cita `/tmp/reavaliacao04-furtividade-contas.py`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/revisao-editorial.md cita `/tmp/lote03-referencias-dnd.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/referencias-dnd.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/referencias-dnd.md cita `manual/12-pericias-e-oficios.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/referencias-dnd.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/escala-saltos-quedas.md cita `manual/10-como-jogar.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/escala-saltos-quedas.md cita `manual/11-o-turno.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/escala-saltos-quedas.md cita `planejamento-editorial/regras-comuns/lote-02/02-SALTOS-E-QUEDAS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-03/evidencias/revisao-mecanica.md cita `/tmp/lote03-auditoria-percepcao.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/REVISAO-E-FONTES.md cita `manual/40-fundamento.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/evidencias/REVISAO-CAT116-MAXIMA.md cita `catalogo/lote-01/CATALOGO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/evidencias/REVISAO-CAT116-MAXIMA.md cita `progressao/lote-01/PROGRESSAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/evidencias/REVISAO-CAT116-MAXIMA.md cita `dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/ritual-e-pactos/lote-01/REVISAO-E-FONTES.md cita `fundamento/lote-01/REVISAO-DE-VOZ.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/validacao-editorial/LEIA-ME.md cita `evidencias/LOCALIZACAO-EDITORIAL.json`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/evidencias/fundamento-maxima-ultima-leitura.md cita `sincronizacoes/40-CATALOGO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/evidencias/fundamento-maxima-ultima-leitura.md cita `sincronizacoes/40-CATALOGO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/evidencias/fundamento-revisao-regras.md cita `regras-basicas/lote-02/ATAQUES-E-DEFESA.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/evidencias/fundamento-maxima-limites-final.md cita `sincronizacoes/60-INVOCACOES.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/evidencias/fundamento-rotas-didatica.md cita `manual/40-fundamento.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/progressao/lote-01/evidencias/REVISAO-PRO36-MAXIMA.md cita `catalogo/lote-01/CATALOGO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/progressao/lote-01/evidencias/REVISAO-PRO36-MAXIMA.md cita `progressao/lote-01/PROGRESSAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/progressao/lote-01/evidencias/REVISAO-PRO36-MAXIMA.md cita `dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `abertura/lote-01/ABERTURA-E-CRIACAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `regras-gerais/lote-final/REGRAS-GERAIS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `consulta/lote-01/CONSULTA.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `origens/lote-01/ORIGENS-E-LEGADOS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `progressao/lote-01/PROGRESSAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `equipamento/lote-final/EQUIPAMENTO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `fundamento/lote-01/FUNDAMENTO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `catalogo/lote-01/CATALOGO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `aptidoes/lote-01/APTIDOES-E-REFINO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `rotas/lote-01/ROTAS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `poderes-avancados/lote-01/PODERES-AVANCADOS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `invocacoes/lote-01/INVOCACOES-EM-CAMPO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `invocacoes/lote-02/CONSTRUIR-INVOCACOES.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/bastiao/lote-01/BASTIAO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/vanguarda/lote-01/VANGUARDA.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/guia/lote-01/GUIA.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/emanador/lote-01/EMANADOR.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/evocador/lote-01/EVOCADOR.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/RESUMO-MUDANCAS-POR-TEMA.md cita `caminhos/incursor/lote-01/INCURSOR.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/historico-estado/ROTEIRO-DE-EXECUCAO.md cita `validacao-editorial/PROTOCOLO-COMPLETO.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/historico-estado/FILA-COMPLETA.md cita `consolidacao/lote-01/ORDEM.json`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/evidencias/historico-estado/FILA-COMPLETA.md cita `evidencias/FILA-ANTES-DO-FECHAMENTO-2026-10-03.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/rotas/lote-01/REVISAO-E-FONTES.md cita `manual/42-tecnica-marcial.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/rotas/lote-01/REVISAO-E-FONTES.md cita `manual/43-sem-tecnica.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/rotas/lote-01/REVISAO-E-FONTES.md cita `manual/47-bencaos-e-lapidacao.md`, e ele nao existe em lugar nenhum
+   - sistema/05-material/livro/planejamento-editorial/caminhos/guia/lote-01/ESCOPO-E-FONTES.md cita `manual/35-caminhos-e-trilhas.md`, e ele nao existe em lugar nenhum

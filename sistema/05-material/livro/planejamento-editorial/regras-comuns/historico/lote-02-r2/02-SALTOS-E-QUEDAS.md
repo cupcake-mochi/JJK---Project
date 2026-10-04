@@ -1,0 +1,135 @@
+<!-- page:movimento|Movimento e terreno -->
+# Movimento e terreno
+
+**Amostra revisada sobre a v0.331.** Reúne o movimento já existente e propostas de regras comuns. Os números novos estão registrados à parte; o livro publicado ainda não foi alterado.
+
+## Metros disponíveis
+
+Sua **Ação de Movimento** permite percorrer uma distância igual ao deslocamento da ficha. O valor comum é **9 m**. Você pode andar, atacar e continuar andando, descontando cada trecho do movimento disponível.
+
+**Correr** custa uma Ação Padrão e acrescenta movimento igual ao seu deslocamento até o fim do turno. **Desengajar** também custa uma Ação Padrão e impede ataques de oportunidade provocados por seus movimentos naquele turno. Habilidades podem mudar esses custos.
+
+Uma tarefa que gaste sua Ação de Movimento inteira, como certas recargas, usa essa ação sem fazer você sair do lugar.
+
+## Medidas de 1,5 m
+
+Use **1,5 m como unidade de distância**. Em um mapa quadriculado, isso corresponde a um quadrado. O mestre define as distâncias do cenário nessa escala antes da tentativa. Ao calcular uma distância, descarte a fração que não complete 1,5 m, depois de aplicar seus modificadores.
+
+> **Exemplo:** metade de 9 m é 4,5 m. Metade de 4,5 m fica em 1,5 m após o arredondamento. Essa regra vale para distâncias; não altera o arredondamento de dano, Vida ou pontos de energia.
+
+## Terreno, escalada e natação
+
+Uma passagem firme e livre usa o custo normal. Lama espessa, entulho ou vegetação fechada podem tornar o trecho difícil. O mestre informa isso antes de você escolher o percurso.
+
+| Travessia de 1,5 m | Movimento consumido |
+|---|---|
+| Caminhar em terreno regular | 1,5 m |
+| Caminhar em terreno difícil | 3 m |
+| Escalar ou nadar | 3 m |
+| Escalar ou nadar em terreno difícil | 4,5 m |
+
+Ter deslocamento de escalada ou natação elimina o custo adicional daquela modalidade: **1,5 m** em trecho regular ou **3 m** em trecho difícil. Várias causas de terreno difícil no mesmo trecho não repetem o custo.
+
+Escalar exige uma superfície que ofereça apoios utilizáveis. Nadar não permite respirar debaixo d'água. Uma escada firme ou água tranquila dispensa teste; uma superfície escorregadia ou correnteza pode exigir **Atletismo**, contra a dificuldade do ambiente. Antes da rolagem, o mestre informa o risco da falha. Uma rolagem resolve o obstáculo descrito, sem nova cobrança a cada quadrado.
+
+> **Exemplo:** com 9 m disponíveis, Rina anda 3 m, atravessa 1,5 m de entulho por 3 m e anda os 3 m restantes. Percorreu 7,5 m e gastou seus 9 m de movimento.
+
+<!-- page:saltos|Saltos -->
+# Saltos
+
+Antes de saltar, escolha o destino e confira o movimento necessário. Um salto dentro da sua capacidade, entre superfícies firmes e sem obstáculos, **dispensa teste**.
+
+## Distância e impulso
+
+Você toma **impulso** ao percorrer pelo menos **3 m**, sem parar, imediatamente antes de saltar. Esse percurso também consome movimento. Deslocamento imposto por outra criatura não fornece impulso.
+
+Com impulso, seu salto horizontal alcança até **3 m + 1,5 m por ponto de Força**. Sem impulso, alcança metade disso, arredondada para baixo em múltiplos de 1,5 m.
+
+| Força | Com impulso | Sem impulso |
+|---|---|---|
+| 0 | 3 m | 1,5 m |
+| 1 | 4,5 m | 1,5 m |
+| 2 | 6 m | 3 m |
+| 3 | 7,5 m | 3 m |
+| 4 | 9 m | 4,5 m |
+| 5 | 10,5 m | 4,5 m |
+| 6 | 12 m | 6 m |
+
+Para um salto **para cima**, conte a subida dos pés: com impulso, você supera até **1,5 m**, ou **3 m se tiver Força 5 ou 6**. Sem impulso, Força 5 ou 6 permite subir 1,5 m; com Força menor, superar esse desnível exige o esforço descrito abaixo. Pequenos saltos no mesmo piso não exigem teste.
+
+Um salto com avanço e subida precisa caber **nos dois limites**. Ele consome movimento igual à distância horizontal ou à subida, **a que for maior**. Tenha esse movimento disponível ao começar; o teste não cobra outra ação. Correr fornece metros para pagar o percurso, sem aumentar por si só o alcance do salto. Saltos para um nível inferior também seguem as regras de queda pelo desnível.
+
+## Esforço e obstáculos
+
+Você pode tentar alcançar **mais 1,5 m**, na horizontal ou na subida, com **Atletismo CD 14**. Essa extensão vale uma vez por salto, em apenas um dos eixos. Distâncias maiores dependem de uma habilidade que as permita.
+
+Piso escorregadio ou obstáculo no caminho pode exigir teste mesmo dentro da distância normal. O mestre informa a CD e a consequência antes da tentativa. Se houver esforço adicional e terreno arriscado, faça uma única rolagem contra a maior CD. Antes de rolar, o mestre anuncia uma consequência combinada para a falha, incluindo onde você termina; ela substitui o resultado de falhar apenas no esforço.
+
+Ao falhar apenas no esforço adicional, você percorre sua distância normal no eixo escolhido. Se houver chão firme ali, aterrissa; se não houver, cai. O movimento reservado para a tentativa foi gasto. No salto vertical parado sem distância automática, falhar no esforço mantém você no apoio de partida. Uma falha causada pelo terreno segue a consequência anunciada, como escorregar e ficar Derrubado.
+
+> **Exemplo:** Rina tem Força 1 e 9 m de movimento. Ela percorre 3 m para tomar impulso e salta 4,5 m entre telhados no mesmo nível. Não precisa rolar e ainda tem 1,5 m para andar.
+
+<!-- page:quedas|Quedas e empurrões -->
+# Quedas e empurrões
+
+## Dano de queda
+
+Ao atingir o chão, você sofre **1d6 de dano de Concussão por 3 m completos de queda**, até **20d6**. Se receber dano do impacto, termina **Derrubado**. Uma queda de menos de 3 m não causa dano pela altura.
+
+| Altura | Dano |
+|---|---|
+| 1,5 m | Nenhum |
+| 3 m ou 4,5 m | 1d6 |
+| 6 m ou 7,5 m | 2d6 |
+| 9 m ou 10,5 m | 3d6 |
+| 30 m | 10d6 |
+| 60 m ou mais | 20d6 |
+
+Meça o desnível desde o último apoio que sustentou o corpo. O arco de um salto não acrescenta altura. Descer com apoio e controle, como numa corda ou usando uma habilidade apropriada, consome movimento e não causa dano de queda.
+
+A queda não é um ataque e não permite Bloquear. Resistência a Concussão e Vida temporária se aplicam normalmente. Ao chegar a zero de Vida, use Aguentar e Insistir. Benefícios limitados a ataques não protegem automaticamente contra o impacto.
+
+> **Exemplo:** um Incursor com 14 de Vida cai 4,5 m. O d6 resulta em 4: ele fica com 10 de Vida e Derrubado. As regras comuns não concedem uma tentativa gratuita de anular essa queda com Acrobacia.
+
+## Cair na água
+
+Se a água tiver pelo menos **3 m de profundidade**, sem obstáculo no impacto, você pode gastar sua **Reação** para fazer **Atletismo ou Acrobacia CD 14**. No sucesso, recebe metade do dano da queda, arredondada para cima. Na falha, recebe o dano inteiro. Depois, precisa nadar; o teste não elimina correnteza, perigos do líquido ou necessidade de respirar.
+
+## Movimento imposto
+
+Um empurrão ou arremesso usa a distância e a direção da habilidade. Não consome movimento da vítima nem provoca ataques de oportunidade. Uma parede interrompe o percurso sem acrescentar dano, salvo efeito específico. Se a vítima passar de uma beirada, cai pelo desnível real.
+
+Escolher um destino no ar acima da vítima exige que a habilidade permita erguer ou lançar para cima. Um destino elevado com apoio real pode ser válido. A descrição de um arco não acrescenta dano de queda à habilidade.
+
+Resolva o efeito, a queda e o impacto antes das respostas que exigem que o efeito tenha terminado. Para uma queda superior a **150 m**, resolva os primeiros 150 m imediatamente e mais 150 m ao fim de cada turno seu seguinte; o dano usa a altura total até o impacto. Nesse caso, respostas ao efeito original ocorrem após o primeiro trecho, sem esperar o impacto futuro.
+
+<!-- page:habilidades|Movimento das Trilhas -->
+# Movimento das Trilhas
+
+## Incursor e Movimento Acrobático
+
+O Incursor recebe **3 m adicionais de deslocamento**. Seu Movimento Acrobático permite as travessias descritas na habilidade, usando movimento disponível: cada **1,5 m** custa **1,5 m**, ou **3 m** em terreno difícil. Não some o custo da escalada comum.
+
+O limite acrobático conta a distância efetivamente percorrida. Ele corresponde à metade do deslocamento até o nível 22 e ao deslocamento inteiro a partir do nível 23. Saltos comuns gastam movimento, sem gastar esse limite novamente.
+
+Na conciliação desta amostra, o limite começa completo no combate e renova **no começo do seu turno**. Correr não o renova. Passo Rápido e Passo Guardado usam o mesmo limite até o próximo turno. Fora de combate, conte um percurso contínuo entre apoios permitidos; cenas que precisem de controle de tempo usam turnos.
+
+Se seu deslocamento mudar, recalcule o limite. Se já o tiver consumido, termine o trecho acrobático; sem apoio permitido, você cai. Um Passo à Frente antecipa seu turno e renova o limite ali, substituindo a renovação da posição habitual naquela rodada.
+
+## Os apoios do Parkour
+
+**Terminar o percurso acrobático pendurado numa borda ou sustentado por apoios especiais pertence ao Parkour do Assassino.** A habilidade também permite usar a vítima como apoio e trocar Atletismo por Acrobacia nos testes previstos. As regras comuns não concedem esses benefícios nem uma Reação geral para agarrar uma borda durante a queda.
+
+Um percurso pela parede pode fornecer os 3 m de impulso antes de um salto quando a habilidade permitir essa travessia. Os testes de esforço continuam valendo. A descida de **4,5 m com apoio** mantém o gatilho da aproximação de abate; cair livremente não o substitui.
+
+> **Exemplo:** um Assassino de Força 0 e Acrobacia +4 tem deslocamento 12 m. Percorre 6 m de parede e tenta saltar 4,5 m. Seu salto normal é 3 m: precisa do esforço adicional. Tira 10 e soma 4, alcançando a CD 14. Gastou 10,5 m e restam 1,5 m. O ataque de aproximação segue os custos da Trilha; o percurso não concede outro ataque.
+
+## Respostas e outras travessias
+
+**Recuperar a Base:** confira a distância empurrada contra metade do deslocamento anterior ao efeito, sem somar a altura da queda. Resolva o retorno com as condições atuais e por um caminho possível. Ele não desfaz dano nem devolve automaticamente alguém à plataforma.
+
+**Passo Guardado:** o movimento vem depois do ataque ou TR que o permite. Mantém seus metros adicionais e sua proteção específica contra oportunidade; precisa de um percurso possível.
+
+**Projeção Marcial:** a colisão copia somente o dano próprio da habilidade. Se uma criatura cair de uma beirada, só ela recebe o dano dessa queda.
+
+**Movimento sobre líquidos:** o Pugilista usa o mesmo limite acrobático. Ao terminar, precisa de apoio normal; se ficar na água, passa a nadar.

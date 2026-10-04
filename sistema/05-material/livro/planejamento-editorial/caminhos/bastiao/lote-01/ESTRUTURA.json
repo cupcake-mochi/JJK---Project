@@ -1,0 +1,74 @@
+{
+  "ordem": [
+    "bas-bastiao",
+    "bas-olhos",
+    "bas-defesa",
+    "bas-aliados",
+    "bas-muro",
+    "bas-casca",
+    "bas-punho",
+    "bas-mao",
+    "bas-arrastao",
+    "bas-combatente",
+    "bas-oportunista"
+  ],
+  "titulos": {
+    "bas-bastiao": "Bastião",
+    "bas-olhos": "Olhos Em Mim",
+    "bas-defesa": "Defesa e recuperação",
+    "bas-aliados": "Proteção de aliados",
+    "bas-muro": "Muro",
+    "bas-casca": "Casca Grossa e Inabalável",
+    "bas-punho": "Punho",
+    "bas-mao": "Mão Pesada e Minha Vez",
+    "bas-arrastao": "Arrastão",
+    "bas-combatente": "Combatente Amaldiçoado",
+    "bas-oportunista": "Oportunista e Contra a Parede"
+  },
+  "paginas": {
+    "bas-bastiao": 1,
+    "bas-olhos": 2,
+    "bas-defesa": 3,
+    "bas-aliados": 4,
+    "bas-muro": 5,
+    "bas-casca": 6,
+    "bas-punho": 7,
+    "bas-mao": 8,
+    "bas-arrastao": 9,
+    "bas-combatente": 10,
+    "bas-oportunista": 11
+  },
+  "grupos": [
+    [
+      "Bastião",
+      [
+        "bas-bastiao",
+        "bas-olhos",
+        "bas-defesa",
+        "bas-aliados"
+      ]
+    ],
+    [
+      "Muro",
+      [
+        "bas-muro",
+        "bas-casca"
+      ]
+    ],
+    [
+      "Punho",
+      [
+        "bas-punho",
+        "bas-mao",
+        "bas-arrastao"
+      ]
+    ],
+    [
+      "Combatente Amaldiçoado",
+      [
+        "bas-combatente",
+        "bas-oportunista"
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,1522 @@
+[
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Acerto",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Dificuldade",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Defesa",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Rerrolagem",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Energia",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Tamanho",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Incompatível: não ampliaToque/distânciaque cobra."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Alcance",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Perseguição",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Excedente",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Compartilhamento",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Duração",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Cobertura",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Transmutação",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Sem Volta",
+    "decisao": "Incompatível: anula o risco de errar todos."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Meio Acerto",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Seleção",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Corpo a Corpo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Atrasar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Parado",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Gesto",
+    "decisao": "Ritual exige ao menos uma mão livre; Gesto ainda exige as duas. Se o Selo ou a execução já exigir ambas, não devolver pontos pela mesma cobrança."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Carregar",
+    "decisao": "Não devolver pontos se repetir o custo de tempo/imobilidade da modalidade de Ritual."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Sangra",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Recuo",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Fraqueza",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Peso Morto",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Frágil",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Sem Volta",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Uma Vez",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Condicional",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Aquecer",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Dívida",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Tudo ou Nada",
+    "decisao": "Conserva a cobrança própria da Restrição."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Barulho",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Assinatura",
+    "decisao": "Ritual mantém voz/gestos; a informação adicional da Restrição ainda precisa existir, sem cobrar apenas a recitação."
+  },
+  {
+    "melhoria": "Ritual de Tiros",
+    "restricao": "Restrição Própria",
+    "decisao": "Avaliar o texto criado antes da sessão; a matriz nominal não pode prever toda regra própria."
+  }
+]

@@ -1,0 +1,260 @@
+{
+  "sha256_texto": "d5a7af1b3715f695ad8dae3baa7e22a04f23f0c5b692687bdab6d74323a6f489",
+  "cobertura": [
+    {
+      "origem": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "id_fonte": "atributos",
+      "destino": "atributos",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "id_fonte": "testes",
+      "destino": "testes",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "id_fonte": "pericias",
+      "destino": "pericias",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "id_fonte": "resistencia",
+      "destino": "resistencia",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "id_fonte": "turnos",
+      "destino": "turnos",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "id_fonte": "acoes",
+      "destino": "acoes",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-01/TESTES-E-TURNOS.md",
+      "id_fonte": "reacoes",
+      "destino": "concentracao",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "id_fonte": "ataques",
+      "destino": "ataques",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "id_fonte": "alcance",
+      "destino": "alcance",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "id_fonte": "critico",
+      "destino": "critico",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "id_fonte": "defesa",
+      "destino": "defesa",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "id_fonte": "bloquear",
+      "destino": "bloquear",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-basicas/lote-02/ATAQUES-E-DEFESA.md",
+      "id_fonte": "aparar",
+      "destino": "aparar",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "guia",
+      "destino": "acoes",
+      "estado": "índice de consulta absorvido por ações, remissões e navegação"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "movimento",
+      "destino": "movimento",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "saltos",
+      "destino": "saltos",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "quedas",
+      "destino": "quedas",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "perceber",
+      "destino": "perceber",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "esconder",
+      "destino": "esconder",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "procurar",
+      "destino": "procurar",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "atacar",
+      "destino": "ocultacao-ataque",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "manobras",
+      "destino": "manobras",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "contencoes",
+      "destino": "contencoes",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "estudar",
+      "destino": "estudar",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "preparar",
+      "destino": "preparar",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "mundo",
+      "destino": "mundo",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "buscar",
+      "destino": "buscar",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "pressao",
+      "destino": "pressao",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "ler",
+      "destino": "ler",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "usar",
+      "destino": "energia-exemplo",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/consolidado-r1/REGRAS-COMUNS.md",
+      "id_fonte": "habilidades",
+      "destino": "R18",
+      "estado": "exceções específicas removidas daqui e preservadas no dono Incursor R18"
+    },
+    {
+      "origem": "regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+      "id_fonte": "espacos",
+      "destino": "espacos",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+      "id_fonte": "rastejar",
+      "destino": "rastejar",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+      "id_fonte": "voo",
+      "destino": "voo",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/lote-06-r6/MOVIMENTO-E-CARGA.md",
+      "id_fonte": "carga",
+      "destino": "carga",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+      "id_fonte": "mundo",
+      "destino": "mundo",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+      "id_fonte": "buscar",
+      "destino": "buscar",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+      "id_fonte": "pressao",
+      "destino": "pressao",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+      "id_fonte": "ler",
+      "destino": "ler",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    },
+    {
+      "origem": "regras-comuns/lote-05-r2/05-ENERGIA-E-VESTIGIOS.md",
+      "id_fonte": "usar",
+      "destino": "energia-exemplo",
+      "estado": "procedimento mantido e reconciliado com decisões locais"
+    }
+  ],
+  "paginas_novas": [
+    "ajudar",
+    "interacao",
+    "oportunidade",
+    "distancias",
+    "arrasto",
+    "montaria",
+    "queda-criatura"
+  ],
+  "conteudo_fora_do_escopo": [
+    "PV/PE/Integridade/morte/recuperação R03",
+    "Sacar/guardar/manipular equipamento R05",
+    "Limite de conjuração e criação R06",
+    "Catálogos específicos R07/R09/R10/R18/R20"
+  ]
+}

@@ -10,6 +10,7 @@ import re
 import markdown
 from bs4 import BeautifulSoup, NavigableString
 from docx import Document
+from docx.oxml import OxmlElement
 from docx.shared import Pt, Cm
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
@@ -38,6 +39,7 @@ CHAPTERS = [
     ("47-bencaos-e-lapidacao.md", "Bênçãos e Lapidação"),
     ("50-equipamento.md", "Equipamento"),
     ("55-ferramenta-amaldicoada.md", "Ferramenta Amaldiçoada"),
+    ("60-invocacoes.md", "Invocações"),
     ("65-pactos.md", "Pactos"),
     ("80-experiencia-e-progressao.md", "Experiência e Progressão"),
 ]
@@ -95,6 +97,8 @@ def walk(doc, soup):
         elif name == "p":
             p = doc.add_paragraph()
             add_runs(p, el)
+            if "tab-titulo" in (el.get("class") or []):
+                p.paragraph_format.keep_with_next = True
 
         elif name == "blockquote":
             # citação do markdown = regra em destaque. Aqui vira parágrafo
@@ -122,14 +126,20 @@ def walk(doc, soup):
             ncols = max(len(r.find_all(["th", "td"])) for r in rows)
             t = doc.add_table(rows=0, cols=ncols)
             t.style = "Light Grid Accent 1"
-            for r in rows:
+            for row_index, r in enumerate(rows):
                 cells = r.find_all(["th", "td"])
                 row = t.add_row()
                 is_header = bool(r.find("th"))
+                props = row._tr.get_or_add_trPr()
+                props.append(OxmlElement("w:cantSplit"))
+                if is_header:
+                    props.append(OxmlElement("w:tblHeader"))
                 for i in range(ncols):
                     cell = row.cells[i]
                     cell.paragraphs[0].clear() if cell.paragraphs[0].runs else None
                     p = cell.paragraphs[0]
+                    if row_index < min(2, len(rows) - 1):
+                        p.paragraph_format.keep_with_next = True
                     if i < len(cells):
                         add_runs(p, cells[i])
                     if is_header:

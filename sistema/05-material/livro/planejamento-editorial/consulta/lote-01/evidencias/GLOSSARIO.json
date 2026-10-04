@@ -1,0 +1,803 @@
+[
+  {
+    "termo": "Ação",
+    "definicao": "Recurso usado para executar uma tarefa. Padrão, Bônus e Movimento têm usos distintos; a Reação responde a um gatilho.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "turnos",
+      "titulo": "Turnos"
+    }
+  },
+  {
+    "termo": "Ação Bônus",
+    "definicao": "Recurso gasto em uma opção que declare esse custo. Não torna uma tarefa gratuita nem fornece uma habilidade por si.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "turnos",
+      "titulo": "Turnos"
+    }
+  },
+  {
+    "termo": "Ação Completa",
+    "definicao": "Custo que compromete Padrão, Bônus e Movimento do turno. Também aparece em textos anteriores como Rodada inteira.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "turnos",
+      "titulo": "Turnos"
+    }
+  },
+  {
+    "termo": "Ação de Movimento",
+    "definicao": "Recurso que permite percorrer o deslocamento ou pagar uma tarefa com esse custo. Não é uma medida em metros.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "turnos",
+      "titulo": "Turnos"
+    }
+  },
+  {
+    "termo": "Ação Padrão",
+    "definicao": "Recurso usado por ações como Atacar, Conjurar e Ajudar, salvo custo próprio indicado na capacidade.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "acoes",
+      "titulo": "Ações"
+    }
+  },
+  {
+    "termo": "Alcance",
+    "definicao": "Distância permitida até um alvo ou ponto de origem. A ficha informa de onde medir.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "alcance",
+      "titulo": "Alcance e área"
+    }
+  },
+  {
+    "termo": "Ampliar",
+    "definicao": "Usar uma aplicação conhecida numa Classe maior pelo procedimento de sua rota.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "ampliar",
+      "titulo": "Ampliar um feitiço"
+    }
+  },
+  {
+    "termo": "Aptidão",
+    "definicao": "Capacidade do catálogo de Aptidões e Refino, adquirida quando a ficha cumpre seus requisitos.",
+    "destino": {
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "ancora": "apt-refino",
+      "titulo": "Aptidões e Refino"
+    }
+  },
+  {
+    "termo": "Área",
+    "definicao": "Espaço ocupado por um efeito, como uma esfera ou um cone. Alcance e tamanho de área são medidas diferentes.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "alcance",
+      "titulo": "Alcance e área"
+    }
+  },
+  {
+    "termo": "Ataque",
+    "definicao": "Tentativa de atingir um alvo com rolagem de acerto. Um ataque concedido não equivale necessariamente à Ação Atacar completa.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "ataques",
+      "titulo": "Ataques"
+    }
+  },
+  {
+    "termo": "Atributo",
+    "definicao": "Valor da ficha usado por testes e capacidades. O próprio número anotado serve de modificador quando a regra o pede.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "atributos",
+      "titulo": "Atributos"
+    }
+  },
+  {
+    "termo": "Atuação básica",
+    "definicao": "Recurso da entidade usado para uma ação ou capacidade básica, ou comprometido pelo comando de uma especial.",
+    "destino": {
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "ancora": "inv-basica",
+      "titulo": "Atuação básica"
+    }
+  },
+  {
+    "termo": "Bênção",
+    "definicao": "Capacidade da rota sem energia amaldiçoada. Seu acesso segue Lapidação e os requisitos de sua entrada.",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-bencaos",
+      "titulo": "Bênçãos"
+    }
+  },
+  {
+    "termo": "Caminho",
+    "definicao": "Conjunto das capacidades principais de combate do personagem. A Trilha desenvolve uma especialidade dentro dele.",
+    "destino": {
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+      "ancora": "ab-caminho",
+      "titulo": "Caminho e Trilha"
+    }
+  },
+  {
+    "termo": "Carga",
+    "definicao": "Conjunto de objetos transportados e sua ocupação, medida em Volume.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "carga",
+      "titulo": "Carga"
+    }
+  },
+  {
+    "termo": "Categoria de Efeito",
+    "definicao": "Escala usada por Talentos, Aptidões e Bênçãos, abreviada CE. Cada entrada informa seus requisitos e sua aquisição. Não é a Classe de um feitiço.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "selo",
+      "titulo": "Selo e Talentos"
+    }
+  },
+  {
+    "termo": "CD",
+    "definicao": "Classe de Dificuldade: valor que uma rolagem precisa igualar ou superar. O procedimento define a CD ou explica como determiná-la.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "testes",
+      "titulo": "Testes"
+    }
+  },
+  {
+    "termo": "Cena",
+    "definicao": "Trecho de jogo organizado em torno de uma situação. Sua passagem depende do que ocorre na ficção, não de uma quantidade fixa de turnos.",
+    "destino": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "ancora": "usos",
+      "titulo": "Cena e usos de habilidades"
+    }
+  },
+  {
+    "termo": "Classe",
+    "definicao": "Escala de uma aplicação, como feitiço, Manejo ou Kata. Determina seu orçamento e seus limites. Não é o Caminho do personagem.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Classe 0",
+    "definicao": "Aplicação de escala própria, registrada separadamente dos espaços conhecidos comuns.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "classezero",
+      "titulo": "Feitiços de Classe 0"
+    }
+  },
+  {
+    "termo": "Concentração",
+    "definicao": "Manutenção de um efeito que exige essa atenção. Seu procedimento define interrupção e testes; preparações como Carregar têm regras próprias.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "concentracao",
+      "titulo": "Concentração"
+    }
+  },
+  {
+    "termo": "Condição",
+    "definicao": "Estado nomeado que altera capacidades ou ações. Sua entrada e a fonte que o aplicou definem consequências e término.",
+    "destino": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "ancora": "condicoes",
+      "titulo": "Condições"
+    }
+  },
+  {
+    "termo": "Crítico",
+    "definicao": "Acerto que recebe o tratamento especial de dados previsto em Combate. Nem todo dado adicional acompanha a duplicação.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "critico",
+      "titulo": "Dano e crítico"
+    }
+  },
+  {
+    "termo": "Defesa",
+    "definicao": "Valor comparado à rolagem de ataque. Não é um Teste de Resistência nem redução de dano.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "defesa",
+      "titulo": "Defesa e cobertura"
+    }
+  },
+  {
+    "termo": "Derrotado",
+    "definicao": "Estado que encerra a participação ativa na cena. Recuperar reservas não devolve essa participação; consulte o procedimento de saída.",
+    "destino": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "ancora": "derrota",
+      "titulo": "Derrota e morte"
+    }
+  },
+  {
+    "termo": "Deslocamento",
+    "definicao": "Distância que o personagem pode percorrer com uma Ação de Movimento, antes dos custos do terreno e demais alterações.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "movimento",
+      "titulo": "Movimento e terreno"
+    }
+  },
+  {
+    "termo": "Desvantagem",
+    "definicao": "Rolagem de dois d20 que usa o menor. Seu encontro com vantagem segue Testes.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "pericias",
+      "titulo": "Treino e modificadores"
+    }
+  },
+  {
+    "termo": "Duração",
+    "definicao": "Prazo de um efeito. Registre a quem o turno se refere e qual evento termina o efeito.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "conjurar",
+      "titulo": "Conjurar"
+    }
+  },
+  {
+    "termo": "Entidade",
+    "definicao": "Criatura com ficha própria obtida por uma das formas de aquisição de Invocações.",
+    "destino": {
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "ancora": "entidades-criar",
+      "titulo": "Criar uma invocação"
+    }
+  },
+  {
+    "termo": "Espaço conhecido",
+    "definicao": "Vaga usada por uma aplicação ou outra opção que expressamente a ocupe. Não é uma carga que se gasta a cada conjuração.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "repertorio",
+      "titulo": "Feitiços conhecidos"
+    }
+  },
+  {
+    "termo": "Especial de invocação",
+    "definicao": "Capacidade executada pela entidade mediante comando, com requisitos, ação e pagamento próprios.",
+    "destino": {
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "ancora": "inv-especial",
+      "titulo": "Comandar uma especial"
+    }
+  },
+  {
+    "termo": "Estabilizar",
+    "definicao": "Socorro que interrompe a perda de tempo da janela de queda enquanto suas condições forem mantidas. Não recupera vida nem acorda o alvo.",
+    "destino": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "ancora": "socorro",
+      "titulo": "Socorro"
+    }
+  },
+  {
+    "termo": "Exaustão",
+    "definicao": "Consequência ligada a esforço e recuperação, com procedimento próprio. Não é uma Condição comprável do catálogo.",
+    "destino": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "ancora": "exaustao",
+      "titulo": "Exaustão"
+    }
+  },
+  {
+    "termo": "Expressão da técnica",
+    "definicao": "Manifestação de aparência ou expressão ligada ao conceito da técnica, dentro dos limites de sua entrada.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "selo",
+      "titulo": "Selo e Talentos"
+    }
+  },
+  {
+    "termo": "Família",
+    "definicao": "Grupo de Melhorias. As escolhas de acesso e desconto dependem da rota e da ficha que está sendo montada.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "familias",
+      "titulo": "Famílias"
+    }
+  },
+  {
+    "termo": "Feitiço",
+    "definicao": "Aplicação preparada de uma técnica, com efeito, custo e requisitos registrados.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "primeiro",
+      "titulo": "Seu primeiro feitiço"
+    }
+  },
+  {
+    "termo": "Ferramenta amaldiçoada",
+    "definicao": "Equipamento que carrega energia própria. Seu grau e sua ficha definem se possui um efeito especial.",
+    "destino": {
+      "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+      "ancora": "eqf-equipamento",
+      "titulo": "Equipamento amaldiçoado"
+    }
+  },
+  {
+    "termo": "Forma",
+    "definicao": "Peça que define a aplicação inicial: alvos, origem, alcance e resolução, conforme sua entrada.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "formas",
+      "titulo": "Formas de ataque"
+    }
+  },
+  {
+    "termo": "Fundamento",
+    "definicao": "Conceito e funcionamento que sustentam as aplicações de uma técnica. O capítulo também apresenta o processo de montagem.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "fundamento",
+      "titulo": "Fundamento"
+    }
+  },
+  {
+    "termo": "Gatilho",
+    "definicao": "Evento necessário para uma resposta ou efeito. Possuir um recurso disponível não dispensa esse evento.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "oportunidade",
+      "titulo": "Reações e ataques de oportunidade"
+    }
+  },
+  {
+    "termo": "Grau",
+    "definicao": "Termo usado na patente e na classificação de ferramentas. A ficha informa qual escala está sendo usada; uma não concede a outra.",
+    "destino": {
+      "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+      "ancora": "eqf-graus",
+      "titulo": "Graus das ferramentas"
+    }
+  },
+  {
+    "termo": "Inconsciente",
+    "definicao": "Estado de quem perdeu a consciência. A regra que o causou determina como sair dele.",
+    "destino": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "ancora": "inconsciente",
+      "titulo": "Inconsciente"
+    }
+  },
+  {
+    "termo": "Integridade",
+    "definicao": "Recurso usado pelas regras de alma. Seus efeitos e recuperação têm procedimento próprio.",
+    "destino": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "ancora": "integridade",
+      "titulo": "Estágios de Integridade"
+    }
+  },
+  {
+    "termo": "Intenção",
+    "definicao": "Tarefa compreensível que orienta a entidade. Não é, por si, um comando para executar uma especial.",
+    "destino": {
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "ancora": "inv-intencao",
+      "titulo": "Dar uma tarefa"
+    }
+  },
+  {
+    "termo": "Invocação",
+    "definicao": "Aquisição e atuação de uma entidade. Manifestar uma entidade conhecida não cria outra ficha.",
+    "destino": {
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "ancora": "entidades-aquisicao",
+      "titulo": "Adquirir entidades"
+    }
+  },
+  {
+    "termo": "Invocador",
+    "definicao": "Personagem responsável pelas entidades que adquiriu. Os custos distinguem seus recursos dos recursos de cada corpo.",
+    "destino": {
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "ancora": "inv-campo",
+      "titulo": "Invocações em campo"
+    }
+  },
+  {
+    "termo": "Kata",
+    "definicao": "Aplicação montada pela rota de Técnica Marcial.",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-marcial",
+      "titulo": "Técnica Marcial"
+    }
+  },
+  {
+    "termo": "Lapidação",
+    "definicao": "Progressão de controle corporal da rota sem energia amaldiçoada. Não concede Refino pessoal.",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-lapidacao",
+      "titulo": "Lapidação"
+    }
+  },
+  {
+    "termo": "Legado",
+    "definicao": "Escolha da Origem que registra uma capacidade ou vínculo. Cada entrada informa seu tipo e suas consequências.",
+    "destino": {
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "ancora": "origens",
+      "titulo": "Origens"
+    }
+  },
+  {
+    "termo": "Leve, Média e Pesada",
+    "definicao": "Nomes de faixas de preço e também de categorias de Condição. Consulte a tabela correspondente; pontos de montagem e PE não são a mesma conta.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Maestria",
+    "definicao": "Bônus ligado ao nível. Só entra nas rolagens e valores que indiquem seu uso.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "atributos",
+      "titulo": "Atributos"
+    }
+  },
+  {
+    "termo": "Manejo",
+    "definicao": "Aplicação criada a partir da semente de quem segue Sem Técnica.",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-sem-tecnica",
+      "titulo": "Sem Técnica"
+    }
+  },
+  {
+    "termo": "Marco",
+    "definicao": "Nível que entrega escolhas adicionais de progressão. As opções e suas condições ficam em Progressão.",
+    "destino": {
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "ancora": "prog-marcos",
+      "titulo": "Marcos"
+    }
+  },
+  {
+    "termo": "Melhoria",
+    "definicao": "Peça comprada na montagem para alterar a aplicação ou acrescentar um efeito permitido.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Morrendo",
+    "definicao": "Situação tratada pelas regras de queda e recuperação. Consulte seu procedimento antes de aplicar custos, prazos ou saídas.",
+    "destino": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "ancora": "zero",
+      "titulo": "Vida a zero"
+    }
+  },
+  {
+    "termo": "Movimento imposto",
+    "definicao": "Deslocamento provocado por outra criatura ou efeito. O procedimento de movimento o distingue do percurso voluntário.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "quedas",
+      "titulo": "Quedas e movimento imposto"
+    }
+  },
+  {
+    "termo": "Nível",
+    "definicao": "Medida de progressão da ficha. É distinto da patente, da Classe da aplicação e do grau de um item.",
+    "destino": {
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "ancora": "prog-inicio",
+      "titulo": "Experiência e Progressão"
+    }
+  },
+  {
+    "termo": "Ofício",
+    "definicao": "Prática aprendida com atributo definido pela tarefa. Seu procedimento informa treino, ferramentas e tentativas permitidas.",
+    "destino": {
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "ancora": "oficios",
+      "titulo": "Ofícios"
+    }
+  },
+  {
+    "termo": "Origem",
+    "definicao": "Escolha de criação que reúne traço, Legados, treinos e opções de rota do personagem.",
+    "destino": {
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "ancora": "origens",
+      "titulo": "Origens"
+    }
+  },
+  {
+    "termo": "Pacto",
+    "definicao": "Acordo ou compromisso com benefício e preço definidos pelo procedimento de Pactos.",
+    "destino": {
+      "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+      "ancora": "pactos",
+      "titulo": "Pactos"
+    }
+  },
+  {
+    "termo": "Patente",
+    "definicao": "Reconhecimento do personagem no meio jujutsu, expresso por Grau. Não substitui nível nem requisito de uma capacidade.",
+    "destino": {
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "ancora": "prog-patentes",
+      "titulo": "Patentes"
+    }
+  },
+  {
+    "termo": "PE",
+    "definicao": "Pontos de energia. Na rota sem energia amaldiçoada, a sigla representa Pontos de Esforço, conforme aquela rota.",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rotas",
+      "titulo": "Rotas de criação"
+    }
+  },
+  {
+    "termo": "Perícia",
+    "definicao": "Capacidade de realizar um tipo de tarefa, associada ao atributo indicado em sua entrada.",
+    "destino": {
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "ancora": "pericias",
+      "titulo": "Perícias e ofícios"
+    }
+  },
+  {
+    "termo": "Pontos de montagem",
+    "definicao": "Orçamento usado para preparar uma aplicação. Não são os PE cobrados quando ela é usada.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "pontos",
+      "titulo": "Pontos e preços"
+    }
+  },
+  {
+    "termo": "Proteção",
+    "definicao": "Parcela da Defesa fornecida por equipamento ou capacidade, com regras próprias de combinação.",
+    "destino": {
+      "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+      "ancora": "eqp-protecao",
+      "titulo": "Proteção"
+    }
+  },
+  {
+    "termo": "PV",
+    "definicao": "Pontos de vida. Registre o valor atual separado do máximo. Vida temporária é anotada à parte.",
+    "destino": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "ancora": "dano",
+      "titulo": "Dano"
+    }
+  },
+  {
+    "termo": "Reação",
+    "definicao": "Recurso gasto em uma resposta permitida por um gatilho. Sua recuperação ocorre no começo do próprio turno.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "oportunidade",
+      "titulo": "Reações e ataques de oportunidade"
+    }
+  },
+  {
+    "termo": "Reação coletiva",
+    "definicao": "Recurso compartilhado pelas entidades, separado da Reação pessoal do invocador.",
+    "destino": {
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "ancora": "inv-ciclo",
+      "titulo": "Turnos das entidades"
+    }
+  },
+  {
+    "termo": "Redução de Dano",
+    "definicao": "Valor descontado durante a resolução do dano quando sua fonte permitir. Não aumenta a Defesa. Abreviação: RD.",
+    "destino": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "ancora": "reducao",
+      "titulo": "Redução de Dano"
+    }
+  },
+  {
+    "termo": "Refino",
+    "definicao": "Progressão de controle de energia amaldiçoada, usada pelas aptidões e pelos requisitos que o indicam.",
+    "destino": {
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "ancora": "apt-refino",
+      "titulo": "Aptidões e Refino"
+    }
+  },
+  {
+    "termo": "Regra da técnica",
+    "definicao": "Frase que delimita o funcionamento do poder e orienta quais aplicações cabem no conceito.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "tecnica",
+      "titulo": "Sua técnica"
+    }
+  },
+  {
+    "termo": "Restrição",
+    "definicao": "Exigência adicional da montagem que pode devolver pontos quando impõe uma limitação válida.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "restricoes",
+      "titulo": "Restrições"
+    }
+  },
+  {
+    "termo": "Ritual",
+    "definicao": "Procedimento que reforça uma conjuração com preparação e requisitos próprios. Não é um nome geral para qualquer uso de energia.",
+    "destino": {
+      "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+      "ancora": "ritual",
+      "titulo": "Ritual"
+    }
+  },
+  {
+    "termo": "Rodada",
+    "definicao": "Passagem da ordem de iniciativa do combate. Turno é o momento de atuação de um participante dentro dela.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "turnos",
+      "titulo": "Turnos"
+    }
+  },
+  {
+    "termo": "Selo",
+    "definicao": "Ato ou requisito que acompanha a conjuração de uma técnica. A rota pode usar equipamento como seu Selo.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "selo",
+      "titulo": "Selo e Talentos"
+    }
+  },
+  {
+    "termo": "Sem Técnica",
+    "definicao": "Rota que cria Manejos a partir de uma semente. Ausência de Técnica Inata não significa ausência de energia amaldiçoada.",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-sem-tecnica",
+      "titulo": "Sem Técnica"
+    }
+  },
+  {
+    "termo": "Talento",
+    "definicao": "Capacidade adquirida cujo funcionamento e investimento seguem sua Categoria de Efeito. Uma entrada reativa ainda pode exigir ação ou gatilho.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "selo",
+      "titulo": "Selo e Talentos"
+    }
+  },
+  {
+    "termo": "Técnica amaldiçoada",
+    "definicao": "Poder com funcionamento próprio que sustenta suas aplicações. As opções do sistema distinguem suas rotas de criação.",
+    "destino": {
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+      "ancora": "ab-mundo",
+      "titulo": "Mundo jujutsu"
+    }
+  },
+  {
+    "termo": "Técnica Marcial",
+    "definicao": "Rota de criação de Katas sustentadas por um estilo e seu equipamento.",
+    "destino": {
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "ancora": "rota-marcial",
+      "titulo": "Técnica Marcial"
+    }
+  },
+  {
+    "termo": "Técnica Máxima",
+    "definicao": "Aplicação avançada com montagem e uso próprios. Pode ter finalidade ofensiva, de cura ou utilidade conforme suas regras.",
+    "destino": {
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "maxima",
+      "titulo": "Técnica Máxima"
+    }
+  },
+  {
+    "termo": "Teste de Resistência",
+    "definicao": "Rolagem de quem tenta evitar ou encerrar um efeito. A regra indica o atributo, a CD e o resultado de sucesso ou falha. Abreviação: TR.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "resistencia",
+      "titulo": "Testes de Resistência"
+    }
+  },
+  {
+    "termo": "Traço",
+    "definicao": "Característica narrativa concedida pela Origem, com o alcance descrito em sua entrada.",
+    "destino": {
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "ancora": "origens",
+      "titulo": "Origens"
+    }
+  },
+  {
+    "termo": "Treino",
+    "definicao": "Qualificação registrada para perícia, ofício, TR ou equipamento. Cada tipo explica o que o treino permite.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "pericias",
+      "titulo": "Treino e modificadores"
+    }
+  },
+  {
+    "termo": "Trilha",
+    "definicao": "Especialidade escolhida dentro de um Caminho.",
+    "destino": {
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+      "ancora": "ab-caminho",
+      "titulo": "Caminho e Trilha"
+    }
+  },
+  {
+    "termo": "Turno",
+    "definicao": "Momento de atuação de um participante. Prazos como começo do seu próximo turno se referem ao participante indicado.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "turnos",
+      "titulo": "Turnos"
+    }
+  },
+  {
+    "termo": "Uso limitado",
+    "definicao": "Capacidade com quantidade e recuperação próprias. Registre o que foi gasto e qual evento devolve o uso.",
+    "destino": {
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+      "ancora": "ab-conferencia",
+      "titulo": "Ficha pronta"
+    }
+  },
+  {
+    "termo": "Vantagem",
+    "definicao": "Rolagem de dois d20 que usa o maior. Várias fontes não acrescentam novos dados por si.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "pericias",
+      "titulo": "Treino e modificadores"
+    }
+  },
+  {
+    "termo": "Vida temporária",
+    "definicao": "Reserva separada dos PV atuais e máximos, sujeita aos limites e ao prazo de Dano e Recuperação.",
+    "destino": {
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "ancora": "temporarios",
+      "titulo": "Vida e energia temporárias"
+    }
+  },
+  {
+    "termo": "Volume",
+    "definicao": "Medida de carga usada pelo inventário. É distinta de uma propriedade de manejo da arma.",
+    "destino": {
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "ancora": "carga",
+      "titulo": "Carga"
+    }
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "alteracoes": [
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "antes": "423da38b173df0e05f9b07ce1ba2edc1f69ac928cf2a9709da0c33cb5ed93ee9",
+      "depois": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "antes": "fec7b78ed68c2ebdfc47aae059de9c713249f36d76b137e3baa858238cfde8b6",
+      "depois": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+      "antes": "bf0d8df8707ecfd43c18e9c32c6295e70a8c692c8513b1692d2f53ca5e706b76",
+      "depois": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md",
+      "antes": "c7759aebe3c3cb1da8af76d79f802387eb447dddbff7d0585acf535b18397834",
+      "depois": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+      "antes": "2e5614e1d6cc519bccc6d264017c960ba97deca89d3f854ae2df81a5182211cd",
+      "depois": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md",
+      "antes": "6b0c6fdc6690e154c064c44ddad58e02593fb3c1a38da3f3ba097e376fc471b0",
+      "depois": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "antes": "fcdf3dfb581d2cd625746ab76ee581e025a023666c5e93a45187aa3328dd2403",
+      "depois": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/abertura/lote-01/ABERTURA-E-CRIACAO.md",
+      "antes": "33036eda547311f2658bf5e241b1dc0f0483fd99e02d3a5b1225b48838216974",
+      "depois": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/EQUIPAMENTO.md",
+      "antes": "89a3f7bb705a7c931a3c69f4f051fb98d62acbc065ffa42dc48275f00e2afec1",
+      "depois": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/caminhos/bastiao/lote-01/BASTIAO.md",
+      "antes": "3334f5e2ff950bc79bbad12ae3f4c2b902e8fbf1539a22e64af7e8826cd14e9d",
+      "depois": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da"
+    }
+  ],
+  "escopo": "Deltas de remissões e concordância coordenados entre autores; conteúdo de Consulta inalterado. Âncoras e destinos novamente executados."
+}

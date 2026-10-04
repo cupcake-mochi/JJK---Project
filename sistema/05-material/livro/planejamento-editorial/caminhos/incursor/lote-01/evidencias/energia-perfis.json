@@ -1,0 +1,234 @@
+[
+  {
+    "nivel": 2,
+    "PE": 12,
+    "ofensiva_fracao": 0.25,
+    "cruzado_fracao": 0.5,
+    "rajada_fracao": null,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 3,
+    "PE": 18,
+    "ofensiva_fracao": 0.16666666666666666,
+    "cruzado_fracao": 0.3333333333333333,
+    "rajada_fracao": null,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 4,
+    "PE": 24,
+    "ofensiva_fracao": 0.125,
+    "cruzado_fracao": 0.25,
+    "rajada_fracao": null,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 5,
+    "PE": 30,
+    "ofensiva_fracao": 0.1,
+    "cruzado_fracao": 0.2,
+    "rajada_fracao": null,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 6,
+    "PE": 36,
+    "ofensiva_fracao": 0.08333333333333333,
+    "cruzado_fracao": 0.16666666666666666,
+    "rajada_fracao": null,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 7,
+    "PE": 42,
+    "ofensiva_fracao": 0.07142857142857142,
+    "cruzado_fracao": 0.14285714285714285,
+    "rajada_fracao": 0.07142857142857142,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 8,
+    "PE": 48,
+    "ofensiva_fracao": 0.0625,
+    "cruzado_fracao": 0.125,
+    "rajada_fracao": 0.0625,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 9,
+    "PE": 54,
+    "ofensiva_fracao": 0.05555555555555555,
+    "cruzado_fracao": 0.1111111111111111,
+    "rajada_fracao": 0.05555555555555555,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 10,
+    "PE": 60,
+    "ofensiva_fracao": 0.05,
+    "cruzado_fracao": 0.1,
+    "rajada_fracao": 0.05,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 11,
+    "PE": 66,
+    "ofensiva_fracao": 0.045454545454545456,
+    "cruzado_fracao": 0.09090909090909091,
+    "rajada_fracao": 0.045454545454545456,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 12,
+    "PE": 72,
+    "ofensiva_fracao": 0.041666666666666664,
+    "cruzado_fracao": 0.08333333333333333,
+    "rajada_fracao": 0.041666666666666664,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 13,
+    "PE": 78,
+    "ofensiva_fracao": 0.038461538461538464,
+    "cruzado_fracao": 0.07692307692307693,
+    "rajada_fracao": 0.038461538461538464,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 14,
+    "PE": 84,
+    "ofensiva_fracao": 0.03571428571428571,
+    "cruzado_fracao": 0.07142857142857142,
+    "rajada_fracao": 0.03571428571428571,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 15,
+    "PE": 90,
+    "ofensiva_fracao": 0.03333333333333333,
+    "cruzado_fracao": 0.06666666666666667,
+    "rajada_fracao": 0.03333333333333333,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 16,
+    "PE": 96,
+    "ofensiva_fracao": 0.03125,
+    "cruzado_fracao": 0.0625,
+    "rajada_fracao": 0.03125,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 17,
+    "PE": 102,
+    "ofensiva_fracao": 0.029411764705882353,
+    "cruzado_fracao": 0.058823529411764705,
+    "rajada_fracao": 0.029411764705882353,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 18,
+    "PE": 108,
+    "ofensiva_fracao": 0.027777777777777776,
+    "cruzado_fracao": 0.05555555555555555,
+    "rajada_fracao": 0.027777777777777776,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 19,
+    "PE": 114,
+    "ofensiva_fracao": 0.02631578947368421,
+    "cruzado_fracao": 0.05263157894736842,
+    "rajada_fracao": 0.02631578947368421,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 20,
+    "PE": 120,
+    "ofensiva_fracao": 0.025,
+    "cruzado_fracao": 0.05,
+    "rajada_fracao": 0.025,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 21,
+    "PE": 126,
+    "ofensiva_fracao": 0.023809523809523808,
+    "cruzado_fracao": 0.047619047619047616,
+    "rajada_fracao": 0.023809523809523808,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 22,
+    "PE": 132,
+    "ofensiva_fracao": 0.022727272727272728,
+    "cruzado_fracao": 0.045454545454545456,
+    "rajada_fracao": 0.022727272727272728,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 23,
+    "PE": 138,
+    "ofensiva_fracao": 0.021739130434782608,
+    "cruzado_fracao": 0.043478260869565216,
+    "rajada_fracao": 0.021739130434782608,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 24,
+    "PE": 144,
+    "ofensiva_fracao": 0.020833333333333332,
+    "cruzado_fracao": 0.041666666666666664,
+    "rajada_fracao": 0.020833333333333332,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 25,
+    "PE": 150,
+    "ofensiva_fracao": 0.02,
+    "cruzado_fracao": 0.04,
+    "rajada_fracao": 0.02,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 26,
+    "PE": 156,
+    "ofensiva_fracao": 0.019230769230769232,
+    "cruzado_fracao": 0.038461538461538464,
+    "rajada_fracao": 0.019230769230769232,
+    "perfeita_fracao": null
+  },
+  {
+    "nivel": 27,
+    "PE": 162,
+    "ofensiva_fracao": 0.018518518518518517,
+    "cruzado_fracao": 0.037037037037037035,
+    "rajada_fracao": 0.018518518518518517,
+    "perfeita_fracao": 0.09259259259259259
+  },
+  {
+    "nivel": 28,
+    "PE": 168,
+    "ofensiva_fracao": 0.017857142857142856,
+    "cruzado_fracao": 0.03571428571428571,
+    "rajada_fracao": 0.017857142857142856,
+    "perfeita_fracao": 0.08928571428571429
+  },
+  {
+    "nivel": 29,
+    "PE": 174,
+    "ofensiva_fracao": 0.017241379310344827,
+    "cruzado_fracao": 0.034482758620689655,
+    "rajada_fracao": 0.017241379310344827,
+    "perfeita_fracao": 0.08620689655172414
+  },
+  {
+    "nivel": 30,
+    "PE": 180,
+    "ofensiva_fracao": 0.016666666666666666,
+    "cruzado_fracao": 0.03333333333333333,
+    "rajada_fracao": 0.016666666666666666,
+    "perfeita_fracao": 0.08333333333333333
+  }
+]

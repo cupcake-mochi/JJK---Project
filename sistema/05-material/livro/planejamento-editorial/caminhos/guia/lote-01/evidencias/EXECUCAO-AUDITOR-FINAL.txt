@@ -1,0 +1,1 @@
+{"ok": true, "contagens": {"verificacoes": 163, "casos_dirigidos": 26, "perfis_obras": 203, "pares_d20": 8400, "quatro_d20": 160000, "cenarios_cura": 41608, "cadeias_ordenadas": 81, "perfis_resgate_GUIA38": 36}, "hash": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c"}

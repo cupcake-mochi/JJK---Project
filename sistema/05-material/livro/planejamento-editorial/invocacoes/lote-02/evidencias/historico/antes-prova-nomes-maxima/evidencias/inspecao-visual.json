@@ -1,0 +1,222 @@
+{
+  "sha256_pdf": "bb038442159b548fae25b02d9dd041430c0af593c79318bb05cd28f0b4f6d792",
+  "metodo": "Todas as 27 páginas abertas e lidas pelo agente principal. As páginas [5, 7, 10, 16, 24] foram reinspecionadas após ajustes finais, com igualdade de pixels comprovada nas demais. Prova de capítulo, com paginação de consulta ainda sujeita à integração.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "0239b9d2b855d18eacc7da7c0644583008eccc35a5ef3da5ad70eaa4540ae98e",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "77abcbb101b87e0b2bf492d540e1a0da04f5046500b89e1e512ac2939f48029e",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "fc43a25b9ab9d4b4af2c973bf600bbd749426335ff35843c5e288075f05a2a3b",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "cf2c47b4059d7e7ab504a5db2efcbc0020846f14c08b14db86b1115fac96d773",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "5bd0fb797fe26b15096049df7f0dd3220e7da86157b714ec0d3c9585cc3514e6",
+      "pixels_iguais_rodada_anterior": false,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "2759f34ede4c6dcfb3b1ec2424dfc01f3b064d7a4309cbd7ff336ca3eca57fcb",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "de6e7680b88092d20a6516a056c2d34c3458349b1be5f5618a339f00b8c7945f",
+      "pixels_iguais_rodada_anterior": false,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "f08a566ebb1ec189695cdc5b779d192bd9e538bee22bf20fb127f0d551ebdde5",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "e7f2dfaf1112f43608568ee867aa578291ba93eb8f49f5764ee573b1c8f94e2e",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "6bfc0b403c9fe411c3932dc98c79aefcea853898ff4e2fa25b554c231f543c1e",
+      "pixels_iguais_rodada_anterior": false,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "5945595489a9191481a3899eb033fa995fbd805e85b2c733119eb165d95c595e",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "c4f2fc8cb7f9c57edf3cff25728c24d68065aee4a115fb37e54e0217f921c7d1",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "9494c38c42e9062f37a425bc846a5038fcde12dcc6a1969920f576c6dc2fcd1f",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "cecbdfeddf74efa3af247666ebb291dbbab780067f7c8481be8de592186512e6",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "5c7c44ed59198f23733f83c7b461a3a5bd2a349f21ccb879f69e5a9dad4c6387",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "890ec7ea41fc4b0c800a2ac2e2c17b6a68fa94ff1c137f47492a932af554912b",
+      "pixels_iguais_rodada_anterior": false,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "8b3101a1821646917b763fec92c450a9b2eae90cf7dea9af26aeb0b0128b8741",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "85daf134f14caf6d4bdac2f35196a039b5035f7b24ffc7dfa7cce46e3ab45c89",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "95dc48af5f94e93fda2b1b8afa32d0e3c79bba5570ff9f45cb89712c8f60751e",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "ca5e8cef091feea7abfdd8baf6d21652d98bdc860e1e1e716534a4faefafe5b6",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 21,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "26b2f97913e48dafc5f40944f174ca64cccb17669b009eab8772934420d3d644",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 22,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "f8543fac879be605a2d8a6a3530fb04ea8e1faade6e30ce90d02d67f03812585",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 23,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "8ac5e9c0c9d1f8529d2bacaf103e1c9a30b877c96207199f5295c3ddf5311c01",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 24,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "867159fe53234321a5f187f3954f89fb5bf7b29a2d24785d1b7f09c7b181feed",
+      "pixels_iguais_rodada_anterior": false,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 25,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "7315e91aa9f5c73e8b29e085b1103bc4794f9aabf8fafe7be88e343653638f99",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 26,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "6283d5b54a00ece580ddf8c0ccee64ddc8e348fedf36e0ba0c591f311d8c7802",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    },
+    {
+      "pagina": 27,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, fórmulas, tabelas e caixas legíveis; sem cortes ou colisões observados.",
+      "sha256_png": "cdf640b9533ac8d09c972b8f23c10647b0d76d7f04d6d03bffdc9ae191c7839e",
+      "pixels_iguais_rodada_anterior": true,
+      "revisor": "Agente principal"
+    }
+  ]
+}

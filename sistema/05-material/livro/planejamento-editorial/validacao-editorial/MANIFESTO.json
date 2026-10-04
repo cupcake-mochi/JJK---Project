@@ -1,0 +1,16 @@
+{
+  "data": "2026-10-03",
+  "arquivos": {
+    "DIAGNOSTICO-CORRENTE.json": "069d992ee4e321233f18f12f7c8be61d2fbd6017e2b17217f558c2a2b78b119a",
+    "DONOS.json": "6b92fe3b46c057143808118c29eabef52ab3d37603677d2c29c4a2d93f775574",
+    "LEIA-ME.md": "4e7758d1a6326f79d9a0ce7bb8393bcb923f9c6de2b2d38d6f059f70b397b9b4",
+    "MANUSCRITOS.json": "62ff7535382f37c6ba02379a597fbfb30c44529cd3a71be5cf7d37259faecb27",
+    "TESTES.txt": "db54ca05aa31a460dceefb77fc9b41da8b2493e1092d66181caa5b7aab82b6f9",
+    "VOCABULARIO.json": "9f32404beba29610665366461bb43c7471267ab95060c3b4085dac560477f5b5",
+    "conferir_editorial.py": "5e263b554be0d3bf25b3ed70d012065514362b9e28ff6b33a738966105a9ac48",
+    "conferir_pdf_candidato.py": "5520e34138ec9fa104177dd7c28b9a82a8ff7249edaab53b8d65a5f9fb86c4a0",
+    "testar_editorial.py": "b32059a1b13ff281d37c194f723d6eae72126f8f23fd7279022789803427ec10",
+    "inventariar_titulos.py": "a39acec0c7298695c32c86baadeda7bf5bec20f1db124f69b30760848e8c8280"
+  },
+  "nota_atualizacao": "Atualização de títulos/validador E007; resultados históricos de outros diagnósticos não foram declarados atuais."
+}

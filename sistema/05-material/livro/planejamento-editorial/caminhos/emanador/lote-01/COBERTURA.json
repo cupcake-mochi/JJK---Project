@@ -1,0 +1,348 @@
+{
+  "fonte": "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+  "itens": [
+    {
+      "nome_fonte": "Desdobramento Técnico",
+      "nome_candidato": "Desdobramento Técnico",
+      "linha_fonte": 34,
+      "linha_destino": 26,
+      "pagina": "ema-base"
+    },
+    {
+      "nome_fonte": "Remodelar",
+      "nome_candidato": "Remodelar",
+      "linha_fonte": 48,
+      "linha_destino": 37,
+      "pagina": "ema-desdobramento"
+    },
+    {
+      "nome_fonte": "Modulações Dominadas",
+      "nome_candidato": "Modulações Dominadas",
+      "linha_fonte": 69,
+      "linha_destino": 79,
+      "pagina": "ema-modulacoes"
+    },
+    {
+      "nome_fonte": "Forçar uma Modulação",
+      "nome_candidato": "Forçar uma Modulação",
+      "linha_fonte": 48,
+      "linha_destino": 37,
+      "pagina": "ema-desdobramento"
+    },
+    {
+      "nome_fonte": "Extensão",
+      "nome_candidato": "Extensão",
+      "linha_fonte": 78,
+      "linha_destino": 86,
+      "pagina": "ema-modulacoes"
+    },
+    {
+      "nome_fonte": "Amplitude",
+      "nome_candidato": "Amplitude",
+      "linha_fonte": 79,
+      "linha_destino": 87,
+      "pagina": "ema-modulacoes"
+    },
+    {
+      "nome_fonte": "Divisão",
+      "nome_candidato": "Divisão",
+      "linha_fonte": 80,
+      "linha_destino": 88,
+      "pagina": "ema-modulacoes"
+    },
+    {
+      "nome_fonte": "Recorte",
+      "nome_candidato": "Recorte",
+      "linha_fonte": 81,
+      "linha_destino": 89,
+      "pagina": "ema-modulacoes"
+    },
+    {
+      "nome_fonte": "Trajetória",
+      "nome_candidato": "Trajetória",
+      "linha_fonte": 82,
+      "linha_destino": 90,
+      "pagina": "ema-modulacoes"
+    },
+    {
+      "nome_fonte": "Impulso",
+      "nome_candidato": "Impulso",
+      "linha_fonte": 83,
+      "linha_destino": 91,
+      "pagina": "ema-modulacoes"
+    },
+    {
+      "nome_fonte": "Ocultação",
+      "nome_candidato": "Ocultação",
+      "linha_fonte": 44,
+      "linha_destino": 56,
+      "pagina": "ema-desdobramento"
+    },
+    {
+      "nome_fonte": "Expressões Familiares",
+      "nome_candidato": "Expressões Familiares",
+      "linha_fonte": 35,
+      "linha_destino": 27,
+      "pagina": "ema-base"
+    },
+    {
+      "nome_fonte": "Afinidade Técnica",
+      "nome_candidato": "Afinidade Técnica",
+      "linha_fonte": 100,
+      "linha_destino": 27,
+      "pagina": "ema-base"
+    },
+    {
+      "nome_fonte": "Forma Fluida",
+      "nome_candidato": "Forma Fluida",
+      "linha_fonte": 36,
+      "linha_destino": 28,
+      "pagina": "ema-base"
+    },
+    {
+      "nome_fonte": "Aceleração",
+      "nome_candidato": "Aceleração",
+      "linha_fonte": 44,
+      "linha_destino": 93,
+      "pagina": "ema-modulacoes"
+    },
+    {
+      "nome_fonte": "Preparação",
+      "nome_candidato": "Preparação",
+      "linha_fonte": 133,
+      "linha_destino": 94,
+      "pagina": "ema-modulacoes"
+    },
+    {
+      "nome_fonte": "Sustentação",
+      "nome_candidato": "Sustentação",
+      "linha_fonte": 134,
+      "linha_destino": 95,
+      "pagina": "ema-modulacoes"
+    },
+    {
+      "nome_fonte": "Composição Técnica",
+      "nome_candidato": "Composição Técnica",
+      "linha_fonte": 37,
+      "linha_destino": 29,
+      "pagina": "ema-base"
+    },
+    {
+      "nome_fonte": "Expressão Instintiva",
+      "nome_candidato": "Expressão Instintiva",
+      "linha_fonte": 38,
+      "linha_destino": 30,
+      "pagina": "ema-base"
+    },
+    {
+      "nome_fonte": "Arma Condutora",
+      "nome_candidato": "Arma Condutora",
+      "linha_fonte": 163,
+      "linha_destino": 187,
+      "pagina": "ema-condutor"
+    },
+    {
+      "nome_fonte": "Cadência Técnica",
+      "nome_candidato": "Cadência Técnica",
+      "linha_fonte": 163,
+      "linha_destino": 187,
+      "pagina": "ema-condutor"
+    },
+    {
+      "nome_fonte": "Artes do Vínculo",
+      "nome_candidato": "Artes do Vínculo",
+      "linha_fonte": 164,
+      "linha_destino": 188,
+      "pagina": "ema-condutor"
+    },
+    {
+      "nome_fonte": "Cadência Marcial",
+      "nome_candidato": "Cadência Marcial",
+      "linha_fonte": 190,
+      "linha_destino": 218,
+      "pagina": "ema-artes"
+    },
+    {
+      "nome_fonte": "Cadência Expandida",
+      "nome_candidato": "Cadência Expandida",
+      "linha_fonte": 192,
+      "linha_destino": 224,
+      "pagina": "ema-artes"
+    },
+    {
+      "nome_fonte": "Chamado da Arma",
+      "nome_candidato": "Chamado da Arma",
+      "linha_fonte": 200,
+      "linha_destino": 239,
+      "pagina": "ema-propriedades"
+    },
+    {
+      "nome_fonte": "Forma Mutável",
+      "nome_candidato": "Forma Mutável",
+      "linha_fonte": 202,
+      "linha_destino": 245,
+      "pagina": "ema-propriedades"
+    },
+    {
+      "nome_fonte": "Retorno Vinculado",
+      "nome_candidato": "Retorno Vinculado",
+      "linha_fonte": 204,
+      "linha_destino": 253,
+      "pagina": "ema-propriedades"
+    },
+    {
+      "nome_fonte": "Passo da Arma",
+      "nome_candidato": "Passo da Arma",
+      "linha_fonte": 206,
+      "linha_destino": 257,
+      "pagina": "ema-propriedades"
+    },
+    {
+      "nome_fonte": "Âncora Gravada",
+      "nome_candidato": "Âncora Gravada",
+      "linha_fonte": 208,
+      "linha_destino": 266,
+      "pagina": "ema-propriedades-apoio"
+    },
+    {
+      "nome_fonte": "Vínculo Duplo",
+      "nome_candidato": "Vínculo Duplo",
+      "linha_fonte": 198,
+      "linha_destino": 232,
+      "pagina": "ema-artes"
+    },
+    {
+      "nome_fonte": "Sentido do Vínculo",
+      "nome_candidato": "Sentido do Vínculo",
+      "linha_fonte": 212,
+      "linha_destino": 278,
+      "pagina": "ema-propriedades-apoio"
+    },
+    {
+      "nome_fonte": "Memória da Arma",
+      "nome_candidato": "Memória da Arma",
+      "linha_fonte": 214,
+      "linha_destino": 284,
+      "pagina": "ema-propriedades-apoio"
+    },
+    {
+      "nome_fonte": "Manifestação Condutora",
+      "nome_candidato": "Manifestação Condutora",
+      "linha_fonte": 165,
+      "linha_destino": 189,
+      "pagina": "ema-condutor"
+    },
+    {
+      "nome_fonte": "Ritmo Convergente",
+      "nome_candidato": "Ritmo Convergente",
+      "linha_fonte": 166,
+      "linha_destino": 190,
+      "pagina": "ema-condutor"
+    },
+    {
+      "nome_fonte": "Eco Técnico",
+      "nome_candidato": "Eco Técnico",
+      "linha_fonte": 245,
+      "linha_destino": 320,
+      "pagina": "ema-eco"
+    },
+    {
+      "nome_fonte": "Eco de Remodelagem",
+      "nome_candidato": "Eco de Remodelagem",
+      "linha_fonte": 258,
+      "linha_destino": 340,
+      "pagina": "ema-repetir"
+    },
+    {
+      "nome_fonte": "Eco de Modulação",
+      "nome_candidato": "Eco de Modulação",
+      "linha_fonte": 264,
+      "linha_destino": 346,
+      "pagina": "ema-repetir"
+    },
+    {
+      "nome_fonte": "Contraponto",
+      "nome_candidato": "Contraponto",
+      "linha_fonte": 246,
+      "linha_destino": 321,
+      "pagina": "ema-eco"
+    },
+    {
+      "nome_fonte": "Reverberação",
+      "nome_candidato": "Reverberação",
+      "linha_fonte": 247,
+      "linha_destino": 322,
+      "pagina": "ema-eco"
+    },
+    {
+      "nome_fonte": "Acorde Ressonante",
+      "nome_candidato": "Acorde Ressonante",
+      "linha_fonte": 248,
+      "linha_destino": 323,
+      "pagina": "ema-eco"
+    },
+    {
+      "nome_fonte": "Impulso Técnico",
+      "nome_candidato": "Impulso Técnico",
+      "linha_fonte": 313,
+      "linha_destino": 409,
+      "pagina": "ema-impulso"
+    },
+    {
+      "nome_fonte": "Acelerar",
+      "nome_candidato": "Acelerar",
+      "linha_fonte": 322,
+      "linha_destino": 422,
+      "pagina": "ema-impulso"
+    },
+    {
+      "nome_fonte": "Intensificar",
+      "nome_candidato": "Intensificar",
+      "linha_fonte": 324,
+      "linha_destino": 424,
+      "pagina": "ema-impulso"
+    },
+    {
+      "nome_fonte": "Correção de Fluxo",
+      "nome_candidato": "Correção de Fluxo",
+      "linha_fonte": 314,
+      "linha_destino": 410,
+      "pagina": "ema-impulso"
+    },
+    {
+      "nome_fonte": "Corrigir a tentativa",
+      "nome_candidato": "Corrigir a tentativa",
+      "linha_fonte": 330,
+      "linha_destino": 433,
+      "pagina": "ema-correcao"
+    },
+    {
+      "nome_fonte": "Aperfeiçoar o dano",
+      "nome_candidato": "Aperfeiçoar o dano",
+      "linha_fonte": 334,
+      "linha_destino": 441,
+      "pagina": "ema-correcao"
+    },
+    {
+      "nome_fonte": "Sobre Carregar Energia",
+      "nome_candidato": "Sobrecarregar Energia",
+      "linha_fonte": 315,
+      "linha_destino": 411,
+      "pagina": "ema-impulso"
+    },
+    {
+      "nome_fonte": "Fluxo Contínuo",
+      "nome_candidato": "Fluxo Contínuo",
+      "linha_fonte": 316,
+      "linha_destino": 412,
+      "pagina": "ema-impulso"
+    }
+  ],
+  "quantidade": 48,
+  "outras_regras": [
+    "Vida inicial e por nível, PE, treinos e troca de perícias por arma única.",
+    "Escolha e troca de Trilha; progressão dos três kits.",
+    "Limites globais de Família, Restrição, Efeito Próprio e categorias fora de Desdobramento.",
+    "Exemplos numéricos recontados com R06/R07, sem perpetuar preço histórico incompatível."
+  ]
+}

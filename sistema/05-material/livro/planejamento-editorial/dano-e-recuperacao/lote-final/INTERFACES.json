@@ -1,0 +1,79 @@
+{
+  "pendencias": [],
+  "interfaces": [
+    {
+      "dono": "Rotas — Segundo Fôlego",
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "sha256": "ba2d9a0a0d321116a07f6133252e84c3dad273e17eb2aa45c116ee991703f512",
+      "conclusao": "Dispensa apenas o primeiro custo de Insistir. Não repõe janela, vida ou ações.",
+      "evidencia": "evidencias/SINCRONIZACAO-FINAL.json",
+      "status": "conferido"
+    },
+    {
+      "dono": "Progressão — feitos",
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "sha256": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+      "conclusao": "Retorno do estágio4 exige saída de Derrotado e ameaça real, sem fabricar feito.",
+      "evidencia": "evidencias/REVISAO-PRO36-MAXIMA.json",
+      "status": "conferido"
+    },
+    {
+      "dono": "Catálogo — Levanta e Remenda",
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "sha256": "bf0d8df8707ecfd43c18e9c32c6295e70a8c692c8513b1692d2f53ca5e706b76",
+      "conclusao": "Levanta atende quem ainda está Morrendo; Remenda recalcula estágio sem devolver participação após Derrotado.",
+      "evidencia": "evidencias/REVISAO-CAT116-MAXIMA.json",
+      "status": "conferido"
+    },
+    {
+      "dono": "Guia — Ainda Há Tempo",
+      "arquivo": "caminhos/guia/lote-01/GUIA.md",
+      "sha256": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+      "conclusao": "Exceção expressa ao limiar de socorro, com Sequela. Não reverte Derrotado.",
+      "evidencia": "evidencias/GUIA38-DELTA.md",
+      "status": "conferido"
+    },
+    {
+      "dono": "Origens",
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "sha256": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+      "conclusao": "Revezamento e Corpo Emprestado afetam Guarda Aberta, sem impedir inconsciência ou queda. Ferro Velho impede Exaustão, sem impedir dano ou queda.",
+      "evidencia": "Leitura contextual localizada",
+      "status": "conferido"
+    },
+    {
+      "dono": "Bastião",
+      "arquivo": "caminhos/bastiao/lote-01/BASTIAO.md",
+      "sha256": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+      "conclusao": "Inabalável conserva benefícios passivos, sem dar ações Inconsciente.",
+      "evidencia": "Leitura contextual localizada",
+      "status": "conferido"
+    },
+    {
+      "dono": "Incursor",
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "sha256": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+      "conclusao": "Guarda Aberta continua a encerrar e impedir Fluidez.",
+      "evidencia": "migracao-nomes/diffs/incursor.diff",
+      "status": "conferido"
+    },
+    {
+      "dono": "Invocações",
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "sha256": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+      "conclusao": "Entidades mantêm procedimentos específicos de atuação, reserva e derrota, distintos dos personagens.",
+      "evidencia": "evidencias/SINCRONIZACAO-FINAL.json",
+      "status": "conferido"
+    },
+    {
+      "dono": "Equipamento — Cisão",
+      "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+      "sha256": "ebc3677dfc59ebd1e4def5692cb484c4f1d8b5917dd636230b80cda050e4a752",
+      "conclusao": "Perda somente de Integridade segue estágios atuais; ausência de TR extra no dono R03.",
+      "evidencia": "Leitura localizada e auditoria de Equipamento",
+      "status": "conferido"
+    }
+  ],
+  "revisor": "/root",
+  "limite": "Integração documental e casos dirigidos; não equivale a partidas com jogadores."
+}

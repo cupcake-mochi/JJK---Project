@@ -1,0 +1,37 @@
+{
+  "data": "2026-10-03",
+  "sha256_pdf": "157e06b28762e67856f00ec393f362dbb259297cb647c31908f4ff7228adcbd1",
+  "paginas": [
+    {
+      "pagina": 1,
+      "arquivo": "/tmp/projeto-m-trajes-municao/equipamento-1.png",
+      "sha256_png": "da9aa5595b93c8d5539739a3ce9b3da438f19fffdaf38370d6ddf029768cc715",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "arquivo": "/tmp/projeto-m-trajes-municao/equipamento-2.png",
+      "sha256_png": "e8b6ca0ce1b41c01e933db836deaa9f80ccfcff30688912396d00109a8b52452",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "arquivo": "/tmp/projeto-m-trajes-municao/equipamento-3.png",
+      "sha256_png": "f4323d51d375d46889ce9f260570d785ae5d2e44926d92f43b9a25ceca7bae91",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "arquivo": "/tmp/projeto-m-trajes-municao/equipamento-4.png",
+      "sha256_png": "1f4ba080e81d977a2d989f52b8c145d90259e9bd4e26cb7fe6d39cd686ebb0ec",
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 5,
+      "arquivo": "/tmp/projeto-m-trajes-municao/equipamento-5.png",
+      "sha256_png": "92f1c18f7526366c0905d13e393ad4ded7757ad5113fd603fc571aa829b2785a",
+      "resultado": "sem defeito visual observado"
+    }
+  ],
+  "metodo": "Todas as páginas da exportação final renderizadas com Poppler e examinadas visualmente pelo autor. Não é revisão independente."
+}

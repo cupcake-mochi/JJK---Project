@@ -1,0 +1,110 @@
+{
+  "sha256_texto": "6b0c6fdc6690e154c064c44ddad58e02593fb3c1a38da3f3ba097e376fc471b0",
+  "status": "candidata; execução autorizada pelo usuário, não aprovação individual de cada fechamento",
+  "alteracoes": [
+    {
+      "id": "FAB-01",
+      "antes": "§107 remete criação a sistema que ainda não existia. R04 agora possui projeto de fabricação.",
+      "depois": "Aplicar o projeto R04 à criação, com exceção específica de teste final obrigatório.",
+      "motivo": "Fechar a referência pendente sem minissistema paralelo.",
+      "tipo": "integração",
+      "impacto": "Nenhuma mudança no procedimento geral de Ofícios."
+    },
+    {
+      "id": "FAB-02",
+      "antes": "§§107/108 escolhem Caligrafia, Entalhador ou Forja; R04 exige treino salvo improvisação simples.",
+      "depois": "Responsável treinado, ofício pelo trabalho principal; outros participantes cuidam de etapas pertinentes.",
+      "motivo": "Criação sobrenatural não é improvisação simples.",
+      "tipo": "esclarecimento",
+      "impacto": "Não concede treino por ferramenta ou ajuda."
+    },
+    {
+      "id": "FAB-03",
+      "antes": "R12 limita entidade ao invocador; §107 só apresenta próprio nível ou inferior.",
+      "depois": "Nível máximo é o menor entre responsável e futuro invocador.",
+      "motivo": "Impedir artesão de fabricar além do próprio nível e contratação para ultrapassar o teto do receptor.",
+      "tipo": "mecânica candidata",
+      "impacto": "A mesma Classe não autoriza nível maior. Novo fechamento explícito."
+    },
+    {
+      "id": "FAB-04",
+      "antes": "§71 permite criação sem técnica e sem troca de espaço. R04 exige processo especial para criar poderes.",
+      "depois": "Receita/processo aprendido, fonte de energia e participantes definidos; dispensa técnica inata e slot.",
+      "motivo": "Permitir rota comum sem dar poder pela simples compra de ferramentas.",
+      "tipo": "compatibilidade",
+      "impacto": "Não cria Origem, aptidão, alma autônoma nem energia pessoal; material preparado pode atender processo."
+    },
+    {
+      "id": "FAB-05",
+      "antes": "§107 deixou preço/prazo aguardando sistema e moeda; R04 veda custo universal pela metade.",
+      "depois": "Materiais/tempo/custos definidos por projeto antes de gastar; sem tabela por nível/Grau, PE adicional só se receita declarar.",
+      "motivo": "Não converter preço de armas em custo de entidades nem introduzir tributo universal de PE.",
+      "tipo": "integração",
+      "impacto": "Economia entre mesas ainda depende de calibração dos projetos; não é tabela balanceada."
+    },
+    {
+      "id": "FAB-06",
+      "antes": "§107 escada que acompanha: Difícil/Média/Fácil pela diferença de Classe.",
+      "depois": "CD8+atributo+Maestria do responsável, ajustes0/−2/−4; extras só no teste.",
+      "motivo": "Tornar cálculo reproduzível em uma única tentativa.",
+      "tipo": "editorial",
+      "impacto": "Preserva65/75/85% sem extras; não usa CD fixa14/10/6 por engano."
+    },
+    {
+      "id": "FAB-07",
+      "antes": "§107 aprovou teste único; R04 resolve falha por consequência anunciada.",
+      "depois": "Um teste por entidade ao concluir; falha entrega peça não funcional e retrabalho previsto, sem rolagem por participante.",
+      "motivo": "Evitar estoque de dados e destruição automática não autorizada.",
+      "tipo": "fechamento operacional",
+      "impacto": "Novas tentativas pagam tempo/material efetivo, sem repetir etapa que permaneceu válida."
+    },
+    {
+      "id": "FAB-08",
+      "antes": "Fonte não informa estado inicial preciso do objeto concluído.",
+      "depois": "Vida máxima; talismã recolhido sem adiantamento de carga; corpo inativo na oficina.",
+      "motivo": "Evitar entrada/energia/teleporte gratuito ao terminar fabricação.",
+      "tipo": "mecânica candidata",
+      "impacto": "Primeira entrada ainda exige custo normal; não transforma fabricação em reparo."
+    },
+    {
+      "id": "FAB-09",
+      "antes": "§86 deixa herança para criação; R11 remete a aquisição.",
+      "depois": "Transferir via projeto fora de combate, objeto presente, consentimento anterior ou morte, responsável/novo dono de nível suficiente e mesmo teste por Classe.",
+      "motivo": "Dar procedimento utilizável para herança sem permitir apropriação automática de item roubado.",
+      "tipo": "mecânica candidata",
+      "impacto": "Tempo e materiais de alterar vínculo podem diferir da fabricação integral; não existe prazo/custo universal novo."
+    },
+    {
+      "id": "FAB-10",
+      "antes": "§86 preserva carga na morte; demais estados não estão explicitados para transferência.",
+      "depois": "Conservar nível/ficha/PV/queda/carga/usos, único invocador; trocar só valores do dono; falha conserva vínculo antigo.",
+      "motivo": "Impedir cura/recarga/duplicação de controle por venda ou herança.",
+      "tipo": "mecânica candidata",
+      "impacto": "Reconstrução de destruída é nova fabricação; criatura anterior não volta."
+    },
+    {
+      "id": "FAB-11",
+      "antes": "§109 não limita posse, R11-48 limita controle de corpos.",
+      "depois": "Excedente permanece sem controle até caber; não repetir fórmula neste texto.",
+      "motivo": "Preservar posse sem criar capacidade extra pela fabricação/transferência.",
+      "tipo": "compatibilidade",
+      "impacto": "Não amplia ativações/ações e não destrói excedente."
+    },
+    {
+      "id": "FAB-12",
+      "antes": "Não havia demonstração completa de tempo/material/falha.",
+      "depois": "Exemplo local:30000/16h, retrabalho6000/4h, nível13→9, bônus6/CD12; 1falha+1sucesso=36000/20h.",
+      "motivo": "Ensinar procedimento com todos os custos visíveis.",
+      "tipo": "exemplo candidato",
+      "impacto": "Valores ilustrativos, não tabela nem proposta de preço universal. Ferramentas10000 preservadas de R05."
+    },
+    {
+      "id": "FAB-13",
+      "antes": "Fontes misturam Classe, Grau e tipo Corpo Amaldiçoado.",
+      "depois": "Separar Classe da entidade de Grau de equipamento; não conceder Origem/aptidão ou equipamento pelo material.",
+      "motivo": "Evitar portas de aquisição indevidas ou defesa gratuita por metal.",
+      "tipo": "editorial/compatibilidade",
+      "impacto": "Licenças de componentes seguem R05/R04; sem licença institucional geral nova."
+    }
+  ]
+}

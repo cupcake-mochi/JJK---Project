@@ -1,0 +1,120 @@
+{
+  "ordem": [
+    "van-base",
+    "van-sequencia",
+    "van-conducoes",
+    "van-conclusoes",
+    "van-escola",
+    "van-avanco",
+    "van-estocada",
+    "van-feiticos",
+    "van-bote",
+    "van-yumi",
+    "van-yumi-conducoes",
+    "van-yumi-avanco",
+    "van-besta",
+    "van-besta-conclusoes",
+    "van-besta-avanco",
+    "van-fogo",
+    "van-fogo-conclusoes",
+    "van-fogo-avanco",
+    "van-executor",
+    "van-executor-avanco"
+  ],
+  "titulos": {
+    "van-base": "Vanguarda",
+    "van-sequencia": "Sequência de Condução",
+    "van-conducoes": "Conduções",
+    "van-conclusoes": "Conclusões",
+    "van-escola": "Prazo e Escola de Arma",
+    "van-avanco": "Habilidades avançadas",
+    "van-estocada": "Estocada",
+    "van-feiticos": "Conclusões de feitiço",
+    "van-bote": "Bote e Ferrão",
+    "van-yumi": "Batedor: Yumi",
+    "van-yumi-conducoes": "Conduções e Conclusões do Yumi",
+    "van-yumi-avanco": "Leituras do Yumi",
+    "van-besta": "Batedor: Besta",
+    "van-besta-conclusoes": "Conclusões da Besta",
+    "van-besta-avanco": "Preparação com virotes",
+    "van-fogo": "Batedor: Arma de Fogo",
+    "van-fogo-conclusoes": "Conclusões da Arma de Fogo",
+    "van-fogo-avanco": "Retirada e continuidade",
+    "van-executor": "Executor",
+    "van-executor-avanco": "Intenções do Executor"
+  },
+  "paginas": {
+    "van-base": 1,
+    "van-sequencia": 2,
+    "van-conducoes": 3,
+    "van-conclusoes": 4,
+    "van-escola": 5,
+    "van-avanco": 6,
+    "van-estocada": 7,
+    "van-feiticos": 8,
+    "van-bote": 9,
+    "van-yumi": 10,
+    "van-yumi-conducoes": 11,
+    "van-yumi-avanco": 12,
+    "van-besta": 13,
+    "van-besta-conclusoes": 14,
+    "van-besta-avanco": 15,
+    "van-fogo": 16,
+    "van-fogo-conclusoes": 17,
+    "van-fogo-avanco": 18,
+    "van-executor": 19,
+    "van-executor-avanco": 20
+  },
+  "grupos": [
+    [
+      "Vanguarda",
+      [
+        "van-base",
+        "van-sequencia",
+        "van-conducoes",
+        "van-conclusoes",
+        "van-escola",
+        "van-avanco"
+      ]
+    ],
+    [
+      "Estocada",
+      [
+        "van-estocada",
+        "van-feiticos",
+        "van-bote"
+      ]
+    ],
+    [
+      "Batedor: Yumi",
+      [
+        "van-yumi",
+        "van-yumi-conducoes",
+        "van-yumi-avanco"
+      ]
+    ],
+    [
+      "Batedor: Besta",
+      [
+        "van-besta",
+        "van-besta-conclusoes",
+        "van-besta-avanco"
+      ]
+    ],
+    [
+      "Batedor: Arma de Fogo",
+      [
+        "van-fogo",
+        "van-fogo-conclusoes",
+        "van-fogo-avanco"
+      ]
+    ],
+    [
+      "Executor",
+      [
+        "van-executor",
+        "van-executor-avanco"
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,4802 @@
+[
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 4.8,
+    "cabe": true,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 6.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 4.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 6.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 4.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 6.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 4.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 6.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 4.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 6.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 4.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 6.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 8.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 10.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 8.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 10.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 8.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 10.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 8.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 10.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 8.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 3,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 10.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 5.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 7.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 5.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 7.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 4,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 6.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 8.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 7.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 9.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 7.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 9.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 7.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 9.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 7.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 9.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 7.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 9.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 7.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 9.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 6.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 8.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 7.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 9.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 7.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 9.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 7.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 9.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 7.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 9.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 7.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 9.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 10.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 12.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 10.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 12.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 10.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 12.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 10.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 12.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 10.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 5,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 12.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 8.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 10.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 8.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 10.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 8.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 10.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 8.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 10.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 8.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 10.7,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 0.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 9.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 11.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 10.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 12.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 10.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 12.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 10.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 12.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 10.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 12.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 10.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 12.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 11.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 13.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 11.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 13.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 11.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 13.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 11.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 13.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 11.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 13.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 0,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 3,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 4,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 5,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 8.3,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 0,
+    "forca": 6,
+    "traje": 2,
+    "carga": 10.2,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 0,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 3,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 4,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 5,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 9.8,
+    "cabe": true,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 1,
+    "forca": 6,
+    "traje": 2,
+    "carga": 11.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 11.3,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 0,
+    "traje": 2,
+    "carga": 13.2,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 11.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 3,
+    "traje": 2,
+    "carga": 13.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 11.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 4,
+    "traje": 2,
+    "carga": 13.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 11.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 5,
+    "traje": 2,
+    "carga": 13.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 11.3,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 2,
+    "forca": 6,
+    "traje": 2,
+    "carga": 13.2,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 0.1,
+    "carga": 12.8,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 0,
+    "traje": 2,
+    "carga": 14.7,
+    "cabe": false,
+    "cumpre_manejo": false
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 0.1,
+    "carga": 12.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 3,
+    "traje": 2,
+    "carga": 14.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 0.1,
+    "carga": 12.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 4,
+    "traje": 2,
+    "carga": 14.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 0.1,
+    "carga": 12.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 5,
+    "traje": 2,
+    "carga": 14.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 0.1,
+    "carga": 12.8,
+    "cabe": false,
+    "cumpre_manejo": true
+  },
+  {
+    "volume_arma": 7,
+    "volume_reserva": 1.5,
+    "reservas": 3,
+    "forca": 6,
+    "traje": 2,
+    "carga": 14.7,
+    "cabe": false,
+    "cumpre_manejo": true
+  }
+]

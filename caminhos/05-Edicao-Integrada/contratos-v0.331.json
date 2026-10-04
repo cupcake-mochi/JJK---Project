@@ -1,0 +1,58 @@
+{
+  "decisao": "Mizuki, 02/10/2026, itens 4.1 a 4.5",
+  "bastiao": {
+    "Assumir": [
+      "antes da rolagem de acerto",
+      "sua Defesa",
+      "Bloquear não exige outra Reação",
+      "Esta Reação protege somente o ataque declarado"
+    ],
+    "Nem Um Arranhao": [
+      "vantagem no TR Físico provocado por um ataque de uma criatura dentro da área",
+      "benefício passivo, sem gasto de Reação"
+    ],
+    "Duro de Matar": [
+      "Sempre que seu Bloquear falhar",
+      "resultado dos dados do Bloquear + sua Constituição",
+      "não pode deixar o dano abaixo de zero"
+    ],
+    "Mao Pesada": [
+      "você escolhe: ele fica Derrubado ou Agarrado por você",
+      "uma mão livre",
+      "continuar ao seu alcance",
+      "TR de Vigor contra CD 8 + sua Força + sua maestria"
+    ],
+    "Arrastao": [
+      "2 PE por criatura atacada além da primeira",
+      "o custo depende dos ataques tentados"
+    ],
+    "Contra a Parede": [
+      "o primeiro ou o segundo ataque",
+      "uma única vez na ação",
+      "O feitiço não pode ser crítico, mesmo que o ataque seja.",
+      "Você não pode usar Canalizar em Golpe no ataque escolhido."
+    ]
+  },
+  "arrastao_cenarios": [
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      6,
+      10
+    ]
+  ]
+}

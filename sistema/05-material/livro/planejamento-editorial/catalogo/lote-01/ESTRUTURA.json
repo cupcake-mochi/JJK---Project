@@ -1,0 +1,160 @@
+{
+  "ordem": [
+    "cat-catalogo",
+    "cat-alcance",
+    "cat-movimento",
+    "cat-area",
+    "cat-area-continua",
+    "cat-mira",
+    "cat-defesas",
+    "cat-controle",
+    "cat-obstaculos",
+    "cat-auxiliares",
+    "cat-auxiliares-apoio",
+    "cat-castigo",
+    "cat-castigo-dano",
+    "cat-tempo",
+    "cat-tempo-duracao",
+    "cat-marca",
+    "cat-marca-recursos",
+    "cat-amparo",
+    "cat-amparo-protecao",
+    "cat-proprio",
+    "cat-restricoes-conjuracao",
+    "cat-restricoes-consequencias",
+    "cat-restricoes-uso",
+    "cat-restricoes-proprias",
+    "cat-passivas-1",
+    "cat-passivas-2-recursos",
+    "cat-passivas-2-protecao",
+    "cat-passivas-3",
+    "cat-regra-propria",
+    "cat-passiva-propria"
+  ],
+  "titulos": {
+    "cat-catalogo": "Catálogo de criação",
+    "cat-alcance": "Alcance",
+    "cat-movimento": "Movimento",
+    "cat-area": "Área",
+    "cat-area-continua": "Efeitos de área",
+    "cat-mira": "Mira",
+    "cat-defesas": "Defesas",
+    "cat-controle": "Controle",
+    "cat-obstaculos": "Obstáculos e contenção",
+    "cat-auxiliares": "Auxiliares",
+    "cat-auxiliares-apoio": "Proteção e apoio",
+    "cat-castigo": "Castigo",
+    "cat-castigo-dano": "Dano adicional",
+    "cat-tempo": "Tempo",
+    "cat-tempo-duracao": "Momento e duração",
+    "cat-marca": "Marca",
+    "cat-marca-recursos": "Marcas e recursos",
+    "cat-amparo": "Amparo",
+    "cat-amparo-protecao": "Proteção compartilhada",
+    "cat-proprio": "Efeito Próprio",
+    "cat-restricoes-conjuracao": "Restrições de conjuração",
+    "cat-restricoes-consequencias": "Custos e consequências",
+    "cat-restricoes-uso": "Condições de uso",
+    "cat-restricoes-proprias": "Exposição e novas Restrições",
+    "cat-passivas-1": "Talentos de Categoria 1",
+    "cat-passivas-2-recursos": "Talentos de Categoria 2",
+    "cat-passivas-2-protecao": "Proteção e presença",
+    "cat-passivas-3": "Talentos de Categoria 3",
+    "cat-regra-propria": "Regra Própria",
+    "cat-passiva-propria": "Talento Próprio"
+  },
+  "paginas": {
+    "cat-catalogo": 1,
+    "cat-alcance": 2,
+    "cat-movimento": 3,
+    "cat-area": 4,
+    "cat-area-continua": 5,
+    "cat-mira": 6,
+    "cat-defesas": 7,
+    "cat-controle": 8,
+    "cat-obstaculos": 9,
+    "cat-auxiliares": 10,
+    "cat-auxiliares-apoio": 11,
+    "cat-castigo": 12,
+    "cat-castigo-dano": 13,
+    "cat-tempo": 14,
+    "cat-tempo-duracao": 15,
+    "cat-marca": 16,
+    "cat-marca-recursos": 17,
+    "cat-amparo": 18,
+    "cat-amparo-protecao": 19,
+    "cat-proprio": 20,
+    "cat-restricoes-conjuracao": 21,
+    "cat-restricoes-consequencias": 22,
+    "cat-restricoes-uso": 23,
+    "cat-restricoes-proprias": 24,
+    "cat-passivas-1": 25,
+    "cat-passivas-2-recursos": 26,
+    "cat-passivas-2-protecao": 27,
+    "cat-passivas-3": 28,
+    "cat-regra-propria": 29,
+    "cat-passiva-propria": 30
+  },
+  "grupos": [
+    [
+      "Catálogo",
+      [
+        "cat-catalogo"
+      ]
+    ],
+    [
+      "Aplicação",
+      [
+        "cat-alcance",
+        "cat-movimento",
+        "cat-area",
+        "cat-area-continua",
+        "cat-mira",
+        "cat-defesas",
+        "cat-controle",
+        "cat-obstaculos"
+      ]
+    ],
+    [
+      "Efeitos",
+      [
+        "cat-auxiliares",
+        "cat-auxiliares-apoio",
+        "cat-castigo",
+        "cat-castigo-dano",
+        "cat-tempo",
+        "cat-tempo-duracao",
+        "cat-marca",
+        "cat-marca-recursos",
+        "cat-amparo",
+        "cat-amparo-protecao"
+      ]
+    ],
+    [
+      "Criação própria",
+      [
+        "cat-proprio"
+      ]
+    ],
+    [
+      "Restrições",
+      [
+        "cat-restricoes-conjuracao",
+        "cat-restricoes-consequencias",
+        "cat-restricoes-uso",
+        "cat-restricoes-proprias"
+      ]
+    ],
+    [
+      "Talentos",
+      [
+        "cat-passivas-1",
+        "cat-passivas-2-recursos",
+        "cat-passivas-2-protecao",
+        "cat-passivas-3",
+        "cat-regra-propria",
+        "cat-passiva-propria"
+      ]
+    ]
+  ]
+}

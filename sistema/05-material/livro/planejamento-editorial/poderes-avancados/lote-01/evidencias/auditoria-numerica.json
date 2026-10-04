@@ -1,0 +1,1487 @@
+{
+  "ok": true,
+  "status": "passou",
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f"
+  },
+  "limite": "Auditoria matemática e verificação dirigida de texto; não playtest, não teste humano e não prova de balanceamento de toda ficha.",
+  "manuscrito_sha256": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+  "script_sha256": "db4c482664c4d9148a5c50bdc78524b3cc7df660d5fdb9722ac1f27a035b0fa8",
+  "contrato_sha256": "5092c7041b4e7d5069cbae465c21bfe0b7be77a3a3267bc49c951dbcc2af51e4",
+  "checks": [
+    {
+      "id": "ancora-vida-fonte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "vida-preservada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-duracao-fonte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-preco-fechado-fonte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-preco-aberto-fonte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-raio-antigo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "progressao-30-niveis",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-curva-refino",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "curva-sete-marcos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ancora-marcos-curva",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "curva-sete-niveis",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "maxima-tres-faixas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "texto-dano",
+      "passou": true,
+      "detalhe": "**2 × sua maior Classe em d8**"
+    },
+    {
+      "id": "texto-vida",
+      "passou": true,
+      "detalhe": "**50 × metade do refino em pontos de vida**"
+    },
+    {
+      "id": "texto-raioaberto",
+      "passou": true,
+      "detalhe": "199,5 m"
+    },
+    {
+      "id": "texto-fimturno",
+      "passou": true,
+      "detalhe": "**ao final do último turno contado**"
+    },
+    {
+      "id": "texto-interior",
+      "passou": true,
+      "detalhe": "**um quarto do dano**"
+    },
+    {
+      "id": "texto-custo6",
+      "passou": true,
+      "detalhe": "6 × maior Classe em PE"
+    },
+    {
+      "id": "texto-custo7",
+      "passou": true,
+      "detalhe": "7 × maior Classe em PE"
+    },
+    {
+      "id": "texto-nomesclasse",
+      "passou": true,
+      "detalhe": "Expansão não tem Classe própria"
+    },
+    {
+      "id": "texto-zerogratis",
+      "passou": true,
+      "detalhe": "Classe 0 continua gratuita"
+    },
+    {
+      "id": "texto-trtotal",
+      "passou": true,
+      "detalhe": "**o mesmo total**"
+    },
+    {
+      "id": "texto-capfalha",
+      "passou": true,
+      "detalhe": "no máximo uma falha por esse personagem na rodada"
+    },
+    {
+      "id": "texto-alcancebarreira",
+      "passou": true,
+      "detalhe": "alcance chegue ao exterior"
+    },
+    {
+      "id": "texto-critsbarreira",
+      "passou": true,
+      "detalhe": "sem teste de acerto e sem crítico"
+    },
+    {
+      "id": "texto-falhatrbarreira",
+      "passou": true,
+      "detalhe": "A estrutura falha em TR"
+    },
+    {
+      "id": "texto-simetria",
+      "passou": true,
+      "detalhe": "**incluindo você**"
+    },
+    {
+      "id": "texto-zerofim",
+      "passou": true,
+      "detalhe": "**0 PV**"
+    },
+    {
+      "id": "texto-protecaolocal",
+      "passou": true,
+      "detalhe": "essa regra não se aplica à pessoa protegida"
+    },
+    {
+      "id": "texto-semreconjurar",
+      "passou": true,
+      "detalhe": "não novas conjurações"
+    },
+    {
+      "id": "paginas-15",
+      "passou": true,
+      "detalhe": 15
+    },
+    {
+      "id": "ids-unicos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-degraus",
+      "passou": true,
+      "detalhe": 385
+    },
+    {
+      "id": "titulo-degraus",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-degraus",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-degraus",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-degraus",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-degraus",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-degraus",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-criardominio",
+      "passou": true,
+      "detalhe": 310
+    },
+    {
+      "id": "titulo-criardominio",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-acerto",
+      "passou": true,
+      "detalhe": 329
+    },
+    {
+      "id": "titulo-acerto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-protecao",
+      "passou": true,
+      "detalhe": 279
+    },
+    {
+      "id": "titulo-protecao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-abertura",
+      "passou": true,
+      "detalhe": 323
+    },
+    {
+      "id": "titulo-abertura",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-abertura",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-abertura",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-abertura",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-abertura",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-abertura",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-barreira",
+      "passou": true,
+      "detalhe": 398
+    },
+    {
+      "id": "titulo-barreira",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-rescaldo",
+      "passou": true,
+      "detalhe": 289
+    },
+    {
+      "id": "titulo-rescaldo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-sembarreiras",
+      "passou": true,
+      "detalhe": 354
+    },
+    {
+      "id": "titulo-sembarreiras",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-disputa",
+      "passou": true,
+      "detalhe": 300
+    },
+    {
+      "id": "titulo-disputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-disputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-disputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-disputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-disputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-disputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-disputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-manterdisputa",
+      "passou": true,
+      "detalhe": 338
+    },
+    {
+      "id": "titulo-manterdisputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-manterdisputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-manterdisputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-manterdisputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-manterdisputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-manterdisputa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-sobreposicao",
+      "passou": true,
+      "detalhe": 310
+    },
+    {
+      "id": "titulo-sobreposicao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-multiplos",
+      "passou": true,
+      "detalhe": 308
+    },
+    {
+      "id": "titulo-multiplos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-galeriavidro",
+      "passou": true,
+      "detalhe": 331
+    },
+    {
+      "id": "titulo-galeriavidro",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-galeriavidro",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-galeriavidro",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-galeriavidro",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-galeriavidro",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-galeriavidro",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-galeriavidro",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-salatregua",
+      "passou": true,
+      "detalhe": 325
+    },
+    {
+      "id": "titulo-salatregua",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-salatregua",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-salatregua",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-salatregua",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-salatregua",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-salatregua",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "colunas-salatregua",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "palavras-confronto",
+      "passou": true,
+      "detalhe": 302
+    },
+    {
+      "id": "titulo-confronto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulos-sem-artigo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "titulos-sem-como-ler",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sem-contraste-formula",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "exemplo-mei",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "exemplo-sala",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "exemplo-final",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "desconto-fechado-C5",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "desconto-aberto-C5",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "sequencia-casca",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "queda-quarto-pulso",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "limiares-essencia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "raio-aberto-grade",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "reducao-raio",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fuga1905",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "fuga150",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-4-incompleta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-4-fechado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-4-aberto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-5-incompleta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-5-fechado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-5-aberto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-6-incompleta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-6-fechado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-6-aberto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-7-incompleta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-7-fechado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-7-aberto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-8-incompleta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-8-fechado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-8-aberto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-9-incompleta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-9-fechado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-9-aberto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-10-incompleta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-10-fechado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "grade-10-aberto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "1818-estados-preco",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "d12-metade-exata",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "rerrolar-antigo-nao-aplicado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "maiorrefino-antes-naodano",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "naodano-antes-dado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "ambos-naodano-dado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "margem3-corrida",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "empate7-9-corrida",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "1728-multiplos-ordem-pares",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "3600-sequencias-inimigo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "exemplo-CD-crescente",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "exemplo-semfalha",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "1001-danos-internos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "risco-minidano-exposto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "vida-compartilhada-exemplo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "27-perfis-contestacao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "maxima-supera-pulso",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "dominio-custa-mais-maxima",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tr-metade-dados",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tr-exemplo-4d8",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "tr-7-classes-metade-dados",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "id": "entrada-resultado-por-pulso",
+      "passou": true,
+      "detalhe": 32
+    },
+    {
+      "id": "entrada-texto",
+      "passou": true,
+      "detalhe": null
+    }
+  ],
+  "total_checks": 154,
+  "word_counts": {
+    "degraus": 385,
+    "criardominio": 310,
+    "acerto": 329,
+    "protecao": 279,
+    "abertura": 323,
+    "barreira": 398,
+    "rescaldo": 289,
+    "sembarreiras": 354,
+    "disputa": 300,
+    "manterdisputa": 338,
+    "sobreposicao": 310,
+    "multiplos": 308,
+    "galeriavidro": 331,
+    "salatregua": 325,
+    "confronto": 302
+  },
+  "example_values": [
+    {
+      "level": 10,
+      "refino": 4,
+      "spell_class": 3,
+      "mastery": 2,
+      "closed_pe": 18,
+      "open_pe": null,
+      "pulses": 3,
+      "dice_per_pulse": 6,
+      "mean_per_pulse": 27.0,
+      "mean_full": 81.0,
+      "barrier_pv": 100,
+      "closed_radius": 6.0
+    },
+    {
+      "level": 14,
+      "refino": 5,
+      "spell_class": 4,
+      "mastery": 2,
+      "closed_pe": 24,
+      "open_pe": null,
+      "pulses": 3,
+      "dice_per_pulse": 8,
+      "mean_per_pulse": 36.0,
+      "mean_full": 108.0,
+      "barrier_pv": 100,
+      "closed_radius": 7.5
+    },
+    {
+      "level": 18,
+      "refino": 7,
+      "spell_class": 5,
+      "mastery": 3,
+      "closed_pe": 30,
+      "open_pe": null,
+      "pulses": 4,
+      "dice_per_pulse": 10,
+      "mean_per_pulse": 45.0,
+      "mean_full": 180.0,
+      "barrier_pv": 150,
+      "closed_radius": 10.5
+    },
+    {
+      "level": 21,
+      "refino": 9,
+      "spell_class": 6,
+      "mastery": 3,
+      "closed_pe": 36,
+      "open_pe": null,
+      "pulses": 5,
+      "dice_per_pulse": 12,
+      "mean_per_pulse": 54.0,
+      "mean_full": 270.0,
+      "barrier_pv": 200,
+      "closed_radius": 13.5
+    },
+    {
+      "level": 26,
+      "refino": 10,
+      "spell_class": 7,
+      "mastery": 4,
+      "closed_pe": 42,
+      "open_pe": 49,
+      "pulses": 6,
+      "dice_per_pulse": 14,
+      "mean_per_pulse": 63.0,
+      "mean_full": 378.0,
+      "barrier_pv": 250,
+      "closed_radius": 15.0
+    },
+    {
+      "level": 30,
+      "refino": 10,
+      "spell_class": 7,
+      "mastery": 4,
+      "closed_pe": 42,
+      "open_pe": 49,
+      "pulses": 6,
+      "dice_per_pulse": 14,
+      "mean_per_pulse": 63.0,
+      "mean_full": 378.0,
+      "barrier_pv": 250,
+      "closed_radius": 15.0
+    }
+  ],
+  "open_radius_change": {
+    "before": 200.0,
+    "after": 199.5,
+    "radius_percent": -0.25,
+    "area_percent": -0.4993749999999908
+  },
+  "comparison": [
+    {
+      "level": 17,
+      "spell_class": 5,
+      "common_max_single_dice": 15,
+      "liberacao_max_single_dice": 20,
+      "liberacao_pe": 23,
+      "maxima_dice": 24,
+      "maxima_pe": 25,
+      "maxima_mean": 108.0,
+      "domain_pulse_dice": 10,
+      "domain_pulse_mean": 45.0,
+      "domain_closed_pe": 30,
+      "max_refino_at_level": 7,
+      "closed_discount": 3,
+      "maxima_discounted_closed": 22,
+      "maxima_discounted_open": null
+    },
+    {
+      "level": 21,
+      "spell_class": 6,
+      "common_max_single_dice": 18,
+      "liberacao_max_single_dice": 24,
+      "liberacao_pe": 27,
+      "maxima_dice": 28,
+      "maxima_pe": 30,
+      "maxima_mean": 126.0,
+      "domain_pulse_dice": 12,
+      "domain_pulse_mean": 54.0,
+      "domain_closed_pe": 36,
+      "max_refino_at_level": 9,
+      "closed_discount": 4,
+      "maxima_discounted_closed": 26,
+      "maxima_discounted_open": null
+    },
+    {
+      "level": 26,
+      "spell_class": 7,
+      "common_max_single_dice": 21,
+      "liberacao_max_single_dice": 28,
+      "liberacao_pe": 32,
+      "maxima_dice": 32,
+      "maxima_pe": 35,
+      "maxima_mean": 144.0,
+      "domain_pulse_dice": 14,
+      "domain_pulse_mean": 63.0,
+      "domain_closed_pe": 42,
+      "max_refino_at_level": 10,
+      "closed_discount": 5,
+      "maxima_discounted_closed": 30,
+      "maxima_discounted_open": 27
+    }
+  ],
+  "clash": {
+    "resolved": 72,
+    "total": 144,
+    "probability": 0.5,
+    "multi_states": 1728
+  },
+  "enemy_sequence_states": 3600,
+  "price_states": 1818,
+  "barrier_rounding": [
+    {
+      "dano": 0,
+      "antigo_equivalente_externo": 0.0,
+      "novo": 0
+    },
+    {
+      "dano": 1,
+      "antigo_equivalente_externo": 0.5,
+      "novo": 1
+    },
+    {
+      "dano": 2,
+      "antigo_equivalente_externo": 0.5,
+      "novo": 1
+    },
+    {
+      "dano": 3,
+      "antigo_equivalente_externo": 1.0,
+      "novo": 1
+    },
+    {
+      "dano": 4,
+      "antigo_equivalente_externo": 1.0,
+      "novo": 1
+    },
+    {
+      "dano": 5,
+      "antigo_equivalente_externo": 1.5,
+      "novo": 2
+    },
+    {
+      "dano": 6,
+      "antigo_equivalente_externo": 1.5,
+      "novo": 2
+    },
+    {
+      "dano": 7,
+      "antigo_equivalente_externo": 2.0,
+      "novo": 2
+    },
+    {
+      "dano": 8,
+      "antigo_equivalente_externo": 2.0,
+      "novo": 2
+    },
+    {
+      "dano": 9,
+      "antigo_equivalente_externo": 2.5,
+      "novo": 3
+    },
+    {
+      "dano": 10,
+      "antigo_equivalente_externo": 2.5,
+      "novo": 3
+    },
+    {
+      "dano": 11,
+      "antigo_equivalente_externo": 3.0,
+      "novo": 3
+    },
+    {
+      "dano": 12,
+      "antigo_equivalente_externo": 3.0,
+      "novo": 3
+    }
+  ],
+  "contest_probabilities": [
+    {
+      "danos_por_rodada": 1,
+      "chance_falha": 0.35,
+      "essencia": 2,
+      "probabilidade_de_pe_por_rodada": [
+        0.65,
+        0.4225,
+        0.274625,
+        0.17850625,
+        0.1160290625
+      ]
+    },
+    {
+      "danos_por_rodada": 1,
+      "chance_falha": 0.35,
+      "essencia": 4,
+      "probabilidade_de_pe_por_rodada": [
+        1.0,
+        0.8775,
+        0.71825,
+        0.56298125,
+        0.428415
+      ]
+    },
+    {
+      "danos_por_rodada": 1,
+      "chance_falha": 0.35,
+      "essencia": 6,
+      "probabilidade_de_pe_por_rodada": [
+        1.0,
+        1.0,
+        0.957125,
+        0.87351875,
+        0.764830625
+      ]
+    },
+    {
+      "danos_por_rodada": 1,
+      "chance_falha": 0.5,
+      "essencia": 2,
+      "probabilidade_de_pe_por_rodada": [
+        0.5,
+        0.25,
+        0.125,
+        0.0625,
+        0.03125
+      ]
+    },
+    {
+      "danos_por_rodada": 1,
+      "chance_falha": 0.5,
+      "essencia": 4,
+      "probabilidade_de_pe_por_rodada": [
+        1.0,
+        0.75,
+        0.5,
+        0.3125,
+        0.1875
+      ]
+    },
+    {
+      "danos_por_rodada": 1,
+      "chance_falha": 0.5,
+      "essencia": 6,
+      "probabilidade_de_pe_por_rodada": [
+        1.0,
+        1.0,
+        0.875,
+        0.6875,
+        0.5
+      ]
+    },
+    {
+      "danos_por_rodada": 1,
+      "chance_falha": 0.85,
+      "essencia": 2,
+      "probabilidade_de_pe_por_rodada": [
+        0.15,
+        0.0225,
+        0.003375,
+        0.00050625,
+        7.59375e-05
+      ]
+    },
+    {
+      "danos_por_rodada": 1,
+      "chance_falha": 0.85,
+      "essencia": 4,
+      "probabilidade_de_pe_por_rodada": [
+        1.0,
+        0.2775,
+        0.06075,
+        0.01198125,
+        0.0022275
+      ]
+    },
+    {
+      "danos_por_rodada": 1,
+      "chance_falha": 0.85,
+      "essencia": 6,
+      "probabilidade_de_pe_por_rodada": [
+        1.0,
+        1.0,
+        0.385875,
+        0.10951875,
+        0.026611875
+      ]
+    },
+    {
+      "danos_por_rodada": 2,
+      "chance_falha": 0.35,
+      "essencia": 2,
+      "probabilidade_de_pe_por_rodada": [
+        0.4225,
+        0.17850625,
+        0.075418890625,
+        0.0318644812890625,
+        0.013462743344628906
+      ]
+    },
+    {
+      "danos_por_rodada": 2,
+      "chance_falha": 0.35,
+      "essencia": 4,
+      "probabilidade_de_pe_por_rodada": [
+        0.8775,
+        0.56298125,
+        0.319079921875,
+        0.1691268622265625,
+        0.0859544382772461
+      ]
+    },
+    {
+      "danos_por_rodada": 2,
+      "chance_falha": 0.35,
+      "essencia": 6,
+      "probabilidade_de_pe_por_rodada": [
+        1.0,
+        0.87351875,
+        0.64708515625,
+        0.4278136570703125,
+        0.2616073913832031
+      ]
+    },
+    {
+      "danos_por_rodada": 2,
+      "chance_falha": 0.5,
+      "essencia": 2,
+      "probabilidade_de_pe_por_rodada": [
+        0.25,
+        0.0625,
+        0.015625,
+        0.00390625,
+        0.0009765625
+      ]
+    },
+    {
+      "danos_por_rodada": 2,
+      "chance_falha": 0.5,
+      "essencia": 4,
+      "probabilidade_de_pe_por_rodada": [
+        0.75,
+        0.3125,
+        0.109375,
+        0.03515625,
+        0.0107421875
+      ]
+    },
+    {
+      "danos_por_rodada": 2,
+      "chance_falha": 0.5,
+      "essencia": 6,
+      "probabilidade_de_pe_por_rodada": [
+        1.0,
+        0.6875,
+        0.34375,
+        0.14453125,
+        0.0546875
+      ]
+    },
+    {
+      "danos_por_rodada": 2,
+      "chance_falha": 0.85,
+      "essencia": 2,
+      "probabilidade_de_pe_por_rodada": [
+        0.0225,
+        0.00050625,
+        1.1390625e-05,
+        2.562890625e-07,
+        5.76650390625e-09
+      ]
+    },
+    {
+      "danos_por_rodada": 2,
+      "chance_falha": 0.85,
+      "essencia": 4,
+      "probabilidade_de_pe_por_rodada": [
+        0.2775,
+        0.01198125,
+        0.000398671875,
+        1.18747265625e-05,
+        3.3253505859375e-07
+      ]
+    },
+    {
+      "danos_por_rodada": 2,
+      "chance_falha": 0.85,
+      "essencia": 6,
+      "probabilidade_de_pe_por_rodada": [
+        1.0,
+        0.10951875,
+        0.00588515625,
+        0.0002423070703125,
+        8.665133203125e-06
+      ]
+    },
+    {
+      "danos_por_rodada": 4,
+      "chance_falha": 0.35,
+      "essencia": 2,
+      "probabilidade_de_pe_por_rodada": [
+        0.17850625,
+        0.0318644812890625,
+        0.005688009063105713,
+        0.0010153451678210142,
+        0.0001812454583633499
+      ]
+    },
+    {
+      "danos_por_rodada": 4,
+      "chance_falha": 0.35,
+      "essencia": 4,
+      "probabilidade_de_pe_por_rodada": [
+        0.56298125,
+        0.1691268622265625,
+        0.042441298393942624,
+        0.00976293430597129,
+        0.002133119625353272
+      ]
+    },
+    {
+      "danos_por_rodada": 4,
+      "chance_falha": 0.35,
+      "essencia": 6,
+      "probabilidade_de_pe_por_rodada": [
+        0.87351875,
+        0.4278136570703125,
+        0.15128757833526735,
+        0.045089736594655094,
+        0.012117706710340181
+      ]
+    },
+    {
+      "danos_por_rodada": 4,
+      "chance_falha": 0.5,
+      "essencia": 2,
+      "probabilidade_de_pe_por_rodada": [
+        0.0625,
+        0.00390625,
+        0.000244140625,
+        1.52587890625e-05,
+        9.5367431640625e-07
+      ]
+    },
+    {
+      "danos_por_rodada": 4,
+      "chance_falha": 0.5,
+      "essencia": 4,
+      "probabilidade_de_pe_por_rodada": [
+        0.3125,
+        0.03515625,
+        0.003173828125,
+        0.0002593994140625,
+        2.002716064453125e-05
+      ]
+    },
+    {
+      "danos_por_rodada": 4,
+      "chance_falha": 0.5,
+      "essencia": 6,
+      "probabilidade_de_pe_por_rodada": [
+        0.6875,
+        0.14453125,
+        0.019287109375,
+        0.0020904541015625,
+        0.00020122528076171875
+      ]
+    },
+    {
+      "danos_por_rodada": 4,
+      "chance_falha": 0.85,
+      "essencia": 2,
+      "probabilidade_de_pe_por_rodada": [
+        0.00050625,
+        2.562890625e-07,
+        1.29746337890625e-10,
+        6.568408355712891e-14,
+        3.325256730079651e-17
+      ]
+    },
+    {
+      "danos_por_rodada": 4,
+      "chance_falha": 0.85,
+      "essencia": 4,
+      "probabilidade_de_pe_por_rodada": [
+        0.01198125,
+        1.18747265625e-05,
+        8.952497314453124e-09,
+        6.021040992736817e-12,
+        3.801876861391068e-15
+      ]
+    },
+    {
+      "danos_por_rodada": 4,
+      "chance_falha": 0.85,
+      "essencia": 6,
+      "probabilidade_de_pe_por_rodada": [
+        0.10951875,
+        0.0002423070703125,
+        2.8392823608398436e-07,
+        2.5912370963287353e-10,
+        2.0667948469325066e-13
+      ]
+    }
+  ],
+  "specification_cases": [
+    {
+      "id": "S01",
+      "caso": "Incompleta com refino maior não vence Completa",
+      "natureza": "exceção textual",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S02",
+      "caso": "Cesta não anula rolagem de Incompleta",
+      "natureza": "interface R09",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S03",
+      "caso": "Simples não gasta relógio com Acerto já suspenso por disputa",
+      "natureza": "interface R09",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S04",
+      "caso": "Pétala não anula proibição ambiental abstrata",
+      "natureza": "interface R09",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S05",
+      "caso": "Mover fechado estandoAgarrado proibido",
+      "natureza": "caso negativo",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S06",
+      "caso": "Dano exterior não provocaTR no dono",
+      "natureza": "caso negativo",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S07",
+      "caso": "Entrada após pulso não causa novo dano automático",
+      "natureza": "caso negativo",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S08",
+      "caso": "Regra contínua volta após fim proteção",
+      "natureza": "interface R09",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S09",
+      "caso": "Alto d12 não vence refino superior",
+      "natureza": "modelo duel também executado",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S10",
+      "caso": "Queda de trêsbarreiras não concede pulso extra ao aberto",
+      "natureza": "caso negativo",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S11",
+      "caso": "Trocar face não restaura PV",
+      "natureza": "modelo PV também executado",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S12",
+      "caso": "Zero PE não equivale a ausência de energia",
+      "natureza": "dependência de origem",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S13",
+      "caso": "SemTécnica não compra domínio com espaços",
+      "natureza": "gate textual",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S14",
+      "caso": "Efeito de domínio não isenta dono da regra simétrica",
+      "natureza": "caso negativo",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S15",
+      "caso": "Dano de invocação não forçaTR no inimigo",
+      "natureza": "decisão histórica preservada",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S16",
+      "caso": "Passar a0PV encerra domínio e impõe Rescaldo",
+      "natureza": "estado",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S17",
+      "caso": "Regravação não fornece abertura gratuita",
+      "natureza": "interface R09",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S18",
+      "caso": "Abandonar área aberta mantém domínio mas não desconto fora",
+      "natureza": "estado",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S19",
+      "caso": "Acerto não cria Classe para ativar Fluxo",
+      "natureza": "interface R07",
+      "executado_com_jogadores": false
+    },
+    {
+      "id": "S20",
+      "caso": "Vida temporária absorvida conta como dano recebido",
+      "natureza": "interface R03",
+      "executado_com_jogadores": false
+    }
+  ],
+  "fontes_no_momento": [
+    {
+      "path": "sistema/05-material/livro/manual/40-fundamento.md",
+      "sha256": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96"
+    },
+    {
+      "path": "sistema/03-mecanica/18-progressao.md",
+      "sha256": "3074b345db8915d2101741ee07790a22e7a98c95ecc4a76ae72803573793dd51"
+    },
+    {
+      "path": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+      "sha256": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273"
+    },
+    {
+      "path": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+      "sha256": "bf0d8df8707ecfd43c18e9c32c6295e70a8c692c8513b1692d2f53ca5e706b76"
+    }
+  ]
+}

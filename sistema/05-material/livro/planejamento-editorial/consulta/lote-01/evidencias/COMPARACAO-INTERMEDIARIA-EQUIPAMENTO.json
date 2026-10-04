@@ -1,0 +1,125 @@
+{
+  "paginas": [
+    {
+      "pagina": 1,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 2,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 3,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 4,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 5,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 6,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 7,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 8,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 9,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 10,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 11,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 12,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 13,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 14,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 15,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 16,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 17,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 18,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 19,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 20,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 21,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 22,
+      "pixels_identicos": false
+    },
+    {
+      "pagina": 23,
+      "pixels_identicos": false
+    },
+    {
+      "pagina": 24,
+      "pixels_identicos": false
+    },
+    {
+      "pagina": 25,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 26,
+      "pixels_identicos": false
+    },
+    {
+      "pagina": 27,
+      "pixels_identicos": false
+    },
+    {
+      "pagina": 28,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 29,
+      "pixels_identicos": true
+    },
+    {
+      "pagina": 30,
+      "pixels_identicos": false
+    }
+  ],
+  "metodo": "PNG100dpi,RGB,comparação de cada pixel. Só destinos de equipamento alterados entre estas provas."
+}

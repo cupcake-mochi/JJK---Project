@@ -1,0 +1,110 @@
+{
+  "ordem": [
+    "apt-refino",
+    "apt-marcos",
+    "apt-catalogo",
+    "apt-cobrir",
+    "apt-canalizar",
+    "apt-projetar",
+    "apt-reversa",
+    "apt-energia-positiva",
+    "apt-circulacao",
+    "apt-regravacao",
+    "apt-kokusen",
+    "apt-protecao-dominios",
+    "apt-cesta",
+    "apt-simples",
+    "apt-simples-duracao",
+    "apt-petala",
+    "apt-extensao",
+    "apt-barreira",
+    "apt-cortina",
+    "apt-propria"
+  ],
+  "titulos": {
+    "apt-refino": "Aptidões e Refino",
+    "apt-marcos": "Progressão de Refino",
+    "apt-catalogo": "Catálogo de aptidões",
+    "apt-cobrir": "Cobrir-se de Energia",
+    "apt-canalizar": "Canalizar Energia",
+    "apt-projetar": "Projetar Energia",
+    "apt-reversa": "Energia Reversa",
+    "apt-energia-positiva": "Ferir maldições",
+    "apt-circulacao": "Circulação",
+    "apt-regravacao": "Regravação",
+    "apt-kokusen": "Kokusen",
+    "apt-protecao-dominios": "Proteção contra domínios",
+    "apt-cesta": "Cesta Oca de Vime",
+    "apt-simples": "Domínio Simples",
+    "apt-simples-duracao": "Duração do Domínio Simples",
+    "apt-petala": "Pétala",
+    "apt-extensao": "Extensão de Domínio",
+    "apt-barreira": "Barreira Simples",
+    "apt-cortina": "Cortina",
+    "apt-propria": "Aptidão Própria"
+  },
+  "paginas": {
+    "apt-refino": 1,
+    "apt-marcos": 2,
+    "apt-catalogo": 3,
+    "apt-cobrir": 4,
+    "apt-canalizar": 5,
+    "apt-projetar": 6,
+    "apt-reversa": 7,
+    "apt-energia-positiva": 8,
+    "apt-circulacao": 9,
+    "apt-regravacao": 10,
+    "apt-kokusen": 11,
+    "apt-protecao-dominios": 12,
+    "apt-cesta": 13,
+    "apt-simples": 14,
+    "apt-simples-duracao": 15,
+    "apt-petala": 16,
+    "apt-extensao": 17,
+    "apt-barreira": 18,
+    "apt-cortina": 19,
+    "apt-propria": 20
+  },
+  "grupos": [
+    [
+      "Treinamento",
+      [
+        "apt-refino",
+        "apt-marcos",
+        "apt-catalogo"
+      ]
+    ],
+    [
+      "Energia",
+      [
+        "apt-cobrir",
+        "apt-canalizar",
+        "apt-projetar",
+        "apt-reversa",
+        "apt-energia-positiva",
+        "apt-circulacao",
+        "apt-regravacao",
+        "apt-kokusen"
+      ]
+    ],
+    [
+      "Proteção contra domínios",
+      [
+        "apt-protecao-dominios",
+        "apt-cesta",
+        "apt-simples",
+        "apt-simples-duracao",
+        "apt-petala",
+        "apt-extensao"
+      ]
+    ],
+    [
+      "Barreiras e criação",
+      [
+        "apt-barreira",
+        "apt-cortina",
+        "apt-propria"
+      ]
+    ]
+  ]
+}

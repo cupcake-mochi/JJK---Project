@@ -1,0 +1,172 @@
+{
+  "sha256_pdf": "565e98135d44f9788cb6b4f65054916c094d1b6976ff5dbacd5f5f246ebc1c08",
+  "fontes": [
+    {
+      "dono": "ab",
+      "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+      "sha256_geracao": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
+      "sha256_atual": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
+      "identico": true
+    },
+    {
+      "dono": "geral",
+      "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
+      "sha256_geracao": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
+      "sha256_atual": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
+      "identico": true
+    },
+    {
+      "dono": "dano",
+      "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+      "sha256_geracao": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+      "sha256_atual": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+      "identico": true
+    },
+    {
+      "dono": "origens",
+      "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "sha256_geracao": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+      "sha256_atual": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
+      "identico": true
+    },
+    {
+      "dono": "pericias",
+      "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
+      "sha256_geracao": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+      "sha256_atual": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+      "identico": true
+    },
+    {
+      "dono": "equip",
+      "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
+      "sha256_geracao": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+      "sha256_atual": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+      "identico": true
+    },
+    {
+      "dono": "progressao",
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "sha256_geracao": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+      "sha256_atual": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+      "identico": true
+    },
+    {
+      "dono": "fundamento",
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "sha256_geracao": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+      "sha256_atual": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+      "identico": true
+    },
+    {
+      "dono": "catalogo",
+      "arquivo": "catalogo/lote-01/CATALOGO.md",
+      "sha256_geracao": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+      "sha256_atual": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+      "identico": true
+    },
+    {
+      "dono": "aptidoes",
+      "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
+      "sha256_geracao": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+      "sha256_atual": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+      "identico": true
+    },
+    {
+      "dono": "rotas",
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "sha256_geracao": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+      "sha256_atual": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+      "identico": true
+    },
+    {
+      "dono": "poderes",
+      "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
+      "sha256_geracao": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+      "sha256_atual": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+      "identico": true
+    },
+    {
+      "dono": "ritual",
+      "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+      "sha256_geracao": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
+      "sha256_atual": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
+      "identico": true
+    },
+    {
+      "dono": "campo",
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "sha256_geracao": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+      "sha256_atual": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+      "identico": true
+    },
+    {
+      "dono": "construcao",
+      "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "sha256_geracao": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+      "sha256_atual": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+      "identico": true
+    },
+    {
+      "dono": "fabricacao",
+      "arquivo": "invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md",
+      "sha256_geracao": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+      "sha256_atual": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+      "identico": true
+    },
+    {
+      "dono": "consulta",
+      "arquivo": "consulta/lote-01/CONSULTA.md",
+      "sha256_geracao": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+      "sha256_atual": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+      "identico": true
+    },
+    {
+      "dono": "bastiao",
+      "arquivo": "caminhos/bastiao/lote-01/BASTIAO.md",
+      "sha256_geracao": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+      "sha256_atual": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+      "identico": true
+    },
+    {
+      "dono": "vanguarda",
+      "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+      "sha256_geracao": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+      "sha256_atual": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+      "identico": true
+    },
+    {
+      "dono": "guia",
+      "arquivo": "caminhos/guia/lote-01/GUIA.md",
+      "sha256_geracao": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+      "sha256_atual": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+      "identico": true
+    },
+    {
+      "dono": "emanador",
+      "arquivo": "caminhos/emanador/lote-01/EMANADOR.md",
+      "sha256_geracao": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+      "sha256_atual": "027d4f93d4d59d6674cf3d0ac7f380bd387c367d1e012740b6d25e71b744ba1f",
+      "identico": true
+    },
+    {
+      "dono": "evocador",
+      "arquivo": "caminhos/evocador/lote-01/EVOCADOR.md",
+      "sha256_geracao": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
+      "sha256_atual": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
+      "identico": true
+    },
+    {
+      "dono": "incursor",
+      "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
+      "sha256_geracao": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+      "sha256_atual": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+      "identico": true
+    }
+  ],
+  "qa_estrutural": {
+    "sha256_pdf": "565e98135d44f9788cb6b4f65054916c094d1b6976ff5dbacd5f5f246ebc1c08",
+    "ok": true,
+    "verificacoes": 3485
+  },
+  "limites": "Reuso documental dos donos sem nova leitura integral ou novos modelos."
+}

@@ -1,0 +1,21 @@
+{
+  "sha256_texto": "9d572799c5d882a8eeae475b648abffc68bb2192a72caca19e435fc0b406c302",
+  "conclusao": "Leitura contextual concluída; executar checker de exportação e revisão independente após esta versão.",
+  "itens": [
+    "Títulos nomeiam o assunto ou habilidade e não começam com artigos definidos.",
+    "Identidades curtas apresentam decisões do jogador; não alegam cânone.",
+    "Cada gatilho distingue Ação Atacar de ataque concedido por outro recurso.",
+    "Exemplos resolvem combinação concreta; não repetem lista genérica de regras.",
+    "Capítulo conserva nomes aprovados e explica termos necessários pelo próprio uso.",
+    "Não há detector automático que prove ausência de escrita artificial; julgamento editorial humano continua recomendável."
+  ],
+  "excecoes": [
+    {
+      "termo": "Canalizar em Golpe",
+      "trecho": "Antes de rolar, escolha o primeiro ou o segundo ataque da ação para acompanhar o feitiço. Confira a vida nesse momento. Se só tiver um ataque, escolha esse primeiro. O ataque escolhido não recebe Canalizar em Golpe, nem o benefício correspondente da rota sem energia.",
+      "papel": "incompatibilidade",
+      "justificativa": "Contra a Parede precisa excluir nominalmente Canalizar no ataque escolhido, decisão humana expressa; não explica dados, aquisição ou uso da aptidão.",
+      "nao_reproduz_regra": true
+    }
+  ]
+}

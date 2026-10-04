@@ -1,0 +1,91 @@
+{
+  "unidade": "caminhos/bastiao/lote-01",
+  "sha256_antes": "05471747af60a9761bb5403db0b060bb555b100c518d081b85cdb8def74ef81a",
+  "sha256_depois": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+  "paginas": 11,
+  "alteradas": [
+    3,
+    4,
+    10
+  ],
+  "registros": [
+    {
+      "pagina": 1,
+      "igual": true,
+      "sha256_antes": "a766d2d5e54d6236f50b29dc286a8e1b26db9464379e5a6e1a16ab40811fb883",
+      "sha256_depois": "a766d2d5e54d6236f50b29dc286a8e1b26db9464379e5a6e1a16ab40811fb883",
+      "imagem": "/tmp/qa-remissoes/caminhos/bastiao/lote-01/depois/pagina-01.png"
+    },
+    {
+      "pagina": 2,
+      "igual": true,
+      "sha256_antes": "50a762104362b0609f9b8641889776ab092bf3c0079011984a9211216c56bd68",
+      "sha256_depois": "50a762104362b0609f9b8641889776ab092bf3c0079011984a9211216c56bd68",
+      "imagem": "/tmp/qa-remissoes/caminhos/bastiao/lote-01/depois/pagina-02.png"
+    },
+    {
+      "pagina": 3,
+      "igual": false,
+      "sha256_antes": "c70489bd964e098f565185c22be867741c837994df9f1c950890b31fcfae6ac0",
+      "sha256_depois": "07e5c8f726dc3ca68191141dd41e35c581d796bcec638cc8ed8d918d9b3edf66",
+      "imagem": "/tmp/qa-remissoes/caminhos/bastiao/lote-01/depois/pagina-03.png"
+    },
+    {
+      "pagina": 4,
+      "igual": false,
+      "sha256_antes": "4180d8978d9e2d54e8c35810535d4e43d53b275ea9383fae76a6851d661a4288",
+      "sha256_depois": "a70be3ac09d9b1c93698d2aa00250eb6ad523924b2b74d661d4ed1d4da13edf6",
+      "imagem": "/tmp/qa-remissoes/caminhos/bastiao/lote-01/depois/pagina-04.png"
+    },
+    {
+      "pagina": 5,
+      "igual": true,
+      "sha256_antes": "2ca5d7f92b4a1c39ade59dfa10aeb350ebd85580888913eb42ea5ea94ce70c74",
+      "sha256_depois": "2ca5d7f92b4a1c39ade59dfa10aeb350ebd85580888913eb42ea5ea94ce70c74",
+      "imagem": "/tmp/qa-remissoes/caminhos/bastiao/lote-01/depois/pagina-05.png"
+    },
+    {
+      "pagina": 6,
+      "igual": true,
+      "sha256_antes": "e5e70379fcb5f8b10126f209113a58a8e5e0908d5e7f248f655117b2746d7d1a",
+      "sha256_depois": "e5e70379fcb5f8b10126f209113a58a8e5e0908d5e7f248f655117b2746d7d1a",
+      "imagem": "/tmp/qa-remissoes/caminhos/bastiao/lote-01/depois/pagina-06.png"
+    },
+    {
+      "pagina": 7,
+      "igual": true,
+      "sha256_antes": "40ebe5c1ae945a1b021c33def1fa2242cfed2fa05ed6e33f2eea7cd2d4f5b1cb",
+      "sha256_depois": "40ebe5c1ae945a1b021c33def1fa2242cfed2fa05ed6e33f2eea7cd2d4f5b1cb",
+      "imagem": "/tmp/qa-remissoes/caminhos/bastiao/lote-01/depois/pagina-07.png"
+    },
+    {
+      "pagina": 8,
+      "igual": true,
+      "sha256_antes": "379d845d05485499a783f74dba94f774e7e87ed8db17fdcff63382cfacdb655a",
+      "sha256_depois": "379d845d05485499a783f74dba94f774e7e87ed8db17fdcff63382cfacdb655a",
+      "imagem": "/tmp/qa-remissoes/caminhos/bastiao/lote-01/depois/pagina-08.png"
+    },
+    {
+      "pagina": 9,
+      "igual": true,
+      "sha256_antes": "1efccfb9a234394f73a9200d558808e9962c5ab50f1138e9673ae720d63a0f8b",
+      "sha256_depois": "1efccfb9a234394f73a9200d558808e9962c5ab50f1138e9673ae720d63a0f8b",
+      "imagem": "/tmp/qa-remissoes/caminhos/bastiao/lote-01/depois/pagina-09.png"
+    },
+    {
+      "pagina": 10,
+      "igual": false,
+      "sha256_antes": "e0617d41b5a60bb0a75ae57eba224a3f47f72d3de1d5ffc644d340e937085eb9",
+      "sha256_depois": "b6e7fc661de032bf8cc8320a7b614f4c7188be5d185fe3b213e4e425ad9a3737",
+      "imagem": "/tmp/qa-remissoes/caminhos/bastiao/lote-01/depois/pagina-10.png"
+    },
+    {
+      "pagina": 11,
+      "igual": true,
+      "sha256_antes": "755a9a886aa209db77ecab151f43d6a812db48363f1546ecc126a490a090d989",
+      "sha256_depois": "755a9a886aa209db77ecab151f43d6a812db48363f1546ecc126a490a090d989",
+      "imagem": "/tmp/qa-remissoes/caminhos/bastiao/lote-01/depois/pagina-11.png"
+    }
+  ],
+  "PDF_identico": false
+}

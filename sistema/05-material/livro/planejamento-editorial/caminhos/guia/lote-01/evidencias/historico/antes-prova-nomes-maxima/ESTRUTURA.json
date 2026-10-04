@@ -1,0 +1,98 @@
+{
+  "ordem": [
+    "guia",
+    "guia-progressao",
+    "guia-aberturas",
+    "guia-resposta",
+    "guia-planos",
+    "guia-plano-conjunto",
+    "guia-arquiteto",
+    "guia-modelos",
+    "guia-obra-uso",
+    "guia-obras-maiores",
+    "guia-emergencia",
+    "guia-analista",
+    "guia-brecha",
+    "guia-padrao",
+    "guia-socorrista",
+    "guia-tratamento",
+    "guia-emergencia-cuidado"
+  ],
+  "titulos": {
+    "guia": "Guia",
+    "guia-progressao": "Progressão do Guia",
+    "guia-aberturas": "Aberturas",
+    "guia-resposta": "Resposta Coordenada",
+    "guia-planos": "Planos em andamento",
+    "guia-plano-conjunto": "Todos no Mesmo Plano",
+    "guia-arquiteto": "Arquiteto",
+    "guia-modelos": "Obras de Apoio",
+    "guia-obra-uso": "Obra em Uso",
+    "guia-obras-maiores": "Obras maiores",
+    "guia-emergencia": "Obras em emergência",
+    "guia-analista": "Analista",
+    "guia-brecha": "Apontar a Brecha",
+    "guia-padrao": "Padrão Decifrado",
+    "guia-socorrista": "Socorrista",
+    "guia-tratamento": "Tratar e Retomar",
+    "guia-emergencia-cuidado": "Socorro de emergência"
+  },
+  "paginas": {
+    "guia": 1,
+    "guia-progressao": 2,
+    "guia-aberturas": 3,
+    "guia-resposta": 4,
+    "guia-planos": 5,
+    "guia-plano-conjunto": 6,
+    "guia-arquiteto": 7,
+    "guia-modelos": 8,
+    "guia-obra-uso": 9,
+    "guia-obras-maiores": 10,
+    "guia-emergencia": 11,
+    "guia-analista": 12,
+    "guia-brecha": 13,
+    "guia-padrao": 14,
+    "guia-socorrista": 15,
+    "guia-tratamento": 16,
+    "guia-emergencia-cuidado": 17
+  },
+  "grupos": [
+    [
+      "Guia",
+      [
+        "guia",
+        "guia-progressao",
+        "guia-aberturas",
+        "guia-resposta",
+        "guia-planos",
+        "guia-plano-conjunto"
+      ]
+    ],
+    [
+      "Arquiteto",
+      [
+        "guia-arquiteto",
+        "guia-modelos",
+        "guia-obra-uso",
+        "guia-obras-maiores",
+        "guia-emergencia"
+      ]
+    ],
+    [
+      "Analista",
+      [
+        "guia-analista",
+        "guia-brecha",
+        "guia-padrao"
+      ]
+    ],
+    [
+      "Socorrista",
+      [
+        "guia-socorrista",
+        "guia-tratamento",
+        "guia-emergencia-cuidado"
+      ]
+    ]
+  ]
+}

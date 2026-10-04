@@ -1,0 +1,262 @@
+{
+  "sha256_texto": "b3d405aefb7006ca4260464f665280c3b1c3035ca379d67fe46b42ba651093d6",
+  "legenda": {
+    "E": "editorial/interface preservada",
+    "C": "correção demonstrável",
+    "M": "fechamento mecânico candidato autorizado"
+  },
+  "decisoes": [
+    {
+      "id": "PRO01",
+      "tipo": "E",
+      "antes": "Introdução, regras e argumento de design estavam misturados.",
+      "depois": "Treze páginas organizadas por recompensa, conta, limiar, escolhas e administração.",
+      "motivo": "O texto de jogador precisa do procedimento; a justificativa de design fica no relatório."
+    },
+    {
+      "id": "PRO02",
+      "tipo": "C",
+      "antes": "O limiar citava 12.500 XP no manual80.",
+      "depois": "Usa 14.300 XP gastos desde o nível2.",
+      "motivo": "Soma exata da curva vigente, já corrigida na peça12."
+    },
+    {
+      "id": "PRO03",
+      "tipo": "C",
+      "antes": "A lista era chamada de fechada e depois de exemplos, não regra.",
+      "depois": "Preserva os oito feitos fechados, com evidência verificável.",
+      "motivo": "A peça12 §7.1 e seu conferidor mantêm a lista fechada."
+    },
+    {
+      "id": "PRO04",
+      "tipo": "M",
+      "antes": "XP guardado seria convertido em vários níveis de uma vez.",
+      "depois": "Mesmo após o feito, só um avanço por encerramento de missão.",
+      "motivo": "Preserva a regra principal de um nível por missão e o excedente; direção aprovada pela raiz."
+    },
+    {
+      "id": "PRO05",
+      "tipo": "C",
+      "antes": "Quinta e sexta missões pagavam12% e6%, embora o texto mandasse dividir pela metade.",
+      "depois": "Usa12,5% e6,25%, frações exatas, arredondando apenas o XP final.",
+      "motivo": "Na quinta missão longa,12% dá24XP, mas metade sucessiva dá25; preservada a regra verbal."
+    },
+    {
+      "id": "PRO06",
+      "tipo": "M",
+      "antes": "A afirmação ninguém recebe zero não tinha um mínimo formal.",
+      "depois": "Uma recompensa positiva paga ao menos1XP; recompensa deliberadamente nula continua0.",
+      "motivo": "Evita zerar nas missões posteriores sem apagar a opção de falha sem pagamento; raiz aprovou."
+    },
+    {
+      "id": "PRO07",
+      "tipo": "M",
+      "antes": "Missões longas podiam atravessar a virada semanal sem critério.",
+      "depois": "Campanha fixa dia e horário; missão conta na conclusão, uma vez.",
+      "motivo": "Registro reproduzível entre mesas, sem uma recompensa por sessão da mesma missão."
+    },
+    {
+      "id": "PRO08",
+      "tipo": "E",
+      "antes": "Desconto do jogador sem esclarecer ficha alternativa.",
+      "depois": "Contagem por jogador dentro da campanha; trocar de ficha não reinicia.",
+      "motivo": "A peça12 §9 atribui a contagem ao jogador."
+    },
+    {
+      "id": "PRO09",
+      "tipo": "M",
+      "antes": "Missão sem recompensa poderia não ocupar posição na semana.",
+      "depois": "Missão concluída ocupa posição mesmo com0XP.",
+      "motivo": "Contagem de participações, sem transformar a derrota em prêmio."
+    },
+    {
+      "id": "PRO10",
+      "tipo": "E",
+      "antes": "Tabela de nove colunas acumulava valores e eventos.",
+      "depois": "Duas tabelas de sete colunas numéricas, com eventos em prosa e XP em tabela própria.",
+      "motivo": "Preserva os30níveis e favorece a diagramação; auditor reconstrói os valores."
+    },
+    {
+      "id": "PRO11",
+      "tipo": "E",
+      "antes": "XP descrita como constante em faixas de dois níveis.",
+      "depois": "Mantém as faixas reais da tabela: três níveis, exceções iniciais e teto23–29.",
+      "motivo": "A prosa antiga não descrevia a tabela."
+    },
+    {
+      "id": "PRO12",
+      "tipo": "M",
+      "antes": "Nível1 opcional sem preço de XP.",
+      "depois": "Campanha define o fim da etapa introdutória; a curva começa no2.",
+      "motivo": "Não inventa um preço que a fonte não fornece nem o inclui nos14.300XP."
+    },
+    {
+      "id": "PRO13",
+      "tipo": "E",
+      "antes": "Ganhos de marco podiam ser somados às colunas que já os incluíam.",
+      "depois": "Tabela inclui ganhos comuns; escolhas entram depois.",
+      "motivo": "Evita duplicar Refino e espaço gratuitos."
+    },
+    {
+      "id": "PRO14",
+      "tipo": "E",
+      "antes": "Compra de duas aptidões dependia de um teto cuja ordem era ambígua.",
+      "depois": "Ganho básico primeiro; se já chegou ao teto, a escolha concede duas.",
+      "motivo": "R09 define a ordem e chega a dez aptidões pela rota pura."
+    },
+    {
+      "id": "PRO15",
+      "tipo": "E",
+      "antes": "Leque podia parecer concessão de vagas livres para qualquer compra.",
+      "depois": "Concede uma aplicação e uma Passiva sem pagar espaços; cinco Passivas pagas continuam sendo o máximo comum.",
+      "motivo": "R10 e peça11 distinguem os recursos; aplicação concedida não vira entidade por conversão."
+    },
+    {
+      "id": "PRO16",
+      "tipo": "E",
+      "antes": "Texto de Corpo e especialização estava incompleto.",
+      "depois": "Especialização desde10, metade da maestria para baixo, sem comprar a mesma de novo.",
+      "motivo": "R04 e peça11 preservam+1,+1,+2 para maestria2,3,4."
+    },
+    {
+      "id": "PRO17",
+      "tipo": "E",
+      "antes": "Fórmula de vida sem indicar qual Constituição considerar.",
+      "depois": "Usa Constituição atual em todos os níveis.",
+      "motivo": "A fórmula da peça01 e o exemplo correspondente de R12 usam o atributo atual da ficha."
+    },
+    {
+      "id": "PRO18",
+      "tipo": "M",
+      "antes": "Aumento dos máximos não definia o saldo atual.",
+      "depois": "Soma só o aumento do máximo ao atual. PV0 não levanta; PE0 recebe a diferença. Não é descanso e não recupera usos.",
+      "motivo": "Fechamento aprovado pela raiz, testado com Constituição alterada, ferimentos e PE parcial ou zerado."
+    },
+    {
+      "id": "PRO19",
+      "tipo": "E",
+      "antes": "Revisões de feitiço e entidade poderiam ser contadas separadamente.",
+      "depois": "Uma revisão entre as opções; inclui a dupla do mesmo espaço. Vaga nova não gasta a revisão.",
+      "motivo": "Interfaces atuais R06/R12/R17, sem acrescentar escolhas."
+    },
+    {
+      "id": "PRO20",
+      "tipo": "M",
+      "antes": "Troca integral de Trilha sem momento operacional.",
+      "depois": "Ao receber11/19/27, entre missões: retira entregas antigas e recebe a nova desde a base.",
+      "motivo": "Manual35 exige troca integral e um Caminho; impede alternar durante a cena ou conservar duas bases."
+    },
+    {
+      "id": "PRO21",
+      "tipo": "M",
+      "antes": "Perda de permissão de Trilha sem procedimento de correção.",
+      "depois": "Ajustes obrigatórios gratuitos somente nas partes afetadas; custos e ferimentos permanecem.",
+      "motivo": "Raiz autorizou a regularização, sem liberar uma reconstrução geral da ficha."
+    },
+    {
+      "id": "PRO22",
+      "tipo": "M",
+      "antes": "Duplas que perdem o benefício não tinham conta de espaços definida.",
+      "depois": "Uma entidade por vaga; usar livres e manter excessos registrados, mas indisponíveis.",
+      "motivo": "Conserva bens e história sem conservar o benefício da Trilha retirada."
+    },
+    {
+      "id": "PRO23",
+      "tipo": "M",
+      "antes": "Suspensão poderia virar reserva de escolhas alternadas gratuitamente.",
+      "depois": "Seleção fixa na troca; recuperar escolha exige vaga livre ou revisão permitida.",
+      "motivo": "Capacidade é exigida antes do uso; o registro não é apagado."
+    },
+    {
+      "id": "PRO24",
+      "tipo": "E",
+      "antes": "Corpos excedentes poderiam ser apagados ou apenas desativados.",
+      "depois": "Recalcula atributo de Defesa+capacidade, contando ativos e inativos. Excedentes continuam no mundo, sem controle.",
+      "motivo": "R11 define total mantido; R17 fornece capacidade4. Raiz pediu a interface4→2."
+    },
+    {
+      "id": "PRO25",
+      "tipo": "E",
+      "antes": "Repertório de entidade concedido pela Trilha poderia permanecer após a troca.",
+      "depois": "Retira capacidades e Famílias concedidas só pela Trilha; preserva aquisição e nível das domadas ou fabricadas.",
+      "motivo": "Não conservar benefício de uma fonte removida nem converter a aquisição."
+    },
+    {
+      "id": "PRO26",
+      "tipo": "C",
+      "antes": "Estimativas escondiam a mistura de missões; coluna a cada15dias usava0,5por semana.",
+      "depois": "Expõe médias106,25/240, calendário52/12 e uma missão a cada duas semanas; acrescenta cenário só padrão.",
+      "motivo": "São estimativas condicionais, não promessa de calendário. Corrige o rótulo da frequência modelada."
+    },
+    {
+      "id": "PRO27",
+      "tipo": "E",
+      "antes": "Compensações e salário pareciam obrigatórios em toda campanha.",
+      "depois": "Políticas opcionais com valores anunciados; não alteram curva ou teto automaticamente.",
+      "motivo": "A decisão humana v0.195 preserva a autonomia da guilda."
+    },
+    {
+      "id": "PRO28",
+      "tipo": "C",
+      "antes": "Salário comparado ao Japão e ao cânone com fonte secundária.",
+      "depois": "Tabela autoral do projeto, sem alegação de salário oficial.",
+      "motivo": "Usuário pediu verificação canônica; não apresentar inferência como fato."
+    },
+    {
+      "id": "PRO29",
+      "tipo": "M",
+      "antes": "Salário por participação falava em fatias sem fórmula.",
+      "depois": "Mínimo1/4, mais3/4 proporcionais às participações exigidas, até100%; Grau no fechamento.",
+      "motivo": "Fecha o cálculo preservando referência e mínimo, com recomendação de três participações."
+    },
+    {
+      "id": "PRO30",
+      "tipo": "C",
+      "antes": "Quem mestraY vezes por mês levariaX meses para uma marca deX mesas.",
+      "depois": "Tempo esperado éX/Y meses.",
+      "motivo": "Correção algébrica demonstrada por12/3=4."
+    },
+    {
+      "id": "PRO31",
+      "tipo": "E",
+      "antes": "Origem e Legados podiam ser confundidos com entregas por nível.",
+      "depois": "São escolhas da criação; os efeitos seguem seu dono, sem novos Legados por XP.",
+      "motivo": "Alinhamento com R20, sem duplicar o catálogo."
+    },
+    {
+      "id": "PRO32",
+      "tipo": "E",
+      "antes": "A candidata exigia não chegar a zero durante a Expansão, estreitando sair de pé sem decisão própria.",
+      "depois": "Basta estar consciente e capaz de agir ao sair da Expansão completa ou quando ela termina. Queda anterior com socorro não invalida.",
+      "motivo": "Revisão independente apontou a diferença para manual80. Root autorizou preservar o resultado do feito, sem redesenhar Morrendo."
+    },
+    {
+      "id": "PRO33",
+      "tipo": "M",
+      "antes": "Aumento de máximo somava ao saldo, mesmo após uma redução causada por troca. 40/100→40/90→50/100 podia curar sem descanso.",
+      "depois": "Acréscimo só pelo crescimento do novo nível e marco, calculado antes da troca. Trocas e ajustes posteriores apenas conservam ou limitam o saldo ao máximo.",
+      "motivo": "Impede recuperar recursos por alternar benefícios. Preservar o gasto descreve crescimento, não diminuição de máximo; PV zero continua zero e PE zero recebe aumento do nível."
+    },
+    {
+      "id": "PRO34",
+      "tipo": "E",
+      "antes": "Corpos excedentes eram deixados sem controle, sem procedimento explícito para retorno à seleção.",
+      "depois": "Seleção fica registrada; retomada exige aquisição ou transferência permitida e procedimentos R11/Fabricação. Proximidade ou retorno à cidade não permite alternância gratuita.",
+      "motivo": "Fecha a interface apontada pela leitura independente sem destruir ou apagar corpos existentes."
+    },
+    {
+      "id": "PRO35",
+      "tipo": "E/C",
+      "antes": "Criação e Origens remetiam à explicação de patentes em Progressão, mas a seção não existia; Grau4 absoluto conflitava com exceção de campanha em Compras.",
+      "depois": "Seção Patentes distingue níveis, reconhecimento e ferramentas. Grau4 é início padrão; campanha pode anunciar exceção. Promoções seguem feitos reconhecidos e registro institucional.",
+      "motivo": "Fecha remissão e concilia manual25/80/50, sem conceder promoção, XP ou benefício numérico novo."
+    },
+    {
+      "id": "PRO36",
+      "tipo": "M/C",
+      "antes": "Retorno do estágio4 não tinha saída operacional estável; feitos de socorro/Alma permitiam leitura de quedas fabricadas pelo grupo.",
+      "depois": "Retorno acompanha saída de Derrotado. Socorro,Alma eDomínio devem decorrer de ameaça hostil real,excluindo treino e fabricação do feito.",
+      "motivo": "Concilia a saída definida emR03 e preserva conquista de limiar sem transformar dano deliberado em promoção programada."
+    }
+  ]
+}

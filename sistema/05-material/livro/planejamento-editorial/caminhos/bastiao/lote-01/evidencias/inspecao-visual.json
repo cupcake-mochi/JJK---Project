@@ -1,0 +1,121 @@
+{
+  "data": "2026-10-03",
+  "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+  "sha256_pdf": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+  "metodo": "Abertura de cada página modificada pelas remissões; conservação da avaliação anterior por igualdade de pixels nas outras páginas.",
+  "comparacao": "evidencias/COMPARACAO-REMISSOES-PDF.json",
+  "prova_anterior": "05471747af60a9761bb5403db0b060bb555b100c518d081b85cdb8def74ef81a",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "a766d2d5e54d6236f50b29dc286a8e1b26db9464379e5a6e1a16ab40811fb883",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-01.png"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "50a762104362b0609f9b8641889776ab092bf3c0079011984a9211216c56bd68",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-02.png"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Socorro localizado no parágrafo de Ainda de Pé; títulos e demais habilidades preservados.",
+      "sha256_png": "07e5c8f726dc3ca68191141dd41e35c581d796bcec638cc8ed8d918d9b3edf66",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente após correção de remissões.",
+      "imagem": "output/png/pagina-03.png"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Vida a zero na última observação da transferência; exemplos íntegros.",
+      "sha256_png": "a70be3ac09d9b1c93698d2aa00250eb6ad523924b2b74d661d4ed1d4da13edf6",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente após correção de remissões.",
+      "imagem": "output/png/pagina-04.png"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "2ca5d7f92b4a1c39ade59dfa10aeb350ebd85580888913eb42ea5ea94ce70c74",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-05.png"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "e5e70379fcb5f8b10126f209113a58a8e5e0908d5e7f248f655117b2746d7d1a",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-06.png"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "40ebe5c1ae945a1b021c33def1fa2242cfed2fa05ed6e33f2eea7cd2d4f5b1cb",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-07.png"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "379d845d05485499a783f74dba94f774e7e87ed8db17fdcff63382cfacdb655a",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-08.png"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "1efccfb9a234394f73a9200d558808e9962c5ab50f1138e9673ae720d63a0f8b",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-09.png"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Referência à reserva temporária no encerramento; quadro e regra de Embalo completos.",
+      "sha256_png": "b6e7fc661de032bf8cc8320a7b614f4c7188be5d185fe3b213e4e425ad9a3737",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente após correção de remissões.",
+      "imagem": "output/png/pagina-10.png"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, títulos, exemplos e tabelas completos, legíveis e sem colisões observadas.",
+      "sha256_png": "755a9a886aa209db77ecab151f43d6a812db48363f1546ecc126a490a090d989",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-11.png"
+    }
+  ],
+  "limites": "Sem impressão física, playtest ou teste com leitores humanos."
+}

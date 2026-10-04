@@ -1,0 +1,252 @@
+{
+  "sha256_texto": "6e7300eb4bb986ff3324360b10160e6777798543f2848370a3e698c0a9b37183",
+  "conclusao": "Revisão anterior conservada; PRO35 acrescenta seção Patentes lida pela raiz. Prova14p e interfaces R03 em conferência.",
+  "itens": [
+    "Títulos identificam o assunto sem artigo inicial ou fórmula Como ler.",
+    "Recompensa, saldo disponível, custo e nível são registros separados.",
+    "A tabela inclui ganhos comuns; ganhos escolhidos são anotados à parte.",
+    "A troca integral conserva histórico e não permite alternância gratuita de conteúdo indisponível.",
+    "Salários e ritmo são exemplos autorais ou opcionais, com premissas explícitas.",
+    "As referências a outras rotas conservam requisitos e destinam sua construção ao capítulo dono."
+  ],
+  "excecoes": [],
+  "secoes": [
+    {
+      "pagina": "prog-inicio",
+      "parecer_editorial": "Define XP, início e limite de avanço antes de abrir tabelas. Grau aparece apenas para distinguir registros, com requisitos remetidos ao dono.",
+      "interfaces": "Criação, Graus e registro de missão.",
+      "caso_positivo": "Nível 2 com 300 XP sobe ao 3 e conserva 100.",
+      "caso_negativo": "XP excedente não compra outro avanço no mesmo encerramento.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-xp",
+      "parecer_editorial": "Tabela separa recompensa do preço para sair de um nível. Exemplos de investigações não exigem abates. Totais foram recalculados da curva vigente.",
+      "interfaces": "Peça 12 v0.196 e manual 80.",
+      "caso_positivo": "Somar as transições 2 a 19 exige 14.300 XP.",
+      "caso_negativo": "Nível 20 não paga o custo de nível 19 nem libera o limiar sem feito.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-semana",
+      "parecer_editorial": "Frações, calendário e arredondamento aparecem junto da tabela, evitando confundir percentual ilustrativo com algoritmo. O exemplo cobre participantes com posições distintas.",
+      "interfaces": "Política semanal da campanha e recompensa por falha.",
+      "caso_positivo": "Quinta missão longa recebe 25 XP, terceira longa com falha recebe 50.",
+      "caso_negativo": "Recompensa zero não vira 1; trocar de ficha não reinicia a semana.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-limiar",
+      "parecer_editorial": "Lista fechada mantém oito entradas e dá evidência verificável. Explica saldo guardado e regra de um avanço sem recontar combate ou morte.",
+      "interfaces": "Morrendo e Integridade exigirão conferência futura; pactos e Expansão são remissões.",
+      "caso_positivo": "Feito na faixa 15–20 permanece válido; queda socorrida antes da saída não impede o feito de Domínio; saldo 4.000 paga 1.500 uma vez.",
+      "caso_negativo": "Feito não concede XP nem transforma outra conquista semelhante em autorização.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-tabela-inicial",
+      "parecer_editorial": "Trinta níveis foram divididos em duas tabelas com a mesma ordem de colunas. Valores gratuitos estão incluídos e o leitor recebe aviso para não duplicá-los.",
+      "interfaces": "R06, R07, R09, R10 e calendários de Caminho/Trilha.",
+      "caso_positivo": "Nível 6 tem seis espaços e Refino básico 2 antes da escolha de marco.",
+      "caso_negativo": "Somar novamente o espaço comum do marco levaria a sete e é incorreto.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-tabela-avancada",
+      "parecer_editorial": "Continua a tabela, mantém aquisição separada de acesso e demonstra Leque sem transformar a aptidão em requisito de Classe Passiva.",
+      "interfaces": "Refino/Lapidação, técnicas superiores e espaços.",
+      "caso_positivo": "Nível 18 possui 15 espaços comuns, além dos ganhos separados de Leque.",
+      "caso_negativo": "Abrir Classe 6 não adquire automaticamente Domínio ou aptidão.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-marcos",
+      "parecer_editorial": "Ganho comum precede a escolha. Corpo, Refino e Leque têm texto suficiente para atualizar a ficha, mas os catálogos continuam nos capítulos próprios.",
+      "interfaces": "R09/R10, especialização e teto de Passivas R07.",
+      "caso_positivo": "Sete escolhas de Leque dão sete aplicações e sete Passivas concedidas.",
+      "caso_negativo": "Aplicação de Leque não vira espaço genérico nem compra uma invocação.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-repertorio",
+      "parecer_editorial": "Distingue capacidade, escolhas sem espaço e uma revisão por nível. Revisão gratuita por invalidação se restringe à parte afetada.",
+      "interfaces": "R06, R11/R12/R17 e requisito de coerência da invocação.",
+      "caso_positivo": "Rever uma vaga duplicada permite rever a dupla vinculada à mesma vaga.",
+      "caso_negativo": "Uma revisão não reescreve toda a técnica nem transfere a dupla para outra vaga.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-atualizar",
+      "parecer_editorial": "Sequência de cinco passos separa crescimento do nível de troca de Trilha. Fórmulas e exemplos conservam o saldo sem permitir cura pela oscilação do máximo.",
+      "interfaces": "R09, Corpo/Restrição e futura revisão de queda/Integridade.",
+      "caso_positivo": "Pelo nível, PV 25/40 passa a 33/48; PE 0/25 passa a 5/30. Por troca, 40/100→40/90→40/100.",
+      "caso_negativo": "PV 0 não recupera só porque o máximo subiu; condições e usos não reiniciam.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-trilhas",
+      "parecer_editorial": "Troca integral nos níveis permitidos antecede o ajuste de capacidades. A regra não oferece multiclasse ou reconstrução geral.",
+      "interfaces": "Todos os Caminhos; remoção de vínculos e permissões da Trilha.",
+      "caso_positivo": "Troca no 19 recebe entregas 2, 11 e 19 da nova Trilha.",
+      "caso_negativo": "Não conservar uma habilidade antiga de nível 2 junto da nova.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-capacidades",
+      "parecer_editorial": "Espaços e corpos são conferências separadas. Suspensão preserva registro e impede alternância gratuita, cura, ressurreição ou apagamento.",
+      "interfaces": "R11 reserva total, R12 entidades por espaço, R17 aquisição em duplas.",
+      "caso_positivo": "Atributo 3 e capacidade 4→2 reduzem corpos mantidos de sete para cinco.",
+      "caso_negativo": "Entidade sem vaga não age ou fornece benefícios; recuperar controle de corpo exige aquisição ou transferência permitida, não só estar perto.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-ritmo",
+      "parecer_editorial": "Expõe a composição das médias e os limites do modelo, seguida de opções voluntárias de campanha. Valores não são promessa de calendário real.",
+      "interfaces": "Descontos semanais e limite por missão.",
+      "caso_positivo": "Duas missões por semana no modelo misto resultam em 23,4 meses até 30.",
+      "caso_negativo": "Usar apenas missões padrão não conserva essa estimativa: resulta em 35,4 meses.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-guilda",
+      "parecer_editorial": "Salário é autoral e opcional, com proporções compreensíveis e exemplo de frequência. Remove comparação não verificada com profissões reais.",
+      "interfaces": "Grau administrativo, moeda e política da campanha.",
+      "caso_positivo": "Meta três participações: 0/1/2/3 dão 25/50/75/100%.",
+      "caso_negativo": "X=12 e três missões por mês levam quatro meses, não quatro salários por mês.",
+      "criterios": [
+        "assunto e momento da decisão",
+        "requisitos e quantidade",
+        "resultado e registro",
+        "exceção e saída quando pertinente",
+        "suficiência e ausência de cópia do capítulo alheio"
+      ],
+      "canon": "Regras autorais. Salários não são alegados como fatos da obra.",
+      "validacao_independente": "Rotas fez leitura integral final e312verificações. PRO32–34 resolvidos no hash atual.",
+      "validacao_visual": "Pendente de geração e inspeção da prova PDF."
+    },
+    {
+      "pagina": "prog-patentes",
+      "parecer_editorial": "Patente explica reconhecimento e criação padrão, distingue três escalas e remete à remuneração sem repetir tabela.",
+      "interfaces": "Origens, Criação, Compras e recompensas da guilda.",
+      "caso_positivo": "Campanha anuncia personagens Grau2 antes da criação; ficha registra exceção.",
+      "caso_negativo": "Subir de nível ou receber ferramenta Grau1 não promove automaticamente.",
+      "criterios": [
+        "suficiência",
+        "localização",
+        "terminologia",
+        "ausência de regra duplicada"
+      ],
+      "canon": "Procedimento do Projeto M, não protocolo oficial do mangá.",
+      "validacao_independente": "Proposta elaborada por maxima e confrontada pela raiz com seis casos.",
+      "validacao_visual": "Pendente nova página14."
+    }
+  ]
+}

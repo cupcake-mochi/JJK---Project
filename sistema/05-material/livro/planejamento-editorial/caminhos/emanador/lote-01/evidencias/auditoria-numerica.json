@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/caminhos/emanador/lote-01/EMANADOR.md": "b71b2d1424a0b48971fee676d791cd9e1b9ca40207ea6b40f95344bdff31d48e"
+  },
+  "origem": "evidencias/AUDITORIA.json",
+  "limites": [
+    "Não é playtest nem prova de equilíbrio entre os seis Caminhos.",
+    "Ataque/TR usa probabilidade parametrizada; Bloquear/condições reais podem mudar os valores.",
+    "Modelos não medem utilidade narrativa de detectar/gravar/teleportar arma, tempo de mesa ou carga cognitiva.",
+    "Custos são simulações das decisões registradas, não evidência de que toda interação já estava na publicação."
+  ]
+}

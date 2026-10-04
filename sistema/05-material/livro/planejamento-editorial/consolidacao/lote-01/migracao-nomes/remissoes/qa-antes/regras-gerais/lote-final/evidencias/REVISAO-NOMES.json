@@ -1,0 +1,27 @@
+{
+  "unidade": "regras-gerais/lote-final",
+  "sha256_texto": "423da38b173df0e05f9b07ce1ba2edc1f69ac928cf2a9709da0c33cb5ed93ee9",
+  "sha256_pdf": "3ea70b797814c28bfb8bee12b0af403fdf033c8f9c03bcfb689807e000a723e0",
+  "escopo": "Releitura contextual das linhas alteradas; a revisão integral anterior permanece em seus relatórios históricos.",
+  "invariantes": "IDs, numerais, alcance, custos, procedimentos e tabelas conservados. Nomes aprovados e concordância uniformizados.",
+  "historico": "consolidacao/lote-01/migracao-nomes/qa-antes/regras-gerais/lote-final",
+  "auditoria_numerica": "Execuções novamente concluídas após os nomes; outputs locais vinculados à versão atual.",
+  "paginas_reabertas": [
+    11,
+    16,
+    19,
+    34
+  ],
+  "paginas_preservadas": 36,
+  "equivalencia_visual": "Hashes de pixels por página, COMPARACAO-NOMES-PDF.json",
+  "revisao_independente_delta": {
+    "revisor": "/root",
+    "resultado": "Sem bloqueador nos diffs nominais completos de Regras gerais, Equipamento, Aptidões, Incursor e Origens, conforme confirmação direta do revisor; unidades de texto idêntico preservam o parecer anterior.",
+    "complemento": "não aplicável"
+  },
+  "limites": [
+    "Sem novo cânone, redesign ou afirmação de equilíbrio final.",
+    "Leitura por modelo não equivale a teste com pessoas.",
+    "Adjetivos passivo/passiva comuns mantidos."
+  ]
+}

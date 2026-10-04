@@ -1,0 +1,190 @@
+{
+  "autor_revisor": "maxima; distinto do autor da abertura",
+  "sha256_texto": "dbb34c8384587288ccebca3a7c4932f90c377ad0751677b48ede38f596f4dd29",
+  "paginas": 13,
+  "achados": [
+    {
+      "id": "R22-I01",
+      "prioridade": "P2",
+      "ancora": "ab-capacidades",
+      "linha": 187,
+      "estado": "resolvido pela autoria e reconferido",
+      "antes": "As opções de Invocações também dependem da forma de aquisição e de um conceito que comporte entidades.",
+      "problema": "Generalizava o requisito temático para domar e fabricar, contrariando R12.",
+      "depois": "Requisito limitado ao uso de espaço conhecido; outras aquisições remetem Criar uma invocação.",
+      "fonte": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md:120"
+    },
+    {
+      "id": "R22-I02",
+      "prioridade": "P3",
+      "ancora": "ab-caminho / ab-equipamento",
+      "linha": [
+        162,
+        216,
+        228
+      ],
+      "estado": "resolvido pela autoria e reconferido",
+      "antes": "PE, PV e CD usados sem expansão anterior.",
+      "problema": "Vocabulário indispensável de ficha pressuposto para leitor que nunca jogou RPG.",
+      "depois": "Expansão uma vez, junto da primeira ocorrência da sigla, sem parágrafo de glossário."
+    },
+    {
+      "id": "R22-I03",
+      "prioridade": "P3",
+      "ancora": "ab-conferencia",
+      "linha": 327,
+      "estado": "resolvido pela autoria e reconferido",
+      "antes": "armas permitidas",
+      "problema": "Podia confundir treino com permissão absoluta de usar uma arma.",
+      "depois": "treino com armas"
+    }
+  ],
+  "bloqueadores_abertos": 0,
+  "casos": 40,
+  "ok": true,
+  "fontes": [
+    {
+      "arquivo": "sistema/05-material/livro/manual/05-introducao.md",
+      "sha256": "c7e02ab389d71d3e1ca6b31ece6f6a1b2d2f6ad4bb9526b4d4e293ea7f66128c",
+      "leitura": "Leitura integral; propósito, guildas e alcance do livro."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/08-inicio-rapido.md",
+      "sha256": "9a348b4f1eb4bb876c1b6c2ca0db7dde823debcd7cb799d1dda3feb88bea00e6",
+      "leitura": "Leitura integral; exemplo anterior de Kaori e números históricos."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/manual/20-criacao-de-personagem.md",
+      "sha256": "bae6e4333d9e13add07696ee6feb383e7a48b6ac34d66887339d87fe826db698",
+      "leitura": "Leitura integral em blocos; criação e atualização por proprietários atuais."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/piloto-editorial-r2/PILOTO.md",
+      "sha256": "5c274c0aff8c8d8fde7935a44a004f3ea8f594ffea9e48a2cd97fcc52bd7b003",
+      "leitura": "Abertura, mundo e primeira rolagem; comparação com a crítica do usuário."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/evidencias/abertura-retorno-pos-r2.md",
+      "sha256": "99a89b736764902b8c9da2377c5bd57f28138b676ac4b53df41b89d78f398825",
+      "leitura": "Leitura integral; preservar identidade de sistema e guilda."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+      "sha256": "91db84efd1813de6f85f4ea30daf01528d0bdf60cfb47ce7cf512ed3121ca5b0",
+      "leitura": "Recortes de conceito, famílias, pontos, devoluções, Toque, passivas e valores iniciais."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+      "sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+      "leitura": "Condição: preço, duração e resistência. Não revisar todo catálogo nesta unidade."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/origens/lote-01/ORIGENS-E-LEGADOS.md",
+      "sha256": "7685a83172db598c7d9add34767ef8fabc851a43952ae599d0552cd9819d62ff",
+      "leitura": "Recortes de aquisição/treinos/Legados/rota e Descendente."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/progressao/lote-01/PROGRESSAO.md",
+      "sha256": "477534ccb33b6174bf94f8182db6b33fd9f766b308c73c54dd4d5d0e8aa8be35",
+      "leitura": "Recortes de tabela inicial, repertório e atualização. Não revisão independente integral de R21."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-06-r1/COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+      "sha256": "0c65b7d17dc1ee911e292711bbc68330fb70e248390293ee09f8a0bace0d2fe5",
+      "leitura": "Criação: Traje1,¥150000,Grau4 e limites de acesso."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/equipamento/lote-02-r3/PROTECAO.md",
+      "sha256": "18cbff010ba9848b39346d6b77037c3b1b7ec1bbe7f75ae5e36486ac54c679a5",
+      "leitura": "Defesa com uniforme; não somar proteção passiva."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/caminhos/bastiao/lote-01/BASTIAO.md",
+      "sha256": "3334f5e2ff950bc79bbad12ae3f4c2b902e8fbf1539a22e64af7e8826cd14e9d",
+      "leitura": "Vida,PE,TR e estado de proteção do Muro."
+    },
+    {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "sha256": "0e47b1295d76cac0caeadacec227cc37c0221d537b59e89cfa10455c962389d1",
+      "leitura": "Tema ao ocupar espaço, domar/fabricar sem técnica temática."
+    },
+    {
+      "arquivo": "/tmp/r07-phb.txt",
+      "sha256": "7a066746a0f1a6ee4cf521b9863d2d4e6cacd303aad1aa23910bc16caf447c18",
+      "leitura": "PHB2024 local, edição/tradução comunitária identificada no arquivo: páginas impressas7–8 e33. Comparação de organização: papéis, processo de jogo, roteiro e seleção; não modelo literal de prosa."
+    }
+  ],
+  "parecer_por_secao": [
+    {
+      "ancora": "ab-apresentacao",
+      "titulo": "Projeto - M",
+      "parecer": "Cumpre proposta de personagem, missões, criação própria e guilda. Funções de jogador e mestre recebem exemplo concreto. Não confunde comunidade de jogo com instituição ficcional."
+    },
+    {
+      "ancora": "ab-primeira-sessao",
+      "titulo": "Primeira sessão",
+      "parecer": "Materiais, dados e combinados suficientes para entrada. Nível2/Grau4 rotulados como padrão. Remissões por assunto evitam reproduzir capítulos inteiros."
+    },
+    {
+      "ancora": "ab-mundo",
+      "titulo": "Mundo jujutsu",
+      "parecer": "Vocabulário explicado no momento de uso. Maldições, energia e percepção apoiam decisões de aventura. Ressalvas não atribuem números do RPG ao cânone."
+    },
+    {
+      "ancora": "ab-sociedade",
+      "titulo": "Sociedade jujutsu",
+      "parecer": "Escolas e famílias contextualizadas sem catálogo de nomes/spoilers. Gancho da estação oferece objetivo e pistas concretos; não presume uma resposta correta."
+    },
+    {
+      "ancora": "ab-criacao",
+      "titulo": "Criar um personagem",
+      "parecer": "Roteiro de seis passos e limite inicial dos atributos permitem começar a ficha. Valor do atributo é explicitamente o próprio modificador. Exemplo soma9."
+    },
+    {
+      "ancora": "ab-origem",
+      "titulo": "Origem e treinos",
+      "parecer": "Contagem de perícias/ofícios e TR se fecha. Remete escolhas repetidas ao dono. Não detalha traços ou Legados fora do catálogo."
+    },
+    {
+      "ancora": "ab-caminho",
+      "titulo": "Caminho e Trilha",
+      "parecer": "Seis propostas curtas ajudam seleção. Não descreve habilidades de cada Caminho. Treino e requisito de arma diferenciados. PE agora expandido."
+    },
+    {
+      "ancora": "ab-capacidades",
+      "titulo": "Capacidades iniciais",
+      "parecer": "Roteiro serve para três rotas; montagem detalhada permanece no Fundamento. Invocação por espaço agora distinta de aquisição externa. Classe0 possui contagem separada."
+    },
+    {
+      "ancora": "ab-equipamento",
+      "titulo": "Equipamento e valores",
+      "parecer": "Conferência de ficha com compra, carga e fórmula dePV. Detalhes de proteção, ataque e dano remetidos ao dono. PV/CD agora apresentados."
+    },
+    {
+      "ancora": "ab-kaori",
+      "titulo": "Kaori",
+      "parecer": "Recorte de ficha explicitamente parcial. Conceito, dano e Selo combinam com Toque. Condição mínima1 impede devolução inflada. Passiva não concede informação mecânica gratuita."
+    },
+    {
+      "ancora": "ab-resgate",
+      "titulo": "Resgate na ala oeste",
+      "parecer": "Objetivo, pessoas e posições suficientes para entender a cena. Narrativa direta, sem metáforas indecisas. Criatura explicitamente parcial: não é encontro aberto pronto."
+    },
+    {
+      "ancora": "ab-combate",
+      "titulo": "Combate de exemplo",
+      "parecer": "Ordem iniciativa→acerto→dano→custo→movimento pode ser acompanhada. Falha conserva gasto. Desfecho e recursos persistem sem recompensa mecânica inventada."
+    },
+    {
+      "ancora": "ab-conferencia",
+      "titulo": "Ficha pronta",
+      "parecer": "Lista reúne campos sem repetir seus procedimentos. Valores atuais/máximos recebem exemplo curto. Registro de guilda tem função operacional distinta da definição inicial."
+    }
+  ],
+  "limites": [
+    "Modelos de especificação dirigidos; não executam a ficha como motor de jogo.",
+    "Não houve teste com leitores humanos nem partida real.",
+    "Não foi feita inspeção visual do PDF desta unidade por este revisor.",
+    "Cânone conferido nos recortes documentados abaixo; não leitura integral do mangá."
+  ]
+}

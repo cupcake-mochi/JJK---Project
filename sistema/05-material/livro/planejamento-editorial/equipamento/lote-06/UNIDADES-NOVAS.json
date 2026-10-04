@@ -1,0 +1,23 @@
+[
+  {
+    "pasta": "equipamento/lote-04-r4",
+    "manuscrito": "ARMAS.md",
+    "pdf": "Projeto-M-Catalogo-de-Armas-Proposta-04.pdf",
+    "paginas": 6,
+    "titulo": "Catálogo de armas, proposta 4"
+  },
+  {
+    "pasta": "equipamento/lote-03-r5",
+    "manuscrito": "MUNICAO.md",
+    "pdf": "Projeto-M-Municao-Proposta-05.pdf",
+    "paginas": 3,
+    "titulo": "Munição, proposta 5"
+  },
+  {
+    "pasta": "equipamento/lote-06",
+    "manuscrito": "COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+    "pdf": "Projeto-M-Compras-e-Equipamento-Inicial-Proposta-01.pdf",
+    "paginas": 4,
+    "titulo": "Compras e equipamento inicial, proposta 1"
+  }
+]

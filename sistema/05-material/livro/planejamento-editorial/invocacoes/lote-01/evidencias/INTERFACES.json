@@ -1,0 +1,53 @@
+{
+  "sha256_texto": "baf821fbcb12f848e8b17615ebfee01ec9406166fe4475c00af4693c508da1f4",
+  "interfaces": [
+    {
+      "dono": "R01 Ações",
+      "contrato": "Entidades pagam básica para ações comuns; manobras exigem anatomia, tamanho, alcance, ação e oposição do dono."
+    },
+    {
+      "dono": "R03 Condições/Dano",
+      "contrato": "Reações bloqueadas por corpo não retiram coletiva; Atordoado adapta uma Padrão a uma básica; não reescreve Incapacitado/Lento."
+    },
+    {
+      "dono": "R04 Ofícios",
+      "contrato": "Ferramentas e materiais; reparo de PV de corpo é exceção expressa de entidade, não reparo geral de objeto."
+    },
+    {
+      "dono": "R06 Fundamento",
+      "contrato": "Conjuração contabilizada na emissão; Máxima domada dados próprios, orçamento8/12/16; recarga comum e incompatibilidades preservadas."
+    },
+    {
+      "dono": "R07 Catálogo",
+      "contrato": "Tempo traduzido; Contramedida2PE/coletiva; vedações máximas e concentração preservadas. ReativaPadrão não se tornaautônoma."
+    },
+    {
+      "dono": "R08 Domínio",
+      "contrato": "Sustentadora domada; escalaCd8; refino do invocador; quatroAcertos emR6; saídado campoencerra."
+    },
+    {
+      "dono": "R12 Construção",
+      "contrato": "AtributoDef único, movimento-base/anatomia, famílias, progressão, origens, espaços, criação/domarestão lá. Informado ao agente rotas_didatica."
+    },
+    {
+      "dono": "Caminhos/Evocador",
+      "contrato": "Especial Combinada, Especial de Continuidade e Técnicas em Conjunto autorizam classepositivaextra e ocupam limite; Resposta Técnica da Dupla usa execução adicional porReação expressa. Nenhuma habilidade foi reescrita/copiadanoR11."
+    },
+    {
+      "dono": "Caminhos/Guia",
+      "contrato": "Recursos concedidos separados por pagador, própriareação vscoletiva; sem copiarhabilidades."
+    },
+    {
+      "dono": "Morte/Integridade futuro",
+      "contrato": "Não fecha revisão futura. Remete consciência/morteconfirmada ao dono; consequênciasdeentidadepreservadas."
+    },
+    {
+      "dono": "R07/R12 Tempo",
+      "contrato": "Atrasar e Carregar traduzidos em inv-restricoes-tempo; Carregar ocupa uma especial pendente. Aura e Reação de especial comandada podem aplicar Média/Pesada, autônomas não."
+    }
+  ],
+  "pendencias": [
+    "A política de reação do catálogo é adaptação local nova e deve ser medida em jogo.",
+    "Integração futura de morte/Integridade deverá conferir gatilhos de destruição e Costura sem presumir imunidade a morte definitiva."
+  ]
+}

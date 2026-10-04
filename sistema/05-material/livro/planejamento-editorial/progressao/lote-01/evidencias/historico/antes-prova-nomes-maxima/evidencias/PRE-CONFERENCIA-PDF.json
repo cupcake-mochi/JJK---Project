@@ -1,0 +1,142 @@
+{
+  "sha256_texto": "f357c3008c2493965e1cf32bf1339a3921abe0b9f8fc9ad49b6524383d45aa57",
+  "sha256_pdf": "e15c32830e31f33abd7e48b172c17a44a81a588c5789faff97ba006d2277a044",
+  "ok": true,
+  "checks": [
+    {
+      "nome": "1 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "2 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "3 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "4 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "5 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "6 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "7 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "8 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "9 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "10 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "11 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "12 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "13 texto completo",
+      "ok": true,
+      "ausente": {}
+    },
+    {
+      "nome": "1 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 413.92335
+    },
+    {
+      "nome": "2 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 654.42335
+    },
+    {
+      "nome": "3 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 492.32335000000006
+    },
+    {
+      "nome": "4 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 545.72335
+    },
+    {
+      "nome": "5 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 577.42335
+    },
+    {
+      "nome": "6 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 577.42335
+    },
+    {
+      "nome": "7 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 475.02335000000005
+    },
+    {
+      "nome": "8 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 441.32335000000006
+    },
+    {
+      "nome": "9 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 606.02335
+    },
+    {
+      "nome": "10 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 441.32335000000006
+    },
+    {
+      "nome": "11 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 511.42335
+    },
+    {
+      "nome": "12 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 528.1233500000001
+    },
+    {
+      "nome": "13 geometria e rodapé",
+      "ok": true,
+      "final_corpo": 570.8233500000001
+    },
+    {
+      "nome": "13 páginas e quatro grupos",
+      "ok": true
+    }
+  ],
+  "limite": "Pré-conferência textual e geométrica. Não substitui inspeção visual nem conferência final após ela."
+}

@@ -1,0 +1,381 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "sha256_texto": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+  "metodo": "Casos executados por modelo explícito mais âncoras textuais; não execução de combate real. Auditorias humanas simuladas por modelos estão separadas.",
+  "casos": [
+    {
+      "cenario": "Toque não vira alcance",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Projétil distante",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Toque com Passo físico",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Parado bloqueia Passo",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Completa não proíbe movimento específico",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Máxima não reembolsa Restrição",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Rajada requer ataque",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Precisão também modifica CD",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Certeiro não se aplica em TR",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Cura com Amparo fechada",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Cone com Área fechada",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada não é feitiço comum",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada é Máxima própria",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada não contorna Alcance fechada",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada não repete com concentração",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada não ganha sétimo por Mais Um",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada com Longe só seleção",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Inescapável comum sozinho",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Inescapável comum não aceita desconto por Restrição",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Contrato candidato de compatibilidade; ler motivo no registro e na matriz.",
+      "ok": true
+    },
+    {
+      "cenario": "Máxima incompatível: Acúmulo",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Protege dados fixos, resolução, ação e recarga da Máxima.",
+      "ok": true
+    },
+    {
+      "cenario": "Máxima incompatível: Estilhaço",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Protege dados fixos, resolução, ação e recarga da Máxima.",
+      "ok": true
+    },
+    {
+      "cenario": "Máxima incompatível: Fica",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Protege dados fixos, resolução, ação e recarga da Máxima.",
+      "ok": true
+    },
+    {
+      "cenario": "Máxima incompatível: Inescapável",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Protege dados fixos, resolução, ação e recarga da Máxima.",
+      "ok": true
+    },
+    {
+      "cenario": "Máxima incompatível: Quebra Coisa",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Protege dados fixos, resolução, ação e recarga da Máxima.",
+      "ok": true
+    },
+    {
+      "cenario": "Máxima incompatível: Queima",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Protege dados fixos, resolução, ação e recarga da Máxima.",
+      "ok": true
+    },
+    {
+      "cenario": "Máxima incompatível: Reação",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Protege dados fixos, resolução, ação e recarga da Máxima.",
+      "ok": true
+    },
+    {
+      "cenario": "Máxima incompatível: Remate",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Protege dados fixos, resolução, ação e recarga da Máxima.",
+      "ok": true
+    },
+    {
+      "cenario": "Máxima incompatível: Rápido",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Protege dados fixos, resolução, ação e recarga da Máxima.",
+      "ok": true
+    },
+    {
+      "cenario": "Máxima incompatível: Salto",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Protege dados fixos, resolução, ação e recarga da Máxima.",
+      "ok": true
+    },
+    {
+      "cenario": "Fica reentrada e erro ocupam resolução",
+      "obtido": 6,
+      "esperado": 6,
+      "motivo": "Rodada atual e cinco seguintes; conta resolução, não só dano.",
+      "ok": true
+    },
+    {
+      "cenario": "Fica dois alvos independentes",
+      "obtido": 12,
+      "esperado": 12,
+      "motivo": "Uma resolução para cada criatura em cada rodada.",
+      "ok": true
+    },
+    {
+      "cenario": "Fica não reaplica condições",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Limite expresso; modelo não concede controle repetido.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada: Aliado inicialmente a20m fica fora",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Modelo de trajetos físicos, seleção inicial e aceitação; não mede o valor tático do mapa.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada: Trajeto18m em alcance",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Modelo de trajetos físicos, seleção inicial e aceitação; não mede o valor tático do mapa.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada: Contorno24m não cabe",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Modelo de trajetos físicos, seleção inicial e aceitação; não mede o valor tático do mapa.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada: Terreno difícil9m custa18",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Modelo de trajetos físicos, seleção inicial e aceitação; não mede o valor tático do mapa.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada: Sem consentimento",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Modelo de trajetos físicos, seleção inicial e aceitação; não mede o valor tático do mapa.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada: Contenção impede",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Modelo de trajetos físicos, seleção inicial e aceitação; não mede o valor tático do mapa.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada: Lento reduz orçamento9m",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Modelo de trajetos físicos, seleção inicial e aceitação; não mede o valor tático do mapa.",
+      "ok": true
+    },
+    {
+      "cenario": "Retirada seis trajetos separados",
+      "obtido": 108,
+      "esperado": 108,
+      "motivo": "Metros de movimento não são equivalência de dano nem podem ser reunidos em um alvo.",
+      "ok": true
+    },
+    {
+      "cenario": "Recarga uso1 retorna5",
+      "obtido": 5,
+      "esperado": 5,
+      "motivo": "Exige terminar terceiro turno seguinte; rodada sem turno não avança contador.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por feitiço: espaço=False, previsão=False",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por feitiço: espaço=False, previsão=True",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por feitiço: espaço=True, previsão=False",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por feitiço: espaço=True, previsão=True",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por Manejo: espaço=False, previsão=False",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por Manejo: espaço=False, previsão=True",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por Manejo: espaço=True, previsão=False",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por Manejo: espaço=True, previsão=True",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por Kata: espaço=False, previsão=False",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por Kata: espaço=False, previsão=True",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por Kata: espaço=True, previsão=False",
+      "obtido": false,
+      "esperado": false,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    },
+    {
+      "cenario": "Entidade por Kata: espaço=True, previsão=True",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Espaço paga aquisição; a técnica/rota precisa comportar entidades, conforme pedido do usuário.",
+      "ok": true
+    }
+  ],
+  "quantidade": 53,
+  "limites": "Subset deliberado de combinações; catálogo completo R07 permanece pendente."
+}

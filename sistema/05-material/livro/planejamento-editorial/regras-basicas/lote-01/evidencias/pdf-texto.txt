@@ -1,0 +1,353 @@
+PÁGINA 1
+PROJETO - M
+TESTES E TURNOS
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+1
+Atributos
+Sua ficha reúne as capacidades do personagem e os recursos que ele usa durante uma missão. Para
+resolver uma tentativa, você precisa saber qual atributo entra na rolagem, se tem o treino necessário e
+qual bônus deve somar.
+Os cinco atributos variam de 0 a 6. O valor anotado já é o modificador: Força 3 acrescenta 3 a uma
+rolagem que use Força.
+Atributo
+Usos comuns
+Força
+Ataques corpo a corpo, esforço físico e carga.
+Destreza
+Ataques à distância, Defesa, iniciativa e furtividade.
+Constituição
+Vida e resistência física pelo TR de Vigor.
+Inteligência
+Conhecimento, investigação e ofícios que exijam análise.
+Essência
+Percepção, Sentir Energia e diversas interações sociais.
+Cada perícia possui um atributo definido na sua descrição. Percepção e Sentir Energia usam Essência;
+Intuição usa Inteligência. Atributo e treino são escolhas distintas: ter Inteligência alta não concede
+perícias adicionais.
+Maestria
+A maestria é o bônus que acompanha o avanço de nível. Ela entra nos ataques e nas CDs que a incluem.
+Em perícias, ofícios e Testes de Resistência, você só a soma quando tem o treino correspondente.
+Maestria não é acrescentada à Defesa.
+Nível
+Maestria
+2 a 9
++1
+10 a 17
++2
+18 a 25
++3
+26 a 30
++4
+A criação comum começa no nível 2. Campanhas que usem o nível 1 seguem a opção de criação própria;
+a maestria inicial também é 1.
+Exemplo: Rina tem Destreza 3 e maestria 1. Em Furtividade, na qual é treinada, soma 4 ao d20. Numa
+perícia de Destreza sem treino, soma apenas 3. No nível 10, sua maestria passa a 2; se mantiver Destreza 3,
+o bônus treinado passa a 5.
+Dados e bônus
+d20 indica um dado de vinte lados. Em 2d10 + 6, role dois dados de dez lados, some os resultados e
+acrescente 6. Quando a ficha já trouxer o bônus completo, use esse valor sem somar o atributo ou a
+maestria novamente.
+As regras de criação explicam como distribuir atributos e escolher treinos. Aqui você aprende a usar os
+valores já anotados na ficha.
+
+
+PÁGINA 2
+PROJETO - M
+TESTES E TURNOS
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+2
+Testes
+Descreva o que seu personagem tenta fazer. O mestre pede um teste quando há incerteza e a falha pode
+mudar a situação. Se não houver obstáculo ou consequência relevante, a ação pode ser resolvida pela
+descrição.
+Role um d20, some o bônus indicado e compare com a Classe de Dificuldade, ou CD. Igualar ou superar a
+CD é sucesso.
+O procedimento diz qual bônus usar. Uma perícia emprega seu atributo e treino; um Teste de
+Resistência usa o atributo daquele TR. Ataques são comparados à Defesa e seguem também as regras
+próprias de acerto e crítico.
+Dificuldade
+Tarefas comuns e conhecimento sem nível próprio usam a tabela abaixo. Uma fechadura não fica mais
+difícil porque o personagem subiu de nível. Regras específicas, como saltos e furtividade, fornecem a
+dificuldade ou a forma de calculá-la.
+Dificuldade
+CD fixa
+Ajuste à CD do criador
+Fácil
+6
+-4
+Média
+10
+-2
+Difícil
+14
+0
+Muito difícil
+18
++2
+Extrema
+22
+Não definido nesta escala.
+Quase impossível
+26
++6
+Quando a dificuldade depende do poder de quem criou uma barreira, selo ou outro efeito, use a CD
+indicada pela regra. Na avaliação geral de algo com nível, a base é 8 + atributo do criador + maestria do
+criador, com o ajuste da última coluna escolhido pelo mestre. A escala do criador possui cinco degraus;
+não acrescenta um degrau Extremo.
+Esse ajuste serve à avaliação da tarefa. Não é um aumento automático da CD de todo feitiço ou TR: se
+um efeito já fornece sua CD, use-a.
+Exemplo: com bônus +4, Rina tira 10 no d20 e alcança a CD 14. Para examinar um selo cujo criador tem
+atributo 4 e maestria 2, a base é 14; se o mestre classificar esse exame como muito difícil, a CD será 16.
+Sucesso e falha
+Resolva o resultado indicado na tarefa. Uma falha pode gastar tempo, consumir uma ação ou recurso,
+denunciar a tentativa ou impedir o efeito pretendido. Quando o procedimento deixar espaço para
+interpretação, o mestre pode oferecer sucesso com custo ou complicação. Isso não substitui uma
+consequência já definida: falhar em Esconder, por exemplo, permite que o observador localize você
+conforme aquela regra.
+
+
+PÁGINA 3
+PROJETO - M
+TESTES E TURNOS
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+3
+Perícias e ofícios
+Perícias representam capacidades como investigar, perceber e mover-se em silêncio. Cada uma usa um
+atributo fixo. Ofícios representam práticas aprendidas; o atributo depende da tarefa, como usar
+Destreza para manipular uma tranca ou Inteligência para entender seu mecanismo eletrônico.
+Treino
+Rolagem
+Perícia treinada
+d20 + atributo da perícia + maestria
+Perícia sem treino
+d20 + atributo da perícia
+Ofício treinado
+d20 + atributo indicado para a tarefa + maestria
+Ofício sem treino
+Normalmente não permite tentativa; o mestre pode autorizar uma
+improvisação, sem maestria.
+A lista de perícias e ofícios detalha os assuntos de cada um. Ter um bônus alto não dispensa uma
+ferramenta ou outro requisito que a tarefa exija.
+Especialização
+Se você tiver especialização numa perícia ou ofício treinado, acrescente metade da maestria,
+arredondada para baixo, além do bônus normal. As escolhas de progressão permitem adquiri-la a partir
+do nível 10. Com maestria 2 ou 3, o adicional é +1; com maestria 4, é +2. Isso não concede especialização
+em TR.
+Vantagem e desvantagem
+Com vantagem, role dois d20 e use o maior. Com desvantagem, use o menor. Some o bônus
+normalmente ao dado escolhido. Duas ou mais fontes do mesmo benefício ou penalidade não
+acrescentam dados. Se houver vantagem e desvantagem, elas se cancelam e você rola um d20, mesmo
+que existam várias fontes de um dos lados.
+Exemplo: com bônus +4 e vantagem, Rina tira 6 e 17. Usa o 17 e obtém 21. Se também sofrer desvantagem
+naquele teste, rola apenas um d20 e soma 4.
+Ajudar
+Gaste uma Ação Padrão para ajudar no próximo teste ou ataque de um aliado. Você precisa poder
+contribuir naquela tentativa: segurar uma escada, iluminar um mecanismo ou criar a abertura adequada.
+A ajuda concede vantagem. Um ajudante por teste; outra ajuda não acrescenta uma segunda vantagem.
+Uma habilidade pode mudar o custo, como Mão na Roda, do Guia. Ajudar não substitui o teste do aliado
+nem concede sucesso automático.
+Testes de grupo
+Quando todos precisam superar uma tarefa em conjunto, cada participante faz o teste. Pelo menos
+metade precisa passar para o grupo conseguir. Num grupo de cinco, são necessários três sucessos. Use
+isso para travessias e outras tarefas coletivas; em combate, a ocultação de cada personagem é resolvida
+separadamente.
+
+
+PÁGINA 4
+PROJETO - M
+TESTES E TURNOS
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+4
+Testes de Resistência
+Um Teste de Resistência, ou TR, acontece quando uma criatura tenta evitar ou encerrar um efeito. A
+regra do efeito informa qual TR fazer, sua CD e o que acontece em cada resultado.
+TR treinado: d20 + atributo do TR + maestria.
+Sem treino, some apenas o atributo e os demais modificadores aplicáveis. Igualar ou superar a CD é
+sucesso.
+TR
+Atributo
+Aplicações comuns
+Físico
+Força ou Destreza, escolhido na
+criação
+Evitar impactos e efeitos que exijam reação
+física.
+Vigor
+Constituição
+Veneno, doença, exaustão e concentração.
+Intelecto
+Inteligência
+Controle mental, ilusões e efeitos sobre o
+raciocínio.
+Espírito
+Essência
+Efeitos sobre vontade e determinação.
+A escolha entre Força e Destreza no TR Físico é feita na criação e permanece fixa. Você não troca de
+atributo a cada ameaça. A Origem fornece treino em um TR e o Caminho em outro; confira na ficha
+quais são os seus.
+CD e resultado
+A CD de um feitiço usa 8 + atributo da técnica + maestria, com os modificadores previstos no efeito.
+Para manobras e outras habilidades, consulte a CD própria. Uma criatura pode usar CDs diferentes
+conforme o que faz.
+Passar no TR não tem um resultado universal. Pode impedir uma condição, reduzir dano ou terminar
+um efeito, conforme a regra que pediu o teste. Não aplique metade do dano a todo sucesso nem conceda
+uma tentativa de resistência a um efeito que não a ofereça.
+Exemplo: Kaito tem Destreza 4, maestria 2 e treino em TR Físico, escolhido com Destreza. Diante de CD
+15, tira 9 e soma 6: total 15. Ele passou. Para saber se evita o efeito ou recebe parte dele, consulta o texto do
+efeito.
+Ataques e defesas
+Num ataque com rolagem de acerto, quem ataca rola contra a Defesa. Num efeito que pede TR, quem
+resiste faz a rolagem contra a CD. Bloquear só pode substituir a Defesa contra uma rolagem de acerto;
+não substitui um TR.
+Exemplo: uma explosão pede TR Físico. Kaito não pode rolar Bloquear no lugar dele, mesmo que seu
+bônus de Bloquear seja maior. Uma proteção que conceda bônus ao TR Físico ainda funciona quando seus
+requisitos forem cumpridos.
+Condições e habilidades podem modificar o TR. O próprio teste não custa uma Reação por padrão;
+quando uma habilidade exige ação ou recurso para permitir a tentativa, pague o custo indicado, como ao
+escapar de uma contenção.
+
+
+PÁGINA 5
+PROJETO - M
+TESTES E TURNOS
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+5
+Turnos
+O combate é dividido em rodadas de 6 segundos. Cada participante tem um turno na rodada. A
+iniciativa determina a ordem; depois do último turno, começa outra rodada na mesma ordem.
+Iniciativa
+Role d20 + Destreza, com os modificadores aplicáveis. Quem obtiver o maior total age primeiro. Surdo,
+por exemplo, impõe -2 à iniciativa.
+Em empate, age primeiro quem tiver maior Destreza. Se ela também empatar entre jogador e inimigo, o
+jogador age primeiro. Entre personagens dos jogadores ainda empatados, os envolvidos escolhem a
+ordem; entre inimigos, o mestre escolhe. Registre a ordem uma vez para o combate. Uma habilidade que
+antecipe ou altere um turno segue suas próprias regras.
+Recursos do turno
+ Recurso
+Uso
+Uma Ação Padrão
+Atacar, conjurar e outras tarefas indicadas nas ações.
+Uma Ação de Movimento
+Percorrer seu deslocamento ou pagar uma tarefa que consuma essa ação.
+Uma Ação Bônus
+Usar uma opção que declare esse custo.
+Uma Reação
+Responder ao gatilho de uma regra; recuperada no começo do seu turno.
+Esses recursos são separados: gastar um não consome os demais, salvo quando a regra pedir mais de um.
+A Reação pode ser usada dentro ou fora do seu turno, quando houver um gatilho válido. Ela não volta na
+passagem de uma rodada para outra.
+Conversão de ações
+Você pode converter Ação Padrão em Ação Bônus, e Ação Bônus em Ação de Movimento. A conversão
+segue somente essa direção e consome o recurso convertido. Converter não remove requisitos nem
+renova limites de uso de uma habilidade.
+Exemplo: Rina troca sua Ação Padrão por outra Ação Bônus. Pode usar duas opções de Ação Bônus, se
+ambas forem permitidas. Já não tem aquela Ação Padrão para atacar. Uma opção limitada a uma vez por
+cena continua tendo esse limite.
+Movimento
+A Ação de Movimento oferece os metros indicados no deslocamento da ficha, normalmente 9 m. Você
+pode dividir o percurso antes e depois das outras ações. Uma tarefa que consuma a Ação de Movimento
+inteira não pode usar a mesma ação já gasta parcialmente para andar.
+Um custo de Rodada inteira consome Ação Padrão, Ação Bônus e Ação de Movimento de uma vez. A
+Reação permanece disponível. As regras de Movimento detalham terrenos, saltos, quedas e travessias
+especiais.
+
+
+PÁGINA 6
+PROJETO - M
+TESTES E TURNOS
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+6
+Ações
+As opções abaixo custam Ação Padrão, salvo permissão específica. O resumo ajuda a escolher;
+requisitos, testes e efeitos completos continuam nos procedimentos correspondentes.
+Ação
+O que permite
+Atacar
+Realizar ataque com arma ou desarmado e os ataques adicionais permitidos.
+Agarrar, Derrubar e Empurrar podem substituir ataques conforme suas regras.
+Conjurar
+Usar um feitiço, cumprindo seus requisitos e custos.
+Correr
+Ganhar movimento igual ao deslocamento até o fim do turno.
+Desengajar
+Evitar ataques de oportunidade provocados por seus movimentos naquele turno.
+Esquivar
+Impor desvantagem aos ataques contra você e obter vantagem nos seus TRs
+Físicos até o começo do seu próximo turno.
+Esconder
+Tentar ocultar sua presença ou posição com Furtividade.
+Ajudar
+Dar vantagem ao próximo teste ou ataque de um aliado, quando puder
+contribuir.
+Influenciar
+Tentar mudar a atitude de alguém, com a perícia social adequada.
+Preparar
+Escolher uma resposta a um evento perceptível, pagando Reação quando a
+executar.
+Vasculhar
+Procurar uma criatura, objeto ou pista com a perícia e os sentidos adequados.
+Estudar
+Compreender uma criatura ou objeto observável, fazendo uma pergunta sobre
+ele.
+Usar objeto
+Usar um objeto não mágico que exija essa ação.
+Ações Bônus
+Provocar: faça um teste de Provocar contra o TR de Espírito do alvo. Se ele falhar, até o começo do seu
+próximo turno seus ataques têm desvantagem contra outros alvos e vantagem contra você.
+Ler o Ambiente: uma vez por cena, faça Percepção ou Intuição contra a dificuldade indicada pelo
+mestre. No sucesso, ele informa algo aproveitável do lugar, como um objeto, caminho, posição ou risco.
+Se não houver nada, ele informa isso e a ação não é gasta. Essa opção trata do ambiente; não revela
+informações sobre criaturas.
+Sacar e guardar
+Você pode sacar ou guardar um item gratuitamente uma vez por turno. Do segundo uso em diante,
+cada saque ou guarda exige uma Ação de Movimento inteira. Trocar de arma envolve guardar uma e
+sacar outra: são dois usos. Largar um item no chão é gratuito e não conta como guardar.
+Uma habilidade pode alterar esses custos. Confira também o equipamento necessário para uma ação
+antes de começar a resolvê-la.
+Limite de conjuração
+No seu turno, conjurar um feitiço de Classe acima de 0 permite apenas mais um feitiço de Classe 0.
+Converter ações não remove esse limite nem muda os requisitos de conjuração.
+
+
+PÁGINA 7
+PROJETO - M
+TESTES E TURNOS
+PROPOSTA EM DISCUSSÃO  |  BASE v0.331
+7
+Reações e concentração
+Uma Reação permite responder a um gatilho previsto por uma regra. Depois de gastá-la, você precisa
+esperar o começo do seu próximo turno para recuperá-la. Ter a Reação disponível não permite criar uma
+interrupção ou ataque livre.
+Ataques de oportunidade
+Quando uma criatura deixa seu alcance corpo a corpo, você pode gastar a Reação para realizar um
+ataque físico com arma ou desarmado. Resolva-o antes de ela sair do alcance. Feitiços não são opções
+comuns desse ataque.
+Desengajar e movimentos que declarem não provocar ataques de oportunidade evitam essa resposta.
+Movimento imposto por outra criatura também não provoca, conforme as regras de movimento. O
+ataque ainda precisa cumprir seus requisitos; esta seção não concede um sentido novo para localizar o
+alvo.
+Exemplo: Rina já agiu nesta rodada. Uma maldição deixa seu alcance e ela gasta a Reação para atacá-la. A
+rodada termina, mas Rina continua sem Reação até o começo do próximo turno dela.
+Preparar
+Preparar custa Ação Padrão no seu turno e Reação quando você executa a resposta, depois de o gatilho
+terminar. A preparação dura até o começo do seu próximo turno. Gastar a Reação em outra coisa
+encerra a preparação. Consulte o procedimento de Preparar para ataques, movimento, conjuração e
+invocações.
+Concentração
+Você pode manter um efeito com concentração por vez. Começar outro encerra o anterior. Quando
+sofre dano enquanto concentra, faça TR de Vigor contra a CD de quem causou o dano. Falhar encerra o
+efeito.
+Contra feitiço, use sua CD. Contra arma ou ataque desarmado, use 8 + atributo do ataque + maestria do
+agressor; um inimigo usa a CD indicada em sua ficha. Se o dano não tiver autor, como numa queda, o
+mestre determina a CD pela dificuldade. Resolva um teste para cada golpe que causar dano, sem juntar
+os danos de vários golpes num teste único.
+Mão Firme dispensa o teste por dano de 10 ou menos. Outras exceções seguem suas descrições. As
+regras específicas de disputa entre domínios conservam sua própria contagem de falhas.
+Exemplo: Kaito mantém um efeito e recebe dois golpes que causam dano, ambos de uma criatura com CD
+14. Faz um TR de Vigor após cada golpe enquanto o efeito continuar ativo. Se falhar no primeiro, o efeito
+já terminou e não há concentração a testar no segundo.
+Carregar
+A Restrição Carregar mantém um feitiço em preparação e usa TR de Espírito, conforme suas regras.
+Falhar perde o feitiço e o que foi pago por ele. A carga consome a Ação Padrão do turno de carga;
+Movimento e Ação Bônus permanecem. Esse teste não deve ser trocado pelo TR de Vigor da
+concentração.

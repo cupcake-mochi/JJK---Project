@@ -1,0 +1,23 @@
+{
+  "data": "2026-10-03",
+  "estado": "candidata não integrada",
+  "texto": {
+    "arquivo": "05-ENERGIA-E-VESTIGIOS.md",
+    "sha256": "e492d40892b28830d9a0a31f301bf7d0a96016f88b4bd2a36d2011fbe19c2d26"
+  },
+  "pdf": {
+    "arquivo": "output/pdf/Projeto-M-Energia-e-Vestigios-Proposta-05.pdf",
+    "sha256": "c9858a872981114a3ec791ce826c33584ef26d23183600e8bae1ca9ce7ee64bf"
+  },
+  "verificacoes_automaticas": 46,
+  "cenarios_documentais": 33,
+  "paginas_inspecionadas": 4,
+  "teste_humano": false,
+  "alcance_de_ensaio_m": 18,
+  "anteriores_preservados": [
+    "lote02r3",
+    "lote03r2",
+    "lote04r1",
+    "v0.331"
+  ]
+}

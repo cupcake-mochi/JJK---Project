@@ -1,0 +1,15 @@
+{
+  "sha256_texto": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+  "sha256_pdf": "62143fe6e30b67d42e37242de11c8badcbdc64e3b51d33d6f2cbe74bf7e7d646",
+  "alteracoes": "consolidacao/lote-01/migracao-nomes/remissoes/ALTERACOES.json",
+  "revisao_independente": "/root aprovou as remissões propostas e seus antes/depois em REMISSOES-TEXTUAIS.md; leitura contextual e execução por /root/compatibilidade.",
+  "regra": "Nenhum dado, custo, ação, gatilho ou requisito alterado. Uniforme refere a proteção disponível na ficha sem presumir energia.",
+  "visual_paginas_abertas": [
+    1,
+    4,
+    9,
+    13,
+    26
+  ],
+  "visual_identicas": 34
+}

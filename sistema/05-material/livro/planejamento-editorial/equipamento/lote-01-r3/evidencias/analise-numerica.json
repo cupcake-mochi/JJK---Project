@@ -1,0 +1,31 @@
+{
+  "Par": [
+    {
+      "dados": "1d6",
+      "media_normal": 3.5,
+      "media_Par": 4.472222222222222,
+      "exata": "161/36",
+      "aumento": 0.9722222222222223
+    },
+    {
+      "dados": "2d6",
+      "media_normal": 7.0,
+      "media_Par": 8.371913580246913,
+      "exata": "5425/648",
+      "aumento": 1.371913580246913
+    },
+    {
+      "dados": "4d6",
+      "media_normal": 14.0,
+      "media_Par": 15.933358577198598,
+      "exata": "6690481/419904",
+      "aumento": 1.9333585771985984
+    }
+  ],
+  "gatilho_natural": {
+    "normal": 0.1,
+    "vantagem": 0.01,
+    "desvantagem": 0.19
+  },
+  "limite": "Não mede equilíbrio das Trilhas, valor da Bônus, suprimentos ou frequência total de recarga."
+}

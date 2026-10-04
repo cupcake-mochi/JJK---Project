@@ -1,0 +1,145 @@
+
+========================================================================================
+1. AS ANCORAS — cada numero que a regua usa aparece no dono dele
+========================================================================================
+  17 de 17 ancoras encontradas nos donos.
+  [x] toda ancora que a regua usa continua escrita no documento dono
+  [x] a fatia foi lida do dono: 5.08 de dano por rodada
+  [x] o chefe foi lido do dono, a tabela de inimigo do manual: 226 de dano por rodada
+  [x] o capanga foi lido do dono, a tabela de inimigo do manual: 28 de dano por rodada
+  [x] as acoes do chefe foram lidas do dono: 3 por rodada
+  [x] o dado do soco foi lido do dono: d10, medio 5.50
+  [x] as 14 linhas da tabela do §2.2 e as 17 ancoras deste arquivo se cobrem nos dois sentidos
+
+========================================================================================
+2. A REGUA — as treze reconstroem a partir das ancoras?
+========================================================================================
+  [x] um ponto de feitico foi lido do §2.1: 4.50 de dano
+  [x] o filtro de dominancia foi lido da peca 11: 3.00x
+  [x] as 13 linhas do §2.2 reconstroem a partir das ancoras
+  [x] as 13 conversoes em fatia batem com a fatia lida do dono
+  uma regua so, relativa, em dois escopos: a sua rodada 108 · um golpe do aliado 11.50
+  por ponto percentual: sua 2.160 · do aliado 0.230 (a relativa num golpe da 0.230)
+  [x] as duas divergem 9.39x, e isso e ESCOPO puro — a mesma regua relativa
+      medida na sua rodada e num golpe do aliado. A peca publica 9.40.
+  [x] o `Incapacitado` do §3.1 alcanca so o corpo a corpo, e nomeia as duas rolagens que ficam de fora
+
+========================================================================================
+3. O NIVEL — ele sai da banda do manual, e a banda sai da tabela de Classe
+========================================================================================
+  as tres bandas, no nivel 30 (Rotina 108):
+     Leve    ate  15.43 de dano por rodada =  3.04 fatias
+     Média   ate  30.86 de dano por rodada =  6.07 fatias
+     Pesada  ate  46.29 de dano por rodada =  9.11 fatias
+  [x] as 13 caem no degrau que as acoes negadas dizem: 6 Leve · 2 Média · 5 Pesada
+  pior razao das treze: Impedido em 2.74x (filtro 3.00x)
+  [x] nenhuma das treze passa do filtro de dominancia
+  [x] os pontos de cada tier na coluna de dominancia sao os que o §2.1 publica para a Classe 7
+
+========================================================================================
+4. O MANUAL — as treze da peca sao as treze do manual, nos dois sentidos
+========================================================================================
+  o manual publica 6 Leve · 2 Média · 5 Pesada; a peca tambem
+  [x] as 14 batem com o manual em nome e em NIVEL, nos dois sentidos
+  [x] o manual vende UMA Melhoria Condição, e o preco dela e o nivel
+  [x] o −2 na iniciativa do Surdo bate nos tres donos: esta peca, o manual e a peca 3 §5
+  [x] as tres que ficam de fora continuam declaradas com o motivo
+
+========================================================================================
+5. NENHUMA SEM NIVEL — e o nivel e um dos tres
+========================================================================================
+  14 condicoes com nivel no texto de mesa: 6 Leve · 2 Média · 5 Pesada
+  [x] as duas copias do nivel — a regua e o texto de mesa — batem
+
+========================================================================================
+6. A ESCADA DE QUEM CURA — o teto por uso cobre os tiers que a peca diz
+========================================================================================
+  nivel 11: teto 2 PE por uso -> alcanca Leve, Média
+  nivel 18: teto 3 PE por uso -> alcanca Leve, Média, Pesada
+  nivel 27: teto 7 PE por uso -> alcanca Leve, Média, Pesada
+  [x] os 2 degraus de maestria da escada batem com a peca 1, nivel a nivel
+  [x] contra-teste: a formula de ate a v0.257 erraria em 3 nivel(is) — nv9, nv17, nv25
+  [x] a escada cai da regra, e ela bate com os tres degraus de exaustao
+
+========================================================================================
+7. OS TIPOS DE DANO — catorze, tres grupos, e a tabela de resistencia
+========================================================================================
+  14 tipos em 3 grupos: Físicos 60% · Elementais 30% · Especiais 10%
+  [x] os tipos nao repetem e os tres pesos somam 100%
+  [x] o peso segue rotulado como previsao, com o playtest como dono
+  [x] as 4 linhas de resistencia saem de 16.95 de dano recebido por rodada, recontadas
+
+========================================================================================
+8. COBERTURA — tres degraus, e a Total sem numero
+========================================================================================
+  Parcial +2 · Boa +5 · Total sem numero, e so a maior conta
+  [x] os tres degraus fecham, e a Total continua sem numero
+
+========================================================================================
+9. AS ENTREGAS PUBLICADAS — o Abalo e o Encontrao batem com a regua
+========================================================================================
+  [x] o Abalo: Derrubado permanente em 8.45, e o desenho concorda
+  [x] o Abalo com a trava de 60%: 1.00 fatia, e bate
+  portoes lidos do texto do Encontrao: acerto 75% · Teste de Resistencia 45%
+  [x] o Encontrao com os dois portoes (75% x 45% = 33.8%): 2.85 = 0.56 fatia
+  [x] o Punho fecha em 4.94 de 5.00, e cabe
+
+========================================================================================
+10. NENHUM VALOR DE REGRA GUARDADO AQUI DENTRO
+========================================================================================
+  [x] as 17 ancoras foram lidas do documento dono
+  [x] as tres bandas sao derivadas de 1/7, 2/7 e 3/7 da Rotina, e nenhuma esta escrita
+
+========================================================================================
+11. A PENALIDADE DE ARMA — as duas linhas, e o tamanho de cada uma
+========================================================================================
+  desvantagem: 25 pp sobre 50% = 54.00 de dano por rodada
+  deslocamento -3 m = 1.80   |   a arma inteira = 1.65
+  [x] as duas somadas custam 33.8x a entrega da arma — porta fechada, e nao preco
+  [x] os 3 m sao os 10 pes que o d20 de 2024 cobra
+  [x] a peca 3 da o primeiro saque de graca, e esta peca declara que o `Desarmado`
+      foi precado contra a ficha SEM arma reserva.
+  [x] a peca 13 tem 0 vaga(s) de `Desliga` esperando esta peca, e esta peca diz o mesmo.
+
+========================================================================================
+12. AS ACOES DO CHEFE — o numero e o PISO da banda, e nao leitura do manual
+========================================================================================
+  1 acao(oes): Lento 6.43x  Calado 7.17x  Enfeitiçado 7.17x  Atordoado 6.85x
+  2 acao(oes): Lento 3.29x  Calado 3.59x  Enfeitiçado 3.59x  Atordoado 3.42x
+  3 acao(oes): Lento 2.24x  Calado 2.39x  Enfeitiçado 2.39x  Atordoado 2.28x
+  [x] com 3 as quatro cabem, e com 2 Lento, Calado, Enfeitiçado, Atordoado sai(em) da banda — 3 e o piso
+  [x] as 3 linhas da tabela de acoes do §2.2 reconstroem da regua
+
+========================================================================================
+13. A COLUNA DO CAPANGA — a regua nao depende de contra quem foi escrita
+========================================================================================
+  contra o capanga de 28 em 1 acao(oes), em vez do chefe de 226 em 3:
+     Impedido        135.65  2.74x  ->    36.65  0.74x   Pesada
+     Cego            130.25  2.63x  ->    31.25  0.63x   Pesada
+     Amedrontado     118.40  2.39x  ->    19.40  0.39x   Pesada
+     Envenenado      113.00  2.28x  ->    14.00  0.28x   Pesada
+     Atordoado       113.00  2.28x  ->    42.00  0.85x   Pesada
+     Calado           75.33  2.39x  ->    28.00  0.89x   Média
+     Enfeitiçado      75.33  2.39x  ->    28.00  0.89x   Média
+     Lento            40.37  2.24x  ->    16.70  0.93x   Leve
+     Derrubado         8.45  0.47x  ->     8.45  0.47x   Leve
+     Agarrado          5.40  0.30x  ->     5.40  0.30x   Leve
+     Incapacitado      4.95  0.28x  ->     4.95  0.28x   Leve
+     Desarmado         3.45  0.19x  ->     3.45  0.19x   Leve
+     Surdo             0.00  0.00x  ->     0.00  0.00x   Leve
+  [x] nenhum dos treze niveis se move contra o capanga
+  [x] contra o capanga a pior razao e 0.93x, e o filtro passa
+  [x] a ordem de entrega inverte contra o capanga, e a peca declara
+  [x] 13.1: a linha de ancoras, os 4 `N×` do paragrafo do capanga e os dois valores da frase da ORDEM saem do manual e da conta contra o capanga dele
+
+========================================================================================
+14. O CALADO NAS CINCO COPIAS — a redacao da v0.176 e a Kata pelo mesmo padrao
+========================================================================================
+  [x] o `Calado` diz "Nada que precise de voz, gesto ou Selo que envolva voz sai" nas cinco copias, e a regra da `Kata` esta na peca e no capitulo 15
+  [x] o `Calado` e de nicho na peca 19, no capitulo 15 e no bestiario, e fica `Média`: em `Leve` daria 4.18x, acima do filtro de 3.00x
+
+========================================================================================
+>>> TUDO OK — a regua reconstroi as treze a partir dos donos, o nivel
+    de cada uma cai da banda do manual, os tipos de dano e a cobertura
+    fecham, e as duas entregas publicadas batem com o portao que elas
+    mesmas escrevem.

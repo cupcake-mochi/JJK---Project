@@ -1,0 +1,10 @@
+{
+  "sha256_texto_atual": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+  "sha256_texto_revisado_antes_da_montagem": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+  "alteracoes_de_integracao": 0,
+  "mudancas_mecanicas_nesta_etapa": false,
+  "evidencia_delta": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+  "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+  "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "escopo": "V01–V12 reaproveitados das revisões registradas com revisão do delta de remissões; V13–V15 do PDF entregue estão no dossiê da consolidação. Provas individuais são históricas, não uma segunda edição final."
+}

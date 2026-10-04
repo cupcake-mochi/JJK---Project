@@ -1,0 +1,5717 @@
+[
+  {
+    "pagina": 1,
+    "texto": "AMOSTRAS DE CONSULTA · LOTE TÉCNICO",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 243.85,
+    "altura": 14.4,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "Movimento e ações",
+    "x": 75.59,
+    "y": 88.1,
+    "largura": 272.9,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 1,
+    "texto": "Em seu turno, você dispõe de ",
+    "x": 75.59,
+    "y": 169.5,
+    "largura": 183.39,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Ação de Movimento, Ação Padrão, Ação Bônus e Reação",
+    "x": 258.98,
+    "y": 169.5,
+    "largura": 355.29,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": ". Elas são recur‐",
+    "x": 614.27,
+    "y": 169.5,
+    "largura": 98.29,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "sos separados. A Reação é usada quando acontece o gatilho descrito por uma regra e se recupera no",
+    "x": 75.59,
+    "y": 189.52,
+    "largura": 612.03,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "começo do seu turno.",
+    "x": 75.59,
+    "y": 209.54,
+    "largura": 131.35,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Ação de Movimento e deslocamento",
+    "x": 75.59,
+    "y": 242.78,
+    "largura": 286.73,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 1,
+    "texto": "Ação de Movimento",
+    "x": 75.59,
+    "y": 276.18,
+    "largura": 126.84,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": " é o recurso que você gasta. ",
+    "x": 202.43,
+    "y": 276.18,
+    "largura": 170.73,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Deslocamento",
+    "x": 373.16,
+    "y": 276.18,
+    "largura": 90.51,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": " é a distância que ele permite percorrer.",
+    "x": 463.67,
+    "y": 276.18,
+    "largura": 243.52,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "O deslocamento básico é ",
+    "x": 75.59,
+    "y": 296.2,
+    "largura": 156.95,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "9 m",
+    "x": 232.54,
+    "y": 296.2,
+    "largura": 23.38,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": "; sua ficha pode aumentar ou reduzir esse valor.",
+    "x": 255.92,
+    "y": 296.2,
+    "largura": 291.46,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Você pode dividir o movimento antes e depois das outras ações. Por exemplo: andar ",
+    "x": 75.59,
+    "y": 324.92,
+    "largura": 518.39,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "3 m",
+    "x": 593.98,
+    "y": 324.92,
+    "largura": 23.38,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": ", atacar e andar",
+    "x": 617.36,
+    "y": 324.92,
+    "largura": 93.76,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "os ",
+    "x": 75.59,
+    "y": 344.94,
+    "largura": 17.11,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "6 m",
+    "x": 92.7,
+    "y": 344.94,
+    "largura": 23.38,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": " restantes. Mudar a ordem não aumenta a distância disponível.",
+    "x": 116.08,
+    "y": 344.94,
+    "largura": 385.14,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "3 m",
+    "x": 86.93,
+    "y": 397.86,
+    "largura": 29.26,
+    "altura": 27.2,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": "Saia de trás da coluna.",
+    "x": 86.93,
+    "y": 432.62,
+    "largura": 130.86,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "Atacar",
+    "x": 306.14,
+    "y": 397.86,
+    "largura": 52.95,
+    "altura": 27.2,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": "Gaste sua Ação Padrão.",
+    "x": 306.14,
+    "y": 432.62,
+    "largura": 137.71,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "6 m",
+    "x": 525.35,
+    "y": 397.86,
+    "largura": 29.33,
+    "altura": 27.2,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": "Use o movimento que sobrou.",
+    "x": 525.35,
+    "y": 432.62,
+    "largura": 175.14,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "Essa sequência respeita as demais regras: sair do alcance corpo a corpo de um inimigo pode provocar um",
+    "x": 75.59,
+    "y": 481.92,
+    "largura": 646.12,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "ataque de oportunidade. Ter movimento sobrando não impede essa resposta.",
+    "x": 75.59,
+    "y": 501.94,
+    "largura": 471.52,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Quando você precisa ir mais longe",
+    "x": 75.59,
+    "y": 535.19,
+    "largura": 274.87,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 1,
+    "texto": "Correr",
+    "x": 75.59,
+    "y": 568.59,
+    "largura": 41.88,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": " usa sua Ação Padrão e acrescenta movimento igual ao seu deslocamento, até o fim do turno.",
+    "x": 117.47,
+    "y": 568.59,
+    "largura": 569.39,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Quem tem deslocamento 9 m pode percorrer ",
+    "x": 75.59,
+    "y": 588.61,
+    "largura": 279.01,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "9 + 9 = 18 m",
+    "x": 354.6,
+    "y": 588.61,
+    "largura": 74.9,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": ", usando Movimento e Correr.",
+    "x": 429.5,
+    "y": 588.61,
+    "largura": 184.1,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Desengajar",
+    "x": 75.59,
+    "y": 617.32,
+    "largura": 71.32,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": " também usa a Ação Padrão. Seu movimento deixa de provocar ataques de oportunidade pelo",
+    "x": 146.91,
+    "y": 617.32,
+    "largura": 570.99,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "restante do turno. Você conserva a distância que ainda podia percorrer; essa ação não concede metros",
+    "x": 75.59,
+    "y": 637.34,
+    "largura": 625.56,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "adicionais.",
+    "x": 75.59,
+    "y": 657.36,
+    "largura": 66.42,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Uma habilidade pode mudar o custo: no nível 2, o Incursor pode Desengajar como Ação Bônus. A",
+    "x": 75.59,
+    "y": 686.07,
+    "largura": 599.64,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "exceção pertence ao Caminho; a regra comum continua sendo a descrita acima.",
+    "x": 75.59,
+    "y": 706.09,
+    "largura": 487.8,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Trocar uma ação por outra",
+    "x": 75.59,
+    "y": 739.34,
+    "largura": 214.7,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 1,
+    "texto": "Você pode converter ",
+    "x": 75.59,
+    "y": 772.74,
+    "largura": 130.13,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Padrão em Bônus",
+    "x": 205.72,
+    "y": 772.74,
+    "largura": 110.99,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": " e ",
+    "x": 316.71,
+    "y": 772.74,
+    "largura": 13.78,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Bônus em Movimento",
+    "x": 330.49,
+    "y": 772.74,
+    "largura": 139.4,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": ". A conversão só segue essa direção.",
+    "x": 469.89,
+    "y": 772.74,
+    "largura": 220.08,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Uma Padrão convertida já foi gasta: ela não continua disponível para atacar ou conjurar.",
+    "x": 75.59,
+    "y": 792.76,
+    "largura": 542.44,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "A Bônus só executa o que estiver autorizado como Bônus",
+    "x": 75.59,
+    "y": 821.47,
+    "largura": 358.79,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": ", inclusive nas ações comuns. Todos podem",
+    "x": 434.38,
+    "y": 821.47,
+    "largura": 266.41,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "usar Provocar ou Ler o Ambiente quando atenderem aos requisitos dessas ações; as habilidades da ficha",
+    "x": 75.59,
+    "y": 841.49,
+    "largura": 639.4,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "acrescentam outras opções.",
+    "x": 75.59,
+    "y": 861.51,
+    "largura": 169.59,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Fora de combate, descreva a tentativa e resolva os testes necessários com o mestre. Saltos, escalada e quedas precisam de",
+    "x": 75.59,
+    "y": 892.87,
+    "largura": 636.93,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "seus próprios procedimentos; esta página ensina o movimento em turnos.",
+    "x": 75.59,
+    "y": 909.07,
+    "largura": 388.42,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 1,
+    "texto": "Movimento e ações",
+    "x": 639.12,
+    "y": 32.56,
+    "largura": 82.76,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 1,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 1,
+    "texto": "1",
+    "x": 717.79,
+    "y": 1065.83,
+    "largura": 4.1,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 2,
+    "texto": "Malabarista em ação",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 295.73,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 2,
+    "texto": "Incursor · Trilha Malabarista · nível 2",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 236.0,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": "O Malabarista alterna golpes de perto e arremessos. Pode investir PE para atacar duas vezes na Ação",
+    "x": 75.59,
+    "y": 176.25,
+    "largura": 619.17,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Atacar e usar Fluidez para mudar o trajeto de uma arma. As duas despesas são registradas separadamen‐",
+    "x": 75.59,
+    "y": 196.27,
+    "largura": 644.03,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "te.",
+    "x": 75.59,
+    "y": 216.29,
+    "largura": 15.09,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Manejo de Combate",
+    "x": 95.82,
+    "y": 272.99,
+    "largura": 183.17,
+    "altura": 32.0,
+    "tag": "h2"
+  },
+  {
+    "pagina": 2,
+    "texto": "Use ",
+    "x": 95.82,
+    "y": 312.09,
+    "largura": 27.37,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Força ou Destreza no acerto e no dano",
+    "x": 123.19,
+    "y": 312.09,
+    "largura": 241.08,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": " de ataques corpo a corpo e de arremesso com armas",
+    "x": 364.27,
+    "y": 312.09,
+    "largura": 322.39,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "de uma mão. Escolha a cada ataque e cumpra os demais requisitos da arma.",
+    "x": 95.82,
+    "y": 332.11,
+    "largura": 463.22,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Durante seu turno, você tem ",
+    "x": 95.82,
+    "y": 362.71,
+    "largura": 178.34,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "duas manipulações gratuitas de itens",
+    "x": 274.17,
+    "y": 362.71,
+    "largura": 233.35,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": ", em vez de uma. A segunda",
+    "x": 507.52,
+    "y": 362.71,
+    "largura": 169.97,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "serve para sacar, guardar ou recolher uma arma solta ao alcance, com uma mão disponível. Não",
+    "x": 95.82,
+    "y": 382.73,
+    "largura": 584.91,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "permite recarregar nem tomar uma arma empunhada. As próximas manipulações seguem seus",
+    "x": 95.82,
+    "y": 402.75,
+    "largura": 580.77,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "custos normais.",
+    "x": 95.82,
+    "y": 422.77,
+    "largura": 96.4,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Ofensiva em Movimento",
+    "x": 95.82,
+    "y": 498.95,
+    "largura": 223.83,
+    "altura": 32.0,
+    "tag": "h2"
+  },
+  {
+    "pagina": 2,
+    "texto": "3 PE · uma vez por turno seu · ao usar a Ação Atacar",
+    "x": 95.82,
+    "y": 538.04,
+    "largura": 327.29,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": "Pague antes do primeiro ataque. Faça ",
+    "x": 95.82,
+    "y": 568.64,
+    "largura": 234.22,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "dois ataques com armas de uma mão",
+    "x": 330.04,
+    "y": 568.64,
+    "largura": 230.05,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": " no lugar do ataque",
+    "x": 560.08,
+    "y": 568.64,
+    "largura": 118.06,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "único normalmente disponível. Outra regra de ataques adicionais não se soma a esta: use a maior",
+    "x": 95.82,
+    "y": 588.66,
+    "largura": 597.67,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "quantidade.",
+    "x": 95.82,
+    "y": 608.68,
+    "largura": 72.63,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Você pode combinar golpes corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e",
+    "x": 95.82,
+    "y": 639.28,
+    "largura": 602.32,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "escolher um ou mais alvos. Resolva cada ataque separadamente, mesmo que o anterior erre. Sua",
+    "x": 95.82,
+    "y": 659.3,
+    "largura": 587.95,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Ação Bônus permanece disponível. Canalizar em Golpe e Estímulo conservam suas próprias re‐",
+    "x": 95.82,
+    "y": 679.32,
+    "largura": 588.12,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "gras.",
+    "x": 95.82,
+    "y": 699.34,
+    "largura": 29.46,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "A Fluidez que você tem para gastar",
+    "x": 75.59,
+    "y": 757.74,
+    "largura": 281.6,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 2,
+    "texto": "No nível 2, o Incursor ganha Fluidez ao acertar uma criatura hostil com arma ou ataque desarmado",
+    "x": 75.59,
+    "y": 792.27,
+    "largura": 608.72,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "durante seu turno, ou quando uma criatura hostil erra um ataque contra ele. Pode obtê-la ",
+    "x": 75.59,
+    "y": 812.29,
+    "largura": 552.0,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "uma vez entre",
+    "x": 627.59,
+    "y": 812.29,
+    "largura": 88.24,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": "o começo de um turno seu e o começo do próximo",
+    "x": 75.59,
+    "y": 832.31,
+    "largura": 313.49,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": ". Guarda apenas uma por vez.",
+    "x": 389.08,
+    "y": 832.31,
+    "largura": 180.82,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Se já tiver Fluidez, outro gatilho não acumula nem reserva uma segunda; também não consome sua ob‐",
+    "x": 75.59,
+    "y": 862.91,
+    "largura": 633.16,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "tenção disponível. Depois de gastar Fluidez, você precisa de um novo gatilho para recuperá-la, respei‐",
+    "x": 75.59,
+    "y": 882.93,
+    "largura": 626.68,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "tando o limite. Sofrer dano não a remove. Ela termina ao ser gasta, quando você fica Incapacitado ou",
+    "x": 75.59,
+    "y": 902.95,
+    "largura": 618.09,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "quando o combate acaba.",
+    "x": 75.59,
+    "y": 922.97,
+    "largura": 155.34,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Esta amostra apresenta o nível 2 da Trilha e o controle de recursos usado nos exemplos. Os outros usos de Fluidez e a",
+    "x": 75.59,
+    "y": 954.33,
+    "largura": 618.46,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 2,
+    "texto": "progressão do Incursor continuam no Caminho completo.",
+    "x": 75.59,
+    "y": 970.53,
+    "largura": 306.1,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 2,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 2,
+    "texto": "Malabarista em ação",
+    "x": 631.88,
+    "y": 32.56,
+    "largura": 90.01,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 2,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 2,
+    "texto": "2",
+    "x": 715.46,
+    "y": 1065.83,
+    "largura": 6.43,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 3,
+    "texto": "Ricochete",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 142.08,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 3,
+    "texto": "Fluidez · durante seu turno · antes da rolagem de arremesso",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 374.68,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": "Ao arremessar uma arma de uma mão, gaste Fluidez para atingir uma superfície sólida antes do alvo. Es‐",
+    "x": 75.59,
+    "y": 176.25,
+    "largura": 643.32,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "colha ",
+    "x": 75.59,
+    "y": 196.27,
+    "largura": 36.81,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "um alvo que você percebe",
+    "x": 112.4,
+    "y": 196.27,
+    "largura": 160.61,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " e o ponto de ricochete. Os dois trechos precisam permitir a passagem",
+    "x": 273.01,
+    "y": 196.27,
+    "largura": 431.86,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "da arma.",
+    "x": 75.59,
+    "y": 216.29,
+    "largura": 52.89,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "O ponto deve estar dentro do alcance original da arma. Depois dele, você recebe ",
+    "x": 75.59,
+    "y": 246.89,
+    "largura": 495.94,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "6 m adicionais de al‐",
+    "x": 571.53,
+    "y": 246.89,
+    "largura": 130.0,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": "cance",
+    "x": 75.59,
+    "y": 266.91,
+    "largura": 35.81,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": ", somados à distância que ainda restava. Isso aumenta em 6 m tanto a faixa normal quanto a longa,",
+    "x": 111.4,
+    "y": 266.91,
+    "largura": 603.97,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "uma única vez nesse ataque.",
+    "x": 75.59,
+    "y": 286.93,
+    "largura": 172.88,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Confira os trechos",
+    "x": 86.93,
+    "y": 545.06,
+    "largura": 95.39,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 3,
+    "texto": "Consequência por distância",
+    "x": 287.28,
+    "y": 545.06,
+    "largura": 144.04,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 3,
+    "texto": "Da mão até a superfície",
+    "x": 86.93,
+    "y": 576.29,
+    "largura": 133.87,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 3,
+    "texto": "Até a faixa longa original. Se passar da faixa normal original, o ataque já",
+    "x": 287.28,
+    "y": 576.29,
+    "largura": 410.4,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 3,
+    "texto": "tem desvantagem.",
+    "x": 287.28,
+    "y": 593.75,
+    "largura": 102.71,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 3,
+    "texto": "Percurso completo, somando",
+    "x": 86.93,
+    "y": 625.48,
+    "largura": 165.06,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 3,
+    "texto": "os dois trechos",
+    "x": 86.93,
+    "y": 642.94,
+    "largura": 85.28,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 3,
+    "texto": "Até a faixa longa + 6 m. Se passar da faixa normal + 6 m, o ataque tem des‐",
+    "x": 287.28,
+    "y": 625.48,
+    "largura": 420.58,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 3,
+    "texto": "vantagem.",
+    "x": 287.28,
+    "y": 642.94,
+    "largura": 58.44,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 3,
+    "texto": "No exemplo, o chakram tem faixas ",
+    "x": 75.59,
+    "y": 682.99,
+    "largura": 216.12,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "6/18 m",
+    "x": 291.71,
+    "y": 682.99,
+    "largura": 41.89,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": ". A parede está a ",
+    "x": 333.6,
+    "y": 682.99,
+    "largura": 104.62,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "3 m",
+    "x": 438.22,
+    "y": 682.99,
+    "largura": 23.38,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " e o alvo a mais ",
+    "x": 461.6,
+    "y": 682.99,
+    "largura": 96.6,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "9 m",
+    "x": 558.2,
+    "y": 682.99,
+    "largura": 23.38,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " dela: ",
+    "x": 581.58,
+    "y": 682.99,
+    "largura": 36.06,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "3 + 9 = 12 m",
+    "x": 617.64,
+    "y": 682.99,
+    "largura": 74.9,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": ". O",
+    "x": 692.54,
+    "y": 682.99,
+    "largura": 18.3,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "ataque cabe na faixa normal ampliada de 12 m, sem desvantagem por distância. Outras causas de",
+    "x": 75.59,
+    "y": 703.01,
+    "largura": 595.29,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "desvantagem ainda podem se aplicar.",
+    "x": 75.59,
+    "y": 723.03,
+    "largura": 228.76,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Se a parede estivesse a 9 m da mão, o primeiro trecho já ultrapassaria os 6 m normais. O ataque teria",
+    "x": 75.59,
+    "y": 753.64,
+    "largura": 617.98,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "desvantagem, mesmo que o alvo estivesse logo depois da parede.",
+    "x": 75.59,
+    "y": 773.66,
+    "largura": 396.47,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "O que a mudança de ângulo permite",
+    "x": 75.59,
+    "y": 812.57,
+    "largura": 287.36,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 3,
+    "texto": "Confira a cobertura pela direção que vem da superfície. Você pode contornar uma cobertura quando",
+    "x": 75.59,
+    "y": 847.11,
+    "largura": 616.47,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "houver esse trajeto, inclusive com a linha direta bloqueada. A habilidade não revela alguém que você não",
+    "x": 75.59,
+    "y": 867.13,
+    "largura": 644.71,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "percebe e não atravessa um percurso obstruído.",
+    "x": 75.59,
+    "y": 887.15,
+    "largura": 292.39,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Resolva um único ataque contra a criatura.",
+    "x": 75.59,
+    "y": 917.75,
+    "largura": 269.62,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " A superfície não recebe outro ataque. Ricochete modifica",
+    "x": 345.22,
+    "y": 917.75,
+    "largura": 356.91,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "um ataque que você já podia fazer e não devolve a arma à mão. Acerto, dano, crítico e demais condições",
+    "x": 75.59,
+    "y": 937.77,
+    "largura": 636.06,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "do ataque seguem suas regras normais. Um acerto pode gerar Fluidez se ainda houver uma obtenção dis‐",
+    "x": 75.59,
+    "y": 957.79,
+    "largura": 644.82,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "ponível.",
+    "x": 75.59,
+    "y": 977.81,
+    "largura": 49.14,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 3,
+    "texto": "Ricochete",
+    "x": 678.74,
+    "y": 32.56,
+    "largura": 43.15,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 3,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 3,
+    "texto": "3",
+    "x": 715.36,
+    "y": 1065.83,
+    "largura": 6.53,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 4,
+    "texto": "Continuar ou corrigir",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 297.59,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 4,
+    "texto": "Lançamento Cruzado",
+    "x": 95.82,
+    "y": 163.43,
+    "largura": 199.11,
+    "altura": 32.0,
+    "tag": "h2"
+  },
+  {
+    "pagina": 4,
+    "texto": "Fluidez + 3 PE · uma vez por turno seu",
+    "x": 95.82,
+    "y": 202.52,
+    "largura": 241.91,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "No seu turno, depois de resolver um arremesso com arma de uma mão que acertou uma criatura",
+    "x": 95.82,
+    "y": 233.13,
+    "largura": 589.52,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "hostil, faça a mesma arma seguir para ",
+    "x": 95.82,
+    "y": 253.15,
+    "largura": 235.66,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "outra criatura hostil percebida a até 6 m da primeira",
+    "x": 331.48,
+    "y": 253.15,
+    "largura": 330.38,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": ". Pa‐",
+    "x": 661.86,
+    "y": 253.15,
+    "largura": 27.75,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "gue os custos antes da nova rolagem.",
+    "x": 95.82,
+    "y": 273.17,
+    "largura": 226.46,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "É ",
+    "x": 95.82,
+    "y": 303.77,
+    "largura": 12.63,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "um ataque adicional imediato",
+    "x": 108.45,
+    "y": 303.77,
+    "largura": 187.91,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": ", sem gastar outra ação ou um ataque disponível. Use dano, críti‐",
+    "x": 296.36,
+    "y": 303.77,
+    "largura": 398.13,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "co e demais requisitos normais da arma, inclusive Canalizar em Golpe ou Estímulo quando aplicá‐",
+    "x": 95.82,
+    "y": 323.79,
+    "largura": 605.32,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "veis. Confira distância e cobertura desde a primeira criatura. O trajeto precisa estar livre, e os 6 m",
+    "x": 95.82,
+    "y": 343.81,
+    "largura": 602.33,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "não recebem outro acréscimo de Ricochete. As condições da sua posição continuam valendo,",
+    "x": 95.82,
+    "y": 363.83,
+    "largura": 571.21,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "inclusive arremessar colado a um inimigo.",
+    "x": 95.82,
+    "y": 383.85,
+    "largura": 259.51,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "A arma faz a continuação sem ser recuperada, mas não volta à sua mão. Você pode usar a Fluidez",
+    "x": 95.82,
+    "y": 414.45,
+    "largura": 596.21,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "obtida no primeiro acerto, se pôde ganhá-la. Esse acerto não a gera de novo depois do gasto. O",
+    "x": 95.82,
+    "y": 434.47,
+    "largura": 580.84,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "novo ataque segue os próprios gatilhos e o limite do Caminho.",
+    "x": 95.82,
+    "y": 454.49,
+    "largura": 383.76,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "Mudar o Destino",
+    "x": 95.82,
+    "y": 530.67,
+    "largura": 150.8,
+    "altura": 32.0,
+    "tag": "h2"
+  },
+  {
+    "pagina": 4,
+    "texto": "Fluidez · uma vez por turno seu",
+    "x": 95.82,
+    "y": 569.76,
+    "largura": 197.72,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "No seu turno, depois de errar um arremesso de arma de uma mão contra uma criatura hostil, gaste",
+    "x": 95.82,
+    "y": 600.37,
+    "largura": 604.55,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "Fluidez para tentar atingir ",
+    "x": 95.82,
+    "y": 620.39,
+    "largura": 166.5,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "outra criatura hostil percebida a até 6 m do alvo original",
+    "x": 262.32,
+    "y": 620.39,
+    "largura": 354.87,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": ". Faça uma",
+    "x": 617.19,
+    "y": 620.39,
+    "largura": 65.88,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "nova rolagem. O erro não fornece a Fluidez necessária.",
+    "x": 95.82,
+    "y": 640.41,
+    "largura": 337.0,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "O novo alvo também precisa estar ao alcance da arma, medido da origem desse ataque, com",
+    "x": 95.82,
+    "y": 671.01,
+    "largura": 562.68,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "trajeto válido.",
+    "x": 95.82,
+    "y": 691.03,
+    "largura": 85.57,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "Se usou Ricochete:",
+    "x": 95.82,
+    "y": 721.63,
+    "largura": 118.26,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": " conserve a superfície e o acréscimo e confira o novo percurso. ",
+    "x": 214.08,
+    "y": 721.63,
+    "largura": 387.32,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "Se corrige Lan‐",
+    "x": 601.4,
+    "y": 721.63,
+    "largura": 96.36,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "çamento Cruzado:",
+    "x": 95.82,
+    "y": 741.65,
+    "largura": 114.87,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": " meça desde a primeira vítima e mantenha o limite de 6 m; a nova vítima deve",
+    "x": 210.69,
+    "y": 741.65,
+    "largura": 476.64,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "ser diferente dela.",
+    "x": 95.82,
+    "y": 761.67,
+    "largura": 110.43,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "A correção integra o mesmo ataque, não gasta outro ataque disponível e não tenta novamente",
+    "x": 95.82,
+    "y": 792.27,
+    "largura": 575.76,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "contra o alvo original. Se errar de novo, não há outra correção. O erro inicial permanece; use a",
+    "x": 95.82,
+    "y": 812.29,
+    "largura": 578.4,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "nova rolagem para acerto e crítico, com dano normal. Reavalie vantagem, desvantagem e cobertu‐",
+    "x": 95.82,
+    "y": 832.31,
+    "largura": 600.27,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "ra. Efeitos declarados antes do dado ainda exigem seus requisitos; efeitos ligados ao resultado do",
+    "x": 95.82,
+    "y": 852.33,
+    "largura": 595.97,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "primeiro d20 não passam para o segundo.",
+    "x": 95.82,
+    "y": 872.35,
+    "largura": 255.37,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "Um acerto da correção pode gerar Fluidez dentro do limite. Se corrigiu um ataque comum, ainda pode",
+    "x": 75.59,
+    "y": 930.75,
+    "largura": 629.46,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "usar Lançamento Cruzado disponível, pagando seus custos. Corrigir o próprio Cruzado não devolve seu",
+    "x": 75.59,
+    "y": 950.77,
+    "largura": 637.48,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "uso. Nos níveis seguintes, Cruzado, Trajetória de Retorno e Finta de Retorno compartilham a mesma",
+    "x": 75.59,
+    "y": 970.79,
+    "largura": 620.99,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "utilização por turno.",
+    "x": 75.59,
+    "y": 990.81,
+    "largura": 125.96,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 4,
+    "texto": "Continuar ou corrigir",
+    "x": 629.7,
+    "y": 32.56,
+    "largura": 92.18,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 4,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 4,
+    "texto": "4",
+    "x": 715.25,
+    "y": 1065.83,
+    "largura": 6.64,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 5,
+    "texto": "Três ataques, duas armas",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 369.47,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 5,
+    "texto": "Situação preparada.",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 125.26,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": " Haru é Incursora Malabarista de nível 2. Começa o turno com ",
+    "x": 200.85,
+    "y": 145.65,
+    "largura": 386.95,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "12 PE, sem Fluidez e",
+    "x": 587.8,
+    "y": 145.65,
+    "largura": 130.94,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "com a obtenção do ciclo disponível",
+    "x": 75.59,
+    "y": 165.67,
+    "largura": 219.86,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". Tem um chakram de uma mão em cada mão. As faixas de arremesso",
+    "x": 295.45,
+    "y": 165.67,
+    "largura": 424.75,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "usadas aqui são 6/18 m. Ela percebe dois inimigos: A está a 6 m dela; B está a 4,5 m de A. Os trajetos",
+    "x": 75.59,
+    "y": 185.69,
+    "largura": 614.92,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "estão livres, e nenhum inimigo está em alcance corpo a corpo de Haru.",
+    "x": 75.59,
+    "y": 205.71,
+    "largura": 433.86,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "Esta sequência acompanha ataques, armas e recursos. Considere os três ataques acertados, já resolvidos",
+    "x": 75.59,
+    "y": 236.31,
+    "largura": 638.55,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "contra as defesas dos alvos. O dano e suas parcelas não são detalhados neste recorte; cada ataque",
+    "x": 75.59,
+    "y": 256.33,
+    "largura": 595.23,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "conserva suas regras normais.",
+    "x": 75.59,
+    "y": 276.35,
+    "largura": 183.96,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "Etapa",
+    "x": 86.93,
+    "y": 315.27,
+    "largura": 29.71,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 5,
+    "texto": "O que acontece",
+    "x": 287.28,
+    "y": 315.27,
+    "largura": 80.01,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 5,
+    "texto": "Saldo de recursos",
+    "x": 561.03,
+    "y": 315.27,
+    "largura": 92.88,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 5,
+    "texto": "1. Pagar a Ofensiva",
+    "x": 86.93,
+    "y": 346.5,
+    "largura": 111.89,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "Haru usa a Ação Atacar e paga 3 PE antes",
+    "x": 287.28,
+    "y": 346.5,
+    "largura": 237.19,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "do primeiro ataque. Terá dois ataques nessa",
+    "x": 287.28,
+    "y": 363.96,
+    "largura": 249.2,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "ação.",
+    "x": 287.28,
+    "y": 381.42,
+    "largura": 28.93,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "12 − 3 = 9 PE",
+    "x": 561.03,
+    "y": 346.5,
+    "largura": 75.01,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "; dois ata‐",
+    "x": 636.04,
+    "y": 346.5,
+    "largura": 55.62,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "ques disponíveis.",
+    "x": 561.03,
+    "y": 363.96,
+    "largura": 97.51,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "2. Primeiro arremesso",
+    "x": 86.93,
+    "y": 413.15,
+    "largura": 128.69,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "A arma da mão direita acerta A. Haru ga‐",
+    "x": 287.28,
+    "y": 413.15,
+    "largura": 234.99,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "nha Fluidez; consumiu a única obtenção",
+    "x": 287.28,
+    "y": 430.61,
+    "largura": 228.76,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "permitida neste ciclo.",
+    "x": 287.28,
+    "y": 448.07,
+    "largura": 122.95,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "Um ataque da ação ainda",
+    "x": 561.03,
+    "y": 413.15,
+    "largura": 143.05,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "disponível; mão direita",
+    "x": 561.03,
+    "y": 430.61,
+    "largura": 130.71,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "vazia.",
+    "x": 561.03,
+    "y": 448.07,
+    "largura": 32.24,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "3. Continuar para B",
+    "x": 86.93,
+    "y": 479.8,
+    "largura": 115.14,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "Haru gasta a Fluidez e 3 PE no Lançamento",
+    "x": 287.28,
+    "y": 479.8,
+    "largura": 248.44,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "Cruzado. A mesma arma ataca B, a 4,5 m de",
+    "x": 287.28,
+    "y": 497.26,
+    "largura": 248.1,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "A.",
+    "x": 287.28,
+    "y": 514.72,
+    "largura": 12.93,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "9 − 3 = 6 PE",
+    "x": 561.03,
+    "y": 479.8,
+    "largura": 68.08,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "; continuação",
+    "x": 629.1,
+    "y": 479.8,
+    "largura": 76.4,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "usada; sem Fluidez.",
+    "x": 561.03,
+    "y": 497.26,
+    "largura": 111.13,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "4. Segundo arremesso",
+    "x": 86.93,
+    "y": 546.46,
+    "largura": 126.74,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "Haru arremessa a arma da mão esquerda",
+    "x": 287.28,
+    "y": 546.46,
+    "largura": 230.54,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "contra A, ainda a 6 m. Usa o segundo",
+    "x": 287.28,
+    "y": 563.92,
+    "largura": 211.4,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "ataque da Ação Atacar.",
+    "x": 287.28,
+    "y": 581.38,
+    "largura": 130.61,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "Nenhum ataque da ação",
+    "x": 561.03,
+    "y": 546.46,
+    "largura": 137.06,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "sobrando; ambas as mãos",
+    "x": 561.03,
+    "y": 563.92,
+    "largura": 144.28,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "vazias.",
+    "x": 561.03,
+    "y": 581.38,
+    "largura": 37.7,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 5,
+    "texto": "Saldo da sequência",
+    "x": 92.6,
+    "y": 634.65,
+    "largura": 114.17,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "Três ataques: dois em A e um em B. Foram gastos ",
+    "x": 92.6,
+    "y": 653.72,
+    "largura": 294.15,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 5,
+    "texto": "6 PE e uma Fluidez",
+    "x": 386.75,
+    "y": 653.72,
+    "largura": 116.12,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". Ação Padrão usada; Movimento,",
+    "x": 502.86,
+    "y": 653.72,
+    "largura": 196.29,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 5,
+    "texto": "Bônus e Reação continuam disponíveis. A Fluidez obtida neste ciclo já foi gasta.",
+    "x": 92.6,
+    "y": 672.78,
+    "largura": 469.91,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 5,
+    "texto": "Os acertos do Cruzado e do segundo arremesso não dão outra Fluidez no nível 2: a obtenção deste ciclo",
+    "x": 75.59,
+    "y": 720.2,
+    "largura": 634.77,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "já foi usada. Nenhuma arma voltou automaticamente. Haru precisará recuperá-las ou sacar outra para",
+    "x": 75.59,
+    "y": 740.22,
+    "largura": 626.74,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "atacar de novo, respeitando alcance, mãos e manipulações disponíveis.",
+    "x": 75.59,
+    "y": 760.24,
+    "largura": 434.12,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "E se ela começasse usando Ricochete?",
+    "x": 75.59,
+    "y": 799.16,
+    "largura": 313.68,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 5,
+    "texto": "Ela precisaria ter Fluidez antes do primeiro arremesso. Como começou sem esse recurso, não pode",
+    "x": 75.59,
+    "y": 833.69,
+    "largura": 607.26,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "declarar Ricochete e esperar que o acerto pague o custo depois. Primeiro se confere o requisito; depois",
+    "x": 75.59,
+    "y": 853.71,
+    "largura": 631.12,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "se rola.",
+    "x": 75.59,
+    "y": 873.73,
+    "largura": 43.9,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "O desenho tático usa duas armas justamente para mostrar a diferença entre continuar um arremesso e recuperar uma",
+    "x": 75.59,
+    "y": 905.09,
+    "largura": 619.02,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 5,
+    "texto": "arma. Este recorte não aumenta o limite de ataques da Trilha.",
+    "x": 75.59,
+    "y": 921.29,
+    "largura": 324.33,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 5,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 5,
+    "texto": "Três ataques, duas armas",
+    "x": 609.45,
+    "y": 32.56,
+    "largura": 112.44,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 5,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 5,
+    "texto": "5",
+    "x": 715.35,
+    "y": 1065.83,
+    "largura": 6.54,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 6,
+    "texto": "De onde vêm os 3d8?",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 301.12,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 6,
+    "texto": "Peso nas Mãos",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 90.04,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " é o feitiço usado por Kaori no primeiro combate. Ela quer tocar um inimigo, causar dano de",
+    "x": 165.63,
+    "y": 145.65,
+    "largura": 550.62,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Concussão e derrubá-lo. Sua Regra é: “Tudo que eu prendo entre as minhas mãos fica mais pesado.” Con‐",
+    "x": 75.59,
+    "y": 164.14,
+    "largura": 628.65,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "trole é uma de suas Famílias Livres: esse grupo de efeitos recebe desconto nas Melhorias, respeitando o",
+    "x": 75.59,
+    "y": 182.64,
+    "largura": 618.08,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "custo mínimo de 1 ponto.",
+    "x": 75.59,
+    "y": 201.14,
+    "largura": 152.11,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Classe",
+    "x": 75.59,
+    "y": 228.32,
+    "largura": 39.24,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " define o orçamento e os limites do feitiço. ",
+    "x": 114.83,
+    "y": 228.32,
+    "largura": 257.63,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Forma",
+    "x": 372.45,
+    "y": 228.32,
+    "largura": 40.02,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " define como ele alcança o alvo. ",
+    "x": 412.48,
+    "y": 228.32,
+    "largura": 191.33,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Melhorias",
+    "x": 603.81,
+    "y": 228.32,
+    "largura": 62.67,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " com‐",
+    "x": 666.48,
+    "y": 228.32,
+    "largura": 34.05,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "pram efeitos; ",
+    "x": 75.59,
+    "y": 246.82,
+    "largura": 81.9,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Restrições",
+    "x": 157.49,
+    "y": 246.82,
+    "largura": 63.79,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " devolvem pontos para pagar Melhorias. O ",
+    "x": 221.28,
+    "y": 246.82,
+    "largura": 257.34,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Selo",
+    "x": 478.62,
+    "y": 246.82,
+    "largura": 26.1,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " é a exigência simples para conju‐",
+    "x": 504.72,
+    "y": 246.82,
+    "largura": 201.6,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "rar: Kaori encosta as palmas uma na outra. ",
+    "x": 75.59,
+    "y": 265.32,
+    "largura": 257.84,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Leve, Média e Pesada",
+    "x": 333.43,
+    "y": 265.32,
+    "largura": 131.16,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " são categorias de preço da tabela Núme‐",
+    "x": 464.59,
+    "y": 265.32,
+    "largura": 245.21,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "ros da montagem, no Fundamento; a conta abaixo usa os valores da Classe 1.",
+    "x": 75.59,
+    "y": 283.81,
+    "largura": 457.13,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Escolha",
+    "x": 86.93,
+    "y": 321.21,
+    "largura": 40.41,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 6,
+    "texto": "Conta na montagem",
+    "x": 254.97,
+    "y": 321.21,
+    "largura": 103.9,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 6,
+    "texto": "Classe 1",
+    "x": 86.93,
+    "y": 352.43,
+    "largura": 47.48,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "3 pontos",
+    "x": 254.97,
+    "y": 352.43,
+    "largura": 50.06,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " de orçamento. Conjurar custa ",
+    "x": 305.03,
+    "y": 352.43,
+    "largura": 175.55,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "3 PE",
+    "x": 480.58,
+    "y": 352.43,
+    "largura": 27.42,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ". Kaori tem acesso a essa Classe no",
+    "x": 507.99,
+    "y": 352.43,
+    "largura": 197.45,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "nível 2.",
+    "x": 254.97,
+    "y": 369.89,
+    "largura": 40.71,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "Forma Toque",
+    "x": 86.93,
+    "y": 401.63,
+    "largura": 77.89,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Um alvo a 1,5 m, com rolagem de acerto. A Forma não cobra pontos e traz",
+    "x": 254.97,
+    "y": 401.63,
+    "largura": 419.96,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "Corpo a Corpo, uma Restrição de devolução Média.",
+    "x": 254.97,
+    "y": 419.09,
+    "largura": 292.36,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "Condição: Derrubado",
+    "x": 86.93,
+    "y": 450.82,
+    "largura": 125.24,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Melhoria Leve de Controle: custa ",
+    "x": 254.97,
+    "y": 450.82,
+    "largura": 192.86,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "1 ponto",
+    "x": 447.83,
+    "y": 450.82,
+    "largura": 44.44,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ". Mesmo na Família Livre, o mínimo",
+    "x": 492.27,
+    "y": 450.82,
+    "largura": 206.82,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "mantém esse custo em 1. Dura ",
+    "x": 254.97,
+    "y": 468.28,
+    "largura": 176.25,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "1 rodada",
+    "x": 431.21,
+    "y": 468.28,
+    "largura": 50.53,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ".",
+    "x": 481.74,
+    "y": 468.28,
+    "largura": 3.23,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "Devolução de Corpo a",
+    "x": 86.93,
+    "y": 500.01,
+    "largura": 127.5,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Corpo",
+    "x": 86.93,
+    "y": 517.47,
+    "largura": 36.31,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Na Classe 1, Média devolve ",
+    "x": 254.97,
+    "y": 500.01,
+    "largura": 158.43,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "1 ponto",
+    "x": 413.39,
+    "y": 500.01,
+    "largura": 44.44,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ". Ele paga o ponto gasto na Melhoria.",
+    "x": 457.83,
+    "y": 500.01,
+    "largura": 211.5,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "Saldo para dano",
+    "x": 86.93,
+    "y": 549.21,
+    "largura": 93.54,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "3 − 1 + 1 = 3 pontos",
+    "x": 254.97,
+    "y": 549.21,
+    "largura": 111.05,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ". Cada ponto restante vira 1d8: ",
+    "x": 366.02,
+    "y": 549.21,
+    "largura": 176.72,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "3d8",
+    "x": 542.74,
+    "y": 549.21,
+    "largura": 21.27,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ".",
+    "x": 564.02,
+    "y": 549.21,
+    "largura": 3.23,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "A montagem usa uma Melhoria e a Restrição embutida da Forma, dentro dos limites de duas de cada na",
+    "x": 75.59,
+    "y": 589.25,
+    "largura": 619.6,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Classe 1. A devolução aproveitada é 1, abaixo do limite de 2 dessa Classe. A Forma não ocupa uma vaga de",
+    "x": 75.59,
+    "y": 607.75,
+    "largura": 633.42,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Melhoria.",
+    "x": 75.59,
+    "y": 626.25,
+    "largura": 58.59,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Registre o que acontece ao usar",
+    "x": 75.59,
+    "y": 656.08,
+    "largura": 258.82,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 6,
+    "texto": "Ação Padrão · 3 PE · alvo a até 1,5 m.",
+    "x": 75.59,
+    "y": 689.48,
+    "largura": 224.65,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " Kaori junta as palmas e toca o alvo com as duas mãos. Faz ",
+    "x": 300.24,
+    "y": 689.48,
+    "largura": 352.58,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "d20 + 4",
+    "x": 652.81,
+    "y": 689.48,
+    "largura": 43.75,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "contra a Defesa",
+    "x": 75.59,
+    "y": 707.98,
+    "largura": 95.22,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ": Força 3, escolhida para a técnica, mais maestria 1. No acerto, causa ",
+    "x": 170.81,
+    "y": 707.98,
+    "largura": 410.72,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "3d8 de Concussão",
+    "x": 581.53,
+    "y": 707.98,
+    "largura": 109.35,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " e",
+    "x": 690.89,
+    "y": 707.98,
+    "largura": 9.98,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "deixa o alvo ",
+    "x": 75.59,
+    "y": 726.47,
+    "largura": 73.83,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Derrubado por 1 rodada",
+    "x": 149.42,
+    "y": 726.47,
+    "largura": 147.43,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ". Paga o PE mesmo se errar.",
+    "x": 296.85,
+    "y": 726.47,
+    "largura": 165.54,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "A descrição informa como o feitiço aparece em cena. Os valores acima determinam seu efeito; tocar com as",
+    "x": 75.59,
+    "y": 753.66,
+    "largura": 640.96,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "duas mãos não acrescenta dano de soco, Força ao dano ou Canalizar em Golpe.",
+    "x": 75.59,
+    "y": 772.16,
+    "largura": 470.72,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "A Restrição não aumenta o dano acima do orçamento",
+    "x": 93.38,
+    "y": 813.33,
+    "largura": 326.75,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Sem a Melhoria Derrubado, não haveria esse ponto a pagar. O 1 devolvido por Corpo a Corpo seria",
+    "x": 93.38,
+    "y": 840.52,
+    "largura": 589.27,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "perdido e o feitiço ainda causaria ",
+    "x": 93.38,
+    "y": 859.02,
+    "largura": 202.01,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "3d8",
+    "x": 295.39,
+    "y": 859.02,
+    "largura": 22.37,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ", não 4d8. A devolução só cobre pontos gastos em Melhorias.",
+    "x": 317.76,
+    "y": 859.02,
+    "largura": 362.22,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Montagem de um feitiço, não da técnica inteira. Regra, Famílias, Selo, Passivas e espaço de feitiço conhecido pertencem à",
+    "x": 75.59,
+    "y": 908.88,
+    "largura": 642.84,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 6,
+    "texto": "ficha completa do Fundamento.",
+    "x": 75.59,
+    "y": 925.08,
+    "largura": 167.66,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 6,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 6,
+    "texto": "De onde vêm os 3d8?",
+    "x": 630.1,
+    "y": 32.56,
+    "largura": 91.79,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 6,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 6,
+    "texto": "6",
+    "x": 715.33,
+    "y": 1065.83,
+    "largura": 6.56,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 7,
+    "texto": "Você e sua entidade",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 286.44,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 7,
+    "texto": "Uma ",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 32.41,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "entidade",
+    "x": 108.0,
+    "y": 145.65,
+    "largura": 53.49,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": " é uma criatura vinculada ao personagem pelas regras de Invocações. Nesta amostra, Kaito",
+    "x": 161.49,
+    "y": 145.65,
+    "largura": 540.27,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "tem um shikigami em forma de cão. A criatura já foi adquirida e montada; vamos acompanhar seu uso em",
+    "x": 75.59,
+    "y": 164.42,
+    "largura": 631.75,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "campo.",
+    "x": 75.59,
+    "y": 183.18,
+    "largura": 43.25,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Vocês agem na mesma iniciativa. Um ",
+    "x": 75.59,
+    "y": 210.64,
+    "largura": 227.1,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "ciclo",
+    "x": 302.69,
+    "y": 210.64,
+    "largura": 29.13,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": " vai do começo de um turno de Kaito ao começo do próximo. A",
+    "x": 331.82,
+    "y": 210.64,
+    "largura": 374.69,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "virada da rodada global não renova recursos. ",
+    "x": 75.59,
+    "y": 229.41,
+    "largura": 269.56,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "No seu turno, no máximo duas entidades suas atuam causan‐",
+    "x": 345.15,
+    "y": 229.41,
+    "largura": 372.68,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "do dano, fora as especiais comandadas.",
+    "x": 75.59,
+    "y": 248.18,
+    "largura": 238.51,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "Começo",
+    "x": 86.93,
+    "y": 299.85,
+    "largura": 64.08,
+    "altura": 27.2,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "Renove Movimento e básica de",
+    "x": 86.93,
+    "y": 334.61,
+    "largura": 181.82,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 7,
+    "texto": "cada entidade em campo, além",
+    "x": 86.93,
+    "y": 353.01,
+    "largura": 179.81,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 7,
+    "texto": "da Reação coletiva.",
+    "x": 86.93,
+    "y": 371.41,
+    "largura": 111.7,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 7,
+    "texto": "Durante",
+    "x": 306.14,
+    "y": 299.85,
+    "largura": 63.46,
+    "altura": 27.2,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "Organize as ações e resolva",
+    "x": 306.14,
+    "y": 334.61,
+    "largura": 160.33,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 7,
+    "texto": "uma de cada vez. Usar uma es‐",
+    "x": 306.14,
+    "y": 353.01,
+    "largura": 179.5,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 7,
+    "texto": "pecial ocupa a básica.",
+    "x": 306.14,
+    "y": 371.41,
+    "largura": 127.03,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 7,
+    "texto": "Próximo começo",
+    "x": 525.35,
+    "y": 299.85,
+    "largura": 133.91,
+    "altura": 27.2,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "Renove novamente os recursos",
+    "x": 525.35,
+    "y": 334.61,
+    "largura": 180.39,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 7,
+    "texto": "das entidades que estiverem",
+    "x": 525.35,
+    "y": 353.01,
+    "largura": 164.88,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 7,
+    "texto": "em campo.",
+    "x": 525.35,
+    "y": 371.41,
+    "largura": 63.65,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 7,
+    "texto": "Recurso",
+    "x": 86.93,
+    "y": 427.6,
+    "largura": 42.39,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 7,
+    "texto": "Quem o usa e para quê",
+    "x": 287.28,
+    "y": 427.6,
+    "largura": 117.85,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 7,
+    "texto": "Atuação básica",
+    "x": 86.93,
+    "y": 457.7,
+    "largura": 87.93,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "Cada entidade em campo renova uma no começo do turno do invocador.",
+    "x": 287.28,
+    "y": 457.7,
+    "largura": 410.07,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "Permite a ação compatível com sua ficha e intenção. Conhecer duas",
+    "x": 287.28,
+    "y": 475.16,
+    "largura": 385.12,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "básicas oferece escolhas, não duas atuações.",
+    "x": 287.28,
+    "y": 492.62,
+    "largura": 250.2,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "Movimento",
+    "x": 86.93,
+    "y": 522.08,
+    "largura": 67.53,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "Cada corpo usa a distância da própria ficha. Não recebe os metros de Kai‐",
+    "x": 287.28,
+    "y": 522.08,
+    "largura": 419.78,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "to.",
+    "x": 287.28,
+    "y": 539.54,
+    "largura": 14.67,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "Reação coletiva",
+    "x": 86.93,
+    "y": 569.01,
+    "largura": 90.32,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "Todas as entidades de Kaito dividem uma reserva. Uma resposta que a",
+    "x": 287.28,
+    "y": 569.01,
+    "largura": 398.53,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "gaste deixa as demais sem ela até renovar.",
+    "x": 287.28,
+    "y": 586.47,
+    "largura": 237.55,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "Padrão e Bônus",
+    "x": 86.93,
+    "y": 615.94,
+    "largura": 91.1,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "Pertencem a Kaito. Comandar uma especial usa sua Padrão; dar ou mudar",
+    "x": 287.28,
+    "y": 615.94,
+    "largura": 419.25,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "uma tarefa usa sua Bônus. Ações que ele deixa de usar não passam às enti‐",
+    "x": 287.28,
+    "y": 633.4,
+    "largura": 422.18,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "dades.",
+    "x": 287.28,
+    "y": 650.86,
+    "largura": 35.73,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "Dê uma tarefa que a criatura entenda",
+    "x": 75.59,
+    "y": 689.77,
+    "largura": 300.89,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 7,
+    "texto": "Intenção",
+    "x": 75.59,
+    "y": 723.17,
+    "largura": 54.4,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": " é a tarefa que ela continua cumprindo. “Proteja esta porta” permite ao cão escolher entre ameaças",
+    "x": 129.99,
+    "y": 723.17,
+    "largura": 588.85,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "à passagem e agir conforme sua ficha. Isso não obriga um inimigo a atacá-lo, nem concede uma",
+    "x": 75.59,
+    "y": 741.94,
+    "largura": 569.64,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "interceptação automática.",
+    "x": 75.59,
+    "y": 760.7,
+    "largura": 155.5,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Uma Bônus permite dar novas tarefas a até todas as suas entidades em campo. A tarefa não renova os",
+    "x": 75.59,
+    "y": 788.17,
+    "largura": 605.11,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "recursos e não comanda uma especial. Para a criatura usar uma especial, Kaito gasta sua Padrão; ela ocupa a",
+    "x": 75.59,
+    "y": 806.93,
+    "largura": 645.57,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "básica ainda disponível e paga o custo de PE da habilidade.",
+    "x": 75.59,
+    "y": 825.7,
+    "largura": 353.28,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Entrada durante a luta",
+    "x": 75.59,
+    "y": 857.7,
+    "largura": 179.56,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 7,
+    "texto": "Entrar, trocar e recolher usam a Bônus de Kaito, no turno dele e enquanto estiver consciente. Cada entrada",
+    "x": 75.59,
+    "y": 891.1,
+    "largura": 639.12,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "cobra PE igual à Classe do nível da entidade; recolher não cobra PE. Fora do combate, entrar e recolher",
+    "x": 75.59,
+    "y": 909.86,
+    "largura": 617.83,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "dispensam a ação, mas a entrada ainda cobra PE.",
+    "x": 75.59,
+    "y": 928.63,
+    "largura": 292.8,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Uma ",
+    "x": 75.59,
+    "y": 956.09,
+    "largura": 32.41,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "entrada sem substituição",
+    "x": 108.0,
+    "y": 956.09,
+    "largura": 153.7,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": " põe a entidade em espaço livre a até 1,5 m de Kaito, com Movimento, mas",
+    "x": 261.7,
+    "y": 956.09,
+    "largura": 443.11,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "sem básica nesse ciclo",
+    "x": 75.59,
+    "y": 974.86,
+    "largura": 135.63,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": ". Dar a primeira tarefa exige outra Bônus. Converter a Padrão em Bônus permite essa",
+    "x": 211.22,
+    "y": 974.86,
+    "largura": 508.75,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "orientação, mas gasta a ação que comandaria uma especial.",
+    "x": 75.59,
+    "y": 993.63,
+    "largura": 352.92,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Troca, retorno e ordens fora do turno: consulte os procedimentos próprios no capítulo Invocações.",
+    "x": 75.59,
+    "y": 1023.74,
+    "largura": 519.34,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 7,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 7,
+    "texto": "Você e sua entidade",
+    "x": 633.99,
+    "y": 32.56,
+    "largura": 87.9,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 7,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 7,
+    "texto": "7",
+    "x": 716.03,
+    "y": 1065.83,
+    "largura": 5.86,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 8,
+    "texto": "O cão guarda a porta",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 297.5,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 8,
+    "texto": "Antes da iniciativa",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 118.78,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ", Kaito manifestou seu cão de sombra de nível 2 e deu a tarefa “proteja esta porta”. A",
+    "x": 194.37,
+    "y": 145.65,
+    "largura": 517.54,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "entrada custou ",
+    "x": 75.59,
+    "y": 165.67,
+    "largura": 95.07,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "1 PE",
+    "x": 170.66,
+    "y": 165.67,
+    "largura": 29.68,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ". Para este exemplo, ele tinha ",
+    "x": 200.34,
+    "y": 165.67,
+    "largura": 182.27,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "7 PE disponíveis",
+    "x": 382.61,
+    "y": 165.67,
+    "largura": 104.93,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": " e ficou com ",
+    "x": 487.54,
+    "y": 165.67,
+    "largura": 78.37,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "6",
+    "x": 565.91,
+    "y": 165.67,
+    "largura": 7.5,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": "; esses números são o",
+    "x": 573.42,
+    "y": 165.67,
+    "largura": 131.05,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "saldo preparado da cena, não a reserva máxima do personagem.",
+    "x": 75.59,
+    "y": 185.69,
+    "largura": 389.97,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "No começo do turno de Kaito, o cão está em campo e renova sua básica. Uma maldição hostil tenta",
+    "x": 75.59,
+    "y": 216.29,
+    "largura": 607.34,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "passar pela porta e está a ",
+    "x": 75.59,
+    "y": 236.31,
+    "largura": 157.0,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "1,5 m dele",
+    "x": 232.59,
+    "y": 236.31,
+    "largura": 64.19,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ". O cão percebe o alvo e recebe as ordens de Kaito. Nenhum dos dois",
+    "x": 296.78,
+    "y": 236.31,
+    "largura": 421.13,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "precisa se mover neste recorte. Vamos comparar as ações e a energia gastas; o exercício não simula as",
+    "x": 75.59,
+    "y": 256.33,
+    "largura": 624.45,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "rolagens nem o dano contra uma ficha inimiga completa.",
+    "x": 75.59,
+    "y": 276.35,
+    "largura": 350.89,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Cão de sombra, nível 2",
+    "x": 86.93,
+    "y": 315.27,
+    "largura": 116.28,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 8,
+    "texto": "Dados usados na cena",
+    "x": 287.28,
+    "y": 315.27,
+    "largura": 115.92,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 8,
+    "texto": "Vida e Defesa",
+    "x": 86.93,
+    "y": 346.5,
+    "largura": 80.27,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": "12 de Vida; Defesa 13.",
+    "x": 287.28,
+    "y": 346.5,
+    "largura": 124.8,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 8,
+    "texto": "Mordida básica",
+    "x": 86.93,
+    "y": 378.23,
+    "largura": 90.37,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": "Sem PE; acerto d20 + 4; alcance 1,5 m; dano 1d6.",
+    "x": 287.28,
+    "y": 378.23,
+    "largura": 273.1,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 8,
+    "texto": "Mordida especial, Classe 1",
+    "x": 86.93,
+    "y": 409.96,
+    "largura": 154.92,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": "3 PE; acerto d20 + 6; alcance 1,5 m; dano 2d8.",
+    "x": 287.28,
+    "y": 409.96,
+    "largura": 255.05,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 8,
+    "texto": "Energia",
+    "x": 86.93,
+    "y": 441.7,
+    "largura": 45.88,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": "Não tem reserva própria: o custo da especial sai todo de Kaito.",
+    "x": 287.28,
+    "y": 441.7,
+    "largura": 353.65,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 8,
+    "texto": "Escolha A: deixar o cão usar a básica",
+    "x": 75.59,
+    "y": 485.52,
+    "largura": 298.74,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 8,
+    "texto": "O cão ataca a maldição que ameaça a passagem, cumprindo sua intenção. Gasta a básica e resolve a mor‐",
+    "x": 75.59,
+    "y": 520.06,
+    "largura": 643.57,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "dida: ",
+    "x": 75.59,
+    "y": 540.08,
+    "largura": 33.88,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "d20 + 4",
+    "x": 109.47,
+    "y": 540.08,
+    "largura": 45.04,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ", contra a Defesa do alvo; se acertar, causa ",
+    "x": 154.51,
+    "y": 540.08,
+    "largura": 261.07,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "1d6",
+    "x": 415.58,
+    "y": 540.08,
+    "largura": 23.03,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ".",
+    "x": 438.61,
+    "y": 540.08,
+    "largura": 3.5,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Kaito continua com ",
+    "x": 75.59,
+    "y": 570.68,
+    "largura": 124.93,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "6 PE",
+    "x": 200.53,
+    "y": 570.68,
+    "largura": 29.68,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": " e conserva sua Ação Padrão para outro uso. Ele não precisou gastar uma Bônus",
+    "x": 230.2,
+    "y": 570.68,
+    "largura": 490.06,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "para repetir a tarefa. Neste ciclo, o cão já gastou a básica e não pode usá-la de novo para executar a espe‐",
+    "x": 75.59,
+    "y": 590.7,
+    "largura": 643.59,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "cial.",
+    "x": 75.59,
+    "y": 610.72,
+    "largura": 25.48,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Escolha B: comandar a especial primeiro",
+    "x": 75.59,
+    "y": 649.64,
+    "largura": 327.59,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 8,
+    "texto": "Kaito gasta sua ",
+    "x": 75.59,
+    "y": 684.17,
+    "largura": 96.84,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Ação Padrão",
+    "x": 172.43,
+    "y": 684.17,
+    "largura": 80.04,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": " para comandar a mordida especial. Paga ",
+    "x": 252.46,
+    "y": 684.17,
+    "largura": 255.1,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "3 PE: de 6, fica com 3",
+    "x": 507.57,
+    "y": 684.17,
+    "largura": 134.46,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ". O cão usa",
+    "x": 642.03,
+    "y": 684.17,
+    "largura": 67.16,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "sua básica ainda disponível para executar a habilidade: ",
+    "x": 75.59,
+    "y": 704.19,
+    "largura": 340.16,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "d20 + 6",
+    "x": 415.75,
+    "y": 704.19,
+    "largura": 45.04,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ", contra a Defesa; se acertar, causa ",
+    "x": 460.78,
+    "y": 704.19,
+    "largura": 213.65,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "2d8",
+    "x": 674.44,
+    "y": 704.19,
+    "largura": 23.03,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ".",
+    "x": 697.47,
+    "y": 704.19,
+    "largura": 3.5,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Depois do resultado, Kaito pode manter a intenção ou dar outra ao cão sem uma Bônus adicional. Isso",
+    "x": 75.59,
+    "y": 734.79,
+    "largura": 627.65,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "não renova sua básica nem orienta as outras entidades. O cão não faz a mordida básica depois da",
+    "x": 75.59,
+    "y": 754.81,
+    "largura": 595.23,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "especial neste ciclo.",
+    "x": 75.59,
+    "y": 774.83,
+    "largura": 121.98,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "As escolhas A e B são alternativas.",
+    "x": 92.6,
+    "y": 823.2,
+    "largura": 206.31,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": "A: básica do cão usada, Padrão de Kaito disponível, 6 PE.",
+    "x": 92.6,
+    "y": 842.26,
+    "largura": 333.96,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 8,
+    "texto": "B: básica do cão e Padrão de Kaito usadas, 3 PE.",
+    "x": 92.6,
+    "y": 861.33,
+    "largura": 280.63,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 8,
+    "texto": "Nos dois casos, Movimento e Reação coletiva continuam separados.",
+    "x": 92.6,
+    "y": 880.4,
+    "largura": 397.41,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 8,
+    "texto": "O próximo começo de turno de Kaito renova a básica se o cão continuar em campo. Este recorte não demonstra",
+    "x": 75.59,
+    "y": 927.81,
+    "largura": 587.16,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 8,
+    "texto": "movimento; os metros disponíveis devem ser consultados na ficha da entidade.",
+    "x": 75.59,
+    "y": 944.01,
+    "largura": 415.65,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 8,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 8,
+    "texto": "O cão guarda a porta",
+    "x": 630.31,
+    "y": 32.56,
+    "largura": 91.58,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 8,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 8,
+    "texto": "8",
+    "x": 715.14,
+    "y": 1065.83,
+    "largura": 6.75,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 9,
+    "texto": "Perícias para consulta",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 298.19,
+    "altura": 44.8,
+    "tag": "h1"
+  },
+  {
+    "pagina": 9,
+    "texto": "Um teste de perícia é d20 + atributo; some também a maestria se houver treino.",
+    "x": 75.59,
+    "y": 142.85,
+    "largura": 499.63,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": " A tabela reúne as 23",
+    "x": 575.22,
+    "y": 142.85,
+    "largura": 127.39,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "perícias atuais. Cada uma tem um atributo fixo, salvo uma exceção expressa de habilidade, como a Força",
+    "x": 75.59,
+    "y": 162.87,
+    "largura": 641.08,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "usada pelo Bastião em Provocar.",
+    "x": 75.59,
+    "y": 182.89,
+    "largura": 198.57,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "A coluna de uso ajuda a escolher a perícia. Ela não substitui os procedimentos de ações como Esconder",
+    "x": 75.59,
+    "y": 213.49,
+    "largura": 635.46,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "ou Estudar, nem define distâncias de salto e escalada. As aplicações abaixo conservam o campo de",
+    "x": 75.59,
+    "y": 233.51,
+    "largura": 603.17,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "atuação das perícias da edição vigente.",
+    "x": 75.59,
+    "y": 253.53,
+    "largura": 237.93,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "Perícia",
+    "x": 86.93,
+    "y": 292.45,
+    "largura": 35.92,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 9,
+    "texto": "Atributo",
+    "x": 242.04,
+    "y": 292.45,
+    "largura": 41.8,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 9,
+    "texto": "Use para…",
+    "x": 364.84,
+    "y": 292.45,
+    "largura": 55.72,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 9,
+    "texto": "Atletismo",
+    "x": 86.93,
+    "y": 328.21,
+    "largura": 59.68,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Força",
+    "x": 242.04,
+    "y": 328.21,
+    "largura": 33.19,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Correr, escalar, nadar, saltar e carregar quem não consegue",
+    "x": 364.84,
+    "y": 328.21,
+    "largura": 345.18,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "andar.",
+    "x": 364.84,
+    "y": 346.88,
+    "largura": 36.21,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Acrobacia",
+    "x": 86.93,
+    "y": 388.89,
+    "largura": 60.95,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Destreza",
+    "x": 242.04,
+    "y": 388.89,
+    "largura": 51.96,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Manter o equilíbrio, lidar com uma queda ou passar por",
+    "x": 364.84,
+    "y": 388.89,
+    "largura": 327.0,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "espaço apertado.",
+    "x": 364.84,
+    "y": 407.56,
+    "largura": 98.26,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Furtividade",
+    "x": 86.93,
+    "y": 449.57,
+    "largura": 70.12,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Destreza",
+    "x": 242.04,
+    "y": 449.57,
+    "largura": 51.96,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Mover-se sem ser visto nem ouvido.",
+    "x": 364.84,
+    "y": 449.57,
+    "largura": 209.96,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Pontaria",
+    "x": 86.93,
+    "y": 491.58,
+    "largura": 52.2,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Destreza",
+    "x": 242.04,
+    "y": 491.58,
+    "largura": 51.96,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Atingir algo pequeno, distante ou em movimento, fora de",
+    "x": 364.84,
+    "y": 491.58,
+    "largura": 335.6,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "uma rolagem de ataque.",
+    "x": 364.84,
+    "y": 510.24,
+    "largura": 139.57,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Prestidigitação",
+    "x": 86.93,
+    "y": 552.25,
+    "largura": 91.5,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Destreza",
+    "x": 242.04,
+    "y": 552.25,
+    "largura": 51.96,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Ocultar ou trocar um objeto e tirar algo de um bolso sem",
+    "x": 364.84,
+    "y": 552.25,
+    "largura": 333.59,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "chamar atenção.",
+    "x": 364.84,
+    "y": 570.92,
+    "largura": 95.9,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Investigação",
+    "x": 86.93,
+    "y": 612.93,
+    "largura": 75.57,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Inteligência",
+    "x": 242.04,
+    "y": 612.93,
+    "largura": 70.66,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Vasculhar um local, comparar pistas e deduzir o que acon‐",
+    "x": 364.84,
+    "y": 612.93,
+    "largura": 342.41,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "teceu.",
+    "x": 364.84,
+    "y": 631.6,
+    "largura": 34.83,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Intuição",
+    "x": 86.93,
+    "y": 673.61,
+    "largura": 50.84,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Inteligência",
+    "x": 242.04,
+    "y": 673.61,
+    "largura": 70.66,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Interpretar ações, inconsistências e motivações de uma",
+    "x": 364.84,
+    "y": 673.61,
+    "largura": 323.56,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "pessoa.",
+    "x": 364.84,
+    "y": 692.27,
+    "largura": 42.58,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Ocultismo",
+    "x": 86.93,
+    "y": 734.29,
+    "largura": 63.12,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Inteligência",
+    "x": 242.04,
+    "y": 734.29,
+    "largura": 70.66,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Reconhecer maldições, técnicas conhecidas, barreiras e o",
+    "x": 364.84,
+    "y": 734.29,
+    "largura": 335.19,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "funcionamento da energia amaldiçoada.",
+    "x": 364.84,
+    "y": 752.95,
+    "largura": 234.67,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Religião",
+    "x": 86.93,
+    "y": 794.96,
+    "largura": 49.88,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Inteligência",
+    "x": 242.04,
+    "y": 794.96,
+    "largura": 70.66,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Reconhecer práticas religiosas, templos, rituais e o",
+    "x": 364.84,
+    "y": 794.96,
+    "largura": 297.8,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "significado de selos.",
+    "x": 364.84,
+    "y": 813.63,
+    "largura": 118.1,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "História",
+    "x": 86.93,
+    "y": 855.64,
+    "largura": 49.79,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Inteligência",
+    "x": 242.04,
+    "y": 855.64,
+    "largura": 70.66,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Consultar ou lembrar acontecimentos do mundo comum e",
+    "x": 364.84,
+    "y": 855.64,
+    "largura": 342.18,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "dos registros das famílias.",
+    "x": 364.84,
+    "y": 874.31,
+    "largura": 152.3,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Hierarquia",
+    "x": 86.93,
+    "y": 916.32,
+    "largura": 66.07,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Inteligência",
+    "x": 242.04,
+    "y": 916.32,
+    "largura": 70.66,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Entender a política dos clãs, reconhecer autoridades e",
+    "x": 364.84,
+    "y": 916.32,
+    "largura": 316.27,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "saber a quem fazer um pedido.",
+    "x": 364.84,
+    "y": 934.98,
+    "largura": 179.0,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Medicina",
+    "x": 86.93,
+    "y": 976.99,
+    "largura": 57.16,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Inteligência",
+    "x": 242.04,
+    "y": 976.99,
+    "largura": 70.66,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Identificar ferimentos, venenos, doenças e processos do",
+    "x": 364.84,
+    "y": 976.99,
+    "largura": 326.72,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "corpo. A prática de campo usa Herbalismo.",
+    "x": 364.84,
+    "y": 995.66,
+    "largura": 253.32,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 9,
+    "texto": "Perícias para consulta",
+    "x": 623.75,
+    "y": 32.56,
+    "largura": 98.14,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 9,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 9,
+    "texto": "9",
+    "x": 715.44,
+    "y": 1065.83,
+    "largura": 6.45,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 10,
+    "texto": "Perícia",
+    "x": 86.93,
+    "y": 71.81,
+    "largura": 35.92,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 10,
+    "texto": "Atributo",
+    "x": 242.04,
+    "y": 71.81,
+    "largura": 41.8,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 10,
+    "texto": "Use para…",
+    "x": 364.84,
+    "y": 71.81,
+    "largura": 55.72,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 10,
+    "texto": "Sobrevivência",
+    "x": 86.93,
+    "y": 107.91,
+    "largura": 83.83,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Inteligência",
+    "x": 242.04,
+    "y": 107.91,
+    "largura": 70.66,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Encontrar água e abrigo, orientar-se e seguir rastros,",
+    "x": 364.84,
+    "y": 107.91,
+    "largura": 309.6,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "inclusive resíduos de energia.",
+    "x": 364.84,
+    "y": 126.58,
+    "largura": 173.25,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Natureza",
+    "x": 86.93,
+    "y": 168.59,
+    "largura": 55.47,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Inteligência",
+    "x": 242.04,
+    "y": 168.59,
+    "largura": 70.66,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Reconhecer plantas e animais, interpretar o clima e avaliar",
+    "x": 364.84,
+    "y": 168.59,
+    "largura": 343.84,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "o terreno.",
+    "x": 364.84,
+    "y": 187.25,
+    "largura": 56.9,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Lidar com Animais",
+    "x": 86.93,
+    "y": 229.26,
+    "largura": 115.96,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Inteligência",
+    "x": 242.04,
+    "y": 229.26,
+    "largura": 70.66,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Acalmar, montar, conduzir e orientar animais.",
+    "x": 364.84,
+    "y": 229.26,
+    "largura": 270.14,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Tecnologia",
+    "x": 86.93,
+    "y": 271.27,
+    "largura": 66.56,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Inteligência",
+    "x": 242.04,
+    "y": 271.27,
+    "largura": 70.66,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Lidar com computadores, câmeras, redes e outros",
+    "x": 364.84,
+    "y": 271.27,
+    "largura": 290.99,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "equipamentos modernos.",
+    "x": 364.84,
+    "y": 289.94,
+    "largura": 148.23,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Sentir Energia",
+    "x": 86.93,
+    "y": 331.95,
+    "largura": 87.65,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Essência",
+    "x": 242.04,
+    "y": 331.95,
+    "largura": 51.37,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Perceber energia amaldiçoada e sua movimentação,",
+    "x": 364.84,
+    "y": 331.95,
+    "largura": 302.44,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "inclusive sinais de conjuração.",
+    "x": 364.84,
+    "y": 350.62,
+    "largura": 178.69,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Percepção",
+    "x": 86.93,
+    "y": 392.63,
+    "largura": 61.89,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Essência",
+    "x": 242.04,
+    "y": 392.63,
+    "largura": 51.37,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Notar sons, cheiros, movimentos e outros sinais do",
+    "x": 364.84,
+    "y": 392.63,
+    "largura": 299.19,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "ambiente e das pessoas.",
+    "x": 364.84,
+    "y": 411.29,
+    "largura": 139.27,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Persuasão",
+    "x": 86.93,
+    "y": 453.3,
+    "largura": 60.71,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Essência",
+    "x": 242.04,
+    "y": 453.3,
+    "largura": 51.37,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Convencer, negociar e obter a colaboração voluntária de",
+    "x": 364.84,
+    "y": 453.3,
+    "largura": 328.92,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "alguém.",
+    "x": 364.84,
+    "y": 471.97,
+    "largura": 46.39,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Enganação",
+    "x": 86.93,
+    "y": 513.98,
+    "largura": 65.92,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Essência",
+    "x": 242.04,
+    "y": 513.98,
+    "largura": 51.37,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Mentir, blefar ou se passar por outra pessoa.",
+    "x": 364.84,
+    "y": 513.98,
+    "largura": 259.81,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Intimidação",
+    "x": 86.93,
+    "y": 555.99,
+    "largura": 73.57,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Essência",
+    "x": 242.04,
+    "y": 555.99,
+    "largura": 51.37,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Ameaçar alguém ou pressioná-lo pela presença para que",
+    "x": 364.84,
+    "y": 555.99,
+    "largura": 330.07,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "recue ou colabore.",
+    "x": 364.84,
+    "y": 574.66,
+    "largura": 107.05,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Atuação",
+    "x": 86.93,
+    "y": 616.67,
+    "largura": 49.64,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Essência",
+    "x": 242.04,
+    "y": 616.67,
+    "largura": 51.37,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Representar, cantar, tocar para uma plateia ou sustentar a",
+    "x": 364.84,
+    "y": 616.67,
+    "largura": 337.34,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "atuação de um disfarce.",
+    "x": 364.84,
+    "y": 635.34,
+    "largura": 137.99,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Provocar",
+    "x": 86.93,
+    "y": 677.35,
+    "largura": 53.96,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Essência",
+    "x": 242.04,
+    "y": 677.35,
+    "largura": 51.37,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Desestabilizar alguém. Em combate, a ação Provocar tem",
+    "x": 364.84,
+    "y": 677.35,
+    "largura": 335.64,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "custo, disputa, efeito e duração próprios.",
+    "x": 364.84,
+    "y": 696.01,
+    "largura": 238.51,
+    "altura": 20.29,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Restrição Celestial, ramo sem energia:",
+    "x": 75.59,
+    "y": 741.8,
+    "largura": 241.76,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": " Sentir Energia não entra na ficha; não é uma tentativa sem trei‐",
+    "x": 317.36,
+    "y": 741.8,
+    "largura": 394.73,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "no.",
+    "x": 75.59,
+    "y": 761.82,
+    "largura": 19.07,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "Ofícios",
+    "x": 75.59,
+    "y": 792.43,
+    "largura": 45.81,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": " têm catálogo separado. Neles, o atributo depende da tarefa. Uma rolagem de perícia conserva o",
+    "x": 121.4,
+    "y": 792.43,
+    "largura": 588.63,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "atributo listado acima.",
+    "x": 75.59,
+    "y": 812.45,
+    "largura": 138.93,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 10,
+    "texto": "Perícias para consulta",
+    "x": 623.75,
+    "y": 32.56,
+    "largura": 98.14,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 10,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 10,
+    "texto": "10",
+    "x": 710.69,
+    "y": 1065.83,
+    "largura": 11.2,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 11,
+    "texto": "APOIO EDITORIAL · FORA DO TEXTO DO JOGADOR",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 286.51,
+    "altura": 14.4,
+    "tag": "div"
+  },
+  {
+    "pagina": 11,
+    "texto": "Roteiro de conferência",
+    "x": 75.59,
+    "y": 88.1,
+    "largura": 325.76,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 11,
+    "texto": "Use estas tarefas com o texto aberto. Primeiro peça a explicação do leitor; depois compare com o gabarito.",
+    "x": 75.59,
+    "y": 169.5,
+    "largura": 622.35,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "Registre onde ele procurou, onde hesitou e que ajuda precisou. Acertar por já conhecer outro RPG não",
+    "x": 75.59,
+    "y": 187.63,
+    "largura": 601.21,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "comprova que o texto explicou a regra.",
+    "x": 75.59,
+    "y": 205.76,
+    "largura": 226.51,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "Tarefa",
+    "x": 86.93,
+    "y": 242.79,
+    "largura": 33.75,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 11,
+    "texto": "Gabarito desta amostra",
+    "x": 287.28,
+    "y": 242.79,
+    "largura": 122.3,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 11,
+    "texto": "Kaori termina o combate junto",
+    "x": 86.93,
+    "y": 273.27,
+    "largura": 176.09,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "de qual objeto? Quanto andou?",
+    "x": 86.93,
+    "y": 290.37,
+    "largura": 177.54,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "Junto à porta do arquivo; andou 3 m e conserva 6 m nesse turno.",
+    "x": 287.28,
+    "y": 273.27,
+    "largura": 355.66,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 11,
+    "texto": "Com deslocamento 9 m, como",
+    "x": 86.93,
+    "y": 320.23,
+    "largura": 171.23,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "percorrer 18 m?",
+    "x": 86.93,
+    "y": 337.33,
+    "largura": 90.79,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "Movimento + Ação Padrão para Correr. A Padrão já foi gasta.",
+    "x": 287.28,
+    "y": 320.23,
+    "largura": 341.22,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 11,
+    "texto": "Haru pode pagar Ricochete",
+    "x": 86.93,
+    "y": 367.19,
+    "largura": 155.86,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "com o acerto que ainda vai ro‐",
+    "x": 86.93,
+    "y": 384.29,
+    "largura": 171.41,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "lar?",
+    "x": 86.93,
+    "y": 401.39,
+    "largura": 21.74,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "Não. Fluidez é requisito anterior à rolagem.",
+    "x": 287.28,
+    "y": 367.19,
+    "largura": 242.81,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 11,
+    "texto": "No exemplo dos três ataques,",
+    "x": 86.93,
+    "y": 431.25,
+    "largura": 166.38,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "quantos atingem A? Quais",
+    "x": 86.93,
+    "y": 448.35,
+    "largura": 150.89,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "armas voltam?",
+    "x": 86.93,
+    "y": 465.45,
+    "largura": 82.95,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "Dois ataques em A e um em B. Nenhuma arma volta automaticamente.",
+    "x": 287.28,
+    "y": 431.25,
+    "largura": 393.7,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 11,
+    "texto": "Restam 6 PE e nenhuma Fluidez.",
+    "x": 287.28,
+    "y": 448.35,
+    "largura": 183.22,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 11,
+    "texto": "Retirar Derrubado faz Peso",
+    "x": 86.93,
+    "y": 495.31,
+    "largura": 156.15,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "nas Mãos causar 4d8?",
+    "x": 86.93,
+    "y": 512.41,
+    "largura": 124.03,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "Não. A devolução sem Melhoria a pagar é perdida. Continua 3d8.",
+    "x": 287.28,
+    "y": 495.31,
+    "largura": 362.21,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 11,
+    "texto": "O cão pode usar a básica e de‐",
+    "x": 86.93,
+    "y": 542.27,
+    "largura": 170.61,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "pois a especial no mesmo ci‐",
+    "x": 86.93,
+    "y": 559.37,
+    "largura": 162.71,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "clo?",
+    "x": 86.93,
+    "y": 576.47,
+    "largura": 22.9,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "Não. A especial precisa ocupar a básica disponível.",
+    "x": 287.28,
+    "y": 542.27,
+    "largura": 283.38,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 11,
+    "texto": "Quando a básica renova?",
+    "x": 86.93,
+    "y": 606.33,
+    "largura": 141.48,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "No próximo começo de turno do invocador, se a entidade estiver em campo.",
+    "x": 287.28,
+    "y": 606.33,
+    "largura": 421.28,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 11,
+    "texto": "Onde conferir na edição vigente",
+    "x": 75.59,
+    "y": 645.27,
+    "largura": 255.94,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 11,
+    "texto": "No ",
+    "x": 75.59,
+    "y": 678.66,
+    "largura": 21.19,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "Manual da Guilda v0.331",
+    "x": 96.78,
+    "y": 678.66,
+    "largura": 149.9,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": ", consulte: ",
+    "x": 246.68,
+    "y": 678.66,
+    "largura": 63.01,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "O Turno",
+    "x": 309.69,
+    "y": 678.66,
+    "largura": 51.57,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": ", seções Deslocamento e Ações de Ação Padrão; ",
+    "x": 361.26,
+    "y": 678.66,
+    "largura": 282.67,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "Caminhos e",
+    "x": 643.93,
+    "y": 678.66,
+    "largura": 71.37,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "Trilhas",
+    "x": 75.59,
+    "y": 696.8,
+    "largura": 43.39,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": ", Incursor → Fluidez e Malabarista; ",
+    "x": 118.98,
+    "y": 696.8,
+    "largura": 206.1,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "Equipamento",
+    "x": 325.07,
+    "y": 696.8,
+    "largura": 81.61,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": ", tabelas de armas e regra de arremesso;",
+    "x": 406.68,
+    "y": 696.8,
+    "largura": 231.88,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "Fundamento",
+    "x": 75.59,
+    "y": 714.93,
+    "largura": 76.89,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": ", Números da montagem, Famílias, Formas, Controle e Restrições; ",
+    "x": 152.48,
+    "y": 714.93,
+    "largura": 391.57,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "Invocações",
+    "x": 544.05,
+    "y": 714.93,
+    "largura": 66.36,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": ", Entidade em",
+    "x": 610.41,
+    "y": 714.93,
+    "largura": 81.14,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "campo, Intenção, Especial e Exemplo de montagem; ",
+    "x": 75.59,
+    "y": 733.06,
+    "largura": 308.52,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "Perícias e Ofícios",
+    "x": 384.11,
+    "y": 733.06,
+    "largura": 105.16,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": ", Catálogo e Perícias.",
+    "x": 489.27,
+    "y": 733.06,
+    "largura": 122.82,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "Estas são remissões por título à edição publicada, não à numeração provisória do plano. Dentro deste PDF, os",
+    "x": 75.59,
+    "y": 761.78,
+    "largura": 642.13,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "marcadores levam às unidades de consulta; a tabela de perícias mantém um único destino, mesmo",
+    "x": 75.59,
+    "y": 779.91,
+    "largura": 573.48,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "continuando na página seguinte.",
+    "x": 75.59,
+    "y": 798.05,
+    "largura": 191.65,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "O que esta conferência não demonstra",
+    "x": 75.59,
+    "y": 829.41,
+    "largura": 310.3,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 11,
+    "texto": "As contas, o cotejo com as fontes e a inspeção visual verificam aspectos específicos da amostra. As leituras",
+    "x": 75.59,
+    "y": 862.81,
+    "largura": 625.78,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "críticas separadas por agentes ajudam a encontrar falhas. ",
+    "x": 75.59,
+    "y": 880.94,
+    "largura": 338.88,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "Ainda falta observar jogadores usando o material.",
+    "x": 414.47,
+    "y": 880.94,
+    "largura": 298.27,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 11,
+    "texto": "O relatório do pacote registra os resultados e as pendências, incluindo salto, queda, terreno, esconder e",
+    "x": 75.59,
+    "y": 899.07,
+    "largura": 604.32,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "manobras comuns.",
+    "x": 75.59,
+    "y": 917.21,
+    "largura": 110.57,
+    "altura": 20.29,
+    "tag": "p"
+  },
+  {
+    "pagina": 11,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 11,
+    "texto": "Roteiro de conferência",
+    "x": 621.73,
+    "y": 32.56,
+    "largura": 100.16,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 11,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 11,
+    "texto": "11",
+    "x": 714.03,
+    "y": 1065.83,
+    "largura": 7.86,
+    "altura": 19.2,
+    "tag": null
+  }
+]

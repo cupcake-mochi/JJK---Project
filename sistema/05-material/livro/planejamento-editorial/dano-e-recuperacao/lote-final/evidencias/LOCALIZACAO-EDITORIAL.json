@@ -1,0 +1,38 @@
+{
+  "sha256_texto": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+  "revisor": "/root",
+  "titulos_revisto": true,
+  "vocabulario_revisto": true,
+  "sem_explicacao_alheia": true,
+  "observacoes": [
+    "Títulos nomeiam procedimentos ou estados. Não há Como ler nem artigo de abertura sem necessidade.",
+    "Condições preservam termos de jogo definidos; vocabulário raro não foi introduzido.",
+    "Projetar Energia removido do tipoForça para não repetir nome de aptidão fora do dono.",
+    "Contrastes mantidos somente onde distinguem regras com consequências práticas; sem retórica promocional."
+  ],
+  "excecoes_localizacao": [
+    {
+      "termo": "Energia Reversa",
+      "trecho": "| Especiais | Radiante, Necrótico, Psíquico, Energia Reversa, Força e Alma. |",
+      "papel": "remissao",
+      "justificativa": "Nome homônimo do tipo de dano na lista do próprio capítulo. Não concede ou reproduz a aptidão; alvos e usos remetem à fonte.",
+      "nao_reproduz_regra": true
+    },
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Alma afeta uma reserva adicional, a Integridade, conforme a regra de dano na alma. Energia Reversa permanece um tipo de dano distinto de Alma e de Radiante; a aptidão ou o feitiço que o usar informa seus alvos e efeitos. Esses nomes não concedem novas permissões de conjuração.",
+      "papel": "remissao",
+      "justificativa": "Nome homônimo do tipo de dano na lista do próprio capítulo. Não concede ou reproduz a aptidão; alvos e usos remetem à fonte.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "excecoes_vocabulario": [],
+  "delta_final": {
+    "revisor": "/root",
+    "escopo": [
+      "Migração nominal para Guarda Aberta, sem alterar os efeitos.",
+      "Integridade de NPC com vida positiva nunca começa em zero por arredondamento."
+    ],
+    "evidencia": "consolidacao/lote-01/migracao-nomes/diffs/dano.diff e ALTERACOES.json DR31"
+  }
+}

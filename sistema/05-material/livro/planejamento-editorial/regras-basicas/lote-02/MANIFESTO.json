@@ -1,0 +1,25 @@
+{
+  "data": "2026-10-03",
+  "arquivos": {
+    "ATAQUES-E-DEFESA.md": "afd311cfde0914af381f09cee3e756138a6ddb976a4c6276e4f6b378b2eac477",
+    "CONFERENCIA.json": "fd6c6903b4ea1c2be637e8870930ce586c1ea6b9597ea2c73bcfdf9633fedca6",
+    "DECISOES.md": "e4a3f3ffbe39ce72fb5397b5241e3ceff30932a61d21e33c5c14ab4fd4b24fe2",
+    "ESTRUTURA.json": "a5e9cb15be65e121d5b0c22b2c5c37f3e0e9e69fc89b4692ef8b5bad646cf5aa",
+    "LEIA-ME.md": "d799fbd8fd7856e1ee8bca7aef30e59b2c830bf8405c809130b47c7b440177d3",
+    "RELATORIO.md": "87d9b37d5f7eeec1836e29fc999d502ebced0c3a653abae5ff3cbf8c963404b3",
+    "auditar_bloquear.py": "c865578342a229265354b88b38cd1266f7be4e7bc25d57997fc0e7f58137eff7",
+    "conferir.py": "bff8cd42bd6e47073844540e4a39023bce6f699a3226d1a577ad8d3a7cecd7ea",
+    "evidencias/FONTES-E-DESTINOS.md": "df50dfe7d5f9fb13216b4a4a9bf8c50d7e4ea60d3c4cb10fb90233b025135763",
+    "evidencias/REVISAO-EDITORIAL.json": "3822bdbcdd72f58f5aa48300e2c7c24e2ad4d08b49aed3355708b3c3237aa9fe",
+    "evidencias/REVISAO.md": "98c44201954399f79c9db81f7b9ed19c8abb3551a5b51816de64f2969b070c62",
+    "evidencias/contas-bloquear.json": "9ee92a3d9ec684141f56c9cf65a993df51094b8857de429856b72cb1093858ed",
+    "evidencias/fontes-preservadas.json": "99acf80682af96ae6fe7b27a8c0ff919c084b03ff6c638fafce2f0b1b3bd66d4",
+    "evidencias/inspecao-visual.json": "cf528be518e0a031b7bb437a255ff09cfb34304bb53854921b97ba3bcfe6e5e4",
+    "evidencias/pdf-estrutura.json": "a814a5c939139423259129c7f5890c68f6ab70f0a97fb52356fa263a91f06354",
+    "evidencias/pdf-texto.txt": "115cc5048f9ff4bc27812c394debc5b227cdf570bb341fc048f9bc8ddc07144f",
+    "evidencias/validador-publicado-atributos.txt": "42adfffc5c781dcdb7999bdb7211a9b1d1a0a45fe71b8783a3d841d49df3382a",
+    "evidencias/validador-publicado-bloquear.txt": "60e860709305bbe6213816f6c321e4bbbb43fa1d5c2abc337057b955afc79adb",
+    "gerar_pdf.py": "f1776850aa9ec5bb54190e6b5c24df528befe22f44f711cc4a29ea1f412539fa",
+    "output/pdf/Projeto-M-Ataques-e-Defesa-Proposta-01.pdf": "0d717454231dc4efc01285061ff1e075d02182f2bd1f5bc52bd82cf5fef0ac4d"
+  }
+}

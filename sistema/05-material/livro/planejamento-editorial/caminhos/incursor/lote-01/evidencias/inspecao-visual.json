@@ -1,0 +1,271 @@
+{
+  "data": "2026-10-03",
+  "sha256_texto": "3705e460791db6ae03b79eb2f7b25d13936a1c1ab54ddba616fa3872407f09f1",
+  "sha256_pdf": "cd47ec69eb86f24df55f4ad545320d02a992869412687b87282f184669b58b5a",
+  "metodo": "Todas as páginas alteradas pela migração e seus complementos foram abertas individualmente. As demais conservam a inspeção anterior por igualdade de pixels comprovada, sem alegar nova leitura visual.",
+  "prova_anterior": "8218bdcbfcfb307489d72c0608054524365ec9af491903fd3e002754f512ae83",
+  "comparacao": "evidencias/COMPARACAO-NOMES-PDF.json",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "c8983539d4ec1df3e0493583f804d956bacc4867edce6fd8d556bda69db9788a",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-01.png"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "8ebdfab659bcf645a48b5e8f1c782c3b473f4e31cc670dabfc1a3f604aa8e086",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-02.png"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Guarda Aberta na expiração de Fluidez, sem interferir nos usos listados.",
+      "sha256_png": "ef0e9b7221697008f2f94dac2a916b55f2b5c8e702ced07488207b640a19b1af",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-03.png"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "de747dbad804db2d63ea4cf9cddd31f2e74af9319e88e37f11a65da7716d213d",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-04.png"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "1ca427ea308cc1c26a9a89e2790ccbbcab144839de3af77f7813564da5763c54",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-05.png"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "fca42cc3d73c6a76532cb8f429bf96bf3cfa8e9c2caa5e6746152db41542152f",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-06.png"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "ecd9b36f096a62fad38c436ba0ba676e4d8bb7e9aef367cb1c84d2e86e72dc9c",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-07.png"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "863e00b6ff6c79d81a314135b9b871fd8bf61b51a4825d9c337956fd438dd1a4",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-08.png"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "65af72722c422a32c481bb28fc07f7ca3d93730ba9b66f6256ff5586f9c684b8",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-09.png"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "584a3f88a3aa2f9ba809790c4ef54a162b6ab5be5c3c7c19e47007f2246d1803",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-10.png"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "a525f2cf7a698f299d4a3cc83655596e9e97b46798de3213eea013fad0fad6a7",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-11.png"
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "78242837bc6bc718a39cd6db231bad224a6d40c42b3f896d30b13b9179d9a629",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-12.png"
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "d57f4d9c12d84fb809c81274ffd44b4bad2ce653b54628e122770fff00954a3e",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-13.png"
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "18b14e0632ed812c878497eb711784d0176c54bd9f643d3247c5e2021a2a0a5a",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-14.png"
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "eed59b5260665e83ebb329a83de9d02b4e3ad045522ed5187f1a79558fc5397d",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-15.png"
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Guarda Aberta na retenção da captura; restante das habilidades permanece legível.",
+      "sha256_png": "ba1ec251e97256770bb405e2f6ff4033ce31d5db753cfff11372339e128d10b5",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-16.png"
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "5810904d787f243054d2cc5a8cad2a12207eead45796e76332341e59dd547f45",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-17.png"
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "3ca606234c0a511f32b6639f50d77bd2a21d90b52c6919940ba89fd838be859c",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-18.png"
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "4b38e267b3ba4c5f61cd2bcc13bffbf1eb57942220ea2b27eb0a7dca48166f55",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-19.png"
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "9bffa7330c0b0daffa0e109a1f0ac54f267b0b7775fd761f37e618ae2e4ac295",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-20.png"
+    },
+    {
+      "pagina": 21,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "436c3ebe2aabadbb7bbcd36915f8c11ce71f5598d8ec242727f1d8bdc6904ded",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-21.png"
+    },
+    {
+      "pagina": 22,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "a533fcc302c5b3b8a1de6723eb9caa1234ee2c6448a0b7625af1c792dcfbc65b",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-22.png"
+    },
+    {
+      "pagina": 23,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "77713208ab4dba50cac72e4752e821c9159ebdf6c3c2a777019eeabfc36ff7d2",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-23.png"
+    },
+    {
+      "pagina": 24,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "5a2596249ef494373fd833502285c5e4c4ebee473f9e9d3e7fa314db7c4fa6b0",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-24.png"
+    },
+    {
+      "pagina": 25,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "87e855aa2784c97de54f6407667d8e3c7ae2ebd8814cd614bdadf85ae202ca42",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-25.png"
+    },
+    {
+      "pagina": 26,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, tabelas e caixas legíveis, sem cortes ou sobreposições. Espaço inferior da prova será redistribuído no fluxo final.",
+      "sha256_png": "61580e14eebc99b89d458f0c7923d6333a8a4cadffca1c494deb31278946d6be",
+      "revisor": "/root",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-26.png"
+    }
+  ],
+  "limites": "Inspeção por modelo em PNG a 100 dpi, sem impressão física ou teste com leitores humanos."
+}

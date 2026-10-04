@@ -1,0 +1,37 @@
+[
+  {
+    "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+    "alterado_neste_trabalho": false
+  },
+  {
+    "arquivo": "invocacoes/05-Edicao-Integrada/60-invocacoes.md",
+    "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+    "alterado_neste_trabalho": false
+  },
+  {
+    "arquivo": "invocacoes/DECISOES-A-PARTIR-DO-46.md",
+    "sha256": "8c9dd35aa0cc496fa9767c5240629321c3706f446e4a3376b4009043c8f43dd5",
+    "alterado_neste_trabalho": false
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+    "sha256": "91db84efd1813de6f85f4ea30daf01528d0bdf60cfb47ce7cf512ed3121ca5b0",
+    "alterado_neste_trabalho": false
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+    "sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+    "alterado_neste_trabalho": false
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/sincronizacoes/60-INVOCACOES.md",
+    "sha256": "7955b87a30c199f4d1c6b1e4abcc2969cb60e08532def0412529a20aeb48f0ed",
+    "alterado_neste_trabalho": false
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/sincronizacoes/INVOCACOES.md",
+    "sha256": "79e6c2f903b15543a396ca966389b8a13b7742a5578d02626c7299fd97088186",
+    "alterado_neste_trabalho": false
+  }
+]

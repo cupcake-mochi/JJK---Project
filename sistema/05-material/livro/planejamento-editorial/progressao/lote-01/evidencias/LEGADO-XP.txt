@@ -1,0 +1,158 @@
+
+========================================================================================
+0. LENDO OS DONOS — a curva, os tamanhos e o desconto da semana
+========================================================================================
+  curva: 28 niveis lidos do SS3, de 200 a 1700 XP.
+  tamanhos: curta=50 · padrão=100 · longa=200 · final de arco=300
+  [x] missao mundana: 50+600+200 / 8 = 106.25
+  [x] missao lendaria: 600+600 / 5 = 240.0
+  desconto da semana: 1a=100% · 2a=100% · 3a=50% · 4a=25% · 5a=12% · 6a=6%
+
+========================================================================================
+1. A TABELA DA CURVA RECONSTROI DA FRASE DE REGRA?
+========================================================================================
+  a frase diz: base 3, sobe 2 a cada 3 niveis, teto 17, e o nivel 2 em 2 no lugar de 3.
+  [x] os 28 niveis da tabela saem da frase.
+  [x] o teto de 17 morde, do nivel 23 ao 29.
+
+  nivel   XP para o proximo     em missoes padrao     acumulado
+  2       200                   2                     200
+  3       300                   3                     500
+  5       500                   5                     1300
+  9       700                   7                     3700
+  13      900                   9                     7100
+  19      1300                  13                    14300
+  20      1500                  15                    15800
+  23      1700                  17                    20500
+  29      1700                  17                    30700
+  [x] todo nivel custa um numero INTEIRO de missoes padrao.
+  [x] os totais em prosa batem: 143 + 164 = 307 missoes.
+
+========================================================================================
+2. O ATRASADO ALCANCA? — medido em nivel fracionado
+========================================================================================
+  O atrasado perde 1000 XP e nunca mais perde nada. A pergunta e o que
+  esses 1000 XP VALEM em niveis, conforme a campanha anda.
+
+  XP de quem ficou    curva que cresce      curva PLANA (contra-teste)
+  2000                2.00                  0.91
+  5000                1.24                  0.91
+  9000                0.91                  0.91
+  13000               0.77                  0.91
+  18000               0.67                  0.91
+  23000               0.59                  0.91
+
+  [x] a divida encolhe 3.4x, de 2.00 para 0.59 nivel.
+  [x] contra-teste: na curva plana a divida fica em 0.91 nivel do comeco ao fim.
+
+  Com XP escalado pelo nivel o buraco CRESCE, porque quem esta atras ganha
+  menos por missao justamente por estar atras:
+  missao 20: 425 XP · missao 60: 1175 XP · missao 100: 2000 XP · missao 140: 2875 XP
+  [x] ele vai de 1000 para 2875 XP, contra 1000 fixos.
+
+========================================================================================
+3. A CADENCIA REAL DA GUILDA CAI DENTRO DA FAIXA PEDIDA?
+========================================================================================
+  o levantamento pede entre 3 e 14 meses (mediana 10.25), numa cadencia de 1 a 2 mesas por semana.
+
+  mesas/sem   equivalente   2->20       20->30      2->30
+  0.5         0.50          62.2        31.6        93.7
+  1           1.00          31.1        15.8        46.9
+  2           2.00          15.5        7.9         23.4
+  3           2.50          12.4        6.3         18.7
+  4           2.75          11.3        5.7         17.0
+
+  na ponta de cima da cadencia (2/sem): 15.5 meses crus, 13.9 com as 1 mesa(s) de dobro recomendadas.
+  [x] com a compensacao recomendada cabe na faixa, com 0.1 mes de folga ate o teto de 14.
+  distancia ate a mediana: +5.3 mes cru, +3.7 com a compensacao.
+  [x] o SS5.1 declara as duas distancias, e as duas batem.
+  [x] a ponta de baixo (1/sem) fica em 25.3 meses mesmo compensada — e e dai que sai o vao do SS5.2.
+
+  3.1 — a tabela de compensacao do SS5.3: 4 linha(s) lidas
+  [x] as 4 linhas da compensacao reconstroem da curva.
+
+========================================================================================
+3b. UMA MISSAO PODE ENTREGAR MAIS DE UM NIVEL?
+========================================================================================
+  no nivel    curta           padrão          longa           final de arco   
+  2           0 niv, +50      0 niv, +100     1 niv, +0       1 niv, +100     
+  3           0 niv, +50      0 niv, +100     0 niv, +200     1 niv, +0       
+  4           0 niv, +50      0 niv, +100     0 niv, +200     1 niv, +0       
+  8           0 niv, +50      0 niv, +100     0 niv, +200     0 niv, +300     
+  20          0 niv, +50      0 niv, +100     0 niv, +200     0 niv, +300     
+
+  Sem o teto, a pior combinacao entregaria 1 nivel(is) de uma vez.
+  [x] o teto nao morde em combinacao nenhuma, e o SS3.1 declara isso.
+
+========================================================================================
+4. O RETORNO DECRESCENTE ZERA ALGUEM?
+========================================================================================
+  Ele e decrescente em vez de teto duro por um motivo de mesa: seis horas de
+  sessao que terminam em zero fazem a pessoa nao voltar.
+
+  1a missao da semana: 100%
+  2a missao da semana: 100%
+  3a missao da semana: 50%
+  4a missao da semana: 25%
+  5a missao da semana: 12%
+  6a missao da semana: 6%
+
+  [x] 2 cheias, e dai pela metade: [0.5, 0.48, 0.5].
+
+  Sem o decrescente, quem joga 4x por semana chega ao nivel 20 em 7.8 meses; com ele, em 11.3.
+
+========================================================================================
+5. A FAIXA LENDARIA E MAIS CURTA EM TEMPO?
+========================================================================================
+  mundana  (2 -> 20, 18 niveis): 143 mesas / 14300 XP, ~135 missoes de 106.25
+  lendaria (20 -> 30, 10 niveis): 164 mesas / 16400 XP, ~68 missoes de 240.0
+
+  Razao: 0.51.
+  [x] dentro da folga de 0.35 a 0.75.
+
+  Contra-teste — se o topo rodasse missao mundana ele levaria 154 missoes,
+  contra 135 da base: 1.1x MAIS LENTO, e nao a metade.
+  [x] quem faz a faixa lendaria ser curta e o tamanho da missao.
+
+========================================================================================
+6. AS CINCO CADENCIAS RECONSTROEM? (peca 12 SS5.2)
+========================================================================================
+  29 linha(s) lidas da tabela do SS5.2.
+  [x] as 174 celulas reconstroem de 106.25 / 240.0 / 4.33.
+  pior vao entre 1/sem e 2/sem: 13 niveis, no mes 23.4; o SS5.2 publica 13 e mes 23.
+  [x] o vao publicado sai da propria tabela.
+
+========================================================================================
+7. O GATILHO RECONSTROI? (peca 12 SS5.2)
+========================================================================================
+  4 linha(s) de gatilho lidas, mais a linha sem gatilho: sim
+  3 niveis atras, fator 1.5x: publica 9, a conta da 9
+  3 niveis atras, fator 2.0x: publica 6, a conta da 6
+  3 niveis atras, fator 2.5x: publica 4, a conta da 4
+  3 niveis atras, fator 3.0x: publica 4, a conta da 4
+  [x] toda linha do gatilho reconstroi.
+
+========================================================================================
+8. A CONVERSAO DE MESTRAGEM RECONSTROI? (peca 12 SS6.2)
+========================================================================================
+  regra publica: uma marca a cada 20 mesas mestradas
+  derivado: 3 mesas/mes (levantamento) / 15% (SS6.1) = 20.0
+  [x] o 20 nao foi escolhido: ele e a divisao dos dois donos.
+  [x] o livro publica a forma, e a peca declara que o numero virou recomendacao.
+  [x] as tres linhas da tabela reconstroem de N=20.
+  ate o nivel 20 (15.5 meses a duas mesas por semana): 2.3 marca(s) contra 4 marcos
+  [x] a marca e mais rara que o marco, como o SS6.2.1 diz.
+
+========================================================================================
+9. A LISTA DE FEITOS E FECHADA E ANCORADA? (peca 12 SS7.1)
+========================================================================================
+  8 entrada(s) na tabela; o titulo do SS7.1 diz 8
+  [x] as oito entradas apontam para o documento que carrega o fato.
+  [x] toda peca citada nas entradas existe em 03-mecanica/.
+  [x] o limiar publica 14300 XP, que e a soma da curva.
+
+========================================================================================
+>>> TUDO OK — a tabela reconstroi da regra, a divida do atrasado encolhe e a
+    plana nao fecha, a cadencia da Guilda cabe na faixa pedida, ninguem sai com
+    zero, a faixa lendaria e curta por causa da MISSAO, e a tabela das cinco
+    cadencias e a do gatilho reconstroem, celula a celula, das constantes.

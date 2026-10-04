@@ -1,0 +1,40 @@
+{
+  "ordem": [
+    "equipamento",
+    "manipular",
+    "objetos",
+    "propriedades",
+    "oculta"
+  ],
+  "titulos": {
+    "equipamento": "Equipamento",
+    "manipular": "Sacar e guardar",
+    "objetos": "Usar objetos",
+    "propriedades": "Propriedades",
+    "oculta": "Armas escondidas"
+  },
+  "paginas": {
+    "equipamento": 1,
+    "manipular": 2,
+    "objetos": 3,
+    "propriedades": 4,
+    "oculta": 5
+  },
+  "grupos": [
+    [
+      "Itens em jogo",
+      [
+        "equipamento",
+        "manipular",
+        "objetos"
+      ]
+    ],
+    [
+      "Armas",
+      [
+        "propriedades",
+        "oculta"
+      ]
+    ]
+  ]
+}

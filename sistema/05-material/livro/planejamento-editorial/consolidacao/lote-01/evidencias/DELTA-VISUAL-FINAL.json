@@ -1,0 +1,3174 @@
+{
+  "sha256_pdf": "0bfb9a5551672a584078ed253b99a98bf412581a726854f0b0a5c41bef68e9ea",
+  "metodo": "Pixels RGB integrais ou corpo inteiro exceto últimos70pixels de rodapé a100dpi. Equivalência aceita apenas quando hash idêntico. Rodapés conferidos pelo preflight e amostras ampliadas.",
+  "paginas": [
+    {
+      "pagina": 1,
+      "identica_integral_a": 1,
+      "corpo_identico_a": [
+        1
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 2,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 3,
+      "identica_integral_a": 3,
+      "corpo_identico_a": [
+        3
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 4,
+      "identica_integral_a": 4,
+      "corpo_identico_a": [
+        4
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 5,
+      "identica_integral_a": 5,
+      "corpo_identico_a": [
+        5
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 6,
+      "identica_integral_a": 6,
+      "corpo_identico_a": [
+        6
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 7,
+      "identica_integral_a": 7,
+      "corpo_identico_a": [
+        7
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 8,
+      "identica_integral_a": 8,
+      "corpo_identico_a": [
+        8
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 9,
+      "identica_integral_a": 9,
+      "corpo_identico_a": [
+        9
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 10,
+      "identica_integral_a": 10,
+      "corpo_identico_a": [
+        10
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 11,
+      "identica_integral_a": 11,
+      "corpo_identico_a": [
+        11
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 12,
+      "identica_integral_a": 12,
+      "corpo_identico_a": [
+        12
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 13,
+      "identica_integral_a": 13,
+      "corpo_identico_a": [
+        13
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 14,
+      "identica_integral_a": 14,
+      "corpo_identico_a": [
+        14
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 15,
+      "identica_integral_a": 15,
+      "corpo_identico_a": [
+        15
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 16,
+      "identica_integral_a": 16,
+      "corpo_identico_a": [
+        16
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 17,
+      "identica_integral_a": 17,
+      "corpo_identico_a": [
+        17
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 18,
+      "identica_integral_a": 18,
+      "corpo_identico_a": [
+        18
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 19,
+      "identica_integral_a": 19,
+      "corpo_identico_a": [
+        19
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 20,
+      "identica_integral_a": 20,
+      "corpo_identico_a": [
+        20
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 21,
+      "identica_integral_a": 21,
+      "corpo_identico_a": [
+        21
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 22,
+      "identica_integral_a": 22,
+      "corpo_identico_a": [
+        22
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 23,
+      "identica_integral_a": 23,
+      "corpo_identico_a": [
+        23
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 24,
+      "identica_integral_a": 24,
+      "corpo_identico_a": [
+        24
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 25,
+      "identica_integral_a": 25,
+      "corpo_identico_a": [
+        25
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 26,
+      "identica_integral_a": 26,
+      "corpo_identico_a": [
+        26
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 27,
+      "identica_integral_a": 27,
+      "corpo_identico_a": [
+        27
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 28,
+      "identica_integral_a": 28,
+      "corpo_identico_a": [
+        28
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 29,
+      "identica_integral_a": 29,
+      "corpo_identico_a": [
+        29
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 30,
+      "identica_integral_a": 30,
+      "corpo_identico_a": [
+        30
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 31,
+      "identica_integral_a": 31,
+      "corpo_identico_a": [
+        31
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 32,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 33,
+      "identica_integral_a": 33,
+      "corpo_identico_a": [
+        33
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 34,
+      "identica_integral_a": 34,
+      "corpo_identico_a": [
+        34
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 35,
+      "identica_integral_a": 35,
+      "corpo_identico_a": [
+        35
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 36,
+      "identica_integral_a": 36,
+      "corpo_identico_a": [
+        36
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 37,
+      "identica_integral_a": 37,
+      "corpo_identico_a": [
+        37
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 38,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 39,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 40,
+      "identica_integral_a": 40,
+      "corpo_identico_a": [
+        40
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 41,
+      "identica_integral_a": 41,
+      "corpo_identico_a": [
+        41
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 42,
+      "identica_integral_a": 42,
+      "corpo_identico_a": [
+        42
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 43,
+      "identica_integral_a": 43,
+      "corpo_identico_a": [
+        43
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 44,
+      "identica_integral_a": 44,
+      "corpo_identico_a": [
+        44
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 45,
+      "identica_integral_a": 45,
+      "corpo_identico_a": [
+        45
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 46,
+      "identica_integral_a": 46,
+      "corpo_identico_a": [
+        46
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 47,
+      "identica_integral_a": 47,
+      "corpo_identico_a": [
+        47
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 48,
+      "identica_integral_a": 48,
+      "corpo_identico_a": [
+        48
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 49,
+      "identica_integral_a": 49,
+      "corpo_identico_a": [
+        49
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 50,
+      "identica_integral_a": 50,
+      "corpo_identico_a": [
+        50
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 51,
+      "identica_integral_a": 51,
+      "corpo_identico_a": [
+        51
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 52,
+      "identica_integral_a": 52,
+      "corpo_identico_a": [
+        52
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 53,
+      "identica_integral_a": 53,
+      "corpo_identico_a": [
+        53
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 54,
+      "identica_integral_a": 54,
+      "corpo_identico_a": [
+        54
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 55,
+      "identica_integral_a": 55,
+      "corpo_identico_a": [
+        55
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 56,
+      "identica_integral_a": 56,
+      "corpo_identico_a": [
+        56
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 57,
+      "identica_integral_a": 57,
+      "corpo_identico_a": [
+        57
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 58,
+      "identica_integral_a": 58,
+      "corpo_identico_a": [
+        58
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 59,
+      "identica_integral_a": 59,
+      "corpo_identico_a": [
+        59
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 60,
+      "identica_integral_a": 60,
+      "corpo_identico_a": [
+        60
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 61,
+      "identica_integral_a": 61,
+      "corpo_identico_a": [
+        61
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 62,
+      "identica_integral_a": 62,
+      "corpo_identico_a": [
+        62
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 63,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 64,
+      "identica_integral_a": 64,
+      "corpo_identico_a": [
+        64
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 65,
+      "identica_integral_a": 65,
+      "corpo_identico_a": [
+        65
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 66,
+      "identica_integral_a": 66,
+      "corpo_identico_a": [
+        66
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 67,
+      "identica_integral_a": 67,
+      "corpo_identico_a": [
+        67
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 68,
+      "identica_integral_a": 68,
+      "corpo_identico_a": [
+        68
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 69,
+      "identica_integral_a": 69,
+      "corpo_identico_a": [
+        69
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 70,
+      "identica_integral_a": 70,
+      "corpo_identico_a": [
+        70
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 71,
+      "identica_integral_a": 71,
+      "corpo_identico_a": [
+        71
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 72,
+      "identica_integral_a": 72,
+      "corpo_identico_a": [
+        72
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 73,
+      "identica_integral_a": 73,
+      "corpo_identico_a": [
+        73
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 74,
+      "identica_integral_a": 74,
+      "corpo_identico_a": [
+        74
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 75,
+      "identica_integral_a": 75,
+      "corpo_identico_a": [
+        75
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 76,
+      "identica_integral_a": 76,
+      "corpo_identico_a": [
+        76
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 77,
+      "identica_integral_a": 77,
+      "corpo_identico_a": [
+        77
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 78,
+      "identica_integral_a": 78,
+      "corpo_identico_a": [
+        78
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 79,
+      "identica_integral_a": 79,
+      "corpo_identico_a": [
+        79
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 80,
+      "identica_integral_a": 80,
+      "corpo_identico_a": [
+        80
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 81,
+      "identica_integral_a": 81,
+      "corpo_identico_a": [
+        81
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 82,
+      "identica_integral_a": 82,
+      "corpo_identico_a": [
+        82
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 83,
+      "identica_integral_a": 83,
+      "corpo_identico_a": [
+        83
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 84,
+      "identica_integral_a": 84,
+      "corpo_identico_a": [
+        84
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 85,
+      "identica_integral_a": 85,
+      "corpo_identico_a": [
+        85
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 86,
+      "identica_integral_a": 86,
+      "corpo_identico_a": [
+        86
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 87,
+      "identica_integral_a": 87,
+      "corpo_identico_a": [
+        87
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 88,
+      "identica_integral_a": 88,
+      "corpo_identico_a": [
+        88
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 89,
+      "identica_integral_a": 89,
+      "corpo_identico_a": [
+        89
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 90,
+      "identica_integral_a": 90,
+      "corpo_identico_a": [
+        90
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 91,
+      "identica_integral_a": 91,
+      "corpo_identico_a": [
+        91
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 92,
+      "identica_integral_a": 92,
+      "corpo_identico_a": [
+        92
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 93,
+      "identica_integral_a": 93,
+      "corpo_identico_a": [
+        93
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 94,
+      "identica_integral_a": 94,
+      "corpo_identico_a": [
+        94
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 95,
+      "identica_integral_a": 95,
+      "corpo_identico_a": [
+        95
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 96,
+      "identica_integral_a": 96,
+      "corpo_identico_a": [
+        96
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 97,
+      "identica_integral_a": 97,
+      "corpo_identico_a": [
+        97
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 98,
+      "identica_integral_a": 98,
+      "corpo_identico_a": [
+        98
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 99,
+      "identica_integral_a": 99,
+      "corpo_identico_a": [
+        99
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 100,
+      "identica_integral_a": 100,
+      "corpo_identico_a": [
+        100
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 101,
+      "identica_integral_a": 101,
+      "corpo_identico_a": [
+        101
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 102,
+      "identica_integral_a": 102,
+      "corpo_identico_a": [
+        102
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 103,
+      "identica_integral_a": 103,
+      "corpo_identico_a": [
+        103
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 104,
+      "identica_integral_a": 104,
+      "corpo_identico_a": [
+        104
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 105,
+      "identica_integral_a": 105,
+      "corpo_identico_a": [
+        105
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 106,
+      "identica_integral_a": 106,
+      "corpo_identico_a": [
+        106
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 107,
+      "identica_integral_a": 107,
+      "corpo_identico_a": [
+        107
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 108,
+      "identica_integral_a": 108,
+      "corpo_identico_a": [
+        108
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 109,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 110,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 111,
+      "identica_integral_a": 111,
+      "corpo_identico_a": [
+        111
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 112,
+      "identica_integral_a": 112,
+      "corpo_identico_a": [
+        112
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 113,
+      "identica_integral_a": 113,
+      "corpo_identico_a": [
+        113
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 114,
+      "identica_integral_a": 114,
+      "corpo_identico_a": [
+        114
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 115,
+      "identica_integral_a": 115,
+      "corpo_identico_a": [
+        115
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 116,
+      "identica_integral_a": 116,
+      "corpo_identico_a": [
+        116
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 117,
+      "identica_integral_a": 117,
+      "corpo_identico_a": [
+        117
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 118,
+      "identica_integral_a": 118,
+      "corpo_identico_a": [
+        118
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 119,
+      "identica_integral_a": 119,
+      "corpo_identico_a": [
+        119
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 120,
+      "identica_integral_a": 120,
+      "corpo_identico_a": [
+        120
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 121,
+      "identica_integral_a": 121,
+      "corpo_identico_a": [
+        121
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 122,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 123,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 124,
+      "identica_integral_a": 124,
+      "corpo_identico_a": [
+        124
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 125,
+      "identica_integral_a": 125,
+      "corpo_identico_a": [
+        125
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 126,
+      "identica_integral_a": 126,
+      "corpo_identico_a": [
+        126
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 127,
+      "identica_integral_a": 127,
+      "corpo_identico_a": [
+        127
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 128,
+      "identica_integral_a": 128,
+      "corpo_identico_a": [
+        128
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 129,
+      "identica_integral_a": 129,
+      "corpo_identico_a": [
+        129
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 130,
+      "identica_integral_a": 130,
+      "corpo_identico_a": [
+        130
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 131,
+      "identica_integral_a": 131,
+      "corpo_identico_a": [
+        131
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 132,
+      "identica_integral_a": 132,
+      "corpo_identico_a": [
+        132
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 133,
+      "identica_integral_a": 133,
+      "corpo_identico_a": [
+        133
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 134,
+      "identica_integral_a": 134,
+      "corpo_identico_a": [
+        134
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 135,
+      "identica_integral_a": 135,
+      "corpo_identico_a": [
+        135
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 136,
+      "identica_integral_a": 136,
+      "corpo_identico_a": [
+        136
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 137,
+      "identica_integral_a": 137,
+      "corpo_identico_a": [
+        137
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 138,
+      "identica_integral_a": 138,
+      "corpo_identico_a": [
+        138
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 139,
+      "identica_integral_a": 139,
+      "corpo_identico_a": [
+        139
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 140,
+      "identica_integral_a": 140,
+      "corpo_identico_a": [
+        140
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 141,
+      "identica_integral_a": 141,
+      "corpo_identico_a": [
+        141
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 142,
+      "identica_integral_a": 142,
+      "corpo_identico_a": [
+        142
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 143,
+      "identica_integral_a": 143,
+      "corpo_identico_a": [
+        143
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 144,
+      "identica_integral_a": 144,
+      "corpo_identico_a": [
+        144
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 145,
+      "identica_integral_a": 145,
+      "corpo_identico_a": [
+        145
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 146,
+      "identica_integral_a": 146,
+      "corpo_identico_a": [
+        146
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 147,
+      "identica_integral_a": 147,
+      "corpo_identico_a": [
+        147
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 148,
+      "identica_integral_a": 148,
+      "corpo_identico_a": [
+        148
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 149,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 150,
+      "identica_integral_a": 150,
+      "corpo_identico_a": [
+        150
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 151,
+      "identica_integral_a": 151,
+      "corpo_identico_a": [
+        151
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 152,
+      "identica_integral_a": 152,
+      "corpo_identico_a": [
+        152
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 153,
+      "identica_integral_a": 153,
+      "corpo_identico_a": [
+        153
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 154,
+      "identica_integral_a": 154,
+      "corpo_identico_a": [
+        154
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 155,
+      "identica_integral_a": 155,
+      "corpo_identico_a": [
+        155
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 156,
+      "identica_integral_a": 156,
+      "corpo_identico_a": [
+        156
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 157,
+      "identica_integral_a": 157,
+      "corpo_identico_a": [
+        157
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 158,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 159,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 160,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 161,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 162,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 163,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 164,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 165,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 166,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        165
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 167,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        166
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 168,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 169,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 170,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 171,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        170
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 172,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        171
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 173,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 174,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        173
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 175,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 176,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 177,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 178,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 179,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 180,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 181,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        180
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 182,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        181
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 183,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 184,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        183
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 185,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        184
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 186,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 187,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        186
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 188,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        187
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 189,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 190,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 191,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        190
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 192,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        191
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 193,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 194,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        193
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 195,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 196,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 197,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        196
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 198,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        197
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 199,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        198
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 200,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 201,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 202,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        201
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 203,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        202
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 204,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 205,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 206,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 207,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        206
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 208,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        207
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 209,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        208
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 210,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        209
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 211,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        210
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 212,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        211
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 213,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        212
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 214,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        213
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 215,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        214
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 216,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        215
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 217,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        216
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 218,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        217
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 219,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 220,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        219
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 221,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        220
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 222,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 223,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        222
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 224,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 225,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 226,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        225
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 227,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        226
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 228,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        227
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 229,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        228
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 230,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        229
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 231,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        230
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 232,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        231
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 233,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        232
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 234,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        233
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 235,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        234
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 236,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        235
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 237,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        236
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 238,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        237
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 239,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 240,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        239
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 241,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        240
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 242,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        241
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 243,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        242
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 244,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 245,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        244
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 246,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        245
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 247,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        246
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 248,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        247
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 249,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        248
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 250,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 251,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        250
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 252,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        251
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 253,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        252
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 254,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        253
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 255,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        254
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 256,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        255
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 257,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        256
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 258,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        257
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 259,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        258
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 260,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        259
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 261,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        260
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 262,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        261
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 263,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        262
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 264,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        263
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 265,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        264
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 266,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        265
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 267,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        266
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 268,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        267
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 269,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        268
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 270,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        269
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 271,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        270
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 272,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        271
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 273,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        272
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 274,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        273
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 275,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 276,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        275
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 277,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        276
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 278,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        277
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 279,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        278
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 280,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 281,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        280
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 282,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 283,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        282
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 284,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        283
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 285,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        284
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 286,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 287,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        286
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 288,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        287
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 289,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        288
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 290,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        289
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 291,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        290
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 292,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        291
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 293,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        292
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 294,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        293
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 295,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        294
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 296,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        295
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 297,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        296
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 298,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 299,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 300,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        299
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 301,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        300
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 302,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        301
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 303,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        302
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 304,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        303
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 305,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        304
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 306,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        305
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 307,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        306
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 308,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        307
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 309,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        308
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 310,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        309
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 311,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        310
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 312,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        311
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 313,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        312
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 314,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        313
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 315,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        314
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 316,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        315
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 317,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        316
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 318,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        317
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 319,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        318
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 320,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        319
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 321,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        320
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 322,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        321
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 323,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        322
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 324,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        323
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 325,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        324
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 326,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        325
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 327,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        326
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 328,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        327
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 329,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        328
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 330,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        329
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 331,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        330
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 332,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        331
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 333,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        332
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 334,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 335,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        334
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 336,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        335
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 337,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        336
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 338,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        337
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 339,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        338
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 340,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        339
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 341,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 342,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 343,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 344,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        343
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 345,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 346,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        345
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 347,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 348,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        347
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 349,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        348
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 350,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 351,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 352,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        351
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 353,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        352
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 354,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        353
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 355,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        354
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 356,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        355
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 357,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        356
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 358,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 359,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 360,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 361,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 362,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 363,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        362
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 364,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 365,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 366,
+      "identica_integral_a": null,
+      "corpo_identico_a": [
+        365
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 367,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 368,
+      "identica_integral_a": 368,
+      "corpo_identico_a": [
+        368
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 369,
+      "identica_integral_a": 369,
+      "corpo_identico_a": [
+        369
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 370,
+      "identica_integral_a": 370,
+      "corpo_identico_a": [
+        370
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 371,
+      "identica_integral_a": 371,
+      "corpo_identico_a": [
+        371
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 372,
+      "identica_integral_a": 372,
+      "corpo_identico_a": [
+        372
+      ],
+      "requer_inspecao": false
+    },
+    {
+      "pagina": 373,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 374,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 375,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 376,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 377,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 378,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 379,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 380,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 381,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 382,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    },
+    {
+      "pagina": 383,
+      "identica_integral_a": null,
+      "corpo_identico_a": [],
+      "requer_inspecao": true
+    }
+  ],
+  "alteradas": [
+    2,
+    32,
+    38,
+    39,
+    63,
+    109,
+    110,
+    122,
+    123,
+    149,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    168,
+    169,
+    170,
+    173,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    183,
+    186,
+    189,
+    190,
+    193,
+    195,
+    196,
+    200,
+    201,
+    204,
+    205,
+    206,
+    219,
+    222,
+    224,
+    225,
+    239,
+    244,
+    250,
+    275,
+    280,
+    282,
+    286,
+    298,
+    299,
+    334,
+    341,
+    342,
+    343,
+    345,
+    347,
+    350,
+    351,
+    358,
+    359,
+    360,
+    361,
+    362,
+    364,
+    365,
+    367,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383
+  ],
+  "mosaicos": [
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-01.png",
+      "paginas": [
+        2,
+        32,
+        38,
+        39
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-02.png",
+      "paginas": [
+        63,
+        109,
+        110,
+        122
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-03.png",
+      "paginas": [
+        123,
+        149,
+        158,
+        159
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-04.png",
+      "paginas": [
+        160,
+        161,
+        162,
+        163
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-05.png",
+      "paginas": [
+        164,
+        165,
+        168,
+        169
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-06.png",
+      "paginas": [
+        170,
+        173,
+        175,
+        176
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-07.png",
+      "paginas": [
+        177,
+        178,
+        179,
+        180
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-08.png",
+      "paginas": [
+        183,
+        186,
+        189,
+        190
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-09.png",
+      "paginas": [
+        193,
+        195,
+        196,
+        200
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-10.png",
+      "paginas": [
+        201,
+        204,
+        205,
+        206
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-11.png",
+      "paginas": [
+        219,
+        222,
+        224,
+        225
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-12.png",
+      "paginas": [
+        239,
+        244,
+        250,
+        275
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-13.png",
+      "paginas": [
+        280,
+        282,
+        286,
+        298
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-14.png",
+      "paginas": [
+        299,
+        334,
+        341,
+        342
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-15.png",
+      "paginas": [
+        343,
+        345,
+        347,
+        350
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-16.png",
+      "paginas": [
+        351,
+        358,
+        359,
+        360
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-17.png",
+      "paginas": [
+        361,
+        362,
+        364,
+        365
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-18.png",
+      "paginas": [
+        367,
+        373,
+        374,
+        375
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-19.png",
+      "paginas": [
+        376,
+        377,
+        378,
+        379
+      ]
+    },
+    {
+      "arquivo": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/output/mosaicos-delta/grupo-20.png",
+      "paginas": [
+        380,
+        381,
+        382,
+        383
+      ]
+    }
+  ]
+}

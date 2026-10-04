@@ -1,0 +1,90 @@
+========================================================================================================================================================================
+FEITICOS PRONTOS (30 comuns)
+========================================================================================================================================================================
+Estalo               G1  3pt  3PE |                                                                         | 3d8 = 13                                  OK
+Chicote              G1  3pt  3PE | Linha (-1)                                                              | 2d8 = 9                                   OK
+Perfurar             G1  3pt  3PE | Precisao (-1) · Parado (+1)                                             | 3d8 = 13                                  OK
+Golpe Cru            G1  3pt  3PE | Toque · Corpo a Corpo (+1)                                              | 3d8 = 13                                  OK
+Palma Trovejante     G2  6pt  6PE | Cone (-1) · Condicao: Derrubado (-1) · Atrasar (+2)                     | 6d8 = 27                                  OK
+Lanca Negra          G2  6pt  6PE | Fura (-2) · Atrasar (+2)                                                | 6d8 = 27                                  OK
+Faisca em Cadeia     G2  6pt  6PE | Salto (-2) · Gesto (+1)                                                 | 5d8 = 22 [+2d8=9]                         OK
+Sopro                G2  6pt  6PE | Cura (-2)                                                               | cura 4d8 = 18                             OK
+Vento a Favor        G2  6pt  6PE | Apoio · Impulso (-1) · Pressa (-2)                                      | 3d8 = 13                                  OK
+Marca do Carrasco    G3  9pt  9PE | Marca (-2) · Queima (-3) · Uma Vez (+2)                                 | 6d8 = 27 [+3d8=13]                        OK
+Domo de Gelo         G3  9pt  9PE | Explosao (-2) · Terreno (-2) · Maior (-2) · Condicional: no escuro (+2) | 5d8 = 22                                  OK
+Passo Cortante       G3  9pt  9PE | Toque · Passo (-2) · Precisao (-2) · Corpo a Corpo (+3)                 | 8d8 = 36                                  OK
+Costura              G3  9pt  9PE | Cura (-3) · Limpa (-3) · Gesto (+2)                                     | cura 5d8 = 22                             OK
+Rede                 G3  9pt  9PE | Explosao (-2) · Condicao: Atordoado (-5) · Terreno (-2)                 | 0d8 = 0                 CD+2 e +1 rodada  OK
+Hora Morta           G3  9pt  9PE | Efeito · Longe (-2)                                                     | escala e duracao da Classe 3                  OK
+Fissura              G3  9pt  9PE | Toca a Alma (-2)                                                        | 7d -> 3d8 = 13 na alma                    OK
+Prisao de Sombras    G4 12pt 12PE | Explosao (-2) · Condicao: Atordoado (-6) · Escolher (-4) · Sangra (+4)  | 4d8 = 18                +1 rodada         OK
+Julgamento Vertical  G4 12pt 12PE | Linha (-2) · Fura (-4) · Precisao (-2) · Atrasar (+4)                   | 8d8 = 36                                  OK
+Roubo de Folego      G4 12pt 12PE | Sugar (-4) · Remate (-4) · Condicional: alvo que te acertou (+4)        | 8d8 = 36                                  OK
+Passo do Espelho     G4 12pt 12PE | Toque · Rapido (-6) · Passo (-2) · Recuo (+4) · Corpo a Corpo (+4)      | 12d8 = 54                                 OK
+Muralha              G4 12pt 12PE | Apoio · Anteparo (-4) · Guarda (-4) · Parado (+2)                       | 6d8 = 27                                  OK
+Mare Branca          G4 12pt 12PE | Onda (-6)                                                               | cura 6d8 = 27                             OK
+Alinhavo             G4 12pt 12PE | Cura (-4) · Remenda (-6) · Gesto (+2)                                   | cura 4d8 = 18                             OK
+Purga Escarlate      G5 15pt 15PE | Inescapavel (-5)                                                        | 10d8 = 45                                 OK
+Chuva de Agulhas     G5 15pt 15PE | Rajada (-3) · Precisao (-3) · Parado (+3)                               | 12d8 = 54                                 OK
+Vala Comum           G5 15pt 15PE | Explosao (-3) · Maior (-3) · Condicao: Derrubado (-3) · Atrasar (+5)    | 11d8 = 49                                 OK
+Fim de Turno         G5 15pt 15PE | Explosao (-3) · Escolher (-5) · Atrasar (+5)                            | 12d8 = 54                                 OK
+Segunda Vida         G5 15pt 15PE | Cura (-5) · Levanta (-8) · Uma Vez (+3) · Gesto (+3)                    | cura 8d8 = 36                             OK
+Fio Preso            G5 15pt 15PE | Efeito · Fica (-5)                                                      | escala e duracao da Classe 5                  OK
+Sete Palmos          G5 15pt 15PE | Toque · Toca a Alma (-3) · Corpo a Corpo (+5)                           | 15d -> 7d8 = 31 na alma                   OK
+  Fio Preso: com Fica, a duracao sobe do degrau 'uma semana' (Classe 5) pro seguinte:
+  ATE ALGUEM DESFAZER. (v6 dizia 'por uma semana' — corrigido no v7.)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LIBERACOES MAXIMAS (Classe 3+, fora da lista de conhecidos, +Classe em dados, PE +50% arredondando pra cima)
+Golpe do Voto        G5 15pt 23PE | LIBERACAO (+5)                                                          | 20d8 = 90                                 OK
+Rachadura            G3  9pt 14PE | Linha (-2) · Atrasar (+3) · LIBERACAO (+3)                              | 12d8 = 54                                 OK
+Sentenca Final       G5 15pt 23PE | Explosao (-3) · Escolher (-5) · Atrasar (+5) · LIBERACAO (+5)           | 17d8 = 76                                 OK
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EXEMPLO DE ABERTURA — Lanca Negra (a Restricao paga a Melhoria inteira)
+Lanca Negra (abertura) G2  6pt  6PE | Fura (-2) · Atrasar (+2)                                                | 6d8 = 27                                  OK
+  A devolucao do Atrasar (2) cobre exatamente a Fura (2): dano cheio + Fura de graca.
+  E o teto contra um alvo segura em 6 — Restricao nunca passa disso.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TUTORIAL DA SECAO 2 — Corte Medido (feitico da Regua: Mira e Alcance Livres)
+Corte Medido         G2  6pt  6PE | Fura (-1 Livre) · Precisao (-1 Livre) · Parado (+1)                     | 5d8 = 22                                  OK
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TABELA DE AMPLIAR — Palma Trovejante completa (Cone + Derrubado + Atrasar) por Classe
+v0.104: o Derrubado e Leve. Antes disto a tabela dizia 5d8/7d8/12d8, com o Derrubado em Media.
+  Classe 2: 6 pts - Cone 1 - Derrubado 1 + Atrasar 2 = 6d8 = 27  (Controle: nada; 75% do teto; PE 6)
+  Classe 3: 9 pts - Cone 2 - Derrubado 2 + Atrasar 3 = 8d8 = 36  (Controle: nada; 67% do teto; PE 9)
+  Classe 5: 15 pts - Cone 3 - Derrubado 3 + Atrasar 5 = 14d8 = 63  (Controle: nada; 70% do teto; PE 15)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TECNICA MAXIMA — dados fixos + orcamento de montagem nos precos da MAIOR Classe
+  17 a 20: 24d8 = 108 · orcamento 8 pontos (precos da Classe 5: L 3 / M 5 / P 8) · PE 25
+  21 a 25: 28d8 = 126 · orcamento 8 pontos (precos da Classe 6: L 3 / M 6 / P 9) · PE 30
+  26 a 30: 32d8 = 144 · orcamento 12 pontos (precos da Classe 7: L 4 / M 7 / P 11) · PE 35
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TRAVA DO CATALOGO DE RESTRICOES — nenhuma devolve Pesada
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Classeteto de devolucao   2 Restricoes Medias   2 Pesadas seriam  
+  1     2                   2                     4                 
+  2     4                   4                     6                 
+  3     6                   6                     10                
+  4     8                   8                     12                
+  5     10                  10                    16                
+  6     12                  12                    18                
+  7     14                  14                    22                
+  => o catalogo (e a Restricao Propria) fecham exatamente no teto usando Medias.
+
+========================================================================================================================================================================
+TABELAS DO MANUAL — conferencia rapida
+  Cura cheia: G1 2d8=9 · G2 4d8=18 · G3 6d8=27 · G4 8d8=36 · G5 10d8=45
+  Onda:       G1 1d8=4 · G2 3d8=13 · G3 4d8=18 · G4 6d8=27 · G5 7d8=31
+========================================================================================================================================================================
+Notas (iguais ao v6, o que mudou esta no topo do arquivo):
+  Anteparo = 10 x Classe -> Muralha deixa parede de 40 na Classe 4.
+  Toque e Aura ja carregam Corpo a Corpo embutida (devolve Media, conta no limite de 2 Restricoes).
+  Condicional devolve Leve (falha rara) ou Media (falha na maioria). Remate nao aceita Condicional de vida do alvo.
+  Toca a Alma: so Classe 3+, so Regra que encosta em alma/mente/conceito, e nao entra em Liberacao.
+  Dados na alma = metade dos dados finais, arredondando pra baixo. Teto na alma = 2 x Classe.
+  Alinhavo: alem da cura, devolve 5 x Classe = 20 de Integridade (Remenda, uma vez por cena, por alvo).
+  Classe 0 nao entra: nao se monta.
+  Selo v7: identidade + trava (Restricao que o Selo ja obriga nao devolve ponto). SEM bonus de ponto.
+  Restricao Propria (v7.2): customizada, devolve Leve ou Media, conta no limite de 2.
+  Atrasar = Media e Aquecer = Leve desde a v7.3.
+
+>>> TUDO OK — todos os feiticos, exemplos e tabelas do manual v7 conferem.

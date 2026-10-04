@@ -1,0 +1,20 @@
+--- antes
++++ depois
+@@ -456,7 +456,7 @@
+ 
+ A reserva é consumida nesse disparo, mesmo se a cura for impedida. O valor não volta ao conjurador. Se a cena terminar antes, ela se perde. Cada aliado mantém uma reserva: receber outra substitui a anterior, sem somar valores. Estar abaixo da metade ao recebê-la não a dispara imediatamente.
+ 
+-A peça não adia as outras Melhorias. Junto divide a cura antes de guardá-la; Onda pode guardar sua cura em cada aliado alcançado. A zero de vida, a cura segue Recuperação; Reserva não concede o efeito de Levanta por conta própria.
++A peça não adia as outras Melhorias. Junto divide a cura antes de guardá-la; Onda pode guardar sua cura em cada aliado alcançado. A zero de vida, a cura segue Socorro, em Dano e recuperação; Reserva não concede o efeito de Levanta por conta própria.
+ 
+ 
+ <!-- page:cat-proprio|Efeito Próprio -->
+@@ -529,7 +529,7 @@
+ 
+ **Devolução: Leve ou Média.** Escolha uma condição na montagem. Ao conjurar, você recebe essa condição até o fim do seu próximo turno, mesmo se o feitiço não afetar ninguém. A devolução tem a gravidade da condição escolhida. Condições Pesadas não entram.
+ 
+-Use as condições de **Dano e condições**. A escolha precisa prejudicar o personagem: uma imunidade que impeça a condição elimina a possibilidade de receber pontos por ela. Não some outra Restrição que cobre a mesma consequência.
++Use as condições da seção **Condições, em Dano e recuperação**. A escolha precisa prejudicar o personagem: uma imunidade que impeça a condição elimina a possibilidade de receber pontos por ela. Não some outra Restrição que cobre a mesma consequência.
+ 
+ ## Fraqueza
+ 

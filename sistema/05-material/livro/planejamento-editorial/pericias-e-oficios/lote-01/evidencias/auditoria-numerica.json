@@ -1,0 +1,379 @@
+{
+  "ok": true,
+  "verificacoes": 41,
+  "checks": [
+    {
+      "caso": "Perícias por nome e atributo coincidem com o dono",
+      "obtido": {
+        "Atletismo": "Força",
+        "Acrobacia": "Destreza",
+        "Furtividade": "Destreza",
+        "Pontaria": "Destreza",
+        "Prestidigitação": "Destreza",
+        "Investigação": "Inteligência",
+        "Intuição": "Inteligência",
+        "Ocultismo": "Inteligência",
+        "Religião": "Inteligência",
+        "História": "Inteligência",
+        "Hierarquia": "Inteligência",
+        "Medicina": "Inteligência",
+        "Sobrevivência": "Inteligência",
+        "Natureza": "Inteligência",
+        "Lidar com Animais": "Inteligência",
+        "Tecnologia": "Inteligência",
+        "Sentir Energia": "Essência",
+        "Percepção": "Essência",
+        "Persuasão": "Essência",
+        "Enganação": "Essência",
+        "Intimidação": "Essência",
+        "Atuação": "Essência",
+        "Provocar": "Essência"
+      },
+      "esperado": {
+        "Atletismo": "Força",
+        "Acrobacia": "Destreza",
+        "Furtividade": "Destreza",
+        "Pontaria": "Destreza",
+        "Prestidigitação": "Destreza",
+        "Investigação": "Inteligência",
+        "Intuição": "Inteligência",
+        "Ocultismo": "Inteligência",
+        "Religião": "Inteligência",
+        "História": "Inteligência",
+        "Hierarquia": "Inteligência",
+        "Medicina": "Inteligência",
+        "Sobrevivência": "Inteligência",
+        "Natureza": "Inteligência",
+        "Lidar com Animais": "Inteligência",
+        "Tecnologia": "Inteligência",
+        "Sentir Energia": "Essência",
+        "Percepção": "Essência",
+        "Persuasão": "Essência",
+        "Enganação": "Essência",
+        "Intimidação": "Essência",
+        "Atuação": "Essência",
+        "Provocar": "Essência"
+      },
+      "ok": true
+    },
+    {
+      "caso": "Distribuição 1/4/11/7",
+      "obtido": {
+        "Força": 1,
+        "Destreza": 4,
+        "Inteligência": 11,
+        "Essência": 7
+      },
+      "esperado": {
+        "Força": 1,
+        "Destreza": 4,
+        "Inteligência": 11,
+        "Essência": 7
+      },
+      "ok": true
+    },
+    {
+      "caso": "Onze ofícios e atributos padrão",
+      "obtido": {
+        "Condução": "Destreza",
+        "Arrombamento": "Destreza",
+        "Herbalismo": "Inteligência",
+        "Forja": "Força",
+        "Caligrafia": "Destreza",
+        "Burocracia": "Inteligência",
+        "Entalhador": "Destreza",
+        "Alfaiate": "Destreza",
+        "Culinária": "Inteligência",
+        "Instrumento": "Essência",
+        "Jogatina": "Essência"
+      },
+      "esperado": {
+        "Condução": "Destreza",
+        "Arrombamento": "Destreza",
+        "Caligrafia": "Destreza",
+        "Entalhador": "Destreza",
+        "Alfaiate": "Destreza",
+        "Forja": "Força",
+        "Herbalismo": "Inteligência",
+        "Burocracia": "Inteligência",
+        "Culinária": "Inteligência",
+        "Instrumento": "Essência",
+        "Jogatina": "Essência"
+      },
+      "ok": true
+    },
+    {
+      "caso": "Contagem Ofícios",
+      "obtido": 11,
+      "esperado": 11,
+      "ok": true
+    },
+    {
+      "caso": "Intuição permanece Inteligência",
+      "obtido": "Inteligência",
+      "esperado": "Inteligência",
+      "ok": true
+    },
+    {
+      "caso": "Sentir Energia permanece Essência",
+      "obtido": "Essência",
+      "esperado": "Essência",
+      "ok": true
+    },
+    {
+      "caso": "Rina Destreza4 + Maestria1",
+      "obtido": 5,
+      "esperado": 5,
+      "ok": true
+    },
+    {
+      "caso": "Rina Inteligência2 + Maestria1",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Diferença entre bônus",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Resultado mínimo no dado, CD14",
+      "obtido": [
+        9,
+        11
+      ],
+      "esperado": [
+        9,
+        11
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Reparo: horas restantes",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Exemplo preço local / proteção não sobe",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Treino/especialização não pioram chance na mesma tarefa",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "caso": "Bônus máximo sem efeitos externos",
+      "obtido": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "caso": "Rina CD14: 60% ou 50%",
+      "obtido": [
+        "3/5",
+        "1/2"
+      ],
+      "esperado": [
+        "3/5",
+        "1/2"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "CD26 não é possível com bônus0, nem em20",
+      "obtido": "0",
+      "esperado": "0",
+      "ok": true
+    },
+    {
+      "caso": "Cinco repetições livres inflariam para98,976%",
+      "obtido": "3093/3125",
+      "esperado": "3093/3125",
+      "ok": true
+    },
+    {
+      "caso": "Nova tentativa (False, False, False, False)",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Nova tentativa (True, False, False, True)",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Nova tentativa (False, True, False, False)",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Nova tentativa (False, False, True, False)",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Nova tentativa (False, False, False, True)",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Limite: mesmo fora de combate",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo textual: mesmo fora de combate",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Limite: não reduz dano de queda nem encerra um agarrão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo textual: não reduz dano de queda nem encerra um agarrão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Limite: Domar entidades e comandar criaturas vinculadas seguem suas regras próprias",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo textual: Domar entidades e comandar criaturas vinculadas seguem suas regras próprias",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Limite: não fornece visão, identidade, grau ou previsão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo textual: não fornece visão, identidade, grau ou previsão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Limite: não renova usos gastos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo textual: não renova usos gastos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Limite: não concede sozinho a capacidade de criar poderes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo textual: não concede sozinho a capacidade de criar poderes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Limite: não concede ao responsável um treino obrigatório",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo textual: não concede ao responsável um treino obrigatório",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Limite: não há desconto universal",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Negativo textual: não há desconto universal",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação de atributo detectada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação de padrão detectada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Sem tabela de habilidades de Caminho",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+    "sistema/03-mecanica/07-pericias-e-oficios.md": "d94a4dc2811757b5d7233e1814eed65b34f8bc561be75939fd0f8a8509d4e127",
+    "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-01/TESTES-E-TURNOS.md": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35"
+  },
+  "estados_numericos": 9954,
+  "repeticao": [
+    {
+      "tentativas": 1,
+      "sucesso_ao_menos_uma": 0.6,
+      "minutos_se_arrombamento_comum": 1
+    },
+    {
+      "tentativas": 2,
+      "sucesso_ao_menos_uma": 0.84,
+      "minutos_se_arrombamento_comum": 2
+    },
+    {
+      "tentativas": 3,
+      "sucesso_ao_menos_uma": 0.936,
+      "minutos_se_arrombamento_comum": 3
+    },
+    {
+      "tentativas": 5,
+      "sucesso_ao_menos_uma": 0.98976,
+      "minutos_se_arrombamento_comum": 5
+    }
+  ],
+  "limites": [
+    "A matemática verifica bônus, probabilidade e exemplos; não comprova compreensão humana.",
+    "Domínio por chance vale somente na mesma tarefa possível. Não atribui utilidade ou preço igual a perícias distintas.",
+    "Fabricação usa orçamento/prazo de projeto; não há curva universal de produção ou lucro validada."
+  ]
+}

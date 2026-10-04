@@ -1,0 +1,88 @@
+{
+  "fonte_custos": "sistema/05-material/livro/manual/40-fundamento.md",
+  "sha256_fonte": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96",
+  "candidata": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+  "classes": {
+    "1": {
+      "nivel": 1,
+      "B": 3,
+      "L": 1,
+      "M": 1,
+      "H": 2
+    },
+    "2": {
+      "nivel": 5,
+      "B": 6,
+      "L": 1,
+      "M": 2,
+      "H": 3
+    },
+    "3": {
+      "nivel": 9,
+      "B": 9,
+      "L": 2,
+      "M": 3,
+      "H": 5
+    },
+    "4": {
+      "nivel": 13,
+      "B": 12,
+      "L": 2,
+      "M": 4,
+      "H": 6
+    },
+    "5": {
+      "nivel": 17,
+      "B": 15,
+      "L": 3,
+      "M": 5,
+      "H": 8
+    },
+    "6": {
+      "nivel": 21,
+      "B": 18,
+      "L": 3,
+      "M": 6,
+      "H": 9
+    },
+    "7": {
+      "nivel": 26,
+      "B": 21,
+      "L": 4,
+      "M": 7,
+      "H": 11
+    }
+  },
+  "maxima": [
+    [
+      24,
+      8,
+      25
+    ],
+    [
+      28,
+      12,
+      30
+    ],
+    [
+      32,
+      16,
+      35
+    ]
+  ],
+  "maxima_incompativeis": [
+    "Acúmulo",
+    "Estilhaço",
+    "Fica",
+    "Inescapável",
+    "Quebra Coisa",
+    "Queima",
+    "Reação",
+    "Remate",
+    "Rápido",
+    "Salto"
+  ],
+  "cenarios": 53,
+  "auditoria": "auditar.py",
+  "nao_e_motor_de_regras": true
+}

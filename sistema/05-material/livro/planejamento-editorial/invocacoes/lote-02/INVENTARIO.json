@@ -1,0 +1,498 @@
+[
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Invocações",
+    "linha": 1,
+    "dono": "R12",
+    "destino": "entidades-criar",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Entrada rápida",
+    "linha": 13,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Aquisição",
+    "linha": 41,
+    "dono": "R12",
+    "destino": "entidades-aquisicao",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Domar",
+    "linha": 57,
+    "dono": "R12",
+    "destino": "entidades-domar",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Montagem da entidade",
+    "linha": 67,
+    "dono": "R12",
+    "destino": "entidades-criar",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Definição",
+    "linha": 73,
+    "dono": "R12",
+    "destino": "entidades-definicao",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Famílias",
+    "linha": 81,
+    "dono": "R12",
+    "destino": "entidades-familias",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Básica e especial",
+    "linha": 106,
+    "dono": "R12",
+    "destino": "entidades-basicas",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Espaços e passivas",
+    "linha": 133,
+    "dono": "R12",
+    "destino": "entidades-progressao",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Progressão",
+    "linha": 143,
+    "dono": "R12",
+    "destino": "entidades-progressao",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Montagem da habilidade",
+    "linha": 149,
+    "dono": "R12",
+    "destino": "entidades-especiais",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Formas",
+    "linha": 176,
+    "dono": "R12",
+    "destino": "entidades-formas",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Catálogo de Melhorias",
+    "linha": 242,
+    "dono": "R12",
+    "destino": "entidades-efeitos-reduzidos",
+    "observacao": "Catálogo integral remete ao R07; dados alterados da entidade permanecem nas tabelas R12."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Restrições",
+    "linha": 425,
+    "dono": "R12",
+    "destino": "entidades-restricoes",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Escolha das passivas",
+    "linha": 466,
+    "dono": "R12",
+    "destino": "entidades-passivas",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Ficha da entidade",
+    "linha": 495,
+    "dono": "R12",
+    "destino": "entidades-atributos",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Traje e Revestimento",
+    "linha": 519,
+    "dono": "R12",
+    "destino": "entidades-vida-defesa",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Exemplo de montagem",
+    "linha": 529,
+    "dono": "R12",
+    "destino": "entidade-cao",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Entidade em campo",
+    "linha": 555,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Recursos e ciclo",
+    "linha": 557,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Entrada e recolhimento",
+    "linha": 577,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Troca",
+    "linha": 597,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Retorno e reserva",
+    "linha": 617,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Intenção",
+    "linha": 629,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Redirecionamento",
+    "linha": 637,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Impedimento e tarefa concluída",
+    "linha": 645,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Comunicação",
+    "linha": 655,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Básica e limite de ataques",
+    "linha": 671,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Ações comuns",
+    "linha": 683,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Especial",
+    "linha": 697,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Energia",
+    "linha": 707,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Ordem antecipada",
+    "linha": 721,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Ordens pendentes",
+    "linha": 751,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Preparar",
+    "linha": 763,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Especial preparada",
+    "linha": 775,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Cruzamento e movimento",
+    "linha": 791,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Mudança de modalidade",
+    "linha": 799,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Movimento e defesa",
+    "linha": 807,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Reação coletiva",
+    "linha": 811,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Bloquear",
+    "linha": 819,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Esquivar e condições",
+    "linha": 827,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Respostas do Guia",
+    "linha": 839,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Talismã",
+    "linha": 857,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Corpo amaldiçoado",
+    "linha": 871,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Modo inativo",
+    "linha": 875,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Imunidades e cura",
+    "linha": 887,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Reparo",
+    "linha": 895,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Trunfos da domada",
+    "linha": 905,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Liberação Máxima",
+    "linha": 929,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Técnica Máxima",
+    "linha": 941,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Expansão de Domínio",
+    "linha": 949,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Queda e morte",
+    "linha": 983,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Morte definitiva",
+    "linha": 987,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Queda sem destruição",
+    "linha": 999,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Volta",
+    "linha": 1009,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Desligada",
+    "linha": 1017,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Efeitos fora de campo",
+    "linha": 1029,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Invocador inconsciente",
+    "linha": 1043,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Manutenção",
+    "linha": 1055,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Morte do invocador",
+    "linha": 1065,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Carga e equipamento",
+    "linha": 1081,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  },
+  {
+    "fonte": "sistema/05-material/livro/manual/60-invocacoes.md",
+    "titulo": "Saída com equipamento",
+    "linha": 1091,
+    "dono": "R11",
+    "destino": "Invocações em campo",
+    "observacao": "Fonte equivalente na edição integrada, byte a byte."
+  }
+]

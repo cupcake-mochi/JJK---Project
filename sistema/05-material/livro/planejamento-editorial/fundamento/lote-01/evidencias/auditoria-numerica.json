@@ -1,0 +1,1105 @@
+{
+  "data": "2026-10-03",
+  "ok": true,
+  "sha256_texto": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273"
+  },
+  "verificacoes": 68,
+  "estados_de_orcamento": 39032,
+  "perfis_maxima": 840,
+  "transicoes_maxima": [
+    {
+      "de": 5,
+      "para": 6,
+      "perfis_anteriores": 68,
+      "perdas": 0,
+      "orcamento": 12
+    },
+    {
+      "de": 6,
+      "para": 7,
+      "perfis_anteriores": 133,
+      "perdas": 0,
+      "orcamento": 16
+    }
+  ],
+  "certeiro_cenarios": [
+    {
+      "classe": 1,
+      "limiar": 6,
+      "perfil": "normal",
+      "media_comum": 10.8,
+      "media_certeiro": 8.325
+    },
+    {
+      "classe": 1,
+      "limiar": 6,
+      "perfil": "livre",
+      "media_comum": 10.8,
+      "media_certeiro": 8.325
+    },
+    {
+      "classe": 1,
+      "limiar": 6,
+      "perfil": "refund",
+      "media_comum": 10.8,
+      "media_certeiro": 11.925
+    },
+    {
+      "classe": 1,
+      "limiar": 11,
+      "perfil": "normal",
+      "media_comum": 7.425,
+      "media_certeiro": 7.2
+    },
+    {
+      "classe": 1,
+      "limiar": 11,
+      "perfil": "livre",
+      "media_comum": 7.425,
+      "media_certeiro": 7.2
+    },
+    {
+      "classe": 1,
+      "limiar": 11,
+      "perfil": "refund",
+      "media_comum": 7.425,
+      "media_certeiro": 9.675
+    },
+    {
+      "classe": 1,
+      "limiar": 16,
+      "perfil": "normal",
+      "media_comum": 4.05,
+      "media_certeiro": 6.075
+    },
+    {
+      "classe": 1,
+      "limiar": 16,
+      "perfil": "livre",
+      "media_comum": 4.05,
+      "media_certeiro": 6.075
+    },
+    {
+      "classe": 1,
+      "limiar": 16,
+      "perfil": "refund",
+      "media_comum": 4.05,
+      "media_certeiro": 7.425
+    },
+    {
+      "classe": 2,
+      "limiar": 6,
+      "perfil": "normal",
+      "media_comum": 21.6,
+      "media_certeiro": 16.65
+    },
+    {
+      "classe": 2,
+      "limiar": 6,
+      "perfil": "livre",
+      "media_comum": 21.6,
+      "media_certeiro": 20.25
+    },
+    {
+      "classe": 2,
+      "limiar": 6,
+      "perfil": "refund",
+      "media_comum": 21.6,
+      "media_certeiro": 24.975
+    },
+    {
+      "classe": 2,
+      "limiar": 11,
+      "perfil": "normal",
+      "media_comum": 14.85,
+      "media_certeiro": 14.4
+    },
+    {
+      "classe": 2,
+      "limiar": 11,
+      "perfil": "livre",
+      "media_comum": 14.85,
+      "media_certeiro": 16.875
+    },
+    {
+      "classe": 2,
+      "limiar": 11,
+      "perfil": "refund",
+      "media_comum": 14.85,
+      "media_certeiro": 21.6
+    },
+    {
+      "classe": 2,
+      "limiar": 16,
+      "perfil": "normal",
+      "media_comum": 8.1,
+      "media_certeiro": 12.15
+    },
+    {
+      "classe": 2,
+      "limiar": 16,
+      "perfil": "livre",
+      "media_comum": 8.1,
+      "media_certeiro": 13.5
+    },
+    {
+      "classe": 2,
+      "limiar": 16,
+      "perfil": "refund",
+      "media_comum": 8.1,
+      "media_certeiro": 18.225
+    },
+    {
+      "classe": 3,
+      "limiar": 6,
+      "perfil": "normal",
+      "media_comum": 32.4,
+      "media_certeiro": 24.975
+    },
+    {
+      "classe": 3,
+      "limiar": 6,
+      "perfil": "livre",
+      "media_comum": 32.4,
+      "media_certeiro": 33.3
+    },
+    {
+      "classe": 3,
+      "limiar": 6,
+      "perfil": "refund",
+      "media_comum": 32.4,
+      "media_certeiro": 36.9
+    },
+    {
+      "classe": 3,
+      "limiar": 11,
+      "perfil": "normal",
+      "media_comum": 22.275,
+      "media_certeiro": 21.6
+    },
+    {
+      "classe": 3,
+      "limiar": 11,
+      "perfil": "livre",
+      "media_comum": 22.275,
+      "media_certeiro": 28.8
+    },
+    {
+      "classe": 3,
+      "limiar": 11,
+      "perfil": "refund",
+      "media_comum": 22.275,
+      "media_certeiro": 31.275
+    },
+    {
+      "classe": 3,
+      "limiar": 16,
+      "perfil": "normal",
+      "media_comum": 12.15,
+      "media_certeiro": 18.225
+    },
+    {
+      "classe": 3,
+      "limiar": 16,
+      "perfil": "livre",
+      "media_comum": 12.15,
+      "media_certeiro": 24.3
+    },
+    {
+      "classe": 3,
+      "limiar": 16,
+      "perfil": "refund",
+      "media_comum": 12.15,
+      "media_certeiro": 25.65
+    },
+    {
+      "classe": 4,
+      "limiar": 6,
+      "perfil": "normal",
+      "media_comum": 43.2,
+      "media_certeiro": 33.3
+    },
+    {
+      "classe": 4,
+      "limiar": 6,
+      "perfil": "livre",
+      "media_comum": 43.2,
+      "media_certeiro": 41.625
+    },
+    {
+      "classe": 4,
+      "limiar": 6,
+      "perfil": "refund",
+      "media_comum": 43.2,
+      "media_certeiro": 49.95
+    },
+    {
+      "classe": 4,
+      "limiar": 11,
+      "perfil": "normal",
+      "media_comum": 29.7,
+      "media_certeiro": 28.8
+    },
+    {
+      "classe": 4,
+      "limiar": 11,
+      "perfil": "livre",
+      "media_comum": 29.7,
+      "media_certeiro": 36.0
+    },
+    {
+      "classe": 4,
+      "limiar": 11,
+      "perfil": "refund",
+      "media_comum": 29.7,
+      "media_certeiro": 43.2
+    },
+    {
+      "classe": 4,
+      "limiar": 16,
+      "perfil": "normal",
+      "media_comum": 16.2,
+      "media_certeiro": 24.3
+    },
+    {
+      "classe": 4,
+      "limiar": 16,
+      "perfil": "livre",
+      "media_comum": 16.2,
+      "media_certeiro": 30.375
+    },
+    {
+      "classe": 4,
+      "limiar": 16,
+      "perfil": "refund",
+      "media_comum": 16.2,
+      "media_certeiro": 36.45
+    },
+    {
+      "classe": 5,
+      "limiar": 6,
+      "perfil": "normal",
+      "media_comum": 54.0,
+      "media_certeiro": 41.625
+    },
+    {
+      "classe": 5,
+      "limiar": 6,
+      "perfil": "livre",
+      "media_comum": 54.0,
+      "media_certeiro": 53.55
+    },
+    {
+      "classe": 5,
+      "limiar": 6,
+      "perfil": "refund",
+      "media_comum": 54.0,
+      "media_certeiro": 61.875
+    },
+    {
+      "classe": 5,
+      "limiar": 11,
+      "perfil": "normal",
+      "media_comum": 37.125,
+      "media_certeiro": 36.0
+    },
+    {
+      "classe": 5,
+      "limiar": 11,
+      "perfil": "livre",
+      "media_comum": 37.125,
+      "media_certeiro": 45.675
+    },
+    {
+      "classe": 5,
+      "limiar": 11,
+      "perfil": "refund",
+      "media_comum": 37.125,
+      "media_certeiro": 52.875
+    },
+    {
+      "classe": 5,
+      "limiar": 16,
+      "perfil": "normal",
+      "media_comum": 20.25,
+      "media_certeiro": 30.375
+    },
+    {
+      "classe": 5,
+      "limiar": 16,
+      "perfil": "livre",
+      "media_comum": 20.25,
+      "media_certeiro": 37.8
+    },
+    {
+      "classe": 5,
+      "limiar": 16,
+      "perfil": "refund",
+      "media_comum": 20.25,
+      "media_certeiro": 43.875
+    },
+    {
+      "classe": 6,
+      "limiar": 6,
+      "perfil": "normal",
+      "media_comum": 64.8,
+      "media_certeiro": 49.95
+    },
+    {
+      "classe": 6,
+      "limiar": 6,
+      "perfil": "livre",
+      "media_comum": 64.8,
+      "media_certeiro": 61.875
+    },
+    {
+      "classe": 6,
+      "limiar": 6,
+      "perfil": "refund",
+      "media_comum": 64.8,
+      "media_certeiro": 74.925
+    },
+    {
+      "classe": 6,
+      "limiar": 11,
+      "perfil": "normal",
+      "media_comum": 44.55,
+      "media_certeiro": 43.2
+    },
+    {
+      "classe": 6,
+      "limiar": 11,
+      "perfil": "livre",
+      "media_comum": 44.55,
+      "media_certeiro": 52.875
+    },
+    {
+      "classe": 6,
+      "limiar": 11,
+      "perfil": "refund",
+      "media_comum": 44.55,
+      "media_certeiro": 64.8
+    },
+    {
+      "classe": 6,
+      "limiar": 16,
+      "perfil": "normal",
+      "media_comum": 24.3,
+      "media_certeiro": 36.45
+    },
+    {
+      "classe": 6,
+      "limiar": 16,
+      "perfil": "livre",
+      "media_comum": 24.3,
+      "media_certeiro": 43.875
+    },
+    {
+      "classe": 6,
+      "limiar": 16,
+      "perfil": "refund",
+      "media_comum": 24.3,
+      "media_certeiro": 54.675
+    },
+    {
+      "classe": 7,
+      "limiar": 6,
+      "perfil": "normal",
+      "media_comum": 75.6,
+      "media_certeiro": 58.275
+    },
+    {
+      "classe": 7,
+      "limiar": 6,
+      "perfil": "livre",
+      "media_comum": 75.6,
+      "media_certeiro": 74.925
+    },
+    {
+      "classe": 7,
+      "limiar": 6,
+      "perfil": "refund",
+      "media_comum": 75.6,
+      "media_certeiro": 86.85
+    },
+    {
+      "classe": 7,
+      "limiar": 11,
+      "perfil": "normal",
+      "media_comum": 51.975,
+      "media_certeiro": 50.4
+    },
+    {
+      "classe": 7,
+      "limiar": 11,
+      "perfil": "livre",
+      "media_comum": 51.975,
+      "media_certeiro": 64.8
+    },
+    {
+      "classe": 7,
+      "limiar": 11,
+      "perfil": "refund",
+      "media_comum": 51.975,
+      "media_certeiro": 74.475
+    },
+    {
+      "classe": 7,
+      "limiar": 16,
+      "perfil": "normal",
+      "media_comum": 28.35,
+      "media_certeiro": 42.525
+    },
+    {
+      "classe": 7,
+      "limiar": 16,
+      "perfil": "livre",
+      "media_comum": 28.35,
+      "media_certeiro": 54.675
+    },
+    {
+      "classe": 7,
+      "limiar": 16,
+      "perfil": "refund",
+      "media_comum": 28.35,
+      "media_certeiro": 62.1
+    }
+  ],
+  "checks": [
+    {
+      "verificacao": "Sete curvas extraídas do texto",
+      "obtido": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "verificacao": "Preços e desbloqueios preservados",
+      "obtido": {
+        "1": {
+          "nivel": 1,
+          "B": 3,
+          "L": 1,
+          "M": 1,
+          "H": 2
+        },
+        "2": {
+          "nivel": 5,
+          "B": 6,
+          "L": 1,
+          "M": 2,
+          "H": 3
+        },
+        "3": {
+          "nivel": 9,
+          "B": 9,
+          "L": 2,
+          "M": 3,
+          "H": 5
+        },
+        "4": {
+          "nivel": 13,
+          "B": 12,
+          "L": 2,
+          "M": 4,
+          "H": 6
+        },
+        "5": {
+          "nivel": 17,
+          "B": 15,
+          "L": 3,
+          "M": 5,
+          "H": 8
+        },
+        "6": {
+          "nivel": 21,
+          "B": 18,
+          "L": 3,
+          "M": 6,
+          "H": 9
+        },
+        "7": {
+          "nivel": 26,
+          "B": 21,
+          "L": 4,
+          "M": 7,
+          "H": 11
+        }
+      },
+      "esperado": {
+        "1": {
+          "nivel": 1,
+          "B": 3,
+          "L": 1,
+          "M": 1,
+          "H": 2
+        },
+        "2": {
+          "nivel": 5,
+          "B": 6,
+          "L": 1,
+          "M": 2,
+          "H": 3
+        },
+        "3": {
+          "nivel": 9,
+          "B": 9,
+          "L": 2,
+          "M": 3,
+          "H": 5
+        },
+        "4": {
+          "nivel": 13,
+          "B": 12,
+          "L": 2,
+          "M": 4,
+          "H": 6
+        },
+        "5": {
+          "nivel": 17,
+          "B": 15,
+          "L": 3,
+          "M": 5,
+          "H": 8
+        },
+        "6": {
+          "nivel": 21,
+          "B": 18,
+          "L": 3,
+          "M": 6,
+          "H": 9
+        },
+        "7": {
+          "nivel": 26,
+          "B": 21,
+          "L": 4,
+          "M": 7,
+          "H": 11
+        }
+      },
+      "ok": true
+    },
+    {
+      "verificacao": "Fórmula independente Classe1",
+      "obtido": [
+        3,
+        1,
+        1,
+        2
+      ],
+      "esperado": [
+        3,
+        1,
+        1,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Fórmula independente Classe2",
+      "obtido": [
+        6,
+        1,
+        2,
+        3
+      ],
+      "esperado": [
+        6,
+        1,
+        2,
+        3
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Fórmula independente Classe3",
+      "obtido": [
+        9,
+        2,
+        3,
+        5
+      ],
+      "esperado": [
+        9,
+        2,
+        3,
+        5
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Fórmula independente Classe4",
+      "obtido": [
+        12,
+        2,
+        4,
+        6
+      ],
+      "esperado": [
+        12,
+        2,
+        4,
+        6
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Fórmula independente Classe5",
+      "obtido": [
+        15,
+        3,
+        5,
+        8
+      ],
+      "esperado": [
+        15,
+        3,
+        5,
+        8
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Fórmula independente Classe6",
+      "obtido": [
+        18,
+        3,
+        6,
+        9
+      ],
+      "esperado": [
+        18,
+        3,
+        6,
+        9
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Fórmula independente Classe7",
+      "obtido": [
+        21,
+        4,
+        7,
+        11
+      ],
+      "esperado": [
+        21,
+        4,
+        7,
+        11
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Fio de Arrasto",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Rede de imobilização",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Divisória antes de descartar dados",
+      "obtido": 8,
+      "esperado": 8,
+      "ok": true
+    },
+    {
+      "verificacao": "Socorro",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "verificacao": "Salto e Gesto",
+      "obtido": 5,
+      "esperado": 5,
+      "ok": true
+    },
+    {
+      "verificacao": "Corte medido C2",
+      "obtido": 5,
+      "esperado": 5,
+      "ok": true
+    },
+    {
+      "verificacao": "Corte medido C3",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "verificacao": "Corte medido C5",
+      "obtido": 15,
+      "esperado": 15,
+      "ok": true
+    },
+    {
+      "verificacao": "Liberação sem reembolso Atrasar, antes do +C",
+      "obtido": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "verificacao": "Máxima Fenda: saldo não vira dano",
+      "obtido": 13,
+      "esperado": 13,
+      "ok": true
+    },
+    {
+      "verificacao": "Liberação C3 final",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "verificacao": "Liberação C3 PE",
+      "obtido": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano da Máxima independente do saldo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Geometria Anteparo 12 quadrados",
+      "obtido": 12.0,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "verificacao": "Perfis de preço",
+      "obtido": 840,
+      "esperado": 840,
+      "ok": true
+    },
+    {
+      "verificacao": "Saldo viável não supera base em todos estados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Máxima dados/pontos/PE do texto",
+      "obtido": [
+        [
+          24,
+          8,
+          25
+        ],
+        [
+          28,
+          12,
+          30
+        ],
+        [
+          32,
+          16,
+          35
+        ]
+      ],
+      "esperado": [
+        [
+          24,
+          8,
+          25
+        ],
+        [
+          28,
+          12,
+          30
+        ],
+        [
+          32,
+          16,
+          35
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Máxima sem regressão de preços5→6",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Mínimo para preservar escolhas5→6",
+      "obtido": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "verificacao": "Máxima sem regressão de preços6→7",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Mínimo para preservar escolhas6→7",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "verificacao": "Quatro Médias Livres testemunham12",
+      "obtido": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "verificacao": "Quatro Leves neutras testemunham16",
+      "obtido": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "verificacao": "Efeito próprio Pesada cabe C5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Cura C5 com restrição continua teto",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "verificacao": "Onda C5 com restrição conserva perda da Forma",
+      "obtido": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "verificacao": "Efeito próprio Pesada cabe C6",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Cura C6 com restrição continua teto",
+      "obtido": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "verificacao": "Onda C6 com restrição conserva perda da Forma",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "verificacao": "Efeito próprio Pesada cabe C7",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Cura C7 com restrição continua teto",
+      "obtido": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "verificacao": "Onda C7 com restrição conserva perda da Forma",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "verificacao": "Repertório em oito marcos",
+      "obtido": [
+        2,
+        3,
+        4,
+        9,
+        12,
+        16,
+        21,
+        24
+      ],
+      "esperado": [
+        2,
+        3,
+        4,
+        9,
+        12,
+        16,
+        21,
+        24
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Repertório nunca recua",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "TR comum em5d8",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "TR Máxima resultado11",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "verificacao": "Salto C2 total inicial+secundário",
+      "obtido": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "verificacao": "Rajada24 repartida em6",
+      "obtido": 24,
+      "esperado": 24,
+      "ok": true
+    },
+    {
+      "verificacao": "Rajada Certeiro erro4d8",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "verificacao": "Domada19 TocaAlma depois Certeiro",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "verificacao": "Certeiro, 63 cenários",
+      "obtido": 63,
+      "esperado": 63,
+      "ok": true
+    },
+    {
+      "verificacao": "Certeiro neutro C5 não domina ataque simples",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Certeiro neutro C5 tem nicho",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: slots3rotas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: troca_nivel",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: descontoforma",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: juntodivide",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: acumulo_preservado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: metadedados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: limiteconjuracao",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: portal_termina",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: portal_unico",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: retirada_fixa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: restricao_semduplicacao",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: classe0_semrefund",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Contrato no texto: onda_max",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Requisito expresso no texto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Exemplo positivo de entidade coerente",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Exemplo negativo sem invocação",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "limites": [
+    "Enumeração de perfis de custo não prova que toda combinação semântica é válida.",
+    "Não mede Bloquear, builds completos, mapas, inimigos ou comportamento real de jogadores.",
+    "Peças próprias e orçamento ampliado da Máxima exigem teste de mesa."
+  ]
+}

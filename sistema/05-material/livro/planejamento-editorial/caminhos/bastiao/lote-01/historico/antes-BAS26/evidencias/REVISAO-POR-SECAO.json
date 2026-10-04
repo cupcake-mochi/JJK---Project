@@ -1,0 +1,127 @@
+{
+  "sha256_texto": "9d572799c5d882a8eeae475b648abffc68bb2192a72caca19e435fc0b406c302",
+  "secoes": [
+    {
+      "pagina": "bas-bastiao",
+      "titulo": "Características e progressão",
+      "clareza_suficiencia": "Adquisição, nível inicial, treinos e troca integral presentes.",
+      "numeros": "Vida/PE conferidos com criação/progressão; 3Trilhas×4entregas.",
+      "compatibilidade": "Não reproduz catálogo da Origem; segue dono sobre rotas.",
+      "voz_rpg": "Consulta por tabelas, identidade em quatro frases; linguagem de ficha.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "pendente: root",
+      "pdf_visual": "pendente: root"
+    },
+    {
+      "pagina": "bas-olhos",
+      "titulo": "Olhos Em Mim",
+      "clareza_suficiencia": "Ativação, duração, alvo, percepção, escolha antes do acerto e saída definidos.",
+      "numeros": "For/2+1 para baixo; um totalProvocar compartilhado; Alcance6m.",
+      "compatibilidade": "Certeiro preserva dano no erro sem gerarhit; Bloquear depois rolagem e semnovaReação.",
+      "voz_rpg": "Explica primeiro ativar, depois provocar, depois interceptar; exceções necessárias locais.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "pendente: root",
+      "pdf_visual": "pendente: root"
+    },
+    {
+      "pagina": "bas-defesa",
+      "titulo": "Defesa e recuperação",
+      "clareza_suficiencia": "Quatro efeitos curtos e separados por nível.",
+      "numeros": "1extra/rodada; vantagemTR;1d8+floorL/2;Duro sódados+Con.",
+      "compatibilidade": "Zero segue Recuperação; vantagem exige atacante; Duro não muda resultadohit.",
+      "voz_rpg": "Cada habilidade começa pelo gatilho e benefício, sem metáfora para operar regra.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "pendente: root",
+      "pdf_visual": "pendente: root"
+    },
+    {
+      "pagina": "bas-aliados",
+      "titulo": "Proteção de aliados",
+      "clareza_suficiencia": "Entrada voluntária e sequência de transferência com dois exemplos.",
+      "numeros": "10/16→1e7;mistos15+6→6+6receptor;duasproteçõesemordem.",
+      "compatibilidade": "RD usada não repete; semnovoBlock,semretransmissão,semtransferircondições.",
+      "voz_rpg": "Página mais densa por interação de dano; fragmentada em passos de leitura natural, verificar PDF.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "pendente: root",
+      "pdf_visual": "pendente: root"
+    },
+    {
+      "pagina": "bas-muro",
+      "titulo": "Muro e proteção",
+      "clareza_suficiencia": "Escolha de tipos e cobertura contextual completas.",
+      "numeros": "2tipos;1,5m;+2Def/TR;resistênciametadecomexceções.",
+      "compatibilidade": "Alma ignora resistência; cobertura maior não soma; protegealiado semaura.",
+      "voz_rpg": "Tabela quatro níveis; cenário ranged/armaalcance demonstra diferença relevante.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "pendente: root",
+      "pdf_visual": "pendente: root"
+    },
+    {
+      "pagina": "bas-casca",
+      "titulo": "Casca Grossa e Inabalável",
+      "clareza_suficiencia": "Casca exige interceptação acertada; Inabalável conserva aura, não ações.",
+      "numeros": "36−12−11=13;18−23=0;quatro tipos.",
+      "compatibilidade": "Duro usa rolagem passada, Casca nova. Não aciona em dano de erro.",
+      "voz_rpg": "Comparação do mesmo golpe com/sem resistência prepara consulta rápida.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "pendente: root",
+      "pdf_visual": "pendente: root"
+    },
+    {
+      "pagina": "bas-punho",
+      "titulo": "Punho e Trocação",
+      "clareza_suficiencia": "Gatilhos de Bônus e de interceptação separados.",
+      "numeros": "Bônus não duplicada; resposta usaReaçãojáconsumida.",
+      "compatibilidade": "Alcance normal; resolverrecebidoantes;hitdamage0stillhit.",
+      "voz_rpg": "Exemplo de ativação da aura consome Bônus evita erro provável de nível2.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "pendente: root",
+      "pdf_visual": "pendente: root"
+    },
+    {
+      "pagina": "bas-mao",
+      "titulo": "Mão Pesada e Minha Vez",
+      "clareza_suficiencia": "Empurrão, controle e contra-ataque apresentam requisitos próprios.",
+      "numeros": "4,5m/alvo/rodada;CD8ForM;controle1/rodada;Minha2PE.",
+      "compatibilidade": "Mão livre/alcance/escape; parede interrompe, não dá dano novo.",
+      "voz_rpg": "Distingue empurrar muitos de controlar um; sem reimprimir condiçãoAgarrado.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "pendente: root",
+      "pdf_visual": "pendente: root"
+    },
+    {
+      "pagina": "bas-arrastao",
+      "titulo": "Arrastão",
+      "clareza_suficiencia": "Substituição da AçãoAtacar, alvos e pagamento antecipado claros.",
+      "numeros": "N≤For;2(N−1);1ataque/alvo;1usocontrole reservado.",
+      "compatibilidade": "Raio especial sógolpes, nãoBônus/grapple;obstáculos sólidos.",
+      "voz_rpg": "Tabela preço elimina conta recorrente; dois subtítulos operacionais.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "pendente: root",
+      "pdf_visual": "pendente: root"
+    },
+    {
+      "pagina": "bas-combatente",
+      "titulo": "Combatente, Retaliação e Embalo",
+      "clareza_suficiencia": "Conjuração de resposta e máximo/reserva energética separados.",
+      "numeros": "For ao máximo, não recarga; Embalo max(reserva,M), não soma.",
+      "compatibilidade": "Classe0 respeita requisitos/limites; críticoAB não éAçãoAtacar;TRnãoexigeaura.",
+      "voz_rpg": "Sem nomes de outrasTrilhas; identidade traduzida em sequência jogável.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "pendente: root",
+      "pdf_visual": "pendente: root"
+    },
+    {
+      "pagina": "bas-oportunista",
+      "titulo": "Oportunista e Contra a Parede",
+      "clareza_suficiencia": "Conferência, consumo, prazo, ataque escolhido e custo presentes.",
+      "numeros": "Cmax7→C3→9PE;umataqueouumTR;semCritspell/Canalizarselected.",
+      "compatibilidade": "Lib/Máxima não entram porClasse7; Carregar não abrevia; turno1Classe>0.",
+      "voz_rpg": "Texto necessário para evitar três leituras antigas; compacto com exemplo de nível27.",
+      "canone": "Não aplicável: regras originais de Caminho, sem alegação sobre fatos de JJK.",
+      "revisao_independente": "pendente: root",
+      "pdf_visual": "pendente: root"
+    }
+  ],
+  "avaliacao_compreensao": "Leitura técnica por agente. Não houve teste com leitores humanos; não medir acessibilidade por uma nota inventada."
+}

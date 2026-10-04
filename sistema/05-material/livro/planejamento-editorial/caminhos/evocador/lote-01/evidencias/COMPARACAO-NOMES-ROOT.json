@@ -1,0 +1,179 @@
+{
+  "sha256_pdf": "4baacca9419f61e2fe6d796212f75b0e608ef0124554b6aee79f9ac9f8b49f0e",
+  "sha256_anterior": "303694b06c92f4e68e1db90ad29d74ed5632faa8585267d0c2aea5f8e147d0c8",
+  "paginas_antes": 33,
+  "paginas_depois": 33,
+  "paginas": [
+    {
+      "pagina": 1,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-01.png"
+    },
+    {
+      "pagina": 2,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-02.png"
+    },
+    {
+      "pagina": 3,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-03.png"
+    },
+    {
+      "pagina": 4,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-04.png"
+    },
+    {
+      "pagina": 5,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-05.png"
+    },
+    {
+      "pagina": 6,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-06.png"
+    },
+    {
+      "pagina": 7,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-07.png"
+    },
+    {
+      "pagina": 8,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-08.png"
+    },
+    {
+      "pagina": 9,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-09.png"
+    },
+    {
+      "pagina": 10,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-10.png"
+    },
+    {
+      "pagina": 11,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-11.png"
+    },
+    {
+      "pagina": 12,
+      "pixels_identicos": false,
+      "png": "output/comparacao-nomes/depois/pagina-12.png"
+    },
+    {
+      "pagina": 13,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-13.png"
+    },
+    {
+      "pagina": 14,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-14.png"
+    },
+    {
+      "pagina": 15,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-15.png"
+    },
+    {
+      "pagina": 16,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-16.png"
+    },
+    {
+      "pagina": 17,
+      "pixels_identicos": false,
+      "png": "output/comparacao-nomes/depois/pagina-17.png"
+    },
+    {
+      "pagina": 18,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-18.png"
+    },
+    {
+      "pagina": 19,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-19.png"
+    },
+    {
+      "pagina": 20,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-20.png"
+    },
+    {
+      "pagina": 21,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-21.png"
+    },
+    {
+      "pagina": 22,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-22.png"
+    },
+    {
+      "pagina": 23,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-23.png"
+    },
+    {
+      "pagina": 24,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-24.png"
+    },
+    {
+      "pagina": 25,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-25.png"
+    },
+    {
+      "pagina": 26,
+      "pixels_identicos": false,
+      "png": "output/comparacao-nomes/depois/pagina-26.png"
+    },
+    {
+      "pagina": 27,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-27.png"
+    },
+    {
+      "pagina": 28,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-28.png"
+    },
+    {
+      "pagina": 29,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-29.png"
+    },
+    {
+      "pagina": 30,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-30.png"
+    },
+    {
+      "pagina": 31,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-31.png"
+    },
+    {
+      "pagina": 32,
+      "pixels_identicos": false,
+      "png": "output/comparacao-nomes/depois/pagina-32.png"
+    },
+    {
+      "pagina": 33,
+      "pixels_identicos": true,
+      "png": "output/comparacao-nomes/depois/pagina-33.png"
+    }
+  ],
+  "alteradas": [
+    12,
+    17,
+    26,
+    32
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "sha256_texto": "289b9ab73547dd7db84327966b8d3a2ac39434d698c4388f843c991948d2e6d0",
+  "secoes": [
+    {
+      "id": "espacos",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    },
+    {
+      "id": "rastejar",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    },
+    {
+      "id": "voo",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    },
+    {
+      "id": "carga",
+      "parecer": "Leitura contextual: título direto; procedimentos no dono; valores e exemplos conferidos na auditoria da rodada."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

@@ -1,0 +1,24 @@
+{
+  "sha256_texto": "8d31690c58add9b93df17fbc57b798328ee2201b80061bb13170efc224c53393",
+  "arquivos_autoria_agente": {
+    "ALTERACOES.json": "03e6b23adaeb592c422dc93dcde4e2af03c290b9016df2c6652c41ff3fc1a2b3",
+    "ALTERACOES.md": "7cdc239701ae9afe398e48bdc678471f60f882d2c2aa75e1a5a61cc7c939a80a",
+    "APTIDOES-E-REFINO.md": "8d31690c58add9b93df17fbc57b798328ee2201b80061bb13170efc224c53393",
+    "RELATORIO.md": "3a9a6280493a943c938b0df348bfaf1fe10579f96db543e799189dba958ba88a",
+    "evidencias/AUDITORIA-NUMERICA.json": "0367564476480d228057f7c355b2910d965e74b91eafffa2144d25fc7a0df127",
+    "evidencias/CASOS.json": "238de86ea8d111a9fcef72594bf55d07ac306f7f5743caabbe2928762d9af7f7",
+    "evidencias/INTERFACES.json": "cf3ae11404b8b87bce4dd7db33f0ddb8b89597cd2783483314d5d54f425be338",
+    "evidencias/LOCALIZACAO-EDITORIAL.json": "1960576fbfa73ec424b8374f7847cf7fb450844ef9df0cf52f17e5db8858899f",
+    "evidencias/REGRESSAO-PUBLICADA.json": "3842022b489dce9e54f7abd957d039be30d1e6deaff2875f3279c75c4fc1cc54",
+    "evidencias/REVISAO-POR-SECAO.json": "2ffc33a082b979200eca3f32656f11feaa1737895fd6a909a38eff80d5e7d07c",
+    "evidencias/conferir-aptidoes-PUBLICADO.txt": "fd62e3bbbc411fffc93e623d83eb97764d03b5857b4f48c2db24bc4b948c781b",
+    "evidencias/conferir_aptidoes_candidata.py": "f0968e5a90afd6e7b4338d94ab69f3e239a884f38070763ee996551a14a354bf",
+    "evidencias/conta-as-quatro-PUBLICADO.txt": "f85218f99fc0a6b6f245a53c6c4275f6be40c038de822911a38afc7a7d59ffab",
+    "evidencias/conta-cesta-oca-PUBLICADO.txt": "f8e91eaa50cde4b6a274ceb4faf0186103b47855bf532c43cd155e4dc5ee88d9",
+    "evidencias/conta-dominio-simples-PUBLICADO.txt": "55b588e9610a808f68ddadbd746a335245201b3ac9c977b58bc9d5f2436cd8a8",
+    "evidencias/conta-extensao-PUBLICADO.txt": "0ec32b3c9766ffd36d3aa375eb57feb60e63739d648320dc34637d5b6fcdb04d",
+    "evidencias/conta-petala-PUBLICADO.txt": "eb2fdf8dea83b85f125cf95e1230280116f860399bbbe9f317d6e17b54ef7513",
+    "evidencias/pesquisa-editorial.md": "8050eef24352b186cf45fd04d665fcc19812552afa716c62b2e735436150e4e5"
+  },
+  "status": "Autoria, casos, números e validação editorial prontos; exportação/QA visual com agente principal."
+}

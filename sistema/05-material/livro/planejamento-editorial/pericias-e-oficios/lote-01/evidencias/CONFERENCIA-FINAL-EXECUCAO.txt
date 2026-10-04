@@ -1,0 +1,1 @@
+{"unidade": "lote-01", "ok": false, "verificacoes": 83, "falhas": [{"verificacao": "Fontes e versões anteriores preservadas", "obtido": ["sistema/05-material/livro/planejamento-editorial/regras-comuns/consolidado-r1/REGRAS-COMUNS.md"], "esperado": [], "ok": false}]}

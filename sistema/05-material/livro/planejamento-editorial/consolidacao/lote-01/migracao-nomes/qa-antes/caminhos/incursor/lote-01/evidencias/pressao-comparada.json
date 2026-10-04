@@ -1,0 +1,52 @@
+[
+  {
+    "nivel": 7,
+    "atributo": 4,
+    "refino": 3,
+    "assassino_um_golpe": 12.8,
+    "pugilista_rajada": 23.025,
+    "malabarista_continuacao_condicional": 21.797,
+    "malabarista_tres_ataques_incondicionais": 23.025,
+    "ressalva": "Cruzado exigeoutroalvo;nivel7naopossuiRetorno. Acerto60%,critico5%,semvantagem,defesas,condicoes,Kokusen,ouacoesexternas. Custosnaocomparadoscomorecursounico."
+  },
+  {
+    "nivel": 11,
+    "atributo": 4,
+    "refino": 4,
+    "assassino_um_golpe": 12.8,
+    "pugilista_rajada": 24.975,
+    "malabarista_continuacao_condicional": 21.797,
+    "malabarista_tres_ataques_incondicionais": 23.025,
+    "ressalva": "Cruzado exigeoutroalvo;nivel7naopossuiRetorno. Acerto60%,critico5%,semvantagem,defesas,condicoes,Kokusen,ouacoesexternas. Custosnaocomparadoscomorecursounico."
+  },
+  {
+    "nivel": 19,
+    "atributo": 5,
+    "refino": 7,
+    "assassino_um_golpe": 16.65,
+    "pugilista_rajada": 33.225,
+    "malabarista_continuacao_condicional": 27.761,
+    "malabarista_tres_ataques_incondicionais": 29.325,
+    "ressalva": "Cruzado exigeoutroalvo;nivel7naopossuiRetorno. Acerto60%,critico5%,semvantagem,defesas,condicoes,Kokusen,ouacoesexternas. Custosnaocomparadoscomorecursounico."
+  },
+  {
+    "nivel": 27,
+    "atributo": 6,
+    "refino": 9,
+    "assassino_um_golpe": 20.5,
+    "pugilista_rajada": 41.475,
+    "malabarista_continuacao_condicional": 33.725,
+    "malabarista_tres_ataques_incondicionais": 35.625,
+    "ressalva": "Cruzado exigeoutroalvo;nivel7naopossuiRetorno. Acerto60%,critico5%,semvantagem,defesas,condicoes,Kokusen,ouacoesexternas. Custosnaocomparadoscomorecursounico."
+  },
+  {
+    "nivel": 30,
+    "atributo": 6,
+    "refino": 10,
+    "assassino_um_golpe": 26.35,
+    "pugilista_rajada": 48.675,
+    "malabarista_continuacao_condicional": 40.541,
+    "malabarista_tres_ataques_incondicionais": 42.825,
+    "ressalva": "Cruzado exigeoutroalvo;nivel7naopossuiRetorno. Acerto60%,critico5%,semvantagem,defesas,condicoes,Kokusen,ouacoesexternas. Custosnaocomparadoscomorecursounico."
+  }
+]

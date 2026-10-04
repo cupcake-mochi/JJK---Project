@@ -1,0 +1,87 @@
+# Auditoria das regras básicas — Projeto M v0.331
+
+Data: 2 de outubro de 2026. Auditoria somente de leitura, para orientar a organização editorial. Nenhuma regra foi criada, alterada ou completada por analogia com outro RPG.
+
+## Escopo e critério
+
+Examinei os 22 arquivos-fonte do manual em `sistema/05-material/livro/manual/` por busca transversal e leitura dos trechos relevantes, confrontando-os com as peças numeradas de `sistema/03-mecanica/`. Li as instruções locais de entrada e a skill do projeto. Não usei Git. As referências abaixo usam arquivo, seção e linha do estado examinado; a seção continua sendo o localizador principal se as linhas mudarem.
+
+Categorias: **explícita consultável** quando há instrução operacional localizável; **espalhada** quando a resposta exige reunir partes; **ambígua** quando há conflito ou termo operacional sem definição suficiente; **não localizada** quando o procedimento específico não apareceu no recorte; **própria de Caminho/Trilha** quando a regra depende da opção de personagem. Uma entrada pode combinar categorias. “Não localizada” não prova inexistência em todo o histórico do projeto.
+
+Há uma regra geral de adjudicação: o mestre decide quando uma tarefa pede teste e sua CD; o jogador rola atributo e, quando aplicável, maestria. Isso permite resolver situações narrativas. Não fornece automaticamente distâncias, custos, oposição e consequências uniformes para todos os casos abaixo. A auditoria distingue essa opção deliberada de adjudicação de uma remissão a uma regra específica que não se encontra.
+
+**Cuidado de versão:** `sistema/03-mecanica/15-invocacoes.md` está marcado como histórico. Sua antiga `Escalada`, seu `Nado` e demais passivas não são regra geral vigente. O capítulo integrado está em `invocacoes/05-Edicao-Integrada/60-invocacoes.md` e no manual. Não usei regras antigas de entidade para preencher a base dos personagens.
+
+## O que o leitor efetivamente encontra
+
+Todos os arquivos de manual citados nesta seção ficam em `sistema/05-material/livro/manual/`; `peça` indica `sistema/03-mecanica/`.
+
+### Movimento e ambiente
+
+| Assunto | Classificação | Evidência e limite do texto atual |
+|---|---|---|
+| Ação de Movimento e deslocamento | **Explícita consultável** | `11-o-turno.md`, Recursos do turno / Deslocamento, linhas 17–39: uma Ação de Movimento, base de 9 m; distingue recurso de ação e distância. Conversão de ações na linha 31. A peça `03-economia-de-acao-e-iniciativa.md`, §3, linhas 41–52, confirma a base. |
+| Dividir o movimento | **Explícita consultável** | `11-o-turno.md`, Deslocamento, linha 39: dividir o total em quantos trechos quiser no próprio turno; exemplo de 3 m, ataque e 6 m. A peça 03, §3, permite antes, durante e depois da ação. Não é uma vantagem exclusiva de Trilha. |
+| Correr e Desengajar | **Explícita consultável** | `11-o-turno.md`, Ações de Ação Padrão, linhas 68–69: Correr acrescenta o próprio deslocamento até o fim do turno; Desengajar evita ataques de oportunidade provocados pelo movimento até o fim do turno. Ataque de oportunidade explicado nas linhas 120–128. |
+| Salto | **Espalhada; procedimento específico não localizado** | `12-pericias-e-oficios.md`, Perícias / Força, linha 98: Atletismo abrange saltar. `10-como-jogar.md` apresenta a resolução geral por teste e CD. Não localizei distância horizontal/vertical, condição de corrida prévia, conversão em metros ou consequência padronizada de fracasso. `35-caminhos-e-trilhas.md`, Assassino / Parkour, linhas 2530–2561, exige usar movimento restante e menciona “regras normais” de salto/queda, sem apresentá-las. |
+| Escalada | **Espalhada; particularização de Trilha** | Atletismo cobre escalar (`12`, linha 98); qualquer pessoa pode tentar sem treino (`12`, linha 39). `10`, linhas 18 e 34, dá exemplos de CD, não uma tabela de velocidade de escalada. `35`, Batedor / Rota Yumi / Soltura Preparada, linha 480, concede deslocamento de escalada igual ao normal. Incursor e Assassino têm permissões próprias para paredes e apoios. Não localizei o custo de escalada comum, limites de apoio ou um procedimento geral de queda após falha. |
+| Natação | **Espalhada; procedimento específico não localizado** | Atletismo inclui nadar (`12`, linha 98; peça `07-pericias-e-oficios.md`, §4, linha 84). Não localizei velocidade/custo geral de natação, correnteza, mergulho ou fôlego. Isso não obriga criar um subsistema completo; exige decidir o que fica por adjudicação. Movimento sobre líquidos do Pugilista (`35`, nível 11, linha 2713) é travessia pela superfície com Movimento Acrobático, não regra geral de natação. |
+| Terreno difícil | **Ambígua: efeito pressuposto sem custo definido localizado** | `40-fundamento.md`, Família Controle / Terreno, linha 658, e `60-invocacoes.md`, linha 293, criam terreno difícil. `35`, Fixar o Alvo, linha 360, conta terreno difícil como redução prévia de deslocamento; linha 1551 menciona ignorar seu “custo adicional”. Não localizei a definição geral desse custo. Não se pode deduzir que seja metade da velocidade ou o dobro dos metros por analogia com D&D. |
+| Queda de altura | **Procedimento específico não localizado** | `12`, Acrobacia, linha 102: “cair sem se machucar”. `11`, Concentração, linha 136: queda pode causar dano e o mestre escolhe a CD da concentração; isso não determina o dano da queda. `35`, Parkour, linha 2561, remete a regras de queda. `25-origens.md`, Couro, linhas 689–691, exemplifica queda de dois andares após falar em refazer TR Físico; o exemplo não fornece resolução geral. Não localizei dano por altura, resistência, redução por Acrobacia nem condição ao aterrissar. “Queda” a 0 de vida é outro assunto. |
+
+O Movimento Acrobático do Incursor (`35`, nível 2, linhas 2350–2358) concede +3 m e uso de parte do movimento para paredes e espaços de criaturas, com exigência de terminar em espaço livre com apoio. O Parkour do Assassino (`35`, linhas 2526–2561) troca a perícia aplicável a certos testes, permite apoios e especifica gatilhos de aproximação e uso da vítima como apoio. São regras de personagem com valor próprio. Elas não definem por si a travessia comum de uma parede, o salto comum ou o dano de queda para todo mundo.
+
+### Perceber, esconder-se e enxergar
+
+| Assunto | Classificação | Evidência e limite do texto atual |
+|---|---|---|
+| Esconder / Furtividade | **Espalhada e incompleta** | `11`, tabela de Ações de Ação Padrão, linha 71: Esconder pede teste de Furtividade. `12`, Destreza, linha 104, descreve mover-se sem ser visto/ouvido. `10`, linha 34, mostra infiltração contra CD declarada. Não localizei um procedimento geral que determine condições para tentar, oposição, observadores afetados, duração e o que encerra o resultado. O Incursor mudar a ação para Bônus não supre essas definições. |
+| Oculto | **Ambígua; requisito de habilidades** | O termo aparece em oportunidade de abate, Sentença Final e no exemplo de esconder-se do Assassino (`35`, linhas 2461, 2577 e 2599). Não localizei uma definição geral que estabeleça estado, benefício, relação com cada observador e encerramento. Não importar automaticamente vantagem para atacar ou revelação após ataque. |
+| Detecção | **Espalhada** | `12`, linhas 136–160: Percepção percebe o mundo; Sentir Energia percebe energia e fluxo de feitiços; Ocultismo reconhece fenômenos. `11`, Vasculhar / Estudar / Ler o Ambiente, linhas 75–118, fornece ações de obtenção de informação, mas não fecha a disputa geral contra Furtividade/Oculto. As regras de restrição sem energia e sentidos especiais acrescentam casos próprios. Não localizei valor passivo de percepção nem disputa universal de detecção. |
+| Iluminação, escuridão e obscurecimento | **Regra geral não localizada; efeitos isolados explícitos** | `40`, Terreno, linha 658, pode deixar área obscurecida, sem definição geral localizada desse estado. `15-dano-e-condicoes.md`, Cego, linhas 216–224, traz efeitos explícitos de não enxergar; não há remissão localizada que equipare estar no escuro a sofrer Cego. `50-equipamento.md`, Traje, linha 62, usa ambiente escuro como condição de exemplo. `47-bencaos-e-lapidacao.md`, Vulto, linha 185, dá percepção às cegas a uma opção específica. Não localizei categorias de luz com efeitos gerais. |
+
+Cobertura tem regra consultável em `15-dano-e-condicoes.md`, Cobertura, linha 306: parcial, boa e total, benefícios e direção de aplicação. Isso merece ligação editorial com visão e ocultação, mas não se deve tratar “estar atrás de cobertura”, “não ser visto”, “estar oculto” e “não poder ser escolhido como alvo” como sinônimos.
+
+Há evidência interna adicional da lacuna de furtividade: `sistema/03-mecanica/14-equipamento.md`, §5.0.5 (linhas 505–518) e §8, pendência 19 (linha 1825), explicita que a regra de barulho aguarda uma peça de furtividade. Essa anotação de projeto não autoriza publicar a futura regra como se já estivesse vigente. A Melhoria Silencioso (`40`, linha 750), que protege a posição em seu escopo, também não define a regra universal de revelar-se.
+
+### Ações, objetos e controle de adversários
+
+| Assunto | Classificação | Evidência e limite do texto atual |
+|---|---|---|
+| Ajudar | **Explícita consultável, com remissão** | `10-como-jogar.md`, Ajudar, linhas 46–52: contribuição real, vantagem, um ajudante por teste, Ação Padrão. `11`, tabela e Ajudar, linhas 72 e 84–86: próximo teste ou ataque aliado e limite de ajudantes. Peça `04-pericias-e-testes.md`, §5, confirma. Não acrescente alcance fixo ou duração que o texto não fornece. |
+| Preparar | **Explícita; restrição relevante espalhada** | `11`, Preparar, linhas 94–102: Padrão agora, Reação quando ocorrer gatilho visível/verificável; perde-se no início do próximo turno ou se a Reação for gasta em outro uso. Na peça `03-economia-de-acao-e-iniciativa.md`, §3.1, linha 242, preparar conjuração continua exigindo a Melhoria Reação. Essa restrição não aparece na explicação local de Preparar no manual: precisa ser ligada à leitura do jogador. |
+| Sacar, guardar e largar objetos | **Explícita consultável** | `11`, Sacar e guardar, linhas 41–49: um saque/guarda gratuito por turno; os seguintes custam a Ação de Movimento inteira; trocar arma envolve dois; largar é grátis. Peça 03, §3.2, confirma. |
+| Usar/interagir com objetos | **Parcial** | `11`, tabela, linha 77: Usar objeto não mágico custa Padrão. Não localizei uma categoria universal adicional de “interação gratuita” para portas, pegar itens do chão e manipulações diversas. `50`, Peso, linhas 380–388, define Volume, limite de carga e capacidade dobrada para arrastar/empurrar/erguer carga; isso não é a manobra de combate Empurrar uma criatura. |
+| Agarrar | **Espalhada e incompleta** | `11`, tabela e Agarrar e Derrubar, linhas 66 e 80–82: opção de Atacar, pode substituir um dos ataques; aplica Agarrado. `15`, Agarrado, linhas 154–164: deslocamento 0, regra de ataque à distância e término por incapacitação/alcance. `12`, Acrobacia, linha 102, diz que permite sair de Agarrado, mas não localizei procedimento geral de entrada/saída, teste/oposição/CD, custo da fuga, limite de tamanho ou mão livre. Esses requisitos aparecem em habilidades específicas, não numa base geral. |
+| Derrubar | **Espalhada e incompleta** | `11`, linhas 66 e 80–82: opção de Atacar que aplica Derrubado. `15`, Derrubado, linhas 144–152: rastejar com metade do deslocamento, levantar custa Movimento quando não for efeito de duração, modificadores de ataques. Não localizei resolução geral da tentativa de derrubar, resistência ou limites de elegibilidade. Saber a condição resultante não fecha a manobra. |
+| Empurrar | **Regra geral não localizada; regras próprias de habilidades** | Não aparece como opção geral de Atacar na tabela de `11`. `35`, Punho / Mão Pesada, linha 213, concede empurrão após golpe; Assassino / Cortar a Fuga, linhas 2508–2520, concede outro empurrão sob seus requisitos. Carga empurrada em `50` não resolve oposição entre criaturas. Não localizei procedimento geral nem regra completa de movimento forçado para sustentar todas as remissões de habilidades. |
+| Estudar | **Ambígua por conflito explícito** | `11`, tabela, linha 76: Sentir Energia, Ocultismo, Medicina ou História, sobre criatura/objeto visível. Na mesma fonte, Vasculhar e Estudar, linha 106, exemplifica Estudar de longe com Percepção. A peça 03, §3.1, linha 237, acompanha a lista da tabela. É necessário resolver a divergência editorial/mecânica, não escolher silenciosamente uma versão. Alvo Estudado/Estudar a Guarda do Assassino têm regras próprias; não substituem essa ação comum. |
+
+O próprio capítulo integrado de Invocações reconhece a pendência: `60-invocacoes.md`, Ações comuns, linha 695, diz que Agarrar, Derrubar e Empurrar ainda não têm resolução completa e que Estudar conserva a lacuna de perícia. Portanto, promover o procedimento de uma Trilha a regra geral contrariaria tanto seu escopo quanto o diagnóstico registrado no livro.
+
+Exemplo importante de distinção: `35-caminhos-e-trilhas.md`, Pugilista / Interceptar e Prender, linhas 2699–2711, especifica gatilho de reação após erro inimigo, Fluidez, alcance desarmado, tamanho, mão livre, TR, efeito e uma ação de fuga contra a CD do Pugilista. É uma regra particular suficientemente descrita para seu uso. Não demonstra que todos os personagens agarram, ou escapam de qualquer agarrão, dessa mesma forma. Recuperar a Base e Mão Pesada também têm seus próprios custos/gatilhos.
+
+## Consequência editorial e cobertura proposta
+
+O problema não é apenas dar títulos melhores às regras. Parte do conteúdo existe e precisa ser reunida; parte exige decisão de design antes da reescrita. Separar essas duas filas evita produzir uma explicação elegante de uma regra que ainda não foi decidida.
+
+A arquitetura deve oferecer respostas previsíveis às perguntas do leitor. Estes são agrupamentos de cobertura; podem virar seções ou capítulos conforme extensão e frequência de consulta, sem impor quantidade de capítulos:
+
+1. **“Quero tentar alguma coisa: o que declaro e o que rolo?”** Resolução de testes, escolha de perícia, quando não rolar, CD, ajuda e informação. Ensinar a decisão geral uma vez, com exemplos de exploração, conversa e combate; aproximar Vasculhar/Estudar/Ler o Ambiente e deixar suas diferenças consultáveis. Falha com consequência narrativa cabe aqui, sem convertê-la em resultado obrigatório para toda manobra.
+2. **“Até onde vou e o que o ambiente muda?”** Movimento disponível, divisão, Correr, terreno, salto, escalada, natação e queda. O núcleo de metros/ações serve ao combate; travessia e risco também existem fora de turnos. O leitor deve conseguir encontrar ambos sem presumir que só existem em combate. Se o jogo decidir adjudicar certas travessias sem fórmulas, dizer isso claramente e orientar quais fatores importam, sem fingir que há uma tabela escondida.
+3. **“Consigo perceber alguém ou me esconder?”** Visão, iluminação, cobertura, sentidos de energia, Furtividade e detecção. Explicar primeiro as relações gerais decididas; depois apontar os sentidos e exceções de personagem. Não fundir ocultação com proteção física.
+4. **“Como ajo, reajo e controlo um adversário?”** Recursos do turno, ataques, oportunidade, Preparar, objetos e manobras. Em cada manobra, aproximar tentativa, resolução e modo de encerrar, remetendo à condição para os efeitos compartilhados. A manobra e a condição podem ter entradas distintas, mas precisam conduzir uma à outra.
+5. **“O que minha ficha permite a mais?”** Caminhos, Trilhas e capacidades especiais. Seu texto deve explicitar a exceção e oferecer uma remissão estável à regra comum; a base não deve depender de ler primeiro Assassino ou Pugilista. O catálogo de perícias mantém seu papel de consulta, sem ficar responsável sozinho por explicar ações e ambientes inteiros.
+
+### O que pode avançar agora
+
+- Reorganizar e testar a consulta de movimento/divisão, Correr, Desengajar, Ajudar, recursos do turno e sacar/guardar. Há matéria operacional para um piloto fiel.
+- Ligar Preparar à restrição de conjuração já escrita na peça mecânica, registrando a divergência de cobertura entre peça e manual.
+- Planejar lugares para as regras pendentes, sem preencher lacunas com procedimentos inventados. O piloto pode sinalizar uma regra ainda em decisão; não deve esconder essa pendência num exemplo resolvido.
+- Em uma cena de salto ou infiltração, um mestre pode declarar uma CD usando a regra geral já existente. O exemplo precisa assumir essa adjudicação de forma explícita. Não pode apresentar distância de salto, dano de queda, bônus de Oculto ou teste universal de agarrar como regras fechadas que o livro ainda não fornece.
+
+### Decisões de design que a edição não deve tomar silenciosamente
+
+Prioridade alta pelo uso em opções já publicadas: resolver Estudar; fechar tentativa e fuga das manobras comuns; decidir o procedimento de ocultação/detecção; definir terreno difícil; esclarecer salto, apoios e queda referidos pelo Parkour. Natação e iluminação precisam ao menos de uma escolha consciente de grau de detalhamento, proporcional às cenas que o jogo quer sustentar. Isso não exige reproduzir a granularidade de outro sistema.
+
+Uma revisão por agente pode confirmar que um exemplo usa apenas regras localizadas e que as remissões existem. A clareza para iniciantes, a facilidade de consulta e o julgamento dos mestres continuam precisando de observação com leitores humanos. Este relatório não é playtest nem validação de compreensão humana.

@@ -1,0 +1,23 @@
+{
+  "sha256_texto": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+  "revisor": "/root",
+  "escopo": "Leitura integral de321 linhas/9 blocos, após REM03/12. Revisão independente do autor dos últimos ajustes.",
+  "conclusao": "Sem conflito funcional impeditivo localizado. Procedimentos distinguem objetivo, treino, atributo, ação e consequência.",
+  "casos": [
+    "Arrombamento D4+M1=5, I2+M1=3; CD14 exige9/11.",
+    "Pontaria não substitui ataque contra Defesa.",
+    "Acrobacia não contorna contenção nem dano de queda.",
+    "Medicina remete ao procedimento de Socorro, sem cura automática por perícia.",
+    "Sentir Energia preserva meios e informação permitidos pelo dono geral.",
+    "Ofício sem treino exige improvisação autorizada e não recebe Maestria.",
+    "Repetição respeita ação/tempo do procedimento e não fornece rolagens gratuitas para o mesmo exame.",
+    "Reparo não restaura Desgaste, munição, grau ou poderes sem processo próprio.",
+    "Custo ¥3000 e prazo4h são exemplo local, sem virar tabela universal."
+  ],
+  "editorial": "Títulos identificam usos familiares. A organização por atributo e exemplos concretos permite consulta. As negativas delimitam permissões reais; sua cadência pode receber refinamento estilístico posterior, sem necessidade de reabrir mecânicas.",
+  "limites": [
+    "Leitor por agente, não avaliação por jogadores.",
+    "Não é novo playtest ou nova leitura de todas as referências editoriais já registradas.",
+    "Remissões descritivas são compreensíveis pelo assunto e índice, ainda que nem todas reproduzam literalmente um título."
+  ]
+}

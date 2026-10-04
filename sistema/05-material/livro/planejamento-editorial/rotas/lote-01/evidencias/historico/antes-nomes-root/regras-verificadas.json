@@ -1,0 +1,637 @@
+{
+  "ok": true,
+  "sha256_texto": "4ad33a8841c7b77bc38af1852b6cbd5d8eec9b4e1aff7791a1629bfb9d371831",
+  "casos": [
+    {
+      "teste": "IDs únicos",
+      "passou": true,
+      "evidencia": [
+        "rotas",
+        "rota-marcial",
+        "rota-armas",
+        "rota-ferramenta",
+        "rota-passivas-marciais",
+        "rota-passivas-resposta",
+        "rota-fisga",
+        "rota-bancada",
+        "rota-invocacoes",
+        "rota-sem-tecnica",
+        "rota-sementes",
+        "rota-cura",
+        "rota-redoma",
+        "rota-sutura",
+        "rota-espinho",
+        "rota-lapidacao",
+        "rota-bencaos",
+        "rota-defesa",
+        "rota-estimulo",
+        "rota-corpo",
+        "rota-perseguicao",
+        "rota-combate",
+        "rota-propria"
+      ]
+    },
+    {
+      "teste": "Páginas com título correspondente",
+      "passou": true,
+      "evidencia": 23
+    },
+    {
+      "teste": "Faixa de extensão 140–400 palavras, com suficiência revista por seção",
+      "passou": true,
+      "evidencia": [
+        {
+          "id": "rotas",
+          "palavras": 286
+        },
+        {
+          "id": "rota-marcial",
+          "palavras": 263
+        },
+        {
+          "id": "rota-armas",
+          "palavras": 289
+        },
+        {
+          "id": "rota-ferramenta",
+          "palavras": 291
+        },
+        {
+          "id": "rota-passivas-marciais",
+          "palavras": 307
+        },
+        {
+          "id": "rota-passivas-resposta",
+          "palavras": 290
+        },
+        {
+          "id": "rota-fisga",
+          "palavras": 310
+        },
+        {
+          "id": "rota-bancada",
+          "palavras": 325
+        },
+        {
+          "id": "rota-invocacoes",
+          "palavras": 289
+        },
+        {
+          "id": "rota-sem-tecnica",
+          "palavras": 315
+        },
+        {
+          "id": "rota-sementes",
+          "palavras": 295
+        },
+        {
+          "id": "rota-cura",
+          "palavras": 321
+        },
+        {
+          "id": "rota-redoma",
+          "palavras": 316
+        },
+        {
+          "id": "rota-sutura",
+          "palavras": 297
+        },
+        {
+          "id": "rota-espinho",
+          "palavras": 314
+        },
+        {
+          "id": "rota-lapidacao",
+          "palavras": 392
+        },
+        {
+          "id": "rota-bencaos",
+          "palavras": 318
+        },
+        {
+          "id": "rota-defesa",
+          "palavras": 344
+        },
+        {
+          "id": "rota-estimulo",
+          "palavras": 294
+        },
+        {
+          "id": "rota-corpo",
+          "palavras": 328
+        },
+        {
+          "id": "rota-perseguicao",
+          "palavras": 305
+        },
+        {
+          "id": "rota-combate",
+          "palavras": 319
+        },
+        {
+          "id": "rota-propria",
+          "palavras": 315
+        }
+      ]
+    },
+    {
+      "teste": "Títulos sem artigo inicial ou Como ler",
+      "passou": true,
+      "evidencia": []
+    },
+    {
+      "teste": "Remissões internas resolvidas",
+      "passou": true,
+      "evidencia": [
+        "rota-armas",
+        "rota-ferramenta",
+        "rota-invocacoes",
+        "rota-sementes",
+        "rota-cura"
+      ]
+    },
+    {
+      "teste": "Sem ponto e vírgula na prosa",
+      "passou": true,
+      "evidencia": 0
+    },
+    {
+      "teste": "Não usa legal como elegibilidade",
+      "passou": true,
+      "evidencia": []
+    },
+    {
+      "teste": "Inventário fonte com destino existente",
+      "passou": true,
+      "evidencia": 65
+    },
+    {
+      "teste": "Âncoras de alterações encontradas",
+      "passou": true,
+      "evidencia": []
+    },
+    {
+      "teste": "Exemplo: Gancho fechado",
+      "passou": true,
+      "evidencia": {
+        "exemplo": "Gancho fechado",
+        "nivel": 2,
+        "classe": 1,
+        "gasto": 1,
+        "devolucao": 1,
+        "saldo": 3,
+        "custo_PE": 3,
+        "resultado": "3d8"
+      }
+    },
+    {
+      "teste": "Exemplo: Placas de apoio",
+      "passou": true,
+      "evidencia": {
+        "exemplo": "Placas de apoio",
+        "nivel": 2,
+        "classe": 1,
+        "gasto": 1,
+        "devolucao": 0,
+        "saldo": 2,
+        "custo_PE": 3,
+        "resultado": "6 PV temporária"
+      }
+    },
+    {
+      "teste": "Exemplo: Linha de contenção",
+      "passou": true,
+      "evidencia": {
+        "exemplo": "Linha de contenção",
+        "nivel": 2,
+        "classe": 1,
+        "gasto": 1,
+        "devolucao": 1,
+        "saldo": 3,
+        "custo_PE": 3,
+        "resultado": "3d8"
+      }
+    },
+    {
+      "teste": "Exemplo: Fechar ferimento",
+      "passou": true,
+      "evidencia": {
+        "exemplo": "Fechar ferimento",
+        "nivel": 2,
+        "classe": 1,
+        "gasto": 1,
+        "devolucao": 0,
+        "saldo": 2,
+        "custo_PE": 3,
+        "resultado": "2d8"
+      }
+    },
+    {
+      "teste": "Exemplo: Resposta curta",
+      "passou": true,
+      "evidencia": {
+        "exemplo": "Resposta curta",
+        "nivel": 5,
+        "classe": 2,
+        "gasto": 2,
+        "devolucao": 2,
+        "saldo": 6,
+        "custo_PE": 6,
+        "resultado": "6d8"
+      }
+    },
+    {
+      "teste": "Presilha oposição equivalente",
+      "passou": true,
+      "evidencia": [
+        {
+          "TR_alvo_sucesso": 0.25,
+          "manobra_antes": 0.75,
+          "manobra_com_Presilha": 0.9375,
+          "modelo_antigo_mesma_probabilidade": 0.9375,
+          "ganho_pp": 18.75
+        },
+        {
+          "TR_alvo_sucesso": 0.5,
+          "manobra_antes": 0.5,
+          "manobra_com_Presilha": 0.75,
+          "modelo_antigo_mesma_probabilidade": 0.75,
+          "ganho_pp": 25.0
+        },
+        {
+          "TR_alvo_sucesso": 0.75,
+          "manobra_antes": 0.25,
+          "manobra_com_Presilha": 0.4375,
+          "modelo_antigo_mesma_probabilidade": 0.4375,
+          "ganho_pp": 18.75
+        }
+      ]
+    },
+    {
+      "teste": "Rota pura Lapidação",
+      "passou": true,
+      "evidencia": [
+        {
+          "nivel": 6,
+          "depois_gratuito": 2,
+          "lapidacao": 3,
+          "bencaos_no_marco": 1,
+          "total": 1
+        },
+        {
+          "nivel": 10,
+          "depois_gratuito": 4,
+          "lapidacao": 5,
+          "bencaos_no_marco": 1,
+          "total": 2
+        },
+        {
+          "nivel": 14,
+          "depois_gratuito": 6,
+          "lapidacao": 7,
+          "bencaos_no_marco": 1,
+          "total": 3
+        },
+        {
+          "nivel": 18,
+          "depois_gratuito": 8,
+          "lapidacao": 9,
+          "bencaos_no_marco": 1,
+          "total": 4
+        },
+        {
+          "nivel": 22,
+          "depois_gratuito": 10,
+          "lapidacao": 10,
+          "bencaos_no_marco": 2,
+          "total": 6
+        },
+        {
+          "nivel": 26,
+          "depois_gratuito": 10,
+          "lapidacao": 10,
+          "bencaos_no_marco": 2,
+          "total": 8
+        },
+        {
+          "nivel": 30,
+          "depois_gratuito": 10,
+          "lapidacao": 10,
+          "bencaos_no_marco": 2,
+          "total": 10
+        }
+      ]
+    },
+    {
+      "teste": "Lapidação sem escolha",
+      "passou": true,
+      "evidencia": 8
+    },
+    {
+      "teste": "Estímulo corresponde ao Canalizar vigente",
+      "passou": true,
+      "evidencia": {
+        "candidata": [
+          [
+            "1–2",
+            "1d4"
+          ],
+          [
+            "3–5",
+            "2d4"
+          ],
+          [
+            "6–8",
+            "3d4"
+          ],
+          [
+            "9",
+            "4d4"
+          ],
+          [
+            "10",
+            "4d6"
+          ]
+        ],
+        "dono_R09": [
+          [
+            "1–2",
+            "1d4"
+          ],
+          [
+            "3–5",
+            "2d4"
+          ],
+          [
+            "6–8",
+            "3d4"
+          ],
+          [
+            "9",
+            "4d4"
+          ],
+          [
+            "10",
+            "4d6"
+          ]
+        ]
+      }
+    },
+    {
+      "teste": "Curvas nos limites citados",
+      "passou": true,
+      "evidencia": [
+        {
+          "lapidacao": 1,
+          "protecao": 1,
+          "RD": 1,
+          "raio_Vulto": 0.0,
+          "alvos_Assombro": 1,
+          "autocura_semente_refino_equivalente": 0
+        },
+        {
+          "lapidacao": 2,
+          "protecao": 1,
+          "RD": 3,
+          "raio_Vulto": 1.5,
+          "alvos_Assombro": 1,
+          "autocura_semente_refino_equivalente": 0
+        },
+        {
+          "lapidacao": 3,
+          "protecao": 2,
+          "RD": 4,
+          "raio_Vulto": 1.5,
+          "alvos_Assombro": 1,
+          "autocura_semente_refino_equivalente": 1
+        },
+        {
+          "lapidacao": 4,
+          "protecao": 2,
+          "RD": 6,
+          "raio_Vulto": 3.0,
+          "alvos_Assombro": 2,
+          "autocura_semente_refino_equivalente": 1
+        },
+        {
+          "lapidacao": 5,
+          "protecao": 2,
+          "RD": 7,
+          "raio_Vulto": 3.0,
+          "alvos_Assombro": 2,
+          "autocura_semente_refino_equivalente": 1
+        },
+        {
+          "lapidacao": 6,
+          "protecao": 3,
+          "RD": 9,
+          "raio_Vulto": 4.5,
+          "alvos_Assombro": 3,
+          "autocura_semente_refino_equivalente": 2
+        },
+        {
+          "lapidacao": 7,
+          "protecao": 3,
+          "RD": 10,
+          "raio_Vulto": 4.5,
+          "alvos_Assombro": 3,
+          "autocura_semente_refino_equivalente": 2
+        },
+        {
+          "lapidacao": 8,
+          "protecao": 3,
+          "RD": 12,
+          "raio_Vulto": 6.0,
+          "alvos_Assombro": 4,
+          "autocura_semente_refino_equivalente": 2
+        },
+        {
+          "lapidacao": 9,
+          "protecao": 4,
+          "RD": 13,
+          "raio_Vulto": 6.0,
+          "alvos_Assombro": 4,
+          "autocura_semente_refino_equivalente": 3
+        },
+        {
+          "lapidacao": 10,
+          "protecao": 4,
+          "RD": 15,
+          "raio_Vulto": 7.5,
+          "alvos_Assombro": 5,
+          "autocura_semente_refino_equivalente": 4
+        }
+      ]
+    },
+    {
+      "teste": "Assombro mudança CD no intervalo4–6",
+      "passou": true,
+      "evidencia": {
+        "casos_enumerados": 396,
+        "maxima_diferenca_pp": 10.000000000000009,
+        "nao_cobre": "atributo antigo abaixo de4 ou fora do intervalo escolhido"
+      }
+    },
+    {
+      "teste": "Esteio piso até8 sem somar Lapidação no TR",
+      "passou": true,
+      "evidencia": [
+        {
+          "lapidacao": 7,
+          "atributo": 0,
+          "piso": 2
+        },
+        {
+          "lapidacao": 7,
+          "atributo": 1,
+          "piso": 3
+        },
+        {
+          "lapidacao": 7,
+          "atributo": 2,
+          "piso": 4
+        },
+        {
+          "lapidacao": 7,
+          "atributo": 3,
+          "piso": 5
+        },
+        {
+          "lapidacao": 7,
+          "atributo": 4,
+          "piso": 6
+        },
+        {
+          "lapidacao": 7,
+          "atributo": 5,
+          "piso": 7
+        },
+        {
+          "lapidacao": 7,
+          "atributo": 6,
+          "piso": 7
+        },
+        {
+          "lapidacao": 8,
+          "atributo": 0,
+          "piso": 2
+        },
+        {
+          "lapidacao": 8,
+          "atributo": 1,
+          "piso": 3
+        },
+        {
+          "lapidacao": 8,
+          "atributo": 2,
+          "piso": 4
+        },
+        {
+          "lapidacao": 8,
+          "atributo": 3,
+          "piso": 5
+        },
+        {
+          "lapidacao": 8,
+          "atributo": 4,
+          "piso": 6
+        },
+        {
+          "lapidacao": 8,
+          "atributo": 5,
+          "piso": 7
+        },
+        {
+          "lapidacao": 8,
+          "atributo": 6,
+          "piso": 8
+        },
+        {
+          "lapidacao": 9,
+          "atributo": 0,
+          "piso": 2
+        },
+        {
+          "lapidacao": 9,
+          "atributo": 1,
+          "piso": 3
+        },
+        {
+          "lapidacao": 9,
+          "atributo": 2,
+          "piso": 4
+        },
+        {
+          "lapidacao": 9,
+          "atributo": 3,
+          "piso": 5
+        },
+        {
+          "lapidacao": 9,
+          "atributo": 4,
+          "piso": 6
+        },
+        {
+          "lapidacao": 9,
+          "atributo": 5,
+          "piso": 7
+        },
+        {
+          "lapidacao": 9,
+          "atributo": 6,
+          "piso": 8
+        },
+        {
+          "lapidacao": 10,
+          "atributo": 0,
+          "piso": 2
+        },
+        {
+          "lapidacao": 10,
+          "atributo": 1,
+          "piso": 3
+        },
+        {
+          "lapidacao": 10,
+          "atributo": 2,
+          "piso": 4
+        },
+        {
+          "lapidacao": 10,
+          "atributo": 3,
+          "piso": 5
+        },
+        {
+          "lapidacao": 10,
+          "atributo": 4,
+          "piso": 6
+        },
+        {
+          "lapidacao": 10,
+          "atributo": 5,
+          "piso": 7
+        },
+        {
+          "lapidacao": 10,
+          "atributo": 6,
+          "piso": 8
+        }
+      ]
+    },
+    {
+      "teste": "Casco PV no14 e30",
+      "passou": true,
+      "evidencia": {
+        "14": 7,
+        "30": 15
+      }
+    }
+  ],
+  "casos_contextuais": "CASOS.json",
+  "teste_humano": false,
+  "sincronizacao_final": {
+    "arquivo": "SINCRONIZACAO-FINAL.json",
+    "ok": true,
+    "verificacoes": 1612
+  }
+}

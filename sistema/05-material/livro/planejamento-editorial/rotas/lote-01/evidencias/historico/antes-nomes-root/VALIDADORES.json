@@ -1,0 +1,151 @@
+{
+  "sha256_texto": "4ad33a8841c7b77bc38af1852b6cbd5d8eec9b4e1aff7791a1629bfb9d371831",
+  "protocolo": "../../validacao-editorial/PROTOCOLO-COMPLETO.md",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "evidencias/fontes-preservadas.json",
+        "INVENTARIO.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V02",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "ALTERACOES.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V03",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/regras-verificadas.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V04",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "auditar.py",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V05",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Comparação dirigida de alternativas, custos e interfaces. Não equivale a playtest nem garante equilíbrio de todas as fichas."
+    },
+    {
+      "id": "V06",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "evidencias/REVISAO-EDITORIAL.json",
+        "INTERFACES.md"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V07",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json",
+        "CONFERENCIA.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V08",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V09",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V10",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    },
+    {
+      "id": "V11",
+      "estado": "sem_nova_alegacao_canonica",
+      "evidencias": [
+        "REVISAO-E-FONTES.md"
+      ],
+      "observacao": "Números e procedimentos são regras do Projeto M. Exemplos originais; acesso documental insuficiente não foi apresentado como confirmação da obra."
+    },
+    {
+      "id": "V12",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-INDEPENDENTE-RAIZ.md"
+      ],
+      "observacao": "Leitura independente por agente. Não é teste de compreensão com pessoas.",
+      "revisao_delta": "Concluída por compatibilidade sobre o hash atual; parecer localizado complementa a revisão integral anterior.",
+      "evidencia_delta": "evidencias/REVISAO-SINCRONIZACAO-COMPATIBILIDADE.md; evidencias/REVISAO-SINCRONIZACAO-COMPATIBILIDADE.json"
+    },
+    {
+      "id": "V13",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "CONFERENCIA.json"
+      ],
+      "observacao": "Conferência final atual com 185 verificações, todas aprovadas."
+    },
+    {
+      "id": "V14",
+      "estado": "executado com limites",
+      "evidencias": [
+        "evidencias/inspecao-visual.json"
+      ],
+      "observacao": "Inspeção integral anterior preservada em historico/antes-sincronizacao-final; comparação exata de pixels de todas as páginas com a mesma rasterização confirmou alteração somente na página 6, aberta e inspecionada com view_image nesta rodada."
+    },
+    {
+      "id": "V15",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "ALTERACOES.json",
+        "MANIFESTO.json"
+      ],
+      "observacao": "Critério revisado sobre a candidata atual. Evidência documental e limites estão nos arquivos indicados."
+    }
+  ],
+  "teste_humano": false,
+  "playtest": false,
+  "integrado": false,
+  "dependencias": [
+    "Revisão conjunta de Morrendo e Integridade",
+    "Consolidação de nomes, progressão e remissões no livro completo"
+  ],
+  "sha256_pdf": "6f30a2b7519c99293460cc5062471497c32fd422be28ad836410667978569060",
+  "sincronizacao_final": {
+    "relatorio": "evidencias/SINCRONIZACAO-FINAL.md",
+    "casos": "evidencias/SINCRONIZACAO-FINAL.json",
+    "escopo": "Revisão localizada da seção alterada; demais conteúdos preservados, sem alegar nova leitura integral.",
+    "concluida": true
+  }
+}

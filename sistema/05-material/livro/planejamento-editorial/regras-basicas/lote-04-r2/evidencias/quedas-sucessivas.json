@@ -1,0 +1,140 @@
+{
+  "pares_base_saldo": 80200,
+  "parcelas_examinadas": 200001,
+  "falhas": [],
+  "comparacoes": [
+    {
+      "referencia": 23,
+      "recalcular_em_cada_queda": {
+        "ativacoes": 13,
+        "custos": [
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "maximo_final": 1
+      },
+      "base_sem_perdas_por_insistir": {
+        "ativacoes": 7,
+        "custos": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "maximo_final": 2
+      }
+    },
+    {
+      "referencia": 80,
+      "recalcular_em_cada_queda": {
+        "ativacoes": 22,
+        "custos": [
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          5,
+          4,
+          4,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "maximo_final": 1
+      },
+      "base_sem_perdas_por_insistir": {
+        "ativacoes": 7,
+        "custos": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "maximo_final": 10
+      }
+    },
+    {
+      "referencia": 305,
+      "recalcular_em_cada_queda": {
+        "ativacoes": 31,
+        "custos": [
+          39,
+          34,
+          29,
+          26,
+          23,
+          20,
+          17,
+          15,
+          13,
+          12,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          4,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "maximo_final": 1
+      },
+      "base_sem_perdas_por_insistir": {
+        "ativacoes": 7,
+        "custos": [
+          39,
+          39,
+          39,
+          39,
+          39,
+          39,
+          39
+        ],
+        "maximo_final": 32
+      }
+    }
+  ],
+  "escopo": "Modelo candidato de custos. Em ambos os comparadores há proteção contra máximo zero; só varia a referência. Supõe cura e nova queda depois de cada primeira parcela, sem medir chance, ações ou PE. Não é simulação de combate nem playtest."
+}

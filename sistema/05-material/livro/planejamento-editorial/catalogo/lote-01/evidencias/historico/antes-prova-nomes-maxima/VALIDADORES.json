@@ -1,0 +1,141 @@
+{
+  "sha256_texto": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+  "protocolo": "../../validacao-editorial/PROTOCOLO-COMPLETO.md",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "INVENTARIO-CATALOGO.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V02",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "evidencias/fontes-preservadas.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V03",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/regras-verificadas.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V04",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "auditar.py",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V05",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "TESTE-DE-MESA.md"
+      ],
+      "observacao": "Comparação quantitativa dirigida, sem playtest humano. Riscos de Controle/Rajada, áreas, cura e personagens completos permanecem na fila de validação do conjunto."
+    },
+    {
+      "id": "V06",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/MATRIZ-R06-R07.json",
+        "sincronizacoes/INVOCACOES.md"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V07",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json",
+        "CONFERENCIA.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V08",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V09",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-DE-VOZ.md",
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V10",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V11",
+      "estado": "sem_nova_alegacao_canonica",
+      "evidencias": [
+        "REVISAO-E-FONTES.md"
+      ],
+      "observacao": "Exemplos originais do Projeto M e regras de jogo. Não se atribuiu o novo catálogo ao cânone; limites de acesso documental registrados."
+    },
+    {
+      "id": "V12",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-FINAL-REGRAS-E-VISUAL-01-15.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V13",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "CONFERENCIA.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V14",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/inspecao-visual.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V15",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "ALTERACOES.json",
+        "MANIFESTO.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    }
+  ],
+  "teste_humano": false,
+  "playtest": false,
+  "integrado": false,
+  "dependencias": [
+    "R03 Condição/Amparo",
+    "R11/R12 ciclo da entidade",
+    "Revisão conjunta de Morrendo/Integridade"
+  ]
+}

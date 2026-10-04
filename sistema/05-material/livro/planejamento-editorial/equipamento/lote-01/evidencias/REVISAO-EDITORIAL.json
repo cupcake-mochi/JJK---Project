@@ -1,0 +1,81 @@
+{
+  "data": "2026-10-03",
+  "responsavel": "autor desta rodada",
+  "independente": false,
+  "teste_humano": false,
+  "sha256_texto": "9dc903c65ae220246f0ecbf59398d411e5df467ab3baf10dd8b7749fc130e775",
+  "secoes": [
+    {
+      "id": "equipamento",
+      "parecer": "Título familiar; seis campos explicados; Catálogo/Carga/Combate são dependências explícitas.",
+      "criterios": [
+        "título e função",
+        "suficiência",
+        "excesso e redundância",
+        "localização",
+        "voz",
+        "consulta"
+      ]
+    },
+    {
+      "id": "manipular",
+      "parecer": "Casos comuns em tabela; segunda gratuidade do Malabarista mantém restrição; regra geral candidata.",
+      "criterios": [
+        "título e função",
+        "suficiência",
+        "excesso e redundância",
+        "localização",
+        "voz",
+        "consulta"
+      ]
+    },
+    {
+      "id": "objetos",
+      "parecer": "Distingue ação e teste, mostra falha e custo. Estatísticas de objetos ainda dependem de unidade própria.",
+      "criterios": [
+        "título e função",
+        "suficiência",
+        "excesso e redundância",
+        "localização",
+        "voz",
+        "consulta"
+      ]
+    },
+    {
+      "id": "propriedades",
+      "parecer": "Tabela de consulta precede exceção de Par. Exemplo resolve caso multidados, mas balanceamento não é certificado.",
+      "criterios": [
+        "título e função",
+        "suficiência",
+        "excesso e redundância",
+        "localização",
+        "voz",
+        "consulta"
+      ]
+    },
+    {
+      "id": "oculta",
+      "parecer": "Separa esconder arma e pessoa; correção de Esconder-se para Esconder a arma; retirada de nota editorial Comprida do texto de jogador.",
+      "criterios": [
+        "título e função",
+        "suficiência",
+        "excesso e redundância",
+        "localização",
+        "voz",
+        "consulta"
+      ]
+    },
+    {
+      "id": "municao",
+      "parecer": "Sequência numerada ensina estado/tempo; exemplo inclui dado descartado e recarga. Estoque/preço dependem do catálogo.",
+      "criterios": [
+        "título e função",
+        "suficiência",
+        "excesso e redundância",
+        "localização",
+        "voz",
+        "consulta"
+      ]
+    }
+  ]
+}

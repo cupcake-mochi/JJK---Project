@@ -1,0 +1,65 @@
+
+========================================================================================
+1. A TABELA DA PECA — ela existe, tem 30 linhas e nao tem buraco?
+========================================================================================
+  30 linhas lidas da tabela da peca 18.
+  [x] do nivel 1 ao 30, sem buraco e sem repeticao.
+
+========================================================================================
+2. XP — dono: a peca 12, secao 3
+========================================================================================
+  9 faixas de XP lidas da peca 12.
+  [x] as faixas cobrem os niveis 2 a 29 sem buraco.
+  [x] XP: as 29 linhas batem com o dono
+
+========================================================================================
+3. MAESTRIA — dono: a peca 1, secao 2
+========================================================================================
+  4 degraus de maestria lidos da peca 1: 2-9=1 · 10-17=2 · 18-25=3 · 26-30=4
+  [x] maestria: as 30 linhas batem com o dono
+
+========================================================================================
+4. MARCO E REFINO — dono: a peca 11, secao 3
+========================================================================================
+  marcos lidos da peca 11: [6, 10, 14, 18, 22, 26, 30]
+  [x] refino (linha passiva): as 30 linhas batem com o dono
+  [x] os 7 marcos estao marcados na coluna de eventos, e so eles
+
+========================================================================================
+5. ESPACOS DE FEITICO — dono: a propria peca 18, secao 4
+========================================================================================
+  formula lida da peca 18: 2 + nivel/2, mais 1 por marco.
+  [x] espaços: as 30 linhas batem com o dono
+  [x] regressao: a formula reproduz os 4 valores que a peca 11 publica (nv14=12, nv20=16, nv26=21, nv30=24)
+
+========================================================================================
+6. CAMINHO E TRILHA — dono: a colecao v0.4, em caminhos/
+========================================================================================
+  Caminho em [2, 7, 15, 23, 30] · Trilha em [2, 11, 19, 27]  (os seis arquivos e as dezoito Trilhas concordam)
+  [x] Caminho: os 5 niveis batem com o dono
+  [x] Trilha: os 4 niveis batem com o dono
+
+========================================================================================
+7. CLASSE, PASSIVA E CLASSE 0 — dono: o manual, secao 9
+========================================================================================
+  12 niveis lidos da secao 9 do manual: [1, 5, 7, 9, 10, 11, 13, 17, 20, 21, 26, 30]
+  Classe de feitico abre em: {1: 1, 5: 2, 9: 3, 13: 4, 17: 5, 21: 6, 26: 7}
+  Classe de Passiva abre em: {1: 1, 7: 2, 13: 3}
+  [x] Classe de feitiço: as 30 linhas batem com o dono
+  [x] Classe de Passiva: as 30 linhas batem com o dono
+  Classe 0: comeca em 2 e ganha mais um em [5, 11, 17]
+  [x] Classe 0: as 30 linhas batem com o dono
+  [x] Liberação Máxima: [10, 20, 30] — bate com o manual
+  [x] Técnica Máxima: [17] — bate com o manual
+
+========================================================================================
+8. A TABELA DE TRES FICHAS DA PECA 2 — ela e copia, e ja saiu errada
+========================================================================================
+  rota "sempre refino", rodada com a regra da peca 11 (teto 10):
+   nv6: ref 3, 1 apt · nv10: ref 5, 2 apt · nv14: ref 7, 3 apt · nv18: ref 9, 4 apt · nv22: ref 10, 6 apt · nv26: ref 10, 8 apt · nv30: ref 10, 10 apt
+  [x] a linha "sempre refino" da peca 2 bate com a regra da peca 11
+
+========================================================================================
+>>> TUDO OK — as nove colunas da tabela de progressao reconstroem a partir
+    dos donos, a formula dos espacos reproduz a tabela da peca 11, e a copia
+    de tres fichas da peca 2 bate com a regra do marco.

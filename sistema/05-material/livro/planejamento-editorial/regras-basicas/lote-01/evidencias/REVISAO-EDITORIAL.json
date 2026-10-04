@@ -1,0 +1,56 @@
+{
+  "sha256_texto": "6398c036f821c98ab1c83241eb76c91f0ef2b29d108ba8335b6ae794eb180b35",
+  "revisor": "autor",
+  "teste_humano": false,
+  "secoes": [
+    {
+      "id": "atributos",
+      "funcao": "Introduzir ficha",
+      "titulo": "Nome comum e curto; duas tabelas bastam para atributo e progressão.",
+      "suficiencia_e_destino": "Exemplo aplica treino; criação e catálogo ficam fora.",
+      "risco": "Sem prosa que transforme Essência em explicação canônica universal."
+    },
+    {
+      "id": "testes",
+      "funcao": "Resolver tentativa",
+      "titulo": "Título de assunto; uma tabela compara as duas escalas.",
+      "suficiencia_e_destino": "Custo narrativo não substitui consequência definida; risco é explicitado.",
+      "risco": "Exame com nível não altera automaticamente CD de feitiço."
+    },
+    {
+      "id": "pericias",
+      "funcao": "Usar treino e bônus",
+      "titulo": "Perícias e ofícios são nomes do sistema.",
+      "suficiencia_e_destino": "Especialização, ajuda e grupo são necessários à fórmula; lista completa tem outro destino.",
+      "risco": "Cancelamento de vantagem e desvantagem preservado."
+    },
+    {
+      "id": "resistencia",
+      "funcao": "Resolver efeito recebido",
+      "titulo": "Nome oficial por extenso, com sigla introduzida.",
+      "suficiencia_e_destino": "Tabela diferencia quatro TRs; dois exemplos explicam resultado e Bloquear.",
+      "risco": "TR não significa automaticamente metade de dano."
+    },
+    {
+      "id": "turnos",
+      "funcao": "Acompanhar combate",
+      "titulo": "Título direto; iniciativa e recursos abaixo.",
+      "suficiencia_e_destino": "Conversão precisa ser ensinada porque difere da expectativa de D&D.",
+      "risco": "Empate residual é complemento candidato, registrado."
+    },
+    {
+      "id": "acoes",
+      "funcao": "Escolher ação",
+      "titulo": "Tabela com nomes mecânicos; resumo distinto de procedimento.",
+      "suficiencia_e_destino": "Duas Bônus gerais e saque explicam opções omitidas no antigo exemplo.",
+      "risco": "Provocar e prazo de Ajudar ainda têm pendências de resolução."
+    },
+    {
+      "id": "reacoes",
+      "funcao": "Responder e sustentar efeito",
+      "titulo": "Título composto simples cobre os dois assuntos presentes.",
+      "suficiencia_e_destino": "Preservar concentração e Carregar separados por teste e consequência.",
+      "risco": "Instante da oportunidade e dano como gatilho são conciliações registradas."
+    }
+  ]
+}

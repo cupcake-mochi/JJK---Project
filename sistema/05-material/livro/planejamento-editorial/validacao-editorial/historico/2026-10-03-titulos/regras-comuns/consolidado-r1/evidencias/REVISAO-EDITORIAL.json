@@ -1,0 +1,169 @@
+{
+  "revisor": "autor da consolidação",
+  "metodo": "Cotejo dirigido com referências e auditoria de função, suficiência, localização e consulta. Não é pesquisa com leitores nem detector de IA.",
+  "sha256_texto": "9934a70de9062e1a182d1ef594863c6fff830559f3bcea33cb4b6da84f43c086",
+  "secoes": [
+    {
+      "id": "guia",
+      "funcao": "Orientar a consulta",
+      "titulo": "Novo título declara que é um recorte de regras comuns.",
+      "suficiencia": "Mapa de intenção, destinos e siglas mínimas bastam; não reensinar a ficha.",
+      "redundancia_e_destino": "Tabela remete a regras completas; não repete os procedimentos.",
+      "limite": "Falta no recorte: turno e condições completos. Dependência explicitada.",
+      "referencia": "PHB 2024 PDF21; GURPS PDF7"
+    },
+    {
+      "id": "movimento",
+      "funcao": "Calcular um percurso",
+      "titulo": "Movimento e terreno antecipa custos e superfícies.",
+      "suficiencia": "Metros, ações, arredondamento, custos e exemplo. Quantidade necessária.",
+      "redundancia_e_destino": "Nota de versão retirada; exceções extensas movidas para final.",
+      "limite": "Peso, voo e travessia de espaços ocupados não foram completados por inferência.",
+      "referencia": "PHB PDF30 e374"
+    },
+    {
+      "id": "saltos",
+      "funcao": "Escolher e resolver salto",
+      "titulo": "Saltos é termo direto de consulta.",
+      "suficiencia": "Impulso, limites, movimento, risco e falha; exemplo justifica tabela.",
+      "redundancia_e_destino": "Repetição do custo em terreno difícil é alerta necessário contra salto abusivo.",
+      "limite": "Força da ficha pressuposta; fórmula preservada, não copiada de D&D.",
+      "referencia": "PHB PDF30"
+    },
+    {
+      "id": "quedas",
+      "funcao": "Resolver impacto e movimento imposto",
+      "titulo": "Quedas e movimento imposto evita confundir com a manobra Empurrar.",
+      "suficiencia": "Tabela curta, mitigação, água e duração da queda; sem cortar exceção operacional.",
+      "redundancia_e_destino": "Empurrar remete implicitamente à manobra; subtítulo conserva termo comum de busca.",
+      "limite": "Casos acima de150m podem ir à referência completa futura; permanecem aqui para não apagar regra candidata.",
+      "referencia": "PHB PDF30; princípio de glossário"
+    },
+    {
+      "id": "perceber",
+      "funcao": "Distinguir ver, localizar e ocultar",
+      "titulo": "Percepção e visibilidade anuncia assunto melhor que O que você percebe.",
+      "suficiencia": "Definições, luz, cobertura e sentido equivalente são pré-requisitos das páginas seguintes.",
+      "redundancia_e_destino": "Vulto tem lembrete funcional aqui; não recatalogar seus números.",
+      "limite": "Ler tabela de luz não substitui testes humanos com os exemplos.",
+      "referencia": "PHB PDF25"
+    },
+    {
+      "id": "esconder",
+      "funcao": "Ocultar-se de observadores",
+      "titulo": "Nome corresponde à ação.",
+      "suficiencia": "Custo, posição, teste, empate, duração e término ficam juntos.",
+      "redundancia_e_destino": "Exceções de Incursor/Assassino são curtas e junto do custo alterado.",
+      "limite": "Resultado por observador difere de D&D2024; explicar, sem chamar Oculto de Invisível.",
+      "referencia": "PHB PDF374"
+    },
+    {
+      "id": "procurar",
+      "funcao": "Encontrar sinal acessível",
+      "titulo": "Vasculhar usa o nome oficial da ação; alias procurar na abertura.",
+      "suficiencia": "Ação, sentidos, rolagem e falha suficientes; tabela distingue intenção.",
+      "redundancia_e_destino": "Sai nota superada de energia pendente e catálogo repetido de sentidos; entram destinos. Subtítulo que repetia o título removido após inspeção visual.",
+      "limite": "Leitor precisa compreender sentido acessível, definido em Percepção.",
+      "referencia": "PHB PDF21,25,379"
+    },
+    {
+      "id": "atacar",
+      "funcao": "Resolver ataques com visão desigual",
+      "titulo": "Ataques e ocultação cobre alvo não visto e agressor escondido.",
+      "suficiencia": "Vantagem/desvantagem, posição, revelação e exemplo são necessários.",
+      "redundancia_e_destino": "Lembretes de visão aqui têm função de consulta; Silencioso tem dono aqui.",
+      "limite": "Regra de ataque completo e alcance das armas ficam fora do recorte.",
+      "referencia": "PHB organização de combate e glossário"
+    },
+    {
+      "id": "manobras",
+      "funcao": "Agarrar, derrubar ou empurrar",
+      "titulo": "Título lista ações que o leitor procurará.",
+      "suficiencia": "Custo por ataque, CD, tamanho, mãos e consequência completos.",
+      "redundancia_e_destino": "Regras de fuga ficam em Agarrado; remissão no mapa.",
+      "limite": "Explicar que manobra não acerta evita gerar Fluidez indevida; não cortar por parecer técnico.",
+      "referencia": "PHB tabela de ações e entradas identificadas"
+    },
+    {
+      "id": "contencoes",
+      "funcao": "Sair do agarrão ou mover vítima",
+      "titulo": "Agarrado: escapar e arrastar identifica estado e decisões.",
+      "suficiencia": "CD guardada, ação, mão, arrasto e término necessários.",
+      "redundancia_e_destino": "Resumo das Trilhas justifica benefícios pagos sem repetir kit inteiro.",
+      "limite": "Carga e Peso ainda remetem ao livro; não prometer regra de carregamento nesta página.",
+      "referencia": "PHB estrutura do glossário"
+    },
+    {
+      "id": "estudar",
+      "funcao": "Compreender fonte observável",
+      "titulo": "Estudar mantém nome da ação; antigo complemento dispensável.",
+      "suficiencia": "Pergunta, acesso, perícia, CD, resposta e falha compõem procedimento.",
+      "redundancia_e_destino": "Escada de CD fica aqui; Energia remete em vez de reproduzir.",
+      "limite": "Conciliação com sentido equivalente e posição isolada registrada; sem nova concessão de radar.",
+      "referencia": "PHB PDF21 e379"
+    },
+    {
+      "id": "preparar",
+      "funcao": "Adiar resposta até evento",
+      "titulo": "Preparar mantém nome da ação; subtítulos cobrem sequência.",
+      "suficiencia": "Padrão, Reação, gatilho, término e conjuração necessários.",
+      "redundancia_e_destino": "Invocações recebe remissão curta porque possui economia diferente.",
+      "limite": "Não importar concentração ou reserva de magia de D&D; sistema local usa Melhorias.",
+      "referencia": "PHB PDF379"
+    },
+    {
+      "id": "mundo",
+      "funcao": "Apresentar energia com exemplos da obra",
+      "titulo": "Energia e seus sinais prepara o subsistema.",
+      "suficiencia": "Dois exemplos primários distinguem vestígio, corpo e carga.",
+      "redundancia_e_destino": "Nota editorial numérica movida para guia; usos remetem aos procedimentos.",
+      "limite": "Cânone da r2 preservado; não ampliar fatos sem novas fontes.",
+      "referencia": "GURPS glossário inicial; PHB apresentação do jogo; cânone r2"
+    },
+    {
+      "id": "buscar",
+      "funcao": "Localizar fonte de energia",
+      "titulo": "Vasculhar com Sentir Energia liga perícia à ação conhecida.",
+      "suficiencia": "Ação, alcance, bloqueios, oposição e informação obtida precisam estar juntos.",
+      "redundancia_e_destino": "Lembrete sobre enxergar e rastrear protege limite; não remover como mera repetição. Subtítulo que repetia o título removido após inspeção visual.",
+      "limite": "18m e parede são candidatos de adaptação, sem validação de equilíbrio.",
+      "referencia": "PHB PDF21; organização por ação"
+    },
+    {
+      "id": "pressao",
+      "funcao": "Resolver sinais e novas tentativas",
+      "titulo": "Sinais de energia no ambiente substitui título pouco previsível.",
+      "suficiencia": "Sinal acessível, nova tentativa, Antena e ausência de energia preservados.",
+      "redundancia_e_destino": "Repetição comum remete a Vasculhar, mas custo fica visível.",
+      "limite": "Mestre ainda precisa preparar a pista; não criar triangulação automática.",
+      "referencia": "DMG PDF12–13"
+    },
+    {
+      "id": "ler",
+      "funcao": "Examinar energia atual e vestígios",
+      "titulo": "Ler energia e examinar vestígios cobre ambas as tarefas.",
+      "suficiencia": "Aplicação de Estudar, limites de interpretação e rastros suficientes.",
+      "redundancia_e_destino": "Tabela de escolha retirada daqui; CD detalhada tem dono em Estudar.",
+      "limite": "Faro homônimo fica distinguido; renomeação ampla continua pendente.",
+      "referencia": "PHB PDF25,379"
+    },
+    {
+      "id": "usar",
+      "funcao": "Aplicar posição encontrada",
+      "titulo": "Localização e ataques dá assuntos concretos de consulta.",
+      "suficiencia": "Quadro de permissões e exemplo com dois alvos bastam para aplicar limites.",
+      "redundancia_e_destino": "Silencioso remete ao dono; tabela relembra visão no ponto de uso.",
+      "limite": "Presságio e barreiras precisam de precisão própria futura; não declarar tudo validado.",
+      "referencia": "PHB resumos versus entradas completas"
+    },
+    {
+      "id": "habilidades",
+      "funcao": "Consultar movimento de Trilhas",
+      "titulo": "Nomeia as duas mecânicas principais.",
+      "suficiencia": "Cotas, renovação, apoios e respostas ficam preservados na referência.",
+      "redundancia_e_destino": "Página retirada do meio da regra comum; remissão em Movimento.",
+      "limite": "Continua amostra de compatibilidade, não texto integral das Trilhas.",
+      "referencia": "PHB regras gerais remetendo a capacidades específicas"
+    }
+  ]
+}

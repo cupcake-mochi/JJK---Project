@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/caminhos/bastiao/lote-01/BASTIAO.md": "3334f5e2ff950bc79bbad12ae3f4c2b902e8fbf1539a22e64af7e8826cd14e9d"
+  },
+  "relatorio": "evidencias/AUDITORIA.json",
+  "limites": [
+    "Enumeração exata destes modelos; não é playtest nem prova de balanceamento do livro.",
+    "Dano de entrada já determinado; não modela variação de dados/critico e usa um ataque por evento.",
+    "Aparar/Brecha têm chance registrada; dano adicional do agressor em Brecha depende Reação e não está incluído.",
+    "Casca pressupõe interceptação disponível; não vale sobre todo ataque contra o Bastião.",
+    "Não mede distância, objetivos da missão, economia completa de cenas, diversão ou compreensão humana.",
+    "Dano misto usa candidata R03: ordem de parcelas fixada antes da rolagem."
+  ]
+}

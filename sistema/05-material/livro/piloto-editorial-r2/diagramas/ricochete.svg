@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" viewBox="0 0 760 240" role="img" aria-labelledby="title desc">
+<title id="title">Percurso de Ricochete</title><desc id="desc">A arma percorre três metros até uma parede e nove metros até o alvo. O percurso completo tem doze metros.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#BC2A6E"/></marker></defs>
+<rect width="760" height="240" rx="8" fill="#FDF0F6"/>
+<path d="M170 38H360" stroke="#2B1B2E" stroke-width="10"/>
+<text x="265" y="24" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#251727">parede sólida</text>
+<path d="M91 159L265 46L665 159" fill="none" stroke="#BC2A6E" stroke-width="4" marker-mid="url(#arrow)" marker-end="url(#arrow)"/>
+<circle cx="91" cy="164" r="17" fill="#251727"/>
+<circle cx="665" cy="164" r="17" fill="#BC2A6E"/>
+<rect x="133" y="90" width="48" height="27" rx="5" fill="white"/><text x="157" y="110" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#251727">3 m</text>
+<rect x="463" y="89" width="48" height="27" rx="5" fill="white"/><text x="487" y="109" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#251727">9 m</text>
+<text x="91" y="203" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#251727">Malabarista</text>
+<text x="665" y="203" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#251727">alvo percebido</text>
+<text x="379" y="221" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#594655">esquema sem escala · 3 + 9 = 12 m de percurso</text>
+</svg>

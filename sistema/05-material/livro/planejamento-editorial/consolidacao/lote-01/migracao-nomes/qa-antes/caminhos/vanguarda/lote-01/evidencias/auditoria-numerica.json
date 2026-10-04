@@ -1,0 +1,1100 @@
+{
+  "ok": true,
+  "sha256_texto": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/caminhos/vanguarda/lote-01/VANGUARDA.md": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b"
+  },
+  "verificacoes": 70,
+  "casos_funcionais": 34,
+  "checks": [
+    {
+      "caso": "Vinte seções de consulta",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "caso": "Inventário integral",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra textual: uma Condução ou uma Conclusão por turno próprio",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra textual: A declaração consome a Sequência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra textual: duas ou mais Conduções acertadas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra textual: Não Cede",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra textual: não renova o prazo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra textual: não concede outro ataque de Compasso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra textual: não cria uma unidade extra a cada recarga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra textual: Cada ataque consome o virote colocado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra textual: Consuma essa munição ao soltá-la",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra textual: Conclusão Dupla com Yumi é imediata",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Regra textual: Dobrar a Aposta não combina com Conclusão Dupla",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Sem retorno da maximização indevida",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Prazos sem dois donos",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Sem retórica Como ler",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Sem ponto e vírgula",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Quadro de custo/redução",
+      "obtido": [
+        [
+          "1 ou 2",
+          "1",
+          "2"
+        ],
+        [
+          "3 ou 4",
+          "2",
+          "3"
+        ]
+      ],
+      "esperado": [
+        [
+          "1 ou 2",
+          "1",
+          "2"
+        ],
+        [
+          "3 ou 4",
+          "2",
+          "3"
+        ]
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Custo por Maestria 1",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Custo por Maestria 2",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Custo por Maestria 3",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Custo por Maestria 4",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Exemplo nível10/Maestria2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Invariantes em sequências de acertos/erros",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Finta: exemplo CD14, bônus4, acerto65%",
+      "obtido": "3627/8000",
+      "esperado": "3627/8000",
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 0",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 4",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 6",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 7",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 8",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 9",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 10",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 11",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 12",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 13",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 14",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 15",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 16",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 17",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 18",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 19",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não Cede chance 20",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Classe mínima Compasso 1",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Classe mínima Compasso 2",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Classe mínima Compasso 3",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Classe mínima Compasso 4",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Classe mínima Compasso 5",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Classe mínima Compasso 6",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Classe mínima Compasso 7",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "caso": "Inventário conservado em recargas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Desvantagem de dano mantém conjunto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 0",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 4",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 6",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 7",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 8",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 9",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 10",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 11",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 12",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 13",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Refluxo não gera mais que custo 14",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "casos": [
+    {
+      "caso": "Abrir e Conduzir no mesmo turno",
+      "obtido": [
+        1,
+        18,
+        2
+      ],
+      "esperado": [
+        1,
+        18,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Não Concluir depois de Conduzir",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Conclusão no turno seguinte",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Erro/resistência não devolvem Sequência",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Não abrir após conclusão",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Erro cobra PE e termina",
+      "obtido": [
+        18,
+        null
+      ],
+      "esperado": [
+        18,
+        null
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Ataque restante pode abrir",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não conduz duas vezes após reabrir",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Persistência mantém erro e prazo",
+      "obtido": [
+        "a",
+        0,
+        2,
+        0
+      ],
+      "esperado": [
+        "a",
+        0,
+        2,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Segundo turno seguinte ainda válido",
+      "obtido": "a",
+      "esperado": "a",
+      "ok": true
+    },
+    {
+      "caso": "Expira depois do segundo turno seguinte",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Acerto renova prazo",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Duas conduções habilitam Dupla",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Compasso comum sem Ação Atacar",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Bote transfere adicional à Bônus",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Ataque Extra gasto não reaparece",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Ação Atacar normal nível7",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "RifleX4 com estoque3 não fabrica quarta unidade",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Supressão exige duas carregadas",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "RupturaX4 repõe no máximo2",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Romper Contato usa munição da reserva",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Farpa preservada por Acionar mantém uma vaga",
+      "obtido": [
+        0,
+        1
+      ],
+      "esperado": [
+        0,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Dupla paga dois efeitos, um virote não paga ambos",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Besta carregada sem mão consome apenas a colocada",
+      "obtido": [
+        true,
+        0,
+        7
+      ],
+      "esperado": [
+        true,
+        0,
+        7
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta vazia sem mão não recarrega",
+      "obtido": [
+        false,
+        0,
+        7
+      ],
+      "esperado": [
+        false,
+        0,
+        7
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta vazia com mão coloca e consome uma reserva",
+      "obtido": [
+        true,
+        0,
+        6
+      ],
+      "esperado": [
+        true,
+        0,
+        6
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoFalse/resistênciaFalse/alcanceFalse",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoFalse/resistênciaFalse/alcanceTrue",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoFalse/resistênciaTrue/alcanceFalse",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoFalse/resistênciaTrue/alcanceTrue",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoTrue/resistênciaFalse/alcanceFalse",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoTrue/resistênciaFalse/alcanceTrue",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoTrue/resistênciaTrue/alcanceFalse",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoTrue/resistênciaTrue/alcanceTrue",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ],
+  "escalas": [
+    {
+      "maestria": 1,
+      "reducao_media": "5/2",
+      "custo_conducao": 2,
+      "nao_cede": 1,
+      "persistencia": 1
+    },
+    {
+      "maestria": 2,
+      "reducao_media": "5/2",
+      "custo_conducao": 2,
+      "nao_cede": 2,
+      "persistencia": 2
+    },
+    {
+      "maestria": 3,
+      "reducao_media": "5",
+      "custo_conducao": 3,
+      "nao_cede": 3,
+      "persistencia": 2
+    },
+    {
+      "maestria": 4,
+      "reducao_media": "5",
+      "custo_conducao": 3,
+      "nao_cede": 4,
+      "persistencia": 3
+    }
+  ],
+  "probabilidades": [
+    {
+      "resultado_minimo_TR": 2,
+      "p_acerto": "1/2",
+      "efeito_normal": "1/40",
+      "finta_sem_reacao": "39/800"
+    },
+    {
+      "resultado_minimo_TR": 2,
+      "p_acerto": "13/20",
+      "efeito_normal": "13/400",
+      "finta_sem_reacao": "507/8000"
+    },
+    {
+      "resultado_minimo_TR": 2,
+      "p_acerto": "4/5",
+      "efeito_normal": "1/25",
+      "finta_sem_reacao": "39/500"
+    },
+    {
+      "resultado_minimo_TR": 3,
+      "p_acerto": "1/2",
+      "efeito_normal": "1/20",
+      "finta_sem_reacao": "19/200"
+    },
+    {
+      "resultado_minimo_TR": 3,
+      "p_acerto": "13/20",
+      "efeito_normal": "13/200",
+      "finta_sem_reacao": "247/2000"
+    },
+    {
+      "resultado_minimo_TR": 3,
+      "p_acerto": "4/5",
+      "efeito_normal": "2/25",
+      "finta_sem_reacao": "19/125"
+    },
+    {
+      "resultado_minimo_TR": 4,
+      "p_acerto": "1/2",
+      "efeito_normal": "3/40",
+      "finta_sem_reacao": "111/800"
+    },
+    {
+      "resultado_minimo_TR": 4,
+      "p_acerto": "13/20",
+      "efeito_normal": "39/400",
+      "finta_sem_reacao": "1443/8000"
+    },
+    {
+      "resultado_minimo_TR": 4,
+      "p_acerto": "4/5",
+      "efeito_normal": "3/25",
+      "finta_sem_reacao": "111/500"
+    },
+    {
+      "resultado_minimo_TR": 5,
+      "p_acerto": "1/2",
+      "efeito_normal": "1/10",
+      "finta_sem_reacao": "9/50"
+    },
+    {
+      "resultado_minimo_TR": 5,
+      "p_acerto": "13/20",
+      "efeito_normal": "13/100",
+      "finta_sem_reacao": "117/500"
+    },
+    {
+      "resultado_minimo_TR": 5,
+      "p_acerto": "4/5",
+      "efeito_normal": "4/25",
+      "finta_sem_reacao": "36/125"
+    },
+    {
+      "resultado_minimo_TR": 6,
+      "p_acerto": "1/2",
+      "efeito_normal": "1/8",
+      "finta_sem_reacao": "7/32"
+    },
+    {
+      "resultado_minimo_TR": 6,
+      "p_acerto": "13/20",
+      "efeito_normal": "13/80",
+      "finta_sem_reacao": "91/320"
+    },
+    {
+      "resultado_minimo_TR": 6,
+      "p_acerto": "4/5",
+      "efeito_normal": "1/5",
+      "finta_sem_reacao": "7/20"
+    },
+    {
+      "resultado_minimo_TR": 7,
+      "p_acerto": "1/2",
+      "efeito_normal": "3/20",
+      "finta_sem_reacao": "51/200"
+    },
+    {
+      "resultado_minimo_TR": 7,
+      "p_acerto": "13/20",
+      "efeito_normal": "39/200",
+      "finta_sem_reacao": "663/2000"
+    },
+    {
+      "resultado_minimo_TR": 7,
+      "p_acerto": "4/5",
+      "efeito_normal": "6/25",
+      "finta_sem_reacao": "51/125"
+    },
+    {
+      "resultado_minimo_TR": 8,
+      "p_acerto": "1/2",
+      "efeito_normal": "7/40",
+      "finta_sem_reacao": "231/800"
+    },
+    {
+      "resultado_minimo_TR": 8,
+      "p_acerto": "13/20",
+      "efeito_normal": "91/400",
+      "finta_sem_reacao": "3003/8000"
+    },
+    {
+      "resultado_minimo_TR": 8,
+      "p_acerto": "4/5",
+      "efeito_normal": "7/25",
+      "finta_sem_reacao": "231/500"
+    },
+    {
+      "resultado_minimo_TR": 9,
+      "p_acerto": "1/2",
+      "efeito_normal": "1/5",
+      "finta_sem_reacao": "8/25"
+    },
+    {
+      "resultado_minimo_TR": 9,
+      "p_acerto": "13/20",
+      "efeito_normal": "13/50",
+      "finta_sem_reacao": "52/125"
+    },
+    {
+      "resultado_minimo_TR": 9,
+      "p_acerto": "4/5",
+      "efeito_normal": "8/25",
+      "finta_sem_reacao": "64/125"
+    },
+    {
+      "resultado_minimo_TR": 10,
+      "p_acerto": "1/2",
+      "efeito_normal": "9/40",
+      "finta_sem_reacao": "279/800"
+    },
+    {
+      "resultado_minimo_TR": 10,
+      "p_acerto": "13/20",
+      "efeito_normal": "117/400",
+      "finta_sem_reacao": "3627/8000"
+    },
+    {
+      "resultado_minimo_TR": 10,
+      "p_acerto": "4/5",
+      "efeito_normal": "9/25",
+      "finta_sem_reacao": "279/500"
+    },
+    {
+      "resultado_minimo_TR": 11,
+      "p_acerto": "1/2",
+      "efeito_normal": "1/4",
+      "finta_sem_reacao": "3/8"
+    },
+    {
+      "resultado_minimo_TR": 11,
+      "p_acerto": "13/20",
+      "efeito_normal": "13/40",
+      "finta_sem_reacao": "39/80"
+    },
+    {
+      "resultado_minimo_TR": 11,
+      "p_acerto": "4/5",
+      "efeito_normal": "2/5",
+      "finta_sem_reacao": "3/5"
+    },
+    {
+      "resultado_minimo_TR": 12,
+      "p_acerto": "1/2",
+      "efeito_normal": "11/40",
+      "finta_sem_reacao": "319/800"
+    },
+    {
+      "resultado_minimo_TR": 12,
+      "p_acerto": "13/20",
+      "efeito_normal": "143/400",
+      "finta_sem_reacao": "4147/8000"
+    },
+    {
+      "resultado_minimo_TR": 12,
+      "p_acerto": "4/5",
+      "efeito_normal": "11/25",
+      "finta_sem_reacao": "319/500"
+    },
+    {
+      "resultado_minimo_TR": 13,
+      "p_acerto": "1/2",
+      "efeito_normal": "3/10",
+      "finta_sem_reacao": "21/50"
+    },
+    {
+      "resultado_minimo_TR": 13,
+      "p_acerto": "13/20",
+      "efeito_normal": "39/100",
+      "finta_sem_reacao": "273/500"
+    },
+    {
+      "resultado_minimo_TR": 13,
+      "p_acerto": "4/5",
+      "efeito_normal": "12/25",
+      "finta_sem_reacao": "84/125"
+    },
+    {
+      "resultado_minimo_TR": 14,
+      "p_acerto": "1/2",
+      "efeito_normal": "13/40",
+      "finta_sem_reacao": "351/800"
+    },
+    {
+      "resultado_minimo_TR": 14,
+      "p_acerto": "13/20",
+      "efeito_normal": "169/400",
+      "finta_sem_reacao": "4563/8000"
+    },
+    {
+      "resultado_minimo_TR": 14,
+      "p_acerto": "4/5",
+      "efeito_normal": "13/25",
+      "finta_sem_reacao": "351/500"
+    },
+    {
+      "resultado_minimo_TR": 15,
+      "p_acerto": "1/2",
+      "efeito_normal": "7/20",
+      "finta_sem_reacao": "91/200"
+    },
+    {
+      "resultado_minimo_TR": 15,
+      "p_acerto": "13/20",
+      "efeito_normal": "91/200",
+      "finta_sem_reacao": "1183/2000"
+    },
+    {
+      "resultado_minimo_TR": 15,
+      "p_acerto": "4/5",
+      "efeito_normal": "14/25",
+      "finta_sem_reacao": "91/125"
+    },
+    {
+      "resultado_minimo_TR": 16,
+      "p_acerto": "1/2",
+      "efeito_normal": "3/8",
+      "finta_sem_reacao": "15/32"
+    },
+    {
+      "resultado_minimo_TR": 16,
+      "p_acerto": "13/20",
+      "efeito_normal": "39/80",
+      "finta_sem_reacao": "39/64"
+    },
+    {
+      "resultado_minimo_TR": 16,
+      "p_acerto": "4/5",
+      "efeito_normal": "3/5",
+      "finta_sem_reacao": "3/4"
+    },
+    {
+      "resultado_minimo_TR": 17,
+      "p_acerto": "1/2",
+      "efeito_normal": "2/5",
+      "finta_sem_reacao": "12/25"
+    },
+    {
+      "resultado_minimo_TR": 17,
+      "p_acerto": "13/20",
+      "efeito_normal": "13/25",
+      "finta_sem_reacao": "78/125"
+    },
+    {
+      "resultado_minimo_TR": 17,
+      "p_acerto": "4/5",
+      "efeito_normal": "16/25",
+      "finta_sem_reacao": "96/125"
+    },
+    {
+      "resultado_minimo_TR": 18,
+      "p_acerto": "1/2",
+      "efeito_normal": "17/40",
+      "finta_sem_reacao": "391/800"
+    },
+    {
+      "resultado_minimo_TR": 18,
+      "p_acerto": "13/20",
+      "efeito_normal": "221/400",
+      "finta_sem_reacao": "5083/8000"
+    },
+    {
+      "resultado_minimo_TR": 18,
+      "p_acerto": "4/5",
+      "efeito_normal": "17/25",
+      "finta_sem_reacao": "391/500"
+    },
+    {
+      "resultado_minimo_TR": 19,
+      "p_acerto": "1/2",
+      "efeito_normal": "9/20",
+      "finta_sem_reacao": "99/200"
+    },
+    {
+      "resultado_minimo_TR": 19,
+      "p_acerto": "13/20",
+      "efeito_normal": "117/200",
+      "finta_sem_reacao": "1287/2000"
+    },
+    {
+      "resultado_minimo_TR": 19,
+      "p_acerto": "4/5",
+      "efeito_normal": "18/25",
+      "finta_sem_reacao": "99/125"
+    },
+    {
+      "resultado_minimo_TR": 20,
+      "p_acerto": "1/2",
+      "efeito_normal": "19/40",
+      "finta_sem_reacao": "399/800"
+    },
+    {
+      "resultado_minimo_TR": 20,
+      "p_acerto": "13/20",
+      "efeito_normal": "247/400",
+      "finta_sem_reacao": "5187/8000"
+    },
+    {
+      "resultado_minimo_TR": 20,
+      "p_acerto": "4/5",
+      "efeito_normal": "19/25",
+      "finta_sem_reacao": "399/500"
+    }
+  ],
+  "resumo": {
+    "estados_sequencia": 240,
+    "perfis_ataque_TR": 57,
+    "estados_municao": 1638,
+    "transicoes_virote": 23,
+    "pares_dano_2d6": 1296,
+    "media_2d6_desvantagem_conjunto": "3647/648",
+    "media_misturando_minimos_proibida": "91/18"
+  },
+  "limites": [
+    "Modelos próprios não constituem playtest nem comparação completa das fichas de seis Caminhos.",
+    "Probabilidades condicionam acerto e bônus de TR. Bloquear e defesas de alvos reais podem alterar a aplicação."
+  ]
+}

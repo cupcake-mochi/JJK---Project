@@ -1,0 +1,1248 @@
+{
+  "unidades": [
+    {
+      "unidade": "R04",
+      "pasta": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01",
+      "baseline": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/evidencias/historico/antes-prova-nomes-maxima",
+      "arquivos": [
+        {
+          "arquivo": "CATALOGO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/CATALOGO.json",
+          "sha256_preservado": "ae1e326433db8d67da1508460eef9572ce5646c25e089f3473fc6193b1a1edcc"
+        },
+        {
+          "arquivo": "CONFERENCIA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/CONFERENCIA.json",
+          "sha256_preservado": "cd3420a4a66d28811a879c22f609385fada019cb24e0e7edd96982ea7c856392"
+        },
+        {
+          "arquivo": "ESTRUTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ESTRUTURA.json",
+          "sha256_preservado": "5f046131d074a7e49329cbe4942aa81b71775abe62c46818f9b6619f93724869"
+        },
+        {
+          "arquivo": "VALIDACAO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDACAO.json",
+          "sha256_preservado": "4f6f9da330671535cdf4114b5d4f1c8a5bde45f7ac1eb241281f4709c91485a0"
+        },
+        {
+          "arquivo": "conferir.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/conferir.py",
+          "sha256_preservado": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7"
+        },
+        {
+          "arquivo": "gerar_pdf.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/gerar_pdf.py",
+          "sha256_preservado": "c77ff010320c3b1047e3c85417af77787d544e1efb7a73ff970d7c764574bdc1"
+        },
+        {
+          "arquivo": "validar_modelos.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/validar_modelos.py",
+          "sha256_preservado": "1f28e8b40f3a7d2b53d4e7e86289b02768e7f1fd0d5243c424769e6088802e33"
+        },
+        {
+          "arquivo": "output/pdf/Projeto-M-Pericias-e-Oficios-Proposta-01.pdf",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/output/pdf/Projeto-M-Pericias-e-Oficios-Proposta-01.pdf",
+          "sha256_preservado": "7ee626496d6b85db087388e174e9be5e83b5a393904cc0535ff5a9ae1a7b1b5e"
+        },
+        {
+          "arquivo": "evidencias/auditoria-numerica.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/auditoria-numerica.json",
+          "sha256_preservado": "bacb5f971b5682d4ce8480e2476323b2acb3fe84f829c70479aa7014dcdfc1e5"
+        },
+        {
+          "arquivo": "evidencias/distribuicoes.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/distribuicoes.json",
+          "sha256_preservado": "f32c57ed676feb8d74747106545a3f33f6606b0e9b2ba0c77ef938e69c793899"
+        },
+        {
+          "arquivo": "evidencias/fontes-preservadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-preservadas.json",
+          "sha256_preservado": "19b2f2a2013145affc7de8a26fdcef1a95e371d5f39de154efc4c68853f1587c"
+        },
+        {
+          "arquivo": "evidencias/inspecao-visual.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/inspecao-visual.json",
+          "sha256_preservado": "bf08151d37203d7a814f5b8df964760f9276961e13c5c6309e3f399cbebf9287"
+        },
+        {
+          "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/LOCALIZACAO-EDITORIAL.json",
+          "sha256_preservado": "7bcc08031c1ebb444389e66f9cbaf64e943114235aae267c211f3cc5cca78920"
+        },
+        {
+          "arquivo": "evidencias/pdf-estrutura.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/pdf-estrutura.json",
+          "sha256_preservado": "312f6c0ae91d62f3d762af3d5a87f2d93502e6accb0d97c89408984960e1deab"
+        },
+        {
+          "arquivo": "evidencias/regras-verificadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/regras-verificadas.json",
+          "sha256_preservado": "5e901da1055ebd6e42582f98833d97bd00048c1424b13f07df2519ec77de3de0"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-EDITORIAL.json",
+          "sha256_preservado": "ad59bdeccf130e6b2185ce78107c149dee4711280b74c983f2e0d7688f1899fc"
+        }
+      ],
+      "estado": "Prova e auditorias finalizadas, diferenças visualmente inspecionadas. V12 R04 aguardando parecer formal da raiz.",
+      "sha256_texto_final": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+      "paginas_reabertas": [
+        3,
+        5
+      ],
+      "conferencia_pdf": 83
+    },
+    {
+      "unidade": "R06",
+      "pasta": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01",
+      "baseline": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/evidencias/historico/antes-prova-nomes-maxima",
+      "arquivos": [
+        {
+          "arquivo": "ALTERACOES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ALTERACOES.json",
+          "sha256_preservado": "f6a600488ce3564e0bfc489ed4e21d083df3276a53110bbfa2e4f863f6d6b9ce"
+        },
+        {
+          "arquivo": "CONFERENCIA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/CONFERENCIA.json",
+          "sha256_preservado": "8a5dc959b7b4702a71971854209e066c3a358f9ddfc001a8e7b0095d48e80034"
+        },
+        {
+          "arquivo": "CONTRATO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/CONTRATO.json",
+          "sha256_preservado": "fbf83e76fd82bd7c30faa505a1efa137196228a2f5f925cd621259cf8c6b8d2e"
+        },
+        {
+          "arquivo": "ESTRUTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ESTRUTURA.json",
+          "sha256_preservado": "87f5deae3407890832e6d57b6ecf9969dd63f4ad4aba6d022c7539559b03058c"
+        },
+        {
+          "arquivo": "MATRIZ-AUDITADA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/MATRIZ-AUDITADA.json",
+          "sha256_preservado": "12194d8ce9d4dd4ae08bd8eaf33c47b0337c7680e9dc7b782314b18353642f10"
+        },
+        {
+          "arquivo": "VALIDACAO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDACAO.json",
+          "sha256_preservado": "4a2eeaa04bfef0f7215741fd77c5ed993426b1a3e1917d67385646226000897d"
+        },
+        {
+          "arquivo": "VALIDADORES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDADORES.json",
+          "sha256_preservado": "64d7aa0db8a9e741b26427c69fa961b2a04aa9835c76de372f3e96325a2b0226"
+        },
+        {
+          "arquivo": "auditar.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/auditar.py",
+          "sha256_preservado": "21a15505fff968f8b8ec0e196387489c54fc7a837dc142e276ff74f62e858a0b"
+        },
+        {
+          "arquivo": "conferir.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/conferir.py",
+          "sha256_preservado": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7"
+        },
+        {
+          "arquivo": "gerar_pdf.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/gerar_pdf.py",
+          "sha256_preservado": "5ba58fcae4021602aa5356f1a49c1f9c9f1754cfd6dcd8fc068bb1cfd8a1478e"
+        },
+        {
+          "arquivo": "verificar_sincronizacoes.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/verificar_sincronizacoes.py",
+          "sha256_preservado": "675c05c38c7d889cc9deddf9de8c540872c07f1aeec4e0a13d82bfa5c85a78f5"
+        },
+        {
+          "arquivo": "output/pdf/Projeto-M-Fundamento-Proposta-01.pdf",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/output/pdf/Projeto-M-Fundamento-Proposta-01.pdf",
+          "sha256_preservado": "e2e38afc2e58cfeac7dd7b1f778f3583beb8572c8de38dedf6ac654ef3001281"
+        },
+        {
+          "arquivo": "evidencias/auditoria-numerica.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/auditoria-numerica.json",
+          "sha256_preservado": "cdd247b9460f0c5cb27216743b037a13cd81632421268dbfa7c1a7d67bc9d9d8"
+        },
+        {
+          "arquivo": "evidencias/fontes-preservadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-preservadas.json",
+          "sha256_preservado": "c40035c528af2d7e958693fdb15cd0ed387c675d69117e2a591df1d3ac0a93de"
+        },
+        {
+          "arquivo": "evidencias/fundamento-certeiro-resultados.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fundamento-certeiro-resultados.json",
+          "sha256_preservado": "a235ac55d22ddb07d8a89230cf0a262f2949d9c1a96de2b0bd34ba70177f7178"
+        },
+        {
+          "arquivo": "evidencias/fundamento-maxima-descontos.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fundamento-maxima-descontos.json",
+          "sha256_preservado": "b472fa9d912e6089ab5fe9d76b82ef26caba692c0aa9916e65ebf93f155899cb"
+        },
+        {
+          "arquivo": "evidencias/fundamento-riscos-numericos.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fundamento-riscos-numericos.json",
+          "sha256_preservado": "dd8b4f2d0248d6708a0261e6d6dcb402e2ee8e2fb5dd6ffad9647f69481a956a"
+        },
+        {
+          "arquivo": "evidencias/fundamento-sincronizacao-verificacao.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fundamento-sincronizacao-verificacao.json",
+          "sha256_preservado": "771b9da4cd649849af4b07c8b7b8f6d0850924b87a31a5be22b59967e1a0f796"
+        },
+        {
+          "arquivo": "evidencias/inspecao-visual.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/inspecao-visual.json",
+          "sha256_preservado": "c95e838be60c143ec9b137d1935b50082c2bb549020a0c9195271da515894667"
+        },
+        {
+          "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/LOCALIZACAO-EDITORIAL.json",
+          "sha256_preservado": "36bc6f0bcb9388c74778ea16a41c2ed67a79d6ccf22e62a08968d9fa168b588a"
+        },
+        {
+          "arquivo": "evidencias/pdf-estrutura.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/pdf-estrutura.json",
+          "sha256_preservado": "e7e065b3cef6689786b30ea0cb8e9bc02f8e7bb491aaf7ec54c7555ac23c70d8"
+        },
+        {
+          "arquivo": "evidencias/r06-visual-voz-1-15.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r06-visual-voz-1-15.json",
+          "sha256_preservado": "9134827e1fdb9bbf5a92362795c9f7f22ec0e6644aa8dd4a6605b37c560402c8"
+        },
+        {
+          "arquivo": "evidencias/regras-verificadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/regras-verificadas.json",
+          "sha256_preservado": "853f5d823b49acbfc78fc5488f3e0adba5efaa6c75ec98d040f1ddb869ca0706"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-DE-VOZ-2026-10-03.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-DE-VOZ-2026-10-03.json",
+          "sha256_preservado": "d7816ca444cd6aaa98e7f066adf10b59545afa7f1d58b3efcc63836fe60cb644"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-EDITORIAL.json",
+          "sha256_preservado": "05c75b9427cc49e4982d71285ce1a87e1045126ccfee4741ea626db0558ebf35"
+        },
+        {
+          "arquivo": "evidencias/sincronizacoes-verificadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/sincronizacoes-verificadas.json",
+          "sha256_preservado": "4bf4be0b533ea300d57a7655a9470281fd01668c4f604465270963e9c91d7c84"
+        }
+      ],
+      "estado": "Prova e auditorias finalizadas; diferenças visualmente inspecionadas; deltas localizados registrados.",
+      "sha256_texto_final": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+      "paginas_reabertas": [
+        2,
+        5,
+        6,
+        21
+      ],
+      "conferencia_pdf": 233
+    },
+    {
+      "unidade": "R07",
+      "pasta": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/catalogo/lote-01",
+      "baseline": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/evidencias/historico/antes-prova-nomes-maxima",
+      "arquivos": [
+        {
+          "arquivo": "ALTERACOES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ALTERACOES.json",
+          "sha256_preservado": "31f14b1a076e25589a7ca4160158f33b9b484a537f9882af9631ef1bab785cba"
+        },
+        {
+          "arquivo": "CONFERENCIA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/CONFERENCIA.json",
+          "sha256_preservado": "9d2f8382df799ae9b49ec88206c537ed97952119dfdec28d87373fceac68a3c7"
+        },
+        {
+          "arquivo": "ESTRUTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ESTRUTURA.json",
+          "sha256_preservado": "24d80136c2b06f91c9bebc39d278767509871258d5d702c77347d253626f8519"
+        },
+        {
+          "arquivo": "INVENTARIO-CATALOGO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/INVENTARIO-CATALOGO.json",
+          "sha256_preservado": "a72af1fbd38b3924a7299e8651472dc5b733caca7cabb7b175d614712faffdbf"
+        },
+        {
+          "arquivo": "VALIDACAO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDACAO.json",
+          "sha256_preservado": "fcc68db18df911691167027ae453d063115b2c71251b5028ef9a2372dce7366a"
+        },
+        {
+          "arquivo": "VALIDADORES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDADORES.json",
+          "sha256_preservado": "b08ff00f19a78b02d8b1e95d449fd38c07fc5c7ab16c32a016177a2e9db4ba86"
+        },
+        {
+          "arquivo": "auditar.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/auditar.py",
+          "sha256_preservado": "6c900288b90dd820d84c110218a1700c595455860332e7bf3a7db8b87349594d"
+        },
+        {
+          "arquivo": "conferir.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/conferir.py",
+          "sha256_preservado": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7"
+        },
+        {
+          "arquivo": "gerar_pdf.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/gerar_pdf.py",
+          "sha256_preservado": "e088c532ef8135677fbe2c8e9393caef19649f7de14a1bc2f0ce8f7e7d19fd8e"
+        },
+        {
+          "arquivo": "output/pdf/Projeto-M-Catalogo-de-Criacao-Proposta-01.pdf",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/output/pdf/Projeto-M-Catalogo-de-Criacao-Proposta-01.pdf",
+          "sha256_preservado": "f92d6c62b447389ded4235113759fa37d51a2f96b172316cf7bb7d54fedc20e0"
+        },
+        {
+          "arquivo": "evidencias/auditoria-numerica.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/auditoria-numerica.json",
+          "sha256_preservado": "34056d551c344f3211e6d95a6804493086a38cc196a85f5d4402a6cf768020fb"
+        },
+        {
+          "arquivo": "evidencias/fontes-preservadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-preservadas.json",
+          "sha256_preservado": "894669f710e687461a7e08d01293a8de1699d5b6c6f1dfd39fc63bce1f3c75a2"
+        },
+        {
+          "arquivo": "evidencias/inspecao-visual.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/inspecao-visual.json",
+          "sha256_preservado": "035b085f3f2eb54ff354178ad028c598757f4231a1a876a56ca6725f8c20fe68"
+        },
+        {
+          "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/LOCALIZACAO-EDITORIAL.json",
+          "sha256_preservado": "4a8d57465b19a424c90957c34036acc051f682e215333eb046706d0155909c61"
+        },
+        {
+          "arquivo": "evidencias/MATRIZ-R06-R07.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/MATRIZ-R06-R07.json",
+          "sha256_preservado": "82b230debce03922bd3b34f61785c3942e62a0571831b5459a6395b19f0f0640"
+        },
+        {
+          "arquivo": "evidencias/pdf-estrutura.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/pdf-estrutura.json",
+          "sha256_preservado": "735c1cc40bc437089278ab5ad55bd7a1ce4d8dd4f78d8719d146d2747b8d737f"
+        },
+        {
+          "arquivo": "evidencias/PRECOS-CONFERIDOS.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/PRECOS-CONFERIDOS.json",
+          "sha256_preservado": "396f0df19f728903c251e3b40fc9aa9a05c522effaec66d9586dce715db8a715"
+        },
+        {
+          "arquivo": "evidencias/r07-ajustes-raiz.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r07-ajustes-raiz.json",
+          "sha256_preservado": "c407d1ddbd0dab8802b9c231ae04a243e41409b8913afb35576eaf2dfc670db8"
+        },
+        {
+          "arquivo": "evidencias/r07-casos-a.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r07-casos-a.json",
+          "sha256_preservado": "3f030babb5e3b45ed4014bdb585fb898fa9d92d80369c37805cdbd5fd3aa4c73"
+        },
+        {
+          "arquivo": "evidencias/r07-casos-b.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r07-casos-b.json",
+          "sha256_preservado": "11e04b4918f9c958824892e844bf8b6477c25d75c48ca785dff4a609abf362e8"
+        },
+        {
+          "arquivo": "evidencias/r07-casos-c.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r07-casos-c.json",
+          "sha256_preservado": "8b48d046b96e7d17e427bf547201586d94695e6ed3b892ffa6df623a634ae238"
+        },
+        {
+          "arquivo": "evidencias/r07-decisoes-a.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r07-decisoes-a.json",
+          "sha256_preservado": "60a4dfd814ed52439dcf7eb840480b718519eb0b05a0bad36dd5154fcd7f43f2"
+        },
+        {
+          "arquivo": "evidencias/r07-decisoes-b.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r07-decisoes-b.json",
+          "sha256_preservado": "4725cb0ab8f23ebc8ee650e0f51d6d5824dd845408366f62765203e974c8a97f"
+        },
+        {
+          "arquivo": "evidencias/r07-decisoes-c.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r07-decisoes-c.json",
+          "sha256_preservado": "1d6176c05d50a967c59bd7d7253a58bd6a4b82c35f8acdd8f2c1a60d4da18c72"
+        },
+        {
+          "arquivo": "evidencias/r07-revisao-a.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r07-revisao-a.json",
+          "sha256_preservado": "c71a9bcea48400505186053160bc6360ed58599797b2b920f982ac28247ef83e"
+        },
+        {
+          "arquivo": "evidencias/r07-revisao-b-compatibilidade.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r07-revisao-b-compatibilidade.json",
+          "sha256_preservado": "661dba04f2c032147d1a689e2e24670c62599d0c6048335ff4e42aeee374780d"
+        },
+        {
+          "arquivo": "evidencias/r07-revisao-c.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r07-revisao-c.json",
+          "sha256_preservado": "95abd9dd1ddccfb8ad9ed163da3aeb236eb276a9a27f2531f3236a4c4a1635ee"
+        },
+        {
+          "arquivo": "evidencias/r07-verificacao-a.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/r07-verificacao-a.json",
+          "sha256_preservado": "8ca77a5ca5856416bc64986c04843eac07e48de01e8702687e5a27d6436cfdef"
+        },
+        {
+          "arquivo": "evidencias/regras-verificadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/regras-verificadas.json",
+          "sha256_preservado": "bd0a2fc9247fca3dffe2f8845921252906342a9fc838194e9b0a7c4ee085b8c7"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-CAT116-MAXIMA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-CAT116-MAXIMA.json",
+          "sha256_preservado": "25b57f5dc905f7048c5acdbd2f1907000d9688a68c117046b09b68e601dfdf8c"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-EDITORIAL.json",
+          "sha256_preservado": "4477c338ca4537cf3299966c962e4ef360030a546ae433200f47ef4364598ae3"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-FINAL-REGRAS-E-VISUAL-01-15.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-FINAL-REGRAS-E-VISUAL-01-15.json",
+          "sha256_preservado": "1dec7154f878902c75bea22db81d96fb49fe1d7a106dd1710835faa8124c4b68"
+        }
+      ],
+      "estado": "Prova e auditorias finalizadas; diferenças visualmente inspecionadas; deltas localizados registrados.",
+      "sha256_texto_final": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+      "paginas_reabertas": [
+        1,
+        17,
+        18,
+        19,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "conferencia_pdf": 242
+    },
+    {
+      "unidade": "R12",
+      "pasta": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02",
+      "baseline": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/evidencias/historico/antes-prova-nomes-maxima",
+      "arquivos": [
+        {
+          "arquivo": "ALTERACOES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ALTERACOES.json",
+          "sha256_preservado": "fbfc09dbb49b98b27c1dcdf2f4ce34f40a6f5a5e3a5a0ba970c33c5a9cd12075"
+        },
+        {
+          "arquivo": "AUDITORIA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/AUDITORIA.json",
+          "sha256_preservado": "6e5bbde3cf1f42d95f127179279fd7710a196daaf4bcdeff7428c95e7fc888d3"
+        },
+        {
+          "arquivo": "CONFERENCIA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/CONFERENCIA.json",
+          "sha256_preservado": "8d291e8dcf56ff860bd6e3fa2ff887ff250f39fb45b4a4464c9dba981d70c64d"
+        },
+        {
+          "arquivo": "ESTRUTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ESTRUTURA.json",
+          "sha256_preservado": "4f20fae224ca4be4bf342d03e4aa7162b91c969deecbd6e4b4f269abd39197f9"
+        },
+        {
+          "arquivo": "INVENTARIO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/INVENTARIO.json",
+          "sha256_preservado": "f8d0fbaa31302d9ff849587d8ff7c24917ebd4dd335b2b3737fbf429aad0abc4"
+        },
+        {
+          "arquivo": "VALIDACAO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDACAO.json",
+          "sha256_preservado": "5af949dd8633d5a8daf39013d306c2aabd093a947ddf3297bd3739a0a59b39aa"
+        },
+        {
+          "arquivo": "VALIDADORES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDADORES.json",
+          "sha256_preservado": "b878ec8be6ae84b8ed1824de37a5a71df5033311ab3d6db65125c437b7d9da5d"
+        },
+        {
+          "arquivo": "auditar.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/auditar.py",
+          "sha256_preservado": "c280bb830a00ea4d757d2a9e09de20e86e5438061be62ac852629f5a2639426d"
+        },
+        {
+          "arquivo": "conferir.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/conferir.py",
+          "sha256_preservado": "bd7e33553e9bc990ea13155b44042bb27fe394f20e732ab9ccc161fac1536466"
+        },
+        {
+          "arquivo": "gerar_pdf.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/gerar_pdf.py",
+          "sha256_preservado": "3ec4eb98feba0178a344332be115fe75dfb3a628d33eb3fabc787b23b3baea11"
+        },
+        {
+          "arquivo": "output/pdf/Projeto-M-Construir-Invocacoes-Proposta-01.pdf",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/output/pdf/Projeto-M-Construir-Invocacoes-Proposta-01.pdf",
+          "sha256_preservado": "bb038442159b548fae25b02d9dd041430c0af593c79318bb05cd28f0b4f6d792"
+        },
+        {
+          "arquivo": "evidencias/auditoria-numerica.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/auditoria-numerica.json",
+          "sha256_preservado": "4cb424d18c134a428f4ea82a9c82aeedca470d065868a86e5d05bd1849a46a89"
+        },
+        {
+          "arquivo": "evidencias/casos-raciocinados.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/casos-raciocinados.json",
+          "sha256_preservado": "566b6c5d8493e4db15b7bc814b261a836099e299061fb956982508dd380665be"
+        },
+        {
+          "arquivo": "evidencias/COBERTURA-CATALOGO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/COBERTURA-CATALOGO.json",
+          "sha256_preservado": "fd39ddee46f78c625de2b6ddc2ebacb5d54921a9c63df3ae13c69c0609c31cc1"
+        },
+        {
+          "arquivo": "evidencias/CONFERENCIA-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/CONFERENCIA-EDITORIAL.json",
+          "sha256_preservado": "4d68214eefe7a9ebff3351374a51c9119efffc7ef657db014ced8304e9fdff1b"
+        },
+        {
+          "arquivo": "evidencias/fontes-preservadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-preservadas.json",
+          "sha256_preservado": "32ffa88bd6794c9042daf06131b7b8cc20199b4ce28fce3a997db48173acab3d"
+        },
+        {
+          "arquivo": "evidencias/inspecao-visual.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/inspecao-visual.json",
+          "sha256_preservado": "db272994400e526f4bfdb3fccc4f937cfd7618af51d7c8c6475f539b7deecaf0"
+        },
+        {
+          "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/LOCALIZACAO-EDITORIAL.json",
+          "sha256_preservado": "dcf1a44acdaf21ba4534aaacde3f331e0b2f58c1c53aabe71cd197a6bf7ff47d"
+        },
+        {
+          "arquivo": "evidencias/pdf-estrutura.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/pdf-estrutura.json",
+          "sha256_preservado": "4d0bd26fe0a57c66a2383dfbb3750e6b77e46e16200715a2f700ca2dc776c1b5"
+        },
+        {
+          "arquivo": "evidencias/regras-verificadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/regras-verificadas.json",
+          "sha256_preservado": "9d27861fcfa3d96d78969bab029bec87b608861d66e1776fc223966ec2b8793d"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-EDITORIAL.json",
+          "sha256_preservado": "400254db8e91c01a716a07a3f4a2b83d169e34a5f0902140e4fd729cfa970854"
+        }
+      ],
+      "estado": "Prova e auditorias finalizadas; diferenças visualmente inspecionadas; deltas localizados registrados.",
+      "sha256_texto_final": "bd3d2cc16b5a6c2b373eba1f0ebfabfbc548bae3d6a7cd2eec6dcbb4bfab95d9",
+      "paginas_reabertas": [
+        1,
+        3,
+        4,
+        8,
+        11,
+        19,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27
+      ],
+      "conferencia_pdf": 215
+    },
+    {
+      "unidade": "FAB",
+      "pasta": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/invocacoes/fabricacao/lote-01",
+      "baseline": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/invocacoes/fabricacao/lote-01/evidencias/historico/antes-prova-nomes-maxima",
+      "arquivos": [
+        {
+          "arquivo": "ALTERACOES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ALTERACOES.json",
+          "sha256_preservado": "6d3d1853387a6f42e0276cef39ee1472efa8ed5991450c83c14845c705f44a2f"
+        },
+        {
+          "arquivo": "CONFERENCIA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/CONFERENCIA.json",
+          "sha256_preservado": "c85c06b787d5310da40a364e6a3558b465b5d370e36b84f541f6c04f11e53908"
+        },
+        {
+          "arquivo": "ESTRUTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ESTRUTURA.json",
+          "sha256_preservado": "d2be3f1bb47e470356261506e8be3b22e4ca83e6faf74bba6ab89533d2a05c82"
+        },
+        {
+          "arquivo": "VALIDACAO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDACAO.json",
+          "sha256_preservado": "d662b00cc0b3084f3099c3f937a2dd68e5e69ccd864f76ccc416f3994f1cd1f0"
+        },
+        {
+          "arquivo": "VALIDADORES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDADORES.json",
+          "sha256_preservado": "f64e47603c6b1b4c8148ce11eabd2d7681546e5ab6d2e04556b6c2c372752fb0"
+        },
+        {
+          "arquivo": "auditar.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/auditar.py",
+          "sha256_preservado": "e5598e7659d3566af6f6a25badcde75a014bf9e0af07092d7f3295285b78f7e5"
+        },
+        {
+          "arquivo": "conferir.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/conferir.py",
+          "sha256_preservado": "bd7e33553e9bc990ea13155b44042bb27fe394f20e732ab9ccc161fac1536466"
+        },
+        {
+          "arquivo": "gerar_pdf.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/gerar_pdf.py",
+          "sha256_preservado": "6e5c67c92155a0225d9c917b5376cdf1d8e3fcb272d8847d07ae45665d18a3bc"
+        },
+        {
+          "arquivo": "output/pdf/Projeto-M-Fabricacao-de-Entidades-Proposta-01.pdf",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/output/pdf/Projeto-M-Fabricacao-de-Entidades-Proposta-01.pdf",
+          "sha256_preservado": "6d4fd99c8d3b7626736e5063660c43cb714a8b6c7c281bc57d3227411e62372b"
+        },
+        {
+          "arquivo": "evidencias/auditoria-numerica-autoria.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/auditoria-numerica-autoria.json",
+          "sha256_preservado": "90d9e986f4f50b2cc11d617b5ce13e4ba31a1e2cf6390f5d8e7b70b8f2984f73"
+        },
+        {
+          "arquivo": "evidencias/auditoria-numerica.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/auditoria-numerica.json",
+          "sha256_preservado": "46a134f1a24b3dabfb4f771fa08808c31415dd7997f6252ec221e9158a237354"
+        },
+        {
+          "arquivo": "evidencias/casos-executados.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/casos-executados.json",
+          "sha256_preservado": "e2531d21de57d9ec1891b470fb9b788c58237f4552cbf42a690a43eaa1a9f074"
+        },
+        {
+          "arquivo": "evidencias/COBERTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/COBERTURA.json",
+          "sha256_preservado": "c2de5a2e1ee3ac53cd1dc608ab8bdac72dd41fc99de4912d109d989971aee5b6"
+        },
+        {
+          "arquivo": "evidencias/editorial-automatico.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/editorial-automatico.json",
+          "sha256_preservado": "4d68214eefe7a9ebff3351374a51c9119efffc7ef657db014ced8304e9fdff1b"
+        },
+        {
+          "arquivo": "evidencias/ENTREGA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/ENTREGA.json",
+          "sha256_preservado": "bc5d0deab5409d3bd03d10a4d686f91641bc8f16b2b2bfcdc776f60ac79566c8"
+        },
+        {
+          "arquivo": "evidencias/fontes-concorrentes.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-concorrentes.json",
+          "sha256_preservado": "dd99d044a53c1eeb9a7ba03abfefb9487422de0b364f3ad1a7a26c4739ac656e"
+        },
+        {
+          "arquivo": "evidencias/fontes-iniciais.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-iniciais.json",
+          "sha256_preservado": "97a2177a35f0580b1b62c4989f00ac8ea904b2139bc796ed835d53657b31b2c5"
+        },
+        {
+          "arquivo": "evidencias/fontes-preservadas-autoria.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-preservadas-autoria.json",
+          "sha256_preservado": "3c31125b7ee2796c9618c5dd717c85dcaffc5729399e55b24c2878e5355b021b"
+        },
+        {
+          "arquivo": "evidencias/fontes-preservadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-preservadas.json",
+          "sha256_preservado": "eddc29696760cf3b1de7cff4761bd085296771c0b83e5603e083e71485d61d4e"
+        },
+        {
+          "arquivo": "evidencias/inspecao-visual.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/inspecao-visual.json",
+          "sha256_preservado": "76f8f13cc51d744a3c32bd01b7fef54b89e662275c62b7c488522aa394b399c1"
+        },
+        {
+          "arquivo": "evidencias/INTERFACES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/INTERFACES.json",
+          "sha256_preservado": "f20029a4e726eb81a49b27f50347587188c2381b7d317f3d4fd0c432e2e49e5f"
+        },
+        {
+          "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/LOCALIZACAO-EDITORIAL.json",
+          "sha256_preservado": "021f4c7b516a349815d397f82661cd1e72735dcde0403788477a06f9dbf43671"
+        },
+        {
+          "arquivo": "evidencias/pdf-estrutura.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/pdf-estrutura.json",
+          "sha256_preservado": "ac086b3130ec9edfa9d1821143c9f4c3e61bdbf597e83fad547df3ac8d3cfea3"
+        },
+        {
+          "arquivo": "evidencias/REFERENCIAS.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REFERENCIAS.json",
+          "sha256_preservado": "553f3bf5d7bc48d44852ea1166321a598b94cd05313eef052d3036b2f769906b"
+        },
+        {
+          "arquivo": "evidencias/regras-verificadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/regras-verificadas.json",
+          "sha256_preservado": "e09b303eee64031a3633a31d6f459184b6d22f0fc495dec77555e911a561bb74"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-EDITORIAL.json",
+          "sha256_preservado": "a91620faa5d09edf9dfcb0d1df65f3c5751f9c7dac7fb649ac6b5d0cf22989ca"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-INDEPENDENTE-RAIZ.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-INDEPENDENTE-RAIZ.json",
+          "sha256_preservado": "35178b35711b9de205f8b2aeaa635d2903b4e62716e54b397abadfed25647c9a"
+        }
+      ],
+      "estado": "Prova e auditorias finalizadas; diferenças visualmente inspecionadas; deltas localizados registrados.",
+      "sha256_texto_final": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+      "paginas_reabertas": [
+        4
+      ],
+      "conferencia_pdf": 54
+    },
+    {
+      "unidade": "R15",
+      "pasta": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/caminhos/guia/lote-01",
+      "baseline": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/caminhos/guia/lote-01/evidencias/historico/antes-prova-nomes-maxima",
+      "arquivos": [
+        {
+          "arquivo": "ALTERACOES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ALTERACOES.json",
+          "sha256_preservado": "8c49f243bdc587e713b95b98b8375dc648d7e9fb8409227bf7dc91f66d8b212b"
+        },
+        {
+          "arquivo": "CONFERENCIA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/CONFERENCIA.json",
+          "sha256_preservado": "94aa5f34750fdb142f2b0440dc59fc3e502f3d6e572d18fcd8471b6b31f13eb6"
+        },
+        {
+          "arquivo": "ESTRUTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ESTRUTURA.json",
+          "sha256_preservado": "819ca2ae6ce8cea38f44fb4e4b2fb2abf2caa66cedb331deacfe376f62e2abc8"
+        },
+        {
+          "arquivo": "VALIDACAO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDACAO.json",
+          "sha256_preservado": "d28e3c663aaa398761dfbaaf233f35e6e1f39e8e58205858abf7b277fbde0add"
+        },
+        {
+          "arquivo": "VALIDADORES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDADORES.json",
+          "sha256_preservado": "d56c0462bf641194c6de5b6811ec5541c9e1ce4eba75531c89fc79373d9bf834"
+        },
+        {
+          "arquivo": "auditar.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/auditar.py",
+          "sha256_preservado": "b6a56715d080cb98006f56ae47ae8591daef453f9247761391b13bae2594c55d"
+        },
+        {
+          "arquivo": "conferir.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/conferir.py",
+          "sha256_preservado": "bd7e33553e9bc990ea13155b44042bb27fe394f20e732ab9ccc161fac1536466"
+        },
+        {
+          "arquivo": "gerar_pdf.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/gerar_pdf.py",
+          "sha256_preservado": "f69ab35318bf589435f2fb6f98ec48ce372540f20d476b07601cecfa7d157861"
+        },
+        {
+          "arquivo": "output/pdf/Projeto-M-Guia-Proposta-01.pdf",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/output/pdf/Projeto-M-Guia-Proposta-01.pdf",
+          "sha256_preservado": "ea9c65436347f2e0a283ec84230eabf2b875d6daf6533ae81b4224094239bf7d"
+        },
+        {
+          "arquivo": "evidencias/auditoria-numerica-autoria.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/auditoria-numerica-autoria.json",
+          "sha256_preservado": "0ec65f109a40d7e1299aa21b3b69d2710e0da1a5ca3b36ce2a3e3f6b9989ecaf"
+        },
+        {
+          "arquivo": "evidencias/auditoria-numerica.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/auditoria-numerica.json",
+          "sha256_preservado": "e57c61632bdae5b9e355fc59e57902746ad499b778d343a5d310a07b40cc2233"
+        },
+        {
+          "arquivo": "evidencias/casos-executados.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/casos-executados.json",
+          "sha256_preservado": "fd11540cb500be437477a5895b93825c66f3d9fd4414412090101cec1ebb8a7d"
+        },
+        {
+          "arquivo": "evidencias/COBERTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/COBERTURA.json",
+          "sha256_preservado": "5765b93d740f05b922576f97ca04835fae512205f563a4a74fcb2948df21a8a7"
+        },
+        {
+          "arquivo": "evidencias/editorial-automatico.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/editorial-automatico.json",
+          "sha256_preservado": "4d68214eefe7a9ebff3351374a51c9119efffc7ef657db014ced8304e9fdff1b"
+        },
+        {
+          "arquivo": "evidencias/ENTREGA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/ENTREGA.json",
+          "sha256_preservado": "f4956e87fc3ec1a6bbfc911d5c4839e26649401734ecdcf54e49cdb8adc50c09"
+        },
+        {
+          "arquivo": "evidencias/fontes-preservadas-autoria.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-preservadas-autoria.json",
+          "sha256_preservado": "9b32a3efbcedf44163701520d2aa19b39ce8dc7024493705f36a0ec1e9d9d5b2"
+        },
+        {
+          "arquivo": "evidencias/fontes-preservadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-preservadas.json",
+          "sha256_preservado": "9b32a3efbcedf44163701520d2aa19b39ce8dc7024493705f36a0ec1e9d9d5b2"
+        },
+        {
+          "arquivo": "evidencias/inspecao-visual.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/inspecao-visual.json",
+          "sha256_preservado": "25118a317a68c3a53987ecdd986e24fe5f24686f0c572efdda3dc7797747739c"
+        },
+        {
+          "arquivo": "evidencias/INTERFACES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/INTERFACES.json",
+          "sha256_preservado": "71e4f9c690e0d63876753184900d509c393677c3cfa983598400500e745e6456"
+        },
+        {
+          "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/LOCALIZACAO-EDITORIAL.json",
+          "sha256_preservado": "985af21c4ff6309cecee7b517403f79d42393f11fc12e60d2a345096d5cc3bc1"
+        },
+        {
+          "arquivo": "evidencias/pdf-estrutura.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/pdf-estrutura.json",
+          "sha256_preservado": "7b4e638f983e61083dde654248ae191d7a3eacb9ec1d5254e082ce7fc89dbeb9"
+        },
+        {
+          "arquivo": "evidencias/REFERENCIAS.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REFERENCIAS.json",
+          "sha256_preservado": "a924feb5a430ed6e62235b8f01ad11e660eff3c281887cdb268662218b8479ab"
+        },
+        {
+          "arquivo": "evidencias/regras-verificadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/regras-verificadas.json",
+          "sha256_preservado": "1c6d65c931f9284b1ce41589598b1e279d8e7f8ce65e59883e0c3549aa11c267"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-EDITORIAL.json",
+          "sha256_preservado": "adc0ddbee8911c8a9b47828ac5e55f7a2b52b0948a10b1793e16bcf87f7b7e4e"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-INDEPENDENTE-GUIA38.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-INDEPENDENTE-GUIA38.json",
+          "sha256_preservado": "0b2486083a0a51059c3c1b33f1b1103e5a40c92913e72d39674fc02aba3323fa"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-INDEPENDENTE.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-INDEPENDENTE.json",
+          "sha256_preservado": "fd87557a6eadca25431e928a26be9cadc5d97b5f37d21384ecd9e0ba054ba5bd"
+        },
+        {
+          "arquivo": "evidencias/validador-editorial.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/validador-editorial.json",
+          "sha256_preservado": "4d68214eefe7a9ebff3351374a51c9119efffc7ef657db014ced8304e9fdff1b"
+        }
+      ],
+      "estado": "Prova e auditorias finalizadas; diferenças visualmente inspecionadas; deltas localizados registrados.",
+      "sha256_texto_final": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
+      "paginas_reabertas": [
+        16,
+        17
+      ],
+      "conferencia_pdf": 138
+    },
+    {
+      "unidade": "R21",
+      "pasta": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/progressao/lote-01",
+      "baseline": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/progressao/lote-01/evidencias/historico/antes-prova-nomes-maxima",
+      "arquivos": [
+        {
+          "arquivo": "ALTERACOES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ALTERACOES.json",
+          "sha256_preservado": "861507db693032cd8a2015084d666ea780b3b28fc542cee4483308d978379ac6"
+        },
+        {
+          "arquivo": "COBERTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/COBERTURA.json",
+          "sha256_preservado": "e9c43bb1ef099670b0a228fe5d4f4f8faee4349f10a8ed3b3c20bbc2be9ca9ab"
+        },
+        {
+          "arquivo": "CONFERENCIA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/CONFERENCIA.json",
+          "sha256_preservado": "aa548b8dd9204688ef500d821b2eb1f90b71918b72a5b5246d53df3579e8292d"
+        },
+        {
+          "arquivo": "ESTRUTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ESTRUTURA.json",
+          "sha256_preservado": "35bbd7cd53bb2bc9582881352acab3404d8859269c18415bfb5961cc2f62576d"
+        },
+        {
+          "arquivo": "FONTES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/FONTES.json",
+          "sha256_preservado": "d32f207ff3fc0577e2837d58e63c3ab09090193593aec7bde02f8e4ac388c4f0"
+        },
+        {
+          "arquivo": "INTERFACES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/INTERFACES.json",
+          "sha256_preservado": "3d01ecc86966cd03a6aebc6e14cc75cd18e0a2909d19ea880a834fd894fbd052"
+        },
+        {
+          "arquivo": "VALIDACAO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDACAO.json",
+          "sha256_preservado": "4fafd2afa6603fe717709556708a5bd031a580ad775c6de222496592f42a839a"
+        },
+        {
+          "arquivo": "VALIDADORES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDADORES.json",
+          "sha256_preservado": "9044bc54328a21894f879233863fba80b7e927d6196ca45aaf5c5f0727b6a7da"
+        },
+        {
+          "arquivo": "auditar.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/auditar.py",
+          "sha256_preservado": "77944d6acdaaa5f12afa56f2482bbd2e54ce6c67d18052b299ba8b2dcaa2595f"
+        },
+        {
+          "arquivo": "conferir.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/conferir.py",
+          "sha256_preservado": "bd7e33553e9bc990ea13155b44042bb27fe394f20e732ab9ccc161fac1536466"
+        },
+        {
+          "arquivo": "gerar_pdf.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/gerar_pdf.py",
+          "sha256_preservado": "3aa862c61aa743f223761afeabb9c40068f86ead58bc3e15f0f68863256cd85b"
+        },
+        {
+          "arquivo": "output/pdf/Projeto-M-Progressao-Proposta-01.pdf",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/output/pdf/Projeto-M-Progressao-Proposta-01.pdf",
+          "sha256_preservado": "406c88d5c3bc5d7173db0b8ea5a88a4fa51d483ca34a75914763302da1fab06d"
+        },
+        {
+          "arquivo": "evidencias/auditoria-numerica.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/auditoria-numerica.json",
+          "sha256_preservado": "b26dea50002ca9820405f7c92f297d93f67e9d2884f7fbfd20d9d8fd1b59fd23"
+        },
+        {
+          "arquivo": "evidencias/AUDITORIA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/AUDITORIA.json",
+          "sha256_preservado": "c97b0a33f6d9d5b9263ba5b29643d471fc9189c5618c2dc7ae394f21e6a89747"
+        },
+        {
+          "arquivo": "evidencias/EDITORIAL-EXPORTACAO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/EDITORIAL-EXPORTACAO.json",
+          "sha256_preservado": "4d68214eefe7a9ebff3351374a51c9119efffc7ef657db014ced8304e9fdff1b"
+        },
+        {
+          "arquivo": "evidencias/FECHAMENTO-INDEPENDENTE-ROTAS.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/FECHAMENTO-INDEPENDENTE-ROTAS.json",
+          "sha256_preservado": "32dda4456a574201efe2b10577a6f86e80abedbb9f15b8853de80621a34323c2"
+        },
+        {
+          "arquivo": "evidencias/fontes-preservadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-preservadas.json",
+          "sha256_preservado": "5688ff53bb9da18f1256bae113906838feecf1e7293c4b0dac791a0d914bc16f"
+        },
+        {
+          "arquivo": "evidencias/inspecao-visual.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/inspecao-visual.json",
+          "sha256_preservado": "0173d254d5343e9af599ef4e81d384270e8f57f0f53d611ba19f938b4bc03e75"
+        },
+        {
+          "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/LOCALIZACAO-EDITORIAL.json",
+          "sha256_preservado": "d1e9e68ef08b4df45e35fe2f0a572f0312aeb0828a1cc4ccc12095b9eae96549"
+        },
+        {
+          "arquivo": "evidencias/pdf-estrutura.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/pdf-estrutura.json",
+          "sha256_preservado": "a65b0cc791848a1a7b1c7ab2c9251d05f74dd9bcd07705f10c8f7c4943121519"
+        },
+        {
+          "arquivo": "evidencias/PRE-CONFERENCIA-PDF.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/PRE-CONFERENCIA-PDF.json",
+          "sha256_preservado": "8b98d7e00092a547e71cd9f4fce4d69d201b40f74b27720b3a5e98488770fa37"
+        },
+        {
+          "arquivo": "evidencias/regras-verificadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/regras-verificadas.json",
+          "sha256_preservado": "47010e644e811f6b7f947acfa09f2908b3b46e1cfae421b000fc26f6c1d476a7"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-EDITORIAL.json",
+          "sha256_preservado": "db4a2a6891d8c1bd9b7cca01d84e1ecbb6b992383eb85779fea5deae0e9742ee"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-INDEPENDENTE-ROTAS-CASOS.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-INDEPENDENTE-ROTAS-CASOS.json",
+          "sha256_preservado": "1e2edb3ae7ec3e293cda9b296784cc8b6f8ecaad74022dedba12875c95894053"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-POR-SECAO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-POR-SECAO.json",
+          "sha256_preservado": "f85b6e684bec308f0f15104b51a60a7dd30e765948cddbaf059fb95a8c236e98"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-PRO36-MAXIMA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-PRO36-MAXIMA.json",
+          "sha256_preservado": "25b57f5dc905f7048c5acdbd2f1907000d9688a68c117046b09b68e601dfdf8c"
+        }
+      ],
+      "estado": "Prova e auditorias finalizadas; diferenças visualmente inspecionadas; deltas localizados registrados.",
+      "sha256_texto_final": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
+      "paginas_reabertas": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      "conferencia_pdf": 117
+    },
+    {
+      "unidade": "R22",
+      "pasta": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/abertura/lote-01",
+      "baseline": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/abertura/lote-01/evidencias/historico/antes-prova-nomes-maxima",
+      "arquivos": [
+        {
+          "arquivo": "ALTERACOES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ALTERACOES.json",
+          "sha256_preservado": "ed03e48b1b841d199da8d87a09306701f2f5a4cccfa684719e9621f9f476503b"
+        },
+        {
+          "arquivo": "COBERTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/COBERTURA.json",
+          "sha256_preservado": "18fd0be0d88bb385c2d32adb420a8e5f959d6b3a4ea17b49ed874914daf19fb5"
+        },
+        {
+          "arquivo": "CONFERENCIA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/CONFERENCIA.json",
+          "sha256_preservado": "1a0deb1b277c625fa9380da923e1911169977a16f8fc6e1a63d0109ddb035ffc"
+        },
+        {
+          "arquivo": "ESTRUTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ESTRUTURA.json",
+          "sha256_preservado": "fb79f8889c7f41a16e1d1e26ea055c8fc0ea28bca4593b796285513712adfe7b"
+        },
+        {
+          "arquivo": "VALIDACAO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDACAO.json",
+          "sha256_preservado": "97d211a72048c257607e18d14a8cd81308e701c4fa1de1d1b76da32875c3199a"
+        },
+        {
+          "arquivo": "VALIDADORES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDADORES.json",
+          "sha256_preservado": "b0ac4d467303ada33dbc039e50dae0bfa55f66a259898b13ad571ac633c81be8"
+        },
+        {
+          "arquivo": "auditar.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/auditar.py",
+          "sha256_preservado": "dd8e2a5f4e125e3a8ecbbb30ca8cd05635ba7f3921e4dc1393bfa999ef0ccfff"
+        },
+        {
+          "arquivo": "conferir.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/conferir.py",
+          "sha256_preservado": "bd7e33553e9bc990ea13155b44042bb27fe394f20e732ab9ccc161fac1536466"
+        },
+        {
+          "arquivo": "gerar_pdf.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/gerar_pdf.py",
+          "sha256_preservado": "35bcc7afda62047937de38841007e0cec0706c4693222e0536e1be6c737ab650"
+        },
+        {
+          "arquivo": "output/pdf/Projeto-M-Abertura-e-Criacao-Proposta-01.pdf",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/output/pdf/Projeto-M-Abertura-e-Criacao-Proposta-01.pdf",
+          "sha256_preservado": "36511d35eca7092c140ea85e46affc52474b9c08fff156fa6a4ec18b33188458"
+        },
+        {
+          "arquivo": "evidencias/auditoria-numerica.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/auditoria-numerica.json",
+          "sha256_preservado": "3670f00ae2c922ca1d35224660983b20871c8882b0e7358ad06a8089bdfe335a"
+        },
+        {
+          "arquivo": "evidencias/casos-revisao-independente.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/casos-revisao-independente.json",
+          "sha256_preservado": "cd59fed87e31f0dec1953647de4b2b13ca1dd198f119cb1e656a88d3775a32b6"
+        },
+        {
+          "arquivo": "evidencias/FONTES-CANONE.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/FONTES-CANONE.json",
+          "sha256_preservado": "caa3e304e63a8e49f096a5aa34e046e236814edde555f278602f30b1e43902df"
+        },
+        {
+          "arquivo": "evidencias/fontes-preservadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-preservadas.json",
+          "sha256_preservado": "68cb5ef007f0a44fd778b202f7923ea98cb6ea02ebb8f231a6258cc53d58aa9e"
+        },
+        {
+          "arquivo": "evidencias/inspecao-visual.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/inspecao-visual.json",
+          "sha256_preservado": "362411de7aa64935be8140fa28b90f4b8b013c95c62172c9ad0b22f85e6192c7"
+        },
+        {
+          "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/LOCALIZACAO-EDITORIAL.json",
+          "sha256_preservado": "579653bb94babc1a444908c408572c8a697286778c681df5a38349da9a8d9e5a"
+        },
+        {
+          "arquivo": "evidencias/pdf-estrutura.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/pdf-estrutura.json",
+          "sha256_preservado": "5e0364b2d513c16425fc41940db5feb859be5e0c8e0c1ec6ed488f899613b096"
+        },
+        {
+          "arquivo": "evidencias/regras-verificadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/regras-verificadas.json",
+          "sha256_preservado": "fcea0852bbd65a2c2c5bcedff1d31743cf3fa89048f7f0804e50c4c15c21b27c"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-EDITORIAL.json",
+          "sha256_preservado": "6b9354cab3d1242d3a54dd418eed951ccf593371c2283b043c4d0271f4165066"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-INDEPENDENTE.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-INDEPENDENTE.json",
+          "sha256_preservado": "978d8c07ab48ad5acd5e82bb38df8d2078cb6510a48cf576ec8df6c678e7948a"
+        }
+      ],
+      "estado": "Prova e auditorias finalizadas; diferenças visualmente inspecionadas; deltas localizados registrados.",
+      "sha256_texto_final": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
+      "paginas_reabertas": [
+        2,
+        8,
+        10
+      ],
+      "conferencia_pdf": 110
+    },
+    {
+      "unidade": "R23",
+      "pasta": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consulta/lote-01",
+      "baseline": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/consulta/lote-01/evidencias/historico/antes-prova-nomes-maxima",
+      "arquivos": [
+        {
+          "arquivo": "ALTERACOES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ALTERACOES.json",
+          "sha256_preservado": "484bdb22b15abf7e79d1c759667781b00461ccbe86d93160531eb8f731af5ffa"
+        },
+        {
+          "arquivo": "ESTRUTURA.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/ESTRUTURA.json",
+          "sha256_preservado": "33884c71192b935689c26d20fb493d5a9d392b40a9f3930b39b1356083c893d8"
+        },
+        {
+          "arquivo": "VALIDACAO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDACAO.json",
+          "sha256_preservado": "ad9954eba7a789ace60b72829b78ee77bb3f9cfb13bf2d5c2fc146ca5a20d820"
+        },
+        {
+          "arquivo": "VALIDADORES.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/VALIDADORES.json",
+          "sha256_preservado": "bb96cd8e7b52ac3b4f9a264b95e4fecb50fb533f9170de1b2f2bd22ebc40dda8"
+        },
+        {
+          "arquivo": "auditar.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/auditar.py",
+          "sha256_preservado": "01bf240075f91884017ddb77967666453c4c636f829769f16525c5af8e46952c"
+        },
+        {
+          "arquivo": "conferir.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/conferir.py",
+          "sha256_preservado": "bd7e33553e9bc990ea13155b44042bb27fe394f20e732ab9ccc161fac1536466"
+        },
+        {
+          "arquivo": "gerar_pdf.py",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/gerar_pdf.py",
+          "sha256_preservado": "ee61d2bc55f1c3779f29555e5b14a55d7f145edabd5209aeceb097a2fc4acf2e"
+        },
+        {
+          "arquivo": "output/pdf/Projeto-M-Consulta-Proposta-01.pdf",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/output/pdf/Projeto-M-Consulta-Proposta-01.pdf",
+          "sha256_preservado": "8aad2272fa2ecd912d87b9a984bf465517789f2bb09e8d1ecda94042046fc72d"
+        },
+        {
+          "arquivo": "evidencias/ARQUIVOS-DONOS.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/ARQUIVOS-DONOS.json",
+          "sha256_preservado": "729e70956c58a148118659ce93fc76e6c4f7435a560444e9734d3eceff0272ea"
+        },
+        {
+          "arquivo": "evidencias/auditoria-numerica.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/auditoria-numerica.json",
+          "sha256_preservado": "ff11cd854806d69feac4389f036e1007c3ebaecd8b8a7e4d13a700d6a2dea97f"
+        },
+        {
+          "arquivo": "evidencias/casos-executados.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/casos-executados.json",
+          "sha256_preservado": "dd9fd5222cbf81629e916d0843c68ec02b346b5842ef22e83cc993f6d949a81b"
+        },
+        {
+          "arquivo": "evidencias/COBERTURA-GLOSSARIO-ANTIGO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/COBERTURA-GLOSSARIO-ANTIGO.json",
+          "sha256_preservado": "af7325f76125538e4bcd1b2c652607f4aa9eb8fda4e7c1b563c155a98adaecba"
+        },
+        {
+          "arquivo": "evidencias/DESTINOS.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/DESTINOS.json",
+          "sha256_preservado": "7b3b4031e60a3c9c4dfb4febf2902cc7c82a4ade04824d27e734e5d3b47a3dd9"
+        },
+        {
+          "arquivo": "evidencias/DIAGNOSTICO-PRELIMINAR.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/DIAGNOSTICO-PRELIMINAR.json",
+          "sha256_preservado": "a6f8adeefa0acbc3cf3b088a6bf2d0375e240200294c8651bee6e83ab37b2abd"
+        },
+        {
+          "arquivo": "evidencias/FONTES-CANDIDATAS.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/FONTES-CANDIDATAS.json",
+          "sha256_preservado": "d8ea9a33731e5daf80ffe3085741e8457171a7ff09fad3e72e5d08364638f317"
+        },
+        {
+          "arquivo": "evidencias/fontes-preservadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/fontes-preservadas.json",
+          "sha256_preservado": "3f37970acc96601107e02c6ae22b01f2ded892ed4153e5643ce26ed442436d14"
+        },
+        {
+          "arquivo": "evidencias/GLOSSARIO.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/GLOSSARIO.json",
+          "sha256_preservado": "c2c6f25a8c281fde14e2353c2b8286015df59247fdcc87d84b7903985b9d237f"
+        },
+        {
+          "arquivo": "evidencias/INDICE.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/INDICE.json",
+          "sha256_preservado": "6d1af03845b74dd1df0ef5ea8f8b052359ca9d784e80226f88f95cfa78eea37c"
+        },
+        {
+          "arquivo": "evidencias/LEITURAS.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/LEITURAS.json",
+          "sha256_preservado": "6ca0041d76e727a9b8d0c875832237162009fce952611576f7923fb1a11ec151"
+        },
+        {
+          "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/LOCALIZACAO-EDITORIAL.json",
+          "sha256_preservado": "fc944b5dab0a75223298732895a8d0f8dd979e5a3b1e27e449bc4be9f52b4bd0"
+        },
+        {
+          "arquivo": "evidencias/pdf-estrutura.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/pdf-estrutura.json",
+          "sha256_preservado": "01d344217d9e8d073f2f46fe37a401fe58c10515317bbfc0f0be28c23703fcd7"
+        },
+        {
+          "arquivo": "evidencias/PRE-CONFERENCIA-PDF.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/PRE-CONFERENCIA-PDF.json",
+          "sha256_preservado": "ae9c704011ac6da7c49120f5e61103f860ea552e3ed0399ddbfd58ef4e98cd3c"
+        },
+        {
+          "arquivo": "evidencias/regras-verificadas.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/regras-verificadas.json",
+          "sha256_preservado": "d9ea09628714fc8d34f9bb14538f75d1c66b833ae3f831310f972e82f4e7c9bd"
+        },
+        {
+          "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+          "copia": "evidencias/historico/antes-prova-nomes-maxima/evidencias/REVISAO-EDITORIAL.json",
+          "sha256_preservado": "d203651a4980b6e5ab740fca4e8c480106dc2827b0a2907fb2d65804f2292bbb"
+        }
+      ],
+      "estado": "Prova e auditorias finalizadas; diferenças visualmente inspecionadas; deltas localizados registrados.",
+      "sha256_texto_final": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
+      "conferencia_pdf": 229
+    }
+  ],
+  "limites": "Baseline contém PDFs e evidências anteriores. Não é snapshot textual pré-renome; esses manuscritos serão obtidos do registro de migração da compatibilidade.",
+  "atribuicao": "Raiz: atualizar evidências, auditores e provas; comparar pixels e abrir todas as páginas diferentes. R23 visualizar30."
+}

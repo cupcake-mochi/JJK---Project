@@ -1,0 +1,31 @@
+{
+  "sha256_texto": "8fdda195acf479e335fe518cf51ccae32cbbf9735b94b25856642d94e995e48c",
+  "secoes": [
+    {
+      "id": "armas",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    },
+    {
+      "id": "laminas",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    },
+    {
+      "id": "impacto",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    },
+    {
+      "id": "hastes",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    },
+    {
+      "id": "flexiveis",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    },
+    {
+      "id": "tiro",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

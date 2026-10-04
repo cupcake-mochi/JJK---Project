@@ -1,0 +1,100 @@
+--- aptidoes/lote-01/APTIDOES-E-REFINO.md
+
++++ aptidoes/lote-01/APTIDOES-E-REFINO.md
+
+@@ -51,7 +51,7 @@
+
+ # Catálogo de aptidões
+ 
+-Escolha uma entrada para aprender e confira todos os seus requisitos. **Classe Passiva** indica a escala de uma aptidão, quando ela possui essa classificação. O requisito da entrada é que determina quando você pode adquiri-la. A classificação não acrescenta um segundo requisito oculto.
+-
+-| Aptidão | Requisito | Classe Passiva |
++Escolha uma entrada para aprender e confira todos os seus requisitos. **Categoria de Efeito** indica a escala de uma aptidão, quando ela possui essa classificação. O requisito da entrada é que determina quando você pode adquiri-la. A classificação não acrescenta um segundo requisito oculto.
++
++| Aptidão | Requisito | Categoria de Efeito |
+ |---|---|---:|
+ | Cobrir-se de Energia | Gratuita no Refino 1. | — |
+@@ -160,5 +160,5 @@
+
+ # Energia Reversa
+ 
+-**Requisitos: Refino 7 e nível 14. Classe Passiva 3.** Você usa energia reversa para restaurar seu próprio corpo.
++**Requisitos: Refino 7 e nível 14. Categoria de Efeito 3.** Você usa energia reversa para restaurar seu próprio corpo.
+ 
+ **Ação Padrão.** Gaste de **1 PE até sua maior Classe** e recupere **1d8 de vida por PE gasto**. Escolha e pague antes de rolar. A cura não ultrapassa sua vida máxima e não gera vida temporária.
+@@ -208,5 +208,5 @@
+
+ # Circulação
+ 
+-**Requisitos: Energia Reversa e Refino 8. Classe Passiva 3.** Você melhora o uso de Energia Reversa e aprende a reconstruir partes perdidas do corpo.
++**Requisitos: Energia Reversa e Refino 8. Categoria de Efeito 3.** Você melhora o uso de Energia Reversa e aprende a reconstruir partes perdidas do corpo.
+ 
+ O limite de PE por uso de sua Energia Reversa passa a ser **1,5 × sua maior Classe, arredondado para baixo**. Você ainda escolhe quanto gastar antes de rolar.
+@@ -233,5 +233,5 @@
+
+ # Regravação
+ 
+-**Requisito: Circulação. Classe Passiva 3.** Você pode encerrar o Rescaldo de sua técnica antes do fim da cena, mas usos repetidos impedem novas Expansões de Domínio naquele dia.
++**Requisito: Circulação. Categoria de Efeito 3.** Você pode encerrar o Rescaldo de sua técnica antes do fim da cena, mas usos repetidos impedem novas Expansões de Domínio naquele dia.
+ 
+ **Ação Bônus, durante seu Rescaldo.** Gaste o **limite inteiro de PE de sua Energia Reversa**, considerando Circulação. O Rescaldo termina e sua técnica volta a responder. Esse uso não cura vida nem recompõe outra parte do corpo.
+@@ -308,5 +308,5 @@
+
+ # Cesta Oca de Vime
+ 
+-**Requisito: ser Reencarnado ou treinado em História. Classe Passiva 1.** Você forma um símbolo com as duas mãos e cria uma barreira em volta de si.
++**Requisito: ser Reencarnado ou treinado em História. Categoria de Efeito 1.** Você forma um símbolo com as duas mãos e cria uma barreira em volta de si.
+ 
+ Use a ativação de **Proteção contra domínios**. A Cesta não cobra manutenção. Ela anula o Acerto garantido contra você, mas não o Efeito da Expansão.
+@@ -339,5 +339,5 @@
+
+ # Domínio Simples
+ 
+-**Requisito: Refino 5, ou Refino 4 com o voto do iniciante. Classe Passiva 2.** Você precisa ter visto um Domínio Simples sendo usado ou ter aprendido com alguém. Registre essa origem do aprendizado.
++**Requisito: Refino 5, ou Refino 4 com o voto do iniciante. Categoria de Efeito 2.** Você precisa ter visto um Domínio Simples sendo usado ou ter aprendido com alguém. Registre essa origem do aprendizado.
+ 
+ Você cria uma área ao seu redor que protege quem estiver nela. Ative conforme **Proteção contra domínios** e pague **2 PE de manutenção**.
+@@ -396,5 +396,5 @@
+
+ # Pétala
+ 
+-**Requisitos: Refino 4 e nível 10; ser Descendente ou ter aprendido com alguém de um clã. Classe Passiva 2.** Sua energia reage ao contato do Acerto de uma Expansão.
++**Requisitos: Refino 4 e nível 10; ser Descendente ou ter aprendido com alguém de um clã. Categoria de Efeito 2.** Sua energia reage ao contato do Acerto de uma Expansão.
+ 
+ Ative conforme **Proteção contra domínios**. A manutenção custa **1 PE**.
+@@ -429,5 +429,5 @@
+
+ # Extensão de Domínio
+ 
+-**Requisitos: Refino 7 e nível 18. Classe Passiva 3.** Você precisa ter visto uma Extensão em uso, estudado seu funcionamento ou aprendido com alguém. Registre isso na ficha. **Corpo Amaldiçoado não pode adquirir esta aptidão.**
++**Requisitos: Refino 7 e nível 18. Categoria de Efeito 3.** Você precisa ter visto uma Extensão em uso, estudado seu funcionamento ou aprendido com alguém. Registre isso na ficha. **Corpo Amaldiçoado não pode adquirir esta aptidão.**
+ 
+ Você se envolve em uma camada de domínio que neutraliza técnicas. Ative conforme **Proteção contra domínios**. A manutenção custa **1,5 × sua maior Classe em PE, arredondado para cima**.
+@@ -443,5 +443,5 @@
+
+ Enquanto ativa, ela impede que o **Acerto e o Efeito de qualquer Expansão** atinjam você, inclusive incompleta ou sem barreiras. A barreira ainda prende você, e os benefícios do dono permanecem.
+ 
+-Uma técnica que encostar na Extensão é anulada, naquele contato, se sua Classe, Classe Passiva ou escala de Regra Própria for de até **1 + um terço de seu Refino, para baixo**. O limite é 3 nos Refino 7–8 e 4 nos Refino 9–10. Isso não apaga a técnica de quem a criou nem seus efeitos longe de você.
++Uma técnica que encostar na Extensão é anulada, naquele contato, se sua Classe, Categoria de Efeito ou escala de Regra Própria for de até **1 + um terço de seu Refino, para baixo**. O limite é 3 nos Refino 7–8 e 4 nos Refino 9–10. Isso não apaga a técnica de quem a criou nem seus efeitos longe de você.
+ 
+ Acima desse limite, você recebe **três quartos do dano**. Outros efeitos continuam seguindo suas regras. Uma habilidade sem essas classificações não ganha uma Classe presumida pelo nome ou pelo nível.
+@@ -510,5 +510,5 @@
+
+ # Aptidão Própria
+ 
+-**Uma única vez na ficha. Classe Passiva 1 ou 2.** Você cria uma aptidão com o mestre antes da sessão. Ela representa um aprendizado específico de energia que o catálogo ainda não cobre.
++**Uma única vez na ficha. Categoria de Efeito 1 ou 2.** Você cria uma aptidão com o mestre antes da sessão. Ela representa um aprendizado específico de energia que o catálogo ainda não cobre.
+ 
+ Escreva uma frase de regra. Ela precisa dizer **quando funciona, quem afeta e o que permite fazer**. Acrescente ação, custo, distância e encerramento quando forem necessários. A descrição pode ser curta, mas deve bastar para outra mesa aplicar a mesma regra.
+@@ -516,7 +516,7 @@
+
+ ## Limites
+ 
+-A proposta não pode copiar uma aptidão existente com outro nome, dispensar seus requisitos ou acrescentar dados de dano. Aptidão Própria de Classe Passiva 2 também precisa de um limite por cena.
+-
+-Avalie a frequência real de uso no tipo de missão da campanha. Compare também a magnitude, o custo de ação, os alvos e o alcance com as Passivas da mesma Classe. Efeitos pequenos ou de informação costumam caber na Classe 1. Intervenções mais relevantes podem exigir Classe 2 e seu limite por cena. Permanência, sozinha, não transforma um benefício pequeno em Classe 3. Efeitos que precisem dessa terceira Classe ficam fora desta opção.
++A proposta não pode copiar uma aptidão existente com outro nome, dispensar seus requisitos ou acrescentar dados de dano. Aptidão Própria de Categoria de Efeito 2 também precisa de um limite por cena.
++
++Avalie a frequência real de uso no tipo de missão da campanha. Compare também a magnitude, o custo de ação, os alvos e o alcance com os Talentos da mesma Categoria de Efeito. Efeitos pequenos ou de informação costumam caber na Categoria 1. Intervenções mais relevantes podem exigir Categoria 2 e seu limite por cena. Permanência, sozinha, não transforma um benefício pequeno em Categoria 3. Efeitos que precisem dessa terceira Categoria ficam fora desta opção.
+ 
+ ## Exemplos

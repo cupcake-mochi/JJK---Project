@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "paginas": 17,
+  "verificacoes_texto_links": 34,
+  "unidades": [
+    {
+      "anterior": "equipamento/lote-02-r2",
+      "pasta": "equipamento/lote-02-r3",
+      "manuscrito": "PROTECAO.md",
+      "pdf": "Projeto-M-Protecao-Proposta-02-Carga-R5.pdf",
+      "titulo": "Proteção",
+      "inicio": 1,
+      "paginas": 4,
+      "sha256": "38d6743624091f250530d817138fdcb2456db322f7a309ec18a939b4596ad084"
+    },
+    {
+      "anterior": "equipamento/lote-05",
+      "pasta": "equipamento/lote-05-r1",
+      "manuscrito": "ITENS-E-OBJETOS.md",
+      "pdf": "Projeto-M-Itens-e-Objetos-Proposta-01-Carga-R5.pdf",
+      "titulo": "Itens comuns",
+      "inicio": 5,
+      "paginas": 5,
+      "sha256": "37bd1a364f0a46671d8dbeb0b28ff1aeb86603ad4487d404eaa53a75ec589b1d"
+    },
+    {
+      "anterior": "equipamento/lote-06",
+      "pasta": "equipamento/lote-06-r1",
+      "manuscrito": "COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+      "pdf": "Projeto-M-Compras-e-Equipamento-Inicial-Proposta-01-Carga-R5.pdf",
+      "titulo": "Compras",
+      "inicio": 10,
+      "paginas": 4,
+      "sha256": "29bf82d9038fe038e68d7bdbaa850c8b43a757585be334e3e60ef7cda6d3dc79"
+    },
+    {
+      "anterior": "regras-comuns/lote-06-r5",
+      "pasta": "regras-comuns/lote-06-r6",
+      "manuscrito": "MOVIMENTO-E-CARGA.md",
+      "pdf": "Projeto-M-Movimento-e-Carga-Proposta-05-Carga-R5.pdf",
+      "titulo": "Movimento e carga",
+      "inicio": 14,
+      "paginas": 4,
+      "sha256": "7c1b63b031e7f168d054526508acc2fca619fe2e9ccf00f48c408a4e77f54c23"
+    }
+  ],
+  "sha256_pdf": "a2eb580653d98322b6a19a3dd31afc86b7138b45d1171a2e5159aba1bed838f1"
+}

@@ -1,0 +1,5357 @@
+[
+  {
+    "pagina": 1,
+    "texto": "PROJETO - M · MANUAL DA GUILDA",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 203.92,
+    "altura": 14.4,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "Resgate na",
+    "x": 75.59,
+    "y": 97.55,
+    "largura": 258.09,
+    "altura": 78.4,
+    "tag": "h1"
+  },
+  {
+    "pagina": 1,
+    "texto": "ala oeste",
+    "x": 75.59,
+    "y": 164.19,
+    "largura": 212.22,
+    "altura": 78.4,
+    "tag": "h1"
+  },
+  {
+    "pagina": 1,
+    "texto": "Um RPG de mesa no universo de Jujutsu Kaisen",
+    "x": 75.59,
+    "y": 245.95,
+    "largura": 322.64,
+    "altura": 24.0,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "Uma funcionária da escola se trancou no arquivo depois de ser atacada no corredor. Ela conseguiu pedir",
+    "x": 98.49,
+    "y": 307.74,
+    "largura": 591.49,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "socorro pelo celular. Kaori e sua equipe chegam à ala oeste para buscá-la.",
+    "x": 98.49,
+    "y": 327.76,
+    "largura": 415.44,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "A maldição está diante do arquivo. Tem o tamanho de um cachorro grande, braços compridos e unhas que",
+    "x": 98.49,
+    "y": 358.37,
+    "largura": 600.49,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "deixam sulcos na porta. Do outro lado, a funcionária responde quando Kaori chama seu nome.",
+    "x": 98.49,
+    "y": 378.39,
+    "largura": 535.33,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Kaori sabe que precisa chegar perto para usar sua técnica: tudo que prende entre as mãos fica mais pesado.",
+    "x": 98.49,
+    "y": 408.99,
+    "largura": 603.6,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Ela pede ao colega que cuide da retirada da funcionária enquanto ela enfrenta a criatura.",
+    "x": 98.49,
+    "y": 429.01,
+    "largura": 507.78,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Neste exemplo, Kaori escolhe lutar para abrir caminho. Na sua mesa, você poderia propor outra saída:",
+    "x": 98.49,
+    "y": 459.61,
+    "largura": 596.87,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": "atrair a maldição para longe ou procurar um segundo acesso ao arquivo.",
+    "x": 98.49,
+    "y": 479.63,
+    "largura": 422.95,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": "Em ",
+    "x": 75.59,
+    "y": 529.89,
+    "largura": 24.67,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Projeto - M",
+    "x": 100.26,
+    "y": 529.89,
+    "largura": 72.73,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": ", você cria um personagem e decide o que ele tenta fazer. Os outros jogadores fazem o",
+    "x": 172.99,
+    "y": 529.89,
+    "largura": 527.07,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "mesmo com os personagens deles. Vocês podem formar uma equipe enviada para enfrentar maldições,",
+    "x": 75.59,
+    "y": 549.91,
+    "largura": 629.59,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "investigar desaparecimentos ou proteger alguém ameaçado.",
+    "x": 75.59,
+    "y": 569.93,
+    "largura": 367.96,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Uma pessoa assume o papel de ",
+    "x": 75.59,
+    "y": 600.53,
+    "largura": 193.47,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "mestre",
+    "x": 269.06,
+    "y": 600.53,
+    "largura": 43.22,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": ": apresenta os lugares, interpreta quem vocês encontram e conduz",
+    "x": 312.28,
+    "y": 600.53,
+    "largura": 405.45,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "as ameaças. Quando você tenta algo de resultado incerto e a falha tem consequências, as regras e os",
+    "x": 75.59,
+    "y": 620.55,
+    "largura": 612.03,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "dados ajudam a resolver a tentativa.",
+    "x": 75.59,
+    "y": 640.57,
+    "largura": 220.3,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "O mestre descreve o que mudou, e o grupo decide como continuar. Na escola, vencer a maldição abre o",
+    "x": 75.59,
+    "y": 671.17,
+    "largura": 631.87,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "caminho para o resgate; ainda é preciso tirar a funcionária do prédio.",
+    "x": 75.59,
+    "y": 691.19,
+    "largura": 425.05,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 1,
+    "texto": "Seu começo",
+    "x": 75.59,
+    "y": 734.56,
+    "largura": 64.38,
+    "altura": 17.6,
+    "tag": "strong"
+  },
+  {
+    "pagina": 1,
+    "texto": "Conheça o mundo",
+    "x": 75.59,
+    "y": 757.29,
+    "largura": 88.99,
+    "altura": 17.6,
+    "tag": "a"
+  },
+  {
+    "pagina": 1,
+    "texto": " · ",
+    "x": 164.58,
+    "y": 757.29,
+    "largura": 8.74,
+    "altura": 17.6,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "Aprenda a primeira rolagem",
+    "x": 173.33,
+    "y": 757.29,
+    "largura": 138.81,
+    "altura": 17.6,
+    "tag": "a"
+  },
+  {
+    "pagina": 1,
+    "texto": " · ",
+    "x": 312.14,
+    "y": 757.29,
+    "largura": 8.74,
+    "altura": 17.6,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "Jogue a cena da Kaori",
+    "x": 320.88,
+    "y": 757.29,
+    "largura": 110.87,
+    "altura": 17.6,
+    "tag": "a"
+  },
+  {
+    "pagina": 1,
+    "texto": "Material de fã baseado na obra de Gege Akutami. Kaori e esta missão são exemplos do Projeto - M. Amostra editorial 2,",
+    "x": 75.59,
+    "y": 803.37,
+    "largura": 630.16,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "sobre as regras da v0.331.",
+    "x": 75.59,
+    "y": 819.57,
+    "largura": 133.22,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 1,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 1,
+    "texto": "1",
+    "x": 717.79,
+    "y": 1065.83,
+    "largura": 4.1,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 2,
+    "texto": "O mundo que você vai jogar",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 393.01,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 2,
+    "texto": "No universo de ",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 96.82,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Jujutsu Kaisen",
+    "x": 172.41,
+    "y": 145.65,
+    "largura": 92.61,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": ", maldições nascem das emoções negativas humanas e podem ferir e",
+    "x": 265.02,
+    "y": 145.65,
+    "largura": 418.46,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "matar. Feiticeiros usam ",
+    "x": 75.59,
+    "y": 165.67,
+    "largura": 147.96,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "jujutsu",
+    "x": 223.55,
+    "y": 165.67,
+    "largura": 44.66,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": ", ligado à energia amaldiçoada, para exorcizá-las. Você joga com alguém",
+    "x": 268.21,
+    "y": 165.67,
+    "largura": 443.54,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "envolvido nesse conflito, com os poderes e limites da Origem escolhida.",
+    "x": 75.59,
+    "y": 185.69,
+    "largura": 441.84,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "O trabalho pode levar uma equipe a uma escola, a um prédio interditado ou à casa de alguém que parou",
+    "x": 75.59,
+    "y": 216.29,
+    "largura": 636.25,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "de responder às mensagens. Às vezes, a equipe sabe quem precisa de ajuda, como no resgate da escola.",
+    "x": 75.59,
+    "y": 236.31,
+    "largura": 630.27,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Em outras missões, terá de investigar para encontrar a ameaça. O mestre apresenta o que vocês sabem; o",
+    "x": 75.59,
+    "y": 256.33,
+    "largura": 644.05,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "grupo decide onde procurar e quando lutar.",
+    "x": 75.59,
+    "y": 276.35,
+    "largura": 266.82,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Um poder que tem a sua marca",
+    "x": 75.59,
+    "y": 315.27,
+    "largura": 250.14,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 2,
+    "texto": "Uma técnica pode partir de uma ideia muito específica. Kaori torna mais pesado o que prende entre as",
+    "x": 75.59,
+    "y": 349.8,
+    "largura": 630.26,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "mãos. O feitiço apresentado aqui exige que ela chegue perto e toque o alvo. Como Bastião, ela também",
+    "x": 75.59,
+    "y": 369.82,
+    "largura": 629.94,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "dispõe de habilidades para proteger a equipe nesse confronto. Outra pessoa poderia imaginar uma",
+    "x": 75.59,
+    "y": 389.84,
+    "largura": 605.41,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "técnica ligada a sombras, palavras ou objetos cotidianos, e explorar suas possibilidades ao longo da cam‐",
+    "x": 75.59,
+    "y": 409.86,
+    "largura": 643.47,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "panha.",
+    "x": 75.59,
+    "y": 429.88,
+    "largura": 41.43,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "O sistema chama de ",
+    "x": 75.59,
+    "y": 460.48,
+    "largura": 127.23,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Fundamento",
+    "x": 202.82,
+    "y": 460.48,
+    "largura": 80.74,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": " a base que descreve a técnica e reúne as escolhas usadas para",
+    "x": 283.56,
+    "y": 460.48,
+    "largura": 379.17,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "construir suas aplicações. Cada ",
+    "x": 75.59,
+    "y": 480.5,
+    "largura": 196.6,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "feitiço",
+    "x": 272.19,
+    "y": 480.5,
+    "largura": 40.47,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": " é uma aplicação com efeito e regras de uso definidos. A criação",
+    "x": 312.66,
+    "y": 480.5,
+    "largura": 392.33,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "orienta você a transformar a ideia em algo que toda a mesa consiga entender e arbitrar.",
+    "x": 75.59,
+    "y": 500.52,
+    "largura": 535.16,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Existem também outras rotas de poder. Você pode jogar com alguém sem técnica inata, um receptáculo",
+    "x": 75.59,
+    "y": 531.13,
+    "largura": 636.33,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "ou um corpo amaldiçoado. A ",
+    "x": 75.59,
+    "y": 551.15,
+    "largura": 180.54,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Origem",
+    "x": 256.13,
+    "y": 551.15,
+    "largura": 48.24,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": " escolhida informa quais regras usar. O livro explica cada rota no",
+    "x": 304.37,
+    "y": 551.15,
+    "largura": 398.54,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "momento de montá-la; ninguém precisa conhecer todas para começar.",
+    "x": 75.59,
+    "y": 571.17,
+    "largura": 431.84,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "O que mantém a equipe junta",
+    "x": 75.59,
+    "y": 610.08,
+    "largura": 233.64,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 2,
+    "texto": "Uma ordem pode reunir desconhecidos na primeira missão. O que acontece depois depende deles. Um",
+    "x": 75.59,
+    "y": 644.62,
+    "largura": 631.14,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "colega que assume um golpe por você pode ganhar sua confiança. Uma família que esconde informações",
+    "x": 75.59,
+    "y": 664.64,
+    "largura": 642.08,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "sobre a missão pode perdê-la. Entre as saídas, os personagens treinam, tratam dos ferimentos e lidam",
+    "x": 75.59,
+    "y": 684.66,
+    "largura": 624.86,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "com as consequências do que fizeram.",
+    "x": 75.59,
+    "y": 704.68,
+    "largura": 234.97,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Kaori cresceu ouvindo que seu clã havia perdido prestígio. A avó lhe ensinou a reconhecer ervas; a",
+    "x": 75.59,
+    "y": 735.28,
+    "largura": 604.1,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "família esperava que ela recuperasse o valor do sobrenome. Em campo, Kaori se preocupa com algo mais",
+    "x": 75.59,
+    "y": 755.3,
+    "largura": 642.92,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "imediato: trazer todos de volta. Ela precisa decidir até onde aceita as exigências da família quando elas",
+    "x": 75.59,
+    "y": 775.32,
+    "largura": 631.19,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "colocam a equipe em risco.",
+    "x": 75.59,
+    "y": 795.34,
+    "largura": 166.49,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "A Guilda e a sua mesa",
+    "x": 95.64,
+    "y": 844.08,
+    "largura": 138.51,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": "Aqui, ",
+    "x": 95.64,
+    "y": 874.69,
+    "largura": 37.27,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Guilda",
+    "x": 132.91,
+    "y": 874.69,
+    "largura": 42.76,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 2,
+    "texto": " é a comunidade de jogadores organizada em um servidor. O projeto foi feito para que",
+    "x": 175.67,
+    "y": 874.69,
+    "largura": 527.89,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "o mesmo personagem participe de mesas de diferentes mestres, mantendo sua ficha e sua história.",
+    "x": 95.64,
+    "y": 894.71,
+    "largura": 604.8,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "O termo não nomeia uma instituição obrigatória do mundo ficcional.",
+    "x": 95.64,
+    "y": 914.73,
+    "largura": 425.4,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "Antes de começar, combinem época e lugar da campanha, relação entre os personagens e limites",
+    "x": 95.64,
+    "y": 945.33,
+    "largura": 593.74,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "para os temas das cenas. A escola deste exemplo é uma possibilidade de começo.",
+    "x": 95.64,
+    "y": 965.35,
+    "largura": 494.96,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 2,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 2,
+    "texto": "O mundo que você vai jogar",
+    "x": 601.12,
+    "y": 32.56,
+    "largura": 120.77,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 2,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 2,
+    "texto": "2",
+    "x": 715.46,
+    "y": 1065.83,
+    "largura": 6.43,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 3,
+    "texto": "Da conversa à rolagem",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 326.51,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 3,
+    "texto": "Você precisa de uma ficha, um meio de anotar mudanças e dados físicos ou um rolador digital. A letra ",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 630.31,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "d",
+    "x": 705.91,
+    "y": 145.65,
+    "largura": 8.02,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": "indica um dado; o número depois dela indica suas faces. ",
+    "x": 75.59,
+    "y": 165.67,
+    "largura": 347.87,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "d20",
+    "x": 423.46,
+    "y": 165.67,
+    "largura": 23.03,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " vai de 1 a 20. ",
+    "x": 446.49,
+    "y": 165.67,
+    "largura": 84.9,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "3d8",
+    "x": 531.39,
+    "y": 165.67,
+    "largura": 23.03,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " significa rolar três dados",
+    "x": 554.42,
+    "y": 165.67,
+    "largura": 156.33,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "de oito faces e somar os resultados.",
+    "x": 75.59,
+    "y": 185.69,
+    "largura": 216.54,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "A ficha reúne as características e habilidades do personagem. Ela também registra recursos que mudam",
+    "x": 75.59,
+    "y": 216.29,
+    "largura": 638.88,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "durante a missão, como ",
+    "x": 75.59,
+    "y": 236.31,
+    "largura": 148.89,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Vida",
+    "x": 224.48,
+    "y": 236.31,
+    "largura": 30.03,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": ", reduzida quando você sofre dano, e ",
+    "x": 254.51,
+    "y": 236.31,
+    "largura": 226.94,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Pontos de Energia (PE)",
+    "x": 481.45,
+    "y": 236.31,
+    "largura": 144.96,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": ", gastos nas ha‐",
+    "x": 626.4,
+    "y": 236.31,
+    "largura": 93.97,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "bilidades que cobram esse recurso.",
+    "x": 75.59,
+    "y": 256.33,
+    "largura": 214.03,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Declare o que pretende fazer",
+    "x": 75.59,
+    "y": 295.25,
+    "largura": 232.01,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 3,
+    "texto": "Antes de chegar ao corredor da ala oeste, a equipe encontrou uma grade no acesso lateral. Veja como a",
+    "x": 75.59,
+    "y": 329.78,
+    "largura": 630.93,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "mesa resolve essa tentativa.",
+    "x": 75.59,
+    "y": 349.8,
+    "largura": 169.43,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Mestre:",
+    "x": 75.59,
+    "y": 380.4,
+    "largura": 48.22,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " “Há uma grade travada no acesso lateral. Vocês escutam passos se aproximando.”",
+    "x": 123.81,
+    "y": 380.4,
+    "largura": 503.0,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Jogadora:",
+    "x": 75.59,
+    "y": 411.01,
+    "largura": 59.99,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " “Kaori tenta abrir a grade à força para o grupo passar.”",
+    "x": 135.58,
+    "y": 411.01,
+    "largura": 338.88,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "A tentativa tem dificuldade e o tempo importa. O mestre pede um teste de ",
+    "x": 75.59,
+    "y": 441.61,
+    "largura": 460.42,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Atletismo",
+    "x": 536.01,
+    "y": 441.61,
+    "largura": 62.66,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": ", perícia usada em",
+    "x": 598.68,
+    "y": 441.61,
+    "largura": 110.89,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "tarefas de esforço físico, e estabelece ",
+    "x": 75.59,
+    "y": 461.63,
+    "largura": 229.89,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Classe de Dificuldade (CD) 14",
+    "x": 305.49,
+    "y": 461.63,
+    "largura": 186.83,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " para este caso. A CD é o total que o",
+    "x": 492.32,
+    "y": 461.63,
+    "largura": 221.55,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "teste precisa alcançar.",
+    "x": 75.59,
+    "y": 481.65,
+    "largura": 135.13,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Kaori tem ",
+    "x": 75.59,
+    "y": 512.25,
+    "largura": 64.9,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Força 3",
+    "x": 140.49,
+    "y": 512.25,
+    "largura": 46.62,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " e é treinada em Atletismo. Por esse treino, soma sua ",
+    "x": 187.11,
+    "y": 512.25,
+    "largura": 327.88,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "maestria 1",
+    "x": 514.99,
+    "y": 512.25,
+    "largura": 65.97,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": ", o bônus de treina‐",
+    "x": 580.96,
+    "y": 512.25,
+    "largura": 119.17,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "mento do nível dela. Seu teste é ",
+    "x": 75.59,
+    "y": 532.27,
+    "largura": 197.0,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "d20 + 4",
+    "x": 272.59,
+    "y": 532.27,
+    "largura": 45.04,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": ".",
+    "x": 317.62,
+    "y": 532.27,
+    "largura": 3.5,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "10",
+    "x": 114.13,
+    "y": 586.31,
+    "largura": 24.13,
+    "altura": 40.0,
+    "tag": "span"
+  },
+  {
+    "pagina": 3,
+    "texto": "no d20",
+    "x": 109.61,
+    "y": 630.09,
+    "largura": 33.17,
+    "altura": 16.0,
+    "tag": "small"
+  },
+  {
+    "pagina": 3,
+    "texto": "+",
+    "x": 248.45,
+    "y": 596.2,
+    "largura": 14.6,
+    "altura": 40.0,
+    "tag": "b"
+  },
+  {
+    "pagina": 3,
+    "texto": "4",
+    "x": 383.27,
+    "y": 586.31,
+    "largura": 15.3,
+    "altura": 40.0,
+    "tag": "span"
+  },
+  {
+    "pagina": 3,
+    "texto": "de bônus",
+    "x": 368.73,
+    "y": 630.09,
+    "largura": 44.38,
+    "altura": 16.0,
+    "tag": "small"
+  },
+  {
+    "pagina": 3,
+    "texto": "=",
+    "x": 518.79,
+    "y": 596.2,
+    "largura": 14.6,
+    "altura": 40.0,
+    "tag": "b"
+  },
+  {
+    "pagina": 3,
+    "texto": "14",
+    "x": 651.25,
+    "y": 586.31,
+    "largura": 24.43,
+    "altura": 40.0,
+    "tag": "span"
+  },
+  {
+    "pagina": 3,
+    "texto": "igual à CD",
+    "x": 639.07,
+    "y": 630.09,
+    "largura": 48.81,
+    "altura": 16.0,
+    "tag": "small"
+  },
+  {
+    "pagina": 3,
+    "texto": "Igualou ou superou a CD: conseguiu.",
+    "x": 75.59,
+    "y": 680.1,
+    "largura": 231.99,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " Kaori força a grade a tempo. O grupo decide quem passa primeiro",
+    "x": 307.58,
+    "y": 680.1,
+    "largura": 409.04,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "e o mestre descreve o que vê do outro lado. Se a rolagem falhar, a consequência depende da situação:",
+    "x": 75.59,
+    "y": 700.12,
+    "largura": 617.49,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "perder tempo, fazer barulho ou descobrir um impedimento que exija outra abordagem.",
+    "x": 75.59,
+    "y": 720.14,
+    "largura": 533.44,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Quando a vantagem entra",
+    "x": 75.59,
+    "y": 759.06,
+    "largura": 205.67,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 3,
+    "texto": "Uma regra pode dar ",
+    "x": 75.59,
+    "y": 793.59,
+    "largura": 126.71,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "vantagem",
+    "x": 202.3,
+    "y": 793.59,
+    "largura": 61.19,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": ": role dois d20, escolha o maior e some o bônus. Com ",
+    "x": 263.5,
+    "y": 793.59,
+    "largura": 328.06,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "desvantagem",
+    "x": 591.56,
+    "y": 793.59,
+    "largura": 82.18,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": ", esco‐",
+    "x": 673.74,
+    "y": 793.59,
+    "largura": 39.34,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "lha o menor. Se os dados forem 7 e 16, o teste com vantagem e bônus +4 dá 20; com desvantagem, dá 11.",
+    "x": 75.59,
+    "y": 813.61,
+    "largura": 634.55,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Não é preciso rolar para toda fala ou gesto. Quando a tarefa pode acontecer sem dificuldade relevante, o",
+    "x": 75.59,
+    "y": 844.22,
+    "largura": 639.33,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "mestre descreve o resultado e a conversa segue. Uma ",
+    "x": 75.59,
+    "y": 864.24,
+    "largura": 328.1,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "cena",
+    "x": 403.69,
+    "y": 864.24,
+    "largura": 29.02,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " acompanha uma situação; ela termina quando",
+    "x": 432.72,
+    "y": 864.24,
+    "largura": 285.65,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "o grupo a resolve, abandona ou passa a lidar com outra. A sessão pode conter várias cenas.",
+    "x": 75.59,
+    "y": 884.26,
+    "largura": 555.28,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Em combate",
+    "x": 95.64,
+    "y": 933.0,
+    "largura": 78.95,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": "Um ataque compara seu total com a ",
+    "x": 95.64,
+    "y": 953.02,
+    "largura": 224.57,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "Defesa",
+    "x": 320.21,
+    "y": 953.02,
+    "largura": 42.99,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 3,
+    "texto": " do alvo. Os turnos organizam a ordem e os recursos de",
+    "x": 363.21,
+    "y": 953.02,
+    "largura": 339.14,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "cada participante. A próxima cena mostra essa resolução com os números já preenchidos.",
+    "x": 95.64,
+    "y": 973.04,
+    "largura": 551.16,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 3,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 3,
+    "texto": "Da conversa à rolagem",
+    "x": 622.43,
+    "y": 32.56,
+    "largura": 99.46,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 3,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 3,
+    "texto": "3",
+    "x": 715.36,
+    "y": 1065.83,
+    "largura": 6.53,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 4,
+    "texto": "Kaori, antes de entrar",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 311.48,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 4,
+    "texto": "Descendente · Bastião · Trilha Muro · Nível 2",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 283.25,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "Kaori chega à ala oeste com 23 de Vida e 8 PE. Seu objetivo é afastar a maldição da porta para que a",
+    "x": 75.59,
+    "y": 176.25,
+    "largura": 611.56,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "equipe resgate a funcionária. Abaixo está o recorte de ficha necessário para acompanhar este combate. O",
+    "x": 75.59,
+    "y": 196.27,
+    "largura": 645.46,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "restante do repertório não faz parte desta amostra.",
+    "x": 75.59,
+    "y": 216.29,
+    "largura": 311.18,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "23/23",
+    "x": 112.78,
+    "y": 267.88,
+    "largura": 80.73,
+    "altura": 46.4,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "VIDA ATUAL / MÁXIMA",
+    "x": 108.17,
+    "y": 317.79,
+    "largura": 89.95,
+    "altura": 12.8,
+    "tag": "span"
+  },
+  {
+    "pagina": 4,
+    "texto": "8/8",
+    "x": 292.63,
+    "y": 267.88,
+    "largura": 48.49,
+    "altura": 46.4,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "PE ATUAIS / MÁXIMOS",
+    "x": 271.58,
+    "y": 317.79,
+    "largura": 90.59,
+    "altura": 12.8,
+    "tag": "span"
+  },
+  {
+    "pagina": 4,
+    "texto": "13",
+    "x": 467.07,
+    "y": 267.88,
+    "largura": 27.07,
+    "altura": 46.4,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "DEFESA",
+    "x": 464.63,
+    "y": 317.79,
+    "largura": 31.96,
+    "altura": 12.8,
+    "tag": "span"
+  },
+  {
+    "pagina": 4,
+    "texto": "9 m",
+    "x": 619.43,
+    "y": 267.88,
+    "largura": 49.8,
+    "altura": 46.4,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "DESLOCAMENTO",
+    "x": 611.29,
+    "y": 317.79,
+    "largura": 66.1,
+    "altura": 12.8,
+    "tag": "span"
+  },
+  {
+    "pagina": 4,
+    "texto": "Na ficha",
+    "x": 86.93,
+    "y": 373.43,
+    "largura": 43.12,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 4,
+    "texto": "O que você usa nesta cena",
+    "x": 287.28,
+    "y": 373.43,
+    "largura": 138.2,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 4,
+    "texto": "Iniciativa",
+    "x": 86.93,
+    "y": 404.66,
+    "largura": 55.92,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "d20 + 2, para saber quando Kaori age.",
+    "x": 287.28,
+    "y": 404.66,
+    "largura": 211.44,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 4,
+    "texto": "Ataque de conjuração",
+    "x": 86.93,
+    "y": 436.39,
+    "largura": 126.69,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "d20 + 4, para tentar acertar Peso nas Mãos.",
+    "x": 287.28,
+    "y": 436.39,
+    "largura": 242.45,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 4,
+    "texto": "Força 3 e maestria 1",
+    "x": 86.93,
+    "y": 468.12,
+    "largura": 116.82,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "São os dois valores que formam o +4 do ataque. Força é o atributo",
+    "x": 287.28,
+    "y": 468.12,
+    "largura": 371.79,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 4,
+    "texto": "escolhido para a técnica de Kaori.",
+    "x": 287.28,
+    "y": 485.58,
+    "largura": 191.53,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 4,
+    "texto": "Ação de Movimento",
+    "x": 86.93,
+    "y": 517.32,
+    "largura": 117.17,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "Permite percorrer até 9 m no turno. Kaori pode dividir essa distância",
+    "x": 287.28,
+    "y": 517.32,
+    "largura": 391.13,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 4,
+    "texto": "antes e depois de agir.",
+    "x": 287.28,
+    "y": 534.78,
+    "largura": 125.55,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 4,
+    "texto": "Ação Padrão",
+    "x": 86.93,
+    "y": 566.51,
+    "largura": 73.93,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "Será usada para conjurar o feitiço.",
+    "x": 287.28,
+    "y": 566.51,
+    "largura": 194.47,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 4,
+    "texto": "Ação Bônus",
+    "x": 86.93,
+    "y": 598.24,
+    "largura": 69.63,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "Pode ativar Olhos Em Mim, explicado na ",
+    "x": 287.28,
+    "y": 598.24,
+    "largura": 236.72,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 4,
+    "texto": "amostra de proteção",
+    "x": 524.0,
+    "y": 598.24,
+    "largura": 115.93,
+    "altura": 19.68,
+    "tag": "a"
+  },
+  {
+    "pagina": 4,
+    "texto": ".",
+    "x": 639.93,
+    "y": 598.24,
+    "largura": 3.23,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 4,
+    "texto": "Reação",
+    "x": 86.93,
+    "y": 629.97,
+    "largura": 41.69,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "Responde a um gatilho e se recupera no começo do turno de Kaori. Não",
+    "x": 287.28,
+    "y": 629.97,
+    "largura": 406.49,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 4,
+    "texto": "será gasta no ramo principal.",
+    "x": 287.28,
+    "y": 647.43,
+    "largura": 165.16,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 4,
+    "texto": "FEITIÇO DA KAORI · CLASSE 1 · TOQUE",
+    "x": 95.82,
+    "y": 709.05,
+    "largura": 226.47,
+    "altura": 14.4,
+    "tag": "div"
+  },
+  {
+    "pagina": 4,
+    "texto": "Peso nas Mãos",
+    "x": 95.82,
+    "y": 732.9,
+    "largura": 138.24,
+    "altura": 32.0,
+    "tag": "h2"
+  },
+  {
+    "pagina": 4,
+    "texto": "Ação Padrão · 3 PE · um alvo a até 1,5 m",
+    "x": 95.82,
+    "y": 771.99,
+    "largura": 251.58,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "Kaori encosta as palmas uma na outra e toca o alvo com as duas mãos. Role ",
+    "x": 95.82,
+    "y": 802.59,
+    "largura": 465.24,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "d20 + 4 contra a Defe‐",
+    "x": 561.06,
+    "y": 802.59,
+    "largura": 138.62,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": "sa",
+    "x": 95.82,
+    "y": 822.61,
+    "largura": 13.15,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": " dele. Se acertar, causa ",
+    "x": 108.97,
+    "y": 822.61,
+    "largura": 141.19,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "3d8 de dano de Concussão",
+    "x": 250.16,
+    "y": 822.61,
+    "largura": 165.61,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": " e deixa o alvo ",
+    "x": 415.76,
+    "y": 822.61,
+    "largura": 89.78,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "Derrubado por 1 rodada",
+    "x": 505.55,
+    "y": 822.61,
+    "largura": 151.78,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": ".",
+    "x": 657.32,
+    "y": 822.61,
+    "largura": 3.5,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "O gesto de unir as palmas é o ",
+    "x": 95.82,
+    "y": 853.21,
+    "largura": 183.47,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "Selo",
+    "x": 279.29,
+    "y": 853.21,
+    "largura": 26.87,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": ", a exigência da técnica para conjurar. Kaori precisa ter as mãos",
+    "x": 306.16,
+    "y": 853.21,
+    "largura": 390.18,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "disponíveis. O custo de ",
+    "x": 95.82,
+    "y": 873.23,
+    "largura": 146.45,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "3 PE é pago ao conjurar",
+    "x": 242.28,
+    "y": 873.23,
+    "largura": 149.58,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": ", mesmo que o ataque erre.",
+    "x": 391.85,
+    "y": 873.23,
+    "largura": 164.58,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "Derrubado:",
+    "x": 75.59,
+    "y": 931.63,
+    "largura": 71.99,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 4,
+    "texto": " o alvo só se move rastejando, com metade do deslocamento, e tem desvantagem em seus ata‐",
+    "x": 147.58,
+    "y": 931.63,
+    "largura": 572.68,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "ques. Ataques contra ele têm vantagem a até 1,5 m e desvantagem de mais longe. Este feitiço impõe uma",
+    "x": 75.59,
+    "y": 951.65,
+    "largura": 641.7,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "duração; gastar a Ação de Movimento para se levantar é a saída para quedas sem duração definida.",
+    "x": 75.59,
+    "y": 971.67,
+    "largura": 605.58,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 4,
+    "texto": "Classe determina orçamento, custo e limites do feitiço. Use este feitiço pronto na cena; sua montagem fica no capítulo",
+    "x": 75.59,
+    "y": 1003.02,
+    "largura": 623.96,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 4,
+    "texto": "Fundamento.",
+    "x": 75.59,
+    "y": 1019.22,
+    "largura": 70.26,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 4,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 4,
+    "texto": "Kaori, antes de entrar",
+    "x": 625.76,
+    "y": 32.56,
+    "largura": 96.13,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 4,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 4,
+    "texto": "4",
+    "x": 715.25,
+    "y": 1065.83,
+    "largura": 6.64,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 5,
+    "texto": "Uma rodada na ala oeste",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 353.5,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 5,
+    "texto": "Kaori avança pelo corredor. A maldição abandona a porta e vem ao encontro dela. A luta começa com as",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 621.2,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "duas a ",
+    "x": 75.59,
+    "y": 164.14,
+    "largura": 41.21,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "1,5 m de distância",
+    "x": 116.8,
+    "y": 164.14,
+    "largura": 110.82,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "; a porta do arquivo está a ",
+    "x": 227.62,
+    "y": 164.14,
+    "largura": 156.61,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "3 m de Kaori",
+    "x": 384.23,
+    "y": 164.14,
+    "largura": 78.28,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". Os colegas aguardam a passagem ficar li‐",
+    "x": 462.51,
+    "y": 164.14,
+    "largura": 253.6,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "vre para alcançar o arquivo e não agem neste recorte didático.",
+    "x": 75.59,
+    "y": 182.64,
+    "largura": 369.23,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "Maldição Menor · dados deste exemplo",
+    "x": 94.71,
+    "y": 223.81,
+    "largura": 233.92,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "Vida 14 · Defesa 12 · Iniciativa d20 + 3",
+    "x": 94.71,
+    "y": 241.95,
+    "largura": 221.49,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 5,
+    "texto": "Ataque com garras: d20 + 3 · alcance 1,5 m · dano 1d6 + 2 Cortante",
+    "x": 94.71,
+    "y": 260.08,
+    "largura": 385.45,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 5,
+    "texto": "1. Descobrir quem age primeiro",
+    "x": 75.59,
+    "y": 300.89,
+    "largura": 234.39,
+    "altura": 25.6,
+    "tag": "h2"
+  },
+  {
+    "pagina": 5,
+    "texto": "Cada participante rola ",
+    "x": 75.59,
+    "y": 332.01,
+    "largura": 137.78,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "Iniciativa: d20 + Destreza",
+    "x": 213.37,
+    "y": 332.01,
+    "largura": 156.56,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". Kaori tira ",
+    "x": 369.93,
+    "y": 332.01,
+    "largura": 68.01,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "11 + 2 = 13",
+    "x": 437.94,
+    "y": 332.01,
+    "largura": 64.62,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". A maldição tira ",
+    "x": 502.56,
+    "y": 332.01,
+    "largura": 103.03,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "16 + 3 = 19",
+    "x": 605.59,
+    "y": 332.01,
+    "largura": 64.62,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ", então",
+    "x": 670.21,
+    "y": 332.01,
+    "largura": 40.1,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "age primeiro. A ordem permanece durante o combate.",
+    "x": 75.59,
+    "y": 350.51,
+    "largura": 323.1,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "Cada participante tem um ",
+    "x": 75.59,
+    "y": 377.7,
+    "largura": 160.2,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "turno",
+    "x": 235.79,
+    "y": 377.7,
+    "largura": 34.15,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". Depois que todos agem, termina a ",
+    "x": 269.94,
+    "y": 377.7,
+    "largura": 213.8,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "rodada",
+    "x": 483.74,
+    "y": 377.7,
+    "largura": 42.45,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "; a próxima segue a mesma or‐",
+    "x": 526.18,
+    "y": 377.7,
+    "largura": 181.06,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "dem. Uma rodada representa cerca de seis segundos.",
+    "x": 75.59,
+    "y": 396.19,
+    "largura": 314.86,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "2. Receber o primeiro ataque",
+    "x": 75.59,
+    "y": 426.03,
+    "largura": 218.62,
+    "altura": 25.6,
+    "tag": "h2"
+  },
+  {
+    "pagina": 5,
+    "texto": "A maldição ataca Kaori. Neste exemplo, ela usa sua Defesa fixa, 13. O mestre tira ",
+    "x": 75.59,
+    "y": 457.15,
+    "largura": 486.0,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "14 no d20 + 3 = 17",
+    "x": 561.59,
+    "y": 457.15,
+    "largura": 109.39,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". O ata‐",
+    "x": 670.98,
+    "y": 457.15,
+    "largura": 44.39,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "que acerta, pois 17 supera 13.",
+    "x": 75.59,
+    "y": 475.65,
+    "largura": 174.71,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "O dano é ",
+    "x": 75.59,
+    "y": 502.84,
+    "largura": 57.27,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "1d6 + 2",
+    "x": 132.86,
+    "y": 502.84,
+    "largura": 43.75,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". O dado mostra ",
+    "x": 176.61,
+    "y": 502.84,
+    "largura": 99.08,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "3",
+    "x": 275.69,
+    "y": 502.84,
+    "largura": 7.29,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "; somando 2, são ",
+    "x": 282.98,
+    "y": 502.84,
+    "largura": 101.42,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "5 de dano",
+    "x": 384.4,
+    "y": 502.84,
+    "largura": 58.8,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". Kaori anota ",
+    "x": 443.21,
+    "y": 502.84,
+    "largura": 80.13,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "23 − 5 = 18 de Vida",
+    "x": 523.33,
+    "y": 502.84,
+    "largura": 115.06,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". Olhos Em",
+    "x": 638.4,
+    "y": 502.84,
+    "largura": 66.87,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "Mim ainda não está ativo, portanto a proteção de Alicerce não se aplica.",
+    "x": 75.59,
+    "y": 521.33,
+    "largura": 429.99,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "3. Usar Peso nas Mãos",
+    "x": 75.59,
+    "y": 551.17,
+    "largura": 167.33,
+    "altura": 25.6,
+    "tag": "h2"
+  },
+  {
+    "pagina": 5,
+    "texto": "Kaori já está ao alcance. Ela junta as palmas, toca a criatura e gasta sua ",
+    "x": 75.59,
+    "y": 582.29,
+    "largura": 427.34,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "Ação Padrão",
+    "x": 502.93,
+    "y": 582.29,
+    "largura": 77.75,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": " para conjurar. Paga ",
+    "x": 580.68,
+    "y": 582.29,
+    "largura": 123.05,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "3",
+    "x": 703.73,
+    "y": 582.29,
+    "largura": 7.29,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "PE: de 8, fica com 5",
+    "x": 75.59,
+    "y": 600.79,
+    "largura": 119.92,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ".",
+    "x": 195.51,
+    "y": 600.79,
+    "largura": 3.4,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "A jogadora tira ",
+    "x": 75.59,
+    "y": 627.97,
+    "largura": 94.34,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "12 no d20 + 4 = 16",
+    "x": 169.93,
+    "y": 627.97,
+    "largura": 109.39,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ", contra Defesa 12. Acertou. Nos três d8 saem ",
+    "x": 279.32,
+    "y": 627.97,
+    "largura": 274.49,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "4, 5 e 5",
+    "x": 553.81,
+    "y": 627.97,
+    "largura": 42.29,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ", totalizando ",
+    "x": 596.1,
+    "y": 627.97,
+    "largura": 78.07,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "14 de",
+    "x": 674.18,
+    "y": 627.97,
+    "largura": 32.45,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "dano",
+    "x": 75.59,
+    "y": 646.47,
+    "largura": 30.25,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". A Vida da maldição vai de 14 a 0; ela cai no corredor.",
+    "x": 105.84,
+    "y": 646.47,
+    "largura": 321.48,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "4. Chegar à porta",
+    "x": 75.59,
+    "y": 676.31,
+    "largura": 130.24,
+    "altura": 25.6,
+    "tag": "h2"
+  },
+  {
+    "pagina": 5,
+    "texto": "Kaori usa a Ação de Movimento para andar os ",
+    "x": 75.59,
+    "y": 707.43,
+    "largura": 278.75,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "3 m até o arquivo",
+    "x": 354.34,
+    "y": 707.43,
+    "largura": 105.33,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". Dos 9 m de deslocamento, restam ",
+    "x": 459.67,
+    "y": 707.43,
+    "largura": 210.76,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "9 − 3 = 6",
+    "x": 670.43,
+    "y": 707.43,
+    "largura": 50.04,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "m",
+    "x": 75.59,
+    "y": 725.92,
+    "largura": 12.02,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": " que ela poderia percorrer nesse turno. Ela para junto da porta.",
+    "x": 87.61,
+    "y": 725.92,
+    "largura": 375.31,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "Neste ponto do turno",
+    "x": 92.6,
+    "y": 772.77,
+    "largura": 128.17,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": "Kaori: ",
+    "x": 92.6,
+    "y": 790.9,
+    "largura": 39.17,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 5,
+    "texto": "18 de Vida · 5 PE",
+    "x": 131.77,
+    "y": 790.9,
+    "largura": 102.01,
+    "altura": 20.29,
+    "tag": "strong"
+  },
+  {
+    "pagina": 5,
+    "texto": ". Ação Padrão usada. Movimento: 3 m percorridos, 6 m restantes. Ação Bônus e",
+    "x": 233.78,
+    "y": 790.9,
+    "largura": 463.78,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 5,
+    "texto": "Reação disponíveis. Olhos Em Mim permanece inativo.",
+    "x": 92.6,
+    "y": 809.03,
+    "largura": 324.43,
+    "altura": 20.29,
+    "tag": "div"
+  },
+  {
+    "pagina": 5,
+    "texto": "Kaori poderia ter usado a Ação Bônus para abrir Olhos Em Mim e ainda conjurar no mesmo turno: os re‐",
+    "x": 75.59,
+    "y": 855.51,
+    "largura": 627.75,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "cursos são independentes. Este primeiro exemplo resolve apenas o feitiço; a proteção do Bastião aparece",
+    "x": 75.59,
+    "y": 874.01,
+    "largura": 623.63,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "mais adiante. Se o ataque tivesse errado, o custo de 3 PE e a Ação Padrão continuariam gastos.",
+    "x": 75.59,
+    "y": 892.51,
+    "largura": 563.81,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "Com o corredor livre, o grupo chama a funcionária e avisa que ela pode abrir a porta. A mesa volta à",
+    "x": 75.59,
+    "y": 919.69,
+    "largura": 597.06,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "conversa para resolver o resgate. O fim da luta, por si só, não recupera a Vida ou os PE gastos.",
+    "x": 75.59,
+    "y": 938.19,
+    "largura": 561.16,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 5,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 5,
+    "texto": "Uma rodada na ala oeste",
+    "x": 613.64,
+    "y": 32.56,
+    "largura": 108.25,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 5,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 5,
+    "texto": "5",
+    "x": 715.35,
+    "y": 1065.83,
+    "largura": 6.54,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 6,
+    "texto": "Crie seu personagem",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 301.64,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 6,
+    "texto": "Comece com alguém que você queira acompanhar por mais de uma missão. Escreva o que essa pessoa",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 626.1,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "deseja e por que participa da equipe. Isso ajuda a escolher entre opções que, nos números, parecem",
+    "x": 75.59,
+    "y": 165.67,
+    "largura": 610.46,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "igualmente boas.",
+    "x": 75.59,
+    "y": 185.69,
+    "largura": 104.76,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Você pode imaginar alguém pressionado por uma família de feiticeiros, uma pessoa que descobriu o",
+    "x": 75.59,
+    "y": 216.29,
+    "largura": 615.1,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "mundo jujutsu tarde demais para voltar à vida anterior ou um corpo amaldiçoado tentando construir",
+    "x": 75.59,
+    "y": 236.31,
+    "largura": 618.32,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "uma rotina própria. A criação transforma essa ideia em escolhas na ficha.",
+    "x": 75.59,
+    "y": 256.33,
+    "largura": 451.49,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Origem, Caminho e Trilha",
+    "x": 75.59,
+    "y": 295.25,
+    "largura": 200.34,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 6,
+    "texto": "A ",
+    "x": 75.59,
+    "y": 329.78,
+    "largura": 14.0,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Origem",
+    "x": 89.59,
+    "y": 329.78,
+    "largura": 48.24,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " explica de onde vem seu poder e indica sua rota de criação. Um ",
+    "x": 137.83,
+    "y": 329.78,
+    "largura": 395.88,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Caminho",
+    "x": 533.71,
+    "y": 329.78,
+    "largura": 58.48,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " reúne habilidades",
+    "x": 592.19,
+    "y": 329.78,
+    "largura": 113.01,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "que moldam sua atuação. A ",
+    "x": 75.59,
+    "y": 349.8,
+    "largura": 172.59,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Trilha",
+    "x": 248.18,
+    "y": 349.8,
+    "largura": 39.47,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ", escolhida dentro dele, especializa essa atuação. A criação padrão",
+    "x": 287.65,
+    "y": 349.8,
+    "largura": 405.3,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "começa no ",
+    "x": 75.59,
+    "y": 369.82,
+    "largura": 69.34,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "nível 2",
+    "x": 144.93,
+    "y": 369.82,
+    "largura": 41.96,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ", com uma escolha de cada.",
+    "x": 186.89,
+    "y": 369.82,
+    "largura": 166.43,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Kaori é ",
+    "x": 75.59,
+    "y": 400.42,
+    "largura": 47.91,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Descendente",
+    "x": 123.5,
+    "y": 400.42,
+    "largura": 81.48,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " por sua ligação com um clã, ",
+    "x": 204.98,
+    "y": 400.42,
+    "largura": 177.7,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Bastião",
+    "x": 382.68,
+    "y": 400.42,
+    "largura": 47.21,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " pelas habilidades de proteção e ",
+    "x": 429.88,
+    "y": 400.42,
+    "largura": 198.97,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Muro",
+    "x": 628.85,
+    "y": 400.42,
+    "largura": 35.21,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": " por sua",
+    "x": 664.06,
+    "y": 400.42,
+    "largura": 48.87,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "forma de resistir à pressão. Uma outra Descendente poderia escolher um Caminho diferente.",
+    "x": 75.59,
+    "y": 420.44,
+    "largura": 571.61,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Caminho",
+    "x": 86.93,
+    "y": 459.36,
+    "largura": 45.19,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 6,
+    "texto": "Uma possibilidade de atuação",
+    "x": 287.28,
+    "y": 459.36,
+    "largura": 155.23,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 6,
+    "texto": "Bastião",
+    "x": 86.93,
+    "y": 490.59,
+    "largura": 43.61,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Assumir ataques dirigidos a aliados e sustentar o confronto.",
+    "x": 287.28,
+    "y": 490.59,
+    "largura": 340.76,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "Vanguarda",
+    "x": 86.93,
+    "y": 522.32,
+    "largura": 63.52,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Pressionar adversários com armas e explorar suas oportunidades de ata‐",
+    "x": 287.28,
+    "y": 522.32,
+    "largura": 409.59,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "que.",
+    "x": 287.28,
+    "y": 539.78,
+    "largura": 23.84,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "Guia",
+    "x": 86.93,
+    "y": 571.52,
+    "largura": 28.04,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Apoiar a equipe com recursos que mudam conforme a Trilha.",
+    "x": 287.28,
+    "y": 571.52,
+    "largura": 348.88,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "Emanador",
+    "x": 86.93,
+    "y": 603.25,
+    "largura": 60.63,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Fazer da técnica o centro de sua atuação em combate.",
+    "x": 287.28,
+    "y": 603.25,
+    "largura": 304.64,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "Evocador",
+    "x": 86.93,
+    "y": 634.98,
+    "largura": 54.54,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Aprimorar o vínculo e o trabalho com suas invocações.",
+    "x": 287.28,
+    "y": 634.98,
+    "largura": 311.72,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "Incursor",
+    "x": 86.93,
+    "y": 666.71,
+    "largura": 50.07,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Usar movimento e gastar Fluidez, o recurso do Caminho, para criar",
+    "x": 287.28,
+    "y": 666.71,
+    "largura": 383.01,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "oportunidades no confronto.",
+    "x": 287.28,
+    "y": 684.17,
+    "largura": 162.82,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 6,
+    "texto": "Uma vontade, uma escolha",
+    "x": 95.64,
+    "y": 737.83,
+    "largura": 169.44,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "“Quero ser a pessoa que fica quando o resto da equipe precisa recuar.” Essa ideia leva a jogadora",
+    "x": 95.64,
+    "y": 768.43,
+    "largura": 591.88,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "da Kaori a examinar o Bastião. Ao ler Muro, ela encontra ",
+    "x": 95.64,
+    "y": 788.45,
+    "largura": 352.74,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "Alicerce",
+    "x": 448.38,
+    "y": 788.45,
+    "largura": 52.46,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": ": proteção contra dois tipos de",
+    "x": 500.84,
+    "y": 788.45,
+    "largura": 186.32,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "dano escolhidos depois do descanso longo, enquanto Olhos Em Mim está ativo.",
+    "x": 95.64,
+    "y": 808.47,
+    "largura": 488.7,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "A escolha responde a algo que ela quer fazer em cena. Depois, a jogadora confere os custos, os",
+    "x": 95.64,
+    "y": 839.07,
+    "largura": 578.88,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "limites e como a habilidade combina com o restante da ficha.",
+    "x": 95.64,
+    "y": 859.09,
+    "largura": 376.04,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 6,
+    "texto": "ORIGEM",
+    "x": 88.26,
+    "y": 931.85,
+    "largura": 38.18,
+    "altura": 14.4,
+    "tag": "span"
+  },
+  {
+    "pagina": 6,
+    "texto": "Descendente",
+    "x": 88.26,
+    "y": 953.81,
+    "largura": 104.08,
+    "altura": 27.2,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "CAMINHO",
+    "x": 308.73,
+    "y": 931.85,
+    "largura": 45.44,
+    "altura": 14.4,
+    "tag": "span"
+  },
+  {
+    "pagina": 6,
+    "texto": "Bastião",
+    "x": 308.73,
+    "y": 953.81,
+    "largura": 60.2,
+    "altura": 27.2,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "TRILHA",
+    "x": 529.21,
+    "y": 931.85,
+    "largura": 36.31,
+    "altura": 14.4,
+    "tag": "span"
+  },
+  {
+    "pagina": 6,
+    "texto": "Muro",
+    "x": 529.21,
+    "y": 953.81,
+    "largura": 38.87,
+    "altura": 27.2,
+    "tag": "strong"
+  },
+  {
+    "pagina": 6,
+    "texto": "Recorte de ficha: registre cada escolha no seu próprio campo. As descrições acima orientam a busca; o catálogo completo",
+    "x": 75.59,
+    "y": 1005.02,
+    "largura": 639.17,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 6,
+    "texto": "contém os benefícios e requisitos.",
+    "x": 75.59,
+    "y": 1021.22,
+    "largura": 178.95,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 6,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 6,
+    "texto": "Crie seu personagem",
+    "x": 630.12,
+    "y": 32.56,
+    "largura": 91.77,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 6,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 6,
+    "texto": "6",
+    "x": 715.33,
+    "y": 1065.83,
+    "largura": 6.56,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 7,
+    "texto": "Da ideia à ficha",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 220.81,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 7,
+    "texto": "Siga esta ordem: ",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 104.41,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Origem, Regra da técnica, Caminho e Trilha, atributos, poder completo, treinos e",
+    "x": 180.0,
+    "y": 145.65,
+    "largura": 512.08,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "números da ficha",
+    "x": 75.59,
+    "y": 165.67,
+    "largura": 109.08,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": ". Pactos entram por último, se houver.",
+    "x": 184.67,
+    "y": 165.67,
+    "largura": 233.5,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Escreva a ideia do poder",
+    "x": 75.59,
+    "y": 204.58,
+    "largura": 196.97,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 7,
+    "texto": "A Regra descreve o que a técnica faz com o mundo. Kaori escreve: ",
+    "x": 75.59,
+    "y": 239.12,
+    "largura": 408.45,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "“Tudo que eu prendo entre as minhas",
+    "x": 484.04,
+    "y": 239.12,
+    "largura": 236.57,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "mãos fica mais pesado.”",
+    "x": 75.59,
+    "y": 259.14,
+    "largura": 149.23,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": " Essa frase orienta a construção dos feitiços; dano, alcance e efeitos dependem",
+    "x": 224.82,
+    "y": 259.14,
+    "largura": 481.68,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "das regras de montagem.",
+    "x": 75.59,
+    "y": 279.16,
+    "largura": 153.55,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Antes de continuar, outra pessoa deve conseguir explicar essa frase com as próprias palavras. Se a sua",
+    "x": 75.59,
+    "y": 309.76,
+    "largura": 625.42,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Origem usa uma rota diferente, siga o capítulo indicado por ela para desenvolver o poder.",
+    "x": 75.59,
+    "y": 329.78,
+    "largura": 550.06,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Distribua os atributos",
+    "x": 75.59,
+    "y": 368.7,
+    "largura": 173.74,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 7,
+    "texto": "Na criação padrão, distribua ",
+    "x": 75.59,
+    "y": 403.23,
+    "largura": 178.33,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "9 pontos",
+    "x": 253.92,
+    "y": 403.23,
+    "largura": 54.19,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": " entre Força, Destreza, Constituição, Inteligência e Essência. ",
+    "x": 308.11,
+    "y": 403.23,
+    "largura": 377.96,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Ne‐",
+    "x": 686.07,
+    "y": 403.23,
+    "largura": 23.34,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "nhum pode ficar acima de 3.",
+    "x": 75.59,
+    "y": 423.25,
+    "largura": 178.72,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": " O próprio valor do atributo é o bônus; você não precisa convertê-lo por",
+    "x": 254.32,
+    "y": 423.25,
+    "largura": 440.67,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "outra tabela.",
+    "x": 75.59,
+    "y": 443.27,
+    "largura": 77.43,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Força",
+    "x": 125.71,
+    "y": 482.19,
+    "largura": 29.02,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 7,
+    "texto": "Destreza",
+    "x": 246.66,
+    "y": 482.19,
+    "largura": 45.64,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 7,
+    "texto": "Constituição",
+    "x": 366.2,
+    "y": 482.19,
+    "largura": 65.09,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 7,
+    "texto": "Inteligência",
+    "x": 497.55,
+    "y": 482.19,
+    "largura": 60.9,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 7,
+    "texto": "Essência",
+    "x": 634.17,
+    "y": 482.19,
+    "largura": 46.17,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 7,
+    "texto": "3",
+    "x": 136.99,
+    "y": 513.42,
+    "largura": 6.47,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "2",
+    "x": 266.25,
+    "y": 513.42,
+    "largura": 6.47,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "2",
+    "x": 395.51,
+    "y": 513.42,
+    "largura": 6.47,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "1",
+    "x": 524.77,
+    "y": 513.42,
+    "largura": 6.47,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "1",
+    "x": 654.03,
+    "y": 513.42,
+    "largura": 6.47,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "Essa é a distribuição de Kaori: ",
+    "x": 75.59,
+    "y": 553.47,
+    "largura": 189.12,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "3 + 2 + 2 + 1 + 1 = 9",
+    "x": 264.71,
+    "y": 553.47,
+    "largura": 117.54,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": ". Força sustenta sua atuação de perto. Ela também es‐",
+    "x": 382.26,
+    "y": 553.47,
+    "largura": 329.11,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "colhe Força como atributo da técnica, conforme as regras do Fundamento; por isso o ataque de",
+    "x": 75.59,
+    "y": 573.49,
+    "largura": 583.25,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "conjuração soma Força 3 e maestria 1.",
+    "x": 75.59,
+    "y": 593.51,
+    "largura": 234.17,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "O que ainda falta preencher",
+    "x": 75.59,
+    "y": 632.42,
+    "largura": 222.35,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 7,
+    "texto": "Etapa",
+    "x": 86.93,
+    "y": 677.16,
+    "largura": 29.71,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 7,
+    "texto": "Decisão ou registro",
+    "x": 287.28,
+    "y": 677.16,
+    "largura": 100.76,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 7,
+    "texto": "Poder completo",
+    "x": 86.93,
+    "y": 708.39,
+    "largura": 92.25,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "Siga a rota da Origem. No Fundamento, defina atributo da técnica, Famí‐",
+    "x": 287.28,
+    "y": 708.39,
+    "largura": 416.67,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "lias, Selo, Passivas e feitiços, além da Regra já escrita.",
+    "x": 287.28,
+    "y": 725.85,
+    "largura": 304.32,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "Treinos e Legados",
+    "x": 86.93,
+    "y": 757.58,
+    "largura": 105.94,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "Registre perícias, ofícios, Testes de Resistência treinados e benefícios da",
+    "x": 287.28,
+    "y": 757.58,
+    "largura": 412.76,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "Origem. Confira a fonte de cada escolha.",
+    "x": 287.28,
+    "y": 775.04,
+    "largura": 231.96,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "Equipamento e números",
+    "x": 86.93,
+    "y": 806.78,
+    "largura": 143.04,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "Escolha o equipamento permitido e calcule Vida, PE, Defesa e os demais",
+    "x": 287.28,
+    "y": 806.78,
+    "largura": 413.6,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "valores com a tabela do nível inicial.",
+    "x": 287.28,
+    "y": 824.24,
+    "largura": 205.88,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "Pactos",
+    "x": 86.93,
+    "y": 855.97,
+    "largura": 38.58,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "A ficha pode começar sem pacto. Se quiser um, siga os requisitos da",
+    "x": 287.28,
+    "y": 855.97,
+    "largura": 386.86,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "forma disponível na criação.",
+    "x": 287.28,
+    "y": 873.43,
+    "largura": 160.74,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 7,
+    "texto": "Um ",
+    "x": 75.59,
+    "y": 913.48,
+    "largura": 26.59,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Teste de Resistência (TR)",
+    "x": 102.18,
+    "y": 913.48,
+    "largura": 157.92,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": " é uma rolagem para resistir a um efeito; o efeito informa qual TR usar. ",
+    "x": 260.1,
+    "y": 913.48,
+    "largura": 438.91,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Le‐",
+    "x": 699.0,
+    "y": 913.48,
+    "largura": 21.06,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": "gados",
+    "x": 75.59,
+    "y": 933.5,
+    "largura": 36.3,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 7,
+    "texto": " são benefícios escolhidos nas listas da Origem. Essas escolhas têm regras próprias, apresentadas",
+    "x": 111.89,
+    "y": 933.5,
+    "largura": 597.64,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "no roteiro completo.",
+    "x": 75.59,
+    "y": 953.52,
+    "largura": 126.07,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 7,
+    "texto": "Continue a criação no livro: veja os capítulos na página de consulta.",
+    "x": 75.59,
+    "y": 984.88,
+    "largura": 357.51,
+    "altura": 18.26,
+    "tag": "a"
+  },
+  {
+    "pagina": 7,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 7,
+    "texto": "Da ideia à ficha",
+    "x": 652.86,
+    "y": 32.56,
+    "largura": 69.03,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 7,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 7,
+    "texto": "7",
+    "x": 716.03,
+    "y": 1065.83,
+    "largura": 5.86,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 8,
+    "texto": "AMOSTRA DE REGRA PARA CONSULTA",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 215.17,
+    "altura": 14.4,
+    "tag": "div"
+  },
+  {
+    "pagina": 8,
+    "texto": "Proteção do Bastião",
+    "x": 75.59,
+    "y": 88.1,
+    "largura": 287.17,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 8,
+    "texto": "Kaori recebeu ",
+    "x": 75.59,
+    "y": 169.5,
+    "largura": 86.07,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Olhos Em Mim",
+    "x": 161.66,
+    "y": 169.5,
+    "largura": 93.36,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ", do Bastião, e ",
+    "x": 255.02,
+    "y": 169.5,
+    "largura": 85.34,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Alicerce",
+    "x": 340.36,
+    "y": 169.5,
+    "largura": 50.46,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ", da Trilha Muro, no nível 2. A área permite proteger",
+    "x": 390.82,
+    "y": 169.5,
+    "largura": 310.53,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "um aliado; Alicerce reduz determinados danos que ela própria recebe. Esta página reúne as regras usadas no",
+    "x": 75.59,
+    "y": 188.21,
+    "largura": 640.53,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "exemplo seguinte.",
+    "x": 75.59,
+    "y": 206.93,
+    "largura": 107.07,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Olhos Em Mim",
+    "x": 92.04,
+    "y": 251.0,
+    "largura": 129.41,
+    "altura": 32.0,
+    "tag": "h2"
+  },
+  {
+    "pagina": 8,
+    "texto": "Ação Bônus · raio de 6 m · até o fim da cena",
+    "x": 92.04,
+    "y": 290.09,
+    "largura": 263.06,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": "Você usa ",
+    "x": 92.04,
+    "y": 319.39,
+    "largura": 56.29,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Força nos testes de Provocar e Intimidação",
+    "x": 148.33,
+    "y": 319.39,
+    "largura": 260.29,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ", no lugar de Essência.",
+    "x": 408.62,
+    "y": 319.39,
+    "largura": 131.9,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Com uma Ação Bônus, estabeleça uma área de 6 m ao seu redor. Ela acompanha você e pode ser",
+    "x": 92.04,
+    "y": 348.69,
+    "largura": 566.14,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "encerrada como ação livre no seu turno.",
+    "x": 92.04,
+    "y": 367.41,
+    "largura": 236.01,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Provocação inicial, uma vez por cena.",
+    "x": 92.04,
+    "y": 396.71,
+    "largura": 226.94,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": " Ao ativar a área, escolha inimigos dentro dela, até o limite de",
+    "x": 318.98,
+    "y": 396.71,
+    "largura": 364.84,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "metade da sua Força, arredondada para baixo, mais um. Faça um teste de Provocar contra o TR de",
+    "x": 92.04,
+    "y": 415.43,
+    "largura": 578.89,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Espírito de cada um. Quem falhar sofre o efeito de Provocar até o começo do seu próximo turno.",
+    "x": 92.04,
+    "y": 434.15,
+    "largura": 569.53,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Inimigos que entrarem depois não recebem essa provocação inicial.",
+    "x": 92.04,
+    "y": 452.87,
+    "largura": 400.47,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Assumir um golpe.",
+    "x": 92.04,
+    "y": 482.17,
+    "largura": 114.5,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": " Com a área ativa, quando uma criatura declarar um ataque com rolagem contra um",
+    "x": 206.54,
+    "y": 482.17,
+    "largura": 494.83,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "aliado dentro dela, você pode gastar sua ",
+    "x": 92.04,
+    "y": 500.89,
+    "largura": 238.99,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Reação, antes da rolagem de acerto",
+    "x": 331.03,
+    "y": 500.89,
+    "largura": 212.08,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ", para se tornar o alvo",
+    "x": 543.12,
+    "y": 500.89,
+    "largura": 127.45,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "desse ataque.",
+    "x": 92.04,
+    "y": 519.61,
+    "largura": 78.18,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "O atacante compara sua rolagem com sua Defesa, ou com seu Bloquear, se você escolher bloquear.",
+    "x": 92.04,
+    "y": 548.91,
+    "largura": 580.84,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Bloquear não exige outra Reação. O ataque conserva o alcance já declarado contra o aliado, e você o",
+    "x": 92.04,
+    "y": 567.63,
+    "largura": 589.52,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "intercepta sem se mover.",
+    "x": 92.04,
+    "y": 586.34,
+    "largura": 146.86,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Se acertar, você recebe o dano e os efeitos do golpe, inclusive o crítico. Se errar, nenhum dos dois",
+    "x": 92.04,
+    "y": 615.65,
+    "largura": 573.95,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "recebe o golpe. A Reação protege ",
+    "x": 92.04,
+    "y": 634.36,
+    "largura": 200.07,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "somente o ataque declarado",
+    "x": 292.12,
+    "y": 634.36,
+    "largura": 168.83,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ", não os demais ataques da ação.",
+    "x": 460.95,
+    "y": 634.36,
+    "largura": 190.03,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "Alicerce",
+    "x": 92.04,
+    "y": 694.12,
+    "largura": 76.61,
+    "altura": 32.0,
+    "tag": "h2"
+  },
+  {
+    "pagina": 8,
+    "texto": "Trilha Muro · benefício do nível 2",
+    "x": 92.04,
+    "y": 733.22,
+    "largura": 204.02,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": "Ao fim de cada descanso longo, escolha ",
+    "x": 92.04,
+    "y": 762.52,
+    "largura": 237.17,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "dois tipos de dano",
+    "x": 329.21,
+    "y": 762.52,
+    "largura": 110.17,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": ". Enquanto Olhos Em Mim estiver ativo,",
+    "x": 439.39,
+    "y": 762.52,
+    "largura": 238.57,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "você recebe ",
+    "x": 92.04,
+    "y": 781.24,
+    "largura": 72.46,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "metade do dano",
+    "x": 164.5,
+    "y": 781.24,
+    "largura": 96.37,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": " desses tipos. Kaori escolheu Cortante e Concussão para estes exemplos.",
+    "x": 260.88,
+    "y": 781.24,
+    "largura": 427.52,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "O efeito de Provocar:",
+    "x": 75.59,
+    "y": 826.99,
+    "largura": 127.83,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": " até o começo do próximo turno de quem provocou, o alvo afetado ataca essa pessoa",
+    "x": 203.42,
+    "y": 826.99,
+    "largura": 494.95,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "com vantagem e as outras criaturas com desvantagem. Para Kaori, a provocação inicial alcança até ",
+    "x": 75.59,
+    "y": 845.71,
+    "largura": 585.37,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "2 inimi‐",
+    "x": 660.96,
+    "y": 845.71,
+    "largura": 48.65,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": "gos",
+    "x": 75.59,
+    "y": 864.43,
+    "largura": 20.41,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": "; seu teste é ",
+    "x": 96.0,
+    "y": 864.43,
+    "largura": 71.49,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "d20 + 4",
+    "x": 167.49,
+    "y": 864.43,
+    "largura": 43.32,
+    "altura": 20.5,
+    "tag": "strong"
+  },
+  {
+    "pagina": 8,
+    "texto": " contra o TR de Espírito de cada um.",
+    "x": 210.81,
+    "y": 864.43,
+    "largura": 216.49,
+    "altura": 20.5,
+    "tag": "p"
+  },
+  {
+    "pagina": 8,
+    "texto": "O exemplo seguinte começa com a área já ativa e a provocação inicial encerrada. Ele demonstra a proteção de um aliado,",
+    "x": 75.59,
+    "y": 894.48,
+    "largura": 635.87,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 8,
+    "texto": "sem precisar resolver outra tentativa de Provocar.",
+    "x": 75.59,
+    "y": 910.68,
+    "largura": 261.6,
+    "altura": 18.26,
+    "tag": "div"
+  },
+  {
+    "pagina": 8,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 8,
+    "texto": "Proteção do Bastião",
+    "x": 633.93,
+    "y": 32.56,
+    "largura": 87.96,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 8,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 8,
+    "texto": "8",
+    "x": 715.14,
+    "y": 1065.83,
+    "largura": 6.75,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 9,
+    "texto": "O ataque contra um aliado",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 375.08,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 9,
+    "texto": "Outra situação.",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 94.14,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": " Kaori está com ",
+    "x": 169.73,
+    "y": 145.65,
+    "largura": 96.09,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "18 de Vida e 5 PE",
+    "x": 265.82,
+    "y": 145.65,
+    "largura": 107.33,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": ", Olhos Em Mim ativo e sua Reação disponível. A provo‐",
+    "x": 373.15,
+    "y": 145.65,
+    "largura": 337.28,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "cação inicial já terminou. Um colega está a ",
+    "x": 75.59,
+    "y": 164.69,
+    "largura": 259.71,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "3 m dela",
+    "x": 335.3,
+    "y": 164.69,
+    "largura": 51.69,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": ", dentro da área. A maldição está a ",
+    "x": 386.99,
+    "y": 164.69,
+    "largura": 208.6,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "1,5 m desse colega",
+    "x": 595.59,
+    "y": 164.69,
+    "largura": 112.18,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": ",",
+    "x": 707.78,
+    "y": 164.69,
+    "largura": 3.4,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "ao alcance das garras, e declara um ataque contra ele.",
+    "x": 75.59,
+    "y": 183.73,
+    "largura": 318.83,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "Declare a Reação antes do dado",
+    "x": 75.59,
+    "y": 408.04,
+    "largura": 256.35,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 9,
+    "texto": "A jogadora diz: ",
+    "x": 75.59,
+    "y": 442.58,
+    "largura": 94.9,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "“Kaori assume esse golpe.”",
+    "x": 170.49,
+    "y": 442.58,
+    "largura": 162.45,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": " Ela gasta a Reação e vira o alvo. O mestre só então rola o ataque.",
+    "x": 332.94,
+    "y": 442.58,
+    "largura": 388.07,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "A posição de Kaori permanece igual; a habilidade conserva o alcance que já permitia atingir o aliado.",
+    "x": 75.59,
+    "y": 461.62,
+    "largura": 602.95,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "O mestre tira ",
+    "x": 75.59,
+    "y": 491.24,
+    "largura": 83.38,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "11 no d20 + 3 = 14",
+    "x": 158.97,
+    "y": 491.24,
+    "largura": 109.39,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": ". Veja duas resoluções alternativas desse mesmo ataque:",
+    "x": 268.36,
+    "y": 491.24,
+    "largura": 333.93,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "Defesa de Kaori",
+    "x": 86.93,
+    "y": 529.18,
+    "largura": 81.79,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 9,
+    "texto": "Resolução",
+    "x": 287.28,
+    "y": 529.18,
+    "largura": 53.39,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 9,
+    "texto": "Usar Defesa 13",
+    "x": 86.93,
+    "y": 560.4,
+    "largura": 86.14,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "O total 14 acerta. O dano é 4 no d6 + 2 = ",
+    "x": 287.28,
+    "y": 560.4,
+    "largura": 223.76,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "6 Cortante",
+    "x": 511.04,
+    "y": 560.4,
+    "largura": 60.8,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": ". Alicerce reduz pela",
+    "x": 571.84,
+    "y": 560.4,
+    "largura": 113.89,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "metade: ",
+    "x": 287.28,
+    "y": 577.5,
+    "largura": 47.24,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "3",
+    "x": 334.52,
+    "y": 577.5,
+    "largura": 6.79,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": ". Kaori fica com ",
+    "x": 341.31,
+    "y": 577.5,
+    "largura": 91.07,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "15 de Vida e 5 PE",
+    "x": 432.38,
+    "y": 577.5,
+    "largura": 99.96,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": ". O aliado não recebe o golpe.",
+    "x": 532.34,
+    "y": 577.5,
+    "largura": 163.91,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Escolher Bloquear",
+    "x": 86.93,
+    "y": 608.88,
+    "largura": 105.17,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": "Kaori rola ",
+    "x": 287.28,
+    "y": 608.88,
+    "largura": 59.0,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "2d10 + (Defesa − 11)",
+    "x": 346.28,
+    "y": 608.88,
+    "largura": 112.85,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": ": com Defesa 13, fica ",
+    "x": 459.13,
+    "y": 608.88,
+    "largura": 117.26,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "2d10 + 2",
+    "x": 576.39,
+    "y": 608.88,
+    "largura": 47.54,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": ". Os dados dão",
+    "x": 623.92,
+    "y": 608.88,
+    "largura": 81.14,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "7 e 6: ",
+    "x": 287.28,
+    "y": 625.98,
+    "largura": 31.46,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "7 + 6 + 2 = 15",
+    "x": 318.74,
+    "y": 625.98,
+    "largura": 73.31,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": ". O ataque 14 erra. Kaori fica com ",
+    "x": 392.05,
+    "y": 625.98,
+    "largura": 189.46,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "18 de Vida e 5 PE",
+    "x": 581.51,
+    "y": 625.98,
+    "largura": 99.96,
+    "altura": 19.28,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": ". Ne‐",
+    "x": 681.47,
+    "y": 625.98,
+    "largura": 27.33,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "nhum dos dois recebe o golpe.",
+    "x": 287.28,
+    "y": 643.08,
+    "largura": 168.57,
+    "altura": 19.28,
+    "tag": "td"
+  },
+  {
+    "pagina": 9,
+    "texto": "Escolha uma das duas resoluções para esse ataque.",
+    "x": 75.59,
+    "y": 682.77,
+    "largura": 308.96,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": " Em ambas, a Reação de Kaori foi gasta para assumir o",
+    "x": 384.55,
+    "y": 682.77,
+    "largura": 324.96,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "golpe e só volta no começo do turno dela. Bloquear não cobra outra Reação.",
+    "x": 75.59,
+    "y": 701.81,
+    "largura": 451.6,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "Os limites que fazem diferença",
+    "x": 75.59,
+    "y": 739.74,
+    "largura": 248.19,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 9,
+    "texto": "Kaori não pode esperar o resultado do ataque contra o aliado para decidir interceptá-lo. Um ataque que",
+    "x": 75.59,
+    "y": 774.28,
+    "largura": 617.6,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "peça apenas TR também não atende ao gatilho de Assumir um golpe. Se o inimigo tiver outro ataque, a",
+    "x": 75.59,
+    "y": 793.32,
+    "largura": 614.36,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "Reação já usada não protege automaticamente o segundo.",
+    "x": 75.59,
+    "y": 812.36,
+    "largura": 345.01,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "Bloquear tem extremos:",
+    "x": 75.59,
+    "y": 841.98,
+    "largura": 146.32,
+    "altura": 20.7,
+    "tag": "strong"
+  },
+  {
+    "pagina": 9,
+    "texto": " dois 10 impedem o acerto, salvo um 20 natural do atacante. O contra-ataque de",
+    "x": 221.91,
+    "y": 841.98,
+    "largura": 474.29,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "Aparar exige Reação, que Kaori já gastou aqui. Com dois 1, o ataque acerta e o agressor pode gastar a",
+    "x": 75.59,
+    "y": 861.02,
+    "largura": 603.68,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "própria Reação para atacar de novo. A regra completa está em Como Jogar, seção Bloquear.",
+    "x": 75.59,
+    "y": 880.06,
+    "largura": 544.28,
+    "altura": 20.7,
+    "tag": "p"
+  },
+  {
+    "pagina": 9,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 9,
+    "texto": "O ataque contra um aliado",
+    "x": 606.5,
+    "y": 32.56,
+    "largura": 115.39,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 9,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 9,
+    "texto": "9",
+    "x": 715.44,
+    "y": 1065.83,
+    "largura": 6.45,
+    "altura": 19.2,
+    "tag": null
+  },
+  {
+    "pagina": 10,
+    "texto": "Continue por aqui",
+    "x": 75.59,
+    "y": 64.25,
+    "largura": 251.66,
+    "altura": 48.0,
+    "tag": "h1"
+  },
+  {
+    "pagina": 10,
+    "texto": "Você já acompanhou uma tentativa fora de combate, um turno de conjuração e a proteção de um aliado.",
+    "x": 75.59,
+    "y": 145.65,
+    "largura": 637.83,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "Para criar sua ficha ou resolver situações além desses exemplos, abra o trecho correspondente do livro",
+    "x": 75.59,
+    "y": 165.67,
+    "largura": 627.96,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "vigente.",
+    "x": 75.59,
+    "y": 185.69,
+    "largura": 48.62,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "Quero…",
+    "x": 86.93,
+    "y": 224.6,
+    "largura": 40.14,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 10,
+    "texto": "No Manual da Guilda v0.331",
+    "x": 287.28,
+    "y": 224.6,
+    "largura": 138.66,
+    "altura": 17.6,
+    "tag": "th"
+  },
+  {
+    "pagina": 10,
+    "texto": "Criar meu personagem",
+    "x": 86.93,
+    "y": 255.83,
+    "largura": 133.35,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Capítulo 6, ",
+    "x": 287.28,
+    "y": 255.83,
+    "largura": 65.88,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Criação de Personagem",
+    "x": 353.16,
+    "y": 255.83,
+    "largura": 137.06,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": ": comece pela Ordem dos passos.",
+    "x": 490.22,
+    "y": 255.83,
+    "largura": 186.62,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Escolher a origem do poder",
+    "x": 86.93,
+    "y": 287.57,
+    "largura": 160.13,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Capítulo 7, ",
+    "x": 287.28,
+    "y": 287.57,
+    "largura": 65.88,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Origens e Legados",
+    "x": 353.16,
+    "y": 287.57,
+    "largura": 107.56,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": ": leia Efeito na ficha da opção escolhida.",
+    "x": 460.72,
+    "y": 287.57,
+    "largura": 227.82,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Comparar Caminhos e Trilhas",
+    "x": 86.93,
+    "y": 319.3,
+    "largura": 176.85,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Capítulo 8, ",
+    "x": 287.28,
+    "y": 319.3,
+    "largura": 65.88,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Caminhos e Trilhas",
+    "x": 353.16,
+    "y": 319.3,
+    "largura": 114.54,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": ": leia o Caminho e suas três Trilhas.",
+    "x": 467.7,
+    "y": 319.3,
+    "largura": 202.63,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Montar uma técnica e seus",
+    "x": 86.93,
+    "y": 351.03,
+    "largura": 156.1,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "feitiços",
+    "x": 86.93,
+    "y": 368.49,
+    "largura": 43.01,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Capítulo 9, ",
+    "x": 287.28,
+    "y": 351.03,
+    "largura": 65.88,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Fundamento",
+    "x": 353.16,
+    "y": 351.03,
+    "largura": 74.58,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": ": Escrevendo o seu Fundamento e Criando feiti‐",
+    "x": 427.74,
+    "y": 351.03,
+    "largura": 271.48,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "ços. Outras rotas são indicadas pela Origem.",
+    "x": 287.28,
+    "y": 368.49,
+    "largura": 253.8,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Saber o que posso fazer no",
+    "x": 86.93,
+    "y": 400.23,
+    "largura": 154.21,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "turno",
+    "x": 86.93,
+    "y": 417.69,
+    "largura": 32.47,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Capítulo 2, ",
+    "x": 287.28,
+    "y": 400.23,
+    "largura": 65.88,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "O Turno",
+    "x": 353.16,
+    "y": 400.23,
+    "largura": 50.02,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": ": Recursos do turno e as listas de ações.",
+    "x": 403.18,
+    "y": 400.23,
+    "largura": 222.31,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Entender Defesa e Bloquear",
+    "x": 86.93,
+    "y": 449.42,
+    "largura": 163.35,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Capítulo 1, ",
+    "x": 287.28,
+    "y": 449.42,
+    "largura": 65.88,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Como Jogar",
+    "x": 353.16,
+    "y": 449.42,
+    "largura": 69.01,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": ": Defesa e Bloquear.",
+    "x": 422.17,
+    "y": 449.42,
+    "largura": 112.14,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Resolver uma condição ou",
+    "x": 86.93,
+    "y": 481.15,
+    "largura": 151.94,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Vida a 0",
+    "x": 86.93,
+    "y": 498.61,
+    "largura": 47.66,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Capítulo 4, ",
+    "x": 287.28,
+    "y": 481.15,
+    "largura": 65.88,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Dano, Condições e Cobertura",
+    "x": 353.16,
+    "y": 481.15,
+    "largura": 171.65,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "; para Vida a 0, capítulo 1, seção",
+    "x": 524.81,
+    "y": 481.15,
+    "largura": 181.94,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "de mesmo nome.",
+    "x": 287.28,
+    "y": 498.61,
+    "largura": 96.03,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Recuperar recursos",
+    "x": 86.93,
+    "y": 530.34,
+    "largura": 112.76,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "Capítulo 5, ",
+    "x": 287.28,
+    "y": 530.34,
+    "largura": 65.88,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Descanso e Recuperação",
+    "x": 353.16,
+    "y": 530.34,
+    "largura": 143.13,
+    "altura": 19.68,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": ".",
+    "x": 496.29,
+    "y": 530.34,
+    "largura": 3.23,
+    "altura": 19.68,
+    "tag": "td"
+  },
+  {
+    "pagina": 10,
+    "texto": "Voltar aos exemplos desta amostra",
+    "x": 75.59,
+    "y": 574.17,
+    "largura": 282.6,
+    "altura": 27.2,
+    "tag": "h2"
+  },
+  {
+    "pagina": 10,
+    "texto": "Teste de Atletismo: dado, bônus e dificuldade.",
+    "x": 94.49,
+    "y": 611.35,
+    "largura": 283.43,
+    "altura": 21.31,
+    "tag": "a"
+  },
+  {
+    "pagina": 10,
+    "texto": "Ficha reduzida e Peso nas Mãos.",
+    "x": 94.49,
+    "y": 638.93,
+    "largura": 199.81,
+    "altura": 21.31,
+    "tag": "a"
+  },
+  {
+    "pagina": 10,
+    "texto": "Uma rodada com recursos antes e depois.",
+    "x": 94.49,
+    "y": 666.51,
+    "largura": 255.32,
+    "altura": 21.31,
+    "tag": "a"
+  },
+  {
+    "pagina": 10,
+    "texto": "Olhos Em Mim e Alicerce.",
+    "x": 94.49,
+    "y": 694.09,
+    "largura": 163.7,
+    "altura": 21.31,
+    "tag": "a"
+  },
+  {
+    "pagina": 10,
+    "texto": "Assumir um golpe, com Defesa ou Bloquear.",
+    "x": 94.49,
+    "y": 721.67,
+    "largura": 272.77,
+    "altura": 21.31,
+    "tag": "a"
+  },
+  {
+    "pagina": 10,
+    "texto": "Experimente mudar uma decisão",
+    "x": 95.64,
+    "y": 770.41,
+    "largura": 208.31,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": "No combate da ala oeste, imagine que o ataque de Peso nas Mãos tenha errado. Quanto de energia",
+    "x": 95.64,
+    "y": 801.01,
+    "largura": 604.33,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "resta à Kaori? Ela ainda pode usar a Ação Bônus nesse turno? Consulte a ficha e a sequência antes",
+    "x": 95.64,
+    "y": 821.03,
+    "largura": 603.86,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "de responder.",
+    "x": 95.64,
+    "y": 841.05,
+    "largura": 83.16,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "Depois, imagine que o aliado esteja a 7 m de Kaori. O que muda na possibilidade de assumir o",
+    "x": 95.64,
+    "y": 871.66,
+    "largura": 577.06,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "golpe? A resposta depende da posição e do raio da área.",
+    "x": 95.64,
+    "y": 891.68,
+    "largura": 342.67,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "Referências da ",
+    "x": 75.59,
+    "y": 947.98,
+    "largura": 93.73,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "v0.331",
+    "x": 169.32,
+    "y": 947.98,
+    "largura": 40.36,
+    "altura": 21.31,
+    "tag": "strong"
+  },
+  {
+    "pagina": 10,
+    "texto": ". Esta amostra inicia a criação; use o roteiro completo para terminar a ficha.",
+    "x": 209.68,
+    "y": 947.98,
+    "largura": 466.32,
+    "altura": 21.31,
+    "tag": "p"
+  },
+  {
+    "pagina": 10,
+    "texto": "PROJETO - M",
+    "x": 75.59,
+    "y": 32.56,
+    "largura": 70.41,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 10,
+    "texto": "Continue por aqui",
+    "x": 644.18,
+    "y": 32.56,
+    "largura": 77.71,
+    "altura": 12.8,
+    "tag": null
+  },
+  {
+    "pagina": 10,
+    "texto": "PILOTO EDITORIAL 2 · REGRAS v0.331",
+    "x": 75.59,
+    "y": 1069.61,
+    "largura": 162.16,
+    "altura": 11.68,
+    "tag": null
+  },
+  {
+    "pagina": 10,
+    "texto": "10",
+    "x": 710.69,
+    "y": 1065.83,
+    "largura": 11.2,
+    "altura": 19.2,
+    "tag": null
+  }
+]

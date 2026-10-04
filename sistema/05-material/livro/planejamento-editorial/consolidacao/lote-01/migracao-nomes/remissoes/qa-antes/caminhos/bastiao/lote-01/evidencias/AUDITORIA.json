@@ -1,0 +1,4436 @@
+{
+  "sha256_texto": "3334f5e2ff950bc79bbad12ae3f4c2b902e8fbf1539a22e64af7e8826cd14e9d",
+  "checks": [
+    {
+      "nome": "fonte_preservada_caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_caminhos/05-Edicao-Integrada/contratos-v0.331.json",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_sistema/05-material/livro/manual/20-criacao-de-personagem.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_logs/CHANGELOG.md",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_assumir_pre",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_duro_sem_limite",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_nem_efeito_ofensivo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_nem_passivo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_arrastao_custo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_arrastao_sem_extra",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_arrastao_mao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_agarrar_mao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_contra_crit",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_contra_canalizar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_resposta_alcance",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_passa_sem_recursao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_passa_sem_block",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_certero_nao_acerto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_nem tem limite por rodada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_2 PE por criatura atacada além da primeira",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_Não recebe Ataque Extra",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_O feitiço não causa crítico",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_O ataque escolhido não recebe Canalizar em Golpe",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_A parcela não pode ser transferida novamente",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "19_habilidades",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Olhos Em Mim",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Ataque Extra",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Nem Um Arranhão",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Ainda de Pé",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Duro de Matar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Chega Mais",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Passa Pra Mim",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Alicerce",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Guarda-Costas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Casca Grossa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Inabalável",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Trocação Franca",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Mão Pesada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Minha Vez",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Arrastão",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Retaliação",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Embalo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Oportunista",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "destino_Contra a Parede",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "11_paginas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "faixa_180_420_palavras",
+      "passou": true,
+      "detalhe": {
+        "bas-bastiao": 300,
+        "bas-olhos": 314,
+        "bas-defesa": 326,
+        "bas-aliados": 399,
+        "bas-muro": 288,
+        "bas-casca": 274,
+        "bas-punho": 238,
+        "bas-mao": 297,
+        "bas-arrastao": 300,
+        "bas-combatente": 288,
+        "bas-oportunista": 330
+      }
+    },
+    {
+      "nome": "sem_titulo_como_ler",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "sem_artigo_inicial",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "medidas_1_5",
+      "passou": true,
+      "detalhe": [
+        6.0,
+        9.0,
+        1.5,
+        1.5,
+        4.5
+      ]
+    },
+    {
+      "nome": "Nem Um Arranhão: golpe exige TR",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Nem Um Arranhão: explosão sem acerto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Nem Um Arranhão: queda causada por hostil na área",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Nem Um Arranhão: queda ambiental",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Nem Um Arranhão: conjurador fora da área",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Nem Um Arranhão: TR Espírito",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Nem Um Arranhão: aura inativa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Nem Um Arranhão: efeito de aliado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Bloquear igualdade acerta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Aparar impede total alto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "20 vence Aparar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Brecha vence total baixo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Resposta por hit interceptado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Resposta por defesa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Resposta distante negada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Resposta incapaz negada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Casca com Duro exemplo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Casca com resistência exemplo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Passa exemplo fonte",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Passa resistência receptor",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Passa não necessário",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Passa aliado já zero",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Passa dois tipos após aliado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Passa conserva tipos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Passa próprias resistências",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Passa redução pessoal nova",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Passa mesmo uso de redução não repete",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Passa Alma não metade",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Dano zero ainda hit",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Reação antes e depois do próprio turno",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Punho turno comum nível7",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Duas Padrões não repetem AtaqueExtra",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão custo 1",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão custo 2",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão custo 3",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão custo 4",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão custo 5",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão custo 6",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão rejeita excesso de alvos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão rejeita alvo repetido",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão rejeita sem alvo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão rejeita controle já usado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão gratuito após controle",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão turno For6",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Arrastão mesmo alvo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Contra classe/custo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Contra rejeita vida acima",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Contra rejeita terceiro ataque",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Contra rejeita segundo inexistente",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Contra rejeita limite feitiço usado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Contra rejeita Carregar incompleto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Contra único ataque válido",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Ainda de Pé nível7 média",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Ainda de Pé nível30 média",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Embalo não acumula",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Embalo repõe após gasto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "Guarda-Costas não soma coberturas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "conservação_exaustiva_transferência",
+      "passou": true,
+      "detalhe": {
+        "cenarios": 10200
+      }
+    },
+    {
+      "nome": "vantagem_fórmula",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "provocar_empate_resiste",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "modelos_defensivos_limites",
+      "passou": true,
+      "detalhe": {
+        "perfis": 216,
+        "espaco_por_perfil": 2000,
+        "convolucao_Casca": 100
+      }
+    },
+    {
+      "nome": "monotonia_resistencia_e_Casca",
+      "passou": true,
+      "detalhe": null
+    }
+  ],
+  "casos": [
+    {
+      "nome": "Nem Um Arranhão: golpe exige TR",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: explosão sem acerto",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: queda causada por hostil na área",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: queda ambiental",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: conjurador fora da área",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: TR Espírito",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: aura inativa",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Nem Um Arranhão: efeito de aliado",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "BAS26; origem hostil na área, TR Físico e aura ativa."
+    },
+    {
+      "nome": "Bloquear igualdade acerta",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "Total17 contra17."
+    },
+    {
+      "nome": "Aparar impede total alto",
+      "obtido": false,
+      "esperado": false,
+      "passou": true,
+      "motivo": "Duplo10 vence total, exceto20natural."
+    },
+    {
+      "nome": "20 vence Aparar",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "Crítico tem precedência."
+    },
+    {
+      "nome": "Brecha vence total baixo",
+      "obtido": true,
+      "esperado": true,
+      "passou": true,
+      "motivo": "D20=1 não tem falha automática geral na candidataR02."
+    },
+    {
+      "nome": "Resposta por hit interceptado",
+      "obtido": [
+        "Trocação"
+      ],
+      "esperado": [
+        "Trocação"
+      ],
+      "passou": true,
+      "motivo": "Bloquear falhou, não ativa Minha Vez."
+    },
+    {
+      "nome": "Resposta por defesa",
+      "obtido": [
+        "Minha Vez"
+      ],
+      "esperado": [
+        "Minha Vez"
+      ],
+      "passou": true,
+      "motivo": "SucessoBlock não ativa Trocação."
+    },
+    {
+      "nome": "Resposta distante negada",
+      "obtido": [],
+      "esperado": [],
+      "passou": true,
+      "motivo": "Alcance de interceptação não é alcance de resposta."
+    },
+    {
+      "nome": "Resposta incapaz negada",
+      "obtido": [],
+      "esperado": [],
+      "passou": true,
+      "motivo": "Resolver dano antes de responder."
+    },
+    {
+      "nome": "Casca com Duro exemplo",
+      "obtido": 13,
+      "esperado": 13,
+      "passou": true,
+      "motivo": "Duro usa dados já rolados; Casca novos."
+    },
+    {
+      "nome": "Casca com resistência exemplo",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "motivo": "Resistência antecede RD."
+    },
+    {
+      "nome": "Passa exemplo fonte",
+      "obtido": {
+        "vida_aliado": 1,
+        "perda_aliado": 9,
+        "transferido": [
+          [
+            "Cortante",
+            7
+          ]
+        ]
+      },
+      "esperado": {
+        "vida_aliado": 1,
+        "perda_aliado": 9,
+        "transferido": [
+          [
+            "Cortante",
+            7
+          ]
+        ]
+      },
+      "passou": true,
+      "motivo": "Conserva exemplo10/16."
+    },
+    {
+      "nome": "Passa resistência receptor",
+      "obtido": [
+        [
+          "Cortante",
+          4
+        ]
+      ],
+      "esperado": [
+        [
+          "Cortante",
+          4
+        ]
+      ],
+      "passou": true,
+      "motivo": "Arredonda dano recebido para cima."
+    },
+    {
+      "nome": "Passa não necessário",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Aliado não cairia."
+    },
+    {
+      "nome": "Passa aliado já zero",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Não recupera quem já caiu."
+    },
+    {
+      "nome": "Passa dois tipos após aliado",
+      "obtido": [
+        [
+          "Cortante",
+          15
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "esperado": [
+        [
+          "Cortante",
+          15
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "passou": true,
+      "motivo": "ResistênciaFogo; RD4 e reserva3 consomemCortante primeiro."
+    },
+    {
+      "nome": "Passa conserva tipos",
+      "obtido": [
+        [
+          "Cortante",
+          6
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "esperado": [
+        [
+          "Cortante",
+          6
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "passou": true,
+      "motivo": "Perdaaliado9 na primeira parcela."
+    },
+    {
+      "nome": "Passa próprias resistências",
+      "obtido": [
+        [
+          "Cortante",
+          3
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "esperado": [
+        [
+          "Cortante",
+          3
+        ],
+        [
+          "Fogo",
+          6
+        ]
+      ],
+      "passou": true,
+      "motivo": "Transferência12 vira9; não é novo ataque."
+    },
+    {
+      "nome": "Passa redução pessoal nova",
+      "obtido": [
+        [
+          "Cortante",
+          0
+        ],
+        [
+          "Fogo",
+          5
+        ]
+      ],
+      "esperado": [
+        [
+          "Cortante",
+          0
+        ],
+        [
+          "Fogo",
+          5
+        ]
+      ],
+      "passou": true,
+      "motivo": "Uso distinto que protege dano transferido; nenhuma nova Reação."
+    },
+    {
+      "nome": "Passa Alma não metade",
+      "obtido": [
+        [
+          "Alma",
+          7
+        ]
+      ],
+      "esperado": [
+        [
+          "Alma",
+          7
+        ]
+      ],
+      "passou": true,
+      "motivo": "Alicerce não revoga dono do tipo."
+    },
+    {
+      "nome": "Dano zero ainda hit",
+      "obtido": [
+        "Trocação"
+      ],
+      "esperado": [
+        "Trocação"
+      ],
+      "passou": true,
+      "motivo": "Proteções de dano não alteram resultado de acerto."
+    },
+    {
+      "nome": "Reação antes e depois do próprio turno",
+      "obtido": [
+        1,
+        2,
+        false
+      ],
+      "esperado": [
+        1,
+        2,
+        false
+      ],
+      "passou": true,
+      "motivo": "Não afirmar um teto absoluto de interceptações por rodada civil."
+    },
+    {
+      "nome": "Punho turno comum nível7",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "motivo": "Uma Padrão, AtaqueExtra e Bônus apósacerto."
+    },
+    {
+      "nome": "Duas Padrões não repetem AtaqueExtra",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "motivo": "2 ataquesbase +1extra porrodada +1Bônus."
+    },
+    {
+      "nome": "Arrastão custo 1",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão custo 2",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão custo 3",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão custo 4",
+      "obtido": 6,
+      "esperado": 6,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão custo 5",
+      "obtido": 8,
+      "esperado": 8,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão custo 6",
+      "obtido": 10,
+      "esperado": 10,
+      "passou": true,
+      "motivo": "Paga por tentativa, não por acerto."
+    },
+    {
+      "nome": "Arrastão gratuito após controle",
+      "obtido": 0,
+      "esperado": 0,
+      "passou": true,
+      "motivo": "A habilidade continua disponível, sem outro controle."
+    },
+    {
+      "nome": "Arrastão turno For6",
+      "obtido": 7,
+      "esperado": 7,
+      "passou": true,
+      "motivo": "Seis alvos e Bônus; não sete num mesmo alvo."
+    },
+    {
+      "nome": "Arrastão mesmo alvo",
+      "obtido": 2,
+      "esperado": 2,
+      "passou": true,
+      "motivo": "Um golpeArrastão e no máximoBônus, sem extras externos."
+    },
+    {
+      "nome": "Contra classe/custo",
+      "obtido": {
+        "classe": 3,
+        "pe": 9,
+        "canalizar_excluido": 2,
+        "critico_feitico": false
+      },
+      "esperado": {
+        "classe": 3,
+        "pe": 9,
+        "canalizar_excluido": 2,
+        "critico_feitico": false
+      },
+      "passou": true,
+      "motivo": "Nível27:maiorClasse7."
+    },
+    {
+      "nome": "Contra rejeita vida acima",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Conserva requisitos do feitiço e limite do turno."
+    },
+    {
+      "nome": "Contra rejeita terceiro ataque",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Conserva requisitos do feitiço e limite do turno."
+    },
+    {
+      "nome": "Contra rejeita segundo inexistente",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Conserva requisitos do feitiço e limite do turno."
+    },
+    {
+      "nome": "Contra rejeita limite feitiço usado",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Conserva requisitos do feitiço e limite do turno."
+    },
+    {
+      "nome": "Contra rejeita Carregar incompleto",
+      "obtido": null,
+      "esperado": null,
+      "passou": true,
+      "motivo": "Conserva requisitos do feitiço e limite do turno."
+    },
+    {
+      "nome": "Contra único ataque válido",
+      "obtido": 3,
+      "esperado": 3,
+      "passou": true,
+      "motivo": "Primeiro ataque basta."
+    },
+    {
+      "nome": "Ainda de Pé nível7 média",
+      "obtido": 7.5,
+      "esperado": 7.5,
+      "passou": true,
+      "motivo": "Metade do nível para baixo."
+    },
+    {
+      "nome": "Ainda de Pé nível30 média",
+      "obtido": 19.5,
+      "esperado": 19.5,
+      "passou": true,
+      "motivo": "Não libera ação a0 automaticamente."
+    },
+    {
+      "nome": "Embalo não acumula",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "motivo": "Sem gasto intermediário, gatilhos repetidos mantêm4."
+    },
+    {
+      "nome": "Embalo repõe após gasto",
+      "obtido": 4,
+      "esperado": 4,
+      "passou": true,
+      "motivo": "Repor4 não significa somar4."
+    },
+    {
+      "nome": "Guarda-Costas não soma coberturas",
+      "obtido": 5,
+      "esperado": 5,
+      "passou": true,
+      "motivo": "Cobertura maior prevalece."
+    }
+  ],
+  "aprovado": true,
+  "quantidades": {
+    "checks": 113,
+    "casos": 52,
+    "perfis_defesa": 216,
+    "perfis_TR": 12,
+    "perfis_provocar": 27,
+    "cenarios_transferencia": 10200,
+    "mutacoes": 6
+  },
+  "palavras_paginas": {
+    "bas-bastiao": 300,
+    "bas-olhos": 314,
+    "bas-defesa": 326,
+    "bas-aliados": 399,
+    "bas-muro": 288,
+    "bas-casca": 274,
+    "bas-punho": 238,
+    "bas-mao": 297,
+    "bas-arrastao": 300,
+    "bas-combatente": 288,
+    "bas-oportunista": 330
+  },
+  "modelos": {
+    "defesa": [
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 2.0125,
+        "chance_dano_zero": 0.7325,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 0.10492,
+        "chance_dano_zero": 0.96515,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 0.1225,
+        "chance_dano_zero": 0.9475,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 3.5e-05,
+        "chance_dano_zero": 0.999965,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 7.4575,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 3.915655,
+        "chance_dano_zero": 0.728265,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 2.0125,
+        "chance_dano_zero": 0.7325,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 0.10492,
+        "chance_dano_zero": 0.96515,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 18.3575,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 14.815,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 7.4575,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 3.915655,
+        "chance_dano_zero": 0.728265,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 1.229,
+        "chance_dano_zero": 0.7605,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 0.00441,
+        "chance_dano_zero": 0.99755,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 0.014,
+        "chance_dano_zero": 0.9895,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 0.0,
+        "chance_dano_zero": 1.0,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 6.64,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 2.31105,
+        "chance_dano_zero": 0.74651,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 1.229,
+        "chance_dano_zero": 0.7605,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 0.00441,
+        "chance_dano_zero": 0.99755,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 17.54,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 13.18,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 6.64,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 2.31105,
+        "chance_dano_zero": 0.74651,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 11.0,
+        "media_recebida": 3.2325,
+        "chance_dano_zero": 0.5525,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 11.0,
+        "media_recebida": 0.1649,
+        "chance_dano_zero": 0.94521,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 11.0,
+        "media_recebida": 0.1925,
+        "chance_dano_zero": 0.9175,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 11.0,
+        "media_recebida": 5.5e-05,
+        "chance_dano_zero": 0.999945,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 22.0,
+        "media_recebida": 12.559,
+        "chance_dano_zero": 0.533,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 22.0,
+        "media_recebida": 6.489925,
+        "chance_dano_zero": 0.535415,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 22.0,
+        "media_recebida": 3.2325,
+        "chance_dano_zero": 0.5525,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 22.0,
+        "media_recebida": 0.1649,
+        "chance_dano_zero": 0.94521,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 44.0,
+        "media_recebida": 31.239,
+        "chance_dano_zero": 0.533,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 44.0,
+        "media_recebida": 25.168,
+        "chance_dano_zero": 0.533,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 44.0,
+        "media_recebida": 12.559,
+        "chance_dano_zero": 0.533,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 44.0,
+        "media_recebida": 6.489925,
+        "chance_dano_zero": 0.535415,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 13.107066381156317,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 11.0,
+        "media_recebida": 1.941,
+        "chance_dano_zero": 0.6165,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 11.0,
+        "media_recebida": 0.00693,
+        "chance_dano_zero": 0.99615,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 11.0,
+        "media_recebida": 0.022,
+        "chance_dano_zero": 0.9835,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 11.0,
+        "media_recebida": 0.0,
+        "chance_dano_zero": 1.0,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 22.0,
+        "media_recebida": 11.158,
+        "chance_dano_zero": 0.533,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 22.0,
+        "media_recebida": 3.764475,
+        "chance_dano_zero": 0.575365,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 22.0,
+        "media_recebida": 1.941,
+        "chance_dano_zero": 0.6165,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 22.0,
+        "media_recebida": 0.00693,
+        "chance_dano_zero": 0.99615,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 44.0,
+        "media_recebida": 29.838,
+        "chance_dano_zero": 0.533,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 44.0,
+        "media_recebida": 22.366,
+        "chance_dano_zero": 0.533,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 44.0,
+        "media_recebida": 11.158,
+        "chance_dano_zero": 0.533,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 44.0,
+        "media_recebida": 3.764475,
+        "chance_dano_zero": 0.575365,
+        "chance_falha_bloquear": 0.467,
+        "media_duro_quando_falha": 16.10706638115632,
+        "chance_brecha": 0.0055
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 4.1475,
+        "chance_dano_zero": 0.4175,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 0.209885,
+        "chance_dano_zero": 0.930255,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 0.245,
+        "chance_dano_zero": 0.895,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 7e-05,
+        "chance_dano_zero": 0.99993,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 16.4335,
+        "chance_dano_zero": 0.3845,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 8.43529,
+        "chance_dano_zero": 0.38849,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 4.1475,
+        "chance_dano_zero": 0.4175,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 0.209885,
+        "chance_dano_zero": 0.930255,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 56.0,
+        "media_recebida": 41.0535,
+        "chance_dano_zero": 0.3845,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 56.0,
+        "media_recebida": 33.052,
+        "chance_dano_zero": 0.3845,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 56.0,
+        "media_recebida": 16.4335,
+        "chance_dano_zero": 0.3845,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 56.0,
+        "media_recebida": 8.43529,
+        "chance_dano_zero": 0.38849,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 13.300568643379366,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 2.475,
+        "chance_dano_zero": 0.5085,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 0.00882,
+        "chance_dano_zero": 0.9951,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 0.028,
+        "chance_dano_zero": 0.979,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 0.0,
+        "chance_dano_zero": 1.0,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 14.587,
+        "chance_dano_zero": 0.3845,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 4.8582,
+        "chance_dano_zero": 0.44596,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 2.475,
+        "chance_dano_zero": 0.5085,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 0.00882,
+        "chance_dano_zero": 0.9951,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 56.0,
+        "media_recebida": 39.207,
+        "chance_dano_zero": 0.3845,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 56.0,
+        "media_recebida": 29.359,
+        "chance_dano_zero": 0.3845,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 56.0,
+        "media_recebida": 14.587,
+        "chance_dano_zero": 0.3845,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 17,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 56.0,
+        "media_recebida": 4.8582,
+        "chance_dano_zero": 0.44596,
+        "chance_falha_bloquear": 0.6155,
+        "media_duro_quando_falha": 16.300568643379368,
+        "chance_brecha": 0.007
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.8225,
+        "chance_dano_zero": 0.8955,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.04494,
+        "chance_dano_zero": 0.98509,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.0525,
+        "chance_dano_zero": 0.9775,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 1.5e-05,
+        "chance_dano_zero": 0.999985,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 3.0075,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 1.58463,
+        "chance_dano_zero": 0.89113,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.8225,
+        "chance_dano_zero": 0.8955,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.04494,
+        "chance_dano_zero": 0.98509,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 7.3875,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 5.964,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 3.0075,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 1.58463,
+        "chance_dano_zero": 0.89113,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.517,
+        "chance_dano_zero": 0.9045,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.00189,
+        "chance_dano_zero": 0.99895,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.006,
+        "chance_dano_zero": 0.9955,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.0,
+        "chance_dano_zero": 1.0,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 2.679,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.942935,
+        "chance_dano_zero": 0.898625,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.517,
+        "chance_dano_zero": 0.9045,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.00189,
+        "chance_dano_zero": 0.99895,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 7.059,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 5.307,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 2.679,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 0.942935,
+        "chance_dano_zero": 0.898625,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 2.0125,
+        "chance_dano_zero": 0.7325,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 0.10492,
+        "chance_dano_zero": 0.96515,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 0.1225,
+        "chance_dano_zero": 0.9475,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 3.5e-05,
+        "chance_dano_zero": 0.999965,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 7.4575,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 3.915655,
+        "chance_dano_zero": 0.728265,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 2.0125,
+        "chance_dano_zero": 0.7325,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 0.10492,
+        "chance_dano_zero": 0.96515,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 18.3575,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 14.815,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 7.4575,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 3.915655,
+        "chance_dano_zero": 0.728265,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 12.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 1.229,
+        "chance_dano_zero": 0.7605,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 0.00441,
+        "chance_dano_zero": 0.99755,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 0.014,
+        "chance_dano_zero": 0.9895,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 7.0,
+        "media_recebida": 0.0,
+        "chance_dano_zero": 1.0,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 6.64,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 2.31105,
+        "chance_dano_zero": 0.74651,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 1.229,
+        "chance_dano_zero": 0.7605,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 14.0,
+        "media_recebida": 0.00441,
+        "chance_dano_zero": 0.99755,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 17.54,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 13.18,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 6.64,
+        "chance_dano_zero": 0.7275,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 28.0,
+        "media_recebida": 2.31105,
+        "chance_dano_zero": 0.74651,
+        "chance_falha_bloquear": 0.2725,
+        "media_duro_quando_falha": 15.63302752293578,
+        "chance_brecha": 0.0035
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 10.0,
+        "media_recebida": 2.9275,
+        "chance_dano_zero": 0.5975,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 10.0,
+        "media_recebida": 0.149905,
+        "chance_dano_zero": 0.950195,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 10.0,
+        "media_recebida": 0.175,
+        "chance_dano_zero": 0.925,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 10.0,
+        "media_recebida": 5e-05,
+        "chance_dano_zero": 0.99995,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 20.0,
+        "media_recebida": 11.2675,
+        "chance_dano_zero": 0.5825,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 20.0,
+        "media_recebida": 5.84147,
+        "chance_dano_zero": 0.58439,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 20.0,
+        "media_recebida": 2.9275,
+        "chance_dano_zero": 0.5975,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 20.0,
+        "media_recebida": 0.149905,
+        "chance_dano_zero": 0.950195,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 40.0,
+        "media_recebida": 27.9675,
+        "chance_dano_zero": 0.5825,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 40.0,
+        "media_recebida": 22.54,
+        "chance_dano_zero": 0.5825,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 40.0,
+        "media_recebida": 11.2675,
+        "chance_dano_zero": 0.5825,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 40.0,
+        "media_recebida": 5.84147,
+        "chance_dano_zero": 0.58439,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 13.011976047904191,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 10.0,
+        "media_recebida": 1.763,
+        "chance_dano_zero": 0.6525,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 10.0,
+        "media_recebida": 0.0063,
+        "chance_dano_zero": 0.9965,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 10.0,
+        "media_recebida": 0.02,
+        "chance_dano_zero": 0.985,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 10.0,
+        "media_recebida": 0.0,
+        "chance_dano_zero": 1.0,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 20.0,
+        "media_recebida": 10.015,
+        "chance_dano_zero": 0.5825,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 20.0,
+        "media_recebida": 3.3999,
+        "chance_dano_zero": 0.6185,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 20.0,
+        "media_recebida": 1.763,
+        "chance_dano_zero": 0.6525,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 20.0,
+        "media_recebida": 0.0063,
+        "chance_dano_zero": 0.9965,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 40.0,
+        "media_recebida": 26.715,
+        "chance_dano_zero": 0.5825,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 40.0,
+        "media_recebida": 20.035,
+        "chance_dano_zero": 0.5825,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 40.0,
+        "media_recebida": 10.015,
+        "chance_dano_zero": 0.5825,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 21,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 40.0,
+        "media_recebida": 3.3999,
+        "chance_dano_zero": 0.6185,
+        "chance_falha_bloquear": 0.4175,
+        "media_duro_quando_falha": 16.01197604790419,
+        "chance_brecha": 0.005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 1.0,
+        "media_recebida": 0.305,
+        "chance_dano_zero": 0.955,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 1.0,
+        "media_recebida": 0.014995,
+        "chance_dano_zero": 0.995015,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 1.0,
+        "media_recebida": 0.0175,
+        "chance_dano_zero": 0.9925,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 1.0,
+        "media_recebida": 5e-06,
+        "chance_dano_zero": 0.999995,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 2.0,
+        "media_recebida": 1.3,
+        "chance_dano_zero": 0.95,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 2.0,
+        "media_recebida": 0.65063,
+        "chance_dano_zero": 0.95063,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 2.0,
+        "media_recebida": 0.305,
+        "chance_dano_zero": 0.955,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 2.0,
+        "media_recebida": 0.014995,
+        "chance_dano_zero": 0.995015,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 4.0,
+        "media_recebida": 3.3,
+        "chance_dano_zero": 0.95,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 4.0,
+        "media_recebida": 2.65,
+        "chance_dano_zero": 0.95,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 4.0,
+        "media_recebida": 1.3,
+        "chance_dano_zero": 0.95,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 4.0,
+        "media_recebida": 0.65063,
+        "chance_dano_zero": 0.95063,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 14.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 1.0,
+        "media_recebida": 0.178,
+        "chance_dano_zero": 0.964,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 1.0,
+        "media_recebida": 0.00063,
+        "chance_dano_zero": 0.99965,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 1.0,
+        "media_recebida": 0.002,
+        "chance_dano_zero": 0.9985,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 1.0,
+        "media_recebida": 0.0,
+        "chance_dano_zero": 1.0,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 2.0,
+        "media_recebida": 1.15,
+        "chance_dano_zero": 0.95,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 2.0,
+        "media_recebida": 0.364995,
+        "chance_dano_zero": 0.956725,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 2.0,
+        "media_recebida": 0.178,
+        "chance_dano_zero": 0.964,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 2.0,
+        "media_recebida": 0.00063,
+        "chance_dano_zero": 0.99965,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 4.0,
+        "media_recebida": 3.15,
+        "chance_dano_zero": 0.95,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 4.0,
+        "media_recebida": 2.35,
+        "chance_dano_zero": 0.95,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 4.0,
+        "media_recebida": 1.15,
+        "chance_dano_zero": 0.95,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 3,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 4.0,
+        "media_recebida": 0.364995,
+        "chance_dano_zero": 0.956725,
+        "chance_falha_bloquear": 0.05,
+        "media_duro_quando_falha": 17.0,
+        "chance_brecha": 0.0005
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.8225,
+        "chance_dano_zero": 0.8955,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.04494,
+        "chance_dano_zero": 0.98509,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.0525,
+        "chance_dano_zero": 0.9775,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 1.5e-05,
+        "chance_dano_zero": 0.999985,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 3.0075,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 1.58463,
+        "chance_dano_zero": 0.89113,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.8225,
+        "chance_dano_zero": 0.8955,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.04494,
+        "chance_dano_zero": 0.98509,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 7.3875,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 5.964,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 3.0075,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 1.58463,
+        "chance_dano_zero": 0.89113,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 12.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.517,
+        "chance_dano_zero": 0.9045,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.00189,
+        "chance_dano_zero": 0.99895,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.006,
+        "chance_dano_zero": 0.9955,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 3.0,
+        "media_recebida": 0.0,
+        "chance_dano_zero": 1.0,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 2.679,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.942935,
+        "chance_dano_zero": 0.898625,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.517,
+        "chance_dano_zero": 0.9045,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.00189,
+        "chance_dano_zero": 0.99895,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 7.059,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 5.307,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 2.679,
+        "chance_dano_zero": 0.8905,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 7,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 0.942935,
+        "chance_dano_zero": 0.898625,
+        "chance_falha_bloquear": 0.1095,
+        "media_duro_quando_falha": 15.534246575342467,
+        "chance_brecha": 0.0015
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 1.7075,
+        "chance_dano_zero": 0.7775,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.089925,
+        "chance_dano_zero": 0.970135,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.105,
+        "chance_dano_zero": 0.955,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 3e-05,
+        "chance_dano_zero": 0.99997,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 6.2525,
+        "chance_dano_zero": 0.7725,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 3.29563,
+        "chance_dano_zero": 0.77316,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 1.7075,
+        "chance_dano_zero": 0.7775,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 0.089925,
+        "chance_dano_zero": 0.970135,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 24.0,
+        "media_recebida": 15.3525,
+        "chance_dano_zero": 0.7725,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 24.0,
+        "media_recebida": 12.395,
+        "chance_dano_zero": 0.7725,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 24.0,
+        "media_recebida": 6.2525,
+        "chance_dano_zero": 0.7725,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 3,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 24.0,
+        "media_recebida": 3.29563,
+        "chance_dano_zero": 0.77316,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 12.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 1.051,
+        "chance_dano_zero": 0.7965,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.00378,
+        "chance_dano_zero": 0.9979,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.012,
+        "chance_dano_zero": 0.991,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 20,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 6.0,
+        "media_recebida": 0.0,
+        "chance_dano_zero": 1.0,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 5.57,
+        "chance_dano_zero": 0.7725,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 1.95455,
+        "chance_dano_zero": 0.78751,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 1.051,
+        "chance_dano_zero": 0.7965,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 40,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 12.0,
+        "media_recebida": 0.00378,
+        "chance_dano_zero": 0.9979,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 24.0,
+        "media_recebida": 14.67,
+        "chance_dano_zero": 0.7725,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": false,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 24.0,
+        "media_recebida": 11.03,
+        "chance_dano_zero": 0.7725,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": false,
+        "media_defesa_estatica": 24.0,
+        "media_recebida": 5.57,
+        "chance_dano_zero": 0.7725,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      },
+      {
+        "defesa": 25,
+        "ataque_bonus": 10,
+        "con": 6,
+        "dano_pos_rolagem": 80,
+        "alicerce": true,
+        "casca_interceptacao": true,
+        "media_defesa_estatica": 24.0,
+        "media_recebida": 1.95455,
+        "chance_dano_zero": 0.78751,
+        "chance_falha_bloquear": 0.2275,
+        "media_duro_quando_falha": 15.516483516483516,
+        "chance_brecha": 0.003
+      }
+    ],
+    "TR": [
+      {
+        "cd": 12,
+        "bonus": 1,
+        "normal": 0.5,
+        "vantagem": 0.75,
+        "ganho_pontos_percentuais": 25.0
+      },
+      {
+        "cd": 12,
+        "bonus": 4,
+        "normal": 0.65,
+        "vantagem": 0.8775,
+        "ganho_pontos_percentuais": 22.75
+      },
+      {
+        "cd": 12,
+        "bonus": 7,
+        "normal": 0.8,
+        "vantagem": 0.96,
+        "ganho_pontos_percentuais": 16.0
+      },
+      {
+        "cd": 12,
+        "bonus": 10,
+        "normal": 0.95,
+        "vantagem": 0.9975,
+        "ganho_pontos_percentuais": 4.75
+      },
+      {
+        "cd": 16,
+        "bonus": 1,
+        "normal": 0.3,
+        "vantagem": 0.51,
+        "ganho_pontos_percentuais": 21.0
+      },
+      {
+        "cd": 16,
+        "bonus": 4,
+        "normal": 0.45,
+        "vantagem": 0.6975,
+        "ganho_pontos_percentuais": 24.75
+      },
+      {
+        "cd": 16,
+        "bonus": 7,
+        "normal": 0.6,
+        "vantagem": 0.84,
+        "ganho_pontos_percentuais": 24.0
+      },
+      {
+        "cd": 16,
+        "bonus": 10,
+        "normal": 0.75,
+        "vantagem": 0.9375,
+        "ganho_pontos_percentuais": 18.75
+      },
+      {
+        "cd": 20,
+        "bonus": 1,
+        "normal": 0.1,
+        "vantagem": 0.19,
+        "ganho_pontos_percentuais": 9.0
+      },
+      {
+        "cd": 20,
+        "bonus": 4,
+        "normal": 0.25,
+        "vantagem": 0.4375,
+        "ganho_pontos_percentuais": 18.75
+      },
+      {
+        "cd": 20,
+        "bonus": 7,
+        "normal": 0.4,
+        "vantagem": 0.64,
+        "ganho_pontos_percentuais": 24.0
+      },
+      {
+        "cd": 20,
+        "bonus": 10,
+        "normal": 0.55,
+        "vantagem": 0.7975,
+        "ganho_pontos_percentuais": 24.75
+      }
+    ],
+    "provocar": [
+      {
+        "bonus_provocar": 3,
+        "bonus_espirito": 1,
+        "alvos": 1,
+        "falha_marginal": 0.5725,
+        "todos_falham_mesmo_teste": 0.5725
+      },
+      {
+        "bonus_provocar": 3,
+        "bonus_espirito": 1,
+        "alvos": 2,
+        "falha_marginal": 0.5725,
+        "todos_falham_mesmo_teste": 0.408625
+      },
+      {
+        "bonus_provocar": 3,
+        "bonus_espirito": 1,
+        "alvos": 4,
+        "falha_marginal": 0.5725,
+        "todos_falham_mesmo_teste": 0.2758328125
+      },
+      {
+        "bonus_provocar": 3,
+        "bonus_espirito": 4,
+        "alvos": 1,
+        "falha_marginal": 0.4275,
+        "todos_falham_mesmo_teste": 0.4275
+      },
+      {
+        "bonus_provocar": 3,
+        "bonus_espirito": 4,
+        "alvos": 2,
+        "falha_marginal": 0.4275,
+        "todos_falham_mesmo_teste": 0.263625
+      },
+      {
+        "bonus_provocar": 3,
+        "bonus_espirito": 4,
+        "alvos": 4,
+        "falha_marginal": 0.4275,
+        "todos_falham_mesmo_teste": 0.1351078125
+      },
+      {
+        "bonus_provocar": 3,
+        "bonus_espirito": 7,
+        "alvos": 1,
+        "falha_marginal": 0.3,
+        "todos_falham_mesmo_teste": 0.3
+      },
+      {
+        "bonus_provocar": 3,
+        "bonus_espirito": 7,
+        "alvos": 2,
+        "falha_marginal": 0.3,
+        "todos_falham_mesmo_teste": 0.155
+      },
+      {
+        "bonus_provocar": 3,
+        "bonus_espirito": 7,
+        "alvos": 4,
+        "falha_marginal": 0.3,
+        "todos_falham_mesmo_teste": 0.0557225
+      },
+      {
+        "bonus_provocar": 6,
+        "bonus_espirito": 1,
+        "alvos": 1,
+        "falha_marginal": 0.7,
+        "todos_falham_mesmo_teste": 0.7
+      },
+      {
+        "bonus_provocar": 6,
+        "bonus_espirito": 1,
+        "alvos": 2,
+        "falha_marginal": 0.7,
+        "todos_falham_mesmo_teste": 0.555
+      },
+      {
+        "bonus_provocar": 6,
+        "bonus_espirito": 1,
+        "alvos": 4,
+        "falha_marginal": 0.7,
+        "todos_falham_mesmo_teste": 0.4257225
+      },
+      {
+        "bonus_provocar": 6,
+        "bonus_espirito": 4,
+        "alvos": 1,
+        "falha_marginal": 0.5725,
+        "todos_falham_mesmo_teste": 0.5725
+      },
+      {
+        "bonus_provocar": 6,
+        "bonus_espirito": 4,
+        "alvos": 2,
+        "falha_marginal": 0.5725,
+        "todos_falham_mesmo_teste": 0.408625
+      },
+      {
+        "bonus_provocar": 6,
+        "bonus_espirito": 4,
+        "alvos": 4,
+        "falha_marginal": 0.5725,
+        "todos_falham_mesmo_teste": 0.2758328125
+      },
+      {
+        "bonus_provocar": 6,
+        "bonus_espirito": 7,
+        "alvos": 1,
+        "falha_marginal": 0.4275,
+        "todos_falham_mesmo_teste": 0.4275
+      },
+      {
+        "bonus_provocar": 6,
+        "bonus_espirito": 7,
+        "alvos": 2,
+        "falha_marginal": 0.4275,
+        "todos_falham_mesmo_teste": 0.263625
+      },
+      {
+        "bonus_provocar": 6,
+        "bonus_espirito": 7,
+        "alvos": 4,
+        "falha_marginal": 0.4275,
+        "todos_falham_mesmo_teste": 0.1351078125
+      },
+      {
+        "bonus_provocar": 10,
+        "bonus_espirito": 1,
+        "alvos": 1,
+        "falha_marginal": 0.835,
+        "todos_falham_mesmo_teste": 0.835
+      },
+      {
+        "bonus_provocar": 10,
+        "bonus_espirito": 1,
+        "alvos": 2,
+        "falha_marginal": 0.835,
+        "todos_falham_mesmo_teste": 0.73325
+      },
+      {
+        "bonus_provocar": 10,
+        "bonus_espirito": 1,
+        "alvos": 4,
+        "falha_marginal": 0.835,
+        "todos_falham_mesmo_teste": 0.623091875
+      },
+      {
+        "bonus_provocar": 10,
+        "bonus_espirito": 4,
+        "alvos": 1,
+        "falha_marginal": 0.7375,
+        "todos_falham_mesmo_teste": 0.7375
+      },
+      {
+        "bonus_provocar": 10,
+        "bonus_espirito": 4,
+        "alvos": 2,
+        "falha_marginal": 0.7375,
+        "todos_falham_mesmo_teste": 0.601875
+      },
+      {
+        "bonus_provocar": 10,
+        "bonus_espirito": 4,
+        "alvos": 4,
+        "falha_marginal": 0.7375,
+        "todos_falham_mesmo_teste": 0.4755271875
+      },
+      {
+        "bonus_provocar": 10,
+        "bonus_espirito": 7,
+        "alvos": 1,
+        "falha_marginal": 0.6175,
+        "todos_falham_mesmo_teste": 0.6175
+      },
+      {
+        "bonus_provocar": 10,
+        "bonus_espirito": 7,
+        "alvos": 2,
+        "falha_marginal": 0.6175,
+        "todos_falham_mesmo_teste": 0.458125
+      },
+      {
+        "bonus_provocar": 10,
+        "bonus_espirito": 7,
+        "alvos": 4,
+        "falha_marginal": 0.6175,
+        "todos_falham_mesmo_teste": 0.3258278125
+      }
+    ]
+  },
+  "limites": [
+    "Enumeração exata destes modelos; não é playtest nem prova de balanceamento do livro.",
+    "Dano de entrada já determinado; não modela variação de dados/critico e usa um ataque por evento.",
+    "Aparar/Brecha têm chance registrada; dano adicional do agressor em Brecha depende Reação e não está incluído.",
+    "Casca pressupõe interceptação disponível; não vale sobre todo ataque contra o Bastião.",
+    "Não mede distância, objetivos da missão, economia completa de cenas, diversão ou compreensão humana.",
+    "Dano misto usa candidata R03: ordem de parcelas fixada antes da rolagem."
+  ]
+}

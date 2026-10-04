@@ -1,0 +1,19 @@
+{
+  "escopo": "Registros localizados do fechamento; decisões anteriores permanecem em REVISAO-E-FONTES.md, sem contagem retroativa inventada.",
+  "alteracoes": [
+    {
+      "id": "REM03",
+      "antes": "Tratamento e socorro seguem Recuperação e o efeito usado.",
+      "depois": "Tratamento e socorro seguem o efeito usado e a seção Socorro, em Dano e recuperação.",
+      "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
+      "tipo": "editorial"
+    },
+    {
+      "id": "REM12",
+      "antes": "As regras de Movimento e Combate determinam",
+      "depois": "As seções Movimento e terreno e Ataques, em Regras gerais, determinam",
+      "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
+      "tipo": "editorial"
+    }
+  ]
+}

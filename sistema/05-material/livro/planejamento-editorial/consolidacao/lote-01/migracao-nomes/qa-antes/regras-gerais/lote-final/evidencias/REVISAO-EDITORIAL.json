@@ -1,0 +1,286 @@
+{
+  "sha256_texto": "d5a7af1b3715f695ad8dae3baa7e22a04f23f0c5b692687bdab6d74323a6f489",
+  "revisor": "/root/rotas_didatica",
+  "secoes": [
+    {
+      "id": "atributos",
+      "avaliacao": "Apresenta valor como modificador e separa treino. A tabela de Maestria é necessária à consulta; aquisição detalhada fica em Criação.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "testes",
+      "avaliacao": "CD fixa e CD de criador aparecem lado a lado, com exemplo numérico. Ajustes não se tornam bônus universal de feitiços. Arredondamento tem exceção para distâncias.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "pericias",
+      "avaliacao": "Distingue perícia, ofício e especialização; exemplo de vantagem evita adicionar dados por fonte. Ajudar saiu para seu procedimento próprio.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "resistencia",
+      "avaliacao": "TR Físico tem escolha fixa; sucesso usa resultado do efeito. A explicação Bloquear versus TR é necessária para escolher a defesa, sem copiar aptidão.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "turnos",
+      "avaliacao": "Distingue ação e metros. Conversão usa recursos ainda disponíveis e Reação não renova por rodada. Exemplo mostra custo de oportunidade.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "acoes",
+      "avaliacao": "Índice de ações com função resumida. Manipulação e conjuração remetem a donos; não reproduz os procedimentos específicos.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "ajudar",
+      "avaliacao": "Declara aliado, tentativa, prazo e posição para ataque. Distingue ajuda possível de posse obrigatória do mesmo treino; exemplo gasta Padrão do ajudante.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "interacao",
+      "avaliacao": "Provocar tem CD gerada e empate; Ler o Ambiente devolve uso vazio; Influenciar tem fronteira de possibilidade. As três ações têm resultados diferentes.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "preparar",
+      "avaliacao": "Ordem gatilho termina→Reação→resposta explícita. Não renova ataques restritos nem concede conjuração por qualquer feitiço.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "oportunidade",
+      "avaliacao": "Exige saída percebida, define arma/alcance e momento. Separa deslocamento imposto de caminhar por ordem; exceção da montaria tem remissão.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "concentracao",
+      "avaliacao": "Tabela fornece CD por origem; aplicação de dano resolve parcelas mistas. Zero e vida temporária têm resultado explícito. Incapacitado não foi transformado na condição de outro sistema.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "ataques",
+      "avaliacao": "Passos preservam janelas antes e depois da rolagem. Bônus total evita dobrar Maestria; ataque único é distinto da Ação Atacar.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "alcance",
+      "avaliacao": "Arremesso e disparo têm faixas; adjacência precisa ameaça real. Informação do espaço não substitui visão ou trajetória.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "critico",
+      "avaliacao": "Dobra dados básicos, não fixos e adicionais comuns. Margem ampliada é diferente de20 natural; exemplos não ensinam habilidade de Trilha.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "defesa",
+      "avaliacao": "Equipamento e proteção não somam fontes incompatíveis; cobertura entra também em Bloquear. Valores são necessários para resolver defesa.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "bloquear",
+      "avaliacao": "Escolha depois do total está explícita, assim como obrigação de ficar com resultado pior. Ordem de resultados com desvantagem resolve extremos.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "aparar",
+      "avaliacao": "Acerto natural20 prevalece; resposta exige Reação e alcance. Ataque concedido não vira ação inteira nem recupera recursos.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "movimento",
+      "avaliacao": "Custo por trecho e modalidades são consultáveis em tabela; distância em1,5m é definida antes de saltos e carga.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "espacos",
+      "avaliacao": "Tamanho não concede alcance. Inconsciente permite passagem física; Incapacitado conserva regra própria. Movimento imposto termina em espaço válido.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "distancias",
+      "avaliacao": "Define convenção de três eixos com exemplo6m/4,5m. Explica limites físicos sem tratar a convenção como geometria real.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "saltos",
+      "avaliacao": "Tabela separa impulso e parado; esforço tem CD, limite, custo e falha. Limites horizontal e vertical são simultâneos.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "quedas",
+      "avaliacao": "Altura, teto, água e quedas prolongadas estão completos. Não apresenta números de morte; remete à recuperação.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "queda-criatura",
+      "avaliacao": "A regra nova identifica tamanho, TR, divisão antes das defesas e escolha deliberada com ação. Um impacto não acumula regra de colisão específica.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "rastejar",
+      "avaliacao": "Tabela soma acréscimos sem multiplicar. Levantar inteiro não pode reutilizar ação já parcialmente gasta.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "voo",
+      "avaliacao": "Uma primeira reserva entre modalidades; ações adicionais têm reservas próprias. Fonte de sustentação define queda e pairar.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "carga",
+      "avaliacao": "Volume de catálogo prevalece; taxa12kg só para corpos. Exemplo mostra equipamentos do transportador e transportado.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "arrasto",
+      "avaliacao": "Limite dobrado conta equipamento próprio, e custo não duplica por Agarrado. Grupo divide carga e precisa coordenação real em combate.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "montaria",
+      "avaliacao": "Cavaleiro e montaria têm ações separadas; entidade mantém comando. Evita ganhar novo turno por remontar e define oportunidade e queda.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "perceber",
+      "avaliacao": "Distingue enxergar, localizar e oculto por observador. Fumaça não é cobertura física e visão às cegas não atravessa paredes.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "esconder",
+      "avaliacao": "CD10 e resultado guardado têm funções diferentes. Uma ação faz uma rolagem para vários observadores; perder ocultação não permite reteste gratuito.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "procurar",
+      "avaliacao": "Uma busca tem local declarado e sinais acessíveis. Nova tentativa fora de combate precisa mudança ou consequência; nenhuma rolagem atravessa obstáculo.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "ocultacao-ataque",
+      "avaliacao": "Posição revelada é resolvida após cada ataque. Cobertura e invisibilidade não somem; voltar atrás da caixa não concede vantagem novamente.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "manobras",
+      "avaliacao": "TR substitui ataque e dano; limite de tamanho e mãos são declarados. CD própria do Pugilista não foi universalizada.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "contencoes",
+      "avaliacao": "CD usada na entrada é a de escapar. Soltar e interrupções encerram a contenção; arrasto remete ao dono único.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "estudar",
+      "avaliacao": "Uma pergunta sobre algo observável, com perícia adequada, CD e informação limitada. Não revela ficha inteira ou próxima decisão.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "mundo",
+      "avaliacao": "Visão geral operacional de perguntas; não reapresenta a origem das maldições. Distingue fonte e portador antes dos procedimentos.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "buscar",
+      "avaliacao": "Todos os limites da busca estão presentes: ação,18m, parede, carga, Furtividade guardada, interferência e instante. Sem nomes de poderes de outros capítulos.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "pressao",
+      "avaliacao": "Sinal de cena precisa definição prévia e não fornece coordenadas por triangulação repetida. Ausência estrutural de energia é diferente de PE esgotado.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "ler",
+      "avaliacao": "Examinar e rastrear não exigem três testes obrigatórios. Assinatura precisa referência, idade e autor não vêm automaticamente.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    },
+    {
+      "id": "energia-exemplo",
+      "avaliacao": "Cena exercita sucesso, falha e bloqueio com a mesma rolagem. A descoberta não concede visão ou rastreamento contínuo.",
+      "titulos": "Direto e compatível com consulta em livro de RPG.",
+      "suficiencia_e_localizacao": "Procedimento geral ou remissão suficiente; sem reensinar Caminhos e Trilhas.",
+      "limite": "Leitura por modelo; compreensão em mesa ainda precisa teste humano."
+    }
+  ]
+}

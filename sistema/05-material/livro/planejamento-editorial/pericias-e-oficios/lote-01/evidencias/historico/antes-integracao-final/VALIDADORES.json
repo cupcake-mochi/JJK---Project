@@ -1,0 +1,96 @@
+{
+  "sha256_texto": "016423f17da7111635e8d9973afd6c810bfb7f5d7f93c3f1e235bf91d0385fdc",
+  "estado": "Conferências documentais concluídas, com limite explícito de V12 e sem playtest",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "estado": "concluido-com-limites",
+      "evidencia": "CATALOGO.json e REVISAO-E-FONTES.md"
+    },
+    {
+      "id": "V02",
+      "nome": "Regras e fontes",
+      "estado": "concluido-com-limites",
+      "evidencia": "REVISAO-E-FONTES.md e DEPENDENCIA-HISTORICA-RECONCILIADA.json"
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionalidade",
+      "estado": "concluido-com-limites",
+      "evidencia": "regras-verificadas.json e validar_modelos.py"
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "estado": "concluido-com-limites",
+      "evidencia": "CONTRATO-NUMERICO.md;41verificações e9954estados"
+    },
+    {
+      "id": "V05",
+      "nome": "Balanceamento",
+      "estado": "concluido-com-limites",
+      "evidencia": "Parecer documental em REVISAO-E-FONTES.md; sem playtest"
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "estado": "concluido-com-limites",
+      "evidencia": "REM03/12 corrigidas; regras dos demais capítulos remetidas"
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos e vocabulário",
+      "estado": "concluido-com-limites",
+      "evidencia": "LOCALIZACAO-EDITORIAL.json e DELTA-QA-FINAL.json"
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza e suficiência",
+      "estado": "concluido-com-limites",
+      "evidencia": "REVISAO-EDITORIAL.json por seção; revisões anteriores preservadas"
+    },
+    {
+      "id": "V09",
+      "nome": "Voz e redundância",
+      "estado": "concluido-com-limites",
+      "evidencia": "REVISAO-E-FONTES.md, sem afirmar teste de percepção humana"
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "estado": "concluido-com-limites",
+      "evidencia": "Procedimentos de tarefas e ofícios, remissões para demais donos"
+    },
+    {
+      "id": "V11",
+      "nome": "Obra e referências",
+      "estado": "nao-aplicavel-a-canon-novo",
+      "evidencia": "Não introduz fatos novos de cânone; referências consultadas descritas no parecer legado"
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "estado": "sem-parecer-formal-localizado",
+      "evidencia": "Não localizado parecer independente formal separado; delta desta etapa não equivale a leitura integral independente"
+    },
+    {
+      "id": "V13",
+      "nome": "PDF e navegação",
+      "estado": "concluido",
+      "evidencia": "CONFERENCIA.json"
+    },
+    {
+      "id": "V14",
+      "nome": "Visual",
+      "estado": "concluido",
+      "evidencia": "evidencias/inspecao-visual.json e COMPARACAO-PIXELS-FINAL.json"
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "estado": "concluido-com-limites",
+      "evidencia": "Histórico preservado, logs de decisões e manifesto"
+    }
+  ]
+}

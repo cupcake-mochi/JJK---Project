@@ -1,0 +1,11 @@
+{
+  "sha256_texto": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "revisor": "Agente principal; leitura integral dos rascunhos A/B/C e abertura antes da montagem",
+  "notas": "Títulos diretos por Família/função; nenhum poder de Caminho reexplicado. Nomes atuais preservados para revisão global posterior.",
+  "delta_nominal_final": "DELTA-QA-FINAL.json",
+  "concordancia_final": "Reserva Profunda: ativada→ativado, após renome para Talento; efeito intacto."
+}

@@ -1,0 +1,2131 @@
+{
+  "schema": 1,
+  "metodo": "Enumeração exata de d20 equiprováveis com fractions.Fraction; não é Monte Carlo.",
+  "hipoteses": {
+    "esconder": "d20 + Furtividade >= 10 + Percepção; o total obtido fica guardado.",
+    "busca": "d20 + bônus >= Furtividade guardada; empate basta; nenhum 1/20 automático.",
+    "condicionamento": "Buscas avaliadas somente nas faces em que Esconder já teve sucesso.",
+    "antena": "Uma busca mais uma única rerrolagem se falhar; mesma CD guardada e mesmo bônus; 1 Ação Padrão + uso de Antena.",
+    "duas_iguais": "Dois buscadores com o mesmo bônus Sentir Energia do caso; dois dados independentes diante da mesma CD; custo 2 Ações Padrão.",
+    "duas_mistas": "Um buscador com o bônus Percepção e outro com Sentir Energia do caso, se ambos puderem examinar sinais acessíveis; custo 2 Ações Padrão.",
+    "segunda_passiva": "Contrafactual indevido: o mesmo dado de Esconder deve atingir max(10 + Percepção, 10 + Sentir Energia).",
+    "geometria": "Todos os casos supõem uma fonte oculta de energia alcançada pela busca candidata de 18 m, sem bloqueio/interferência extra. O alcance não é variável deste cálculo.",
+    "limites": "Não modela economia completa de combate, múltiplos alvos, efeitos de classe adicionais, informação de resultado parcial, nem equilíbrio global."
+  },
+  "casos": [
+    {
+      "bonus": {
+        "furtividade": 4,
+        "percepcao": 4,
+        "sentir": 4
+      },
+      "cd_passiva_percepcao": 14,
+      "faces_esconder_condicionadas": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cds_guardadas_condicionadas": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "resultados": {
+        "esconder": {
+          "fracao": "11/20",
+          "numerador": 11,
+          "denominador": 20,
+          "percentual_aproximado": 55.0
+        },
+        "busca_sentir_condicionada": {
+          "fracao": "3/10",
+          "numerador": 3,
+          "denominador": 10,
+          "percentual_aproximado": 30.0
+        },
+        "antena_condicionada": {
+          "fracao": "97/200",
+          "numerador": 97,
+          "denominador": 200,
+          "percentual_aproximado": 48.5
+        },
+        "dois_buscadores_sentir_condicionada": {
+          "fracao": "97/200",
+          "numerador": 97,
+          "denominador": 200,
+          "percentual_aproximado": 48.5
+        },
+        "dois_buscadores_percepcao_sentir_condicionada": {
+          "fracao": "97/200",
+          "numerador": 97,
+          "denominador": 200,
+          "percentual_aproximado": 48.5
+        },
+        "esconder_com_segunda_cd_passiva_indevida": {
+          "fracao": "11/20",
+          "numerador": 11,
+          "denominador": 20,
+          "percentual_aproximado": 55.0
+        },
+        "queda_absoluta_esconder_com_cd_indevida": {
+          "fracao": "0",
+          "numerador": 0,
+          "denominador": 1,
+          "percentual_aproximado": 0.0
+        },
+        "formula_incorreta_aplicada_a_media": {
+          "fracao": "51/100",
+          "numerador": 51,
+          "denominador": 100,
+          "percentual_aproximado": 51.0
+        },
+        "superestimacao_da_formula_incorreta": {
+          "fracao": "1/40",
+          "numerador": 1,
+          "denominador": 40,
+          "percentual_aproximado": 2.5
+        }
+      },
+      "por_cd": [
+        {
+          "dado_esconder": 10,
+          "cd_guardada": 14,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "11/20",
+            "numerador": 11,
+            "denominador": 20,
+            "percentual_aproximado": 55.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "319/400",
+            "numerador": 319,
+            "denominador": 400,
+            "percentual_aproximado": 79.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "319/400",
+            "numerador": 319,
+            "denominador": 400,
+            "percentual_aproximado": 79.75
+          }
+        },
+        {
+          "dado_esconder": 11,
+          "cd_guardada": 15,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/2",
+            "numerador": 1,
+            "denominador": 2,
+            "percentual_aproximado": 50.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "3/4",
+            "numerador": 3,
+            "denominador": 4,
+            "percentual_aproximado": 75.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "3/4",
+            "numerador": 3,
+            "denominador": 4,
+            "percentual_aproximado": 75.0
+          }
+        },
+        {
+          "dado_esconder": 12,
+          "cd_guardada": 16,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "9/20",
+            "numerador": 9,
+            "denominador": 20,
+            "percentual_aproximado": 45.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "279/400",
+            "numerador": 279,
+            "denominador": 400,
+            "percentual_aproximado": 69.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "279/400",
+            "numerador": 279,
+            "denominador": 400,
+            "percentual_aproximado": 69.75
+          }
+        },
+        {
+          "dado_esconder": 13,
+          "cd_guardada": 17,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "2/5",
+            "numerador": 2,
+            "denominador": 5,
+            "percentual_aproximado": 40.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "16/25",
+            "numerador": 16,
+            "denominador": 25,
+            "percentual_aproximado": 64.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "16/25",
+            "numerador": 16,
+            "denominador": 25,
+            "percentual_aproximado": 64.0
+          }
+        },
+        {
+          "dado_esconder": 14,
+          "cd_guardada": 18,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "7/20",
+            "numerador": 7,
+            "denominador": 20,
+            "percentual_aproximado": 35.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "231/400",
+            "numerador": 231,
+            "denominador": 400,
+            "percentual_aproximado": 57.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "231/400",
+            "numerador": 231,
+            "denominador": 400,
+            "percentual_aproximado": 57.75
+          }
+        },
+        {
+          "dado_esconder": 15,
+          "cd_guardada": 19,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "3/10",
+            "numerador": 3,
+            "denominador": 10,
+            "percentual_aproximado": 30.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "51/100",
+            "numerador": 51,
+            "denominador": 100,
+            "percentual_aproximado": 51.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "51/100",
+            "numerador": 51,
+            "denominador": 100,
+            "percentual_aproximado": 51.0
+          }
+        },
+        {
+          "dado_esconder": 16,
+          "cd_guardada": 20,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/4",
+            "numerador": 1,
+            "denominador": 4,
+            "percentual_aproximado": 25.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "7/16",
+            "numerador": 7,
+            "denominador": 16,
+            "percentual_aproximado": 43.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "7/16",
+            "numerador": 7,
+            "denominador": 16,
+            "percentual_aproximado": 43.75
+          }
+        },
+        {
+          "dado_esconder": 17,
+          "cd_guardada": 21,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/5",
+            "numerador": 1,
+            "denominador": 5,
+            "percentual_aproximado": 20.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "9/25",
+            "numerador": 9,
+            "denominador": 25,
+            "percentual_aproximado": 36.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "9/25",
+            "numerador": 9,
+            "denominador": 25,
+            "percentual_aproximado": 36.0
+          }
+        },
+        {
+          "dado_esconder": 18,
+          "cd_guardada": 22,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "3/20",
+            "numerador": 3,
+            "denominador": 20,
+            "percentual_aproximado": 15.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "111/400",
+            "numerador": 111,
+            "denominador": 400,
+            "percentual_aproximado": 27.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "111/400",
+            "numerador": 111,
+            "denominador": 400,
+            "percentual_aproximado": 27.75
+          }
+        },
+        {
+          "dado_esconder": 19,
+          "cd_guardada": 23,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/10",
+            "numerador": 1,
+            "denominador": 10,
+            "percentual_aproximado": 10.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "19/100",
+            "numerador": 19,
+            "denominador": 100,
+            "percentual_aproximado": 19.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "19/100",
+            "numerador": 19,
+            "denominador": 100,
+            "percentual_aproximado": 19.0
+          }
+        },
+        {
+          "dado_esconder": 20,
+          "cd_guardada": 24,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/20",
+            "numerador": 1,
+            "denominador": 20,
+            "percentual_aproximado": 5.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "39/400",
+            "numerador": 39,
+            "denominador": 400,
+            "percentual_aproximado": 9.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "39/400",
+            "numerador": 39,
+            "denominador": 400,
+            "percentual_aproximado": 9.75
+          }
+        }
+      ]
+    },
+    {
+      "bonus": {
+        "furtividade": 4,
+        "percepcao": 4,
+        "sentir": 12
+      },
+      "cd_passiva_percepcao": 14,
+      "faces_esconder_condicionadas": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cds_guardadas_condicionadas": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "resultados": {
+        "esconder": {
+          "fracao": "11/20",
+          "numerador": 11,
+          "denominador": 20,
+          "percentual_aproximado": 55.0
+        },
+        "busca_sentir_condicionada": {
+          "fracao": "7/10",
+          "numerador": 7,
+          "denominador": 10,
+          "percentual_aproximado": 70.0
+        },
+        "antena_condicionada": {
+          "fracao": "177/200",
+          "numerador": 177,
+          "denominador": 200,
+          "percentual_aproximado": 88.5
+        },
+        "dois_buscadores_sentir_condicionada": {
+          "fracao": "177/200",
+          "numerador": 177,
+          "denominador": 200,
+          "percentual_aproximado": 88.5
+        },
+        "dois_buscadores_percepcao_sentir_condicionada": {
+          "fracao": "153/200",
+          "numerador": 153,
+          "denominador": 200,
+          "percentual_aproximado": 76.5
+        },
+        "esconder_com_segunda_cd_passiva_indevida": {
+          "fracao": "3/20",
+          "numerador": 3,
+          "denominador": 20,
+          "percentual_aproximado": 15.0
+        },
+        "queda_absoluta_esconder_com_cd_indevida": {
+          "fracao": "2/5",
+          "numerador": 2,
+          "denominador": 5,
+          "percentual_aproximado": 40.0
+        },
+        "formula_incorreta_aplicada_a_media": {
+          "fracao": "91/100",
+          "numerador": 91,
+          "denominador": 100,
+          "percentual_aproximado": 91.0
+        },
+        "superestimacao_da_formula_incorreta": {
+          "fracao": "1/40",
+          "numerador": 1,
+          "denominador": 40,
+          "percentual_aproximado": 2.5
+        }
+      },
+      "por_cd": [
+        {
+          "dado_esconder": 10,
+          "cd_guardada": 14,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "19/20",
+            "numerador": 19,
+            "denominador": 20,
+            "percentual_aproximado": 95.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "399/400",
+            "numerador": 399,
+            "denominador": 400,
+            "percentual_aproximado": 99.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "391/400",
+            "numerador": 391,
+            "denominador": 400,
+            "percentual_aproximado": 97.75
+          }
+        },
+        {
+          "dado_esconder": 11,
+          "cd_guardada": 15,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "9/10",
+            "numerador": 9,
+            "denominador": 10,
+            "percentual_aproximado": 90.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "99/100",
+            "numerador": 99,
+            "denominador": 100,
+            "percentual_aproximado": 99.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "19/20",
+            "numerador": 19,
+            "denominador": 20,
+            "percentual_aproximado": 95.0
+          }
+        },
+        {
+          "dado_esconder": 12,
+          "cd_guardada": 16,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "17/20",
+            "numerador": 17,
+            "denominador": 20,
+            "percentual_aproximado": 85.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "391/400",
+            "numerador": 391,
+            "denominador": 400,
+            "percentual_aproximado": 97.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "367/400",
+            "numerador": 367,
+            "denominador": 400,
+            "percentual_aproximado": 91.75
+          }
+        },
+        {
+          "dado_esconder": 13,
+          "cd_guardada": 17,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "4/5",
+            "numerador": 4,
+            "denominador": 5,
+            "percentual_aproximado": 80.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "24/25",
+            "numerador": 24,
+            "denominador": 25,
+            "percentual_aproximado": 96.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "22/25",
+            "numerador": 22,
+            "denominador": 25,
+            "percentual_aproximado": 88.0
+          }
+        },
+        {
+          "dado_esconder": 14,
+          "cd_guardada": 18,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "3/4",
+            "numerador": 3,
+            "denominador": 4,
+            "percentual_aproximado": 75.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "15/16",
+            "numerador": 15,
+            "denominador": 16,
+            "percentual_aproximado": 93.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "67/80",
+            "numerador": 67,
+            "denominador": 80,
+            "percentual_aproximado": 83.75
+          }
+        },
+        {
+          "dado_esconder": 15,
+          "cd_guardada": 19,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "7/10",
+            "numerador": 7,
+            "denominador": 10,
+            "percentual_aproximado": 70.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "91/100",
+            "numerador": 91,
+            "denominador": 100,
+            "percentual_aproximado": 91.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "79/100",
+            "numerador": 79,
+            "denominador": 100,
+            "percentual_aproximado": 79.0
+          }
+        },
+        {
+          "dado_esconder": 16,
+          "cd_guardada": 20,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "13/20",
+            "numerador": 13,
+            "denominador": 20,
+            "percentual_aproximado": 65.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "351/400",
+            "numerador": 351,
+            "denominador": 400,
+            "percentual_aproximado": 87.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "59/80",
+            "numerador": 59,
+            "denominador": 80,
+            "percentual_aproximado": 73.75
+          }
+        },
+        {
+          "dado_esconder": 17,
+          "cd_guardada": 21,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "3/5",
+            "numerador": 3,
+            "denominador": 5,
+            "percentual_aproximado": 60.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "21/25",
+            "numerador": 21,
+            "denominador": 25,
+            "percentual_aproximado": 84.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "17/25",
+            "numerador": 17,
+            "denominador": 25,
+            "percentual_aproximado": 68.0
+          }
+        },
+        {
+          "dado_esconder": 18,
+          "cd_guardada": 22,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "11/20",
+            "numerador": 11,
+            "denominador": 20,
+            "percentual_aproximado": 55.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "319/400",
+            "numerador": 319,
+            "denominador": 400,
+            "percentual_aproximado": 79.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "247/400",
+            "numerador": 247,
+            "denominador": 400,
+            "percentual_aproximado": 61.75
+          }
+        },
+        {
+          "dado_esconder": 19,
+          "cd_guardada": 23,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/2",
+            "numerador": 1,
+            "denominador": 2,
+            "percentual_aproximado": 50.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "3/4",
+            "numerador": 3,
+            "denominador": 4,
+            "percentual_aproximado": 75.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "11/20",
+            "numerador": 11,
+            "denominador": 20,
+            "percentual_aproximado": 55.0
+          }
+        },
+        {
+          "dado_esconder": 20,
+          "cd_guardada": 24,
+          "peso_condicionado": {
+            "fracao": "1/11",
+            "numerador": 1,
+            "denominador": 11,
+            "percentual_aproximado": 9.09090909
+          },
+          "uma_busca_sentir": {
+            "fracao": "9/20",
+            "numerador": 9,
+            "denominador": 20,
+            "percentual_aproximado": 45.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "279/400",
+            "numerador": 279,
+            "denominador": 400,
+            "percentual_aproximado": 69.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "191/400",
+            "numerador": 191,
+            "denominador": 400,
+            "percentual_aproximado": 47.75
+          }
+        }
+      ]
+    },
+    {
+      "bonus": {
+        "furtividade": 12,
+        "percepcao": 4,
+        "sentir": 4
+      },
+      "cd_passiva_percepcao": 14,
+      "faces_esconder_condicionadas": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cds_guardadas_condicionadas": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "resultados": {
+        "esconder": {
+          "fracao": "19/20",
+          "numerador": 19,
+          "denominador": 20,
+          "percentual_aproximado": 95.0
+        },
+        "busca_sentir_condicionada": {
+          "fracao": "33/190",
+          "numerador": 33,
+          "denominador": 190,
+          "percentual_aproximado": 17.36842105
+        },
+        "antena_condicionada": {
+          "fracao": "1067/3800",
+          "numerador": 1067,
+          "denominador": 3800,
+          "percentual_aproximado": 28.07894737
+        },
+        "dois_buscadores_sentir_condicionada": {
+          "fracao": "1067/3800",
+          "numerador": 1067,
+          "denominador": 3800,
+          "percentual_aproximado": 28.07894737
+        },
+        "dois_buscadores_percepcao_sentir_condicionada": {
+          "fracao": "1067/3800",
+          "numerador": 1067,
+          "denominador": 3800,
+          "percentual_aproximado": 28.07894737
+        },
+        "esconder_com_segunda_cd_passiva_indevida": {
+          "fracao": "19/20",
+          "numerador": 19,
+          "denominador": 20,
+          "percentual_aproximado": 95.0
+        },
+        "queda_absoluta_esconder_com_cd_indevida": {
+          "fracao": "0",
+          "numerador": 0,
+          "denominador": 1,
+          "percentual_aproximado": 0.0
+        },
+        "formula_incorreta_aplicada_a_media": {
+          "fracao": "11451/36100",
+          "numerador": 11451,
+          "denominador": 36100,
+          "percentual_aproximado": 31.72022161
+        },
+        "superestimacao_da_formula_incorreta": {
+          "fracao": "2629/72200",
+          "numerador": 2629,
+          "denominador": 72200,
+          "percentual_aproximado": 3.64127424
+        }
+      },
+      "por_cd": [
+        {
+          "dado_esconder": 2,
+          "cd_guardada": 14,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "11/20",
+            "numerador": 11,
+            "denominador": 20,
+            "percentual_aproximado": 55.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "319/400",
+            "numerador": 319,
+            "denominador": 400,
+            "percentual_aproximado": 79.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "319/400",
+            "numerador": 319,
+            "denominador": 400,
+            "percentual_aproximado": 79.75
+          }
+        },
+        {
+          "dado_esconder": 3,
+          "cd_guardada": 15,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/2",
+            "numerador": 1,
+            "denominador": 2,
+            "percentual_aproximado": 50.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "3/4",
+            "numerador": 3,
+            "denominador": 4,
+            "percentual_aproximado": 75.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "3/4",
+            "numerador": 3,
+            "denominador": 4,
+            "percentual_aproximado": 75.0
+          }
+        },
+        {
+          "dado_esconder": 4,
+          "cd_guardada": 16,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "9/20",
+            "numerador": 9,
+            "denominador": 20,
+            "percentual_aproximado": 45.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "279/400",
+            "numerador": 279,
+            "denominador": 400,
+            "percentual_aproximado": 69.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "279/400",
+            "numerador": 279,
+            "denominador": 400,
+            "percentual_aproximado": 69.75
+          }
+        },
+        {
+          "dado_esconder": 5,
+          "cd_guardada": 17,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "2/5",
+            "numerador": 2,
+            "denominador": 5,
+            "percentual_aproximado": 40.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "16/25",
+            "numerador": 16,
+            "denominador": 25,
+            "percentual_aproximado": 64.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "16/25",
+            "numerador": 16,
+            "denominador": 25,
+            "percentual_aproximado": 64.0
+          }
+        },
+        {
+          "dado_esconder": 6,
+          "cd_guardada": 18,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "7/20",
+            "numerador": 7,
+            "denominador": 20,
+            "percentual_aproximado": 35.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "231/400",
+            "numerador": 231,
+            "denominador": 400,
+            "percentual_aproximado": 57.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "231/400",
+            "numerador": 231,
+            "denominador": 400,
+            "percentual_aproximado": 57.75
+          }
+        },
+        {
+          "dado_esconder": 7,
+          "cd_guardada": 19,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "3/10",
+            "numerador": 3,
+            "denominador": 10,
+            "percentual_aproximado": 30.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "51/100",
+            "numerador": 51,
+            "denominador": 100,
+            "percentual_aproximado": 51.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "51/100",
+            "numerador": 51,
+            "denominador": 100,
+            "percentual_aproximado": 51.0
+          }
+        },
+        {
+          "dado_esconder": 8,
+          "cd_guardada": 20,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/4",
+            "numerador": 1,
+            "denominador": 4,
+            "percentual_aproximado": 25.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "7/16",
+            "numerador": 7,
+            "denominador": 16,
+            "percentual_aproximado": 43.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "7/16",
+            "numerador": 7,
+            "denominador": 16,
+            "percentual_aproximado": 43.75
+          }
+        },
+        {
+          "dado_esconder": 9,
+          "cd_guardada": 21,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/5",
+            "numerador": 1,
+            "denominador": 5,
+            "percentual_aproximado": 20.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "9/25",
+            "numerador": 9,
+            "denominador": 25,
+            "percentual_aproximado": 36.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "9/25",
+            "numerador": 9,
+            "denominador": 25,
+            "percentual_aproximado": 36.0
+          }
+        },
+        {
+          "dado_esconder": 10,
+          "cd_guardada": 22,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "3/20",
+            "numerador": 3,
+            "denominador": 20,
+            "percentual_aproximado": 15.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "111/400",
+            "numerador": 111,
+            "denominador": 400,
+            "percentual_aproximado": 27.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "111/400",
+            "numerador": 111,
+            "denominador": 400,
+            "percentual_aproximado": 27.75
+          }
+        },
+        {
+          "dado_esconder": 11,
+          "cd_guardada": 23,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/10",
+            "numerador": 1,
+            "denominador": 10,
+            "percentual_aproximado": 10.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "19/100",
+            "numerador": 19,
+            "denominador": 100,
+            "percentual_aproximado": 19.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "19/100",
+            "numerador": 19,
+            "denominador": 100,
+            "percentual_aproximado": 19.0
+          }
+        },
+        {
+          "dado_esconder": 12,
+          "cd_guardada": 24,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/20",
+            "numerador": 1,
+            "denominador": 20,
+            "percentual_aproximado": 5.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "39/400",
+            "numerador": 39,
+            "denominador": 400,
+            "percentual_aproximado": 9.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "39/400",
+            "numerador": 39,
+            "denominador": 400,
+            "percentual_aproximado": 9.75
+          }
+        },
+        {
+          "dado_esconder": 13,
+          "cd_guardada": 25,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          }
+        },
+        {
+          "dado_esconder": 14,
+          "cd_guardada": 26,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          }
+        },
+        {
+          "dado_esconder": 15,
+          "cd_guardada": 27,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          }
+        },
+        {
+          "dado_esconder": 16,
+          "cd_guardada": 28,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          }
+        },
+        {
+          "dado_esconder": 17,
+          "cd_guardada": 29,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          }
+        },
+        {
+          "dado_esconder": 18,
+          "cd_guardada": 30,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          }
+        },
+        {
+          "dado_esconder": 19,
+          "cd_guardada": 31,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          }
+        },
+        {
+          "dado_esconder": 20,
+          "cd_guardada": 32,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "0",
+            "numerador": 0,
+            "denominador": 1,
+            "percentual_aproximado": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "bonus": {
+        "furtividade": 12,
+        "percepcao": 4,
+        "sentir": 12
+      },
+      "cd_passiva_percepcao": 14,
+      "faces_esconder_condicionadas": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "cds_guardadas_condicionadas": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "resultados": {
+        "esconder": {
+          "fracao": "19/20",
+          "numerador": 19,
+          "denominador": 20,
+          "percentual_aproximado": 95.0
+        },
+        "busca_sentir_condicionada": {
+          "fracao": "1/2",
+          "numerador": 1,
+          "denominador": 2,
+          "percentual_aproximado": 50.0
+        },
+        "antena_condicionada": {
+          "fracao": "27/40",
+          "numerador": 27,
+          "denominador": 40,
+          "percentual_aproximado": 67.5
+        },
+        "dois_buscadores_sentir_condicionada": {
+          "fracao": "27/40",
+          "numerador": 27,
+          "denominador": 40,
+          "percentual_aproximado": 67.5
+        },
+        "dois_buscadores_percepcao_sentir_condicionada": {
+          "fracao": "2043/3800",
+          "numerador": 2043,
+          "denominador": 3800,
+          "percentual_aproximado": 53.76315789
+        },
+        "esconder_com_segunda_cd_passiva_indevida": {
+          "fracao": "11/20",
+          "numerador": 11,
+          "denominador": 20,
+          "percentual_aproximado": 55.0
+        },
+        "queda_absoluta_esconder_com_cd_indevida": {
+          "fracao": "2/5",
+          "numerador": 2,
+          "denominador": 5,
+          "percentual_aproximado": 40.0
+        },
+        "formula_incorreta_aplicada_a_media": {
+          "fracao": "3/4",
+          "numerador": 3,
+          "denominador": 4,
+          "percentual_aproximado": 75.0
+        },
+        "superestimacao_da_formula_incorreta": {
+          "fracao": "3/40",
+          "numerador": 3,
+          "denominador": 40,
+          "percentual_aproximado": 7.5
+        }
+      },
+      "por_cd": [
+        {
+          "dado_esconder": 2,
+          "cd_guardada": 14,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "19/20",
+            "numerador": 19,
+            "denominador": 20,
+            "percentual_aproximado": 95.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "399/400",
+            "numerador": 399,
+            "denominador": 400,
+            "percentual_aproximado": 99.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "391/400",
+            "numerador": 391,
+            "denominador": 400,
+            "percentual_aproximado": 97.75
+          }
+        },
+        {
+          "dado_esconder": 3,
+          "cd_guardada": 15,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "9/10",
+            "numerador": 9,
+            "denominador": 10,
+            "percentual_aproximado": 90.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "99/100",
+            "numerador": 99,
+            "denominador": 100,
+            "percentual_aproximado": 99.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "19/20",
+            "numerador": 19,
+            "denominador": 20,
+            "percentual_aproximado": 95.0
+          }
+        },
+        {
+          "dado_esconder": 4,
+          "cd_guardada": 16,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "17/20",
+            "numerador": 17,
+            "denominador": 20,
+            "percentual_aproximado": 85.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "391/400",
+            "numerador": 391,
+            "denominador": 400,
+            "percentual_aproximado": 97.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "367/400",
+            "numerador": 367,
+            "denominador": 400,
+            "percentual_aproximado": 91.75
+          }
+        },
+        {
+          "dado_esconder": 5,
+          "cd_guardada": 17,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "4/5",
+            "numerador": 4,
+            "denominador": 5,
+            "percentual_aproximado": 80.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "24/25",
+            "numerador": 24,
+            "denominador": 25,
+            "percentual_aproximado": 96.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "22/25",
+            "numerador": 22,
+            "denominador": 25,
+            "percentual_aproximado": 88.0
+          }
+        },
+        {
+          "dado_esconder": 6,
+          "cd_guardada": 18,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "3/4",
+            "numerador": 3,
+            "denominador": 4,
+            "percentual_aproximado": 75.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "15/16",
+            "numerador": 15,
+            "denominador": 16,
+            "percentual_aproximado": 93.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "67/80",
+            "numerador": 67,
+            "denominador": 80,
+            "percentual_aproximado": 83.75
+          }
+        },
+        {
+          "dado_esconder": 7,
+          "cd_guardada": 19,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "7/10",
+            "numerador": 7,
+            "denominador": 10,
+            "percentual_aproximado": 70.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "91/100",
+            "numerador": 91,
+            "denominador": 100,
+            "percentual_aproximado": 91.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "79/100",
+            "numerador": 79,
+            "denominador": 100,
+            "percentual_aproximado": 79.0
+          }
+        },
+        {
+          "dado_esconder": 8,
+          "cd_guardada": 20,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "13/20",
+            "numerador": 13,
+            "denominador": 20,
+            "percentual_aproximado": 65.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "351/400",
+            "numerador": 351,
+            "denominador": 400,
+            "percentual_aproximado": 87.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "59/80",
+            "numerador": 59,
+            "denominador": 80,
+            "percentual_aproximado": 73.75
+          }
+        },
+        {
+          "dado_esconder": 9,
+          "cd_guardada": 21,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "3/5",
+            "numerador": 3,
+            "denominador": 5,
+            "percentual_aproximado": 60.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "21/25",
+            "numerador": 21,
+            "denominador": 25,
+            "percentual_aproximado": 84.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "17/25",
+            "numerador": 17,
+            "denominador": 25,
+            "percentual_aproximado": 68.0
+          }
+        },
+        {
+          "dado_esconder": 10,
+          "cd_guardada": 22,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "11/20",
+            "numerador": 11,
+            "denominador": 20,
+            "percentual_aproximado": 55.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "319/400",
+            "numerador": 319,
+            "denominador": 400,
+            "percentual_aproximado": 79.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "247/400",
+            "numerador": 247,
+            "denominador": 400,
+            "percentual_aproximado": 61.75
+          }
+        },
+        {
+          "dado_esconder": 11,
+          "cd_guardada": 23,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/2",
+            "numerador": 1,
+            "denominador": 2,
+            "percentual_aproximado": 50.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "3/4",
+            "numerador": 3,
+            "denominador": 4,
+            "percentual_aproximado": 75.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "11/20",
+            "numerador": 11,
+            "denominador": 20,
+            "percentual_aproximado": 55.0
+          }
+        },
+        {
+          "dado_esconder": 12,
+          "cd_guardada": 24,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "9/20",
+            "numerador": 9,
+            "denominador": 20,
+            "percentual_aproximado": 45.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "279/400",
+            "numerador": 279,
+            "denominador": 400,
+            "percentual_aproximado": 69.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "191/400",
+            "numerador": 191,
+            "denominador": 400,
+            "percentual_aproximado": 47.75
+          }
+        },
+        {
+          "dado_esconder": 13,
+          "cd_guardada": 25,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "2/5",
+            "numerador": 2,
+            "denominador": 5,
+            "percentual_aproximado": 40.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "16/25",
+            "numerador": 16,
+            "denominador": 25,
+            "percentual_aproximado": 64.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "2/5",
+            "numerador": 2,
+            "denominador": 5,
+            "percentual_aproximado": 40.0
+          }
+        },
+        {
+          "dado_esconder": 14,
+          "cd_guardada": 26,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "7/20",
+            "numerador": 7,
+            "denominador": 20,
+            "percentual_aproximado": 35.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "231/400",
+            "numerador": 231,
+            "denominador": 400,
+            "percentual_aproximado": 57.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "7/20",
+            "numerador": 7,
+            "denominador": 20,
+            "percentual_aproximado": 35.0
+          }
+        },
+        {
+          "dado_esconder": 15,
+          "cd_guardada": 27,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "3/10",
+            "numerador": 3,
+            "denominador": 10,
+            "percentual_aproximado": 30.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "51/100",
+            "numerador": 51,
+            "denominador": 100,
+            "percentual_aproximado": 51.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "3/10",
+            "numerador": 3,
+            "denominador": 10,
+            "percentual_aproximado": 30.0
+          }
+        },
+        {
+          "dado_esconder": 16,
+          "cd_guardada": 28,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/4",
+            "numerador": 1,
+            "denominador": 4,
+            "percentual_aproximado": 25.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "7/16",
+            "numerador": 7,
+            "denominador": 16,
+            "percentual_aproximado": 43.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "1/4",
+            "numerador": 1,
+            "denominador": 4,
+            "percentual_aproximado": 25.0
+          }
+        },
+        {
+          "dado_esconder": 17,
+          "cd_guardada": 29,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/5",
+            "numerador": 1,
+            "denominador": 5,
+            "percentual_aproximado": 20.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "9/25",
+            "numerador": 9,
+            "denominador": 25,
+            "percentual_aproximado": 36.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "1/5",
+            "numerador": 1,
+            "denominador": 5,
+            "percentual_aproximado": 20.0
+          }
+        },
+        {
+          "dado_esconder": 18,
+          "cd_guardada": 30,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "3/20",
+            "numerador": 3,
+            "denominador": 20,
+            "percentual_aproximado": 15.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "111/400",
+            "numerador": 111,
+            "denominador": 400,
+            "percentual_aproximado": 27.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "3/20",
+            "numerador": 3,
+            "denominador": 20,
+            "percentual_aproximado": 15.0
+          }
+        },
+        {
+          "dado_esconder": 19,
+          "cd_guardada": 31,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/10",
+            "numerador": 1,
+            "denominador": 10,
+            "percentual_aproximado": 10.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "19/100",
+            "numerador": 19,
+            "denominador": 100,
+            "percentual_aproximado": 19.0
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "1/10",
+            "numerador": 1,
+            "denominador": 10,
+            "percentual_aproximado": 10.0
+          }
+        },
+        {
+          "dado_esconder": 20,
+          "cd_guardada": 32,
+          "peso_condicionado": {
+            "fracao": "1/19",
+            "numerador": 1,
+            "denominador": 19,
+            "percentual_aproximado": 5.26315789
+          },
+          "uma_busca_sentir": {
+            "fracao": "1/20",
+            "numerador": 1,
+            "denominador": 20,
+            "percentual_aproximado": 5.0
+          },
+          "antena_ou_duas_sentir": {
+            "fracao": "39/400",
+            "numerador": 39,
+            "denominador": 400,
+            "percentual_aproximado": 9.75
+          },
+          "duas_percepcao_sentir": {
+            "fracao": "1/20",
+            "numerador": 1,
+            "denominador": 20,
+            "percentual_aproximado": 5.0
+          }
+        }
+      ]
+    }
+  ],
+  "cd_fixa": [
+    {
+      "cd": 16,
+      "bonus": 4,
+      "uma_busca": {
+        "fracao": "9/20",
+        "numerador": 9,
+        "denominador": 20,
+        "percentual_aproximado": 45.0
+      },
+      "antena_ou_duas_buscas_iguais": {
+        "fracao": "279/400",
+        "numerador": 279,
+        "denominador": 400,
+        "percentual_aproximado": 69.75
+      }
+    },
+    {
+      "cd": 16,
+      "bonus": 6,
+      "uma_busca": {
+        "fracao": "11/20",
+        "numerador": 11,
+        "denominador": 20,
+        "percentual_aproximado": 55.0
+      },
+      "antena_ou_duas_buscas_iguais": {
+        "fracao": "319/400",
+        "numerador": 319,
+        "denominador": 400,
+        "percentual_aproximado": 79.75
+      }
+    }
+  ]
+}

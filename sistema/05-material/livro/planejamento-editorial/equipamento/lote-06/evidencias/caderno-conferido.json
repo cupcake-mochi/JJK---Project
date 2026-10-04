@@ -1,0 +1,193 @@
+{
+  "ok": true,
+  "sha256_pdf": "1e1094948f7f28f88872bb671e3c4ed32c44796a4e2505b763c28e6dd106d026",
+  "paginas": 27,
+  "grupos_recolhidos": 6,
+  "blocos": [
+    {
+      "bloco": "Movimento e carga",
+      "pasta": "regras-comuns/lote-06-r5",
+      "pdf": "Projeto-M-Movimento-e-Carga-Proposta-05.pdf",
+      "inicio": 1,
+      "paginas": 4,
+      "sha256": "de4e732ebc6e81a8f8955d68e4f76c2c42b9c144d6a34a328c9a6babd76f72aa"
+    },
+    {
+      "bloco": "Equipamento em jogo",
+      "pasta": "equipamento/lote-01-r5",
+      "pdf": "Projeto-M-Equipamento-em-Jogo-Proposta-05.pdf",
+      "inicio": 5,
+      "paginas": 5,
+      "sha256": "7b790fe490754cba87dd108f1bd88b0bc36972508ae1063205c707ee4bcbb932"
+    },
+    {
+      "bloco": "Catálogo de armas",
+      "pasta": "equipamento/lote-04-r4",
+      "pdf": "Projeto-M-Catalogo-de-Armas-Proposta-04.pdf",
+      "inicio": 10,
+      "paginas": 6,
+      "sha256": "941c408a01e38a66417fb40c1fabc887576c0010fc19444745f1f06b783a75d9"
+    },
+    {
+      "bloco": "Munição",
+      "pasta": "equipamento/lote-03-r5",
+      "pdf": "Projeto-M-Municao-Proposta-05.pdf",
+      "inicio": 16,
+      "paginas": 3,
+      "sha256": "c6508b0161ca1dbec894f62df028dc45395d46cae63b23fede6eb9887f2a7ecd"
+    },
+    {
+      "bloco": "Itens e objetos",
+      "pasta": "equipamento/lote-05",
+      "pdf": "Projeto-M-Itens-e-Objetos-Proposta-01.pdf",
+      "inicio": 19,
+      "paginas": 5,
+      "sha256": "fd13345456781445aa7c5e0286e067818480eb3a93a1176c8a0ee2412edf82e7"
+    },
+    {
+      "bloco": "Compras e equipamento inicial",
+      "pasta": "equipamento/lote-06",
+      "pdf": "Projeto-M-Compras-e-Equipamento-Inicial-Proposta-01.pdf",
+      "inicio": 24,
+      "paginas": 4,
+      "sha256": "7e6861ce592d6e0a3d3dce390462d100cb898d12e5b6cb79282ff41e84aba45a"
+    }
+  ],
+  "checks": [
+    {
+      "pagina": 1,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 2,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 3,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 4,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 5,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 6,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 7,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 8,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 9,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 10,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 11,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 12,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 13,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 14,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 15,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 16,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 17,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 18,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 19,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 20,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 21,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 22,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 23,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 24,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 25,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 26,
+      "texto_identico": true,
+      "destinos_validos": true
+    },
+    {
+      "pagina": 27,
+      "texto_identico": true,
+      "destinos_validos": true
+    }
+  ]
+}

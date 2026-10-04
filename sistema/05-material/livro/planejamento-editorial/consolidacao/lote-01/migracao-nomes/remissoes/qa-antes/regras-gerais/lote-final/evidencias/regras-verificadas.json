@@ -1,0 +1,391 @@
+{
+  "ok": true,
+  "sha256_texto": "423da38b173df0e05f9b07ce1ba2edc1f69ac928cf2a9709da0c33cb5ed93ee9",
+  "casos": [
+    {
+      "id": "def17_ataque6_estatica",
+      "tipo": "limite",
+      "resultado": 0.5,
+      "esperado": 0.5,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "def17_ataque6_informada",
+      "tipo": "limite",
+      "resultado": 0.4175,
+      "esperado": 0.4175,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "critico20_supera_aparar",
+      "tipo": "negativo",
+      "resultado": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "margem19_nao_supera_aparar",
+      "tipo": "negativo",
+      "resultado": false,
+      "esperado": false,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "brecha_acerta_baixo",
+      "tipo": "positivo",
+      "resultado": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "aparar_comum",
+      "tipo": "positivo",
+      "resultado": false,
+      "esperado": false,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "aparar_desvantagem",
+      "tipo": "limite",
+      "resultado": 0.0001,
+      "esperado": 0.0001,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "brecha_desvantagem",
+      "tipo": "limite",
+      "resultado": 0.0199,
+      "esperado": 0.0199,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "provocar_bonus_iguais",
+      "tipo": "limite",
+      "resultado": 0.475,
+      "esperado": 0.475,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "provocar_empate16",
+      "tipo": "negativo",
+      "resultado": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "3d6e4_5",
+      "tipo": "limite",
+      "resultado": 6.0,
+      "esperado": 6.0,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "diagonal1",
+      "tipo": "limite",
+      "resultado": 1.5,
+      "esperado": 1.5,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "metade4_5",
+      "tipo": "limite",
+      "resultado": 1.5,
+      "esperado": 1.5,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "saltoforca1impulso",
+      "tipo": "limite",
+      "resultado": 4.5,
+      "esperado": 4.5,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "saltoforca1parado",
+      "tipo": "limite",
+      "resultado": 1.5,
+      "esperado": 1.5,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "carga_forca_0",
+      "tipo": "limite",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "carga_forca_1",
+      "tipo": "limite",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "carga_forca_2",
+      "tipo": "limite",
+      "resultado": 7,
+      "esperado": 7,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "carga_forca_3",
+      "tipo": "limite",
+      "resultado": 8,
+      "esperado": 8,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "carga_forca_4",
+      "tipo": "limite",
+      "resultado": 9,
+      "esperado": 9,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "carga_forca_5",
+      "tipo": "limite",
+      "resultado": 10,
+      "esperado": 10,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "carga_forca_6",
+      "tipo": "limite",
+      "resultado": 11,
+      "esperado": 11,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "carregar_60kg_eq1_proprio2",
+      "tipo": "limite",
+      "resultado": 8.0,
+      "esperado": 8.0,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "excesso_forca2",
+      "tipo": "negativo",
+      "resultado": false,
+      "esperado": false,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "arrasto_regular_9m",
+      "tipo": "limite",
+      "resultado": 4.5,
+      "esperado": 4.5,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "arrasto_dificil_9m",
+      "tipo": "limite",
+      "resultado": 3.0,
+      "esperado": 3.0,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "rastejar_espremer_dificil",
+      "tipo": "limite",
+      "resultado": 6.0,
+      "esperado": 6.0,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "coletivo_com_equipamento",
+      "tipo": "limite",
+      "resultado": 4.5,
+      "esperado": 4.5,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "andar6_voo12",
+      "tipo": "limite",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "troca_nao_21",
+      "tipo": "limite",
+      "resultado": 12,
+      "esperado": 12,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "correr_maisreserva_voo",
+      "tipo": "limite",
+      "resultado": 24,
+      "esperado": 24,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_0",
+      "tipo": "limite",
+      "resultado": 0,
+      "esperado": 0,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_1.5",
+      "tipo": "limite",
+      "resultado": 0,
+      "esperado": 0,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_3",
+      "tipo": "limite",
+      "resultado": 1,
+      "esperado": 1,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_4.5",
+      "tipo": "limite",
+      "resultado": 1,
+      "esperado": 1,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_6",
+      "tipo": "limite",
+      "resultado": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_7.5",
+      "tipo": "limite",
+      "resultado": 2,
+      "esperado": 2,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_9",
+      "tipo": "limite",
+      "resultado": 3,
+      "esperado": 3,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_30",
+      "tipo": "limite",
+      "resultado": 10,
+      "esperado": 10,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_60",
+      "tipo": "limite",
+      "resultado": 20,
+      "esperado": 20,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_90",
+      "tipo": "limite",
+      "resultado": 20,
+      "esperado": 20,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_150",
+      "tipo": "limite",
+      "resultado": 20,
+      "esperado": 20,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_151.5",
+      "tipo": "limite",
+      "resultado": 20,
+      "esperado": 20,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda_dados_300",
+      "tipo": "limite",
+      "resultado": 20,
+      "esperado": 20,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda11_vitima",
+      "tipo": "limite",
+      "resultado": 5,
+      "esperado": 5,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "queda11_corpo",
+      "tipo": "limite",
+      "resultado": 6,
+      "esperado": 6,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "tamanhos_media_grande",
+      "tipo": "limite",
+      "resultado": true,
+      "esperado": true,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    },
+    {
+      "id": "tamanhos_pequena_imensa",
+      "tipo": "negativo",
+      "resultado": false,
+      "esperado": false,
+      "passou": true,
+      "fonte": "REGRAS-GERAIS.md; ALTERACOES.json"
+    }
+  ],
+  "verificacoes": 547
+}

@@ -1,0 +1,24 @@
+{
+  "sha256_texto": "2b2a7a7379cf81a78bc53ccad0f9f415f4c4c5e393895395c787ed318847d3a4",
+  "secoes": [
+    {
+      "id": "espacos",
+      "parecer": "Releitura contextual do bloco: nomes diretos, carga separada de manejo, exemplos e tabelas revistos; sem duplicar habilidades de Caminho."
+    },
+    {
+      "id": "rastejar",
+      "parecer": "Releitura contextual do bloco: nomes diretos, carga separada de manejo, exemplos e tabelas revistos; sem duplicar habilidades de Caminho."
+    },
+    {
+      "id": "voo",
+      "parecer": "Releitura contextual do bloco: nomes diretos, carga separada de manejo, exemplos e tabelas revistos; sem duplicar habilidades de Caminho."
+    },
+    {
+      "id": "carga",
+      "parecer": "Releitura contextual do bloco: nomes diretos, carga separada de manejo, exemplos e tabelas revistos; sem duplicar habilidades de Caminho."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false,
+  "revisao_complementar": "Texto relido; somente Volume e exemplos recalculados, ou separação da conversão de corpos. Demais regras herdadas da candidata anterior."
+}

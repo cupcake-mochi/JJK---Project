@@ -1,0 +1,238 @@
+{
+  "sha256_texto": "4ad33a8841c7b77bc38af1852b6cbd5d8eec9b4e1aff7791a1629bfb9d371831",
+  "sha256_pdf": "6f30a2b7519c99293460cc5062471497c32fd422be28ad836410667978569060",
+  "metodo": "Inspeção integral anterior preservada em historico/antes-sincronizacao-final; comparação exata de pixels de todas as páginas com a mesma rasterização confirmou alteração somente na página 6, aberta e inspecionada com view_image nesta rodada.",
+  "revisor_da_sincronizacao": "/root/rotas_didatica",
+  "evidencia_comparacao": "COMPARACAO-VISUAL-SINCRONIZACAO.json",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "a3507c94e5fd8e761e16060358909593e677a368d1e866a6319e4d636808a46e",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-01.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "c1fd47cc8283348b24c8f268ca123651f9327a6c4e160b234d211dddb1966a0d",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-02.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "2b1f6f8da5cafdc569c8617f4da6447c9feee58adf9f3b0a56454a7f8a2c3b3d",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-03.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "1ee3fe152270e8d2f65c8cbd5799b0363db62787810ae9aedbd7eaa63c865693",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-04.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "0d1457dc330c748183784ca02fda18e55d61c8ceb2c4b05efaaf477554af91cf",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-05.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Página alterada aberta integralmente; título, texto, fórmulas, tabela quando presente e exemplo legíveis, sem corte ou sobreposição.",
+      "sha256_png": "4f3e0592ac7d02a172fbb7901babc4dd70958e333cf34836754f6908936c838a",
+      "revisor": "/root/rotas_didatica",
+      "pixels_iguais_rodada_anterior": false,
+      "png": "/tmp/r10-depois-sync/pagina-06.png"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "382d833dc1a979bfb3b85ebe97578a94f01e46d7a0af5beaed3d3bdd8609eb7b",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-07.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "b7764a745436427661f4d673b5409ba061410d44555843ed3416433ed3a9753a",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-08.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "b21cb800c78a2878c5856c72dc82366d2b89ff58633e0e63a2f1716980f9bd5c",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-09.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "24852caf26f310469a7db88169e37ba38ca266ff0680d523a6171c0f0870ea13",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-10.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "c8637ea8a2a14cf978b8a4cc0b86752b0095d917e54f9808fbf90189063487bb",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-11.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "a3cb79ccf72c48b69a9f0ae0fabac611c88baaa0dc98e3271fa25fab07ba6cd3",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-12.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "a9b3ec422aba58c1f2649e7e193e719e2b01f701e04ae2c8863588a044470549",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-13.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "ab9192111bee9737bf685005eee98314967b19d0e5374b9bafad5f6382b32a81",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-14.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "f0a511262de3f63d410ff34ab5e7f0bf8becffb2209953c3e6ddb2cb044df5a0",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-15.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "b6dc7b022be7b585c317b8c724e34369fd224612111de2b2df5f1bfea70b02be",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-16.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "c148f4ecbd20514a89f59ca05ab5821f91d82f01c91fdd634eea3a12822af3af",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-17.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "aae2a51b3996744abae80ab62e0db3a4bd660acdb00c6a8a6d93ae59546d9a32",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-18.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "ef4f813504a22f6510097778c9c7a4d14177f50efaa9f988cd5215a4d48b5ede",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-19.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "c6d62d13184ab5435d445c6079123f23a33a9effbc675bd4e3b1a39cf0a36a7e",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-20.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 21,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "70e033494ca3f26d2b8ecb8a24e03900b6524208637db1a945c468917bde61e9",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-21.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 22,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "ac2a539e5de304875ee9b166914ca280fa5c6ba34b32582e38ab3f2e2c168d7f",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-22.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    },
+    {
+      "pagina": 23,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Títulos, tabela, corpo e exemplo legíveis, sem colisão ou corte.",
+      "sha256_png": "b7e16497bd2fea1d3787d01b43f13eabf99c5ee6f92d9987ecdd4217b49bbb12",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "png": "/tmp/r10-depois-sync/pagina-23.png",
+      "validacao_atual": "Inspeção anterior conservada por igualdade exata dos pixels."
+    }
+  ]
+}

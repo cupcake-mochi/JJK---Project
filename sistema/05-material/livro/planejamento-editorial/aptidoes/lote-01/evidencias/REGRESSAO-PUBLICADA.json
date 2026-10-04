@@ -1,0 +1,38 @@
+[
+  {
+    "fonte": "sistema/03-mecanica/conferir-aptidoes.py",
+    "exit": 0,
+    "saida": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/evidencias/conferir-aptidoes-PUBLICADO.txt",
+    "escopo": "Fontes publicadas históricas; não valida a candidata R09."
+  },
+  {
+    "fonte": "sistema/01-pesquisa/anti-dominios/conta-dominio-simples.py",
+    "exit": 0,
+    "saida": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/evidencias/conta-dominio-simples-PUBLICADO.txt",
+    "escopo": "Fontes publicadas históricas; não valida a candidata R09."
+  },
+  {
+    "fonte": "sistema/01-pesquisa/anti-dominios/conta-cesta-oca.py",
+    "exit": 0,
+    "saida": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/evidencias/conta-cesta-oca-PUBLICADO.txt",
+    "escopo": "Fontes publicadas históricas; não valida a candidata R09."
+  },
+  {
+    "fonte": "sistema/01-pesquisa/anti-dominios/conta-petala.py",
+    "exit": 0,
+    "saida": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/evidencias/conta-petala-PUBLICADO.txt",
+    "escopo": "Fontes publicadas históricas; não valida a candidata R09."
+  },
+  {
+    "fonte": "sistema/01-pesquisa/anti-dominios/conta-extensao.py",
+    "exit": 1,
+    "saida": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/evidencias/conta-extensao-PUBLICADO.txt",
+    "escopo": "Fontes publicadas históricas; não valida a candidata R09."
+  },
+  {
+    "fonte": "sistema/01-pesquisa/anti-dominios/conta-as-quatro.py",
+    "exit": 1,
+    "saida": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/evidencias/conta-as-quatro-PUBLICADO.txt",
+    "escopo": "Fontes publicadas históricas; não valida a candidata R09."
+  }
+]

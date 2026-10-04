@@ -1,0 +1,36 @@
+--- regras-gerais/lote-final/REGRAS-GERAIS.md
+
++++ regras-gerais/lote-final/REGRAS-GERAIS.md
+
+@@ -328,5 +328,5 @@
+
+ Resolva **um teste por golpe ou aplicação de dano**. Um mesmo golpe com dois tipos de dano continua sendo uma aplicação; dois golpes exigem dois testes. Se as defesas reduzirem o dano a zero, não há teste. Dano absorvido pela vida temporária ainda conta, pois atingiu sua proteção.
+ 
+-Faça o teste depois de resolver o dano. Se ele já encerrou a concentração por outra regra, não há efeito para manter. **Inconsciente encerra a concentração. Incapacitado, por si só, não a encerra.** Outras condições só a interrompem quando seu texto disser isso.
++Faça o teste depois de resolver o dano. Se ele já encerrou a concentração por outra regra, não há efeito para manter. **Inconsciente encerra a concentração. Guarda Aberta, por si só, não a encerra.** Outras condições só a interrompem quando seu texto disser isso.
+ 
+ **Exemplo.** Kaito mantém um efeito e recebe dois golpes de uma criatura com CD 14. Faz um TR após cada golpe enquanto o efeito continuar ativo. Se falhar no primeiro, ele já terminou e não há concentração para testar no segundo.
+@@ -498,5 +498,5 @@
+
+ ## Limites
+ 
+-**Incapacitado impede Bloquear.** Estar Derrubado, Agarrado ou sem Reação não impede essa rolagem por si só. Outras habilidades podem proibir Bloquear contra um ataque específico.
++**Guarda Aberta impede Bloquear.** Estar Derrubado, Agarrado ou sem Reação não impede essa rolagem por si só. Outras habilidades podem proibir Bloquear contra um ataque específico.
+ 
+ Bloquear não pode ser usado contra um Teste de Resistência nem contra um efeito Automático. Um 20 natural continua sendo um acerto crítico, independentemente do resultado de Bloquear. Uma habilidade que use os dados dessa rolagem continua seguindo seu próprio texto.
+@@ -594,5 +594,5 @@
+
+ > **Exemplo:** Mei é Média. Um adversário Grande bloqueia o corredor: ela não pode atravessá-lo só por ter movimento restante. Ela precisa buscar outro percurso. Se o adversário fosse Imenso, a diferença de duas categorias permitiria a travessia, havendo passagem física, movimento suficiente e um espaço livre ao final.
+ 
+-**Incapacitado não libera passagem automaticamente.** Uma criatura inconsciente ou um corpo imóvel pode ser atravessado quando houver passagem física, com custo de terreno difícil.
++**Guarda Aberta não libera passagem automaticamente.** Uma criatura inconsciente ou um corpo imóvel pode ser atravessado quando houver passagem física, com custo de terreno difícil.
+ 
+ ## Obstáculos e movimento imposto
+@@ -1012,5 +1012,5 @@
+
+ Escapar não concede ataque nem movimento. Depois do sucesso, você pode usar o movimento que ainda tiver disponível. Contenções criadas por feitiços ou habilidades seguem as formas de saída indicadas nelas.
+ 
+-Quem agarrou pode soltar o alvo **sem gastar ação**. A contenção também termina se essa pessoa ficar Incapacitada ou Inconsciente, deixar de manter a mão ou arma ocupada, ou se as duas criaturas forem separadas além do alcance da contenção.
++Quem agarrou pode soltar o alvo **sem gastar ação**. A contenção também termina se essa pessoa ficar com a Guarda Aberta ou Inconsciente, deixar de manter a mão ou arma ocupada, ou se as duas criaturas forem separadas além do alcance da contenção.
+ 
+ ## Arrastar

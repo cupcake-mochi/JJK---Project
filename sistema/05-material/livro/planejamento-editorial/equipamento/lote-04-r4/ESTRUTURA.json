@@ -1,0 +1,44 @@
+{
+  "ordem": [
+    "armas",
+    "laminas",
+    "impacto",
+    "hastes",
+    "flexiveis",
+    "tiro"
+  ],
+  "titulos": {
+    "armas": "Armas",
+    "laminas": "Lâminas",
+    "impacto": "Armas de impacto",
+    "hastes": "Machados, foices e hastes",
+    "flexiveis": "Armas flexíveis e de arremesso",
+    "tiro": "Armas de disparo"
+  },
+  "paginas": {
+    "armas": 1,
+    "laminas": 2,
+    "impacto": 3,
+    "hastes": 4,
+    "flexiveis": 5,
+    "tiro": 6
+  },
+  "grupos": [
+    [
+      "Armas",
+      [
+        "armas"
+      ]
+    ],
+    [
+      "Catálogo",
+      [
+        "laminas",
+        "impacto",
+        "hastes",
+        "flexiveis",
+        "tiro"
+      ]
+    ]
+  ]
+}

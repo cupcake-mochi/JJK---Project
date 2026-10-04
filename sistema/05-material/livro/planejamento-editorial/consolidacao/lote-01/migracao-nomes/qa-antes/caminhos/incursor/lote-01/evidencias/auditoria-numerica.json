@@ -1,0 +1,38 @@
+{
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/caminhos/incursor/lote-01/INCURSOR.md": "cd608cb7a2ad671becaef2da0b56ee77229a24f8212df1dbbbf7b002e9f268d4"
+  },
+  "sha256_texto": "cd608cb7a2ad671becaef2da0b56ee77229a24f8212df1dbbbf7b002e9f268d4",
+  "verificacoes": 249,
+  "casos_dirigidos": 76,
+  "sequencias_fluidez": 46875,
+  "perfis_cirurgico": 70,
+  "trajetorias": 400,
+  "perfis_TR": 364,
+  "perfis_pressao": 5,
+  "contrato": {
+    "vida_inicial": 6,
+    "vida_ganho": 4,
+    "PE_nivel": 6,
+    "movimento_extra": 3,
+    "combo_cirurgico": 4,
+    "rajada": 3,
+    "guarda": 3,
+    "harmonia": 6,
+    "projecao": 3,
+    "projecao_metros": 6,
+    "ofensiva": 3,
+    "cruzado": 3,
+    "retorno": 4,
+    "finta": 6,
+    "perfeita": 12,
+    "ricochete_extra": 6
+  },
+  "paginas": 26,
+  "ok": true,
+  "limites": [
+    "Modelos de especificacao ligados por ancoras e valores da candidata; nao executam o texto como um jogo.",
+    "Cobrem somente kit proprio e condicoes enumeradas. Nao incluem todas tecnicas, inimigos, Kokusen, buffs externos ou decisoes adaptativas.",
+    "Nao medem compreensao humana nem equivalencia global de poder; PDF e revisao independente separados."
+  ]
+}

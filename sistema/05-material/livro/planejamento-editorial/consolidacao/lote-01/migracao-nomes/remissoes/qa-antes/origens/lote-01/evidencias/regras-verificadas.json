@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "sha256_texto": "fcdf3dfb581d2cd625746ab76ee581e025a023666c5e93a45187aa3328dd2403",
+  "fonte": "AUDITORIA.json",
+  "limites": [
+    "Modelos do texto candidato, não motor geral do sistema ou playtest.",
+    "Pares de Legados personalizados não enumeráveis; verificados por casos e leitura.",
+    "Custos narrativos não convertidos em porcentagem de equilíbrio.",
+    "V12/V13/V14 não são realizados por este script.",
+    "Revisão desta rodada restrita aos nomes e remissões; mudanças do capítulo de morte têm validação própria na consolidação."
+  ]
+}

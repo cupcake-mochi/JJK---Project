@@ -1,0 +1,34 @@
+{
+  "unidade": "aptidoes/lote-01",
+  "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+  "sha256_pdf": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
+  "escopo": "Releitura contextual das linhas alteradas; a revisão integral anterior permanece em seus relatórios históricos.",
+  "invariantes": "IDs, numerais, alcance, custos, procedimentos e tabelas conservados. Nomes aprovados e concordância uniformizados.",
+  "historico": "consolidacao/lote-01/migracao-nomes/qa-antes/aptidoes/lote-01",
+  "auditoria_numerica": "Execuções novamente concluídas após os nomes; outputs locais vinculados à versão atual.",
+  "paginas_reabertas": [
+    3,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    16,
+    17,
+    20
+  ],
+  "paginas_preservadas": 9,
+  "equivalencia_visual": "Hashes de pixels por página, COMPARACAO-NOMES-PDF.json",
+  "revisao_independente_delta": {
+    "revisor": "/root",
+    "resultado": "Sem bloqueador nos diffs nominais completos de Regras gerais, Equipamento, Aptidões, Incursor e Origens, conforme confirmação direta do revisor; unidades de texto idêntico preservam o parecer anterior.",
+    "complemento": "Confirmado pelo revisor /root após leitura integral de COMPLEMENTO.json: sem alteração numérica ou funcional."
+  },
+  "limites": [
+    "Sem novo cânone, redesign ou afirmação de equilíbrio final.",
+    "Leitura por modelo não equivale a teste com pessoas.",
+    "Adjetivos passivo/passiva comuns mantidos."
+  ]
+}

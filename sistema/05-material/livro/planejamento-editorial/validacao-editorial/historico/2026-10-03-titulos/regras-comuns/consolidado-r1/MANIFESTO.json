@@ -1,0 +1,24 @@
+{
+  "data": "2026-10-03",
+  "status": "prova candidata; não integrada",
+  "arquivos": {
+    "CONFERENCIA.json": "e343b300f2ded8c213f159d2e26b304b031a45aac2f6062dcf5dfa94fde7b97d",
+    "DEPENDENCIAS-PARA-INTEGRACAO.md": "0303dc83954617c7246da426dd33584acf4dcdd51d7af96ca64c976a0f2f4016",
+    "ESTRUTURA.json": "b137d82a8630706e55a937d9b579968ca796036b449088a05b652adcdb26815e",
+    "LEIA-ME.md": "e51bb943032e329d0f7095e1a38830816ebf35849ffc873fff72732f426a11ee",
+    "REGRAS-COMUNS.md": "9934a70de9062e1a182d1ef594863c6fff830559f3bcea33cb4b6da84f43c086",
+    "RELATORIO.md": "cc1638cc6700c8da3a69409440c7f9e720b30beda8e9b6d6af28f72787b06844",
+    "conferir.py": "cd6249896d2787fb4ae386404b4fedd0091f12001a550e18f606978119756e4d",
+    "evidencias/CENARIOS-CONSOLIDADOS.md": "57159cc3cf3591b0a8ef7bf6e7183752593c6553c8c2bf3e62f066fa0ddba0f9",
+    "evidencias/REFERENCIAS-EDITORIAIS.md": "1ed43e78e478e70e3e08c74fa5c06b01a83a7abc275f74fa5812f3eac7301e20",
+    "evidencias/REVISAO-EDITORIAL.json": "edf30db99d628328829a218a1ea2eeb4ca565866221dae28fbb9a14c05f12a41",
+    "evidencias/REVISAO-EDITORIAL.md": "2caef47c8ce9057079aaf7f25aa880a0b6c9086eef74e40ae49f2cbe2edd67dc",
+    "evidencias/alteracoes-editoriais.json": "fd4d275c9c0908b29d039452c9a37c2380b1027ecb0973cd4598966015accfdd",
+    "evidencias/fontes-preservadas.json": "0373b06d6f11eeca83fbe1c78f4987f2525a2aa71e19163ba205c799fe7978e3",
+    "evidencias/inspecao-visual.json": "49042361bce79f0335731ada1095767a0cc2f0b13f5ebdfb9733deadf9bf74bb",
+    "evidencias/pdf-estrutura.json": "565b776c4d566b5acc2da7207543dc12effa222aa80a6bcf70e45b376dd86e5b",
+    "evidencias/pdf-texto.txt": "8625c6b88c3a8a34c2f8a1d1264e39f308124275c2a3c06997a17161b0be5dd4",
+    "gerar_pdf.py": "58f4d476e25cf68ee897ac9d898ed857839ba3d9a455753300c272daa1b2074d",
+    "output/pdf/Projeto-M-Regras-Comuns-Prova-Consolidada-01.pdf": "a88a12691244efa8035e7ccbe4a2465cca70ce7e4175896bec189d14a8c83cf4"
+  }
+}

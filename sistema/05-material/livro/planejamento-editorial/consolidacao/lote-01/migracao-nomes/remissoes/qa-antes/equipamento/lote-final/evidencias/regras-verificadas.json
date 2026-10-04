@@ -1,0 +1,4142 @@
+{
+  "ok": true,
+  "sha256_texto": "89a3f7bb705a7c931a3c69f4f051fb98d62acbc065ffa42dc48275f00e2afec1",
+  "casos": [
+    {
+      "caso": "52 armas sem perda de linha",
+      "obtido": "{'Faca', 'Kanabō', 'Yari', 'Sai', 'Foice', 'Maça', 'Corrente', 'Bastão', 'Marreta', 'Soqueira', 'Machete', 'Bō', 'Kusarigama', 'Kama', 'Submetralhadora', 'Maul', 'Manriki', 'Tekko', 'Machado de Guerra', 'Machado', 'Hankyū', 'Shuriken', 'Canivete', 'Nodachi', 'Metralhadora Pesada', 'Katana', 'Rifle de Precisão', 'Taco', 'Chakram', 'Besta', 'Pistola', 'Odachi', 'Cassetete', 'Espada Longa', 'Kunai', 'Punhal', 'Espadão', 'Chicote', 'Revólver', 'Machadinha', 'Tanto', 'Tonfa', 'Rifle', 'Wakizashi', 'Tessen', 'Nunchaku', 'Lança', 'Espingarda', 'Rapieira', 'Naginata', 'Daikyū', 'Besta de Uma Mão'}",
+      "esperado": "{'Faca', 'Kanabō', 'Yari', 'Sai', 'Foice', 'Maça', 'Corrente', 'Bastão', 'Marreta', 'Soqueira', 'Machete', 'Bō', 'Kusarigama', 'Kama', 'Submetralhadora', 'Maul', 'Manriki', 'Tekko', 'Machado de Guerra', 'Machado', 'Hankyū', 'Shuriken', 'Canivete', 'Nodachi', 'Metralhadora Pesada', 'Katana', 'Rifle de Precisão', 'Taco', 'Chakram', 'Besta', 'Pistola', 'Odachi', 'Cassetete', 'Espada Longa', 'Kunai', 'Punhal', 'Espadão', 'Chicote', 'Revólver', 'Machadinha', 'Tanto', 'Tonfa', 'Rifle', 'Wakizashi', 'Tessen', 'Nunchaku', 'Lança', 'Espingarda', 'Rapieira', 'Naginata', 'Daikyū', 'Besta de Uma Mão'}",
+      "ok": true
+    },
+    {
+      "caso": "Contagem de armas",
+      "obtido": 52,
+      "esperado": 52,
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Canivete",
+      "obtido": [
+        "Canivete",
+        "1",
+        "1d4 Cortante",
+        "Fineza · Oculta · Rompe · Leve",
+        "—",
+        "0,1",
+        "8.000"
+      ],
+      "esperado": [
+        "Canivete",
+        "1",
+        "1d4 Cortante",
+        "Fineza · Oculta · Rompe · Leve",
+        "—",
+        "0,1",
+        "8.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Canivete",
+      "obtido": "0,1",
+      "esperado": "0,1",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Faca",
+      "obtido": [
+        "Faca",
+        "1",
+        "1d6 Cortante",
+        "Fineza · Rompe · Leve",
+        "—",
+        "0,2",
+        "16.000"
+      ],
+      "esperado": [
+        "Faca",
+        "1",
+        "1d6 Cortante",
+        "Fineza · Rompe · Leve",
+        "—",
+        "0,2",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Faca",
+      "obtido": "0,2",
+      "esperado": "0,2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Punhal",
+      "obtido": [
+        "Punhal",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Longo Alcance 6/18 m · Leve",
+        "—",
+        "0,3",
+        "16.000"
+      ],
+      "esperado": [
+        "Punhal",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Longo Alcance 6/18 m · Leve",
+        "—",
+        "0,3",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Punhal",
+      "obtido": "0,3",
+      "esperado": "0,3",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Sai",
+      "obtido": [
+        "Sai (arma de três pontas)",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Par · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Sai (arma de três pontas)",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Par · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Sai",
+      "obtido": "0,5",
+      "esperado": "0,5",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Tanto",
+      "obtido": [
+        "Tanto (lâmina curta)",
+        "1",
+        "1d6 Cortante",
+        "Fineza · Oculta · Leve",
+        "—",
+        "0,3",
+        "32.000"
+      ],
+      "esperado": [
+        "Tanto (lâmina curta)",
+        "1",
+        "1d6 Cortante",
+        "Fineza · Oculta · Leve",
+        "—",
+        "0,3",
+        "32.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Tanto",
+      "obtido": "0,3",
+      "esperado": "0,3",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Espada Longa",
+      "obtido": [
+        "Espada Longa",
+        "1",
+        "1d8 Cortante",
+        "Versátil · Rompe",
+        "—",
+        "1",
+        "48.000"
+      ],
+      "esperado": [
+        "Espada Longa",
+        "1",
+        "1d8 Cortante",
+        "Versátil · Rompe",
+        "—",
+        "1",
+        "48.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Espada Longa",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Espadão",
+      "obtido": [
+        "Espadão",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "esperado": [
+        "Espadão",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Espadão",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Katana",
+      "obtido": [
+        "Katana (espada curva)",
+        "1",
+        "1d8 Cortante",
+        "Versátil · Fineza",
+        "—",
+        "1",
+        "48.000"
+      ],
+      "esperado": [
+        "Katana (espada curva)",
+        "1",
+        "1d8 Cortante",
+        "Versátil · Fineza",
+        "—",
+        "1",
+        "48.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Katana",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Machete",
+      "obtido": [
+        "Machete",
+        "1",
+        "1d8 Cortante",
+        "Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Machete",
+        "1",
+        "1d8 Cortante",
+        "Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Machete",
+      "obtido": "0,5",
+      "esperado": "0,5",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Nodachi",
+      "obtido": [
+        "Nodachi (espada grande)",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m · Rompe · Volumosa",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "esperado": [
+        "Nodachi (espada grande)",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m · Rompe · Volumosa",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Nodachi",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Odachi",
+      "obtido": [
+        "Odachi (espada grande)",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m · Talha · Embainhada",
+        "3",
+        "2",
+        "90.000"
+      ],
+      "esperado": [
+        "Odachi (espada grande)",
+        "2",
+        "1d12 Cortante",
+        "Alcance 3 m · Talha · Embainhada",
+        "3",
+        "2",
+        "90.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Odachi",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Rapieira",
+      "obtido": [
+        "Rapieira",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Talha",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "esperado": [
+        "Rapieira",
+        "1",
+        "1d6 Perfurante",
+        "Fineza · Talha",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Rapieira",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Wakizashi",
+      "obtido": [
+        "Wakizashi (espada curta)",
+        "1",
+        "1d8 Cortante",
+        "Oculta · Leve",
+        "—",
+        "0,5",
+        "32.000"
+      ],
+      "esperado": [
+        "Wakizashi (espada curta)",
+        "1",
+        "1d8 Cortante",
+        "Oculta · Leve",
+        "—",
+        "0,5",
+        "32.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Wakizashi",
+      "obtido": "0,5",
+      "esperado": "0,5",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Kanabō",
+      "obtido": [
+        "Kanabō (clava pesada)",
+        "2",
+        "1d12 Concussão",
+        "Talha",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "esperado": [
+        "Kanabō (clava pesada)",
+        "2",
+        "1d12 Concussão",
+        "Talha",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Kanabō",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Maça",
+      "obtido": [
+        "Maça",
+        "1",
+        "1d8 Concussão",
+        "Talha",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "esperado": [
+        "Maça",
+        "1",
+        "1d8 Concussão",
+        "Talha",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Maça",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Marreta",
+      "obtido": [
+        "Marreta",
+        "2",
+        "1d10 Concussão",
+        "Rompe · Talha",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "esperado": [
+        "Marreta",
+        "2",
+        "1d10 Concussão",
+        "Rompe · Talha",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Marreta",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Maul",
+      "obtido": [
+        "Maul (martelo de combate)",
+        "2",
+        "1d12 Concussão",
+        "Rompe",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "esperado": [
+        "Maul (martelo de combate)",
+        "2",
+        "1d12 Concussão",
+        "Rompe",
+        "3",
+        "3",
+        "36.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Maul",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Taco",
+      "obtido": [
+        "Taco",
+        "1",
+        "1d8 Concussão",
+        "Versátil · Discreta",
+        "—",
+        "1",
+        "16.000"
+      ],
+      "esperado": [
+        "Taco",
+        "1",
+        "1d8 Concussão",
+        "Versátil · Discreta",
+        "—",
+        "1",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Taco",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Bastão",
+      "obtido": [
+        "Bastão",
+        "1",
+        "1d6 Concussão",
+        "Versátil · Alcance 3 m · Rompe",
+        "—",
+        "1",
+        "16.000"
+      ],
+      "esperado": [
+        "Bastão",
+        "1",
+        "1d6 Concussão",
+        "Versátil · Alcance 3 m · Rompe",
+        "—",
+        "1",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Bastão",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Bō",
+      "obtido": [
+        "Bō (bastão longo)",
+        "2",
+        "1d10 Concussão",
+        "Alcance 3 m · Emaranha",
+        "3",
+        "2",
+        "20.000"
+      ],
+      "esperado": [
+        "Bō (bastão longo)",
+        "2",
+        "1d10 Concussão",
+        "Alcance 3 m · Emaranha",
+        "3",
+        "2",
+        "20.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Bō",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Cassetete",
+      "obtido": [
+        "Cassetete",
+        "1",
+        "1d6 Concussão",
+        "Oculta · Vestida · Leve",
+        "—",
+        "0,3",
+        "8.000"
+      ],
+      "esperado": [
+        "Cassetete",
+        "1",
+        "1d6 Concussão",
+        "Oculta · Vestida · Leve",
+        "—",
+        "0,3",
+        "8.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Cassetete",
+      "obtido": "0,3",
+      "esperado": "0,3",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Nunchaku",
+      "obtido": [
+        "Nunchaku (bastões ligados)",
+        "1",
+        "1d6 Concussão",
+        "Par · Emaranha",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Nunchaku (bastões ligados)",
+        "1",
+        "1d6 Concussão",
+        "Par · Emaranha",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Nunchaku",
+      "obtido": "0,5",
+      "esperado": "0,5",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Tonfa",
+      "obtido": [
+        "Tonfa (bastão com cabo lateral)",
+        "1",
+        "1d6 Concussão",
+        "Par · Vestida · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Tonfa (bastão com cabo lateral)",
+        "1",
+        "1d6 Concussão",
+        "Par · Vestida · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Tonfa",
+      "obtido": "0,5",
+      "esperado": "0,5",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Soqueira",
+      "obtido": [
+        "Soqueira",
+        "1",
+        "1d4 Concussão",
+        "Vestida · Oculta · Par · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "esperado": [
+        "Soqueira",
+        "1",
+        "1d4 Concussão",
+        "Vestida · Oculta · Par · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Soqueira",
+      "obtido": "0,2",
+      "esperado": "0,2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Tekko",
+      "obtido": [
+        "Tekko (proteção de punho)",
+        "1",
+        "1d4 Concussão",
+        "Vestida · Par · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "esperado": [
+        "Tekko (proteção de punho)",
+        "1",
+        "1d4 Concussão",
+        "Vestida · Par · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Tekko",
+      "obtido": "0,2",
+      "esperado": "0,2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Machadinha",
+      "obtido": [
+        "Machadinha",
+        "1",
+        "1d6 Cortante",
+        "Longo Alcance 6/18 m · Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Machadinha",
+        "1",
+        "1d6 Cortante",
+        "Longo Alcance 6/18 m · Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Machadinha",
+      "obtido": "0,5",
+      "esperado": "0,5",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Machado",
+      "obtido": [
+        "Machado",
+        "1",
+        "1d8 Cortante",
+        "Rompe",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "esperado": [
+        "Machado",
+        "1",
+        "1d8 Cortante",
+        "Rompe",
+        "—",
+        "1",
+        "32.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Machado",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Machado de Guerra",
+      "obtido": [
+        "Machado de Guerra",
+        "2",
+        "1d12 Cortante",
+        "Rompe · Talha · Volumosa",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "esperado": [
+        "Machado de Guerra",
+        "2",
+        "1d12 Cortante",
+        "Rompe · Talha · Volumosa",
+        "3",
+        "2",
+        "60.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Machado de Guerra",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Foice",
+      "obtido": [
+        "Foice",
+        "2",
+        "1d10 Cortante",
+        "Emaranha · Talha",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "esperado": [
+        "Foice",
+        "2",
+        "1d10 Cortante",
+        "Emaranha · Talha",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Foice",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Kama",
+      "obtido": [
+        "Kama (foice curta)",
+        "1",
+        "1d6 Cortante",
+        "Par · Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Kama (foice curta)",
+        "1",
+        "1d6 Cortante",
+        "Par · Rompe",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Kama",
+      "obtido": "0,5",
+      "esperado": "0,5",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Kusarigama",
+      "obtido": [
+        "Kusarigama (foice com corrente)",
+        "2",
+        "1d8 Cortante",
+        "Alcance 3 m · Emaranha · Longo Alcance 6/18 m",
+        "—",
+        "2",
+        "20.000"
+      ],
+      "esperado": [
+        "Kusarigama (foice com corrente)",
+        "2",
+        "1d8 Cortante",
+        "Alcance 3 m · Emaranha · Longo Alcance 6/18 m",
+        "—",
+        "2",
+        "20.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Kusarigama",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Lança",
+      "obtido": [
+        "Lança",
+        "1",
+        "1d6 Perfurante",
+        "Alcance 3 m · Longo Alcance 6/18 m",
+        "—",
+        "2",
+        "16.000"
+      ],
+      "esperado": [
+        "Lança",
+        "1",
+        "1d6 Perfurante",
+        "Alcance 3 m · Longo Alcance 6/18 m",
+        "—",
+        "2",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Lança",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Naginata",
+      "obtido": [
+        "Naginata (haste com lâmina)",
+        "2",
+        "1d10 Cortante",
+        "Alcance 3 m · Rompe",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "esperado": [
+        "Naginata (haste com lâmina)",
+        "2",
+        "1d10 Cortante",
+        "Alcance 3 m · Rompe",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Naginata",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Yari",
+      "obtido": [
+        "Yari (lança longa)",
+        "2",
+        "1d10 Perfurante",
+        "Alcance 3 m · Talha",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "esperado": [
+        "Yari (lança longa)",
+        "2",
+        "1d10 Perfurante",
+        "Alcance 3 m · Talha",
+        "3",
+        "2",
+        "36.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Yari",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Chicote",
+      "obtido": [
+        "Chicote",
+        "1",
+        "1d4 Concussão",
+        "Alcance 3 m · Emaranha · Oculta · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "esperado": [
+        "Chicote",
+        "1",
+        "1d4 Concussão",
+        "Alcance 3 m · Emaranha · Oculta · Leve",
+        "—",
+        "0,5",
+        "16.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Chicote",
+      "obtido": "0,5",
+      "esperado": "0,5",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Corrente",
+      "obtido": [
+        "Corrente",
+        "2",
+        "1d8 Concussão",
+        "Alcance 3 m · Emaranha · Rompe",
+        "—",
+        "2",
+        "20.000"
+      ],
+      "esperado": [
+        "Corrente",
+        "2",
+        "1d8 Concussão",
+        "Alcance 3 m · Emaranha · Rompe",
+        "—",
+        "2",
+        "20.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Corrente",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Manriki",
+      "obtido": [
+        "Manriki (corrente com pesos)",
+        "1",
+        "1d6 Concussão",
+        "Emaranha · Oculta · Leve",
+        "—",
+        "0,5",
+        "8.000"
+      ],
+      "esperado": [
+        "Manriki (corrente com pesos)",
+        "1",
+        "1d6 Concussão",
+        "Emaranha · Oculta · Leve",
+        "—",
+        "0,5",
+        "8.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Manriki",
+      "obtido": "0,5",
+      "esperado": "0,5",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Chakram",
+      "obtido": [
+        "Chakram (anel cortante)",
+        "1",
+        "1d4 Cortante",
+        "Longo Alcance 6/18 m · Fineza · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "esperado": [
+        "Chakram (anel cortante)",
+        "1",
+        "1d4 Cortante",
+        "Longo Alcance 6/18 m · Fineza · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Chakram",
+      "obtido": "0,2",
+      "esperado": "0,2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Kunai",
+      "obtido": [
+        "Kunai (lâmina de arremesso)",
+        "1",
+        "1d6 Perfurante",
+        "Longo Alcance 6/18 m · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "esperado": [
+        "Kunai (lâmina de arremesso)",
+        "1",
+        "1d6 Perfurante",
+        "Longo Alcance 6/18 m · Oculta · Leve",
+        "—",
+        "0,2",
+        "8.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Kunai",
+      "obtido": "0,2",
+      "esperado": "0,2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Shuriken",
+      "obtido": [
+        "Shuriken (lâmina de arremesso)",
+        "1",
+        "1d4 Perfurante",
+        "Longo Alcance 6/18 m · Oculta · Par · Leve",
+        "—",
+        "0,1",
+        "8.000"
+      ],
+      "esperado": [
+        "Shuriken (lâmina de arremesso)",
+        "1",
+        "1d4 Perfurante",
+        "Longo Alcance 6/18 m · Oculta · Par · Leve",
+        "—",
+        "0,1",
+        "8.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Shuriken",
+      "obtido": "0,1",
+      "esperado": "0,1",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Tessen",
+      "obtido": [
+        "Tessen (leque de combate)",
+        "1",
+        "1d4 Concussão",
+        "Longo Alcance 6/18 m · Oculta · Vestida · Leve",
+        "—",
+        "0,3",
+        "8.000"
+      ],
+      "esperado": [
+        "Tessen (leque de combate)",
+        "1",
+        "1d4 Concussão",
+        "Longo Alcance 6/18 m · Oculta · Vestida · Leve",
+        "—",
+        "0,3",
+        "8.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Tessen",
+      "obtido": "0,3",
+      "esperado": "0,3",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Daikyū",
+      "obtido": [
+        "Daikyū (arco longo)",
+        "2",
+        "1d10 Perfurante",
+        "Longo Alcance 45/180 m",
+        "—",
+        "2",
+        "60.000"
+      ],
+      "esperado": [
+        "Daikyū (arco longo)",
+        "2",
+        "1d10 Perfurante",
+        "Longo Alcance 45/180 m",
+        "—",
+        "2",
+        "60.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Daikyū",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Hankyū",
+      "obtido": [
+        "Hankyū (arco curto)",
+        "2",
+        "1d8 Perfurante",
+        "Longo Alcance 24/96 m · Oculta",
+        "—",
+        "1",
+        "40.000"
+      ],
+      "esperado": [
+        "Hankyū (arco curto)",
+        "2",
+        "1d8 Perfurante",
+        "Longo Alcance 24/96 m · Oculta",
+        "—",
+        "1",
+        "40.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Hankyū",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Besta",
+      "obtido": [
+        "Besta",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 30/120 m · Munição · Rompe",
+        "3",
+        "2",
+        "80.000"
+      ],
+      "esperado": [
+        "Besta",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 30/120 m · Munição · Rompe",
+        "3",
+        "2",
+        "80.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Besta",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Besta de Uma Mão",
+      "obtido": [
+        "Besta de Uma Mão",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 9/36 m · Munição · Oculta · Leve",
+        "—",
+        "1",
+        "50.000"
+      ],
+      "esperado": [
+        "Besta de Uma Mão",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 9/36 m · Munição · Oculta · Leve",
+        "—",
+        "1",
+        "50.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Besta de Uma Mão",
+      "obtido": "1",
+      "esperado": "1",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Espingarda",
+      "obtido": [
+        "Espingarda",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 9/27 m · Munição · Rompe",
+        "1",
+        "2",
+        "150.000 / 300.000"
+      ],
+      "esperado": [
+        "Espingarda",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 9/27 m · Munição · Rompe",
+        "1",
+        "2",
+        "150.000 / 300.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Espingarda",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Metralhadora Pesada",
+      "obtido": [
+        "Metralhadora Pesada",
+        "2",
+        "2d10 Perfurante",
+        "Longo Alcance 24/72 m · Munição · Rompe · Volumosa",
+        "3",
+        "4",
+        "450.000 / 900.000"
+      ],
+      "esperado": [
+        "Metralhadora Pesada",
+        "2",
+        "2d10 Perfurante",
+        "Longo Alcance 24/72 m · Munição · Rompe · Volumosa",
+        "3",
+        "4",
+        "450.000 / 900.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Metralhadora Pesada",
+      "obtido": "4",
+      "esperado": "4",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Pistola",
+      "obtido": [
+        "Pistola",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 9/27 m · Munição · Oculta · Leve",
+        "—",
+        "0,5",
+        "125.000 / 250.000"
+      ],
+      "esperado": [
+        "Pistola",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 9/27 m · Munição · Oculta · Leve",
+        "—",
+        "0,5",
+        "125.000 / 250.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Pistola",
+      "obtido": "0,5",
+      "esperado": "0,5",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Revólver",
+      "obtido": [
+        "Revólver",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 12/36 m · Munição · Oculta · Leve",
+        "—",
+        "0,5",
+        "150.000 / 300.000"
+      ],
+      "esperado": [
+        "Revólver",
+        "1",
+        "1d10 Perfurante",
+        "Longo Alcance 12/36 m · Munição · Oculta · Leve",
+        "—",
+        "0,5",
+        "150.000 / 300.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Revólver",
+      "obtido": "0,5",
+      "esperado": "0,5",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Rifle",
+      "obtido": [
+        "Rifle",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 24/72 m · Munição · Talha",
+        "1",
+        "2",
+        "175.000 / 350.000"
+      ],
+      "esperado": [
+        "Rifle",
+        "2",
+        "2d8 Perfurante",
+        "Longo Alcance 24/72 m · Munição · Talha",
+        "1",
+        "2",
+        "175.000 / 350.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Rifle",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Rifle de Precisão",
+      "obtido": [
+        "Rifle de Precisão",
+        "2",
+        "2d10 Perfurante",
+        "Longo Alcance 24/72 m · Munição",
+        "3",
+        "3",
+        "300.000 / 600.000"
+      ],
+      "esperado": [
+        "Rifle de Precisão",
+        "2",
+        "2d10 Perfurante",
+        "Longo Alcance 24/72 m · Munição",
+        "3",
+        "3",
+        "300.000 / 600.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Rifle de Precisão",
+      "obtido": "3",
+      "esperado": "3",
+      "ok": true
+    },
+    {
+      "caso": "Colunas autorizadas: Submetralhadora",
+      "obtido": [
+        "Submetralhadora",
+        "2",
+        "2d6 Perfurante",
+        "Longo Alcance 15/45 m · Munição · Par · Oculta",
+        "—",
+        "2",
+        "200.000 / 400.000"
+      ],
+      "esperado": [
+        "Submetralhadora",
+        "2",
+        "2d6 Perfurante",
+        "Longo Alcance 15/45 m · Munição · Par · Oculta",
+        "—",
+        "2",
+        "200.000 / 400.000"
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Volume preservado: Submetralhadora",
+      "obtido": "2",
+      "esperado": "2",
+      "ok": true
+    },
+    {
+      "caso": "Leve explícita:19",
+      "obtido": 19,
+      "esperado": 19,
+      "ok": true
+    },
+    {
+      "caso": "Leve ou Fineza:21",
+      "obtido": 21,
+      "esperado": 21,
+      "ok": true
+    },
+    {
+      "caso": "Taco não é Leve",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Katana/Rapieira preservadas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Fonte preservada: EQUIPAMENTO-EM-JOGO.md",
+      "obtido": "55c434659e311604659d7e2bb9edd3a56975966b0a57942ec28e07152d8bf3cb",
+      "esperado": "55c434659e311604659d7e2bb9edd3a56975966b0a57942ec28e07152d8bf3cb",
+      "ok": true
+    },
+    {
+      "caso": "Fonte preservada: PROTECAO.md",
+      "obtido": "18cbff010ba9848b39346d6b77037c3b1b7ec1bbe7f75ae5e36486ac54c679a5",
+      "esperado": "18cbff010ba9848b39346d6b77037c3b1b7ec1bbe7f75ae5e36486ac54c679a5",
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Degrau",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / 1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Situações",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Vão apertado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Altura e beirada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Escuro",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Superfície ruim",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Degrau",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / 1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Escudo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Broquel",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Médio",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Torre",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Peça",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Traje",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Revestimento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: PROTECAO.md / Escudo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Fonte preservada: MUNICAO.md",
+      "obtido": "802e883a22b8571d28dfd518c7d646dbc649cff1c442035b18bbbeb9fced17e7",
+      "esperado": "802e883a22b8571d28dfd518c7d646dbc649cff1c442035b18bbbeb9fced17e7",
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: MUNICAO.md / Item",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: MUNICAO.md / Aljava de flechas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: MUNICAO.md / Estojo de virotes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: MUNICAO.md / Arma e carga correspondente",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: MUNICAO.md / Pistola: carregador",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: MUNICAO.md / Revólver: conjunto de cartuchos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: MUNICAO.md / Espingarda: conjunto de cartuchos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: MUNICAO.md / Rifle: carregador",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: MUNICAO.md / Submetralhadora: carregador",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: MUNICAO.md / Rifle de Precisão: carregador",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: MUNICAO.md / Metralhadora Pesada: caixa de munição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Fonte preservada: ARMAS.md",
+      "obtido": "ef4cfe39859124fac44744b59d7b4a91bd1effdd54f24ebc8e0d4fb511daaf49",
+      "esperado": "ef4cfe39859124fac44744b59d7b4a91bd1effdd54f24ebc8e0d4fb511daaf49",
+      "ok": true
+    },
+    {
+      "caso": "Fonte preservada: ITENS-E-OBJETOS.md",
+      "obtido": "1781aaf0047bc2789e48c8de0741c6d8b8470b123c311b39f2a423ead0c5413c",
+      "esperado": "1781aaf0047bc2789e48c8de0741c6d8b8470b123c311b39f2a423ead0c5413c",
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Item",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Corda",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Lanterna elétrica",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Pilhas de reserva",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Algema",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Pé de cabra",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Gazuas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Kit de escalada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Mochila",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Cantil",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Ração de viagem",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Telefone",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Bateria portátil",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Ferramentas de ofício",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Fechadura",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Simples, incluindo a algema deste catálogo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Reforçada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / De alta segurança",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Meio",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Desatar um nó acessível, com mãos livres",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Escapar de uma corda, sem desatar o nó",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Romper a corda ou a algema pela força",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Abrir a algema",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Material principal",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Tecido, corda ou papel",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Vidro ou cerâmica",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Madeira",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Pedra",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Ferro ou aço",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Porte e exemplo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Pequena peça: garrafa, fecho ou cadeado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Objeto de mão: caixa ou instrumento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Objeto do porte de uma pessoa: porta ou barril",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: ITENS-E-OBJETOS.md / Objeto maior: mesa grande ou carrinho",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Fonte preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md",
+      "obtido": "0c65b7d17dc1ee911e292711bbc68330fb70e248390293ee09f8a0bace0d2fe5",
+      "esperado": "0c65b7d17dc1ee911e292711bbc68330fb70e248390293ee09f8a0bace0d2fe5",
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Equipamento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Armas de fogo e sua munição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Revestimento 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Revestimento 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Peça",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Traje 1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Traje 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Traje 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Revestimento 1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Revestimento 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Revestimento 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Broquel",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Escudo Médio",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Escudo Torre",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Compra",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Katana e Broquel",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Hankyū e 20 flechas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Naginata",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: COMPRAS-E-EQUIPAMENTO-INICIAL.md / Pistola e duas reservas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Fonte preservada: EQUIPAMENTO-AMALDICOADO.md",
+      "obtido": "f6966f9810cb27193c671a692d475d88c341f9833938d7aa1fda646df4724d13",
+      "esperado": "f6966f9810cb27193c671a692d475d88c341f9833938d7aa1fda646df4724d13",
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Tipo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Arma",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Traje",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Revestimento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Roupa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Escudo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Acessório",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Grau",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / 4",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / 1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Especial",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Conjunto em uso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Arma, escudo, Traje com efeito e anel",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Arma de duas mãos, roupa com efeito e colar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Duas armas de uma mão e dois acessórios",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Grau",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / 1 ou especial",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Missão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Primeira",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Segunda",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Terceira",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Tabela preservada: EQUIPAMENTO-AMALDICOADO.md / Quarta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Kunai Fiel",
+      "obtido": "**Arma: Kunai. Grau 3. Efeito: Fiel.** Compatível com armas arremessadas que possuam Longo Alcance.\n\nDepois de resolver um arremesso com esta arma no seu turno, ela volta para a mão que a lançou, se essa mão estiver livre. O retorno não custa ação, não ataca ninguém e segue um caminho físico desimpedido até você, limitado à distância máxima daquele arremesso.\n\nSe a arma ficar presa, for agarrada ou houver um obstáculo bloqueando o retorno, ela permanece onde está. Fiel não impede que alguém a tire de sua mão e não permite chamá-la da mochila ou de outro local. O efeito move a própria arma; não recupera munições ou projéteis disparados por outra arma.",
+      "esperado": "**Arma: Kunai. Grau 3. Efeito: Fiel.** Compatível com armas arremessadas que possuam Longo Alcance.\n\nDepois de resolver um arremesso com esta arma no seu turno, ela volta para a mão que a lançou, se essa mão estiver livre. O retorno não custa ação, não ataca ninguém e segue um caminho físico desimpedido até você, limitado à distância máxima daquele arremesso.\n\nSe a arma ficar presa, for agarrada ou houver um obstáculo bloqueando o retorno, ela permanece onde está. Fiel não impede que alguém a tire de sua mão e não permite chamá-la da mochila ou de outro local. O efeito move a própria arma; não recupera munições ou projéteis disparados por outra arma.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Tanto Aferido",
+      "obtido": "**Arma: Tanto. Grau 3. Efeito: Aferido.** Compatível com armas e acessórios pequenos.\n\nAo acertar uma maldição com a arma, você descobre o grau dela. Com um acessório, é preciso tocar a maldição usando uma Ação Padrão; uma criatura hostil que esteja resistindo exige um ataque desarmado, sem dano, para estabelecer esse contato.\n\nA informação é somente o grau da maldição. Não revela poderes, fraquezas, pensamentos nem a patente de um feiticeiro. O mestre informa quando a criatura tocada não é uma maldição.",
+      "esperado": "**Arma: Tanto. Grau 3. Efeito: Aferido.** Compatível com armas e acessórios pequenos.\n\nAo acertar uma maldição com a arma, você descobre o grau dela. Com um acessório, é preciso tocar a maldição usando uma Ação Padrão; uma criatura hostil que esteja resistindo exige um ataque desarmado, sem dano, para estabelecer esse contato.\n\nA informação é somente o grau da maldição. Não revela poderes, fraquezas, pensamentos nem a patente de um feiticeiro. O mestre informa quando a criatura tocada não é uma maldição.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Espada Avulsa",
+      "obtido": "**Arma: Espada Longa. Grau 2. Efeito: Avulsa. Duas vezes por cena.** Compatível com armas de combate corpo a corpo.\n\nDepois de resolver um ataque de uma criatura contra você, pode gastar sua **Reação** para realizar um ataque com esta arma contra ela. Você precisa ainda poder agir, empunhar a arma e alcançar a criatura com seu alcance corpo a corpo normal.\n\nA arma se move para desferir o golpe e volta à posição de uso. Resolva um ataque comum, com seus bônus, dano e demais requisitos; não é acerto automático. O ataque recebido termina antes desta resposta. Se ele tirar sua capacidade de agir ou a arma de sua mão, não poderá usar Avulsa.",
+      "esperado": "**Arma: Espada Longa. Grau 2. Efeito: Avulsa. Duas vezes por cena.** Compatível com armas de combate corpo a corpo.\n\nDepois de resolver um ataque de uma criatura contra você, pode gastar sua **Reação** para realizar um ataque com esta arma contra ela. Você precisa ainda poder agir, empunhar a arma e alcançar a criatura com seu alcance corpo a corpo normal.\n\nA arma se move para desferir o golpe e volta à posição de uso. Resolva um ataque comum, com seus bônus, dano e demais requisitos; não é acerto automático. O ataque recebido termina antes desta resposta. Se ele tirar sua capacidade de agir ou a arma de sua mão, não poderá usar Avulsa.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Corrente Extensível",
+      "obtido": "**Arma: Corrente. Grau 1. Efeito: Insondável.** Compatível com Corrente e Manriki.\n\nEnquanto mantiver uma ponta presa sob sua roupa e a outra na mão, o alcance corpo a corpo desta arma é **18 m para ataques feitos no seu turno**. Os elos percorrem o caminho até o alvo: obstáculos, cobertura e linha de efeito continuam valendo.\n\nFora do seu turno, use o alcance normal da arma. A ampliação não aumenta a área de ataques de oportunidade nem permite atacar através de paredes. Soltar ou expor a ponta presa encerra a ampliação; prendê-la novamente exige uma Ação Padrão.",
+      "esperado": "**Arma: Corrente. Grau 1. Efeito: Insondável.** Compatível com Corrente e Manriki.\n\nEnquanto mantiver uma ponta presa sob sua roupa e a outra na mão, o alcance corpo a corpo desta arma é **18 m para ataques feitos no seu turno**. Os elos percorrem o caminho até o alvo: obstáculos, cobertura e linha de efeito continuam valendo.\n\nFora do seu turno, use o alcance normal da arma. A ampliação não aumenta a área de ataques de oportunidade nem permite atacar através de paredes. Soltar ou expor a ponta presa encerra a ampliação; prendê-la novamente exige uma Ação Padrão.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Uniforme Mutável",
+      "obtido": "**Roupa comum. Grau 3. Efeito: Aparência Mutável.** Compatível com roupas, Trajes e Revestimentos.\n\nCom uma **Ação Padrão**, você altera cores, estampas e aparência externa da peça para outra roupa de corte semelhante. O efeito dura até ser alterado ou até você retirá-la. Ele não muda seu rosto, voz, tamanho ou os objetos que carrega.\n\nA aparência não modifica peso, proteção ou textura. Um Revestimento pode parecer outro modelo de uniforme, mas continua rígido ao toque e não fica menor. Insígnias copiadas não concedem autoridade; enganar alguém continua dependendo da situação e dos testes apropriados.",
+      "esperado": "**Roupa comum. Grau 3. Efeito: Aparência Mutável.** Compatível com roupas, Trajes e Revestimentos.\n\nCom uma **Ação Padrão**, você altera cores, estampas e aparência externa da peça para outra roupa de corte semelhante. O efeito dura até ser alterado ou até você retirá-la. Ele não muda seu rosto, voz, tamanho ou os objetos que carrega.\n\nA aparência não modifica peso, proteção ou textura. Um Revestimento pode parecer outro modelo de uniforme, mas continua rígido ao toque e não fica menor. Insígnias copiadas não concedem autoridade; enganar alguém continua dependendo da situação e dos testes apropriados.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Traje de Fuga",
+      "obtido": "**Traje 1. Grau 2. Efeito: Costura de Fuga. Uma vez por cena.** Compatível com roupas e Trajes.\n\nQuando estiver Agarrado por outra criatura, use uma **Ação Bônus** para encerrar um desses agarrões. A peça se desfaz em tiras por um instante e se recompõe sobre você, escapando da mão, boca ou membro que o prendia.\n\nVocê permanece no mesmo espaço. O efeito não concede movimento nem desfaz outros agarrões. Cordas, algemas, gaiolas, barreiras e efeitos que imponham outra forma de imobilização continuam valendo. A aparência recomposta não restaura uma peça que já estava destruída.",
+      "esperado": "**Traje 1. Grau 2. Efeito: Costura de Fuga. Uma vez por cena.** Compatível com roupas e Trajes.\n\nQuando estiver Agarrado por outra criatura, use uma **Ação Bônus** para encerrar um desses agarrões. A peça se desfaz em tiras por um instante e se recompõe sobre você, escapando da mão, boca ou membro que o prendia.\n\nVocê permanece no mesmo espaço. O efeito não concede movimento nem desfaz outros agarrões. Cordas, algemas, gaiolas, barreiras e efeitos que imponham outra forma de imobilização continuam valendo. A aparência recomposta não restaura uma peça que já estava destruída.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Manto de Passagem",
+      "obtido": "**Roupa comum. Grau 1. Efeito: Passagem. Uma vez por descanso curto.** Compatível com roupas e Trajes.\n\nCom uma **Ação Bônus**, teleporte-se com seu equipamento para um espaço desocupado que consiga ver a até **9 m**, com apoio capaz de sustentar você. O destino precisa comportar seu corpo e a carga. O efeito não transporta outra criatura.\n\nA passagem não provoca ataques de oportunidade. Um agarrão mantido pelo corpo de outra criatura termina se ela ficar fora de alcance. Cordas, algemas e objetos que prendem você são levados junto se puderem ser transportados; uma ligação presa a algo que não será levado impede a ativação.\n\nO efeito não atravessa uma barreira que impeça teleporte ou saída de sua área. Não revela destinos, não permite entrar num espaço ocupado e não concede novo movimento depois da chegada.\n\n> **Exemplo:** uma personagem cercada vê uma varanda vazia a 6 m. Pode usar o Manto para chegar lá, se houver apoio. Não pode escolher o interior de um quarto fechado que não consiga ver, nem levar um aliado agarrado a ela.",
+      "esperado": "**Roupa comum. Grau 1. Efeito: Passagem. Uma vez por descanso curto.** Compatível com roupas e Trajes.\n\nCom uma **Ação Bônus**, teleporte-se com seu equipamento para um espaço desocupado que consiga ver a até **9 m**, com apoio capaz de sustentar você. O destino precisa comportar seu corpo e a carga. O efeito não transporta outra criatura.\n\nA passagem não provoca ataques de oportunidade. Um agarrão mantido pelo corpo de outra criatura termina se ela ficar fora de alcance. Cordas, algemas e objetos que prendem você são levados junto se puderem ser transportados; uma ligação presa a algo que não será levado impede a ativação.\n\nO efeito não atravessa uma barreira que impeça teleporte ou saída de sua área. Não revela destinos, não permite entrar num espaço ocupado e não concede novo movimento depois da chegada.\n\n> **Exemplo:** uma personagem cercada vê uma varanda vazia a 6 m. Pode usar o Manto para chegar lá, se houver apoio. Não pode escolher o interior de um quarto fechado que não consiga ver, nem levar um aliado agarrado a ela.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Revestimento Ancorado",
+      "obtido": "**Revestimento 1. Grau 2. Efeito: Âncora. Uma vez por cena.** Compatível com Revestimentos e escudos.\n\nQuando um efeito estiver prestes a empurrar, puxar ou arrastar você contra sua vontade, pode gastar sua **Reação** para permanecer no lugar. Precisa estar em contato com uma superfície capaz de sustentar você.\n\nÂncora impede somente esse deslocamento. Dano, agarrão, Derrubado e outras consequências do mesmo efeito continuam valendo. Ela não impede teleporte, queda por falta de chão ou o movimento da superfície em que você está apoiado.",
+      "esperado": "**Revestimento 1. Grau 2. Efeito: Âncora. Uma vez por cena.** Compatível com Revestimentos e escudos.\n\nQuando um efeito estiver prestes a empurrar, puxar ou arrastar você contra sua vontade, pode gastar sua **Reação** para permanecer no lugar. Precisa estar em contato com uma superfície capaz de sustentar você.\n\nÂncora impede somente esse deslocamento. Dano, agarrão, Derrubado e outras consequências do mesmo efeito continuam valendo. Ela não impede teleporte, queda por falta de chão ou o movimento da superfície em que você está apoiado.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Escudo da Retirada",
+      "obtido": "**Escudo Médio. Grau 2. Efeito: Retirada. Uma vez por cena.** Compatível com escudos.\n\nDepois que uma criatura errar um ataque contra você, pode gastar sua **Reação** para permitir que um aliado disposto, a até **1,5 m** de você, se mova até **3 m** imediatamente. Ele precisa poder se mover e terminar em espaço livre com apoio.\n\nEsse movimento não provoca ataques de oportunidade, mas respeita obstáculos e os custos do terreno. O aliado não recebe ataque ou outra ação. O efeito só pode ser usado enquanto você estiver usando o escudo.",
+      "esperado": "**Escudo Médio. Grau 2. Efeito: Retirada. Uma vez por cena.** Compatível com escudos.\n\nDepois que uma criatura errar um ataque contra você, pode gastar sua **Reação** para permitir que um aliado disposto, a até **1,5 m** de você, se mova até **3 m** imediatamente. Ele precisa poder se mover e terminar em espaço livre com apoio.\n\nEsse movimento não provoca ataques de oportunidade, mas respeita obstáculos e os custos do terreno. O aliado não recebe ataque ou outra ação. O efeito só pode ser usado enquanto você estiver usando o escudo.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Escudo Suspenso",
+      "obtido": "**Escudo Médio. Grau 1. Efeito: Suspensão. Uma vez por descanso curto.** Compatível com escudos.\n\nCom o escudo preparado, use uma **Ação Bônus** para fazê-lo flutuar junto de você por **1 minuto**, liberando sua mão. Durante esse período, ele concede sua proteção e mantém seu teto de Destreza e requisito de Força. Continua sendo seu único escudo em uso.\n\nEnquanto flutua, ele ocupa **um dos dois lugares de itens vestidos com efeito**. É preciso ter esse lugar livre ao ativar. Ele não protege outra pessoa, não ataca e não libera outro escudo para uso simultâneo.\n\nO efeito termina se você o encerrar sem ação, ficar inconsciente ou se o escudo for destruído. Ao terminar, ele cai no seu espaço; se houver uma mão livre, pode recebê-lo nela já preparado. Não é preciso gastar outra ação para segurá-lo nessa situação.",
+      "esperado": "**Escudo Médio. Grau 1. Efeito: Suspensão. Uma vez por descanso curto.** Compatível com escudos.\n\nCom o escudo preparado, use uma **Ação Bônus** para fazê-lo flutuar junto de você por **1 minuto**, liberando sua mão. Durante esse período, ele concede sua proteção e mantém seu teto de Destreza e requisito de Força. Continua sendo seu único escudo em uso.\n\nEnquanto flutua, ele ocupa **um dos dois lugares de itens vestidos com efeito**. É preciso ter esse lugar livre ao ativar. Ele não protege outra pessoa, não ataca e não libera outro escudo para uso simultâneo.\n\nO efeito termina se você o encerrar sem ação, ficar inconsciente ou se o escudo for destruído. Ao terminar, ele cai no seu espaço; se houver uma mão livre, pode recebê-lo nela já preparado. Não é preciso gastar outra ação para segurá-lo nessa situação.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Revestimento Quebranto",
+      "obtido": "**Revestimento 1. Grau 2. Efeito: Quebranto. Uma vez por cena.** Compatível com Trajes, Revestimentos e escudos.\n\nAntes de rolar um **TR contra um feitiço**, pode gastar sua **Reação** para obter um sucesso comum nesse teste, sem rolar. Resolva as consequências previstas para o sucesso; se ainda houver dano ou efeito parcial, ele acontece.\n\nQuebranto não afeta outras criaturas, não encerra automaticamente o feitiço e não se aplica a ataques contra a Defesa ou Bloquear. Um efeito que não permita TR não oferece este gatilho.",
+      "esperado": "**Revestimento 1. Grau 2. Efeito: Quebranto. Uma vez por cena.** Compatível com Trajes, Revestimentos e escudos.\n\nAntes de rolar um **TR contra um feitiço**, pode gastar sua **Reação** para obter um sucesso comum nesse teste, sem rolar. Resolva as consequências previstas para o sucesso; se ainda houver dano ou efeito parcial, ele acontece.\n\nQuebranto não afeta outras criaturas, não encerra automaticamente o feitiço e não se aplica a ataques contra a Defesa ou Bloquear. Um efeito que não permita TR não oferece este gatilho.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Medalhão de Presságio",
+      "obtido": "**Acessório pequeno. Grau 3. Efeito: Presságio.** Compatível com acessórios.\n\nO medalhão vibra enquanto houver uma maldição a até **9 m**, sem uma barreira física fechada separando vocês. Ele informa somente que há alguma maldição nessa área, sem indicar direção, quantidade, grau ou identidade.\n\nO aviso não concede visão da criatura nem acerto automático contra ela. Se um efeito esconder a energia da maldição dessa percepção, ele também impede o aviso do medalhão.",
+      "esperado": "**Acessório pequeno. Grau 3. Efeito: Presságio.** Compatível com acessórios.\n\nO medalhão vibra enquanto houver uma maldição a até **9 m**, sem uma barreira física fechada separando vocês. Ele informa somente que há alguma maldição nessa área, sem indicar direção, quantidade, grau ou identidade.\n\nO aviso não concede visão da criatura nem acerto automático contra ela. Se um efeito esconder a energia da maldição dessa percepção, ele também impede o aviso do medalhão.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Capa Perene",
+      "obtido": "**Roupa comum. Grau 3. Efeito: Perene.** Compatível com qualquer tipo de ferramenta.\n\nA peça não sofre deterioração por uso comum, ferrugem, umidade ou desgaste do material. Fora de combate, um minuto de cuidado remove dela sujeira e danos superficiais, como pequenos rasgos ou arranhões.\n\nEla ainda pode ser danificada por ataques, quebrada deliberadamente ou destruída por um efeito que alcance objetos. Perene não protege seu portador, não repõe munições ou consumíveis e não recupera o poder de uma ferramenta esgotada por Desgaste.",
+      "esperado": "**Roupa comum. Grau 3. Efeito: Perene.** Compatível com qualquer tipo de ferramenta.\n\nA peça não sofre deterioração por uso comum, ferrugem, umidade ou desgaste do material. Fora de combate, um minuto de cuidado remove dela sujeira e danos superficiais, como pequenos rasgos ou arranhões.\n\nEla ainda pode ser danificada por ataques, quebrada deliberadamente ou destruída por um efeito que alcance objetos. Perene não protege seu portador, não repõe munições ou consumíveis e não recupera o poder de uma ferramenta esgotada por Desgaste.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Machado Contrapeso",
+      "obtido": "**Arma: Machado de Guerra. Grau 1. Efeito: Contrapeso.** Compatível com armas, Revestimentos e escudos.\n\nEnquanto usar esta peça, você ignora **o requisito de Força dela**. Os demais requisitos continuam valendo. O efeito não modifica seu atributo, o teto de Destreza da proteção, as mãos necessárias ou o Volume.\n\nUma personagem ainda precisa conseguir carregar o conjunto. Contrapeso também não permite usar uma peça que seu corpo não possa vestir ou empunhar.",
+      "esperado": "**Arma: Machado de Guerra. Grau 1. Efeito: Contrapeso.** Compatível com armas, Revestimentos e escudos.\n\nEnquanto usar esta peça, você ignora **o requisito de Força dela**. Os demais requisitos continuam valendo. O efeito não modifica seu atributo, o teto de Destreza da proteção, as mãos necessárias ou o Volume.\n\nUma personagem ainda precisa conseguir carregar o conjunto. Contrapeso também não permite usar uma peça que seu corpo não possa vestir ou empunhar.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Colar de Ar",
+      "obtido": "**Acessório pequeno. Grau 2. Efeito: Reserva de Ar. Uma vez por descanso curto.** Compatível com acessórios, roupas e Revestimentos.\n\nCom uma **Ação Bônus**, crie uma película de ar ao redor de seu rosto. Por **10 minutos**, você pode respirar submerso e falar normalmente. A fala continua sujeita à propagação de som no ambiente.\n\nO efeito não concede natação, não impede correntes de água e não protege o resto do corpo de frio, calor, pressão ou líquidos nocivos. Também não filtra gases nem protege do vácuo. Retirar a peça encerra o efeito.",
+      "esperado": "**Acessório pequeno. Grau 2. Efeito: Reserva de Ar. Uma vez por descanso curto.** Compatível com acessórios, roupas e Revestimentos.\n\nCom uma **Ação Bônus**, crie uma película de ar ao redor de seu rosto. Por **10 minutos**, você pode respirar submerso e falar normalmente. A fala continua sujeita à propagação de som no ambiente.\n\nO efeito não concede natação, não impede correntes de água e não protege o resto do corpo de frio, calor, pressão ou líquidos nocivos. Também não filtra gases nem protege do vácuo. Retirar a peça encerra o efeito.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Lâmina de Cisão",
+      "obtido": "**Arma: Katana. Grau 1. Efeito: Cisão.** Compatível com armas de combate corpo a corpo.\n\nO dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.\n\nCisão não acrescenta dano e não permite escolher, a cada golpe, atingir vida em vez de Integridade. Para isso, use outra arma. As consequências da perda de Integridade e os alvos que podem ser afetados são tratados em Dano na alma.",
+      "esperado": "**Arma: Katana. Grau 1. Efeito: Cisão.** Compatível com armas de combate corpo a corpo.\n\nO dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma. A vida não é descontada por esse dano. Dados e valores adicionais que pertençam ao próprio ataque acompanham a conversão; outro efeito com resolução separada segue sua própria descrição.\n\nCisão não acrescenta dano e não permite escolher, a cada golpe, atingir vida em vez de Integridade. Para isso, use outra arma. As consequências da perda de Integridade e os alvos que podem ser afetados são tratados em Dano na alma.",
+      "ok": true
+    },
+    {
+      "caso": "Ficha especial completa: Lança do Anátema",
+      "obtido": "**Arma: Lança. Grau especial. Efeito: Anátema.** Peça única desta campanha.\n\nA ponta rompe efeitos de energia que encontra. O poder tem duas aplicações, ambas exigindo que você empunhe a lança.\n\n**Abrir uma barreira.** Com uma **Ação Padrão**, toque uma barreira de feitiço ao alcance normal da lança. Faça um **TR Físico contra a CD de quem criou o feitiço**. Num sucesso, abra uma passagem de **1,5 m** de largura e altura até o fim do seu turno. A abertura só funciona naquele ponto e se fecha depois; a barreira permanece no restante da área.\n\nA abertura não desfaz um Domínio, um pacto ou uma técnica inteira. Uma barreira com regra própria de ruptura ou que não seja produzida por um feitiço exige seu procedimento específico. A lança não elimina a energia, os recursos ou os poderes de uma criatura ao acertá-la.\n\n**Interromper um feitiço. Uma vez por cena.** Quando um feitiço estiver prestes a afetar você, antes de sua rolagem de ataque, do seu TR ou da aplicação automática, gaste sua **Reação** e faça um **TR Físico contra a CD do conjurador**. Num sucesso, você não sofre os efeitos daquela aplicação do feitiço. Em falha, resolva o feitiço normalmente, incluindo o TR que ele exigir.\n\nSe o feitiço atingir uma área ou vários alvos, os demais continuam sujeitos a ele. O efeito não remove uma condição já aplicada, não interrompe dano que já foi resolvido e não anula ataques comuns com armas. Cada nova aplicação exige sua resolução normal.\n\n> **Exemplo:** uma explosão atingiria três personagens. O portador da lança passa no TR de Anátema e evita os efeitos sobre si. Os outros dois ainda resolvem a explosão. Ele já gastou sua Reação e o uso de Anátema daquela cena.",
+      "esperado": "**Arma: Lança. Grau especial. Efeito: Anátema.** Peça única desta campanha.\n\nA ponta rompe efeitos de energia que encontra. O poder tem duas aplicações, ambas exigindo que você empunhe a lança.\n\n**Abrir uma barreira.** Com uma **Ação Padrão**, toque uma barreira de feitiço ao alcance normal da lança. Faça um **TR Físico contra a CD de quem criou o feitiço**. Num sucesso, abra uma passagem de **1,5 m** de largura e altura até o fim do seu turno. A abertura só funciona naquele ponto e se fecha depois; a barreira permanece no restante da área.\n\nA abertura não desfaz um Domínio, um pacto ou uma técnica inteira. Uma barreira com regra própria de ruptura ou que não seja produzida por um feitiço exige seu procedimento específico. A lança não elimina a energia, os recursos ou os poderes de uma criatura ao acertá-la.\n\n**Interromper um feitiço. Uma vez por cena.** Quando um feitiço estiver prestes a afetar você, antes de sua rolagem de ataque, do seu TR ou da aplicação automática, gaste sua **Reação** e faça um **TR Físico contra a CD do conjurador**. Num sucesso, você não sofre os efeitos daquela aplicação do feitiço. Em falha, resolva o feitiço normalmente, incluindo o TR que ele exigir.\n\nSe o feitiço atingir uma área ou vários alvos, os demais continuam sujeitos a ele. O efeito não remove uma condição já aplicada, não interrompe dano que já foi resolvido e não anula ataques comuns com armas. Cada nova aplicação exige sua resolução normal.\n\n> **Exemplo:** uma explosão atingiria três personagens. O portador da lança passa no TR de Anátema e evita os efeitos sobre si. Os outros dois ainda resolvem a explosão. Ele já gastou sua Reação e o uso de Anátema daquela cena.",
+      "ok": true
+    },
+    {
+      "caso": "17 ferramentas",
+      "obtido": 17,
+      "esperado": 17,
+      "ok": true
+    },
+    {
+      "caso": "39 páginas lógicas",
+      "obtido": 39,
+      "esperado": 39,
+      "ok": true
+    },
+    {
+      "caso": "Âncoras únicas",
+      "obtido": 39,
+      "esperado": 39,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eq-manipular",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eq-propriedades",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eq-oculta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eq-manipular",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eqi-objetos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eq-propriedades",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eq-oculta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eq-oculta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eqp-traje",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eqp-escudo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eqp-vestir",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eqm-recarga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eqi-objetos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eqc-precos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eqc-dinheiro",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eqf-desgaste",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eqf-uso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Destino local: eq-manipular",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Equipamento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Características das armas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Treino e Força",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Carga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Sacar e guardar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Trocar de arma",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Mãos disponíveis",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Usar objetos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Ação e teste",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Falha e repetição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Ferramentas amaldiçoadas e objetos resistentes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Propriedades",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Par e crítico",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Armas escondidas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Observação e revista",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Outras armas e restrições",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Proteção",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Uniforme",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Escudo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Requisitos e carga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Trajes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Situação do Traje",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Escolhas e progressão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Situação própria",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Revestimentos e escudos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Revestimentos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Escudos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Mão ocupada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Vestir e retirar equipamento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Proteção durante a troca",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Preparar e guardar escudo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Munição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Arcos e bestas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Armas de fogo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Recarregar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Depois de disparar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Recarga completa ou parcial",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Recarga entre ataques",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Reservas e reposição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Transporte",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Reposição e transferência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Munição inicial",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Recuperar projéteis",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Armas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Treino por categoria",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Dados da arma",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Preços",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Lâminas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Lâmina Curta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Lâmina Longa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Armas de impacto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Massa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Porrete",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Manopla",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Machados, foices e hastes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Machado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Ceifa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Armas Longas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Armas flexíveis e de arremesso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Flexível",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Arremesso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Armas de disparo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Yumi",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Balestra",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Arma de Fogo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Itens comuns",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Equipamento de missão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Transporte e consumo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Exploração e ferramentas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Lanterna",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Corda e kit de escalada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Pé de cabra e ferramentas de ofício",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Telefone",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Fechaduras e contenção",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Abrir fechaduras",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Prender alguém",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Soltar a contenção",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Danificar objetos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Vida do objeto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Objetos e efeitos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Barreiras de energia",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Armas improvisadas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Objeto semelhante a uma arma",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Outros objetos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Usar uma arma de outro modo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Dinheiro e acesso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Dinheiro",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Equipamento restrito",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Compra e uso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Preços de proteção",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Uniforme da instituição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Escolher uma peça",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Equipamento inicial",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Montar o inventário",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Exemplos de compras",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Compras e reposição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Repor suprimentos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Equipamento do grupo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Venda, troca e conserto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Equipamento amaldiçoado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Tipos de ferramenta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Características da base",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Graus das ferramentas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Grau e patente",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Efeito e aparência",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Números e progressão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Itens em uso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Preparar e retirar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Usos e cópias",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Aquisição e criação",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Conhecer o item",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Criar uma ferramenta",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Volume",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Armas amaldiçoadas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Kunai Fiel",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Tanto Aferido",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Espada Avulsa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Corrente Extensível",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Roupas e trajes",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Uniforme Mutável",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Traje de Fuga",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Manto de Passagem",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Proteções amaldiçoadas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Revestimento Ancorado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Escudo da Retirada",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Escudo Suspenso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Revestimento Quebranto",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Acessórios e outros efeitos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Medalhão de Presságio",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Capa Perene",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Machado Contrapeso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Colar de Ar",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Armas de grau elevado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Lâmina de Cisão",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Lança do Anátema",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Desgaste",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Missões de uso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Esgotamento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Objetos amaldiçoados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Atração e selos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Encarnação",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Título direto: Guarda",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Combate: múltiplos de1,5m",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par1d4: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par1d6: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par1d8: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par1d10: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par1d12: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par2d6: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par2d8: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par2d10: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par4d6: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par4d8: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par4d10: limites",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par1d6 média161/36",
+      "obtido": "161/36",
+      "esperado": "161/36",
+      "ok": true
+    },
+    {
+      "caso": "Par2d6 não é2Par1d6",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Par: maior soma, não por dado",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "Par crítico conjunto4d6",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "caso": "Conservação em transições de munição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Uso inicial",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Outra cópia não renova pessoa",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Emprestar não renova objeto",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Outra cópia e pessoa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Descanso sem peça não renova peça",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Dois relógios recuperados",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "20 gatilhos,20 cópias Avulsa:2 usos",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Máximo quatro efeitos em uso",
+      "obtido": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "caso": "Escudo flutuante usa vaga",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Arma2 +flutuante+roupa",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Dois uniformes mágicos",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Mutação vaga grátis permite5",
+      "obtido": 5,
+      "esperado": 5,
+      "ok": true
+    },
+    {
+      "caso": "Exploração Volume",
+      "obtido": "13/10",
+      "esperado": "13/10",
+      "ok": true
+    },
+    {
+      "caso": "Exploração preço",
+      "obtido": "13000",
+      "esperado": 13000,
+      "ok": true
+    },
+    {
+      "caso": "Kit Katana Volume",
+      "obtido": "31/10",
+      "esperado": "31/10",
+      "ok": true
+    },
+    {
+      "caso": "Kit Katana saldo",
+      "obtido": "77000",
+      "esperado": 77000,
+      "ok": true
+    },
+    {
+      "caso": "Hankyū+aljava+Traje1",
+      "obtido": "9/5",
+      "esperado": "9/5",
+      "ok": true
+    },
+    {
+      "caso": "Pistola+duasreservas+Traje1",
+      "obtido": "6/5",
+      "esperado": "6/5",
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora comreservas/exploração",
+      "obtido": "33/5",
+      "esperado": "33/5",
+      "ok": true
+    },
+    {
+      "caso": "Metralhadora não obrigaForça7",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Naginata Força0 carga cabe mas manejo falha",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Reposição3Rifles+lanterna+pilhas",
+      "obtido": 8000,
+      "esperado": 8000,
+      "ok": true
+    },
+    {
+      "caso": "Volume reposição",
+      "obtido": "6/5",
+      "esperado": "6/5",
+      "ok": true
+    },
+    {
+      "caso": "Matriz completa de carga",
+      "obtido": 142688,
+      "esperado": 142688,
+      "ok": true
+    },
+    {
+      "caso": "Defesa Traje2+Médio Dex4",
+      "obtido": 17,
+      "esperado": 17,
+      "ok": true
+    },
+    {
+      "caso": "Defesa Revest3+Torre",
+      "obtido": 19,
+      "esperado": 19,
+      "ok": true
+    },
+    {
+      "caso": "Saldo inicial: Pistola",
+      "obtido": "25000",
+      "esperado": 25000,
+      "ok": true
+    },
+    {
+      "caso": "Saldo inicial: Revólver",
+      "obtido": "0",
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Prêmio de preço Revólver20%",
+      "obtido": "6/5",
+      "esperado": "6/5",
+      "ok": true
+    },
+    {
+      "caso": "Alcance Revólver33%",
+      "obtido": "4/3",
+      "esperado": "4/3",
+      "ok": true
+    },
+    {
+      "caso": "Força4→2 Revest2 suspenso mantém teto",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "Força5→4 Torre suspensa mantém teto",
+      "obtido": 11,
+      "esperado": 11,
+      "ok": true
+    },
+    {
+      "caso": "Contrapeso permite requisito mas não carga",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Corpo60kg Força0 fronteira",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Corpo61kg não cabeForça0",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Corpo60kg+itens1+portador2 requerForça3",
+      "obtido": "8",
+      "esperado": 8,
+      "ok": true
+    },
+    {
+      "caso": "Traje1min são10 rodadas",
+      "obtido": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "caso": "Revest vestir10min100rodadas",
+      "obtido": 100,
+      "esperado": 100,
+      "ok": true
+    },
+    {
+      "caso": "Revest retirar5min50rodadas",
+      "obtido": 50,
+      "esperado": 50,
+      "ok": true
+    },
+    {
+      "caso": "Pausa após4turnos conserva24seg",
+      "obtido": 24,
+      "esperado": 24,
+      "ok": true
+    },
+    {
+      "caso": "Dois trabalhos4+6completamTraje",
+      "obtido": 60,
+      "esperado": 60,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 0",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 4",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 6",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 7",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 8",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 9",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 10",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 11",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 12",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 13",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 14",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 15",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 16",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 17",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 18",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 19",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 20",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 21",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 22",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 23",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 24",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 25",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 26",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 27",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 28",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 29",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 30",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 31",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 32",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 33",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 34",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 35",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 36",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 37",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 38",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 39",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Recuperação projéteis 40",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Besta criação total20",
+      "obtido": 20,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "caso": "Pistola inicial6",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "caso": "MG inicial12",
+      "obtido": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "caso": "Parcial com1tiro Volumeinteiro",
+      "obtido": "1/5",
+      "esperado": "1/5",
+      "ok": true
+    },
+    {
+      "caso": "Recarga1/2 comvantagem",
+      "obtido": "1/100",
+      "esperado": "1/100",
+      "ok": true
+    },
+    {
+      "caso": "Recarga1/2 desvantagem",
+      "obtido": "19/100",
+      "esperado": "19/100",
+      "ok": true
+    },
+    {
+      "caso": "Recarga normal10%",
+      "obtido": "1/10",
+      "esperado": "1/10",
+      "ok": true
+    },
+    {
+      "caso": "TRigual65%",
+      "obtido": "13/20",
+      "esperado": "13/20",
+      "ok": true
+    },
+    {
+      "caso": "3d8 sucesso1d8",
+      "obtido": 4.5,
+      "esperado": 4.5,
+      "ok": true
+    },
+    {
+      "caso": "3d8 médiaTR7.65",
+      "obtido": 7.65,
+      "esperado": 7.65,
+      "ok": true
+    },
+    {
+      "caso": "Desgaste sequência preservada",
+      "obtido": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "esperado": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: Não concede outro ataque",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: Não concede outro ataque",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: A arma e as mãos necessárias ficam ocupadas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: A arma e as mãos necessárias ficam ocupadas",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: livres de outros objetos ou tarefas",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: livres de outros objetos ou tarefas",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: Rodada inteira",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: Rodada inteira",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: 6 segundos",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: 6 segundos",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: a peça não está pronta para uso",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: a peça não está pronta para uso",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: termine de retirar o anterior",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: termine de retirar o anterior",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: Seu teto de Destreza continua valendo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: Seu teto de Destreza continua valendo",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: sem acrescentar nem consumir munição",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: sem acrescentar nem consumir munição",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: cada nova manipulação simples exige uma Ação de Movimento inteira",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: cada nova manipulação simples exige uma Ação de Movimento inteira",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: se essa mão estiver livre",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: se essa mão estiver livre",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: sem crítico",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: sem crítico",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: somente a Integridade",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: somente a Integridade",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: Cópias do mesmo efeito compartilham o limite por personagem",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: Cópias do mesmo efeito compartilham o limite por personagem",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Contrato atual: antes de começar a preparar o novo",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Mutação textual recusada: antes de começar a preparar o novo",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Não ensina classes em equipamento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ]
+}

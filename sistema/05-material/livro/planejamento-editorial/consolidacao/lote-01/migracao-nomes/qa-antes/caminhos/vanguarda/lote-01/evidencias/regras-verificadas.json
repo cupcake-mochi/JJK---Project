@@ -1,0 +1,265 @@
+{
+  "ok": true,
+  "sha256_texto": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
+  "verificacoes": 70,
+  "casos": [
+    {
+      "caso": "Abrir e Conduzir no mesmo turno",
+      "obtido": [
+        1,
+        18,
+        2
+      ],
+      "esperado": [
+        1,
+        18,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Não Concluir depois de Conduzir",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Conclusão no turno seguinte",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Erro/resistência não devolvem Sequência",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Não abrir após conclusão",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Erro cobra PE e termina",
+      "obtido": [
+        18,
+        null
+      ],
+      "esperado": [
+        18,
+        null
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Ataque restante pode abrir",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Não conduz duas vezes após reabrir",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Persistência mantém erro e prazo",
+      "obtido": [
+        "a",
+        0,
+        2,
+        0
+      ],
+      "esperado": [
+        "a",
+        0,
+        2,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Segundo turno seguinte ainda válido",
+      "obtido": "a",
+      "esperado": "a",
+      "ok": true
+    },
+    {
+      "caso": "Expira depois do segundo turno seguinte",
+      "obtido": null,
+      "esperado": null,
+      "ok": true
+    },
+    {
+      "caso": "Acerto renova prazo",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Duas conduções habilitam Dupla",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Compasso comum sem Ação Atacar",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Bote transfere adicional à Bônus",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Ataque Extra gasto não reaparece",
+      "obtido": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "caso": "Ação Atacar normal nível7",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "RifleX4 com estoque3 não fabrica quarta unidade",
+      "obtido": 3,
+      "esperado": 3,
+      "ok": true
+    },
+    {
+      "caso": "Supressão exige duas carregadas",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "RupturaX4 repõe no máximo2",
+      "obtido": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "caso": "Romper Contato usa munição da reserva",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "caso": "Farpa preservada por Acionar mantém uma vaga",
+      "obtido": [
+        0,
+        1
+      ],
+      "esperado": [
+        0,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Dupla paga dois efeitos, um virote não paga ambos",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Besta carregada sem mão consome apenas a colocada",
+      "obtido": [
+        true,
+        0,
+        7
+      ],
+      "esperado": [
+        true,
+        0,
+        7
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta vazia sem mão não recarrega",
+      "obtido": [
+        false,
+        0,
+        7
+      ],
+      "esperado": [
+        false,
+        0,
+        7
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Besta vazia com mão coloca e consome uma reserva",
+      "obtido": [
+        true,
+        0,
+        6
+      ],
+      "esperado": [
+        true,
+        0,
+        6
+      ],
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoFalse/resistênciaFalse/alcanceFalse",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoFalse/resistênciaFalse/alcanceTrue",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoFalse/resistênciaTrue/alcanceFalse",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoFalse/resistênciaTrue/alcanceTrue",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoTrue/resistênciaFalse/alcanceFalse",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoTrue/resistênciaFalse/alcanceTrue",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoTrue/resistênciaTrue/alcanceFalse",
+      "obtido": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "caso": "Aposta acertoTrue/resistênciaTrue/alcanceTrue",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    }
+  ]
+}

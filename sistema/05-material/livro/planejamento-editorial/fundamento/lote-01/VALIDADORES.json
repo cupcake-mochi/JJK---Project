@@ -1,0 +1,161 @@
+{
+  "sha256_texto": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+  "protocolo": "../../validacao-editorial/PROTOCOLO-COMPLETO.md",
+  "validadores": [
+    {
+      "id": "V01",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "ESTRUTURA.json",
+        "ALTERACOES.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V02",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "evidencias/fontes-preservadas.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V03",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/regras-verificadas.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V04",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "auditar.py",
+        "evidencias/auditoria-numerica.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V05",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-E-FONTES.md",
+        "TESTE-DE-MESA.md"
+      ],
+      "observacao": "Comparação quantitativa dirigida, sem playtest humano. Riscos de Controle/Rajada, áreas, cura e personagens completos permanecem na fila de validação do conjunto."
+    },
+    {
+      "id": "V06",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "MATRIZ-AUDITADA.json",
+        "sincronizacoes"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V07",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json",
+        "CONFERENCIA.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V08",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V09",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "REVISAO-DE-VOZ.md",
+        "evidencias/REVISAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V10",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/LOCALIZACAO-EDITORIAL.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V11",
+      "estado": "sem_nova_alegacao_canonica",
+      "evidencias": [
+        "REVISAO-E-FONTES.md"
+      ],
+      "observacao": "Exemplos originais do Projeto M e regras de jogo. Não se atribuiu o novo catálogo ao cânone; limites de acesso documental registrados."
+    },
+    {
+      "id": "V12",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "evidencias/fundamento-maxima-ultima-leitura.md",
+        "evidencias/r06-visual-voz-1-15.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    },
+    {
+      "id": "V13",
+      "estado": "concluido",
+      "evidencias": [
+        "CONFERENCIA.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório.",
+      "evidencia": "CONFERENCIA.json"
+    },
+    {
+      "id": "V14",
+      "estado": "concluido",
+      "evidencias": [
+        "evidencias/inspecao-visual.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório.",
+      "evidencia": "evidencias/inspecao-visual.json e COMPARACAO-PIXELS-FINAL.json"
+    },
+    {
+      "id": "V15",
+      "estado": "revisado_no_escopo",
+      "evidencias": [
+        "ALTERACOES.json",
+        "MANIFESTO.json"
+      ],
+      "observacao": "Critério examinado na fonte atual; limites e dependências estão no relatório."
+    }
+  ],
+  "teste_humano": false,
+  "playtest": false,
+  "integrado": false,
+  "dependencias": [
+    "R03 Condição/Amparo",
+    "R11/R12 ciclo da entidade",
+    "Revisão conjunta de Morrendo/Integridade"
+  ],
+  "revisao_adicional": "Remissão FU-56 revisada no dono R09, sem mudança numérica. Modelos e PDF conferidos novamente; página9 reinspecionada, demais28 preservadas pixel a pixel.",
+  "fechamento_nominal": {
+    "sha256_texto": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+    "evidencia": "evidencias/FECHAMENTO-NOMES-E-REMISSOES.md",
+    "visual": "concluido"
+  },
+  "integracao_final": {
+    "sha256_texto_atual": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+    "sha256_texto_revisado_antes_da_montagem": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+    "alteracoes_de_integracao": 1,
+    "mudancas_mecanicas_nesta_etapa": false,
+    "evidencia_delta": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+    "escopo": "V01–V12 reaproveitados das revisões registradas com revisão do delta de remissões; V13–V15 do PDF entregue estão no dossiê da consolidação. Provas individuais são históricas, não uma segunda edição final."
+  }
+}

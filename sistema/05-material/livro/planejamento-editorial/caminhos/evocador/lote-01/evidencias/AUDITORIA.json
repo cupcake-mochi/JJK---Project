@@ -1,0 +1,1477 @@
+{
+  "ok": true,
+  "manuscritos_auditados": {
+    "sistema/05-material/livro/planejamento-editorial/caminhos/evocador/lote-01/EVOCADOR.md": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083"
+  },
+  "sha256_texto": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
+  "aprovado": true,
+  "quantidades": {
+    "verificacoes": 126,
+    "casos": 73,
+    "perfis_probabilidade": 19,
+    "mutacoes": 6
+  },
+  "verificacoes": [
+    {
+      "nome": "fonte_preservada_integrado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_manual35",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_contrato331",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_edicao331",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_original_consolidado",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "fonte_preservada_manual60",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "manual_integrado_identicos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "33_paginas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "180_400_palavras",
+      "passou": true,
+      "detalhe": {
+        "evocador": 295,
+        "ev-vinculo": 324,
+        "ev-usos": 303,
+        "ev-aprimoramentos": 263,
+        "ev-intervencoes": 285,
+        "ev-posicao": 255,
+        "ev-preparacao": 275,
+        "ev-complementar": 243,
+        "ev-combinar": 311,
+        "ev-combinada": 329,
+        "ev-principal": 307,
+        "ev-principal-especial": 292,
+        "ev-principal-troca": 257,
+        "ev-principal-protecao": 376,
+        "ev-principal-continuidade": 319,
+        "ev-principal-reflexa": 287,
+        "ev-parceria": 252,
+        "ev-parceria-aprimoramentos": 391,
+        "ev-parceria-complementar": 223,
+        "ev-parceria-intervencoes": 343,
+        "ev-parceria-cobrir": 267,
+        "ev-parceria-tecnicas": 247,
+        "ev-parceria-resposta": 385,
+        "ev-multiplas": 363,
+        "ev-multiplas-entrada": 275,
+        "ev-multiplas-duplas": 267,
+        "ev-multiplas-protecao": 282,
+        "ev-multiplas-conduzir": 316,
+        "ev-multiplas-retirada": 207,
+        "ev-multiplas-aprimoramentos": 374,
+        "ev-multiplas-formacao": 334,
+        "ev-multiplas-repertorio": 294,
+        "ev-turnos": 331
+      }
+    },
+    {
+      "nome": "sem_titulo_como_ler",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "sem_artigo_inicial",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "sem_legal",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "sem_ponto_virgula",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "medidas_1_5",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_reserva",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_teto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_ganho",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_ofensivo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_normal",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_rerrolagem",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_uma_rerrolagem",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_complementar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_combinacao_pe",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_eficiencia",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_combinada_antes",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_especial_todas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_principal_duas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_principal_uma",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_CP1",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_basica_C0",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_ficha_apenas_permitidas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_continuidade_metade",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_reflexa",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_parceria_ataque",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_parceria_resposta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_cobrir",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_multipla_quatro",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_multipla_uma",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_dupla",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_conceito",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_conduzir",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_dois_principais",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_formacao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_repertorio_attr",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "contrato_fora_corpos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_máximo de **3**",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_um uso ofensivo por rodada",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_todas as suas básicas da rodada disponíveis",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_**4 PE**",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_dois primeiros espaços de feitiço conhecido",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mutacao_A básica continua sendo Classe 0",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "abertura primeiro turno",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "inconsciente não ganha",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "teto não acumula quarto",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "troca conserva usos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "segundo benefício ofensivo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "transferir movimento a outro corpo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "saldo extra acima3",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "corrigir custo especial",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "corrigir segunda vez",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "mudar custo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "recolher sem pontos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "eficiente sem pontos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "desconto não substitui coletiva",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "eficiência atributo0",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "eficiência atributo1",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "eficiência atributo3",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "eficiência atributo4",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "eficiência atributo5",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "eficiência atributo6",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "repertório atributo0",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "repertório atributo1",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "repertório atributo2",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "repertório atributo3",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "repertório atributo4",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "repertório atributo5",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "repertório atributo6",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "movimento (9, 6)",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "movimento (9, 3)",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "movimento (9, 0)",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "movimento (12, 9)",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "movimento (7.5, 9)",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "troca principal saldo0",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "troca principal saldo1",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "troca principal saldo2",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "corpo usado não renova",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "corpo transmissor não renova",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "segunda ativa encerra adicional",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "combinada principal",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "combinada duas entidades",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "combinada rejeita basica gasta",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "combinada rejeita zero basicas",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "combinada rejeita sem bonus",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "combinada rejeita sem movimento",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "combinada rejeita trunfo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "combinada rejeita Carregar",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "combinada rejeita repeticao combate",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "continuidade nivel19",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "continuidade nivel20",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "continuidade nivel21",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "continuidade nivel25",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "continuidade nivel26",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "continuidade nivel30",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "continuidade entidade nivel1",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "resposta entidade27",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "resposta pessoal27",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "manifestacao temporaria nivel11",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "vida apos protecao",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "duplas dois espacos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "duplas terceiro espaco",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "dois espacos nivel2 sobra",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "conducao9mais9",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "conduzir apoiadora longe",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "conduzir fora comando",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "conduzir sem basica",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "corpos2 total6 combate",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "corpos2 total6 fim",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "corpos2 total6 fora",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "corpos quarto fora",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "corpos setimo",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "principal exemplo PE",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "principal exemplo acertos",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "parceria exemplo recurso",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "probabilidades_limites",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "vantagem repetida p50",
+      "passou": true,
+      "detalhe": null
+    },
+    {
+      "nome": "limite_ofensivo_multiple",
+      "passou": true,
+      "detalhe": null
+    }
+  ],
+  "casos": [
+    {
+      "nome": "abertura primeiro turno",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Começa combate zero, ganha um na primeira abertura.",
+      "passou": true
+    },
+    {
+      "nome": "inconsciente não ganha",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Condição suspende ganho, sem apagar a reserva.",
+      "passou": true
+    },
+    {
+      "nome": "teto não acumula quarto",
+      "obtido": 3,
+      "esperado": 3,
+      "motivo": "Reserva máxima3.",
+      "passou": true
+    },
+    {
+      "nome": "troca conserva usos",
+      "obtido": [
+        3,
+        true,
+        {
+          "precisao": "ave"
+        },
+        1.5
+      ],
+      "esperado": [
+        3,
+        true,
+        {
+          "precisao": "ave"
+        },
+        1.5
+      ],
+      "motivo": "Trocar beneficiária não reseta contadores.",
+      "passou": true
+    },
+    {
+      "nome": "segundo benefício ofensivo",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "transferir movimento a outro corpo",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "saldo extra acima3",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "corrigir custo especial",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Custo1 independe da Classe da especial.",
+      "passou": true
+    },
+    {
+      "nome": "corrigir segunda vez",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "mudar custo",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Dois pontos após corrigir gastam reserva3.",
+      "passou": true
+    },
+    {
+      "nome": "recolher sem pontos",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "eficiente sem pontos",
+      "obtido": 0,
+      "esperado": 0,
+      "motivo": "Uso diário reduz1 parazero. Limite da intervenção continua.",
+      "passou": true
+    },
+    {
+      "nome": "desconto não substitui coletiva",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "eficiência atributo0",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Metade para baixo,mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "eficiência atributo1",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Metade para baixo,mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "eficiência atributo3",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Metade para baixo,mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "eficiência atributo4",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Metade para baixo,mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "eficiência atributo5",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Metade para baixo,mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "eficiência atributo6",
+      "obtido": 3,
+      "esperado": 3,
+      "motivo": "Metade para baixo,mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "repertório atributo0",
+      "obtido": 0,
+      "esperado": 0,
+      "motivo": "Valor permanente, sem mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "repertório atributo1",
+      "obtido": 0,
+      "esperado": 0,
+      "motivo": "Valor permanente, sem mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "repertório atributo2",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Valor permanente, sem mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "repertório atributo3",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Valor permanente, sem mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "repertório atributo4",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Valor permanente, sem mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "repertório atributo5",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Valor permanente, sem mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "repertório atributo6",
+      "obtido": 3,
+      "esperado": 3,
+      "motivo": "Valor permanente, sem mínimo1.",
+      "passou": true
+    },
+    {
+      "nome": "movimento (9, 6)",
+      "obtido": 4.5,
+      "esperado": 4.5,
+      "motivo": "Metade da modalidade e saldo, arredondada à escala1,5m.",
+      "passou": true
+    },
+    {
+      "nome": "movimento (9, 3)",
+      "obtido": 3.0,
+      "esperado": 3,
+      "motivo": "Metade da modalidade e saldo, arredondada à escala1,5m.",
+      "passou": true
+    },
+    {
+      "nome": "movimento (9, 0)",
+      "obtido": 0.0,
+      "esperado": 0,
+      "motivo": "Metade da modalidade e saldo, arredondada à escala1,5m.",
+      "passou": true
+    },
+    {
+      "nome": "movimento (12, 9)",
+      "obtido": 6.0,
+      "esperado": 6,
+      "motivo": "Metade da modalidade e saldo, arredondada à escala1,5m.",
+      "passou": true
+    },
+    {
+      "nome": "movimento (7.5, 9)",
+      "obtido": 3.0,
+      "esperado": 3,
+      "motivo": "Metade da modalidade e saldo, arredondada à escala1,5m.",
+      "passou": true
+    },
+    {
+      "nome": "troca principal saldo0",
+      "obtido": 0,
+      "esperado": 0,
+      "motivo": "Exatamente uma ativa antes/depois.",
+      "passou": true
+    },
+    {
+      "nome": "troca principal saldo1",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Exatamente uma ativa antes/depois.",
+      "passou": true
+    },
+    {
+      "nome": "troca principal saldo2",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Exatamente uma ativa antes/depois.",
+      "passou": true
+    },
+    {
+      "nome": "corpo usado não renova",
+      "obtido": 0,
+      "esperado": 0,
+      "motivo": "Histórico do corpo impede duplicação.",
+      "passou": true
+    },
+    {
+      "nome": "corpo transmissor não renova",
+      "obtido": 0,
+      "esperado": 0,
+      "motivo": "Saldo já transferido não reaparece.",
+      "passou": true
+    },
+    {
+      "nome": "segunda ativa encerra adicional",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Permissão de duas depende de exatamenteuma.",
+      "passou": true
+    },
+    {
+      "nome": "combinada principal",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Uma principal pode executar duas especiais diferentes.",
+      "passou": true
+    },
+    {
+      "nome": "combinada duas entidades",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Duas participantes gastam todas suasbásicas.",
+      "passou": true
+    },
+    {
+      "nome": "combinada rejeita basica gasta",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "combinada rejeita zero basicas",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "combinada rejeita sem bonus",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "combinada rejeita sem movimento",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "combinada rejeita trunfo",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "combinada rejeita Carregar",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "combinada rejeita repeticao combate",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "continuidade nivel19",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Limite pela Classe real, não nível/2.",
+      "passou": true
+    },
+    {
+      "nome": "continuidade nivel20",
+      "obtido": 2,
+      "esperado": 2,
+      "motivo": "Limite pela Classe real, não nível/2.",
+      "passou": true
+    },
+    {
+      "nome": "continuidade nivel21",
+      "obtido": 3,
+      "esperado": 3,
+      "motivo": "Limite pela Classe real, não nível/2.",
+      "passou": true
+    },
+    {
+      "nome": "continuidade nivel25",
+      "obtido": 3,
+      "esperado": 3,
+      "motivo": "Limite pela Classe real, não nível/2.",
+      "passou": true
+    },
+    {
+      "nome": "continuidade nivel26",
+      "obtido": 3,
+      "esperado": 3,
+      "motivo": "Limite pela Classe real, não nível/2.",
+      "passou": true
+    },
+    {
+      "nome": "continuidade nivel30",
+      "obtido": 3,
+      "esperado": 3,
+      "motivo": "Limite pela Classe real, não nível/2.",
+      "passou": true
+    },
+    {
+      "nome": "continuidade entidade nivel1",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Principal de nível baixo conserva mínimo1, mas precisa conhecer especiais diferentes.",
+      "passou": true
+    },
+    {
+      "nome": "resposta entidade27",
+      "obtido": 6,
+      "esperado": 6,
+      "motivo": "Classe maior menos1.",
+      "passou": true
+    },
+    {
+      "nome": "resposta pessoal27",
+      "obtido": 4,
+      "esperado": 4,
+      "motivo": "Metade para cima.",
+      "passou": true
+    },
+    {
+      "nome": "manifestacao temporaria nivel11",
+      "obtido": 15,
+      "esperado": 15,
+      "motivo": "57PV de entidade comCon2, teto28.",
+      "passou": true
+    },
+    {
+      "nome": "vida apos protecao",
+      "obtido": 52,
+      "esperado": 52,
+      "motivo": "Exemplo numérico corrigido para ficha realizável.",
+      "passou": true
+    },
+    {
+      "nome": "duplas dois espacos",
+      "obtido": 4,
+      "esperado": 4,
+      "motivo": "Dois espaços dão quatro entidades.",
+      "passou": true
+    },
+    {
+      "nome": "duplas terceiro espaco",
+      "obtido": 5,
+      "esperado": 5,
+      "motivo": "Terceiro não recebe dupla.",
+      "passou": true
+    },
+    {
+      "nome": "dois espacos nivel2 sobra",
+      "obtido": 1,
+      "esperado": 1,
+      "motivo": "Três espaços conhecidos no nível2.",
+      "passou": true
+    },
+    {
+      "nome": "conducao9mais9",
+      "obtido": 9,
+      "esperado": 9,
+      "motivo": "Alcance novo9, percurso composto até18, com duplo requisito.",
+      "passou": true
+    },
+    {
+      "nome": "conduzir apoiadora longe",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "conduzir fora comando",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "conduzir sem basica",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "corpos2 total6 combate",
+      "obtido": {
+        "ativos": 4,
+        "inativos": 2,
+        "total": 6,
+        "teto": 6
+      },
+      "esperado": {
+        "ativos": 4,
+        "inativos": 2,
+        "total": 6,
+        "teto": 6
+      },
+      "motivo": "Capacidade4 da Trilha.",
+      "passou": true
+    },
+    {
+      "nome": "corpos2 total6 fim",
+      "obtido": {
+        "ativos": 0,
+        "inativos": 6,
+        "total": 6,
+        "teto": 6
+      },
+      "esperado": {
+        "ativos": 0,
+        "inativos": 6,
+        "total": 6,
+        "teto": 6
+      },
+      "motivo": "Desativar não destrói nem transporta.",
+      "passou": true
+    },
+    {
+      "nome": "corpos2 total6 fora",
+      "obtido": {
+        "ativos": 2,
+        "inativos": 4,
+        "total": 6,
+        "teto": 6
+      },
+      "esperado": {
+        "ativos": 2,
+        "inativos": 4,
+        "total": 6,
+        "teto": 6
+      },
+      "motivo": "Só duas ativas fora do combate.",
+      "passou": true
+    },
+    {
+      "nome": "corpos quarto fora",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "corpos setimo",
+      "obtido": true,
+      "esperado": true,
+      "motivo": "Requisito ou recurso ausente impede a operação.",
+      "passou": true
+    },
+    {
+      "nome": "principal exemplo PE",
+      "obtido": 9,
+      "esperado": 9,
+      "motivo": "Padrão+primeira básica; segunda básica grátis.",
+      "passou": true
+    },
+    {
+      "nome": "principal exemplo acertos",
+      "obtido": [
+        true,
+        true
+      ],
+      "esperado": [
+        true,
+        true
+      ],
+      "motivo": "Uma vantagem ofensiva e segundo ataque normal.",
+      "passou": true
+    },
+    {
+      "nome": "parceria exemplo recurso",
+      "obtido": [
+        2,
+        4.5,
+        4.5
+      ],
+      "esperado": [
+        2,
+        4.5,
+        4.5
+      ],
+      "motivo": "Abertura concede1, AbrirEspaço gasta1.",
+      "passou": true
+    },
+    {
+      "nome": "vantagem repetida p50",
+      "obtido": 0.9375,
+      "esperado": 0.9375,
+      "motivo": "Corrigir repete os dois dados, uma única tentativa, custo1.",
+      "passou": true
+    }
+  ],
+  "palavras_paginas": {
+    "evocador": 295,
+    "ev-vinculo": 324,
+    "ev-usos": 303,
+    "ev-aprimoramentos": 263,
+    "ev-intervencoes": 285,
+    "ev-posicao": 255,
+    "ev-preparacao": 275,
+    "ev-complementar": 243,
+    "ev-combinar": 311,
+    "ev-combinada": 329,
+    "ev-principal": 307,
+    "ev-principal-especial": 292,
+    "ev-principal-troca": 257,
+    "ev-principal-protecao": 376,
+    "ev-principal-continuidade": 319,
+    "ev-principal-reflexa": 287,
+    "ev-parceria": 252,
+    "ev-parceria-aprimoramentos": 391,
+    "ev-parceria-complementar": 223,
+    "ev-parceria-intervencoes": 343,
+    "ev-parceria-cobrir": 267,
+    "ev-parceria-tecnicas": 247,
+    "ev-parceria-resposta": 385,
+    "ev-multiplas": 363,
+    "ev-multiplas-entrada": 275,
+    "ev-multiplas-duplas": 267,
+    "ev-multiplas-protecao": 282,
+    "ev-multiplas-conduzir": 316,
+    "ev-multiplas-retirada": 207,
+    "ev-multiplas-aprimoramentos": 374,
+    "ev-multiplas-formacao": 334,
+    "ev-multiplas-repertorio": 294,
+    "ev-turnos": 331
+  },
+  "modelos_probabilidade": [
+    {
+      "d20_minimo": 2,
+      "normal": 0.95,
+      "vantagem": 0.9975,
+      "desvantagem": 0.9025,
+      "repeticao_falha": 0.9975,
+      "vantagem_e_repeticao_inteira": 0.99999375
+    },
+    {
+      "d20_minimo": 3,
+      "normal": 0.9,
+      "vantagem": 0.99,
+      "desvantagem": 0.81,
+      "repeticao_falha": 0.99,
+      "vantagem_e_repeticao_inteira": 0.9999
+    },
+    {
+      "d20_minimo": 4,
+      "normal": 0.85,
+      "vantagem": 0.9775,
+      "desvantagem": 0.7225,
+      "repeticao_falha": 0.9775,
+      "vantagem_e_repeticao_inteira": 0.99949375
+    },
+    {
+      "d20_minimo": 5,
+      "normal": 0.8,
+      "vantagem": 0.96,
+      "desvantagem": 0.64,
+      "repeticao_falha": 0.96,
+      "vantagem_e_repeticao_inteira": 0.9984
+    },
+    {
+      "d20_minimo": 6,
+      "normal": 0.75,
+      "vantagem": 0.9375,
+      "desvantagem": 0.5625,
+      "repeticao_falha": 0.9375,
+      "vantagem_e_repeticao_inteira": 0.99609375
+    },
+    {
+      "d20_minimo": 7,
+      "normal": 0.7,
+      "vantagem": 0.91,
+      "desvantagem": 0.49,
+      "repeticao_falha": 0.91,
+      "vantagem_e_repeticao_inteira": 0.9919
+    },
+    {
+      "d20_minimo": 8,
+      "normal": 0.65,
+      "vantagem": 0.8775,
+      "desvantagem": 0.4225,
+      "repeticao_falha": 0.8775,
+      "vantagem_e_repeticao_inteira": 0.98499375
+    },
+    {
+      "d20_minimo": 9,
+      "normal": 0.6,
+      "vantagem": 0.84,
+      "desvantagem": 0.36,
+      "repeticao_falha": 0.84,
+      "vantagem_e_repeticao_inteira": 0.9744
+    },
+    {
+      "d20_minimo": 10,
+      "normal": 0.55,
+      "vantagem": 0.7975,
+      "desvantagem": 0.3025,
+      "repeticao_falha": 0.7975,
+      "vantagem_e_repeticao_inteira": 0.95899375
+    },
+    {
+      "d20_minimo": 11,
+      "normal": 0.5,
+      "vantagem": 0.75,
+      "desvantagem": 0.25,
+      "repeticao_falha": 0.75,
+      "vantagem_e_repeticao_inteira": 0.9375
+    },
+    {
+      "d20_minimo": 12,
+      "normal": 0.45,
+      "vantagem": 0.6975,
+      "desvantagem": 0.2025,
+      "repeticao_falha": 0.6975,
+      "vantagem_e_repeticao_inteira": 0.90849375
+    },
+    {
+      "d20_minimo": 13,
+      "normal": 0.4,
+      "vantagem": 0.64,
+      "desvantagem": 0.16,
+      "repeticao_falha": 0.64,
+      "vantagem_e_repeticao_inteira": 0.8704
+    },
+    {
+      "d20_minimo": 14,
+      "normal": 0.35,
+      "vantagem": 0.5775,
+      "desvantagem": 0.1225,
+      "repeticao_falha": 0.5775,
+      "vantagem_e_repeticao_inteira": 0.82149375
+    },
+    {
+      "d20_minimo": 15,
+      "normal": 0.3,
+      "vantagem": 0.51,
+      "desvantagem": 0.09,
+      "repeticao_falha": 0.51,
+      "vantagem_e_repeticao_inteira": 0.7599
+    },
+    {
+      "d20_minimo": 16,
+      "normal": 0.25,
+      "vantagem": 0.4375,
+      "desvantagem": 0.0625,
+      "repeticao_falha": 0.4375,
+      "vantagem_e_repeticao_inteira": 0.68359375
+    },
+    {
+      "d20_minimo": 17,
+      "normal": 0.2,
+      "vantagem": 0.36,
+      "desvantagem": 0.04,
+      "repeticao_falha": 0.36,
+      "vantagem_e_repeticao_inteira": 0.5904
+    },
+    {
+      "d20_minimo": 18,
+      "normal": 0.15,
+      "vantagem": 0.2775,
+      "desvantagem": 0.0225,
+      "repeticao_falha": 0.2775,
+      "vantagem_e_repeticao_inteira": 0.47799375
+    },
+    {
+      "d20_minimo": 19,
+      "normal": 0.1,
+      "vantagem": 0.19,
+      "desvantagem": 0.01,
+      "repeticao_falha": 0.19,
+      "vantagem_e_repeticao_inteira": 0.3439
+    },
+    {
+      "d20_minimo": 20,
+      "normal": 0.05,
+      "vantagem": 0.0975,
+      "desvantagem": 0.0025,
+      "repeticao_falha": 0.0975,
+      "vantagem_e_repeticao_inteira": 0.18549375
+    }
+  ],
+  "perfis_recursos": [
+    {
+      "trilha": "Principal",
+      "nivel": 2,
+      "basicas": 2,
+      "especiais_no_comando": 1,
+      "auxiliar": 0
+    },
+    {
+      "trilha": "Principal",
+      "nivel": 19,
+      "basicas": 2,
+      "especiais_no_comando": 2,
+      "auxiliar": 1
+    },
+    {
+      "trilha": "Parceria",
+      "nivel": 19,
+      "basicas_entidades": 2,
+      "especial_e_feitico": 2,
+      "ofensivo_aprimoramento": 1
+    },
+    {
+      "trilha": "Múltiplas",
+      "nivel": 11,
+      "corpos": 4,
+      "basica_com_dano": 1,
+      "especial_comandada": 1,
+      "apoios": 2
+    }
+  ],
+  "limites": [
+    "Enumerações locais de regras e recursos, não playtest ou comparação de dano total entre todos os Caminhos.",
+    "Modelos de probabilidade não incluem imunidades, Bloquear, crítico, alcance, dano ou composição de encontro.",
+    "Ação ofensiva e quantidade de ataques não são sinônimos: a ficha de cada capacidade pode conter mais de uma rolagem.",
+    "Modelo de corpos inclui fechamento autorizado pelo coordenador; exige sincronização R11 antes de publicar."
+  ]
+}

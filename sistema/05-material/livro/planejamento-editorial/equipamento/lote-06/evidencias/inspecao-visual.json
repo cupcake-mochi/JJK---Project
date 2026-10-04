@@ -1,0 +1,23 @@
+{
+  "sha256_pdf": "7e6861ce592d6e0a3d3dce390462d100cb898d12e5b6cb79282ff41e84aba45a",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado"
+    }
+  ],
+  "metodo": "13 páginas vistas em sete painéis de renderizações a 95 dpi; títulos, tabelas, texto e rodapés conferidos.",
+  "independente": false
+}

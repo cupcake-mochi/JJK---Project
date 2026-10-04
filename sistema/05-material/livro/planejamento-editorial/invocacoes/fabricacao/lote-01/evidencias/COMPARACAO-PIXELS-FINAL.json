@@ -1,0 +1,45 @@
+{
+  "unidade": "FAB",
+  "sha256_pdf": "f4a1fcbc2825b556ad2d2cbd3cab598372f89d2b36827d11c67fee0c71de2e40",
+  "baseline_pdf": "6d4fd99c8d3b7626736e5063660c43cb714a8b6c7c281bc57d3227411e62372b",
+  "paginas": [
+    {
+      "pagina": 1,
+      "igual": true,
+      "antes": "aa775b8d5bba7c629e422bd45fd404abfa5edbc3d0188cd952b303414b7fe86c",
+      "depois": "aa775b8d5bba7c629e422bd45fd404abfa5edbc3d0188cd952b303414b7fe86c",
+      "png_final": "/tmp/maxima-qa-final/FAB/depois-1.png"
+    },
+    {
+      "pagina": 2,
+      "igual": true,
+      "antes": "1041ee4e2b6202e20751c521b367fd3f0f0ac15f03fa05153416261d43666fea",
+      "depois": "1041ee4e2b6202e20751c521b367fd3f0f0ac15f03fa05153416261d43666fea",
+      "png_final": "/tmp/maxima-qa-final/FAB/depois-2.png"
+    },
+    {
+      "pagina": 3,
+      "igual": true,
+      "antes": "e9eed048726a37329c8942341759bb1a1e3c50390ee75e4f408b8a2a24e7f1ef",
+      "depois": "e9eed048726a37329c8942341759bb1a1e3c50390ee75e4f408b8a2a24e7f1ef",
+      "png_final": "/tmp/maxima-qa-final/FAB/depois-3.png"
+    },
+    {
+      "pagina": 4,
+      "igual": false,
+      "antes": "b51e72a46d43c4818fd32b83ff32c3ba2d1d5f6f45f509e52ea8828541853437",
+      "depois": "78d1f4cbdfc59cf8f4b3e4714c43dfd00679e35934bb26a049847b4630eec3e3",
+      "png_final": "/tmp/maxima-qa-final/FAB/depois-4.png"
+    },
+    {
+      "pagina": 5,
+      "igual": true,
+      "antes": "13dd81a8439611a2c5e1025163e71294e22a7faaf284d8fe108539fc913d239a",
+      "depois": "13dd81a8439611a2c5e1025163e71294e22a7faaf284d8fe108539fc913d239a",
+      "png_final": "/tmp/maxima-qa-final/FAB/depois-5.png"
+    }
+  ],
+  "diferentes": [
+    4
+  ]
+}

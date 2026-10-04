@@ -1,0 +1,78 @@
+{
+  "sha256_texto": "7ce3150e4d26d747f5088bcd2b3117b621feb42d52ecc1c4bc4a548d53eb531c",
+  "revisor": "Agente principal (autoria) e compatibilidade (revisão independente, correções RP25–RP32 e releitura das interfaces alteradas).",
+  "teste_humano": false,
+  "secoes": [
+    {
+      "id": "ritual",
+      "parecer": "Entrada define aptidão, requisitos, voz e duração com tabela. Dois tipos de ponto distinguem-se sem digressão de design."
+    },
+    {
+      "id": "rit-teste",
+      "parecer": "Fórmula preservada e exemplo recalculado. Uma falha custa PE, sem inventar ficha de dano reduzido no meio da ação."
+    },
+    {
+      "id": "rit-recitar",
+      "parecer": "Relógio de dois turnos, ação/pagamento/perda, TR e Liberação explícitos. Máxima conserva recarga e vedação à estocagem."
+    },
+    {
+      "id": "rit-melhorias",
+      "parecer": "Oito primeiras entradas com preço fixo. Rerrolagem/energia abaixo da tabela porque exigem exceções."
+    },
+    {
+      "id": "rit-beneficios",
+      "parecer": "Oito últimas entradas e parcelas com exemplo mínimo. Beneficiários adicionais não duplicam gatilhos únicos."
+    },
+    {
+      "id": "rit-parcelas",
+      "parecer": "Cópia pertence ao beneficiário de origem mínimo; preserva peças e limites únicos. Tiros exclui bônus da vítima original, aplica peças por acerto. Exceção ao total é expressa."
+    },
+    {
+      "id": "rit-limites",
+      "parecer": "Nove células de tempo distinguem ação de imobilidade; versão ritualizada permanece na falha; nomes de catálogo corrigidos."
+    },
+    {
+      "id": "rit-ajuda",
+      "parecer": "Uma conjuração por ajuda, consumida na tentativa; distância/percepção mantidas. Ajuda tardia não compra desconto sobrePE já pago."
+    },
+    {
+      "id": "pactos",
+      "parecer": "Pactos abrem com troca, quatro modalidades e preço real. Não vende coerção ou consequência desconhecida como cânone."
+    },
+    {
+      "id": "pacto-permanente",
+      "parecer": "Teto por campanha e Essência; energia aumenta máximo porClasse, sem recuperação imediata. Comparação direta à ReservaProfunda e1440perfis de reservas/descanso."
+    },
+    {
+      "id": "pacto-temporario",
+      "parecer": "Pacto temporário limita momento e alcance da exceção. Exemplo original de retirada nãopromete tabelas universais."
+    },
+    {
+      "id": "promessa",
+      "parecer": "Promessa precisa partesautônomas,termos,prazos,consequência. Texto suficientepara registrarsem citaralegação canônicanãoverificada."
+    },
+    {
+      "id": "pacto-restricao",
+      "parecer": "Criaçãocomlimitaçãojácontabilizada. Ideias explicitamente não são regras e não oferecem morte/recurso semprocedimento."
+    }
+  ],
+  "notas_atualizacao": "Achados originais preservados com snapshot. Decisões mecânicas RP25–RP32 registradas, modelos matemáticos não equivalem a teste com jogadores.",
+  "atualizacao_independente": {
+    "revisor": "compatibilidade",
+    "parecer_original": "historico/revisao-independente-01/r19-revisao-independente.json",
+    "corrigidos": [
+      "RI-01",
+      "RI-02",
+      "RI-03",
+      "RI-04",
+      "RI-05",
+      "RI-06",
+      "RI-07",
+      "RI-08"
+    ],
+    "pendentes": [
+      "Exportação, conferência estrutural e inspeção visual pelo agente principal."
+    ],
+    "leitura": "Releitura das páginas de cópias, combinações, auxílio e pacto permanente após as decisões; testes por página e modelos salvos. Não declara playtest nem equilíbrio universal."
+  }
+}

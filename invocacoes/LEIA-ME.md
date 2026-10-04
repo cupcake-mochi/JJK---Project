@@ -1,5 +1,7 @@
 # Invocações — o subsistema em desenvolvimento, fora da edição jogável
 
+> **Atualização v0.331.** As regras atuais v0.331 estão em **05-Edicao-Integrada/60-invocacoes.md** e no capítulo 17 do livro. Evocador e Invocações voltaram à edição jogável por autorização do Mizuki em 02/10/2026. As candidatas e os desenhos descritos abaixo são registros de desenvolvimento.
+
 **O subsistema completo ainda não foi aprovado para publicação. As decisões autorais até o §46 estão aprovadas; a consolidação r5 continua candidata.** O Evocador e as Invocações saíram do livro na v0.270, a pedido do Mizuki, até o subsistema fechar:
 
 > *"Bloqueie temporariamente Evocador e Invocações na edição jogável. Prefiro que suas regras saiam do livro nesta edição, incluindo as Trilhas antigas vinculadas ao Evocador. Preserve as fontes antigas em arquivo e todo o desenvolvimento atual em pasta separada. Não destrua material nem substitua o Evocador por outro Caminho."*

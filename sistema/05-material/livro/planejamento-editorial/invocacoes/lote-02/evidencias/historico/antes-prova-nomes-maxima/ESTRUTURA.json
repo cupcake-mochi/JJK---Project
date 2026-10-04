@@ -1,0 +1,143 @@
+{
+  "ordem": [
+    "entidades-criar",
+    "entidades-aquisicao",
+    "entidade-cao",
+    "entidade-cao-habilidades",
+    "entidades-lista-criacao",
+    "entidades-domar",
+    "entidades-tipos",
+    "entidades-definicao",
+    "entidades-atributos",
+    "entidades-vida-defesa",
+    "entidades-progressao",
+    "entidades-familias",
+    "entidades-basicas",
+    "entidades-especiais",
+    "entidades-formas",
+    "entidades-medidas",
+    "entidades-efeitos-reduzidos",
+    "entidades-saldo",
+    "entidades-controle",
+    "entidades-restricoes",
+    "entidades-passivas",
+    "entidades-passivas-avancadas",
+    "entidades-passiva-propria",
+    "entidades-ampliacao",
+    "entidade-vigia",
+    "entidade-vigia-habilidades",
+    "entidades-conferencia"
+  ],
+  "titulos": {
+    "entidades-criar": "Criar uma invocação",
+    "entidades-aquisicao": "Adquirir entidades",
+    "entidade-cao": "Cão de sombra",
+    "entidade-cao-habilidades": "Habilidades do cão",
+    "entidades-lista-criacao": "Lista de ritual e criação",
+    "entidades-domar": "Domar uma maldição",
+    "entidades-tipos": "Tipos de entidade",
+    "entidades-definicao": "Definição e corpo",
+    "entidades-atributos": "Atributos e testes",
+    "entidades-vida-defesa": "Vida e Defesa",
+    "entidades-progressao": "Progressão da entidade",
+    "entidades-familias": "Famílias da entidade",
+    "entidades-basicas": "Habilidades básicas",
+    "entidades-especiais": "Habilidades especiais",
+    "entidades-formas": "Formas da entidade",
+    "entidades-medidas": "Alcance e área",
+    "entidades-efeitos-reduzidos": "Efeitos reduzidos",
+    "entidades-saldo": "Saldo e limites",
+    "entidades-controle": "Controle e utilidade",
+    "entidades-restricoes": "Restrições da entidade",
+    "entidades-passivas": "Passivas da entidade",
+    "entidades-passivas-avancadas": "Passivas de Classes 2 e 3",
+    "entidades-passiva-propria": "Características próprias",
+    "entidades-ampliacao": "Ampliar uma especial",
+    "entidade-vigia": "Vigia de papel",
+    "entidade-vigia-habilidades": "Habilidades do vigia",
+    "entidades-conferencia": "Conferência da ficha"
+  },
+  "paginas": {
+    "entidades-criar": 1,
+    "entidades-aquisicao": 2,
+    "entidade-cao": 3,
+    "entidade-cao-habilidades": 4,
+    "entidades-lista-criacao": 5,
+    "entidades-domar": 6,
+    "entidades-tipos": 7,
+    "entidades-definicao": 8,
+    "entidades-atributos": 9,
+    "entidades-vida-defesa": 10,
+    "entidades-progressao": 11,
+    "entidades-familias": 12,
+    "entidades-basicas": 13,
+    "entidades-especiais": 14,
+    "entidades-formas": 15,
+    "entidades-medidas": 16,
+    "entidades-efeitos-reduzidos": 17,
+    "entidades-saldo": 18,
+    "entidades-controle": 19,
+    "entidades-restricoes": 20,
+    "entidades-passivas": 21,
+    "entidades-passivas-avancadas": 22,
+    "entidades-passiva-propria": 23,
+    "entidades-ampliacao": 24,
+    "entidade-vigia": 25,
+    "entidade-vigia-habilidades": 26,
+    "entidades-conferencia": 27
+  },
+  "grupos": [
+    [
+      "Criação e aquisição",
+      [
+        "entidades-criar",
+        "entidades-aquisicao",
+        "entidade-cao",
+        "entidade-cao-habilidades",
+        "entidades-lista-criacao",
+        "entidades-domar",
+        "entidades-tipos"
+      ]
+    ],
+    [
+      "Ficha e evolução",
+      [
+        "entidades-definicao",
+        "entidades-atributos",
+        "entidades-vida-defesa",
+        "entidades-progressao"
+      ]
+    ],
+    [
+      "Montagem de habilidades",
+      [
+        "entidades-familias",
+        "entidades-basicas",
+        "entidades-especiais",
+        "entidades-formas",
+        "entidades-medidas",
+        "entidades-efeitos-reduzidos",
+        "entidades-saldo",
+        "entidades-controle",
+        "entidades-restricoes"
+      ]
+    ],
+    [
+      "Passivas",
+      [
+        "entidades-passivas",
+        "entidades-passivas-avancadas",
+        "entidades-passiva-propria"
+      ]
+    ],
+    [
+      "Ampliação e exemplo",
+      [
+        "entidades-ampliacao",
+        "entidade-vigia",
+        "entidade-vigia-habilidades",
+        "entidades-conferencia"
+      ]
+    ]
+  ]
+}

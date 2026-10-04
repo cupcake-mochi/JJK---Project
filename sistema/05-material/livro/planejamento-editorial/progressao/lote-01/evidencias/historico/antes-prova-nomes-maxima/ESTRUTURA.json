@@ -1,0 +1,86 @@
+{
+  "ordem": [
+    "prog-inicio",
+    "prog-xp",
+    "prog-semana",
+    "prog-limiar",
+    "prog-tabela-inicial",
+    "prog-tabela-avancada",
+    "prog-marcos",
+    "prog-repertorio",
+    "prog-atualizar",
+    "prog-trilhas",
+    "prog-capacidades",
+    "prog-ritmo",
+    "prog-guilda",
+    "prog-patentes"
+  ],
+  "titulos": {
+    "prog-inicio": "Experiência e Progressão",
+    "prog-xp": "Recompensas e custos",
+    "prog-semana": "Experiência semanal",
+    "prog-limiar": "Limiar do nível 20",
+    "prog-tabela-inicial": "Progressão dos níveis 1 a 15",
+    "prog-tabela-avancada": "Progressão dos níveis 16 a 30",
+    "prog-marcos": "Marcos",
+    "prog-repertorio": "Repertório e novas escolhas",
+    "prog-atualizar": "Atualizar a ficha",
+    "prog-trilhas": "Trocar de Trilha",
+    "prog-capacidades": "Mudanças de capacidade",
+    "prog-ritmo": "Ritmo de campanha",
+    "prog-guilda": "Recompensas da guilda",
+    "prog-patentes": "Patentes"
+  },
+  "paginas": {
+    "prog-inicio": 1,
+    "prog-xp": 2,
+    "prog-semana": 3,
+    "prog-limiar": 4,
+    "prog-tabela-inicial": 5,
+    "prog-tabela-avancada": 6,
+    "prog-marcos": 7,
+    "prog-repertorio": 8,
+    "prog-atualizar": 9,
+    "prog-trilhas": 10,
+    "prog-capacidades": 11,
+    "prog-ritmo": 12,
+    "prog-guilda": 13,
+    "prog-patentes": 14
+  },
+  "grupos": [
+    [
+      "Experiência",
+      [
+        "prog-inicio",
+        "prog-xp",
+        "prog-semana",
+        "prog-limiar"
+      ]
+    ],
+    [
+      "Progressão",
+      [
+        "prog-tabela-inicial",
+        "prog-tabela-avancada",
+        "prog-marcos",
+        "prog-repertorio",
+        "prog-atualizar"
+      ]
+    ],
+    [
+      "Trocas",
+      [
+        "prog-trilhas",
+        "prog-capacidades"
+      ]
+    ],
+    [
+      "Campanha",
+      [
+        "prog-ritmo",
+        "prog-guilda",
+        "prog-patentes"
+      ]
+    ]
+  ]
+}

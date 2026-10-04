@@ -265,8 +265,8 @@ for c in linhas_de_tabela(trecho(P1, '## 5.1 Pontos de vida', '## 5.2', 'peca 1 
     if len(c) >= 5 and limpo(c[1]).startswith('d') and limpo(c[2]).isdigit():
         CAMINHOS[limpo(c[0])] = dict(vida1=int(limpo(c[2])), por_nivel=int(limpo(c[3])),
                                      pe=int(limpo(c[4])))
-if len(CAMINHOS) != 5:
-    erro('SETUP', f'peca 1 SS5.1: esperava os cinco Caminhos, achei {list(CAMINHOS)}')
+if len(CAMINHOS) != 6:
+    erro('SETUP', f'peca 1 SS5.1: esperava os seis Caminhos, achei {list(CAMINHOS)}')
 m = re.search(r'\*\*Maestria\*\* começa em (\d+) e sobe um ponto a cada (\w+) níveis', P1)
 MAESTRIA_INI = int(m.group(1)) if m else None
 MAESTRIA_PASSO = {'oito': 8, 'quatro': 4, 'seis': 6}.get(m.group(2)) if m else None
@@ -1373,9 +1373,7 @@ else:
     _cap60 = _MUSEU60
     # v0.270: a guarda da suspensao. O capitulo saiu do livro, e voltar a ele e'
     # decisao do Mizuki quando o subsistema fechar — nao um arquivo que reaparece.
-    if os.path.isfile(_LIVRO60):
-        erro('MORTE', 'o capitulo 60 voltou para o livro, e o Evocador e as Invocacoes estao fora '
-                      'da edicao jogavel desde a v0.270 — a volta e decisao do Mizuki')
+    # v0.331: retorno autorizado; cotejo atual separado ao fim do validador.
     if not os.path.isfile(_cap60):
         erro('MORTE', 'nao achei a copia do capitulo 60 em invocacoes/museu/ — a regua da morte '
                       'tem duas publicacoes e so uma foi conferida')
@@ -3009,6 +3007,29 @@ else:
         print(f'  [x] contra-teste: a formula de ate a v0.257 erraria em '
               f'{len(_erra)} nivel(is) — {", ".join("nv" + str(n) for n in _erra)}')
 
+# v0.331 — capitulo atual: cotejo integral, fonte aprovada e treino da entidade.
+import json as _j331
+import hashlib as _h331
+_at331 = os.path.join(AQUI, '..', '..', 'invocacoes', '05-Edicao-Integrada', '60-invocacoes.md')
+_cr331 = os.path.join(AQUI, '..', '..', 'caminhos', '05-Edicao-Integrada')
+try:
+    _now331 = open(_at331, encoding='utf-8').read()
+    _book331 = open(_LIVRO60, encoding='utf-8').read()
+    _raw331 = open(os.path.join(_cr331, 'referencias', 'INVOCACOES-CAPITULO-PARA-REVISAO.md'), encoding='utf-8').read()
+    _meta331 = _j331.load(open(os.path.join(_cr331, 'edicao.json'), encoding='utf-8'))
+    if _book331 != _now331:
+        erro('331', 'capitulo de Invocacoes diverge da fonte integrada')
+    if _h331.sha256(_raw331.encode()).hexdigest() != _meta331['origens_sha256']['04-REFERENCIAS/INVOCACOES-CAPITULO-PARA-REVISAO.md']:
+        erro('331', 'referencia aprovada de Invocacoes foi alterada')
+    _ad331 = re.search(r'\*\*Perícias treinadas:\*\*[^\n]+\n\n', _now331)
+    if not _ad331 or '4 + metade da Inteligência da entidade' not in _ad331[0] or 'Ofícios exigem permissão expressa' not in _ad331[0]:
+        erro('331', 'a ficha nao publica o treino aprovado da entidade')
+    elif _now331.replace(_ad331[0], '', 1) != _raw331:
+        erro('331', 'capitulo atual diverge da aprovacao alem da adicao de pericias/oficios')
+    print('  [x] v0.331: capitulo atual integral, referencia aprovada e treino conferidos')
+except (OSError, KeyError) as _exc331:
+    erro('331', f'fonte atual incompleta: {_exc331}')
+
 for a in AVISOS:
     print(f'  aviso: {a}')
 if AVISOS:
@@ -3019,7 +3040,7 @@ if ERROS:
         print(f'    - {e}')
     print('=' * 88)
     sys.exit(1)
-print('>>> TUDO OK — o teto somado e a cota saem da peca 6, o orcamento sai dos marcos')
+print('>>> TUDO OK — contratos atuais da v0.331 e regressao historica separados; o teto antigo')
 print('    da peca 2, a amarra sai da peca 3, a vida sai do molde da peca 1, e as 34')
 print('    checagens do SS5 fecham sem nenhum valor escrito dentro deste arquivo.')
 print('=' * 88)

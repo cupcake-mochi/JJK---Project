@@ -1,0 +1,72 @@
+[
+  {
+    "arquivo": "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+    "sha256": "d3dcdd307d4542219d8f279a6f7f32da04ae4edc953872e312a4e410911042e5",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/manual/43-sem-tecnica.md",
+    "sha256": "bf4296c61b167717bffc98459ba26bce8c1b0a46fc8de1230df833486b8c70b7",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+    "sha256": "c400089ab383f8368f66801f4a6004092929a26c3dba2f76ea9af90c8bce446d",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+    "sha256": "11943325cbd9887c2fb6d312df0ec52f70eab50440d9f9bb12a080a9d2e8e24e",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/manual/10-como-jogar.md",
+    "sha256": "12296c9fca2d0033ca0f2116991c5f4ea2fd57ff3cc7e7fc28845923e076c4f5",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/20-tecnica-marcial.md",
+    "sha256": "f33c1bf1cff6ca4411199ba33e8444fe3f1b187898eda514ebb96416a86f6d3e",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/25-sem-tecnica.md",
+    "sha256": "e2b80010d36466081ba900fb74354eb2d43048b06e6f6bb408e69faf6f9dd46c",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/09-origens.md",
+    "sha256": "f50d921e42355d193f1c0f32afcffc7d2a724bfdc19608e2231aad4b3db043c2",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+    "sha256": "6526b5d6c860765f0da6c0ce05053c862d922097ab3a02de8e79d1a281a8f2a7",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/03-mecanica/27-ritual.md",
+    "sha256": "308fc50ec2f5e9062d1741566d60a279c5e525d89e15af71f7d709c5689d6a1f",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+    "sha256": "a873604a9b9887800a7ac51c961c67939ee15781da7db7506a30c9f347512a1f",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+    "sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-04/04-MANOBRAS-E-INFORMACAO.md",
+    "sha256": "1ea15259408bc967d24476b594f272b406f37b5a72d1585308b2a3558d7a7c80",
+    "papel": "fonte; não editada por R10"
+  },
+  {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/APTIDOES-E-REFINO.md",
+    "sha256": "062e6d0cf8d2c2e38a97f4b0831718a1404c3a664112dc1d247ab2199275364c",
+    "papel": "fonte; não editada por R10"
+  }
+]

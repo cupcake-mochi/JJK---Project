@@ -1,0 +1,128 @@
+{
+  "sha256_texto": "f16e12fb1445657ca5cab2466bc8c9a8b85c40b49789ebb414472872a6491645",
+  "sha256_entrada": "66553c36ce356a971df11a9845724347cdf1684868620a8048b3b7faceb9ba41",
+  "revisor": "Agente principal, distinto do autor",
+  "leitura_integral": "33 páginas do manuscrito",
+  "fonte": "Cotejo dirigido integrado/manual35, decisões EV01–26 e interfaces R11/R12/R06/R07. Não alegada segunda leitura integral de todo material fonte.",
+  "achados": [
+    {
+      "id": "EV27",
+      "estado": "corrigido",
+      "descricao": "Requisitos corporais de Conduzir e metatexto da tabela"
+    }
+  ],
+  "checks": [
+    {
+      "caso": "Pontos de Vínculo",
+      "resultado": "0 inicial, +1 por abertura consciente, teto3, saldo não duplica em troca.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Principal: economia",
+      "resultado": "Duas básicas desde abertura; Padrão+primeira para especial, segunda para básica ou especial limitada no19.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Principal: substituição",
+      "resultado": "2→2,1→1,0→0, conservando identidade; entrar segunda ativa encerra adicional.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Principal: Classe",
+      "resultado": "No19 Classe5 permite continuação2; no21 Classe6→3; no26 Classe7→3.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Especial Combinada",
+      "resultado": "Uma por combate, Completa e todas básicas; zero não cumpre, sem terceira conjuração acoplada.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Parceria: recursos",
+      "resultado": "Acompanhar e Golpe dividem uso ofensivo, não duas vantagens novas.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Parceria: cobertura",
+      "resultado": "2 pontos dispensa saldo da Reação mas não capacidade de reagir.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Parceria: continuação",
+      "resultado": "C5→2, C6→3, C7→3; Bônus e preço normal, Classe final após ampliar.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Parceria: resposta27",
+      "resultado": "EntidadeC7→6, pessoalC7→4, uma por combate e Reação de quem executa.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Múltiplas",
+      "resultado": "Teto4 só combate; ofensiva básica1 e especial1 por ciclo, preparo ofensivo fora do turno conta.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Aquisição",
+      "resultado": "Dois espaços identificados dão quatro entidades; não concede conceito nem slots novos.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Conduzir",
+      "resultado": "9m até apoiadora +9m até alvo; básicas de ambas e Padrão. Toque/Aura não obtêm dispensa de exigência corporal.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Corpos",
+      "resultado": "Atributo2+capacidade4 total6; 4ativos2inativos→0ativos6inativos→2ativos4inativos fora.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Formação",
+      "resultado": "Primeira intenção paga normalmente, básica pronta exige identidade elegível.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "Repertório",
+      "resultado": "CP1 usa lista13, Famílias continuam9. Extras de principal8/16/24 não marcos novos de Trilha.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "ExemploKaito",
+      "resultado": "12−3=9PE; max(4,7)+6=13; 9+4=13. Ataque preciso especial não aumenta básica.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "ExemploHana",
+      "resultado": "2+1−1=2 pontos;9−4.5=4.5 Movimento.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    },
+    {
+      "caso": "ExemploRen",
+      "resultado": "Básica da executora +apoiadora+ofensiva+ajuda = quatro atuações distintas.",
+      "ok": true,
+      "tipo": "cenário raciocinado, não simulação"
+    }
+  ],
+  "limites": [
+    "Sem leitores humanos, playtest ou DPS global.",
+    "Progressão deve fechar troca de Trilha e perda de capacidade."
+  ]
+}

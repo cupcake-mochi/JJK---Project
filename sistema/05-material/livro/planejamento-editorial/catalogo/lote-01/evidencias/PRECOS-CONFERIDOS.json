@@ -1,0 +1,642 @@
+{
+  "sha256_texto": "3ff14332800456da87ee8c49fa9648596003e332291823abe24dcf8fa5afe785",
+  "entradas": [
+    {
+      "tipo": "melhoria",
+      "nome": "Longe",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Muito Longe",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Sem Ver",
+      "preco_fonte": "Pesada",
+      "preco_texto": "Pesada"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Passo",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Empurrão",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Troca",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Perseguir",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Maior",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Muito Maior",
+      "preco_fonte": "Pesada",
+      "preco_texto": "Pesada"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Escolher",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Fica",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Mais Um",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Rajada",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Salto",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Contorno",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Precisão",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Certeiro",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Inescapável",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Fura",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Corrói",
+      "preco_fonte": "Pesada",
+      "preco_texto": "Pesada"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Sem Cobertura",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "De Novo",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Toca a Alma",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Condição",
+      "preco_fonte": "o nível dela",
+      "preco_texto": "o nível dela"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Terreno",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Anteparo",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Prende",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Cerca",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Puxa",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Desarma o Feitiço",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Impulso",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Trava",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Abre Ferida",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Sobrecarga",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Firmeza",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Guarda",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Pressa",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Enfraquece",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Ecoa",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Queima",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Acúmulo",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Remate",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Estilhaço",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Quebra Coisa",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Rasga Escudo",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Sem Cura",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Rápido",
+      "preco_fonte": "Pesada",
+      "preco_texto": "Pesada"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Reação",
+      "preco_fonte": "Pesada",
+      "preco_texto": "Pesada"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Armado",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Silencioso",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Adianta",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Segura",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Concentrada",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Duradoura",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Marca",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Alvo de Caça",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Rastro",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Sugar",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Isca",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Cobrança",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Identificar Feitiço",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Limpa",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Limpa Fundo",
+      "preco_fonte": "Pesada",
+      "preco_texto": "Pesada"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Levanta",
+      "preco_fonte": "Pesada",
+      "preco_texto": "Pesada"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Divide",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Junto",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Reserva",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Remenda",
+      "preco_fonte": "Pesada",
+      "preco_texto": "Pesada"
+    },
+    {
+      "tipo": "melhoria",
+      "nome": "Efeito Próprio",
+      "preco_fonte": "o mestre decide",
+      "preco_texto": "o mestre decide"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Corpo a Corpo",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Atrasar",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Parado",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Gesto",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Sangra",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Recuo",
+      "preco_fonte": "Leve ou Média",
+      "preco_texto": "Leve ou Média"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Carregar",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Tudo ou Nada",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Uma Vez",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Condicional",
+      "preco_fonte": "Leve ou Média",
+      "preco_texto": "Leve ou Média"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Fraqueza",
+      "preco_fonte": "Leve ou Média",
+      "preco_texto": "Leve ou Média"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Frágil",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Barulho",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Assinatura",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Aquecer",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Dívida",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Peso Morto",
+      "preco_fonte": "Leve",
+      "preco_texto": "Leve"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Sem Volta",
+      "preco_fonte": "Média",
+      "preco_texto": "Média"
+    },
+    {
+      "tipo": "restricao",
+      "nome": "Restrição Própria",
+      "preco_fonte": "Leve ou Média",
+      "preco_texto": "Leve ou Média"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Leitura",
+      "preco_fonte": "1",
+      "preco_texto": "1"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Instinto",
+      "preco_fonte": "1",
+      "preco_texto": "1"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Raiz",
+      "preco_fonte": "1",
+      "preco_texto": "1"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Mão Firme",
+      "preco_fonte": "1",
+      "preco_texto": "1"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Farejador",
+      "preco_fonte": "1",
+      "preco_texto": "1"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Leitura de Feitiços",
+      "preco_fonte": "1",
+      "preco_texto": "1"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Fluxo",
+      "preco_fonte": "2",
+      "preco_texto": "2"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Recomposição",
+      "preco_fonte": "2",
+      "preco_texto": "2"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Segunda Natureza",
+      "preco_fonte": "2",
+      "preco_texto": "2"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Eco",
+      "preco_fonte": "2",
+      "preco_texto": "2"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Costura",
+      "preco_fonte": "2",
+      "preco_texto": "2"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Contramedida",
+      "preco_fonte": "2",
+      "preco_texto": "2"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Peso da Presença",
+      "preco_fonte": "2",
+      "preco_texto": "2"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Escama",
+      "preco_fonte": "3",
+      "preco_texto": "3"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Afinidade",
+      "preco_fonte": "3",
+      "preco_texto": "3"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Reserva Profunda",
+      "preco_fonte": "3",
+      "preco_texto": "3"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Regra Própria",
+      "preco_fonte": "1 a 3",
+      "preco_texto": "1 a 3"
+    },
+    {
+      "tipo": "passiva",
+      "nome": "Talento Próprio",
+      "preco_fonte": "1 a 3",
+      "preco_texto": "1 a 3"
+    }
+  ],
+  "nota": "Custos ativos novos, como Contramedida 2 PE, ficam no registro mecânico; esta conferência trata do preço de aquisição."
+}

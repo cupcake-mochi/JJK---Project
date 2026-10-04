@@ -1,0 +1,594 @@
+{
+  "data": "2026-10-03T17:13:42-03:00",
+  "fonte_sha256": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96",
+  "r06_sha256": "a381ff3ae9a8460732658875a63e61caa604c12f617b86be0ac78409a334e7b8",
+  "escopo": "30 Melhorias: Alcance, Área, Mira e Controle. Candidata R07 isolada; nenhuma fonte publicada ou R06 foi editada.",
+  "rotulos": {
+    "E": "Editorial: regra preservada e tornada explícita.",
+    "I": "Interpretação conservadora de interface ou lacuna.",
+    "M": "Mudança mecânica ou fechamento que restringe/amplia leituras antigas."
+  },
+  "sem_validacao_canonica": "Regras originais do Projeto M; não são afirmações de cânone. Nenhuma pesquisa web foi necessária para esta consolidação de fontes locais.",
+  "decisoes": [
+    {
+      "id": "R07-A-01",
+      "nome": "Longe",
+      "familia": "Alcance",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 604,
+        "ancora": "Longe"
+      },
+      "antes": "| `Longe` | `Leve` | Sobe um degrau na escada de alcance. Pode comprar duas vezes. |",
+      "depois": "Aumenta o alcance em **um degrau**. Pode comprar duas vezes. Use a escada de distância da Forma; em Cone e Linha, aumente o comprimento pela escada própria. Não aumenta o raio nem muda a origem de uma área centrada em você. Não combina com Toque, Aura ou Onda.",
+      "tipo": "E/I",
+      "motivo": "Consolida R06: distância, raio e origem são medidas distintas; preserva compra dupla.",
+      "fontes_de_interface": [
+        "R06: Alcance e área; Combinar peças"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-02",
+      "nome": "Muito Longe",
+      "familia": "Alcance",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 605,
+        "ancora": "Muito Longe"
+      },
+      "antes": "| `Muito Longe` | `Média` | Sobe três degraus de uma vez. |",
+      "depois": "Aumenta o alcance em **três degraus**, pelas mesmas escadas e limites de Longe. Não ultrapassa o último degrau. Não combina com Toque, Aura ou Onda.",
+      "tipo": "E",
+      "motivo": "Mantém preço e quantidade, sem criar distância além da escada.",
+      "fontes_de_interface": [
+        "R06: Alcance e área"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-03",
+      "nome": "Sem Ver",
+      "familia": "Alcance",
+      "preco": "Pesada",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 606,
+        "ancora": "Sem Ver"
+      },
+      "antes": "| `Sem Ver` | `Pesada` | Você conjura contra um alvo fora da sua linha de visão, desde que saiba onde ele está. Alcance normal do feitiço. |",
+      "depois": "Permite escolher um alvo ou ponto de origem que você não enxerga, desde que **saiba sua posição atual**. Mantém alcance e trajetória da Forma. Não localiza criaturas nem atravessa um obstáculo sólido; uma parede ainda pode impedir a aplicação. Não dispensa um Selo que exija usar os próprios olhos.",
+      "tipo": "I/M",
+      "motivo": "Fecha a distinção entre localizar e enxergar e explicita ponto de origem. Preserva Selos não visuais; não transforma percepção de energia em mira exata.",
+      "fontes_de_interface": [
+        "Regras Comuns: Ver, localizar e estar oculto; Conjuração sem enxergar",
+        "R06: Conjurar"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-04",
+      "nome": "Perseguir",
+      "familia": "Alcance",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 610,
+        "ancora": "Perseguir"
+      },
+      "antes": "| `Perseguir` | `Média` | Se o alvo sair do alcance antes de o feitiço concluir, o feitiço vai atrás. |",
+      "depois": "Só se aplica a um feitiço dirigido a um **alvo individual**. Se um deslocamento ocorrido entre a escolha válida desse alvo e a resolução o levar para fora do alcance, a aplicação acompanha esse deslocamento e resolve em seguida. Não adia a resolução, não procura um alvo perdido e não segue teleporte. Visão exigida e trajeto aberto continuam necessários. Não amplia Toque. Em Armado, a escolha do alvo só ocorre quando o gatilho dispara.",
+      "tipo": "M/I",
+      "motivo": "O texto antigo não definia tempo, perda de visão nem limite de perseguição. O fechamento usa uma interrupção do mesmo lançamento, sem inventar rastreamento permanente ou metros extras fixos.",
+      "fontes_de_interface": [
+        "Catálogo Tempo: Armado; R06: resolução e momento de escolha"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-05",
+      "nome": "Passo",
+      "familia": "Alcance",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 607,
+        "ancora": "Passo"
+      },
+      "antes": "| `Passo` | `Leve` | Você anda até 6 m antes ou depois do feitiço, sem provocar ataque de oportunidade. |",
+      "depois": "Antes ou depois de resolver o feitiço, você pode se deslocar **até 6 m**, sem ataques de oportunidade e sem gastar outra Ação de Movimento. Escolha o momento ao usar. Terreno, limites e condições do seu movimento continuam valendo; não concede voo, escalada nem teleporte. Ação Completa, sozinha, não impede esse deslocamento. **Atrasar e Parado impedem usar Passo no turno.**",
+      "tipo": "I/E",
+      "motivo": "Sincroniza CAT-07 e R06, distinguindo ações consumidas de proibição de se mover.",
+      "fontes_de_interface": [
+        "R06: Travessia por um fio; Fenda de Arrasto",
+        "sincronizacoes/40-CATALOGO.md: CAT-07"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-06",
+      "nome": "Empurrão",
+      "familia": "Alcance",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 608,
+        "ancora": "Empurrão"
+      },
+      "antes": "| `Empurrão` | `Leve` | Move o alvo até 6 m na direção que você quiser. |",
+      "depois": "Depois da resolução, escolha **um alvo** que tenha sido acertado ou falhado no TR e mova-o **até 6 m**, na direção escolhida por você. Só um alvo por conjuração, mesmo em área, Mais Um ou Rajada. Em benefício aplicado a um aliado disposto, ele aceita o movimento. O percurso precisa estar livre; pare diante de uma parede ou de um espaço que não comporte o alvo. Não concede dano de colisão nem permite escolher um destino suspenso no ar. Quedas de uma beirada seguem as regras comuns. Se houver Puxa na mesma ficha, escolha para esse alvo qual dos dois movimentos aplicar; eles não se somam.",
+      "tipo": "M/I",
+      "motivo": "Se Empurrão Leve movimentasse todas as vítimas de uma área em qualquer direção, dominaria Puxa Média que só leva ao centro. Limitar a um alvo por conjuração preserva preços e separa funções; combinar as peças não aplica dois movimentos à mesma criatura. Também incorpora as regras gerais de movimento imposto.",
+      "fontes_de_interface": [
+        "Regras Comuns: Empurrões e movimento imposto"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-07",
+      "nome": "Troca",
+      "familia": "Alcance",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 609,
+        "ancora": "Troca"
+      },
+      "antes": "| `Troca` | `Média` | Você e o alvo trocam de lugar. |",
+      "depois": "Escolha um alvo que tenha sido acertado ou falhado no TR: **você e ele trocam de posição** imediatamente. Só uma troca por conjuração, mesmo em área ou com vários alvos. Um alvo disposto aceita a troca. Ambos precisam caber e ter apoio nos espaços de chegada; se um dos destinos não for possível, ninguém muda de lugar. A troca não percorre os espaços intermediários nem provoca ataques de oportunidade. Ainda exige escolher o alvo com o alcance e a visão permitidos pela ficha e não atravessa uma barreira que proíba esse transporte.",
+      "tipo": "M/I",
+      "motivo": "Define troca simultânea de posição como transporte específico da peça, em vez de dois empurrões de distância indefinida. Fecha falha de destino, apoio e resistência hostil.",
+      "fontes_de_interface": [
+        "R06: Efeitos próprios — Troca já resolve você e um alvo"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-08",
+      "nome": "Maior",
+      "familia": "Área",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 621,
+        "ancora": "Maior"
+      },
+      "antes": "| `Maior` | `Leve` | Sobe um degrau de tamanho de área. Pode comprar duas vezes. |",
+      "depois": "Aumenta o tamanho de uma área em **um degrau**. Pode comprar duas vezes. Use a escada de raio ou de comprimento da Forma. Na Linha, aumente primeiro o comprimento até 60 m; depois a largura para 3 m e então 4,5 m. Não cria área numa Forma de alvo individual nem aumenta a distância até seu ponto de origem.",
+      "tipo": "E/I",
+      "motivo": "Consolida escadas de R06 e impede ampliar um alvo inexistente em vez de pagar Forma.",
+      "fontes_de_interface": [
+        "R06: Alcance e área"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-09",
+      "nome": "Muito Maior",
+      "familia": "Área",
+      "preco": "Pesada",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 622,
+        "ancora": "Muito Maior"
+      },
+      "antes": "| `Muito Maior` | `Pesada` | Sobe três degraus de tamanho de uma vez. |",
+      "depois": "Aumenta o tamanho da área em **três degraus**, seguindo a mesma ordem e os mesmos limites de Maior. Não ultrapassa o último degrau nem cria área onde não existe.",
+      "tipo": "E",
+      "motivo": "Mantém função e preço, fazendo a remissão para evitar duas definições de escada.",
+      "fontes_de_interface": [
+        "R06: Alcance e área"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-10",
+      "nome": "Escolher",
+      "familia": "Área",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 623,
+        "ancora": "Escolher"
+      },
+      "antes": "| `Escolher` | `Média` | Você decide quem, dentro da área, é atingido. |",
+      "depois": "Ao criar a área, escolha quais criaturas presentes ela pode atingir; as demais ficam excluídas daquela aplicação. Não muda o formato, não cria alvos adicionais nem seleciona quem você não consegue distinguir por percepção válida. Com Fica, registre as criaturas excluídas no disparo: novas criaturas não ficam protegidas automaticamente, e a lista não muda a cada entrada.",
+      "tipo": "M/I",
+      "motivo": "A seleção persistente não tinha momento definido. Fixa a lista por identidade na ativação, evitando imunidade gratuita a aliados futuros e seleção nova a cada pulso.",
+      "fontes_de_interface": [
+        "R06: Escolher e dividir; Áreas persistentes"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-11",
+      "nome": "Mais Um",
+      "familia": "Área",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 625,
+        "ancora": "Mais Um"
+      },
+      "antes": "| `Mais Um` | `Leve` | Um alvo a mais. Os dados são divididos entre os alvos. Pode comprar duas vezes. |",
+      "depois": "Acrescenta **um alvo individual** ao feitiço; pode comprar duas vezes. Divida os dados disponíveis em parcelas inteiras antes de rolar, com pelo menos um dado para cada alvo que receber o efeito. Confira alcance, visão e resolução para cada um. Não duplica uma área nem substitui Junto nas Formas Cura e Apoio. Toque exige todos os alvos a até 1,5 m de você.",
+      "tipo": "I/M",
+      "motivo": "Especifica divisão, não criação de áreas, e separa Junto de Mais Um para impedir redundância de peças de suporte.",
+      "fontes_de_interface": [
+        "R06: Dano e repetições; Junto divide cura/apoio"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-12",
+      "nome": "Rajada",
+      "familia": "Área",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 626,
+        "ancora": "Rajada"
+      },
+      "antes": "| `Rajada` | `Leve` | Divide o feitiço em (Classe + 1) tiros, cada um com sua rolagem de acerto, distribuídos como você quiser. |",
+      "depois": "Divide o feitiço em **Classe + 1 tiros**, cada um com ataque próprio. Só em Forma de alvo individual com ataque. Distribua os dados e indique os alvos antes de rolar. Cada tiro precisa de pelo menos um dado; se faltarem dados, reduza o número de tiros. Você pode dirigir vários ao mesmo alvo. Todos cumprem alcance e requisitos da Forma. Não combina com resolução só por TR nem transforma uma área em várias áreas.",
+      "tipo": "M/I",
+      "motivo": "Preserva número e ataques distintos, fecha tiros de zero dados e duplicação de área. R06 já reconhece gatilhos por tiro que outras peças autorizem.",
+      "fontes_de_interface": [
+        "R06: Escolher e dividir; Dano e repetições"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-13",
+      "nome": "Fica",
+      "familia": "Área",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 624,
+        "ancora": "Fica"
+      },
+      "antes": "| `Fica` | `Média` | A área continua ali por 1 minuto. Quem entrar ou começar o turno nela leva metade dos dados. Exige concentração. |",
+      "depois": "Mantém a área **na rodada da conjuração e nas cinco seguintes**, com concentração, até o fim da última. A aplicação inicial resolve normalmente. Depois, entrar na área ou começar o turno nela resolve metade dos dados iniciais, para baixo, pelo ataque ou TR da ficha. **Uma resolução por criatura por rodada**, incluindo a inicial, mesmo se o ataque errar ou o TR evitar o dano.\n\nA área fica no local, inclusive se começou como Aura. Não reaplica as outras peças. Mover a área por outra capacidade não conta como entrada de uma criatura. Concentrada e Duradoura não prolongam Fica. Ela tem duração própria, sem reserva total de 4 × Classe para todas as rodadas.",
+      "tipo": "M/E",
+      "motivo": "Reproduz decisão R06/CAT-02: seis janelas globais, posição fixa e cota por rodada; não afirma que fonte antiga já possuía esse máximo.",
+      "fontes_de_interface": [
+        "R06: Áreas persistentes",
+        "sincronizacoes/40-CATALOGO.md: CAT-02"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-14",
+      "nome": "Salto",
+      "familia": "Área",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 627,
+        "ancora": "Salto"
+      },
+      "antes": "| `Salto` | `Média` | Depois do primeiro alvo, pula para o inimigo mais perto a até 9 m com metade dos dados. |",
+      "depois": "**Uma vez por conjuração**, após a resolução inicial, escolha um alvo que tenha sido acertado ou falhado no TR. Metade dos dados iniciais **destinados a esse alvo**, para baixo, salta para outro inimigo: o mais próximo dele a até **9 m**, por trajeto aberto; escolha em caso de empate.\n\nFaça o ataque com o mesmo bônus ou o TR da ficha contra esse segundo alvo. O ataque secundário pode errar; o TR reduz ou evita o dano conforme a ficha. Em Rajada, escolha um tiro que acertou como origem e use só os dados desse tiro. O segundo alvo cumpre os requisitos de visão e alvo da ficha. O Salto não causa crítico, não reaplica peças nem ativa benefícios de outro ataque. Não volta a saltar. Em Toque, os dois alvos devem estar a até 1,5 m de você.",
+      "tipo": "M/I",
+      "motivo": "Sincroniza decisão R06/CAT-03 e preserva a exclusão de gatilhos externos. Especifica base da parcela inicial escolhida, para um tiro não copiar os dados destinados a outros alvos/tiros.",
+      "fontes_de_interface": [
+        "R06: Dano e repetições",
+        "sincronizacoes/40-CATALOGO.md: CAT-03"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-15",
+      "nome": "Contorno",
+      "familia": "Área",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 628,
+        "ancora": "Contorno"
+      },
+      "antes": "| `Contorno` | `Leve` | A área faz curva. Ignora cobertura e dobra esquinas. |",
+      "depois": "Permite à **área seguir um percurso aberto**, dobrando esquinas e passando ao redor de cobertura. Meça alcance e extensão pelo percurso real, respeitando comprimento, largura ou raio da Forma. Ignore a proteção de uma cobertura somente quando o efeito conseguir contorná-la. Não atravessa sólido nem enche outro cômodo além dessas medidas.\n\nNão concede visão: o alvo ou ponto de origem escolhido ainda precisa ser válido, ou requer Sem Ver. Depois de criada validamente, a área pode alcançar criaturas não vistas pelo percurso permitido.",
+      "tipo": "I/M",
+      "motivo": "Separa desviar de cobertura e atravessar obstáculo. Não impõe Sem Ver a toda vítima invisível de área, mas mantém a validade da origem escolhida.",
+      "fontes_de_interface": [
+        "R06: Conjurar; Regras Comuns: Luz e obstáculos"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-16",
+      "nome": "Precisão",
+      "familia": "Mira",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 639,
+        "ancora": "Precisão"
+      },
+      "antes": "| `Precisão` | `Leve` | +2 na rolagem de acerto, ou +2 na CD do Teste de Resistência. |",
+      "depois": "Concede **+2 no ataque ou +2 na CD do TR** que resolve o feitiço, conforme a resolução da ficha. Não concede bônus a efeito inteiramente automático. Um TR de saída que use a mesma CD conserva esse valor. Não aumenta cura, dano ou testes de perícia.",
+      "tipo": "I/E",
+      "motivo": "Fecha aplicação do bônus sem alterar a opção ataque/TR registrada; protege de conversão em bônus a perícias.",
+      "fontes_de_interface": [
+        "R06: Atributo, ataque e CD"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-17",
+      "nome": "Certeiro",
+      "familia": "Mira",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 640,
+        "ancora": "Certeiro"
+      },
+      "antes": "| `Certeiro` | `Média` | Sem rolagem de acerto. O alvo ainda faz o Teste de Resistência para metade. |",
+      "depois": "Só em ficha com ataque. Se o **resultado final errar um alvo válido**, causa metade dos dados daquele ataque, para baixo, sem outros efeitos nem crítico. No acerto, aplica dano e crítico normalmente. Resolva De Novo antes de conferir o erro final; não some uma parcela de erro a outra de acerto. Bloquear ou Aparar pode produzir esse erro final; uma redução de dano após o acerto não o produz.",
+      "tipo": "M/E",
+      "motivo": "Redesign aprovado em R06/CAT-01; inclui interface demonstrada com Bloquear.",
+      "fontes_de_interface": [
+        "R06: Combinar peças",
+        "ATAQUES-E-DEFESA: Bloquear; Aparar"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-18",
+      "nome": "Inescapável",
+      "familia": "Mira",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 641,
+        "ancora": "Inescapável"
+      },
+      "antes": "| `Inescapável` | `Média` | Sem acerto e sem Teste de Resistência: o dano é automático. Este feitiço não pode ter mais nenhuma peça, nem Melhoria nem Restrição, e não pode ser uma Liberação Máxima. |",
+      "depois": "Só em **Projétil de dano**. O dano é automático, sem ataque nem TR, e não pode ser crítico. Esta é a única Melhoria da ficha; não aceita Restrição, incluindo uma embutida na Forma. Você ainda precisa escolher alvo válido, dentro do alcance e com visão e trajeto exigidos. Não se combina com área, Controle, outras Formas, Liberação Máxima ou Técnica Máxima.",
+      "tipo": "M",
+      "motivo": "Fecha expressamente a lacuna de Forma paga/área. Preserva o único exemplo histórico de Projétil e o custo do dano automático usado como referência do domínio; não cria condição automática.",
+      "fontes_de_interface": [
+        "R06: Melhorias da Técnica Máxima",
+        "manual/40-fundamento.md: Purga Escarlate; régua de Acerto do domínio"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-19",
+      "nome": "De Novo",
+      "familia": "Mira",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 645,
+        "ancora": "De Novo"
+      },
+      "antes": "| `De Novo` | `Média` | Se você errar, rola de novo. Uma vez por cena. |",
+      "depois": "**Uma vez por cena**, depois de um ataque deste feitiço errar, repita essa rolagem de ataque, com os mesmos modificadores e o mesmo alvo. Use o novo resultado. Em Rajada, repete somente um tiro. Não obriga alguém a repetir TR nem repete o feitiço inteiro. Alvo e requisitos precisam continuar válidos.",
+      "tipo": "I/M",
+      "motivo": "Define alcance da repetição e vínculo com cena, preservando preço. Limite acompanha a ficha/peça, não uma nova conjuração a cada falha.",
+      "fontes_de_interface": [
+        "R06: Certeiro; Catálogo Rajada"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-20",
+      "nome": "Fura",
+      "familia": "Mira",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 642,
+        "ancora": "Fura"
+      },
+      "antes": "| `Fura` | `Média` | Ignora até 2 × Classe de Redução de Dano. |",
+      "depois": "Ao causar dano, ignore até **2 × Classe de Redução de Dano** do alvo para este feitiço. Não elimina resistência, imunidade, cobertura ou pontos de vida de uma barreira. Um valor ignorado não se transforma em dano adicional.",
+      "tipo": "E/I",
+      "motivo": "Distingue RD de outras defesas sem mexer em preço ou quantidade.",
+      "fontes_de_interface": [
+        "Dano e Condições: sequência de defesas"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-21",
+      "nome": "Corrói",
+      "familia": "Mira",
+      "preco": "Pesada",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 643,
+        "ancora": "Corrói"
+      },
+      "antes": "| `Corrói` | `Pesada` | Resistência ao seu tipo de dano deixa de valer neste feitiço. Só pode ser comprada se Mira for uma das suas Famílias Livres. |",
+      "depois": "Só pode ser comprada se **Mira for uma Família Livre**. A resistência ao tipo de dano deste feitiço não reduz seu dano nesta aplicação. Não remove a resistência do alvo contra outras fontes e não ignora imunidade ou Redução de Dano.",
+      "tipo": "E/I",
+      "motivo": "Define duração da supressão como aplicação própria, evitando debuff permanente por nome.",
+      "fontes_de_interface": [
+        "R06: Famílias; Dano e Condições: resistência/imunidade"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-22",
+      "nome": "Sem Cobertura",
+      "familia": "Mira",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 644,
+        "ancora": "Sem Cobertura"
+      },
+      "antes": "| `Sem Cobertura` | `Leve` | Cobertura `Parcial` não atrapalha. A `Total` não se fura: ela não é bônus, é a ausência de alvo legal. |",
+      "depois": "Ignore os bônus de **Cobertura Parcial** contra este feitiço. Cobertura Boa mantém seus bônus; Cobertura Total continua impedindo escolher diretamente o alvo. Esta peça não concede visão nem muda a trajetória.",
+      "tipo": "E/I",
+      "motivo": "Preserva a restrição expressa à categoria Parcial; não amplia silenciosamente à Boa após formalização das categorias.",
+      "fontes_de_interface": [
+        "ATAQUES-E-DEFESA: Cobertura"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-23",
+      "nome": "Toca a Alma",
+      "familia": "Mira",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 646,
+        "ancora": "Toca a Alma"
+      },
+      "antes": "| `Toca a Alma` | `Leve` | Só da Classe 3 em diante, e só para Fundamento cuja Regra seja direta sobre alma. Os dados de dano deste feitiço viram dano na alma, e você fica com metade deles, arredondando para baixo. Não entra numa Liberação Máxima. |",
+      "depois": "Requer **Classe 3 ou superior** e Fundamento cuja Regra trate diretamente da alma. Troque os dados de dano do feitiço por dano de Alma e reduza sua quantidade à metade, para baixo. Aplique depois **Dano na alma**, inclusive suas defesas e Integridade. Não combina com Liberação Máxima. Na Técnica Máxima, conserva a redução e os requisitos.",
+      "tipo": "E/I",
+      "motivo": "Preserva regra atual, sem redesenhar Integridade pendente. A conversão não mantém a quantidade original por ser Máxima.",
+      "fontes_de_interface": [
+        "R06: Melhorias da Técnica Máxima",
+        "DANO-E-CONDICOES: Dano na alma"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-24",
+      "nome": "Condição",
+      "familia": "Controle",
+      "preco": "Nível da condição",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 657,
+        "ancora": "Condição"
+      },
+      "antes": "| `Condição` | o nível dela | Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), e a seção *Condições* traz as três listas. Dura uma rodada, a não ser que o feitiço tenha a `Concentrada` ou a `Duradoura`. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só pode ser colocada uma delas por feitiço. |",
+      "depois": "Escolha na montagem **uma das treze condições compráveis** de Condições. Pague seu nível: Leve, Média ou Pesada. Ela se aplica no acerto ou na falha do TR, dura **uma rodada** e termina no começo do seu próximo turno, salvo duração diferente da ficha. Só pode haver uma Pesada por feitiço.\n\nUma Pesada permite ao alvo repetir o TR registrado no fim de cada turno dele, sem ação, encerrando aquela aplicação no sucesso, mesmo que tenha sido aplicada por ataque. Leves e Médias não ganham essa saída por padrão. Concentrada, Duradoura e o bônus de Controle mudam os prazos nos limites próprios; não retiram as saídas da condição.",
+      "tipo": "E",
+      "motivo": "Remete ao dono das treze condições sem repetir catálogo de estados e resolve TR de saída mesmo para ataque.",
+      "fontes_de_interface": [
+        "R06: Controle",
+        "DANO-E-CONDICOES: Condições"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-25",
+      "nome": "Terreno",
+      "familia": "Controle",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 658,
+        "ancora": "Terreno"
+      },
+      "antes": "| `Terreno` | `Leve` | A área vira terreno difícil, ou fica obscurecida, por uma rodada. |",
+      "depois": "Requer Forma de área. Escolha ao montar: a área vira **terreno difícil** ou recebe **obscurecimento denso**, bloqueando a visão através dela, por uma rodada. O local fica fixo. Afeta quem passar por ele enquanto durar, sem TR por entrada; não causa dano nem aplica condição. Obscurecimento não cria cobertura física nem deixa alguém Oculto automaticamente.",
+      "tipo": "M/I",
+      "motivo": "Define obscurecimento e duração espacial, sem duplicar Cego nem conceder teste gratuito de furtividade. A escolha é fixa, não duas funções alternáveis por lançamento.",
+      "fontes_de_interface": [
+        "R06: Rede de contenção",
+        "Regras Comuns: Luz e obstáculos; Esconder"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-26",
+      "nome": "Cerca",
+      "familia": "Controle",
+      "preco": "Leve",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 661,
+        "ancora": "Cerca"
+      },
+      "antes": "| `Cerca` | `Leve` | O alvo não consegue se aproximar de você até o fim do próximo turno dele. Acaba assim que você causar dano a ele — inclusive o dano do próprio feitiço que comprou esta Melhoria. |",
+      "depois": "No acerto ou na falha do TR, o alvo não pode **se aproximar voluntariamente de você** até o fim do próximo turno dele. Você se mover até ele não o afasta. Movimento imposto continua possível. A aplicação termina assim que você lhe causar dano, **inclusive o dano do feitiço que a aplicou**.",
+      "tipo": "I/E",
+      "motivo": "Mantém o encerramento publicado, inclusive quando torna combo com dano sem utilidade; define aproximação voluntária em vez de barreira física.",
+      "fontes_de_interface": [
+        "Fonte 40: entrada Cerca; regra de movimento imposto"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-27",
+      "nome": "Desarma o Feitiço",
+      "familia": "Controle",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 663,
+        "ancora": "Desarma o Feitiço"
+      },
+      "antes": "| `Desarma o Feitiço` | `Média` | Cancela um efeito contínuo ou uma barreira de Classe igual ou menor que a sua. |",
+      "depois": "Escolha **um efeito contínuo ou uma barreira com Classe registrada**, ao alcance da Forma. Se sua Classe for igual ou maior, essa aplicação termina, sem ataque ou TR adicional. O efeito precisa ser percebido e ter acesso válido; não é necessário atingir seu criador. Cancelar o efeito não causa dano nem aplica as outras peças ao criador.\n\nNão desfaz um resultado já concluído, não remove todas as capacidades de uma criatura e não atribui Classe a item, característica inata, Selo ou Domínio. Esses casos só podem ser desfeitos se suas regras concederem essa possibilidade.",
+      "tipo": "I/M",
+      "motivo": "Preserva cancelamento de Classe igual/menor, fecha equivalências fictícias com nível/Refino e separa atacar efeito de impor dano automático ao dono.",
+      "fontes_de_interface": [
+        "R06: Formas e Efeitos próprios; regra própria de Domínios"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-28",
+      "nome": "Anteparo",
+      "familia": "Controle",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 659,
+        "ancora": "Anteparo"
+      },
+      "antes": "| `Anteparo` | `Média` | Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. Ocupa os mesmos quadrados que a `Linha` da Classe dele, arrumados como você quiser, cada um partilhando um lado com outro. Altura mínima 2 quadrados. Colocado num ponto a até o alcance do feitiço. |",
+      "depois": "Cria uma **barreira fixa**, num ponto válido ao alcance do feitiço, com **10 × Classe PV** e duração de **1 minuto**. Seus painéis de 1,5 m usam a quantidade de quadrados da Linha básica da Classe, distribuídos numa superfície vertical contínua; cada painel compartilha um lado com outro e a altura mínima é **3 m**. Registre o formato.\n\nColoque-a em espaços livres, sem atravessar criaturas nem empurrá-las. Ela impede passagem e oferece cobertura conforme a posição; bloqueia visão se seu material for opaco. Todos os painéis partilham a mesma vida: ao chegar a zero, a barreira inteira termina. Use as regras de objetos para atacá-la. Não concede bônus de escudo equipado nem exige atacar uma criatura para surgir. Concentrada e Duradoura não prolongam sua duração.",
+      "tipo": "I/M",
+      "motivo": "Consolida Divisória de fios R06 e a geometria de face vertical; HP único impede multiplicar 10C por quadrado. Fecha escudo móvel/equipamento por leitura ambígua.",
+      "fontes_de_interface": [
+        "R06: Divisória de fios; fonte 40: Anteparo"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-29",
+      "nome": "Prende",
+      "familia": "Controle",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 660,
+        "ancora": "Prende"
+      },
+      "antes": "| `Prende` | `Média` | O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar uma ação — qualquer uma, menos livre — para tentar um Teste de Resistência e se soltar. O Teste é decidido na criação do feitiço. |",
+      "depois": "No acerto ou na falha do TR, o alvo não pode se deslocar voluntariamente até o fim do próximo turno dele. Ainda pode atacar, conjurar e usar outras ações. No próprio turno, pode gastar **Ação Padrão, Ação Bônus ou Ação de Movimento** para fazer o TR de saída registrado na ficha contra sua CD; no sucesso, a aplicação termina. Cada tentativa paga uma dessas ações.\n\nNão concede saída automática no fim do turno. Movimento imposto não é impedido e não encerra o efeito por si. Se o mesmo feitiço também mover o alvo, resolva o movimento antes de prendê-lo.",
+      "tipo": "M/I",
+      "motivo": "Formaliza “qualquer ação menos livre” sem inventar reação fora de gatilho. Interpreta a fixação como proibição de movimento voluntário, sem imunidade adicional a empurrão; mantém combo histórico Prende+Puxa.",
+      "fontes_de_interface": [
+        "R06: Controle; fonte40: exemplo Explosão+Prende+Puxa",
+        "Regras Comuns: contenções seguem saídas próprias"
+      ],
+      "publicado": false
+    },
+    {
+      "id": "R07-A-30",
+      "nome": "Puxa",
+      "familia": "Controle",
+      "preco": "Média",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 662,
+        "ancora": "Puxa"
+      },
+      "antes": "| `Puxa` | `Média` | Todo mundo na área é puxado 6 m na direção do centro. |",
+      "depois": "Requer uma área com **centro definido**. No disparo, cada alvo atingido ou que falhe no TR é movido **até 6 m em direção ao centro**. O trajeto precisa estar livre e a chegada deve comportá-lo; pare antes de um obstáculo ou de sobrepor criaturas. Quem já chegou ao centro não é arrastado além dele.\n\nResolva os alvos do mais próximo ao mais distante do centro; em empate, o conjurador escolhe a ordem. Não repete o movimento quando alguém entra depois na área. Uma criatura não recebe Puxa e Empurrão da mesma conjuração; escolha qual aplicar a ela. Cone e Linha precisam de outro efeito para puxar a um ponto que sua Forma não define como centro.",
+      "tipo": "I/M",
+      "motivo": "R06 já usa “até 6 m”. Define centro de esfera, colisões/ocupação e ordem para evitar sobreposição ou distância negativa. A limitação a área com centro evita escolher ponto móvel gratuito em Linha/Cone. Empurrão e Puxa não somam trajetos na mesma criatura; escolha uma das aplicações sobre ela.",
+      "fontes_de_interface": [
+        "R06: Controle; Regras Comuns: movimento imposto"
+      ],
+      "publicado": false
+    }
+  ]
+}

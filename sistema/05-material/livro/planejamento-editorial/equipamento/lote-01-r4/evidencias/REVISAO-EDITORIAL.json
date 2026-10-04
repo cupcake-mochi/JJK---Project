@@ -1,0 +1,27 @@
+{
+  "sha256_texto": "933bdd89b08ba15b59d0aaa8e5ea1dbc2466accd3c37739ce7302261a4a84d60",
+  "secoes": [
+    {
+      "id": "equipamento",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    },
+    {
+      "id": "manipular",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    },
+    {
+      "id": "objetos",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    },
+    {
+      "id": "propriedades",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    },
+    {
+      "id": "oculta",
+      "parecer": "Título direto, assunto no próprio dono; tabelas e procedimentos lidos. Tipos novos e Alcance em decisão candidata, sem explicações de classes."
+    }
+  ],
+  "independente": false,
+  "teste_humano": false
+}

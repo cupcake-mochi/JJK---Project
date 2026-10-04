@@ -1,0 +1,265 @@
+{
+  "base": "v0.331",
+  "entrega": "piloto editorial 2",
+  "data": "2026-10-02",
+  "preservacao": {
+    "fontes": 22,
+    "artefatos_publicados": 5,
+    "arquivos_piloto_1": 16
+  },
+  "pdfs": [
+    {
+      "arquivo": "output/pdf/Projeto-M-Piloto-Editorial-02.pdf",
+      "sha256": "a596511914da9e3b8df8eed60187e6bec9aed5d5f5cad566ca25b6a202a75cc0",
+      "paginas": 10,
+      "marcadores": [
+        {
+          "titulo": "Resgate na ala oeste",
+          "pagina": 1
+        },
+        {
+          "titulo": "O mundo que você vai jogar",
+          "pagina": 2
+        },
+        {
+          "titulo": "Da conversa à rolagem",
+          "pagina": 3
+        },
+        {
+          "titulo": "Kaori, antes de entrar",
+          "pagina": 4
+        },
+        {
+          "titulo": "Uma rodada na ala oeste",
+          "pagina": 5
+        },
+        {
+          "titulo": "Crie seu personagem",
+          "pagina": 6
+        },
+        {
+          "titulo": "Da ideia à ficha",
+          "pagina": 7
+        },
+        {
+          "titulo": "Proteção do Bastião",
+          "pagina": 8
+        },
+        {
+          "titulo": "O ataque contra um aliado",
+          "pagina": 9
+        },
+        {
+          "titulo": "Continue por aqui",
+          "pagina": 10
+        }
+      ],
+      "links_internos": 10,
+      "caracteres_por_pagina": [
+        1757,
+        2864,
+        2312,
+        1971,
+        2393,
+        2171,
+        2098,
+        2279,
+        2079,
+        1832
+      ],
+      "caixas_textuais_fora_dos_limites": 0
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Amostras-Tecnicas-02.pdf",
+      "sha256": "5bc0fcc3fc97ed8d892d9a1a8f627f49c3bc476a69314deebe583ee621514828",
+      "paginas": 11,
+      "marcadores": [
+        {
+          "titulo": "Movimento e ações",
+          "pagina": 1
+        },
+        {
+          "titulo": "Malabarista em ação",
+          "pagina": 2
+        },
+        {
+          "titulo": "Ricochete",
+          "pagina": 3
+        },
+        {
+          "titulo": "Continuar ou corrigir",
+          "pagina": 4
+        },
+        {
+          "titulo": "Três ataques, duas armas",
+          "pagina": 5
+        },
+        {
+          "titulo": "De onde vêm os 3d8?",
+          "pagina": 6
+        },
+        {
+          "titulo": "Você e sua entidade",
+          "pagina": 7
+        },
+        {
+          "titulo": "O cão guarda a porta",
+          "pagina": 8
+        },
+        {
+          "titulo": "Perícias para consulta",
+          "pagina": 9
+        },
+        {
+          "titulo": "Roteiro de conferência",
+          "pagina": 11
+        }
+      ],
+      "links_internos": 0,
+      "caracteres_por_pagina": [
+        2209,
+        2177,
+        1947,
+        2413,
+        2298,
+        2476,
+        2583,
+        2291,
+        1751,
+        1376,
+        2276
+      ],
+      "caixas_textuais_fora_dos_limites": 0
+    }
+  ],
+  "catalogo": {
+    "pericias": 23,
+    "atributos_iguais_a_fonte": true,
+    "paginas_continuacao": [
+      9,
+      10
+    ],
+    "cabecalhos_repetidos": true
+  },
+  "contas_extraidas": [
+    {
+      "fonte": "PILOTO",
+      "expressao": "11 + 2",
+      "resultado": 13
+    },
+    {
+      "fonte": "PILOTO",
+      "expressao": "16 + 3",
+      "resultado": 19
+    },
+    {
+      "fonte": "PILOTO",
+      "expressao": "14+ 3",
+      "resultado": 17
+    },
+    {
+      "fonte": "PILOTO",
+      "expressao": "23 − 5",
+      "resultado": 18
+    },
+    {
+      "fonte": "PILOTO",
+      "expressao": "12+ 4",
+      "resultado": 16
+    },
+    {
+      "fonte": "PILOTO",
+      "expressao": "9 − 3",
+      "resultado": 6
+    },
+    {
+      "fonte": "PILOTO",
+      "expressao": "3 + 2 + 2 + 1 + 1",
+      "resultado": 9
+    },
+    {
+      "fonte": "PILOTO",
+      "expressao": "11+ 3",
+      "resultado": 14
+    },
+    {
+      "fonte": "PILOTO",
+      "expressao": "4+ 2",
+      "resultado": 6
+    },
+    {
+      "fonte": "PILOTO",
+      "expressao": "7 + 6 + 2",
+      "resultado": 15
+    },
+    {
+      "fonte": "LOTE-TECNICO",
+      "expressao": "9 + 9",
+      "resultado": 18
+    },
+    {
+      "fonte": "LOTE-TECNICO",
+      "expressao": "3 + 9",
+      "resultado": 12
+    },
+    {
+      "fonte": "LOTE-TECNICO",
+      "expressao": "12 − 3",
+      "resultado": 9
+    },
+    {
+      "fonte": "LOTE-TECNICO",
+      "expressao": "9 − 3",
+      "resultado": 6
+    },
+    {
+      "fonte": "LOTE-TECNICO",
+      "expressao": "3 − 1 + 1",
+      "resultado": 3
+    }
+  ],
+  "saldos_conferidos": {
+    "Kaori": {
+      "vida": 18,
+      "PE": 5,
+      "movimento_restante_m": 6
+    },
+    "Haru": {
+      "PE": 6,
+      "Fluidez": 0,
+      "ataques": 3,
+      "maos": "vazias"
+    },
+    "Kaito": {
+      "PE_apos_entrada": 6,
+      "ramo_basica": 6,
+      "ramo_especial": 3
+    }
+  },
+  "revisao_final_corresponde_aos_textos": true,
+  "imagens_geradas_por_IA_incorporadas": false,
+  "visuais": "diagramas SVG e composição tipográfica",
+  "leitura_por_agentes": [
+    "narrativa/comparação",
+    "semântica/regras",
+    "compreensão/consulta"
+  ],
+  "teste_humano": "não realizado",
+  "equilibrio_integral": "não testado; proposta editorial",
+  "acessibilidade": "sem certificação ou teste com leitor de tela",
+  "inspecao_visual": {
+    "responsavel": "autor do piloto",
+    "paginas": 21,
+    "ressalva": "registro de inspeção visual, não inferência automática do código"
+  },
+  "fontes_autoria": [
+    {
+      "arquivo": "PILOTO.md",
+      "sha256": "5c274c0aff8c8d8fde7935a44a004f3ea8f594ffea9e48a2cd97fcc52bd7b003"
+    },
+    {
+      "arquivo": "LOTE-TECNICO.md",
+      "sha256": "d5bca16496bbe281a0826043159a267010acefb435a24a3cab7aeb7db9edcd66"
+    }
+  ]
+}

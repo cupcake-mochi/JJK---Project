@@ -1,0 +1,17 @@
+{
+  "manuscrito": "INCURSOR.md",
+  "sha256": "cd608cb7a2ad671becaef2da0b56ee77229a24f8212df1dbbbf7b002e9f268d4",
+  "paginas": 26,
+  "status": "autoria, auditoria e exportação concluídas; inspeção visual pendente",
+  "publicados_editados": false,
+  "outros_donos_editados": false,
+  "pendencias": [
+    "Salvar parecer independente já realizado pela raiz",
+    "Sincronização de Leve em R05",
+    "Retirar duplicações específicas em R01",
+    "Inspeção visual por raiz e conferência integral"
+  ],
+  "retomada": "RELATORIO-DE-REVISAO.md e SINCRONIZACOES.md",
+  "pdf": "output/pdf/Projeto-M-Incursor-Proposta-01.pdf",
+  "sha256_pdf": "8218bdcbfcfb307489d72c0608054524365ec9af491903fd3e002754f512ae83"
+}

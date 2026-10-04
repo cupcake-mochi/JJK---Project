@@ -1,0 +1,11 @@
+{
+  "reproduzido_em_pasta_isolada": true,
+  "sha256_pdf_original": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "sha256_pdf_reproduzido": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+  "bibliotecas": {
+    "reportlab": "4.4.9",
+    "pypdf": "6.16.2",
+    "pdfplumber": "0.11.9"
+  },
+  "metodo": "Gerador --strict executado na árvore do pacote, com fontes e mapas relativos. PDF idêntico byte a byte; conferência estrutural final do original é aplicável ao PDF reproduzido."
+}

@@ -1,0 +1,211 @@
+{
+  "data": "2026-10-03",
+  "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
+  "sha256_pdf": "9f2409bf6aec6a57a9502de2880235589fbafe676124928532d5a788a11cb0c3",
+  "metodo": "Todas as páginas alteradas pela migração e seus complementos foram abertas individualmente. As demais conservam a inspeção anterior por igualdade de pixels comprovada, sem alegar nova leitura visual.",
+  "prova_anterior": "c5905aedb50386d7f7b57b3a013b0e41a809f661df61226da4524fa12f4726a0",
+  "comparacao": "evidencias/COMPARACAO-NOMES-PDF.json",
+  "paginas": [
+    {
+      "pagina": 1,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "c5ea9aa6e78baa6e7350b6348715d52eab80385df80cf78d8ed3d95bfb8bd955",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-01.png"
+    },
+    {
+      "pagina": 2,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "a5304934e334089f6805f539e372840cc2e585521911b205c8e16f2f96480eb3",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-02.png"
+    },
+    {
+      "pagina": 3,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Cabeçalho Categoria de Efeito quebra em duas linhas, sem compressão ou sobreposição. Encarnado na linha Cesta legível.",
+      "sha256_png": "24387be1c019badbea09f2e0d8ced6b73897a2eb7e330d6c9e45c78860f75457",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-03.png"
+    },
+    {
+      "pagina": 4,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "d86856d727f8024ee0d283d74f710a7f654b65e77f3a3a8ca270cde9fa47cd09",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-04.png"
+    },
+    {
+      "pagina": 5,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "8d7cba7b15423f26dd25ccc2767330ecf50fbfc514bea233181a31b218a16818",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-05.png"
+    },
+    {
+      "pagina": 6,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "cf8ca02a8be53b7e2e5298746d5a57cfef67ad053a9fc4dfeb3632abc14ca9f4",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-06.png"
+    },
+    {
+      "pagina": 7,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Categoria de Efeito 3 no requisito sem quebra prejudicial; tabela de cura preservada.",
+      "sha256_png": "2bf593e9e24f60b6289732968b6b402b032d6321e24788fed1f0f536eac62fdd",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-07.png"
+    },
+    {
+      "pagina": 8,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Remissão Dano e recuperação cabe no parágrafo, sem interferir no exemplo.",
+      "sha256_png": "f07077c11f96551ea686a9886cefe630695f7ff073ec9ef57a00d3fd1314e2dd",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-08.png"
+    },
+    {
+      "pagina": 9,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Categoria de Efeito 3 no requisito, tabela e exemplo claros.",
+      "sha256_png": "577cd8d9edceec439f7d93787b0175135e124827dfd78dfc762d10764e1750f4",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-09.png"
+    },
+    {
+      "pagina": 10,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Categoria de Efeito 3 no requisito; quadro das marcas intacto.",
+      "sha256_png": "c9476f18facb18e33743efd9a2a9b4a5f76ae4cd05817baf510dfe720127c31f",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-10.png"
+    },
+    {
+      "pagina": 11,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Remissão Dano e recuperação cabe na regra do dano; exemplo e duas aptidões completos.",
+      "sha256_png": "81ca441b56b7f648172d6e20aa8272aa6de92f7ddf3942598cd924706b5da618",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-11.png"
+    },
+    {
+      "pagina": 12,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "e3a24363b7c225c0920630d099dc975498f4bc27e8a15b067610569cbb1bf810",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-12.png"
+    },
+    {
+      "pagina": 13,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Encarnado e Categoria de Efeito 1 no requisito; exemplos e quadro da Cesta íntegros.",
+      "sha256_png": "720f371c67e755142c88d3d0429428cf219ed1f25b1e9215a41932505b36cffb",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-13.png"
+    },
+    {
+      "pagina": 14,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Categoria de Efeito 2 no requisito; tabela, voto e permanência legíveis.",
+      "sha256_png": "414a0830a62ae587e227823be7df4be3788346b0865409c6f6a39e3bfd0ee8c7",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-14.png"
+    },
+    {
+      "pagina": 15,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "2ca7eb02304fd11f7299b3af44020bb85f962a7b26976c026288481ae4e8a10b",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-15.png"
+    },
+    {
+      "pagina": 16,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Categoria de Efeito 2 no requisito; quadro e regras de queda/contra-ataque íntegros.",
+      "sha256_png": "966835733eac4f91db601cfcde8e0049913df7e4b7242ad7f15057ad6100f64d",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-16.png"
+    },
+    {
+      "pagina": 17,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Categorias mencionadas em neutralização; parágrafos, nota e espaços preservados.",
+      "sha256_png": "422ad8718e6ab788be73ce126190490efd5d594318d2e4828c15f1b1a627c0c7",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-17.png"
+    },
+    {
+      "pagina": 18,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "33e7380055142cf5a91e95c12e9572b39564e3419dd83cf57a2cfad74cc8085f",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-18.png"
+    },
+    {
+      "pagina": 19,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
+      "sha256_png": "34460e009d1952c290bb959207e2b503a606074757ebdb95fcc8f065f59df191",
+      "revisor": "Agente principal",
+      "pixels_iguais_rodada_anterior": true,
+      "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
+      "imagem": "output/png/pagina-19.png"
+    },
+    {
+      "pagina": 20,
+      "resultado": "sem defeito visual observado",
+      "observacoes": "Categoria de Efeito no título de escala e Categoria 1/2 nos exemplos; a tabela ocupa a largura útil e não estoura células.",
+      "sha256_png": "f8bf49a8dc5fd910c51bcd8a911c713d138b0770afc7ca5b615e4d1f758d596f",
+      "revisor": "/root/compatibilidade",
+      "pixels_iguais_rodada_anterior": false,
+      "inspecao_realizada": "PNG aberto individualmente na rodada de migração nominal, 2026-10-03",
+      "imagem": "output/png/pagina-20.png"
+    }
+  ],
+  "limites": "Inspeção por modelo em PNG a 100 dpi, sem impressão física ou teste com leitores humanos."
+}

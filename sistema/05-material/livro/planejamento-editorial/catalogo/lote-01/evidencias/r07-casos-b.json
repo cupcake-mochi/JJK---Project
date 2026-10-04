@@ -1,0 +1,617 @@
+{
+  "data": "2026-10-03",
+  "manuscrito": "/tmp/r07-parte-b.md",
+  "sha256": "03b095b8ca58b227558e8d100aec88b0a82e5307ec5e2c41c42fb0dbb5d09f53",
+  "casos": [
+    {
+      "id": "B01",
+      "peca": "Impulso",
+      "cenario": "Falha no primeiro teste e tenta outro dentro do prazo.",
+      "esperado": "Vantagem apenas no primeiro; falhar consome o benefício.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B02",
+      "peca": "Trava",
+      "cenario": "Não ataca antes do começo do próximo turno do conjurador.",
+      "esperado": "Penalidade expira; não fica indefinidamente à espera.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B03",
+      "peca": "Abre Ferida",
+      "cenario": "TR Físico escolhido, acerto/falha inicial aplica a peça.",
+      "esperado": "Não reduz o TR inicial; reduz os TRs Físicos posteriores no prazo, não outros tipos.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B04",
+      "peca": "Sobrecarga",
+      "cenario": "Alvo conjura por ataque e já mantinha uma CD anterior.",
+      "esperado": "Não reduz bônus de ataque nem CD de efeito antigo; bloqueia nova Reação e reduz CD de feitiços novos.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B05",
+      "peca": "Firmeza + Concentrada",
+      "cenario": "Alvo faz três TRs durante a duração ampliada.",
+      "esperado": "Vantagem só no primeiro; prazo ampliado não renova usos.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B06",
+      "peca": "Guarda",
+      "cenario": "Alvo recebe um ataque resolvido por TR.",
+      "esperado": "+2 Defesa não se converte em +2 no TR.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B07",
+      "peca": "Pressa",
+      "cenario": "Aliado recebe bônus fora do próprio turno.",
+      "esperado": "Não se move imediatamente; usa deslocamento quando um procedimento permitir.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B08",
+      "peca": "Enfraquece",
+      "cenario": "Área atinge três alvos na mesma aplicação.",
+      "esperado": "Uma rolagem de redução aplicada a cada resultado, antes das defesas particulares.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B09",
+      "peca": "Ecoa",
+      "cenario": "Criador da peça ataca, depois um aliado ataca e erra.",
+      "esperado": "Criador não consome Ecoa; ataque do aliado recebe e consome vantagem mesmo errando.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B10",
+      "peca": "Queima",
+      "cenario": "Ataque inicial erra, Certeiro ainda causa metade.",
+      "esperado": "Queima não é aplicada pelo dano parcial.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B11",
+      "peca": "Queima",
+      "cenario": "Acerto inicial crítico com 10d8 base.",
+      "esperado": "O dano adiado usa5d8, não10d8; sem novo ataque, crítico ou outras peças.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B12",
+      "peca": "Acúmulo",
+      "cenario": "Usos consecutivos nas rodadas1,2,3,4,5.",
+      "esperado": "Bônus0/1/2/3/3d8.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B13",
+      "peca": "Acúmulo",
+      "cenario": "Usa duas vezes na rodada2 após usar na1.",
+      "esperado": "As duas usam+1d8; não sobe a+2na mesma rodada.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B14",
+      "peca": "Acúmulo",
+      "cenario": "Erra na rodada2 mas declarou uso válido contra mesmo alvo.",
+      "esperado": "Mantém sequência e pode usar+2d8na rodada3.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B15",
+      "peca": "Acúmulo",
+      "cenario": "Omite uma rodada ou muda alvo acompanhado.",
+      "esperado": "Próximo uso da sequência começa sem bônus.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B16",
+      "peca": "Acúmulo + Rajada",
+      "cenario": "Bônus+3d8 e três tiros contra o alvo acompanhado.",
+      "esperado": "Distribui os três dados entre os tiros; não acrescenta três a cada tiro.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B17",
+      "peca": "Acúmulo",
+      "cenario": "Novo uso ganha mais um dado enquanto Fica antigo persiste.",
+      "esperado": "Pacote antigo não muda; derivados novos podem usar a nova base e conservar exceção histórica.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B18",
+      "peca": "Remate",
+      "cenario": "Primeiro tiro leva alvo de60%para40%da vida.",
+      "esperado": "Primeiro não recebe25%; tiros seguintes podem receber.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B19",
+      "peca": "Remate + Queima",
+      "cenario": "Feitiço aplica os dois efeitos.",
+      "esperado": "Somente dano inicial multiplicado; Queima não reaplica Remate.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B20",
+      "peca": "Estilhaço",
+      "cenario": "Três vítimas iniciais falham por5+.",
+      "esperado": "Escolhe uma origem; gera um respingo automático, não três.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B21",
+      "peca": "Estilhaço + Escolher",
+      "cenario": "Conjurador e aliado estão a1,5mda origem do respingo.",
+      "esperado": "Podem receber respingo; Escolher não é herdado.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B22",
+      "peca": "Quebra Coisa",
+      "cenario": "Feitiço dirigido a uma criatura vestida de armadura.",
+      "esperado": "Não dobra dano na criatura por ela carregar objeto.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B23",
+      "peca": "Rasga Escudo",
+      "cenario": "Parede bloqueia totalmente o trajeto até a criatura.",
+      "esperado": "Não permite selecionar/acertar através dela; ignorar absorção não concede passagem.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B24",
+      "peca": "Sem Cura",
+      "cenario": "Alvo tenta receber vida temporária.",
+      "esperado": "Não recupera vida, mas pode receber vida temporária conforme teto próprio.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B25",
+      "peca": "Rápido",
+      "cenario": "Técnica Máxima recebe melhoria Rápido.",
+      "esperado": "Combinação incompatível; Ação Completa não vira Bônus.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B26",
+      "peca": "Reação",
+      "cenario": "Gatilho declarado sofrer dano.",
+      "esperado": "Conjura depois do dano; não o cancela retroativamente.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B27",
+      "peca": "Armado",
+      "cenario": "Gatilho acontece, mas não há alvo permitido no alcance.",
+      "esperado": "Preparo encerra sem disparar e devolve metadePE pago, para baixo.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B28",
+      "peca": "Armado + Liberação",
+      "cenario": "Usuário prepara Liberação com preço Sangue.",
+      "esperado": "Paga Ação Completa, PE e Sangue ao armar; se houver refund posterior, Sangue não volta.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B29",
+      "peca": "Armado + Técnica Máxima",
+      "cenario": "Tenta preparar uma e deixar recarga correr.",
+      "esperado": "Incompatível; não há contador novo.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B30",
+      "peca": "Armado/Segura + Parado",
+      "cenario": "Usuário se deslocou no turno programado do disparo.",
+      "esperado": "Não cumpre a Restrição; não resolve o disparo.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B31",
+      "peca": "Silencioso",
+      "cenario": "Usuário está exposto visualmente no corredor.",
+      "esperado": "Não fica oculto por dispensar sinais de conjuração.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B32",
+      "peca": "Silencioso + Barulho",
+      "cenario": "Ficha recebeu devolução por Barulho.",
+      "esperado": "Som da Restrição permanece; Silencioso não remove dificuldade paga.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B33",
+      "peca": "Adianta",
+      "cenario": "Inimigo apenas fez um TR obrigatório, sem ação ou Reação.",
+      "esperado": "Não conta como agir para Adianta.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B34",
+      "peca": "Adianta + Segura",
+      "cenario": "Arma bônus antes dos inimigos e libera na rodada seguinte.",
+      "esperado": "Não guarda +2; confira condição também no disparo.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B35",
+      "peca": "Segura",
+      "cenario": "Próximo turno termina sem disparo.",
+      "esperado": "Perde aplicação ePE; não guarda por vários turnos.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B36",
+      "peca": "Concentrada + Fica",
+      "cenario": "Tenta converter seis janelas de Fica em um minuto.",
+      "esperado": "Não prolonga; Fica tem duração própria R06.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B37",
+      "peca": "Duradoura + Artefato",
+      "cenario": "Deseja tornar permanente uma propriedade de equipamento.",
+      "esperado": "Peça só modifica estado compatível da ficha, não duração própria de um artefato.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B38",
+      "peca": "Marca",
+      "cenario": "Primeiro tiro de Rajada aplica Marca.",
+      "esperado": "Tiros da mesma conjuração não recebem vantagem desta marca.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B39",
+      "peca": "Alvo de Caça",
+      "cenario": "Segunda conjuração usaRajada depois de aplicar marca.",
+      "esperado": "Cada tiro com acerto pode receber1d4/1d8; Salto e dano parcial noerro não.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B40",
+      "peca": "Rastro",
+      "cenario": "Alvo estáatrásda paredeououtroplano.",
+      "esperado": "Parede não remove informação no mesmo plano, mas não concede visão; outro plano suspende informação sem pausar hora.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B41",
+      "peca": "Isca",
+      "cenario": "Ataque dividido mira conjurador e terceiro.",
+      "esperado": "Só rolagem contra terceiro sofre penalidade.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B42",
+      "peca": "Sugar",
+      "cenario": "Dano de Queima ocorre mais tarde.",
+      "esperado": "Não aplica nova cura de Sugar.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B43",
+      "peca": "Cobrança",
+      "cenario": "A própria aplicação inicial derruba alvo a0.",
+      "esperado": "Pode ativar o desconto; a marca é consumida.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B44",
+      "peca": "Cobrança",
+      "cenario": "Alvo é curado e cai novamente.",
+      "esperado": "Não gera segundo desconto da mesma marca.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B45",
+      "peca": "Cobrança",
+      "cenario": "Próxima conjuração éClasse0e custa0PE.",
+      "esperado": "Consome desconto sem gerarcrédito futuro.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B46",
+      "peca": "Aviso",
+      "cenario": "Alvo conjura outro feitiço após a leitura.",
+      "esperado": "Informação não se atualiza automaticamente por Concentrada.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B47",
+      "peca": "Limpa/Limpa Fundo",
+      "cenario": "Alvo temtrêscondições.",
+      "esperado": "Remove uma elegível; não concede imunidade à fonte.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B48",
+      "peca": "Levanta",
+      "cenario": "Alvo já está morto ou outro aliado recebe segundo uso na cena.",
+      "esperado": "Não ressuscita; não permite segundo uso do mesmo conjurador na cena.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B49",
+      "peca": "Remenda",
+      "cenario": "Segundo conjurador quer reaplicar na mesma cena ao mesmo aliado.",
+      "esperado": "Não funciona: limite por alvo é compartilhado.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B50",
+      "peca": "Divide",
+      "cenario": "Parceiro também possui vínculo Divide.",
+      "esperado": "Parcela recebida não pode ser transferida de novo.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B51",
+      "peca": "Junto + Guarda + Limpa",
+      "cenario": "Dois beneficiários compartilham Apoio.",
+      "esperado": "Guarda destinada a um; Limpa pode ir ao outro; não duplica nenhuma das peças.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B52",
+      "peca": "Junto + Onda",
+      "cenario": "Quer aumentar raio por adicionarJunto.",
+      "esperado": "Não combina para esse resultado; Junto não amplia área.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B53",
+      "peca": "Reserva",
+      "cenario": "Alvo já abaixo da metade recebe reserva.",
+      "esperado": "Não dispara imediatamente; aguarda futura transição de metade ou mais para menos.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B54",
+      "peca": "Reserva + Sem Cura",
+      "cenario": "Alvo cruza limiar enquanto não pode recuperarvida.",
+      "esperado": "Reserva consumida e cura impedida, não aguarda janela melhor.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B55",
+      "peca": "Reserva + Junto",
+      "cenario": "Total12d8dividido8/4antesdeguardar.",
+      "esperado": "Cada aliado guarda sua parcela; não recebe12d8cada.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "N01",
+      "peca": "Enfraquece",
+      "cenario": "Atributo5.",
+      "esperado": "2d4",
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": "2d4",
+      "passou": true
+    },
+    {
+      "id": "N02",
+      "peca": "Sugar",
+      "cenario": "Classe3,16+28dano inicial apósdefesas.",
+      "esperado": 11,
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": 11,
+      "passou": true
+    },
+    {
+      "id": "N03",
+      "peca": "Sugar",
+      "cenario": "Classe3,80dano inicial.",
+      "esperado": 15,
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": 15,
+      "passou": true
+    },
+    {
+      "id": "N04",
+      "peca": "Divide",
+      "cenario": "21dano apósdefesas origem; semdefesas parceiro.",
+      "esperado": {
+        "origem": 10,
+        "aliado": 11
+      },
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": {
+        "origem": 10,
+        "aliado": 11
+      },
+      "passou": true
+    },
+    {
+      "id": "N05",
+      "peca": "Junto",
+      "cenario": "Apoio9distribuído6e3.",
+      "esperado": 9,
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": 9,
+      "passou": true
+    },
+    {
+      "id": "N06",
+      "peca": "Cobrança",
+      "cenario": "PróximaMáxima25PE.",
+      "esperado": 13,
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": 13,
+      "passou": true
+    },
+    {
+      "id": "N07",
+      "peca": "Armado",
+      "cenario": "7PEpagos;não dispara.",
+      "esperado": 3,
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": 3,
+      "passou": true
+    },
+    {
+      "id": "N08",
+      "peca": "Duração",
+      "cenario": "1minuto emrodadas6s.",
+      "esperado": 10,
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": 10,
+      "passou": true
+    },
+    {
+      "id": "N09",
+      "peca": "Remate+Queima",
+      "cenario": "Base8d8;Remateinicial+25%;Queima4d8.",
+      "esperado": 14,
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": 14.0,
+      "passou": true
+    },
+    {
+      "id": "N10",
+      "peca": "Queima+Estilhaço",
+      "cenario": "Classe5,base10d8e dois secundários metade.",
+      "esperado": 20,
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": 20,
+      "passou": true
+    },
+    {
+      "id": "N11",
+      "peca": "Acúmulo+Remate",
+      "cenario": "C3base9d8noquarto uso antesdedefesasearredondamento.",
+      "esperado": 67.5,
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": 67.5,
+      "passou": true
+    },
+    {
+      "id": "N12",
+      "peca": "Quebra Coisa",
+      "cenario": "C5base10dobrada em alvo objeto.",
+      "esperado": 20,
+      "metodo": "aritmética",
+      "executado": true,
+      "obtido": 20,
+      "passou": true
+    },
+    {
+      "id": "B56",
+      "peca": "Queima + Rajada",
+      "cenario": "Duas parcelas de4d8acertaram mesmo alvo,umaerrou.",
+      "esperado": "Duas Queimasde2d8; não duas metades da ficha inteira, nem terceira Queima do erro.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B57",
+      "peca": "Sugar + Certeiro",
+      "cenario": "Ataque1acerta20dano, ataque2erra mas Certeirocausa10.",
+      "esperado": "Sugar soma20 e cura5; os10noerro não entram.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B58",
+      "peca": "Cobrança + Eco",
+      "cenario": "Ambos prontos para feitiço25PE.",
+      "esperado": "Custa13PE e consomeambos, não7PE.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B59",
+      "peca": "Acúmulo + Fica",
+      "cenario": "AlvoAacompanhado com+3d8,Bnãoacompanhado.",
+      "esperado": "Fica emAusa suabaseindividual;Bnão recebeparte dosdadosadicionaisdeA.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    },
+    {
+      "id": "B60",
+      "peca": "Levanta",
+      "cenario": "Outra condição mantém aliadoDerrubado.",
+      "esperado": "Socorre com sua cura,masnão apaga acondição nem levanta contraela.",
+      "metodo": "leitura de contrato",
+      "executado": false
+    }
+  ],
+  "total": 72,
+  "numericos_executados": 12,
+  "contratos_para_teste": 60,
+  "limites": "Somente os casos aritméticos foram executados. Os demais são especificações positivas/negativas para revisão e futura automação, não resultados de jogo ou simulação de combate."
+}

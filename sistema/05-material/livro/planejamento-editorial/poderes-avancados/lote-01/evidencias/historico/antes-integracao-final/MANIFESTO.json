@@ -1,0 +1,175 @@
+{
+  "data": "2026-10-03",
+  "status": "candidata revisada e congelada para consolidação; não publicada",
+  "manuscrito": "PODERES-AVANCADOS.md",
+  "sha256_texto": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+  "sha256_pdf": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
+  "paginas": 15,
+  "arquivos": [
+    {
+      "arquivo": "ALTERACOES.json",
+      "sha256": "ca7eb9db239f03fdd1cd693935e8caa61fb1ca9a3b45e18dab644ba1179c4d67",
+      "bytes": 18056
+    },
+    {
+      "arquivo": "ALTERACOES.md",
+      "sha256": "d4ef1139add490f9b5b1983afcd757fbcd39a8535cdddd5187e0e2972dab8d61",
+      "bytes": 14487
+    },
+    {
+      "arquivo": "CONFERENCIA.json",
+      "sha256": "0cf9bb767f8bdd1fe7f95951fca249aafebcba7faaf054163492e7ac5ddce152",
+      "bytes": 17981
+    },
+    {
+      "arquivo": "CONTRATO.json",
+      "sha256": "5092c7041b4e7d5069cbae465c21bfe0b7be77a3a3267bc49c951dbcc2af51e4",
+      "bytes": 622
+    },
+    {
+      "arquivo": "ESCOPO-E-FONTES.md",
+      "sha256": "9bf05ec333f726da173f57e331dbf110b4c483af082d50f58c68b9625002de0b",
+      "bytes": 4840
+    },
+    {
+      "arquivo": "ESTRUTURA.json",
+      "sha256": "3053f96c1fc17a291766869c9c770f0be33c5aa2295aaf12b86eb18be5c78def",
+      "bytes": 1777
+    },
+    {
+      "arquivo": "LEIA-ME.md",
+      "sha256": "f93bb45a803c0e98b86e15374327b3988ccb502a9d3723770fb4ad771be23232",
+      "bytes": 671
+    },
+    {
+      "arquivo": "PODERES-AVANCADOS.md",
+      "sha256": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
+      "bytes": 30867
+    },
+    {
+      "arquivo": "RELATORIO-DE-REVISAO.md",
+      "sha256": "d6dbc62c79e3f49ea1f1b1248cd1f81af43dc7e77400415e94c3739115d47654",
+      "bytes": 6832
+    },
+    {
+      "arquivo": "VALIDACAO.json",
+      "sha256": "e9ef60dd77c61e04f3c91acc5d8b74ff7f23bdeff5c92b1bf85c22087ec240af",
+      "bytes": 178
+    },
+    {
+      "arquivo": "VALIDADORES.json",
+      "sha256": "4502e2593ccbf9a0f06a35b8c095983c9a9fcf262fe600670b26130dcbb6abe4",
+      "bytes": 7464
+    },
+    {
+      "arquivo": "auditar.py",
+      "sha256": "db4c482664c4d9148a5c50bdc78524b3cc7df660d5fdb9722ac1f27a035b0fa8",
+      "bytes": 15841
+    },
+    {
+      "arquivo": "conferir.py",
+      "sha256": "8f257eb44ebb5f896aaa1426b39aebc719004c53fc504da01c63853fd5ad62e7",
+      "bytes": 208
+    },
+    {
+      "arquivo": "evidencias/BLOQUEIO-EDITORIAL.json",
+      "sha256": "d9bb62179e3827e2e75bb321eaab199f7be607488a2dc7ac25fe5f0ca22afda6",
+      "bytes": 118
+    },
+    {
+      "arquivo": "evidencias/FONTES-LIDAS.json",
+      "sha256": "54a2dcd0dd932960c2d1b8e75520c82b40c6bedf8054ff7555479057407ca195",
+      "bytes": 1791
+    },
+    {
+      "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "sha256": "03c54c55d3394322952752d971ecf911fb9cd20ab0b2ca57fc623c80c4fb7cd7",
+      "bytes": 1638
+    },
+    {
+      "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "c1c7c6786fd0f6e49ad8a97f400e57ab56cc242a051744484d2dea4f30ffa894",
+      "bytes": 23086
+    },
+    {
+      "arquivo": "evidencias/REVISAO-INDEPENDENTE.md",
+      "sha256": "ea6548e08c40abbba93938ede06660a5e6e7242196f86e91fb3553891cc0f4c8",
+      "bytes": 8982
+    },
+    {
+      "arquivo": "evidencias/REVISAO-NOMES.json",
+      "sha256": "df4aa8941fb3eb15d774e41d19a7f8e5cdf6e718781e35699b225d038512b7da",
+      "bytes": 1324
+    },
+    {
+      "arquivo": "evidencias/auditoria-numerica.json",
+      "sha256": "ba210dc560c38836cbca86fc6f162de60e21191931908cdf2311c9aa705cc9ea",
+      "bytes": 30941
+    },
+    {
+      "arquivo": "evidencias/bloqueio-editorial-final.json",
+      "sha256": "4d68214eefe7a9ebff3351374a51c9119efffc7ef657db014ced8304e9fdff1b",
+      "bytes": 284
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas.json",
+      "sha256": "1f7cf634644d4245c2d0442ba56471d9d6a2143d58539ecd235dc7645550e289",
+      "bytes": 965
+    },
+    {
+      "arquivo": "evidencias/inspecao-visual.json",
+      "sha256": "12f83eab48bbfdbf8fddc42bce474c1f1a55c703368f3883217d93ddbf6d2567",
+      "bytes": 5162
+    },
+    {
+      "arquivo": "evidencias/pdf-estrutura.json",
+      "sha256": "dd876467843ff3826e0fb447885fb6bb08d5f1c65c8614a9aa75968ead62d021",
+      "bytes": 275
+    },
+    {
+      "arquivo": "evidencias/pdf-texto.txt",
+      "sha256": "5571504296fc2700301cd86dcad2c1df0f0a1d9c3e64132edb7b57c6b57db774",
+      "bytes": 30678
+    },
+    {
+      "arquivo": "evidencias/regras-verificadas.json",
+      "sha256": "c598b14541188b92f85bdb54f9d7193ce5ea61069b9fed05bad9414ed349454f",
+      "bytes": 18532
+    },
+    {
+      "arquivo": "gerar_pdf.py",
+      "sha256": "e78f71768c5a3312066aede5eaa13f49fda8c7b17f0c62fec916391571ec8391",
+      "bytes": 7921
+    },
+    {
+      "arquivo": "historico/antes-revisao-independente/ALTERACOES.json",
+      "sha256": "42bb3893d0f7a5b8ba849d77ebacecdf8e5b828b6601313e5118774f653d6e2e",
+      "bytes": 16470
+    },
+    {
+      "arquivo": "historico/antes-revisao-independente/ALTERACOES.md",
+      "sha256": "a7502d584f66a5a48454f14a2faf8a0dd6bbc65c068bc57991d6de108fa0948e",
+      "bytes": 13322
+    },
+    {
+      "arquivo": "historico/antes-revisao-independente/LOCALIZACAO-EDITORIAL.json",
+      "sha256": "7aff3af8d077071e1b25b18862c561f20e60393e38d27a6b4a6ff3c9ee01242a",
+      "bytes": 979
+    },
+    {
+      "arquivo": "historico/antes-revisao-independente/PODERES-AVANCADOS.md",
+      "sha256": "bb29892e3f665781a5533ea772af39a8de1518d3c0ce751b7658b4fc18d403fc",
+      "bytes": 30679
+    },
+    {
+      "arquivo": "historico/antes-revisao-independente/REVISAO-EDITORIAL.json",
+      "sha256": "283cccffbded8631cd87251d9fc7a23a4a3f1449a224224689e35fcb945c0c89",
+      "bytes": 22316
+    },
+    {
+      "arquivo": "output/pdf/Projeto-M-Poderes-Avancados-Proposta-01.pdf",
+      "sha256": "fe220c707ef23e311c37c0da1d31ac6068a1f0dd40ee933dc6bad3d754393641",
+      "bytes": 87248
+    }
+  ]
+}

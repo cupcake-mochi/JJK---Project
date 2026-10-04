@@ -1,0 +1,697 @@
+{
+  "data": "2026-10-02",
+  "base": "v0.331",
+  "status": "proposta em discussão, não integrada",
+  "todas_verificacoes_passaram": true,
+  "verificacoes": [
+    {
+      "verificacao": "Dano por altura 0 m",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano por altura 2.99 m",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano por altura 3 m",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano por altura 4.49 m",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano por altura 4.5 m",
+      "obtido": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano por altura 6 m",
+      "obtido": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano por altura 9 m",
+      "obtido": 18,
+      "esperado": 18,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano por altura 12 m",
+      "obtido": 24,
+      "esperado": 24,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano por altura 30 m",
+      "obtido": 60,
+      "esperado": 60,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano por altura 60 m",
+      "obtido": 120,
+      "esperado": 120,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano por altura 91.5 m",
+      "obtido": 183,
+      "esperado": 183,
+      "ok": true
+    },
+    {
+      "verificacao": "Dano por altura 94.5 m",
+      "obtido": 189,
+      "esperado": 189,
+      "ok": true
+    },
+    {
+      "verificacao": "Altura 4.5 m após amortecer",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Altura 5.99 m após amortecer",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Altura 6 m após amortecer",
+      "obtido": 6,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "verificacao": "Altura 9 m após amortecer",
+      "obtido": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "verificacao": "Altura 94.5 m após amortecer",
+      "obtido": 183,
+      "esperado": 183,
+      "ok": true
+    },
+    {
+      "verificacao": "Saltos CD 10/14/18/22 com bônus 4",
+      "obtido": [
+        0.75,
+        0.55,
+        0.35,
+        0.15
+      ],
+      "esperado": [
+        0.75,
+        0.55,
+        0.35,
+        0.15
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Saltos CD 10/14/18/22 com bônus 10",
+      "obtido": [
+        1.0,
+        0.85,
+        0.65,
+        0.45
+      ],
+      "esperado": [
+        1,
+        0.85,
+        0.65,
+        0.45
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Amortecer +4/+7/+10",
+      "obtido": [
+        0.55,
+        0.7,
+        0.85
+      ],
+      "esperado": [
+        0.55,
+        0.7,
+        0.85
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Duas quedas de 4,5 m; Incursor 14 PV e +4",
+      "obtido": "81/400",
+      "esperado": "81/400",
+      "ok": true
+    },
+    {
+      "verificacao": "Exemplo 1: parede + salto + sobra",
+      "obtido": 12.0,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "verificacao": "Exemplo 1: resultado",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Exemplo 2: falha e Vida",
+      "obtido": [
+        true,
+        5
+      ],
+      "esperado": [
+        true,
+        5
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Exemplo 3: sucesso e Vida",
+      "obtido": [
+        true,
+        56
+      ],
+      "esperado": [
+        true,
+        56
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Exemplo 3: empurrão não alcança metade do deslocamento",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Parede difícil: movimento e limite restantes",
+      "obtido": [
+        6,
+        3.0
+      ],
+      "esperado": [
+        6,
+        3
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Borda 2,5 m: subida dos pés e custo comum",
+      "obtido": [
+        1.0,
+        4.0
+      ],
+      "esperado": [
+        1,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Vida CON 2, nível 2",
+      "obtido": [
+        14,
+        23
+      ],
+      "esperado": [
+        14,
+        23
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Vida CON 2, nível 11",
+      "obtido": [
+        68,
+        104
+      ],
+      "esperado": [
+        68,
+        104
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Vida CON 2, nível 30",
+      "obtido": [
+        182,
+        275
+      ],
+      "esperado": [
+        182,
+        275
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Alternativa 3d6 >=14",
+      "obtido": "35/216",
+      "esperado": "35/216",
+      "ok": true
+    },
+    {
+      "verificacao": "Alternativa 3d6 >=14 com amortecer +4",
+      "obtido": "7/96",
+      "esperado": "7/96",
+      "ok": true
+    },
+    {
+      "verificacao": "Número de páginas",
+      "obtido": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "verificacao": "Número de marcadores",
+      "obtido": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "verificacao": "Destinos dos marcadores",
+      "obtido": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "esperado": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "ok": true
+    },
+    {
+      "verificacao": "Texto ausente na página 1",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "Texto dentro da página 1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Corpo separado do rodapé 1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes efetivamente usadas 1",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Texto ausente na página 2",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "Texto dentro da página 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Corpo separado do rodapé 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes efetivamente usadas 2",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Texto ausente na página 3",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "Texto dentro da página 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Corpo separado do rodapé 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes efetivamente usadas 3",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Texto ausente na página 4",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "Texto dentro da página 4",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Corpo separado do rodapé 4",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes efetivamente usadas 4",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Texto ausente na página 5",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "Texto dentro da página 5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Corpo separado do rodapé 5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes efetivamente usadas 5",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Texto ausente na página 6",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "Texto dentro da página 6",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Corpo separado do rodapé 6",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes efetivamente usadas 6",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Texto ausente na página 7",
+      "obtido": {},
+      "esperado": {},
+      "ok": true
+    },
+    {
+      "verificacao": "Texto dentro da página 7",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Corpo separado do rodapé 7",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes efetivamente usadas 7",
+      "obtido": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "verificacao": "Sem imagens bitmap",
+      "obtido": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "verificacao": "Fontes/exportações publicadas alteradas",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Arquivos protegidos alterados",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    },
+    {
+      "verificacao": "Links locais inexistentes",
+      "obtido": [],
+      "esperado": [],
+      "ok": true
+    }
+  ],
+  "pdf": {
+    "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-comuns/lote-02/output/pdf/Projeto-M-Movimento-Saltos-e-Quedas-Proposta-02.pdf",
+    "paginas": [
+      {
+        "pagina": 1,
+        "limites_texto": [
+          56.69,
+          23.98,
+          538.58,
+          814.53
+        ],
+        "limite_inferior_corpo": 656.02,
+        "fontes_usadas": [
+          "AAAAAA+BarlowCondensed-SemiBold",
+          "AAAAAA+Spectral-Regular",
+          "AAAAAA+Spectral-SemiBold"
+        ],
+        "imagens_bitmap": 0
+      },
+      {
+        "pagina": 2,
+        "limites_texto": [
+          56.69,
+          23.98,
+          538.58,
+          814.53
+        ],
+        "limite_inferior_corpo": 752.42,
+        "fontes_usadas": [
+          "AAAAAA+BarlowCondensed-SemiBold",
+          "AAAAAA+Spectral-Regular",
+          "AAAAAA+Spectral-SemiBold"
+        ],
+        "imagens_bitmap": 0
+      },
+      {
+        "pagina": 3,
+        "limites_texto": [
+          56.69,
+          23.98,
+          538.58,
+          814.53
+        ],
+        "limite_inferior_corpo": 664.82,
+        "fontes_usadas": [
+          "AAAAAA+BarlowCondensed-SemiBold",
+          "AAAAAA+Spectral-Regular",
+          "AAAAAA+Spectral-SemiBold"
+        ],
+        "imagens_bitmap": 0
+      },
+      {
+        "pagina": 4,
+        "limites_texto": [
+          56.69,
+          23.98,
+          538.58,
+          814.53
+        ],
+        "limite_inferior_corpo": 594.42,
+        "fontes_usadas": [
+          "AAAAAA+BarlowCondensed-SemiBold",
+          "AAAAAA+Spectral-Regular",
+          "AAAAAA+Spectral-SemiBold"
+        ],
+        "imagens_bitmap": 0
+      },
+      {
+        "pagina": 5,
+        "limites_texto": [
+          56.69,
+          23.98,
+          538.58,
+          814.53
+        ],
+        "limite_inferior_corpo": 709.12,
+        "fontes_usadas": [
+          "AAAAAA+BarlowCondensed-SemiBold",
+          "AAAAAA+Spectral-Regular",
+          "AAAAAA+Spectral-SemiBold"
+        ],
+        "imagens_bitmap": 0
+      },
+      {
+        "pagina": 6,
+        "limites_texto": [
+          56.69,
+          23.98,
+          538.58,
+          814.53
+        ],
+        "limite_inferior_corpo": 682.42,
+        "fontes_usadas": [
+          "AAAAAA+BarlowCondensed-SemiBold",
+          "AAAAAA+Spectral-Regular",
+          "AAAAAA+Spectral-SemiBold"
+        ],
+        "imagens_bitmap": 0
+      },
+      {
+        "pagina": 7,
+        "limites_texto": [
+          56.69,
+          23.98,
+          538.58,
+          814.53
+        ],
+        "limite_inferior_corpo": 678.37,
+        "fontes_usadas": [
+          "AAAAAA+BarlowCondensed-SemiBold",
+          "AAAAAA+Spectral-Regular",
+          "AAAAAA+Spectral-SemiBold"
+        ],
+        "imagens_bitmap": 0
+      }
+    ],
+    "marcadores": [
+      "Saltar entre apoios",
+      "Altura, bordas e falha",
+      "Descidas e quedas",
+      "Controlar uma queda",
+      "Empurrões e arremessos",
+      "Limite acrobático e apoios",
+      "Três percursos resolvidos"
+    ],
+    "inspecao_visual": "sete páginas renderizadas e examinadas pelo agente principal; não foram encontrados cortes, tabelas partidas ou conteúdo sobreposto"
+  },
+  "preservacao": {
+    "fontes_inventario": 22,
+    "artefatos_inventario": 5,
+    "arquivos_snapshot": 137,
+    "conjuntos_sobrepostos": true
+  },
+  "links": [
+    {
+      "documento": "LEIA-ME.md",
+      "destino": "02-SALTOS-E-QUEDAS.md",
+      "existe": true
+    },
+    {
+      "documento": "LEIA-ME.md",
+      "destino": "output/pdf/Projeto-M-Movimento-Saltos-e-Quedas-Proposta-02.pdf",
+      "existe": true
+    },
+    {
+      "documento": "LEIA-ME.md",
+      "destino": "02-DECISOES.md",
+      "existe": true
+    },
+    {
+      "documento": "LEIA-ME.md",
+      "destino": "RELATORIO.md",
+      "existe": true
+    },
+    {
+      "documento": "02-DECISOES.md",
+      "destino": "02-SALTOS-E-QUEDAS.md",
+      "existe": true
+    },
+    {
+      "documento": "02-DECISOES.md",
+      "destino": "evidencias/comparacao-matematica.md",
+      "existe": true
+    },
+    {
+      "documento": "02-DECISOES.md",
+      "destino": "evidencias/referencias-primarias.md",
+      "existe": true
+    },
+    {
+      "documento": "RELATORIO.md",
+      "destino": "output/pdf/Projeto-M-Movimento-Saltos-e-Quedas-Proposta-02.pdf",
+      "existe": true
+    },
+    {
+      "documento": "RELATORIO.md",
+      "destino": "02-DECISOES.md",
+      "existe": true
+    },
+    {
+      "documento": "RELATORIO.md",
+      "destino": "CONFERENCIA.json",
+      "existe": true
+    }
+  ],
+  "hashes": {
+    "manuscrito": "f549e00e0e3a3199d042ec94d1687557b6f7479e9fc6b0cbd1532fec43c992f0",
+    "pdf": "7a9ecdc9260395bbfb5d6bfef3bc86560c7b44db60f9ee1209cae49ce977fa1a"
+  },
+  "limites": [
+    "Cotejo de tokens detecta omissão de conteúdo; não valida compreensão.",
+    "Duas críticas independentes por agentes, feitas antes das últimas correções; correção final conferida pelo autor.",
+    "Nenhum teste humano ou equilíbrio comprovado.",
+    "Os novos números e compatibilidades são candidatos."
+  ]
+}

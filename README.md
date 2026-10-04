@@ -2,7 +2,18 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.330** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **18 capítulos**.
+**Versão v0.331** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
+
+
+## Livro reconstruído — candidata de 3 de outubro de 2026
+
+A reconstrução editorial está concluída para revisão do autor e preserva o manual v0.331 acima. A candidata reúne 383 páginas, 21 capítulos e seis Caminhos.
+
+- [PDF, manuscritos e instruções](sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/LEIA-ME.md)
+- [ZIP completo](sistema/05-material/livro/planejamento-editorial/entrega/Projeto-M-Livro-Reconstruido-2026-10-03.zip)
+- [Revisão final e limites da validação](sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/REVISAO-FINAL.md)
+
+As imagens de conferência e os antigos pacotes de transferência permanecem no ambiente local. As fontes, os PDFs, o pacote final e os registros de revisão são versionados.
 
 ---
 
@@ -48,7 +59,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
 ```
 .
 ├── README.md              você está aqui
-├── caminhos/                 a coleção v0.4: o texto dos quatro Caminhos e das doze Trilhas desde a v0.270
+├── caminhos/                 a edição integrada: seis Caminhos e dezoito Trilhas; v0.4 preservada como histórico
 ├── invocacoes/               o subsistema de Invocações em desenvolvimento, fora da edição jogável desde a v0.270
 ├── logs/
 │   ├── CHANGELOG.md                     o porquê de cada decisão, da v0.1 até a versão atual

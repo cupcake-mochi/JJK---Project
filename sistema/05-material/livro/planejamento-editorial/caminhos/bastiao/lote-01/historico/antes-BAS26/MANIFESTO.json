@@ -1,0 +1,71 @@
+{
+  "unidade": "R13",
+  "sha256_manuscrito": "9d572799c5d882a8eeae475b648abffc68bb2192a72caca19e435fc0b406c302",
+  "estado": "Autoria e checagens locais concluídas. Revisão independente e PDF com root.",
+  "arquivos": [
+    {
+      "arquivo": "ALTERACOES.json",
+      "sha256": "eb332044e34d040e349637599ed7fbce38a2cd2f1099d4f42eb24762a3efe907"
+    },
+    {
+      "arquivo": "ALTERACOES.md",
+      "sha256": "9d60c8f63897e76a32b30b75c9bf7b1dcb3bac70534227003865757012fffd53"
+    },
+    {
+      "arquivo": "BASTIAO.md",
+      "sha256": "9d572799c5d882a8eeae475b648abffc68bb2192a72caca19e435fc0b406c302"
+    },
+    {
+      "arquivo": "COBERTURA.json",
+      "sha256": "9f3fcb9babe421af1248e94838a534f6518644d01a290b1a292630f298355caf"
+    },
+    {
+      "arquivo": "FONTES.json",
+      "sha256": "8b15074d583dbe20ae873396821461ca1a9a4aa377c522a082276904d5f29a2d"
+    },
+    {
+      "arquivo": "INTERFACES.json",
+      "sha256": "af1ca1ae6a6b0770917d0eb8c0da16f96d911983855e085309c81ffdd41c60ad"
+    },
+    {
+      "arquivo": "REVISAO-E-FONTES.md",
+      "sha256": "404fdb3c95c6a93b1a45bc8a7275a6be177b3a616a437cac2fd97e669861fef8"
+    },
+    {
+      "arquivo": "VALIDADORES.json",
+      "sha256": "4eaf12b4bf71f2f86ed0f1e4ee7209257f45bb9c9d966a7427f9e32f23e4a156"
+    },
+    {
+      "arquivo": "evidencias/AUDITORIA.json",
+      "sha256": "a453c97039dedf05a4e0d3882ecb63a56abc82d3222651b6e0a246c91ecc5899"
+    },
+    {
+      "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "sha256": "51959244b32b9fe0c512adc98884211bbea0736860fc8af72eec4224921d9acf"
+    },
+    {
+      "arquivo": "evidencias/REVISAO-EDITORIAL.json",
+      "sha256": "bb29e487bd344599b537ecc3ce875978245cde3f09c746b41f4227cc6a525d6e"
+    },
+    {
+      "arquivo": "evidencias/REVISAO-POR-SECAO.json",
+      "sha256": "071a91746f912dfd85be0433dc670de8386c90ebd8423a91aa016e8768456839"
+    },
+    {
+      "arquivo": "evidencias/catalogo-legado.log",
+      "sha256": "52385c80653fd8d7cd906826a862b33d4879a3301c3dc5091957e4149407a87b"
+    },
+    {
+      "arquivo": "evidencias/conferir_bastiao.py",
+      "sha256": "eb51979f275cd0e8232d0a0d27af6e6a510f0e889129be023cbff100cf885f30"
+    },
+    {
+      "arquivo": "evidencias/editorial-exportacao.json",
+      "sha256": "4d68214eefe7a9ebff3351374a51c9119efffc7ef657db014ced8304e9fdff1b"
+    },
+    {
+      "arquivo": "evidencias/fontes-preservadas.json",
+      "sha256": "d54303685a7336c6c7338d34da1bc393c8186b669e5044d7957bb95bf6c22039"
+    }
+  ]
+}

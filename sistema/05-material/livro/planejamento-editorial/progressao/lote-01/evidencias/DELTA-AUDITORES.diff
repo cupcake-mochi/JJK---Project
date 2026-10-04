@@ -1,0 +1,9 @@
+--- auditar.py antes
++++ auditar.py final
+@@ -119,4 +119,6 @@
+ report=dict(sha256_texto=hashlib.sha256(F.read_bytes()).hexdigest(),aprovado=all(x['passou'] for x in checks),quantidades=dict(checks=len(checks),casos=len(cases),sequencias_marcos=len(paths),perfis_ritmo=len(times),mutacoes=len(mutations),perfis_saldo=resource_profiles),verificacoes=checks,casos=cases,modelos=dict(marcos=paths,tempo=times),limites=['Sem playtest; tempos são modelos de média e não calendário simulado.','Conservação de recursos e regularização de ficha são fechamentos candidatos, registrados em alterações.','Conferidores legados verificam fontes históricas, não certificam este manuscrito.'])
+ # JSON-safe Fractions only arise in an integral illustrative case.
+ def serial(o):return int(o) if isinstance(o,Q) and o.denominator==1 else float(o)
++(B/'evidencias/regras-verificadas.json').write_text(json.dumps({'ok':report['aprovado'],'sha256_texto':report['sha256_texto'],'casos':cases,'auditoria':'AUDITORIA.json','limites':report['limites']},ensure_ascii=False,indent=2,default=serial)+'\n')
++(B/'evidencias/auditoria-numerica.json').write_text(json.dumps({'ok':report['aprovado'],'sha256_texto':report['sha256_texto'],'manuscritos_auditados':{str(F.relative_to(R)):report['sha256_texto']},'auditoria':'AUDITORIA.json','quantidades':report['quantidades'],'modelos':report['modelos'],'limites':report['limites']},ensure_ascii=False,indent=2,default=serial)+'\n')
+ (B/'evidencias/AUDITORIA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2,default=serial)+'\n');print(json.dumps(dict(aprovado=report['aprovado'],quantidades=report['quantidades'],falhas=[x for x in checks if not x['passou']]),ensure_ascii=False,indent=2));raise SystemExit(0 if report['aprovado'] else 1)

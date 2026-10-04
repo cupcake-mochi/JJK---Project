@@ -1,0 +1,24 @@
+{
+  "data": "2026-10-03",
+  "arquivos": {
+    "CONFERENCIA.json": "fbc581c553d1401be194723ddbcf3df4c746732b0fe65ba6424298caf9e7fae8",
+    "DECISOES.md": "fbf6841ac54c9dd638963f4d9246de55c29177937c0f7ef1307548fd7bdc88dd",
+    "ESTRUTURA.json": "8012708cb52e3b02855e8e0a1228a8aa64d6ba63e5c65b6af7e2cf03071fa8f8",
+    "LEIA-ME.md": "2d093195ac0597f6f840bee04d84ecda73d2c4766b4f660712cf634e3e7e843e",
+    "MOVIMENTO-E-CARGA.md": "63b1bafebf7b458ec752117944ce0e00154f53ced784dd1e93685c1b76c01c48",
+    "RELATORIO.md": "a109d260c8ad2c5708e2449485aa3caeea1b550258f1c1010d93f78489385c0e",
+    "conferir.py": "6402238b213d3631298e9fda40b4f9f8458b3b123799d1e0f244e34160a6e4a0",
+    "evidencias/REVISAO-EDITORIAL.json": "411c85e42ca2a0251c282b88dc4af6cb0bf4cac8a491ae805e9161c3255a2a16",
+    "evidencias/REVISAO.md": "3ce7b2068c56b7a2214e64c2e1acf2934d1e73bedd831c68916c4e022704d76e",
+    "evidencias/casos-documentais.json": "7517e4b205840dd3b2d0fdf31a7d5a48d142df648ee59e3ecaa8b96bb111613d",
+    "evidencias/fontes-preservadas.json": "53f2c1f7d8e7c0c851f384a5739bc8847ff293fb1837a56a255cf5aca2b019f5",
+    "evidencias/inspecao-visual.json": "f83fa6baa1af95b9bc4e47b717c03f2a4af48f19c03d6958125802f27196264b",
+    "evidencias/pdf-estrutura.json": "b2a1f49737519845449cc473a7e3cde096014c74c294a69b9061efccef7d16a5",
+    "evidencias/pdf-texto.txt": "d424b72307862eb3962a8363c8062508a361d95421f6562b89dcf055338d1923",
+    "gerar_pdf.py": "a96f5b72c17522e1d0a5e8c8f85ad9ceb8b7f11a68f29ee3e54e7382dd3f91cb",
+    "output/pdf/Projeto-M-Movimento-e-Carga-Proposta-02.pdf": "deb2bc51cff89de788180f37d06bc7534b3ed25ff6f581099c8ddde1e27211ac",
+    "sincronizacoes/INCURSOR-COMPLETO.md": "2e2472fa5cb15787a853c88beb27df987cab4892aca0104a892aaad9a2007e6c",
+    "sincronizacoes/INCURSOR.patch": "15c939fb9f9d587dbaa03b2a595d2c96739a18e27e178228f58e9920e4522474",
+    "sincronizacoes/LEIA-ME.md": "bc1759b6647b97a598d52079e6ce1e2b2c00946f8f0abb8b629fdd0881a70937"
+  }
+}

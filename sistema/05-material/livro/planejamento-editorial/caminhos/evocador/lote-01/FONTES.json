@@ -1,0 +1,107 @@
+{
+  "publicadas": [
+    {
+      "id": "integrado",
+      "arquivo": "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+      "sha256": "6f6637fa9abaae3bcf53d27ed1ff6cb4d0c298173d2a92bd2955ecfe02e69aaf",
+      "papel": "Fonte publicada preservada."
+    },
+    {
+      "id": "manual35",
+      "arquivo": "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+      "sha256": "948dc94babd1d17022e5a3b5b817e160d2cf1e92c61d37d02462f412ff4e1e44",
+      "papel": "Fonte publicada preservada."
+    },
+    {
+      "id": "contrato331",
+      "arquivo": "caminhos/05-Edicao-Integrada/contratos-v0.331.json",
+      "sha256": "df0471f49959c86c585944137a95d5b355003105de66acd0aeed4afb74358594",
+      "papel": "Fonte publicada preservada. Contrato331 contém decisões gerais/Bastião; não é contrato específico completo do Evocador."
+    },
+    {
+      "id": "edicao331",
+      "arquivo": "caminhos/05-Edicao-Integrada/edicao.json",
+      "sha256": "a2b5fb0cca3a85c41b5957f15e6fe2046704abe3d3f720be7426b33b5629b369",
+      "papel": "Fonte publicada preservada."
+    },
+    {
+      "id": "original_consolidado",
+      "arquivo": "caminhos/05-Edicao-Integrada/referencias/00-EVOCADOR-COMPLETO.md",
+      "sha256": "3a056c5e86cb63c78c7633077a77bcd39868a71f8d91a106d1816beebc6ce10c",
+      "papel": "Fonte publicada preservada."
+    },
+    {
+      "id": "manual60",
+      "arquivo": "sistema/05-material/livro/manual/60-invocacoes.md",
+      "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
+      "papel": "Fonte publicada preservada."
+    }
+  ],
+  "candidatas": [
+    {
+      "id": "R11",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "sha256": "fcddc35982314ea73607bdf76f2e851836c2a72a801e53b33008aad1af9e733a",
+      "leitura": "Dirigida às interfaces; versão candidata pode mudar durante integração."
+    },
+    {
+      "id": "R12",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
+      "sha256": "0e47b1295d76cac0caeadacec227cc37c0221d537b59e89cfa10455c962389d1",
+      "leitura": "Dirigida às interfaces; versão candidata pode mudar durante integração."
+    },
+    {
+      "id": "R06",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+      "sha256": "91db84efd1813de6f85f4ea30daf01528d0bdf60cfb47ce7cf512ed3121ca5b0",
+      "leitura": "Dirigida às interfaces; versão candidata pode mudar durante integração."
+    },
+    {
+      "id": "R07",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
+      "sha256": "682b239b4f582912d47b0c8cb14f0df70592f8b5c631f01240f0c4d853c8471e",
+      "leitura": "Dirigida às interfaces; versão candidata pode mudar durante integração."
+    },
+    {
+      "id": "R10",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md",
+      "sha256": "d4ac61d33127980c24ce6b9acbcb12458dce4633a5f96db3f1ba9263c354c811",
+      "leitura": "Dirigida às interfaces; versão candidata pode mudar durante integração."
+    },
+    {
+      "id": "R03",
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/regras-basicas/lote-03-r3/DANO-E-CONDICOES.md",
+      "sha256": "b902a11dc5bca2fc78b9c3a8daf87dbdb276185da48a699637946bf7654a531d",
+      "leitura": "Dirigida às interfaces; versão candidata pode mudar durante integração."
+    }
+  ],
+  "comparacao_RPG": {
+    "leitura": "Dirigida, não integral",
+    "fontes": [
+      {
+        "titulo": "Player’s Handbook 2024, exemplar local em português",
+        "paginas_pdf": [
+          10,
+          197,
+          241,
+          243,
+          245,
+          325
+        ],
+        "extracao": "/tmp/r07-phb.txt",
+        "uso": "Separação entre característica, aquisição por nível, campos de uso e descrição de efeitos."
+      },
+      {
+        "titulo": "Dungeon Master’s Guide 2024, exemplar local",
+        "paginas_pdf": [
+          30,
+          62,
+          63
+        ],
+        "extracao": "/tmp/r07-dmg.txt",
+        "uso": "Exemplo concreto ligado à decisão da mesa; campos de custo antes das exceções."
+      }
+    ],
+    "limite": "Referências de organização, não fonte de cânone nem transplante das regras. Nenhum trecho comercial copiado."
+  }
+}

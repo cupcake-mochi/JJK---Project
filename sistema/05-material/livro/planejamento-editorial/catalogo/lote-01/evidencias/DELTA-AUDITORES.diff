@@ -1,0 +1,11 @@
+--- auditar.py antes
++++ auditar.py final
+@@ -17,7 +17,7 @@
+ headings+=['Concentrada','Duradoura'] if re.search(r'Concentrada\s+-\s+Leve / Duradoura\s+-\s+Média',s) else []
+ for row in inv['entradas']:ck('Entrada presente: '+row['tipo']+'/'+row['nome'],row['nome'] in headings,True)
+ ck('106 entradas no inventário',len(inv['entradas']),106)
+-ck('Aviso tem duas entradas distintas',len(re.findall(r'^## Aviso(?:\s+-\s+Leve)?$',s,re.M)),2)
++ck('Nomes distintos para identificação de feitiço',bool(re.search(r'^## Identificar Feitiço\s+-\s+Leve$',s,re.M)) and bool(re.search(r'^## Leitura de Feitiços$',s,re.M)),True)
+ ck('Formas têm dono único',len(inv['formas']),10)
+ cp={'cat-passivas-1':'1','cat-passivas-2-recursos':'2','cat-passivas-2-protecao':'2','cat-passivas-3':'3','cat-regra-propria':'1 a 3','cat-passiva-propria':'1 a 3'}
+ grades=[]

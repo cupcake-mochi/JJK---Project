@@ -1,0 +1,827 @@
+{
+  "fonte": "sistema/05-material/livro/manual/40-fundamento.md",
+  "sha256": "8ec6cd54f8fbb0cc7e98874a5242890a3b3392a792ec1cdef959abcec4b70d96",
+  "quantidades": {
+    "melhoria": 69,
+    "restricao": 19,
+    "passiva": 18
+  },
+  "entradas": [
+    {
+      "tipo": "melhoria",
+      "familia": "Alcance",
+      "nome": "Longe",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Sobe um degrau na escada de alcance. Pode comprar duas vezes."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Alcance",
+      "nome": "Muito Longe",
+      "preco_fonte": "Média",
+      "texto_fonte": "Sobe três degraus de uma vez."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Alcance",
+      "nome": "Sem Ver",
+      "preco_fonte": "Pesada",
+      "texto_fonte": "Você conjura contra um alvo fora da sua linha de visão, desde que saiba onde ele está. Alcance normal do feitiço."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Alcance",
+      "nome": "Passo",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Você anda até 6 m antes ou depois do feitiço, sem provocar ataque de oportunidade."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Alcance",
+      "nome": "Empurrão",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Move o alvo até 6 m na direção que você quiser."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Alcance",
+      "nome": "Troca",
+      "preco_fonte": "Média",
+      "texto_fonte": "Você e o alvo trocam de lugar."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Alcance",
+      "nome": "Perseguir",
+      "preco_fonte": "Média",
+      "texto_fonte": "Se o alvo sair do alcance antes de o feitiço concluir, o feitiço vai atrás."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Área",
+      "nome": "Maior",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Sobe um degrau de tamanho de área. Pode comprar duas vezes."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Área",
+      "nome": "Muito Maior",
+      "preco_fonte": "Pesada",
+      "texto_fonte": "Sobe três degraus de tamanho de uma vez."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Área",
+      "nome": "Escolher",
+      "preco_fonte": "Média",
+      "texto_fonte": "Você decide quem, dentro da área, é atingido."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Área",
+      "nome": "Fica",
+      "preco_fonte": "Média",
+      "texto_fonte": "A área continua ali por 1 minuto. Quem entrar ou começar o turno nela leva metade dos dados. Exige concentração."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Área",
+      "nome": "Mais Um",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Um alvo a mais. Os dados são divididos entre os alvos. Pode comprar duas vezes."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Área",
+      "nome": "Rajada",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Divide o feitiço em (Classe + 1) tiros, cada um com sua rolagem de acerto, distribuídos como você quiser."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Área",
+      "nome": "Salto",
+      "preco_fonte": "Média",
+      "texto_fonte": "Depois do primeiro alvo, pula para o inimigo mais perto a até 9 m com metade dos dados."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Área",
+      "nome": "Contorno",
+      "preco_fonte": "Leve",
+      "texto_fonte": "A área faz curva. Ignora cobertura e dobra esquinas."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Mira",
+      "nome": "Precisão",
+      "preco_fonte": "Leve",
+      "texto_fonte": "+2 na rolagem de acerto, ou +2 na CD do Teste de Resistência."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Mira",
+      "nome": "Certeiro",
+      "preco_fonte": "Média",
+      "texto_fonte": "Sem rolagem de acerto. O alvo ainda faz o Teste de Resistência para metade."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Mira",
+      "nome": "Inescapável",
+      "preco_fonte": "Média",
+      "texto_fonte": "Sem acerto e sem Teste de Resistência: o dano é automático. Este feitiço não pode ter mais nenhuma peça, nem Melhoria nem Restrição, e não pode ser uma Liberação Máxima."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Mira",
+      "nome": "Fura",
+      "preco_fonte": "Média",
+      "texto_fonte": "Ignora até 2 × Classe de Redução de Dano."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Mira",
+      "nome": "Corrói",
+      "preco_fonte": "Pesada",
+      "texto_fonte": "Resistência ao seu tipo de dano deixa de valer neste feitiço. Só pode ser comprada se Mira for uma das suas Famílias Livres."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Mira",
+      "nome": "Sem Cobertura",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Cobertura `Parcial` não atrapalha. A `Total` não se fura: ela não é bônus, é a ausência de alvo legal."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Mira",
+      "nome": "De Novo",
+      "preco_fonte": "Média",
+      "texto_fonte": "Se você errar, rola de novo. Uma vez por cena."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Mira",
+      "nome": "Toca a Alma",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Só da Classe 3 em diante, e só para Fundamento cuja Regra seja direta sobre alma. Os dados de dano deste feitiço viram dano na alma, e você fica com metade deles, arredondando para baixo. Não entra numa Liberação Máxima."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Controle",
+      "nome": "Condição",
+      "preco_fonte": "o nível dela",
+      "texto_fonte": "Aplica uma das treze condições. O preço é o nível dela (`Leve`, `Média` ou `Pesada`), e a seção *Condições* traz as três listas. Dura uma rodada, a não ser que o feitiço tenha a `Concentrada` ou a `Duradoura`. As de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só pode ser colocada uma delas por feitiço."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Controle",
+      "nome": "Terreno",
+      "preco_fonte": "Leve",
+      "texto_fonte": "A área vira terreno difícil, ou fica obscurecida, por uma rodada."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Controle",
+      "nome": "Anteparo",
+      "preco_fonte": "Média",
+      "texto_fonte": "Deixa uma parede ou escudo com 10 × Classe de pontos de vida, por 1 minuto. Ocupa os mesmos quadrados que a `Linha` da Classe dele, arrumados como você quiser, cada um partilhando um lado com outro. Altura mínima 2 quadrados. Colocado num ponto a até o alcance do feitiço."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Controle",
+      "nome": "Prende",
+      "preco_fonte": "Média",
+      "texto_fonte": "O alvo não sai do lugar até o fim do próximo turno dele. Ele pode gastar uma ação — qualquer uma, menos livre — para tentar um Teste de Resistência e se soltar. O Teste é decidido na criação do feitiço."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Controle",
+      "nome": "Cerca",
+      "preco_fonte": "Leve",
+      "texto_fonte": "O alvo não consegue se aproximar de você até o fim do próximo turno dele. Acaba assim que você causar dano a ele — inclusive o dano do próprio feitiço que comprou esta Melhoria."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Controle",
+      "nome": "Puxa",
+      "preco_fonte": "Média",
+      "texto_fonte": "Todo mundo na área é puxado 6 m na direção do centro."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Controle",
+      "nome": "Desarma o Feitiço",
+      "preco_fonte": "Média",
+      "texto_fonte": "Cancela um efeito contínuo ou uma barreira de Classe igual ou menor que a sua."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Auxiliares",
+      "nome": "Impulso",
+      "preco_fonte": "Leve",
+      "texto_fonte": "O alvo tem vantagem no próximo teste dele, até o fim do próximo turno."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Auxiliares",
+      "nome": "Trava",
+      "preco_fonte": "Leve",
+      "texto_fonte": "O alvo tem desvantagem no próximo ataque dele."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Auxiliares",
+      "nome": "Abre Ferida",
+      "preco_fonte": "Leve",
+      "texto_fonte": "O alvo fica com −2 em um Teste de Resistência até o fim do próximo turno dele."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Auxiliares",
+      "nome": "Sobrecarga",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Até o fim do próximo turno do alvo, ele não usa Reação, e o feitiço dele sai com a CD 2 menor."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Auxiliares",
+      "nome": "Firmeza",
+      "preco_fonte": "Média",
+      "texto_fonte": "O alvo tem vantagem no próximo Teste de Resistência dele."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Auxiliares",
+      "nome": "Guarda",
+      "preco_fonte": "Média",
+      "texto_fonte": "Até o fim do próximo turno, o alvo tem +2 de defesa."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Auxiliares",
+      "nome": "Pressa",
+      "preco_fonte": "Média",
+      "texto_fonte": "O alvo ganha +6 m de deslocamento e não provoca ataques de oportunidade até o fim do próximo turno."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Auxiliares",
+      "nome": "Enfraquece",
+      "preco_fonte": "Média",
+      "texto_fonte": "O dano do alvo cai `Xd4` até o fim do próximo turno dele, com X sendo metade do seu atributo de técnica."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Auxiliares",
+      "nome": "Ecoa",
+      "preco_fonte": "Média",
+      "texto_fonte": "O próximo ataque de um aliado contra o alvo tem vantagem."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Castigo",
+      "nome": "Queima",
+      "preco_fonte": "Média",
+      "texto_fonte": "Metade dos dados de novo, no começo do próximo turno do alvo."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Castigo",
+      "nome": "Acúmulo",
+      "preco_fonte": "Média",
+      "texto_fonte": "+1 dado por rodada seguida usando este feitiço no mesmo alvo. Para de somar em +3."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Castigo",
+      "nome": "Remate",
+      "preco_fonte": "Média",
+      "texto_fonte": "+25% de dano contra alvo abaixo de metade da vida. Não entra num feitiço que tenha uma `Condicional` ligada à vida do alvo ou à duração, nem num feitiço com a Restrição `Aquecer`."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Castigo",
+      "nome": "Estilhaço",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Em crítico, ou quando o alvo falha o Teste de Resistência por 5 ou mais, metade dos dados respinga em quem estiver do lado."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Castigo",
+      "nome": "Quebra Coisa",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Dano dobrado contra barreiras, objetos e estruturas."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Castigo",
+      "nome": "Rasga Escudo",
+      "preco_fonte": "Média",
+      "texto_fonte": "O dano ignora `vida temporária` e barreiras: bate direto na vida. Não ignora Redução de Dano."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Castigo",
+      "nome": "Sem Cura",
+      "preco_fonte": "Média",
+      "texto_fonte": "O alvo não pode receber cura até o fim do próximo turno dele."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Tempo",
+      "nome": "Rápido",
+      "preco_fonte": "Pesada",
+      "texto_fonte": "Custa Ação Bônus em vez de Ação Padrão. Não entra no mesmo feitiço que `Reação` nem com a Restrição `Atrasar`."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Tempo",
+      "nome": "Reação",
+      "preco_fonte": "Pesada",
+      "texto_fonte": "Você conjura como Reação, a um gatilho que você declara quando monta o feitiço. Não entra no mesmo feitiço que `Rápido` nem que `Armado`, nem com as Restrições `Atrasar` e `Parado`."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Tempo",
+      "nome": "Armado",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Você gasta a ação e o PE do feitiço, e ele fica armado até o fim da cena. Na hora de armar, escolha um gatilho que a mesa consiga ver acontecer e que não seja um momento do seu próprio turno. Quando ele acontece, o feitiço sai sem gastar Reação, com alcance e alvo conferidos naquela hora. Um armado por vez. Se ele não sair, porque a cena acabou ou porque você armou outro, metade do PE volta. Não entra no mesmo feitiço que `Reação` nem com a Restrição `Carregar`."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Tempo",
+      "nome": "Silencioso",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Sem gesto, sem palavra. Usar não revela a sua posição e não exige nenhum sinal. Dispensa Selo de gesto ou de som; Selo de condição, como enxergar o alvo, continua valendo."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Tempo",
+      "nome": "Adianta",
+      "preco_fonte": "Média",
+      "texto_fonte": "Se você conjurar antes de qualquer inimigo agir na rodada, +2 na CD."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Tempo",
+      "nome": "Segura",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Você pode adiar o efeito por até uma rodada e disparar no seu próximo turno, de graça."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Tempo",
+      "nome": "Concentrada",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Os efeitos de estado do feitiço, que hoje duram uma rodada ou até o fim do próximo turno, passam a durar o tempo da tabela `Quanto dura`. Exige concentração. Não vale para o dano, para a `Fica` nem para o `Anteparo`."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Tempo",
+      "nome": "Duradoura",
+      "preco_fonte": "Média",
+      "texto_fonte": "A mesma coisa que a `Concentrada`, só que sem exigir concentração, e com o tempo da coluna `Duradoura` da tabela `Quanto dura`."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Marca",
+      "nome": "Marca",
+      "preco_fonte": "Leve",
+      "texto_fonte": "O alvo fica marcado até o fim do seu próximo turno. **Você** tem vantagem no seu próximo ataque contra ele. Só você."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Marca",
+      "nome": "Alvo de Caça",
+      "preco_fonte": "Leve",
+      "texto_fonte": "O alvo fica marcado até o fim do seu próximo turno. Daí em diante, cada ataque **seu** que acertar ele causa 1d4 a mais, e o feitiço que marcou não ganha o dado. Vale arma, desarmado e feitiço com rolagem de acerto, e cada tiro da `Rajada` conta. Se este feitiço tiver o `Rápido`, o dado é 1d8. Não entram feitiço de Teste de Resistência, dano que volta em rodada seguinte como o da `Queima`, respingo, nem ataque da sua invocação. Um alvo marcado por vez: marcar outro apaga a marca anterior."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Marca",
+      "nome": "Rastro",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Você sabe onde o alvo está por 1 hora, desde que ele esteja no mesmo plano."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Marca",
+      "nome": "Sugar",
+      "preco_fonte": "Média",
+      "texto_fonte": "Você recupera um quarto do dano causado, até no máximo 5 × Classe."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Marca",
+      "nome": "Isca",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Até o fim do próximo turno do alvo, ele tem desvantagem em qualquer ataque que não mire você."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Marca",
+      "nome": "Cobrança",
+      "preco_fonte": "Média",
+      "texto_fonte": "Se o alvo cair nesta cena, o seu próximo feitiço custa metade."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Marca",
+      "nome": "Identificar Feitiço",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Você sabe qual foi o último feitiço que o alvo usou e de que Classe ele era."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Amparo",
+      "nome": "Limpa",
+      "preco_fonte": "Média",
+      "texto_fonte": "Remove de um aliado uma condição de nível `Leve` ou `Média`."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Amparo",
+      "nome": "Limpa Fundo",
+      "preco_fonte": "Pesada",
+      "texto_fonte": "Remove de um aliado uma condição de qualquer nível."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Amparo",
+      "nome": "Levanta",
+      "preco_fonte": "Pesada",
+      "texto_fonte": "Um aliado caído em 0 pontos de vida volta de pé com 5 × Classe, seja qual for a vida máxima dele. Uma vez por cena."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Amparo",
+      "nome": "Divide",
+      "preco_fonte": "Média",
+      "texto_fonte": "Um aliado a até 9 m passa a receber metade do dano que você receberia, até o fim do próximo turno. Você escolhe na hora de conjurar."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Amparo",
+      "nome": "Junto",
+      "preco_fonte": "Leve",
+      "texto_fonte": "A cura ou o apoio pega um aliado a mais. O efeito é dividido entre eles. Pode comprar duas vezes."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Amparo",
+      "nome": "Reserva",
+      "preco_fonte": "Média",
+      "texto_fonte": "A cura fica guardada no aliado e é usada sozinha quando ele cair abaixo da metade da vida. Dura até o fim da cena."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Amparo",
+      "nome": "Remenda",
+      "preco_fonte": "Pesada",
+      "texto_fonte": "Devolve 5 × Classe de Integridade a um aliado. Uma vez por cena, por alvo."
+    },
+    {
+      "tipo": "melhoria",
+      "familia": "Fora de família",
+      "nome": "Efeito Próprio",
+      "preco_fonte": "o mestre decide",
+      "texto_fonte": "Uma mecânica que não existe em lugar nenhum desta lista. Um deslocamento junto com o dano, um efeito que só funciona em superfície molhada, o que for. Um por feitiço, e ele conta como uma Melhoria no limite da Classe. Combinado antes da sessão e nunca no meio dela. Não pertence a nenhuma Família, então Família Fechada não bloqueia."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Corpo a Corpo",
+      "preco_fonte": "Média",
+      "texto_fonte": "`Projétil` vira `Toque` (1,5 m). `Explosão` vira `Aura`, centrada em você. `Cone` e `Linha` já saem de você, então não podem pegar esta."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Atrasar",
+      "preco_fonte": "Média",
+      "texto_fonte": "Custa a rodada inteira (Ação Completa): você não se move, não usa ação bônus e não faz mais nada naquele turno."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Parado",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Você não se move no turno em que conjura. A ação bônus continua sua."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Gesto",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Precisa das duas mãos livres e de falar em voz audível."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Sangra",
+      "preco_fonte": "Média",
+      "texto_fonte": "Você toma 2 × Classe de dano que não pode ser reduzido."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Recuo",
+      "preco_fonte": "Leve ou Média",
+      "texto_fonte": "Você fica com uma condição até o fim do seu próximo turno. Ela devolve o nível dela: uma condição `Leve` devolve `Leve`, uma `Média` devolve `Média`. Nível `Pesada` não entra, porque Restrição nunca devolve `Pesada`."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Carregar",
+      "preco_fonte": "Média",
+      "texto_fonte": "Você gasta um turno carregando o feitiço antes de disparar. Se tomar dano nesse meio-tempo, faz um Teste de Resistência de Espírito contra a CD de quem te feriu para manter. Se falhar, perde o feitiço. Carregar não é concentração: o feitiço ainda não saiu."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Tudo ou Nada",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Quem passa no Teste de Resistência não toma nada, em vez de tomar metade. Só em feitiços de Teste de Resistência."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Uma Vez",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Uma vez por cena."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Condicional",
+      "preco_fonte": "Leve ou Média",
+      "texto_fonte": "Só funciona quando uma condição de cena ou de alvo, escrita na ficha, é verdadeira: no escuro, marcado por você, abaixo de metade da vida, perto de água corrente. Falha em menos de uma cena a cada três: devolve `Leve`. Falha na maioria das cenas: devolve `Média`."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Fraqueza",
+      "preco_fonte": "Leve ou Média",
+      "texto_fonte": "Depois de usar, você fica com desvantagem num dos quatro Testes de Resistência, escolhido na montagem, até o fim da cena. Vigor ou Intelecto: `Leve`. Físico ou Espírito: `Média`."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Frágil",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Se você tomar dano antes do seu próximo turno, o efeito do feitiço acaba na hora. Só serve em feitiço que deixa algo durando."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Barulho",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Todo mundo num raio de 90 m ouve, e sabe de onde veio."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Assinatura",
+      "preco_fonte": "Leve",
+      "texto_fonte": "O feitiço deixa uma marca visível que dura 1 hora e aponta para você."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Aquecer",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Não pode ser usado na primeira rodada do combate."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Dívida",
+      "preco_fonte": "Média",
+      "texto_fonte": "Depois de usar, o próximo feitiço que você conjurar nesta cena custa **`2 ×` a Classe deste feitiço** de energia a mais — **mesmo que ele seja de Classe 0**."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Peso Morto",
+      "preco_fonte": "Leve",
+      "texto_fonte": "Seu deslocamento cai pela metade até o fim do próximo turno, e você recebe `−1` no seu Teste de Resistência Físico."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrições",
+      "nome": "Sem Volta",
+      "preco_fonte": "Média",
+      "texto_fonte": "Se o feitiço não acertar ninguém, você não conjura nada no seu próximo turno."
+    },
+    {
+      "tipo": "restricao",
+      "familia": "Restrição Própria",
+      "nome": "Restrição Própria",
+      "preco_fonte": "Leve ou Média",
+      "texto_fonte": "Uma desvantagem que não existe nesta lista. Escrita com o mestre antes da sessão, nunca no meio dela, e vale só para o feitiço onde nasceu. Conta no limite de duas Restrições e obedece as mesmas travas de todas as outras."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Leitura",
+      "preco_fonte": "1",
+      "texto_fonte": "Você identifica a Classe e a Forma de qualquer feitiço conjurado a até 18 m."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Instinto",
+      "preco_fonte": "1",
+      "texto_fonte": "Você não é pego de surpresa enquanto estiver acordado."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Raiz",
+      "preco_fonte": "1",
+      "texto_fonte": "Você não é movido à força nem derrubado contra a sua vontade."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Mão Firme",
+      "preco_fonte": "1",
+      "texto_fonte": "Você não perde concentração nem carga por dano de 10 ou menos."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Farejador",
+      "preco_fonte": "1",
+      "texto_fonte": "Você sente se alguém conjurou num lugar nas últimas 24 horas, e de que Classe."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Leitura de Feitiços",
+      "preco_fonte": "1",
+      "texto_fonte": "Você sabe qual foi o último feitiço que um inimigo à vista usou."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Fluxo",
+      "preco_fonte": "2",
+      "texto_fonte": "Ao conjurar Classe 3 ou mais, você ganha 2 × Classe de vida temporária."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Recomposição",
+      "preco_fonte": "2",
+      "texto_fonte": "Uma vez por descanso curto, gasta a ação e recupera 5 × a sua maior Classe em vida."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Segunda Natureza",
+      "preco_fonte": "2",
+      "texto_fonte": "Uma vez por dia, conjura um feitiço de Classe até metade da sua maior sem gastar PE."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Eco",
+      "preco_fonte": "2",
+      "texto_fonte": "Quando você derruba um inimigo com feitiço, o próximo feitiço da cena custa metade."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Costura",
+      "preco_fonte": "2",
+      "texto_fonte": "Uma vez por cena, um aliado a até 9 m que cairia a 0 fica com 1."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Contramedida",
+      "preco_fonte": "2",
+      "texto_fonte": "Como Reação, quando alguém conjura a até 9 m, gasta PE e sobe em 2 a CD daquele feitiço."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Peso da Presença",
+      "preco_fonte": "2",
+      "texto_fonte": "Inimigos fracos que começam o turno a até 6 m fazem Teste de Resistência ou ficam `Amedrontados` por uma rodada."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Escama",
+      "preco_fonte": "3",
+      "texto_fonte": "Escolha um tipo de dano que a sua Regra justifique. Você tem resistência a ele: todo dano daquele tipo cai pela metade."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Afinidade",
+      "preco_fonte": "3",
+      "texto_fonte": "Escolha um tema da sua Regra. Feitiços daquele tema ignoram cobertura `Parcial` e resistência ao seu tipo de dano."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Reserva Profunda",
+      "preco_fonte": "3",
+      "texto_fonte": "Seu PE máximo sobe em 3 × a sua maior Classe."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Regra Própria",
+      "preco_fonte": "1 a 3",
+      "texto_fonte": "Sua técnica impõe uma regra ao mundo. Ver abaixo."
+    },
+    {
+      "tipo": "passiva",
+      "familia": "Passivas",
+      "nome": "Talento Próprio",
+      "preco_fonte": "1 a 3",
+      "texto_fonte": "Qualquer outra coisa, montada com o mestre na escala das outras entradas desta tabela."
+    }
+  ],
+  "formas": [
+    {
+      "nome": "Projétil",
+      "custo": "—",
+      "entrega": "18 m, um alvo",
+      "resolucao": "Rolagem de acerto",
+      "dono_candidato": "fundamento/lote-01/FUNDAMENTO.md"
+    },
+    {
+      "nome": "Toque",
+      "custo": "—",
+      "entrega": "1,5 m, um alvo. `Projétil` com a Restrição `Corpo a Corpo` embutida (devolve `Média`).",
+      "resolucao": "Rolagem de acerto",
+      "dono_candidato": "fundamento/lote-01/FUNDAMENTO.md"
+    },
+    {
+      "nome": "Explosão",
+      "custo": "`Leve`",
+      "entrega": "Esfera de raio 3 m, num ponto a até 18 m",
+      "resolucao": "Teste de Resistência, metade no sucesso",
+      "dono_candidato": "fundamento/lote-01/FUNDAMENTO.md"
+    },
+    {
+      "nome": "Aura",
+      "custo": "`Leve`",
+      "entrega": "Esfera de raio 3 m centrada em você. `Explosão` com `Corpo a Corpo` embutida (devolve `Média`).",
+      "resolucao": "Teste de Resistência, metade no sucesso",
+      "dono_candidato": "fundamento/lote-01/FUNDAMENTO.md"
+    },
+    {
+      "nome": "Cone",
+      "custo": "`Leve`",
+      "entrega": "4,5 m saindo de você. A largura do cone em qualquer ponto é igual à distância daquele ponto até você.",
+      "resolucao": "Teste de Resistência, metade no sucesso",
+      "dono_candidato": "fundamento/lote-01/FUNDAMENTO.md"
+    },
+    {
+      "nome": "Linha",
+      "custo": "`Leve`",
+      "entrega": "18 m por 1,5 m. Quando o comprimento chega ao topo da escada, `Maior` passa a subir a largura: 1,5 m → 3 m → 4,5 m.",
+      "resolucao": "Teste de Resistência, metade no sucesso",
+      "dono_candidato": "fundamento/lote-01/FUNDAMENTO.md"
+    },
+    {
+      "nome": "Cura",
+      "custo": "`Média`",
+      "entrega": "Um aliado a até 9 m. Os dados viram cura. Pode escolher alvo hostil.",
+      "resolucao": "Automático no aliado, acerto no hostil",
+      "dono_candidato": "fundamento/lote-01/FUNDAMENTO.md"
+    },
+    {
+      "nome": "Apoio",
+      "custo": "—",
+      "entrega": "Um aliado a até 9 m. Sem dano. Cada ponto que sobra vira 3 de vida temporária.",
+      "resolucao": "Automático",
+      "dono_candidato": "fundamento/lote-01/FUNDAMENTO.md"
+    },
+    {
+      "nome": "Onda",
+      "custo": "`Pesada`",
+      "entrega": "Esfera de raio 3 m centrada em você. A cura ou o apoio pega todos os aliados dentro, sem dividir.",
+      "resolucao": "Automático",
+      "dono_candidato": "fundamento/lote-01/FUNDAMENTO.md"
+    },
+    {
+      "nome": "Efeito",
+      "custo": "—",
+      "entrega": "Fora de combate. Sem dano. Ver *Fora de combate*.",
+      "resolucao": "Automático",
+      "dono_candidato": "fundamento/lote-01/FUNDAMENTO.md"
+    }
+  ],
+  "nota": "Formas completas já escritas em R06; R07 indexa destino em vez de duplicar fórmulas. Regra Própria e Passiva Própria contam como entradas.",
+  "nota_migracao": "Nomes atuais; rótulo interno passiva preservado como categoria do inventário histórico. Preços da fonte inalterados."
+}

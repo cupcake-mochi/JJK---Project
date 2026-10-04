@@ -1,0 +1,21 @@
+{
+  "data": "2026-10-03",
+  "status": "candidata; não integrada",
+  "arquivos": {
+    "05-DECISOES.md": "784b1c15f6b9729546c163bf7bc2be870321a9931d5697f79bdcdea52f92065b",
+    "05-ENERGIA-E-VESTIGIOS.md": "8c10c18f03d549f9af401c668910c74f8921a9069882405cd708087b23f7581d",
+    "CONFERENCIA.json": "50acce20c38192a1243d2998bb5fca506d4cade9124bd332f2c33682e47315d6",
+    "LEIA-ME.md": "37c904db8403b08b788144ce545363204ea02169e3269055335392bdf006ae8c",
+    "RELATORIO.md": "b6e9dddf13dac3ee767e60b89ad16c033f66ffea4a85ffe1a58e43e304a74d43",
+    "SINCRONIZACOES-PROPOSTAS.md": "f7e4af43679d4109a51ffc30ca4947c9d587f077c83a57a75df3c8191771bccd",
+    "conferir.py": "67707ed4a0ac309717526b72dd69493d5c558501408c2de14ba6f7689ba77827",
+    "evidencias/CANONE-E-ADAPTACAO.md": "c50e10e93517fe98b70bcabb9d19804566f37bd6e8edd02b4d46dadb1783a371",
+    "evidencias/CENARIOS-R2.md": "c8ad707688a1645889adf35db595a8d62f596f4b005e6d8481bd7801e81171ea",
+    "evidencias/fontes-canone.json": "f8f3114820857a6f910eab9d4d7489139e4fac99ffd9204f9fe352634a49499e",
+    "evidencias/inspecao-visual.json": "989d4e0a2358bf7a3b258da6de52436223af88b3f64afd9a6594e1c6b0864419",
+    "evidencias/pdf-estrutura.json": "31edd02ac6fdccc811bed31527daf8d9c9f27992c3e7353c15c1a5e57de0b083",
+    "evidencias/pdf-texto.txt": "d2353c067f7b29b101c30148825f97bc148b575c1807c045b93543cf58294e3b",
+    "gerar_pdf.py": "25789ad9bc4f462bca562f55de085b83d7bf90d9bd69fc1482c2a5381d5f8a84",
+    "output/pdf/Projeto-M-Energia-e-Vestigios-Revisao-02.pdf": "e4cfb7f9d033bc5da8d20f4c3bf0426b526bffc0efbb7bb531572d6f0a772c6b"
+  }
+}

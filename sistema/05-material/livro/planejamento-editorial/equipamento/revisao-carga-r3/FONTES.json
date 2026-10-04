@@ -1,0 +1,98 @@
+[
+  {
+    "id": "R1",
+    "titulo": "Met: rapieira 14.25.1048",
+    "url": "https://www.metmuseum.org/art/collection/search/27433",
+    "nota": "1,4742 kg; 127 cm. Exemplar específico, não média universal."
+  },
+  {
+    "id": "R2",
+    "titulo": "Met: claymore 54.46.10",
+    "url": "https://www.metmuseum.org/art/collection/search/27515",
+    "nota": "2,0685 kg; 136 cm. Ajuda a evitar espadas de fantasia absurdamente pesadas."
+  },
+  {
+    "id": "R3",
+    "titulo": "Met: maça 32.75.203",
+    "url": "https://www.metmuseum.org/art/collection/search/32223",
+    "nota": "1,7577 kg; 58,6 cm. Não representa uma marreta industrial."
+  },
+  {
+    "id": "R4",
+    "titulo": "Gränsfors: Small Forest Axe",
+    "url": "https://www.gransforsbruk.com/en/p/small-forest-axe",
+    "nota": "1 kg e 50 cm, conforme fabricante. Âncora para machadinha, não para todo machado."
+  },
+  {
+    "id": "R5",
+    "titulo": "Met: pollaxe 14.25.302",
+    "url": "https://www.metmuseum.org/art/collection/search/26720",
+    "nota": "2,4664 kg; 208 cm. Comparação de porte de haste; não alegação de peso de yari ou naginata."
+  },
+  {
+    "id": "R6",
+    "titulo": "TenPoint: TX 440",
+    "url": "https://www.tenpointcrossbows.com/product/tx-440/",
+    "nota": "Peso anunciado 7,2 lb, aproximadamente 3,27 kg. Besta moderna; não extrapolar para toda besta histórica."
+  },
+  {
+    "id": "R7",
+    "titulo": "GLOCK: G17",
+    "url": "https://eu.glock.com/en/products/pistols/g17",
+    "nota": "625 g sem carregador; 705 g com carregador vazio; 915 g com carregador cheio, dependente da munição. Carregador cheio inferido: 290 g, não 210 g (este último é só o acréscimo de munição)."
+  },
+  {
+    "id": "R8",
+    "titulo": "Colt: tabela M4 / carabina / SMG",
+    "url": "https://www.colt.com/wp-content/uploads/2023/02/m16a2carbinecommando9mmsmgm4carbine.pdf",
+    "nota": "Tabela indexada: M4 2,80 kg vazia / 3,48 kg carregada; SMG 9 mm 2,61 / 3,42 kg. Uso de exemplo documental antigo. A abertura do PDF não forneceu texto extraível; valores consultados na tabela indexada, sem alegar leitura integral do PDF."
+  },
+  {
+    "id": "R9",
+    "titulo": "Sako: manual TRG 22/42 A1",
+    "url": "https://media.sako.global/image/upload/v1691732877/TRG_22_42_A1_instruction_manual_v1.9_gc6vrx.pdf",
+    "nota": "Tabela indexada do manual: TRG 22 A1 5,3–6,0 kg sem acessórios; TRG 42 A1 5,6–6,1 kg. Consulta da tabela, não leitura integral: abertura completa excedeu o limite da ferramenta."
+  },
+  {
+    "id": "R10",
+    "titulo": "Mossberg: ficha 590/590A1 de 7 cartuchos",
+    "url": "https://resources.mossberg.com/hubfs/press_releases/Mossberg-Introduces-7-Shot-Versions-of-590A1-and-590-PR-1-4-2016-FINAL.pdf",
+    "nota": "7 lb, aproximadamente 3,18 kg; 39,5 pol. aproximadamente 100 cm. A ficha não informa peso carregado; margem da carga é decisão nossa."
+  },
+  {
+    "id": "R11",
+    "titulo": "FN Herstal: ficha FN MAG",
+    "url": "https://fnherstal.com/app/uploads/technical-data-fn-mag-1.pdf",
+    "nota": "11,8 kg para arma; 123 cm. O peso de cano indicado separadamente é componente, não deve ser somado outra vez ao total. Caixa cheia não foi presumida incluída."
+  },
+  {
+    "id": "R12",
+    "titulo": "Exército canadense: M2HB-QCB",
+    "url": "https://www.canada.ca/en/army/services/equipment/weapons/mshb-qcb50-cal.html",
+    "nota": "38 kg. Demonstra que uma metralhadora pesada instalada pertence a outro porte e não cabe na ficha portátil."
+  },
+  {
+    "id": "R13",
+    "titulo": "Defesa neerlandesa: Minimi",
+    "url": "https://www.defensie.nl/onderwerpen/m/materieel/bewapening/minimi-licht-machinegeweer",
+    "nota": "Página indexada: 7,1 kg (7,22 kg em variante com amortecedor). Exemplo de metralhadora leve; abertura direta falhou. Não confundir com submetralhadora nem com M2."
+  },
+  {
+    "id": "R14",
+    "titulo": "Tramontina: Marreta MASTER Basic 5000 g",
+    "url": "https://www.tramontina.com.br/marreta-oitavada-5000-g-tramontina-master-basic-com-cabo-de-madeira/40508010.html",
+    "nota": "Produto anunciado de 5 kg, página informa 5,5 kg com cabo. Apoia uma faixa pesada de 3 Volume; não confundir nome nominal da cabeça com peso total."
+  },
+  {
+    "id": "R15",
+    "titulo": "Met: adaga 32.75.264",
+    "url": "https://www.metmuseum.org/art/collection/search/32259",
+    "nota": "209,8 g e 28,9 cm; exemplo de lâmina curta leve, não padrão universal."
+  },
+  {
+    "id": "R16",
+    "titulo": "Met: adaga de aparar 1981.2",
+    "url": "https://www.metmuseum.org/art/collection/search/626129",
+    "nota": "635 g e 45,7 cm; contraponto à adaga pequena. Diferenças de guarda, lâmina e tamanho importam."
+  }
+]

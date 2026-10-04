@@ -1,0 +1,1 @@
+{"arquivo": "INVOCACOES-EM-CAMPO.md", "sha256": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd", "ok": true, "verificacoes": 187, "perfis": 168}

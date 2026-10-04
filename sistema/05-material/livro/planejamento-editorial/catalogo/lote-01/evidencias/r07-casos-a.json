@@ -1,0 +1,881 @@
+{
+  "metodo": "Casos de revisão especificados a partir da fonte e decisões candidatas; não representam playtest nem execução completa de combate.",
+  "casos": [
+    {
+      "id": "R07-A-01-valido",
+      "peca": "Longe",
+      "tipo": "valido",
+      "cenario": "Explosão de alcance 18 m compra Longe.",
+      "resultado_esperado": "Alcance passa a 36 m; raio permanece igual.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 604,
+        "ancora": "Longe"
+      },
+      "decisao": "R07-A-01",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-01-invalido",
+      "peca": "Longe",
+      "tipo": "invalido",
+      "cenario": "Toque compra Longe e mantém Corpo a Corpo.",
+      "resultado_esperado": "Montagem incompatível; trocar Forma e retirar a devolução.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 604,
+        "ancora": "Longe"
+      },
+      "decisao": "R07-A-01",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-02-valido",
+      "peca": "Muito Longe",
+      "tipo": "valido",
+      "cenario": "Linha de 18 m recebe Muito Longe.",
+      "resultado_esperado": "Vai a 30 m e então 60 m; para no último degrau.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 605,
+        "ancora": "Muito Longe"
+      },
+      "decisao": "R07-A-02",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-02-invalido",
+      "peca": "Muito Longe",
+      "tipo": "invalido",
+      "cenario": "Usar Muito Longe para deslocar a origem de uma Aura.",
+      "resultado_esperado": "A origem continua no conjurador; a combinação não é válida.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 605,
+        "ancora": "Muito Longe"
+      },
+      "decisao": "R07-A-02",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-03-valido",
+      "peca": "Sem Ver",
+      "tipo": "valido",
+      "cenario": "Uma criatura foi localizada atrás de fumaça, dentro do alcance e sem parede.",
+      "resultado_esperado": "Pode ser escolhida mesmo sem visão; sua resolução normal continua exigida.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 606,
+        "ancora": "Sem Ver"
+      },
+      "decisao": "R07-A-03",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-03-invalido",
+      "peca": "Sem Ver",
+      "tipo": "invalido",
+      "cenario": "O conjurador sente energia atrás de uma parede sem saber o espaço ocupado.",
+      "resultado_esperado": "Não há alvo localizado nem trajeto válido; Sem Ver não basta.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 606,
+        "ancora": "Sem Ver"
+      },
+      "decisao": "R07-A-03",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-04-valido",
+      "peca": "Perseguir",
+      "tipo": "valido",
+      "cenario": "Alvo de Projétil estava a 18 m; sua resposta o move 6 m para trás antes da resolução.",
+      "resultado_esperado": "A mesma aplicação resolve contra ele a 24 m se visão e trajeto permanecerem válidos.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 610,
+        "ancora": "Perseguir"
+      },
+      "decisao": "R07-A-04",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-04-invalido",
+      "peca": "Perseguir",
+      "tipo": "invalido",
+      "cenario": "Alvo teleporta para outra sala; conjurador quer manter a perseguição por três rodadas.",
+      "resultado_esperado": "Perseguir não localiza nem estende duração; não acompanha esse teleporte.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 610,
+        "ancora": "Perseguir"
+      },
+      "decisao": "R07-A-04",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-05-valido",
+      "peca": "Passo",
+      "tipo": "valido",
+      "cenario": "Máxima com Passo e sem restrição de imobilidade gasta Ação Completa.",
+      "resultado_esperado": "Passo concede seus metros; não devolve Ação de Movimento.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 607,
+        "ancora": "Passo"
+      },
+      "decisao": "R07-A-05",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-05-invalido",
+      "peca": "Passo",
+      "tipo": "invalido",
+      "cenario": "Personagem preso, com deslocamento zero, usa Passo para sair da contenção.",
+      "resultado_esperado": "A peça não ignora a condição nem a restrição.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 607,
+        "ancora": "Passo"
+      },
+      "decisao": "R07-A-05",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-06-valido",
+      "peca": "Empurrão",
+      "tipo": "valido",
+      "cenario": "Empurrão leva alvo 4,5 m para uma lateral livre após falha no TR.",
+      "resultado_esperado": "Movimento ocorre; não provoca oportunidade nem usa deslocamento da vítima.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 608,
+        "ancora": "Empurrão"
+      },
+      "decisao": "R07-A-06",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-06-invalido",
+      "peca": "Empurrão",
+      "tipo": "invalido",
+      "cenario": "Escolher ponto 6 m acima do alvo sem apoio para provocar queda.",
+      "resultado_esperado": "Não é permitido por Empurrão; requer capacidade de erguer/lançar.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 608,
+        "ancora": "Empurrão"
+      },
+      "decisao": "R07-A-06",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-07-valido",
+      "peca": "Troca",
+      "tipo": "valido",
+      "cenario": "Conjurador e aliado disposto dentro de alcance ocupam espaços que comportam ambos.",
+      "resultado_esperado": "Trocam de posição, sem percorrer o caminho entre eles.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 609,
+        "ancora": "Troca"
+      },
+      "decisao": "R07-A-07",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-07-invalido",
+      "peca": "Troca",
+      "tipo": "invalido",
+      "cenario": "Alvo enorme não cabe no espaço de 1,5 m deixado pelo conjurador.",
+      "resultado_esperado": "A troca inteira falha; ninguém fica parcialmente transportado.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 609,
+        "ancora": "Troca"
+      },
+      "decisao": "R07-A-07",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-08-valido",
+      "peca": "Maior",
+      "tipo": "valido",
+      "cenario": "Explosão com raio 3 m compra Maior uma vez.",
+      "resultado_esperado": "Raio passa a 4,5 m; distância de lançamento não muda.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 621,
+        "ancora": "Maior"
+      },
+      "decisao": "R07-A-08",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-08-invalido",
+      "peca": "Maior",
+      "tipo": "invalido",
+      "cenario": "Projétil compra Maior para atingir todas as criaturas adjacentes.",
+      "resultado_esperado": "Não possui área para ampliar; é necessária outra Forma.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 621,
+        "ancora": "Maior"
+      },
+      "decisao": "R07-A-08",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-09-valido",
+      "peca": "Muito Maior",
+      "tipo": "valido",
+      "cenario": "Linha de 30 × 1,5 m compra Muito Maior.",
+      "resultado_esperado": "Vai a 60 × 1,5 m, 60 × 3 m e 60 × 4,5 m.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 622,
+        "ancora": "Muito Maior"
+      },
+      "decisao": "R07-A-09",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-09-invalido",
+      "peca": "Muito Maior",
+      "tipo": "invalido",
+      "cenario": "Acrescentar metros depois de alcançar o último degrau.",
+      "resultado_esperado": "Os aumentos excedentes se perdem.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 622,
+        "ancora": "Muito Maior"
+      },
+      "decisao": "R07-A-09",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-10-valido",
+      "peca": "Escolher",
+      "tipo": "valido",
+      "cenario": "Área inicial contém dois aliados percebidos; são excluídos e depois saem e voltam.",
+      "resultado_esperado": "Continuam excluídos daquela área persistente.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 623,
+        "ancora": "Escolher"
+      },
+      "decisao": "R07-A-10",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-10-invalido",
+      "peca": "Escolher",
+      "tipo": "invalido",
+      "cenario": "Aliado chega numa área com Fica já ativa e pede para ser acrescentado à proteção.",
+      "resultado_esperado": "Não é possível refazer a lista deste lançamento.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 623,
+        "ancora": "Escolher"
+      },
+      "decisao": "R07-A-10",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-11-valido",
+      "peca": "Mais Um",
+      "tipo": "valido",
+      "cenario": "6d8 em dois alvos de Projétil, divididos em 4d8 e 2d8.",
+      "resultado_esperado": "Cada alvo tem sua resolução; soma permanece 6d8.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 625,
+        "ancora": "Mais Um"
+      },
+      "decisao": "R07-A-11",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-11-invalido",
+      "peca": "Mais Um",
+      "tipo": "invalido",
+      "cenario": "Dividir 0d8 entre cinco alvos e aplicar condição a todos gratuitamente.",
+      "resultado_esperado": "Alvo sem parcela não recebe efeito de acerto.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 625,
+        "ancora": "Mais Um"
+      },
+      "decisao": "R07-A-11",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-12-valido",
+      "peca": "Rajada",
+      "tipo": "valido",
+      "cenario": "Classe 2 com 6d8 declara três tiros de 2d8 contra um alvo.",
+      "resultado_esperado": "Três ataques individuais, sem criar 18d8.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 626,
+        "ancora": "Rajada"
+      },
+      "decisao": "R07-A-12",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-12-invalido",
+      "peca": "Rajada",
+      "tipo": "invalido",
+      "cenario": "Rajada de Classe 3 com 2d8 declara quatro tiros para ganhar quatro gatilhos.",
+      "resultado_esperado": "No máximo dois tiros com um dado cada.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 626,
+        "ancora": "Rajada"
+      },
+      "decisao": "R07-A-12",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-13-valido",
+      "peca": "Fica",
+      "tipo": "valido",
+      "cenario": "Criatura recebe aplicação inicial na rodada 2 e sai e reentra naquela rodada.",
+      "resultado_esperado": "Não recebe nova resolução; área termina no fim da rodada 7.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 624,
+        "ancora": "Fica"
+      },
+      "decisao": "R07-A-13",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-13-invalido",
+      "peca": "Fica",
+      "tipo": "invalido",
+      "cenario": "Mover uma Aura persistente através de três alvos todo turno para repetir dano.",
+      "resultado_esperado": "Fica deixa a área fixa; movimento da área não é entrada do alvo.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 624,
+        "ancora": "Fica"
+      },
+      "decisao": "R07-A-13",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-14-valido",
+      "peca": "Salto",
+      "tipo": "valido",
+      "cenario": "Projétil Classe 2 com 5d8 acerta alvo inicial e há inimigo elegível a 6 m dele.",
+      "resultado_esperado": "Resolva 2d8 no secundário com ataque/TR próprio.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 627,
+        "ancora": "Salto"
+      },
+      "decisao": "R07-A-14",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-14-invalido",
+      "peca": "Salto",
+      "tipo": "invalido",
+      "cenario": "Ataque inicial erra e Certeiro causa metade; jogador quer usar esse alvo como origem.",
+      "resultado_esperado": "Não houve acerto nem falha de TR inicial; não é origem válida.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 627,
+        "ancora": "Salto"
+      },
+      "decisao": "R07-A-14",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-15-valido",
+      "peca": "Contorno",
+      "tipo": "valido",
+      "cenario": "Linha de 18 m segue corredor 9 m e vira esquina por mais 9 m.",
+      "resultado_esperado": "Pode atingir o trecho após a curva; comprimento total permanece 18 m.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 628,
+        "ancora": "Contorno"
+      },
+      "decisao": "R07-A-15",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-15-invalido",
+      "peca": "Contorno",
+      "tipo": "invalido",
+      "cenario": "Linha de 18 m percorre 18 m até a esquina e mais 18 m depois.",
+      "resultado_esperado": "Não pode duplicar comprimento; a curva consome a mesma medida.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 628,
+        "ancora": "Contorno"
+      },
+      "decisao": "R07-A-15",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-16-valido",
+      "peca": "Precisão",
+      "tipo": "valido",
+      "cenario": "Feitiço de condição usa TR CD 14 e compra Precisão.",
+      "resultado_esperado": "CD inicial e saída que use essa CD passam a 16.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 639,
+        "ancora": "Precisão"
+      },
+      "decisao": "R07-A-16",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-16-invalido",
+      "peca": "Precisão",
+      "tipo": "invalido",
+      "cenario": "Cura automática compra Precisão para receber +2d8.",
+      "resultado_esperado": "Sem teste para modificar; não há efeito de Precisão.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 639,
+        "ancora": "Precisão"
+      },
+      "decisao": "R07-A-16",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-17-valido",
+      "peca": "Certeiro",
+      "tipo": "valido",
+      "cenario": "Ataque erra depois de De Novo e teria 7d8.",
+      "resultado_esperado": "Causa 3d8 sem condição, marca ou crítico.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 640,
+        "ancora": "Certeiro"
+      },
+      "decisao": "R07-A-17",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-17-invalido",
+      "peca": "Certeiro",
+      "tipo": "invalido",
+      "cenario": "Ataque acerta, alvo usa RD e atacante pede metade adicional de Certeiro.",
+      "resultado_esperado": "RD não transforma acerto em erro e não cria dano adicional.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 640,
+        "ancora": "Certeiro"
+      },
+      "decisao": "R07-A-17",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-18-valido",
+      "peca": "Inescapável",
+      "tipo": "valido",
+      "cenario": "Classe 5: Projétil + Inescapável, sem outras peças e 10d8 após o custo 5.",
+      "resultado_esperado": "Dano automático contra um alvo válido; defesas de dano ainda valem.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 641,
+        "ancora": "Inescapável"
+      },
+      "decisao": "R07-A-18",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-18-invalido",
+      "peca": "Inescapável",
+      "tipo": "invalido",
+      "cenario": "Explosão + Inescapável causa 10d8 automático em seis alvos.",
+      "resultado_esperado": "Forma de área incompatível com Inescapável.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 641,
+        "ancora": "Inescapável"
+      },
+      "decisao": "R07-A-18",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-19-valido",
+      "peca": "De Novo",
+      "tipo": "valido",
+      "cenario": "Segundo tiro da Rajada erra; De Novo ainda está disponível.",
+      "resultado_esperado": "Repete apenas o segundo ataque contra o mesmo alvo.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 645,
+        "ancora": "De Novo"
+      },
+      "decisao": "R07-A-19",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-19-invalido",
+      "peca": "De Novo",
+      "tipo": "invalido",
+      "cenario": "TR de inimigo tem sucesso e conjurador usa De Novo para fazê-lo repetir.",
+      "resultado_esperado": "A peça exige erro de ataque do usuário, não sucesso de TR alheio.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 645,
+        "ancora": "De Novo"
+      },
+      "decisao": "R07-A-19",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-20-valido",
+      "peca": "Fura",
+      "tipo": "valido",
+      "cenario": "Classe 3 com Fura causa dano a alvo de RD 8.",
+      "resultado_esperado": "Ignora 6 de RD; restam 2 para reduzir.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 642,
+        "ancora": "Fura"
+      },
+      "decisao": "R07-A-20",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-20-invalido",
+      "peca": "Fura",
+      "tipo": "invalido",
+      "cenario": "Alvo sem RD; conjurador soma os 6 ignorados ao dano.",
+      "resultado_esperado": "Não há RD para ignorar; não acrescenta dano.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 642,
+        "ancora": "Fura"
+      },
+      "decisao": "R07-A-20",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-21-valido",
+      "peca": "Corrói",
+      "tipo": "valido",
+      "cenario": "Feitiço de Fogo com Corrói atinge alvo resistente a Fogo.",
+      "resultado_esperado": "A resistência não reduz esse dano; demais defesas funcionam.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 643,
+        "ancora": "Corrói"
+      },
+      "decisao": "R07-A-21",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-21-invalido",
+      "peca": "Corrói",
+      "tipo": "invalido",
+      "cenario": "Mira não é Livre ou alvo tem imunidade; conjurador pede ignorá-la.",
+      "resultado_esperado": "Compra inválida no primeiro caso; imunidade continua no segundo.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 643,
+        "ancora": "Corrói"
+      },
+      "decisao": "R07-A-21",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-22-valido",
+      "peca": "Sem Cobertura",
+      "tipo": "valido",
+      "cenario": "Alvo tem Cobertura Parcial +2 contra o disparo.",
+      "resultado_esperado": "Não aplica esse +2 contra o feitiço.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 644,
+        "ancora": "Sem Cobertura"
+      },
+      "decisao": "R07-A-22",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-22-invalido",
+      "peca": "Sem Cobertura",
+      "tipo": "invalido",
+      "cenario": "Alvo tem Cobertura Boa +5 ou Total.",
+      "resultado_esperado": "A peça não ignora essas categorias.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 644,
+        "ancora": "Sem Cobertura"
+      },
+      "decisao": "R07-A-22",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-23-valido",
+      "peca": "Toca a Alma",
+      "tipo": "valido",
+      "cenario": "Montagem válida Classe 3 tem 7d8 antes da conversão.",
+      "resultado_esperado": "Passa a 3d8 de Alma; demais custos continuam.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 646,
+        "ancora": "Toca a Alma"
+      },
+      "decisao": "R07-A-23",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-23-invalido",
+      "peca": "Toca a Alma",
+      "tipo": "invalido",
+      "cenario": "Fundamento de gelo sem relação com alma compra a peça só para ignorar resistência.",
+      "resultado_esperado": "Requisito de Regra não atendido.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 646,
+        "ancora": "Toca a Alma"
+      },
+      "decisao": "R07-A-23",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-24-valido",
+      "peca": "Condição",
+      "tipo": "valido",
+      "cenario": "Atordoado foi aplicado por acerto de feitiço; ficha registra TR Físico CD 15.",
+      "resultado_esperado": "No fim do turno, alvo pode fazer esse TR para encerrar a condição.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 657,
+        "ancora": "Condição"
+      },
+      "decisao": "R07-A-24",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-24-invalido",
+      "peca": "Condição",
+      "tipo": "invalido",
+      "cenario": "Comprar Atordoado e Cego, ambos Pesados, no mesmo feitiço.",
+      "resultado_esperado": "Montagem proibida: só uma condição Pesada.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 657,
+        "ancora": "Condição"
+      },
+      "decisao": "R07-A-24",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-25-valido",
+      "peca": "Terreno",
+      "tipo": "valido",
+      "cenario": "Explosão sem dano com Terreno cria neblina densa no local escolhido.",
+      "resultado_esperado": "Visão bloqueada por uma rodada; som e trajetórias físicas não são bloqueados.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 658,
+        "ancora": "Terreno"
+      },
+      "decisao": "R07-A-25",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-25-invalido",
+      "peca": "Terreno",
+      "tipo": "invalido",
+      "cenario": "Projétil de alvo individual compra Terreno para gerar neblina num cômodo inteiro.",
+      "resultado_esperado": "Falta Forma de área; não recebe escala gratuita.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 658,
+        "ancora": "Terreno"
+      },
+      "decisao": "R07-A-25",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-26-valido",
+      "peca": "Cerca",
+      "tipo": "valido",
+      "cenario": "Feitiço sem dano aplica Cerca ao inimigo.",
+      "resultado_esperado": "Ele pode afastar-se ou mover-se lateralmente, mas não reduzir voluntariamente a distância.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 661,
+        "ancora": "Cerca"
+      },
+      "decisao": "R07-A-26",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-26-invalido",
+      "peca": "Cerca",
+      "tipo": "invalido",
+      "cenario": "Feitiço causa dano e aplica Cerca, pretendendo impedir aproximação depois.",
+      "resultado_esperado": "O dano do próprio conjurador encerra Cerca nessa resolução.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 661,
+        "ancora": "Cerca"
+      },
+      "decisao": "R07-A-26",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-27-valido",
+      "peca": "Desarma o Feitiço",
+      "tipo": "valido",
+      "cenario": "Barreira criada por feitiço Classe 2 é alvo válido de Desarma Classe 3.",
+      "resultado_esperado": "A barreira termina, mesmo sem reduzir seus PV a zero.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 663,
+        "ancora": "Desarma o Feitiço"
+      },
+      "decisao": "R07-A-27",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-27-invalido",
+      "peca": "Desarma o Feitiço",
+      "tipo": "invalido",
+      "cenario": "Conjurador converte nível 17 de um inimigo em Classe 5 para desligar sua técnica inata.",
+      "resultado_esperado": "Não há Classe do efeito nem autorização para remover a técnica; inválido.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 663,
+        "ancora": "Desarma o Feitiço"
+      },
+      "decisao": "R07-A-27",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-28-valido",
+      "peca": "Anteparo",
+      "tipo": "valido",
+      "cenario": "Classe 3 fornece 12 painéis; parede de 9 m por 3 m usa seis painéis de largura e dois de altura.",
+      "resultado_esperado": "É válida, com 30 PV compartilhados.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 659,
+        "ancora": "Anteparo"
+      },
+      "decisao": "R07-A-28",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-28-invalido",
+      "peca": "Anteparo",
+      "tipo": "invalido",
+      "cenario": "Dar 30 PV a cada um dos 12 painéis ou criar parede dentro do inimigo.",
+      "resultado_esperado": "Ambos inválidos; vida única e espaços livres.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 659,
+        "ancora": "Anteparo"
+      },
+      "decisao": "R07-A-28",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-29-valido",
+      "peca": "Prende",
+      "tipo": "valido",
+      "cenario": "Alvo preso usa Bônus e passa no TR de saída; ainda possui Movimento.",
+      "resultado_esperado": "Prende termina e ele pode usar o movimento restante.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 660,
+        "ancora": "Prende"
+      },
+      "decisao": "R07-A-29",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-29-invalido",
+      "peca": "Prende",
+      "tipo": "invalido",
+      "cenario": "Alvo quer gastar Reação no turno de outra criatura sem gatilho para escapar.",
+      "resultado_esperado": "Não é uma saída concedida por esta peça.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 660,
+        "ancora": "Prende"
+      },
+      "decisao": "R07-A-29",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-30-valido",
+      "peca": "Puxa",
+      "tipo": "valido",
+      "cenario": "Explosão tem alvos a 3 m e 9 m do centro e caminhos livres.",
+      "resultado_esperado": "Primeiro move até o centro; segundo até 6 m, parando antes de espaço ocupado.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 662,
+        "ancora": "Puxa"
+      },
+      "decisao": "R07-A-30",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-30-invalido",
+      "peca": "Puxa",
+      "tipo": "invalido",
+      "cenario": "Usar Puxa em Projétil, sem área, para puxar vítima até o conjurador.",
+      "resultado_esperado": "Peça sem centro válido; Empurrão pode resolver direção e distância.",
+      "fonte": {
+        "caminho": "sistema/05-material/livro/manual/40-fundamento.md",
+        "linha": 662,
+        "ancora": "Puxa"
+      },
+      "decisao": "R07-A-30",
+      "natureza": "caso de revisão, não relato de teste com jogadores"
+    },
+    {
+      "id": "R07-A-X01",
+      "peca": "Empurrão + Puxa",
+      "tipo": "interface",
+      "cenario": "Explosão acerta quatro criaturas e comprou as duas peças.",
+      "resultado_esperado": "No alvo escolhido para Empurrão, aplicar só o movimento escolhido; as demais podem receber Puxa. Nenhuma recebe 12 m pela soma.",
+      "fonte": "R07-A: Empurrão/Puxa; decisão parent autorizada",
+      "natureza": "caso de revisão, não execução de playtest"
+    },
+    {
+      "id": "R07-A-X02",
+      "peca": "Salto + Rajada",
+      "tipo": "interface",
+      "cenario": "Classe 2 tem 6d8 em três tiros 2d8; um acerto vira origem de Salto.",
+      "resultado_esperado": "Salto recebe metade de 2d8 = 1d8; não metade dos 6d8 da ficha. Uma única origem por conjuração.",
+      "fonte": "R07-A: Salto; R06: divisão e repetição",
+      "natureza": "caso de revisão, não execução de playtest"
+    },
+    {
+      "id": "R07-A-X03",
+      "peca": "Troca + Mais Um",
+      "tipo": "interface",
+      "cenario": "Feitiço atinge dois alvos e contém Troca.",
+      "resultado_esperado": "Escolher um alvo para uma troca com o conjurador, sem cadeia de duas trocas.",
+      "fonte": "R07-A: Troca",
+      "natureza": "caso de revisão, não execução de playtest"
+    },
+    {
+      "id": "R07-A-X04",
+      "peca": "Prende + Puxa",
+      "tipo": "interface",
+      "cenario": "O mesmo feitiço aplica Puxa e Prende após falha do alvo.",
+      "resultado_esperado": "Resolver deslocamento até a posição final válida e depois a proibição de movimento voluntário.",
+      "fonte": "R07-A: Prende/Puxa",
+      "natureza": "caso de revisão, não execução de playtest"
+    }
+  ]
+}

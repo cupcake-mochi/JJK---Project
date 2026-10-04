@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "sha256_texto": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
+  "verificacoes": 55,
+  "evidencias": [
+    "AUDITORIA.json",
+    "BALANCEAMENTO-POR-NIVEL.json",
+    "REVISAO-INDEPENDENTE-FINAL-MAXIMA.json",
+    "../INTERFACES.json"
+  ]
+}
