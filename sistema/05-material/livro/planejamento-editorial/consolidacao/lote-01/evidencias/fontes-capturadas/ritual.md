@@ -44,7 +44,7 @@ Você precisa ter energia para o custo sem desconto de Ritual e para essa penali
 
 ## Treino e prática
 
-Para alguém treinado, Inteligência e maestria aparecem nos dois lados da conta. Destreza e especialização melhoram a chance. Sem treino, a maestria permanece na CD, mas não entra na rolagem: a diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4, enquanto não houver um limite de probabilidade atingido.
+Para alguém treinado, Inteligência e maestria aparecem nos dois lados da conta. Destreza e especialização melhoram a chance. Sem treino, a maestria permanece na CD, mas não entra na rolagem.
 
 <!-- page:rit-recitar|Recitação Prolongada -->
 # Recitação Prolongada

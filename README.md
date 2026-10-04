@@ -7,7 +7,7 @@
 
 ## Livro reconstruído — candidata revisada em 4 de outubro de 2026
 
-A reconstrução editorial está concluída para revisão do autor e preserva o manual v0.331 acima. A candidata reúne 382 páginas, 21 capítulos e seis Caminhos. A revisão de 04/10 aplicou correções de remissão, decisões do autor sobre regras de interface e retirou tabelas de bastidor que não servem ao jogador.
+A reconstrução editorial está concluída para revisão do autor e preserva o manual v0.331 acima. A candidata reúne 382 páginas, 21 capítulos e seis Caminhos. A revisão de 04/10 aplicou correções de remissão, decisões do autor sobre regras de interface e retirou tabelas e contas de bastidor que não servem ao jogador.
 
 - [PDF, manuscritos e instruções](sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/LEIA-ME.md)
 - [ZIP completo](sistema/05-material/livro/planejamento-editorial/entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip)

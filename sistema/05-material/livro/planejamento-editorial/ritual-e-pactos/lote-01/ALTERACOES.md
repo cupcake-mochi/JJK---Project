@@ -257,3 +257,11 @@ Candidata de 03/10/2026. E: edição textual. M: mudança ou fechamento mecânic
 **Depois:** Somam à quantidade inicial antes da divisão; derivados permitidos usam essa base, sem multiplicar bônus inteiro por tiro.
 
 **Motivo:** Completa RI-02: exceção tem cálculo reproduzível e continua limitada pelo número de tiros/alvos da ficha.
+
+## RP-33 — retirada a pedido do autor
+
+**Antes:** Sem treino, a maestria permanece na CD, mas não entra na rolagem: a diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4, enquanto não houver um limite de probabilidade atingido.
+
+**Depois:** Sem treino, a maestria permanece na CD, mas não entra na rolagem.
+
+**Motivo:** Pedido do autor em 04/10/2026 ("Pode remover, qualquer coisa semelhante tbm"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.

@@ -755,7 +755,7 @@ Mei monta **Fenda de Arrasto**, na faixa 17 a 20: Projétil (0), Passo (1, Alcan
 
 > **Na ficha:** Ação Completa e 25 PE. Um alvo a até 18 m. Ataque de conjuração. No acerto, causa 24d8 e move o alvo até 6 m numa direção permitida. Passo concede a Mei um deslocamento de até 6 m antes ou depois da resolução, sem ataques de oportunidade. É o deslocamento específico de Passo: não devolve a Ação de Movimento consumida. O Selo continua necessário.
 
-O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado. Os 24d8 causam média de 108 de dano. Role os dados normalmente.
+O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado.
 
 ## Aplicação sem dano
 

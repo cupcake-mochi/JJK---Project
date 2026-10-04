@@ -1,5 +1,5 @@
 {
-  "manuscrito_sha256": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
+  "manuscrito_sha256": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
   "fontes": [
     "R06 tabela Pontos e preços / Feitiços conhecidos",
     "R09 Canalizar",
@@ -3927,7 +3927,7 @@
   ],
   "ok": true,
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59"
+    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6"
   },
   "checks": [
     {
@@ -4006,7 +4006,7 @@
         },
         {
           "id": "rota-sem-tecnica",
-          "palavras": 315
+          "palavras": 318
         },
         {
           "id": "rota-sementes",

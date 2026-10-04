@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
+  "sha256_pdf_vigente": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -51,7 +51,7 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "055733f535d6975391da4242b7b7324218bd5ca3252e40e314710f172f92d0c3",
+      "sha256": "e65ea0bc0ae073ba7e7c269263d578a4892cff3d9441c34c7ece9d3704b29cf6",
       "bytes": 9961
     },
     {
@@ -199,6 +199,15 @@
     ],
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Fechamento da cadeia de evidência do livro de 382 páginas (item 2 da fila). O auditor global V15 exige que o manifesto indexe texto, PDF individual, VALIDADORES e CONFERENCIA com os hashes atuais; o fechamento da integração de 03/10 tinha tirado os PDFs individuais do índice.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_04_quarta_passada": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Quarta passada de 04/10/2026 (D18 a D24): Expressão da técnica na Sem Técnica e contas de projetista retiradas, ou registro que acompanha o livro regerado (VALIDADORES aponta para o PDF vigente).",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

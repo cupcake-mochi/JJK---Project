@@ -1,10 +1,11 @@
 # Correções aplicadas — antes, depois e motivo
 
-Correções feitas em 04/10/2026 a partir da revisão das interfaces (`ACHADOS.md`), em duas passadas.
+Correções feitas em 04/10/2026 a partir da revisão das interfaces (`ACHADOS.md`), em quatro passadas.
 
 - **Primeira passada (C01 a C14):** só o que diverge de um nome, custo ou remissão já aprovado em outro capítulo. Nenhuma inventa número, e todas alinham um capítulo com outro que já dizia a coisa certa. **Seis delas mudam o que acontece na mesa** para quem lia só o capítulo corrigido: C01, C07, C09, C10, C13 e C14. Cada uma traz uma linha "Muda na mesa". As outras treze são só texto.
 - **Contra a `v0.331` dos jogadores, só a C14 muda regra.** As outras cinco devolvem o que a `v0.331` já dizia, por exemplo `manual/50-equipamento.md`, linha 230 (C07), `manual/60-invocacoes.md`, linha 523 (C10), e `manual/42-tecnica-marcial.md`, linha 52 (C09), ou só trocam o nome de um contador que não existia (C01). O "Muda na mesa" de cada uma compara com a candidata de antes desta revisão. A comparação com a `v0.331` é da thread "Mudanças de mecânica no livro".
 - **Segunda passada (D01 a D03c e EQ25):** quatro regras que o Mizuki decidiu no mesmo dia. Essas mudam regra, e a decisão dele vai citada em cada uma.
+- **Terceira e quarta passadas (D05 a D24):** mais decisões do Mizuki, os verbetes que faltavam no índice e a retirada das contas de projetista que ele pediu. Cada uma cita a decisão e diz o que muda na mesa.
 
 O mesmo conteúdo, com o hash de cada fonte antes e depois, está em `CORRECOES-APLICADAS.json`. Caminhos relativos ao planejamento editorial.
 
@@ -18,6 +19,8 @@ O mesmo conteúdo, com o hash de cada fonte antes e depois, está em `CORRECOES-
 - **Páginas da D04:** comparadas com o PDF da segunda passada, mudaram só as páginas 96 a 99, no fim da Vanguarda, porque a frase nova empurrou o texto. O livro continua com 384 páginas, e `conferir_livro.py` passou de novo com 3497 checagens e 508 links.
 - **Terceira passada (D05 a D17):** o livro foi regerado com 382 páginas e 509 blocos (saiu a página Ritmo de campanha), PDF `633f85ae…`. `conferir_livro.py` passou com 3503 checagens e 526 links (os 18 verbetes novos do índice somam links). Comparado com o PDF da D04 pelo corpo da página, sem cabeçalho e rodapé: 186 páginas idênticas na mesma posição, 108 idênticas que só mudaram de posição ou de número no rodapé, e 88 com corpo diferente. Destas, 68 têm texto que andou (Dano 48 a 55, Vanguarda 96 a 98, Incursor 148, Equipamento 176 a 185 e 205, Progressão 211 a 218, Aptidões 265 a 276, Rotas 279 a 294 e índice 373 a 382) e 20 só mudaram números de página nas remissões. As 88 foram abertas: nenhum corte, sobreposição ou título solto. Registro em `../consolidacao/lote-01/evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json`. O texto extraído do PDF não tem mais nenhum dos trechos retirados e tem cada "depois".
 - **Gerador do livro e índice:** o gerador lê `consulta/lote-01/evidencias/DESTINOS.json`, uma segunda cópia do mapa do índice. Os 18 verbetes novos ficaram de fora dela na primeira tentativa, e o modo estrito parou com 18 destinos pendentes. A cópia foi sincronizada, e o auditor da Consulta passou a comparar as duas. Testes negativos desta passada em `evidencias/perturbacao-terceira-passada.txt`.
+- **Quarta passada (D18 a D24):** livro regerado com 382 páginas e 509 blocos, PDF `bceea2d7…`. `conferir_livro.py` passou com 3503 checagens e 526 links. Comparado com o PDF da terceira passada: 374 páginas idênticas na mesma posição e 8 com corpo diferente (210, 217, 238, 239, 284, 303, 307 e 328). A 239 só recebeu texto que subiu da 238. As 8 foram abertas: nenhum corte, sobreposição ou título solto. Registro em `../consolidacao/lote-01/evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json`. O texto extraído do PDF não tem mais nenhum trecho retirado e tem cada "depois". Nos capítulos, mudaram 7 páginas de unidade, todas abertas. Testes negativos do auditor da Progressão em `evidencias/perturbacao-quarta-passada.txt`.
+- **Cotejos da quarta passada:** Consulta, Fabricação e Construir invocações travam quando um capítulo de que dependem muda. Os diffs foram lidos e registrados (`FONTES-CANDIDATAS.json`, `fontes-concorrentes.json` e `fontes-concorrentes-finais.json`): nenhum desses capítulos reproduz os trechos retirados.
 - **Inspeção:** todas as páginas mudadas nas duas passadas foram abertas uma a uma: nenhum corte de texto, sobreposição ou título órfão no pé da página. A página 334 fecha Invocações em campo com cerca de 40% de texto, o que é normal no fim de capítulo.
 - **Texto do PDF:** os termos removidos ("Restringido", "Restrição Único", "Montagem de entidades", "até haver espaço") não aparecem mais, e cada "depois" abaixo aparece no texto extraído.
 - **Links:** os destinos internos do PDF foram conferidos pelo `conferir_livro.py`; nenhum destino ficou pendente.
@@ -334,7 +337,7 @@ Achado: G5-02. Mizuki: opção B.
 - Retirado de Talentos marciais: "Calo — Livre" e seu parágrafo.
 - Técnica Marcial, passo 1, antes: Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.
 - Depois: Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** pelo procedimento de Fundamento.
-- Muda na mesa: Calo deixa de existir. O personagem marcial tem a Expressão da técnica do Fundamento, que também não tem efeito mecânico. Sem Técnica não recebeu frase nova; fica para o Mizuki confirmar.
+- Muda na mesa: Calo deixa de existir. O personagem marcial tem a Expressão da técnica do Fundamento, que também não tem efeito mecânico. Sem Técnica não recebeu frase nova; fica para o Mizuki confirmar. Confirmado depois: D18.
 
 ### G5-10 · sem mudança
 
@@ -356,6 +359,33 @@ Pedido: "remova essas informações que são completamente desnecessárias para 
 - D16, Progressão, Ganhos de Leque: saiu "Escolher Leque em todos os sete marcos termina em sete aplicações adicionais e sete Talentos concedidos, além do repertório comum." O exemplo do nível 6 ficou.
 - D17, Rotas, Lapidação: saiu "Quem escolhe Lapidação em todos os marcos… Quem nunca a escolhe termina em Lapidação 8…". A regra do teto ficou.
 - Muda na mesa: nada. São projeções, não regras.
+
+## Quarta passada: Sem Técnica e contas de projetista
+
+Em 04/10/2026, o Mizuki confirmou que Sem Técnica também anota a Expressão da técnica e pediu para tirar as duas frases de bastidor da Progressão, "e qualquer coisa semelhante". Cada unidade tocada ganhou a entrada no seu `ALTERACOES` (R10-36, PRO41, PRO42, RP-33, R08-34, FU-57 e R11-52).
+
+### D18 · rotas/lote-01/ROTAS.md
+
+Fecha a pendência deixada pela D12. Mizuki: "Sim ele pode anotar".
+
+- Sem Técnica, passo 3, antes: Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.
+- Depois: Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento.
+- Muda na mesa: o personagem Sem Técnica escreve uma Expressão da técnica, como a Técnica Marcial. Ela não tem efeito mecânico.
+- Contra a `v0.331`: devolve o que ela já dizia. `livro/manual/43-sem-tecnica.md`, linha 103, dá a Passiva Livre de graça na Sem Técnica, e Passiva Livre é o nome antigo da Expressão da técnica.
+
+### D19 a D24 · contas de projetista retiradas
+
+Critério usado na varredura das 23 fontes: sai a frase que só mostra uma conta de projeto sobre a regra (total acumulado, tempo de campanha, média de dano, diferença de probabilidade) e não muda o que o jogador faz na mesa. Fica o que o jogador usa para decidir ou para seguir um exemplo.
+
+- D19, Progressão, Subir de nível: saiu "Partindo do nível 2, chegar ao 20 exige 14.300 XP gastos. Do 20 ao 30, são mais 16.400, totalizando 30.700 XP. O feito do limiar e o limite de um avanço por missão continuam necessários." O limite de um avanço por missão continua no começo do capítulo, e o feito do limiar na página dele.
+- D20, Progressão, Recompensa por mestrar: saiu "A frequência esperada desse bônus é X dividido pela média de missões mestradas por mês" e o exemplo "Com X igual a 12… uma marca leva cerca de quatro meses…". A regra da marca ficou.
+- D21, Ritual, Treino e prática: saiu ": a diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4…". Ficou "Sem treino, a maestria permanece na CD, mas não entra na rolagem."
+- D22, Poderes avançados, exemplo da Galeria de Vidro: saiu "A média bruta é 108, distribuída no tempo e antes das defesas."
+- D23, Fundamento, exemplo Fenda de Arrasto: saiu "Os 24d8 causam média de 108 de dano. Role os dados normalmente."
+- D24, Invocações em campo, exemplo da Máxima da domada: "Uma Forma de cura usa 19d8, com média de 85,5 PV antes dos limites aplicáveis." virou "Uma Forma de cura usa 19d8."
+- Ficaram, de propósito: a tabela de custo por nível e a frase que explica que ela não mostra XP acumulado (Progressão), o "65% de chance" do exemplo de Ritual (é o que o jogador pesa antes de tentar), os 77 PE do exemplo de Aptidões (custo que ele vai pagar), a média de 14d8 no exemplo da Sala de Trégua (explica por que o exemplo usa 63 fixo) e a coluna "Efeito esperado" dos graus de ferramenta (descreve o que cada grau entrega).
+- Muda na mesa: nada. São contas, não regras.
+- O auditor da Progressão conferia a presença de "14.300" no texto. Agora confere uma linha da tabela de custo (a curva continua conferida linha a linha) e acusa se o total ou o prazo voltarem.
 
 ## Validador editorial
 

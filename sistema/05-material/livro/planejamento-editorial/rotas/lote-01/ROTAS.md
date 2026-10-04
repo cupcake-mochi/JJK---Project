@@ -228,7 +228,7 @@ Escolha Sem Técnica entre as opções permitidas por **Origens e Legados**. Est
 
 1. Escolha uma das [sementes](#rota-sementes). A escolha é permanente.
 2. Escreva uma Descrição que mostre como você desenvolveu essa aptidão.
-3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.
+3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento.
 4. Escolha as Famílias e monte seus Manejos.
 
 A **Regra** explica uma aplicação da semente. Domínio Simples pode sustentar um estilo de contenção próximo de você. Energia Reversa pode sustentar um estilo de cura. Transformar a semente em fogo, viagem no tempo ou leitura de memória exigiria um funcionamento que ela não fornece.

@@ -287,7 +287,7 @@ Este domínio pertence a uma técnica que cria lâminas de vidro a partir de sup
 
 Yuri começa o turno ao lado de uma aliada e estabelece o contato antes de abrir. Paga 24 PE. Um adversário recebe o primeiro Acerto; a aliada permanece protegida. Nos dois turnos seguintes, Yuri resolve outro Acerto no começo e age normalmente. Seus feitiços com custo positivo recebem desconto de 2 PE.
 
-A barreira tem **100 PV exteriores**. Se ela durar até o fim do segundo turno seguinte, serão três aplicações, totalizando 24d8 por criatura que tenha recebido todas. A média bruta é 108, distribuída no tempo e antes das defesas. Encerrar antes reduz esse total e inicia Rescaldo da mesma maneira.
+A barreira tem **100 PV exteriores**. Se ela durar até o fim do segundo turno seguinte, serão três aplicações, totalizando 24d8 por criatura que tenha recebido todas. Encerrar antes reduz esse total e inicia Rescaldo da mesma maneira.
 
 <!-- page:salatregua|Sala de Trégua -->
 # Sala de Trégua

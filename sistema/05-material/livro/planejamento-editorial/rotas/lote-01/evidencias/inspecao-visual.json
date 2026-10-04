@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "2e23d140c0f389d5d1ee420a53781d133be7c159354ad899f27190a0b45f43b5",
+  "sha256_pdf": "c0d1ad3f885f0b2e27edd4e5a3166dba0ca4eba5d8a66e02a6ef956db760921b",
   "revisor": "/root/rotas_didatica",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "sha256_pdf_anterior": "730e0c332b656fc621056d13553fd402e628053ba93f7981903b37dcec248ad6",
@@ -67,8 +67,11 @@
     {
       "pagina": 10,
       "resultado": "sem defeito visual observado",
-      "metodo": "imagem atual aberta e inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-10.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null,
+      "observacoes": "Sem Técnica com a Expressão da técnica no passo 3; lista de criação, link (p. 11) e Semente e Manejos inteiros.",
+      "sha256_png": "a76da3c7d095460badef901b838628eeabf9e4b5f2cbfad706bff19d9e82275a",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
     },
     {
       "pagina": 11,
@@ -176,6 +179,16 @@
       16
     ],
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_pdf_anterior": "2e23d140c0f389d5d1ee420a53781d133be7c159354ad899f27190a0b45f43b5",
+    "sha256_pdf_atual": "c0d1ad3f885f0b2e27edd4e5a3166dba0ca4eba5d8a66e02a6ef956db760921b",
+    "paginas_alteradas": [
+      10
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }

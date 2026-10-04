@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
+  "sha256_texto": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372",
   "revisor": "Agente principal (autoria) e compatibilidade (revisão independente, correções RP25–RP32 e releitura das interfaces alteradas).",
   "teste_humano": false,
   "secoes": [
@@ -79,5 +79,21 @@
     "revisor": "/root",
     "diff": "consolidacao/lote-01/migracao-nomes/diffs/ritual.diff",
     "conclusao": "Diff completo lido. Preços, ações, limites, acesso e efeitos permanecem iguais. Mudam categoria, nomes e concordância gramatical."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
+    "sha256_atual": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372",
+    "mudancas": [
+      {
+        "codigo": "D21",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "rit-teste",
+        "antes": "Sem treino, a maestria permanece na CD, mas não entra na rolagem: a diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4, enquanto não houver um limite de probabilidade atingido.",
+        "depois": "Sem treino, a maestria permanece na CD, mas não entra na rolagem."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisão do autor sobre a Expressão da técnica na rota Sem Técnica ou retirada de contas de projetista pedida por ele em 04/10/2026. Nenhuma frase nova além do passo 3 de Sem Técnica; as retiradas não deixam remissão órfã. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

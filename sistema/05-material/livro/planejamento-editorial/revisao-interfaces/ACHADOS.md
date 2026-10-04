@@ -24,6 +24,8 @@ Na terceira passada, também em 04/10, ele decidiu mais 9 (G1-02, G1-05, G1-07, 
 
 No mesmo lote, a pedido do Mizuki, saíram do livro do jogador as projeções de projetista (D14 a D17). Elas não eram achados desta revisão.
 
+Numa quarta passada, ele confirmou que Sem Técnica também registra a Expressão da técnica (D18, pendência deixada pela D12) e pediu para tirar as outras contas de projetista do mesmo tipo (D19 a D24): total de XP acumulado, prazo da marca de mestre, diferença de probabilidade do Ritual e três médias de dano em exemplos.
+
 O antes, o depois e o motivo de cada correção estão em `CORRECOES-APLICADAS.md`.
 
 ## O que precisa do Mizuki
@@ -37,7 +39,6 @@ Ordenado pelo peso em mesa. As decisões de 04/10 já estão aplicadas e saíram
 5. **G5-05 e G5-07 · Alinhar Construir invocações e Condições a FU-27 e FU-26.** As duas decisões do Fundamento constam como candidatas; falta o Mizuki confirmar que os outros capítulos as seguem.
 6. **G3-02, G3-06, G2-10, G4-11 e G1-04 · Ajustes pequenos.** "Uma vez por turno seu" fora do turno, o termo de arremesso de Trajetória Perfeita, os dois sentidos de "reserva", as escolhas do Traje na criação e onde ficam as regras de derrota dos inimigos.
 
-Fora do quadro: com o Calo retirado, falta confirmar se Sem Técnica também registra a Expressão da técnica.
 
 Os casos de mesa que medem as lacunas abertas estão nos casos-sonda de `../testes-com-leitores/CASOS-SONDA.md`.
 

@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "04daa30d72ca2fda9268b0b9ed1e558aae52cc8149eb828e854134ded38c515d",
+  "sha256_pdf": "758cd481c90034de718cc4550847173f6f7ed2fc2363e617191df14af455de64",
   "revisor": "/root",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "sha256_pdf_anterior": "6b25769360dbf54652b762880cfebcebdd61be30f6d8aa666ee35465d083c8b3",
@@ -139,8 +139,11 @@
     {
       "pagina": 23,
       "resultado": "sem defeito visual observado",
-      "metodo": "pixels idênticos à prova inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-23.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null,
+      "observacoes": "Exemplo da Máxima da domada sem a média de cura; tabela de faixas inteira.",
+      "sha256_png": "5e07893d9f9b21f196624343e9c88f6c1c22d39208b684c433fae3c1edd7ed0e",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
     },
     {
       "pagina": 24,
@@ -204,5 +207,15 @@
       7,
       20
     ]
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_pdf_anterior": "04daa30d72ca2fda9268b0b9ed1e558aae52cc8149eb828e854134ded38c515d",
+    "sha256_pdf_atual": "758cd481c90034de718cc4550847173f6f7ed2fc2363e617191df14af455de64",
+    "paginas_alteradas": [
+      23
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

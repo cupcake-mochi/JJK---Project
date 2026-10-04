@@ -534,3 +534,7 @@ Os detalhes e âncoras de substituição das rotas estão em [sincronizações](
 ## FU-56 — Exceção ofensiva de Cura
 
 A referência genérica a outras capacidades agora indica Energia Reversa e Ferir maldições, em Aptidões. Nenhum número mudou. A regra completa continua no dono.
+
+## FU-57 — Média de dano no exemplo de Máxima
+
+Saiu do exemplo Fenda de Arrasto: "Os 24d8 causam média de 108 de dano. Role os dados normalmente." Pedido do autor de 04/10/2026, contas de projetista fora do livro do jogador. Nenhum número de regra mudou.

@@ -48,8 +48,6 @@ A tabela informa quanto custa **sair do nível atual**. Ela não mostra o XP acu
 | 23–29 | 1.700 |
 | 30 | Não há outro nível. |
 
-Partindo do nível 2, chegar ao 20 exige **14.300 XP gastos**. Do 20 ao 30, são mais **16.400**, totalizando **30.700 XP**. O feito do limiar e o limite de um avanço por missão continuam necessários.
-
 Uma linha de missões paga por missão concluída. Quem entra no meio recebe pelo que jogar. Dividir artificialmente uma mesma missão em vários registros não cria novas recompensas: vale a divisão anunciada antes das sessões.
 
 <!-- page:prog-semana|Experiência semanal -->
@@ -292,9 +290,7 @@ Divida os três quartos restantes igualmente pelo número exigido, até completa
 
 Prefira um registro separado da experiência da ficha. A guilda pode conceder uma moeda própria, recursos ou um bônus a cada quantidade anunciada de missões mestradas.
 
-Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois em outro Grau. A frequência esperada desse bônus é **X dividido pela média de missões mestradas por mês**.
-
-**Exemplo.** Com X igual a 12 e média de três missões mestradas por mês, uma marca leva cerca de quatro meses. A campanha escolhe X; o exemplo não fixa essa quantidade como regra geral.
+Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois em outro Grau.
 
 <!-- page:prog-patentes|Patentes -->
 # Patentes

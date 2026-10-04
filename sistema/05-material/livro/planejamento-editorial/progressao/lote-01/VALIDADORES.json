@@ -1,6 +1,6 @@
 {
   "unidade": "R21 — Experiência e Progressão",
-  "sha256_texto": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+  "sha256_texto": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
   "estado": "Candidata com leitura independente, PDF e inspeção visual concluídos. Interfaces serão reconferidas na consolidação.",
   "validadores": [
     {
@@ -383,9 +383,25 @@
       "revisao-interfaces/CORRECOES-APLICADAS.md"
     ],
     "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-    "sha256_pdf_vigente": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
+    "sha256_pdf_vigente": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
     "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   },
-  "sha256_pdf": "8151326e194c5f251ee98aaa88f5f2d57ea99cdd3e58078afcba7632a0a1bd0b"
+  "sha256_pdf": "767f76b38b7b3a7e7365c95c84f178796585db13f72338aa838d8fc1118c5819",
+  "revalidacao_2026_10_04_quarta_passada": {
+    "sha256_texto_anterior": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+    "sha256_pdf_anterior": "8151326e194c5f251ee98aaa88f5f2d57ea99cdd3e58078afcba7632a0a1bd0b",
+    "sha256_texto": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
+    "sha256_pdf": "767f76b38b7b3a7e7365c95c84f178796585db13f72338aa838d8fc1118c5819",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 110
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "escopo": "Quarta passada de 04/10/2026 (D18 a D24). V01–V12 seguem as revisões registradas, renovadas por delta no bloco revisao_delta_2026_10_04_quarta_passada das evidências da unidade e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

@@ -108,6 +108,20 @@ O Mizuki decidiu mais nove achados e pediu para tirar do livro do jogador as pro
 
 Os nomes de G5-10 ficaram como estão, sem migração.
 
+### Quarta passada de 04/10/2026
+
+O Mizuki confirmou a Expressão da técnica na Sem Técnica e pediu para tirar as outras contas de projetista (`../revisao-interfaces/CORRECOES-APLICADAS.md`, D18 a D24):
+
+| Decisão | Na candidata | Onde a v0.331 tem a forma antiga |
+|---|---|---|
+| Sem Técnica registra a Expressão da técnica | R10-36 | nenhum: `livro/manual/43-sem-tecnica.md`, linha 103, já dava a Passiva Livre de graça, que é o nome antigo da Expressão da técnica. A candidata volta a dizer isso |
+| Total de XP até os níveis 20 e 30 fora do livro do jogador | PRO41 | `livro/manual/80-experiencia-e-progressao.md`, linha 38 (e a tabela de meses, linhas 94 a 122) |
+| Prazo da marca de mestre fora do livro do jogador | PRO42 | `livro/manual/80-experiencia-e-progressao.md`, linha 174 |
+| Diferença de probabilidade sem treino fora do Ritual | RP-33 | `livro/manual/46-ritual.md`, linha 45 ("uns 14 pontos percentuais") |
+| Médias de dano e cura fora de três exemplos | R08-34, FU-57, R11-52 | exemplos da candidata; par direto na v0.331 não conferido |
+
+As peças de `sistema/03-mecanica/` são documentos de projeto e podem manter essas contas. Os capítulos de `livro/manual/` são do jogador e seguem a candidata.
+
 ## Ordem proposta
 
 Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`, `pac7.py`, `v7.py` e o `conferir-repositorio.py`, com `PULADA=0` conferido) e uma entrada no CHANGELOG. Um passo por versão, para a bateria apontar o culpado quando quebrar.

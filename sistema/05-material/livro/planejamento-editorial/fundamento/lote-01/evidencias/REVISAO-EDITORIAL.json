@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+  "sha256_texto": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
   "revisor": "Agente principal, após três auditorias independentes por modelos",
   "teste_humano": false,
   "limites": "Leitura editorial documentada não demonstra compreensão de jogadores reais. Relatórios de agentes registram snapshots anteriores e suas ressalvas.",
@@ -139,5 +139,21 @@
     "registro": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Só remissões: nenhum custo, requisito, efeito, número ou título mudou. Leitura integral anterior preservada para o restante do texto, que é idêntico."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+    "sha256_atual": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+    "mudancas": [
+      {
+        "codigo": "D23",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "maximadano",
+        "antes": "Os 24d8 causam média de 108 de dano. Role os dados normalmente.",
+        "depois": ""
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisão do autor sobre a Expressão da técnica na rota Sem Técnica ou retirada de contas de projetista pedida por ele em 04/10/2026. Nenhuma frase nova além do passo 3 de Sem Técnica; as retiradas não deixam remissão órfã. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

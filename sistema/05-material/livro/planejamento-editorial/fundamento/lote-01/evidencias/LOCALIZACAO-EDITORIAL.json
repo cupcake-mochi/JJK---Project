@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+  "sha256_texto": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -33,5 +33,21 @@
     "registro": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Desfazendo as 1 trocas registradas, o texto volta exatamente ao hash anterior; não há outra diferença. Cada linha trocada foi lida no contexto: a remissão aponta a seção onde a frase está ou um título existente do capítulo. Títulos, seções e número de linhas não mudaram. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual; os achados brutos são os mesmos nos dois (mesmo código, termo e trecho), e as exceções de vocabulário continuam na mesma linha."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+    "sha256_atual": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+    "mudancas": [
+      {
+        "codigo": "D23",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "maximadano",
+        "antes": "Os 24d8 causam média de 108 de dano. Role os dados normalmente.",
+        "depois": ""
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. A única frase nova (passo 3 de Sem Técnica) cita o procedimento de Fundamento pelo nome, como o passo 1 da Técnica Marcial. Nenhuma exceção de vocabulário depende de linha nesta unidade."
   }
 }

@@ -28,11 +28,20 @@
    "sem_cobertura": []
   },
   {
-   "versao": "atual",
+   "versao": "a306c26",
    "rodada": "terceira passada (D05–D17)",
    "paginas": 382,
    "herdadas_por_corpo_identico": 294,
    "cobertas_pela_inspecao_da_rodada": 88,
+   "listadas_mas_corpo_identico": [],
+   "sem_cobertura": []
+  },
+  {
+   "versao": "atual",
+   "rodada": "quarta passada (D18–D24)",
+   "paginas": 382,
+   "herdadas_por_corpo_identico": 374,
+   "cobertas_pela_inspecao_da_rodada": 8,
    "listadas_mas_corpo_identico": [],
    "sem_cobertura": []
   }
@@ -1084,9 +1093,9 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "210": {
-   "origem": "V14 completa de 03/10",
+   "origem": "quarta passada (D18–D24)",
    "pagina_origem": 210,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa"
   },
   "211": {
    "origem": "terceira passada (D05–D17)",
@@ -1119,9 +1128,9 @@
    "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
   },
   "217": {
-   "origem": "terceira passada (D05–D17)",
+   "origem": "quarta passada (D18–D24)",
    "pagina_origem": 217,
-   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+   "pdf_origem": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa"
   },
   "218": {
    "origem": "terceira passada (D05–D17)",
@@ -1224,14 +1233,14 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "238": {
-   "origem": "terceira passada (D05–D17)",
+   "origem": "quarta passada (D18–D24)",
    "pagina_origem": 238,
-   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+   "pdf_origem": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa"
   },
   "239": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 240,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "quarta passada (D18–D24)",
+   "pagina_origem": 239,
+   "pdf_origem": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa"
   },
   "240": {
    "origem": "V14 completa de 03/10",
@@ -1454,9 +1463,9 @@
    "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
   },
   "284": {
-   "origem": "terceira passada (D05–D17)",
+   "origem": "quarta passada (D18–D24)",
    "pagina_origem": 284,
-   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+   "pdf_origem": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa"
   },
   "285": {
    "origem": "terceira passada (D05–D17)",
@@ -1549,9 +1558,9 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "303": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 305,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "quarta passada (D18–D24)",
+   "pagina_origem": 303,
+   "pdf_origem": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa"
   },
   "304": {
    "origem": "V14 completa de 03/10",
@@ -1569,9 +1578,9 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "307": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 309,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "quarta passada (D18–D24)",
+   "pagina_origem": 307,
+   "pdf_origem": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa"
   },
   "308": {
    "origem": "V14 completa de 03/10",
@@ -1674,9 +1683,9 @@
    "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
   },
   "328": {
-   "origem": "segunda passada (D01–D03c)",
-   "pagina_origem": 330,
-   "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
+   "origem": "quarta passada (D18–D24)",
+   "pagina_origem": 328,
+   "pdf_origem": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa"
   },
   "329": {
    "origem": "segunda passada (D01–D03c)",

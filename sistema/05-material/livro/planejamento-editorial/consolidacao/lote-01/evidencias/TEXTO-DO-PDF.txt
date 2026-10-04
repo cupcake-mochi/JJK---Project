@@ -8261,8 +8261,6 @@ Nível atual XP para o próximo
 20–22 1.500
 23–29 1.700
 30 Não há outro nível.
-Partindo do nível 2, chegar ao 20 exige 14.300 XP gastos. Do 20 ao 30, são mais 16.400, totalizando
-30.700 XP. O feito do limiar e o limite de um avanço por missão continuam necessários.
 Uma linha de missões paga por missão concluída. Quem entra no meio recebe pelo que jogar. Dividir
 artificialmente uma mesma missão em vários registros não cria novas recompensas: vale a divisão
 anunciada antes das sessões.
@@ -8547,10 +8545,7 @@ Recompensa por mestrar
 Prefira um registro separado da experiência da ficha. A guilda pode conceder uma moeda própria,
 recursos ou um bônus a cada quantidade anunciada de missões mestradas.
 Se escolher uma mensalidade extra a cada X missões, a marca fecha ao completar X e usa o Grau daquele
-momento. Não guarde uma marca concluída para cobrar depois em outro Grau. A frequência esperada
-desse bônus é X dividido pela média de missões mestradas por mês.
-Exemplo. Com X igual a 12 e média de três missões mestradas por mês, uma marca leva cerca de quatro
-meses. A campanha escolhe X; o exemplo não fixa essa quantidade como regra geral.
+momento. Não guarde uma marca concluída para cobrar depois em outro Grau.
 Patentes
 A patente registra o reconhecimento do personagem pela instituição. O Projeto M usa os Graus 4, 3, 2, 1
 e Especial, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a
@@ -9394,8 +9389,7 @@ Na ficha: Ação Completa e 25 PE. Um alvo a até 18 m. Ataque de conjuração. 
 o alvo até 6 m numa direção permitida. Passo concede a Mei um deslocamento de até 6 m antes ou depois da
 resolução, sem ataques de oportunidade. É o deslocamento específico de Passo: não devolve a Ação de
 Movimento consumida. O Selo continua necessário.
-O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado. Os 24d8 causam média de 108
-de dano. Role os dados normalmente.
+O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado.
 Aplicação sem dano
 Você pode registrar a Máxima sem dano nem cura. Descartar os dados não devolve pontos e não concede
 automaticamente o bônus de Controle dos feitiços comuns. A capacidade precisa ter uma função que
@@ -9418,11 +9412,11 @@ nem prolonga automaticamente uma duração própria. Inescapável dispensaria as
 formas normais de resistir ao dano.
 Armado e Segura Não podem preparar ou adiar uma Técnica Máxima. Sua ação e sua recarga
 pertencem ao uso que resolve o efeito.
+Rajada e Mais Um Dividem os dados entre os ataques ou alvos, sem copiar a quantidade.
 CANDIDATA EDITORIAL • BASE v0.331 238
 
 PROJETO - M FUNDAMENTO
 Peça ou efeito Uso na Máxima
-Rajada e Mais Um Dividem os dados entre os ataques ou alvos, sem copiar a quantidade.
 Junto Reparte a cura ou outro benefício quantitativo compatível; não duplica bônus ou
 condições.
 Certeiro No erro final, causa metade dos dados daquele ataque, arredondada para baixo,
@@ -11249,7 +11243,7 @@ Ritual.
 Criação
 1. Escolha uma das sementes (p. 285). A escolha é permanente.
 2. Escreva uma Descrição que mostre como você desenvolveu essa aptidão.
-3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.
+3. Defina sua Regra, atributo, Selo e Expressão da técnica pelo procedimento de Fundamento.
 CANDIDATA EDITORIAL • BASE v0.331 284
 
 PROJETO - M ROTAS DE CRIAÇÃO
@@ -12011,8 +12005,8 @@ adversário recebe o primeiro Acerto; a aliada permanece protegida. Nos dois tur
 resolve outro Acerto no começo e age normalmente. Seus feitiços com custo positivo recebem desconto
 de 2 PE.
 A barreira tem 100 PV exteriores. Se ela durar até o fim do segundo turno seguinte, serão três aplicações,
-totalizando 24d8 por criatura que tenha recebido todas. A média bruta é 108, distribuída no tempo e antes
-das defesas. Encerrar antes reduz esse total e inicia Rescaldo da mesma maneira.
+totalizando 24d8 por criatura que tenha recebido todas. Encerrar antes reduz esse total e inicia Rescaldo
+da mesma maneira.
 Sala de Trégua
 Esta criação pertence a uma técnica que interrompe a transmissão de impacto entre corpos. Seu domínio
 oferece tempo para negociar, prestar socorro ou preparar uma saída. Ele conserva o risco de ficar sem a
@@ -12124,9 +12118,7 @@ CD é 16 e seu bônus é +8. Ele precisa tirar 8 ou mais: 65% de chance, antes d
 Se falhar, o feitiço de 12 PE custa 16 PE.
 Treino e prática
 Para alguém treinado, Inteligência e maestria aparecem nos dois lados da conta. Destreza e
-especialização melhoram a chance. Sem treino, a maestria permanece na CD, mas não entra na rolagem: a
-diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4, enquanto
-não houver um limite de probabilidade atingido.
+especialização melhoram a chance. Sem treino, a maestria permanece na CD, mas não entra na rolagem.
 Recitação Prolongada
 Dedique uma Ação Completa para começar. Pague o custo do feitiço, escolha os benefícios e mantenha a
 recitação até seu próximo turno. Nesse turno, dedique outra Ação Completa e resolva a conjuração. A
@@ -12982,8 +12974,8 @@ O sucesso num TR reduz o dano em um quarto, pelo procedimento comum da Máxima. 
 cura usa os dados próprios desta tabela. Uma aplicação sem dano exige seu efeito escrito e delimitado
 antes da sessão; não transforma dados em qualquer benefício escolhido no momento.
 Exemplo. A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da
-reserva, quando houver saldo. Uma Forma de cura usa 19d8, com média de 85,5 PV antes dos limites
-aplicáveis. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
+reserva, quando houver saldo. Uma Forma de cura usa 19d8. Uma Máxima pessoal da mesma faixa usa outra
+escala; a domada não recebe esses dados maiores.
 Expansão da domada
 A Expansão usa os procedimentos de Expansão de Domínio, incluindo barreira, duração, Acerto, Efeito,
 sobreposição, oposição e Rescaldo. A domada é quem sustenta o domínio. Estas são suas

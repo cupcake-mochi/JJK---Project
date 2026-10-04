@@ -340,3 +340,21 @@ Não reduza níveis já recebidos para ajustar o ritmo. Mude as recompensas futu
 **Depois:** (retirado)
 
 **Motivo:** Pedido do autor (04/10/2026): retirar do livro do jogador projeções de projetista (tempo de campanha, como o personagem termina seguindo sempre a mesma escolha). A regra do marco fica.
+
+## PRO41 — retirada a pedido do autor
+
+**Antes:** Partindo do nível 2, chegar ao 20 exige **14.300 XP gastos**. Do 20 ao 30, são mais **16.400**, totalizando **30.700 XP**. O feito do limiar e o limite de um avanço por missão continuam necessários.
+
+**Depois:** (retirado)
+
+**Motivo:** Pedido do autor em 04/10/2026 ("Pode remover, qualquer coisa semelhante tbm"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.
+
+## PRO42 — retirada a pedido do autor
+
+**Antes:** A frequência esperada desse bônus é **X dividido pela média de missões mestradas por mês**.
+
+**Exemplo.** Com X igual a 12 e média de três missões mestradas por mês, uma marca leva cerca de quatro meses. A campanha escolhe X; o exemplo não fixa essa quantidade como regra geral.
+
+**Depois:** (retirado)
+
+**Motivo:** Pedido do autor em 04/10/2026 ("Pode remover, qualquer coisa semelhante tbm"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.

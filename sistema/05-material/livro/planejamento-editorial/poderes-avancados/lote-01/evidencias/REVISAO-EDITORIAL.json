@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+  "sha256_texto": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
   "revisor": "Agente maxima, revisão independente rotas_didatica e revisão final de texto pelo principal",
   "teste_humano": false,
   "limites": "Modelos e leitura documental; não teste de compreensão com pessoas. Visual separado e ainda pendente.",
@@ -238,5 +238,21 @@
     "registro": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Só remissões: nenhum custo, requisito, efeito, número ou título mudou. Leitura integral anterior preservada para o restante do texto, que é idêntico."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+    "sha256_atual": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+    "mudancas": [
+      {
+        "codigo": "D22",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "galeriavidro",
+        "antes": "A média bruta é 108, distribuída no tempo e antes das defesas.",
+        "depois": ""
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisão do autor sobre a Expressão da técnica na rota Sem Técnica ou retirada de contas de projetista pedida por ele em 04/10/2026. Nenhuma frase nova além do passo 3 de Sem Técnica; as retiradas não deixam remissão órfã. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

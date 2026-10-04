@@ -2,8 +2,8 @@
   "data": "2026-10-03",
   "ok": true,
   "verificacoes": 233,
-  "sha256_pdf": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
-  "sha256_texto": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+  "sha256_pdf": "fd0add2ef84633eaaaa7b9f6a23151b473ed5374666fe7cf3f20def3aee80689",
+  "sha256_texto": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
   "checks": [
     {
       "verificacao": "Quantidade de páginas e seções",
@@ -1449,8 +1449,8 @@
     },
     {
       "verificacao": "Revisão do texto atual",
-      "obtido": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
-      "esperado": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+      "obtido": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+      "esperado": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
       "ok": true
     },
     {
@@ -1461,8 +1461,8 @@
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
-      "esperado": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
+      "obtido": "fd0add2ef84633eaaaa7b9f6a23151b473ed5374666fe7cf3f20def3aee80689",
+      "esperado": "fd0add2ef84633eaaaa7b9f6a23151b473ed5374666fe7cf3f20def3aee80689",
       "ok": true
     },
     {
@@ -1551,8 +1551,8 @@
     },
     {
       "verificacao": "Cenários usam o manuscrito atual",
-      "obtido": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
-      "esperado": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+      "obtido": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+      "esperado": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
       "ok": true
     },
     {
@@ -1673,7 +1673,7 @@
     },
     {
       "pagina": 25,
-      "final_corpo": 580.22
+      "final_corpo": 566.52
     },
     {
       "pagina": 26,

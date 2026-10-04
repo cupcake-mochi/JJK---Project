@@ -222,5 +222,12 @@
     "antes": "Dados de Recitação declarados após montagem sem destino explícito em Rajada/repetições.",
     "depois": "Somam à quantidade inicial antes da divisão; derivados permitidos usam essa base, sem multiplicar bônus inteiro por tiro.",
     "motivo": "Completa RI-02: exceção tem cálculo reproduzível e continua limitada pelo número de tiros/alvos da ficha."
+  },
+  {
+    "id": "RP-33",
+    "tipo": "retirada a pedido do autor",
+    "antes": "Sem treino, a maestria permanece na CD, mas não entra na rolagem: a diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4, enquanto não houver um limite de probabilidade atingido.",
+    "depois": "Sem treino, a maestria permanece na CD, mas não entra na rolagem.",
+    "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica."
   }
 ]

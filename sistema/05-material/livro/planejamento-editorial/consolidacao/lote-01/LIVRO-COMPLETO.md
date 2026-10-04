@@ -7848,8 +7848,6 @@ A tabela informa quanto custa **sair do nível atual**. Ela não mostra o XP acu
 | 23–29 | 1.700 |
 | 30 | Não há outro nível. |
 
-Partindo do nível 2, chegar ao 20 exige **14.300 XP gastos**. Do 20 ao 30, são mais **16.400**, totalizando **30.700 XP**. O feito do limiar e o limite de um avanço por missão continuam necessários.
-
 Uma linha de missões paga por missão concluída. Quem entra no meio recebe pelo que jogar. Dividir artificialmente uma mesma missão em vários registros não cria novas recompensas: vale a divisão anunciada antes das sessões.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-semana -->
@@ -8102,9 +8100,7 @@ Divida os três quartos restantes igualmente pelo número exigido, até completa
 
 Prefira um registro separado da experiência da ficha. A guilda pode conceder uma moeda própria, recursos ou um bônus a cada quantidade anunciada de missões mestradas.
 
-Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois em outro Grau. A frequência esperada desse bônus é **X dividido pela média de missões mestradas por mês**.
-
-**Exemplo.** Com X igual a 12 e média de três missões mestradas por mês, uma marca leva cerca de quatro meses. A campanha escolhe X; o exemplo não fixa essa quantidade como regra geral.
+Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao completar X e usa o Grau daquele momento. Não guarde uma marca concluída para cobrar depois em outro Grau.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-patentes -->
 <a id="progressao--prog-patentes"></a>
@@ -8906,7 +8902,7 @@ Mei monta **Fenda de Arrasto**, na faixa 17 a 20: Projétil (0), Passo (1, Alcan
 
 > **Na ficha:** Ação Completa e 25 PE. Um alvo a até 18 m. Ataque de conjuração. No acerto, causa 24d8 e move o alvo até 6 m numa direção permitida. Passo concede a Mei um deslocamento de até 6 m antes ou depois da resolução, sem ataques de oportunidade. É o deslocamento específico de Passo: não devolve a Ação de Movimento consumida. O Selo continua necessário.
 
-O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado. Os 24d8 causam média de 108 de dano. Role os dados normalmente.
+O ataque abre espaço para uma retirada ou afasta um inimigo de um aliado.
 
 #### Aplicação sem dano
 
@@ -10646,7 +10642,7 @@ Escolha Sem Técnica entre as opções permitidas por **Origens e Legados**. Est
 
 1. Escolha uma das [sementes](#rotas--rota-sementes). A escolha é permanente.
 2. Escreva uma Descrição que mostre como você desenvolveu essa aptidão.
-3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.
+3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento.
 4. Escolha as Famílias e monte seus Manejos.
 
 A **Regra** explica uma aplicação da semente. Domínio Simples pode sustentar um estilo de contenção próximo de você. Energia Reversa pode sustentar um estilo de cura. Transformar a semente em fogo, viagem no tempo ou leitura de memória exigiria um funcionamento que ela não fornece.
@@ -11349,7 +11345,7 @@ Este domínio pertence a uma técnica que cria lâminas de vidro a partir de sup
 
 Yuri começa o turno ao lado de uma aliada e estabelece o contato antes de abrir. Paga 24 PE. Um adversário recebe o primeiro Acerto; a aliada permanece protegida. Nos dois turnos seguintes, Yuri resolve outro Acerto no começo e age normalmente. Seus feitiços com custo positivo recebem desconto de 2 PE.
 
-A barreira tem **100 PV exteriores**. Se ela durar até o fim do segundo turno seguinte, serão três aplicações, totalizando 24d8 por criatura que tenha recebido todas. A média bruta é 108, distribuída no tempo e antes das defesas. Encerrar antes reduz esse total e inicia Rescaldo da mesma maneira.
+A barreira tem **100 PV exteriores**. Se ela durar até o fim do segundo turno seguinte, serão três aplicações, totalizando 24d8 por criatura que tenha recebido todas. Encerrar antes reduz esse total e inicia Rescaldo da mesma maneira.
 
 <!-- fonte:poderes-avancados/lote-01/PODERES-AVANCADOS.md#salatregua -->
 <a id="poderes--salatregua"></a>
@@ -11451,7 +11447,7 @@ Você precisa ter energia para o custo sem desconto de Ritual e para essa penali
 
 #### Treino e prática
 
-Para alguém treinado, Inteligência e maestria aparecem nos dois lados da conta. Destreza e especialização melhoram a chance. Sem treino, a maestria permanece na CD, mas não entra na rolagem: a diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4, enquanto não houver um limite de probabilidade atingido.
+Para alguém treinado, Inteligência e maestria aparecem nos dois lados da conta. Destreza e especialização melhoram a chance. Sem treino, a maestria permanece na CD, mas não entra na rolagem.
 
 <!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#rit-recitar -->
 <a id="ritual--rit-recitar"></a>
@@ -12176,7 +12172,7 @@ Comande com sua **Ação Completa** e gaste a básica da domada. Divida o PE com
 
 O sucesso num TR reduz o dano em um quarto, pelo procedimento comum da Máxima. Uma aplicação de cura usa os dados próprios desta tabela. Uma aplicação sem dano exige seu efeito escrito e delimitado antes da sessão; não transforma dados em qualquer benefício escolhido no momento.
 
-> **Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo. Uma Forma de cura usa 19d8, com média de 85,5 PV antes dos limites aplicáveis. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
+> **Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo. Uma Forma de cura usa 19d8. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
 
 <!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-dominio -->
 <a id="campo--inv-dominio"></a>

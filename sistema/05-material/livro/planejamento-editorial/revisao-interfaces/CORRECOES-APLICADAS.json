@@ -630,6 +630,104 @@
       "arquivo": "caminhos/emanador/lote-01/EMANADOR.md",
       "decisao": "Mizuki, 04/10/2026: \"Mantém\". Sem mudança de texto.",
       "trocas": []
+    },
+    {
+      "id": "D18",
+      "achados": "G5-02 (pendência da D12)",
+      "arquivo": "rotas/lote-01/ROTAS.md",
+      "decisao": "Mizuki, 04/10/2026: \"Sim ele pode anotar\" (Sem Técnica também registra a Expressão da técnica).",
+      "trocas": [
+        {
+          "antes": "3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.",
+          "depois": "3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento."
+        }
+      ],
+      "sha256_antes": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
+      "sha256_depois": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6"
+    },
+    {
+      "id": "D19",
+      "achados": "pedido do autor",
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "decisao": "Mizuki, 04/10/2026: \"Pode remover, qualquer coisa semelhante tbm\" (contas de projetista no livro do jogador).",
+      "trocas": [
+        {
+          "antes": "Partindo do nível 2, chegar ao 20 exige **14.300 XP gastos**. Do 20 ao 30, são mais **16.400**, totalizando **30.700 XP**. O feito do limiar e o limite de um avanço por missão continuam necessários.",
+          "depois": ""
+        }
+      ],
+      "sha256_antes": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+      "sha256_depois": "62c28c617942c432ee34a18d4ddc637820d63144f8dd7ad1f6657f631abfe910"
+    },
+    {
+      "id": "D20",
+      "achados": "pedido do autor",
+      "arquivo": "progressao/lote-01/PROGRESSAO.md",
+      "decisao": "Mizuki, 04/10/2026: \"Pode remover, qualquer coisa semelhante tbm\" (contas de projetista no livro do jogador).",
+      "trocas": [
+        {
+          "antes": "A frequência esperada desse bônus é **X dividido pela média de missões mestradas por mês**.\n\n**Exemplo.** Com X igual a 12 e média de três missões mestradas por mês, uma marca leva cerca de quatro meses. A campanha escolhe X; o exemplo não fixa essa quantidade como regra geral.",
+          "depois": ""
+        }
+      ],
+      "sha256_antes": "62c28c617942c432ee34a18d4ddc637820d63144f8dd7ad1f6657f631abfe910",
+      "sha256_depois": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a"
+    },
+    {
+      "id": "D21",
+      "achados": "pedido do autor",
+      "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
+      "decisao": "Mizuki, 04/10/2026: \"Pode remover, qualquer coisa semelhante tbm\" (contas de projetista no livro do jogador).",
+      "trocas": [
+        {
+          "antes": "Sem treino, a maestria permanece na CD, mas não entra na rolagem: a diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4, enquanto não houver um limite de probabilidade atingido.",
+          "depois": "Sem treino, a maestria permanece na CD, mas não entra na rolagem."
+        }
+      ],
+      "sha256_antes": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
+      "sha256_depois": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372"
+    },
+    {
+      "id": "D22",
+      "achados": "pedido do autor",
+      "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
+      "decisao": "Mizuki, 04/10/2026: \"Pode remover, qualquer coisa semelhante tbm\" (contas de projetista no livro do jogador).",
+      "trocas": [
+        {
+          "antes": "A média bruta é 108, distribuída no tempo e antes das defesas.",
+          "depois": ""
+        }
+      ],
+      "sha256_antes": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+      "sha256_depois": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4"
+    },
+    {
+      "id": "D23",
+      "achados": "pedido do autor",
+      "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+      "decisao": "Mizuki, 04/10/2026: \"Pode remover, qualquer coisa semelhante tbm\" (contas de projetista no livro do jogador).",
+      "trocas": [
+        {
+          "antes": "Os 24d8 causam média de 108 de dano. Role os dados normalmente.",
+          "depois": ""
+        }
+      ],
+      "sha256_antes": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+      "sha256_depois": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b"
+    },
+    {
+      "id": "D24",
+      "achados": "pedido do autor",
+      "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
+      "decisao": "Mizuki, 04/10/2026: \"Pode remover, qualquer coisa semelhante tbm\" (contas de projetista no livro do jogador).",
+      "trocas": [
+        {
+          "antes": "Uma Forma de cura usa 19d8, com média de 85,5 PV antes dos limites aplicáveis.",
+          "depois": "Uma Forma de cura usa 19d8."
+        }
+      ],
+      "sha256_antes": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+      "sha256_depois": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c"
     }
   ]
 }

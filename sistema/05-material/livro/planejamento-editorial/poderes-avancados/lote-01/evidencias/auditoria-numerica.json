@@ -2,10 +2,10 @@
   "ok": true,
   "status": "passou",
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d"
+    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4"
   },
   "limite": "Auditoria matemática e verificação dirigida de texto; não playtest, não teste humano e não prova de balanceamento de toda ficha.",
-  "manuscrito_sha256": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+  "manuscrito_sha256": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
   "script_sha256": "db4c482664c4d9148a5c50bdc78524b3cc7df660d5fdb9722ac1f27a035b0fa8",
   "contrato_sha256": "5092c7041b4e7d5069cbae465c21bfe0b7be77a3a3267bc49c951dbcc2af51e4",
   "checks": [
@@ -397,7 +397,7 @@
     {
       "id": "palavras-galeriavidro",
       "passou": true,
-      "detalhe": 331
+      "detalhe": 319
     },
     {
       "id": "titulo-galeriavidro",
@@ -794,7 +794,7 @@
     "manterdisputa": 338,
     "sobreposicao": 310,
     "multiplos": 308,
-    "galeriavidro": 331,
+    "galeriavidro": 319,
     "salatregua": 325,
     "confronto": 302
   },
@@ -1477,7 +1477,7 @@
     },
     {
       "path": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
-      "sha256": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783"
+      "sha256": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b"
     },
     {
       "path": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",

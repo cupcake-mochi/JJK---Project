@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+  "sha256_texto": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
   "conclusao": "Revisão anterior conservada; PRO35 acrescenta seção Patentes lida pela raiz. Prova14p e interfaces R03 em conferência.",
   "itens": [
     "Títulos identificam o assunto sem artigo inicial ou fórmula Como ler.",
@@ -302,5 +302,28 @@
         "validacao_visual": "Pendente de geração e inspeção da prova PDF."
       }
     }
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+    "sha256_atual": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
+    "mudancas": [
+      {
+        "codigo": "D19",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "prog-xp",
+        "antes": "Partindo do nível 2, chegar ao 20 exige **14.300 XP gastos**. Do 20 ao 30, são mais **16.400**, totalizando **30.700 XP**. O feito do limiar e o limite de um avanço por missão continuam necessários.",
+        "depois": ""
+      },
+      {
+        "codigo": "D20",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "prog-guilda",
+        "antes": "A frequência esperada desse bônus é **X dividido pela média de missões mestradas por mês**.\n\n**Exemplo.** Com X igual a 12 e média de três missões mestradas por mês, uma marca leva cerca de quatro meses. A campanha escolhe X; o exemplo não fixa essa quantidade como regra geral.",
+        "depois": ""
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisão do autor sobre a Expressão da técnica na rota Sem Técnica ou retirada de contas de projetista pedida por ele em 04/10/2026. Nenhuma frase nova além do passo 3 de Sem Técnica; as retiradas não deixam remissão órfã. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

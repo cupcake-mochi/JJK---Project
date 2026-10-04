@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+  "sha256_texto": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -55,5 +55,28 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas não explicam capacidade de outro dono: citam o procedimento geral ou a seção dona pelo nome. Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+    "sha256_atual": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
+    "mudancas": [
+      {
+        "codigo": "D19",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "prog-xp",
+        "antes": "Partindo do nível 2, chegar ao 20 exige **14.300 XP gastos**. Do 20 ao 30, são mais **16.400**, totalizando **30.700 XP**. O feito do limiar e o limite de um avanço por missão continuam necessários.",
+        "depois": ""
+      },
+      {
+        "codigo": "D20",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "prog-guilda",
+        "antes": "A frequência esperada desse bônus é **X dividido pela média de missões mestradas por mês**.\n\n**Exemplo.** Com X igual a 12 e média de três missões mestradas por mês, uma marca leva cerca de quatro meses. A campanha escolhe X; o exemplo não fixa essa quantidade como regra geral.",
+        "depois": ""
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. A única frase nova (passo 3 de Sem Técnica) cita o procedimento de Fundamento pelo nome, como o passo 1 da Técnica Marcial. Nenhuma exceção de vocabulário depende de linha nesta unidade."
   }
 }

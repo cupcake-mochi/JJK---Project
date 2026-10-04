@@ -618,3 +618,11 @@ Para Atacar, num revide ou num ataque comum concedido, a entidade usa a **básic
 **Depois:** Corpos adicionais precisam ser deixados sem seu controle. Não desaparecem nem são destruídos por essa escolha. Um corpo deixado assim volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou. Deixar um corpo sem controle de propósito não abre vaga para trazer outro de volta.
 
 **Motivo:** Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md).
+
+## R11-52 — retirada a pedido do autor
+
+**Antes:** Uma Forma de cura usa 19d8, com média de 85,5 PV antes dos limites aplicáveis.
+
+**Depois:** Uma Forma de cura usa 19d8.
+
+**Motivo:** Pedido do autor em 04/10/2026 ("Pode remover, qualquer coisa semelhante tbm"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.

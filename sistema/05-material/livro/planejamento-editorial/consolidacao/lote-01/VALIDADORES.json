@@ -1,7 +1,7 @@
 {
-  "status": "Candidata revisada em 04/10/2026 (PR #2): correções de interface, decisões do autor e retirada de projeções; candidata para revisão do usuário e teste de mesa",
-  "sha256_pdf": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
-  "sha256_texto": "f277671bd0901ddfbe1bff5fad91887d60af0084385fd0368cc2b39b7e119412",
+  "status": "Candidata revisada em 04/10/2026 (PR #2): correções de interface, decisões do autor e retirada de contas de projetista; candidata para revisão do usuário e teste de mesa",
+  "sha256_pdf": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
+  "sha256_texto": "f2a54d9ff8a12b9ee6160ea2fe698d6bfa636670d3b6d1a18c572f18ef2f3c04",
   "validadores": [
     {
       "id": "V01",
@@ -32,7 +32,7 @@
       "limites": "Texto final comparado com as fontes. Publicação anterior conservada; fontes de pesquisa e adaptação permanecem documentadas por capítulo.",
       "revalidacao_2026_10_04": {
         "estado": "revisto para o PDF atual",
-        "limites": "As 23 fontes conferem com a geração atual; 15 mudaram depois de 03/10 e estão registradas. Publicação v0.331 preservada.",
+        "limites": "As 23 fontes conferem com a geração atual; 18 mudaram depois de 03/10 e estão registradas. Publicação v0.331 preservada.",
         "evidencias": [
           "evidencias/FECHAMENTO-DOS-DONOS.json",
           "evidencias/GERACAO.json"
@@ -154,7 +154,7 @@
       "limites": "Referências de D&D e demais livros estão nos relatórios dos donos. Organização, procedimentos, exemplos e consulta aplicados na montagem; sem cópia de prosa ou nova leitura integral dos livros nesta etapa.",
       "revalidacao_2026_10_04": {
         "estado": "revisto para o PDF atual",
-        "limites": "Sem mudança de organização em relação a 03/10 além da retirada de projeções pedida pelo autor.",
+        "limites": "Sem mudança de organização em relação a 03/10 além da retirada das contas de projetista pedida pelo autor.",
         "evidencias": [
           "../../revisao-interfaces/CORRECOES-APLICADAS.md"
         ]

@@ -4,17 +4,17 @@
     "sistema/05-material/livro/planejamento-editorial/regras-gerais/lote-final/REGRAS-GERAIS.md": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
     "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md": "44c41c7ce33b68d6284fa55b69d7fb43bc6fc28aa3b86c445007cad1dc807fea",
     "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae",
-    "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+    "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
     "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
-    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
     "sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/APTIDOES-E-REFINO.md": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
-    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
-    "sistema/05-material/livro/planejamento-editorial/ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
-    "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+    "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+    "sistema/05-material/livro/planejamento-editorial/ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372",
+    "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
     "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-02/CONSTRUIR-INVOCACOES.md": "a4c48e8a12c39294745c4f575e4db9564c99f8ee83a102a3014ea8188e48a6eb",
     "sistema/05-material/livro/planejamento-editorial/invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa",
     "sistema/05-material/livro/planejamento-editorial/origens/lote-01/ORIGENS-E-LEGADOS.md": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
-    "sistema/05-material/livro/planejamento-editorial/progressao/lote-01/PROGRESSAO.md": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+    "sistema/05-material/livro/planejamento-editorial/progressao/lote-01/PROGRESSAO.md": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
     "sistema/05-material/livro/planejamento-editorial/abertura/lote-01/ABERTURA-E-CRIACAO.md": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
     "sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/EQUIPAMENTO.md": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
     "sistema/05-material/livro/planejamento-editorial/caminhos/bastiao/lote-01/BASTIAO.md": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
@@ -133,6 +133,38 @@
     },
     "metodo": "Diff de cada dono entre o hash conferido e o atual, seguido de busca na Consulta (glossário, fichas e índice) pelos termos trocados: escolha na queda, Feito 8 e oito feitos, autorização de arma de fogo, manipulação gratuita, Cisão e dano direto à alma, Fluidez antes do primeiro turno, Instante Decisivo e Bloquear, Calo, Ritmo de campanha, Leque em todos os marcos e Lapidação 8.",
     "resultado": "A Consulta não reproduz nenhum desses trechos. Morrendo, Lapidação e Refino aparecem no glossário só como definição geral com remissão ao dono, e as fichas pedem \"feito de limiar\" e \"Aguentar ou Insistir\" sem número nem ordem, o que continua certo. O índice ganhou 18 verbetes (D13) e não tinha entrada para Calo nem para Ritmo de campanha.",
+    "registro": "../../revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "cotejo_2026_10_04_quarta_passada": {
+    "fontes": {
+      "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": {
+        "sha256_anterior": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+        "sha256_cotejado": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b"
+      },
+      "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": {
+        "sha256_anterior": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+        "sha256_cotejado": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4"
+      },
+      "sistema/05-material/livro/planejamento-editorial/rotas/lote-01/ROTAS.md": {
+        "sha256_anterior": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
+        "sha256_cotejado": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6"
+      },
+      "sistema/05-material/livro/planejamento-editorial/ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md": {
+        "sha256_anterior": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
+        "sha256_cotejado": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372"
+      },
+      "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": {
+        "sha256_anterior": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+        "sha256_cotejado": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c"
+      },
+      "sistema/05-material/livro/planejamento-editorial/progressao/lote-01/PROGRESSAO.md": {
+        "sha256_anterior": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+        "sha256_cotejado": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a"
+      }
+    },
+    "metodo": "Diff de cada dono entre o hash conferido e o atual, seguido de busca na Consulta (glossário, fichas e índice) pelos termos trocados: Expressão da técnica e Sem Técnica, total de XP e 14.300/30.700, frequência da marca de mestre, pontos percentuais do Ritual e médias de dano e cura.",
+    "resultado": "A Consulta não reproduz nenhum dos trechos retirados. Expressão da técnica e Sem Técnica aparecem no glossário e no índice só como definição geral com remissão ao dono; a definição de Expressão da técnica não diz quem a registra, e por isso continua certa com a D18. As fichas não pedem total de XP, prazo nem média.",
     "registro": "../../revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }

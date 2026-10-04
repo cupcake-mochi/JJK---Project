@@ -567,6 +567,16 @@
       "motivo": "Ajudar a localizar a exceção sem reproduzir custos, alcance ou cálculo de dano.",
       "sincronizar": "R09; R10",
       "status": "candidata, não integrada"
+    },
+    {
+      "id": "FU-57",
+      "natureza": "E",
+      "assunto": "Média de dano no exemplo de Máxima",
+      "antes": "Os 24d8 causam média de 108 de dano. Role os dados normalmente.",
+      "candidata": "(retirado)",
+      "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.",
+      "sincronizar": "nenhum",
+      "status": "candidata, não integrada"
     }
   ]
 }

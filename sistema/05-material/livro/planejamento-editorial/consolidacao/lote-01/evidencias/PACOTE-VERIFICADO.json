@@ -1,20 +1,25 @@
 {
   "arquivo": "sistema/05-material/livro/planejamento-editorial/entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
-  "sha256": "5e864342558caf9193540e2e3738080bead59af725a26bed278c1bfccf4be943",
-  "bytes": 9444775,
-  "arquivos": 1366,
+  "sha256": "c538cfa32ef2c987cde71656c24ff650f294731faa751f5b4523cebf19b58b1b",
+  "bytes": 9467887,
+  "arquivos": 1374,
   "crc_ok": true,
-  "hashes_internos_conferidos": 1365,
-  "arquivos_editoriais_iguais_ao_repositorio": 1360,
+  "hashes_internos_conferidos": 1373,
+  "arquivos_editoriais_iguais_ao_repositorio": 1368,
   "fontes_vigentes_conferidas": 23,
   "pdf_reproduzido_identico": true,
-  "sha256_pdf": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
+  "sha256_pdf": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
   "metodo": "ZIP montado de forma determinística (ordem e data fixas nas entradas; duas montagens deram o mesmo arquivo). Conferidos o CRC de cada entrada, os hashes contra SHA256SUMS.json, cada arquivo editorial contra o repositório e as 23 fontes de ORDEM.json; depois o ZIP foi desempacotado numa pasta nova e gerar_livro.py --strict reproduziu o PDF byte a byte.",
-  "regra_de_conteudo": "A mesma de 03/10: manifesto e arquivos listados de cada capítulo (sem os PDFs individuais), consolidação sem PDFs de provas antigas e sem os arquivos escritos depois do pacote, validador editorial e seis documentos da raiz. Acrescentados os registros de 04/10: revisao-interfaces/ e publicacao-github/provas-cinco-capitulos-2026-10-04/.",
+  "regra_de_conteudo": "A mesma de 03/10: manifesto e arquivos listados de cada capítulo (sem os PDFs individuais), consolidação sem PDFs de provas antigas e sem os arquivos escritos depois do pacote, validador editorial e seis documentos da raiz. Acrescentados os registros de 04/10: revisao-interfaces/ e publicacao-github/provas-cinco-capitulos-2026-10-04/. A quarta passada acrescentou só as comparações visuais dela (seis capítulos e consolidação) e o registro de testes negativos.",
   "substitui": {
+    "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
+    "sha256": "5e864342558caf9193540e2e3738080bead59af725a26bed278c1bfccf4be943",
+    "onde_esta": "versão anterior com o mesmo nome, da terceira passada (PDF 633f85ae…); continua no histórico do git (commit 56108eb)"
+  },
+  "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+  "substitui_antes": {
     "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-03.zip",
     "sha256": "9e7f917a0575c368bb166a900252f1d5e51eecdd6d08a20395901f1df649fcfe",
     "onde_esta": "retirado da árvore em 04/10/2026; continua no histórico do git (commit bbc4428)"
-  },
-  "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

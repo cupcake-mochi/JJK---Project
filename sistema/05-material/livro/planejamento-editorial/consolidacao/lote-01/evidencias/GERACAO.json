@@ -41,13 +41,13 @@
     },
     "progressao": {
       "arquivo": "progressao/lote-01/PROGRESSAO.md",
-      "sha256_lido": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
-      "sha256_no_fim": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474"
+      "sha256_lido": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
+      "sha256_no_fim": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a"
     },
     "fundamento": {
       "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
-      "sha256_lido": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
-      "sha256_no_fim": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783"
+      "sha256_lido": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+      "sha256_no_fim": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b"
     },
     "catalogo": {
       "arquivo": "catalogo/lote-01/CATALOGO.md",
@@ -61,23 +61,23 @@
     },
     "rotas": {
       "arquivo": "rotas/lote-01/ROTAS.md",
-      "sha256_lido": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
-      "sha256_no_fim": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59"
+      "sha256_lido": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+      "sha256_no_fim": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6"
     },
     "poderes": {
       "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
-      "sha256_lido": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
-      "sha256_no_fim": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d"
+      "sha256_lido": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+      "sha256_no_fim": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4"
     },
     "ritual": {
       "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
-      "sha256_lido": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
-      "sha256_no_fim": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2"
+      "sha256_lido": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372",
+      "sha256_no_fim": "d426344dac979f614ca77e1380bcb1c8d52629d410d4cba5fe1cbf2b2cc4f372"
     },
     "campo": {
       "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
-      "sha256_lido": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
-      "sha256_no_fim": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38"
+      "sha256_lido": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
+      "sha256_no_fim": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c"
     },
     "construcao": {
       "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
@@ -151,7 +151,7 @@
     }
   ],
   "destinos_pendentes": 0,
-  "sha256_manuscrito": "f277671bd0901ddfbe1bff5fad91887d60af0084385fd0368cc2b39b7e119412",
-  "sha256_pdf": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e",
+  "sha256_manuscrito": "f2a54d9ff8a12b9ee6160ea2fe698d6bfa636670d3b6d1a18c572f18ef2f3c04",
+  "sha256_pdf": "bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa",
   "V14": "não executado: requer inspeção visual de todas as páginas finais"
 }

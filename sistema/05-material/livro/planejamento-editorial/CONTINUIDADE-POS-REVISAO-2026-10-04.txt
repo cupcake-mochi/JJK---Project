@@ -1,5 +1,10 @@
 Continuidade pós-revisão — conferência de 04/10/2026
 
+ATUALIZAÇÃO, MESMO DIA: QUARTA PASSADA
+O Mizuki confirmou que Sem Técnica também registra a Expressão da técnica (D18) e pediu para tirar as outras contas de projetista do livro do jogador (D19 a D24): total de XP até os níveis 20 e 30, prazo da marca de mestre, diferença de probabilidade do Ritual sem treino e três médias de dano em exemplos. Seis capítulos mudaram (Rotas, Progressão, Ritual, Poderes avançados, Fundamento e Invocações em campo), com antes, depois e motivo em revisao-interfaces/CORRECOES-APLICADAS.md.
+PDF vigente: 382 páginas, SHA-256 bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa. Mudaram 8 páginas do livro, todas abertas; a cadeia visual continua sem lacuna. O ZIP entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip foi refeito com o mesmo nome (SHA-256 c538cfa32ef2c987cde71656c24ff650f294731faa751f5b4523cebf19b58b1b, 1374 arquivos) e o PDF reproduzido dele é idêntico. A versão anterior do ZIP com esse nome está no histórico do git (commit 56108eb).
+Os números do bloco seguinte (PDF 633f85ae…, ZIP 5e864342…, 1366 arquivos) são da terceira passada.
+
 ATUALIZAÇÃO, MESMO DIA: ITENS 2 E 3
 Item 2 feito. O PDF vigente tem 382 páginas, SHA-256 633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e. FINAL-V14.json, VALIDADORES.json, MANIFESTO.json e FECHAMENTO-DOS-DONOS.json da consolidação agora apontam para ele; as versões de 03/10 estão copiadas em consolidacao/lote-01/evidencias/antes-fechamento-2026-10-04/. A inspeção visual cobre as 382 páginas sem lacuna: 259 herdadas da V14 e 123 abertas nas passadas de 04/10 (CADEIA-VISUAL-2026-10-04.json). Os 23 VALIDADORES.json e MANIFESTO.json dos capítulos foram renovados com os hashes atuais. V15 global sem pendência.
 ZIP novo: entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip, SHA-256 5e864342558caf9193540e2e3738080bead59af725a26bed278c1bfccf4be943, 1366 arquivos, montagem determinística. CRC, hashes internos e as 23 fontes conferidos; o PDF reproduzido do ZIP desempacotado é idêntico ao do repositório. O ZIP de 03/10 saiu da árvore e continua no histórico do git (commit bbc4428).

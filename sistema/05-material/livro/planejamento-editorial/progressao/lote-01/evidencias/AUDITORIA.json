@@ -1,8 +1,8 @@
 {
-  "sha256_texto": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+  "sha256_texto": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
   "aprovado": true,
   "quantidades": {
-    "checks": 102,
+    "checks": 103,
     "casos": 73,
     "sequencias_marcos": 2187,
     "perfis_ritmo": 5,
@@ -466,6 +466,11 @@
       "motivo": ""
     },
     {
+      "nome": "sem_contas_de_projetista",
+      "passou": true,
+      "motivo": "D19 e D20: total acumulado e prazo da marca de mestre saíram do livro do jogador."
+    },
+    {
       "nome": "titulos_diretos",
       "passou": true,
       "motivo": ""
@@ -476,7 +481,7 @@
       "motivo": ""
     },
     {
-      "nome": "invariante_14.300",
+      "nome": "invariante_| 23–29 | 1.700 |",
       "passou": true,
       "motivo": ""
     },
@@ -501,7 +506,7 @@
       "motivo": ""
     },
     {
-      "nome": "mutacao_14.300",
+      "nome": "mutacao_| 23–29 | 1.700 |",
       "passou": true,
       "motivo": ""
     },

@@ -414,7 +414,7 @@ Comande com sua **Ação Completa** e gaste a básica da domada. Divida o PE com
 
 O sucesso num TR reduz o dano em um quarto, pelo procedimento comum da Máxima. Uma aplicação de cura usa os dados próprios desta tabela. Uma aplicação sem dano exige seu efeito escrito e delimitado antes da sessão; não transforma dados em qualquer benefício escolhido no momento.
 
-> **Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo. Uma Forma de cura usa 19d8, com média de 85,5 PV antes dos limites aplicáveis. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
+> **Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo. Uma Forma de cura usa 19d8. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
 
 <!-- page:inv-dominio|Expansão da domada -->
 # Expansão da domada

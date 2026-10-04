@@ -1,0 +1,16 @@
+Testes negativos da quarta passada (04/10/2026), feitos numa cópia isolada do repositório.
+A base passa na cópia antes de cada perturbação; cada perturbação é conferida com cmp antes de ler o resultado; o original é restaurado depois.
+Auditor: progressao/lote-01/auditar.py (contrato da curva trocado de '14.300' para a linha 23–29 da tabela; checagem nova sem_contas_de_projetista).
+
+BASE
+   rc 0 falhas []
+P1: o parágrafo de total acumulado volta (D19)
+   rc 1 falhas ['sem_contas_de_projetista']
+P2: a frequência esperada da marca de mestre volta (D20)
+   rc 1 falhas ['sem_contas_de_projetista']
+P3: a última faixa da tabela de custo muda de 1.700 para 1.500
+   rc 1 falhas ['curva_publicada_23–29', 'invariante_| 23–29 | 1.700 |']
+CONTRA-TESTE: com o contrato antigo ('14.300' no texto), o texto atual falha
+   rc 1 falhas ['invariante_14.300']
+DEPOIS de restaurar
+   rc 0 falhas []

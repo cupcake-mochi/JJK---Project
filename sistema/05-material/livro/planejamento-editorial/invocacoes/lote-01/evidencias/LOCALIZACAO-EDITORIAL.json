@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+  "sha256_texto": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -43,5 +43,21 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados lidos um a um: nomes, remissões ao capítulo dono ou regra decidida pelo autor; nenhuma regra alheia reproduzida, nenhum título alterado. Todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+    "sha256_atual": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
+    "mudancas": [
+      {
+        "codigo": "D24",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "inv-maxima",
+        "antes": "Uma Forma de cura usa 19d8, com média de 85,5 PV antes dos limites aplicáveis.",
+        "depois": "Uma Forma de cura usa 19d8."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. A única frase nova (passo 3 de Sem Técnica) cita o procedimento de Fundamento pelo nome, como o passo 1 da Técnica Marcial. Nenhuma exceção de vocabulário depende de linha nesta unidade."
   }
 }

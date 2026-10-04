@@ -1,6 +1,6 @@
 {
-  "sha256_pdf": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
-  "sha256_texto": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+  "sha256_pdf": "fd0add2ef84633eaaaa7b9f6a23151b473ed5374666fe7cf3f20def3aee80689",
+  "sha256_texto": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
   "metodo": "Comparação de todas as páginas a85dpi com PDF anterior inspecionado, seguida de abertura real por view_image de todas as diferenças. Evidências anteriores preservadas.",
   "paginas": [
     {
@@ -175,9 +175,10 @@
     {
       "pagina": 25,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "7c4095f09ebbd06e0c9d3daed7be9939513a4fa3ec046cf55eb9c0f58d0b81d5",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Fenda de Arrasto sem a média de dano; quadro Na ficha e links (p. 27) e (p. 28) visíveis.",
+      "sha256_png": "bc551dc75c2e5286aa772b2ecbd88105f0cdec63a4ec5d73b0afa897941b6df2",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 26,
@@ -216,6 +217,16 @@
       8
     ],
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_pdf_anterior": "05766e656a3d09b0316a891c69503aa502ac2e43a01a3e131bc020477d712dd1",
+    "sha256_pdf_atual": "fd0add2ef84633eaaaa7b9f6a23151b473ed5374666fe7cf3f20def3aee80689",
+    "paginas_alteradas": [
+      25
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }
 }

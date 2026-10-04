@@ -1,6 +1,6 @@
 {
-  "sha256_pdf": "8151326e194c5f251ee98aaa88f5f2d57ea99cdd3e58078afcba7632a0a1bd0b",
-  "sha256_texto": "6a5d4ecf8c5a8ec7862ce5f42b45981f87e6c1b5f195cf982a79eaf9c2c89474",
+  "sha256_pdf": "767f76b38b7b3a7e7365c95c84f178796585db13f72338aa838d8fc1118c5819",
+  "sha256_texto": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "paginas": [
     {
@@ -13,9 +13,10 @@
     {
       "pagina": 2,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "66817316c52555cdcb49cc93cbed64225db71da1d6cfb618f934dbd912b28fe6",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Subir de nível sem o parágrafo de total acumulado; tabela de custo inteira e parágrafo seguinte sem corte.",
+      "sha256_png": "0b7f87fdfb1d92a106d4c8e17e2d4937a8754c757f033642b6bcb2c063bcd96b",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 3,
@@ -89,8 +90,8 @@
     {
       "pagina": 12,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Recompensas da guilda, agora página 12 depois da retirada do Ritmo de campanha; tabela e seções inteiras.",
-      "sha256_png": "2f6254210c14eab7797402a8fae4a55102013f929c6005b4ad5b75eeb6860728",
+      "observacoes": "Recompensa por mestrar sem a frequência esperada e sem o exemplo; tabela de salários e Participação no mês inteiras.",
+      "sha256_png": "015732ba45b441c5377b620c22ae3c26521e648d931b2df3475380c6b4ae9661",
       "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
       "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
@@ -130,6 +131,17 @@
       13
     ],
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_pdf_anterior": "8151326e194c5f251ee98aaa88f5f2d57ea99cdd3e58078afcba7632a0a1bd0b",
+    "sha256_pdf_atual": "767f76b38b7b3a7e7365c95c84f178796585db13f72338aa838d8fc1118c5819",
+    "paginas_alteradas": [
+      2,
+      12
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   }

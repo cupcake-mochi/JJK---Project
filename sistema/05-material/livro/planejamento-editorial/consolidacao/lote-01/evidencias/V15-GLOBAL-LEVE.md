@@ -2,7 +2,7 @@
 
 Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15, hashes do texto/PDF e índice crítico do manifesto. Não relê regras, não executa testes novamente e não altera documentos de outros donos.
 
-796 registros de decisões em 23 arquivos; 23 fontes selecionadas.
+803 registros de decisões em 23 arquivos; 23 fontes selecionadas.
 
 | Dono | V01–V15 | Decisões | Estado | Achados |
 |---|---:|---:|---|---|
@@ -12,14 +12,14 @@ Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15
 | origens | 15 | 35 | metadados coerentes nesta fotografia | — |
 | pericias | 15 | 2 | metadados coerentes nesta fotografia | — |
 | equip | 15 | 27 | metadados coerentes nesta fotografia | — |
-| progressao | 15 | 40 | metadados coerentes nesta fotografia | — |
-| fundamento | 15 | 56 | metadados coerentes nesta fotografia | — |
+| progressao | 15 | 42 | metadados coerentes nesta fotografia | — |
+| fundamento | 15 | 57 | metadados coerentes nesta fotografia | — |
 | catalogo | 15 | 118 | metadados coerentes nesta fotografia | — |
 | aptidoes | 15 | 33 | metadados coerentes nesta fotografia | — |
-| rotas | 15 | 35 | metadados coerentes nesta fotografia | — |
-| poderes | 15 | 33 | metadados coerentes nesta fotografia | — |
-| ritual | 15 | 32 | metadados coerentes nesta fotografia | — |
-| campo | 15 | 51 | metadados coerentes nesta fotografia | — |
+| rotas | 15 | 36 | metadados coerentes nesta fotografia | — |
+| poderes | 15 | 34 | metadados coerentes nesta fotografia | — |
+| ritual | 15 | 33 | metadados coerentes nesta fotografia | — |
+| campo | 15 | 52 | metadados coerentes nesta fotografia | — |
 | construcao | 15 | 32 | metadados coerentes nesta fotografia | — |
 | fabricacao | 15 | 16 | metadados coerentes nesta fotografia | — |
 | consulta | 15 | 31 | metadados coerentes nesta fotografia | — |

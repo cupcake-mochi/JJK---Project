@@ -284,7 +284,7 @@
     "Revisão independente por outro agente-modelo.",
     "Teste com jogadores humanos não realizado."
   ],
-  "sha256_texto": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
+  "sha256_texto": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
   "revisor": "Autor rotas_didatica e leitura independente integral do principal",
   "teste_humano": false,
   "revisao_delta": {
@@ -339,5 +339,21 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026, retirada de projeções pedida por ele ou verbetes de índice. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "7fb73a56e4a34ce5a50be4357dd4d5987000c15f9cb81af9972ff4833ef23a59",
+    "sha256_atual": "692a4f70bd144ccb5c7760c303162842fe0e29bdcb712843bc3f7947f2eaa4b6",
+    "mudancas": [
+      {
+        "codigo": "D18",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "rota-sem-tecnica",
+        "antes": "3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.",
+        "depois": "3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Trechos trocados relidos: decisão do autor sobre a Expressão da técnica na rota Sem Técnica ou retirada de contas de projetista pedida por ele em 04/10/2026. Nenhuma frase nova além do passo 3 de Sem Técnica; as retiradas não deixam remissão órfã. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

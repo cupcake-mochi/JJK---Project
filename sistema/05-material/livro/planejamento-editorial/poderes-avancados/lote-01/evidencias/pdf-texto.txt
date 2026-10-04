@@ -468,8 +468,8 @@ adversário recebe o primeiro Acerto; a aliada permanece protegida. Nos dois tur
 resolve outro Acerto no começo e age normalmente. Seus feitiços com custo positivo recebem desconto
 de 2 PE.
 A barreira tem 100 PV exteriores. Se ela durar até o fim do segundo turno seguinte, serão três
-aplicações, totalizando 24d8 por criatura que tenha recebido todas. A média bruta é 108, distribuída no
-tempo e antes das defesas. Encerrar antes reduz esse total e inicia Rescaldo da mesma maneira.
+aplicações, totalizando 24d8 por criatura que tenha recebido todas. Encerrar antes reduz esse total e
+inicia Rescaldo da mesma maneira.
 
 
 PÁGINA 14

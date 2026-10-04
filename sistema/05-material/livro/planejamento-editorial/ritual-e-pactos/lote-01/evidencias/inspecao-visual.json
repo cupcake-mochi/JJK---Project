@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "a4ecb43c721c906a5fcf79b05d1a1b49088f205daef45960ae7889b5568fb7f6",
+  "sha256_pdf": "c77d0b8c3b408b45f1d4b9a2df7aae142f7e3816b4194f8854627da0fd9d4086",
   "revisor": "/root",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-NOMES-ROOT.json.",
   "sha256_pdf_anterior": "86d20cce7d046ec0b0791c4dd844229656b3893e9bdd91c174b8dcdfc33ee7ec",
@@ -13,8 +13,11 @@
     {
       "pagina": 2,
       "resultado": "sem defeito visual observado",
-      "metodo": "pixels idênticos à prova inspecionada",
-      "arquivo": "output/comparacao-nomes/depois/pagina-02.png"
+      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null,
+      "observacoes": "Treino e prática sem a diferença em pontos percentuais; exemplo de Kaito e Falha inteiros.",
+      "sha256_png": "ac160c990d7c15b74e0fb35c19c5279a4a0b613d1c87559d240a19638c6f3285",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
     },
     {
       "pagina": 3,
@@ -82,5 +85,15 @@
       "metodo": "pixels idênticos à prova inspecionada",
       "arquivo": "output/comparacao-nomes/depois/pagina-13.png"
     }
-  ]
+  ],
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_pdf_anterior": "a4ecb43c721c906a5fcf79b05d1a1b49088f205daef45960ae7889b5568fb7f6",
+    "sha256_pdf_atual": "c77d0b8c3b408b45f1d4b9a2df7aae142f7e3816b4194f8854627da0fd9d4086",
+    "paginas_alteradas": [
+      2
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
 }

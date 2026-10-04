@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+  "sha256_texto": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -38,5 +38,21 @@
     "registro": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Desfazendo as 1 trocas registradas, o texto volta exatamente ao hash anterior; não há outra diferença. Cada linha trocada foi lida no contexto: a remissão aponta a seção onde a frase está ou um título existente do capítulo. Títulos, seções e número de linhas não mudaram. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual; os achados brutos são os mesmos nos dois (mesmo código, termo e trecho), e as exceções de vocabulário continuam na mesma linha."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+    "sha256_atual": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
+    "mudancas": [
+      {
+        "codigo": "D22",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "galeriavidro",
+        "antes": "A média bruta é 108, distribuída no tempo e antes das defesas.",
+        "depois": ""
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. A única frase nova (passo 3 de Sem Técnica) cita o procedimento de Fundamento pelo nome, como o passo 1 da Técnica Marcial. Nenhuma exceção de vocabulário depende de linha nesta unidade."
   }
 }

@@ -411,3 +411,11 @@ Você reconhece pelo toque o encaixe e a textura familiares de armas que costuma
 **Depois:** (retirado)
 
 **Motivo:** Pedido do autor (04/10/2026): retirar do livro do jogador projeções de projetista (tempo de campanha, como o personagem termina seguindo sempre a mesma escolha). A regra do marco fica.
+
+## R10-36 — decisão do autor
+
+**Antes:** 3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.
+
+**Depois:** 3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento.
+
+**Motivo:** Decisão do Mizuki em 04/10/2026 ("Sim ele pode anotar"), pendência deixada pela D12 (achado G5-02, revisao-interfaces/CORRECOES-APLICADAS.md). Sem Técnica registra a Expressão da técnica como a Técnica Marcial.

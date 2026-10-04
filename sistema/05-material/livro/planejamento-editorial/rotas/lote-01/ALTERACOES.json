@@ -829,7 +829,7 @@
         "arquivo": "sistema/05-material/livro/planejamento-editorial/revisao-interfaces/CORRECOES-APLICADAS.md",
         "ancora": "### D12 · rotas/lote-01/ROTAS.md",
         "linhas": [
-          328
+          333
         ]
       },
       {
@@ -880,11 +880,33 @@
         "arquivo": "sistema/05-material/livro/planejamento-editorial/revisao-interfaces/CORRECOES-APLICADAS.md",
         "ancora": "### D14 a D17 · retiradas pedidas pelo Mizuki",
         "linhas": [
-          348
+          353
         ]
       }
     ],
     "impacto": "Nenhum na mesa: era projeção de quem escolhe sempre ou nunca a Lapidação.",
+    "estado": "aplicada",
+    "autorizacao": "Mizuki, 04/10/2026"
+  },
+  {
+    "id": "R10-36",
+    "tipo": "decisão do autor",
+    "antes": "3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.",
+    "depois": "3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (\"Sim ele pode anotar\"), pendência deixada pela D12 (achado G5-02, revisao-interfaces/CORRECOES-APLICADAS.md). Sem Técnica registra a Expressão da técnica como a Técnica Marcial.",
+    "paginas": [
+      "rota-sem-tecnica"
+    ],
+    "fontes": [
+      {
+        "arquivo": "sistema/05-material/livro/planejamento-editorial/revisao-interfaces/CORRECOES-APLICADAS.md",
+        "ancora": "### D18 · rotas/lote-01/ROTAS.md",
+        "linhas": [
+          367
+        ]
+      }
+    ],
+    "impacto": "Sem Técnica escreve uma Expressão da técnica, sem efeito mecânico.",
     "estado": "aplicada",
     "autorizacao": "Mizuki, 04/10/2026"
   }

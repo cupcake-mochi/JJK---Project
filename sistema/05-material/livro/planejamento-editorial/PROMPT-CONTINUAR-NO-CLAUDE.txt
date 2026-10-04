@@ -3,7 +3,7 @@ ESTADO ATUALIZADO EM 04/10/2026 — LEIA ISTO PRIMEIRO
 A revisão pós-reconstrução já avançou no PR #2:
 https://github.com/cupcake-mochi/JJK---Project/pull/2
 Branch: claude/revisao-pos-reconstrucao-rxwpkq
-Base examinada: 360f7d82ddc0363ff6669b5c13d1b8b9fc303a44. Depois dela, a branch recebeu as três passadas de 04/10.
+Base examinada: 360f7d82ddc0363ff6669b5c13d1b8b9fc303a44. Depois dela, a branch recebeu as passadas de 04/10.
 Continue nessa branch, preservando as alterações do Claude. O texto abaixo deste adendo é histórico: as referências, a revisão de interfaces, o plano de testes e o plano de migração já foram trabalhados. Não os refaça do zero.
 
 Leia CONTINUIDADE-POS-REVISAO-2026-10-04.txt nesta pasta para a fila atual e os resultados da conferência independente.
@@ -12,8 +12,8 @@ Leia migracao-pos-candidata/PLANO.md e testes-com-leitores/PLANO.md para os plan
 
 A próxima sequência é:
 1. FEITO em 04/10/2026: provas e evidências de Aptidões, Fundamento, Origens, Perícias e Poderes avançados atualizadas e verdes. Registro em publicacao-github/provas-cinco-capitulos-2026-10-04/LEIA-ME.md.
-2. FEITO em 04/10/2026: cadeia de evidência fechada para o PDF atual de 382 páginas (SHA-256 633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e) e ZIP refeito em entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip. O PDF foi reproduzido byte a byte a partir do ZIP desempacotado. Registro em consolidacao/lote-01/ESTADO-DA-PROVA.md, evidencias/CADEIA-VISUAL-2026-10-04.json e evidencias/PACOTE-VERIFICADO.json. O ZIP de 03/10 saiu da árvore e continua no histórico do git.
-3. FEITO EM PARTE em 04/10/2026: aplicadas as 9 decisões do autor da terceira passada (D05 a D12), os verbetes de índice (D13) e a retirada das tabelas de projetista pedida pelo autor (D14 a D17). Ficam 18 achados que pedem decisão de regra, nome ou redação, listados em "O que precisa do Mizuki" de revisao-interfaces/ACHADOS.md. Não confundir regra não decidida com erro simples de remissão.
+2. FEITO em 04/10/2026: cadeia de evidência fechada para o PDF atual de 382 páginas (SHA-256 bceea2d72fa70e3bbd1bef9051d521c3eaf09c2c7815898e8ca83419fc5c2aaa, depois da quarta passada) e ZIP refeito em entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip. O PDF foi reproduzido byte a byte a partir do ZIP desempacotado. Registro em consolidacao/lote-01/ESTADO-DA-PROVA.md, evidencias/CADEIA-VISUAL-2026-10-04.json e evidencias/PACOTE-VERIFICADO.json. O ZIP de 03/10 saiu da árvore e continua no histórico do git.
+3. FEITO EM PARTE em 04/10/2026: aplicadas as 9 decisões do autor da terceira passada (D05 a D12), os verbetes de índice (D13) e a retirada das tabelas de projetista pedida pelo autor (D14 a D17). Na quarta passada, Sem Técnica passou a registrar a Expressão da técnica (D18) e saíram as outras contas de projetista do mesmo tipo (D19 a D24). Ficam 18 achados que pedem decisão de regra, nome ou redação, listados em "O que precisa do Mizuki" de revisao-interfaces/ACHADOS.md. Não confundir regra não decidida com erro simples de remissão.
 Depois: executar testes humanos e realizar migração quando a candidata estabilizar e o autor decidir a publicação. A etapa artística foi retirada do PR pelo autor.
 
 O usuário pretende continuar pelo Claude. Toda a entrega substantiva está no GitHub; os PNGs de inspeção e antigos pacotes de transferência ficam locais. Não existe material novo de regras escondido nesses pacotes. Os PDFs de terceiros não são incluídos no repositório.

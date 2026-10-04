@@ -331,3 +331,13 @@ Candidata editorial e mecânica. Publicados preservados. As alterações são pr
 **Motivo:** Não sugerir que a mesma ficha trocou de técnica sem explicação.
 
 **Impacto_ou_limite:** Nenhuma alteração de regra.
+
+## R08-34
+
+**Antes:** A média bruta é 108, distribuída no tempo e antes das defesas.
+
+**Depois:** (retirado)
+
+**Motivo:** Pedido do autor em 04/10/2026 ("Pode remover, qualquer coisa semelhante tbm"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.
+
+**Impacto_ou_limite:** Nenhuma alteração de regra. O auditor continua calculando a média do exemplo como conta de projeto.

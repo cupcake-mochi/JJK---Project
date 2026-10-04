@@ -1,15 +1,15 @@
 {
   "ok": true,
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38"
+    "sistema/05-material/livro/planejamento-editorial/invocacoes/lote-01/INVOCACOES-EM-CAMPO.md": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c"
   },
   "fontes": {
     "sistema/05-material/livro/manual/60-invocacoes.md": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
     "invocacoes/05-Edicao-Integrada/60-invocacoes.md": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82",
     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md": "948dc94babd1d17022e5a3b5b817e160d2cf1e92c61d37d02462f412ff4e1e44",
-    "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+    "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
     "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
-    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "17331ebd3c99cb822d6b5c62610cc55ab6dfe715f53476835394a36d7a47696d",
+    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "f8409ae24c39d5a3cb0d2dcf983796fcd5dff4b89f812b7ee0545fba32d184c4",
     "sistema/05-material/livro/planejamento-editorial/pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae"
   },
   "verificacoes": [
@@ -536,7 +536,7 @@
     {
       "id": "volume-inv-maxima",
       "passou": true,
-      "detalhe": 284
+      "detalhe": 275
     },
     {
       "id": "titulo-inv-maxima",
@@ -6906,7 +6906,7 @@
     "inv-corpos": 365,
     "inv-reparo": 355,
     "inv-liberacao": 334,
-    "inv-maxima": 284,
+    "inv-maxima": 275,
     "inv-dominio": 322,
     "inv-queda": 276,
     "inv-retorno": 286,
