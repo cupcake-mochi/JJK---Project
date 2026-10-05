@@ -509,7 +509,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER05",
     "ancora": "bloquear",
@@ -518,6 +518,16 @@
     "motivo": "Remover a escolha conveniente de um duplo descartado.",
     "tipo": "mecânica / fechamento",
     "fonte": "R02 Bloquear"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/23-bloquear.md",
+     "sistema/05-material/livro/manual/11-o-turno.md"
+    ],
+    "nota": "Desvantagem no Bloquear: Brecha é o pior resultado, depois os comuns; Aparar exige dois conjuntos com duplo 10.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -553,7 +563,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER07",
     "ancora": "ajudar",
@@ -562,6 +572,16 @@
     "motivo": "Evitar estoque de ajuda antes da cena.",
     "tipo": "mecânica / fechamento",
     "fonte": "manual10/11; PHB2024 localPDF366"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/10-como-jogar.md",
+     "sistema/03-mecanica/04-pericias-e-testes.md"
+    ],
+    "nota": "Ajudar: a vantagem expira no começo do próximo turno; fora do combate, vale para uma tentativa concreta.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -575,7 +595,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER08",
     "ancora": "ajudar",
@@ -584,6 +604,16 @@
     "motivo": "Tornar a contribuição verificável e evitar ajuda ofensiva remota gratuita.",
     "tipo": "mecânica / fechamento",
     "fonte": "manual10/11; PHBPDF366 usa1,5m, candidata usaalcancereal"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/10-como-jogar.md",
+     "sistema/03-mecanica/04-pericias-e-testes.md"
+    ],
+    "nota": "Ajuda ofensiva: aliado e inimigo ao alcance corpo a corpo do ajudante; o inimigo percebe.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -619,7 +649,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER10",
     "ancora": "interacao",
@@ -628,6 +658,17 @@
     "motivo": "Sincronizar o procedimento com o Bastião.",
     "tipo": "mecânica / fechamento",
     "fonte": "R13INTERFACESI01, aprovado raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/12-pericias-e-oficios.md",
+     "sistema/03-mecanica/04-pericias-e-testes.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md"
+    ],
+    "nota": "Provocar: o total é a CD, e o TR de Espírito resiste no empate (como no Bastião).",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -641,7 +682,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER11",
     "ancora": "interacao",
@@ -650,6 +691,17 @@
     "motivo": "Evitar provocar sem sinais e preservar a escolha das ações do alvo.",
     "tipo": "mecânica / fechamento",
     "fonte": "manual11; regra geral de sinais"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/12-pericias-e-oficios.md",
+     "sistema/03-mecanica/04-pericias-e-testes.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md"
+    ],
+    "nota": "Provocar exige que o alvo perceba e entenda a afronta; fontes múltiplas seguem o cancelamento comum.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -663,7 +715,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER12",
     "ancora": "interacao",
@@ -672,6 +724,17 @@
     "motivo": "Uma tentativa sem informação disponível não esgota a capacidade.",
     "tipo": "mecânica / fechamento",
     "fonte": "manual11"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/12-pericias-e-oficios.md",
+     "sistema/03-mecanica/04-pericias-e-testes.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md"
+    ],
+    "nota": "Ler o Ambiente sem informação disponível não gasta ação nem uso.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -751,7 +814,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER16",
     "ancora": "oportunidade",
@@ -760,6 +823,16 @@
     "motivo": "Conhecer a posição anterior não permite perceber a saída atual.",
     "tipo": "mecânica / fechamento",
     "fonte": "R01/R02/comuns; PHBPDF32"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md"
+    ],
+    "nota": "Ataque de oportunidade exige acompanhar a saída por visão ou equivalente; o golpe vem antes da saída.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -773,7 +846,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER17",
     "ancora": "oportunidade",
@@ -782,6 +855,16 @@
     "motivo": "Distinguir atravessar a área por conta própria de ser deslocado.",
     "tipo": "mecânica / fechamento",
     "fonte": "R01/comuns; PHBPDF32/382"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md"
+    ],
+    "nota": "Queda, teleporte e movimento imposto não provocam oportunidade; andar com o próprio movimento pode provocar.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -795,7 +878,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER18",
     "ancora": "concentracao",
@@ -804,6 +887,16 @@
     "motivo": "Preservar o vínculo à aplicação de dano.",
     "tipo": "mecânica / fechamento",
     "fonte": "manual11"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md"
+    ],
+    "nota": "Concentração: um TR por aplicação de dano; tipos mistos do mesmo golpe não multiplicam.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -817,7 +910,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER19",
     "ancora": "concentracao",
@@ -826,6 +919,16 @@
     "motivo": "Conciliar o procedimento com as condições específicas do ProjetoM.",
     "tipo": "mecânica / fechamento",
     "fonte": "coordenação raizR03; manual11"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md"
+    ],
+    "nota": "Concentração: dano zero depois das defesas dispensa o TR; vida temporária conta; Inconsciente encerra, Guarda Aberta não.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -839,7 +942,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER20",
     "ancora": "alcance",
@@ -848,6 +951,17 @@
     "motivo": "Um corpo sem ação não ameaça a mira; Incapacitado ainda pode fazê-lo.",
     "tipo": "mecânica / fechamento",
     "fonte": "R02; PHBPDF32comparação"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md",
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md"
+    ],
+    "nota": "Disparo com inimigo adjacente: só prejudica se o inimigo puder agir e perceber o atacante.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -861,7 +975,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER21",
     "ancora": "espacos",
@@ -870,6 +984,16 @@
     "motivo": "Distinguir condição específica de ausência de ação.",
     "tipo": "mecânica / fechamento",
     "fonte": "lote06-r6; coordenaçãoR03"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md"
+    ],
+    "nota": "Corpo inconsciente ou imóvel pode ser atravessado, como terreno difícil.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -927,7 +1051,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER24",
     "ancora": "voo",
@@ -936,6 +1060,16 @@
     "motivo": "Não somar modalidades gratuitamente nem inutilizar ações convertidas.",
     "tipo": "mecânica / fechamento",
     "fonte": "lote06-r6 e manual11"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md"
+    ],
+    "nota": "Troca de modalidade de movimento: a primeira reserva desconta o gasto; cada ação a mais cria a própria.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -949,7 +1083,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER25",
     "ancora": "arrasto",
@@ -958,6 +1092,17 @@
     "motivo": "Fechar transporte de corpos e resgate sem carga gratuita.",
     "tipo": "mecânica / fechamento",
     "fonte": "lote06-r6/comuns; autorizado raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md",
+     "sistema/03-mecanica/14-equipamento.md"
+    ],
+    "nota": "Arrasto: equipamento próprio e carga somam ao limite dobrado; dois metros por metro, mais terreno.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -971,7 +1116,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER26",
     "ancora": "arrasto",
@@ -980,6 +1125,17 @@
     "motivo": "Ajudar num teste não multiplica capacidade ou cria ações.",
     "tipo": "mecânica / criação",
     "fonte": "lote06-r6; autorização raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "regra_nova",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md",
+     "sistema/03-mecanica/14-equipamento.md"
+    ],
+    "nota": "Transporte em grupo: Volume dividido, cada capacidade respeitada, movimento descontado de todos.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -993,7 +1149,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER27",
     "ancora": "montaria",
@@ -1002,6 +1158,16 @@
     "motivo": "Permitir a situação comum sem conceder turnos ou ataques adicionais.",
     "tipo": "mecânica / criação",
     "fonte": "PHBPDF32/33; R11 entidades"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "regra_nova",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md"
+    ],
+    "nota": "Montaria: anatomia, tamanho, carga, custo de montar e ações de montaria treinada.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1015,7 +1181,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER28",
     "ancora": "montaria",
@@ -1024,6 +1190,16 @@
     "motivo": "Evitar imunidade a oportunidade por transporte e resolver quedas.",
     "tipo": "mecânica / criação",
     "fonte": "PHBPDF32/33; adaptaçãodoProjetoM"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "regra_nova",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md"
+    ],
+    "nota": "Montaria em combate: oportunidade pode atingir um dos dois; TR Físico CD 10 para manter-se montado.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1037,7 +1213,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER29",
     "ancora": "queda-criatura",
@@ -1046,6 +1222,17 @@
     "motivo": "Resolver acidentes sem duplicar dano ou a colisão própria de uma habilidade.",
     "tipo": "mecânica / criação",
     "fonte": "TashaPDF161; autorização raiz; abstraçãodejogo"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "regra_nova",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md"
+    ],
+    "nota": "Queda sobre criatura: TR Físico CD 14, diferença de uma categoria no máximo, dano repartido antes das defesas.",
+    "como": "antes resumido pela unidade (a candidata reescreveu as regras gerais); donos pela âncora do registro, a confirmar na aplicação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15205,7 +15392,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS03",
     "tipo": "Esclarecimento mecânico",
@@ -15216,6 +15403,19 @@
      "integrado",
      "R03"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Aura do Bastião termina com Inconsciente, não ao cair ou ser agarrado; Inabalável conserva os passivos.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15227,7 +15427,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS04",
     "tipo": "Esclarecimento mecânico",
@@ -15238,6 +15438,19 @@
      "integrado",
      "R01"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Provocar: o total vira CD e o Espírito igual ou maior resiste (a mesma regra do GER10, no texto do Bastião).",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15271,7 +15484,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS06",
     "tipo": "Esclarecimento mecânico",
@@ -15283,6 +15496,19 @@
      "R02",
      "R07"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Intercepção exige perceber o aliado e o ataque; erro não é acerto.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15316,7 +15542,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS08",
     "tipo": "Esclarecimento mecânico",
@@ -15327,6 +15553,19 @@
      "integrado",
      "R04"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Ainda de Pé: dispara quando a perda deixa a vida na metade ou abaixo, não só a vida temporária.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15360,7 +15599,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS10",
     "tipo": "Esclarecimento mecânico",
@@ -15372,6 +15611,19 @@
      "R03",
      "R04"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Passa Pra Mim: resolve as proteções do aliado, preserva 1, transfere o excedente com os tipos, sem retransmissão.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15383,7 +15635,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS11",
     "tipo": "Esclarecimento mecânico",
@@ -15394,6 +15646,19 @@
      "integrado",
      "R03"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Alicerce é resistência, não empilha metades equivalentes e respeita Alma.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15449,7 +15714,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS14",
     "tipo": "Esclarecimento mecânico",
@@ -15462,6 +15727,19 @@
      "R02",
      "R06"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Trocação e Retaliação resolvem depois do golpe recebido, se ainda puder agir.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15495,7 +15773,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS16",
     "tipo": "Esclarecimento mecânico",
@@ -15507,6 +15785,19 @@
      "comuns",
      "R03"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Mão: obstáculo interrompe, sem dano de colisão automático; escape usa a CD inicial.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15540,7 +15831,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS18",
     "tipo": "Esclarecimento mecânico",
@@ -15552,6 +15843,19 @@
      "R02",
      "comuns"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Arrastão: só os golpes usam o alcance da aura; agarrar segue o alcance normal.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15586,7 +15890,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS20",
     "tipo": "Esclarecimento mecânico",
@@ -15597,6 +15901,19 @@
      "integrado",
      "R04"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Retaliação: o máximo de PE acompanha o atributo, sem recuperar energia ao variar.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15630,7 +15947,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS22",
     "tipo": "Esclarecimento mecânico",
@@ -15641,6 +15958,19 @@
      "integrado",
      "R06"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Oportunista: a próxima conjuração consome o benefício mesmo se errar; Classe 0 não consome.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15676,7 +16006,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS24",
     "tipo": "Esclarecimento mecânico",
@@ -15688,6 +16018,19 @@
      "R06",
      "R07"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Contra: confere a metade na declaração, Classe até a metade da máxima, PE normal.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15699,7 +16042,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS25",
     "tipo": "Esclarecimento mecânico / sincronização",
@@ -15711,6 +16054,19 @@
      "integrado"
     ],
     "destino_sincronizacao": "Dano e Condições — Golpes com vários tipos"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Dano misto: a fonte fixa a ordem das parcelas antes de rolar; transfere só as restantes, com os tipos.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15722,7 +16078,7 @@
     "peça 23",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "BAS26",
     "tipo": "Esclarecimento com impacto mecânico",
@@ -15736,6 +16092,19 @@
      "R02"
     ],
     "impacto": "Amplia a leitura estrita anterior para efeitos ofensivos sem rolagem de acerto; não altera o ganho matemático da vantagem."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md",
+     "sistema/03-mecanica/23-bloquear.md"
+    ],
+    "nota": "Olhos Em Mim: vantagem em TR Físico contra ataque ou efeito ofensivo de criatura hostil na área (era só ataque).",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16817,13 +17186,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA04",
     "tipo": "M",
     "antes": "Remodelar permitia sobra descartada e exigia pagar diferença, mas não fixava ordem frente à devolução.",
     "depois": "Paga diferença positiva dos preços trocados com resultado; recálculo do orçamento pode retirar mais, nunca devolver o que foi pago.",
     "motivo": "Evita duas interpretações de recuperação de dados e respeita fonte que manda descartar sobra; root aprovou direção conservadora."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Remodelar: paga a diferença positiva dos preços trocados; o recálculo pode retirar mais, nunca devolver.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16865,13 +17245,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA07",
     "tipo": "M",
     "antes": "Forma Fluida não explicava conversão entre dano/cura/apoio.",
     "depois": "Compara saldo útil em pontos antes de converter, sem crescimento, aplicando teto da nova Forma.",
     "motivo": "Permite troca prevista sem converter cada1PVtemporário em1d8 ou contornar Cura2C."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Forma Fluida: compara o saldo útil em pontos antes de converter entre dano, cura e apoio, com o teto da nova Forma.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16881,13 +17272,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA08",
     "tipo": "M",
     "antes": "Duas trocas simultâneas sem ordem de custo.",
     "depois": "Em Composição, compara preço conjunto das peças trocadas, paga diferença positiva e descarta sobra.",
     "motivo": "O mesmo Desdobramento pode compensar uma troca pela outra, mas não gerar saldo ou reaproveitar sobra descartada de outra conjuração."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Composição: compara o preço conjunto das peças trocadas, paga a diferença positiva e descarta a sobra.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16897,13 +17299,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA09",
     "tipo": "M",
     "antes": "Versões Familiares compartilhavam Afinidade, mas Único não era nominal.",
     "depois": "Original/Familiar compartilham usos por ficha como Único.",
     "motivo": "Não fabricar uso extra por alternar o texto da mesma aplicação."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Versões Familiares compartilham os usos por ficha como Único.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16913,13 +17326,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA10",
     "tipo": "M",
     "antes": "Interação entre Afinidade e metades de Eco/Cobrança não fechada.",
     "depois": "Escolha uma fórmula completa: Afinidade reduz a base original e soma a diferença integral de Ampliar; Eco/Cobrança reduzem o custo normal da Classe conjurada. Nunca aplique metade ao valor já reduzido. Gatilhos de primeira/próxima conjuração são consumidos mesmo se outra alternativa for escolhida.",
     "motivo": "Comparação Classe 2 → 4: Afinidade 9 PE, Eco 6 PE, composição indevida 5 PE. A decisão nova conserva as fórmulas de cada dono e foi aprovada pela raiz; não é atribuída à publicação histórica."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Afinidade e Eco ou Cobrança: escolha uma fórmula completa; nunca aplique a metade ao valor já reduzido.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16929,13 +17353,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA11",
     "tipo": "M",
     "antes": "Ritual Energia com Afinidade Ampliada sem ordem.",
     "depois": "O desconto fixo de Ritual reduz a base pertinente à alternativa escolhida antes de calcular a metade, com mínimo 1: base original para Afinidade, custo da Classe efetiva para Eco/Cobrança. Custos independentes são somados depois.",
     "motivo": "Preserva a ordem fixa-antes-metade de R19 sem transferir a diferença integral de Afinidade para a fórmula diferente de Eco. Sincronizar donos no fechamento global."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Ritual Energia com Afinidade Ampliada: o desconto fixo reduz a base da alternativa escolhida antes da metade, mínimo 1.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16945,13 +17380,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA12",
     "tipo": "M",
     "antes": "Instintiva1PE com outros descontos ambígua.",
     "depois": "A base de 1 PE de Instintiva não recebe novos abatimentos e exige Padrão. Instintiva é uma alternativa completa: ao Ampliar de Classe 2 para 5, pode escolher Instintiva 10 PE ou Eco 8 PE, sem dividir os 10 por dois.",
     "motivo": "Mantém custo positivo, verifica a ação final e não obriga a usar uma alternativa mais cara. Extras continuam separados; custos de Bônus não recebem o preço Instintivo."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Instintiva: base de 1 PE sem novos abatimentos, exige Padrão; é alternativa completa a Eco.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16977,13 +17423,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA14",
     "tipo": "M",
     "antes": "Chamado recolhe/manifesta sem custo de manipulação explícito.",
     "depois": "Guardar/sacar usam manipulação normal; retornoBônus sóarma solta e mão disponível.",
     "motivo": "Não inventar saque gratuito repetido nem desarmar quem segura o item."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Chamado: guardar e sacar usam a manipulação normal; o retorno em Bônus só com arma solta e mão livre.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16993,13 +17450,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA15",
     "tipo": "M",
     "antes": "Forma Mutável mantém munição sem tipo/capacidade/retorno do perfil.",
     "depois": "Não converte, repõe ou repara. Descarregar antes de assumir perfil incompatível ou capacidade menor. Ao terminar vínculo volta perfil original; munição inadequada impede disparar até ajuste.",
     "motivo": "Conservação do inventário e ausência de fabricação permanente de mercadoria. Root aprovou fechamento."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Forma Mutável não converte, repõe nem repara munição; descarregar antes de perfil incompatível.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17009,13 +17477,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA16",
     "tipo": "M",
     "antes": "Passo da Arma exige perceber arma, mas não espaço de chegada.",
     "depois": "Exige perceber espaço livre e arma, com mão para recebê-la; não leva criaturas.",
     "motivo": "Direção oferecida por Sentido não identifica espaço livre do outro lado de parede."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Passo da Arma exige perceber o espaço livre e a arma, com mão para recebê-la; não leva criaturas.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17025,13 +17504,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA17",
     "tipo": "M",
     "antes": "Âncora: até liberar, sem ação ou destruição.",
     "depois": "Liberar sem ação no próprio turno; destruir arma/apoio também encerra.",
     "motivo": "Define saída operacional sem tornar apoio indestrutível."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Âncora: liberar sem ação no próprio turno; destruir a arma ou o apoio também encerra.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17073,13 +17563,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA20",
     "tipo": "M",
     "antes": "Manifestação novaorigem versus CorpoaCorpo e Formas centradas.",
     "depois": "Cone/Linha podem partir do ponto, mas Toque/Aura não afastam aplicação mantendo devolução e Forma que exige centropróprio conserva requisito.",
     "motivo": "R07proíbe explicitamente outrobenefício ampliarToque/Aura mantendoCorpoaCorpo. Rootaprovouinterface."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Manifestação: Cone e Linha podem partir do ponto; Toque e Aura não se afastam mantendo a devolução.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17089,13 +17590,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA21",
     "tipo": "M",
     "antes": "Ressonante: ExpressãoFamiliar pode ser entendida como Desdobramento grátis.",
     "depois": "Familiar sozinha não geraEco; alteração adicionalporDesdobramento pode gerar.",
     "motivo": "Fonte doCatalisador citaFamiliar expressamente, enquantoEcoTécnico exigeDesdobramento. SemcadeiadeEcosgratis."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Ressonante: Expressão Familiar sozinha não gera Eco; só a alteração por Desdobramento.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17105,13 +17617,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA22",
     "tipo": "M",
     "antes": "Ecos/Impulso apósresolver poderiam repetir poralvo ou área persistente.",
     "depois": "Geração única apósresoluçãoinicial; preparaçãoadiada só gera apósdisparo; parcelas posteriores não geram.",
     "motivo": "Evita múltiplosrecursos gratuitos por um mesmo uso; conserva gatilhodefeitiço resolvido."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Ecos e Impulso: geração única depois da resolução inicial; parcelas depois não geram.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17121,13 +17644,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA23",
     "tipo": "M",
     "antes": "DoisEcosdiferentes sem critério.",
     "depois": "Registro usa peça+maneira. Duas cópias da mesma peça pelo mesmo método não ocupam duasvagas.",
     "motivo": "Método está explicitamente guardado na fonte; aplicações ainda obedecem repetibilidade."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Registro de Eco por peça e maneira; duas cópias pelo mesmo método ocupam uma vaga.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17153,13 +17687,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA25",
     "tipo": "M",
     "antes": "Impulso é gasto em outra aplicação dessas, ação de gasto pouco clara.",
     "depois": "Geração exigePadrão; gasto exigeClasse1+alterada/Familiar. Acelerar sóPadrão. Outrasopções conservam açãodaaplicação.",
     "motivo": "Distinguecondiçãodeganho deuso, semliberarClasse0oufeitiçoinalterado."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Impulso: gerar exige Padrão; gastar exige Classe 1 ou mais alterada ou Familiar.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17201,13 +17746,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA28",
     "tipo": "M",
     "antes": "Sobrecarga+Correção reserva preço sem registrar momento do recurso.",
     "depois": "GastaImpulso e uso de cena ao declararcombinação; parcelaCorreçãosósererrolar.",
     "motivo": "Não preservarusodecenaseataqueacerta e nãocorrige."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Sobrecarga com Correção: gasta o Impulso e o uso de cena ao declarar.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17217,13 +17773,24 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EMA29",
     "tipo": "M",
     "antes": "FluxoContínuo não dizia efeito de bloqueio jáexistente.",
     "depois": "Não ignora bloqueiodeganho atéfimpróximoturno imposto porSobrecarga.",
     "motivo": "Não gerarImpulso pela habilidade27 durantevedaçãoexpressa19."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/03-Emanador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Fluxo Contínuo não ignora o bloqueio de ganho imposto pela Sobrecarga.",
+    "como": "antes resumido pela unidade (a candidata reescreveu o Caminho); donos na v0.331: a edição integrada do Caminho, o capítulo 35 e a peça 06",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
