@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+  "sha256_pdf_vigente": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -56,7 +56,7 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "ab28bc349809bf55c72bdab93d4922e0648f8db55a55a32f570a9581ad44c3b0",
+      "sha256": "9cff09c2f0fdd88920302b5e86bf2b31c8ee91c3825fbf24bb8a2d1563a8ce48",
       "bytes": 9656
     },
     {
@@ -141,7 +141,7 @@
     },
     {
       "arquivo": "evidencias/auditoria-numerica.json",
-      "sha256": "288945197ac6a12e4527479fa8dd616d0fc58c149720fbbfad590a7f03a576fb",
+      "sha256": "9873eef17b1a0cf1a59ca538fef91dadf0f022d587621895d00cb2e63cd0eac4",
       "bytes": 134626
     },
     {
@@ -288,5 +288,15 @@
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Sexta passada de 05/10/2026 (D42): Execução Preparada no nível 7 da Vanguarda, por decisão do autor; nas outras unidades, VALIDADORES e MANIFESTO apontando para o PDF vigente.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 05/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_d43": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json",
+      "evidencias/auditoria-numerica.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Sétima passada de 05/10/2026 (D43): Condição, Prende e Cerca pedem TR, por decisão do autor; nesta unidade, VALIDADORES e MANIFESTO apontando para o PDF vigente.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

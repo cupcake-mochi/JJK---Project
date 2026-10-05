@@ -1,22 +1,22 @@
 {
-  "data_utc": "2026-10-05T03:06:29.425946+00:00",
+  "data_utc": "2026-10-05T17:34:37.494120+00:00",
   "escopo": "Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15, hashes do texto/PDF e índice crítico do manifesto. Não relê regras, não executa testes novamente e não altera documentos de outros donos.",
   "sha256_ordem": "02ad73793f3db9805ba980c68926d3a8ebb175ce1d2f685b94087e24c91c3daf",
   "fontes": 23,
-  "decisoes_registradas": 824,
+  "decisoes_registradas": 838,
   "donos_com_registro_contavel": 23,
   "checks_registrados": 4082,
   "unidades": [
     {
       "id": "ab",
       "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
-      "sha256_texto": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
-      "sha256_pdf": "729b841c732b5f02fd4a70df4ee5ec62513878bf0a9ef5cb047a047319ef3778",
+      "sha256_texto": "0aa5778f2b21f1f2f643cc486cbb4b1ea8c659bd826943ed89c8d2e43bbffdac",
+      "sha256_pdf": "4bcbb95f94b6d75da89a9a13e645e6e7fb6e8498f1f44deb195563fecd988213",
       "paginas": 13,
       "validadores_presentes": 15,
       "conferencia_checks": 110,
       "conferencia_ok": true,
-      "decisoes": 24,
+      "decisoes": 27,
       "resumo_decisoes": [
         {
           "id": "AB-01",
@@ -136,6 +136,21 @@
         {
           "id": "AB24",
           "tema": "| 5",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "AB25",
+          "tema": "No acerto, causa **3d8 de Concussão**, e o alvo faz **TR Físico contra CD 12**",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "AB26",
+          "tema": "e paga 1 por Condição: Derrubado, com TR Físico registrado para ela",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "AB27",
+          "tema": "Se a criatura sobrevivesse ao acerto, faria o TR Físico contra CD 12 e, na falha, ficaria Derrubada por uma rodada.",
           "tipo": "decisão do autor"
         }
       ],
@@ -352,13 +367,13 @@
     {
       "id": "dano",
       "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
-      "sha256_texto": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
-      "sha256_pdf": "c957453076c093dbcaa3cc869625fe9ece2818dd1e9b59171cc88799b7879d1c",
+      "sha256_texto": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192",
+      "sha256_pdf": "b6975960aca0d26667c6794139547da053540a6ed12bebe6af07cb6f36b6902c",
       "paginas": 20,
       "validadores_presentes": 15,
       "conferencia_checks": 163,
       "conferencia_ok": true,
-      "decisoes": 35,
+      "decisoes": 36,
       "resumo_decisoes": [
         {
           "id": "DR01",
@@ -533,6 +548,11 @@
         {
           "id": "DR35",
           "tema": "Estas regras são para personagens jogadores",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "DR36",
+          "tema": "A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho",
           "tipo": "decisão do autor"
         }
       ],
@@ -1137,13 +1157,13 @@
     {
       "id": "fundamento",
       "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
-      "sha256_texto": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
-      "sha256_pdf": "d0c4ffe270f8271f04d421c7e9cae9217b08f86850391cb33f73597b4f457645",
+      "sha256_texto": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7",
+      "sha256_pdf": "d9fda066121e5f52bcbbf6d0c6e1442137433c8dfbe8a295c4f0a50c116f80e2",
       "paginas": 29,
       "validadores_presentes": 15,
       "conferencia_checks": 233,
       "conferencia_ok": true,
-      "decisoes": 58,
+      "decisoes": 61,
       "resumo_decisoes": [
         {
           "id": "FU-01",
@@ -1434,6 +1454,21 @@
           "id": "FU-58",
           "tema": "Restrição Leve no Classe 0 com Toque ou Aura",
           "tipo": "M"
+        },
+        {
+          "id": "FU-59",
+          "tema": "Resultados de ataque com Controle",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-60",
+          "tema": "Tabela de Controle: Prende",
+          "tipo": "M"
+        },
+        {
+          "id": "FU-61",
+          "tema": "Tabela de Controle: Condição",
+          "tipo": "M"
         }
       ],
       "achados": [],
@@ -1443,13 +1478,13 @@
     {
       "id": "catalogo",
       "arquivo": "catalogo/lote-01/CATALOGO.md",
-      "sha256_texto": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
-      "sha256_pdf": "55b95d6ca7d37bd4352508b736c530262f3e33fce10dbd532dd23f8e68241006",
+      "sha256_texto": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60",
+      "sha256_pdf": "654093e24be94b83ce1dcc67e1d055efb804ecde41c0f5598aba1e081205bcc1",
       "paginas": 30,
       "validadores_presentes": 15,
       "conferencia_checks": 242,
       "conferencia_ok": true,
-      "decisoes": 118,
+      "decisoes": 123,
       "resumo_decisoes": [
         {
           "id": "R07-A-01",
@@ -2040,6 +2075,31 @@
           "id": "REM05",
           "tema": "Use as condições da seção **Condições, em Dano e recuperação**.",
           "tipo": "editorial"
+        },
+        {
+          "id": "CAT-D43-01",
+          "tema": "Controle",
+          "tipo": "M"
+        },
+        {
+          "id": "CAT-D43-02",
+          "tema": "Condição",
+          "tipo": "M"
+        },
+        {
+          "id": "CAT-D43-03",
+          "tema": "Condição Pesada",
+          "tipo": "M"
+        },
+        {
+          "id": "CAT-D43-04",
+          "tema": "Cerca",
+          "tipo": "M"
+        },
+        {
+          "id": "CAT-D43-05",
+          "tema": "Prende",
+          "tipo": "M"
         }
       ],
       "achados": [],
@@ -2230,13 +2290,13 @@
     {
       "id": "rotas",
       "arquivo": "rotas/lote-01/ROTAS.md",
-      "sha256_texto": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
-      "sha256_pdf": "1afd048909e1044652279e67861eedfea9e6b59d4f3a4ef4124d3a4e2d17b9e1",
+      "sha256_texto": "b1903bb79e8fe5342b0e5aff1da8928a09f2ce36a03cd862860430a292a9f9b4",
+      "sha256_pdf": "b1b0a895d5dfd78462d7001ba3c78f180e4aa3542f7dd30aee73c2d8b9b05d01",
       "paginas": 23,
       "validadores_presentes": 15,
       "conferencia_checks": 185,
       "conferencia_ok": true,
-      "decisoes": 37,
+      "decisoes": 39,
       "resumo_decisoes": [
         {
           "id": "R10-01",
@@ -2421,6 +2481,16 @@
         {
           "id": "R10-37",
           "tema": "Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos conce",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "R10-38",
+          "tema": "No acerto, cause **3d8 de Cortante**, e o alvo faz **TR Físico contra sua CD da Kata**",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "R10-39",
+          "tema": "O acerto sozinho não prende: Prende entra na falha do TR",
           "tipo": "decisão do autor"
         }
       ],

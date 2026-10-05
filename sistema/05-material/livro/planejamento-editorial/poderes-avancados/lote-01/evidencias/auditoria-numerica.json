@@ -1477,11 +1477,11 @@
     },
     {
       "path": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
-      "sha256": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f"
+      "sha256": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7"
     },
     {
       "path": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",
-      "sha256": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff"
+      "sha256": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60"
     }
   ]
 }

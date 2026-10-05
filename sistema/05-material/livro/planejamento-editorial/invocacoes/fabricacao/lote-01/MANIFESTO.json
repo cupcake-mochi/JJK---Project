@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+  "sha256_pdf_vigente": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -56,13 +56,13 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "a9f9827b569afd291b501796f7ddfb27be05b829b1619015dddddf8c8eaad470",
+      "sha256": "cbcdf8ae1de86106c2406339a2ab2805050aeef1d80e57ede8b6d79970c21a78",
       "bytes": 6202
     },
     {
       "arquivo": "auditar.py",
-      "sha256": "19222177634bd936c3e642b1901b570a6e03e19b433a67aaa71783eb5b9b61ec",
-      "bytes": 11510
+      "sha256": "0e3aaa07de21900c9bfb219a3b7830081ddee9d3367c7c1323021bf7814366de",
+      "bytes": 11733
     },
     {
       "arquivo": "conferir.py",
@@ -151,8 +151,8 @@
     },
     {
       "arquivo": "evidencias/comparacao-fontes-final.json",
-      "sha256": "cd6a1766a91e9279d9c589a5b4576a824873bdd054352be8dc35a81b609effd4",
-      "bytes": 3881
+      "sha256": "2a432c949f14e46b6bdd0d567e213353d1a26398c85b5a6988b83b194a196ca7",
+      "bytes": 3882
     },
     {
       "arquivo": "evidencias/editorial-automatico.json",
@@ -161,8 +161,8 @@
     },
     {
       "arquivo": "evidencias/fontes-concorrentes.json",
-      "sha256": "9e6022bf8d7b63c6d487b52611566078d0c6bf3c9be501254477001ecb23bee2",
-      "bytes": 4361
+      "sha256": "bda9c9160309929d34fa96c9d84f200980bcf4ff1b7c00a088701e24e42ec13c",
+      "bytes": 4982
     },
     {
       "arquivo": "evidencias/fontes-iniciais.json",
@@ -176,7 +176,7 @@
     },
     {
       "arquivo": "evidencias/fontes-preservadas.json",
-      "sha256": "c04b8689e836f58378e1c484910520756f519b22605ee3e0c9fc10bdcfd6fe21",
+      "sha256": "3b2b0a5dae7ba9de50ee6b9a79801a936b38b77bb14e57df7be5d602c31ad217",
       "bytes": 583
     },
     {
@@ -208,6 +208,11 @@
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04.json",
       "sha256": "a81060b1ef3ff7c42b130bd609003113014501483f4a1d924f5731a987316df5",
       "bytes": 463
+    },
+    {
+      "arquivo": "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "sha256": "e0fa9b449a48a8598acc2365168c66cef9e39692bd7f2161763442c7fff3bb74",
+      "bytes": 1162
     }
   ],
   "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO.",
@@ -277,5 +282,20 @@
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Sexta passada de 05/10/2026 (D42): Execução Preparada no nível 7 da Vanguarda, por decisão do autor; nas outras unidades, VALIDADORES e MANIFESTO apontando para o PDF vigente.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 05/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_d43": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json",
+      "auditar.py",
+      "evidencias/comparacao-fontes-final.json",
+      "evidencias/fontes-concorrentes.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "arquivos_acrescentados": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json"
+    ],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Sétima passada de 05/10/2026 (D43): Condição, Prende e Cerca pedem TR, por decisão do autor; nesta unidade, VALIDADORES e MANIFESTO apontando para o PDF vigente. Cotejo registrado das fontes que esta unidade guarda por hash.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

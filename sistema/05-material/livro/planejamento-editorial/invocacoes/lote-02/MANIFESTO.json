@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "6f91d9f509a0abbd04912354a51b4f075310ebd79ff07f2b7ecb522bc174a3d2",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+  "sha256_pdf_vigente": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -66,7 +66,7 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "7105ffcad5385694cd23ebb2d4fafbdf7389f5f63d277daeb978e677fed1a4f8",
+      "sha256": "fccfc2af816e74d9f493929473c2501f69a235299904aa799e8c09271ac8dd74",
       "bytes": 8189
     },
     {
@@ -131,8 +131,8 @@
     },
     {
       "arquivo": "evidencias/fontes-concorrentes-finais.json",
-      "sha256": "ae2dce5199f62577db1e246653f85b28b38f2df2fd372a920bf2b85c832c5490",
-      "bytes": 3000
+      "sha256": "6e94dbaa23f303b462d07fc3d993b98b385ba3a039d9a8703a4381ad395844bd",
+      "bytes": 4187
     },
     {
       "arquivo": "evidencias/fontes-iniciais-auditoria.json",
@@ -258,5 +258,15 @@
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Sexta passada de 05/10/2026 (D42): Execução Preparada no nível 7 da Vanguarda, por decisão do autor; nas outras unidades, VALIDADORES e MANIFESTO apontando para o PDF vigente.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 05/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_d43": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json",
+      "evidencias/fontes-concorrentes-finais.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Sétima passada de 05/10/2026 (D43): Condição, Prende e Cerca pedem TR, por decisão do autor; nesta unidade, VALIDADORES e MANIFESTO apontando para o PDF vigente. Cotejo registrado das fontes que esta unidade guarda por hash.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

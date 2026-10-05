@@ -64,8 +64,17 @@
    "sem_cobertura": []
   },
   {
-   "versao": "atual",
+   "versao": "ecc17f0",
    "rodada": "sexta passada (D42)",
+   "paginas": 382,
+   "herdadas_por_corpo_identico": 371,
+   "cobertas_pela_inspecao_da_rodada": 11,
+   "listadas_mas_corpo_identico": [],
+   "sem_cobertura": []
+  },
+  {
+   "versao": "atual",
+   "rodada": "sétima passada (D43)",
    "paginas": 382,
    "herdadas_por_corpo_identico": 371,
    "cobertas_pela_inspecao_da_rodada": 11,
@@ -285,9 +294,9 @@
    "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
   },
   "43": {
-   "origem": "paginação de tabelas e títulos",
+   "origem": "sétima passada (D43)",
    "pagina_origem": 43,
-   "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
+   "pdf_origem": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb"
   },
   "44": {
    "origem": "quinta passada (D25–D41)",
@@ -370,14 +379,14 @@
    "pdf_origem": "adda0770179395f9e6ec498bda2910cfb50b40f1c8892320f0e67b724d8c0c17"
   },
   "60": {
-   "origem": "V14 completa de 03/10",
+   "origem": "sétima passada (D43)",
    "pagina_origem": 60,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb"
   },
   "61": {
-   "origem": "quinta passada (D25–D41)",
+   "origem": "sétima passada (D43)",
    "pagina_origem": 61,
-   "pdf_origem": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1"
+   "pdf_origem": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb"
   },
   "62": {
    "origem": "V14 completa de 03/10",
@@ -1200,14 +1209,14 @@
    "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
   },
   "226": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 227,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "sétima passada (D43)",
+   "pagina_origem": 226,
+   "pdf_origem": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb"
   },
   "227": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 228,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "sétima passada (D43)",
+   "pagina_origem": 227,
+   "pdf_origem": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb"
   },
   "228": {
    "origem": "V14 completa de 03/10",
@@ -1215,19 +1224,19 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "229": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 230,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "sétima passada (D43)",
+   "pagina_origem": 229,
+   "pdf_origem": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb"
   },
   "230": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 231,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "sétima passada (D43)",
+   "pagina_origem": 230,
+   "pdf_origem": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb"
   },
   "231": {
-   "origem": "paginação de tabelas e títulos",
+   "origem": "sétima passada (D43)",
    "pagina_origem": 231,
-   "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
+   "pdf_origem": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb"
   },
   "232": {
    "origem": "paginação de tabelas e títulos",
@@ -1305,14 +1314,14 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "247": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 248,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "sétima passada (D43)",
+   "pagina_origem": 247,
+   "pdf_origem": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb"
   },
   "248": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 249,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "sétima passada (D43)",
+   "pagina_origem": 248,
+   "pdf_origem": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb"
   },
   "249": {
    "origem": "V14 completa de 03/10",
@@ -1485,9 +1494,9 @@
    "pdf_origem": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1"
   },
   "283": {
-   "origem": "quinta passada (D25–D41)",
+   "origem": "sétima passada (D43)",
    "pagina_origem": 283,
-   "pdf_origem": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1"
+   "pdf_origem": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb"
   },
   "284": {
    "origem": "quinta passada (D25–D41)",

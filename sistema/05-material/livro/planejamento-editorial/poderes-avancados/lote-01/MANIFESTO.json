@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+  "sha256_pdf_vigente": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -61,7 +61,7 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "d415572880532db1f9c1503f3409db09183f5dcffc6bd97f7d67ed42bfa77cbc",
+      "sha256": "000ec7c09aff0d956c5c1e83267bd0e3ca56b0fd0c6c441c62b3bc54c480965d",
       "bytes": 11657
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "arquivo": "evidencias/auditoria-numerica.json",
-      "sha256": "600deda40260e39b766119eacdab7172850f683bafc9bc68d98865b9e6a726a8",
+      "sha256": "dd3f600f32bb439fd34a879e255fb3a5d58b3efe3bdaae70c906f73455f4ef0a",
       "bytes": 30941
     },
     {
@@ -116,7 +116,7 @@
     },
     {
       "arquivo": "evidencias/fontes-preservadas.json",
-      "sha256": "1f7cf634644d4245c2d0442ba56471d9d6a2143d58539ecd235dc7645550e289",
+      "sha256": "7e10406b6f3a0c56623bbb156b7bbacfa94cd057452a44f16a8caba27f9b184f",
       "bytes": 965
     },
     {
@@ -158,6 +158,11 @@
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
       "sha256": "4b53d3b11ff0e574ee7bc997e6f7ef528e46097915d8cf1f611827edd029c0a2",
       "bytes": 664
+    },
+    {
+      "arquivo": "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "sha256": "f067aef62d7bfc788293db9342a9b7e9457942177a9af9c5b3f0872d60474e62",
+      "bytes": 1168
     }
   ],
   "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO.",
@@ -242,5 +247,18 @@
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Sexta passada de 05/10/2026 (D42): Execução Preparada no nível 7 da Vanguarda, por decisão do autor; nas outras unidades, VALIDADORES e MANIFESTO apontando para o PDF vigente.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 05/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_d43": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json",
+      "evidencias/auditoria-numerica.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "arquivos_acrescentados": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json"
+    ],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Sétima passada de 05/10/2026 (D43): Condição, Prende e Cerca pedem TR, por decisão do autor; nesta unidade, VALIDADORES e MANIFESTO apontando para o PDF vigente. Cotejo registrado das fontes que esta unidade guarda por hash.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

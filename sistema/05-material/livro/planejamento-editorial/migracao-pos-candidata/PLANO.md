@@ -15,16 +15,16 @@ Se a decisão for não publicar a candidata inteira, este plano vale por unidade
 
 ## O tamanho do trabalho
 
-Os 23 arquivos `ALTERACOES.json` das unidades somam **824 registros** de antes, depois e motivo (eram 774 em 04/10/2026; as passadas de decisão do autor acrescentaram 50, e o inventário foi refeito em 05/10/2026). A triagem automática pelo campo de tipo de cada registro dá:
+Os 23 arquivos `ALTERACOES.json` das unidades somam **838 registros** de antes, depois e motivo (eram 774 em 04/10/2026; as passadas de decisão do autor acrescentaram 50, o inventário foi refeito em 05/10/2026, e a sétima passada, D43, acrescentou mais 14). A triagem automática pelo campo de tipo de cada registro dá:
 
 | Classe (triagem automática) | Registros |
 |---|---:|
-| Mecânica | 291 |
+| Mecânica | 299 |
 | Interface ou correção | 207 |
 | Editorial | 187 |
 | Preservação | 63 |
 | Esclarecimento | 46 |
-| Decisão do autor | 30 |
+| Decisão do autor | 36 |
 
 *"Decisão do autor" é o rótulo das passadas de 04/10 e 05/10 sem a marca `M`. Quais delas mudam regra está nas tabelas de cada passada, abaixo.*
 
@@ -34,20 +34,20 @@ Registro por registro, com a classe e os donos prováveis na v0.331: `INVENTARIO
 
 | Unidade | Registros | Mecânica (triagem) | Decisão do autor | Donos prováveis na v0.331 |
 |---|---:|---:|---:|---|
-| Catálogo | 118 | 46 | 0 | peça 17, manual do Fundamento v7, `livro/manual/40` |
-| Fundamento | 58 | 29 | 0 | peça 17, manual do Fundamento v7, `livro/manual/40` |
+| Catálogo | 123 | 51 | 0 | peça 17, manual do Fundamento v7, `livro/manual/40` |
+| Fundamento | 61 | 32 | 0 | peça 17, manual do Fundamento v7, `livro/manual/40` |
 | Ritual e Pactos | 34 | 28 | 1 | peças 27 e 22, `livro/manual/46` e `65` |
 | Poderes avançados | 35 | 20 | 1 | peça 11, rascunho da expansão sem barreira |
 | Invocações em campo | 59 | 22 | 7 | peça 15, `invocacoes/`, `livro/manual/60` |
 | Regras gerais | 38 | 18 | 0 | peças 01, 03, 04, 05 e 23 |
 | Emanador | 29 | 18 | 0 | peça 06, `livro/manual/35` |
 | Bastião | 26 | 14 | 0 | peças 06, 05 e 23 |
-| Dano e recuperação | 35 | 13 | 3 | peça 01 §5.5, peças 19, 24 e 10 |
+| Dano e recuperação | 36 | 13 | 4 | peça 01 §5.5, peças 19, 24 e 10 |
 | Progressão | 42 | 14 | 1 | peças 12 e 18 |
 | Aptidões e Refino | 33 | 13 | 0 | peça 11 |
-| Rotas | 37 | 10 | 4 | peças 20 e 25 |
+| Rotas | 39 | 10 | 6 | peças 20 e 25 |
 | Origens | 35 | 9 | 0 | peças 09 e 13 |
-| Demais 10 unidades | 245 | 37 | 13 | ver o inventário |
+| Demais 10 unidades | 248 | 37 | 16 | ver o inventário |
 
 A coluna de donos é um mapa por unidade, a confirmar entrada por entrada. Os Caminhos de Evocador e Incursor, por exemplo, nunca tiveram peça própria: na v0.331 eles moram no `livro/manual/35-caminhos-e-trilhas.md` e no `RASCUNHO-trilhas.md`.
 
@@ -163,6 +163,21 @@ D42 (`../revisao-interfaces/CORRECOES-APLICADAS.md`): o nível 7 da Vanguarda ga
 | Vanguarda 7: Ataque Extra e Execução Preparada (1× por Sequência, Conclusão depois de duas ou mais Conduções acertadas impõe −1 a um TR adicional) | VG-REV-03, VG-REV-04 | peça 06 (tabela do nível 7 e o texto da Não Pega) e `livro/manual/35-caminhos-e-trilhas.md` |
 
 **O preço ainda não foi medido.** Na peça 06, o degrau do nível 7 da Vanguarda soma 2,10 de dano por rodada: 0,92 do ataque extra e 1,18 da Não Pega. A Execução Preparada troca a segunda parcela. Ao migrar, meça a parcela dela pela mesma régua e confira se o degrau continua abaixo do Guia, do Emanador e do Evocador (2,36).
+
+### Sétima passada de 05/10/2026
+
+D43 (`../revisao-interfaces/CORRECOES-APLICADAS.md`): **Condição, Prende e Cerca pedem TR mesmo num feitiço de ataque.** O acerto aplica o dano; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Puxa ficou de fora, por decisão do Mizuki: é deslocamento forçado, como o Empurrão.
+
+| Decisão | Na candidata | Onde conferir na v0.331 |
+|---|---|---|
+| Condição, Prende e Cerca na falha do TR, mesmo em ataque; um TR por alvo para as três; a Pesada perde o "mesmo que tenha sido aplicada por ataque" | CAT-D43-01 a CAT-D43-05, FU-59 a FU-61 | `manual/gerador/partD.js` (linhas de Prende e Cerca e a da Condição), `livro/manual/40-fundamento.md` e a cópia em `60-invocacoes.md` |
+| A Melhoria Condição sempre pede TR | DR36 | peça 19 e `livro/manual/15-dano-e-condicoes.md` |
+| Kaori: Peso nas Mãos pede TR Físico contra CD 12 para o Derrubado | AB25 a AB27 | `livro/manual/08-inicio-rapido.md` |
+| Iori: Gancho fechado pede TR Físico para Prende | R10-38, R10-39 | só na candidata; a regra vem do Catálogo |
+
+**Os três donos do Fundamento mudam juntos** (`partD.js`, capítulo 40 e a cópia no 60), como o passo 1 já avisa. **A ficha também:** o "catalogo-projeto-m.json" e o "manual.txt" do `Ficha---RPG-JJK` saem do livro, e a ficha da Kaori tem o Peso nas Mãos.
+
+**O preço não foi medido de novo.** Exigir TR num ataque deixa Condição, Prende e Cerca mais fracas na ficha de ataque do que eram, e iguais na ficha de TR. O preço de cada peça continua o mesmo. Se a migração quiser rever algum, o número sai de conta rodada, com a chance de falhar no TR multiplicando a de acertar, não de intuição.
 
 ## Passo 1, feito em 05/10/2026
 

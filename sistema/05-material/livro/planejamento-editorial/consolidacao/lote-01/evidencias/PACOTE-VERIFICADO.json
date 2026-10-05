@@ -1,22 +1,22 @@
 {
   "arquivo": "sistema/05-material/livro/planejamento-editorial/entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
-  "sha256": "bbc7000c770217ca7f0840b51edc22312b9f92d8727717a485c52d2e48712b72",
-  "bytes": 9537822,
-  "arquivos": 1391,
+  "sha256": "a76df63d598bd3b738751fe89a409c4b2381ceb3294146dcb545ec2ba692dd87",
+  "bytes": 9579357,
+  "arquivos": 1407,
   "crc_ok": true,
-  "hashes_internos_conferidos": 1390,
-  "arquivos_editoriais_iguais_ao_repositorio": 1385,
+  "hashes_internos_conferidos": 1406,
+  "arquivos_editoriais_iguais_ao_repositorio": 1401,
   "fontes_vigentes_conferidas": 23,
   "pdf_reproduzido_identico": true,
-  "sha256_pdf": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+  "sha256_pdf": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
   "metodo": "ZIP montado de forma determinística (ordem e data fixas nas entradas; duas montagens deram o mesmo arquivo). Conferidos o CRC de cada entrada, os hashes contra SHA256SUMS.json, cada arquivo editorial contra o repositório e as 23 fontes de ORDEM.json; depois o ZIP foi desempacotado numa pasta nova e gerar_livro.py --strict reproduziu o PDF byte a byte.",
-  "regra_de_conteudo": "A mesma de 03/10: manifesto e arquivos listados de cada capítulo (sem os PDFs individuais), consolidação sem PDFs de provas antigas e sem os arquivos escritos depois do pacote, validador editorial e seis documentos da raiz. Acrescentados os registros de 04/10: revisao-interfaces/ e publicacao-github/provas-cinco-capitulos-2026-10-04/. A quarta passada acrescentou só as comparações visuais dela (seis capítulos e consolidação) e o registro de testes negativos. A rodada de paginação acrescentou a comparação visual e os testes negativos dela, e o registro de estabilidade dos auditores. A quinta passada acrescentou as comparações visuais dela. A sexta passada (D42) acrescentou a comparação visual dela.",
+  "regra_de_conteudo": "A mesma de 03/10: manifesto e arquivos listados de cada capítulo (sem os PDFs individuais), consolidação sem PDFs de provas antigas e sem os arquivos escritos depois do pacote, validador editorial e seis documentos da raiz. Acrescentados os registros de 04/10: revisao-interfaces/ e publicacao-github/provas-cinco-capitulos-2026-10-04/. A quarta passada acrescentou só as comparações visuais dela (seis capítulos e consolidação) e o registro de testes negativos. A rodada de paginação acrescentou a comparação visual e os testes negativos dela, e o registro de estabilidade dos auditores. A quinta passada acrescentou as comparações visuais dela. A sexta passada (D42) acrescentou a comparação visual dela. A sétima passada (D43) acrescentou as comparações visuais dela, os cotejos de fontes preservadas de nove capítulos e o registro de testes negativos.",
   "substitui": {
     "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
-    "sha256": "bda1337af3ef6c965c5da8ac0981a1b424c7737be4c01c63c223abdb8171db54",
-    "onde_esta": "versão anterior com o mesmo nome, da quinta passada (PDF 4ae5931d…); continua no histórico do git (commit 3039616)"
+    "sha256": "bbc7000c770217ca7f0840b51edc22312b9f92d8727717a485c52d2e48712b72",
+    "onde_esta": "versão anterior com o mesmo nome, da sexta passada (PDF c6610e35…); continua no histórico do git (commit 2d20a50)"
   },
-  "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
   "substitui_antes": [
     {
       "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-03.zip",
@@ -37,6 +37,11 @@
       "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
       "sha256": "89ccabc479ddb667ad4d60c570a54efb0a7ff5f6dc0936e850c1f0f98bf8669a",
       "onde_esta": "versão anterior com o mesmo nome, da rodada de paginação (PDF 42d92070…); continua no histórico do git (commit 88113b0)"
+    },
+    {
+      "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
+      "sha256": "bda1337af3ef6c965c5da8ac0981a1b424c7737be4c01c63c223abdb8171db54",
+      "onde_esta": "versão anterior com o mesmo nome, da quinta passada (PDF 4ae5931d…); continua no histórico do git (commit 3039616)"
     }
   ]
 }

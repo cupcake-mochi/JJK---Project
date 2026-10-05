@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+  "sha256_pdf": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
   "paginas": [
     {
       "pagina": 1,
@@ -255,9 +255,9 @@
     },
     {
       "pagina": 43,
-      "metodo": "aberta na rodada de paginação de tabelas e títulos (página 43 do PDF 42d9207037ed…), a 60 dpi",
+      "metodo": "aberta na sétima passada (D43) (página 43 do PDF b5df8953eb9a…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "44c4244b6d12319afd3c926afc49892af16ceb26d4357ecab5c8a9c4a706890c"
+      "sha256_corpo_100dpi": "3369c49de854bad600e2822dd9c814cc964e05590d9a2832b47d0d9a5a193866"
     },
     {
       "pagina": 44,
@@ -357,15 +357,15 @@
     },
     {
       "pagina": 60,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 60 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 60",
+      "metodo": "aberta na sétima passada (D43) (página 60 do PDF b5df8953eb9a…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "1f691c6c26f2f7359db8b66b40afd89346b131237ea8277e5c857833e8bc9ab9"
+      "sha256_corpo_100dpi": "3981cd352819265894d7fb51c486d21d44c00cf4fd520349b212864e1e67db55"
     },
     {
       "pagina": 61,
-      "metodo": "aberta na quinta passada (D25–D41) (página 61 do PDF 4ae5931dc24a…), a 60 dpi",
+      "metodo": "aberta na sétima passada (D43) (página 61 do PDF b5df8953eb9a…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "431399a410f9edbc8e86697b314a4bbba63dbf5b8fd8c5b055efcad9efcedf0d"
+      "sha256_corpo_100dpi": "a411b4161cdfea28c5487e55b8db81afd729250a3536d82e75682f43744498a7"
     },
     {
       "pagina": 62,
@@ -1353,15 +1353,15 @@
     },
     {
       "pagina": 226,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 227 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 226",
+      "metodo": "aberta na sétima passada (D43) (página 226 do PDF b5df8953eb9a…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "fead48561ff13a8f12fd802020bed861a5570a61bece49adf40b421c5e4e621f"
+      "sha256_corpo_100dpi": "8aa7f1df365d6f82186db4eecb708c7f7d70eb568b48fc1b2f026dd0b0ee8b74"
     },
     {
       "pagina": 227,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 228 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 227",
+      "metodo": "aberta na sétima passada (D43) (página 227 do PDF b5df8953eb9a…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "ecd4f11bc1682f089c5e5b138693ea5b93be829cfbe5451d7e7324bfdfe79475"
+      "sha256_corpo_100dpi": "75fea6a79d58a4ffbb65f50252040bc94403a41ed111d25f47df303dfdccc9d0"
     },
     {
       "pagina": 228,
@@ -1371,21 +1371,21 @@
     },
     {
       "pagina": 229,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 230 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 229",
+      "metodo": "aberta na sétima passada (D43) (página 229 do PDF b5df8953eb9a…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "fade7cc5407f757a0510ddc29d1eb8d646fcd63cac097523642a310605e9be3d"
+      "sha256_corpo_100dpi": "22f02d77971533b1c30e5cfa75977d41ab25d4764d08d3d54e973a0dacc88f30"
     },
     {
       "pagina": 230,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 231 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 230",
+      "metodo": "aberta na sétima passada (D43) (página 230 do PDF b5df8953eb9a…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "7eb179bdb09b4642174d592112e2f9ddcc731b6f7e678f19504e63147ddaef8e"
+      "sha256_corpo_100dpi": "3367e90b459224d14e8a7f629a34f4da3076058f7ac18d32b8d09c8da427e900"
     },
     {
       "pagina": 231,
-      "metodo": "aberta na rodada de paginação de tabelas e títulos (página 231 do PDF 42d9207037ed…), a 60 dpi",
+      "metodo": "aberta na sétima passada (D43) (página 231 do PDF b5df8953eb9a…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "9f7ddfcadbb255dabb1357d4cd4b33a7925ff6b0158896137dd77932539d6a90"
+      "sha256_corpo_100dpi": "f31433a246e2a699ce6a25d3ce47fa89ff14c143f5e2fa9ec0e87f8945ef2c7f"
     },
     {
       "pagina": 232,
@@ -1479,15 +1479,15 @@
     },
     {
       "pagina": 247,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 248 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 247",
+      "metodo": "aberta na sétima passada (D43) (página 247 do PDF b5df8953eb9a…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "43a1101e3c70d7d75b3224d4189df4ac99c65bf2d67f4705ffac7cb860155f75"
+      "sha256_corpo_100dpi": "bd8b42d139f19b84e0eed7959b6e4de63eff88dd7c2ca52bf86c1d615320215e"
     },
     {
       "pagina": 248,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 249 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 248",
+      "metodo": "aberta na sétima passada (D43) (página 248 do PDF b5df8953eb9a…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "59f51c2156396defad99e1aff6fb09f6fc3898fe59ee9265b640fda9c0f90429"
+      "sha256_corpo_100dpi": "c3014b503bd23533c833e5553746f4e643b03752b95961cd0a54807f86f3b3aa"
     },
     {
       "pagina": 249,
@@ -1695,9 +1695,9 @@
     },
     {
       "pagina": 283,
-      "metodo": "aberta na quinta passada (D25–D41) (página 283 do PDF 4ae5931dc24a…), a 60 dpi",
+      "metodo": "aberta na sétima passada (D43) (página 283 do PDF b5df8953eb9a…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "5d00e062d77159f425228da8a56b105d94cbf2395af254ac939b695bee0af0df"
+      "sha256_corpo_100dpi": "6fc382621b29dbfe4bec8f17267897a403ae8bf96cf2400ebdd06f25b2cda41d"
     },
     {
       "pagina": 284,
@@ -2362,8 +2362,17 @@
         "sem_cobertura": []
       },
       {
-        "versao": "atual",
+        "versao": "ecc17f0",
         "rodada": "sexta passada (D42)",
+        "paginas": 382,
+        "herdadas_por_corpo_identico": 371,
+        "cobertas_pela_inspecao_da_rodada": 11,
+        "listadas_mas_corpo_identico": [],
+        "sem_cobertura": []
+      },
+      {
+        "versao": "atual",
+        "rodada": "sétima passada (D43)",
         "paginas": 382,
         "herdadas_por_corpo_identico": 371,
         "cobertas_pela_inspecao_da_rodada": 11,
@@ -2371,7 +2380,7 @@
         "sem_cobertura": []
       }
     ],
-    "metodo": "pdftoppm a 100 dpi de cada versão do livro guardada no git (44dfa941, 89f9057b, adda0770, 00a207c9, 633f85ae, bceea2d7, 42d92070, 4ae5931d e o atual). Cada página é casada com a da versão anterior de corpo idêntico (sem os 70 pixels de cima e de baixo), perto da posição esperada pelo deslocamento. Uma página só fica coberta se herdar a cobertura assim ou se estiver na lista de páginas abertas daquela rodada. Nenhuma ficou sem cobertura, e as listas de cada rodada coincidem exatamente com as páginas que mudaram."
+    "metodo": "pdftoppm a 100 dpi de cada versão do livro guardada no git (44dfa941, 89f9057b, adda0770, 00a207c9, 633f85ae, bceea2d7, 42d92070, 4ae5931d, c6610e35 e o atual). Cada página é casada com a da versão anterior de corpo idêntico (sem os 70 pixels de cima e de baixo), perto da posição esperada pelo deslocamento. Uma página só fica coberta se herdar a cobertura assim ou se estiver na lista de páginas abertas daquela rodada. Nenhuma ficou sem cobertura, e as listas de cada rodada coincidem exatamente com as páginas que mudaram."
   },
   "v14_de_03_10": {
     "arquivo": "evidencias/antes-fechamento-2026-10-04/FINAL-V14.json",

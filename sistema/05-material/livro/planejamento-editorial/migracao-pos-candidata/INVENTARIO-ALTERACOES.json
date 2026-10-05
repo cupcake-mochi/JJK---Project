@@ -1,6 +1,6 @@
 {
  "gerado_em": "2026-10-05",
- "aviso": "classe_triagem vem de leitura automatica do campo tipo/natureza de cada ALTERACOES.json; nao e confirmacao. donos_v0331_provaveis e mapa por unidade, a confirmar entrada por entrada. Refeito em 05/10/2026 com os 824 registros de hoje (os 774 de 04/10 iguais, e 50 das passadas de decisão do autor). Tipo novo: \"decisão do autor\" vira decisao_do_autor (o PLANO lista as que mudam regra), \"M decisão do autor\" vira mecanica, \"retirada a pedido do autor\" vira editorial, e as remissões viram interface/correcao.",
+ "aviso": "classe_triagem vem de leitura automatica do campo tipo/natureza de cada ALTERACOES.json; nao e confirmacao. donos_v0331_provaveis e mapa por unidade, a confirmar entrada por entrada. Refeito em 05/10/2026 com os 824 registros de hoje (os 774 de 04/10 iguais, e 50 das passadas de decisão do autor). Tipo novo: \"decisão do autor\" vira decisao_do_autor (o PLANO lista as que mudam regra), \"M decisão do autor\" vira mecanica, \"retirada a pedido do autor\" vira editorial, e as remissões viram interface/correcao. Em 05/10/2026, mais 14 registros da sétima passada (D43), já com a conferência.",
  "entradas": [
   {
    "unidade": "ab",
@@ -20908,6 +20908,389 @@
     ],
     "nota": "D40: Trajetória Perfeita com arma de uma mão de Longo Alcance de arremesso (texto, como o PLANO marcou).",
     "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "catalogo",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 17",
+    "manual do Fundamento v7",
+    "livro/manual/40"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "CAT-D43-01",
+    "nome": "Controle",
+    "tipo": "M",
+    "antes": "# Controle\n\n## Condição",
+    "depois": "# Controle\n\n**Condição, Prende e Cerca sempre pedem TR.** Numa ficha resolvida por TR, entram na falha desse TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; depois, cada alvo acertado faz o TR registrado na ficha para o Controle e só recebe essas peças se falhar. Um TR por alvo resolve as três peças da mesma ficha. O erro não pede TR.\n\n## Condição",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "D43: Condição, Prende e Cerca entram na falha do TR mesmo numa ficha de ataque; na v0.331 a tabela das Melhorias (partD.js, capítulo 40 e a cópia no 60) não diz que o acerto pede TR.",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "catalogo",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 17",
+    "manual do Fundamento v7",
+    "livro/manual/40"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "CAT-D43-02",
+    "nome": "Condição",
+    "tipo": "M",
+    "antes": "Pague seu nível: Leve, Média ou Pesada. Ela se aplica no acerto ou na falha do TR, dura **uma rodada**",
+    "depois": "Pague seu nível: Leve, Média ou Pesada. Ela se aplica **na falha do TR**, mesmo numa ficha de ataque, dura **uma rodada**",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "D43: Condição, Prende e Cerca entram na falha do TR mesmo numa ficha de ataque; na v0.331 a tabela das Melhorias (partD.js, capítulo 40 e a cópia no 60) não diz que o acerto pede TR.",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "catalogo",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 17",
+    "manual do Fundamento v7",
+    "livro/manual/40"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "CAT-D43-03",
+    "nome": "Condição Pesada",
+    "tipo": "M",
+    "antes": "encerrando aquela aplicação no sucesso, mesmo que tenha sido aplicada por ataque. Leves",
+    "depois": "encerrando aquela aplicação no sucesso. Leves",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "D43: Condição, Prende e Cerca entram na falha do TR mesmo numa ficha de ataque; na v0.331 a tabela das Melhorias (partD.js, capítulo 40 e a cópia no 60) não diz que o acerto pede TR.",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "catalogo",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 17",
+    "manual do Fundamento v7",
+    "livro/manual/40"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "CAT-D43-04",
+    "nome": "Cerca",
+    "tipo": "M",
+    "antes": "**Preço: Leve.** No acerto ou na falha do TR, o alvo não pode **se aproximar voluntariamente de você**",
+    "depois": "**Preço: Leve.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode **se aproximar voluntariamente de você**",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "D43: Condição, Prende e Cerca entram na falha do TR mesmo numa ficha de ataque; na v0.331 a tabela das Melhorias (partD.js, capítulo 40 e a cópia no 60) não diz que o acerto pede TR.",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "catalogo",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 17",
+    "manual do Fundamento v7",
+    "livro/manual/40"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "CAT-D43-05",
+    "nome": "Prende",
+    "tipo": "M",
+    "antes": "**Preço: Média.** No acerto ou na falha do TR, o alvo não pode se deslocar voluntariamente",
+    "depois": "**Preço: Média.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode se deslocar voluntariamente",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "D43: Condição, Prende e Cerca entram na falha do TR mesmo numa ficha de ataque; na v0.331 a tabela das Melhorias (partD.js, capítulo 40 e a cópia no 60) não diz que o acerto pede TR.",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "fundamento",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 17",
+    "manual do Fundamento v7",
+    "livro/manual/40"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "FU-59",
+    "natureza": "M",
+    "assunto": "Resultados de ataque com Controle",
+    "antes": "O teste de saída de uma condição Pesada continua existindo mesmo depois da falha inicial.",
+    "candidata": "O teste de saída de uma condição Pesada continua existindo mesmo depois da falha inicial.\n\nNum feitiço de ataque, o acerto não basta para Condição, Prende e Cerca: o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Veja Controle, no Catálogo.",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "D43: o Fundamento remete o ataque com Controle ao TR registrado; a tabela de Controle diz \"entra na falha do TR\".",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "fundamento",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 17",
+    "manual do Fundamento v7",
+    "livro/manual/40"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "FU-60",
+    "natureza": "M",
+    "assunto": "Tabela de Controle: Prende",
+    "antes": "| Segurar uma criatura no lugar. | Prende, Média. | O alvo pode gastar uma ação permitida pela peça para tentar escapar. |",
+    "candidata": "| Segurar uma criatura no lugar. | Prende, Média. | Entra na falha do TR, mesmo num ataque. O alvo pode gastar uma ação permitida pela peça para tentar escapar. |",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "D43: o Fundamento remete o ataque com Controle ao TR registrado; a tabela de Controle diz \"entra na falha do TR\".",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "fundamento",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 17",
+    "manual do Fundamento v7",
+    "livro/manual/40"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "FU-61",
+    "natureza": "M",
+    "assunto": "Tabela de Controle: Condição",
+    "antes": "| Aplicar uma condição. | Condição, no preço da condição. | No máximo uma Pesada. Se for Pesada, o alvo repete TR no fim dos turnos para encerrá-la. |",
+    "candidata": "| Aplicar uma condição. | Condição, no preço da condição. | Entra na falha do TR, mesmo num ataque. No máximo uma Pesada. Se for Pesada, o alvo repete TR no fim dos turnos para encerrá-la. |",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "D43: o Fundamento remete o ataque com Controle ao TR registrado; a tabela de Controle diz \"entra na falha do TR\".",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "dano",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 01 §5.5",
+    "peças 19, 24 e 10"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "DR36",
+    "tipo": "decisão do autor",
+    "antes": "A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. **Use a duração escrita no efeito.**",
+    "depois": "A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. A Melhoria Condição sempre pede TR: num feitiço de ataque, o alvo acertado ainda faz o TR registrado e só recebe a condição se falhar. **Use a duração escrita no efeito.**",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md"
+    ],
+    "nota": "D43: a Melhoria Condição sempre pede TR (Aplicação e duração).",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "ab",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "livro/manual/08",
+    "livro/manual/20"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "AB25",
+    "tipo": "decisão do autor",
+    "antes": "No acerto, causa **3d8 de Concussão** e aplica **Derrubado por uma rodada**. No erro,",
+    "depois": "No acerto, causa **3d8 de Concussão**, e o alvo faz **TR Físico contra CD 12**. Na falha, fica **Derrubado por uma rodada**. No erro,",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/08-inicio-rapido.md"
+    ],
+    "nota": "D43: a ficha da Kaori pede TR Físico contra CD 12 para o Derrubado; na v0.331 o Peso nas Mãos fica no capítulo 08.",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "ab",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "livro/manual/08",
+    "livro/manual/20"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "AB26",
+    "tipo": "decisão do autor",
+    "antes": "e paga 1 por Condição: Derrubado. Sobram 3 dados.",
+    "depois": "e paga 1 por Condição: Derrubado, com TR Físico registrado para ela. Sobram 3 dados.",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/08-inicio-rapido.md"
+    ],
+    "nota": "D43: a ficha da Kaori pede TR Físico contra CD 12 para o Derrubado; na v0.331 o Peso nas Mãos fica no capítulo 08.",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "ab",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "livro/manual/08",
+    "livro/manual/20"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "AB27",
+    "tipo": "decisão do autor",
+    "antes": "Se a criatura sobrevivesse ao acerto, seria necessário aplicar Derrubado e sua duração.",
+    "depois": "Se a criatura sobrevivesse ao acerto, faria o TR Físico contra CD 12 e, na falha, ficaria Derrubada por uma rodada.",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/08-inicio-rapido.md"
+    ],
+    "nota": "D43: a ficha da Kaori pede TR Físico contra CD 12 para o Derrubado; na v0.331 o Peso nas Mãos fica no capítulo 08.",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "rotas",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peças 20 e 25"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "R10-38",
+    "tipo": "decisão do autor",
+    "antes": "No acerto, cause **3d8 de Cortante** e aplique Prende até o fim do próximo turno do alvo. Para as tentativas de saída, registre **TR Físico contra sua CD da Kata**.",
+    "depois": "No acerto, cause **3d8 de Cortante**, e o alvo faz **TR Físico contra sua CD da Kata**. Na falha, Prende vale até o fim do próximo turno dele. As tentativas de saída usam o mesmo TR.",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+     "sistema/03-mecanica/20-tecnica-marcial.md"
+    ],
+    "nota": "D43: Gancho fechado, do Iori, pede TR Físico contra a CD da Kata para Prende. O exemplo não existe na v0.331; a regra vem do Catálogo.",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
+   }
+  },
+  {
+   "unidade": "rotas",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peças 20 e 25"
+   ],
+   "estado_migracao": "confirmada",
+   "registro": {
+    "id": "R10-39",
+    "tipo": "decisão do autor",
+    "antes": "Prende permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.",
+    "depois": "O acerto sozinho não prende: Prende entra na falha do TR. Depois, permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.",
+    "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+     "sistema/03-mecanica/20-tecnica-marcial.md"
+    ],
+    "nota": "D43: Gancho fechado, do Iori, pede TR Físico contra a CD da Kata para Prende. O exemplo não existe na v0.331; a regra vem do Catálogo.",
+    "como": "registro escrito nesta passada; donos achados por busca na v0.331 (Prende, Cerca, acerto ou falha, Peso nas Mãos)",
     "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   }

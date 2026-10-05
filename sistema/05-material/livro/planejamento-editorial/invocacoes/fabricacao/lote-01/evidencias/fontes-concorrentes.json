@@ -38,5 +38,12 @@
       "sha256_anterior": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
       "motivo": "Atualização cotejada em 04/10/2026 (D24, revisao-interfaces/CORRECOES-APLICADAS.json): o exemplo da Máxima da domada perdeu só a média de cura. A volta de corpos excedentes, para a qual esta unidade remete, e as regras de fabricação estão intactas. Revisão por modelo."
     }
+  },
+  "sistema/03-mecanica/14-equipamento.md": {
+    "sha256_final": "6f7b0505eaab835839dd90cfa874e0e0aff51e0fe2e11f3088c232bee1556e94",
+    "sha256_anterior": "d3c27c82c54a421ee2039f9986002cd879a61fe74291a5dad800631fc4ce32eb",
+    "motivo": "Atualização cotejada em 05/10/2026: passo 2 da migração (v0.332, commit 789cf5a) trocou Reencarnado por Encarnado numa linha da peça 14. As regras de fabricação estão intactas.",
+    "evidencia": "git diff 789cf5a~1 789cf5a -- sistema/03-mecanica/14-equipamento.md",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }
