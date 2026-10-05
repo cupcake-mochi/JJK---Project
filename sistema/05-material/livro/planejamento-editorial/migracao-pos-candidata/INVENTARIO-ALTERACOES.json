@@ -10310,7 +10310,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-04",
     "tipo": "mecânica de fechamento",
@@ -10320,6 +10320,17 @@
     "motivo": "Expor o valor que casca-sem-barreira.py realmente media; impedir que Livre aumente o Acerto gratuitamente.",
     "impacto_ou_limite": "2C é o perfil neutro histórico; leituras anteriores que descontavam a Média Livre produziam mais dados e deixam de caber.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Acerto do domínio: 2 × Classe em d8, fixo, sem desconto de Família, em cada alvo.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10330,7 +10341,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-05",
     "tipo": "mecânica de fechamento",
@@ -10340,6 +10351,17 @@
     "motivo": "Fechar alvo padrão e evitar exclusão gratuita dos aliados.",
     "impacto_ou_limite": "Interpretação de jogo, não confirmação canônica. Ausência de energia não significa PE momentaneamente zero.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "O Acerto afeta criaturas com energia, aliados incluídos, fora o dono; objeto ou criatura sem energia só com capacidade registrada.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10350,7 +10372,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-06",
     "tipo": "mecânica de fechamento",
@@ -10360,6 +10382,17 @@
     "motivo": "Permitir executar Incompleta sem inventar resolução durante a luta.",
     "impacto_ou_limite": "Novo procedimento explícito para regra ambiental incompleta; requer teste em mesa. Mantido mesmo2C d8 da ficha ao completar.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Incompleta: a ficha escolhe ataque individual ou TR Físico; regra ambiental usa Espírito e dura até o próximo Acerto.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10390,7 +10423,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-08",
     "tipo": "mecânica de fechamento",
@@ -10400,6 +10433,17 @@
     "motivo": "Evitar proibição unilateral sem oposição ou dano+controle inteiro sob rótulo Efeito.",
     "impacto_ou_limite": "Não elimina domínios originais; exige escrever as exceções e avaliar cada ficha.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Regra do domínio: a simetria inclui o dono; o Efeito não tira a simetria nem dá outro Acerto.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10410,7 +10454,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-09",
     "tipo": "mecânica de fechamento",
@@ -10420,6 +10464,17 @@
     "motivo": "Preservar seisAcertos e cinco turnos com desconto que as contas históricas já usavam.",
     "impacto_ou_limite": "O endpoint antes indefinido é uma decisão operacional: fim do último turno, não seu começo.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Duração: a abertura mais metade do refino (para baixo) em turnos, e termina no fim do último.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10430,7 +10485,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-10",
     "tipo": "mecânica solicitada",
@@ -10440,6 +10495,18 @@
     "motivo": "Cumprir pedido expresso de medidas em múltiplos1,5m.",
     "impacto_ou_limite": "Redução0,5m=0,25% no raio e ~0,4994% na área. O valor é do sistema, não afirmação de alcance canônico.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/03-mecanica/RASCUNHO-expansao-sem-barreira.md"
+    ],
+    "nota": "Sem barreira: raio de 199,5 m (133 quadrados), não 200 m.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10470,7 +10537,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-12",
     "tipo": "mecânica de fechamento",
@@ -10480,6 +10547,17 @@
     "motivo": "Evitar aumento involuntário do custo gratuito e definir interação com Eco/Cobrança.",
     "impacto_ou_limite": "Ordens possíveis não eram equivalentes: custo15−5 depois metade=5, metade15 depois−5=3. Conservador para não empilhar redução excessiva.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Desconto da abertura antes da metade; piso 1 só em custo positivo; Classe 0 fica 0.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10490,7 +10568,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-13",
     "tipo": "mecânica de fechamento",
@@ -10500,6 +10578,17 @@
     "motivo": "Aplicar a categoria feitiço sem conceder desconto universal de PE.",
     "impacto_ou_limite": "Abertura não passa a se pagar abrindo outro domínio barato; Extensão e Reversa mantêm custos próprios.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "O desconto vale para feitiço, Liberação e Máxima conjurados no domínio; não para aptidão, item ou nova abertura.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10510,7 +10599,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-14",
     "tipo": "mecânica de fechamento",
@@ -10520,6 +10609,17 @@
     "motivo": "Tornar executável a ruptura externa sem inventar Defesa nova.",
     "impacto_ou_limite": "Exceção de alvo extenso imóvel; consolidar depois com capítulo de objetos. Não prova regras canônicas de barreiras.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Barreira como alvo: alcance e compatibilidade obrigatórios, ataque acerta sem crítico, TR falha.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10530,7 +10630,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-15",
     "tipo": "mecânica de simplificação",
@@ -10540,6 +10640,17 @@
     "motivo": "Impedir restauração ao trocar de face e reduzir contabilidade.",
     "impacto_ou_limite": "Exato semarredondamento. Para danos pequenos repetidos muda durabilidade: H100 e impactos1, antigo interior exige200; novo exige100. Diferença inferior1PV exterior porimpacto, acumulável. Teste de mesa necessário.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Barreira: uma reserva só, a de fora (H); dano na borda interna dividido por quatro, para cima; some o dobro por dentro e a resistência a tudo.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10550,7 +10661,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-16",
     "tipo": "mecânica de fechamento",
@@ -10560,6 +10671,17 @@
     "motivo": "Evitar transporte como dano grátis ou fuga de condição de movimento.",
     "impacto_ou_limite": "Geometria externa precisa ser representada no mapa; sem reposicionamento interno automático.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Mover o domínio: exige poder se deslocar, mantém posições relativas, não varre nem captura.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10570,7 +10692,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-17",
     "tipo": "mecânica de fechamento",
@@ -10580,6 +10702,17 @@
     "motivo": "Fechar o estado quando dono deixa área sem criar novo requisito de concentração.",
     "impacto_ou_limite": "Permite atacar domínios porfora sem extinguir automaticamente área; riscos de alcance permanecem.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Incompleta e aberta continuam aplicando o Acerto com o dono fora; o prazo não reinicia.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10610,7 +10743,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-19",
     "tipo": "mecânica de fechamento",
@@ -10620,6 +10753,17 @@
     "motivo": "Evitar apagar cura já recebida ou manter capacidade que exige técnica indisponível.",
     "impacto_ou_limite": "Interfaces de invocação precisam respeitar regra própria de sustentação; não foi refeito Invocações.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Rescaldo: impede novos usos da técnica; o instantâneo fica; sustentação que exige técnica cessa.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10630,7 +10774,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-20",
     "tipo": "mecânica de fechamento",
@@ -10640,6 +10784,18 @@
     "motivo": "Não transformar cada movimento em novo dano nem permitir rerrolagem gratuita para escapar regra.",
     "impacto_ou_limite": "Nenhum número alterado.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/03-mecanica/RASCUNHO-expansao-sem-barreira.md"
+    ],
+    "nota": "Sem barreira: dano só nos gatilhos; regra contínua vale ao entrar ou voltar, sem rerrolar.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10670,7 +10826,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-22",
     "tipo": "mecânica de fechamento",
@@ -10680,6 +10836,17 @@
     "motivo": "Evitar dois Acertos gratuitos na abertura e imunidade ignorada pela palavra garantido.",
     "impacto_ou_limite": "Demaisocupantes recebem aplicaçõesnormais, sem danoextra por cadaderrota de um rival.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Disputa: o mesmo evento de abertura não duplica o Acerto; só o dono recebe o extra.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10710,7 +10877,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-24",
     "tipo": "mecânica de fechamento",
@@ -10720,6 +10887,17 @@
     "motivo": "Respeitar maiorCD sem exigir prever futurosataques ou dar testesextras.",
     "impacto_ou_limite": "Bônus/ vantagem são os do primeiroteste. A falha pode surgir no ataque posterior; registrar em mesa.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Manter a disputa: o primeiro dano rola e guarda o total; CD maior depois reavalia; no máximo uma falha.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10750,7 +10928,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-26",
     "tipo": "mecânica de fechamento",
@@ -10760,6 +10938,17 @@
     "motivo": "Separar vida da casca e dono; impedir multiplicação pelo número deocupantes.",
     "impacto_ou_limite": "Nenhum número alterado.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Sobreposição: procedimento por pares; a casca recebe uma aplicação por pulso.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10770,7 +10959,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-27",
     "tipo": "mecânica de fechamento",
@@ -10780,6 +10969,17 @@
     "motivo": "Evitar cadeia deáreasdisjuntas derrubar barreiras que nunca se encontraram.",
     "impacto_ou_limite": "Casos de geometria complexa continuam requerendo mapa, não novo poder de barreira.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Três ou mais barreiras só caem com região comum; abertas e incompletas não contam.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10790,7 +10990,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-28",
     "tipo": "mecânica de fechamento",
@@ -10800,6 +11000,17 @@
     "motivo": "Evitar decisão pela ordem administrativa da mesa.",
     "impacto_ou_limite": "Novo procedimento para caso raro. Testado combinatoriamente; ainda não testado comjogadores.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Mais de dois domínios: pares simultâneos, um d12 por participante, um Acerto por evento.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10870,7 +11081,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-32",
     "tipo": "mecânica de fechamento",
@@ -10880,6 +11091,17 @@
     "motivo": "Definir a resolução de um alvo novo e impedir novas tentativas por cruzar a borda.",
     "impacto_ou_limite": "Entrada não causa pulso de dano adicional. Afeta apenas regra contínua.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "Entrada na regra contínua da Incompleta: TR na primeira entrada; sair e voltar não renova.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10930,7 +11152,7 @@
     "RASCUNHO-expansao-sem-barreira",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R08-35",
     "tipo": "decisão do autor",
@@ -10940,6 +11162,17 @@
     "secao": "encerramento",
     "impacto_ou_limite": "Inconsciente ou Derrotado encerra o domínio.",
     "status": "candidata revisada; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partE.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md"
+    ],
+    "nota": "D32: Inconsciente ou Derrotado encerra o domínio.",
+    "como": "fato central conferido no dono da v0.331",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
