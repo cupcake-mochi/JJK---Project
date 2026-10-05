@@ -72,6 +72,9 @@ A peça 01 §5.5 descreve o Aguentar com cura de 20% **de uma vez**, o Insistir 
 | Classe Passiva (CP) | Categoria de Efeito (CE) | 03, 09, 11, 13, 16, 20, 25, `RASCUNHO-trilhas` | `conferir-aptidoes`, `conferir-expansao`, `conferir-manual`, `conferir-marcial`, `conferir-sem-tecnica` | nenhum | 13, entre eles "apps-script/Ficha.gs" e "ficha-v01/tecnica-do-livro.json" |
 | Passiva Livre | Expressão da técnica | 08, 18, 20, 25 | `conferir-manual`, `custo-sem-barreira`, `v7.py` | `manual/gerador/partB.js` e `partE.js`, `gerador-ficha/ficha.js` | 15 |
 | Aviso (duas entradas) | Identificar Feitiço e Leitura de Feitiços | 2 peças | nenhum | 2 arquivos do gerador do `.docx` | 15 |
+| Sobre Carregar Energia (Emanador, Trilha Catalisador) | Sobrecarregar Energia | 06 | `conferir-nomes`, `conferir-catalogo` | nenhum | a ficha já usa o nome novo |
+
+*A quinta linha entrou na passada dos 76, em 05/10/2026 (registro EMA27, que a triagem automática marcou como correção ortográfica). A triagem do `conferir-nomes.py --candidatos` dá `Sobrecarregar Energia` como LIVRE.*
 
 Nenhum dos nomes novos aparece em peça, validador, gerador ou ficha. A troca de nome é a parte mais mecânica da migração e a que mais quebra coisa ao mesmo tempo: o `conferir-nomes.py` e o `conferir-manual.py` leem o `.docx`, e a ficha usa os nomes como chave de catálogo.
 
@@ -186,20 +189,69 @@ Os 321 registros de mecânica e de decisão do autor foram conferidos um a um co
 3. **16 registros esperam a revisão do Morrendo**, que o Mizuki adiou para tratar à parte, com a Integridade (`../REVISAO-MORRENDO.md`): 13 do capítulo de Dano e recuperação, o retorno do estágio 4 na Progressão (PRO36), a passiva de Insistir da Técnica Marcial (R10-32) e Ainda Há Tempo do Guia (GUIA-38). O passo 3 deste plano ("Vida a zero") depende dela.
 4. **Donos que já divergiam na v0.331:** o capítulo 46 não tem Calado e Silencioso, que a peça 27 tem; o capítulo 65 ainda oferece Estilo no pacto permanente, que a peça 22 tirou na v0.168; a tabela de chance do Ritual está 10 pontos abaixo da fórmula na peça 27 e no capítulo 46.
 5. **A Execução Preparada (D42) entra sem preço medido.** Ver a sexta passada, acima.
-6. **Fora do passo 1, pelo desenho dele:** os registros de interface (207), editoriais (187), de preservação (63) e de esclarecimento (46). Deles, 76 citam texto que existe na v0.331 (54 de interface, 12 editoriais e 10 de esclarecimento) e merecem uma passada curta antes do passo 2, para conferir que nenhum muda regra por baixo do rótulo.
+6. **Fora do passo 1, pelo desenho dele:** os registros de interface (207), editoriais (187), de preservação (63) e de esclarecimento (46). Deles, 76 citam texto que existe na v0.331 (54 de interface, 12 editoriais e 10 de esclarecimento) e merecem uma passada curta antes do passo 2, para conferir que nenhum muda regra por baixo do rótulo. *Feita no mesmo dia: ver a seção seguinte.*
 
 Os donos mais citados entre os que migram: capítulo 60 (95), capítulo 40 (91), capítulo 35 e peça 06 (60 cada), `partD.js` (51), peça 15 (47), `invocacoes/` (39) e peça 11 (38).
+
+## Passada dos 76, feita em 05/10/2026
+
+Os 76 registros de interface, editoriais e de esclarecimento que citam texto da v0.331 foram lidos um a um: o "antes" no dono e o "depois" na candidata (`LIVRO-COMPLETO.md`). Dois deles, a Queima e o Sugar, vinham sem o "depois" no inventário. Cada registro ganhou o mesmo bloco `conferencia_2026_10_05` do passo 1. Revisão por modelo, não humana.
+
+| Natureza | Registros |
+|---|---:|
+| Fecha lacuna | 69 |
+| Só texto (`so_editorial`) | 3 |
+| Muda regra | 2 |
+| Sincroniza donos | 1 |
+| Travado pela revisão do Morrendo | 1 |
+
+**Duas mudanças de regra estavam por baixo do rótulo de interface, as duas no Catálogo:**
+
+- **Queima (R07-B-10).** A v0.331 dizia só "metade dos dados de novo". A candidata tira a Queima do erro com dano parcial e do TR bem-sucedido, usa os dados de antes do crítico e, em Rajada ou Mais Um, só os dados do alvo.
+- **Sugar (R07-B-28).** O dano parcial de Certeiro e de TR bem-sucedido deixa de contar para a cura, e o teto de 5 × Classe vale para a conjuração inteira, somando os alvos.
+
+**O resto que vale saber:**
+
+- **A Remenda (R07-B-38) fica travada** com os 16 do passo 1. A revisão adiada do Morrendo e da Integridade (`../REVISAO-MORRENDO.md`) cita a Remenda pelo nome.
+- **Um quinto nome para o passo 2:** `Sobre Carregar Energia` vira `Sobrecarregar Energia` (EMA27). Ele entrou na tabela de nomes, acima.
+- **A Abre Ferida (R07-B-03) é uma leitura escolhida.** "−2 em um TR" passou a querer dizer "−2 em todo TR de um dos quatro tipos, escolhido na criação". Quem lia "uma rolagem" vê a peça ficar mais forte.
+- **Um defeito editorial pequeno na candidata:** o exemplo da Abre Ferida ficou logo depois da Firmeza, com a Sobrecarga no meio. Fica para a próxima passada do livro.
+- **GER36 não muda a mesa.** O capítulo 50 dizia que o uniforme desliga a proteção "de energia amaldiçoada", mas o 47 já desligava a Defesa sem Armadura da Bênção.
+
+Depois da passada, o inventário fica assim:
+
+| Estado | Registros |
+|---|---:|
+| `confirmada` (migra) | 363 |
+| `travada_revisao_morrendo` | 17 |
+| `confirmada_em_outro_registro` | 10 |
+| `so_editorial` | 7 |
+| `nao_confirmada` (interface, editorial, preservação e esclarecimento que não citam a v0.331) | 427 |
+
+## Decisões do Mizuki de 05/10/2026, para os passos 2 e 3
+
+**1. O manual do Fundamento em `.docx` (v7) é aposentado como fonte.** Resposta dele: *"A"*. O Fundamento passa a ter um dono só, o livro. Os validadores que hoje leem o `.docx` passam a ler o livro, e o `manual/gerador` vai para o arquivo.
+
+O tamanho, medido antes de mexer: **sete validadores abrem o `.docx`**. São eles o `conferir-acao` (seis leituras, nas checagens da Dívida, dos vetos do Rápido e da Reação, da Concentração, da duração da Concentrada e da Duradoura e do Alvo de Caça), o `conferir-bestiario`, o `conferir-dano`, o `conferir-manual`, o `conferir-nomes`, o `conferir-pericias` e o `conferir-progressao`. O `conferir-repositorio.py` confere que o `.docx` e o `.pdf` existem.
+
+**A troca de fonte vai no passo 5, e não no 2.** O Fundamento da candidata já tem as regras novas, e o Catálogo dela não usa tabelas: cada Melhoria virou um título com o custo ao lado. Se os validadores passassem a ler o livro no passo 2, comparariam as peças da v0.331 com as regras novas e falhariam por regra, não por nome. Então:
+
+- **no passo 2**, o `.docx` continua sendo lido, congelado, e os validadores traduzem o nome antigo dele para o novo das peças por uma tabela de alias;
+- **no passo 5**, quando as peças 08, 17 e 18 recebem as regras, os sete validadores passam a ler o livro, o alias sai, e o `manual/gerador`, o `.docx` e o `.pdf` vão para o arquivo com o cabeçalho de por que morreram;
+- **o passo 6 encolhe:** o `.docx` não é mais regerado.
+
+**2. O Morrendo fica na versão atual por enquanto.** Resposta dele: *"Deixe com a versão atual por enquanto, iremos ver depois"*. As peças ficam com a regra da v0.331 (peça 01 §5.5 e as remissões das peças 12, 15, 20 e 24), o livro fica com o texto da candidata, e o passo 3 só começa depois da revisão. Os 17 registros travados não migram. Os outros passos pulam o que for Aguentar, Insistir, socorro, Sequela de queda e Integridade.
 
 ## Ordem proposta
 
 Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`, `pac7.py`, `v7.py` e o `conferir-repositorio.py`, com `PULADA=0` conferido) e uma entrada no CHANGELOG. Um passo por versão, para a bateria apontar o culpado quando quebrar.
 
 1. **Confirmar cada registro mecânico.** Ler o "depois" do inventário contra a peça dona e marcar `confirmada`, `ja_na_peca` ou `so_editorial` no `estado_migracao`. Começar pelas unidades com mais registros mecânicos (Catálogo, Fundamento, Ritual). Sem esse passo, a migração copia uma suposição.
-2. **Nomes.** Trocar os quatro nomes nas peças, nos validadores e nos geradores, deixando os nomes antigos como alias no `conferir-nomes.py`, para a triagem continuar pegando quem reusar. Validador que procura o nome antigo no `.docx` precisa decidir junto se o `.docx` v7 ainda é fonte, porque ele não tem os nomes novos.
-3. **Vida a zero.** Reescrever a peça 01 §5.5 a partir do capítulo de dano da candidata, e as remissões das peças 12, 15, 20 e 24. Antes, rodar o `conferir-atributos.py` numa cópia com a regra nova para ver quais checagens medem a regra antiga, e trocá-las por checagens da regra nova com teste negativo. Não apagar checagem para passar.
+2. **Nomes.** Trocar os cinco nomes nas peças, nos validadores e nos geradores, deixando os nomes antigos como alias no `conferir-nomes.py`, para a triagem continuar pegando quem reusar. *Decidido em 05/10/2026:* o `.docx` v7 sai de fonte, mas só no passo 5; até lá ele é lido congelado, com o nome antigo traduzido para o novo.
+3. **Vida a zero.** *Adiado em 05/10/2026, até a revisão do Morrendo.* Reescrever a peça 01 §5.5 a partir do capítulo de dano da candidata, e as remissões das peças 12, 15, 20 e 24. Antes, rodar o `conferir-atributos.py` numa cópia com a regra nova para ver quais checagens medem a regra antiga, e trocá-las por checagens da regra nova com teste negativo. Não apagar checagem para passar.
 4. **Equipamento e munição** (peças 14, 16, 21), depois **Invocações** (peça 15, que conversa com `invocacoes/`), depois **Caminhos** (peça 06 e `RASCUNHO-trilhas`, que hoje não têm Fluidez nem Malabarista).
 5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha.
-6. **Geradores.** `manual/gerador` (o `.docx` do Fundamento v7), `gerador-ficha` e `gerador-inimigo`. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
+6. **Geradores.** `gerador-ficha` e `gerador-inimigo`. O `manual/gerador` (o `.docx` do Fundamento v7) não é regerado: vai para o arquivo no passo 5. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
 7. **Fichas**, por último e em outro ambiente (seção abaixo).
 
 ## Fichas pessoal e maldita

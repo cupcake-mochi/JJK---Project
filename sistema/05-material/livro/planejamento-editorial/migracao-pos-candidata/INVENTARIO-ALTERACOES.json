@@ -1388,7 +1388,7 @@
     "peça 23",
     "livro/manual/10,11"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "GER36",
     "ancora": "defesa",
@@ -1397,6 +1397,17 @@
     "motivo": "Equipamento substitui a proteção passiva também nas rotas sem energia.",
     "tipo": "correção editorial de interface",
     "fonte": "Revisão independente de compatibilidade; R05 e donos de benefícios específicos."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "sincroniza_donos",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/50-equipamento.md",
+     "sistema/05-material/livro/manual/47-bencaos-e-lapidacao.md",
+     "sistema/03-mecanica/14-equipamento.md"
+    ],
+    "nota": "Traje e Revestimento substituem a proteção passiva da rota. O capítulo 50 da v0.331 falava só da proteção 'de energia amaldiçoada', mas o 47 já desligava a Defesa sem Armadura da Bênção com Traje e Revestimento: o resultado na mesa não muda.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2534,7 +2545,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "so_editorial",
    "registro": {
     "id": "ORI08",
     "tipo": "correcao_de_ambientacao",
@@ -2546,6 +2557,15 @@
      "peça09:traços Latente"
     ],
     "escopo": "A Testemunha"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "so_editorial",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Quem sabe o segredo passa a ser 'alguém fora do meio jujutsu', e não 'alguém sem energia amaldiçoada'. Só ambientação.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2556,7 +2576,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI09",
     "tipo": "esclarecimento",
@@ -2568,6 +2588,15 @@
      "R05:Sentir Energia"
     ],
     "escopo": "Instinto Bruto"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Sentir Energia no lugar de Intuição conserva dificuldade, tempo e limites, e não lê pensamentos.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2578,7 +2607,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI10",
     "tipo": "esclarecimento",
@@ -2590,6 +2619,15 @@
      "R04:Descansos"
     ],
     "escopo": "Chão Duro"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Qualquer lugar é ambiente propício, mas ainda é preciso conseguir parar; a contrapartida fica no desgaste do lugar sobre os companheiros.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2666,7 +2704,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI13",
     "tipo": "esclarecimento_com_impacto",
@@ -2678,6 +2716,15 @@
      "R09:Barreiras"
     ],
     "escopo": "Máscara"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Máscara troca a assinatura lida, sem esconder a presença de energia de barreiras e Cortinas, nem outros critérios de identidade.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2688,7 +2735,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI14",
     "tipo": "fechamento_de_requisito",
@@ -2700,6 +2747,15 @@
      "manual25:Conversa de Jantar"
     ],
     "escopo": "Conversa de Jantar"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "'Técnica conhecida' passa a querer dizer: reconhecer a técnica e já saber que ela existe; o mestre confirma antes do teste.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2743,7 +2799,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI16",
     "tipo": "esclarecimento_de_autoria",
@@ -2755,6 +2811,15 @@
      "peça13:Irmãos"
     ],
     "escopo": "Irmãos"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "O vínculo com os irmãos avisa encontro e morte, sem dar localização nem pensamentos; relações novas combinadas com o mestre.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2833,7 +2898,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI19",
     "tipo": "esclarecimento_com_impacto",
@@ -2846,6 +2911,15 @@
      "R04:vida0"
     ],
     "escopo": "Ferro Velho"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Vida oculta, mas o mestre avisa os limites que pedem escolha ou liberam habilidade.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2889,7 +2963,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI21",
     "tipo": "esclarecimento",
@@ -2901,6 +2975,16 @@
      "peça09:Origem não dá técnica"
     ],
     "escopo": "O Substituto"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/25-origens.md",
+     "sistema/03-mecanica/13-legados.md"
+    ],
+    "nota": "A representação pública não age sozinha: mover, falar ou agir à distância exige recurso na ficha.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2944,7 +3028,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI23",
     "tipo": "esclarecimento_com_impacto",
@@ -2956,6 +3040,16 @@
      "R10:Bênçãos"
     ],
     "escopo": "Aprendi a Ver"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/25-origens.md",
+     "sistema/03-mecanica/13-legados.md"
+    ],
+    "nota": "O método de perceber maldições é história; a função concreta precisa vir de regra da ficha, sem Bênção grátis.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2966,7 +3060,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI24",
     "tipo": "fechamento_de_alcance",
@@ -2978,6 +3072,15 @@
      "manual25:Peso Real"
     ],
     "escopo": "Peso Real"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Perceber ferramenta, barreira ou véu exige contato ou indício físico ao alcance; à distância, sem sinal, não percebe.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2988,7 +3091,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI25",
     "tipo": "esclarecimento",
@@ -3000,6 +3103,15 @@
      "R03:Cego"
     ],
     "escopo": "Assinado"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Negar Cego não dá visão no escuro nem sentido novo; a incapacidade permanente é escolhida na criação.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6283,7 +6395,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-01",
     "nome": "Longe",
@@ -6292,6 +6404,18 @@
     "depois": "Aumenta o alcance em **um degrau**. Pode comprar duas vezes. Use a escada de distância da Forma; em Cone e Linha, aumente o comprimento pela escada própria. Não aumenta o raio nem muda a origem de uma área centrada em você. Não combina com Toque, Aura ou Onda.",
     "motivo": "Consolida R06: distância, raio e origem são medidas distintas; preserva compra dupla.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Longe: não aumenta raio nem muda a origem; não combina com Toque, Aura ou Onda (a v0.331 já fixava o Toque em 1,5 m e a Aura e a Onda em você).",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6302,7 +6426,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-02",
     "nome": "Muito Longe",
@@ -6311,6 +6435,17 @@
     "depois": "Aumenta o alcance em **três degraus**, pelas mesmas escadas e limites de Longe. Não ultrapassa o último degrau. Não combina com Toque, Aura ou Onda.",
     "motivo": "Mantém preço e quantidade, sem criar distância além da escada.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Muito Longe: mesmas escadas e limites de Longe, sem passar do último degrau.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6381,7 +6516,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-05",
     "nome": "Passo",
@@ -6390,6 +6525,17 @@
     "depois": "Antes ou depois de resolver o feitiço, você pode se deslocar **até 6 m**, sem ataques de oportunidade e sem gastar outra Ação de Movimento. Escolha o momento ao usar. Terreno, limites e condições do seu movimento continuam valendo; não concede voo, escalada nem teleporte. Ação Completa, sozinha, não impede esse deslocamento. **Atrasar e Parado impedem usar Passo no turno.**",
     "motivo": "Sincroniza CAT-07 e R06, distinguindo ações consumidas de proibição de se mover.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Passo: Atrasar e Parado, que na v0.331 já proíbem se mover, vetam o Passo no turno; Ação Completa sozinha não veta.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6460,7 +6606,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-08",
     "nome": "Maior",
@@ -6469,6 +6615,17 @@
     "depois": "Aumenta o tamanho de uma área em **um degrau**. Pode comprar duas vezes. Use a escada de raio ou de comprimento da Forma. Na Linha, aumente primeiro o comprimento até 60 m; depois a largura para 3 m e então 4,5 m. Não cria área numa Forma de alvo individual nem aumenta a distância até seu ponto de origem.",
     "motivo": "Consolida escadas de R06 e impede ampliar um alvo inexistente em vez de pagar Forma.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Maior: a escada da Linha (comprimento, depois largura 3 m e 4,5 m) é a mesma da v0.331; não cria área em Forma de alvo único.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6479,7 +6636,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-09",
     "nome": "Muito Maior",
@@ -6488,6 +6645,17 @@
     "depois": "Aumenta o tamanho da área em **três degraus**, seguindo a mesma ordem e os mesmos limites de Maior. Não ultrapassa o último degrau nem cria área onde não existe.",
     "motivo": "Mantém função e preço, fazendo a remissão para evitar duas definições de escada.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Muito Maior: mesma ordem e limites de Maior.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6677,7 +6845,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-16",
     "nome": "Precisão",
@@ -6686,6 +6854,17 @@
     "depois": "Concede **+2 no ataque ou +2 na CD do TR** que resolve o feitiço, conforme a resolução da ficha. Não concede bônus a efeito inteiramente automático. Um TR de saída que use a mesma CD conserva esse valor. Não aumenta cura, dano ou testes de perícia.",
     "motivo": "Fecha aplicação do bônus sem alterar a opção ataque/TR registrada; protege de conversão em bônus a perícias.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Precisão: só ataque ou CD do feitiço; o TR de saída com a mesma CD conserva o bônus; não vale para cura, dano ou perícia.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6786,7 +6965,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-20",
     "nome": "Fura",
@@ -6795,6 +6974,16 @@
     "depois": "Ao causar dano, ignore até **2 × Classe de Redução de Dano** do alvo para este feitiço. Não elimina resistência, imunidade, cobertura ou pontos de vida de uma barreira. Um valor ignorado não se transforma em dano adicional.",
     "motivo": "Distingue RD de outras defesas sem mexer em preço ou quantidade.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Fura: ignora só Redução de Dano, sem virar dano extra.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6805,7 +6994,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-21",
     "nome": "Corrói",
@@ -6814,6 +7003,17 @@
     "depois": "Só pode ser comprada se **Mira for uma Família Livre**. A resistência ao tipo de dano deste feitiço não reduz seu dano nesta aplicação. Não remove a resistência do alvo contra outras fontes e não ignora imunidade ou Redução de Dano.",
     "motivo": "Define duração da supressão como aplicação própria, evitando debuff permanente por nome.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Corrói: a resistência não reduz o dano desta aplicação, sem tirar a resistência do alvo contra outras fontes.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6824,7 +7024,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-22",
     "nome": "Sem Cobertura",
@@ -6833,6 +7033,17 @@
     "depois": "Ignore os bônus de **Cobertura Parcial** contra este feitiço. Cobertura Boa mantém seus bônus; Cobertura Total continua impedindo escolher diretamente o alvo. Esta peça não concede visão nem muda a trajetória.",
     "motivo": "Preserva a restrição expressa à categoria Parcial; não amplia silenciosamente à Boa após formalização das categorias.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Sem Cobertura: só a Parcial, como na v0.331; a Boa continua valendo.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6843,7 +7054,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-23",
     "nome": "Toca a Alma",
@@ -6852,6 +7063,17 @@
     "depois": "Requer **Classe 3 ou superior** e Fundamento cuja Regra trate diretamente da alma. Troque os dados de dano do feitiço por dano de Alma e reduza sua quantidade à metade, para baixo. Aplique depois **Dano na alma**, inclusive suas defesas e Integridade. Não combina com Liberação Máxima. Na Técnica Máxima, conserva a redução e os requisitos.",
     "motivo": "Preserva regra atual, sem redesenhar Integridade pendente. A conversão não mantém a quantidade original por ser Máxima.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Toca a Alma: na Técnica Máxima conserva a metade e os requisitos; remete a Dano na alma sem mexer na Integridade, que fica para a revisão do Morrendo.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6862,7 +7084,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-24",
     "nome": "Condição",
@@ -6871,6 +7093,16 @@
     "depois": "Escolha na montagem **uma das treze condições compráveis** de Condições. Pague seu nível: Leve, Média ou Pesada. Ela se aplica no acerto ou na falha do TR, dura **uma rodada** e termina no começo do seu próximo turno, salvo duração diferente da ficha. Só pode haver uma Pesada por feitiço.\n\nUma Pesada permite ao alvo repetir o TR registrado no fim de cada turno dele, sem ação, encerrando aquela aplicação no sucesso, mesmo que tenha sido aplicada por ataque. Leves e Médias não ganham essa saída por padrão. Concentrada, Duradoura e o bônus de Controle mudam os prazos nos limites próprios; não retiram as saídas da condição.",
     "motivo": "Remete ao dono das treze condições sem repetir catálogo de estados e resolve TR de saída mesmo para ataque.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Condição: a saída da Pesada no fim de cada turno do alvo vale também quando ela entra por ataque.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6911,7 +7143,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-26",
     "nome": "Cerca",
@@ -6920,6 +7152,17 @@
     "depois": "No acerto ou na falha do TR, o alvo não pode **se aproximar voluntariamente de você** até o fim do próximo turno dele. Você se mover até ele não o afasta. Movimento imposto continua possível. A aplicação termina assim que você lhe causar dano, **inclusive o dano do feitiço que a aplicou**.",
     "motivo": "Mantém o encerramento publicado, inclusive quando torna combo com dano sem utilidade; define aproximação voluntária em vez de barreira física.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Cerca: proíbe só a aproximação voluntária; movimento imposto continua.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7049,7 +7292,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-01",
     "nome": "Impulso",
@@ -7058,6 +7301,17 @@
     "depois": "O alvo tem vantagem no próximo teste que fizer até o fim do próximo turno dele. O benefício termina depois desse teste, mesmo se ele falhar. Não modifica rolagens de dano.",
     "motivo": "Prazo refere-se ao alvo; próximo teste é um consumo, não dano.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Impulso: o prazo é do alvo e acaba depois do teste.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7068,7 +7322,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-02",
     "nome": "Trava",
@@ -7077,6 +7331,17 @@
     "depois": "O alvo tem desvantagem no próximo ataque que fizer. A peça termina depois dessa tentativa ou no começo do seu próximo turno, o que acontecer primeiro.",
     "motivo": "Fonte omite prazo: aplica convenção geral de uma rodada, sem criar penalidade permanente.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Trava: a v0.331 não tinha prazo; agora acaba na tentativa ou no começo do seu próximo turno.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7087,7 +7352,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-03",
     "nome": "Abre Ferida",
@@ -7096,6 +7361,17 @@
     "depois": "Escolha um dos quatro TRs na criação. Até o fim do próximo turno do alvo, ele sofre −2 nesse tipo de TR. A penalidade só entra depois da resolução que aplicou a peça: não reduz o próprio TR usado para resistir a este feitiço.",
     "motivo": "Interpreta um TR como um dos quatro tipos, fixado na criação; impede penalidade retroativa na própria resistência.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Abre Ferida: 'um TR' lido como um dos quatro tipos, escolhido na criação; todo TR desse tipo no prazo leva −2, e não o próprio TR contra o feitiço. É leitura escolhida pela candidata: quem lia 'uma rolagem' vê a peça ficar mais forte.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7106,7 +7382,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-04",
     "nome": "Sobrecarga",
@@ -7115,6 +7391,17 @@
     "depois": "Até o fim do próximo turno dele, o alvo não pode usar Reação e a CD dos feitiços que conjurar diminui em 2. Não altera o bônus de ataque nem a CD de efeitos que ele já havia aplicado.",
     "motivo": "Separa CD de conjurações futuras de bônus de ataque e de efeitos existentes.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Sobrecarga: −2 na CD dos feitiços que o alvo conjurar; não mexe em ataque nem em efeito já aplicado.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7125,7 +7412,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-05",
     "nome": "Firmeza",
@@ -7134,6 +7421,17 @@
     "depois": "O alvo tem vantagem no próximo TR que fizer. O benefício termina depois desse teste ou no começo do seu próximo turno, o que acontecer primeiro. Ele não substitui o TR por sucesso automático.\n\n> **Exemplo:** uma criatura falha no TR de um feitiço com Abre Ferida, escolhido para afetar TR Físico. A penalidade não muda aquela falha. Um novo TR Físico feito dentro do prazo recebe −2; seu TR de Vigor continua igual.",
     "motivo": "Fonte omite prazo: uma rodada; vantagem não se renova com extensão.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Firmeza: a v0.331 não tinha prazo; agora acaba no teste ou no começo do seu próximo turno. Na candidata o exemplo de Abre Ferida ficou logo depois da Firmeza.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7144,7 +7442,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-06",
     "nome": "Guarda",
@@ -7153,6 +7451,17 @@
     "depois": "O alvo recebe +2 na Defesa até o fim do próximo turno dele. O bônus não altera seus TRs. A relação entre Defesa e Bloquear segue o procedimento de combate.",
     "motivo": "Turno é do alvo; remete a combate em vez de duplicar Bloquear.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Guarda: o turno é o do alvo; não mexe em TR.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7163,7 +7472,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-07",
     "nome": "Pressa",
@@ -7172,6 +7481,17 @@
     "depois": "O alvo recebe +6 m de deslocamento e seus movimentos não provocam ataques de oportunidade até o fim do próximo turno dele. A peça não concede um movimento imediato nem ações adicionais. Terreno e condições continuam afetando o movimento disponível.",
     "motivo": "Bônus de deslocamento não é movimento imediato nem ação adicional.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Pressa: deslocamento a mais, sem movimento imediato nem ação.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7212,7 +7532,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-09",
     "nome": "Ecoa",
@@ -7221,6 +7541,17 @@
     "depois": "O próximo ataque de um aliado seu, diferente de você, contra o alvo tem vantagem. A peça termina depois dessa tentativa, mesmo se errar, ou no começo do seu próximo turno. Não beneficia TRs nem rolagens feitas apenas para resolver um dano secundário.",
     "motivo": "Uma rodada, uma tentativa, beneficiário aliado diferente do criador; não consome em secundários.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Ecoa: o aliado não pode ser você; a v0.331 não tinha prazo, agora acaba na tentativa ou no começo do seu próximo turno.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7231,7 +7562,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-10",
     "nome": "Queima",
@@ -7240,6 +7571,17 @@
     "depois": "",
     "motivo": "Um dano adiado por parcela inicial no alvo (em Rajada não copia pool); sem crítico, novo teste ou reaplicação de peças. Depende de acerto/falha inicial.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Queima: deixa de valer quando o alvo passa no TR ou o ataque erra com dano parcial; usa os dados de antes do crítico e, em Rajada ou Mais Um, só os do alvo. A v0.331 dizia só 'metade dos dados de novo'.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7250,7 +7592,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-11",
     "nome": "Acúmulo",
@@ -7259,6 +7601,17 @@
     "depois": "Mantenha uma sequência deste feitiço contra um alvo escolhido. Usá-lo em rodadas seguidas contra esse alvo dá **+1d8 no segundo uso, +2d8 no terceiro e +3d8 no quarto e nos seguintes**. O primeiro começa sem bônus. Um ataque que erre ainda conta como uso; uma tentativa sem alvo válido não conta.\n\nA sequência aumenta no máximo uma vez por rodada. Repetir o feitiço na mesma rodada usa o bônus já alcançado. Se passar uma rodada inteira sem usá-lo contra o alvo, ou se você escolher outro alvo para a sequência, o próximo uso começa sem bônus. Mantenha uma sequência por ficha de feitiço.\n\nNuma área ou em ataques divididos, indique qual alvo acompanha a sequência. O bônus pertence apenas ao dano inicial destinado a ele; em vários tiros, distribua os dados adicionais entre os tiros dirigidos a esse alvo. Não some o bônus inteiro em cada tiro.\n\nOs dados deste uso entram na base de seus próprios efeitos derivados, mas não alteram Queima, Fica, Salto ou Estilhaço de usos anteriores. Em Fica, o bônus pertence apenas ao alvo acompanhado: as outras criaturas na área usam a base sem esse acréscimo. Remate pode aumentar esse dano normalmente. O crescimento de Acúmulo, inclusive seus efeitos derivados, pode ultrapassar o teto conferido na montagem; não exige reduzir retroativamente o feitiço.",
     "motivo": "Preserva exceção histórica e Remate; fecha um alvo acompanhado, reinício por rodada omitida e crescimento máximo um por rodada. Bônus dos usos atuais entra em derivados; não altera usos anteriores.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Acúmulo: +1d8, +2d8, +3d8 como na v0.331; uma sequência por feitiço, zera se pular rodada; sem teto, como a peça 03 já dizia.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7359,7 +7712,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-15",
     "nome": "Rasga Escudo",
@@ -7368,6 +7721,17 @@
     "depois": "O dano ignora a vida temporária e uma barreira que esteja absorvendo dano no lugar do alvo: desconte diretamente da vida. Não ignora RD, resistência, imunidade, cobertura ou uma parede que impeça o feitiço de alcançar o alvo.",
     "motivo": "Barreira absorvente não equivale a atravessar uma parede ou ignorar requisito de alvo.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Rasga Escudo: fura vida temporária e barreira que absorve, não parede que impede de alcançar.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7378,7 +7742,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-16",
     "nome": "Sem Cura",
@@ -7387,6 +7751,17 @@
     "depois": "O alvo não pode recuperar vida até o fim do próximo turno dele. Isso não remove vida temporária já recebida, não impede uma concessão de vida temporária e não retira condições por si só. Integridade usa seu procedimento próprio.",
     "motivo": "Cura refere-se à vida; reserva temporária e Integridade não são redefinidas.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Sem Cura: bloqueia recuperar vida, não vida temporária; Integridade segue o procedimento dela.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7397,7 +7772,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-17",
     "nome": "Rápido",
@@ -7406,6 +7781,16 @@
     "depois": "Use Ação Bônus no lugar da Padrão. Não combina com Reação ou Atrasar, e não substitui a Ação Completa de uma Liberação Máxima ou Técnica Máxima. O limite de conjuração no turno permanece.",
     "motivo": "Preserva economia; não substitui Ação Completa.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Rápido: não substitui a Ação Completa da Liberação Máxima e da Técnica Máxima.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7416,7 +7801,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-18",
     "nome": "Reação",
@@ -7425,6 +7810,16 @@
     "depois": "Conjure com sua Reação quando ocorrer um gatilho perceptível, definido na criação. Resolva depois de o gatilho terminar, salvo regra expressa que permita intervir antes. Um gatilho de sofrer dano não evita o dano que já aconteceu.\n\nCumpra alvo, alcance, visão, Selo e os outros requisitos nesse momento. Não combina com Rápido, Armado, Atrasar ou Parado, nem substitui a Ação Completa das aplicações máximas.",
     "motivo": "Gatilho vem da criação, resolução posterior por padrão; não impede retroativamente dano já sofrido.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Reação: resolve depois do gatilho, salvo regra expressa; não evita o dano que disparou o gatilho.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7465,7 +7860,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-20",
     "nome": "Silencioso",
@@ -7474,6 +7869,17 @@
     "depois": "A conjuração dispensa gesto e palavra. O uso não revela automaticamente sua posição, e perceber o efeito não localiza sua origem. Isso não torna invisível um corpo exposto nem impede uma busca independente.\n\nDispensa o Selo de gesto ou som; requisitos de condição, como enxergar o alvo, continuam. Não cancela uma Restrição mantendo sua devolução: Gesto e Barulho conservam suas exigências quando presentes na ficha.",
     "motivo": "Concilia ocultação candidata e Selo sem teste gratuito ou dispensa de restrição paga.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Silencioso: não apaga a exigência de Gesto ou Barulho vendidos na mesma ficha.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7484,7 +7890,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-21",
     "nome": "Adianta",
@@ -7493,6 +7899,17 @@
     "depois": "Se conjurar antes de qualquer inimigo ter agido na rodada, a CD deste uso aumenta em 2. Uma ação ou Reação inimiga já conta como ter agido; apenas receber um ataque ou fazer o TR exigido por ele não conta. O benefício não modifica ataques. Com Armado ou Segura, confira a exigência também ao disparar; o bônus não fica guardado para uma rodada posterior.",
     "motivo": "Define agir e fixa bônus ao momento de conjuração; não guarda +2 para disparo adiado em outra rodada.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Adianta: define 'agir' e prende o bônus ao momento da conjuração.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7533,7 +7950,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-23",
     "nome": "Concentrada",
@@ -7542,6 +7959,16 @@
     "depois": "Amplie efeitos de estado que normalmente durariam uma rodada ou até o fim do próximo turno. Concentrada exige concentração; Duradoura usa a coluna sem concentração. Se a ficha reunir estados de categorias diferentes, todos usam o menor prazo aplicável.\n\n| Efeito prolongado | Concentrada | Duradoura |\n|---|---|---|\n| Condição, benefício ofensivo ou penalidade. | 1 minuto. | 1 minuto. |\n| Bônus numérico de Defesa ou TR. | 10 minutos. | 1 minuto. |\n| Proteção mecânica: resistência, imunidade, vida temporária ou Divide. | 10 minutos. | Classes 1–2: 1 hora; Classe 3: 8 horas; Classes 4–7: 24 horas. |\n\nUm minuto equivale a **dez rodadas de 6 segundos**. Marque o ponto da iniciativa em que o efeito começou; termine após dez voltas completas, antes de resolver algo naquele mesmo ponto. Fora do combate, use o tempo transcorrido.\n\nAs peças não repetem dano, não renovam um uso consumido e não prolongam Fica, Anteparo, Rastro, reservas de cura ou um prazo próprio de outra regra. Aplicam-se a estados da ficha, não à duração de um artefato. Fica conserva suas seis janelas de resolução.",
     "motivo": "Mantém duração de um minuto como dez rodadas, só Fica usa seis janelas; não renova usos nem prazos próprios de artefatos.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Concentrada: a tabela de duração é a mesma da v0.331; um minuto vira dez rodadas contadas na iniciativa, e não renova usos nem prazos próprios.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7552,7 +7979,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-24",
     "nome": "Duradoura",
@@ -7561,6 +7988,16 @@
     "depois": "Amplie efeitos de estado que normalmente durariam uma rodada ou até o fim do próximo turno. Concentrada exige concentração; Duradoura usa a coluna sem concentração. Se a ficha reunir estados de categorias diferentes, todos usam o menor prazo aplicável.\n\n| Efeito prolongado | Concentrada | Duradoura |\n|---|---|---|\n| Condição, benefício ofensivo ou penalidade. | 1 minuto. | 1 minuto. |\n| Bônus numérico de Defesa ou TR. | 10 minutos. | 1 minuto. |\n| Proteção mecânica: resistência, imunidade, vida temporária ou Divide. | 10 minutos. | Classes 1–2: 1 hora; Classe 3: 8 horas; Classes 4–7: 24 horas. |\n\nUm minuto equivale a **dez rodadas de 6 segundos**. Marque o ponto da iniciativa em que o efeito começou; termine após dez voltas completas, antes de resolver algo naquele mesmo ponto. Fora do combate, use o tempo transcorrido.\n\nAs peças não repetem dano, não renovam um uso consumido e não prolongam Fica, Anteparo, Rastro, reservas de cura ou um prazo próprio de outra regra. Aplicam-se a estados da ficha, não à duração de um artefato. Fica conserva suas seis janelas de resolução.",
     "motivo": "Conserva as três linhas e escalas da fonte; não aumenta duração própria nem consumos.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Duradoura: a mesma tabela e os mesmos limites da Concentrada.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7571,7 +8008,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-25",
     "nome": "Marca",
@@ -7580,6 +8017,17 @@
     "depois": "Até o fim do seu próximo turno, você tem vantagem no próximo ataque contra o alvo. A vantagem se encerra depois dessa tentativa, mesmo se errar. Só você a recebe; a conjuração que aplicou Marca não se beneficia dela.",
     "motivo": "Consome na próxima tentativa; não beneficia a mesma conjuração nem secundários.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Marca: a vantagem acaba na tentativa e não vale para a conjuração que marcou.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7590,7 +8038,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-26",
     "nome": "Alvo de Caça",
@@ -7599,6 +8047,16 @@
     "depois": "Até o fim do seu próximo turno, cada ataque **seu** que acertar o alvo causa **+1d4**. Se a ficha que aplica a marca tiver Rápido, o dado é **1d8**. O feitiço que marcou não recebe esse adicional, incluindo seus demais tiros.\n\nO bônus vale para arma, desarmado e feitiço com ataque; cada tiro elegível de Rajada conta. Não vale para TR, Queima, Fica, Salto, Estilhaço ou ataques de criaturas que você comande. Mantenha um alvo de caça por vez: aplicar a marca em outro encerra a anterior. Se a ficha alcançar várias criaturas, escolha uma que tenha recebido a peça.",
     "motivo": "Preserva 1d4/1d8 e gatilhos históricos, um alvo por vez; vários tiros da conjuração aplicadora não recebem bônus.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Alvo de Caça: 1d4 e 1d8 como na v0.331; numa ficha de vários alvos, escolhe-se um.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7609,7 +8067,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-27",
     "nome": "Rastro",
@@ -7618,6 +8076,17 @@
     "depois": "Por 1 hora, você sabe a posição atual do alvo enquanto ele permanecer no mesmo plano. Se sair, a informação para; volta se ele retornar dentro do prazo. Saber a posição não concede visão, passagem por obstáculos ou conhecimento do caminho até ela.",
     "motivo": "Posição não é visão nem trajeto; suspensão da informação noutro plano não pausa a hora.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Rastro: posição não é visão nem caminho; a hora não pausa noutro plano.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7628,7 +8097,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-28",
     "nome": "Sugar",
@@ -7637,6 +8106,16 @@
     "depois": "",
     "motivo": "Limite por conjuração, soma inicial após defesas somente onde houve acerto/falhaTR; exclui dano parcial de Certeiro/sucessoTR, repetições, objetos, cura de vida para baixo.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Sugar: dano parcial de Certeiro ou de TR bem-sucedido deixa de contar, e o teto de 5 × Classe vale para a conjuração inteira, somando todos os alvos. A v0.331 dizia só 'um quarto do dano causado'.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7647,7 +8126,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-29",
     "nome": "Isca",
@@ -7656,6 +8135,17 @@
     "depois": "Até o fim do próximo turno do alvo, ele tem desvantagem em ataques que não incluam você como alvo. Num ataque dirigido a várias criaturas, confira cada rolagem: apenas a dirigida a você fica sem essa penalidade. A peça não modifica um efeito resolvido só por TR.",
     "motivo": "Ataques divididos conferidos por rolagem, sem modificar TR.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Isca: em ataque com vários alvos, confere-se cada rolagem.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7696,7 +8186,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-31",
     "nome": "Aviso",
@@ -7705,6 +8195,17 @@
     "depois": "Você descobre qual foi o último feitiço conjurado pelo alvo e sua Classe. Se ele ainda não conjurou nenhum, recebe essa informação. O resultado identifica aquela aplicação; não entrega a lista inteira de feitiços, as Famílias ou a ficha de criação.\n\nAviso é uma informação obtida naquele instante. Concentrada e Duradoura não o transformam em acompanhamento automático das conjurações seguintes.",
     "motivo": "Informação instantânea do último feitiço; não conhecimento integral da ficha nem vigilância contínua.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Aviso (Melhoria): informação do instante, sem a lista de feitiços nem vigilância contínua.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7715,7 +8216,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-32",
     "nome": "Limpa",
@@ -7724,6 +8225,16 @@
     "depois": "Remova do aliado uma condição Leve ou Média. Escolha a condição ao resolver a ficha. Isso encerra aquela aplicação, sem impedir que uma fonte ainda ativa a aplique novamente por seu próprio procedimento.",
     "motivo": "Uma condição escolhida na resolução; não é imunidade à fonte.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Limpa: remove uma condição Leve ou Média escolhida na resolução, sem imunidade à fonte.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7734,7 +8245,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "so_editorial",
    "registro": {
     "id": "R07-B-33",
     "nome": "Limpa Fundo",
@@ -7743,6 +8254,17 @@
     "depois": "Remova uma condição de qualquer nível. O efeito não é uma imunidade nem remove todas as condições do aliado de uma vez.",
     "motivo": "Uma condição, não todas.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "so_editorial",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Limpa Fundo: remove uma condição de qualquer nível: a v0.331 já dizia 'uma'.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7872,7 +8394,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "R07-B-38",
     "nome": "Remenda",
@@ -7881,6 +8403,17 @@
     "depois": "Recupere **5 × Classe de Integridade** de um aliado, sem ultrapassar seu máximo. O mesmo alvo só pode receber Remenda uma vez por cena, independentemente de quem a use. A peça não recupera vida nem permite voltar a agir a zero de vida por si só.",
     "motivo": "Concilia Recuperação: limite por alvo/cena compartilhado e máximo de Integridade, sem curar vida.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Remenda: limite por alvo e por cena, teto da Integridade e sem curar vida. A revisão adiada do Morrendo e da Integridade cita a Remenda pelo nome.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7891,7 +8424,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-01",
     "nome": "Corpo a Corpo",
@@ -7900,6 +8433,16 @@
     "depois": "**Devolução: Média.** Projétil se torna **Toque**, com alcance de 1,5 m. Explosão se torna **Aura**, centrada em você. A Restrição já faz parte dessas duas Formas e ocupa uma das duas escolhas disponíveis.\n\nCone e Linha não podem recebê-la. Uma Melhoria ou outro benefício não pode ampliar a distância do Toque nem afastar a origem da Aura mantendo essa devolução. Classe 0 e Técnica Máxima conservam essas exigências, mas não recebem os pontos.",
     "motivo": "Explicita que Toque e Aura já contêm a Restrição; preserva Classe 0 e Máxima sem devolução, e veda anular o alcance cobrado. R06: Restrições, Classe 0, Técnica Máxima; peça 27:157.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Corpo a Corpo: Toque e Aura já trazem a Restrição; Classe 0 e Técnica Máxima não recebem os pontos; nada pode esticar o Toque mantendo a devolução.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7970,7 +8513,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-04",
     "nome": "Gesto",
@@ -7979,6 +8522,17 @@
     "depois": "**Devolução: Leve.** A conjuração exige **as duas mãos livres e fala audível**. Se não puder cumprir as duas partes, não pode usar o feitiço.\n\nUm Selo que exige um gesto simples com uma mão ainda pode receber essa exigência adicional. Se o Selo já exige as duas mãos livres e a fala, não há devolução. Silencioso não pode retirar essas exigências mantendo os pontos de Gesto.",
     "motivo": "Compara a exigência integral com Selo. Selo simples de uma mão não impede uma exigência realmente maior. Silencioso não elimina custo vendido por Gesto. R06: Selo e Passivas; Restrições.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Gesto: sem devolução se o Selo já exige as duas mãos e a fala; Silencioso não apaga a exigência.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8019,7 +8573,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-06",
     "nome": "Sangra",
@@ -8028,6 +8582,17 @@
     "depois": "**Devolução: Média.** Ao usar o feitiço, você sofre **2 × Classe de dano que não pode ser reduzido**, mesmo se errar ou os alvos resistirem. Esse custo faz parte de cada conjuração.",
     "motivo": "Custo de dano cobrado ao usar, mesmo que a aplicação não acerte. Não inventa tipo de dano nem exige perda direta de PV ignorando vida temporária.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Sangra: o dano vem em toda conjuração, mesmo se errar.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8038,7 +8603,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-07",
     "nome": "Recuo",
@@ -8047,6 +8612,16 @@
     "depois": "**Devolução: Leve ou Média.** Escolha uma condição na montagem. Ao conjurar, você recebe essa condição até o fim do seu próximo turno, mesmo se o feitiço não afetar ninguém. A devolução tem a gravidade da condição escolhida. Condições Pesadas não entram.\n\nUse as condições de **Dano e condições**. A escolha precisa prejudicar o personagem: uma imunidade que impeça a condição elimina a possibilidade de receber pontos por ela. Não some outra Restrição que cobre a mesma consequência.",
     "motivo": "Escolha fixa na montagem, condição aplicada independentemente do acerto, não comprável se sempre impedida por imunidade. Mantém gravidade Leve/Média e prazo até fim do próximo turno.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Recuo: condição escolhida na montagem e sofrida mesmo sem afetar ninguém; sem pontos se uma imunidade sempre a impede.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8057,7 +8632,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-08",
     "nome": "Fraqueza",
@@ -8066,6 +8641,17 @@
     "depois": "**Devolução: Leve ou Média.** Escolha um dos quatro TR na montagem. Depois de conjurar, você faz esse TR com **desvantagem até o fim da cena**. Vigor ou Intelecto devolvem Leve. Físico ou Espírito devolvem Média.\n\nNovos usos mantêm a desvantagem. Não criam outra penalidade. Se outro benefício cancelar sempre a desvantagem, reveja a Restrição: ela precisa continuar cobrando uma dificuldade real.",
     "motivo": "Mantém valores distintos dos quatro TR, limite da cena e não empilhamento da própria desvantagem. Revisão de custo real se outra capacidade a cancela sempre.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Fraqueza: usos novos não empilham a desvantagem; reveja se outro benefício sempre a cancela.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8076,7 +8662,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-09",
     "nome": "Peso Morto",
@@ -8085,6 +8671,17 @@
     "depois": "**Devolução: Leve.** Depois de conjurar, seu **deslocamento cai à metade** e você sofre **−1 nos TR Físicos**, até o fim do seu próximo turno. Os dois efeitos pertencem à mesma Restrição. Um novo uso renova o prazo, sem acumular reduções ou penalidades iguais.",
     "motivo": "Atribui o mesmo prazo aos dois efeitos e renova sem multiplicar penalidades iguais. Fonte mencionava prazo apenas junto do deslocamento, deixando −1 sem fim explícito.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Peso Morto: o −1 no TR Físico ganha o mesmo prazo do deslocamento, que a v0.331 só dava ao deslocamento.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8095,7 +8692,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-10",
     "nome": "Frágil",
@@ -8104,6 +8701,17 @@
     "depois": "**Devolução: Leve.** Se você sofrer dano **antes do começo do seu próximo turno**, o efeito que este feitiço mantém termina imediatamente. Só cabe em uma aplicação que deixe um efeito em andamento.\n\nNão há teste para impedir esse encerramento. Frágil não é Concentração e Mão Firme não o protege. Encerrar o efeito não desfaz dano ou deslocamento que já tenha ocorrido. Num feitiço inteiramente instantâneo, não há efeito futuro a perder nem devolução.",
     "motivo": "A fonte exata diz antes do seu próximo turno, sem FIM. Começo explicita essa janela. Efeito contínuo termina sem TR; Mão Firme não substitui sua cláusula por concentração. Resultados instantâneos anteriores não são desfeitos.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Frágil: a janela vai até o começo do seu próximo turno; sem teste e sem Mão Firme.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8193,7 +8801,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-14",
     "nome": "Aquecer",
@@ -8202,6 +8810,17 @@
     "depois": "**Devolução: Leve.** Você não pode usar este feitiço **na primeira rodada do combate**. A restrição considera a rodada do combate, não a primeira rodada em que você resolveu participar. Fora de combate, ela não impõe um atraso novo.\n\nEla não paga pontos de uma aplicação feita exclusivamente fora de combate, pois nunca a impediria.",
     "motivo": "Primeira rodada pertence ao combate, não à entrada de cada personagem. Não gera nova regra de espera fora dele, nem devolve em aplicação exclusivamente externa ao combate.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Aquecer: a primeira rodada é a do combate; não devolve em feitiço só usado fora de combate.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8242,7 +8861,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-16",
     "nome": "Tudo ou Nada",
@@ -8251,6 +8870,17 @@
     "depois": "**Devolução: Leve.** Num feitiço que causa dano por TR, um alvo que passe no teste **não sofre dano**, em vez de sofrer metade. Os demais efeitos seguem sua própria resolução.\n\nNão cabe em ataques contra Defesa, em aplicações sem dano ou quando um sucesso no TR já evitava todo o dano: nesses casos, não acrescentaria uma dificuldade.",
     "motivo": "Somente feitiço com dano por TR que normalmente conserva metade no sucesso. Não afeta automaticamente outras peças, nem vende desvantagem já existente.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Tudo ou Nada: só em dano por TR que daria metade no sucesso.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8261,7 +8891,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-17",
     "nome": "Barulho",
@@ -8270,6 +8900,17 @@
     "depois": "**Devolução: Leve.** Ao conjurar, você produz um som que pode ser ouvido **a até 90 m** e denuncia de onde veio. Quem puder ouvi-lo identifica a origem. A Restrição não concede audição a uma criatura surda nem faz o som atravessar um bloqueio que o impeça por completo.\n\nUma fala audível nas proximidades, como a de Gesto, não equivale automaticamente a esse alcance. Se seu Selo ou o próprio efeito já produz esse mesmo aviso a 90 m, Barulho não devolve pontos. Se a ficha tiver Silencioso, o ruído exigido por Barulho continua existindo.",
     "motivo": "Mantém 90 m e identificação da origem. Distingue fala local de aviso ampliado e preserva impedimentos físicos de audição. Não exige haver ouvintes para conjurar. Silencioso não elimina o ruído. Sem devolução se o Selo já exige o mesmo aviso.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Barulho: sem devolução se o Selo já faz o mesmo aviso; Silencioso não apaga o ruído.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8340,7 +8981,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-20",
     "nome": "Leitura",
@@ -8349,6 +8990,17 @@
     "depois": "Você identifica a **Classe e a Forma** de qualquer feitiço conjurado a até **18 m** de você. A informação não fornece a montagem completa, o custo de cada peça ou a localização de um alvo oculto.",
     "motivo": "Preserva qualquer conjuração até 18 m sem inventar requisito de vê-la. Limita a informação à concessão escrita: Classe e Forma, sem receita completa ou posição de alvos ocultos.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Leitura (Passiva): Classe e Forma, sem a montagem nem a posição de alvo oculto.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8359,7 +9011,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-21",
     "nome": "Instinto",
@@ -8368,6 +9020,17 @@
     "depois": "Você não é pego de surpresa enquanto estiver **acordado**. Isso não revela criaturas escondidas, não muda sua posição na iniciativa e não concede uma ação adicional.",
     "motivo": "Mantém o requisito de estar acordado e a proteção contra surpresa, distinta de revelar criaturas, mudar iniciativa ou ganhar ações.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Instinto: não revela escondidos, não muda a iniciativa nem dá ação.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8378,7 +9041,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-22",
     "nome": "Raiz",
@@ -8387,6 +9050,17 @@
     "depois": "Você **não é movido à força nem fica Derrubado contra a sua vontade**. Pode aceitar um deslocamento ou se deitar por escolha própria. A Passiva não impede o dano de um efeito que também empurre ou derrube.\n\nRaiz não cria apoio sob seus pés: se o chão desaparecer, a queda segue suas regras. Esta proteção específica é uma exceção expressa do catálogo. Não autoriza criar imunidade a qualquer outra condição pelo mesmo preço.",
     "motivo": "Preserva a proteção publicada em Classe Passiva 1 como exceção expressa aos limites de criação livre. Não altera dano nem cria apoio no vazio. Nenhuma mudança de custo. A força relativa permanece para playtest. A mesma proteção consta das técnicas marciais prontas, peça 20, linhas 103 e 353.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Raiz: aceitar o deslocamento é escolha; não cria chão nem impede o dano.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8397,7 +9071,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-23",
     "nome": "Mão Firme",
@@ -8406,6 +9080,17 @@
     "depois": "Quando uma ocorrência de dano causar **10 pontos ou menos**, você não precisa fazer o teste para manter **Concentração ou Carregar**. Confira o dano de cada ocorrência depois das reduções aplicáveis. Não some todos os golpes da rodada.\n\nAcima de 10, faça o teste normal: Vigor para Concentração, Espírito para Carregar. A Passiva não protege Frágil nem outro efeito que termine por sofrer dano sem teste. Também não dispensa testes próprios de barreiras ou de disputas de domínio.",
     "motivo": "Cada ocorrência de dano até 10 dispensa o teste de Concentração (Vigor) ou de carga (Espírito). Não protege Frágil nem os testes próprios de domínio e barreiras. Fontes: peça 03, linhas 61–81; peça 11, linhas 644, 684 e 719.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Mão Firme: cada ocorrência de dano, depois das reduções; não protege Frágil nem testes de barreira e domínio.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8416,7 +9101,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-24",
     "nome": "Farejador",
@@ -8425,6 +9110,17 @@
     "depois": "Você sente se houve uma conjuração **no local onde está nas últimas 24 horas**, e identifica a Classe deixada por ela. Se houver vestígios de mais de uma Classe, reconhece essas Classes.\n\nA informação não revela quem conjurou, a montagem do feitiço, a hora exata ou o caminho que o autor tomou depois. Investigar essas questões segue as regras da cena.",
     "motivo": "Delimita o lugar ao local em que está. Preserva 24 horas e Classe, sem inventar raio numérico, teste ou ação adicional. Não amplia informação para autoria ou perseguição.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Farejador: o local onde você está; não revela autor nem caminho.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8435,7 +9131,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-25",
     "nome": "Aviso",
@@ -8444,6 +9140,17 @@
     "depois": "**Passiva.** Ao ter um inimigo à vista, você sabe **qual foi o último feitiço que ele usou**, mesmo que não tenha presenciado aquela conjuração. Recebe o nome ou uma descrição suficiente para reconhecer a aplicação, não sua ficha completa.\n\nNão aprende esse feitiço nem descobre os demais do repertório. Esta é a Passiva Aviso. A Melhoria de mesmo nome tem outro efeito e é comprada separadamente.",
     "motivo": "Qualifica como Passiva sem renomear. Revela a última aplicação do inimigo visível mesmo se não observada anteriormente, sem receita completa. O homônimo da Melhoria fica registrado para a revisão futura de nomes.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Aviso (Passiva): vale mesmo sem ter visto a conjuração; não ensina o feitiço. É uma das duas entradas Aviso que o passo 2 renomeia.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8454,7 +9161,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-26",
     "nome": "Fluxo",
@@ -8463,6 +9170,17 @@
     "depois": "Ao conjurar um feitiço de **Classe 3 ou maior**, você recebe **2 × a Classe usada em pontos de vida temporária**. Uma conjuração concede a reserva uma vez, mesmo que alcance vários alvos ou produza vários ataques.\n\nEssa vida segue as regras gerais: não se soma a outra reserva, tem teto de metade da sua vida máxima e termina no fim da cena, salvo a permissão geral de preparação. Técnica Máxima não tem Classe própria e não ativa Fluxo por usar sua maior Classe para calcular preços.",
     "motivo": "Uma reserva por conjuração elegível, de 2 × Classe. Não inventa limite de usos. Mantém regras gerais de vida temporária. Técnica Máxima não possui Classe e não aciona Fluxo apenas por usar Classe como referência de preço. Fontes: manual 10, linhas 242–250; peça 11, linha 206.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Fluxo: uma reserva por conjuração; a Técnica Máxima não ativa, porque a v0.331 já diz que ela não tem Classe.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8473,7 +9191,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-27",
     "nome": "Recomposição",
@@ -8482,6 +9200,15 @@
     "depois": "**Uma vez por descanso curto**, use **Ação Padrão** para recuperar **5 × sua maior Classe em pontos de vida**, até sua vida máxima. Não gasta PE. Recuperar vida não remove condições por conta própria.",
     "motivo": "Explicita Ação Padrão e ausência de PE. Preserva uma vez por descanso curto e recuperação de 5 × maior Classe, limitada aos PV máximos. Não remove condições.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Recomposição: Ação Padrão, sem PE, até a vida máxima.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8551,7 +9278,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-30",
     "nome": "Costura",
@@ -8560,6 +9287,17 @@
     "depois": "**Uma vez por cena**, quando um aliado a até **9 m** sofreria uma redução de seus pontos de vida a 0, você pode fazer com que ele permaneça com **1 ponto de vida**. Não exige ação nem Reação.\n\nCostura previne essa redução. Não recupera quem já estava a 0, não restaura Integridade e não encerra uma condição. Outras consequências do efeito continuam sendo resolvidas. Uma morte que não dependa de reduzir a vida a 0 não é impedida por esta Passiva.",
     "motivo": "Previne cair a 0, sem cura retroativa. Efeito opcional no gatilho, sem inventar Reação. Não recupera Integridade nem altera morte que ocorra sem redução dos PV a 0. Morrendo não foi redesenhado. Mantém o alcance de aliado da fonte.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Costura: impede a queda, sem ação nem Reação; não levanta quem já está a zero. Não depende do desenho do Morrendo.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8629,7 +9367,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-33",
     "nome": "Escama",
@@ -8638,6 +9376,17 @@
     "depois": "Escolha **um tipo de dano** que a Regra da sua técnica justifique. Você tem **resistência** a esse tipo: sofre metade do dano, com o arredondamento das regras de dano.\n\nDuas fontes de resistência ao mesmo tipo não dividem o dano duas vezes. Escama não concede imunidade nem resistência a outros tipos associados apenas pela descrição.",
     "motivo": "Preserva um tipo justificado, Classe Passiva 3 e resistência de metade do dano. Não acumula resistências iguais nem converte resistência em imunidade.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Escama: resistências iguais não dividem duas vezes.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8648,7 +9397,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-34",
     "nome": "Afinidade",
@@ -8657,6 +9406,17 @@
     "depois": "Escolha **um tema presente na Regra da sua técnica**. Seus feitiços desse tema ignoram **cobertura Parcial e resistência ao tipo de dano que causam**.\n\nRegistre quais aplicações pertencem ao tema. Afinidade não ignora coberturas **Boa ou Total**, imunidade, Redução de Dano ou uma passagem bloqueada, nem permite escolher um alvo que você não poderia escolher normalmente.",
     "motivo": "Tema escolhido fica registrado. Preserva cobertura Parcial e resistência. Coberturas Boa e Total, imunidade, RD, obstáculos e escolha de alvo não são ignorados, em consonância com Sem Cobertura.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Afinidade: o tema fica registrado; não ignora cobertura Boa ou Total, imunidade nem RD.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8667,7 +9427,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-35",
     "nome": "Reserva Profunda",
@@ -8676,6 +9436,16 @@
     "depois": "Seu **PE máximo aumenta em 3 × sua maior Classe**. Atualize esse acréscimo quando sua maior Classe aumentar.\n\nO aumento é do máximo: a Passiva não é uma ação de recuperação e não pode ser ativada repetidamente para repor PE. Recuperar os pontos segue **Descanso e recuperação**.",
     "motivo": "Preserva 3 × maior Classe de acréscimo ao PE máximo. Não é recuperação repetível. As substituições de Manejo e Kata continuam determinando o significado desse recurso e não recebem energia pessoal por esta redação.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Reserva Profunda: aumenta o máximo, não recupera PE.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8715,7 +9485,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-37",
     "nome": "Passiva Própria",
@@ -8724,6 +9494,16 @@
     "depois": "**Classe Passiva 1, 2 ou 3. Custos e níveis da Classe escolhida.** Se o catálogo não representar a ideia, escreva o efeito com o mestre antes da sessão. Ele ocupa os espaços correspondentes e conta no máximo de cinco Passivas pagas.\n\n## Defina a aplicação\n\n| Campo | Pergunta que a ficha responde |\n|---|---|\n| Função | Qual benefício concreto ela concede? |\n| Gatilho | Quando funciona? O efeito é permanente ou depende de um acontecimento? |\n| Uso | Há ação, Reação, PE ou limite por cena, dia ou descanso? |\n| Alvos | Quem é afetado, a que distância e com quais requisitos? |\n| Resolução | Há teste, CD, duração ou forma de encerrar? |\n| Comparação | Qual Passiva da mesma Classe oferece um benefício semelhante? |\n\nInformação limitada ou um efeito pequeno e condicional costuma caber na Classe Passiva 1. Na Classe Passiva 2, compare o benefício e o seu gatilho: nem toda Passiva precisa de um contador, mas uma ativação fácil e repetida exige mais cuidado. A Classe Passiva 3 comporta efeitos permanentes de maior alcance, como resistência a um tipo de dano.\n\n## Limites\n\nUma criação própria não pode conceder bônus de acerto ou dano permanente e sem condição, uma ação extra por rodada, imunidade completa a um tipo de dano ou condição, cura ilimitada ou redução fixa do dano de todo golpe recebido. Exceções expressas do catálogo, como Raiz, não liberam versões gerais desses benefícios.\n\nA proposta precisa respeitar a Regra e as Famílias disponíveis. Não use uma Passiva própria para obter por outro nome um efeito de Família Fechada, eliminar sempre o custo de uma Restrição ou dispensar o Selo das conjurações sem uma permissão expressa.\n\nPassiva Própria e Regra Própria também não concedem acesso automático a entidades. Uma invocação exige que a técnica, o Manejo ou o Kata a preveja de forma explícita e coerente, além da aquisição e das regras de **Invocações**.\n\nA Passiva Livre permanece uma opção de aparência e expressão da técnica. Revelar informação protegida, vencer um obstáculo sem teste ou obter uma vantagem funcional exige uma escolha paga adequada. Retirar os números da descrição não transforma esse benefício em Livre.",
     "motivo": "Mantém Classes Passivas 1–3, seus níveis, custos e limite de cinco pagas. Exceções nomeadas não abrem permissão geral. Não contorna Família Fechada nem cancela permanentemente uma Restrição conservando seus pontos. Acesso a entidades depende de conceito explícito e coerente e da aquisição em Invocações, conforme nova instrução do usuário.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Passiva Própria: ganha a lista do que ela não pode dar (bônus fixo de acerto ou dano, ação extra, imunidade completa, cura ilimitada, redução fixa) e não dá invocação por si.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -14641,7 +15421,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R12-04",
     "tipo": "esclarecimento",
@@ -14658,6 +15438,16 @@
       "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
      }
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "invocacoes/05-Edicao-Integrada/60-invocacoes.md"
+    ],
+    "nota": "Domar: maldição de nível acima do seu fica fora de alcance, em vez de ser rebaixada. 'Até o seu nível' tinha as duas leituras.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -18932,13 +19722,25 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "so_editorial",
    "registro": {
     "id": "EMA27",
     "tipo": "Correção ortográfica",
     "antes": "Sobre Carregar Energia.",
     "depois": "Sobrecarregar Energia.",
     "motivo": "Corrige a grafia do verbo, preservaefeito e equivalência; evita colisão do título com RestriçãoCarregar."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "so_editorial",
+    "donos_v0331": [
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/conferir-nomes.py",
+     "sistema/03-mecanica/conferir-catalogo.py"
+    ],
+    "nota": "Grafia: 'Sobre Carregar Energia' vira 'Sobrecarregar Energia'. O nome antigo está na peça 06, no capítulo 35, no conferir-nomes.py e no conferir-catalogo.py, então entra no passo 2 junto dos outros nomes.",
+    "como": "passada dos 76 registros não mecânicos que citam texto da v0.331: o antes achado no dono, o depois lido na candidata (LIVRO-COMPLETO.md) quando o inventário não o traz",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
