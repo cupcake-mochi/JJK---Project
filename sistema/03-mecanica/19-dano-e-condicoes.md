@@ -483,7 +483,9 @@
 **Três documentos apontavam para cá:** *a peça 14 §8 item 15, a peça 16 §9, e a seção "em aberto" desta peça.* **A peça 14 fecha as 52 armas, a divisão simples/marcial e o requisito de Força, e nenhum dos três dizia o que acontece com quem pega uma arma que não é dele.**
 
 > **Sem treino na categoria, você tem desvantagem na rolagem de ataque com aquela arma.**
-> **Sem o requisito de Força da arma, o seu deslocamento cai `3 m` enquanto você a estiver empunhando.**
+> **Sem o requisito de Força da arma, o seu deslocamento cai pela metade e você não soma Destreza na Defesa enquanto a estiver empunhando.**
+
+> ***v0.335: a linha acima é a do livro desde a v0.176, e esta peça só acompanhou agora.*** *Até a v0.334 ela dizia "o seu deslocamento cai `3 m`". Na revisão do Word (v0.176) o Mizuki trocou a penalidade, o capítulo 50 do livro v0.331 publicou a nova, e a candidata repete.* **A conta desta seção foi feita com os `3 m` e fica como piso:** *a penalidade de hoje tira mais nas duas parcelas — num deslocamento de `9 m` a metade são `4,5 m`, e a Destreza sai da Defesa —, então a razão contra a arma inteira só cresce, e a conclusão de porta fechada vale com folga.* **Ela não foi refeita com o valor novo.**
 
 ### A do requisito atravessou inteira; a do treino precisou de tradução
 

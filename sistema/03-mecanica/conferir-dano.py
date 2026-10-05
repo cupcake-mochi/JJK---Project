@@ -1152,7 +1152,11 @@ if not _sec6:
 else:
     _falta = [t for t, _r in (
         ('desvantagem na rolagem de ataque', 'desvantagem na rolagem de ataque'),
-        ('a queda de deslocamento', '`3 m`'),
+        # v0.335: a regra e' a do livro desde a v0.176 (metade do deslocamento e sem
+        # Destreza na Defesa); os 3 m ficam como o piso medido, e o piso continua conferido.
+        ('a queda de deslocamento', 'deslocamento cai pela metade'),
+        ('a Destreza fora da Defesa', 'não soma Destreza na Defesa'),
+        ('o piso medido com 3 m', 'deslocamento `−3 m`'),
     ) if _r not in _sec6]
     if _falta:
         erro('11: a secao 6 nao escreve mais: ' + ', '.join(_falta))

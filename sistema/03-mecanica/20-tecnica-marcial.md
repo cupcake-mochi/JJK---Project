@@ -148,6 +148,8 @@ Na criação, depois da Descrição e da Regra, você escolhe uma das duas. **A 
 > **Você é treinado nas três**, seja qual for o balde de acesso delas.
 > **As suas Katas valem com qualquer arma amaldiçoada desses três grupos** — a peça específica é substituível, o grupo não.
 
+> ***v0.335, da candidata (R10-37, decisão D33 do Mizuki de 04/10/2026): a rota segue o Equipamento restrito.*** **Você escolhe qualquer arma da categoria que o seu acesso permita.** *Arma de Fogo pede Grau 2 ou autorização prévia do mestre (peça 14 §6.5), e a rota não dispensa isso.* **A arma de fogo recebida vem com a munição inicial de uma compra** — três cargas (peça 14 §5.2, *"`Munição` também é estoque"*). *E a ferramenta vestida como armadura que ocupa a função de Revestimento 2 ou 3 segue o mesmo acesso, salvo permissão do mestre.*
+
 É a rota da Maki e do Toji: a pessoa que não tem energia e compete porque a ferramenta carrega a energia por ela.
 
 **O treino não é generosidade — é a conta.** *A peça 19 §6 diz que empunhar sem treino custa desvantagem na rolagem, e a peça 14 §5.4 diz que quem concede treino é o Caminho.* **As duas somadas custam `33,8` vezes o que a arma entrega**, que é porta fechada e não preço. *Sem o treino vindo daqui, a rota inteira depende de o Caminho escolhido cobrir por acaso os três grupos que a ficção pediu.*
