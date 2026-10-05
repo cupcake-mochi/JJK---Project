@@ -30,6 +30,8 @@ E a primeira linha resolve a pendência da peça 5 sem inventar economia: ferir 
 >
 > **Trocar de ferramenta custa o que custa sacar**, e isso é a peça 3 §3.2.
 
+> ***v0.335, da candidata:*** *arma continua custando o saque, e Traje, Revestimento e escudo seguem os tempos de vestir da peça 14 §6.7.* **Roupa e acessório com efeito custam uma Ação Padrão para vestir e outra para tirar.** *Sem ritual, sem descanso e sem PE, como acima.*
+
 **Isto reverte a v0.144, que tinha fechado a sintonização em um descanso curto por ferramenta.** *Aquela decisão resolveu uma pergunta que ficou oitenta e oito versões aberta — o livro mandava combinar com o mestre — e ela era a resposta certa enquanto nada mais limitava a variedade que se carrega.*
 
 **O que mudou foi que passou a haver limite de carga.** *A peça 14 §6.6 deu `Volume` a tudo, e o limite de `5 + Força` deixa passar de `4` a `7` armas de uma mão depois do uniforme e do escudo.* **A sintonização existia para segurar exatamente isso, e agora o peso segura.** *Duas travas para a mesma coisa é uma a mais.*
@@ -122,13 +124,15 @@ O nome `Grau` fica. No material os dois **são** a mesma escada de propósito �
 |---|---|---|---|
 | **4** | **nenhum.** Ela fere maldição, e é só isso | **nenhum** | a katana da Kasumi, a semi-ferramenta |
 | **3** | **Classe 1** — efeito pequeno, condicional ou de informação | **nenhum** | a espada do Toji, o machado da Mei Mei |
-| **2** | **Classe 2** — reativo, com limite por cena ou descanso | **nível 7** | a Katana de Alma Partida |
-| **1** | **Classe 3** — permanente, muda como você joga | **nível 13** | as forjadas de topo |
+| **2** | **Classe 2** — uma opção de combate ou exploração, com limite por cena ou descanso | **nível 7** | a Katana de Alma Partida |
+| **1** | **Classe 3** — muda o uso habitual do equipamento | **nível 13** | as forjadas de topo |
 | **especial** | **Classe 3**, e ela é **única no mundo** | **nível 13** | Nuvem Divertida · Lança Invertida do Céu · Corrente de Mil Milhas |
 
 **O grau 4 não é o degrau fraco: é o degrau que faz a peça existir.** Ferir maldição é a única coisa que a Maki e o Toji não conseguem sozinhos. *Um grau que não dá efeito nenhum é o mais importante da escada.*
 
 As Classes são as da **peça 11 §4**, sem inventar nada, e a frase de lá vale aqui inteira: *não são "mais" e "menos", são formatos*.
+
+> ***v0.335: o formato do grau 2 e do grau 1 foi o da candidata.*** *A rodada `equipamento/lote-08` do livro reconstruído refez o capítulo a pedido do Mizuki (03/10/2026: "poderes por grau, poucos benefícios numéricos"), e o grau 2 deixou de ser só reação — `Costura de Fuga` e `Reserva de Ar` são Ação Bônus — e o grau 1 deixou de ser só permanente — `Passagem` e `Suspensão` têm relógio.* **O gate de nível e a Classe de cada grau não mudaram.** *A candidata não liga grau a Categoria de Efeito; a peça continua ligando, porque é daí que sai o gate.*
 
 ### 3.1 O gate é desta peça, e o motivo mudou na v0.260
 
@@ -158,6 +162,8 @@ Os dois dão um `Estigma` de Classe 3. A diferença é de ficção: grau 1 se fo
 > **Em troca ela tem um número fixo de missões.** Cada missão em que o `Estigma` for usado gasta uma; quando elas acabam, ela é arma comum, e não volta.
 > **Dentro da missão o uso é livre** — usar dez vezes gasta o mesmo que usar uma.
 
+> ***v0.335, da candidata:*** **"livre" quer dizer que não gasta outra missão; o relógio de cena ou de descanso do próprio `Estigma` continua valendo.** *Efeito permanente conta como uso ao dar o benefício; carregar guardado não conta; trocar de portador não reinicia o contador; uma missão pode durar várias sessões.* **O `Desgaste` é da ficha do item**, *e o portador não o acrescenta.* **No grau 3 ele só deixa o item temporário**, *porque não há gate a comprar.* **E no fim a ferramenta vira item comum ou se quebra, conforme o destino escrito na ficha**; *conserto não devolve o poder.*
+
 **Missões de `Desgaste`**
 
 | grau | missões |
@@ -186,6 +192,8 @@ A máquina é da casa e já foi validada — é o §5.0.4 de Equipamento, onde `
 
 > **A arma tem teto pelas mãos. O apoio tem teto de duas.**
 
+> ***v0.335, da candidata:*** **dos dois itens vestidos com efeito, só um pode ser vestimenta** — *roupa, Traje ou Revestimento —, e o outro é acessório; sem vestimenta, dois acessórios.* *O escudo conta pelas mãos, e o `Escudo Suspenso` flutuando ocupa um dos dois lugares.* **O teto de `3` e o extremo de `4` abaixo não se movem**, *porque a sub-trava escolhe QUAIS dois e não quantos.* **Cópias do mesmo efeito dividem o relógio por personagem, efeitos iguais não se somam e vários itens não dão Reação a mais.**
+
 | ficha do mesmo nível | `Estigmas` |
 |---|---|
 | mestre avaro — arma grau 4, sem apoio | **0** |
@@ -211,27 +219,32 @@ A máquina é da casa e já foi validada — é o §5.0.4 de Equipamento, onde `
 
 > **Os três limites são de eixos diferentes, e é por isso que nenhum substitui o outro.** *A MÃO diz quantas agem ao mesmo tempo; o `Volume` diz quantas viajam com você; e o MARCO diz quantas a ficha chega a ter, porque um `Estigma` de Classe `3` é do tamanho de uma aptidão.* **O marco é o mais apertado dos três** — *`3` ferramentas já são `43%` das sete escolhas da campanha inteira, e a mochila cabe mais do que o orçamento de marco alcança.*
 
-## 6. O catálogo — dez `Estigma`
+## 6. O catálogo — dezessete `Estigma`
 
-A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi derivado dela, não escolhido depois. **Nenhuma das dez dá dado de dano, nenhuma cresce com refino, nenhuma soma número numa rolagem disputada** — rodado entrada por entrada.
+A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi derivado dela, não escolhido depois. **Nenhuma das dezessete dá dado de dano, nenhuma cresce com refino, nenhuma soma número numa rolagem disputada** — rodado entrada por entrada.
 
 ### Classe 1 · grau 3 — efeito pequeno, condicional ou de informação
 
 | `Estigma` | o que faz | de onde veio |
 |---|---|---|
-| **`Fiel`** | ela volta para a sua mão no seu turno. **Não dá para te desarmar dela** | a espada-mão do Haruta, na versão pequena |
-| **`Aferido`** | ao encostar numa maldição, **você sabe o grau dela** | a instituição classifica por grau, e ninguém sabe olhando |
-| **`Presságio`** | ela avisa que há maldição perto, **antes de você ver** | — |
-| **`Perene`** | ela não quebra, não enferruja e funciona onde arma comum não funciona | as forjadas antigas que atravessam eras |
+| **`Fiel`** | *arma de arremesso com `Longo Alcance`:* **depois do arremesso no seu turno, ela volta para a mão que a lançou**, se a mão estiver livre e o caminho desimpedido. *Não impede que a tirem da sua mão (v0.335)* | a espada-mão do Haruta, na versão pequena |
+| **`Aferido`** | **ao acertar uma maldição com a arma, você sabe o grau dela.** *Num acessório, tocar custa Ação Padrão, e contra quem resiste, um ataque desarmado sem dano. Só o grau* | a instituição classifica por grau, e ninguém sabe olhando |
+| **`Presságio`** | **vibra enquanto houver maldição a até `9 m`**, sem barreira física fechada no meio. *Sem direção, quantidade nem grau (v0.335)* | — |
+| **`Perene`** | **não se deteriora por uso, ferrugem ou umidade**, e um minuto de cuidado tira dano superficial. *Ainda quebra por ataque ou de propósito (v0.335)* | as forjadas antigas que atravessam eras |
+| **`Aparência Mutável`** | **Ação Padrão:** muda cor, estampa e aparência externa da roupa para outra de corte parecido. *Não muda rosto, voz, peso nem proteção* | a candidata, v0.335 |
 
 > **O `Presságio` existe por causa de uma ficha específica, e vale escrever qual.** A Restrição Celestial pelo ramo da Maki não tem **Sentir Energia** — está na peça 9 §5, junto de *sem Fundamento* e *sem feitiço de Toque*. **É a única perícia do sistema que uma Origem inteira não pode ter**, e a ferramenta é o jeito que a obra dá para ela compensar. *A entrada não foi desenhada e depois justificada: ela saiu do buraco.*
 
-### Classe 2 · grau 2 — reativo, com limite de uso por cena ou por descanso
+### Classe 2 · grau 2 — opção de combate ou exploração, com limite de uso por cena ou por descanso
 
 | `Estigma` | o que faz | de onde veio |
 |---|---|---|
-| **`Quebranto`** | **Reação:** anula um feitiço que ia te acertar. Uma vez por cena | a Corda Negra, *"perturba e cancela técnica alheia"* |
-| **`Avulsa`** | **Reação, quando um inimigo no seu alcance te ataca:** a arma sai da sua mão e ataca ele. **Duas vezes por cena** | a espada-mão do Haruta |
+| **`Quebranto`** | **Reação, antes de rolar um TR contra feitiço:** sucesso comum nesse TR, sem rolar. Uma vez por cena. *O que o sucesso ainda deixa passar, passa; não vale contra ataque na Defesa (v0.335)* | a Corda Negra, *"perturba e cancela técnica alheia"* |
+| **`Avulsa`** | **Reação, depois de resolvido o ataque de uma criatura no seu alcance contra você:** a arma ataca ela, um ataque comum. **Duas vezes por cena.** *Se o ataque te tirou a ação ou a arma, não sai (v0.335)* | a espada-mão do Haruta |
+| **`Costura de Fuga`** | **Ação Bônus, Agarrado:** encerra um agarrão. Uma vez por cena. *Não move, não solta corda nem algema* | a candidata, v0.335 |
+| **`Âncora`** | **Reação, quando um efeito ia te empurrar, puxar ou arrastar:** você fica no lugar. Uma vez por cena. *O resto do efeito vale* | a candidata, v0.335 |
+| **`Retirada`** | *escudo:* **Reação, depois que te erram:** um aliado a `1,5 m` anda até `3 m` sem ataque de oportunidade. Uma vez por cena | a candidata, v0.335 |
+| **`Reserva de Ar`** | **Ação Bônus:** respira e fala submerso por `10` minutos. Uma vez por descanso curto | a candidata, v0.335 |
 
 #### O gatilho e o relógio do `Avulsa`, e os dois saíram de conta
 
@@ -274,14 +287,14 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 
 #### Os preços publicados, num lugar só
 
-*Quatro das dez entradas têm preço INCONDICIONAL. As outras seis entregam informação, posição, robustez — ou um número que depende da ficha —, e o projeto não tem moeda para esses eixos.*
+*Quatro das dez entradas da v0.331 têm preço INCONDICIONAL. As outras seis entregam informação, posição, robustez — ou um número que depende da ficha —, e o projeto não tem moeda para esses eixos.*
 
-| `Estigma` | Classe | fatias |
-|---|---|---|
-| `Anátema` | 3 | `3,07` |
-| `Quebranto` | 2 | `1,28` |
-| `Avulsa` | 2 | `0,73` |
-| `Cisão` | 3 | `0,00` |
+| `Estigma` | Classe | fatias | desde a v0.335 |
+|---|---|---|---|
+| `Anátema` | 3 | `3,07` | **medido sobre a regra da v0.331, e não refeito** — *a forma nova tem relógio e não anula energia* |
+| `Quebranto` | 2 | `1,28` | **medido sobre a regra da v0.331, e não refeito** — *a forma nova dá sucesso no TR, e não anula* |
+| `Avulsa` | 2 | `0,73` | *o gatilho passou para depois do ataque resolvido; relógio igual* |
+| `Cisão` | 3 | `0,00` | *igual: a candidata só escreveu que é dano de Alma* |
 
 **Esta tabela é a dona dos preços, e a checagem 19 do validador lê ela.** *As contas de cada um moram na seção que os decidiu; o que faltava era um lugar em que a comparação entre irmãos pudesse ser feita sem reparsear três formatos de tabela.*
 
@@ -315,6 +328,8 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 
 ### 6.3 O `Anátema` não estava sem número: estava sem TEXTO
 
+> ***v0.335: esta seção é o registro da forma da v0.152, e a regra de hoje é outra.*** *A rodada `equipamento/lote-08` do livro reconstruído, feita a pedido do Mizuki (03/10/2026), trocou o contato que anula energia por **abrir uma passagem de `1,5 m` numa barreira de feitiço** (Ação Padrão e TR Físico), e a Reação sem relógio por **uma Reação por cena** que protege só o portador.* **O registro da candidata diz com todas as letras que é "mudança efetiva do poder antigo, não equivalência numérica".** *A conta abaixo mediu a forma velha; a linha "com relógio de `1×` por cena" da tabela é a mais perto da nova, e mesmo ela não tem a passagem na barreira.* **O preço da forma nova não foi medido.**
+
 **Ele era publicado, na peça e no livro, como uma frase:** *"o contato dela anula técnica amaldiçoada"*. **Um `Classe 3` permanente — o degrau que "muda como você joga" — sem dizer o quê anula, por quanto tempo, nem se "contato" exige acertar.** *O irmão dele de `Classe 2`, o `Quebranto`, tem os três limites escritos.*
 
 *E era justamente ele que o exemplo do `Desgaste` no livro entregava a um personagem de nível 4.*
@@ -340,14 +355,16 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 
 > **⚠ A metade permanente — *"o contato ignora e anula energia amaldiçoada"* — fica sem número, e o registro diz isso.** *Ela é a Lança Invertida do Céu, e é ela que faz a entrada ser `Classe 3` em vez de `Classe 2`.* **O que ela alcança na mesa depende de quanta energia o alvo tem de pé, e o projeto não tem moeda para "energia de pé".** *Fica declarada como não medida em vez de escrita como se tivesse sido.*
 
-### Classe 3 · grau 1 e especial — permanente, muda como você joga
+### Classe 3 · grau 1 e especial — muda o uso habitual do equipamento
 
 | `Estigma` | o que faz | de onde veio |
 |---|---|---|
-| **`Anátema`** | **o contato dela ignora e anula energia amaldiçoada.** *E como **Reação**, ela anula um feitiço que vem em você: role um **Teste de Resistência Físico contra a CD do conjurador*** | a Lança Invertida do Céu |
-| **`Cisão`** | o golpe dela **atravessa o corpo — tira Integridade, e não tira vida** | a Katana de Alma Partida |
-| **`Insondável`** | enquanto a ponta dela estiver escondida, o alcance dela é **na cena** | a Corrente de Mil Milhas |
-| **`Contrapeso`** | ela **ignora o requisito de Força** da arma | a Nuvem Divertida, que qualquer um empunha |
+| **`Anátema`** | **Ação Padrão, tocando uma barreira de feitiço:** TR Físico contra a CD de quem a criou; no sucesso, uma passagem de `1,5 m` até o fim do turno. **E uma vez por cena, como Reação, quando um feitiço vai te afetar:** TR Físico contra a CD do conjurador; no sucesso, aquela aplicação não te afeta. *Os outros alvos continuam afetados. Não tira energia de quem ela acerta (v0.335)* | a Lança Invertida do Céu |
+| **`Cisão`** | o dano dela **é dano de Alma e tira só Integridade, e não vida** (peça 24). *Os dados do próprio ataque acompanham; não se escolhe golpe a golpe (v0.335, EQ27)* | a Katana de Alma Partida |
+| **`Insondável`** | com uma ponta presa sob a roupa, o alcance corpo a corpo dela é **`18 m` nos ataques do seu turno**. *Fora do turno, o normal; não aumenta oportunidade (v0.335)* | a Corrente de Mil Milhas |
+| **`Contrapeso`** | **você ignora o requisito de Força dela** — *arma, Revestimento ou escudo (v0.335)* | a Nuvem Divertida, que qualquer um empunha |
+| **`Passagem`** | *roupa ou Traje:* **Ação Bônus:** teleporte com o seu equipamento até `9 m`, para onde você vê. Uma vez por descanso curto | a candidata, v0.335 |
+| **`Suspensão`** | *escudo:* **Ação Bônus:** o escudo flutua por `1` minuto e solta a mão, ocupando um lugar de item vestido. Uma vez por descanso curto | a candidata, v0.335 |
 
 > **O `Cisão` é Classe 3 e não Classe 2, e a obra é quem manda.** A Katana de Alma Partida não faz uma coisa uma vez por cena — **ela corta a alma, sempre**, e é isso que ela é.
 >
@@ -360,6 +377,33 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 *O `Insondável` usa as três faixas de alcance que a peça 15 fixou — **no combate · na cena · fora da cena** —, em vez de criar metragem própria. **Um número, um dono.***
 
 *E o `Contrapeso` foi medido pelo motivo contrário:* ele vale `+2,0` de dano médio para quem tem Força 0 a 2, e **zero** para quem tem Força 3. **O gate de nível 13 é o que o segura:** no primeiro nível em que ele pode existir ele vale **3,5%** da Rotina, e cai para **1,6%** no nível 30. *Encolhe com o nível, que é o oposto de derivar.*
+
+### 6.4 O catálogo da candidata — v0.335
+
+*Migração da rodada `equipamento/lote-08` do livro reconstruído, que refez o capítulo a pedido do Mizuki em 03/10/2026 — "poderes por grau, poucos benefícios numéricos" — e foi aprovada junto com a candidata.* **As tabelas acima já trazem a regra da candidata.** *O que mudou nas dez da v0.331, e o que entrou:*
+
+| `Estigma` | o que mudou | por quê, no registro da candidata |
+|---|---|---|
+| `Fiel` | só arma de arremesso; volta depois do arremesso e **não impede desarme** | a imunidade absoluta a desarme não cabia |
+| `Aferido` | o gatilho é **acertar** com a arma; num acessório, tocar com Ação Padrão | "ao encostar" não dizia como |
+| `Presságio` | **`9 m`**, sem barreira fechada, sem direção | "perto" não era consultável |
+| `Perene` | **quebra** por ataque ou de propósito; não sai do lugar onde arma comum não funciona | a indestrutibilidade invalidava as regras de objeto |
+| `Quebranto` | **sucesso comum num TR contra feitiço**, e não anula | a conciliação com o manual, que já dava sucesso em vez de anular |
+| `Avulsa` | o gatilho é **depois** de o ataque recebido ser resolvido | o momento da resposta |
+| `Insondável` | **`18 m` nos ataques do seu turno**, e não "na cena" | "na cena" não era consultável, e o livro aproximava `100 m` fora da malha |
+| `Anátema` | **passagem na barreira** e **Reação uma vez por cena**, só para o portador | ver §6.3 |
+| `Contrapeso` | vale também em Revestimento e escudo | a base pode ser proteção |
+| `Cisão` | igual; escrito como dano de Alma (EQ27) | o vocabulário da peça 24 |
+
+**Entraram sete, e nenhuma tem preço medido:** `Aparência Mutável` (Classe 1), `Costura de Fuga`, `Âncora`, `Retirada` e `Reserva de Ar` (Classe 2, **seis** de `Classe 2` ao todo), `Passagem` e `Suspensão` (Classe 3). *O registro do §6.2 ("escrever uma entrada para fechar contagem é o defeito") não é o caso:* **as sete entraram com função, base e relógio escritos, e o catálogo foi a pedido.** *O que falta é a conta: o filtro de dominância da §6.1 só compara quem tem preço, e das seis de `Classe 2` só duas têm.* **Fica em aberto no §9.**
+
+**O que a candidata escreveu e esta peça não tinha:**
+
+- **As bases:** *arma, Traje, Revestimento, roupa, escudo e acessório.* **Roupa comum não é Traje** — *recebe o efeito sem dar Defesa, situação nem substituir a proteção passiva.*
+- **A base conserva tudo o que é dela** — `Volume`, mãos, dano, proteção, teto, requisitos. *Amaldiçoada não ganha `Leve`, e degrau de proteção não é grau.*
+- **O efeito pode ir para outra base compatível**, *e o formato tem de comportar o efeito.* **Grau maior não amplia alcance, frequência nem alvos** de um efeito escrito.
+- **Aquisição:** *o mestre decide o que existe, o preço da versão amaldiçoada e o empréstimo; identificar não pede descanso; montar a ficha não fabrica o item, que é Ofício.*
+- **`Volume`:** *roupa completa ou capa `0,3`, acessório pequeno `0,1`; o resto usa o da base.*
 
 ### A que foi arrancada, e por quê
 
@@ -435,6 +479,7 @@ O `conferir-ferramenta.py` roda **dezenove checagens**, e **nenhum valor fica es
 
 **Em aberto:**
 
+- **O preço do catálogo da candidata (v0.335).** *Sete `Estigma` entraram sem conta (§6.4), e o `Anátema` e o `Quebranto` mudaram de regra e continuam com o preço da forma velha (§6.1).* **O filtro de dominância da `Classe 2` compara hoje duas de seis.** *Medir pela mesma régua da §6.1 — fatias contra a Rotina — antes de chamar o catálogo de fechado.*
 - **Os nomes próprios das ferramentas do material**, se uma versão futura publicar um catálogo de itens além do catálogo de `Estigma`. Hoje a peça entrega a máquina e as onze entradas; a Nuvem Divertida e a Lança Invertida aparecem como exemplar, não como ficha.
-- ~~**A penalidade por empunhar sem treino ou sem requisito.**~~ **Fechada na v0.104, na peça 19 §6.** *Sem treino é desvantagem na rolagem de ataque; sem o requisito de Força o deslocamento cai `3 m`.* **Ela vale para ferramenta amaldiçoada igual, porque a ferramenta usa a mesma tabela de arma da peça 14.**
+- ~~**A penalidade por empunhar sem treino ou sem requisito.**~~ **Fechada na v0.104, na peça 19 §6.** *Sem treino é desvantagem na rolagem de ataque; sem o requisito de Força o deslocamento cai pela metade e a Destreza sai da Defesa (a do livro desde a v0.176; a peça 19 acompanhou na v0.335).* **Ela vale para ferramenta amaldiçoada igual, porque a ferramenta usa a mesma tabela de arma da peça 14.**
 - ~~**O objeto amaldiçoado é outra peça.**~~ **Ele é a peça 21, fechada na v0.132.** *A fonte é explícita: "com exceção de ferramentas amaldiçoadas e cadáveres amaldiçoados, itens que contêm energia amaldiçoada são chamados de objetos amaldiçoados", e o cubo que prendeu o Gojo é objeto e não ferramenta.* **Ele fechou 1 vaga de `Desliga` e mais nada, exatamente como a v0.50 previu ao pô-lo em último.** *E a peça 21 §2 é onde as quatro coisas da família se separam — objeto, ferramenta, cadáver e maldição solta —, com o ponteiro para a dona de cada uma.*
