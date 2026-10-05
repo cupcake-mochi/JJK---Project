@@ -12174,7 +12174,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-07",
     "tipo": "mecânica de fechamento",
@@ -12184,6 +12184,17 @@
     "motivo": "Não inventar rádio mental de alcance ilimitado.",
     "impacto_ou_limite": "Descrição de corpo não compra sentidos especiais; R12 define.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Comunicação com a entidade usa sentidos normais; telepatia ou sentido sobrenatural exige ficha.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12234,7 +12245,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-10",
     "tipo": "mecânica de fechamento",
@@ -12244,6 +12255,17 @@
     "motivo": "Alinhar R06 com preparação histórica e ações de múltiplas entidades.",
     "impacto_ou_limite": "Root confirmou; permite concentrar ordens pagas em turnos anteriores. Risco documentado e caso executado.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "O comando ocupa a conjuração do turno em que é dado; a básica não; a execução depois não cobra outra.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12274,7 +12296,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-12",
     "tipo": "mecânica de fechamento",
@@ -12284,6 +12306,17 @@
     "motivo": "R07 passou a exigir os2PE; não criar PE autônomo gratuito.",
     "impacto_ou_limite": "Entrada/retorno/carga permanecem pagos pelo invocador.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Capacidades reativas com PE usam o mesmo pagador e a mesma divisão da especial; Contramedida, 2 PE mais a coletiva.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12294,7 +12327,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-13",
     "tipo": "mecânica de fechamento",
@@ -12304,6 +12337,17 @@
     "motivo": "Aplicar convenção geral do sistema; evitar descanso sem recuperação em entidade inicial.",
     "impacto_ou_limite": "Máximo+1PE frente à leitura floor puro para reservas1–3; não altera exemplo20→5.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Descanso curto recupera um quarto da reserva, para baixo, mínimo 1, até o teto.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12314,7 +12358,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-14",
     "tipo": "mecânica de fechamento",
@@ -12324,6 +12368,17 @@
     "motivo": "Concentração pertence a quem conjura; invocador paga comando.",
     "impacto_ou_limite": "Mantém independência corporal e evita dois testes pelo mesmo efeito.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "A entidade executora sustenta a concentração da especial e faz o TR quando sofre dano.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12414,7 +12469,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-19",
     "tipo": "mecânica de fechamento",
@@ -12424,6 +12479,17 @@
     "motivo": "Não confundir ação do invocador com básica e reação da executora.",
     "impacto_ou_limite": "Custo de Reação é conservador; requer uso em mesa para medir atratividade.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Melhorias de Tempo nas invocações: Rápido passa o comando para Bônus; Reação paga pessoal, básica e coletiva; Segura paga agora e resolve no próximo turno.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12434,7 +12500,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-20",
     "tipo": "mecânica de fechamento",
@@ -12444,6 +12510,17 @@
     "motivo": "Evitar estoque de corpos preparados na reserva.",
     "impacto_ou_limite": "No máximo corpos ativos permitidos sustentam disparos.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Uma especial aguardando por vez, contando as quatro modalidades; sair ou cair encerra as adiantadas.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12454,7 +12531,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-21",
     "tipo": "mecânica de fechamento",
@@ -12464,6 +12541,17 @@
     "motivo": "Preservar o benefício comprado pela peça sem gerar nova básica.",
     "impacto_ou_limite": "Preparar comum exige coletiva; Armado é melhoria paga e não Máxima.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Armado: um por corpo, com comando, básica e PE pagos antes; sem coletiva no disparo.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12474,7 +12562,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-22",
     "tipo": "mecânica de fechamento",
@@ -12484,6 +12572,17 @@
     "motivo": "Conservar devolução total em pagamentos divididos.",
     "impacto_ou_limite": "6.370 distribuições conferidas, nunca mais que cada contribuição.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Devolução do Armado: metade do PE total para baixo, cada pagador na sua parte.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12554,7 +12653,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-26",
     "tipo": "mecânica de fechamento",
@@ -12564,6 +12663,17 @@
     "motivo": "Preservar soma total paga, sem meio custo sobre retorno nem perder adiantamento.",
     "impacto_ou_limite": "C4:2antes+6no retorno=8, igual ao retorno normal; mudança candidata.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Talismã: o crédito adiantado abate só o seu valor do retorno em dobro.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12594,7 +12704,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-28",
     "tipo": "mecânica de fechamento",
@@ -12604,6 +12714,17 @@
     "motivo": "Não inventar CD acima da escada; root confirmou fechamento.",
     "impacto_ou_limite": "Ferramentas/materiais R04, sem confundir Grau; restringe reparos antes indefinidos.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Reparo exige reparador de Classe ao menos igual à do corpo (a tabela antiga não tinha o caso acima).",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12674,7 +12795,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-32",
     "tipo": "mecânica de fechamento",
@@ -12684,6 +12805,17 @@
     "motivo": "Decisão root para preservar redução própria, sem transportar2Cd8 pessoal.",
     "impacto_ou_limite": "Não se deriva de2C nos níveis altos: tabela real especial tem9/11/13/16. Redução é explícita e precisa avaliação em mesa.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Acerto do domínio da domada: Classe em d8, fixo.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12714,7 +12846,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-34",
     "tipo": "mecânica de fechamento",
@@ -12724,6 +12856,17 @@
     "motivo": "Não herdar arbitrariamente proteção NPC1teste/jogador/rodada.",
     "impacto_ou_limite": "Procedimento mais vulnerável que tratar domada como NPC inimigo.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "A domada que sustenta domínio do lado do jogador testa a cada dano.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12734,7 +12877,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-35",
     "tipo": "mecânica de fechamento",
@@ -12744,6 +12887,17 @@
     "motivo": "Evitar domínios guardados liberando teto de corpos e desconto pessoal sem ser dono.",
     "impacto_ou_limite": "Inconsciência do invocador sozinha não encerra domínio dela.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Recolher, desativar ou zerar a domada encerra o domínio dela; o desconto vale só nos feitiços dela.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12774,7 +12928,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-37",
     "tipo": "mecânica de fechamento",
@@ -12784,6 +12938,17 @@
     "motivo": "Fechar sequência mista mantendo literalmente soma e proteção de área.",
     "impacto_ou_limite": "Após área pesada,1dano direto pode destruir; risco explícito preservado para playtest.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Dano de área entra na soma da Desligada sem destruí-la; o retorno zera o excedente.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12834,7 +12999,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-40",
     "tipo": "mecânica de fechamento",
@@ -12844,6 +13009,17 @@
     "motivo": "Oferecer desfecho jogável sem matar entidade ou permitir benefício gratuito.",
     "impacto_ou_limite": "Pode reativar após recuperarPE, apenas no vencimento; candidata precisa teste de manutenção concreta.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Manutenção que não se desliga, sem energia: o efeito fica suspenso, sem dívida, até o próximo vencimento.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12914,7 +13090,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-44",
     "tipo": "mecânica de fechamento",
@@ -12924,6 +13100,17 @@
     "motivo": "Traduzir custo real; impedir entidade móvel de ganhar devolução sem restrição própria.",
     "impacto_ou_limite": "Não combina com Parado/Rápido/Reação. Liberação não possui Atrasar automaticamente e mantém Movimento da domada, embora Atrasar/Parado não devolvam pontos nela por incompatibilidade expressa.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Atrasar com entidade: Completa do invocador, básica da entidade, nenhum movimento voluntário dos dois.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12934,7 +13121,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-45",
     "tipo": "mecânica de fechamento",
@@ -12944,6 +13131,17 @@
     "motivo": "Preservar duas etapas e permitir Rápido somente no segundo comando, como R07.",
     "impacto_ou_limite": "Dano da entidade exige Espírito; sair/cair/prazo perde; não combina Armado. Segura compatível só adia a resolução após liberação válida.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Carregar com entidade: Padrão, básica e PE no primeiro turno; no seguinte, a ação indicada e a básica.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -12994,7 +13192,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-48",
     "tipo": "fechamento mecânico",
@@ -13004,6 +13202,17 @@
     "motivo": "Resolver a transição pós-combate sem destruir, recolher ou impedir a reativação de corpos válidos. Achado independente de R17.",
     "impacto_ou_limite": "Preserva o máximo total anteriormente permitido. Aumenta a reserva inativa quando há menos corpos ativos; não concede ação, teste, capacidade ou manutenção gratuita de efeito. Múltiplas usa capacidade4 na reserva, mesmo com atuação2 fora de combate.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D03: corpos mantidos, ativos e inativos juntos, até o atributo de Defesa mais a maior capacidade ativa em combate.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -13014,7 +13223,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-49",
     "tipo": "sincronização mecânica e fechamento de CD",
@@ -13028,6 +13237,17 @@
     ],
     "impacto_ou_limite": "Treinado sem modificadores: 65%, 75% e 85% nas três dificuldades. Preservados vida acima de zero, uma tentativa por corpo/descanso, recuperação de metade e proibição de religar por reparo. Não concede cura comum a corpo nem procedimento de socorro do personagem jogador.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Reparo com CD própria: 8 + atributo do ofício + maestria de quem repara + ajuste (0, −2, −4).",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -13038,13 +13258,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-50",
     "tipo": "M decisão do autor",
     "antes": "Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.",
     "depois": "Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.\n\nPara Atacar, num revide ou num ataque comum concedido, a entidade usa a **básica ofensiva de Classe 0** da ficha ou uma **arma que ela empunhe**. O acerto com arma está em **Construir invocações — Acerto e dificuldade**. Sem nenhuma das duas, ela não ataca.",
     "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-04 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). O acerto com arma segue a peça 15 (a arma muda o acerto e nunca a CD)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D02: no Atacar, a entidade usa a básica ofensiva de Classe 0 ou uma arma que empunhe; sem as duas, não ataca.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -13055,13 +13286,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-51",
     "tipo": "M decisão do autor",
     "antes": "Corpos adicionais precisam ser deixados sem seu controle até haver espaço. Não desaparecem nem são destruídos por essa escolha.",
     "depois": "Corpos adicionais precisam ser deixados sem seu controle. Não desaparecem nem são destruídos por essa escolha. Um corpo deixado assim volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou. Deixar um corpo sem controle de propósito não abre vaga para trazer outro de volta.",
     "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D03b: corpo deixado sem controle volta quando abre vaga por destruição ou por aumento do total.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -13089,13 +13331,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-53",
     "tipo": "decisão do autor",
     "antes": "A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.",
     "depois": "A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.\n\n**Integridade a zero.** Uma entidade com alma que chega a zero de Integridade cai sem ser destruída, como a zero de vida. O retorno exige pelo menos 1 de Integridade, que volta pelo descanso longo ou por uma capacidade que restaure Integridade. Os estágios de Integridade também valem para ela: o PE adicional e o teto de Classe se aplicam às especiais que ela executa.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G1-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D25)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D25: entidade com alma cai a Integridade zero e só volta com Integridade 1 ou mais.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -13106,13 +13359,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-54",
     "tipo": "decisão do autor",
     "antes": "Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras.",
     "depois": "Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras. Uma domada sem meio de recolhimento segue este modo e entra no total abaixo.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-02 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D26)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D26: domada sem recolhimento segue o modo ativo e inativo e conta no total de corpos.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -13123,13 +13387,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-55",
     "tipo": "decisão do autor",
     "antes": "Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração.",
     "depois": "Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração. Recolher, desativar ou cair a zero encerra essa concentração.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-05 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D27)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D27: recolher, desativar ou cair encerra a concentração da entidade.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -13140,13 +13415,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-56",
     "tipo": "decisão do autor",
     "antes": "Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. / Respeite espaço, teto de ativos e recursos já gastos. O retorno não fornece básica.",
     "depois": "Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. Ela pode ser uma entidade caída: nesse caso, pague o retorno no lugar da entrada. / Respeite espaço, teto de ativos e recursos já gastos. O retorno não cria uma básica própria. Feito numa troca, ainda permite receber a básica transferida.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D28)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D28: o retorno pode ser feito numa troca, recebendo a básica transferida.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -13157,13 +13443,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-57",
     "tipo": "decisão do autor",
     "antes": "Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. Armazenamento usa capacidade de **5 + Força da entidade em Volume**. / Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir.",
     "depois": "Uma entidade segue o limite geral de carga de **5 + Força**, em Volume: o que ela veste, empunha ou leva conta nele. Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. O armazenamento e os passageiros cabem nesse mesmo limite. / Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume, somando o que veste e empunha. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir, dentro do mesmo limite.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-07, G4-10 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D29)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D29: carga da entidade em 5 + Força, com o que veste e empunha.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -13174,13 +13471,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-58",
     "tipo": "decisão do autor",
     "antes": "No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida.",
     "depois": "No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida. Ela também pode preparar um deslocamento, que usa o Movimento que ainda lhe resta e não concede metros novos.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-08 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D30)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D30: a entidade pode preparar um deslocamento com o Movimento que lhe resta.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -13191,13 +13499,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R11-59",
     "tipo": "decisão do autor",
     "antes": "devolvê-la à reserva e trazer o cão / O mesmo acompanhamento impede que a reserva se torne um local de recuperação sem custo. / substitua-a por uma reserva apropriada / A reserva não permite sacar equipamento de uma criatura ausente.",
     "depois": "recolhê-la e trazer o cão / O mesmo acompanhamento impede que ficar recolhida se torne um meio de recuperação sem custo. / substitua-a por uma invocação recolhida apropriada / Estar recolhida não permite sacar equipamento de uma criatura ausente.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-10 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D31)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "so_editorial",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D31: 'reserva' fica só para o PE; a entidade guardada é 'recolhida'.",
+    "como": "a candidata reescreveu o capítulo: o texto de antes é de rascunho da candidata, não da v0.331; migrar é trocar o capítulo 60 e alinhar a peça 15, com estas regras conferidas uma a uma",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
