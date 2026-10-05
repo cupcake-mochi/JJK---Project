@@ -34,6 +34,13 @@ import sys
 import glob
 import unicodedata
 
+# Migração, passo 2: as peças usam o nome novo, e o .docx fica congelado com o
+# antigo até o passo 5. O vocabulário que sai dele passa pelo renomes.py, e os
+# nomes antigos viram termo morto (checagem 5).
+sys.dont_write_bytecode = True
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import renomes
+
 FALHAS = []
 AVISOS = []
 # Checagem que nao rodou. A v0.101 fez ela existir porque o rodape dizia
@@ -106,7 +113,8 @@ TRILHAS = {
     'Evocador':  ['Servo', 'Matilha', 'Coro'],
 }
 
-ORIGENS = ['Latente', 'Receptaculo', 'Descendente', 'Reencarnado', 'Feto',
+# v0.332: `Reencarnado` virou `Encarnado` com o livro reconstruido (ORI02).
+ORIGENS = ['Latente', 'Receptaculo', 'Descendente', 'Encarnado', 'Feto',
            'Sem Tecnica', 'Corpo Amaldicoado', 'Restricao Celestial']
 
 LEGADOS = ['Instinto Bruto', 'Aprendi Apanhando', 'A Voz de Dentro',
@@ -132,7 +140,8 @@ SISTEMA = ['Maestria', 'Refino', 'Trilha', 'Caminho', 'Legado', 'Exaustao',
            # que E termo do manual ou que esta dentro de um. As colisoes foram
            # aprovadas por ele: "se a triagem colidir, pode falar que ta aprovado" —
            # e o `Condutor Armado`, que carrega a Melhoria `Armado`, junto.
-           'Eco Amaldicoado', 'Impulso Energetico', 'Sobre Carregar Energia']
+           # v0.332: `Sobre Carregar Energia` virou `Sobrecarregar Energia` (EMA27).
+           'Eco Amaldicoado', 'Impulso Energetico', 'Sobrecarregar Energia']
 
 # Onde cada nome e definido. Na checagem 2, o arquivo de definicao nao conta.
 DEFINIDO_EM = {
@@ -415,6 +424,10 @@ MORTOS = {
     # v0.281: o `Esquivar` dava vantagem num TR que nao existe desde que os quatro
     # viraram Fisico, Vigor, Intelecto e Espirito.
     'TR de Destreza': 'nao existe; o Esquivar passou ao TR Fisico na v0.281',
+    # v0.332: os renomes do livro reconstruido que as pecas ja usam. A tabela e o
+    # renomes.py, e nao uma copia aqui. `Aviso` fica de fora: com maiuscula ele
+    # tambem e palavra comum no comeco de frase.
+    **{a: f'virou {n} na v0.332, com o livro reconstruido' for a, n in renomes.antigos().items()},
 }
 
 # Onde um termo morto pode aparecer capitalizado sem ser descuido: a secao que
@@ -435,7 +448,9 @@ MORTO_LIBERADO = {
     # conta as decisoes da v0.80 a v0.147 com o nome da epoca.
     'DESENHO-trilhas.md': {'Acao de Atacar': 'registro com preco da colecao anterior'},
     'DESENHO-manhas.md': {'Acao de Atacar': 'registro com preco da colecao anterior'},
-    'ESTADO-ATUAL.md': {'Acao de Atacar': 'as decisoes da v0.80 a v0.147, com o nome da epoca'},
+    'ESTADO-ATUAL.md': {'Acao de Atacar': 'as decisoes da v0.80 a v0.147, com o nome da epoca',
+                        **{a: 'as decisoes ate a v0.331, com o nome da epoca'
+                           for a in renomes.antigos()}},
 }
 
 # Uma linha que EXPLICA a aposentadoria pode citar o termo morto. Detectado no
@@ -487,7 +502,7 @@ try:
         for r in t.rows:
             for c in r.cells:
                 partes.append(c.text)
-    manual = '\n'.join(partes)
+    manual = renomes.traduz('\n'.join(partes))
 
     def primeira_coluna(rotulo, extras=()):
         """Nomes da primeira coluna das tabelas cujo cabecalho e `rotulo`."""
@@ -505,11 +520,11 @@ try:
     CATEGORIAS['Familia'] = primeira_coluna('Familia')
     CATEGORIAS['Forma'] = [n for n in primeira_coluna('Forma')
                            if not n.lower().startswith('projetil e')]
-    CATEGORIAS['Melhoria'] = primeira_coluna('Melhoria')
+    CATEGORIAS['Melhoria'] = [renomes.traduz_nome(n, 'Melhoria') for n in primeira_coluna('Melhoria')]
     CATEGORIAS['Restricao'] = primeira_coluna('Restricao')
     CATEGORIAS['Feitico pronto'] = primeira_coluna(
         'Nome', extras=('Classe / Pontos / PE', 'Classe / Pontos / Teto / PE'))
-    CATEGORIAS['Passiva'] = primeira_coluna('Passiva')
+    CATEGORIAS['Passiva'] = [renomes.traduz_nome(n, 'Passiva') for n in primeira_coluna('Passiva')]
     CATEGORIAS['peca do Fundamento'] = list(NUCLEO_DO_MANUAL)
 
     temas = []
@@ -538,7 +553,7 @@ try:
         cab = t.rows[0].cells[0].text.strip()
         if cab.startswith('Nível ') and len(t.rows[0].cells) == 2:
             condicoes += [r.cells[0].text.strip() for r in t.rows[1:]]
-    CATEGORIAS['Condicao'] = condicoes
+    CATEGORIAS['Condicao'] = [renomes.traduz_nome(n) for n in condicoes]
     if not condicoes:
         erro('o manual nao tem as tabelas de nivel de condicao — elas sao a fonte '
              'unica da lista desde a v0.104 e esta checagem parou de conferir')

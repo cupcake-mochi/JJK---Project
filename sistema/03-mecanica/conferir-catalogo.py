@@ -37,6 +37,12 @@ Roda de sistema/03-mecanica/. NAO le o .docx e NAO precisa de python-docx —
 entao nao existe caminho por onde ele saia verde tendo pulado checagem.
 """
 import os, re, sys
+# Migração, passo 2: as peças usam o nome novo, e o livro v0.331 e o .docx ficam
+# congelados com o antigo. O que vem deles passa pelo renomes.py antes de comparar.
+sys.dont_write_bytecode = True
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import renomes
+
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(AQUI))
@@ -603,7 +609,7 @@ def _forma103(f):
     return f
 # O cotejo v0.4 continua contra a copia anterior, arquivada na integracao.
 # A edicao jogavel recebe cotejo integral separado abaixo.
-_hist103 = ler(os.path.join(RAIZ, 'sistema', '99-arquivo', 'integracao-anterior-v0.331', '35-caminhos-e-trilhas.md'))
+_hist103 = renomes.traduz(ler(os.path.join(RAIZ, 'sistema', '99-arquivo', 'integracao-anterior-v0.331', '35-caminhos-e-trilhas.md')))
 _liv103 = ' '.join(_limpa103(l) for l in _hist103.split('\n'))
 
 # v0.271: os renomes que o Mizuki decidiu moram na peca 6 §2, na tabela `Renomes
@@ -614,7 +620,7 @@ _liv103 = ' '.join(_limpa103(l) for l in _hist103.split('\n'))
 # colecao inteira —, e a coluna `ficam como estao` lista os compostos que nao mudam.
 # Linha de frase inteira tambem vale (v0.281): o `grupo` que virou categoria muda de
 # genero, e cada forma dele ("desse grupo", "do mesmo grupo") tem a sua linha. O artigo que o nome novo pede e consequencia de genero, declarada
-# junto: `Sobre Carregar Energia` e masculino, e a v0.4 dizia "da" e "numa".
+# junto: `Sobrecarregar Energia` e masculino, e a v0.4 dizia "da" e "numa".
 _P06_103 = ler(os.path.join(RAIZ, 'sistema', '03-mecanica', '06-caminhos-e-trilhas.md'))
 _mren = re.search(r'\*\*Renomes decididos\*\*\n\n((?:\|[^\n]*\n)+)', _P06_103)
 _RENOMES = []
@@ -624,8 +630,8 @@ if _mren:
         if len(_c) == 4 and _c[0].startswith('`'):
             _RENOMES.append((_c[0].strip('`'), _c[1].strip('`'), _c[2],
                              re.findall(r'`([^`]+)`', _c[3])))
-_ARTIGO103 = {'da Sobre Carregar Energia': 'do Sobre Carregar Energia',
-              'numa Sobre Carregar Energia': 'num Sobre Carregar Energia'}
+_ARTIGO103 = {'da Sobrecarregar Energia': 'do Sobrecarregar Energia',
+              'numa Sobrecarregar Energia': 'num Sobrecarregar Energia'}
 if not _RENOMES:
     erro('10', '10.3: nao achei a tabela `Renomes decididos` da peca 6 §2 — sem ela a copia do '
                'livro reprova em toda frase renomeada, e a checagem para de dizer o que importa')
@@ -661,7 +667,8 @@ def _sem_acento103(s):
 _n103, _falta103, _adapt103 = 0, [], 0
 for _a in sorted(_glob.glob(os.path.join(_V04, '*.md'))):
     _em_quadro = False
-    for _l in _renomeia103(os.path.basename(_a), ler(_a)).split('\n'):
+    # a colecao v0.4 tambem e fonte congelada: o renome do passo 2 vale dos dois lados
+    for _l in renomes.traduz(_renomeia103(os.path.basename(_a), ler(_a))).split('\n'):
         _cel = _l.strip().startswith('|')
         # o quadro de caracteristicas e' a BASE do Caminho, e ela tem dono proprio
         # (a peca 6): o livro usa o quadro dele, e a divergencia de base e' conferida

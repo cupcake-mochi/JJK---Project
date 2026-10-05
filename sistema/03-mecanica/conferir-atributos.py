@@ -909,7 +909,7 @@ print('=' * 88)
 print('10. O ESCOPO DO CRITICO — a secao 5.2, e o que ele NAO dobra')
 print('=' * 88)
 
-# v0.151. O que uma condicao como o `Incapacitado` vale nao sai do numero dela:
+# v0.151. O que uma condicao como a `Guarda Aberta` vale nao sai do numero dela:
 # sai de QUANTOS DADOS o critico dobra. A peca 19 §2.4 mediu: com so o dado da
 # arma o ganho e' 32% do teto da banda Leve; somando o dano na arma do refino 10
 # ele vira 93%, e com arma d12, 99%. Uma condicao Leve a um d12 de estourar a
@@ -958,12 +958,12 @@ else:
             ('dado de aptidao', r'aptidão|Bênção',
              'a linha de regra do §5.2 parou de excluir dado que veio de aptidao ou '
              'Bencao — e o dano na arma do cobrir-se e do Estimulo Muscular e' + "'" + ' '
-             'exatamente isso. A peca 19 §2.4 mede: isso leva o Incapacitado de '
+             'exatamente isso. A peca 19 §2.4 mede: isso leva a Guarda Aberta de '
              '32% para 93% do teto da banda Leve'),
             ('feitico que viaja junto', r'viajou junto do ataque|viaja junto do ataque',
              'a linha de regra do §5.2 parou de excluir feitico que viaja junto do '
              'ataque — e a Fornalha poe um Classe 0 em cada ataque. A peca 19 §2.4 '
-             'mede: isso leva o Incapacitado a 190% do teto da Leve, ou seja, Media'),
+             'mede: isso leva a Guarda Aberta a 190% do teto da Leve, ou seja, Media'),
         ]
         _faltou = 0
         for _rot, _rx, _msg in _cobra:
@@ -979,7 +979,7 @@ else:
     # o `20` natural e a chance dele continuam escritos: a peca 19 le os dois
     if not _re.search(r'20 natural numa rolagem de acerto é crítico', _sec52):
         erro('10: o §5.2 parou de dizer que 20 natural e critico — a peca 19 le essa '
-             'linha como ancora, e sem ela a regua do Incapacitado fica sem chao')
+             'linha como ancora, e sem ela a regua da Guarda Aberta fica sem chao')
     else:
         print('  o 20 natural continua escrito, e e dele que a peca 19 tira a taxa de 5%.')
 

@@ -45,7 +45,7 @@ A saída é partir a técnica em duas. **Você escreve a Regra — uma frase —
 
 A Origem **não dá atributo nenhum**, e isso é decisão. Em Jujutsu Kaisen a origem é a fonte do poder, não o corpo — ser recipiente não te deixa mais forte, te dá um passageiro. Amarrar número à origem criaria a origem certa para cada montagem, e este jogo quer a identidade morando na técnica.
 
-**O catálogo está na peça 9.** São **cinco Origens principais** — Latente, Receptáculo, Descendente, Reencarnado e Feto —, uma **sub-origem** que se soma a qualquer uma delas (Sem Técnica) e **duas Origens especiais** (Corpo Amaldiçoado e Restrição Celestial).
+**O catálogo está na peça 9.** São **cinco Origens principais** — Latente, Receptáculo, Descendente, Encarnado e Feto —, uma **sub-origem** que se soma a qualquer uma delas (Sem Técnica) e **duas Origens especiais** (Corpo Amaldiçoado e Restrição Celestial).
 
 Ela dá seis coisas, e **o Caminho não dá ofício** — os dois são dela:
 

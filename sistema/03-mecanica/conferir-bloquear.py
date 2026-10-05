@@ -24,7 +24,7 @@ NENHUM VALOR FICA ESCRITO AQUI DENTRO:
   a ficha de inimigo ........... manual/gerador/partF.js
 
 A CHECAGEM 1 E' A UNICA DESTE PROJETO QUE EXISTE PARA SUSTENTAR UM NUMERO DE
-OUTRA PECA. A peca 19 publica o `Incapacitado` em 11,00 porque a metade
+OUTRA PECA. A peca 19 publica a `Guarda Aberta` em 11,00 porque a metade
 "voce nao pode Bloquear" vale zero — e ela vale zero PORQUE o Bloquear e'
 neutro. Se a neutralidade quebrar, aquele preco fica errado e ninguem mais
 estaria olhando.
@@ -116,24 +116,24 @@ OFFSET = int(_m.group(3))
 print(f'  a base da Defesa, lida da peca 1: {BASE_DEFESA}')
 print(f'  o offset escrito na regra da peca 23: {OFFSET}')
 
-# --- 1.1 (v0.151): o valor do `Incapacitado` mora na peca 19 e esta peca o CITA.
+# --- 1.1 (v0.151): o valor da `Guarda Aberta` mora na peca 19 e esta peca o CITA.
 # A v0.151 repreçou aquela condicao de 11,00 para 4,95, os 24 validadores sairam
 # verdes, e esta peca continuou publicando 11,00 e 11,02 — porque ninguem comparava
 # as duas copias. Licao no 9, no numero que esta peca existe para sustentar.
-_m19 = re.search(r'\|\s*\*\*`Incapacitado`\*\*\s*\|\s*`([\d,]+)`\s*\|', T19)
+_m19 = re.search(r'\|\s*\*\*`Guarda Aberta`\*\*\s*\|\s*`([\d,]+)`\s*\|', T19)
 if not _m19:
-    erro(1, 'nao achei a linha do `Incapacitado` na tabela do SS2.2 da peca 19 — '
+    erro(1, 'nao achei a linha da `Guarda Aberta` na tabela do SS2.2 da peca 19 — '
             'esta peca cita o valor dela e ficou sem o dono para comparar')
 else:
     _v19 = float(_m19.group(1).replace(',', '.'))
     # ⚠ Nao existe lista de formas de citar: a primeira versao desta sub-checagem
     # casava "iria para" e "em", e o §5.1 citava o numero numa TERCEIRA forma —
     # que sobreviveu ao repreco com a checagem verde. Hoje ela pega TODO `N,NN`
-    # que apareça a menos de 200 caracteres da palavra `Incapacitado`, e a peca 23
+    # que apareça a menos de 200 caracteres da palavra `Guarda Aberta`, e a peca 23
     # e' obrigada a nao guardar numeral historico: o valor velho fica em discurso
     # indireto, que e' a convencao que a v0.143 pagou para escrever.
     _achou = []
-    for _mi in re.finditer(r'Incapacitado', T23):
+    for _mi in re.finditer(r'Guarda Aberta', T23):
         _jan = T23[max(0, _mi.start() - 200): _mi.end() + 200]
         _achou += re.findall(r'`(\d+,\d{2})`', _jan)
     _aqui = sorted({float(x.replace(',', '.')) for x in _achou})
@@ -141,17 +141,17 @@ else:
     # sub-checagem VERDE e calada — que e' a licao no 8 por outra porta. Sao DOIS
     # valores distintos hoje: o da peca 19 e ele mais o `+0,02` da metade.
     if len(_aqui) < 2:
-        erro(1, f'a peca 23 cita {len(_aqui)} valor(es) do `Incapacitado` e eu '
+        erro(1, f'a peca 23 cita {len(_aqui)} valor(es) da `Guarda Aberta` e eu '
                 'esperava 2 — ela parou de citar, ou mudou de forma, e esta '
                 'sub-checagem deixaria de comparar as duas copias em silencio')
     else:
         # o `+0,02` da metade do Bloquear e' o unico desvio legal
         _fora = [v for v in _aqui if abs(v - _v19) > 0.05 and abs(v - _v19 - 0.02) > 0.005]
         if _fora:
-            erro(1, f'a peca 23 publica o `Incapacitado` em {_fora} e a peca 19, que '
+            erro(1, f'a peca 23 publica a `Guarda Aberta` em {_fora} e a peca 19, que '
                     f'e a dona, publica {_v19:.2f} — as duas copias divergiram')
         else:
-            print(f'  [x] o `Incapacitado` citado aqui bate com a peca 19: '
+            print(f'  [x] a `Guarda Aberta` citado aqui bate com a peca 19: '
                   f'{_v19:.2f} de dano por rodada, em {len(_aqui)} citacao(oes)')
 
 MEDIA_DADO = QTD * (FACES + 1) / 2.0
@@ -211,7 +211,7 @@ else:
 if abs(COM - EST) > 5e-4:
     erro('1c', f'o Bloquear rende {COM:.4f} contra {EST:.4f} da Defesa estatica — '
                 f'vies de {(COM - EST) * 100:+.2f} pontos percentuais. A peca 19 '
-                f'publica o `Incapacitado` em 11,00 SUPONDO que este vies e zero')
+                f'publica a `Guarda Aberta` em 11,00 SUPONDO que este vies e zero')
 else:
     print(f'  [x] o Bloquear e neutro: {COM:.4f} dos dois lados, ao ponto flutuante')
 
@@ -432,14 +432,14 @@ else:
 
 
 # ==========================================================================
-bloco('5. SO O `Incapacitado` DESLIGA O BLOQUEAR — lido da peca 19')
+bloco('5. SO A `Guarda Aberta` DESLIGA O BLOQUEAR — lido da peca 19')
 # ==========================================================================
 # Ela existe porque a proxima pessoa que ler o rascunho antigo vai querer
 # acrescentar `Derrubado` ou `Agarrado`, e isso repreca duas condicoes que
 # ja tem numero publicado na regua das treze.
 _cond = {}
 for _l in T19.split('\n'):
-    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéóÇ]+)`\*\*\s*\|\s*`(Leve|Média|Pesada)`'
+    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéóÇ]+(?: [A-Za-zçãíéóÇ]+)*)`\*\*\s*\|\s*`(Leve|Média|Pesada)`'
                   r'\s*\|\s*(.+?)\s*\|\s*$', _l)
     if _m:
         _cond[_m.group(1)] = _m.group(3)
@@ -448,20 +448,20 @@ if len(_cond) != 13:
             f'tabela mudou de forma e esta checagem parou de conferir')
 else:
     _citam = sorted(n for n, t in _cond.items() if re.search(r'\bBloquear\b', t))
-    if _citam != ['Incapacitado']:
+    if _citam != ['Guarda Aberta']:
         erro(5, f'as condicoes que citam Bloquear sao {_citam}, e o SS5 da peca 23 '
-                f'diz que so o `Incapacitado` desliga — cada uma a mais e um '
+                f'diz que so a `Guarda Aberta` desliga — cada uma a mais e um '
                 f'repreco na regua das treze, e nao uma regra nova')
     else:
-        print(f'  [x] das 13 condicoes, so o `Incapacitado` cita Bloquear')
+        print(f'  [x] das 13 condicoes, so a `Guarda Aberta` cita Bloquear')
     # v0.201: a tabela do SS2.2 trocou a coluna das fatias pela das acoes negadas,
     # dos pontos e da razao de dominancia. O que esta checagem precisa e' o valor e
     # o nivel, e os dois continuam nas pontas da linha.
-    _m = re.search(r'\|\s*\*\*`Incapacitado`\*\*\s*\|\s*`([\d,]+)`\s*\|'
+    _m = re.search(r'\|\s*\*\*`Guarda Aberta`\*\*\s*\|\s*`([\d,]+)`\s*\|'
                    r'[^|]*\|\s*`(\d+)`\s*\|\s*`([\d,]+)×`\s*\|\s*'
                    r'`(Leve|Média|Pesada)`', T19)
     if not _m:
-        erro('5a', 'nao achei a linha do `Incapacitado` na tabela de preco do SS2.2')
+        erro('5a', 'nao achei a linha da `Guarda Aberta` na tabela de preco do SS2.2')
     else:
         print(f'  .. e ele continua em {num(_m.group(1)):.2f} de dano por rodada, '
               f'{num(_m.group(3)):.2f}x o dano dos {_m.group(2)} pontos que ele custa, '
@@ -679,6 +679,6 @@ if FALHAS:
     sys.exit(1)
 print('>>> TUDO OK — a neutralidade e exata e recalculada, o modificador e a mesma')
 print('    expressao dos dois lados, o liquido dos extremos sai dos donos e cabe no')
-print('    teto, o `+3` e o maior que cabe, so o `Incapacitado` desliga, e a `Talha`')
+print('    teto, o `+3` e o maior que cabe, so a `Guarda Aberta` desliga, e a `Talha`')
 print('    e do atacante. E a Reacao do inimigo e a mesma que a peca 3 da a')
 print('    todo mundo, impressa na ficha de inimigo do manual.')

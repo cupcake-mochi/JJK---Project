@@ -92,7 +92,7 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 |---|---|---|---|
 | `Eco` | `Eco Amaldiçoado` | o Emanador | `Eco Técnico`, `Eco de Remodelagem`, `Eco de Modulação` |
 | `Impulso` | `Impulso Energético` | a Trilha Catalisador | `Impulso Técnico` |
-| `Sobrecarga` | `Sobre Carregar Energia` | a Trilha Catalisador | — |
+| `Sobrecarga` | `Sobrecarregar Energia` | a Trilha Catalisador | — |
 | `Ação de Atacar` | `Ação Atacar` | os quatro Caminhos | — |
 | `um grupo de armas` | `uma categoria (Grupo das Armas)` | a Trilha Estocada | — |
 | `seus grupos escolhidos` | `suas categorias escolhidas` | a Trilha Estocada | — |
@@ -104,7 +104,7 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 | `do mesmo grupo` | `da mesma categoria` | a Trilha Condutor Armado | — |
 | `do grupo` | `da categoria` | a Trilha Condutor Armado | — |
 
-*A coleção em `caminhos/` fica como chegou, byte a byte, e o manifesto de hashes dela continua conferindo; os renomes moram nesta tabela, e a sub-checagem 10.3 do `conferir-catalogo.py` aplica ela antes de comparar a coleção com o livro.* **A Modulação `Impulso` do Emanador não muda** *— o `Impulso Energético` é o recurso do Catalisador. `Eco` e `Ecos` viram `Eco Amaldiçoado` e `Ecos Amaldiçoados`, e o `Sobre Carregar Energia` é masculino no livro: "depois do", "num".* **As colisões aprovadas:** *`Eco Amaldiçoado` carrega a Passiva `Eco`; `Impulso Energético`, a Melhoria `Impulso`; `Sobre Carregar Energia`, a Restrição `Carregar`; `Condutor Armado`, a Melhoria `Armado`; `Condução` é ofício no projeto; e a `Segunda Leitura` do Yumi reaproveita o nome do nível 15 do Emanador da coleção anterior. Os `DENTRO` de menor peso da triagem também ficam.*
+*A coleção em `caminhos/` fica como chegou, byte a byte, e o manifesto de hashes dela continua conferindo; os renomes moram nesta tabela, e a sub-checagem 10.3 do `conferir-catalogo.py` aplica ela antes de comparar a coleção com o livro.* **A Modulação `Impulso` do Emanador não muda** *— o `Impulso Energético` é o recurso do Catalisador. `Eco` e `Ecos` viram `Eco Amaldiçoado` e `Ecos Amaldiçoados`, e o `Sobrecarregar Energia` é masculino no livro: "depois do", "num".* **As colisões aprovadas:** *`Eco Amaldiçoado` carrega a Passiva `Eco`; `Impulso Energético`, a Melhoria `Impulso`; `Sobrecarregar Energia`, a Restrição `Carregar`; `Condutor Armado`, a Melhoria `Armado`; `Condução` é ofício no projeto; e a `Segunda Leitura` do Yumi reaproveita o nome do nível 15 do Emanador da coleção anterior. Os `DENTRO` de menor peso da triagem também ficam.*
 
 **Na v0.281 entraram duas trocas, com as respostas do Mizuki à leitura dos três Caminhos:** *a ação passou a se chamar `Ação Atacar` nos quatro Caminhos — "tem diferença entre 'Atacar' e a 'Ação Atacar', que nem dnd", e a tabela de ações do capítulo 11 já chama a ação de `Atacar` —; e o grupo de armas da Estocada e do Condutor Armado passou a categoria, a palavra do capítulo de equipamento, com o nome antigo entre parênteses onde a escolha é feita — "Pode por categoria, mas coloca logo na frente entre ( ), (Grupo das Armas), facilita entendimento".* **As linhas do grupo são frase a frase**, *porque a palavra muda de gênero; o grupo do Arquiteto é o grupo de jogadores, e fica fora.*
 
@@ -353,7 +353,7 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 >
 > **A `Ainda de Pé` é `1d8 + metade do nível` de cura, `1×` por cena, sem custo de ação.** *`1` de cura = `1` de dano evitado, pela régua da v0.76.* **O relógio não foi escolhido: `1×` por cena dá `1,10` e `2×` daria `2,19`, que estoura.**
 >
-> **A `Não Pega` é o `Evasion` do 5e** — sucesso anula, falha vira metade — **como Reação, e desligada pelo `Incapacitado`.** *Um efeito de TR-para-metade custa `16,20` esperados; ela derruba para `4,20`, evitando `12,00`.* ***Taxa declarada: `50%` das rodadas trazem um efeito qualificado*** — no molde da taxa do `Batedor` parado, escrita e não suposta.
+> **A `Não Pega` é o `Evasion` do 5e** — sucesso anula, falha vira metade — **como Reação, e desligada pela `Guarda Aberta`.** *Um efeito de TR-para-metade custa `16,20` esperados; ela derruba para `4,20`, evitando `12,00`.* ***Taxa declarada: `50%` das rodadas trazem um efeito qualificado*** — no molde da taxa do `Batedor` parado, escrita e não suposta.
 >
 > > **⚠ E o custo de ação foi escolhido por medida, não por sabor.** *A Reação do Bastião está tomada pelos três outros degraus dele, e a Ação Bônus está tomada pelas três Trilhas — a `Fagulha` põe um `Classe 0` de `27` ali toda rodada.* **Curar `19,5` gastando aquilo dá saldo `−7,5`, e a entrada viraria letra morta para `Punho` e `Brasa`.** *Por isso a `Ainda de Pé` não custa ação: é o único slot livre que o Bastião tem no nível 7.*
 >

@@ -45,7 +45,7 @@ const CAMINHOS = [
 ];
 
 // as Origens (peca 9)
-const ORIGENS = ['Latente', 'Receptáculo', 'Descendente', 'Reencarnado', 'Feto'];
+const ORIGENS = ['Latente', 'Receptáculo', 'Descendente', 'Encarnado', 'Feto'];
 const ORIGENS_ESPECIAIS = ['Corpo Amaldiçoado', 'Restrição Celestial'];
 const SUB_ORIGEM = 'Sem Técnica';
 

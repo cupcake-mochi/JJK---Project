@@ -183,28 +183,28 @@ E o buraco é grande: **`+1` de diferença vale `2,5` pontos percentuais**, que 
 
 ## 5. Quem não pode Bloquear — e a resposta é derivada
 
-**Só o `Incapacitado`.** *E ele já dizia isso, com todas as letras, desde a peça 19.*
+**Só a `Guarda Aberta`.** *E ela já dizia isso, com todas as letras, desde a peça 19.*
 
 **A pergunta ficou cem versões em aberto** — o rascunho listava *"surpreendido, caído, agarrado, sem ver o agressor"* como candidatos, e chamava isso de *"a única peça do desenho que ainda não tem forma"*. **Ela não precisava de forma: a peça 19 §3.4 já tinha decidido, por outro caminho.**
 
 | condição | o eixo que ela ataca |
 |---|---|
 | **`Atordoado`** | tira **parte do turno** — uma Ação Padrão e a reação. Você continua se defendendo |
-| **`Incapacitado`** | não tira turno nenhum: tira a **defesa**. Você age e não se protege |
+| **`Guarda Aberta`** | não tira turno nenhum: tira a **defesa**. Você age e não se protege |
 
-***O `Incapacitado` é a condição cujo eixo É a defesa.*** **Deixar uma segunda condição desligar o Bloquear borra esse eixo** — e a decisão do Mizuki na v0.95, que separou `Atordoado` de `Incapacitado` justamente para as duas não se aninharem, seria desfeita por acidente.
+***A `Guarda Aberta` é a condição cujo eixo É a defesa.*** **Deixar uma segunda condição desligar o Bloquear borra esse eixo** — e a decisão do Mizuki na v0.95, que separou `Atordoado` de `Guarda Aberta` justamente para as duas não se aninharem, seria desfeita por acidente.
 
 **E a alternativa tem preço, que é o argumento definitivo.** *Pôr "você não pode Bloquear" no `Derrubado` ou no `Agarrado` acrescenta entrega a uma condição que já tem preço publicado na régua da peça 19* — `8,45` e `5,40` de dano por rodada. **Isso não é escrever uma regra: é repreçar duas condições, e a régua das treze não aceita entrega nova sem passar pela banda.**
 
 > **A checagem 5 do validador confere que nenhuma outra das treze cita `Bloquear`.** *Ela existe porque a próxima pessoa que ler o rascunho antigo vai querer acrescentar a segunda, e o texto dela some sem ninguém acusar.*
 
-### 5.1 E o preço do `Incapacitado` não se move
+### 5.1 E o preço da `Guarda Aberta` não se move
 
 **A metade dele que dependia de regra opcional passa a valer sempre — e ela continua valendo praticamente zero.** *A peça 19 §2.2 é a dona do preço dela, e ele é inteiro a metade do crítico.*
 
-**Medido por enumeração completa das `2.000` combinações, num chefe de nível 30:** a metade do Bloquear vale **`+0,02` de dano por rodada**, e o `Incapacitado` iria para `4,97`. *Abaixo da precisão que a régua carrega — o golpe simples que entra nela varia `3,0` entre o nível 2 e o 30.* **O número publicado fica em `4,95`.**
+**Medido por enumeração completa das `2.000` combinações, num chefe de nível 30:** a metade do Bloquear vale **`+0,02` de dano por rodada**, e a `Guarda Aberta` iria para `4,97`. *Abaixo da precisão que a régua carrega — o golpe simples que entra nela varia `3,0` entre o nível 2 e o 30.* **O número publicado fica em `4,95`.**
 
-> **⚠⚠ Este número é da peça 19, e ele mora aqui como cópia — foi a v0.151 que descobriu isso do jeito caro.** *Aquela versão repreçou o `Incapacitado`, os 24 validadores saíram verdes, e esta peça continuou publicando o valor velho em dois lugares.* **Nenhuma checagem comparava as duas cópias.** *Hoje a sub-checagem `1.1` lê o valor da peça 19 e falha se esta peça publicar outro — lição nº 9, no número que esta peça existe para sustentar.*
+> **⚠⚠ Este número é da peça 19, e ele mora aqui como cópia — foi a v0.151 que descobriu isso do jeito caro.** *Aquela versão repreçou a `Guarda Aberta`, os 24 validadores saíram verdes, e esta peça continuou publicando o valor velho em dois lugares.* **Nenhuma checagem comparava as duas cópias.** *Hoje a sub-checagem `1.1` lê o valor da peça 19 e falha se esta peça publicar outro — lição nº 9, no número que esta peça existe para sustentar.*
 
 ***Mas o argumento embaixo dele muda, e essa é a parte que importa.*** *Até a v0.142 a peça 19 justificava o zero assim: "depende de uma regra opcional que nem toda mesa liga".* **Com o Bloquear ligado, o motivo verdadeiro aparece, e ele é mais forte:**
 
@@ -257,16 +257,16 @@ Ninguém pede isso e ninguém espera isso, e é de lá que sai o *"na verdade eu
 
 | # | a checagem | o dono do número |
 |---|---|---|
-| **1** | **a neutralidade**, por enumeração das `2.000` combinações: o multiplicador do Bloquear com a trava do `20` natural é **idêntico** ao da Defesa estática, e sem a trava ele é menor. *Falha se os dois divergirem em mais de `0,0005`* | **A sub-checagem `1.1`, da v0.151, compara as DUAS cópias do preço do `Incapacitado`:** *esta peça cita o número e a peça 19 é a dona dele.* **Ela nasceu porque as duas divergiram de verdade** — a v0.151 repreçou aquela condição, os 24 validadores saíram verdes, e esta peça continuou publicando o valor velho em dois lugares. *Ela não tem lista de formas de citar: pega todo `` `N,NN` `` perto da palavra, e tem guarda de contagem, porque parar de citar deixaria ela verde e calada* | esta peça §2 e §3 · peça 19 §2.2 |
+| **1** | **a neutralidade**, por enumeração das `2.000` combinações: o multiplicador do Bloquear com a trava do `20` natural é **idêntico** ao da Defesa estática, e sem a trava ele é menor. *Falha se os dois divergirem em mais de `0,0005`* | **A sub-checagem `1.1`, da v0.151, compara as DUAS cópias do preço da `Guarda Aberta`:** *esta peça cita o número e a peça 19 é a dona dele.* **Ela nasceu porque as duas divergiram de verdade** — a v0.151 repreçou aquela condição, os 24 validadores saíram verdes, e esta peça continuou publicando o valor velho em dois lugares. *Ela não tem lista de formas de citar: pega todo `` `N,NN` `` perto da palavra, e tem guarda de contagem, porque parar de citar deixaria ela verde e calada* | esta peça §2 e §3 · peça 19 §2.2 |
 | **2** | **o modificador é a MESMA expressão** dos dois lados — a Defesa da peça 1 §5 e o Bloquear do §3 desta peça reconstroem um do outro, e a diferença é exatamente `11`. *Não compara valores: compara a fórmula* | peça 1 §5 |
 | **3** | **o líquido do pacote de extremos, no nível 30**, recalculado das chances enumeradas e do golpe do chefe: fica abaixo de `1%` **do golpe do chefe**, e a peça é obrigada a declarar esse denominador. *Junto vai o **tráfego**, e ele tem de ser simétrico — o que salvou e o que traiu são o mesmo número, e a assimetria seria o viés que a peça existe para não ter* | esta peça §3.3 e peça 19 §2.1 |
 | **4** | **o `+3` do Aparar é o maior que cabe.** *Ela confere as duas grandezas separadas:* a **folga** do nível 22, que é uma subtração em dano esperado, e o **teto do bônus**, que é a folga dividida pela taxa de acerto e sai em dano cru. **Falha se `+4` couber, se `+3` não couber, ou se a peça publicar um dos dois com o valor do outro** | esta peça §3.2 |
-| **5** | **nenhuma outra das treze condições cita `Bloquear`** — só o `Incapacitado`. *Ela lê a peça 19 §3, e não uma lista escrita aqui* | peça 19 §3 |
+| **5** | **nenhuma outra das treze condições cita `Bloquear`** — só a `Guarda Aberta`. *Ela lê a peça 19 §3, e não uma lista escrita aqui* | peça 19 §3 |
 | **6** | **a `Talha` continua sendo a única propriedade de arma que encosta no Bloquear**, e ela é do atacante. *Falha se alguma propriedade nova mexer no modificador do defensor.* **Junto vão quatro sub-checagens que a v0.143 precisou:** *a `Talha` continua dizendo o que faz; nenhuma frase de opcionalidade sobreviveu na peça 14; a **contagem** de armas escrita lá bate com o catálogo; e a **lista nominal** delas também* | peça 14 §5.2 |
 | **7** | **os `2d10` são o único dado não-`d20` do sistema.** *Varre as peças procurando notação de dado numa rolagem disputada e falha se aparecer uma segunda família* | as peças |
 | **8** | **a Reação do inimigo é a mesma que a peça 3 dá a todo mundo, e o manual a imprime.** *Ela não guarda o `1`: lê a quantidade dos dois lados e compara.* **Junto vai a guarda de que a seção `Inimigos` do manual continua existindo** — sem ela, renomear a seção faz a checagem achar zero linha e passar verde para sempre | peça 3 §3 · **o manual**, a fonte da seção `Inimigos` |
 
-> **A checagem 1 é a que a peça 19 consome.** *Ela publica o `Incapacitado` em `4,95` porque o Bloquear é neutro — se a neutralidade quebrar, o preço daquela condição fica errado e ninguém mais estaria olhando.* **É a única checagem deste projeto que existe para sustentar um número de outra peça.**
+> **A checagem 1 é a que a peça 19 consome.** *Ela publica a `Guarda Aberta` em `4,95` porque o Bloquear é neutro — se a neutralidade quebrar, o preço daquela condição fica errado e ninguém mais estaria olhando.* **É a única checagem deste projeto que existe para sustentar um número de outra peça.**
 
 **E a ficha:** a checagem que confere que o gerador imprime `Defesa N · Bloquear 2d10+M`, com `M = N − 11`, mora no `conferir-ficha.py` — que é o validador dono da comparação entre a ficha e as peças. *Aqui mora a matemática; lá mora a impressão.*
 

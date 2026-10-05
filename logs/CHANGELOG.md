@@ -8,6 +8,22 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.332] — 05/10/2026
+
+**A migração do livro reconstruído para as peças começou, pelos nomes.** *O Mizuki autorizou migrar ("e... podemos migrar") e mandou seguir o plano. O passo 1 conferiu os 321 registros de mecânica e a passada dos 76 não mecânicos; o passo 2 troca os nomes, e foi dividido em duas versões porque a família da `Passiva` sozinha tem mais de mil ocorrências.* **Nesta versão:** `Incapacitado` virou `Guarda Aberta`, o `Aviso` virou `Identificar Feitiço` (a Melhoria) e `Leitura de Feitiços` (a Passiva), `Sobre Carregar Energia` virou `Sobrecarregar Energia` e `Reencarnado` virou `Encarnado`. São os nomes do livro reconstruído (NT01 a NT03 da migração de nomes dele, e os registros EMA27 e ORI02 do inventário).
+
+**Alterado:** dez peças (01, 06, 08, 09, 11, 13, 14, 19, 21 e 23, 69 linhas), com o artigo e os pronomes no feminino onde o nome novo pediu (*"o `Incapacitado`"* virou *"a `Guarda Aberta`"*, *"ficar `Incapacitado`"* virou *"ficar com a `Guarda Aberta`"*). *Do `Encarnado` mudou só o nome:* o ORI02 também relê a Origem (o ponto de vista de quem voltou, e não mais a sobrescrita que apagou o hospedeiro), e essa releitura entra quando as Origens migrarem; até lá as peças 09 e 13 conservam o texto da v0.331. O `dados.js` do gerador da ficha troca a Origem; as duas fichas geradas não citam Origem e não mudam. Oito validadores e o `conferir-repositorio.py`: o `conferir-bloquear`, o `conferir-dano`, o `conferir-legados` e o `conferir-catalogo` passaram a aceitar nome de condição com espaço, o `conferir-nomes` trata os quatro nomes antigos como termo morto, e o `conferir-atributos` e o `conferir-objeto` só trocaram o nome nos comentários.
+
+**Adicionado:** `sistema/03-mecanica/renomes.py`, o dono da tabela de renomes. *O livro v0.331, as cópias da edição integrada e o `.docx` do Fundamento ficam congelados com o nome antigo até o passo 5: o capítulo 60 do livro tem de bater com a referência aprovada, que o `conferir-invocacoes` prende por hash.* **Quem compara uma peça com uma fonte congelada traduz o nome por ele:** o `conferir-dano` e o `conferir-nomes` nas listas do `.docx`, o `conferir-manual` na lista de Passivas, o `conferir-catalogo` nos dois lados do cotejo da coleção v0.4, e o `conferir-repositorio` na 10.4, que pergunta se o livro publica cada termo batizado. Não é `conferir-*.py`, e a contagem de validadores não muda.
+
+**Decidido:** o `.docx` do Fundamento sai de fonte no passo 5, e não no 2 (opção A do Mizuki, com o momento medido: sete validadores leem o `.docx`). O Morrendo fica na versão atual, e o passo 3 espera a revisão dele. Os registros históricos (este CHANGELOG, o `ESTADO-ATUAL` abaixo da seção nova, o bestiário e as coleções) conservam o nome da época.
+
+**Validação:** bateria de 32 de 32, com o pulo de sempre (a 7, da entrega, que não fica no clone). Teste negativo numa cópia isolada: plantar `Incapacitado`, `Reencarnado` ou `Sobre Carregar Energia` numa peça acende a checagem 5 do `conferir-nomes`, e devolver o `Aviso` à peça 11 acende a 4k do `conferir-manual`. O contra-teste é a rodada sem tradução: o `conferir-dano`, o `conferir-manual`, o `conferir-catalogo` e a 10.4 do `conferir-repositorio` falharam nela.
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: a segunda metade do passo 2, na v0.333 (`Passiva`, `Classe Passiva` e `Passiva Livre`).
+
+---
+
 ## [0.331] — 02/10/2026
 
 **Adicionado:** Evocador e Incursor completos, com suas seis Trilhas, e o capítulo de Invocações aprovado, incluindo os catálogos comuns do Fundamento e a decisão de treino da entidade. O Manual da Guilda passa a seis Caminhos, dezoito Trilhas e dezenove capítulos. **Malabarista** é o nome aprovado da terceira Trilha do Incursor.

@@ -61,6 +61,13 @@ AVISOS = []
 PULADAS = []
 
 MEC = os.path.join(RAIZ, 'sistema', '03-mecanica')
+
+# Migração, passo 2: as peças usam o nome novo, e o livro v0.331 fica congelado com
+# o antigo até o passo 5. A pergunta "o livro publica este termo?" lê o livro
+# traduzido pelo renomes.py, que é o dono da tabela.
+sys.dont_write_bytecode = True
+sys.path.insert(0, MEC)
+import renomes
 pecas = sorted(f for f in os.listdir(MEC) if re.match(r'^\d\d-.*\.md$', f))
 
 
@@ -2338,7 +2345,7 @@ else:
     _ARQ_LIVRO = sorted(f for f in os.listdir(_LIVRO_MD) if f.endswith('.md'))
     _TXT_LIVRO = {f: open(os.path.join(_LIVRO_MD, f), encoding='utf-8').read()
                   for f in _ARQ_LIVRO}
-    _TUDO10 = _sa('\n'.join(_TXT_LIVRO.values()))
+    _TUDO10 = _sa(renomes.traduz('\n'.join(_TXT_LIVRO.values())))
 
     # -- 10.1: as TRES listas de capitulo tem de bater. ---------------------
     # Licao no 9 na forma mais crua: build.py, build_docx.py e conferir-voz.py

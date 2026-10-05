@@ -39,6 +39,12 @@ import os
 import re
 import sys
 
+# Migração, passo 2: as peças usam o nome novo, e o livro v0.331 e o .docx ficam
+# congelados com o antigo. O que vem deles passa pelo renomes.py antes de comparar.
+sys.dont_write_bytecode = True
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import renomes
+
 FALHAS = []
 AVISOS = []
 
@@ -940,7 +946,7 @@ for _t in _D.tables:
     for _r in _t.rows[1:]:
         _cel = [c.text.strip() for c in _r.cells]
         if len(_cel) >= 2 and _cel[1] in _pv_manual:
-            _pv_manual[_cel[1]].append(_cel[0])
+            _pv_manual[_cel[1]].append(renomes.traduz_nome(_cel[0], 'Passiva'))
 
 if not all(_pv_manual.values()):
     erro('nao achei a lista de Passivas do .docx com as tres alturas preenchidas — '

@@ -217,7 +217,7 @@ else:
 P19 = ler('19-dano-e-condicoes.md')
 NIVEL_DA_CONDICAO = {}
 for _l in P19.split('\n'):
-    _m = re.match(r'^\|\s*\*\*`([A-Za-zÀ-ú]+)`\*\*\s*\|\s*`(Leve|Média|Pesada)`\s*\|', _l)
+    _m = re.match(r'^\|\s*\*\*`([A-Za-zÀ-ú]+(?: [A-Za-zÀ-ú]+)*)`\*\*\s*\|\s*`(Leve|Média|Pesada)`\s*\|', _l)
     if _m:
         NIVEL_DA_CONDICAO[_m.group(1)] = _m.group(2)
 _secT = PECA[PECA.find('> **E o degrau do relógio sai do nível da condição**'):]

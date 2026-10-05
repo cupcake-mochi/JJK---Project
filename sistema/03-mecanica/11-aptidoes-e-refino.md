@@ -193,7 +193,7 @@ As aptidões herdam a escada das Passivas do manual. **Ela não mede quanto — 
 
 | Classe Passiva | o que cabe | as Passivas do manual naquela altura |
 |---|---|---|
-| **1** | efeito pequeno, condicional, ou de informação | `Leitura` · `Instinto` · `Raiz` · `Mão Firme` · `Farejador` · `Aviso` |
+| **1** | efeito pequeno, condicional, ou de informação | `Leitura` · `Instinto` · `Raiz` · `Mão Firme` · `Farejador` · `Leitura de Feitiços` |
 | **2** | efeito reativo, com limite de uso por cena ou por descanso | `Fluxo` · `Recomposição` · `Segunda Natureza` · `Eco` · `Costura` · `Contramedida` · `Peso da Presença` |
 | **3** | permanente. Muda como você joga | `Escama` · `Afinidade` · `Reserva Profunda` |
 
@@ -272,7 +272,7 @@ Doze níveis entre o especialista e o generalista, que é o tamanho que *"quase 
 
 ### O requisito de história, que não é gate — v0.268
 
-**Quatro aptidões pedem uma coisa que não está em nenhum dos seis formatos:** *a `Cesta Oca de Vime` pede ser Reencarnado, ou ser treinado em `História`; o `Domínio Simples` pede ter visto um sendo usado, ou ter aprendido com alguém; a `Pétala`, desde a v0.272, pede ser Descendente, ou ter aprendido com alguém de um clã; e a `Extensão de Domínio`, desde a v0.273, pede ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém.* **Não é gate:** *nenhum dos quatro trava nível, refino ou marco de quem teria acesso pela conta — ele diz de onde a técnica veio.* **Os três primeiros vieram do livro, da revisão do Mizuki na v0.176, e o da Extensão é dele na v0.273 ("ver alguém usando ou estudando — alguém ensinando serve também"):** *"E os requisitos ficam" (v0.267), "é algo definido de forma narrativa, não tem problema e segue a obra" (v0.268), e "o mesmo requisito narrativo de antes" (v0.272).*
+**Quatro aptidões pedem uma coisa que não está em nenhum dos seis formatos:** *a `Cesta Oca de Vime` pede ser Encarnado, ou ser treinado em `História`; o `Domínio Simples` pede ter visto um sendo usado, ou ter aprendido com alguém; a `Pétala`, desde a v0.272, pede ser Descendente, ou ter aprendido com alguém de um clã; e a `Extensão de Domínio`, desde a v0.273, pede ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém.* **Não é gate:** *nenhum dos quatro trava nível, refino ou marco de quem teria acesso pela conta — ele diz de onde a técnica veio.* **Os três primeiros vieram do livro, da revisão do Mizuki na v0.176, e o da Extensão é dele na v0.273 ("ver alguém usando ou estudando — alguém ensinando serve também"):** *"E os requisitos ficam" (v0.267), "é algo definido de forma narrativa, não tem problema e segue a obra" (v0.268), e "o mesmo requisito narrativo de antes" (v0.272).*
 
 > **Para ele passar no filtro de mesa, a ficha anota a resposta:** *de quem você aprendeu, ou onde viu.* **O mestre que pega a ficha depois lê o que está escrito, e não decide de novo.** *O da Cesta já mora na ficha — a Origem e a perícia estão nela.*
 
@@ -630,7 +630,7 @@ O eixo que separa as quatro não é força — é **quanta liberdade você tem e
 > **Você faz o símbolo e uma esfera se fecha em volta de você. Enquanto você o segurar, o Acerto de uma Expansão não te alcança, e as suas duas mãos ficam presas nele. Levanta com uma Reação quando uma Expansão abre, ou com uma Ação Bônus no seu turno.**
 > **Ela cai pelos golpes em você, e não pela Expansão:** *cada golpe que te acerta pede o teste do `Carregar` — um Teste de Resistência de Espírito contra a CD de quem te feriu —, as falhas se acumulam, e com metade da sua Essência em falhas (no mínimo 1) a esfera se desfaz e a Expansão te alcança na hora, com um Acerto a mais: o do começo do turno do dono continua vindo.*
 > **Erguer custa a sua maior Classe em PE, toda vez que ela sobe; de pé, ela não custa nada.**
-> *Requisito: ser Reencarnado, ou ser treinado em `História`.*
+> *Requisito: ser Encarnado, ou ser treinado em `História`.*
 
 > ***Reescrita na v0.267, com as decisões do Mizuki na rodada 2 da revisão dos anti-domínio.*** *Até a v0.266 ela cobrava o turno inteiro ("você não faz mais nada") e não quebrava nunca. A obra mostra outra coisa: o símbolo prende as mãos, quem segura continua lutando, e ela racha com os golpes no dono (cap. 266).* **O preço passou a ser as mãos e a queda; o PE continuou zero até a v0.272, quando erguer passou a custar a maior Classe.** *A conta está em `sistema/01-pesquisa/anti-dominios/conta-cesta-oca.py`, e ela reproduz os números publicados antes de medir — inclusive a tabela abaixo, que sai dela.*
 
@@ -1317,7 +1317,7 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 | **\+ o dano na arma do refino `10`, com o `4d6`** | **`17,55`** | **`114%`** |
 | o mesmo, com arma `d12` | `18,45` | `120%` |
 
-**Na v0.151 essa linha era folga — a condição ficava *"a um `d12` de estourar a própria banda"*.** *Com o `4d6` ela deixa de ser folga:* **o soco sozinho já põe o `Incapacitado` fora da `Leve`, e é a exclusão que o segura.** *A peça 19 §2.4 tem a tabela inteira, e as três âncoras `critico_*` do `conferir-dano.py` guardam a linha no dono.*
+**Na v0.151 essa linha era folga — a condição ficava *"a um `d12` de estourar a própria banda"*.** *Com o `4d6` ela deixa de ser folga:* **o soco sozinho já põe a `Guarda Aberta` fora da `Leve`, e é a exclusão que o segura.** *A peça 19 §2.4 tem a tabela inteira, e as três âncoras `critico_*` do `conferir-dano.py` guardam a linha no dono.*
 
 ### A fronteira desta conta
 
@@ -1497,7 +1497,7 @@ E os dois **correm em sentidos opostos**: a vantagem é auto-regulada e dá pouc
 | 1 | **Cobrir-se de energia** | grátis no refino 1 | proteção `1/3 + 1`, e a RD da Reação `1,5 ×` |
 | 2 | **Canalizar energia** | grátis no refino 1 | **nada** — vive no orçamento do Fundamento |
 | 3 | **Projetar energia** | — | o dano, entre 8% e 12% da Rotina |
-| 4 | **Cesta Oca de Vime** | Classe Passiva 1, **sem gate** — *pede ser Reencarnado, ou treinado em `História`* | **nada** — de pé ela não custa PE: o preço são as mãos presas, a queda e erguer |
+| 4 | **Cesta Oca de Vime** | Classe Passiva 1, **sem gate** — *pede ser Encarnado, ou treinado em `História`* | **nada** — de pé ela não custa PE: o preço são as mãos presas, a queda e erguer |
 | 5 | **Domínio Simples** | Classe Passiva 2 · refino 5, ou refino 4 com o voto do iniciante | o raio: `1,5 m + refino ÷ 2` |
 | 6 | **Pétala** | Classe Passiva 2 · refino 4, nível 10 — *pede ser Descendente, ou ter aprendido com alguém de um clã* | **nada** — o que ela para sai da Essência contra a do dono |
 | 7 | **Extensão de Domínio** | Classe Passiva 3 · refino 7, nível 18 — *pede ter visto uma sendo usada, ou ter estudado, ou aprendido com alguém; o Corpo Amaldiçoado não compra* | a duração: `refino` rodadas |

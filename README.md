@@ -2,7 +2,7 @@
 
 **O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.331** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.332** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 
 ## Livro reconstruído — candidata revisada em 4 de outubro de 2026
@@ -12,6 +12,7 @@ A reconstrução editorial está concluída para revisão do autor e preserva o 
 - [PDF, manuscritos e instruções](sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/LEIA-ME.md)
 - [ZIP completo](sistema/05-material/livro/planejamento-editorial/entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip)
 - [Revisão final e limites da validação](sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/REVISAO-FINAL.md)
+- [Plano da migração para as peças](sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md): começou na v0.332, pelos nomes
 
 As imagens de conferência e os antigos pacotes de transferência permanecem no ambiente local. As fontes, os PDFs, o pacote final e os registros de revisão são versionados.
 

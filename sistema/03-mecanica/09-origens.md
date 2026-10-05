@@ -101,7 +101,7 @@ A técnica veio no sangue, com nome, com histórico e com gente que sabe usá-la
 
 ---
 
-### Reencarnado
+### Encarnado
 
 **Você já foi outra pessoa, e o corpo em que você está não nasceu seu.**
 
@@ -109,7 +109,7 @@ Alguém te selou, te guardou e te trouxe de volta — ou você aceitou ser guard
 
 *Na obra:* o **Kashimo**, feiticeiro de quatrocentos anos atrás que aceitou virar objeto amaldiçoado e encarnar num corpo que o Kenjaku preparou, com a condição de poder enfrentar o Sukuna.
 
-> **A diferença para Receptáculo é a que o mangá faz:** Receptáculo é **simbiose** — os dois estão lá. Reencarnado é **sobrescrita** — sobrou um.
+> **A diferença para Receptáculo é a que o mangá faz:** Receptáculo é **simbiose** — os dois estão lá. Encarnado é **sobrescrita** — sobrou um.
 
 | | |
 |---|---|
@@ -143,7 +143,7 @@ Meio humano, meio maldição, e as duas metades são de verdade. Nem todo Feto �
 
 **Você tem energia amaldiçoada e não tem técnica inata.** É mais comum do que a ficção faz parecer, e não é defeito: é outro caminho.
 
-Sem Técnica **se soma a uma das cinco acima**. Você continua sendo Latente, Receptáculo, Descendente, Reencarnado ou Feto — com a marca de que a técnica não veio junto. Um **Descendente Sem Técnica** é o caso da Miwa: nome de peso, nenhuma técnica de clã.
+Sem Técnica **se soma a uma das cinco acima**. Você continua sendo Latente, Receptáculo, Descendente, Encarnado ou Feto — com a marca de que a técnica não veio junto. Um **Descendente Sem Técnica** é o caso da Miwa: nome de peso, nenhuma técnica de clã.
 
 O poder vem de dois lugares:
 
@@ -289,7 +289,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 | Latente | Fundamento | **sim** |
 | Receptáculo | Fundamento | **sim** |
 | Descendente | Fundamento | **sim** |
-| Reencarnado | Fundamento | **sim** |
+| Encarnado | Fundamento | **sim** |
 | Feto | Fundamento | **sim** |
 | *qualquer uma* **+ Sem Técnica** | a semente, e o Fundamento em cima | **sim** — peça 25, na v0.168 |
 | Corpo Amaldiçoado | Técnica Marcial | **sim** — peça 20, na v0.122 |

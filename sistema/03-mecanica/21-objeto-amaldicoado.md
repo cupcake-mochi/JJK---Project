@@ -4,7 +4,7 @@
 
 *Fechada na v0.132, com o `conferir-objeto.py` em cima dela. Ela é peça de vocabulário: não cria número, não cria moeda e não muda ficha nenhuma que já rode. O que ela cria é **uma coisa nomeada** — a atração —, e é dela que sai a última vaga de `Desliga` da peça 13.*
 
-Ela existe por uma dívida que atravessou oitenta e duas versões. A peça 13 §8 tem uma vaga de `Desliga` no Reencarnado esperando por ela desde a v0.49. A peça 16 §9 fecha declarando que ela é outra peça. E a definição dela morava emprestada no `ESTADO-ATUAL`, na tabela do que não existe — que é o próprio arquivo dizendo que aquilo ali era aluguel.
+Ela existe por uma dívida que atravessou oitenta e duas versões. A peça 13 §8 tem uma vaga de `Desliga` no Encarnado esperando por ela desde a v0.49. A peça 16 §9 fecha declarando que ela é outra peça. E a definição dela morava emprestada no `ESTADO-ATUAL`, na tabela do que não existe — que é o próprio arquivo dizendo que aquilo ali era aluguel.
 
 ---
 
@@ -106,21 +106,21 @@ E os três já são Origem neste sistema, escritos anos antes de esta peça exis
 |---|---|---|---|
 | resto de feiticeiro antigo, em pedaço | **quase ninguém** — o objeto escolhe, e quem não serve morre | os dois ficam no mesmo corpo | **Receptáculo** |
 | ventre feito de propósito | **qualquer um**, mesmo quem não tem talento nenhum | meio gente, meio maldição, e as duas metades são de verdade | **Feto** |
-| resto de feiticeiro antigo, inteiro, num corpo preparado de antemão | um corpo que alguém preparou para receber | sobrou um | **Reencarnado** |
+| resto de feiticeiro antigo, inteiro, num corpo preparado de antemão | um corpo que alguém preparou para receber | sobrou um | **Encarnado** |
 
-> **A diferença entre a primeira e a terceira é a que o material faz, e a peça 9 já a escrevia:** Receptáculo é **simbiose** — os dois estão lá. Reencarnado é **sobrescrita** — sobrou um.
+> **A diferença entre a primeira e a terceira é a que o material faz, e a peça 9 já a escrevia:** Receptáculo é **simbiose** — os dois estão lá. Encarnado é **sobrescrita** — sobrou um.
 >
 > **E a do meio é a que ninguém tinha ligado.** O Feto tem um `Destranca` chamado **`Guardado`**, e o texto dele é *"você foi objeto antes de ser pessoa"*. **O Legado está escrito desde a v0.39 e a peça que explica o que ele quer dizer é esta.**
 
-**Nenhuma das três muda com esta peça.** As três rodam pelo Fundamento hoje, e a v0.50 já tinha medido isso — *"Receptáculo e Reencarnado já rodam"* foi exatamente o motivo de esta peça ficar por último na fila. **O que elas ganham aqui é a explicação, não a mecânica.**
+**Nenhuma das três muda com esta peça.** As três rodam pelo Fundamento hoje, e a v0.50 já tinha medido isso — *"Receptáculo e Encarnado já rodam"* foi exatamente o motivo de esta peça ficar por último na fila. **O que elas ganham aqui é a explicação, não a mecânica.**
 
-> **⚠ E a fila dizia DUAS Origens, não três.** *Tanto a fila da v0.50 quanto a peça 13 §8 falam de Receptáculo e Reencarnado.* **O Feto nunca entrou na conta, e ele é o único dos três em que engolir o objeto é o que produziu a pessoa** — os outros dois engoliram depois de já existir. *Achado ao ler a fonte para escrever esta peça.*
+> **⚠ E a fila dizia DUAS Origens, não três.** *Tanto a fila da v0.50 quanto a peça 13 §8 falam de Receptáculo e Encarnado.* **O Feto nunca entrou na conta, e ele é o único dos três em que engolir o objeto é o que produziu a pessoa** — os outros dois engoliram depois de já existir. *Achado ao ler a fonte para escrever esta peça.*
 
 ## 6. O que ele destrava
 
 | destrava | como |
 |---|---|
-| **1 vaga de `Desliga`** | a do Reencarnado, na peça 13 §8 — a última das sete. *Ela fechou aqui em v0.132; na v0.176 a casa foi reaproveitada para outro alvo, e a atração ficou sem Legado — **e na v0.179 isso virou decisão fechada**, não fila* |
+| **1 vaga de `Desliga`** | a do Encarnado, na peça 13 §8 — a última das sete. *Ela fechou aqui em v0.132; na v0.176 a casa foi reaproveitada para outro alvo, e a atração ficou sem Legado — **e na v0.179 isso virou decisão fechada**, não fila* |
 | **rota de Origem** | **nenhuma.** As três já rodam pelo Fundamento |
 | **peça de regra** | **nenhuma.** Ele não é economia nova |
 
@@ -153,7 +153,7 @@ O `conferir-objeto.py` roda **doze checagens**, e **nenhum valor fica escrito de
 | 7 | todo Legado citado no §6 bate de **formato** e de **Origem** com a peça 13 | **peça 13** | mudar o formato de um deles acende |
 | 8 | a atração é declarada aqui e em nenhuma outra peça | a pasta | uma segunda dona acende |
 | 9 | o `Desliga` do §6 aponta para a atração **nos dois documentos** | **peça 13** | fazer as duas peças discordarem acende |
-| 10 | a peça 13 não diz mais que a vaga do Reencarnado espera esta peça | **peça 13** | voltar a frase velha acende |
+| 10 | a peça 13 não diz mais que a vaga do Encarnado espera esta peça | **peça 13** | voltar a frase velha acende |
 | 11 | todo termo em crase desta peça tem destino — definido aqui ou vivo noutra peça | a pasta | ponteiro pendurado acende |
 | 12 | a peça 16 aponta para esta peça pelo número, e não a anuncia como pendente | **peça 16** | deixar `está sendo escrito` acende |
 

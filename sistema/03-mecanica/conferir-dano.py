@@ -19,6 +19,12 @@ import os
 import re
 import sys
 
+# Migração, passo 2: as peças usam o nome novo, e o livro v0.331 e o .docx ficam
+# congelados com o antigo. O que vem deles passa pelo renomes.py antes de comparar.
+sys.dont_write_bytecode = True
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import renomes
+
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(AQUI))
 ERROS = []
@@ -122,7 +128,7 @@ ANCORAS = {
     'ponto_arma': (P14, r'0,33'),
     'fundo': (P14, r'fundo\D{0,30}\b5\b|\b5\b\D{0,20}em duas'),
     'evitado': (DTRI, r'dano evitado `1` pra `1`'),
-    # v0.151: o Incapacitado deixou de ser um numero escrito aqui dentro e passou
+    # v0.151: a Guarda Aberta deixou de ser um numero escrito aqui dentro e passou
     # a ser derivado, entao as pecas que sustentam a derivacao viraram ancora.
     'nat20': (P01, r'20 natural numa rolagem de acerto é crítico'),
     'critico_escopo': (P01, r'Dobra só os dados do que rolou o acerto'),
@@ -229,7 +235,7 @@ if _m:
     DADO_DO_SOCO = (1 + _faces) / 2
     print(f'  [x] o dado do soco foi lido do dono: d{_faces}, medio {DADO_DO_SOCO:.2f}')
 else:
-    erro('1: nao achei o teto do dado do soco na peca 14 — a regua do Incapacitado '
+    erro('1: nao achei o teto do dado do soco na peca 14 — a regua da Guarda Aberta '
          'depende dele, e sem ele ela roda com o valor de formato deste arquivo')
 
 
@@ -319,7 +325,7 @@ def acoes(alvo, quantas):
     return alvo * (quantas / CHEFE_ACOES)
 
 
-# v0.151: o Incapacitado. O critico NAO cria acerto — ele troca um golpe normal
+# v0.151: a Guarda Aberta. O critico NAO cria acerto — ele troca um golpe normal
 # por um critico nas vezes em que o golpe ja ia acertar, e o 20 natural ja
 # entregava isso em 5% delas. Entao o ganho e' (acerto - nat20) x dados dobrados,
 # e nao os dados soltos.
@@ -361,7 +367,7 @@ def condicoes(alvo):
         ('Amedrontado', 'Maior', d + metros(9.0)),
         ('Enfeitiçado', 'Maior', acoes(alvo, 1.0)),
         ('Atordoado', 'Maior', acoes(alvo, 1.0) + acoes(alvo, 0.5)),
-        ('Incapacitado', 'Maior', CRITICO),
+        ('Guarda Aberta', 'Maior', CRITICO),
     ]
 
 
@@ -374,7 +380,7 @@ CALC = {n: (t, v) for n, t, v in condicoes(CHEFE)}
 # numero dela e' lido, que e' a parte que decide o nivel.
 _pub = {}
 for _l in TXT.split('\n'):
-    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéÇ]+)`\*\*\s*\|\s*`([\d,]+)`\s*\|'
+    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéÇ]+(?: [A-Za-zçãíéÇ]+)*)`\*\*\s*\|\s*`([\d,]+)`\s*\|'
                   r'\s*`([\d,]+)`[^|]*\|\s*`(\d+)`\s*\|\s*`([\d,]+)×`\s*\|'
                   r'\s*`(Leve|Média|Pesada)`\s*\|', _l)
     if _m:
@@ -494,7 +500,7 @@ else:
               f'{_pub_r:.2f}.')
 
 
-# --- 2.1 (v0.151): QUAL ROLAGEM o Incapacitado alcanca. -----------------------
+# --- 2.1 (v0.151): QUAL ROLAGEM a Guarda Aberta alcanca. -----------------------
 # A regua acima entra com o dado da ARMA, e isso so' esta certo se a condicao
 # alcancar so' o ataque corpo a corpo. Este sistema tem TRES rolagens de ataque, e
 # o feitico de Toque sai a 1,5 m e e' de CONJURACAO — entao "corpo a corpo" sem a
@@ -504,9 +510,9 @@ else:
 # turno vale 48,60 de dano por rodada — acima do teto da Pesada, vindo de uma
 # condicao Leve. Achado do Mizuki na v0.151.
 _lin = [l for l in TXT.split('\n')
-        if re.match(r'\|\s*\*\*`Incapacitado`\*\*\s*\|\s*`Leve`\s*\|', l)]
+        if re.match(r'\|\s*\*\*`Guarda Aberta`\*\*\s*\|\s*`Leve`\s*\|', l)]
 if len(_lin) != 1:
-    erro(f'2: achei {len(_lin)} linha(s) do `Incapacitado` na tabela de mesa do §3.1 '
+    erro(f'2: achei {len(_lin)} linha(s) da `Guarda Aberta` na tabela de mesa do §3.1 '
          'e esperava 1 — ela mudou de forma e esta sub-checagem parou de conferir')
 else:
     _l = _lin[0]
@@ -530,11 +536,11 @@ else:
         _faltou.append('ela parou de excluir o ATAQUE A DISTANCIA')
     if _faltou:
         for _f in _faltou:
-            erro('2: a linha do `Incapacitado` no §3.1 — ' + _f + '. A regua do §2.2 '
+            erro('2: a linha da `Guarda Aberta` no §3.1 — ' + _f + '. A regua do §2.2 '
                  'entra com o dado da ARMA, e ela so fecha se a condicao alcancar '
                  'so o ataque corpo a corpo')
     else:
-        print('  [x] o `Incapacitado` do §3.1 alcanca so o corpo a corpo, e nomeia '
+        print('  [x] a `Guarda Aberta` do §3.1 alcanca so o corpo a corpo, e nomeia '
               'as duas rolagens que ficam de fora')
 
 
@@ -656,7 +662,7 @@ else:
         _cab = [c.text.strip() for c in _t.rows[0].cells]
         if len(_cab) == 2 and _cab[0].startswith('Nível '):
             _tier = _cab[0].split(' ', 1)[1].strip()
-            _man[_tier] = [r.cells[0].text.strip() for r in _t.rows[1:]]
+            _man[_tier] = [renomes.traduz_nome(r.cells[0].text.strip()) for r in _t.rows[1:]]
     if sorted(_man) != ['Leve', 'Média', 'Pesada']:
         erro(f'4: o manual publica as tabelas de nivel {sorted(_man)} e eu esperava '
              'Leve, Média e Pesada — ou o manual mudou, ou a extracao parou de achar')
@@ -770,7 +776,7 @@ bloco('5. NENHUMA SEM NIVEL — e o nivel e um dos tres')
 
 _mesa = {}
 for _l in TXT.split('\n'):
-    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéÇ]+)`\*\*\s*\|\s*`(Leve|Média|Pesada)`\s*\|', _l)
+    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéÇ]+(?: [A-Za-zçãíéÇ]+)*)`\*\*\s*\|\s*`(Leve|Média|Pesada)`\s*\|', _l)
     if _m:
         _mesa[_m.group(1)] = _m.group(2)
 
