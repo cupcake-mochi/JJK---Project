@@ -360,7 +360,7 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 | `Estigma` | o que faz | de onde veio |
 |---|---|---|
 | **`Anátema`** | **Ação Padrão, tocando uma barreira de feitiço:** TR Físico contra a CD de quem a criou; no sucesso, uma passagem de `1,5 m` até o fim do turno. **E uma vez por cena, como Reação, quando um feitiço vai te afetar:** TR Físico contra a CD do conjurador; no sucesso, aquela aplicação não te afeta. *Os outros alvos continuam afetados. Não tira energia de quem ela acerta (v0.335)* | a Lança Invertida do Céu |
-| **`Cisão`** | o dano dela **é dano de Alma e tira só Integridade, e não vida** (peça 24). *Os dados do próprio ataque acompanham; não se escolhe golpe a golpe (v0.335, EQ27)* | a Katana de Alma Partida |
+| **`Cisão`** | o golpe dela **atravessa o corpo — tira Integridade, e não tira vida**: o dano é dano de Alma (peça 24). *Os dados do próprio ataque acompanham; não se escolhe golpe a golpe (v0.335, EQ27)* | a Katana de Alma Partida |
 | **`Insondável`** | com uma ponta presa sob a roupa, o alcance corpo a corpo dela é **`18 m` nos ataques do seu turno**. *Fora do turno, o normal; não aumenta oportunidade (v0.335)* | a Corrente de Mil Milhas |
 | **`Contrapeso`** | **você ignora o requisito de Força dela** — *arma, Revestimento ou escudo (v0.335)* | a Nuvem Divertida, que qualquer um empunha |
 | **`Passagem`** | *roupa ou Traje:* **Ação Bônus:** teleporte com o seu equipamento até `9 m`, para onde você vê. Uma vez por descanso curto | a candidata, v0.335 |
