@@ -168,7 +168,7 @@ Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`
 
 ## Fichas pessoal e maldita
 
-**Atualização de 05/10/2026: a ficha já acompanha a candidata.** No repositório `Ficha---RPG-JJK`, o `manual.txt` sai do `LIVRO-COMPLETO.md` desde 04/10/2026 (B33 e B36 do `PENDENCIAS.md` de lá): seis Caminhos, dezoito Trilhas, Talento no lugar de Passiva e as regras novas de Força, carga e XP. As cartas de Habilidades da seção 7 trazem o texto do livro (B37), com a Execução Preparada (D42). A ficha da invocação ficou para depois, por decisão do Mizuki. O que falta lá é montar no Sheets, que é passo do Mizuki. O retrato de 03/10 abaixo fica como histórico.
+**Atualização de 05/10/2026: a ficha já acompanha a candidata.** No repositório `Ficha---RPG-JJK`, o "manual.txt" sai do "LIVRO-COMPLETO.md" desde 04/10/2026 (B33 e B36 do "PENDENCIAS.md" de lá): seis Caminhos, dezoito Trilhas, Talento no lugar de Passiva e as regras novas de Força, carga e XP. As cartas de Habilidades da seção 7 trazem o texto do livro (B37), com a Execução Preparada (D42). A ficha da invocação ficou para depois, por decisão do Mizuki. O que falta lá é montar no Sheets, que é passo do Mizuki. O retrato de 03/10 abaixo fica como histórico.
 
 **O estado delas precisa ser consultado no ambiente onde elas estão sendo feitas.** São trabalho paralelo do Claude, com conversa e pacote próprios. Este plano não supõe que a reconstrução do livro as atualizou, e não supõe o contrário de nada que não foi visto.
 
