@@ -245,6 +245,20 @@ Depois da passada, o inventário fica assim:
 | `so_editorial` | 7 |
 | `nao_confirmada` (interface, editorial, preservação e esclarecimento que não citam a v0.331) | 427 |
 
+## Passo 4, feito em 05/10/2026 (v0.335)
+
+**O inventário não cobria tudo o que a candidata mudou em equipamento.** *Ele lê os `ALTERACOES.json` das unidades do lote final, e várias regras entraram nas rodadas anteriores do mesmo capítulo (`equipamento/lote-02-r2` a `lote-08` e as duas `revisao-carga`), aprovadas com a candidata e sem registro no lote final.* **Por isso o passo 4 comparou o capítulo inteiro com as peças, e não só os 20 registros de equipamento.** *Revisão por modelo, não humana.*
+
+**Peça 14:** *a propriedade `Leve` (19 armas) e a `Discreta` (o `Taco`); o `Volume` arma a arma, no lugar da régua das propriedades, e o do `Traje` `1` e do `Broquel`; as bestas com um virote (D, EQ25); a munição como estoque, com preço, `Volume`, recarga parcial e munição inicial; o Revólver a `¥150.000`; o benefício do `Traje` num TR e em perícias; o arrasto e o transporte em grupo; e o manejo — vestir, retirar, escudo, sacar, acesso, patente inicial.* **Duas divergências eram mais velhas que a candidata:** *a `Força 1` da `Espingarda` e do `Rifle` e a penalidade de metade do deslocamento sem a Força da arma vinham do livro desde a v0.176, e a peça 14 e a peça 19 nunca acompanharam.*
+
+**Peça 16:** *o catálogo foi o da rodada `lote-08`, refeita a pedido do Mizuki ("poderes por grau, poucos benefícios numéricos"): dez `Estigma` mudaram de regra e sete entraram.* **O preço dos sete novos, do `Anátema` e do `Quebranto` não foi medido** — *fica no §9 da peça.*
+
+**Peça 21:** *a candidata não mudou a máquina; pôs na mão do mestre a frequência, o alcance e a duração do selo, e as consequências de ingerir.*
+
+**Peça 20:** *a rota de arma segue o Equipamento restrito (R10-37, D33).*
+
+**Os validadores:** *o `conferir-equipamento.py` compara agora o `Volume` das 52 armas, a Força e o `Volume` das proteções com o capítulo de Equipamento da candidata, que passou a ser o dono desses números; o `conferir-ferramenta.py` conta dezessete `Estigma` e lê da peça quantos são de `Classe 2`; o `conferir-dano.py` cobra a penalidade nova.*
+
 ## Decisões do Mizuki de 05/10/2026, para os passos 2 e 3
 
 **1. O manual do Fundamento em `.docx` (v7) é aposentado como fonte.** Resposta dele: *"A"*. O Fundamento passa a ter um dono só, o livro. Os validadores que hoje leem o `.docx` passam a ler o livro, e o `manual/gerador` vai para o arquivo.
