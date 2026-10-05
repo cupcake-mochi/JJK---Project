@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
+  "sha256_pdf_vigente": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -66,7 +66,7 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "38c2fcaf98dd01fd1f33eb3e6fc3d70dcc6e58b2f4315a14a64af866228a60d1",
+      "sha256": "ea9f84b49694052a8a9caefdf1243ebfa5355a4530ba455f9eda44ef9f4fc0f6",
       "bytes": 17697
     },
     {
@@ -213,5 +213,14 @@
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Quinta passada de 04/10/2026 (D25 a D41): decisões do autor sobre os 18 achados restantes, ou VALIDADORES apontando para o PDF vigente.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_execucao_preparada": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Sexta passada de 05/10/2026 (D42): Execução Preparada no nível 7 da Vanguarda, por decisão do autor; nas outras unidades, VALIDADORES e MANIFESTO apontando para o PDF vigente.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 05/10/2026. Não é revisão humana."
   }
 }

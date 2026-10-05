@@ -304,7 +304,7 @@
     {
       "documento": "vanguarda",
       "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
-      "sha256_atual": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+      "sha256_atual": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
       "sha256_base": "743f954c5be1033034a71bbae0e8383bffdb82944e28341e5ee089338bb0b85b",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "caminhos/vanguarda/lote-01/VALIDADORES.json",
@@ -412,8 +412,12 @@
   "limites": "Provas por unidade conservadas como histórico; validação visual e estrutural da entrega pertence ao PDF reunido atual.",
   "fechamento_2026_10_04": {
     "fontes_com_texto_novo": 19,
-    "pdf": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
-    "conclusao": "As 23 fontes conferem com GERACAO.json do PDF atual. 19 mudaram depois de 03/10, todas registradas em revisao-interfaces/CORRECOES-APLICADAS.md (correções C01–C14, decisões D01–D41) ou, sem mudança de texto, em provas-cinco-capitulos; as 23 conferências de unidade estão aprovadas no estado atual. A publicação v0.331 continua preservada.",
-    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+    "pdf": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+    "conclusao": "As 23 fontes conferem com GERACAO.json do PDF atual. 19 mudaram depois de 03/10, todas registradas em revisao-interfaces/CORRECOES-APLICADAS.md (correções C01–C14, decisões D01–D42) ou, sem mudança de texto, em provas-cinco-capitulos; as 23 conferências de unidade estão aprovadas no estado atual. A publicação v0.331 continua preservada.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "atualizacao_2026_10_05": {
+      "motivo": "D42: Execução Preparada no nível 7 da Vanguarda, por decisão do autor. A Vanguarda já contava entre as fontes com texto novo; a contagem não muda.",
+      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 05/10/2026. Não é revisão humana."
+    }
   }
 }

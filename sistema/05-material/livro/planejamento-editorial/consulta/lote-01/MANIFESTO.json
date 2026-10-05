@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
+  "sha256_pdf_vigente": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -61,7 +61,7 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "159594e4dcc17ed50163f9a882c94737784d6866422c1336dd68f072adb9ecde",
+      "sha256": "6e783055d4c00823573cafe59140f4ec8d479f5b9a807197129850e58bc3f361",
       "bytes": 6465
     },
     {
@@ -136,8 +136,8 @@
     },
     {
       "arquivo": "evidencias/FONTES-CANDIDATAS.json",
-      "sha256": "541055a84f5826c985076e0f88909bd78946340469bfe4631d16e36962d11775",
-      "bytes": 19603
+      "sha256": "2b20ef9eaea6b3df2c12a1e36d260ac3dd2c2cda2589a395f05cfd379c1fcc36",
+      "bytes": 20615
     },
     {
       "arquivo": "evidencias/GLOSSARIO.json",
@@ -332,5 +332,15 @@
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Quinta passada de 04/10/2026 (D25 a D41): decisões do autor sobre os 18 achados restantes, ou VALIDADORES apontando para o PDF vigente.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_execucao_preparada": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json",
+      "evidencias/FONTES-CANDIDATAS.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Sexta passada de 05/10/2026 (D42): Execução Preparada no nível 7 da Vanguarda, por decisão do autor; nas outras unidades, VALIDADORES e MANIFESTO apontando para o PDF vigente.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 05/10/2026. Não é revisão humana."
   }
 }

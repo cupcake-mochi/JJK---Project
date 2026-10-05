@@ -440,6 +440,18 @@ G5-05. O teto de 4 × Classe das especiais segue o Fundamento (FU-27): some os d
 
 G4-11. O passo 5 da criação, a seção Equipamento e valores e a Ficha pronta pedem a situação, o TR e as perícias do Traje. Na ficha de repertório, a coluna de posição virou "Posição e recursos" e entrou a linha "Traje — situação, TR e perícias". Para a ficha continuar numa página, o traço da linha "Vestido, empunhado ou guardado" ficou mais curto.
 
+## Sexta passada: o nível 7 da Vanguarda
+
+### D42 · caminhos/vanguarda/lote-01/VANGUARDA.md
+
+Em 05/10/2026, o Mizuki notou que a Vanguarda era o único Caminho com uma habilidade só no nível 7. A Não Pega da peça 06 (o Evasion do 5e: num efeito de TR para metade, sucesso anula e falha vira metade) não tinha chegado à candidata. Ele achou a Não Pega forte e pediu uma ideia nova. Rerrolar TR também ficou de fora, porque repetiria a Não Cede do nível 15. O texto é dele: "Execução Preparada: 1× por Sequência, ao Concluir depois de duas ou mais Conduções, imponha −1 a um TR adicional da Conclusão."
+
+- Tabela de progressão: "Ataque Extra" virou "Ataque Extra e Execução Preparada".
+- Acrescentado, depois do Ataque Extra: **Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**.
+- "Acertadas" vem da Conclusão Dupla do nível 30, que usa a mesma condição. O nome passou na triagem do `conferir-nomes.py` (LIVRE).
+- Muda na mesa: a partir do nível 7, uma vez por Sequência, a Conclusão que vem depois de duas ou mais Conduções acertadas impõe −1 a mais um TR, além do que ela já impõe.
+- Unidade: `VG-REV-03` e `VG-REV-04` no `ALTERACOES` da Vanguarda. A peça 06 ainda diz Não Pega; a migração está em `../migracao-pos-candidata/PLANO.md`.
+
 ## Validador editorial
 
 | Situação | Achados do `conferir_editorial.py` nos manuscritos alterados |

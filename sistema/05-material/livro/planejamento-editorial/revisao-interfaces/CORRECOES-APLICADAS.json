@@ -1022,6 +1022,25 @@
       ],
       "sha256_antes": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
       "sha256_depois": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115"
+    },
+    {
+      "id": "D42",
+      "achados": "nenhum (pedido do autor)",
+      "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+      "decisao": "Mizuki, 05/10/2026, texto dele: \"Execução Preparada: 1× por Sequência, ao Concluir depois de duas ou mais Conduções, imponha −1 a um TR adicional da Conclusão.\"",
+      "trocas": [
+        {
+          "antes": "| 7 | Ataque Extra |",
+          "depois": "| 7 | Ataque Extra e Execução Preparada |"
+        },
+        {
+          "antes": "(não havia)",
+          "depois": "**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**."
+        }
+      ],
+      "sha256_antes": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+      "sha256_depois": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+      "muda_na_mesa": "a Vanguarda de nível 7 ou mais ganha, uma vez por Sequência, −1 num segundo TR da Conclusão quando ela vem depois de duas ou mais Conduções acertadas."
     }
   ]
 }

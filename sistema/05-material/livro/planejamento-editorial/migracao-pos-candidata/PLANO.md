@@ -144,6 +144,16 @@ Os 18 achados restantes foram decididos (`../revisao-interfaces/CORRECOES-APLICA
 
 Os demais (DR35, INC-26, R11-59, AB24 e R23-32) são texto e ficha, sem regra nova.
 
+### Sexta passada de 05/10/2026
+
+D42 (`../revisao-interfaces/CORRECOES-APLICADAS.md`): o nível 7 da Vanguarda ganhou a **Execução Preparada**, no lugar da Não Pega que a peça 06 previa e que não tinha chegado à candidata.
+
+| Decisão | Na candidata | Onde conferir na v0.331 |
+|---|---|---|
+| Vanguarda 7: Ataque Extra e Execução Preparada (1× por Sequência, Conclusão depois de duas ou mais Conduções acertadas impõe −1 a um TR adicional) | VG-REV-03, VG-REV-04 | peça 06 (tabela do nível 7 e o texto da Não Pega) e `livro/manual/35-caminhos-e-trilhas.md` |
+
+**O preço ainda não foi medido.** Na peça 06, o degrau do nível 7 da Vanguarda soma 2,10 de dano por rodada: 0,92 do ataque extra e 1,18 da Não Pega. A Execução Preparada troca a segunda parcela. Ao migrar, meça a parcela dela pela mesma régua e confira se o degrau continua abaixo do Guia, do Emanador e do Evocador (2,36).
+
 ## Ordem proposta
 
 Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`, `pac7.py`, `v7.py` e o `conferir-repositorio.py`, com `PULADA=0` conferido) e uma entrada no CHANGELOG. Um passo por versão, para a bateria apontar o culpado quando quebrar.

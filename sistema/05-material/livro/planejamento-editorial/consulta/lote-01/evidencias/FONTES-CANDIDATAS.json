@@ -18,7 +18,7 @@
     "sistema/05-material/livro/planejamento-editorial/abertura/lote-01/ABERTURA-E-CRIACAO.md": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
     "sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/EQUIPAMENTO.md": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
     "sistema/05-material/livro/planejamento-editorial/caminhos/bastiao/lote-01/BASTIAO.md": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
-    "sistema/05-material/livro/planejamento-editorial/caminhos/vanguarda/lote-01/VANGUARDA.md": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+    "sistema/05-material/livro/planejamento-editorial/caminhos/vanguarda/lote-01/VANGUARDA.md": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
     "sistema/05-material/livro/planejamento-editorial/caminhos/guia/lote-01/GUIA.md": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
     "sistema/05-material/livro/planejamento-editorial/caminhos/emanador/lote-01/EMANADOR.md": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa",
     "sistema/05-material/livro/planejamento-editorial/caminhos/evocador/lote-01/EVOCADOR.md": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
@@ -215,5 +215,17 @@
     "resultado": "A Consulta não reproduz nenhum desses trechos: glossário e índice só definem o termo e remetem ao dono. A ficha de repertório ganhou a linha do Traje e a coluna \"Posição e recursos\" (D41), nesta mesma unidade.",
     "registro": "../../revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "cotejo_2026_10_05_execucao_preparada": {
+    "fontes": {
+      "sistema/05-material/livro/planejamento-editorial/caminhos/vanguarda/lote-01/VANGUARDA.md": {
+        "sha256_anterior": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+        "sha256_cotejado": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90"
+      }
+    },
+    "metodo": "Diff da Vanguarda entre o hash conferido e o atual, seguido de busca na Consulta (glossário, fichas e índice) pelos termos do trecho novo: Execução Preparada, Sequência, Condução, Conclusão e TR adicional.",
+    "resultado": "A Consulta não reproduz o trecho: nenhum desses termos aparece no glossário, nas fichas ou no índice, que remete o Caminho ao capítulo dono. Nada muda nesta unidade além deste registro.",
+    "registro": "../../revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 05/10/2026. Não é revisão humana."
   }
 }

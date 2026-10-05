@@ -1,9 +1,9 @@
 {
-  "data_utc": "2026-10-04T17:44:14.607970+00:00",
+  "data_utc": "2026-10-05T03:06:29.425946+00:00",
   "escopo": "Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15, hashes do texto/PDF e índice crítico do manifesto. Não relê regras, não executa testes novamente e não altera documentos de outros donos.",
   "sha256_ordem": "02ad73793f3db9805ba980c68926d3a8ebb175ce1d2f685b94087e24c91c3daf",
   "fontes": 23,
-  "decisoes_registradas": 822,
+  "decisoes_registradas": 824,
   "donos_com_registro_contavel": 23,
   "checks_registrados": 4082,
   "unidades": [
@@ -3718,13 +3718,13 @@
     {
       "id": "vanguarda",
       "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
-      "sha256_texto": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
-      "sha256_pdf": "ce6d6fde09636fadd0af443f7d32f3aabe7dfd139cfd92977540bae433d8f174",
+      "sha256_texto": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+      "sha256_pdf": "24b46d2db797a1e2fbf600952b816a8e06eae2dea2bc52264e8eaf16bc39849e",
       "paginas": 20,
       "validadores_presentes": 15,
       "conferencia_checks": 159,
       "conferencia_ok": true,
-      "decisoes": 17,
+      "decisoes": 19,
       "resumo_decisoes": [
         {
           "id": "VG-01",
@@ -3809,6 +3809,16 @@
         {
           "id": "VG-REV-02",
           "tema": "Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.\n\n**Acesso.** Armas de f",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "VG-REV-03",
+          "tema": "| 7 | Ataque Extra e Execução Preparada |",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "VG-REV-04",
+          "tema": "**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, impo",
           "tipo": "decisão do autor"
         }
       ],

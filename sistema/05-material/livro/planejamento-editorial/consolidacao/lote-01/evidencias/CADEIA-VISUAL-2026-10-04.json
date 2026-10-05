@@ -55,11 +55,20 @@
    "sem_cobertura": []
   },
   {
-   "versao": "atual",
+   "versao": "3039616",
    "rodada": "quinta passada (D25–D41)",
    "paginas": 382,
    "herdadas_por_corpo_identico": 323,
    "cobertas_pela_inspecao_da_rodada": 59,
+   "listadas_mas_corpo_identico": [],
+   "sem_cobertura": []
+  },
+  {
+   "versao": "atual",
+   "rodada": "sexta passada (D42)",
+   "paginas": 382,
+   "herdadas_por_corpo_identico": 371,
+   "cobertas_pela_inspecao_da_rodada": 11,
    "listadas_mas_corpo_identico": [],
    "sem_cobertura": []
   }
@@ -496,9 +505,9 @@
    "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
   },
   "87": {
-   "origem": "primeira passada (C01–C14)",
+   "origem": "sexta passada (D42)",
    "pagina_origem": 87,
-   "pdf_origem": "89f9057b2dec370f1cb057ad7e80574ad0576fc61d54ecb357bc8ba36f5eb9e6"
+   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
   },
   "88": {
    "origem": "V14 completa de 03/10",
@@ -511,54 +520,54 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "90": {
-   "origem": "V14 completa de 03/10",
+   "origem": "sexta passada (D42)",
    "pagina_origem": 90,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
   },
   "91": {
-   "origem": "V14 completa de 03/10",
+   "origem": "sexta passada (D42)",
    "pagina_origem": 91,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
   },
   "92": {
-   "origem": "V14 completa de 03/10",
+   "origem": "sexta passada (D42)",
    "pagina_origem": 92,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
   },
   "93": {
-   "origem": "V14 completa de 03/10",
+   "origem": "sexta passada (D42)",
    "pagina_origem": 93,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
   },
   "94": {
-   "origem": "V14 completa de 03/10",
+   "origem": "sexta passada (D42)",
    "pagina_origem": 94,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
   },
   "95": {
-   "origem": "V14 completa de 03/10",
+   "origem": "sexta passada (D42)",
    "pagina_origem": 95,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
   },
   "96": {
-   "origem": "terceira passada (D05–D17)",
+   "origem": "sexta passada (D42)",
    "pagina_origem": 96,
-   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
   },
   "97": {
-   "origem": "terceira passada (D05–D17)",
+   "origem": "sexta passada (D42)",
    "pagina_origem": 97,
-   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
   },
   "98": {
-   "origem": "terceira passada (D05–D17)",
+   "origem": "sexta passada (D42)",
    "pagina_origem": 98,
-   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
   },
   "99": {
-   "origem": "D04",
+   "origem": "sexta passada (D42)",
    "pagina_origem": 99,
-   "pdf_origem": "00a207c962c27cdc13c74ef6dff70acea2803f8081a9a8d17b254a2d39b74eda"
+   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
   },
   "100": {
    "origem": "V14 completa de 03/10",

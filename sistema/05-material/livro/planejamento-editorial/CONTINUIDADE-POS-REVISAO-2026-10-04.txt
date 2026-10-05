@@ -1,5 +1,10 @@
 Continuidade pós-revisão — conferência de 04/10/2026
 
+ATUALIZAÇÃO DE 05/10/2026: SEXTA PASSADA — VANGUARDA 7
+O PR #2 foi mesclado na main (eac4442). O Mizuki notou que a Vanguarda era o único Caminho com uma habilidade só no nível 7 e escreveu a segunda: Execução Preparada (D42). Uma vez por Sequência, ao Concluir depois de duas ou mais Conduções acertadas, imponha −1 a um TR adicional da Conclusão. Registro em revisao-interfaces/CORRECOES-APLICADAS.md e, para a peça 06, em migracao-pos-candidata/PLANO.md, que avisa que o preço dela ainda não foi medido.
+PDF vigente: 382 páginas, SHA-256 c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea; 11 páginas mudaram (87 e 90 a 99), todas abertas; cadeia visual sem lacuna. ZIP refeito com o mesmo nome: SHA-256 bbc7000c770217ca7f0840b51edc22312b9f92d8727717a485c52d2e48712b72, 1391 arquivos, PDF reproduzido idêntico.
+Branch desta passada: claude/vigilant-curie-2j79zw.
+
 ATUALIZAÇÃO, MESMO DIA: QUINTA PASSADA — REVISÃO DE INTERFACES FECHADA
 O Mizuki decidiu os 18 achados restantes, aceitando a sugestão em todos (D25 a D41; na 9, a permissão do mestre pode conceder o acesso). Onze capítulos mudaram; antes, depois, motivo e efeito na mesa em revisao-interfaces/CORRECOES-APLICADAS.md, e o que precisa chegar às peças em migracao-pos-candidata/PLANO.md.
 PDF vigente: 382 páginas, SHA-256 4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1; 59 páginas mudaram, todas abertas; cadeia visual sem lacuna. ZIP refeito com o mesmo nome: SHA-256 bda1337af3ef6c965c5da8ac0981a1b424c7737be4c01c63c223abdb8171db54, 1389 arquivos, PDF reproduzido idêntico.
