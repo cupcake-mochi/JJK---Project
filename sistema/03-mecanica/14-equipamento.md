@@ -169,7 +169,7 @@ Aplicado aqui: a **lista é fechada e igual para todo mestre**; o que é do joga
 
 > **Ressalva de fonte:** isso saiu de wiki de fã, que pela régua do projeto vale como **índice e não autoridade**. Confirmar no mangá antes de virar texto de mesa.
 
-**Decisão do Mizuki: entra um ofício, o `Alfaiate`** — e ele é a opção do jogador que quer fabricar em vez de encomendar, engatando na mecânica de criação que vem depois. Passou na triagem como `LIVRE`, junto de `Alfaiataria`, `Tecelagem` e `Vestuario`. **`Costura` morreu:** é feitiço pronto **e** Passiva no manual, colisão de nome inteiro nas duas.
+**Decisão do Mizuki: entra um ofício, o `Alfaiate`** — e ele é a opção do jogador que quer fabricar em vez de encomendar, engatando na mecânica de criação que vem depois. Passou na triagem como `LIVRE`, junto de `Alfaiataria`, `Tecelagem` e `Vestuario`. **`Costura` morreu:** é feitiço pronto **e** Talento no manual, colisão de nome inteiro nas duas.
 
 **Aplicado na mesma versão, e a lista do que ele tocou fica registrada:** `README`, peça 4 (três vezes), peça 6, peça 7 (o título do §5, a entrada nova, a proporção do §7 e a tabela do §8), peça 8, peça 13, `ESTADO-ATUAL` (duas vezes), `conferir-pericias.py`, `conferir-ficha.py`, `conferir-nomes.py`, `05-material/gerador-ficha/dados.js` e `05-material/gerador-ficha/ficha.js` — e os dois `.docx` da ficha, regerados.
 
@@ -283,7 +283,7 @@ A conta apontava para ela: `RD fixa` é a única forma que fica na mesma escala 
 
 **Fica registrado porque a conta e o critério discordaram, e o critério ganhou.** A conta mede valor por rodada; ela não mede quanto uma subtração a mais custa em tempo de mesa. Esse é o eixo em que a RD perde, e não existe validador que o meça.
 
-*E as duas dívidas que ela criaria eram reais de todo jeito:* a Reação de cobrir-se já dá RD de `1,5 × refino` e passaria qualquer escudo em todo nível, o que exigiria regra de empilhamento; e RD sem tipo é mais larga que a Passiva Escama, que é paga — a mesma tensão que matou a Casca.
+*E as duas dívidas que ela criaria eram reais de todo jeito:* a Reação de cobrir-se já dá RD de `1,5 × refino` e passaria qualquer escudo em todo nível, o que exigiria regra de empilhamento; e RD sem tipo é mais larga que o Talento Escama, que é paga — a mesma tensão que matou a Casca.
 
 ### Então: proteção, com requisito de Força e teto de Destreza
 
@@ -511,7 +511,7 @@ O que sobra fora da conta continua sendo o buraco registrado no §4: **6% a 9% d
 | | |
 |---|---|
 | **o nome está ocupado, e não é substring** | `Silencioso` é **Melhoria no manual**: *"Sem gesto, sem palavra. **Usar não revela a sua posição**"* Mesmo efeito, mesmo nome, uma camada acima |
-| **a regra da qual ela isentaria não existe** | zero ocorrências de barulho quebrando furtividade nas treze peças. **É a Passiva Casca de novo** — preço por um termo que só existe dentro dele mesmo, lição nº 6 |
+| **a regra da qual ela isentaria não existe** | zero ocorrências de barulho quebrando furtividade nas treze peças. **É o Talento Casca de novo** — preço por um termo que só existe dentro dele mesmo, lição nº 6 |
 | **o eixo está errado** | o §5.0.2 diz que *"propriedade não é escolha: é o que a arma é"*. Então **toda arma sem `Silenciosa` faz barulho** — e isso põe o tantō e a soqueira fazendo mais barulho que um arco longo |
 | **e os arcos não precisavam** | o buraco era da minha proposta, não do catálogo. No fundo `2/4` os dois fecham exatos |
 

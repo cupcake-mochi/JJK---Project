@@ -14,7 +14,7 @@ O validador desta peça é o **`conferir-legados.py`**, e ele lê tudo que confe
 
 *Registrado na v0.24, e ele não é quantidade.*
 
-Hoje são catorze Legados, dois por Origem, e a faixa entre eles vai de **Irmãos** — você sente quando outro Feto está por perto, zero em rolagem — a **Não Sou Gente**, que era imunidade a veneno, a doença e ao que ataca corpo humano. *O `Não Sou Gente` saiu do catálogo nesta mesma peça, e a seção 9.9 tem o porquê: **ele morreu inteiro**, porque a lista `Limites` do manual proíbe Passiva paga de dar imunidade completa.*
+Hoje são catorze Legados, dois por Origem, e a faixa entre eles vai de **Irmãos** — você sente quando outro Feto está por perto, zero em rolagem — a **Não Sou Gente**, que era imunidade a veneno, a doença e ao que ataca corpo humano. *O `Não Sou Gente` saiu do catálogo nesta mesma peça, e a seção 9.9 tem o porquê: **ele morreu inteiro**, porque a lista `Limites` do manual proíbe Talento pago de dar imunidade completa.*
 
 A trava escrita na peça 9 é *"não produz dano e não escala com nível"*. **Ela não pega imunidade**, e vale entender por quê, porque o motivo decide o formato da régua.
 
@@ -24,11 +24,11 @@ O eixo que falta é um terceiro, e o sistema nunca precisou dele antes: **quanto
 
 E tem uma frase no manual que ninguém tinha cruzado com este catálogo:
 
-> **IMUNIDADE — Nenhuma Melhoria fura imunidade. Quem quiser isso monta uma Passiva de Regra Própria com o mestre, com limite de uma vez por cena.**
+> **IMUNIDADE — Nenhuma Melhoria fura imunidade. Quem quiser isso monta um Talento de Regra Própria com o mestre, com limite de uma vez por cena.**
 
-Ou seja: **imunidade é absoluta neste sistema**, e o preço de furar uma é uma Passiva feita à mão, negociada, limitada a uma vez por cena. O Legado que concede imunidade entrega **de graça, na criação, para uma Origem inteira**, aquilo cujo antídoto o manual cobra caro e ainda raciona.
+Ou seja: **imunidade é absoluta neste sistema**, e o preço de furar uma é um Talento feito à mão, negociado, limitado a uma vez por cena. O Legado que concede imunidade entrega **de graça, na criação, para uma Origem inteira**, aquilo cujo antídoto o manual cobra caro e ainda raciona.
 
-*Isso é a lição nº 6 acontecendo pelo lado contrário.* Lá, a Passiva Casca cobrava por *"dano físico"* e a expressão não existia no manual. Aqui a palavra existe, tem regra dura pendurada nela, e o catálogo a usou sem olhar.
+*Isso é a lição nº 6 acontecendo pelo lado contrário.* Lá, o Talento Casca cobrava por *"dano físico"* e a expressão não existia no manual. Aqui a palavra existe, tem regra dura pendurada nela, e o catálogo a usou sem olhar.
 
 ## 2. A máquina que já existe passa nos catorze
 
@@ -47,7 +47,7 @@ As duas réguas de magnitude que o projeto já tem são escadas, e as duas têm 
 | régua | os degraus | o que os separa |
 |---|---|---|
 | Restrições (peça 3) | Leve · Média | quanto cada uma **devolve** de turno |
-| Passivas e aptidões (peça 11) | Classe 1 · 2 · 3 | são **formatos** comprados com um marco |
+| Talentos e aptidões (peça 11) | Categoria de Efeito 1 · 2 · 3 | são **formatos** comprados com um marco |
 
 **Legado não tem o que comprar.** Um na criação, nunca outro, igual para todo mundo — a peça 9 fecha isso com todas as letras, e o motivo está escrito: é a terceira economia de poder do sistema, então ela nasce com o teto mínimo.
 
@@ -132,15 +132,15 @@ Este é o formato que a trava velha não alcançava. A primeira versão desta se
 
 | degrau | o que é | quem já cobra por ele | dá para furar? |
 |---|---|---|---|
-| **resistência** | o dano daquele tipo cai pela metade, antes de qualquer outra conta | a Passiva **Escama** — custa um espaço de feitiço conhecido | **sim.** *"Feitiços daquele tema ignoram resistência ao seu tipo de dano"* |
-| **imunidade** | absoluto | nada no Fundamento concede | **não.** Só Passiva de Regra Própria, com o mestre, 1×/cena |
+| **resistência** | o dano daquele tipo cai pela metade, antes de qualquer outra conta | o Talento **Escama** — custa um espaço de feitiço conhecido | **sim.** *"Feitiços daquele tema ignoram resistência ao seu tipo de dano"* |
+| **imunidade** | absoluto | nada no Fundamento concede | **não.** Só Talento de Regra Própria, com o mestre, 1×/cena |
 
 E o manual ainda fecha o degrau de baixo por dentro: *"Ela é sempre presa a um tipo — **não existe resistência a tudo**."*
 
 Com isso a trava se escreve sozinha, e ela é mais simples do que a que eu tinha proposto:
 
 > **Um Desliga apaga o que ninguém comprou, e enfraquece o que alguém comprou. Nunca imunidade.**
-> **Dano não, de jeito nenhum** — imunidade é absoluta e o antídoto dela é uma Passiva feita à mão; resistência a `Escama` já cobra por um espaço de feitiço. *Este é o único absoluto da trava.*
+> **Dano não, de jeito nenhum** — imunidade é absoluta e o antídoto dela é um Talento feito à mão; resistência a `Escama` já cobra por um espaço de feitiço. *Este é o único absoluto da trava.*
 > **Condição pode, com relógio.** *Desde a v0.104 cada condição tem **nível** — `Leve`, `Média` ou `Pesada` —, e o nível é o preço dela no manual.* **Apagar de graça o que alguém paga continua proibido; apagar uma vez, com relógio, é o enfraquecer.**
 > **E o degrau do relógio sai do nível da condição**, não do gosto de quem escreve: `Leve` → **por cena** · `Média` → **por dia** · `Pesada` → **por descanso longo**.
 > **O que ninguém comprou continua sendo o território largo dele:** o que o mundo cobra de você fora do feitiço, sem relógio. Uma coisa nomeada, uma só. **Vale o que chega em você e vale o que você teria de fazer** — *o `Ferro Velho` apaga os degraus de exaustão e escreve no próprio texto que "cansaço não é uma coisa que acontece com você"; o `Sangue que Não é Sangue` apaga precisar comer, dormir e respirar; o `Conhecimento Antigo` apaga o teste que você faria.* **A trava proíbe apagar coisa com PREÇO, e não coisa com direção.**
@@ -1038,7 +1038,7 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 **A semente — escolha uma destas, obrigatoriamente, e escolher esta linha é escolher ela junto.** *As três são **de identidade**, no molde das quatro configurações do Corpo Amaldiçoado: elas dizem de que matéria a sua técnica é feita, e param aí. Nenhuma tem relógio, e nenhuma pede tarefa.*
 
-| a semente | Classe Passiva | o que ela desenha |
+| a semente | Categoria de Efeito | o que ela desenha |
 |---|---|---|
 | **`Domínio Simples`** | 2 | a Nova Sombra — você fecha um pedaço de chão, e o que entra ali é problema seu |
 | **`Energia Reversa`** | 3 | a rota da Shoko — você reverte o que já quebrou, e não conserta o que está inteiro |
@@ -1101,16 +1101,16 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 > ~~**Não Sou Gente** — veneno, doença e o que ataca corpo humano não te pegam. Cura que funciona em humano também não.~~
 
-**A metade que é dano não vira Passiva nenhuma, e a v0.188 mediu por quê.** *Da v0.39 até lá esta seção prometia uma `Passiva de Regra Própria` com o nome dele, pagando espaço de feitiço.* **A regra que a promessa citava é sobre atacar, e a regra que decide é outra.**
+**A metade que é dano não vira Talento nenhum, e a v0.188 mediu por quê.** *Da v0.39 até lá esta seção prometia um `Talento de Regra Própria` com o nome dele, pagando espaço de feitiço.* **A regra que a promessa citava é sobre atacar, e a regra que decide é outra.**
 
 | onde | o que ela diz | de que lado ela é |
 |---|---|---|
-| a caixa `IMUNIDADE` do manual | *"nenhuma Melhoria fura imunidade — quem quiser isso monta uma Passiva de Regra Própria, com limite de uma vez por cena"* | **ataque.** `Melhoria` é peça de feitiço, e *furar* é atravessar a imunidade de outro |
-| a lista `Limites` do manual e do capítulo 9 do livro | *"imunidade completa a um tipo de dano ou condição"* — **o que nenhuma Passiva paga pode fazer** | **defesa, e é o teto que vale aqui** |
+| a caixa `IMUNIDADE` do manual | *"nenhuma Melhoria fura imunidade — quem quiser isso monta um Talento de Regra Própria, com limite de uma vez por cena"* | **ataque.** `Melhoria` é peça de feitiço, e *furar* é atravessar a imunidade de outro |
+| a lista `Limites` do manual e do capítulo 9 do livro | *"imunidade completa a um tipo de dano ou condição"* — **o que nenhum Talento pago pode fazer** | **defesa, e é o teto que vale aqui** |
 
 **O *"isso"* da caixa é *furar*, e não *ter*.** *Lido como a v0.39 leu, o manual passa a contradizer a própria lista de `Limites` três seções antes; lido como ataque, ele fecha consigo mesmo.* **E o `Não Sou Gente` era imunidade a três coisas de uma vez** — veneno, doença e o que ataca corpo humano.
 
-***Decisão do Mizuki na v0.188: a decisão da v0.39 cai, e nada é escrito no lugar dela.*** **Quem quiser isso monta uma `Passiva Própria` com o mestre, e o `Limites` é o teto** — que é o que o manual já respondia antes de alguém prometer a entrada. *A cláusula de cura que não funciona ia junto como preço embutido, e ela sai junto.*
+***Decisão do Mizuki na v0.188: a decisão da v0.39 cai, e nada é escrito no lugar dela.*** **Quem quiser isso monta um `Talento Próprio` com o mestre, e o `Limites` é o teto** — que é o que o manual já respondia antes de alguém prometer a entrada. *A cláusula de cura que não funciona ia junto como preço embutido, e ela sai junto.*
 
 > **⚠ Ela ficou cento e quarenta e nove versões como decisão tomada e não aplicada, e ela nunca podia ser aplicada.** *A régua que reprovava o Legado — "nenhum `Desliga` encosta em dano" — tem uma irmã do outro lado da parede, e ninguém leu as duas juntas.* **É a lição nº 6:** *antes de aceitar um destino, vá ler a regra pendurada nele.* **A sub-checagem `6.2` guarda essa relação agora.**
 
@@ -1153,7 +1153,7 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 **As sete listas estão escritas, e o que falta para a metade 2 fechar é UMA coisa:** a vaga de Desliga do Corpo Amaldiçoado, que depende de peça nova nomear coisa — a Origem destravou na v0.122 e o alvo não. *O validador dos Legados existe desde a v0.39; cinco vagas fecharam na v0.104 e a sexta na v0.132.*
 
-> **Eram duas até a v0.188.** *A outra era o destino que a v0.39 tinha dado ao `Não Sou Gente`, e ela saiu da lista por reprovação e não por escrita:* **a lista `Limites` do manual não deixa Passiva paga dar imunidade completa**, e a caixa que a decisão citava fala de furar imunidade e não de tê-la. *A seção 9.9 tem a medida.*
+> **Eram duas até a v0.188.** *A outra era o destino que a v0.39 tinha dado ao `Não Sou Gente`, e ela saiu da lista por reprovação e não por escrita:* **a lista `Limites` do manual não deixa Talento pago dar imunidade completa**, e a caixa que a decisão citava fala de furar imunidade e não de tê-la. *A seção 9.9 tem a medida.*
 
 **O alvo livre acabou.** O *Ferro Velho* gastou os degraus de exaustão, que era o último da enumeração da seção 8 — **daqui para a frente, todo Desliga novo depende de peça nova criar coisa nomeada.** *E foi exatamente assim que a vaga do Encarnado fechou: a peça 21 nomeou a **atração**, e o `Conhecido` desligava ela. **O `Conhecimento Antigo`, que tomou a casa na v0.176, não desliga coisa de peça nenhuma — ele desliga uma rolagem**, e é por isso que a pergunta de formato ficou anotada.*
 
@@ -1175,7 +1175,7 @@ O catálogo, e as decisões de sabor que vêm com ele:
   > **⚠ E as outras DUAS foram escritas na v0.104, quatro versões depois de alguém achar que elas esperavam.** *Elas esperavam `ferramenta amaldiçoada`, que virou a peça 16 na v0.59 — a do Descendente virou o `Cabo` e a da Restrição Celestial virou o `Assinado`.* **A peça 16 §9 registrava que destravava as duas, e o achado é da v0.100.** *A prosa embaixo de cada tabela continuou anunciando a espera até a v0.188 — as tabelas estavam certas desde a v0.104, e a checagem 6 lê a tabela.*
 - ~~**O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.~~ **Fechado na v0.168, e pelo lado contrário.** *A peça 25 §3.1 diz que aquela rota escreve Fundamento: ela tem técnica, só não tem técnica **inata**.* **O `Inédito` funciona nela, e a linha que o fecharia não existe mais como dívida.** *O ponteiro para "a checagem 8 do validador" também caiu — ela sempre conferiu outra coisa.*
 - ~~**A peça 9 precisa de três consertos que esta peça gerou:** a frase *"Sem Técnica não dá um segundo Legado"*, o §5 que ainda diz que Corpo Amaldiçoado não tem energia, e o `Alcance Impossível`, que é técnica e sai do catálogo.~~ **Os três foram aplicados na v0.39.** *Lá a Origem Sem Técnica diz hoje que ela **não amplia a conta de Legados** — é uma entrada de `Destranca` e ocupa uma das duas vagas —, o Corpo Amaldiçoado diz que **tem energia amaldiçoada**, e o `Alcance Impossível` não aparece em nenhuma lista daquela peça.*
-- ~~**Não Sou Gente sai do dano**~~ — **resolvido na v0.38: o Legado deixou de existir.** *A v0.39 mandou o nome para uma Passiva paga, e a v0.188 reprovou aquele destino — o `Limites` do manual não deixa Passiva paga dar imunidade completa.* **A seção 9.9 tem o porquê.**
+- ~~**Não Sou Gente sai do dano**~~ — **resolvido na v0.38: o Legado deixou de existir.** *A v0.39 mandou o nome para um Talento pago, e a v0.188 reprovou aquele destino — o `Limites` do manual não deixa Talento pago dar imunidade completa.* **A seção 9.9 tem o porquê.**
 - ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto.** O gatilho virou *o jogador apontar alguém e dizer que é irmão*, que é o que a irmandade faz no material: ela é definida por **quem te fez**, e alcança gente que não é da mesma fabricação.
 - ~~**Instinto Bruto está metade morto** e a régua não conserta isso: *"use Sentir Energia no lugar de Percepção"* é trocar Essência por Essência desde a v0.16.~~ **Consertado na v0.39, nesta mesma peça.** *A metade morta saiu: a seção 9 publica ele como "role Sentir Energia no lugar de **Intuição**", que é Inteligência — e aí é troca de verdade, de até +4 para quem conjura.*
 - ~~**O validador dos Legados**, que sai junto com a peça e não sete versões depois.~~ **Saiu junto: o `conferir-legados.py` entrou na v0.39, na mesma versão desta peça.** *A tabela abaixo é a especificação que ele foi escrito para cumprir, e fica como registro do que foi pedido.* As checagens que esta régua pede:

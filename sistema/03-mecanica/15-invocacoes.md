@@ -664,11 +664,11 @@ Com a vida em pool (Q2) e `h` em meia Rotina (Q3), **um efeito de área que caus
 
 *Levantado pelo Mizuki:* **uma invocação tem uma camada que diz o que ela é e outra que diz o que ela faz.** A primeira é voar, carregar, soltar o raio; a segunda é o ataque e a ação no turno — *"como numa ficha, mas muito mais fraco"*.
 
-**`Passiva` estava ocupado**, e mais quatro caíram com ele na triagem:
+**`Passiva` estava ocupado** (o nome virou `Talento` na v0.333), e mais quatro caíram com ele na triagem:
 
 | | |
 |---|---|
-| **OCUPADO** | `Passiva` (peça do Fundamento) · `Natureza` (já é perícia) · `Forma` (é Feitiço pronto **e** peça do Fundamento) · `Molde` (Tema) · `Instinto` (Passiva **e** Tema) |
+| **OCUPADO** | `Passiva` (peça do Fundamento; virou `Talento` na v0.333) · `Natureza` (já é perícia) · `Forma` (é Feitiço pronto **e** peça do Fundamento) · `Molde` (Tema) · `Instinto` (Talento **e** Tema) |
 | **LIVRE** | `Traço` · `Comando` · `Índole` · `Feitio` · `Dom` · `Sina` · `Manobra` · `Investida` · `Ato` |
 
 > **`Traço` é o que ela é. `Comando` é o que ela faz.**

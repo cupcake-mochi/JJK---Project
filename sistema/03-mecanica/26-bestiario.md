@@ -8,7 +8,7 @@
 
 **Ela é máquina, e não catálogo.** *Decisão do Mizuki na v0.161: o Bestiário sai como máquina mais maldições prontas, e não como recolhimento puro.* **As prontas moram no livro do Bestiário e no gerador de inimigo**, e a checagem 9.5 do `conferir-bestiario.py` refaz as seis.
 
-> **A ficha de inimigo é própria, por tabela de nível.** ***Decisão do Mizuki, 28/09/2026:*** *"defesa, acerto, cd, vida podem sim ser aumentados ou diminuídos baseados nos atributos, mas ainda é uma ficha própria semelhante a DnD".* **O inimigo continua tendo refino, Passiva, aptidão e às vezes técnica** — muita coisa que ele enfrenta na obra é feiticeiro, e feiticeiro se monta com as mesmas peças. *O que ele não tem é Caminho, Trilha e poço de PE, e o §6 diz por quê.*
+> **A ficha de inimigo é própria, por tabela de nível.** ***Decisão do Mizuki, 28/09/2026:*** *"defesa, acerto, cd, vida podem sim ser aumentados ou diminuídos baseados nos atributos, mas ainda é uma ficha própria semelhante a DnD".* **O inimigo continua tendo refino, Talento, aptidão e às vezes técnica** — muita coisa que ele enfrenta na obra é feiticeiro, e feiticeiro se monta com as mesmas peças. *O que ele não tem é Caminho, Trilha e poço de PE, e o §6 diz por quê.*
 
 **E a rota que só o inimigo tem é ser maldição.** *O jogador não escolhe isso, em nenhuma das nove rotas de Origem da peça 9.*
 
@@ -45,7 +45,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | tamanho | o alcance do golpe e onde o corpo cabe — não cobra nada | o §3.3 |
 | papel | o que ele ganha num eixo ele paga na vida | o §3.4 |
 | **atributos** | os cinco, no orçamento da peça 2 | peça 2 §3 e o §3.2 |
-| **características** | Passivas, aptidões e técnica, pelo §6 | peça 11, o mesmo catálogo do jogador |
+| **características** | Talentos, aptidões e técnica, pelo §6 | peça 11, o mesmo catálogo do jogador |
 | **pacto** | opcional, e o teto do permanente é da Essência dele | peça 22 §3 |
 | **resistência, vulnerabilidade e imunidade** | cobrança e isenções na vida, pelo §6.3 | peça 19 §4 |
 
@@ -400,12 +400,12 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ## 6. O que ele carrega além dos números — e se paga na vida
 
-***Decisão do Mizuki:*** **o inimigo se monta com as mesmas peças que um personagem, menos o Caminho.** *Na obra a maior parte do que se enfrenta é feiticeiro, e feiticeiro tem técnica, tem aptidão e tem Passiva.*
+***Decisão do Mizuki:*** **o inimigo se monta com as mesmas peças que um personagem, menos o Caminho.** *Na obra a maior parte do que se enfrenta é feiticeiro, e feiticeiro tem técnica, tem aptidão e tem Talento.*
 
 | ele tem | de onde sai |
 |---|---|
 | refino | a curva do `meio a meio`, peça 11 §3 |
-| aptidões e Passivas | o catálogo da peça 11, o mesmo que o jogador usa, e uma por escolha de marco, pelo §3.2 |
+| aptidões e Talentos | o catálogo da peça 11, o mesmo que o jogador usa, e uma por escolha de marco, pelo §3.2 |
 | técnica, com Fundamento | o manual, quando ele é feiticeiro ou maldição de técnica |
 | Legado, ferramenta, objeto | as peças 13, 16 e 21, quando a ficção pedir |
 
@@ -546,7 +546,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | o que ele carrega | onde ela se paga |
 |---|---|
 | **técnica e feitiço** | o **orçamento de feitiço** de uma ação dele, e o Fundamento faz o resto |
-| **aptidão e Passiva com custo por rodada** | a **cota de dano por rodada**, nas rodadas em que ela está ligada |
+| **aptidão e Talento com custo por rodada** | a **cota de dano por rodada**, nas rodadas em que ela está ligada |
 | **o que muda o encontro** — `Intervenção`, `Recarga`, cura de Reação, resistência, Expansão | **a vida**, dividida pelo multiplicador |
 
 **A régua é a do `Guia do Mestre`, e o passo 13 escreve ela entre parênteses:** *as características de um monstro "não mudam realmente as estatísticas" dele — elas mexem na vida efetiva, no dano efetivo ou na CA efetiva.*

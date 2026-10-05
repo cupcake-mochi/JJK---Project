@@ -15,7 +15,7 @@ O manual v7.41 é um subsistema fechado e validado. Ele cobre:
 
 | Área | O que o Fundamento entrega |
 |---|---|
-| Identidade do personagem | Técnica inata escrita na criação: Descrição, Regra, Famílias, Selo, Passivas |
+| Identidade do personagem | Técnica inata escrita na criação: Descrição, Regra, Famílias, Selo, Talentos |
 | Poder ativo | Feitiços montados por orçamento de pontos, com Melhorias e Restrições |
 | Pico de poder | Liberação Máxima (nível 10) e Técnica Máxima (nível 17) |
 | Economia de recurso | PE, com custo amarrado ao tamanho do feitiço |
@@ -89,7 +89,7 @@ Ordenados por carga: quanto o resto do sistema depende deles. Os quatro primeiro
 
 **3.8 · Descanso e recuperação.** "Descanso longo" devolve Integridade e é citado várias vezes. Nunca foi definido.
 
-**3.9 · Progressão fora de feitiço.** A tabela de progressão dá Escala, feitiço conhecido e Passiva. Não dá mais nada. Se existir atributo e perícia, eles precisam de uma linha nessa tabela.
+**3.9 · Progressão fora de feitiço.** A tabela de progressão dá Escala, feitiço conhecido e Talento. Não dá mais nada. Se existir atributo e perícia, eles precisam de uma linha nessa tabela.
 
 ### Carga baixa — pode esperar sem risco
 

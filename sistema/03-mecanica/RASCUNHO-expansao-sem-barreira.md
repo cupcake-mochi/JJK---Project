@@ -176,10 +176,10 @@
 > | rota | chega no nível | abre mão de |
 > |---|---|---|
 > | Especialista, trocando um Refino por `Corpo` no 10 ou no 22 | **`22`** | `2` aptidões até o 26 |
-> | Meio a meio, com um dos marcos de fora em `Corpo` | **`26`** | nada, se aquele marco já era `Corpo`; `1` feitiço e `1` Passiva grátis, se era `Leque` |
+> | Meio a meio, com um dos marcos de fora em `Corpo` | **`26`** | nada, se aquele marco já era `Corpo`; `1` feitiço e `1` Talento grátis, se era `Leque` |
 > | Generalista | **nunca** | *termina com refino `8`* |
 >
-> **E fica escrito o preço de não ter gate de nível:** *no nível `22` o degrau não cabe na ficha com cinco Passivas de Classe `3` — faltam `2` espaços.* **Quem quiser o degrau no `22` monta a ficha com menos Passiva:** *com três Passivas de Classe `2` sobram `7` feitiços, e sem Passiva paga sobram `13`.* **No `26` cabe em todas.**
+> **E fica escrito o preço de não ter gate de nível:** *no nível `22` o degrau não cabe na ficha com cinco Talentos de Categoria de Efeito `3` — faltam `2` espaços.* **Quem quiser o degrau no `22` monta a ficha com menos Talento:** *com três Talentos de Categoria de Efeito `2` sobram `7` feitiços, e sem Talento pago sobram `13`.* **No `26` cabe em todas.**
 >
 > **O que esta rodada NÃO decidiu, e fica para as próximas:** *o nome do degrau (`Aberta` colide em sentido com a Incompleta), o raio, o choque, o contrajogo e a duração, quem não tem energia, e a porta de saída do Rescaldo.*
 >
@@ -245,7 +245,7 @@
 >
 > **A `5` mantém a escada: cada degrau come perto de um quarto da lista quando abre.** *A `4` seria o degrau mais barato dos três.*
 >
-> **E o teste de carga da peça 18 — cinco Passivas de Classe 3, que ocupam `15` espaços — decide o nível sozinho:**
+> **E o teste de carga da peça 18 — cinco Talentos de Categoria de Efeito 3, que ocupam `15` espaços — decide o nível sozinho:**
 >
 > | nível | espaços | degrau a `4` | degrau a `5` |
 > |---|---|---|---|
@@ -288,7 +288,7 @@
 > | meio a meio | nível `26` | já tem `Corpo` no caminho | **nível `26`** |
 > | generalista | nunca | — | **nunca** |
 >
-> **O gate sozinho abre no `22`, e no `22` o degrau não cabe na ficha mais carregada** — *a rota de Refino também tem as cinco Passivas pagas, pela peça 11, então o teste de carga da peça 18 é uma ficha que existe.*
+> **O gate sozinho abre no `22`, e no `22` o degrau não cabe na ficha mais carregada** — *a rota de Refino também tem os cinco Talentos pagos, pela peça 11, então o teste de carga da peça 18 é uma ficha que existe.*
 >
 > ***Decisão dele: a especialização é em `Ocultismo`.*** *"n tem feitiçaria no sistema? damn... bota ocultismo então."*
 >
@@ -305,16 +305,16 @@
 >
 > ### Quanto sobra para feitiço montado
 >
-> *Passiva paga come espaço igual à Classe dela, no máximo cinco; feitiço de Classe `0` não ocupa espaço e vem por fora — `5` no nível `22` e `5` no `26`.*
+> *Talento pago come espaço igual à Categoria de Efeito dele, no máximo cinco; feitiço de Classe `0` não ocupa espaço e vem por fora — `5` no nível `22` e `5` no `26`.*
 >
-> | as Passivas pagas | nível `22`, com a Completa | **nível `22`, com o degrau** | nível `26`, com a Completa | **nível `26`, com o degrau** |
+> | os Talentos pagos | nível `22`, com a Completa | **nível `22`, com o degrau** | nível `26`, com a Completa | **nível `26`, com o degrau** |
 > |---|---|---|---|---|
 > | nenhuma | `15` | **`13`** | `18` | **`16`** |
 > | `2` de Classe `3` | `9` | **`7`** | `12` | **`10`** |
 > | `5`: Classe `3`, `3`, `2`, `2`, `1` | `4` | **`2`** | `7` | **`5`** |
 > | `5` de Classe `3` — a carga máxima | `0` | **falta `2`** | `3` | **`1`** |
 >
-> **No nível `22` o degrau cabe em toda ficha que não esteja no teto de Passivas.** *O que ele não cabe é na carga máxima, que já estava com zero feitiço montado só com a Completa.* **No `26` cabe em todas.**
+> **No nível `22` o degrau cabe em toda ficha que não esteja no teto de Talentos.** *O que ele não cabe é na carga máxima, que já estava com zero feitiço montado só com a Completa.* **No `26` cabe em todas.**
 >
 > *Conta na parte quatro de `manual/matematica/custo-sem-barreira.py`.*
 >

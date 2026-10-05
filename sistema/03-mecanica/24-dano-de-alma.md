@@ -192,7 +192,7 @@
 
 *O motivo do veto era que o corpo acaba antes em `três das quatro` fichas, o que torna a entrega inútil para a maioria dos alvos.* **Com a Essência dentro, a alma é a barra menor em `33,3%` da grade contra `33,6%` antes** — a fração não se moveu. *O que mudou foi **quem** está nela: antes era quem investiu Constituição, por acidente; agora é quem não investiu Essência, de propósito.*
 
-> **A entrega continua valendo `0,00` para dois terços dos alvos, e é isso que a reprova** — a mesma família que matou o `recuperar ferimento` e a Passiva `Casca`. **O bilhete da peça 5 foi corrigido para dizer isso**, em vez de continuar prometendo uma reabertura que a conta não sustenta.
+> **A entrega continua valendo `0,00` para dois terços dos alvos, e é isso que a reprova** — a mesma família que matou o `recuperar ferimento` e o Talento `Casca`. **O bilhete da peça 5 foi corrigido para dizer isso**, em vez de continuar prometendo uma reabertura que a conta não sustenta.
 
 ### 6.2 ~~Os onze `Estigma` continuam sem preço uns contra os outros~~ **FECHADA na v0.152**
 

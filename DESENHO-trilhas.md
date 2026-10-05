@@ -478,7 +478,7 @@ A fatia é `5,08`, e as três batem. **O projeto converte dano evitado `1` pra `
 
 *Quem desconfiou foi o Mizuki, três vezes seguidas na mesma passada: o preço da Reação, o preço do PV temporário e o corte que eu queria fazer na fórmula dele. As três vezes a conta deu razão a ele.*
 
-> **E uma armadilha de leitura na mesma tabela do manual:** `Fluxo | 2` na lista de Passivas **não** quer dizer *"custa 2 pontos"*. **A coluna é `Classe`** — o `Fluxo` é Passiva de Classe 2 e custa dois espaços de feitiço. *Li errado e cheguei a escrever que o manual tinha duas réguas de PV temporário. Tem uma só.*
+> **E uma armadilha de leitura na mesma tabela do manual:** `Fluxo | 2` na lista de Talentos **não** quer dizer *"custa 2 pontos"*. **A coluna é `Classe`** — o `Fluxo` é Talento de Classe 2 e custa dois espaços de feitiço. *Li errado e cheguei a escrever que o manual tinha duas réguas de PV temporário. Tem uma só.*
 
 ## O que este bloco deixa em aberto
 
@@ -662,9 +662,9 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 | a postura do `Muro` | **`Alicerce`** | `LIVRE` |
 | o estado da `Brasa` | **`Fornalha`** | `LIVRE` |
 
-**Dois candidatos morreram e dois foram recusados por sentido.** `Estalo` é **feitiço pronto no manual** e `Raiz` é **Passiva** — os dois `OCUPADO`. `Emenda` fica a uma letra de `Remenda` (Melhoria) e `Postura` a uma letra de `Costura` (feitiço pronto).
+**Dois candidatos morreram e dois foram recusados por sentido.** `Estalo` é **feitiço pronto no manual** e `Raiz` é **Talento** — os dois `OCUPADO`. `Emenda` fica a uma letra de `Remenda` (Melhoria) e `Postura` a uma letra de `Costura` (feitiço pronto).
 
-> **E dois que saíram `LIVRE` eu recusei por colisão de sentido, que a triagem não pega.** `Couro` e `Calo` entram na mesma família da **`Escama`** (Passiva viva) e da **`Casca`** (morta na v0.26) — três nomes de pele endurecida fazendo trabalhos diferentes. E `Âncora` colide com a **amarra** de 18 metros da peça 15, que já é a palavra do projeto para prender uma coisa a outra.
+> **E dois que saíram `LIVRE` eu recusei por colisão de sentido, que a triagem não pega.** `Couro` e `Calo` entram na mesma família da **`Escama`** (Talento viva) e da **`Casca`** (morta na v0.26) — três nomes de pele endurecida fazendo trabalhos diferentes. E `Âncora` colide com a **amarra** de 18 metros da peça 15, que já é a palavra do projeto para prender uma coisa a outra.
 
 ---
 
@@ -906,7 +906,7 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 - ~~O `Punho` sem botão.~~ **A trava foi reescrita, por decisão do Mizuki, e ela precisa ir para o `RASCUNHO-trilhas.md` §3.6:**
 
-  > **Antes:** *"pelo menos uma das quatro entregas tem de ser Classe Passiva 2 — algo que o jogador decide usar."*
+  > **Antes:** *"pelo menos uma das quatro entregas tem de ser Categoria de Efeito 2 — algo que o jogador decide usar."*
   > **Agora:** *"pelo menos uma das quatro tem de ser algo que o jogador decide usar — uso limitado por relógio, **ou condicional que ele ativa gastando um recurso do turno**."*
 
   **O motivo:** decidir gastar a ação bônus no `Engate` é uma escolha que acontece toda rodada, e isso é mais botão do que um contador de descanso curto que dispara sozinho. *A trava nasceu contra o Champion do 5e, que é passivo **e** sem decisão nenhuma — e ela continua pegando ele.*
@@ -1124,16 +1124,16 @@ Aquele `11,50` é a linha de comparação do §2 da **peça 5**, e ela usa `1d10
 
 ### O esboço da aptidão `Energia Reversa`
 
-> **`Energia Reversa` · Classe Passiva 3 · refino 7 e nível 14**
+> **`Energia Reversa` · Categoria de Efeito 3 · refino 7 e nível 14**
 > **Ação padrão.** Gaste até `maior Classe` de PE e cure **`1d8` por PE gasto**, em você.
 
-**Cada peça sai de coisa publicada.** A peça 11 §7 mandava medir contra a Passiva `Recomposição`, que cura `5 × maior Classe` — **`35` no nível 30**. O projeto já tem câmbio de PE: *"`+1` PE por rodada `= 5,14` de dano"*, então `1` PE vale ~`5` de cura. **E o manual já cura em dado** — *"cada ponto que sobra vira `1d8`"*, que é `4,5`.
+**Cada peça sai de coisa publicada.** A peça 11 §7 mandava medir contra o Talento `Recomposição`, que cura `5 × maior Classe` — **`35` no nível 30**. O projeto já tem câmbio de PE: *"`+1` PE por rodada `= 5,14` de dano"*, então `1` PE vale ~`5` de cura. **E o manual já cura em dado** — *"cada ponto que sobra vira `1d8`"*, que é `4,5`.
 
 No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`. **Mesma altura; a diferença é que esta se repete e cobra PE.**
 
 *O gate é o mesmo da `Extensão de Domínio`, e ele casa com o material: energia reversa nasce no cérebro e não no intestino, e o difícil é sustentar dois fluxos ao mesmo tempo.* **É coisa que quase ninguém alcança — o que faz a `Sutura` dar ela no nível 2 valer o que vale.**
 
-> **✔ Ela ganhou casa na v0.78.** Está no catálogo da peça 11 §6, com Classe Passiva e os dois gates declarados, e com seis checagens no `conferir-aptidoes.py`. *O que continua pendurado é a peça 1 §5.5: se Energia Reversa limpa Sequela. Essa é da peça 19, junto da Cicatriz, e continuou aberta na v0.103.*
+> **✔ Ela ganhou casa na v0.78.** Está no catálogo da peça 11 §6, com Categoria de Efeito e os dois gates declarados, e com seis checagens no `conferir-aptidoes.py`. *O que continua pendurado é a peça 1 §5.5: se Energia Reversa limpa Sequela. Essa é da peça 19, junto da Cicatriz, e continuou aberta na v0.103.*
 
 ---
 
@@ -1288,7 +1288,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 | **19** | **`Cheia`** | rerrolar `1`, `2` e `3` nos dados de dano quando o feitiço for o único da rodada | permanente | **1,78** | *0,10* |
 | **27** | **`Transbordo`** | a metade arredonda para CIMA | permanente | **1,49** | 1,49 |
 
-> **⚠ O nível 19 se chamava `Mão Firme` e foi RENOMEADO na v0.87, por colisão viva.** *No manual, `Mão Firme` é uma **Passiva de custo `1`** — "você não perde concentração nem carga por dano de `10` ou menos" —, que não tem relação nenhuma com rerrolar dado de dano.* **Ninguém tinha conferido esse nome porque, até a v0.87, nenhuma varredura alcançava os `DESENHO-*.md`.** *Achado pelo `conferir-nomes.py` na primeira rodada depois de ele passar a ler o índice da peça 17.*
+> **⚠ O nível 19 se chamava `Mão Firme` e foi RENOMEADO na v0.87, por colisão viva.** *No manual, `Mão Firme` é um **Talento de custo `1`** — "você não perde concentração nem carga por dano de `10` ou menos" —, que não tem relação nenhuma com rerrolar dado de dano.* **Ninguém tinha conferido esse nome porque, até a v0.87, nenhuma varredura alcançava os `DESENHO-*.md`.** *Achado pelo `conferir-nomes.py` na primeira rodada depois de ele passar a ler o índice da peça 17.*
 
 > **Nível 2 — `Acelerar`.** *`2×` por cena.* Você conjura um feitiço da sua **ação padrão como ação bônus**, pagando **`Classe e meia` de PE a mais**, arredondando para cima. *Num Classe 7 são `11` de PE — o preço que a coluna `Pesada` da tabela 81 dá.*
 > Naquele turno, o outro feitiço que você lançar **não passa de `Classe 0`** — que é o que a regra de ouro nº 6 já diz.
@@ -1376,7 +1376,7 @@ No nível 30 são até `7d8 = 31,5` de cura, contra os `35` da `Recomposição`.
 
 ### A `Cheia` — a ideia é do Mizuki, e o alvo dela mudou uma vez
 
-*Ela se chamou `Mão Firme` da v0.79 à v0.86, e o nome caiu por colidir com uma Passiva do manual.*
+*Ela se chamou `Mão Firme` da v0.79 à v0.86, e o nome caiu por colidir com um Talento do manual.*
 
 **A proposta dele era vantagem na rolagem de ataque na rodada solitária.** *Ela foi medida e bateu numa parede conhecida:* `94 × 0,5 × 46%` dá **`21,59`**, que são `4,25` fatias.
 

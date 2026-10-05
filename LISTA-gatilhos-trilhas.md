@@ -26,7 +26,7 @@
 | o dia tem | **3 a 4 lutas** — três de graça, exaustão na quarta | peça 10 §4 |
 | a escada de relógios | `por cena` → `descanso curto` → `por dia` → `descanso longo` | peça 10 §5 |
 | o filtro reprova em | **spread de `3,0×`** entre a leitura mais dura e a mais generosa | peça 13 §7 |
-| o piso de taxa | **`20%`** — o teto de `-80%` de limitação | GURPS, e é onde a escada de Classe Passiva do §3.1 já parava |
+| o piso de taxa | **`20%`** — o teto de `-80%` de limitação | GURPS, e é onde a escada de Categoria de Efeito do §3.1 já parava |
 
 ---
 
@@ -56,7 +56,7 @@
 >
 > **E a taxa não é a mesma em todo nível.** Um ataque dá `50%`, dois dão `75%`, três dariam `87,5%`. **Toda entrada que use este gatilho tem de declarar contra quantos ataques ela está medida** — e a fatia mede no nível 30, onde Bastião e Vanguarda têm dois.
 
-*E o crítico reprovando não é a régua nova brigando com o projeto: a escada de Classe Passiva do §3.1 declara que a Classe 1 dispara em `~20%`, e a célula de exemplo dela é `"posicionamento — só quando você critica"`, que dispara em `5%`. **A célula já estava fora da própria escada.***
+*E o crítico reprovando não é a régua nova brigando com o projeto: a escada de Categoria de Efeito do §3.1 declara que a Classe 1 dispara em `~20%`, e a célula de exemplo dela é `"posicionamento — só quando você critica"`, que dispara em `5%`. **A célula já estava fora da própria escada.***
 
 ### B — ancorado em relógio · a escada da peça 10 §5
 

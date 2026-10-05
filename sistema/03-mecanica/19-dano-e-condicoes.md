@@ -453,9 +453,9 @@
 
 ### 5.1 Quem cita esta escala, e o que ele não pode fazer
 
-**O manual usa esta tabela e não a copia.** *Duas entradas dele compram furar cobertura: a Melhoria `Sem Cobertura` (`Leve`) e a Passiva `Afinidade` (Classe 3), e as duas nomeiam a `Parcial`.* **A checagem 7 do `conferir-manual.py` falha nas duas direções** — se o manual nomear um grau que não está aqui, e se ele repetir os bônus, que são desta seção.
+**O manual usa esta tabela e não a copia.** *Duas entradas dele compram furar cobertura: a Melhoria `Sem Cobertura` (`Leve`) e o Talento `Afinidade` (Classe 3), e as duas nomeiam a `Parcial`.* **A checagem 7 do `conferir-manual.py` falha nas duas direções** — se o manual nomear um grau que não está aqui, e se ele repetir os bônus, que são desta seção.
 
-> **⚠ Até a v0.161 as duas citavam graus que este sistema não tem.** *A Melhoria dizia `cobertura leve e meia cobertura` e a Passiva dizia `cobertura leve`.* **Rastreados nos PDFs de referência:** *`cobertura leve` é do **GURPS 4e**, onde nem grau é — lá é um `−2` de tiro —, e `meia cobertura` é o **half cover** do D&D 2014.* **Os dois apontam para obstrução parcial, que aqui é a `Parcial`, e nenhum dos dois é o degrau de `+5`.**
+> **⚠ Até a v0.161 as duas citavam graus que este sistema não tem.** *A Melhoria dizia `cobertura leve e meia cobertura` e o Talento dizia `cobertura leve`.* **Rastreados nos PDFs de referência:** *`cobertura leve` é do **GURPS 4e**, onde nem grau é — lá é um `−2` de tiro —, e `meia cobertura` é o **half cover** do D&D 2014.* **Os dois apontam para obstrução parcial, que aqui é a `Parcial`, e nenhum dos dois é o degrau de `+5`.**
 
 ### 5.2 Comprimir a escada foi medido na v0.162, e a conta reprova
 

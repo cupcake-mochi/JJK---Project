@@ -191,7 +191,7 @@ nos dois; dano por rodada, alcance e deslocamento não entram.*
   *Sem isso, "a rota Corpo está fraca" continua sem resposta — o que este parecer mostra é que as
   duas vertentes não são o jeito de consertar, e não que não haja o que consertar.*
 - **O terceiro eixo do marco, o `Leque`**, que entrou depois da tabela de três fichas. As três
-  rotas medidas aqui são as duas antigas; a rota que gasta o marco em feitiço e Passiva não foi
+  rotas medidas aqui são as duas antigas; a rota que gasta o marco em feitiço e Talento não foi
   simulada.
 - **O efeito no bestiário inteiro.** Medi contra a Defesa `20` de um inimigo de nível 30; a escada
   de categorias não foi rodada.

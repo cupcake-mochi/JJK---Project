@@ -142,18 +142,18 @@ O misto entrega os dois **e** custa dez entradas a menos, com uma matriz de domi
 
 **Q3 — FECHADA na v0.61. É a régua, e ela vem ANTES do catálogo.** A régua tem três eixos — **formato**, **quanto** e **o que não pode ser** —, e ela cabe em quatro linhas:
 
-> **Formato:** a escada de **Classe Passiva** da peça 11 §4. Ela declara a **janela**, e a janela fixa a magnitude.
+> **Formato:** a escada de **Categoria de Efeito** da peça 11 §4. Ela declara a **janela**, e a janela fixa a magnitude.
 > **Contador:** plano, e **`1×` por descanso curto**. Nunca um que cresça, e nunca um que cada mestre leia de um tamanho.
 > **Preço:** **sete fatias de `1,27` ponto por rodada**, mais o **degrau do nível 7**, que vale o vão da peça 6 §3 e substitui uma fatia.
 > **Denominador:** toda entrega é escrita como fração de coisa que já cresce. Número solto deriva `8,3×` e só cabe no nível 2.
 
-### 3.1 O formato — a escada de Classe Passiva, e o que faz ela caber aqui
+### 3.1 O formato — a escada de Categoria de Efeito, e o que faz ela caber aqui
 
 **A régua da peça 13 foi testada e reprovada.** O `Desliga` só apaga o que ninguém comprou, e isso é território de Origem — nada no permitido da peça 5 §4 desliga coisa. O `Ajusta` tem **um morador legal só**, trocar o fixo do acerto por atributo. Sobram 6 das 7 linhas no `Destranca`, e um formato que põe 6 de 7 no mesmo balde não separa nada: é etiqueta.
 
-A escada de **Classe Passiva** passa no mesmo teste com folga, e por um motivo de forma — ela **corta a lista de travessa** em vez de particionar. Cada linha do permitido mora nas três, em tamanhos diferentes:
+A escada de **Categoria de Efeito** passa no mesmo teste com folga, e por um motivo de forma — ela **corta a lista de travessa** em vez de particionar. Cada linha do permitido mora nas três, em tamanhos diferentes:
 
-| linha do permitido (peça 5 §4) | Classe Passiva 1 | Classe Passiva 2 | Classe Passiva 3 |
+| linha do permitido (peça 5 §4) | Categoria de Efeito 1 | Categoria de Efeito 2 | Categoria de Efeito 3 |
 |---|---|---|---|
 | posicionamento | só quando você critica | 1× na Reação | +3 m sempre |
 | alvo | só em alvo já marcado | retarget | seu Classe 0 sempre pega 2 |
@@ -165,19 +165,19 @@ A escada de **Classe Passiva** passa no mesmo teste com folga, e por um motivo d
 
 **Moradores: `5 · 5 · 6`.** Contra os `6 · 1 · 0` da peça 13.
 
-E ela porta sem adaptação porque a peça 11 §4 já diz exatamente o que ela é: ***"Ela não mede quanto — mede o quê."*** Um marco compra uma aptidão de qualquer Classe Passiva que o refino alcance; um degrau do calendário entrega uma coisa de qualquer Classe Passiva. Mesma estrutura, mesmo preço, formatos que não se substituem.
+E ela porta sem adaptação porque a peça 11 §4 já diz exatamente o que ela é: ***"Ela não mede quanto — mede o quê."*** Um marco compra uma aptidão de qualquer Categoria de Efeito que o refino alcance; um degrau do calendário entrega uma coisa de qualquer Categoria de Efeito. Mesma estrutura, mesmo preço, formatos que não se substituem.
 
-**Só que o que segura a Classe Passiva 3 lá não pode ser o que segura ela aqui.** Na peça 11 é o refino — *"uma Classe Passiva 1 no refino 10 não é a mesma coisa que no refino 2. Ela cresce junto com você"* —, e o refino está proibido na Trilha. O substituto sai da própria definição das três:
+**Só que o que segura a Categoria de Efeito 3 lá não pode ser o que segura ela aqui.** Na peça 11 é o refino — *"uma Categoria de Efeito 1 no refino 10 não é a mesma coisa que no refino 2. Ela cresce junto com você"* —, e o refino está proibido na Trilha. O substituto sai da própria definição das três:
 
 > **As três taxas abaixo são TRÊS PONTOS DE UM DIAL, e não os três valores possíveis.** *Registrado na v0.68:* a Trilha declara a taxa de cada entrada, porque os botões que o permitido oferece são grandes e indivisíveis — nenhuma das três divide `11,50` até `1,7`, e `15%` divide. **A escada continua medindo forma; a taxa é que mede quanto.**
 
-| Classe Passiva | janela | dispara em | magnitude quando dispara |
+| Categoria de Efeito | janela | dispara em | magnitude quando dispara |
 |---|---|---|---|
 | **3** | permanente | 100% das rodadas | **1,27** |
 | **2** | limitada, `1×` por descanso curto | ~27% | **4,70** |
 | **1** | condicional, sem limite de uso | ~20% | **6,35** |
 
-Mesma média, variância diferente: **uma Classe Passiva 1 entrega cinco vezes a porrada numa rodada de cinco.** É o mesmo mecanismo do *"Farejador não fica obsoleta"* da peça 11 §4, funcionando sem o refino.
+Mesma média, variância diferente: **uma Categoria de Efeito 1 entrega cinco vezes a porrada numa rodada de cinco.** É o mesmo mecanismo do *"Farejador não fica obsoleta"* da peça 11 §4, funcionando sem o refino.
 
 ### 3.2 O contador é plano, e é a lição nº 2 aparecendo num lugar novo
 
@@ -209,7 +209,7 @@ A magnitude de uma entrega é fração do que você já faz, então **ela já cr
 
 **Spread de `3,0×` — o mesmo com que a peça 13 §7 reprovou *"por sessão"* e *"por arco"***, escrevendo que ali *"o filtro do projeto — dois mestres que nunca conversaram chegam ao mesmo número? — está falhando, com número em cima"*.
 
-**E os 71 usos da peça 13 continuam certos**, porque a trava de lá mede **largura antes de relógio**: *"por cena num gatilho de alcance 1 é seguro por construção, não por generosidade"*. Quando o gatilho é estreito, quem limita é a frequência do próprio gatilho. **A Classe Passiva 2 de Trilha é o caso contrário — o gatilho é combate, e o relógio é o único limitador.** Largura não salva ela, então ela leva o spread inteiro.
+**E os 71 usos da peça 13 continuam certos**, porque a trava de lá mede **largura antes de relógio**: *"por cena num gatilho de alcance 1 é seguro por construção, não por generosidade"*. Quando o gatilho é estreito, quem limita é a frequência do próprio gatilho. **A Categoria de Efeito 2 de Trilha é o caso contrário — o gatilho é combate, e o relógio é o único limitador.** Largura não salva ela, então ela leva o spread inteiro.
 
 *E a troca não move número nenhum:* os dois são degraus vizinhos da escada — `4,7` contra `6,3` rolagens, `1,34×` —, e os dois dão **um uso por luta**. A magnitude continua `4,70`. O que muda é que o gatilho passa a ser *"a luta acabou"*, que a peça 10 §1 escolheu justamente porque **dois mestres arbitram igual**.
 
@@ -485,15 +485,15 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 
 **Q5 — O que cada Trilha entrega, entrada por entrada.** *Última de propósito.* É a passada de conteúdo, e ela só começa depois da Q3.
 
-### 3.6 Qual Classe Passiva em qual degrau — refeito na v0.65
+### 3.6 Qual Categoria de Efeito em qual degrau — refeito na v0.65
 
 *A v0.64 tinha travado a altura por nível, e ela caiu junto com o empréstimo.* **Os dois motivos daquela regra eram o empréstimo e o tamanho da matriz, e a Q4 refeita matou os dois** — não há mais o que emprestar, e as montagens caíram de 405 para 15. *Com Trilha fechada, o formato passa a ser justamente o que faz uma Trilha parecer diferente da outra.*
 
 > **Cada Trilha escolhe o formato de cada degrau, com duas travas.**
-> **1. O nível 2 é sempre `Classe Passiva 1` ou `3`** — condicional ou permanente. **Nunca uso limitado.**
+> **1. O nível 2 é sempre `Categoria de Efeito 1` ou `3`** — condicional ou permanente. **Nunca uso limitado.**
 > **2. Pelo menos uma das quatro entregas tem de ser algo que o jogador decide usar** — uso limitado por relógio, **ou condicional que ele ativa gastando um recurso do turno.**
 
-> **A segunda trava foi reescrita na v0.73, e a metade nova é a do recurso de turno.** *Ela dizia "tem de ser `Classe Passiva 2`", que é o formato de relógio e só ele.*
+> **A segunda trava foi reescrita na v0.73, e a metade nova é a do recurso de turno.** *Ela dizia "tem de ser `Categoria de Efeito 2`", que é o formato de relógio e só ele.*
 >
 > **O que fez mudar foi o `Punho` do Bastião.** Ele reprovava por **formato** e não por preço: as quatro entregas fechavam dentro do orçamento e a régua dava verde, e quem barrava era esta trava. Mas o `Engate` daquela Trilha **gasta a ação bônus** — e decidir gastar a ação bônus é uma escolha que acontece toda rodada, o que é **mais botão** do que um contador de descanso curto que dispara sozinho quando você lembra dele.
 >
@@ -546,7 +546,7 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 
 - **A matriz de dominância entre as quinze**, e ela roda **por Caminho** e **entre Caminhos** — porque a pergunta do Guia contra a Vanguarda é entre Caminhos. *Com a Q4 refeita na v0.65 o tamanho caiu de **405 para 15**: a Trilha é fechada, então cada montagem É uma Trilha. A matriz compara pacote com pacote.*
 - **A troca é total, e o validador confere que ela não deixa buraco:** trocar para qualquer Trilha em qualquer um dos três níveis tem de produzir uma ficha legal, com as quatro entregas daquela Trilha até o nível atual.
-- **O nível 2 de toda Trilha é `Classe Passiva 1` ou `3`, nunca `2`**, e **toda Trilha tem pelo menos uma `Classe Passiva 2`** nas suas quatro. Contra-teste: uma Trilha só de permanente e condicional tem de reprovar, com a mensagem citando o Champion.
+- **O nível 2 de toda Trilha é `Categoria de Efeito 1` ou `3`, nunca `2`**, e **toda Trilha tem pelo menos uma `Categoria de Efeito 2`** nas suas quatro. Contra-teste: uma Trilha só de permanente e condicional tem de reprovar, com a mensagem citando o Champion.
 - ~~**Se a Q1 responder "mais de uma"**, a matriz varre as **105 combinações** de duas.~~ **Morta na v0.55:** não existe multiclasse, e a matriz nunca cruza Caminhos diferentes numa mesma ficha.
 - **O orçamento de cada Trilha contra os `6%` a `9%` da Rotina**, lido da **peça 14 §4** e nunca de constante. *E ele é **piso**, não teto* — a régua da Q3 para em `14,7%` de propósito.
 
@@ -564,7 +564,7 @@ Toda entrega é fração de alguma coisa. **Se essa coisa não crescer no ritmo 
 - **Quem recebe o degrau grande do nv7 e quem recebe o ataque extra no lugar**, contado contra a peça 6 §3.1 — os dois conjuntos têm de ser complementares e cobrir as quinze Trilhas.
 - **Nenhuma entrega com dado de dano**, e o contra-teste: perturbar a régua da peça 5 §4 tem de acender.
 - **Nenhuma entrega que cresça com refino** — peça 11 §2. *E o contra-teste que dá valor a esta: o refino **cabe** na conta (8,00× contra os 8,31× da Rotina), então uma checagem que só media derivação sairia verde. Ela tem de reprovar pelo eixo da peça 11 §3.*
-- **Todo contador de Classe Passiva 2 é plano, e é `por descanso curto`.** Perturbar um degrau para `usos = maestria` tem de acender, e a mensagem tem de dizer que o defeito é a magnitude já crescer. **E perturbar para `por cena` também tem de acender**, com a mensagem apontando a trava de largura da peça 13 §7 — o relógio é o único limitador aqui, então ele leva o spread de `3,0×` inteiro.
+- **Todo contador de Categoria de Efeito 2 é plano, e é `por descanso curto`.** Perturbar um degrau para `usos = maestria` tem de acender, e a mensagem tem de dizer que o defeito é a magnitude já crescer. **E perturbar para `por cena` também tem de acender**, com a mensagem apontando a trava de largura da peça 13 §7 — o relógio é o único limitador aqui, então ele leva o spread de `3,0×` inteiro.
 - **Todo relógio citado sai da escada da peça 10 §5**, lida daquele documento e nunca escrita aqui. *É a mesma checagem que a peça 13 §7 já faz no catálogo de Legados, e ela achou três relógios fora da escada lá.*
 - **O quarto eixo do `Servo`**, quando ele existir: a matriz do `conferir-invocacoes.py` tem de passar a rodar com ele, e as duas entradas do `DOMINANCIA_PENDENTE_Q6` têm de **sumir da declaração**. Contra-teste: tirar o quarto eixo tem de fazer as duas voltarem.
 - **O teto de uma Rotina somada**, para `Servo`, `Matilha`, `Coro` e `Torrente`, conferido **pela economia de ação** e não por decreto.
@@ -906,7 +906,7 @@ Rodado contra a dívida da peça 14 §4, que é o alvo em todo nível:
 
 `acerto` · `alvo` · `recuperação` · `posicionamento` · `exceção de ação` — **e a última é ilegal para `Servo` e `Matilha`**, que não podem receber ação.
 
-**E o achado que fecha esta seção: os exemplos da escada de Classe Passiva nunca tinham sido preçados.** Ela foi escrita como **forma** — o que separa permanente de reativo de condicional — e as células viraram exemplo sem ninguém converter em fatia. **Dois dos sete não sobrevivem ao contato:** *"+3 m sempre"* está `1,42×` grande e *"+1 rodada sempre"* está `11×`.
+**E o achado que fecha esta seção: os exemplos da escada de Categoria de Efeito nunca tinham sido preçados.** Ela foi escrita como **forma** — o que separa permanente de reativo de condicional — e as células viraram exemplo sem ninguém converter em fatia. **Dois dos sete não sobrevivem ao contato:** *"+3 m sempre"* está `1,42×` grande e *"+1 rodada sempre"* está `11×`.
 
 ### 6.10 ~~O `Servo`, montado~~ — **VENCIDO. Refeito na v0.164** — v0.68
 

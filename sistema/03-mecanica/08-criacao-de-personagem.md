@@ -142,7 +142,7 @@ Você já tem a Regra. Falta:
 2. **Descrição** — de onde a técnica veio, como ela aparece, o que as pessoas veem quando ela age. Sem efeito mecânico, e é o que faz duas técnicas iguais parecerem diferentes.
 3. **Famílias** — duas **Livres** (as Melhorias delas custam metade da Classe a menos) e três **Fechadas** (você nunca compra nada delas). É aqui que duas técnicas com a mesma Regra viram personagens diferentes.
 4. **Selo** — o gesto, a condição ou o objeto que a sua técnica exige. Não custa nem devolve ponto; ele é identidade, mais uma trava: Restrição que o Selo já obriga não devolve ponto.
-5. **Passiva Livre** — uma, de graça, para todo mundo. Ela não rola dado, não muda número e não faz ninguém rolar. Se a técnica pedir, a **Regra Própria** de Classe 1 vem junto, também de graça: não gasta espaço, e sobe pagando só a diferença para a Classe 1.
+5. **Expressão da técnica** — uma, de graça, para todo mundo. Ela não rola dado, não muda número e não faz ninguém rolar. Se a técnica pedir, a **Regra Própria** de Classe 1 vem junto, também de graça: não gasta espaço, e sobe pagando só a diferença para a Classe 1.
 6. **Os feitiços.** No nível 2 você tem **Classe 1**, dois feitiços de **Classe 0** (grátis, não ocupam espaço) e **três feitiços conhecidos**, montados pelo orçamento da Classe 1. Três é o que a fórmula `2 + (nível ÷ 2)` dá no nível 2 — dois de toda ficha, mais o do próprio nível 2.
 
 **A Regra da técnica é lida por outra pessoa antes de entrar em jogo.** É uma das travas de mundo compartilhado, e existe porque quem escreveu sabe o que quis dizer — quem vai arbitrar, não.
@@ -270,7 +270,7 @@ Pacto é o que você trocou por poder.
 
 **Atributos.** Força 3 · Constituição 2 · Destreza 2 · Inteligência 1 · Essência 1. *(nove pontos, nenhum acima de 3)* — **TR Físico travado em Força**.
 
-**Técnica.** *Atributo da técnica:* **Força** — a Regra dela é peso, e peso é o que ela já faz com o corpo. *Famílias Livres:* Controle e Castigo. *Fechadas:* Amparo, Área, Auxiliares — ela não cura, não pega área e não dá suporte. *Selo:* as duas mãos precisam se tocar antes. *Passiva Livre:* ela sabe o peso exato de qualquer coisa que encoste nela.
+**Técnica.** *Atributo da técnica:* **Força** — a Regra dela é peso, e peso é o que ela já faz com o corpo. *Famílias Livres:* Controle e Castigo. *Fechadas:* Amparo, Área, Auxiliares — ela não cura, não pega área e não dá suporte. *Selo:* as duas mãos precisam se tocar antes. *Expressão da técnica:* ela sabe o peso exato de qualquer coisa que encoste nela.
 
 **Perícias — nove.** Do Caminho, fixas: Atletismo e Provocar. Do Caminho, livres: Sentir Energia, Percepção, Sobrevivência, Intuição e Persuasão. Da Origem: Hierarquia e História.
 

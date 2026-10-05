@@ -3,7 +3,7 @@
 **Fase 4, décima peça.** Como o combustível volta.
 Versão v0.23, com arredondamento, o que conta como luta, o tamanho dos degraus e o encontro com a Integridade na v0.26, e **o que conta como uma cena na v0.62** — 10/08/2026
 
-O manual do Fundamento cita **descanso seis vezes** e nunca define nenhum dos dois. Sem esta peça, ninguém fecha a primeira sessão: o PE não volta, a vida não volta, e as Passivas com "uma vez por descanso" não têm gatilho.
+O manual do Fundamento cita **descanso seis vezes** e nunca define nenhum dos dois. Sem esta peça, ninguém fecha a primeira sessão: o PE não volta, a vida não volta, e os Talentos com "uma vez por descanso" não têm gatilho.
 
 ---
 
@@ -44,7 +44,7 @@ Um lugar propício tem gente, suprimento e teto. Talismã, kit, comida, alguém 
 
 **Os 25% valem em qualquer lugar.** O que o ambiente propício faz é **proteger esse número da exaustão**: fora dele, cada degrau de exaustão corta um pedaço, até sobrar nada. A tabela está na seção 4.
 
-**O descanso curto não devolve vida, e isso é decisão.** Em Jujutsu Kaisen quem conserta gente é a Energia Reversa e a Shoko — se um respiro devolvesse vida, a coisa mais rara da obra viraria conveniência. O que existe são as peças que **já** curam no descanso curto, como a Passiva Reversão, e elas continuam valendo o que valem. **E o reparo do Corpo Amaldiçoado** (peça 9 §5, v0.326): *a `Energia Reversa` não o cura, e é no descanso curto que um `Entalhador` ou uma `Forja` devolvem metade da vida dele.*
+**O descanso curto não devolve vida, e isso é decisão.** Em Jujutsu Kaisen quem conserta gente é a Energia Reversa e a Shoko — se um respiro devolvesse vida, a coisa mais rara da obra viraria conveniência. O que existe são as peças que **já** curam no descanso curto, como o Talento Reversão, e elas continuam valendo o que valem. **E o reparo do Corpo Amaldiçoado** (peça 9 §5, v0.326): *a `Energia Reversa` não o cura, e é no descanso curto que um `Entalhador` ou uma `Forja` devolvem metade da vida dele.*
 
 ### Descanso longo
 
@@ -210,7 +210,7 @@ O manual usa **"uma vez por cena"**, **"uma vez por descanso"** e **"uma vez por
 
 *Os dois são degraus vizinhos — 4,7 contra 6,3 rolagens, `1,34×` de distância —, então descer um degrau não muda a magnitude de nada. O que muda é quem decide quando ele volta.*
 
-**"Por dia" e "por descanso longo" não são a mesma coisa, e a diferença é o ponto.** Uma missão pode durar cinco dias. Quem tem uma peça "uma vez por dia" recarrega cinco vezes; quem tem "uma vez por descanso longo" recarrega uma. É por isso que o manual dá **"uma vez por dia"** para a Passiva Segunda Natureza e **"descanso longo"** para a recuperação de Integridade — a segunda é muito mais forte, e o relógio mais lento é o preço.
+**"Por dia" e "por descanso longo" não são a mesma coisa, e a diferença é o ponto.** Uma missão pode durar cinco dias. Quem tem uma peça "uma vez por dia" recarrega cinco vezes; quem tem "uma vez por descanso longo" recarrega uma. É por isso que o manual dá **"uma vez por dia"** para o Talento Segunda Natureza e **"descanso longo"** para a recuperação de Integridade — a segunda é muito mais forte, e o relógio mais lento é o preço.
 
 Ninguém precisa decorar a escada. Ela existe para quando alguém perguntar *"isso volta antes ou depois daquilo?"*.
 

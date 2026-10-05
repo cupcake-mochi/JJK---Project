@@ -128,7 +128,7 @@ O motivo da primeira é o pilar 1: a técnica é a identidade. Se o Caminho dess
 - **Aumento de Classe de feitiço.**
 - **Melhoria de graça.**
 - **Cura**, que é Forma de feitiço — quem fechou a Família Amparo nunca vai curar, e nenhum Caminho contorna isso.
-- **Redução de Dano passiva.** Resistência a um tipo, sim; desconto em tudo, não. *É a regra do manual que matou a Passiva Casca na v0.26, e ela nunca tinha sido escrita nesta peça — a v0.70 furou ela desenhando uma reação de RD para aliados antes de alguém notar.*
+- **Redução de Dano passiva.** Resistência a um tipo, sim; desconto em tudo, não. *É a regra do manual que matou o Talento Casca na v0.26, e ela nunca tinha sido escrita nesta peça — a v0.70 furou ela desenhando uma reação de RD para aliados antes de alguém notar.*
 - **Refino dentro de uma rolagem** — acerto, CD, Defesa, Teste de Resistência ou dano. Ele cresce `+7` a `+9` na campanha contra os `+3` de quem está do outro lado, e não existe número que conserte isso. *Fora da rolagem ele continua valendo: custo, frequência, escopo e disputa contra outro refino são a peça 11 e não mudam aqui.* **A métrica do Caminho é a maestria**, que cresce `+3`.
 
 ### As exceções declaradas, e o que só parece furar

@@ -138,7 +138,7 @@ As Classes são as da **peça 11 §4**, sem inventar nada, e a frase de lá vale
 
 > ***⚠ A HERANÇA MORREU na v0.260, e ela nunca tinha funcionado.*** *Até aqui esta seção dizia que o gate era "lido da peça 11 §6", e o argumento era que um `Estigma` de Classe 3 no nível 2 passaria por cima do que a peça 11 cobra de uma aptidão da mesma Classe.* **Ele passa por cima de qualquer jeito, e é esta seção que decide isso:** *ao tirar a metade de refino, ela tirou justamente a trava que segura a aptidão.*
 >
-> **Medido na v0.260:** *o `Estigma` de Classe 2 abre no nível `7` e a aptidão de Classe Passiva 2 só é pegável no nível `10` pela melhor rota — ela é **três níveis mais dura**. O de Classe 3 abre no `13` e a aptidão no `14`, um nível mais dura.* **A herança copiava o número de nível e deixava para trás o refino, que é quem manda** — então ela era nominal, e o invariante que ela dizia proteger nunca esteve de pé.
+> **Medido na v0.260:** *o `Estigma` de Classe 2 abre no nível `7` e a aptidão de Categoria de Efeito 2 só é pegável no nível `10` pela melhor rota — ela é **três níveis mais dura**. O de Classe 3 abre no `13` e a aptidão no `14`, um nível mais dura.* **A herança copiava o número de nível e deixava para trás o refino, que é quem manda** — então ela era nominal, e o invariante que ela dizia proteger nunca esteve de pé.
 >
 > ***O que segura a ferramenta não é o gate: é o mestre.*** *Ela não se compra com marco nem com refino — ela é entregue, e o §7 publica o ritmo (grau 2 no nível `18`, grau 1 no `26`).* **O gate é piso absoluto, para a mesa que quiser entregar cedo**, e os números `7` e `13` ficam **por decisão desta peça**, não por empréstimo.
 >
@@ -258,7 +258,7 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 
 ***Achado da v0.152, e ele encolheu a dívida antes de pagá-la.*** *A dívida estava escrita em quatro documentos como "os onze uns contra os outros", e duas coisas do próprio projeto dizem que essa conta não existe.*
 
-**A peça 11 §4 diz que a escada de Classe não mede tamanho:** *"Ela não mede quanto — mede o quê"*, e *"uma Classe Passiva 3 não é uma Classe Passiva 1 maior: é uma coisa de outro formato"*. **E o §7 desta peça diz que o jogador nunca escolhe entre elas:** *o `Estigma` é entregue pelo mestre, num ritmo que põe grau 3 por volta do nível 10 e grau 1 por volta do 26.* **Dezesseis níveis separam os dois — não existe a mesa em que alguém compara um `Quebranto` com um `Contrapeso`.**
+**A peça 11 §4 diz que a escada de Classe não mede tamanho:** *"Ela não mede quanto — mede o quê"*, e *"uma Categoria de Efeito 3 não é uma Categoria de Efeito 1 maior: é uma coisa de outro formato"*. **E o §7 desta peça diz que o jogador nunca escolhe entre elas:** *o `Estigma` é entregue pelo mestre, num ritmo que põe grau 3 por volta do nível 10 e grau 1 por volta do 26.* **Dezesseis níveis separam os dois — não existe a mesa em que alguém compara um `Quebranto` com um `Contrapeso`.**
 
 > **A v0.144 já tinha medido do jeito certo, e não registrou que aquilo era a regra.** *A tabela do relógio do `Avulsa` compara "a pior razão contra os **irmãos de Classe 2**".* **Dentro do degrau, nunca entre degraus.**
 
