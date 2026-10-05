@@ -10967,13 +10967,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-02",
     "tipo": "M",
     "antes": "A tabela indicava 80% para Destreza 6 e Classe 1, embora a fórmula da peça 27 exigisse 3 ou mais no d20.",
     "depois": "Fórmula preservada e chances recalculadas. Na Classe 1: Destreza 6 resulta em 90%, Destreza 3 em 75% e Destreza 0 em 60%.",
     "motivo": "As 21 células antigas subestimavam a chance em 10 pontos percentuais. Não alterar a fórmula para reproduzir uma tabela errada."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "corrige_erro",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Tabela de chance do Ritual: as 21 células estavam 10 pontos abaixo da fórmula (Destreza 6, Classe 1: 90%, não 80%); fórmula mantida.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10984,13 +10994,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-03",
     "tipo": "M",
     "antes": "A falha cobrava a Classe em pontos, sem declarar a moeda. Um exemplo retirava dano e o auxílio cobrava uma correção não definida.",
     "depois": "Penalidade igual à Classe em PE, cobrada separadamente de conjurador e auxiliar. Montagem e dados preservados. Recursos suficientes exigidos antes da tentativa.",
     "motivo": "Resolver leituras incompatíveis. PE já são usados pela aptidão e permitem cobrar a ajuda sem refazer o feitiço durante o turno. Esta é uma decisão nova."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Penalidade da falha: a Classe em PE, cobrada do conjurador e do auxiliar, com os recursos exigidos antes da tentativa.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11001,13 +11021,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-04",
     "tipo": "M",
     "antes": "Recitação exigia dois turnos sem explicitar as ações de cada um.",
     "depois": "Duas Ações Completas. Pagamento ao começar e perda dos recursos em caso de interrupção. Não exige teste de Ocultismo.",
     "motivo": "Fechar a possibilidade de preparar o Ritual enquanto se executam outras ações. Preservar dez pontos por dois turnos, risco por dano e exceção de Liberação."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Recitação: duas Ações Completas, pagamento ao começar e perda na interrupção; sem teste de Ocultismo.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11018,13 +11048,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-05",
     "tipo": "M",
     "antes": "Ritual não delimitava Classe 0, efeitos automáticos e Inescapável.",
     "depois": "Exige Classe 1 ou superior. Inescapável não aceita Ritual.",
     "motivo": "Evitar benefícios defensivos gratuitos por Classe 0 e preservar o pacote exclusivo de Inescapável."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Ritual exige Classe 1 ou mais; Inescapável não aceita Ritual.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11035,13 +11075,22 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-06",
     "tipo": "M",
     "antes": "Selo, Calado e Silencioso apareciam na peça 27, mas não no manual.",
     "depois": "Voz e gestos são necessários. Calado impede Ritual. Silencioso não dispensa sua execução.",
     "motivo": "Recuperar requisitos da fonte atual e impedir Ritual furtivo sem custo ou permissão próprios."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "sincroniza_donos",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Voz e gestos: Calado impede Ritual e Silencioso não dispensa; a peça 27 já diz, o capítulo 46 não.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11052,13 +11101,25 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-07",
     "tipo": "M",
     "antes": "A relação entre Ritual, Liberação e a Técnica Máxima nova não estava resolvida.",
     "depois": "Liberação ritualizada recebe seis ou dez pontos. O adicional de metade da Classe ocorre apenas na Recitação. Técnica Máxima aceita Ritual Completo com seis pontos, sem armazenamento nem adicional de Liberação.",
     "motivo": "Conciliar a recarga de R06 e o orçamento da Máxima. O benefício Dados do Ritual não aumenta a Máxima."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/ (manual do Fundamento v7)"
+    ],
+    "nota": "Liberação ritualizada com 6 ou 10 pontos; Técnica Máxima aceita Ritual Completo com 6, sem armazenamento.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11069,13 +11130,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-08",
     "tipo": "M",
     "antes": "A repetição dos 16 benefícios, incluindo Defesa e Energia, não era vedada.",
     "depois": "Uma compra por benefício. Acerto e Dificuldade podem ser comprados duas vezes.",
     "motivo": "Preservar exceções expressas e evitar multiplicação de recursos por repetição da lista."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Cada benefício do Ritual uma vez; só Acerto e Dificuldade duas.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11086,13 +11157,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-09",
     "tipo": "M",
     "antes": "Rerrolagem era ambígua quanto a cura, resultados mínimos repetidos e Rajada.",
     "depois": "Aplica-se ao dano ou cura iniciais. Limite de Classe + 1 dados compartilhado entre os tiros. O segundo resultado fica. Não alcança danos secundários.",
     "motivo": "Evitar rerrolagem recursiva e multiplicação do limite por tiro. Preservar a cura permitida na peça 27."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Rerrolagem: dano ou cura iniciais, limite de Classe + 1 dados compartilhado entre os tiros, o segundo resultado fica.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11103,13 +11184,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-10",
     "tipo": "M",
     "antes": "Desconto de metade da Classe sem arredondamento explícito.",
     "depois": "Arredondar para baixo, mínimo de um. Descontos fixos vêm antes das reduções pela metade. Custos positivos têm mínimo de um PE.",
     "motivo": "Alinhar a ordem de custos a R06/R07. A penalidade por falha é cobrada separadamente."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Desconto de metade da Classe arredonda para baixo, mínimo 1; fixos antes das metades.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11120,13 +11211,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-11",
     "tipo": "M",
     "antes": "Toque aparecia na lista de Alcance. Efeitos em área também recebiam Tiros.",
     "depois": "Alcance não aumenta Toque. Tiros aplica-se a Rajada. Compartilhamento aplica-se a Cura ou Apoio, exceto Onda.",
     "motivo": "Restabelecer a compatibilidade com as Formas de R06 e a Rajada de R07."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Alcance não aumenta Toque; Tiros só em Rajada; Compartilhamento só em Cura ou Apoio, fora Onda.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11137,13 +11238,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-12",
     "tipo": "M",
     "antes": "Perseguição dizia que o feitiço não podia ser desviado, sem definir a resolução.",
     "depois": "Permissão delimitada pela Melhoria Perseguir. Movimento entre a seleção e a resolução não escapa do alcance, preservados visão, trajeto e regras de teleporte.",
     "motivo": "Evitar acerto automático por dois pontos e a remoção acidental de Bloquear ou Esquivar. O nome foi corrigido pela RP-28."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Perseguição limitada pela Melhoria Perseguir: deixa de ser acerto que não se desvia.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11154,13 +11265,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-13",
     "tipo": "M",
     "antes": "Compartilhamento copiava o efeito inteiro apesar da divisão de Junto e dos benefícios de uso único.",
     "depois": "Cópia da menor parcela após a divisão, para um aliado adicional válido. Usos únicos não se multiplicam.",
     "motivo": "Preservar um benefício real sem copiar restauração de uso único nem favorecer divisões feitas só para maximizar a cópia."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Compartilhamento copia a menor parcela depois da divisão; uso único não se multiplica.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11171,13 +11292,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-14",
     "tipo": "M",
     "antes": "Tiros concedia um alvo adicional sem definir quais dados copiar.",
     "depois": "Cópia da menor parcela, declarada antes das rolagens, para alvo diferente dos tiros originais.",
     "motivo": "Impedir que a divisão de 1d8, 1d8 e 18d8 produza outro tiro de 18d8."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Tiros copia a menor parcela, declarada antes de rolar, para outro alvo.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11188,13 +11319,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-15",
     "tipo": "M",
     "antes": "Duração não esclarecia a relação com Fica e estados consumíveis.",
     "depois": "Mais uma rodada para estados com duração em rodadas, sem repetição do benefício. Fica, Concentrada, Duradoura e prazos específicos não recebem essa ampliação.",
     "motivo": "Não renovar aplicações instantâneas nem criar dano recorrente gratuito."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Duração: mais uma rodada para estados em rodadas; Fica, Concentrada e Duradoura não ganham.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11205,13 +11346,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-16",
     "tipo": "M",
     "antes": "Ritual podia receber duas devoluções pelo mesmo tempo ou imobilidade em Parado, Atrasar e Carregar.",
     "depois": "O mesmo custo de tempo ou imobilidade não devolve pontos duas vezes. A montagem ritualizada deve ser ajustada antes da sessão.",
     "motivo": "Aplicar o princípio de R06 às 19 Restrições. A matriz detalhada foi fechada pela RP-31."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "O mesmo custo de tempo ou imobilidade não devolve pontos duas vezes no Ritual.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11222,13 +11373,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-17",
     "tipo": "M",
     "antes": "Auxílio sem limite de participantes, alcance ou duração.",
     "depois": "Um auxiliar, a até 9 m, com percepção mútua e Ação Completa. Concede quatro pontos, válidos até o fim do próximo turno.",
     "motivo": "Sem limite, os orçamentos seriam 2 + 4n, 6 + 4n e 10 + 4n. Preservar a cooperação de uma dupla sem admitir um coro ilimitado."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Auxílio: um auxiliar a até 9 m, percepção mútua e Ação Completa, 4 pontos até o fim do próximo turno (a v0.331 não limita quantos).",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11239,13 +11400,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-18",
     "tipo": "M",
     "antes": "Ameaça, coação e punição por quebra eram apresentadas como verdades universais da obra.",
     "depois": "Consentimento dos jogadores, termos verificáveis e sanções registradas como regras do jogo.",
     "motivo": "Não houve acesso primário suficiente para validar as alegações universais. As regras próprias são apresentadas como adaptação."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/22-pactos.md",
+     "sistema/05-material/livro/manual/65-pactos.md"
+    ],
+    "nota": "Pactos: consentimento dos jogadores, termos verificáveis e sanções escritas como regra do jogo, não como verdade da obra.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11256,13 +11427,22 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-19",
     "tipo": "M",
     "antes": "Pacto permanente oferecia um Estilo de Sem Técnica, contrariando a decisão da v0.168.",
     "depois": "Benefícios limitados a Aptidão, espaço conhecido ou PE. O espaço acompanha a rota de Manejo ou Kata, sem conceder Estilo ou semente adicionais.",
     "motivo": "A peça 22, seção 3.3, removia a opção que o manual reintroduziu. Um espaço não equivale a um Manejo pronto, proibido pela seção 3.5."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "sincroniza_donos",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/65-pactos.md"
+    ],
+    "nota": "Pacto permanente não dá Estilo: a peça 22 tirou na v0.168, e o capítulo 65 ainda oferece.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11273,13 +11453,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-20",
     "tipo": "M",
     "antes": "Benefício de dano por pacto permanente era vago, com teto apenas em documento técnico da v0.134.",
     "depois": "Sem conversão livre de pactos em dano no texto do jogador. Preservadas as três categorias de benefício aprovadas.",
     "motivo": "Evitar uma regra sem parâmetros por nível. A régua histórica de meia fatia por pacto continua documentada como histórica."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/22-pactos.md",
+     "sistema/05-material/livro/manual/65-pactos.md"
+    ],
+    "nota": "Sem conversão livre de pacto em dano no texto do jogador.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11290,13 +11480,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-21",
     "tipo": "M",
     "antes": "Metade da Essência por campanha, sem esclarecer reduções posteriores do atributo.",
     "depois": "Escolhas gastas não retornam. Aumento da Essência pode abrir vagas. Sua redução não desfaz pactos existentes, mas bloqueia novas escolhas que ultrapassem o limite.",
     "motivo": "Impedir reciclagem de benefícios sem autorizar atributos acima de seis."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/22-pactos.md",
+     "sistema/05-material/livro/manual/65-pactos.md"
+    ],
+    "nota": "Limite de pactos pela Essência: escolha gasta não volta; Essência que cai bloqueia novas.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11324,13 +11524,22 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-23",
     "tipo": "M",
     "antes": "Oito ideias de restrições traziam números incompletos como se fossem regras prontas.",
     "depois": "Quadro de conceitos com perguntas para implementação. Exige procedimento definido antes do uso.",
     "motivo": "A peça 22 já as qualificava como ideias. Fragmentação, vida e PE dependem também da revisão de Morrendo e Integridade."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "sincroniza_donos",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/65-pactos.md"
+    ],
+    "nota": "As oito ideias de restrição viram quadro de conceitos, como a peça 22 já as trata; o capítulo 65 as dava como regra pronta.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11358,13 +11567,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-25",
     "tipo": "E/M",
     "antes": "Falha dizia conservar ficha comum após retirar devoluções incompatíveis.",
     "depois": "Sucesso e falha usam a mesma montagem já ajustada ao Ritual; uma devolução retirada não retorna.",
     "motivo": "RI-01: C 3 Precisão+Atrasar é 9 d 8 comum, mas 7 d 8 sem a devolução. Escolher entre essas versões depois do teste abriria resposta contraditória."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Sucesso e falha usam a mesma montagem já ajustada ao Ritual.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11375,13 +11594,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-26",
     "tipo": "E/M",
     "antes": "Auxílio tinha prazo, sem consumo explícito e sem declarar manutenção de alcance/percepção.",
     "depois": "Uma conjuração indicada; consome na tentativa inclusive falha ou interrupção. Mantém 9 m, percepção mútua, voz e gestos até a resolução.",
     "motivo": "RI-05: fecha reaproveitamento por alteração de iniciativa e auxílio à distância após abandonar o local."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "O auxílio vale para uma conjuração, é consumido na tentativa e exige 9 m, percepção, voz e gestos até a resolução.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11392,13 +11621,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-27",
     "tipo": "E/M",
     "antes": "Ajuda podia chegar depois do pagamento na Recitação, sem regra para desconto Energia tardio.",
     "depois": "Ajuda posterior ao pagamento não compra Energia nem devolve PE; pode acrescentar benefícios ainda não resolvidos.",
     "motivo": "RI-08: custo antecipado permanece estável, sem crédito retroativo inventado."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Ajuda que chega depois do pagamento não compra Energia nem devolve PE.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11426,13 +11665,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-29",
     "tipo": "M",
     "antes": "Pactos de PE sem teto operacional; orçamento histórico em fatias não foi convertido.",
     "depois": "Cada pacto de energia aumenta o PE máximo em sua maior Classe, sem recuperação imediata nem geração por turno.",
     "motivo": "RI-03: três pactos dão 3 ×Classe, o aumento de Reserva Profunda, que custa três espaços. Um pacto também pode conceder um espaço, portanto a comparação usa entregas vigentes em vez do câmbio histórico não revalidado. Requisitos e teto das passivas continuam se o jogador optar pelos espaços."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/22-pactos.md",
+     "sistema/05-material/livro/manual/65-pactos.md"
+    ],
+    "nota": "Pacto de energia: PE máximo sobe a maior Classe por pacto, sem recuperar na hora.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11443,13 +11692,25 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-30",
     "tipo": "M",
     "antes": "Compartilhamento copiava parcela sem resolver benefícios indivisíveis; Tiros não definia interação com 4C/Máxima.",
     "depois": "Origem escolhida na menor parcela; copia seus benefícios, sem reunir efeitos distribuídos. Tiro extra aplica suas peças por acerto, compartilhando limites únicos. Cópias e derivados permitidos são exceções ao total agregado, inclusive Máxima, sem mudar a montagem.",
     "motivo": "RI-02/RI-06: preserva alvo extra aprovado sem esconder exceção numérica. Levanta/Divide/Troca/Empurrão e limites por alvo não se multiplicam. Acúmulo de outra vítima e críticos não aumentam a cópia."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/ (manual do Fundamento v7)"
+    ],
+    "nota": "Compartilhamento e Tiros: origem na menor parcela; cópias são exceção declarada ao teto agregado.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11460,13 +11721,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-31",
     "tipo": "E/M",
     "antes": "Devolução de tempo descrita por critério genérico, sem matriz por modalidade.",
     "depois": "Breve não aceita Atrasar; Completo/Recitação não o reembolsam. Carregar reembolsa Breve/Completo, não Recitação. Parado cobra imobilidade adicional, salvo obrigação já existente e exceção específica de Liberação.",
     "motivo": "RI-07: gastar Ação de Movimento não equivale a impedir Passo. Preserva diferenças reais entre ação, imobilidade e intervalo."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Matriz de devolução de tempo no Ritual: Breve sem Atrasar, Carregar devolve em Breve e Completo, não na Recitação.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11477,13 +11748,23 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-32",
     "tipo": "E/M",
     "antes": "Dados de Recitação declarados após montagem sem destino explícito em Rajada/repetições.",
     "depois": "Somam à quantidade inicial antes da divisão; derivados permitidos usam essa base, sem multiplicar bônus inteiro por tiro.",
     "motivo": "Completa RI-02: exceção tem cálculo reproduzível e continua limitada pelo número de tiros/alvos da ficha."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md"
+    ],
+    "nota": "Dados da Recitação somam antes da divisão em Rajada e repetições.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -11511,13 +11792,25 @@
     "peça 22",
     "livro/manual/46,65"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "RP-34",
     "tipo": "decisão do autor",
     "antes": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução.",
     "depois": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Use sua maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melhorias de Ritual.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-08 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D34)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/27-ritual.md",
+     "sistema/05-material/livro/manual/46-ritual.md",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/ (manual do Fundamento v7)"
+    ],
+    "nota": "D34: na Técnica Máxima com Ritual Completo, a maior Classe vale no teste, na penalidade e nas Melhorias.",
+    "como": "fato central conferido no dono da v0.331 (peça e capítulo do livro)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
