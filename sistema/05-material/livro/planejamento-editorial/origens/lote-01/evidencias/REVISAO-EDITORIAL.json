@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
+  "sha256_texto": "a4d5b8ecc1890827850102e73018ad2d9f1440e6ca06e80dfb6ba87117985e18",
   "revisor": "/root/rotas_didatica",
   "natureza": "Autoria/revisão contextual por modelo, não independente nem leitura humana.",
   "secoes": [
@@ -379,5 +379,35 @@
     "registro": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Só remissões: nenhum custo, requisito, efeito, número ou título mudou. Leitura integral anterior preservada para o restante do texto, que é idêntico."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_anterior": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
+    "sha256_atual": "a4d5b8ecc1890827850102e73018ad2d9f1440e6ca06e80dfb6ba87117985e18",
+    "mudancas": [
+      {
+        "codigo": "OR36",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "origem-feto",
+        "antes": "As Pinturas da Morte inspiram essa possibilidade no Projeto M. A campanha também pode apresentar outras criações. Os efeitos dos Legados são regras desta Origem, não características obrigatórias de todo ser parecido na obra.",
+        "depois": "As Pinturas da Morte inspiram essa possibilidade no Ciclo Maldito. A campanha também pode apresentar outras criações. Os efeitos dos Legados são regras desta Origem, não características obrigatórias de todo ser parecido na obra."
+      },
+      {
+        "codigo": "OR37",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "origem-feto",
+        "antes": "Para as regras do Projeto M, escolher Feto não classifica seu personagem como uma maldição. Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e recuperação normais, salvo uma exceção expressa da sua ficha.",
+        "depois": "Para as regras do Ciclo Maldito, escolher Feto não classifica seu personagem como uma maldição. Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e recuperação normais, salvo uma exceção expressa da sua ficha."
+      },
+      {
+        "codigo": "OR38",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "origem-corpo",
+        "antes": "Panda é uma referência de corpo construído com consciência. As quatro configurações abaixo oferecem possibilidades de personagem do Projeto M. Elas não representam quatro métodos comprovados de fabricação na obra.",
+        "depois": "Panda é uma referência de corpo construído com consciência. As quatro configurações abaixo oferecem possibilidades de personagem do Ciclo Maldito. Elas não representam quatro métodos comprovados de fabricação na obra."
+      }
+    ],
+    "registro": "origens/lote-01/ALTERACOES.json (OR36, OR37, OR38)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto: só o nome do sistema mudou, de Projeto - M para Ciclo Maldito, com o mesmo gênero e o mesmo artigo. O conferir_editorial dá 0 achados no texto atual, sem exceção nova."
   }
 }

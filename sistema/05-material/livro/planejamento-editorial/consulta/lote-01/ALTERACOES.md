@@ -259,3 +259,27 @@
 **Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-11 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D41).
 
 Ajuste na mesma decisão: a linha "| __________________ | ______ | Vestido, empunhado ou guardado: __________________ |" ficou "| __________________ | ______ | Vestido, empunhado ou guardado: __________ |", para a ficha de repertório continuar numa página.
+
+## R23-33 — decisão do autor
+
+**Antes:** Projeto - M é um sistema de fã ambientado no universo de **Jujutsu Kaisen**, de Gege Akutami. A obra apresenta personagens, acontecimentos e poderes que inspiram o jogo. Os números e procedimentos desta edição foram escritos para a mesa.
+
+**Depois:** Ciclo Maldito é um sistema de fã ambientado no universo de **Jujutsu Kaisen**, de Gege Akutami. A obra apresenta personagens, acontecimentos e poderes que inspiram o jogo. Os números e procedimentos desta edição foram escritos para a mesa.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## R23-34 — decisão do autor
+
+**Antes:** A ambientação da abertura foi conferida em trechos do volume 1 de Jujutsu Kaisen, disponíveis na prévia oficial da Shueisha, e nos perfis oficiais do anime. Esses recortes sustentam a apresentação geral de maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Projeto - M.
+
+**Depois:** A ambientação da abertura foi conferida em trechos do volume 1 de Jujutsu Kaisen, disponíveis na prévia oficial da Shueisha, e nos perfis oficiais do anime. Esses recortes sustentam a apresentação geral de maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Ciclo Maldito.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## R23-35 — decisão do autor
+
+**Antes:** As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma semelhança de nome com outro RPG não substitui a leitura da entrada correspondente no Projeto - M.
+
+**Depois:** As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma semelhança de nome com outro RPG não substitui a leitura da entrada correspondente no Ciclo Maldito.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.

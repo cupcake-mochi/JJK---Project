@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -36,7 +36,7 @@ Carga. Conjunto de objetos transportados e sua ocupação, medida em Volume. Con
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -74,7 +74,7 @@ uma carga que se gasta a cada conjuração. Consulta: Feitiços conhecidos.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -112,7 +112,7 @@ ficha. Consulta: Adquirir entidades.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -149,7 +149,7 @@ Consulta: Pactos.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -187,7 +187,7 @@ como seu Selo. Consulta: Selo e Talentos.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -222,7 +222,7 @@ Consulta: Carga.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -263,7 +263,7 @@ Testes; Turnos; Reações e ataques de oportunidade; Concentração.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -300,7 +300,7 @@ referência para exceções.
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -340,7 +340,7 @@ de entidade; Comandar uma especial; Energia das entidades; Manutenção.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -410,7 +410,7 @@ campo disponível não concede o recurso a uma rota que não o possua.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -483,7 +483,7 @@ substituir requisitos por uma abreviação que você não consiga consultar.
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -541,7 +541,7 @@ escrever uma opção não dispensa adquirir essa opção.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -604,7 +604,7 @@ Atributos e testes; Vida e Defesa.
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -666,7 +666,7 @@ uma especial; Energia das entidades.
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -735,7 +735,7 @@ de Integridade; Descansos.
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -799,7 +799,7 @@ silenciosa. Consulta: Progressão; Dano e Recuperação.
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -840,7 +840,7 @@ rolagem a toda ação.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
@@ -874,12 +874,12 @@ permanecem nos capítulos correspondentes; trocar de mesa não renova recursos p
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
 Referências e adaptação
-Projeto - M é um sistema de fã ambientado no universo de Jujutsu Kaisen, de Gege Akutami. A obra
+Ciclo Maldito é um sistema de fã ambientado no universo de Jujutsu Kaisen, de Gege Akutami. A obra
 apresenta personagens, acontecimentos e poderes que inspiram o jogo. Os números e procedimentos
 desta edição foram escritos para a mesa.
 Obra e jogo
@@ -892,17 +892,17 @@ conheçam revelações do mangá.
 Fontes consultadas
 A ambientação da abertura foi conferida em trechos do volume 1 de Jujutsu Kaisen, disponíveis na
 prévia oficial da Shueisha, e nos perfis oficiais do anime. Esses recortes sustentam a apresentação geral
-de maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Projeto - M.
+de maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Ciclo Maldito.
 O Player’s Handbook de Dungeons & Dragons, edição 2024, foi usado como referência de organização:
 apresentação do jogo, roteiro de criação, fichas e consulta. O Dungeon Master’s Guide, edição 2024,
 serviu de referência para a função dos registros de campanha e das orientações de preparação de sessão.
 Foram consultados os exemplares locais fornecidos para o trabalho editorial.
 As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma semelhança de nome
-com outro RPG não substitui a leitura da entrada correspondente no Projeto - M.
+com outro RPG não substitui a leitura da entrada correspondente no Ciclo Maldito.
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20
@@ -964,7 +964,7 @@ Regras gerais: Ataques
 
 
 PÁGINA 21
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 21
@@ -1026,7 +1026,7 @@ Dano e Recuperação: Sequelas e Cicatrizes
 
 
 PÁGINA 22
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 22
@@ -1089,7 +1089,7 @@ Dano e Recuperação: Condições leves
 
 
 PÁGINA 23
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 23
@@ -1151,7 +1151,7 @@ Especial e repertório
 
 
 PÁGINA 24
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 24
@@ -1214,7 +1214,7 @@ Fundamento
 
 
 PÁGINA 25
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 25
@@ -1276,7 +1276,7 @@ Dano e Recuperação: Condições leves
 
 
 PÁGINA 26
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 26
@@ -1340,7 +1340,7 @@ Muro
 
 
 PÁGINA 27
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 27
@@ -1403,7 +1403,7 @@ Vínculo
 
 
 PÁGINA 28
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 28
@@ -1465,7 +1465,7 @@ Ressonante
 
 
 PÁGINA 29
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 29
@@ -1527,7 +1527,7 @@ Rotas: Técnica Marcial
 
 
 PÁGINA 30
-PROJETO - M
+CICLO MALDITO
 CONSULTA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 30

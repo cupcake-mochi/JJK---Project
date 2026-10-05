@@ -358,3 +358,19 @@ Não reduza níveis já recebidos para ajustar o ritmo. Mude as recompensas futu
 **Depois:** (retirado)
 
 **Motivo:** Pedido do autor em 04/10/2026 ("Pode remover, qualquer coisa semelhante tbm"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.
+
+## PRO43 — decisão do autor
+
+**Antes:** Salário e recompensas por mestrar são **políticas opcionais da campanha**. A tabela oferece uma escala do Projeto M para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da obra ou do Japão real.
+
+**Depois:** Salário e recompensas por mestrar são **políticas opcionais da campanha**. A tabela oferece uma escala do Ciclo Maldito para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da obra ou do Japão real.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## PRO44 — decisão do autor
+
+**Antes:** A patente registra o reconhecimento do personagem pela instituição. O Projeto M usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.
+
+**Depois:** A patente registra o reconhecimento do personagem pela instituição. O Ciclo Maldito usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.

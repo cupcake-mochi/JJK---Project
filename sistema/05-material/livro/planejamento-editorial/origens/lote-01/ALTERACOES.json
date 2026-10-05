@@ -424,6 +424,27 @@
       "antes": "Todos começam Grau4, sem ressalva.",
       "depois": "Grau4 na criação padrão; exceções e promoção remetem a Patentes.",
       "motivo": "Concilia permissão de campanha já prevista no equipamento e explicada em PRO35, sem privilégio por Origem."
+    },
+    {
+      "id": "OR36",
+      "tipo": "decisão do autor",
+      "antes": "As Pinturas da Morte inspiram essa possibilidade no Projeto M. A campanha também pode apresentar outras criações. Os efeitos dos Legados são regras desta Origem, não características obrigatórias de todo ser parecido na obra.",
+      "depois": "As Pinturas da Morte inspiram essa possibilidade no Ciclo Maldito. A campanha também pode apresentar outras criações. Os efeitos dos Legados são regras desta Origem, não características obrigatórias de todo ser parecido na obra.",
+      "motivo": "Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda."
+    },
+    {
+      "id": "OR37",
+      "tipo": "decisão do autor",
+      "antes": "Para as regras do Projeto M, escolher Feto não classifica seu personagem como uma maldição. Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e recuperação normais, salvo uma exceção expressa da sua ficha.",
+      "depois": "Para as regras do Ciclo Maldito, escolher Feto não classifica seu personagem como uma maldição. Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e recuperação normais, salvo uma exceção expressa da sua ficha.",
+      "motivo": "Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda."
+    },
+    {
+      "id": "OR38",
+      "tipo": "decisão do autor",
+      "antes": "Panda é uma referência de corpo construído com consciência. As quatro configurações abaixo oferecem possibilidades de personagem do Projeto M. Elas não representam quatro métodos comprovados de fabricação na obra.",
+      "depois": "Panda é uma referência de corpo construído com consciência. As quatro configurações abaixo oferecem possibilidades de personagem do Ciclo Maldito. Elas não representam quatro métodos comprovados de fabricação na obra.",
+      "motivo": "Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda."
     }
   ],
   "status": "Candidata; fontes publicadas intocadas. Fechamentos mecânicos são visíveis para revisão independente."

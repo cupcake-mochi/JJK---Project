@@ -465,7 +465,7 @@ Estar Inconsciente com vida acima de zero não inicia sozinho uma janela de Morr
 <!-- page:descansos|Descansos -->
 # Descansos
 
-O Projeto M usa dois tipos de descanso, definidos pela situação da missão. Não é necessário contar uma quantidade fixa de horas.
+O Ciclo Maldito usa dois tipos de descanso, definidos pela situação da missão. Não é necessário contar uma quantidade fixa de horas.
 
 **Descanso curto:** uma pausa segura entre confrontos. Você parou e não está sendo perseguido naquele momento. **Descanso longo:** a missão terminou e você pôde parar de trabalhar.
 

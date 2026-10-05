@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -26,7 +26,7 @@ progressão.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -84,7 +84,7 @@ anunciada antes das sessões.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -131,7 +131,7 @@ conta é 200 × ½ × ½ = 50 XP. Outra pessoa, em sua primeira missão da seman
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -176,7 +176,7 @@ Exemplo. Você tem 4.000 XP guardados no nível 20 e conclui o feito. Gasta 1.50
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -308,7 +308,7 @@ criação.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -439,7 +439,7 @@ Talentos concedidos, separados das compras feitas nesses 15 espaços.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -472,7 +472,7 @@ rotas usam suas aplicações correspondentes.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -501,7 +501,7 @@ técnica. Ampliar uma aplicação durante o uso segue o Fundamento e não exige 
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -539,7 +539,7 @@ dependam de nível acompanham sua própria regra.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -568,7 +568,7 @@ seção antes da missão seguinte.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -602,13 +602,13 @@ própria; a troca de Trilha não as transforma em entidades por espaço nem aume
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
 Recompensas da guilda
 Salário e recompensas por mestrar são políticas opcionais da campanha. A tabela oferece uma escala do
-Projeto M para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da
+Ciclo Maldito para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da
 obra ou do Japão real.
 Grau
 Salário mensal de referência
@@ -640,13 +640,13 @@ daquele momento. Não guarde uma marca concluída para cobrar depois em outro Gr
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 EXPERIÊNCIA E PROGRESSÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
 Patentes
-A patente registra o reconhecimento do personagem pela instituição. O Projeto M usa os Graus 4, 3, 2, 1
-e Especial, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a
+A patente registra o reconhecimento do personagem pela instituição. O Ciclo Maldito usa os Graus 4, 3,
+2, 1 e Especial, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a
 remuneração adotada pela campanha.
 Na criação padrão, você começa no Grau 4, independentemente da Origem. Uma campanha que comece
 com personagens já reconhecidos pode definir outra patente inicial, conforme Equipamento inicial, em

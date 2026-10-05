@@ -189,6 +189,27 @@
       "antes": "O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma.",
       "depois": "O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma.",
       "motivo": "Decisão do Mizuki em 04/10/2026 (opção B: \"o dano do cisão é na alma, literalmente dano na alma\"), achado G1-02 (revisao-interfaces/CORRECOES-APLICADAS.md). A remissão apontava uma regra que não existia."
+    },
+    {
+      "id": "EQ28",
+      "tipo": "decisão do autor",
+      "antes": "Na instituição do Projeto M, o pagamento regular depende da patente e da participação em missões. Valores, frequência e ajustes da campanha estão em **Recompensas da guilda**, no capítulo de Experiência e Progressão. Receber equipamento ou terminar uma missão não concede outro pagamento por conta própria.",
+      "depois": "Na instituição do Ciclo Maldito, o pagamento regular depende da patente e da participação em missões. Valores, frequência e ajustes da campanha estão em **Recompensas da guilda**, no capítulo de Experiência e Progressão. Receber equipamento ou terminar uma missão não concede outro pagamento por conta própria.",
+      "motivo": "Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda."
+    },
+    {
+      "id": "EQ29",
+      "tipo": "decisão do autor",
+      "antes": "O grau organiza a entrega de ferramentas na campanha. Graus mais altos permitem efeitos mais marcantes. A escala abaixo é uma adaptação do Projeto - M; as fichas deste catálogo são criações para o jogo.",
+      "depois": "O grau organiza a entrega de ferramentas na campanha. Graus mais altos permitem efeitos mais marcantes. A escala abaixo é uma adaptação do Ciclo Maldito; as fichas deste catálogo são criações para o jogo.",
+      "motivo": "Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda."
+    },
+    {
+      "id": "EQ30",
+      "tipo": "decisão do autor",
+      "antes": "No Projeto - M, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo pode pôr em risco o grupo e as pessoas ao redor. A regra não fixa distância nem frequência de encontros: o mestre considera o objeto, o local e as maldições presentes.",
+      "depois": "No Ciclo Maldito, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo pode pôr em risco o grupo e as pessoas ao redor. A regra não fixa distância nem frequência de encontros: o mestre considera o objeto, o local e as maldições presentes.",
+      "motivo": "Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda."
     }
   ],
   "alteracao_de_tabela": "Somente propriedade Leve nas19linhas de FONTES.json; nenhum preço/Volume/dado/mãos/requisito/tipo foi alterado."

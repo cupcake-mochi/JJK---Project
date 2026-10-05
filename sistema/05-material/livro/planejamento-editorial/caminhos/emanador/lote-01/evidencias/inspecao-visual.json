@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "c815b08890b348e0e301d0f791224572e512fa81788043ead683803282213735",
+  "sha256_pdf": "6e5e1eb31fb17d66a912445ce846521851e9f54ba99da82ad98e67007ff944d8",
   "revisor": "/root",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "sha256_pdf_anterior": "6db0a02aea443bbc77bcfabe519beff6585c2c37a241fe625cd199b73e8a6667",
@@ -134,5 +134,34 @@
       10,
       11
     ]
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_pdf_anterior": "c815b08890b348e0e301d0f791224572e512fa81788043ead683803282213735",
+    "sha256_pdf_atual": "6e5e1eb31fb17d66a912445ce846521851e9f54ba99da82ad98e67007ff944d8",
+    "paginas_com_corpo_alterado": [],
+    "paginas_so_com_cabecalho_novo": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
+    "metodo": "As páginas de corpo alterado foram abertas; as outras conservam a inspeção anterior por igualdade de pixels do corpo, e o cabeçalho novo foi conferido na tira de cabeçalho de cada unidade.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

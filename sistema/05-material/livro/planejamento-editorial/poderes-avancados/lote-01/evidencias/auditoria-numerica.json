@@ -2,10 +2,10 @@
   "ok": true,
   "status": "passou",
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4"
+    "sistema/05-material/livro/planejamento-editorial/poderes-avancados/lote-01/PODERES-AVANCADOS.md": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd"
   },
   "limite": "Auditoria matemática e verificação dirigida de texto; não playtest, não teste humano e não prova de balanceamento de toda ficha.",
-  "manuscrito_sha256": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
+  "manuscrito_sha256": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd",
   "script_sha256": "db4c482664c4d9148a5c50bdc78524b3cc7df660d5fdb9722ac1f27a035b0fa8",
   "contrato_sha256": "5092c7041b4e7d5069cbae465c21bfe0b7be77a3a3267bc49c951dbcc2af51e4",
   "checks": [
@@ -172,7 +172,7 @@
     {
       "id": "palavras-degraus",
       "passou": true,
-      "detalhe": 385
+      "detalhe": 384
     },
     {
       "id": "titulo-degraus",
@@ -782,7 +782,7 @@
   ],
   "total_checks": 154,
   "word_counts": {
-    "degraus": 385,
+    "degraus": 384,
     "criardominio": 312,
     "acerto": 329,
     "protecao": 279,
@@ -1473,11 +1473,11 @@
     },
     {
       "path": "sistema/03-mecanica/18-progressao.md",
-      "sha256": "3074b345db8915d2101741ee07790a22e7a98c95ecc4a76ae72803573793dd51"
+      "sha256": "7ac36f34f9f5736fd5f91eddea60eb0acc4a79f919c970424108343a4a5bec0a"
     },
     {
       "path": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
-      "sha256": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7"
+      "sha256": "b01cc5cfae9cc788d620421fa349ff140182a8a1f1aed16a3e8490aa1e1df32d"
     },
     {
       "path": "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md",

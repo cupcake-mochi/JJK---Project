@@ -348,5 +348,15 @@
     "secao": "encerramento",
     "impacto_ou_limite": "Inconsciente ou Derrotado encerra o domínio.",
     "status": "candidata revisada; não publicada"
+  },
+  {
+    "id": "R08-36",
+    "tipo": "decisão do autor",
+    "secao": "degraus",
+    "antes": "Uma Expansão estabelece a Técnica Inata sobre uma área durante vários turnos. Seu domínio pode transformar o lugar em uma galeria, uma oficina ou uma sala de julgamento. A aparência acompanha as capacidades registradas; não cria ataques ou vantagens adicionais durante a abertura. Estas são as regras do Projeto - M para usar esse poder.",
+    "depois": "Uma Expansão estabelece a Técnica Inata sobre uma área durante vários turnos. Seu domínio pode transformar o lugar em uma galeria, uma oficina ou uma sala de julgamento. A aparência acompanha as capacidades registradas; não cria ataques ou vantagens adicionais durante a abertura. Estas são as regras do Ciclo Maldito para usar esse poder.",
+    "motivo": "Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.",
+    "impacto_ou_limite": "Só o nome do sistema.",
+    "status": "aplicada"
   }
 ]

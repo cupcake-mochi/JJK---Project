@@ -12,5 +12,14 @@
     }
   ],
   "conferido": "Diff lido palavra a palavra entre a versão guardada e a atual. O manuscrito desta unidade não cita o texto mudado da peça: usa os nomes novos desde a reconstrução, e os antigos só aparecem na Consulta como nome anterior.",
-  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+  "cotejo_v0334": [
+    {
+      "arquivo": "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md",
+      "sha256_anterior": "17b18f03323737e311ecdc6ab062a694c6077a6f82edf9400d8403281b60415f",
+      "sha256_atual": "cf9ec2c60807263ee9c6412e1627b0348e06737b866d2b7dc7276abd637fbd78",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    }
+  ],
+  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado."
 }

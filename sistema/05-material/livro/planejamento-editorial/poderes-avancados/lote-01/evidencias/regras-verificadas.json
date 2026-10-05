@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
+  "sha256_texto": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd",
   "metodo": "Leitura contextual, comparação entre donos e casos dirigidos; modelos aritméticos executados separadamente.",
   "testes_com_jogadores": false,
   "checks_executados": 154,
@@ -928,5 +928,10 @@
     "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
     "resultado": "ok, 154 verificações; o encerramento ganhou Inconsciente e Derrotado (D32).",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_anterior": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
+    "resultado": "Só o nome do sistema mudou no texto (Projeto - M para Ciclo Maldito); nenhum cenário mecânico lê essas frases, e os resultados anteriores continuam valendo.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

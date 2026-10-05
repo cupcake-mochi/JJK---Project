@@ -273,3 +273,11 @@ Candidata de 03/10/2026. E: edição textual. M: mudança ou fechamento mecânic
 **Depois:** Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Use sua maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melhorias de Ritual.
 
 **Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-08 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D34).
+
+## RP-35 — decisão do autor
+
+**Antes:** As quatro formas e os limites deste capítulo são a adaptação do Projeto - M. **Na mesa, todos os jogadores envolvidos precisam aceitar o acordo.** Não use uma ameaça entre personagens para impor ao jogador uma mudança que ele não aceitou.
+
+**Depois:** As quatro formas e os limites deste capítulo são a adaptação do Ciclo Maldito. **Na mesa, todos os jogadores envolvidos precisam aceitar o acordo.** Não use uma ameaça entre personagens para impor ao jogador uma mudança que ele não aceitou.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.

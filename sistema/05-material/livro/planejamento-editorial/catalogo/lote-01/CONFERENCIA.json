@@ -2,7 +2,7 @@
   "data": "2026-10-03",
   "ok": true,
   "verificacoes": 242,
-  "sha256_pdf": "654093e24be94b83ce1dcc67e1d055efb804ecde41c0f5598aba1e081205bcc1",
+  "sha256_pdf": "23d5d66d5c2661ec23de6b478b79b14e7c4b14f5e2dd1ba1b876eff1fefa921e",
   "sha256_texto": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60",
   "checks": [
     {
@@ -1511,8 +1511,8 @@
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "654093e24be94b83ce1dcc67e1d055efb804ecde41c0f5598aba1e081205bcc1",
-      "esperado": "654093e24be94b83ce1dcc67e1d055efb804ecde41c0f5598aba1e081205bcc1",
+      "obtido": "23d5d66d5c2661ec23de6b478b79b14e7c4b14f5e2dd1ba1b876eff1fefa921e",
+      "esperado": "23d5d66d5c2661ec23de6b478b79b14e7c4b14f5e2dd1ba1b876eff1fefa921e",
       "ok": true
     },
     {

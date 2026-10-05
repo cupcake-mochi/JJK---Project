@@ -572,3 +572,35 @@ Num feitiço de ataque, o acerto não basta para Condição, Prende e Cerca: o a
 **Depois:** | Aplicar uma condição. | Condição, no preço da condição. | Entra na falha do TR, mesmo num ataque. No máximo uma Pesada. Se for Pesada, o alvo repete TR no fim dos turnos para encerrá-la. |
 
 **Motivo:** Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado ("Controle inteiro"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste.
+
+## FU-62 — decisão do autor
+
+**Antes:** Uma técnica pode transformar uma luta antes de causar qualquer ferimento: prender uma porta, separar dois inimigos ou levar um aliado para fora do perigo. No Projeto - M, você escreve o que a sua técnica faz e monta as aplicações que o personagem aprendeu a usar.
+
+**Depois:** Uma técnica pode transformar uma luta antes de causar qualquer ferimento: prender uma porta, separar dois inimigos ou levar um aliado para fora do perigo. No Ciclo Maldito, você escreve o que a sua técnica faz e monta as aplicações que o personagem aprendeu a usar.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## FU-63 — decisão do autor
+
+**Antes:** Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Projeto - M. As técnicas originais destes exemplos foram criadas para ensinar o sistema.
+
+**Depois:** Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Ciclo Maldito. As técnicas originais destes exemplos foram criadas para ensinar o sistema.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## FU-64 — decisão do autor
+
+**Antes:** Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga superfícies por dobraduras. Sua Regra permite unir duas marcas preparadas. Suas Famílias Fechadas são Amparo, Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M.
+
+**Depois:** Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga superfícies por dobraduras. Sua Regra permite unir duas marcas preparadas. Suas Famílias Fechadas são Amparo, Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Ciclo Maldito.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## FU-65 — decisão do autor
+
+**Antes:** Esta **Máxima sem dano em combate** pertence a uma técnica que distribui impulso por fios ligados a corpos dispostos. Sua Regra permite conduzir os movimentos desses corpos. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M.
+
+**Depois:** Esta **Máxima sem dano em combate** pertence a uma técnica que distribui impulso por fios ligados a corpos dispostos. Sua Regra permite conduzir os movimentos desses corpos. Alcance e Área precisam estar disponíveis. É uma criação original do Ciclo Maldito.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.

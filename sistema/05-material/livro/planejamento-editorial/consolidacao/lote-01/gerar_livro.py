@@ -96,7 +96,7 @@ if opt.strict and link_issues:raise ValueError(f'{len(link_issues)} destinos pen
 for key,text in snapshots.items(): (E/'fontes-capturadas'/f'{key}.md').write_text(text)
 
 # Fonte única derivada: texto integral e destinos qualificados. Apenas hierarquia e remissões mudam.
-md=['# Projeto - M','', '> Candidata editorial reunida. Publicação v0.331 preservada.','']
+md=['# Ciclo Maldito','', '> Candidata editorial reunida. Publicação v0.331 preservada.','']
 map_chapter={};suppressed=[]
 for ch in chapters:
  if ch['key']==next(c['key'] for c in chapters if c['parte']==ch['parte']):md.extend([f"<!-- parte:{ch['parte']} -->",f"# Parte {ch['parte']} — {part_rows[ch['parte']-1]['titulo']}",''])
@@ -166,7 +166,7 @@ class Book(SimpleDocTemplate):
 def decorations(c,doc):
  if doc.page==1:return
  c.saveState();c.setStrokeColor(RULE);c.setLineWidth(.5);c.line(M,H-14*mm,W-M,H-14*mm);c.line(M,16*mm,W-M,16*mm)
- c.setFillColor(ACC);c.setFont('Head',9);c.drawString(M,H-11*mm,'PROJETO - M')
+ c.setFillColor(ACC);c.setFont('Head',9);c.drawString(M,H-11*mm,'CICLO MALDITO')
  c.setFillColor(MUTED);c.setFont('Head',8);label=current_chapter.upper() if current_chapter else 'SUMÁRIO';c.drawRightString(W-M,H-11*mm,label)
  c.drawString(M,11*mm,'CANDIDATA EDITORIAL • BASE v0.331');c.setFillColor(ACC);c.setFont('Head',11);c.drawRightString(W-M,10.5*mm,str(doc.page));c.restoreState()
 
@@ -288,7 +288,7 @@ def toc_row(label,key,style='toc'):
  tb=Table([[left,right]],colWidths=[AW-12*mm,12*mm],hAlign='LEFT');tb.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(-1,-1),0),('TOPPADDING',(0,0),(-1,-1),1.3),('BOTTOMPADDING',(0,0),(-1,-1),1.3)]));return tb
 
 def story():
- st=[Spacer(1,42*mm),Paragraph('PROJETO - M',ST['cover']),Paragraph('Livro de regras',ParagraphStyle('cover-sub',parent=ST['chapter'],fontSize=27,leading=30)),Spacer(1,8*mm),Paragraph('RPG de mesa no universo de Jujutsu Kaisen',ST['body']),Spacer(1,12*mm),Paragraph('Candidata editorial reunida',ST['part']),Paragraph('Texto em revisão • publicação v0.331 preservada',ST['body']),PageBreak(),Paragraph('Sumário',ST['chapter'])]
+ st=[Spacer(1,42*mm),Paragraph('CICLO MALDITO',ST['cover']),Paragraph('Livro de regras',ParagraphStyle('cover-sub',parent=ST['chapter'],fontSize=27,leading=30)),Spacer(1,8*mm),Paragraph('RPG de mesa no universo de Jujutsu Kaisen',ST['body']),Spacer(1,12*mm),Paragraph('Candidata editorial reunida',ST['part']),Paragraph('Texto em revisão • publicação v0.331 preservada',ST['body']),PageBreak(),Paragraph('Sumário',ST['chapter'])]
  for part in part_rows:
   p=Paragraph(escape(part['titulo']),ST['tocpart']);st.append(p)
   for ch in [c for c in chapters if part_rows[c['parte']-1]['key']==part['key']]:
@@ -314,7 +314,7 @@ def story():
 pdf=OUT/'Projeto-M-Livro-Completo-Candidata.pdf';previous=None;pass_reports=[]
 for passno in range(1,opt.passes+1):
  events=[];current_chapter='';current_part='';current_source='';current_block=''
- doc=Book(str(pdf),pagesize=A4,leftMargin=M,rightMargin=M,topMargin=21*mm,bottomMargin=21*mm,title='Projeto - M — Livro de regras — candidata editorial',author='Projeto - M',pageCompression=1)
+ doc=Book(str(pdf),pagesize=A4,leftMargin=M,rightMargin=M,topMargin=21*mm,bottomMargin=21*mm,title='Ciclo Maldito — Livro de regras — candidata editorial',author='Ciclo Maldito',pageCompression=1)
  doc.pages={};doc.block_pages={};doc.keepTogetherClass=GrupoComTabela
  doc.build(story())
  fresh=doc.pages;pass_reports.append({'passagem':passno,'paginas':doc.page,'destinos':len(fresh),'mapa_estavel':fresh==page_map})

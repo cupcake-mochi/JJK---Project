@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -7,7 +7,7 @@ Expansão de Domínio
 Uma Expansão estabelece a Técnica Inata sobre uma área durante vários turnos. Seu domínio pode
 transformar o lugar em uma galeria, uma oficina ou uma sala de julgamento. A aparência acompanha as
 capacidades registradas; não cria ataques ou vantagens adicionais durante a abertura. Estas são as
-regras do Projeto - M para usar esse poder.
+regras do Ciclo Maldito para usar esse poder.
 A montagem de Liberação e Técnica Máxima está em Fundamento. As rotas Sem Técnica e Técnica
 Marcial não recebem Expansão por terem acesso à progressão de Classes.
 Você adquire Expansão com espaços de feitiços conhecidos. Os requisitos de nível e refino precisam ser
@@ -51,7 +51,7 @@ outros feitiços.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -84,7 +84,7 @@ preparação.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -116,7 +116,7 @@ dados.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -146,7 +146,7 @@ em Acertos nem provoca o teste que exigiria efetivamente deter uma aplicação.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -189,7 +189,7 @@ ou a abertura de outro domínio.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -226,7 +226,7 @@ move o centro nem reinicia a duração.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -257,7 +257,7 @@ quando o domínio dele também terminar.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -291,7 +291,7 @@ PE.
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -334,7 +334,7 @@ pode produzir uma aplicação imediata entre os turnos; ela não substitui a pr�
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -373,7 +373,7 @@ de uma corrida, dano comum não pede este teste especial para sustentar a Expans
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -405,7 +405,7 @@ a 9 m de seu centro está fora da proteção e continua sujeito ao Acerto aberto
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -435,7 +435,7 @@ apaga falhas enquanto outro continuar na mesma corrida.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -475,7 +475,7 @@ inicia Rescaldo da mesma maneira.
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -513,7 +513,7 @@ refino 8, ela perde antes desse desempate.
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 PODERES AVANÇADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15

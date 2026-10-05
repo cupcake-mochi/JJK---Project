@@ -1,7 +1,7 @@
 {
   "data": "2026-10-03",
   "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
-  "sha256_pdf": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+  "sha256_pdf": "de669993af1cd773892f85dbdd18ef7decddec95d75c913c96b4b0339050887c",
   "metodo": "Abertura de cada página modificada pelas remissões; conservação da avaliação anterior por igualdade de pixels nas outras páginas.",
   "comparacao": "evidencias/COMPARACAO-REMISSOES-PDF.json",
   "prova_anterior": "05471747af60a9761bb5403db0b060bb555b100c518d081b85cdb8def74ef81a",
@@ -117,5 +117,26 @@
       "imagem": "output/png/pagina-11.png"
     }
   ],
-  "limites": "Sem impressão física, playtest ou teste com leitores humanos."
+  "limites": "Sem impressão física, playtest ou teste com leitores humanos.",
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_pdf_anterior": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+    "sha256_pdf_atual": "de669993af1cd773892f85dbdd18ef7decddec95d75c913c96b4b0339050887c",
+    "paginas_com_corpo_alterado": [],
+    "paginas_so_com_cabecalho_novo": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
+    "metodo": "As páginas de corpo alterado foram abertas; as outras conservam a inspeção anterior por igualdade de pixels do corpo, e o cabeçalho novo foi conferido na tira de cabeçalho de cada unidade.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  }
 }

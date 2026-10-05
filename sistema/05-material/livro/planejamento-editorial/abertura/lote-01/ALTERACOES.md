@@ -208,3 +208,59 @@ PV,PE e CD agora são expandidos na primeira ocorrência. A lista final diz trei
 **Depois:** Se a criatura sobrevivesse ao acerto, faria o TR Físico contra CD 12 e, na falha, ficaria Derrubada por uma rodada.
 
 **Motivo:** Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado ("Controle inteiro"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste.
+
+## AB28 — decisão do autor
+
+**Antes:** <!-- page:ab-apresentacao|Projeto - M -->
+
+**Depois:** <!-- page:ab-apresentacao|Ciclo Maldito -->
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## AB29 — decisão do autor
+
+**Antes:** # Projeto - M
+
+**Depois:** # Ciclo Maldito
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## AB30 — decisão do autor
+
+**Antes:** Projeto - M oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que sabe. Uma mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar, conforme os efeitos que você construir para eles.
+
+**Depois:** Ciclo Maldito oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que sabe. Uma mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar, conforme os efeitos que você construir para eles.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## AB31 — decisão do autor
+
+**Antes:** > Projeto - M é um material de fã baseado na obra de Gege Akutami. Suas regras, personagens de exemplo e missões são criações para este jogo. As escolhas de adaptação estão reunidas em Referências e adaptação.
+
+**Depois:** > Ciclo Maldito é um material de fã baseado na obra de Gege Akutami. Suas regras, personagens de exemplo e missões são criações para este jogo. As escolhas de adaptação estão reunidas em Referências e adaptação.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## AB32 — decisão do autor
+
+**Antes:** No jogo, você descreve sua técnica e monta suas aplicações usando o Fundamento. Chamamos cada aplicação preparada de **feitiço**. Pontos de energia, Classes, espaços conhecidos e demais valores são regras do Projeto - M para organizar seu uso na mesa.
+
+**Depois:** No jogo, você descreve sua técnica e monta suas aplicações usando o Fundamento. Chamamos cada aplicação preparada de **feitiço**. Pontos de energia, Classes, espaços conhecidos e demais valores são regras do Ciclo Maldito para organizar seu uso na mesa.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## AB33 — decisão do autor
+
+**Antes:** As **Origens** do Projeto - M organizam essas possibilidades para a criação de personagens. São categorias do sistema, com escolhas próprias. O grupo define quais estão disponíveis e como elas participam da campanha. Sua ficha informa as capacidades que você possui, mesmo quando sua história menciona mais de uma dessas possibilidades.
+
+**Depois:** As **Origens** do Ciclo Maldito organizam essas possibilidades para a criação de personagens. São categorias do sistema, com escolhas próprias. O grupo define quais estão disponíveis e como elas participam da campanha. Sua ficha informa as capacidades que você possui, mesmo quando sua história menciona mais de uma dessas possibilidades.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.
+
+## AB34 — decisão do autor
+
+**Antes:** Em Projeto - M, o número anotado já é o valor somado quando uma regra pede o atributo. **Força 3 fornece +3**, sem uma conversão adicional.
+
+**Depois:** Em Ciclo Maldito, o número anotado já é o valor somado quando uma regra pede o atributo. **Força 3 fornece +3**, sem uma conversão adicional.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.

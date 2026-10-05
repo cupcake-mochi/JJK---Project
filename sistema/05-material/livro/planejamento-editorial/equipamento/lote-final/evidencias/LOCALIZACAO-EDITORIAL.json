@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
+  "sha256_texto": "ce763d7d27ef709b3a89c956789f0c1908da82d00ce396645ca9a644d8b3cc98",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -64,5 +64,35 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas não explicam capacidade de outro dono: citam o procedimento geral ou a seção dona pelo nome. Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_anterior": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
+    "sha256_atual": "ce763d7d27ef709b3a89c956789f0c1908da82d00ce396645ca9a644d8b3cc98",
+    "mudancas": [
+      {
+        "codigo": "EQ28",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "eqc-dinheiro",
+        "antes": "Na instituição do Projeto M, o pagamento regular depende da patente e da participação em missões. Valores, frequência e ajustes da campanha estão em **Recompensas da guilda**, no capítulo de Experiência e Progressão. Receber equipamento ou terminar uma missão não concede outro pagamento por conta própria.",
+        "depois": "Na instituição do Ciclo Maldito, o pagamento regular depende da patente e da participação em missões. Valores, frequência e ajustes da campanha estão em **Recompensas da guilda**, no capítulo de Experiência e Progressão. Receber equipamento ou terminar uma missão não concede outro pagamento por conta própria."
+      },
+      {
+        "codigo": "EQ29",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "eqf-graus",
+        "antes": "O grau organiza a entrega de ferramentas na campanha. Graus mais altos permitem efeitos mais marcantes. A escala abaixo é uma adaptação do Projeto - M; as fichas deste catálogo são criações para o jogo.",
+        "depois": "O grau organiza a entrega de ferramentas na campanha. Graus mais altos permitem efeitos mais marcantes. A escala abaixo é uma adaptação do Ciclo Maldito; as fichas deste catálogo são criações para o jogo."
+      },
+      {
+        "codigo": "EQ30",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "eqf-objetos",
+        "antes": "No Projeto - M, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo pode pôr em risco o grupo e as pessoas ao redor. A regra não fixa distância nem frequência de encontros: o mestre considera o objeto, o local e as maldições presentes.",
+        "depois": "No Ciclo Maldito, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo pode pôr em risco o grupo e as pessoas ao redor. A regra não fixa distância nem frequência de encontros: o mestre considera o objeto, o local e as maldições presentes."
+      }
+    ],
+    "registro": "equipamento/lote-final/ALTERACOES.json (EQ28, EQ29, EQ30)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto: só o nome do sistema mudou, de Projeto - M para Ciclo Maldito, com o mesmo gênero e o mesmo artigo. O conferir_editorial dá 0 achados no texto atual, sem exceção nova. As exceções de localização já registradas casam pelo trecho e continuam valendo."
   }
 }

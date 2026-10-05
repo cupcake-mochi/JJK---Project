@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -44,7 +44,7 @@ Conclusão Dupla
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -89,7 +89,7 @@ continua disponível como ataque comum, mas não abre outra Sequência depois da
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -121,7 +121,7 @@ Fechar a Rota não reduz, por si, o valor do deslocamento exigido por Fixar o Al
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -150,7 +150,7 @@ antecipado. Derrubado e Desarmado seguem suas regras próprias.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -186,7 +186,7 @@ Golpe Inicial, guarde uma arma e saque outra sem ação, uma troca por Sequênci
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -215,7 +215,7 @@ O uso é gasto na declaração. A fonte da preparação pode ser diferente da fo
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -247,7 +247,7 @@ maior Classe 7, Compasso exige Classe 4 ou superior.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -284,7 +284,7 @@ Dupla, escolha duas opções deste catálogo e respeite todos os requisitos da D
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -310,7 +310,7 @@ incompatibilidade com Bote.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -370,7 +370,7 @@ percorrido.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -413,7 +413,7 @@ exclusiva de sua janela armada.
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -447,7 +447,7 @@ mesma Desestabilizadora.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -474,7 +474,7 @@ Ação Bônus até o fim do próximo turno dele. O virote é gasto mesmo no erro
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -497,7 +497,7 @@ para Acionar, não para o pagamento das Conclusões.
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -522,7 +522,7 @@ Conduzir.
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -555,7 +555,7 @@ estar pronta, com duas unidades carregadas: uma para o disparo e outra para esse
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -583,7 +583,7 @@ Tiro Controlado não são Oportunidades prontas.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
@@ -621,7 +621,7 @@ retirada, mas ainda precisa cumprir o preparo da Conclusão.
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
@@ -671,7 +671,7 @@ não participa da Finta porque não exige TR.
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 VANGUARDA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20

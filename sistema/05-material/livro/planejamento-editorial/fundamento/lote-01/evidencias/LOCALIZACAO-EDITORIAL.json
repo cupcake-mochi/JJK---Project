@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7",
+  "sha256_texto": "b01cc5cfae9cc788d620421fa349ff140182a8a1f1aed16a3e8490aa1e1df32d",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -95,5 +95,42 @@
     "registro": "fundamento/lote-01/ALTERACOES.json (FU-59, FU-60, FU-61) e revisao-interfaces/CORRECOES-APLICADAS.md (D43)",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
     "conferido": "Trechos trocados relidos no contexto da seção e das vizinhas: decisão do autor de 05/10/2026 (D43, TR obrigatório em Condição, Prende e Cerca). As frases novas usam só os nomes das peças e do TR registrado, citam Controle no Catálogo pelo nome quando a regra mora lá e não copiam o texto da peça. O conferir_editorial dá 0 achados no texto atual, sem exceção nova; títulos não mudaram. O restante do texto é idêntico e conserva a leitura anterior. As exceções de localização já registradas casam pelo trecho e continuam valendo; nenhuma dependia das linhas trocadas."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_anterior": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7",
+    "sha256_atual": "b01cc5cfae9cc788d620421fa349ff140182a8a1f1aed16a3e8490aa1e1df32d",
+    "mudancas": [
+      {
+        "codigo": "FU-62",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "fundamento",
+        "antes": "Uma técnica pode transformar uma luta antes de causar qualquer ferimento: prender uma porta, separar dois inimigos ou levar um aliado para fora do perigo. No Projeto - M, você escreve o que a sua técnica faz e monta as aplicações que o personagem aprendeu a usar.",
+        "depois": "Uma técnica pode transformar uma luta antes de causar qualquer ferimento: prender uma porta, separar dois inimigos ou levar um aliado para fora do perigo. No Ciclo Maldito, você escreve o que a sua técnica faz e monta as aplicações que o personagem aprendeu a usar."
+      },
+      {
+        "codigo": "FU-63",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "fundamento",
+        "antes": "Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Projeto - M. As técnicas originais destes exemplos foram criadas para ensinar o sistema.",
+        "depois": "Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Ciclo Maldito. As técnicas originais destes exemplos foram criadas para ensinar o sistema."
+      },
+      {
+        "codigo": "FU-64",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "passagem",
+        "antes": "Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga superfícies por dobraduras. Sua Regra permite unir duas marcas preparadas. Suas Famílias Fechadas são Amparo, Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M.",
+        "depois": "Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga superfícies por dobraduras. Sua Regra permite unir duas marcas preparadas. Suas Famílias Fechadas são Amparo, Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Ciclo Maldito."
+      },
+      {
+        "codigo": "FU-65",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "retirada",
+        "antes": "Esta **Máxima sem dano em combate** pertence a uma técnica que distribui impulso por fios ligados a corpos dispostos. Sua Regra permite conduzir os movimentos desses corpos. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M.",
+        "depois": "Esta **Máxima sem dano em combate** pertence a uma técnica que distribui impulso por fios ligados a corpos dispostos. Sua Regra permite conduzir os movimentos desses corpos. Alcance e Área precisam estar disponíveis. É uma criação original do Ciclo Maldito."
+      }
+    ],
+    "registro": "fundamento/lote-01/ALTERACOES.json (FU-62, FU-63, FU-64, FU-65)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto: só o nome do sistema mudou, de Projeto - M para Ciclo Maldito, com o mesmo gênero e o mesmo artigo. O conferir_editorial dá 0 achados no texto atual, sem exceção nova. As exceções de localização já registradas casam pelo trecho e continuam valendo."
   }
 }

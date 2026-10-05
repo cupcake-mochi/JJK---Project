@@ -1,0 +1,30 @@
+{
+  "fontes": [
+    {
+      "arquivo": "sistema/03-mecanica/20-tecnica-marcial.md",
+      "sha256_anterior": "f33c1bf1cff6ca4411199ba33e8444fe3f1b187898eda514ebb96416a86f6d3e",
+      "sha256_atual": "aa2614d6edb42e51e7cd7088dc2a51e634a00c4d0ab70cba6de25c8554eba259",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/25-sem-tecnica.md",
+      "sha256_anterior": "e2b80010d36466081ba900fb74354eb2d43048b06e6f6bb408e69faf6f9dd46c",
+      "sha256_atual": "e3bfc9a952e10f9d98a1e7bf569cca0366fb083a31fe6d297a97a39a8a11d366",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/15-invocacoes.md",
+      "sha256_anterior": "55c693345df974fabf2f674bfd327f469dae3ed2279b0393575443035045f0d4",
+      "sha256_atual": "84a0bad0bc0e8e13d43f25469588f50700dfaa40e60ed95265fbfb3548675dc2",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/26-bestiario.md",
+      "sha256_anterior": "65dcadbdcc1ac2f94acae718e3db1f137420f5100059388b527765fb4618e7b9",
+      "sha256_atual": "406210c9358ac521de20bbb9eabb6595c00da8d1fe0f89d0f8101191ea5ea441",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    }
+  ],
+  "conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado.",
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+}

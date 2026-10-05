@@ -18,14 +18,24 @@
     },
     {
       "arquivo": "sistema/03-mecanica/18-progressao.md",
-      "sha256": "3074b345db8915d2101741ee07790a22e7a98c95ecc4a76ae72803573793dd51"
+      "sha256": "7ac36f34f9f5736fd5f91eddea60eb0acc4a79f919c970424108343a4a5bec0a",
+      "cotejo_2026_10_05_v0333": {
+        "sha256_anterior": "3074b345db8915d2101741ee07790a22e7a98c95ecc4a76ae72803573793dd51",
+        "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou.",
+        "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+      }
     },
     {
       "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
-      "sha256": "01fbacdc09444d4cc3b945615952f90ed9d9fc39091064a8ca2612723a0920f1",
+      "sha256": "8c240204c944cdf2e028070b7cdfa3c3a1911be7c74dfe3fc4b5044831987395",
       "cotejo_2026_10_05": {
         "sha256_anterior": "6526b5d6c860765f0da6c0ce05053c862d922097ab3a02de8e79d1a281a8f2a7",
         "motivo": "Passo 2 da migração (v0.332, commit 789cf5a): só renomes (Incapacitado → Guarda Aberta, Aviso → Leitura de Feitiços, Reencarnado → Encarnado), já usados pela candidata. Nenhum número da progressão mudou.",
+        "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+      },
+      "cotejo_2026_10_05_v0333": {
+        "sha256_anterior": "01fbacdc09444d4cc3b945615952f90ed9d9fc39091064a8ca2612723a0920f1",
+        "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou.",
         "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
       }
     },

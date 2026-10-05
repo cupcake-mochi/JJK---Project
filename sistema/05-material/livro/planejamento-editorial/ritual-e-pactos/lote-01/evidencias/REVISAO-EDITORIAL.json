@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707",
+  "sha256_texto": "0a334192d99b5e73dba144b20095a5677eb1674bc0f64d0e50a7c08a60a5f344",
   "revisor": "Agente principal (autoria) e compatibilidade (revisão independente, correções RP25–RP32 e releitura das interfaces alteradas).",
   "teste_humano": false,
   "secoes": [
@@ -111,5 +111,21 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_anterior": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707",
+    "sha256_atual": "0a334192d99b5e73dba144b20095a5677eb1674bc0f64d0e50a7c08a60a5f344",
+    "mudancas": [
+      {
+        "codigo": "RP-35",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "pactos",
+        "antes": "As quatro formas e os limites deste capítulo são a adaptação do Projeto - M. **Na mesa, todos os jogadores envolvidos precisam aceitar o acordo.** Não use uma ameaça entre personagens para impor ao jogador uma mudança que ele não aceitou.",
+        "depois": "As quatro formas e os limites deste capítulo são a adaptação do Ciclo Maldito. **Na mesa, todos os jogadores envolvidos precisam aceitar o acordo.** Não use uma ameaça entre personagens para impor ao jogador uma mudança que ele não aceitou."
+      }
+    ],
+    "registro": "ritual-e-pactos/lote-01/ALTERACOES.json (RP-35)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto: só o nome do sistema mudou, de Projeto - M para Ciclo Maldito, com o mesmo gênero e o mesmo artigo. O conferir_editorial dá 0 achados no texto atual, sem exceção nova."
   }
 }

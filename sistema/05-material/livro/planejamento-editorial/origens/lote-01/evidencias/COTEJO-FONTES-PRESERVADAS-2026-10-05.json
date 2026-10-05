@@ -22,5 +22,20 @@
     }
   ],
   "conferido": "Diff lido palavra a palavra entre a versão guardada e a atual. O manuscrito desta unidade não cita o texto mudado da peça: usa os nomes novos desde a reconstrução, e os antigos só aparecem na Consulta como nome anterior.",
-  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+  "cotejo_v0334": [
+    {
+      "arquivo": "sistema/03-mecanica/09-origens.md",
+      "sha256_anterior": "3299b6c20185daa1f021bfbbb9cee35ee7c8faa1bfe57914ae514cc43b5bd0f6",
+      "sha256_atual": "e8d42da3626d9032f1d3f5d976c23bb8df497aee161e6dc9001958dbb3cfdc6a",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/13-legados.md",
+      "sha256_anterior": "0bbed47da6d19fc86d1f2f13c5e9d1ffc696c8bdbb63f402d9f60343231ce361",
+      "sha256_atual": "4c503356273b274c5f11000b5895521bef19d496e5013e6bb79a79e1be676778",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    }
+  ],
+  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado."
 }

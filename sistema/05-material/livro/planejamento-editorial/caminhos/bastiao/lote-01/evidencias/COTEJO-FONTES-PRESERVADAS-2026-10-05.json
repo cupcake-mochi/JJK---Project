@@ -12,5 +12,14 @@
     }
   ],
   "conferido": "Diff lido palavra a palavra entre a versão guardada e a atual. O manuscrito desta unidade não cita o texto mudado da peça: usa os nomes novos desde a reconstrução, e os antigos só aparecem na Consulta como nome anterior.",
-  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+  "cotejo_v0334": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "5d8f0c5298af6ff02303e2c8443c45f99716620b3a8d879b6b27667a2cf9e741",
+      "sha256_atual": "d182951ad801e16b97fc7a9251cdaddb9150cca69678bd6a4e7bd187b15a8174",
+      "motivo": "Entrada nova da v0.333 no topo do CHANGELOG; o resto do arquivo é idêntico, e a unidade não depende da entrada nova."
+    }
+  ],
+  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado."
 }

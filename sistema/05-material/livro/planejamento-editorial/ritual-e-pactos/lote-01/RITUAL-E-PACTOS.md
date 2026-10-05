@@ -203,7 +203,7 @@ Um pacto troca uma limitação ou um compromisso por uma capacidade definida. Es
 | Promessa | Quando duas partes capazes de decidir aceitam os termos. | Prazo e consequências registrados no acordo. |
 | Pacto de restrição | Na criação, com a Origem ou técnica. | Registra uma limitação já considerada na ficha. |
 
-As quatro formas e os limites deste capítulo são a adaptação do Projeto - M. **Na mesa, todos os jogadores envolvidos precisam aceitar o acordo.** Não use uma ameaça entre personagens para impor ao jogador uma mudança que ele não aceitou.
+As quatro formas e os limites deste capítulo são a adaptação do Ciclo Maldito. **Na mesa, todos os jogadores envolvidos precisam aceitar o acordo.** Não use uma ameaça entre personagens para impor ao jogador uma mudança que ele não aceitou.
 
 ## Preço real
 

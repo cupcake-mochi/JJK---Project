@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -42,7 +42,7 @@ somar os benefícios de duas Origens.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -83,7 +83,7 @@ avanço.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -119,7 +119,7 @@ Você pode escrever um dos seus dois Legados com o mestre, conforme Criar um Leg
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -147,7 +147,7 @@ A ficha estabelece essa relação, sem obrigar a chefe a oferecer abrigo em qual
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -175,7 +175,7 @@ pausa sob perseguição em descanso seguro.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -204,7 +204,7 @@ o que aconteceu no passado.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -234,7 +234,7 @@ recursos e as capacidades disponíveis da ficha.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -261,7 +261,7 @@ precisará explicar o que aconteceu, se quiser conservar a confiança dela.
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -293,7 +293,7 @@ escolhas e custos próprios.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -324,7 +324,7 @@ Biblioteca permite refazer esse teste uma vez naquela cena.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -352,7 +352,7 @@ peça são acontecimentos da aventura, e ela não começa em seu inventário.
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -383,7 +383,7 @@ técnica moderna, o Legado não fornece essa identificação.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -392,10 +392,10 @@ Você é uma criação que reúne natureza humana e amaldiçoada. Alguém partic
 sua formação, e o motivo pode ter sido pesquisa, ambição ou uma tentativa de produzir algo que ainda
 não existia. O nome desta Origem descreve essa procedência. Seu personagem pode ter aparência e
 idade adulta.
-As Pinturas da Morte inspiram essa possibilidade no Projeto M. A campanha também pode apresentar
-outras criações. Os efeitos dos Legados são regras desta Origem, não características obrigatórias de
-todo ser parecido na obra.
-Para as regras do Projeto M, escolher Feto não classifica seu personagem como uma maldição.
+As Pinturas da Morte inspiram essa possibilidade no Ciclo Maldito. A campanha também pode
+apresentar outras criações. Os efeitos dos Legados são regras desta Origem, não características
+obrigatórias de todo ser parecido na obra.
+Para as regras do Ciclo Maldito, escolher Feto não classifica seu personagem como uma maldição.
 Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura
 e recuperação normais, salvo uma exceção expressa da sua ficha.
 Perícia da Origem: escolha Ocultismo, Medicina, Sentir Energia ou Natureza. Criação: Fundamento, ou
@@ -418,7 +418,7 @@ ou o nível inicial.
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -449,7 +449,7 @@ pode usar o Legado. Esse deslocamento não provoca ataques de oportunidade.
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -479,7 +479,7 @@ rolagem.
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -501,7 +501,7 @@ narrativo obrigatório e libera a lista de Legados de rolagem correspondente. Vo
 duas configurações. Seu segundo Legado pode vir da lista liberada, ser Ferro Velho ou ser um Legado
 personalizado permitido pelas regras de criação.
 Panda é uma referência de corpo construído com consciência. As quatro configurações abaixo oferecem
-possibilidades de personagem do Projeto M. Elas não representam quatro métodos comprovados de
+possibilidades de personagem do Ciclo Maldito. Elas não representam quatro métodos comprovados de
 fabricação na obra.
 Corpo construído
 Você é imune a Envenenado. Essa imunidade à condição não concede resistência ao tipo de dano
@@ -510,7 +510,7 @@ Consulte Reparo do corpo (p. 17) para recuperação e para as curas compatíveis
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -551,7 +551,7 @@ com 23.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
@@ -580,7 +580,7 @@ personagem. A escolha do segundo Legado definirá o benefício mecânico associa
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
@@ -608,7 +608,7 @@ naquela tentativa. O uso acabou por cena: não poderá usar o mesmo Legado em Me
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20
@@ -639,7 +639,7 @@ descansos curtos necessários entre os usos. O número de combates sozinho não 
 
 
 PÁGINA 21
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 21
@@ -669,7 +669,7 @@ um atributo alto específico. Seu modo de atuar será construído nas demais esc
 
 
 PÁGINA 22
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 22
@@ -699,7 +699,7 @@ Li Tudo. Uma vez por cena, refaça um teste de Ocultismo ou Investigação em qu
 
 
 PÁGINA 23
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 23
@@ -726,7 +726,7 @@ altera o dano ou os efeitos que a arma realmente possui.
 
 
 PÁGINA 24
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 24
@@ -758,7 +758,7 @@ outra vez.
 
 
 PÁGINA 25
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 25
@@ -791,7 +791,7 @@ Uma contrapartida precisa aparecer no jogo e ser conhecida antes de usar o benef
 
 
 PÁGINA 26
-PROJETO - M
+CICLO MALDITO
 ORIGENS E LEGADOS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 26

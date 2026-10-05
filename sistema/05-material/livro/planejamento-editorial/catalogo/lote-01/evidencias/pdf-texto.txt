@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -47,7 +47,7 @@ Categoria de Efeito; a Regra Própria (p. 29) tem aquisição específica.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -73,7 +73,7 @@ escolha do alvo só ocorre quando o gatilho dispara.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -101,7 +101,7 @@ atravessa uma barreira que proíba esse transporte.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -136,7 +136,7 @@ próprios, como uma Troca ou um Empurrão por conjuração, permanecem.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -171,7 +171,7 @@ Depois de criada validamente, a área pode alcançar criaturas não vistas pelo 
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -199,7 +199,7 @@ feitiço inteiro. Alvo e requisitos precisam continuar válidos.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -224,7 +224,7 @@ Técnica Máxima, conserva a redução e os requisitos.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -263,7 +263,7 @@ concederem essa possibilidade.
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -297,7 +297,7 @@ puxar a um ponto que sua Forma não define como centro.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -327,7 +327,7 @@ continua igual.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -359,7 +359,7 @@ Uma duração maior não oferece uma nova vantagem em cada turno.
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -394,7 +394,7 @@ montagem. Não exige reduzir retroativamente o feitiço.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -432,7 +432,7 @@ usa seu procedimento próprio.
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -467,7 +467,7 @@ ações nem adia esse preço.
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -519,7 +519,7 @@ artefato. Fica conserva suas seis janelas de resolução.
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -553,7 +553,7 @@ compatíveis, mas Marca continua fornecendo vantagem para apenas uma tentativa.
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -589,7 +589,7 @@ transformam em acompanhamento automático das conjurações seguintes.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
@@ -619,7 +619,7 @@ penalidades e Derrota e morte para a recuperação após chegar a zero de Integr
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
@@ -655,7 +655,7 @@ concede o efeito de Levanta por conta própria.
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20
@@ -685,7 +685,7 @@ não remove o requisito de Máxima.
 
 
 PÁGINA 21
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 21
@@ -730,7 +730,7 @@ procedimento normal, com TR Vigor ao sofrer dano. Carregar não combina com Arma
 
 
 PÁGINA 22
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 22
@@ -773,7 +773,7 @@ conjurar.
 
 
 PÁGINA 23
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 23
@@ -811,7 +811,7 @@ todo o dano: nesses casos, não acrescentaria uma dificuldade.
 
 
 PÁGINA 24
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 24
@@ -863,7 +863,7 @@ próximo uso.
 
 
 PÁGINA 25
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 25
@@ -905,7 +905,7 @@ Classe. A Melhoria Identificar Feitiço tem efeito e aquisição próprios.
 
 
 PÁGINA 26
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 26
@@ -941,7 +941,7 @@ inimigos derrotados pela mesma conjuração não reduzem o preço seguinte para 
 
 
 PÁGINA 27
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 27
@@ -971,7 +971,7 @@ Capanga não são afetados por este Talento.
 
 
 PÁGINA 28
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 28
@@ -997,7 +997,7 @@ repetidamente para repor PE. Recuperar os pontos segue Descansos, em Dano e recu
 
 
 PÁGINA 29
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 29
@@ -1044,7 +1044,7 @@ criatura.
 
 
 PÁGINA 30
-PROJETO - M
+CICLO MALDITO
 CATÁLOGO DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 30

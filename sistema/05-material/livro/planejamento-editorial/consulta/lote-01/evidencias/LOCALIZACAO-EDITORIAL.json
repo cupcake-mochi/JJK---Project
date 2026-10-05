@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
+  "sha256_texto": "57d6c8e60554ebc18818569baf4325b612235dd96044b880a4a063ae77409c0d",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -259,5 +259,35 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas citam a seção dona pelo nome (Equipamento restrito, Munição inicial, Invocações em campo, Trajes). Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_anterior": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
+    "sha256_atual": "57d6c8e60554ebc18818569baf4325b612235dd96044b880a4a063ae77409c0d",
+    "mudancas": [
+      {
+        "codigo": "R23-33",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "consulta-referencias",
+        "antes": "Projeto - M é um sistema de fã ambientado no universo de **Jujutsu Kaisen**, de Gege Akutami. A obra apresenta personagens, acontecimentos e poderes que inspiram o jogo. Os números e procedimentos desta edição foram escritos para a mesa.",
+        "depois": "Ciclo Maldito é um sistema de fã ambientado no universo de **Jujutsu Kaisen**, de Gege Akutami. A obra apresenta personagens, acontecimentos e poderes que inspiram o jogo. Os números e procedimentos desta edição foram escritos para a mesa."
+      },
+      {
+        "codigo": "R23-34",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "consulta-referencias",
+        "antes": "A ambientação da abertura foi conferida em trechos do volume 1 de Jujutsu Kaisen, disponíveis na prévia oficial da Shueisha, e nos perfis oficiais do anime. Esses recortes sustentam a apresentação geral de maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Projeto - M.",
+        "depois": "A ambientação da abertura foi conferida em trechos do volume 1 de Jujutsu Kaisen, disponíveis na prévia oficial da Shueisha, e nos perfis oficiais do anime. Esses recortes sustentam a apresentação geral de maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Ciclo Maldito."
+      },
+      {
+        "codigo": "R23-35",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "consulta-referencias",
+        "antes": "As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma semelhança de nome com outro RPG não substitui a leitura da entrada correspondente no Projeto - M.",
+        "depois": "As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma semelhança de nome com outro RPG não substitui a leitura da entrada correspondente no Ciclo Maldito."
+      }
+    ],
+    "registro": "consulta/lote-01/ALTERACOES.json (R23-33, R23-34, R23-35)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto: só o nome do sistema mudou, de Projeto - M para Ciclo Maldito, com o mesmo gênero e o mesmo artigo. O conferir_editorial dá 0 achados no texto atual, sem exceção nova. As exceções de localização já registradas casam pelo trecho e continuam valendo."
   }
 }

@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "767f76b38b7b3a7e7365c95c84f178796585db13f72338aa838d8fc1118c5819",
+  "sha256_pdf": "5b298353111bfe3079889f758d39a0c4d13f0f9259f447b396164587c37bfb19",
   "sha256_texto": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "paginas": [
@@ -90,18 +90,20 @@
     {
       "pagina": 12,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Recompensa por mestrar sem a frequência esperada e sem o exemplo; tabela de salários e Participação no mês inteiras.",
-      "sha256_png": "015732ba45b441c5377b620c22ae3c26521e648d931b2df3475380c6b4ae9661",
-      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
-      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
+      "observacoes": "Nome do sistema trocado para Ciclo Maldito no corpo; parágrafos inteiros, sem corte nem linha sozinha.",
+      "sha256_png": "c768276f356460fe59be279f2d1762261571a7fa1350458364822846ae4c063c",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null
     },
     {
       "pagina": 13,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Patentes, agora página 13; corpo inteiro e rodapé separado.",
-      "sha256_png": "b7225cb37fa01e81e2c66b332a6379566c04f0f8166f7c28cb3d8429923497ad",
-      "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
-      "metodo": "página alterada aberta e inspecionada em 04/10/2026 (PNG a 80 dpi), revisão por modelo"
+      "observacoes": "Nome do sistema trocado para Ciclo Maldito no corpo; parágrafos inteiros, sem corte nem linha sozinha.",
+      "sha256_png": "0d9feca1f0a3c54a4349f72979080cccb67a8f4f0d907bec7b1c9a671a40ec0c",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "arquivo": null
     }
   ],
   "sha256_pdf_anterior": "e895505a4f862aabc64324131b367d3c8151d2f002414cb9d92326f37131b4a8",
@@ -144,5 +146,29 @@
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_pdf_anterior": "767f76b38b7b3a7e7365c95c84f178796585db13f72338aa838d8fc1118c5819",
+    "sha256_pdf_atual": "5b298353111bfe3079889f758d39a0c4d13f0f9259f447b396164587c37bfb19",
+    "paginas_com_corpo_alterado": [
+      12,
+      13
+    ],
+    "paginas_so_com_cabecalho_novo": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
+    "metodo": "As páginas de corpo alterado foram abertas; as outras conservam a inspeção anterior por igualdade de pixels do corpo, e o cabeçalho novo foi conferido na tira de cabeçalho de cada unidade.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

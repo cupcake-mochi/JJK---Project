@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -44,7 +44,7 @@ manejo separada, explicada em Armas escondidas (p. 5).
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -87,7 +87,7 @@ efeito. Você não recebe outra manipulação gratuita a cada turno alheio.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -138,7 +138,7 @@ rolado, sem permitir destruir qualquer material com um único acerto.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -201,7 +201,7 @@ conferem Leve. Arremessos: Ataques e Dano e crítico, em Regras gerais.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -248,7 +248,7 @@ mãos indicadas pela arma. A ajuda não concede ataque nem reutiliza uma manipul
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -290,7 +290,7 @@ concluir a tarefa, a nova proteção não está pronta para uso.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -352,7 +352,7 @@ quase toda cena. Registre a situação e a aparência do uniforme na ficha.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -419,7 +419,7 @@ empunhado. Custos de outros efeitos não são alterados pelo equipamento.
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -472,7 +472,7 @@ não reduz os tempos da tabela.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -544,7 +544,7 @@ novamente, mesmo se restar munição nela.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -586,7 +586,7 @@ livre. Liberar a mão segue os custos normais de manipulação de equipamento.
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -632,7 +632,7 @@ de arma de fogo consumida não é recuperada dessa forma.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -676,7 +676,7 @@ Versátil. Rina escolhe como empunhá-la e anota na ficha o dano com os modifica
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -801,7 +801,7 @@ Oculta · Leve
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -938,7 +938,7 @@ Vestida · Par · Oculta · Leve
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -1042,7 +1042,7 @@ Alcance 3 m · Talha
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -1135,7 +1135,7 @@ guardar, neste capítulo.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
@@ -1275,7 +1275,7 @@ Par · Oculta
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
@@ -1356,7 +1356,7 @@ mochila. Acrescentar uma ração custa ¥1.000 e leva o total a 1,4 Volume.
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20
@@ -1398,7 +1398,7 @@ sentidos sobrenaturais.
 
 
 PÁGINA 21
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 21
@@ -1453,7 +1453,7 @@ adequada e Ação Padrão; não causa dano à criatura contida.
 
 
 PÁGINA 22
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 22
@@ -1504,7 +1504,7 @@ dano, a levam a zero e abrem passagem.
 
 
 PÁGINA 23
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 23
@@ -1527,7 +1527,7 @@ para criaturas continua sem poder escolhê-la como alvo.
 
 
 PÁGINA 24
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 24
@@ -1566,7 +1566,7 @@ podem ser usados se ainda servirem para outra tentativa.
 
 
 PÁGINA 25
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 25
@@ -1578,7 +1578,7 @@ Dinheiro
 Os preços deste livro estão em ienes (¥). Anote o dinheiro do personagem e desconte cada compra.
 Armas, munição e itens comuns têm seus preços nos respectivos catálogos; os de uniformes e escudos
 estão em Preços de proteção (p. 26).
-Na instituição do Projeto M, o pagamento regular depende da patente e da participação em missões.
+Na instituição do Ciclo Maldito, o pagamento regular depende da patente e da participação em missões.
 Valores, frequência e ajustes da campanha estão em Recompensas da guilda, no capítulo de Experiência
 e Progressão. Receber equipamento ou terminar uma missão não concede outro pagamento por conta
 própria.
@@ -1610,7 +1610,7 @@ Força exigida pela arma e a carga do conjunto que pretende levar.
 
 
 PÁGINA 26
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 26
@@ -1656,7 +1656,7 @@ possível, desde que a ficha cumpra os requisitos da peça.
 
 
 PÁGINA 27
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 27
@@ -1709,7 +1709,7 @@ por ¥13.000. Gasta ¥73.000, guarda ¥77.000 e leva 3,1 Volume, incluindo o Tra
 
 
 PÁGINA 28
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 28
@@ -1745,7 +1745,7 @@ antes da compra; não se presume que sejam gratuitos.
 
 
 PÁGINA 29
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 29
@@ -1793,14 +1793,14 @@ Traje 2, além da mudança de aparência.
 
 
 PÁGINA 30
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 30
 Graus das ferramentas
 O grau organiza a entrega de ferramentas na campanha. Graus mais altos permitem efeitos mais
-marcantes. A escala abaixo é uma adaptação do Projeto - M; as fichas deste catálogo são criações para o
-jogo.
+marcantes. A escala abaixo é uma adaptação do Ciclo Maldito; as fichas deste catálogo são criações para
+o jogo.
 Grau
 Efeito esperado
 Nível mínimo para o
@@ -1846,7 +1846,7 @@ permite atravessar uma barreira já pode ser valioso sem acrescentar dano.
 
 
 PÁGINA 31
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 31
@@ -1892,7 +1892,7 @@ os recursos normais do personagem.
 
 
 PÁGINA 32
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 32
@@ -1933,7 +1933,7 @@ realmente volta para a mão e em qual situação.
 
 
 PÁGINA 33
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 33
@@ -1973,7 +1973,7 @@ prendê-la novamente exige uma Ação Padrão.
 
 
 PÁGINA 34
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 34
@@ -2011,7 +2011,7 @@ agarrado a ela.
 
 
 PÁGINA 35
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 35
@@ -2052,7 +2052,7 @@ contra a Defesa ou Bloquear. Um efeito que não permita TR não oferece este gat
 
 
 PÁGINA 36
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 36
@@ -2091,7 +2091,7 @@ encerra o efeito.
 
 
 PÁGINA 37
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 37
@@ -2129,7 +2129,7 @@ daquela cena.
 
 
 PÁGINA 38
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 38
@@ -2181,7 +2181,7 @@ grau e seu efeito não mudam gradualmente durante essa contagem.
 
 
 PÁGINA 39
-PROJETO - M
+CICLO MALDITO
 EQUIPAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 39
@@ -2193,7 +2193,7 @@ Objetos amaldiçoados têm efeitos próprios. Eles não recebem poderes pelo cat
 Uma ferramenta serve como equipamento, empunhada ou vestida; os perigos de um objeto podem
 continuar presentes enquanto ele está guardado.
 Atração e selos
-No Projeto - M, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo
+No Ciclo Maldito, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo
 pode pôr em risco o grupo e as pessoas ao redor. A regra não fixa distância nem frequência de
 encontros: o mestre considera o objeto, o local e as maldições presentes.
 Um objeto preparado como amuleto usa um selo para afastar maldições. Essa proteção enfraquece com

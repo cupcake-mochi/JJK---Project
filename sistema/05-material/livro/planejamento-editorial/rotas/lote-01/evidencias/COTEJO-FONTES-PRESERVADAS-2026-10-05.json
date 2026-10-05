@@ -22,5 +22,32 @@
     }
   ],
   "conferido": "Diff lido palavra a palavra entre a versão guardada e a atual. O manuscrito desta unidade não cita o texto mudado da peça: usa os nomes novos desde a reconstrução, e os antigos só aparecem na Consulta como nome anterior.",
-  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+  "cotejo_v0334": [
+    {
+      "arquivo": "sistema/03-mecanica/20-tecnica-marcial.md",
+      "sha256_anterior": "f33c1bf1cff6ca4411199ba33e8444fe3f1b187898eda514ebb96416a86f6d3e",
+      "sha256_atual": "aa2614d6edb42e51e7cd7088dc2a51e634a00c4d0ab70cba6de25c8554eba259",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/25-sem-tecnica.md",
+      "sha256_anterior": "e2b80010d36466081ba900fb74354eb2d43048b06e6f6bb408e69faf6f9dd46c",
+      "sha256_atual": "e3bfc9a952e10f9d98a1e7bf569cca0366fb083a31fe6d297a97a39a8a11d366",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/09-origens.md",
+      "sha256_anterior": "3299b6c20185daa1f021bfbbb9cee35ee7c8faa1bfe57914ae514cc43b5bd0f6",
+      "sha256_atual": "e8d42da3626d9032f1d3f5d976c23bb8df497aee161e6dc9001958dbb3cfdc6a",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+      "sha256_anterior": "01fbacdc09444d4cc3b945615952f90ed9d9fc39091064a8ca2612723a0920f1",
+      "sha256_atual": "8c240204c944cdf2e028070b7cdfa3c3a1911be7c74dfe3fc4b5044831987395",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    }
+  ],
+  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado."
 }
