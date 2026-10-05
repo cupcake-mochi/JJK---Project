@@ -430,6 +430,9 @@ MORTOS = {
     **{a: f'virou {n} na v0.332, com o livro reconstruido' for a, n, _ in renomes.RENOMES},
     # v0.333: a familia da `Passiva`, na segunda metade do passo 2.
     **{a: f'virou {n} na v0.333, com o livro reconstruido' for a, n, _ in renomes.PASSIVA},
+    # v0.334: o nome do sistema, o do livro final do Mizuki (Ciclo Maldito R28a).
+    'Projeto - M': 'o nome do sistema virou Ciclo Maldito na v0.334',
+    'Projeto M': 'o nome do sistema virou Ciclo Maldito na v0.334',
 }
 
 # Onde um termo morto pode aparecer capitalizado sem ser descuido: a secao que
@@ -452,7 +455,9 @@ MORTO_LIBERADO = {
     'DESENHO-manhas.md': {'Acao de Atacar': 'registro com preco da colecao anterior'},
     'ESTADO-ATUAL.md': {'Acao de Atacar': 'as decisoes da v0.80 a v0.147, com o nome da epoca',
                         **{a: 'as decisoes ate a v0.331, com o nome da epoca'
-                           for a in renomes.antigos()}},
+                           for a in renomes.antigos()},
+                        **{a: 'as decisoes ate a v0.333, com o nome da epoca'
+                           for a in ('Projeto - M', 'Projeto M')}},
 }
 
 # Uma linha que EXPLICA a aposentadoria pode citar o termo morto. Detectado no

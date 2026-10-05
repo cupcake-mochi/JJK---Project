@@ -8,6 +8,26 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.334] — 05/10/2026
+
+**O sistema passou a se chamar Ciclo Maldito.** *Decisão do Mizuki ("troca tudo pra Ciclo Maldito"), depois de mandar o livro final, o Ciclo Maldito R28a.* O nome vale no livro reconstruído, nos documentos do repositório e nos geradores. `Projeto - M` durou da v0.94 até aqui.
+
+**Alterado, na candidata:** 26 linhas em dez capítulos (Abertura, Dano, Origens, Equipamento, Progressão, Fundamento, Aptidões, Poderes avançados, Ritual e Consulta), mais a capa, o cabeçalho e o título dos 23 geradores de capítulo e do gerador do livro. Cada capítulo ganhou o registro de alteração, a revisão editorial por delta, o PDF refeito, a comparação visual e o cotejo das fontes preservadas onde o auditor guarda o texto antigo por hash. **O livro reunido saiu com 382 páginas, como antes, e o corpo mudou em 21 delas;** as 21 foram abertas, mais a 100 como amostra do cabeçalho novo. Cadeia visual, V14, V15, manifestos das 23 unidades e o ZIP de entrega foram refeitos, e o ZIP foi desempacotado numa pasta nova e reproduziu o PDF byte a byte.
+
+**Alterado, no repositório:** o `README`, o `sistema/LEIA-ME.md`, o topo do `ESTADO-ATUAL`, a `arquitetura.md` (a pendência do nome ganhou a data da troca), a peça 26 (uma menção) e o gerador do bloco de inimigo (capa, rodapé e autor do `.docx`, que foi regerado).
+
+**O que ficou com o nome antigo, de propósito:** os nomes de arquivo `Projeto-M-*` (o PDF e o ZIP da candidata, os PDFs do livro v0.331), porque validadores e manifestos apontam para eles; o livro v0.331 congelado e o gerador dele (`05-material/livro/build`); os registros históricos (este CHANGELOG, o `ESTADO-ATUAL` abaixo da seção nova, os pilotos editoriais, os prompts antigos da raiz e as pesquisas); e o bestiário, que tem passada própria.
+
+**Os validadores:** nenhum lia o nome, só os nomes de arquivo, que ficaram. O `conferir-nomes` passou a tratar `Projeto - M` e `Projeto M` como nome aposentado, liberado no `ESTADO-ATUAL` (o histórico) e em linha que conta a troca. A triagem dá `Ciclo Maldito` e `Ciclo` livres.
+
+**Validação:** bateria de 30 de 30 nos validadores, no `conferir-repositorio` e nas contas do manual, com o pulo de sempre (a 7, da entrega). As 23 unidades da candidata passam no auditor e no conferidor, e o `conferir_livro` faz 3.505 verificações sem falha. *Duas unidades guardam por hash um arquivo que esta versão mexeu fora da candidata:* o Bastião guarda este CHANGELOG, e o Catálogo, a peça 26. As duas ganharam o cotejo, e o ZIP foi montado de novo depois disso.
+
+**Pendente:** o `bloco-de-inimigo.pdf` continua sem refazer (o LibreOffice da nuvem não abre `.docx`), agora com dois motivos. O R28a já tem o nome; falta a D43, que entra pelo gerador dele, fora deste repositório.
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: o passo 4.
+
+---
+
 ## [0.333] — 05/10/2026
 
 **O passo 2 da migração fechou: a família da `Passiva` virou a do livro reconstruído.** `Passiva` virou `Talento`, `Classe Passiva` virou `Categoria de Efeito` (a sigla `CP`, `CE`), `Passiva Livre` virou `Expressão da técnica` e `Passiva Própria` virou `Talento Próprio` — os NT04 a NT06 da migração de nomes da candidata. *`passiva` com minúscula é adjetivo comum (*"proteção passiva"*, *"refino passivo"*) e ficou.*

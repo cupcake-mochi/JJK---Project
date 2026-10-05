@@ -136,7 +136,7 @@
     },
     {
       "arquivo": "evidencias/fontes-preservadas.json",
-      "sha256": "541f81e72bd482e11198ca4f4db7a68b97fb7639c973a9b1378399d23eb9d7a7",
+      "sha256": "df03e640ca4567a2a4bc0da2292524a441210596f8988a0f0454c589ff1990ee",
       "bytes": 755
     },
     {
@@ -166,8 +166,8 @@
     },
     {
       "arquivo": "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
-      "sha256": "3d4754248ebabdc672645456150f5ee4399ac3c27946099bfd9a2ae23a259d38",
-      "bytes": 1536
+      "sha256": "9cb2fae7c6409f88d34492f80d5645fb911255bd12921ce50d64aac2bd2e7304",
+      "bytes": 2157
     },
     {
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
@@ -213,6 +213,14 @@
     ],
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Oitava passada de 05/10/2026 (v0.334): o nome do sistema passou a Ciclo Maldito, por decisão do autor. Só o cabeçalho do PDF mudou.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_documentos_v0334": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "motivo": "O CHANGELOG ganhou a entrada [0.334], e o Bastião guarda o hash dele como fonte preservada: cotejo registrado. O texto e o PDF da unidade não mudaram.",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

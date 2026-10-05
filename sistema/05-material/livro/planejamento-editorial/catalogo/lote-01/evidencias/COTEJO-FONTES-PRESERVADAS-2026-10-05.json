@@ -26,5 +26,14 @@
     }
   ],
   "conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado.",
-  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+  "cotejo_v0334_documentos": [
+    {
+      "arquivo": "sistema/03-mecanica/26-bestiario.md",
+      "sha256_anterior": "406210c9358ac521de20bbb9eabb6595c00da8d1fe0f89d0f8101191ea5ea441",
+      "sha256_atual": "9e117a653fc5ed7404ac8d7703080b62b15c56241feaa93404808549348dc032",
+      "motivo": "Uma linha da peça 26 (v0.334): \"adaptação do Projeto M\" virou \"adaptação do Ciclo Maldito\". Nenhum número ou regra mudou, e o Catálogo não reproduz o trecho."
+    }
+  ],
+  "cotejo_v0334_documentos_conferido": "Diff lido: só a troca do nome do sistema fora da candidata. O manuscrito desta unidade não depende do texto mudado."
 }

@@ -465,7 +465,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 > **⚠ A coluna `vulnerabilidade` é conta de vida efetiva, e não preço.** *Ela diz quanto a luta encurta se o grupo inteiro bater naquele tipo, e a ficha não sabe o que o grupo carrega — por isso não cobra nem devolve.* **`4` de `4` sistemas medidos no Bestiário têm vulnerabilidade, e nenhum mexe no custo de encontro por ela.**
 
-**A referência é o cálculo de PV efetivos do `Guia do Mestre` de 2014.** Lá ele estima dificuldade sem alterar os PV reais nessa etapa. Aqui, dividir os PV para conservar uma dificuldade escolhida é adaptação do Projeto M. A isenção pontual foi aprovada pelo Mizuki após a revalidação em `bestiario/09-fase-2/pesquisa/REVALIDACAO-resistencia-2026-09-28.md`.
+**A referência é o cálculo de PV efetivos do `Guia do Mestre` de 2014.** Lá ele estima dificuldade sem alterar os PV reais nessa etapa. Aqui, dividir os PV para conservar uma dificuldade escolhida é adaptação do Ciclo Maldito. A isenção pontual foi aprovada pelo Mizuki após a revalidação em `bestiario/09-fase-2/pesquisa/REVALIDACAO-resistencia-2026-09-28.md`.
 
 > **⚠ E toda esta régua está pendurada num palpite, que a peça 19 §4 declara com todas as letras:** *o peso dos três grupos é previsão, `04-playtest/` está vazia, e ele é "o número que decide quanto vale toda resistência do sistema".* **Quando a mesa corrigir o peso, os multiplicadores cobrados devem ser recalculados.** A isenção pontual é decisão autoral, e não resultado dessa fórmula.
 

@@ -235,7 +235,7 @@ Oito é mais do que o normal para uma escada social, e aqui funciona justamente 
 
 ## 8. O que este documento não resolve
 
-- ~~**O nome do sistema.**~~ **`Projeto - M`, decidido na v0.94.**
+- ~~**O nome do sistema.**~~ **`Projeto - M`, decidido na v0.94; virou `Ciclo Maldito` na v0.334.**
 - **Se o generalista deve ter alguma aptidão garantida** (seção 4.3). Hoje ele termina com zero.
 - **Os degraus de peso das aptidões**, amarrados ao refino atual. Não é mais conserto de balanço — o teto fixo resolveu isso na v0.10 —, mas continua sendo o controle de acesso que impede Energia Reversa no refino 2.
 - **Onde a Regra da técnica entra na ordem de criação** (seção 4.5).

@@ -42,7 +42,7 @@ const { NUM, lista, virg, degrau, pressao, temIntervencao, precoIntervencao, arr
 function titulo(sub) {
   return [
     new Paragraph({ spacing: { after: 40 },
-      children: [new TextRun({ text: 'PROJETO - M', bold: true, size: 15,
+      children: [new TextRun({ text: 'CICLO MALDITO', bold: true, size: 15,
                                color: C.grey, characterSpacing: 60 })] }),
     new Paragraph({ spacing: { after: 160 },
       children: [new TextRun({ text: sub, bold: true, size: 34, color: C.crimson })] }),
@@ -318,7 +318,7 @@ function tabelas() {
 // `node make.js --json`: as seis prontas calculadas, para o capitulo 8 do livro do Bestiario.
 // O livro formata e nao refaz a conta — a conta mora aqui, e so aqui.
 const doc = new Document({
-  creator: 'Projeto - M', title: 'Bloco de inimigo',
+  creator: 'Ciclo Maldito', title: 'Bloco de inimigo',
   styles: { default: { document: { run: { font: 'Calibri', size: 20, color: C.ink } } } },
   sections: [{
     // ⚠ 1153 nao e escolha: A4 tem 11906 twips e as tabelas tem 9600, entao
@@ -326,7 +326,7 @@ const doc = new Document({
     properties: { page: { margin: { top: 720, bottom: 640, left: 1153, right: 1153 } } },
     footers: { default: new Footer({ children: [new Paragraph({
       alignment: AlignmentType.CENTER,
-      children: [new TextRun({ text: 'Projeto - M · bloco de inimigo · peça 26',
+      children: [new TextRun({ text: 'Ciclo Maldito · bloco de inimigo · peça 26',
                                size: 14, color: C.grey })] })] }) },
     children: [...bloco(null, true), ...bloco(EXEMPLO), ...prontas(), ...tabelas()],
   }],
