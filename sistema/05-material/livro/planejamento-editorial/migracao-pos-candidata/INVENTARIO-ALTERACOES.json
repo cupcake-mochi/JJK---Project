@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-04",
- "aviso": "classe_triagem vem de leitura automatica do campo tipo/natureza de cada ALTERACOES.json; nao e confirmacao. donos_v0331_provaveis e mapa por unidade, a confirmar entrada por entrada.",
+ "gerado_em": "2026-10-05",
+ "aviso": "classe_triagem vem de leitura automatica do campo tipo/natureza de cada ALTERACOES.json; nao e confirmacao. donos_v0331_provaveis e mapa por unidade, a confirmar entrada por entrada. Refeito em 05/10/2026 com os 824 registros de hoje (os 774 de 04/10 iguais, e 50 das passadas de decisão do autor). Tipo novo: \"decisão do autor\" vira decisao_do_autor (o PLANO lista as que mudam regra), \"M decisão do autor\" vira mecanica, \"retirada a pedido do autor\" vira editorial, e as remissões viram interface/correcao.",
  "entradas": [
   {
    "unidade": "ab",
@@ -391,6 +391,23 @@
     "depois": "Durante a sessão, consulte Regras gerais para testes, movimento e ataques, Dano e recuperação para as consequências e Equipamento para os itens.",
     "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
     "tipo": "editorial"
+   }
+  },
+  {
+   "unidade": "ab",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 08",
+    "peça 02",
+    "livro/manual/05,08,20"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "AB24",
+    "tipo": "decisão do autor",
+    "antes": "| 5. Equipamento | Receba o uniforme e faça suas compras. | / Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. / - **Inventário:** uniforme, compras,",
+    "depois": "| 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. | / Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Registre a situação, o tipo de TR e as perícias do Traje, conforme Trajes, em Equipamento. / - **Inventário:** uniforme com a situação, o TR e as perícias do Traje, compras,",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-11 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D41)."
    }
   },
   {
@@ -1901,6 +1918,66 @@
    }
   },
   {
+   "unidade": "dano",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 01 §5.5",
+    "peça 19",
+    "peça 24",
+    "peça 10",
+    "livro/manual/15,70"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "DR33",
+    "tipo": "decisão do autor",
+    "antes": "Ao chegar a **zero de vida**, você está **Morrendo**. Escolha imediatamente **Aguentar** ou **Insistir**. Estas regras",
+    "depois": "Ao chegar a **zero de vida**, você está **Morrendo**. Resolva primeiro as capacidades disparadas pela própria queda; em seguida, escolha **Aguentar** ou **Insistir**. Se uma dessas capacidades encerrar a queda, não há escolha. Estas regras",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (\"entra antes\"), achado G1-05 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). Fecha a ordem entre a queda e as capacidades disparadas por ela.",
+    "rastreio": "revisao-interfaces/CORRECOES-APLICADAS.md"
+   }
+  },
+  {
+   "unidade": "dano",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 01 §5.5",
+    "peça 19",
+    "peça 24",
+    "peça 10",
+    "livro/manual/15,70"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "DR34",
+    "tipo": "decisão do autor",
+    "antes": "Seu deslocamento cai pela metade e você não pode usar Ação Bônus.",
+    "depois": "Seu deslocamento cai pela metade e você não pode usar Ação Bônus. Distâncias concedidas por capacidades, como a de Passo, também caem pela metade.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-07 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D37).",
+    "rastreio": "revisao-interfaces/CORRECOES-APLICADAS.md"
+   }
+  },
+  {
+   "unidade": "dano",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 01 §5.5",
+    "peça 19",
+    "peça 24",
+    "peça 10",
+    "livro/manual/15,70"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "DR35",
+    "tipo": "decisão do autor",
+    "antes": "Estas regras são para personagens jogadores. Inimigos e entidades seguem suas próprias regras de derrota.",
+    "depois": "Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G1-04 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D38).",
+    "rastreio": "revisao-interfaces/CORRECOES-APLICADAS.md"
+   }
+  },
+  {
    "unidade": "origens",
    "classe_triagem": "editorial",
    "donos_v0331_provaveis": [
@@ -3141,6 +3218,60 @@
    }
   },
   {
+   "unidade": "equip",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 14",
+    "peça 16",
+    "peça 21",
+    "livro/manual/50,55"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "EQ25",
+    "tipo": "M decisão do autor",
+    "antes": "Capacidade 1 das bestas adotada em equipamento/lote-03 (M01) sem registro nesta unidade; a peça 14 da v0.331 usa 2 e proíbe 1 por apagar o ataque extra.",
+    "depois": "Capacidade 1 mantida, sem mudar o texto: cada besta comporta um virote e precisa ser recarregada depois de cada disparo.",
+    "motivo": "Decisão do Mizuki em 04/10/2026, achado G4-01 da revisão de interfaces: \"a parte negativa da besta é justamente não funcionar no ataque extra\". A peça 14 muda na migração."
+   }
+  },
+  {
+   "unidade": "equip",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 14",
+    "peça 16",
+    "peça 21",
+    "livro/manual/50,55"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "EQ26",
+    "tipo": "decisão do autor",
+    "antes": "A conversão de ações segue as regras do turno.",
+    "depois": "A conversão de ações segue as regras do turno.\n\nDuas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use uma delas, com as restrições dela.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (opção A, não somam), achado G3-03 (revisao-interfaces/CORRECOES-APLICADAS.md)."
+   }
+  },
+  {
+   "unidade": "equip",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 14",
+    "peça 16",
+    "peça 21",
+    "livro/manual/50,55"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "EQ27",
+    "tipo": "decisão do autor",
+    "antes": "O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma.",
+    "depois": "O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (opção B: \"o dano do cisão é na alma, literalmente dano na alma\"), achado G1-02 (revisao-interfaces/CORRECOES-APLICADAS.md). A remissão apontava uma regra que não existia."
+   }
+  },
+  {
    "unidade": "progressao",
    "classe_triagem": "editorial",
    "donos_v0331_provaveis": [
@@ -3750,6 +3881,108 @@
     "antes": "Retorno do estágio4 não tinha saída operacional estável; feitos de socorro/Alma permitiam leitura de quedas fabricadas pelo grupo.",
     "depois": "Retorno acompanha saída de Derrotado. Socorro,Alma eDomínio devem decorrer de ameaça hostil real,excluindo treino e fabricação do feito.",
     "motivo": "Concilia a saída definida emR03 e preserva conquista de limiar sem transformar dano deliberado em promoção programada."
+   }
+  },
+  {
+   "unidade": "progressao",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 12",
+    "peça 18",
+    "livro/manual/80"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "PRO37",
+    "tipo": "M decisão do autor",
+    "antes": "Registre a seleção. Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de vínculo permitida, com os procedimentos de **Fabricação de entidades** e os limites de **Invocações em campo**. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.",
+    "depois": "Registre a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, conforme **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.",
+    "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). Substitui a retomada por aquisição de PRO34, que não tinha procedimento para corpos de técnica; mantém o bloqueio ao revezamento."
+   }
+  },
+  {
+   "unidade": "progressao",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 12",
+    "peça 18",
+    "livro/manual/80"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "PRO38",
+    "tipo": "decisão do autor",
+    "antes": "registre **um dos oito feitos abaixo** / | Terminar a missão depois de outro personagem jogador chegar ao estágio 4. | Ocorrência na ficha do participante e conclusão da missão. |",
+    "depois": "registre **um dos sete feitos abaixo** / (retirado)",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (\"remove da lista\"), achado G1-07 (revisao-interfaces/CORRECOES-APLICADAS.md). Depois de DR13 o Feito 8 só cobria dano de Alma e podia ser forçado num aliado."
+   }
+  },
+  {
+   "unidade": "progressao",
+   "classe_triagem": "editorial",
+   "donos_v0331_provaveis": [
+    "peça 12",
+    "peça 18",
+    "livro/manual/80"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "PRO39",
+    "tipo": "retirada a pedido do autor",
+    "antes": "<!-- page:prog-ritmo|Ritmo de campanha -->\n# Ritmo de campanha\n\nA recompensa de cada missão e a frequência das sessões determinam quanto tempo a progressão leva. A tabela abaixo é uma **estimativa**, com 52 semanas por ano, sem faltas, falhas, eventos de XP ou espera pelo feito do nível 20.\n\n| Frequência | Até nível 20 | Até nível 30 |\n|---|---:|---:|\n| Uma missão a cada duas semanas | 62,2 meses | 93,7 meses |\n| Uma por semana | 31,1 meses | 46,9 meses |\n| Duas por semana | 15,5 meses | 23,4 meses |\n| Três por semana | 12,4 meses | 18,7 meses |\n| Quatro por semana | 11,3 meses | 17,0 meses |\n\nEsses valores usam uma mistura de missões: antes do nível 20, a cada oito, uma curta, seis padrões e uma longa, média **106,25 XP**. Depois, três longas e dois finais de arco a cada cinco, média **240 XP**. Os descontos semanais entram na conta.\n\nSe todas as missões forem padrão, duas por semana levam aproximadamente **16,5 meses até o 20 e 35,4 até o 30**. A faixa final não acelera sozinha por causa do nível: a estimativa anterior depende de receber missões maiores.\n\n## Ajustes opcionais da campanha\n\nA guilda pode anunciar missões de dobro, bônus por objetivos pessoais ou ajuda a participantes que ficaram para trás. Essas são políticas opcionais, definidas antes de aplicar a recompensa. Elas não retiram o desconto semanal nem o limite de um avanço por missão, salvo uma mudança expressa nas regras da campanha.\n\nUma missão padrão de dobro paga 200 XP antes dos descontos. Outra possibilidade é dobrar a recompensa de quem esteja pelo menos três níveis abaixo do grupo. Defina previamente qual nível de referência será usado; essa compensação não faz parte da regra básica.\n\nNão reduza níveis já recebidos para ajustar o ritmo. Mude as recompensas futuras com o grupo e acompanhe os resultados.",
+    "depois": "(retirado)",
+    "motivo": "Pedido do autor (04/10/2026): a estimativa de meses até os níveis 20 e 30 sai do livro do jogador. O modelo continua no auditor da unidade como conta de projeto."
+   }
+  },
+  {
+   "unidade": "progressao",
+   "classe_triagem": "editorial",
+   "donos_v0331_provaveis": [
+    "peça 12",
+    "peça 18",
+    "livro/manual/80"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "PRO40",
+    "tipo": "retirada a pedido do autor",
+    "antes": "Escolher Leque em todos os sete marcos termina em **sete aplicações adicionais e sete Talentos concedidos**, além do repertório comum.",
+    "depois": "(retirado)",
+    "motivo": "Pedido do autor (04/10/2026): retirar do livro do jogador projeções de projetista (tempo de campanha, como o personagem termina seguindo sempre a mesma escolha). A regra do marco fica."
+   }
+  },
+  {
+   "unidade": "progressao",
+   "classe_triagem": "editorial",
+   "donos_v0331_provaveis": [
+    "peça 12",
+    "peça 18",
+    "livro/manual/80"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "PRO41",
+    "tipo": "retirada a pedido do autor",
+    "antes": "Partindo do nível 2, chegar ao 20 exige **14.300 XP gastos**. Do 20 ao 30, são mais **16.400**, totalizando **30.700 XP**. O feito do limiar e o limite de um avanço por missão continuam necessários.",
+    "depois": "(retirado)",
+    "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica."
+   }
+  },
+  {
+   "unidade": "progressao",
+   "classe_triagem": "editorial",
+   "donos_v0331_provaveis": [
+    "peça 12",
+    "peça 18",
+    "livro/manual/80"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "PRO42",
+    "tipo": "retirada a pedido do autor",
+    "antes": "A frequência esperada desse bônus é **X dividido pela média de missões mestradas por mês**.\n\n**Exemplo.** Com X igual a 12 e média de três missões mestradas por mês, uma marca leva cerca de quatro meses. A campanha escolhe X; o exemplo não fixa essa quantidade como regra geral.",
+    "depois": "(retirado)",
+    "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica."
    }
   },
   {
@@ -4869,6 +5102,46 @@
     "candidata": "Remissão nominal a Energia Reversa e Ferir maldições em Aptidões.",
     "motivo": "Ajudar a localizar a exceção sem reproduzir custos, alcance ou cálculo de dano.",
     "sincronizar": "R09; R10",
+    "status": "candidata, não integrada"
+   }
+  },
+  {
+   "unidade": "fundamento",
+   "classe_triagem": "editorial",
+   "donos_v0331_provaveis": [
+    "peça 17",
+    "manual Fundamento v7 (docx)",
+    "livro/manual/40"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "FU-57",
+    "natureza": "E",
+    "assunto": "Média de dano no exemplo de Máxima",
+    "antes": "Os 24d8 causam média de 108 de dano. Role os dados normalmente.",
+    "candidata": "(retirado)",
+    "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.",
+    "sincronizar": "nenhum",
+    "status": "candidata, não integrada"
+   }
+  },
+  {
+   "unidade": "fundamento",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 17",
+    "manual Fundamento v7 (docx)",
+    "livro/manual/40"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "FU-58",
+    "natureza": "M",
+    "assunto": "Restrição Leve no Classe 0 com Toque ou Aura",
+    "antes": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso.",
+    "candidata": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso. Essa exigência da Forma não ocupa a vaga da Restrição Leve.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-09 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D35).",
+    "sincronizar": "Construir invocações (já dizia o mesmo)",
     "status": "candidata, não integrada"
    }
   },
@@ -7782,6 +8055,22 @@
    }
   },
   {
+   "unidade": "aptidoes",
+   "classe_triagem": "editorial",
+   "donos_v0331_provaveis": [
+    "peça 11",
+    "livro/manual/45"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "A33",
+    "tipo": "retirada a pedido do autor",
+    "antes": "| Nível | Nunca escolhe Refino | Sempre escolhe Refino | Aptidões recebidas pela escolha nesse marco |\n|---|---:|---:|---:|\n| Início | 1 | 1 | — |\n| 6 | 2 | 3 | 1 |\n| 10 | 3 | 5 | 1 |\n| 14 | 4 | 7 | 1 |\n| 18 | 5 | 9 | 1 |\n| 22 | 6 | 10 | 2 |\n| 26 | 7 | 10 | 2 |\n| 30 | 8 | 10 | 2 |\n\nA última coluna acompanha quem sempre escolheu Refino. Em outra sequência, verifique seu valor naquele marco.",
+    "depois": "(retirado)",
+    "motivo": "Pedido do autor (04/10/2026): retirar do livro do jogador projeções de projetista (tempo de campanha, como o personagem termina seguindo sempre a mesma escolha). A regra do marco fica."
+   }
+  },
+  {
    "unidade": "rotas",
    "classe_triagem": "interface/correcao",
    "donos_v0331_provaveis": [
@@ -8918,6 +9207,174 @@
    }
   },
   {
+   "unidade": "rotas",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 20",
+    "peça 25",
+    "livro/manual/42,43,47"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R10-33",
+    "tipo": "decisão do autor",
+    "antes": "## Calo — Livre\n\nVocê reconhece pelo toque o encaixe e a textura familiares de armas que costuma usar. Esse detalhe descreve sua relação com o equipamento. Identificar uma arma disfarçada, detectar uma substituição ou obter informação escondida ainda exige o procedimento da cena.",
+    "depois": "(retirado)",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (opção B), achado G5-02 (revisao-interfaces/CORRECOES-APLICADAS.md). O rótulo \"Livre\" era o nome antigo da Expressão da técnica e ficou sem definição.",
+    "paginas": [
+     "rota-passivas-marciais"
+    ],
+    "fontes": [
+     {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/revisao-interfaces/CORRECOES-APLICADAS.md",
+      "ancora": "### D12 · rotas/lote-01/ROTAS.md",
+      "linhas": [
+       333
+      ]
+     },
+     {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "## Expressão da técnica",
+      "linhas": [
+       149
+      ]
+     }
+    ],
+    "impacto": "Calo deixa de existir como Talento marcial; não tinha efeito mecânico nem ocupava espaço.",
+    "estado": "aplicada",
+    "autorizacao": "Mizuki, 04/10/2026"
+   }
+  },
+  {
+   "unidade": "rotas",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 20",
+    "peça 25",
+    "livro/manual/42,43,47"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R10-34",
+    "tipo": "decisão do autor",
+    "antes": "1. Escreva a **Descrição** e a **Regra** pelo procedimento de Fundamento.",
+    "depois": "1. Escreva a **Descrição**, a **Regra** e a **Expressão da técnica** pelo procedimento de Fundamento.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (opção B), achado G5-02 (revisao-interfaces/CORRECOES-APLICADAS.md). O rótulo \"Livre\" era o nome antigo da Expressão da técnica e ficou sem definição.",
+    "paginas": [
+     "rota-marcial"
+    ],
+    "fontes": [
+     {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md",
+      "ancora": "## Expressão da técnica",
+      "linhas": [
+       149
+      ]
+     }
+    ],
+    "impacto": "O personagem marcial registra a Expressão da técnica do Fundamento, sem efeito mecânico.",
+    "estado": "aplicada",
+    "autorizacao": "Mizuki, 04/10/2026"
+   }
+  },
+  {
+   "unidade": "rotas",
+   "classe_triagem": "editorial",
+   "donos_v0331_provaveis": [
+    "peça 20",
+    "peça 25",
+    "livro/manual/42,43,47"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R10-35",
+    "tipo": "retirada a pedido do autor",
+    "antes": "Quem escolhe Lapidação em todos os marcos recebe duas Bênçãos nos níveis 22, 26 e 30, totalizando dez escolhas pagas. Quem nunca a escolhe termina em Lapidação 8 e conserva apenas as Bênçãos gratuitas.",
+    "depois": "(retirado)",
+    "motivo": "Pedido do autor (04/10/2026): retirar do livro do jogador projeções de projetista (tempo de campanha, como o personagem termina seguindo sempre a mesma escolha). A regra do marco fica.",
+    "paginas": [
+     "rota-lapidacao"
+    ],
+    "fontes": [
+     {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/revisao-interfaces/CORRECOES-APLICADAS.md",
+      "ancora": "### D14 a D17 · retiradas pedidas pelo Mizuki",
+      "linhas": [
+       353
+      ]
+     }
+    ],
+    "impacto": "Nenhum na mesa: era projeção de quem escolhe sempre ou nunca a Lapidação.",
+    "estado": "aplicada",
+    "autorizacao": "Mizuki, 04/10/2026"
+   }
+  },
+  {
+   "unidade": "rotas",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 20",
+    "peça 25",
+    "livro/manual/42,43,47"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R10-36",
+    "tipo": "decisão do autor",
+    "antes": "3. Defina sua Regra, atributo e Selo pelo procedimento de Fundamento.",
+    "depois": "3. Defina sua Regra, atributo, Selo e **Expressão da técnica** pelo procedimento de Fundamento.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (\"Sim ele pode anotar\"), pendência deixada pela D12 (achado G5-02, revisao-interfaces/CORRECOES-APLICADAS.md). Sem Técnica registra a Expressão da técnica como a Técnica Marcial.",
+    "paginas": [
+     "rota-sem-tecnica"
+    ],
+    "fontes": [
+     {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/revisao-interfaces/CORRECOES-APLICADAS.md",
+      "ancora": "### D18 · rotas/lote-01/ROTAS.md",
+      "linhas": [
+       367
+      ]
+     }
+    ],
+    "impacto": "Sem Técnica escreve uma Expressão da técnica, sem efeito mecânico.",
+    "estado": "aplicada",
+    "autorizacao": "Mizuki, 04/10/2026"
+   }
+  },
+  {
+   "unidade": "rotas",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 20",
+    "peça 25",
+    "livro/manual/42,43,47"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R10-37",
+    "tipo": "decisão do autor",
+    "antes": "Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas. / Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria.",
+    "depois": "Você recebe uma arma de cada categoria, todas de **grau 4**, e fica treinado nas três categorias, além dos treinos concedidos por outras escolhas.\n\n**Acesso.** Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem **Equipamento restrito**: Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo recebida vem com a munição inicial de uma compra, conforme **Munição inicial**. / Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Os números de Revestimento 2 ou 3 seguem o acesso de **Equipamento restrito**, salvo permissão do mestre.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D33).",
+    "paginas": [
+     "rota-armas",
+     "rota-ferramenta"
+    ],
+    "fontes": [
+     {
+      "arquivo": "sistema/05-material/livro/planejamento-editorial/revisao-interfaces/CORRECOES-APLICADAS.md",
+      "ancora": "### D33 · rotas/lote-01/ROTAS.md",
+      "linhas": [
+       410
+      ]
+     }
+    ],
+    "impacto": "A rota segue o acesso de Equipamento restrito; o mestre pode conceder permissão.",
+    "estado": "aplicada",
+    "autorizacao": "Mizuki, 04/10/2026"
+   }
+  },
+  {
    "unidade": "poderes",
    "classe_triagem": "editorial",
    "donos_v0331_provaveis": [
@@ -9578,6 +10035,46 @@
    }
   },
   {
+   "unidade": "poderes",
+   "classe_triagem": "editorial",
+   "donos_v0331_provaveis": [
+    "peça 11",
+    "RASCUNHO-expansao-sem-barreira",
+    "livro/manual/45"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R08-34",
+    "tipo": "retirada a pedido do autor",
+    "secao": "exemplos",
+    "antes": "A média bruta é 108, distribuída no tempo e antes das defesas.",
+    "depois": "(retirado)",
+    "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica.",
+    "impacto_ou_limite": "Nenhuma alteração de regra. O auditor continua calculando a média do exemplo como conta de projeto.",
+    "status": "candidata revisada; não publicada"
+   }
+  },
+  {
+   "unidade": "poderes",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 11",
+    "RASCUNHO-expansao-sem-barreira",
+    "livro/manual/45"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R08-35",
+    "tipo": "decisão do autor",
+    "antes": "Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, perde uma disputa ou uma regra destrói sua barreira. / o encerramento voluntário e chegar a 0 PV.",
+    "depois": "Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, fica **Inconsciente** ou **Derrotado**, perde uma disputa ou uma regra destrói sua barreira. / o encerramento voluntário, chegar a 0 PV e ficar Inconsciente ou Derrotado.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G1-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D32).",
+    "secao": "encerramento",
+    "impacto_ou_limite": "Inconsciente ou Derrotado encerra o domínio.",
+    "status": "candidata revisada; não publicada"
+   }
+  },
+  {
    "unidade": "ritual",
    "classe_triagem": "editorial",
    "donos_v0331_provaveis": [
@@ -10119,6 +10616,40 @@
     "antes": "Dados de Recitação declarados após montagem sem destino explícito em Rajada/repetições.",
     "depois": "Somam à quantidade inicial antes da divisão; derivados permitidos usam essa base, sem multiplicar bônus inteiro por tiro.",
     "motivo": "Completa RI-02: exceção tem cálculo reproduzível e continua limitada pelo número de tiros/alvos da ficha."
+   }
+  },
+  {
+   "unidade": "ritual",
+   "classe_triagem": "editorial",
+   "donos_v0331_provaveis": [
+    "peça 27",
+    "peça 22",
+    "livro/manual/46,65"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "RP-33",
+    "tipo": "retirada a pedido do autor",
+    "antes": "Sem treino, a maestria permanece na CD, mas não entra na rolagem: a diferença é de 10 pontos percentuais com maestria 2, 15 com maestria 3 e 20 com maestria 4, enquanto não houver um limite de probabilidade atingido.",
+    "depois": "Sem treino, a maestria permanece na CD, mas não entra na rolagem.",
+    "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica."
+   }
+  },
+  {
+   "unidade": "ritual",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 27",
+    "peça 22",
+    "livro/manual/46,65"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "RP-34",
+    "tipo": "decisão do autor",
+    "antes": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução.",
+    "depois": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução. Use sua maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melhorias de Ritual.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-08 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D34)."
    }
   },
   {
@@ -11106,6 +11637,176 @@
    }
   },
   {
+   "unidade": "campo",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R11-50",
+    "tipo": "M decisão do autor",
+    "antes": "Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.",
+    "depois": "Atacar, Correr, Desengajar, Esquivar, Esconder, Ajudar, Vasculhar, Estudar e Usar um Objeto seguem os procedimentos de **Ações**.\n\nPara Atacar, num revide ou num ataque comum concedido, a entidade usa a **básica ofensiva de Classe 0** da ficha ou uma **arma que ela empunhe**. O acerto com arma está em **Construir invocações — Acerto e dificuldade**. Sem nenhuma das duas, ela não ataca.",
+    "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-04 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). O acerto com arma segue a peça 15 (a arma muda o acerto e nunca a CD)."
+   }
+  },
+  {
+   "unidade": "campo",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R11-51",
+    "tipo": "M decisão do autor",
+    "antes": "Corpos adicionais precisam ser deixados sem seu controle até haver espaço. Não desaparecem nem são destruídos por essa escolha.",
+    "depois": "Corpos adicionais precisam ser deixados sem seu controle. Não desaparecem nem são destruídos por essa escolha. Um corpo deixado assim volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou. Deixar um corpo sem controle de propósito não abre vaga para trazer outro de volta.",
+    "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md)."
+   }
+  },
+  {
+   "unidade": "campo",
+   "classe_triagem": "editorial",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R11-52",
+    "tipo": "retirada a pedido do autor",
+    "antes": "Uma Forma de cura usa 19d8, com média de 85,5 PV antes dos limites aplicáveis.",
+    "depois": "Uma Forma de cura usa 19d8.",
+    "motivo": "Pedido do autor em 04/10/2026 (\"Pode remover, qualquer coisa semelhante tbm\"): conta de projetista retirada do livro do jogador (revisao-interfaces/CORRECOES-APLICADAS.md, D19 a D24). A regra fica."
+   }
+  },
+  {
+   "unidade": "campo",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R11-53",
+    "tipo": "decisão do autor",
+    "antes": "A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.",
+    "depois": "A zero de vida, a entidade para de atuar. Se puder ser recolhida, sai de campo. Caso contrário, permanece no lugar como **Desligada**. Confira primeiro se o dano a destruiu.\n\n**Integridade a zero.** Uma entidade com alma que chega a zero de Integridade cai sem ser destruída, como a zero de vida. O retorno exige pelo menos 1 de Integridade, que volta pelo descanso longo ou por uma capacidade que restaure Integridade. Os estágios de Integridade também valem para ela: o PE adicional e o teto de Classe se aplicam às especiais que ela executa.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G1-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D25)."
+   }
+  },
+  {
+   "unidade": "campo",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R11-54",
+    "tipo": "decisão do autor",
+    "antes": "Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras.",
+    "depois": "Corpos amaldiçoados não são recolhidos, sejam de técnica ou de criação. Ficam **ativos ou inativos** no mundo. A zero de vida, passam a Desligada, que tem outras regras. Uma domada sem meio de recolhimento segue este modo e entra no total abaixo.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-02 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D26)."
+   }
+  },
+  {
+   "unidade": "campo",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R11-55",
+    "tipo": "decisão do autor",
+    "antes": "Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração.",
+    "depois": "Uma especial que exija Concentração é sustentada pela entidade executora. Ela usa seu próprio TR quando sofre dano, seguindo Concentração. Recolher, desativar ou cair a zero encerra essa concentração.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-05 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D27)."
+   }
+  },
+  {
+   "unidade": "campo",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R11-56",
+    "tipo": "decisão do autor",
+    "antes": "Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. / Respeite espaço, teto de ativos e recursos já gastos. O retorno não fornece básica.",
+    "depois": "Na troca, uma entidade sai e outra entra pagando a Bônus e o PE da entrada. A substituta ocupa o lugar de quem saiu. Ela pode ser uma entidade caída: nesse caso, pague o retorno no lugar da entrada. / Respeite espaço, teto de ativos e recursos já gastos. O retorno não cria uma básica própria. Feito numa troca, ainda permite receber a básica transferida.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D28)."
+   }
+  },
+  {
+   "unidade": "campo",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R11-57",
+    "tipo": "decisão do autor",
+    "antes": "Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. Armazenamento usa capacidade de **5 + Força da entidade em Volume**. / Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir.",
+    "depois": "Uma entidade segue o limite geral de carga de **5 + Força**, em Volume: o que ela veste, empunha ou leva conta nele. Transportar carga adicional ou personagens exige uma característica própria, compatível com a definição da entidade, que ocupe **um de seus talentos**. O armazenamento e os passageiros cabem nesse mesmo limite. / Uma Força alta não oferece armazenamento por si. Uma entidade de Força 3 com esse talento comporta 8 de Volume, somando o que veste e empunha. Sem o talento, fica limitada ao que pode segurar e ao equipamento que pode vestir, dentro do mesmo limite.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-07, G4-10 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D29)."
+   }
+  },
+  {
+   "unidade": "campo",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R11-58",
+    "tipo": "decisão do autor",
+    "antes": "No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida.",
+    "depois": "No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida. Ela também pode preparar um deslocamento, que usa o Movimento que ainda lhe resta e não concede metros novos.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-08 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D30)."
+   }
+  },
+  {
+   "unidade": "campo",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R11-59",
+    "tipo": "decisão do autor",
+    "antes": "devolvê-la à reserva e trazer o cão / O mesmo acompanhamento impede que a reserva se torne um local de recuperação sem custo. / substitua-a por uma reserva apropriada / A reserva não permite sacar equipamento de uma criatura ausente.",
+    "depois": "recolhê-la e trazer o cão / O mesmo acompanhamento impede que ficar recolhida se torne um meio de recuperação sem custo. / substitua-a por uma invocação recolhida apropriada / Estar recolhida não permite sacar equipamento de uma criatura ausente.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-10 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D31)."
+   }
+  },
+  {
    "unidade": "construcao",
    "classe_triagem": "editorial",
    "donos_v0331_provaveis": [
@@ -11908,6 +12609,40 @@
    }
   },
   {
+   "unidade": "construcao",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R12-32",
+    "tipo": "M decisão do autor",
+    "antes": "A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor. Os atributos são os **da entidade**.",
+    "depois": "A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor. Os atributos são os **da entidade**.\n\nCom uma arma empunhada, o ataque usa o atributo que a arma pede no lugar do atributo de acerto. A CD das habilidades não muda. A entidade não tem treino em armas, então ataca com elas com desvantagem. O dano é o da arma, conforme **Equipamento**.",
+    "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-04 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). O acerto com arma segue a peça 15; sem treino em armas, desvantagem pela regra geral."
+   }
+  },
+  {
+   "unidade": "construcao",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R12-33",
+    "tipo": "decisão do autor",
+    "antes": "Somando alvos adicionais e repetições, conserve o **teto geral de 4 × Classe**.",
+    "depois": "Some os dados iniciais e os adicionais da montagem uma vez, sem multiplicar pelo número de criaturas na área. O total não passa de **4 × Classe**.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-05 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D36)."
+   }
+  },
+  {
    "unidade": "fabricacao",
    "classe_triagem": "editorial",
    "donos_v0331_provaveis": [
@@ -12173,6 +12908,23 @@
     "depois": "não religa um corpo na condição Desligada.",
     "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
     "tipo": "editorial"
+   }
+  },
+  {
+   "unidade": "fabricacao",
+   "classe_triagem": "interface/correcao",
+   "donos_v0331_provaveis": [
+    "peça 15",
+    "invocacoes/",
+    "livro/manual/60"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "FAB-REV-01",
+    "tipo": "remissão de decisão do autor",
+    "antes": "Um corpo que exceda seu limite permanece no mundo sem controle até haver espaço; fabricar ou receber outro não amplia esse limite.",
+    "depois": "Um corpo que exceda seu limite permanece no mundo sem controle e volta conforme **Invocações em campo**; fabricar ou receber outro não amplia esse limite.",
+    "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md)."
    }
   },
   {
@@ -12653,6 +13405,38 @@
     "depois": "Definição inclui Talentos, Aptidões e Bênçãos e remete à aquisição de cada entrada. Os dois aliases usam Aviso, no singular.",
     "motivo": "Leitura independente da raiz apontou suficiência conceitual e grafia histórica. Nenhuma mudança em requisitos ou valores.",
     "tipo": "correcao-editorial"
+   }
+  },
+  {
+   "unidade": "consulta",
+   "classe_triagem": "interface/correcao",
+   "donos_v0331_provaveis": [
+    "livro/manual/07",
+    "fichas"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R23-31",
+    "tipo": "remissão de índice",
+    "antes": "268 verbetes no índice, em 11 páginas.",
+    "depois": "286 verbetes: entram Auge, Carregar (Restrição), Desligada, Discreta, Embainhada, Escudo, Manutenção (entidades), Ordens pendentes, Recarregar, Recolher, Regra Própria, Religar, Retorno, Revestimento, Sacar e guardar, Segura, Talismã e Traje. As 11 páginas foram recompostas com 26 linhas cada.",
+    "motivo": "Achados G2-09, G4-12 e G5-11 (revisao-interfaces/CORRECOES-APLICADAS.md): completude do índice, sem decisão de regra."
+   }
+  },
+  {
+   "unidade": "consulta",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "livro/manual/07",
+    "fichas"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "R23-32",
+    "tipo": "decisão do autor",
+    "antes": "| Item e quantidade | Volume total | Situação e recursos | / **Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________ / | __________________ | ______ | Vestido, empunhado ou guardado: __________________ |",
+    "depois": "| Item e quantidade | Volume total | Posição e recursos | / **Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________\n\n**Traje — situação, TR e perícias:** ________________________________________ / | __________________ | ______ | Vestido, empunhado ou guardado: __________ |",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-11 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D41)."
    }
   },
   {
@@ -13479,6 +14263,70 @@
     "antes": "Tiro Controlado pedia usos disponíveis sem localizar seu estoque.",
     "depois": "A arma precisa estar pronta e ter duas unidades carregadas para o disparo e a compra da Oportunidade.",
     "motivo": "Revisão independente: não permitir debitar diretamente da mochila uma munição que a arma ainda não recebeu."
+   }
+  },
+  {
+   "unidade": "vanguarda",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 06",
+    "livro/manual/35"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "VG-REV-01",
+    "tipo": "M decisão do autor",
+    "antes": "A **capacidade da arma** (os ataques por carga, em Munição) **aumenta em um**.",
+    "depois": "A **capacidade da Arma de Fogo** (os ataques por carga, em Munição) **aumenta em um**. Bestas e outras armas de disparo não recebem esse aumento.",
+    "motivo": "Mizuki, 04/10/2026, escolha no cartão: \"Só arma de fogo\". Com a besta em capacidade 1 (EQ25), o aumento levaria a besta a 2 e ela voltaria a servir no ataque extra, que é a desvantagem escolhida para ela."
+   }
+  },
+  {
+   "unidade": "vanguarda",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 06",
+    "livro/manual/35"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "VG-REV-02",
+    "tipo": "decisão do autor",
+    "antes": "Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.",
+    "depois": "Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.\n\n**Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, conforme Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (opção B), achado G4-07 (revisao-interfaces/CORRECOES-APLICADAS.md). A liberação narrativa de Equipamento restrito continua; a frase só diz quando ela acontece."
+   }
+  },
+  {
+   "unidade": "vanguarda",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 06",
+    "livro/manual/35"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "VG-REV-03",
+    "tipo": "decisão do autor",
+    "antes": "| 7 | Ataque Extra |",
+    "depois": "| 7 | Ataque Extra e Execução Preparada |",
+    "motivo": "Decisão do Mizuki em 05/10/2026: o nível 7 da Vanguarda só trazia o Ataque Extra, e os outros Caminhos ganham uma segunda metade no 7 (o Bastião, Nem Um Arranhão e Ainda de Pé). A Não Pega da peça 06 (o Evasion do 5e) não tinha chegado à candidata, e ele a achou forte; rerrolar TR repetiria a Não Cede do nível 15. Texto dele: \"Execução Preparada: 1× por Sequência, ao Concluir depois de duas ou mais Conduções, imponha −1 a um TR adicional da Conclusão.\" \"Acertadas\" vem da Conclusão Dupla, que usa a mesma condição; o nome passou na triagem do conferir-nomes.py (LIVRE)."
+   }
+  },
+  {
+   "unidade": "vanguarda",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 06",
+    "livro/manual/35"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "VG-REV-04",
+    "tipo": "decisão do autor",
+    "antes": "(não havia)",
+    "depois": "**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**.",
+    "motivo": "Decisão do Mizuki em 05/10/2026: o nível 7 da Vanguarda só trazia o Ataque Extra, e os outros Caminhos ganham uma segunda metade no 7 (o Bastião, Nem Um Arranhão e Ainda de Pé). A Não Pega da peça 06 (o Evasion do 5e) não tinha chegado à candidata, e ele a achou forte; rerrolar TR repetiria a Não Cede do nível 15. Texto dele: \"Execução Preparada: 1× por Sequência, ao Concluir depois de duas ou mais Conduções, imponha −1 a um TR adicional da Conclusão.\" \"Acertadas\" vem da Conclusão Dupla, que usa a mesma condição; o nome passou na triagem do conferir-nomes.py (LIVRE)."
    }
   },
   {
@@ -15152,6 +16000,23 @@
    }
   },
   {
+   "unidade": "evocador",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 06",
+    "peça 15",
+    "livro/manual/35"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "EV28",
+    "tipo": "decisão do autor",
+    "antes": "substitua-a por uma reserva apropriada",
+    "depois": "substitua-a por uma invocação recolhida apropriada",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-10 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D31)."
+   }
+  },
+  {
    "unidade": "incursor",
    "classe_triagem": "editorial",
    "donos_v0331_provaveis": [
@@ -15548,6 +16413,91 @@
     "motivo": "Revisão independente identificou que a redação podia sugerir proibição geral de usar armas sem treino. Treino e requisitos de equipamento são regras diferentes.",
     "fonte": "Revisão independente da raiz e regras correntes de equipamentos",
     "ancora": "inc-caminho"
+   }
+  },
+  {
+   "unidade": "incursor",
+   "classe_triagem": "mecanica",
+   "donos_v0331_provaveis": [
+    "peça 06",
+    "RASCUNHO-trilhas",
+    "livro/manual/35"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "INC-22",
+    "tipo": "M decisão do autor",
+    "antes": "Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.",
+    "depois": "O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.",
+    "motivo": "Decisão do Mizuki em 04/10/2026, achado G3-07 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md)."
+   }
+  },
+  {
+   "unidade": "incursor",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 06",
+    "RASCUNHO-trilhas",
+    "livro/manual/35"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "INC-23",
+    "tipo": "decisão do autor",
+    "antes": "Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno.",
+    "depois": "Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno. No combate, o primeiro intervalo vai do início do combate até o começo do seu primeiro turno, inclusive para Passo Guardado.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (opção A), achado G3-04 (revisao-interfaces/CORRECOES-APLICADAS.md). Segue o limite acrobático, que já começa completo no combate."
+   }
+  },
+  {
+   "unidade": "incursor",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 06",
+    "RASCUNHO-trilhas",
+    "livro/manual/35"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "INC-24",
+    "tipo": "decisão do autor",
+    "antes": "Após rolar o d20, antes de finalizar o ataque, gaste Fluidez",
+    "depois": "Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (opção A), achado G3-05 (revisao-interfaces/CORRECOES-APLICADAS.md). Amarra o uso a um passo da Resolução de Regras gerais."
+   }
+  },
+  {
+   "unidade": "incursor",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 06",
+    "RASCUNHO-trilhas",
+    "livro/manual/35"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "INC-25",
+    "tipo": "decisão do autor",
+    "antes": "**Fluidez + PE · Uma vez por turno seu.**\n\nDepois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**\n\nDepois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**\n\nDepois de acertar um ataque desarmado, gaste Fluidez.",
+    "depois": "**Fluidez + PE · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**\n\nDurante seu turno, depois de acertar um ataque desarmado, gaste Fluidez.",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-02 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D39)."
+   }
+  },
+  {
+   "unidade": "incursor",
+   "classe_triagem": "decisao_do_autor",
+   "donos_v0331_provaveis": [
+    "peça 06",
+    "RASCUNHO-trilhas",
+    "livro/manual/35"
+   ],
+   "estado_migracao": "nao_confirmada",
+   "registro": {
+    "id": "INC-26",
+    "tipo": "decisão do autor",
+    "antes": "uma **arma de uma mão apropriada para arremesso**",
+    "depois": "uma **arma de uma mão com Longo Alcance de arremesso**",
+    "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D40)."
    }
   }
  ]

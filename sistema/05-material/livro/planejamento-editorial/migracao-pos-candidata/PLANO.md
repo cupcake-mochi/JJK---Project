@@ -4,6 +4,8 @@ Item 4 da fila pós-reconstrução, escrito em 04/10/2026. **Nada foi migrado.**
 
 ## Quando começar
 
+**Decisão de 05/10/2026: migrar.** O Mizuki autorizou a migração (*"e... podemos migrar"*) depois de fechar a revisão de interfaces e a sexta passada, sem esperar o teste com leitores. As duas condições abaixo ficam como o desenho original do plano; a primeira foi dispensada por ele, e a segunda é esta decisão. O que sair do teste com leitores, quando ele rodar, entra como mudança nova, pela candidata e depois pelas peças.
+
 A migração só começa depois de duas coisas, nesta ordem:
 
 1. **A candidata estabilizar.** Os achados da revisão de interfaces (`../revisao-interfaces/ACHADOS.md`) que pedem decisão do autor precisam estar respondidos, e o teste com leitores e jogadores (`../testes-com-leitores/`) precisa ter rodado pelo menos a primeira leva nos quatro grupos prioritários. Mudança que sair da mesa entra na candidata antes de entrar nas peças, senão a migração é feita duas vezes.
@@ -13,36 +15,39 @@ Se a decisão for não publicar a candidata inteira, este plano vale por unidade
 
 ## O tamanho do trabalho
 
-Os 23 arquivos `ALTERACOES.json` das unidades somam **774 registros** de antes, depois e motivo. A triagem automática pelo campo de tipo de cada registro dá:
+Os 23 arquivos `ALTERACOES.json` das unidades somam **824 registros** de antes, depois e motivo (eram 774 em 04/10/2026; as passadas de decisão do autor acrescentaram 50, e o inventário foi refeito em 05/10/2026). A triagem automática pelo campo de tipo de cada registro dá:
 
 | Classe (triagem automática) | Registros |
 |---|---:|
-| Mecânica | 283 |
-| Interface ou correção | 205 |
-| Editorial | 177 |
+| Mecânica | 291 |
+| Interface ou correção | 207 |
+| Editorial | 187 |
 | Preservação | 63 |
 | Esclarecimento | 46 |
+| Decisão do autor | 30 |
+
+*"Decisão do autor" é o rótulo das passadas de 04/10 e 05/10 sem a marca `M`. Quais delas mudam regra está nas tabelas de cada passada, abaixo.*
 
 A triagem lê o rótulo que cada unidade usou, e as unidades usaram rótulos diferentes (`M`, `mecânica de fechamento`, `Esclarecimento com impacto mecânico`...). Ela serve para dimensionar e ordenar, **não confirma nada**. A própria `REVISAO-FINAL.md` avisa que esses registros incluem decisões editoriais e correções de interface e não devem ser contados como regras novas.
 
 Registro por registro, com a classe e os donos prováveis na v0.331: `INVENTARIO-ALTERACOES.json`.
 
-| Unidade | Registros | Mecânica (triagem) | Donos prováveis na v0.331 |
-|---|---:|---:|---|
-| Catálogo | 118 | 46 | peça 17, manual do Fundamento v7, `livro/manual/40` |
-| Fundamento | 56 | 28 | peça 17, manual do Fundamento v7, `livro/manual/40` |
-| Ritual e Pactos | 32 | 28 | peças 27 e 22, `livro/manual/46` e `65` |
-| Poderes avançados | 33 | 20 | peça 11, rascunho da expansão sem barreira |
-| Invocações em campo | 49 | 20 | peça 15, `invocacoes/`, `livro/manual/60` |
-| Regras gerais | 38 | 18 | peças 01, 03, 04, 05 e 23 |
-| Emanador | 29 | 18 | peça 06, `livro/manual/35` |
-| Bastião | 26 | 14 | peças 06, 05 e 23 |
-| Dano e recuperação | 32 | 13 | peça 01 §5.5, peças 19, 24 e 10 |
-| Progressão | 36 | 13 | peças 12 e 18 |
-| Aptidões e Refino | 32 | 13 | peça 11 |
-| Rotas | 32 | 10 | peças 20 e 25 |
-| Origens | 35 | 9 | peças 09 e 13 |
-| Demais 10 unidades | 226 | 33 | ver o inventário |
+| Unidade | Registros | Mecânica (triagem) | Decisão do autor | Donos prováveis na v0.331 |
+|---|---:|---:|---:|---|
+| Catálogo | 118 | 46 | 0 | peça 17, manual do Fundamento v7, `livro/manual/40` |
+| Fundamento | 58 | 29 | 0 | peça 17, manual do Fundamento v7, `livro/manual/40` |
+| Ritual e Pactos | 34 | 28 | 1 | peças 27 e 22, `livro/manual/46` e `65` |
+| Poderes avançados | 35 | 20 | 1 | peça 11, rascunho da expansão sem barreira |
+| Invocações em campo | 59 | 22 | 7 | peça 15, `invocacoes/`, `livro/manual/60` |
+| Regras gerais | 38 | 18 | 0 | peças 01, 03, 04, 05 e 23 |
+| Emanador | 29 | 18 | 0 | peça 06, `livro/manual/35` |
+| Bastião | 26 | 14 | 0 | peças 06, 05 e 23 |
+| Dano e recuperação | 35 | 13 | 3 | peça 01 §5.5, peças 19, 24 e 10 |
+| Progressão | 42 | 14 | 1 | peças 12 e 18 |
+| Aptidões e Refino | 33 | 13 | 0 | peça 11 |
+| Rotas | 37 | 10 | 4 | peças 20 e 25 |
+| Origens | 35 | 9 | 0 | peças 09 e 13 |
+| Demais 10 unidades | 245 | 37 | 13 | ver o inventário |
 
 A coluna de donos é um mapa por unidade, a confirmar entrada por entrada. Os Caminhos de Evocador e Incursor, por exemplo, nunca tiveram peça própria: na v0.331 eles moram no `livro/manual/35-caminhos-e-trilhas.md` e no `RASCUNHO-trilhas.md`.
 
