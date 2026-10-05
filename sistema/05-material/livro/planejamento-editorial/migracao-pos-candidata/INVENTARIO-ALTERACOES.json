@@ -5191,7 +5191,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-03",
     "nome": "Sem Ver",
@@ -5200,6 +5200,17 @@
     "depois": "Permite escolher um alvo ou ponto de origem que você não enxerga, desde que **saiba sua posição atual**. Mantém alcance e trajetória da Forma. Não localiza criaturas nem atravessa um obstáculo sólido; uma parede ainda pode impedir a aplicação. Não dispensa um Selo que exija usar os próprios olhos.",
     "motivo": "Fecha a distinção entre localizar e enxergar e explicita ponto de origem. Preserva Selos não visuais; não transforma percepção de energia em mira exata.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Sem Ver: alvo ou ponto que você não enxerga, sabendo a posição; não atravessa sólido nem dispensa Selo de olhos.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5210,7 +5221,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-04",
     "nome": "Perseguir",
@@ -5219,6 +5230,17 @@
     "depois": "Só se aplica a um feitiço dirigido a um **alvo individual**. Se um deslocamento ocorrido entre a escolha válida desse alvo e a resolução o levar para fora do alcance, a aplicação acompanha esse deslocamento e resolve em seguida. Não adia a resolução, não procura um alvo perdido e não segue teleporte. Visão exigida e trajeto aberto continuam necessários. Não amplia Toque. Em Armado, a escolha do alvo só ocorre quando o gatilho dispara.",
     "motivo": "O texto antigo não definia tempo, perda de visão nem limite de perseguição. O fechamento usa uma interrupção do mesmo lançamento, sem inventar rastreamento permanente ou metros extras fixos.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Perseguir: só alvo individual, acompanha deslocamento entre a escolha e a resolução; não segue teleporte.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5248,7 +5270,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-06",
     "nome": "Empurrão",
@@ -5257,6 +5279,17 @@
     "depois": "Depois da resolução, escolha **um alvo** que tenha sido acertado ou falhado no TR e mova-o **até 6 m**, na direção escolhida por você. Só um alvo por conjuração, mesmo em área, Mais Um ou Rajada. Em benefício aplicado a um aliado disposto, ele aceita o movimento. O percurso precisa estar livre; pare diante de uma parede ou de um espaço que não comporte o alvo. Não concede dano de colisão nem permite escolher um destino suspenso no ar. Quedas de uma beirada seguem as regras comuns. Se houver Puxa na mesma ficha, escolha para esse alvo qual dos dois movimentos aplicar; eles não se somam.",
     "motivo": "Se Empurrão Leve movimentasse todas as vítimas de uma área em qualquer direção, dominaria Puxa Média que só leva ao centro. Limitar a um alvo por conjuração preserva preços e separa funções; combinar as peças não aplica dois movimentos à mesma criatura. Também incorpora as regras gerais de movimento imposto.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Empurrão: um alvo por conjuração, mesmo em área, Mais Um ou Rajada; não soma com Puxa.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5267,7 +5300,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-07",
     "nome": "Troca",
@@ -5276,6 +5309,17 @@
     "depois": "Escolha um alvo que tenha sido acertado ou falhado no TR: **você e ele trocam de posição** imediatamente. Só uma troca por conjuração, mesmo em área ou com vários alvos. Um alvo disposto aceita a troca. Ambos precisam caber e ter apoio nos espaços de chegada; se um dos destinos não for possível, ninguém muda de lugar. A troca não percorre os espaços intermediários nem provoca ataques de oportunidade. Ainda exige escolher o alvo com o alcance e a visão permitidos pela ficha e não atravessa uma barreira que proíba esse transporte.",
     "motivo": "Define troca simultânea de posição como transporte específico da peça, em vez de dois empurrões de distância indefinida. Fecha falha de destino, apoio e resistência hostil.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Troca: uma troca por conjuração, mesmo em área; destino impossível cancela a troca.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5324,7 +5368,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-10",
     "nome": "Escolher",
@@ -5333,6 +5377,17 @@
     "depois": "Ao criar a área, escolha quais criaturas presentes ela pode atingir; as demais ficam excluídas daquela aplicação. Não muda o formato, não cria alvos adicionais nem seleciona quem você não consegue distinguir por percepção válida. Com Fica, registre as criaturas excluídas no disparo: novas criaturas não ficam protegidas automaticamente, e a lista não muda a cada entrada.",
     "motivo": "A seleção persistente não tinha momento definido. Fixa a lista por identidade na ativação, evitando imunidade gratuita a aliados futuros e seleção nova a cada pulso.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Escolher: a lista de excluídos fica fixa no disparo, inclusive com Fica.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5343,7 +5398,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-11",
     "nome": "Mais Um",
@@ -5352,6 +5407,17 @@
     "depois": "Acrescenta **um alvo individual** ao feitiço; pode comprar duas vezes. Divida os dados disponíveis em parcelas inteiras antes de rolar, com pelo menos um dado para cada alvo que receber o efeito. Confira alcance, visão e resolução para cada um. Não duplica uma área nem substitui Junto nas Formas Cura e Apoio. Toque exige todos os alvos a até 1,5 m de você.",
     "motivo": "Especifica divisão, não criação de áreas, e separa Junto de Mais Um para impedir redundância de peças de suporte.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Mais Um: dados em parcelas inteiras, pelo menos um por alvo; não duplica área nem substitui Junto.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5362,7 +5428,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-12",
     "nome": "Rajada",
@@ -5371,6 +5437,16 @@
     "depois": "Divide o feitiço em **Classe + 1 tiros**, cada um com ataque próprio. Só em Forma de alvo individual com ataque. Distribua os dados e indique os alvos antes de rolar. Cada tiro precisa de pelo menos um dado; se faltarem dados, reduza o número de tiros. Você pode dirigir vários ao mesmo alvo. Todos cumprem alcance e requisitos da Forma. Não combina com resolução só por TR nem transforma uma área em várias áreas.",
     "motivo": "Preserva número e ataques distintos, fecha tiros de zero dados e duplicação de área. R06 já reconhece gatilhos por tiro que outras peças autorizem.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Rajada: só em Forma de alvo individual com ataque; tiro sem dado some.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5381,7 +5457,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-13",
     "nome": "Fica",
@@ -5390,6 +5466,17 @@
     "depois": "Mantém a área **na rodada da conjuração e nas cinco seguintes**, com concentração, até o fim da última. A aplicação inicial resolve normalmente. Depois, entrar na área ou começar o turno nela resolve metade dos dados iniciais, para baixo, pelo ataque ou TR da ficha. **Uma resolução por criatura por rodada**, incluindo a inicial, mesmo se o ataque errar ou o TR evitar o dano.\n\nA área fica no local, inclusive se começou como Aura. Não reaplica as outras peças. Mover a área por outra capacidade não conta como entrada de uma criatura. Concentrada e Duradoura não prolongam Fica. Ela tem duração própria, sem reserva total de 4 × Classe para todas as rodadas.",
     "motivo": "Reproduz decisão R06/CAT-02: seis janelas globais, posição fixa e cota por rodada; não afirma que fonte antiga já possuía esse máximo.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Fica: de 1 minuto para a rodada da conjuração e as cinco seguintes; uma resolução por criatura por rodada.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5400,7 +5487,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-14",
     "nome": "Salto",
@@ -5409,6 +5496,17 @@
     "depois": "**Uma vez por conjuração**, após a resolução inicial, escolha um alvo que tenha sido acertado ou falhado no TR. Metade dos dados iniciais **destinados a esse alvo**, para baixo, salta para outro inimigo: o mais próximo dele a até **9 m**, por trajeto aberto; escolha em caso de empate.\n\nFaça o ataque com o mesmo bônus ou o TR da ficha contra esse segundo alvo. O ataque secundário pode errar; o TR reduz ou evita o dano conforme a ficha. Em Rajada, escolha um tiro que acertou como origem e use só os dados desse tiro. O segundo alvo cumpre os requisitos de visão e alvo da ficha. O Salto não causa crítico, não reaplica peças nem ativa benefícios de outro ataque. Não volta a saltar. Em Toque, os dois alvos devem estar a até 1,5 m de você.",
     "motivo": "Sincroniza decisão R06/CAT-03 e preserva a exclusão de gatilhos externos. Especifica base da parcela inicial escolhida, para um tiro não copiar os dados destinados a outros alvos/tiros.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Salto: uma vez por conjuração, metade dos dados destinados ao alvo de origem; sem crítico.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5419,7 +5517,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-15",
     "nome": "Contorno",
@@ -5428,6 +5526,17 @@
     "depois": "Permite à **área seguir um percurso aberto**, dobrando esquinas e passando ao redor de cobertura. Meça alcance e extensão pelo percurso real, respeitando comprimento, largura ou raio da Forma. Ignore a proteção de uma cobertura somente quando o efeito conseguir contorná-la. Não atravessa sólido nem enche outro cômodo além dessas medidas.\n\nNão concede visão: o alvo ou ponto de origem escolhido ainda precisa ser válido, ou requer Sem Ver. Depois de criada validamente, a área pode alcançar criaturas não vistas pelo percurso permitido.",
     "motivo": "Separa desviar de cobertura e atravessar obstáculo. Não impõe Sem Ver a toda vítima invisível de área, mas mantém a validade da origem escolhida.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Contorno: a área segue percurso aberto; não concede visão nem atravessa sólido.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5457,7 +5566,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-17",
     "nome": "Certeiro",
@@ -5466,6 +5575,17 @@
     "depois": "Só em ficha com ataque. Se o **resultado final errar um alvo válido**, causa metade dos dados daquele ataque, para baixo, sem outros efeitos nem crítico. No acerto, aplica dano e crítico normalmente. Resolva De Novo antes de conferir o erro final; não some uma parcela de erro a outra de acerto. Bloquear ou Aparar pode produzir esse erro final; uma redução de dano após o acerto não o produz.",
     "motivo": "Redesign aprovado em R06/CAT-01; inclui interface demonstrada com Bloquear.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Certeiro redesenhado: no erro final, metade dos dados; deixa de ser 'sem acerto, TR para metade'.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5476,7 +5596,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-18",
     "nome": "Inescapável",
@@ -5485,6 +5605,17 @@
     "depois": "Só em **Projétil de dano**. O dano é automático, sem ataque nem TR, e não pode ser crítico. Esta é a única Melhoria da ficha; não aceita Restrição, incluindo uma embutida na Forma. Você ainda precisa escolher alvo válido, dentro do alcance e com visão e trajeto exigidos. Não se combina com área, Controle, outras Formas, Liberação Máxima ou Técnica Máxima.",
     "motivo": "Fecha expressamente a lacuna de Forma paga/área. Preserva o único exemplo histórico de Projétil e o custo do dano automático usado como referência do domínio; não cria condição automática.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Inescapável: só em Projétil de dano, sem crítico, única Melhoria, sem Restrição.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5495,7 +5626,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-19",
     "nome": "De Novo",
@@ -5504,6 +5635,17 @@
     "depois": "**Uma vez por cena**, depois de um ataque deste feitiço errar, repita essa rolagem de ataque, com os mesmos modificadores e o mesmo alvo. Use o novo resultado. Em Rajada, repete somente um tiro. Não obriga alguém a repetir TR nem repete o feitiço inteiro. Alvo e requisitos precisam continuar válidos.",
     "motivo": "Define alcance da repetição e vínculo com cena, preservando preço. Limite acompanha a ficha/peça, não uma nova conjuração a cada falha.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "De Novo: repete só a rolagem de ataque errada, uma vez por cena; em Rajada, um tiro.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5609,7 +5751,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-25",
     "nome": "Terreno",
@@ -5618,6 +5760,17 @@
     "depois": "Requer Forma de área. Escolha ao montar: a área vira **terreno difícil** ou recebe **obscurecimento denso**, bloqueando a visão através dela, por uma rodada. O local fica fixo. Afeta quem passar por ele enquanto durar, sem TR por entrada; não causa dano nem aplica condição. Obscurecimento não cria cobertura física nem deixa alguém Oculto automaticamente.",
     "motivo": "Define obscurecimento e duração espacial, sem duplicar Cego nem conceder teste gratuito de furtividade. A escolha é fixa, não duas funções alternáveis por lançamento.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Terreno: exige Forma de área; obscurecimento denso, escolha fixa na montagem.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5647,7 +5800,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-27",
     "nome": "Desarma o Feitiço",
@@ -5656,6 +5809,16 @@
     "depois": "Escolha **um efeito contínuo ou uma barreira com Classe registrada**, ao alcance da Forma. Se sua Classe for igual ou maior, essa aplicação termina, sem ataque ou TR adicional. O efeito precisa ser percebido e ter acesso válido; não é necessário atingir seu criador. Cancelar o efeito não causa dano nem aplica as outras peças ao criador.\n\nNão desfaz um resultado já concluído, não remove todas as capacidades de uma criatura e não atribui Classe a item, característica inata, Selo ou Domínio. Esses casos só podem ser desfeitos se suas regras concederem essa possibilidade.",
     "motivo": "Preserva cancelamento de Classe igual/menor, fecha equivalências fictícias com nível/Refino e separa atacar efeito de impor dano automático ao dono.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Desarma o Feitiço: um efeito ou barreira com Classe registrada; não cria Classe para item, Selo ou Domínio.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5666,7 +5829,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-28",
     "nome": "Anteparo",
@@ -5675,6 +5838,17 @@
     "depois": "Cria uma **barreira fixa**, num ponto válido ao alcance do feitiço, com **10 × Classe PV** e duração de **1 minuto**. Seus painéis de 1,5 m usam a quantidade de quadrados da Linha básica da Classe, distribuídos numa superfície vertical contínua; cada painel compartilha um lado com outro e a altura mínima é **3 m**. Registre o formato.\n\nColoque-a em espaços livres, sem atravessar criaturas nem empurrá-las. Ela impede passagem e oferece cobertura conforme a posição; bloqueia visão se seu material for opaco. Todos os painéis partilham a mesma vida: ao chegar a zero, a barreira inteira termina. Use as regras de objetos para atacá-la. Não concede bônus de escudo equipado nem exige atacar uma criatura para surgir. Concentrada e Duradoura não prolongam sua duração.",
     "motivo": "Consolida Divisória de fios R06 e a geometria de face vertical; HP único impede multiplicar 10C por quadrado. Fecha escudo móvel/equipamento por leitura ambígua.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Anteparo: uma vida só para todos os painéis, superfície vertical contínua, 3 m de altura mínima.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5685,7 +5859,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-29",
     "nome": "Prende",
@@ -5694,6 +5868,17 @@
     "depois": "No acerto ou na falha do TR, o alvo não pode se deslocar voluntariamente até o fim do próximo turno dele. Ainda pode atacar, conjurar e usar outras ações. No próprio turno, pode gastar **Ação Padrão, Ação Bônus ou Ação de Movimento** para fazer o TR de saída registrado na ficha contra sua CD; no sucesso, a aplicação termina. Cada tentativa paga uma dessas ações.\n\nNão concede saída automática no fim do turno. Movimento imposto não é impedido e não encerra o efeito por si. Se o mesmo feitiço também mover o alvo, resolva o movimento antes de prendê-lo.",
     "motivo": "Formaliza “qualquer ação menos livre” sem inventar reação fora de gatilho. Interpreta a fixação como proibição de movimento voluntário, sem imunidade adicional a empurrão; mantém combo histórico Prende+Puxa.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Prende: proíbe deslocamento voluntário; a saída custa Padrão, Bônus ou Movimento.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5704,7 +5889,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-A-30",
     "nome": "Puxa",
@@ -5713,6 +5898,17 @@
     "depois": "Requer uma área com **centro definido**. No disparo, cada alvo atingido ou que falhe no TR é movido **até 6 m em direção ao centro**. O trajeto precisa estar livre e a chegada deve comportá-lo; pare antes de um obstáculo ou de sobrepor criaturas. Quem já chegou ao centro não é arrastado além dele.\n\nResolva os alvos do mais próximo ao mais distante do centro; em empate, o conjurador escolhe a ordem. Não repete o movimento quando alguém entra depois na área. Uma criatura não recebe Puxa e Empurrão da mesma conjuração; escolha qual aplicar a ela. Cone e Linha precisam de outro efeito para puxar a um ponto que sua Forma não define como centro.",
     "motivo": "R06 já usa “até 6 m”. Define centro de esfera, colisões/ocupação e ordem para evitar sobreposição ou distância negativa. A limitação a área com centro evita escolher ponto móvel gratuito em Linha/Cone. Empurrão e Puxa não somam trajetos na mesma criatura; escolha uma das aplicações sobre ela.",
     "registro_completo": "evidencias/r07-decisoes-a.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Puxa: exige área com centro definido; 'até 6 m', na ordem do mais próximo; não soma com Empurrão.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5856,7 +6052,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-08",
     "nome": "Enfraquece",
@@ -5865,6 +6061,17 @@
     "depois": "Até o fim do próximo turno do alvo, reduza o dano que ele causar em **Xd4**, sendo X metade do seu atributo da técnica, arredondada para baixo, mínimo zero.\n\nRole a redução ao resolver cada ataque ou aplicação de dano dele, antes das defesas de quem recebe. Numa mesma área, use uma única rolagem da redução para todas as criaturas. O resultado não pode reduzir o dano abaixo de zero. A peça não modifica custos que o alvo paga em vida nem dano de outras criaturas que ele comande.",
     "motivo": "Fecha arredondamento, mínimo zero e frequência por ataque/aplicação; não reduz pagamentos em vida nem dano de outra criatura.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Redução Xd4: arredonda para baixo, mínimo zero, rolada por aplicação.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5932,7 +6139,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-12",
     "nome": "Remate",
@@ -5941,6 +6148,17 @@
     "depois": "Aumente em 25% o dano inicial deste uso contra uma criatura que esteja **abaixo da metade da vida**, conferida antes da parcela de dano. O multiplicador entra antes das defesas. Um tiro de Rajada que leve o alvo abaixo da metade pode habilitar os tiros seguintes. Queima, Fica, Salto e Estilhaço não reaplicam este multiplicador.\n\nNão combina com Condicional ligada à vida do alvo ou à duração, nem com Aquecer. Na montagem, conte seu multiplicador ao verificar o teto. Crítico e Acúmulo conservam suas regras próprias.",
     "motivo": "Limiar conferido antes de cada parcela inicial; Remate não reaplicado em Queima/Fica/Salto/Estilhaço, coerência com exclusão R06 de herança de peças. Exclui incompatibilidades da fonte.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Remate: limiar conferido antes de cada parcela; Queima, Fica, Salto e Estilhaço não reaplicam.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes; no gerador do manual do Fundamento a entrada tem redação um pouco diferente (achada pelo nome)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5951,7 +6169,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-13",
     "nome": "Estilhaço",
@@ -5960,6 +6178,17 @@
     "depois": "Uma vez por conjuração, depois da resolução inicial, escolha um alvo que sofreu crítico ou falhou no TR por 5 ou mais. Metade dos dados iniciais destinados àquela origem, arredondada para baixo e sem os dados adicionais do crítico, atinge as outras criaturas a até **1,5 m** dele, respeitando obstáculos.\n\nEm Rajada, escolha um tiro que cumpriu o gatilho e use apenas os dados dele. O respingo não exige outro ataque ou TR. Pode atingir aliados e você; não herda Escolher. Não aplica outras peças, não ativa benefícios por ataque nem produz outro respingo. Vários alvos iniciais que cumpram o gatilho continuam produzindo apenas um Estilhaço.",
     "motivo": "Aplica CAT-04: um secundário automático, 1,5 m, sem dados do crítico nem peças herdadas.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Estilhaço: uma vez por conjuração, a até 1,5 m, sem os dados do crítico nem peças herdadas.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5970,7 +6199,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-14",
     "nome": "Quebra Coisa",
@@ -5979,6 +6208,17 @@
     "depois": "Dobre o dano inicial contra barreiras, objetos e estruturas que possam ser afetados pela ficha. Queima, Fica, Salto e Estilhaço não reaplicam o multiplicador. Isso não permite atingir algo sem alcance ou passagem, nem tratar uma criatura como objeto. Conte o multiplicador na montagem e mantenha as defesas do objeto que a peça não ignora.",
     "motivo": "Dobra somente dano inicial contra objetos válidos; multiplicador passa pela mesma regra de teto R06, fechamento de uma omissão de enumeração. Não herda para repetições.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Dano dobrado contra objetos: só o dano inicial; conta no teto.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6065,7 +6305,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-19",
     "nome": "Armado",
@@ -6074,6 +6314,17 @@
     "depois": "No seu turno, gaste a ação, o PE e os demais custos da ficha e cumpra seus requisitos de conjuração. Escolha um gatilho que você possa perceber, fora do seu próprio turno. O feitiço fica preparado até o fim da cena; você só mantém um feitiço Armado por vez.\n\nNa primeira ocorrência do gatilho que você perceber, resolva o feitiço depois dela, sem gastar Reação. Você precisa perceber o acontecimento e poder escolher alvos; confira visão, alcance e obstáculos na posição que ocupa ao disparar. O preparo é consumido mesmo se o ataque errar ou o alvo resistir.\n\nSe não houver alvo válido nessa ocorrência, o preparo se encerra sem disparar. Quando um preparo termina sem disparar — inclusive pelo fim da cena ou por preparar outro — recupere metade do PE efetivamente pago, arredondada para baixo. Outros custos não voltam. Armar conta como conjuração no turno do pagamento; o disparo é a resolução dessa mesma conjuração.\n\nNão combina com Reação ou Carregar. Não pode preparar uma Técnica Máxima. Numa Liberação Máxima, pague a Ação Completa, o PE e o preço escolhido ao armar; a preparação não devolve essas ações nem adia esse preço.",
     "motivo": "Um preparo, percebe gatilho, paga conjuração ao armar, resolve depois. Falta de alvo encerra. Liberação mantém ação/PE/preço no preparo; Parado/Atrasar conservados também no turno do disparo. Exclui Técnica Máxima para evitar estoque e contagem dupla de recarga; requer sincronizar R06.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Armado: paga ao armar, primeira ocorrência percebida, metade do PE para baixo de volta; não arma Técnica Máxima.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes; no gerador do manual do Fundamento a entrada tem redação um pouco diferente (achada pelo nome)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6122,7 +6373,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-22",
     "nome": "Segura",
@@ -6131,6 +6382,17 @@
     "depois": "Ao conjurar, pague os custos e adie a resolução. Dispare em qualquer momento do seu próximo turno, sem gastar outra ação, conferindo alvo, visão, alcance e obstáculos a partir da posição que ocupa então. Se não disparar até o fim desse turno, perde a aplicação, sem recuperar PE.\n\nO disparo resolve a conjuração já paga; não concede ações ou outro uso dela. Não combina com Armado, pois são dois procedimentos para adiar o mesmo disparo. Não pode adiar uma Técnica Máxima.",
     "motivo": "Fecha término no fim do turno seguinte, sem refund; não combina com Armado; exclui Técnica Máxima em vez de inventar nova recarga.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Adiar até o próximo turno: perde sem devolver PE se não disparar; não combina com Armado nem adia Técnica Máxima.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6274,7 +6536,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-30",
     "nome": "Cobrança",
@@ -6283,6 +6545,17 @@
     "depois": "Escolha uma criatura que recebeu a peça. Se ela passar de vida positiva para zero ainda nesta cena, seu próximo feitiço custa metade do PE, arredondada para cima. A queda provocada pelo dano inicial que aplica Cobrança também conta. A queda consome esta marca; recuperar vida e cair novamente não dá outro desconto.\n\nVocê mantém uma Cobrança por vez. Marcar outra criatura encerra a marca anterior. Não acumule descontos de Cobrança: receber outro enquanto houver um disponível não reduz o custo novamente. O benefício se perde no fim da cena ou após a próxima conjuração, mesmo que ela custe 0 PE.\n\nCobrança e a Passiva Eco não se multiplicam: quando ambos estiverem disponíveis, aplique uma única redução à metade e consuma os dois na próxima conjuração, inclusive se ela custar 0 PE. O desconto modifica apenas PE; não reduz ação, outros custos ou recarga. Um efeito de dano que começou depois pode derrubar a criatura e cumprir a marca já aplicada, mas não cria uma nova Cobrança.",
     "motivo": "Define cair como passar de vida positiva para zero, incluindo queda inicial; uma marca/desconto por vez. Decisão do agente principal: não multiplica Eco e consome ambos; expira na cena e gasta na próxima conjuração inclusive Classe0.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Cobrança: uma marca por vez, desconto para cima, não multiplica com Eco.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6350,7 +6623,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-34",
     "nome": "Levanta",
@@ -6359,6 +6632,16 @@
     "depois": "Um aliado a **0 de vida**, ainda capaz de ser socorrido, recupera **5 × Classe de vida**, limitado à vida máxima, e pode voltar a agir mesmo abaixo do limiar normal de recuperação. Ele fica de pé se tiver apoio e não houver outro efeito que o mantenha Derrubado. A peça não encerra esse impedimento.\n\nVocê pode aplicar Levanta **uma vez por cena**, compartilhando esse limite entre suas fichas. A peça alcança um aliado escolhido, mesmo numa Onda. Não ressuscita uma criatura morta, não recupera Integridade e não elimina as demais condições. Consulte Recuperação para as consequências da queda.",
     "motivo": "Preserva 5×Classe e exceção ao limiar; fixa uso global do conjurador por cena e um aliado mesmo em Onda, sem multiplicar via catálogo. Integração da revisão Morrendo permanece dependência.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Levanta: uma vez por cena, compartilhado entre as fichas do conjurador; um aliado mesmo em Onda.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6369,7 +6652,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-35",
     "nome": "Divide",
@@ -6378,6 +6661,17 @@
     "depois": "Escolha um aliado disposto a até 9 m ao conjurar. Até o fim do próximo turno dele, ele recebe metade do dano que você receberia. Depois das suas defesas e antes de gastar suas reservas, envie metade do valor restante, arredondada para cima, ao aliado; desconte de você somente o restante.\n\nO dano enviado conserva o tipo e recebe as defesas do aliado. Ele não pode ser transferido ou dividido de novo. Se mais de um vínculo puder dividir o mesmo dano, use apenas um. O vínculo não exige que vocês permaneçam a 9 m; essa distância é conferida na aplicação. Junto não cria outro parceiro para a mesma divisão.",
     "motivo": "Ordem de redução, arredondamento conservando total antes de defesas do parceiro, sem transferência recursiva; alcance só na aplicação, um vínculo aplicável por dano.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Vínculo de dano: metade para cima depois das defesas, sem transferir de novo.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6388,7 +6682,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-36",
     "nome": "Junto",
@@ -6397,6 +6691,17 @@
     "depois": "Cura ou Apoio alcança mais um aliado dentro do alcance da Forma. Pode comprar esta peça duas vezes, para acrescentar até dois aliados. **Antes de resolver**, distribua os dados de cura ou os pontos de vida temporária entre todos os beneficiários, em quantidades inteiras, sem ultrapassar o total da ficha.\n\nUm efeito indivisível, como Guarda, Pressa ou remover uma condição, é destinado a **um só** desses beneficiários. Escolha o destinatário de cada peça antes da resolução; não copie o efeito nem divida um bônus +2 em dois bônus +1. Onda já aplica seu efeito inteiro na área e não usa Junto para ampliar essa área.\n\n> **Exemplo:** Apoio com 9 de vida temporária, Guarda e Junto pode conceder 6 de vida temporária a uma aliada e 3 a outra. Só uma recebe Guarda. A distribuição 9 para cada uma não cabe.",
     "motivo": "Divide quantidades antes de resolver; cada efeito indivisível para um beneficiário, nunca copia bônus/condições; não aumenta Onda.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Junto: dados ou vida temporária divididos antes de resolver; efeito indivisível vai para um só.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6407,7 +6712,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-B-37",
     "nome": "Reserva",
@@ -6416,6 +6721,17 @@
     "depois": "Adie a cura da ficha: role os dados agora e anote o valor no aliado, em vez de recuperar vida. Na próxima vez, ainda nesta cena, em que ele passar de pelo menos metade da vida para abaixo dela, aplique a cura guardada depois de resolver o dano que provocou a queda, sem gastar ação.\n\nA reserva é consumida nesse disparo, mesmo se a cura for impedida; o valor não volta ao conjurador. Se a cena terminar antes, ela se perde. Cada aliado mantém uma reserva: receber outra substitui a anterior, sem somar valores. Estar abaixo da metade ao recebê-la não a dispara imediatamente.\n\nA peça não adia as outras Melhorias. Junto divide a cura antes de guardá-la; Onda pode guardar sua cura em cada aliado alcançado. A zero de vida, a cura segue Recuperação; Reserva não concede o efeito de Levanta por conta própria.",
     "motivo": "Fixa transição de metade para menos, valor rolado ao guardar, uma reserva por alvo, sem soma, consumo mesmo impedido; não adia outras melhorias.",
     "registro_completo": "evidencias/r07-decisoes-b.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Reserva de cura: rolada ao guardar, uma por aliado, consumida no disparo.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6464,7 +6780,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-02",
     "nome": "Atrasar",
@@ -6473,6 +6789,17 @@
     "depois": "**Devolução: Média.** A conjuração exige **Ação Completa**: compromete sua Ação Padrão, sua Ação Bônus e sua Ação de Movimento daquele turno. Você precisa ter esses recursos disponíveis e não pode se deslocar voluntariamente nesse turno, antes ou depois da conjuração. Sua Reação permanece disponível.\n\nNão combina com Parado, Rápido ou Reação. Uma Liberação Máxima já exige Ação Completa. Atrasar não lhe concede devolução adicional.",
     "motivo": "Corrige o texto antigo que retirava toda ação: Ação Completa preserva Reação. Fecha disponibilidade das ações e movimento voluntário antes/depois; não dá devolução sobre custo já obrigatório. R06: Liberação Máxima; peça 03:49.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Atrasar: Ação Completa conserva a Reação (o texto antigo tirava tudo); não combina com Parado, Rápido ou Reação.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6483,7 +6810,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-03",
     "nome": "Parado",
@@ -6492,6 +6819,17 @@
     "depois": "**Devolução: Leve.** Você não pode ter se deslocado voluntariamente no turno da conjuração, nem fazê-lo depois dela nesse turno. Conserva sua Ação Bônus. Movimento imposto por outra criatura não impede o uso nem desfaz um feitiço já resolvido.\n\nNão combina com Atrasar ou com a Melhoria Reação. Também não devolve pontos quando outra exigência da própria aplicação já impede seu movimento durante todo o turno. Em conjurações adiadas, confira a exigência no turno do pagamento e no do disparo, conforme as Melhorias de Tempo.",
     "motivo": "Explicita turno inteiro e movimento voluntário, sem falha retroativa por empurrão. Sincroniza pagamento/disparo com peças Tempo da R07. A resolução para movimento imposto não estava escrita.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Parado: movimento imposto não desfaz; sem devolução se outra exigência já impede o movimento.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6521,7 +6859,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-05",
     "nome": "Carregar",
@@ -6530,6 +6868,17 @@
     "depois": "**Devolução: Média.** No primeiro turno, gaste **Ação Padrão** para iniciar a carga e pague o PE do feitiço. Você conserva Movimento e Bônus. No seu turno seguinte, use a ação de conjuração indicada na ficha para liberar o feitiço. Se não o liberar até o fim desse turno, perde a carga e o que pagou por ela.\n\nEnquanto carrega, cada ocorrência de dano exige um **TR Espírito contra a CD de quem o feriu**. Uma falha perde a carga e os recursos já pagos. Mão Firme dispensa esse teste para dano de até 10, por ocorrência.\n\nCarregar não ocupa sua Concentração. Depois da liberação, um efeito que exija Concentração segue seu procedimento normal, com TR Vigor ao sofrer dano. Carregar não combina com Armado.",
     "motivo": "Primeiro turno Padrão e PE; turno seguinte ação da ficha; expiração ao fim desse turno. Fonte fixa a Padrão inicial, o teste Espírito e perda de pagamentos, mas não define liberação, pagamento inicial ou expiração. Fechamento candidato evita carga indefinida e uma liberação gratuita não expressa. Preserva Movimento/Bônus no preparo e separa Concentração. manual/11-o-turno.md:145–158; peça03:61–81.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Carregar: Padrão e PE no primeiro turno, liberação no seguinte, a carga expira no fim dele.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6635,7 +6984,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-11",
     "nome": "Sem Volta",
@@ -6644,6 +6993,17 @@
     "depois": "**Devolução: Média.** Se a resolução do feitiço terminar sem acertar nem afetar nenhum alvo, você **não pode conjurar no seu próximo turno**, nem mesmo Classe 0. Basta um ataque acertar. Numa aplicação por TR, basta um alvo sofrer um dos efeitos.\n\nNão cabe numa aplicação automática nem quando um efeito garantido no erro ou no sucesso do TR impede a falha completa. Por exemplo, causar metade do dano a todos que resistem elimina esse risco. Tudo ou Nada pode restaurá-lo. A restrição não cancela efeitos anteriores que você ainda mantenha.",
     "motivo": "Define falha completa em múltiplos alvos e exclui aplicação automática ou dano parcial garantido. Conserva bloqueio só no próximo turno e Classe0 incluída. A peça27:155 já reprova Sem Volta + Ritual de Meio Acerto por inexistir risco; estende o mesmo critério a Certeiro e metade no TR. Não pune a manutenção de efeito anterior.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Sem Volta: não cabe em aplicação automática nem com efeito garantido no erro ou no TR.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6673,7 +7033,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-13",
     "nome": "Condicional",
@@ -6682,6 +7042,17 @@
     "depois": "**Devolução: Leve ou Média.** Escreva uma condição de cena ou de alvo que precisa existir para conjurar: estar no escuro, atacar alguém marcado por você ou estar perto de água corrente, por exemplo. Registre também seus limites; “perto de água” precisa dizer qual distância e o que conta como água corrente.\n\nA devolução depende da frequência com que a exigência **impede o uso** nas cenas da campanha. Se impedir em pelo menos metade delas, devolve Média. Nos demais casos em que houver dificuldade real, devolve Leve. Se a condição estiver sempre garantida, não devolve pontos. Confiram essa estimativa nas sessões seguintes.",
     "motivo": "Preenche lacuna entre menos de um terço e maioria. Média quando impede em pelo menos metade; Leve nos demais casos com dificuldade real. A referência de metade vem da Restrição Própria do mesmo catálogo. Impedir uso é distinto de falhar na rolagem.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Condicional: Média quando impede em pelo menos metade das cenas (era 'a maioria'), Leve nos demais.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6711,7 +7082,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-15",
     "nome": "Dívida",
@@ -6720,6 +7091,17 @@
     "depois": "**Devolução: Média.** Depois de conjurar, anote uma dívida de **2 × a Classe usada neste feitiço**. Seu próximo feitiço nesta cena custa essa quantidade de PE a mais, **mesmo que seja Classe 0**. Pague a dívida junto com a conjuração seguinte e apague a anotação.\n\nSe essa conjuração também tiver Dívida, ela paga a anterior e cria sua própria dívida. A quantia pendente não é reduzida por uma vantagem que diminua ou dispense o custo normal do feitiço seguinte. Se a cena terminar antes de outro feitiço, a dívida termina com ela.",
     "motivo": "Explicita consumo, nova dívida na conjuração seguinte e fim da cena. Isola dívida de descontos do PE normal: a redação original exige energia a mais mesmo em Classe0, mas não define interação com dispensa/redução. Evita vender custo posteriormente apagado.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Dívida: paga na conjuração seguinte, não reduzida por desconto, termina com a cena.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes; no gerador do manual do Fundamento a entrada tem redação um pouco diferente (achada pelo nome)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6768,7 +7150,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-18",
     "nome": "Assinatura",
@@ -6777,6 +7159,17 @@
     "depois": "**Devolução: Leve.** O feitiço deixa uma **marca visível por 1 hora**, que permite reconhecer você como seu autor. Registre na ficha onde a marca aparece e como ela o identifica. A marca não pode ficar deliberadamente escondida na montagem.\n\nEla denuncia a autoria. Não revela automaticamente sua posição atual nem permite acompanhá-lo à distância. Um efeito que apague ou disfarce sempre essa identificação elimina a dificuldade e sua devolução.",
     "motivo": "A frase antiga aponta para você é ambígua entre autoria e rastreamento direcional. Candidata fixa autoria identificável com marca visível por 1 hora e exclui posição atual. Exige local e aparência na ficha. A decisão precisa ser revista se a intenção original era rastreamento contínuo.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Assinatura: denuncia a autoria, não a posição atual.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6787,7 +7180,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-19",
     "nome": "Restrição Própria",
@@ -6796,6 +7189,17 @@
     "depois": "**Devolução: Leve ou Média.** Escreva com o mestre uma dificuldade que as outras entradas não representem. Ela vale para o feitiço em que foi criada, ocupa uma das duas Restrições e precisa estar definida **antes da sessão**.\n\n| Campo | O que definir |\n|---|---|\n| Exigência ou consequência | O que a criatura precisa fazer ou sofrer. |\n| Momento | Quando conferir a exigência ou aplicar o custo. |\n| Duração | Até quando a consequência permanece. |\n| Devolução | Leve ou Média, conforme a dificuldade real. |\n| Compatibilidade | Se repete Selo, Forma, outra Restrição ou algo já obrigatório. |\n\nUse **Média** quando a dificuldade atrapalhar em pelo menos metade das cenas previstas. Nas demais situações com prejuízo real, use **Leve**. Sem uma situação plausível em que atrapalhe, não há devolução. Na dúvida, escolha Leve ou não conceda pontos. Nenhuma Restrição Própria devolve Pesada.\n\nUma limitação equivalente a Uma Vez, Condicional, Aquecer ou Dívida entra no grupo de frequência. Uma exigência de preparo ou um custo de vida não entra nesse grupo só por acontecer antes de conjurar.\n\nSe a proposta reunir duas dificuldades independentes, registre duas Restrições e respeite o limite. Se repetir o mesmo impedimento, conte a devolução uma vez. Ter duas consequências no mesmo instante não basta para torná-las iguais: Sangra e Barulho, por exemplo, cobram vida e exposição.\n\nDepois de três sessões em que o feitiço tenha sido usado, comparem a dificuldade prevista com o que aconteceu. Troquem uma Restrição que nunca tenha atrapalhado, mantendo uma ficha válida antes do próximo uso.",
     "motivo": "Completa a lacuna de frequência com mesma régua de Condicional; mantém máximo2, sem Pesada, sem redundância com Selo. Momento igual não torna dois custos iguais (vida + exposição); o critério é impedimento duplicado. Nem todo preparo é automaticamente frequência.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Restrição Própria: régua de metade das cenas, nunca Pesada, revisão depois de três sessões.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes; no gerador do manual do Fundamento a entrada tem redação um pouco diferente (achada pelo nome)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6958,7 +7362,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-28",
     "nome": "Segunda Natureza",
@@ -6967,6 +7371,16 @@
     "depois": "**Uma vez por dia**, você pode conjurar um feitiço conhecido de Classe até **metade da sua maior Classe, arredondada para baixo**, sem pagar seu custo normal de PE. Declare o uso antes de conjurar.\n\nVocê ainda gasta a ação indicada, cumpre o Selo e as Restrições e respeita o limite de conjurações do turno. Custos adicionais independentes, como uma Dívida pendente, continuam sendo pagos. O limite é por dia. Realizar um descanso não concede outro uso no mesmo dia.",
     "motivo": "Mantém uma vez por dia, diferente de descanso longo conforme peça 10, linha 213. Metade da maior Classe para baixo. Dispensa somente o custo normal de PE, preservando Dívida e custos independentes. Mantém ação, requisitos e momento de declaração.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Segunda Natureza: metade da maior Classe para baixo; uma vez por dia, descanso não renova.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes; no gerador do manual do Fundamento a entrada tem redação um pouco diferente (achada pelo nome)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -6977,7 +7391,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-29",
     "nome": "Eco",
@@ -6986,6 +7400,17 @@
     "depois": "Quando um feitiço seu reduzir um **inimigo a 0 pontos de vida**, o próximo feitiço que você conjurar nesta cena custa **metade do seu PE normal, arredondada para cima**. Derrubado, a condição, não ativa Eco.\n\nVocê guarda uma redução por vez. Derrubar outros inimigos antes de gastá-la não acumula metades. Se Eco e Cobrança estiverem disponíveis juntos, aplique **uma única metade e consuma os dois benefícios** na próxima conjuração, inclusive Classe 0. Uma nova derrota provocada por essa conjuração pode conceder outra redução. O benefício não altera custos independentes, como Dívida, e não atravessa o fim da cena.\n\n> **Exemplo.** Um feitiço que custa 9 PE passa a custar 5. Se houver uma Dívida de 4 PE, o total será 9 PE. Dois inimigos derrotados pela mesma conjuração não reduzem o preço seguinte para um quarto.",
     "motivo": "Derrubar significa reduzir inimigo a 0 PV, não aplicar a condição Derrubado. A próxima conjuração consome o desconto, mesmo Classe 0. O PE reduzido arredonda para cima conforme peça 01, linha 429. Eco e Cobrança juntos aplicam uma metade, consumindo ambos. Essa interação é um fechamento mecânico candidato solicitado pelo parent para evitar um quarto de PE.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Eco: metade para cima, uma redução por vez, consome junto com Cobrança.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7015,7 +7440,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-31",
     "nome": "Contramedida",
@@ -7024,6 +7449,17 @@
     "depois": "Quando outra criatura a até **9 m** conjurar um feitiço, você pode gastar sua **Reação e 2 PE** para aumentar a **CD desse feitiço em 2**. Declare depois que a conjuração for anunciada e antes dos TR. O aumento vale para os TR contra aquela aplicação enquanto ela durar.\n\nA criatura precisa conjurar um feitiço que tenha CD. Contramedida não melhora ataques contra Defesa, não interrompe a conjuração e não reduz a CD de um inimigo. O mesmo feitiço recebe esse aumento no máximo uma vez, mesmo que mais de uma criatura tenha a Passiva.",
     "motivo": "A fonte diz gasta PE, sem número. Candidata fixa 2 PE e Reação, outra criatura a 9 m, +2 CD antes dos TR e no máximo um aumento por aplicação. Não permite uso próprio. Mantém auxílio à conjuração apesar do nome sugerir contramágica. O parent aceitou 2 PE como proposta, não como número recuperado da fonte.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Contramedida: Reação e 2 PE (a fonte não dava número), +2 de CD uma vez por feitiço.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7034,7 +7470,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-32",
     "nome": "Peso da Presença",
@@ -7043,6 +7479,16 @@
     "depois": "Um inimigo da categoria **Capanga** que comece o turno a até **6 m** de você faz um **TR Espírito contra a CD da sua técnica**. Se falhar, fica **Amedrontado por você até o começo do próximo turno dele**. Como Amedrontado é uma condição Pesada, ele repete o TR no fim do turno e encerra essa aplicação se passar. Se permanecer na área, faz o teste do novo turno normalmente.\n\nO efeito não exige ação nem PE. A distância é conferida no começo do turno do alvo. Apenas entrar na área não dispara outro teste. Outras categorias de inimigo e personagens que não usam a categoria Capanga não são afetados por esta Passiva.",
     "motivo": "A fonte não define inimigos fracos nem o TR. Candidata usa a categoria Capanga já publicada (peça 26, linhas 33–47), TR Espírito contra a CD da técnica e prazo até o começo do próximo turno do alvo. Preserva a saída de condição Pesada no fim do turno (Dano e condições, lote 03-r3, linha 241). Não inventa nível relativo nem novo contador. A peça 11, linha 206, confirma que o gatilho basta. Parent aceitou o fechamento. Não houve playtest de força relativa.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Peso da Presença: só Capanga, TR Espírito contra a CD da técnica, até o começo do próximo turno.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes; no gerador do manual do Fundamento a entrada tem redação um pouco diferente (achada pelo nome)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7110,7 +7556,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-C-36",
     "nome": "Regra Própria",
@@ -7119,6 +7565,16 @@
     "depois": "Técnicas baseadas em aposta, contrato, julgamento ou obrigação podem ter uma **Regra Própria**, definida com o mestre antes da campanha. Ela é uma Passiva específica, com aquisição diferente das demais.\n\n| Classe Passiva | Nível mínimo | Espaços ocupados |\n|---|---|---|\n| 1 | 1 | Nenhum. É a versão inicial. |\n| 2 | 7 | 1 espaço no total. |\n| 3 | 13 | 2 espaços no total. |\n\nAo melhorar de Classe Passiva 2 para 3, ocupe somente **mais um espaço**. Regra Própria não conta no máximo de cinco Passivas pagas. O nome se refere a este efeito. A **Regra do Fundamento** continua sendo a frase que define o funcionamento da técnica inteira.\n\n## Escreva o efeito\n\nComece por uma frase que a mesa consiga aplicar. Depois registre alcance, alvos, consequência e prazo quando forem necessários. A Regra Própria precisa cumprir estas condições:\n\n- **Gatilho verificável.** O grupo identifica quando acontece.\n- **Simetria.** A mesma consequência pode valer contra você, nas mesmas condições.\n- **Sem dano direto.** Ela pode produzir um recurso, uma condição ou uma obrigação com funcionamento definido.\n- **Limite por cena.** Escreva quantas vezes a consequência pode ser aplicada.\n\nCompare seu resultado com as Passivas da mesma Classe. Uma frase como “o alvo fica ligado a mim” ainda precisa dizer o que a ligação faz, quem afeta, quanto dura e como termina. A simetria e o limite não tornam qualquer consequência adequada à Classe Passiva 1.\n\n## Exemplo: aposta entre dois\n\n**Regra:** uma vez por cena, quando você e outra criatura aceitarem uma aposta sobre uma disputa real entre ambos, quem vencer recebe vantagem no próximo teste que fizer antes do fim da cena.\n\nOs dois precisam entender e aceitar a aposta antes da disputa. Registrem um resultado que possa ser verificado. Empate não concede vantagem e consome a aposta da cena. A Passiva não concede ações nem altera testes já resolvidos. Um resultado combinado antecipadamente não é uma disputa. Esta é uma proposta original de **Classe Passiva 1**, sujeita à aprovação da mesa.\n\nUma regra que imponha uma condição a alguém contra a vontade precisa declarar sua defesa ou seu TR, a CD, a duração e a saída. Não basta escrever a obrigação na narrativa para retirar as ações de outra criatura.",
     "motivo": "Preserva frase com gatilho verificável, simetria, ausência de dano direto e limite por cena. Acrescenta campos de funcionamento. Classe Passiva 1 é gratuita, Classe 2 ocupa um espaço, Classe 3 ocupa dois no total, sem contar nas cinco pagas. O exemplo de aposta é uma proposta original de Classe Passiva 1. Obrigações impostas a adversários precisam de resolução e saída explícitas.",
     "registro_completo": "evidencias/r07-decisoes-c.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partB.js",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Regra Própria: Classe Passiva 1, 2 e 3 nos níveis 1, 7 e 13, com 0, 1 e 2 espaços, fora das cinco pagas.",
+    "como": "texto de antes achado nos donos da v0.331; depois lido contra o antes; no gerador do manual do Fundamento a entrada tem redação um pouco diferente (achada pelo nome)",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7148,7 +7604,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-R-01",
     "nome": "Fechamento de revisão cruzada",
@@ -7157,6 +7613,16 @@
     "depois": "Não combina com resolução só por TR nem transforma uma área em várias áreas.\n\nCada alvo ou tiro com dados pode aplicar suas Melhorias quando sua resolução permitir. Os demais tiros desta conjuração não acumulam nem renovam a mesma condição no mesmo alvo. Limites próprios, como uma Troca ou um Empurrão por conjuração, permanecem.",
     "motivo": "Revisão cruzada A-R01: oposição por tiro e limites de peças explícitos. Probabilidade de controle fica registrada na análise numérica.",
     "registro_completo": "evidencias/r07-ajustes-raiz.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Rajada: cada tiro aplica as Melhorias que puder; limites próprios (uma Troca, um Empurrão) continuam.",
+    "como": "texto de antes achado nos donos da v0.331 (pelo registro de base R07-A-12); depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7205,7 +7671,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-R-04",
     "nome": "Fechamento de revisão cruzada",
@@ -7214,6 +7680,17 @@
     "depois": "**Uma vez por cena, compartilhando esse uso entre suas fichas**, depois de um ataque deste feitiço errar,",
     "motivo": "Fecha unidade de De Novo por personagem, evitando renovar limite por ficha copiada.",
     "registro_completo": "evidencias/r07-ajustes-raiz.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "De Novo: uma vez por cena por personagem, compartilhado entre as fichas.",
+    "como": "texto de antes achado nos donos da v0.331 (pelo registro de base R07-A-19); depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7262,7 +7739,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-R-07",
     "nome": "Fechamento de revisão cruzada",
@@ -7271,6 +7748,17 @@
     "depois": "A restrição não cancela efeitos anteriores que você ainda mantenha. Numa Liberação Máxima, escolha Sangue ou Peso como preço de uso: Vazio repetiria a proibição de conjurar.",
     "motivo": "F51: proibir dupla remuneração de Sem Volta com Vazio.",
     "registro_completo": "evidencias/r07-ajustes-raiz.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Sem Volta numa Liberação Máxima: o preço de uso é Sangue ou Peso, não Vazio.",
+    "como": "texto de antes achado nos donos da v0.331 (pelo registro de base R07-C-11); depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -7300,7 +7788,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R07-R-09",
     "nome": "Fechamento de revisão cruzada",
@@ -7309,6 +7797,16 @@
     "depois": "Barulho e Assinatura são duas formas de exposição: escolha no máximo uma delas. Recuo, Fraqueza e Peso Morto também não se combinam entre si, pois cobram penalidades do próprio conjurador.\n\nSe a proposta reunir duas dificuldades independentes, registre duas Restrições e respeite o limite.",
     "motivo": "Preservar proibição de exposições da fonte e fechar nominalmente a categoria de penalidades próprias, evitando desconto por interpretações diferentes do mesmo custo.",
     "registro_completo": "evidencias/r07-ajustes-raiz.json"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Barulho e Assinatura não se combinam; Recuo, Fraqueza e Peso Morto também não, entre si.",
+    "como": "texto de antes achado nos donos da v0.331 (pelo registro de base R07-C-19); depois lido contra o antes",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
