@@ -1,23 +1,23 @@
 {
-  "sha256_pdf": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
-  "sha256_manuscrito": "f51056f705ab376b1a8038ebef6431a4934ea7823a23667146fcda71f0ad7646",
+  "sha256_pdf": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+  "sha256_manuscrito": "e747cf7407d50f1e3a2a768f24936b4f1c40c82272d5be9d6f4d91a96166363b",
   "ok": true,
   "verificacoes": 3505,
   "paginas": 382,
   "blocos": 509,
   "links_internos": 526,
-  "caracteres_pdf": 813557,
+  "caracteres_pdf": 813701,
   "checks": [
     {
       "teste": "PDF atual",
-      "obtido": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
-      "esperado": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
+      "obtido": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+      "esperado": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
       "ok": true
     },
     {
       "teste": "Markdown atual",
-      "obtido": "f51056f705ab376b1a8038ebef6431a4934ea7823a23667146fcda71f0ad7646",
-      "esperado": "f51056f705ab376b1a8038ebef6431a4934ea7823a23667146fcda71f0ad7646",
+      "obtido": "e747cf7407d50f1e3a2a768f24936b4f1c40c82272d5be9d6f4d91a96166363b",
+      "esperado": "e747cf7407d50f1e3a2a768f24936b4f1c40c82272d5be9d6f4d91a96166363b",
       "ok": true
     },
     {
@@ -14878,8 +14878,8 @@
     },
     {
       "teste": "Captura confere vanguarda",
-      "obtido": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
-      "esperado": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+      "obtido": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+      "esperado": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
       "ok": true
     },
     {
@@ -89664,6 +89664,9 @@
         "7",
         "ataque",
         "extra",
+        "e",
+        "execução",
+        "preparada",
         "15",
         "não",
         "cede",
@@ -89817,6 +89820,9 @@
         "7",
         "ataque",
         "extra",
+        "e",
+        "execução",
+        "preparada",
         "15",
         "não",
         "cede",
@@ -92130,6 +92136,31 @@
         "por",
         "rodada",
         "nível",
+        "7",
+        "execução",
+        "preparada",
+        "uma",
+        "vez",
+        "por",
+        "sequência",
+        "ao",
+        "concluir",
+        "depois",
+        "de",
+        "duas",
+        "ou",
+        "mais",
+        "conduções",
+        "acertadas",
+        "imponha",
+        "1",
+        "a",
+        "um",
+        "tr",
+        "adicional",
+        "da",
+        "conclusão",
+        "nível",
         "15",
         "não",
         "cede",
@@ -92374,6 +92405,31 @@
         "limite",
         "por",
         "rodada",
+        "nível",
+        "7",
+        "execução",
+        "preparada",
+        "uma",
+        "vez",
+        "por",
+        "sequência",
+        "ao",
+        "concluir",
+        "depois",
+        "de",
+        "duas",
+        "ou",
+        "mais",
+        "conduções",
+        "acertadas",
+        "imponha",
+        "1",
+        "a",
+        "um",
+        "tr",
+        "adicional",
+        "da",
+        "conclusão",
         "nível",
         "15",
         "não",
@@ -335983,7 +336039,7 @@
     },
     {
       "pagina": 87,
-      "caracteres": 1746,
+      "caracteres": 1767,
       "fim_corpo": 730.12
     },
     {
@@ -335998,53 +336054,53 @@
     },
     {
       "pagina": 90,
-      "caracteres": 2391,
-      "fim_corpo": 773.12
+      "caracteres": 2303,
+      "fim_corpo": 752.59
     },
     {
       "pagina": 91,
-      "caracteres": 3336,
-      "fim_corpo": 744.32
+      "caracteres": 3361,
+      "fim_corpo": 723.12
     },
     {
       "pagina": 92,
-      "caracteres": 2813,
-      "fim_corpo": 763.72
+      "caracteres": 2613,
+      "fim_corpo": 743.92
     },
     {
       "pagina": 93,
-      "caracteres": 3055,
+      "caracteres": 3092,
       "fim_corpo": 753.52
     },
     {
       "pagina": 94,
-      "caracteres": 3022,
-      "fim_corpo": 771.32
+      "caracteres": 3075,
+      "fim_corpo": 756.47
     },
     {
       "pagina": 95,
-      "caracteres": 3090,
-      "fim_corpo": 761.72
+      "caracteres": 3042,
+      "fim_corpo": 769.92
     },
     {
       "pagina": 96,
-      "caracteres": 3128,
-      "fim_corpo": 767.92
+      "caracteres": 3364,
+      "fim_corpo": 766.52
     },
     {
       "pagina": 97,
-      "caracteres": 3408,
-      "fim_corpo": 762.72
-    },
-    {
-      "pagina": 98,
-      "caracteres": 2536,
+      "caracteres": 3293,
       "fim_corpo": 776.72
     },
     {
+      "pagina": 98,
+      "caracteres": 2476,
+      "fim_corpo": 756.92
+    },
+    {
       "pagina": 99,
-      "caracteres": 2610,
-      "fim_corpo": 647.32
+      "caracteres": 2921,
+      "fim_corpo": 714.92
     },
     {
       "pagina": 100,

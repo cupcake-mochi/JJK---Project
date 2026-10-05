@@ -1723,7 +1723,7 @@
     "paginas_conteudo": [
       87
     ],
-    "sha256_bloco_fonte": "0145dc9db97db19c78071600da19fa05a8a470c45c2140ad47b5cb870f6b0c52",
+    "sha256_bloco_fonte": "7109ab5e9ec06994b8b156c3b5d477160f107c004fd4c4aeb5ebd6d2ef8bb3da",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1800,7 +1800,7 @@
     "paginas_conteudo": [
       90
     ],
-    "sha256_bloco_fonte": "e5a772961a85be5473439acec7c50b2bf321118fb56e89a15a4e68b824aff026",
+    "sha256_bloco_fonte": "00ac2771c1a6e328bacad5f1ede147fc7efc86b967a3afd9caeda12eb2db075a",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1842,9 +1842,8 @@
     "ancora_fonte": "van-bote",
     "titulo_bloco": "Bote e Ferrão",
     "id_livro": "vanguarda--van-bote",
-    "pagina": 91,
+    "pagina": 92,
     "paginas_conteudo": [
-      91,
       92
     ],
     "sha256_bloco_fonte": "dfa99bbd3c2fbe86079c395c411adc70035aa3b8ef978712b566357da2cfa4c9",
@@ -1905,9 +1904,8 @@
     "ancora_fonte": "van-besta",
     "titulo_bloco": "Batedor: Besta",
     "id_livro": "vanguarda--van-besta",
-    "pagina": 94,
+    "pagina": 95,
     "paginas_conteudo": [
-      94,
       95
     ],
     "sha256_bloco_fonte": "2fa0741120f3a39c50ca450cf1f4c58a6480b7d2ee93ebd36edea68f752f8dad",
@@ -1967,9 +1965,8 @@
     "ancora_fonte": "van-fogo-conclusoes",
     "titulo_bloco": "Conclusões da Arma de Fogo",
     "id_livro": "vanguarda--van-fogo-conclusoes",
-    "pagina": 96,
+    "pagina": 97,
     "paginas_conteudo": [
-      96,
       97
     ],
     "sha256_bloco_fonte": "575c56d21a8b7f462613aa838819370ac0675effa2fa8f921ef6fc89dbf2797d",

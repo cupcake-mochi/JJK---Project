@@ -139,3 +139,19 @@ Candidata sobre v0.331. E: edição. M: fechamento mecânico. Fontes publicadas 
 **Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, conforme Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota.
 
 **Motivo:** Decisão do Mizuki em 04/10/2026 (opção B), achado G4-07 (revisao-interfaces/CORRECOES-APLICADAS.md). A liberação narrativa de Equipamento restrito continua; a frase só diz quando ela acontece.
+
+## VG-REV-03 — decisão do autor
+
+**Antes:** | 7 | Ataque Extra |
+
+**Depois:** | 7 | Ataque Extra e Execução Preparada |
+
+**Motivo:** Decisão do Mizuki em 05/10/2026: o nível 7 da Vanguarda só trazia o Ataque Extra, e os outros Caminhos ganham uma segunda metade no 7 (o Bastião, Nem Um Arranhão e Ainda de Pé). A Não Pega da peça 06 (o Evasion do 5e) não tinha chegado à candidata, e ele a achou forte; rerrolar TR repetiria a Não Cede do nível 15. Texto dele: "Execução Preparada: 1× por Sequência, ao Concluir depois de duas ou mais Conduções, imponha −1 a um TR adicional da Conclusão." "Acertadas" vem da Conclusão Dupla, que usa a mesma condição; o nome passou na triagem do conferir-nomes.py (LIVRE).
+
+## VG-REV-04 — decisão do autor
+
+**Antes:** (não havia)
+
+**Depois:** **Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026: o nível 7 da Vanguarda só trazia o Ataque Extra, e os outros Caminhos ganham uma segunda metade no 7 (o Bastião, Nem Um Arranhão e Ainda de Pé). A Não Pega da peça 06 (o Evasion do 5e) não tinha chegado à candidata, e ele a achou forte; rerrolar TR repetiria a Não Cede do nível 15. Texto dele: "Execução Preparada: 1× por Sequência, ao Concluir depois de duas ou mais Conduções, imponha −1 a um TR adicional da Conclusão." "Acertadas" vem da Conclusão Dupla, que usa a mesma condição; o nome passou na triagem do conferir-nomes.py (LIVRE).

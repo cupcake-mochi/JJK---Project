@@ -3386,7 +3386,7 @@ você escolhe uma.
 Progressão
 Nível Habilidade
 2 Sequência de Condução e Escola de Arma
-7 Ataque Extra
+7 Ataque Extra e Execução Preparada
 15 Não Cede
 23 Persistência
 30 Conclusão Dupla
@@ -3495,6 +3495,8 @@ Habilidades avançadas
 Nível 7: Ataque Extra. Sua Ação Atacar permite um ataque simples adicional por rodada. Se uma
 habilidade deste Caminho permitir usar esse ataque em outra ação, ele continua sujeito ao mesmo limite
 por rodada.
+Nível 7: Execução Preparada. Uma vez por Sequência, ao Concluir depois de duas ou mais Conduções
+acertadas, imponha −1 a um TR adicional da Conclusão.
 Nível 15: Não Cede. Quando falhar num Teste de Resistência, pode repetir o teste e usar o segundo
 resultado.
 Você tem usos iguais à maestria por descanso curto, no máximo um por rodada. Não exige ação ou PE.
@@ -3520,12 +3522,12 @@ Nível Habilidade
 11 Conclusões de feitiço
 19 Bote
 27 Ferrão
-Nível 2: Compasso. Escolha Essência ou Inteligência. Some o valor atual desse atributo ao seu PE
-máximo e use-o no lugar de Força ou Destreza para o acerto e dano das armas de suas categorias
-escolhidas. Os requisitos de Força permanecem.
 CANDIDATA EDITORIAL • BASE v0.331 90
 
 PROJETO - M CAMINHOS E TRILHAS
+Nível 2: Compasso. Escolha Essência ou Inteligência. Some o valor atual desse atributo ao seu PE
+máximo e use-o no lugar de Força ou Destreza para o acerto e dano das armas de suas categorias
+escolhidas. Os requisitos de Força permanecem.
 Escolha uma categoria (Grupo das Armas). Se possuir Versado na Escola de Arma, escolha uma
 quantidade de categorias igual à sua Maestria. Quando a Maestria aumentar, acrescente categorias até
 esse novo total.
@@ -3563,12 +3565,12 @@ quando houve gasto de PE. Uma Condução gratuita gera zero. A reserva surge dep
 Aplique os limites de Energia temporária, em Dano e recuperação.
 Desorientar e os outros efeitos novos não prejudicam outro TR do mesmo lançamento. Em Conclusão
 Dupla, escolha duas opções deste catálogo e respeite todos os requisitos da Dupla.
-Bote e Ferrão
-Nível 19: Bote. Quando o feitiço de sua Ação Padrão impuser uma condição e não causar dano imediato
-nem posterior, e liberar Compasso, pode fazer dois ataques naquela Ação Bônus, usando Ataque Extra.
 CANDIDATA EDITORIAL • BASE v0.331 91
 
 PROJETO - M CAMINHOS E TRILHAS
+Bote e Ferrão
+Nível 19: Bote. Quando o feitiço de sua Ação Padrão impuser uma condição e não causar dano imediato
+nem posterior, e liberar Compasso, pode fazer dois ataques naquela Ação Bônus, usando Ataque Extra.
 Se ainda não Concluiu, esses ataques podem cumprir etapas normais: por exemplo, Golpe Inicial e
 Condução. Se o feitiço Concluiu, os ataques continuam disponíveis, mas não abrem nem desenvolvem
 outra Sequência naquele turno.
@@ -3603,14 +3605,14 @@ Armar uma Conclusão
 Quando puder Concluir com Yumi no seu turno, pode armar a Conclusão em vez de disparar
 imediatamente. Declare a Conclusão, o alvo da Sequência e os detalhes necessários. Comprometa um
 ataque disponível e consuma a Sequência. Ataque, dano e TR são rolados apenas na soltura.
+CANDIDATA EDITORIAL • BASE v0.331 92
+
+PROJETO - M CAMINHOS E TRILHAS
 Você precisa ter Reação disponível, mantém uma flecha armada e deve soltá-la gastando essa Reação
 antes do começo do seu próximo turno. Usar a Reação em outra coisa desfaz a armação, sem devolver o
 ataque ou a Sequência.
 Mantenha o arco empunhado e pronto. Guardá-lo, perdê-lo, dispará-lo novamente ou ocupar suas mãos
 de maneira incompatível desfaz a armação. Movimento e dano sofrido, por si só, não a desfazem.
-CANDIDATA EDITORIAL • BASE v0.331 92
-
-PROJETO - M CAMINHOS E TRILHAS
 A soltura é feita da sua posição real contra o mesmo alvo. Confira os requisitos da Conclusão na armação
 e, na soltura, aqueles que dependem da situação atual. Pague os custos adicionais do ataque na armação.
 Eles não retornam se a armação for desfeita. Separe uma flecha disponível, que não pode servir a outro
@@ -3647,14 +3649,14 @@ disparar. Resolva a flecha e seu dano normal. Se acertar e o golpe anunciado ain
 faz TR Físico.
 Na falha, a rolagem do ataque anunciado tem desvantagem.
 Flecha Desestabilizadora. Requisito: uma Condução de Yumi acertada. Pode ser imediata ou armada.
+CANDIDATA EDITORIAL • BASE v0.331 93
+
+PROJETO - M CAMINHOS E TRILHAS
 Após acertar, o alvo faz TR de Vigor. Na falha, sua próxima rolagem de dano contra uma criatura tem
 desvantagem, até o fim do próximo turno dele.
 Role o conjunto completo duas vezes, com os mesmos modificadores, e use o que causar menos dano. Não
 combine dados individuais. A primeira rolagem que cumpra essas condições consome o efeito. Dano
 inteiramente fixo não é reduzido.
-CANDIDATA EDITORIAL • BASE v0.331 93
-
-PROJETO - M CAMINHOS E TRILHAS
 O efeito pode atingir dano de arma, desarmado ou feitiço. Se uma rolagem for compartilhada entre várias
 criaturas, o arqueiro escolhe uma delas antes dos dados para receber o resultado menor. As demais usam
 a primeira rolagem normal. A escolha não exige outra Reação.
@@ -3691,13 +3693,13 @@ pode preservar apenas o disparo comum.
 Exemplo. Você armou Desestabilizadora com Acompanhar e guardou Antecipar. O inimigo anuncia um
 ataque em vez de se mover. Antes dos dados, Última Leitura permite mudar para Antecipar e soltar a mesma
 Desestabilizadora.
+CANDIDATA EDITORIAL • BASE v0.331 94
+
+PROJETO - M CAMINHOS E TRILHAS
 Batedor: Besta
 Seus acertos deixam preparação no alvo. Você escolhe acrescentar, reforçar ou consumir os virotes.
 Nível 2: Virotes Cravados. Suas bestas dispensam a ação de recarga e as interrupções de Munição. Você
 ainda precisa de virotes disponíveis. Se precisar recarregar, colocar o virote integra o ataque e exige mão
-CANDIDATA EDITORIAL • BASE v0.331 94
-
-PROJETO - M CAMINHOS E TRILHAS
 disponível. Se a besta já estiver carregada, dispare normalmente. Cada ataque consome o virote colocado,
 mesmo quando não cria ou altera um marcador de Virote Cravado.
 Um Golpe Inicial acertado pode estabelecer um virote comum vinculado à Sequência. O limite é três
@@ -3733,13 +3735,13 @@ para Acionar, não para o pagamento das Conclusões.
 Preparação com virotes
 Nível 19: Fixação Cruzada. Reação, uma vez por Sequência. Depois de uma retirada bem-sucedida de um
 virote seu, pode transformar outro comum ainda ativo naquele alvo em farpado.
+CANDIDATA EDITORIAL • BASE v0.331 95
+
+PROJETO - M CAMINHOS E TRILHAS
 Você precisa perceber a retirada e manter a Sequência. O virote retirado sai normalmente. Retirada
 falhada, consumo dos próprios marcadores ou fim da Sequência não ativam a habilidade.
 Nível 27: Preparação Remanescente. Uma vez por cena, ao declarar uma Conclusão com Besta, tendo
 uma Condução própria acertada, pode reservar um virote que não será consumido na execução.
-CANDIDATA EDITORIAL • BASE v0.331 95
-
-PROJETO - M CAMINHOS E TRILHAS
 Ele é o único que mantém sua função após a Sequência terminar, mesmo se a Conclusão errar ou for
 resistida. Fica no mesmo alvo até o fim do seu próximo turno, sujeito à retirada normal.
 Se acertar um novo Golpe Inicial de Besta contra o mesmo alvo nesse prazo, incorpore a reserva e o
@@ -3777,12 +3779,12 @@ dura até o fim desse turno. Movimento do inimigo ou imposto a você não desfaz
 Tiro Controlado. Consumo normal. Após acertar, permite gastar uma unidade adicional de munição na
 próxima Conclusão própria para obter e consumir uma Oportunidade na declaração. A arma precisa estar
 pronta, com duas unidades carregadas: uma para o disparo e outra para esse gasto adicional.
-Conclusões da Arma de Fogo
-Pressão Dominante. Requisito: duas Conduções de Arma de Fogo acertadas, ou uma e uma
-Oportunidade consumida.
 CANDIDATA EDITORIAL • BASE v0.331 96
 
 PROJETO - M CAMINHOS E TRILHAS
+Conclusões da Arma de Fogo
+Pressão Dominante. Requisito: duas Conduções de Arma de Fogo acertadas, ou uma e uma
+Oportunidade consumida.
 Após acertar, TR de Espírito: na falha, o alvo fica Amedrontado por você até o fim do próximo turno
 dele.
 Ruptura Tática. Requisito: uma Condução de Arma de Fogo acertada.
@@ -3822,12 +3824,12 @@ Oportunidade, o alvo falhou no TR e você pagou Movimento para recuperar ao meno
 munição, escolha um inimigo percebido, o mesmo ou outro.
 Até o fim do seu próximo turno, se o próximo Golpe Inicial de Arma de Fogo que abrir uma Sequência for
 contra ele, comece com uma Oportunidade, válida até o fim do turno seguinte ao da abertura.
-O novo Golpe Inicial mantém sua redução de dano e a Escola. A nova Sequência começa com zero
-Conduções. Sua primeira Condução com Arma de Fogo não apaga a Oportunidade apenas por
-estabelecer um preparo. As trocas posteriores seguem as regras normais.
 CANDIDATA EDITORIAL • BASE v0.331 97
 
 PROJETO - M CAMINHOS E TRILHAS
+O novo Golpe Inicial mantém sua redução de dano e a Escola. A nova Sequência começa com zero
+Conduções. Sua primeira Condução com Arma de Fogo não apaga a Oportunidade apenas por
+estabelecer um preparo. As trocas posteriores seguem as regras normais.
 Abrir contra outro alvo ou com outra categoria abandona o plano. Um erro não concede a Oportunidade
 nem renova o prazo. O uso da cena é gasto ao preparar a continuidade.
 A recarga de Romper o Contato não ativa esta habilidade. Permanece proibido abrir outra Sequência no
@@ -3862,13 +3864,13 @@ Todas usam um ataque corpo a corpo e exigem acerto e falha no TR. Podem ser usad
 seus testes normais.
 Abalar a Ofensiva. Sem Condução mínima. TR de Vigor. Na falha, o próximo ataque do alvo com arma
 ou desarmado tem desvantagem, até o fim do próximo turno dele.
+CANDIDATA EDITORIAL • BASE v0.331 98
+
+PROJETO - M CAMINHOS E TRILHAS
 Desguarnecer. Uma Condução acertada. TR Físico. Na falha, seu próximo ataque corpo a corpo contra
 o alvo tem vantagem, até o fim do seu próximo turno.
 Cortar o Gesto. Sem Condução mínima. TR de Vigor. Na falha, a próxima rolagem de ataque de um
 feitiço do alvo tem desvantagem, até o fim do próximo turno dele.
-CANDIDATA EDITORIAL • BASE v0.331 98
-
-PROJETO - M CAMINHOS E TRILHAS
 Quebrar a Guarda. Uma Condução acertada. TR Físico. Na falha, o próximo Bloquear contra um ataque
 corpo a corpo seu tem desvantagem, até o fim do seu próximo turno. Compare dois conjuntos completos
 de Bloquear e mantenha o menos favorável ao defensor.

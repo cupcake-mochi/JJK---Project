@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+  "sha256_texto": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
   "metodo": "Leitura contextual pelo agente principal, confrontando toda a fonte e as interfaces indicadas. Não é teste com jogadores.",
   "secoes": [
     {
@@ -237,5 +237,26 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026, retirada de projeções pedida por ele ou verbetes de índice. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_05_execucao_preparada": {
+    "sha256_anterior": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+    "sha256_atual": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+    "mudancas": [
+      {
+        "codigo": "VG-REV-03",
+        "secao": "van-base",
+        "antes": "| 7 | Ataque Extra |",
+        "depois": "| 7 | Ataque Extra e Execução Preparada |"
+      },
+      {
+        "codigo": "VG-REV-04",
+        "secao": "van-avanco",
+        "antes": "**Nível 7: Ataque Extra.** Sua Ação Atacar permite **um ataque simples adicional por rodada**. Se uma habilidade deste Caminho permitir usar esse ataque em outra ação, ele continua sujeito ao mesmo limite por rodada.",
+        "depois": "**Nível 7: Ataque Extra.** Sua Ação Atacar permite **um ataque simples adicional por rodada**. Se uma habilidade deste Caminho permitir usar esse ataque em outra ação, ele continua sujeito ao mesmo limite por rodada.\n\n**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**."
+      }
+    ],
+    "registro": "caminhos/vanguarda/lote-01/ALTERACOES.json (VG-REV-03 e VG-REV-04)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trecho novo relido no contexto da seção Habilidades avançadas e da tabela de progressão: decisão do autor de 05/10/2026 (Execução Preparada no nível 7). A frase usa só termos deste capítulo, com as mesmas palavras da Conclusão Dupla (\"ao Concluir depois de duas ou mais Conduções acertadas\") e da Conclusão (\"TR adicional da Conclusão\"); o limite \"uma vez por Sequência\" segue o molde de Versado e Prazo. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }
