@@ -401,13 +401,23 @@
     "peça 02",
     "livro/manual/05,08,20"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "so_editorial",
    "registro": {
     "id": "AB24",
     "tipo": "decisão do autor",
     "antes": "| 5. Equipamento | Receba o uniforme e faça suas compras. | / Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. / - **Inventário:** uniforme, compras,",
     "depois": "| 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. | / Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Registre a situação, o tipo de TR e as perícias do Traje, conforme Trajes, em Equipamento. / - **Inventário:** uniforme com a situação, o TR e as perícias do Traje, compras,",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-11 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D41)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "so_editorial",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/20-criacao-de-personagem.md",
+     "sistema/03-mecanica/08-criacao-de-personagem.md"
+    ],
+    "nota": "D41: criação e conferência pedem a situação, o TR e as perícias do Traje (texto e ficha, como o PLANO já marcou).",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3296,13 +3306,23 @@
     "peça 21",
     "livro/manual/50,55"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EQ02",
     "tipo": "M autorizada",
     "antes": "| Fineza | Em ataques corpo a corpo, pode usar Destreza no lugar de Força no acerto e no dano. |",
     "depois": "| Leve | Atende aos requisitos que peçam arma Leve. Não concede outro ataque, muda o atributo do golpe ou reduz Volume. Só as armas marcadas na tabela possuem a propriedade. |\n| Fineza | Em ataques corpo a corpo, pode usar Destreza no lugar de Força no acerto e no dano. |",
     "motivo": "Implementa SINCRONIZACOES do Incursor. Peso, Oculta e Discreta não definem elegibilidade."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Propriedade Leve: requisito de manejo marcado na tabela, separado de Volume, Oculta e Discreta.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3368,13 +3388,23 @@
     "peça 21",
     "livro/manual/50,55"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EQ06",
     "tipo": "M de fechamento",
     "antes": "**Embainhada:** sacar sozinho exige uma Ação de Movimento inteira. No turno dele, com a arma ao alcance de ambos, um aliado pode gastar a própria manipulação para ajudar; você precisa ter as mãos disponíveis para recebê-la. A ajuda não concede um ataque e não pode reutilizar uma manipulação já gasta.",
     "depois": "**Embainhada:** sacar sozinho exige uma Ação de Movimento inteira, mesmo que ainda tenha a manipulação gratuita. No turno de um aliado a até **1,5 m**, com a arma ao alcance de ambos, ele pode sacá-la e entregá-la a você. Precisa de uma mão livre e paga uma manipulação pelos custos de Sacar e guardar. Você precisa de uma mão disponível para recebê-la, sem outro custo. Atacar ainda exige as mãos indicadas pela arma. A ajuda não concede ataque nem reutiliza uma manipulação já gasta.",
     "motivo": "Conserva exceção de ajuda no turno alheio e especifica alcance, mãos e resolução, em vez de exigir que duas pessoas apliquem ações fora do turno."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Embainhada: sacar sozinho custa a Ação de Movimento; aliado a 1,5 m pode sacar e entregar.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3404,13 +3434,23 @@
     "peça 21",
     "livro/manual/50,55"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EQ08",
     "tipo": "M de fechamento",
     "antes": "Confira a Força mínima antes de escolher a peça. Se não tiver o valor exigido, ela não é uma opção de equipamento utilizável para sua ficha. Isso não impede transportá-la para outra pessoa, dentro do limite de carga.",
     "depois": "Confira a Força mínima antes de escolher a peça. Sem o valor exigido, você não pode prepará-la nem receber sua proteção ou seus benefícios de uso. Isso não impede transportá-la para outra pessoa, dentro do limite de carga.\n\nSe um efeito reduzir temporariamente sua Força abaixo do requisito de uma peça já preparada, os benefícios ficam suspensos. A peça permanece no corpo ou na mão e conserva seu Volume. Seu teto de Destreza continua valendo enquanto estiver vestida ou empunhada. Ela não devolve a proteção passiva enquanto continuar vestida. Os benefícios voltam quando você recuperar o requisito, se a peça continuar preparada; retirá-la segue o tempo normal. Uma regra que dispense expressamente aquele requisito continua valendo.",
     "motivo": "Perda temporária não definida na candidata anterior. Conserva proibição de uso sem Força, sem despir, soltar ou trocar proteção gratuitamente; exceção Contrapeso preservada."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Força abaixo do mínimo de peça já preparada suspende os benefícios, sem despir de graça.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3422,13 +3462,23 @@
     "peça 21",
     "livro/manual/50,55"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EQ09",
     "tipo": "M de fechamento",
     "antes": "Você precisa ter acesso à peça e conseguir alcançar seus fechos e apoios. Vestir ou retirar equipamento exige sua atenção durante o período indicado. Em combate, não pode realizar outra ação enquanto avança nessa tarefa. Uma interrupção pausa a tarefa; retome pelo tempo restante quando puder continuá-la.",
     "depois": "Você precisa alcançar a peça, seus fechos e apoios. Em combate, cada **Rodada inteira** dedicada a vestir ou retirar um uniforme avança **6 segundos** da tarefa. Ela consome Padrão, Bônus e Movimento, mantendo a Reação disponível. O escudo usa apenas a Ação Padrão da tabela.\n\nUma interrupção pausa o trabalho, sem apagar o tempo já concluído. Você pode retomá-lo pelo que falta. Fazer outra tarefa durante a pausa não avança o preparo ou a retirada.",
     "motivo": "Transforma atenção contínua em custo executável pela rodada de6segundos de R01. Não remove Reação do custo geral de Rodada inteira."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Vestir e retirar em combate: cada rodada inteira avança 6 segundos e consome Padrão, Bônus e Movimento, mantendo a Reação.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3440,13 +3490,23 @@
     "peça 21",
     "livro/manual/50,55"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EQ10",
     "tipo": "M de fechamento",
     "antes": "A proteção passiva de energia volta a ficar disponível depois de terminar de retirar o uniforme. Não é possível iniciar a retirada e interrompê-la para alternar gratuitamente entre as duas proteções.",
     "depois": "A proteção passiva da sua rota volta a ficar disponível depois de terminar de retirar o uniforme. Se abandonar a retirada e decidir voltar a usar a peça, primeiro conclua a retirada e depois faça o preparo novamente. Interromper a tarefa não restaura a proteção.\n\nComeçar a vestir um uniforme não concede seus benefícios antes de concluir. Se abandonar esse preparo, a peça não está pronta para uso. Pode guardá-la pelos custos normais de manipulação; uma nova tentativa de preparo começa do início. Até completar o preparo, você conserva a proteção que estava disponível sem ela.",
     "motivo": "Fecha abandono e retorno sem alternância gratuita de proteção. Distingue preparar uma peça nova de retirar uma já utilizada."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Retirar o uniforme devolve a proteção da rota só ao concluir; abandonar não alterna proteções.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3656,13 +3716,23 @@
     "peça 21",
     "livro/manual/50,55"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EQ22",
     "tipo": "M autorizada",
     "antes": "| Revólver | 1 | 1d10 Perfurante | Longo Alcance 12/36 m · Munição · Oculta · Leve | — | 0,5 | 125.000 / 250.000 |",
     "depois": "| Revólver | 1 | 1d10 Perfurante | Longo Alcance 12/36 m · Munição · Oculta · Leve | — | 0,5 | 150.000 / 300.000 |",
     "motivo": "Resolver dominância parcial sobre Pistola pelo preço: alcance33% maior custa20% mais. Orçamento inicial150mil deixa25mil comPistola e zero comRevólver. Contrapartida econômica, não equivalência de poder em combate com dinheiro abundante. Comparada também a alternativa de igualar alcance, que apagaria distinção funcional."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Revólver passa a custar 150.000 / 300.000 (era 125.000 / 250.000).",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3710,13 +3780,23 @@
     "peça 21",
     "livro/manual/50,55"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EQ25",
     "tipo": "M decisão do autor",
     "antes": "Capacidade 1 das bestas adotada em equipamento/lote-03 (M01) sem registro nesta unidade; a peça 14 da v0.331 usa 2 e proíbe 1 por apagar o ataque extra.",
     "depois": "Capacidade 1 mantida, sem mudar o texto: cada besta comporta um virote e precisa ser recarregada depois de cada disparo.",
     "motivo": "Decisão do Mizuki em 04/10/2026, achado G4-01 da revisão de interfaces: \"a parte negativa da besta é justamente não funcionar no ataque extra\". A peça 14 muda na migração."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "D: bestas com capacidade 1; a peça 14 da v0.331 usa 2 e proíbe 1.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3728,13 +3808,23 @@
     "peça 21",
     "livro/manual/50,55"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EQ26",
     "tipo": "decisão do autor",
     "antes": "A conversão de ações segue as regras do turno.",
     "depois": "A conversão de ações segue as regras do turno.\n\nDuas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use uma delas, com as restrições dela.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (opção A, não somam), achado G3-03 (revisao-interfaces/CORRECOES-APLICADAS.md)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "D: duas capacidades que trocam a manipulação gratuita por duas não se somam.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3746,13 +3836,24 @@
     "peça 21",
     "livro/manual/50,55"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "EQ27",
     "tipo": "decisão do autor",
     "antes": "O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma.",
     "depois": "O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (opção B: \"o dano do cisão é na alma, literalmente dano na alma\"), achado G1-02 (revisao-interfaces/CORRECOES-APLICADAS.md). A remissão apontava uma regra que não existia."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md",
+     "sistema/03-mecanica/24-dano-de-alma.md"
+    ],
+    "nota": "D: o dano da arma é dano de Alma e atinge só a Integridade, conforme Dano na alma.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -14431,7 +14532,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "confirmada",
+   "estado_migracao": "so_editorial",
    "registro": {
     "id": "R11-59",
     "tipo": "decisão do autor",
@@ -14567,7 +14668,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R12-05",
     "tipo": "mecanica",
@@ -14584,6 +14685,17 @@
       "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
      }
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Domada: o mestre apresenta a ficha convertida para a escala de entidade antes do risco.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -14648,7 +14760,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R12-08",
     "tipo": "mecanica",
@@ -14665,6 +14777,17 @@
       "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
      }
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Deslocamento-base da entidade: 9 m terrestres; outros modos exigem capacidade.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -14891,7 +15014,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R12-17",
     "tipo": "mecanica",
@@ -14908,6 +15031,17 @@
       "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
      }
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Onda das especiais: teto útil 0/1/1/3/3/4/5 depois do reembolso da Forma.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -14945,7 +15079,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R12-19",
     "tipo": "mecanica",
@@ -14962,6 +15096,17 @@
       "sha256": "4df82e672d063b4d4bfe3394d93bb75052ec3e07d44d90b83c0ea32f10439f82"
      }
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Passivas da entidade escolhidas até a CP do marco, sem promover as antigas.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15192,13 +15337,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R12-28",
     "tipo": "esclarecimento mecânico",
     "antes": "Toque e Aura não devolviam pontos em básica, sem dizer se ocupavam sua opção de Restrição Leve.",
     "depois": "Exigência da Forma conservada sem ocupar a opção adicional Leve.",
     "motivo": "Evitar que a Restrição embutida Média tornasse uma básica padrão incompatível com a própria regra de escolha."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Toque e Aura na básica não ocupam a opção de Restrição Leve (a D35 levou ao Fundamento).",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15261,13 +15417,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R12-32",
     "tipo": "M decisão do autor",
     "antes": "A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor. Os atributos são os **da entidade**.",
     "depois": "A maestria é sempre a **do invocador**, inclusive para uma domada de nível menor. Os atributos são os **da entidade**.\n\nCom uma arma empunhada, o ataque usa o atributo que a arma pede no lugar do atributo de acerto. A CD das habilidades não muda. A entidade não tem treino em armas, então ataca com elas com desvantagem. O dano é o da arma, conforme **Equipamento**.",
     "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-04 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). O acerto com arma segue a peça 15; sem treino em armas, desvantagem pela regra geral."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D02b: entidade com arma usa o atributo da arma, com desvantagem por não ter treino.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15278,13 +15445,24 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R12-33",
     "tipo": "decisão do autor",
     "antes": "Somando alvos adicionais e repetições, conserve o **teto geral de 4 × Classe**.",
     "depois": "Some os dados iniciais e os adicionais da montagem uma vez, sem multiplicar pelo número de criaturas na área. O total não passa de **4 × Classe**.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-05 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D36)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "D36: dados iniciais e adicionais somados uma vez, sem multiplicar pelas criaturas na área; até 4 × Classe.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15331,7 +15509,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FAB-03",
     "antes": "R12 limita entidade ao invocador; §107 só apresenta próprio nível ou inferior.",
@@ -15339,6 +15517,17 @@
     "motivo": "Impedir artesão de fabricar além do próprio nível e contratação para ultrapassar o teto do receptor.",
     "tipo": "mecânica candidata",
     "impacto": "A mesma Classe não autoriza nível maior. Novo fechamento explícito."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Nível máximo fabricado: o menor entre o responsável e o futuro invocador.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15421,7 +15610,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FAB-08",
     "antes": "Fonte não informa estado inicial preciso do objeto concluído.",
@@ -15429,6 +15618,17 @@
     "motivo": "Evitar entrada/energia/teleporte gratuito ao terminar fabricação.",
     "tipo": "mecânica candidata",
     "impacto": "Primeira entrada ainda exige custo normal; não transforma fabricação em reparo."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Objeto concluído: vida máxima, talismã recolhido sem carga, corpo inativo.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15439,7 +15639,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FAB-09",
     "antes": "§86 deixa herança para criação; R11 remete a aquisição.",
@@ -15447,6 +15647,17 @@
     "motivo": "Dar procedimento utilizável para herança sem permitir apropriação automática de item roubado.",
     "tipo": "mecânica candidata",
     "impacto": "Tempo e materiais de alterar vínculo podem diferir da fabricação integral; não existe prazo/custo universal novo."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "regra_nova",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Transferência e herança: projeto fora de combate, consentimento ou morte, mesmo teste por Classe.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -15457,7 +15668,7 @@
     "invocacoes/",
     "livro/manual/60"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FAB-10",
     "antes": "§86 preserva carga na morte; demais estados não estão explicitados para transferência.",
@@ -15465,6 +15676,17 @@
     "motivo": "Impedir cura/recarga/duplicação de controle por venda ou herança.",
     "tipo": "mecânica candidata",
     "impacto": "Reconstrução de destruída é nova fabricação; criatura anterior não volta."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Transferência conserva nível, ficha, vida, carga e usos; troca só o dono.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16075,13 +16297,22 @@
     "livro/manual/07",
     "fichas"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "so_editorial",
    "registro": {
     "id": "R23-32",
     "tipo": "decisão do autor",
     "antes": "| Item e quantidade | Volume total | Situação e recursos | / **Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________ / | __________________ | ______ | Vestido, empunhado ou guardado: __________________ |",
     "depois": "| Item e quantidade | Volume total | Posição e recursos | / **Volume carregado / limite:** ______ / ______ **Dinheiro:** __________________\n\n**Traje — situação, TR e perícias:** ________________________________________ / | __________________ | ______ | Vestido, empunhado ou guardado: __________ |",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-11 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D41)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "so_editorial",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/07-glossario.md"
+    ],
+    "nota": "D41: ficha de repertório com a linha do Traje e a coluna Posição e recursos (texto e ficha).",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16923,13 +17154,25 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "VG-05",
     "tipo": "M",
     "antes": "Compasso não dizia se categorias obtidas por Versado aumentavam com Maestria.",
     "depois": "Acrescenta categorias até a Maestria atual quando ela sobe.",
     "motivo": "Fechar progressão da quantidade expressa, sem conceder troca retroativa das já escolhidas."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "Versado: acrescenta categorias até a maestria atual quando ela sobe.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16955,13 +17198,25 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "VG-07",
     "tipo": "M",
     "antes": "Ferrão autorizava outro feitiço sem esclarecer o limite geral de conjuração.",
     "depois": "Classe 0 de Ferrão é exceção ao limite do turno e não ativa outro Compasso.",
     "motivo": "Tornar executável a entrega do nível 27 sem criar uma cadeia de ataques."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "Ferrão: o Classe 0 é exceção ao limite do turno e não ativa outro Compasso.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16971,13 +17226,27 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "VG-08",
     "tipo": "M",
     "antes": "Armar a flecha comprometia ataque e custos, sem momento de consumo do projétil.",
     "depois": "Flecha separada ao armar, consumida no disparo. Desfazer a armação não a destrói nem devolve ataque, Sequência e custos pagos.",
     "motivo": "Conciliar o inventário com a ficção de manter o arco pronto. A reserva não pode ser usada por outro ataque."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md",
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Flecha armada: separada ao armar, consumida no disparo.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -16987,13 +17256,27 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "VG-09",
     "tipo": "M",
     "antes": "Besta dispensava recarga sem mencionar mãos e relação entre munição e marcadores.",
     "depois": "Colocar virote integra cada ataque e ainda exige mão. Disparo consome munição mesmo sem acrescentar marcador.",
     "motivo": "Dispensa de ação não cria projéteis nem remove o requisito de manuseio."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md",
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Besta: colocar virote integra o ataque e exige mão; o disparo consome munição.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17003,13 +17286,27 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "VG-10",
     "tipo": "M",
     "antes": "Combate Irregular aumentava X sem definir de onde vinha a unidade adicional.",
     "depois": "Capacidade adicional preenchida com munição do inventário. Supressão exige duas unidades já carregadas.",
     "motivo": "Preservar o benefício de capacidade sem gerar estoque gratuito."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md",
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Combate Irregular: a capacidade a mais é preenchida com munição do inventário.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17067,13 +17364,27 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "VG-14",
     "tipo": "E/M",
     "antes": "Texto podia exigir mão de recarga para disparar uma besta já carregada.",
     "depois": "Colocar virote exige mão quando houver recarga. Arma já carregada dispara normalmente e consome só o virote nela.",
     "motivo": "Achado independente: preservar disparo com besta de uma mão já carregada e evitar débito de munição duplicado."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md",
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Besta já carregada dispara normalmente, consumindo só o virote nela.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17083,13 +17394,27 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "VG-15",
     "tipo": "E/M",
     "antes": "Tiro Controlado pedia usos disponíveis sem localizar seu estoque.",
     "depois": "A arma precisa estar pronta e ter duas unidades carregadas para o disparo e a compra da Oportunidade.",
     "motivo": "Revisão independente: não permitir debitar diretamente da mochila uma munição que a arma ainda não recebeu."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md",
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Tiro Controlado exige a arma pronta com duas unidades carregadas.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17099,13 +17424,25 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "VG-REV-01",
     "tipo": "M decisão do autor",
     "antes": "A **capacidade da arma** (os ataques por carga, em Munição) **aumenta em um**.",
     "depois": "A **capacidade da Arma de Fogo** (os ataques por carga, em Munição) **aumenta em um**. Bestas e outras armas de disparo não recebem esse aumento.",
     "motivo": "Mizuki, 04/10/2026, escolha no cartão: \"Só arma de fogo\". Com a besta em capacidade 1 (EQ25), o aumento levaria a besta a 2 e ela voltaria a servir no ataque extra, que é a desvantagem escolhida para ela."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "D04: Combate Irregular aumenta só a capacidade da Arma de Fogo.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17115,13 +17452,25 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "VG-REV-02",
     "tipo": "decisão do autor",
     "antes": "Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.",
     "depois": "Você cria uma Oportunidade, escolhe quando aproveitá-la e mantém meios de continuar o confronto.\n\n**Acesso.** Armas de fogo exigem Grau 2 ou autorização prévia, conforme Equipamento restrito. Sem esse acesso, confirme a autorização com o mestre antes de escolher esta rota.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (opção B), achado G4-07 (revisao-interfaces/CORRECOES-APLICADAS.md). A liberação narrativa de Equipamento restrito continua; a frase só diz quando ela acontece."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "D07: a rota de arma de fogo diz quando a liberação de Equipamento restrito acontece.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17131,13 +17480,25 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "VG-REV-03",
     "tipo": "decisão do autor",
     "antes": "| 7 | Ataque Extra |",
     "depois": "| 7 | Ataque Extra e Execução Preparada |",
     "motivo": "Decisão do Mizuki em 05/10/2026: o nível 7 da Vanguarda só trazia o Ataque Extra, e os outros Caminhos ganham uma segunda metade no 7 (o Bastião, Nem Um Arranhão e Ainda de Pé). A Não Pega da peça 06 (o Evasion do 5e) não tinha chegado à candidata, e ele a achou forte; rerrolar TR repetiria a Não Cede do nível 15. Texto dele: \"Execução Preparada: 1× por Sequência, ao Concluir depois de duas ou mais Conduções, imponha −1 a um TR adicional da Conclusão.\" \"Acertadas\" vem da Conclusão Dupla, que usa a mesma condição; o nome passou na triagem do conferir-nomes.py (LIVRE)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "D42: tabela do nível 7, Ataque Extra e Execução Preparada. Preço ainda não medido na peça 06 (a Não Pega pesava 1,18).",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17147,13 +17508,25 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "VG-REV-04",
     "tipo": "decisão do autor",
     "antes": "(não havia)",
     "depois": "**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**.",
     "motivo": "Decisão do Mizuki em 05/10/2026: o nível 7 da Vanguarda só trazia o Ataque Extra, e os outros Caminhos ganham uma segunda metade no 7 (o Bastião, Nem Um Arranhão e Ainda de Pé). A Não Pega da peça 06 (o Evasion do 5e) não tinha chegado à candidata, e ele a achou forte; rerrolar TR repetiria a Não Cede do nível 15. Texto dele: \"Execução Preparada: 1× por Sequência, ao Concluir depois de duas ou mais Conduções, imponha −1 a um TR adicional da Conclusão.\" \"Acertadas\" vem da Conclusão Dupla, que usa a mesma condição; o nome passou na triagem do conferir-nomes.py (LIVRE)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/02-Vanguarda-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "D42: Execução Preparada, uma vez por Sequência, −1 a um TR adicional da Conclusão. Preço ainda não medido.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17258,7 +17631,7 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R15-06",
     "tipo": "mecânica de fechamento",
@@ -17268,6 +17641,18 @@
     "motivo": "Impedir acúmulo e gatilhos de substituição sem uso real.",
     "impacto_ou_limite": "Não proíbe trocar a origem da ajuda; custo anterior não volta.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "Uma Abertura por criatura: aceitar outra encerra a anterior sem consumo.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17315,7 +17700,7 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R15-09",
     "tipo": "mecânica de fechamento",
@@ -17325,6 +17710,18 @@
     "motivo": "Uniformizar procedimento com exemplo aprovado.",
     "impacto_ou_limite": "Não interrompe dano ou desfaz ataque; pode intercalar resposta entre ataques de uma ação.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "Resposta da Abertura: a tentativa resolve, a resposta vem, e depois a ação continua.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17391,7 +17788,7 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R15-13",
     "tipo": "mecânica de fechamento",
@@ -17401,6 +17798,18 @@
     "motivo": "Evitar habilidade indefinida sem conceder treino gratuito.",
     "impacto_ou_limite": "Um personagem ainda pode ter só uma perícia beneficiada enquanto não treinar outra.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "Leitura de Equipe: escolhe as que possui e completa ao treinar outra da lista.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17486,7 +17895,7 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R15-18",
     "tipo": "mecânica solicitada",
@@ -17496,6 +17905,18 @@
     "motivo": "Atender pedido de medidas múltiplas de1,5m, confirmado pelo root.",
     "impacto_ou_limite": "Altura máxima+0,5m (+50%); sem promoção automática a Boa/Total. Categoria comprada e posição continuam necessárias.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "Mureta básica até 1,5 m de altura (era 1 m).",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17581,7 +18002,7 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R15-23",
     "tipo": "mecânica de fechamento",
@@ -17591,6 +18012,18 @@
     "motivo": "Evitar Abrir Caminho fora do próprio turno e renovação gratuita de cadeia.",
     "impacto_ou_limite": "Versão maior paga+4/+8, usos1/cena; não recupera investimento antigo.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "Emergência só cria a obra, não uma nova Abertura.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17809,7 +18242,7 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R15-35",
     "tipo": "mecânica de fechamento",
@@ -17819,6 +18252,18 @@
     "motivo": "Preservar a sequência do exemplo aprovado e o papel de Passar a Oportunidade, evitando dois convites pelo mesmo consumo.",
     "impacto_ou_limite": "Mantém máximo de duas respostas, reduz leitura alternativa que concentrava as duas no primeiro consumo.",
     "status": "candidata; não publicada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "Cada Abertura consumida permite uma resposta coordenada.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -17864,7 +18309,7 @@
     "peça 06",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "GUIA-38",
     "antes": "Ainda Há Tempo não declarava exceção ao novo limiar de cura de Morrendo. Em máximos de referência altos, sua cura podia ser incapaz de socorrer o aliado, mesmo no maior resultado.",
@@ -17874,6 +18319,18 @@
     "impacto": "Retira apenas o requisito quantitativo de tratamento para este uso enquanto Morrendo. Mantém nível19, preparo anterior, 18m, percepção, Reação, 2PE adicionais, consumo da Abertura e do Cuidado, uma vez por cena, fórmula de cura e impedimentos do alvo. Não retoma participação após Derrotado, não ressuscita nem cura entidade a zero contra R11.",
     "status": "candidata; delta sujeito à revisão independente da raiz",
     "validacao": "auditar.py: modelo de resgate com estados, recursos e cura; 36 perfis exatos de dados versus limiar anterior. Prova/PDF anterior preservado, ainda não reexportado."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/04-Guia-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "Ainda Há Tempo encerra a queda abaixo do limiar normal de cura. TRAVADA: depende do redesenho do Morrendo, adiado para revisão própria.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -18942,7 +19399,7 @@
     "peça 15",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada_em_outro_registro",
    "registro": {
     "id": "EV23",
     "tipo": "Mecânica autorizada: contabilização de corpos",
@@ -18950,6 +19407,21 @@
     "depois": "Total de corpos mantidos = atributo + capacidade de controle. Múltiplas usa4nessa conta inclusive fora decombate, mantendo só2ativos fora.",
     "motivo": "Preserva máximo de corpos antes possível e evita sumiço/Desligada artificial. Aumenta reserva de inativos quando menoscorpos atuam. Nãohá manutenção geral porinativo. Regra completa sincronizada noR11 pelo coordenador emR11-48.",
     "fontes": "manual60:873–885,1057–1059; R11 Corpos/Manutenção; decisão expressa /root; R11-48"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "mesma_que",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "invocacoes/"
+    ],
+    "nota": "Total de corpos mantidos: a mesma regra do R11-48 (D03).",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -19032,13 +19504,25 @@
     "peça 15",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "so_editorial",
    "registro": {
     "id": "EV28",
     "tipo": "decisão do autor",
     "antes": "substitua-a por uma reserva apropriada",
     "depois": "substitua-a por uma invocação recolhida apropriada",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G2-10 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D31)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "so_editorial",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/05-Evocador-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "D31: 'invocação recolhida' no lugar de 'reserva'.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -19125,7 +19609,7 @@
     "RASCUNHO-trilhas",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "INC-05",
     "tipo": "fechamento-mecanico",
@@ -19134,6 +19618,18 @@
     "motivo": "Impede adquirir novamente no evento seguinte enquanto ainda está na condição que encerra o recurso. Não altera a capacidade de agir definida por Incapacitado.",
     "fonte": "Integrada52–65",
     "ancora": "inc-fluidez"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "Não ganha nem mantém Fluidez em Guarda Aberta.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -19182,7 +19678,7 @@
     "RASCUNHO-trilhas",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada_em_outro_registro",
    "registro": {
     "id": "INC-08",
     "tipo": "mecanica-autorizada",
@@ -19191,6 +19687,20 @@
     "motivo": "Preservar requisito pedido pelo usuário sem confundir carga e elegibilidade. Sincronização proposta em R05, não aplicada aqui.",
     "fonte": "manual50:245–299; ARMAS.md lote04-r4",
     "ancora": "inc-assassino"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "mesma_que",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md",
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Leve como propriedade de manejo: a mesma regra do EQ02.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -19201,7 +19711,7 @@
     "RASCUNHO-trilhas",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "INC-09",
     "tipo": "mecanica-autorizada",
@@ -19210,6 +19720,20 @@
     "motivo": "Discrição social não torna um taco ferramenta de execução precisa. Cortes decorrentes do erro anterior autorizados pela raiz.",
     "fonte": "evidencias/ELEGIBILIDADE-ARMAS.json",
     "ancora": "inc-assassino"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md",
+     "sistema/03-mecanica/14-equipamento.md",
+     "sistema/05-material/livro/manual/50-equipamento.md"
+    ],
+    "nota": "Taco deixa de ser elegível; 21 das 52 armas continuam, 19 recebem Leve.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -19448,13 +19972,25 @@
     "RASCUNHO-trilhas",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "INC-22",
     "tipo": "M decisão do autor",
     "antes": "Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.",
     "depois": "O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo de arma de fogo ou de besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e atacar a mesma criatura ou criaturas diferentes.",
     "motivo": "Decisão do Mizuki em 04/10/2026, achado G3-07 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "D01: o segundo ataque é corpo a corpo ou arremesso, nunca arma de fogo ou besta.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -19465,13 +20001,25 @@
     "RASCUNHO-trilhas",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "INC-23",
     "tipo": "decisão do autor",
     "antes": "Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno.",
     "depois": "Anote se já obteve Fluidez nesse intervalo; o limite se renova no começo do seu turno. No combate, o primeiro intervalo vai do início do combate até o começo do seu primeiro turno, inclusive para Passo Guardado.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (opção A), achado G3-04 (revisao-interfaces/CORRECOES-APLICADAS.md). Segue o limite acrobático, que já começa completo no combate."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "D: o primeiro intervalo de Fluidez vai do início do combate ao começo do primeiro turno.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -19482,13 +20030,25 @@
     "RASCUNHO-trilhas",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "INC-24",
     "tipo": "decisão do autor",
     "antes": "Após rolar o d20, antes de finalizar o ataque, gaste Fluidez",
     "depois": "Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez",
     "motivo": "Decisão do Mizuki em 04/10/2026 (opção A), achado G3-05 (revisao-interfaces/CORRECOES-APLICADAS.md). Amarra o uso a um passo da Resolução de Regras gerais."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "D: a Fluidez é gasta depois do d20 e antes de o alvo escolher entre Defesa e Bloquear.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -19499,13 +20059,25 @@
     "RASCUNHO-trilhas",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "INC-25",
     "tipo": "decisão do autor",
     "antes": "**Fluidez + PE · Uma vez por turno seu.**\n\nDepois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**\n\nDepois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**\n\nDepois de acertar um ataque desarmado, gaste Fluidez.",
     "depois": "**Fluidez + PE · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de confirmar o acerto, / **Fluidez · Uma vez por turno seu.**\n\nAntes do nível 19, só durante seu turno. Depois de resolver o acerto, gaste Fluidez. / **Fluidez · Uma vez por turno seu.**\n\nDurante seu turno, depois de acertar um ataque desarmado, gaste Fluidez.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-02 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D39)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "D39: 'uma vez por turno seu' só no próprio turno; Assassino antes do 19.",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -19516,13 +20088,25 @@
     "RASCUNHO-trilhas",
     "livro/manual/35"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "INC-26",
     "tipo": "decisão do autor",
     "antes": "uma **arma de uma mão apropriada para arremesso**",
     "depois": "uma **arma de uma mão com Longo Alcance de arremesso**",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G3-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D40)."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "caminhos/05-Edicao-Integrada/06-Incursor-Caminho-e-Trilhas.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/RASCUNHO-trilhas.md"
+    ],
+    "nota": "D40: Trajetória Perfeita com arma de uma mão de Longo Alcance de arremesso (texto, como o PLANO marcou).",
+    "como": "antes resumido ou de rascunho da candidata; fato central conferido contra o registro e a revisão de interfaces",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   }
  ]

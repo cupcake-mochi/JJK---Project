@@ -159,6 +159,37 @@ D42 (`../revisao-interfaces/CORRECOES-APLICADAS.md`): o nível 7 da Vanguarda ga
 
 **O preço ainda não foi medido.** Na peça 06, o degrau do nível 7 da Vanguarda soma 2,10 de dano por rodada: 0,92 do ataque extra e 1,18 da Não Pega. A Execução Preparada troca a segunda parcela. Ao migrar, meça a parcela dela pela mesma régua e confira se o degrau continua abaixo do Guia, do Emanador e do Evocador (2,36).
 
+## Passo 1, feito em 05/10/2026
+
+Os 321 registros de mecânica e de decisão do autor foram conferidos um a um contra a v0.331. Cada um ganhou, no `INVENTARIO-ALTERACOES.json`, o bloco `conferencia_2026_10_05`: a natureza, os donos na v0.331 e uma linha do que muda. Revisão por modelo, não humana.
+
+| Estado | Registros |
+|---|---:|
+| `confirmada` (migra) | 291 |
+| `travada_revisao_morrendo` | 16 |
+| `confirmada_em_outro_registro` (a mesma mudança entra por outro) | 10 |
+| `so_editorial` (texto e ficha, sem regra) | 4 |
+
+| Natureza | Registros |
+|---|---:|
+| Fecha lacuna: diz o que a v0.331 deixava em aberto | 166 |
+| Muda regra: o resultado na mesa muda | 129 |
+| Regra nova: procedimento que a v0.331 não tinha | 6 |
+| Alinha donos: a peça já diz, o capítulo do livro não | 3 |
+| Exemplo novo | 2 |
+| Corrige erro: a tabela de chance do Ritual | 1 |
+
+**O que o passo achou, e que muda a ordem dos próximos:**
+
+1. **Só o Catálogo (89%) e as Origens (51%) editaram texto da v0.331.** Nas outras 21 unidades o texto de antes é um resumo ou um rascunho da própria candidata: os capítulos foram reescritos. Para o livro, migrar é trocar os capítulos do Manual da Guilda pelos da candidata. Para as peças, é levar as regras que mudam e as lacunas fechadas, que é o que o inventário agora separa.
+2. **O texto do Fundamento mora em três donos na v0.331:** o gerador do manual do Fundamento (`manual/gerador/partD.js`, `partB.js` para as Passivas, `partE.js` para a Técnica Máxima e a Expansão), o capítulo 40 do Manual da Guilda e uma cópia das tabelas no capítulo 60. Em sete entradas o gerador já tem redação um pouco diferente do capítulo 40. É a lição nº 9: os três mudam juntos, ou um validador compara.
+3. **16 registros esperam a revisão do Morrendo**, que o Mizuki adiou para tratar à parte, com a Integridade (`../REVISAO-MORRENDO.md`): 13 do capítulo de Dano e recuperação, o retorno do estágio 4 na Progressão (PRO36), a passiva de Insistir da Técnica Marcial (R10-32) e Ainda Há Tempo do Guia (GUIA-38). O passo 3 deste plano ("Vida a zero") depende dela.
+4. **Donos que já divergiam na v0.331:** o capítulo 46 não tem Calado e Silencioso, que a peça 27 tem; o capítulo 65 ainda oferece Estilo no pacto permanente, que a peça 22 tirou na v0.168; a tabela de chance do Ritual está 10 pontos abaixo da fórmula na peça 27 e no capítulo 46.
+5. **A Execução Preparada (D42) entra sem preço medido.** Ver a sexta passada, acima.
+6. **Fora do passo 1, pelo desenho dele:** os registros de interface (207), editoriais (187), de preservação (63) e de esclarecimento (46). Deles, 76 citam texto que existe na v0.331 (54 de interface, 12 editoriais e 10 de esclarecimento) e merecem uma passada curta antes do passo 2, para conferir que nenhum muda regra por baixo do rótulo.
+
+Os donos mais citados entre os que migram: capítulo 60 (95), capítulo 40 (91), capítulo 35 e peça 06 (60 cada), `partD.js` (51), peça 15 (47), `invocacoes/` (39) e peça 11 (38).
+
 ## Ordem proposta
 
 Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`, `pac7.py`, `v7.py` e o `conferir-repositorio.py`, com `PULADA=0` conferido) e uma entrada no CHANGELOG. Um passo por versão, para a bateria apontar o culpado quando quebrar.
