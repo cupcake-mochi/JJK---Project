@@ -1527,7 +1527,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR05",
     "assunto": "Janela de queda",
@@ -1536,6 +1536,19 @@
     "motivo": "Quedas repetidas precisam pesar nas duas escolhas, para não transformar Insistir em resposta automática depois das primeiras quedas.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md (§5.5)",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/10-descanso-e-recuperacao.md",
+     "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md"
+    ],
+    "nota": "Janela única de 3 − Sequelas rodadas para Aguentar e para Insistir. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1548,7 +1561,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR06",
     "assunto": "Cura a zero",
@@ -1557,6 +1570,19 @@
     "motivo": "Eliminar dominância de Insistir por eficiência de cura e desperdício dos pequenos socorros.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md (§5.5)",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/10-descanso-e-recuperacao.md",
+     "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md"
+    ],
+    "nota": "Aguentar e Insistir exigem 20% da referência em cura acumulável; Levanta continua exceção. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1569,7 +1595,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR07",
     "assunto": "Dano a zero",
@@ -1578,6 +1604,19 @@
     "motivo": "Menos um contador e mesma urgência para quem segue lutando. Dano absorvido integralmente não consome rodada.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md (§5.5)",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/10-descanso-e-recuperacao.md",
+     "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md"
+    ],
+    "nota": "Cada ocorrência de dano positivo a zero consome uma rodada, nas duas escolhas; sai o contador de 50%. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1590,7 +1629,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR08",
     "assunto": "Colapso de Insistir",
@@ -1599,6 +1638,19 @@
     "motivo": "Fechar o estado indefinido e impedir prolongamento de atuação sem custo claro.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md (§5.5)",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/10-descanso-e-recuperacao.md",
+     "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md"
+    ],
+    "nota": "Esgotar a janela de Insistir deixa Derrotado, sem outro estado ou limiar. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1632,7 +1684,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR10",
     "assunto": "Troca de escolha",
@@ -1641,6 +1693,19 @@
     "motivo": "Escolha inicial continua importante e não cria ciclos de custo/tempo.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md (§5.5)",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/10-descanso-e-recuperacao.md",
+     "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md"
+    ],
+    "nota": "Pode trocar Insistir por Aguentar, sem restituição; o contrário não, na mesma queda. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1653,7 +1718,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR11",
     "assunto": "Estabilização",
@@ -1662,6 +1727,19 @@
     "motivo": "Oferecer resgate a grupos sem curador, conservando ação e vulnerabilidade do paciente.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "regra_nova",
+    "donos_v0331": [
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md (§5.5)",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/10-descanso-e-recuperacao.md",
+     "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md"
+    ],
+    "nota": "Estabilização sem cura: Padrão, mão livre, Medicina CD 14; corpo construído usa Entalhador ou Forja. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1674,7 +1752,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR12",
     "assunto": "Recuperação estável",
@@ -1683,6 +1761,19 @@
     "motivo": "Concluir procedimento de resgate sem gerar cura substancial ou retorno imediato à luta.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md (§5.5)",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/10-descanso-e-recuperacao.md",
+     "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md"
+    ],
+    "nota": "Fora de perigo, com descanso curto estável, volta com 1 PV e uma Sequela; não restaura Integridade. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1695,7 +1786,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR13",
     "assunto": "Derrota corporal e alma",
@@ -1704,6 +1795,21 @@
     "motivo": "Separar causas, recursos e tratamento. Nenhuma ligação automática inventada com cânone.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md (§5.5)",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/10-descanso-e-recuperacao.md",
+     "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md",
+     "sistema/03-mecanica/24-dano-de-alma.md",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md"
+    ],
+    "nota": "Derrota corporal não mexe na Integridade; Derrotado encerra a atuação na cena. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1716,7 +1822,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR14",
     "assunto": "Mortalidade",
@@ -1725,6 +1831,21 @@
     "motivo": "Tornar acordo prévio aplicável por vários mestres sem fingir que toda derrota é ressuscitável. É alteração mecânica real, não apenas esclarecimento editorial.",
     "tipo": "mudança de consequência e política mecânica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md (§5.5)",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/10-descanso-e-recuperacao.md",
+     "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md",
+     "sistema/03-mecanica/24-dano-de-alma.md",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md"
+    ],
+    "nota": "Sem morte automática; a campanha pode anunciar morte no limiar antes da missão. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1737,7 +1858,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR15",
     "assunto": "Cicatrizes",
@@ -1746,6 +1867,19 @@
     "motivo": "Evitar incentivo a obter cicatriz como melhoria e punição mecânica permanente por receber socorro aliado.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md (§5.5)",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/10-descanso-e-recuperacao.md",
+     "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md"
+    ],
+    "nota": "Cicatrizes viram marca narrativa, sem vantagem ou desvantagem social universal. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1758,7 +1892,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR16",
     "assunto": "Integridade por falhas",
@@ -1767,6 +1901,16 @@
     "motivo": "Quatro pequenas ocorrências não retiram personagem só por falhas, e a reserva volta a medir a gravidade do dano.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/24-dano-de-alma.md",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md"
+    ],
+    "nota": "Estágio de Integridade calculado só pela reserva atual, sem TR de estágio. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1779,7 +1923,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR17",
     "assunto": "Recuperação de Integridade",
@@ -1788,6 +1932,16 @@
     "motivo": "Dar utilidade de recuperação às peças já pagas sem criar retorno instantâneo após derrota.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/24-dano-de-alma.md",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md"
+    ],
+    "nota": "Recuperar Integridade recalcula o estágio; o 4 ainda encerra a cena. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -1800,7 +1954,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "DR18",
     "assunto": "Zero de Integridade",
@@ -1809,6 +1963,16 @@
     "motivo": "Transformação de identidade não deve decorrer de um contador universal nem ser alegada como cânone.",
     "tipo": "mecanica",
     "estado": "revisado por maxima; fechamento das interfaces e prova em andamento"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/24-dano-de-alma.md",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md"
+    ],
+    "nota": "Zero de Integridade: Inconsciente e Derrotado com saída e limites, sem transformação automática. TRAVADA: parte do Morrendo e da Integridade, que o Mizuki adiou para revisão própria (REVISAO-MORRENDO.md, \"Não presumir que a estrutura atual permanecerá\"); não migrar antes dela.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2114,7 +2278,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "DR33",
     "tipo": "decisão do autor",
@@ -2122,6 +2286,19 @@
     "depois": "Ao chegar a **zero de vida**, você está **Morrendo**. Resolva primeiro as capacidades disparadas pela própria queda; em seguida, escolha **Aguentar** ou **Insistir**. Se uma dessas capacidades encerrar a queda, não há escolha. Estas regras",
     "motivo": "Decisão do Mizuki em 04/10/2026 (\"entra antes\"), achado G1-05 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). Fecha a ordem entre a queda e as capacidades disparadas por ela.",
     "rastreio": "revisao-interfaces/CORRECOES-APLICADAS.md"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/01-atributos-acerto-defesa.md (§5.5)",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/10-descanso-e-recuperacao.md",
+     "sistema/05-material/livro/manual/70-descanso-e-recuperacao.md"
+    ],
+    "nota": "D: resolva primeiro as capacidades disparadas pela queda, depois escolha Aguentar ou Insistir.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2134,7 +2311,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "DR34",
     "tipo": "decisão do autor",
@@ -2142,6 +2319,16 @@
     "depois": "Seu deslocamento cai pela metade e você não pode usar Ação Bônus. Distâncias concedidas por capacidades, como a de Passo, também caem pela metade.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-07 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D37).",
     "rastreio": "revisao-interfaces/CORRECOES-APLICADAS.md"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md"
+    ],
+    "nota": "D37: Lento corta pela metade as distâncias concedidas, como a de Passo (a mesma regra do FU-26, no texto de Dano).",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2154,7 +2341,7 @@
     "peça 10",
     "livro/manual/15,70"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "DR35",
     "tipo": "decisão do autor",
@@ -2162,6 +2349,17 @@
     "depois": "Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele.",
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G1-04 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D38).",
     "rastreio": "revisao-interfaces/CORRECOES-APLICADAS.md"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/03-mecanica/26-bestiario.md"
+    ],
+    "nota": "D38: inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho.",
+    "como": "antes resumido pela unidade; a candidata reescreveu Dano e recuperação",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2392,7 +2590,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI11",
     "tipo": "mecanica",
@@ -2404,6 +2602,17 @@
      "peça13§5:sem ganho direto"
     ],
     "escopo": "O Que Ele Quer"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/09-origens.md",
+     "sistema/03-mecanica/13-legados.md",
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "O Que Ele Quer: uma vez por descanso longo, a ajuda é informação ou acesso, com o preço apresentado antes; não dá ataque nem acerto.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2414,7 +2623,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI12",
     "tipo": "mecanica_de_janela",
@@ -2426,6 +2635,17 @@
      "R19:Promessa"
     ],
     "escopo": "Passagem"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/09-origens.md",
+     "sistema/03-mecanica/13-legados.md",
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Passagem: duração combinada antes; o benefício é repetir a rolagem.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2480,7 +2700,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI15",
     "tipo": "mecanica",
@@ -2492,6 +2712,17 @@
      "peça13§5:troca"
     ],
     "escopo": "Usado"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/09-origens.md",
+     "sistema/03-mecanica/13-legados.md",
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Usado: a contrapartida é combinada antes e não tira ação nem dá dano.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2524,7 +2755,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI17",
     "tipo": "mecanica",
@@ -2537,6 +2768,17 @@
      "R04:Descansos"
     ],
     "escopo": "Sangue que Não é Sangue"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/09-origens.md",
+     "sistema/03-mecanica/13-legados.md",
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Sangue que Não é Sangue: uma necessidade corporal registrada, que precisa ser atendida para recuperar vida e PE no descanso longo.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2547,7 +2789,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI18",
     "tipo": "mecanica",
@@ -2560,6 +2802,17 @@
      "R02:movimento forçado"
     ],
     "escopo": "Talhe"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/09-origens.md",
+     "sistema/03-mecanica/13-legados.md",
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Talhe: o agressor escolhe soltar o objeto ou deslocar 1,5 m; sem as duas, não usa.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2593,7 +2846,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI20",
     "tipo": "mecanica",
@@ -2605,6 +2858,17 @@
      "manual25:Do Meu Canto"
     ],
     "escopo": "Do Meu Canto"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/09-origens.md",
+     "sistema/03-mecanica/13-legados.md",
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Do Meu Canto: sem deslocamento voluntário do começo do turno ao começo do próximo.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2637,7 +2901,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI22",
     "tipo": "esclarecimento_de_canon_e_mecanica",
@@ -2649,6 +2913,17 @@
      "peça09:ramo Sem Energia"
     ],
     "escopo": "Dividido"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/09-origens.md",
+     "sistema/03-mecanica/13-legados.md",
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Dividido: vínculo na história, sem energia residual nem bônus pela outra pessoa.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2725,7 +3000,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada_em_outro_registro",
    "registro": {
     "id": "ORI26",
     "tipo": "mecanica_aprovada_pelo_coordenador",
@@ -2739,6 +3014,17 @@
      "R-fabricação:Teste de fabricação"
     ],
     "escopo": null
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "mesma_que",
+    "donos_v0331": [
+     "sistema/03-mecanica/09-origens.md",
+     "sistema/03-mecanica/13-legados.md",
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Reparo do Corpo Amaldiçoado com CD 8 + atributo + maestria + ajuste: a mesma regra do R11-49.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -2885,7 +3171,7 @@
     "peça 13",
     "livro/manual/25"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "ORI33",
     "tipo": "fechamento_mecanico_aprovado",
@@ -2897,6 +3183,17 @@
      "R09:Energia Reversa",
      "revisão independente compatibilidade e autorização raiz 2026-10-03"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/09-origens.md",
+     "sistema/03-mecanica/13-legados.md",
+     "sistema/05-material/livro/manual/25-origens.md"
+    ],
+    "nota": "Feto não é maldição para efeitos de jogo; recebe cura normal.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3517,13 +3814,24 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO04",
     "tipo": "M",
     "antes": "XP guardado seria convertido em vários níveis de uma vez.",
     "depois": "Mesmo após o feito, só um avanço por encerramento de missão.",
     "motivo": "Preserva a regra principal de um nível por missão e o excedente; direção aprovada pela raiz."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "Mesmo depois do feito, só um avanço de nível por encerramento de missão.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3551,13 +3859,24 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO06",
     "tipo": "M",
     "antes": "A afirmação ninguém recebe zero não tinha um mínimo formal.",
     "depois": "Uma recompensa positiva paga ao menos1XP; recompensa deliberadamente nula continua0.",
     "motivo": "Evita zerar nas missões posteriores sem apagar a opção de falha sem pagamento; raiz aprovou."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "Recompensa positiva paga ao menos 1 XP; recompensa nula de propósito continua 0.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3568,13 +3887,24 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO07",
     "tipo": "M",
     "antes": "Missões longas podiam atravessar a virada semanal sem critério.",
     "depois": "Campanha fixa dia e horário; missão conta na conclusão, uma vez.",
     "motivo": "Registro reproduzível entre mesas, sem uma recompensa por sessão da mesma missão."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "A campanha fixa dia e horário da virada semanal; a missão conta na conclusão, uma vez.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3602,13 +3932,24 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO09",
     "tipo": "M",
     "antes": "Missão sem recompensa poderia não ocupar posição na semana.",
     "depois": "Missão concluída ocupa posição mesmo com0XP.",
     "motivo": "Contagem de participações, sem transformar a derrota em prêmio."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "Missão concluída ocupa posição na semana mesmo com 0 XP.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3653,13 +3994,24 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO12",
     "tipo": "M",
     "antes": "Nível1 opcional sem preço de XP.",
     "depois": "Campanha define o fim da etapa introdutória; a curva começa no2.",
     "motivo": "Não inventa um preço que a fonte não fornece nem o inclui nos14.300XP."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "A campanha define o fim da etapa introdutória; a curva de XP começa no nível 2.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3755,13 +4107,24 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO18",
     "tipo": "M",
     "antes": "Aumento dos máximos não definia o saldo atual.",
     "depois": "Soma só o aumento do máximo ao atual. PV0 não levanta; PE0 recebe a diferença. Não é descanso e não recupera usos.",
     "motivo": "Fechamento aprovado pela raiz, testado com Constituição alterada, ferimentos e PE parcial ou zerado."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "Subir o máximo de PV ou PE soma só o aumento ao atual; PV 0 não levanta; não é descanso.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3789,13 +4152,26 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO20",
     "tipo": "M",
     "antes": "Troca integral de Trilha sem momento operacional.",
     "depois": "Ao receber11/19/27, entre missões: retira entregas antigas e recebe a nova desde a base.",
     "motivo": "Manual35 exige troca integral e um Caminho; impede alternar durante a cena ou conservar duas bases."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Troca de Trilha nos níveis 11, 19 e 27, entre missões, desde a base.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3806,13 +4182,26 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO21",
     "tipo": "M",
     "antes": "Perda de permissão de Trilha sem procedimento de correção.",
     "depois": "Ajustes obrigatórios gratuitos somente nas partes afetadas; custos e ferimentos permanecem.",
     "motivo": "Raiz autorizou a regularização, sem liberar uma reconstrução geral da ficha."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Perder permissão de Trilha: ajustes gratuitos só nas partes afetadas.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3823,13 +4212,26 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO22",
     "tipo": "M",
     "antes": "Duplas que perdem o benefício não tinham conta de espaços definida.",
     "depois": "Uma entidade por vaga; usar livres e manter excessos registrados, mas indisponíveis.",
     "motivo": "Conserva bens e história sem conservar o benefício da Trilha retirada."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Duplas que perdem o benefício: uma entidade por vaga, excesso registrado mas indisponível.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3840,13 +4242,26 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO23",
     "tipo": "M",
     "antes": "Suspensão poderia virar reserva de escolhas alternadas gratuitamente.",
     "depois": "Seleção fixa na troca; recuperar escolha exige vaga livre ou revisão permitida.",
     "motivo": "Capacidade é exigida antes do uso; o registro não é apagado."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+     "sistema/05-material/livro/manual/35-caminhos-e-trilhas.md",
+     "sistema/03-mecanica/06-caminhos-e-trilhas.md"
+    ],
+    "nota": "Seleção fixa na troca; recuperar escolha exige vaga ou revisão permitida.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -3942,13 +4357,24 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO29",
     "tipo": "M",
     "antes": "Salário por participação falava em fatias sem fórmula.",
     "depois": "Mínimo1/4, mais3/4 proporcionais às participações exigidas, até100%; Grau no fechamento.",
     "motivo": "Fecha o cálculo preservando referência e mínimo, com recomendação de três participações."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "Salário por participação: mínimo 1/4, mais 3/4 proporcionais, até 100%; Grau no fechamento.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4010,13 +4436,24 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO33",
     "tipo": "M",
     "antes": "Aumento de máximo somava ao saldo, mesmo após uma redução causada por troca. 40/100→40/90→50/100 podia curar sem descanso.",
     "depois": "Acréscimo só pelo crescimento do novo nível e marco, calculado antes da troca. Trocas e ajustes posteriores apenas conservam ou limitam o saldo ao máximo.",
     "motivo": "Impede recuperar recursos por alternar benefícios. Preservar o gasto descreve crescimento, não diminuição de máximo; PV zero continua zero e PE zero recebe aumento do nível."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "Aumento de máximo só pelo crescimento do nível e do marco, calculado antes da troca.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4061,13 +4498,24 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "PRO36",
     "tipo": "M/C",
     "antes": "Retorno do estágio4 não tinha saída operacional estável; feitos de socorro/Alma permitiam leitura de quedas fabricadas pelo grupo.",
     "depois": "Retorno acompanha saída de Derrotado. Socorro,Alma eDomínio devem decorrer de ameaça hostil real,excluindo treino e fabricação do feito.",
     "motivo": "Concilia a saída definida emR03 e preserva conquista de limiar sem transformar dano deliberado em promoção programada."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "Feitos de socorro, Alma e Domínio só com ameaça hostil real; retorno do estágio 4 acompanha a saída de Derrotado. TRAVADA: depende da saída de Derrotado e do estágio 4, que estão na revisão adiada do Morrendo e da Integridade.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4078,13 +4526,26 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO37",
     "tipo": "M decisão do autor",
     "antes": "Registre a seleção. Recuperar o controle de um corpo suspenso exige uma aquisição ou transferência de vínculo permitida, com os procedimentos de **Fabricação de entidades** e os limites de **Invocações em campo**. Estar perto dele ou voltar à cidade não permite alternar gratuitamente o grupo controlado.",
     "depois": "Registre a seleção. Um corpo suspenso volta ao seu controle quando uma vaga se abre porque um corpo controlado foi destruído ou porque seu total permitido aumentou, conforme **Invocações em campo**. Soltar um corpo de propósito, estar perto do suspenso ou voltar à cidade não permite alternar o grupo controlado.",
     "motivo": "Decisão do Mizuki em 04/10/2026, achado G2-03 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md). Substitui a retomada por aquisição de PRO34, que não tinha procedimento para corpos de técnica; mantém o bloqueio ao revezamento."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md"
+    ],
+    "nota": "D03b na Progressão: corpo suspenso volta quando abre vaga por destruição ou aumento do total.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4095,13 +4556,24 @@
     "peça 18",
     "livro/manual/80"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "PRO38",
     "tipo": "decisão do autor",
     "antes": "registre **um dos oito feitos abaixo** / | Terminar a missão depois de outro personagem jogador chegar ao estágio 4. | Ocorrência na ficha do participante e conclusão da missão. |",
     "depois": "registre **um dos sete feitos abaixo** / (retirado)",
     "motivo": "Decisão do Mizuki em 04/10/2026 (\"remove da lista\"), achado G1-07 (revisao-interfaces/CORRECOES-APLICADAS.md). Depois de DR13 o Feito 8 só cobria dano de Alma e podia ser forçado num aliado."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/12-experiencia-e-progressao.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "D: sai o oitavo feito (terminar a missão depois de outro jogador chegar ao estágio 4); ficam sete. Decisão explícita do Mizuki, motivada pelo DR13, que está travado.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8593,7 +9065,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A08",
     "pagina": "apt-canalizar",
@@ -8606,6 +9078,16 @@
      "caminhos/05-Edicao-Integrada/01-Bastião-Caminho-e-Trilhas.md",
      "peça11§6.9"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Canalizar: a exclusão vale para o ataque que leva um feitiço de dano; os outros ataques seguem normais.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8658,7 +9140,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A11",
     "pagina": "apt-projetar",
@@ -8671,6 +9153,16 @@
      "R06 Projétil alcance",
      "manual45§Projetar"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Projetar Energia: Ação Padrão, um alvo visível, ataque de conjuração, 18 ou 36 m, gasto antes de rolar.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8744,7 +9236,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A15",
     "pagina": "apt-energia-positiva",
@@ -8757,6 +9249,16 @@
      "manual43 referênciaúnicaórfã",
      "R10 coordenação"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Energia positiva por contato exige permissão expressa de alcançar outra criatura.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8808,7 +9310,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A18",
     "pagina": "apt-protecao-dominios",
@@ -8821,6 +9323,16 @@
      "R01 durações",
      "R08 coordenação"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Proteção de domínio: cobrança na ativação e no começo de cada turno; falta de pagamento encerra.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8851,7 +9363,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A20",
     "pagina": "apt-simples",
@@ -8863,6 +9375,16 @@
      "manual45§DomínioSimples",
      "pedido humano múltiplos1,5"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Domínio Simples: raios arredondados para o múltiplo de 1,5 m mais próximo (eram 3,5 e 6,5 m).",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8893,7 +9415,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A22",
     "pagina": "apt-simples-duracao",
@@ -8905,6 +9427,16 @@
      "R08 disputa de domínios",
      "peça11§6.5"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Domínio Simples: um contador por ativação; sair e voltar não zera.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8914,7 +9446,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A23",
     "pagina": "apt-cesta/apt-simples",
@@ -8926,6 +9458,16 @@
      "decisão v0.274 Acertoextra",
      "R08 coordenação"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Encerrar cedo a Cesta ou o Domínio Simples provoca o Acerto imediato.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8935,7 +9477,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A24",
     "pagina": "apt-petala",
@@ -8947,6 +9489,16 @@
      "manual45§Pétala",
      "R02 Resolução"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Pétala: precisa estar ativa no acerto; o golpe resolve primeiro.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8956,7 +9508,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A25",
     "pagina": "apt-barreira",
@@ -8968,6 +9520,16 @@
      "peça11§6.6",
      "R01 rodada6segundos"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Barreira Simples: dez turnos de Ação Padrão no ponto; uma Barreira ou Cortina ativa por criador.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8977,7 +9539,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A26",
     "pagina": "apt-barreira",
@@ -8990,6 +9552,16 @@
      "R08 barreira",
      "R02 ataque"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Barreiras como alvo: ataque acerta sem crítico, TR falha (o mesmo procedimento do R08-14).",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -8999,7 +9571,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A27",
     "pagina": "apt-cortina",
@@ -9011,6 +9583,16 @@
      "logs/CHANGELOG.md§0.176",
      "manual45§Cortina"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Cortina: 40 × Refino de PV (da v0.176) e o local a até 90 m do ponto de conclusão.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -9020,7 +9602,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A28",
     "pagina": "apt-cortina",
@@ -9032,6 +9614,16 @@
      "peça11§Cortina tabela de condições",
      "RegrasComuns barreiras/sinais"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Cortina regula passagem e visão; não herda a vedação de ataques da Barreira.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -9041,7 +9633,7 @@
     "peça 11",
     "livro/manual/45"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "A29",
     "pagina": "apt-propria",
@@ -9053,6 +9645,16 @@
      "R07 PassivaPrópria",
      "manual45 AptidãoPrópria"
     ]
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/05-material/livro/manual/45-aptidoes-e-refino.md"
+    ],
+    "nota": "Aptidão própria: a Classe considera magnitude, ação, alvos e alcance; a rerrolagem do exemplo exige Reação.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -9468,7 +10070,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada_em_outro_registro",
    "registro": {
     "id": "R10-10",
     "tipo": "mecânica candidata; redução de efeito Livre",
@@ -9495,6 +10097,16 @@
      "rota-passivas-marciais"
     ],
     "estado": "candidata; revisão independente e integração pela raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "mesma_que",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md"
+    ],
+    "nota": "Calo reduzido a reconhecimento: superado pelo R10-33 (D12), que tirou o Calo.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -9542,7 +10154,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-12",
     "tipo": "mecânica candidata; requisito temático",
@@ -9569,6 +10181,18 @@
      "rota-passivas-marciais"
     ],
     "estado": "candidata; revisão independente e integração pela raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+     "sistema/03-mecanica/25-sem-tecnica.md",
+     "sistema/05-material/livro/manual/43-sem-tecnica.md"
+    ],
+    "nota": "Passiva Leitura tem efeito próprio; sem energia, exige ferramenta capaz da leitura.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -9579,7 +10203,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-13",
     "tipo": "mecânica candidata; fechamento de frequência",
@@ -9599,6 +10223,16 @@
      "rota-passivas-resposta"
     ],
     "estado": "candidata; revisão independente e integração pela raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md"
+    ],
+    "nota": "Contragolpe: vantagem na próxima rolagem de ataque contra o agressor, até o fim da cena; uma guardada por vez.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -9609,7 +10243,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-14",
     "tipo": "mecânica candidata; alcance da exclusividade",
@@ -9629,6 +10263,16 @@
      "rota-passivas-resposta"
     ],
     "estado": "candidata; revisão independente e integração pela raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md"
+    ],
+    "nota": "Aliança: veta desarme involuntário e uso por terceiro; permite transportar.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -9787,7 +10431,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-19",
     "tipo": "mecânica candidata; aprovada para candidata pela raiz",
@@ -9814,6 +10458,16 @@
      "rota-corpo"
     ],
     "estado": "candidata; revisão independente e integração pela raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md"
+    ],
+    "nota": "Presilha: uma vez por rodada, o alvo repete o TR que evitou agarrar, derrubar ou deslocar.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -9861,7 +10515,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-21",
     "tipo": "mecânica candidata; fechada com a raiz",
@@ -9888,6 +10542,16 @@
      "rota-combate"
     ],
     "estado": "candidata; revisão independente e integração pela raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md"
+    ],
+    "nota": "Assombro: CD 8 + Essência + maestria, não a CD da técnica.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -9966,7 +10630,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-24",
     "tipo": "mecânica candidata; delimitador sensorial",
@@ -9986,6 +10650,16 @@
      "rota-perseguicao"
     ],
     "estado": "candidata; revisão independente e integração pela raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md"
+    ],
+    "nota": "Vulto: obstáculo sólido bloqueia a percepção.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -9996,7 +10670,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-25",
     "tipo": "mecânica candidata; escopo temporal",
@@ -10016,6 +10690,16 @@
      "rota-combate"
     ],
     "estado": "candidata; revisão independente e integração pela raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md"
+    ],
+    "nota": "Antecipar: vantagem contra a mesma capacidade da mesma criatura, não contra o tipo de TR.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10112,7 +10796,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-28",
     "tipo": "mecânica candidata; precisão de uso",
@@ -10139,6 +10823,16 @@
      "rota-corpo"
     ],
     "estado": "candidata; revisão independente e integração pela raiz"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md"
+    ],
+    "nota": "Ímpeto: cai ao terminar o movimento sem apoio, como a peça dona já manda.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10232,7 +10926,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "travada_revisao_morrendo",
    "registro": {
     "id": "R10-32",
     "tipo": "sincronização mecânica autorizada",
@@ -10259,6 +10953,16 @@
     "impacto": "Economiza apenas ceil(referência/8) de vida máxima uma vez por descanso longo. Custos seguintes de 1/4 e 1/2 usam a referência original. Frequência, acesso CP2, janela e socorro preservados.",
     "estado": "candidata; não publicada",
     "autorizacao": "Raiz autorizou sincronização: dispensa somente primeiro custo de 1/8."
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md"
+    ],
+    "nota": "Passiva de Insistir: dispensa o primeiro custo de vida máxima (1/8). TRAVADA: depende do Insistir, na revisão adiada do Morrendo.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10269,7 +10973,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-33",
     "tipo": "decisão do autor",
@@ -10298,6 +11002,16 @@
     "impacto": "Calo deixa de existir como Talento marcial; não tinha efeito mecânico nem ocupava espaço.",
     "estado": "aplicada",
     "autorizacao": "Mizuki, 04/10/2026"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md"
+    ],
+    "nota": "D12: o Calo deixa de existir como Talento marcial.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10308,7 +11022,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-34",
     "tipo": "decisão do autor",
@@ -10330,6 +11044,16 @@
     "impacto": "O personagem marcial registra a Expressão da técnica do Fundamento, sem efeito mecânico.",
     "estado": "aplicada",
     "autorizacao": "Mizuki, 04/10/2026"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md"
+    ],
+    "nota": "D12: a Técnica Marcial registra a Expressão da técnica.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10372,7 +11096,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-36",
     "tipo": "decisão do autor",
@@ -10394,6 +11118,16 @@
     "impacto": "Sem Técnica escreve uma Expressão da técnica, sem efeito mecânico.",
     "estado": "aplicada",
     "autorizacao": "Mizuki, 04/10/2026"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/25-sem-tecnica.md",
+     "sistema/05-material/livro/manual/43-sem-tecnica.md"
+    ],
+    "nota": "D18: Sem Técnica registra a Expressão da técnica.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -10404,7 +11138,7 @@
     "peça 25",
     "livro/manual/42,43,47"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "R10-37",
     "tipo": "decisão do autor",
@@ -10427,6 +11161,17 @@
     "impacto": "A rota segue o acesso de Equipamento restrito; o mestre pode conceder permissão.",
     "estado": "aplicada",
     "autorizacao": "Mizuki, 04/10/2026"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+     "sistema/03-mecanica/14-equipamento.md"
+    ],
+    "nota": "D33: a rota segue Equipamento restrito, salvo permissão do mestre; arma de fogo vem com a munição inicial.",
+    "como": "antes resumido pela unidade; a candidata reescreveu o capítulo",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
