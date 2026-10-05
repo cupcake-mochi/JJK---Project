@@ -3,7 +3,7 @@ Continuidade pós-revisão — conferência de 04/10/2026
 ATUALIZAÇÃO DE 05/10/2026: SÉTIMA PASSADA — CONDIÇÃO, PRENDE E CERCA PEDEM TR
 O Mizuki decidiu que a Melhoria Condição sempre pede TR, mesmo num feitiço de ataque, e estendeu a Prende e Cerca, que também entravam só no acerto (D43). Num ataque, o acerto aplica o dano e o alvo acertado faz o TR registrado para o Controle; só recebe as peças se falhar. Puxa fica de fora (deslocamento forçado, como o Empurrão). Mudaram Catálogo, Dano e recuperação, Fundamento, Abertura (Kaori, TR Físico contra CD 12) e Rotas (Iori). Registro em revisao-interfaces/CORRECOES-APLICADAS.md; para as peças, migracao-pos-candidata/PLANO.md.
 Achado no caminho: a v0.332 tinha deixado nove capítulos vermelhos (fontes preservadas mudadas sem cotejo); o cotejo foi registrado e as 23 unidades estão verdes.
-PDF vigente: 382 páginas, SHA-256 b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb; 11 páginas mudaram (43, 60, 61, 226, 227, 229 a 231, 247, 248 e 283), todas abertas; cadeia visual sem lacuna. ZIP refeito com o mesmo nome: SHA-256 a76df63d598bd3b738751fe89a409c4b2381ceb3294146dcb545ec2ba692dd87, 1407 arquivos, PDF reproduzido idêntico.
+PDF vigente: 382 páginas, SHA-256 b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb; 11 páginas mudaram (43, 60, 61, 226, 227, 229 a 231, 247, 248 e 283), todas abertas; cadeia visual sem lacuna. ZIP refeito com o mesmo nome: SHA-256 d3b0d04363559e81e98bfe9b5884e248550682e9d9305234f56964f54f5a6c94, 1407 arquivos, PDF reproduzido idêntico.
 Branch desta passada: claude/upbeat-darwin-i4b311.
 
 ATUALIZAÇÃO DE 05/10/2026: SEXTA PASSADA — VANGUARDA 7
