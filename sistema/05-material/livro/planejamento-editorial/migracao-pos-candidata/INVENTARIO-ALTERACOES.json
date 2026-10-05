@@ -4053,7 +4053,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-04",
     "natureza": "M",
@@ -4063,6 +4063,21 @@
     "motivo": "Evitar duas revisões independentes implícitas. Decisão candidata conservadora.",
     "sincronizar": "Patches42/43/60/80.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/43-sem-tecnica.md",
+     "sistema/03-mecanica/25-sem-tecnica.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "Refazer a troca de entidade gasta a única revisão do nível; preencher vaga nova não gasta.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4153,7 +4168,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-09",
     "natureza": "M",
@@ -4163,6 +4178,18 @@
     "motivo": "Evitar alteração oportunista de uma mesma aplicação.",
     "sincronizar": "Fundamento; Dano.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md"
+    ],
+    "nota": "Os tipos de dano são distribuídos na criação da ficha, não depois de conhecer a resistência do alvo.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4233,7 +4260,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-13",
     "natureza": "M",
@@ -4243,6 +4270,19 @@
     "motivo": "Evitar Restrição apagar custo intrínseco da Forma. Consolidação restritiva candidata.",
     "sincronizar": "Fundamento; R07; matemática de cura.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "manual/matematica/"
+    ],
+    "nota": "Teto final de cura: Cura até 2 × Classe em dados; Onda até 3 × Classe menos a Pesada, mesmo com devolução.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4253,7 +4293,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-14",
     "natureza": "M",
@@ -4263,6 +4303,19 @@
     "motivo": "Preservar identidade de área própria e fechar valor ausente/ambíguo; inferência de design, não correção tipográfica demonstrada.",
     "sincronizar": "Fundamento; R07; Invocações.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "manual/gerador/partD.js"
+    ],
+    "nota": "Onda continua centrada no usuário, com raio de 4,5 m nas Classes 6 e 7.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4373,7 +4426,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada_em_outro_registro",
    "registro": {
     "id": "FU-20",
     "natureza": "M",
@@ -4383,6 +4436,18 @@
     "motivo": "Dar função própria à compra.63 comparações mostram nicho e perda de dano em outros cenários; Bloquear ainda exige avaliação ampla.",
     "sincronizar": "Patch40; catálogo; espelho de Invocações.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "mesma_que",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Certeiro redesenhado: é a mesma mudança do R07-A-17 (Catálogo).",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4453,7 +4518,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada_em_outro_registro",
    "registro": {
     "id": "FU-24",
     "natureza": "M",
@@ -4463,6 +4528,18 @@
     "motivo": "Impedir multiplicar30PV por cada quadrado e tornar exemplo executável.",
     "sincronizar": "Fundamento; R07.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "mesma_que",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Anteparo com uma reserva de vida só: a mesma mudança do R07-A-28 (Catálogo), com o exemplo de 12 quadrados, 9 × 3 m.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4493,7 +4570,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-26",
     "natureza": "M",
@@ -4503,6 +4580,22 @@
     "motivo": "Evitar duas leituras por nome do efeito. Decisão candidata que deve ser sincronizada ao dono.",
     "sincronizar": "Fundamento; Condições; Movimento; R07.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/05-material/livro/manual/15-dano-e-condicoes.md",
+     "sistema/03-mecanica/19-dano-e-condicoes.md",
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md"
+    ],
+    "nota": "Lento corta também os metros específicos de Passo e Retirada (a D37 da revisão de interfaces estendeu às distâncias concedidas).",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4513,7 +4606,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-27",
     "natureza": "M",
@@ -4523,6 +4616,18 @@
     "motivo": "Eliminar contradição e preservar áreas funcionais; agregado da área pode superar4C.",
     "sincronizar": "Fundamento; patch40; Invocações.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md"
+    ],
+    "nota": "Regra de ouro 2: o teto de 4 × Classe passa a ser pela quantidade comprada, sem somar os alvos da área (a v0.331 diz 'somando alvos e repetições').",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4533,7 +4638,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-28",
     "natureza": "M",
@@ -4543,6 +4648,18 @@
     "motivo": "Impedir que compra adicional torne o teto inaplicável. Redução candidata precisa teste.",
     "sincronizar": "Fundamento; patch40; R07.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Dados adicionais e Remate entram na conta do teto; passando de 4 × Classe, reduza os dados iniciais, sem devolver pontos.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4573,7 +4690,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada_em_outro_registro",
    "registro": {
     "id": "FU-30",
     "natureza": "M",
@@ -4583,6 +4700,18 @@
     "motivo": "Fechar multiplicação por número de alvos e preservar exclusões de gatilhos de classe. Estilhaço mantém resolução própria no catálogo.",
     "sincronizar": "Fundamento; patch40; Invocações.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "mesma_que",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md"
+    ],
+    "nota": "Salto e Estilhaço uma vez por conjuração, sem recursão nem crítico: as mesmas mudanças do R07-A-14 e R07-B-13.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4593,7 +4722,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada_em_outro_registro",
    "registro": {
     "id": "FU-31",
     "natureza": "M",
@@ -4603,6 +4732,20 @@
     "motivo": "Evitar buff involuntário de duração e entradas repetidas. Não alegar que fonte antiga já limitava a seis aplicações.",
     "sincronizar": "Fundamento; patch40; Invocações; Turnos.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "mesma_que",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "sistema/05-material/livro/manual/11-o-turno.md",
+     "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md"
+    ],
+    "nota": "Fica na rodada da conjuração e nas cinco seguintes: a mesma mudança do R07-A-13.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4613,7 +4756,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-32",
     "natureza": "M",
@@ -4623,6 +4766,18 @@
     "motivo": "Impedir multiplicação de condições por tiros vazios ou duplicação gratuita de bônus.",
     "sincronizar": "Fundamento; R07.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Parte de divisão sem dados não recebe efeito de acerto; Junto só reparte benefício quantitativo.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4653,7 +4808,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-34",
     "natureza": "M",
@@ -4663,6 +4818,18 @@
     "motivo": "Preencher lacuna conservadoramente, sem conceder cidade inteira por extrapolação.",
     "sincronizar": "Fundamento; R07.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Classes 6 e 7 na Forma Efeito: a escala da Classe 5, com orçamento maior (a tabela da v0.331 pula da 5 para a Máxima).",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4673,7 +4840,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-35",
     "natureza": "M",
@@ -4683,6 +4850,18 @@
     "motivo": "Impedir ultrapassar regras de oposição por declarar fora de combate.",
     "sincronizar": "Fundamento; R07.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "A escala do Efeito não substitui controle e resistência contra hostis, nem antes da iniciativa.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4693,7 +4872,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-36",
     "natureza": "M",
@@ -4703,6 +4882,20 @@
     "motivo": "Evitar Classe0 escapar de seu preço próprio.",
     "sincronizar": "Fundamento; R07; Progressão.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/18-progressao.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "Classe 0: a Melhoria custa 1 dado e a Restrição não devolve dado; Toque e Aura sem a devolução Média.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4713,7 +4906,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-37",
     "natureza": "M",
@@ -4723,6 +4916,18 @@
     "motivo": "Fechar lacuna sem inventar fórmula de PV ilimitada.",
     "sincronizar": "Fundamento; R07.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Apoio de Classe 0 não dá vida temporária; pode entregar uma Leve compatível, como Impulso.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4733,7 +4938,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-38",
     "natureza": "M",
@@ -4743,6 +4948,18 @@
     "motivo": "Tornar decisão revisável e impedir juntar várias peças num preço único.",
     "sincronizar": "Fundamento; R07.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/60-invocacoes.md"
+    ],
+    "nota": "Efeito Próprio: uma peça, sem desconto da Livre, não contorna Família Fechada.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4753,7 +4970,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-39",
     "natureza": "M",
@@ -4763,6 +4980,19 @@
     "motivo": "Eliminar dupla compensação. Passo específico não devolve ações.",
     "sincronizar": "Fundamento; patch40; R08; exemplos/geradores.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/03-mecanica/RASCUNHO-expansao-sem-barreira.md",
+     "manual/gerador/"
+    ],
+    "nota": "Liberação Máxima já custa Ação Completa: Atrasar e Parado não devolvem; o exemplo Linha de Classe 3 fica 10d8 e 14 PE.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4773,7 +5003,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-40",
     "natureza": "M",
@@ -4783,6 +5013,18 @@
     "motivo": "840perfis de custo mostram mínimo monotônico incluindo escolhas novas aos21. É aumento real de opções e requer teste.",
     "sincronizar": "Fundamento; R08; patch60 domada8/12/16 com19/22/26d8.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/partE.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md"
+    ],
+    "nota": "Orçamento da Técnica Máxima: de 8/8/12 para 8/12/16 pontos nos níveis 17, 21 e 26; dados e PE mantidos (no gerador, partE.js).",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4813,7 +5055,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-42",
     "natureza": "M",
@@ -4823,6 +5065,21 @@
     "motivo": "Evitar dano extra sem perder dados-base. Inclui redução explícita de especialização contra objetos.",
     "sincronizar": "Fundamento; matriz; R07/R08; Invocações.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "manual/gerador/partD.js",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/03-mecanica/RASCUNHO-expansao-sem-barreira.md"
+    ],
+    "nota": "Técnica Máxima não aceita Salto, Queima, Estilhaço, Acúmulo, Remate, Quebra Coisa, Fica nem Inescapável.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4833,7 +5090,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-43",
     "natureza": "M",
@@ -4843,6 +5100,18 @@
     "motivo": "Não extrapolar fórmula comum para multiplicação sem preço.",
     "sincronizar": "Fundamento; R08.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/03-mecanica/RASCUNHO-expansao-sem-barreira.md"
+    ],
+    "nota": "Técnica Máxima de Apoio não converte dados em vida temporária.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4853,7 +5122,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-44",
     "natureza": "M",
@@ -4863,6 +5132,17 @@
     "motivo": "Permitir aproveitar progressão sem trocar aplicação a cada uso.",
     "sincronizar": "Fundamento; patch80 a complementar na integração.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "fecha_lacuna",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md"
+    ],
+    "nota": "Subir de faixa atualiza os preços da Máxima e acrescenta peças; trocar a função usa a revisão do nível.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4873,7 +5153,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-45",
     "natureza": "M",
@@ -4883,6 +5163,18 @@
     "motivo": "Criar função extraordinária sem liberar o mesmo pacote numa Classe comum.",
     "sincronizar": "Fundamento; R08.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/03-mecanica/RASCUNHO-expansao-sem-barreira.md"
+    ],
+    "nota": "Efeito próprio exclusivo da Técnica Máxima pode valer em combate, com ficha fechada.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4893,7 +5185,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-46",
     "natureza": "M",
@@ -4903,6 +5195,16 @@
     "motivo": "Mostrar utilidade concreta com preparação, limites físicos e saída; números candidatos.",
     "sincronizar": "Fundamento; futura bateria de mesa.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "exemplo_novo",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Exemplo novo de Técnica Máxima: Passagem de Papel (números candidatos).",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4913,7 +5215,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-47",
     "natureza": "M",
@@ -4923,6 +5225,16 @@
     "motivo": "Função imediata diferente de Pressa. Exemplo original, não equivalência demonstrada de metros e dano.",
     "sincronizar": "Fundamento; futura bateria de mesa.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "exemplo_novo",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md"
+    ],
+    "nota": "Exemplo novo de Técnica Máxima: Retirada de Emergência (números candidatos).",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -4993,7 +5305,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-51",
     "natureza": "M",
@@ -5003,6 +5315,25 @@
     "motivo": "Instrução explícita do usuário em03/10/2026: a troca só existe quando faz sentido no funcionamento da técnica.",
     "sincronizar": "Fundamento; patches42/43/60/80; Criação e ficha na integração.",
     "status": "correção solicitada aplicada à candidata; não integrada ao publicado"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "manual/gerador/ (manual do Fundamento v7)",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/05-material/livro/manual/42-tecnica-marcial.md",
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/05-material/livro/manual/43-sem-tecnica.md",
+     "sistema/03-mecanica/25-sem-tecnica.md",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "sistema/05-material/livro/manual/80-experiencia-e-progressao.md",
+     "sistema/05-material/livro/manual/20-criacao-de-personagem.md",
+     "sistema/03-mecanica/08-criacao-de-personagem.md"
+    ],
+    "nota": "Trocar espaço por invocação exige que a técnica, a semente ou o estilo crie, chame ou controle entidades (pedido do Mizuki em 03/10).",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5013,7 +5344,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada_em_outro_registro",
    "registro": {
     "id": "FU-52",
     "natureza": "M",
@@ -5023,6 +5354,22 @@
     "motivo": "Fechamento de R07: preservar o turno de Ação Completa e a recarga do uso efetivo, sem acumular disparos de Máxima.",
     "sincronizar": "Catálogo R07; Máximas e rotas em R08/R10/R12.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "mesma_que",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "sistema/03-mecanica/11-aptidoes-e-refino.md",
+     "sistema/03-mecanica/RASCUNHO-expansao-sem-barreira.md",
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/03-mecanica/25-sem-tecnica.md"
+    ],
+    "nota": "Armado e Segura não preparam nem adiam a Técnica Máxima: a mesma mudança do R07-B-19 e R07-B-22.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5033,7 +5380,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada_em_outro_registro",
    "registro": {
     "id": "FU-53",
     "natureza": "M",
@@ -5043,6 +5390,19 @@
     "motivo": "Fechamento F51, sem cobrar duas vezes a mesma dificuldade.",
     "sincronizar": "Catálogo R07; Liberação; rotas.",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "mesma_que",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/40-fundamento.md",
+     "manual/gerador/partD.js",
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/20-tecnica-marcial.md",
+     "sistema/03-mecanica/25-sem-tecnica.md"
+    ],
+    "nota": "Liberação com Sem Volta paga Sangue ou Peso: a mesma mudança do R07-R-07.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
@@ -5133,7 +5493,7 @@
     "manual Fundamento v7 (docx)",
     "livro/manual/40"
    ],
-   "estado_migracao": "nao_confirmada",
+   "estado_migracao": "confirmada",
    "registro": {
     "id": "FU-58",
     "natureza": "M",
@@ -5143,6 +5503,16 @@
     "motivo": "Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G5-09 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D35).",
     "sincronizar": "Construir invocações (já dizia o mesmo)",
     "status": "candidata, não integrada"
+   },
+   "conferencia_2026_10_05": {
+    "natureza": "muda_regra",
+    "donos_v0331": [
+     "sistema/05-material/livro/manual/60-invocacoes.md",
+     "sistema/03-mecanica/15-invocacoes.md"
+    ],
+    "nota": "D35: no Classe 0, a exigência de Toque ou Aura não ocupa a vaga da Restrição Leve.",
+    "como": "antes resumido pela unidade; o fato central conferido na v0.331 e os donos tirados do campo sincronizar",
+    "revisor": "Revisão por modelo (sessão de continuação), 05/10/2026. Não é revisão humana."
    }
   },
   {
