@@ -1,6 +1,6 @@
 {
   "sha256_texto": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
-  "sha256_pdf": "2d7273c7e59a0d687db8ab06da3d407d110dab1c1dc4e39217e348c2f6157ea4",
+  "sha256_pdf": "1246529e7e0b1d1463859b358fc61ff64b45331830878a2de963ad1d7b9310fc",
   "validadores": [
     {
       "id": "V01",
@@ -199,8 +199,21 @@
       "revisao-interfaces/CORRECOES-APLICADAS.md"
     ],
     "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-    "sha256_pdf_vigente": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
+    "sha256_pdf_vigente": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
     "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revalidacao_2026_10_05_ciclo_maldito": {
+    "sha256_texto_anterior": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
+    "sha256_pdf_anterior": "2d7273c7e59a0d687db8ab06da3d407d110dab1c1dc4e39217e348c2f6157ea4",
+    "sha256_texto": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
+    "sha256_pdf": "1246529e7e0b1d1463859b358fc61ff64b45331830878a2de963ad1d7b9310fc",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 314
+    },
+    "escopo": "Oitava passada (v0.334): só o cabeçalho do PDF mudou (CICLO MALDITO); o texto da unidade é o mesmo, e o corpo das páginas é idêntico pixel a pixel. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

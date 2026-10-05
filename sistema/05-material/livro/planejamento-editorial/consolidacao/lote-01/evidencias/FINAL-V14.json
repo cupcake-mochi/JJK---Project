@@ -1,35 +1,35 @@
 {
-  "sha256_pdf": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
+  "sha256_pdf": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
   "paginas": [
     {
       "pagina": 1,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 1 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 1",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 1 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "b906accc51100af45995a978dcaba81170a91fc8a41259fac1954bdf66cdc545"
+      "sha256_corpo_100dpi": "b4de800b9507af25371ea41f66873fdfe779ed2e58cff203743df9e3e1c33b89"
     },
     {
       "pagina": 2,
-      "metodo": "aberta na terceira passada (D05–D17) (página 2 do PDF 633f85aece26…) e com corpo idêntico desde então",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 2 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "6aea7875335f44fe68f89fa71c58796e35ece60222c6a02952ccd7ef5da6172e"
+      "sha256_corpo_100dpi": "0d29a73ec8309b2ead646ddf63537f7f02f7fb4b979956ef16ae5d1a99070532"
     },
     {
       "pagina": 3,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 3 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 3",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 3 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "0a1d8856b5f793580af5c242fa77da869b4bdc96cef9574ae8f1fda503b8540e"
+      "sha256_corpo_100dpi": "df9ec662efbff45f0cdde88f839c30bb340d3295330daebc35b9052b18b10dc5"
     },
     {
       "pagina": 4,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 4 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 4",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 4 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "d51242e45f9964f82dd492d68ffa7539e814d76a68898a9484e112efc7feff66"
+      "sha256_corpo_100dpi": "caef462f58f543a554f8ece938846d947aacacf127c35ee9928e52fa2be5e341"
     },
     {
       "pagina": 5,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 5 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 5",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 5 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "d3938e1536024fcad3c0e9877bdcb1020c6e7421bc8ac5ffc71443838ae928d3"
+      "sha256_corpo_100dpi": "6fa743d288def004fdaa32ec53f04edaebd2d4e0dd5c0a56a3d266ca1ed4730c"
     },
     {
       "pagina": 6,
@@ -309,9 +309,9 @@
     },
     {
       "pagina": 52,
-      "metodo": "aberta na terceira passada (D05–D17) (página 52 do PDF 633f85aece26…) e com corpo idêntico desde então",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 52 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "ae2a897c35adfc9824af21cf41801df01e69ac7ee0f0aad0142c751bbd4d6098"
+      "sha256_corpo_100dpi": "bd2e4c24568c5bf7fe0aea52725dc0b0e7f940806642c2c74d711e44496a1428"
     },
     {
       "pagina": 53,
@@ -333,9 +333,9 @@
     },
     {
       "pagina": 56,
-      "metodo": "aberta na quinta passada (D25–D41) (página 56 do PDF 4ae5931dc24a…), a 60 dpi",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 56 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "97263d45d385e49c823ed92712ea8edc9db02dda813a5adebc2298d7cd326559"
+      "sha256_corpo_100dpi": "19b2ca2c061d4bb2b27900b529b76d55b69b5c8c8c92fb7a00f6c2e6f0617dff"
     },
     {
       "pagina": 57,
@@ -417,9 +417,9 @@
     },
     {
       "pagina": 70,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 70 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 70",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 70 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "cafe4a0a9df3d42eac828d2ef47cbf8fbe2c4237c488fd29b322fb5d3e08ece9"
+      "sha256_corpo_100dpi": "a10d97356d222fada8376002afe895ea239d5030a06b9dd0d8293cb3fc7342be"
     },
     {
       "pagina": 71,
@@ -429,9 +429,9 @@
     },
     {
       "pagina": 72,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 72 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 72",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 72 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "2e86af70b51d00459973de04c72381e747869e2a7bf1e39a00e6f84c7ae359f6"
+      "sha256_corpo_100dpi": "6d0bc7dc3a41cb349d40e2021387a1c5d12a6ef88e68025ba0ac3a69a3a7c445"
     },
     {
       "pagina": 73,
@@ -1173,9 +1173,9 @@
     },
     {
       "pagina": 196,
-      "metodo": "aberta na rodada de paginação de tabelas e títulos (página 196 do PDF 42d9207037ed…), a 60 dpi",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 196 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "965ab1eb8596446d773b7cffa95aac464d2119de801231c5596332e2f874a088"
+      "sha256_corpo_100dpi": "0c0c4aeeb9598e19e7bb9633e8d54580fa0ed2694ff5ea48f5d809ba4d8b506f"
     },
     {
       "pagina": 197,
@@ -1197,9 +1197,9 @@
     },
     {
       "pagina": 200,
-      "metodo": "aberta na rodada de paginação de tabelas e títulos (página 200 do PDF 42d9207037ed…), a 60 dpi",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 200 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "998fb3880e8fa632b65bb2d0cc266d61e996737fef37ab226f329563c9f20367"
+      "sha256_corpo_100dpi": "ac3abfeea7fb98dda4128d9307733b70d4320a317c27f503cf3f74a3255922b1"
     },
     {
       "pagina": 201,
@@ -1245,9 +1245,9 @@
     },
     {
       "pagina": 208,
-      "metodo": "aberta na rodada de paginação de tabelas e títulos (página 208 do PDF 42d9207037ed…), a 60 dpi",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 208 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "0a31e9f4f259f21eeb6f156a1cd9f7e7f8fd0c5755ca51f6650d12af669ee3ec"
+      "sha256_corpo_100dpi": "27b951be71efa5715410dd6a01a0d0af4019352221f4ad812128ef8357411194"
     },
     {
       "pagina": 209,
@@ -1293,21 +1293,21 @@
     },
     {
       "pagina": 216,
-      "metodo": "aberta na rodada de paginação de tabelas e títulos (página 216 do PDF 42d9207037ed…), a 60 dpi",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 216 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "35c6011133c20975c19ca451b259b9a80f9d160b0dee9033e034f066cabd32ce"
+      "sha256_corpo_100dpi": "a4fdf4f0fa7f65a81c3a19572b4ef5c0f45fb7396c9def33712294199a9f55e0"
     },
     {
       "pagina": 217,
-      "metodo": "aberta na rodada de paginação de tabelas e títulos (página 217 do PDF 42d9207037ed…), a 60 dpi",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 217 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "d5886e0269efe01e480b7b9dcb611eafd63b4e17de676eff245667a3161695c3"
+      "sha256_corpo_100dpi": "ee2637a0b8f9d40068b709713f6637b763dd902b0ad7535df2218d5084087ed0"
     },
     {
       "pagina": 218,
-      "metodo": "aberta na rodada de paginação de tabelas e títulos (página 218 do PDF 42d9207037ed…), a 60 dpi",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 218 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "7b3e799b2027c0f40e86afe99568bea0cd3c676bec550cde286dadfceba7e4be"
+      "sha256_corpo_100dpi": "bc9fea7734ffe4c0cdbe4fb50f2a8fc37633f78a2689edbdca25a4c79c2039eb"
     },
     {
       "pagina": 219,
@@ -1437,15 +1437,15 @@
     },
     {
       "pagina": 240,
-      "metodo": "aberta na rodada de paginação de tabelas e títulos (página 240 do PDF 42d9207037ed…), a 60 dpi",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 240 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "23eb45c22278d27a543ea237f12b711c3891faebff1983e5270ba50f589e0d4d"
+      "sha256_corpo_100dpi": "7a7733aa0b8cba219bcfd498ae9f5d0a8eab734711754463ffcec6b91c7e31c7"
     },
     {
       "pagina": 241,
-      "metodo": "aberta na rodada de paginação de tabelas e títulos (página 241 do PDF 42d9207037ed…), a 60 dpi",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 241 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "4086724c2d261c1b956ffff4a92c1d03dfc957074b1b164e29fd1c3a363e2ad6"
+      "sha256_corpo_100dpi": "dbbfaa103039c18958d32e0d993106fa697044b4cc476e2b89612f3a80fa123c"
     },
     {
       "pagina": 242,
@@ -1629,9 +1629,9 @@
     },
     {
       "pagina": 272,
-      "metodo": "aberta na rodada de paginação de tabelas e títulos (página 272 do PDF 42d9207037ed…), a 60 dpi",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 272 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "1bab672f495d736bba2b2f952277cc6232d97fef1b1b9afd40468e2a27260f9b"
+      "sha256_corpo_100dpi": "a4089f9acd88a20da28cacfaa36075addddeb4316b1f395a7353f90a87b0bd46"
     },
     {
       "pagina": 273,
@@ -1767,9 +1767,9 @@
     },
     {
       "pagina": 295,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 297 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 296",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 295 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "1e6f9e69d4815c15711b8ba3ea17176b66805d0f428034906f40a5dc84f22d7e"
+      "sha256_corpo_100dpi": "ad02ee5c27b67482c7bdd9b00530db38c777a4174654fd815517b4ac51183849"
     },
     {
       "pagina": 296,
@@ -1863,9 +1863,9 @@
     },
     {
       "pagina": 311,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 313 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 312",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 311 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "0dc33b424ef653e2f280a93fcb3ac2087737fb0a0569531034ea2557f195ab50"
+      "sha256_corpo_100dpi": "aed46cf9ba3e5473667559a4dda11089fec29bf2cb0039fc7ba0f47bb6fa94fe"
     },
     {
       "pagina": 312,
@@ -2133,9 +2133,9 @@
     },
     {
       "pagina": 356,
-      "metodo": "corpo idêntico, pela cadeia de 04/10/2026, à página 357 da V14 de 03/10 (PDF 44dfa94108e5…), que foi coberta assim: corpo pixel a pixel idêntico à página anteriormente inspecionada 356",
+      "metodo": "aberta na oitava passada (nome Ciclo Maldito, v0.334) (página 356 do PDF 25557bb0f2ce…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "f893d4d2b94033506d5f1c3efe1bae7d5f031c78d651ef261e12eca230d97c41"
+      "sha256_corpo_100dpi": "af56b929f4fd384e69ab31646190e76c81446c58e591bb1b2ad4453fb94f3739"
     },
     {
       "pagina": 357,
@@ -2371,16 +2371,25 @@
         "sem_cobertura": []
       },
       {
-        "versao": "atual",
+        "versao": "65afa3c",
         "rodada": "sétima passada (D43)",
         "paginas": 382,
         "herdadas_por_corpo_identico": 371,
         "cobertas_pela_inspecao_da_rodada": 11,
         "listadas_mas_corpo_identico": [],
         "sem_cobertura": []
+      },
+      {
+        "versao": "atual",
+        "rodada": "oitava passada (nome Ciclo Maldito, v0.334)",
+        "paginas": 382,
+        "herdadas_por_corpo_identico": 361,
+        "cobertas_pela_inspecao_da_rodada": 21,
+        "listadas_mas_corpo_identico": [],
+        "sem_cobertura": []
       }
     ],
-    "metodo": "pdftoppm a 100 dpi de cada versão do livro guardada no git (44dfa941, 89f9057b, adda0770, 00a207c9, 633f85ae, bceea2d7, 42d92070, 4ae5931d, c6610e35 e o atual). Cada página é casada com a da versão anterior de corpo idêntico (sem os 70 pixels de cima e de baixo), perto da posição esperada pelo deslocamento. Uma página só fica coberta se herdar a cobertura assim ou se estiver na lista de páginas abertas daquela rodada. Nenhuma ficou sem cobertura, e as listas de cada rodada coincidem exatamente com as páginas que mudaram."
+    "metodo": "pdftoppm a 100 dpi de cada versão do livro guardada no git (44dfa941, 89f9057b, adda0770, 00a207c9, 633f85ae, bceea2d7, 42d92070, 4ae5931d, c6610e35, b5df8953 e o atual). Cada página é casada com a da versão anterior de corpo idêntico (sem os 70 pixels de cima e de baixo), perto da posição esperada pelo deslocamento. Uma página só fica coberta se herdar a cobertura assim ou se estiver na lista de páginas abertas daquela rodada. Nenhuma ficou sem cobertura, e as listas de cada rodada coincidem exatamente com as páginas que mudaram."
   },
   "v14_de_03_10": {
     "arquivo": "evidencias/antes-fechamento-2026-10-04/FINAL-V14.json",

@@ -1,7 +1,7 @@
 <!-- page:fundamento|Fundamento -->
 # Fundamento
 
-Uma técnica pode transformar uma luta antes de causar qualquer ferimento: prender uma porta, separar dois inimigos ou levar um aliado para fora do perigo. No Projeto - M, você escreve o que a sua técnica faz e monta as aplicações que o personagem aprendeu a usar.
+Uma técnica pode transformar uma luta antes de causar qualquer ferimento: prender uma porta, separar dois inimigos ou levar um aliado para fora do perigo. No Ciclo Maldito, você escreve o que a sua técnica faz e monta as aplicações que o personagem aprendeu a usar.
 
 O **Fundamento** é a descrição dessa técnica e dos seus limites. Cada aplicação preparada é um **feitiço**, com nome, custo e efeito próprios. Você mantém o mesmo Fundamento e aprende novas aplicações ao longo da campanha.
 
@@ -26,7 +26,7 @@ Personagens sem técnica inata também criam aplicações. Na rota Sem Técnica,
 
 **Espaço de feitiço conhecido é uma vaga na ficha.** Nas três rotas, uma dessas vagas pode ser ocupada por uma invocação **quando o funcionamento da técnica ou do estilo prevê entidades**. A contagem e a troca estão em [Feitiços conhecidos](#repertorio).
 
-Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Projeto - M. As técnicas originais destes exemplos foram criadas para ensinar o sistema.
+Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Ciclo Maldito. As técnicas originais destes exemplos foram criadas para ensinar o sistema.
 
 <!-- page:tecnica|Sua técnica -->
 # Sua técnica
@@ -800,7 +800,7 @@ Trocar a função, a Forma ou as peças já escolhidas usa a revisão de um feit
 <!-- page:passagem|Passagem de Papel -->
 # Passagem de Papel
 
-Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga superfícies por dobraduras. Sua Regra permite unir duas marcas preparadas. Suas Famílias Fechadas são Amparo, Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M.
+Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga superfícies por dobraduras. Sua Regra permite unir duas marcas preparadas. Suas Famílias Fechadas são Amparo, Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Ciclo Maldito.
 
 ## Montagem
 
@@ -830,7 +830,7 @@ O grupo pode preparar uma saída para retirar pessoas de um prédio ou transport
 <!-- page:retirada|Retirada de Emergência -->
 # Retirada de Emergência
 
-Esta **Máxima sem dano em combate** pertence a uma técnica que distribui impulso por fios ligados a corpos dispostos. Sua Regra permite conduzir os movimentos desses corpos. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M.
+Esta **Máxima sem dano em combate** pertence a uma técnica que distribui impulso por fios ligados a corpos dispostos. Sua Regra permite conduzir os movimentos desses corpos. Alcance e Área precisam estar disponíveis. É uma criação original do Ciclo Maldito.
 
 ## Montagem e uso
 

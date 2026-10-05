@@ -73,40 +73,49 @@
    "sem_cobertura": []
   },
   {
-   "versao": "atual",
+   "versao": "65afa3c",
    "rodada": "sétima passada (D43)",
    "paginas": 382,
    "herdadas_por_corpo_identico": 371,
    "cobertas_pela_inspecao_da_rodada": 11,
    "listadas_mas_corpo_identico": [],
    "sem_cobertura": []
+  },
+  {
+   "versao": "atual",
+   "rodada": "oitava passada (nome Ciclo Maldito, v0.334)",
+   "paginas": 382,
+   "herdadas_por_corpo_identico": 361,
+   "cobertas_pela_inspecao_da_rodada": 21,
+   "listadas_mas_corpo_identico": [],
+   "sem_cobertura": []
   }
  ],
  "cobertura_final": {
   "1": {
-   "origem": "V14 completa de 03/10",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 1,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "2": {
-   "origem": "terceira passada (D05–D17)",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 2,
-   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "3": {
-   "origem": "V14 completa de 03/10",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 3,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "4": {
-   "origem": "V14 completa de 03/10",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 4,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "5": {
-   "origem": "V14 completa de 03/10",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 5,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "6": {
    "origem": "V14 completa de 03/10",
@@ -339,9 +348,9 @@
    "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
   },
   "52": {
-   "origem": "terceira passada (D05–D17)",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 52,
-   "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "53": {
    "origem": "terceira passada (D05–D17)",
@@ -359,9 +368,9 @@
    "pdf_origem": "633f85aece26918b97e1523dc2391d2d1bde44bef188232cf835275df045225e"
   },
   "56": {
-   "origem": "quinta passada (D25–D41)",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 56,
-   "pdf_origem": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "57": {
    "origem": "V14 completa de 03/10",
@@ -429,9 +438,9 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "70": {
-   "origem": "V14 completa de 03/10",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 70,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "71": {
    "origem": "V14 completa de 03/10",
@@ -439,9 +448,9 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "72": {
-   "origem": "V14 completa de 03/10",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 72,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "73": {
    "origem": "V14 completa de 03/10",
@@ -1059,9 +1068,9 @@
    "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
   },
   "196": {
-   "origem": "paginação de tabelas e títulos",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 196,
-   "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "197": {
    "origem": "paginação de tabelas e títulos",
@@ -1079,9 +1088,9 @@
    "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
   },
   "200": {
-   "origem": "paginação de tabelas e títulos",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 200,
-   "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "201": {
    "origem": "paginação de tabelas e títulos",
@@ -1119,9 +1128,9 @@
    "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
   },
   "208": {
-   "origem": "paginação de tabelas e títulos",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 208,
-   "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "209": {
    "origem": "paginação de tabelas e títulos",
@@ -1159,19 +1168,19 @@
    "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
   },
   "216": {
-   "origem": "paginação de tabelas e títulos",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 216,
-   "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "217": {
-   "origem": "paginação de tabelas e títulos",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 217,
-   "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "218": {
-   "origem": "paginação de tabelas e títulos",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 218,
-   "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "219": {
    "origem": "paginação de tabelas e títulos",
@@ -1279,14 +1288,14 @@
    "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
   },
   "240": {
-   "origem": "paginação de tabelas e títulos",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 240,
-   "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "241": {
-   "origem": "paginação de tabelas e títulos",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 241,
-   "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "242": {
    "origem": "paginação de tabelas e títulos",
@@ -1439,9 +1448,9 @@
    "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
   },
   "272": {
-   "origem": "paginação de tabelas e títulos",
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
    "pagina_origem": 272,
-   "pdf_origem": "42d9207037ed22db62f68af3b9936ba22a8c2887aa097496116b0842784c9095"
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "273": {
    "origem": "paginação de tabelas e títulos",
@@ -1554,9 +1563,9 @@
    "pdf_origem": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1"
   },
   "295": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 297,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
+   "pagina_origem": 295,
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "296": {
    "origem": "terceira passada (D05–D17)",
@@ -1634,9 +1643,9 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "311": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 313,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
+   "pagina_origem": 311,
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "312": {
    "origem": "V14 completa de 03/10",
@@ -1859,9 +1868,9 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "356": {
-   "origem": "V14 completa de 03/10",
-   "pagina_origem": 357,
-   "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
+   "origem": "oitava passada (nome Ciclo Maldito, v0.334)",
+   "pagina_origem": 356,
+   "pdf_origem": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f"
   },
   "357": {
    "origem": "terceira passada (D05–D17)",

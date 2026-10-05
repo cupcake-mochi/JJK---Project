@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
+  "sha256_pdf_vigente": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -16,7 +16,7 @@
     },
     {
       "arquivo": "CONFERENCIA.json",
-      "sha256": "a836b2091328082995ecbfd449251a93913000ba31a627822056b132fa888e8b",
+      "sha256": "af2e239dbe6f2462ac7fd5232471f70104535392798236d86651b58ca8c122d7",
       "bytes": 36161
     },
     {
@@ -66,8 +66,8 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "fd32ea6fd84345cbd8a1f6fead745d29b947402778540ae5a8f113affad3ee84",
-      "bytes": 25924
+      "sha256": "7873596b00f1d15f03cca7cc886c043494713b42b29139d375681a580b8059f9",
+      "bytes": 26772
     },
     {
       "arquivo": "auditar.py",
@@ -131,12 +131,12 @@
     },
     {
       "arquivo": "evidencias/inspecao-visual.json",
-      "sha256": "e5aee491212e9673dcba30bc8efed78bb8db2a50e104937a344fb7aa5a4c0ad0",
-      "bytes": 8182
+      "sha256": "1e39ff03c09dd0b3c3b4c961c61ad2ff8c166bf17b404e3c36ca7f2a7d18835d",
+      "bytes": 9217
     },
     {
       "arquivo": "evidencias/pdf-estrutura.json",
-      "sha256": "1702cfed0016263ea92a1ef7a84faa055ff183ae6d75f8e26aad7bfe4ed8acf2",
+      "sha256": "6f6ebfef077e04eed29f3cee3f2237aec3c0c1a838e3453d22cfae1b3a59e18f",
       "bytes": 455
     },
     {
@@ -146,22 +146,27 @@
     },
     {
       "arquivo": "gerar_pdf.py",
-      "sha256": "f558029b035d4a23c4d98d394b4ce21ec55219a611729ce1eb9bd74dbb83c9a7",
-      "bytes": 8053
+      "sha256": "374a14875be53fd2039d1679ff3c20503e4dc989da5a916aa483e834efc1f541",
+      "bytes": 8059
     },
     {
       "arquivo": "output/pdf/Projeto-M-Evocador-Proposta-01.pdf",
-      "sha256": "97c14e7f6898a6444492b06a3f8570a0e9ece46cbc8dd2c8ad1cc22de1a0936d",
-      "bytes": 145515
+      "sha256": "512169725bace72680a345cd021c276a36ad4aa88ad6046335ab2fe801f0d5ee",
+      "bytes": 145676
     },
     {
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
       "sha256": "a71ab6528283fc4f15329695d7136d5c81eab268b321bf16a0aa1cf45fdc5f55",
       "bytes": 658
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
+      "sha256": "3baf898c0cdcb9be6b694112512c70c1172eb5bd132830dd850346e93fc445ba",
+      "bytes": 1078
     }
   ],
   "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO.",
-  "sha256_pdf_individual": "97c14e7f6898a6444492b06a3f8570a0e9ece46cbc8dd2c8ad1cc22de1a0936d",
+  "sha256_pdf_individual": "512169725bace72680a345cd021c276a36ad4aa88ad6046335ab2fe801f0d5ee",
   "atualizacao_2026_10_04": {
     "arquivos_com_hash_novo": [],
     "arquivos_acrescentados": [
@@ -198,6 +203,22 @@
     "arquivos_acrescentados": [],
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Sétima passada de 05/10/2026 (D43): Condição, Prende e Cerca pedem TR, por decisão do autor; nesta unidade, VALIDADORES e MANIFESTO apontando para o PDF vigente.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_ciclo_maldito": {
+    "arquivos_com_hash_novo": [
+      "CONFERENCIA.json",
+      "VALIDADORES.json",
+      "evidencias/inspecao-visual.json",
+      "evidencias/pdf-estrutura.json",
+      "gerar_pdf.py",
+      "output/pdf/Projeto-M-Evocador-Proposta-01.pdf"
+    ],
+    "arquivos_acrescentados": [
+      "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json"
+    ],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Oitava passada de 05/10/2026 (v0.334): o nome do sistema passou a Ciclo Maldito, por decisão do autor. Só o cabeçalho do PDF mudou.",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

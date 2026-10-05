@@ -1,22 +1,22 @@
 {
-  "data_utc": "2026-10-05T17:34:37.494120+00:00",
+  "data_utc": "2026-10-05T21:52:38.113263+00:00",
   "escopo": "Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15, hashes do texto/PDF e índice crítico do manifesto. Não relê regras, não executa testes novamente e não altera documentos de outros donos.",
-  "sha256_ordem": "02ad73793f3db9805ba980c68926d3a8ebb175ce1d2f685b94087e24c91c3daf",
+  "sha256_ordem": "d03929d8ca60b9271514bb9ec83f3f6ed166b993719a476abebd4f9c0bda4c2e",
   "fontes": 23,
-  "decisoes_registradas": 838,
+  "decisoes_registradas": 864,
   "donos_com_registro_contavel": 23,
   "checks_registrados": 4082,
   "unidades": [
     {
       "id": "ab",
       "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
-      "sha256_texto": "0aa5778f2b21f1f2f643cc486cbb4b1ea8c659bd826943ed89c8d2e43bbffdac",
-      "sha256_pdf": "4bcbb95f94b6d75da89a9a13e645e6e7fb6e8498f1f44deb195563fecd988213",
+      "sha256_texto": "70ee9abe5c059ef1dc81b91514e7dcc7718e5b51418936c6b73a054248e3e7f2",
+      "sha256_pdf": "734aab76993dccbe3e75bb770d89a980b69ce5e70ba58126c96a06f3fd86ad60",
       "paginas": 13,
       "validadores_presentes": 15,
       "conferencia_checks": 110,
       "conferencia_ok": true,
-      "decisoes": 27,
+      "decisoes": 34,
       "resumo_decisoes": [
         {
           "id": "AB-01",
@@ -152,6 +152,41 @@
           "id": "AB27",
           "tema": "Se a criatura sobrevivesse ao acerto, faria o TR Físico contra CD 12 e, na falha, ficaria Derrubada por uma rodada.",
           "tipo": "decisão do autor"
+        },
+        {
+          "id": "AB28",
+          "tema": "<!-- page:ab-apresentacao|Ciclo Maldito -->",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "AB29",
+          "tema": "# Ciclo Maldito",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "AB30",
+          "tema": "Ciclo Maldito oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras formas de enfre",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "AB31",
+          "tema": "> Ciclo Maldito é um material de fã baseado na obra de Gege Akutami",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "AB32",
+          "tema": "No jogo, você descreve sua técnica e monta suas aplicações usando o Fundamento",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "AB33",
+          "tema": "As **Origens** do Ciclo Maldito organizam essas possibilidades para a criação de personagens",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "AB34",
+          "tema": "Em Ciclo Maldito, o número anotado já é o valor somado quando uma regra pede o atributo",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -162,7 +197,7 @@
       "id": "geral",
       "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
       "sha256_texto": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
-      "sha256_pdf": "2d7273c7e59a0d687db8ab06da3d407d110dab1c1dc4e39217e348c2f6157ea4",
+      "sha256_pdf": "1246529e7e0b1d1463859b358fc61ff64b45331830878a2de963ad1d7b9310fc",
       "paginas": 40,
       "validadores_presentes": 15,
       "conferencia_checks": 314,
@@ -367,13 +402,13 @@
     {
       "id": "dano",
       "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
-      "sha256_texto": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192",
-      "sha256_pdf": "b6975960aca0d26667c6794139547da053540a6ed12bebe6af07cb6f36b6902c",
+      "sha256_texto": "398b836cf1cae226db0871f25bae0ac98bd291b9c0f73627c758bb39e744fe43",
+      "sha256_pdf": "370c31f148a42b0dec921a3c769b1977d34c219b6e3646bb9fd8399c24cc9b6f",
       "paginas": 20,
       "validadores_presentes": 15,
       "conferencia_checks": 163,
       "conferencia_ok": true,
-      "decisoes": 36,
+      "decisoes": 37,
       "resumo_decisoes": [
         {
           "id": "DR01",
@@ -554,6 +589,11 @@
           "id": "DR36",
           "tema": "A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho",
           "tipo": "decisão do autor"
+        },
+        {
+          "id": "DR37",
+          "tema": "O Ciclo Maldito usa dois tipos de descanso, definidos pela situação da missão",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -563,13 +603,13 @@
     {
       "id": "origens",
       "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
-      "sha256_texto": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
-      "sha256_pdf": "75dd8939b42906df9324f0a74421d07344f7f95c99526e122d8ebc96a08e93fa",
+      "sha256_texto": "a4d5b8ecc1890827850102e73018ad2d9f1440e6ca06e80dfb6ba87117985e18",
+      "sha256_pdf": "7923a71a43a5ad083bfb8de094ab632d1dce452eafc29864e83150e44849ec18",
       "paginas": 26,
       "validadores_presentes": 15,
       "conferencia_checks": 204,
       "conferencia_ok": true,
-      "decisoes": 35,
+      "decisoes": 38,
       "resumo_decisoes": [
         {
           "id": "ORI01",
@@ -745,6 +785,21 @@
           "id": "OR35",
           "tema": "Grau4 na criação padrão; exceções e promoção remetem a Patentes.",
           "tipo": "C"
+        },
+        {
+          "id": "OR36",
+          "tema": "As Pinturas da Morte inspiram essa possibilidade no Ciclo Maldito",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "OR37",
+          "tema": "Para as regras do Ciclo Maldito, escolher Feto não classifica seu personagem como uma maldição",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "OR38",
+          "tema": "Panda é uma referência de corpo construído com consciência",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -755,7 +810,7 @@
       "id": "pericias",
       "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
       "sha256_texto": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae",
-      "sha256_pdf": "c5c8039cba02704874e45601e05dac850ae59ec742a9c0175dddaff930f3409d",
+      "sha256_pdf": "7c1c074423dda88db0b53cb72e7f51b4f2b7502834fc88f8744897e3f9faa77b",
       "paginas": 9,
       "validadores_presentes": 15,
       "conferencia_checks": 83,
@@ -780,13 +835,13 @@
     {
       "id": "equip",
       "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
-      "sha256_texto": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
-      "sha256_pdf": "871267c856b89eb6e2584639f2eec0d0fd5a806670e5038d2ebc07664ec45aa2",
+      "sha256_texto": "ce763d7d27ef709b3a89c956789f0c1908da82d00ce396645ca9a644d8b3cc98",
+      "sha256_pdf": "522c8a04b70364d34f8e865bbcdc605cefdc5e3c9caca324c35d1a70a90e2da4",
       "paginas": 39,
       "validadores_presentes": 15,
       "conferencia_checks": 309,
       "conferencia_ok": true,
-      "decisoes": 27,
+      "decisoes": 30,
       "resumo_decisoes": [
         {
           "id": "EQ01",
@@ -922,6 +977,21 @@
           "id": "EQ27",
           "tema": "O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de",
           "tipo": "decisão do autor"
+        },
+        {
+          "id": "EQ28",
+          "tema": "Na instituição do Ciclo Maldito, o pagamento regular depende da patente e da participação em missões",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "EQ29",
+          "tema": "O grau organiza a entrega de ferramentas na campanha",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "EQ30",
+          "tema": "No Ciclo Maldito, um objeto amaldiçoado sem selo atrai maldições para suas proximidades",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -931,13 +1001,13 @@
     {
       "id": "progressao",
       "arquivo": "progressao/lote-01/PROGRESSAO.md",
-      "sha256_texto": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
-      "sha256_pdf": "767f76b38b7b3a7e7365c95c84f178796585db13f72338aa838d8fc1118c5819",
+      "sha256_texto": "cd913e9e54fcd1de862f2fc3a8bf55b301f51a8da06d9335735504f4b999c758",
+      "sha256_pdf": "5b298353111bfe3079889f758d39a0c4d13f0f9259f447b396164587c37bfb19",
       "paginas": 13,
       "validadores_presentes": 15,
       "conferencia_checks": 110,
       "conferencia_ok": true,
-      "decisoes": 42,
+      "decisoes": 44,
       "resumo_decisoes": [
         {
           "id": "PRO01",
@@ -1148,6 +1218,16 @@
           "id": "PRO42",
           "tema": "(retirado)",
           "tipo": "retirada a pedido do autor"
+        },
+        {
+          "id": "PRO43",
+          "tema": "Salário e recompensas por mestrar são **políticas opcionais da campanha**",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "PRO44",
+          "tema": "A patente registra o reconhecimento do personagem pela instituição",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -1157,13 +1237,13 @@
     {
       "id": "fundamento",
       "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
-      "sha256_texto": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7",
-      "sha256_pdf": "d9fda066121e5f52bcbbf6d0c6e1442137433c8dfbe8a295c4f0a50c116f80e2",
+      "sha256_texto": "b01cc5cfae9cc788d620421fa349ff140182a8a1f1aed16a3e8490aa1e1df32d",
+      "sha256_pdf": "7455e614d56ebe60daba5d34543124e70ff33d5a26fdd431fd3685712e19c3d7",
       "paginas": 29,
       "validadores_presentes": 15,
       "conferencia_checks": 233,
       "conferencia_ok": true,
-      "decisoes": 61,
+      "decisoes": 65,
       "resumo_decisoes": [
         {
           "id": "FU-01",
@@ -1469,6 +1549,26 @@
           "id": "FU-61",
           "tema": "Tabela de Controle: Condição",
           "tipo": "M"
+        },
+        {
+          "id": "FU-62",
+          "tema": "Nome do sistema",
+          "tipo": "E"
+        },
+        {
+          "id": "FU-63",
+          "tema": "Nome do sistema",
+          "tipo": "E"
+        },
+        {
+          "id": "FU-64",
+          "tema": "Nome do sistema",
+          "tipo": "E"
+        },
+        {
+          "id": "FU-65",
+          "tema": "Nome do sistema",
+          "tipo": "E"
         }
       ],
       "achados": [],
@@ -1479,7 +1579,7 @@
       "id": "catalogo",
       "arquivo": "catalogo/lote-01/CATALOGO.md",
       "sha256_texto": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60",
-      "sha256_pdf": "654093e24be94b83ce1dcc67e1d055efb804ecde41c0f5598aba1e081205bcc1",
+      "sha256_pdf": "23d5d66d5c2661ec23de6b478b79b14e7c4b14f5e2dd1ba1b876eff1fefa921e",
       "paginas": 30,
       "validadores_presentes": 15,
       "conferencia_checks": 242,
@@ -2109,13 +2209,13 @@
     {
       "id": "aptidoes",
       "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
-      "sha256_texto": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
-      "sha256_pdf": "6fbda6bc16317e67363de9a8ee2a0bc2fd447dfab31a905987a09262cc42ea93",
+      "sha256_texto": "0b0b00346497972efc2c0a65002891eac23e489decda073bbe3a9c958927dedd",
+      "sha256_pdf": "ce2292751fdd49b287a5ced55900735b6a7d12e07962c8d5916930ef2d107653",
       "paginas": 20,
       "validadores_presentes": 15,
       "conferencia_checks": 160,
       "conferencia_ok": true,
-      "decisoes": 33,
+      "decisoes": 34,
       "resumo_decisoes": [
         {
           "id": "A01",
@@ -2281,6 +2381,11 @@
           "id": "A33",
           "tema": "(retirado)",
           "tipo": "retirada a pedido do autor"
+        },
+        {
+          "id": "A34",
+          "tema": "A Expansão incompleta não tem Acerto garantido",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -2291,7 +2396,7 @@
       "id": "rotas",
       "arquivo": "rotas/lote-01/ROTAS.md",
       "sha256_texto": "b1903bb79e8fe5342b0e5aff1da8928a09f2ce36a03cd862860430a292a9f9b4",
-      "sha256_pdf": "b1b0a895d5dfd78462d7001ba3c78f180e4aa3542f7dd30aee73c2d8b9b05d01",
+      "sha256_pdf": "431515f80d0085453eb50760143157b68d4e1438679c155af959fd1558073990",
       "paginas": 23,
       "validadores_presentes": 15,
       "conferencia_checks": 185,
@@ -2501,13 +2606,13 @@
     {
       "id": "poderes",
       "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
-      "sha256_texto": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
-      "sha256_pdf": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
+      "sha256_texto": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd",
+      "sha256_pdf": "4c41e59be6970e3c8c6cf28b648db0b281794e8f68952e2202c0e56c12f38d30",
       "paginas": 15,
       "validadores_presentes": 15,
       "conferencia_checks": 125,
       "conferencia_ok": true,
-      "decisoes": 35,
+      "decisoes": 36,
       "resumo_decisoes": [
         {
           "id": "R08-01",
@@ -2683,6 +2788,11 @@
           "id": "R08-35",
           "tema": "encerramento",
           "tipo": "decisão do autor"
+        },
+        {
+          "id": "R08-36",
+          "tema": "degraus",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -2692,13 +2802,13 @@
     {
       "id": "ritual",
       "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
-      "sha256_texto": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707",
-      "sha256_pdf": "d0255fc5ad508a3abe2c180f88705cc4a135eb35d6b4c3fb0eb30c7add3362fd",
+      "sha256_texto": "0a334192d99b5e73dba144b20095a5677eb1674bc0f64d0e50a7c08a60a5f344",
+      "sha256_pdf": "0c7b11912bddbfce21c968e5648c730e101e39bc667772a4ca49cbf85ec87576",
       "paginas": 13,
       "validadores_presentes": 15,
       "conferencia_checks": 110,
       "conferencia_ok": true,
-      "decisoes": 34,
+      "decisoes": 35,
       "resumo_decisoes": [
         {
           "id": "RP-01",
@@ -2869,6 +2979,11 @@
           "id": "RP-34",
           "tema": "Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e resolução",
           "tipo": "decisão do autor"
+        },
+        {
+          "id": "RP-35",
+          "tema": "As quatro formas e os limites deste capítulo são a adaptação do Ciclo Maldito",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -2879,7 +2994,7 @@
       "id": "campo",
       "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
       "sha256_texto": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
-      "sha256_pdf": "1231611bc6d94447c9d79d9d958c22435a3c595d1b905d7ebbb761ab985deaa1",
+      "sha256_pdf": "5c0cea0be4093f894007f610c6db8330fbdc43ae20b45480a845250fad0ecf32",
       "paginas": 31,
       "validadores_presentes": 15,
       "conferencia_checks": 236,
@@ -3190,7 +3305,7 @@
       "id": "construcao",
       "arquivo": "invocacoes/lote-02/CONSTRUIR-INVOCACOES.md",
       "sha256_texto": "6f91d9f509a0abbd04912354a51b4f075310ebd79ff07f2b7ecb522bc174a3d2",
-      "sha256_pdf": "51917a0fc0bf4f6c11ab644ee897c5a16473078034c1f958c668226f06131837",
+      "sha256_pdf": "9a56d60ee8ed6bc0f24c604059c8f702040786c4e4d279f4491c9209a1dd113d",
       "paginas": 27,
       "validadores_presentes": 15,
       "conferencia_checks": 218,
@@ -3371,7 +3486,7 @@
       "id": "fabricacao",
       "arquivo": "invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md",
       "sha256_texto": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa",
-      "sha256_pdf": "def8f36d5e7447713d06eae47f484399b91517a8cbb5e936c7293ffe8828c9ce",
+      "sha256_pdf": "c94d7b81364ca559ced0670effaefa41e8044f4c91e975d0931d0d1d1592a7e3",
       "paginas": 5,
       "validadores_presentes": 15,
       "conferencia_checks": 54,
@@ -3466,13 +3581,13 @@
     {
       "id": "consulta",
       "arquivo": "consulta/lote-01/CONSULTA.md",
-      "sha256_texto": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
-      "sha256_pdf": "39a4e58ee3c20d9538226accb469604754b603081dfd5fbe47628a92ccada487",
+      "sha256_texto": "57d6c8e60554ebc18818569baf4325b612235dd96044b880a4a063ae77409c0d",
+      "sha256_pdf": "15ef08bb15ad7828f6b3a1a448c913bf4d4ec7f53fc6c124eb1b3168b490e45f",
       "paginas": 30,
       "validadores_presentes": 15,
       "conferencia_checks": 229,
       "conferencia_ok": true,
-      "decisoes": 32,
+      "decisoes": 35,
       "resumo_decisoes": [
         {
           "id": "R23-01",
@@ -3633,6 +3748,21 @@
           "id": "R23-32",
           "tema": "| Item e quantidade | Volume total | Posição e recursos | / **Volume carregado / limite:** ______ / ______ **Dinheiro:**",
           "tipo": "decisão do autor"
+        },
+        {
+          "id": "R23-33",
+          "tema": "Ciclo Maldito é um sistema de fã ambientado no universo de **Jujutsu Kaisen**, de Gege Akutami",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "R23-34",
+          "tema": "A ambientação da abertura foi conferida em trechos do volume 1 de Jujutsu Kaisen, disponíveis na prévia oficial da Shuei",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "R23-35",
+          "tema": "As regras e os exemplos deste livro conservam seus próprios procedimentos",
+          "tipo": "decisão do autor"
         }
       ],
       "achados": [],
@@ -3643,7 +3773,7 @@
       "id": "bastiao",
       "arquivo": "caminhos/bastiao/lote-01/BASTIAO.md",
       "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
-      "sha256_pdf": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+      "sha256_pdf": "de669993af1cd773892f85dbdd18ef7decddec95d75c913c96b4b0339050887c",
       "paginas": 11,
       "validadores_presentes": 15,
       "conferencia_checks": 96,
@@ -3789,7 +3919,7 @@
       "id": "vanguarda",
       "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
       "sha256_texto": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
-      "sha256_pdf": "24b46d2db797a1e2fbf600952b816a8e06eae2dea2bc52264e8eaf16bc39849e",
+      "sha256_pdf": "7f11b15a4e81cf4d817bab021f5b32f8f94bc43ceb40a2da49980a84df389a51",
       "paginas": 20,
       "validadores_presentes": 15,
       "conferencia_checks": 159,
@@ -3900,7 +4030,7 @@
       "id": "guia",
       "arquivo": "caminhos/guia/lote-01/GUIA.md",
       "sha256_texto": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
-      "sha256_pdf": "3d0e955534d0b8bb42fcab9abf8ab2bbe5ca15f33e8fbe7d2a469677ffd1dc7f",
+      "sha256_pdf": "9714c265ef1232607d84a8def1aa0389073841fd3b036c2a506bcb3237e2c5f7",
       "paginas": 17,
       "validadores_presentes": 15,
       "conferencia_checks": 138,
@@ -4106,7 +4236,7 @@
       "id": "emanador",
       "arquivo": "caminhos/emanador/lote-01/EMANADOR.md",
       "sha256_texto": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa",
-      "sha256_pdf": "c815b08890b348e0e301d0f791224572e512fa81788043ead683803282213735",
+      "sha256_pdf": "6e5e1eb31fb17d66a912445ce846521851e9f54ba99da82ad98e67007ff944d8",
       "paginas": 19,
       "validadores_presentes": 15,
       "conferencia_checks": 152,
@@ -4267,7 +4397,7 @@
       "id": "evocador",
       "arquivo": "caminhos/evocador/lote-01/EVOCADOR.md",
       "sha256_texto": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
-      "sha256_pdf": "97c14e7f6898a6444492b06a3f8570a0e9ece46cbc8dd2c8ad1cc22de1a0936d",
+      "sha256_pdf": "512169725bace72680a345cd021c276a36ad4aa88ad6046335ab2fe801f0d5ee",
       "paginas": 33,
       "validadores_presentes": 15,
       "conferencia_checks": 250,
@@ -4423,7 +4553,7 @@
       "id": "incursor",
       "arquivo": "caminhos/incursor/lote-01/INCURSOR.md",
       "sha256_texto": "f611d4df6ac364a9655e7531f0927a5ecf924555e1097bd402db6db45b7a2513",
-      "sha256_pdf": "3395250370e1fe3c7357b1fcc43165d7db23ab3e92776c98a169cf22d2c1fb06",
+      "sha256_pdf": "f6ea365b19e3e12c0e776561542e2f2785936a79db0aca59b072e14b6d0859fe",
       "paginas": 26,
       "validadores_presentes": 15,
       "conferencia_checks": 202,

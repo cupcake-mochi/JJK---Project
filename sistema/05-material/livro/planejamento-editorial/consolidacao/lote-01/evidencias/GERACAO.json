@@ -1,7 +1,7 @@
 {
   "status": "primeira prova; não aprovada visualmente",
-  "sha256_gerador": "9734972c41b9925e4923a42915670214b955fe7a89f27e4f419061b97daa97bd",
-  "sha256_ordem": "02ad73793f3db9805ba980c68926d3a8ebb175ce1d2f685b94087e24c91c3daf",
+  "sha256_gerador": "c9946a75022a706ef0f7e892698d974f3bae3c722978ce2ba681839cd636dedb",
+  "sha256_ordem": "d03929d8ca60b9271514bb9ec83f3f6ed166b993719a476abebd4f9c0bda4c2e",
   "fontes_tipograficas": {
     "BarlowCondensed-SemiBold.ttf": "7b619d14bc2327509a9ef32b0890f709626f7ecc9ff61191c2a4314c5499d2d9",
     "Spectral-Regular.ttf": "c89021dc20720c8d0dcf40b0b2f6e00c13665fa8041717f581396f51b8c78f5d",
@@ -11,8 +11,8 @@
   "fontes": {
     "ab": {
       "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
-      "sha256_lido": "0aa5778f2b21f1f2f643cc486cbb4b1ea8c659bd826943ed89c8d2e43bbffdac",
-      "sha256_no_fim": "0aa5778f2b21f1f2f643cc486cbb4b1ea8c659bd826943ed89c8d2e43bbffdac"
+      "sha256_lido": "70ee9abe5c059ef1dc81b91514e7dcc7718e5b51418936c6b73a054248e3e7f2",
+      "sha256_no_fim": "70ee9abe5c059ef1dc81b91514e7dcc7718e5b51418936c6b73a054248e3e7f2"
     },
     "geral": {
       "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
@@ -21,13 +21,13 @@
     },
     "dano": {
       "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
-      "sha256_lido": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192",
-      "sha256_no_fim": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192"
+      "sha256_lido": "398b836cf1cae226db0871f25bae0ac98bd291b9c0f73627c758bb39e744fe43",
+      "sha256_no_fim": "398b836cf1cae226db0871f25bae0ac98bd291b9c0f73627c758bb39e744fe43"
     },
     "origens": {
       "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
-      "sha256_lido": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
-      "sha256_no_fim": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7"
+      "sha256_lido": "a4d5b8ecc1890827850102e73018ad2d9f1440e6ca06e80dfb6ba87117985e18",
+      "sha256_no_fim": "a4d5b8ecc1890827850102e73018ad2d9f1440e6ca06e80dfb6ba87117985e18"
     },
     "pericias": {
       "arquivo": "pericias-e-oficios/lote-01/PERICIAS-E-OFICIOS.md",
@@ -36,18 +36,18 @@
     },
     "equip": {
       "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
-      "sha256_lido": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
-      "sha256_no_fim": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b"
+      "sha256_lido": "ce763d7d27ef709b3a89c956789f0c1908da82d00ce396645ca9a644d8b3cc98",
+      "sha256_no_fim": "ce763d7d27ef709b3a89c956789f0c1908da82d00ce396645ca9a644d8b3cc98"
     },
     "progressao": {
       "arquivo": "progressao/lote-01/PROGRESSAO.md",
-      "sha256_lido": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
-      "sha256_no_fim": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a"
+      "sha256_lido": "cd913e9e54fcd1de862f2fc3a8bf55b301f51a8da06d9335735504f4b999c758",
+      "sha256_no_fim": "cd913e9e54fcd1de862f2fc3a8bf55b301f51a8da06d9335735504f4b999c758"
     },
     "fundamento": {
       "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
-      "sha256_lido": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7",
-      "sha256_no_fim": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7"
+      "sha256_lido": "b01cc5cfae9cc788d620421fa349ff140182a8a1f1aed16a3e8490aa1e1df32d",
+      "sha256_no_fim": "b01cc5cfae9cc788d620421fa349ff140182a8a1f1aed16a3e8490aa1e1df32d"
     },
     "catalogo": {
       "arquivo": "catalogo/lote-01/CATALOGO.md",
@@ -56,8 +56,8 @@
     },
     "aptidoes": {
       "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
-      "sha256_lido": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
-      "sha256_no_fim": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0"
+      "sha256_lido": "0b0b00346497972efc2c0a65002891eac23e489decda073bbe3a9c958927dedd",
+      "sha256_no_fim": "0b0b00346497972efc2c0a65002891eac23e489decda073bbe3a9c958927dedd"
     },
     "rotas": {
       "arquivo": "rotas/lote-01/ROTAS.md",
@@ -66,13 +66,13 @@
     },
     "poderes": {
       "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
-      "sha256_lido": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
-      "sha256_no_fim": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4"
+      "sha256_lido": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd",
+      "sha256_no_fim": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd"
     },
     "ritual": {
       "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
-      "sha256_lido": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707",
-      "sha256_no_fim": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707"
+      "sha256_lido": "0a334192d99b5e73dba144b20095a5677eb1674bc0f64d0e50a7c08a60a5f344",
+      "sha256_no_fim": "0a334192d99b5e73dba144b20095a5677eb1674bc0f64d0e50a7c08a60a5f344"
     },
     "campo": {
       "arquivo": "invocacoes/lote-01/INVOCACOES-EM-CAMPO.md",
@@ -91,8 +91,8 @@
     },
     "consulta": {
       "arquivo": "consulta/lote-01/CONSULTA.md",
-      "sha256_lido": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
-      "sha256_no_fim": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115"
+      "sha256_lido": "57d6c8e60554ebc18818569baf4325b612235dd96044b880a4a063ae77409c0d",
+      "sha256_no_fim": "57d6c8e60554ebc18818569baf4325b612235dd96044b880a4a063ae77409c0d"
     },
     "bastiao": {
       "arquivo": "caminhos/bastiao/lote-01/BASTIAO.md",
@@ -157,7 +157,7 @@
     }
   ],
   "destinos_pendentes": 0,
-  "sha256_manuscrito": "cb90d827852fe9dd3babb7fcc43aa285deef7a22fccdda243511cf72f6d7a47f",
-  "sha256_pdf": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
+  "sha256_manuscrito": "277d31be960e25ea4e9ed89cf997f00d93817e798d0dc31d16a1cc17f20a0b50",
+  "sha256_pdf": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
   "V14": "não executado: requer inspeção visual de todas as páginas finais"
 }

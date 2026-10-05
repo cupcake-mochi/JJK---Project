@@ -1,13 +1,13 @@
-PROJETO - M
+CICLO MALDITO
 Livro de regras
 RPG de mesa no universo de Jujutsu Kaisen
 Candidata editorial reunida
 Texto em revisão • publicação v0.331 preservada
 
-PROJETO - M SUMÁRIO
+CICLO MALDITO SUMÁRIO
 Sumário
 Jogo e mundo
-1. Projeto - M 3
+1. Ciclo Maldito 3
 2. Regras gerais 6
 3. Dano e recuperação 40
 Personagens
@@ -40,15 +40,15 @@ Mestrar e consultar
 21. Índice 372
 CANDIDATA EDITORIAL • BASE v0.331 2
 
-PROJETO - M PROJETO - M
+CICLO MALDITO CICLO MALDITO
 PARTE 1 • JOGO E MUNDO
-1. Projeto - M
+1. Ciclo Maldito
 Um RPG de mesa no universo de Jujutsu Kaisen.
 Crie um personagem, desenvolva suas capacidades e participe de missões com outros jogadores. Seu
 grupo pode investigar desaparecimentos, proteger alguém perseguido por uma maldição ou recuperar um
 objeto perigoso antes que caia nas mãos erradas. Ao longo dessas aventuras, as escolhas do personagem,
 seus companheiros e seus inimigos passam a fazer parte de uma história própria.
-Projeto - M oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras
+Ciclo Maldito oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras
 formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que sabe. Uma
 mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar, conforme os
 efeitos que você construir para eles.
@@ -71,7 +71,7 @@ permanecer registrados. A organização informa quais personagens podem particip
 como registrar os resultados.
 Guilda é uma forma de organizar o jogo. A instituição a que os personagens pertencem dentro da história
 pode ser uma escola, um grupo independente ou outra organização definida pela campanha.
-Projeto - M é um material de fã baseado na obra de Gege Akutami. Suas regras, personagens de exemplo e
+Ciclo Maldito é um material de fã baseado na obra de Gege Akutami. Suas regras, personagens de exemplo e
 missões são criações para este jogo. As escolhas de adaptação estão reunidas em Referências e adaptação.
 Primeira sessão
 Para jogar, reúna o grupo, uma ficha por personagem e acesso a este livro. Use lápis e papel ou
@@ -81,7 +81,7 @@ O jogo usa dados de 4, 6, 8, 10, 12 e 20 faces, abreviados como d4, d6, d8, d10,
 dados também serve.
 CANDIDATA EDITORIAL • BASE v0.331 3
 
-PROJETO - M PROJETO - M
+CICLO MALDITO CICLO MALDITO
 3d8 significa rolar três dados de oito faces e somar os resultados. 1d6 + 2 significa rolar um dado de seis
 faces e acrescentar 2. A regra que pede a rolagem informa quais modificadores entram. Em Testes, você
 encontrará o procedimento completo para resolver uma tentativa.
@@ -120,10 +120,10 @@ alterar uma propriedade daquilo que alcança. Entender esse funcionamento ajuda 
 a reconhecer seus limites.
 No jogo, você descreve sua técnica e monta suas aplicações usando o Fundamento. Chamamos cada
 aplicação preparada de feitiço. Pontos de energia, Classes, espaços conhecidos e demais valores são
-regras do Projeto - M para organizar seu uso na mesa.
+regras do Ciclo Maldito para organizar seu uso na mesa.
 CANDIDATA EDITORIAL • BASE v0.331 4
 
-PROJETO - M PROJETO - M
+CICLO MALDITO CICLO MALDITO
 Ver e perceber
 Pessoas comuns normalmente não veem maldições. A obra apresenta circunstâncias e personagens que
 fogem desse padrão. Para jogar, confira as capacidades da sua ficha e os procedimentos de Percepção e
@@ -146,10 +146,10 @@ Pessoas e poderes
 O universo inclui estudantes que aprendem a lidar com seu poder, profissionais experientes, pessoas
 ligadas a objetos amaldiçoados e corpos criados por jujutsu. Capacidades físicas, ferramentas e
 conhecimentos também podem ter grande importância numa luta.
-As Origens do Projeto - M organizam essas possibilidades para a criação de personagens. São categorias
-do sistema, com escolhas próprias. O grupo define quais estão disponíveis e como elas participam da
-campanha. Sua ficha informa as capacidades que você possui, mesmo quando sua história menciona mais
-de uma dessas possibilidades.
+As Origens do Ciclo Maldito organizam essas possibilidades para a criação de personagens. São
+categorias do sistema, com escolhas próprias. O grupo define quais estão disponíveis e como elas
+participam da campanha. Sua ficha informa as capacidades que você possui, mesmo quando sua história
+menciona mais de uma dessas possibilidades.
 Campanha própria
 Vocês podem jogar numa época e num lugar escolhidos pelo grupo, com missões e personagens próprios.
 Definam antes de começar quanto a história depende dos acontecimentos do mangá e do anime. Isso
@@ -160,7 +160,7 @@ uma funcionária que esteve lá. Descobrir o acesso, encontrar os desaparecidos 
 que podem exigir abordagens diferentes.
 CANDIDATA EDITORIAL • BASE v0.331 5
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 2. Regras gerais
 Atributos
 Sua ficha reúne as capacidades do personagem e os recursos que ele usa durante uma missão. Para
@@ -198,7 +198,7 @@ maestria novamente.
 Confira a distribuição inicial e os treinos em Criação de personagem.
 CANDIDATA EDITORIAL • BASE v0.331 6
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Testes
 Descreva o que seu personagem tenta fazer. O mestre pede um teste quando há incerteza e a falha pode
 mudar a situação. Se não houver obstáculo ou consequência relevante, a ação pode ser resolvida pela
@@ -235,7 +235,7 @@ consequência já definida: falhar em Esconder, por exemplo, permite que o obser
 conforme aquela regra.
 CANDIDATA EDITORIAL • BASE v0.331 7
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Treino e modificadores
 Perícias representam capacidades como investigar, perceber e mover-se em silêncio. Cada uma usa um
 atributo fixo. Ofícios representam práticas aprendidas; o atributo depende da tarefa, como usar Destreza
@@ -274,7 +274,7 @@ regra do efeito informa qual TR fazer, sua CD e o que acontece em cada resultado
 TR treinado: d20 + atributo do TR + maestria.
 CANDIDATA EDITORIAL • BASE v0.331 8
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Sem treino, some apenas o atributo e os demais modificadores aplicáveis. Igualar ou superar a CD é
 sucesso.
 TR Atributo Aplicações comuns
@@ -314,7 +314,7 @@ Role d20 + Destreza, com os modificadores aplicáveis. Quem obtiver o maior tota
 os modificadores que estiverem ativos nessa rolagem.
 CANDIDATA EDITORIAL • BASE v0.331 9
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Em empate, age primeiro quem tiver maior Destreza. Se ela também empatar entre jogador e inimigo, o
 jogador age primeiro. Entre personagens dos jogadores ainda empatados, os envolvidos escolhem a
 ordem; entre inimigos, o mestre escolhe. Registre a ordem uma vez para o combate. Uma habilidade que
@@ -354,7 +354,7 @@ Correr Ganhar movimento igual ao deslocamento até o fim do turno.
 Desengajar Evitar ataques de oportunidade provocados por seus movimentos naquele turno.
 CANDIDATA EDITORIAL • BASE v0.331 10
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Ação O que permite
 Esquivar Impor desvantagem aos ataques contra você e obter vantagem nos seus TRs
 Físicos até o começo do seu próximo turno.
@@ -394,7 +394,7 @@ Fora de combate, a contribuição acompanha uma tentativa concreta. Não guarde 
 sala ou uma tarefa futura depois de abandonar a ajuda.
 CANDIDATA EDITORIAL • BASE v0.331 11
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Ajudar num ataque
 Escolha um inimigo ao seu alcance corpo a corpo e um aliado. Você distrai ou pressiona esse inimigo,
 concedendo vantagem ao próximo ataque do aliado contra ele dentro do prazo. Precisa poder agir e
@@ -436,7 +436,7 @@ personagem jogador a tomar uma decisão. Uma conversa extensa pode exigir tempo 
 Repetir o mesmo pedido sem mudar a situação não cria novas tentativas.
 CANDIDATA EDITORIAL • BASE v0.331 12
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Preparar
 Preparar custa uma Ação Padrão agora e sua Reação ao executar a resposta. Use para esperar alguém
 cruzar uma porta ou aguardar um sinal para correr.
@@ -475,7 +475,7 @@ Uma Reação responde ao gatilho de uma regra. Depois de gastá-la, você a recu
 próximo turno. Ter a Reação disponível não concede uma interrupção ou ataque livre.
 CANDIDATA EDITORIAL • BASE v0.331 13
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Ataque de oportunidade
 Quando uma criatura que você enxerga ou acompanha por um sentido equivalente à visão sai do seu
 alcance corpo a corpo, pode gastar sua Reação para realizar um ataque corpo a corpo com arma ou
@@ -516,7 +516,7 @@ sendo uma aplicação; dois golpes exigem dois testes. Se as defesas reduzirem o
 Dano absorvido pela vida temporária ainda conta, pois atingiu sua proteção.
 CANDIDATA EDITORIAL • BASE v0.331 14
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Faça o teste depois de resolver o dano. Se ele já encerrou a concentração por outra regra, não há efeito
 para manter. Inconsciente encerra a concentração. Guarda Aberta, por si só, não a encerra. Outras
 condições só a interrompem quando seu texto disser isso.
@@ -558,7 +558,7 @@ desarmado
 Conjuração d20 + atributo da técnica + maestria.
 CANDIDATA EDITORIAL • BASE v0.331 15
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 O atributo da técnica é escolhido na criação dela. A maestria já faz parte do bônus de ataque; se a ficha
 disser ataque +6, some 6 ao d20 uma única vez. Treinos e requisitos continuam determinando quais
 armas você pode usar.
@@ -597,7 +597,7 @@ Feitiços usam o alcance e os requisitos de sua própria montagem. Ter uma rolag
 lhes concede as duas faixas de uma arma.
 CANDIDATA EDITORIAL • BASE v0.331 16
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Visão e cobertura
 Saber onde alguém está permite tentar ataques que não exijam visão, mas não elimina a desvantagem por
 não enxergá-lo. Se você ataca um espaço onde a criatura não está, erra. Uma exigência de enxergar
@@ -637,7 +637,7 @@ acrescentar 3d4, o total será 2d8 + 4 + 3d4. Uma permissão expressa pode alter
 dobram.
 CANDIDATA EDITORIAL • BASE v0.331 17
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Um feitiço que acompanha outro ataque tem sua própria regra de crítico. Uma margem ampliada não
 transforma um 19 em 20 natural: o ataque ainda precisa acertar e continua sujeito a Aparar, salvo regra
 específica. Feitiços resolvidos por TR ou de modo Automático não causam crítico. Resistências, reduções
@@ -674,7 +674,7 @@ escolher Bloquear, rola 2d10 + 9. Contra um inimigo do mesmo lado do obstáculo,
 bônus.
 CANDIDATA EDITORIAL • BASE v0.331 18
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Redução de Dano
 Depois de resolver o acerto, aplique as reduções de dano que forem permitidas. Elas não aumentam a
 Defesa nem transformam um acerto em erro. Uma habilidade que reduza o dano pode exigir Reação ou
@@ -713,7 +713,7 @@ entre dois comuns, use o menor total. Só há Aparar se ambos os conjuntos mostr
 descartados não produzem efeito.
 CANDIDATA EDITORIAL • BASE v0.331 19
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Aparar e Brecha
 Os resultados duplos usam os números mostrados nos dois d10 de Bloquear. Bônus de Defesa, cobertura e
 Talha não transformam outros resultados em um duplo.
@@ -754,7 +754,7 @@ Sua Ação de Movimento permite percorrer uma distância igual ao deslocamento d
 é 9 m. Você pode andar, atacar e continuar andando, descontando cada trecho do movimento disponível.
 CANDIDATA EDITORIAL • BASE v0.331 20
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Correr custa uma Ação Padrão e acrescenta movimento igual ao seu deslocamento até o fim do turno.
 Desengajar também custa uma Ação Padrão e impede ataques de oportunidade provocados por seus
 movimentos naquele turno. Habilidades podem mudar esses custos.
@@ -794,7 +794,7 @@ Minúsculo Até quatro criaturas podem compartilhar um quadrado de 1,5 m.
 Pequeno ou Médio Um quadrado de 1,5 m.
 CANDIDATA EDITORIAL • BASE v0.331 21
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Tamanho Espaço no mapa
 Grande 3 m por 3 m.
 Imenso 4,5 m por 4,5 m.
@@ -833,7 +833,7 @@ Exemplo. Um alvo está 6 m à frente e 4,5 m acima de Rina. São quatro quadrado
 outro: a distância de jogo é 6 m. Se uma parede impedir a trajetória, essa medida não permite atravessá-la.
 CANDIDATA EDITORIAL • BASE v0.331 22
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Mesas sem mapa
 O mestre estabelece as distâncias e as posições relevantes antes da tentativa. Use a mesma escala para
 decidir se um alcance ou percurso basta. Não troque de método entre o ataque de uma criatura e a defesa
@@ -872,7 +872,7 @@ ultrapassar inteiro e aterrissar em piso regular. Obstáculos que alcancem o per
 valendo.
 CANDIDATA EDITORIAL • BASE v0.331 23
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Esforço e obstáculos
 Você pode tentar alcançar mais 1,5 m, na horizontal ou na subida, com Atletismo CD 14. Essa extensão
 vale uma vez por salto, em apenas um dos eixos. Distâncias maiores dependem de uma habilidade que as
@@ -911,7 +911,7 @@ para cima. Na falha, recebe o dano inteiro. Depois, precisa nadar; o teste não 
 do líquido ou necessidade de respirar.
 CANDIDATA EDITORIAL • BASE v0.331 24
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Empurrões e movimento imposto
 Um empurrão ou arremesso usa a distância e a direção da habilidade. Não consome movimento da vítima
 nem provoca ataques de oportunidade. Uma parede interrompe o percurso sem acrescentar dano, salvo
@@ -955,7 +955,7 @@ Outros efeitos que reduzam seu deslocamento continuam valendo. Com deslocamento 
 rastejar para sair do lugar.
 CANDIDATA EDITORIAL • BASE v0.331 25
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Exemplo: Rina tem 9 m disponíveis e está Derrubada. Pode rastejar 4,5 m em chão regular. Se todo o
 percurso for terreno difícil, consegue percorrer 3 m. Não precisa de um teste por quadrado.
 Levantar
@@ -996,7 +996,7 @@ há movimento restante nessa modalidade. Custos adicionais do terreno entram nes
 consumiram.
 CANDIDATA EDITORIAL • BASE v0.331 26
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Exemplo: Mei tem deslocamento terrestre 9 m e voo 12 m concedido por um efeito. Anda 6 m e depois passa
 a voar: restam 6 m de voo. Se os percorrer, terá gasto 12 m no turno e não poderá voltar a caminhar com os 9
 m terrestres. A troca não entrega 21 m.
@@ -1038,7 +1038,7 @@ Se uma regra indicar apenas “item leve”, use 0,1 Volume; a tabela do item te
 dispensar objetos de carga desprezível.
 CANDIDATA EDITORIAL • BASE v0.331 27
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Exemplo: com Força 0 e 4,5 Volume ocupado, Rina pode levar mais cinco itens de 0,1, chegando a 5. Um
 sexto elevaria a carga a 5,1, acima do limite.
 Objetos sem valor e criaturas
@@ -1079,7 +1079,7 @@ simultâneo exige Preparar ou outra permissão de agir naquele momento. Ajudar n
 metros, mãos ou capacidade ilimitados.
 CANDIDATA EDITORIAL • BASE v0.331 28
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Exemplo. Rina e Kaito têm limite 5 e levam 1 Volume cada. Um aliado com corpo de 6 Volume e
 equipamento de 1 pode ser carregado se dividirem os 7: 3,5 para cada um, total individual 4,5. Se um deles
 soltar, o outro não consegue continuar carregando sozinho.
@@ -1123,7 +1123,7 @@ Isso é verificado para cada observador. Um vigia pode descobri-la enquanto outr
 onde ela está.
 CANDIDATA EDITORIAL • BASE v0.331 29
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Cobertura, escuridão e invisibilidade podem impedir que você veja alguém, mas não apagam
 automaticamente barulho, pegadas ou a posição que acabou de observar. Perder alguém de vista não
 exige esquecer seu último espaço conhecido; acompanhar um deslocamento escondido pode exigir uma
@@ -1165,7 +1165,7 @@ sua tentativa. Inclua Essência, treino, especialização e modificadores fixos 
 de um efeito só entram se ele permitir afetar uma CD passiva. Empatar com a CD basta.
 CANDIDATA EDITORIAL • BASE v0.331 30
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Se o observador tiver vantagem ou desvantagem na percepção relevante, ajuste a CD em +5 ou -5,
 respectivamente. Use o sentido disponível: penumbra não prejudica alguém que pode ouvir claramente
 seus passos.
@@ -1207,7 +1207,7 @@ naquele momento, sem acompanhar seus movimentos futuros. A parede continua bloqu
 precisem de passagem livre.
 CANDIDATA EDITORIAL • BASE v0.331 31
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Qual procedimento usar
 Sua intenção Onde resolver
 Encontrar uma presença ou pista Vasculhar, nesta seção.
@@ -1252,7 +1252,7 @@ segue as regras de visão acima. Estar invisível não garante estar oculto, e e
 invisível.
 CANDIDATA EDITORIAL • BASE v0.331 32
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Conjuração: revela sua posição a quem percebe os gestos, a voz ou outros sinais da execução. Uma
 permissão que impeça a revelação pelo uso conserva essa proteção. Expor o corpo, uma busca
 bem-sucedida ou outra pista independente ainda pode localizá-lo. Perceber o efeito de uma conjuração
@@ -1294,7 +1294,7 @@ no TR e fica agarrada. Rina não causa dano com essa tentativa, mas pode usar ou
 golpeá-la.
 CANDIDATA EDITORIAL • BASE v0.331 33
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Escapar de uma contenção
 Agarrado deixa seu deslocamento em zero. Você ainda pode atacar, conjurar e Bloquear, respeitando as
 exigências de cada ação. Prender uma arma ou impedir um ataque exige um efeito que diga isso.
@@ -1335,7 +1335,7 @@ História Um emblema, objeto ou referência que você possa reconhecer pelo conh
 do passado.
 CANDIDATA EDITORIAL • BASE v0.331 34
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Estudar não amplia os seus sentidos. Conhecer somente o espaço de uma criatura escondida não basta:
 você precisa conseguir observá-la. Uma superfície opaca continua impedindo examinar o que há atrás
 dela.
@@ -1378,7 +1378,7 @@ apaga a energia dos itens que leva. Um equipamento ou capacidade que suprima ess
 declarar o efeito.
 CANDIDATA EDITORIAL • BASE v0.331 35
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Limites da leitura
 Sentir Energia não fornece visão, identidade ou conhecimento completo de uma técnica. A informação
 depende do procedimento usado e daquilo que chega ao personagem. Uma leitura pode orientar a
@@ -1424,7 +1424,7 @@ normalmente ou de uma habilidade de acompanhamento. Isso não concede uma nova r
 Esconder nem apaga o que acabou de observar.
 CANDIDATA EDITORIAL • BASE v0.331 36
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Sinais de energia no ambiente
 Uma presença pode ser sentida antes de ser vista: uma pressão que toma o prédio, um pulso vindo do
 subsolo, resíduos na porta. O mestre descreve o sinal que chegou aos personagens. Ele pode informar que
@@ -1467,7 +1467,7 @@ Sentir Energia pode revelar o que o fluxo atual mostra: concentração num membr
 um efeito, oscilação ou desgaste perceptível. Não determina a próxima decisão do adversário. “Está
 CANDIDATA EDITORIAL • BASE v0.331 37
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 reunindo energia no braço” não significa “vai atacar Rina na próxima ação”. A resposta também não
 concede Reação, interrupção, bônus ou dano adicionais.
 A dificuldade segue Estudar (p. 34). Sentir Energia não fornece automaticamente grau ou reserva exata de
@@ -1488,7 +1488,7 @@ pistas de uma cena pode abranger um percurso maior que a busca local de 18 m, ma
 espaço sem evidência que o determine.
 CANDIDATA EDITORIAL • BASE v0.331 38
 
-PROJETO - M REGRAS GERAIS
+CICLO MALDITO REGRAS GERAIS
 Busca numa sala escura
 Rina usa sua Ação Padrão para examinar a sala escura. Seu Sentir Energia é +6 e ela tira 10 no d20: total
 16.
@@ -1517,7 +1517,7 @@ Uma proteção contra técnicas de localização não impede automaticamente uma
 perícia. Confira o alcance da proteção antes de resolver o teste.
 CANDIDATA EDITORIAL • BASE v0.331 39
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 3. Dano e recuperação
 Dano
 Quando um ataque ou efeito causa dano, calcule quanto chega ao alvo e desconte esse valor dos pontos de
@@ -1557,7 +1557,7 @@ entrar; um efeito que exija causar dano precisa de dano maior que zero. Resolva 
 separadamente. Ao chegar a zero de vida, siga Vida a zero.
 CANDIDATA EDITORIAL • BASE v0.331 40
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 Tipos de dano
 Cada fonte informa o tipo do dano que causa. Esse nome determina quais resistências, imunidades,
 vulnerabilidades e habilidades se aplicam. O sistema usa quinze tipos, reunidos em três grupos.
@@ -1598,7 +1598,7 @@ Se um golpe causar 10 de Cortante e 8 de Fogo, resistência a Fogo reduz apenas 
 os mesmos 10 duas vezes.
 CANDIDATA EDITORIAL • BASE v0.331 41
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 Redução de Dano
 Redução de Dano desconta uma quantidade do dano recebido. Seu texto informa a quais golpes se aplica,
 seu custo e seu momento de uso. Resolva o acerto ou o TR antes de aplicar uma redução que atue sobre o
@@ -1635,7 +1635,7 @@ Exemplo: um golpe de 8 de Alma atinge Rina. Uma redução aplicável diminui o g
 vida temporária. Perde esses 3, mais 2 de vida e 5 de Integridade.
 CANDIDATA EDITORIAL • BASE v0.331 42
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 Estágios de Integridade
 O estágio depende de quanto falta para sua Integridade máxima. Use o estágio mais alto cujo limite tenha
 sido atingido. Os efeitos dos anteriores continuam valendo.
@@ -1678,7 +1678,7 @@ Uma manobra pode ter outra forma de término. O agarrão comum dura enquanto a c
 mantida; ser derrubado não faz você se levantar sozinho quando a rodada muda.
 CANDIDATA EDITORIAL • BASE v0.331 43
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 Mais de uma condição
 Condições diferentes podem coexistir: aplique os efeitos de cada uma. Vantagens e desvantagens
 continuam seguindo a regra de cancelamento, sem rolar dados extras por cada fonte.
@@ -1719,7 +1719,7 @@ Você conserva suas ações e sua Defesa estática. O crítico segue a regra de 
 expressas da fonte de dano. A condição não faz o ataque acertar automaticamente.
 CANDIDATA EDITORIAL • BASE v0.331 44
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 Derrubado
 Você está no chão. Só pode se deslocar rastejando. Cada trecho de 1,5 m custa 1,5 m adicional, conforme
 Movimento. Não reduza também sua reserva de deslocamento por essa condição. Seus ataques têm
@@ -1760,7 +1760,7 @@ Exemplo: Kaori precisa dizer o nome do feitiço como Selo e está Calada. Não c
 um Selo que exige tocar a própria pulseira e nenhum requisito de voz: Calado não impede essa conjuração.
 CANDIDATA EDITORIAL • BASE v0.331 45
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 Calado não faz você perder a Ação Padrão, o movimento ou a Reação. Uma habilidade que não dependa
 da execução impedida continua disponível. Um inimigo sem habilidades que usem voz pode sofrer a
 condição sem perder seus ataques por causa dela.
@@ -1803,7 +1803,7 @@ aproximar dela voluntariamente, mesmo quando ela estiver fora de vista. Um efeit
 não é uma aproximação voluntária.
 CANDIDATA EDITORIAL • BASE v0.331 46
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 Envenenado
 Seus ataques e testes de perícia têm desvantagem. A condição não causa dano de Veneno por conta
 própria nem impõe desvantagem a todos os TRs.
@@ -1841,7 +1841,7 @@ Para socorrer quem está a zero de vida, siga Socorro. Um efeito que ignore o li
 recuperação continua sujeito a seus alvos, sua frequência e aos impedimentos de cura.
 CANDIDATA EDITORIAL • BASE v0.331 47
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 Vida e energia temporárias
 Algumas capacidades concedem uma reserva temporária. Anote-a separadamente da reserva comum. Ela
 é consumida primeiro e normalmente desaparece no fim da cena.
@@ -1880,7 +1880,7 @@ Anote a vida máxima que tinha ao cair, sem vida temporária. Esse será o máxi
 queda terminar. Registre também sua janela de socorro e, se receber cura, o tratamento acumulado.
 CANDIDATA EDITORIAL • BASE v0.331 48
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 Janela de socorro
 A janela começa com 3 rodadas, menos 1 por Sequela que você já tenha. As duas escolhas usam essa
 mesma janela. Se o resultado for zero, você fica Derrotado imediatamente, conforme Derrota e morte.
@@ -1921,7 +1921,7 @@ A perda permanece até o descanso longo. Não é dano e não pode ser paga com v
 por resistência ou anulada por uma redução de dano.
 CANDIDATA EDITORIAL • BASE v0.331 49
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 A vida máxima precisa continuar em pelo menos 1. Se não puder pagar o próximo custo, você passa a
 Aguentar, com a janela que ainda tiver. Pode fazer essa mudança antes, por escolha própria, sem ação. A
 perda já paga permanece. A mudança não reinicia a janela nem o tratamento.
@@ -1963,7 +1963,7 @@ dano à vida. Não recupera vida, não acorda e conserva o tratamento acumulado 
 falha apenas gasta a ação. Outra tentativa é possível enquanto houver tempo.
 CANDIDATA EDITORIAL • BASE v0.331 50
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 Dano positivo à vida encerra a estabilidade e consome uma rodada da janela. Retome a contagem naquele
 ponto da iniciativa. A estabilização seguinte pode deter o tempo de novo, sem repor a rodada perdida.
 Depois de sair do perigo, uma pessoa estável que conclua um descanso curto recupera 1 de vida e recebe a
@@ -2003,7 +2003,7 @@ precisa estar definida antes da missão. Use o mesmo critério para todos os per
 Não transforme uma derrota em morte retroativamente por preferência de quem está mestrando.
 CANDIDATA EDITORIAL • BASE v0.331 51
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 A morte também pode decorrer de uma consequência física que impeça qualquer socorro, estabelecida na
 cena. Não é uma redução comum de vida a zero. O mestre deve apresentar o risco antes de uma decisão
 que o personagem possa tomar.
@@ -2041,13 +2041,13 @@ Derrota e morte. Uma capacidade que faça alguém dormir indica como acordar.
 Estar Inconsciente com vida acima de zero não inicia sozinho uma janela de Morrendo. Receber cura não
 encerra toda causa de inconsciência. Use a saída da regra que a provocou.
 Descansos
-O Projeto M usa dois tipos de descanso, definidos pela situação da missão. Não é necessário contar uma
-quantidade fixa de horas.
+O Ciclo Maldito usa dois tipos de descanso, definidos pela situação da missão. Não é necessário contar
+uma quantidade fixa de horas.
 Descanso curto: uma pausa segura entre confrontos. Você parou e não está sendo perseguido naquele
 momento. Descanso longo: a missão terminou e você pôde parar de trabalhar.
 CANDIDATA EDITORIAL • BASE v0.331 52
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 O mestre confirma quando o descanso acontece e se o lugar é propício. Uma pausa contínua conta como
 um descanso; anunciar a mesma pausa várias vezes não repete a recuperação.
 Ambiente propício
@@ -2087,7 +2087,7 @@ Registre o total ao terminar cada confronto. A primeira, a segunda e a terceira 
 degraus por essa regra.
 CANDIDATA EDITORIAL • BASE v0.331 53
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 O mestre identifica o que contou como luta. Um combate com oposição, uma fuga que exigiu recursos ou
 uma contenção sob ataque podem contar. Um treino ou uma ameaça encerrada sem esforço relevante
 normalmente não contam. A decisão não depende apenas de ter rolado iniciativa.
@@ -2126,7 +2126,7 @@ Por cena Quando aquela cena termina.
 Por descanso curto Ao concluir esse descanso.
 CANDIDATA EDITORIAL • BASE v0.331 54
 
-PROJETO - M DANO E RECUPERAÇÃO
+CICLO MALDITO DANO E RECUPERAÇÃO
 Limite Quando o uso volta
 Por dia Depois de dormir para começar um novo dia.
 Por descanso longo Ao concluir esse descanso, no fim da missão.
@@ -2156,7 +2156,7 @@ Consequências permanentes continuam registradas. A recuperação das reservas n
 restaura automaticamente uma entidade destruída.
 CANDIDATA EDITORIAL • BASE v0.331 55
 
-PROJETO - M CRIAR UM PERSONAGEM
+CICLO MALDITO CRIAR UM PERSONAGEM
 PARTE 2 • PERSONAGENS
 4. Criar um personagem
 Comece com uma ideia que você gostaria de interpretar: alguém que herdou uma obrigação familiar,
@@ -2177,7 +2177,7 @@ atributo em 1. Nenhum pode começar abaixo de 0 ou acima de 3. Um valor 0 é per
 Os atributos representam capacidades distintas. Força participa do esforço físico. Destreza, da precisão e
 dos movimentos. Constituição, da resistência corporal. Inteligência, do raciocínio e do conhecimento.
 Essência, da presença e da relação com energia amaldiçoada. As regras de cada teste indicam qual usar.
-Em Projeto - M, o número anotado já é o valor somado quando uma regra pede o atributo. Força 3
+Em Ciclo Maldito, o número anotado já é o valor somado quando uma regra pede o atributo. Força 3
 fornece +3, sem uma conversão adicional.
 Exemplo: Kaori recebe Força 3, Destreza 2, Constituição 2, Inteligência 1 e Essência 1. A soma é 9. Ela será
 forte e resistente desde o começo, conservando alguma capacidade nos demais atributos.
@@ -2195,7 +2195,7 @@ usar a troca acima. Repetir um treino não soma Maestria outra vez. Confira a re
 em Origens.
 CANDIDATA EDITORIAL • BASE v0.331 56
 
-PROJETO - M CRIAR UM PERSONAGEM
+CICLO MALDITO CRIAR UM PERSONAGEM
 Testes de Resistência
 Você recebe um TR treinado pela Origem e outro pelo Caminho. Escolha dois diferentes entre Físico,
 Vigor, Intelecto e Espírito.
@@ -2236,7 +2236,7 @@ punhos, apoiar companheiros ou comandar entidades, conforme as escolhas disponí
 a rota de capacidades permitida pela Origem antes de escrever uma técnica.
 CANDIDATA EDITORIAL • BASE v0.331 57
 
-PROJETO - M CRIAR UM PERSONAGEM
+CICLO MALDITO CRIAR UM PERSONAGEM
 Na criação de nível 1, registre as características iniciais do Caminho. As habilidades e a primeira Trilha
 entregues no nível 2 serão recebidas quando você chegar a ele. Não antecipe essas entregas por já ter
 escolhido o que pretende seguir.
@@ -2278,7 +2278,7 @@ inclusive o uniforme vestido. Seu limite de carga normal é 5 + Força. Possuir 
 uma peça cujos requisitos você não cumpre.
 CANDIDATA EDITORIAL • BASE v0.331 58
 
-PROJETO - M CRIAR UM PERSONAGEM
+CICLO MALDITO CRIAR UM PERSONAGEM
 Vida e energia
 Use a vida inicial e o ganho por nível do seu Caminho. No nível 2, aplique o valor do primeiro nível e o
 ganho de mais um nível, incluindo Constituição em ambos. Para PE, use o máximo indicado no Caminho
@@ -2318,7 +2318,7 @@ Ataque de sua técnica d20 + 4.
 CD de sua técnica 12.
 CANDIDATA EDITORIAL • BASE v0.331 59
 
-PROJETO - M CRIAR UM PERSONAGEM
+CICLO MALDITO CRIAR UM PERSONAGEM
 Técnica de Kaori
 Sua técnica aumenta o peso daquilo que prende entre as mãos. Ela usa Força como atributo e causa
 Concussão. Suas Famílias Livres são Controle e Castigo. Amparo, Área e Auxiliares estão Fechadas. Seu
@@ -2360,7 +2360,7 @@ Ataque de garras d20 + 3, alcance 1,5 m.
 Dano das garras 1d6 + 2 de Cortante.
 CANDIDATA EDITORIAL • BASE v0.331 60
 
-PROJETO - M CRIAR UM PERSONAGEM
+CICLO MALDITO CRIAR UM PERSONAGEM
 O quadro fornece os valores usados nesta resolução guiada. Para conduzir um encontro com escolhas
 abertas, o mestre precisa de uma ficha completa, incluindo sentidos, movimento e resistências da
 criatura.
@@ -2402,7 +2402,7 @@ ficha para outra ferramenta.
 dinheiro restante e locais de armazenamento.
 CANDIDATA EDITORIAL • BASE v0.331 61
 
-PROJETO - M CRIAR UM PERSONAGEM
+CICLO MALDITO CRIAR UM PERSONAGEM
 Capacidades na ficha
 Uma capacidade que você pretende usar precisa informar quando pode ser usada, o que gasta e o que
 acontece. Anote também alcance, alvos, duração e término quando forem necessários. Use o nome da
@@ -2418,7 +2418,7 @@ As escolhas de crescimento estão em Progressão. Quando receber uma habilidade,
 confira as mudanças na ficha antes de usá-la na próxima missão.
 CANDIDATA EDITORIAL • BASE v0.331 62
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 5. Origens e Legados
 Origens
 Sua Origem apresenta a vida que você levava antes da primeira missão e a relação do seu personagem
@@ -2458,7 +2458,7 @@ Dois Legados Escolha na lista da Origem. Pelo menos um deve ser narrativo.
 Rota de criação Anote Fundamento, Manejos ou Técnica Marcial, conforme a Origem.
 CANDIDATA EDITORIAL • BASE v0.331 63
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 As perícias e os ofícios escolhidos ficam treinados. Confira o que já recebeu do Caminho e escolha
 treinamentos diferentes. O Teste de Resistência da Origem também deve ser diferente daquele concedido
 pelo Caminho. A escolha livre precisa fazer sentido para a história apresentada ao mestre.
@@ -2500,7 +2500,7 @@ fazer um teste como treinado, use sua maestria atual. A progressão não concede
 Você pode escrever um dos seus dois Legados com o mestre, conforme Criar um Legado (p. 77).
 CANDIDATA EDITORIAL • BASE v0.331 64
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Latente
 Você descobriu o jujutsu fora das tradições de uma família de feiticeiros. Talvez um acidente tenha
 revelado sua técnica, ou você tenha passado anos tentando entender acontecimentos que ninguém ao seu
@@ -2542,7 +2542,7 @@ preciso conseguir parar para descansar. Em troca, você não percebe espontaneam
 condições do lugar estão desgastando seus companheiros. Eles precisam contar ou mostrar o problema.
 CANDIDATA EDITORIAL • BASE v0.331 65
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Exemplo: depois da missão, Mika tem 4 de seus 20 PE. Um descanso longo num abrigo sem estrutura
 deixaria sua reserva em pelo menos 10. Com Chão Duro, ela recupera os 20. O Legado não transforma uma
 pausa sob perseguição em descanso seguro.
@@ -2583,7 +2583,7 @@ Não Sou Só Eu. Uma vez por cena, refaça um Teste de Resistência de Espírito
 controle, dominação ou leitura de seus pensamentos.
 CANDIDATA EDITORIAL • BASE v0.331 66
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Costume Antigo. Escolha uma perícia na criação. Uma vez por cena, faça um teste dela como se fosse
 treinado.
 Tranco. Uma vez por cena, refaça um Teste de Resistência Físico em que falhou. O efeito precisa exigir
@@ -2623,7 +2623,7 @@ entre ramos da família. Seus ofícios podem vir da educação recebida ou de al
 casa.
 CANDIDATA EDITORIAL • BASE v0.331 67
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Legados narrativos
 O Sobrenome. Você consegue audiência com quem manda em um lugar da sociedade jujutsu. A reunião
 acontece pelas condições possíveis no local. Convencer essa pessoa, negociar com ela ou obter sua ajuda
@@ -2666,7 +2666,7 @@ encontrados. Depois falha em Ocultismo ao pesquisar quem poderia ter retomado o 
 permite refazer esse teste uma vez naquela cena.
 CANDIDATA EDITORIAL • BASE v0.331 68
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Encarnado
 Você voltou a viver no corpo de outra pessoa. Traz lembranças de uma época anterior e precisa lidar com
 a vida que esse corpo tinha. Nesta Origem, você interpreta a consciência que retornou. A situação da
@@ -2709,7 +2709,7 @@ consequência concreta antes de confirmar o uso. Ela deve prejudicar uma tarefa 
 sem retirar ações, incapacitar um membro ou criar dano adicional.
 CANDIDATA EDITORIAL • BASE v0.331 69
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Exemplo: Seiji reconhece uma técnica da sua época por Conhecimento Antigo. Ele sabe a função tradicional
 dela, mas ainda precisa observar se o usuário desenvolveu aplicações diferentes. Contra uma técnica
 moderna, o Legado não fornece essa identificação.
@@ -2718,11 +2718,11 @@ Você é uma criação que reúne natureza humana e amaldiçoada. Alguém partic
 sua formação, e o motivo pode ter sido pesquisa, ambição ou uma tentativa de produzir algo que ainda
 não existia. O nome desta Origem descreve essa procedência. Seu personagem pode ter aparência e idade
 adulta.
-As Pinturas da Morte inspiram essa possibilidade no Projeto M. A campanha também pode apresentar
-outras criações. Os efeitos dos Legados são regras desta Origem, não características obrigatórias de todo
-ser parecido na obra.
-Para as regras do Projeto M, escolher Feto não classifica seu personagem como uma maldição. Requisitos
-e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e
+As Pinturas da Morte inspiram essa possibilidade no Ciclo Maldito. A campanha também pode
+apresentar outras criações. Os efeitos dos Legados são regras desta Origem, não características
+obrigatórias de todo ser parecido na obra.
+Para as regras do Ciclo Maldito, escolher Feto não classifica seu personagem como uma maldição.
+Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e
 recuperação normais, salvo uma exceção expressa da sua ficha.
 Perícia da Origem: escolha Ocultismo, Medicina, Sentir Energia ou Natureza. Criação: Fundamento, ou
 Manejos se escolher Sem Técnica.
@@ -2751,7 +2751,7 @@ limitações da percepção disponível, sem revelar automaticamente uma criatur
 obstáculos que bloqueiem seus sentidos.
 CANDIDATA EDITORIAL • BASE v0.331 70
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Paciência. Uma vez por dia, refaça um teste de perícia realizado enquanto esperava, vigiava ou
 permanecia escondido sem se mover.
 Legados de exceção
@@ -2792,7 +2792,7 @@ Se preferisse Arquivo como segundo Legado, Aya teria dois Legados narrativos. Es
 a obrigação é ter pelo menos um narrativo, e não comprar obrigatoriamente um benefício de rolagem.
 CANDIDATA EDITORIAL • BASE v0.331 71
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Corpo Amaldiçoado
 Seu corpo foi construído e ganhou consciência. Madeira, tecido, metal ou outros materiais podem fazer
 parte dele. Você tem lembranças, vontades e relações próprias. O modo como foi criado e a reação das
@@ -2810,7 +2810,7 @@ narrativo obrigatório e libera a lista de Legados de rolagem correspondente. Vo
 duas configurações. Seu segundo Legado pode vir da lista liberada, ser Ferro Velho ou ser um Legado
 personalizado permitido pelas regras de criação.
 Panda é uma referência de corpo construído com consciência. As quatro configurações abaixo oferecem
-possibilidades de personagem do Projeto M. Elas não representam quatro métodos comprovados de
+possibilidades de personagem do Ciclo Maldito. Elas não representam quatro métodos comprovados de
 fabricação na obra.
 Corpo construído
 Você é imune a Envenenado. Essa imunidade à condição não concede resistência ao tipo de dano Veneno
@@ -2834,7 +2834,7 @@ A CD é 8 + atributo usado no ofício + maestria de quem repara + ajuste. Defina
 trabalho, antes de rolar. Especialização e outros modificadores alteram a rolagem, sem aumentar essa
 CANDIDATA EDITORIAL • BASE v0.331 72
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 base de CD. No sucesso, recupere metade da vida máxima, arredondada para baixo, sem ultrapassar o
 máximo. A falha consome a tentativa daquele descanso.
 Uma técnica cuja Regra alcance um corpo construído também pode curar você. Energia Reversa e curas
@@ -2877,7 +2877,7 @@ Desempate. Uma vez por dia, refaça um Teste de Resistência em que falhou. Qual
 tipos pode ser escolhido naquela utilização.
 CANDIDATA EDITORIAL • BASE v0.331 73
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Gêmeos
 Cabeça Trocada. Escolha uma perícia e um atributo na criação. Uma vez por cena, faça um teste daquela
 perícia usando o atributo escolhido em vez do atributo normal. Os demais modificadores da perícia
@@ -2918,7 +2918,7 @@ criação. O ramo define sua lista de perícias, seus Legados e a rota de capaci
 benefícios comuns de Origem uma única vez.
 CANDIDATA EDITORIAL • BASE v0.331 74
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Corpo pela Técnica
 Seu corpo possui uma limitação importante associada à troca. Escreva como ela afeta a vida cotidiana e
 combine suas consequências com o mestre antes de jogar. Você possui energia amaldiçoada e cria sua
@@ -2962,7 +2962,7 @@ Insônia. Uma vez por dia, refaça um teste de perícia realizado enquanto as ou
 dormiam. O Legado não dispensa suas próprias necessidades de descanso.
 CANDIDATA EDITORIAL • BASE v0.331 75
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Li Tudo. Uma vez por cena, refaça um teste de Ocultismo ou Investigação em que falhou.
 Legados narrativos de Sem Energia
 Estes Legados apresentam sua relação com a falta de energia e com as pessoas que conheceram você
@@ -3004,7 +3004,7 @@ necessário contato ou um indício físico acessível. Um objeto distante sem si
 detectado.
 CANDIDATA EDITORIAL • BASE v0.331 76
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Assinado. Uma vez por descanso longo, impeça uma aplicação de Cego. Em troca, escolha na criação
 uma atividade cotidiana que seu personagem é incapaz de realizar e registre a limitação permanente. Ela
 deve ter importância na vida apresentada, como distinguir rostos pela visão. A exceção não concede visão
@@ -3045,7 +3045,7 @@ manutenção. Escolhe dois ofícios ligados ao emprego, um TR diferente do que o
 escreve um traço sobre seu primeiro encontro com uma maldição.
 CANDIDATA EDITORIAL • BASE v0.331 77
 
-PROJETO - M ORIGENS E LEGADOS
+CICLO MALDITO ORIGENS E LEGADOS
 Seus Legados são A Testemunha e Aprendi Apanhando. O primeiro cria uma relação com a antiga chefe.
 O segundo oferece uma repetição de perícia por dia. São duas escolhas, uma narrativa e uma de rolagem.
 A criação da técnica continua no Fundamento.
@@ -3068,7 +3068,7 @@ acrescentam automaticamente mais benefícios de Legado à ficha. Use Progressão
 alterações mecânicas durante a campanha.
 CANDIDATA EDITORIAL • BASE v0.331 78
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 6. Caminhos e Trilhas
 Bastião
 Você luta perto dos companheiros, atrai a atenção dos inimigos e se coloca no caminho dos ataques. Uma
@@ -3101,7 +3101,7 @@ progressão: substitua todas as habilidades da anterior pelas correspondentes da
 de duas Trilhas.
 CANDIDATA EDITORIAL • BASE v0.331 79
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Olhos Em Mim
 Nível 2. Você pode usar Força no lugar de Essência em seus testes de Provocar e Intimidação.
 Com Ação Bônus, ative uma área de 6 m de raio, centrada em você. Ela acompanha seus movimentos até
@@ -3143,7 +3143,7 @@ Uma vez por cena, quando perder vida e terminar com metade da vida máxima ou me
 resolver o dano.
 CANDIDATA EDITORIAL • BASE v0.331 80
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Você pode usar mesmo se já estava abaixo da metade antes do golpe. Perder apenas vida temporária não
 cumpre o gatilho. Se tiver chegado a zero, siga Socorro, em Dano e recuperação: essa cura não substitui
 seus requisitos para voltar a agir.
@@ -3182,7 +3182,7 @@ Bloquear ou um ataque assumido por Olhos Em Mim. Se a parcela levar você a zero
 Dano e recuperação. Um aliado que já estava a zero não pode ser protegido por este gatilho.
 CANDIDATA EDITORIAL • BASE v0.331 81
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Muro
 Você protege quem permanece perto e suporta os golpes que assume. A escolha dos tipos de dano de
 Alicerce permite se preparar para ameaças conhecidas. Casca Grossa reforça a interceptação quando o
@@ -3220,7 +3220,7 @@ O acerto continua sendo um acerto mesmo que o dano chegue a zero. Efeitos que ac
 usam seus próprios requisitos. Resistências são aplicadas antes das reduções, conforme Dano.
 CANDIDATA EDITORIAL • BASE v0.331 82
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Exemplo. Um ataque assumido causaria 36. Você tem Constituição 3 e falhou em Bloquear com 5 e 4: Duro
 de Matar desconta 12. Em Casca Grossa, tira 2 e 7, para outra redução de 11. Restam 13 de dano. Se Alicerce
 proteger desse tipo, o dano começa em 18 e as duas reduções o zeram.
@@ -3259,7 +3259,7 @@ Ao acertar um golpe desarmado, você pode empurrar a criatura até 4,5 m, na dir
 empurrão pode ser aplicado uma vez por alvo por rodada. Não exige outro teste.
 CANDIDATA EDITORIAL • BASE v0.331 83
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 O percurso precisa permitir o movimento. Uma parede o interrompe; a habilidade não concede dano de
 colisão nem deixa o alvo suspenso no ar. Uma queda real segue Quedas. Esta habilidade não usa o limite
 de tamanho das manobras comuns.
@@ -3302,7 +3302,7 @@ Criaturas atacadas Custo da ampliação
 4 6 PE.
 CANDIDATA EDITORIAL • BASE v0.331 84
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Criaturas atacadas Custo da ampliação
 5 8 PE.
 6 10 PE.
@@ -3342,7 +3342,7 @@ Depois de ter sucesso em Bloquear, prepare seu próximo feitiço de Classe acima
 até o fim do seu próximo turno.
 CANDIDATA EDITORIAL • BASE v0.331 85
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Nessa conjuração, escolha um ataque para receber vantagem ou o primeiro TR de uma criatura para
 receber desvantagem. Declare qual será afetado antes da rolagem. A preparação é consumida por essa
 conjuração, mesmo se ela errar ou o alvo resistir. Uma aplicação automática sem ataque ou TR não ganha
@@ -3367,7 +3367,7 @@ No nível 27, a maior Classe comum é 7: Contra a Parede permite Classe 3, norma
 7 não permite acompanhar o ataque com uma Liberação ou Técnica Máxima.
 CANDIDATA EDITORIAL • BASE v0.331 86
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Vanguarda
 Você transforma ataques em preparação contra um adversário. Decide quando manter a pressão, quando
 mudar a abordagem e quando encerrar a Sequência com uma execução.
@@ -3403,7 +3403,7 @@ dano total do golpe em Xd4, com X igual à metade da maestria, arredondada para 
 zero.
 CANDIDATA EDITORIAL • BASE v0.331 87
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Role essa redução uma vez, depois dos modificadores do atacante e antes das defesas que reduzem o dano
 recebido pelo alvo. Ela não dobra no crítico. O Golpe Inicial não custa PE e abre a Sequência mesmo
 quando seu dano final é zero.
@@ -3443,7 +3443,7 @@ teleportar.
 Fechar a Rota não reduz, por si, o valor do deslocamento exigido por Fixar o Alvo.
 CANDIDATA EDITORIAL • BASE v0.331 88
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Conclusões
 Escolha uma Conclusão compatível com a fonte do ataque e com seus requisitos. A declaração consome a
 Sequência, mesmo no erro ou na resistência. Concluir não custa PE adicional por si só.
@@ -3485,7 +3485,7 @@ Lâmina Longa, Manopla ou Postura Firme: +1 de Defesa até o começo do próximo
 golpes desarmados Bloquear. Trocar de Condução não encerra essa postura.
 CANDIDATA EDITORIAL • BASE v0.331 89
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Categoria Manha
 Massa, Porrete, Machado ou Empuxo: TR Físico. Na falha, empurre o alvo até 3 m para longe de você.
 Armas Longas
@@ -3525,7 +3525,7 @@ Nível Habilidade
 27 Ferrão
 CANDIDATA EDITORIAL • BASE v0.331 90
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Nível 2: Compasso. Escolha Essência ou Inteligência. Some o valor atual desse atributo ao seu PE
 máximo e use-o no lugar de Força ou Destreza para o acerto e dano das armas de suas categorias
 escolhidas. Os requisitos de Força permanecem.
@@ -3568,7 +3568,7 @@ Desorientar e os outros efeitos novos não prejudicam outro TR do mesmo lançame
 Dupla, escolha duas opções deste catálogo e respeite todos os requisitos da Dupla.
 CANDIDATA EDITORIAL • BASE v0.331 91
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Bote e Ferrão
 Nível 19: Bote. Quando o feitiço de sua Ação Padrão impuser uma condição e não causar dano imediato
 nem posterior, e liberar Compasso, pode fazer dois ataques naquela Ação Bônus, usando Ataque Extra.
@@ -3608,7 +3608,7 @@ imediatamente. Declare a Conclusão, o alvo da Sequência e os detalhes necessá
 ataque disponível e consuma a Sequência. Ataque, dano e TR são rolados apenas na soltura.
 CANDIDATA EDITORIAL • BASE v0.331 92
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Você precisa ter Reação disponível, mantém uma flecha armada e deve soltá-la gastando essa Reação
 antes do começo do seu próximo turno. Usar a Reação em outra coisa desfaz a armação, sem devolver o
 ataque ou a Sequência.
@@ -3652,7 +3652,7 @@ Na falha, a rolagem do ataque anunciado tem desvantagem.
 Flecha Desestabilizadora. Requisito: uma Condução de Yumi acertada. Pode ser imediata ou armada.
 CANDIDATA EDITORIAL • BASE v0.331 93
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Após acertar, o alvo faz TR de Vigor. Na falha, sua próxima rolagem de dano contra uma criatura tem
 desvantagem, até o fim do próximo turno dele.
 Role o conjunto completo duas vezes, com os mesmos modificadores, e use o que causar menos dano. Não
@@ -3696,7 +3696,7 @@ ataque em vez de se mover. Antes dos dados, Última Leitura permite mudar para A
 Desestabilizadora.
 CANDIDATA EDITORIAL • BASE v0.331 94
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Batedor: Besta
 Seus acertos deixam preparação no alvo. Você escolhe acrescentar, reforçar ou consumir os virotes.
 Nível 2: Virotes Cravados. Suas bestas dispensam a ação de recarga e as interrupções de Munição. Você
@@ -3738,7 +3738,7 @@ Nível 19: Fixação Cruzada. Reação, uma vez por Sequência. Depois de uma re
 virote seu, pode transformar outro comum ainda ativo naquele alvo em farpado.
 CANDIDATA EDITORIAL • BASE v0.331 95
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Você precisa perceber a retirada e manter a Sequência. O virote retirado sai normalmente. Retirada
 falhada, consumo dos próprios marcadores ou fim da Sequência não ativam a habilidade.
 Nível 27: Preparação Remanescente. Uma vez por cena, ao declarar uma Conclusão com Besta, tendo
@@ -3782,7 +3782,7 @@ próxima Conclusão própria para obter e consumir uma Oportunidade na declaraç
 pronta, com duas unidades carregadas: uma para o disparo e outra para esse gasto adicional.
 CANDIDATA EDITORIAL • BASE v0.331 96
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Conclusões da Arma de Fogo
 Pressão Dominante. Requisito: duas Conduções de Arma de Fogo acertadas, ou uma e uma
 Oportunidade consumida.
@@ -3827,7 +3827,7 @@ Até o fim do seu próximo turno, se o próximo Golpe Inicial de Arma de Fogo qu
 contra ele, comece com uma Oportunidade, válida até o fim do turno seguinte ao da abertura.
 CANDIDATA EDITORIAL • BASE v0.331 97
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 O novo Golpe Inicial mantém sua redução de dano e a Escola. A nova Sequência começa com zero
 Conduções. Sua primeira Condução com Arma de Fogo não apaga a Oportunidade apenas por
 estabelecer um preparo. As trocas posteriores seguem as regras normais.
@@ -3867,7 +3867,7 @@ Abalar a Ofensiva. Sem Condução mínima. TR de Vigor. Na falha, o próximo ata
 ou desarmado tem desvantagem, até o fim do próximo turno dele.
 CANDIDATA EDITORIAL • BASE v0.331 98
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Desguarnecer. Uma Condução acertada. TR Físico. Na falha, seu próximo ataque corpo a corpo contra
 o alvo tem vantagem, até o fim do seu próximo turno.
 Cortar o Gesto. Sem Condução mínima. TR de Vigor. Na falha, a próxima rolagem de ataque de um
@@ -3908,7 +3908,7 @@ Todos os TRs são resolvidos antes dos novos efeitos, sem usar uma condição re
 prejudicar outro teste do mesmo ataque.
 CANDIDATA EDITORIAL • BASE v0.331 99
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Guia
 Você orienta a equipe: indica uma passagem, prepara um ataque ou ajuda alguém a resistir ao perigo.
 Suas Aberturas são oportunidades que os aliados guardam até decidirem usá-las. Conforme avança, você
@@ -3946,7 +3946,7 @@ Ação Bônus, 1 PE, uma vez por turno seu. Escolha um aliado voluntário que vo
 que consiga ver ou ouvir sua orientação.
 CANDIDATA EDITORIAL • BASE v0.331 100
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Prepare uma Abertura de Avançar, Executar ou Resguardar, indicando a posição, o alvo ou a situação a
 que ela se refere. O aliado guarda a oportunidade e decide quando aproveitá-la.
 A Abertura dura até o começo do seu próximo turno. Você mantém uma por vez; criar outra substitui a
@@ -3987,7 +3987,7 @@ Você pode então convidar esse aliado ou outro aliado voluntário a até 18 m, 
 consiga receber sua orientação, a responder imediatamente.
 CANDIDATA EDITORIAL • BASE v0.331 101
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Se ele aceitar, vocês dois gastam suas Reações. O aliado escolhe uma das respostas da tabela Respostas
 coordenadas.
 Resposta O que ele realiza
@@ -4029,7 +4029,7 @@ Escolha outro aliado voluntário a até 18 m, que você perceba e que consiga re
 tipo diferente do já utilizado. Indique o novo alvo, posição ou ameaça normalmente.
 CANDIDATA EDITORIAL • BASE v0.331 102
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Essa é a continuação da mesma oportunidade: mantém o prazo original e pode passar apenas uma vez. Há
 somente uma Abertura guardada por vez.
 Nas cadeias, cada aliado só aproveita uma Abertura e cada tipo só é utilizado uma vez. Reajustar o Plano
@@ -4072,7 +4072,7 @@ Você constrói passagens, apoios e abrigos. O grupo escolhe quando usá-los, e 
 ou levar para outro lugar.
 CANDIDATA EDITORIAL • BASE v0.331 103
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Nível 2 — Obras de Apoio
 Escolha Inteligência ou Essência ao receber esta Trilha. Use sempre esse atributo nas contas de suas
 obras; para essas contas, valores menores que 1 contam como 1.
@@ -4114,7 +4114,7 @@ ameaça indicada. Apenas ficar perto não basta.
 A duração da obra não muda o prazo da Abertura.
 CANDIDATA EDITORIAL • BASE v0.331 104
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Exemplo. No nível 11, com Inteligência 4, você mantém até quatro obras. Cada uma tem 41 de vida e dura
 40 minutos; uma Passarela ou um Patamar suporta 400 kg.
 Obra em Uso
@@ -4155,7 +4155,7 @@ Uma vez por cena, Reação e 2 PE. Depois que uma obra sua for destruída ou que
 Abertura terminar um movimento provocado por outra criatura, crie uma nova obra.
 CANDIDATA EDITORIAL • BASE v0.331 105
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Ela deve ficar a até 3 m da obra destruída ou da posição final do aliado, e a até 9 m de você. Cumpra as
 condições de construção e seu limite de obras.
 A nova obra começa com a vida completa e a duração de Obras de Apoio. Esta reação não cria uma
@@ -4197,7 +4197,7 @@ procedimento da primeira tentativa, incluindo vantagem ou desvantagem que venha 
 mesma rolagem só pode ser repetida uma vez por esta habilidade.
 CANDIDATA EDITORIAL • BASE v0.331 106
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Cada parte repassada começa com uma nova previsão, salvo Padrão Decifrado. Reajustar o Plano
 mantém a leitura se continuar tratando do mesmo inimigo; trocar de inimigo exige outra previsão e perde
 a confirmação anterior.
@@ -4238,7 +4238,7 @@ Trocar o plano para outro inimigo exige uma previsão normal contra ele. O padr�
 alvo nem tem seu prazo renovado por novas confirmações.
 CANDIDATA EDITORIAL • BASE v0.331 107
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Exemplo. Você confirma a leitura depois de ver o inimigo conjurar. Nos dois próximos turnos seus, pode
 preparar novas orientações contra ele já confirmadas, mesmo que ele ainda não tenha repetido aquela
 ação.
@@ -4281,7 +4281,7 @@ ou habilidade não pode ser removida por esse tratamento. Trate um dos efeitos q
 outra causa ainda presente pode aplicá-la novamente.
 CANDIDATA EDITORIAL • BASE v0.331 108
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Condição Leve Como o tratamento a encerra
 Lento, Surdo ou Guarda Aberta Encerra o efeito escolhido que estava impondo a condição.
 Derrubado Encerra uma causa tratável e permite levantar no próprio espaço sem gastar
@@ -4298,7 +4298,7 @@ cujos requisitos ele cumprir naquele momento. Quem está acima da metade da vida
 tratável não recebe um Cuidado apenas para guardá-lo.
 CANDIDATA EDITORIAL • BASE v0.331 109
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Socorro de emergência
 Nível 19 — Ainda Há Tempo
 Uma vez por cena, Reação e 2 PE adicionais. Quando um aliado com um Cuidado seu ainda disponível
@@ -4332,7 +4332,7 @@ Cada Cuidado termina com a parte da Abertura que acompanha. Criar outra Abertura
 encerra o atendimento anterior.
 CANDIDATA EDITORIAL • BASE v0.331 110
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Emanador
 Você aprende a adaptar sua técnica à situação. Um feitiço pode alcançar mais longe, mudar de área ou
 trocar uma função por outra sem ocupar um novo espaço na ficha. Suas Trilhas exploram essa
@@ -4370,7 +4370,7 @@ Use os preços da Classe efetivamente conjurada, inclusive se tiver usado Amplia
 das Famílias Livres às Melhorias. A Forma não recebe esse desconto.
 CANDIDATA EDITORIAL • BASE v0.331 111
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Requisitos da aplicação
 A versão alterada continua respeitando o Fundamento, as Famílias Fechadas, as incompatibilidades e os
 limites de dados. Conserve suas Restrições e seu Efeito Próprio. Trocar uma peça não pode dispensar
@@ -4410,7 +4410,7 @@ Efeito Próprio não pode ser retirado por essa troca. Uma nova Melhoria também
 uma Família Fechada sob outro nome. O catálogo define o que cada peça permite.
 CANDIDATA EDITORIAL • BASE v0.331 112
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Modulações Dominadas
 No nível 2, escolha duas opções da tabela. Aprenda mais uma nos níveis 7, 15 e 23, até conhecer cinco.
 Sempre que subir de nível, pode trocar uma escolha por outra disponível e permitida pelo seu
@@ -4451,7 +4451,7 @@ feitiço para limites de uso da própria ficha, como a Restrição Uma Vez. Uma 
 concede outro uso por cena.
 CANDIDATA EDITORIAL • BASE v0.331 113
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Afinidade Técnica
 Escolha dois feitiços conhecidos, de Classe 1 até metade da sua maior Classe, arredondada para baixo.
 A primeira conjuração de cada um por cena custa metade de seu PE normal, arredondada para cima.
@@ -4490,7 +4490,7 @@ Pague o PE de Remodelar uma vez por conjuração. A Modulação Forçada, quando
 custo separado e o limite de uma por conjuração. Aprenda sua quinta Modulação Dominada.
 CANDIDATA EDITORIAL • BASE v0.331 114
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Expressão Instintiva
 Nível 30. Afinidade Técnica passa a incluir quatro feitiços. Você pode refazer as escolhas ao receber esta
 habilidade, respeitando as Classes permitidas.
@@ -4531,7 +4531,7 @@ Nível Habilidade
 27 Ritmo Convergente.
 CANDIDATA EDITORIAL • BASE v0.331 115
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Nível 2 — Arma Condutora
 Escolha uma categoria de armas e receba treino com ela. Escolha Essência ou Inteligência: pode usar o
 atributo no acerto e dano com suas armas dessa categoria. Os requisitos de Força continuam valendo.
@@ -4573,7 +4573,7 @@ propriedades e efeitos precisam ser registrados. Uma capacidade que a mova não 
 abastece, salvo permissão expressa.
 CANDIDATA EDITORIAL • BASE v0.331 116
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Propriedades da arma
 Chamado da Arma
 Você pode recolher a arma vinculada em sua técnica e manifestá-la ao sacá-la. Isso usa a manipulação
@@ -4614,7 +4614,7 @@ Cada uma mantém munição, Vida do objeto e efeitos próprios separados. Os lim
 Propriedades continuam compartilhados.
 CANDIDATA EDITORIAL • BASE v0.331 117
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Sentido do Vínculo
 Enquanto a arma estiver a até 1 km, você sabe a direção em que ela está e se está sendo empunhada. Isso
 não revela a identidade de quem a segura, o conteúdo do local ou um caminho livre até ela.
@@ -4652,7 +4652,7 @@ usar a Padrão. Fazer dois ataques por Cadência Marcial continua impedindo a co
 naquele turno.
 CANDIDATA EDITORIAL • BASE v0.331 118
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Ressonante
 Uma alteração usada agora pode facilitar a conjuração seguinte. Você decide o que guardar e o que
 abandonar. O Eco Amaldiçoado guarda uma alteração, não o feitiço inteiro, seus dados ou o acerto
@@ -4691,7 +4691,7 @@ Exemplo. Longe sem desconto custa 2 PE como Modulação na Classe 3. Seu Eco per
 em outra aplicação dessa Classe. Se Longe já custar 1, a metade arredondada continua sendo 1.
 CANDIDATA EDITORIAL • BASE v0.331 119
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Limites
 O novo feitiço precisa aceitar a peça guardada. Ter um Eco de Longe não permite aplicá-lo em Toque. O
 número de Melhorias e todas as Restrições continuam valendo.
@@ -4732,7 +4732,7 @@ peça pela mesma maneira não ocupam dois lugares. Troca de Forma e troca de Mel
 sujeitas aos limites de categoria do Eco.
 CANDIDATA EDITORIAL • BASE v0.331 120
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Usar os dois
 Uma vez por cena, consuma ambos na mesma conjuração. Pode também fazer um Desdobramento
 normal, mas o conjunto permite no máximo três alterações, mesmo com Composição Técnica. Os dois
@@ -4774,7 +4774,7 @@ Declare a escolha antes dos dados. A aplicação que gasta Impulso não produz o
 como Bônus mantém o limite de conjuração: o outro feitiço permitido naquele turno é de Classe 0.
 CANDIDATA EDITORIAL • BASE v0.331 121
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Correção de Fluxo
 Nível 11. Você recebe outra forma de gastar Impulso e uma nova opção para Intensificar. Ambas
 continuam restritas às aplicações que aceitam Impulso Técnico.
@@ -4799,7 +4799,7 @@ de dano, escolha apenas uma antes dos dados. Essa opção não permite escolher 
 a rolagem antiga e a nova.
 CANDIDATA EDITORIAL • BASE v0.331 122
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Sobrecarga e fluxo
 Nível 19 — Sobrecarregar Energia
 Uma vez por cena, ao gastar Impulso, escolha duas opções diferentes entre Acelerar, Intensificar e
@@ -4825,7 +4825,7 @@ Contínuo. Na próxima aplicação, pode gastá-lo normalmente ou combinar duas 
 Impulso não recupera a ação ou os PE usados.
 CANDIDATA EDITORIAL • BASE v0.331 123
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Evocador
 Você comanda criaturas que lutam e cumprem tarefas ao seu lado. Pode concentrar seus recursos em uma
 invocação, lutar em parceria com ela ou reunir um grupo com funções diferentes. Os aprimoramentos
@@ -4863,7 +4863,7 @@ Usos por rodada: renovam no começo do seu turno. Até o começo do próximo, co
 marcados, inclusive durante os turnos das outras criaturas.
 CANDIDATA EDITORIAL • BASE v0.331 124
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Cada invocação usa sua ficha e cumpre sua intenção. Entrada, substituição, primeira intenção,
 redirecionamento, preparo, comando especial e retorno seguem o capítulo Invocações em campo. O
 Caminho altera esses procedimentos somente nos casos escritos nas suas habilidades.
@@ -4906,7 +4906,7 @@ que possua. Esse trecho tem saldo próprio, respeita terreno e impedimentos e fi
 ela mantiver o aprimoramento. Correr usa o deslocamento normal da ficha, separado desse saldo.
 CANDIDATA EDITORIAL • BASE v0.331 125
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Exemplo. A ave usa 1,5 m do saldo extra de Precisão e faz seu ataque com vantagem. Se o aprimoramento
 mudar para o cão, o uso ofensivo continua gasto. O cão também não recebe um novo saldo de 3 m nessa
 rodada: aquele benefício já ficou vinculado à ave.
@@ -4945,7 +4945,7 @@ Orientações de movimento, preparo e recolhimento precisam ser percebidas e com
 invocação. A capacidade original conserva seus custos, seus requisitos e suas durações.
 CANDIDATA EDITORIAL • BASE v0.331 126
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Corrigir uma Falha — nível 2
 1 Ponto de Vínculo · Qualquer turno.
 Logo depois que uma invocação falhar num ataque de básica ou especial normal, teste de perícia ou Teste
@@ -4985,7 +4985,7 @@ O movimento usa o saldo da ave. Se ela já percorreu seus 9 m, a intervenção n
 novos. Uma movimentação forçada do inimigo não abre essa janela.
 CANDIDATA EDITORIAL • BASE v0.331 127
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Preparação e recolhimento
 Ajustar a Preparação — nível 7
 1 Ponto de Vínculo · Turno de outra criatura.
@@ -5026,7 +5026,7 @@ Resolva essa ação antes ou depois da atuação básica da invocação, que con
 normal. Os efeitos e custos próprios seguem a ação comum.
 CANDIDATA EDITORIAL • BASE v0.331 128
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Para receber os benefícios dos aprimoramentos, essa execução conta como uma básica. Registre o uso da
 habilidade no conjunto, separado das básicas individuais.
 Principal e adicional. A tabela é determinada somente pelo aprimoramento principal. O adicional de
@@ -5065,7 +5065,7 @@ Sua invocação erra uma especial, e sua reserva de Pontos de Vínculo está vaz
 Intervenção Eficiente para usar Corrigir uma Falha por zero. A repetição segue o procedimento normal.
 CANDIDATA EDITORIAL • BASE v0.331 129
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Especial Combinada
 Nível 30.
 Ação Completa · Uma vez por combate · Participantes a até 18 m.
@@ -5106,7 +5106,7 @@ Os benefícios se aplicam enquanto você mantém exatamente uma invocação ativ
 podem permanecer no seu repertório.
 CANDIDATA EDITORIAL • BASE v0.331 130
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Registre na ficha de cada possível principal os acréscimos da Trilha. Quando uma capacidade tiver versão
 comum e versão ampliada, anote ambas e use a correspondente à situação em campo. Efeitos já resolvidos
 seguem suas próprias durações.
@@ -5149,7 +5149,7 @@ entidade. A especial respeita a maior Classe permitida por esse nível. Todo tal
 Repertório Ampliado é de Categoria de Efeito 1, inclusive nas escolhas dos níveis 16 e 24. Escolha entre
 CANDIDATA EDITORIAL • BASE v0.331 131
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 os talentos permitidos para entidades em Criar uma invocação, cumprindo seus requisitos. As escolhas
 seguem os procedimentos normais de revisão da ficha.
 Essas três escolhas fazem parte da progressão de Repertório Ampliado. As entregas da Trilha continuam
@@ -5190,7 +5190,7 @@ Use no seu turno, entre resoluções, ou quando um ataque ou efeito que afete su
 antes da resolução e dos dados.
 CANDIDATA EDITORIAL • BASE v0.331 132
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Ela recebe vida temporária igual a 5 × a Classe correspondente ao nível dela. A proteção dura até o
 começo do seu próximo turno, enquanto a criatura permanecer sua única invocação ativa.
 A vida temporária absorve dano antes dos PV, mantém somente a maior reserva disponível e tem teto de
@@ -5231,7 +5231,7 @@ você pode usar a segunda básica dela para executar outra especial normal difer
 da capacidade básica de continuidade.
 CANDIDATA EDITORIAL • BASE v0.331 133
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 A segunda especial pode ter Classe até metade da maior Classe permitida pelo nível da invocação,
 arredondada para baixo, com mínimo de 1.
 Nível da entidade, acompanhando o Maior Classe dela Limite da continuação
@@ -5272,7 +5272,7 @@ Você comanda a especial antes de gastar as básicas. Depois da resolução, dec
 básica própria ou, a partir do nível 19, pagar a especial menor de continuidade.
 CANDIDATA EDITORIAL • BASE v0.331 134
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Mudar a função entre atuações
 A ave executa a primeira especial com Precisão à Distância. Você usa Adaptar o Aprimoramento para
 passar a Proteção Reforçada. A ave realiza a segunda atuação e conserva a proteção para a próxima
@@ -5312,7 +5312,7 @@ Acrescente os três aprimoramentos abaixo ao catálogo do Caminho. Cada um é at
 pela janela e pela duração normais de Aprimoramentos de Vínculo.
 CANDIDATA EDITORIAL • BASE v0.331 135
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Usos compartilhados: os três efeitos usam o benefício ofensivo dos aprimoramentos, uma vez por rodada
 para o conjunto, renovado no começo do turno do invocador. Marque o uso quando iniciar a execução
 concedida — o ataque ou, a partir do nível 19, o feitiço que o substitui. Os usos anteriores permanecem
@@ -5354,7 +5354,7 @@ Golpe Acompanhado Correr ou Desengajar.
 Resposta ao Agressor Esquivar.
 CANDIDATA EDITORIAL • BASE v0.331 136
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Cada utilização continua pagando a Bônus e marcando o uso compartilhado de Atuação Complementar.
 Exemplos
 Especial e golpe do dono
@@ -5396,7 +5396,7 @@ consequências, a invocação participante ajuda a corrigir a execução. Repita
 novo resultado.
 CANDIDATA EDITORIAL • BASE v0.331 137
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Aplique o procedimento de Corrigir uma Falha, conservando alvo, dificuldade, modificadores e
 vantagem ou desvantagem. Marque o uso compartilhado entre estas duas intervenções.
 Exemplo: você erra Golpe Acompanhado mesmo com vantagem. Paga um ponto e repete os dois d20, conservando
@@ -5438,7 +5438,7 @@ continuação for de Classe positiva, esta habilidade autoriza a especial da inv
 mesmo turno. Os dois ocupam suas conjurações daquele turno.
 CANDIDATA EDITORIAL • BASE v0.331 138
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Nível do invocador Sua maior Classe Limite da continuação
 19–20 5 Classe 2
 21–25 6 Classe 3
@@ -5480,7 +5480,7 @@ Classe 4, usando sua Reação pessoal. A disponibilidade da coletiva não é req
 pessoal.
 CANDIDATA EDITORIAL • BASE v0.331 139
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Conservar recursos. Cobrir o Parceiro por dois pontos preserva as Reações. Se o ataque ainda acertar e os
 requisitos continuarem satisfeitos, a dupla pode responder pela modalidade correspondente. O uso por
 combate pertence ao conjunto, mesmo que a beneficiária seja substituída.
@@ -5520,7 +5520,7 @@ Fechadas e quatro abertas, mantendo uma Família Livre.
 Registre a escolha e as capacidades que respeitem a definição da entidade.
 CANDIDATA EDITORIAL • BASE v0.331 140
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Manifestação em Grupo
 Ação Bônus · Seu turno. Escolha uma operação:
 Operação Quantidade
@@ -5562,7 +5562,7 @@ O segundo registra o vigia e o cão. Um terceiro espaço usado para invocação 
 entidade. As cinco fichas acompanham seu nível e continuam sujeitas à montagem.
 CANDIDATA EDITORIAL • BASE v0.331 141
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 As duplas compartilham uma vaga, não uma ficha. Cada corpo tem suas capacidades e recursos.
 Reescrever um espaço ocupado ao subir de nível usa a revisão comum daquele espaço, incluindo a dupla
 ligada a ele. Registre os dois primeiros espaços beneficiados. Trocar as entidades desses espaços não
@@ -5603,7 +5603,7 @@ Gaste a básica da segunda invocação. A especial se manifesta a partir da posi
 até os alvos, a área e a direção.
 CANDIDATA EDITORIAL • BASE v0.331 142
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Precisão da cooperação. Depois de escolher os alvos e antes de qualquer rolagem da especial, escolha um
 dos benefícios: vantagem em uma rolagem de ataque da especial ou desvantagem no primeiro Teste de
 Resistência de um alvo contra essa execução.
@@ -5645,7 +5645,7 @@ perícia e movimento do conjunto. Marque os benefícios quando forem aproveitado
 começo do seu próximo turno.
 CANDIDATA EDITORIAL • BASE v0.331 143
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Mudar uma escolha. Pelo custo normal de 2 Pontos de Vínculo, Mudar o Aprimoramento modifica uma
 das escolhas por uso. Indique a escolha e altere seu benefício, sua destinatária ou ambos. Se a nova
 destinatária já mantiver outra escolha, encerre a anterior dela. O novo principal deve ser diferente dos
@@ -5687,7 +5687,7 @@ Depois da operação, faça a escolha gratuita dos aprimoramentos. A recém-cheg
 duas beneficiárias do nível 19.
 CANDIDATA EDITORIAL • BASE v0.331 144
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Completar o grupo
 Você começa o turno com três invocações ativas. Depois dos efeitos obrigatórios, usa Formação
 Renovada para trazer uma quarta e paga sua entrada. A nova criatura recebe a básica prevista por esta
@@ -5730,7 +5730,7 @@ para realizar uma entrada ou substituição. Permanecem o limite de uma básica 
 comandada, os usos compartilhados e a exceção de Especial Combinada do nível 30.
 CANDIDATA EDITORIAL • BASE v0.331 145
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Turnos do Evocador
 Estes exemplos começam com as entidades já em campo, orientadas e com seus recursos disponíveis. Os
 ataques alcançam os alvos e não encontram cobertura. Cada cena usa uma Trilha diferente.
@@ -5756,7 +5756,7 @@ conserva a Bônus e a coletiva. A segunda especial comandada e outra básica com
 indisponíveis naquele ciclo.
 CANDIDATA EDITORIAL • BASE v0.331 146
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Incursor
 Você encontra espaço para atravessar a luta, prepara sua aproximação e reage às aberturas do adversário.
 Fluidez é o recurso que permite essas respostas. Sua Trilha define como você o utiliza: Assassino
@@ -5792,7 +5792,7 @@ deslocamento. Some a distância efetivamente percorrida nesses trechos: todos co
 Você precisa caber no percurso e terminar em espaço livre com apoio normal.
 CANDIDATA EDITORIAL • BASE v0.331 147
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 A travessia usa seu movimento disponível. Cada 1,5 m custa 1,5 m, ou 3 m em terreno difícil; não
 acrescente o custo da escalada comum. Ela não exige ação adicional, PE ou Fluidez e mantém os ataques
 de oportunidade normais.
@@ -5834,7 +5834,7 @@ alvo daquele ataque; outras criaturas podem reagir normalmente. Não usa Ação 
 Nenhum desses usos custa PE.
 CANDIDATA EDITORIAL • BASE v0.331 148
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Respostas de Fluidez
 Os usos desta seção estão disponíveis no nível 2 e não custam PE.
 Evasão
@@ -5874,7 +5874,7 @@ qualquer criatura hostil ao seu alcance corpo a corpo, mesmo que outra tenha pro
 Mantém Fluidez e Reação como custos.
 CANDIDATA EDITORIAL • BASE v0.331 149
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Passo Guardado
 Uma vez entre o começo de um turno seu e o começo do próximo, fora do seu turno e enquanto tiver
 Fluidez, depois de resolver um ataque contra você ou um TR Físico provocado por uma criatura hostil,
@@ -5915,7 +5915,7 @@ Você estuda uma vítima, escolhe o percurso até ela e concentra sua força no 
 bordas e até o corpo do inimigo podem se tornar parte desse percurso.
 CANDIDATA EDITORIAL • BASE v0.331 150
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Progressão
 Nível Habilidades
 2 Alvo Estudado, Estudar a Guarda, Golpe Cirúrgico, Cortar a Fuga e Parkour.
@@ -5955,7 +5955,7 @@ utilizar essa preparação. Depois de estudar, também não pode usar Passo Ráp
 rodada terminar.
 CANDIDATA EDITORIAL • BASE v0.331 151
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Desaparecer no Percurso
 Nível 11.
 Uma vez por turno seu, depois de realizar um ataque contra seu Alvo Estudado com uma arma com a
@@ -5994,7 +5994,7 @@ mesmo tamanho dos dados normais de Estímulo Muscular. Em um crítico com Golpe 
 tanto os dados normais de Estímulo Muscular quanto os dados adicionais da habilidade.
 CANDIDATA EDITORIAL • BASE v0.331 152
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Exemplo. Com Destreza 5, Golpe Cirúrgico custa 4 PE e Fluidez e concede 4 dados adicionais. Se seu
 Canalizar normal for 3d4, uma arma de 1d8 causa 1d8 + atributo do ataque + 7d4: os 3d4 normais de
 Canalizar e 4d4 adicionais. Em um crítico que dobre os dados da arma, causa 2d8 + atributo do ataque +
@@ -6032,7 +6032,7 @@ Os testes mantêm suas dificuldades e consequências. Use as distâncias normais
 disponível.
 CANDIDATA EDITORIAL • BASE v0.331 153
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Apoios de infiltração
 Você pode terminar o percurso pendurado em uma borda ou agarrado a uma superfície com apoios
 capazes de sustentá-lo, mantendo pelo menos uma mão ocupada.
@@ -6073,7 +6073,7 @@ Você pode utilizar Golpe Cirúrgico ou Cortar a Fuga nesse ataque, desde que po
 os requisitos normais, pagando seus respectivos custos.
 CANDIDATA EDITORIAL • BASE v0.331 154
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 A partir deste nível, o limite de cada um desses usos passa a ser uma vez entre o começo de um turno seu
 e o começo do próximo, permitindo utilizá-los dentro ou fora do seu turno.
 Usar Golpe Cirúrgico na Brecha Fatal consome o mesmo uso que estaria disponível no seu turno. O
@@ -6112,7 +6112,7 @@ CD do Pugilista = 8 + Força ou Destreza + maestria. Escolha o atributo ao utili
 efeito estiver vinculado a um ataque seu, utilize o atributo daquele ataque.
 CANDIDATA EDITORIAL • BASE v0.331 155
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Cada habilidade indica o tipo de TR e as consequências de sucesso ou falha. Os testes gerais do
 personagem mantêm suas regras. Ao substituir um ataque da Ação Atacar por uma manobra desarmada,
 você também pode usar a CD do Pugilista, preservando o custo e o efeito da manobra.
@@ -6151,7 +6151,7 @@ Você pode gastar Fluidez para utilizar uma das opções abaixo. Nenhuma delas e
 Reação.
 CANDIDATA EDITORIAL • BASE v0.331 156
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 • Depois de ficar Derrubado: levante imediatamente após resolver o efeito que o derrubou, sem gastar
 sua Ação de Movimento. Precisa haver apoio para ficar de pé; um efeito que mantenha você Derrubado
 precisa terminar primeiro.
@@ -6193,7 +6193,7 @@ A contenção termina se você liberar o alvo, deixar de manter a mão ocupada n
 Aberta ou o alvo sair do alcance do seu ataque desarmado. Soltar o alvo não exige ação.
 CANDIDATA EDITORIAL • BASE v0.331 157
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Movimento sobre líquidos
 Nível 11.
 Seu Movimento Acrobático também permite percorrer a superfície de líquidos durante o movimento.
@@ -6234,7 +6234,7 @@ Se o espaço escolhido estiver adjacente a outra criatura que possa ser atingida
 lançar o alvo contra ela.
 CANDIDATA EDITORIAL • BASE v0.331 158
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Depois que o alvo original falhar no TR, a segunda criatura realiza seu próprio TR Físico contra a CD do
 Pugilista. Na falha, sofre a mesma quantidade de dano da projeção e também fica Derrubada. No
 sucesso, evita o impacto.
@@ -6276,7 +6276,7 @@ novamente o ataque. Mantenha os modificadores do atacante e ajuste somente aquel
 especificamente do alvo.
 CANDIDATA EDITORIAL • BASE v0.331 159
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 • Compare o resultado com a Defesa do novo alvo, que pode Bloquear normalmente, incluindo as regras
 de Aparar e Brecha.
 • Se acertar, aplique o dano e os efeitos daquele golpe normalmente. O agressor continua sendo o autor
@@ -6318,7 +6318,7 @@ O segundo ataque precisa ser corpo a corpo ou um arremesso, e nunca um disparo d
 besta. Pode combinar ataques corpo a corpo e arremessos, usar a mesma arma ou armas diferentes e
 CANDIDATA EDITORIAL • BASE v0.331 160
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 atacar a mesma criatura ou criaturas diferentes. Cada ataque é resolvido separadamente, com seu dano e
 seus requisitos normais. Adicionais de dano permanecem sujeitos às próprias regras.
 Sua Ação Bônus permanece disponível. Essa execução não exige Fluidez.
@@ -6360,7 +6360,7 @@ Durante seu turno, antes de rolar um ataque de arremesso com uma arma de uma mã
 Fluidez para fazê-la ricochetear em uma superfície sólida do cenário antes de atingir o alvo.
 CANDIDATA EDITORIAL • BASE v0.331 161
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Escolha o alvo que você percebe e o ponto de ricochete antes da rolagem. A arma percorre dois trechos:
 da sua posição até a superfície e da superfície até o alvo. Ambos precisam estar livres de obstáculos que
 impeçam sua passagem. O ponto de ricochete precisa estar dentro do alcance original da arma.
@@ -6405,7 +6405,7 @@ cobertura. Efeitos escolhidos antes da rolagem continuam sujeitos aos próprios 
 alvo; efeitos vinculados ao resultado do primeiro d20 não são transferidos para o novo resultado.
 CANDIDATA EDITORIAL • BASE v0.331 162
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Um acerto da correção pode gerar Fluidez, respeitando o limite normal do Caminho. Se corrigiu um
 ataque comum e ainda não usou Lançamento Cruzado, esse acerto pode permitir o lançamento adicional,
 pagando seus custos normalmente. Se corrigiu o próprio Lançamento Cruzado, o limite de uso já foi
@@ -6445,7 +6445,7 @@ arma, o ricochete em uma superfície sólida, o percurso livre de até 6 m e a n
 acrescenta outra continuação ao kit.
 CANDIDATA EDITORIAL • BASE v0.331 163
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 O alvo não pode utilizar Bloquear contra o ataque de retorno; compare a rolagem com sua Defesa
 normal. Se utilizou Bloquear contra o arremesso inicial, o ataque de retorno também tem vantagem,
 independentemente de o primeiro arremesso ter acertado.
@@ -6472,7 +6472,7 @@ começo de turno. Mantém alcance de 6 m, caminho livre, mão disponível e dema
 recuperação.
 CANDIDATA EDITORIAL • BASE v0.331 164
 
-PROJETO - M CAMINHOS E TRILHAS
+CICLO MALDITO CAMINHOS E TRILHAS
 Trajetória Perfeita
 Nível 27.
 Uma vez por combate · Fluidez e 12 PE.
@@ -6505,7 +6505,7 @@ Manejo Contínuo pode recuperar a arma depois do último ataque, se estiver disp
 seus requisitos. A execução não garante retorno à mão.
 CANDIDATA EDITORIAL • BASE v0.331 165
 
-PROJETO - M PERÍCIAS E OFÍCIOS
+CICLO MALDITO PERÍCIAS E OFÍCIOS
 7. Perícias e Ofícios
 Durante uma missão, você pode precisar seguir pegadas, conversar com uma testemunha ou abrir uma
 porta trancada. As perícias e os ofícios indicam o que seu personagem sabe fazer e quais bônus entram
@@ -6544,7 +6544,7 @@ Inteligência: o bônus passa a +3, dois pontos a menos. Diante de CD 14, ela pr
 respectivamente.
 CANDIDATA EDITORIAL • BASE v0.331 166
 
-PROJETO - M PERÍCIAS E OFÍCIOS
+CICLO MALDITO PERÍCIAS E OFÍCIOS
 Tarefas e testes
 Descreva o que pretende conseguir e de que maneira. O mestre indica a perícia ou o ofício apropriado, os
 requisitos e o tempo necessário. Role quando houver incerteza e uma falha puder mudar a situação.
@@ -6585,7 +6585,7 @@ precisam superar juntos, use Testes de grupo. Isso não transforma toda busca, c
 individual em teste coletivo.
 CANDIDATA EDITORIAL • BASE v0.331 167
 
-PROJETO - M PERÍCIAS E OFÍCIOS
+CICLO MALDITO PERÍCIAS E OFÍCIOS
 Perícias físicas
 Estas perícias cobrem esforço, equilíbrio e precisão. As seções Movimento e terreno e Ataques, em
 Regras gerais, determinam quando um teste é necessário e o que o sucesso permite.
@@ -6627,7 +6627,7 @@ As perícias desta seção usam Inteligência. Elas permitem examinar indícios 
 personagem aprendeu. Uma resposta depende dos sinais acessíveis e do conhecimento disponível.
 CANDIDATA EDITORIAL • BASE v0.331 168
 
-PROJETO - M PERÍCIAS E OFÍCIOS
+CICLO MALDITO PERÍCIAS E OFÍCIOS
 Investigação
 Use Investigação para vasculhar documentos, examinar uma cena e relacionar pistas. Ela pode revelar
 que duas vítimas visitaram o mesmo lugar ou que uma fechadura foi substituída.
@@ -6668,7 +6668,7 @@ Use Medicina para examinar ferimentos, sintomas e sinais do funcionamento do cor
 pode indicar a causa provável de um mal-estar ou orientar a busca por tratamento.
 CANDIDATA EDITORIAL • BASE v0.331 169
 
-PROJETO - M PERÍCIAS E OFÍCIOS
+CICLO MALDITO PERÍCIAS E OFÍCIOS
 O teste não recupera Vida, remove uma condição ou estabiliza alguém automaticamente. Tratamento e
 socorro seguem o efeito usado e a seção Socorro, em Dano e recuperação. Herbalismo cobre o preparo de
 substâncias, quando houver ingredientes e procedimento adequados.
@@ -6710,7 +6710,7 @@ percepção alcance. Energia e vestígios determina a ação, as distâncias, os
 disponíveis em cada tarefa.
 CANDIDATA EDITORIAL • BASE v0.331 170
 
-PROJETO - M PERÍCIAS E OFÍCIOS
+CICLO MALDITO PERÍCIAS E OFÍCIOS
 A perícia não fornece visão, identidade, grau ou previsão de ações por conta própria. Limitações e
 sentidos especiais da ficha continuam valendo.
 Percepção
@@ -6751,7 +6751,7 @@ continuam necessários.
 Arrombamento Destreza Abrir fechaduras, contornar alarmes e outros dispositivos de acesso.
 CANDIDATA EDITORIAL • BASE v0.331 171
 
-PROJETO - M PERÍCIAS E OFÍCIOS
+CICLO MALDITO PERÍCIAS E OFÍCIOS
 Ofício Atributo padrão Aplicações
 Herbalismo Inteligência Preparar substâncias de origem vegetal, com ingredientes e
 procedimento conhecidos.
@@ -6789,7 +6789,7 @@ será feito, os recursos necessários e o tempo de trabalho. Isso vale para uma 
 documento ou um preparado de uso específico.
 CANDIDATA EDITORIAL • BASE v0.331 172
 
-PROJETO - M PERÍCIAS E OFÍCIOS
+CICLO MALDITO PERÍCIAS E OFÍCIOS
 Definir o projeto
 Registre os pontos abaixo antes de gastar dinheiro ou materiais.
 Parte O que definir
@@ -6830,7 +6830,7 @@ for evidente e o trabalho rotineiro, não é necessário um teste só para confi
 fazê-lo.
 CANDIDATA EDITORIAL • BASE v0.331 173
 
-PROJETO - M PERÍCIAS E OFÍCIOS
+CICLO MALDITO PERÍCIAS E OFÍCIOS
 Uma peça partida, queimada ou incompleta pode exigir componentes novos, uma oficina ou
 reconstrução. O mestre informa o que ainda pode ser aproveitado. Ter um estojo de ferramentas não
 garante consertar qualquer dano durante um descanso.
@@ -6857,7 +6857,7 @@ Herbalismo têm aplicações próprias; tratamento, socorro e recuperação segu
 projeto de reparo não substitui essas regras.
 CANDIDATA EDITORIAL • BASE v0.331 174
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 8. Equipamento
 Antes de entrar numa missão, escolha o que vai levar e anote onde cada item está: vestido, na mão, preso
 ao cinto ou guardado na mochila. Durante uma luta, essa posição determina o que você consegue alcançar
@@ -6895,7 +6895,7 @@ guardar um item, recolher algo solto ao seu alcance, abrir uma porta destrancada
 interruptor acessível usam essa mesma oportunidade.
 CANDIDATA EDITORIAL • BASE v0.331 175
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Depois dela, cada nova manipulação simples exige uma Ação de Movimento inteira. Se já usou parte
 dessa ação para se deslocar, não pode gastar o restante como se ela ainda estivesse inteira. A conversão de
 ações segue as regras do turno.
@@ -6935,7 +6935,7 @@ CD antes da rolagem. A ação paga o tempo da tentativa; o teste determina se el
 ferramenta necessária não concede vantagem ou sucesso automático, a menos que a regra dela diga isso.
 CANDIDATA EDITORIAL • BASE v0.331 176
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Tarefa Resolução
 Acionar uma lanterna já na mão Manipulação simples. Sem teste em condições normais.
 Abrir uma porta destrancada e Manipulação simples.
@@ -6978,7 +6978,7 @@ Par Role duas vezes os dados de dano próprios da arma e use o conjunto de maior
 soma. Aplique os demais acréscimos uma única vez.
 CANDIDATA EDITORIAL • BASE v0.331 177
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Propriedade Efeito
 Alcance O alcance corpo a corpo da arma é 3 m. Sem essa propriedade, o alcance comum é
 1,5 m.
@@ -7020,7 +7020,7 @@ permanecer igual. Se a arma foi escondida sem teste, role na primeira situação
 tornar incerta. Essa rolagem resolve o preparo anterior, sem cobrar uma nova ação naquele momento.
 CANDIDATA EDITORIAL • BASE v0.331 178
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Contra quem apenas observa, compare o total com 10 + bônus de Percepção de cada observador que
 tenha acesso aos sinais. Igualar a CD basta para esconder a arma dele. Aplique os ajustes de luz e
 sentidos da seção Percepção; sem acesso ao sinal, não há descoberta por esse sentido. Quem examina o
@@ -7063,7 +7063,7 @@ Você pode usar um Traje ou um Revestimento. Os valores de dois uniformes não s
 Destreza zero.
 CANDIDATA EDITORIAL • BASE v0.331 179
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Enquanto usar um uniforme, a proteção dele substitui a proteção passiva da sua rota. Compare as duas
 opções antes de escolher o equipamento: vestir uma peça não garante uma Defesa maior.
 Escudo
@@ -7103,7 +7103,7 @@ escolhidos. O benefício não alcança ataques, Ofícios ou outros testes. Ele n
 dispensa os requisitos da tentativa.
 CANDIDATA EDITORIAL • BASE v0.331 180
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Situações Situações
 Vão apertado Água e chuva
 Altura e beirada Multidão
@@ -7137,7 +7137,7 @@ Esse teto não muda seus testes ou ataques com Destreza. Os Revestimentos não c
 situação dos Trajes.
 CANDIDATA EDITORIAL • BASE v0.331 181
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Escudos
 Um escudo concede sua proteção enquanto estiver preparado e empunhado. Ele ocupa uma mão,
 inclusive se estiver preso ao braço. Você recebe o benefício de apenas um escudo por vez.
@@ -7176,7 +7176,7 @@ teto de Destreza continua valendo até a tarefa terminar. A peça continua conta
 você a carregar.
 CANDIDATA EDITORIAL • BASE v0.331 182
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 A proteção passiva da sua rota volta a ficar disponível depois de terminar de retirar o uniforme. Se
 abandonar a retirada e decidir voltar a usar a peça, primeiro conclua a retirada e depois faça o preparo
 novamente. Interromper a tarefa não restaura a proteção.
@@ -7214,7 +7214,7 @@ posicionar uma flecha faz parte do ataque; eles não exigem uma Ação Bônus pa
 estar ao alcance da mão que a manipula.
 CANDIDATA EDITORIAL • BASE v0.331 183
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Armas de fogo
 Cada item abaixo abastece por completo a arma indicada. O preço inclui um recipiente simples:
 carregador, conjunto de cartuchos ou caixa, conforme a arma. Um cartucho avulso não equivale a uma
@@ -7257,7 +7257,7 @@ que restou, sem acrescentar nem consumir munição. Se ela estiver vazia, só vo
 receber pelo menos uma unidade compatível.
 CANDIDATA EDITORIAL • BASE v0.331 184
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Exemplo: Kaori tem um Rifle com 3 unidades e 3 na reserva. O primeiro ataque consome uma e termina em
 2 natural: o Rifle fica com 2 e precisa recarregar. Kaori gasta sua Ação Bônus, acrescenta uma da reserva e
 fica com 3 na arma e 2 guardadas. Se não tivesse reserva, a mesma ação deixaria o Rifle pronto com as 2
@@ -7296,7 +7296,7 @@ espaço, gastando 1 minuto. O total de munição permanece o mesmo. Recipientes 
 carga se forem guardados em outro local ou descartados.
 CANDIDATA EDITORIAL • BASE v0.331 185
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Munição inicial
 Na criação do personagem, a compra de uma arma de fogo inclui três cargas completas: uma instalada e
 duas de reserva. A compra de um arco ou besta inclui um conjunto de 20 projéteis da tabela. Na besta,
@@ -7339,7 +7339,7 @@ valor de criação vale uma vez, ao montar a ficha. Nas demais armas, o preço �
 momentos.
 CANDIDATA EDITORIAL • BASE v0.331 186
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Armas de fogo exigem Grau 2 ou autorização prévia. Ter dinheiro ou treino não dispensa esse acesso. O
 estoque inicial e a reposição de projéteis estão em Munição; uma compra posterior da arma não renova o
 fornecimento inicial.
@@ -7374,7 +7374,7 @@ Wakizashi (espada 1 1d8 Cortante Oculta · Leve — 0,5 32.000
 curta)
 CANDIDATA EDITORIAL • BASE v0.331 187
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Armas de impacto
 Massa
 Treino simples. Maças, martelos e clavas que ferem pelo impacto.
@@ -7412,7 +7412,7 @@ Tekko (proteção de 1 1d4 Vestida · Par · Oculta · Leve — 0,2 8.000
 punho) Concussão
 CANDIDATA EDITORIAL • BASE v0.331 188
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Machados, foices e hastes
 Machado
 Treino marcial. Lâminas montadas em cabos curtos ou longos.
@@ -7448,7 +7448,7 @@ Manriki (corrente 1 1d6 Emaranha · Oculta · Leve — 0,5 8.000
 com pesos) Concussão
 CANDIDATA EDITORIAL • BASE v0.331 189
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Arremesso
 Treino simples. Armas feitas para serem lançadas.
 Arma Mãos Dano Propriedades Força Volume Preço (¥)
@@ -7489,7 +7489,7 @@ Pistola 1 1d10 Longo Alcance 9/27 m · Munição · — 0,5 125.000 / 250.000
 Perfurante Oculta · Leve
 CANDIDATA EDITORIAL • BASE v0.331 190
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Arma Mãos Dano Propriedades Força Volume Preço (¥)
 Revólver 1 1d10 Longo Alcance 12/36 m · Munição — 0,5 150.000 / 300.000
 Perfurante · Oculta · Leve
@@ -7529,7 +7529,7 @@ Na compra, a lanterna e o telefone estão prontos para uso. O telefone dura um d
 transmissão contínua ou outra tarefa demorada pode exigir recarga antes, com duração informada pelo
 CANDIDATA EDITORIAL • BASE v0.331 191
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 mestre. A bateria portátil oferece uma recarga e depois precisa ser carregada novamente. Água, alimento,
 pilhas e cargas elétricas não se renovam por começar outra cena.
 Exemplo: mochila, corda, lanterna, pilhas e cantil custam ¥13.000 e ocupam 1,3 Volume, incluindo a
@@ -7571,7 +7571,7 @@ uma manipulação simples. O aparelho não concede informação que ninguém reg
 sobrenaturais.
 CANDIDATA EDITORIAL • BASE v0.331 192
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Fechaduras e contenção
 Uma porta pode ceder pela tranca, pelas dobradiças ou pela própria folha. Declare o que pretende fazer
 antes do teste. Destravar uma fechadura conserva o objeto; forçá-lo pode danificá-lo e produzir barulho.
@@ -7613,7 +7613,7 @@ Abrir a algema Chave: manipulação simples. Gazuas: procedimento de Abrir fecha
 como manipulá-las.
 CANDIDATA EDITORIAL • BASE v0.331 193
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 No sucesso, a contenção escolhida se desfaz; na falha, permanece. Uma tentativa de escapar pela força ou
 por Acrobacia pode ser feita com as mãos presas. Cortar uma corda acessível exige uma lâmina adequada
 e Ação Padrão; não causa dano à criatura contida.
@@ -7652,7 +7652,7 @@ inclusive quando inativos. Outros tipos dependem do material, com ajustes defini
 Um objeto parado falha em TR Físico ou de Vigor; efeitos mentais não se aplicam.
 CANDIDATA EDITORIAL • BASE v0.331 194
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Estas tabelas servem para obstáculos e objetos soltos. Atingir alguém não danifica seus itens. Destruir ou
 arrancar equipamento vestido ou empunhado exige uma regra que permita esse alvo e determine a
 resolução. Objetos com ficha própria usam seus valores.
@@ -7695,7 +7695,7 @@ improvisação. O treino no uso habitual não cobre automaticamente esse uso. O 
 propriedades que dependam dele não acompanham a coronhada.
 CANDIDATA EDITORIAL • BASE v0.331 195
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 O mestre informa antes do ataque se o objeto corre risco de quebrar. Não há desgaste automático por
 golpe para objetos resistentes. Um objeto quebrado deixa de funcionar daquele modo; seus pedaços só
 podem ser usados se ainda servirem para outra tentativa.
@@ -7707,7 +7707,7 @@ Dinheiro
 Os preços deste livro estão em ienes (¥). Anote o dinheiro do personagem e desconte cada compra.
 Armas, munição e itens comuns têm seus preços nos respectivos catálogos; os de uniformes e escudos
 estão em Preços de proteção (p. 197).
-Na instituição do Projeto M, o pagamento regular depende da patente e da participação em missões.
+Na instituição do Ciclo Maldito, o pagamento regular depende da patente e da participação em missões.
 Valores, frequência e ajustes da campanha estão em Recompensas da guilda, no capítulo de Experiência
 e Progressão. Receber equipamento ou terminar uma missão não concede outro pagamento por conta
 própria.
@@ -7733,7 +7733,7 @@ pois o acesso comum às armas de fogo começa no Grau 2. Mesmo autorizada, deve 
 pela arma e a carga do conjunto que pretende levar.
 CANDIDATA EDITORIAL • BASE v0.331 196
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Preços de proteção
 Os valores abaixo são para uma peça comum do tipo indicado. Proteção, teto de Destreza, Força exigida e
 Volume estão em Proteção. Os requisitos de compra estão em Equipamento restrito (p. 196).
@@ -7773,7 +7773,7 @@ alto não concede uma patente por conta própria. Campanhas com outra forma de s
 fundo antes das compras.
 CANDIDATA EDITORIAL • BASE v0.331 197
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Montar o inventário
 1. Escolha armas e proteção. Confira o acesso, o treino, a Força e as mãos necessárias para usá-las.
 2. Use o preço de criação para armas de fogo e o preço comum para os demais itens. Desconte cada
@@ -7813,7 +7813,7 @@ reposição de pilhas por ¥500. Gasta ¥8.000, fica com ¥2.000 e acrescenta 1,
 carregadores fornecem 9 ataques de reserva, além da munição que já estiver na arma.
 CANDIDATA EDITORIAL • BASE v0.331 198
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Equipamento do grupo
 Ao passar um item para outra pessoa, retire-o do inventário de quem entregou e registre-o com quem
 recebeu. Transfira também seu estado e os suprimentos restantes. O mesmo objeto não pode constar
@@ -7855,7 +7855,7 @@ Defesa, situação de Traje ou qualquer outro benefício de armadura. Ele també
 passiva da sua rota.
 CANDIDATA EDITORIAL • BASE v0.331 199
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Características da base
 O item conserva Volume, mãos necessárias, dano, proteção, teto de Destreza e requisitos. Altere uma
 característica apenas quando o efeito disser que faz isso. Uma arma não recebe a propriedade Leve por
@@ -7868,7 +7868,7 @@ tinha antes de vesti-lo. Se recebesse um Traje 2 com o mesmo efeito, usaria a pr
 Traje 2, além da mudança de aparência.
 Graus das ferramentas
 O grau organiza a entrega de ferramentas na campanha. Graus mais altos permitem efeitos mais
-marcantes. A escala abaixo é uma adaptação do Projeto - M; as fichas deste catálogo são criações para o
+marcantes. A escala abaixo é uma adaptação do Ciclo Maldito; as fichas deste catálogo são criações para o
 jogo.
 Grau Efeito esperado Nível mínimo para o efeito
 4 Energia no item, sem efeito especial Nenhum
@@ -7894,7 +7894,7 @@ esse efeito para um anel não transforma os ataques do portador em ataques de lo
 não se pode costurar acessórios numa armadura para contornar os limites de itens em uso (p. 201).
 CANDIDATA EDITORIAL • BASE v0.331 200
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Números e progressão
 Ao criar uma ferramenta de grau maior, procure uma nova possibilidade de ação, uma forma de explorar
 o ambiente ou uma exceção limitada. Aumentar o grau não permite ampliar livremente alcance,
@@ -7938,7 +7938,7 @@ Efeitos iguais não se somam. Vários itens também não concedem Reações adic
 os recursos normais do personagem.
 CANDIDATA EDITORIAL • BASE v0.331 201
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Aquisição e criação
 Ferramentas podem ser recompensas, empréstimos da instituição, heranças ou achados de uma missão.
 O mestre decide quais estão disponíveis. Cumprir o nível mínimo permite usar o efeito; não garante
@@ -7981,7 +7981,7 @@ mão estiver livre. O retorno não custa ação, não ataca ninguém e segue um 
 até você, limitado à distância máxima daquele arremesso.
 CANDIDATA EDITORIAL • BASE v0.331 202
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Se a arma ficar presa, for agarrada ou houver um obstáculo bloqueando o retorno, ela permanece onde
 está. Fiel não impede que alguém a tire de sua mão e não permite chamá-la da mochila ou de outro local.
 O efeito move a própria arma; não recupera munições ou projéteis disparados por outra arma.
@@ -8020,7 +8020,7 @@ uniforme, mas continua rígido ao toque e não fica menor. Insígnias copiadas n
 enganar alguém continua dependendo da situação e dos testes apropriados.
 CANDIDATA EDITORIAL • BASE v0.331 203
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Traje de Fuga
 Traje 1. Grau 2. Efeito: Costura de Fuga. Uma vez por cena. Compatível com roupas e Trajes.
 Quando estiver Agarrado por outra criatura, use uma Ação Bônus para encerrar um desses agarrões. A
@@ -8060,7 +8060,7 @@ aliado não recebe ataque ou outra ação. O efeito só pode ser usado enquanto 
 escudo.
 CANDIDATA EDITORIAL • BASE v0.331 204
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Escudo Suspenso
 Escudo Médio. Grau 1. Efeito: Suspensão. Uma vez por descanso curto. Compatível com escudos.
 Com o escudo preparado, use uma Ação Bônus para fazê-lo flutuar junto de você por 1 minuto, liberando
@@ -8102,7 +8102,7 @@ Enquanto usar esta peça, você ignora o requisito de Força dela. Os demais req
 O efeito não modifica seu atributo, o teto de Destreza da proteção, as mãos necessárias ou o Volume.
 CANDIDATA EDITORIAL • BASE v0.331 205
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Uma personagem ainda precisa conseguir carregar o conjunto. Contrapeso também não permite usar
 uma peça que seu corpo não possa vestir ou empunhar.
 Colar de Ar
@@ -8146,7 +8146,7 @@ efeitos sobre si. Os outros dois ainda resolvem a explosão. Ele já gastou sua 
 daquela cena.
 CANDIDATA EDITORIAL • BASE v0.331 206
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Desgaste
 Uma ferramenta com Desgaste permite usar seu efeito antes do nível mínimo. Em troca, esse poder dura
 um número limitado de missões. A propriedade faz parte da ficha do item; o portador não pode
@@ -8184,12 +8184,12 @@ são um exemplo: atraem maldições e carregam o risco de encarnação. Esses ob
 missão de busca, escolta ou contenção.
 CANDIDATA EDITORIAL • BASE v0.331 207
 
-PROJETO - M EQUIPAMENTO
+CICLO MALDITO EQUIPAMENTO
 Objetos amaldiçoados têm efeitos próprios. Eles não recebem poderes pelo catálogo de ferramentas.
 Uma ferramenta serve como equipamento, empunhada ou vestida; os perigos de um objeto podem
 continuar presentes enquanto ele está guardado.
 Atração e selos
-No Projeto - M, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo
+No Ciclo Maldito, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo
 pode pôr em risco o grupo e as pessoas ao redor. A regra não fixa distância nem frequência de encontros:
 o mestre considera o objeto, o local e as maldições presentes.
 Um objeto preparado como amuleto usa um selo para afastar maldições. Essa proteção enfraquece com o
@@ -8217,7 +8217,7 @@ pode exigir condições próprias; não presuma que os procedimentos para quebra
 qualquer objeto amaldiçoado.
 CANDIDATA EDITORIAL • BASE v0.331 208
 
-PROJETO - M PROGRESSÃO
+CICLO MALDITO PROGRESSÃO
 9. Progressão
 Experiência e Progressão
 Missões dão experiência. Ao reunir XP suficiente, seu personagem sobe de nível, amplia o repertório e
@@ -8253,7 +8253,7 @@ seu desconto semanal. Uma recompensa de zero continua zero; ela não recebe o m�
 recompensas positivas.
 CANDIDATA EDITORIAL • BASE v0.331 209
 
-PROJETO - M PROGRESSÃO
+CICLO MALDITO PROGRESSÃO
 Subir de nível
 A tabela informa quanto custa sair do nível atual. Ela não mostra o XP acumulado desde a criação.
 Nível atual XP para o próximo
@@ -8293,7 +8293,7 @@ atribuí-la à semana. Uma missão de várias sessões conta uma vez, quando ter
 missão sem XP ainda ocupa sua posição semanal.
 CANDIDATA EDITORIAL • BASE v0.331 210
 
-PROJETO - M PROGRESSÃO
+CICLO MALDITO PROGRESSÃO
 Exemplo. Sua terceira missão da semana era longa e terminou em falha com metade da recompensa. A
 conta é 200 × ½ × ½ = 50 XP. Outra pessoa, em sua primeira missão da semana, recebe 100.
 Limiar do nível 20
@@ -8336,7 +8336,7 @@ Efeito
 4 1 4 1 1 1 2
 CANDIDATA EDITORIAL • BASE v0.331 211
 
-PROJETO - M PROGRESSÃO
+CICLO MALDITO PROGRESSÃO
 Nível Maestria Espaços Refino básico Classe máxima Categoria de Classe 0
 Efeito
 5 1 4 1 2 1 3
@@ -8375,7 +8375,7 @@ Efeito
 26 4 21 7 7 3 5
 CANDIDATA EDITORIAL • BASE v0.331 212
 
-PROJETO - M PROGRESSÃO
+CICLO MALDITO PROGRESSÃO
 Nível Maestria Espaços Refino básico Classe máxima Categoria de Classe 0
 Efeito
 27 4 21 7 7 3 5
@@ -8415,7 +8415,7 @@ Na rota sem energia, substitua Refino e aptidão por Lapidação e Bênção, e 
 rotas usam suas aplicações correspondentes.
 CANDIDATA EDITORIAL • BASE v0.331 213
 
-PROJETO - M PROGRESSÃO
+CICLO MALDITO PROGRESSÃO
 Repertório e novas escolhas
 Sua capacidade comum é 2 + metade do nível, arredondada para baixo, + a quantidade de marcos
 alcançados. A tabela já faz essa conta. Nos níveis pares comuns entra um espaço; num nível de marco
@@ -8458,7 +8458,7 @@ PE máximo = PE por nível do Caminho × nível, acrescido dos benefícios espec
 permanente de Constituição recalcula toda a vida, não somente a parcela do nível recém-adquirido.
 CANDIDATA EDITORIAL • BASE v0.331 214
 
-PROJETO - M PROGRESSÃO
+CICLO MALDITO PROGRESSÃO
 A subida não é um descanso. Somente o aumento de máximo produzido pelo novo nível e seu marco
 acrescenta a diferença ao saldo atual, calculada com a ficha anterior à troca de Trilha. Assim, conserva o
 dano ou o PE que faltavam antes desse crescimento. Quem está a zero de vida permanece a zero e precisa
@@ -8500,7 +8500,7 @@ nova capacidade e regularize a ficha antes de usá-la novamente. Suspender uma e
 história nem permite alterná-la durante as missões.
 CANDIDATA EDITORIAL • BASE v0.331 215
 
-PROJETO - M PROGRESSÃO
+CICLO MALDITO PROGRESSÃO
 Entidades e espaços
 Ao perder a duplicação, cada entidade por espaço passa a exigir uma vaga própria. Conserve uma
 entidade em cada vaga já ocupada e use vagas livres para as outras que desejar manter disponíveis.
@@ -8526,8 +8526,8 @@ Registre versões válidas das fichas afetadas. Entidades domadas ou fabricadas 
 própria; a troca de Trilha não as transforma em entidades por espaço nem aumenta seu nível.
 Recompensas da guilda
 Salário e recompensas por mestrar são políticas opcionais da campanha. A tabela oferece uma escala do
-Projeto M para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da obra
-ou do Japão real.
+Ciclo Maldito para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da
+obra ou do Japão real.
 Grau Salário mensal de referência
 4 ¥150.000
 3 ¥300.000
@@ -8543,7 +8543,7 @@ participações completam o mês; a recomendação é três. Missão curta ou pa
 duas e final de arco conta três.
 CANDIDATA EDITORIAL • BASE v0.331 216
 
-PROJETO - M PROGRESSÃO
+CICLO MALDITO PROGRESSÃO
 Divida os três quartos restantes igualmente pelo número exigido, até completar o salário. Com três
 participações exigidas, quem fez zero recebe 25%, uma recebe 50%, duas recebem 75% e três ou mais
 recebem 100%. Use o Grau registrado no fechamento mensal e arredonde o pagamento final para baixo.
@@ -8553,8 +8553,8 @@ recursos ou um bônus a cada quantidade anunciada de missões mestradas.
 Se escolher uma mensalidade extra a cada X missões, a marca fecha ao completar X e usa o Grau daquele
 momento. Não guarde uma marca concluída para cobrar depois em outro Grau.
 Patentes
-A patente registra o reconhecimento do personagem pela instituição. O Projeto M usa os Graus 4, 3, 2, 1
-e Especial, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a
+A patente registra o reconhecimento do personagem pela instituição. O Ciclo Maldito usa os Graus 4, 3,
+2, 1 e Especial, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a
 remuneração adotada pela campanha.
 Na criação padrão, você começa no Grau 4, independentemente da Origem. Uma campanha que comece
 com personagens já reconhecidos pode definir outra patente inicial, conforme Equipamento inicial, em
@@ -8569,12 +8569,12 @@ Se a campanha usar remuneração, consulte Recompensas da guilda. Registre a pat
 fechamento indicado por aquele procedimento.
 CANDIDATA EDITORIAL • BASE v0.331 217
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 PARTE 3 • TÉCNICAS E PODERES
 10. Fundamento
 Uma técnica pode transformar uma luta antes de causar qualquer ferimento: prender uma porta, separar
-dois inimigos ou levar um aliado para fora do perigo. No Projeto - M, você escreve o que a sua técnica faz
-e monta as aplicações que o personagem aprendeu a usar.
+dois inimigos ou levar um aliado para fora do perigo. No Ciclo Maldito, você escreve o que a sua técnica
+faz e monta as aplicações que o personagem aprendeu a usar.
 O Fundamento é a descrição dessa técnica e dos seus limites. Cada aplicação preparada é um feitiço, com
 nome, custo e efeito próprios. Você mantém o mesmo Fundamento e aprende novas aplicações ao longo
 da campanha.
@@ -8599,7 +8599,7 @@ requisitos dos seus capítulos.
 Espaço de feitiço conhecido é uma vaga na ficha. Nas três rotas, uma dessas vagas pode ser ocupada por
 uma invocação quando o funcionamento da técnica ou do estilo prevê entidades. A contagem e a troca
 estão em Feitiços conhecidos (p. 222).
-Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Projeto - M. As técnicas
+Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Ciclo Maldito. As técnicas
 originais destes exemplos foram criadas para ensinar o sistema.
 Sua técnica
 Escreva o Fundamento junto com o mestre. Descreva primeiro o que acontece na cena. Os números
@@ -8609,7 +8609,7 @@ A Descrição apresenta o poder: como ele aparece, o que transforma e o que algu
 A Regra resume o funcionamento em uma frase. Todo feitiço precisa caber nela.
 CANDIDATA EDITORIAL • BASE v0.331 218
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Você pode partir de fogo, sombras, som, peso, papel ou outra ideia. Acrescente um modo de agir e um
 limite. “Produzo chamas a partir das marcas que deixo com a mão” já ajuda a imaginar alvos, preparação
 e maneiras de impedir o uso.
@@ -8647,7 +8647,7 @@ Restrição, mas prefere poder usar o feitiço sem outra exigência.
 5. Ficha. Ela anota o que acontece e a resolução escolhida. O nome descreve a manobra.
 CANDIDATA EDITORIAL • BASE v0.331 219
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Fio de Arrasto Regra
 Classe e custo Classe 1; 3 PE; Ação Padrão.
 Alvo e alcance Uma criatura a até 18 m, com caminho desimpedido.
@@ -8684,7 +8684,7 @@ Exemplo. Uma Melhoria Média de Classe 3 custa 3 pontos. Se a Família é Livre,
 Uma Leve custa 2 e também fica em 1. Não existe Melhoria gratuita por esse desconto.
 CANDIDATA EDITORIAL • BASE v0.331 220
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Famílias Fechadas
 Você não compra Melhorias de uma Família Fechada. Fechar Área também impede Explosão, Aura,
 Cone e Linha. Fechar Amparo impede Cura, Apoio e Onda.
@@ -8726,7 +8726,7 @@ respectivamente 1, 2 e 3 espaços e ficam disponíveis nos níveis 1, 7 e 13. O 
 pagos.
 CANDIDATA EDITORIAL • BASE v0.331 221
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 O catálogo de Talentos traz seus efeitos e a Regra Própria. A Expressão da técnica não ocupa espaço;
 Regra Própria segue o custo específico de sua progressão. Nenhuma dessas opções permite comprar
 efeitos de uma Família Fechada por outro nome.
@@ -8766,7 +8766,7 @@ escolhida. Se uma revisão das regras invalidar uma montagem, corrija-a gratuita
 troca de nível.
 CANDIDATA EDITORIAL • BASE v0.331 222
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Pontos e preços
 A Classe define os pontos, o custo em PE e o limite de peças. Escolha uma Classe disponível, de 1 até a
 sua maior. Feitiços de Classe 0 (p. 235) têm regras próprias.
@@ -8799,7 +8799,7 @@ nunca elevar o saldo acima dos 3 × Classe iniciais. Técnica Máxima usa outro 
 devolução.
 CANDIDATA EDITORIAL • BASE v0.331 223
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Formas de ataque
 A Forma define por onde o feitiço chega e quem pode atingir. Escolha uma por ficha. As medidas desta
 seção valem nas Classes 1 a 5. A progressão está em Alcance e área (p. 225).
@@ -8841,7 +8841,7 @@ Apoio 0 Um aliado a até 9 m. Cada ponto do saldo
 concede 3 pontos de vida temporária.
 CANDIDATA EDITORIAL • BASE v0.331 224
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Forma Custo Alvo e resultado nas Classes 1 a 5
 Onda Pesada Aliados numa esfera de raio 3 m centrada
 em você. Escolha cura ou apoio ao montar.
@@ -8883,7 +8883,7 @@ Cura e Apoio Apoio: 4,5 m. 9 m 18 m
 Onda Indisponível. Em você; raio 3 m. Em você; raio 4,5 m.
 CANDIDATA EDITORIAL • BASE v0.331 225
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Aumentos
 Medida Degraus
 Distância ao alvo ou ponto 1,5 m; 9 m; 18 m; 36 m; 90 m; visão a olho nu.
@@ -8924,7 +8924,7 @@ cada uma ocupa seu espaço, ou substitui a anterior numa reescrita permitida. A 
 Cura ou Apoio em ataque automático contra um inimigo.
 CANDIDATA EDITORIAL • BASE v0.331 226
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Numa área, resolva o ataque ou o TR separadamente para cada alvo. Role uma vez para cada quantidade
 de dados necessária e aplique o mesmo total aos alvos com o mesmo resultado: por exemplo, 5d8 para
 quem falhou no TR e 2d8 para quem passou. Um crítico amplia os dados apenas contra o alvo daquele
@@ -8968,7 +8968,7 @@ combina com Parado. Uma Liberação Máxima já exige Ação Completa: Atrasar e
 devolvem pontos.
 CANDIDATA EDITORIAL • BASE v0.331 227
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Uma Melhoria também não pode cancelar a dificuldade que pagou por ela. Silencioso não elimina Gesto
 mantendo sua devolução. Pode conviver com Barulho, mas o som exigido por Barulho continua audível e
 revela a origem. A conjuração não permanece escondida por causa de Silencioso.
@@ -9009,7 +9009,7 @@ para Projétil: os 18 m já atendem à ideia. Perde a devolução de Corpo a Cor
 descrição do fio.
 CANDIDATA EDITORIAL • BASE v0.331 228
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Controle
 Você pode montar um feitiço para prender um adversário, mudar sua posição ou criar um obstáculo.
 Escolha o resultado antes de procurar uma condição: impedir passagem pode pedir uma parede. Impedir
@@ -9050,7 +9050,7 @@ depois não causa novo Atordoado. As raízes são a aparência desses efeitos, s
 dano por conta própria.
 CANDIDATA EDITORIAL • BASE v0.331 229
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Outras aplicações
 Volte à ideia da técnica e procure outro problema que ela pode resolver. Os fios de Mei podem facilitar
 uma retirada ou levantar uma divisória, sem precisar receber uma nova origem a cada feitiço.
@@ -9094,7 +9094,7 @@ benefício de apoio que possa ser repartido. Não copia bônus ou condições. A
 números inteiros, antes de rolar, e não exceda o total da ficha. Um tiro ou alvo sem dados não recebe os
 CANDIDATA EDITORIAL • BASE v0.331 230
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 efeitos de um tiro ao acertar. Dividir 6d8 em três ataques pode resultar em 2d8 por ataque. Não produz
 três ataques de 6d8.
 Dados adicionais da própria montagem
@@ -9135,7 +9135,7 @@ causar mais dano que uma aplicação instantânea. A concentração, a saída da
 essa permanência.
 CANDIDATA EDITORIAL • BASE v0.331 231
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Exemplo de permanência
 Uma área com 10d8 de dano inicial é criada na rodada 2. Fica usa 5d8 nas resoluções posteriores. Um
 inimigo continua próximo durante toda a duração:
@@ -9177,7 +9177,7 @@ saber o que alguém pensa ou reconhecer uma técnica exige a capacidade correspo
 não substitui Percepção, Sentir Energia ou investigação quando essas regras forem necessárias.
 CANDIDATA EDITORIAL • BASE v0.331 232
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Da mesma forma, descrever passos suaves não concede um teste gratuito de Esconder, vantagem nem
 ausência completa de ruído. Um benefício de furtividade precisa estar escrito no efeito que o fornece.
 Quando preparar um feitiço
@@ -9218,7 +9218,7 @@ Barreiras e poderes de outra criatura conservam seus requisitos e defesas. A apl
 simplesmente porque a área escolhida é maior.
 CANDIDATA EDITORIAL • BASE v0.331 233
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Ficha da aplicação
 Registre onde começa, até onde se estende, o que muda, por quanto tempo e como termina. Defina se
 permanece quando um combate começa. Se uma consequência passar a afetar testes, ataques ou ações,
@@ -9255,7 +9255,7 @@ outro espaço disponível ou a reescrita permitida ao subir de nível. Feitiços
 própria progressão e não usam esta conta de ampliação.
 CANDIDATA EDITORIAL • BASE v0.331 234
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Feitiços de Classe 0
 Classe 0 reúne aplicações pequenas que você pode usar sem gastar PE. Elas têm uma quantidade própria
 na ficha e não ocupam os espaços de feitiços conhecidos.
@@ -9291,7 +9291,7 @@ antes da sessão. Ele conta como uma Melhoria, com preço definido na criação.
 feitiço.
 CANDIDATA EDITORIAL • BASE v0.331 235
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Da ideia à regra
 Escreva primeiro o resultado que você espera na cena. “Fazer dobraduras vivas” pode significar observar
 um lugar, carregar um objeto ou lutar ao seu lado. São capacidades diferentes. Uma entidade que age por
@@ -9327,7 +9327,7 @@ Monte a Liberação antes da sessão, em Classe 3 ou maior, dentro da Classe má
 o procedimento comum e acrescente +Classe em d8 ao dano da montagem. Ela não serve para cura.
 CANDIDATA EDITORIAL • BASE v0.331 236
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Custo e uso
 O custo é 3 × Classe de PE, aumentado em 50%, arredondado para cima. A Liberação exige Ação
 Completa. Ela compromete a Padrão, a Bônus e o Movimento do turno. Conserva sua Reação, conforme
@@ -9367,7 +9367,7 @@ define as medidas e os valores das peças. Famílias Livres dão seu desconto no
 indisponíveis. A Forma não recebe desconto.
 CANDIDATA EDITORIAL • BASE v0.331 237
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Você registra uma aplicação com dano, com cura ou sem dano. Não alterna entre esses resultados a cada
 uso. A Máxima é recebida pela progressão, fora dos espaços comuns, e não fornece uma vaga para
 invocação.
@@ -9408,7 +9408,7 @@ das sobras de montagem da Máxima. Uma proteção especial em pontos de vida exi
 com quantidade definida.
 CANDIDATA EDITORIAL • BASE v0.331 238
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Antes de escolher uma combinação pequena como Máxima, compare-a com um feitiço comum. Se o
 comum já faz a mesma coisa com menos PE, use-o nessa função. As próximas fichas mostram duas
 aplicações: Passagem de Papel (p. 240), preparada fora de combate, e Retirada de Emergência (p. 241),
@@ -9453,13 +9453,13 @@ Trocar a função, a Forma ou as peças já escolhidas usa a revisão de um feit
 correção exigida por mudança das regras não gasta essa revisão. Efeitos próprios só aumentam alvos,
 CANDIDATA EDITORIAL • BASE v0.331 239
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 distâncias ou duração quando a ficha disser isso: mais pontos disponíveis não ampliam esses valores
 sozinhos.
 Passagem de Papel
 Este exemplo de Técnica Máxima sem dano pertence a um Fundamento que liga superfícies por
 dobraduras. Sua Regra permite unir duas marcas preparadas. Suas Famílias Fechadas são Amparo,
-Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M.
+Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Ciclo Maldito.
 Montagem
 Forma Efeito (0) + Efeito Próprio: passagem entre marcas (Pesada). Sem desconto de Família. O custo é
 8, 9 ou 11 pontos, conforme a maior Classe seja 5, 6 ou 7. Cabe nos orçamentos 8, 12 e 16. Os dados de
@@ -9496,11 +9496,11 @@ concretas para resolver a tentativa. A ficha não permite escolher qualquer dest
 uso.
 CANDIDATA EDITORIAL • BASE v0.331 240
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Retirada de Emergência
 Esta Máxima sem dano em combate pertence a uma técnica que distribui impulso por fios ligados a
 corpos dispostos. Sua Regra permite conduzir os movimentos desses corpos. Alcance e Área precisam
-estar disponíveis. É uma criação original do Projeto - M.
+estar disponíveis. É uma criação original do Ciclo Maldito.
 Montagem e uso
 Efeito (0) + Efeito Próprio: retirada coletiva (Pesada, sem desconto). São 8/9/11 pontos nas faixas
 17/21/26, dentro dos orçamentos 8/12/16. Sem dano, cura ou vida temporária.
@@ -9538,7 +9538,7 @@ Nome e descrição Um nome e uma frase sobre o que acontece.
 Classe e tipo Classe comum, Classe 0, Liberação Máxima ou Técnica Máxima.
 CANDIDATA EDITORIAL • BASE v0.331 241
 
-PROJETO - M FUNDAMENTO
+CICLO MALDITO FUNDAMENTO
 Campo O que registrar
 Ação e custo Ação Padrão, Bônus, Reação com gatilho ou Completa; PE e outros custos.
 Alvos e alcance Criaturas ou objetos permitidos; origem, distância, área e obstáculos.
@@ -9562,7 +9562,7 @@ Guarde a versão conferida. Se uma mudança de regra exigir corrigir a montagem,
 registro da alteração.
 CANDIDATA EDITORIAL • BASE v0.331 242
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 11. Catálogo de criação
 Uma Melhoria acrescenta um efeito ao feitiço. Uma Restrição aceita uma dificuldade em troca de pontos.
 Um Talento ocupa espaços do repertório e modifica o personagem ou sua técnica. Escolha as entradas
@@ -9600,7 +9600,7 @@ Forma. Em Cone e Linha, aumente o comprimento pela escada própria. Não aumenta
 origem de uma área centrada em você. Não combina com Toque, Aura ou Onda.
 CANDIDATA EDITORIAL • BASE v0.331 243
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Muito Longe
 Preço: Média. Aumenta o alcance em três degraus, pelas mesmas escadas e limites de Longe. Não
 ultrapassa o último degrau. Não combina com Toque, Aura ou Onda.
@@ -9643,7 +9643,7 @@ largura para 3 m e então 4,5 m. Não cria área numa Forma de alvo individual n
 seu ponto de origem.
 CANDIDATA EDITORIAL • BASE v0.331 244
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Muito Maior
 Preço: Pesada. Aumenta o tamanho da área em três degraus, seguindo a mesma ordem e os mesmos
 limites de Maior. Não ultrapassa o último degrau nem cria área onde não existe.
@@ -9687,7 +9687,7 @@ errar. O TR reduz ou evita o dano conforme a ficha. Em Rajada, escolha um tiro q
 e use só os dados desse tiro. O segundo alvo cumpre os requisitos de visão e alvo da ficha. O Salto não
 CANDIDATA EDITORIAL • BASE v0.331 245
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 causa crítico, não reaplica peças nem ativa benefícios de outro ataque. Não volta a saltar. Em Toque, os
 dois alvos devem estar a até 1,5 m de você.
 Contorno
@@ -9728,7 +9728,7 @@ feitiço não reduz seu dano nesta aplicação. Não remove a resistência do al
 ignora imunidade ou Redução de Dano.
 CANDIDATA EDITORIAL • BASE v0.331 246
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Sem Cobertura
 Preço: Leve. Ignore os bônus de Cobertura Parcial contra este feitiço. Cobertura Boa mantém seus
 bônus; Cobertura Total continua impedindo escolher diretamente o alvo. Esta peça não concede visão
@@ -9771,7 +9771,7 @@ Classe a item, característica inata, Selo ou Domínio. Esses casos só podem se
 concederem essa possibilidade.
 CANDIDATA EDITORIAL • BASE v0.331 247
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Obstáculos e contenção
 Anteparo
 Preço: Média. Cria uma barreira fixa, num ponto válido ao alcance do feitiço, com 10 × Classe PV e
@@ -9814,7 +9814,7 @@ A penalidade só entra depois da resolução que aplicou a peça: não reduz o p
 a este feitiço.
 CANDIDATA EDITORIAL • BASE v0.331 248
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Sobrecarga - Leve
 Até o fim do próximo turno dele, o alvo não pode usar Reação e a CD dos feitiços que conjurar diminui
 em 2. Não altera o bônus de ataque nem a CD de efeitos que ele já havia aplicado.
@@ -9855,7 +9855,7 @@ repetições; Acúmulo conserva sua exceção. Aplique as defesas de cada criatu
 dano.
 CANDIDATA EDITORIAL • BASE v0.331 249
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Queima - Média
 Se o alvo for acertado ou falhar no TR inicial, recebe novamente metade dos dados daquela parcela
 inicial, arredondada para baixo, no começo do próximo turno dele. Em Rajada ou Mais Um, use somente
@@ -9900,7 +9900,7 @@ benefícios por ataque nem produz outro respingo. Vários alvos iniciais que cum
 continuam produzindo apenas um Estilhaço.
 CANDIDATA EDITORIAL • BASE v0.331 250
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Quebra Coisa - Leve
 Dobre o dano inicial contra barreiras, objetos e estruturas que possam ser afetados pela ficha. Queima,
 Fica, Salto e Estilhaço não reaplicam o multiplicador. Isso não permite atingir algo sem alcance ou
@@ -9944,7 +9944,7 @@ Máxima, pague a Ação Completa, o PE e o preço escolhido ao armar. A prepara�
 ações nem adia esse preço.
 CANDIDATA EDITORIAL • BASE v0.331 251
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Momento e duração
 Silencioso - Leve
 A conjuração dispensa gesto e palavra. O uso não revela automaticamente sua posição, e perceber o efeito
@@ -9986,7 +9986,7 @@ Estas Melhorias acompanham um alvo depois da resolução inicial. Contra um inim
 acerto ou da falha no TR. O dano parcial de Certeiro ou de um TR bem-sucedido não marca o alvo.
 CANDIDATA EDITORIAL • BASE v0.331 252
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Marca - Leve
 Até o fim do seu próximo turno, você tem vantagem no próximo ataque contra o alvo. A vantagem se
 encerra depois dessa tentativa, mesmo se errar. Só você a recebe. A conjuração que aplicou Marca não se
@@ -10029,7 +10029,7 @@ aplica Cobrança também conta. A queda consome esta marca. Recuperar vida e cai
 outro desconto.
 CANDIDATA EDITORIAL • BASE v0.331 253
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Você mantém uma Cobrança por vez. Marcar outra criatura encerra a marca anterior. Não acumule
 descontos de Cobrança: receber outro enquanto houver um disponível não reduz o custo novamente. O
 benefício se perde no fim da cena ou após a próxima conjuração, mesmo que ela custe 0 PE.
@@ -10068,7 +10068,7 @@ permite voltar a agir a zero de vida por si só. Consulte Estágios de Integrida
 penalidades e Derrota e morte para a recuperação após chegar a zero de Integridade.
 CANDIDATA EDITORIAL • BASE v0.331 254
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Proteção compartilhada
 Divide - Média
 Escolha um aliado disposto a até 9 m ao conjurar. Até o fim do próximo turno dele, ele recebe metade do
@@ -10110,7 +10110,7 @@ efeito e uma situação em que ele não funciona. Compare esses campos com as pe
 próxima; o mestre define o preço em pontos e registra o motivo na ficha.
 CANDIDATA EDITORIAL • BASE v0.331 255
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 O Efeito Próprio não recebe desconto de Família Livre e não contorna uma Família Fechada. Se reunir
 benefícios independentes, cada parte precisa ser comprada e contar no limite de Melhorias. Um novo
 nome não reúne várias compras em uma só.
@@ -10152,7 +10152,7 @@ Devolução: Leve. A conjuração exige as duas mãos livres e fala audível. Se
 partes, não pode usar o feitiço.
 CANDIDATA EDITORIAL • BASE v0.331 256
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Um Selo que exige um gesto simples com uma mão ainda pode receber essa exigência adicional. Se o Selo
 já exige as duas mãos livres e a fala, não há devolução. Silencioso não pode retirar essas exigências
 mantendo os pontos de Gesto.
@@ -10194,7 +10194,7 @@ Encerrar o efeito não desfaz dano ou deslocamento que já tenha ocorrido. Num f
 instantâneo, não há efeito futuro a perder nem devolução.
 CANDIDATA EDITORIAL • BASE v0.331 257
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Sem Volta
 Devolução: Média. Se a resolução do feitiço terminar sem acertar nem afetar nenhum alvo, você não pode
 conjurar no seu próximo turno, nem mesmo Classe 0. Basta um ataque acertar. Numa aplicação por TR,
@@ -10237,7 +10237,7 @@ Não cabe em ataques contra Defesa, em aplicações sem dano ou quando um sucess
 o dano: nesses casos, não acrescentaria uma dificuldade.
 CANDIDATA EDITORIAL • BASE v0.331 258
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Exposição e novas Restrições
 Barulho
 Devolução: Leve. Ao conjurar, você produz um som que pode ser ouvido a até 90 m e denuncia de onde
@@ -10278,7 +10278,7 @@ aconteceu. Troquem uma Restrição que nunca tenha atrapalhado, mantendo uma fic
 próximo uso.
 CANDIDATA EDITORIAL • BASE v0.331 259
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Talentos de Categoria 1
 Nível mínimo 1. Custo: 1 espaço de feitiço por Talento. A Categoria de Efeito é o preço de aquisição,
 não uma Classe de conjuração. Cada entrada aplica somente os requisitos que declara. Ter um Talento
@@ -10319,7 +10319,7 @@ Nível mínimo 7. Custo: 2 espaços de feitiço por Talento. Alguns atuam por um
 ação, Reação ou PE. Use o custo e o limite de cada entrada.
 CANDIDATA EDITORIAL • BASE v0.331 260
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Fluxo
 Ao conjurar um feitiço de Classe 3 ou maior, você recebe 2 × a Classe usada em pontos de vida
 temporária. Uma conjuração concede a reserva uma vez, mesmo que alcance vários alvos ou produza
@@ -10360,7 +10360,7 @@ CD desse feitiço em 2. Declare depois que a conjuração for anunciada e antes 
 para os TR contra aquela aplicação enquanto ela durar.
 CANDIDATA EDITORIAL • BASE v0.331 261
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 A criatura precisa conjurar um feitiço que tenha CD. Contramedida não melhora ataques contra Defesa,
 não interrompe a conjuração e não reduz a CD de um inimigo. O mesmo feitiço recebe esse aumento no
 máximo uma vez, mesmo que mais de uma criatura tenha o Talento.
@@ -10400,7 +10400,7 @@ Categoria de Efeito Nível mínimo Espaços ocupados
 3 13 2 espaços no total.
 CANDIDATA EDITORIAL • BASE v0.331 262
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 Ao melhorar de Categoria de Efeito 2 para 3, ocupe somente mais um espaço. Regra Própria não conta no
 máximo de cinco Talentos pagos. O nome se refere a este efeito. A Regra do Fundamento continua sendo
 a frase que define o funcionamento da técnica inteira.
@@ -10441,7 +10441,7 @@ Informação limitada ou um efeito pequeno e condicional costuma caber na Catego
 Categoria de Efeito 2, compare o benefício e o seu gatilho: nem todo Talento precisa de um contador, mas
 CANDIDATA EDITORIAL • BASE v0.331 263
 
-PROJETO - M CATÁLOGO DE CRIAÇÃO
+CICLO MALDITO CATÁLOGO DE CRIAÇÃO
 uma ativação fácil e repetida exige mais cuidado. A Categoria de Efeito 3 comporta efeitos permanentes
 de maior alcance, como resistência a um tipo de dano.
 Limites
@@ -10460,7 +10460,7 @@ vencer um obstáculo sem teste ou obter uma vantagem funcional exige uma escolha
 Retirar os números da descrição não transforma esse benefício numa Expressão da técnica.
 CANDIDATA EDITORIAL • BASE v0.331 264
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 12. Aptidões e Refino
 Revestir uma arma de energia, recompor um ferimento e levantar uma barreira são conhecimentos que
 um personagem pode aprender além das aplicações de sua técnica. Aptidões representam esse
@@ -10500,7 +10500,7 @@ As duas aptidões iniciais não entram nessa contagem. Uma concessão específic
 conserva sua própria regra de aquisição.
 CANDIDATA EDITORIAL • BASE v0.331 265
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Catálogo de aptidões
 Escolha uma entrada para aprender e confira todos os seus requisitos. Categoria de Efeito indica a escala
 de uma aptidão, quando ela possui essa classificação. O requisito da entrada é que determina quando
@@ -10540,7 +10540,7 @@ Gratuita no Refino 1. A energia que envolve seu corpo concede proteção e pode 
 amortecer um golpe.
 CANDIDATA EDITORIAL • BASE v0.331 266
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Proteção
 Sem Traje e sem Revestimento, sua proteção é 1 + um terço do Refino, arredondado para baixo. Escudo
 soma com essa proteção. Vestir Traje ou Revestimento faz você usar a proteção do equipamento, em vez
@@ -10578,7 +10578,7 @@ Cortante por Força. O revestimento também não muda o alcance, o atributo ou a
 que você pode fazer.
 CANDIDATA EDITORIAL • BASE v0.331 267
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Feitiços e crítico
 Não acrescente esses dados a feitiços, Manejos ou Katas. Se uma habilidade fizer um ataque carregar um
 feitiço de dano, inclusive de Classe 0, aquele ataque não recebe Canalizar em Golpe. Outro ataque
@@ -10613,7 +10613,7 @@ investimento depois de ver a rolagem.
 Sem PE suficiente para pagar ao menos 1, você não pode usar Projetar Energia.
 CANDIDATA EDITORIAL • BASE v0.331 268
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Energia Reversa
 Requisitos: Refino 7 e nível 14. Categoria de Efeito 3. Você usa energia reversa para restaurar seu
 próprio corpo.
@@ -10652,7 +10652,7 @@ não produz efeito. A exceção não autoriza ferir outros tipos de alvo nem tra
 Forma Onda em um ataque de área.
 CANDIDATA EDITORIAL • BASE v0.331 269
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Exemplo. Uma Cura de Classe 3 com 6d8 de cura mantém seu custo de 9 PE. Contra uma maldição, exige
 ataque. Se os dados somarem 26, o dano é 39 de Energia Reversa, antes das defesas. Um crítico rolaria 12d8
 antes do acréscimo de 50%.
@@ -10690,7 +10690,7 @@ Circulação. O Rescaldo termina e sua técnica volta a responder. Esse uso não
 outra parte do corpo.
 CANDIDATA EDITORIAL • BASE v0.331 270
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Marcas
 Cada uso acrescenta uma marca de Regravação. As marcas desaparecem no descanso longo. Seu limite é:
 Metade de Inteligência + metade da maestria, arredondando cada metade para baixo separadamente.
@@ -10726,7 +10726,7 @@ Requisitos: Refino 5 e nível 14. Em cada teste de Kokusen, role dois d100 e use
 resultados falharem, acrescente +2 ao bônus acumulado uma vez, não duas.
 CANDIDATA EDITORIAL • BASE v0.331 271
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Kokusen Constante
 Requisito: Refino 5. O limite básico do teste passa a ser 3 × Refino, antes do bônus por tentativas
 falhadas.
@@ -10756,7 +10756,7 @@ As aptidões não removem a barreira que prende você na Expansão, nem os benef
 dela. Um ataque comum realizado dentro do domínio continua sendo um ataque comum.
 A Expansão incompleta não tem Acerto garantido. Cesta, Domínio Simples e a proteção de Pétala contra
 Acerto não a anulam. Extensão declara a própria exceção. As capacidades descritas aqui são regras do
-Projeto - M para representar essas defesas.
+Ciclo Maldito para representar essas defesas.
 Cesta Oca de Vime
 Requisito: ser Encarnado ou treinado em História. Categoria de Efeito 1. Você forma um símbolo com
 as duas mãos e cria uma barreira em volta de si.
@@ -10768,7 +10768,7 @@ pode usar essas mãos para empunhar arma ou escudo, agarrar ou realizar um gesto
 ação.
 CANDIDATA EDITORIAL • BASE v0.331 272
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Soltar o símbolo libera suas mãos e não encerra imediatamente a Cesta. Enquanto estiver solto, cada
 Acerto que causa dano que a Cesta impedir acrescenta uma falha, no máximo uma dessas falhas por
 rodada. Um Acerto que não causa dano não acrescenta essa falha automática. Retomar o símbolo
@@ -10807,7 +10807,7 @@ ao lugar protegido. Os benefícios do dono continuam com ele. Seus ataques e fei
 podem entrar na área, usando suas resoluções normais.
 CANDIDATA EDITORIAL • BASE v0.331 273
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Voto do iniciante
 Com Refino abaixo de 5, quando uma regra permitir adquirir esta aptidão, o Domínio Simples fica fixo no
 ponto de ativação. Se seus dois pés saírem desse ponto, por movimento próprio ou imposto, ele termina.
@@ -10845,7 +10845,7 @@ Erguer novamente na mesma Expansão custa Ação Padrão, além dos PE, usando a
 tabela. A nova ativação reinicia o total impedido.
 CANDIDATA EDITORIAL • BASE v0.331 274
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Mudança de Expansão
 Um Acerto que alcance várias criaturas protegidas conta uma vez. O total impedido pertence à ativação,
 não a cada adversário. Sair e voltar não o zera. Ao enfrentar outra Expansão, compare as Essências de
@@ -10887,7 +10887,7 @@ estudado seu funcionamento ou aprendido com alguém. Registre isso na ficha. Cor
 pode adquirir esta aptidão.
 CANDIDATA EDITORIAL • BASE v0.331 275
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Você se envolve em uma camada de domínio que neutraliza técnicas. Ative conforme Proteção contra
 domínios. A manutenção custa 1,5 × sua maior Classe em PE, arredondado para cima.
 Duração e custo
@@ -10928,7 +10928,7 @@ limites físicos do lugar para fechar uma passagem, sem destruir o que já exist
 de apoio fecha a base protegida.
 CANDIDATA EDITORIAL • BASE v0.331 276
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Barreira erguida
 O domo permanece no lugar. Você pode se afastar e agir normalmente. Ele não ocupa Concentração.
 Uma única reserva de vida vale para toda a barreira: destruir um trecho desfaz o domo inteiro. Ela não
@@ -10971,7 +10971,7 @@ Simples: ataques e efeitos ainda seguem seu alcance, sua trajetória e a visibil
 criatura impedida de atravessar pode tentar destruir a Cortina.
 CANDIDATA EDITORIAL • BASE v0.331 277
 
-PROJETO - M APTIDÕES E REFINO
+CICLO MALDITO APTIDÕES E REFINO
 Exemplo. Haru tem Refino 6. Sua Cortina possui 240 pontos de vida e impede a saída das pessoas dentro da
 escola. Aliados que já estavam ali também ficam presos se não houver uma exceção na condição preparada.
 Aptidão Própria
@@ -11007,7 +11007,7 @@ também consome a escolha única da ficha. Mudanças posteriores precisam ficar 
 regra aprovada.
 CANDIDATA EDITORIAL • BASE v0.331 278
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 13. Rotas de criação
 Uma Técnica Marcial reúne o que você consegue fazer com seu corpo e seu equipamento. Um Manejo
 desenvolve uma aptidão aprendida, como Energia Reversa. Ambas usam o procedimento de Fundamento,
@@ -11049,7 +11049,7 @@ escolhida para executar cada Kata. O equipamento deve estar disponível e funcio
 descrição.
 CANDIDATA EDITORIAL • BASE v0.331 279
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Katas têm os mesmos custos e limites dos feitiços. Seus dados vêm da montagem. O dado da arma não se
 soma ao dano da Kata. Um ataque comum com essa arma usa as regras de equipamento.
 Desenvolvimento
@@ -11091,7 +11091,7 @@ Uma Kata conserva o alcance da Forma escolhida. Empunhar uma arma longa não aum
 alcance de uma Kata de Toque.
 CANDIDATA EDITORIAL • BASE v0.331 280
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Ferramenta
 Você recebe uma ferramenta amaldiçoada de grau 4, criada com o mestre. Pode ser uma armadura, uma
 câmera, um instrumento ou outro objeto de apoio. Registre seu funcionamento, como é utilizado e qual
@@ -11134,7 +11134,7 @@ seu Selo. A pequena maldição representa este Talento: não recebe turno, ataqu
 Uma invocação com atuação própria segue Invocações desta rota (p. 284).
 CANDIDATA EDITORIAL • BASE v0.331 281
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Leitura — Categoria de Efeito 1
 Use o Talento Leitura, do Catálogo de criação: ele identifica Classe e Forma de feitiços conjurados a até
 18 m. O efeito precisa ser compatível com o funcionamento declarado do seu estilo.
@@ -11175,7 +11175,7 @@ Regra Os cabos partem da arma e seguram o que alcançam.
 Famílias Livres Alcance e Controle.
 CANDIDATA EDITORIAL • BASE v0.331 282
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Campo Escolha
 Famílias Fechadas Amparo, Auxiliares e Área.
 Selo Usar uma arma amaldiçoada de uma das três categorias.
@@ -11216,7 +11216,7 @@ Nao monta Apoio + Guarda, de Classe 1. Apoio custa 0 pontos e Guarda custa 1. Se
 − 1 = 2 pontos.
 CANDIDATA EDITORIAL • BASE v0.331 283
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Ficha: Ação Padrão, 3 PE, um aliado disposto a até 9 m, incluindo Nao. O alvo recebe 6 pontos de vida
 temporária e +2 na Defesa até o fim do próximo turno dele. O efeito é automático. A reserva temporária
 segue seus limites e duração próprios, em Dano e Recuperação.
@@ -11260,7 +11260,7 @@ energia, refino e aptidões. Ela não concede Expansão de Domínio nem permite 
 Ritual.
 CANDIDATA EDITORIAL • BASE v0.331 284
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Criação
 1. Escolha uma das sementes (p. 285). A escolha é permanente.
 2. Escreva uma Descrição que mostre como você desenvolveu essa aptidão.
@@ -11301,7 +11301,7 @@ Você aprende a manter energia junto ao corpo para responder ao contato. A defes
 o Acerto de Expansões. Seus contra-ataques seguem as exigências de arma e gatilho descritas na entrada.
 CANDIDATA EDITORIAL • BASE v0.331 285
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Manejos derivados de Pétala são reativos e próximos do corpo: respondem a quem encosta ou ataca,
 dentro do alcance comprado. A semente não autoriza um ataque distante independente desse contato.
 Sua proteção específica também não se torna imunidade a ataques comuns.
@@ -11337,7 +11337,7 @@ sobre outro alvo continua exigindo uma permissão expressa. A Forma Cura e a apt
 diferentes ações, custos e requisitos.
 CANDIDATA EDITORIAL • BASE v0.331 286
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Redoma
 Exemplo de Sem Técnica com Domínio Simples, no nível 2. Rika treina para impedir que um adversário
 atravesse o espaço que ela protege. Sua postura delimita linhas próximas, e seus Manejos prendem ou
@@ -11377,7 +11377,7 @@ Famílias Livres Amparo e Auxiliares.
 Famílias Fechadas Área, Castigo e Marca.
 CANDIDATA EDITORIAL • BASE v0.331 287
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Fechar ferimento
 Caio monta Cura, Classe 1, sem Melhorias ou Restrições. A Forma custa 1 ponto. Restam 3 − 1 = 2
 pontos, que se tornam 2d8 de cura, dentro do limite da Forma.
@@ -11419,7 +11419,7 @@ usos adicionais dele. Se duas opções exigirem Reação para o mesmo acontecime
 usar.
 CANDIDATA EDITORIAL • BASE v0.331 288
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Repertório
 No nível 5, Hana dispõe de quatro espaços. Resposta curta ocupa um. Instinto, um Talento de Categoria 1
 compatível com sua vigilância, pode ocupar outro. Os dois restantes ficam disponíveis para Manejos,
@@ -11459,7 +11459,7 @@ Defesa sem Armadura e Estímulo Muscular são gratuitas desde Lapidação 1. As 
 escolha Lapidação nos marcos.
 CANDIDATA EDITORIAL • BASE v0.331 289
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Bênçãos não gastam espaços de Kata. Categoria de Efeito, abreviada CE nas tabelas, indica a categoria
 do efeito. Cada escolha de Bênção concede uma entrada disponível, independentemente dessa categoria.
 Categoria de Efeito Lapidação mínima
@@ -11497,7 +11497,7 @@ Lapidação 1–2 3–5 6–8 9–10
 Proteção 1 2 3 4
 CANDIDATA EDITORIAL • BASE v0.331 290
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Resistir ao golpe
 Quando sofrer dano de um golpe, depois das defesas aplicáveis e antes de descontar vida, você pode
 gastar sua Reação e 2 PE para reduzi-lo em 1,5 × Lapidação, arredondado para baixo. Depois, fica sem
@@ -11539,7 +11539,7 @@ Lapidação Dano adicional
 6–8 3d4.
 CANDIDATA EDITORIAL • BASE v0.331 291
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Lapidação Dano adicional
 9 4d4.
 10 4d6.
@@ -11579,7 +11579,7 @@ Ao aplicar as consequências de Exaustão, conte um estágio a menos, até o mí
 ficha o estágio real: ganhar nova Exaustão e removê-la pelo descanso continua usando esse valor.
 CANDIDATA EDITORIAL • BASE v0.331 292
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Ter Exaustão 1 elimina suas consequências enquanto a Bênção estiver ativa. Ter Exaustão 3 aplica as
 consequências do estágio 2. A Bênção não remove o estágio marcado.
 Bênçãos de perseguição
@@ -11620,7 +11620,7 @@ Requisito adicional: Inteligência 4. Depois de falhar num TR contra um efeito, 
 nos próximos TRs contra esse mesmo efeito, produzido pela mesma fonte, até o fim da cena.
 CANDIDATA EDITORIAL • BASE v0.331 293
 
-PROJETO - M ROTAS DE CRIAÇÃO
+CICLO MALDITO ROTAS DE CRIAÇÃO
 Uma nova aplicação daquela mesma capacidade pela mesma criatura mantém o benefício. Um efeito
 diferente, outra criatura ou outra fonte exige sua própria falha anterior. A vantagem não refaz o TR que
 ativou a Bênção.
@@ -11662,13 +11662,13 @@ atrás da parede e não permite escolher alvos sem visão. Sua aprovação e seu
 registrados na ficha. Outros exemplos são avaliados pelo efeito concreto, não apenas pelo nome.
 CANDIDATA EDITORIAL • BASE v0.331 294
 
-PROJETO - M PODERES AVANÇADOS
+CICLO MALDITO PODERES AVANÇADOS
 14. Poderes avançados
 Expansão de Domínio
 Uma Expansão estabelece a Técnica Inata sobre uma área durante vários turnos. Seu domínio pode
 transformar o lugar em uma galeria, uma oficina ou uma sala de julgamento. A aparência acompanha as
 capacidades registradas; não cria ataques ou vantagens adicionais durante a abertura. Estas são as regras
-do Projeto - M para usar esse poder.
+do Ciclo Maldito para usar esse poder.
 A montagem de Liberação e Técnica Máxima está em Fundamento. As rotas Sem Técnica e Técnica
 Marcial não recebem Expansão por terem acesso à progressão de Classes.
 Você adquire Expansão com espaços de feitiços conhecidos. Os requisitos de nível e refino precisam ser
@@ -11702,7 +11702,7 @@ Comece pela Regra da sua técnica e escolha o que ela estabelece sobre o lugar. 
 Efeito que possam ser usados sem inventar uma regra nova a cada turno.
 CANDIDATA EDITORIAL • BASE v0.331 295
 
-PROJETO - M PODERES AVANÇADOS
+CICLO MALDITO PODERES AVANÇADOS
 Acerto
 O Acerto pode causar dano, transmitir uma informação definida ou estabelecer uma regra comum para o
 ambiente. Um Acerto de dano segue a quantidade indicada em Acerto do domínio (p. 296). Uma regra de
@@ -11747,7 +11747,7 @@ Uma regra de ambiente na Incompleta usa TR de Espírito. Cada criatura afetada t
 acontece. Quem entrar depois testa na primeira entrada, se ainda não tiver resultado válido. A falha a
 CANDIDATA EDITORIAL • BASE v0.331 296
 
-PROJETO - M PODERES AVANÇADOS
+CICLO MALDITO PODERES AVANÇADOS
 sujeita à regra até o próximo Acerto ou o fim do domínio. No sucesso, fica livre dela pelo mesmo prazo.
 Sair e voltar conserva esse resultado. Você também testa quando for um dos sujeitos. Informações que
 alguém aceita receber dispensam teste.
@@ -11787,7 +11787,7 @@ Completa ou fechado 6 × maior Classe em PE 1,5 m × refino Refino ÷ 2, para ba
 Aberto 7 × maior Classe em PE 199,5 m 2 × Maestria
 CANDIDATA EDITORIAL • BASE v0.331 297
 
-PROJETO - M PODERES AVANÇADOS
+CICLO MALDITO PODERES AVANÇADOS
 Duração
 Depois da abertura, conte metade do refino, arredondada para baixo, em turnos seus, no mínimo um. O
 Acerto se repete no começo de cada um desses turnos. A Expansão termina ao final do último turno
@@ -11831,7 +11831,7 @@ relativa de quem está dentro permanece igual; esse transporte não provoca ataq
 os ocupantes. Ele não causa dano ao cenário nem captura criaturas externas ao atravessá-las.
 CANDIDATA EDITORIAL • BASE v0.331 298
 
-PROJETO - M PODERES AVANÇADOS
+CICLO MALDITO PODERES AVANÇADOS
 A Incompleta e o modo aberto conservam o centro em que foram criados. Você pode mover-se dentro
 deles com suas ações normais. Se você sair, a Expansão e seus Acertos continuam até o encerramento
 normal. Você perde seus benefícios locais; Efeito e desconto não o acompanham para fora. Isso não move
@@ -11874,7 +11874,7 @@ no lugar. O Acerto só afeta quem estiver na área no momento em que se aplica. 
 aplicações não cria um Acerto adicional por si só. Uma regra contínua de ambiente volta a valer quando a
 CANDIDATA EDITORIAL • BASE v0.331 299
 
-PROJETO - M PODERES AVANÇADOS
+CICLO MALDITO PODERES AVANÇADOS
 criatura retorna à área. Na Incompleta, conserve o resultado e o prazo do último TR: sair e voltar não
 concede outra rolagem.
 Um Acerto que estabeleça uma regra contínua de ambiente mantém essa regra na área enquanto estiver
@@ -11916,7 +11916,7 @@ acontecimento. Resolva a aplicação da abertura, que já o inclui. Numa disputa
 produzir uma aplicação imediata entre os turnos; ela não substitui a próxima aplicação normal.
 CANDIDATA EDITORIAL • BASE v0.331 300
 
-PROJETO - M PODERES AVANÇADOS
+CICLO MALDITO PODERES AVANÇADOS
 Manter uma disputa
 Quando o desempate não produz vencedor, o combate continua dentro dos domínios. Essa situação
 também é chamada de corrida. Destruir a barreira rival, esgotar sua duração ou derrubar seu dono pode
@@ -11956,7 +11956,7 @@ cada aplicação normal. A barreira recebe esse dano uma vez por aplicação, in
 quantas criaturas estejam lá dentro.
 CANDIDATA EDITORIAL • BASE v0.331 301
 
-PROJETO - M PODERES AVANÇADOS
+CICLO MALDITO PODERES AVANÇADOS
 Acerto sem dano não reduz a vida da barreira. O dano do lado externo não faz o dono testar Vigor, pois
 ele não recebeu esse dano. Se a barreira terminar, resolva a derrota do seu dono; os demais ocupantes
 ficam sujeitos ao Acerto aberto nos momentos normais.
@@ -11998,7 +11998,7 @@ As falhas de Vigor são contadas por domínio sustentado, não por adversário. 
 apaga falhas enquanto outro continuar na mesma corrida.
 CANDIDATA EDITORIAL • BASE v0.331 302
 
-PROJETO - M PODERES AVANÇADOS
+CICLO MALDITO PODERES AVANÇADOS
 Galeria de Vidro
 Este domínio pertence a uma técnica que cria lâminas de vidro a partir de superfícies refletoras. Yuri o
 registrou com um Acerto de dano e um Efeito que permite proteger uma pessoa próxima. A galeria e seus
@@ -12037,7 +12037,7 @@ Abertura e área Ação Completa, Selo, 30 PE; raio 10,5 m
 Duração e barreira Três turnos seguintes; 150 PV exteriores
 CANDIDATA EDITORIAL • BASE v0.331 303
 
-PROJETO - M PODERES AVANÇADOS
+CICLO MALDITO PODERES AVANÇADOS
 Acerto
 Nenhuma criatura dentro da sala pode causar dano a outra criatura que também esteja dentro. A regra
 vale para o dono, seus aliados e seus inimigos. Ela impede dano de ataques, feitiços e efeitos já ativos
@@ -12080,13 +12080,13 @@ Esse dano é recebido pela criatura; os 63 que romperam a barreira não passam c
 para ela.
 CANDIDATA EDITORIAL • BASE v0.331 304
 
-PROJETO - M PODERES AVANÇADOS
+CICLO MALDITO PODERES AVANÇADOS
 O domínio aberto continua. Seu dono ainda dispõe dos turnos seguintes restantes da duração original. A
 vitória não reinicia o prazo, não devolve PE e não impede o Rescaldo que virá quando essa Expansão
 terminar.
 CANDIDATA EDITORIAL • BASE v0.331 305
 
-PROJETO - M RITUAL E PACTOS
+CICLO MALDITO RITUAL E PACTOS
 15. Ritual e Pactos
 Ritual
 Um Ritual reforça um feitiço com gestos e recitação. Você escolhe quanto tempo dedicar à conjuração e
@@ -12124,7 +12124,7 @@ O feitiço recebe as Melhorias de Ritual escolhidas. Aplique o desconto de Energ
 de Ritual não substitui o ataque ou o TR do próprio feitiço: resolva também essa aplicação.
 CANDIDATA EDITORIAL • BASE v0.331 306
 
-PROJETO - M RITUAL E PACTOS
+CICLO MALDITO RITUAL E PACTOS
 Falha
 O feitiço usa a montagem conferida para aquela modalidade, sem as Melhorias de Ritual, e custa PE
 adicionais iguais à sua Classe. A ação gasta continua sendo a escolhida. A falha não altera essa
@@ -12165,7 +12165,7 @@ maior Classe como Classe do feitiço no teste, na penalidade de falha e nas Melh
 recebe os dados excepcionais da Liberação e não pode ser guardada por Recitação Prolongada.
 CANDIDATA EDITORIAL • BASE v0.331 307
 
-PROJETO - M RITUAL E PACTOS
+CICLO MALDITO RITUAL E PACTOS
 Melhorias de Ritual
 Cada benefício abaixo vale para a conjuração ritualizada. Você pode escolher uma vez cada entrada, salvo
 Acerto e Dificuldade, que permitem duas compras. Os preços são fixos e não recebem descontos de
@@ -12207,7 +12207,7 @@ Ritual de Tiros Rajada recebe um tiro adicional contra outro alvo, com a parcela
 abaixo.
 CANDIDATA EDITORIAL • BASE v0.331 308
 
-PROJETO - M RITUAL E PACTOS
+CICLO MALDITO RITUAL E PACTOS
 Escolhas antes da aplicação
 Declare os beneficiários de Compartilhamento, os alvos de Tiros e as parcelas copiadas antes das
 rolagens. O novo alvo precisa cumprir o alcance, a visão e os demais requisitos da Forma. Consulte
@@ -12248,7 +12248,7 @@ Peças que calculam metade dessa quantidade usam a base aumentada, conservando s
 acrescenta o bônus inteiro a cada tiro.
 CANDIDATA EDITORIAL • BASE v0.331 309
 
-PROJETO - M RITUAL E PACTOS
+CICLO MALDITO RITUAL E PACTOS
 Combinações de Ritual
 O Ritual não permite receber pontos por um preço que a própria conjuração deixou de pagar. Se um
 benefício anulou uma Restrição, retire sua devolução antes da sessão e ajuste a ficha ritualizada. Use essa
@@ -12290,7 +12290,7 @@ e concede 4 Pontos de Ritual. Você precisa estar a até 9 m dele, poder perceb�
 da resolução do feitiço.
 CANDIDATA EDITORIAL • BASE v0.331 310
 
-PROJETO - M RITUAL E PACTOS
+CICLO MALDITO RITUAL E PACTOS
 A ajuda fica disponível até o fim do próximo turno do auxiliar e serve a uma única conjuração indicada
 ao preparar o apoio. Ela é consumida nessa tentativa, mesmo na falha ou interrupção. Um feitiço pode
 receber a ajuda de um único aliado. Até a resolução, mantenham a distância de 9 m e a percepção mútua;
@@ -12329,12 +12329,12 @@ Promessa Quando duas partes capazes de Prazo e consequências registrados no
 decidir aceitam os termos. acordo.
 Pacto de restrição Na criação, com a Origem ou Registra uma limitação já considerada na
 técnica. ficha.
-As quatro formas e os limites deste capítulo são a adaptação do Projeto - M. Na mesa, todos os jogadores
-envolvidos precisam aceitar o acordo. Não use uma ameaça entre personagens para impor ao jogador
-uma mudança que ele não aceitou.
+As quatro formas e os limites deste capítulo são a adaptação do Ciclo Maldito. Na mesa, todos os
+jogadores envolvidos precisam aceitar o acordo. Não use uma ameaça entre personagens para impor ao
+jogador uma mudança que ele não aceitou.
 CANDIDATA EDITORIAL • BASE v0.331 311
 
-PROJETO - M RITUAL E PACTOS
+CICLO MALDITO RITUAL E PACTOS
 Preço real
 O preço precisa alterar uma escolha ou consumir algo que você realmente possui. Perder uma capacidade
 que já não podia usar não paga um benefício novo. Uma perda reparada imediatamente vale menos que
@@ -12374,7 +12374,7 @@ personagem nunca encontra não sustenta o mesmo benefício de uma obrigação cu
 sessões.
 CANDIDATA EDITORIAL • BASE v0.331 312
 
-PROJETO - M RITUAL E PACTOS
+CICLO MALDITO RITUAL E PACTOS
 Pacto temporário
 No seu turno, use Ação Bônus ou Reação para propor e firmar um pacto temporário aprovado pelo
 mestre. Declare a perda, o benefício e o prazo antes de resolver a ação que pretende melhorar. Gastar
@@ -12414,7 +12414,7 @@ Cláusulas Exceções, pessoas protegidas e circunstâncias previstas.
 Quebra Qual ação ou omissão viola o acordo e qual consequência se aplica.
 CANDIDATA EDITORIAL • BASE v0.331 313
 
-PROJETO - M RITUAL E PACTOS
+CICLO MALDITO RITUAL E PACTOS
 Escreva termos que possam ser verificados em jogo. “Trazer o objeto até o amanhecer” tem um prazo.
 “Ajudar quando for necessário” precisa dizer quem decide a necessidade e que ajuda está comprometida.
 Uma Promessa não obriga uma pessoa ausente a concordar nem concede ao representante controle que
@@ -12453,7 +12453,7 @@ recuperação e progressão. O nome da limitação não decide seu valor, e um c
 completo ainda não deve ser usado numa sessão.
 CANDIDATA EDITORIAL • BASE v0.331 314
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 PARTE 4 • INVOCAÇÕES
 16. Invocações em campo
 Uma invocação põe outra criatura ao seu lado. Ela tem posição, ficha e uma tarefa a cumprir. Você decide
@@ -12494,7 +12494,7 @@ quem está guardado. Uma entidade guardada não recebe básica nesse momento; ap
 impedida de receber uma transferência válida.
 CANDIDATA EDITORIAL • BASE v0.331 315
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 O Movimento só se renova quando a entidade começa seu turno em campo. Ficar vários ciclos guardada
 não recupera os metros gastos.
 Exemplo. A ave gastou a básica e 6 m dos seus 9 m antes de ser recolhida. Volta com 3 m disponíveis e sem
@@ -12536,7 +12536,7 @@ Recolher e trazer de volta a mesma criatura não copia o recurso. Uma básica in
 gasta e não pode ser transferida.
 CANDIDATA EDITORIAL • BASE v0.331 316
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Quando uma permissão fizer várias entidades entrarem, escolha uma como substituta direta: somente ela
 recebe a tarefa incluída e a possível básica. As demais entram a até 1,5 m de você, pelas regras de entrada
 comum. Se várias saírem para uma entrar, escolha uma das posições de saída; ainda há no máximo uma
@@ -12579,7 +12579,7 @@ gastá-la. Se realmente emitir a mensagem e só depois descobrir a falha, a aç�
 que não começou não paga seus custos de ativação.
 CANDIDATA EDITORIAL • BASE v0.331 317
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Ao orientar várias entidades com uma Bônus, somente as que entenderem mudam de tarefa. A ação não é
 devolvida porque uma delas não ouviu.
 A tarefa incluída numa troca e a orientação posterior de uma especial precisam ser transmitidas naquele
@@ -12622,7 +12622,7 @@ resultado, você pode manter a intenção anterior ou dar outra à destinatária
 orientação não concede outra execução nem muda as tarefas das demais entidades.
 CANDIDATA EDITORIAL • BASE v0.331 318
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Se a básica já foi gasta, um comando comum não a recupera. Movimento e coletiva permanecem
 separados, salvo quando a própria aplicação exigir um deles.
 Comandar ocupa uma das suas conjurações permitidas naquele turno. Uma ordem antecipada ou
@@ -12663,7 +12663,7 @@ Declare a entidade, a capacidade e o alvo, por comunicação válida. Básica j�
 são impedimentos possíveis. Se tudo já permitir a execução, resolva imediatamente.
 CANDIDATA EDITORIAL • BASE v0.331 319
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 A ordem aguarda a primeira oportunidade válida. Não expira no começo do próximo turno. Emiti-la não
 gasta nem reserva a básica ou a energia da especial, exceto por um custo que a própria ficha exija
 antecipadamente.
@@ -12704,7 +12704,7 @@ Exemplo. Duas antecipadas ficam possíveis depois do mesmo movimento inimigo. A 
 coletiva. A segunda conserva a ordem e espera outra oportunidade com todos os recursos disponíveis.
 CANDIDATA EDITORIAL • BASE v0.331 320
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Preparar uma ação
 No seu turno, uma entidade pode gastar a básica para preparar uma ação que caiba na tarefa recebida. Ela
 também pode preparar um deslocamento, que usa o Movimento que ainda lhe resta e não concede metros
@@ -12745,7 +12745,7 @@ continua andando se ainda puder. Causar dano não interrompe seu movimento por s
 conserva seu momento próprio: depois de terminar a resolução que removeu o impedimento.
 CANDIDATA EDITORIAL • BASE v0.331 321
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Exemplo. Kaito prepara uma especial quando o inimigo entrar no corredor. Ele entra, mas Kaito recusa a
 ocorrência. Permanecer no corredor não dispara a ordem novamente. Se sair e entrar outra vez antes do
 prazo, há uma nova ocorrência. Se a especial aplicar apenas dano, o alvo pode continuar até a cobertura com
@@ -12785,7 +12785,7 @@ possui Atrasar automaticamente. A domada conserva seu Movimento normal ao execut
 a Ação Completa é paga pelo invocador. Não receba pontos por adicionar Atrasar ou Parado à Liberação.
 CANDIDATA EDITORIAL • BASE v0.331 322
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Carga em dois turnos
 Com a Restrição Carregar, no primeiro turno, gaste sua Padrão, uma básica da entidade e o PE da
 especial para iniciar a carga. Você conserva Bônus e Movimento. A entidade conserva seu Movimento,
@@ -12826,7 +12826,7 @@ Exemplo. Uma especial custa 9 PE: Kaito paga 5 e a reserva paga 4. A entidade sa
 devolução total é 4 PE: 2 para cada pagador. Nenhuma ação ou básica é recuperada.
 CANDIDATA EDITORIAL • BASE v0.331 323
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Movimento e defesa
 Cada entidade usa o próprio Movimento para cumprir a tarefa. Seus metros não vêm do invocador nem de
 quem foi substituído. Não existe acompanhamento automático fora do turno. Um deslocamento
@@ -12868,7 +12868,7 @@ Fora de combate, as tarefas usam o tempo disponível, os testes e os recursos no
 autonomia não oferece tentativas ilimitadas nem ignora um custo escrito.
 CANDIDATA EDITORIAL • BASE v0.331 324
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Exemplo. Uma aliada concede um ataque ao cão mediante a Reação dele. O cão já tinha usado sua básica,
 mas pode gastar a coletiva nesse ataque. A ave não pode responder em seguida com a mesma coletiva,
 mesmo que ainda não tenha usado a própria básica.
@@ -12908,7 +12908,7 @@ permitido aumentou. Deixar um corpo sem controle de propósito não abre vaga pa
 volta.
 CANDIDATA EDITORIAL • BASE v0.331 325
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Um corpo inativo conserva vida, Defesa e posição. Pode andar para acompanhar você, mas falha em toda
 rolagem, não age e não recebe tarefa. Interpretação e trabalhos extremamente simples que não exijam
 rolagem são possíveis. Não podem substituir testes, lutar ou executar capacidades.
@@ -12950,7 +12950,7 @@ Maestria 2: CD 13 e teste +5. Um 8 no d20 basta. Recupera 15 PV e termina com 23
 primeiro ser religado.
 CANDIDATA EDITORIAL • BASE v0.331 326
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Trunfos das domadas
 Somente maldições domadas com técnica própria podem ter Liberação Máxima, Técnica Máxima e
 Expansão de Domínio. Os outros tipos usam as capacidades de sua ficha. Possuir um trunfo exige os
@@ -12991,7 +12991,7 @@ do uso, a aplicação só fica disponível novamente depois do fim do terceiro t
 não apaga essa recuperação.
 CANDIDATA EDITORIAL • BASE v0.331 327
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 O sucesso num TR reduz o dano em um quarto, pelo procedimento comum da Máxima. Uma aplicação de
 cura usa os dados próprios desta tabela. Uma aplicação sem dano exige seu efeito escrito e delimitado
 antes da sessão; não transforma dados em qualquer benefício escolhido no momento.
@@ -13031,7 +13031,7 @@ capacidade que restaure Integridade. Os estágios de Integridade também valem p
 o teto de Classe se aplicam às especiais que ela executa.
 CANDIDATA EDITORIAL • BASE v0.331 328
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Um dano direto destrói a entidade quando uma única ocorrência alcança sua vida máxima ou quando o
 excedente além de zero supera metade da vida máxima. Igualar essa metade não basta. Dano em área
 pode derrubar, mas nunca destrói por si.
@@ -13072,7 +13072,7 @@ excedente 27; uma nova parcela direta poderá destruí-lo. Com duas entidades j�
 respeitar o limite para religá-lo.
 CANDIDATA EDITORIAL • BASE v0.331 329
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Efeitos fora de campo
 Recolher não limpa condições nem reinicia durações. Benefícios e penalidades continuam contando
 seus prazos. Uma condição sem prazo espera seu critério de término.
@@ -13112,7 +13112,7 @@ do personagem inconsciente. O limite de entidades que causam dano no seu turno t
 valendo.
 CANDIDATA EDITORIAL • BASE v0.331 330
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Exemplo. Kaito cai inconsciente depois de antecipar uma especial contra o inimigo. O alvo termina seu
 movimento em alcance. A entidade ainda tem básica e a coletiva está disponível: pode executar, pagando
 esses recursos e o PE devido. Kaito não pode cancelar naquele instante nem mandar a criatura perseguir
@@ -13154,7 +13154,7 @@ não continua cumprindo ordens por ser a última intenção registrada. Herdar u
 depende das regras de aquisição e criação, sem transferir automaticamente o vínculo.
 CANDIDATA EDITORIAL • BASE v0.331 331
 
-PROJETO - M INVOCAÇÕES EM CAMPO
+CICLO MALDITO INVOCAÇÕES EM CAMPO
 Enquanto o personagem estiver apenas inconsciente, aplique o procedimento de inconsciência. Não
 antecipe os efeitos definitivos da morte durante uma oportunidade de recuperação que ainda exista pelas
 regras gerais.
@@ -13186,7 +13186,7 @@ precisa retirá-la enquanto a entidade estiver em campo. Estar recolhida não pe
 uma criatura ausente.
 CANDIDATA EDITORIAL • BASE v0.331 332
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 17. Construir invocações
 Criar uma invocação
 Um cão que fareja vestígios de energia, um boneco que protege uma entrada ou uma maldição capturada
@@ -13226,7 +13226,7 @@ Esta opção exige que a técnica ou o estilo preveja criar, chamar ou controlar
 Regra, ou a semente e o equipamento de Manejo ou Kata, precisam explicar esse funcionamento.
 CANDIDATA EDITORIAL • BASE v0.331 333
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Cumprido o requisito, um espaço dá uma entidade do seu nível. A vaga continua ocupada quando ela
 está recolhida ou fora da cena. Classe 0 e outros benefícios recebidos fora da lista de espaços não
 fornecem vagas para essa troca.
@@ -13265,7 +13265,7 @@ Kaito escolhe esse conjunto para perseguição e combate próximo. A definição
 falar pela mente ou compartilhar a visão sem adquirir capacidades adequadas.
 CANDIDATA EDITORIAL • BASE v0.331 334
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Habilidades do cão
 As habilidades completam a ficha anterior. Uma mesma criatura pode ter uma básica econômica e uma
 especial mais forte. A especial substitui a atuação básica daquele ciclo.
@@ -13308,7 +13308,7 @@ peças. Ambos dependem de tempo, testes e materiais, conforme Fabricação de en
 ofício dos talismãs. Entalhador ou Forja atende aos corpos, conforme o material e o trabalho.
 CANDIDATA EDITORIAL • BASE v0.331 335
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Registre o nível e a ficha resultantes da fabricação. Subir de nível com o invocador não melhora
 automaticamente essa criatura. O reparo de um corpo existente segue Invocações em campo — Cura e
 reparo.
@@ -13348,7 +13348,7 @@ amaldiçoado.
 Shikigami de criação Criatura guardada em um talismã. Registra o talismã e sua carga.
 CANDIDATA EDITORIAL • BASE v0.331 336
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Tipo Origem e corpo Característica da ficha
 Corpo amaldiçoado de criação Corpo fabricado. Ganha 4 + Constituição por nível depois do
 primeiro.
@@ -13391,7 +13391,7 @@ concede um benefício, compare-o às opções pagas. Escolha também um tipo de 
 catálogo geral para cada ataque. A aparência de energia pura usa Força, conforme Tipos de dano.
 CANDIDATA EDITORIAL • BASE v0.331 337
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Atributos e testes
 Distribua 9 pontos entre Força, Destreza, Constituição, Inteligência e Essência. Cada atributo começa
 entre 0 e 3. Nos níveis 6, 10, 14, 18, 22, 26 e 30, acrescente 1 ponto a um atributo, até o máximo de 6.
@@ -13431,7 +13431,7 @@ Com Constituição 2, uma entidade comum de nível 5 tem 7 + 5 × 4 = 27 de vida
 mesmo nível tem 7 + 6 × 4 = 31.
 CANDIDATA EDITORIAL • BASE v0.331 338
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Defesa sem uniforme
 Some 10 + Destreza da entidade + metade da Essência ou da Inteligência do invocador, arredondada
 para baixo.
@@ -13470,7 +13470,7 @@ A domada com técnica também usa esses espaços para adquirir seus degraus de D
 Expansão da domada em Invocações em campo. Talentos têm aquisição própria e ficam fora dessa conta.
 CANDIDATA EDITORIAL • BASE v0.331 339
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Ao subir de nível
 Atualize vida, marcos de atributo, perícias dependentes de Inteligência, dados da básica e novas vagas.
 Você pode reescrever uma especial. A Classe de uma especial antiga permanece registrada. Usá-la
@@ -13508,7 +13508,7 @@ A básica própria é uma habilidade de Classe 0, sem custo de PE. Ela não ocup
 quantidade e seus dados vêm de Progressão da entidade (p. 339).
 CANDIDATA EDITORIAL • BASE v0.331 340
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Escolha uma Forma disponível e use as distâncias da Classe 0 em Alcance e área (p. 343). Para um ataque,
 registre tipo de dano e resolução. A mordida de um cão pode ser Toque. Um espinho lançado pode ser
 Projétil.
@@ -13549,7 +13549,7 @@ contando Corpo a Corpo embutida.
 4. Calcule o saldo. Subtraia Forma e Melhorias. Acrescente a devolução aproveitável das Restrições.
 CANDIDATA EDITORIAL • BASE v0.331 341
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 5. Registre o resultado. Cada ponto restante pode virar 1d8 de dano. Apoio, Cura, Onda e Efeito usam
 seus próprios destinos para esse saldo.
 Preço da peça Conta na Classe real
@@ -13589,7 +13589,7 @@ Restrições permitidas. A habilidade conserva alcance e origem próprios: Toque
 permanece na entidade. Para criar a área sobre um ponto distante, escolha Explosão e refaça a conta.
 CANDIDATA EDITORIAL • BASE v0.331 342
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Alcance e área
 Alcance mede a distância até um alvo ou ponto escolhido. Área mede o espaço atingido a partir de uma
 origem. A redução das entidades muda o tamanho da área, mantendo o alcance pela Classe real.
@@ -13627,7 +13627,7 @@ Levanta e Remenda Valores de recuperação definidos por essas peças.
 Formas de área Tamanho básico, conforme Alcance e área.
 CANDIDATA EDITORIAL • BASE v0.331 343
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Classe real 1 2 3 4 5 6 7
 Classe do efeito 1 1 2 3 4 5 6
 reduzido
@@ -13669,7 +13669,7 @@ Refino. Escolher a Forma não concede a aptidão. Entidades a zero e corpos amal
 limitações de recuperação de Invocações em campo.
 CANDIDATA EDITORIAL • BASE v0.331 344
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Controle e utilidade
 Uma especial pode abrir mão de dano para conter um alvo, retirar uma condição ou criar um obstáculo. A
 função escolhida deve aparecer na definição da entidade e nas Famílias abertas.
@@ -13711,7 +13711,7 @@ preparação prolongada. O custo deve estar registrado antes da sessão. A entid
 Padrão ou Bônus de personagem apenas para pagar uma Restrição.
 CANDIDATA EDITORIAL • BASE v0.331 345
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 O mesmo vale para Rápido, Reação, Armado e Segura. Suas peças usam os recursos de comando, atuação
 básica e Reação coletiva descritos em Especiais de execução rápida e Especiais armadas. Comprar uma
 delas não torna toda especial autônoma.
@@ -13752,7 +13752,7 @@ Leitura de Feitiços Identifica o último feitiço de um Talentos de Categoria 1
 inimigo à vista.
 CANDIDATA EDITORIAL • BASE v0.331 346
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Use integralmente o efeito, o alcance, o gatilho e os limites da entrada indicada. Aqui, a definição
 substitui a referência à Regra da técnica. A entidade é quem percebe a informação ou recebe o benefício.
 Transmitir uma descoberta depende da comunicação que sua ficha oferece.
@@ -13795,7 +13795,7 @@ Use Talento Próprio para uma capacidade que a lista não representa. O Talento 
 recebidas pela entidade. Sua Categoria de Efeito é definida por comparação com as opções permitidas.
 CANDIDATA EDITORIAL • BASE v0.331 347
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Registre benefício, gatilho, alcance, requisitos, usos e término. Se houver ação, Reação ou PE, traduza o
 custo pelos procedimentos de Invocações em campo. Um talento reativo não concede uma segunda
 Reação coletiva.
@@ -13836,7 +13836,7 @@ Corpo a Corpo devolve Média, mas só há 1 ponto gasto para recuperar. O restan
 Precisão conserva +2 no ataque e Toque conserva 1,5 m de alcance.
 CANDIDATA EDITORIAL • BASE v0.331 348
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 A Classe 3 só fica disponível a partir do nível 9. Até lá, conhecer a versão de Classe 1 não permite pagar 9
 PE para usá-la antecipadamente.
 Conferência dos efeitos
@@ -13873,7 +13873,7 @@ Habilidades do vigia (p. 350) apresenta as capacidades desta ficha. A proposta d
 ser aprovada com o mestre antes da sessão, como qualquer Talento Próprio.
 CANDIDATA EDITORIAL • BASE v0.331 349
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Habilidades do vigia
 Orientação
 Básica de Classe 0. Apoio + Impulso. A base seria 2d6, mas esta Forma não causa dano. Impulso usa a
@@ -13913,7 +13913,7 @@ Talentos Ganhos por marco, CE de cada escolha e opção permitida.
 Campo Manifestação, comando, tarefa, custos e recursos compartilhados.
 CANDIDATA EDITORIAL • BASE v0.331 350
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Duas situações de exemplo
 Teste uma situação em que cada habilidade funciona e outra em que um requisito impede seu uso. Uma
 mordida precisa de alvo ao alcance. Um efeito de Cura precisa de alvo que possa recebê-lo. Um talento de
@@ -13956,7 +13956,7 @@ continua sem ela. Conhecer o ofício ou fabricar um corpo não concede uma Orige
 alma autônoma ou reserva pessoal de energia.
 CANDIDATA EDITORIAL • BASE v0.331 351
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Projeto de fabricação
 Antes de começar, registre o projeto com o mestre. Defina uma entidade por projeto, com a ficha final já
 conferida. Um pedido para fabricar várias cópias informa os recursos e o prazo de cada uma; as tentativas
@@ -13995,7 +13995,7 @@ atributo + essa Maestria. Compare a Classe permitida pelo nível da entidade com
 do responsável, usando a Progressão da entidade.
 CANDIDATA EDITORIAL • BASE v0.331 352
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 Classe da entidade em relação ao responsável Dificuldade Ajuste à base
 Igual Difícil 0
 Uma abaixo Média −2
@@ -14038,7 +14038,7 @@ A transferência conserva nível, ficha, vida atual, queda, carga do talismã e 
 somente os valores que dependem da ficha do invocador. Ela não recupera energia, não dá outra atuação
 CANDIDATA EDITORIAL • BASE v0.331 353
 
-PROJETO - M CONSTRUIR INVOCAÇÕES
+CICLO MALDITO CONSTRUIR INVOCAÇÕES
 no ciclo e não religa um corpo na condição Desligada. O novo invocador precisa cumprir os limites de
 controle e os procedimentos normais de retorno e entrada.
 Uma entidade destruída exige nova fabricação. Reaproveitar restos depende do projeto e não traz de volta
@@ -14070,7 +14070,7 @@ materiais compatíveis. O projeto acima não transforma papel e tinta em um corp
 preço.
 CANDIDATA EDITORIAL • BASE v0.331 354
 
-PROJETO - M MESTRAR
+CICLO MALDITO MESTRAR
 PARTE 5 • MESTRAR E CONSULTAR
 18. Mestrar
 Preparar uma missão
@@ -14111,7 +14111,7 @@ consequências que o personagem já teria condições de prever. Resolva o resul
 mudou.
 CANDIDATA EDITORIAL • BASE v0.331 355
 
-PROJETO - M MESTRAR
+CICLO MALDITO MESTRAR
 Informação e ritmo
 Alterne o foco entre os participantes. Fora de combate, pergunte o que os demais fazem enquanto uma
 pessoa investiga ou conversa. Em combate, mantenha visíveis a iniciativa, as posições e os efeitos com
@@ -14132,7 +14132,7 @@ Ao terminar, confiram as alterações com os jogadores. Separar o que foi observ
 decidido sobre uma regra ajuda o próximo mestre a continuar. As regras de progressão e recuperação
 permanecem nos capítulos correspondentes; trocar de mesa não renova recursos por si.
 Referências e adaptação
-Projeto - M é um sistema de fã ambientado no universo de Jujutsu Kaisen, de Gege Akutami. A obra
+Ciclo Maldito é um sistema de fã ambientado no universo de Jujutsu Kaisen, de Gege Akutami. A obra
 apresenta personagens, acontecimentos e poderes que inspiram o jogo. Os números e procedimentos
 desta edição foram escritos para a mesa.
 Obra e jogo
@@ -14145,16 +14145,16 @@ revelações do mangá.
 Fontes consultadas
 A ambientação da abertura foi conferida em trechos do volume 1 de Jujutsu Kaisen, disponíveis na prévia
 oficial da Shueisha, e nos perfis oficiais do anime. Esses recortes sustentam a apresentação geral de
-maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Projeto - M.
+maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Ciclo Maldito.
 O Player’s Handbook de Dungeons & Dragons, edição 2024, foi usado como referência de organização:
 apresentação do jogo, roteiro de criação, fichas e consulta. O Dungeon Master’s Guide, edição 2024,
 serviu de referência para a função dos registros de campanha e das orientações de preparação de sessão.
 Foram consultados os exemplares locais fornecidos para o trabalho editorial.
 As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma semelhança de nome
-com outro RPG não substitui a leitura da entrada correspondente no Projeto - M.
+com outro RPG não substitui a leitura da entrada correspondente no Ciclo Maldito.
 CANDIDATA EDITORIAL • BASE v0.331 356
 
-PROJETO - M GLOSSÁRIO
+CICLO MALDITO GLOSSÁRIO
 19. Glossário
 Glossário: Ação a Carga
 Ação. Recurso usado para executar uma tarefa. Padrão, Bônus e Movimento têm usos distintos; a Reação
@@ -14195,7 +14195,7 @@ Cena. Trecho de jogo organizado em torno de uma situação. Sua passagem depende
 ficção, não de uma quantidade fixa de turnos. Consulta: Cena e usos de habilidades (p. 54).
 CANDIDATA EDITORIAL • BASE v0.331 357
 
-PROJETO - M GLOSSÁRIO
+CICLO MALDITO GLOSSÁRIO
 Classe. Escala de uma aplicação, como feitiço, Manejo ou Kata. Determina seu orçamento e seus limites.
 Não é o Caminho do personagem. Consulta: Pontos e preços (p. 223).
 Classe 0. Aplicação de escala própria, registrada separadamente dos espaços conhecidos comuns.
@@ -14239,7 +14239,7 @@ Forma. Peça que define a aplicação inicial: alvos, origem, alcance e resoluç
 Consulta: Formas de ataque (p. 224).
 CANDIDATA EDITORIAL • BASE v0.331 358
 
-PROJETO - M GLOSSÁRIO
+CICLO MALDITO GLOSSÁRIO
 Fundamento. Conceito e funcionamento que sustentam as aplicações de uma técnica. O capítulo também
 apresenta o processo de montagem. Consulta: Fundamento (p. 218).
 Gatilho. Evento necessário para uma resposta ou efeito. Possuir um recurso disponível não dispensa esse
@@ -14283,7 +14283,7 @@ Ofício. Prática aprendida com atributo definido pela tarefa. Seu procedimento 
 ferramentas e tentativas permitidas. Consulta: Ofícios (p. 171).
 CANDIDATA EDITORIAL • BASE v0.331 359
 
-PROJETO - M GLOSSÁRIO
+CICLO MALDITO GLOSSÁRIO
 Origem. Escolha de criação que reúne traço, Legados, treinos e opções de rota do personagem. Consulta:
 Origens (p. 63).
 Pacto. Acordo ou compromisso com benefício e preço definidos pelo procedimento de Pactos. Consulta:
@@ -14326,7 +14326,7 @@ Talento. Capacidade adquirida cujo funcionamento e investimento seguem sua Categ
 entrada reativa ainda pode exigir ação ou gatilho. Consulta: Selo e Talentos (p. 221).
 CANDIDATA EDITORIAL • BASE v0.331 360
 
-PROJETO - M GLOSSÁRIO
+CICLO MALDITO GLOSSÁRIO
 Técnica amaldiçoada. Poder com funcionamento próprio que sustenta suas aplicações. As opções do
 sistema distinguem suas rotas de criação. Consulta: Mundo jujutsu (p. 4).
 Técnica Marcial. Rota de criação de Katas sustentadas por um estilo e seu equipamento. Consulta:
@@ -14352,7 +14352,7 @@ Volume. Medida de carga usada pelo inventário. É distinta de uma propriedade d
 Consulta: Carga (p. 27).
 CANDIDATA EDITORIAL • BASE v0.331 361
 
-PROJETO - M REFERÊNCIAS E FICHAS
+CICLO MALDITO REFERÊNCIAS E FICHAS
 20. Referências e fichas
 Testes na mesa
 Situação Procedimento
@@ -14390,7 +14390,7 @@ Cada ataque recebe sua própria resolução. Um ataque adicional não concede au
 Ação Atacar. Consulta: Ataques; Bloquear; Aparar e Brecha; Dano e crítico.
 CANDIDATA EDITORIAL • BASE v0.331 362
 
-PROJETO - M REFERÊNCIAS E FICHAS
+CICLO MALDITO REFERÊNCIAS E FICHAS
 Efeito com TR
 Quem recebe o efeito faz o teste indicado. Compare com a CD da capacidade e use sua consequência de
 sucesso ou falha. Bloquear não substitui esse teste. Sucesso no TR não significa metade de todo dano:
@@ -14408,7 +14408,7 @@ Efeitos sobre Integridade seguem o procedimento de alma. A ficha da capacidade c
 referência para exceções.
 CANDIDATA EDITORIAL • BASE v0.331 363
 
-PROJETO - M REFERÊNCIAS E FICHAS
+CICLO MALDITO REFERÊNCIAS E FICHAS
 Entidades na mesa
 Mantenha uma linha para cada corpo, inclusive quando estiver guardado. A ficha da entidade registra
 suas capacidades; esta folha acompanha o que já ocorreu na cena.
@@ -14434,7 +14434,7 @@ pendentes antes de apagar marcadores. Consulta: Invocações em campo; Turnos da
 entidade; Comandar uma especial; Energia das entidades; Manutenção.
 CANDIDATA EDITORIAL • BASE v0.331 364
 
-PROJETO - M REFERÊNCIAS E FICHAS
+CICLO MALDITO REFERÊNCIAS E FICHAS
 Ficha de personagem
 Nome: ____________________ Jogador: ____________________
 Campanha ou guilda: ____________________ Versão das regras: ____________________
@@ -14470,7 +14470,7 @@ Use Criar um personagem e os capítulos de sua Origem e Caminho para preencher o
 disponível não concede o recurso a uma rota que não o possua.
 CANDIDATA EDITORIAL • BASE v0.331 365
 
-PROJETO - M REFERÊNCIAS E FICHAS
+CICLO MALDITO REFERÊNCIAS E FICHAS
 Repertório e inventário
 Personagem: ____________________ Data da atualização: ____________________
 Treinos e capacidades
@@ -14512,7 +14512,7 @@ Anote o nome da capacidade e seu destino no livro. Acrescente folhas para o repe
 substituir requisitos por uma abreviação que você não consiga consultar.
 CANDIDATA EDITORIAL • BASE v0.331 366
 
-PROJETO - M REFERÊNCIAS E FICHAS
+CICLO MALDITO REFERÊNCIAS E FICHAS
 Ficha de aplicação
 Use este modelo para um feitiço, Manejo ou Kata. Invocações possuem orçamento e escalas próprios,
 registrados em Ficha de capacidades da entidade.
@@ -14550,7 +14550,7 @@ Fundamento, da rota e da capacidade usada determinam quais campos se aplicam. O 
 uma opção não dispensa adquirir essa opção.
 CANDIDATA EDITORIAL • BASE v0.331 367
 
-PROJETO - M REFERÊNCIAS E FICHAS
+CICLO MALDITO REFERÊNCIAS E FICHAS
 Ficha de entidade
 Nome: ____________________ Invocador: ____________________
 Aquisição e corpo Registro
@@ -14587,7 +14587,7 @@ aparência não concede outro modo de movimento. Consulta: Criar uma invocação
 Atributos e testes; Vida e Defesa.
 CANDIDATA EDITORIAL • BASE v0.331 368
 
-PROJETO - M REFERÊNCIAS E FICHAS
+CICLO MALDITO REFERÊNCIAS E FICHAS
 Ficha de capacidades da entidade
 Entidade: ____________________ Nível: ______ Revisão: ____________________
 Repertório Nome e referência
@@ -14626,7 +14626,7 @@ Consulta: Habilidades básicas; Habilidades especiais; Formas da entidade; Saldo
 uma especial; Energia das entidades.
 CANDIDATA EDITORIAL • BASE v0.331 369
 
-PROJETO - M REFERÊNCIAS E FICHAS
+CICLO MALDITO REFERÊNCIAS E FICHAS
 Ficha de recuperação
 Personagem: ____________________ Cena e data: ____________________
 Reservas Atual Máximo
@@ -14665,7 +14665,7 @@ Consulta: Vida a zero; Insistir; Socorro; Sequelas e Cicatrizes; Derrota e morte
 Integridade; Descansos.
 CANDIDATA EDITORIAL • BASE v0.331 370
 
-PROJETO - M REFERÊNCIAS E FICHAS
+CICLO MALDITO REFERÊNCIAS E FICHAS
 Registro de missão
 Missão: ____________________ Data: ____________________
 Mestre e participantes: ____________________________________________________
@@ -14705,7 +14705,7 @@ Uma pendência de interpretação deve acompanhar o registro, sem virar alteraç
 Consulta: Progressão; Dano e Recuperação.
 CANDIDATA EDITORIAL • BASE v0.331 371
 
-PROJETO - M ÍNDICE
+CICLO MALDITO ÍNDICE
 21. Índice
 Índice: A
 Assunto Consulta
@@ -14737,7 +14737,7 @@ Assassino Assassino (p. 150)
 Atacar Regras gerais: Ataques (p. 15)
 CANDIDATA EDITORIAL • BASE v0.331 372
 
-PROJETO - M ÍNDICE
+CICLO MALDITO ÍNDICE
 Índice: A–C
 Assunto Consulta
 Ataque Regras gerais: Ataques (p. 15)
@@ -14768,7 +14768,7 @@ Cena Dano e Recuperação: Cena e usos de habilidades (p. 54)
 Cicatriz Dano e Recuperação: Sequelas e Cicatrizes (p. 51)
 CANDIDATA EDITORIAL • BASE v0.331 373
 
-PROJETO - M ÍNDICE
+CICLO MALDITO ÍNDICE
 Índice: C–D
 Assunto Consulta
 Classe Fundamento: Pontos e preços (p. 223)
@@ -14799,7 +14799,7 @@ Derrubado Dano e Recuperação: Condições leves (p. 44)
 Desarmado Dano e Recuperação: Condições leves (p. 44)
 CANDIDATA EDITORIAL • BASE v0.331 374
 
-PROJETO - M ÍNDICE
+CICLO MALDITO ÍNDICE
 Índice: D–E
 Assunto Consulta
 Desgaste Equipamento: Desgaste (p. 207)
@@ -14830,7 +14830,7 @@ Especial de invocação Invocações: Comandar uma especial (p. 318)
 Especial e repertório Especial e repertório (p. 131)
 CANDIDATA EDITORIAL • BASE v0.331 375
 
-PROJETO - M ÍNDICE
+CICLO MALDITO ÍNDICE
 Índice: E–F
 Assunto Consulta
 Essência Regras gerais: Atributos (p. 6)
@@ -14862,7 +14862,7 @@ Forma Fundamento: Formas de ataque (p. 224)
 Fundamento Fundamento (p. 218)
 CANDIDATA EDITORIAL • BASE v0.331 376
 
-PROJETO - M ÍNDICE
+CICLO MALDITO ÍNDICE
 Índice: F–L
 Assunto Consulta
 Fura Catálogo: Defesas (p. 246)
@@ -14893,7 +14893,7 @@ Leitura de Feitiços Catálogo: Talentos de Categoria 1 (p. 260)
 Lento Dano e Recuperação: Condições leves (p. 44)
 CANDIDATA EDITORIAL • BASE v0.331 377
 
-PROJETO - M ÍNDICE
+CICLO MALDITO ÍNDICE
 Índice: L–M
 Assunto Consulta
 Leque Progressão: Marcos (p. 213)
@@ -14926,7 +14926,7 @@ Munição Equipamento: Munição (p. 183)
 Muro Muro (p. 82)
 CANDIDATA EDITORIAL • BASE v0.331 378
 
-PROJETO - M ÍNDICE
+CICLO MALDITO ÍNDICE
 Índice: N–P
 Assunto Consulta
 Nível Progressão: Experiência e Progressão (p. 209)
@@ -14958,7 +14958,7 @@ Pontos de vida Dano e Recuperação: Dano (p. 40)
 Pontos de Vínculo Vínculo (p. 124)
 CANDIDATA EDITORIAL • BASE v0.331 379
 
-PROJETO - M ÍNDICE
+CICLO MALDITO ÍNDICE
 Índice: P–R
 Assunto Consulta
 Precisão Catálogo: Mira (p. 246)
@@ -14989,7 +14989,7 @@ Remenda Catálogo: Amparo (p. 254)
 Ressonante Ressonante (p. 119)
 CANDIDATA EDITORIAL • BASE v0.331 380
 
-PROJETO - M ÍNDICE
+CICLO MALDITO ÍNDICE
 Índice: R–T
 Assunto Consulta
 Restrição Fundamento: Restrições (p. 227)
@@ -15020,7 +15020,7 @@ Técnica amaldiçoada Mundo jujutsu (p. 4)
 Técnica Marcial Rotas: Técnica Marcial (p. 279)
 CANDIDATA EDITORIAL • BASE v0.331 381
 
-PROJETO - M ÍNDICE
+CICLO MALDITO ÍNDICE
 Índice: T–X
 Assunto Consulta
 Técnica Máxima Fundamento: Técnica Máxima (p. 237)

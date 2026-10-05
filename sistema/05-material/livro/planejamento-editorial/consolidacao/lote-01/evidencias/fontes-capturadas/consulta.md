@@ -642,7 +642,7 @@ Ao terminar, confiram as alterações com os jogadores. Separar o que foi observ
 <!-- page:consulta-referencias|Referências e adaptação -->
 # Referências e adaptação
 
-Projeto - M é um sistema de fã ambientado no universo de **Jujutsu Kaisen**, de Gege Akutami. A obra apresenta personagens, acontecimentos e poderes que inspiram o jogo. Os números e procedimentos desta edição foram escritos para a mesa.
+Ciclo Maldito é um sistema de fã ambientado no universo de **Jujutsu Kaisen**, de Gege Akutami. A obra apresenta personagens, acontecimentos e poderes que inspiram o jogo. Os números e procedimentos desta edição foram escritos para a mesa.
 
 ## Obra e jogo
 
@@ -652,11 +652,11 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 ## Fontes consultadas
 
-A ambientação da abertura foi conferida em trechos do volume 1 de Jujutsu Kaisen, disponíveis na prévia oficial da Shueisha, e nos perfis oficiais do anime. Esses recortes sustentam a apresentação geral de maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Projeto - M.
+A ambientação da abertura foi conferida em trechos do volume 1 de Jujutsu Kaisen, disponíveis na prévia oficial da Shueisha, e nos perfis oficiais do anime. Esses recortes sustentam a apresentação geral de maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Ciclo Maldito.
 
 O **Player’s Handbook de Dungeons & Dragons, edição 2024**, foi usado como referência de organização: apresentação do jogo, roteiro de criação, fichas e consulta. O **Dungeon Master’s Guide, edição 2024**, serviu de referência para a função dos registros de campanha e das orientações de preparação de sessão. Foram consultados os exemplares locais fornecidos para o trabalho editorial.
 
-As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma semelhança de nome com outro RPG não substitui a leitura da entrada correspondente no Projeto - M.
+As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma semelhança de nome com outro RPG não substitui a leitura da entrada correspondente no Ciclo Maldito.
 
 <!-- page:consulta-indice-1|Índice: A -->
 # Índice: A

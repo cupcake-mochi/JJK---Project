@@ -268,7 +268,7 @@ Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela
 <!-- page:prog-guilda|Recompensas da guilda -->
 # Recompensas da guilda
 
-Salário e recompensas por mestrar são **políticas opcionais da campanha**. A tabela oferece uma escala do Projeto M para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da obra ou do Japão real.
+Salário e recompensas por mestrar são **políticas opcionais da campanha**. A tabela oferece uma escala do Ciclo Maldito para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da obra ou do Japão real.
 
 | Grau | Salário mensal de referência |
 |---|---:|
@@ -295,7 +295,7 @@ Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao comple
 <!-- page:prog-patentes|Patentes -->
 # Patentes
 
-A patente registra o reconhecimento do personagem pela instituição. O Projeto M usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.
+A patente registra o reconhecimento do personagem pela instituição. O Ciclo Maldito usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.
 
 Na criação padrão, você começa no **Grau 4**, independentemente da Origem. Uma campanha que comece com personagens já reconhecidos pode definir outra patente inicial, conforme **Equipamento inicial**, em Equipamento. Começar em um nível maior não concede essa mudança automaticamente.
 

@@ -471,6 +471,16 @@ Em 05/10/2026, o Mizuki decidiu que a Melhoria Condição sempre pede TR, mesmo 
 - **Fora da D43, achado no caminho:** a v0.332 (passo 2 da migração, commit `789cf5a`) mudou as peças 01, 09, 11, 13 e 14 e o CHANGELOG sem cotejo, e nove capítulos que guardam essas fontes por hash ficaram vermelhos (Aptidões, Bastião, Fabricação, Origens, Perícias, Poderes avançados, Progressão, Regras gerais e Rotas). O diff palavra a palavra só toca os renomes Reencarnado → Encarnado, Incapacitado → Guarda Aberta e Aviso → Leitura de Feitiços, que a candidata já usava; o do CHANGELOG é a entrada nova. Cada capítulo ganhou um `COTEJO-FONTES-PRESERVADAS-2026-10-05.json` na pasta de evidências (por exemplo `../rotas/lote-01/evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json`); a Progressão registrou o cotejo no `FONTES.json` e a Fabricação no `fontes-concorrentes.json`. O auditor da Fabricação regravava a lista de fontes preservadas com o hash inicial e ignorava o cotejo aceito; agora usa o hash cotejado quando ele confere, e a perturbação do cotejo faz o auditor falhar.
 - Cotejos dos donos mudados pela D43: Consulta (`FONTES-CANDIDATAS.json`) e Construir invocações (`fontes-concorrentes-finais.json`). Nenhuma das duas reproduz os trechos.
 
+### Nome do sistema · Ciclo Maldito (v0.334)
+
+Em 05/10/2026, o Mizuki mandou o livro final, **Ciclo Maldito | Livro de regras (R28a)**, e decidiu que o nome vale no repositório inteiro. O R28a foi comparado com a candidata e não tem regra diferente (ver `../migracao-pos-candidata/PLANO.md`); esta passada só troca o nome.
+
+- **Texto:** dez capítulos citavam o sistema pelo nome, em 26 linhas: Abertura (`AB28` a `AB34`, inclusive o título do capítulo 1), Dano e recuperação (`DR37`), Origens (`OR36` a `OR38`), Equipamento (`EQ28` a `EQ30`), Progressão (`PRO43` e `PRO44`), Fundamento (`FU-62` a `FU-65`), Aptidões (`A34`), Poderes avançados (`R08-36`), Ritual (`RP-35`) e Consulta (`R23-33` a `R23-35`). *"O Projeto M"* virou *"o Ciclo Maldito"*, com o mesmo artigo.
+- **Cabeçalho e capa:** os 23 geradores de unidade e o do livro imprimem `CICLO MALDITO`; a capa e o título do PDF também. O título do capítulo 1 mudou no `ORDEM.json` e no `ESTRUTURA.json` da Abertura.
+- **Fica com o nome antigo:** os nomes de arquivo (`Projeto-M-*.pdf`, o ZIP), que centenas de manifestos citam por hash, e os registros históricos.
+- **Provas:** os 23 PDFs de unidade mudaram no cabeçalho de todas as páginas e no corpo de 20; o livro, no cabeçalho de todas e no corpo de 21. As páginas de corpo mudado foram abertas, e o cabeçalho novo foi conferido numa tira por unidade. As outras herdam a inspeção por corpo idêntico.
+- **Cotejos:** a v0.333 (os renomes da `Passiva` nas peças) e esta troca mudaram fontes que onze capítulos guardam por hash. Cada um ganhou o registro em `COTEJO-FONTES-PRESERVADAS-2026-10-05.json`, e a Consulta, Construir invocações, Fabricação, Progressão e Origens registraram nos próprios arquivos.
+
 ## Validador editorial
 
 | Situação | Achados do `conferir_editorial.py` nos manuscritos alterados |

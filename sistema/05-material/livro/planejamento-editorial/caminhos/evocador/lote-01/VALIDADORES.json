@@ -814,5 +814,18 @@
     "escopo": "Quinta passada de 04/10/2026 (D25 a D41). V01–V12 seguem as revisões registradas, renovadas por delta no bloco revisao_delta_2026_10_04_quinta_passada das evidências da unidade e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   },
-  "sha256_pdf": "97c14e7f6898a6444492b06a3f8570a0e9ece46cbc8dd2c8ad1cc22de1a0936d"
+  "sha256_pdf": "512169725bace72680a345cd021c276a36ad4aa88ad6046335ab2fe801f0d5ee",
+  "revalidacao_2026_10_05_ciclo_maldito": {
+    "sha256_texto_anterior": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
+    "sha256_pdf_anterior": "97c14e7f6898a6444492b06a3f8570a0e9ece46cbc8dd2c8ad1cc22de1a0936d",
+    "sha256_texto": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
+    "sha256_pdf": "512169725bace72680a345cd021c276a36ad4aa88ad6046335ab2fe801f0d5ee",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 250
+    },
+    "escopo": "Oitava passada (v0.334): só o cabeçalho do PDF mudou (CICLO MALDITO); o texto da unidade é o mesmo, e o corpo das páginas é idêntico pixel a pixel. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  }
 }

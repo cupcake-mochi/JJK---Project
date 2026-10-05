@@ -1,11 +1,11 @@
-<!-- page:ab-apresentacao|Projeto - M -->
-# Projeto - M
+<!-- page:ab-apresentacao|Ciclo Maldito -->
+# Ciclo Maldito
 
 **Um RPG de mesa no universo de Jujutsu Kaisen.**
 
 Crie um personagem, desenvolva suas capacidades e participe de missões com outros jogadores. Seu grupo pode investigar desaparecimentos, proteger alguém perseguido por uma maldição ou recuperar um objeto perigoso antes que caia nas mãos erradas. Ao longo dessas aventuras, as escolhas do personagem, seus companheiros e seus inimigos passam a fazer parte de uma história própria.
 
-Projeto - M oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que sabe. Uma mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar, conforme os efeitos que você construir para eles.
+Ciclo Maldito oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que sabe. Uma mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar, conforme os efeitos que você construir para eles.
 
 ## Jogadores e mestre
 
@@ -21,7 +21,7 @@ Este sistema foi preparado também para **guildas**: comunidades, muitas vezes o
 
 Guilda é uma forma de organizar o jogo. A instituição a que os personagens pertencem dentro da história pode ser uma escola, um grupo independente ou outra organização definida pela campanha.
 
-> Projeto - M é um material de fã baseado na obra de Gege Akutami. Suas regras, personagens de exemplo e missões são criações para este jogo. As escolhas de adaptação estão reunidas em Referências e adaptação.
+> Ciclo Maldito é um material de fã baseado na obra de Gege Akutami. Suas regras, personagens de exemplo e missões são criações para este jogo. As escolhas de adaptação estão reunidas em Referências e adaptação.
 
 <!-- page:ab-primeira-sessao|Primeira sessão -->
 # Primeira sessão
@@ -61,7 +61,7 @@ As maldições são seres sobrenaturais capazes de ferir pessoas. Suas formas e 
 
 A **energia amaldiçoada** permite enfrentar essas ameaças. Feiticeiros aprendem a empregá-la em suas capacidades. Uma **técnica amaldiçoada** tem um funcionamento próprio, como controlar sombras ou alterar uma propriedade daquilo que alcança. Entender esse funcionamento ajuda a decidir o que tentar e a reconhecer seus limites.
 
-No jogo, você descreve sua técnica e monta suas aplicações usando o Fundamento. Chamamos cada aplicação preparada de **feitiço**. Pontos de energia, Classes, espaços conhecidos e demais valores são regras do Projeto - M para organizar seu uso na mesa.
+No jogo, você descreve sua técnica e monta suas aplicações usando o Fundamento. Chamamos cada aplicação preparada de **feitiço**. Pontos de energia, Classes, espaços conhecidos e demais valores são regras do Ciclo Maldito para organizar seu uso na mesa.
 
 ## Ver e perceber
 
@@ -84,7 +84,7 @@ Na campanha, o mestre apresenta as pessoas e organizações que importam para o 
 
 O universo inclui estudantes que aprendem a lidar com seu poder, profissionais experientes, pessoas ligadas a objetos amaldiçoados e corpos criados por jujutsu. Capacidades físicas, ferramentas e conhecimentos também podem ter grande importância numa luta.
 
-As **Origens** do Projeto - M organizam essas possibilidades para a criação de personagens. São categorias do sistema, com escolhas próprias. O grupo define quais estão disponíveis e como elas participam da campanha. Sua ficha informa as capacidades que você possui, mesmo quando sua história menciona mais de uma dessas possibilidades.
+As **Origens** do Ciclo Maldito organizam essas possibilidades para a criação de personagens. São categorias do sistema, com escolhas próprias. O grupo define quais estão disponíveis e como elas participam da campanha. Sua ficha informa as capacidades que você possui, mesmo quando sua história menciona mais de uma dessas possibilidades.
 
 ## Campanha própria
 
@@ -114,7 +114,7 @@ Distribua **9 pontos** entre Força, Destreza, Constituição, Inteligência e E
 
 Os atributos representam capacidades distintas. Força participa do esforço físico. Destreza, da precisão e dos movimentos. Constituição, da resistência corporal. Inteligência, do raciocínio e do conhecimento. Essência, da presença e da relação com energia amaldiçoada. As regras de cada teste indicam qual usar.
 
-Em Projeto - M, o número anotado já é o valor somado quando uma regra pede o atributo. **Força 3 fornece +3**, sem uma conversão adicional.
+Em Ciclo Maldito, o número anotado já é o valor somado quando uma regra pede o atributo. **Força 3 fornece +3**, sem uma conversão adicional.
 
 > **Exemplo:** Kaori recebe Força 3, Destreza 2, Constituição 2, Inteligência 1 e Essência 1. A soma é 9. Ela será forte e resistente desde o começo, conservando alguma capacidade nos demais atributos.
 

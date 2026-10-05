@@ -1,4 +1,4 @@
-# Projeto - M
+# Ciclo Maldito
 
 > Candidata editorial reunida. Publicação v0.331 preservada.
 
@@ -6,7 +6,7 @@
 # Parte 1 — Jogo e mundo
 
 <a id="capitulo-1"></a>
-## 1. Projeto - M
+## 1. Ciclo Maldito
 
 <!-- fonte:abertura/lote-01/ABERTURA-E-CRIACAO.md#ab-apresentacao -->
 <a id="ab--ab-apresentacao"></a>
@@ -14,7 +14,7 @@
 
 Crie um personagem, desenvolva suas capacidades e participe de missões com outros jogadores. Seu grupo pode investigar desaparecimentos, proteger alguém perseguido por uma maldição ou recuperar um objeto perigoso antes que caia nas mãos erradas. Ao longo dessas aventuras, as escolhas do personagem, seus companheiros e seus inimigos passam a fazer parte de uma história própria.
 
-Projeto - M oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que sabe. Uma mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar, conforme os efeitos que você construir para eles.
+Ciclo Maldito oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que sabe. Uma mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar, conforme os efeitos que você construir para eles.
 
 #### Jogadores e mestre
 
@@ -30,7 +30,7 @@ Este sistema foi preparado também para **guildas**: comunidades, muitas vezes o
 
 Guilda é uma forma de organizar o jogo. A instituição a que os personagens pertencem dentro da história pode ser uma escola, um grupo independente ou outra organização definida pela campanha.
 
-> Projeto - M é um material de fã baseado na obra de Gege Akutami. Suas regras, personagens de exemplo e missões são criações para este jogo. As escolhas de adaptação estão reunidas em Referências e adaptação.
+> Ciclo Maldito é um material de fã baseado na obra de Gege Akutami. Suas regras, personagens de exemplo e missões são criações para este jogo. As escolhas de adaptação estão reunidas em Referências e adaptação.
 
 <!-- fonte:abertura/lote-01/ABERTURA-E-CRIACAO.md#ab-primeira-sessao -->
 <a id="ab--ab-primeira-sessao"></a>
@@ -72,7 +72,7 @@ As maldições são seres sobrenaturais capazes de ferir pessoas. Suas formas e 
 
 A **energia amaldiçoada** permite enfrentar essas ameaças. Feiticeiros aprendem a empregá-la em suas capacidades. Uma **técnica amaldiçoada** tem um funcionamento próprio, como controlar sombras ou alterar uma propriedade daquilo que alcança. Entender esse funcionamento ajuda a decidir o que tentar e a reconhecer seus limites.
 
-No jogo, você descreve sua técnica e monta suas aplicações usando o Fundamento. Chamamos cada aplicação preparada de **feitiço**. Pontos de energia, Classes, espaços conhecidos e demais valores são regras do Projeto - M para organizar seu uso na mesa.
+No jogo, você descreve sua técnica e monta suas aplicações usando o Fundamento. Chamamos cada aplicação preparada de **feitiço**. Pontos de energia, Classes, espaços conhecidos e demais valores são regras do Ciclo Maldito para organizar seu uso na mesa.
 
 #### Ver e perceber
 
@@ -96,7 +96,7 @@ Na campanha, o mestre apresenta as pessoas e organizações que importam para o 
 
 O universo inclui estudantes que aprendem a lidar com seu poder, profissionais experientes, pessoas ligadas a objetos amaldiçoados e corpos criados por jujutsu. Capacidades físicas, ferramentas e conhecimentos também podem ter grande importância numa luta.
 
-As **Origens** do Projeto - M organizam essas possibilidades para a criação de personagens. São categorias do sistema, com escolhas próprias. O grupo define quais estão disponíveis e como elas participam da campanha. Sua ficha informa as capacidades que você possui, mesmo quando sua história menciona mais de uma dessas possibilidades.
+As **Origens** do Ciclo Maldito organizam essas possibilidades para a criação de personagens. São categorias do sistema, com escolhas próprias. O grupo define quais estão disponíveis e como elas participam da campanha. Sua ficha informa as capacidades que você possui, mesmo quando sua história menciona mais de uma dessas possibilidades.
 
 #### Campanha própria
 
@@ -1816,7 +1816,7 @@ Estar Inconsciente com vida acima de zero não inicia sozinho uma janela de Morr
 <a id="dano--descansos"></a>
 ### Descansos
 
-O Projeto M usa dois tipos de descanso, definidos pela situação da missão. Não é necessário contar uma quantidade fixa de horas.
+O Ciclo Maldito usa dois tipos de descanso, definidos pela situação da missão. Não é necessário contar uma quantidade fixa de horas.
 
 **Descanso curto:** uma pausa segura entre confrontos. Você parou e não está sendo perseguido naquele momento. **Descanso longo:** a missão terminou e você pôde parar de trabalhar.
 
@@ -1950,7 +1950,7 @@ Distribua **9 pontos** entre Força, Destreza, Constituição, Inteligência e E
 
 Os atributos representam capacidades distintas. Força participa do esforço físico. Destreza, da precisão e dos movimentos. Constituição, da resistência corporal. Inteligência, do raciocínio e do conhecimento. Essência, da presença e da relação com energia amaldiçoada. As regras de cada teste indicam qual usar.
 
-Em Projeto - M, o número anotado já é o valor somado quando uma regra pede o atributo. **Força 3 fornece +3**, sem uma conversão adicional.
+Em Ciclo Maldito, o número anotado já é o valor somado quando uma regra pede o atributo. **Força 3 fornece +3**, sem uma conversão adicional.
 
 > **Exemplo:** Kaori recebe Força 3, Destreza 2, Constituição 2, Inteligência 1 e Essência 1. A soma é 9. Ela será forte e resistente desde o começo, conservando alguma capacidade nos demais atributos.
 
@@ -2455,9 +2455,9 @@ Você voltou a viver no corpo de outra pessoa. Traz lembranças de uma época an
 
 Você é uma criação que reúne natureza humana e amaldiçoada. Alguém participou deliberadamente da sua formação, e o motivo pode ter sido pesquisa, ambição ou uma tentativa de produzir algo que ainda não existia. O nome desta Origem descreve essa procedência. Seu personagem pode ter aparência e idade adulta.
 
-As Pinturas da Morte inspiram essa possibilidade no Projeto M. A campanha também pode apresentar outras criações. Os efeitos dos Legados são regras desta Origem, não características obrigatórias de todo ser parecido na obra.
+As Pinturas da Morte inspiram essa possibilidade no Ciclo Maldito. A campanha também pode apresentar outras criações. Os efeitos dos Legados são regras desta Origem, não características obrigatórias de todo ser parecido na obra.
 
-Para as regras do Projeto M, escolher Feto não classifica seu personagem como uma maldição. Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e recuperação normais, salvo uma exceção expressa da sua ficha.
+Para as regras do Ciclo Maldito, escolher Feto não classifica seu personagem como uma maldição. Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e recuperação normais, salvo uma exceção expressa da sua ficha.
 
 **Perícia da Origem:** escolha Ocultismo, Medicina, Sentir Energia ou Natureza. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica.
 
@@ -2533,7 +2533,7 @@ Você possui energia amaldiçoada, PE, Refino e aptidões. As regras de Técnica
 
 Escolha **uma configuração** entre Ninhada, Gêmeos, Inteiro e Manutenção. Ela ocupa seu Legado narrativo obrigatório e libera a lista de Legados de rolagem correspondente. Você não pode combinar duas configurações. Seu segundo Legado pode vir da lista liberada, ser Ferro Velho ou ser um Legado personalizado permitido pelas regras de criação.
 
-Panda é uma referência de corpo construído com consciência. As quatro configurações abaixo oferecem possibilidades de personagem do Projeto M. Elas não representam quatro métodos comprovados de fabricação na obra.
+Panda é uma referência de corpo construído com consciência. As quatro configurações abaixo oferecem possibilidades de personagem do Ciclo Maldito. Elas não representam quatro métodos comprovados de fabricação na obra.
 
 #### Corpo construído
 
@@ -7327,7 +7327,7 @@ Uma missão pode exigir armas, proteção, ferramentas e suprimentos. O dinheiro
 
 Os preços deste livro estão em **ienes (¥)**. Anote o dinheiro do personagem e desconte cada compra. Armas, munição e itens comuns têm seus preços nos respectivos catálogos; os de uniformes e escudos estão em [Preços de proteção](#equip--eqc-precos).
 
-Na instituição do Projeto M, o pagamento regular depende da patente e da participação em missões. Valores, frequência e ajustes da campanha estão em **Recompensas da guilda**, no capítulo de Experiência e Progressão. Receber equipamento ou terminar uma missão não concede outro pagamento por conta própria.
+Na instituição do Ciclo Maldito, o pagamento regular depende da patente e da participação em missões. Valores, frequência e ajustes da campanha estão em **Recompensas da guilda**, no capítulo de Experiência e Progressão. Receber equipamento ou terminar uma missão não concede outro pagamento por conta própria.
 
 #### Equipamento restrito
 
@@ -7470,7 +7470,7 @@ O item conserva Volume, mãos necessárias, dano, proteção, teto de Destreza e
 <a id="equip--eqf-graus"></a>
 ### Graus das ferramentas
 
-O grau organiza a entrega de ferramentas na campanha. Graus mais altos permitem efeitos mais marcantes. A escala abaixo é uma adaptação do Projeto - M; as fichas deste catálogo são criações para o jogo.
+O grau organiza a entrega de ferramentas na campanha. Graus mais altos permitem efeitos mais marcantes. A escala abaixo é uma adaptação do Ciclo Maldito; as fichas deste catálogo são criações para o jogo.
 
 | Grau | Efeito esperado | Nível mínimo para o efeito |
 |---|---|---|
@@ -7777,7 +7777,7 @@ Restos de um feiticeiro podem conservar uma maldição muito depois de sua morte
 
 #### Atração e selos
 
-No Projeto - M, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo pode pôr em risco o grupo e as pessoas ao redor. A regra não fixa distância nem frequência de encontros: o mestre considera o objeto, o local e as maldições presentes.
+No Ciclo Maldito, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo pode pôr em risco o grupo e as pessoas ao redor. A regra não fixa distância nem frequência de encontros: o mestre considera o objeto, o local e as maldições presentes.
 
 Um objeto preparado como amuleto usa um selo para afastar maldições. Essa proteção enfraquece com o tempo; se o selo perde o efeito ou é retirado, o objeto volta a atraí-las. O mestre define a duração e o alcance dessa proteção para o objeto da missão. Isso não concede imunidade a ataques nem impede automaticamente que uma maldição se aproxime.
 
@@ -8080,7 +8080,7 @@ Também remova básicas, especiais, Talentos ou Famílias concedidas apenas pela
 <a id="progressao--prog-guilda"></a>
 ### Recompensas da guilda
 
-Salário e recompensas por mestrar são **políticas opcionais da campanha**. A tabela oferece uma escala do Projeto M para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da obra ou do Japão real.
+Salário e recompensas por mestrar são **políticas opcionais da campanha**. A tabela oferece uma escala do Ciclo Maldito para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da obra ou do Japão real.
 
 | Grau | Salário mensal de referência |
 |---|---:|
@@ -8108,7 +8108,7 @@ Se escolher uma mensalidade extra a cada **X missões**, a marca fecha ao comple
 <a id="progressao--prog-patentes"></a>
 ### Patentes
 
-A patente registra o reconhecimento do personagem pela instituição. O Projeto M usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.
+A patente registra o reconhecimento do personagem pela instituição. O Ciclo Maldito usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.
 
 Na criação padrão, você começa no **Grau 4**, independentemente da Origem. Uma campanha que comece com personagens já reconhecidos pode definir outra patente inicial, conforme **Equipamento inicial**, em Equipamento. Começar em um nível maior não concede essa mudança automaticamente.
 
@@ -8126,7 +8126,7 @@ Se a campanha usar remuneração, consulte **Recompensas da guilda**. Registre a
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#fundamento -->
 <a id="fundamento--fundamento"></a>
-Uma técnica pode transformar uma luta antes de causar qualquer ferimento: prender uma porta, separar dois inimigos ou levar um aliado para fora do perigo. No Projeto - M, você escreve o que a sua técnica faz e monta as aplicações que o personagem aprendeu a usar.
+Uma técnica pode transformar uma luta antes de causar qualquer ferimento: prender uma porta, separar dois inimigos ou levar um aliado para fora do perigo. No Ciclo Maldito, você escreve o que a sua técnica faz e monta as aplicações que o personagem aprendeu a usar.
 
 O **Fundamento** é a descrição dessa técnica e dos seus limites. Cada aplicação preparada é um **feitiço**, com nome, custo e efeito próprios. Você mantém o mesmo Fundamento e aprende novas aplicações ao longo da campanha.
 
@@ -8151,7 +8151,7 @@ Personagens sem técnica inata também criam aplicações. Na rota Sem Técnica,
 
 **Espaço de feitiço conhecido é uma vaga na ficha.** Nas três rotas, uma dessas vagas pode ser ocupada por uma invocação **quando o funcionamento da técnica ou do estilo prevê entidades**. A contagem e a troca estão em [Feitiços conhecidos](#fundamento--repertorio).
 
-Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Projeto - M. As técnicas originais destes exemplos foram criadas para ensinar o sistema.
+Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Ciclo Maldito. As técnicas originais destes exemplos foram criadas para ensinar o sistema.
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#tecnica -->
 <a id="fundamento--tecnica"></a>
@@ -8951,7 +8951,7 @@ Trocar a função, a Forma ou as peças já escolhidas usa a revisão de um feit
 <a id="fundamento--passagem"></a>
 ### Passagem de Papel
 
-Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga superfícies por dobraduras. Sua Regra permite unir duas marcas preparadas. Suas Famílias Fechadas são Amparo, Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M.
+Este exemplo de **Técnica Máxima sem dano** pertence a um Fundamento que liga superfícies por dobraduras. Sua Regra permite unir duas marcas preparadas. Suas Famílias Fechadas são Amparo, Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Ciclo Maldito.
 
 #### Montagem
 
@@ -8982,7 +8982,7 @@ O grupo pode preparar uma saída para retirar pessoas de um prédio ou transport
 <a id="fundamento--retirada"></a>
 ### Retirada de Emergência
 
-Esta **Máxima sem dano em combate** pertence a uma técnica que distribui impulso por fios ligados a corpos dispostos. Sua Regra permite conduzir os movimentos desses corpos. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M.
+Esta **Máxima sem dano em combate** pertence a uma técnica que distribui impulso por fios ligados a corpos dispostos. Sua Regra permite conduzir os movimentos desses corpos. Alcance e Área precisam estar disponíveis. É uma criação original do Ciclo Maldito.
 
 #### Montagem e uso
 
@@ -10172,7 +10172,7 @@ Pague também a primeira manutenção ao ativar. No começo de cada turno seu se
 
 As aptidões não removem a barreira que prende você na Expansão, nem os benefícios concedidos ao dono dela. Um ataque comum realizado dentro do domínio continua sendo um ataque comum.
 
-A Expansão incompleta não tem Acerto garantido. Cesta, Domínio Simples e a proteção de Pétala contra Acerto não a anulam. Extensão declara a própria exceção. As capacidades descritas aqui são regras do Projeto - M para representar essas defesas.
+A Expansão incompleta não tem Acerto garantido. Cesta, Domínio Simples e a proteção de Pétala contra Acerto não a anulam. Extensão declara a própria exceção. As capacidades descritas aqui são regras do Ciclo Maldito para representar essas defesas.
 
 <!-- fonte:aptidoes/lote-01/APTIDOES-E-REFINO.md#apt-cesta -->
 <a id="aptidoes--apt-cesta"></a>
@@ -11055,7 +11055,7 @@ Essa proposta concede uma informação corporal estreita. Não substitui Faro, n
 <a id="poderes--degraus"></a>
 ### Expansão de Domínio
 
-Uma Expansão estabelece a Técnica Inata sobre uma área durante vários turnos. Seu domínio pode transformar o lugar em uma galeria, uma oficina ou uma sala de julgamento. A aparência acompanha as capacidades registradas; não cria ataques ou vantagens adicionais durante a abertura. Estas são as regras do Projeto - M para usar esse poder.
+Uma Expansão estabelece a Técnica Inata sobre uma área durante vários turnos. Seu domínio pode transformar o lugar em uma galeria, uma oficina ou uma sala de julgamento. A aparência acompanha as capacidades registradas; não cria ataques ou vantagens adicionais durante a abertura. Estas são as regras do Ciclo Maldito para usar esse poder.
 
 A montagem de Liberação e Técnica Máxima está em **Fundamento**. As rotas Sem Técnica e Técnica Marcial não recebem Expansão por terem acesso à progressão de Classes.
 
@@ -11621,7 +11621,7 @@ Um pacto troca uma limitação ou um compromisso por uma capacidade definida. Es
 | Promessa | Quando duas partes capazes de decidir aceitam os termos. | Prazo e consequências registrados no acordo. |
 | Pacto de restrição | Na criação, com a Origem ou técnica. | Registra uma limitação já considerada na ficha. |
 
-As quatro formas e os limites deste capítulo são a adaptação do Projeto - M. **Na mesa, todos os jogadores envolvidos precisam aceitar o acordo.** Não use uma ameaça entre personagens para impor ao jogador uma mudança que ele não aceitou.
+As quatro formas e os limites deste capítulo são a adaptação do Ciclo Maldito. **Na mesa, todos os jogadores envolvidos precisam aceitar o acordo.** Não use uma ameaça entre personagens para impor ao jogador uma mudança que ele não aceitou.
 
 #### Preço real
 
@@ -13248,7 +13248,7 @@ Ao terminar, confiram as alterações com os jogadores. Separar o que foi observ
 <a id="consulta--consulta-referencias"></a>
 ### Referências e adaptação
 
-Projeto - M é um sistema de fã ambientado no universo de **Jujutsu Kaisen**, de Gege Akutami. A obra apresenta personagens, acontecimentos e poderes que inspiram o jogo. Os números e procedimentos desta edição foram escritos para a mesa.
+Ciclo Maldito é um sistema de fã ambientado no universo de **Jujutsu Kaisen**, de Gege Akutami. A obra apresenta personagens, acontecimentos e poderes que inspiram o jogo. Os números e procedimentos desta edição foram escritos para a mesa.
 
 #### Obra e jogo
 
@@ -13258,11 +13258,11 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 #### Fontes consultadas
 
-A ambientação da abertura foi conferida em trechos do volume 1 de Jujutsu Kaisen, disponíveis na prévia oficial da Shueisha, e nos perfis oficiais do anime. Esses recortes sustentam a apresentação geral de maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Projeto - M.
+A ambientação da abertura foi conferida em trechos do volume 1 de Jujutsu Kaisen, disponíveis na prévia oficial da Shueisha, e nos perfis oficiais do anime. Esses recortes sustentam a apresentação geral de maldições, escolas e feiticeiros. Não determinam custos ou alcance das capacidades do Ciclo Maldito.
 
 O **Player’s Handbook de Dungeons & Dragons, edição 2024**, foi usado como referência de organização: apresentação do jogo, roteiro de criação, fichas e consulta. O **Dungeon Master’s Guide, edição 2024**, serviu de referência para a função dos registros de campanha e das orientações de preparação de sessão. Foram consultados os exemplares locais fornecidos para o trabalho editorial.
 
-As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma semelhança de nome com outro RPG não substitui a leitura da entrada correspondente no Projeto - M.
+As regras e os exemplos deste livro conservam seus próprios procedimentos. Uma semelhança de nome com outro RPG não substitui a leitura da entrada correspondente no Ciclo Maldito.
 
 <a id="capitulo-19"></a>
 ## 19. Glossário

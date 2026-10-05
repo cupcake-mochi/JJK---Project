@@ -3,7 +3,7 @@
     {
       "documento": "ab",
       "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
-      "sha256_atual": "0aa5778f2b21f1f2f643cc486cbb4b1ea8c659bd826943ed89c8d2e43bbffdac",
+      "sha256_atual": "70ee9abe5c059ef1dc81b91514e7dcc7718e5b51418936c6b73a054248e3e7f2",
       "sha256_base": "8c0e790f36fdffca4b5c148b7bcdfc2376a7bdcf65b2c5867c7a126c8ac1f887",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "abertura/lote-01/VALIDADORES.json",
@@ -39,7 +39,7 @@
     {
       "documento": "dano",
       "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
-      "sha256_atual": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192",
+      "sha256_atual": "398b836cf1cae226db0871f25bae0ac98bd291b9c0f73627c758bb39e744fe43",
       "sha256_base": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "dano-e-recuperacao/lote-final/VALIDADORES.json",
@@ -57,7 +57,7 @@
     {
       "documento": "origens",
       "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
-      "sha256_atual": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
+      "sha256_atual": "a4d5b8ecc1890827850102e73018ad2d9f1440e6ca06e80dfb6ba87117985e18",
       "sha256_base": "d432caecc9f2c63b0f355ad70a6e74251ae51044a8ac5840a35b7fd6d182484d",
       "delta_exclusivamente_remissoes": 1,
       "validadores": "origens/lote-01/VALIDADORES.json",
@@ -77,7 +77,7 @@
     {
       "documento": "equip",
       "arquivo": "equipamento/lote-final/EQUIPAMENTO.md",
-      "sha256_atual": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
+      "sha256_atual": "ce763d7d27ef709b3a89c956789f0c1908da82d00ce396645ca9a644d8b3cc98",
       "sha256_base": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
       "delta_exclusivamente_remissoes": 1,
       "validadores": "equipamento/lote-final/VALIDADORES.json",
@@ -95,7 +95,7 @@
     {
       "documento": "progressao",
       "arquivo": "progressao/lote-01/PROGRESSAO.md",
-      "sha256_atual": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
+      "sha256_atual": "cd913e9e54fcd1de862f2fc3a8bf55b301f51a8da06d9335735504f4b999c758",
       "sha256_base": "483925447a9de1d0bc32fa2dfe46af1b079438106881b67ced66f0fefe10e653",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "progressao/lote-01/VALIDADORES.json",
@@ -113,7 +113,7 @@
     {
       "documento": "fundamento",
       "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
-      "sha256_atual": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7",
+      "sha256_atual": "b01cc5cfae9cc788d620421fa349ff140182a8a1f1aed16a3e8490aa1e1df32d",
       "sha256_base": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
       "delta_exclusivamente_remissoes": 1,
       "validadores": "fundamento/lote-01/VALIDADORES.json",
@@ -149,7 +149,7 @@
     {
       "documento": "aptidoes",
       "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
-      "sha256_atual": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
+      "sha256_atual": "0b0b00346497972efc2c0a65002891eac23e489decda073bbe3a9c958927dedd",
       "sha256_base": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
       "delta_exclusivamente_remissoes": 1,
       "validadores": "aptidoes/lote-01/VALIDADORES.json",
@@ -186,7 +186,7 @@
     {
       "documento": "poderes",
       "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
-      "sha256_atual": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
+      "sha256_atual": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd",
       "sha256_base": "2b1c02cb3407a7aec6ef385a00726e1d131020b3f2b110b433bfcedf28f2854f",
       "delta_exclusivamente_remissoes": 1,
       "validadores": "poderes-avancados/lote-01/VALIDADORES.json",
@@ -204,7 +204,7 @@
     {
       "documento": "ritual",
       "arquivo": "ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md",
-      "sha256_atual": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707",
+      "sha256_atual": "0a334192d99b5e73dba144b20095a5677eb1674bc0f64d0e50a7c08a60a5f344",
       "sha256_base": "a7681d1808a2ccb1cfdf0164119cadcae34f0012bf6a4353bdea6fa366e61ee2",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "ritual-e-pactos/lote-01/VALIDADORES.json",
@@ -276,7 +276,7 @@
     {
       "documento": "consulta",
       "arquivo": "consulta/lote-01/CONSULTA.md",
-      "sha256_atual": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
+      "sha256_atual": "57d6c8e60554ebc18818569baf4325b612235dd96044b880a4a063ae77409c0d",
       "sha256_base": "a4d4b68bbed3c62efdc849ab32a08350694f6653bdeea08ec71874b5aada4980",
       "delta_exclusivamente_remissoes": 0,
       "validadores": "consulta/lote-01/VALIDADORES.json",
@@ -412,7 +412,7 @@
   "limites": "Provas por unidade conservadas como histórico; validação visual e estrutural da entrega pertence ao PDF reunido atual.",
   "fechamento_2026_10_04": {
     "fontes_com_texto_novo": 19,
-    "pdf": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
+    "pdf": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
     "conclusao": "As 23 fontes conferem com GERACAO.json do PDF atual. 19 mudaram depois de 03/10, todas registradas em revisao-interfaces/CORRECOES-APLICADAS.md (correções C01–C14, decisões D01–D43) ou, sem mudança de texto, em provas-cinco-capitulos; as 23 conferências de unidade estão aprovadas no estado atual. A publicação v0.331 continua preservada.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "atualizacao_2026_10_05": {
@@ -421,6 +421,10 @@
     },
     "atualizacao_2026_10_05_d43": {
       "motivo": "D43: Condição, Prende e Cerca pedem TR, por decisão do autor. Catálogo, Dano e recuperação, Fundamento, Abertura e Rotas mudaram; todas já contavam entre as fontes com texto novo, e a contagem não muda.",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+    },
+    "atualizacao_2026_10_05_ciclo_maldito": {
+      "motivo": "Oitava passada (v0.334): o nome do sistema passou a Ciclo Maldito em dez fontes. A contagem de fontes com texto novo desde 03/10 continua 19.",
       "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
     }
   }

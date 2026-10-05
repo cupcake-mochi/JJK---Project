@@ -1,22 +1,22 @@
 {
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
-  "sha256_texto": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707",
+  "sha256_texto": "0a334192d99b5e73dba144b20095a5677eb1674bc0f64d0e50a7c08a60a5f344",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
+  "sha256_pdf_vigente": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
-      "sha256": "1050caac93d566f95521677648181d5f0e287e35a78852bac82394ef14df5420",
-      "bytes": 14874
+      "sha256": "f48365bcefec4e69cacc67d122860805b83db5c0483a8b063de2784c151ca8b8",
+      "bytes": 15713
     },
     {
       "arquivo": "ALTERACOES.md",
-      "sha256": "14b6eb34afb4bf6db498a1b976ca260064a9102f3ab9c8bc0fd2e85dcfd96305",
-      "bytes": 13667
+      "sha256": "900fcb53e6ea6b1c54a410795b4d949f03f1f577915371791a595fcda409e26b",
+      "bytes": 14466
     },
     {
       "arquivo": "CONFERENCIA.json",
-      "sha256": "c118fa97630759e54f885a871d017616ec28111e2c1967303d248c6133e504dd",
+      "sha256": "be592afd404d40588e84f050d5acc6fd29cdd674a1d153b055abba8399f19016",
       "bytes": 16019
     },
     {
@@ -41,8 +41,8 @@
     },
     {
       "arquivo": "RITUAL-E-PACTOS.md",
-      "sha256": "e1928ed6f9ee9ccc246817333c5486428c37bb2b6840e11b610f979dcda65707",
-      "bytes": 26732
+      "sha256": "0a334192d99b5e73dba144b20095a5677eb1674bc0f64d0e50a7c08a60a5f344",
+      "bytes": 26734
     },
     {
       "arquivo": "VALIDACAO.json",
@@ -51,8 +51,8 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "c98b1854c9a301c470040884f8a8cf988282ff2d961e49c55661b3bd3b5b28d7",
-      "bytes": 8492
+      "sha256": "f2ed2e42569792cd7ef02b8f8a6977d8a8cf397f1ad569b45cb3e4afb9e12672",
+      "bytes": 9397
     },
     {
       "arquivo": "auditar.py",
@@ -71,8 +71,8 @@
     },
     {
       "arquivo": "evidencias/LOCALIZACAO-EDITORIAL.json",
-      "sha256": "5bb200eda2ee53657425af874c2944b57fa8f39133f56ae3d22ad9f0489f9123",
-      "bytes": 3936
+      "sha256": "f6427f1520d3045ecc84ac857e8e46f62e76f30234cb3656562152e86eff9bb3",
+      "bytes": 5333
     },
     {
       "arquivo": "evidencias/MATRIZ-RITUAL-RESTRICOES.json",
@@ -86,8 +86,8 @@
     },
     {
       "arquivo": "evidencias/REVISAO-EDITORIAL.json",
-      "sha256": "cd9cb2e340f8c28183bfa4feca92b5d82ff7ea635b3dd185a22d4ed01f5aa4e7",
-      "bytes": 6269
+      "sha256": "3033fa655de4ed37fee6cbed1b2c7bf3efe9005fe89069a7735bba631aa2a51c",
+      "bytes": 7580
     },
     {
       "arquivo": "evidencias/REVISAO-INDEPENDENTE-MODELOS.json",
@@ -101,7 +101,7 @@
     },
     {
       "arquivo": "evidencias/auditoria-numerica.json",
-      "sha256": "28453365e8229a0dc7aeff6d3ac5295a455f68f47e23d8fcfd7e5fcf6e219916",
+      "sha256": "c01f45e2e2246e32df986e32bc48fc8b71c1cdad3c56885610c624a2543d5cf3",
       "bytes": 14640
     },
     {
@@ -116,28 +116,28 @@
     },
     {
       "arquivo": "evidencias/inspecao-visual.json",
-      "sha256": "b61879002e00b389ead4739e47e420f870f4a7ae6c1991bec4d57953c0d32de0",
-      "bytes": 5029
+      "sha256": "0ca5743027c52304d0c5a82c7916be47e2ee1042d6581daf1aaff3ac5bf4ea30",
+      "bytes": 6196
     },
     {
       "arquivo": "evidencias/pdf-estrutura.json",
-      "sha256": "9d0fb78998f7f11f15d38e6669d9c10614ddfcf7d40efa6d742a285e0c1db1de",
+      "sha256": "1fd638a97a257eb26b2d0b7b66dfd0d865314c7e134e836ceb81cc2930d94ca5",
       "bytes": 255
     },
     {
       "arquivo": "evidencias/regras-verificadas.json",
-      "sha256": "6b62a317a7f9e989c4cf5feb18baac2cf1d314fd4a90fa2b68a3292d16293974",
+      "sha256": "1b1aef50141c40358cdba8304958e2c40eb692680b4e8f83818d055e2fd315ab",
       "bytes": 2626
     },
     {
       "arquivo": "gerar_pdf.py",
-      "sha256": "8e1a42f53dde2d9868c2f7c37285cf52b7578da4af02ff918b793c6a9afcb49f",
-      "bytes": 7995
+      "sha256": "a4ad5c2671118bc721408259dfae26e8c99e921967dbb50f9637450e880f0a4f",
+      "bytes": 8001
     },
     {
       "arquivo": "output/pdf/Projeto-M-Ritual-e-Pactos-Proposta-01.pdf",
-      "sha256": "d0255fc5ad508a3abe2c180f88705cc4a135eb35d6b4c3fb0eb30c7add3362fd",
-      "bytes": 82279
+      "sha256": "0c7b11912bddbfce21c968e5648c730e101e39bc667772a4ca49cbf85ec87576",
+      "bytes": 82346
     },
     {
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04-quarta.json",
@@ -148,10 +148,15 @@
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
       "sha256": "b8b7a52694e0ff006679075ac9eabeda2be2c5a5cecf815ccee167ca3291ce46",
       "bytes": 657
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
+      "sha256": "b7dccec5683819eec71355e1489a6c2d5d982ad6cb287b8fe795e56fbd4feeb8",
+      "bytes": 927
     }
   ],
   "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO.",
-  "sha256_pdf_individual": "d0255fc5ad508a3abe2c180f88705cc4a135eb35d6b4c3fb0eb30c7add3362fd",
+  "sha256_pdf_individual": "0c7b11912bddbfce21c968e5648c730e101e39bc667772a4ca49cbf85ec87576",
   "atualizacao_2026_10_04": {
     "arquivos_com_hash_novo": [],
     "arquivos_acrescentados": [
@@ -210,6 +215,29 @@
     "arquivos_acrescentados": [],
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Sétima passada de 05/10/2026 (D43): Condição, Prende e Cerca pedem TR, por decisão do autor; nesta unidade, VALIDADORES e MANIFESTO apontando para o PDF vigente.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_ciclo_maldito": {
+    "arquivos_com_hash_novo": [
+      "ALTERACOES.json",
+      "ALTERACOES.md",
+      "CONFERENCIA.json",
+      "RITUAL-E-PACTOS.md",
+      "VALIDADORES.json",
+      "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "evidencias/REVISAO-EDITORIAL.json",
+      "evidencias/auditoria-numerica.json",
+      "evidencias/inspecao-visual.json",
+      "evidencias/pdf-estrutura.json",
+      "evidencias/regras-verificadas.json",
+      "gerar_pdf.py",
+      "output/pdf/Projeto-M-Ritual-e-Pactos-Proposta-01.pdf"
+    ],
+    "arquivos_acrescentados": [
+      "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json"
+    ],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Oitava passada de 05/10/2026 (v0.334): o nome do sistema passou a Ciclo Maldito, por decisão do autor. Texto da unidade mudou.",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

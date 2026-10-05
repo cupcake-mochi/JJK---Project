@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
+  "sha256_texto": "0b0b00346497972efc2c0a65002891eac23e489decda073bbe3a9c958927dedd",
   "protocolo": "../../validacao-editorial/PROTOCOLO-COMPLETO.md",
   "validadores": [
     {
@@ -154,7 +154,7 @@
     "Consolidação de nomes, progressão e remissões no livro completo"
   ],
   "revisao_adicional": "A32 inclui Ritual no índice. Aquisição conferida com R19. PDF e casos são atualizados novamente.",
-  "sha256_pdf": "6fbda6bc16317e67363de9a8ee2a0bc2fd447dfab31a905987a09262cc42ea93",
+  "sha256_pdf": "ce2292751fdd49b287a5ced55900735b6a7d12e07962c8d5916930ef2d107653",
   "revalidacao_nomes": {
     "unidade": "aptidoes/lote-01",
     "sha256_texto": "8ab8f1322ac42fd54c72a45549b1e3df6c64a75399950e2c249919bf8f0cf80c",
@@ -232,8 +232,21 @@
       "publicacao-github/provas-cinco-capitulos-2026-10-04/LEIA-ME.md"
     ],
     "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-    "sha256_pdf_vigente": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
+    "sha256_pdf_vigente": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
     "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revalidacao_2026_10_05_ciclo_maldito": {
+    "sha256_texto_anterior": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
+    "sha256_pdf_anterior": "6fbda6bc16317e67363de9a8ee2a0bc2fd447dfab31a905987a09262cc42ea93",
+    "sha256_texto": "0b0b00346497972efc2c0a65002891eac23e489decda073bbe3a9c958927dedd",
+    "sha256_pdf": "ce2292751fdd49b287a5ced55900735b6a7d12e07962c8d5916930ef2d107653",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 160
+    },
+    "escopo": "Oitava passada (v0.334): o nome do sistema passou a Ciclo Maldito no texto e no cabeçalho do PDF. V01–V12 seguem as revisões registradas, renovadas por delta no bloco revisao_delta_2026_10_05_ciclo_maldito. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

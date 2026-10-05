@@ -144,7 +144,7 @@
     "Revisão conjunta de Morrendo e Integridade",
     "Consolidação de nomes, progressão e remissões no livro completo"
   ],
-  "sha256_pdf": "b1b0a895d5dfd78462d7001ba3c78f180e4aa3542f7dd30aee73c2d8b9b05d01",
+  "sha256_pdf": "431515f80d0085453eb50760143157b68d4e1438679c155af959fd1558073990",
   "sincronizacao_final": {
     "relatorio": "evidencias/SINCRONIZACAO-FINAL.md",
     "casos": "evidencias/SINCRONIZACAO-FINAL.json",
@@ -183,7 +183,7 @@
       "revisao-interfaces/CORRECOES-APLICADAS.md"
     ],
     "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-    "sha256_pdf_vigente": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
+    "sha256_pdf_vigente": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
     "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   },
@@ -233,6 +233,19 @@
       "revisao-interfaces/CORRECOES-APLICADAS.md"
     ],
     "escopo": "Sétima passada de 05/10/2026 (D43, Condição, Prende e Cerca pedem TR). V01–V12 seguem as revisões registradas, renovadas por delta no bloco revisao_delta_2026_10_05_tr_controle das evidências da unidade e no conferir verde. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "revalidacao_2026_10_05_ciclo_maldito": {
+    "sha256_texto_anterior": "b1903bb79e8fe5342b0e5aff1da8928a09f2ce36a03cd862860430a292a9f9b4",
+    "sha256_pdf_anterior": "b1b0a895d5dfd78462d7001ba3c78f180e4aa3542f7dd30aee73c2d8b9b05d01",
+    "sha256_texto": "b1903bb79e8fe5342b0e5aff1da8928a09f2ce36a03cd862860430a292a9f9b4",
+    "sha256_pdf": "431515f80d0085453eb50760143157b68d4e1438679c155af959fd1558073990",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 185
+    },
+    "escopo": "Oitava passada (v0.334): só o cabeçalho do PDF mudou (CICLO MALDITO); o texto da unidade é o mesmo, e o corpo das páginas é idêntico pixel a pixel. V13–V15 do livro estão em consolidacao/lote-01.",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

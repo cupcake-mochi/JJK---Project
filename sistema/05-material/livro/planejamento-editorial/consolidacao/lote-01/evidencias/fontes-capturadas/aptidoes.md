@@ -291,7 +291,7 @@ Pague também a primeira manutenção ao ativar. No começo de cada turno seu se
 
 As aptidões não removem a barreira que prende você na Expansão, nem os benefícios concedidos ao dono dela. Um ataque comum realizado dentro do domínio continua sendo um ataque comum.
 
-A Expansão incompleta não tem Acerto garantido. Cesta, Domínio Simples e a proteção de Pétala contra Acerto não a anulam. Extensão declara a própria exceção. As capacidades descritas aqui são regras do Projeto - M para representar essas defesas.
+A Expansão incompleta não tem Acerto garantido. Cesta, Domínio Simples e a proteção de Pétala contra Acerto não a anulam. Extensão declara a própria exceção. As capacidades descritas aqui são regras do Ciclo Maldito para representar essas defesas.
 
 <!-- page:apt-cesta|Cesta Oca de Vime -->
 # Cesta Oca de Vime

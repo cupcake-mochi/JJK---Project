@@ -119,9 +119,22 @@
       "publicacao-github/provas-cinco-capitulos-2026-10-04/LEIA-ME.md"
     ],
     "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-    "sha256_pdf_vigente": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
+    "sha256_pdf_vigente": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
     "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
   },
-  "sha256_pdf": "c5c8039cba02704874e45601e05dac850ae59ec742a9c0175dddaff930f3409d"
+  "sha256_pdf": "7c1c074423dda88db0b53cb72e7f51b4f2b7502834fc88f8744897e3f9faa77b",
+  "revalidacao_2026_10_05_ciclo_maldito": {
+    "sha256_texto_anterior": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae",
+    "sha256_pdf_anterior": "c5c8039cba02704874e45601e05dac850ae59ec742a9c0175dddaff930f3409d",
+    "sha256_texto": "2d8ba86ef20865c3022197ab4c8027f3b2bf43dde353e35e14d76c0d0e9aafae",
+    "sha256_pdf": "7c1c074423dda88db0b53cb72e7f51b4f2b7502834fc88f8744897e3f9faa77b",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 83
+    },
+    "escopo": "Oitava passada (v0.334): só o cabeçalho do PDF mudou (CICLO MALDITO); o texto da unidade é o mesmo, e o corpo das páginas é idêntico pixel a pixel. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  }
 }

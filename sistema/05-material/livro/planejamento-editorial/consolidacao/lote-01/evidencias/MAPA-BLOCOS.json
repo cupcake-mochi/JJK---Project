@@ -2,22 +2,22 @@
   {
     "parte": 1,
     "capitulo": 1,
-    "titulo_capitulo": "Projeto - M",
+    "titulo_capitulo": "Ciclo Maldito",
     "fonte": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
     "ancora_fonte": "ab-apresentacao",
-    "titulo_bloco": "Projeto - M",
+    "titulo_bloco": "Ciclo Maldito",
     "id_livro": "ab--ab-apresentacao",
     "pagina": 3,
     "paginas_conteudo": [
       3
     ],
-    "sha256_bloco_fonte": "8b0deb20e60a907511172870ed3fb3c7ab56159df1eb64132eacae1788237cc7",
+    "sha256_bloco_fonte": "8b300cfd7528bdeb7f96187075daf79a5efdd7cb07f3f58e3dfed5e2cebe722c",
     "cabecalho_inicial_unificado": true
   },
   {
     "parte": 1,
     "capitulo": 1,
-    "titulo_capitulo": "Projeto - M",
+    "titulo_capitulo": "Ciclo Maldito",
     "fonte": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
     "ancora_fonte": "ab-primeira-sessao",
     "titulo_bloco": "Primeira sessão",
@@ -33,7 +33,7 @@
   {
     "parte": 1,
     "capitulo": 1,
-    "titulo_capitulo": "Projeto - M",
+    "titulo_capitulo": "Ciclo Maldito",
     "fonte": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
     "ancora_fonte": "ab-mundo",
     "titulo_bloco": "Mundo jujutsu",
@@ -43,13 +43,13 @@
       4,
       5
     ],
-    "sha256_bloco_fonte": "51d6fd0de4afaf9aeebfe3f00e51859ecff2df2ecb9a7481b5f2c485cfe4a039",
+    "sha256_bloco_fonte": "618b2a0d5fd21e2089138edfe5dc5f89fe37052e8a53dc3c96b86f0ce017ad9c",
     "cabecalho_inicial_unificado": false
   },
   {
     "parte": 1,
     "capitulo": 1,
-    "titulo_capitulo": "Projeto - M",
+    "titulo_capitulo": "Ciclo Maldito",
     "fonte": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
     "ancora_fonte": "ab-sociedade",
     "titulo_bloco": "Sociedade jujutsu",
@@ -58,7 +58,7 @@
     "paginas_conteudo": [
       5
     ],
-    "sha256_bloco_fonte": "be4f25c6db86080131dd38a56e6105e68b532dbb06becbe471871e292fd5eed7",
+    "sha256_bloco_fonte": "a6d6004ba9cb95954660b6049c500f2018f4c982b6ed91cd016643b4cb3c0729",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -963,7 +963,7 @@
       52,
       53
     ],
-    "sha256_bloco_fonte": "e2d728e9ef8f822daa4012842d4db1ea77f4060eb595d706f08d7d9c38954fea",
+    "sha256_bloco_fonte": "a56f8fdcd0223f71f98e5671b1796a8532a3f22105c606f4b232e3acfb613727",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1010,7 +1010,7 @@
     "paginas_conteudo": [
       56
     ],
-    "sha256_bloco_fonte": "6bff85edf6366e1aa639f15bcf37c70f2f17920b0d2f5dc0a010d177517b7613",
+    "sha256_bloco_fonte": "a2c6abd9a2f7359832a88c1abbbf2baf89a22738be906333f802d9a26c503789",
     "cabecalho_inicial_unificado": true
   },
   {
@@ -1336,7 +1336,7 @@
     "paginas_conteudo": [
       70
     ],
-    "sha256_bloco_fonte": "1ca58681bc0deec9d5f416913169781511b8ae3215fe789e1e62f654566ceef8",
+    "sha256_bloco_fonte": "71591568917f0ed38960cf9308b2f0a0671e1c70ac61aaa3f96ffae0a7e030ee",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1382,7 +1382,7 @@
     "paginas_conteudo": [
       72
     ],
-    "sha256_bloco_fonte": "47ab8c4cecdc4027c9f3c167ab6d1571e53f8a27c3699bf883cb35ecbd29fbd2",
+    "sha256_bloco_fonte": "487db316d4b3c346ea06d600638ad89ae2f8e1d47e7ec1104e7a14ba804f65d0",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4024,7 +4024,7 @@
     "paginas_conteudo": [
       196
     ],
-    "sha256_bloco_fonte": "d0c546a1358ab50ba6f8880472ef1f0933c220ad3504ae531172de03e40c4461",
+    "sha256_bloco_fonte": "143cf281ea50c2a80b0169cd526e4dd406953c12ac72044bff29e878554dcd92",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4103,7 +4103,7 @@
       200,
       201
     ],
-    "sha256_bloco_fonte": "607e30600740c3fb583c29ab951c4efff32f906fcc3ea96130d60829c115ec5a",
+    "sha256_bloco_fonte": "6f2744be4c04dc8529d9be63b00d8584a5e5d039941d1a9791d7ec60bfecaf05",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4243,7 +4243,7 @@
       207,
       208
     ],
-    "sha256_bloco_fonte": "caaf459906b18b32fe37bec2d96bec3b1082f88bc34cff57b01dcf0555d60413",
+    "sha256_bloco_fonte": "ab9e8bedf74c3104ff566a236613da6119c1ca7a7b637319e01bfbbb49655560",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4430,7 +4430,7 @@
       216,
       217
     ],
-    "sha256_bloco_fonte": "24d267003a04e6a6c481cd83bb5a86406ce62e5927954b797dffa37bab8931b7",
+    "sha256_bloco_fonte": "bc818172e8676de5619597e28c27f4e8e3fd61499a6556ca327533b6c3a1449c",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4445,7 +4445,7 @@
     "paginas_conteudo": [
       217
     ],
-    "sha256_bloco_fonte": "a4997683f336026de1eb27b80abb443fb5d8afd37c9c29bf4d36f46dae39b6d5",
+    "sha256_bloco_fonte": "d1eed020bc40c8d58d8877be7e244b35c68f3bfcb75394fd01ed074fd3e7f4f1",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4460,7 +4460,7 @@
     "paginas_conteudo": [
       218
     ],
-    "sha256_bloco_fonte": "6c4064b685a0c6f181abca91b3250a9da19987f69cd6dad059a3942fa9515bde",
+    "sha256_bloco_fonte": "7069b51a6f25d74444a7383fc17cb04c43465d73c87d78e774d1091e76a0853e",
     "cabecalho_inicial_unificado": true
   },
   {
@@ -4867,7 +4867,7 @@
     "paginas_conteudo": [
       240
     ],
-    "sha256_bloco_fonte": "1587f67f38ef1a67b21f9ac67486843daca447a3245c7855f1e8d0910dfa74a9",
+    "sha256_bloco_fonte": "bce9e77f33acaa60e5d546789ddcfaba5121f800a1dcb24c12bee791eafc8db1",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4882,7 +4882,7 @@
     "paginas_conteudo": [
       241
     ],
-    "sha256_bloco_fonte": "8780aa8d2ee4d554408a2b8a3c2c75a5ba3329a54b966b6b66def3e5c1baf3e3",
+    "sha256_bloco_fonte": "325040ed2c7d406cf84f8ad740bcd091eeeb45846f78dc6f405ff9b63202279e",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -5549,7 +5549,7 @@
     "paginas_conteudo": [
       272
     ],
-    "sha256_bloco_fonte": "0bd7bb34461fcd5258602097c598a98d60983c54852fca26e529d316d771bebe",
+    "sha256_bloco_fonte": "9570f6b7710f0175da61067387a809b204e1288c9522e5dbfc61f5ad0a0ccb56",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6048,7 +6048,7 @@
     "paginas_conteudo": [
       295
     ],
-    "sha256_bloco_fonte": "5cf21ca6165aff32470905c7b613d8aaeb59491857e4c59b066716344ec4d396",
+    "sha256_bloco_fonte": "e3ee475f262a188a2214bfae9a9c64f9061b99bf4e76a7b25ee7314b8e8645cb",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6405,7 +6405,7 @@
       311,
       312
     ],
-    "sha256_bloco_fonte": "c6138917c3754e625827e9645fec261951f7b6962af378afdc868a1f2a1a170a",
+    "sha256_bloco_fonte": "777338e565f7b63c84836d4b747427831fbc2ab5ef42b1f9e8085e279a28b43d",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -7485,7 +7485,7 @@
     "paginas_conteudo": [
       356
     ],
-    "sha256_bloco_fonte": "3256d38d2346cb6f998571dfdaed4e213f954d3d3a6956f122ac96d25bf71d26",
+    "sha256_bloco_fonte": "e86c54985bddb34de99b480b1e9fde4aab400f569faab6a15c75cd6c2e963a70",
     "cabecalho_inicial_unificado": false
   },
   {
