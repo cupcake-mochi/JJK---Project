@@ -54,6 +54,8 @@ P02 = 'sistema/03-mecanica/02-economia-de-atributos.md'
 P11 = 'sistema/03-mecanica/11-aptidoes-e-refino.md'
 P12 = 'sistema/03-mecanica/12-experiencia-e-progressao.md'
 DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import renomes
 
 
 # --------------------------------------------------------------------------
@@ -62,7 +64,7 @@ bloco('1. A TABELA DA PECA — ela existe, tem 30 linhas e nao tem buraco?')
 # A extracao le a tabela de nove colunas. Se a peca ganhar outra tabela de nove
 # colunas um dia, a guarda de contagem acusa em vez de misturar as duas.
 
-COLS = ['nível', 'XP', 'maestria', 'espaços', 'refino', 'Classe', 'Passiva',
+COLS = ['nível', 'XP', 'maestria', 'espaços', 'refino', 'Classe', 'Talento',
         'Classe 0', 'o que acontece']
 
 _txt = ler(PECA)
@@ -343,7 +345,7 @@ except ImportError:
     _tem_docx = False
 
 if not _tem_docx:
-    _PULADAS.append('7. Classe, Passiva e Classe 0 contra o manual (sem python-docx)')
+    _PULADAS.append('7. Classe, Talento e Classe 0 contra o manual (sem python-docx)')
     print('  ~~ PULADA: sem o python-docx. As tres colunas NAO foram conferidas contra')
     print('     ninguem. Instale com: pip install python-docx --break-system-packages')
 else:
@@ -366,7 +368,8 @@ else:
         for r in _tb[0].rows[1:]:
             c = [x.text.strip() for x in r.cells]
             if c[0].isdigit():
-                MANUAL[int(c[0])] = c[1]
+                # v0.333: o .docx fica com o nome antigo até o passo 5; o renomes.py traduz.
+                MANUAL[int(c[0])] = renomes.traduz(c[1])
     except Exception as e:
         MANUAL = None
         erro(f'7: nao consegui ler a secao 9 do manual — {type(e).__name__}: {e}')
@@ -386,14 +389,14 @@ else:
                     marcos[nv] = int(m.group(1))
             return marcos
 
-        CLASSE = _degraus(r'(?<!Passiva de )Classe (\d)\.', 1)
-        PASSIVA = _degraus(r'[Ll]ibera Passiva de Classe (\d)', 1)
+        CLASSE = _degraus(r'(?<!Talento de )Classe (\d)\.', 1)
+        PASSIVA = _degraus(r'[Ll]ibera Talento de Classe (\d)', 1)
         print(f'  Classe de feitico abre em: {dict(sorted(CLASSE.items()))}')
-        print(f'  Classe de Passiva abre em: {dict(sorted(PASSIVA.items()))}')
+        print(f'  Categoria de Efeito de Talento abre em: {dict(sorted(PASSIVA.items()))}')
         if len(CLASSE) != 7:
             erro(f'o manual deveria abrir 7 Classes de feitico e eu li {len(CLASSE)}')
         if len(PASSIVA) != 3:
-            erro(f'o manual deveria abrir 3 Classes de Passiva e eu li {len(PASSIVA)}')
+            erro(f'o manual deveria abrir 3 Categorias de Efeito de Talento e eu li {len(PASSIVA)}')
 
         def _escada(marcos):
             def f(nv):
@@ -403,7 +406,7 @@ else:
             return f
 
         compara('Classe de feitiço', 'Classe', _escada(CLASSE))
-        compara('Classe de Passiva', 'Passiva', _escada(PASSIVA))
+        compara('Categoria de Efeito de Talento', 'Talento', _escada(PASSIVA))
 
         # Classe 0: dois no nivel 1, mais um em cada nivel que o manual diz
         C0 = sorted(nv for nv, t in MANUAL.items() if 'Classe 0 a mais' in t)

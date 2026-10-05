@@ -159,7 +159,7 @@ function pagina2(f) {
   out.push(NOTA('Melhoria de família **Livre** custa metade da Classe a menos. De família **Fechada** você nunca compra nada.'));
 
 
-  out.push(BLOCO('Passiva Livre — uma, de graça. Não rola dado, não muda número, não faz ninguém rolar',
+  out.push(BLOCO('Expressão da técnica — uma, de graça. Não rola dado, não muda número, não faz ninguém rolar',
     V(t, 'passiva'), 2));
 
   out.push(FAIXA(`Feitiços de Classe 0 — ${X.CLASSE_0}, grátis, não ocupam espaço`));

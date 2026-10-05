@@ -8,6 +8,24 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.333] — 05/10/2026
+
+**O passo 2 da migração fechou: a família da `Passiva` virou a do livro reconstruído.** `Passiva` virou `Talento`, `Classe Passiva` virou `Categoria de Efeito` (a sigla `CP`, `CE`), `Passiva Livre` virou `Expressão da técnica` e `Passiva Própria` virou `Talento Próprio` — os NT04 a NT06 da migração de nomes da candidata. *`passiva` com minúscula é adjetivo comum (*"proteção passiva"*, *"refino passivo"*) e ficou.*
+
+**Alterado:** vinte peças (223 linhas, a maior parte na peça 11), mais a pesquisa, o esqueleto, o `DESENHO-trilhas` e a `LISTA-gatilhos-trilhas`, que a checagem de termo morto varre. **`Talento` é masculino, e a concordância foi relida linha a linha:** o determinante troca sozinho no `renomes.py` (*"uma Passiva"* virou *"um Talento"*), e o resto foi à mão — *"Talento pago"*, *"feito à mão"*, *"Talentos de Categoria de Efeito 3"* no lugar de *"Passivas de Classe 3"*. **Dois trechos guardam o nome antigo de propósito:** a triagem da peça 15 (*"`Passiva` estava ocupado"*, que era o nome sendo testado) e a seção da v0.64 da peça 11, que defendia `Classe Passiva` citando o manual; ela agora conta que a escala ganhou nome próprio nesta versão. Os geradores da ficha e do inimigo imprimem `Expressão da técnica` e `Talentos`, e os três `.docx` foram refeitos.
+
+**Os validadores:** o `renomes.py` ganhou a família, e o `conferir-nomes` trata os nomes antigos como termo morto, com a versão certa no aviso. **Cinco validadores procuravam o nome antigo nas peças** — o `conferir-aptidoes`, o `conferir-expansao`, o `conferir-marcial`, o `conferir-progressao` e o `conferir-sem-tecnica`. Os padrões passaram ao nome novo, e o que eles leem do livro v0.331, do `.docx` e do `partE.js` passa pelo `renomes.py` na leitura. *Quatro checagens não eram troca de nome e foram reescritas à mão:* o título e o cabeçalho da seção 4 da peça 11 passam a exigir `Categoria de Efeito`.
+
+**Decidido:** o livro final do Mizuki, o **Ciclo Maldito R28a** (498 páginas), foi comparado com a candidata parágrafo a parágrafo: **3.787 de 3.966 parágrafos batem inteiros, e nenhuma regra difere.** *Ele é a candidata de antes da D43, com outro nome e outra diagramação; o que sumiu foi o glossário antigo (reescrito, mais curto), a seção Referências e adaptação e as folhas de ficha em branco.* **A fonte das peças continua sendo a candidata**, que já tem a D43. O Mizuki decidiu também que o nome **Ciclo Maldito** vale no repositório inteiro (a próxima versão) e que o Morrendo continua fora da migração até ele revisar.
+
+**Validação:** bateria de 32 de 32, com o pulo de sempre (a 7, da entrega). Teste negativo numa cópia isolada: devolver `Classe Passiva 3` ao título da `Energia Reversa` acende o `conferir-aptidoes`; plantar `Passiva Livre` na peça 8 ou `Passiva` na peça 26 acende a 5 do `conferir-nomes`; o cabeçalho antigo na peça 18 acende o `conferir-progressao`. **O contra-teste é tirar a tradução:** sem ela, o `conferir-progressao` lê uma Classe a mais e só uma Categoria de Efeito no `.docx`, e o `conferir-aptidoes` acusa a `Regravação` contra o livro.
+
+**Pendente:** o `bloco-de-inimigo.pdf` não foi refeito — o LibreOffice do ambiente da nuvem não abre `.docx`; o `.docx` está certo, e o PDF sai dele com o comando do `COMO-USAR.txt`.
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: a troca do nome para **Ciclo Maldito**, e depois o passo 4.
+
+---
+
 ## [0.332] — 05/10/2026
 
 **A migração do livro reconstruído para as peças começou, pelos nomes.** *O Mizuki autorizou migrar ("e... podemos migrar") e mandou seguir o plano. O passo 1 conferiu os 321 registros de mecânica e a passada dos 76 não mecânicos; o passo 2 troca os nomes, e foi dividido em duas versões porque a família da `Passiva` sozinha tem mais de mil ocorrências.* **Nesta versão:** `Incapacitado` virou `Guarda Aberta`, o `Aviso` virou `Identificar Feitiço` (a Melhoria) e `Leitura de Feitiços` (a Passiva), `Sobre Carregar Energia` virou `Sobrecarregar Energia` e `Reencarnado` virou `Encarnado`. São os nomes do livro reconstruído (NT01 a NT03 da migração de nomes dele, e os registros EMA27 e ORI02 do inventário).

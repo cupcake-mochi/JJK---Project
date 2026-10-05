@@ -47,6 +47,10 @@ AVISOS = []
 
 
 import unicodedata
+# v0.333: o livro v0.331 continua com o nome antigo da família da `Passiva` até o
+# passo 5 da migração; o que vem dele passa pelo renomes.py antes de comparar.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import renomes
 
 
 def sem_acento(s):
@@ -362,7 +366,7 @@ if not _mdom_apt:
 # Acao Bonus e' o numero que traz a segunda para dentro do filtro. Nada esta
 # escrito aqui: a formula do teto, os dois dados e o gate saem da peca, e a
 # tabela nivel a nivel e' recomputada.
-_mcirc = re.search(r'### Circulação · Classe Passiva 3 · exige a `Energia Reversa` e refino (\d+)',
+_mcirc = re.search(r'### Circulação · Categoria de Efeito 3 · exige a `Energia Reversa` e refino (\d+)',
                    PECA11)
 if not _mcirc:
     erro('nao achei o titulo da `Circulação` na peca 11 — ela e a aptidao nova da '
@@ -455,7 +459,7 @@ def _nr(s):
     return int(s) if s.isdigit() else _NUM_REG.get(s.lower())
 
 
-_mreg = re.search(r'^### Regravação · Classe Passiva 3 · exige a `Circulação`$', PECA11, re.M)
+_mreg = re.search(r'^### Regravação · Categoria de Efeito 3 · exige a `Circulação`$', PECA11, re.M)
 if not _mreg:
     erro('nao achei o titulo da `Regravação` na peca 11 — ela e a porta de saida do '
          'Rescaldo, da v0.239, e o gate dela mora no titulo')
@@ -475,6 +479,8 @@ else:
     _T26r = _le(os.path.join(AQUI, '26-bestiario.md'))
     _T40r = _le(os.path.join(_LIVDIR, '40-fundamento.md'))
     _T45r = _le(os.path.join(_LIVDIR, '45-aptidoes-e-refino.md'))
+    # v0.333: o livro v0.331 fica congelado com o nome antigo; o renomes.py traduz.
+    _T40r, _T45r = renomes.traduz(_T40r), renomes.traduz(_T45r)
     _ganha = _T40r[_T40r.find('| Nível | O que ganha |'):]
     _ganha = _ganha[:_ganha.find('\n\n')] if '| Nível | O que ganha |' in _T40r else ''
 
@@ -488,7 +494,7 @@ else:
     _mlut = re.search(r'As (\w+) primeiras lutas do dia são de graça', _T10r)
     _mab = re.search(r'as duas cobram \*\*(\d+) × a sua maior Classe\*\* de PE', _T40r)
     _mcl = re.findall(r'^\| \*\*(\d+)\*\* \| [^\n]*?\bClasse (\d+)\.', _ganha, re.M)
-    _mer = re.search(r'^### Energia Reversa · Classe Passiva 3 · refino (\d+) e nível (\d+)$', PECA11, re.M)
+    _mer = re.search(r'^### Energia Reversa · Categoria de Efeito 3 · refino (\d+) e nível (\d+)$', PECA11, re.M)
     _Mc = globals().get('_M')
     _gc = globals().get('_gate_circ')
     _faltam = [n for n, v in (('a formula das marcas, com o arredondamento', _mf),
@@ -715,7 +721,7 @@ else:
         # 8. as duas copias do livro: o capitulo de aptidoes e o ponteiro no Fundamento
         _lf = re.search(rf'Com `metade da sua {_attr} \+ metade da sua maestria` marcas, cada metade '
                         r'arredondando para baixo, você não abre Expansão de Domínio', _T45r)
-        _lr = re.search(r'Requisito: ter a `Circulação`\. Classe Passiva 3\.', _T45r)
+        _lr = re.search(r'Requisito: ter a `Circulação`\. Categoria de Efeito 3\.', _T45r)
         _lt = re.search(r'^\| Regravação \| `Circulação` \| 3 \| — \|$', _T45r, re.M)
         _le45 = re.search(rf'No nível (\d+), com {_attr} (\d+), você tem `(\d+) \+ (\d+) = (\d+)` marcas\. '
                           r'Você abre a Expansão, regrava, e repete até a (\w+) regravação', _T45r)
@@ -746,7 +752,7 @@ else:
 _LIVRO_KOK = os.path.join(AQUI, '..', '05-material', 'livro', 'manual',
                           '45-aptidoes-e-refino.md')
 try:
-    _tl = open(_LIVRO_KOK, encoding='utf-8').read()
+    _tl = renomes.traduz(open(_LIVRO_KOK, encoding='utf-8').read())
 except OSError:
     _tl = None
     pulou_kok = True
@@ -929,7 +935,7 @@ ROTAS = {
 # uma proposta de subir o Leque para 2 passou verde na v0.28 sem acender nada.
 LEQUE_DA_FEITICOS = 1
 
-print(f"  {'rota':<18}{'atributo':<11}{'refino':<9}{'aptidoes':<11}{'Passivas':<11}"
+print(f"  {'rota':<18}{'atributo':<11}{'refino':<9}{'aptidoes':<11}{'Talentos':<11}"
       f"{'feiticos a mais':<18}{'espacos totais'}")
 # Quantas aptidoes a escolha de Refino entrega quando o refino JA esta no teto.
 # LIDO DA PECA 11, e nao escrito aqui: ela e a dona da regra.
@@ -955,8 +961,8 @@ def simular(esc):
     for e in esc:
         ref = min(TETO_REFINO, ref + 1)        # a linha passiva do marco
         # o que CADA opcao daria a este jogador, agora. Componentes:
-        #   (atributo, refino, escada de Classe Passiva, feitico)
-        # aptidao e Passiva entram na MESMA componente porque a peca 11 SS3 diz que
+        #   (atributo, refino, escada de Categoria de Efeito, feitico)
+        # aptidao e Talento entram na MESMA componente porque a peca 11 SS3 diz que
         # elas vivem na mesma escada — e essa e a afirmacao que faz as tres se
         # equilibrarem. Separadas, a dominancia nunca aparece.
         ganho_ref = min(TETO_REFINO, ref + 1) - ref
@@ -991,7 +997,7 @@ for nome, esc in ROTAS.items():
 # e ate a v0.28 esta checagem olhava so tres — ela ignorava o refino e os feiticos,
 # que e justamente o eixo em que o Leque lidera. Uma mexida na moeda de feitico
 # passava invisivel, e invisivel e pior que errado.
-EIXOS = [(0, 'atributo'), (1, 'refino'), (2, 'aptidoes'), (3, 'Passivas'), (4, 'feiticos')]
+EIXOS = [(0, 'atributo'), (1, 'refino'), (2, 'aptidoes'), (3, 'Talentos'), (4, 'feiticos')]
 for nome, meu in res.items():
     if nome == 'meio a meio':
         continue
@@ -1042,23 +1048,23 @@ else:
     print('    Essa e a trava: a moeda nao infla sem que esta linha acenda.')
 
 print('\n  E o que faz as tres se equilibrarem sem trava:')
-print('    Passiva e aptidao vivem na MESMA escada de Classe, entao "+1 feitico e')
-print('    1 Passiva" empata com "+1 refino e 1 aptidao". O que sobra dos dois lados')
+print('    Talento e aptidao vivem na MESMA escada de Categoria de Efeito, entao "+1 feitico e')
+print('    1 Talento" empata com "+1 refino e 1 aptidao". O que sobra dos dois lados')
 print('    e "+1 feitico" contra "+1 refino" — e refino nao vale NADA para quem nao')
 print('    tem aptidao. Quem escolhe Leque nao quer refino; quem escolhe refino nao')
-print('    quer Passiva. Nenhuma compra o que a outra compra.')
+print('    quer Talento. Nenhuma compra o que a outra compra.')
 
 print('\n  O orcamento de espaco cobre a montagem mais pesada que o manual permite?\n')
-MONTAGENS = [('so feitico', 0), ('3 Passivas Classe 2', 6),
-             ('3 Passivas Classe 2 + Expansao completa', 6 + 3),
-             ('5 Passivas Classe 3 + Expansao completa', 15 + 3)]
+MONTAGENS = [('so feitico', 0), ('3 Talentos Classe 2', 6),
+             ('3 Talentos Classe 2 + Expansao completa', 6 + 3),
+             ('5 Talentos Classe 3 + Expansao completa', 15 + 3)]
 print(f"  {'montagem':<44}" + ''.join(f'nv{n:<7}' for n in (14, 20, 26, 30)))
 for nome, custo in MONTAGENS:
     print(f'  {nome:<44}' + ''.join(f'{max(0, espacos(nv)-custo):<9}' for nv in (14, 20, 26, 30)))
 pesada = MONTAGENS[-1][1]
 if espacos(30) < pesada:
     erro(f'a montagem mais pesada pede {pesada} espacos e a ficha de nivel 30 tem '
-         f'{espacos(30)} — o teto de cinco Passivas pagas do manual continua letra morta')
+         f'{espacos(30)} — o teto de cinco Talentos pagos do manual continua letra morta')
 else:
     cabe_em = next(nv for nv in range(2, 31) if espacos(nv) >= pesada)
     print(f'\n  A montagem mais pesada cabe a partir do nivel {cabe_em}. Antes da v0.27 ela')
@@ -1076,16 +1082,16 @@ bloco('5.2. MARCO A MARCO — nenhuma das tres opcoes fica dominada em nenhum ma
 # O EIXO DESTA: no marco, o jogador compara as TRES entre si, com o que ele ja tem.
 #
 # As componentes sao QUATRO e nao cinco, e a fusao e a afirmacao da peca 11 SS3:
-# aptidao e Passiva vivem na MESMA escada de Classe Passiva. Separadas, "1 aptidao"
-# e "1 Passiva + 1 feitico" nunca se comparam e a dominancia nunca aparece — que e
+# aptidao e Talento vivem na MESMA escada de Categoria de Efeito. Separadas, "1 aptidao"
+# e "1 Talento + 1 feitico" nunca se comparam e a dominancia nunca aparece — que e
 # exatamente por que ninguem viu isso em dezessete versoes.
-COMPONENTES = ['atributo', 'refino', 'escada de Classe Passiva', 'feitico']
+COMPONENTES = ['atributo', 'refino', 'escada de Categoria de Efeito', 'feitico']
 
 if APT_NO_TETO is None:
     erro('sem a regra do teto lida da peca 11, a 5.2 nao tem o que simular')
 else:
     print('  Em cada marco, o que CADA opcao daria ao jogador daquela rota.')
-    print('  aptidao e Passiva entram na mesma componente, que e o que a peca 11 afirma.\n')
+    print('  aptidao e Talento entram na mesma componente, que e o que a peca 11 afirma.\n')
     print(f"  {'rota':<16}{'marco':<8}{'Corpo':<14}{'Refino':<16}{'Leque':<14}veredito")
     achou52 = False
     for nome, marcos in marcos_de.items():
@@ -1212,18 +1218,18 @@ _s67 = PECA11.split('## 6.7.')[1].split('\n## 7.')[0] if '## 6.7.' in PECA11 els
 if not _s67:
     erro('a secao 6.7 (Aptidao Propria) sumiu da peca 11 — esta checagem parou de conferir')
 else:
-    # 5.4a — o teto de Classe Passiva. Ele e a trava inteira: 3 e permanente.
-    if not re.search(r'Classe Passiva 1 ou 2, nunca 3', _s67):
-        erro('a secao 6.7 parou de dizer `Classe Passiva 1 ou 2, nunca 3` — sem esse '
+    # 5.4a — o teto de Categoria de Efeito. Ele e a trava inteira: 3 e permanente.
+    if not re.search(r'Categoria de Efeito 1 ou 2, nunca 3', _s67):
+        erro('a secao 6.7 parou de dizer `Categoria de Efeito 1 ou 2, nunca 3` — sem esse '
              'teto a `Aptidao Propria` alcanca o permanente, e permanente e a unica '
              'coisa que ela nunca pode ser')
     else:
-        print('  [x] o teto e `Classe Passiva 1 ou 2, nunca 3`.')
+        print('  [x] o teto e `Categoria de Efeito 1 ou 2, nunca 3`.')
 
     # 5.4b — a escada de frequencia bate com os TRES degraus da secao 4
     _s4b = PECA11.split('## 4. ')[1].split('\n## 5.')[0] if '## 4. ' in PECA11 else ''
     _faixas = re.findall(r'\| \*\*(uma|metade|quase toda)\*\* \| (Leve|Média|Pesada) \| '
-                         r'\*\*Classe Passiva (\d)\*\*', _s67)
+                         r'\*\*Categoria de Efeito (\d)\*\*', _s67)
     if len(_faixas) != 3:
         erro(f'achei {len(_faixas)} faixa(s) na escada de frequencia da 6.7 e sao tres — '
              f'a ponte entre a pergunta do manual e a escada da secao 4 se desfez')
@@ -1238,7 +1244,7 @@ else:
         # e os tres degraus citados existem mesmo na escada da secao 4
         for _n in ('1', '2', '3'):
             if f'**{_n}**' not in _s4b:
-                erro(f'a 6.7 mapeia para a Classe Passiva {_n} e a escada da secao 4 nao '
+                erro(f'a 6.7 mapeia para a Categoria de Efeito {_n} e a escada da secao 4 nao '
                      f'tem esse degrau — as duas deixaram de falar da mesma escada')
 
     # 5.4c — os cinco requisitos. A cerca e o que sobra quando o conteudo e da mesa.
@@ -1269,7 +1275,7 @@ for n in range(0, 8):
     pagas = teto - n
     print(f'  {n:<20}{teto:<8}{n:<9}{pagas}')
     if pagas != TETO_BASE:
-        erro(f'com {n} escolhas de Leque sobram {pagas} Passivas pagas, e deveriam ser '
+        erro(f'com {n} escolhas de Leque sobram {pagas} Talentos pagos, e deveriam ser '
              f'{TETO_BASE} — o teto esta crescendo de verdade em vez de abrir vaga')
 print(f'\n  As pagas continuam sendo {TETO_BASE} em toda a escada. O teto nao cresce:')
 print('  ele abre lugar para o que a rota concede.')
@@ -1321,8 +1327,8 @@ else:
 # condicional / reativo com limite / permanente) vivia pegando a palavra
 # emprestada, e o leitor nao tinha como saber qual das duas estava lendo.
 #
-# O conserto e o idioma do proprio manual — ele ja escreve "Passiva de Classe 2"
-# e "Classe de Passiva" quando precisa desambiguar. Feitio, Talhe, Lavra, Feicao
+# O conserto e o idioma do proprio manual — ele ja escreve "Talento de Classe 2"
+# e "Classe de Talento" quando precisa desambiguar. Feitio, Talhe, Lavra, Feicao
 # e Formato sairam LIVRE na triagem e foram RECUSADOS: inventar palavra para o
 # que o manual sabe dizer cria a segunda fonte da licao nº 9.
 #
@@ -1342,8 +1348,8 @@ _s4 = _t11.split('## 4. ')[1].split('\n## 5.')[0] if '## 4. ' in _t11 else ''
 if not _s4:
     erro('nao achei a secao 4 da peca 11 — a escada de formato mudou de lugar')
 else:
-    if 'Classe' not in _s4.split('\n')[0] or 'Passiva' not in _s4.split('\n')[0]:
-        erro('o titulo da secao 4 nao diz "Classe Passiva" — o eixo de formato '
+    if 'Categoria' not in _s4.split('\n')[0] or 'Efeito' not in _s4.split('\n')[0]:
+        erro('o titulo da secao 4 nao diz "Categoria de Efeito" — o eixo de formato '
              'voltou a se chamar so "Classe", que e a palavra do TAMANHO DO '
              'FEITICO no glossario do manual')
     _regra = [l for l in _s4.split('\n')
@@ -1355,12 +1361,12 @@ else:
     else:
         print('  [x] a regra do nome esta escrita:',
               ' '.join(_regra[0].replace('>', '').replace('*', '').split())[:78])
-    _cab = [l for l in _s4.split('\n') if l.strip().startswith('| Classe')]
+    _cab = [l for l in _s4.split('\n') if l.strip().startswith('| Categoria de Efeito')]
     if not _cab:
-        erro('a tabela da secao 4 nao tem cabecalho comecando por "Classe"')
-    elif 'Classe Passiva' not in _cab[0]:
+        erro('a tabela da secao 4 nao tem cabecalho comecando por "Categoria de Efeito"')
+    elif 'Categoria de Efeito' not in _cab[0]:
         erro(f'a tabela da secao 4 tem cabecalho "{_cab[0].strip()[:40]}" — ela precisa '
-             'dizer "Classe Passiva", senao a coluna de alturas fica indistinguivel '
+             'dizer "Categoria de Efeito", senao a coluna de alturas fica indistinguivel '
              'da Classe de feitico')
     else:
         _alturas = [l for l in _s4.split('\n')
@@ -1368,7 +1374,7 @@ else:
         if len(_alturas) != 3:
             erro(f'a tabela da secao 4 tem {len(_alturas)} altura(s) e a escada tem tres')
         else:
-            print(f'  [x] cabecalho "Classe Passiva" e as tres alturas na tabela.')
+            print(f'  [x] cabecalho "Categoria de Efeito" e as tres alturas na tabela.')
     # ARMADILHA Nº 4 DO PROJETO: esta secao contem o texto que a checagem procura
     # para reprovar, porque ela EXPLICA a ambiguidade citando o manual. Entao a
     # varredura pula a linha que esta citando o manual — e so' ela. Sem esta
@@ -1376,7 +1382,7 @@ else:
     # problema, que e o modo de falha mais chato deste projeto.
     _soltas, _isentas = [], 0
     for _l in _s4.split('\n'):
-        _achou = re.findall(r'(?<!Passiva )(?<!Passivas )\bClasse [123]\b', _l)
+        _achou = re.findall(r'(?<!Talento )(?<!Talentos )\bClasse [123]\b', _l)
         if not _achou:
             continue
         if 'manual' in sem_acento(_l).lower():
@@ -1406,24 +1412,24 @@ if not _s6:
 else:
     # 1. o gate esta no titulo, e ele e o mesmo da Extensao de Dominio
     _tit = _s6.split('\n')[0]
-    _falta = [x for x in ('Classe Passiva 3', 'refino 7', 'nível 14') if x not in _tit]
+    _falta = [x for x in ('Categoria de Efeito 3', 'refino 7', 'nível 14') if x not in _tit]
     if _falta:
         erro(f'o titulo da `Energia Reversa` nao declara {_falta} — sem o gate escrito '
              'no titulo ela vira aptidao sem requisito, e a secao 5 diz que cada uma '
              'declara o proprio')
     else:
-        print('  [x] gate no titulo: Classe Passiva 3, refino 7 e nivel 14.')
+        print('  [x] gate no titulo: Categoria de Efeito 3, refino 7 e nivel 14.')
 
-    # 2. o gate bate com o da Extensao de Dominio, que e a outra Classe Passiva 3
+    # 2. o gate bate com o da Extensao de Dominio, que e a outra Categoria de Efeito 3
     _ext = _t11.split('### Extensão de Domínio')[1].split('\n')[0] \
            if '### Extensão de Domínio' in _t11 else ''
     if _ext and ('refino 7' in _ext) != ('refino 7' in _tit):
-        erro('a `Energia Reversa` e a `Extensão de Domínio` sao as duas Classe Passiva 3 '
+        erro('a `Energia Reversa` e a `Extensão de Domínio` sao as duas de Categoria de Efeito 3 '
              'e os gates de refino divergiram — a secao 5 preca a ALTURA, nao a entrada')
     elif _ext:
-        print('  [x] o gate bate com o da Extensão de Domínio, a outra Classe Passiva 3.')
+        print('  [x] o gate bate com o da Extensão de Domínio, a outra Categoria de Efeito 3.')
 
-    # 3. a cura no teto NAO pode passar a Passiva Recomposicao, que e a ancora
+    # 3. a cura no teto NAO pode passar o Talento Recomposicao, que e a ancora
     #    declarada. Os dois numeros sao lidos do texto.
     # o [^`]* aceita formula suja (`1d8 + refino`) de proposito: sem ele, uma
     # perturbacao que enfia refino na formula acende a checagem ERRADA — a de
@@ -1444,7 +1450,7 @@ else:
               f'de cura, Recomposicao = {_recomp}.')
         if _teto_er > _recomp:
             erro(f'a `Energia Reversa` cura {_teto_er:.1f} no teto contra os {_recomp} da '
-                 f'Passiva `Recomposição` — a aptidao APRENDIDA passou a inata, e a '
+                 f'Talento `Recomposição` — a aptidao APRENDIDA passou a inata, e a '
                  f'secao 7 mandava medir uma contra a outra')
 
     # 4. o teto e' a `maior Classe` e nao o refino — MEDIDO, e nao procurado.
@@ -1556,7 +1562,7 @@ else:
         s = sem_acento(s).lower()
         g = set()
         for _mm in re.finditer(r'classe passiva (\d+)', s):
-            g.add(f'Classe Passiva {_mm.group(1)}')
+            g.add(f'Categoria de Efeito {_mm.group(1)}')
         _s2 = re.sub(r'classe passiva \d+', '', s)
         for _mm in re.finditer(r'classe (\d+)', _s2):
             g.add(f'Classe {_mm.group(1)}')
@@ -1640,7 +1646,7 @@ else:
 #
 # LIMITE DE DESIGN, declarado aqui a parte da regra aplicada: quantas ocorrencias na
 # forma correta existiam quando esta checagem entrou. Se o numero CAIR, alguem
-# reescreveu as Passivas e a checagem passou a conferir menos em silencio.
+# reescreveu os Talentos e a checagem passou a conferir menos em silencio.
 CLASSE_PASSIVA_MINIMO = 53
 
 print()
@@ -1655,33 +1661,33 @@ _S4 = set(PECA11[_ini:_fim].split('\n')) if _ini >= 0 else set()
 _degraus = sorted({int(d) for d in re.findall(r'^\|\s*\*\*([0-9])\*\*\s*\|',
                                              PECA11[_ini:_fim], re.M)})
 if not _degraus:
-    erro('nao consegui ler os degraus da escada de Classe Passiva da tabela da secao 4 — '
+    erro('nao consegui ler os degraus da escada de Categoria de Efeito da tabela da secao 4 — '
          'ela mudou de formato e esta checagem parou de conferir')
 else:
     print(f'  a escada da secao 4 tem os degraus {_degraus}; fora deles, `Classe N` e feitico')
     _soltas, _boas = [], 0
     for _i, _l in enumerate(PECA11.split('\n'), 1):
         for _m in re.finditer(r'Classe\s+([0-7])\b', _l):
-            if re.search(r'(Passivas?)\s*(de\s*)?$', _l[max(0, _m.start() - 30):_m.start()]):
+            if re.search(r'(Talentos?)\s*(de\s*)?$', _l[max(0, _m.start() - 30):_m.start()]):
                 _boas += 1
                 continue
             if int(_m.group(1)) not in _degraus:
-                continue                      # Classe 0 e 4..7 nao existem como Passiva
+                continue                      # Classe 0 e 4..7 nao existem como Talento
             if _l in _S4:
                 continue                      # a secao 4 e a que EXPLICA a ambiguidade
             _soltas.append((_i, _l[max(0, _m.start() - 55):_m.end() + 30].strip()))
-    _boas += len(re.findall(r'Classe Passiva\s+([1-3])\b', PECA11))
+    _boas += len(re.findall(r'Categoria de Efeito\s+([1-3])\b', PECA11))
 
     for _i, _ctx in _soltas:
-        erro(f'peca 11 linha {_i}: `Classe` solta onde ela fala de Passiva, e a secao 4 '
+        erro(f'peca 11 linha {_i}: `Classe` solta onde ela fala de Talento, e a secao 4 '
              f'exige as duas palavras -> ... {_ctx} ...')
     print(f'  {_boas} ocorrencia(s) na forma correta, e {len(_soltas)} solta(s) fora da secao 4')
     if _boas < CLASSE_PASSIVA_MINIMO:
         erro(f'so {_boas} ocorrencia(s) na forma correta e o minimo declarado e '
-             f'{CLASSE_PASSIVA_MINIMO} — alguem reescreveu as Passivas e esta checagem '
+             f'{CLASSE_PASSIVA_MINIMO} — alguem reescreveu os Talentos e esta checagem '
              f'passou a conferir menos do que conferia')
     if not _soltas:
-        print('  [x] nenhuma Classe de Passiva aparece sem as duas palavras.')
+        print('  [x] nenhuma Classe de Talento aparece sem as duas palavras.')
 
 # --------------------------------------------------------------------------
 bloco('8. A CURVA DAS TRES ROTAS — ela cai da regra, e nao da tabela')
@@ -1816,7 +1822,7 @@ else:
         # Os gates da Lapidacao NAO moram na 6.8 de proposito: a 6.8 aponta para o
         # SS5 em vez de copiar, e quem escreve os numeros e a peca 9 SS5, que e a
         # copia que a mesa le primeiro. E dela que a checagem le.
-        _g = re.search(r'Classe Passiva 2 na Lapidação (\d+), Classe Passiva 3 na (\d+)',
+        _g = re.search(r'Categoria de Efeito 2 na Lapidação (\d+), Categoria de Efeito 3 na (\d+)',
                        PECA09)
         if not _g:
             erro('9: a peca 9 SS5 nao publica mais os degraus da Lapidacao — ela e a '
@@ -1824,8 +1830,8 @@ else:
         if _g:
             g2, g3 = int(_g.group(1)), int(_g.group(2))
             # os do refino saem da SS5, lida do texto e nao escrita aqui
-            _r = re.search(r'Classe Passiva 2 no refino (\d+)', PECA11)
-            _r3 = re.search(r'Classe Passiva 3 no refino (\d+)', PECA11)
+            _r = re.search(r'Categoria de Efeito 2 no refino (\d+)', PECA11)
+            _r3 = re.search(r'Categoria de Efeito 3 no refino (\d+)', PECA11)
             if _r and _r3:
                 if (g2, g3) != (int(_r.group(1)), int(_r3.group(1))):
                     erro(f'9: os gates da Lapidacao sao {g2} e {g3} e os do refino sao '
@@ -1845,10 +1851,10 @@ else:
     _rx_rea = lambda rec: (r'Redução de Dano de `(\d+(?:,\d+)?) × ' + rec +
                            r'`[^.]*?por `?\*{0,2}(\d+)\s*`?\s*PE')
     _pe68 = re.search(_rx_rea('Lapidação'), SEC68)
-    _b47 = open(os.path.join(_LIV, '47-bencaos-e-lapidacao.md'), encoding='utf-8').read()
+    _b47 = renomes.traduz(open(os.path.join(_LIV, '47-bencaos-e-lapidacao.md'), encoding='utf-8').read())
     _b47 = re.search(r'> \*\*Defesa sem Armadura\*\*(.*?)\n\n', _b47, re.S)
     _l47 = re.search(_rx_rea('Lapidação'), _b47.group(1)) if _b47 else None
-    _b45 = open(os.path.join(_LIV, '45-aptidoes-e-refino.md'), encoding='utf-8').read()
+    _b45 = renomes.traduz(open(os.path.join(_LIV, '45-aptidoes-e-refino.md'), encoding='utf-8').read())
     _l45 = re.search(_rx_rea('refino'), _b45)
     if not _pe68:
         erro('9: a peca 11 SS6.8 nao escreve mais a Reacao da Lapidacao — a v0.165 trouxe '
@@ -2162,7 +2168,7 @@ else:
         if not os.path.exists(_cam):
             aviso(f'10: nao achei {_arq} — a copia do livro nao foi conferida')
             continue
-        _txt = open(_cam, encoding='utf-8').read()
+        _txt = renomes.traduz(open(_cam, encoding='utf-8').read())
         _ok_regra = re.search(rf'`1d{FACE_BASE}` de dano a mais a cada `{PASSO_DANO}` '
                               rf'pontos de {_metrica}', _txt)
         _ok_teto = re.search(rf'(?:refino|Lapidação) `{TETO_TXT}`[^\n]*`d{FACE_TETO}`'
@@ -2193,7 +2199,7 @@ _ALIV = os.path.join(AQUI, '..', '05-material', 'livro', 'manual',
 _T11 = open(_A11, encoding='utf-8').read()
 _T02 = open(_A02, encoding='utf-8').read()
 _TEST = open(_AEST, encoding='utf-8').read()
-_TLIV = open(_ALIV, encoding='utf-8').read() if os.path.exists(_ALIV) else ''
+_TLIV = renomes.traduz(open(_ALIV, encoding='utf-8').read()) if os.path.exists(_ALIV) else ''
 
 _NUM = {'zero': 0, 'uma': 1, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5,
         'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11,
@@ -2396,7 +2402,7 @@ else:
             _curva_mm = [int(x) for x in re.findall(r'`?(\d+)`?', _mmc.group(1))]
             _atr, _ref, _apt, _pas, _fei = (int(_mme.group(i)) for i in range(1, 6))
             # o orcamento de escolhas: o passivo da +1 atributo em cada marco, e o
-            # que sobra no atributo foi comprado. Passiva paga e' o teto de sempre.
+            # que sobra no atributo foi comprado. Talento pago e' o teto de sempre.
             _n_corpo = _atr - len(MARCOS)
             _n_leque = _fei
             _n_refino = len(MARCOS) - _n_corpo - _n_leque
@@ -2446,7 +2452,7 @@ else:
 # 12. O TETO DO QUE A `Extensao de Dominio` ANULA — v0.165
 #
 # A linha era "anula qualquer tecnica que encostar nela", sem teto. Decisao do
-# Mizuki, levantada por um colega dele: ela passa a anular Classe Passiva, Regra
+# Mizuki, levantada por um colega dele: ela passa a anular Categoria de Efeito, Regra
 # Propria e feitico de Classe ate `1/3 do refino + 1` — "mas nao tudo".
 #
 # NENHUM VALOR MORA AQUI. A formula sai da secao da propria aptidao, o gate sai

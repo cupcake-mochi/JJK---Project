@@ -427,7 +427,9 @@ MORTOS = {
     # v0.332: os renomes do livro reconstruido que as pecas ja usam. A tabela e o
     # renomes.py, e nao uma copia aqui. `Aviso` fica de fora: com maiuscula ele
     # tambem e palavra comum no comeco de frase.
-    **{a: f'virou {n} na v0.332, com o livro reconstruido' for a, n in renomes.antigos().items()},
+    **{a: f'virou {n} na v0.332, com o livro reconstruido' for a, n, _ in renomes.RENOMES},
+    # v0.333: a familia da `Passiva`, na segunda metade do passo 2.
+    **{a: f'virou {n} na v0.333, com o livro reconstruido' for a, n, _ in renomes.PASSIVA},
 }
 
 # Onde um termo morto pode aparecer capitalizado sem ser descuido: a secao que

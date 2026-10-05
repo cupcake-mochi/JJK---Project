@@ -113,7 +113,7 @@ function bloco(f, primeiro, rotulo) {
   out.push(stat('Por rodada', v('porRodada'), vazio));
   out.push(stat('Golpe', f ? `${v('acerto')} para acertar, ${v('dano')} de dano` : '', vazio));
   out.push(regra());
-  out.push(BLOCO('traços — Passivas, aptidões e técnica', v('caracteristicas'), 2));
+  out.push(BLOCO('traços — Talentos, aptidões e técnica', v('caracteristicas'), 2));
   out.push(BLOCO(`Intervenções — ${NUM[X.INTERVENCOES]} por luta, quando N × orçamento chega a ${X.PORTA_INTERVENCAO}`, v('intervencoes'), 2));
   out.push(BLOCO('pacto — o teto do permanente é metade da Essência dele', v('pacto'), 1));
   out.push(BLOCO('o que ele faz na mesa', v('notas'), 2));
@@ -138,7 +138,7 @@ const EXEMPLO = (() => {
     resist: `resistência a Elementais — a vida se divide por ${elem[2].replace('×', '')}`,
     vida: String(vidaCel(f, dg, n, 1 / (fr * precoIntervencao(dg, n)))), dano: golpe(f, dg), porRodada: `${NUM[n]} ações, e uma Reação`,
     defesa: String(dv[1]), acerto: `+${dv[2]}`, cd: String(dv[3]), refino: String(dv[4]),
-    caracteristicas: 'Escama (Passiva) · duas aptidões do catálogo da peça 11',
+    caracteristicas: 'Escama (Talento) · duas aptidões do catálogo da peça 11',
     intervencoes: 'a primeira bate um pouco menos que uma ação; as outras duas mudam o campo',
     pacto: 'nenhum — a Essência dele é 0, e o teto é metade dela',
     notas: `Age ${NUM[n]} vezes por rodada e rola o dado uma vez em cada. Um esquadrão de ${X.CAMBIO_POR_PESSOA * n} capangas de ${f[7]} de vida vale o mesmo encontro.`,

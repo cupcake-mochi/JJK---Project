@@ -6,7 +6,7 @@ GERADOR DA FICHA — RPG da Guilda, ficha de nivel 2
 
 Sai ficha-em-branco.docx e ficha-exemplo-kaori.docx, tres paginas cada:
   1. FICHA      identidade, atributos, os numeros, TRs, 23 pericias, 10 oficios
-  2. TECNICA    Regra, descricao, Familias, Selo, Passiva Livre, os 5 feiticos
+  2. TECNICA    Regra, descricao, Familias, Selo, Expressao da tecnica, os 5 feiticos
   3. LORE       aparencia, historia, traco, Legado, lacos, instituicao, pacto,
                 e uma tira curta de referencia
 

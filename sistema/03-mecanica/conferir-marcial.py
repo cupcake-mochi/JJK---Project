@@ -25,6 +25,9 @@ def pular(c, m): pulou.append(f'[{c}] {m}')
 def bloco(t):
     print('\n' + '=' * 88); print(t); print('=' * 88)
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import renomes
+
 def ler(rel):
     p = rel if os.path.isabs(rel) else os.path.join(AQUI, rel)
     if not os.path.exists(p):
@@ -39,7 +42,9 @@ def num(s):
     return float(s.replace('.', '').replace(',', '.'))
 
 P20 = ler('20-tecnica-marcial.md')
-LIVRO20 = ler('sistema/05-material/livro/manual/42-tecnica-marcial.md')
+# v0.333: o livro v0.331 fica com o nome antigo da família da `Passiva` até o
+# passo 5 da migração; o renomes.py traduz antes de comparar.
+LIVRO20 = renomes.traduz(ler('sistema/05-material/livro/manual/42-tecnica-marcial.md'))
 P6  = ler('06-caminhos-e-trilhas.md')
 P9  = ler('09-origens.md')
 P11 = ler('11-aptidoes-e-refino.md')
@@ -477,9 +482,9 @@ except Exception as e:
 # ============================================================ 13
 bloco('13. O `Bocado` NAO INVENTA O SAQUE DOBRADO — a peca 3 SS3.2 e a dona')
 
-# A metade do saque desta Passiva nao e' numero desta peca: a peca 3 SS3.2 ja
-# decidiu, na v0.122, que "uma Passiva ou aptidao pode dizer que o segundo saque
-# sai de graca, e ela cabe na Classe Passiva 1". Esta checagem confere que as
+# A metade do saque deste Talento nao e' numero desta peca: a peca 3 SS3.2 ja
+# decidiu, na v0.122, que "um Talento ou aptidao pode dizer que o segundo saque
+# sai de graca, e ela cabe na Categoria de Efeito 1". Esta checagem confere que as
 # DUAS pontas continuam de acordo — a peca 3 permitindo e a peca 20 aplicando.
 #
 # Ela le o numero de itens dos DOIS lados em vez de guardar `2` aqui dentro:
@@ -491,7 +496,7 @@ bloco('13. O `Bocado` NAO INVENTA O SAQUE DOBRADO — a peca 3 SS3.2 e a dona')
 _m_base = re.search(r'Sacar ou guardar (UM|DOIS|TRES) item', P3)
 _m_pass = re.search(r'saca ou guarda \*{0,2}(UM|DOIS|TRES)\*{0,2} itens? de graça',
                     P20, re.I)
-_m_perm = re.search(r'uma Passiva ou aptid[ãa]o pode dizer que o segundo saque sai de graça',
+_m_perm = re.search(r'um Talento ou aptid[ãa]o pode dizer que o segundo saque sai de graça',
                     P3)
 _PALAVRA = {'um': 1, 'dois': 2, 'tres': 3}
 
@@ -499,9 +504,9 @@ if not _m_base:
     pular(13, 'nao achei a regra de base de sacar na peca 3 SS3.2')
 elif not _m_pass:
     erro(13, 'a peca 20 nao diz quantos itens o `Bocado` saca de graca por turno — '
-             'a Passiva ficou sem a metade que a peca 3 SS3.2 preca')
+             'o Talento ficou sem a metade que a peca 3 SS3.2 preca')
 elif not _m_perm:
-    erro(13, 'a peca 3 SS3.2 nao permite mais que uma Passiva compre o segundo saque, '
+    erro(13, 'a peca 3 SS3.2 nao permite mais que um Talento compre o segundo saque, '
              'e o `Bocado` da peca 20 continua comprando — as duas pecas discordam')
 else:
     _base = _PALAVRA[sa(_m_base.group(1)).lower()]
@@ -514,7 +519,7 @@ else:
                  f'{_base + 1}, e nao {_pass}')
     else:
         print(f'  [x] o `Bocado` entrega um a mais que a base, que e o degrau que a '
-              f'peca 3 SS3.2 preca em Classe Passiva 1.')
+              f'peca 3 SS3.2 preca em Categoria de Efeito 1.')
 
 
 # ============================================================ 14

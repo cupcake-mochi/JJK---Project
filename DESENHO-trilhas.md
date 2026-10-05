@@ -478,7 +478,7 @@ A fatia é `5,08`, e as três batem. **O projeto converte dano evitado `1` pra `
 
 *Quem desconfiou foi o Mizuki, três vezes seguidas na mesma passada: o preço da Reação, o preço do PV temporário e o corte que eu queria fazer na fórmula dele. As três vezes a conta deu razão a ele.*
 
-> **E uma armadilha de leitura na mesma tabela do manual:** `Fluxo | 2` na lista de Talentos **não** quer dizer *"custa 2 pontos"*. **A coluna é `Classe`** — o `Fluxo` é Talento de Classe 2 e custa dois espaços de feitiço. *Li errado e cheguei a escrever que o manual tinha duas réguas de PV temporário. Tem uma só.*
+> **E uma armadilha de leitura na mesma tabela do manual:** `Fluxo | 2` na lista de Talentos **não** quer dizer *"custa 2 pontos"*. **A coluna é `Classe`** — o `Fluxo` é Talento de Categoria de Efeito 2 e custa dois espaços de feitiço. *Li errado e cheguei a escrever que o manual tinha duas réguas de PV temporário. Tem uma só.*
 
 ## O que este bloco deixa em aberto
 

@@ -3,7 +3,7 @@
 """Confere a peca 25 — SEM TECNICA, a nona rota de Origem.
 
 NENHUM VALOR DE REGRA MORA AQUI. Orcamento, fatia, Rotina, curva de refino,
-escada de gate e teto de Classe Passiva saem dos documentos donos:
+escada de gate e teto de Categoria de Efeito saem dos documentos donos:
 
   o PE por Caminho ............ peca 6 §5
   a curva de refino ........... peca 11 §3
@@ -28,6 +28,9 @@ def bloco(t):
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.abspath(os.path.join(AQUI, '..', '..'))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import renomes
+
 def ler(nome, base=AQUI):
     with open(os.path.join(base, nome), encoding='utf-8') as f:
         return f.read()
@@ -38,7 +41,9 @@ P11 = ler('11-aptidoes-e-refino.md')
 P09 = ler('09-origens.md')
 P06 = ler('06-caminhos-e-trilhas.md')
 DES = ler('DESENHO-trilhas.md', RAIZ)
-LIVRO25 = ler('sistema/05-material/livro/manual/43-sem-tecnica.md', RAIZ)
+# v0.333: o livro v0.331 fica com o nome antigo da família da `Passiva` até o
+# passo 5 da migração; o renomes.py traduz antes de comparar.
+LIVRO25 = renomes.traduz(ler('sistema/05-material/livro/manual/43-sem-tecnica.md', RAIZ))
 
 def secao(txt, titulo, nivel='## '):
     """recorte que fecha em QUALQUER cabecalho de nivel igual ou MENOR — a
@@ -163,12 +168,12 @@ bloco('5. A BANDA DA SEMENTE E DERIVADA DA ESCADA DE GATE — nao e teto escolhi
 # escada de forma coerente move a banda junto e sai VERDE de proposito.
 ESCADA = {}
 for _m in re.finditer(
-        r'\|\s*Classe Passiva (\d) no refino (\d+)\s*\|([^\n]+)\|', P11):
+        r'\|\s*Categoria de Efeito (\d) no refino (\d+)\s*\|([^\n]+)\|', P11):
     cp, _r = int(_m.group(1)), int(_m.group(2))
     niveis = [int(x) for x in re.findall(r'nível (\d+)', _m.group(3))]
     if len(niveis) == 3:
         ESCADA[cp] = niveis
-# a Classe Passiva 1 nao tem gate: ela abre no PRIMEIRO MARCO, e os marcos sao
+# a Categoria de Efeito 1 nao tem gate: ela abre no PRIMEIRO MARCO, e os marcos sao
 # da §3 da mesma peca.
 MARCOS = [int(x) for x in re.findall(r'\*\*(\d+), (\d+), (\d+), (\d+), (\d+), (\d+) e (\d+)\*\*',
                                      P11)[0]] if re.findall(
@@ -182,25 +187,25 @@ else:
     print(f'  marcos, lidos da peca 11 §3: {" · ".join(map(str, MARCOS))}')
     ANTEC = {cp: sum(n - NASCE for n in ns) / 3 for cp, ns in ESCADA.items()}
     for cp in sorted(ANTEC):
-        print(f'  Classe Passiva {cp}: abre em {"/".join(map(str, ESCADA[cp]))} '
+        print(f'  Categoria de Efeito {cp}: abre em {"/".join(map(str, ESCADA[cp]))} '
               f'-> antecipa {ANTEC[cp]:.1f} niveis na media')
     banda = [ANTEC[c] for c in (2, 3) if c in ANTEC]
     com1 = banda + [ANTEC[1]]
     esp_banda = max(banda) / min(banda)
     esp_com1 = max(com1) / min(com1)
-    print(f'\n  banda `CP 2` e `3`: {min(banda):.1f} a {max(banda):.1f}  '
+    print(f'\n  banda `CE 2` e `3`: {min(banda):.1f} a {max(banda):.1f}  '
           f'-> espalhamento {esp_banda:.2f}x')
-    print(f'  com a `CP 1` junto:  {min(com1):.1f} a {max(com1):.1f}  '
+    print(f'  com a `CE 1` junto:  {min(com1):.1f} a {max(com1):.1f}  '
           f'-> espalhamento {esp_com1:.2f}x')
     if esp_banda >= FILTRO:
-        erro(f'5: a banda de `CP 2` e `3` esta em {esp_banda:.2f}x e o filtro do '
+        erro(f'5: a banda de `CE 2` e `3` esta em {esp_banda:.2f}x e o filtro do '
              f'projeto reprova a partir de {FILTRO:.2f}x — a peca 25 §4.1 nao fecha')
     elif esp_com1 < FILTRO:
-        erro(f'5: com a `CP 1` junto o espalhamento e {esp_com1:.2f}x, ABAIXO do '
-             f'filtro — entao o motivo que a §4.1 da para excluir a `CP 1` deixou '
+        erro(f'5: com a `CE 1` junto o espalhamento e {esp_com1:.2f}x, ABAIXO do '
+             f'filtro — entao o motivo que a §4.1 da para excluir a `CE 1` deixou '
              'de valer, e a banda vira teto escolhido em vez de derivado')
     else:
-        print(f'  [x] a banda passa em {esp_banda:.2f}x e a `CP 1` reprova em '
+        print(f'  [x] a banda passa em {esp_banda:.2f}x e a `CE 1` reprova em '
               f'{esp_com1:.2f}x — o corte e derivado, e nao escolhido.')
         for v in (f'`{min(banda):.1f}`'.replace('.', ','),
                   f'`{max(banda):.1f}`'.replace('.', ',')):
@@ -212,7 +217,7 @@ else:
 bloco('6. AS SEMENTES NOMEADAS CAEM NA BANDA')
 # as sementes saem da tabela do §4.2 da propria peca; a altura de cada uma sai
 # da peca 11. Se uma semente da peca 25 nao existir no catalogo de la, acende.
-# a linha e `| **a porta** | **`Semente`** | CP | adianta |`
+# a linha e `| **a porta** | **`Semente`** | CE | adianta |`
 SEM = re.findall(r'\|\s*\*\*[^|]+\*\*\s*\|\s*\*\*`([^`]+)`\*\*\s*\|\s*(\d)\s*\|',
                  secao(P25, '4. A semente'))
 if not SEM:
@@ -224,20 +229,20 @@ else:
         if nome not in P11 and nome != 'Aptidão Própria':
             erro(f'6: a semente `{nome}` nao existe no catalogo da peca 11')
         elif cp not in (2, 3):
-            erro(f'6: a semente `{nome}` e Classe Passiva {cp}, e a banda do §4.1 '
+            erro(f'6: a semente `{nome}` e Categoria de Efeito {cp}, e a banda do §4.1 '
                  'e `2` e `3` — ela quebra o espalhamento')
         else:
-            print(f'  [x] `{nome}` — Classe Passiva {cp}, dentro da banda')
+            print(f'  [x] `{nome}` — Categoria de Efeito {cp}, dentro da banda')
     print(f'  {len(SEM)} semente(s) nomeada(s).')
 
 # --------------------------------------------------------------------------
-bloco('7. A `Aptidao Propria` CONTINUA TRAVADA EM `CP 1 ou 2`')
+bloco('7. A `Aptidao Propria` CONTINUA TRAVADA EM `CE 1 ou 2`')
 # Ela e a terceira porta, e o que impede ela de virar a melhor semente e uma
 # trava que ja existia na peca 11 §6.7 — nao uma regra nova desta peca.
-if not re.search(r'Classe Passiva 1 ou 2, nunca 3', P11):
+if not re.search(r'Categoria de Efeito 1 ou 2, nunca 3', P11):
     erro('7: a trava da `Aptidao Propria` sumiu da peca 11 §6.7 — sem ela a '
-         'terceira porta da peca 25 pode virar `Classe Passiva 3` e dominar as outras')
-elif 'Classe Passiva 1 ou 2' not in P25:
+         'terceira porta da peca 25 pode virar `Categoria de Efeito 3` e dominar as outras')
+elif 'Categoria de Efeito 1 ou 2' not in P25:
     erro('7: a peca 25 nao cita a trava da peca 11 §6.7 na terceira porta — o '
          'leitor nao tem como saber que ela cai no piso da banda por regra que ja existe')
 else:
