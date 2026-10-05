@@ -184,3 +184,27 @@ PV,PE e CD agora são expandidos na primeira ocorrência. A lista final diz trei
 **Depois:** | 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. | / Na criação padrão, você recebe **um Traje 1 e ¥150.000** para comprar os demais itens. Registre a situação, o tipo de TR e as perícias do Traje, conforme Trajes, em Equipamento. / - **Inventário:** uniforme com a situação, o TR e as perícias do Traje, compras,
 
 **Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-11 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D41).
+
+## AB25 — decisão do autor
+
+**Antes:** No acerto, causa **3d8 de Concussão** e aplica **Derrubado por uma rodada**. No erro,
+
+**Depois:** No acerto, causa **3d8 de Concussão**, e o alvo faz **TR Físico contra CD 12**. Na falha, fica **Derrubado por uma rodada**. No erro,
+
+**Motivo:** Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado ("Controle inteiro"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste.
+
+## AB26 — decisão do autor
+
+**Antes:** e paga 1 por Condição: Derrubado. Sobram 3 dados.
+
+**Depois:** e paga 1 por Condição: Derrubado, com TR Físico registrado para ela. Sobram 3 dados.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado ("Controle inteiro"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste.
+
+## AB27 — decisão do autor
+
+**Antes:** Se a criatura sobrevivesse ao acerto, seria necessário aplicar Derrubado e sua duração.
+
+**Depois:** Se a criatura sobrevivesse ao acerto, faria o TR Físico contra CD 12 e, na falha, ficaria Derrubada por uma rodada.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado ("Controle inteiro"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste.

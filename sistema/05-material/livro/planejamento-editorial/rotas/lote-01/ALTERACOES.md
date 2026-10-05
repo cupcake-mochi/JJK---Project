@@ -429,3 +429,19 @@ Você reconhece pelo toque o encaixe e a textura familiares de armas que costuma
 **Acesso.** Escolha qualquer arma da categoria que seu acesso permita. As armas recebidas seguem **Equipamento restrito**: Arma de Fogo exige Grau 2 ou autorização prévia do mestre. Uma arma de fogo recebida vem com a munição inicial de uma compra, conforme **Munição inicial**. / Uma ferramenta vestida como armadura ocupa a função de **Traje ou Revestimento**, com as regras dessa categoria. Os números de Revestimento 2 ou 3 seguem o acesso de **Equipamento restrito**, salvo permissão do mestre.
 
 **Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G4-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D33).
+
+## R10-38 — decisão do autor
+
+**Antes:** No acerto, cause **3d8 de Cortante** e aplique Prende até o fim do próximo turno do alvo. Para as tentativas de saída, registre **TR Físico contra sua CD da Kata**.
+
+**Depois:** No acerto, cause **3d8 de Cortante**, e o alvo faz **TR Físico contra sua CD da Kata**. Na falha, Prende vale até o fim do próximo turno dele. As tentativas de saída usam o mesmo TR.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado ("Controle inteiro"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste.
+
+## R10-39 — decisão do autor
+
+**Antes:** Prende permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.
+
+**Depois:** O acerto sozinho não prende: Prende entra na falha do TR. Depois, permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado ("Controle inteiro"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste.

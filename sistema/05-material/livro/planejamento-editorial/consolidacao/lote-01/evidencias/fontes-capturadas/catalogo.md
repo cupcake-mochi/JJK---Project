@@ -154,11 +154,13 @@ Não concede visão: o alvo ou ponto de origem escolhido ainda precisa ser váli
 <!-- page:cat-controle|Controle -->
 # Controle
 
+**Condição, Prende e Cerca sempre pedem TR.** Numa ficha resolvida por TR, entram na falha desse TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; depois, cada alvo acertado faz o TR registrado na ficha para o Controle e só recebe essas peças se falhar. Um TR por alvo resolve as três peças da mesma ficha. O erro não pede TR.
+
 ## Condição
 
-**Preço: Nível da condição.** Escolha na montagem **uma das treze condições compráveis** de Condições. Pague seu nível: Leve, Média ou Pesada. Ela se aplica no acerto ou na falha do TR, dura **uma rodada** e termina no começo do seu próximo turno, salvo duração diferente da ficha. Só pode haver uma Pesada por feitiço.
+**Preço: Nível da condição.** Escolha na montagem **uma das treze condições compráveis** de Condições. Pague seu nível: Leve, Média ou Pesada. Ela se aplica **na falha do TR**, mesmo numa ficha de ataque, dura **uma rodada** e termina no começo do seu próximo turno, salvo duração diferente da ficha. Só pode haver uma Pesada por feitiço.
 
-Uma Pesada permite ao alvo repetir o TR registrado no fim de cada turno dele, sem ação, encerrando aquela aplicação no sucesso, mesmo que tenha sido aplicada por ataque. Leves e Médias não ganham essa saída por padrão. Concentrada, Duradoura e o bônus de Controle mudam os prazos nos limites próprios. Não retiram as saídas da condição.
+Uma Pesada permite ao alvo repetir o TR registrado no fim de cada turno dele, sem ação, encerrando aquela aplicação no sucesso. Leves e Médias não ganham essa saída por padrão. Concentrada, Duradoura e o bônus de Controle mudam os prazos nos limites próprios. Não retiram as saídas da condição.
 
 ## Terreno
 
@@ -166,7 +168,7 @@ Uma Pesada permite ao alvo repetir o TR registrado no fim de cada turno dele, se
 
 ## Cerca
 
-**Preço: Leve.** No acerto ou na falha do TR, o alvo não pode **se aproximar voluntariamente de você** até o fim do próximo turno dele. Você se mover até ele não o afasta. Movimento imposto continua possível. A aplicação termina assim que você lhe causar dano, **inclusive o dano do feitiço que a aplicou**.
+**Preço: Leve.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode **se aproximar voluntariamente de você** até o fim do próximo turno dele. Você se mover até ele não o afasta. Movimento imposto continua possível. A aplicação termina assim que você lhe causar dano, **inclusive o dano do feitiço que a aplicou**.
 
 ## Desarma o Feitiço
 
@@ -185,7 +187,7 @@ Coloque-a em espaços livres, sem atravessar criaturas nem empurrá-las. Ela imp
 
 ## Prende
 
-**Preço: Média.** No acerto ou na falha do TR, o alvo não pode se deslocar voluntariamente até o fim do próximo turno dele. Ainda pode atacar, conjurar e usar outras ações. No próprio turno, pode gastar **Ação Padrão, Ação Bônus ou Ação de Movimento** para fazer o TR de saída registrado na ficha contra sua CD. No sucesso, a aplicação termina. Cada tentativa paga uma dessas ações.
+**Preço: Média.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode se deslocar voluntariamente até o fim do próximo turno dele. Ainda pode atacar, conjurar e usar outras ações. No próprio turno, pode gastar **Ação Padrão, Ação Bônus ou Ação de Movimento** para fazer o TR de saída registrado na ficha contra sua CD. No sucesso, a aplicação termina. Cada tentativa paga uma dessas ações.
 
 Não concede saída automática no fim do turno. Movimento imposto não é impedido e não encerra o efeito por si. Se o mesmo feitiço também mover o alvo, resolva o movimento antes de prendê-lo.
 

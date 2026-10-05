@@ -1473,7 +1473,7 @@ Uma **condição** altera o que você consegue fazer enquanto durar. Registre se
 
 #### Aplicação e duração
 
-A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. **Use a duração escrita no efeito.** Uma condição criada pela Melhoria Condição dura uma rodada, salvo Concentrada, Duradoura ou outra regra específica. Quando o efeito disser apenas uma rodada, ele termina no começo do próximo turno de quem o aplicou.
+A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. A Melhoria Condição sempre pede TR: num feitiço de ataque, o alvo acertado ainda faz o TR registrado e só recebe a condição se falhar. **Use a duração escrita no efeito.** Uma condição criada pela Melhoria Condição dura uma rodada, salvo Concentrada, Duradoura ou outra regra específica. Quando o efeito disser apenas uma rodada, ele termina no começo do próximo turno de quem o aplicou.
 
 Uma manobra pode ter outra forma de término. O agarrão comum dura enquanto a contenção for mantida; ser derrubado não faz você se levantar sozinho quando a rodada muda.
 
@@ -2096,9 +2096,9 @@ Sua Expressão da técnica faz linhas semelhantes a marcas de balança aparecere
 
 #### Peso nas Mãos
 
-**Classe 1 · Ação Padrão · 3 PE · Toque, até 1,5 m.** Kaori precisa cumprir seu Selo e encostar as duas mãos no alvo. Faça seu ataque de técnica contra a Defesa. No acerto, causa **3d8 de Concussão** e aplica **Derrubado por uma rodada**. No erro, o PE e a ação continuam gastos.
+**Classe 1 · Ação Padrão · 3 PE · Toque, até 1,5 m.** Kaori precisa cumprir seu Selo e encostar as duas mãos no alvo. Faça seu ataque de técnica contra a Defesa. No acerto, causa **3d8 de Concussão**, e o alvo faz **TR Físico contra CD 12**. Na falha, fica **Derrubado por uma rodada**. No erro, o PE e a ação continuam gastos.
 
-A montagem tem 3 pontos, recebe 1 pela limitação de Corpo a Corpo da Forma Toque e paga 1 por Condição: Derrubado. Sobram 3 dados. O feitiço não soma o dano de um soco nem Força ao resultado dos d8.
+A montagem tem 3 pontos, recebe 1 pela limitação de Corpo a Corpo da Forma Toque e paga 1 por Condição: Derrubado, com TR Físico registrado para ela. Sobram 3 dados. O feitiço não soma o dano de um soco nem Força ao resultado dos d8.
 
 Essa ficha demonstra uma aplicação da técnica. As habilidades da Origem, do Caminho e da Trilha continuam com suas regras próprias. O exemplo usa somente a conjuração acima e a Defesa indicada.
 
@@ -2158,7 +2158,7 @@ Com o corredor livre, Kaori usa 3 m de seu movimento para chegar à porta do arq
 
 Kaori termina esta sequência com **18 PV e 5 PE**. O fim do combate não devolve automaticamente os recursos gastos. A equipe ainda precisa tirar a funcionária do prédio e conferir se há outras pessoas em risco.
 
-Os resultados acima mostram uma sequência possível. Se o ataque de Kaori errasse, ela continuaria tendo gasto a ação e o PE. Se a criatura sobrevivesse ao acerto, seria necessário aplicar Derrubado e sua duração. As decisões seguintes dependeriam do que restasse na cena.
+Os resultados acima mostram uma sequência possível. Se o ataque de Kaori errasse, ela continuaria tendo gasto a ação e o PE. Se a criatura sobrevivesse ao acerto, faria o TR Físico contra CD 12 e, na falha, ficaria Derrubada por uma rodada. As decisões seguintes dependeriam do que restasse na cena.
 
 <!-- fonte:abertura/lote-01/ABERTURA-E-CRIACAO.md#ab-conferencia -->
 <a id="ab--ab-conferencia"></a>
@@ -8473,6 +8473,8 @@ Escolha na montagem qual dos quatro TRs corresponde ao efeito. O mestre confere 
 
 Num feitiço ofensivo resolvido por TR, falhar aplica dano e efeitos nocivos. Passar evita os efeitos nocivos e recebe metade dos dados de dano, arredondada para baixo, salvo indicação específica. O teste de saída de uma condição Pesada continua existindo mesmo depois da falha inicial.
 
+Num feitiço de ataque, o acerto não basta para Condição, Prende e Cerca: o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Veja Controle, no Catálogo.
+
 Na criação, você pode trocar ataque por TR, ou o contrário, sem mudar pontos. **São versões diferentes:** cada uma ocupa seu espaço, ou substitui a anterior numa reescrita permitida. A troca não transforma Cura ou Apoio em ataque automático contra um inimigo.
 
 Numa área, resolva o ataque ou o TR separadamente para cada alvo. Role uma vez para cada quantidade de dados necessária e aplique o mesmo total aos alvos com o mesmo resultado: por exemplo, 5d8 para quem falhou no TR e 2d8 para quem passou. Um crítico amplia os dados apenas contra o alvo daquele ataque. A área não se torna uma sequência de ataques de arma.
@@ -8559,11 +8561,11 @@ Você pode montar um feitiço para prender um adversário, mudar sua posição o
 
 | Objetivo | Peça para consultar | Limite importante |
 |---|---|---|
-| Segurar uma criatura no lugar. | Prende, Média. | O alvo pode gastar uma ação permitida pela peça para tentar escapar. |
+| Segurar uma criatura no lugar. | Prende, Média. | Entra na falha do TR, mesmo num ataque. O alvo pode gastar uma ação permitida pela peça para tentar escapar. |
 | Criar uma parede. | Anteparo, Média. | Tem 10 × Classe de vida e dura 1 minuto; pode ser destruída. |
 | Dificultar uma passagem. | Terreno, Leve. | Terreno difícil ou obscurecimento não imobiliza. |
 | Puxar um grupo. | Puxa, Média. | Deslocamento de até 6 m rumo ao centro da área. |
-| Aplicar uma condição. | Condição, no preço da condição. | No máximo uma Pesada. Se for Pesada, o alvo repete TR no fim dos turnos para encerrá-la. |
+| Aplicar uma condição. | Condição, no preço da condição. | Entra na falha do TR, mesmo num ataque. No máximo uma Pesada. Se for Pesada, o alvo repete TR no fim dos turnos para encerrá-la. |
 
 #### Dano e duração
 
@@ -9202,11 +9204,13 @@ Não concede visão: o alvo ou ponto de origem escolhido ainda precisa ser váli
 <a id="catalogo--cat-controle"></a>
 ### Controle
 
+**Condição, Prende e Cerca sempre pedem TR.** Numa ficha resolvida por TR, entram na falha desse TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; depois, cada alvo acertado faz o TR registrado na ficha para o Controle e só recebe essas peças se falhar. Um TR por alvo resolve as três peças da mesma ficha. O erro não pede TR.
+
 #### Condição
 
-**Preço: Nível da condição.** Escolha na montagem **uma das treze condições compráveis** de Condições. Pague seu nível: Leve, Média ou Pesada. Ela se aplica no acerto ou na falha do TR, dura **uma rodada** e termina no começo do seu próximo turno, salvo duração diferente da ficha. Só pode haver uma Pesada por feitiço.
+**Preço: Nível da condição.** Escolha na montagem **uma das treze condições compráveis** de Condições. Pague seu nível: Leve, Média ou Pesada. Ela se aplica **na falha do TR**, mesmo numa ficha de ataque, dura **uma rodada** e termina no começo do seu próximo turno, salvo duração diferente da ficha. Só pode haver uma Pesada por feitiço.
 
-Uma Pesada permite ao alvo repetir o TR registrado no fim de cada turno dele, sem ação, encerrando aquela aplicação no sucesso, mesmo que tenha sido aplicada por ataque. Leves e Médias não ganham essa saída por padrão. Concentrada, Duradoura e o bônus de Controle mudam os prazos nos limites próprios. Não retiram as saídas da condição.
+Uma Pesada permite ao alvo repetir o TR registrado no fim de cada turno dele, sem ação, encerrando aquela aplicação no sucesso. Leves e Médias não ganham essa saída por padrão. Concentrada, Duradoura e o bônus de Controle mudam os prazos nos limites próprios. Não retiram as saídas da condição.
 
 #### Terreno
 
@@ -9214,7 +9218,7 @@ Uma Pesada permite ao alvo repetir o TR registrado no fim de cada turno dele, se
 
 #### Cerca
 
-**Preço: Leve.** No acerto ou na falha do TR, o alvo não pode **se aproximar voluntariamente de você** até o fim do próximo turno dele. Você se mover até ele não o afasta. Movimento imposto continua possível. A aplicação termina assim que você lhe causar dano, **inclusive o dano do feitiço que a aplicou**.
+**Preço: Leve.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode **se aproximar voluntariamente de você** até o fim do próximo turno dele. Você se mover até ele não o afasta. Movimento imposto continua possível. A aplicação termina assim que você lhe causar dano, **inclusive o dano do feitiço que a aplicou**.
 
 #### Desarma o Feitiço
 
@@ -9234,7 +9238,7 @@ Coloque-a em espaços livres, sem atravessar criaturas nem empurrá-las. Ela imp
 
 #### Prende
 
-**Preço: Média.** No acerto ou na falha do TR, o alvo não pode se deslocar voluntariamente até o fim do próximo turno dele. Ainda pode atacar, conjurar e usar outras ações. No próprio turno, pode gastar **Ação Padrão, Ação Bônus ou Ação de Movimento** para fazer o TR de saída registrado na ficha contra sua CD. No sucesso, a aplicação termina. Cada tentativa paga uma dessas ações.
+**Preço: Média.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode se deslocar voluntariamente até o fim do próximo turno dele. Ainda pode atacar, conjurar e usar outras ações. No próprio turno, pode gastar **Ação Padrão, Ação Bônus ou Ação de Movimento** para fazer o TR de saída registrado na ficha contra sua CD. No sucesso, a aplicação termina. Cada tentativa paga uma dessas ações.
 
 Não concede saída automática no fim do turno. Movimento imposto não é impedido e não encerra o efeito por si. Se o mesmo feitiço também mover o alvo, resolva o movimento antes de prendê-lo.
 
@@ -10572,9 +10576,9 @@ Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa
 
 Iori escolhe **Toque + Prende**, de Classe 1. Prende é Média e custa 1 ponto nessa Classe. Corpo a Corpo já acompanha Toque e devolve 1 ponto, exatamente o gasto. A conta é **3 − 1 + 1 = 3**.
 
-**Ficha:** Ação Padrão, 3 PE, uma criatura a até 1,5 m. Faça um ataque da Kata. No acerto, cause **3d8 de Cortante** e aplique Prende até o fim do próximo turno do alvo. Para as tentativas de saída, registre **TR Físico contra sua CD da Kata**.
+**Ficha:** Ação Padrão, 3 PE, uma criatura a até 1,5 m. Faça um ataque da Kata. No acerto, cause **3d8 de Cortante**, e o alvo faz **TR Físico contra sua CD da Kata**. Na falha, Prende vale até o fim do próximo turno dele. As tentativas de saída usam o mesmo TR.
 
-Com Força 3 e maestria 1, usando uma arma de Força, o ataque é **d20 + 4** e a CD é **12**. Prende permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.
+Com Força 3 e maestria 1, usando uma arma de Força, o ataque é **d20 + 4** e a CD é **12**. O acerto sozinho não prende: Prende entra na falha do TR. Depois, permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.
 
 #### Repertório
 

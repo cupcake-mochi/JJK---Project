@@ -11,8 +11,8 @@
   "fontes": {
     "ab": {
       "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
-      "sha256_lido": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
-      "sha256_no_fim": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded"
+      "sha256_lido": "0aa5778f2b21f1f2f643cc486cbb4b1ea8c659bd826943ed89c8d2e43bbffdac",
+      "sha256_no_fim": "0aa5778f2b21f1f2f643cc486cbb4b1ea8c659bd826943ed89c8d2e43bbffdac"
     },
     "geral": {
       "arquivo": "regras-gerais/lote-final/REGRAS-GERAIS.md",
@@ -21,8 +21,8 @@
     },
     "dano": {
       "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
-      "sha256_lido": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
-      "sha256_no_fim": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1"
+      "sha256_lido": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192",
+      "sha256_no_fim": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192"
     },
     "origens": {
       "arquivo": "origens/lote-01/ORIGENS-E-LEGADOS.md",
@@ -46,13 +46,13 @@
     },
     "fundamento": {
       "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
-      "sha256_lido": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
-      "sha256_no_fim": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f"
+      "sha256_lido": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7",
+      "sha256_no_fim": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7"
     },
     "catalogo": {
       "arquivo": "catalogo/lote-01/CATALOGO.md",
-      "sha256_lido": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
-      "sha256_no_fim": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff"
+      "sha256_lido": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60",
+      "sha256_no_fim": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60"
     },
     "aptidoes": {
       "arquivo": "aptidoes/lote-01/APTIDOES-E-REFINO.md",
@@ -61,8 +61,8 @@
     },
     "rotas": {
       "arquivo": "rotas/lote-01/ROTAS.md",
-      "sha256_lido": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
-      "sha256_no_fim": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae"
+      "sha256_lido": "b1903bb79e8fe5342b0e5aff1da8928a09f2ce36a03cd862860430a292a9f9b4",
+      "sha256_no_fim": "b1903bb79e8fe5342b0e5aff1da8928a09f2ce36a03cd862860430a292a9f9b4"
     },
     "poderes": {
       "arquivo": "poderes-avancados/lote-01/PODERES-AVANCADOS.md",
@@ -157,7 +157,7 @@
     }
   ],
   "destinos_pendentes": 0,
-  "sha256_manuscrito": "e747cf7407d50f1e3a2a768f24936b4f1c40c82272d5be9d6f4d91a96166363b",
-  "sha256_pdf": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+  "sha256_manuscrito": "cb90d827852fe9dd3babb7fcc43aa285deef7a22fccdda243511cf72f6d7a47f",
+  "sha256_pdf": "b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb",
   "V14": "não executado: requer inspeção visual de todas as páginas finais"
 }

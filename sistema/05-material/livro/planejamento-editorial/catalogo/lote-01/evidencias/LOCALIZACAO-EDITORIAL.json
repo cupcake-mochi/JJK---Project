@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
+  "sha256_texto": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -19,5 +19,49 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
     "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
     "conferido": "As duas parcelas do delta foram lidas linha a linha: as remissões do fechamento e as correções e decisões desta rodada. Nenhuma regra alheia reproduzida, nenhum título alterado. Todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
+  },
+  "revisao_delta_2026_10_05_tr_controle": {
+    "sha256_anterior": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
+    "sha256_atual": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60",
+    "mudancas": [
+      {
+        "codigo": "CAT-D43-01",
+        "decisao": "D43",
+        "secao": "cat-controle",
+        "antes": "# Controle\n\n## Condição",
+        "depois": "# Controle\n\n**Condição, Prende e Cerca sempre pedem TR.** Numa ficha resolvida por TR, entram na falha desse TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; depois, cada alvo acertado faz o TR registrado na ficha para o Controle e só recebe essas peças se falhar. Um TR por alvo resolve as três peças da mesma ficha. O erro não pede TR.\n\n## Condição"
+      },
+      {
+        "codigo": "CAT-D43-02",
+        "decisao": "D43",
+        "secao": "cat-controle",
+        "antes": "Pague seu nível: Leve, Média ou Pesada. Ela se aplica no acerto ou na falha do TR, dura **uma rodada**",
+        "depois": "Pague seu nível: Leve, Média ou Pesada. Ela se aplica **na falha do TR**, mesmo numa ficha de ataque, dura **uma rodada**"
+      },
+      {
+        "codigo": "CAT-D43-03",
+        "decisao": "D43",
+        "secao": "cat-controle",
+        "antes": "encerrando aquela aplicação no sucesso, mesmo que tenha sido aplicada por ataque. Leves",
+        "depois": "encerrando aquela aplicação no sucesso. Leves"
+      },
+      {
+        "codigo": "CAT-D43-04",
+        "decisao": "D43",
+        "secao": "cat-controle",
+        "antes": "**Preço: Leve.** No acerto ou na falha do TR, o alvo não pode **se aproximar voluntariamente de você**",
+        "depois": "**Preço: Leve.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode **se aproximar voluntariamente de você**"
+      },
+      {
+        "codigo": "CAT-D43-05",
+        "decisao": "D43",
+        "secao": "cat-obstaculos",
+        "antes": "**Preço: Média.** No acerto ou na falha do TR, o alvo não pode se deslocar voluntariamente",
+        "depois": "**Preço: Média.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode se deslocar voluntariamente"
+      }
+    ],
+    "registro": "catalogo/lote-01/ALTERACOES.json (CAT-D43-01, CAT-D43-02, CAT-D43-03, CAT-D43-04, CAT-D43-05) e revisao-interfaces/CORRECOES-APLICADAS.md (D43)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto da seção e das vizinhas: decisão do autor de 05/10/2026 (D43, TR obrigatório em Condição, Prende e Cerca). As frases novas usam só os nomes das peças e do TR registrado, citam Controle no Catálogo pelo nome quando a regra mora lá e não copiam o texto da peça. O conferir_editorial dá 0 achados no texto atual, sem exceção nova; títulos não mudaram. O restante do texto é idêntico e conserva a leitura anterior. As exceções de localização já registradas casam pelo trecho e continuam valendo; nenhuma dependia das linhas trocadas."
   }
 }

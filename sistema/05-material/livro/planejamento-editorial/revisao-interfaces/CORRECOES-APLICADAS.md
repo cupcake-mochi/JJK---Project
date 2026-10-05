@@ -452,6 +452,22 @@ Em 05/10/2026, o Mizuki notou que a Vanguarda era o único Caminho com uma habil
 - Muda na mesa: a partir do nível 7, uma vez por Sequência, a Conclusão que vem depois de duas ou mais Conduções acertadas impõe −1 a mais um TR, além do que ela já impõe.
 - Unidade: `VG-REV-03` e `VG-REV-04` no `ALTERACOES` da Vanguarda. A peça 06 ainda diz Não Pega; a migração está em `../migracao-pos-candidata/PLANO.md`.
 
+### D43 · Condição, Prende e Cerca pedem TR
+
+Em 05/10/2026, o Mizuki decidiu que a Melhoria Condição sempre pede TR, mesmo num feitiço de ataque. Ao levantar o escopo, apareceu uma brecha: Prende e Cerca também entravam no acerto sem ser uma das treze condições. Se só a Condição pedisse TR, Prende continuaria entrando no acerto, quase como um Agarrado sem teste. Ele escolheu a família Controle que aplica estado: Condição, Prende e Cerca.
+
+- **Como fica num ataque:** o acerto aplica o dano e as outras peças. Depois, cada alvo acertado faz o TR registrado na ficha para o Controle e só recebe Condição, Prende ou Cerca se falhar. Um TR por alvo resolve as três peças da mesma ficha. O erro não pede TR. Numa ficha de TR, nada muda: a falha aplica tudo. Decidido por ele entre "acerto + TR" e "só em ficha de TR".
+- **Fora:** Puxa, Terreno, Anteparo e Desarma o Feitiço, os Auxiliares e as Marcas. A conversa em que o escopo foi fechado deixou Puxa de fora dizendo que área "se resolve sempre por TR"; isso não vale, porque o Fundamento resolve área por ataque ou por TR. O Mizuki manteve Puxa de fora pelo outro motivo: é deslocamento forçado, como o Empurrão, que segue entrando no acerto.
+- **Catálogo** (`CAT-D43-01` a `CAT-D43-05`): parágrafo novo na abertura de Controle com a regra. Condição, Cerca e Prende passam a dizer "na falha do TR, mesmo numa ficha de ataque". A saída da Pesada perdeu o "mesmo que tenha sido aplicada por ataque", que deixou de ter caso.
+- **Dano e recuperação** (`DR36`): Aplicação e duração diz que a Melhoria Condição sempre pede TR.
+- **Fundamento** (`FU-59` a `FU-61`): Resultados ganha o parágrafo do ataque com Controle, com remissão ao Catálogo. A tabela de Controle diz "entra na falha do TR, mesmo num ataque" em Prende e em Condição.
+- **Abertura** (`AB25` a `AB27`): Peso nas Mãos, da Kaori, passa a pedir **TR Físico contra CD 12** para o Derrubado (CD 8 + Força 3 + Maestria 1, a da tabela dela). O fecho do combate de exemplo diz o que aconteceria se a criatura sobrevivesse.
+- **Rotas** (`R10-38` e `R10-39`): Gancho fechado, do Iori, pede **TR Físico contra a CD da Kata** para Prende, e as tentativas de saída usam o mesmo TR. O Manejo da Rika já era de TR e não mudou.
+- **Sem mudança:** Construir invocações cita Prende numa especial sem dizer como ela entra, e a Rede de contenção da Hana já é de TR.
+- Muda na mesa: um feitiço de ataque com Condição, Prende ou Cerca não aplica mais a peça só por acertar. O alvo acertado ainda resiste com o TR registrado, e a CD recebe o +2 do Controle com saldo zero, como antes. A saída repetida da Pesada e as tentativas de Prende continuam iguais.
+- Auditor da Abertura: a checagem `efeito-sobrevivente` procurava a frase antiga e foi trocada pela nova; a `condicao-pede-tr`, nova, confere a ficha com a CD calculada dos atributos da Kaori.
+- Migração: as peças e o gerador do Fundamento ainda dizem "no acerto"; ver `../migracao-pos-candidata/PLANO.md`.
+
 ## Validador editorial
 
 | Situação | Achados do `conferir_editorial.py` nos manuscritos alterados |

@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "729b841c732b5f02fd4a70df4ee5ec62513878bf0a9ef5cb047a047319ef3778",
+  "sha256_pdf": "4bcbb95f94b6d75da89a9a13e645e6e7fb6e8498f1f44deb195563fecd988213",
   "sha256_texto": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "paginas": [
@@ -72,9 +72,11 @@
     {
       "pagina": 10,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página aberta integralmente por view_image nesta etapa. Texto, tabelas, títulos e margens legíveis, sem cortes ou sobreposições.",
-      "sha256_png": "a586b7994d54ee23b6929e1a26c4562ecd68f401d10448f3f0980525e4a076f2",
-      "revisor": "/root/maxima"
+      "observacoes": "Peso nas Mãos com o TR Físico contra CD 12 e a montagem; tabela da Kaori inteira.",
+      "sha256_png": "7920326799b9411c193bf242219ab717a703f1e46b88fb9392349951c1ee5089",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+      "arquivo": null,
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 11,
@@ -86,9 +88,11 @@
     {
       "pagina": 12,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "d81ab82dc5d19de994adcbfd4d36ceef16797b80834249b8e14030d33a19c259",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Combate de exemplo com o fecho do TR de Derrubado; sem corte nem linha sozinha.",
+      "sha256_png": "66871576d8ad9225aa7875053dd0b0122e0842255ecffa66484edd1e11c89911",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+      "arquivo": null,
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 13,
@@ -123,5 +127,16 @@
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_05_tr_controle": {
+    "sha256_pdf_anterior": "729b841c732b5f02fd4a70df4ee5ec62513878bf0a9ef5cb047a047319ef3778",
+    "sha256_pdf_atual": "4bcbb95f94b6d75da89a9a13e645e6e7fb6e8498f1f44deb195563fecd988213",
+    "paginas_alteradas": [
+      10,
+      12
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-05-d43.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "c957453076c093dbcaa3cc869625fe9ece2818dd1e9b59171cc88799b7879d1c",
+  "sha256_pdf": "b6975960aca0d26667c6794139547da053540a6ed12bebe6af07cb6f36b6902c",
   "revisor": "/root",
   "metodo": "Todas20 páginas abertas como imagens. Ajustadas larguras das tabelas de Integridade e Exaustão; páginas5/19 abertas novamente. Fluxo contínuo pertence à montagem do livro.",
   "paginas": [
@@ -31,7 +31,11 @@
     {
       "pagina": 6,
       "resultado": "sem defeito visual observado",
-      "arquivo": "output/png/pagina-06.png"
+      "arquivo": null,
+      "observacoes": "Aplicação e duração com a frase da Melhoria Condição; tabela de remoção e exemplo da Mei inteiros.",
+      "sha256_png": "06395bc3bfe2279077e69c44c63d48db57150229f6be389f3ea1f6396e4ce62b",
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
     },
     {
       "pagina": 7,
@@ -132,5 +136,15 @@
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_05_tr_controle": {
+    "sha256_pdf_anterior": "c957453076c093dbcaa3cc869625fe9ece2818dd1e9b59171cc88799b7879d1c",
+    "sha256_pdf_atual": "b6975960aca0d26667c6794139547da053540a6ed12bebe6af07cb6f36b6902c",
+    "paginas_alteradas": [
+      6
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-05-d43.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

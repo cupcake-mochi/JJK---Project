@@ -1552,7 +1552,7 @@
   {
     "ancora": "fundamento--restricoes",
     "pagina": 227,
-    "y": 569.76
+    "y": 541.76
   },
   {
     "ancora": "fundamento--combinacoes",
@@ -1566,18 +1566,18 @@
   },
   {
     "ancora": "fundamento--aplicacoes",
-    "pagina": 229,
-    "y": 144.56
+    "pagina": 230,
+    "y": 776.36
   },
   {
     "ancora": "fundamento--danolimites",
     "pagina": 230,
-    "y": 308.36
+    "y": 244.36
   },
   {
     "ancora": "fundamento--persistente",
     "pagina": 231,
-    "y": 449.96
+    "y": 413.96
   },
   {
     "ancora": "fundamento--livre",
@@ -1942,7 +1942,7 @@
   {
     "ancora": "rotas--rota-bancada",
     "pagina": 283,
-    "y": 435.76
+    "y": 421.76
   },
   {
     "ancora": "rotas--rota-invocacoes",

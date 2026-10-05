@@ -133,6 +133,28 @@ for name,form,ps,rs,mx,expected in [
  ('ArmadoSegura','Projétil',['Armado','Segura'],[],False,False),('ArmadoCarregar','Projétil',['Armado'],['Carregar'],False,False),
  ('CerteiroSemVolta','Projétil',['Certeiro'],['Sem Volta'],False,False),('ControlePrecisão','Explosão',['Condição','Precisão'],[],False,True),
  ('ReaçãoParado','Projétil',['Reação'],['Parado'],False,False)]:case(name,valid(form,ps,rs,mx),expected)
+# D43: Condição, Prende e Cerca pedem TR mesmo numa ficha de ataque; Puxa segue o acerto.
+def peca(nome):
+ m=re.search(r'^## '+re.escape(nome)+r'\n(.*?)(?=^#)',s,re.M|re.S);return m.group(1) if m else ''
+def gatilho(nome):
+ x=peca(nome).replace('**','').casefold()
+ if 'na falha do tr, mesmo numa ficha de ataque' in x and 'no acerto' not in x:return 'tr'
+ if 'atingido ou que falhe no tr' in x or 'no acerto ou na falha do tr' in x:return 'acerto'
+ return None
+def entra(nome,ficha,acertou,falhou):
+ g=gatilho(nome)
+ if ficha=='tr':return falhou
+ return acertou and (falhou if g=='tr' else True)
+ck('Controle abre com o TR obrigatório','**Condição, Prende e Cerca sempre pedem TR.**' in s and 'Um TR por alvo resolve as três peças da mesma ficha.' in s,True)
+for n in ['Condição','Prende','Cerca']:
+ ck(n+' entra na falha do TR, mesmo em ataque',gatilho(n),'tr')
+ case(n+': ataque acerta e o alvo passa no TR',entra(n,'ataque',True,False),False)
+ case(n+': ataque acerta e o alvo falha',entra(n,'ataque',True,True),True)
+ case(n+': ataque erra',entra(n,'ataque',False,True),False)
+ case(n+': ficha de TR, falha',entra(n,'tr',False,True),True)
+ck('Puxa fora do escopo da D43',gatilho('Puxa'),'acerto')
+case('Puxa: ataque de área acerta, sem TR',entra('Puxa','ataque',True,False),True)
+ck('Pesada sem a exceção de ataque','mesmo que tenha sido aplicada por ataque' not in s,True)
 anchor={
  '1Projétil automático':'Só em **Projétil de dano**',
  'Sugar teto compartilhado':'O limite pertence à conjuração inteira',

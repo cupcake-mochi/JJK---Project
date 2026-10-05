@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
+  "sha256_texto": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192",
   "revisor": "/root",
   "titulos_revisto": true,
   "vocabulario_revisto": true,
@@ -73,5 +73,21 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas citam a seção dona pelo nome (Equipamento restrito, Munição inicial, Invocações em campo, Trajes). Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_05_tr_controle": {
+    "sha256_anterior": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
+    "sha256_atual": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192",
+    "mudancas": [
+      {
+        "codigo": "DR36",
+        "decisao": "D43",
+        "secao": "condicoes",
+        "antes": "A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. **Use a duração escrita no efeito.**",
+        "depois": "A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. A Melhoria Condição sempre pede TR: num feitiço de ataque, o alvo acertado ainda faz o TR registrado e só recebe a condição se falhar. **Use a duração escrita no efeito.**"
+      }
+    ],
+    "registro": "dano-e-recuperacao/lote-final/ALTERACOES.json (DR36) e revisao-interfaces/CORRECOES-APLICADAS.md (D43)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto da seção e das vizinhas: decisão do autor de 05/10/2026 (D43, TR obrigatório em Condição, Prende e Cerca). As frases novas usam só os nomes das peças e do TR registrado, citam Controle no Catálogo pelo nome quando a regra mora lá e não copiam o texto da peça. O conferir_editorial dá 0 achados no texto atual, sem exceção nova; títulos não mudaram. O restante do texto é idêntico e conserva a leitura anterior. As exceções de localização já registradas casam pelo trecho e continuam valendo; nenhuma dependia das linhas trocadas."
   }
 }

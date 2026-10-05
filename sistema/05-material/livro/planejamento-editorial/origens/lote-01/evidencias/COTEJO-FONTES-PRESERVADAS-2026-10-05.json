@@ -1,0 +1,26 @@
+{
+  "fontes": [
+    {
+      "arquivo": "sistema/03-mecanica/09-origens.md",
+      "sha256_anterior": "f50d921e42355d193f1c0f32afcffc7d2a724bfdc19608e2231aad4b3db043c2",
+      "sha256_atual": "3299b6c20185daa1f021bfbbb9cee35ee7c8faa1bfe57914ae514cc43b5bd0f6",
+      "versao_anterior": "dacd1ea234b4c493adbafac05ea020eb196ddc5d",
+      "mudou_em": [
+        "789cf5a v0.332: migração, passo 2, primeira metade — os quatro renomes pequenos nas peças"
+      ],
+      "motivo": "Passo 2 da migração (v0.332, commit 789cf5a): só os renomes Reencarnado → Encarnado, Incapacitado → Guarda Aberta (com o artigo ajustado) e Aviso → Leitura de Feitiços, já usados pela candidata desde a reconstrução. Nenhum número ou regra mudou; o diff palavra a palavra só toca esses nomes e os artigos."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/13-legados.md",
+      "sha256_anterior": "d2c77320f0e55156f0bcd0022a6a54e36b6591f0d3ac2415c6106346f4db5e06",
+      "sha256_atual": "0bbed47da6d19fc86d1f2f13c5e9d1ffc696c8bdbb63f402d9f60343231ce361",
+      "versao_anterior": "2a2e4b61a3e4b75ed6cd1f7d0d1d5230609deac5",
+      "mudou_em": [
+        "789cf5a v0.332: migração, passo 2, primeira metade — os quatro renomes pequenos nas peças"
+      ],
+      "motivo": "Passo 2 da migração (v0.332, commit 789cf5a): só os renomes Reencarnado → Encarnado, Incapacitado → Guarda Aberta (com o artigo ajustado) e Aviso → Leitura de Feitiços, já usados pela candidata desde a reconstrução. Nenhum número ou regra mudou; o diff palavra a palavra só toca esses nomes e os artigos."
+    }
+  ],
+  "conferido": "Diff lido palavra a palavra entre a versão guardada e a atual. O manuscrito desta unidade não cita o texto mudado da peça: usa os nomes novos desde a reconstrução, e os antigos só aparecem na Consulta como nome anterior.",
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+}

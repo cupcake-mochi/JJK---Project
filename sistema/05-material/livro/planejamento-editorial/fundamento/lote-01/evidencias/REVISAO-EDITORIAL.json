@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
+  "sha256_texto": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7",
   "revisor": "Agente principal, após três auditorias independentes por modelos",
   "teste_humano": false,
   "limites": "Leitura editorial documentada não demonstra compreensão de jogadores reais. Relatórios de agentes registram snapshots anteriores e suas ressalvas.",
@@ -171,5 +171,35 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_05_tr_controle": {
+    "sha256_anterior": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
+    "sha256_atual": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7",
+    "mudancas": [
+      {
+        "codigo": "FU-59",
+        "decisao": "D43",
+        "secao": "conjurar",
+        "antes": "O teste de saída de uma condição Pesada continua existindo mesmo depois da falha inicial.",
+        "depois": "O teste de saída de uma condição Pesada continua existindo mesmo depois da falha inicial.\n\nNum feitiço de ataque, o acerto não basta para Condição, Prende e Cerca: o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Veja Controle, no Catálogo."
+      },
+      {
+        "codigo": "FU-60",
+        "decisao": "D43",
+        "secao": "controle",
+        "antes": "| Segurar uma criatura no lugar. | Prende, Média. | O alvo pode gastar uma ação permitida pela peça para tentar escapar. |",
+        "depois": "| Segurar uma criatura no lugar. | Prende, Média. | Entra na falha do TR, mesmo num ataque. O alvo pode gastar uma ação permitida pela peça para tentar escapar. |"
+      },
+      {
+        "codigo": "FU-61",
+        "decisao": "D43",
+        "secao": "controle",
+        "antes": "| Aplicar uma condição. | Condição, no preço da condição. | No máximo uma Pesada. Se for Pesada, o alvo repete TR no fim dos turnos para encerrá-la. |",
+        "depois": "| Aplicar uma condição. | Condição, no preço da condição. | Entra na falha do TR, mesmo num ataque. No máximo uma Pesada. Se for Pesada, o alvo repete TR no fim dos turnos para encerrá-la. |"
+      }
+    ],
+    "registro": "fundamento/lote-01/ALTERACOES.json (FU-59, FU-60, FU-61) e revisao-interfaces/CORRECOES-APLICADAS.md (D43)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto da seção e das vizinhas: decisão do autor de 05/10/2026 (D43, TR obrigatório em Condição, Prende e Cerca). As frases novas usam só os nomes das peças e do TR registrado, citam Controle no Catálogo pelo nome quando a regra mora lá e não copiam o texto da peça. O conferir_editorial dá 0 achados no texto atual, sem exceção nova; títulos não mudaram. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }

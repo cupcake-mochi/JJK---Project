@@ -1,0 +1,16 @@
+{
+  "fontes": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "31a6d658c08df72104d1183445ad106dae2f551552b643b6fde6858ed8988597",
+      "sha256_atual": "5d8f0c5298af6ff02303e2c8443c45f99716620b3a8d879b6b27667a2cf9e741",
+      "versao_anterior": "bbc442808e3b4f0711a4f8649e7a1e6e846da15a",
+      "mudou_em": [
+        "789cf5a v0.332: migração, passo 2, primeira metade — os quatro renomes pequenos nas peças"
+      ],
+      "motivo": "Entrada nova da v0.332 no topo (16 linhas acrescentadas, nenhuma retirada). O resto do arquivo é idêntico; a unidade não depende da entrada nova."
+    }
+  ],
+  "conferido": "Diff lido palavra a palavra entre a versão guardada e a atual. O manuscrito desta unidade não cita o texto mudado da peça: usa os nomes novos desde a reconstrução, e os antigos só aparecem na Consulta como nome anterior.",
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+}

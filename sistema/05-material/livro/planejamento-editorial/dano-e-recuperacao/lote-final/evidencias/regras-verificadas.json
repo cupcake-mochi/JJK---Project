@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
+  "sha256_texto": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192",
   "verificacoes": 55,
   "evidencias": [
     "AUDITORIA.json",
@@ -19,5 +19,11 @@
     "auditoria_reexecutada": "evidencias/auditoria-numerica.json",
     "resultado": "ok; Lento corta distâncias concedidas (D37) e a derrota de inimigos ganhou frase própria (D38).",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_05_tr_controle": {
+    "sha256_anterior": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
+    "auditoria_reexecutada": "evidencias/AUDITORIA.json",
+    "resultado": "ok, 55 verificações. A frase nova (D43) diz que a Melhoria Condição sempre pede TR; não muda custo de remoção, duração, saída da Pesada nem limiar, e a regra mora no Catálogo, que a audita.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

@@ -255,9 +255,9 @@ Sua Expressão da técnica faz linhas semelhantes a marcas de balança aparecere
 
 ## Peso nas Mãos
 
-**Classe 1 · Ação Padrão · 3 PE · Toque, até 1,5 m.** Kaori precisa cumprir seu Selo e encostar as duas mãos no alvo. Faça seu ataque de técnica contra a Defesa. No acerto, causa **3d8 de Concussão** e aplica **Derrubado por uma rodada**. No erro, o PE e a ação continuam gastos.
+**Classe 1 · Ação Padrão · 3 PE · Toque, até 1,5 m.** Kaori precisa cumprir seu Selo e encostar as duas mãos no alvo. Faça seu ataque de técnica contra a Defesa. No acerto, causa **3d8 de Concussão**, e o alvo faz **TR Físico contra CD 12**. Na falha, fica **Derrubado por uma rodada**. No erro, o PE e a ação continuam gastos.
 
-A montagem tem 3 pontos, recebe 1 pela limitação de Corpo a Corpo da Forma Toque e paga 1 por Condição: Derrubado. Sobram 3 dados. O feitiço não soma o dano de um soco nem Força ao resultado dos d8.
+A montagem tem 3 pontos, recebe 1 pela limitação de Corpo a Corpo da Forma Toque e paga 1 por Condição: Derrubado, com TR Físico registrado para ela. Sobram 3 dados. O feitiço não soma o dano de um soco nem Força ao resultado dos d8.
 
 Essa ficha demonstra uma aplicação da técnica. As habilidades da Origem, do Caminho e da Trilha continuam com suas regras próprias. O exemplo usa somente a conjuração acima e a Defesa indicada.
 
@@ -315,7 +315,7 @@ Com o corredor livre, Kaori usa 3 m de seu movimento para chegar à porta do arq
 
 Kaori termina esta sequência com **18 PV e 5 PE**. O fim do combate não devolve automaticamente os recursos gastos. A equipe ainda precisa tirar a funcionária do prédio e conferir se há outras pessoas em risco.
 
-Os resultados acima mostram uma sequência possível. Se o ataque de Kaori errasse, ela continuaria tendo gasto a ação e o PE. Se a criatura sobrevivesse ao acerto, seria necessário aplicar Derrubado e sua duração. As decisões seguintes dependeriam do que restasse na cena.
+Os resultados acima mostram uma sequência possível. Se o ataque de Kaori errasse, ela continuaria tendo gasto a ação e o PE. Se a criatura sobrevivesse ao acerto, faria o TR Físico contra CD 12 e, na falha, ficaria Derrubada por uma rodada. As decisões seguintes dependeriam do que restasse na cena.
 
 <!-- page:ab-conferencia|Ficha pronta -->
 # Ficha pronta

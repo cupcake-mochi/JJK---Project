@@ -775,7 +775,7 @@
       43,
       44
     ],
-    "sha256_bloco_fonte": "93a45436d29523d766cba34c13547ee14b538d8cf4979b42a7d61cd5838e79fd",
+    "sha256_bloco_fonte": "7fe85d0c5a681b8064e0c0e4a0ab185626a7300de7cae1f007b9cb4a618f126c",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1089,7 +1089,7 @@
       59,
       60
     ],
-    "sha256_bloco_fonte": "b50ee3e8857e6bbbdc4d11391ec30ec102301fcc6958f263c5b82a1d20458a88",
+    "sha256_bloco_fonte": "e66ffaada9a1217014ad5c698e9a377968bbd999923ca0295aed715d27b1793e",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1120,7 +1120,7 @@
     "paginas_conteudo": [
       61
     ],
-    "sha256_bloco_fonte": "3aade6811020fb2873273ba70eae8fb48a35bbafff3254cccd062dfdda7267d7",
+    "sha256_bloco_fonte": "0c0b2cffe0489edfe229ab486c7112a24e5ee0945384f19bcb3b9af607def039",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4617,7 +4617,7 @@
       226,
       227
     ],
-    "sha256_bloco_fonte": "b655aba1a52ce32d0f83c863dc35d6f35774c33cb39963f9d09ba9210bb94b8b",
+    "sha256_bloco_fonte": "ad449c0be4710cdd13b0f8f9cdd8937db55ab53674b6cfa431498ce86d81f318",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4663,7 +4663,7 @@
     "paginas_conteudo": [
       229
     ],
-    "sha256_bloco_fonte": "61aea3c6cb30c4945f8e67e89f36fc73344c0536cab6f0eded82ee3510a3c819",
+    "sha256_bloco_fonte": "ed76a516511822e13a8584bbdbdd747bdd7ec361209429e42901b3e516a84b98",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4674,9 +4674,8 @@
     "ancora_fonte": "aplicacoes",
     "titulo_bloco": "Outras aplicações",
     "id_livro": "fundamento--aplicacoes",
-    "pagina": 229,
+    "pagina": 230,
     "paginas_conteudo": [
-      229,
       230
     ],
     "sha256_bloco_fonte": "671b02962eb21c178e582999bd58cd921495efc0504ff6f490a56099fac12a52",
@@ -5023,7 +5022,7 @@
     "paginas_conteudo": [
       247
     ],
-    "sha256_bloco_fonte": "0c80dfb610427f751dbdb90766983a5605a5789f5ac3e216ecf75fdef5178146",
+    "sha256_bloco_fonte": "71ce6edd33d7b69c32942336b1447cb7a45f9920e03ee388a45e35cf756a61c4",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -5038,7 +5037,7 @@
     "paginas_conteudo": [
       248
     ],
-    "sha256_bloco_fonte": "c8d90201669cac52d8643a047730cb682d5ad21aaa02612f11cab7d0c6cd832a",
+    "sha256_bloco_fonte": "19c2f82abdd69c2b89da9031fd0f571e6088a4519a342a57a3cb1205219740f9",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -5784,7 +5783,7 @@
       282,
       283
     ],
-    "sha256_bloco_fonte": "8c074216dea57dd32dada0d26b88b039fa78c3e14910ebe6a1588f531880508f",
+    "sha256_bloco_fonte": "2d83a28de666505dbaa392ed1152008024c9434fb800d2a890faf9060d7ab5bc",
     "cabecalho_inicial_unificado": false
   },
   {

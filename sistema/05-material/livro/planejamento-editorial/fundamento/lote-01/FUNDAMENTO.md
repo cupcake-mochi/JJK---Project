@@ -338,6 +338,8 @@ Escolha na montagem qual dos quatro TRs corresponde ao efeito. O mestre confere 
 
 Num feitiço ofensivo resolvido por TR, falhar aplica dano e efeitos nocivos. Passar evita os efeitos nocivos e recebe metade dos dados de dano, arredondada para baixo, salvo indicação específica. O teste de saída de uma condição Pesada continua existindo mesmo depois da falha inicial.
 
+Num feitiço de ataque, o acerto não basta para Condição, Prende e Cerca: o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Veja Controle, no Catálogo.
+
 Na criação, você pode trocar ataque por TR, ou o contrário, sem mudar pontos. **São versões diferentes:** cada uma ocupa seu espaço, ou substitui a anterior numa reescrita permitida. A troca não transforma Cura ou Apoio em ataque automático contra um inimigo.
 
 Numa área, resolva o ataque ou o TR separadamente para cada alvo. Role uma vez para cada quantidade de dados necessária e aplique o mesmo total aos alvos com o mesmo resultado: por exemplo, 5d8 para quem falhou no TR e 2d8 para quem passou. Um crítico amplia os dados apenas contra o alvo daquele ataque. A área não se torna uma sequência de ataques de arma.
@@ -421,11 +423,11 @@ Você pode montar um feitiço para prender um adversário, mudar sua posição o
 
 | Objetivo | Peça para consultar | Limite importante |
 |---|---|---|
-| Segurar uma criatura no lugar. | Prende, Média. | O alvo pode gastar uma ação permitida pela peça para tentar escapar. |
+| Segurar uma criatura no lugar. | Prende, Média. | Entra na falha do TR, mesmo num ataque. O alvo pode gastar uma ação permitida pela peça para tentar escapar. |
 | Criar uma parede. | Anteparo, Média. | Tem 10 × Classe de vida e dura 1 minuto; pode ser destruída. |
 | Dificultar uma passagem. | Terreno, Leve. | Terreno difícil ou obscurecimento não imobiliza. |
 | Puxar um grupo. | Puxa, Média. | Deslocamento de até 6 m rumo ao centro da área. |
-| Aplicar uma condição. | Condição, no preço da condição. | No máximo uma Pesada. Se for Pesada, o alvo repete TR no fim dos turnos para encerrá-la. |
+| Aplicar uma condição. | Condição, no preço da condição. | Entra na falha do TR, mesmo num ataque. No máximo uma Pesada. Se for Pesada, o alvo repete TR no fim dos turnos para encerrá-la. |
 
 ## Dano e duração
 

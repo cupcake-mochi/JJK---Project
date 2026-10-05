@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
+  "sha256_texto": "0aa5778f2b21f1f2f643cc486cbb4b1ea8c659bd826943ed89c8d2e43bbffdac",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -87,5 +87,35 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas citam a seção dona pelo nome (Equipamento restrito, Munição inicial, Invocações em campo, Trajes). Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_05_tr_controle": {
+    "sha256_anterior": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
+    "sha256_atual": "0aa5778f2b21f1f2f643cc486cbb4b1ea8c659bd826943ed89c8d2e43bbffdac",
+    "mudancas": [
+      {
+        "codigo": "AB25",
+        "decisao": "D43",
+        "secao": "ab-kaori",
+        "antes": "No acerto, causa **3d8 de Concussão** e aplica **Derrubado por uma rodada**. No erro,",
+        "depois": "No acerto, causa **3d8 de Concussão**, e o alvo faz **TR Físico contra CD 12**. Na falha, fica **Derrubado por uma rodada**. No erro,"
+      },
+      {
+        "codigo": "AB26",
+        "decisao": "D43",
+        "secao": "ab-kaori",
+        "antes": "e paga 1 por Condição: Derrubado. Sobram 3 dados.",
+        "depois": "e paga 1 por Condição: Derrubado, com TR Físico registrado para ela. Sobram 3 dados."
+      },
+      {
+        "codigo": "AB27",
+        "decisao": "D43",
+        "secao": "ab-combate",
+        "antes": "Se a criatura sobrevivesse ao acerto, seria necessário aplicar Derrubado e sua duração.",
+        "depois": "Se a criatura sobrevivesse ao acerto, faria o TR Físico contra CD 12 e, na falha, ficaria Derrubada por uma rodada."
+      }
+    ],
+    "registro": "abertura/lote-01/ALTERACOES.json (AB25, AB26, AB27) e revisao-interfaces/CORRECOES-APLICADAS.md (D43)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto da seção e das vizinhas: decisão do autor de 05/10/2026 (D43, TR obrigatório em Condição, Prende e Cerca). As frases novas usam só os nomes das peças e do TR registrado, citam Controle no Catálogo pelo nome quando a regra mora lá e não copiam o texto da peça. O conferir_editorial dá 0 achados no texto atual, sem exceção nova; títulos não mudaram. O restante do texto é idêntico e conserva a leitura anterior. As exceções de localização já registradas casam pelo trecho e continuam valendo; nenhuma dependia das linhas trocadas."
   }
 }

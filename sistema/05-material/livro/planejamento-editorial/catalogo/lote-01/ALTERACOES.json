@@ -1064,6 +1064,46 @@
       "depois": "Use as condições da seção **Condições, em Dano e recuperação**.",
       "motivo": "Correção localizada aprovada pela raiz após auditoria de remissões; mantém mecânica e valores.",
       "tipo": "editorial"
+    },
+    {
+      "id": "CAT-D43-01",
+      "nome": "Controle",
+      "tipo": "M",
+      "antes": "# Controle\n\n## Condição",
+      "depois": "# Controle\n\n**Condição, Prende e Cerca sempre pedem TR.** Numa ficha resolvida por TR, entram na falha desse TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; depois, cada alvo acertado faz o TR registrado na ficha para o Controle e só recebe essas peças se falhar. Um TR por alvo resolve as três peças da mesma ficha. O erro não pede TR.\n\n## Condição",
+      "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+    },
+    {
+      "id": "CAT-D43-02",
+      "nome": "Condição",
+      "tipo": "M",
+      "antes": "Pague seu nível: Leve, Média ou Pesada. Ela se aplica no acerto ou na falha do TR, dura **uma rodada**",
+      "depois": "Pague seu nível: Leve, Média ou Pesada. Ela se aplica **na falha do TR**, mesmo numa ficha de ataque, dura **uma rodada**",
+      "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+    },
+    {
+      "id": "CAT-D43-03",
+      "nome": "Condição Pesada",
+      "tipo": "M",
+      "antes": "encerrando aquela aplicação no sucesso, mesmo que tenha sido aplicada por ataque. Leves",
+      "depois": "encerrando aquela aplicação no sucesso. Leves",
+      "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+    },
+    {
+      "id": "CAT-D43-04",
+      "nome": "Cerca",
+      "tipo": "M",
+      "antes": "**Preço: Leve.** No acerto ou na falha do TR, o alvo não pode **se aproximar voluntariamente de você**",
+      "depois": "**Preço: Leve.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode **se aproximar voluntariamente de você**",
+      "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
+    },
+    {
+      "id": "CAT-D43-05",
+      "nome": "Prende",
+      "tipo": "M",
+      "antes": "**Preço: Média.** No acerto ou na falha do TR, o alvo não pode se deslocar voluntariamente",
+      "depois": "**Preço: Média.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode se deslocar voluntariamente",
+      "motivo": "Decisão do Mizuki em 05/10/2026 (D43, revisao-interfaces/CORRECOES-APLICADAS.md): Condição, Prende e Cerca sempre pedem TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Escopo escolhido por ele: a família Controle que aplica estado (\"Controle inteiro\"), sem Puxa, que é deslocamento forçado como o Empurrão e segue entrando no acerto. Antes, só uma Pesada tinha saída por TR quando aplicada por ataque, e Prende entrava no acerto quase como um Agarrado sem teste."
     }
   ],
   "prioridade": "Rascunhos A/B/C são snapshots. Ajustes R do principal e CATALOGO.md consolidado prevalecem; preservados antes/depois de todos os fechamentos."

@@ -582,6 +582,8 @@ Resultados
 Num feitiço ofensivo resolvido por TR, falhar aplica dano e efeitos nocivos. Passar evita os efeitos
 nocivos e recebe metade dos dados de dano, arredondada para baixo, salvo indicação específica. O teste
 de saída de uma condição Pesada continua existindo mesmo depois da falha inicial.
+Num feitiço de ataque, o acerto não basta para Condição, Prende e Cerca: o alvo acertado faz o TR
+registrado para o Controle e só recebe essas peças se falhar. Veja Controle, no Catálogo.
 Na criação, você pode trocar ataque por TR, ou o contrário, sem mudar pontos. São versões diferentes:
 cada uma ocupa seu espaço, ou substitui a anterior numa reescrita permitida. A troca não transforma
 Cura ou Apoio em ataque automático contra um inimigo.
@@ -721,8 +723,9 @@ Limite importante
 Segurar uma criatura no
 lugar.
 Prende, Média.
-O alvo pode gastar uma ação permitida
-pela peça para tentar escapar.
+Entra na falha do TR, mesmo num
+ataque. O alvo pode gastar uma ação
+permitida pela peça para tentar escapar.
 Criar uma parede.
 Anteparo, Média.
 Tem 10 × Classe de vida e dura 1 minuto;
@@ -737,9 +740,10 @@ Deslocamento de até 6 m rumo ao centro
 da área.
 Aplicar uma condição.
 Condição, no preço da condição.
-No máximo uma Pesada. Se for Pesada, o
-alvo repete TR no fim dos turnos para
-encerrá-la.
+Entra na falha do TR, mesmo num
+ataque. No máximo uma Pesada. Se for
+Pesada, o alvo repete TR no fim dos
+turnos para encerrá-la.
 Dano e duração
 Num feitiço comum que tenha uma Melhoria de Controle, os pontos gastos também podem reduzir o
 dano a ponto de reforçar o controle.

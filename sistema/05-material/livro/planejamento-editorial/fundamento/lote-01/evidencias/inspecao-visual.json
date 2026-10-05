@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "d0c4ffe270f8271f04d421c7e9cae9217b08f86850391cb33f73597b4f457645",
+  "sha256_pdf": "d9fda066121e5f52bcbbf6d0c6e1442137433c8dfbe8a295c4f0a50c116f80e2",
   "sha256_texto": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
   "metodo": "Comparação de todas as páginas a85dpi com PDF anterior inspecionado, seguida de abertura real por view_image de todas as diferenças. Evidências anteriores preservadas.",
   "paginas": [
@@ -77,9 +77,11 @@
     {
       "pagina": 11,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "ebfc28a15ce5bb5b97afb4fd5e99d62de2361a3f56f0ecafb798501edf77681d",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Resultados com o parágrafo de Condição, Prende e Cerca num ataque; Ação e duração inteira.",
+      "sha256_png": "e2b00255aea970738fcd78a6de1c2481c01ba7ef0b7ff704c730c5c4f1f72642",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+      "arquivo": null,
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 12,
@@ -98,9 +100,11 @@
     {
       "pagina": 14,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página final idêntica em pixels à prova já inspecionada; inspeção anterior preservada no histórico. Não se declara uma nova abertura desta página.",
-      "sha256_png": "5566d61a93025b032c1e524eb4eda80be8e853aabc7c52dd3761594a665437db",
-      "revisor": "Inspeção anterior conservada por equivalência de pixels"
+      "observacoes": "Tabela de Controle com a falha do TR em Prende e Condição; Rede de contenção inteira.",
+      "sha256_png": "66166a0fcafa5e40f9460154b2888d23117bb3e0d64a2cc48e420cf7e26956ea",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+      "arquivo": null,
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 15,
@@ -239,5 +243,16 @@
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_05_tr_controle": {
+    "sha256_pdf_anterior": "d0c4ffe270f8271f04d421c7e9cae9217b08f86850391cb33f73597b4f457645",
+    "sha256_pdf_atual": "d9fda066121e5f52bcbbf6d0c6e1442137433c8dfbe8a295c4f0a50c116f80e2",
+    "paginas_alteradas": [
+      11,
+      14
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-05-d43.json",
+    "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

@@ -135,7 +135,7 @@ Uma **condição** altera o que você consegue fazer enquanto durar. Registre se
 
 ## Aplicação e duração
 
-A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. **Use a duração escrita no efeito.** Uma condição criada pela Melhoria Condição dura uma rodada, salvo Concentrada, Duradoura ou outra regra específica. Quando o efeito disser apenas uma rodada, ele termina no começo do próximo turno de quem o aplicou.
+A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. A Melhoria Condição sempre pede TR: num feitiço de ataque, o alvo acertado ainda faz o TR registrado e só recebe a condição se falhar. **Use a duração escrita no efeito.** Uma condição criada pela Melhoria Condição dura uma rodada, salvo Concentrada, Duradoura ou outra regra específica. Quando o efeito disser apenas uma rodada, ele termina no começo do próximo turno de quem o aplicou.
 
 Uma manobra pode ter outra forma de término. O agarrão comum dura enquanto a contenção for mantida; ser derrubado não faz você se levantar sozinho quando a rodada muda.
 

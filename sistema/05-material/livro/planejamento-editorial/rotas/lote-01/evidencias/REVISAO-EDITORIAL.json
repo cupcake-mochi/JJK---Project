@@ -284,7 +284,7 @@
     "Revisão independente por outro agente-modelo.",
     "Teste com jogadores humanos não realizado."
   ],
-  "sha256_texto": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
+  "sha256_texto": "b1903bb79e8fe5342b0e5aff1da8928a09f2ce36a03cd862860430a292a9f9b4",
   "revisor": "Autor rotas_didatica e leitura independente integral do principal",
   "teste_humano": false,
   "revisao_delta": {
@@ -378,5 +378,28 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026 sobre os 18 achados restantes da revisão de interfaces (D25 a D41). Cada frase nova cita a seção dona pelo nome e não copia a regra de outro capítulo. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_05_tr_controle": {
+    "sha256_anterior": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
+    "sha256_atual": "b1903bb79e8fe5342b0e5aff1da8928a09f2ce36a03cd862860430a292a9f9b4",
+    "mudancas": [
+      {
+        "codigo": "R10-38",
+        "decisao": "D43",
+        "secao": "rota-fisga",
+        "antes": "No acerto, cause **3d8 de Cortante** e aplique Prende até o fim do próximo turno do alvo. Para as tentativas de saída, registre **TR Físico contra sua CD da Kata**.",
+        "depois": "No acerto, cause **3d8 de Cortante**, e o alvo faz **TR Físico contra sua CD da Kata**. Na falha, Prende vale até o fim do próximo turno dele. As tentativas de saída usam o mesmo TR."
+      },
+      {
+        "codigo": "R10-39",
+        "decisao": "D43",
+        "secao": "rota-fisga",
+        "antes": "Prende permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.",
+        "depois": "O acerto sozinho não prende: Prende entra na falha do TR. Depois, permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo."
+      }
+    ],
+    "registro": "rotas/lote-01/ALTERACOES.json (R10-38, R10-39) e revisao-interfaces/CORRECOES-APLICADAS.md (D43)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto da seção e das vizinhas: decisão do autor de 05/10/2026 (D43, TR obrigatório em Condição, Prende e Cerca). As frases novas usam só os nomes das peças e do TR registrado, citam Controle no Catálogo pelo nome quando a regra mora lá e não copiam o texto da peça. O conferir_editorial dá 0 achados no texto atual, sem exceção nova; títulos não mudaram. O restante do texto é idêntico e conserva a leitura anterior."
   }
 }
