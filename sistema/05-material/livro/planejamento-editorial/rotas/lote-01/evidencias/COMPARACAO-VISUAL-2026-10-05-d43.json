@@ -1,0 +1,11 @@
+{
+  "pdf_anterior": "1afd048909e1044652279e67861eedfea9e6b59d4f3a4ef4124d3a4e2d17b9e1",
+  "pdf_atual": "b1b0a895d5dfd78462d7001ba3c78f180e4aa3542f7dd30aee73c2d8b9b05d01",
+  "paginas_antes": 23,
+  "paginas": 23,
+  "alteradas": [
+    7
+  ],
+  "metodo": "pdftoppm a 60 dpi, comparação exata de pixels página a página contra o PDF do commit anterior; as alteradas foram abertas a 80 dpi e inspecionadas.",
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+}

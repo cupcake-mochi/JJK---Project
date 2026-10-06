@@ -1,7 +1,7 @@
 <!-- page:degraus|Expansão de Domínio -->
 # Expansão de Domínio
 
-Uma Expansão estabelece a Técnica Inata sobre uma área durante vários turnos. Seu domínio pode transformar o lugar em uma galeria, uma oficina ou uma sala de julgamento. A aparência acompanha as capacidades registradas; não cria ataques ou vantagens adicionais durante a abertura. Estas são as regras do Projeto - M para usar esse poder.
+Uma Expansão estabelece a Técnica Inata sobre uma área durante vários turnos. Seu domínio pode transformar o lugar em uma galeria, uma oficina ou uma sala de julgamento. A aparência acompanha as capacidades registradas; não cria ataques ou vantagens adicionais durante a abertura. Estas são as regras do Ciclo Maldito para usar esse poder.
 
 A montagem de Liberação e Técnica Máxima está em **Fundamento**. As rotas Sem Técnica e Técnica Marcial não recebem Expansão por terem acesso à progressão de Classes.
 

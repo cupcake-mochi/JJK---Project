@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
+  "sha256_texto": "cd913e9e54fcd1de862f2fc3a8bf55b301f51a8da06d9335735504f4b999c758",
   "conclusao": "Revisão anterior conservada; PRO35 acrescenta seção Patentes lida pela raiz. Prova14p e interfaces R03 em conferência.",
   "itens": [
     "Títulos identificam o assunto sem artigo inicial ou fórmula Como ler.",
@@ -325,5 +325,28 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisão do autor sobre a Expressão da técnica na rota Sem Técnica ou retirada de contas de projetista pedida por ele em 04/10/2026. Nenhuma frase nova além do passo 3 de Sem Técnica; as retiradas não deixam remissão órfã. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_anterior": "d4c18b67868f5d9977c1ffb105b13407f217736e272fe3f050fb7a8a90f5435a",
+    "sha256_atual": "cd913e9e54fcd1de862f2fc3a8bf55b301f51a8da06d9335735504f4b999c758",
+    "mudancas": [
+      {
+        "codigo": "PRO43",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "prog-guilda",
+        "antes": "Salário e recompensas por mestrar são **políticas opcionais da campanha**. A tabela oferece uma escala do Projeto M para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da obra ou do Japão real.",
+        "depois": "Salário e recompensas por mestrar são **políticas opcionais da campanha**. A tabela oferece uma escala do Ciclo Maldito para uma instituição que remunere seus integrantes. Ela não descreve salários oficiais da obra ou do Japão real."
+      },
+      {
+        "codigo": "PRO44",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "prog-patentes",
+        "antes": "A patente registra o reconhecimento do personagem pela instituição. O Projeto M usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha.",
+        "depois": "A patente registra o reconhecimento do personagem pela instituição. O Ciclo Maldito usa os Graus **4, 3, 2, 1 e Especial**, nessa ordem crescente. Ela pode influenciar responsabilidades, acesso a recursos e a remuneração adotada pela campanha."
+      }
+    ],
+    "registro": "progressao/lote-01/ALTERACOES.json (PRO43, PRO44)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto: só o nome do sistema mudou, de Projeto - M para Ciclo Maldito, com o mesmo gênero e o mesmo artigo. O conferir_editorial dá 0 achados no texto atual, sem exceção nova."
   }
 }

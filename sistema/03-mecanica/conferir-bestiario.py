@@ -9,13 +9,14 @@ degrau x o golpe-base; o inimigo age N vezes; e o que ele carrega se paga na vid
 O validador da escada (v0.198 a v0.281) esta no historico do git; a peca daquela
 escada, no arquivo morto.
 
-NENHUM VALOR DE REGRA ESTA ESCRITO AQUI. A tabela de inimigo vem do manual, as
+NENHUM VALOR DE REGRA ESTA ESCRITO AQUI. A tabela de inimigo vem do §3.0, as
 formulas da peca 1, a curva de refino da peca 11, a regua de condicao da peca 19,
 o orcamento do Pathfinder 2e das notas da pesquisa e da propria peca, e as rodadas
 da propria peca (decisao do Mizuki, 28/09/2026). A checagem 7 guarda essa promessa.
 
-As checagens 3, 5 e 9 leem o .docx do manual: sem o python-docx elas PULAM, e o
-rodape DIZ que pularam. Um verde que pulou checagem nao e um verde.
+As checagens 3, 5 e 9 leem a tabela `Inimigos` do §3.0 desta peca, que ate a
+v0.337 morava no manual do Fundamento v7. Se a tabela nao for lida, elas PULAM e o
+rodape DIZ que pularam — e a leitura falha alto antes.
 
 As checagens, na ordem:
   1   as ancoras da ficha, nos dois sentidos
@@ -43,6 +44,8 @@ import os
 import subprocess
 import re
 import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import livro
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(AQUI))
@@ -86,7 +89,6 @@ P22 = 'sistema/03-mecanica/22-pactos.md'
 P24 = 'sistema/03-mecanica/24-dano-de-alma.md'
 NOTAS = 'bestiario/09-fase-2/pesquisa/NOTAS-pesquisa-externa.md'
 CAPANGA_DONO = 'bestiario/04-fase-1/fila/DECIDIDO-o-capanga.md'
-DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
 
 TXT = ler(PECA)
 _NUM_PT = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5,
@@ -379,30 +381,28 @@ CATS = list(_DEG)
 CHEFES = [c for c in CATS if c != 'Capanga']
 _mb3 = re.search(r'trivial `(\d+)`, baixa `(\d+)`, moderada `(\d+)`, severa `(\d+)`, extrema `(\d+)`', TXT)
 _mn3 = re.search(r'Trivial (\d+) ou menos \(ajuste \d+\), Low (\d+) \(\d+\), Moderate (\d+) \(\d+\), Severe (\d+) \(\d+\), Extreme (\d+) \(\d+\)', ler(NOTAS))
+# v0.338: a tabela `Inimigos` e a prosa em volta dela moram no §3.0 desta peca. Ate a
+# v0.336 vinham do .docx do manual do Fundamento v7, e na v0.337 do gerador dele (partF.js);
+# o manual saiu de fonte no passo 5 da migracao, e os numeros nao mudaram.
 _MANUAL = {}
-_PROSA = []
-try:
-    import docx
-except ImportError:
-    docx = None
-if docx is not None and os.path.isfile(DOCX):
-    _doc = docx.Document(DOCX)
-    _PROSA = [_p.text for _p in _doc.paragraphs]
-    for _t in _doc.tables:
-        _cab = [c.text.strip() for c in _t.rows[0].cells]
-        if _cab and _cab[0].startswith('Nível do grupo') and 'Chefe: dano' in _cab:
-            for _r in _t.rows[1:]:
-                _v = [c.text.strip() for c in _r.cells]
-                _vd_ = _v[2].split(' a ')
+_S30 = TXT[TXT.find('### 3.0 A tabela `Inimigos`'):TXT.find('### 3.1 ')] if '### 3.0 A tabela `Inimigos`' in TXT else ''
+_PROSA = [l.strip() for l in _S30.split('\n') if l.strip() and not l.startswith(('|', '#'))]
 
-                def _n(x):
-                    try:
-                        return float(x)
-                    except ValueError:
-                        return None
-                _MANUAL[int(_v[0])] = (float(_v[1].replace('~', '')), (int(_vd_[0]) + int(_vd_[-1])) / 2,
-                                       float(_v[3]), _n(_v[4]), _n(_v[5]))
-            break
+
+def _n(x):
+    try:
+        return float(x)
+    except ValueError:
+        return None
+
+
+for _v in re.findall(r'^\| (\d+) \| (~\d+) \| ([\d a]+) \| (\d+) \| (\d+) \| (\d+) \|$', _S30, re.M):
+    _vd_ = _v[2].split(' a ')
+    _MANUAL[int(_v[0])] = (float(_v[1].replace('~', '')), (int(_vd_[0]) + int(_vd_[-1])) / 2,
+                           float(_v[3]), _n(_v[4]), _n(_v[5]))
+if len(_MANUAL) < 5 or not _PROSA:
+    erro(f'3: li {len(_MANUAL)} linha(s) e {len(_PROSA)} paragrafo(s) do §3.0 (a tabela `Inimigos`) — '
+         'ele mudou de forma, e as checagens que dependem da tabela vao pular')
 _mpct = re.search(r'O dano dele por rodada é (\d+)% da vida de um personagem', ' '.join(_PROSA))
 PCT = int(_mpct.group(1)) / 100 if _mpct else None
 R_DES = _DEG.get('Desastre', {}).get('rod')
@@ -454,8 +454,7 @@ else:
               'pressao, o golpe em % e a porta da Intervencao reconstroem')
 
 if not _MANUAL or PCT is None:
-    pulou('3. as fichas prontas contra a tabela do manual — sem python-docx '
-          '(pip install python-docx --break-system-packages)')
+    pulou('3. as fichas prontas contra a tabela `Inimigos` — o §3.0 nao foi lido')
 elif _DEG:
     print(f'  a tabela `Inimigos` do manual tem {len(_MANUAL)} linhas, de nv {min(_MANUAL)} a {max(_MANUAL)}.')
     _mau3b = 0
@@ -868,15 +867,16 @@ else:
               'luta com Expansao de cada degrau e as rodadas ÷ ele')
 
 # 7.1b os gates e o desvio de refino da sem barreiras
-PARTE = 'manual/gerador/partE.js'
-_E = ler(PARTE)
-_gc = re.search(r"\['Completa', '[^']*', 'nível (\d+) e refino (\d+)'", _E)
-_gs = re.search(r"\['Sem Barreiras', '[^']*', 'refino (\d+)", _E)
+# v0.338: os gates saem da tabela da Expansao no livro, capitulo de Poderes avancados (eram o
+# partE.js do manual v7)
+_E = livro.texto('poderes')
+_gc = re.search(r'^\| Completa \| \d+ \| [^|]*nível (\d+) e refino (\d+)', _E, re.M)
+_gs = re.search(r'^\| Sem Barreiras \| \d+ \| [^|]*refino (\d+)', _E, re.M)
 _gp = re.search(r'A completa abre no nível `(\d+)` com refino `(\d+)`, e a Expansão sem Barreiras pede refino `(\d+)`', TXT)
 _prot = re.search(r'a sua proteção é `1/(\d+) do refino \+ (\d+)`', _P11)
 _db = re.search(r'o nível `(\d+)` dá refino `(\d+)` e `(\d+)` rodadas de domínio, contra a luta mais longa com Expansão, a da `(\w+)`, de `([\d,]+)`', TXT)
 if not (_gc and _gs and _gp and _prot and _db and _marc and _mm and MULT_E and PP):
-    erro('7.1b: faltou dono — os gates do manual (partE.js), os da peca, a protecao da peca 11, a duracao no gate, '
+    erro('7.1b: faltou dono — os gates do livro (Poderes avancados), os da peca, a protecao da peca 11, a duracao no gate, '
          'a curva ou o multiplicador')
 else:
     _ruins = []
@@ -1052,7 +1052,10 @@ else:
             erro(f'9.1: a prosa da maior acao nao e a conta: {_top} com {_pt30:.1f} pontos')
             _mau91 += 1
         _mc = re.search(r'numa ação de `(\d+),(\d)` pontos a Classe é a `(\d+)`, e uma `Leve` custa `(\d+)`', TXT)
-        _cls = {int(x): int(y) for x, y in re.findall(r"H2\('Classe (\d+) · (\d+) pontos", ler('manual/gerador/partF.js'))}
+        # v0.338: os pontos de cada Classe saem da tabela de Classe do Fundamento do livro (eram
+        # os titulos dos Feitiços prontos do manual v7, que o livro nao publica)
+        _cls = {int(r['Classe']): int(r['Pontos / PE']) for r in
+                livro.tabela(livro.texto('fundamento'), 'Classe', 'Pontos / PE') if r['Classe'].isdigit()}
         if not (_mc and _cls):
             erro('9.1: a peca parou de dizer que o preco da Melhoria usa a maior Classe que cabe (v0.230)')
             _mau91 += 1
@@ -1294,7 +1297,8 @@ else:
 # circulo em quadrados, e o cone e os retangulos cabem na tolerancia declarada.
 bloco('9.6 A AREA NATURAL — a cobertura sai do nivel, e a forma e o jeito de gastar ela')
 _T96 = tabela(TXT, '| nível | cobre | `Esfera` | `Cone` |')
-_esc96 = re.search(r"\['Esfera \(raio\)', '([^']+)'\]", ler('manual/gerador/partC.js'))
+# v0.338: a escada de esfera sai do Fundamento do livro (era o partC.js do manual v7)
+_esc96 = re.search(r'^\| Raio de esfera \| ([^|]+) \|$', livro.texto('fundamento'), re.M)
 _mtol = re.search(r'o pior erro de arredondamento nas doze células é `([\d,]+)%`', TXT)
 if len(_T96) != 4 or not _esc96 or not _mtol or not _QUAD:
     erro('9.6: nao li a tabela da area natural, a escada de esfera do manual, a tolerancia ou o quadrado do §3.3')

@@ -1,5 +1,26 @@
 Continuidade pós-revisão — conferência de 04/10/2026
 
+ATUALIZAÇÃO DE 06/10/2026: NONA PASSADA — A EXECUÇÃO PREPARADA COM −2 (D44)
+A migração mediu a Execução Preparada (D42) pela régua do degrau do nível 7 da peça 06: valia até 0,12 fatia, contra 1,18 da Não Pega. O Mizuki decidiu: "Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema". Mudou um número no capítulo da Vanguarda (VG-REV-05). Registro em revisao-interfaces/CORRECOES-APLICADAS.md.
+PDF vigente: 382 páginas, SHA-256 0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30; corpo mudado só na página 90, aberta; cadeia visual sem lacuna.
+Branch desta passada: claude/upbeat-darwin-i4b311.
+
+ATUALIZAÇÃO DE 05/10/2026: OITAVA PASSADA — O NOME CICLO MALDITO (v0.334)
+O Mizuki mandou o livro final, Ciclo Maldito R28a (498 páginas), e decidiu que o nome vale no repositório inteiro. O R28a é a candidata de antes da D43 com outro nome e outra diagramação, sem regra diferente. A candidata passou a se chamar Ciclo Maldito no texto (dez capítulos), no cabeçalho e na capa; os nomes de arquivo ficam. Registro em revisao-interfaces/CORRECOES-APLICADAS.md.
+PDF vigente: 382 páginas, SHA-256 25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f; cabeçalho novo em todas as páginas e corpo mudado em 21, todas abertas; cadeia visual sem lacuna.
+Branch desta passada: claude/upbeat-darwin-i4b311.
+
+ATUALIZAÇÃO DE 05/10/2026: SÉTIMA PASSADA — CONDIÇÃO, PRENDE E CERCA PEDEM TR
+O Mizuki decidiu que a Melhoria Condição sempre pede TR, mesmo num feitiço de ataque, e estendeu a Prende e Cerca, que também entravam só no acerto (D43). Num ataque, o acerto aplica o dano e o alvo acertado faz o TR registrado para o Controle; só recebe as peças se falhar. Puxa fica de fora (deslocamento forçado, como o Empurrão). Mudaram Catálogo, Dano e recuperação, Fundamento, Abertura (Kaori, TR Físico contra CD 12) e Rotas (Iori). Registro em revisao-interfaces/CORRECOES-APLICADAS.md; para as peças, migracao-pos-candidata/PLANO.md.
+Achado no caminho: a v0.332 tinha deixado nove capítulos vermelhos (fontes preservadas mudadas sem cotejo); o cotejo foi registrado e as 23 unidades estão verdes.
+PDF vigente: 382 páginas, SHA-256 b5df8953eb9a597b1618d755ba6f9564affe2e11af04db4b8911115db07dc9bb; 11 páginas mudaram (43, 60, 61, 226, 227, 229 a 231, 247, 248 e 283), todas abertas; cadeia visual sem lacuna. ZIP refeito com o mesmo nome: SHA-256 d3b0d04363559e81e98bfe9b5884e248550682e9d9305234f56964f54f5a6c94, 1407 arquivos, PDF reproduzido idêntico.
+Branch desta passada: claude/upbeat-darwin-i4b311.
+
+ATUALIZAÇÃO DE 05/10/2026: SEXTA PASSADA — VANGUARDA 7
+O PR #2 foi mesclado na main (eac4442). O Mizuki notou que a Vanguarda era o único Caminho com uma habilidade só no nível 7 e escreveu a segunda: Execução Preparada (D42). Uma vez por Sequência, ao Concluir depois de duas ou mais Conduções acertadas, imponha −1 a um TR adicional da Conclusão. Registro em revisao-interfaces/CORRECOES-APLICADAS.md e, para a peça 06, em migracao-pos-candidata/PLANO.md, que avisa que o preço dela ainda não foi medido.
+PDF vigente: 382 páginas, SHA-256 c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea; 11 páginas mudaram (87 e 90 a 99), todas abertas; cadeia visual sem lacuna. ZIP refeito com o mesmo nome: SHA-256 bbc7000c770217ca7f0840b51edc22312b9f92d8727717a485c52d2e48712b72, 1391 arquivos, PDF reproduzido idêntico.
+Branch desta passada: claude/vigilant-curie-2j79zw.
+
 ATUALIZAÇÃO, MESMO DIA: QUINTA PASSADA — REVISÃO DE INTERFACES FECHADA
 O Mizuki decidiu os 18 achados restantes, aceitando a sugestão em todos (D25 a D41; na 9, a permissão do mestre pode conceder o acesso). Onze capítulos mudaram; antes, depois, motivo e efeito na mesa em revisao-interfaces/CORRECOES-APLICADAS.md, e o que precisa chegar às peças em migracao-pos-candidata/PLANO.md.
 PDF vigente: 382 páginas, SHA-256 4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1; 59 páginas mudaram, todas abertas; cadeia visual sem lacuna. ZIP refeito com o mesmo nome: SHA-256 bda1337af3ef6c965c5da8ac0981a1b424c7737be4c01c63c223abdb8171db54, 1389 arquivos, PDF reproduzido idêntico.

@@ -251,9 +251,9 @@ Você voltou a viver no corpo de outra pessoa. Traz lembranças de uma época an
 
 Você é uma criação que reúne natureza humana e amaldiçoada. Alguém participou deliberadamente da sua formação, e o motivo pode ter sido pesquisa, ambição ou uma tentativa de produzir algo que ainda não existia. O nome desta Origem descreve essa procedência. Seu personagem pode ter aparência e idade adulta.
 
-As Pinturas da Morte inspiram essa possibilidade no Projeto M. A campanha também pode apresentar outras criações. Os efeitos dos Legados são regras desta Origem, não características obrigatórias de todo ser parecido na obra.
+As Pinturas da Morte inspiram essa possibilidade no Ciclo Maldito. A campanha também pode apresentar outras criações. Os efeitos dos Legados são regras desta Origem, não características obrigatórias de todo ser parecido na obra.
 
-Para as regras do Projeto M, escolher Feto não classifica seu personagem como uma maldição. Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e recuperação normais, salvo uma exceção expressa da sua ficha.
+Para as regras do Ciclo Maldito, escolher Feto não classifica seu personagem como uma maldição. Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e recuperação normais, salvo uma exceção expressa da sua ficha.
 
 **Perícia da Origem:** escolha Ocultismo, Medicina, Sentir Energia ou Natureza. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica.
 
@@ -326,7 +326,7 @@ Você possui energia amaldiçoada, PE, Refino e aptidões. As regras de Técnica
 
 Escolha **uma configuração** entre Ninhada, Gêmeos, Inteiro e Manutenção. Ela ocupa seu Legado narrativo obrigatório e libera a lista de Legados de rolagem correspondente. Você não pode combinar duas configurações. Seu segundo Legado pode vir da lista liberada, ser Ferro Velho ou ser um Legado personalizado permitido pelas regras de criação.
 
-Panda é uma referência de corpo construído com consciência. As quatro configurações abaixo oferecem possibilidades de personagem do Projeto M. Elas não representam quatro métodos comprovados de fabricação na obra.
+Panda é uma referência de corpo construído com consciência. As quatro configurações abaixo oferecem possibilidades de personagem do Ciclo Maldito. Elas não representam quatro métodos comprovados de fabricação na obra.
 
 ## Corpo construído
 

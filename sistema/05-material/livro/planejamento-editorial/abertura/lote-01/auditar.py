@@ -65,7 +65,11 @@ check('dados-feitico', 4+5+5==14 and 'saem 4, 5 e 5' in S)
 check('alcance', 'a **1,5 m da maldição**' in S)
 check('movimento', 9-3==6 and 'Ainda teria 6 m disponíveis' in S)
 check('recursos-finais', 23-5==18 and 8-3==5 and '**18 PV e 5 PE**' in S)
-check('efeito-sobrevivente', 'aplicar Derrubado e sua duração' in S)
+# D43: Condição pede TR mesmo num ataque. A CD sai dos atributos da Kaori, não do texto.
+cd_kaori = 8 + kaori['F'] + kaori['M']
+check('efeito-sobrevivente', f'faria o TR Físico contra CD {cd_kaori} e, na falha, ficaria Derrubada' in S)
+check('condicao-pede-tr', f'No acerto, causa **3d8 de Concussão**, e o alvo faz **TR Físico contra CD {cd_kaori}**. Na falha, fica **Derrubado por uma rodada**.' in S
+      and 'aplica **Derrubado' not in S)
 check('sem-restauro-fim-combate', 'não devolve automaticamente' in S)
 check('sem-copia-habilidades', all(x not in S for x in ['## Olhos Em Mim','## Alicerce','## Movimento Acrobático']))
 check('ponto-virgula', ';' not in S)

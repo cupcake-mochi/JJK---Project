@@ -408,7 +408,7 @@ E ele encaixa numa coisa que o sistema já tinha: **a patente sobe por feito.** 
 
 **A trava que ele precisa.** *"O mestre decide o que é um feito"* não atravessa sete mesas. A lista precisa ser fechada, no molde do ambiente propício: **entradas escritas, e a palavra final do mestre em cima delas** — nunca do zero.
 
-### 7.1 As oito, e a lista é fechada
+### 7.1 As sete, e a lista é fechada
 
 *Escrita na v0.172.* **O mestre da mesa tem a palavra final sobre se uma delas aconteceu — e não sobre quais são.**
 
@@ -421,7 +421,9 @@ E ele encaixa numa coisa que o sistema já tinha: **a patente sobe por feito.** 
 | **5** | voltar do estágio 4 de dano de alma | os quatro estágios são tabela, na peça 24 §4 |
 | **6** | cumprir uma `Promessa` até o fim, pagando a sua metade | os três termos ficam escritos quando ela fecha, na peça 22 §5.1 |
 | **7** | trazer para a Guilda uma ferramenta de grau 1 ou especial | a escada de grau da ferramenta é a peça 16 §3, e a ficha registra qual |
-| **8** | terminar a missão depois de outro personagem jogador chegar ao estágio 4 | o mesmo estágio da peça 24 §4, lido na ficha do outro e não na sua |
+| ~~8~~ | ~~terminar a missão depois de outro personagem jogador chegar ao estágio 4~~ | *saiu na v0.337 — ver abaixo* |
+
+> ***v0.337: eram oito, e o oitavo saiu.*** *Decisão do Mizuki de 04/10/2026, na terceira passada da revisão de interfaces (PRO38, D05 a D17): o feito de terminar a missão depois de outro jogador chegar ao estágio 4 dependia de outra ficha cair, e a revisão do dano na alma (DR13) ficou travada junto com o Morrendo.* **A candidata publica sete, e esta lista acompanha.** *O texto dos outros parágrafos desta seção conta "as oito" porque foi escrito com elas; a regra é a tabela.*
 
 **Um feito basta, e ele destranca uma vez.** *Quem acumulou XP parado no 20 sobe de uma vez até o acumulado acabar, pela regra do §3.1 — o feito abre a porta, e não paga XP.*
 
@@ -467,9 +469,23 @@ Uma faixa e não um número, porque as duas pontas existem: uma missão perdida 
 
 **O desconto semanal é do jogador, não da mesa.** Numa missão com quatro pessoas, uma pode estar na primeira semana dela e outra na quarta. Cada um aplica o seu.
 
+## 9.1 O que a candidata escreveu e esta peça deixava em aberto — v0.337
+
+*Migração da Progressão do livro reconstruído (passo 5 do `PLANO.md`).* **Nenhum número desta peça mudou**: *a curva, o limiar, as duas primeiras da semana e o salário são os mesmos.* **O que a candidata fez foi fechar as perguntas que a mesa faria:**
+
+- **Um avanço por encerramento de missão, mesmo depois do feito** (PRO04). *O feito abre a porta do 20, mas não paga dois níveis de uma vez na mesma missão.*
+- **Recompensa positiva paga pelo menos `1` XP**; *a recompensa zerada de propósito continua `0`* (PRO06).
+- **A semana vira no dia e horário que a campanha fixa**, *e a missão conta na semana em que é concluída, uma vez só, por mais sessões que tenha* (PRO07). **Missão concluída ocupa posição na semana mesmo com `0` XP** (PRO09).
+- **A campanha define quando acaba a etapa introdutória**, *e a curva começa no nível 2* (PRO12).
+- **Subir de nível soma ao saldo só o aumento do máximo**, *calculado com a ficha de antes da troca de Trilha.* **Quem está com `0` de vida não levanta por isso**, *e com `0` de PE recebe a diferença.* **Subir de nível não é descanso** e não devolve usos (PRO18, PRO33).
+- **A troca de Trilha nos níveis 11, 19 e 27 é feita entre missões**, *e a Trilha nova vale desde a base* (PRO20, peça 6).
+- **Perder a permissão de uma Trilha** obriga a ajustar só as partes afetadas, de graça; *custos pagos e ferimentos ficam* (PRO21). **Quem perde a duplicação de entidade** passa a pagar uma vaga por entidade, *e o que sobrar fica registrado e indisponível* (PRO22); **recuperar uma escolha suspensa** pede vaga livre ou uma revisão permitida (PRO23).
+- **O salário por participação** paga no mínimo um quarto da referência, *mais três quartos proporcionais às participações, até o total; a patente que vale é a do fechamento do mês* (PRO29). **A guilda define quantas participações fecham o mês**, *e a candidata recomenda três: missão curta ou padrão conta uma, longa duas, final de arco três.*
+- **O feito 8 saiu** (PRO38, §7.1). *E o corpo suspenso de uma Trilha de invocação volta quando abre vaga* (PRO37), *que é regra de Invocações (peça 15, cabeçalho).*
+
 ## 10. Em aberto
 
-- ~~**A lista de feitos do limiar do nível 20.**~~ **Fechada na v0.172: são as oito do §7.1**, e o filtro que as escolheu é o da peça 10.
+- ~~**A lista de feitos do limiar do nível 20.**~~ **Fechada na v0.172 com oito, e com sete desde a v0.337 (§7.1)**, e o filtro que as escolheu é o da peça 10.
 - ~~**A forma da conversão de mestragem** — um bônus por marca, sem virar pagamento por mesa.~~ **Fechada na v0.172: é o §6.2**, uma mensalidade do seu Grau a cada vinte mesas mestradas.
 - ~~**A curva é rápida demais para a cadência que a Guilda joga.**~~ **Represada na v0.196: a base foi de `1` para `3` missões e o passo de `+1` a cada três para `+2`**, e o §3.0 tem a derivação dos cinco números.
 - **Se dois mestres pagam parecido pela mesma falha.** Marcado para o playtest.

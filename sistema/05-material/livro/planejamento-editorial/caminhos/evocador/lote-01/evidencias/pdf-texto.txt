@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -52,7 +52,7 @@ Especial Combinada.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -87,7 +87,7 @@ primeiro ponto. Começar a luta com criaturas já manifestadas não concede pont
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -118,7 +118,7 @@ saldo de 3 m nessa rodada: aquele benefício já ficou vinculado à ave.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -149,7 +149,7 @@ ofensivo da rodada.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -182,7 +182,7 @@ Conserve os usos já marcados no conjunto.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -209,7 +209,7 @@ novos. Uma movimentação forçada do inimigo não abre essa janela.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -239,7 +239,7 @@ continua sujeito às regras de seu tipo.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -275,7 +275,7 @@ habilidade, Proteção precisa ser o principal.
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -314,7 +314,7 @@ Intervenção Eficiente para usar Corrigir uma Falha por zero. A repetição seg
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -351,7 +351,7 @@ são cobrados quando cada execução começa.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -394,7 +394,7 @@ básicas participantes.
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -426,7 +426,7 @@ continuam nos níveis 2, 11, 19 e 27.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -459,7 +459,7 @@ Aprimoramento, recebe os dois benefícios com o prazo anterior, mantendo todos o
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -519,7 +519,7 @@ quando for usada.
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -562,7 +562,7 @@ usos compartilhados dos aprimoramentos e intervenções continuam marcados.
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -604,7 +604,7 @@ pagas pelos Pontos de Vínculo disponíveis, respeitando seus usos próprios.
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -643,7 +643,7 @@ de capacidades e talentos seguem o construtor.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
@@ -686,7 +686,7 @@ adicional e usa a coletiva. A básica já utilizada permanece gasta.
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
@@ -719,7 +719,7 @@ compatível com essa resposta.
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20
@@ -754,7 +754,7 @@ conservando a mesma tentativa. A correção da rodada fica utilizada pelo conjun
 
 
 PÁGINA 21
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 21
@@ -781,7 +781,7 @@ um acerto são resolvidos normalmente.
 
 
 PÁGINA 22
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 22
@@ -818,7 +818,7 @@ básica normal.
 
 
 PÁGINA 23
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 23
@@ -869,7 +869,7 @@ por combate pertence ao conjunto, mesmo que a beneficiária seja substituída.
 
 
 PÁGINA 24
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 24
@@ -915,7 +915,7 @@ Registre a escolha e as capacidades que respeitem a definição da entidade.
 
 
 PÁGINA 25
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 25
@@ -948,7 +948,7 @@ não mistura entrada, substituição e recolhimento numa única Bônus.
 
 
 PÁGINA 26
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 26
@@ -976,7 +976,7 @@ concede novas duplas a vagas posteriores.
 
 
 PÁGINA 27
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 27
@@ -1008,7 +1008,7 @@ escolhido. A intervenção usa sua única Reação coletiva disponível.
 
 
 PÁGINA 28
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 28
@@ -1039,7 +1039,7 @@ dos dados o ataque ou TR favorecido.
 
 
 PÁGINA 29
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 29
@@ -1063,7 +1063,7 @@ portador.
 
 
 PÁGINA 30
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 30
@@ -1099,7 +1099,7 @@ tentativa posterior. Os usos ofensivos dos aprimoramentos continuam compartilhad
 
 
 PÁGINA 31
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 31
@@ -1139,7 +1139,7 @@ composição. Sua Bônus permanece disponível para outra utilização permitida
 
 
 PÁGINA 32
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 32
@@ -1179,7 +1179,7 @@ comandada, os usos compartilhados e a exceção de Especial Combinada do nível 
 
 
 PÁGINA 33
-PROJETO - M
+CICLO MALDITO
 EVOCADOR
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 33

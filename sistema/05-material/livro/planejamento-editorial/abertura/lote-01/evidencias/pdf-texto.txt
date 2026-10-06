@@ -1,17 +1,17 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
-Projeto - M
+Ciclo Maldito
 Um RPG de mesa no universo de Jujutsu Kaisen.
 Crie um personagem, desenvolva suas capacidades e participe de missões com outros jogadores. Seu
 grupo pode investigar desaparecimentos, proteger alguém perseguido por uma maldição ou recuperar
 um objeto perigoso antes que caia nas mãos erradas. Ao longo dessas aventuras, as escolhas do
 personagem, seus companheiros e seus inimigos passam a fazer parte de uma história própria.
-Projeto - M oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar outras
-formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que sabe.
-Uma mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar,
+Ciclo Maldito oferece regras para criar técnicas, lutar com armas, comandar invocações e explorar
+outras formas de enfrentar o sobrenatural. Você decide quem é seu personagem e como ele usa o que
+sabe. Uma mesma técnica pode sustentar aplicações diferentes: fios podem cortar, prender ou puxar,
 conforme os efeitos que você construir para eles.
 Jogadores e mestre
 Cada jogador interpreta um personagem. Você descreve o que ele diz e tenta fazer, escolhe suas ações e
@@ -32,12 +32,12 @@ permanecer registrados. A organização informa quais personagens podem particip
 como registrar os resultados.
 Guilda é uma forma de organizar o jogo. A instituição a que os personagens pertencem dentro da
 história pode ser uma escola, um grupo independente ou outra organização definida pela campanha.
-Projeto - M é um material de fã baseado na obra de Gege Akutami. Suas regras, personagens de exemplo e
-missões são criações para este jogo. As escolhas de adaptação estão reunidas em Referências e adaptação.
+Ciclo Maldito é um material de fã baseado na obra de Gege Akutami. Suas regras, personagens de exemplo
+e missões são criações para este jogo. As escolhas de adaptação estão reunidas em Referências e adaptação.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -69,7 +69,7 @@ deles.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -92,7 +92,7 @@ alterar uma propriedade daquilo que alcança. Entender esse funcionamento ajuda 
 e a reconhecer seus limites.
 No jogo, você descreve sua técnica e monta suas aplicações usando o Fundamento. Chamamos cada
 aplicação preparada de feitiço. Pontos de energia, Classes, espaços conhecidos e demais valores são
-regras do Projeto - M para organizar seu uso na mesa.
+regras do Ciclo Maldito para organizar seu uso na mesa.
 Ver e perceber
 Pessoas comuns normalmente não veem maldições. A obra apresenta circunstâncias e personagens que
 fogem desse padrão. Para jogar, confira as capacidades da sua ficha e os procedimentos de Percepção e
@@ -103,7 +103,7 @@ por testemunhas, marcas no lugar e informações recolhidas durante a missão.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -122,10 +122,10 @@ Pessoas e poderes
 O universo inclui estudantes que aprendem a lidar com seu poder, profissionais experientes, pessoas
 ligadas a objetos amaldiçoados e corpos criados por jujutsu. Capacidades físicas, ferramentas e
 conhecimentos também podem ter grande importância numa luta.
-As Origens do Projeto - M organizam essas possibilidades para a criação de personagens. São categorias
-do sistema, com escolhas próprias. O grupo define quais estão disponíveis e como elas participam da
-campanha. Sua ficha informa as capacidades que você possui, mesmo quando sua história menciona
-mais de uma dessas possibilidades.
+As Origens do Ciclo Maldito organizam essas possibilidades para a criação de personagens. São
+categorias do sistema, com escolhas próprias. O grupo define quais estão disponíveis e como elas
+participam da campanha. Sua ficha informa as capacidades que você possui, mesmo quando sua história
+menciona mais de uma dessas possibilidades.
 Campanha própria
 Vocês podem jogar numa época e num lugar escolhidos pelo grupo, com missões e personagens
 próprios. Definam antes de começar quanto a história depende dos acontecimentos do mangá e do
@@ -137,7 +137,7 @@ são objetivos que podem exigir abordagens diferentes.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -167,7 +167,7 @@ atributo em 1. Nenhum pode começar abaixo de 0 ou acima de 3. Um valor 0 é per
 Os atributos representam capacidades distintas. Força participa do esforço físico. Destreza, da precisão
 e dos movimentos. Constituição, da resistência corporal. Inteligência, do raciocínio e do conhecimento.
 Essência, da presença e da relação com energia amaldiçoada. As regras de cada teste indicam qual usar.
-Em Projeto - M, o número anotado já é o valor somado quando uma regra pede o atributo. Força 3
+Em Ciclo Maldito, o número anotado já é o valor somado quando uma regra pede o atributo. Força 3
 fornece +3, sem uma conversão adicional.
 Exemplo: Kaori recebe Força 3, Destreza 2, Constituição 2, Inteligência 1 e Essência 1. A soma é 9. Ela será
 forte e resistente desde o começo, conservando alguma capacidade nos demais atributos.
@@ -176,7 +176,7 @@ concluí-la. Aumentos posteriores de atributo seguem Progressão.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -208,7 +208,7 @@ Use as escolhas da criação para representar o que o personagem aprendeu.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -248,7 +248,7 @@ escolhido o que pretende seguir.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -288,7 +288,7 @@ capacidades próprias devem ficar anotadas para que outros mestres possam aplic�
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -324,7 +324,7 @@ perícias e TR. Compare cada total com suas escolhas antes de começar a missão
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -362,17 +362,18 @@ fala de algo importante. É uma manifestação visual. Alterar o peso de um obje
 para a cena exige uma aplicação capaz de fazê-lo.
 Peso nas Mãos
 Classe 1 · Ação Padrão · 3 PE · Toque, até 1,5 m. Kaori precisa cumprir seu Selo e encostar as duas mãos
-no alvo. Faça seu ataque de técnica contra a Defesa. No acerto, causa 3d8 de Concussão e aplica
-Derrubado por uma rodada. No erro, o PE e a ação continuam gastos.
+no alvo. Faça seu ataque de técnica contra a Defesa. No acerto, causa 3d8 de Concussão, e o alvo faz TR
+Físico contra CD 12. Na falha, fica Derrubado por uma rodada. No erro, o PE e a ação continuam
+gastos.
 A montagem tem 3 pontos, recebe 1 pela limitação de Corpo a Corpo da Forma Toque e paga 1 por
-Condição: Derrubado. Sobram 3 dados. O feitiço não soma o dano de um soco nem Força ao resultado
-dos d8.
+Condição: Derrubado, com TR Físico registrado para ela. Sobram 3 dados. O feitiço não soma o dano de
+um soco nem Força ao resultado dos d8.
 Essa ficha demonstra uma aplicação da técnica. As habilidades da Origem, do Caminho e da Trilha
 continuam com suas regras próprias. O exemplo usa somente a conjuração acima e a Defesa indicada.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -411,7 +412,7 @@ criatura.
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -438,12 +439,12 @@ Kaori termina esta sequência com 18 PV e 5 PE. O fim do combate não devolve au
 recursos gastos. A equipe ainda precisa tirar a funcionária do prédio e conferir se há outras pessoas em
 risco.
 Os resultados acima mostram uma sequência possível. Se o ataque de Kaori errasse, ela continuaria
-tendo gasto a ação e o PE. Se a criatura sobrevivesse ao acerto, seria necessário aplicar Derrubado e sua
-duração. As decisões seguintes dependeriam do que restasse na cena.
+tendo gasto a ação e o PE. Se a criatura sobrevivesse ao acerto, faria o TR Físico contra CD 12 e, na
+falha, ficaria Derrubada por uma rodada. As decisões seguintes dependeriam do que restasse na cena.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 ABERTURA E CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13

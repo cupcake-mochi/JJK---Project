@@ -38,7 +38,7 @@ Um dado de arma maior — 1d10 no lugar de 1d6 — rende cerca de **+2 por golpe
 
 Este é o achado da peça, e ele muda o desenho.
 
-O Fundamento tem uma coluna chamada **Rotina**: o dano por rodada que um personagem deveria estar entregando em cada faixa. E o manual já avisa, numa nota de rodapé, que *"se a sua mesa tem uma classe que bate em vez de conjurar, o dano dela por rodada precisa ficar na coluna Rotina"*.
+O Fundamento tem uma coluna chamada **Rotina**: o dano por rodada que um personagem deveria estar entregando em cada faixa. *(A tabela dela mora no §2.1 desde a v0.338.)* E o manual já avisa, numa nota de rodapé, que *"se a sua mesa tem uma classe que bate em vez de conjurar, o dano dela por rodada precisa ficar na coluna Rotina"*.
 
 Rodando a conta:
 
@@ -52,6 +52,26 @@ Rodando a conta:
 **Uma arma entrega entre 11% e 65% do que a coluna pede, e a diferença cresce.** Não é escolha de dado: trocar d6 por d12 muda três pontos numa lacuna de cem. Falta uma ordem de grandeza inteira.
 
 Nenhuma quantidade de requisito de Força, nenhuma tabela de arma e nenhum ajuste de dado conserta isso. O combatente físico precisa de outra coisa.
+
+## 2.1 A curva — a Rotina e as colunas vizinhas
+
+*Até a v0.337 esta tabela morava na seção `Para o mestre` do manual do Fundamento v7, e o projeto inteiro a tratava como a régua: a Rotina é a definição de "quanto dano por rodada é normal".* **O livro reconstruído não a publica, e o manual foi aposentado como fonte no passo 5 da migração; ela mudou para cá na v0.338, sem mudar número nenhum**, *porque é esta peça que a usa para dizer o que falta à arma.* *O texto embaixo dela é o do manual.*
+
+| Nível | Classe | Rotina | Feitiço num alvo | Somando alvos | Liberação | Téc. Máxima |
+|---|---|---|---|---|---|---|
+| 1 a 4 | 1 | 3d8 = 13 | 3d8 = 13 | 4d8 = 18 | — | — |
+| 5 a 8 | 2 | 6d8 + 1d8 = 31 | 6d8 = 27 | 8d8 = 36 | — | — |
+| 9 a 12 | 3 | 9d8 + 1d8 = 45 | 9d8 = 40 | 12d8 = 54 | 12d8 = 54 | — |
+| 13 a 16 | 4 | 12d8 + 2d8 = 63 | 12d8 = 54 | 16d8 = 72 | 16d8 = 72 | — |
+| 17 a 20 | 5 | 15d8 + 2d8 = 76 | 15d8 = 67 | 20d8 = 90 | 20d8 = 90 | 24d8 = 108 |
+| 21 a 25 | 6 | 18d8 + 3d8 = 94 | 18d8 = 81 | 24d8 = 108 | 24d8 = 108 | 28d8 = 126 |
+| 26 a 30 | 7 | 21d8 + 3d8 = 108 | 21d8 = 94 | 28d8 = 126 | 28d8 = 126 | 32d8 = 144 |
+
+As colunas saíram de rodar todas as combinações que o sistema permite. **Feitiço num alvo** para nos pontos da Classe. **Somando alvos** é o teto de 4 × Classe, alcançado espalhando o dano com Salto, Rajada, Mais Um ou Queima. **Liberação** entrega o teto inteiro num alvo só, e cada personagem tem no máximo três delas escritas.
+
+A única peça que empurra um feitiço comum acima dos pontos da Classe contra um alvo é **Remate**, que soma 25% contra alvo abaixo de metade da vida. No Classe 5 isso leva 15d8 de 67 pra 84, ainda abaixo dos 90 da Liberação, e só contra alvo já ferido.
+
+Se a sua mesa tem um tipo de personagem que bate em vez de conjurar, o dano dele por rodada precisa ficar na coluna Rotina, e ele não deve ter Liberação Máxima.
 
 ## 3. Canalizar Energia
 
@@ -128,7 +148,7 @@ O motivo da primeira é o pilar 1: a técnica é a identidade. Se o Caminho dess
 - **Aumento de Classe de feitiço.**
 - **Melhoria de graça.**
 - **Cura**, que é Forma de feitiço — quem fechou a Família Amparo nunca vai curar, e nenhum Caminho contorna isso.
-- **Redução de Dano passiva.** Resistência a um tipo, sim; desconto em tudo, não. *É a regra do manual que matou a Passiva Casca na v0.26, e ela nunca tinha sido escrita nesta peça — a v0.70 furou ela desenhando uma reação de RD para aliados antes de alguém notar.*
+- **Redução de Dano passiva.** Resistência a um tipo, sim; desconto em tudo, não. *É a regra do manual que matou o Talento Casca na v0.26, e ela nunca tinha sido escrita nesta peça — a v0.70 furou ela desenhando uma reação de RD para aliados antes de alguém notar.*
 - **Refino dentro de uma rolagem** — acerto, CD, Defesa, Teste de Resistência ou dano. Ele cresce `+7` a `+9` na campanha contra os `+3` de quem está do outro lado, e não existe número que conserte isso. *Fora da rolagem ele continua valendo: custo, frequência, escopo e disputa contra outro refino são a peça 11 e não mudam aqui.* **A métrica do Caminho é a maestria**, que cresce `+3`.
 
 ### As exceções declaradas, e o que só parece furar

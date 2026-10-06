@@ -19,7 +19,7 @@
 | a curva de refino das três rotas | `03-mecanica/11-aptidoes-e-refino.md` §3 — *veio do `arquitetura.md` na v0.104* |
 | degrau de Caminho | a coleção v0.4, em `caminhos/` — *era o `DESENHO-caminhos.md` até a v0.269* |
 | entrega de Trilha | a coleção v0.4, em `caminhos/` — *idem* |
-| Classe de feitiço, Classe de Passiva, Classe 0, Liberação e Técnica Máxima | manual, §9 |
+| Classe de feitiço, Categoria de Efeito de Talento, Classe 0, Liberação e Técnica Máxima | o livro reconstruído, capítulo de Progressão — *era o manual do Fundamento v7, §9, até a v0.336* |
 | XP para subir | peça 12 §3 |
 | **tamanho da lista de feitiços** | **ninguém, até esta peça** |
 
@@ -33,21 +33,21 @@
 
 **Um personagem começa no nível 2.** *O nível 1 fica como opção de campanha — o personagem antes de ser feiticeiro.*
 
-| nível | XP | maestria | espaços | refino | Classe | Passiva | Classe 0 | o que acontece |
+| nível | XP | maestria | espaços | refino | Classe | Talento | Classe 0 | o que acontece |
 |---|---|---|---|---|---|---|---|---|
-| **1** | — | 1 | 2 | 1 | 1 | 1 | 2 | **Fundamento**, Passiva Livre, dois feitiços de Classe 0 |
+| **1** | — | 1 | 2 | 1 | 1 | 1 | 2 | **Fundamento**, Expressão da técnica, dois feitiços de Classe 0 |
 | **2** | 200 | 1 | 3 | 1 | 1 | 1 | 2 | degrau de **Caminho** · entrega de **Trilha** |
 | 3 | 300 | 1 | 3 | 1 | 1 | 1 | 2 | — |
 | 4 | 300 | 1 | 4 | 1 | 1 | 1 | 2 | — |
 | **5** | 500 | 1 | 4 | 1 | 2 | 1 | 3 | Classe 2 · mais um Classe 0 |
 | **6** | 500 | 1 | 6 | 2 | 2 | 1 | 3 | **marco** |
-| **7** | 500 | 1 | 6 | 2 | 2 | 2 | 3 | degrau de **Caminho** · libera Passiva de Classe 2 |
+| **7** | 500 | 1 | 6 | 2 | 2 | 2 | 3 | degrau de **Caminho** · libera Talento de Categoria de Efeito 2 |
 | 8 | 700 | 1 | 7 | 2 | 2 | 2 | 3 | — |
 | **9** | 700 | 1 | 7 | 2 | 3 | 2 | 3 | Classe 3 |
 | **10** | 700 | 2 | 9 | 3 | 3 | 2 | 3 | **marco** · **1ª Liberação Máxima** |
 | **11** | 900 | 2 | 9 | 3 | 3 | 2 | 4 | entrega de **Trilha** · mais um Classe 0 |
 | 12 | 900 | 2 | 10 | 3 | 3 | 2 | 4 | — |
-| **13** | 900 | 2 | 10 | 3 | 4 | 3 | 4 | Classe 4 · libera Passiva de Classe 3 |
+| **13** | 900 | 2 | 10 | 3 | 4 | 3 | 4 | Classe 4 · libera Talento de Categoria de Efeito 3 |
 | **14** | 1.100 | 2 | 12 | 4 | 4 | 3 | 4 | **marco** |
 | **15** | 1.100 | 2 | 12 | 4 | 4 | 3 | 4 | degrau de **Caminho** |
 | 16 | 1.100 | 2 | 13 | 4 | 4 | 3 | 4 | — |
@@ -73,10 +73,10 @@
 ## 3. Como ler cada coluna
 
 - **XP** é o que custa **sair** deste nível, e ele é o mesmo dentro de cada faixa de dois níveis. *Uma missão padrão paga 100, e o nível 2, o 3 e a faixa do 24 ao 29 são as exceções de tamanho.* O nível 30 é o topo e não tem custo.
-- **espaços** é o tamanho da sua lista de feitiços conhecidos. **Passiva é paga com espaço, e a Expansão de Domínio também; Liberação Máxima não ocupa.**
+- **espaços** é o tamanho da sua lista de feitiços conhecidos. **Talento é pago com espaço, e a Expansão de Domínio também; Liberação Máxima não ocupa.**
 - **refino** é a **linha passiva** — o que todo mundo tem sem escolher nada. Quem escolhe Refino no marco tem mais que isso, e o teto é 10.
 - **Classe** é a maior Classe de feitiço que você consegue montar. **Classe 0** é quantos feitiços grátis você carrega.
-- **Passiva** é a maior Classe de Passiva que já abriu para você.
+- **Talento** é a maior Categoria de Efeito de Talento que já abriu para você.
 
 ---
 
@@ -88,7 +88,7 @@
 
 *A parte de baixo — `2 + nível ÷ 2` — dá um feitiço novo a cada nível par, e é por isso que catorze dos vinte e nove níveis não entregam nada: são todos os ímpares, e a Trilha e o Caminho caem em cima de níveis pares que já tinham feitiço.*
 
-**A parte de cima é a linha passiva do marco**, que existe porque Passiva e Expansão de Domínio comem espaço. *Sem ela, cinco Passivas de Classe 3 mais Expansão completa eram impossíveis em qualquer nível — dezoito espaços numa ficha de dezesseis.*
+**A parte de cima é a linha passiva do marco**, que existe porque Talento e Expansão de Domínio comem espaço. *Sem ela, cinco Talentos de Categoria de Efeito 3 mais Expansão completa eram impossíveis em qualquer nível — dezoito espaços numa ficha de dezesseis.*
 
 ### Por que ela nasce aqui, e não em outro lugar
 
@@ -96,7 +96,7 @@
 
 **E o sistema em volta não pegou.** *A fórmula foi parar dentro do `conferir-aptidoes.py` e do `conferir-expansao.py`, os dois com a mesma linha escrita à mão* — e a regra do projeto é que **nada de valor fica escrito dentro do validador**.
 
-**Os dois passam a ler daqui.** *A tabela da peça 11 §3 que mede quanto espaço sobra para Passiva e Expansão reconstrói sem mexer em nada: `12` no nível 14, `16` no 20, `21` no 26 e `24` no 30.*
+**Os dois passam a ler daqui.** *A tabela da peça 11 §3 que mede quanto espaço sobra para Talento e Expansão reconstrói sem mexer em nada: `12` no nível 14, `16` no 20, `21` no 26 e `24` no 30.*
 
 ---
 
@@ -131,10 +131,10 @@
 | **maestria** | peça 1 §2 |
 | **espaços** | **esta peça, §4** |
 | **refino** e o calendário de marcos | peça 11 §3 |
-| **Classe**, **Passiva**, **Classe 0**, Liberação Máxima e Técnica Máxima | manual, §9 |
+| **Classe**, **Talento**, **Classe 0**, Liberação Máxima e Técnica Máxima | o livro reconstruído, capítulo de Progressão (as duas tabelas de nível e a prosa embaixo delas) |
 | degrau de **Caminho** e entrega de **Trilha** | os quadros de nível da coleção v0.4, em `caminhos/` — *o degrau do nível 23 entrou por ela na v0.270* |
 
-> **O validador lê o manual, então ele PULA sem o `python-docx` — e diz que pulou.** *Sem a biblioteca, as colunas de Classe, Passiva e Classe 0 não são conferidas contra ninguém, e o rodapé imprime `OK, mas N checagem(ns) PULARAM` em vez de `TUDO OK`.*
+> **v0.337: o dono dessas colunas passou a ser o livro reconstruído, e o `.docx` saiu de fonte** (passo 5 da migração). *O livro publica Classe máxima, Categoria de Efeito e Classe 0 como coluna, e não mais em frase, e publica também maestria, espaços e Refino básico: o `conferir-progressao.py` confere as seis colunas desta tabela contra as dele, nível a nível.* **Ele não precisa mais do `python-docx`, e não tem mais o que pular.**
 
 ---
 

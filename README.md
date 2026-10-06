@@ -1,8 +1,17 @@
-# Projeto - M — sistema de mesa de Jujutsu Kaisen
+# Ciclo Maldito — sistema de mesa de Jujutsu Kaisen
 
-**O sistema se chama `Projeto - M`**, batizado na v0.94 — era a pendência mais velha que existia aqui, aberta na v0.1. Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
+**O sistema se chama `Ciclo Maldito`** desde a v0.334, o nome do livro final do Mizuki. *Até ali era `Projeto - M`, batizado na v0.94 — a pendência mais velha que existia aqui, aberta na v0.1.* Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.331** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.339** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
+
+
+## O livro: Ciclo Maldito
+
+**[Ciclo Maldito — Livro de regras (PDF, 498 páginas)](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é o livro principal do sistema desde a v0.339, por decisão do Mizuki. *É a edição R28a, diagramada e ilustrada por ele a partir do livro reconstruído.*
+
+> **Duas decisões ainda não estão nele:** *a D43 (o ataque com Controle aplica a condição na falha do TR registrado, e não no acerto) e a D44 (a `Execução Preparada` da Vanguarda impõe `−2`).* **Elas valem na mesa**, *estão no livro reconstruído logo abaixo e nas peças, e entram no R28a pelo gerador dele, que não está neste repositório.*
+
+O livro reconstruído continua sendo a fonte das peças e dos validadores; os PDFs `Projeto-M-Manual-da-Guilda*` da mesma pasta são a edição v0.331, guardada como estava.
 
 
 ## Livro reconstruído — candidata revisada em 4 de outubro de 2026
@@ -12,6 +21,7 @@ A reconstrução editorial está concluída para revisão do autor e preserva o 
 - [PDF, manuscritos e instruções](sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/LEIA-ME.md)
 - [ZIP completo](sistema/05-material/livro/planejamento-editorial/entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip)
 - [Revisão final e limites da validação](sistema/05-material/livro/planejamento-editorial/consolidacao/lote-01/REVISAO-FINAL.md)
+- [Plano da migração para as peças](sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md): começou na v0.332, pelos nomes
 
 As imagens de conferência e os antigos pacotes de transferência permanecem no ambiente local. As fontes, os PDFs, o pacote final e os registros de revisão são versionados.
 
@@ -89,34 +99,12 @@ Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não p
 ## Preparar a máquina
 
 ```bash
-pip install python-docx --break-system-packages    # seis validadores leem o .docx
 cd manual/gerador && npm install docx               # só se for regerar o manual
 ```
 
-Sem `python-docx`, **seis validadores pulam** as checagens que leem o manual em vez de falhar — então eles saem verdes sem terem conferido nada, com código 0. Instale antes de confiar num "OK".
+**Nenhum validador precisa mais do `python-docx`, desde a v0.337.** *Até a v0.336 seis deles liam o manual do Fundamento v7 (`.docx`) e, sem a biblioteca, pulavam checagem e saíam verdes com código 0 — a tabela de quanto cada um pulava está no `ESTADO-ATUAL`, com a história dela.* **No passo 5 da migração o `.docx` saiu de fonte, e os sete que o abriam passaram a ler o livro reconstruído** pelo `sistema/03-mecanica/livro.py`. *Rodando os 27 com o import bloqueado, todos saem com zero puladas; a sub-checagem `9.1` do `conferir-repositorio.py` acende se algum voltar a abrir o `.docx`.* **O `npm install docx` só serve para quem for regerar o manual v7**, e o gerador dele é o próximo a ir para o arquivo (o `PLANO.md` da migração diz quando).
 
-**Quanto cada um perde**, lido do código e conferido bloqueando o import:
-
-| validador | pula | de quantas | o rodapé avisa? |
-|---|---|---|---|
-| `conferir-bestiario.py` | 4 (a `3`, a `4`, a `5` e a `9` — esta em quatro sub-blocos) | 11 | **sim** |
-| `conferir-dano.py` | 1 (as treze contra o manual) | 14 | **sim** — `OK, mas 1 checagem(ns) PULARAM` |
-| `conferir-manual.py` | **8 — todas.** Ele sai no `except ImportError` antes da primeira | 8 | avisa, e sai antes do rodapé |
-| `conferir-nomes.py` | 3 (as checagens 1, 3 e 4) | 6 | sim, **desde a v0.101** |
-| `conferir-pericias.py` | 1 (a que bate contra o Fundamento) | 8 | sim, **desde a v0.101** |
-| `conferir-progressao.py` | 1 (a checagem 7) | 8 | **sim** |
-
-> **⚠⚠ Esta tabela estava PARADA na v0.199, e a v0.205 achou.** *Aquela versão pôs o `conferir-bestiario` na tabela de puladas, e pôs em dois dos três lugares que a publicam — o `ESTADO-ATUAL` e o `LEIA-ME` diziam **seis** enquanto esta linha dizia **cinco**.* **E as outras três colunas envelheceram junto:** *`conferir-dano` tinha `13` checagens e aqui dizia `10`, o `conferir-manual` tinha `8` e dizia `4`, o `conferir-nomes` tinha `6` e dizia `5`.* **A lição nº 9 na forma de sempre, e a checagem `9` do `conferir-repositorio.py` não alcança esta tabela** — *ela confere a CONTAGEM de checagens contra os documentos que a publicam, e a coluna `pula` não é contagem de checagem.*
-
-> **⚠ E um deles trocou na v0.103, o que vale saber antes de mexer na lista.** *As condições saíram da peça 1 para a peça 19, e com elas saiu a única checagem do `conferir-atributos.py` que abria o `.docx`.* **Ele deixou de ler o manual e o `conferir-dano.py` entrou no lugar dele.** *A contagem não se moveu, e a lista se moveu — que é exatamente o tipo de troca que passa despercebida quando o número está certo.*
-
-> **Eram três até a v0.96.** *O `conferir-atributos` entrou na v0.97, quando o caminho de pulada dele foi consertado, e o `conferir-progressao` entrou na v0.99 junto com a peça 18.* **A contagem ficou parada em três nos dois documentos que a publicam — e este arquivo dizia "dois" no comentário do `pip` e "três" no parágrafo, com nove linhas de distância.** *Duas cópias, duas respostas, dentro do arquivo que publica a lição nº 9.*
-
-> **Os seis avisam, e dois deles só desde a v0.101.** *O `conferir-nomes` e o `conferir-pericias` imprimiam `TUDO OK` sem terem lido o manual, e isso ficou aberto da v0.97 até lá.* **Quem registra a pulada é cada checagem no ponto em que ela desiste**, então a contagem do rodapé é derivada e não escrita. *E o `subir.sh` também acusa: um validador que pulou sai como `ok*` em amarelo, com o motivo do lado.*
-
-*A v0.38 registrou **4, 2 e 1**, e os três documentos repetiram. O 4 do `conferir-nomes` era a contagem da palavra `PULADA` na saída — ele imprime um aviso de resumo e mais três marcadores —, e o 2 do `conferir-manual` não bate com nada: ele **não confere nada** sem a biblioteca.* **É o que estava documentado como o que pula menos, e é o único que fica cego por inteiro.**
-
-**Rode de `sistema/03-mecanica/`.** *E a razão mudou na v0.38, então vale saber qual é.* Até a v0.37 este arquivo dizia que rodar de outro lugar fazia os três pularem checagem em silêncio — verdade medida na v0.28, e a v0.33 chegou a contar **4, 1 e 1** puladas rodando de `/tmp`. **Hoje não reproduz mais:** os seis validadores que abrem arquivo do manual resolvem o caminho por `os.path.dirname(os.path.abspath(__file__))`, e nenhum `conferir-*.py` tem caminho relativo cru. De `/tmp` a saída sai idêntica, byte por byte, com zero puladas.
+**Rode de `sistema/03-mecanica/`.** *E a razão mudou na v0.38, então vale saber qual é.* Até a v0.37 este arquivo dizia que rodar de outro lugar fazia os três pularem checagem em silêncio — verdade medida na v0.28, e a v0.33 chegou a contar **4, 1 e 1** puladas rodando de `/tmp`. **Hoje não reproduz mais:** os validadores que abrem arquivo de outra pasta resolvem o caminho por `os.path.dirname(os.path.abspath(__file__))`, e nenhum `conferir-*.py` tem caminho relativo cru. De `/tmp` a saída sai idêntica, byte por byte, com zero puladas.
 
 O hábito continua, porque é o que o `subir.sh` faz e é o que o resto da documentação supõe. **O que não continua é a justificativa** — e um aviso que dá o motivo errado é pior que nenhum, porque ele ensina a procurar o defeito no lugar em que ele não está mais.
 

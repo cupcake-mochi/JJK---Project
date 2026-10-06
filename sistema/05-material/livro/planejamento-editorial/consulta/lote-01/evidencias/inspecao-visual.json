@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "39a4e58ee3c20d9538226accb469604754b603081dfd5fbe47628a92ccada487",
+  "sha256_pdf": "15ef08bb15ad7828f6b3a1a448c913bf4d4ec7f53fc6c124eb1b3168b490e45f",
   "sha256_texto": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "paginas": [
@@ -135,9 +135,11 @@
     {
       "pagina": 19,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Página inspecionada em prova anterior e confirmada idêntica em pixels na final. Títulos, colunas, linhas, margens e rodapé legíveis; sem cortes ou sobreposição. Índice final curto não foi preenchido artificialmente.",
-      "sha256_png": "e3eeb3da425049953d32590338855bc6c851ad8554e2a2b774d1e2ebaa603091",
-      "revisor": "/root/maxima"
+      "observacoes": "Nome do sistema trocado para Ciclo Maldito no corpo; parágrafos inteiros, sem corte nem linha sozinha.",
+      "sha256_png": "cb494dfd08b11542eebcb735317eca7157501c73b2c5baa141fc6d82bfc1dcaa",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+      "arquivo": null,
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 20,
@@ -273,5 +275,46 @@
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_pdf_anterior": "39a4e58ee3c20d9538226accb469604754b603081dfd5fbe47628a92ccada487",
+    "sha256_pdf_atual": "15ef08bb15ad7828f6b3a1a448c913bf4d4ec7f53fc6c124eb1b3168b490e45f",
+    "paginas_com_corpo_alterado": [
+      19
+    ],
+    "paginas_so_com_cabecalho_novo": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
+    "metodo": "As páginas de corpo alterado foram abertas; as outras conservam a inspeção anterior por igualdade de pixels do corpo, e o cabeçalho novo foi conferido na tira de cabeçalho de cada unidade.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

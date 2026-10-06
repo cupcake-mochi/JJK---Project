@@ -1,13 +1,15 @@
 {
-  "sha256_pdf": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
+  "sha256_pdf": "4c41e59be6970e3c8c6cf28b648db0b281794e8f68952e2202c0e56c12f38d30",
   "metodo": "Todas as quinze páginas finais foram inspecionadas pelo principal em pares renderizados a 1300 px.",
   "paginas": [
     {
       "pagina": 1,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Título, tabela ou exemplo e corpo legíveis; sem cortes, colisões ou páginas vazias indevidas.",
-      "sha256_png": "e0aeef2105a391a99b031bd7fd662bd5d724d70ba07f05d4e15505ce0b5af926",
-      "revisor": "Agente principal"
+      "observacoes": "Nome do sistema trocado para Ciclo Maldito no corpo; parágrafos inteiros, sem corte nem linha sozinha.",
+      "sha256_png": "acae4f40da857459d8fa9fb42ad4b73b2324cee97758173c6e5f4587ffeb0917",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+      "arquivo": null,
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 2,
@@ -142,5 +144,31 @@
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-quinta.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_pdf_anterior": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
+    "sha256_pdf_atual": "4c41e59be6970e3c8c6cf28b648db0b281794e8f68952e2202c0e56c12f38d30",
+    "paginas_com_corpo_alterado": [
+      1
+    ],
+    "paginas_so_com_cabecalho_novo": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
+    "metodo": "As páginas de corpo alterado foram abertas; as outras conservam a inspeção anterior por igualdade de pixels do corpo, e o cabeçalho novo foi conferido na tira de cabeçalho de cada unidade.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

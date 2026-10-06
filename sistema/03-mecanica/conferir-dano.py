@@ -11,13 +11,21 @@ a peca declara como dono dela, e a regua e' recalculada a partir das ancoras
 lidas. Se um dono mudar de forma, a extracao falha ALTO em vez de conferir
 menos em silencio — e a checagem 10 e' quem guarda essa promessa.
 
-A checagem 4 le o .docx do manual: sem o python-docx ela PULA, e o rodape DIZ
-que pulou. Um verde que pulou checagem nao e' um verde.
+A checagem 4 le o livro reconstruido (Dano e recuperacao e Catalogo), que e' o
+dono do Fundamento desde a v0.337; ate a v0.336 lia o .docx do manual v7.
 """
 
 import os
 import re
 import sys
+
+# Migração, passo 2: as peças usam o nome novo, e o livro v0.331 fica congelado com
+# o antigo. O que vem dele passa pelo renomes.py antes de comparar. (O .docx saiu de
+# fonte no passo 5, v0.337: a checagem 4 le o livro reconstruido, pelo livro.py.)
+sys.dont_write_bytecode = True
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import renomes
+import livro
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(AQUI))
@@ -61,26 +69,21 @@ P14 = 'sistema/03-mecanica/14-equipamento.md'
 DCAM = 'DESENHO-caminhos.md'
 DTRI = 'DESENHO-trilhas.md'
 DMAN = 'DESENHO-manhas.md'
-PARTF = 'manual/gerador/partF.js'
-DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
+P26 = 'sistema/03-mecanica/26-bestiario.md'
 
 
 def linha_do_manual(nivel):
-    """A linha de um nivel da tabela de inimigo do manual, como {cabecalho: celula}.
+    """A linha de um nivel da tabela `Inimigos`, como {cabecalho: celula}.
 
-    v0.284: e' o dono que a peca declara para o chefe e o capanga. A tabela mora no
-    partF.js, e o cabecalho e' lido em vez de a posicao das colunas ficar escrita aqui.
+    v0.284: e' o dono que a peca declara para o chefe e o capanga. v0.338: a tabela
+    saiu do manual do Fundamento v7 (partF.js) para a peca 26 §3.0, sem mudar numero;
+    o cabecalho continua lido em vez de a posicao das colunas ficar escrita aqui.
     """
-    t = ler(PARTF)
-    mh = re.search(r"TBL\(\[([^\]]*'Chefe: dano'[^\]]*'Capanga: dano'[^\]]*)\]", t)
-    if not mh:
+    try:
+        _l = livro.tabela(ler(P26), 'Nível do grupo', 'Chefe: dano', 'Capanga: dano')
+    except livro.LivroMudou:
         return None
-    cab = re.findall(r"'([^']*)'", mh.group(1))
-    mr = re.search(r"\[\s*'%d'\s*,([^\]]*)\]" % nivel, t[mh.end():])
-    if not mr:
-        return None
-    cel = [str(nivel)] + re.findall(r"'([^']*)'", mr.group(1))
-    return dict(zip(cab, cel)) if len(cel) == len(cab) else None
+    return next((r for r in _l if r['Nível do grupo'] == str(nivel)), None)
 
 TXT = ler(PECA)
 
@@ -103,8 +106,8 @@ ANCORAS = {
     # v0.284: os dois saem da tabela de inimigo do manual, que e' o dono que a peca
     # declara. Ate a v0.283 vinham de uma frase do DESENHO-trilhas que dava ao manual
     # um capanga de 73 que ele nunca publicou — ver a leitura logo abaixo.
-    'chefe': (PARTF, r"'Chefe: dano'"),
-    'capanga': (PARTF, r"'Capanga: dano'"),
+    'chefe': (P26, r"\| Chefe: dano \|"),
+    'capanga': (P26, r"\| Capanga: dano \|"),
     # ⚠ o padrao NAO carrega o numero de acoes: ancora que carrega o valor some
     # no dia em que o valor muda, que e' exatamente o dia em que ela precisa
     # acender. Mesma nota do `dado_do_soco`, cinquenta linhas abaixo.
@@ -122,7 +125,7 @@ ANCORAS = {
     'ponto_arma': (P14, r'0,33'),
     'fundo': (P14, r'fundo\D{0,30}\b5\b|\b5\b\D{0,20}em duas'),
     'evitado': (DTRI, r'dano evitado `1` pra `1`'),
-    # v0.151: o Incapacitado deixou de ser um numero escrito aqui dentro e passou
+    # v0.151: a Guarda Aberta deixou de ser um numero escrito aqui dentro e passou
     # a ser derivado, entao as pecas que sustentam a derivacao viraram ancora.
     'nat20': (P01, r'20 natural numa rolagem de acerto é crítico'),
     'critico_escopo': (P01, r'Dobra só os dados do que rolou o acerto'),
@@ -199,12 +202,12 @@ if _lm and re.fullmatch(r'\d+', _lm.get('Chefe: dano', '')):
     CHEFE = float(_lm['Chefe: dano'])
     print(f'  [x] o chefe foi lido do dono, a tabela de inimigo do manual: {CHEFE:.0f} de dano por rodada')
 else:
-    erro('1: nao achei a coluna `Chefe: dano` do nivel 30 na tabela de inimigo do manual (partF.js)')
+    erro('1: nao achei a coluna `Chefe: dano` do nivel 30 na tabela `Inimigos` (peca 26 §3.0)')
 if _lm and re.fullmatch(r'\d+', _lm.get('Capanga: dano', '')):
     CAPANGA = float(_lm['Capanga: dano'])
     print(f'  [x] o capanga foi lido do dono, a tabela de inimigo do manual: {CAPANGA:.0f} de dano por rodada')
 else:
-    erro('1: nao achei a coluna `Capanga: dano` do nivel 30 na tabela de inimigo do manual (partF.js) — '
+    erro('1: nao achei a coluna `Capanga: dano` do nivel 30 na tabela `Inimigos` (peca 26 §3.0) — '
          'a checagem 13 mede a coluna dele, e sem o numero ela rodaria com o valor de formato daqui')
 
 # v0.198: as acoes do chefe. Ate aqui o 3 estava escrito neste arquivo e a peca
@@ -229,7 +232,7 @@ if _m:
     DADO_DO_SOCO = (1 + _faces) / 2
     print(f'  [x] o dado do soco foi lido do dono: d{_faces}, medio {DADO_DO_SOCO:.2f}')
 else:
-    erro('1: nao achei o teto do dado do soco na peca 14 — a regua do Incapacitado '
+    erro('1: nao achei o teto do dado do soco na peca 14 — a regua da Guarda Aberta '
          'depende dele, e sem ele ela roda com o valor de formato deste arquivo')
 
 
@@ -319,7 +322,7 @@ def acoes(alvo, quantas):
     return alvo * (quantas / CHEFE_ACOES)
 
 
-# v0.151: o Incapacitado. O critico NAO cria acerto — ele troca um golpe normal
+# v0.151: a Guarda Aberta. O critico NAO cria acerto — ele troca um golpe normal
 # por um critico nas vezes em que o golpe ja ia acertar, e o 20 natural ja
 # entregava isso em 5% delas. Entao o ganho e' (acerto - nat20) x dados dobrados,
 # e nao os dados soltos.
@@ -361,7 +364,7 @@ def condicoes(alvo):
         ('Amedrontado', 'Maior', d + metros(9.0)),
         ('Enfeitiçado', 'Maior', acoes(alvo, 1.0)),
         ('Atordoado', 'Maior', acoes(alvo, 1.0) + acoes(alvo, 0.5)),
-        ('Incapacitado', 'Maior', CRITICO),
+        ('Guarda Aberta', 'Maior', CRITICO),
     ]
 
 
@@ -374,7 +377,7 @@ CALC = {n: (t, v) for n, t, v in condicoes(CHEFE)}
 # numero dela e' lido, que e' a parte que decide o nivel.
 _pub = {}
 for _l in TXT.split('\n'):
-    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéÇ]+)`\*\*\s*\|\s*`([\d,]+)`\s*\|'
+    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéÇ]+(?: [A-Za-zçãíéÇ]+)*)`\*\*\s*\|\s*`([\d,]+)`\s*\|'
                   r'\s*`([\d,]+)`[^|]*\|\s*`(\d+)`\s*\|\s*`([\d,]+)×`\s*\|'
                   r'\s*`(Leve|Média|Pesada)`\s*\|', _l)
     if _m:
@@ -494,7 +497,7 @@ else:
               f'{_pub_r:.2f}.')
 
 
-# --- 2.1 (v0.151): QUAL ROLAGEM o Incapacitado alcanca. -----------------------
+# --- 2.1 (v0.151): QUAL ROLAGEM a Guarda Aberta alcanca. -----------------------
 # A regua acima entra com o dado da ARMA, e isso so' esta certo se a condicao
 # alcancar so' o ataque corpo a corpo. Este sistema tem TRES rolagens de ataque, e
 # o feitico de Toque sai a 1,5 m e e' de CONJURACAO — entao "corpo a corpo" sem a
@@ -504,9 +507,9 @@ else:
 # turno vale 48,60 de dano por rodada — acima do teto da Pesada, vindo de uma
 # condicao Leve. Achado do Mizuki na v0.151.
 _lin = [l for l in TXT.split('\n')
-        if re.match(r'\|\s*\*\*`Incapacitado`\*\*\s*\|\s*`Leve`\s*\|', l)]
+        if re.match(r'\|\s*\*\*`Guarda Aberta`\*\*\s*\|\s*`Leve`\s*\|', l)]
 if len(_lin) != 1:
-    erro(f'2: achei {len(_lin)} linha(s) do `Incapacitado` na tabela de mesa do §3.1 '
+    erro(f'2: achei {len(_lin)} linha(s) da `Guarda Aberta` na tabela de mesa do §3.1 '
          'e esperava 1 — ela mudou de forma e esta sub-checagem parou de conferir')
 else:
     _l = _lin[0]
@@ -530,11 +533,11 @@ else:
         _faltou.append('ela parou de excluir o ATAQUE A DISTANCIA')
     if _faltou:
         for _f in _faltou:
-            erro('2: a linha do `Incapacitado` no §3.1 — ' + _f + '. A regua do §2.2 '
+            erro('2: a linha da `Guarda Aberta` no §3.1 — ' + _f + '. A regua do §2.2 '
                  'entra com o dado da ARMA, e ela so fecha se a condicao alcancar '
                  'so o ataque corpo a corpo')
     else:
-        print('  [x] o `Incapacitado` do §3.1 alcanca so o corpo a corpo, e nomeia '
+        print('  [x] a `Guarda Aberta` do §3.1 alcanca so o corpo a corpo, e nomeia '
               'as duas rolagens que ficam de fora')
 
 
@@ -636,33 +639,28 @@ else:
 
 
 # --------------------------------------------------------------------------
-bloco('4. O MANUAL — as treze da peca sao as treze do manual, nos dois sentidos')
+bloco('4. O LIVRO — as treze da peca sao as treze do livro, nos dois sentidos')
 # --------------------------------------------------------------------------
+# v0.337: ate a v0.336 o dono era o manual do Fundamento v7 (.docx), que publicava
+# as treze em tres tabelas "Nivel <tier>". O .docx foi para o arquivo no passo 5 da
+# migracao, e o livro reconstruido publica cada condicao como titulo, embaixo de
+# "Condicoes leves", "Condicoes medias" e "Condicoes pesadas" (livro.condicoes(),
+# que diz quais titulos dessas secoes nao sao condicao).
 try:
-    import docx
-except ImportError:
-    docx = None
-
-if docx is None:
-    pulou('4. as treze contra o manual — sem python-docx '
-          '(pip install python-docx --break-system-packages)')
-else:
-    _d = docx.Document(DOCX)
-    # v0.104: o manual publica as treze em TRES tabelas, uma por nivel, e o
-    # cabecalho de cada uma e' "Nivel <tier>". A Melhoria que aplica condicao e'
-    # uma so, chamada Condicao, e ela cobra o nivel.
-    _man = {}
-    for _t in _d.tables:
-        _cab = [c.text.strip() for c in _t.rows[0].cells]
-        if len(_cab) == 2 and _cab[0].startswith('Nível '):
-            _tier = _cab[0].split(' ', 1)[1].strip()
-            _man[_tier] = [r.cells[0].text.strip() for r in _t.rows[1:]]
-    if sorted(_man) != ['Leve', 'Média', 'Pesada']:
-        erro(f'4: o manual publica as tabelas de nivel {sorted(_man)} e eu esperava '
-             'Leve, Média e Pesada — ou o manual mudou, ou a extracao parou de achar')
-    elif sum(len(v) for v in _man.values()) != 13:
-        erro(f'4: as tres tabelas do manual somam {sum(len(v) for v in _man.values())} '
-             'condicoes e eu esperava 13')
+    _dano_l = livro.texto('dano')
+    _cat_l = livro.texto('catalogo')
+    _man = livro.condicoes()
+    _treze = re.search(r'uma das (\w+) condições compráveis', livro.limpa(_cat_l))
+except (livro.LivroMudou, OSError) as _e4:
+    _man, _treze = {}, None
+    erro(f'4: nao consegui ler as condicoes do livro — {_e4}')
+_EXTENSO = {'doze': 12, 'treze': 13, 'catorze': 14, 'quatorze': 14, 'quinze': 15}
+if _man:
+    if not _treze or _treze.group(1) not in _EXTENSO:
+        erro('4: o Catalogo do livro parou de dizer quantas condicoes a Melhoria `Condição` compra')
+    elif sum(len(v) for v in _man.values()) != _EXTENSO[_treze.group(1)]:
+        erro(f'4: as tres secoes do livro somam {sum(len(v) for v in _man.values())} condicoes e '
+             f'o Catalogo dele diz {_treze.group(1)}')
     else:
         # os nomes E os niveis vem DA PECA, e nao de lista escrita aqui dentro:
         # uma checagem que se mede contra a propria constante sai verde na
@@ -693,64 +691,59 @@ else:
         _falta = [n for g in _man for n in _man[g] if n not in _pm]
         _sobra = [n for n in _pm if n not in [x for g in _man for x in _man[g]]]
         if _falta:
-            erro('4: o manual publica condicao que esta peca nao tem: ' + ', '.join(_falta))
+            erro('4: o livro publica condicao que esta peca nao tem: ' + ', '.join(_falta))
         if _sobra:
-            erro('4: esta peca tem condicao que o manual nao publica: ' + ', '.join(_sobra))
-        _trocada = [f'{n} (manual {g}, peca {_pm.get(n)})'
+            erro('4: esta peca tem condicao que o livro nao publica: ' + ', '.join(_sobra))
+        _trocada = [f'{n} (livro {g}, peca {_pm.get(n)})'
                     for g in _man for n in _man[g] if _pm.get(n) != g]
         if _trocada:
-            erro('4: condicao com nivel diferente entre o manual e a peca: '
+            erro('4: condicao com nivel diferente entre o livro e a peca: '
                  + ', '.join(_trocada))
         if not (_falta or _sobra or _trocada):
-            print('  o manual publica ' + ' · '.join(
+            print('  o livro publica ' + ' · '.join(
                 f'{len(_man[t])} {t}' for t in ('Leve', 'Média', 'Pesada')) + '; a peca tambem')
-            print('  [x] as 14 batem com o manual em nome e em NIVEL, nos dois sentidos')
+            print('  [x] as 13 batem com o livro em nome e em NIVEL, nos dois sentidos')
 
-    # v0.104: a Melhoria e' uma so, e as duas de antes nao existem mais no manual
-    _mel = []
-    for _t in _d.tables:
-        for _r in _t.rows:
-            _c = [x.text.strip() for x in _r.cells]
-            if _c and _c[0] in ('Condição', 'Condição Menor', 'Condição Maior'):
-                _mel.append((_c[0], _c[1] if len(_c) > 1 else ''))
-    _velhas = [m for m, _ in _mel if m != 'Condição']
+    # v0.104: a Melhoria e' uma so, e as duas de antes nao existem mais. No livro, o
+    # preco de cada Melhoria e' a primeira frase embaixo do titulo dela.
+    _mel = {t: livro.limpa(c) for t, c in re.findall(r'^## (Condição(?: Menor| Maior)?)\s*\n\s*\n([^\n]+)', _cat_l, re.M)}
+    _velhas = sorted(m for m in _mel if m != 'Condição')
     if _velhas:
-        erro('4: o manual ainda vende ' + ', '.join(sorted(set(_velhas)))
+        erro('4: o livro ainda vende ' + ', '.join(_velhas)
              + ' — a v0.104 fundiu as duas na Melhoria Condição')
-    elif not _mel:
-        erro('4: nao achei a Melhoria Condição no catalogo do manual')
-    elif _mel[0][1] != 'o nível dela':
-        erro(f'4: a Melhoria Condição do manual cobra "{_mel[0][1]}" e a peca §3.6 diz '
+    elif 'Condição' not in _mel:
+        erro('4: nao achei a Melhoria Condição no Catalogo do livro')
+    elif not _mel['Condição'].startswith('Preço: Nível da condição.'):
+        erro(f'4: a Melhoria Condição do livro cobra "{_mel["Condição"][:40]}" e a peca §3.6 diz '
              'que o preco e o nivel da condicao')
     else:
-        print('  [x] o manual vende UMA Melhoria Condição, e o preco dela e o nivel')
+        print('  [x] o livro vende UMA Melhoria Condição, e o preco dela e o nivel')
 
     # v0.104: o -2 na iniciativa do Surdo mora em TRES lugares — a tabela de mesa
-    # desta peca, a tabela de nivel do manual e a peca 3 §5, que e' a dona da
-    # formula da iniciativa. Tres copias de um numero so; a licao no 9 pede
-    # alguem comparando as tres em vez de a gente escolher uma e torcer.
+    # desta peca, o livro e a peca 3 §5, que e' a dona da formula da iniciativa.
+    # Tres copias de um numero so; a licao no 9 pede alguem comparando as tres em
+    # vez de a gente escolher uma e torcer.
     _SURDO = '−2'
     _peca_surdo = [l for l in TXT.split('\n')
                    if l.startswith('| **`Surdo`**') and 'iniciativa' in l]
-    _man_surdo = []
-    for _t in _d.tables:
-        for _r in _t.rows:
-            _c = [x.text.strip() for x in _r.cells]
-            if len(_c) == 2 and _c[0] == 'Surdo':
-                _man_surdo.append(_c[1])
+    try:
+        # o livro escreve o sinal com hifen ASCII ("-2 na iniciativa")
+        _man_surdo = [livro.limpa(livro.secao(livro.secao(_dano_l, 'Condições leves', 1), 'Surdo', 2)).replace('-2', _SURDO)]
+    except livro.LivroMudou:
+        _man_surdo = []
     _p3 = ler('sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md')
     _faltou = []
     if not (_peca_surdo and _SURDO in _peca_surdo[0]):
         _faltou.append('a tabela de mesa desta peca')
-    if not (_man_surdo and any(_SURDO in x and 'iniciativa' in x for x in _man_surdo)):
-        _faltou.append('a tabela de nivel do manual')
+    if not (_man_surdo and any(f'{_SURDO} na iniciativa' in x for x in _man_surdo)):
+        _faltou.append('a condicao Surdo do livro')
     if not ('`Surdo`' in _p3 and _SURDO in _p3 and 'iniciativa' in _p3):
         _faltou.append('a peca 3 §5, que e a dona da formula')
     if _faltou:
         erro('4: o -2 na iniciativa do Surdo nao esta em: ' + '; '.join(_faltou))
     else:
         print('  [x] o −2 na iniciativa do Surdo bate nos tres donos: '
-              'esta peca, o manual e a peca 3 §5')
+              'esta peca, o livro e a peca 3 §5')
 
     # as tres que ficaram de fora continuam de fora, e o manual concorda
     _fora = ('Inconsciente', 'Exaustão', 'Invisível')
@@ -770,7 +763,7 @@ bloco('5. NENHUMA SEM NIVEL — e o nivel e um dos tres')
 
 _mesa = {}
 for _l in TXT.split('\n'):
-    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéÇ]+)`\*\*\s*\|\s*`(Leve|Média|Pesada)`\s*\|', _l)
+    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéÇ]+(?: [A-Za-zçãíéÇ]+)*)`\*\*\s*\|\s*`(Leve|Média|Pesada)`\s*\|', _l)
     if _m:
         _mesa[_m.group(1)] = _m.group(2)
 
@@ -1146,7 +1139,11 @@ if not _sec6:
 else:
     _falta = [t for t, _r in (
         ('desvantagem na rolagem de ataque', 'desvantagem na rolagem de ataque'),
-        ('a queda de deslocamento', '`3 m`'),
+        # v0.335: a regra e' a do livro desde a v0.176 (metade do deslocamento e sem
+        # Destreza na Defesa); os 3 m ficam como o piso medido, e o piso continua conferido.
+        ('a queda de deslocamento', 'deslocamento cai pela metade'),
+        ('a Destreza fora da Defesa', 'não soma Destreza na Defesa'),
+        ('o piso medido com 3 m', 'deslocamento `−3 m`'),
     ) if _r not in _sec6]
     if _falta:
         erro('11: a secao 6 nao escreve mais: ' + ', '.join(_falta))
@@ -1474,8 +1471,17 @@ else:
         'glossario (cap. 7)': ler('sistema/05-material/livro/manual/07-glossario.md'),
         'dano e condicoes (cap. 15)': ler('sistema/05-material/livro/manual/15-dano-e-condicoes.md'),
         'Fundamento (cap. 9)': ler('sistema/05-material/livro/manual/40-fundamento.md'),
-        'gerador do manual (partD.js)': ler('manual/gerador/partD.js'),
     }
+    # v0.338: a quarta copia era o gerador do manual v7 (partD.js), que saiu de fonte. O
+    # livro reconstruido escreve o `Calado` com outra redacao ("uma conjuracao ou habilidade
+    # que exija voz", e "a Kata segue a mesma exigencia"); o que se cobra dele e' o sentido.
+    try:
+        _cal_l = livro.limpa(livro.secao(livro.secao(livro.texto('dano'), 'Condições médias', 1), 'Calado', 2))
+    except livro.LivroMudou:
+        _cal_l = ''
+    if 'exija voz' not in _cal_l or 'A Kata segue a mesma exigência' not in _cal_l:
+        erro('14: o `Calado` do livro reconstruido parou de dizer que cala o que "exija voz", ou que '
+             '"a Kata segue a mesma exigencia" — e o mesmo nicho da peca 19, com outras palavras')
     _fora = [k for k, t in _copias.items() if _cal not in t]
     if _fora:
         erro(f'14: o `Calado` da peca 19 diz "{_cal}", e {_fora} diz outra coisa — a regra da v0.176 '
@@ -1486,7 +1492,8 @@ else:
         erro(f'14: a regra da `Kata` sob o `Calado` sumiu de {_semk} — sem ela, a `Kata` valendo como feitico '
              f'no livro inteiro faria o `Calado` cortar toda Kata, e a decisao da v0.276 e cortar so a que precisa de som')
     if not _fora and not _semk:
-        print(f'  [x] o `Calado` diz "{_cal}" nas cinco copias, e a regra da `Kata` esta na peca e no capitulo 15')
+        print(f'  [x] o `Calado` diz "{_cal}" nas quatro copias do livro v0.331, o livro reconstruido diz o mesmo com '
+              f'outras palavras, e a regra da `Kata` esta na peca e no capitulo 15')
 
 # v0.277: o `Calado` e' de nicho — "N precisa de campo, cala apenas se o inimigo tiver algum selo que
 # necessite de voz ou habilidades do tipo, é uma condição de nicho". O nivel NAO muda, e isso e' conta, nao

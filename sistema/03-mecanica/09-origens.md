@@ -101,7 +101,7 @@ A técnica veio no sangue, com nome, com histórico e com gente que sabe usá-la
 
 ---
 
-### Reencarnado
+### Encarnado
 
 **Você já foi outra pessoa, e o corpo em que você está não nasceu seu.**
 
@@ -109,7 +109,7 @@ Alguém te selou, te guardou e te trouxe de volta — ou você aceitou ser guard
 
 *Na obra:* o **Kashimo**, feiticeiro de quatrocentos anos atrás que aceitou virar objeto amaldiçoado e encarnar num corpo que o Kenjaku preparou, com a condição de poder enfrentar o Sukuna.
 
-> **A diferença para Receptáculo é a que o mangá faz:** Receptáculo é **simbiose** — os dois estão lá. Reencarnado é **sobrescrita** — sobrou um.
+> **A diferença para Receptáculo é a que o mangá faz:** Receptáculo é **simbiose** — os dois estão lá. Encarnado é **sobrescrita** — sobrou um.
 
 | | |
 |---|---|
@@ -143,7 +143,7 @@ Meio humano, meio maldição, e as duas metades são de verdade. Nem todo Feto �
 
 **Você tem energia amaldiçoada e não tem técnica inata.** É mais comum do que a ficção faz parecer, e não é defeito: é outro caminho.
 
-Sem Técnica **se soma a uma das cinco acima**. Você continua sendo Latente, Receptáculo, Descendente, Reencarnado ou Feto — com a marca de que a técnica não veio junto. Um **Descendente Sem Técnica** é o caso da Miwa: nome de peso, nenhuma técnica de clã.
+Sem Técnica **se soma a uma das cinco acima**. Você continua sendo Latente, Receptáculo, Descendente, Encarnado ou Feto — com a marca de que a técnica não veio junto. Um **Descendente Sem Técnica** é o caso da Miwa: nome de peso, nenhuma técnica de clã.
 
 O poder vem de dois lugares:
 
@@ -153,7 +153,7 @@ O poder vem de dois lugares:
 
 | | |
 |---|---|
-| **O que muda** | a sua técnica não veio com você: ela nasce de uma **semente**, que é uma aptidão aberta na criação. Regra, Famílias, Selo e Passivas continuam existindo, e a Expansão de Domínio não |
+| **O que muda** | a sua técnica não veio com você: ela nasce de uma **semente**, que é uma aptidão aberta na criação. Regra, Famílias, Selo e Talentos continuam existindo, e a Expansão de Domínio não |
 | **O que ganha** | a Origem principal continua dando tudo o que dá. **Sem Técnica não amplia a conta de Legados** — ela é uma entrada de `Destranca` e ocupa uma das duas vagas, como qualquer outra |
 | **Criação** | **a peça 25**, e ela é o Fundamento com a semente por baixo |
 
@@ -235,11 +235,11 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 > **Sem energia amaldiçoada não existe aptidão nem refino.** No lugar dos dois, este ramo tem **Bênçãos** e **Lapidação** — a mesma máquina, com outra métrica.
 >
-> **A Lapidação começa em `1`, sobe `+1` de graça em cada marco, tem teto `10`, e é ela que gateia as Bênçãos.** *Os degraus são os mesmos da peça 11 §5: Classe Passiva 2 na Lapidação 4, Classe Passiva 3 na 7.*
+> **A Lapidação começa em `1`, sobe `+1` de graça em cada marco, tem teto `10`, e é ela que gateia as Bênçãos.** *Os degraus são os mesmos da peça 11 §5: Categoria de Efeito 2 na Lapidação 4, Categoria de Efeito 3 na 7.*
 
 **O que ela não herda é o conteúdo do catálogo — a forma, sim.** *A peça 11 §6.8 tem a contagem: das quinze aptidões, **catorze são construídas em cima da energia amaldiçoada** e a décima quinta é formato, não conteúdo.* **Espelhar conteúdo entrada por entrada não é escolha ruim — é impossível.**
 
-**A forma espelha: catorze Bênçãos, duas grátis na Lapidação `1` e doze pagas.** *As duas grátis são a `Defesa sem Armadura` portada — `1/3 da Lapidação + 1`, a mesma fórmula com outro recurso — e o `Estímulo Muscular`. **As doze pagas estão na peça 11 §6.8**, com nome, Classe Passiva e gate.*
+**A forma espelha: catorze Bênçãos, duas grátis na Lapidação `1` e doze pagas.** *As duas grátis são a `Defesa sem Armadura` portada — `1/3 da Lapidação + 1`, a mesma fórmula com outro recurso — e o `Estímulo Muscular`. **As doze pagas estão na peça 11 §6.8**, com nome, Categoria de Efeito e gate.*
 
 ### O corpo atravessa o que a energia levantou
 
@@ -252,13 +252,13 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 >
 > *Isso não vale para a Expansão: o Acerto garantido dela lê **alvo**, e item não é alvo legível.* **O que você carrega atravessa o domínio junto com você.**
 >
-> **E a saída existe, no molde da peça 20: é uma Passiva.** *O `Bocado`, na peça 20 §3.3, guarda o item dentro do corpo — e lá dentro ele para de emanar.* **Ela custa um espaço de Kata, que é a moeda que esta rota tem.**
+> **E a saída existe, no molde da peça 20: é um Talento.** *O `Bocado`, na peça 20 §3.3, guarda o item dentro do corpo — e lá dentro ele para de emanar.* **Ele custa um espaço de Kata, que é a moeda que esta rota tem.**
 
 > ***Em troca, e a troca é declarada: quem não tem energia nunca tem Expansão de Domínio.*** *Nem incompleta, nem completa.*
 
 **Isso não passou por régua de preço, e é decisão do Mizuki** — *"é realmente só algo da obra que infelizmente tem de ser adaptado e vai ser meio fortinho mesmo"*. **O que ela ganha é atravessar barreira e não ser alcançada pelo Acerto garantido; o que ela paga é não ter a camada inteira.** *Troca declarada, e não conta que fecha.*
 
-> **⚠ O argumento que estava escrito aqui virou falso na v0.122, e a decisão não.** *Ele dizia: "a Expansão é comprada com espaço de feitiço, e esta rota não tem lista de feitiço para gastar — então a negação não custa nada a ela".* **A peça 20 deu lista a ela:** a Técnica Marcial tem `Kata`, Passivas e espaços, então negar a Expansão passou a custar `2` ou `3` espaços de verdade. *A decisão continua de pé porque ela nunca foi de preço; o que precisou ser reescrito foi o motivo embaixo dela.*
+> **⚠ O argumento que estava escrito aqui virou falso na v0.122, e a decisão não.** *Ele dizia: "a Expansão é comprada com espaço de feitiço, e esta rota não tem lista de feitiço para gastar — então a negação não custa nada a ela".* **A peça 20 deu lista a ela:** a Técnica Marcial tem `Kata`, Talentos e espaços, então negar a Expansão passou a custar `2` ou `3` espaços de verdade. *A decisão continua de pé porque ela nunca foi de preço; o que precisou ser reescrito foi o motivo embaixo dela.*
 
 **A `Liberação Máxima` e a `Técnica Máxima` ganharam substituto na peça 20 — `Ruptura` e `Ōgi`.** *A Expansão não ganhou, e não é renome: ela não existe aqui.*
 
@@ -289,7 +289,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 | Latente | Fundamento | **sim** |
 | Receptáculo | Fundamento | **sim** |
 | Descendente | Fundamento | **sim** |
-| Reencarnado | Fundamento | **sim** |
+| Encarnado | Fundamento | **sim** |
 | Feto | Fundamento | **sim** |
 | *qualquer uma* **+ Sem Técnica** | a semente, e o Fundamento em cima | **sim** — peça 25, na v0.168 |
 | Corpo Amaldiçoado | Técnica Marcial | **sim** — peça 20, na v0.122 |

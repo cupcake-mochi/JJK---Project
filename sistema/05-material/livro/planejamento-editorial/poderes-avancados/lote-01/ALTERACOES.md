@@ -349,3 +349,11 @@ Candidata editorial e mecânica. Publicados preservados. As alterações são pr
 **Depois:** Seu domínio termina quando a duração acaba, você o desfaz, chega a **0 PV**, fica **Inconsciente** ou **Derrotado**, perde uma disputa ou uma regra destrói sua barreira. / o encerramento voluntário, chegar a 0 PV e ficar Inconsciente ou Derrotado.
 
 **Motivo:** Decisão do Mizuki em 04/10/2026 (sugestão aceita), achado G1-06 da revisão de interfaces (revisao-interfaces/CORRECOES-APLICADAS.md, D32).
+
+## R08-36 — decisão do autor
+
+**Antes:** Uma Expansão estabelece a Técnica Inata sobre uma área durante vários turnos. Seu domínio pode transformar o lugar em uma galeria, uma oficina ou uma sala de julgamento. A aparência acompanha as capacidades registradas; não cria ataques ou vantagens adicionais durante a abertura. Estas são as regras do Projeto - M para usar esse poder.
+
+**Depois:** Uma Expansão estabelece a Técnica Inata sobre uma área durante vários turnos. Seu domínio pode transformar o lugar em uma galeria, uma oficina ou uma sala de julgamento. A aparência acompanha as capacidades registradas; não cria ataques ou vantagens adicionais durante a abertura. Estas são as regras do Ciclo Maldito para usar esse poder.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.

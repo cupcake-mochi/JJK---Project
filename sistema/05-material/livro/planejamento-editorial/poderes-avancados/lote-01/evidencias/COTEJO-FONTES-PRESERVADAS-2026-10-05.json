@@ -1,0 +1,46 @@
+{
+  "fontes": [
+    {
+      "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+      "sha256_anterior": "6526b5d6c860765f0da6c0ce05053c862d922097ab3a02de8e79d1a281a8f2a7",
+      "sha256_atual": "01fbacdc09444d4cc3b945615952f90ed9d9fc39091064a8ca2612723a0920f1",
+      "versao_anterior": "68243b4d8492f2eb46ed75346ed55c2df42fd209",
+      "mudou_em": [
+        "789cf5a v0.332: migração, passo 2, primeira metade — os quatro renomes pequenos nas peças"
+      ],
+      "motivo": "Passo 2 da migração (v0.332, commit 789cf5a): só os renomes Reencarnado → Encarnado, Incapacitado → Guarda Aberta (com o artigo ajustado) e Aviso → Leitura de Feitiços, já usados pela candidata desde a reconstrução. Nenhum número ou regra mudou; o diff palavra a palavra só toca esses nomes e os artigos."
+    }
+  ],
+  "conferido": "Diff lido palavra a palavra entre a versão guardada e a atual. O manuscrito desta unidade não cita o texto mudado da peça: usa os nomes novos desde a reconstrução, e os antigos só aparecem na Consulta como nome anterior.",
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+  "cotejo_v0334": [
+    {
+      "arquivo": "sistema/03-mecanica/18-progressao.md",
+      "sha256_anterior": "3074b345db8915d2101741ee07790a22e7a98c95ecc4a76ae72803573793dd51",
+      "sha256_atual": "7ac36f34f9f5736fd5f91eddea60eb0acc4a79f919c970424108343a4a5bec0a",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+      "sha256_anterior": "01fbacdc09444d4cc3b945615952f90ed9d9fc39091064a8ca2612723a0920f1",
+      "sha256_atual": "8c240204c944cdf2e028070b7cdfa3c3a1911be7c74dfe3fc4b5044831987395",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/RASCUNHO-expansao-sem-barreira.md",
+      "sha256_anterior": "442ada29168c141d0cfbdf43304f0211b30710576df86b903fbab2a9317a6001",
+      "sha256_atual": "3d5ed6948a09ef573933b3135aff585549a3ac897be994b6ef488562f3ce923e",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    }
+  ],
+  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0337": [
+    {
+      "arquivo": "sistema/03-mecanica/18-progressao.md",
+      "sha256_anterior": "7ac36f34f9f5736fd5f91eddea60eb0acc4a79f919c970424108343a4a5bec0a",
+      "sha256_atual": "9df17ba90b335cbf4170701e346700eeee87ddf0bdcd8f9a68ca2dc7a1522d53",
+      "motivo": "Passo 5 da migração (v0.337): a peça 18 passou a apontar o livro reconstruído como dono das colunas de Classe, Talento e Classe 0, no lugar do manual do Fundamento v7. Os números da tabela não mudaram, e esta unidade não reproduz o trecho."
+    }
+  ],
+  "cotejo_v0337_conferido": "Diff lido: só o passo 5 da migração (primeira parte) nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
+}

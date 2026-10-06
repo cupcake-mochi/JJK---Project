@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
+  "sha256_texto": "0b0b00346497972efc2c0a65002891eac23e489decda073bbe3a9c958927dedd",
   "metodo": "Leitura contextual do autor em20unidades; não é revisãohumana/playtest.",
   "secoes": [
     {
@@ -431,5 +431,21 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Trechos trocados relidos: decisões do autor de 04/10/2026, retirada de projeções pedida por ele ou verbetes de índice. O restante do texto é idêntico e conserva a leitura anterior."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_anterior": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
+    "sha256_atual": "0b0b00346497972efc2c0a65002891eac23e489decda073bbe3a9c958927dedd",
+    "mudancas": [
+      {
+        "codigo": "A34",
+        "decisao": "nome Ciclo Maldito (v0.334)",
+        "secao": "apt-protecao-dominios",
+        "antes": "A Expansão incompleta não tem Acerto garantido. Cesta, Domínio Simples e a proteção de Pétala contra Acerto não a anulam. Extensão declara a própria exceção. As capacidades descritas aqui são regras do Projeto - M para representar essas defesas.",
+        "depois": "A Expansão incompleta não tem Acerto garantido. Cesta, Domínio Simples e a proteção de Pétala contra Acerto não a anulam. Extensão declara a própria exceção. As capacidades descritas aqui são regras do Ciclo Maldito para representar essas defesas."
+      }
+    ],
+    "registro": "aptidoes/lote-01/ALTERACOES.json (A34)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "Trechos trocados relidos no contexto: só o nome do sistema mudou, de Projeto - M para Ciclo Maldito, com o mesmo gênero e o mesmo artigo. O conferir_editorial dá 0 achados no texto atual, sem exceção nova."
   }
 }

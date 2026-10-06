@@ -1,0 +1,34 @@
+{
+  "fontes": [
+    {
+      "arquivo": "sistema/03-mecanica/01-atributos-acerto-defesa.md",
+      "sha256_anterior": "9282aaf66ff55eec89cd7bcdb0dfe8a96d3ca20ee3eca0cf939233da63ff30e6",
+      "sha256_atual": "0cdaabdd19e047e6fc0a6e25ce692d82470e2d9561fdb955172dad119700d0ea",
+      "versao_anterior": "bbc442808e3b4f0711a4f8649e7a1e6e846da15a",
+      "mudou_em": [
+        "789cf5a v0.332: migração, passo 2, primeira metade — os quatro renomes pequenos nas peças"
+      ],
+      "motivo": "Passo 2 da migração (v0.332, commit 789cf5a): só os renomes Reencarnado → Encarnado, Incapacitado → Guarda Aberta (com o artigo ajustado) e Aviso → Leitura de Feitiços, já usados pela candidata desde a reconstrução. Nenhum número ou regra mudou; o diff palavra a palavra só toca esses nomes e os artigos."
+    }
+  ],
+  "conferido": "Diff lido palavra a palavra entre a versão guardada e a atual. O manuscrito desta unidade não cita o texto mudado da peça: usa os nomes novos desde a reconstrução, e os antigos só aparecem na Consulta como nome anterior.",
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+  "cotejo_v0334": [
+    {
+      "arquivo": "sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md",
+      "sha256_anterior": "17b18f03323737e311ecdc6ab062a694c6077a6f82edf9400d8403281b60415f",
+      "sha256_atual": "cf9ec2c60807263ee9c6412e1627b0348e06737b866d2b7dc7276abd637fbd78",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    }
+  ],
+  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0338": [
+    {
+      "arquivo": "sistema/03-mecanica/01-atributos-acerto-defesa.md",
+      "sha256_anterior": "0cdaabdd19e047e6fc0a6e25ce692d82470e2d9561fdb955172dad119700d0ea",
+      "sha256_atual": "8c70c2c4ea8e155b5ea6c8bd546f98a90fd7c6c35bf03501d9d5af6cc6bc40c1",
+      "motivo": "Passo 5 da migração, segunda parte (v0.338): a tabela de PE total da peça 1 §5.3 passou a ser a tabela, e não cópia do manual v7; nenhum número mudou. Esta unidade não reproduz o trecho."
+    }
+  ],
+  "cotejo_v0338_conferido": "Diff lido: só o passo 5 da migração (segunda parte) nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
+}

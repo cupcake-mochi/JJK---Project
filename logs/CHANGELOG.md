@@ -8,6 +8,148 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.339] — 06/10/2026
+
+**O R28a virou o livro principal do repositório.** *Decisão do Mizuki: "coloque o pdf do novo livro como principal", e, perguntado entre a candidata, o R28a e os dois, "R28a".* **O PDF dele (`Ciclo Maldito | Livro de regras`, 498 páginas) entrou em `sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf`, e o README abre por ele.**
+
+**O que não mudou, e por quê:** *os PDFs `Projeto-M-Manual-da-Guilda*` da mesma pasta são a edição v0.331, e o verificador do livro reconstruído os confere por hash como "livro e exportações preservados"; sobrescrever um deles reprovaria os 23 capítulos.* **O livro reconstruído continua sendo a fonte das peças e dos validadores.** *O README avisa que a D43 e a D44 ainda não estão no R28a: elas valem na mesa e entram nele pelo gerador do Mizuki, que não está aqui.*
+
+**Validação:** bateria de 30 de 30, com o pulo de sempre (a 7, da entrega). *O Bastião guarda este CHANGELOG por hash e ganhou o cotejo, e o ZIP foi montado de novo. O PDF do livro reconstruído não mudou.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: o capítulo de Dano sem o Morrendo, e depois o passo 5b.
+
+---
+
+## [0.338] — 06/10/2026
+
+**O passo 5 da migração, segunda parte: as tabelas de mestre do manual do Fundamento v7 ganharam dono em peça.** *Eram a seção `Para o mestre` do manual, que o livro reconstruído não tem, e na v0.337 ainda eram lidas do gerador.* **Nenhum número mudou.**
+
+**Alterado, nas peças:** *a tabela `Inimigos` e a prosa dela (os `90%`, as três rodadas, o esquadrão, as linhas de Integridade e Reação) foram para a peça 26 §3.0, e as citações da peça a ela passaram a apontar o §3.0; a curva da Rotina foi para a peça 05 §2.1; a curva `20 + 8 × (nível − 1)`, em que os estágios de Integridade foram calibrados, foi para a peça 24 §2; a tabela de PE total da peça 01 §5.3 deixou de ser cópia e virou a tabela.* **A escolha de cada dono é a peça que já usava a tabela** *(proposta na v0.337, aceita pelo Mizuki: "Okey, pode fazer").*
+
+**Alterado, nos validadores:** *o `conferir-acao`, o `-alma`, o `-atributos`, o `-bestiario`, o `-bloquear`, o `-dano`, o `-invocacoes` e o `-manual` deixaram de ler o `partF.js`; o `conferir-atributos` deixou de guardar a tabela de PE num dicionário e passou a ler a da peça 01.* **E as leituras do Fundamento que ainda iam ao gerador passaram para o livro:** *o `conferir-ritual` (pontos, teto, Liberação, Restrições e Formas), o `conferir-ficha` (Famílias e o alcance do Projétil), o `conferir-bestiario` (pontos por Classe, escada de esfera e os gates da Expansão) e o `conferir-dano` (o `Calado`).* *Os estágios de Integridade passaram a ser conferidos contra o capítulo de Dano do livro, em fração e número; o efeito do estágio 4 mudou lá e espera a revisão do Morrendo. A checagem 12 do `conferir-repositorio` compara agora o degrau das 82 Melhorias e Restrições do livro v0.331 com o do livro reconstruído, que é o dono; o texto saiu da comparação, porque o livro reescreveu todas.* **Saíram sem substituto, por serem cópia do manual:** *a caixa `Integridade` e o glossário dele, e a `4b` do `conferir-manual`.*
+
+**O que ficou para depois, medido:** *o gerador do manual ainda não foi para o arquivo. O `conferir-expansao` confere a Expansão contra o `partE.js`, e trocar essa leitura é migrar o capítulo de Poderes avançados; dois scripts de medição de `manual/matematica` também o leem, e os capítulos do Fundamento e do Catálogo do livro guardam o hash dele como fonte preservada.* **Ele vai para o arquivo junto com os Poderes avançados.**
+
+**Achado na conferência: seis capítulos que nenhum passo do plano migrava** *(Ritual e Pactos, Poderes avançados, Regras gerais, Origens, Rotas e Aptidões e Refino; 114 registros confirmados).* **O `PLANO.md` os pôs como passo 5b, um por versão,** *depois do capítulo de Dano sem o Morrendo.*
+
+**Validação:** bateria de 30 de 30, com o pulo de sempre (a 7, da entrega). **Teste negativo numa cópia isolada:** *mudar o dano do chefe no nível 30 da peça 26 acende o `conferir-acao`, o `-atributos`, o `-bestiario`, o `-dano` e o `-invocacoes`; mudar a Rotina da Classe 3 na peça 05 acende o `conferir-acao` e o `-manual`; mudar o PE total da peça 01 acende o `-atributos` e o `-manual`; mudar a curva de calibração, uma fração dos estágios no livro ou a fração da Integridade do §3.0 acende o `conferir-alma`; mudar o teto de dados no livro acende o `conferir-ritual`, o alcance do Projétil acende o `conferir-ficha`, e o degrau da `Sobrecarga` no livro acende a checagem 12.* *As unidades das Regras gerais, da Progressão e do Catálogo guardam por hash as peças 01 e 26, e o Bastião guarda este CHANGELOG: todas ganharam o cotejo, e o ZIP foi montado de novo. O PDF do livro não mudou.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: o capítulo de Dano sem o Morrendo, e depois o passo 5b.
+
+---
+
+## [0.337] — 06/10/2026
+
+**O passo 5 da migração, primeira parte: o manual do Fundamento em `.docx` deixou de ser fonte.** *Os sete validadores que o abriam (`conferir-acao`, `-bestiario`, `-dano`, `-manual`, `-nomes`, `-pericias` e `-progressao`) passaram a ler o livro reconstruído, e nenhum validador precisa mais do `python-docx`.* **Decisão do Mizuki de 05/10/2026 (PLANO, decisão 1):** *o Fundamento passa a ter um dono só, o livro.*
+
+**Adicionado:** *`sistema/03-mecanica/livro.py`, o leitor do livro.* **Ele só acha e picota** *(unidade, título, tabela, página, e o Catálogo montado das marcas de página: nome, tipo, preço e Família de cada entrada); nenhum número de regra mora nele.* *O Catálogo do livro bate nome a nome com o do `.docx`: 69 Melhorias, 19 Restrições e 18 Talentos, com os mesmos preços.*
+
+**Alterado, nos validadores:** *o `conferir-progressao` confere seis colunas da peça 18 contra as duas tabelas de nível do livro (eram três, lidas de frase do `.docx`); o `conferir-pericias` bate os nomes de perícia contra o Fundamento, o Catálogo e os Poderes avançados, com cinco colisões novas lidas no contexto e declaradas; o `conferir-dano` lê as treze condições dos títulos do capítulo de Dano; o `conferir-nomes` monta o vocabulário do livro; o `conferir-acao` compara a duração da `Concentrada` e da `Duradoura` em minutos por Classe, porque o livro escreve a tabela de outro jeito; o `conferir-manual` passou a conferir o Fundamento do livro, e o `conferir-bestiario` lê a tabela `Inimigos` do gerador.* **Três tabelas não existem no livro** *(a `Inimigos`, a curva da Rotina e o PE total por nível)* **e são lidas do gerador do manual (`partA.js` e `partF.js`), que era de onde o `.docx` saía.** *A `4b` do `conferir-manual`, que conferia o `.docx` contra o gerador, saiu com ele. A `9.1` do `conferir-repositorio` deixou de medir puladas (são zero nos 27) e passou a acusar quem voltar a abrir o `.docx`.*
+
+**Alterado, nas peças:** *peça 08, o passo do equipamento pede a situação, o TR e as perícias do `Traje` (AB24); peça 12, o oitavo feito do limiar saiu (PRO38) e a §9.1 lista as lacunas da Progressão que a candidata fechou; peça 18, o dono das colunas de Classe, Talento e Classe 0 é o livro; peça 19, o `Lento` corta também as distâncias concedidas, como a do `Passo` (FU-26), e a distribuição dos tipos de dano se escolhe na criação (FU-09).* *O `renomes.py` deixou de traduzir o `.docx`, e o README, o `ESTADO-ATUAL`, o `LEIA-ME` e o `subir.sh` pararam de mandar instalar o `python-docx`.*
+
+**O que a troca achou:** *o livro fechou o combo de Melhorias sem a exceção do mestre que o v7 deixava; a `Base por Classe` deu linha própria à `Onda`; a escada de frequência do `Efeito Próprio` saiu do livro e sobrevive só na peça 11 §6.7; o `inimigo fraco` do `Peso da Presença` virou a categoria `Capanga`.* **E uma fora do passo: o livro tem quinze tipos de dano, com `Força` entre os Especiais, e as peças 01 e 19 têm catorze.** *Veio de uma rodada anterior do capítulo de Dano, sem registro no inventário do lote final.* **O passo 1 tinha atribuído os 137 registros do Fundamento e do Catálogo à peça 17**, *que é o índice das entregas de Caminho; o dono era o `.docx`, e agora é o livro.*
+
+**Por que o passo ficou em duas partes:** *treze arquivos leem o `manual/gerador` direto, e não o `.docx`.* **Arquivar o gerador agora quebraria os treze**, *e três tabelas que só ele publica precisam de dono antes.*
+
+**Validação:** bateria de 30 de 30, com o pulo de sempre (a 7, da entrega), e os 27 validadores com o `python-docx` bloqueado, todos com zero puladas. **Teste negativo numa cópia isolada, validador a validador:** *mexer numa linha da tabela de Progressão do livro, numa condição, no preço da `Condição`, no multiplicador da `Dívida`, nos vetos do `Rápido` e da `Reação`, na escada de horas da `Duradoura`, no preço da `Concentrada`, nos tiros da `Rajada`, na coluna `Leve` da tabela de Classe, no desconto de Família Livre, no limite de Melhorias, na parede do `Anteparo`, num Talento, na tabela da `Regra Própria`, no custo da Categoria 2, no número da `Mão Firme`, na saída da `Cerca`, num grau de cobertura, no alcance de Classe 0 da `Onda`, no raio da `Aura` e na frase do combo acende a checagem dona.* *Os dois contra-testes ficaram verdes: um título `Remoção` dentro das condições é pulado de propósito, e mexer no dano do Classe 0 não acende nada — como já não acendia com o `.docx`, porque a tabela só alimenta o contra-teste da `4e`.* *As unidades da Progressão e dos Poderes avançados guardam por hash as peças 12 e 18, e o Bastião guarda este CHANGELOG: todas ganharam o cotejo, e o ZIP foi montado de novo. O PDF do livro não mudou.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: a segunda parte do passo 5.
+
+---
+
+## [0.336] — 06/10/2026
+
+**A `Execução Preparada` da Vanguarda passou a impor `−2`.** *A v0.335 mediu que ela valia até `0,12` fatia, contra `1,18` da `Não Pega` que substituiu.* **Decisão do Mizuki (D44):** *"Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema".*
+
+**Alterado, na candidata:** *um número no capítulo da Vanguarda (`VG-REV-05`), com a revisão editorial por delta, o PDF do capítulo refeito e a página 6 aberta.* **O livro reunido mudou só na página 90**, *que foi aberta; a cadeia visual, o V14, o V15 (865 registros), os manifestos e o ZIP foram refeitos, e o ZIP reproduziu o PDF numa pasta isolada.* *A Consulta guarda o capítulo da Vanguarda como dono conferido e ganhou o cotejo.*
+
+**Alterado, no repositório:** *a peça 06 publica a `Execução Preparada` no degrau do nível 7, com `0,23` fatia (o teto da medida com `−2`), e a Vanguarda fica em `1,15`: `−1,21` contra o degrau grande, por decisão escrita.* **O `conferir-manual` (checagem 6) continua conferindo a conta da tabela contra a diferença declarada;** *o teto de `0,50` vale para o Bastião e para qualquer degrau novo, e a Vanguarda só passa dele com a D44 escrita na peça.* *O script da medida lê o redutor da candidata, então refaz a conta sozinho se ele mudar de novo.*
+
+**Validação:** bateria de 30 de 30, com o pulo de sempre (a 7, da entrega). **Teste negativo numa cópia isolada:** *tirar a decisão escrita da peça, pôr o Bastião acima do teto ou desencontrar a tabela da frase acende a checagem 6.* **As 23 unidades da candidata passam, e o `conferir_livro` faz 3.505 verificações sem falha.** *O Bastião guarda este CHANGELOG por hash e ganhou o cotejo antes da montagem do ZIP.*
+
+**Pendente:** *o R28a, que é o livro do Mizuki, precisa receber a D43 e agora a D44 pelo gerador dele, que não está neste repositório.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: o passo 5.
+
+---
+
+## [0.335] — 06/10/2026
+
+**O passo 4 da migração: equipamento, Invocações e Caminhos.** *O inventário de registros não cobria tudo o que a candidata mudou em equipamento — várias regras entraram nas rodadas anteriores do capítulo (`equipamento/lote-02-r2` a `lote-08` e as duas revisões de carga), aprovadas junto com a candidata e sem registro no lote final.* **Por isso o capítulo inteiro foi comparado com as peças 14, 16 e 21, e não só os 20 registros.**
+
+**Alterado, peça 14:** *a propriedade `Leve` em 19 armas e a `Discreta` no `Taco`; o `Volume` escolhido arma a arma, no lugar da régua das propriedades (o catálogo pesa `64,9`), e o do `Traje` `1` (`0,3`) e do `Broquel` (`0,5`); as bestas com um virote (decisão do Mizuki de 04/10, EQ25); a munição como estoque, com preço, `Volume`, recarga parcial e munição inicial; o Revólver a `¥150.000`; o `Traje` dando vantagem num tipo de TR e em perícias iguais à Maestria; o arrasto e o transporte em grupo; e uma seção nova com o manejo — vestir, retirar, escudo, sacar, acesso e patente inicial.* **Duas eram mais velhas que a candidata:** *a `Força 1` da `Espingarda` e do `Rifle` e a penalidade sem a Força da arma (metade do deslocamento e sem Destreza na Defesa) estavam no livro desde a v0.176, e as peças 14 e 19 nunca acompanharam.*
+
+**Alterado, peça 16:** *o catálogo da rodada `lote-08`, refeita a pedido do Mizuki ("poderes por grau, poucos benefícios numéricos"): dez `Estigma` mudaram de regra — `Fiel`, `Aferido`, `Presságio`, `Perene`, `Quebranto`, `Avulsa`, `Insondável`, `Anátema`, `Contrapeso` e a redação do `Cisão` — e sete entraram.* **O preço dos sete novos, do `Anátema` e do `Quebranto` não foi medido**, *e fica no §9 da peça.*
+
+**Alterado, peças 20 e 21:** *a rota de arma da Técnica Marcial segue o Equipamento restrito (R10-37); o objeto amaldiçoado ganhou o que a candidata pôs na mão do mestre.*
+
+**Invocações e Caminhos:** *a peça 15 já era registro histórico, e o texto jogável dos Caminhos mora na edição integrada congelada.* **As duas passaram a apontar o livro reconstruído como dono**, *e o `PLANO.md` da migração lista onde o texto antigo diz o contrário: 18 dos 40 registros de Invocações e 20 dos 60 dos Caminhos.* **Na peça 06 mudaram a troca de Trilha entre missões, o nome das entregas da rota `Arma de Fogo` e a frase do Emanador.**
+
+**Decidido que não cabe a mim:** *a `Execução Preparada` (D42) foi medida pela régua do degrau do nível 7, com script novo que reproduz os `1,18` da `Não Pega` antes de medir (`sistema/01-pesquisa/medicao-v0335/conta-execucao-preparada.py`).* **Ela vale entre `0,00` e `0,12` fatia, e o degrau da Vanguarda cai de `2,10` para no máximo `1,04`, contra `2,36` do degrau grande.** *A linha da tabela fica com a `Não Pega` até o Mizuki decidir.*
+
+**Os validadores:** *o `conferir-equipamento` compara o `Volume` das 52 armas, a Força e o `Volume` das proteções com o capítulo de Equipamento da candidata, que passou a ser o dono desses números; o `conferir-ferramenta` conta dezessete `Estigma` e lê da peça quantos são de `Classe 2`; o `conferir-dano` cobra a penalidade nova, com os `3 m` como piso medido.* **Teste negativo numa cópia isolada:** *mudar o `Volume` de uma arma na peça ou na candidata, o peso publicado do catálogo, o `Traje` `1` de volta a leve, a contagem do `Força 3` ou a Força do Rifle na candidata acende o `conferir-equipamento`; cobrar `Leve` estoura o orçamento de 19 armas.*
+
+**Validação:** bateria de 30 de 30, com o pulo de sempre (a 7, da entrega). *Seis unidades da candidata guardam por hash peças que esta versão mexeu, e o Bastião guarda este CHANGELOG: todas ganharam o cotejo, e o ZIP foi montado de novo. O PDF do livro não mudou.* **Um commit de andamento subiu com o `conferir-alma` vermelho** *(a linha do `Cisão` perdeu as duas metades que a checagem 7 cobra) e foi corrigido no seguinte.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: a decisão da `Execução Preparada`, e depois o passo 5.
+
+---
+
+## [0.334] — 05/10/2026
+
+**O sistema passou a se chamar Ciclo Maldito.** *Decisão do Mizuki ("troca tudo pra Ciclo Maldito"), depois de mandar o livro final, o Ciclo Maldito R28a.* O nome vale no livro reconstruído, nos documentos do repositório e nos geradores. `Projeto - M` durou da v0.94 até aqui.
+
+**Alterado, na candidata:** 26 linhas em dez capítulos (Abertura, Dano, Origens, Equipamento, Progressão, Fundamento, Aptidões, Poderes avançados, Ritual e Consulta), mais a capa, o cabeçalho e o título dos 23 geradores de capítulo e do gerador do livro. Cada capítulo ganhou o registro de alteração, a revisão editorial por delta, o PDF refeito, a comparação visual e o cotejo das fontes preservadas onde o auditor guarda o texto antigo por hash. **O livro reunido saiu com 382 páginas, como antes, e o corpo mudou em 21 delas;** as 21 foram abertas, mais a 100 como amostra do cabeçalho novo. Cadeia visual, V14, V15, manifestos das 23 unidades e o ZIP de entrega foram refeitos, e o ZIP foi desempacotado numa pasta nova e reproduziu o PDF byte a byte.
+
+**Alterado, no repositório:** o `README`, o `sistema/LEIA-ME.md`, o topo do `ESTADO-ATUAL`, a `arquitetura.md` (a pendência do nome ganhou a data da troca), a peça 26 (uma menção) e o gerador do bloco de inimigo (capa, rodapé e autor do `.docx`, que foi regerado).
+
+**O que ficou com o nome antigo, de propósito:** os nomes de arquivo `Projeto-M-*` (o PDF e o ZIP da candidata, os PDFs do livro v0.331), porque validadores e manifestos apontam para eles; o livro v0.331 congelado e o gerador dele (`05-material/livro/build`); os registros históricos (este CHANGELOG, o `ESTADO-ATUAL` abaixo da seção nova, os pilotos editoriais, os prompts antigos da raiz e as pesquisas); e o bestiário, que tem passada própria.
+
+**Os validadores:** nenhum lia o nome, só os nomes de arquivo, que ficaram. O `conferir-nomes` passou a tratar `Projeto - M` e `Projeto M` como nome aposentado, liberado no `ESTADO-ATUAL` (o histórico) e em linha que conta a troca. A triagem dá `Ciclo Maldito` e `Ciclo` livres.
+
+**Validação:** bateria de 30 de 30 nos validadores, no `conferir-repositorio` e nas contas do manual, com o pulo de sempre (a 7, da entrega). As 23 unidades da candidata passam no auditor e no conferidor, e o `conferir_livro` faz 3.505 verificações sem falha. *Duas unidades guardam por hash um arquivo que esta versão mexeu fora da candidata:* o Bastião guarda este CHANGELOG, e o Catálogo, a peça 26. As duas ganharam o cotejo, e o ZIP foi montado de novo depois disso.
+
+**Pendente:** o `bloco-de-inimigo.pdf` continua sem refazer (o LibreOffice da nuvem não abre `.docx`), agora com dois motivos. O R28a já tem o nome; falta a D43, que entra pelo gerador dele, fora deste repositório.
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: o passo 4.
+
+---
+
+## [0.333] — 05/10/2026
+
+**O passo 2 da migração fechou: a família da `Passiva` virou a do livro reconstruído.** `Passiva` virou `Talento`, `Classe Passiva` virou `Categoria de Efeito` (a sigla `CP`, `CE`), `Passiva Livre` virou `Expressão da técnica` e `Passiva Própria` virou `Talento Próprio` — os NT04 a NT06 da migração de nomes da candidata. *`passiva` com minúscula é adjetivo comum (*"proteção passiva"*, *"refino passivo"*) e ficou.*
+
+**Alterado:** vinte peças (223 linhas, a maior parte na peça 11), mais a pesquisa, o esqueleto, o `DESENHO-trilhas` e a `LISTA-gatilhos-trilhas`, que a checagem de termo morto varre. **`Talento` é masculino, e a concordância foi relida linha a linha:** o determinante troca sozinho no `renomes.py` (*"uma Passiva"* virou *"um Talento"*), e o resto foi à mão — *"Talento pago"*, *"feito à mão"*, *"Talentos de Categoria de Efeito 3"* no lugar de *"Passivas de Classe 3"*. **Dois trechos guardam o nome antigo de propósito:** a triagem da peça 15 (*"`Passiva` estava ocupado"*, que era o nome sendo testado) e a seção da v0.64 da peça 11, que defendia `Classe Passiva` citando o manual; ela agora conta que a escala ganhou nome próprio nesta versão. Os geradores da ficha e do inimigo imprimem `Expressão da técnica` e `Talentos`, e os três `.docx` foram refeitos.
+
+**Os validadores:** o `renomes.py` ganhou a família, e o `conferir-nomes` trata os nomes antigos como termo morto, com a versão certa no aviso. **Cinco validadores procuravam o nome antigo nas peças** — o `conferir-aptidoes`, o `conferir-expansao`, o `conferir-marcial`, o `conferir-progressao` e o `conferir-sem-tecnica`. Os padrões passaram ao nome novo, e o que eles leem do livro v0.331, do `.docx` e do `partE.js` passa pelo `renomes.py` na leitura. *Quatro checagens não eram troca de nome e foram reescritas à mão:* o título e o cabeçalho da seção 4 da peça 11 passam a exigir `Categoria de Efeito`.
+
+**Decidido:** o livro final do Mizuki, o **Ciclo Maldito R28a** (498 páginas), foi comparado com a candidata parágrafo a parágrafo: **3.787 de 3.966 parágrafos batem inteiros, e nenhuma regra difere.** *Ele é a candidata de antes da D43, com outro nome e outra diagramação; o que sumiu foi o glossário antigo (reescrito, mais curto), a seção Referências e adaptação e as folhas de ficha em branco.* **A fonte das peças continua sendo a candidata**, que já tem a D43. O Mizuki decidiu também que o nome **Ciclo Maldito** vale no repositório inteiro (a próxima versão) e que o Morrendo continua fora da migração até ele revisar.
+
+**Validação:** bateria de 32 de 32, com o pulo de sempre (a 7, da entrega). Teste negativo numa cópia isolada: devolver `Classe Passiva 3` ao título da `Energia Reversa` acende o `conferir-aptidoes`; plantar `Passiva Livre` na peça 8 ou `Passiva` na peça 26 acende a 5 do `conferir-nomes`; o cabeçalho antigo na peça 18 acende o `conferir-progressao`. **O contra-teste é tirar a tradução:** sem ela, o `conferir-progressao` lê uma Classe a mais e só uma Categoria de Efeito no `.docx`, e o `conferir-aptidoes` acusa a `Regravação` contra o livro.
+
+**Pendente:** o `bloco-de-inimigo.pdf` não foi refeito — o LibreOffice do ambiente da nuvem não abre `.docx`; o `.docx` está certo, e o PDF sai dele com o comando do `COMO-USAR.txt`.
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: a troca do nome para **Ciclo Maldito**, e depois o passo 4.
+
+---
+
+## [0.332] — 05/10/2026
+
+**A migração do livro reconstruído para as peças começou, pelos nomes.** *O Mizuki autorizou migrar ("e... podemos migrar") e mandou seguir o plano. O passo 1 conferiu os 321 registros de mecânica e a passada dos 76 não mecânicos; o passo 2 troca os nomes, e foi dividido em duas versões porque a família da `Passiva` sozinha tem mais de mil ocorrências.* **Nesta versão:** `Incapacitado` virou `Guarda Aberta`, o `Aviso` virou `Identificar Feitiço` (a Melhoria) e `Leitura de Feitiços` (a Passiva), `Sobre Carregar Energia` virou `Sobrecarregar Energia` e `Reencarnado` virou `Encarnado`. São os nomes do livro reconstruído (NT01 a NT03 da migração de nomes dele, e os registros EMA27 e ORI02 do inventário).
+
+**Alterado:** dez peças (01, 06, 08, 09, 11, 13, 14, 19, 21 e 23, 69 linhas), com o artigo e os pronomes no feminino onde o nome novo pediu (*"o `Incapacitado`"* virou *"a `Guarda Aberta`"*, *"ficar `Incapacitado`"* virou *"ficar com a `Guarda Aberta`"*). *Do `Encarnado` mudou só o nome:* o ORI02 também relê a Origem (o ponto de vista de quem voltou, e não mais a sobrescrita que apagou o hospedeiro), e essa releitura entra quando as Origens migrarem; até lá as peças 09 e 13 conservam o texto da v0.331. O `dados.js` do gerador da ficha troca a Origem; as duas fichas geradas não citam Origem e não mudam. Oito validadores e o `conferir-repositorio.py`: o `conferir-bloquear`, o `conferir-dano`, o `conferir-legados` e o `conferir-catalogo` passaram a aceitar nome de condição com espaço, o `conferir-nomes` trata os quatro nomes antigos como termo morto, e o `conferir-atributos` e o `conferir-objeto` só trocaram o nome nos comentários.
+
+**Adicionado:** `sistema/03-mecanica/renomes.py`, o dono da tabela de renomes. *O livro v0.331, as cópias da edição integrada e o `.docx` do Fundamento ficam congelados com o nome antigo até o passo 5: o capítulo 60 do livro tem de bater com a referência aprovada, que o `conferir-invocacoes` prende por hash.* **Quem compara uma peça com uma fonte congelada traduz o nome por ele:** o `conferir-dano` e o `conferir-nomes` nas listas do `.docx`, o `conferir-manual` na lista de Passivas, o `conferir-catalogo` nos dois lados do cotejo da coleção v0.4, e o `conferir-repositorio` na 10.4, que pergunta se o livro publica cada termo batizado. Não é `conferir-*.py`, e a contagem de validadores não muda.
+
+**Decidido:** o `.docx` do Fundamento sai de fonte no passo 5, e não no 2 (opção A do Mizuki, com o momento medido: sete validadores leem o `.docx`). O Morrendo fica na versão atual, e o passo 3 espera a revisão dele. Os registros históricos (este CHANGELOG, o `ESTADO-ATUAL` abaixo da seção nova, o bestiário e as coleções) conservam o nome da época.
+
+**Validação:** bateria de 32 de 32, com o pulo de sempre (a 7, da entrega, que não fica no clone). Teste negativo numa cópia isolada: plantar `Incapacitado`, `Reencarnado` ou `Sobre Carregar Energia` numa peça acende a checagem 5 do `conferir-nomes`, e devolver o `Aviso` à peça 11 acende a 4k do `conferir-manual`. O contra-teste é a rodada sem tradução: o `conferir-dano`, o `conferir-manual`, o `conferir-catalogo` e a 10.4 do `conferir-repositorio` falharam nela.
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: a segunda metade do passo 2, na v0.333 (`Passiva`, `Classe Passiva` e `Passiva Livre`).
+
+---
+
 ## [0.331] — 02/10/2026
 
 **Adicionado:** Evocador e Incursor completos, com suas seis Trilhas, e o capítulo de Invocações aprovado, incluindo os catálogos comuns do Fundamento e a decisão de treino da entidade. O Manual da Guilda passa a seis Caminhos, dezoito Trilhas e dezenove capítulos. **Malabarista** é o nome aprovado da terceira Trilha do Incursor.

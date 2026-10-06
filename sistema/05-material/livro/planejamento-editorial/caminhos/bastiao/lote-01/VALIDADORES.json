@@ -344,7 +344,7 @@
     }
   ],
   "sem_playtest": true,
-  "sha256_pdf": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+  "sha256_pdf": "de669993af1cd773892f85dbdd18ef7decddec95d75c913c96b4b0339050887c",
   "revalidacao_nomes": {
     "unidade": "caminhos/bastiao/lote-01",
     "sha256_texto": "3334f5e2ff950bc79bbad12ae3f4c2b902e8fbf1539a22e64af7e8826cd14e9d",
@@ -399,5 +399,18 @@
     "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
     "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
     "escopo": "V01–V12 reaproveitados das revisões registradas com revisão do delta de remissões; V13–V15 do PDF entregue estão no dossiê da consolidação. Provas individuais são históricas, não uma segunda edição final."
+  },
+  "revalidacao_2026_10_05_ciclo_maldito": {
+    "sha256_texto_anterior": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+    "sha256_pdf_anterior": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+    "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
+    "sha256_pdf": "de669993af1cd773892f85dbdd18ef7decddec95d75c913c96b4b0339050887c",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 96
+    },
+    "escopo": "Oitava passada (v0.334): só o cabeçalho do PDF mudou (CICLO MALDITO); o texto da unidade é o mesmo, e o corpo das páginas é idêntico pixel a pixel. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

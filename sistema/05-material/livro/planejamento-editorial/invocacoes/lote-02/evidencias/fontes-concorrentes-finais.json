@@ -1,6 +1,6 @@
 {
-  "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
-  "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
+  "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": "b01cc5cfae9cc788d620421fa349ff140182a8a1f1aed16a3e8490aa1e1df32d",
+  "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60",
   "_cotejo_2026_10_04": {
     "fontes": {
       "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": {
@@ -37,5 +37,31 @@
     "motivo": "Delta cotejado: no Fundamento, a exigência de Toque ou Aura no Classe 0 não ocupa a vaga da Restrição Leve (D35), o que Construir invocações já dizia para as entidades.",
     "registro": "../../revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "_cotejo_2026_10_05_d43": {
+    "fontes": {
+      "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": {
+        "sha256_anterior": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
+        "sha256_cotejado": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7"
+      },
+      "sistema/05-material/livro/planejamento-editorial/catalogo/lote-01/CATALOGO.md": {
+        "sha256_anterior": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
+        "sha256_cotejado": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60"
+      }
+    },
+    "motivo": "Delta cotejado (D43): Condição, Prende e Cerca pedem TR mesmo numa ficha de ataque. Construir invocações não repete como as peças entram: a especial com Prende e o +2 na CD de Prende continuam valendo, e a básica com condição Leve segue a regra do Catálogo. Nenhum exemplo do capítulo aplica condição no acerto (o cão do Kaito não aplica condição).",
+    "registro": "../../revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "_cotejo_2026_10_05_ciclo_maldito": {
+    "fontes": {
+      "sistema/05-material/livro/planejamento-editorial/fundamento/lote-01/FUNDAMENTO.md": {
+        "sha256_anterior": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7",
+        "sha256_cotejado": "b01cc5cfae9cc788d620421fa349ff140182a8a1f1aed16a3e8490aa1e1df32d"
+      }
+    },
+    "motivo": "Delta cotejado (v0.334): só o nome do sistema mudou no Fundamento e no Catálogo. Construir invocações não reproduz os trechos.",
+    "registro": "../../revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

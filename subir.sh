@@ -231,8 +231,9 @@ if [ "$falhou" -ne 0 ]; then
 fi
 
 # Pular NAO trava o commit, de proposito: uma biblioteca que falta nao e' regra
-# quebrada. Mas o aviso e' amarelo e aparece em toda rodada, porque cinco dos
-# validadores leem o .docx do manual e sem python-docx eles conferem menos.
+# quebrada. Mas o aviso e' amarelo e aparece em toda rodada. Ate a v0.336 seis
+# validadores liam o .docx do manual e pulavam sem python-docx; desde a v0.337
+# nenhum le, e o conferir-repositorio (9.1) acusa quem voltar a ler.
 if [ "$pulou" -ne 0 ]; then
     echo
     amarelo "Algum validador PULOU checagem — o verde acima vale menos do que parece."

@@ -123,7 +123,7 @@
 | **`Lento`** | `40,37` | `0,5` + deslocamento | `4` | `2,24×` | `Leve` |
 | **`Derrubado`** | `8,45` | `0` | `4` | `0,47×` | `Leve` |
 | **`Agarrado`** | `5,40` | `0` | `4` | `0,30×` | `Leve` |
-| **`Incapacitado`** | `4,95` | `0` | `4` | `0,28×` | `Leve` |
+| **`Guarda Aberta`** | `4,95` | `0` | `4` | `0,28×` | `Leve` |
 | **`Desarmado`** | `3,45` | `0` | `4` | `0,19×` | `Leve` |
 | **`Surdo`** | `0,00` | `0` | `4` | `0,00×` | `Leve` |
 
@@ -161,7 +161,7 @@
 
 **O `Surdo` valia zero, e por isso ele ganhou uma linha na v0.104.** *Até a v0.103 ele só fazia falhar teste que precise de audição, e não existe teste desses em combate neste sistema — era uma condição com preço de `Média` no manual e entrega nenhuma.* **Hoje ele também dá `−2` na iniciativa**, e a conta disso está no §3.7. *Na régua desta seção ele continua em `0,00`, porque iniciativa não é dano — e isso é sobre a régua, não sobre a condição.*
 
-**O `Incapacitado` é a terceira mais barata das treze, e o manual cobrava `Pesada` por ela.** *Metade dela — "você não pode `Bloquear`" — vale praticamente zero, e a peça 23 §5.1 é quem mede.* **A outra metade, o crítico no corpo a corpo, vale `4,95`.** *O que faltava era o tamanho.*
+**A `Guarda Aberta` é a terceira mais barata das treze, e o manual cobrava `Pesada` por ela.** *Metade dela — "você não pode `Bloquear`" — vale praticamente zero, e a peça 23 §5.1 é quem mede.* **A outra metade, o crítico no corpo a corpo, vale `4,95`.** *O que faltava era o tamanho.*
 
 > **⚠⚠ E o `11,00` que ficou publicado da v0.103 à v0.150 não era nenhuma das duas leituras da frase — era metade de uma delas.** *Ele é `2 golpes × 5,5` de dado extra: conta o dado dobrado em **100%** dos golpes, o que só faz sentido se o crítico sempre acertasse, e depois cobra **zero** pelo acerto garantido, que sozinho vale `11,50`.* **Duas metades da mesma leitura, e a peça cobrava uma.** *E a frase "segunda mais barata das treze" era falsa desde a v0.103: com `11,00` ela era a quinta.*
 
@@ -184,11 +184,11 @@
 > | o mesmo, com arma `d12` | `18,45` | **`120%`** |
 > | \+ um `Classe 0` junto do ataque (a `Fornalha`) | `29,25` | `190%` — vira `Média` |
 >
-> **Sem a trava de escopo, uma condição `Leve` passa a entregar por ponto mais que uma `Média` e mais que uma `Pesada`.** *Com o feitiço de Toque `Classe 7` dentro do escopo, o `Incapacitado` vai a `2,70×` contra os `2,32×` do `Calado` e os `2,21×` do `Envenenado` — o degrau mais barato da escada entregando mais que os dois de cima.*
+> **Sem a trava de escopo, uma condição `Leve` passa a entregar por ponto mais que uma `Média` e mais que uma `Pesada`.** *Com o feitiço de Toque `Classe 7` dentro do escopo, a `Guarda Aberta` vai a `2,70×` contra os `2,32×` do `Calado` e os `2,21×` do `Envenenado` — o degrau mais barato da escada entregando mais que os dois de cima.*
 >
 > *⚠ Esta tabela foi medida contra o TETO até a v0.200, quando o teto ainda era o teste, e as colunas de `%` ficam como estão: elas dizem quanto a condição devolve do que aqueles pontos custaram. **O que mudou é qual linha derruba a trava** — antes eram as duas do meio, hoje é só a última.* *A peça 1 §5.2 passou a dizer "dobra só os dados do que rolou o acerto", e a lista de exclusão virou exemplo em vez de ser a regra.* ***Palavras do Mizuki:*** *"dobrar dado de dano é mt coisa".*
 >
-> **⚠⚠ As duas linhas do meio eram `14,40` e `15,30` — `93%` e `99%` — até a v0.158, com `3d6`.** *O refino `10` passou a dar `4d6` naquela versão (peça 11 §6.9), e com isso **a trava de escopo deixou de ser folga**: antes o `Incapacitado` só estourava a `Leve` com arma de duas mãos, agora o soco basta.* **A última linha não se move**, porque a trava `Só arma` do dano na arma já proíbe ele de somar por cima de um `Classe 0` que viajou junto do ataque — os dois nunca aparecem na mesma rolagem.
+> **⚠⚠ As duas linhas do meio eram `14,40` e `15,30` — `93%` e `99%` — até a v0.158, com `3d6`.** *O refino `10` passou a dar `4d6` naquela versão (peça 11 §6.9), e com isso **a trava de escopo deixou de ser folga**: antes a `Guarda Aberta` só estourava a `Leve` com arma de duas mãos, agora o soco basta.* **A última linha não se move**, porque a trava `Só arma` do dano na arma já proíbe ele de somar por cima de um `Classe 0` que viajou junto do ataque — os dois nunca aparecem na mesma rolagem.
 >
 > *A conclusão não depende da dívida de acerto do §2.5:* **a `55%` o número vira `5,50` e a banda não se move.**
 
@@ -208,7 +208,7 @@
 
 **Duas entregam mais que as outras três `Pesada`, e o manual já diz o que fazer com isso.** *O `Cego` fica em `2,56×` e o `Impedido` em `2,67×`, contra `2,21×` das três que negam uma ação e meia e nada mais.* **A regra que o manual dá para a Restrição escrita à mão, virada do avesso, resolve:** *"se a dor que você escreveu parece valer mais que uma Média, ela provavelmente são duas Restrições disfarçadas de uma — separe."* **Uma condição que passa do teto da `Pesada` é mais de uma condição escrita como uma**, e o `Impedido` diz isso no próprio texto: ele é o `Cego` inteiro mais deslocamento zero, que é o que o parágrafo acima já mede em `1,10×`.
 
-> **Eram três até a v0.139, e a terceira era o `Petrificado`, que na régua daquela versão ficava em `217%` do teto da `Pesada`.** *Ele era o exemplar mais claro deste argumento — `Incapacitado`, mais deslocamento zero, mais não perceber nada, mais vantagem para quem ataca, tudo vendido como uma condição só.* **Com ele fora, quem carrega o argumento é o `Impedido`, que prova a mesma coisa com metade da força.**
+> **Eram três até a v0.139, e a terceira era o `Petrificado`, que na régua daquela versão ficava em `217%` do teto da `Pesada`.** *Ele era o exemplar mais claro deste argumento — `Guarda Aberta`, mais deslocamento zero, mais não perceber nada, mais vantagem para quem ataca, tudo vendido como uma condição só.* **Com ele fora, quem carrega o argumento é o `Impedido`, que prova a mesma coisa com metade da força.**
 
 ### 2.5 O que a régua reconstrói, e o que ela conserta
 
@@ -252,10 +252,10 @@
 
 | condição | nível | o que faz |
 |---|---|---|
-| **`Lento`** | `Leve` | seu deslocamento cai pela metade e você não usa Ação Bônus |
-| **`Incapacitado`** | `Leve` | **você não pode `Bloquear`, e todo ataque corpo a corpo que acertar você é crítico** — *só ele: ataque de conjuração e ataque à distância não, e o feitiço de Toque é de conjuração mesmo encostado em você* |
+| **`Lento`** | `Leve` | seu deslocamento cai pela metade e você não usa Ação Bônus. *As distâncias que uma capacidade concede, como a do `Passo`, também caem pela metade (v0.337, FU-26)* |
+| **`Guarda Aberta`** | `Leve` | **você não pode `Bloquear`, e todo ataque corpo a corpo que acertar você é crítico** — *só ele: ataque de conjuração e ataque à distância não, e o feitiço de Toque é de conjuração mesmo encostado em você* |
 | **`Derrubado`** | `Leve` | você está no chão. Só se move rastejando, tem desvantagem nos seus ataques, e quem ataca você **a até 1,5 m tem vantagem** — quem ataca de longe tem desvantagem |
-| **`Agarrado`** | `Leve` | seu deslocamento é `0`. Acaba se quem agarrou ficar `Incapacitado`, ou se alguma coisa tirar você do alcance dele |
+| **`Agarrado`** | `Leve` | seu deslocamento é `0`. Acaba se quem agarrou ficar com a `Guarda Aberta`, ou se alguma coisa tirar você do alcance dele |
 | **`Desarmado`** | `Leve` | a sua arma está no chão ou na mão de outro. Você bate desarmado até pegar de volta |
 
 > **O preço do `Desarmado` descreve a ficha SEM arma reserva, e isso é decisão declarada na v0.188.** *A peça 3 §3.2 dá o primeiro saque do turno de graça, então quem carrega reserva saca outra sem pagar nada e a condição vale `0` para ele.* **As duas metades do `3,45` zeram junto:** *`1,65` são as rodadas socando e `1,80` é a caminhada de `3 m` até a arma — quem tem reserva não faz nenhuma das duas.*
@@ -292,26 +292,26 @@
 | **`Envenenado`** | `Pesada` | desvantagem nos seus ataques e em todo teste de perícia |
 | **`Atordoado`** | `Pesada` | **você perde a Ação Padrão e não usa reação.** *Quem tem mais de uma Ação Padrão no turno — um chefe, um capanga grande — perde **uma**, não todas* |
 
-> **Só as de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só cabe uma delas por feitiço.** *Até a v0.103 essas duas linhas andavam com a `Condição Maior`, que era um pacote de cinco nomes.* **Elas passaram a andar com o degrau de cima porque é ele que precisa de amortecedor** — e as cinco de antes não eram as cinco mais duras: o `Incapacitado` estava lá dentro, e ele é a terceira mais barata das treze.
+> **Só as de nível `Pesada` dão Teste de Resistência no fim de cada turno do alvo, e só cabe uma delas por feitiço.** *Até a v0.103 essas duas linhas andavam com a `Condição Maior`, que era um pacote de cinco nomes.* **Elas passaram a andar com o degrau de cima porque é ele que precisa de amortecedor** — e as cinco de antes não eram as cinco mais duras: a `Guarda Aberta` estava lá dentro, e ela é a terceira mais barata das treze.
 
 > **⚠⚠ As duas colunas viraram uma na v0.104, e a que ficou é o nível.** *Até a v0.103 o manual cobrava `Média` por qualquer uma das nove `Menor` e `Pesada` por qualquer uma das cinco `Maior` — um preço só para coisas que valem de `0,00` a `11,55` fatias.* **Hoje o nível faz as duas coisas:** ele é o preço de **comprar** a condição num feitiço e é o custo em energia de **tirar** ela. *A conta que decidiu isso está no §3.6.*
 
 ### 3.4 As duas que não seguem o d20, e por quê
 
-***Decisão do Mizuki na v0.95.*** **`Atordoado` e `Incapacitado` atacam eixos diferentes, e não se aninham** — o que no d20 são três linhas que herdam uma da outra, aqui são duas que não se tocam.
+***Decisão do Mizuki na v0.95.*** **`Atordoado` e `Guarda Aberta` atacam eixos diferentes, e não se aninham** — o que no d20 são três linhas que herdam uma da outra, aqui são duas que não se tocam.
 
 | | o eixo que ela ataca |
 |---|---|
 | **`Atordoado`** | tira **parte do turno** — uma Ação Padrão e a reação. Você continua se defendendo |
-| **`Incapacitado`** | não tira turno nenhum: tira a **defesa**. Você age e não se protege |
+| **`Guarda Aberta`** | não tira turno nenhum: tira a **defesa**. Você age e não se protege |
 
 > **`Paralisado` não existe como condição, e é decisão.** *Ele era o nome da que hoje se chama `Atordoado`.* **Um terceiro degrau que fosse a soma dos dois só teria sentido se custasse mais que `Pesada`, e a escada de preço do manual não tem degrau acima dela.**
 
-> **⚠⚠ E metade do `Incapacitado` vale zero — mas o motivo mudou na v0.143, e o novo é mais forte.** *Até a v0.142 esta seção dizia que a metade do `Bloquear` não contava porque ele era **regra opcional que nem toda mesa liga**.* **O `Bloquear` virou a peça 23 e passou a valer em toda mesa, e a metade continua valendo zero — por outro motivo:**
+> **⚠⚠ E metade da `Guarda Aberta` vale zero — mas o motivo mudou na v0.143, e o novo é mais forte.** *Até a v0.142 esta seção dizia que a metade do `Bloquear` não contava porque ele era **regra opcional que nem toda mesa liga**.* **O `Bloquear` virou a peça 23 e passou a valer em toda mesa, e a metade continua valendo zero — por outro motivo:**
 >
 > > **O `Bloquear` é NEUTRO por construção.** *A média de `2d10` é `11`, que é exatamente o que a Defesa parada já supõe.* **Tirar de alguém uma rolagem cuja média é o número que ela substitui não tira nada.**
 >
-> *O que sobra são os dois extremos de cerca de `1%` — o `Aparar` e a `Brecha` —, e eles quase se cancelam.* **Medido por enumeração completa das `2.000` combinações, a metade vale `+0,02` de dano por rodada**, e o `Incapacitado` iria para `4,97`. *Abaixo da precisão que esta régua carrega: o golpe simples que entra nela varia `3,0` entre o nível 2 e o 30.* **O número publicado no §2.2 fica em `4,95`.**
+> *O que sobra são os dois extremos de cerca de `1%` — o `Aparar` e a `Brecha` —, e eles quase se cancelam.* **Medido por enumeração completa das `2.000` combinações, a metade vale `+0,02` de dano por rodada**, e a `Guarda Aberta` iria para `4,97`. *Abaixo da precisão que esta régua carrega: o golpe simples que entra nela varia `3,0` entre o nível 2 e o 30.* **O número publicado no §2.2 fica em `4,95`.**
 >
 > **Esta peça não precisa saber a geometria do `Bloquear` — ela precisa saber que ele é neutro, e quem prova isso é a checagem 1 do `conferir-bloquear.py`.** *É a única checagem do projeto que existe para sustentar um número de outra peça: se a neutralidade quebrar, o preço desta condição fica errado e ninguém mais estaria olhando.*
 
@@ -334,16 +334,16 @@
 | | pior espalhamento dentro de um degrau |
 |---|---|
 | o manual até a v7.8 | **`17,00×`** — o `Impedido` contra o `Desarmado`, os dois por `Média` |
-| promover as três, mantendo os dois pacotes | `9,11×` — o `Petrificado` contra o `Incapacitado` *(medido na v0.104, com o `Petrificado` ainda na lista)* |
+| promover as três, mantendo os dois pacotes | `9,11×` — o `Petrificado` contra a `Guarda Aberta` *(medido na v0.104, com o `Petrificado` ainda na lista)* |
 | **o nível como preço** | **`4,26×`** — o `Lento` contra o `Desarmado` |
 
 > **O filtro de dominância deste projeto reprova a partir de `3,00×`.** *Nenhuma das três passa* — e a razão disso não era a escolha, era a escada: **`4,26×` era o piso de qualquer corte em três degraus.** *Busca exaustiva sobre as catorze, na v0.104; nenhuma outra partição em três fazia melhor.* **O que sobrava de dominância era o preço de a tabela do manual ter três degraus e as condições valerem de `0,00` a `100,25` de dano por rodada.**
 
-> **⚠⚠ A v0.139 tentou refazer o corte depois de o `Petrificado` sair, e a tentativa REPROVOU.** *Com treze condições, uma busca exaustiva sobre o espalhamento acha uma partição de `2,44×` — a que sobe o `Lento` e o `Incapacitado` para `Média`.* **Ela foi aplicada, rodada contra os validadores, e desfeita.**
+> **⚠⚠ A v0.139 tentou refazer o corte depois de o `Petrificado` sair, e a tentativa REPROVOU.** *Com treze condições, uma busca exaustiva sobre o espalhamento acha uma partição de `2,44×` — a que sobe o `Lento` e a `Guarda Aberta` para `Média`.* **Ela foi aplicada, rodada contra os validadores, e desfeita.**
 >
-> **O que ela quebrou é a checagem 3, que é o invariante desta peça:** *o valor medido de cada condição tem de cair na **banda** que o nível dela implica, e as bandas saem da tabela de preço do manual — `1/7`, `2/7` e `3/7` da Rotina.* **No nível 30 o teto da `Leve` é `15,43` de dano por rodada. O `Lento` vale `14,70` e o `Incapacitado` valia `11,00`: os dois cabiam em `Leve` pela conta.** *Pôr os dois em `Média` faz o jogador pagar preço de `Média` por coisa que vale `Leve`.*
+> **O que ela quebrou é a checagem 3, que é o invariante desta peça:** *o valor medido de cada condição tem de cair na **banda** que o nível dela implica, e as bandas saem da tabela de preço do manual — `1/7`, `2/7` e `3/7` da Rotina.* **No nível 30 o teto da `Leve` é `15,43` de dano por rodada. O `Lento` vale `14,70` e a `Guarda Aberta` valia `11,00`: os dois cabiam em `Leve` pela conta.** *Pôr os dois em `Média` faz o jogador pagar preço de `Média` por coisa que vale `Leve`.*
 >
-> **⚠ E a v0.151 refez o `Incapacitado` para `4,95`, o que só fortalece isto:** *ele passou a caber em `Leve` com `68%` de folga, contra os `29%` que a tentativa da v0.139 disputava.*
+> **⚠ E a v0.151 refez a `Guarda Aberta` para `4,95`, o que só fortalece isto:** *ela passou a caber em `Leve` com `68%` de folga, contra os `29%` que a tentativa da v0.139 disputava.*
 >
 > ***A conclusão, e ela é o oposto do que a busca sugeria:*** **a partição não é escolha livre — a banda a obriga.** *Ela força `6 Leve · 2 Média · 3 Pesada`, mais o `Impedido` e o `Cego` acima do teto, que é exatamente o que está publicado.* **O `4,26×` do degrau `Leve` é o preço de obedecer a banda, e não falta de otimização.**
 >
@@ -353,7 +353,7 @@
 
 | sobe | `Cego`, `Impedido` e `Envenenado`, de `Média` para `Pesada` |
 |---|---|
-| **desce** | `Enfeitiçado` de `Pesada` para `Média`; `Lento`, `Incapacitado`, `Derrubado`, `Agarrado`, `Desarmado` e `Surdo` de `Média` para `Leve` |
+| **desce** | `Enfeitiçado` de `Pesada` para `Média`; `Lento`, `Guarda Aberta`, `Derrubado`, `Agarrado`, `Desarmado` e `Surdo` de `Média` para `Leve` |
 | **fica** | `Amedrontado` e `Atordoado` em `Pesada`; `Calado` em `Média` |
 
 > **O `Impedido` deixa de ser a melhor compra da tabela de Controle.** *Ele entregava `11,55` fatias pelo mesmo preço que o `Desarmado`, que entrega `0,68`.* **Era a maior dominância viva do manual, e a régua da seção 2 existia para achar ela.**
@@ -407,6 +407,8 @@
 
 > **⚠ O `Alma` é o único dos catorze que não bate só na vida, e a máquina dele NÃO é desta peça.** *Ele tira `1` de vida e `1` de Integridade, e tem quatro estágios em cima disso.* **Tudo isso é a peça 24**, que fechou na v0.145 — *aqui ele é um tipo de dano como os outros treze, e é só isso que esta peça afirma sobre ele.*
 
+**A distribuição dos tipos se escolhe na criação da ficha** *(v0.337, FU-09: o Fundamento do livro reconstruído fechou a lacuna).* **Um feitiço com mais de um tipo declara quanto vai em cada um quando é montado, e ela não muda depois de conhecer a resistência do alvo.**
+
 **Os Temas do manual não são taxonomia, e é por isso que esta lista existe.** *Decisão do Mizuki:* eles são **exemplos para quem cria técnica**, não uma classificação fechada do que o dano pode ser. **A colisão entre as duas coisas é aceita e fica declarada** em vez de esquecida:
 
 | o tipo | colide com |
@@ -453,9 +455,9 @@
 
 ### 5.1 Quem cita esta escala, e o que ele não pode fazer
 
-**O manual usa esta tabela e não a copia.** *Duas entradas dele compram furar cobertura: a Melhoria `Sem Cobertura` (`Leve`) e a Passiva `Afinidade` (Classe 3), e as duas nomeiam a `Parcial`.* **A checagem 7 do `conferir-manual.py` falha nas duas direções** — se o manual nomear um grau que não está aqui, e se ele repetir os bônus, que são desta seção.
+**O manual usa esta tabela e não a copia.** *Duas entradas dele compram furar cobertura: a Melhoria `Sem Cobertura` (`Leve`) e o Talento `Afinidade` (Classe 3), e as duas nomeiam a `Parcial`.* **A checagem 7 do `conferir-manual.py` falha nas duas direções** — se o manual nomear um grau que não está aqui, e se ele repetir os bônus, que são desta seção.
 
-> **⚠ Até a v0.161 as duas citavam graus que este sistema não tem.** *A Melhoria dizia `cobertura leve e meia cobertura` e a Passiva dizia `cobertura leve`.* **Rastreados nos PDFs de referência:** *`cobertura leve` é do **GURPS 4e**, onde nem grau é — lá é um `−2` de tiro —, e `meia cobertura` é o **half cover** do D&D 2014.* **Os dois apontam para obstrução parcial, que aqui é a `Parcial`, e nenhum dos dois é o degrau de `+5`.**
+> **⚠ Até a v0.161 as duas citavam graus que este sistema não tem.** *A Melhoria dizia `cobertura leve e meia cobertura` e o Talento dizia `cobertura leve`.* **Rastreados nos PDFs de referência:** *`cobertura leve` é do **GURPS 4e**, onde nem grau é — lá é um `−2` de tiro —, e `meia cobertura` é o **half cover** do D&D 2014.* **Os dois apontam para obstrução parcial, que aqui é a `Parcial`, e nenhum dos dois é o degrau de `+5`.**
 
 ### 5.2 Comprimir a escada foi medido na v0.162, e a conta reprova
 
@@ -483,7 +485,9 @@
 **Três documentos apontavam para cá:** *a peça 14 §8 item 15, a peça 16 §9, e a seção "em aberto" desta peça.* **A peça 14 fecha as 52 armas, a divisão simples/marcial e o requisito de Força, e nenhum dos três dizia o que acontece com quem pega uma arma que não é dele.**
 
 > **Sem treino na categoria, você tem desvantagem na rolagem de ataque com aquela arma.**
-> **Sem o requisito de Força da arma, o seu deslocamento cai `3 m` enquanto você a estiver empunhando.**
+> **Sem o requisito de Força da arma, o seu deslocamento cai pela metade e você não soma Destreza na Defesa enquanto a estiver empunhando.**
+
+> ***v0.335: a linha acima é a do livro desde a v0.176, e esta peça só acompanhou agora.*** *Até a v0.334 ela dizia "o seu deslocamento cai `3 m`". Na revisão do Word (v0.176) o Mizuki trocou a penalidade, o capítulo 50 do livro v0.331 publicou a nova, e a candidata repete.* **A conta desta seção foi feita com os `3 m` e fica como piso:** *a penalidade de hoje tira mais nas duas parcelas — num deslocamento de `9 m` a metade são `4,5 m`, e a Destreza sai da Defesa —, então a razão contra a arma inteira só cresce, e a conclusão de porta fechada vale com folga.* **Ela não foi refeita com o valor novo.**
 
 ### A do requisito atravessou inteira; a do treino precisou de tradução
 
@@ -582,7 +586,7 @@
 | **2** | **contra-teste: a razão publicada some da peça** | acende | acende |
 | 2 | **contra-teste:** mexer em prosa sem mexer em número | verde | verde |
 | 9 | **contra-teste:** mexer no texto de outro degrau do `Punho` | verde | verde |
-| **2** | **o `Incapacitado` volta para o `11,00` da v0.150** | acende | acende |
+| **2** | **a `Guarda Aberta` volta para o `11,00` da v0.150** | acende | acende |
 | **1** | **o escopo do crítico some da peça 1** | acende | acende |
 | **1** | **o dado do soco muda na peça 14 e o valor publicado não** | acende | acende |
 | **2** | **contra-teste: os DOIS mudam juntos — `d12` e `5,85`** | fica verde | fica verde |
@@ -617,7 +621,7 @@
 
 - ~~**A `Cicatriz` continua sem mecânica.**~~ ***FECHADA na v0.171, e não aqui: na peça 1 §5.5.*** *A peça 24 §6.3 já tinha medido o recorte na v0.145 e devolvido ela para lá — a `Cicatriz` é consequência de cair a `0` de vida, e não de condição nem de dano de alma.* **Ela não entra na régua da seção 2 desta peça, e por isso não é entrada de catálogo:** *vantagem em `Intimidação` e desvantagem em `Persuasão`, as duas `Essência`, sem preço em fatia — a troca acontece dentro de um poço só.* **E a segunda pergunta fechou junto: a `Energia Reversa` não limpa Sequela.**
 - **O `Surdo` lê `0,00` nesta régua mesmo depois do `−2` na iniciativa**, e o motivo é a régua e não a condição — ela mede dano por rodada, e a peça 15 §3.1 já publicou que ordem de iniciativa não move dano. *Enquanto a régua for essa, o degrau que contiver o `Surdo` vai ter dominância infinita no papel.* **O que falta é uma régua para o eixo de iniciativa**, e o projeto já tem duas decisões grandes tomadas nele — a saída A das Invocações e a recusa da iniciativa fixa da peça 3 — as duas sem número em fatia.
-- ~~**As condições que impedem `Bloquear`.**~~ **FECHADA na v0.143, e a resposta já estava escrita aqui.** *O rascunho listava surpreendido, caído e agarrado como candidatos e apontava para cá; a peça 23 §5 mediu e concluiu que **só o `Incapacitado`** desliga.* **O §3.4 desta peça já dizia por quê:** *ele é a condição cujo eixo **é** a defesa, e `Atordoado` e `Incapacitado` foram separados em v0.95 justamente para não se aninharem.* **Pôr a linha no `Derrubado` ou no `Agarrado` não seria escrever regra — seria repreçar duas condições que já têm número na régua da seção 2.** *A checagem 5 do `conferir-bloquear.py` lê esta seção e falha se uma segunda condição citar `Bloquear`.*
+- ~~**As condições que impedem `Bloquear`.**~~ **FECHADA na v0.143, e a resposta já estava escrita aqui.** *O rascunho listava surpreendido, caído e agarrado como candidatos e apontava para cá; a peça 23 §5 mediu e concluiu que **só a `Guarda Aberta`** desliga.* **O §3.4 desta peça já dizia por quê:** *ela é a condição cujo eixo **é** a defesa, e `Atordoado` e `Guarda Aberta` foram separados em v0.95 justamente para não se aninharem.* **Pôr a linha no `Derrubado` ou no `Agarrado` não seria escrever regra — seria repreçar duas condições que já têm número na régua da seção 2.** *A checagem 5 do `conferir-bloquear.py` lê esta seção e falha se uma segunda condição citar `Bloquear`.*
 - ~~**Três vagas de `Desliga` da peça 13 esperam esta peça.**~~ ***FECHADAS na v0.104***, e a régua da seção 2 é que as destravou: *o nível de uma condição é número, e o `Desliga` passou a poder apagar condição uma vez com o relógio saindo do nível dela.* **As três são o `Revezamento` (`Impedido`), o `Usado` (`Derrubado`) e o `Talhe` (`Agarrado`)**, e as três estão escritas nas tabelas da peça 13.
 
   > **⚠ Esta linha ficou oitenta e seis versões mandando reler três vagas que não existem mais.** *Achada na v0.191, varrendo as seções "Em aberto" das vinte e cinco peças.* **A peça 13 fechou as cinco destravadas na v0.104 e registrou isso lá; esta peça nunca soube.** *A sub-checagem `11.2` passou a ler a contagem de vagas do lado de lá em vez de confiar nesta frase.*

@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -28,7 +28,7 @@ PE são arredondados para cima. Tabelas e exceções expressas já trazem o valo
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -50,7 +50,7 @@ conserva sua própria regra de aquisição.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -121,7 +121,7 @@ funcionam juntas. As regras de ambas estão na seção Kokusen.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -161,7 +161,7 @@ perigosos.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -201,7 +201,7 @@ feitiço.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -232,7 +232,7 @@ Sem PE suficiente para pagar ao menos 1, você não pode usar Projetar Energia.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -279,7 +279,7 @@ apenas por ter Refino 7.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -307,7 +307,7 @@ essa permissão, a aptidão continua limitada a você.
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -347,7 +347,7 @@ continuam valendo.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -386,7 +386,7 @@ também não devolve PE, ações ou recursos gastos para abrir a Expansão anter
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -416,7 +416,7 @@ Constante o leva a 30. Com Melhorado também, basta um dos dois d100 resultar em
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -453,11 +453,11 @@ As aptidões não removem a barreira que prende você na Expansão, nem os benef
 dono dela. Um ataque comum realizado dentro do domínio continua sendo um ataque comum.
 A Expansão incompleta não tem Acerto garantido. Cesta, Domínio Simples e a proteção de Pétala
 contra Acerto não a anulam. Extensão declara a própria exceção. As capacidades descritas aqui são
-regras do Projeto - M para representar essas defesas.
+regras do Ciclo Maldito para representar essas defesas.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -497,7 +497,7 @@ símbolo entre elas não reinicia a contagem.
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -537,7 +537,7 @@ em Duração do Domínio Simples.
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -582,7 +582,7 @@ entre domínios não são Acertos impedidos por esta aptidão.
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -623,7 +623,7 @@ funciona fora de uma Expansão.
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -654,7 +654,7 @@ continua funcionando. Abrir uma nova encerra a Extensão antes da abertura.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
@@ -701,7 +701,7 @@ preparação não o restaura imediatamente: o domo novo só aparece ao concluir 
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
@@ -743,7 +743,7 @@ preparada.
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 APTIDÕES E REFINO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20

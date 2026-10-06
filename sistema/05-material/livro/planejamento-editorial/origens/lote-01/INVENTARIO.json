@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
+  "sha256_texto": "a4d5b8ecc1890827850102e73018ad2d9f1440e6ca06e80dfb6ba87117985e18",
   "legados": [
     {
       "nome": "O Jeito Errado",
@@ -1099,5 +1099,11 @@
     },
     "conferido": "Os 85 Legados têm o texto de \"depois\" presente no manuscrito atual, e as 26 páginas lógicas existem.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_anterior": "0476a3485888acb6e08fc457ce59f7049a5e440f5787c722a9caf062871c91d7",
+    "sha256_atual": "a4d5b8ecc1890827850102e73018ad2d9f1440e6ca06e80dfb6ba87117985e18",
+    "motivo": "Três frases da descrição das Origens trocaram Projeto M por Ciclo Maldito (OR36 a OR38). Nenhum Legado mudou, e a contagem continua 85.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

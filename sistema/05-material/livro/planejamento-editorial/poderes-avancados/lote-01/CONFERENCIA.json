@@ -2,8 +2,8 @@
   "data": "2026-10-03",
   "ok": true,
   "verificacoes": 125,
-  "sha256_pdf": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
-  "sha256_texto": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
+  "sha256_pdf": "4c41e59be6970e3c8c6cf28b648db0b281794e8f68952e2202c0e56c12f38d30",
+  "sha256_texto": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd",
   "checks": [
     {
       "verificacao": "Quantidade de páginas e seções",
@@ -743,8 +743,8 @@
     },
     {
       "verificacao": "Revisão do texto atual",
-      "obtido": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
-      "esperado": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
+      "obtido": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd",
+      "esperado": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd",
       "ok": true
     },
     {
@@ -755,8 +755,8 @@
     },
     {
       "verificacao": "Inspeção do PDF atual",
-      "obtido": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
-      "esperado": "ca95d4275d5a98f31b359bb802411e6e42ec0c3df231639c61b93c28b5dcb8fd",
+      "obtido": "4c41e59be6970e3c8c6cf28b648db0b281794e8f68952e2202c0e56c12f38d30",
+      "esperado": "4c41e59be6970e3c8c6cf28b648db0b281794e8f68952e2202c0e56c12f38d30",
       "ok": true
     },
     {
@@ -817,8 +817,8 @@
     },
     {
       "verificacao": "Cenários usam o manuscrito atual",
-      "obtido": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
-      "esperado": "c0baf131ce40f69b35dc8ec182300f0ce8bec3d52127c3f4e40a53aaefb410d4",
+      "obtido": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd",
+      "esperado": "aaf5f17de0763ee751ba81d0351730f887f63d96e88803fa5dbcd475a671cabd",
       "ok": true
     },
     {

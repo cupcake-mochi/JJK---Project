@@ -54,7 +54,7 @@ class Doc(SimpleDocTemplate):
 def decorate(c,doc):
  c.saveState(); c.setStrokeColor(LINE); c.setLineWidth(.5)
  c.line(M,H-14*mm,W-M,H-14*mm)
- c.setFillColor(ACC);c.setFont('Head',9);c.drawString(M,H-11*mm,'PROJETO - M')
+ c.setFillColor(ACC);c.setFont('Head',9);c.drawString(M,H-11*mm,'CICLO MALDITO')
  c.setFillColor(MUTED);c.setFont('Head',8);c.drawRightString(W-M,H-11*mm,'PODERES AVANÇADOS')
  c.line(M,16*mm,W-M,16*mm)
  c.setFont('Head',8);c.drawString(M,11*mm,'PROPOSTA EM DISCUSSÃO  |  BASE v0.331')
@@ -115,7 +115,7 @@ for pi in range(1,len(parts),3):
   i+=1
  while story and isinstance(story[-1],Spacer):story.pop()
 out=B/'output/pdf/Projeto-M-Poderes-Avancados-Proposta-01.pdf'
-Doc(str(out),pagesize=A4,leftMargin=M,rightMargin=M,topMargin=21*mm,bottomMargin=21*mm,title='Projeto - M | Poderes avançados | Proposta 1',author='Projeto - M',pageCompression=1).build(story,onFirstPage=decorate,onLaterPages=decorate)
+Doc(str(out),pagesize=A4,leftMargin=M,rightMargin=M,topMargin=21*mm,bottomMargin=21*mm,title='Ciclo Maldito | Poderes avançados | Proposta 1',author='Ciclo Maldito',pageCompression=1).build(story,onFirstPage=decorate,onLaterPages=decorate)
 r=PdfReader(out)
 def flatten_outline(nodes):
  for node in nodes:

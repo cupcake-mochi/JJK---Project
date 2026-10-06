@@ -1,11 +1,11 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
 Fundamento
 Uma técnica pode transformar uma luta antes de causar qualquer ferimento: prender uma porta, separar
-dois inimigos ou levar um aliado para fora do perigo. No Projeto - M, você escreve o que a sua técnica
+dois inimigos ou levar um aliado para fora do perigo. No Ciclo Maldito, você escreve o que a sua técnica
 faz e monta as aplicações que o personagem aprendeu a usar.
 O Fundamento é a descrição dessa técnica e dos seus limites. Cada aplicação preparada é um feitiço,
 com nome, custo e efeito próprios. Você mantém o mesmo Fundamento e aprende novas aplicações ao
@@ -36,12 +36,12 @@ substituições e os requisitos dos seus capítulos.
 Espaço de feitiço conhecido é uma vaga na ficha. Nas três rotas, uma dessas vagas pode ser ocupada
 por uma invocação quando o funcionamento da técnica ou do estilo prevê entidades. A contagem e a
 troca estão em Feitiços conhecidos (p. 6).
-Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Projeto - M. As técnicas
+Os nomes Fundamento, Classe, Forma e Melhoria organizam as regras do Ciclo Maldito. As técnicas
 originais destes exemplos foram criadas para ensinar o sistema.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -87,7 +87,7 @@ resistência de um alvo. O catálogo de Dano define cada tipo, incluindo Força 
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -129,7 +129,7 @@ tivesse errado.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -173,7 +173,7 @@ Família reduz somente suas Melhorias.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -219,7 +219,7 @@ efeitos de uma Família Fechada por outro nome.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -277,7 +277,7 @@ troca de nível.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -366,7 +366,7 @@ devolução.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -425,7 +425,7 @@ ficha, com o TR e o resultado definidos. Os procedimentos de conjuração (p. 11
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -493,7 +493,7 @@ requisitos e resolução próprios.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -560,7 +560,7 @@ concede visão através de obstáculos.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -582,6 +582,8 @@ Resultados
 Num feitiço ofensivo resolvido por TR, falhar aplica dano e efeitos nocivos. Passar evita os efeitos
 nocivos e recebe metade dos dados de dano, arredondada para baixo, salvo indicação específica. O teste
 de saída de uma condição Pesada continua existindo mesmo depois da falha inicial.
+Num feitiço de ataque, o acerto não basta para Condição, Prende e Cerca: o alvo acertado faz o TR
+registrado para o Controle e só recebe essas peças se falhar. Veja Controle, no Catálogo.
 Na criação, você pode trocar ataque por TR, ou o contrário, sem mudar pontos. São versões diferentes:
 cada uma ocupa seu espaço, ou substitui a anterior numa reescrita permitida. A troca não transforma
 Cura ou Apoio em ataque automático contra um inimigo.
@@ -602,7 +604,7 @@ esse custo.
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -654,7 +656,7 @@ consequência precisam estar na ficha antes do uso.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -707,7 +709,7 @@ descrição do fio.
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -721,8 +723,9 @@ Limite importante
 Segurar uma criatura no
 lugar.
 Prende, Média.
-O alvo pode gastar uma ação permitida
-pela peça para tentar escapar.
+Entra na falha do TR, mesmo num
+ataque. O alvo pode gastar uma ação
+permitida pela peça para tentar escapar.
 Criar uma parede.
 Anteparo, Média.
 Tem 10 × Classe de vida e dura 1 minuto;
@@ -737,9 +740,10 @@ Deslocamento de até 6 m rumo ao centro
 da área.
 Aplicar uma condição.
 Condição, no preço da condição.
-No máximo uma Pesada. Se for Pesada, o
-alvo repete TR no fim dos turnos para
-encerrá-la.
+Entra na falha do TR, mesmo num
+ataque. No máximo uma Pesada. Se for
+Pesada, o alvo repete TR no fim dos
+turnos para encerrá-la.
 Dano e duração
 Num feitiço comum que tenha uma Melhoria de Controle, os pontos gastos também podem reduzir o
 dano a ponto de reforçar o controle.
@@ -764,7 +768,7 @@ dano por conta própria.
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -802,7 +806,7 @@ move o aliado imediatamente: ele usa o deslocamento no momento em que puder se m
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -841,7 +845,7 @@ segundo dano não volta a saltar. Toque exige que ambos os alvos estejam a até 
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -891,7 +895,7 @@ resolução por rodada. Não usa nem renova a contagem do primeiro inimigo.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
@@ -940,7 +944,7 @@ resultado definido. A criatividade ajuda a escolher a aplicação e o momento de
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
@@ -998,7 +1002,7 @@ sobrenatural e não concede bônus. Os 6 pontos não gastos não produzem outro 
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20
@@ -1056,7 +1060,7 @@ própria progressão e não usam esta conta de ampliação.
 
 
 PÁGINA 21
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 21
@@ -1106,7 +1110,7 @@ para adquirir invocações ou Talentos pagos.
 
 
 PÁGINA 22
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 22
@@ -1153,7 +1157,7 @@ renomear a peça.
 
 
 PÁGINA 23
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 23
@@ -1192,7 +1196,7 @@ acréscimo de dados.
 
 
 PÁGINA 24
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 24
@@ -1241,7 +1245,7 @@ valendo.
 
 
 PÁGINA 25
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 25
@@ -1276,7 +1280,7 @@ usada durante uma luta.
 
 
 PÁGINA 26
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 26
@@ -1334,14 +1338,14 @@ sozinhos.
 
 
 PÁGINA 27
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 27
 Passagem de Papel
 Este exemplo de Técnica Máxima sem dano pertence a um Fundamento que liga superfícies por
 dobraduras. Sua Regra permite unir duas marcas preparadas. Suas Famílias Fechadas são Amparo,
-Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Projeto - M.
+Castigo e Marca. Alcance e Área precisam estar disponíveis. É uma criação original do Ciclo Maldito.
 Montagem
 Forma Efeito (0) + Efeito Próprio: passagem entre marcas (Pesada). Sem desconto de Família. O custo é
 8, 9 ou 11 pontos, conforme a maior Classe seja 5, 6 ou 7. Cabe nos orçamentos 8, 12 e 16. Os dados de
@@ -1386,14 +1390,14 @@ durante o uso.
 
 
 PÁGINA 28
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 28
 Retirada de Emergência
 Esta Máxima sem dano em combate pertence a uma técnica que distribui impulso por fios ligados a
 corpos dispostos. Sua Regra permite conduzir os movimentos desses corpos. Alcance e Área precisam
-estar disponíveis. É uma criação original do Projeto - M.
+estar disponíveis. É uma criação original do Ciclo Maldito.
 Montagem e uso
 Efeito (0) + Efeito Próprio: retirada coletiva (Pesada, sem desconto). São 8/9/11 pontos nas faixas
 17/21/26, dentro dos orçamentos 8/12/16. Sem dano, cura ou vida temporária.
@@ -1427,7 +1431,7 @@ Alterar esses parâmetros exige rever o Efeito Próprio.
 
 
 PÁGINA 29
-PROJETO - M
+CICLO MALDITO
 FUNDAMENTO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 29

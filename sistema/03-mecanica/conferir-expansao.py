@@ -3,7 +3,7 @@
 """Confere a Expansao de Dominio: gates, ordem, preco em espacos e fragilidade.
 
 A Expansao NAO e aptidao e nao mora na peca 11. Ela mora no manual (v7.18), no
-molde de uma Passiva, comprada trocando espacos de feitico conhecido, com gate
+molde de um Talento, comprada trocando espacos de feitico conhecido, com gate
 duplo de nivel e refino, em dois degraus. Este validador existe porque os dois
 gates caem em cima da curva de refino do arquitetura.md 4.3 — a mesma que o
 conferir-aptidoes.py usa —, e no nivel 10 as tres rotas estao COLADAS (5/4/3).
@@ -48,6 +48,10 @@ import os
 import math
 import re
 import sys
+# v0.333: o gerador do manual e o livro v0.331 ficam congelados com o nome antigo da
+# família da `Passiva` até o passo 5; o que vem deles passa pelo renomes.py.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import renomes
 
 ERROS = []
 AVISOS = []
@@ -110,7 +114,7 @@ PRECO = {'incompleta': 2, 'completa': 3}
 _GER_E = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                       '..', '..', 'manual', 'gerador', 'partE.js')
 try:
-    _TXT_E = open(_GER_E, encoding='utf-8').read()
+    _TXT_E = renomes.traduz(open(_GER_E, encoding='utf-8').read())
 except OSError:
     _TXT_E = ''
 
@@ -333,15 +337,15 @@ if PRECO['completa'] - PRECO['incompleta'] != 1:
 # as tres linhas que a peca 11, secao 3, publica
 ESPERADO = {
     'so feitico':                       {14: 12, 20: 16, 26: 21, 30: 24},
-    '3 Passivas C2':                    {14: 6,  20: 10, 26: 15, 30: 18},
-    '3 Passivas C2 + completa':         {14: 3,  20: 7,  26: 12, 30: 15},
-    '5 Passivas C3 + completa':         {14: 0,  20: 0,  26: 3,  30: 6},
+    '3 Talentos C2':                    {14: 6,  20: 10, 26: 15, 30: 18},
+    '3 Talentos C2 + completa':         {14: 3,  20: 7,  26: 12, 30: 15},
+    '5 Talentos C3 + completa':         {14: 0,  20: 0,  26: 3,  30: 6},
 }
 CUSTO_MONTAGEM = {
     'so feitico': 0,
-    '3 Passivas C2': 3 * 2,
-    '3 Passivas C2 + completa': 3 * 2 + PRECO['completa'],
-    '5 Passivas C3 + completa': 5 * 3 + PRECO['completa'],
+    '3 Talentos C2': 3 * 2,
+    '3 Talentos C2 + completa': 3 * 2 + PRECO['completa'],
+    '5 Talentos C3 + completa': 5 * 3 + PRECO['completa'],
 }
 
 print(f"  {'montagem':<28}" + ''.join(f'{f"nv{n}":<8}' for n in (14, 20, 26, 30)))
@@ -361,11 +365,11 @@ print('  O preco nao esta "a definir": ele ja esta travado por tabela publicada.
 # a montagem mais pesada que o manual permite
 pesada = 5 * 3 + PRECO['completa']
 cabe = next((nv for nv in range(2, 31) if espacos(nv) - pesada >= 0), None)
-print(f'\n  A montagem mais pesada legal — cinco Passivas Classe 3 mais a completa —')
+print(f'\n  A montagem mais pesada legal — cinco Talentos de Categoria de Efeito 3 mais a completa —')
 print(f'  pede {pesada} espacos, e cabe a partir do nivel {cabe}.')
 if cabe is None or cabe > 26:
     erro(f'a montagem mais pesada que o manual permite so cabe no nivel {cabe} — o '
-         'teto de cinco Passivas pagas voltou a ser letra morta')
+         'teto de cinco Talentos pagos voltou a ser letra morta')
 
 print(f'\n  {"nivel":<9}{"espacos":<11}{"a incompleta e":<18}{"a completa e"}')
 for nv in (10, 14, 18, 22, 26, 30):
@@ -374,7 +378,7 @@ for nv in (10, 14, 18, 22, 26, 30):
 peso10 = PRECO['completa'] / espacos(10)
 if peso10 > 0.50:
     erro(f'no nivel 10 a completa come {peso10:.0%} da lista — o preco deixou de '
-         'competir com as Passivas e passou a proibir')
+         'competir com os Talentos e passou a proibir')
 
 
 # --------------------------------------------------------------------------
@@ -635,7 +639,7 @@ elif any(n not in ANTIDOMINIO for n in ERGUER) or not ERGUER:
 else:
     # v0.273: a Extensao entrou no erguer, e ela e' a cara DE PROPOSITO ("ela sai cara por
     # isso") — a tabela da secao dela mede o dia. O limite de caber nas lutas de graca vale
-    # para as de Classe Passiva 1 e 2; para ela, o que se confere e' continuar a mais cara.
+    # para as de Categoria de Efeito 1 e 2; para ela, o que se confere e' continuar a mais cara.
     print(f'\n  Erguer custa a maior Classe, toda vez: {", ".join(ERGUER)}. Uma vez por luta, mais o PE')
     print('  de rodada numa luta de 3,5 rodadas, contra o dia de um Bastiao (o menor bolso):')
     print(f"    {'nv':<6}{'Classe':<8}" + ''.join(f'{n[:18]:<20}' for n in ERGUER))
@@ -696,7 +700,7 @@ for nome, (cl, fmt, val) in ANTIDOMINIO.items():
 # --- a Petala (v0.272). Ate a v0.271 este bloco cobrava que ela nunca anulasse o Acerto
 # inteiro ("sempre sobra um", refino/2 por cena). A decisao do Mizuki trocou o contador pela
 # Essencia contra a do dono, e com Essencia maior ela anula; o que fica sao tres coisas.
-_ip = _P11_10.find('### Pétala · Classe Passiva 2')
+_ip = _P11_10.find('### Pétala · Categoria de Efeito 2')
 _sp = _P11_10[_ip:_P11_10.find('\n### ', _ip + 5)] if _ip >= 0 else ''
 _ml = re.search(r'^\| \*\*o dano do Acerto que toca, que você leva\*\* \| (.+?) \| (.+?) \| (.+?) \|$', _sp, re.M)
 _PAL = {'nada': 0.0, 'metade': 0.5, 'tudo': 1.0}
@@ -762,6 +766,7 @@ else:
 # documentos, e a peca 11 e' a dona (licao no 9). Uma copia sem comparacao diverge.
 _L45 = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '05-material', 'livro',
                          'manual', '45-aptidoes-e-refino.md'), encoding='utf-8').read()
+_L45 = renomes.traduz(_L45)
 _ll = re.search(r'^\| o dano do Acerto que toca, que você leva \| (.+?) \| (.+?) \| (.+?) \|$', _L45, re.M)
 _lca = re.search(r'Cada contra-ataque custa `(\d+)` PE', _L45)
 if not (_ll and _lca):
@@ -777,17 +782,18 @@ else:
 # --- a Extensao (v0.273): tres coisas moram em varios documentos, e a peca 11 e' a dona. A
 # caixa do livro dizia nivel 18 enquanto a tabela do mesmo capitulo e a peca diziam 14, desde
 # a v0.176 — nada comparava. Hoje o gate, o que passa acima do teto e o Corpo Amaldicoado.
-_ie = _P11_10.find('### Extensão de Domínio · Classe Passiva 3')
+_ie = _P11_10.find('### Extensão de Domínio · Categoria de Efeito 3')
 _se = _P11_10[_ie:_P11_10.find('\n### ', _ie + 5)] if _ie >= 0 else ''
 _i45 = _L45.find('### Extensão de Domínio\n')
 _s45 = _L45[_i45:_L45.find('\n## ', _i45)] if _i45 >= 0 else ''
 _P09 = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '09-origens.md'), encoding='utf-8').read()
 _L25 = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '05-material', 'livro',
                          'manual', '25-origens.md'), encoding='utf-8').read()
+_L25 = renomes.traduz(_L25)
 _gates_e = {
-    'peca 11, titulo': re.search(r'### Extensão de Domínio · Classe Passiva 3, refino (\d+) e nível (\d+)', _P11_10),
+    'peca 11, titulo': re.search(r'### Extensão de Domínio · Categoria de Efeito 3, refino (\d+) e nível (\d+)', _P11_10),
     'peca 11, as quatro com numero': re.search(r'^\| \*\*Extensão de Domínio\*\* \| 3 · refino (\d+), nível (\d+) \|', _P11_10, re.M),
-    'peca 11, o catalogo fechado': re.search(r'^\| 7 \| \*\*Extensão de Domínio\*\* \| Classe Passiva 3 · refino (\d+), nível (\d+)', _P11_10, re.M),
+    'peca 11, o catalogo fechado': re.search(r'^\| 7 \| \*\*Extensão de Domínio\*\* \| Categoria de Efeito 3 · refino (\d+), nível (\d+)', _P11_10, re.M),
     # so' a linha do Requisito: a primeira forma pendurava o gate na frase do Corpo Amaldicoado,
     # e o contra-teste da v0.273 (tirar o Corpo Amaldicoado dos quatro lugares) acendeu por ela
     'livro, a caixa': re.search(r'^> Requisito: [^\n]*?refino (\d+) e nível (\d+)\.', _s45, re.M),
@@ -852,7 +858,7 @@ if (not _falta_e and len(set(_vals_e.values())) == 1 and all(_le) and len(set(_c
 # (sistema/01-pesquisa/anti-dominios/conta-as-quatro.py, secao 6). Lido so' das CAIXAS: a frase volta no
 # paragrafo que explica, e o defeito da v0.272 e da v0.273 foi justamente ler a explicacao.
 _EXTRA = 'com um Acerto a mais: o do começo do turno do dono continua vindo'
-_ic = _P11_10.find('### Cesta Oca de Vime · Classe Passiva 1')
+_ic = _P11_10.find('### Cesta Oca de Vime · Categoria de Efeito 1')
 _cxc = '\n'.join(l for l in _P11_10[_ic:_P11_10.find('\n### ', _ic + 5)].split('\n') if l.startswith('> ')) if _ic >= 0 else ''
 _ic45 = _L45.find('> **Cesta Oca de Vime** —')
 _cxc45 = _L45[_ic45:_L45.find('\n\n', _L45.find('Se você soltar o símbolo', _ic45))] if _ic45 >= 0 else ''

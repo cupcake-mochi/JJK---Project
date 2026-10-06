@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -46,7 +46,7 @@ separadamente. Ao chegar a zero de vida, siga Vida a zero.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -95,7 +95,7 @@ os mesmos 10 duas vezes.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -120,7 +120,7 @@ quando outras proteções acabam zerando o dano.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -144,7 +144,7 @@ de vida temporária. Perde esses 3, mais 2 de vida e 5 de Integridade.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -187,7 +187,7 @@ derrota por Integridade. Escolher Insistir não permite agir com Integridade a z
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -197,10 +197,11 @@ em que termina e os testes ou ações que permitem encerrá-la. As treze condiç
 Leves, Médias ou Pesadas têm efeitos próprios; uma condição não inclui outra só porque seus nomes
 parecem relacionados.
 Aplicação e duração
-A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. Use a duração
-escrita no efeito. Uma condição criada pela Melhoria Condição dura uma rodada, salvo Concentrada,
-Duradoura ou outra regra específica. Quando o efeito disser apenas uma rodada, ele termina no começo
-do próximo turno de quem o aplicou.
+A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. A Melhoria
+Condição sempre pede TR: num feitiço de ataque, o alvo acertado ainda faz o TR registrado e só recebe a
+condição se falhar. Use a duração escrita no efeito. Uma condição criada pela Melhoria Condição dura
+uma rodada, salvo Concentrada, Duradoura ou outra regra específica. Quando o efeito disser apenas
+uma rodada, ele termina no começo do próximo turno de quem o aplicou.
 Uma manobra pode ter outra forma de término. O agarrão comum dura enquanto a contenção for
 mantida; ser derrubado não faz você se levantar sozinho quando a rodada muda.
 Mais de uma condição
@@ -237,7 +238,7 @@ das treze condições desta lista.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -283,7 +284,7 @@ Aberta continua impedindo Bloquear.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -321,7 +322,7 @@ condição. Um ataque ou efeito ofensivo posterior encerra a condição normalme
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -364,7 +365,7 @@ na ficha do efeito qual TR e qual CD resolvem a saída, conforme as regras de Co
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -390,7 +391,7 @@ recuperação continua sujeito a seus alvos, sua frequência e aos impedimentos 
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -425,7 +426,7 @@ gastar 5 PE, usa esses 4 e mais 1 comum. Termina com 1 PE comum.
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -471,7 +472,7 @@ impedia de agir.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -512,7 +513,7 @@ receber socorro até a próxima volta, fica Derrotado. Não chega a pagar a terc
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -553,7 +554,7 @@ impedimento de cura. Também pode receber cura suficiente para voltar antes da p
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -587,7 +588,7 @@ de uma possibilidade da história e de uma regra ou procedimento capaz de fazê-
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -626,7 +627,7 @@ automaticamente numa maldição.
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -648,13 +649,13 @@ não encerra toda causa de inconsciência. Use a saída da regra que a provocou.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
 Descansos
-O Projeto M usa dois tipos de descanso, definidos pela situação da missão. Não é necessário contar uma
-quantidade fixa de horas.
+O Ciclo Maldito usa dois tipos de descanso, definidos pela situação da missão. Não é necessário contar
+uma quantidade fixa de horas.
 Descanso curto: uma pausa segura entre confrontos. Você parou e não está sendo perseguido naquele
 momento. Descanso longo: a missão terminou e você pôde parar de trabalhar.
 O mestre confirma quando o descanso acontece e se o lugar é propício. Uma pausa contínua conta como
@@ -705,7 +706,7 @@ ao descanso longo descrito aqui.
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
@@ -755,7 +756,7 @@ são da Integridade. Recuperar PE não remove essas penalidades.
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 DANO E RECUPERAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20

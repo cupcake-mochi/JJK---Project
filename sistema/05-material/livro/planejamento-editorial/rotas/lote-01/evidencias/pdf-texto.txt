@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -42,7 +42,7 @@ capítulos.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -72,7 +72,7 @@ Amaldiçoado, embora ele possua energia e aptidões.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -108,7 +108,7 @@ alcance de uma Kata de Toque.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -141,7 +141,7 @@ disponível, respeitando as demais condições.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -169,7 +169,7 @@ receber uma aptidão ou outro benefício além da entrada comprada.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -200,7 +200,7 @@ criação — Talento Próprio, inclusive os limites de sua Categoria de Efeito.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -228,10 +228,11 @@ Gancho fechado
 Iori escolhe Toque + Prende, de Classe 1. Prende é Média e custa 1 ponto nessa Classe. Corpo a Corpo
 já acompanha Toque e devolve 1 ponto, exatamente o gasto. A conta é 3 − 1 + 1 = 3.
 Ficha: Ação Padrão, 3 PE, uma criatura a até 1,5 m. Faça um ataque da Kata. No acerto, cause 3d8 de
-Cortante e aplique Prende até o fim do próximo turno do alvo. Para as tentativas de saída, registre TR
-Físico contra sua CD da Kata.
-Com Força 3 e maestria 1, usando uma arma de Força, o ataque é d20 + 4 e a CD é 12. Prende permite
-gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.
+Cortante, e o alvo faz TR Físico contra sua CD da Kata. Na falha, Prende vale até o fim do próximo
+turno dele. As tentativas de saída usam o mesmo TR.
+Com Força 3 e maestria 1, usando uma arma de Força, o ataque é d20 + 4 e a CD é 12. O acerto sozinho
+não prende: Prende entra na falha do TR. Depois, permite gastar Padrão, Bônus ou Movimento para
+tentar o TR de saída, conforme o Catálogo.
 Repertório
 Iori dispõe de 3 espaços no nível 2. Gancho fechado ocupa um. O Talento Raiz pode ocupar outro. Sobra
 um para outra Kata compatível. Seus dois Classe 0 ficam na lista própria.
@@ -240,7 +241,7 @@ O alcance da arma não altera Gancho fechado.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -284,7 +285,7 @@ armadura pode ocupar outro. O último permanece disponível para uma Kata.
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -315,7 +316,7 @@ entidade pelo procedimento correspondente.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -347,7 +348,7 @@ com a semente. Auge pode causar dano, curar ou produzir outro efeito permitido p
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -381,7 +382,7 @@ catálogo, dispensar seus requisitos sob outro nome ou produzir uma aptidão de 
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -424,7 +425,7 @@ diferentes ações, custos e requisitos.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -465,7 +466,7 @@ vem junto da semente.
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -507,7 +508,7 @@ espaços. Ele não está disponível na criação apenas por ser coerente com a 
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -551,7 +552,7 @@ além dos Classe 0 recebidos separadamente.
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -591,7 +592,7 @@ Lapidação não aumenta seu orçamento de montagem.
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -662,7 +663,7 @@ parecem semelhantes.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
@@ -707,7 +708,7 @@ energia. Também não concede imunidade geral aos efeitos de um domínio.
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
@@ -747,7 +748,7 @@ Marcial.
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20
@@ -780,7 +781,7 @@ consequências do estágio 2. A Bênção não remove o estágio marcado.
 
 
 PÁGINA 21
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 21
@@ -811,7 +812,7 @@ sentidos normalmente. A percepção não altera o alcance de seus ataques ou Kat
 
 
 PÁGINA 22
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 22
@@ -844,7 +845,7 @@ Essência entra uma única vez na CD. O requisito de acesso não acrescenta um s
 
 
 PÁGINA 23
-PROJETO - M
+CICLO MALDITO
 ROTAS DE CRIAÇÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 23

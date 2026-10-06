@@ -1,0 +1,13 @@
+Perturbação das checagens da D43 (05/10/2026), numa cópia isolada do repositório (sem .git).
+Cada linha planta uma troca de texto, confere que o arquivo mudou, roda o auditar.py da unidade e lista as checagens que falharam. A base passa antes e depois.
+
+base catalogo: []  base abertura: []
+Prende volta ao acerto                 -> ['Prende entra na falha do TR, mesmo em ataque', 'Prende: ataque acerta e o alvo passa no TR']
+Cerca volta ao acerto                  -> ['Cerca entra na falha do TR, mesmo em ataque', 'Cerca: ataque acerta e o alvo passa no TR']
+Condição volta ao acerto               -> ['Condição entra na falha do TR, mesmo em ataque', 'Condição: ataque acerta e o alvo passa no TR']
+Pesada recupera a exceção              -> ['Pesada sem a exceção de ataque']
+contra-teste: Puxa entra no escopo     -> ['Puxa fora do escopo da D43', 'Puxa: ataque de área acerta, sem TR']
+abertura do Controle some              -> ['Controle abre com o TR obrigatório']
+Kaori volta ao acerto                  -> ['condicao-pede-tr']
+CD da Kaori errada na tabela           -> ['cd-kaori']
+restaurado catalogo: []  abertura: []

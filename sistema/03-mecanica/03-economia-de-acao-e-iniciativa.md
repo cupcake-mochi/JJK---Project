@@ -64,7 +64,7 @@ Um turno contém quatro recursos, e eles são independentes:
 | **Concentração** | o efeito que já está no ar | **Vigor** | o efeito cai |
 | **Carregar** | o feitiço que ainda não saiu | **Espírito** | o feitiço, e o que você pagou por ele |
 
-A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as letras — *"não perde concentração nem carga por dano de 10 ou menos"* —, porque com a divisão o nome dela sozinho não alcançava mais o Carregar.
+O Talento **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as letras — *"não perde concentração nem carga por dano de 10 ou menos"* —, porque com a divisão o nome dele sozinho não alcançava mais o Carregar.
 
 ### A CD de quem te feriu — v0.253
 
@@ -256,9 +256,9 @@ A Passiva **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 
 *Por que a Ação de Movimento e não a Bônus:* **a Bônus já disputa com `Ímpeto` e `Campo`**, duas das doze Bênçãos, e com o que os Caminhos entregam. *A de Movimento é o único dos quatro slots que ninguém compra por habilidade, então cobrar dela não desliga kit de ninguém — ela cobra posição, que é o recurso que o combate deste sistema já usa.*
 
-> **E isso é o degrau que uma Passiva pode comprar.** *Decisão do Mizuki:* **uma Passiva ou aptidão pode dizer que o segundo saque sai de graça, e ela cabe na Classe Passiva 1** — *"efeito pequeno, condicional, ou de informação"*, pela peça 11 §4. *A `Descarga` da Vanguarda e a `Fiel` da peça 16 já vivem nessa vizinhança.*
+> **E isso é o degrau que um Talento pode comprar.** *Decisão do Mizuki:* **um Talento ou aptidão pode dizer que o segundo saque sai de graça, e cabe na Categoria de Efeito 1** — *"efeito pequeno, condicional, ou de informação"*, pela peça 11 §4. *A `Descarga` da Vanguarda e a `Fiel` da peça 16 já vivem nessa vizinhança.*
 >
-> **✔ E esse degrau ganhou o primeiro exemplar na v0.134: o `Bocado`, na peça 20 §3.3.** *Ele guarda o que você carrega dentro do corpo, e é por isso que o segundo saque sai de graça — a mão não vai à bainha, vai a você.* **Classe Passiva 1, exatamente como esta linha previu.**
+> **✔ E esse degrau ganhou o primeiro exemplar na v0.134: o `Bocado`, na peça 20 §3.3.** *Ele guarda o que você carrega dentro do corpo, e é por isso que o segundo saque sai de graça — a mão não vai à bainha, vai a você.* **Categoria de Efeito 1, exatamente como esta linha previu.**
 
 ### Isso decide contra quem o `Desarmado` foi preçado — fechado na v0.188
 
@@ -416,7 +416,7 @@ O Fundamento já tem, e ela é a regra de ouro nº 6:
 ## 7. O que esta peça deixa em aberto
 
 - **Se ação bônus deve existir mesmo.** Ela é a mais herdada das quatro, e a que mais custa em tempo de mesa: todo turno, todo jogador pergunta "tenho alguma coisa de ação bônus?". Duas peças do Fundamento dependem dela (Rápido e Parado). Vale medir no playtest quantos turnos realmente usam uma.
-- **Quantas reações por rodada.** Uma é o padrão, e quatro coisas competem por ela: ataque de oportunidade, a Melhoria Reação e as Passivas Contramedida e Reforço. Competir é bom — vira escolha. Mas se na prática ninguém nunca tiver reação sobrando, as Passivas de reação ficam mortas.
+- **Quantas reações por rodada.** Uma é o padrão, e quatro coisas competem por ela: ataque de oportunidade, a Melhoria Reação e os Talentos Contramedida e Reforço. Competir é bom — vira escolha. Mas se na prática ninguém nunca tiver reação sobrando, os Talentos de reação ficam mortos.
 - **O valor real de Adianta** (seção 5). Entre 4 e 7 pontos percentuais de efeito médio, abaixo do que uma Média costuma entregar.
 
 *Resolvido e tirado daqui:* o ataque de oportunidade **é ataque físico, rolado como ataque comum e pago com a Reação** — e um conjurador faz um normalmente, com soco ou arma. Conjurar na Reação continua exigindo a Melhoria Reação. A conta está na peça 4, seção 6.

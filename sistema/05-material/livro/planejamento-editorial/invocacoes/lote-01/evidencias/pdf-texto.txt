@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -31,7 +31,7 @@ Classe 2. A Bônus de Kaito continua disponível para outra finalidade.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -61,7 +61,7 @@ básica.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -87,7 +87,7 @@ comum deixou de fornecer.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -115,7 +115,7 @@ recolhê-la e trazer o cão não restaura aquela atuação. Ambos continuam com 
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -143,7 +143,7 @@ caçar alguém em outro andar sem receber uma nova intenção.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -170,7 +170,7 @@ passar, Kaito precisa dar uma nova orientação para mudá-la.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -203,7 +203,7 @@ perde essa classificação por ser resolvida fora do seu turno.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -229,7 +229,7 @@ ganhou outro ataque. O cão ainda pode usar a própria básica para a tarefa que
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -258,7 +258,7 @@ especial.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -288,7 +288,7 @@ ordem deve executar se o impedimento tiver acabado.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -317,7 +317,7 @@ coletiva. A segunda conserva a ordem e espera outra oportunidade com todos os re
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -347,7 +347,7 @@ uma Padrão.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -375,7 +375,7 @@ com o Movimento que restar.
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -408,7 +408,7 @@ feitiço de Classe positiva naquele turno.
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -445,7 +445,7 @@ domada e energia no primeiro turno. No seguinte, paga Bônus e outra básica par
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -472,7 +472,7 @@ A devolução total é 4 PE: 2 para cada pagador. Nenhuma ação ou básica é r
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -498,7 +498,7 @@ num gatilho permitido.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
@@ -528,7 +528,7 @@ mesmo que ainda não tenha usado a própria básica.
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
@@ -565,7 +565,7 @@ O talismã continua ocupando 0,5 de Volume.
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20
@@ -598,7 +598,7 @@ A troca não transporta os dois nem remove os ferimentos de nenhum deles.
 
 
 PÁGINA 21
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 21
@@ -643,7 +643,7 @@ primeiro ser religado.
 
 
 PÁGINA 22
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 22
@@ -674,7 +674,7 @@ da domada e do preço escolhido.
 
 
 PÁGINA 23
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 23
@@ -713,7 +713,7 @@ outra escala; a domada não recebe esses dados maiores.
 
 
 PÁGINA 24
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 24
@@ -753,7 +753,7 @@ Expansão durar até o fim.
 
 
 PÁGINA 25
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 25
@@ -784,7 +784,7 @@ campo, agora caída.
 
 
 PÁGINA 26
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 26
@@ -812,7 +812,7 @@ respeitar o limite para religá-lo.
 
 
 PÁGINA 27
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 27
@@ -839,7 +839,7 @@ campo.
 
 
 PÁGINA 28
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 28
@@ -868,7 +868,7 @@ válida.
 
 
 PÁGINA 29
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 29
@@ -894,7 +894,7 @@ começo do turno seguinte. Não há cobrança dos turnos perdidos.
 
 
 PÁGINA 30
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 30
@@ -928,7 +928,7 @@ obter e usar sua entidade.
 
 
 PÁGINA 31
-PROJETO - M
+CICLO MALDITO
 INVOCAÇÕES EM CAMPO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 31

@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -38,7 +38,7 @@ níveis 2, 11, 19 e 27.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -83,7 +83,7 @@ orientação pode ser uma fala, um gesto ou um sinal combinado que o aliado cons
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -114,7 +114,7 @@ urgência justificar.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -152,7 +152,7 @@ cumpre seus custos. Mei então continua a ação que estava realizando, se ainda
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -185,7 +185,7 @@ antes, a segunda abertura se perde.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -220,7 +220,7 @@ o tipo escolhido.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -252,7 +252,7 @@ na ficha, junto do limite de obras, para não refazer as contas a cada uso.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -288,7 +288,7 @@ dura 40 minutos; uma Passarela ou um Patamar suporta 400 kg.
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -306,7 +306,7 @@ adicional precisa estar livre. A obra conserva a vida restante e o prazo.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -354,7 +354,7 @@ Abertura. Usar Abrir Caminho sem criar uma obra continua custando 1 PE.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -385,7 +385,7 @@ também encerra a Abertura deixada nela.
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -422,7 +422,7 @@ seguintes, dentro do prazo da Abertura.
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -451,7 +451,7 @@ permanecem; a nova leitura ajuda apenas nas tentativas seguintes.
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -471,7 +471,7 @@ aquela ação.
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -506,7 +506,7 @@ Exemplo. Um aliado com 45 de vida, de um máximo atual de 100, pode receber o Cu
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -542,7 +542,7 @@ condição tratável não recebe um Cuidado apenas para guardá-lo.
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 GUIA
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17

@@ -1,0 +1,46 @@
+{
+  "fontes": [
+    {
+      "arquivo": "sistema/03-mecanica/14-equipamento.md",
+      "sha256_anterior": "d3c27c82c54a421ee2039f9986002cd879a61fe74291a5dad800631fc4ce32eb",
+      "sha256_atual": "6f7b0505eaab835839dd90cfa874e0e0aff51e0fe2e11f3088c232bee1556e94",
+      "versao_anterior": "a63faa62fd68940dbba86fde5a1183419c2b2956",
+      "mudou_em": [
+        "789cf5a v0.332: migração, passo 2, primeira metade — os quatro renomes pequenos nas peças"
+      ],
+      "motivo": "Passo 2 da migração (v0.332, commit 789cf5a): só os renomes Reencarnado → Encarnado, Incapacitado → Guarda Aberta (com o artigo ajustado) e Aviso → Leitura de Feitiços, já usados pela candidata desde a reconstrução. Nenhum número ou regra mudou; o diff palavra a palavra só toca esses nomes e os artigos."
+    }
+  ],
+  "conferido": "Diff lido palavra a palavra entre a versão guardada e a atual. O manuscrito desta unidade não cita o texto mudado da peça: usa os nomes novos desde a reconstrução, e os antigos só aparecem na Consulta como nome anterior.",
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+  "cotejo_v0334": [
+    {
+      "arquivo": "sistema/03-mecanica/14-equipamento.md",
+      "sha256_anterior": "6f7b0505eaab835839dd90cfa874e0e0aff51e0fe2e11f3088c232bee1556e94",
+      "sha256_atual": "51308bb50d7eb59a2c6fc6b5478844a7fff47417273b56b9040a239726397932",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/16-ferramenta-amaldicoada.md",
+      "sha256_anterior": "f58e9815b56159bf089c7a6ed336ecc8c172882b2e404b8bc5bb5c4c536f4283",
+      "sha256_atual": "68fd83293d04264bbb94f0b35827252363ea7ce5a3c11a3c1512f8238b59fd0c",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    }
+  ],
+  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0335": [
+    {
+      "arquivo": "sistema/03-mecanica/14-equipamento.md",
+      "sha256_anterior": "51308bb50d7eb59a2c6fc6b5478844a7fff47417273b56b9040a239726397932",
+      "sha256_atual": "f8101cc34ca23eaebae97a148130c52b74568e38ff6fabfd9fa37dc60889d16d",
+      "motivo": "Passo 4 da migração (v0.335): a peça 14 recebeu as regras de equipamento da própria candidata (Leve, Discreta, Volume arma a arma, Força da Espingarda e do Rifle, bestas com um virote, munição como estoque, Traje, manejo). Esta unidade não reproduz os trechos mudados."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/16-ferramenta-amaldicoada.md",
+      "sha256_anterior": "68fd83293d04264bbb94f0b35827252363ea7ce5a3c11a3c1512f8238b59fd0c",
+      "sha256_atual": "6a797097c8b4a774b31887c7b82f09cf52c4732618cbf9051e8b72cc5f6239f3",
+      "motivo": "Passo 4 da migração (v0.335): a peça 16 recebeu o catálogo de ferramentas da própria candidata (rodada lote-08). Esta unidade não reproduz os trechos mudados."
+    }
+  ],
+  "cotejo_v0335_conferido": "Diff lido: só o passo 4 da migração nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
+}

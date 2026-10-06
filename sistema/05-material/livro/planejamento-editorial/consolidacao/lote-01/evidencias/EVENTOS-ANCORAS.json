@@ -622,72 +622,72 @@
   {
     "ancora": "vanguarda--van-estocada",
     "pagina": 90,
-    "y": 301.56
+    "y": 267.76
   },
   {
     "ancora": "vanguarda--van-feiticos",
     "pagina": 91,
-    "y": 639.76
+    "y": 591.96
   },
   {
     "ancora": "vanguarda--van-bote",
-    "pagina": 91,
-    "y": 154.56
+    "pagina": 92,
+    "y": 776.36
   },
   {
     "ancora": "vanguarda--van-yumi",
     "pagina": 92,
-    "y": 524.36
+    "y": 462.56
   },
   {
     "ancora": "vanguarda--van-yumi-conducoes",
     "pagina": 93,
-    "y": 541.76
+    "y": 460.16
   },
   {
     "ancora": "vanguarda--van-yumi-avanco",
     "pagina": 94,
-    "y": 617.56
+    "y": 535.96
   },
   {
     "ancora": "vanguarda--van-besta",
-    "pagina": 94,
-    "y": 147.36
+    "pagina": 95,
+    "y": 776.36
   },
   {
     "ancora": "vanguarda--van-besta-conclusoes",
     "pagina": 95,
-    "y": 496.36
+    "y": 420.56
   },
   {
     "ancora": "vanguarda--van-besta-avanco",
     "pagina": 95,
-    "y": 204.76
+    "y": 128.96
   },
   {
     "ancora": "vanguarda--van-fogo",
     "pagina": 96,
-    "y": 578.96
+    "y": 511.36
   },
   {
     "ancora": "vanguarda--van-fogo-conclusoes",
-    "pagina": 96,
-    "y": 130.96
+    "pagina": 97,
+    "y": 776.36
   },
   {
     "ancora": "vanguarda--van-fogo-avanco",
     "pagina": 97,
-    "y": 470.76
+    "y": 408.96
   },
   {
     "ancora": "vanguarda--van-executor",
     "pagina": 98,
-    "y": 640.76
+    "y": 592.96
   },
   {
     "ancora": "vanguarda--van-executor-avanco",
     "pagina": 99,
-    "y": 653.76
+    "y": 586.16
   },
   {
     "ancora": "guia--guia",
@@ -1552,7 +1552,7 @@
   {
     "ancora": "fundamento--restricoes",
     "pagina": 227,
-    "y": 569.76
+    "y": 541.76
   },
   {
     "ancora": "fundamento--combinacoes",
@@ -1566,18 +1566,18 @@
   },
   {
     "ancora": "fundamento--aplicacoes",
-    "pagina": 229,
-    "y": 144.56
+    "pagina": 230,
+    "y": 776.36
   },
   {
     "ancora": "fundamento--danolimites",
     "pagina": 230,
-    "y": 308.36
+    "y": 244.36
   },
   {
     "ancora": "fundamento--persistente",
     "pagina": 231,
-    "y": 449.96
+    "y": 413.96
   },
   {
     "ancora": "fundamento--livre",
@@ -1942,7 +1942,7 @@
   {
     "ancora": "rotas--rota-bancada",
     "pagina": 283,
-    "y": 435.76
+    "y": 421.76
   },
   {
     "ancora": "rotas--rota-invocacoes",

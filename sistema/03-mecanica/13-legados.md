@@ -14,7 +14,7 @@ O validador desta peça é o **`conferir-legados.py`**, e ele lê tudo que confe
 
 *Registrado na v0.24, e ele não é quantidade.*
 
-Hoje são catorze Legados, dois por Origem, e a faixa entre eles vai de **Irmãos** — você sente quando outro Feto está por perto, zero em rolagem — a **Não Sou Gente**, que era imunidade a veneno, a doença e ao que ataca corpo humano. *O `Não Sou Gente` saiu do catálogo nesta mesma peça, e a seção 9.9 tem o porquê: **ele morreu inteiro**, porque a lista `Limites` do manual proíbe Passiva paga de dar imunidade completa.*
+Hoje são catorze Legados, dois por Origem, e a faixa entre eles vai de **Irmãos** — você sente quando outro Feto está por perto, zero em rolagem — a **Não Sou Gente**, que era imunidade a veneno, a doença e ao que ataca corpo humano. *O `Não Sou Gente` saiu do catálogo nesta mesma peça, e a seção 9.9 tem o porquê: **ele morreu inteiro**, porque a lista `Limites` do manual proíbe Talento pago de dar imunidade completa.*
 
 A trava escrita na peça 9 é *"não produz dano e não escala com nível"*. **Ela não pega imunidade**, e vale entender por quê, porque o motivo decide o formato da régua.
 
@@ -24,11 +24,11 @@ O eixo que falta é um terceiro, e o sistema nunca precisou dele antes: **quanto
 
 E tem uma frase no manual que ninguém tinha cruzado com este catálogo:
 
-> **IMUNIDADE — Nenhuma Melhoria fura imunidade. Quem quiser isso monta uma Passiva de Regra Própria com o mestre, com limite de uma vez por cena.**
+> **IMUNIDADE — Nenhuma Melhoria fura imunidade. Quem quiser isso monta um Talento de Regra Própria com o mestre, com limite de uma vez por cena.**
 
-Ou seja: **imunidade é absoluta neste sistema**, e o preço de furar uma é uma Passiva feita à mão, negociada, limitada a uma vez por cena. O Legado que concede imunidade entrega **de graça, na criação, para uma Origem inteira**, aquilo cujo antídoto o manual cobra caro e ainda raciona.
+Ou seja: **imunidade é absoluta neste sistema**, e o preço de furar uma é um Talento feito à mão, negociado, limitado a uma vez por cena. O Legado que concede imunidade entrega **de graça, na criação, para uma Origem inteira**, aquilo cujo antídoto o manual cobra caro e ainda raciona.
 
-*Isso é a lição nº 6 acontecendo pelo lado contrário.* Lá, a Passiva Casca cobrava por *"dano físico"* e a expressão não existia no manual. Aqui a palavra existe, tem regra dura pendurada nela, e o catálogo a usou sem olhar.
+*Isso é a lição nº 6 acontecendo pelo lado contrário.* Lá, o Talento Casca cobrava por *"dano físico"* e a expressão não existia no manual. Aqui a palavra existe, tem regra dura pendurada nela, e o catálogo a usou sem olhar.
 
 ## 2. A máquina que já existe passa nos catorze
 
@@ -47,7 +47,7 @@ As duas réguas de magnitude que o projeto já tem são escadas, e as duas têm 
 | régua | os degraus | o que os separa |
 |---|---|---|
 | Restrições (peça 3) | Leve · Média | quanto cada uma **devolve** de turno |
-| Passivas e aptidões (peça 11) | Classe 1 · 2 · 3 | são **formatos** comprados com um marco |
+| Talentos e aptidões (peça 11) | Categoria de Efeito 1 · 2 · 3 | são **formatos** comprados com um marco |
 
 **Legado não tem o que comprar.** Um na criação, nunca outro, igual para todo mundo — a peça 9 fecha isso com todas as letras, e o motivo está escrito: é a terceira economia de poder do sistema, então ela nasce com o teto mínimo.
 
@@ -132,15 +132,15 @@ Este é o formato que a trava velha não alcançava. A primeira versão desta se
 
 | degrau | o que é | quem já cobra por ele | dá para furar? |
 |---|---|---|---|
-| **resistência** | o dano daquele tipo cai pela metade, antes de qualquer outra conta | a Passiva **Escama** — custa um espaço de feitiço conhecido | **sim.** *"Feitiços daquele tema ignoram resistência ao seu tipo de dano"* |
-| **imunidade** | absoluto | nada no Fundamento concede | **não.** Só Passiva de Regra Própria, com o mestre, 1×/cena |
+| **resistência** | o dano daquele tipo cai pela metade, antes de qualquer outra conta | o Talento **Escama** — custa um espaço de feitiço conhecido | **sim.** *"Feitiços daquele tema ignoram resistência ao seu tipo de dano"* |
+| **imunidade** | absoluto | nada no Fundamento concede | **não.** Só Talento de Regra Própria, com o mestre, 1×/cena |
 
 E o manual ainda fecha o degrau de baixo por dentro: *"Ela é sempre presa a um tipo — **não existe resistência a tudo**."*
 
 Com isso a trava se escreve sozinha, e ela é mais simples do que a que eu tinha proposto:
 
 > **Um Desliga apaga o que ninguém comprou, e enfraquece o que alguém comprou. Nunca imunidade.**
-> **Dano não, de jeito nenhum** — imunidade é absoluta e o antídoto dela é uma Passiva feita à mão; resistência a `Escama` já cobra por um espaço de feitiço. *Este é o único absoluto da trava.*
+> **Dano não, de jeito nenhum** — imunidade é absoluta e o antídoto dela é um Talento feito à mão; resistência a `Escama` já cobra por um espaço de feitiço. *Este é o único absoluto da trava.*
 > **Condição pode, com relógio.** *Desde a v0.104 cada condição tem **nível** — `Leve`, `Média` ou `Pesada` —, e o nível é o preço dela no manual.* **Apagar de graça o que alguém paga continua proibido; apagar uma vez, com relógio, é o enfraquecer.**
 > **E o degrau do relógio sai do nível da condição**, não do gosto de quem escreve: `Leve` → **por cena** · `Média` → **por dia** · `Pesada` → **por descanso longo**.
 > **O que ninguém comprou continua sendo o território largo dele:** o que o mundo cobra de você fora do feitiço, sem relógio. Uma coisa nomeada, uma só. **Vale o que chega em você e vale o que você teria de fazer** — *o `Ferro Velho` apaga os degraus de exaustão e escreve no próprio texto que "cansaço não é uma coisa que acontece com você"; o `Sangue que Não é Sangue` apaga precisar comer, dormir e respirar; o `Conhecimento Antigo` apaga o teste que você faria.* **A trava proíbe apagar coisa com PREÇO, e não coisa com direção.**
@@ -150,7 +150,7 @@ Com isso a trava se escreve sozinha, e ela é mais simples do que a que eu tinha
 >
 > **A fronteira com o `Ajusta` não some, e é isto que segura a relaxação:** um `Desliga` de condição **apaga aquela vez**; um `Ajusta` de condição **põe um dado no meio**. *O `Corpo Emprestado` e o `Já Morri` continuam `Ajusta` porque é isso que eles fazem — vantagem no Teste de Resistência é mexer num número de uma rolagem.* **São dois jeitos diferentes de encostar na mesma condição, e agora os dois são legais.**
 
-**A regra apareceu depois de os primeiros Desliga estarem escritos, e ela reprovou três deles.** *Desconfiado* apagava Enfeitiçado, *Corpo Emprestado* apagava Incapacitado e *Já Morri* apagava Amedrontado — as três eram **Condição Maior** e custavam **Pesada** no manual da época, e nada na trava anterior me impediu de escrever os três. A trava dizia só *"não encosta no dano"* e parava ali.
+**A regra apareceu depois de os primeiros Desliga estarem escritos, e ela reprovou três deles.** *Desconfiado* apagava Enfeitiçado, *Corpo Emprestado* apagava Guarda Aberta e *Já Morri* apagava Amedrontado — as três eram **Condição Maior** e custavam **Pesada** no manual da época, e nada na trava anterior me impediu de escrever os três. A trava dizia só *"não encosta no dano"* e parava ali.
 
 **Os três viraram Ajusta com vantagem no Teste de Resistência**, que é o conserto que a própria peça já previa: *trocar a negação por rerrolagem, e a condição deixa de ser absoluta.* Vantagem e rerrolagem valem os mesmos +25 pp no pico — o efeito para o jogador quase não muda, e o que muda é que **agora existe um dado no meio**, e o conjurador que pagou Pesada tem chance de o dinheiro dele valer alguma coisa.
 
@@ -338,7 +338,7 @@ A regra 1 manda a vaga nomear a peça de onde o alvo deve sair. **Ela não manda
 |---|---|---|---|
 | **Descendente** | equipamento | **ferramenta amaldiçoada** | a peça 14 declinou ferramenta por decisão: ela é tópico próprio, com graus e forja |
 | **Restrição Celestial** | equipamento | **ferramenta amaldiçoada** | mesma coisa — e é a Origem que mais depende dela |
-| **Reencarnado** | equipamento | **objeto amaldiçoado** | o `Enterrado` foi a pista falsa: *"você guardou uma coisa"* não é uma arma |
+| **Encarnado** | equipamento | **objeto amaldiçoado** | o `Enterrado` foi a pista falsa: *"você guardou uma coisa"* não é uma arma |
 | **Corpo Amaldiçoado** | equipamento | **Técnica Marcial** | dependência de segunda mão: Técnica Marcial *estava* bloqueada por equipamento, e a vaga nomeou o bloqueio em vez do dono |
 
 > **A distinção que desfaz três dos quatro erros é de canon, e o projeto vinha usando um nome só para duas coisas.** *Achado do Mizuki:* **"acredito que são mais como itens amaldiçoados, não necessitando exatamente ser armas."**
@@ -346,11 +346,11 @@ A regra 1 manda a vaga nomear a peça de onde o alvo deve sair. **Ela não manda
 > | | o que é | quem depende dela aqui |
 > |---|---|---|
 > | **ferramenta amaldiçoada** (呪具) | **arma forjada** para canalizar energia, com graus. Até quem não é feiticeiro usa | `Armaria` do Descendente · Restrição Celestial |
-> | **objeto amaldiçoado** (呪物) | **não é item imbuído: é a própria maldição presa em forma de objeto.** Resto de feiticeiro antigo, que encarna num receptáculo compatível | Receptáculo · Reencarnado |
+> | **objeto amaldiçoado** (呪物) | **não é item imbuído: é a própria maldição presa em forma de objeto.** Resto de feiticeiro antigo, que encarna num receptáculo compatível | Receptáculo · Encarnado |
 >
 > **A diferença é de intenção:** a ferramenta é feita para canalizar; o objeto **é** a coisa. ***As duas ganharam peça dona depois desta tabela*** — *a ferramenta é a peça 16, na v0.59, e o objeto é a peça 21, na v0.132 —, e a definição de cada uma mora lá; esta tabela é o argumento que reclassificou as vagas, e não a definição.* *E a peça 9 já escrevia a dependência certa sem que ninguém tivesse ligado os pontos: o Kashimo "aceitou virar **objeto amaldiçoado** e encarnar num corpo que o Kenjaku preparou".*
 
-**E aí apareceu o buraco que isto destampou: `objeto amaldiçoado` não tinha peça dona em lugar nenhum do projeto.** Duas Origens inteiras são construídas em cima dele — Receptáculo é comer um dedo, Reencarnado é *ter virado* um — e ele não estava na fila, não estava no `arquitetura.md` e não tinha vaga na ordem de construção. **Ele estava escondido dentro da palavra "ferramenta".** ***Ele é a peça 21 desde a v0.132***, e foi ela que nomeou a atração pela qual a vaga do Reencarnado fechou.
+**E aí apareceu o buraco que isto destampou: `objeto amaldiçoado` não tinha peça dona em lugar nenhum do projeto.** Duas Origens inteiras são construídas em cima dele — Receptáculo é comer um dedo, Encarnado é *ter virado* um — e ele não estava na fila, não estava no `arquitetura.md` e não tinha vaga na ordem de construção. **Ele estava escondido dentro da palavra "ferramenta".** ***Ele é a peça 21 desde a v0.132***, e foi ela que nomeou a atração pela qual a vaga do Encarnado fechou.
 
 > **O conserto da regra 1, para a próxima peça que chegar:** *a vaga nomeia a peça que é **dona do alvo**, não a peça que estava na frente dela na fila.* Uma dívida que nomeia a peça errada é pior que uma dívida sem nome — a sem nome ninguém dá por fechada, e a com nome errado **fecha sozinha no dia em que a peça errada fecha.**
 
@@ -609,7 +609,7 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 *A Origem que contém quatro famílias diferentes ia levar onze, e leva dez.* O quinto Destranca entrou como estava previsto — é o genérico, para clã inventado. O segundo Desliga **não tinha alvo**: nenhum sobrou depois da Coleira. Pela régua antiga a lista fechava aí; pela cota de dois ela fecha com a vaga marcada, esperando equipamento.
 
-### Reencarnado — *você já foi outra pessoa, e o corpo em que você está não nasceu seu*
+### Encarnado — *você já foi outra pessoa, e o corpo em que você está não nasceu seu*
 
 **Destranca — escolha um destes, obrigatoriamente**
 
@@ -638,7 +638,7 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 | **Método Velho** | uma situação nomeada (1) | por cena |
 
 >
-> **Corpo Emprestado** — dor não te para como para os outros: uma vez por cena, role com **vantagem** o Teste de Resistência contra ficar **Incapacitado**. O corpo avisa os outros e não avisa você.
+> **Corpo Emprestado** — dor não te para como para os outros: uma vez por cena, role com **vantagem** o Teste de Resistência contra ficar com a **Guarda Aberta**. O corpo avisa os outros e não avisa você.
 >
 > **Espasmo** — uma vez por cena, refaça um Teste de Resistência **Físico ou de Vigor** que você falhou. O corpo fez uma coisa que você não mandou, e quem estava aqui antes ainda está nos músculos.
 >
@@ -648,11 +648,11 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 
 **O relógio do Que Ninguém Lembra desceu para o degrau mais raro da escada.** Ele dizia *"uma vez por arco"*, e arco é tempo de mesa — não está entre os quatro degraus da peça 10, e cada mestre mede um arco de um jeito. *Por descanso longo* é o degrau mais lento que existe, que é o que "por arco" tentava dizer.
 
-**Corpo Emprestado parou de ser ambíguo, e o conserto veio de fora.** Ele dizia *"você nunca fica incapacitado só por estar ferido"* — e `Incapacitado` é **condição nomeada do manual**, na lista que um feitiço aplica. A qualificação *"só por estar ferido"* fazia dois mestres lerem duas coisas, porque **o sistema não tinha regra escrita para o que acontece quando a vida acaba**. Agora tem: a seção 5.5 da peça 1 diz que **`Inconsciente` não é a condição `Incapacitado`**, e as duas leituras deixaram de existir.
+**Corpo Emprestado parou de ser ambíguo, e o conserto veio de fora.** Ele dizia *"você nunca fica incapacitado só por estar ferido"* — e `Guarda Aberta` é **condição nomeada do manual**, na lista que um feitiço aplica. A qualificação *"só por estar ferido"* fazia dois mestres lerem duas coisas, porque **o sistema não tinha regra escrita para o que acontece quando a vida acaba**. Agora tem: a seção 5.5 da peça 1 diz que **`Inconsciente` não é a condição `Guarda Aberta`**, e as duas leituras deixaram de existir.
 
 #### Esta lista perdeu os dois Desliga dela, e o motivo é a regra nova
 
-**Os dois nasceram apagando condição** — *Corpo Emprestado* levava Incapacitado e *Já Morri* levava Amedrontado, as duas **Condição Maior** no manual da época. Quando a trava do Desliga passou a dizer *"só apaga o que ninguém comprou"*, os dois caíram junto com o *Desconfiado* do Latente.
+**Os dois nasceram apagando condição** — *Corpo Emprestado* levava Guarda Aberta e *Já Morri* levava Amedrontado, as duas **Condição Maior** no manual da época. Quando a trava do Desliga passou a dizer *"só apaga o que ninguém comprou"*, os dois caíram junto com o *Desconfiado* do Latente.
 
 **Os três viraram vantagem no Teste de Resistência**, e o efeito na mesa quase não muda: vantagem vale os mesmos +25 pp no pico que a negação valia em certeza. O que muda é que **entrou um dado no meio** — e quem pagou Pesada para aplicar a condição volta a ter chance.
 
@@ -668,7 +668,7 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 |---|---|---|
 | Latente | **A Testemunha** | alguém sabe o que você é, e nunca contou |
 | Receptáculo | **De Antes de Você** | alguém conheceu o que te habita quando ele andava sozinho |
-| ~~Reencarnado~~ | ~~alguém te reconheceu de antes~~ | **a terceira em quatro Origens** |
+| ~~Encarnado~~ | ~~alguém te reconheceu de antes~~ | **a terceira em quatro Origens** |
 
 *Este é o alerta que a lista do Descendente deixou marcado — "é a mesma estrutura em duas Origens seguidas, e catálogo previsível não aparece em teste nenhum" — acendendo pela primeira vez numa lista nova.* Não é duplicata de mecânica: as três são zero no dado e o conteúdo é diferente. É **previsibilidade**, e ela não aparece em validador nenhum.
 
@@ -695,11 +695,11 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — **os degraus de exaustão**, da peça 10 — e ele **não foi gasto aqui**. Dois motivos, e o segundo é o que decide:
 
 - **Ele encosta no Chão Duro.** O Legado do Latente já faz *"qualquer lugar é ambiente propício"*, que é a outra ponta do mesmo relógio de desgaste. As duas juntas precisam ser medidas antes de qualquer uma virar texto.
-- **Ele é mais Corpo Amaldiçoado que Reencarnado.** *"O corpo não cansa como o de gente"* é a Origem que literalmente não é gente. Reencarnado tem corpo humano — emprestado, mas humano.
+- **Ele é mais Corpo Amaldiçoado que Encarnado.** *"O corpo não cansa como o de gente"* é a Origem que literalmente não é gente. Encarnado tem corpo humano — emprestado, mas humano.
 
 > **Com a cota de dois, o alvo livre deixou de ser prêmio de quem chegou primeiro e virou decisão de encaixe.** Ele fica **reservado para o Corpo Amaldiçoado**, que é a lista seguinte — e a decisão custa alguma coisa lá, porque é a Origem que tem direito a ele pela ficção.
 
-**As duas vagas do Reencarnado esperavam peças diferentes, de propósito, e as duas chegaram.** Uma era **objeto amaldiçoado**, e a peça 9 escrevia a dependência sem rodeio: o Kashimo *"aceitou virar **objeto amaldiçoado** e encarnar num corpo que o Kenjaku preparou"*. **A Origem inteira é a mecânica de objeto amaldiçoado vista de dentro.** A outra era a peça de dano e condições, e ela virou o `Usado` na v0.104.
+**As duas vagas do Encarnado esperavam peças diferentes, de propósito, e as duas chegaram.** Uma era **objeto amaldiçoado**, e a peça 9 escrevia a dependência sem rodeio: o Kashimo *"aceitou virar **objeto amaldiçoado** e encarnar num corpo que o Kenjaku preparou"*. **A Origem inteira é a mecânica de objeto amaldiçoado vista de dentro.** A outra era a peça de dano e condições, e ela virou o `Usado` na v0.104.
 
 > **Esta vaga dizia "espera a peça de equipamento", e o *Enterrado* foi a pista falsa.** *Corrigido na v0.49.* Aquele Destranca diz *"você guardou uma coisa antes de morrer"* — e **a coisa não é necessariamente uma arma**, então ele nunca dependeu de equipamento. O que ele pedia era objeto com regra, e **objeto amaldiçoado virou a peça 21 na v0.132.**
 
@@ -1038,7 +1038,7 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 **A semente — escolha uma destas, obrigatoriamente, e escolher esta linha é escolher ela junto.** *As três são **de identidade**, no molde das quatro configurações do Corpo Amaldiçoado: elas dizem de que matéria a sua técnica é feita, e param aí. Nenhuma tem relógio, e nenhuma pede tarefa.*
 
-| a semente | Classe Passiva | o que ela desenha |
+| a semente | Categoria de Efeito | o que ela desenha |
 |---|---|---|
 | **`Domínio Simples`** | 2 | a Nova Sombra — você fecha um pedaço de chão, e o que entra ali é problema seu |
 | **`Energia Reversa`** | 3 | a rota da Shoko — você reverte o que já quebrou, e não conserta o que está inteiro |
@@ -1050,7 +1050,7 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 **Escrita uma vez, e as cinco listas apontam para cá.** Cinco cópias do mesmo texto em cinco Origens é a lição nº 9 acontecendo dentro de um catálogo — e é o defeito que este projeto mais paga para evitar. **Um texto, um dono.**
 
-**Quem pode pegar:** Latente · Receptáculo · Descendente · Reencarnado · Feto. **As duas especiais não** — Corpo Amaldiçoado e Restrição Celestial já vêm com uma troca própria embutida, e a peça 9 fecha isso.
+**Quem pode pegar:** Latente · Receptáculo · Descendente · Encarnado · Feto. **As duas especiais não** — Corpo Amaldiçoado e Restrição Celestial já vêm com uma troca própria embutida, e a peça 9 fecha isso.
 
 **Nas cinco, ela é um quinto Destranca**, e a lista deles vai a cinco. É a mesma exceção que o Descendente já tem por outro motivo — lá são quatro arquétipos de clã, aqui é uma porta para fora.
 
@@ -1101,16 +1101,16 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 > ~~**Não Sou Gente** — veneno, doença e o que ataca corpo humano não te pegam. Cura que funciona em humano também não.~~
 
-**A metade que é dano não vira Passiva nenhuma, e a v0.188 mediu por quê.** *Da v0.39 até lá esta seção prometia uma `Passiva de Regra Própria` com o nome dele, pagando espaço de feitiço.* **A regra que a promessa citava é sobre atacar, e a regra que decide é outra.**
+**A metade que é dano não vira Talento nenhum, e a v0.188 mediu por quê.** *Da v0.39 até lá esta seção prometia um `Talento de Regra Própria` com o nome dele, pagando espaço de feitiço.* **A regra que a promessa citava é sobre atacar, e a regra que decide é outra.**
 
 | onde | o que ela diz | de que lado ela é |
 |---|---|---|
-| a caixa `IMUNIDADE` do manual | *"nenhuma Melhoria fura imunidade — quem quiser isso monta uma Passiva de Regra Própria, com limite de uma vez por cena"* | **ataque.** `Melhoria` é peça de feitiço, e *furar* é atravessar a imunidade de outro |
-| a lista `Limites` do manual e do capítulo 9 do livro | *"imunidade completa a um tipo de dano ou condição"* — **o que nenhuma Passiva paga pode fazer** | **defesa, e é o teto que vale aqui** |
+| a caixa `IMUNIDADE` do manual | *"nenhuma Melhoria fura imunidade — quem quiser isso monta um Talento de Regra Própria, com limite de uma vez por cena"* | **ataque.** `Melhoria` é peça de feitiço, e *furar* é atravessar a imunidade de outro |
+| a lista `Limites` do manual e do capítulo 9 do livro | *"imunidade completa a um tipo de dano ou condição"* — **o que nenhum Talento pago pode fazer** | **defesa, e é o teto que vale aqui** |
 
 **O *"isso"* da caixa é *furar*, e não *ter*.** *Lido como a v0.39 leu, o manual passa a contradizer a própria lista de `Limites` três seções antes; lido como ataque, ele fecha consigo mesmo.* **E o `Não Sou Gente` era imunidade a três coisas de uma vez** — veneno, doença e o que ataca corpo humano.
 
-***Decisão do Mizuki na v0.188: a decisão da v0.39 cai, e nada é escrito no lugar dela.*** **Quem quiser isso monta uma `Passiva Própria` com o mestre, e o `Limites` é o teto** — que é o que o manual já respondia antes de alguém prometer a entrada. *A cláusula de cura que não funciona ia junto como preço embutido, e ela sai junto.*
+***Decisão do Mizuki na v0.188: a decisão da v0.39 cai, e nada é escrito no lugar dela.*** **Quem quiser isso monta um `Talento Próprio` com o mestre, e o `Limites` é o teto** — que é o que o manual já respondia antes de alguém prometer a entrada. *A cláusula de cura que não funciona ia junto como preço embutido, e ela sai junto.*
 
 > **⚠ Ela ficou cento e quarenta e nove versões como decisão tomada e não aplicada, e ela nunca podia ser aplicada.** *A régua que reprovava o Legado — "nenhum `Desliga` encosta em dano" — tem uma irmã do outro lado da parede, e ninguém leu as duas juntas.* **É a lição nº 6:** *antes de aceitar um destino, vá ler a regra pendurada nele.* **A sub-checagem `6.2` guarda essa relação agora.**
 
@@ -1131,7 +1131,7 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 | Latente | 3 | 4 | 2 | — | **9** |
 | Receptáculo | 4 | 4 | 2 | — | **10** |
 | Descendente | 5 | 4 | 2 | — | **11** |
-| Reencarnado | 4 | 4 | **2** | — | **10** |
+| Encarnado | 4 | 4 | **2** | — | **10** |
 | Corpo Amaldiçoado | 4 | **12** | 1 | 1 | **17** |
 | Feto | 4 | 4 | 2 | — | **10** |
 | Restrição Celestial | **7** | **8** | 2 | — | **17** |
@@ -1141,11 +1141,11 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 **Oitenta e quatro entradas escritas, e uma vaga de Desliga declarada.** *Eram oitenta e seis até a v0.176, quando o `Sem Patente` e o `Nunca Estive Lá` saíram do catálogo por decisão do Mizuki, na revisão do livro.* *Eram sete vagas até a v0.104, duas até a v0.131 e uma agora.* **A que sobra é a do Corpo Amaldiçoado, e ela está destravada de Origem e travada de ALVO:** *a Técnica Marcial fechou na v0.122 e liberou a Origem, mas a enumeração da seção 8 ficou com **zero alvo livre** quando o `Ferro Velho` gastou os degraus de exaustão.*
 
-> **⚠ O Reencarnado tem as duas casas de `Desliga` cheias, e mesmo assim uma coisa ficou órfã na v0.176.** *O `Conhecido` fechou a vaga na v0.132 desligando a **atração** da peça 21; o `Conhecimento Antigo` tomou a casa dele e desliga outra coisa — uma rolagem.* **A casa está ocupada e o alvo está livre:** a atração continua nomeada, e nenhum Legado a apaga. *Isso não abre vaga — a cota é de dois por Origem e os dois estão escritos —, mas tira da peça 21 o que ela destravava. O §6 dela registra isso do lado de lá.* As duas Origens com sub-escolha — Corpo Amaldiçoado e Restrição Celestial — respondem por **34 delas**, e nas duas o jogador alcança bem menos do que o catálogo tem.
+> **⚠ O Encarnado tem as duas casas de `Desliga` cheias, e mesmo assim uma coisa ficou órfã na v0.176.** *O `Conhecido` fechou a vaga na v0.132 desligando a **atração** da peça 21; o `Conhecimento Antigo` tomou a casa dele e desliga outra coisa — uma rolagem.* **A casa está ocupada e o alvo está livre:** a atração continua nomeada, e nenhum Legado a apaga. *Isso não abre vaga — a cota é de dois por Origem e os dois estão escritos —, mas tira da peça 21 o que ela destravava. O §6 dela registra isso do lado de lá.* As duas Origens com sub-escolha — Corpo Amaldiçoado e Restrição Celestial — respondem por **34 delas**, e nas duas o jogador alcança bem menos do que o catálogo tem.
 
 | | o jogador escolhe o segundo Legado entre |
 |---|---|
-| Latente · Receptáculo · Descendente · Reencarnado · Feto | **4 a 6** |
+| Latente · Receptáculo · Descendente · Encarnado · Feto | **4 a 6** |
 | Corpo Amaldiçoado | 3 Ajusta da configuração + 1 Desliga = **4** |
 | Restrição Celestial | 4 Ajusta do ramo + 1 Desliga = **5** |
 
@@ -1153,9 +1153,9 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 
 **As sete listas estão escritas, e o que falta para a metade 2 fechar é UMA coisa:** a vaga de Desliga do Corpo Amaldiçoado, que depende de peça nova nomear coisa — a Origem destravou na v0.122 e o alvo não. *O validador dos Legados existe desde a v0.39; cinco vagas fecharam na v0.104 e a sexta na v0.132.*
 
-> **Eram duas até a v0.188.** *A outra era o destino que a v0.39 tinha dado ao `Não Sou Gente`, e ela saiu da lista por reprovação e não por escrita:* **a lista `Limites` do manual não deixa Passiva paga dar imunidade completa**, e a caixa que a decisão citava fala de furar imunidade e não de tê-la. *A seção 9.9 tem a medida.*
+> **Eram duas até a v0.188.** *A outra era o destino que a v0.39 tinha dado ao `Não Sou Gente`, e ela saiu da lista por reprovação e não por escrita:* **a lista `Limites` do manual não deixa Talento pago dar imunidade completa**, e a caixa que a decisão citava fala de furar imunidade e não de tê-la. *A seção 9.9 tem a medida.*
 
-**O alvo livre acabou.** O *Ferro Velho* gastou os degraus de exaustão, que era o último da enumeração da seção 8 — **daqui para a frente, todo Desliga novo depende de peça nova criar coisa nomeada.** *E foi exatamente assim que a vaga do Reencarnado fechou: a peça 21 nomeou a **atração**, e o `Conhecido` desligava ela. **O `Conhecimento Antigo`, que tomou a casa na v0.176, não desliga coisa de peça nenhuma — ele desliga uma rolagem**, e é por isso que a pergunta de formato ficou anotada.*
+**O alvo livre acabou.** O *Ferro Velho* gastou os degraus de exaustão, que era o último da enumeração da seção 8 — **daqui para a frente, todo Desliga novo depende de peça nova criar coisa nomeada.** *E foi exatamente assim que a vaga do Encarnado fechou: a peça 21 nomeou a **atração**, e o `Conhecido` desligava ela. **O `Conhecimento Antigo`, que tomou a casa na v0.176, não desliga coisa de peça nenhuma — ele desliga uma rolagem**, e é por isso que a pergunta de formato ficou anotada.*
 
 **Seis das sete Origens fecham a cota de dois hoje.** A que falta é o Corpo Amaldiçoado, e o que segura a vaga dele não é peça: é a decisão de qual coisa nomeada da Técnica Marcial vale a pena desligar. **A dívida de alvo é a conta desta régua, e ela é visível de propósito.**
 
@@ -1170,12 +1170,12 @@ O catálogo, e as decisões de sabor que vêm com ele:
 - ~~**As três listas que faltam**~~ — **as sete fecharam na v0.38**, 81 entradas escritas.
 - ~~**Os três relógios fora da escada**~~ — **descidos**: *Aprendi Apanhando* e *A Voz de Dentro* para por dia, *O Que Ninguém Lembra* para por descanso longo.
 - ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto**, pelo canon: a irmandade é definida por quem te fez, e o gatilho virou o jogador apontar alguém e dizer que é irmão.
-- **Sobrou UMA vaga de Desliga.** *Eram sete.* **Ela é a do Corpo Amaldiçoado, e o que falta nela é ALVO e não escrita** — *a peça que ela aguardava fechou na v0.122 e é a peça 20, mas a enumeração da seção 8 ficou com zero alvo livre quando o `Ferro Velho` gastou os degraus de exaustão.* ***Corrigido na v0.187:*** *esta linha invertia as duas metades — dava a vaga como pronta para escrever e contradizia o fim desta mesma seção, que declara a enumeração esgotada. A fila herdou a versão errada, e o item passou versões descrito como se bastasse sentar.* **Alvo de `Desliga` é escopo daqui**, e a peça 20 §11 registra a vaga em vez de tentar preencher de fora. **A do Reencarnado fechou na v0.132**, com o `Conhecido`, quando objeto amaldiçoado virou a peça 21 e nomeou a atração — **e na v0.176 o `Conhecimento Antigo` tomou a casa dele com outro alvo.** *A casa continua cheia; o que ficou livre foi a atração.* **As cinco destravadas foram escritas na v0.104** — três que esperavam a peça 19 e duas que esperavam a peça 16 —, e todas as cinco só couberam porque a trava do `Desliga` foi relaxada na mesma versão: *ele passou a poder apagar condição uma vez, com o relógio saindo do nível dela.* *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
+- **Sobrou UMA vaga de Desliga.** *Eram sete.* **Ela é a do Corpo Amaldiçoado, e o que falta nela é ALVO e não escrita** — *a peça que ela aguardava fechou na v0.122 e é a peça 20, mas a enumeração da seção 8 ficou com zero alvo livre quando o `Ferro Velho` gastou os degraus de exaustão.* ***Corrigido na v0.187:*** *esta linha invertia as duas metades — dava a vaga como pronta para escrever e contradizia o fim desta mesma seção, que declara a enumeração esgotada. A fila herdou a versão errada, e o item passou versões descrito como se bastasse sentar.* **Alvo de `Desliga` é escopo daqui**, e a peça 20 §11 registra a vaga em vez de tentar preencher de fora. **A do Encarnado fechou na v0.132**, com o `Conhecido`, quando objeto amaldiçoado virou a peça 21 e nomeou a atração — **e na v0.176 o `Conhecimento Antigo` tomou a casa dele com outro alvo.** *A casa continua cheia; o que ficou livre foi a atração.* **As cinco destravadas foram escritas na v0.104** — três que esperavam a peça 19 e duas que esperavam a peça 16 —, e todas as cinco só couberam porque a trava do `Desliga` foi relaxada na mesma versão: *ele passou a poder apagar condição uma vez, com o relógio saindo do nível dela.* *Reclassificadas na v0.49: as quatro que diziam "equipamento" nomeavam a peça errada, e nenhuma delas abriu quando aquela peça fechou.*
 
   > **⚠ E as outras DUAS foram escritas na v0.104, quatro versões depois de alguém achar que elas esperavam.** *Elas esperavam `ferramenta amaldiçoada`, que virou a peça 16 na v0.59 — a do Descendente virou o `Cabo` e a da Restrição Celestial virou o `Assinado`.* **A peça 16 §9 registrava que destravava as duas, e o achado é da v0.100.** *A prosa embaixo de cada tabela continuou anunciando a espera até a v0.188 — as tabelas estavam certas desde a v0.104, e a checagem 6 lê a tabela.*
 - ~~**O `Inédito` precisa da linha que o fecha para Sem Técnica** — é a única das 81 entradas que pressupõe técnica própria.~~ **Fechado na v0.168, e pelo lado contrário.** *A peça 25 §3.1 diz que aquela rota escreve Fundamento: ela tem técnica, só não tem técnica **inata**.* **O `Inédito` funciona nela, e a linha que o fecharia não existe mais como dívida.** *O ponteiro para "a checagem 8 do validador" também caiu — ela sempre conferiu outra coisa.*
 - ~~**A peça 9 precisa de três consertos que esta peça gerou:** a frase *"Sem Técnica não dá um segundo Legado"*, o §5 que ainda diz que Corpo Amaldiçoado não tem energia, e o `Alcance Impossível`, que é técnica e sai do catálogo.~~ **Os três foram aplicados na v0.39.** *Lá a Origem Sem Técnica diz hoje que ela **não amplia a conta de Legados** — é uma entrada de `Destranca` e ocupa uma das duas vagas —, o Corpo Amaldiçoado diz que **tem energia amaldiçoada**, e o `Alcance Impossível` não aparece em nenhuma lista daquela peça.*
-- ~~**Não Sou Gente sai do dano**~~ — **resolvido na v0.38: o Legado deixou de existir.** *A v0.39 mandou o nome para uma Passiva paga, e a v0.188 reprovou aquele destino — o `Limites` do manual não deixa Passiva paga dar imunidade completa.* **A seção 9.9 tem o porquê.**
+- ~~**Não Sou Gente sai do dano**~~ — **resolvido na v0.38: o Legado deixou de existir.** *A v0.39 mandou o nome para um Talento pago, e a v0.188 reprovou aquele destino — o `Limites` do manual não deixa Talento pago dar imunidade completa.* **A seção 9.9 tem o porquê.**
 - ~~**O piso do Irmãos**~~ — **resolvido na lista do Feto.** O gatilho virou *o jogador apontar alguém e dizer que é irmão*, que é o que a irmandade faz no material: ela é definida por **quem te fez**, e alcança gente que não é da mesma fabricação.
 - ~~**Instinto Bruto está metade morto** e a régua não conserta isso: *"use Sentir Energia no lugar de Percepção"* é trocar Essência por Essência desde a v0.16.~~ **Consertado na v0.39, nesta mesma peça.** *A metade morta saiu: a seção 9 publica ele como "role Sentir Energia no lugar de **Intuição**", que é Inteligência — e aí é troca de verdade, de até +4 para quem conjura.*
 - ~~**O validador dos Legados**, que sai junto com a peça e não sete versões depois.~~ **Saiu junto: o `conferir-legados.py` entrou na v0.39, na mesma versão desta peça.** *A tabela abaixo é a especificação que ele foi escrito para cumprir, e fica como registro do que foi pedido.* As checagens que esta régua pede:

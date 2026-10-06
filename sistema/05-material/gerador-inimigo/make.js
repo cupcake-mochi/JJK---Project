@@ -42,7 +42,7 @@ const { NUM, lista, virg, degrau, pressao, temIntervencao, precoIntervencao, arr
 function titulo(sub) {
   return [
     new Paragraph({ spacing: { after: 40 },
-      children: [new TextRun({ text: 'PROJETO - M', bold: true, size: 15,
+      children: [new TextRun({ text: 'CICLO MALDITO', bold: true, size: 15,
                                color: C.grey, characterSpacing: 60 })] }),
     new Paragraph({ spacing: { after: 160 },
       children: [new TextRun({ text: sub, bold: true, size: 34, color: C.crimson })] }),
@@ -113,7 +113,7 @@ function bloco(f, primeiro, rotulo) {
   out.push(stat('Por rodada', v('porRodada'), vazio));
   out.push(stat('Golpe', f ? `${v('acerto')} para acertar, ${v('dano')} de dano` : '', vazio));
   out.push(regra());
-  out.push(BLOCO('traços — Passivas, aptidões e técnica', v('caracteristicas'), 2));
+  out.push(BLOCO('traços — Talentos, aptidões e técnica', v('caracteristicas'), 2));
   out.push(BLOCO(`Intervenções — ${NUM[X.INTERVENCOES]} por luta, quando N × orçamento chega a ${X.PORTA_INTERVENCAO}`, v('intervencoes'), 2));
   out.push(BLOCO('pacto — o teto do permanente é metade da Essência dele', v('pacto'), 1));
   out.push(BLOCO('o que ele faz na mesa', v('notas'), 2));
@@ -138,7 +138,7 @@ const EXEMPLO = (() => {
     resist: `resistência a Elementais — a vida se divide por ${elem[2].replace('×', '')}`,
     vida: String(vidaCel(f, dg, n, 1 / (fr * precoIntervencao(dg, n)))), dano: golpe(f, dg), porRodada: `${NUM[n]} ações, e uma Reação`,
     defesa: String(dv[1]), acerto: `+${dv[2]}`, cd: String(dv[3]), refino: String(dv[4]),
-    caracteristicas: 'Escama (Passiva) · duas aptidões do catálogo da peça 11',
+    caracteristicas: 'Escama (Talento) · duas aptidões do catálogo da peça 11',
     intervencoes: 'a primeira bate um pouco menos que uma ação; as outras duas mudam o campo',
     pacto: 'nenhum — a Essência dele é 0, e o teto é metade dela',
     notas: `Age ${NUM[n]} vezes por rodada e rola o dado uma vez em cada. Um esquadrão de ${X.CAMBIO_POR_PESSOA * n} capangas de ${f[7]} de vida vale o mesmo encontro.`,
@@ -318,7 +318,7 @@ function tabelas() {
 // `node make.js --json`: as seis prontas calculadas, para o capitulo 8 do livro do Bestiario.
 // O livro formata e nao refaz a conta — a conta mora aqui, e so aqui.
 const doc = new Document({
-  creator: 'Projeto - M', title: 'Bloco de inimigo',
+  creator: 'Ciclo Maldito', title: 'Bloco de inimigo',
   styles: { default: { document: { run: { font: 'Calibri', size: 20, color: C.ink } } } },
   sections: [{
     // ⚠ 1153 nao e escolha: A4 tem 11906 twips e as tabelas tem 9600, entao
@@ -326,7 +326,7 @@ const doc = new Document({
     properties: { page: { margin: { top: 720, bottom: 640, left: 1153, right: 1153 } } },
     footers: { default: new Footer({ children: [new Paragraph({
       alignment: AlignmentType.CENTER,
-      children: [new TextRun({ text: 'Projeto - M · bloco de inimigo · peça 26',
+      children: [new TextRun({ text: 'Ciclo Maldito · bloco de inimigo · peça 26',
                                size: 14, color: C.grey })] })] }) },
     children: [...bloco(null, true), ...bloco(EXEMPLO), ...prontas(), ...tabelas()],
   }],

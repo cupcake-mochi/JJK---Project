@@ -1022,6 +1022,141 @@
       ],
       "sha256_antes": "6778c50063b3549bce9e8e5c02961ec2aec0a803ceff75844e68fe9d7729bd1e",
       "sha256_depois": "279351e084412734977e739a88b06a4142f452d02a21e3cb4c229c0ba7220115"
+    },
+    {
+      "id": "D42",
+      "achados": "nenhum (pedido do autor)",
+      "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+      "decisao": "Mizuki, 05/10/2026, texto dele: \"Execução Preparada: 1× por Sequência, ao Concluir depois de duas ou mais Conduções, imponha −1 a um TR adicional da Conclusão.\"",
+      "trocas": [
+        {
+          "antes": "| 7 | Ataque Extra |",
+          "depois": "| 7 | Ataque Extra e Execução Preparada |"
+        },
+        {
+          "antes": "(não havia)",
+          "depois": "**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**."
+        }
+      ],
+      "sha256_antes": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+      "sha256_depois": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+      "muda_na_mesa": "a Vanguarda de nível 7 ou mais ganha, uma vez por Sequência, −1 num segundo TR da Conclusão quando ela vem depois de duas ou mais Conduções acertadas."
+    },
+    {
+      "id": "D43",
+      "achados": "nenhum (pedido do autor)",
+      "decisao": "Mizuki, 05/10/2026: a Melhoria Condição sempre pede TR. Escopo escolhido por ele: \"Controle inteiro\" (Condição, Prende e Cerca), sem Puxa, que é deslocamento forçado como o Empurrão. Num ataque: \"Acerto + TR\" — o acerto aplica o dano e o alvo acertado faz o TR registrado para o Controle; só recebe as peças se falhar.",
+      "arquivos": [
+        {
+          "arquivo": "catalogo/lote-01/CATALOGO.md",
+          "trocas": [
+            {
+              "antes": "# Controle\n\n## Condição",
+              "depois": "# Controle\n\n**Condição, Prende e Cerca sempre pedem TR.** Numa ficha resolvida por TR, entram na falha desse TR. Numa ficha de ataque, o acerto aplica o dano e as outras peças; depois, cada alvo acertado faz o TR registrado na ficha para o Controle e só recebe essas peças se falhar. Um TR por alvo resolve as três peças da mesma ficha. O erro não pede TR.\n\n## Condição"
+            },
+            {
+              "antes": "Pague seu nível: Leve, Média ou Pesada. Ela se aplica no acerto ou na falha do TR, dura **uma rodada**",
+              "depois": "Pague seu nível: Leve, Média ou Pesada. Ela se aplica **na falha do TR**, mesmo numa ficha de ataque, dura **uma rodada**"
+            },
+            {
+              "antes": "encerrando aquela aplicação no sucesso, mesmo que tenha sido aplicada por ataque. Leves",
+              "depois": "encerrando aquela aplicação no sucesso. Leves"
+            },
+            {
+              "antes": "**Preço: Leve.** No acerto ou na falha do TR, o alvo não pode **se aproximar voluntariamente de você**",
+              "depois": "**Preço: Leve.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode **se aproximar voluntariamente de você**"
+            },
+            {
+              "antes": "**Preço: Média.** No acerto ou na falha do TR, o alvo não pode se deslocar voluntariamente",
+              "depois": "**Preço: Média.** Na falha do TR, mesmo numa ficha de ataque, o alvo não pode se deslocar voluntariamente"
+            }
+          ],
+          "sha256_antes": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
+          "sha256_depois": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60"
+        },
+        {
+          "arquivo": "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md",
+          "trocas": [
+            {
+              "antes": "A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. **Use a duração escrita no efeito.**",
+              "depois": "A habilidade informa como aplica a condição: por acerto, falha em TR ou outro gatilho. A Melhoria Condição sempre pede TR: num feitiço de ataque, o alvo acertado ainda faz o TR registrado e só recebe a condição se falhar. **Use a duração escrita no efeito.**"
+            }
+          ],
+          "sha256_antes": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
+          "sha256_depois": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192"
+        },
+        {
+          "arquivo": "fundamento/lote-01/FUNDAMENTO.md",
+          "trocas": [
+            {
+              "antes": "O teste de saída de uma condição Pesada continua existindo mesmo depois da falha inicial.",
+              "depois": "O teste de saída de uma condição Pesada continua existindo mesmo depois da falha inicial.\n\nNum feitiço de ataque, o acerto não basta para Condição, Prende e Cerca: o alvo acertado faz o TR registrado para o Controle e só recebe essas peças se falhar. Veja Controle, no Catálogo."
+            },
+            {
+              "antes": "| Segurar uma criatura no lugar. | Prende, Média. | O alvo pode gastar uma ação permitida pela peça para tentar escapar. |",
+              "depois": "| Segurar uma criatura no lugar. | Prende, Média. | Entra na falha do TR, mesmo num ataque. O alvo pode gastar uma ação permitida pela peça para tentar escapar. |"
+            },
+            {
+              "antes": "| Aplicar uma condição. | Condição, no preço da condição. | No máximo uma Pesada. Se for Pesada, o alvo repete TR no fim dos turnos para encerrá-la. |",
+              "depois": "| Aplicar uma condição. | Condição, no preço da condição. | Entra na falha do TR, mesmo num ataque. No máximo uma Pesada. Se for Pesada, o alvo repete TR no fim dos turnos para encerrá-la. |"
+            }
+          ],
+          "sha256_antes": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
+          "sha256_depois": "f49879df12b2e74625c4adcabd5637d973649f6fe2f53144382afa47e6947ff7"
+        },
+        {
+          "arquivo": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
+          "trocas": [
+            {
+              "antes": "No acerto, causa **3d8 de Concussão** e aplica **Derrubado por uma rodada**. No erro,",
+              "depois": "No acerto, causa **3d8 de Concussão**, e o alvo faz **TR Físico contra CD 12**. Na falha, fica **Derrubado por uma rodada**. No erro,"
+            },
+            {
+              "antes": "e paga 1 por Condição: Derrubado. Sobram 3 dados.",
+              "depois": "e paga 1 por Condição: Derrubado, com TR Físico registrado para ela. Sobram 3 dados."
+            },
+            {
+              "antes": "Se a criatura sobrevivesse ao acerto, seria necessário aplicar Derrubado e sua duração.",
+              "depois": "Se a criatura sobrevivesse ao acerto, faria o TR Físico contra CD 12 e, na falha, ficaria Derrubada por uma rodada."
+            }
+          ],
+          "sha256_antes": "6b91f45d55c3383b014ac27c2c683bc6341533e63e639fd288634ec4e8529ded",
+          "sha256_depois": "0aa5778f2b21f1f2f643cc486cbb4b1ea8c659bd826943ed89c8d2e43bbffdac"
+        },
+        {
+          "arquivo": "rotas/lote-01/ROTAS.md",
+          "trocas": [
+            {
+              "antes": "No acerto, cause **3d8 de Cortante** e aplique Prende até o fim do próximo turno do alvo. Para as tentativas de saída, registre **TR Físico contra sua CD da Kata**.",
+              "depois": "No acerto, cause **3d8 de Cortante**, e o alvo faz **TR Físico contra sua CD da Kata**. Na falha, Prende vale até o fim do próximo turno dele. As tentativas de saída usam o mesmo TR."
+            },
+            {
+              "antes": "Prende permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.",
+              "depois": "O acerto sozinho não prende: Prende entra na falha do TR. Depois, permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo."
+            }
+          ],
+          "sha256_antes": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
+          "sha256_depois": "b1903bb79e8fe5342b0e5aff1da8928a09f2ce36a03cd862860430a292a9f9b4"
+        }
+      ],
+      "muda_na_mesa": "um feitiço de ataque com Condição, Prende ou Cerca não aplica a peça só por acertar: o alvo acertado faz o TR registrado e só a recebe se falhar. Fichas de TR não mudam."
+    },
+    {
+      "id": "D44",
+      "achados": "nenhum (decisão do autor depois da medida do passo 4)",
+      "decisao": "Mizuki, 06/10/2026: \"Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema\". A Execução Preparada impõe −2, e a diferença do degrau do nível 7 fica declarada na peça 06.",
+      "arquivos": [
+        {
+          "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+          "trocas": [
+            {
+              "antes": "imponha **−1 a um TR adicional da Conclusão**.",
+              "depois": "imponha **−2 a um TR adicional da Conclusão**."
+            }
+          ]
+        }
+      ],
+      "muda_na_mesa": "A Conclusão qualificada fica 10 pontos percentuais mais difícil de resistir, e não 5. Registro na unidade: VG-REV-05."
     }
   ]
 }

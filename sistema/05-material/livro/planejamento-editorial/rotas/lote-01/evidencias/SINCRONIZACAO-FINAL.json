@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "cbdc3648f5faa76a3973fd1dc9b8d196a5e46d5508163bc2e3720b33c2512a40",
+  "sha256_texto": "b1903bb79e8fe5342b0e5aff1da8928a09f2ce36a03cd862860430a292a9f9b4",
   "ok": true,
   "verificacoes": 1612,
   "modelos": [
@@ -23449,7 +23449,7 @@
     }
   ],
   "fontes": {
-    "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md": "b4035a501c87ada84e73e5951cdf41639c850d644cfe4cb8812575d8a0bc1c43"
+    "dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md": "292f165cff705284fc4024e5390e7e59441dd448db6f494d7a68fe3bded6e192"
   },
   "limites": [
     "Modela apenas pagamentos, janela por Sequelas e disponibilidade de saldo. Dano posterior, decisões de abandonar Insistir e cura seguem a fonte. Máximos muito baixos podem ganhar a possibilidade de escolher Insistir quando o custo inicial não caberia; a Passiva não garante pagar o próximo custo.",

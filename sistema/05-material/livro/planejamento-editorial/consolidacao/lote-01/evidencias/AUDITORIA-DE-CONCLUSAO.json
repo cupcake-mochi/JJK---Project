@@ -1,13 +1,13 @@
 {
   "concluido": true,
-  "pdf_sha256": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
+  "pdf_sha256": "0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30",
   "paginas": 382,
   "blocos": 509,
   "verificacoes_estruturais": 3505,
   "links_internos": 526,
   "validadores": 15,
   "fontes": 23,
-  "zip_sha256": "bda1337af3ef6c965c5da8ac0981a1b424c7737be4c01c63c223abdb8171db54",
+  "zip_sha256": "1b0638ec3bd5f7d5864e334af2238905701f80bc6b13a612353a145c73f57b46",
   "entregas": [
     "PDF completo",
     "Markdown único",
@@ -20,8 +20,8 @@
   "limites": [
     "Sem playtest ou avaliação humana.",
     "Publicação anterior preservada; entrega candidata para revisão do autor.",
-    "As rodadas de 04/10 são revisão por modelo; os 51 achados de interface estão resolvidos, os últimos 18 por decisão do autor."
+    "As rodadas de 04/10 são revisão por modelo; os 51 achados de interface estão resolvidos, os últimos 18 por decisão do autor. D42 e D43 são pedidos do autor depois da revisão; a troca do nome para Ciclo Maldito (v0.334) e a D44 também."
   ],
   "antes": "evidencias/antes-fechamento-2026-10-04/AUDITORIA-DE-CONCLUSAO.json",
-  "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
 }

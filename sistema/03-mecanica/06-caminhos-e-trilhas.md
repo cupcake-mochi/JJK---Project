@@ -7,6 +7,8 @@ Esta peça revisa e substitui a seção 4 da peça anterior.
 
 > **Edição atual: v0.331, integrada em 02/10/2026.** Os seis Caminhos e suas dezoito Trilhas estão em `caminhos/05-Edicao-Integrada/` e no capítulo 8 do livro. Evocador, Incursor e Invocações foram autorizados pelo Mizuki, juntamente com os cinco ajustes do Bastião. A coleção v0.4 e os desenhos de preço permanecem como registros históricos; seus orçamentos não certificam as habilidades atuais. A base de vida, PE, perícias, armas e TR continua nesta peça e nas peças 1, 7 e 8.
 
+> ***v0.335 — o texto jogável dos Caminhos passou a ser o do livro reconstruído*** *(passo 4 da migração): os seis capítulos em `sistema/05-material/livro/planejamento-editorial/caminhos/`.* **A `caminhos/05-Edicao-Integrada/` e o capítulo 35 do livro v0.331 ficam congelados como estavam**, *e a candidata diz o contrário deles em 20 pontos (a lista está no `PLANO.md` da migração).* **Nesta peça mudaram só três coisas:** *o preço do nível 7 da Vanguarda, que trocou a `Não Pega` pela `Execução Preparada` (§3, "A diferença que fica"); o nome das entregas da rota `Arma de Fogo` do `Batedor`; e a troca de Trilha, que a candidata põe entre missões.* **A base de vida, PE, perícias, armas e TR não mudou.**
+
 ---
 
 ## 1. Os seis Caminhos
@@ -41,6 +43,8 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 > **Esta linha dizia que "as Trilhas seguintes se acumulam com o nível", e isso morreu em duas etapas.** *Na v0.55:* **uma Trilha por ficha, e ponto** — não existe acumular. *Na v0.65:* **a Trilha é fechada** — as quatro entregas dela são todas dela, sem pegar emprestado das vizinhas.
 >
 > **O que existe no lugar é TROCA.** Nos níveis **11, 19 e 27** você pode trocar a sua Trilha por outra do mesmo Caminho, e **a troca é total**: tudo o que você tinha vira o equivalente da Trilha nova. Você é sempre exatamente uma Trilha, do nível 2 ao 30.
+
+> *v0.335, da candidata (PRO20): a troca é feita na atualização da ficha, entre missões, e não como ação na cena; a Trilha nova vale como se você a tivesse desde o nível 2.*
 >
 > *O motivo está no `RASCUNHO-trilhas.md` §3, e ele é curto: **ou cada entrada carrega pré-requisito escrito, como o Pathfinder 2e faz, ou a trilha é fechada, como o D&D 5e faz.** O meio-termo deixava você pegar o degrau avançado de uma Trilha sem nunca ter tido a base dela.*
 
@@ -92,7 +96,7 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 |---|---|---|---|
 | `Eco` | `Eco Amaldiçoado` | o Emanador | `Eco Técnico`, `Eco de Remodelagem`, `Eco de Modulação` |
 | `Impulso` | `Impulso Energético` | a Trilha Catalisador | `Impulso Técnico` |
-| `Sobrecarga` | `Sobre Carregar Energia` | a Trilha Catalisador | — |
+| `Sobrecarga` | `Sobrecarregar Energia` | a Trilha Catalisador | — |
 | `Ação de Atacar` | `Ação Atacar` | os quatro Caminhos | — |
 | `um grupo de armas` | `uma categoria (Grupo das Armas)` | a Trilha Estocada | — |
 | `seus grupos escolhidos` | `suas categorias escolhidas` | a Trilha Estocada | — |
@@ -104,7 +108,7 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 | `do mesmo grupo` | `da mesma categoria` | a Trilha Condutor Armado | — |
 | `do grupo` | `da categoria` | a Trilha Condutor Armado | — |
 
-*A coleção em `caminhos/` fica como chegou, byte a byte, e o manifesto de hashes dela continua conferindo; os renomes moram nesta tabela, e a sub-checagem 10.3 do `conferir-catalogo.py` aplica ela antes de comparar a coleção com o livro.* **A Modulação `Impulso` do Emanador não muda** *— o `Impulso Energético` é o recurso do Catalisador. `Eco` e `Ecos` viram `Eco Amaldiçoado` e `Ecos Amaldiçoados`, e o `Sobre Carregar Energia` é masculino no livro: "depois do", "num".* **As colisões aprovadas:** *`Eco Amaldiçoado` carrega a Passiva `Eco`; `Impulso Energético`, a Melhoria `Impulso`; `Sobre Carregar Energia`, a Restrição `Carregar`; `Condutor Armado`, a Melhoria `Armado`; `Condução` é ofício no projeto; e a `Segunda Leitura` do Yumi reaproveita o nome do nível 15 do Emanador da coleção anterior. Os `DENTRO` de menor peso da triagem também ficam.*
+*A coleção em `caminhos/` fica como chegou, byte a byte, e o manifesto de hashes dela continua conferindo; os renomes moram nesta tabela, e a sub-checagem 10.3 do `conferir-catalogo.py` aplica ela antes de comparar a coleção com o livro.* **A Modulação `Impulso` do Emanador não muda** *— o `Impulso Energético` é o recurso do Catalisador. `Eco` e `Ecos` viram `Eco Amaldiçoado` e `Ecos Amaldiçoados`, e o `Sobrecarregar Energia` é masculino no livro: "depois do", "num".* **As colisões aprovadas:** *`Eco Amaldiçoado` carrega o Talento `Eco`; `Impulso Energético`, a Melhoria `Impulso`; `Sobrecarregar Energia`, a Restrição `Carregar`; `Condutor Armado`, a Melhoria `Armado`; `Condução` é ofício no projeto; e a `Segunda Leitura` do Yumi reaproveita o nome do nível 15 do Emanador da coleção anterior. Os `DENTRO` de menor peso da triagem também ficam.*
 
 **Na v0.281 entraram duas trocas, com as respostas do Mizuki à leitura dos três Caminhos:** *a ação passou a se chamar `Ação Atacar` nos quatro Caminhos — "tem diferença entre 'Atacar' e a 'Ação Atacar', que nem dnd", e a tabela de ações do capítulo 11 já chama a ação de `Atacar` —; e o grupo de armas da Estocada e do Condutor Armado passou a categoria, a palavra do capítulo de equipamento, com o nome antigo entre parênteses onde a escolha é feita — "Pode por categoria, mas coloca logo na frente entre ( ), (Grupo das Armas), facilita entendimento".* **As linhas do grupo são frase a frase**, *porque a palavra muda de gênero; o grupo do Arquiteto é o grupo de jogadores, e fica fora.*
 
@@ -115,7 +119,7 @@ Renomear a aptidão sairia mais caro: *canalizar energia* é termo da própria o
 | `Oportunista` | o prazo da preparação, e a abrangência num feitiço com vários ataques, testes ou alvos | "A preparação dura até o fim do seu próximo turno, e vale para um ataque do feitiço ou para o primeiro TR de uma criatura contra ele." | v0.280, "2 - A": um ataque ou um alvo, até o fim do próximo turno |
 | `Contra a Parede` | a ordem de ataque e feitiço, o custo da conjuração e o arredondamento da metade da maior Classe | "O feitiço não pode ser crítico, mesmo que o ataque seja. Você não pode usar Canalizar em Golpe no ataque escolhido." | v0.280: a habilidade não custa PE, a metade arredonda para baixo, e "o custo desse 'feitiço que acompanha', é o custo do feitiço mesmo"; a ordem: "Depois do primeiro golpe e n crita" |
 
-*As pendências são as que a própria coleção anotou, na nota que veio com ela. A frase decidida mora nesta tabela e no quadro da entrega no livro, e a sub-checagem 10.5 do `conferir-catalogo.py` cobra que o quadro diga a frase.* **A redação segue a da v0.4:** *o `Intensificar` do Catalisador já escolhe "um ataque do feitiço" ou "o primeiro TR de uma criatura contra ele", e o `Ritmo Convergente` do Condutor Armado já manda pagar o feitiço "normalmente".* **A terceira pendência, as conversões do nível 15 do Emanador, fechou na v0.281 sem frase nova:** *o texto fica como está, porque a troca entre dano, cura e vida temporária já vem na tabela do Remodelar, no próprio Caminho — "Pode manter como tem, pq evita da galera ir até a pagina do construtor".*
+*As pendências são as que a própria coleção anotou, na nota que veio com ela. A frase decidida mora nesta tabela e no quadro da entrega no livro, e a sub-checagem 10.5 do `conferir-catalogo.py` cobra que o quadro diga a frase.* **A redação segue a da v0.4:** *o `Intensificar` do Catalisador já escolhe "um ataque do feitiço" ou "o primeiro TR de uma criatura contra ele", e o `Ritmo Convergente` do Condutor Armado já manda pagar o feitiço "normalmente".* **A terceira pendência, as conversões do nível 15 do Emanador, fechou na v0.281 sem frase nova:** *o texto fica como está, porque a troca entre dano, cura e vida temporária já vem na tabela do Remodelar, no próprio Caminho — "Pode manter como tem, pq evita da galera ir até a pagina do construtor".* *v0.335: a candidata escreveu a frase (EMA07) — compare o saldo útil em pontos antes da nova conversão, e a versão não ganha saldo pela troca —, e o resultado na mesa é o mesmo.*
 
 ### A coleção até a v0.269 — o registro com preço
 
@@ -348,20 +352,33 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 > | | nível 7 | ataque extra | + a metade nova | total |
 > |---|---|---|---|---|
 > | **Bastião** | ataque extra + `Ainda de Pé` | `0,83` | `1,10` | **`1,93`** |
-> | **Vanguarda** | ataque extra + `Não Pega` | `0,92` | `1,18` | **`2,10`** |
+> | **Vanguarda** | ataque extra + `Execução Preparada` | `0,92` | `0,23` | **`1,15`** |
 > | Guia · Emanador · Evocador | o degrau grande | — | — | `2,36` |
 >
 > **A `Ainda de Pé` é `1d8 + metade do nível` de cura, `1×` por cena, sem custo de ação.** *`1` de cura = `1` de dano evitado, pela régua da v0.76.* **O relógio não foi escolhido: `1×` por cena dá `1,10` e `2×` daria `2,19`, que estoura.**
 >
-> **A `Não Pega` é o `Evasion` do 5e** — sucesso anula, falha vira metade — **como Reação, e desligada pelo `Incapacitado`.** *Um efeito de TR-para-metade custa `16,20` esperados; ela derruba para `4,20`, evitando `12,00`.* ***Taxa declarada: `50%` das rodadas trazem um efeito qualificado*** — no molde da taxa do `Batedor` parado, escrita e não suposta.
+> **A `Não Pega` é o `Evasion` do 5e** — sucesso anula, falha vira metade — **como Reação, e desligada pela `Guarda Aberta`.** *Um efeito de TR-para-metade custa `16,20` esperados; ela derruba para `4,20`, evitando `12,00`.* ***Taxa declarada: `50%` das rodadas trazem um efeito qualificado*** — no molde da taxa do `Batedor` parado, escrita e não suposta.
 >
 > > **⚠ E o custo de ação foi escolhido por medida, não por sabor.** *A Reação do Bastião está tomada pelos três outros degraus dele, e a Ação Bônus está tomada pelas três Trilhas — a `Fagulha` põe um `Classe 0` de `27` ali toda rodada.* **Curar `19,5` gastando aquilo dá saldo `−7,5`, e a entrada viraria letra morta para `Punho` e `Brasa`.** *Por isso a `Ainda de Pé` não custa ação: é o único slot livre que o Bastião tem no nível 7.*
 >
 > #### A diferença que fica, e ela é declarada
 >
-> **Bastião `−0,43` e Vanguarda `−0,26` contra o degrau grande de `2,36`.** *Os dois ficam abaixo, e a distância entre eles é `0,18` — menor que qualquer Manha do catálogo.* **O resíduo é a Manha:** *a Vanguarda dobra uma no segundo golpe e o Bastião não tem nenhuma; em troca o Bastião passa `52%` das rodadas sem PE contra `33%` dela, e o ataque extra rende mais nele.* **As duas forças quase se cancelam.**
+> **Bastião `−0,43` e Vanguarda `−1,21` contra o degrau grande de `2,36`.** *Até a v0.335 a Vanguarda ficava em `−0,26`, com a `Não Pega` (`1,18`), e a distância entre os dois era `0,18`, menor que qualquer Manha do catálogo. O resto deste parágrafo é dessa época:* *Os dois ficam abaixo, e a distância entre eles é `0,18` — menor que qualquer Manha do catálogo.* **O resíduo é a Manha:** *a Vanguarda dobra uma no segundo golpe e o Bastião não tem nenhuma; em troca o Bastião passa `52%` das rodadas sem PE contra `33%` dela, e o ataque extra rende mais nele.* **As duas forças quase se cancelam.**
 >
 > ***Decisão do Mizuki: a diferença fica declarada em vez de o degrau grande descer para `2,05`.*** *`0,30` fatia é `6%` de uma Trilha, e cabe no que o projeto já aceita — a `Brasa` estoura entre `41%` e `88%` e ficou.*
+
+> ***v0.335: a `Não Pega` saiu (D42), e a `Execução Preparada` entrou no lugar dela.*** *Na sexta passada (D42, 05/10/2026) o Mizuki pôs no nível 7 a **`Execução Preparada`** — "uma vez por Sequência, ao Concluir depois de duas ou mais Conduções acertadas, imponha −1 a um TR adicional da Conclusão" —, e ela está na candidata.* **Medida pela mesma régua** (`sistema/01-pesquisa/medicao-v0335/conta-execucao-preparada.py`, que reproduz os `1,18` da `Não Pega` antes de medir): *−1 no TR são `5` pontos percentuais de falha; o valor da falha é a condição da Conclusão por uma rodada, na tabela das treze da peça 19; e uma Sequência qualificada cabe uma vez por luta de `3,5` rodadas.*
+>
+> | Conclusão | condição | fatias, de baixo a alto |
+> |---|---|---|
+> | Rasteira | `Derrubado` | `0,001` a `0,007` |
+> | Desarme | `Desarmado` | `0,000` a `0,003` |
+> | Quebrar o Ritmo | `Lento` | `0,003` a `0,034` |
+> | Fixar o Alvo | `Impedido` | `0,012` a `0,115` |
+>
+> *O baixo é sem Persistência e só nas rodadas em que a Vanguarda ataca; o alto é um teto generoso, com as duas Conduções acertando sempre.* **Mesmo no teto, a `Execução Preparada` vale `0,12` fatia contra os `1,18` da `Não Pega`, e o degrau da Vanguarda cai de `2,10` para no máximo `1,04`:** *de `−0,26` para entre `−1,32` e `−1,44` contra o degrau grande de `2,36`.* **A régua não mede o resto do que a Vanguarda ganhou na candidata** (*a Sequência inteira é de lá*), *então a comparação é só do degrau, como a tabela sempre foi.* *Era a medida com `−1`.*
+>
+> ***Decisão do Mizuki na v0.336 (D44), em 06/10/2026: "Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema".*** **A `Execução Preparada` impõe `−2`, e a parcela dobra: o teto dela vai a `0,23` fatia** *(Rasteira `0,014`, Desarme `0,006`, Quebrar o Ritmo `0,069`, Fixar o Alvo `0,231`, no alto).* **A tabela acima usa o teto, `0,23`, e o degrau da Vanguarda fica em `1,15`: `−1,21` contra o degrau grande, por decisão escrita, e não como resíduo.** *O `conferir-manual.py` continua conferindo a conta da tabela contra a diferença declarada; o teto de `0,50` dele vale para os outros degraus, e a Vanguarda só passa dele porque esta decisão está escrita aqui.*
 >
 > ### A leitura da v0.82, que a inversão aposentou
 >
@@ -515,7 +532,7 @@ A lista definitiva sai junto com o quadro de perícias completo, que é peça pr
 **Duas coisas que esta linha decide, e as duas foram confirmadas pelo Mizuki na v0.130:**
 
 - **O Guia fica no lado conjurador.** *Ele é `5` de vida e `5` de PE, meio a meio, e nenhuma das três Trilhas dele tem conteúdo de arma — nem as da coleção v0.4, `Arquiteto`, `Analista` e `Socorrista`, nem as de antes, `Elo`, `Sutura` e `Perímetro`.*
-- **"As treze" inclui `Arma de Fogo` para Bastião e Vanguarda.** *Com isso a rota `Arma de Fogo` do `Batedor` é **especialização** e não acesso, que é coerente com o texto dela: ela entrega `Ferrolho` e `Mirar`, e nunca treino.*
+- **"As treze" inclui `Arma de Fogo` para Bastião e Vanguarda.** *Com isso a rota `Arma de Fogo` do `Batedor` é **especialização** e não acesso, que é coerente com o texto dela: ela entrega `Ferrolho` e `Mirar`, e nunca treino.* *Na v0.331 as entregas dela viraram o `Combate Irregular`; na candidata (VG-REV-01 e VG-REV-02) ele aumenta em um só a capacidade da Arma de Fogo, e a arma continua pedindo Grau 2 ou autorização (peça 14 §6.7).*
 
 > **⚠ A `Balestra` é a única categoria Simples que um conjurador pega de graça.** *As outras seis da lista Simples — `Lâmina Curta`, `Porrete`, `Ceifa`, `Arremesso`, `Manopla`, `Massa` — ficam atrás da Trilha para os três.* **A divisão simples/marcial da peça 14 §5.4.1 continua sendo sobre identidade e não sobre poder**, e esta linha não mexe nela: ela diz quem alcança cada balde, e não quanto cada balde entrega.
 

@@ -1,5 +1,5 @@
 {
-  "sha256_texto": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+  "sha256_texto": "db92559872c049cff3cb18cb6964f71a9a17aeb80527bfc5d49079133b52f8db",
   "titulos_revisto": true,
   "sem_explicacao_alheia": true,
   "vocabulario_revisto": true,
@@ -62,5 +62,42 @@
     "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
     "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas não explicam capacidade de outro dono: citam o procedimento geral ou a seção dona pelo nome. Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_05_execucao_preparada": {
+    "sha256_anterior": "a471b8d66ab37a87a26da2fdd4d96625c00ce399f22d9f9ad36ffc68e6c5da37",
+    "sha256_atual": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+    "mudancas": [
+      {
+        "codigo": "VG-REV-03",
+        "secao": "van-base",
+        "antes": "| 7 | Ataque Extra |",
+        "depois": "| 7 | Ataque Extra e Execução Preparada |"
+      },
+      {
+        "codigo": "VG-REV-04",
+        "secao": "van-avanco",
+        "antes": "**Nível 7: Ataque Extra.** Sua Ação Atacar permite **um ataque simples adicional por rodada**. Se uma habilidade deste Caminho permitir usar esse ataque em outra ação, ele continua sujeito ao mesmo limite por rodada.",
+        "depois": "**Nível 7: Ataque Extra.** Sua Ação Atacar permite **um ataque simples adicional por rodada**. Se uma habilidade deste Caminho permitir usar esse ataque em outra ação, ele continua sujeito ao mesmo limite por rodada.\n\n**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**."
+      }
+    ],
+    "registro": "caminhos/vanguarda/lote-01/ALTERACOES.json (VG-REV-03 e VG-REV-04)",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+    "conferido": "O trecho novo foi lido no contexto. Ele não explica capacidade de outro dono: Sequência, Concluir, Condução acertada e TR adicional da Conclusão são deste capítulo. Com a exceção de localização já registrada (Ferrão, que cita Canalizar em Golpe e Estímulo Muscular, casada pelo trecho), o conferir_editorial dá 0 achados no texto atual. O título da seção não muda, e a linha da tabela nomeia as duas habilidades do nível."
+  },
+  "revisao_delta_2026_10_06_d44": {
+    "sha256_anterior": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+    "sha256_atual": "db92559872c049cff3cb18cb6964f71a9a17aeb80527bfc5d49079133b52f8db",
+    "mudancas": [
+      {
+        "codigo": "VG-REV-05",
+        "decisao": "D44 (Execução Preparada com −2)",
+        "secao": "van-avanco",
+        "antes": "**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**.",
+        "depois": "**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−2 a um TR adicional da Conclusão**."
+      }
+    ],
+    "registro": "caminhos/vanguarda/lote-01/ALTERACOES.json (VG-REV-05)",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana.",
+    "conferido": "O parágrafo relido no contexto: só o número mudou, de −1 para −2, com a mesma sintaxe. O conferir_editorial dá 0 achados no texto atual, sem exceção nova. As exceções de localização já registradas casam pelo trecho e continuam valendo."
   }
 }

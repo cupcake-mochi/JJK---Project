@@ -381,3 +381,11 @@ A última coluna acompanha quem sempre escolheu Refino. Em outra sequência, ver
 **Depois:** (retirado)
 
 **Motivo:** Pedido do autor (04/10/2026): retirar do livro do jogador projeções de projetista (tempo de campanha, como o personagem termina seguindo sempre a mesma escolha). A regra do marco fica.
+
+## A34 — decisão do autor
+
+**Antes:** A Expansão incompleta não tem Acerto garantido. Cesta, Domínio Simples e a proteção de Pétala contra Acerto não a anulam. Extensão declara a própria exceção. As capacidades descritas aqui são regras do Projeto - M para representar essas defesas.
+
+**Depois:** A Expansão incompleta não tem Acerto garantido. Cesta, Domínio Simples e a proteção de Pétala contra Acerto não a anulam. Extensão declara a própria exceção. As capacidades descritas aqui são regras do Ciclo Maldito para representar essas defesas.
+
+**Motivo:** Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (Ciclo Maldito R28a): o sistema se chama Ciclo Maldito no repositório inteiro, e a candidata acompanha o nome do livro publicado. Só o nome muda; nenhuma regra muda.

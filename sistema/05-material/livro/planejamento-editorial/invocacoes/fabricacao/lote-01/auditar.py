@@ -134,6 +134,7 @@ check('Fontes preservadas ou alteração concorrente cotejada',all(x['preservada
 num['ok']=all(c['ok'] for c in checks)
 num['manuscritos_auditados']={str(M.relative_to(ROOT)):SHA}
 save('auditoria-numerica.json',num)
-save('fontes-preservadas.json',{x['path']:x['sha256'] for x in preserve if '/planejamento-editorial/' not in x['path']})
+# Uma fonte com cotejo aceito em fontes-concorrentes.json fica preservada no hash cotejado (05/10/2026).
+save('fontes-preservadas.json',{x['path']:(x['sha256_final'] if not x['preservada'] and accepted.get(x['path'],{}).get('sha256_final')==x['sha256_final'] else x['sha256']) for x in preserve if '/planejamento-editorial/' not in x['path']})
 save('regras-verificadas.json',{'sha256_texto':SHA,'ok':True,'checks':checks,'limites':'Checks textuais asseguram contratos declarados, não leitura automática completa. Parecer contextual separado.'})
 print(json.dumps({'ok':True,'sha256_texto':SHA,'verificacoes':len(checks),'casos':len(cases),'niveis':27000,'perfis':len(profiles),'d20_enumerados':n_rolls},ensure_ascii=False))

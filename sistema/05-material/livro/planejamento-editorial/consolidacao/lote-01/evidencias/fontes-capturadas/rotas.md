@@ -159,9 +159,9 @@ Essas entradas são efeitos específicos do catálogo. Um Talento criado na mesa
 
 Iori escolhe **Toque + Prende**, de Classe 1. Prende é Média e custa 1 ponto nessa Classe. Corpo a Corpo já acompanha Toque e devolve 1 ponto, exatamente o gasto. A conta é **3 − 1 + 1 = 3**.
 
-**Ficha:** Ação Padrão, 3 PE, uma criatura a até 1,5 m. Faça um ataque da Kata. No acerto, cause **3d8 de Cortante** e aplique Prende até o fim do próximo turno do alvo. Para as tentativas de saída, registre **TR Físico contra sua CD da Kata**.
+**Ficha:** Ação Padrão, 3 PE, uma criatura a até 1,5 m. Faça um ataque da Kata. No acerto, cause **3d8 de Cortante**, e o alvo faz **TR Físico contra sua CD da Kata**. Na falha, Prende vale até o fim do próximo turno dele. As tentativas de saída usam o mesmo TR.
 
-Com Força 3 e maestria 1, usando uma arma de Força, o ataque é **d20 + 4** e a CD é **12**. Prende permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.
+Com Força 3 e maestria 1, usando uma arma de Força, o ataque é **d20 + 4** e a CD é **12**. O acerto sozinho não prende: Prende entra na falha do TR. Depois, permite gastar Padrão, Bônus ou Movimento para tentar o TR de saída, conforme o Catálogo.
 
 ## Repertório
 

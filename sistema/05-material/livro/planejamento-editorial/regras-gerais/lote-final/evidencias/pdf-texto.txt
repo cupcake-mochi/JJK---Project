@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -51,7 +51,7 @@ Confira a distribuição inicial e os treinos em Criação de personagem.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -106,7 +106,7 @@ conforme aquela regra.
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -151,7 +151,7 @@ separadamente.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -203,7 +203,7 @@ escapar de uma contenção.
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -249,7 +249,7 @@ especiais.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -303,7 +303,7 @@ começar a ação. Uma ação adicional não torna gratuito o custo de manipular
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -335,7 +335,7 @@ sua Padrão, sem realizar um ataque próprio.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -369,7 +369,7 @@ Repetir o mesmo pedido sem mudar a situação não cria novas tentativas.
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -409,7 +409,7 @@ outro corpo.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -442,7 +442,7 @@ do ataque não são o mesmo momento.
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11
@@ -482,7 +482,7 @@ alcance, posição ou outros requisitos de manutenção que a ficha estabeleça.
 
 
 PÁGINA 12
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 12
@@ -529,7 +529,7 @@ primeira dessas resoluções; ele não substitui um TR nem impede um efeito auto
 
 
 PÁGINA 13
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 13
@@ -573,7 +573,7 @@ nas regras comuns.
 
 
 PÁGINA 14
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 14
@@ -626,7 +626,7 @@ reduções e demais consequências do dano são tratadas em Dano e recuperação
 
 
 PÁGINA 15
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 15
@@ -671,7 +671,7 @@ outro recurso; Bloquear, por si só, não paga esses custos.
 
 
 PÁGINA 16
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 16
@@ -710,7 +710,7 @@ dados descartados não produzem efeito.
 
 
 PÁGINA 17
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 17
@@ -752,7 +752,7 @@ continuam usando seus custos e limites próprios.
 
 
 PÁGINA 18
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 18
@@ -800,7 +800,7 @@ Movimento especial segue o custo e os limites da fonte que o concedeu.
 
 
 PÁGINA 19
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 19
@@ -843,7 +843,7 @@ queda continua seguindo seu procedimento próprio.
 
 
 PÁGINA 20
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 20
@@ -875,7 +875,7 @@ ou no espaço de outra criatura. Confira Quedas e movimento imposto para beirada
 
 
 PÁGINA 21
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 21
@@ -935,7 +935,7 @@ telhados no mesmo nível. Não precisa rolar e ainda tem 1,5 m para andar.
 
 
 PÁGINA 22
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 22
@@ -984,7 +984,7 @@ ocorrem após o primeiro trecho, sem esperar o impacto futuro.
 
 
 PÁGINA 23
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 23
@@ -1015,7 +1015,7 @@ conceder movimento adicional. Nenhum dos dois termina dentro de um obstáculo s�
 
 
 PÁGINA 24
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 24
@@ -1060,7 +1060,7 @@ entulho que torne o trecho difícil, gasta 6 m. Retirar o entulho elimina soment
 
 
 PÁGINA 25
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 25
@@ -1100,7 +1100,7 @@ requisitos da fonte de voo.
 
 
 PÁGINA 26
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 26
@@ -1150,7 +1150,7 @@ Força do equipamento ou da habilidade usada.
 
 
 PÁGINA 27
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 27
@@ -1182,7 +1182,7 @@ deles soltar, o outro não consegue continuar carregando sozinho.
 
 
 PÁGINA 28
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 28
@@ -1216,7 +1216,7 @@ inconsciente perde o controle e cai se não estiver preso por um suporte apropri
 
 
 PÁGINA 29
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 29
@@ -1265,7 +1265,7 @@ através da parede.
 
 
 PÁGINA 30
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 30
@@ -1307,7 +1307,7 @@ cada personagem.
 
 
 PÁGINA 31
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 31
@@ -1350,7 +1350,7 @@ continuam sendo resultados diferentes; os limites de visão e ataques estão em 
 
 
 PÁGINA 32
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 32
@@ -1395,7 +1395,7 @@ Ela precisa usar Esconder novamente, pagando a ação ou usando uma permissão e
 
 
 PÁGINA 33
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 33
@@ -1438,7 +1438,7 @@ para golpeá-la.
 
 
 PÁGINA 34
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 34
@@ -1470,7 +1470,7 @@ aleatoriamente.
 
 
 PÁGINA 35
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 35
@@ -1518,7 +1518,7 @@ limites.
 
 
 PÁGINA 36
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 36
@@ -1556,7 +1556,7 @@ estão em seus capítulos próprios.
 
 
 PÁGINA 37
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 37
@@ -1599,7 +1599,7 @@ rolagem de Esconder nem apaga o que acabou de observar.
 
 
 PÁGINA 38
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 38
@@ -1639,7 +1639,7 @@ personagem.
 
 
 PÁGINA 39
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 39
@@ -1673,7 +1673,7 @@ espaço sem evidência que o determine.
 
 
 PÁGINA 40
-PROJETO - M
+CICLO MALDITO
 REGRAS GERAIS
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 40

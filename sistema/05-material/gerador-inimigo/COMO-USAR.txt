@@ -1,4 +1,4 @@
-GERADOR DO BLOCO DE INIMIGO — Projeto - M, peca 26
+GERADOR DO BLOCO DE INIMIGO — Ciclo Maldito, peca 26
 
   node make.js
   cp bloco-de-inimigo.docx ..

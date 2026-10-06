@@ -44,7 +44,7 @@ A cada quatro níveis a partir do começo da ficha — nos níveis **6, 10, 14, 
 - **Passivo:** +1 ponto de atributo e +1 de refino.
 - **Escolha:** mais um ponto de atributo, **ou** mais um de refino junto de uma aptidão.
 
-> **⚠ Esta seção é CÓPIA, e o dono é a peça 11 §3.** *Ela está desatualizada desde a v0.26, e o conserto saiu com a peça de aptidões.* O marco ganhou um **terceiro eixo, o Leque** — a linha passiva passou a dar **+1 espaço de feitiço** junto do atributo e do refino, e a escolha virou uma de três: mais atributo, mais refino com uma aptidão, ou `+1 feitiço e uma Passiva`. As três fichas de exemplo abaixo e a análise de auto-equilíbrio da seção seguinte foram calculadas com duas opções e continuam válidas **para as duas que já existiam**. O levantamento do terceiro eixo, com a conta, está no `ESTADO-ATUAL.md`.
+> **⚠ Esta seção é CÓPIA, e o dono é a peça 11 §3.** *Ela está desatualizada desde a v0.26, e o conserto saiu com a peça de aptidões.* O marco ganhou um **terceiro eixo, o Leque** — a linha passiva passou a dar **+1 espaço de feitiço** junto do atributo e do refino, e a escolha virou uma de três: mais atributo, mais refino com uma aptidão, ou `+1 feitiço e um Talento`. As três fichas de exemplo abaixo e a análise de auto-equilíbrio da seção seguinte foram calculadas com duas opções e continuam válidas **para as duas que já existiam**. O levantamento do terceiro eixo, com a conta, está no `ESTADO-ATUAL.md`.
 
 **Teto do atributo: 6.** Teto do refino: 10.
 

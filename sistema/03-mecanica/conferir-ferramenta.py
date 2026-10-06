@@ -345,7 +345,7 @@ else:
     # o catalogo se CONTA, nunca se guarda
     m = re.search(r'catálogo continua com onze|onze `Estigma`|## 6\. O catálogo — onze', P16)
     afirmado = re.search(r'O catálogo — (\w+) `Estigma`', S6 or P16)
-    NUM = {'dez': 10, 'onze': 11, 'doze': 12, 'treze': 13}
+    NUM = {'dez': 10, 'onze': 11, 'doze': 12, 'treze': 13, 'dezessete': 17}   # v0.335: 17
     if afirmado and afirmado.group(1) in NUM:
         if NUM[afirmado.group(1)] != len(CATALOGO):
             erro('7', f'a peca afirma "{afirmado.group(1)}" e o catalogo contado tem {len(CATALOGO)}')
@@ -672,8 +672,15 @@ else:
         _c2 = {n: d for n, d in CATALOGO.items() if d['classe'] == 2}
         # guarda de contagem: eram TRES ate a v0.151 e o `Bojo` foi arrancado na
         # v0.152 — ele reprovava por 7,85x dentro da propria Classe (SS6.2).
-        if len(_c2) != 2:
-            erro('17', f'esperava 2 Estigma de Classe 2 e li {len(_c2)} — a tabela '
+        # v0.335: seis, com as quatro da candidata. A contagem e' LIDA da nota do
+        # SS6.4, e nao escrita aqui.
+        _NUMX = {'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6, 'sete': 7}
+        _mc2 = re.search(r'\*\*(\w+)\*\* de `Classe 2` ao todo', S6)
+        _esp2 = _NUMX.get(_mc2.group(1)) if _mc2 else None
+        if _esp2 is None:
+            erro('17', 'o SS6.4 nao diz mais quantos Estigma de Classe 2 existem')
+        elif len(_c2) != _esp2:
+            erro('17', f'o SS6.4 diz {_esp2} Estigma de Classe 2 e li {len(_c2)} — a tabela '
                        f'mudou de forma')
         _RELOGIO = re.compile(r'(uma|duas|três|\d+)\s+vez(?:es)?\s+por\s+'
                               r'(cena|descanso\s+\w+)', re.I)

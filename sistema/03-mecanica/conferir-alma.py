@@ -10,8 +10,9 @@ e que a parte nova (a Essencia dentro da barra) nao moveu a curva publicada.
 A CHECAGEM 1 E' A QUE ESTA PECA EXISTE PARA TER. Ela nao compara a formula
 contra uma copia dela: ela reconstroi a curva a partir de TRES donos
 independentes — o `20` e o `5` da peca 24, a Essencia de referencia derivada
-do teto de atributo da peca 2, e a curva original `20 + 8 x (nivel - 1)` lida
-do MANUAL — e exige que as duas coincidam nos 30 niveis. Perturbar qualquer
+do teto de atributo da peca 2, e a curva original `20 + 8 x (nivel - 1)` em que
+os estagios foram calibrados (era a caixa `Vida` do manual v7; desde a v0.338 e'
+uma frase propria da peca 24 §2) — e exige que as duas coincidam nos 30 niveis. Perturbar qualquer
 um dos tres acende.
 
 A CHECAGEM 4 e' a unica que mede CONSEQUENCIA em vez de copia. Se alguem
@@ -20,12 +21,12 @@ campanha sem nenhuma outra checagem acusar.
 
 NENHUM VALOR FICA ESCRITO AQUI DENTRO:
   a formula da Integridade ....... peca 24, a secao 2
-  a curva original `20 + 8` ...... manual/gerador/partF.js
+  a curva original `20 + 8` ...... peca 24, a secao 2 (era o manual v7 ate a v0.337)
   o teto de atributo ............. peca 2, a secao 3
   a vida por Caminho ............. peca 1, a secao 5.1
   a forma da formula de vida ..... peca 1, a secao 5 (o bloco de formulas)
-  os quatro estagios ............. manual/gerador/partF.js
-  a ficha de inimigo ............. manual/gerador/partF.js
+  os quatro estagios ............. o livro reconstruido, capitulo de Dano (fracao e numero)
+  a ficha de inimigo ............. peca 26, a secao 3.0
   os quatro Testes de Resistencia  peca 1, a secao 4
   a excecao que atravessa ........ peca 16, a secao 4
   a ficha de exemplo ............. peca 8
@@ -43,7 +44,6 @@ import sys
 
 MEC = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(MEC))
-PARTF = os.path.join(RAIZ, 'manual', 'gerador', 'partF.js')
 
 FALHAS = []
 NIVEIS = range(1, 31)
@@ -76,12 +76,18 @@ P08 = ler('08-criacao-de-personagem.md')
 P10 = ler('10-descanso-e-recuperacao.md')
 P16 = ler('16-ferramenta-amaldicoada.md')
 P24 = ler('24-dano-de-alma.md')
-with open(PARTF, encoding='utf-8') as f:
-    MANUAL = f.read()
+P26 = ler('26-bestiario.md')
+# v0.338: o partF.js do manual do Fundamento v7 saiu de fonte (passo 5 da migracao, segunda
+# parte). O que esta peca lia dele mudou de casa: a curva `20 + 8` de calibracao para a
+# peca 24 §2, a secao `Inimigos` para a peca 26 §3.0, e os estagios passam a ser
+# conferidos contra o livro reconstruido (capitulo de Dano).
+sys.path.insert(0, MEC)
+import livro
+S_INI = P26[P26.find('### 3.0 A tabela `Inimigos`'):P26.find('### 3.1 ')] if '### 3.0 A tabela `Inimigos`' in P26 else ''
 
 
 # ==========================================================================
-bloco('1. A FORMULA REPRODUZ A CURVA DO MANUAL, NA ESSENCIA DE REFERENCIA')
+bloco('1. A FORMULA REPRODUZ A CURVA DE CALIBRACAO, NA ESSENCIA DE REFERENCIA')
 
 # --- dono 1: a formula da peca 24
 _m = re.search(r'Integridade = (\d+) \+ \(Essência \+ (\d+)\) × \(nível − 1\)', P24)
@@ -102,15 +108,17 @@ else:
     TETO_ATR = int(_m.group(1))
     print(f'  peca 2   -> teto de atributo = {TETO_ATR}')
 
-# --- dono 3: a curva original, lida do MANUAL e nao daqui
-_m = re.search(r'Vida de personagem = (\d+) \+ (\d+) × \(nível − 1\)', MANUAL)
+# --- dono 3: a curva original, que era a caixa `Vida` do manual v7 e mora na peca 24
+# §2 desde a v0.338. Ela e' uma frase separada da formula, e a checagem pede que as duas
+# concordem: mexer em uma so acende.
+_m = re.search(r'Vida de personagem = (\d+) \+ (\d+) × \(nível − 1\)', P24)
 if not _m:
-    erro(1, 'nao achei a curva original de vida no partF.js do manual — ela e a '
-            'ancora desta checagem, e sem ela a checagem 1 vira circular')
+    erro(1, 'nao achei a curva de calibracao (Vida de personagem = ...) na peca 24 §2 — '
+            'ela e a ancora desta checagem, e sem ela a checagem 1 vira circular')
     M_BASE = M_POR = None
 else:
     M_BASE, M_POR = int(_m.group(1)), int(_m.group(2))
-    print(f'  manual   -> curva original = {M_BASE} + {M_POR} x (nivel - 1)')
+    print(f'  peca 24  -> curva de calibracao = {M_BASE} + {M_POR} x (nivel - 1)')
 
 if None not in (BASE, POR_NIVEL, TETO_ATR, M_BASE, M_POR):
     ESS_REF = TETO_ATR // 2
@@ -124,8 +132,8 @@ if None not in (BASE, POR_NIVEL, TETO_ATR, M_BASE, M_POR):
 
     divergem = [nv for nv in NIVEIS if integridade(nv, ESS_REF) != curva_manual(nv)]
     if divergem:
-        erro(1, f'a formula com Essencia {ESS_REF} deixou de reproduzir a curva do '
-                f'manual em {len(divergem)} nivel(is) — o primeiro e o nv{divergem[0]} '
+        erro(1, f'a formula com Essencia {ESS_REF} deixou de reproduzir a curva de '
+                f'calibracao em {len(divergem)} nivel(is) — o primeiro e o nv{divergem[0]} '
                 f'({integridade(divergem[0], ESS_REF)} contra {curva_manual(divergem[0])}). '
                 f'A tabela de estagios foi calibrada nessa curva')
     else:
@@ -246,13 +254,24 @@ else:
 
 
 # ==========================================================================
-bloco('5. OS QUATRO ESTAGIOS BATEM COM OS DO MANUAL')
+bloco('5. OS QUATRO ESTAGIOS BATEM COM OS DO LIVRO')
 
-_man = re.findall(r"\['(1/4|1/2|3/4|Toda)',\s*'(\d)',\s*'([^']*)'\]", MANUAL)
+# v0.338: ate a v0.337 o outro lado era o manual do Fundamento v7 (partF.js). Agora e' o
+# livro reconstruido, capitulo de Dano: a fracao e o numero de cada estagio. O EFEITO do
+# estagio 4 mudou no livro (Inconsciente e Derrotado) e espera a revisao do Morrendo; os
+# tokens continuam conferidos so na peca 24, que e' a dona.
+try:
+    _man = []
+    for _r in livro.tabela(livro.texto('dano'), 'Integridade perdida', 'Estágio'):
+        _fr = re.search(r'(1/4|1/2|3/4|Toda)$', livro.limpa(_r['Integridade perdida']))
+        if _fr and _r['Estágio'] != '0':
+            _man.append((_fr.group(1), _r['Estágio'], ''))
+except (livro.LivroMudou, KeyError, OSError):
+    _man = []
 _pec = re.findall(r'^\|\s*`?(1/4|1/2|3/4|toda)`?\s*\|\s*\*\*(\d)\*\*\s*\|\s*([^|]+)\|',
                   P24, re.M)
 if len(_man) != 4:
-    erro(5, f'nao achei os quatro estagios no partF.js (achei {len(_man)})')
+    erro(5, f'nao achei os quatro estagios no capitulo de Dano do livro (achei {len(_man)})')
 elif len(_pec) != 4:
     erro(5, f'nao achei os quatro estagios na peca 24 (achei {len(_pec)})')
 else:
@@ -266,16 +285,15 @@ else:
     }
     for (fm, em, tm), (fp, ep, tp) in zip(_man, _pec):
         if fm.lower() != fp.lower() or em != ep:
-            erro(5, f'estagio fora de ordem ou de fracao: manual "{fm}/{em}" contra '
+            erro(5, f'estagio fora de ordem ou de fracao: livro "{fm}/{em}" contra '
                     f'peca "{fp}/{ep}"')
             continue
         faltando = [t for t in TOKENS[ep] if t.lower() not in tp.lower()]
         if faltando:
-            erro(5, f'o estagio {ep} da peca 24 perdeu {faltando} — o manual publica '
-                    f'"{tm.strip()}"')
+            erro(5, f'o estagio {ep} da peca 24 perdeu {faltando}')
     if not [f for f in FALHAS if f.startswith('5:')]:
         print('  [x] as quatro fracoes, os quatro numeros e os tokens mecanicos de cada')
-        print('      linha batem entre a peca 24 §4 e o partF.js do manual')
+        print('      linha batem entre a peca 24 §4 e o capitulo de Dano do livro')
 
 
 # ==========================================================================
@@ -318,8 +336,6 @@ for _raiz, _dirs, _arqs in os.walk(os.path.dirname(MEC)):
                     _sujos.append(os.path.relpath(_p, os.path.dirname(MEC)))
         except (UnicodeDecodeError, OSError):
             pass
-if FANTASMA in MANUAL:
-    _sujos.append('manual/gerador/partF.js')
 if _sujos:
     erro(6, f'o "{FANTASMA}" voltou em {len(_sujos)} arquivo(s): {_sujos} — ele nomeia '
             f'um quinto TR que a peca 1 §4 nunca teve, e a decisao da v0.7 o matou')
@@ -411,8 +427,8 @@ else:
     # voltar a derrubar a vida maxima. Linha que cita a v0.176 e historico, e passa.
     _RAIZ8 = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     _DOCS8 = ['sistema/03-mecanica/24-dano-de-alma.md', 'sistema/03-mecanica/19-dano-e-condicoes.md',
-              'sistema/03-mecanica/10-descanso-e-recuperacao.md', 'manual/gerador/partD.js',
-              'manual/gerador/partF.js', 'sistema/05-material/livro/manual/15-dano-e-condicoes.md',
+              'sistema/03-mecanica/10-descanso-e-recuperacao.md', 'sistema/03-mecanica/26-bestiario.md',
+              'sistema/05-material/livro/manual/15-dano-e-condicoes.md',
               'sistema/05-material/livro/manual/40-fundamento.md']
     _VELHA8 = re.compile(r'derruba (a (sua )?)?vida máxima|vida máxima (que tinha sido )?derrubada|'
                          r'com a vida máxima junto|Integridade e (a )?vida máxima|Integridade, e vida máxima')
@@ -529,7 +545,7 @@ else:
 
 
 # ==========================================================================
-bloco('12. O MANUAL IMPRIME AS DUAS LINHAS DO INIMIGO')
+bloco('12. A FICHA DE INIMIGO IMPRIME A LINHA DA INTEGRIDADE')
 # ==========================================================================
 # v0.159. Duas coisas nasceram juntas porque sao a mesma:
 #
@@ -539,71 +555,44 @@ bloco('12. O MANUAL IMPRIME AS DUAS LINHAS DO INIMIGO')
 #   2) a secao `Inimigos` nao dizia que o inimigo tem a barra. Sem isso o `Cisao`
 #      fica sem alvo contra inimigo, que era o item 1 do SS8.
 #
-# NAO ENTROU COLUNA. Uma coluna de Integridade ao lado da coluna de vida seria a
-# mesma linha escrita duas vezes dentro da mesma tabela — licao no 9. O que o
-# mestre precisa e' de um lugar para marcar o desgaste, e nao de um segundo valor.
+# v0.338: o manual do Fundamento v7 saiu de fonte, e a secao `Inimigos` dele mudou
+# para a peca 26 §3.0. A caixa `Integridade` (o item 1) era copia da peca 24 §3.3 e
+# saiu com o manual: a peca 24 e' a dona e diz os dois lados. O que fica conferido e'
+# o item 2, agora na peca 26 §3.0, e que ela continua apontando em vez de copiar.
 #
-# E o manual continua SEM a formula do SS2: ele aponta para fora em vez de copiar.
-_int = re.search(r"H2\('Integridade'\)(.*?)(?=\n\s*H2\()", MANUAL, re.S)
-_ini = re.search(r"H2\('Inimigos'\)(.*?)(?=\n\s*H2\()", MANUAL, re.S)
-
-# GUARDA: recorte vazio quer dizer secao renomeada, e uma checagem cega passa
-# verde para sempre. As duas guardas vem antes de qualquer comparacao.
-if not _int:
-    erro(12, 'nao achei a secao `Integridade` no partF.js do manual')
-if not _ini:
-    erro(12, 'nao achei a secao `Inimigos` no partF.js do manual — e e la que a '
-             'ficha de inimigo mora')
-
-if _int and _ini:
-    S_INT, S_INI = _int.group(1), _ini.group(1)
-
-    # 12a — a caixa nomeia OS DOIS LADOS
-    _tem_inimigo = re.search(r'inimigo|não seja personagem jogador', S_INT, re.I)
-    _tem_pj = re.search(r'personagem[^.]{0,60}f[óo]rmula própria', S_INT, re.I)
-    if not _tem_inimigo:
-        erro('12a', 'a caixa `Integridade` do manual nao diz para QUEM a regra '
-                    'do inimigo vale — e ela vale para inimigo, nao '
-                    'para personagem jogador (peca 24 SS3.3)')
-    elif not _tem_pj:
-        erro('12a', 'a caixa `Integridade` do manual nao diz que personagem tem '
-                    'formula propria — quem le so ela da ao personagem a '
-                    'Integridade errada, que foi o que aconteceu da v0.145 ate a '
-                    'v0.158')
-    else:
-        print('  [x] a caixa `Integridade` do manual nomeia os dois lados: a regra '
-              'da caixa e do')
-        print('      inimigo, e personagem tem formula propria')
-
-    # 12b — e o manual NAO republica a formula. Ela e' montada dos numeros lidos
-    # da peca no bloco 1, e nao escrita aqui: se a peca mudar, a busca muda junto.
+# NAO ENTROU COLUNA. Uma coluna de Integridade ao lado da coluna de vida seria a
+# mesma linha escrita duas vezes dentro da mesma tabela — licao no 9.
+if not S_INI:
+    erro(12, 'nao achei a secao `3.0 A tabela Inimigos` na peca 26 — e e la que a '
+             'ficha de inimigo mora desde a v0.338')
+else:
+    # 12b — o §3.0 NAO republica a formula da peca 24. Ela e' montada dos numeros
+    # lidos da peca no bloco 1, e nao escrita aqui.
     if None not in (BASE, POR_NIVEL):
         _assin = f'(Essência + {POR_NIVEL})'
-        if _assin in MANUAL or f'{BASE} + (Essência' in MANUAL:
-            erro('12b', f'o manual passou a carregar a formula da peca 24 '
-                        f'(`{_assin}`) — duas copias do mesmo numero em dois '
-                        f'documentos, que e a licao no 9. Ele aponta, nao copia')
+        if _assin in S_INI or f'{BASE} + (Essência' in S_INI:
+            erro('12b', f'o §3.0 da peca 26 passou a carregar a formula da peca 24 '
+                        f'(`{_assin}`) — duas copias do mesmo numero, que e a licao no 9. '
+                        f'Ele aponta, nao copia')
         else:
-            print(f'  [x] o manual nao carrega a formula da peca 24 (`{_assin}`): '
+            print(f'  [x] o §3.0 da peca 26 nao carrega a formula da peca 24 (`{_assin}`): '
                   f'ele aponta')
 
-    # 12c — a secao `Inimigos` manda anotar a barra, e o ponteiro tem alvo
+    # 12c — o §3.0 manda anotar a barra, e o ponteiro tem alvo
     _linha = re.search(r'Integridade[^\n]*vida máxima', S_INI)
     # a coluna sai do CABECALHO da tabela, e nao de qualquer texto com `vida`
-    # dentro: a propria linha da Integridade tem a palavra, e ler ela faria a
-    # guarda apontar para si mesma.
-    _cab = re.search(r'TBL\(\[([^\]]*)\]', S_INI)
+    _cab = re.search(r'^\| Nível do grupo \|([^\n]*)$', S_INI, re.M)
     _col = _cab and re.search(r'vida', _cab.group(1), re.I)
     if not _linha:
-        erro('12c', 'a secao `Inimigos` do manual nao diz que a Integridade do '
-                    'inimigo sai da vida maxima dele — sem essa linha o `Cisao` fica '
-                    'sem alvo contra inimigo (peca 24 SS3.3)')
+        erro('12c', 'o §3.0 da peca 26 nao diz que a Integridade do inimigo sai da vida '
+                    'maxima dele — sem essa linha o `Cisao` fica sem alvo contra inimigo '
+                    '(peca 24 SS3.3)')
     elif not _col:
         erro('12c', 'a linha da Integridade aponta para a coluna de vida da tabela '
                     'de inimigo, e a tabela nao tem mais coluna de vida — ponteiro '
                     'pendurado')
     else:
-        print('  [x] a secao `Inimigos` manda anotar a barra, e a coluna de vida '
+        print('  [x] o §3.0 da peca 26 manda anotar a barra, e a coluna de vida '
               'que ela cita existe')
 
 
@@ -633,7 +622,6 @@ def _ler13(rel):
     except OSError:
         erro(13, f'nao abri {rel}')
         return ''
-P26 = ler('26-bestiario.md')
 # v0.282: a conta do gerador mora no conta.js, e o make.js monta o .docx em cima dela
 _GER = _ler13('sistema/05-material/gerador-inimigo/conta.js') + '\n' + _ler13('sistema/05-material/gerador-inimigo/make.js')
 
@@ -652,16 +640,14 @@ else:
     _faltam = []
     if not (_l26 and f'{_palavra} da vida máxima' in _l26.group(1)):
         _faltam.append('peca 26 §3')
-    if not (S_INT and f'**Integridade = {_palavra} da vida máxima**' in S_INT):
-        _faltam.append('a caixa `Integridade` do manual')
+    # v0.338: a caixa `Integridade` e o glossario do manual v7 sairam com ele; a secao
+    # `Inimigos` mora na peca 26 §3.0
     if not (S_INI and re.search(r"\*\*Integridade\.\*\*[^\n]*" + re.escape(_palavra) + r' da vida máxima', S_INI)):
-        _faltam.append('a secao `Inimigos` do manual')
-    if not re.search(r"\['Integridade', 'A vida da alma\. " + re.escape(_palavra.capitalize()) + r' da vida máxima em inimigo', MANUAL):
-        _faltam.append('o glossario do manual')
+        _faltam.append('a peca 26 §3.0')
     if _faltam:
         erro('13a', f'a fracao "{_palavra}" da peca 24 nao aparece em: ' + ', '.join(_faltam))
     else:
-        print('  [x] a peca 26, a caixa e a secao `Inimigos` do manual e o glossario dizem a mesma fracao')
+        print('  [x] a peca 26 §3 e o §3.0 dizem a mesma fracao')
     # 13b — o gerador de inimigo divide pelo mesmo numero, nas duas fichas que imprime
     _div = re.findall(r'Math\.floor\(Number\(vida\) / (\d+)\)', _GER)
     _usos = len(re.findall(r'integridadeDe\(', _GER))   # a definicao e `integridadeDe = (`, e nao casa
@@ -675,15 +661,15 @@ else:
         print(f'  [x] o gerador de inimigo divide por {_div[0]}, nas duas fichas que ele imprime')
     # 13c — o terco do `Cisao` sai da fracao e da mesa padrao
     _lim = _f / (1 + _f)
-    # v0.282: na grade a mesa padrao e o N do chefe da tabela do manual, o `Desastre ×4` da peca 26 §4
-    _mm = re.search(r'O `Desastre ×(\d)` é o chefe da tabela do manual', P26)
+    # v0.282: na grade a mesa padrao e o N do chefe da tabela `Inimigos`, o `Desastre ×4` da peca 26 §4
+    _mm = re.search(r'O `Desastre ×(\d)` é o chefe da tabela `Inimigos`', P26)
     _s33 = P24[P24.find('### 3.3'):P24.find('### 3.3.1')]
     _pub = re.search(r'menos de \*\*(.+?)\*\* do dano do grupo', _s33)
     _vel = re.search(r'fica `(\d+),(\d)×` bater normal', _s33)
     _mesa = re.search(r'na mesa padrão de (\w+) a parte de cada um é (.+?)\.', _s33)
     _emp = re.search(r'numa mesa de (\w+) a vida e o estágio `4` chegam juntos', _s33)
     if not _mm:
-        erro('13c', 'nao achei a mesa padrao na peca 26 (o `Desastre ×N` que e o chefe da tabela do manual)')
+        erro('13c', 'nao achei a mesa padrao na peca 26 (o `Desastre ×N` que e o chefe da tabela `Inimigos`)')
     elif not (_pub and _vel and _mesa and _emp):
         erro('13c', 'a peca 24 §3.3 parou de publicar o limite do `Cisao` por extenso — '
                     'o limite, a velocidade, a mesa padrao e a mesa do empate')

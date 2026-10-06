@@ -21,10 +21,10 @@ NENHUM VALOR FICA ESCRITO AQUI DENTRO:
   as treze condicoes ........... peca 19, a secao 3
   a propriedade `Talha` ........ peca 14, a secao 5.2
   a quantidade de Reacao ....... peca 3, a secao 3
-  a ficha de inimigo ........... manual/gerador/partF.js
+  a ficha de inimigo ........... peca 26, a secao 3.0 (era o manual v7, partF.js, ate a v0.337)
 
 A CHECAGEM 1 E' A UNICA DESTE PROJETO QUE EXISTE PARA SUSTENTAR UM NUMERO DE
-OUTRA PECA. A peca 19 publica o `Incapacitado` em 11,00 porque a metade
+OUTRA PECA. A peca 19 publica a `Guarda Aberta` em 11,00 porque a metade
 "voce nao pode Bloquear" vale zero — e ela vale zero PORQUE o Bloquear e'
 neutro. Se a neutralidade quebrar, aquele preco fica errado e ninguem mais
 estaria olhando.
@@ -47,7 +47,6 @@ P19 = '19-dano-e-condicoes.md'
 P23 = '23-bloquear.md'
 P03 = '03-economia-de-acao-e-iniciativa.md'
 RAIZ = os.path.dirname(os.path.dirname(MEC))
-PARTF = os.path.join(RAIZ, 'manual', 'gerador', 'partF.js')
 
 
 def erro(n, msg):
@@ -82,8 +81,8 @@ T19 = ler(P19)
 T14 = ler(P14)
 T01 = ler(P01)
 T03 = ler(P03)
-with open(PARTF, encoding='utf-8') as _fh:
-    MANUAL = _fh.read()
+# v0.338: a secao `Inimigos` saiu do manual do Fundamento v7 (partF.js) para a peca 26 §3.0
+T26 = ler('26-bestiario.md')
 
 
 # ==========================================================================
@@ -116,24 +115,24 @@ OFFSET = int(_m.group(3))
 print(f'  a base da Defesa, lida da peca 1: {BASE_DEFESA}')
 print(f'  o offset escrito na regra da peca 23: {OFFSET}')
 
-# --- 1.1 (v0.151): o valor do `Incapacitado` mora na peca 19 e esta peca o CITA.
+# --- 1.1 (v0.151): o valor da `Guarda Aberta` mora na peca 19 e esta peca o CITA.
 # A v0.151 repreçou aquela condicao de 11,00 para 4,95, os 24 validadores sairam
 # verdes, e esta peca continuou publicando 11,00 e 11,02 — porque ninguem comparava
 # as duas copias. Licao no 9, no numero que esta peca existe para sustentar.
-_m19 = re.search(r'\|\s*\*\*`Incapacitado`\*\*\s*\|\s*`([\d,]+)`\s*\|', T19)
+_m19 = re.search(r'\|\s*\*\*`Guarda Aberta`\*\*\s*\|\s*`([\d,]+)`\s*\|', T19)
 if not _m19:
-    erro(1, 'nao achei a linha do `Incapacitado` na tabela do SS2.2 da peca 19 — '
+    erro(1, 'nao achei a linha da `Guarda Aberta` na tabela do SS2.2 da peca 19 — '
             'esta peca cita o valor dela e ficou sem o dono para comparar')
 else:
     _v19 = float(_m19.group(1).replace(',', '.'))
     # ⚠ Nao existe lista de formas de citar: a primeira versao desta sub-checagem
     # casava "iria para" e "em", e o §5.1 citava o numero numa TERCEIRA forma —
     # que sobreviveu ao repreco com a checagem verde. Hoje ela pega TODO `N,NN`
-    # que apareça a menos de 200 caracteres da palavra `Incapacitado`, e a peca 23
+    # que apareça a menos de 200 caracteres da palavra `Guarda Aberta`, e a peca 23
     # e' obrigada a nao guardar numeral historico: o valor velho fica em discurso
     # indireto, que e' a convencao que a v0.143 pagou para escrever.
     _achou = []
-    for _mi in re.finditer(r'Incapacitado', T23):
+    for _mi in re.finditer(r'Guarda Aberta', T23):
         _jan = T23[max(0, _mi.start() - 200): _mi.end() + 200]
         _achou += re.findall(r'`(\d+,\d{2})`', _jan)
     _aqui = sorted({float(x.replace(',', '.')) for x in _achou})
@@ -141,17 +140,17 @@ else:
     # sub-checagem VERDE e calada — que e' a licao no 8 por outra porta. Sao DOIS
     # valores distintos hoje: o da peca 19 e ele mais o `+0,02` da metade.
     if len(_aqui) < 2:
-        erro(1, f'a peca 23 cita {len(_aqui)} valor(es) do `Incapacitado` e eu '
+        erro(1, f'a peca 23 cita {len(_aqui)} valor(es) da `Guarda Aberta` e eu '
                 'esperava 2 — ela parou de citar, ou mudou de forma, e esta '
                 'sub-checagem deixaria de comparar as duas copias em silencio')
     else:
         # o `+0,02` da metade do Bloquear e' o unico desvio legal
         _fora = [v for v in _aqui if abs(v - _v19) > 0.05 and abs(v - _v19 - 0.02) > 0.005]
         if _fora:
-            erro(1, f'a peca 23 publica o `Incapacitado` em {_fora} e a peca 19, que '
+            erro(1, f'a peca 23 publica a `Guarda Aberta` em {_fora} e a peca 19, que '
                     f'e a dona, publica {_v19:.2f} — as duas copias divergiram')
         else:
-            print(f'  [x] o `Incapacitado` citado aqui bate com a peca 19: '
+            print(f'  [x] a `Guarda Aberta` citado aqui bate com a peca 19: '
                   f'{_v19:.2f} de dano por rodada, em {len(_aqui)} citacao(oes)')
 
 MEDIA_DADO = QTD * (FACES + 1) / 2.0
@@ -211,7 +210,7 @@ else:
 if abs(COM - EST) > 5e-4:
     erro('1c', f'o Bloquear rende {COM:.4f} contra {EST:.4f} da Defesa estatica — '
                 f'vies de {(COM - EST) * 100:+.2f} pontos percentuais. A peca 19 '
-                f'publica o `Incapacitado` em 11,00 SUPONDO que este vies e zero')
+                f'publica a `Guarda Aberta` em 11,00 SUPONDO que este vies e zero')
 else:
     print(f'  [x] o Bloquear e neutro: {COM:.4f} dos dois lados, ao ponto flutuante')
 
@@ -432,14 +431,14 @@ else:
 
 
 # ==========================================================================
-bloco('5. SO O `Incapacitado` DESLIGA O BLOQUEAR — lido da peca 19')
+bloco('5. SO A `Guarda Aberta` DESLIGA O BLOQUEAR — lido da peca 19')
 # ==========================================================================
 # Ela existe porque a proxima pessoa que ler o rascunho antigo vai querer
 # acrescentar `Derrubado` ou `Agarrado`, e isso repreca duas condicoes que
 # ja tem numero publicado na regua das treze.
 _cond = {}
 for _l in T19.split('\n'):
-    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéóÇ]+)`\*\*\s*\|\s*`(Leve|Média|Pesada)`'
+    _m = re.match(r'\|\s*\*\*`([A-Za-zçãíéóÇ]+(?: [A-Za-zçãíéóÇ]+)*)`\*\*\s*\|\s*`(Leve|Média|Pesada)`'
                   r'\s*\|\s*(.+?)\s*\|\s*$', _l)
     if _m:
         _cond[_m.group(1)] = _m.group(3)
@@ -448,20 +447,20 @@ if len(_cond) != 13:
             f'tabela mudou de forma e esta checagem parou de conferir')
 else:
     _citam = sorted(n for n, t in _cond.items() if re.search(r'\bBloquear\b', t))
-    if _citam != ['Incapacitado']:
+    if _citam != ['Guarda Aberta']:
         erro(5, f'as condicoes que citam Bloquear sao {_citam}, e o SS5 da peca 23 '
-                f'diz que so o `Incapacitado` desliga — cada uma a mais e um '
+                f'diz que so a `Guarda Aberta` desliga — cada uma a mais e um '
                 f'repreco na regua das treze, e nao uma regra nova')
     else:
-        print(f'  [x] das 13 condicoes, so o `Incapacitado` cita Bloquear')
+        print(f'  [x] das 13 condicoes, so a `Guarda Aberta` cita Bloquear')
     # v0.201: a tabela do SS2.2 trocou a coluna das fatias pela das acoes negadas,
     # dos pontos e da razao de dominancia. O que esta checagem precisa e' o valor e
     # o nivel, e os dois continuam nas pontas da linha.
-    _m = re.search(r'\|\s*\*\*`Incapacitado`\*\*\s*\|\s*`([\d,]+)`\s*\|'
+    _m = re.search(r'\|\s*\*\*`Guarda Aberta`\*\*\s*\|\s*`([\d,]+)`\s*\|'
                    r'[^|]*\|\s*`(\d+)`\s*\|\s*`([\d,]+)×`\s*\|\s*'
                    r'`(Leve|Média|Pesada)`', T19)
     if not _m:
-        erro('5a', 'nao achei a linha do `Incapacitado` na tabela de preco do SS2.2')
+        erro('5a', 'nao achei a linha da `Guarda Aberta` na tabela de preco do SS2.2')
     else:
         print(f'  .. e ele continua em {num(_m.group(1)):.2f} de dano por rodada, '
               f'{num(_m.group(3)):.2f}x o dano dos {_m.group(2)} pontos que ele custa, '
@@ -585,7 +584,7 @@ bloco('8. A REACAO DO INIMIGO — a mesma que a peca 3 da a todo mundo')
 # entao trocar os dois de forma coerente sai VERDE de proposito — e e isso que
 # prova que ela mede a RELACAO e nao a decisao de hoje (licao no 8).
 #
-# O partF.js e' texto puro: ela nao abre o .docx e nao tem como PULAR.
+# A peca 26 e' texto puro: esta checagem nao tem como PULAR.
 _NUM = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'tres': 3, 'três': 3,
         'quatro': 4, 'cinco': 5}
 
@@ -595,35 +594,35 @@ def _qtd(palavra):
     return _NUM.get(p, int(p) if p.isdigit() else None)
 
 
-# o recorte da secao `Inimigos` do manual. GUARDA: se ele vier vazio, alguem
+# o recorte da secao `Inimigos` (peca 26 §3.0). GUARDA: se ele vier vazio, alguem
 # renomeou a secao e a checagem ficaria cega, passando verde para sempre.
-_ini = re.search(r"H2\('Inimigos'\)(.*?)(?=\n\s*H2\()", MANUAL, re.S)
+_ini = re.search(r'### 3\.0 A tabela `Inimigos`(.*?)(?=\n### )', T26, re.S)
 if not _ini:
-    erro(8, 'nao achei a secao `Inimigos` no partF.js do manual — sem ela esta '
+    erro(8, 'nao achei a secao `3.0 A tabela Inimigos` na peca 26 — sem ela esta '
             'checagem nao tem onde procurar, e ficar cega e passar verde para '
             'sempre')
     SECAO_INI = None
 else:
     SECAO_INI = _ini.group(1)
-    print('  a secao `Inimigos` do manual tem '
+    print('  a secao `Inimigos` (peca 26 §3.0) tem '
           f'{len(SECAO_INI.splitlines())} linhas')
 
 # dono 1: a peca 3, que da o slot a QUALQUER ficha
 _m3 = re.search(r'\|\s*\*\*Reação\*\*\s*\|\s*([A-Za-zÀ-ú]+)\s*,', T03)
-# dono 2: o manual, na ficha de inimigo
+# dono 2: a peca 26 §3.0, na ficha de inimigo (era o manual v7 ate a v0.337)
 _mi = re.search(r'\*\*Reação\.\*\*\s*([A-Za-zÀ-ú]+)\s+por rodada',
                 SECAO_INI or '')
 if not _m3:
     erro(8, 'nao achei a linha da Reacao na tabela do turno da peca 3 — ela e o '
             'dono da quantidade, e sem ela nao ha o que comparar')
 elif not _mi:
-    erro(8, 'a secao `Inimigos` do manual nao imprime a Reacao do inimigo — sem '
+    erro(8, 'a secao `Inimigos` da peca 26 nao imprime a Reacao do inimigo — sem '
             'ela o mestre nao tem onde marcar, e a `Brecha` nao vale contra '
             'inimigo (peca 23 SS3.4)')
 else:
     _q3, _qi = _qtd(_m3.group(1)), _qtd(_mi.group(1))
     print(f'  peca 3 SS3 -> o slot Reacao da `{_m3.group(1)}` a qualquer ficha')
-    print(f'  manual     -> a ficha de inimigo diz `{_mi.group(1)}` por rodada')
+    print(f'  peca 26    -> a ficha de inimigo diz `{_mi.group(1)}` por rodada')
     if None in (_q3, _qi):
         erro(8, f'nao consegui ler as duas quantidades como numero '
                 f'({_m3.group(1)!r} e {_mi.group(1)!r})')
@@ -679,6 +678,6 @@ if FALHAS:
     sys.exit(1)
 print('>>> TUDO OK — a neutralidade e exata e recalculada, o modificador e a mesma')
 print('    expressao dos dois lados, o liquido dos extremos sai dos donos e cabe no')
-print('    teto, o `+3` e o maior que cabe, so o `Incapacitado` desliga, e a `Talha`')
+print('    teto, o `+3` e o maior que cabe, so a `Guarda Aberta` desliga, e a `Talha`')
 print('    e do atacante. E a Reacao do inimigo e a mesma que a peca 3 da a')
-print('    todo mundo, impressa na ficha de inimigo do manual.')
+print('    todo mundo, impressa na ficha de inimigo da peca 26.')

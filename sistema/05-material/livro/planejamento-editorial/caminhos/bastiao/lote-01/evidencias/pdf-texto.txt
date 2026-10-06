@@ -1,5 +1,5 @@
 PÁGINA 1
-PROJETO - M
+CICLO MALDITO
 BASTIÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 1
@@ -50,7 +50,7 @@ entregas de duas Trilhas.
 
 
 PÁGINA 2
-PROJETO - M
+CICLO MALDITO
 BASTIÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 2
@@ -80,7 +80,7 @@ transfere uma área, um TR ou um efeito automático, nem os outros ataques daque
 
 
 PÁGINA 3
-PROJETO - M
+CICLO MALDITO
 BASTIÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 3
@@ -112,7 +112,7 @@ Defesas e outras reduções seguem a ordem de Dano.
 
 
 PÁGINA 4
-PROJETO - M
+CICLO MALDITO
 BASTIÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 4
@@ -146,7 +146,7 @@ Dano e recuperação. Um aliado que já estava a zero não pode ser protegido po
 
 
 PÁGINA 5
-PROJETO - M
+CICLO MALDITO
 BASTIÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 5
@@ -185,7 +185,7 @@ conservar a cobertura que era concedida a ele.
 
 
 PÁGINA 6
-PROJETO - M
+CICLO MALDITO
 BASTIÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 6
@@ -212,7 +212,7 @@ continuam obedecendo aos próprios gatilhos.
 
 
 PÁGINA 7
-PROJETO - M
+CICLO MALDITO
 BASTIÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 7
@@ -245,7 +245,7 @@ agressor estiver ao alcance, ainda pode usar a resposta que integra a Reação.
 
 
 PÁGINA 8
-PROJETO - M
+CICLO MALDITO
 BASTIÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 8
@@ -274,7 +274,7 @@ não ativa Minha Vez.
 
 
 PÁGINA 9
-PROJETO - M
+CICLO MALDITO
 BASTIÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 9
@@ -315,7 +315,7 @@ novamente a parte de agarrar ou derrubar.
 
 
 PÁGINA 10
-PROJETO - M
+CICLO MALDITO
 BASTIÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 10
@@ -354,7 +354,7 @@ valor até maestria, mas não criar uma reserva crescente. Gastá-la não recupe
 
 
 PÁGINA 11
-PROJETO - M
+CICLO MALDITO
 BASTIÃO
 PROPOSTA EM DISCUSSÃO  |  BASE v0.331
 11

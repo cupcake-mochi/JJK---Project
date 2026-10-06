@@ -1,7 +1,7 @@
 {
   "data": "2026-10-03",
   "sha256_texto": "123f777f27638aac11b1c7e984c998503fb84b1eee24a8d80e8e1926880888f0",
-  "sha256_pdf": "6fbda6bc16317e67363de9a8ee2a0bc2fd447dfab31a905987a09262cc42ea93",
+  "sha256_pdf": "ce2292751fdd49b287a5ced55900735b6a7d12e07962c8d5916930ef2d107653",
   "metodo": "Todas as páginas alteradas pela migração e seus complementos foram abertas individualmente. As demais conservam a inspeção anterior por igualdade de pixels comprovada, sem alegar nova leitura visual.",
   "prova_anterior": "c5905aedb50386d7f7b57b3a013b0e41a809f661df61226da4524fa12f4726a0",
   "comparacao": "evidencias/COMPARACAO-NOMES-PDF.json",
@@ -120,12 +120,14 @@
     {
       "pagina": 12,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Texto, cabeçalho, tabelas e exemplos completos e legíveis.",
-      "sha256_png": "e3a24363b7c225c0920630d099dc975498f4bc27e8a15b067610569cbb1bf810",
-      "revisor": "Agente principal",
+      "observacoes": "Nome do sistema trocado para Ciclo Maldito no corpo; parágrafos inteiros, sem corte nem linha sozinha.",
+      "sha256_png": "9379be2410b9dcb1e0f728538caec5a1c1f5a09cc5faae4c11b7badaf9917294",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Identidade de pixels com a página já inspecionada na prova anterior; não houve nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-12.png"
+      "imagem": "output/png/pagina-12.png",
+      "arquivo": null,
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 13,
@@ -229,5 +231,36 @@
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_pdf_anterior": "6fbda6bc16317e67363de9a8ee2a0bc2fd447dfab31a905987a09262cc42ea93",
+    "sha256_pdf_atual": "ce2292751fdd49b287a5ced55900735b6a7d12e07962c8d5916930ef2d107653",
+    "paginas_com_corpo_alterado": [
+      12
+    ],
+    "paginas_so_com_cabecalho_novo": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
+    "metodo": "As páginas de corpo alterado foram abertas; as outras conservam a inspeção anterior por igualdade de pixels do corpo, e o cabeçalho novo foi conferido na tira de cabeçalho de cada unidade.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

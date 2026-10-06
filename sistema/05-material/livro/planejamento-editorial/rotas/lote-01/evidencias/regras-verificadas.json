@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "99c04d78b0d7ac7bff72a75ebb03cd103330f6a84c79aeecf24871f6975456ae",
+  "sha256_texto": "b1903bb79e8fe5342b0e5aff1da8928a09f2ce36a03cd862860430a292a9f9b4",
   "casos": [
     {
       "teste": "IDs únicos",
@@ -66,7 +66,7 @@
         },
         {
           "id": "rota-fisga",
-          "palavras": 310
+          "palavras": 327
         },
         {
           "id": "rota-bancada",

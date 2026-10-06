@@ -757,7 +757,7 @@ Uma missão pode exigir armas, proteção, ferramentas e suprimentos. O dinheiro
 
 Os preços deste livro estão em **ienes (¥)**. Anote o dinheiro do personagem e desconte cada compra. Armas, munição e itens comuns têm seus preços nos respectivos catálogos; os de uniformes e escudos estão em [Preços de proteção](#eqc-precos).
 
-Na instituição do Projeto M, o pagamento regular depende da patente e da participação em missões. Valores, frequência e ajustes da campanha estão em **Recompensas da guilda**, no capítulo de Experiência e Progressão. Receber equipamento ou terminar uma missão não concede outro pagamento por conta própria.
+Na instituição do Ciclo Maldito, o pagamento regular depende da patente e da participação em missões. Valores, frequência e ajustes da campanha estão em **Recompensas da guilda**, no capítulo de Experiência e Progressão. Receber equipamento ou terminar uma missão não concede outro pagamento por conta própria.
 
 ## Equipamento restrito
 
@@ -895,7 +895,7 @@ O item conserva Volume, mãos necessárias, dano, proteção, teto de Destreza e
 <!-- page:eqf-graus|Graus das ferramentas -->
 # Graus das ferramentas
 
-O grau organiza a entrega de ferramentas na campanha. Graus mais altos permitem efeitos mais marcantes. A escala abaixo é uma adaptação do Projeto - M; as fichas deste catálogo são criações para o jogo.
+O grau organiza a entrega de ferramentas na campanha. Graus mais altos permitem efeitos mais marcantes. A escala abaixo é uma adaptação do Ciclo Maldito; as fichas deste catálogo são criações para o jogo.
 
 | Grau | Efeito esperado | Nível mínimo para o efeito |
 |---|---|---|
@@ -1193,7 +1193,7 @@ Restos de um feiticeiro podem conservar uma maldição muito depois de sua morte
 
 ## Atração e selos
 
-No Projeto - M, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo pode pôr em risco o grupo e as pessoas ao redor. A regra não fixa distância nem frequência de encontros: o mestre considera o objeto, o local e as maldições presentes.
+No Ciclo Maldito, um objeto amaldiçoado sem selo atrai maldições para suas proximidades. Carregá-lo pode pôr em risco o grupo e as pessoas ao redor. A regra não fixa distância nem frequência de encontros: o mestre considera o objeto, o local e as maldições presentes.
 
 Um objeto preparado como amuleto usa um selo para afastar maldições. Essa proteção enfraquece com o tempo; se o selo perde o efeito ou é retirado, o objeto volta a atraí-las. O mestre define a duração e o alcance dessa proteção para o objeto da missão. Isso não concede imunidade a ataques nem impede automaticamente que uma maldição se aproxime.
 

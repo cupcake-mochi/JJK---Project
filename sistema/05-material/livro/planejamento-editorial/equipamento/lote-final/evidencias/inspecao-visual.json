@@ -1,7 +1,7 @@
 {
   "data": "2026-10-03",
   "sha256_texto": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
-  "sha256_pdf": "871267c856b89eb6e2584639f2eec0d0fd5a806670e5038d2ebc07664ec45aa2",
+  "sha256_pdf": "522c8a04b70364d34f8e865bbcdc605cefdc5e3c9caca324c35d1a70a90e2da4",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-04.json.",
   "comparacao": "evidencias/COMPARACAO-REMISSOES-PDF.json",
   "prova_anterior": "b6a97181db148bd364ca05bb9d8f02cd3ab904afc34eefc33f4d543809015396",
@@ -287,13 +287,15 @@
     {
       "pagina": 25,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Tabela de acesso e exemplo bem separados; links e valores legíveis.",
-      "revisor": "/root/rotas_didatica",
+      "observacoes": "Nome do sistema trocado para Ciclo Maldito no corpo; parágrafos inteiros, sem corte nem linha sozinha.",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
       "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-25.png",
-      "sha256_png": "b02c81b050cf5a4ba234ffab0de11919e06e626b58ab29d37d6888b1f147e6de",
+      "sha256_png": "c18242b0f2a9054986c376a99d6e116dc45cb11f924ce81432fef288c19127ec",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-25.png"
+      "imagem": "output/png/pagina-25.png",
+      "arquivo": null,
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 26,
@@ -343,13 +345,15 @@
     {
       "pagina": 30,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Tabela de graus e nível mínimo inteira, remissões coloridas legíveis.",
-      "revisor": "/root/rotas_didatica",
+      "observacoes": "Nome do sistema trocado para Ciclo Maldito no corpo; parágrafos inteiros, sem corte nem linha sozinha.",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
       "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-30.png",
-      "sha256_png": "4502b1c9d4f66e94af4a35f395be68b16a26461b65f4b8b3b24ac08a3fe0ed4a",
+      "sha256_png": "46d159e53931d48ae5bd5e7b6d59077594c99d2066a99f2506d414cde1694bd0",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-30.png"
+      "imagem": "output/png/pagina-30.png",
+      "arquivo": null,
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo"
     },
     {
       "pagina": 31,
@@ -443,13 +447,15 @@
     {
       "pagina": 39,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Seções de objetos amaldiçoados, exemplo e parágrafo final íntegros.",
-      "revisor": "/root/rotas_didatica",
+      "observacoes": "Nome do sistema trocado para Ciclo Maldito no corpo; parágrafos inteiros, sem corte nem linha sozinha.",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
       "png": "/media/mizuki/HD Externo II/Claude/Claude 2/sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/output/png/pagina-39.png",
-      "sha256_png": "a1f481fc55651e2eacdd67926b4e6a77de4de39dd74aab2c5b9a295ef0d512dc",
+      "sha256_png": "aa578766d78196536b023682d07c979f76828f549567443acbe7ad1c8ba2be28",
       "pixels_iguais_rodada_anterior": true,
       "evidencia_preservacao": "Pixel idêntico à prova imediatamente anterior já examinada; sem nova abertura nesta rodada.",
-      "imagem": "output/png/pagina-39.png"
+      "imagem": "output/png/pagina-39.png",
+      "arquivo": null,
+      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo"
     }
   ],
   "limites": "Sem impressão física, playtest ou teste com leitores humanos.",
@@ -482,5 +488,55 @@
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
     "metodo": "As páginas alteradas foram abertas; as demais conservam a inspeção anterior por igualdade de pixels com o PDF inspecionado.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revisao_delta_2026_10_05_ciclo_maldito": {
+    "sha256_pdf_anterior": "871267c856b89eb6e2584639f2eec0d0fd5a806670e5038d2ebc07664ec45aa2",
+    "sha256_pdf_atual": "522c8a04b70364d34f8e865bbcdc605cefdc5e3c9caca324c35d1a70a90e2da4",
+    "paginas_com_corpo_alterado": [
+      25,
+      30,
+      39
+    ],
+    "paginas_so_com_cabecalho_novo": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      27,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
+    "metodo": "As páginas de corpo alterado foram abertas; as outras conservam a inspeção anterior por igualdade de pixels do corpo, e o cabeçalho novo foi conferido na tira de cabeçalho de cada unidade.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
   }
 }

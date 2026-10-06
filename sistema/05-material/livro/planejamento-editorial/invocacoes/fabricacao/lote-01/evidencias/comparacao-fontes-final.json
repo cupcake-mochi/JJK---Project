@@ -22,8 +22,8 @@
     {
       "path": "sistema/03-mecanica/14-equipamento.md",
       "sha256": "d3c27c82c54a421ee2039f9986002cd879a61fe74291a5dad800631fc4ce32eb",
-      "sha256_final": "d3c27c82c54a421ee2039f9986002cd879a61fe74291a5dad800631fc4ce32eb",
-      "preservada": true
+      "sha256_final": "f8101cc34ca23eaebae97a148130c52b74568e38ff6fabfd9fa37dc60889d16d",
+      "preservada": false
     },
     {
       "path": "sistema/05-material/livro/manual/60-invocacoes.md",

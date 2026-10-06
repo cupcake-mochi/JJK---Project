@@ -440,6 +440,56 @@ G5-05. O teto de 4 × Classe das especiais segue o Fundamento (FU-27): some os d
 
 G4-11. O passo 5 da criação, a seção Equipamento e valores e a Ficha pronta pedem a situação, o TR e as perícias do Traje. Na ficha de repertório, a coluna de posição virou "Posição e recursos" e entrou a linha "Traje — situação, TR e perícias". Para a ficha continuar numa página, o traço da linha "Vestido, empunhado ou guardado" ficou mais curto.
 
+## Sexta passada: o nível 7 da Vanguarda
+
+### D42 · caminhos/vanguarda/lote-01/VANGUARDA.md
+
+Em 05/10/2026, o Mizuki notou que a Vanguarda era o único Caminho com uma habilidade só no nível 7. A Não Pega da peça 06 (o Evasion do 5e: num efeito de TR para metade, sucesso anula e falha vira metade) não tinha chegado à candidata. Ele achou a Não Pega forte e pediu uma ideia nova. Rerrolar TR também ficou de fora, porque repetiria a Não Cede do nível 15. O texto é dele: "Execução Preparada: 1× por Sequência, ao Concluir depois de duas ou mais Conduções, imponha −1 a um TR adicional da Conclusão."
+
+- Tabela de progressão: "Ataque Extra" virou "Ataque Extra e Execução Preparada".
+- Acrescentado, depois do Ataque Extra: **Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**.
+- "Acertadas" vem da Conclusão Dupla do nível 30, que usa a mesma condição. O nome passou na triagem do `conferir-nomes.py` (LIVRE).
+- Muda na mesa: a partir do nível 7, uma vez por Sequência, a Conclusão que vem depois de duas ou mais Conduções acertadas impõe −1 a mais um TR, além do que ela já impõe.
+- Unidade: `VG-REV-03` e `VG-REV-04` no `ALTERACOES` da Vanguarda. A peça 06 ainda diz Não Pega; a migração está em `../migracao-pos-candidata/PLANO.md`.
+
+### D43 · Condição, Prende e Cerca pedem TR
+
+Em 05/10/2026, o Mizuki decidiu que a Melhoria Condição sempre pede TR, mesmo num feitiço de ataque. Ao levantar o escopo, apareceu uma brecha: Prende e Cerca também entravam no acerto sem ser uma das treze condições. Se só a Condição pedisse TR, Prende continuaria entrando no acerto, quase como um Agarrado sem teste. Ele escolheu a família Controle que aplica estado: Condição, Prende e Cerca.
+
+- **Como fica num ataque:** o acerto aplica o dano e as outras peças. Depois, cada alvo acertado faz o TR registrado na ficha para o Controle e só recebe Condição, Prende ou Cerca se falhar. Um TR por alvo resolve as três peças da mesma ficha. O erro não pede TR. Numa ficha de TR, nada muda: a falha aplica tudo. Decidido por ele entre "acerto + TR" e "só em ficha de TR".
+- **Fora:** Puxa, Terreno, Anteparo e Desarma o Feitiço, os Auxiliares e as Marcas. A conversa em que o escopo foi fechado deixou Puxa de fora dizendo que área "se resolve sempre por TR"; isso não vale, porque o Fundamento resolve área por ataque ou por TR. O Mizuki manteve Puxa de fora pelo outro motivo: é deslocamento forçado, como o Empurrão, que segue entrando no acerto.
+- **Catálogo** (`CAT-D43-01` a `CAT-D43-05`): parágrafo novo na abertura de Controle com a regra. Condição, Cerca e Prende passam a dizer "na falha do TR, mesmo numa ficha de ataque". A saída da Pesada perdeu o "mesmo que tenha sido aplicada por ataque", que deixou de ter caso.
+- **Dano e recuperação** (`DR36`): Aplicação e duração diz que a Melhoria Condição sempre pede TR.
+- **Fundamento** (`FU-59` a `FU-61`): Resultados ganha o parágrafo do ataque com Controle, com remissão ao Catálogo. A tabela de Controle diz "entra na falha do TR, mesmo num ataque" em Prende e em Condição.
+- **Abertura** (`AB25` a `AB27`): Peso nas Mãos, da Kaori, passa a pedir **TR Físico contra CD 12** para o Derrubado (CD 8 + Força 3 + Maestria 1, a da tabela dela). O fecho do combate de exemplo diz o que aconteceria se a criatura sobrevivesse.
+- **Rotas** (`R10-38` e `R10-39`): Gancho fechado, do Iori, pede **TR Físico contra a CD da Kata** para Prende, e as tentativas de saída usam o mesmo TR. O Manejo da Rika já era de TR e não mudou.
+- **Sem mudança:** Construir invocações cita Prende numa especial sem dizer como ela entra, e a Rede de contenção da Hana já é de TR.
+- Muda na mesa: um feitiço de ataque com Condição, Prende ou Cerca não aplica mais a peça só por acertar. O alvo acertado ainda resiste com o TR registrado, e a CD recebe o +2 do Controle com saldo zero, como antes. A saída repetida da Pesada e as tentativas de Prende continuam iguais.
+- Auditor da Abertura: a checagem `efeito-sobrevivente` procurava a frase antiga e foi trocada pela nova; a `condicao-pede-tr`, nova, confere a ficha com a CD calculada dos atributos da Kaori.
+- Migração: as peças e o gerador do Fundamento ainda dizem "no acerto"; ver `../migracao-pos-candidata/PLANO.md`.
+- Auditor do Catálogo: confere que Condição, Prende e Cerca entram na falha do TR mesmo num ataque, com um modelo de quatro casos por peça, e usa o Puxa como contra-teste (segue entrando no acerto). As oito perturbações, todas acendendo a checagem certa, estão em `evidencias/perturbacao-d43.txt`.
+- **Fora da D43, achado no caminho:** a v0.332 (passo 2 da migração, commit `789cf5a`) mudou as peças 01, 09, 11, 13 e 14 e o CHANGELOG sem cotejo, e nove capítulos que guardam essas fontes por hash ficaram vermelhos (Aptidões, Bastião, Fabricação, Origens, Perícias, Poderes avançados, Progressão, Regras gerais e Rotas). O diff palavra a palavra só toca os renomes Reencarnado → Encarnado, Incapacitado → Guarda Aberta e Aviso → Leitura de Feitiços, que a candidata já usava; o do CHANGELOG é a entrada nova. Cada capítulo ganhou um `COTEJO-FONTES-PRESERVADAS-2026-10-05.json` na pasta de evidências (por exemplo `../rotas/lote-01/evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json`); a Progressão registrou o cotejo no `FONTES.json` e a Fabricação no `fontes-concorrentes.json`. O auditor da Fabricação regravava a lista de fontes preservadas com o hash inicial e ignorava o cotejo aceito; agora usa o hash cotejado quando ele confere, e a perturbação do cotejo faz o auditor falhar.
+- Cotejos dos donos mudados pela D43: Consulta (`FONTES-CANDIDATAS.json`) e Construir invocações (`fontes-concorrentes-finais.json`). Nenhuma das duas reproduz os trechos.
+
+### Nome do sistema · Ciclo Maldito (v0.334)
+
+Em 05/10/2026, o Mizuki mandou o livro final, **Ciclo Maldito | Livro de regras (R28a)**, e decidiu que o nome vale no repositório inteiro. O R28a foi comparado com a candidata e não tem regra diferente (ver `../migracao-pos-candidata/PLANO.md`); esta passada só troca o nome.
+
+- **Texto:** dez capítulos citavam o sistema pelo nome, em 26 linhas: Abertura (`AB28` a `AB34`, inclusive o título do capítulo 1), Dano e recuperação (`DR37`), Origens (`OR36` a `OR38`), Equipamento (`EQ28` a `EQ30`), Progressão (`PRO43` e `PRO44`), Fundamento (`FU-62` a `FU-65`), Aptidões (`A34`), Poderes avançados (`R08-36`), Ritual (`RP-35`) e Consulta (`R23-33` a `R23-35`). *"O Projeto M"* virou *"o Ciclo Maldito"*, com o mesmo artigo.
+- **Cabeçalho e capa:** os 23 geradores de unidade e o do livro imprimem `CICLO MALDITO`; a capa e o título do PDF também. O título do capítulo 1 mudou no `ORDEM.json` e no `ESTRUTURA.json` da Abertura.
+- **Fica com o nome antigo:** os nomes de arquivo (`Projeto-M-*.pdf`, o ZIP), que centenas de manifestos citam por hash, e os registros históricos.
+- **Provas:** os 23 PDFs de unidade mudaram no cabeçalho de todas as páginas e no corpo de 20; o livro, no cabeçalho de todas e no corpo de 21. As páginas de corpo mudado foram abertas, e o cabeçalho novo foi conferido numa tira por unidade. As outras herdam a inspeção por corpo idêntico.
+- **Cotejos:** a v0.333 (os renomes da `Passiva` nas peças) e esta troca mudaram fontes que onze capítulos guardam por hash. Cada um ganhou o registro em `COTEJO-FONTES-PRESERVADAS-2026-10-05.json`, e a Consulta, Construir invocações, Fabricação, Progressão e Origens registraram nos próprios arquivos.
+
+### D44 · Execução Preparada com −2 (v0.336)
+
+Em 06/10/2026, a migração mediu a Execução Preparada (D42) pela régua do degrau do nível 7 da peça 06: ela valia até 0,12 fatia, contra 1,18 da Não Pega que substituiu, e o degrau da Vanguarda caía de 2,10 para no máximo 1,04, contra 2,36 do Guia, do Emanador e do Evocador. Resposta do Mizuki: "Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema".
+
+- Texto: **Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−2 a um TR adicional da Conclusão**.
+- Muda na mesa: a Conclusão qualificada fica 10 pontos percentuais mais difícil de resistir, e não 5.
+- Unidade: `VG-REV-05` no `ALTERACOES` da Vanguarda. A peça 06 declara a diferença do degrau, e o script da medida está em `sistema/01-pesquisa/medicao-v0335/`.
+- Prova: só a página 6 do capítulo da Vanguarda mudou no corpo, e foi aberta.
+
 ## Validador editorial
 
 | Situação | Achados do `conferir_editorial.py` nos manuscritos alterados |

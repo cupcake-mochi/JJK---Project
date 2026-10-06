@@ -1,9 +1,9 @@
 {
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1"
+    "sistema/05-material/livro/planejamento-editorial/dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md": "398b836cf1cae226db0871f25bae0ac98bd291b9c0f73627c758bb39e744fe43"
   },
   "ok": true,
-  "sha256_texto": "4876b7e0bfa863f787e73f75e0325174ee05ef520781f2b0f712a15ad1bf11d1",
+  "sha256_texto": "398b836cf1cae226db0871f25bae0ac98bd291b9c0f73627c758bb39e744fe43",
   "verificacoes": 55,
   "falhas": [],
   "casos": [

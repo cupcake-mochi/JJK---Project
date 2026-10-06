@@ -1,0 +1,79 @@
+{
+  "fontes": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "31a6d658c08df72104d1183445ad106dae2f551552b643b6fde6858ed8988597",
+      "sha256_atual": "5d8f0c5298af6ff02303e2c8443c45f99716620b3a8d879b6b27667a2cf9e741",
+      "versao_anterior": "bbc442808e3b4f0711a4f8649e7a1e6e846da15a",
+      "mudou_em": [
+        "789cf5a v0.332: migração, passo 2, primeira metade — os quatro renomes pequenos nas peças"
+      ],
+      "motivo": "Entrada nova da v0.332 no topo (16 linhas acrescentadas, nenhuma retirada). O resto do arquivo é idêntico; a unidade não depende da entrada nova."
+    }
+  ],
+  "conferido": "Diff lido palavra a palavra entre a versão guardada e a atual. O manuscrito desta unidade não cita o texto mudado da peça: usa os nomes novos desde a reconstrução, e os antigos só aparecem na Consulta como nome anterior.",
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+  "cotejo_v0334": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "5d8f0c5298af6ff02303e2c8443c45f99716620b3a8d879b6b27667a2cf9e741",
+      "sha256_atual": "d182951ad801e16b97fc7a9251cdaddb9150cca69678bd6a4e7bd187b15a8174",
+      "motivo": "Entrada nova da v0.333 no topo do CHANGELOG; o resto do arquivo é idêntico, e a unidade não depende da entrada nova."
+    }
+  ],
+  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0334_documentos": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "d182951ad801e16b97fc7a9251cdaddb9150cca69678bd6a4e7bd187b15a8174",
+      "sha256_atual": "5d9fe17bd70bc21a5b545002e702cbcbb28eaef50060895b277a6c326ff560a7",
+      "motivo": "Entrada [0.334] acrescentada no topo do CHANGELOG (o nome do sistema virou Ciclo Maldito). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
+    }
+  ],
+  "cotejo_v0334_documentos_conferido": "Diff lido: só a troca do nome do sistema fora da candidata. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0335": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "5d9fe17bd70bc21a5b545002e702cbcbb28eaef50060895b277a6c326ff560a7",
+      "sha256_atual": "9758882790a36faab59f133d3d3ae35637d000ee7a698cfeeb1bea61f86a452d",
+      "motivo": "Entrada [0.335] acrescentada no topo do CHANGELOG (passo 4 da migração). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
+    }
+  ],
+  "cotejo_v0335_conferido": "Diff lido: só o passo 4 da migração nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0336": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "9758882790a36faab59f133d3d3ae35637d000ee7a698cfeeb1bea61f86a452d",
+      "sha256_atual": "aeb005e4b9c023ec1a050e18a4063a02dc369bd7f586f2bf436ba17f816edc16",
+      "motivo": "Entrada [0.336] acrescentada no topo do CHANGELOG (D44, a Execução Preparada com −2). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
+    }
+  ],
+  "cotejo_v0336_conferido": "Diff lido: só a entrada nova do CHANGELOG. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0337": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "aeb005e4b9c023ec1a050e18a4063a02dc369bd7f586f2bf436ba17f816edc16",
+      "sha256_atual": "eb7ec083d89b0f2c42788e001dbe6b07ec78fa051c09bd9e1da4f058a212dee4",
+      "motivo": "Entrada [0.337] acrescentada no topo do CHANGELOG (passo 5 da migração, primeira parte). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
+    }
+  ],
+  "cotejo_v0337_conferido": "Diff lido: só o passo 5 da migração (primeira parte) nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0338": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "eb7ec083d89b0f2c42788e001dbe6b07ec78fa051c09bd9e1da4f058a212dee4",
+      "sha256_atual": "284bc32d9e90ac2d54fd81b6b4b59142f996d607621a97d0c933eded9dbceb98",
+      "motivo": "Entrada [0.338] acrescentada no topo do CHANGELOG (passo 5 da migração, segunda parte). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
+    }
+  ],
+  "cotejo_v0338_conferido": "Diff lido: só o passo 5 da migração (segunda parte) nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0339": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "284bc32d9e90ac2d54fd81b6b4b59142f996d607621a97d0c933eded9dbceb98",
+      "sha256_atual": "d5336046ed1564a17b426a33ed947ce0e966130e371ff12c5440581a7b1125a9",
+      "motivo": "Entrada [0.339] acrescentada no topo do CHANGELOG (o R28a vira o livro principal do repositório). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
+    }
+  ],
+  "cotejo_v0339_conferido": "Diff lido: só a entrada [0.339] do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
+}

@@ -148,12 +148,14 @@ CAMINHO = {_cal_nome(n): tuple(map(int, (d, ini, ganho, pe))) for n, d, ini, gan
 if not CAMINHO:
     raise ValueError('7.1: nao encontrei Caminhos de referencia na peca 6 e PV na peca 1')
 CON_TIPICA = int(_re_cal.search(r'Constituição típica: (\d+)', _cal_p1)[1])
-_cal_pf = _cal_ler('../../manual/gerador/partF.js')
-_cal_inim = _cal_pf.split("H2('Inimigos')")[1].split('GAP(')[0]
-CHEFE = {int(n): int(d) for n, d in _re_cal.findall(r"\['(\d+)', '~\d+', '[\d a]+', '(\d+)', '\d+', '\d+'\]", _cal_inim)}
+# v0.338: a tabela `Inimigos` e a prosa dela sairam do manual do Fundamento v7 (partF.js)
+# para a peca 26 §3.0, sem mudar numero
+_cal_p26 = _cal_ler('26-bestiario.md')
+_cal_pf = _cal_p26[_cal_p26.find('### 3.0 A tabela `Inimigos`'):_cal_p26.find('### 3.1 ')]
+CHEFE = {int(n): int(d) for n, d in _re_cal.findall(r"^\| (\d+) \| ~\d+ \| [\d a]+ \| (\d+) \| \d+ \| \d+ \|$", _cal_pf, _re_cal.M)}
 _CAL_PCT = int(_re_cal.search(r'O dano dele por rodada é (\d+)%', _cal_pf)[1]) / 100
 if not CHEFE:
-    raise ValueError('7.1: nao encontrei a tabela de inimigos no manual')
+    raise ValueError('7.1: nao encontrei a tabela Inimigos na peca 26 §3.0')
 
 def dano_chefe(nv):
     if nv <= min(CHEFE):
@@ -192,9 +194,10 @@ _m = _le(os.path.join(AQUI, '24-dano-de-alma.md'),
          'a formula da Integridade')
 INTEG_BASE, INTEG_POR_NV = int(_m.group(1)), int(_m.group(2))
 
-_m = _le(os.path.join(AQUI, '..', '..', 'manual', 'gerador', 'partF.js'),
+# v0.338: a curva de calibracao `20 + 8` era a caixa `Vida` do manual v7 e mora na peca 24 §2
+_m = _le(os.path.join(AQUI, '24-dano-de-alma.md'),
          r'Vida de personagem = (\d+) \+ (\d+) × \(nível − 1\)',
-         'a curva original do manual')
+         'a curva de calibracao')
 MAN_BASE, MAN_POR = int(_m.group(1)), int(_m.group(2))
 
 _m = _le(os.path.join(AQUI, '02-economia-de-atributos.md'),
@@ -221,7 +224,13 @@ def pe_maximo(nv, cam):
 # A tabela do manual "quantas vezes voce lanca o seu melhor feitico" e calculada
 # em cima de um conjurador de 6 PE por nivel. Ela E a formula, e e por isso que
 # a formula nao e escolha nossa.
-PE_MANUAL = {1: 6, 5: 30, 9: 54, 13: 78, 17: 102, 20: 120}
+# v0.338: o dicionario que morava aqui era a quinta copia da tabela. Ela mudou do
+# manual v7 (que saiu de fonte) para a peca 1 §5.3, e e' lida de la.
+_mpe = _le(os.path.join(AQUI, '01-atributos-acerto-defesa.md'),
+           r'(?m)^\| nível \| ([\d |]+)\|\n\|[-| ]+\|\n\| PE total, na tabela do manual v7 \| ([\d |]+)\|',
+           'a tabela de PE total da peca 1 §5.3')
+PE_MANUAL = dict(zip((int(x) for x in _mpe.group(1).split('|') if x.strip()),
+                     (int(x) for x in _mpe.group(2).split('|') if x.strip())))
 
 
 def pct(alvo): return p_ao_menos(D20, alvo) * 100
@@ -408,7 +417,7 @@ if not _cal_formula or tuple(float(v.replace(',', '.')) for v in _cal_formula.gr
     erro('7.1: a formula publicada da vida media nao sai dos Caminhos de referencia')
 _cal_copia = _re_cal.search(r'A referência é ([\d,]+) \+ ([\d,]+) × \(nível − 1\)', _cal_pf)
 if not _cal_copia or tuple(float(v.replace(',', '.')) for v in _cal_copia.groups()) != (_cal_ini, _cal_ganho):
-    erro('7.1: a formula copiada no manual diverge da media dos Caminhos de referencia')
+    erro('7.1: a formula copiada na peca 26 §3.0 diverge da media dos Caminhos de referencia')
 
 # 7.1: os sete danos publicados precisam reproduzir a media atual, sem constante de dano no teste.
 media_dados = sum(c[2] for c in CAMINHO.values()) / len(CAMINHO)
@@ -909,7 +918,7 @@ print('=' * 88)
 print('10. O ESCOPO DO CRITICO — a secao 5.2, e o que ele NAO dobra')
 print('=' * 88)
 
-# v0.151. O que uma condicao como o `Incapacitado` vale nao sai do numero dela:
+# v0.151. O que uma condicao como a `Guarda Aberta` vale nao sai do numero dela:
 # sai de QUANTOS DADOS o critico dobra. A peca 19 §2.4 mediu: com so o dado da
 # arma o ganho e' 32% do teto da banda Leve; somando o dano na arma do refino 10
 # ele vira 93%, e com arma d12, 99%. Uma condicao Leve a um d12 de estourar a
@@ -958,12 +967,12 @@ else:
             ('dado de aptidao', r'aptidão|Bênção',
              'a linha de regra do §5.2 parou de excluir dado que veio de aptidao ou '
              'Bencao — e o dano na arma do cobrir-se e do Estimulo Muscular e' + "'" + ' '
-             'exatamente isso. A peca 19 §2.4 mede: isso leva o Incapacitado de '
+             'exatamente isso. A peca 19 §2.4 mede: isso leva a Guarda Aberta de '
              '32% para 93% do teto da banda Leve'),
             ('feitico que viaja junto', r'viajou junto do ataque|viaja junto do ataque',
              'a linha de regra do §5.2 parou de excluir feitico que viaja junto do '
              'ataque — e a Fornalha poe um Classe 0 em cada ataque. A peca 19 §2.4 '
-             'mede: isso leva o Incapacitado a 190% do teto da Leve, ou seja, Media'),
+             'mede: isso leva a Guarda Aberta a 190% do teto da Leve, ou seja, Media'),
         ]
         _faltou = 0
         for _rot, _rx, _msg in _cobra:
@@ -979,7 +988,7 @@ else:
     # o `20` natural e a chance dele continuam escritos: a peca 19 le os dois
     if not _re.search(r'20 natural numa rolagem de acerto é crítico', _sec52):
         erro('10: o §5.2 parou de dizer que 20 natural e critico — a peca 19 le essa '
-             'linha como ancora, e sem ela a regua do Incapacitado fica sem chao')
+             'linha como ancora, e sem ela a regua da Guarda Aberta fica sem chao')
     else:
         print('  o 20 natural continua escrito, e e dele que a peca 19 tira a taxa de 5%.')
 

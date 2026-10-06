@@ -53,6 +53,8 @@
 | **Essência 3** *(= hoje)* | **28** | **92** | **172** | **252** |
 | Essência 6 | 31 | 119 | 229 | **339** |
 
+> **A curva em que os estágios foram calibrados, guardada aqui desde a v0.338.** *Ela era a caixa `Vida` da seção `Para o mestre` do manual do Fundamento v7, que saiu de fonte no passo 5 da migração:* **Vida de personagem = 20 + 8 × (nível − 1).** *Não é a vida de ninguém hoje (a peça 1 §5.1 é a dona da vida); é a âncora da fórmula acima, e o `conferir-alma.py` (checagem 1) exige que a fórmula com Essência 3 a reproduza nos 30 níveis.*
+
 ### 2.1 As outras três formas foram medidas e reprovaram
 
 | forma | nv30, Ess `0 · 3 · 6` | estágio 4 dispara | veredito |
@@ -192,7 +194,7 @@
 
 *O motivo do veto era que o corpo acaba antes em `três das quatro` fichas, o que torna a entrega inútil para a maioria dos alvos.* **Com a Essência dentro, a alma é a barra menor em `33,3%` da grade contra `33,6%` antes** — a fração não se moveu. *O que mudou foi **quem** está nela: antes era quem investiu Constituição, por acidente; agora é quem não investiu Essência, de propósito.*
 
-> **A entrega continua valendo `0,00` para dois terços dos alvos, e é isso que a reprova** — a mesma família que matou o `recuperar ferimento` e a Passiva `Casca`. **O bilhete da peça 5 foi corrigido para dizer isso**, em vez de continuar prometendo uma reabertura que a conta não sustenta.
+> **A entrega continua valendo `0,00` para dois terços dos alvos, e é isso que a reprova** — a mesma família que matou o `recuperar ferimento` e o Talento `Casca`. **O bilhete da peça 5 foi corrigido para dizer isso**, em vez de continuar prometendo uma reabertura que a conta não sustenta.
 
 ### 6.2 ~~Os onze `Estigma` continuam sem preço uns contra os outros~~ **FECHADA na v0.152**
 

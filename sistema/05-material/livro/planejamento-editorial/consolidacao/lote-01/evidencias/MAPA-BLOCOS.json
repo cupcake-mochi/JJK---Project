@@ -2,22 +2,22 @@
   {
     "parte": 1,
     "capitulo": 1,
-    "titulo_capitulo": "Projeto - M",
+    "titulo_capitulo": "Ciclo Maldito",
     "fonte": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
     "ancora_fonte": "ab-apresentacao",
-    "titulo_bloco": "Projeto - M",
+    "titulo_bloco": "Ciclo Maldito",
     "id_livro": "ab--ab-apresentacao",
     "pagina": 3,
     "paginas_conteudo": [
       3
     ],
-    "sha256_bloco_fonte": "8b0deb20e60a907511172870ed3fb3c7ab56159df1eb64132eacae1788237cc7",
+    "sha256_bloco_fonte": "8b300cfd7528bdeb7f96187075daf79a5efdd7cb07f3f58e3dfed5e2cebe722c",
     "cabecalho_inicial_unificado": true
   },
   {
     "parte": 1,
     "capitulo": 1,
-    "titulo_capitulo": "Projeto - M",
+    "titulo_capitulo": "Ciclo Maldito",
     "fonte": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
     "ancora_fonte": "ab-primeira-sessao",
     "titulo_bloco": "Primeira sessão",
@@ -33,7 +33,7 @@
   {
     "parte": 1,
     "capitulo": 1,
-    "titulo_capitulo": "Projeto - M",
+    "titulo_capitulo": "Ciclo Maldito",
     "fonte": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
     "ancora_fonte": "ab-mundo",
     "titulo_bloco": "Mundo jujutsu",
@@ -43,13 +43,13 @@
       4,
       5
     ],
-    "sha256_bloco_fonte": "51d6fd0de4afaf9aeebfe3f00e51859ecff2df2ecb9a7481b5f2c485cfe4a039",
+    "sha256_bloco_fonte": "618b2a0d5fd21e2089138edfe5dc5f89fe37052e8a53dc3c96b86f0ce017ad9c",
     "cabecalho_inicial_unificado": false
   },
   {
     "parte": 1,
     "capitulo": 1,
-    "titulo_capitulo": "Projeto - M",
+    "titulo_capitulo": "Ciclo Maldito",
     "fonte": "abertura/lote-01/ABERTURA-E-CRIACAO.md",
     "ancora_fonte": "ab-sociedade",
     "titulo_bloco": "Sociedade jujutsu",
@@ -58,7 +58,7 @@
     "paginas_conteudo": [
       5
     ],
-    "sha256_bloco_fonte": "be4f25c6db86080131dd38a56e6105e68b532dbb06becbe471871e292fd5eed7",
+    "sha256_bloco_fonte": "a6d6004ba9cb95954660b6049c500f2018f4c982b6ed91cd016643b4cb3c0729",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -775,7 +775,7 @@
       43,
       44
     ],
-    "sha256_bloco_fonte": "93a45436d29523d766cba34c13547ee14b538d8cf4979b42a7d61cd5838e79fd",
+    "sha256_bloco_fonte": "7fe85d0c5a681b8064e0c0e4a0ab185626a7300de7cae1f007b9cb4a618f126c",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -963,7 +963,7 @@
       52,
       53
     ],
-    "sha256_bloco_fonte": "e2d728e9ef8f822daa4012842d4db1ea77f4060eb595d706f08d7d9c38954fea",
+    "sha256_bloco_fonte": "a56f8fdcd0223f71f98e5671b1796a8532a3f22105c606f4b232e3acfb613727",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1010,7 +1010,7 @@
     "paginas_conteudo": [
       56
     ],
-    "sha256_bloco_fonte": "6bff85edf6366e1aa639f15bcf37c70f2f17920b0d2f5dc0a010d177517b7613",
+    "sha256_bloco_fonte": "a2c6abd9a2f7359832a88c1abbbf2baf89a22738be906333f802d9a26c503789",
     "cabecalho_inicial_unificado": true
   },
   {
@@ -1089,7 +1089,7 @@
       59,
       60
     ],
-    "sha256_bloco_fonte": "b50ee3e8857e6bbbdc4d11391ec30ec102301fcc6958f263c5b82a1d20458a88",
+    "sha256_bloco_fonte": "e66ffaada9a1217014ad5c698e9a377968bbd999923ca0295aed715d27b1793e",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1120,7 +1120,7 @@
     "paginas_conteudo": [
       61
     ],
-    "sha256_bloco_fonte": "3aade6811020fb2873273ba70eae8fb48a35bbafff3254cccd062dfdda7267d7",
+    "sha256_bloco_fonte": "0c0b2cffe0489edfe229ab486c7112a24e5ee0945384f19bcb3b9af607def039",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1336,7 +1336,7 @@
     "paginas_conteudo": [
       70
     ],
-    "sha256_bloco_fonte": "1ca58681bc0deec9d5f416913169781511b8ae3215fe789e1e62f654566ceef8",
+    "sha256_bloco_fonte": "71591568917f0ed38960cf9308b2f0a0671e1c70ac61aaa3f96ffae0a7e030ee",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1382,7 +1382,7 @@
     "paginas_conteudo": [
       72
     ],
-    "sha256_bloco_fonte": "47ab8c4cecdc4027c9f3c167ab6d1571e53f8a27c3699bf883cb35ecbd29fbd2",
+    "sha256_bloco_fonte": "487db316d4b3c346ea06d600638ad89ae2f8e1d47e7ec1104e7a14ba804f65d0",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1723,7 +1723,7 @@
     "paginas_conteudo": [
       87
     ],
-    "sha256_bloco_fonte": "0145dc9db97db19c78071600da19fa05a8a470c45c2140ad47b5cb870f6b0c52",
+    "sha256_bloco_fonte": "7109ab5e9ec06994b8b156c3b5d477160f107c004fd4c4aeb5ebd6d2ef8bb3da",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1800,7 +1800,7 @@
     "paginas_conteudo": [
       90
     ],
-    "sha256_bloco_fonte": "e5a772961a85be5473439acec7c50b2bf321118fb56e89a15a4e68b824aff026",
+    "sha256_bloco_fonte": "4b05d113f918a16b3bf0bf5bef81f7a069955e2319aab701b43ba6909ff4dbcc",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -1842,9 +1842,8 @@
     "ancora_fonte": "van-bote",
     "titulo_bloco": "Bote e Ferrão",
     "id_livro": "vanguarda--van-bote",
-    "pagina": 91,
+    "pagina": 92,
     "paginas_conteudo": [
-      91,
       92
     ],
     "sha256_bloco_fonte": "dfa99bbd3c2fbe86079c395c411adc70035aa3b8ef978712b566357da2cfa4c9",
@@ -1905,9 +1904,8 @@
     "ancora_fonte": "van-besta",
     "titulo_bloco": "Batedor: Besta",
     "id_livro": "vanguarda--van-besta",
-    "pagina": 94,
+    "pagina": 95,
     "paginas_conteudo": [
-      94,
       95
     ],
     "sha256_bloco_fonte": "2fa0741120f3a39c50ca450cf1f4c58a6480b7d2ee93ebd36edea68f752f8dad",
@@ -1967,9 +1965,8 @@
     "ancora_fonte": "van-fogo-conclusoes",
     "titulo_bloco": "Conclusões da Arma de Fogo",
     "id_livro": "vanguarda--van-fogo-conclusoes",
-    "pagina": 96,
+    "pagina": 97,
     "paginas_conteudo": [
-      96,
       97
     ],
     "sha256_bloco_fonte": "575c56d21a8b7f462613aa838819370ac0675effa2fa8f921ef6fc89dbf2797d",
@@ -4027,7 +4024,7 @@
     "paginas_conteudo": [
       196
     ],
-    "sha256_bloco_fonte": "d0c546a1358ab50ba6f8880472ef1f0933c220ad3504ae531172de03e40c4461",
+    "sha256_bloco_fonte": "143cf281ea50c2a80b0169cd526e4dd406953c12ac72044bff29e878554dcd92",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4106,7 +4103,7 @@
       200,
       201
     ],
-    "sha256_bloco_fonte": "607e30600740c3fb583c29ab951c4efff32f906fcc3ea96130d60829c115ec5a",
+    "sha256_bloco_fonte": "6f2744be4c04dc8529d9be63b00d8584a5e5d039941d1a9791d7ec60bfecaf05",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4246,7 +4243,7 @@
       207,
       208
     ],
-    "sha256_bloco_fonte": "caaf459906b18b32fe37bec2d96bec3b1082f88bc34cff57b01dcf0555d60413",
+    "sha256_bloco_fonte": "ab9e8bedf74c3104ff566a236613da6119c1ca7a7b637319e01bfbbb49655560",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4433,7 +4430,7 @@
       216,
       217
     ],
-    "sha256_bloco_fonte": "24d267003a04e6a6c481cd83bb5a86406ce62e5927954b797dffa37bab8931b7",
+    "sha256_bloco_fonte": "bc818172e8676de5619597e28c27f4e8e3fd61499a6556ca327533b6c3a1449c",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4448,7 +4445,7 @@
     "paginas_conteudo": [
       217
     ],
-    "sha256_bloco_fonte": "a4997683f336026de1eb27b80abb443fb5d8afd37c9c29bf4d36f46dae39b6d5",
+    "sha256_bloco_fonte": "d1eed020bc40c8d58d8877be7e244b35c68f3bfcb75394fd01ed074fd3e7f4f1",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4463,7 +4460,7 @@
     "paginas_conteudo": [
       218
     ],
-    "sha256_bloco_fonte": "6c4064b685a0c6f181abca91b3250a9da19987f69cd6dad059a3942fa9515bde",
+    "sha256_bloco_fonte": "7069b51a6f25d74444a7383fc17cb04c43465d73c87d78e774d1091e76a0853e",
     "cabecalho_inicial_unificado": true
   },
   {
@@ -4620,7 +4617,7 @@
       226,
       227
     ],
-    "sha256_bloco_fonte": "b655aba1a52ce32d0f83c863dc35d6f35774c33cb39963f9d09ba9210bb94b8b",
+    "sha256_bloco_fonte": "ad449c0be4710cdd13b0f8f9cdd8937db55ab53674b6cfa431498ce86d81f318",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4666,7 +4663,7 @@
     "paginas_conteudo": [
       229
     ],
-    "sha256_bloco_fonte": "61aea3c6cb30c4945f8e67e89f36fc73344c0536cab6f0eded82ee3510a3c819",
+    "sha256_bloco_fonte": "ed76a516511822e13a8584bbdbdd747bdd7ec361209429e42901b3e516a84b98",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4677,9 +4674,8 @@
     "ancora_fonte": "aplicacoes",
     "titulo_bloco": "Outras aplicações",
     "id_livro": "fundamento--aplicacoes",
-    "pagina": 229,
+    "pagina": 230,
     "paginas_conteudo": [
-      229,
       230
     ],
     "sha256_bloco_fonte": "671b02962eb21c178e582999bd58cd921495efc0504ff6f490a56099fac12a52",
@@ -4871,7 +4867,7 @@
     "paginas_conteudo": [
       240
     ],
-    "sha256_bloco_fonte": "1587f67f38ef1a67b21f9ac67486843daca447a3245c7855f1e8d0910dfa74a9",
+    "sha256_bloco_fonte": "bce9e77f33acaa60e5d546789ddcfaba5121f800a1dcb24c12bee791eafc8db1",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -4886,7 +4882,7 @@
     "paginas_conteudo": [
       241
     ],
-    "sha256_bloco_fonte": "8780aa8d2ee4d554408a2b8a3c2c75a5ba3329a54b966b6b66def3e5c1baf3e3",
+    "sha256_bloco_fonte": "325040ed2c7d406cf84f8ad740bcd091eeeb45846f78dc6f405ff9b63202279e",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -5026,7 +5022,7 @@
     "paginas_conteudo": [
       247
     ],
-    "sha256_bloco_fonte": "0c80dfb610427f751dbdb90766983a5605a5789f5ac3e216ecf75fdef5178146",
+    "sha256_bloco_fonte": "71ce6edd33d7b69c32942336b1447cb7a45f9920e03ee388a45e35cf756a61c4",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -5041,7 +5037,7 @@
     "paginas_conteudo": [
       248
     ],
-    "sha256_bloco_fonte": "c8d90201669cac52d8643a047730cb682d5ad21aaa02612f11cab7d0c6cd832a",
+    "sha256_bloco_fonte": "19c2f82abdd69c2b89da9031fd0f571e6088a4519a342a57a3cb1205219740f9",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -5553,7 +5549,7 @@
     "paginas_conteudo": [
       272
     ],
-    "sha256_bloco_fonte": "0bd7bb34461fcd5258602097c598a98d60983c54852fca26e529d316d771bebe",
+    "sha256_bloco_fonte": "9570f6b7710f0175da61067387a809b204e1288c9522e5dbfc61f5ad0a0ccb56",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -5787,7 +5783,7 @@
       282,
       283
     ],
-    "sha256_bloco_fonte": "8c074216dea57dd32dada0d26b88b039fa78c3e14910ebe6a1588f531880508f",
+    "sha256_bloco_fonte": "2d83a28de666505dbaa392ed1152008024c9434fb800d2a890faf9060d7ab5bc",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6052,7 +6048,7 @@
     "paginas_conteudo": [
       295
     ],
-    "sha256_bloco_fonte": "5cf21ca6165aff32470905c7b613d8aaeb59491857e4c59b066716344ec4d396",
+    "sha256_bloco_fonte": "e3ee475f262a188a2214bfae9a9c64f9061b99bf4e76a7b25ee7314b8e8645cb",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -6409,7 +6405,7 @@
       311,
       312
     ],
-    "sha256_bloco_fonte": "c6138917c3754e625827e9645fec261951f7b6962af378afdc868a1f2a1a170a",
+    "sha256_bloco_fonte": "777338e565f7b63c84836d4b747427831fbc2ab5ef42b1f9e8085e279a28b43d",
     "cabecalho_inicial_unificado": false
   },
   {
@@ -7489,7 +7485,7 @@
     "paginas_conteudo": [
       356
     ],
-    "sha256_bloco_fonte": "3256d38d2346cb6f998571dfdaed4e213f954d3d3a6956f122ac96d25bf71d26",
+    "sha256_bloco_fonte": "e86c54985bddb34de99b480b1e9fde4aab400f569faab6a15c75cd6c2e963a70",
     "cabecalho_inicial_unificado": false
   },
   {

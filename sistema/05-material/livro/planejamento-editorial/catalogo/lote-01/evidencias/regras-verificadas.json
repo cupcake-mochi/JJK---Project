@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "sha256_texto": "61f9e65fdfdb59517c710fb6aa6e0e19631823212f3155572b40870c3b2670ff",
+  "sha256_texto": "e1735ef7b7396f9ac31a0dd3c41073c400c498b01360ba69cd2397e41bce0d60",
   "casos": [
     {
       "cenario": "Queima Rajada 3/2/2: acertam 3 e 2",
@@ -279,9 +279,100 @@
       "esperado": false,
       "ok": true,
       "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Condição: ataque acerta e o alvo passa no TR",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Condição: ataque acerta e o alvo falha",
+      "obtido": true,
+      "esperado": true,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Condição: ataque erra",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Condição: ficha de TR, falha",
+      "obtido": true,
+      "esperado": true,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Prende: ataque acerta e o alvo passa no TR",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Prende: ataque acerta e o alvo falha",
+      "obtido": true,
+      "esperado": true,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Prende: ataque erra",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Prende: ficha de TR, falha",
+      "obtido": true,
+      "esperado": true,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Cerca: ataque acerta e o alvo passa no TR",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Cerca: ataque acerta e o alvo falha",
+      "obtido": true,
+      "esperado": true,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Cerca: ataque erra",
+      "obtido": false,
+      "esperado": false,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Cerca: ficha de TR, falha",
+      "obtido": true,
+      "esperado": true,
+      "ok": true,
+      "metodo": "modelo executado"
+    },
+    {
+      "cenario": "Puxa: ataque de área acerta, sem TR",
+      "obtido": true,
+      "esperado": true,
+      "ok": true,
+      "metodo": "modelo executado"
     }
   ],
-  "quantidade": 36,
+  "quantidade": 49,
   "limites": "Modelos dirigidos e hipóteses explícitas; não simulam iniciativa, builds completos, inimigos ou aceitação humana.",
   "revisao_delta_2026_10_04": {
     "auditoria_reexecutada": "catalogo/lote-01/auditar.py (reexecutado em 04/10/2026)",

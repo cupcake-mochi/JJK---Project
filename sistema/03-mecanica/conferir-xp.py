@@ -1182,7 +1182,7 @@ else:
                 erro(f'9: a entrada {_s} nao diz em que documento o fato mora — sem dono, '
                      f'conferir vira julgamento e a lista deixa de atravessar sete mesas')
         else:
-            print('  [x] as oito entradas apontam para o documento que carrega o fato.')
+            print(f'  [x] as {len(_feitos)} entradas apontam para o documento que carrega o fato.')
 
         _arquivos = {int(f[:2]) for f in os.listdir(AQUI) if re.match(r'\d\d-.*\.md$', f)}
         _mortas = sorted({int(p) for _, _, c in _feitos

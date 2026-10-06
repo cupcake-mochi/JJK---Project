@@ -1,0 +1,17 @@
+{
+  "pdf_anterior": "def8f36d5e7447713d06eae47f484399b91517a8cbb5e936c7293ffe8828c9ce",
+  "pdf_atual": "c94d7b81364ca559ced0670effaefa41e8044f4c91e975d0931d0d1d1592a7e3",
+  "paginas_antes": 5,
+  "paginas": 5,
+  "alteradas": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "corpo_alterado": [],
+  "metodo": "pdftoppm a 60 dpi, comparação exata de pixels contra o PDF do commit anterior, da página inteira e do corpo (sem os 40 pixels de cima e de baixo). Todas as páginas mudaram no cabeçalho, de PROJETO - M para CICLO MALDITO; as de corpo alterado foram abertas a 80 dpi, e a tira de cabeçalho da página 2 de cada unidade foi aberta numa imagem só.",
+  "sha256_tiras_de_cabecalho": "1b1db02b709b56cadecfa9bfdf44b4fb1ada5599444e7d825b2df70b8ec6d99f",
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+}

@@ -1,0 +1,65 @@
+{
+  "fontes": [
+    {
+      "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+      "sha256_anterior": "6526b5d6c860765f0da6c0ce05053c862d922097ab3a02de8e79d1a281a8f2a7",
+      "sha256_atual": "01fbacdc09444d4cc3b945615952f90ed9d9fc39091064a8ca2612723a0920f1",
+      "versao_anterior": "68243b4d8492f2eb46ed75346ed55c2df42fd209",
+      "mudou_em": [
+        "789cf5a v0.332: migração, passo 2, primeira metade — os quatro renomes pequenos nas peças"
+      ],
+      "motivo": "Passo 2 da migração (v0.332, commit 789cf5a): só os renomes Reencarnado → Encarnado, Incapacitado → Guarda Aberta (com o artigo ajustado) e Aviso → Leitura de Feitiços, já usados pela candidata desde a reconstrução. Nenhum número ou regra mudou; o diff palavra a palavra só toca esses nomes e os artigos."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/01-atributos-acerto-defesa.md",
+      "sha256_anterior": "9282aaf66ff55eec89cd7bcdb0dfe8a96d3ca20ee3eca0cf939233da63ff30e6",
+      "sha256_atual": "0cdaabdd19e047e6fc0a6e25ce692d82470e2d9561fdb955172dad119700d0ea",
+      "versao_anterior": "bbc442808e3b4f0711a4f8649e7a1e6e846da15a",
+      "mudou_em": [
+        "789cf5a v0.332: migração, passo 2, primeira metade — os quatro renomes pequenos nas peças"
+      ],
+      "motivo": "Passo 2 da migração (v0.332, commit 789cf5a): só os renomes Reencarnado → Encarnado, Incapacitado → Guarda Aberta (com o artigo ajustado) e Aviso → Leitura de Feitiços, já usados pela candidata desde a reconstrução. Nenhum número ou regra mudou; o diff palavra a palavra só toca esses nomes e os artigos."
+    }
+  ],
+  "conferido": "Diff lido palavra a palavra entre a versão guardada e a atual. O manuscrito desta unidade não cita o texto mudado da peça: usa os nomes novos desde a reconstrução, e os antigos só aparecem na Consulta como nome anterior.",
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+  "cotejo_v0334": [
+    {
+      "arquivo": "sistema/03-mecanica/18-progressao.md",
+      "sha256_anterior": "3074b345db8915d2101741ee07790a22e7a98c95ecc4a76ae72803573793dd51",
+      "sha256_atual": "7ac36f34f9f5736fd5f91eddea60eb0acc4a79f919c970424108343a4a5bec0a",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/11-aptidoes-e-refino.md",
+      "sha256_anterior": "01fbacdc09444d4cc3b945615952f90ed9d9fc39091064a8ca2612723a0920f1",
+      "sha256_atual": "8c240204c944cdf2e028070b7cdfa3c3a1911be7c74dfe3fc4b5044831987395",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
+    }
+  ],
+  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0337": [
+    {
+      "arquivo": "sistema/03-mecanica/12-experiencia-e-progressao.md",
+      "sha256_anterior": "75deb4ada21a2acd24d386c2d70d99e1edc39dee4fee52b04b11bdd7c260cbc3",
+      "sha256_atual": "89184ba4d1fe18c4dd810d433462f742f068a6b6e52079c537519194b0ee2783",
+      "motivo": "Passo 5 da migração (v0.337): a peça 12 recebeu da própria candidata a lista de sete feitos do limiar (PRO38) e uma seção com as lacunas da Progressão que a candidata fechou. Esta unidade não reproduz os trechos mudados."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/18-progressao.md",
+      "sha256_anterior": "7ac36f34f9f5736fd5f91eddea60eb0acc4a79f919c970424108343a4a5bec0a",
+      "sha256_atual": "9df17ba90b335cbf4170701e346700eeee87ddf0bdcd8f9a68ca2dc7a1522d53",
+      "motivo": "Passo 5 da migração (v0.337): a peça 18 passou a apontar o livro reconstruído como dono das colunas de Classe, Talento e Classe 0, no lugar do manual do Fundamento v7. Os números da tabela não mudaram, e esta unidade não reproduz o trecho."
+    }
+  ],
+  "cotejo_v0337_conferido": "Diff lido: só o passo 5 da migração (primeira parte) nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0338": [
+    {
+      "arquivo": "sistema/03-mecanica/01-atributos-acerto-defesa.md",
+      "sha256_anterior": "0cdaabdd19e047e6fc0a6e25ce692d82470e2d9561fdb955172dad119700d0ea",
+      "sha256_atual": "8c70c2c4ea8e155b5ea6c8bd546f98a90fd7c6c35bf03501d9d5af6cc6bc40c1",
+      "motivo": "Passo 5 da migração, segunda parte (v0.338): a tabela de PE total da peça 1 §5.3 passou a ser a tabela, e não cópia do manual v7; nenhum número mudou. Esta unidade não reproduz o trecho."
+    }
+  ],
+  "cotejo_v0338_conferido": "Diff lido: só o passo 5 da migração (segunda parte) nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
+}

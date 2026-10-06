@@ -25,7 +25,7 @@ Escolha uma Trilha no nível 2: **Estocada, Batedor ou Executor**. O Batedor pos
 | Nível | Habilidade |
 |---|---|
 | 2 | Sequência de Condução e Escola de Arma |
-| 7 | Ataque Extra |
+| 7 | Ataque Extra e Execução Preparada |
 | 15 | Não Cede |
 | 23 | Persistência |
 | 30 | Conclusão Dupla |
@@ -129,6 +129,8 @@ Se uma Condução errada encerrar a Sequência, um ataque restante pode abrir ou
 # Habilidades avançadas
 
 **Nível 7: Ataque Extra.** Sua Ação Atacar permite **um ataque simples adicional por rodada**. Se uma habilidade deste Caminho permitir usar esse ataque em outra ação, ele continua sujeito ao mesmo limite por rodada.
+
+**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−2 a um TR adicional da Conclusão**.
 
 **Nível 15: Não Cede.** Quando falhar num **Teste de Resistência**, pode repetir o teste e usar o segundo resultado.
 

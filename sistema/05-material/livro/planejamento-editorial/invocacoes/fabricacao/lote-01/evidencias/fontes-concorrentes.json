@@ -38,5 +38,24 @@
       "sha256_anterior": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
       "motivo": "Atualização cotejada em 04/10/2026 (D24, revisao-interfaces/CORRECOES-APLICADAS.json): o exemplo da Máxima da domada perdeu só a média de cura. A volta de corpos excedentes, para a qual esta unidade remete, e as regras de fabricação estão intactas. Revisão por modelo."
     }
+  },
+  "sistema/03-mecanica/14-equipamento.md": {
+    "sha256_final": "f8101cc34ca23eaebae97a148130c52b74568e38ff6fabfd9fa37dc60889d16d",
+    "sha256_anterior": "51308bb50d7eb59a2c6fc6b5478844a7fff47417273b56b9040a239726397932",
+    "motivo": "Passo 4 da migração (v0.335): a peça 14 recebeu as regras de equipamento da própria candidata (Leve, Discreta, Volume arma a arma, Força da Espingarda e do Rifle, bestas com um virote, munição como estoque, Traje, manejo). Esta unidade não reproduz os trechos mudados.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana.",
+    "historico_ate_v0334": {
+      "sha256_final": "51308bb50d7eb59a2c6fc6b5478844a7fff47417273b56b9040a239726397932",
+      "sha256_anterior": "6f7b0505eaab835839dd90cfa874e0e0aff51e0fe2e11f3088c232bee1556e94",
+      "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou.",
+      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+      "historico_ate_v0333": {
+        "sha256_final": "6f7b0505eaab835839dd90cfa874e0e0aff51e0fe2e11f3088c232bee1556e94",
+        "sha256_anterior": "d3c27c82c54a421ee2039f9986002cd879a61fe74291a5dad800631fc4ce32eb",
+        "motivo": "Atualização cotejada em 05/10/2026: passo 2 da migração (v0.332, commit 789cf5a) trocou Reencarnado por Encarnado numa linha da peça 14. As regras de fabricação estão intactas.",
+        "evidencia": "git diff 789cf5a~1 789cf5a -- sistema/03-mecanica/14-equipamento.md",
+        "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+      }
+    }
   }
 }

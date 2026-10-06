@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "4ae5931dc24a7ffda17d62460a6a28c9a834d6805fc5e53f7004cd40bb25fae1",
+  "sha256_pdf_vigente": "0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -26,7 +26,7 @@
     },
     {
       "arquivo": "CONFERENCIA.json",
-      "sha256": "9e831092a8f8565e360b7860c9a849a5820f3022ed5842219ee9b3a5ecba4e41",
+      "sha256": "923e5c15a10101625149bd6eaa215324795c06ad4ba65b02c47df471ea6512be",
       "bytes": 14080
     },
     {
@@ -66,8 +66,8 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "1b6d93faacca16f1e4ce74cce050eeddc1a18728901536bdc158143d69c83b99",
-      "bytes": 15196
+      "sha256": "c031d4a2a02d89d1472421770428356c7a13e6bc075477ae3f6478277f1f293d",
+      "bytes": 16043
     },
     {
       "arquivo": "conferir.py",
@@ -136,17 +136,17 @@
     },
     {
       "arquivo": "evidencias/fontes-preservadas.json",
-      "sha256": "724d8171a70bc18d7171666ce22aa5fb90227dccf704454b18ef62722dfd0cd7",
+      "sha256": "802c627a09181b0b09fbb29a37ff1d254d58beadfe91250430bffd53c8984378",
       "bytes": 755
     },
     {
       "arquivo": "evidencias/inspecao-visual.json",
-      "sha256": "019684efe4336d7cfad2729cad16d76e56c3c25f01792ba87f3b2b6b1cc8c81f",
-      "bytes": 6374
+      "sha256": "8a18dc14e401a8e67b3d32de00ba557c3baa5a2555bf4b60e0b8a1bb9e2fe516",
+      "bytes": 7189
     },
     {
       "arquivo": "evidencias/pdf-estrutura.json",
-      "sha256": "631803009bca8140062f7bb9f27e26c3396bdf5ab86212859969473f42afbb90",
+      "sha256": "e3cb99ca227543f17bc4971ff3096757d95cd2c36b4bbea65ede73eba1e91fd4",
       "bytes": 235
     },
     {
@@ -156,17 +156,27 @@
     },
     {
       "arquivo": "gerar_pdf.py",
-      "sha256": "5b71a2abb1fd9848b679ac956fb140a24419c23c2f7d6d197af90379cc1051a5",
-      "bytes": 7984
+      "sha256": "8d14b3e8b7a4da9b34dc3a83ba4bc076feb9ece9f8f086589434e62042043b87",
+      "bytes": 7990
     },
     {
       "arquivo": "output/pdf/Projeto-M-Bastiao-Proposta-01.pdf",
-      "sha256": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
-      "bytes": 75318
+      "sha256": "de669993af1cd773892f85dbdd18ef7decddec95d75c913c96b4b0339050887c",
+      "bytes": 75368
+    },
+    {
+      "arquivo": "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "sha256": "c5f2b40fd4fc7ae3b7f61f8cec7002215c0c8805e49082220f27d6f834b84796",
+      "bytes": 5189
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
+      "sha256": "40559d9341faf6a52a5ed311ab5359918eeee7921d9968a332e4576ef446c4cf",
+      "bytes": 902
     }
   ],
   "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO.",
-  "sha256_pdf_individual": "9af156ddf544432441319a3622b58144fa23a71c335cebfb619ff5a2776682bc",
+  "sha256_pdf_individual": "de669993af1cd773892f85dbdd18ef7decddec95d75c913c96b4b0339050887c",
   "atualizacao_2026_10_04": {
     "arquivos_com_hash_novo": [],
     "arquivos_acrescentados": [
@@ -175,5 +185,88 @@
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Fechamento da cadeia de evidência do livro de 382 páginas (item 2 da fila). O auditor global V15 exige que o manifesto indexe texto, PDF individual, VALIDADORES e CONFERENCIA com os hashes atuais; o fechamento da integração de 03/10 tinha tirado os PDFs individuais do índice.",
     "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_d43": {
+    "arquivos_com_hash_novo": [
+      "evidencias/fontes-preservadas.json"
+    ],
+    "arquivos_acrescentados": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json"
+    ],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Sétima passada de 05/10/2026 (D43): Condição, Prende e Cerca pedem TR, por decisão do autor; nesta unidade, VALIDADORES e MANIFESTO apontando para o PDF vigente. Cotejo registrado das fontes que esta unidade guarda por hash.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_ciclo_maldito": {
+    "arquivos_com_hash_novo": [
+      "CONFERENCIA.json",
+      "VALIDADORES.json",
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json",
+      "evidencias/inspecao-visual.json",
+      "evidencias/pdf-estrutura.json",
+      "gerar_pdf.py",
+      "output/pdf/Projeto-M-Bastiao-Proposta-01.pdf"
+    ],
+    "arquivos_acrescentados": [
+      "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json"
+    ],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Oitava passada de 05/10/2026 (v0.334): o nome do sistema passou a Ciclo Maldito, por decisão do autor. Só o cabeçalho do PDF mudou.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_05_documentos_v0334": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "motivo": "O CHANGELOG ganhou a entrada [0.334], e o Bastião guarda o hash dele como fonte preservada: cotejo registrado. O texto e o PDF da unidade não mudaram.",
+    "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_passo4": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "motivo": "Passo 4 da migração (v0.335): peças 14, 15, 16 e 20 e o CHANGELOG, que esta unidade guarda por hash como fonte preservada, mudaram; cotejo registrado. O texto e o PDF da unidade não mudaram.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_d44_livro": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "motivo": "Nona passada (D44, v0.336): o CHANGELOG, que esta unidade guarda por hash, ganhou a entrada [0.336] (cotejo registrado), e o hash do PDF vigente do livro mudou.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_passo5": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Passo 5 da migração, primeira parte (v0.337): cotejo das fontes preservadas que mudaram fora desta unidade (peças 12 e 18, e o CHANGELOG). O texto e o PDF da unidade não mudaram.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_passo5b": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Passo 5 da migração, segunda parte (v0.338): cotejo das fontes preservadas que mudaram fora desta unidade (peças 01 e 26, e o CHANGELOG). O texto e o PDF da unidade não mudaram.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_r28a": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "v0.339: cotejo do CHANGELOG, que ganhou a entrada do R28a como livro principal. O texto e o PDF da unidade não mudaram.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
   }
 }
