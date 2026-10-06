@@ -257,6 +257,22 @@ Depois da passada, o inventário fica assim:
 
 **Peça 20:** *a rota de arma segue o Equipamento restrito (R10-37, D33).*
 
+**Peça 15 (Invocações):** *ela se declara registro histórico desde a v0.331, e a candidata usa outra arquitetura.* **Os 40 registros (PRO37, 28 de `Invocações em campo`, 7 de `Construir invocações` e 4 de `Fabricação`) não foram escritos dentro dela;** *o cabeçalho passou a apontar o livro reconstruído como dono e a listar onde o texto antigo diz o contrário.* *(Os seis FU-xx que também citam a peça 15 são do Fundamento e vão no passo 5.)* **As contradições, com a linha da peça na v0.334:**
+
+| registro | a peça 15 diz | a candidata diz |
+|---|---|---|
+| R11-07 | amarra de `18 m` (L99, L738, checagem em L1201) | a ordem chega pelos sentidos normais; sobrenatural é da ficha (CAMPO L97) |
+| R11-19, R11-45 | comandar custa a ação padrão (L107, L110, L1188) | `Rápido` na Bônus, `Reação` na sua Reação, `Segura` paga agora (CAMPO L234–242, L263) |
+| R11-26, R11-56 | retorno por `1 ×` maior Classe e Padrão (L530, L624) | duas vezes o PE da entrada e a Bônus (CAMPO L462) |
+| R11-28, R11-49 | volta só no descanso longo; nada de vida no curto (L630–636) | reparo no descanso curto, CD `8 + atributo + Maestria + ajuste` (CAMPO L366–377) |
+| R11-32, R11-34, R11-35, R12-05 | domada sem dano de técnica (L984, L988, L989, L991) | capacidades convertidas; Acerto do domínio em Classe `d8` (CAMPO L432–436, CONSTRUIR L144, L703) |
+| R11-37 | some no zero (L114, L566) | Desligada, com o dano depois somando até destruir (CAMPO L466–470) |
+| R11-48, R11-51, R11-54, PRO37 | sem teto de corpos (L509, L511); os quatro tipos iguais (L1011) | total mantido = atributo da Defesa + maior capacidade ativa; corpo e domada sem recolhimento ficam no mundo (CAMPO L343–353) |
+| R11-50 | toda invocação tem o `Investir` (L100, L887, L964) | básica ofensiva de Classe 0 ou arma empunhada (CAMPO L114) |
+| R12-32 | o dado da arma não soma (L715) | o dano é o da arma (CONSTRUIR L212) |
+
+*E oito diferenças de arquitetura que sustentam várias linhas: o comando (a básica age pela tarefa sem ação do dono), o preço de invocar (Bônus e a maior Classe do nível da entidade), o nível (o da entidade, e não o do dono), a quantidade (duas entidades ativas, e não a Matilha de cinco), a ficha (básica, especial e Talentos por Categoria de Efeito, e não `Traço` e `Comando`), o dano (especiais em `d8` e no máximo duas entidades causando dano), a área (sem o `×1,5`) e o dono inconsciente (as entidades seguem com a tarefa).* **Os outros 22 registros são lacuna na peça ou já batem com ela (o deslocamento de `9 m`, R12-08), e não contradição** — *reserva, Concentração, Armado, manutenção, fabricação e transferência não existem no desenho antigo.*
+
 **Os validadores:** *o `conferir-equipamento.py` compara agora o `Volume` das 52 armas, a Força e o `Volume` das proteções com o capítulo de Equipamento da candidata, que passou a ser o dono desses números; o `conferir-ferramenta.py` conta dezessete `Estigma` e lê da peça quantos são de `Classe 2`; o `conferir-dano.py` cobra a penalidade nova.*
 
 ## Decisões do Mizuki de 05/10/2026, para os passos 2 e 3

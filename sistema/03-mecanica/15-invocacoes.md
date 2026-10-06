@@ -2,6 +2,19 @@
 
 **v0.331:** as regras jogáveis atuais estão em `invocacoes/05-Edicao-Integrada/60-invocacoes.md`, copiadas no capítulo 17 do livro. O texto abaixo é o desenho histórico anterior à integração; os números de preço e os testes históricos não são uma certificação do capítulo novo. O validador desta peça também confere separadamente a cópia atual e seus contratos.
 
+> ***v0.335 — o dono das regras de Invocações passou a ser o livro reconstruído*** *(passo 4 da migração):* **`Invocações em campo`, `Construir invocações` e `Fabricação de entidades`**, *em `sistema/05-material/livro/planejamento-editorial/invocacoes/`, e a retomada do corpo suspenso em `Progressão`.* **Os 40 registros de migração que apontam para esta peça (PRO37, R11, R12 e FAB) não foram escritos aqui dentro**, *porque a candidata usa outra arquitetura — básica e especial em vez de `Traço` e `Comando`, reserva de PE da entidade, corpos ativos e inativos com um total mantido, a condição Desligada, reparo e fabricação — e esta peça já era registro do desenho anterior.* **Onde o texto abaixo diz o contrário da candidata, vale a candidata:**
+>
+> - *a amarra de `18 m` (abaixo, na lista do que está decidido, e no §3.6): na candidata a ordem só precisa chegar e ser entendida pelos sentidos normais, e comunicação sobrenatural é da ficha (R11-07);*
+> - *comandar custa a ação padrão: na candidata, `Rápido` passa o comando para a Bônus, `Reação` usa a sua Reação, e `Segura` paga agora e resolve no turno seguinte (R11-19, R11-45);*
+> - *o retorno por `1 ×` a maior Classe e a ação padrão (§3.5): na candidata são duas vezes o PE da entrada e a Bônus (R11-26, R11-56);*
+> - *a volta só no descanso longo (§3.5): na candidata o corpo se repara no descanso curto, com CD `8 + atributo do ofício + Maestria + ajuste` e reparador de Classe suficiente (R11-28, R11-49);*
+> - *a domada não causar dano de técnica (§3.7): na candidata ela conserva as capacidades convertidas para a escala de entidade, e o Acerto do domínio dela causa Classe `d8` (R11-32, R11-34, R11-35, R12-05);*
+> - *some no zero, sem estado intermediário: na candidata o corpo fica Desligado, e o dano depois soma até destruir (R11-37);*
+> - *não haver teto de corpos no campo (§3.4): na candidata o total mantido é o atributo da Defesa mais a maior capacidade ativa, ativos e inativos juntos, e o corpo que sobra volta quando abre vaga (R11-48, R11-51, R11-54, PRO37);*
+> - *toda invocação ter o `Investir`: na candidata ela ataca com a básica ofensiva de Classe 0 ou com uma arma empunhada, e sem as duas não ataca (R11-50); com arma, o dano é o da arma (R12-32).*
+>
+> *A lista completa, com o texto da candidata ao lado de cada linha desta peça, está no `PLANO.md` da migração.* **O `conferir-invocacoes.py` continua conferindo esta peça e as cópias congeladas como estavam; ler o livro reconstruído é trabalho do passo 5, quando os validadores passam a ler o livro.**
+
 ---
 
 # 15 — Invocações

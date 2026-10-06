@@ -101,9 +101,9 @@ A guarda dele não é fechadura, é barreira: **a disposição dos prédios muda
 *Migração do capítulo de Equipamento do livro reconstruído, seção Objetos amaldiçoados.* **A candidata não mudou a máquina desta peça; ela pôs na mão do mestre o que aqui era só ficção, e fechou três buracos de mesa:**
 
 - **A atração não tem distância nem frequência na regra.** *O mestre pesa o objeto, o local e as maldições presentes.* **O "ela chega" do §4 continua sendo o tom, e não um relógio.**
-- **O selo tem duração E alcance, os dois do mestre**, *e ele não dá imunidade a ataque nem impede sozinho uma maldição de chegar perto.* **O "volta maior" do §4.1 não está no livro:** *lá o selo vencido só volta a atrair.* **Fica como leitura da fonte, sem regra que o meça.**
+- **O selo tem duração E alcance, os dois do mestre**, *e ele não dá imunidade a ataque nem impede sozinho uma maldição de chegar perto.* **O "volta maior" do §4.1 não está no livro:** *lá o selo vencido só volta a atrair.* **Fica como leitura da obra, sem regra que o meça.**
 - **Caixa comum não é selo.** *Ela protege o conteúdo de dano e de olhar; a atração continua.* **O `Volume` do objeto é anotado junto do recipiente que o transporte exige** (peça 14 §6.6).
-- **Ingerir um objeto não dá, sozinho, poder, Origem nem controle.** *Se a campanha abre essa porta, o mestre diz os riscos que o personagem pode conhecer e decide as consequências conforme o objeto.* **A coluna "quem não serve morre" do §5 é o que a fonte mostra, e não regra automática da mesa.**
+- **Ingerir um objeto não dá, sozinho, poder, Origem nem controle.** *Se a campanha abre essa porta, o mestre diz os riscos que o personagem pode conhecer e decide as consequências conforme o objeto.* **A coluna "quem não serve morre" do §5 é o que a obra mostra, e não regra automática da mesa.**
 - **Destruir um objeto pode pedir condições próprias**, *e as regras de quebrar item comum não resolvem objeto amaldiçoado.* **O especial do §3 continua indestrutível pelo Pacto**; *o livro só não escreve isso como regra.*
 - **Objeto não recebe `Estigma`** *pelo catálogo da peça 16, e os perigos dele continuam com ele guardado* — **o contrário da ferramenta, que guardada não faz nada.**
 
