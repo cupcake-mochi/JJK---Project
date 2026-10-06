@@ -107,6 +107,8 @@ Mais **cinco perícias à sua escolha**, de qualquer uma da lista de perícias d
 > **E o equipamento, que entrou na v0.171.** *Até ali a criação dava acesso e não dava objeto: o Caminho treina uma categoria de arma, e a ficha saía de casa sem nada na mão.* **Você começa com o `Traje` degrau 1 da instituição, de graça, e `¥75.000` para comprar o resto** — a tabela é a peça 14 §6.5, e os `¥75.000` são meia mensalidade de um `Grau 4`, da peça 12 §6.1.
 >
 > *O uniforme de graça custa zero:* **o `Traje` 1 dá proteção `1` e desliga o `cobrir-se`, que no refino `1` também dá `1`** — a Defesa do nível 2 é a mesma com ele e sem ele.
+>
+> ***v0.337, da candidata (AB24, D41):*** *o passo do equipamento pede também **a situação, o tipo de TR e as perícias do `Traje`** — o benefício dele desde a v0.335 (peça 14 §3) —, e a ficha registra os três.* **E o `Traje` 1 grátis vem uma vez só** (peça 14 §6.7).
 
 **E a Trilha, que você escolhe agora junto do Caminho.** São três por Caminho, e a lista está na peça 6 — Muro · Punho · Combatente Amaldiçoado no Bastião, Estocada · Batedor · Executor na Vanguarda, e assim por diante; o texto atual de cada uma está em `caminhos/05-Edicao-Integrada/`. *Decidido na v0.27 e aplicado na v0.34:* a Trilha é **identidade, como o Caminho, e nasce com o personagem** — três lugares do material diziam que ela só chegava na primeira subida, e a confusão era a mesma dos feitiços, de contar a partir do nível 1 numa ficha que nasce no 2.
 
