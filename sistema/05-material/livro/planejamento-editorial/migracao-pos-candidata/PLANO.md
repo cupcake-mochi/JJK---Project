@@ -273,6 +273,20 @@ Depois da passada, o inventário fica assim:
 
 *E oito diferenças de arquitetura que sustentam várias linhas: o comando (a básica age pela tarefa sem ação do dono), o preço de invocar (Bônus e a maior Classe do nível da entidade), o nível (o da entidade, e não o do dono), a quantidade (duas entidades ativas, e não a Matilha de cinco), a ficha (básica, especial e Talentos por Categoria de Efeito, e não `Traço` e `Comando`), o dano (especiais em `d8` e no máximo duas entidades causando dano), a área (sem o `×1,5`) e o dono inconsciente (as entidades seguem com a tarefa).* **Os outros 22 registros são lacuna na peça ou já batem com ela (o deslocamento de `9 m`, R12-08), e não contradição** — *reserva, Concentração, Armado, manutenção, fabricação e transferência não existem no desenho antigo.*
 
+**Peça 06 e Caminhos:** *o texto jogável dos seis Caminhos mora, na v0.331, na `caminhos/05-Edicao-Integrada/` e no capítulo 35 do livro, que ficam congelados; a peça 06 guarda a base (vida, PE, perícias, armas, TR) e a régua de preço, e o `RASCUNHO-trilhas` e os DESENHO da raiz se declaram registro da coleção anterior.* **Dos 60 registros confirmados dos Caminhos, 34 batem com a edição integrada, 6 são lacuna e 20 a contradizem:**
+
+| registro | onde a edição integrada diz o contrário |
+|---|---|
+| BAS03, BAS04, BAS06, BAS11, BAS18, BAS26 | Bastião: L42 e L96 (Olhos Em Mim e o fim da área), L44 e L64 (o teste de Provocar vira CD), L46 e L48 (perceber o aliado; dano no erro), L86 (Alicerce é resistência, e não metade), L126 (o Arrastão e o uso da rodada), L54 (TR Físico de efeito ofensivo) |
+| VG-08, VG-REV-01, VG-REV-03, VG-REV-04 | Vanguarda: L226 e L230 (desfazer a armação não destrói a flecha), L348 (o Combate Irregular só na Arma de Fogo), L35 e L128 (a Execução Preparada no nível 7) |
+| R15-09, R15-18 | Guia: L76 e L140 (o ataque apoiado resolve antes da resposta), L172 e L205 (`1,5 m` de altura) |
+| EMA15, EMA16 | Emanador: L202 (descarregar antes de mudar de perfil), L206 (perceber a arma e o espaço de chegada) |
+| INC-05, INC-09, INC-22, INC-24, INC-25, INC-26 | Incursor: L65 (Guarda Aberta e Fluidez), L160, L263, L277 e L305 (`Leve` ou `Fineza`), L520 a L522 (o segundo ataque do Malabarista), L70 (a janela do Instante Decisivo), L176, L206 e L360 (só no seu turno antes do 19), L614 (`Longo Alcance` de arremesso) |
+
+*As linhas são de `caminhos/05-Edicao-Integrada/0N-<Caminho>-Caminho-e-Trilhas.md`, e o capítulo 35 do livro v0.331 é espelho delas. Elas saem quando a candidata substituir o livro, que é a decisão de publicação.* **Na peça 06 mudaram três coisas:** *a troca de Trilha entre missões (PRO20), o nome das entregas da rota `Arma de Fogo` e a frase do Emanador (EMA07).*
+
+**O achado do passo: a `Execução Preparada` vale muito menos que a `Não Pega`.** *Medida pela régua do degrau do nível 7 (`sistema/01-pesquisa/medicao-v0335/conta-execucao-preparada.py`, com regressão nos `1,18` da `Não Pega`), ela fica entre `0,00` e `0,12` fatia.* **O degrau da Vanguarda cai de `2,10` para no máximo `1,04`, contra `2,36` dos três Caminhos de degrau grande.** *A linha da tabela da peça 06 fica com a `Não Pega` até o Mizuki decidir se aceita a diferença ou mexe na entrega.*
+
 **Os validadores:** *o `conferir-equipamento.py` compara agora o `Volume` das 52 armas, a Força e o `Volume` das proteções com o capítulo de Equipamento da candidata, que passou a ser o dono desses números; o `conferir-ferramenta.py` conta dezessete `Estigma` e lê da peça quantos são de `Classe 2`; o `conferir-dano.py` cobra a penalidade nova.*
 
 ## Decisões do Mizuki de 05/10/2026, para os passos 2 e 3
