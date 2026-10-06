@@ -155,3 +155,11 @@ Candidata sobre v0.331. E: edição. M: fechamento mecânico. Fontes publicadas 
 **Depois:** **Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**.
 
 **Motivo:** Decisão do Mizuki em 05/10/2026: o nível 7 da Vanguarda só trazia o Ataque Extra, e os outros Caminhos ganham uma segunda metade no 7 (o Bastião, Nem Um Arranhão e Ainda de Pé). A Não Pega da peça 06 (o Evasion do 5e) não tinha chegado à candidata, e ele a achou forte; rerrolar TR repetiria a Não Cede do nível 15. Texto dele: "Execução Preparada: 1× por Sequência, ao Concluir depois de duas ou mais Conduções, imponha −1 a um TR adicional da Conclusão." "Acertadas" vem da Conclusão Dupla, que usa a mesma condição; o nome passou na triagem do conferir-nomes.py (LIVRE).
+
+## VG-REV-05 — decisão do autor
+
+**Antes:** **Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−1 a um TR adicional da Conclusão**.
+
+**Depois:** **Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−2 a um TR adicional da Conclusão**.
+
+**Motivo:** Decisão do Mizuki em 06/10/2026 (D44): a Execução Preparada foi medida pela régua do degrau do nível 7 da peça 06 e valia até 0,12 fatia, contra 1,18 da Não Pega que ela substituiu. Resposta dele: "Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema". O −2 dobra a parcela (até 0,23 fatia), e a diferença do degrau fica declarada na peça 06.

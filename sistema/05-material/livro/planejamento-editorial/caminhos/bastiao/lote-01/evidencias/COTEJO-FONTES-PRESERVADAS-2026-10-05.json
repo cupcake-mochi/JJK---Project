@@ -39,5 +39,14 @@
       "motivo": "Entrada [0.335] acrescentada no topo do CHANGELOG (passo 4 da migração). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
     }
   ],
-  "cotejo_v0335_conferido": "Diff lido: só o passo 4 da migração nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
+  "cotejo_v0335_conferido": "Diff lido: só o passo 4 da migração nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0336": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "9758882790a36faab59f133d3d3ae35637d000ee7a698cfeeb1bea61f86a452d",
+      "sha256_atual": "aeb005e4b9c023ec1a050e18a4063a02dc369bd7f586f2bf436ba17f816edc16",
+      "motivo": "Entrada [0.336] acrescentada no topo do CHANGELOG (D44, a Execução Preparada com −2). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
+    }
+  ],
+  "cotejo_v0336_conferido": "Diff lido: só a entrada nova do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
 }

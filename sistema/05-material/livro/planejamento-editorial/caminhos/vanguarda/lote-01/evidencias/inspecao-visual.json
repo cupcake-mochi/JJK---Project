@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "7f11b15a4e81cf4d817bab021f5b32f8f94bc43ceb40a2da49980a84df389a51",
+  "sha256_pdf": "3d465a77b003b2d7ae1bff4fde85edc322ee963c93aae2291af369f7fbc33d13",
   "metodo": "Páginas alteradas abertas e inspecionadas. Demais páginas reutilizam inspeção anterior somente por igualdade de pixels, comprovada em COMPARACAO-VISUAL-2026-10-05.json.",
   "paginas": [
     {
@@ -47,11 +47,11 @@
     {
       "pagina": 6,
       "resultado": "sem defeito visual observado",
-      "observacoes": "Habilidades avançadas: Execução Preparada entre Ataque Extra e Não Cede, no mesmo estilo; −1 legível; página sem corte.",
-      "sha256_png": "3ad2344de75601e6ff2e3ceb1c7df7712dbfc7a868469e1b5803d048c6d44498",
+      "observacoes": "Execução Preparada com −2 (D44); parágrafo inteiro, sem corte nem linha sozinha.",
+      "sha256_png": "f302baba7b2b03ac274d3613c725722778d59963d2befdd7dfad13b44b04e0d2",
       "pixels_iguais_rodada_anterior": false,
-      "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
-      "metodo": "página alterada aberta e inspecionada em 05/10/2026 (PNG a 80 dpi), revisão por modelo",
+      "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana.",
+      "metodo": "página alterada aberta e inspecionada em 06/10/2026 (PNG a 80 dpi), revisão por modelo",
       "arquivo": null
     },
     {
@@ -241,5 +241,15 @@
     "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
     "metodo": "As páginas de corpo alterado foram abertas; as outras conservam a inspeção anterior por igualdade de pixels do corpo, e o cabeçalho novo foi conferido na tira de cabeçalho de cada unidade.",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "revisao_delta_2026_10_06_d44": {
+    "sha256_pdf_anterior": "7f11b15a4e81cf4d817bab021f5b32f8f94bc43ceb40a2da49980a84df389a51",
+    "sha256_pdf_atual": "3d465a77b003b2d7ae1bff4fde85edc322ee963c93aae2291af369f7fbc33d13",
+    "paginas_com_corpo_alterado": [
+      6
+    ],
+    "comparacao": "evidencias/COMPARACAO-VISUAL-2026-10-06-d44.json",
+    "metodo": "A página de corpo alterado foi aberta; as outras conservam a inspeção anterior por igualdade de pixels.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
   }
 }

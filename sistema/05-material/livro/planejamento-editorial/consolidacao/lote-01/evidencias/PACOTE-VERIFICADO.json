@@ -1,20 +1,20 @@
 {
   "arquivo": "sistema/05-material/livro/planejamento-editorial/entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
-  "sha256": "183bf536f25d73de3f6ae87680b68765702b5a879d90d2b93d13c4f2a05a31d1",
-  "bytes": 9648284,
-  "arquivos": 1433,
+  "sha256": "1e36497efb0948a0554498f8f5ab4efd147b5280d4fa6720fa525f805303da9e",
+  "bytes": 9655660,
+  "arquivos": 1435,
   "crc_ok": true,
-  "hashes_internos_conferidos": 1432,
-  "arquivos_editoriais_iguais_ao_repositorio": 1427,
+  "hashes_internos_conferidos": 1434,
+  "arquivos_editoriais_iguais_ao_repositorio": 1429,
   "fontes_vigentes_conferidas": 23,
   "pdf_reproduzido_identico": true,
-  "sha256_pdf": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
+  "sha256_pdf": "0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30",
   "metodo": "ZIP montado de forma determinística (ordem e data fixas nas entradas; duas montagens deram o mesmo arquivo). Conferidos o CRC de cada entrada, os hashes contra SHA256SUMS.json, cada arquivo editorial contra o repositório e as 23 fontes de ORDEM.json; depois o ZIP foi desempacotado numa pasta nova e gerar_livro.py --strict reproduziu o PDF byte a byte.",
-  "regra_de_conteudo": "A mesma de 03/10: manifesto e arquivos listados de cada capítulo (sem os PDFs individuais), consolidação sem PDFs de provas antigas e sem os arquivos escritos depois do pacote, validador editorial e seis documentos da raiz. Acrescentados os registros de 04/10: revisao-interfaces/ e publicacao-github/provas-cinco-capitulos-2026-10-04/. A quarta passada acrescentou só as comparações visuais dela (seis capítulos e consolidação) e o registro de testes negativos. A rodada de paginação acrescentou a comparação visual e os testes negativos dela, e o registro de estabilidade dos auditores. A quinta passada acrescentou as comparações visuais dela. A sexta passada (D42) acrescentou a comparação visual dela. A sétima passada (D43) acrescentou as comparações visuais dela, os cotejos de fontes preservadas de nove capítulos e o registro de testes negativos. A oitava passada (v0.334) acrescentou a comparação visual dela e trocou o nome no LEIA-ME da raiz para Ciclo Maldito; por isso esse LEIA-ME é o único arquivo editorial que difere do repositório. Depois, o Bastião e o Catálogo ganharam o cotejo do CHANGELOG e da peça 26, e o ZIP foi montado de novo com eles. A v0.335 (passo 4 da migração) não mexeu no livro: só o cotejo de seis capítulos que guardam por hash peças e o CHANGELOG, com os manifestos deles.",
+  "regra_de_conteudo": "A mesma de 03/10: manifesto e arquivos listados de cada capítulo (sem os PDFs individuais), consolidação sem PDFs de provas antigas e sem os arquivos escritos depois do pacote, validador editorial e seis documentos da raiz. Acrescentados os registros de 04/10: revisao-interfaces/ e publicacao-github/provas-cinco-capitulos-2026-10-04/. A quarta passada acrescentou só as comparações visuais dela (seis capítulos e consolidação) e o registro de testes negativos. A rodada de paginação acrescentou a comparação visual e os testes negativos dela, e o registro de estabilidade dos auditores. A quinta passada acrescentou as comparações visuais dela. A sexta passada (D42) acrescentou a comparação visual dela. A sétima passada (D43) acrescentou as comparações visuais dela, os cotejos de fontes preservadas de nove capítulos e o registro de testes negativos. A oitava passada (v0.334) acrescentou a comparação visual dela e trocou o nome no LEIA-ME da raiz para Ciclo Maldito; por isso esse LEIA-ME é o único arquivo editorial que difere do repositório. Depois, o Bastião e o Catálogo ganharam o cotejo do CHANGELOG e da peça 26, e o ZIP foi montado de novo com eles. A v0.335 (passo 4 da migração) não mexeu no livro: só o cotejo de seis capítulos que guardam por hash peças e o CHANGELOG, com os manifestos deles. A nona passada (D44, v0.336) acrescentou as duas comparações visuais dela (Vanguarda e consolidação) e o cotejo da Consulta e do Bastião.",
   "substitui": {
     "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
-    "sha256": "fdaa59fc14cdc2b10a9d4c188b77157e5c63b24e95d532d39008f726b94cba12",
-    "onde_esta": "versão final da oitava passada (v0.334, PDF 25557bb0…); continua no histórico do git (commit bcedf15)"
+    "sha256": "183bf536f25d73de3f6ae87680b68765702b5a879d90d2b93d13c4f2a05a31d1",
+    "onde_esta": "versão da v0.335 (passo 4 da migração, PDF 25557bb0…); continua no histórico do git (commit 3d1bae7)"
   },
   "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana.",
   "substitui_antes": [
@@ -57,6 +57,11 @@
       "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
       "sha256": "b08c823372a08dd2bb9bbb275e18c6705fc9036b16a79bc4f7f0e2d076e8974d",
       "onde_esta": "primeira montagem da oitava passada (v0.334, mesmo PDF 25557bb0…), antes do cotejo do Bastião e do Catálogo; continua no histórico do git (commit a788617)"
+    },
+    {
+      "arquivo": "entrega/Projeto-M-Livro-Reconstruido-2026-10-04.zip",
+      "sha256": "fdaa59fc14cdc2b10a9d4c188b77157e5c63b24e95d532d39008f726b94cba12",
+      "onde_esta": "versão final da oitava passada (v0.334, PDF 25557bb0…); continua no histórico do git (commit bcedf15)"
     }
   ]
 }

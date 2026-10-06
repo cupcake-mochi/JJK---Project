@@ -82,11 +82,20 @@
    "sem_cobertura": []
   },
   {
-   "versao": "atual",
+   "versao": "a788617",
    "rodada": "oitava passada (nome Ciclo Maldito, v0.334)",
    "paginas": 382,
    "herdadas_por_corpo_identico": 361,
    "cobertas_pela_inspecao_da_rodada": 21,
+   "listadas_mas_corpo_identico": [],
+   "sem_cobertura": []
+  },
+  {
+   "versao": "atual",
+   "rodada": "nona passada (D44, Execução Preparada com −2, v0.336)",
+   "paginas": 382,
+   "herdadas_por_corpo_identico": 381,
+   "cobertas_pela_inspecao_da_rodada": 1,
    "listadas_mas_corpo_identico": [],
    "sem_cobertura": []
   }
@@ -538,9 +547,9 @@
    "pdf_origem": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8"
   },
   "90": {
-   "origem": "sexta passada (D42)",
+   "origem": "nona passada (D44, Execução Preparada com −2, v0.336)",
    "pagina_origem": 90,
-   "pdf_origem": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea"
+   "pdf_origem": "0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30"
   },
   "91": {
    "origem": "sexta passada (D42)",

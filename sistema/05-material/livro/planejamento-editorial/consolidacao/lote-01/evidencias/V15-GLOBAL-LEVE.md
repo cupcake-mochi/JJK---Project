@@ -2,7 +2,7 @@
 
 Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15, hashes do texto/PDF e índice crítico do manifesto. Não relê regras, não executa testes novamente e não altera documentos de outros donos.
 
-864 registros de decisões em 23 arquivos; 23 fontes selecionadas.
+865 registros de decisões em 23 arquivos; 23 fontes selecionadas.
 
 | Dono | V01–V15 | Decisões | Estado | Achados |
 |---|---:|---:|---|---|
@@ -24,7 +24,7 @@ Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15
 | fabricacao | 15 | 16 | metadados coerentes nesta fotografia | — |
 | consulta | 15 | 35 | metadados coerentes nesta fotografia | — |
 | bastiao | 15 | 26 | metadados coerentes nesta fotografia | — |
-| vanguarda | 15 | 19 | metadados coerentes nesta fotografia | — |
+| vanguarda | 15 | 20 | metadados coerentes nesta fotografia | — |
 | guia | 15 | 38 | metadados coerentes nesta fotografia | — |
 | emanador | 15 | 29 | metadados coerentes nesta fotografia | — |
 | evocador | 15 | 28 | metadados coerentes nesta fotografia | — |

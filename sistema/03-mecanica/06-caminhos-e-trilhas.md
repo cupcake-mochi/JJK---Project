@@ -352,7 +352,7 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 > | | nível 7 | ataque extra | + a metade nova | total |
 > |---|---|---|---|---|
 > | **Bastião** | ataque extra + `Ainda de Pé` | `0,83` | `1,10` | **`1,93`** |
-> | **Vanguarda** | ataque extra + `Não Pega` | `0,92` | `1,18` | **`2,10`** |
+> | **Vanguarda** | ataque extra + `Execução Preparada` | `0,92` | `0,23` | **`1,15`** |
 > | Guia · Emanador · Evocador | o degrau grande | — | — | `2,36` |
 >
 > **A `Ainda de Pé` é `1d8 + metade do nível` de cura, `1×` por cena, sem custo de ação.** *`1` de cura = `1` de dano evitado, pela régua da v0.76.* **O relógio não foi escolhido: `1×` por cena dá `1,10` e `2×` daria `2,19`, que estoura.**
@@ -363,11 +363,11 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 >
 > #### A diferença que fica, e ela é declarada
 >
-> **Bastião `−0,43` e Vanguarda `−0,26` contra o degrau grande de `2,36`.** *Os dois ficam abaixo, e a distância entre eles é `0,18` — menor que qualquer Manha do catálogo.* **O resíduo é a Manha:** *a Vanguarda dobra uma no segundo golpe e o Bastião não tem nenhuma; em troca o Bastião passa `52%` das rodadas sem PE contra `33%` dela, e o ataque extra rende mais nele.* **As duas forças quase se cancelam.**
+> **Bastião `−0,43` e Vanguarda `−1,21` contra o degrau grande de `2,36`.** *Até a v0.335 a Vanguarda ficava em `−0,26`, com a `Não Pega` (`1,18`), e a distância entre os dois era `0,18`, menor que qualquer Manha do catálogo. O resto deste parágrafo é dessa época:* *Os dois ficam abaixo, e a distância entre eles é `0,18` — menor que qualquer Manha do catálogo.* **O resíduo é a Manha:** *a Vanguarda dobra uma no segundo golpe e o Bastião não tem nenhuma; em troca o Bastião passa `52%` das rodadas sem PE contra `33%` dela, e o ataque extra rende mais nele.* **As duas forças quase se cancelam.**
 >
 > ***Decisão do Mizuki: a diferença fica declarada em vez de o degrau grande descer para `2,05`.*** *`0,30` fatia é `6%` de uma Trilha, e cabe no que o projeto já aceita — a `Brasa` estoura entre `41%` e `88%` e ficou.*
 
-> ***v0.335: a `Não Pega` saiu, e a linha da Vanguarda acima é o preço da entrega que não existe mais.*** *Na sexta passada (D42, 05/10/2026) o Mizuki pôs no nível 7 a **`Execução Preparada`** — "uma vez por Sequência, ao Concluir depois de duas ou mais Conduções acertadas, imponha −1 a um TR adicional da Conclusão" —, e ela está na candidata.* **Medida pela mesma régua** (`sistema/01-pesquisa/medicao-v0335/conta-execucao-preparada.py`, que reproduz os `1,18` da `Não Pega` antes de medir): *−1 no TR são `5` pontos percentuais de falha; o valor da falha é a condição da Conclusão por uma rodada, na tabela das treze da peça 19; e uma Sequência qualificada cabe uma vez por luta de `3,5` rodadas.*
+> ***v0.335: a `Não Pega` saiu (D42), e a `Execução Preparada` entrou no lugar dela.*** *Na sexta passada (D42, 05/10/2026) o Mizuki pôs no nível 7 a **`Execução Preparada`** — "uma vez por Sequência, ao Concluir depois de duas ou mais Conduções acertadas, imponha −1 a um TR adicional da Conclusão" —, e ela está na candidata.* **Medida pela mesma régua** (`sistema/01-pesquisa/medicao-v0335/conta-execucao-preparada.py`, que reproduz os `1,18` da `Não Pega` antes de medir): *−1 no TR são `5` pontos percentuais de falha; o valor da falha é a condição da Conclusão por uma rodada, na tabela das treze da peça 19; e uma Sequência qualificada cabe uma vez por luta de `3,5` rodadas.*
 >
 > | Conclusão | condição | fatias, de baixo a alto |
 > |---|---|---|
@@ -376,7 +376,9 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 > | Quebrar o Ritmo | `Lento` | `0,003` a `0,034` |
 > | Fixar o Alvo | `Impedido` | `0,012` a `0,115` |
 >
-> *O baixo é sem Persistência e só nas rodadas em que a Vanguarda ataca; o alto é um teto generoso, com as duas Conduções acertando sempre.* **Mesmo no teto, a `Execução Preparada` vale `0,12` fatia contra os `1,18` da `Não Pega`, e o degrau da Vanguarda cai de `2,10` para no máximo `1,04`:** *de `−0,26` para entre `−1,32` e `−1,44` contra o degrau grande de `2,36`.* **A régua não mede o resto do que a Vanguarda ganhou na candidata** (*a Sequência inteira é de lá*), *então a comparação é só do degrau, como a tabela sempre foi.* **A decisão é do Mizuki:** *aceitar a diferença declarada, como na v0.155, ou mexer na entrega.* **Até lá a linha da tabela fica com a `Não Pega`, que é o número que ela mediu**, *e o `conferir-manual.py` continua conferindo a conta dela.*
+> *O baixo é sem Persistência e só nas rodadas em que a Vanguarda ataca; o alto é um teto generoso, com as duas Conduções acertando sempre.* **Mesmo no teto, a `Execução Preparada` vale `0,12` fatia contra os `1,18` da `Não Pega`, e o degrau da Vanguarda cai de `2,10` para no máximo `1,04`:** *de `−0,26` para entre `−1,32` e `−1,44` contra o degrau grande de `2,36`.* **A régua não mede o resto do que a Vanguarda ganhou na candidata** (*a Sequência inteira é de lá*), *então a comparação é só do degrau, como a tabela sempre foi.* *Era a medida com `−1`.*
+>
+> ***Decisão do Mizuki na v0.336 (D44), em 06/10/2026: "Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema".*** **A `Execução Preparada` impõe `−2`, e a parcela dobra: o teto dela vai a `0,23` fatia** *(Rasteira `0,014`, Desarme `0,006`, Quebrar o Ritmo `0,069`, Fixar o Alvo `0,231`, no alto).* **A tabela acima usa o teto, `0,23`, e o degrau da Vanguarda fica em `1,15`: `−1,21` contra o degrau grande, por decisão escrita, e não como resíduo.** *O `conferir-manual.py` continua conferindo a conta da tabela contra a diferença declarada; o teto de `0,50` dele vale para os outros degraus, e a Vanguarda só passa dele porque esta decisão está escrita aqui.*
 >
 > ### A leitura da v0.82, que a inversão aposentou
 >

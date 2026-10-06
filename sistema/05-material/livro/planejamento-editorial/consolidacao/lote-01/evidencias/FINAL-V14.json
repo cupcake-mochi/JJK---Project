@@ -1,5 +1,5 @@
 {
-  "sha256_pdf": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
+  "sha256_pdf": "0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30",
   "paginas": [
     {
       "pagina": 1,
@@ -537,9 +537,9 @@
     },
     {
       "pagina": 90,
-      "metodo": "aberta na sexta passada (D42) (página 90 do PDF c6610e358669…), a 80 dpi",
+      "metodo": "aberta na nona passada (D44, Execução Preparada com −2, v0.336) (página 90 do PDF 0a3be89a789b…), a 100 dpi",
       "resultado": "sem corte, sobreposição ou título isolado detectado",
-      "sha256_corpo_100dpi": "da203e002c5e035f8a5ae01c0552063a391f649a032708abf6605f10f14e6685"
+      "sha256_corpo_100dpi": "0ef0e9723fae50452c718414a11a668ba5399100caf52ca70286e2c23e2862e4"
     },
     {
       "pagina": 91,
@@ -2380,16 +2380,25 @@
         "sem_cobertura": []
       },
       {
-        "versao": "atual",
+        "versao": "a788617",
         "rodada": "oitava passada (nome Ciclo Maldito, v0.334)",
         "paginas": 382,
         "herdadas_por_corpo_identico": 361,
         "cobertas_pela_inspecao_da_rodada": 21,
         "listadas_mas_corpo_identico": [],
         "sem_cobertura": []
+      },
+      {
+        "versao": "atual",
+        "rodada": "nona passada (D44, Execução Preparada com −2, v0.336)",
+        "paginas": 382,
+        "herdadas_por_corpo_identico": 381,
+        "cobertas_pela_inspecao_da_rodada": 1,
+        "listadas_mas_corpo_identico": [],
+        "sem_cobertura": []
       }
     ],
-    "metodo": "pdftoppm a 100 dpi de cada versão do livro guardada no git (44dfa941, 89f9057b, adda0770, 00a207c9, 633f85ae, bceea2d7, 42d92070, 4ae5931d, c6610e35, b5df8953 e o atual). Cada página é casada com a da versão anterior de corpo idêntico (sem os 70 pixels de cima e de baixo), perto da posição esperada pelo deslocamento. Uma página só fica coberta se herdar a cobertura assim ou se estiver na lista de páginas abertas daquela rodada. Nenhuma ficou sem cobertura, e as listas de cada rodada coincidem exatamente com as páginas que mudaram."
+    "metodo": "pdftoppm a 100 dpi de cada versão do livro guardada no git (44dfa941, 89f9057b, adda0770, 00a207c9, 633f85ae, bceea2d7, 42d92070, 4ae5931d, c6610e35, b5df8953, 25557bb0 e o atual). Cada página é casada com a da versão anterior de corpo idêntico (sem os 70 pixels de cima e de baixo), perto da posição esperada pelo deslocamento. Uma página só fica coberta se herdar a cobertura assim ou se estiver na lista de páginas abertas daquela rodada. Nenhuma ficou sem cobertura, e as listas de cada rodada coincidem exatamente com as páginas que mudaram."
   },
   "v14_de_03_10": {
     "arquivo": "evidencias/antes-fechamento-2026-10-04/FINAL-V14.json",

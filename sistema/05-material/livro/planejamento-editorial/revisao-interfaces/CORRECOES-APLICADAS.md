@@ -481,6 +481,15 @@ Em 05/10/2026, o Mizuki mandou o livro final, **Ciclo Maldito | Livro de regras 
 - **Provas:** os 23 PDFs de unidade mudaram no cabeçalho de todas as páginas e no corpo de 20; o livro, no cabeçalho de todas e no corpo de 21. As páginas de corpo mudado foram abertas, e o cabeçalho novo foi conferido numa tira por unidade. As outras herdam a inspeção por corpo idêntico.
 - **Cotejos:** a v0.333 (os renomes da `Passiva` nas peças) e esta troca mudaram fontes que onze capítulos guardam por hash. Cada um ganhou o registro em `COTEJO-FONTES-PRESERVADAS-2026-10-05.json`, e a Consulta, Construir invocações, Fabricação, Progressão e Origens registraram nos próprios arquivos.
 
+### D44 · Execução Preparada com −2 (v0.336)
+
+Em 06/10/2026, a migração mediu a Execução Preparada (D42) pela régua do degrau do nível 7 da peça 06: ela valia até 0,12 fatia, contra 1,18 da Não Pega que substituiu, e o degrau da Vanguarda caía de 2,10 para no máximo 1,04, contra 2,36 do Guia, do Emanador e do Evocador. Resposta do Mizuki: "Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema".
+
+- Texto: **Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, imponha **−2 a um TR adicional da Conclusão**.
+- Muda na mesa: a Conclusão qualificada fica 10 pontos percentuais mais difícil de resistir, e não 5.
+- Unidade: `VG-REV-05` no `ALTERACOES` da Vanguarda. A peça 06 declara a diferença do degrau, e o script da medida está em `sistema/01-pesquisa/medicao-v0335/`.
+- Prova: só a página 6 do capítulo da Vanguarda mudou no corpo, e foi aberta.
+
 ## Validador editorial
 
 | Situação | Achados do `conferir_editorial.py` nos manuscritos alterados |

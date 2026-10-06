@@ -1,9 +1,9 @@
 {
-  "data_utc": "2026-10-05T21:52:38.113263+00:00",
+  "data_utc": "2026-10-06T03:12:21.773014+00:00",
   "escopo": "Auditoria leve de metadados dos23donos de ORDEM.json; valida presença V01–V15, hashes do texto/PDF e índice crítico do manifesto. Não relê regras, não executa testes novamente e não altera documentos de outros donos.",
   "sha256_ordem": "d03929d8ca60b9271514bb9ec83f3f6ed166b993719a476abebd4f9c0bda4c2e",
   "fontes": 23,
-  "decisoes_registradas": 864,
+  "decisoes_registradas": 865,
   "donos_com_registro_contavel": 23,
   "checks_registrados": 4082,
   "unidades": [
@@ -3918,13 +3918,13 @@
     {
       "id": "vanguarda",
       "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
-      "sha256_texto": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
-      "sha256_pdf": "7f11b15a4e81cf4d817bab021f5b32f8f94bc43ceb40a2da49980a84df389a51",
+      "sha256_texto": "db92559872c049cff3cb18cb6964f71a9a17aeb80527bfc5d49079133b52f8db",
+      "sha256_pdf": "3d465a77b003b2d7ae1bff4fde85edc322ee963c93aae2291af369f7fbc33d13",
       "paginas": 20,
       "validadores_presentes": 15,
       "conferencia_checks": 159,
       "conferencia_ok": true,
-      "decisoes": 19,
+      "decisoes": 20,
       "resumo_decisoes": [
         {
           "id": "VG-01",
@@ -4018,6 +4018,11 @@
         },
         {
           "id": "VG-REV-04",
+          "tema": "**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, impo",
+          "tipo": "decisão do autor"
+        },
+        {
+          "id": "VG-REV-05",
           "tema": "**Nível 7: Execução Preparada.** Uma vez por Sequência, ao Concluir depois de **duas ou mais Conduções acertadas**, impo",
           "tipo": "decisão do autor"
         }

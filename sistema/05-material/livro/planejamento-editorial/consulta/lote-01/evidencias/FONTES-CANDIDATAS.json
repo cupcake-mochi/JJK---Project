@@ -18,7 +18,7 @@
     "sistema/05-material/livro/planejamento-editorial/abertura/lote-01/ABERTURA-E-CRIACAO.md": "70ee9abe5c059ef1dc81b91514e7dcc7718e5b51418936c6b73a054248e3e7f2",
     "sistema/05-material/livro/planejamento-editorial/equipamento/lote-final/EQUIPAMENTO.md": "ce763d7d27ef709b3a89c956789f0c1908da82d00ce396645ca9a644d8b3cc98",
     "sistema/05-material/livro/planejamento-editorial/caminhos/bastiao/lote-01/BASTIAO.md": "b1632e1f57b9892b35c66cf00d852621af5a237bcd6ebb214980a0fcea8469da",
-    "sistema/05-material/livro/planejamento-editorial/caminhos/vanguarda/lote-01/VANGUARDA.md": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+    "sistema/05-material/livro/planejamento-editorial/caminhos/vanguarda/lote-01/VANGUARDA.md": "db92559872c049cff3cb18cb6964f71a9a17aeb80527bfc5d49079133b52f8db",
     "sistema/05-material/livro/planejamento-editorial/caminhos/guia/lote-01/GUIA.md": "5bf3964d6d8c233069b9f2569fe9487361f9dec0c6473579f594d71c217cca5c",
     "sistema/05-material/livro/planejamento-editorial/caminhos/emanador/lote-01/EMANADOR.md": "9c99cc60360abca18c6072753f713c12b9294b9df463ae3d8747d6dc922302aa",
     "sistema/05-material/livro/planejamento-editorial/caminhos/evocador/lote-01/EVOCADOR.md": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
@@ -299,5 +299,17 @@
     "resultado": "Só o nome do sistema mudou nos donos. A Consulta tem o próprio nome trocado nesta mesma passada e não reproduz os trechos dos outros donos.",
     "registro": "../../revisao-interfaces/CORRECOES-APLICADAS.md",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "cotejo_2026_10_06_d44": {
+    "fontes": {
+      "sistema/05-material/livro/planejamento-editorial/caminhos/vanguarda/lote-01/VANGUARDA.md": {
+        "sha256_anterior": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+        "sha256_cotejado": "db92559872c049cff3cb18cb6964f71a9a17aeb80527bfc5d49079133b52f8db"
+      }
+    },
+    "metodo": "Diff do dono entre o hash conferido e o atual.",
+    "resultado": "Só o −1 da Execução Preparada virou −2 (D44). A Consulta não reproduz a Execução Preparada.",
+    "registro": "../../revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
   }
 }

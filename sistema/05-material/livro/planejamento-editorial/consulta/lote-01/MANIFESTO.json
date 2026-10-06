@@ -2,7 +2,7 @@
   "estado": "Inventário atual em 04/10/2026; a prova individual corresponde ao texto atual e passou no conferir.py. O PDF que vale para leitura é o livro completo.",
   "sha256_texto": "57d6c8e60554ebc18818569baf4325b612235dd96044b880a4a063ae77409c0d",
   "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-  "sha256_pdf_vigente": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
+  "sha256_pdf_vigente": "0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30",
   "arquivos": [
     {
       "arquivo": "ALTERACOES.json",
@@ -61,7 +61,7 @@
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "2139ae0228a455adc4cdc3f310902429c83d812649e8d32e335568ef104ced16",
+      "sha256": "0f86e6cf9210b64c9d771050fbdeea5bfd0daa84fed6fcad35e4f6efa866fa8d",
       "bytes": 7370
     },
     {
@@ -136,8 +136,8 @@
     },
     {
       "arquivo": "evidencias/FONTES-CANDIDATAS.json",
-      "sha256": "4b8a13e9c44d7c6c65c5312f0ab8dc1e2b3c5de0530121f0e8f4a90cf89bb889",
-      "bytes": 25982
+      "sha256": "689922ed42783eb1ac9e36c1deead999074ad2fdc0cbeef9ebc164d6e662cf46",
+      "bytes": 26691
     },
     {
       "arquivo": "evidencias/GLOSSARIO.json",
@@ -381,5 +381,13 @@
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Oitava passada de 05/10/2026 (v0.334): o nome do sistema passou a Ciclo Maldito, por decisão do autor. Texto da unidade mudou.",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_d44_livro": {
+    "arquivos_com_hash_novo": [
+      "VALIDADORES.json",
+      "evidencias/FONTES-CANDIDATAS.json"
+    ],
+    "motivo": "Nona passada (D44, v0.336): o capítulo da Vanguarda, que esta unidade guarda como dono conferido, mudou (cotejo em FONTES-CANDIDATAS.json), e o hash do PDF vigente do livro mudou.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
   }
 }

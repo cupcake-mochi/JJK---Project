@@ -1140,6 +1140,23 @@
         }
       ],
       "muda_na_mesa": "um feitiço de ataque com Condição, Prende ou Cerca não aplica a peça só por acertar: o alvo acertado faz o TR registrado e só a recebe se falhar. Fichas de TR não mudam."
+    },
+    {
+      "id": "D44",
+      "achados": "nenhum (decisão do autor depois da medida do passo 4)",
+      "decisao": "Mizuki, 06/10/2026: \"Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema\". A Execução Preparada impõe −2, e a diferença do degrau do nível 7 fica declarada na peça 06.",
+      "arquivos": [
+        {
+          "arquivo": "caminhos/vanguarda/lote-01/VANGUARDA.md",
+          "trocas": [
+            {
+              "antes": "imponha **−1 a um TR adicional da Conclusão**.",
+              "depois": "imponha **−2 a um TR adicional da Conclusão**."
+            }
+          ]
+        }
+      ],
+      "muda_na_mesa": "A Conclusão qualificada fica 10 pontos percentuais mais difícil de resistir, e não 5. Registro na unidade: VG-REV-05."
     }
   ]
 }

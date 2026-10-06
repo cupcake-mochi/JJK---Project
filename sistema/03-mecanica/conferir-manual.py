@@ -1462,12 +1462,21 @@ else:
         erro(f'6: a peca declara a diferenca em -{_db:.2f} e -{_dv:.2f}, e os totais '
              f'dao -{_grande-_tot["Bastião"]:.2f} e -{_grande-_tot["Vanguarda"]:.2f} '
              f'— a tabela e a frase divergiram')
-    elif max(_db, _dv) > 0.50:
-        erro(f'6: a diferenca declarada chegou a {max(_db,_dv):.2f} fatia, e o degrau '
-             f'do nivel 7 existe para os cinco receberem a mesma coisa — acima de '
-             f'0,50 ela deixa de ser residuo e vira degrau desigual')
     else:
-        print('     [x] os totais batem com a diferenca declarada, e ela cabe no teto.')
+        # v0.336 (D44): o Mizuki aceitou a Vanguarda abaixo do teto com a Execucao
+        # Preparada ("vale pouco mesmo, n tem problema"). A excecao so vale com a
+        # decisao ESCRITA na peca, e so para a Vanguarda; o Bastiao segue no teto.
+        _dec_v = re.search(r'Decisão do Mizuki na v0\.336 \(D44\)', _t6) and \
+                 re.search(r'`−' + f'{_dv:.2f}'.replace('.', ',') + r'` contra o degrau grande, por decisão escrita', _t6)
+        _acima = [(n, d) for n, d in (('Bastião', _db), ('Vanguarda', _dv))
+                  if d > 0.50 and not (n == 'Vanguarda' and _dec_v)]
+        if _acima:
+            erro(f'6: a diferenca declarada chegou a {max(d for _, d in _acima):.2f} fatia, e o degrau '
+                 f'do nivel 7 existe para os cinco receberem a mesma coisa — acima de '
+                 f'0,50 ela deixa de ser residuo e vira degrau desigual')
+        else:
+            print('     [x] os totais batem com a diferenca declarada, e ela cabe no teto'
+                  + (' (a Vanguarda passa dele por decisao escrita, D44).' if _dv > 0.50 else '.'))
 
 
 # --------------------------------------------------------------------------

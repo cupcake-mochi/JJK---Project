@@ -1,7 +1,7 @@
 {
   "status": "Candidata editorial revisada em 04/10/2026",
-  "sha256_pdf": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
-  "sha256_manuscrito": "277d31be960e25ea4e9ed89cf997f00d93817e798d0dc31d16a1cc17f20a0b50",
+  "sha256_pdf": "0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30",
+  "sha256_manuscrito": "bbaf760bb0094928b85c1c8d51d309ea88decf1606bfc35ba9690174592a6a9e",
   "arquivos": [
     {
       "arquivo": "DECISOES-DE-MONTAGEM.md",
@@ -10,8 +10,8 @@
     },
     {
       "arquivo": "ESTADO-DA-PROVA.md",
-      "sha256": "c5c1dbbcd47f8d9643029459c2f5a87cf5d46f8b4b116236023d5459350e01c5",
-      "bytes": 1076
+      "sha256": "f410c5a8bae10930f729be0447e6b4fb9177d342cdb9a5b7232255556f30f2cc",
+      "bytes": 1133
     },
     {
       "arquivo": "LEIA-ME.md",
@@ -20,7 +20,7 @@
     },
     {
       "arquivo": "LIVRO-COMPLETO.md",
-      "sha256": "277d31be960e25ea4e9ed89cf997f00d93817e798d0dc31d16a1cc17f20a0b50",
+      "sha256": "bbaf760bb0094928b85c1c8d51d309ea88decf1606bfc35ba9690174592a6a9e",
       "bytes": 1087008
     },
     {
@@ -30,12 +30,12 @@
     },
     {
       "arquivo": "REVISAO-FINAL.md",
-      "sha256": "60e3fbd286690c26a09c3b6c4222f879a3a3dfb84453dad0d76422c503211569",
+      "sha256": "36f21dde3e044d67f5eae2818ab163a384b456255c769656293b5faab6c22d51",
       "bytes": 7984
     },
     {
       "arquivo": "VALIDADORES.json",
-      "sha256": "80e071704018c349c84ddb6d0e37a72f9867f5d7e0ab5ddcc1d422c3926361c4",
+      "sha256": "9930bf5d8329a3ac4c77c859efe4278bd968e412a6f5d2dbe51fc206b0210536",
       "bytes": 12158
     },
     {
@@ -80,7 +80,7 @@
     },
     {
       "arquivo": "evidencias/DETERMINISMO-FINAL.json",
-      "sha256": "35f6571d19f2a136840a7474ea874512cccfda6c8f20a33ee5d4d458029cb34f",
+      "sha256": "e6a1dcd6e6f86f79a80e664ffd0e0f5cb06308a17927d42c78fd6d398b28f934",
       "bytes": 432
     },
     {
@@ -95,7 +95,7 @@
     },
     {
       "arquivo": "evidencias/FECHAMENTO-DOS-DONOS.json",
-      "sha256": "379fa238ad24e60c4db526c772e3c048368a783adc752bcae3ad3bb7f0e2f6b4",
+      "sha256": "9c505094da84827a138e2ddad4b3ed094c47472f4e3c3174df5a5bf25d74b089",
       "bytes": 20749
     },
     {
@@ -125,17 +125,17 @@
     },
     {
       "arquivo": "evidencias/FINAL-V14.json",
-      "sha256": "d567976b558341a24279e316840ba2f7a96ab2f85c25b9f47d7e104f9eee81d6",
-      "bytes": 143178
+      "sha256": "8f64d5758700a1ba3c8a3961dd8866403417121ff716782245cad442d67f5440",
+      "bytes": 143538
     },
     {
       "arquivo": "evidencias/GERACAO.json",
-      "sha256": "13a79101c2622c5112b3fe7285710e7c112ac80a388d7e563d91b88adedcacbc",
+      "sha256": "2631958ff75da51400240a1971d65531c1bdae695154c80b5ea970d7927cccde",
       "bytes": 7658
     },
     {
       "arquivo": "evidencias/MAPA-BLOCOS.json",
-      "sha256": "6d9a5437dfeea575f051fcb94a7582df718a729d59d0db35873355cc309366df",
+      "sha256": "7763635760052a208f7be417f9075a39d444ddef9cacd100166874b1a2368c46",
       "bytes": 236233
     },
     {
@@ -165,7 +165,7 @@
     },
     {
       "arquivo": "evidencias/QA-ESTRUTURAL.json",
-      "sha256": "1bccacc7a3f489f63a7b5f476842040ea9dead001d8d84329b352ca7ace81de8",
+      "sha256": "6fd510b28ee68f9685d08df4fa22a564a7687cb3ebaa497110bc786a79a7583c",
       "bytes": 5854370
     },
     {
@@ -205,12 +205,12 @@
     },
     {
       "arquivo": "evidencias/V15-GLOBAL-LEVE.json",
-      "sha256": "fdc2301c092d3162048c967bc888c5f4304634a6b74abba50e39222e10512014",
-      "bytes": 140738
+      "sha256": "bcbe142c9821cb9733e9eaed832d392ab4134b21f9ecbdc5139564ce49d2cc25",
+      "bytes": 140974
     },
     {
       "arquivo": "evidencias/V15-GLOBAL-LEVE.md",
-      "sha256": "bfb12bfdd81cb96222f12ea944494533fceb434906229dc2bbaec6ef5ec4e9c1",
+      "sha256": "3dfa0edad359b3d539ff7605d7dcc6792ab5590d25113cfcbf267b11d9bf2818",
       "bytes": 2270
     },
     {
@@ -240,18 +240,18 @@
     },
     {
       "arquivo": "output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
-      "sha256": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
+      "sha256": "0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30",
       "bytes": 1313919
     },
     {
       "arquivo": "evidencias/PACOTE-REPRODUCAO.json",
-      "sha256": "cb1ed256bdde23d53e5a2603e552db0b18013736569f90086f39f0b2332f925e",
-      "bytes": 1018
+      "sha256": "c1910c1383b1141feb707b346d175850fe9ae8c8365b425389147b99d7043a95",
+      "bytes": 1021
     },
     {
       "arquivo": "evidencias/CADEIA-VISUAL-2026-10-04.json",
-      "sha256": "6fa2f18cdee2a35ac4aa73f2b6dd0d05be010d15259438419357cd386bbd4ade",
-      "bytes": 66607
+      "sha256": "70c3e0d7c82586db152039cfcd0d30b0f5feb98ef0fa970445b153a850d41cad",
+      "bytes": 66913
     },
     {
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-04-decisoes.json",
@@ -292,6 +292,11 @@
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
       "sha256": "0e89607ce0fbd1bafba223cc96fcec23279d396c0afdddd693e291ee2e9c9809",
       "bytes": 28265
+    },
+    {
+      "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-06-d44.json",
+      "sha256": "af60f87161bb3d900659b34a62547ab4cb9228f76f21a486547225dacdfd1b4d",
+      "bytes": 27454
     }
   ],
   "atualizacao_2026_10_04": {
@@ -477,5 +482,29 @@
     ],
     "motivo": "Oitava passada (v0.334): livro regerado com o nome Ciclo Maldito, cadeia visual estendida e fechamento renovado.",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_d44": {
+    "arquivos_com_hash_novo": [
+      "ESTADO-DA-PROVA.md",
+      "LIVRO-COMPLETO.md",
+      "REVISAO-FINAL.md",
+      "VALIDADORES.json",
+      "evidencias/CADEIA-VISUAL-2026-10-04.json",
+      "evidencias/DETERMINISMO-FINAL.json",
+      "evidencias/FECHAMENTO-DOS-DONOS.json",
+      "evidencias/FINAL-V14.json",
+      "evidencias/GERACAO.json",
+      "evidencias/MAPA-BLOCOS.json",
+      "evidencias/PACOTE-REPRODUCAO.json",
+      "evidencias/QA-ESTRUTURAL.json",
+      "evidencias/V15-GLOBAL-LEVE.json",
+      "evidencias/V15-GLOBAL-LEVE.md",
+      "output/pdf/Projeto-M-Livro-Completo-Candidata.pdf"
+    ],
+    "arquivos_acrescentados": [
+      "evidencias/COMPARACAO-VISUAL-2026-10-06-d44.json"
+    ],
+    "motivo": "Nona passada (D44, v0.336): livro regerado com a Execução Preparada em −2; só a página 90 mudou, e a cadeia visual foi estendida.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
   }
 }

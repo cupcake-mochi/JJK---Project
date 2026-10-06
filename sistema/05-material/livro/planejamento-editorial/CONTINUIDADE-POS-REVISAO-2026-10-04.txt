@@ -1,5 +1,10 @@
 Continuidade pós-revisão — conferência de 04/10/2026
 
+ATUALIZAÇÃO DE 06/10/2026: NONA PASSADA — A EXECUÇÃO PREPARADA COM −2 (D44)
+A migração mediu a Execução Preparada (D42) pela régua do degrau do nível 7 da peça 06: valia até 0,12 fatia, contra 1,18 da Não Pega. O Mizuki decidiu: "Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema". Mudou um número no capítulo da Vanguarda (VG-REV-05). Registro em revisao-interfaces/CORRECOES-APLICADAS.md.
+PDF vigente: 382 páginas, SHA-256 0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30; corpo mudado só na página 90, aberta; cadeia visual sem lacuna.
+Branch desta passada: claude/upbeat-darwin-i4b311.
+
 ATUALIZAÇÃO DE 05/10/2026: OITAVA PASSADA — O NOME CICLO MALDITO (v0.334)
 O Mizuki mandou o livro final, Ciclo Maldito R28a (498 páginas), e decidiu que o nome vale no repositório inteiro. O R28a é a candidata de antes da D43 com outro nome e outra diagramação, sem regra diferente. A candidata passou a se chamar Ciclo Maldito no texto (dez capítulos), no cabeçalho e na capa; os nomes de arquivo ficam. Registro em revisao-interfaces/CORRECOES-APLICADAS.md.
 PDF vigente: 382 páginas, SHA-256 25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f; cabeçalho novo em todas as páginas e corpo mudado em 21, todas abertas; cadeia visual sem lacuna.

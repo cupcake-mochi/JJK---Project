@@ -8,6 +8,22 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.336] — 06/10/2026
+
+**A `Execução Preparada` da Vanguarda passou a impor `−2`.** *A v0.335 mediu que ela valia até `0,12` fatia, contra `1,18` da `Não Pega` que substituiu.* **Decisão do Mizuki (D44):** *"Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema".*
+
+**Alterado, na candidata:** *um número no capítulo da Vanguarda (`VG-REV-05`), com a revisão editorial por delta, o PDF do capítulo refeito e a página 6 aberta.* **O livro reunido mudou só na página 90**, *que foi aberta; a cadeia visual, o V14, o V15 (865 registros), os manifestos e o ZIP foram refeitos, e o ZIP reproduziu o PDF numa pasta isolada.* *A Consulta guarda o capítulo da Vanguarda como dono conferido e ganhou o cotejo.*
+
+**Alterado, no repositório:** *a peça 06 publica a `Execução Preparada` no degrau do nível 7, com `0,23` fatia (o teto da medida com `−2`), e a Vanguarda fica em `1,15`: `−1,21` contra o degrau grande, por decisão escrita.* **O `conferir-manual` (checagem 6) continua conferindo a conta da tabela contra a diferença declarada;** *o teto de `0,50` vale para o Bastião e para qualquer degrau novo, e a Vanguarda só passa dele com a D44 escrita na peça.* *O script da medida lê o redutor da candidata, então refaz a conta sozinho se ele mudar de novo.*
+
+**Validação:** bateria de 30 de 30, com o pulo de sempre (a 7, da entrega). **Teste negativo numa cópia isolada:** *tirar a decisão escrita da peça, pôr o Bastião acima do teto ou desencontrar a tabela da frase acende a checagem 6.* **As 23 unidades da candidata passam, e o `conferir_livro` faz 3.505 verificações sem falha.** *O Bastião guarda este CHANGELOG por hash e ganhou o cotejo antes da montagem do ZIP.*
+
+**Pendente:** *o R28a, que é o livro do Mizuki, precisa receber a D43 e agora a D44 pelo gerador dele, que não está neste repositório.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: o passo 5.
+
+---
+
 ## [0.335] — 06/10/2026
 
 **O passo 4 da migração: equipamento, Invocações e Caminhos.** *O inventário de registros não cobria tudo o que a candidata mudou em equipamento — várias regras entraram nas rodadas anteriores do capítulo (`equipamento/lote-02-r2` a `lote-08` e as duas revisões de carga), aprovadas junto com a candidata e sem registro no lote final.* **Por isso o capítulo inteiro foi comparado com as peças 14, 16 e 21, e não só os 20 registros.**

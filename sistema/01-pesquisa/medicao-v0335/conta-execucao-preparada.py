@@ -39,15 +39,18 @@ m = pega(p06, r'`(\d+)` lutas × `(\d+,\d+)` rodadas = `(\d+,\d+)` rodadas de lu
 RODADAS_LUTA = n(m.group(2))
 m = pega(p06, r'Bastião conjura `(\d+)%` das rodadas no nível 30, Vanguarda `(\d+)%`', 'a taxa de conjuracao, peca 06')
 VANG_CONJURA = int(m.group(2)) / 100
-m = pega(p06, r'\| \*\*Vanguarda\*\* \| ataque extra \+ `Não Pega` \| `(\d+,\d+)` \| `(\d+,\d+)` \| \*\*`(\d+,\d+)`\*\* \|', 'a linha da Vanguarda, peca 06')
-EXTRA, NAO_PEGA, TOTAL_VELHO = n(m.group(1)), n(m.group(2)), n(m.group(3))
+# v0.336: a linha da tabela passou a ser a da Execucao Preparada; a Nao Pega mora no historico da peca.
+m = pega(p06, r'\| \*\*Vanguarda\*\* \| ataque extra \+ `Execução Preparada` \| `(\d+,\d+)` \| `(\d+,\d+)` \| \*\*`(\d+,\d+)`\*\* \|', 'a linha da Vanguarda, peca 06')
+EXTRA, EP_PUBLICADA, TOTAL_PUBLICADO = n(m.group(1)), n(m.group(2)), n(m.group(3))
+NAO_PEGA = n(pega(p06, r'com a `Não Pega` \(`(\d+,\d+)`\)', 'a Nao Pega no historico da peca 06').group(1))
+TOTAL_VELHO = round(EXTRA + NAO_PEGA, 2)
 GRANDE = n(pega(p06, r'\| Guia · Emanador · Evocador \| o degrau grande \| — \| — \| `(\d+,\d+)` \|', 'o degrau grande').group(1))
 m = pega(p06, r'Um efeito de TR-para-metade custa `(\d+,\d+)` esperados; ela derruba para `(\d+,\d+)`, evitando `(\d+,\d+)`', 'a Nao Pega')
 EVITA = n(m.group(3))
 TAXA_NP = int(pega(p06, r'Taxa declarada: `(\d+)%`', 'a taxa da Nao Pega').group(1)) / 100
 COND = {c: n(v) for c, v in re.findall(r'^\| \*\*`([^`]+)`\*\* \| `(\d+,\d+)` \|', p19, re.M)}
 # o que a candidata diz da entrega e das Conclusoes com TR
-pega(cand, r'Uma vez por Sequência, ao Concluir depois de \*\*duas ou mais Conduções acertadas\*\*, imponha \*\*−1 a um TR adicional', 'a Execucao Preparada na candidata')
+REDUTOR = int(pega(cand, r'Uma vez por Sequência, ao Concluir depois de \*\*duas ou mais Conduções acertadas\*\*, imponha \*\*−(\d) a um TR adicional', 'a Execucao Preparada na candidata').group(1))
 CONCL = {  # Conclusao -> condicao aplicada na falha, lidas do texto da candidata
     'Rasteira': ('Derrubado', r'\*\*Rasteira\.\*\*[^\n]*\*\*Derrubado\*\*'),
     'Desarme': ('Desarmado', r'\*\*Desarme\.\*\*[^\n]*sai da empunhadura'),
@@ -66,13 +69,14 @@ print('REGRESSAO — o que ja esta publicado')
 confere('a fatia', FATIA, 5.08)
 confere('acerto e falha de TR', (ACERTO, FALHA_TR), (0.55, 0.35))
 confere('a Nao Pega: 12,00 evitados x 50% / 5,08', round(EVITA * TAXA_NP / FATIA, 2), NAO_PEGA)
-confere('a linha da Vanguarda fecha', round(EXTRA + NAO_PEGA, 2), TOTAL_VELHO)
+confere('a linha da Vanguarda publicada fecha', round(EXTRA + EP_PUBLICADA, 2), TOTAL_PUBLICADO)
 confere('as quatro condicoes, peca 19', tuple(COND[c] for c in ('Derrubado', 'Desarmado', 'Lento', 'Impedido')), (8.45, 3.45, 40.37, 135.65))
 if falhas: print('\n>>> A REGRESSAO FALHOU — nada abaixo vale.'); sys.exit(1)
 print('>>> TUDO OK.\n')
 
 # --- a entrega ------------------------------------------------------------------------------------
-DELTA = 0.05                       # -1 num d20: um ponto de falha a mais, sem bater no 1 ou no 20 (falha 35%)
+DELTA = 0.05 * REDUTOR             # cada ponto de -N num d20 e um ponto de falha a mais (falha 35%, longe do 1 e do 20)
+# v0.336: a D44 levou o redutor de -1 para -2; o script le o numero da candidata.
 assert 0.05 < FALHA_TR + DELTA < 0.95
 # Uma Sequencia que chega a Conclusao qualificada: Golpe Inicial e Conducao no 1o turno (ataque extra),
 # a 2a Conducao no 2o, a Conclusao no 3o. Uma por luta, no maximo: tres turnos de uma luta de 3,5.
@@ -85,7 +89,7 @@ CONV = {
     'baixo': ACERTO ** 3 * (1 - VANG_CONJURA),
     'alto':  ACERTO * 1.0 * 1.0,
 }
-print('A EXECUCAO PREPARADA, em fatias (BAIXO a ALTO de frequencia), por Conclusao:')
+print(f'A EXECUCAO PREPARADA com -{REDUTOR}, em fatias (BAIXO a ALTO de frequencia), por Conclusao:')
 res = {}
 for k, (c, _) in CONCL.items():
     lo = por_rodada(CONV['baixo'], c) / FATIA
@@ -98,3 +102,6 @@ print(f'A linha da Vanguarda: ataque extra {EXTRA:.2f} + Execucao Preparada ate 
       f' contra {TOTAL_VELHO:.2f} com a Nao Pega e {GRANDE:.2f} do degrau grande.')
 print(f'A diferenca contra o degrau grande fica entre {EXTRA + teto - GRANDE:+.2f} e {EXTRA - GRANDE:+.2f}'
       f' (era {TOTAL_VELHO - GRANDE:+.2f}).')
+confere_final = round(teto, 2) == EP_PUBLICADA
+print(f'A peca 06 publica {EP_PUBLICADA:.2f} para a Execucao Preparada (o teto):', 'bate' if confere_final else 'NAO BATE')
+if not confere_final: sys.exit(1)

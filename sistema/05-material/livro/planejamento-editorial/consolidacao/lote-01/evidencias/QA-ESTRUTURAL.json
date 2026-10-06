@@ -1,6 +1,6 @@
 {
-  "sha256_pdf": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
-  "sha256_manuscrito": "277d31be960e25ea4e9ed89cf997f00d93817e798d0dc31d16a1cc17f20a0b50",
+  "sha256_pdf": "0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30",
+  "sha256_manuscrito": "bbaf760bb0094928b85c1c8d51d309ea88decf1606bfc35ba9690174592a6a9e",
   "ok": true,
   "verificacoes": 3505,
   "paginas": 382,
@@ -10,14 +10,14 @@
   "checks": [
     {
       "teste": "PDF atual",
-      "obtido": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
-      "esperado": "25557bb0f2ce23e20989148b861d22a7074a2701d7c1f982462b05544e2cb99f",
+      "obtido": "0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30",
+      "esperado": "0a3be89a789bde2fc101df63924546f34bc120df07b552f19c343afc13495c30",
       "ok": true
     },
     {
       "teste": "Markdown atual",
-      "obtido": "277d31be960e25ea4e9ed89cf997f00d93817e798d0dc31d16a1cc17f20a0b50",
-      "esperado": "277d31be960e25ea4e9ed89cf997f00d93817e798d0dc31d16a1cc17f20a0b50",
+      "obtido": "bbaf760bb0094928b85c1c8d51d309ea88decf1606bfc35ba9690174592a6a9e",
+      "esperado": "bbaf760bb0094928b85c1c8d51d309ea88decf1606bfc35ba9690174592a6a9e",
       "ok": true
     },
     {
@@ -14878,8 +14878,8 @@
     },
     {
       "teste": "Captura confere vanguarda",
-      "obtido": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
-      "esperado": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+      "obtido": "db92559872c049cff3cb18cb6964f71a9a17aeb80527bfc5d49079133b52f8db",
+      "esperado": "db92559872c049cff3cb18cb6964f71a9a17aeb80527bfc5d49079133b52f8db",
       "ok": true
     },
     {
@@ -92251,7 +92251,7 @@
         "conduções",
         "acertadas",
         "imponha",
-        "1",
+        "2",
         "a",
         "um",
         "tr",
@@ -92521,7 +92521,7 @@
         "conduções",
         "acertadas",
         "imponha",
-        "1",
+        "2",
         "a",
         "um",
         "tr",

@@ -1,4 +1,4 @@
-# Migração da candidata para as peças — v0.335, 06/10/2026
+# Migração da candidata para as peças — v0.336, 06/10/2026
 
 **Onde estamos:** o Mizuki autorizou migrar o livro reconstruído para as peças, os validadores, os geradores e as fichas. O plano e o estado de cada passo moram em `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`.
 
@@ -8,9 +8,9 @@
 
 **Fontes congeladas:** o livro v0.331 (`05-material/livro/manual`), as cópias da edição integrada e o manual do Fundamento em `.docx` continuam com os nomes antigos até o passo 5. Quem compara uma peça com elas traduz o nome pelo `03-mecanica/renomes.py`, que é o dono da tabela.
 
-**Passo 4, na v0.335:** *equipamento migrado nas peças 14, 16, 19, 20 e 21; Invocações e Caminhos apontam o livro reconstruído como dono, com as contradições listadas no `PLANO.md`.* **A `Execução Preparada` da Vanguarda vale até `0,12` fatia contra os `1,18` da `Não Pega`, e o degrau do nível 7 cai para no máximo `1,04` contra `2,36`: decisão do Mizuki pendente.**
+**Passo 4, na v0.335:** *equipamento migrado nas peças 14, 16, 19, 20 e 21; Invocações e Caminhos apontam o livro reconstruído como dono, com as contradições listadas no `PLANO.md`.* **A `Execução Preparada` da Vanguarda valia até `0,12` fatia contra os `1,18` da `Não Pega`;** *na v0.336 o Mizuki a pôs em `−2` (D44) e aceitou o degrau mais baixo: `1,15` contra `2,36`, por decisão escrita.*
 
-**Próximo:** a decisão da `Execução Preparada`, e o passo 5 (Criação, Fundamento e Catálogo). O passo 3 (vida a zero) espera a revisão do Morrendo, que o Mizuki adiou.
+**Próximo:** o passo 5 (Criação, Fundamento e Catálogo). *O R28a precisa receber a D43 e a D44 pelo gerador dele.* O passo 3 (vida a zero) espera a revisão do Morrendo, que o Mizuki adiou.
 
 **Nesta seção, os nomes novos valem. Daqui para baixo, o histórico conserva os nomes da época.**
 
@@ -236,7 +236,7 @@
 
 Atualizado em 30/09/2026, na v0.330 (última peça fechada: **Ritual**, a peça 27, na v0.262, com o `conferir-ritual.py` e sete checagens; antes dela, o **Bestiário**, a peça 26, na v0.198; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.335.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
+**Versão v0.336.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
 
 **Continuidade atual:** resistência pontual aprovada e integrada em Claude 2; o próximo ensaio está em `bestiario/05-sukuna/ENSAIO-integracao-grade-v286.md`. PV-base aprovado como referência da cura e das partes destrutíveis; no nível 30, cura de ação 78 e partes de 157 PV. Sukuna concluído na v0.287, com a política de débito corrente aprovada. O planejamento das Invocações virou o primeiro lote de desenvolvimento, no HD, e deu os §§47 a 109 da v0.288 à v0.325; a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas (o que sobe a básica, abre Famílias e dá Livres) e a volta do capítulo ao livro, que é decisão dele; o traje, o talismã em campo e o que a entidade carrega fecharam na v0.328 (§§111 a 113), e o que ela leva quando sai de campo na v0.330 (§114); a fila do sistema fechou a cura da Origem `Corpo Amaldiçoado` na v0.326 (o mesmo reparo das invocações, no descanso curto) o peso na v0.327 (o talismã pesa `0,5` de `Volume`, e cada leve vale `0,1`, sem arredondar) e a imunidade dela a `Envenenado` na v0.329, sem medição; o que sobra na fila é o que já estava aberto antes. O histórico abaixo permanece para consulta.
 

@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "sha256_texto": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90",
+  "sha256_texto": "db92559872c049cff3cb18cb6964f71a9a17aeb80527bfc5d49079133b52f8db",
   "manuscritos_auditados": {
-    "sistema/05-material/livro/planejamento-editorial/caminhos/vanguarda/lote-01/VANGUARDA.md": "a3af0b4e4f98abcc6aefbb61fecdc3fa1d668bd8badceb7056fbc0c9602a7f90"
+    "sistema/05-material/livro/planejamento-editorial/caminhos/vanguarda/lote-01/VANGUARDA.md": "db92559872c049cff3cb18cb6964f71a9a17aeb80527bfc5d49079133b52f8db"
   },
   "verificacoes": 71,
   "casos_funcionais": 34,
