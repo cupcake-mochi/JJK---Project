@@ -402,12 +402,12 @@ Sem atributo e sem valor inicial. A parte do atributo é a decisão da seção 9
 
 | nível | 1 | 5 | 9 | 13 | 17 | 20 |
 |---|---|---|---|---|---|---|
-| PE total, no manual | 6 | 30 | 54 | 78 | 102 | 120 |
+| PE total, na tabela do manual v7 | 6 | 30 | 54 | 78 | 102 | 120 |
 | `6 × nível` | 6 | 30 | 54 | 78 | 102 | 120 |
 
 Uma primeira redação desta seção dizia que *"a fórmula já estava no manual"* e que ela *"não é escolha nossa"*. **Isso dá ao manual uma autoridade que ele não tem.** Os limitadores e exemplos dele foram calibrados quando o sistema em volta era outro, e o Mizuki é explícito sobre isso: servem de base para continuidade, não de verdade. A escolha é nossa; o valor do manual é que ele **não contradiz**, o que significa que a coluna de "quantas vezes você lança" continua dizendo a verdade sobre a ficha sem precisar ser refeita.
 
-**Se um dia o PE por nível de um Caminho mudar, a coluna do manual muda junto** — e é isso, e não uma tabela vencendo a outra, que o `conferir-manual.py` está lá para não deixar passar em silêncio.
+*Desde a v0.338 a tabela do manual mora aqui:* **o manual do Fundamento v7 saiu de fonte no passo 5 da migração, e o livro reconstruído escreve só a fórmula** *(`PE máximo = PE por nível do Caminho × nível`).* **Se um dia o PE por nível de um Caminho mudar, a coluna do manual muda junto** — e é isso, e não uma tabela vencendo a outra, que o `conferir-manual.py` está lá para não deixar passar em silêncio.
 
 **É a única reserva do sistema que é uma linha reta.** A vida tem um valor inicial e soma atributo; a Integridade tem um valor inicial e — **desde a v0.145** — soma atributo também. O PE não tem nem um nem outro: ele é a taxa vezes o nível, e passa pela origem.
 

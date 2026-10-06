@@ -148,12 +148,14 @@ CAMINHO = {_cal_nome(n): tuple(map(int, (d, ini, ganho, pe))) for n, d, ini, gan
 if not CAMINHO:
     raise ValueError('7.1: nao encontrei Caminhos de referencia na peca 6 e PV na peca 1')
 CON_TIPICA = int(_re_cal.search(r'Constituição típica: (\d+)', _cal_p1)[1])
-_cal_pf = _cal_ler('../../manual/gerador/partF.js')
-_cal_inim = _cal_pf.split("H2('Inimigos')")[1].split('GAP(')[0]
-CHEFE = {int(n): int(d) for n, d in _re_cal.findall(r"\['(\d+)', '~\d+', '[\d a]+', '(\d+)', '\d+', '\d+'\]", _cal_inim)}
+# v0.338: a tabela `Inimigos` e a prosa dela sairam do manual do Fundamento v7 (partF.js)
+# para a peca 26 §3.0, sem mudar numero
+_cal_p26 = _cal_ler('26-bestiario.md')
+_cal_pf = _cal_p26[_cal_p26.find('### 3.0 A tabela `Inimigos`'):_cal_p26.find('### 3.1 ')]
+CHEFE = {int(n): int(d) for n, d in _re_cal.findall(r"^\| (\d+) \| ~\d+ \| [\d a]+ \| (\d+) \| \d+ \| \d+ \|$", _cal_pf, _re_cal.M)}
 _CAL_PCT = int(_re_cal.search(r'O dano dele por rodada é (\d+)%', _cal_pf)[1]) / 100
 if not CHEFE:
-    raise ValueError('7.1: nao encontrei a tabela de inimigos no manual')
+    raise ValueError('7.1: nao encontrei a tabela Inimigos na peca 26 §3.0')
 
 def dano_chefe(nv):
     if nv <= min(CHEFE):
@@ -192,9 +194,10 @@ _m = _le(os.path.join(AQUI, '24-dano-de-alma.md'),
          'a formula da Integridade')
 INTEG_BASE, INTEG_POR_NV = int(_m.group(1)), int(_m.group(2))
 
-_m = _le(os.path.join(AQUI, '..', '..', 'manual', 'gerador', 'partF.js'),
+# v0.338: a curva de calibracao `20 + 8` era a caixa `Vida` do manual v7 e mora na peca 24 §2
+_m = _le(os.path.join(AQUI, '24-dano-de-alma.md'),
          r'Vida de personagem = (\d+) \+ (\d+) × \(nível − 1\)',
-         'a curva original do manual')
+         'a curva de calibracao')
 MAN_BASE, MAN_POR = int(_m.group(1)), int(_m.group(2))
 
 _m = _le(os.path.join(AQUI, '02-economia-de-atributos.md'),
@@ -221,7 +224,13 @@ def pe_maximo(nv, cam):
 # A tabela do manual "quantas vezes voce lanca o seu melhor feitico" e calculada
 # em cima de um conjurador de 6 PE por nivel. Ela E a formula, e e por isso que
 # a formula nao e escolha nossa.
-PE_MANUAL = {1: 6, 5: 30, 9: 54, 13: 78, 17: 102, 20: 120}
+# v0.338: o dicionario que morava aqui era a quinta copia da tabela. Ela mudou do
+# manual v7 (que saiu de fonte) para a peca 1 §5.3, e e' lida de la.
+_mpe = _le(os.path.join(AQUI, '01-atributos-acerto-defesa.md'),
+           r'(?m)^\| nível \| ([\d |]+)\|\n\|[-| ]+\|\n\| PE total, na tabela do manual v7 \| ([\d |]+)\|',
+           'a tabela de PE total da peca 1 §5.3')
+PE_MANUAL = dict(zip((int(x) for x in _mpe.group(1).split('|') if x.strip()),
+                     (int(x) for x in _mpe.group(2).split('|') if x.strip())))
 
 
 def pct(alvo): return p_ao_menos(D20, alvo) * 100
@@ -408,7 +417,7 @@ if not _cal_formula or tuple(float(v.replace(',', '.')) for v in _cal_formula.gr
     erro('7.1: a formula publicada da vida media nao sai dos Caminhos de referencia')
 _cal_copia = _re_cal.search(r'A referência é ([\d,]+) \+ ([\d,]+) × \(nível − 1\)', _cal_pf)
 if not _cal_copia or tuple(float(v.replace(',', '.')) for v in _cal_copia.groups()) != (_cal_ini, _cal_ganho):
-    erro('7.1: a formula copiada no manual diverge da media dos Caminhos de referencia')
+    erro('7.1: a formula copiada na peca 26 §3.0 diverge da media dos Caminhos de referencia')
 
 # 7.1: os sete danos publicados precisam reproduzir a media atual, sem constante de dano no teste.
 media_dados = sum(c[2] for c in CAMINHO.values()) / len(CAMINHO)

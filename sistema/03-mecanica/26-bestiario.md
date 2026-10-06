@@ -31,14 +31,14 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | nível | o nível do grupo | o mestre declara antes da mesa |
 | categoria | `Capanga` · `Ameaça` · `Desastre` · `Catástrofe` · `Calamidade` — a dificuldade da luta | o §4 |
 | N | para quantas pessoas do nível a ficha é feita, de `×1` a `×6` | o mestre declara; o §4 |
-| vida | `rodadas × N × a saída de um personagem`; a do `Capanga` é a saída de um personagem, por corpo | manual, a tabela `Inimigos`, e o §4 |
+| vida | `rodadas × N × a saída de um personagem`; a do `Capanga` é a saída de um personagem, por corpo | a tabela `Inimigos` do §3.0, e o §4 |
 | **Integridade** | metade da vida máxima, arredondando para baixo | peça 24 §3.3 |
-| o golpe | `a pressão do degrau × o golpe-base`; o do `Capanga` é metade do golpe-base | manual, a tabela `Inimigos`, e o §4 |
+| o golpe | `a pressão do degrau × o golpe-base`; o do `Capanga` é metade do golpe-base | a tabela `Inimigos` do §3.0, e o §4 |
 | ações por rodada | `N`; no esquadrão do `Capanga`, uma por corpo | o §4.2 |
 | **Defesa** | a da tabela do §3.1, e o desvio pelo §3.2 | o §3.1 |
 | **acerto** | o da tabela do §3.1, e o desvio pelo §3.2 | o §3.1 |
 | **CD** | a da tabela do §3.1, e o desvio pelo §3.2 | o §3.1 |
-| Reação | uma por rodada, volta no começo do turno dele | manual, a seção `Inimigos` |
+| Reação | uma por rodada, volta no começo do turno dele | o §3.0 |
 | refino | a curva do `meio a meio` | peça 11 §3 |
 | Testes de Resistência | dois treinados de quatro | peça 7 §6 |
 | deslocamento | `9 m` | peça 3 §3 |
@@ -50,6 +50,37 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **resistência, vulnerabilidade e imunidade** | cobrança e isenções na vida, pelo §6.3 | peça 19 §4 |
 
 **As três derivadas em negrito — Defesa, acerto e CD — têm a tabela do §3.1 por dona desde a v0.282.** *Até a v0.281 elas saíam das fórmulas da peça 1 aplicadas à ficha de personagem sem o Caminho, e a tabela era o resultado; hoje a tabela é a regra, e as fórmulas são a prova de que ela bate com o outro lado da mesa.*
+
+### 3.0 A tabela `Inimigos` — a âncora da grade
+
+*Até a v0.337 ela morava na seção `Para o mestre` do manual do Fundamento v7, e esta peça a citava como dona da vida e do golpe.* **O livro reconstruído não tem essa seção, e o manual foi aposentado como fonte no passo 5 da migração; a tabela mudou para cá na v0.338, sem mudar número nenhum.** *O texto embaixo dela é o do manual, com a formatação desta pasta.*
+
+| Nível do grupo | Dano do grupo por rodada | Chefe sozinho: vida | Chefe: dano | Capanga: vida | Capanga: dano |
+|---|---|---|---|---|---|
+| 2 | ~38 | 105 a 123 | 18 | 9 | 2 |
+| 5 | ~90 | 250 a 290 | 40 | 22 | 5 |
+| 10 | ~130 | 360 a 420 | 77 | 32 | 10 |
+| 15 | ~180 | 500 a 580 | 114 | 45 | 14 |
+| 20 | ~220 | 600 a 720 | 151 | 55 | 19 |
+| 25 | ~275 | 760 a 890 | 189 | 68 | 24 |
+| 30 | ~315 | 870 a 1020 | 226 | 78 | 28 |
+
+A conta supõe quatro personagens: um focado em bater, dois medianos, um de apoio.
+
+Esta linha é o chefe de dificuldade moderada feito para quatro personagens — o `Desastre ×4` deste Bestiário. As outras dificuldades e os outros tamanhos de grupo, de um a seis personagens, saem dela pelo §4.
+
+O capanga vem em esquadrão, dois corpos por personagem, e é assim que a coluna se lê: cada corpo tem de vida o dano do grupo por rodada dividido por quatro, arredondado para baixo — cai num golpe de um personagem —, e bate metade de um quarto do dano do chefe. O esquadrão vem junto, com a vida num pool só, dura duas rodadas contra qualquer grupo, e no máximo três corpos atacam o mesmo alvo por rodada, do segundo em diante com o golpe pela metade. Um chefe feito para N personagens vale 3N capangas.
+
+Cada linha vale para a faixa de Classe dela, e não só para aquele nível: a do 2 cobre o nível 2 ao 4, a do 5 cobre até o 8, a do 10 até o 12, e assim por diante. Dentro da faixa o grupo ganha vida e o inimigo não, então o encontro afrouxa — se quiser manter o aperto no fim da faixa, acrescente capangas.
+
+Chefe sozinho precisa de cerca de três vezes o dano de rodada do grupo em vida, e é isso que faz a luta contra ele durar três rodadas. Se não quiser inflar o número, use capangas ou uma barreira que absorva antes da vida.
+
+O dano dele por rodada é 90% da vida de um personagem médio dos quatro Caminhos jogáveis, com Constituição 3. A referência é 11,5 + 8,25 × (nível − 1) pontos de vida, incluindo Constituição. Arredonde o dano ao inteiro mais próximo, com empate para baixo. O Evocador fica fora desta média enquanto estiver suspenso. O chefe age quatro vezes por rodada: o golpe é um quarto da linha.
+
+E a ficha dele carrega mais duas coisas, que são de marcar e não de calcular:
+
+- **Integridade.** A do inimigo é a que a peça 24 §3.3 escreve: metade da vida máxima dele, tirada da coluna de vida. Anote as duas: dano na alma desconta das duas no mesmo tanto, e o sistema em volta tem efeito que tira alma sem tirar vida.
+- **Reação.** Uma por rodada, como qualquer personagem, e ela volta no começo do turno dele. Ela paga o ataque de oportunidade, e o sistema em volta pendura outras coisas nela. Marque quando for gasta: guardar ou não é decisão do inimigo do mesmo jeito que é da mesa.
 
 ### 3.1 A tabela por nível — Defesa, acerto e CD
 
@@ -190,13 +221,13 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | **`Catástrofe`** | `4` | `1,50` | `1,125` | `25,3%` | `×3` |
 | **`Calamidade`** | `5` | `2,00` | `1,200` | `27,0%` | `×2` |
 
-> **A vida é `rodadas × N × a saída de um personagem`**, meio para baixo. *A saída de um personagem é o dano do grupo por rodada da tabela `Inimigos` do manual dividido por quatro, porque a tabela é calibrada para quatro.*
+> **A vida é `rodadas × N × a saída de um personagem`**, meio para baixo. *A saída de um personagem é o dano do grupo por rodada da tabela `Inimigos` (§3.0) dividido por quatro, porque a tabela é calibrada para quatro.*
 >
 > **O golpe é `a pressão × o golpe-base`**, meio para baixo, **e o golpe-base é o dano do chefe da tabela dividido por quatro.** *O orçamento de cada degrau é o do Pathfinder 2e — trivial `40`, baixa `60`, moderada `80`, severa `120`, extrema `160` —, e a pressão é o que a duração não leva dele: `orçamento × 3 ÷ rodadas`, contra o `Desastre`.*
 >
 > **Ele age `N` vezes por rodada**, e cada golpe é a pressão de uma pessoa. *O `Capanga` é outra forma, e o §5 é dele.*
 
-**O `Desastre ×4` é o chefe da tabela do manual:** *`945` de vida no nível 30, e os `226` por rodada em quatro golpes de `56`, com o arredondamento no golpe.* **E o `Desastre ×1` tem a vida e o golpe da `Ameaça` da escada de antes**, `236` e `56` (a vida antiga foi preservada; o golpe foi recalibrado nesta edição).
+**O `Desastre ×4` é o chefe da tabela `Inimigos`:** *`945` de vida no nível 30, e os `226` por rodada em quatro golpes de `56`, com o arredondamento no golpe.* **E o `Desastre ×1` tem a vida e o golpe da `Ameaça` da escada de antes**, `236` e `56` (a vida antiga foi preservada; o golpe foi recalibrado nesta edição).
 
 **A duração não depende do N.** *A vida e as ações crescem juntas com o N, então o `×1` e o `×6` do mesmo degrau duram o mesmo.* **É o que o 13th Age faz com o monstro grande e o enorme, e o que o Fabula Ultima faz com o Campeão (1) a (6):** *o N multiplica a vida e os turnos, e não o tamanho de cada golpe.*
 
@@ -347,7 +378,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 > **Registro histórico da medição de cura da v0.203.** A composição com Energia Reversa curando outra pessoa não é permitida na edição jogável atual. Os números abaixo ficam como registro daquela análise e não foram recalibrados como encontros da edição atual.
 
-**A linha do manual foi calibrada contra um grupo que não cura.** *Medindo contra os que curam, o resultado sai ao contrário do esperado. A tabela é a do `Desastre ×4`, que é a linha do manual.*
+**A linha da tabela `Inimigos` foi calibrada contra um grupo que não cura.** *Medindo contra os que curam, o resultado sai ao contrário do esperado. A tabela é a do `Desastre ×4`, que é a linha da tabela `Inimigos`.*
 
 | composição, no nível 30 | luta | o chefe entrega | a cura repõe | líquido | do grupo |
 |---|---|---|---|---|---|
@@ -360,7 +391,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 > **A única que ganha a troca é a cura em ÁREA**, porque ela multiplica por alvo: quatro alvos vezes `45` da `Onda` de Classe 7 passam dos `78,75`.
 >
-> **⚠ E é por isso que a linha do manual NÃO desconta cura.** *Descontar deixaria o chefe mais fraco justamente contra os grupos que já sofrem mais.*
+> **⚠ E é por isso que a linha da tabela `Inimigos` NÃO desconta cura.** *Descontar deixaria o chefe mais fraco justamente contra os grupos que já sofrem mais.*
 
 > ***Decisão do Mizuki:*** *"cura deve ser feita para segurar um pouco de dano, tirar o cara de morrer no próximo tapa — semelhante ao d20, onde cura não é feita pra deixar uma pessoa full."* **Levantar alguém de `0` gastando a Ação Padrão é empate exato; na Ação Bônus o saldo vira `+51,8`**, e é essa a metade que a aptidão `Circulação` da peça 11 §6 existe para dar.
 
@@ -384,7 +415,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 | `Catástrofe` | `4` | `7–8` | `11–12` | `15–16` | `18–20` | `22–24` |
 | `Calamidade` | `4–5` | `9` | `13` | `17–18` | `21–25` | `26–27` |
 
-*Nas sete faixas da tabela do manual; onde a faixa muda o número, a célula traz os dois.* **A simulação roda no validador, e é ela que prova a igualdade.**
+*Nas sete faixas da tabela `Inimigos`; onde a faixa muda o número, a célula traz os dois.* **A simulação roda no validador, e é ela que prova a igualdade.**
 
 > **E ele precisa de uma trava para não concentrar:** *no máximo `3` corpos do mesmo esquadrão atacam o mesmo alvo por rodada, e do segundo em diante o golpe sai pela metade.* **A trava não encolhe o esquadrão** — *os corpos continuam entregando tudo, só não no mesmo alvo.*
 
@@ -392,7 +423,7 @@ O motivo é a peça 12 §2: *"Grau é reconhecimento; nível é poder"*. Se o gr
 
 ### 5.1 A linha do nível 2 estava um ponto fora, e um ponto era uma rodada
 
-**A seção `Inimigos` do manual escreve a própria regra:** *o chefe sozinho tem cerca de **três vezes** o dano de rodada do grupo em vida, "e é isso que faz a luta contra ele durar três rodadas".* **Seis das sete linhas cumpriam isso exato; a do nível 2 publicava `115` contra os `114` que a regra pede.**
+**O §3.0 escreve a própria regra:** *o chefe sozinho tem cerca de **três vezes** o dano de rodada do grupo em vida, "e é isso que faz a luta contra ele durar três rodadas".* **Seis das sete linhas cumpriam isso exato; a do nível 2 publicava `115` contra os `114` que a regra pede.**
 
 > **⚠⚠ E um ponto de vida custava uma rodada inteira do chefe.** *Com `115` a luta dura `3,03` rodadas, e rodada é inteira na mesa: o chefe age quatro vezes e o encontro cobra `89%` da vida do grupo, contra os `68%` que as outras seis cobram.* **A faixa virou `105 a 123`, com o meio em `114`.** *Manual na `v7.25`; a checagem `5.2` do validador guarda isso.*
 

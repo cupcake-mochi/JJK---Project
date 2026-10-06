@@ -53,6 +53,8 @@
 | **Essência 3** *(= hoje)* | **28** | **92** | **172** | **252** |
 | Essência 6 | 31 | 119 | 229 | **339** |
 
+> **A curva em que os estágios foram calibrados, guardada aqui desde a v0.338.** *Ela era a caixa `Vida` da seção `Para o mestre` do manual do Fundamento v7, que saiu de fonte no passo 5 da migração:* **Vida de personagem = 20 + 8 × (nível − 1).** *Não é a vida de ninguém hoje (a peça 1 §5.1 é a dona da vida); é a âncora da fórmula acima, e o `conferir-alma.py` (checagem 1) exige que a fórmula com Essência 3 a reproduza nos 30 níveis.*
+
 ### 2.1 As outras três formas foram medidas e reprovaram
 
 | forma | nv30, Ess `0 · 3 · 6` | estágio 4 dispara | veredito |

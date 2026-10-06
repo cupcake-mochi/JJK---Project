@@ -21,7 +21,7 @@ NENHUM VALOR FICA ESCRITO AQUI DENTRO:
   as treze condicoes ........... peca 19, a secao 3
   a propriedade `Talha` ........ peca 14, a secao 5.2
   a quantidade de Reacao ....... peca 3, a secao 3
-  a ficha de inimigo ........... manual/gerador/partF.js
+  a ficha de inimigo ........... peca 26, a secao 3.0 (era o manual v7, partF.js, ate a v0.337)
 
 A CHECAGEM 1 E' A UNICA DESTE PROJETO QUE EXISTE PARA SUSTENTAR UM NUMERO DE
 OUTRA PECA. A peca 19 publica a `Guarda Aberta` em 11,00 porque a metade
@@ -47,7 +47,6 @@ P19 = '19-dano-e-condicoes.md'
 P23 = '23-bloquear.md'
 P03 = '03-economia-de-acao-e-iniciativa.md'
 RAIZ = os.path.dirname(os.path.dirname(MEC))
-PARTF = os.path.join(RAIZ, 'manual', 'gerador', 'partF.js')
 
 
 def erro(n, msg):
@@ -82,8 +81,8 @@ T19 = ler(P19)
 T14 = ler(P14)
 T01 = ler(P01)
 T03 = ler(P03)
-with open(PARTF, encoding='utf-8') as _fh:
-    MANUAL = _fh.read()
+# v0.338: a secao `Inimigos` saiu do manual do Fundamento v7 (partF.js) para a peca 26 §3.0
+T26 = ler('26-bestiario.md')
 
 
 # ==========================================================================
@@ -585,7 +584,7 @@ bloco('8. A REACAO DO INIMIGO — a mesma que a peca 3 da a todo mundo')
 # entao trocar os dois de forma coerente sai VERDE de proposito — e e isso que
 # prova que ela mede a RELACAO e nao a decisao de hoje (licao no 8).
 #
-# O partF.js e' texto puro: ela nao abre o .docx e nao tem como PULAR.
+# A peca 26 e' texto puro: esta checagem nao tem como PULAR.
 _NUM = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'tres': 3, 'três': 3,
         'quatro': 4, 'cinco': 5}
 
@@ -595,35 +594,35 @@ def _qtd(palavra):
     return _NUM.get(p, int(p) if p.isdigit() else None)
 
 
-# o recorte da secao `Inimigos` do manual. GUARDA: se ele vier vazio, alguem
+# o recorte da secao `Inimigos` (peca 26 §3.0). GUARDA: se ele vier vazio, alguem
 # renomeou a secao e a checagem ficaria cega, passando verde para sempre.
-_ini = re.search(r"H2\('Inimigos'\)(.*?)(?=\n\s*H2\()", MANUAL, re.S)
+_ini = re.search(r'### 3\.0 A tabela `Inimigos`(.*?)(?=\n### )', T26, re.S)
 if not _ini:
-    erro(8, 'nao achei a secao `Inimigos` no partF.js do manual — sem ela esta '
+    erro(8, 'nao achei a secao `3.0 A tabela Inimigos` na peca 26 — sem ela esta '
             'checagem nao tem onde procurar, e ficar cega e passar verde para '
             'sempre')
     SECAO_INI = None
 else:
     SECAO_INI = _ini.group(1)
-    print('  a secao `Inimigos` do manual tem '
+    print('  a secao `Inimigos` (peca 26 §3.0) tem '
           f'{len(SECAO_INI.splitlines())} linhas')
 
 # dono 1: a peca 3, que da o slot a QUALQUER ficha
 _m3 = re.search(r'\|\s*\*\*Reação\*\*\s*\|\s*([A-Za-zÀ-ú]+)\s*,', T03)
-# dono 2: o manual, na ficha de inimigo
+# dono 2: a peca 26 §3.0, na ficha de inimigo (era o manual v7 ate a v0.337)
 _mi = re.search(r'\*\*Reação\.\*\*\s*([A-Za-zÀ-ú]+)\s+por rodada',
                 SECAO_INI or '')
 if not _m3:
     erro(8, 'nao achei a linha da Reacao na tabela do turno da peca 3 — ela e o '
             'dono da quantidade, e sem ela nao ha o que comparar')
 elif not _mi:
-    erro(8, 'a secao `Inimigos` do manual nao imprime a Reacao do inimigo — sem '
+    erro(8, 'a secao `Inimigos` da peca 26 nao imprime a Reacao do inimigo — sem '
             'ela o mestre nao tem onde marcar, e a `Brecha` nao vale contra '
             'inimigo (peca 23 SS3.4)')
 else:
     _q3, _qi = _qtd(_m3.group(1)), _qtd(_mi.group(1))
     print(f'  peca 3 SS3 -> o slot Reacao da `{_m3.group(1)}` a qualquer ficha')
-    print(f'  manual     -> a ficha de inimigo diz `{_mi.group(1)}` por rodada')
+    print(f'  peca 26    -> a ficha de inimigo diz `{_mi.group(1)}` por rodada')
     if None in (_q3, _qi):
         erro(8, f'nao consegui ler as duas quantidades como numero '
                 f'({_m3.group(1)!r} e {_mi.group(1)!r})')
@@ -681,4 +680,4 @@ print('>>> TUDO OK — a neutralidade e exata e recalculada, o modificador e a m
 print('    expressao dos dois lados, o liquido dos extremos sai dos donos e cabe no')
 print('    teto, o `+3` e o maior que cabe, so a `Guarda Aberta` desliga, e a `Talha`')
 print('    e do atacante. E a Reacao do inimigo e a mesma que a peca 3 da a')
-print('    todo mundo, impressa na ficha de inimigo do manual.')
+print('    todo mundo, impressa na ficha de inimigo da peca 26.')

@@ -69,25 +69,21 @@ P14 = 'sistema/03-mecanica/14-equipamento.md'
 DCAM = 'DESENHO-caminhos.md'
 DTRI = 'DESENHO-trilhas.md'
 DMAN = 'DESENHO-manhas.md'
-PARTF = 'manual/gerador/partF.js'
+P26 = 'sistema/03-mecanica/26-bestiario.md'
 
 
 def linha_do_manual(nivel):
-    """A linha de um nivel da tabela de inimigo do manual, como {cabecalho: celula}.
+    """A linha de um nivel da tabela `Inimigos`, como {cabecalho: celula}.
 
-    v0.284: e' o dono que a peca declara para o chefe e o capanga. A tabela mora no
-    partF.js, e o cabecalho e' lido em vez de a posicao das colunas ficar escrita aqui.
+    v0.284: e' o dono que a peca declara para o chefe e o capanga. v0.338: a tabela
+    saiu do manual do Fundamento v7 (partF.js) para a peca 26 §3.0, sem mudar numero;
+    o cabecalho continua lido em vez de a posicao das colunas ficar escrita aqui.
     """
-    t = ler(PARTF)
-    mh = re.search(r"TBL\(\[([^\]]*'Chefe: dano'[^\]]*'Capanga: dano'[^\]]*)\]", t)
-    if not mh:
+    try:
+        _l = livro.tabela(ler(P26), 'Nível do grupo', 'Chefe: dano', 'Capanga: dano')
+    except livro.LivroMudou:
         return None
-    cab = re.findall(r"'([^']*)'", mh.group(1))
-    mr = re.search(r"\[\s*'%d'\s*,([^\]]*)\]" % nivel, t[mh.end():])
-    if not mr:
-        return None
-    cel = [str(nivel)] + re.findall(r"'([^']*)'", mr.group(1))
-    return dict(zip(cab, cel)) if len(cel) == len(cab) else None
+    return next((r for r in _l if r['Nível do grupo'] == str(nivel)), None)
 
 TXT = ler(PECA)
 
@@ -110,8 +106,8 @@ ANCORAS = {
     # v0.284: os dois saem da tabela de inimigo do manual, que e' o dono que a peca
     # declara. Ate a v0.283 vinham de uma frase do DESENHO-trilhas que dava ao manual
     # um capanga de 73 que ele nunca publicou — ver a leitura logo abaixo.
-    'chefe': (PARTF, r"'Chefe: dano'"),
-    'capanga': (PARTF, r"'Capanga: dano'"),
+    'chefe': (P26, r"\| Chefe: dano \|"),
+    'capanga': (P26, r"\| Capanga: dano \|"),
     # ⚠ o padrao NAO carrega o numero de acoes: ancora que carrega o valor some
     # no dia em que o valor muda, que e' exatamente o dia em que ela precisa
     # acender. Mesma nota do `dado_do_soco`, cinquenta linhas abaixo.
@@ -206,12 +202,12 @@ if _lm and re.fullmatch(r'\d+', _lm.get('Chefe: dano', '')):
     CHEFE = float(_lm['Chefe: dano'])
     print(f'  [x] o chefe foi lido do dono, a tabela de inimigo do manual: {CHEFE:.0f} de dano por rodada')
 else:
-    erro('1: nao achei a coluna `Chefe: dano` do nivel 30 na tabela de inimigo do manual (partF.js)')
+    erro('1: nao achei a coluna `Chefe: dano` do nivel 30 na tabela `Inimigos` (peca 26 §3.0)')
 if _lm and re.fullmatch(r'\d+', _lm.get('Capanga: dano', '')):
     CAPANGA = float(_lm['Capanga: dano'])
     print(f'  [x] o capanga foi lido do dono, a tabela de inimigo do manual: {CAPANGA:.0f} de dano por rodada')
 else:
-    erro('1: nao achei a coluna `Capanga: dano` do nivel 30 na tabela de inimigo do manual (partF.js) — '
+    erro('1: nao achei a coluna `Capanga: dano` do nivel 30 na tabela `Inimigos` (peca 26 §3.0) — '
          'a checagem 13 mede a coluna dele, e sem o numero ela rodaria com o valor de formato daqui')
 
 # v0.198: as acoes do chefe. Ate aqui o 3 estava escrito neste arquivo e a peca
@@ -1475,8 +1471,17 @@ else:
         'glossario (cap. 7)': ler('sistema/05-material/livro/manual/07-glossario.md'),
         'dano e condicoes (cap. 15)': ler('sistema/05-material/livro/manual/15-dano-e-condicoes.md'),
         'Fundamento (cap. 9)': ler('sistema/05-material/livro/manual/40-fundamento.md'),
-        'gerador do manual (partD.js)': ler('manual/gerador/partD.js'),
     }
+    # v0.338: a quarta copia era o gerador do manual v7 (partD.js), que saiu de fonte. O
+    # livro reconstruido escreve o `Calado` com outra redacao ("uma conjuracao ou habilidade
+    # que exija voz", e "a Kata segue a mesma exigencia"); o que se cobra dele e' o sentido.
+    try:
+        _cal_l = livro.limpa(livro.secao(livro.secao(livro.texto('dano'), 'Condições médias', 1), 'Calado', 2))
+    except livro.LivroMudou:
+        _cal_l = ''
+    if 'exija voz' not in _cal_l or 'A Kata segue a mesma exigência' not in _cal_l:
+        erro('14: o `Calado` do livro reconstruido parou de dizer que cala o que "exija voz", ou que '
+             '"a Kata segue a mesma exigencia" — e o mesmo nicho da peca 19, com outras palavras')
     _fora = [k for k, t in _copias.items() if _cal not in t]
     if _fora:
         erro(f'14: o `Calado` da peca 19 diz "{_cal}", e {_fora} diz outra coisa — a regra da v0.176 '
@@ -1487,7 +1492,8 @@ else:
         erro(f'14: a regra da `Kata` sob o `Calado` sumiu de {_semk} — sem ela, a `Kata` valendo como feitico '
              f'no livro inteiro faria o `Calado` cortar toda Kata, e a decisao da v0.276 e cortar so a que precisa de som')
     if not _fora and not _semk:
-        print(f'  [x] o `Calado` diz "{_cal}" nas cinco copias, e a regra da `Kata` esta na peca e no capitulo 15')
+        print(f'  [x] o `Calado` diz "{_cal}" nas quatro copias do livro v0.331, o livro reconstruido diz o mesmo com '
+              f'outras palavras, e a regra da `Kata` esta na peca e no capitulo 15')
 
 # v0.277: o `Calado` e' de nicho — "N precisa de campo, cala apenas se o inimigo tiver algum selo que
 # necessite de voz ou habilidades do tipo, é uma condição de nicho". O nivel NAO muda, e isso e' conta, nao

@@ -499,22 +499,20 @@ else:
         def _segura(q):
             return ((1 - _ace * (_a / _b) * q) ** _gol) ** _rodadas
 
-        # --- a regra antiga, do manual (dono da tabela `Inimigos`) ---
-        # v0.337: o livro reconstruido nao publica a tabela `Inimigos`; ela mora no
-        # gerador do manual (partF.js), que era de onde o .docx saia. Ate a v0.336
-        # esta leitura abria o .docx. O dono definitivo da tabela e' decisao da v0.338.
+        # --- a regra antiga, lida da tabela `Inimigos` ---
+        # v0.338: a tabela saiu do manual do Fundamento v7 (o .docx ate a v0.336, o partF.js
+        # na v0.337) para a peca 26 §3.0, sem mudar numero.
         _DANO_CHEFE = {}
-        _pf7 = open(os.path.join(AQUI, '..', '..', 'manual', 'gerador', 'partF.js'), encoding='utf-8').read()
-        _mh7 = _re7.search(r"TBL\(\[([^\]]*'Chefe: dano'[^\]]*)\],\s*\[(.*?)\n\s*\],", _pf7, _re7.S)
-        if _mh7:
-            _cab7 = _re7.findall(r"'([^']*)'", _mh7.group(1))
-            for _lin7 in _re7.findall(r"\[([^\[\]]*)\]", _mh7.group(2)):
-                _v = _re7.findall(r"'([^']*)'", _lin7)
-                if len(_v) == len(_cab7) and _v[0].isdigit():
-                    _DANO_CHEFE[int(_v[0])] = float(_v[_cab7.index('Chefe: dano')])
+        try:
+            for _r7 in livro.tabela(open(os.path.join(AQUI, '26-bestiario.md'), encoding='utf-8').read(),
+                                    'Nível do grupo', 'Chefe: dano'):
+                if _r7['Nível do grupo'].isdigit() and _r7['Chefe: dano'].isdigit():
+                    _DANO_CHEFE[int(_r7['Nível do grupo'])] = float(_r7['Chefe: dano'])
+        except livro.LivroMudou:
+            pass
         if len(_DANO_CHEFE) < 5:
             _faltas7 += 1
-            erro(f'7: li {len(_DANO_CHEFE)} linha(s) da tabela `Inimigos` do partF.js — ela mudou de forma')
+            erro(f'7: li {len(_DANO_CHEFE)} linha(s) da tabela `Inimigos` da peca 26 §3.0 — ela mudou de forma')
 
         def _cd_velha(nv):
             return max(_piso_velho, int((_DANO_CHEFE[nv] / _gol) // 2))
@@ -598,7 +596,7 @@ else:
                          f'(niveis {_niv2})')
             if _pul7:
                 _faltas7 += 1
-                erro('7: a tabela `Inimigos` do partF.js nao cobre os niveis da segunda tabela da peca — '
+                erro('7: a tabela `Inimigos` da peca 26 nao cobre os niveis da segunda tabela da peca — '
                      'as linhas da regra antiga nao foram derivadas')
             if _hold_nova and len(set(_hold_nova.values())) != 1:
                 _faltas7 += 1
@@ -824,8 +822,8 @@ print('=' * 92)
 #                                                     coluna `Leve` da mesma tabela;
 #   - o limite de Melhorias por Classe .............. a tabela `Quantidade de pecas` do Fundamento;
 #   - a Rotina ...................................... a coluna `Rotina` da tabela `A curva`, que o
-#                                                     livro nao publica: ela mora no gerador do
-#                                                     manual (partF.js) ate a v0.338 decidir o dono;
+#                                                     livro nao publica: ela mora na peca 5 §2.1
+#                                                     desde a v0.338 (era o manual v7);
 #   - os tiros da `Rajada` .......................... o texto da `Rajada` no Catalogo;
 # (v0.337: ate a v0.336 todos estes eram o manual do Fundamento v7, .docx, que foi para o arquivo.)
 #   - a duracao da luta ............................. a banda da peca 1 §8, e esta checagem usa
@@ -871,14 +869,16 @@ else:
                 _lim9[int(_mf.group(1))] = (int(_mn.group(1)), False)
     except (livro.LivroMudou, KeyError, ValueError) as _e9:
         _erro9(f'nao consegui ler o Fundamento do livro — {_e9}')
-    # a Rotina: a tabela `A curva` do gerador do manual (o livro nao a publica)
-    _pf9 = open(os.path.join(AQUI, '..', '..', 'manual', 'gerador', 'partF.js'), encoding='utf-8').read()
-    _mc9 = _re8.search(r"TBL\(\['Nível', 'Classe', 'Rotina'[^\]]*\],\s*\[(.*?)\n\s*\],", _pf9, _re8.S)
-    for _lin9 in (_re8.findall(r"\[([^\[\]]*)\]", _mc9.group(1)) if _mc9 else []):
-        _v = _re8.findall(r"'([^']*)'", _lin9)
-        _mr = _re8.search(r'=\s*(\d+)\s*$', _v[2]) if len(_v) > 2 else None
-        if _v and _v[1].isdigit() and _mr:
-            _rot9[int(_v[1])] = int(_mr.group(1))
+    # a Rotina: a tabela `A curva`, que o livro nao publica e mora na peca 5 §2.1 desde a
+    # v0.338 (era o gerador do manual v7)
+    try:
+        for _r9 in livro.tabela(open(os.path.join(AQUI, '05-caminho-e-combate-sem-feitico.md'),
+                                     encoding='utf-8').read(), 'Classe', 'Rotina', 'Feitiço num alvo'):
+            _mr = _re8.search(r'=\s*(\d+)\s*$', _r9['Rotina'])
+            if _r9['Classe'].isdigit() and _mr:
+                _rot9[int(_r9['Classe'])] = int(_mr.group(1))
+    except livro.LivroMudou:
+        pass
     for _n9 in ('Alvo de Caça', 'Rápido', 'Concentrada', 'Rajada', 'Marca'):
         if _n9 in _CAT:
             _custo9[_n9] = (_CAT[_n9]['preco'], _CAT[_n9]['texto'])

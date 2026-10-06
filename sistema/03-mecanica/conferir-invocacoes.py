@@ -355,12 +355,13 @@ if not ESCADA_CLASSE or MULT_FEITICO is None:
 # que o le da tabela de inimigo do manual. Nenhum dos dois mora aqui.
 # v0.285: o validador de atributos deixou de duplicar a tabela como literal.
 # Ler o dono publicado, sem executar outro validador nem congelar numeros aqui.
-_manual_chefe = ler('../../manual/gerador/partF.js')
-_tabela_chefe = _manual_chefe.split("H2('Inimigos')")[1].split('GAP(')[0]
+# v0.338: a tabela `Inimigos` saiu do manual do Fundamento v7 (partF.js) para a peca 26 §3.0
+_p26_chefe = ler('26-bestiario.md')
+_tabela_chefe = _p26_chefe[_p26_chefe.find('### 3.0 A tabela `Inimigos`'):_p26_chefe.find('### 3.1 ')]
 CHEFE = {int(n): int(d) for n, d in re.findall(
-    r"\['(\d+)', '~\d+', '[\d a]+', '(\d+)', '\d+', '\d+'\]", _tabela_chefe)}
+    r"^\| (\d+) \| ~\d+ \| [\d a]+ \| (\d+) \| \d+ \| \d+ \|$", _tabela_chefe, re.M)}
 if len(CHEFE) != 7:
-    erro('SETUP', 'manual/gerador/partF.js: nao achei as sete linhas de dano de chefe — '
+    erro('SETUP', 'peca 26 §3.0: nao achei as sete linhas de dano de chefe — '
                   'sem elas a coluna de rodadas do SS3.7 nao pode ser medida')
 
 
