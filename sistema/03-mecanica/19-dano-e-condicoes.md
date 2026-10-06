@@ -252,7 +252,7 @@
 
 | condição | nível | o que faz |
 |---|---|---|
-| **`Lento`** | `Leve` | seu deslocamento cai pela metade e você não usa Ação Bônus |
+| **`Lento`** | `Leve` | seu deslocamento cai pela metade e você não usa Ação Bônus. *As distâncias que uma capacidade concede, como a do `Passo`, também caem pela metade (v0.337, FU-26)* |
 | **`Guarda Aberta`** | `Leve` | **você não pode `Bloquear`, e todo ataque corpo a corpo que acertar você é crítico** — *só ele: ataque de conjuração e ataque à distância não, e o feitiço de Toque é de conjuração mesmo encostado em você* |
 | **`Derrubado`** | `Leve` | você está no chão. Só se move rastejando, tem desvantagem nos seus ataques, e quem ataca você **a até 1,5 m tem vantagem** — quem ataca de longe tem desvantagem |
 | **`Agarrado`** | `Leve` | seu deslocamento é `0`. Acaba se quem agarrou ficar com a `Guarda Aberta`, ou se alguma coisa tirar você do alcance dele |
@@ -406,6 +406,8 @@
 > | **Especiais** | `Radiante` · `Necrótico` · `Psíquico` · `Energia Reversa` · `Alma` | **10%** |
 
 > **⚠ O `Alma` é o único dos catorze que não bate só na vida, e a máquina dele NÃO é desta peça.** *Ele tira `1` de vida e `1` de Integridade, e tem quatro estágios em cima disso.* **Tudo isso é a peça 24**, que fechou na v0.145 — *aqui ele é um tipo de dano como os outros treze, e é só isso que esta peça afirma sobre ele.*
+
+**A distribuição dos tipos se escolhe na criação da ficha** *(v0.337, FU-09: o Fundamento do livro reconstruído fechou a lacuna).* **Um feitiço com mais de um tipo declara quanto vai em cada um quando é montado, e ela não muda depois de conhecer a resistência do alvo.**
 
 **Os Temas do manual não são taxonomia, e é por isso que esta lista existe.** *Decisão do Mizuki:* eles são **exemplos para quem cria técnica**, não uma classificação fechada do que o dano pode ser. **A colisão entre as duas coisas é aceita e fica declarada** em vez de esquecida:
 

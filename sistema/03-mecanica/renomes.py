@@ -4,13 +4,16 @@
 Migração da candidata para as peças, passo 2 (PLANO.md em
 sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata).
 
-As peças desta pasta passam a usar o nome novo. Três fontes ficam CONGELADAS com o
-nome antigo até o passo 5, quando o livro reconstruído substitui todas elas:
+As peças desta pasta passam a usar o nome novo. Duas fontes ficam CONGELADAS com o
+nome antigo até o livro reconstruído substituir cada uma:
 
   - o livro v0.331 (sistema/05-material/livro/manual e o -TEXTO.md que sai dele);
   - as cópias da edição integrada (caminhos/ e invocacoes/05-Edicao-Integrada), que
-    o conferir-invocacoes.py prende por hash à referência aprovada;
-  - o manual do Fundamento v7 (.docx), que deixa de ser fonte no passo 5.
+    o conferir-invocacoes.py prende por hash à referência aprovada.
+
+Havia uma terceira, o manual do Fundamento v7 (.docx). Ela saiu de fonte no passo 5
+(v0.337): os validadores que a liam passaram a ler o livro reconstruído pelo
+livro.py, e o livro já usa o nome novo, sem tradução.
 
 Quem lê uma delas e compara com uma peça passa o texto por `traduz()` antes. Este
 arquivo é o único dono da tabela: um validador que guardasse a própria cópia dela

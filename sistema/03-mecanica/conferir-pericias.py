@@ -24,8 +24,9 @@ import sys
 import unicodedata
 
 FALHAS = []
-# Checagem que nao rodou — ver o comentario igual no conferir-nomes.py. Sem
-# python-docx este validador dizia TUDO OK sem ter aberto o manual uma vez.
+# Checagem que nao rodou — ver o comentario igual no conferir-nomes.py. Ate a
+# v0.336, sem python-docx este validador dizia TUDO OK sem ter aberto o manual; desde
+# a v0.337 o dono e' o livro em markdown, e nao ler o livro e' erro.
 PULADAS = []
 
 
@@ -174,15 +175,28 @@ INTERNOS = {
 # Colisoes conhecidas e ACEITAS de proposito. Nao falham o validador, mas
 # aparecem no relatorio para nao serem confundidas com descuido depois.
 COLISOES_ACEITAS = {
-    'Provocar': 'o manual usa "sem provocar ataque de oportunidade" 3x. Decidido na '
+    # v0.337: o dono do Fundamento passou a ser o livro reconstruido (Fundamento,
+    # Catalogo e Poderes avancados, que juntos cobrem as onze secoes do manual v7).
+    # As quatro primeiras vem do manual e continuam no livro; as cinco ultimas
+    # apareceram com o texto novo, e cada uma foi lida no contexto.
+    'Provocar': 'o livro usa "sem provocar ataques de oportunidade". Decidido na '
                 'v0.16 que a frase e comum demais para confundir na mesa.',
-    'Natureza': 'o manual tem a Passiva "Segunda Natureza". Duas palavras contra uma, '
-                'e a Passiva e rara. Colisao fraca, aceita.',
-    'Historia': 'aparece 1x no manual em prosa solta. Pela nota de metodo da v0.6, '
-                'prosa solta nao e colisao.',
-    'Ocultismo': 'v0.226: o manual cita a PERICIA de proposito, como requisito da '
+    'Natureza': 'o livro tem o Talento "Segunda Natureza". Duas palavras contra uma, '
+                'e o Talento e raro. Colisao fraca, aceita.',
+    'Historia': 'prosa solta ("quando voce conta uma historia", no Catalogo). Pela nota '
+                'de metodo da v0.6, prosa solta nao e colisao.',
+    'Ocultismo': 'v0.226: o livro cita a PERICIA de proposito, como requisito da '
                  'Expansao sem Barreiras (especializacao em Ocultismo). E o nome da '
                  'pericia usado como pericia, e nao um termo do Fundamento que colide.',
+    'Percepcao': 'v0.337: o Fundamento cita a PERICIA ("nao substitui Percepcao, Sentir '
+                 'Energia ou investigacao"); a outra ocorrencia e "percepcao valida", '
+                 'prosa solta no Catalogo.',
+    'Sentir Energia': 'v0.337: a mesma frase do Fundamento, citando a PERICIA pelo nome.',
+    'Investigacao': 'v0.337: a mesma frase, em minuscula ("ou investigacao"). Prosa solta.',
+    'Furtividade': 'v0.337: "um beneficio de furtividade precisa estar escrito no efeito", '
+                   'no Fundamento. Prosa solta, e no sentido da pericia.',
+    'Atuacao': 'v0.337: "nem concede atuacao gratuita", no Fundamento, sobre a entidade '
+               'agir. Outro sentido da palavra, prosa solta.',
 }
 
 
@@ -532,22 +546,20 @@ print('  Isso e esperado: so 10 das pericias sao assinatura de alguem.')
 bloco('7. COLISAO DE TERMO — contra o Fundamento e contra o proprio projeto')
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-DOCX = os.path.join(AQUI, '..', '..', 'manual', 'Fundamento-MANUAL-v7.docx')
+sys.path.insert(0, AQUI)
+import livro
 
+# v0.337: ate a v0.336 o texto era o manual do Fundamento v7 (.docx) inteiro. O .docx
+# foi para o arquivo no passo 5 da migracao; as onze secoes dele estao, no livro
+# reconstruido, nos capitulos do Fundamento, do Catalogo e dos Poderes avancados
+# (Liberacao Maxima, Tecnica Maxima e Expansao). O livro inteiro nao entra: o
+# capitulo de Pericias e oficios cita todas, e a checagem viraria ruido.
+ESCOPO = ('fundamento', 'catalogo', 'poderes')
 texto_manual = None
 try:
-    import docx  # python-docx
-    doc = docx.Document(DOCX)
-    partes = [p.text for p in doc.paragraphs]
-    for t in doc.tables:
-        for r in t.rows:
-            for c in r.cells:
-                partes.append(c.text)
-    texto_manual = '\n'.join(partes)
-except Exception as e:
-    print(f'  (manual nao lido: {e})')
-    print('  A checagem contra o Fundamento foi PULADA. Rode com python-docx instalado')
-    print('  e o manual em manual/Fundamento-MANUAL-v7.docx antes de fechar versao.')
+    texto_manual = '\n'.join(livro.texto(u) for u in ESCOPO)
+except OSError as e:
+    erro(f'7: nao consegui ler o livro ({e}) — a colisao contra o Fundamento nao foi conferida')
 
 nomes = TODAS + OFICIOS
 internos_norm = {norma(x) for x in INTERNOS}
@@ -567,19 +579,16 @@ if texto_manual:
     print('  Nota de metodo da v0.6: separar TERMO DEFINIDO de PROSA SOLTA.\n')
     for n, q, amostra in achados:
         if n in COLISOES_ACEITAS:
-            print(f'  ACEITA  {n:<18} {q}x no manual')
+            print(f'  ACEITA  {n:<18} {q}x no livro')
             print(f'          motivo: {COLISOES_ACEITAS[n]}')
         else:
-            erro(f'"{n}" aparece {q}x no manual e nao esta na lista de aceitas: "{amostra}..."')
+            erro(f'"{n}" aparece {q}x no Fundamento do livro e nao esta na lista de aceitas: "{amostra}..."')
     nao_apareceram = [n for n in COLISOES_ACEITAS if n not in [a[0] for a in achados]]
     for n in nao_apareceram:
         if n in nomes:
-            print(f'  (declarada aceita mas nao aparece mais no manual: {n} — pode sair da lista)')
+            erro(f'"{n}" esta declarada aceita e nao aparece mais no livro — tire da lista')
     if not achados:
-        print('  Nenhum dos nomes aparece no manual.')
-else:
-    PULADAS.append('7. colisao de termo contra o Fundamento (sem o manual)')
-    print('  PULADA — nenhum nome foi batido contra o manual.')
+        print('  Nenhum dos nomes aparece no livro.')
 
 # --------------------------------------------------------------------------
 bloco('8. A ESCADA DE DIFICULDADE — a peca 4 §2 e a dona, e as copias batem')
@@ -799,7 +808,7 @@ if PULADAS:
     for p in PULADAS:
         print(f'    - {p}')
     print('    O que pulou NAO foi conferido. Um verde que pulou checagem nao e')
-    print('    um verde. Instale: pip install python-docx --break-system-packages')
+    print('    um verde.')
 else:
     print('>>> TUDO OK — o quadro fecha, a fracao esta na faixa, e as colisoes que existem')
     print('    estao declaradas com motivo em vez de esquecidas.')

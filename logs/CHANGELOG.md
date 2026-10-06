@@ -8,6 +8,26 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.337] — 06/10/2026
+
+**O passo 5 da migração, primeira parte: o manual do Fundamento em `.docx` deixou de ser fonte.** *Os sete validadores que o abriam (`conferir-acao`, `-bestiario`, `-dano`, `-manual`, `-nomes`, `-pericias` e `-progressao`) passaram a ler o livro reconstruído, e nenhum validador precisa mais do `python-docx`.* **Decisão do Mizuki de 05/10/2026 (PLANO, decisão 1):** *o Fundamento passa a ter um dono só, o livro.*
+
+**Adicionado:** *`sistema/03-mecanica/livro.py`, o leitor do livro.* **Ele só acha e picota** *(unidade, título, tabela, página, e o Catálogo montado das marcas de página: nome, tipo, preço e Família de cada entrada); nenhum número de regra mora nele.* *O Catálogo do livro bate nome a nome com o do `.docx`: 69 Melhorias, 19 Restrições e 18 Talentos, com os mesmos preços.*
+
+**Alterado, nos validadores:** *o `conferir-progressao` confere seis colunas da peça 18 contra as duas tabelas de nível do livro (eram três, lidas de frase do `.docx`); o `conferir-pericias` bate os nomes de perícia contra o Fundamento, o Catálogo e os Poderes avançados, com cinco colisões novas lidas no contexto e declaradas; o `conferir-dano` lê as treze condições dos títulos do capítulo de Dano; o `conferir-nomes` monta o vocabulário do livro; o `conferir-acao` compara a duração da `Concentrada` e da `Duradoura` em minutos por Classe, porque o livro escreve a tabela de outro jeito; o `conferir-manual` passou a conferir o Fundamento do livro, e o `conferir-bestiario` lê a tabela `Inimigos` do gerador.* **Três tabelas não existem no livro** *(a `Inimigos`, a curva da Rotina e o PE total por nível)* **e são lidas do gerador do manual (`partA.js` e `partF.js`), que era de onde o `.docx` saía.** *A `4b` do `conferir-manual`, que conferia o `.docx` contra o gerador, saiu com ele. A `9.1` do `conferir-repositorio` deixou de medir puladas (são zero nos 27) e passou a acusar quem voltar a abrir o `.docx`.*
+
+**Alterado, nas peças:** *peça 08, o passo do equipamento pede a situação, o TR e as perícias do `Traje` (AB24); peça 12, o oitavo feito do limiar saiu (PRO38) e a §9.1 lista as lacunas da Progressão que a candidata fechou; peça 18, o dono das colunas de Classe, Talento e Classe 0 é o livro; peça 19, o `Lento` corta também as distâncias concedidas, como a do `Passo` (FU-26), e a distribuição dos tipos de dano se escolhe na criação (FU-09).* *O `renomes.py` deixou de traduzir o `.docx`, e o README, o `ESTADO-ATUAL`, o `LEIA-ME` e o `subir.sh` pararam de mandar instalar o `python-docx`.*
+
+**O que a troca achou:** *o livro fechou o combo de Melhorias sem a exceção do mestre que o v7 deixava; a `Base por Classe` deu linha própria à `Onda`; a escada de frequência do `Efeito Próprio` saiu do livro e sobrevive só na peça 11 §6.7; o `inimigo fraco` do `Peso da Presença` virou a categoria `Capanga`.* **E uma fora do passo: o livro tem quinze tipos de dano, com `Força` entre os Especiais, e as peças 01 e 19 têm catorze.** *Veio de uma rodada anterior do capítulo de Dano, sem registro no inventário do lote final.* **O passo 1 tinha atribuído os 137 registros do Fundamento e do Catálogo à peça 17**, *que é o índice das entregas de Caminho; o dono era o `.docx`, e agora é o livro.*
+
+**Por que o passo ficou em duas partes:** *treze arquivos leem o `manual/gerador` direto, e não o `.docx`.* **Arquivar o gerador agora quebraria os treze**, *e três tabelas que só ele publica precisam de dono antes.*
+
+**Validação:** bateria de 30 de 30, com o pulo de sempre (a 7, da entrega), e os 27 validadores com o `python-docx` bloqueado, todos com zero puladas. **Teste negativo numa cópia isolada, validador a validador:** *mexer numa linha da tabela de Progressão do livro, numa condição, no preço da `Condição`, no multiplicador da `Dívida`, nos vetos do `Rápido` e da `Reação`, na escada de horas da `Duradoura`, no preço da `Concentrada`, nos tiros da `Rajada`, na coluna `Leve` da tabela de Classe, no desconto de Família Livre, no limite de Melhorias, na parede do `Anteparo`, num Talento, na tabela da `Regra Própria`, no custo da Categoria 2, no número da `Mão Firme`, na saída da `Cerca`, num grau de cobertura, no alcance de Classe 0 da `Onda`, no raio da `Aura` e na frase do combo acende a checagem dona.* *Os dois contra-testes ficaram verdes: um título `Remoção` dentro das condições é pulado de propósito, e mexer no dano do Classe 0 não acende nada — como já não acendia com o `.docx`, porque a tabela só alimenta o contra-teste da `4e`.* *As unidades da Progressão e dos Poderes avançados guardam por hash as peças 12 e 18, e o Bastião guarda este CHANGELOG: todas ganharam o cotejo, e o ZIP foi montado de novo. O PDF do livro não mudou.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: a segunda parte do passo 5.
+
+---
+
 ## [0.336] — 06/10/2026
 
 **A `Execução Preparada` da Vanguarda passou a impor `−2`.** *A v0.335 mediu que ela valia até `0,12` fatia, contra `1,18` da `Não Pega` que substituiu.* **Decisão do Mizuki (D44):** *"Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema".*

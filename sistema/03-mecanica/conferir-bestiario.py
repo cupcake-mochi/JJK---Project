@@ -14,8 +14,9 @@ formulas da peca 1, a curva de refino da peca 11, a regua de condicao da peca 19
 o orcamento do Pathfinder 2e das notas da pesquisa e da propria peca, e as rodadas
 da propria peca (decisao do Mizuki, 28/09/2026). A checagem 7 guarda essa promessa.
 
-As checagens 3, 5 e 9 leem o .docx do manual: sem o python-docx elas PULAM, e o
-rodape DIZ que pularam. Um verde que pulou checagem nao e um verde.
+As checagens 3, 5 e 9 leem a tabela `Inimigos` do gerador do manual (partF.js),
+de onde o .docx saia; desde a v0.337 o .docx nao e' lido. Se a tabela nao for
+lida, elas PULAM e o rodape DIZ que pularam — e a leitura falha alto antes.
 
 As checagens, na ordem:
   1   as ancoras da ficha, nos dois sentidos
@@ -86,7 +87,7 @@ P22 = 'sistema/03-mecanica/22-pactos.md'
 P24 = 'sistema/03-mecanica/24-dano-de-alma.md'
 NOTAS = 'bestiario/09-fase-2/pesquisa/NOTAS-pesquisa-externa.md'
 CAPANGA_DONO = 'bestiario/04-fase-1/fila/DECIDIDO-o-capanga.md'
-DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
+PARTF = 'manual/gerador/partF.js'
 
 TXT = ler(PECA)
 _NUM_PT = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5,
@@ -379,30 +380,32 @@ CATS = list(_DEG)
 CHEFES = [c for c in CATS if c != 'Capanga']
 _mb3 = re.search(r'trivial `(\d+)`, baixa `(\d+)`, moderada `(\d+)`, severa `(\d+)`, extrema `(\d+)`', TXT)
 _mn3 = re.search(r'Trivial (\d+) ou menos \(ajuste \d+\), Low (\d+) \(\d+\), Moderate (\d+) \(\d+\), Severe (\d+) \(\d+\), Extreme (\d+) \(\d+\)', ler(NOTAS))
+# v0.337: a tabela `Inimigos` e a prosa em volta dela saem do gerador do manual
+# (partF.js), que era de onde o .docx saia. Ate a v0.336 esta leitura abria o .docx,
+# que foi para o arquivo no passo 5 da migracao; o livro reconstruido nao publica a
+# tabela. O dono definitivo dela e' decisao da v0.338.
 _MANUAL = {}
 _PROSA = []
-try:
-    import docx
-except ImportError:
-    docx = None
-if docx is not None and os.path.isfile(DOCX):
-    _doc = docx.Document(DOCX)
-    _PROSA = [_p.text for _p in _doc.paragraphs]
-    for _t in _doc.tables:
-        _cab = [c.text.strip() for c in _t.rows[0].cells]
-        if _cab and _cab[0].startswith('Nível do grupo') and 'Chefe: dano' in _cab:
-            for _r in _t.rows[1:]:
-                _v = [c.text.strip() for c in _r.cells]
+_pf = ler(PARTF)
+_mi = re.search(r"H2\('Inimigos'\)(.*?)(?=\n\s*H2\()", _pf, re.S)
+if _mi:
+    _PROSA = [x.replace("\\'", "'") for x in re.findall(r"\bP\('((?:[^'\\]|\\.)*)'\)", _mi.group(1))]
+    _mt = re.search(r"TBL\(\[([^\]]*'Chefe: dano'[^\]]*)\],\s*\[(.*?)\n\s*\],", _mi.group(1), re.S)
+    if _mt:
+        def _n(x):
+            try:
+                return float(x)
+            except ValueError:
+                return None
+        for _lin in re.findall(r"\[([^\[\]]*)\]", _mt.group(2)):
+            _v = re.findall(r"'([^']*)'", _lin)
+            if len(_v) == 6 and _v[0].isdigit():
                 _vd_ = _v[2].split(' a ')
-
-                def _n(x):
-                    try:
-                        return float(x)
-                    except ValueError:
-                        return None
                 _MANUAL[int(_v[0])] = (float(_v[1].replace('~', '')), (int(_vd_[0]) + int(_vd_[-1])) / 2,
                                        float(_v[3]), _n(_v[4]), _n(_v[5]))
-            break
+if len(_MANUAL) < 5 or not _PROSA:
+    erro(f'3: li {len(_MANUAL)} linha(s) e {len(_PROSA)} paragrafo(s) da secao `Inimigos` do partF.js — '
+         'ela mudou de forma, e as checagens que dependem da tabela vao pular')
 _mpct = re.search(r'O dano dele por rodada é (\d+)% da vida de um personagem', ' '.join(_PROSA))
 PCT = int(_mpct.group(1)) / 100 if _mpct else None
 R_DES = _DEG.get('Desastre', {}).get('rod')
@@ -454,8 +457,7 @@ else:
               'pressao, o golpe em % e a porta da Intervencao reconstroem')
 
 if not _MANUAL or PCT is None:
-    pulou('3. as fichas prontas contra a tabela do manual — sem python-docx '
-          '(pip install python-docx --break-system-packages)')
+    pulou('3. as fichas prontas contra a tabela do manual — a tabela `Inimigos` do partF.js nao foi lida')
 elif _DEG:
     print(f'  a tabela `Inimigos` do manual tem {len(_MANUAL)} linhas, de nv {min(_MANUAL)} a {max(_MANUAL)}.')
     _mau3b = 0

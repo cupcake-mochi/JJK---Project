@@ -37,5 +37,20 @@
       "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
     }
   ],
-  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado."
+  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0337": [
+    {
+      "arquivo": "sistema/03-mecanica/12-experiencia-e-progressao.md",
+      "sha256_anterior": "75deb4ada21a2acd24d386c2d70d99e1edc39dee4fee52b04b11bdd7c260cbc3",
+      "sha256_atual": "89184ba4d1fe18c4dd810d433462f742f068a6b6e52079c537519194b0ee2783",
+      "motivo": "Passo 5 da migração (v0.337): a peça 12 recebeu da própria candidata a lista de sete feitos do limiar (PRO38) e uma seção com as lacunas da Progressão que a candidata fechou. Esta unidade não reproduz os trechos mudados."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/18-progressao.md",
+      "sha256_anterior": "7ac36f34f9f5736fd5f91eddea60eb0acc4a79f919c970424108343a4a5bec0a",
+      "sha256_atual": "9df17ba90b335cbf4170701e346700eeee87ddf0bdcd8f9a68ca2dc7a1522d53",
+      "motivo": "Passo 5 da migração (v0.337): a peça 18 passou a apontar o livro reconstruído como dono das colunas de Classe, Talento e Classe 0, no lugar do manual do Fundamento v7. Os números da tabela não mudaram, e esta unidade não reproduz o trecho."
+    }
+  ],
+  "cotejo_v0337_conferido": "Diff lido: só o passo 5 da migração (primeira parte) nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
 }

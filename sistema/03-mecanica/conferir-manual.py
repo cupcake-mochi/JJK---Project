@@ -32,18 +32,25 @@ depois, e cada uma tem o motivo escrito no bloco dela):
      errou. Por isso cada numero carrega um dono declarado logo abaixo.
 
 Roda sem argumento. Sai com codigo 1 se algo quebrar.
-Sem python-docx, as oito checagens sao PULADAS com aviso, em vez de falhar.
+
+v0.337: o "manual" deste validador era o manual do Fundamento v7 (.docx), e ele foi
+para o arquivo no passo 5 da migracao. O manual passou a ser o LIVRO reconstruido:
+os capitulos do Fundamento, do Catalogo e dos Poderes avancados, que juntos cobrem
+as onze secoes do .docx, lidos pelo livro.py. Tres tabelas do .docx nao existem no
+livro (o PE total por nivel, a tabela `Inimigos` e a curva da Rotina); elas sao
+lidas do gerador do manual (partA.js e partF.js), que era de onde o .docx saia, ate
+a v0.338 decidir o dono de cada uma.
 """
 
 import os
 import re
 import sys
 
-# Migração, passo 2: as peças usam o nome novo, e o livro v0.331 e o .docx ficam
-# congelados com o antigo. O que vem deles passa pelo renomes.py antes de comparar.
+# Migração, passo 2: as peças usam o nome novo, e o livro v0.331 fica congelado com
+# o antigo. O livro reconstruído (passo 5) já usa o nome novo.
 sys.dont_write_bytecode = True
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import renomes
+import livro
 
 FALHAS = []
 AVISOS = []
@@ -69,36 +76,73 @@ def bloco(t):
 # --------------------------------------------------------------------------
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.abspath(os.path.join(AQUI, '..', '..'))
-DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
-
+_FONTES = ('fundamento', 'catalogo', 'poderes')
 try:
-    import docx  # noqa: F401
-except ImportError:
-    print('~~ python-docx nao instalado. As oito checagens foram PULADAS.')
-    print('   pip install python-docx --break-system-packages')
-    sys.exit(0)
+    _TXT = {u: livro.texto(u) for u in _FONTES}
+    CAT = livro.catalogo()
+except (livro.LivroMudou, OSError) as _e:
+    print(f'!! nao consegui ler o livro: {_e}')
+    sys.exit(1)
 
-if not os.path.exists(DOCX):
-    print(f'~~ manual nao encontrado em {DOCX}. As oito checagens foram PULADAS.')
-    sys.exit(0)
 
-import docx as _docx
-_D = _docx.Document(DOCX)
+class _Cel:
+    def __init__(self, t):
+        self.text = t
+
+
+class _Lin:
+    def __init__(self, cels):
+        self.cells = [_Cel(c) for c in cels]
+
+
+class _Tab:
+    """Uma tabela do livro ou do gerador, com a forma que as checagens liam do .docx
+    (tabela.rows[i].cells[j].text). So isso: nenhum valor mora aqui."""
+    def __init__(self, linhas, origem):
+        self.rows = [_Lin(l) for l in linhas]
+        self.origem = origem
+
+
+def _tbls_js(arquivo):
+    """As tabelas TBL([cabecalho], [[linha], ...]) de um arquivo do gerador. O corpo
+    e' lido casando colchete, e nao por regex: uma celula com virgula ou uma tabela
+    vizinha nao podem engolir a seguinte."""
+    _t = open(os.path.join(RAIZ, 'manual', 'gerador', arquivo), encoding='utf-8').read()
+    _out = []
+    for _m in re.finditer(r"TBL\(\[([^\]]*)\],\s*\[", _t):
+        _cab = re.findall(r"'([^']*)'", _m.group(1))
+        _i, _prof = _m.end(), 1
+        while _prof and _i < len(_t):
+            _prof += {'[': 1, ']': -1}.get(_t[_i], 0)
+            _i += 1
+        _corpo = _t[_m.end():_i - 1]
+        _lin = [re.findall(r"'((?:[^'\\]|\\.)*)'", x) for x in re.findall(r"\[([^\[\]]*)\]", _corpo)]
+        _out.append(_Tab([_cab] + [l for l in _lin if l], arquivo))
+    return _out
+
+
+TABELAS = [_Tab(t, u) for u in _FONTES for t in livro.tabelas(_TXT[u])]
+# as tres tabelas que o livro nao publica, e so elas
+_GER = [t for t in _tbls_js('partA.js') + _tbls_js('partF.js')
+        if [c.text for c in t.rows[0].cells][:2] in (['Nível', 'PE total'], ['Nível do grupo', 'Dano do grupo por rodada'],
+                                                      ['Nível', 'Classe'])]
+if len(_GER) != 3:
+    print(f'!! esperava 3 tabelas do gerador (PE total, Inimigos, A curva) e achei {len(_GER)}')
+    sys.exit(1)
+TABELAS += _GER
 
 LINHAS = []          # (origem, texto)
-for i, p in enumerate(_D.paragraphs):
-    if p.text.strip():
-        LINHAS.append((f'paragrafo {i}', p.text))
-for ti, t in enumerate(_D.tables):
-    for ri, r in enumerate(t.rows):
-        txt = ' | '.join(c.text for c in r.cells)
-        if txt.strip():
-            LINHAS.append((f'tabela {ti}, linha {ri}', txt))
+for _u in _FONTES:
+    for i, l in enumerate(_TXT[_u].split('\n'), 1):
+        if l.strip() and not l.startswith('<!--'):
+            LINHAS.append((f'{_u}, linha {i}', l))
 
 TUDO = '\n'.join(t for _, t in LINHAS)
+# o texto inteiro do Fundamento do livro, para as checagens de frase (4l a 4o)
+_LIVRO_F = livro.limpa('\n'.join(_TXT[u] for u in _FONTES))
 
-print(f'Manual lido: {len(_D.paragraphs)} paragrafos, {len(_D.tables)} tabelas, '
-      f'{len(LINHAS)} linhas com texto.')
+print(f'Livro lido: {", ".join(_FONTES)} — {len(LINHAS)} linhas com texto, '
+      f'{len(TABELAS) - len(_GER)} tabelas, e {len(_GER)} tabelas do gerador.')
 
 
 # --------------------------------------------------------------------------
@@ -185,10 +229,9 @@ bloco('3. TERMO MECANICO USADO E NUNCA DEFINIDO')
 
 # termo -> (regex, motivo pelo qual ele esta declarado aqui em vez de falhar)
 INDEFINIDOS_ACEITOS = {
-    'inimigo fraco': (
-        r'[Ii]nimigos? fracos?',
-        'a Passiva Peso da Presenca so pega inimigo fraco. Depende do bestiario, '
-        'que sai da matematica de inimigo do proprio manual.'),
+    # v0.337: o `inimigo fraco` saiu daqui. O livro reconstruido fechou o termo: o
+    # Talento `Peso da Presença` pega um inimigo da categoria `Capanga`, que o
+    # bestiario define. A linha em EXIGEM_DEFINICAO fica e volta a cobrar se ele voltar.
 }
 
 # Termos que o manual IMPORTA do projeto, de proposito. Eles sao a direcao
@@ -204,10 +247,11 @@ INDEFINIDOS_ACEITOS = {
 IMPORTADOS_DO_PROJETO = {
     'refino': (
         r'\brefino\b',
-        r'[Oo] \*?\*?refino\*?\*? é',
-        'a Expansao de Dominio (v7.7) tem gate de refino, desconto de refino e '
-        'duracao por refino. O manual define o termo na caixa "REFINO, EM UMA LINHA" '
-        'da secao 7 e nao usa ele em mais lugar nenhum.'),
+        r'\*\*Refino\*\* mede',
+        'a Expansao de Dominio tem gate de refino, desconto de refino e duracao por '
+        'refino. Ate a v0.336 o .docx definia o termo na caixa "REFINO, EM UMA LINHA"; '
+        'desde a v0.337 a definicao e a do capitulo de Aptidoes do livro ("Refino mede '
+        'o dominio da energia amaldicoada"), que e o mesmo livro.'),
 }
 
 # termos que EXIGEM definicao no manual: se aparecerem sem uma linha que os
@@ -249,7 +293,9 @@ for nome, (rx, rx_def, motivo) in IMPORTADOS_DO_PROJETO.items():
         aviso(f'"{nome}" esta declarado como termo importado e nao aparece mais no '
               'manual — a declaracao virou peso morto')
         continue
-    defs = [t for _, t in usos if re.search(rx_def, t)]
+    # v0.337: a definicao pode estar em outro capitulo do mesmo livro (o Refino mora em
+    # Aptidoes e refino); os usos continuam contados so no Fundamento.
+    defs = [t for t in [t for _, t in usos] + livro.texto('aptidoes').split('\n') if re.search(rx_def, t)]
     if not defs:
         erro(f'"{nome}" e termo do PROJETO, aparece {len(usos)}x no manual e nunca e '
              'definido la. Quem le so o manual nao sabe o que ele e, e o gate que '
@@ -298,7 +344,7 @@ print()
 
 # (rotulo, o que o projeto assume, funcao que extrai do .docx)
 def _tabela_com(cabecalho_contem):
-    for t in _D.tables:
+    for t in TABELAS:
         hdr = ' | '.join(c.text.strip() for c in t.rows[0].cells)
         if all(k in hdr for k in cabecalho_contem):
             return t
@@ -329,31 +375,10 @@ else:
                  f'DONO: {DONO["PE"][0]} — entao o normal e regerar a coluna do manual, '
                  f'e nao mudar a peca 1. Se a decisao for a outra, mude os dois')
 
-# 4b. O DOCX precisa reproduzir o gerador; conferir-atributos 7.1 confere a formula contra os Caminhos.
-with open(os.path.join(AQUI, '..', '..', 'manual', 'gerador', 'partF.js'), encoding='utf-8') as _f_cal:
-    _fonte_cal = _f_cal.read().split("H2('Inimigos')")[1].split('GAP(')[0]
-CHEFE_NO_PROJETO = {int(n): int(v) for n, v in re.findall(r"\['(\d+)', '~\d+', '[\d a]+', '(\d+)', '\d+', '\d+'\]", _fonte_cal)}
-t = _tabela_com(['Chefe', 'Capanga'])
-if t is None:
-    erro('nao achei a tabela de inimigos no manual — o conferir-atributos.py copia '
-         'o dano de chefe dela para medir rodadas sob foco')
-    ok_num = False
-else:
-    print(f"\n  {'nivel':<8}{'chefe no manual':<18}{'no projeto':<14}bate?")
-    for r in t.rows[1:]:
-        cel = [c.text.strip() for c in r.cells]
-        try:
-            nv, dano = int(cel[0]), int(cel[3])
-        except (ValueError, IndexError):
-            continue
-        esperado = CHEFE_NO_PROJETO.get(nv)
-        bate = esperado == dano
-        print(f'  {nv:<8}{dano:<18}{str(esperado):<14}{"sim" if bate else "NAO"}')
-        if not bate:
-            ok_num = False
-            erro(f'inimigo: o manual diz {dano} de dano de chefe no nivel {nv} e o '
-                 f'gerador publica {esperado}. DONO: a formula da peca 1 e o gerador do manual. '
-                 f'A media dos Caminhos jogaveis e conferida pelo conferir-atributos.py')
+# 4b. Ate a v0.336 ela conferia que a tabela `Inimigos` do .docx reproduzia a do gerador
+# (partF.js). O .docx foi para o arquivo na v0.337, e a tabela passou a ser lida do
+# proprio gerador: comparar o gerador com ele mesmo nao confere nada, entao a 4b saiu.
+# A media dos Caminhos jogaveis continua conferida pelo conferir-atributos.py.
 
 # 4c. a coluna Rotina — a peca 6 usa ela para aprovar ataque extra e invocacao
 ROTINA_NO_PROJETO = {1: 13, 2: 31, 3: 45, 4: 63, 5: 76, 6: 94, 7: 108}
@@ -486,7 +511,7 @@ else:
         if all(_rotina_do_nivel(n) == v for n, v in _achados):
             print(f'    As {len(_vistos)} linhas de Rotina da peca 6 saem da coluna '
                   f'certa do manual,')
-            print('    e a faixa de cada Classe foi lida do .docx em vez de escrita aqui.')
+            print('    e a faixa de cada Classe foi lida da tabela da curva em vez de escrita aqui.')
 
 
 # --------------------------------------------------------------------------
@@ -517,9 +542,9 @@ def _dados(txt):
 
 _tr = _tabela_com(['Rotina', 'Feitico num alvo']) or _tabela_com(['Rotina', 'Feitiço num alvo'])
 _t0 = None
-for _t in _D.tables:
+for _t in TABELAS:
     _l = [[c.text.strip() for c in r.cells] for r in _t.rows]
-    if _l and _l[0][0].startswith('Seu n') and any(r[0] == 'Dano' for r in _l):
+    if _l and _l[0][0].startswith('Seu n') and any(r[0].startswith('Dano') for r in _l):
         _t0 = _l
         break
 
@@ -535,8 +560,10 @@ else:
     _is = next(n for n, c in enumerate(_cab) if 'Somando' in c)
 
     # o Classe 0 por FAIXA DE NIVEL, lido do .docx
-    _nv0 = [int(x) for x in _t0[0][1:]]
-    _dd0 = [int(re.match(r'(\d+)', x).group(1)) for x in _t0[2][1:]]
+    # v0.337: o livro escreve a faixa ("1 a 4", "5 a 10"); vale o comeco dela
+    _nv0 = [int(re.match(r'(\d+)', x).group(1)) for x in _t0[0][1:]]
+    _ldano = next(r for r in _t0 if r[0].startswith('Dano'))
+    _dd0 = [int(re.match(r'(\d+)', x).group(1)) for x in _ldano[1:]]
 
     def _c0_dados(nv):
         _v = _dd0[0]
@@ -844,15 +871,11 @@ print()
 print('  4i. a parede da Melhoria `Anteparo` contra a copia da peca 11')
 
 _ant_manual = None
-for _t in _D.tables:
-    for _r in _t.rows:
-        _cel = [c.text.strip() for c in _r.cells]
-        if _cel and _cel[0].strip() == 'Anteparo':
-            _mm = re.search(r'(\d+)\s*[×x]\s*Classe', ' | '.join(_cel))
-            if _mm:
-                _ant_manual = int(_mm.group(1))
+_mm = re.search(r'(\d+)\s*[×x]\s*Classe PV', livro.limpa(CAT.get('Anteparo', {}).get('texto', '')))
+if _mm:
+    _ant_manual = int(_mm.group(1))
 if _ant_manual is None:
-    erro('nao achei a Melhoria `Anteparo` no .docx — a peca 11 preca a `Barreira '
+    erro('nao achei a Melhoria `Anteparo` no Catalogo do livro — a peca 11 preca a `Barreira '
          'Simples` contra ela e a comparacao ficou sem dono')
 else:
     _p11m = os.path.join(AQUI, '11-aptidoes-e-refino.md')
@@ -884,40 +907,30 @@ else:
 print()
 print('  4j. a escada de frequencia do `Efeito Proprio` contra a copia da peca 11')
 
-_freq = None
-for _t in _D.tables:
-    for _r in _t.rows:
-        _cel = ' | '.join(c.text.strip() for c in _r.cells)
-        if 'Em quantas cenas por arco' in _cel:
-            _freq = _cel
-if _freq is None:
-    erro('nao achei no .docx a pergunta do `Efeito Proprio` — a peca 11 SS6.7 preca a '
-         '`Aptidao Propria` contra ela e a escada ficou sem dono')
+# v0.337: o livro reconstruido NAO publica esta escada. No Catalogo novo, o preco do
+# `Efeito Próprio` e' o mestre que define, comparando com as pecas de funcao mais
+# proxima, e o `Talento Próprio` usa a escada de Categoria de Efeito; a pergunta "em
+# quantas cenas por arco" ficou so para a `Restrição Própria`, com outros cortes. O
+# dono da escada saiu, e ela mora agora so na peca 11 SS6.7, que a usa para a
+# `Aptidao Propria`. A checagem confere que a copia continua inteira e registra que
+# ela nao tem mais com quem ser comparada; a migracao das Aptidoes decide se a peca
+# 11 segue o livro (PLANO.md, passo 5).
+_p11f = os.path.join(AQUI, '11-aptidoes-e-refino.md')
+with open(_p11f, encoding='utf-8') as _f:
+    _t11f = _f.read()
+_copia = re.findall(r'\| \*\*(uma|metade|quase toda)\*\* \| (Leve|Média|Pesada) \|', _t11f)
+_esp = [('uma', 'Leve'), ('metade', 'Média'), ('quase toda', 'Pesada')]
+_livro_tem = 'Em quantas cenas por arco' in _LIVRO_F
+if _livro_tem:
+    erro('o livro voltou a publicar a escada "Em quantas cenas por arco" — ela tem dono '
+         'de novo, e esta checagem precisa voltar a comparar a peca 11 SS6.7 com ele')
+elif _copia != _esp:
+    erro(f'a peca 11 SS6.7 tem a escada do `Efeito Proprio` como {_copia}, e ela era '
+         f'{_esp} quando o manual v7 era o dono — a copia mudou sem dono para conferir')
 else:
-    _tres = [(k, v) for k, v in (('Uma cena', 'Leve'), ('Metade', 'Média'),
-                                 ('Quase toda', 'Pesada'))
-             if f'{k}: {v}' in _freq]
-    if len(_tres) != 3:
-        erro(f'a escada do `Efeito Proprio` no .docx nao tem as tres faixas na ordem '
-             f'esperada — achei {len(_tres)}. A peca 11 SS6.7 mapeia as tres para os '
-             f'tres degraus de Classe Passiva, e o mapa quebrou')
-    elif 'Na dúvida, Pesada' not in _freq:
-        erro('o manual parou de dizer "Na duvida, Pesada" na escada do `Efeito '
-             'Proprio` — e o desempate e o que faz a peca 11 SS6.7 RECUSAR a proposta '
-             'em vez de aceitar')
-    else:
-        _p11f = os.path.join(AQUI, '11-aptidoes-e-refino.md')
-        with open(_p11f, encoding='utf-8') as _f:
-            _t11f = _f.read()
-        _copia = re.findall(r'\| \*\*(uma|metade|quase toda)\*\* \| (Leve|Média|Pesada) \|',
-                            _t11f)
-        _esp = [('uma', 'Leve'), ('metade', 'Média'), ('quase toda', 'Pesada')]
-        if _copia != _esp:
-            erro(f'a peca 11 SS6.7 copiou a escada do `Efeito Proprio` como {_copia} e o '
-                 f'manual diz {_esp} — as duas copias divergiram')
-        else:
-            print('    [x] as tres faixas batem: uma/Leve, metade/Media, quase toda/Pesada.')
-            print('    [x] o desempate "Na duvida, Pesada" continua nos dois.')
+    print('    [x] a peca 11 SS6.7 guarda a escada uma/Leve, metade/Media, quase toda/Pesada.')
+    aviso('4j: o livro nao publica mais a escada do `Efeito Proprio`, e a copia da peca 11 '
+          'SS6.7 nao tem com quem ser comparada ate a migracao das Aptidoes')
 
 
 # --------------------------------------------------------------------------
@@ -936,20 +949,18 @@ else:
 #
 # NADA ESCRITO AQUI: as tres linhas saem do .docx, e as tres saem da peca 11.
 print()
-print('  4k. as Passivas por Classe Passiva no .docx contra a copia da peca 11 SS4')
+print('  4k. os Talentos por Categoria de Efeito no livro contra a copia da peca 11 SS4')
 
+# v0.337: o dono e' o Catalogo do livro, onde cada Talento mora na pagina da Categoria
+# dele (livro.catalogo() le a Categoria do titulo da pagina). Ate a v0.336 era a
+# tabela `Passiva | Classe | O que faz` do .docx.
 _pv_manual = {'1': [], '2': [], '3': []}
-for _t in _D.tables:
-    _cab = [c.text.strip() for c in _t.rows[0].cells] if _t.rows else []
-    if _cab[:3] != ['Passiva', 'Classe', 'O que faz']:
-        continue
-    for _r in _t.rows[1:]:
-        _cel = [c.text.strip() for c in _r.cells]
-        if len(_cel) >= 2 and _cel[1] in _pv_manual:
-            _pv_manual[_cel[1]].append(renomes.traduz_nome(_cel[0], 'Passiva'))
+for _n, _d in CAT.items():
+    if _d['tipo'] == 'Talento' and _d['preco'] in _pv_manual:
+        _pv_manual[_d['preco']].append(_n)
 
 if not all(_pv_manual.values()):
-    erro('nao achei a lista de Passivas do .docx com as tres alturas preenchidas — '
+    erro('nao achei os Talentos do livro com as tres Categorias preenchidas — '
          'achei ' + repr({k: len(v) for k, v in _pv_manual.items()}) + '. A peca 11 SS4 '
          'copia essa lista como prova da escada, e a comparacao ficou sem dono')
 else:
@@ -970,26 +981,26 @@ else:
         for _cl in ('1', '2', '3'):
             if _pv_peca[_cl] != _pv_manual[_cl]:
                 _ruim = True
-                erro(f'Classe Passiva {_cl}: o manual lista {_pv_manual[_cl]} e a peca 11 '
+                erro(f'Categoria de Efeito {_cl}: o livro lista {_pv_manual[_cl]} e a peca 11 '
                      f'SS4 copiou {_pv_peca[_cl]} — as duas copias divergiram, e a coluna '
                      f'da peca existe justamente para provar que a escada saiu do manual')
         if not _ruim:
-            print('    [x] ' + ' · '.join(f'Classe Passiva {c}: {len(_pv_manual[c])}'
+            print('    [x] ' + ' · '.join(f'Categoria de Efeito {c}: {len(_pv_manual[c])}'
                                           for c in ('1', '2', '3')) +
                   ' — as tres linhas batem, nome por nome e na mesma ordem.')
 
 # guarda: `Regra Propria` e `Passiva Propria` sao `1 a 3` e nao podem aparecer em
 # nenhuma das tres linhas dos dois lados. Se o manual passar a dar altura fixa a
 # uma delas, a comparacao acima muda de forma e esta guarda acusa primeiro.
-_flex = [_c[0] for _t in _D.tables for _c in
-         ([[x.text.strip() for x in _r.cells] for _r in _t.rows])
-         if len(_c) >= 2 and _c[1] == '1 a 3']
-if sorted(_flex) != ['Passiva Própria', 'Regra Própria']:
-    erro(f'as Passivas de altura flexivel do .docx mudaram: achei {sorted(_flex)} e '
-         f'esperava a `Regra Própria` e a `Passiva Própria`. A checagem 4k deixa as '
-         f'duas de fora das tres linhas, e essa exclusao deixou de valer')
+# v0.337: no livro, as duas sao paginas inteiras do Catalogo, fora das paginas de
+# Categoria — livro.catalogo() da a elas Categoria nenhuma (preco None).
+_flex = [_n for _n, _d in CAT.items() if _d['tipo'] == 'Talento' and _d['preco'] is None]
+if sorted(_flex) != ['Regra Própria', 'Talento Próprio']:
+    erro(f'os Talentos sem Categoria fixa do livro mudaram: achei {sorted(_flex)} e '
+         f'esperava a `Regra Própria` e o `Talento Próprio`. A checagem 4k deixa os '
+         f'dois de fora das tres linhas, e essa exclusao deixou de valer')
 else:
-    print('    [x] a `Regra Própria` e a `Passiva Própria` continuam `1 a 3`, fora das tres.')
+    print('    [x] a `Regra Própria` e o `Talento Próprio` continuam sem Categoria fixa, fora das tres.')
 
 
 # --------------------------------------------------------------------------
@@ -1004,21 +1015,18 @@ else:
 print()
 print('  4l. a Regra Propria gratis na criacao: a subida, o teto e as cinco copias')
 
+# v0.337: o custo e o nivel de cada Categoria saem da primeira frase da pagina dela no
+# Catalogo do livro ("Nivel minimo 7. Custo: 2 espacos de feitico por Talento."). Ate a
+# v0.336 saiam da tabela `Classe | Custa | Libera no nivel` do .docx.
 _custa, _libera = {}, {}
-for _t in _D.tables:
-    _cab = [c.text.strip() for c in _t.rows[0].cells] if _t.rows else []
-    if _cab[:3] != ['Classe', 'Custa', 'Libera no nível']:
-        continue
-    for _r in _t.rows[1:]:
-        _cel = [c.text.strip() for c in _r.cells]
-        _m = re.match(r'(\d+) espaço', _cel[1])
-        if _cel[0] in ('1', '2', '3') and _m and re.fullmatch(r'\d+', _cel[2]):
-            _custa[int(_cel[0])] = int(_m.group(1))
-            _libera[int(_cel[0])] = int(_cel[2])
+for _m in re.finditer(r'^# Talentos de Categoria (\d)\s*\n\s*\n\*\*Nível mínimo (\d+)\. Custo: (\d+) espaços? de feitiço por Talento\.\*\*',
+                      _TXT['catalogo'], re.M):
+    _custa[int(_m.group(1))] = int(_m.group(3))
+    _libera[int(_m.group(1))] = int(_m.group(2))
 _p1t = open(os.path.join(AQUI, '01-atributos-acerto-defesa.md'), encoding='utf-8').read()
 _mn = re.search(r'A ficha começa no \*{0,2}nível (\d+)', _p1t)
 if sorted(_custa) != [1, 2, 3] or not _mn:
-    erro(f'4l: nao li o custo das tres Classes Passivas no .docx ({_custa}) ou o nivel em que a '
+    erro(f'4l: nao li o custo das tres Categorias de Efeito no livro ({_custa}) ou o nivel em que a '
          f'ficha comeca na peca 1 ({bool(_mn)}) — sem os dois a regra da Regra Propria gratis '
          'nao tem de onde derivar')
 else:
@@ -1026,8 +1034,6 @@ else:
     _teto = max(c for c in (1, 2, 3) if _libera[c] <= _nv0)
     _d2, _d3 = _custa[2] - _custa[1], _custa[3] - _custa[1]
     _esp = lambda n: 'espaço' if n == 1 else 'espaços'
-    _texto_docx = '\n'.join([p.text for p in _D.paragraphs] +
-                            [c.text for t_ in _D.tables for r_ in t_.rows for c in r_.cells])
     _livro = os.path.join(AQUI, '..', '05-material', 'livro', 'manual')
     _l9 = open(os.path.join(_livro, '40-fundamento.md'), encoding='utf-8').read()
     _l6 = open(os.path.join(_livro, '20-criacao-de-personagem.md'), encoding='utf-8').read()
@@ -1046,13 +1052,22 @@ else:
             _ok4l = False
             erro(f'4l: {onde} ainda diz "{frase}" — a frase que a decisao de 19/09/2026 tirou')
 
-    # o .docx, que e o dono
-    _quer('o .docx', _texto_docx, f'Na criação, a Regra Própria vem de graça em Classe {_teto}: ela não gasta espaço de feitiço')
-    _quer('o .docx', _texto_docx, f'a Classe {_teto} é o teto dela até os níveis liberarem as maiores')
-    _quer('o .docx', _texto_docx, f'pagando só a diferença pra Classe 1: {_d2} {_esp(_d2)} pra Classe 2, e {_d3} pra Classe 3')
-    _quer('o .docx', _texto_docx, 'A Passiva Livre e a Regra Própria não contam')
-    _quer('o .docx', _texto_docx, f'uma Regra Própria, de graça, em Classe {_teto}')
-    _proibe('o .docx', _texto_docx, 'única Passiva que pode ser comprada em Classe 1')
+    # o livro, que e o dono desde a v0.337: a tabela da pagina da Regra Propria diz a
+    # mesma regra com outra forma — a Categoria do teto nao ocupa espaco, e as maiores
+    # ocupam a diferenca para a Categoria 1, no nivel em que cada uma abre.
+    _rp = {}
+    try:
+        for _r in livro.tabela(CAT['Regra Própria']['texto'], 'Categoria de Efeito', 'Nível mínimo', 'Espaços ocupados'):
+            _rp[int(_r['Categoria de Efeito'])] = (int(_r['Nível mínimo']), _r['Espaços ocupados'])
+    except (livro.LivroMudou, KeyError, ValueError) as _e4l:
+        _quer('o livro', '', f'a tabela da Regra Própria ({_e4l})')
+    if _rp:
+        if not _rp.get(_teto, (None, ''))[1].startswith('Nenhum'):
+            _quer('o livro', '', f'"Nenhum" espaco na Categoria {_teto} da Regra Própria (a de graca na criacao)')
+        for _c, _d in ((2, _d2), (3, _d3)):
+            if _rp.get(_c) != (_libera[_c], f'{_d} {_esp(_d)} no total.'):
+                _quer('o livro', '', f'Categoria {_c} da Regra Própria no nivel {_libera[_c]} com "{_d} {_esp(_d)} no total." (achei {_rp.get(_c)})')
+    _quer('o livro', _LIVRO_F, 'Regra Própria não conta no máximo de cinco Talentos pagos')
     # a copia do livro (capitulo 9) e as duas listas de criacao (capitulo 6 e peca 8)
     _quer('o capitulo 9 do livro', _l9, f'Na criação, a `Regra Própria` vem de graça em Classe Passiva {_teto}: ela não gasta espaço de feitiço')
     _quer('o capitulo 9 do livro', _l9, f'pagando só a diferença para a Classe Passiva 1: {_d2} {_esp(_d2)} para a Classe Passiva 2, e {_d3} para a 3')
@@ -1063,7 +1078,7 @@ else:
     _quer('a peca 8', _p8, f'a **Regra Própria** de Classe {_teto} vem junto, também de graça')
     if _ok4l:
         print(f'    [x] a Regra Propria vem gratis em Classe {_teto} (a mais alta aberta no nivel {_nv0}); '
-              f'subir custa {_d2} e {_d3} {_esp(_d3)} (a diferenca para a Classe 1, lida da coluna Custa); '
+              f'subir custa {_d2} e {_d3} {_esp(_d3)} (a diferenca para a Categoria 1, lida do Catalogo do livro); '
               'as cinco copias dizem o mesmo e a frase antiga sumiu.')
 
 
@@ -1074,7 +1089,9 @@ else:
 # dela). Esta checagem guarda as COPIAS: o `Carregar` (usa a mesma CD, com teste de
 # Espirito), a corrida de dominios (que passou a ser a mesma rolagem, so com a contagem
 # trocada), o capitulo 2 e o glossario. Nenhum numero e' escrito aqui: o `10` da Mao Firme
-# sai da Passiva no .docx (o dono) e tem de ser o mesmo nas outras tres copias.
+# sai do Talento no livro (o dono desde a v0.337; ate a v0.336, o .docx) e tem de ser o
+# mesmo nas outras tres copias. O livro escreve a regra com outras palavras ("TR Espirito
+# contra a CD de quem o feriu"); as copias do livro v0.331 continuam com a frase de antes.
 print()
 print('  4m. a Concentracao contra a CD de quem te feriu: as copias, a frase antiga e a Mao Firme')
 
@@ -1087,8 +1104,7 @@ def _le_m(*partes):
 
 
 _sem_md = lambda t: t.replace('**', '').replace('`', '')
-_docx_m = '\n'.join([p.text for p in _D.paragraphs] +
-                    [c.text for t_ in _D.tables for r_ in t_.rows for c in r_.cells])
+_novo_m = livro.limpa(_TXT['catalogo'] + '\n' + _TXT['poderes'])
 _c2m = _sem_md(_le_m('manual', '11-o-turno.md') or '')
 _c9m = _sem_md(_le_m('manual', '40-fundamento.md') or '')
 _glm = _sem_md(_le_m('manual', '07-glossario.md') or '')
@@ -1118,8 +1134,14 @@ _MAIOR = 'e contra a maior CD entre eles'
 _VELHAS = ('ou metade do dano, o que for maior', 'ou metade do dano que você tomou',
            'CD do dono do outro domínio', 'com a CD e a contagem trocadas')
 
-# o .docx (dono) e o capitulo 9 (copia)
-for _onde, _t in (('o .docx', _docx_m), ('o capitulo 9 do livro', _c9m)):
+# o livro reconstruido (dono), com a redacao dele
+_quer_m('o livro', livro.limpa(CAT['Carregar']['texto']), 'TR Espírito contra a CD de quem o feriu')
+_quer_m('o livro', _novo_m, 'receber dano exige TR de Vigor contra a CD de quem causou o dano')
+_quer_m('o livro', livro.limpa(livro.texto('regras-gerais')), 'TR de Vigor contra a CD de quem causou o dano')
+# a "maior CD entre eles" do v7: o livro rola uma vez e compara o mesmo total com cada CD maior
+_quer_m('o livro', _novo_m, 'compare o mesmo total à nova CD')
+# o capitulo 9 do livro v0.331 (copia congelada)
+for _onde, _t in (('o capitulo 9 do livro', _c9m),):
     _quer_m(_onde, _t, _CARREGAR)
     _quer_m(_onde, _t, _CORRIDA)
     _quer_m(_onde, _t, _MAIOR)
@@ -1131,7 +1153,7 @@ _quer_m('o capitulo 9 do livro', _c9m, 'a mesma rolagem de Vigor da Concentraç�
 _quer_m('o glossario do livro', _glm, 'tomar dano pede Teste de Resistência de Vigor contra a CD de quem te feriu')
 _quer_m('a peca 3', _p3m, 'Cada golpe que acerta quem concentra pede um teste')
 # a frase antiga, em todo lugar que publica a regra
-for _onde, _t in (('o .docx', _docx_m), ('o capitulo 2 do livro', _c2m), ('o capitulo 9 do livro', _c9m),
+for _onde, _t in (('o livro', _novo_m), ('o capitulo 2 do livro', _c2m), ('o capitulo 9 do livro', _c9m),
                   ('o glossario do livro', _glm), ('o texto compilado do livro', _txm)):
     if _t is None:
         continue
@@ -1144,11 +1166,12 @@ if _txm is not None:
 else:
     print('    ~~ o texto compilado do livro nao existe: as copias dele nao foram conferidas')
 
-# a Mao Firme: o dono e o .docx; as outras tres copias tem de dizer o mesmo numero
-_mf = re.search(r'não perde concentração nem carga por dano de (\d+) ou menos', _docx_m)
+# a Mao Firme: o dono e o livro; as outras tres copias tem de dizer o mesmo numero
+_mf = re.search(r'causar (\d+) pontos ou menos, você não precisa fazer o teste para manter Concentração ou Carregar',
+                livro.limpa(CAT.get('Mão Firme', {}).get('texto', '')))
 if not _mf:
     _ok4m = False
-    erro('4m: a Passiva `Mão Firme` saiu do .docx, ou parou de dizer "por dano de N ou menos" — '
+    erro('4m: o Talento `Mão Firme` saiu do livro, ou parou de dizer "N pontos ou menos" — '
          'sem ela nao ha de onde ler o numero que as copias repetem')
 else:
     _nmf = _mf.group(1)
@@ -1162,7 +1185,7 @@ else:
             erro(f'4m: {_onde} nao diz a regra da Mao Firme ({_rx})')
         elif _mx.group(1) != _nmf:
             _ok4m = False
-            erro(f'4m: {_onde} diz "dano de {_mx.group(1)} ou menos" e a Passiva do .docx diz {_nmf}')
+            erro(f'4m: {_onde} diz "dano de {_mx.group(1)} ou menos" e o Talento do livro diz {_nmf}')
 if _ok4m:
     print('    [x] o Carregar, a corrida, o capitulo 2, o glossario e a peca 3 dizem a CD de quem te feriu; '
           'nenhuma copia guarda a regra antiga; a Mao Firme diz o mesmo numero nas quatro.')
@@ -1188,22 +1211,24 @@ def _erro_n(msg):
 
 _semmd = lambda t: t.replace('**', '').replace('`', '').strip()
 
-# --- o dono: as duas linhas e a tabela de duracao do .docx ---
-_linhas_d, _dur_d, _n_melhorias = {}, [], 0
-for _t in _D.tables:
-    _cab = [c.text.strip() for c in _t.rows[0].cells] if _t.rows else []
-    if _cab[:3] == ['Melhoria', 'Custo', 'O que faz']:
-        _n_melhorias += len(_t.rows) - 1
-        for _r in _t.rows[1:]:
-            _v = [c.text.strip() for c in _r.cells]
-            if _v[0] in ('Concentrada', 'Duradoura'):
-                _linhas_d[_v[0]] = (_v[1], _v[2])
-    elif _cab[:3] == ['O que o efeito faz', 'Concentrada', 'Duradoura']:
-        _dur_d = [[c.text.strip() for c in _r.cells] for _r in _t.rows[1:]]
-if set(_linhas_d) != {'Concentrada', 'Duradoura'} or not _dur_d:
-    _erro_n(f'nao achei no .docx as duas Melhorias ({sorted(_linhas_d)}) ou a tabela de duracao ({len(_dur_d)} linhas)')
+# --- o dono: as duas Melhorias e a tabela de duracao do livro (v0.337; ate a v0.336, o .docx) ---
+# O livro escreve as duas num titulo so e a tabela com outra redacao, entao as copias do
+# livro v0.331 deixaram de ser comparaveis frase a frase com o dono. O que se confere:
+# o dono tem as duas, a tabela e a frase da Condicao; e as duas copias congeladas (o
+# capitulo 9 e o texto compilado) continuam dizendo a MESMA coisa uma que a outra.
+_tem_dono = {n for n in ('Concentrada', 'Duradoura') if CAT.get(n, {}).get('familia')}
+try:
+    _dur_d = livro.tabela(CAT['Concentrada']['texto'], 'Efeito prolongado', 'Concentrada', 'Duradoura')
+except (livro.LivroMudou, KeyError):
+    _dur_d = []
+if _tem_dono != {'Concentrada', 'Duradoura'} or len(_dur_d) != 3:
+    _erro_n(f'nao achei no livro as duas Melhorias ({sorted(_tem_dono)}) ou a tabela de duracao ({len(_dur_d)} linhas)')
+elif 'salvo duração diferente da ficha' not in livro.limpa(CAT.get('Condição', {}).get('texto', '')):
+    _erro_n('a Melhoria Condição do livro parou de dizer que a duracao de uma rodada vale "salvo '
+            'duração diferente da ficha" — e e por ai que a Concentrada e a Duradoura entram')
 else:
-    # --- o livro (cap. 9) e o texto compilado: linha a linha ---
+    # --- as duas copias congeladas, uma contra a outra ---
+    _copias_n = {}
     for _onde, _t in (('o capitulo 9 do livro', _le_m('manual', '40-fundamento.md')),
                       ('o texto compilado do livro', _le_m('Projeto-M-Manual-da-Guilda-TEXTO.md'))):
         if _t is None:
@@ -1214,12 +1239,6 @@ else:
             _m = re.match(r'^\|\s*`(Concentrada|Duradoura)`\s*\|\s*`?([^|`]+?)`?\s*\|\s*(.*?)\s*\|\s*$', _l)
             if _m:
                 _lin[_m.group(1)] = (_m.group(2).strip(), _semmd(_m.group(3)))
-        for _nome, (_custo, _texto) in _linhas_d.items():
-            if _nome not in _lin:
-                _erro_n(f'{_onde} nao tem a linha da `{_nome}`')
-            elif _lin[_nome] != (_custo, _texto):
-                _erro_n(f'{_onde}: a linha da `{_nome}` difere do .docx: {_lin[_nome]} contra {(_custo, _texto)}')
-        # a tabela de duracao
         _rows = []
         _ini = _t.find('| O que o efeito faz | Concentrada | Duradoura |')
         if _ini >= 0:
@@ -1227,13 +1246,21 @@ else:
                 if not _l.startswith('|'):
                     break
                 _rows.append([_semmd(c) for c in _l.strip().strip('|').split('|')])
-        if _rows != [[_semmd(x) for x in _r] for _r in _dur_d]:
-            _erro_n(f'{_onde}: a tabela de duracao difere da do .docx: {_rows} contra {_dur_d}')
-    # --- a Condicao diz que a duracao de uma rodada pode ser trocada ---
+        if set(_lin) != {'Concentrada', 'Duradoura'} or len(_rows) != 3:
+            _erro_n(f'{_onde} perdeu a linha de uma das duas ({sorted(_lin)}) ou a tabela de duracao ({len(_rows)} linhas)')
+        # o custo da copia tem de ser o do dono
+        for _nome, (_custo, _x) in _lin.items():
+            if _custo != CAT[_nome]['preco']:
+                _erro_n(f'{_onde}: a `{_nome}` custa {_custo} e o livro diz {CAT[_nome]["preco"]}')
+        _copias_n[_onde] = (_lin, _rows)
+    if len(_copias_n) == 2:
+        (_o1, _c1), (_o2, _c2) = _copias_n.items()
+        if _c1 != _c2:
+            _erro_n(f'{_o1} e {_o2} divergiram nas linhas ou na tabela da Concentrada e da Duradoura')
+    # --- a Condicao diz que a duracao de uma rodada pode ser trocada, na copia ---
     _frase = 'a não ser que o feitiço tenha a Concentrada ou a Duradoura'
-    for _onde, _t in (('o .docx', _docx_m), ('o capitulo 9 do livro', _c9m)):
-        if _t.count(_frase) < 2:
-            _erro_n(f'{_onde} diz "{_frase}" {_t.count(_frase)} vez(es) e a Condicao pede 2 (a linha do catalogo e a frase das condicoes)')
+    if _c9m.count(_frase) < 2:
+        _erro_n(f'o capitulo 9 do livro diz "{_frase}" {_c9m.count(_frase)} vez(es) e a Condicao pede 2 (a linha do catalogo e a frase das condicoes)')
     # --- o capitulo 2 e o glossario ---
     if 'A Duradoura faz o mesmo sem pedir concentração.' not in _c2m:
         _erro_n('o capitulo 2 do livro nao diz "A Duradoura faz o mesmo sem pedir concentracao."')
@@ -1241,23 +1268,20 @@ else:
         _gl = re.search(r'\|\s*\*\*`' + _nome_gl + r'`\*\*\s*\|[^|]+\|\s*(\d+)\s*\|', _le_m('manual', '07-glossario.md') or '')
         if not _gl or _gl.group(1) != '9':
             _erro_n(f'o glossario nao tem a entrada da `{_nome_gl}` apontando para o capitulo 9')
-    # --- a contagem por extenso ---
-    _U = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9,
-          'dez': 10, 'onze': 11, 'doze': 12, 'treze': 13, 'catorze': 14, 'quinze': 15, 'dezesseis': 16, 'dezessete': 17,
-          'dezoito': 18, 'dezenove': 19}
-    _Z = {'vinte': 20, 'trinta': 30, 'quarenta': 40, 'cinquenta': 50, 'sessenta': 60, 'setenta': 70, 'oitenta': 80, 'noventa': 90}
-    _mc = re.search(r'([A-Za-zçãéêíóú]+(?: e [a-zçãéêíóú]+)?) Melhorias, em nove Famílias', _docx_m)
-    if not _mc:
-        _erro_n('o .docx parou de escrever por extenso "N Melhorias, em nove Famílias"')
-    else:
-        _pal = _mc.group(1).lower().split(' e ')
-        _val = (_Z.get(_pal[0], 0) + _U.get(_pal[1], 0)) if len(_pal) == 2 else (_U.get(_pal[0]) or _Z.get(_pal[0]))
-        if _val != _n_melhorias:
-            _erro_n(f'o .docx escreve "{_mc.group(1)}" ({_val}) Melhorias e as tabelas do catalogo tem {_n_melhorias} linhas')
+    # --- a contagem ---
+    # v0.337: o .docx escrevia "Sessenta e nove Melhorias, em nove Familias", e esta
+    # checagem cobrava o numero por extenso contra as tabelas. O livro nao escreve a
+    # contagem de Melhorias; escreve so que elas "se dividem em nove Familias", e e'
+    # isso que se cobra, contra a tabela de Familias dele.
+    _n_melhorias = sum(1 for d in CAT.values() if d['tipo'] == 'Melhoria')
+    _nf = len(livro.familias())
+    if 'se dividem em nove Famílias' not in _LIVRO_F or _nf != 9:
+        _erro_n(f'o livro parou de dizer que as Melhorias "se dividem em nove Famílias", ou a tabela tem {_nf}')
+    _mc = None
 if _ok4n:
-    print(f'    [x] as duas linhas e a tabela de duracao do .docx estao no capitulo 9 e no texto compilado; a Condicao diz que a '
-          f'duracao pode ser trocada; o capitulo 2 e o glossario falam delas; "{_mc.group(1) if _mc else "?"} Melhorias" '
-          f'e o que as tabelas contam ({_n_melhorias}).')
+    print(f'    [x] o livro tem as duas e a tabela de duracao, e a Condicao abre a porta; o capitulo 9 e o texto '
+          f'compilado dizem o mesmo um que o outro, com o custo do livro; o capitulo 2 e o glossario falam delas; '
+          f'o livro divide as {_n_melhorias} Melhorias em nove Familias.')
 
 
 # 4o. v0.255: o `Alvo de Caça` (a Melhoria de buff de dano, na Familia `Marca`), a frase que
@@ -1277,22 +1301,15 @@ def _erro_o(msg):
     erro(f'4o: {msg}')
 
 
-# --- o dono: a linha do `Alvo de Caça` e a tabela em que ela mora ---
-_adc_d, _fam_d = None, None
-for _t in _D.tables:
-    _cab = [c.text.strip() for c in _t.rows[0].cells] if _t.rows else []
-    if _cab[:3] == ['Melhoria', 'Custo', 'O que faz']:
-        _nomes = [_r.cells[0].text.strip() for _r in _t.rows]
-        for _r in _t.rows[1:]:
-            _v = [c.text.strip() for c in _r.cells]
-            if _v[0] == 'Alvo de Caça':
-                _adc_d, _fam_d = (_v[1], _v[2]), _nomes
-if _adc_d is None:
-    _erro_o('nao achei a linha do `Alvo de Caça` no .docx — ela e a dona de tudo que vem abaixo')
-elif 'Marca' not in _fam_d:
-    _erro_o(f'a linha do `Alvo de Caça` nao esta na tabela da Familia `Marca`: {_fam_d}')
+# --- o dono: o `Alvo de Caça` no Catalogo do livro, na Familia da `Marca` (v0.337) ---
+_adc = CAT.get('Alvo de Caça')
+if _adc is None:
+    _erro_o('nao achei o `Alvo de Caça` no Catalogo do livro — ele e o dono de tudo que vem abaixo')
+elif _adc.get('familia') != CAT.get('Marca', {}).get('familia'):
+    _erro_o(f'o `Alvo de Caça` nao esta na Familia da `Marca`: {_adc.get("familia")}')
 else:
-    # --- as copias da linha: cap. 9 e texto compilado ---
+    # --- as copias congeladas: cap. 9 e texto compilado, uma contra a outra e com o custo do livro ---
+    _achados_o = {}
     for _onde, _t in (('o capitulo 9 do livro', _le_m('manual', '40-fundamento.md')),
                       ('o texto compilado do livro', _le_m('Projeto-M-Manual-da-Guilda-TEXTO.md'))):
         if _t is None:
@@ -1305,23 +1322,34 @@ else:
                 _achou = (_m.group(1).strip(), _semmd(_m.group(2)))
         if _achou is None:
             _erro_o(f'{_onde} nao tem a linha do `Alvo de Caça`')
-        elif _achou != (_adc_d[0], _semmd(_adc_d[1])):
-            _erro_o(f'{_onde}: a linha do `Alvo de Caça` difere do .docx: {_achou} contra '
-                    f'{(_adc_d[0], _semmd(_adc_d[1]))}')
+        elif _achou[0] != _adc['preco']:
+            _erro_o(f'{_onde}: o `Alvo de Caça` custa {_achou[0]} e o livro diz {_adc["preco"]}')
+        else:
+            _achados_o[_onde] = _achou
+    if len(set(_achados_o.values())) > 1:
+        _erro_o(f'as duas copias do `Alvo de Caça` divergiram: {_achados_o}')
     # --- o glossario aponta para o capitulo 9 ---
     _glo = re.search(r'\|\s*\*\*`Alvo de Caça`\*\*\s*\|[^|]+\|\s*(\d+)\s*\|',
                      _le_m('manual', '07-glossario.md') or '')
     if not _glo or _glo.group(1) != '9':
         _erro_o('o glossario nao tem a entrada do `Alvo de Caça` apontando para o capitulo 9')
 
-# --- o `Efeito Próprio` conta como Melhoria: as TRES copias, nos dois documentos ---
+# --- o `Efeito Próprio` conta como Melhoria ---
+# no livro (dono): na entrada do Catalogo e na tabela de limite do Fundamento
+for _rot, _txt, _frase in (('a entrada do Catalogo', livro.limpa(CAT.get('Efeito Próprio', {}).get('texto', '')),
+                            'contando no limite de Melhorias da Classe'),
+                           ('a regra do limite no Fundamento', livro.limpa(_TXT['fundamento']),
+                            'O Efeito Próprio conta como uma.')):
+    if _frase not in _txt:
+        _erro_o(f'o livro: {_rot} nao diz que o `Efeito Próprio` conta como Melhoria ("{_frase}")')
+# na copia congelada (cap. 9), as TRES copias da frase
 _FRASE_EP = 'conta como uma Melhoria'
 _COPIAS_EP = (
     ('a linha do catalogo', 'Um por feitiço'),
     ('a frase depois da tabela de limite', 'A Forma não conta como Melhoria.'),
     ('a regra de ouro 3', 'Restrições: até 2.'),
 )
-for _onde, _txt in (('o .docx', _docx_m), ('o capitulo 9 do livro', _c9m)):
+for _onde, _txt in (('o capitulo 9 do livro', _c9m),):
     for _rot, _anc in _COPIAS_EP:
         _linhas = [_l for _l in _txt.split('\n') if _anc in _l]
         if not _linhas:
@@ -1333,9 +1361,17 @@ for _onde, _txt in (('o .docx', _docx_m), ('o capitulo 9 do livro', _c9m)):
         if 'Um por feitiço' in _l and _FRASE_EP not in _l:
             _erro_o(f'{_onde} ainda tem "Um por feitiço" sem "{_FRASE_EP}": {_l.strip()[:90]}')
 
-# --- o paragrafo do combo, com as tres frases-chave ---
+# --- o combo ---
+# v0.337: o livro reconstruido FECHOU a porta que o v7 deixava ao mestre ("pode aprovar
+# por menos pontos ou menos espaco, por conta e risco, e o manual nao recomenda"): no
+# livro, juntar duas Melhorias sob um nome nao reduz preco nem vaga, sem excecao. O dono
+# e' o livro; a copia congelada (cap. 9) fica com o paragrafo antigo ate ser trocada.
+for _frase in ('Reunir duas Melhorias sob um nome não reduz seu preço nem a quantidade ocupada',
+               'Um novo nome não reúne várias compras em uma só'):
+    if _frase not in _LIVRO_F:
+        _erro_o(f'o livro nao diz mais "{_frase}" — e a regra do combo, sem ela a ficha junta duas Melhorias por uma')
 _CHAVES = ('duas Melhorias escritas como uma', 'soma dos preços', 'por conta e risco', 'não recomenda')
-for _onde, _txt in (('o .docx', _docx_m), ('o capitulo 9 do livro', _c9m)):
+for _onde, _txt in (('o capitulo 9 do livro', _c9m),):
     _par = [_l for _l in _txt.split('\n') if 'Duas Melhorias escritas como uma' in _l]
     if not _par:
         _erro_o(f'{_onde} nao tem o paragrafo do combo ("Duas Melhorias escritas como uma")')
@@ -1345,9 +1381,9 @@ for _onde, _txt in (('o .docx', _docx_m), ('o capitulo 9 do livro', _c9m)):
             _erro_o(f'{_onde}: o paragrafo do combo nao diz "{_k}"')
 
 if _ok4o:
-    print(f'    [x] a linha do `Alvo de Caça` ({_adc_d[0]}) esta na tabela da `Marca` do .docx, no '
-          f'capitulo 9 e no texto compilado, e o glossario aponta para o 9; o `Efeito Próprio` diz '
-          f'que conta nas tres copias dos dois documentos; o paragrafo do combo tem as frases-chave.')
+    print(f'    [x] o `Alvo de Caça` ({_adc["preco"]}) esta na Familia da `Marca` no livro, e o capitulo 9 e o '
+          f'texto compilado dizem o mesmo um que o outro; o glossario aponta para o 9; o `Efeito Próprio` conta '
+          f'no livro e nas tres copias do capitulo 9; o livro fecha o combo, e o capitulo 9 guarda o paragrafo antigo.')
 
 
 # --------------------------------------------------------------------------
@@ -1365,36 +1401,25 @@ bloco('5. O PORTAO DAS LINHAS DE CONTROLE — quem prende o alvo diz como solta'
 # `Puxa` e `Desarma o Feitico` acontecem e acabam. Nenhum dos quatro entra, e
 # nenhum deles esta nomeado neste arquivo.
 
-_tc = _tabela_com(['Melhoria', 'O que faz'])
-_ctrl = []
-if _tc is None:
-    erro('5: nao achei a tabela de Melhorias no .docx — a checagem do portao de '
-         'Controle ficou sem chao')
-else:
-    # o catalogo tem uma tabela por Familia, todas com o mesmo cabecalho: a de
-    # Controle e' a que carrega a Melhoria `Condicao`.
-    for _t5 in _D.tables:
-        _h5 = ' | '.join(c.text.strip() for c in _t5.rows[0].cells)
-        if 'Melhoria' not in _h5 or 'O que faz' not in _h5:
-            continue
-        _linhas5 = [[c.text.strip() for c in r.cells] for r in _t5.rows[1:]]
-        if any(l and l[0] == 'Condição' for l in _linhas5):
-            _ctrl = _linhas5
-            break
-
+# v0.337: as linhas saem do Catalogo do livro, Familia Controle (ate a v0.336, da
+# tabela de Controle do .docx). O texto do livro e' mais longo e usa "TR" e "a aplicacao
+# termina" onde o .docx dizia "Teste de Resistencia" e "Acaba": os padroes abaixo
+# aceitam as duas redacoes, e nenhum nome de Melhoria esta escrito aqui.
+_ctrl = [(n, d['preco'], livro.limpa(d['texto'])) for n, d in CAT.items() if d.get('familia') == 'Controle']
 if not _ctrl:
-    erro('5: nao achei a tabela de Controle no .docx (a que carrega a Melhoria '
-         '`Condição`) — ou o catalogo mudou de forma, ou a extracao parou de achar')
+    erro('5: nao achei a Familia Controle no Catalogo do livro — ou o catalogo mudou de '
+         'forma, ou a extracao parou de achar')
 elif len(_ctrl) != 7:
     erro(f'5: a tabela de Controle tem {len(_ctrl)} linha(s) e eu esperava 7 — a '
          'familia mudou de tamanho e esta checagem parou de cobrir ela')
 else:
     _DURA = (r'até o fim do próximo turno', r'por uma rodada', r'por 1 minuto',
-             r'Dura uma rodada')
-    _SAI = (r'Teste de Resistência', r'pontos de vida', r'Acaba', r'se soltar')
+             r'[Dd]ura uma rodada')
+    _SAI = (r'Teste de Resistência', r'pontos de vida', r'Acaba', r'se soltar',
+            r'TR de saída', r'repetir o TR', r'[Aa] aplicação termina')
     _presos, _sem = [], []
     for _nome5, _custo5, _txt5 in _ctrl:
-        _fala_do_alvo = re.search(r'\bO alvo\b|\bAplica uma\b', _txt5)
+        _fala_do_alvo = re.search(r'\b[Oo] alvo\b|\bAplica uma\b|uma das \w+ condições', _txt5)
         _dura = any(re.search(_d, _txt5) for _d in _DURA)
         if not (_fala_do_alvo and _dura):
             continue
@@ -1523,6 +1548,9 @@ else:
             'contra', 'alem', 'além', 'sem', 'um', 'uma', 'ignora', 'ignoram',
             'fura', 'furam', 'atrapalha', 'atrapalham', 'continua', 'tem', 'ha',
             'há', 'sua', 'seu', 'esta', 'está', 'dele', 'dela', 'mais', 'toda',
+            # v0.337: verbos e advérbios do texto do livro reconstruído. "Cobertura
+            # física" é a que o obscurecimento NÃO cria (o Terreno), e não um grau.
+            'respeita', 'somente', 'física', 'cria', 'conforme', 'oferece', 'oferecem',
         }
         _norm = {g.lower() for g in _GRAUS}
         _maus, _copias, _vistos = [], [], 0
@@ -1593,7 +1621,7 @@ def _tabela_com_rotulo(rotulo):
     # ⚠ o `if not r.cells` nao e paranoia: sem ele esta funcao ESTOURA numa tabela
     # com linha vazia, e o arnes pegou isso. Guarda que acusa e estoura logo
     # depois e' o defeito da v0.161 — a checagem morre antes de dizer o que viu.
-    for t in _D.tables:
+    for t in TABELAS:
         for r in t.rows[1:]:
             if not r.cells:
                 continue
@@ -1602,10 +1630,13 @@ def _tabela_com_rotulo(rotulo):
     return None
 
 
-_tc = _tabela_com_rotulo('Cura cheia')
+# v0.337: no livro, a tabela de cura e' a do teto por Classe ("Cura: maximo de d8",
+# "Onda: maximo de pontos uteis"), e a "Base por Classe" e' a tabela de Alcance e area
+# (Forma | Classe 0 | Classes 1 a 5 | Classes 6 e 7). Ate a v0.336, as duas do .docx.
+_tc = _tabela_com_rotulo('Cura:')
 _tb = _tabela_com(['Forma', 'Classe 0'])
 if _tc is None or _tb is None:
-    erro('8: nao achei a tabela de cura ("Cura cheia") ou a "Base por Classe" no '
+    erro('8: nao achei a tabela de cura ("Cura: maximo de d8") ou a "Base por Classe" no '
          'manual — sem as duas esta checagem nao tem o que comparar, e passaria '
          'verde sem conferir nada')
 else:
@@ -1645,7 +1676,7 @@ else:
             erro('8: a tabela "Base por Classe" perdeu a coluna `Classe 0` — sem ela '
                  'nao da para conferir se uma Forma de cura tem alcance ali')
         else:
-            _vazio = re.compile(r'^\s*(—|-|–|n/?a|\.)?\s*$', re.I)
+            _vazio = re.compile(r'^\s*(—|-|–|n/?a|\.|indispon[ií]vel\.?)?\s*$', re.I)
             _acusa, _conferidas = [], 0
             for _r in _tb.rows[1:]:
                 _rot = _r.cells[0].text.strip()
@@ -1656,6 +1687,12 @@ else:
                 _conferidas += 1
                 _cel = _r.cells[_col0].text.strip()
                 _tem = not _vazio.match(_cel)
+                # v0.337: o livro junta `Cura e Apoio` numa linha e escreve na coluna
+                # `Classe 0` so o que vale ali ("Apoio: 4,5 m."). Celula que nomeia uma
+                # Forma que nao cura nao da alcance de Classe 0 a Forma de cura.
+                _so = re.match(r'([A-Za-zÀ-ÿ]+):', _cel)
+                if _tem and _so and _so.group(1) not in _FORMAS_CURA:
+                    _tem = False
                 if _tem != _CURA_NA_0:
                     _acusa.append((_rot, _quais, _cel or '(vazio)'))
             if _conferidas == 0:
@@ -1705,7 +1742,11 @@ bloco('8.1 A BASE POR CLASSE COBRE AS FORMAS — e a do Corpo a Corpo herda o ra
 #      de ser conferida, senao (b) passaria verde a toa.
 #  (c) a tabela do capitulo 9 do livro diz o mesmo que a do manual, linha a
 #      linha. Copia sem comparacao diverge — licao no 9.
-_tf = _tabela_com(['Forma', 'Custa', 'O que é'])
+# v0.337: no livro, as Formas moram em duas tabelas do Fundamento (Forma | Custo | ...),
+# e a "Aura e Explosao com Corpo a Corpo embutida" do .docx e' a frase da Restricao
+# `Corpo a Corpo` no Catalogo ("Projetil se torna Toque ... Explosao se torna Aura").
+_tfs = [t for t in TABELAS if [c.text.strip() for c in t.rows[0].cells][:2] == ['Forma', 'Custo']]
+_tf = _tfs[0] if _tfs else None
 if _tb is None or _tf is None:
     erro('8.1: nao achei a "Base por Classe" ou a tabela de Formas no manual — '
          'sem as duas nao ha o que comparar')
@@ -1714,10 +1755,13 @@ else:
         return re.sub(r'[`*]', '', s).strip()
 
     _formas81 = {}
-    for _r in _tf.rows[1:]:
-        _c = [c.text.strip() for c in _r.cells]
-        if _c and _c[0]:
-            _formas81[_c[0]] = _c[2] if len(_c) > 2 else ''
+    for _t81 in _tfs:
+        for _r in _t81.rows[1:]:
+            _c = [c.text.strip() for c in _r.cells]
+            if _c and _c[0]:
+                _formas81[_c[0]] = _c[2] if len(_c) > 2 else ''
+    _cac = livro.limpa(CAT.get('Corpo a Corpo', {}).get('texto', ''))
+    _pares81 = re.findall(r'([A-Za-zÀ-ÿ]+) se torna ([A-Za-zÀ-ÿ]+)', _cac)
     _base81 = {}
     for _r in _tb.rows[1:]:
         _c = [c.text.strip() for c in _r.cells]
@@ -1745,11 +1789,7 @@ else:
     # (b)
     _raio = lambda cels: [re.findall(r'raio\s+([\d,]+)\s*m', c) for c in cels]
     _herdadas = 0
-    for f, d in _formas81.items():
-        m = re.search(r'([A-Za-zÀ-ÿ]+) com (?:a Restrição )?Corpo a Corpo embutida', d)
-        if not m:
-            continue
-        x = m.group(1)
+    for x, f in _pares81:
         lf, lx = _linha81(f), _linha81(x)
         if lx is None:
             erro(f'8.1: a {f} e "{x} com Corpo a Corpo", e a {x} nao tem linha na '
@@ -1772,40 +1812,15 @@ else:
             print(f'  [x] a {f} tem o raio da {x} em toda coluna: '
                   f'{" · ".join("/".join(r) + " m" for r in rf81)}')
     if _herdadas == 0:
-        erro('8.1: nenhuma Forma com raio herdado foi conferida — a frase "com Corpo '
-             'a Corpo embutida" mudou ou a Forma sumiu, e (b) passaria verde a toa')
+        erro('8.1: nenhuma Forma com raio herdado foi conferida — a frase "X se torna Y" da '
+             'Restricao `Corpo a Corpo` mudou ou a Forma sumiu, e (b) passaria verde a toa')
 
-    # (c) a copia do livro
-    _l9 = ''
-    try:
-        _l9 = open(os.path.join(AQUI, '..', '05-material', 'livro', 'manual',
-                                '40-fundamento.md'), encoding='utf-8').read()
-    except FileNotFoundError:
-        pass
-    _i = _l9.find('**Base por Classe**')
-    _tab9 = []
-    if _i >= 0:
-        for _ln in _l9[_i:].splitlines()[1:]:
-            if _ln.startswith('|'):
-                _tab9.append(_ln)
-            elif _tab9:
-                break
-    if len(_tab9) < 3:
-        erro('8.1: nao achei a "Base por Classe" no capitulo 9 do livro')
-    else:
-        _liv81 = {}
-        for _ln in _tab9[2:]:
-            _c = [x.strip() for x in _ln.strip().strip('|').split('|')]
-            _liv81[_limpa81(_c[0])] = [_limpa81(x) for x in _c[1:]]
-        _so_man = [k for k in _base81 if k not in _liv81]
-        _so_liv = [k for k in _liv81 if k not in _base81]
-        _dif = [k for k in _base81 if k in _liv81 and _base81[k] != _liv81[k]]
-        if _so_man or _so_liv or _dif:
-            erro(f'8.1: a "Base por Classe" do livro e a do manual discordam — so no '
-                 f'manual: {_so_man}; so no livro: {_so_liv}; linhas diferentes: {_dif}')
-        else:
-            print(f'  [x] a tabela do capitulo 9 do livro e a do manual batem nas '
-                  f'{len(_base81)} linhas')
+    # (c) ate a v0.336 a "Base por Classe" do capitulo 9 do livro v0.331 era conferida
+    # contra a do .docx, linha a linha. Desde a v0.337 o dono e' o livro reconstruido,
+    # e a tabela dele separou a linha da `Onda` da de `Cura e Apoio` (a Onda nao existe
+    # em Classe 0, e o Apoio de Classe 0 alcanca 4,5 m). A copia v0.331 fica congelada
+    # com a forma antiga ate o capitulo ser trocado pelo da candidata, entao a
+    # comparacao saiu: ela acenderia pela mudanca aprovada, e nao por erro.
 
 # --------------------------------------------------------------------------
 print()

@@ -1,4 +1,4 @@
-# Migração da candidata para as peças — v0.336, 06/10/2026
+# Migração da candidata para as peças — v0.337, 06/10/2026
 
 **Onde estamos:** o Mizuki autorizou migrar o livro reconstruído para as peças, os validadores, os geradores e as fichas. O plano e o estado de cada passo moram em `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`.
 
@@ -6,11 +6,13 @@
 
 **O livro final:** o **Ciclo Maldito R28a**, 498 páginas, é a candidata de antes da D43 com outro nome e outra diagramação, sem regra diferente (comparado parágrafo a parágrafo na v0.333). A candidata, que já tem a D43, continua sendo a fonte das peças.
 
-**Fontes congeladas:** o livro v0.331 (`05-material/livro/manual`), as cópias da edição integrada e o manual do Fundamento em `.docx` continuam com os nomes antigos até o passo 5. Quem compara uma peça com elas traduz o nome pelo `03-mecanica/renomes.py`, que é o dono da tabela.
+**Fontes congeladas:** o livro v0.331 (`05-material/livro/manual`) e as cópias da edição integrada continuam com os nomes antigos. Quem compara uma peça com elas traduz o nome pelo `03-mecanica/renomes.py`, que é o dono da tabela. *O manual do Fundamento em `.docx` saiu de fonte na v0.337: nenhum validador o lê mais.*
 
 **Passo 4, na v0.335:** *equipamento migrado nas peças 14, 16, 19, 20 e 21; Invocações e Caminhos apontam o livro reconstruído como dono, com as contradições listadas no `PLANO.md`.* **A `Execução Preparada` da Vanguarda valia até `0,12` fatia contra os `1,18` da `Não Pega`;** *na v0.336 o Mizuki a pôs em `−2` (D44) e aceitou o degrau mais baixo: `1,15` contra `2,36`, por decisão escrita.*
 
-**Próximo:** o passo 5 (Criação, Fundamento e Catálogo). *O R28a precisa receber a D43 e a D44 pelo gerador dele.* O passo 3 (vida a zero) espera a revisão do Morrendo, que o Mizuki adiou.
+**Passo 5, primeira parte, na v0.337:** *os sete validadores que abriam o `.docx` leem o livro reconstruído pelo `03-mecanica/livro.py`, e nenhum precisa mais do `python-docx`; as peças 08, 12, 18 e 19 receberam o que a Criação, a Progressão e o Fundamento mudaram.* **A troca achou quatro coisas que o livro fechou ou mudou** *(o combo sem exceção do mestre, a `Onda` em linha própria, a escada do `Efeito Próprio` fora do livro e o `inimigo fraco` virando `Capanga`)* **e uma fora do passo:** *o livro tem quinze tipos de dano, com `Força`, e as peças têm catorze.* O `PLANO.md` tem as cinco.
+
+**Próximo:** a segunda parte do passo 5 — *dar dono às três tabelas que só o gerador do manual publica (`Inimigos`, a curva da Rotina e o PE total), passar os treze arquivos que leem o gerador para esses donos, e arquivar o `manual/gerador`, o `.docx` e o `.pdf`.* *O R28a precisa receber a D43 e a D44 pelo gerador dele.* O passo 3 (vida a zero) espera a revisão do Morrendo, que o Mizuki adiou.
 
 **Nesta seção, os nomes novos valem. Daqui para baixo, o histórico conserva os nomes da época.**
 
@@ -236,7 +238,7 @@
 
 Atualizado em 30/09/2026, na v0.330 (última peça fechada: **Ritual**, a peça 27, na v0.262, com o `conferir-ritual.py` e sete checagens; antes dela, o **Bestiário**, a peça 26, na v0.198; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.336.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
+**Versão v0.337.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
 
 **Continuidade atual:** resistência pontual aprovada e integrada em Claude 2; o próximo ensaio está em `bestiario/05-sukuna/ENSAIO-integracao-grade-v286.md`. PV-base aprovado como referência da cura e das partes destrutíveis; no nível 30, cura de ação 78 e partes de 157 PV. Sukuna concluído na v0.287, com a política de débito corrente aprovada. O planejamento das Invocações virou o primeiro lote de desenvolvimento, no HD, e deu os §§47 a 109 da v0.288 à v0.325; a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas (o que sobe a básica, abre Famílias e dá Livres) e a volta do capítulo ao livro, que é decisão dele; o traje, o talismã em campo e o que a entidade carrega fecharam na v0.328 (§§111 a 113), e o que ela leva quando sai de campo na v0.330 (§114); a fila do sistema fechou a cura da Origem `Corpo Amaldiçoado` na v0.326 (o mesmo reparo das invocações, no descanso curto) o peso na v0.327 (o talismã pesa `0,5` de `Volume`, e cada leve vale `0,1`, sem arredondar) e a imunidade dela a `Envenenado` na v0.329, sem medição; o que sobra na fila é o que já estava aberto antes. O histórico abaixo permanece para consulta.
 
@@ -1284,7 +1286,7 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 
 **O sexto entrou na v0.26 e olha a direção que faltava.** O `conferir-nomes` pergunta *"esse nome que eu batizei já significa alguma coisa no manual?"*; o `conferir-manual` pergunta *"o manual usa alguma palavra que este sistema não tem?"*. Foi por não existir que o `Bônus de Treinamento` e o `Habilidade/Sabedoria` sobreviveram tanto tempo. Ele também confere que a **tabela de PE, a de inimigo e a coluna Rotina** — que estão copiadas dentro das peças e dos outros validadores — continuam batendo com o `.docx`.
 
-**SEIS precisam de `python-docx`** — `conferir-bestiario`, `conferir-dano`, `conferir-manual`, `conferir-nomes`, `conferir-pericias` e `conferir-progressao` —; sem ele eles **pulam** as checagens que leem o manual, em vez de falhar, e saem com código 0.
+**Desde a v0.337, nenhum precisa de `python-docx`.** *O manual do Fundamento v7 (`.docx`) saiu de fonte no passo 5 da migração, e os sete validadores que o abriam (os seis abaixo e o `conferir-acao`) passaram a ler o livro reconstruído pelo `livro.py`. Rodando os 27 com a biblioteca bloqueada, todos saem com zero puladas, e a sub-checagem `9.1` do `conferir-repositorio.py` passou a acusar quem voltar a abrir o `.docx`.* **A tabela abaixo é o retrato da v0.336, e fica pela história que ela conta:** até lá, **seis precisavam de `python-docx`** e, sem ele, **pulavam** as checagens que liam o manual, em vez de falhar, e saíam com código 0.
 
 | validador | pula | de quantas | o rodapé avisa? |
 |---|---|---|---|
@@ -1299,13 +1301,13 @@ python3 conferir-nomes.py --candidatos Vulto Matilha Bigorna
 >
 > **É a mesma tabela cuja história a seção acima conta, e o defeito é o mesmo com a idade trocada:** *a v0.38 escreveu os números lendo a saída, a v0.40 achou, e a lição que ficou foi "leia do código".* **Ela foi lida do código — e depois o código mudou.** *Contagem lida do dono uma vez é retrato, e retrato envelhece: o que faltava era alguém reler.*
 >
-> **Hoje quem relê é a sub-checagem `9.1` do `conferir-repositorio.py`**, e ela mede as duas colunas rodando cada validador com o `python-docx` bloqueado, em vez de copiar o número daqui. *É a segunda checagem do projeto em que o dono é o código.*
+> **Da v0.198 à v0.336 quem releu foi a sub-checagem `9.1` do `conferir-repositorio.py`**, medindo as duas colunas com o `python-docx` bloqueado em vez de copiar o número daqui. *Era a segunda checagem do projeto em que o dono é o código.* **Desde a v0.337 a tabela é retrato fechado, e a `9.1` passou a guardar o caminho de volta:** *acende se algum validador voltar a abrir o `.docx`.*
 
 > **⚠ Eram três até a v0.96, e viraram cinco sem ninguém subir a contagem.** *O `conferir-atributos` entrou na v0.97, quando o caminho de pulada dele foi consertado, e o `conferir-progressao` entrou na v0.99 junto com a peça 18.* **Lido do código e conferido bloqueando o import.** *O `README` dizia três num parágrafo e **dois** no comentário do `pip install`, nove linhas acima — duas cópias, duas respostas, dentro do arquivo que publica a lição nº 9.*
 
 > *Até a v0.39 esta linha dizia "os dois últimos" e "4, 2 e 1", e nenhuma das duas coisas era verdade.* São três, não dois, e eles não são os últimos da lista. E o `conferir-manual.py` estava escrito como o que pula menos quando é o único que **não confere absolutamente nada** sem a biblioteca: ele sai no `except ImportError` antes da primeira checagem. **Número documentado a partir da saída do programa, e não do código, envelhece assim.**
 
-> **O que mudou na v0.38:** rodar de outro diretório **não** faz mais ninguém pular checagem. Os cinco que abrem arquivo do manual resolvem por `__file__`, e de `/tmp` a saída sai idêntica com zero puladas. O `README` e o `LEIA-ME` diziam o contrário desde a v0.28 e foram corrigidos. **Continue rodando de `03-mecanica/`** — o `subir.sh` faz assim —, mas o motivo agora é hábito e não defeito. **A pulada que sobrou é a do `python-docx`, e essa é real.**
+> **O que mudou na v0.38:** rodar de outro diretório **não** faz mais ninguém pular checagem. Os cinco que abrem arquivo do manual resolvem por `__file__`, e de `/tmp` a saída sai idêntica com zero puladas. O `README` e o `LEIA-ME` diziam o contrário desde a v0.28 e foram corrigidos. **Continue rodando de `03-mecanica/`** — o `subir.sh` faz assim —, mas o motivo agora é hábito e não defeito. **A pulada que sobrou era a do `python-docx`, e ela acabou na v0.337, quando o `.docx` saiu de fonte.**
 
 ## As sete skills, e onde elas moram
 
@@ -1424,8 +1426,8 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-descanso.py` | o piso, a exaustão, o arredondamento, a magnitude, o empilhamento e — **desde a v0.62** — a **escada de relógios**: os quatro degraus têm gatilho escrito, o `por cena` tem definição própria, e os dois totais publicados são recontados da pasta em vez de guardados |
 | `03-mecanica/conferir-legados.py` | **catálogo**: recalcula a tabela de totais da peça 13 e falha se o escrito não bater com o contado |
 | `03-mecanica/conferir-equipamento.py` | o fundo de cada arma, a dominância **uma vez por rota de proteção — e são três**, e o teto de Defesa derivado dos três donos |
-| `03-mecanica/conferir-nomes.py` | o vocabulário do manual, extraído do `.docx`, contra todo nome que o projeto batizou |
-| `03-mecanica/conferir-manual.py` | a direção contrária: o manual contra o vocabulário e os números do projeto |
+| `03-mecanica/conferir-nomes.py` | o vocabulário do Fundamento, extraído do livro reconstruído (era do `.docx` até a v0.336), contra todo nome que o projeto batizou |
+| `03-mecanica/conferir-manual.py` | a direção contrária: o Fundamento do livro contra o vocabulário e os números do projeto |
 | `03-mecanica/conferir-aptidoes.py` | as **doze** checagens da peça 11: a trava do refino, as três rotas do marco, o teto de Passivas, o kokusen, o **dano na arma** e as **contagens de aptidão**. *A 10 entrou na v0.158 e lê a exceção do teto como **relação** — em que refino ela dispara, quais faces, e se ela acrescenta um dado —, para que reverter o valor de forma coerente saia verde. A 11 é da v0.161: ela reconstrói quantas aptidões cada rota leva e compara com os **nove** lugares que publicam o número, e amarra as **três** cópias do `meio a meio`* |
 | `03-mecanica/conferir-expansao.py` | os gates da Expansão, a ordem entre os degraus, o preço em espaços, a fragilidade da curva, o clash, a concentração na corrida e o degrau sem barreiras |
 | `03-mecanica/conferir-orcamento.py` | o somatório: todos os drenos de PE ao mesmo tempo, e se todo preço tem número |

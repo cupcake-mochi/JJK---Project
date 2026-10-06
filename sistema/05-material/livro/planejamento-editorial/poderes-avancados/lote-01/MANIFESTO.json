@@ -116,7 +116,7 @@
     },
     {
       "arquivo": "evidencias/fontes-preservadas.json",
-      "sha256": "a5ce448b4c9e727a0a51187ed44831a71ff738beb398e26226f4823e4becdaaf",
+      "sha256": "31e11556853e4cd9e20b88caa91b5c5409c1f15315093d16bd7a34dc0d2910ee",
       "bytes": 965
     },
     {
@@ -161,8 +161,8 @@
     },
     {
       "arquivo": "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
-      "sha256": "80e02fa2903da4d771c2f5d4db8a423a71b14d0542613ab9a739bcb85840eea6",
-      "bytes": 2885
+      "sha256": "8b2e25896cf332e8ae210a8e07f064830b387e236c803bc50eaed84cb2b3bd37",
+      "bytes": 3608
     },
     {
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
@@ -296,6 +296,16 @@
       "VALIDADORES.json"
     ],
     "motivo": "Nona passada (D44, v0.336): o livro reunido foi regerado (a Execução Preparada impõe −2), e o hash do PDF vigente do livro mudou.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_passo5": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Passo 5 da migração, primeira parte (v0.337): cotejo das fontes preservadas que mudaram fora desta unidade (peças 12 e 18, e o CHANGELOG). O texto e o PDF da unidade não mudaram.",
     "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
   }
 }

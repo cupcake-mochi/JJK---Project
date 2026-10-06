@@ -21,11 +21,11 @@ Cinco checagens:
      categoria. E isto que pega "Familias Livres: Peso e Prender".
   5. TERMO MORTO VIVO — nome aposentado aparecendo fora de nota historica.
 
-O manual e a fonte da verdade das listas fechadas: elas sao extraidas do .docx
-em vez de copiadas aqui, para nao envelhecerem quando ele for regerado.
+O livro reconstruido e a fonte da verdade das listas fechadas desde a v0.337:
+elas sao extraidas dele (livro.py) em vez de copiadas aqui. Ate a v0.336 saiam
+do manual do Fundamento v7 (.docx), que foi para o arquivo.
 
 Roda sem argumento. Sai com codigo 1 se algo quebrar.
-Sem python-docx, as checagens 1, 3 e 4 sao PULADAS com aviso, em vez de falhar.
 """
 
 import os
@@ -34,12 +34,13 @@ import sys
 import glob
 import unicodedata
 
-# Migração, passo 2: as peças usam o nome novo, e o .docx fica congelado com o
-# antigo até o passo 5. O vocabulário que sai dele passa pelo renomes.py, e os
-# nomes antigos viram termo morto (checagem 5).
+# Migração, passo 2: as peças usam o nome novo, e os nomes antigos viram termo
+# morto (checagem 5), lidos do renomes.py. Desde o passo 5 (v0.337) o vocabulário
+# sai do livro reconstruído, que já usa o nome novo.
 sys.dont_write_bytecode = True
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import renomes
+import livro
 
 FALHAS = []
 AVISOS = []
@@ -90,7 +91,6 @@ def perto(a, b):
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.normpath(os.path.join(AQUI, '..'))
-DOCX = os.path.normpath(os.path.join(RAIZ, '..', 'manual', 'Fundamento-MANUAL-v7.docx'))
 
 # --------------------------------------------------------------------------
 # OS NOMES QUE O PROJETO BATIZOU
@@ -484,114 +484,67 @@ print('=' * 88)
 print(f'  {len(TODOS)} nomes batizados, contra {len(vivos)} arquivos vivos')
 
 # --------------------------------------------------------------------------
-# O VOCABULARIO DEFINIDO DO MANUAL, extraido do .docx
+# O VOCABULARIO DEFINIDO DO FUNDAMENTO, extraido do livro
 # --------------------------------------------------------------------------
+# v0.337: ate a v0.336 as listas saiam das tabelas do manual do Fundamento v7
+# (.docx). O .docx foi para o arquivo no passo 5 da migracao, e o livro
+# reconstruido e' o dono: as Familias e as Formas saem das tabelas do Fundamento,
+# as Melhorias, as Restricoes e os Talentos saem do Catalogo e as condicoes saem
+# do capitulo de Dano, pelo livro.py. "manual" continua sendo o nome da variavel
+# e das mensagens: e' o texto do Fundamento, e nao mais um arquivo chamado assim.
+#
+# Tres categorias do .docx nao tem lugar no livro e sairam: os 50 Feiticos
+# prontos, os 70 Temas e os 3 Fundamentos prontos. O livro nao publica nenhum
+# deles, entao nome nenhum colide com eles na mesa.
 manual = None
 CATEGORIAS = {}
 PLURAL = {'Familia': 'Familias', 'Forma': 'Formas', 'Melhoria': 'Melhorias',
-          'Restricao': 'Restricoes', 'Tema': 'Temas', 'Passiva': 'Passivas',
-          'Feitico pronto': 'Feiticos prontos', 'Fundamento pronto': 'Fundamentos prontos',
+          'Restricao': 'Restricoes', 'Talento': 'Talentos',
           'peca do Fundamento': 'pecas do Fundamento', 'Condicao': 'Condicoes'}
 
-# Termos que o manual DEFINE em prosa, sem tabela de onde extrair. Estes ficam
+# Termos que o Fundamento DEFINE em prosa, sem tabela de onde extrair. Estes ficam
 # escritos aqui porque nao ha coluna para ler — mas cada um tem secao propria
-# no manual, entao colidir com eles e colisao forte.
-NUCLEO_DO_MANUAL = ['Fundamento', 'Regra', 'Descricao', 'Familia', 'Selo', 'Passiva',
+# no livro, entao colidir com eles e colisao forte.
+NUCLEO_DO_MANUAL = ['Fundamento', 'Regra', 'Descricao', 'Familia', 'Selo', 'Talento',
                     'Classe', 'Forma', 'Melhoria', 'Restricao', 'Liberacao Maxima',
                     'Tecnica Maxima', 'Integridade', 'Uso Livre', 'Efeito Proprio',
                     'Regra Propria', 'Restricao Propria', 'Ampliar']
 
 try:
-    import docx  # python-docx
-    doc = docx.Document(DOCX)
-    partes = [p.text for p in doc.paragraphs]
-    for t in doc.tables:
-        for r in t.rows:
-            for c in r.cells:
-                partes.append(c.text)
-    manual = renomes.traduz('\n'.join(partes))
-
-    def primeira_coluna(rotulo, extras=()):
-        """Nomes da primeira coluna das tabelas cujo cabecalho e `rotulo`."""
-        fora = {norma(rotulo)} | {norma(x) for x in extras}
-        achados = []
-        for t in doc.tables:
-            cab = [c.text.strip() for c in t.rows[0].cells]
-            if cab and norma(cab[0]) == norma(rotulo):
-                for r in t.rows[1:]:
-                    n = r.cells[0].text.strip()
-                    if n and norma(n) not in fora and '\n' not in n:
-                        achados.append(n)
-        return achados
-
-    CATEGORIAS['Familia'] = primeira_coluna('Familia')
-    CATEGORIAS['Forma'] = [n for n in primeira_coluna('Forma')
-                           if not n.lower().startswith('projetil e')]
-    CATEGORIAS['Melhoria'] = [renomes.traduz_nome(n, 'Melhoria') for n in primeira_coluna('Melhoria')]
-    CATEGORIAS['Restricao'] = primeira_coluna('Restricao')
-    CATEGORIAS['Feitico pronto'] = primeira_coluna(
-        'Nome', extras=('Classe / Pontos / PE', 'Classe / Pontos / Teto / PE'))
-    CATEGORIAS['Passiva'] = [renomes.traduz_nome(n, 'Passiva') for n in primeira_coluna('Passiva')]
+    manual = '\n'.join(livro.texto(u) for u in ('fundamento', 'catalogo', 'poderes', 'dano'))
+    _cat = livro.catalogo()
+    CATEGORIAS['Familia'] = livro.familias()
+    CATEGORIAS['Forma'] = livro.formas()
+    CATEGORIAS['Melhoria'] = [n for n, d in _cat.items() if d['tipo'] == 'Melhoria']
+    CATEGORIAS['Restricao'] = [n for n, d in _cat.items() if d['tipo'] == 'Restrição']
+    CATEGORIAS['Talento'] = [n for n, d in _cat.items() if d['tipo'] == 'Talento']
     CATEGORIAS['peca do Fundamento'] = list(NUCLEO_DO_MANUAL)
 
-    temas = []
-    for t in doc.tables:
-        cab = [c.text.strip() for c in t.rows[0].cells]
-        if len(cab) > 1 and norma(cab[0]) == 'grupo' and norma(cab[1]) == 'temas':
-            for r in t.rows[1:]:
-                temas += [x.strip() for x in r.cells[1].text.split('·') if x.strip()]
-    CATEGORIAS['Tema'] = temas
+    # As treze condicoes. Ate a v0.88 nenhuma entrava no vocabulario, e ONZE DAS
+    # DOZE saiam LIVRE na triagem; a unica que nao saia era `Lento`, e por
+    # acidente, porque ela tambem e Restricao. Foi esse buraco que deixou a Manha
+    # `Abalo` batizar de `Caido` uma condicao que o manual ja chamava de
+    # `Derrubado` — e `Caido` era o estado de 0 de vida da peca 1. Quem confere a
+    # lista do livro contra a peca 19, nos dois sentidos e com o nivel junto, e' a
+    # checagem 4 do conferir-dano.py.
+    CATEGORIAS['Condicao'] = [n for l in livro.condicoes().values() for n in l]
 
-    # As treze condicoes do manual moram nas TRES TABELAS de nivel — uma por
-    # tier, cabecalho "Nivel <tier>". Ate a v0.88 nenhuma entrava no vocabulario,
-    # e ONZE DAS DOZE saiam LIVRE na triagem; a unica que nao saia era `Lento`, e
-    # por acidente, porque ela tambem e Restricao. Foi esse buraco que deixou a
-    # Manha `Abalo` batizar de `Caido` uma condicao que o manual ja chamava de
-    # `Derrubado` — e `Caido` era o estado de 0 de vida da peca 1.
-    #
-    # ATE A v0.103 havia DUAS fontes dentro do proprio .docx: estas tabelas e a
-    # frase "Aplica uma: ..." das duas linhas de Condicao do catalogo. A v0.104
-    # fundiu as duas Melhorias numa so e a frase perdeu a lista, entao a segunda
-    # fonte MUDOU DE CASA e nao sumiu: hoje ela e a peca 19 §3.1 a §3.3, e quem
-    # confere as duas uma contra a outra, nos dois sentidos e com o nivel junto,
-    # e a checagem 4 do conferir-dano.py. Lidas do .docx, e nao copiadas para ca.
-    condicoes = []
-    for t in doc.tables:
-        cab = t.rows[0].cells[0].text.strip()
-        if cab.startswith('Nível ') and len(t.rows[0].cells) == 2:
-            condicoes += [r.cells[0].text.strip() for r in t.rows[1:]]
-    CATEGORIAS['Condicao'] = [renomes.traduz_nome(n) for n in condicoes]
-    if not condicoes:
-        erro('o manual nao tem as tabelas de nivel de condicao — elas sao a fonte '
-             'unica da lista desde a v0.104 e esta checagem parou de conferir')
-
-    # Os tres Fundamentos prontos sao paragrafos curtos logo depois do titulo.
-    prontos, linhas = [], manual.split('\n')
-    for i, l in enumerate(linhas):
-        if norma(l.strip()) == 'tres fundamentos prontos':
-            for prox in linhas[i + 1:i + 12]:
-                p = prox.strip()
-                if p and len(p.split()) == 1 and p[0].isupper():
-                    prontos.append(p)
-    CATEGORIAS['Fundamento pronto'] = prontos
-
-    print(f'  manual: {len(doc.paragraphs)} paragrafos, {len(doc.tables)} tabelas')
+    print(f'  livro: Fundamento, Catalogo, Poderes avancados e Dano')
     for cat, lista in CATEGORIAS.items():
-        print(f'     {PLURAL[cat]:<20} {len(lista):>3} extraidos do .docx')
+        print(f'     {PLURAL[cat]:<20} {len(lista):>3} extraidos do livro')
     if len(CATEGORIAS['Familia']) != 9:
-        erro(f'o manual devolveu {len(CATEGORIAS["Familia"])} Familias, e sao nove — '
+        erro(f'o livro devolveu {len(CATEGORIAS["Familia"])} Familias, e sao nove — '
              f'a extracao quebrou e as checagens 1 e 4 nao valem')
     if len(CATEGORIAS['Condicao']) != 13:
-        erro(f'o manual devolveu {len(CATEGORIAS["Condicao"])} Condicoes, e sao treze '
+        erro(f'o livro devolveu {len(CATEGORIAS["Condicao"])} Condicoes, e sao treze '
              f'desde a v7.12 — seis Leve, duas Media e cinco Pesada. A '
              f'extracao quebrou e a triagem voltou a ser cega para elas')
-    if len(CATEGORIAS['Fundamento pronto']) != 3:
-        erro(f'o manual devolveu {len(CATEGORIAS["Fundamento pronto"])} Fundamentos '
-             f'prontos, e sao tres — a extracao quebrou')
-except Exception as e:
-    print(f'  (manual nao lido: {e})')
-    print('  As checagens 1, 3 e 4 foram PULADAS. Instale python-docx e deixe o')
-    print('  manual em manual/Fundamento-MANUAL-v7.docx antes de fechar versao.')
+    for _c, _min in (('Melhoria', 60), ('Restricao', 15), ('Talento', 15), ('Forma', 10)):
+        if len(CATEGORIAS[_c]) < _min:
+            erro(f'o livro devolveu {len(CATEGORIAS[_c])} {PLURAL[_c]} — a extracao quebrou')
+except (livro.LivroMudou, OSError) as e:
+    manual = None
+    erro(f'nao consegui ler o vocabulario do livro — {e}. As checagens 1, 3 e 4 nao rodaram')
 
 # --------------------------------------------------------------------------
 bloco('1. COLISAO PARA FORA — o nome ja e termo definido no Fundamento')

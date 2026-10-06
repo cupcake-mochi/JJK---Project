@@ -42,22 +42,21 @@ A pasta `skills/` guarda o `SKILL.md` de cada uma mais os arquivos de apoio. ~~*
 
 ## Versão atual
 
-**v0.336.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e sete peças escritas e vinte e sete validadores passando**. O manual do Fundamento está na **v7.41**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
+**v0.337.** Fases 0 a 3 fechadas; a Fase 4 (mecânica) está em andamento com **vinte e sete peças escritas e vinte e sete validadores passando**. O manual do Fundamento está na **v7.41**, e ele é um subsistema fechado — a técnica e o feitiço já funcionam. O `.pdf` **está na mesma versão do `.docx`** desde a v0.93 — ele deixou de ser exportado a mão.
 
 **Dá para montar uma ficha de nível 2, jogar uma missão inteira e recuperar entre elas, pelas nove rotas de Origem.** *Eram seis até a v0.122, oito de lá até a v0.168, e a nona é a peça 25.* Desde a v0.32 não sobrou peça de regra travando ninguém nessa faixa: das dezessete coisas que uma ficha de nível 2 precisa, **treze existem, e as quatro que faltam não mordem nessa faixa**. A ordem do resto está no `ESTADO-ATUAL.md`.
 
 O que falta hoje não é regra, é **material**. A **ficha de personagem** saiu na v0.35 e está em `05-material/`, com o gerador dela. **O quick-start foi abandonado na v0.102**, por decisão do Mizuki — o texto de mesa iria direto para o PDF — **e o PDF saiu na v0.106**: `05-material/livro/`, com o quick-start escrito direto nele. *A paginação de hoje sai do build e não fica publicada aqui — as `230` desta linha eram as da v0.106, e elas envelheceram sozinhas por sessenta e três versões.* E `04-playtest/` **deixou de estar vazia na v0.215**: a Mesa 1 é a primeira sessão medida do projeto.
 
-**Seis** leem o manual e precisam de `python-docx`: `conferir-bestiario.py`, `conferir-dano.py`, `conferir-manual.py`, `conferir-nomes.py`, `conferir-pericias.py` e `conferir-progressao.py`. **Sem ele eles pulam as checagens que leem o `.docx`** em vez de falhar. Puladas por validador, lidas do código: **4 de 11** · **1 de 14** · **8 de 8** (todas — ele sai no `except ImportError` antes da primeira) · **3 de 6** · **1 de 8** · **1 de 8**. *O `conferir-atributos.py` estava nesta lista até a v0.102 e saiu dela: as condições mudaram para a peça 19, e com elas foi a única checagem dele que abria o `.docx`.* *Desde a v0.101 eles dizem no rodapé que pularam, e o `subir.sh` marca com `ok*` amarelo.*
+**Desde a v0.337 nenhum validador lê o `.docx` nem precisa de `python-docx`:** *o manual do Fundamento v7 saiu de fonte no passo 5 da migração, e os que o liam passaram a ler o livro reconstruído pelo `livro.py`.* **Até a v0.336, seis liam o manual e pulavam sem a biblioteca** — `conferir-bestiario.py`, `conferir-dano.py`, `conferir-manual.py`, `conferir-nomes.py`, `conferir-pericias.py` e `conferir-progressao.py`, com 4 de 11 · 1 de 14 · 8 de 8 (todas) · 3 de 6 · 1 de 8 · 1 de 8 puladas. *O `conferir-atributos.py` estava nesta lista até a v0.102 e saiu dela: as condições mudaram para a peça 19, e com elas foi a única checagem dele que abria o `.docx`.* *Desde a v0.101 eles dizem no rodapé que pularam, e o `subir.sh` marca com `ok*` amarelo.*
 
 > *Esta linha ficou parada em **três** até a v0.102 — o `README` e o `ESTADO-ATUAL` foram corrigidos na v0.100 e este arquivo não. **Três cópias, e a terceira envelheceu sozinha.***
 
 *Até a v0.39 os três documentos diziam 4, 2 e 1. O número do `conferir-manual` era o mais perigoso dos três: ele estava escrito como o que pula menos e é o único que não confere nada.*
 
-> **⚠ E os totais envelheceram de novo, entre a v0.104 e a v0.198.** *Três das cinco linhas estavam erradas na coluna `de quantas` — `10` contra `11`, `4` contra `8`, `5` contra `6` —, e a coluna `pula` estava certa nas cinco.* **O que mudou foi o código: os validadores ganharam bloco, e o número lido dele uma vez virou retrato.** *Hoje a sub-checagem `9.1` do `conferir-repositorio.py` relê as duas colunas rodando cada um com o `python-docx` bloqueado.*
+> **⚠ E os totais envelheceram de novo, entre a v0.104 e a v0.198.** *Três das cinco linhas estavam erradas na coluna `de quantas` — `10` contra `11`, `4` contra `8`, `5` contra `6` —, e a coluna `pula` estava certa nas cinco.* **O que mudou foi o código: os validadores ganharam bloco, e o número lido dele uma vez virou retrato.** *De lá até a v0.336 a sub-checagem `9.1` do `conferir-repositorio.py` releu as duas colunas rodando cada um com o `python-docx` bloqueado; desde a v0.337 ela confere que nenhum voltou a abrir o `.docx`.*
 
 ```
-pip install python-docx --break-system-packages
 cd sistema/03-mecanica && python3 conferir-nomes.py
 ```
 

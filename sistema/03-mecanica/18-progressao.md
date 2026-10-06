@@ -19,7 +19,7 @@
 | a curva de refino das três rotas | `03-mecanica/11-aptidoes-e-refino.md` §3 — *veio do `arquitetura.md` na v0.104* |
 | degrau de Caminho | a coleção v0.4, em `caminhos/` — *era o `DESENHO-caminhos.md` até a v0.269* |
 | entrega de Trilha | a coleção v0.4, em `caminhos/` — *idem* |
-| Classe de feitiço, Categoria de Efeito de Talento, Classe 0, Liberação e Técnica Máxima | manual, §9 |
+| Classe de feitiço, Categoria de Efeito de Talento, Classe 0, Liberação e Técnica Máxima | o livro reconstruído, capítulo de Progressão — *era o manual do Fundamento v7, §9, até a v0.336* |
 | XP para subir | peça 12 §3 |
 | **tamanho da lista de feitiços** | **ninguém, até esta peça** |
 
@@ -131,10 +131,10 @@
 | **maestria** | peça 1 §2 |
 | **espaços** | **esta peça, §4** |
 | **refino** e o calendário de marcos | peça 11 §3 |
-| **Classe**, **Talento**, **Classe 0**, Liberação Máxima e Técnica Máxima | manual, §9 |
+| **Classe**, **Talento**, **Classe 0**, Liberação Máxima e Técnica Máxima | o livro reconstruído, capítulo de Progressão (as duas tabelas de nível e a prosa embaixo delas) |
 | degrau de **Caminho** e entrega de **Trilha** | os quadros de nível da coleção v0.4, em `caminhos/` — *o degrau do nível 23 entrou por ela na v0.270* |
 
-> **O validador lê o manual, então ele PULA sem o `python-docx` — e diz que pulou.** *Sem a biblioteca, as colunas de Classe, Talento e Classe 0 não são conferidas contra ninguém, e o rodapé imprime `OK, mas N checagem(ns) PULARAM` em vez de `TUDO OK`.*
+> **v0.337: o dono dessas colunas passou a ser o livro reconstruído, e o `.docx` saiu de fonte** (passo 5 da migração). *O livro publica Classe máxima, Categoria de Efeito e Classe 0 como coluna, e não mais em frase, e publica também maestria, espaços e Refino básico: o `conferir-progressao.py` confere as seis colunas desta tabela contra as dele, nível a nível.* **Ele não precisa mais do `python-docx`, e não tem mais o que pular.**
 
 ---
 

@@ -289,6 +289,32 @@ Depois da passada, o inventário fica assim:
 
 **Os validadores:** *o `conferir-equipamento.py` compara agora o `Volume` das 52 armas, a Força e o `Volume` das proteções com o capítulo de Equipamento da candidata, que passou a ser o dono desses números; o `conferir-ferramenta.py` conta dezessete `Estigma` e lê da peça quantos são de `Classe 2`; o `conferir-dano.py` cobra a penalidade nova.*
 
+## Passo 5, primeira parte, feita em 06/10/2026 (v0.337)
+
+**Os sete validadores que abriam o `.docx` passaram a ler o livro reconstruído.** *O leitor é o `sistema/03-mecanica/livro.py`: ele acha cada unidade no lote que a consolidação usa, picota título, tabela e página, e monta o Catálogo (nome, tipo, preço, Família) a partir das marcas de página do capítulo.* **Nenhum validador precisa mais do `python-docx`;** *rodando os 27 com a biblioteca bloqueada, todos saem com zero puladas, e a checagem `9.1` do `conferir-repositorio.py` passou a acusar quem voltar a abrir o `.docx`.* **O Catálogo do livro bate nome a nome com o do `.docx`:** *69 Melhorias, 19 Restrições e 18 Talentos, com os mesmos preços.* *Revisão por modelo, não humana.*
+
+**O tamanho estava subestimado.** *Além dos sete que abriam o `.docx`, treze arquivos leem o `manual/gerador` direto (`partA` a `partF`): o `conferir-alma`, o `-atributos`, o `-bestiario`, o `-bloquear`, o `-dano`, o `-expansao`, o `-ficha`, o `-invocacoes`, o `-manual` e o `-ritual`, o `conferir-repositorio.py` e dois scripts de `manual/matematica`.* **Por isso o passo ficou em duas partes.** *Nesta, o `.docx` deixou de ser fonte. Na segunda, o gerador, o `.docx` e o `.pdf` vão para o arquivo, e antes disso três tabelas que só o gerador publica precisam de dono:*
+
+| tabela do gerador | quem lê | o livro tem? |
+|---|---|---|
+| `Inimigos` (dano do grupo, chefe e capanga por nível) e a prosa dela (os `90%`, as três rodadas, o esquadrão) | `conferir-acao` (7), `-bestiario`, `-dano`, `-manual` (4a e 4b), `-alma`, `-bloquear`, `-invocacoes`, `-atributos` | não. *O livro do bestiário publica tabelas derivadas dela (vida por faixa, golpe por faixa), e não ela* |
+| `A curva` (Rotina, feitiço num alvo, somando alvos, por Classe) | `conferir-acao` (9), `-manual` (4c a 4f) | não |
+| `PE total` por nível do conjurador | `conferir-manual` (4a) | não. *O livro escreve `PE máximo = PE por nível do Caminho × nível`* |
+
+*A proposta para a segunda parte é a peça que já se declara consumidora virar dona: a `Inimigos` na peça 26 (que cita "manual, a tabela `Inimigos`" como dona da vida e do golpe), a curva na peça 05 ou 06, e o PE total na peça 01. Até lá, as três leituras vão ao gerador, que era de onde o `.docx` saía.*
+
+**O que o livro fechou ou mudou, achado na troca:**
+
+- **O combo de Melhorias perdeu a exceção do mestre.** *O v7 deixava o mestre aprovar "por menos pontos ou menos espaço, por conta e risco, e o manual não recomenda"; o livro diz que reunir duas Melhorias sob um nome não reduz preço nem vaga, sem exceção.* **Nenhuma peça publicava a exceção**, *então nada mudou na mesa das peças; o capítulo 9 do livro v0.331 guarda o parágrafo antigo até ser trocado.*
+- **A `Base por Classe` separou a `Onda`.** *No livro, a linha `Cura e Apoio` dá alcance de Classe 0 só ao `Apoio` (`4,5 m`), e a `Onda` tem linha própria, indisponível em Classe 0.* **A regra é a mesma do v0.166 (Classe 0 não cura);** *a comparação da tabela do capítulo 9 v0.331 com a do dono saiu do `conferir-manual` (8.1 c), porque acenderia pela mudança aprovada.*
+- **A escada de frequência do `Efeito Próprio` saiu do livro.** *O v7 perguntava "em quantas cenas por arco" (uma: Leve; metade: Média; quase toda: Pesada); no livro o mestre define o preço comparando com as peças de função mais próxima, e o `Talento Próprio` usa a escada de Categoria.* **A escada sobrevive só na peça 11 §6.7, que a usa para a `Aptidão Própria`.** *O `conferir-manual` (4j) registra que ela não tem mais com quem ser comparada; a migração das Aptidões decide se a peça 11 segue o livro.*
+- **O `inimigo fraco` virou `Capanga`.** *O `Peso da Presença` pega um inimigo da categoria `Capanga`, que o bestiário define. A isenção que o `conferir-manual` dava ao termo indefinido saiu.*
+- **O livro não publica a contagem de Melhorias por extenso** *("Sessenta e nove Melhorias, em nove Famílias"), nem os 50 Feitiços prontos, os 70 Temas e os 3 Fundamentos prontos.* **A triagem do `conferir-nomes` perdeu essas três categorias**, *porque nome nenhum colide com o que o livro não publica.*
+
+**Nas peças:** *peça 08, o passo do equipamento pede a situação, o TR e as perícias do `Traje` (AB24); peça 12, o oitavo feito saiu e a §9.1 lista as lacunas da Progressão que a candidata fechou; peça 18, o dono das colunas de Classe, Talento e Classe 0 é o livro, e o `conferir-progressao` confere seis colunas contra ele; peça 19, o `Lento` corta também as distâncias concedidas, como a do `Passo` (FU-26), e a distribuição dos tipos de dano se escolhe na criação (FU-09).* **Os outros registros do Fundamento e do Catálogo não têm peça dona:** *o dono era o `.docx`, e agora é o livro.* *O passo 1 atribuiu os 137 à peça 17, mas a peça 17 é o índice das entregas de Caminho e não tem regra do Fundamento: a atribuição estava errada, e o `.docx` era o único dono.* *Os que citam a peça 15 (FU-04, FU-13, FU-14, FU-27, FU-58 e os de Técnica Máxima) caem no cabeçalho dela, que já aponta o livro como dono.*
+
+**Um achado fora do passo: o livro tem quinze tipos de dano, e as peças 01 e 19 têm catorze.** *A candidata acrescentou `Força` (energia pura) aos Especiais numa rodada anterior do capítulo de Dano, e o inventário do lote final não registrou; é o mesmo padrão do equipamento no passo 4.* **Não é Morrendo, então não espera a revisão dele,** *mas é do capítulo de Dano: entra quando esse capítulo for comparado inteiro com as peças.*
+
 ## Decisões do Mizuki de 05/10/2026, para os passos 2 e 3
 
 **1. O manual do Fundamento em `.docx` (v7) é aposentado como fonte.** Resposta dele: *"A"*. O Fundamento passa a ter um dono só, o livro. Os validadores que hoje leem o `.docx` passam a ler o livro, e o `manual/gerador` vai para o arquivo.
@@ -312,7 +338,7 @@ Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`
 2b. **O nome do sistema: Ciclo Maldito.** *Feito: v0.334.* *Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (R28a): o nome vale no repositório inteiro.* Uma versão própria, com a triagem do `conferir-nomes` e os validadores que leem o nome. Ficaram com o nome antigo os nomes de arquivo `Projeto-M-*`, o livro v0.331 congelado, o histórico e o bestiário, que troca na passada própria dele.
 3. **Vida a zero.** *Adiado em 05/10/2026, até a revisão do Morrendo.* Reescrever a peça 01 §5.5 a partir do capítulo de dano da candidata, e as remissões das peças 12, 15, 20 e 24. Antes, rodar o `conferir-atributos.py` numa cópia com a regra nova para ver quais checagens medem a regra antiga, e trocá-las por checagens da regra nova com teste negativo. Não apagar checagem para passar.
 4. **Equipamento e munição** (peças 14, 16, 21), *feito na v0.335, ver a seção do passo 4,* depois **Invocações** (peça 15, que conversa com `invocacoes/`), depois **Caminhos** (peça 06 e `RASCUNHO-trilhas`, que hoje não têm Fluidez nem Malabarista).
-5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha.
+5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha. *Primeira parte feita na v0.337 (ver a seção dela, acima): os validadores leem o livro. A segunda parte arquiva o `manual/gerador`, o `.docx` e o `.pdf`, depois de dar dono às três tabelas que só o gerador publica.*
 6. **Geradores.** `gerador-ficha` e `gerador-inimigo`. O `manual/gerador` (o `.docx` do Fundamento v7) não é regerado: vai para o arquivo no passo 5. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
 7. **Fichas**, por último e em outro ambiente (seção abaixo).
 

@@ -17,8 +17,9 @@ pegou. Ate a v0.99 a formula vivia escrita a mao dentro do conferir-aptidoes.py
 e do conferir-expansao.py, que e' exatamente o que a regra do projeto proibe.
 Os dois passam a ler a coluna daqui.
 
-O manual e' .docx: sem o python-docx as checagens que dependem dele PULAM, e o
-rodape DIZ que pularam. Um verde que pulou checagem nao e' um verde.
+Desde a v0.337 o dono das colunas de Classe, Talento e Classe 0 e' o livro
+reconstruido (capitulo de Progressao), lido pelo livro.py. O manual do Fundamento
+v7 (.docx) foi para o arquivo, e este validador nao precisa mais do python-docx.
 """
 
 import os
@@ -53,9 +54,8 @@ P01 = 'sistema/03-mecanica/01-atributos-acerto-defesa.md'
 P02 = 'sistema/03-mecanica/02-economia-de-atributos.md'
 P11 = 'sistema/03-mecanica/11-aptidoes-e-refino.md'
 P12 = 'sistema/03-mecanica/12-experiencia-e-progressao.md'
-DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import renomes
+import livro
 
 
 # --------------------------------------------------------------------------
@@ -334,101 +334,63 @@ else:
 
 
 # --------------------------------------------------------------------------
-bloco('7. CLASSE, PASSIVA E CLASSE 0 — dono: o manual, secao 9')
+bloco('7. CLASSE, TALENTO E CLASSE 0 — dono: o livro, capitulo de Progressao')
 # --------------------------------------------------------------------------
+# v0.337: ate a v0.336 o dono era a secao 9 do manual do Fundamento v7 (.docx), lida
+# por frase ("Classe 2.", "libera Talento de Classe 2"). O .docx foi para o arquivo
+# no passo 5 da migracao, e o livro reconstruido publica as tres colunas como coluna.
+# As guardas de forma continuam: sete Classes, tres Categorias, tres ganhos de
+# Classe 0 — se a extracao devolver outra coisa, o livro mudou de forma.
 try:
-    from docx import Document
-    from docx.table import Table
-    from docx.text.paragraph import Paragraph
-    _tem_docx = True
-except ImportError:
-    _tem_docx = False
+    _prog = livro.texto('progressao')
+    _lin = livro.tabelas_com(_prog, 'Nível', 'Classe máxima', 'Categoria de Efeito', 'Classe 0')
+    LIVRO = {int(r['Nível']): r for r in _lin}
+except (livro.LivroMudou, KeyError, ValueError, OSError) as e:
+    LIVRO = None
+    erro(f'7: nao consegui ler a tabela de Progressao do livro — {type(e).__name__}: {e}')
 
-if not _tem_docx:
-    _PULADAS.append('7. Classe, Talento e Classe 0 contra o manual (sem python-docx)')
-    print('  ~~ PULADA: sem o python-docx. As tres colunas NAO foram conferidas contra')
-    print('     ninguem. Instale com: pip install python-docx --break-system-packages')
-else:
-    try:
-        _doc = Document(DOCX)
-        _itens = []
-        for ch in _doc.element.body.iterchildren():
-            if ch.tag.endswith('}p'):
-                _itens.append(('p', Paragraph(ch, _doc)))
-            elif ch.tag.endswith('}tbl'):
-                _itens.append(('t', Table(ch, _doc)))
-        _ini = [k for k, (tp, o) in enumerate(_itens)
-                if tp == 'p' and o.text.strip() == '9 · Progressão']
-        if not _ini:
-            raise ValueError('nao achei a secao "9 · Progressão" no manual')
-        _tb = [o for tp, o in _itens[_ini[-1]:_ini[-1] + 4] if tp == 't']
-        if not _tb:
-            raise ValueError('a secao 9 do manual nao tem tabela')
-        MANUAL = {}
-        for r in _tb[0].rows[1:]:
-            c = [x.text.strip() for x in r.cells]
-            if c[0].isdigit():
-                # v0.333: o .docx fica com o nome antigo até o passo 5; o renomes.py traduz.
-                MANUAL[int(c[0])] = renomes.traduz(c[1])
-    except Exception as e:
-        MANUAL = None
-        erro(f'7: nao consegui ler a secao 9 do manual — {type(e).__name__}: {e}')
+if LIVRO is not None:
+    print(f'  {len(LIVRO)} niveis lidos do livro: {min(LIVRO)} a {max(LIVRO)}')
+    if sorted(LIVRO) != list(range(1, 31)):
+        erro(f'7: a tabela do livro deveria ir do 1 ao 30, sem buraco, e tem {sorted(LIVRO)}')
+    else:
+        _cl = sorted({int(r['Classe máxima']) for r in LIVRO.values()})
+        _ce = sorted({int(r['Categoria de Efeito']) for r in LIVRO.values()})
+        _c0 = [nv for nv in range(2, 31)
+               if int(LIVRO[nv]['Classe 0']) > int(LIVRO[nv - 1]['Classe 0'])]
+        print(f'  Classe maxima: {_cl} · Categoria de Efeito: {_ce} · Classe 0 sobe em {_c0}')
+        if _cl != list(range(1, 8)):
+            erro(f'7: o livro deveria abrir as Classes 1 a 7 e eu li {_cl}')
+        if _ce != [1, 2, 3]:
+            erro(f'7: o livro deveria abrir as Categorias de Efeito 1 a 3 e eu li {_ce}')
+        if len(_c0) != 3:
+            erro(f'7: esperava 3 niveis que dao Classe 0 a mais e li {len(_c0)}')
 
-    if MANUAL:
-        print(f'  {len(MANUAL)} niveis lidos da secao 9 do manual: {sorted(MANUAL)}')
-        if len(MANUAL) < 10:
-            erro(f'a tabela de progressao do manual deveria ter pelo menos 10 linhas e '
-                 f'tem {len(MANUAL)} — ela mudou de forma')
+        for rotulo, col_peca, col_livro in (('Classe de feitiço', 'Classe', 'Classe máxima'),
+                                            ('Categoria de Efeito de Talento', 'Talento', 'Categoria de Efeito'),
+                                            ('Classe 0', 'Classe 0', 'Classe 0'),
+                                            ('maestria', 'maestria', 'Maestria'),
+                                            ('espaços', 'espaços', 'Espaços'),
+                                            ('refino', 'refino', 'Refino básico')):
+            compara(f'{rotulo} (livro)', col_peca, lambda nv, c=col_livro: LIVRO[nv][c])
 
-        def _degraus(padrao, inicial):
-            """Nivel -> valor, a partir das frases do manual."""
-            marcos = {1: inicial}
-            for nv, txt in MANUAL.items():
-                m = re.search(padrao, txt)
-                if m:
-                    marcos[nv] = int(m.group(1))
-            return marcos
-
-        CLASSE = _degraus(r'(?<!Talento de )Classe (\d)\.', 1)
-        PASSIVA = _degraus(r'[Ll]ibera Talento de Classe (\d)', 1)
-        print(f'  Classe de feitico abre em: {dict(sorted(CLASSE.items()))}')
-        print(f'  Categoria de Efeito de Talento abre em: {dict(sorted(PASSIVA.items()))}')
-        if len(CLASSE) != 7:
-            erro(f'o manual deveria abrir 7 Classes de feitico e eu li {len(CLASSE)}')
-        if len(PASSIVA) != 3:
-            erro(f'o manual deveria abrir 3 Categorias de Efeito de Talento e eu li {len(PASSIVA)}')
-
-        def _escada(marcos):
-            def f(nv):
-                if not marcos:
-                    return None
-                return max(v for k, v in marcos.items() if nv >= k)
-            return f
-
-        compara('Classe de feitiço', 'Classe', _escada(CLASSE))
-        compara('Categoria de Efeito de Talento', 'Talento', _escada(PASSIVA))
-
-        # Classe 0: dois no nivel 1, mais um em cada nivel que o manual diz
-        C0 = sorted(nv for nv, t in MANUAL.items() if 'Classe 0 a mais' in t)
-        _c0ini = re.search(r'Dois feitiços de Classe 0', MANUAL.get(1, ''))
-        print(f'  Classe 0: comeca em 2 e ganha mais um em {C0}')
-        if not _c0ini:
-            erro('a linha do nivel 1 do manual nao diz mais quantos Classe 0 a ficha '
-                 'comeca — ela mudou de forma e a coluna Classe 0 parou de ser conferida')
-        elif len(C0) != 3:
-            erro(f'esperava 3 niveis que dao Classe 0 a mais e li {len(C0)}')
-        else:
-            compara('Classe 0', 'Classe 0', lambda nv: 2 + sum(1 for m in C0 if nv >= m))
-
-        # e os eventos que so o manual conhece
-        for frase, marca in (('Liberação Máxima', 'Liberação Máxima'),
-                             ('Técnica Máxima', '**Técnica Máxima**')):
-            do_manual = sorted(nv for nv, t in MANUAL.items() if frase in t)
+    # os eventos que so o livro escreve: a prosa embaixo de cada metade da tabela
+    _prosa = re.sub(r'\*', '', _prog)
+    _lm1 = re.search(r'A primeira Liberação Máxima chega no (\d+)', _prosa)
+    _tm = re.search(r'A Técnica Máxima chega no (\d+); as outras Liberações Máximas, no (\d+) e no (\d+)', _prosa)
+    if not _lm1 or not _tm:
+        erro('7: o livro parou de dizer em que nivel chegam a Tecnica Maxima e as '
+             'Liberacoes Maximas — ele mudou de forma e esta checagem parou de conferir')
+    else:
+        for frase, marca, do_livro in (
+                ('Liberação Máxima', 'Liberação Máxima',
+                 sorted([int(_lm1.group(1)), int(_tm.group(2)), int(_tm.group(3))])),
+                ('Técnica Máxima', '**Técnica Máxima**', [int(_tm.group(1))])):
             na_peca = sorted(nv for nv in TABELA if marca in TABELA[nv][8])
-            if do_manual != na_peca:
-                erro(f'{frase}: o manual diz {do_manual} e a peca 18 marca {na_peca}')
+            if do_livro != na_peca:
+                erro(f'{frase}: o livro diz {do_livro} e a peca 18 marca {na_peca}')
             else:
-                print(f'  [x] {frase}: {do_manual} — bate com o manual')
+                print(f'  [x] {frase}: {do_livro} — bate com o livro')
 
 
 # --------------------------------------------------------------------------

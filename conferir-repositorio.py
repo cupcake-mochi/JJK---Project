@@ -45,9 +45,10 @@ teria pego, se existisse:
   - o arquitetura.md dizendo v7.6.
 
 Roda da raiz do repositorio, sem argumento. Sai com codigo 1 se algo quebrar.
-Ele NAO precisa de python-docx e NAO le o .docx — entao, ao contrario dos CINCO
-de 03-mecanica que leem, nao existe jeito de ele sair verde tendo pulado
-checagem por falta da biblioteca. A checagem 7 pula quando finalizado/ nao
+Ele NAO precisa de python-docx e NAO le o .docx — e, desde a v0.337, nenhum
+validador de 03-mecanica le (eles leem o livro reconstruido; a sub-checagem 9.1
+confere que nenhum voltou a abrir o .docx), entao nao existe jeito de a bateria
+sair verde tendo pulado checagem por falta da biblioteca. A checagem 7 pula quando finalizado/ nao
 existe, e ela DIZ que pulou.
 """
 import os
@@ -527,17 +528,8 @@ print(f'  {vistos} caminhos citados em .md conferidos, {mortas} mortos, '
 if mortas == 0:
     print('  Todos resolvem.')
 
-# os validadores precisam achar o manual
-print()
-for v in ('conferir-nomes.py', 'conferir-manual.py', 'conferir-pericias.py'):
-    txt = open(os.path.join(MEC, v), encoding='utf-8').read()
-    if 'Fundamento-MANUAL-v7.docx' not in txt:
-        continue
-    aponta_para_manual = "'manual'" in txt or '"manual"' in txt
-    print(f'  {"[x]" if aponta_para_manual else "[ ]"} {v} procura o .docx dentro de manual/')
-    if not aponta_para_manual:
-        erro(f'{v} procura o .docx fora de manual/ — ele vai PULAR as checagens '
-             f'em silencio e sair verde sem ter lido nada')
+# os validadores precisavam achar o manual em manual/; desde a v0.337 nenhum le o
+# .docx (quem confere que nenhum voltou a ler e' a sub-checagem 9.1)
 
 
 # --------------------------------------------------------------------------
@@ -2159,121 +2151,37 @@ print('  O DONO AQUI E O CODIGO, e e a unica checagem do projeto em que ele e.')
 print('  Uma checagem = um bloco numerado. Sub-bloco conta para o bloco pai.')
 
 
-# --- 9.1: a tabela de PULADAS, medida do codigo em vez de copiada ------------
-# v0.198. O ESTADO-ATUAL e o LEIA-ME publicam, para os cinco validadores que
-# leem o .docx, quantas checagens cada um PULA sem o python-docx e de quantas.
-# A segunda coluna estava errada em TRES das cinco: 10 contra 11 no dano, 4
-# contra 8 no manual, 5 contra 6 no nomes.
+# --- 9.1: nenhum validador abre o .docx do manual --------------------------------
+# v0.198 a v0.336: esta sub-checagem rodava os validadores que liam o .docx com o
+# python-docx BLOQUEADO, contava quantas checagens cada um pulava e comparava com a
+# tabela de puladas do ESTADO-ATUAL e com os pares "N de M" do LEIA-ME. A historia
+# dela (a tabela errada em tres de cinco linhas ate a v0.198, porque o numero lido do
+# codigo uma vez virou retrato) esta no ESTADO-ATUAL.
 #
-# O defeito nao e' o mesmo da v0.38, e vale a distincao. La o numero tinha sido
-# escrito lendo a SAIDA do programa; aqui ele foi lido do codigo — e depois o
-# codigo mudou. Contagem lida do dono uma vez e' RETRATO, e retrato envelhece.
-# O que faltava nao era ler direito: era reler.
-#
-# Entao esta sub-checagem nao le documento nenhum para achar o numero. Ela roda
-# cada um dos cinco com o python-docx BLOQUEADO — um pacote falso no
-# PYTHONPATH que levanta ImportError — e conta:
-#   `de quantas` = blocos numerados que o arquivo tem (o mesmo extrator da 9)
-#   `pula`       = blocos que imprimiram PULADA nessa rodada
-# O conferir-manual e' o caso de borda que a tabela ja descreve: ele sai no
-# except ImportError antes do primeiro bloco, entao nenhum bloco e' impresso e
-# a resposta certa e' "todas".
-#
-# CUSTO, medido: ~25 segundos, e 24 deles sao do conferir-nomes — a triagem dele
-# varre o projeto inteiro mesmo com o .docx fora. Os outros quatro rodam em 0,04s
-# cada. Fica assim de proposito: medir e' rodar, e isto roda uma vez por versao.
-import shutil as _sh
-import subprocess as _sub
-import tempfile as _tmp
-
-_ESTADO91 = os.path.join(RAIZ, 'sistema', 'ESTADO-ATUAL.md')
-_RX_LINHA91 = re.compile(
-    r'^\|\s*`(conferir-[a-z]+)`\s*\|\s*(?:\*\*)?(\d+)\D[^|]*\|\s*(\d+)\s*\|')
-
-
-def _puladas_do_codigo(caminho, stub):
-    """Roda o validador com o python-docx bloqueado e devolve (pula, total)."""
-    _env = dict(os.environ, PYTHONPATH=stub)
-    try:
-        _r = _sub.run([sys.executable, os.path.basename(caminho)],
-                      cwd=os.path.dirname(caminho), env=_env,
-                      capture_output=True, text=True, timeout=180)
-    except Exception as _e:
-        return None, f'nao consegui rodar: {_e}'
-    _total = len(_contar_blocos(caminho))
-    _atual, _pulados, _algum = None, set(), False
-    for _l in (_r.stdout + _r.stderr).split('\n'):
-        _m = re.match(r'^(\d+)\.\s+\S', _l)
-        if _m:
-            _atual = int(_m.group(1))
-        elif 'PULAD' in _l.upper():
-            _algum = True
-            if _atual is not None:
-                _pulados.add(_atual)
-    # ⚠ o veredito sai DEPOIS da varredura inteira, e nao no meio dela. O aviso
-    # de cabecalho do conferir-nomes vem ANTES do primeiro bloco, entao decidir
-    # no meio fazia ele contar como "pulou todas" — 6 de 6 em vez de 3 de 6.
-    # Quem pula tudo e' quem nao imprime bloco NENHUM, que e' o conferir-manual.
-    if _algum and _atual is None:
-        return (_total, _total), None
-    return (len(_pulados), _total), None
-
-
-_linhas91 = [(_m.group(1), int(_m.group(2)), int(_m.group(3)))
-             for _m in (_RX_LINHA91.match(_l) for _l in ler(_ESTADO91).split('\n'))
-             if _m]
-
-if len(_linhas91) < 5:
-    erro(f'9.1: achei {len(_linhas91)} linha(s) na tabela de puladas do ESTADO-ATUAL e '
-         'esperava pelo menos 5 — ela mudou de forma e esta checagem parou de conferir')
+# v0.337: o manual do Fundamento v7 (.docx) saiu de fonte no passo 5 da migracao, e os
+# sete validadores que o abriam passaram a ler o livro reconstruido, pelo livro.py.
+# A tabela de puladas acabou: medido rodando os 27 com o python-docx bloqueado, todos
+# saem com zero puladas. O que esta sub-checagem guarda agora e' o caminho de volta:
+# um validador que voltar a importar o python-docx, ou a citar o .docx do manual fora
+# de comentario, acende aqui. Os .docx da ficha e do bloco de inimigo (05-material)
+# sao lidos com zipfile, da biblioteca padrao, e nao entram.
+_RX91 = re.compile(r'^\s*(?:import docx\b|from docx\b)|docx\.Document\(|_docx\.Document\(|Fundamento-MANUAL-v7\.docx')
+_vistos91, _maus91 = 0, []
+for _v91 in sorted(os.listdir(MEC)):
+    if not (_v91.startswith('conferir-') and _v91.endswith('.py')) and _v91 != 'livro.py':
+        continue
+    _vistos91 += 1
+    for _n91, _l91 in enumerate(open(os.path.join(MEC, _v91), encoding='utf-8').read().split('\n'), 1):
+        _cod91 = _l91.split('#', 1)[0]
+        if _RX91.search(_cod91) and not re.match(r"^\s*(?:print|erro|aviso|_erro\w*)\(", _cod91.strip()):
+            _maus91.append(f'{_v91}:{_n91}')
+if _vistos91 < 20:
+    erro(f'9.1: li {_vistos91} validador(es) em 03-mecanica — a varredura perdeu o chao')
+elif _maus91:
+    erro('9.1: validador voltou a abrir o .docx do manual, que saiu de fonte na v0.337 — '
+         + ', '.join(_maus91[:6]) + '. O dono do Fundamento e o livro reconstruido (livro.py)')
 else:
-    try:
-        _dir91 = _tmp.mkdtemp(prefix='semdocx-')
-        os.makedirs(os.path.join(_dir91, 'docx'))
-        with open(os.path.join(_dir91, 'docx', '__init__.py'), 'w') as _fh:
-            _fh.write("raise ImportError('bloqueado pela checagem 9.1')\n")
-    except Exception as _e:
-        _dir91 = None
-        print(f'  ~~ 9.1 PULOU: nao consegui montar o bloqueio do python-docx ({_e}) — '
-              'a tabela de puladas NAO foi conferida')
-
-    if _dir91:
-        _mau91 = 0
-        for _nome91, _pula_doc, _total_doc in _linhas91:
-            _cam91 = os.path.join(RAIZ, 'sistema', '03-mecanica', _nome91 + '.py')
-            if not os.path.isfile(_cam91):
-                erro(f'9.1: a tabela de puladas cita {_nome91}, que nao existe na pasta')
-                _mau91 += 1
-                continue
-            _medido, _e91 = _puladas_do_codigo(_cam91, _dir91)
-            if _e91:
-                erro(f'9.1: {_nome91}: {_e91}')
-                _mau91 += 1
-                continue
-            _pula_cod, _total_cod = _medido
-            if _pula_cod != _pula_doc or _total_cod != _total_doc:
-                erro(f'9.1: o ESTADO-ATUAL diz que {_nome91} pula {_pula_doc} de '
-                     f'{_total_doc}, e rodando ele com o python-docx bloqueado sao '
-                     f'{_pula_cod} de {_total_cod}')
-                _mau91 += 1
-            else:
-                print(f'  [x] {_nome91}: pula {_pula_cod} de {_total_cod}, medido rodando')
-        _sh.rmtree(_dir91, ignore_errors=True)
-
-        # o LEIA-ME publica os mesmos pares em prosa, e ele e' copia da tabela
-        _leia91 = ler(os.path.join(RAIZ, 'sistema', 'LEIA-ME.md'))
-        _pares91 = re.findall(r'\*\*(\d+) de (\d+)\*\*', _leia91)
-        _esp91 = [(str(p), str(q)) for _n, p, q in _linhas91]
-        if len(_pares91) < len(_esp91):
-            erro(f'9.1: o LEIA-ME publica {len(_pares91)} par(es) "N de M" e a tabela do '
-                 f'ESTADO-ATUAL tem {len(_esp91)} linhas — as duas copias divergiram de forma')
-        elif _pares91[:len(_esp91)] != _esp91:
-            erro('9.1: os pares "N de M" do LEIA-ME nao batem com a tabela do '
-                 f'ESTADO-ATUAL: {_pares91[:len(_esp91)]} contra {_esp91}')
-        elif not _mau91:
-            print(f'  [x] os {len(_esp91)} pares do LEIA-ME batem com a tabela do ESTADO-ATUAL')
-
-
+    print(f'  [x] 9.1: nenhum dos {_vistos91} arquivos de 03-mecanica abre o .docx do manual')
 
 # --------------------------------------------------------------------------
 bloco('10. O LIVRO CONTRA AS PECAS — o conteudo, e nao o recorte')

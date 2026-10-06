@@ -11,19 +11,21 @@ a peca declara como dono dela, e a regua e' recalculada a partir das ancoras
 lidas. Se um dono mudar de forma, a extracao falha ALTO em vez de conferir
 menos em silencio — e a checagem 10 e' quem guarda essa promessa.
 
-A checagem 4 le o .docx do manual: sem o python-docx ela PULA, e o rodape DIZ
-que pulou. Um verde que pulou checagem nao e' um verde.
+A checagem 4 le o livro reconstruido (Dano e recuperacao e Catalogo), que e' o
+dono do Fundamento desde a v0.337; ate a v0.336 lia o .docx do manual v7.
 """
 
 import os
 import re
 import sys
 
-# Migração, passo 2: as peças usam o nome novo, e o livro v0.331 e o .docx ficam
-# congelados com o antigo. O que vem deles passa pelo renomes.py antes de comparar.
+# Migração, passo 2: as peças usam o nome novo, e o livro v0.331 fica congelado com
+# o antigo. O que vem dele passa pelo renomes.py antes de comparar. (O .docx saiu de
+# fonte no passo 5, v0.337: a checagem 4 le o livro reconstruido, pelo livro.py.)
 sys.dont_write_bytecode = True
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import renomes
+import livro
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(AQUI))
@@ -68,7 +70,6 @@ DCAM = 'DESENHO-caminhos.md'
 DTRI = 'DESENHO-trilhas.md'
 DMAN = 'DESENHO-manhas.md'
 PARTF = 'manual/gerador/partF.js'
-DOCX = os.path.join(RAIZ, 'manual', 'Fundamento-MANUAL-v7.docx')
 
 
 def linha_do_manual(nivel):
@@ -642,33 +643,28 @@ else:
 
 
 # --------------------------------------------------------------------------
-bloco('4. O MANUAL — as treze da peca sao as treze do manual, nos dois sentidos')
+bloco('4. O LIVRO — as treze da peca sao as treze do livro, nos dois sentidos')
 # --------------------------------------------------------------------------
+# v0.337: ate a v0.336 o dono era o manual do Fundamento v7 (.docx), que publicava
+# as treze em tres tabelas "Nivel <tier>". O .docx foi para o arquivo no passo 5 da
+# migracao, e o livro reconstruido publica cada condicao como titulo, embaixo de
+# "Condicoes leves", "Condicoes medias" e "Condicoes pesadas" (livro.condicoes(),
+# que diz quais titulos dessas secoes nao sao condicao).
 try:
-    import docx
-except ImportError:
-    docx = None
-
-if docx is None:
-    pulou('4. as treze contra o manual — sem python-docx '
-          '(pip install python-docx --break-system-packages)')
-else:
-    _d = docx.Document(DOCX)
-    # v0.104: o manual publica as treze em TRES tabelas, uma por nivel, e o
-    # cabecalho de cada uma e' "Nivel <tier>". A Melhoria que aplica condicao e'
-    # uma so, chamada Condicao, e ela cobra o nivel.
-    _man = {}
-    for _t in _d.tables:
-        _cab = [c.text.strip() for c in _t.rows[0].cells]
-        if len(_cab) == 2 and _cab[0].startswith('Nível '):
-            _tier = _cab[0].split(' ', 1)[1].strip()
-            _man[_tier] = [renomes.traduz_nome(r.cells[0].text.strip()) for r in _t.rows[1:]]
-    if sorted(_man) != ['Leve', 'Média', 'Pesada']:
-        erro(f'4: o manual publica as tabelas de nivel {sorted(_man)} e eu esperava '
-             'Leve, Média e Pesada — ou o manual mudou, ou a extracao parou de achar')
-    elif sum(len(v) for v in _man.values()) != 13:
-        erro(f'4: as tres tabelas do manual somam {sum(len(v) for v in _man.values())} '
-             'condicoes e eu esperava 13')
+    _dano_l = livro.texto('dano')
+    _cat_l = livro.texto('catalogo')
+    _man = livro.condicoes()
+    _treze = re.search(r'uma das (\w+) condições compráveis', livro.limpa(_cat_l))
+except (livro.LivroMudou, OSError) as _e4:
+    _man, _treze = {}, None
+    erro(f'4: nao consegui ler as condicoes do livro — {_e4}')
+_EXTENSO = {'doze': 12, 'treze': 13, 'catorze': 14, 'quatorze': 14, 'quinze': 15}
+if _man:
+    if not _treze or _treze.group(1) not in _EXTENSO:
+        erro('4: o Catalogo do livro parou de dizer quantas condicoes a Melhoria `Condição` compra')
+    elif sum(len(v) for v in _man.values()) != _EXTENSO[_treze.group(1)]:
+        erro(f'4: as tres secoes do livro somam {sum(len(v) for v in _man.values())} condicoes e '
+             f'o Catalogo dele diz {_treze.group(1)}')
     else:
         # os nomes E os niveis vem DA PECA, e nao de lista escrita aqui dentro:
         # uma checagem que se mede contra a propria constante sai verde na
@@ -699,64 +695,59 @@ else:
         _falta = [n for g in _man for n in _man[g] if n not in _pm]
         _sobra = [n for n in _pm if n not in [x for g in _man for x in _man[g]]]
         if _falta:
-            erro('4: o manual publica condicao que esta peca nao tem: ' + ', '.join(_falta))
+            erro('4: o livro publica condicao que esta peca nao tem: ' + ', '.join(_falta))
         if _sobra:
-            erro('4: esta peca tem condicao que o manual nao publica: ' + ', '.join(_sobra))
-        _trocada = [f'{n} (manual {g}, peca {_pm.get(n)})'
+            erro('4: esta peca tem condicao que o livro nao publica: ' + ', '.join(_sobra))
+        _trocada = [f'{n} (livro {g}, peca {_pm.get(n)})'
                     for g in _man for n in _man[g] if _pm.get(n) != g]
         if _trocada:
-            erro('4: condicao com nivel diferente entre o manual e a peca: '
+            erro('4: condicao com nivel diferente entre o livro e a peca: '
                  + ', '.join(_trocada))
         if not (_falta or _sobra or _trocada):
-            print('  o manual publica ' + ' · '.join(
+            print('  o livro publica ' + ' · '.join(
                 f'{len(_man[t])} {t}' for t in ('Leve', 'Média', 'Pesada')) + '; a peca tambem')
-            print('  [x] as 14 batem com o manual em nome e em NIVEL, nos dois sentidos')
+            print('  [x] as 13 batem com o livro em nome e em NIVEL, nos dois sentidos')
 
-    # v0.104: a Melhoria e' uma so, e as duas de antes nao existem mais no manual
-    _mel = []
-    for _t in _d.tables:
-        for _r in _t.rows:
-            _c = [x.text.strip() for x in _r.cells]
-            if _c and _c[0] in ('Condição', 'Condição Menor', 'Condição Maior'):
-                _mel.append((_c[0], _c[1] if len(_c) > 1 else ''))
-    _velhas = [m for m, _ in _mel if m != 'Condição']
+    # v0.104: a Melhoria e' uma so, e as duas de antes nao existem mais. No livro, o
+    # preco de cada Melhoria e' a primeira frase embaixo do titulo dela.
+    _mel = {t: livro.limpa(c) for t, c in re.findall(r'^## (Condição(?: Menor| Maior)?)\s*\n\s*\n([^\n]+)', _cat_l, re.M)}
+    _velhas = sorted(m for m in _mel if m != 'Condição')
     if _velhas:
-        erro('4: o manual ainda vende ' + ', '.join(sorted(set(_velhas)))
+        erro('4: o livro ainda vende ' + ', '.join(_velhas)
              + ' — a v0.104 fundiu as duas na Melhoria Condição')
-    elif not _mel:
-        erro('4: nao achei a Melhoria Condição no catalogo do manual')
-    elif _mel[0][1] != 'o nível dela':
-        erro(f'4: a Melhoria Condição do manual cobra "{_mel[0][1]}" e a peca §3.6 diz '
+    elif 'Condição' not in _mel:
+        erro('4: nao achei a Melhoria Condição no Catalogo do livro')
+    elif not _mel['Condição'].startswith('Preço: Nível da condição.'):
+        erro(f'4: a Melhoria Condição do livro cobra "{_mel["Condição"][:40]}" e a peca §3.6 diz '
              'que o preco e o nivel da condicao')
     else:
-        print('  [x] o manual vende UMA Melhoria Condição, e o preco dela e o nivel')
+        print('  [x] o livro vende UMA Melhoria Condição, e o preco dela e o nivel')
 
     # v0.104: o -2 na iniciativa do Surdo mora em TRES lugares — a tabela de mesa
-    # desta peca, a tabela de nivel do manual e a peca 3 §5, que e' a dona da
-    # formula da iniciativa. Tres copias de um numero so; a licao no 9 pede
-    # alguem comparando as tres em vez de a gente escolher uma e torcer.
+    # desta peca, o livro e a peca 3 §5, que e' a dona da formula da iniciativa.
+    # Tres copias de um numero so; a licao no 9 pede alguem comparando as tres em
+    # vez de a gente escolher uma e torcer.
     _SURDO = '−2'
     _peca_surdo = [l for l in TXT.split('\n')
                    if l.startswith('| **`Surdo`**') and 'iniciativa' in l]
-    _man_surdo = []
-    for _t in _d.tables:
-        for _r in _t.rows:
-            _c = [x.text.strip() for x in _r.cells]
-            if len(_c) == 2 and _c[0] == 'Surdo':
-                _man_surdo.append(_c[1])
+    try:
+        # o livro escreve o sinal com hifen ASCII ("-2 na iniciativa")
+        _man_surdo = [livro.limpa(livro.secao(livro.secao(_dano_l, 'Condições leves', 1), 'Surdo', 2)).replace('-2', _SURDO)]
+    except livro.LivroMudou:
+        _man_surdo = []
     _p3 = ler('sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md')
     _faltou = []
     if not (_peca_surdo and _SURDO in _peca_surdo[0]):
         _faltou.append('a tabela de mesa desta peca')
-    if not (_man_surdo and any(_SURDO in x and 'iniciativa' in x for x in _man_surdo)):
-        _faltou.append('a tabela de nivel do manual')
+    if not (_man_surdo and any(f'{_SURDO} na iniciativa' in x for x in _man_surdo)):
+        _faltou.append('a condicao Surdo do livro')
     if not ('`Surdo`' in _p3 and _SURDO in _p3 and 'iniciativa' in _p3):
         _faltou.append('a peca 3 §5, que e a dona da formula')
     if _faltou:
         erro('4: o -2 na iniciativa do Surdo nao esta em: ' + '; '.join(_faltou))
     else:
         print('  [x] o −2 na iniciativa do Surdo bate nos tres donos: '
-              'esta peca, o manual e a peca 3 §5')
+              'esta peca, o livro e a peca 3 §5')
 
     # as tres que ficaram de fora continuam de fora, e o manual concorda
     _fora = ('Inconsciente', 'Exaustão', 'Invisível')
