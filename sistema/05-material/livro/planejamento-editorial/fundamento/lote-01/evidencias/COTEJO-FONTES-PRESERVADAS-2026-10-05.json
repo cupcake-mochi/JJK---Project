@@ -20,5 +20,20 @@
     }
   ],
   "conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado.",
-  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana.",
+  "cotejo_v0335": [
+    {
+      "arquivo": "sistema/03-mecanica/20-tecnica-marcial.md",
+      "sha256_anterior": "aa2614d6edb42e51e7cd7088dc2a51e634a00c4d0ab70cba6de25c8554eba259",
+      "sha256_atual": "3cb9313d47bfd8bf493e85da9648feec450d9cbf40bc47f6bbd55be85b6a8e26",
+      "motivo": "Passo 4 da migração (v0.335): um parágrafo na rota de arma da peça 20 (R10-37: Equipamento restrito e munição inicial), regra que a candidata já tem. Esta unidade não reproduz o trecho."
+    },
+    {
+      "arquivo": "sistema/03-mecanica/15-invocacoes.md",
+      "sha256_anterior": "84a0bad0bc0e8e13d43f25469588f50700dfaa40e60ed95265fbfb3548675dc2",
+      "sha256_atual": "cd06010f5c41f285e63cc5262458db14fec5afd1a9831c6ff958f67735524d66",
+      "motivo": "Passo 4 da migração (v0.335): só o cabeçalho da peça 15 mudou, apontando o livro reconstruído como dono e listando onde o desenho antigo diz o contrário. O desenho abaixo dele é o mesmo."
+    }
+  ],
+  "cotejo_v0335_conferido": "Diff lido: só o passo 4 da migração nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
 }

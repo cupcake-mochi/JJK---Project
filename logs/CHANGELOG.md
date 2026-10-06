@@ -8,6 +8,28 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.335] — 06/10/2026
+
+**O passo 4 da migração: equipamento, Invocações e Caminhos.** *O inventário de registros não cobria tudo o que a candidata mudou em equipamento — várias regras entraram nas rodadas anteriores do capítulo (`equipamento/lote-02-r2` a `lote-08` e as duas revisões de carga), aprovadas junto com a candidata e sem registro no lote final.* **Por isso o capítulo inteiro foi comparado com as peças 14, 16 e 21, e não só os 20 registros.**
+
+**Alterado, peça 14:** *a propriedade `Leve` em 19 armas e a `Discreta` no `Taco`; o `Volume` escolhido arma a arma, no lugar da régua das propriedades (o catálogo pesa `64,9`), e o do `Traje` `1` (`0,3`) e do `Broquel` (`0,5`); as bestas com um virote (decisão do Mizuki de 04/10, EQ25); a munição como estoque, com preço, `Volume`, recarga parcial e munição inicial; o Revólver a `¥150.000`; o `Traje` dando vantagem num tipo de TR e em perícias iguais à Maestria; o arrasto e o transporte em grupo; e uma seção nova com o manejo — vestir, retirar, escudo, sacar, acesso e patente inicial.* **Duas eram mais velhas que a candidata:** *a `Força 1` da `Espingarda` e do `Rifle` e a penalidade sem a Força da arma (metade do deslocamento e sem Destreza na Defesa) estavam no livro desde a v0.176, e as peças 14 e 19 nunca acompanharam.*
+
+**Alterado, peça 16:** *o catálogo da rodada `lote-08`, refeita a pedido do Mizuki ("poderes por grau, poucos benefícios numéricos"): dez `Estigma` mudaram de regra — `Fiel`, `Aferido`, `Presságio`, `Perene`, `Quebranto`, `Avulsa`, `Insondável`, `Anátema`, `Contrapeso` e a redação do `Cisão` — e sete entraram.* **O preço dos sete novos, do `Anátema` e do `Quebranto` não foi medido**, *e fica no §9 da peça.*
+
+**Alterado, peças 20 e 21:** *a rota de arma da Técnica Marcial segue o Equipamento restrito (R10-37); o objeto amaldiçoado ganhou o que a candidata pôs na mão do mestre.*
+
+**Invocações e Caminhos:** *a peça 15 já era registro histórico, e o texto jogável dos Caminhos mora na edição integrada congelada.* **As duas passaram a apontar o livro reconstruído como dono**, *e o `PLANO.md` da migração lista onde o texto antigo diz o contrário: 18 dos 40 registros de Invocações e 20 dos 60 dos Caminhos.* **Na peça 06 mudaram a troca de Trilha entre missões, o nome das entregas da rota `Arma de Fogo` e a frase do Emanador.**
+
+**Decidido que não cabe a mim:** *a `Execução Preparada` (D42) foi medida pela régua do degrau do nível 7, com script novo que reproduz os `1,18` da `Não Pega` antes de medir (`sistema/01-pesquisa/medicao-v0335/conta-execucao-preparada.py`).* **Ela vale entre `0,00` e `0,12` fatia, e o degrau da Vanguarda cai de `2,10` para no máximo `1,04`, contra `2,36` do degrau grande.** *A linha da tabela fica com a `Não Pega` até o Mizuki decidir.*
+
+**Os validadores:** *o `conferir-equipamento` compara o `Volume` das 52 armas, a Força e o `Volume` das proteções com o capítulo de Equipamento da candidata, que passou a ser o dono desses números; o `conferir-ferramenta` conta dezessete `Estigma` e lê da peça quantos são de `Classe 2`; o `conferir-dano` cobra a penalidade nova, com os `3 m` como piso medido.* **Teste negativo numa cópia isolada:** *mudar o `Volume` de uma arma na peça ou na candidata, o peso publicado do catálogo, o `Traje` `1` de volta a leve, a contagem do `Força 3` ou a Força do Rifle na candidata acende o `conferir-equipamento`; cobrar `Leve` estoura o orçamento de 19 armas.*
+
+**Validação:** bateria de 30 de 30, com o pulo de sempre (a 7, da entrega). *Seis unidades da candidata guardam por hash peças que esta versão mexeu, e o Bastião guarda este CHANGELOG: todas ganharam o cotejo, e o ZIP foi montado de novo. O PDF do livro não mudou.* **Um commit de andamento subiu com o `conferir-alma` vermelho** *(a linha do `Cisão` perdeu as duas metades que a checagem 7 cobra) e foi corrigido no seguinte.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: a decisão da `Execução Preparada`, e depois o passo 5.
+
+---
+
 ## [0.334] — 05/10/2026
 
 **O sistema passou a se chamar Ciclo Maldito.** *Decisão do Mizuki ("troca tudo pra Ciclo Maldito"), depois de mandar o livro final, o Ciclo Maldito R28a.* O nome vale no livro reconstruído, nos documentos do repositório e nos geradores. `Projeto - M` durou da v0.94 até aqui.

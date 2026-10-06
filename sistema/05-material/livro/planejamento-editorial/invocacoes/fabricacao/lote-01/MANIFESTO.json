@@ -151,7 +151,7 @@
     },
     {
       "arquivo": "evidencias/comparacao-fontes-final.json",
-      "sha256": "813beb958068a9bf6438f9eb3084a1bb44f572237dcece10ea002134078c6f7b",
+      "sha256": "f7a5671967697c4426296e24387bcdde4d9d6634744259d79edf7c1479cd94f3",
       "bytes": 3882
     },
     {
@@ -161,8 +161,8 @@
     },
     {
       "arquivo": "evidencias/fontes-concorrentes.json",
-      "sha256": "b05f0974e85a2b4b74ed22239e97e5723f70eba4f6950e9647a0178057bff056",
-      "bytes": 5555
+      "sha256": "885d565297e5be585daaa2f561bc95c61b4180b28c8b266effd92175c8e4fb71",
+      "bytes": 6188
     },
     {
       "arquivo": "evidencias/fontes-iniciais.json",
@@ -176,7 +176,7 @@
     },
     {
       "arquivo": "evidencias/fontes-preservadas.json",
-      "sha256": "e9c080820e1692e0b773b437ef4977e5668aa98beffaaa852b26a50e21e7aee4",
+      "sha256": "0a7784415c865077bdac9e44b65d424b308f62b117e12b5ffa0047fac028f984",
       "bytes": 583
     },
     {
@@ -211,8 +211,8 @@
     },
     {
       "arquivo": "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
-      "sha256": "ee22776f920458365964333aaab1a70075497a6becbcf6f0a6dbd175a31d25e8",
-      "bytes": 1856
+      "sha256": "9fb609720157a454a1fbc5ebab1661d3d318bbf78622c197517df49daded4b32",
+      "bytes": 2593
     },
     {
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
@@ -322,5 +322,15 @@
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Oitava passada de 05/10/2026 (v0.334): o nome do sistema passou a Ciclo Maldito, por decisão do autor. Só o cabeçalho do PDF mudou.",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_passo4": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/comparacao-fontes-final.json",
+      "evidencias/fontes-concorrentes.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "motivo": "Passo 4 da migração (v0.335): peças 14, 15, 16 e 20 e o CHANGELOG, que esta unidade guarda por hash como fonte preservada, mudaram; cotejo registrado. O texto e o PDF da unidade não mudaram.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
   }
 }

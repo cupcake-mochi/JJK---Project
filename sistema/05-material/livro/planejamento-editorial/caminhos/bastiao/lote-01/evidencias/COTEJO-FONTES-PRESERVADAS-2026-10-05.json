@@ -30,5 +30,14 @@
       "motivo": "Entrada [0.334] acrescentada no topo do CHANGELOG (o nome do sistema virou Ciclo Maldito). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
     }
   ],
-  "cotejo_v0334_documentos_conferido": "Diff lido: só a troca do nome do sistema fora da candidata. O manuscrito desta unidade não depende do texto mudado."
+  "cotejo_v0334_documentos_conferido": "Diff lido: só a troca do nome do sistema fora da candidata. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0335": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "5d9fe17bd70bc21a5b545002e702cbcbb28eaef50060895b277a6c326ff560a7",
+      "sha256_atual": "9758882790a36faab59f133d3d3ae35637d000ee7a698cfeeb1bea61f86a452d",
+      "motivo": "Entrada [0.335] acrescentada no topo do CHANGELOG (passo 4 da migração). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
+    }
+  ],
+  "cotejo_v0335_conferido": "Diff lido: só o passo 4 da migração nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
 }

@@ -49,5 +49,14 @@
       "motivo": "Passo 2 da migração, segunda metade (v0.333, commit 5a74a06): a família da Passiva virou Talento, Categoria de Efeito, Expressão da técnica e Talento Próprio, nomes que a candidata já usava. Nenhum número ou regra mudou."
     }
   ],
-  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado."
+  "cotejo_v0334_conferido": "Diff lido: só os renomes da v0.333 nas peças e o nome do sistema na candidata. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0335": [
+    {
+      "arquivo": "sistema/03-mecanica/20-tecnica-marcial.md",
+      "sha256_anterior": "aa2614d6edb42e51e7cd7088dc2a51e634a00c4d0ab70cba6de25c8554eba259",
+      "sha256_atual": "3cb9313d47bfd8bf493e85da9648feec450d9cbf40bc47f6bbd55be85b6a8e26",
+      "motivo": "Passo 4 da migração (v0.335): um parágrafo na rota de arma da peça 20 (R10-37: Equipamento restrito e munição inicial), regra que a candidata já tem. Esta unidade não reproduz o trecho."
+    }
+  ],
+  "cotejo_v0335_conferido": "Diff lido: só o passo 4 da migração nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
 }

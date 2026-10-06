@@ -146,7 +146,7 @@
     },
     {
       "arquivo": "evidencias/fontes-preservadas.json",
-      "sha256": "7fb48bd48023456b4097b87fa29288e25577a2f0af1efe2211181d8476d8535e",
+      "sha256": "d2c53f3a55222244055c26392bd7bfdddee81f2cf70f8f2145cb44d9dcb2f5fb",
       "bytes": 1724
     },
     {
@@ -261,8 +261,8 @@
     },
     {
       "arquivo": "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
-      "sha256": "e069a97499f0fe4d86ca4512b9096f6041b714a02bda8333d7cbad6bab20793e",
-      "bytes": 2918
+      "sha256": "81039dae11cff69b395ed6fed75ddd06a2d64631ad37a56a334e833daf9540d5",
+      "bytes": 4042
     }
   ],
   "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO.",
@@ -374,5 +374,13 @@
     ],
     "motivo": "Uma linha da peça 26 trocou o nome do sistema, e o Catálogo guarda o hash dela como fonte preservada: cotejo registrado. O texto e o PDF da unidade não mudaram.",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_passo4": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "motivo": "Passo 4 da migração (v0.335): peças 14, 15, 16 e 20 e o CHANGELOG, que esta unidade guarda por hash como fonte preservada, mudaram; cotejo registrado. O texto e o PDF da unidade não mudaram.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
   }
 }

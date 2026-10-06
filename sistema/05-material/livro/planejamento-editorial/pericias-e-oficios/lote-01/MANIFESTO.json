@@ -121,7 +121,7 @@
     },
     {
       "arquivo": "evidencias/fontes-preservadas.json",
-      "sha256": "2d18601f7bca3ba42047e56e347531bd5406759f8ec19149ea8ecb6ac76951b7",
+      "sha256": "a0dc6cc8222329653cb6fe7ff6f21782c3087907b295c531cd1a8ff144d5537f",
       "bytes": 1099
     },
     {
@@ -161,8 +161,8 @@
     },
     {
       "arquivo": "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
-      "sha256": "29e8f4515f26e8ad5265ccbd073456cd3b186414211e44c82c862ceb5b2eacba",
-      "bytes": 2368
+      "sha256": "879e82608a611fcb17b5cf29ec15940e4cc3e14d37cb23a4dafdbaea92f2412b",
+      "bytes": 3553
     },
     {
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
@@ -257,5 +257,13 @@
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Oitava passada de 05/10/2026 (v0.334): o nome do sistema passou a Ciclo Maldito, por decisão do autor. Só o cabeçalho do PDF mudou.",
     "revisor": "Revisão por modelo (sessão de continuação, 05/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_passo4": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "motivo": "Passo 4 da migração (v0.335): peças 14, 15, 16 e 20 e o CHANGELOG, que esta unidade guarda por hash como fonte preservada, mudaram; cotejo registrado. O texto e o PDF da unidade não mudaram.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
   }
 }
