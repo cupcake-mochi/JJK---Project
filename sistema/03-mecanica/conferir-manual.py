@@ -33,13 +33,12 @@ depois, e cada uma tem o motivo escrito no bloco dela):
 
 Roda sem argumento. Sai com codigo 1 se algo quebrar.
 
-v0.337: o "manual" deste validador era o manual do Fundamento v7 (.docx), e ele foi
-para o arquivo no passo 5 da migracao. O manual passou a ser o LIVRO reconstruido:
-os capitulos do Fundamento, do Catalogo e dos Poderes avancados, que juntos cobrem
-as onze secoes do .docx, lidos pelo livro.py. Tres tabelas do .docx nao existem no
-livro (o PE total por nivel, a tabela `Inimigos` e a curva da Rotina); elas sao
-lidas do gerador do manual (partA.js e partF.js), que era de onde o .docx saia, ate
-a v0.338 decidir o dono de cada uma.
+v0.337: o "manual" deste validador era o manual do Fundamento v7 (.docx), e ele saiu
+de fonte no passo 5 da migracao. O manual passou a ser o LIVRO reconstruido: os
+capitulos do Fundamento, do Catalogo e dos Poderes avancados, que juntos cobrem as
+onze secoes do .docx, lidos pelo livro.py. Tres tabelas do .docx nao existem no livro
+(o PE total por nivel, a tabela `Inimigos` e a curva da Rotina); desde a v0.338 cada
+uma mora na peca que a usa (peca 1 §5.3, peca 26 §3.0, peca 5 §2.1).
 """
 
 import os
@@ -103,32 +102,25 @@ class _Tab:
         self.origem = origem
 
 
-def _tbls_js(arquivo):
-    """As tabelas TBL([cabecalho], [[linha], ...]) de um arquivo do gerador. O corpo
-    e' lido casando colchete, e nao por regex: uma celula com virgula ou uma tabela
-    vizinha nao podem engolir a seguinte."""
-    _t = open(os.path.join(RAIZ, 'manual', 'gerador', arquivo), encoding='utf-8').read()
-    _out = []
-    for _m in re.finditer(r"TBL\(\[([^\]]*)\],\s*\[", _t):
-        _cab = re.findall(r"'([^']*)'", _m.group(1))
-        _i, _prof = _m.end(), 1
-        while _prof and _i < len(_t):
-            _prof += {'[': 1, ']': -1}.get(_t[_i], 0)
-            _i += 1
-        _corpo = _t[_m.end():_i - 1]
-        _lin = [re.findall(r"'((?:[^'\\]|\\.)*)'", x) for x in re.findall(r"\[([^\[\]]*)\]", _corpo)]
-        _out.append(_Tab([_cab] + [l for l in _lin if l], arquivo))
-    return _out
-
-
 TABELAS = [_Tab(t, u) for u in _FONTES for t in livro.tabelas(_TXT[u])]
-# as tres tabelas que o livro nao publica, e so elas
-_GER = [t for t in _tbls_js('partA.js') + _tbls_js('partF.js')
-        if [c.text for c in t.rows[0].cells][:2] in (['Nível', 'PE total'], ['Nível do grupo', 'Dano do grupo por rodada'],
-                                                      ['Nível', 'Classe'])]
-if len(_GER) != 3:
-    print(f'!! esperava 3 tabelas do gerador (PE total, Inimigos, A curva) e achei {len(_GER)}')
-    sys.exit(1)
+# as tres tabelas que o livro nao publica. Ate a v0.337 vinham do gerador do manual v7
+# (partA.js e partF.js); desde a v0.338 cada uma mora na peca que a usa, sem mudar numero:
+# o PE total na peca 1 §5.3, a `Inimigos` na peca 26 §3.0 e a curva na peca 5 §2.1.
+_GER = []
+for _arq, _cols in (('01-atributos-acerto-defesa.md', ('PE total, na tabela do manual v7',)),
+                    ('26-bestiario.md', ('Nível do grupo', 'Chefe: dano')),
+                    ('05-caminho-e-combate-sem-feitico.md', ('Classe', 'Rotina', 'Feitiço num alvo'))):
+    _tp = open(os.path.join(AQUI, _arq), encoding='utf-8').read()
+    _ach = [t for t in livro.tabelas(_tp) if all(c in t[0] or any(c in l[0] for l in t) for c in _cols)]
+    if len(_ach) != 1:
+        print(f'!! esperava uma tabela {_cols} em {_arq} e achei {len(_ach)}')
+        sys.exit(1)
+    _t = _ach[0]
+    if _arq.startswith('01'):
+        # a tabela da peca 1 e' deitada (nivel na primeira linha): o manual a publicava
+        # em pe, e as checagens leem em pe
+        _t = [['Nível', 'PE total']] + [[n, v] for n, v in zip(_t[0][1:], next(l for l in _t if l[0].startswith('PE total'))[1:])]
+    _GER.append(_Tab(_t, _arq))
 TABELAS += _GER
 
 LINHAS = []          # (origem, texto)
@@ -142,7 +134,7 @@ TUDO = '\n'.join(t for _, t in LINHAS)
 _LIVRO_F = livro.limpa('\n'.join(_TXT[u] for u in _FONTES))
 
 print(f'Livro lido: {", ".join(_FONTES)} — {len(LINHAS)} linhas com texto, '
-      f'{len(TABELAS) - len(_GER)} tabelas, e {len(_GER)} tabelas do gerador.')
+      f'{len(TABELAS) - len(_GER)} tabelas, e {len(_GER)} tabelas de mestre lidas das pecas.')
 
 
 # --------------------------------------------------------------------------
@@ -376,8 +368,8 @@ else:
                  f'e nao mudar a peca 1. Se a decisao for a outra, mude os dois')
 
 # 4b. Ate a v0.336 ela conferia que a tabela `Inimigos` do .docx reproduzia a do gerador
-# (partF.js). O .docx foi para o arquivo na v0.337, e a tabela passou a ser lida do
-# proprio gerador: comparar o gerador com ele mesmo nao confere nada, entao a 4b saiu.
+# (partF.js). O .docx saiu de fonte na v0.337, e a tabela mora na peca 26 §3.0 desde a
+# v0.338: nao sobrou segunda copia para comparar, entao a 4b saiu.
 # A media dos Caminhos jogaveis continua conferida pelo conferir-atributos.py.
 
 # 4c. a coluna Rotina — a peca 6 usa ela para aprovar ataque extra e invocacao

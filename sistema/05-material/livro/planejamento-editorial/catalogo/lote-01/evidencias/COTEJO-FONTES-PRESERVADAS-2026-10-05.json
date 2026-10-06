@@ -50,5 +50,14 @@
       "motivo": "Passo 4 da migração (v0.335): só o cabeçalho da peça 15 mudou, apontando o livro reconstruído como dono e listando onde o desenho antigo diz o contrário. O desenho abaixo dele é o mesmo."
     }
   ],
-  "cotejo_v0335_conferido": "Diff lido: só o passo 4 da migração nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
+  "cotejo_v0335_conferido": "Diff lido: só o passo 4 da migração nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0338": [
+    {
+      "arquivo": "sistema/03-mecanica/26-bestiario.md",
+      "sha256_anterior": "9e117a653fc5ed7404ac8d7703080b62b15c56241feaa93404808549348dc032",
+      "sha256_atual": "08dffe36485586198662892af2a0ddeb01d41c30d0e4eafa58411d3a4ba3c67a",
+      "motivo": "Passo 5 da migração, segunda parte (v0.338): a tabela `Inimigos` do manual v7 e a prosa dela passaram para a peça 26 §3.0, sem mudar número, e as citações da peça a ela apontam o §3.0. Esta unidade não reproduz o trecho."
+    }
+  ],
+  "cotejo_v0338_conferido": "Diff lido: só o passo 5 da migração (segunda parte) nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
 }

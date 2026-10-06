@@ -146,7 +146,7 @@
     },
     {
       "arquivo": "evidencias/fontes-preservadas.json",
-      "sha256": "d2c53f3a55222244055c26392bd7bfdddee81f2cf70f8f2145cb44d9dcb2f5fb",
+      "sha256": "80d18683ff1471790ab21dc0380477ffcb5ce3912776227122f5168807b4d60a",
       "bytes": 1724
     },
     {
@@ -261,8 +261,8 @@
     },
     {
       "arquivo": "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
-      "sha256": "81039dae11cff69b395ed6fed75ddd06a2d64631ad37a56a334e833daf9540d5",
-      "bytes": 4042
+      "sha256": "3e6db13a4703cdf1302daa7f59c00a927e923ff354b46337f7d8229615613e5d",
+      "bytes": 4747
     }
   ],
   "limite": "Inventário de integridade não equivale a reexecutar testes. Consulte VALIDADORES e FECHAMENTO-INTEGRACAO.",
@@ -388,6 +388,16 @@
       "VALIDADORES.json"
     ],
     "motivo": "Nona passada (D44, v0.336): o livro reunido foi regerado (a Execução Preparada impõe −2), e o hash do PDF vigente do livro mudou.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_passo5b": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "Passo 5 da migração, segunda parte (v0.338): cotejo das fontes preservadas que mudaram fora desta unidade (peças 01 e 26, e o CHANGELOG). O texto e o PDF da unidade não mudaram.",
     "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
   }
 }

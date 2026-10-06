@@ -2718,10 +2718,19 @@ else:
 # foi aplicada TRAVA o commit — a checagem leria a divergencia como regressao.
 # Divergencia que nao esteja na tabela acende sempre. E' assim que a lista encolhe
 # sem nunca deixar entrar uma nova pelas costas.
+#
+# v0.338: o manual do Fundamento v7 saiu de fonte no passo 5 da migracao, e o dono do
+# catalogo passou a ser o livro reconstruido (o Catalogo, lido pelo livro.py). Ele
+# reescreveu o texto de todas as entradas, entao comparar TEXTO com o capitulo 40 do
+# livro v0.331 (congelado ate ser trocado pelo da candidata) so mediria a reescrita
+# aprovada. O que continua comparado e' o DEGRAU de cada Melhoria e Restricao, que e'
+# o que muda o preco na mesa; a tabela do ESTADO-revisao.md segue valendo para ele.
 print()
-bloco('12. AS MELHORIAS — o livro contra o manual, que e o dono')
+bloco('12. AS MELHORIAS — o degrau do livro v0.331 contra o do livro reconstruido, que e o dono')
 
-_PARTD = os.path.join(RAIZ, 'manual', 'gerador', 'partD.js')
+sys.path.insert(0, MEC)
+import livro as _livro12
+import renomes as _renomes12
 _FUND = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'manual', '40-fundamento.md')
 _REVI = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'ESTADO-revisao.md')
 _TIERS12 = ('Leve', 'Média', 'Pesada')
@@ -2742,20 +2751,20 @@ def _norm12(_s):
     return re.sub(r'\s+', ' ', _s).strip().rstrip('.')
 
 
-if not (os.path.exists(_PARTD) and os.path.exists(_FUND) and os.path.exists(_REVI)):
-    _falta12 = [rel(_x) for _x in (_PARTD, _FUND, _REVI) if not os.path.exists(_x)]
+if not (os.path.exists(_FUND) and os.path.exists(_REVI)):
+    _falta12 = [rel(_x) for _x in (_FUND, _REVI) if not os.path.exists(_x)]
     PULADAS.append('12 — nao achei ' + ', '.join(_falta12))
     print('  ~~ PULADA: ' + ', '.join(_falta12))
 else:
     _man12, _liv12 = {}, {}
-    for _m in re.finditer(r"\[\s*'([^']+)',\s*'([^']+)',\s*'((?:[^'\\]|\\.)*)'\s*\]",
-                          open(_PARTD, encoding='utf-8').read()):
-        if _m.group(2) in _TIERS12:
-            _man12[_m.group(1)] = (_m.group(2), _m.group(3).replace("\\'", "'"))
+    for _n, _d in _livro12.catalogo().items():
+        if _d['tipo'] in ('Melhoria', 'Restrição') and _d['preco'] in _TIERS12:
+            _man12[_n] = (_d['preco'], '')
     for _m in re.finditer(r'^\| `([^`]+)` \| `([^`]+)` \| ([^|]+?) \|\s*$',
                           open(_FUND, encoding='utf-8').read(), re.M):
         if _m.group(2) in _TIERS12:
-            _liv12[_m.group(1)] = (_m.group(2), _m.group(3).strip())
+            # o livro v0.331 fica com o nome antigo; o renomes.py traduz
+            _liv12[_renomes12.traduz_nome(_m.group(1), 'Melhoria')] = (_m.group(2), '')
 
     # guarda de extrator: os dois lados precisam ter achado gente. Um regex que
     # para de casar devolve dicionario vazio e a checagem fica VERDE de graca —
@@ -2765,8 +2774,8 @@ else:
              f'{len(_liv12)} no livro, e sao oitenta — uma das duas tabelas mudou '
              f'de forma, e a checagem ficaria verde sem comparar nada')
     else:
-        print(f'  {len(_man12)} Melhorias no manual (`partD.js`, o dono) e '
-              f'{len(_liv12)} no livro (`40-fundamento.md`).')
+        print(f'  {len(_man12)} entradas com degrau no livro reconstruido (o dono) e '
+              f'{len(_liv12)} no livro v0.331 (`40-fundamento.md`).')
 
         # a lista declarada, lida do dono dela
         _lista12 = {}
@@ -2791,7 +2800,7 @@ else:
 
             _so_um12 = sorted(set(_man12) ^ set(_liv12))
             for _n12 in _so_um12:
-                _onde = 'so no manual' if _n12 in _man12 else 'so no livro'
+                _onde = 'so no livro reconstruido' if _n12 in _man12 else 'so no livro v0.331'
                 erro(f'12: a Melhoria `{_n12}` esta {_onde} — as duas tabelas '
                      f'publicam o mesmo catalogo')
 
@@ -2799,8 +2808,10 @@ else:
             for _n12 in sorted(set(_man12) & set(_liv12)):
                 _tm, _xm = _man12[_n12]
                 _tl, _xl = _liv12[_n12]
-                _difere = (_tm != _tl) or (_norm12(_xm) != _norm12(_xl))
+                _difere = _tm != _tl
                 _estado = _lista12.get(_n12)
+                if _estado is not None and not _difere and _estado.startswith('fechada'):
+                    continue
                 if _difere and _estado is None:
                     _novas12.append((_n12, 'o DEGRAU' if _tm != _tl else 'o texto'))
                 elif _difere and not (_estado == 'aberta'
@@ -2815,7 +2826,7 @@ else:
                     _resolvidas12.append(f'{_n12} ({_estado.split(":")[0]})')
 
             for _n12, _o12 in _novas12:
-                erro(f'12: `{_n12}` diverge entre o manual e o livro em {_o12}, e ela '
+                erro(f'12: `{_n12}` diverge entre o livro reconstruido e o v0.331 em {_o12}, e ela '
                      f'NAO esta na tabela do ESTADO-revisao.md — divergencia nova entra '
                      f'declarada ou nao entra')
             for _n12, _e12 in _voltou12:
@@ -2831,7 +2842,7 @@ else:
                       f'ou divergem por linha declarada `aberta`')
 
     print()
-    print('  O dono e o `partD.js`; o `.docx` sai dele pelo `make.js` e o livro e copia.')
+    print('  O dono e o livro reconstruido; o capitulo 40 do livro v0.331 e copia congelada.')
     print('  Quem decide QUAL lado vence e regra, e nao validador — esta so garante que')
     print('  nenhuma divergencia nova entre calada, e que decisao fechada fique aplicada.')
 

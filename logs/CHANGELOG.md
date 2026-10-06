@@ -8,6 +8,24 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.338] — 06/10/2026
+
+**O passo 5 da migração, segunda parte: as tabelas de mestre do manual do Fundamento v7 ganharam dono em peça.** *Eram a seção `Para o mestre` do manual, que o livro reconstruído não tem, e na v0.337 ainda eram lidas do gerador.* **Nenhum número mudou.**
+
+**Alterado, nas peças:** *a tabela `Inimigos` e a prosa dela (os `90%`, as três rodadas, o esquadrão, as linhas de Integridade e Reação) foram para a peça 26 §3.0, e as citações da peça a ela passaram a apontar o §3.0; a curva da Rotina foi para a peça 05 §2.1; a curva `20 + 8 × (nível − 1)`, em que os estágios de Integridade foram calibrados, foi para a peça 24 §2; a tabela de PE total da peça 01 §5.3 deixou de ser cópia e virou a tabela.* **A escolha de cada dono é a peça que já usava a tabela** *(proposta na v0.337, aceita pelo Mizuki: "Okey, pode fazer").*
+
+**Alterado, nos validadores:** *o `conferir-acao`, o `-alma`, o `-atributos`, o `-bestiario`, o `-bloquear`, o `-dano`, o `-invocacoes` e o `-manual` deixaram de ler o `partF.js`; o `conferir-atributos` deixou de guardar a tabela de PE num dicionário e passou a ler a da peça 01.* **E as leituras do Fundamento que ainda iam ao gerador passaram para o livro:** *o `conferir-ritual` (pontos, teto, Liberação, Restrições e Formas), o `conferir-ficha` (Famílias e o alcance do Projétil), o `conferir-bestiario` (pontos por Classe, escada de esfera e os gates da Expansão) e o `conferir-dano` (o `Calado`).* *Os estágios de Integridade passaram a ser conferidos contra o capítulo de Dano do livro, em fração e número; o efeito do estágio 4 mudou lá e espera a revisão do Morrendo. A checagem 12 do `conferir-repositorio` compara agora o degrau das 82 Melhorias e Restrições do livro v0.331 com o do livro reconstruído, que é o dono; o texto saiu da comparação, porque o livro reescreveu todas.* **Saíram sem substituto, por serem cópia do manual:** *a caixa `Integridade` e o glossário dele, e a `4b` do `conferir-manual`.*
+
+**O que ficou para depois, medido:** *o gerador do manual ainda não foi para o arquivo. O `conferir-expansao` confere a Expansão contra o `partE.js`, e trocar essa leitura é migrar o capítulo de Poderes avançados; dois scripts de medição de `manual/matematica` também o leem, e os capítulos do Fundamento e do Catálogo do livro guardam o hash dele como fonte preservada.* **Ele vai para o arquivo junto com os Poderes avançados.**
+
+**Achado na conferência: seis capítulos que nenhum passo do plano migrava** *(Ritual e Pactos, Poderes avançados, Regras gerais, Origens, Rotas e Aptidões e Refino; 114 registros confirmados).* **O `PLANO.md` os pôs como passo 5b, um por versão,** *depois do capítulo de Dano sem o Morrendo.*
+
+**Validação:** bateria de 30 de 30, com o pulo de sempre (a 7, da entrega). **Teste negativo numa cópia isolada:** *mudar o dano do chefe no nível 30 da peça 26 acende o `conferir-acao`, o `-atributos`, o `-bestiario`, o `-dano` e o `-invocacoes`; mudar a Rotina da Classe 3 na peça 05 acende o `conferir-acao` e o `-manual`; mudar o PE total da peça 01 acende o `-atributos` e o `-manual`; mudar a curva de calibração, uma fração dos estágios no livro ou a fração da Integridade do §3.0 acende o `conferir-alma`; mudar o teto de dados no livro acende o `conferir-ritual`, o alcance do Projétil acende o `conferir-ficha`, e o degrau da `Sobrecarga` no livro acende a checagem 12.* *As unidades das Regras gerais, da Progressão e do Catálogo guardam por hash as peças 01 e 26, e o Bastião guarda este CHANGELOG: todas ganharam o cotejo, e o ZIP foi montado de novo. O PDF do livro não mudou.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: o capítulo de Dano sem o Morrendo, e depois o passo 5b.
+
+---
+
 ## [0.337] — 06/10/2026
 
 **O passo 5 da migração, primeira parte: o manual do Fundamento em `.docx` deixou de ser fonte.** *Os sete validadores que o abriam (`conferir-acao`, `-bestiario`, `-dano`, `-manual`, `-nomes`, `-pericias` e `-progressao`) passaram a ler o livro reconstruído, e nenhum validador precisa mais do `python-docx`.* **Decisão do Mizuki de 05/10/2026 (PLANO, decisão 1):** *o Fundamento passa a ter um dono só, o livro.*

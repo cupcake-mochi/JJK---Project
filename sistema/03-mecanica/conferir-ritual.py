@@ -7,8 +7,9 @@ OMISSAO — a Melhoria que nao declarou nada —, que foi o erro real: as duas
 travas que existem hoje so apareceram quando alguem foi obrigado a passar
 as dezesseis pelas dezoito Restricoes, uma a uma.
 
-Nenhum valor mora aqui: a escada sai da peca, o Teto e os pontos saem do
-partA.js do manual, e as Restricoes saem do partD.js.
+Nenhum valor mora aqui: a escada sai da peca, e o Teto, os pontos, as Restricoes e
+as Formas saem do Fundamento e do Catalogo do livro reconstruido (ate a v0.337, do
+gerador do manual do Fundamento v7: partA.js, partD.js e partC.js).
 
 Roda sem argumento. Sai com codigo 1 se algo quebrar.
 """
@@ -17,8 +18,8 @@ import os, re, sys
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.abspath(os.path.join(AQUI, '..', '..'))
 PECA = os.path.join(AQUI, '27-ritual.md')
-PARTA = os.path.join(RAIZ, 'manual', 'gerador', 'partA.js')
-PARTD = os.path.join(RAIZ, 'manual', 'gerador', 'partD.js')
+sys.path.insert(0, AQUI)
+import livro as _livro
 LIVRO = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'manual', '46-ritual.md')
 
 FALHAS = []
@@ -30,8 +31,8 @@ def bloco(t):
     print(); print('=' * 88); print(t); print('=' * 88)
 
 txt = open(PECA, encoding='utf-8').read()
-parta = open(PARTA, encoding='utf-8').read()
-partd = open(PARTD, encoding='utf-8').read()
+fund = _livro.limpa(_livro.texto('fundamento'))
+CAT = _livro.catalogo()
 livro = open(LIVRO, encoding='utf-8').read() if os.path.isfile(LIVRO) else ''
 
 print(f'Peca lida: {len(txt.splitlines())} linhas. Livro: {len(livro.splitlines())} linhas.')
@@ -73,15 +74,15 @@ else:
         ok(f'a mais barata ({min(precos)}) cabe no menor degrau ({menor})')
 
 # ---------------------------------------------------------------- 3
-bloco('3. O VAO — ele tem de SER a Liberacao Maxima, derivada do manual')
-mp = re.search(r"\*\*Pontos\*\* = (\d+) × Classe", parta)
-mt = re.search(r"\*\*Teto de dano\*\* = (\d+) × Classe", parta)
-ml = re.search(r"\*\*Liberação Máxima\*\* = \+ Classe", parta)
+bloco('3. O VAO — ele tem de SER a Liberacao Maxima, derivada do Fundamento')
+mp = re.search(r"Os pontos e o PE são (\d+) × Classe", fund)
+mt = re.search(r"o total não pode passar de (\d+) × Classe em d8", fund)
+ml = re.search(r"Uma Liberação Máxima acrescenta a Classe", fund)
 if not (mp and mt and ml):
-    erro('3: nao li Pontos, Teto e Liberacao Maxima do partA.js')
+    erro('3: nao li Pontos, Teto e Liberacao Maxima do Fundamento do livro')
 else:
     fp, ft = int(mp.group(1)), int(mt.group(1))
-    print(f'  do manual: Pontos = {fp} x Classe · Teto = {ft} x Classe · Liberacao = + Classe')
+    print(f'  do livro: Pontos = {fp} x Classe · Teto = {ft} x Classe · Liberacao = + Classe')
     ruins = [c for c in range(1, 8) if (ft * c - fp * c) != c]
     if ruins:
         erro(f'3: o vao (Teto - Pontos) nao e a Classe nas Classes {ruins}. '
@@ -112,13 +113,12 @@ print('  Esta e a checagem que pega erro de OMISSAO. Ela nao julga se a anulacao
 print('  e real: ela exige que alguem tenha OLHADO. As duas travas de hoje so')
 print('  apareceram quando a passada completa foi obrigatoria.')
 print()
-_bloco_r = re.search(r"const restricoes = \[(.*?)\n\];", partd, re.S)
-nomes_r = set(re.findall(r"^\s*\['([^']+)',\s*'[^']*',", _bloco_r.group(1), re.M)) if _bloco_r else set()
+nomes_r = {n for n, d in CAT.items() if d['tipo'] == 'Restrição'}
 if not nomes_r:
-    erro('5: nao li o catalogo de Restricoes do partD.js')
+    erro('5: nao li as Restricoes do Catalogo do livro')
 else:
     _fixas = sorted(n for n in nomes_r if n != 'Restrição Própria')
-    print(f'  {len(_fixas)} Restricao(oes) fixas no catalogo do manual, mais a Restricao Propria —')
+    print(f'  {len(_fixas)} Restricao(oes) fixas no Catalogo do livro, mais a Restricao Propria —')
     print(f'  que e customizada e nao se declara antes: o conteudo dela so existe quando alguem escreve')
     sem_decl, citadas = [], []
     for nome, _, _, _, decl in mel:
@@ -136,7 +136,7 @@ else:
     fantasma = [(m, r) for m, r in citadas if r not in nomes_r]
     if fantasma:
         for m, r in fantasma:
-            erro(f'5: {m} trava contra `{r}`, e essa Restricao nao existe no manual')
+            erro(f'5: {m} trava contra `{r}`, e essa Restricao nao existe no Catalogo do livro')
     else:
         ok(f'as {len(citadas)} trava(s) citadas apontam para Restricao que existe')
     for m, r in citadas:
@@ -144,15 +144,13 @@ else:
 
 # ---------------------------------------------------------------- 6
 bloco('6. A MATRIZ FORMA x MELHORIA — as dez Formas aparecem')
-formas = re.findall(r"\['(Projétil|Toque|Explosão|Aura|Cone|Linha|Cura|Apoio|Onda|Efeito)',",
-                    open(os.path.join(RAIZ, 'manual', 'gerador', 'partC.js'), encoding='utf-8').read())
-formas = list(dict.fromkeys(formas))
-print(f'  {len(formas)} Forma(s) no manual: {", ".join(formas)}')
+formas = list(dict.fromkeys(_livro.formas()))
+print(f'  {len(formas)} Forma(s) no Fundamento do livro: {", ".join(formas)}')
 faltam = [f for f in formas if f not in txt]
 if faltam:
     erro(f'6: a peca 27 nao nomeia {len(faltam)} Forma(s): {", ".join(faltam)}')
 else:
-    ok('a peca nomeia as dez Formas do manual')
+    ok(f'a peca nomeia as {len(formas)} Formas do Fundamento')
 if 'Efeito` NÃO ritualiza' in txt or 'Efeito** | não ritualiza' in txt or 'não ritualiza' in txt:
     ok('a peca declara qual Forma fica de fora, em vez de deixar o buraco calado')
 else:

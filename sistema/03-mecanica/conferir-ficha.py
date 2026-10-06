@@ -617,7 +617,11 @@ else:
               'o variavel, a vantagem, o alcance e quem o Capanga recusa')
 
     # 7c-ter — os numeros que o gerador COPIA, contra o dono
-    _pc = open(os.path.join(os.path.dirname(os.path.dirname(AQUI)), 'manual', 'gerador', 'partC.js'), encoding='utf-8').read()
+    # v0.338: o alcance do Projetil sai da tabela de Alcance e area do Fundamento do livro (era o
+    # partC.js do gerador do manual do Fundamento v7, que saiu de fonte)
+    import livro as _livro
+    _pc = '\n'.join(f"|{r['Forma']}|{r['Classes 1 a 5']}|" for r in
+                     _livro.tabela(_livro.texto('fundamento'), 'Forma', 'Classe 0', 'Classes 1 a 5'))
     _PT = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6}
     _pares7 = (
         ('quantas Intervencoes por luta', r'const INTERVENCOES = (\d+)', _js, r'O inimigo com `Intervenção` carrega (\w+) por luta', _md,
@@ -629,7 +633,7 @@ else:
         ('o teto de empilhamento', r'const TETO_EMPILHAMENTO = (\d+)', _js, r'no máximo `(\d+)` corpos do mesmo esquadrão', _md, _n7),
         ('o deslocamento', r"const DESLOCAMENTO = '([^']+)'", _js, r'\| deslocamento \| `([^`]+)` \|', _md, str),
         ('o alcance do Projetil nas Classes 1 a 5', r"const ALCANCE_PROJETIL = '([^']+)'", _js,
-         r"\['Projétil e Toque\*', '[^']+', '([^']+)'", _pc, str),
+         r"\|Projétil\|([^|]+)\|", _pc, str),
     )
     _mau7 = []
     for _rot, _rj, _tj, _rp, _tp, _cv in _pares7:
@@ -719,26 +723,30 @@ print('=' * 88)
 # porque as checagens de cima cobrem pericia, oficio, Caminho, Trilha e
 # constante, e a lista de Familias era a unica copia da ficha sem dono.
 #
-# O DONO e' a tabela `Famílias` do gerador do manual do Fundamento: nenhuma peca
-# de 03-mecanica declara a lista. Se uma passar a declarar, a fonte muda para ela.
-# Nenhum nome de Familia e nenhuma contagem estao escritos aqui.
+# O DONO e' a tabela `Famílias` do Fundamento do livro reconstruido (ate a v0.337, a do
+# gerador do manual do Fundamento v7): nenhuma peca de 03-mecanica declara a lista. Se uma
+# passar a declarar, a fonte muda para ela. Nenhum nome de Familia e nenhuma contagem estao
+# escritos aqui.
 _EXT8 = {'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11, 'doze': 12,
          'duas': 2, 'dois': 2, 'três': 3, 'tres': 3}
-_PARTB = ler(os.path.join(AQUI, '..', '..', 'manual', 'gerador', 'partB.js'),
-             'o partB.js do gerador do manual') or ''
-_mfam = re.search(r"H2\('Famílias'\).*?TBL\(\[[^\]]*\],\s*\[(.*?)\n\s*\],", _PARTB, re.S)
-_mqtd = re.search(r"divididas em (\w+) Famílias", _PARTB)
+import livro as _livro8
+try:
+    _fam_livro = _livro8.familias()
+except _livro8.LivroMudou:
+    _fam_livro = None
+_mfam = _fam_livro
+_mqtd = re.search(r"se dividem em (\w+) Famílias", _livro8.limpa(_livro8.texto('fundamento')))
 _fam_ficha = lista_js('FAMILIAS')
 if not _mfam or not _mqtd:
-    erro('8: nao achei a tabela de Familias no partB.js, ou a frase que diz quantas '
-         'sao — se o gerador do manual mudou de forma, esta checagem parou de conferir')
+    erro('8: nao achei a tabela de Familias no Fundamento do livro, ou a frase que diz quantas '
+         'sao — se o livro mudou de forma, esta checagem parou de conferir')
 elif _fam_ficha is None:
     erro('8: nao achei FAMILIAS no dados.js da ficha')
 else:
-    _fam_manual = re.findall(r"\['([^']+)',", _mfam.group(1))
+    _fam_manual = list(_fam_livro)
     _qtd = _EXT8.get(_mqtd.group(1).lower())
     if _qtd is None or len(_fam_manual) != _qtd:
-        erro(f'8: li {len(_fam_manual)} Familias na tabela do partB.js, e a frase dele diz '
+        erro(f'8: li {len(_fam_manual)} Familias na tabela do livro, e a frase dele diz '
              f'"{_mqtd.group(1)}" — a leitura esta errada, conserte ela antes de confiar')
     else:
         _sobra = [f for f in _fam_ficha if f not in _fam_manual]

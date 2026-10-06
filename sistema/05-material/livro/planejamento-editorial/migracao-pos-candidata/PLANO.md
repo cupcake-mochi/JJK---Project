@@ -315,6 +315,33 @@ Depois da passada, o inventário fica assim:
 
 **Um achado fora do passo: o livro tem quinze tipos de dano, e as peças 01 e 19 têm catorze.** *A candidata acrescentou `Força` (energia pura) aos Especiais numa rodada anterior do capítulo de Dano, e o inventário do lote final não registrou; é o mesmo padrão do equipamento no passo 4.* **Não é Morrendo, então não espera a revisão dele,** *mas é do capítulo de Dano: entra quando esse capítulo for comparado inteiro com as peças.*
 
+## Passo 5, segunda parte, feita em 06/10/2026 (v0.338)
+
+**As tabelas de mestre do manual v7 ganharam dono em peça, sem mudar número.** *Eram a seção `Para o mestre` do manual, que o livro reconstruído não tem:*
+
+| tabela | foi para | quem lê |
+|---|---|---|
+| `Inimigos` e a prosa dela (os `90%`, as três rodadas, o esquadrão, as linhas de Integridade e Reação) | peça 26 §3.0 | `conferir-acao` (7), `-alma`, `-atributos`, `-bestiario`, `-bloquear`, `-dano`, `-invocacoes`, `-manual` |
+| `A curva` (Rotina, feitiço num alvo, somando alvos, Liberação, Técnica Máxima) | peça 05 §2.1 | `conferir-acao` (9), `-manual` (4c a 4f) |
+| `PE total` por nível do conjurador de referência | peça 01 §5.3, que já publicava a cópia | `conferir-atributos`, `-manual` (4a) |
+| a caixa `Vida` (`20 + 8 × (nível − 1)`) | peça 24 §2, como a curva em que os estágios foram calibrados | `conferir-alma` (1), `-atributos` |
+
+**E as leituras do Fundamento que ainda iam ao gerador passaram para o livro:** *o `conferir-ritual` lê os pontos, o teto e a Liberação do Fundamento, as Restrições do Catálogo e as Formas; o `conferir-ficha` lê as Famílias e o alcance do Projétil; o `conferir-bestiario` lê os pontos por Classe, a escada de esfera e os gates da Expansão; o `conferir-dano` confere o `Calado` do livro no lugar do `partD.js`; e a checagem 12 do `conferir-repositorio` compara o degrau das 82 Melhorias e Restrições do livro v0.331 com o do livro reconstruído, que passou a ser o dono (o texto saiu da comparação, porque o livro reescreveu todas).* **Os estágios de Integridade passaram a ser conferidos contra o capítulo de Dano do livro, em fração e número;** *o efeito do estágio 4 mudou lá (Inconsciente e Derrotado) e espera a revisão do Morrendo.*
+
+**O que saiu sem substituto, porque era cópia do manual:** *a caixa `Integridade` e o glossário do manual (o `conferir-alma` os comparava com a peça 24, que é a dona) e a `4b` do `conferir-manual` (o `.docx` contra o gerador).*
+
+**O gerador ainda não foi para o arquivo, e o motivo é medido.** *Três coisas ainda o leem:*
+
+- *o `conferir-expansao`, que confere a Expansão de Domínio contra o `partE.js`: trocar essa leitura é migrar o capítulo de Poderes avançados, que é um dos seis capítulos sem passo (abaixo);*
+- *dois scripts de medição, `manual/matematica/casca-sem-barreira.py` e `sobrecarga.py`, que não estão na bateria e medem coisas dos Poderes e do Catálogo;*
+- *os capítulos do Fundamento e do Catálogo do livro, que guardam o hash dos `part*.js` como fonte preservada; ao mover, eles ganham o cotejo de "arquivo movido, mesmo hash".*
+
+**Então o gerador, o `.docx` e o `.pdf` vão para o arquivo junto com a migração dos Poderes avançados.** *O `conferir-repositorio.py` vai precisar de um mapa de "movidos para o arquivo" (no molde do `LOCAIS`): 33 citações em documentos e evidências apontam para `manual/gerador/`, e várias estão em arquivos presos por hash nos manifestos do livro, que não se reescrevem.*
+
+## Os seis capítulos sem passo, achados em 06/10/2026
+
+**A tabela de tamanho do topo lista seis capítulos que a ordem proposta não cobria:** *Ritual e Pactos (29 registros confirmados, peças 22 e 27), Poderes avançados (21, peça 11 e o rascunho da Expansão sem Barreiras), Regras gerais (19, peças 01, 03, 04, 05 e 23), Origens (18, peças 09 e 13), Rotas (14, peças 20 e 25) e Aptidões e Refino (13, peça 11).* **São 114 registros que nenhum passo migrava.** *Eles entram como passo 5b, um capítulo por versão, comparando o capítulo inteiro com as peças (o inventário não cobre as rodadas anteriores, como se viu no Equipamento e no tipo `Força` do Dano). Antes deles vai o capítulo de Dano sem o Morrendo.*
+
 ## Decisões do Mizuki de 05/10/2026, para os passos 2 e 3
 
 **1. O manual do Fundamento em `.docx` (v7) é aposentado como fonte.** Resposta dele: *"A"*. O Fundamento passa a ter um dono só, o livro. Os validadores que hoje leem o `.docx` passam a ler o livro, e o `manual/gerador` vai para o arquivo.
@@ -338,7 +365,8 @@ Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`
 2b. **O nome do sistema: Ciclo Maldito.** *Feito: v0.334.* *Decisão do Mizuki em 05/10/2026, depois de mandar o livro final (R28a): o nome vale no repositório inteiro.* Uma versão própria, com a triagem do `conferir-nomes` e os validadores que leem o nome. Ficaram com o nome antigo os nomes de arquivo `Projeto-M-*`, o livro v0.331 congelado, o histórico e o bestiário, que troca na passada própria dele.
 3. **Vida a zero.** *Adiado em 05/10/2026, até a revisão do Morrendo.* Reescrever a peça 01 §5.5 a partir do capítulo de dano da candidata, e as remissões das peças 12, 15, 20 e 24. Antes, rodar o `conferir-atributos.py` numa cópia com a regra nova para ver quais checagens medem a regra antiga, e trocá-las por checagens da regra nova com teste negativo. Não apagar checagem para passar.
 4. **Equipamento e munição** (peças 14, 16, 21), *feito na v0.335, ver a seção do passo 4,* depois **Invocações** (peça 15, que conversa com `invocacoes/`), depois **Caminhos** (peça 06 e `RASCUNHO-trilhas`, que hoje não têm Fluidez nem Malabarista).
-5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha. *Primeira parte feita na v0.337 (ver a seção dela, acima): os validadores leem o livro. A segunda parte arquiva o `manual/gerador`, o `.docx` e o `.pdf`, depois de dar dono às três tabelas que só o gerador publica.*
+5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha. *Primeira parte feita na v0.337 (ver a seção dela, acima): os validadores leem o livro. A segunda, na v0.338, deu dono às tabelas de mestre e tirou do gerador as leituras do Fundamento; o `manual/gerador`, o `.docx` e o `.pdf` vão para o arquivo com a migração dos Poderes avançados.*
+5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *depois do capítulo de Dano sem o Morrendo, um por versão.*
 6. **Geradores.** `gerador-ficha` e `gerador-inimigo`. O `manual/gerador` (o `.docx` do Fundamento v7) não é regerado: vai para o arquivo no passo 5. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
 7. **Fichas**, por último e em outro ambiente (seção abaixo).
 
