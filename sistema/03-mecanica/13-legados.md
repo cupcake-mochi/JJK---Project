@@ -143,6 +143,7 @@ Com isso a trava se escreve sozinha, e ela é mais simples do que a que eu tinha
 > **Dano não, de jeito nenhum** — imunidade é absoluta e o antídoto dela é um Talento feito à mão; resistência a `Escama` já cobra por um espaço de feitiço. *Este é o único absoluto da trava.*
 > **Condição pode, com relógio.** *Desde a v0.104 cada condição tem **nível** — `Leve`, `Média` ou `Pesada` —, e o nível é o preço dela no manual.* **Apagar de graça o que alguém paga continua proibido; apagar uma vez, com relógio, é o enfraquecer.**
 > **E o degrau do relógio sai do nível da condição**, não do gosto de quem escreve: `Leve` → **por cena** · `Média` → **por dia** · `Pesada` → **por descanso longo**.
+> *v0.340: esse degrau é o **piso de raridade**, e não o único permitido. Um relógio mais raro só enfraquece o Legado, e passa; um mais frequente não passa. O `Revezamento` apaga a `Guarda Aberta` (`Leve`, que pede por cena) uma vez por descanso longo, e é o primeiro exemplar.*
 > **O que ninguém comprou continua sendo o território largo dele:** o que o mundo cobra de você fora do feitiço, sem relógio. Uma coisa nomeada, uma só. **Vale o que chega em você e vale o que você teria de fazer** — *o `Ferro Velho` apaga os degraus de exaustão e escreve no próprio texto que "cansaço não é uma coisa que acontece com você"; o `Sangue que Não é Sangue` apaga precisar comer, dormir e respirar; o `Conhecimento Antigo` apaga o teste que você faria.* **A trava proíbe apagar coisa com PREÇO, e não coisa com direção.**
 > **E ele escreve o que custa em troca, no próprio texto.**
 
@@ -481,9 +482,9 @@ Foram levantadas três e havia duas vagas. **A régua repartiu sozinha, e nenhum
 | Legado | apaga | relógio |
 |---|---|---|
 | **Máscara** | ser sentido pelo que você é | sempre |
-| **Revezamento** | ficar `Impedido` | por descanso longo |
+| **Revezamento** | ficar com a `Guarda Aberta` | por descanso longo |
 
-> **Revezamento** — prender você prende um dos dois: uma vez por descanso longo, você **não fica `Impedido`** — ele empurra, e o seu corpo vai junto porque não é só seu. *Em troca, quem estava olhando viu: naquele momento não era você que se mexia. O mestre diz o que as pessoas presentes passaram a achar de você, e elas agem de acordo.*
+> **Revezamento** — a outra presença segura o corpo por você: uma vez por descanso longo, você **não fica com a `Guarda Aberta`** — ela sustenta a resposta, e o seu corpo vai junto porque não é só seu. *Em troca, quem estava olhando viu: naquele momento não era você que se mexia. O mestre diz o que as pessoas presentes passaram a achar de você, e elas agem de acordo.*
 
 
 > **Máscara** — quem sente a sua energia amaldiçoada sente **a dele**. Você não aparece como o que é. *Em troca, o que essas pessoas concluem sobre você costuma ser bem pior do que a verdade — e elas agem de acordo.*
@@ -546,14 +547,14 @@ Um nomeia **quem conheceu** a coisa; o outro nomeia **como a coisa se chamava**.
 |---|---|---|
 | **Conversa de Jantar** | técnica de clã (1) | por cena |
 | **Etiqueta** | uma situação nomeada (1) | por cena |
-| **Repetição** | um TR nomeado (1) | por cena |
+| **Repetição** | um TR nomeado (1) | por descanso curto |
 | **Biblioteca** | duas perícias (2) | por cena |
 
 > **Conversa de Jantar** — uma vez por cena, contra uma **técnica de clã**, você sabe o que vem: vantagem no Teste de Resistência contra ela. Você cresceu ouvindo falar dessas técnicas à mesa, com nome e com defeito.
 >
 > **Etiqueta** — uma vez por cena, refaça um teste social que você falhou **diante de alguém de patente ou clã superior ao seu**. Você foi treinado para essa sala desde criança.
 >
-> **Repetição** — escolha **um Teste de Resistência na criação**: é contra aquilo que a sua família te drilou, todo dia, por anos. Uma vez por cena, role ele com vantagem.
+> **Repetição** — escolha **um Teste de Resistência na criação**: é contra aquilo que a sua família te drilou, todo dia, por anos. Uma vez por descanso curto, role ele com vantagem.
 >
 > **Biblioteca** — uma vez por cena, refaça um teste de **História ou Ocultismo** que você falhou. A sua casa tinha os livros, e você foi obrigado a ler.
 
@@ -633,14 +634,14 @@ As duas dão **vantagem em Teste de Resistência**, e é o mesmo número. A dife
 | Legado | alcança | relógio |
 |---|---|---|
 | **Corpo Emprestado** | uma condição nomeada (1) | por cena |
-| **Espasmo** | dois TR nomeados (2) | por cena |
+| **Espasmo** | dois TR nomeados (2) | por descanso curto |
 | **Já Morri** | uma condição nomeada (1) | por cena |
 | **Método Velho** | uma situação nomeada (1) | por cena |
 
 >
 > **Corpo Emprestado** — dor não te para como para os outros: uma vez por cena, role com **vantagem** o Teste de Resistência contra ficar com a **Guarda Aberta**. O corpo avisa os outros e não avisa você.
 >
-> **Espasmo** — uma vez por cena, refaça um Teste de Resistência **Físico ou de Vigor** que você falhou. O corpo fez uma coisa que você não mandou, e quem estava aqui antes ainda está nos músculos.
+> **Espasmo** — uma vez por descanso curto, refaça um Teste de Resistência **Físico ou de Vigor** que você falhou. O corpo fez uma coisa que você não mandou, e quem estava aqui antes ainda está nos músculos.
 >
 > **Já Morri** — uma vez por cena, role com **vantagem** o Teste de Resistência contra ficar **Amedrontado**. Você já esteve do outro lado e não achou grande coisa — e não mede risco como quem tem uma vida só.
 >
@@ -757,12 +758,12 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 | Legado | alcança | relógio |
 |---|---|---|
 | **Cabeça Trocada** | uma perícia nomeada (1) | por cena |
-| **Nunca os Dois** | TR Intelecto (1) | por cena |
+| **Nunca os Dois** | TR Intelecto (1) | por descanso curto |
 | **Palpite** | qualquer perícia não treinada | por dia |
 
 > **Cabeça Trocada** — escolha **uma perícia e um atributo na criação**: é o jeito que a outra faz aquilo. Uma vez por cena, role essa perícia com esse atributo em vez do que ela pede.
 >
-> **Nunca os Dois** — uma vez por cena, refaça um **Teste de Resistência de Intelecto** que você falhou. Enquanto uma cede, a outra ainda está lá.
+> **Nunca os Dois** — uma vez por descanso curto, refaça um **Teste de Resistência de Intelecto** que você falhou. Enquanto uma cede, a outra ainda está lá.
 >
 > **Palpite** — uma vez por dia, role com **vantagem** um teste de perícia em que você **não** é treinado. Ela chuta, e ela chuta bem — e você descobre junto com todo mundo.
 
@@ -770,11 +771,11 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 
 | Legado | alcança | relógio |
 |---|---|---|
-| **Feito de Uma Peça** | TR Vigor (1) | por cena |
+| **Feito de Uma Peça** | TR Vigor (1) | por descanso curto |
 | **Teimosia** | uma situação nomeada (1) | por cena |
 | **Peça Única** | uma perícia nomeada (1) | por cena |
 
-> **Feito de Uma Peça** — uma vez por cena, refaça um **Teste de Resistência de Vigor** que você falhou. Não existe parte sua que ceda antes das outras.
+> **Feito de Uma Peça** — uma vez por descanso curto, refaça um **Teste de Resistência de Vigor** que você falhou. Não existe parte sua que ceda antes das outras.
 >
 > **Teimosia** — uma vez por cena, refaça um teste para **continuar fazendo uma coisa que você já começou** — segurar, agarrar, sustentar, não largar. Ninguém aí dentro discorda de você no meio.
 >
@@ -907,7 +908,7 @@ Sobrou **um** alvo legal no sistema inteiro pela enumeração da seção 8 — *
 > **Talhe** — você foi guardado antes de andar, e o corpo aprendeu a sair: uma vez por cena, você **não fica `Agarrado`**. *Em troca, você sai por onde couber — quem te agarrou escolhe se você larga uma coisa que estava na sua mão ou termina o movimento fora da posição em que queria estar.*
 
 
-> **Sangue que Não é Sangue** — você não precisa comer, dormir nem respirar como um humano. Isso resolve problemas que param os outros. *Em troca, cria problemas que os outros não têm — e nenhum deles tem nome ainda, porque ninguém precisou nomear fome para gente que come.*
+> **Sangue que Não é Sangue** — você não precisa comer, dormir nem respirar como um humano. Isso resolve problemas que param os outros. *Em troca, cria problemas que os outros não têm — e nenhum deles tem nome ainda, porque ninguém precisou nomear fome para gente que come.* **v0.340 (ORI17): a troca ganhou nome.** *Você escolhe com o mestre uma necessidade corporal própria e registra como atendê-la; para recuperar vida e PE num descanso longo, precisa satisfazê-la durante ele. Dispensar o sono permite ficar acordado, mas recuperar recursos continua pedindo os descansos normais, e dispensar a respiração só impede o sufocamento: veneno, doença e gás que afetem o corpo por outro meio continuam valendo.*
 
 #### O Irmãos saiu do piso, e quem consertou foi o canon
 
@@ -986,13 +987,13 @@ E a assimetria some junto: *você* reconhece, *você* sabe quando um morre. Não
 | Legado | alcança | relógio |
 |---|---|---|
 | **Sentido Treinado** | maldição (1) | por cena |
-| **Couro** | TR Físico (1) | por cena |
+| **Couro** | TR Físico (1) | por descanso curto |
 | **Ninguém Viu** | Furtividade (1) | por cena |
 | **No Braço** | qualquer perícia de Força ou Destreza | por dia |
 
 > **Sentido Treinado** — uma vez por cena, role **Percepção no lugar de Sentir Energia**. Você não sente energia — você aprendeu a notar o que ela mexe.
 >
-> **Couro** — uma vez por cena, refaça um **Teste de Resistência Físico** que você falhou. O corpo é a única coisa que a troca te deu, e ele é absurdo.
+> **Couro** — uma vez por descanso curto, refaça um **Teste de Resistência Físico** que você falhou. O corpo é a única coisa que a troca te deu, e ele é absurdo.
 >
 > **Ninguém Viu** — uma vez por cena, refaça um teste de **Furtividade** que você falhou. Você não emite nada, e passou a vida aproveitando isso.
 >
@@ -1162,6 +1163,33 @@ O que sobrou dele virou duas coisas que **não** são técnica: o `Nunca Estive 
 O Descendente leva cinco Destranca porque contém quatro clãs por dentro; o resto varia porque **o suprimento de alvo é estreito por construção**, e não porque alguma lista foi escrita com menos cuidado. *Uma Origem que fechasse em dez por ter dez seria a única prova de que a régua não está sendo aplicada.*
 
 > ~~**Quando equipamento fechar, a primeira coisa a fazer é voltar aqui**~~ — quatro vagas, e três delas esperavam essa peça ou a de dano e condições. **As duas peças existem: equipamento é a 14 desde a v0.48 e dano e condições é a 19 desde a v0.103, e ninguém voltou aqui em nenhuma das duas vezes.** *Decisão registrada não é decisão aplicada, duas vezes seguidas.*
+
+### 9.10 · O que a candidata escreveu nos Legados e esta peça ainda não dizia — v0.340
+
+*Migração das Origens do livro reconstruído (passo 5b do `PLANO.md`).* **O que mudou de regra:** *cinco Legados passaram de por cena para por descanso curto (`Repetição`, `Espasmo`, `Nunca os Dois`, `Feito de Uma Peça` e `Couro`, ORI06), o `Revezamento` passou a apagar a `Guarda Aberta` e não o `Impedido` (a trava do relógio virou piso, §5), e o `Sangue que Não é Sangue` ganhou a necessidade corporal (acima).* **O resto é lacuna fechada, sem número novo:**
+
+- **Escolha (ORI03, ORI04).** *Dois Legados na criação, pelo menos um narrativo; dois narrativos são permitidos. No máximo um dos dois é escrito com o mestre (o personalizado).*
+- **A janela comum (ORI07).** *Vantagem se declara antes de rolar. Refazer uma falha vem depois de conhecer o resultado e antes das consequências, com rolagem completa, os mesmos modificadores e a mesma vantagem ou desvantagem, e vale o novo resultado; o uso se gasta mesmo se a segunda tentativa falhar. Uma exceção que impeça condição é escolhida quando ela seria aplicada, impede aquela aplicação e não cura a anterior nem impede as futuras além da frequência. Legado não dá dano, vaga nova nem uso novo por nível; “como treinado” usa a maestria atual.*
+- **`Instinto Bruto` (ORI09).** *`Sentir Energia` no lugar de `Intuição` mantém a dificuldade, o tempo e os limites, descreve os sinais de energia e não lê pensamentos.*
+- **`Chão Duro` (ORI10).** *Qualquer lugar é ambiente propício, mas ainda é preciso conseguir parar para descansar; em troca, você não percebe espontaneamente o desgaste do lugar sobre os companheiros.*
+- **`O Que Ele Quer` (ORI11).** *A ajuda é para um obstáculo ligado ao conhecimento, à identidade ou às relações do passageiro; o mestre apresenta o preço e a ajuda antes da entrega; vale informação ou acesso, nunca ataque, acerto, técnica nem controle sobre outra pessoa.*
+- **`Passagem` (ORI12).** *A duração é combinada com o mestre antes (ou segue o prazo de uma Promessa); o benefício mecânico é a repetição da rolagem.*
+- **`Máscara` (ORI13).** *Troca a assinatura que quem percebe a sua energia lê. A energia continua presente: uma Cortina que lê assinaturas pode reagir à do passageiro, e uma barreira que impeça qualquer criatura com energia reconhece a presença; tamanho, objetos carregados e obstrução física seguem critérios próprios.*
+- **`Conversa de Jantar` (ORI14).** *“Técnica conhecida” é reconhecer qual técnica está em uso e já saber que ela existe pelos relatos do meio; o mestre confirma as duas coisas antes do teste, e uma técnica descoberta no combate não conta.*
+- **`Usado` e `Talhe` (ORI15, ORI18).** *Impedem uma aplicação de `Derrubado` e de `Agarrado`. A contrapartida do `Usado` é combinada antes, dura até o fim da cena, e não tira ação, incapacita membro nem dá dano. No `Talhe`, o agressor escolhe: você solta um objeto que segura ou é deslocado `1,5 m` para um espaço livre com apoio, sem provocar ataque de oportunidade; se nenhum for possível, não usa.*
+- **`Irmãos` (ORI16).** *O vínculo avisa o encontro e a morte, sem dar localização nem pensamentos; relações novas são combinadas com o mestre.*
+- **`Ferro Velho` (ORI19).** *Você não adquire estágios de Exaustão. A vida atual fica oculta: o mestre registra os pontos, descreve os sinais de dano e avisa quando chega a um limite que pede escolha ou libera habilidade.*
+- **`Do Meu Canto` (ORI20).** *Em combate, vale se você não se deslocou voluntariamente do começo do turno atual ou mais recente e não o faz até o começo do próximo.*
+- **`O Substituto` (ORI21).** *A representação pública não age sozinha: mover, falar ou agir à distância exige recurso na ficha.*
+- **`Dividido` (ORI22).** *O vínculo com quem nasceu junto é de história, sem energia residual nem bônus pela outra pessoa.*
+- **`Aprendi a Ver` (ORI23).** *O método de perceber maldição é história; a função concreta vem de regra da ficha, sem Bênção grátis.*
+- **`Peso Real` (ORI24).** *Percebe ferramenta amaldiçoada, barreira ou véu por contato ou indício físico ao alcance, mesmo com a energia disfarçada; à distância e sem sinal, não percebe, e o aviso não identifica.*
+- **`Assinado` (ORI25).** *Impede uma aplicação de `Cego` por descanso longo, sem dar visão no escuro nem sentido novo; a incapacidade permanente é escolhida na criação, com importância na vida apresentada.*
+- **Feto (ORI33).** *Escolher Feto não classifica o personagem como maldição; requisitos e efeitos de maldição não o alcançam, e a cura e a recuperação são normais, salvo exceção expressa da ficha.*
+- **Corpo Amaldiçoado (ORI26, ORI27).** *O reparo usa `CD 8 + atributo do ofício + maestria do reparador`, com `0`, `−2` ou `−4` por Classe, e a especialização entra só na rolagem. A imunidade a `Envenenado` fica, e o tipo Veneno não ganha resistência nem imunidade por isso.*
+- **Grau (ORI35).** *Todos começam no Grau `4` na criação padrão; exceções e promoção seguem Patentes.*
+
+**Não migrou, e fica como passo próprio:** *os nomes dos três formatos. O livro chama `Destranca`, `Ajusta` e `Desliga` de Legado narrativo, de rolagem e de exceção (ORI01); a peça 13 tem `138` ocorrências dos nomes antigos, e a peça 9, a 8 e os validadores também. Trocar isso é uma migração de nomes, como a da família do `Talento`, e não entrou nesta versão.*
 
 ## 10. O que fica para a outra metade
 

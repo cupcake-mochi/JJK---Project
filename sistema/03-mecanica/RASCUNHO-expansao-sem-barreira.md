@@ -128,7 +128,7 @@
 > ### ⚠⚠ A Expansão não tem raio publicado
 > *Procurei na peça 11, na peça 26, no manual e no livro.* **Nenhum documento diz o tamanho de uma Expansão**, *e a regra do choque já depende disso: "só existe disputa quando as áreas se sobrepõem".* **Dois mestres podem discordar se duas áreas se encostaram.** *O domínio sem barreira torna isso impossível de contornar: "o alcance alcança a barreira do outro por fora" não tem resposta sem os dois tamanhos.*
 >
-> *O único raio de domínio no sistema é o do `Domínio Simples`, na peça 11: `1,5 m + refino ÷ 2`.*
+> *O único raio de domínio no sistema é o do `Domínio Simples`, na peça 11: `1,5 m` no refino `1`, `3 m` do `2` ao `5`, `4,5 m` no `6` e `7` e `6 m` do `8` ao `10` (v0.340; era `1,5 m + refino ÷ 2`).*
 
 ---
 
@@ -715,7 +715,7 @@
 | **Incompleta** (abre no refino `4`) | `6 m` | `7,5 m` | `7,5 m` | `7,5 m` | `7,5 m` |
 | **Completa** (abre no refino `5`) | — | `7,5 m` | `9 m` | `12 m` | `15 m` |
 
-**O que o número conversa com o resto:** *o `Domínio Simples` chega a `6,5 m` no refino `10`, então a menor Completa já é maior que o maior Domínio Simples; e a Completa de refino `10` tem o tamanho da maior Esfera dos feitiços, `15 m`.* **Duas Completas de refino `10` só entram em disputa se os centros estiverem a até `30 m`.**
+**O que o número conversa com o resto:** *o `Domínio Simples` chega a `6 m` no refino `10` (`6,5 m` até a v0.339), então a menor Completa já é maior que o maior Domínio Simples; e a Completa de refino `10` tem o tamanho da maior Esfera dos feitiços, `15 m`.* **Duas Completas de refino `10` só entram em disputa se os centros estiverem a até `30 m`.**
 
 ### 8.4 Contrajogo — as saídas, medidas
 

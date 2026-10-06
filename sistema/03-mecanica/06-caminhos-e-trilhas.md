@@ -331,19 +331,19 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 >
 > | | vale | por quê |
 > |---|---|---|
-> | ataque extra, ficha nua | `0,53` | só arma, Força e crítico |
-> | ataque extra, refino `8` + Manha | `0,92` | o `2º` golpe dobra a Manha e o dano na arma |
+> | ataque extra, ficha nua | `0,65` | arma, Força, crítico e o `1d4` do refino `1` |
+> | ataque extra, refino `8` + Manha | `1,06` | o `2º` golpe dobra a Manha e o dano na arma (`3d4`) |
 > | ataque extra, refino `10` + Manha | `1,95` | `4d6` de dano na arma em cada golpe |
 >
-> **A dispersão é `3,7×` dentro do mesmo Caminho, e ela não é da v0.147:** *o golpe sempre carregou o que estava empilhado nele.* **O que a v0.147 fez foi tirar o golpe da rodada de feitiço — e com isso encolher o degrau e INVERTER a forma dele**, que publicado crescia com o nível e derivado encolhe.
+> **A dispersão é `3,0×` dentro do mesmo Caminho, e ela não é da v0.147:** *o golpe sempre carregou o que estava empilhado nele.* **O que a v0.147 fez foi tirar o golpe da rodada de feitiço — e com isso encolher o degrau e INVERTER a forma dele**, que publicado crescia com o nível e derivado encolhe.
 >
 > > **⚠ A última linha era `1,68` e `3d6` até a v0.158, e a dispersão era `3,2×`.** *O que a moveu foi o refino `10` passar a dar um dado a mais — peça 11 §6.9, que é a dona do dano na arma desde aquela versão.* **O número anda por razão e não por reconta:** *o ataque extra é um golpe, e um golpe vale `golpe + dados extras`, então `(11,50 + 14,00) ÷ (11,50 + 10,50)` = `1,159`, e `1,68 × 1,159` dá `1,95`.*
 > >
-> > **As duas primeiras linhas NÃO se movem, e é isso que salva a tabela do degrau abaixo:** *o refino `8` não mudou, e é nele que o `1,93` do Bastião e o `2,10` da Vanguarda foram medidos.* **A dispersão daqui mede a entrega ao longo da campanha, contra uma ficha nua que só existe do nível 2 ao 9** — *a dominância entre duas fichas do MESMO nível 30 é `1,55×`, e ela está na peça 11 §6.9.*
+> > ***v0.340: as duas primeiras linhas se moveram, e com elas a tabela do degrau abaixo.*** *A escada do dano na arma passou a ser a do livro (peça 11 §6.9): o refino `8` dá `3d4` e não mais `2d4`, e a ficha nua carrega o `1d4` do refino `1`. Pela mesma razão `golpe + dados extras` da v0.158 — `(11,50 + 7,50) ÷ (11,50 + 5,00)` = `1,152` no refino `8` e `(11,50 + 2,50) ÷ 11,50` = `1,217` na ficha nua —, a ficha nua foi de `0,53` para `0,65`, o refino `8` com Manha de `0,92` para `1,06`, e o `0,83` do Bastião para `0,96`.* **As contas cruas dos degraus não foram refeitas:** *a razão é a da fonte, e vale a mesma aproximação que a v0.158 usou para o `1,68`.* **A dispersão daqui mede a entrega ao longo da campanha, contra uma ficha nua que só existe do nível 2 ao 9** — *a dominância entre duas fichas do MESMO nível 30 é `1,34×`, e ela está na peça 11 §6.9.*
 >
 > #### A taxa, e ela é derivada e não perguntada
 >
-> **O bloco 1 do `conferir-orcamento.py` já publicava o que faltava:** *`3` lutas × `3,5` rodadas = `10,5` rodadas de luta por dia, e o poço de PE diz quantas cabem.* **Bastião conjura `48%` das rodadas no nível 30, Vanguarda `67%`, Emanador `76%`** — e o resto, nas palavras do próprio validador, *"vai para Classe 0, golpe simples e projetar energia, que não custam PE"*. **É nessas que o ataque extra vive.**
+> **O bloco 1 do `conferir-orcamento.py` já publicava o que faltava:** *`3` lutas × `3,5` rodadas = `10,5` rodadas de luta por dia, e o poço de PE diz quantas cabem.* **Bastião conjura `48%` das rodadas no nível 30, Vanguarda `67%`, Emanador `76%`** — e o resto, nas palavras do próprio validador, *"vai para Classe 0 e golpe simples, que não custam PE"* (a frase do validador dizia também "projetar energia" até a v0.339; o projetar paga PE desde a v0.340 e fica de fora desta conta). **É nessas que o ataque extra vive.**
 >
 > #### ***Decisão do Mizuki: o nível 7 ganha uma segunda metade, e ela não anda no ataque***
 >
@@ -351,8 +351,8 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 >
 > | | nível 7 | ataque extra | + a metade nova | total |
 > |---|---|---|---|---|
-> | **Bastião** | ataque extra + `Ainda de Pé` | `0,83` | `1,10` | **`1,93`** |
-> | **Vanguarda** | ataque extra + `Execução Preparada` | `0,92` | `0,23` | **`1,15`** |
+> | **Bastião** | ataque extra + `Ainda de Pé` | `0,96` | `1,10` | **`2,06`** |
+> | **Vanguarda** | ataque extra + `Execução Preparada` | `1,06` | `0,23` | **`1,29`** |
 > | Guia · Emanador · Evocador | o degrau grande | — | — | `2,36` |
 >
 > **A `Ainda de Pé` é `1d8 + metade do nível` de cura, `1×` por cena, sem custo de ação.** *`1` de cura = `1` de dano evitado, pela régua da v0.76.* **O relógio não foi escolhido: `1×` por cena dá `1,10` e `2×` daria `2,19`, que estoura.**
@@ -363,7 +363,7 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 >
 > #### A diferença que fica, e ela é declarada
 >
-> **Bastião `−0,43` e Vanguarda `−1,21` contra o degrau grande de `2,36`.** *Até a v0.335 a Vanguarda ficava em `−0,26`, com a `Não Pega` (`1,18`), e a distância entre os dois era `0,18`, menor que qualquer Manha do catálogo. O resto deste parágrafo é dessa época:* *Os dois ficam abaixo, e a distância entre eles é `0,18` — menor que qualquer Manha do catálogo.* **O resíduo é a Manha:** *a Vanguarda dobra uma no segundo golpe e o Bastião não tem nenhuma; em troca o Bastião passa `52%` das rodadas sem PE contra `33%` dela, e o ataque extra rende mais nele.* **As duas forças quase se cancelam.**
+> **Bastião `−0,30` e Vanguarda `−1,07` contra o degrau grande de `2,36`.** *(Eram `−0,43` e `−1,21` até a v0.339, com a escada do dano na arma que começava no refino `3`; ver o aviso da v0.340 acima.)* *Até a v0.335 a Vanguarda ficava em `−0,26`, com a `Não Pega` (`1,18`), e a distância entre os dois era `0,18`, menor que qualquer Manha do catálogo. O resto deste parágrafo é dessa época:* *Os dois ficam abaixo, e a distância entre eles é `0,18` — menor que qualquer Manha do catálogo.* **O resíduo é a Manha:** *a Vanguarda dobra uma no segundo golpe e o Bastião não tem nenhuma; em troca o Bastião passa `52%` das rodadas sem PE contra `33%` dela, e o ataque extra rende mais nele.* **As duas forças quase se cancelam.**
 >
 > ***Decisão do Mizuki: a diferença fica declarada em vez de o degrau grande descer para `2,05`.*** *`0,30` fatia é `6%` de uma Trilha, e cabe no que o projeto já aceita — a `Brasa` estoura entre `41%` e `88%` e ficou.*
 
@@ -378,7 +378,7 @@ Com um golpe na Ação Bônus, o conjurador de perto cai exatamente na linha do 
 >
 > *O baixo é sem Persistência e só nas rodadas em que a Vanguarda ataca; o alto é um teto generoso, com as duas Conduções acertando sempre.* **Mesmo no teto, a `Execução Preparada` vale `0,12` fatia contra os `1,18` da `Não Pega`, e o degrau da Vanguarda cai de `2,10` para no máximo `1,04`:** *de `−0,26` para entre `−1,32` e `−1,44` contra o degrau grande de `2,36`.* **A régua não mede o resto do que a Vanguarda ganhou na candidata** (*a Sequência inteira é de lá*), *então a comparação é só do degrau, como a tabela sempre foi.* *Era a medida com `−1`.*
 >
-> ***Decisão do Mizuki na v0.336 (D44), em 06/10/2026: "Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema".*** **A `Execução Preparada` impõe `−2`, e a parcela dobra: o teto dela vai a `0,23` fatia** *(Rasteira `0,014`, Desarme `0,006`, Quebrar o Ritmo `0,069`, Fixar o Alvo `0,231`, no alto).* **A tabela acima usa o teto, `0,23`, e o degrau da Vanguarda fica em `1,15`: `−1,21` contra o degrau grande, por decisão escrita, e não como resíduo.** *O `conferir-manual.py` continua conferindo a conta da tabela contra a diferença declarada; o teto de `0,50` dele vale para os outros degraus, e a Vanguarda só passa dele porque esta decisão está escrita aqui.*
+> ***Decisão do Mizuki na v0.336 (D44), em 06/10/2026: "Coloca que é -2 no teste e segue assim, vale pouco mesmo, n tem problema".*** **A `Execução Preparada` impõe `−2`, e a parcela dobra: o teto dela vai a `0,23` fatia** *(Rasteira `0,014`, Desarme `0,006`, Quebrar o Ritmo `0,069`, Fixar o Alvo `0,231`, no alto).* **A tabela acima usa o teto, `0,23`, e o degrau da Vanguarda ficava em `1,15`: `−1,21` contra o degrau grande, por decisão escrita, e não como resíduo.** *Na v0.340 a escada do dano na arma subiu o ataque extra de `0,92` para `1,06`, e o degrau passou a `1,29`:* **`−1,07` contra o degrau grande, por decisão escrita.** *A decisão do Mizuki (D44, “vale pouco mesmo”) é a mesma e o número que ela aceita é menor; a Execução Preparada não mudou.* *O `conferir-manual.py` continua conferindo a conta da tabela contra a diferença declarada; o teto de `0,50` dele vale para os outros degraus, e a Vanguarda só passa dele porque esta decisão está escrita aqui.*
 >
 > ### A leitura da v0.82, que a inversão aposentou
 >

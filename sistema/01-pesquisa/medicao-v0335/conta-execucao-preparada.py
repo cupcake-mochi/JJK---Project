@@ -3,7 +3,7 @@
 
 Pedido do PLANO da migracao (sexta passada, D42): "meca a parcela dela pela mesma regua e confira se o
 degrau continua abaixo do Guia, do Emanador e do Evocador (2,36)". A Execucao Preparada entrou no lugar da
-Nao Pega, que valia 1,18 fatia; o ataque extra (0,92) nao muda.
+Nao Pega, que valia 1,18 fatia; o ataque extra nao muda (0,92 na epoca; 1,06 desde a v0.340, pela escada nova do dano na arma).
 
 A REGUA, lida da peca 06 (o degrau do nivel 7): tudo vira dano equivalente por rodada no nivel 30 e e
 dividido pela fatia. A Nao Pega reproduz assim: 12,00 evitados x 50% das rodadas / 5,08 = 1,18.

@@ -169,15 +169,15 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 **A `Energia Reversa` da peça 11 §6 cura `1d8` por PE gasto, até `maior Classe` de PE, e ela cura VOCÊ.** *Isso não muda aqui.*
 
-> **O que muda: quem tem a semente `Energia Reversa` soma `1/3 do refino` em toda rolagem de cura sua.**
+> **O que muda: quem tem a semente `Energia Reversa` soma `1/3 do refino` em toda rolagem de cura sua, uma vez ao total, e `+4` no refino `10`.**
 
-**O divisor não é escolha nova.** *`1/3 do refino` é o mesmo da `cobrir-se` da peça 11 §6, e o motivo escrito lá é que ele cresce de `0` a `3` na campanha — exatamente o que um atributo cresce.*
+**O divisor não é escolha nova.** *`1/3 do refino` é o mesmo da `cobrir-se` da peça 11 §6, e o motivo escrito lá é que ele cresce de `0` a `3` na campanha — exatamente o que um atributo cresce.* ***v0.340: o refino `10` dá `+4` e não `+3`*** *(R10-08): a candidata e o livro escrevem a tabela `+0, +1, +2, +3, +4` por faixa de refino (`1–2`, `3–5`, `6–8`, `9`, `10`), e a peça escrevia só `1/3`. A medida acima foi refeita com o `+4`: `0,39` fatia, `0,67×` o `Pulso`, ainda abaixo da entrega de Trilha que espelha. O bônus entra uma vez no total da cura, nunca por dado, e não vale ao curar um aliado nem no dano de Energia Reversa contra maldição.*
 
 **Medido na régua que a própria `Sutura` usa** — *`(cura por uso) × 50% ÷ 5,08`, que reproduz os `0,89` da `Agulha` e os `0,59` do `Pulso` exatos*:
 
 | | no refino 10 | fatias | contra o `Pulso`, que é entrega de nível 19 de Trilha |
 |---|---|---|---|
-| **`+ 1/3 do refino`** | `+3` | **`0,30`** | **`0,50×`** |
+| **`+ 1/3 do refino`, e `+4` no refino `10`** | `+4` | **`0,39`** | **`0,67×`** |
 | *`+ refino` cheio, medido e recusado* | `+10` | `0,98` | `1,67×` |
 
 > **E ela mora AQUI e não na `Sutura`, e isso é a peça 9 §1 decidindo.** *Aquela seção diz, sobre por que a Origem não dá atributo: "amarrar número à origem criaria **a origem certa para cada montagem**".* **Pendurar o buff na Trilha do Guia faria `Sem Técnica` virar a Origem certa para todo `Sutura`.** *Na máquina da rota, ele vale para quem tem a semente, tenha pegado `Sutura` ou não — e quem pegar as duas empilha, como qualquer um empilha Trilha.*
@@ -192,7 +192,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > **O que a v0.171 pôs no lugar é o empate, medido na faixa inteira da aptidão.** *Com o teto na `maior Classe`, a cura cobre de `101%` a `88%` do que uma rodada tira de você, do nível 14 ao 30; com o teto no refino, ela sai em `177%` no nível em que o gate abre e nunca volta a empatar.* **A `maior Classe` cresce `1,75×` contra os `2,02×` do golpe de chefe, e o refino cresce `1,43×` e para no marco 22** — a Classe é o único dos dois que acompanha o nível.
 
-*E medido, o `+1/3 do refino` não deriva para cima:* **contra o golpe do chefe ele vai de `20,0%` no nível 10 para `13,9%` no 30.** *É o lado seguro, o mesmo do `projetar energia`.*
+*E medido, o `+1/3 do refino` não deriva para cima:* **contra o golpe do chefe ele vai de `20,0%` no nível 10 para `13,9%` no 30.** *É o lado seguro.*
 
 ## 7. O vão, medido — e é por isso que a máquina é o Fundamento e não outra coisa
 
@@ -200,12 +200,12 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 | nível | Rotina | a rodada dela | % da Rotina |
 |---|---|---|---|
-| 2 | 13 | `5,5` | 42,3% |
-| **7** | 31 | `16,0` | **51,6%** — o melhor nível dela |
-| 14 | 63 | `25,0` | 39,7% |
+| 2 | 13 | `8,0` | 61,5% |
+| **7** | 31 | `21,0` | **67,7%** — o melhor nível dela, do `7` ao `9` |
+| 14 | 63 | `30,0` | 47,6% |
 | **30** | 108 | **`51,0`** | **47,2%** |
 
-**Faixa da campanha inteira: `17,7%` a `51,6%` da Rotina.** *Os dois números do nível 30 reproduzem o que a peça 11 §6.9 já publica.*
+**Faixa da campanha inteira: `33,9%` a `67,7%` da Rotina.** *Os dois números do nível 30 reproduzem o que a peça 11 §6.9 já publica.* *(v0.340: a escada do dano na arma passou a ser a do livro, com `1d4` já no refino `1`, e os níveis `2`, `7` e `14` foram refeitos pela conta do `conferir-aptidoes` §10. A faixa antiga, `17,7%` a `51,6%`, tinha um piso que a mesma conta não reproduz, `25,8%` com a escada antiga.)*
 
 **Mas o vão que importa é o do DIA, e ele é menos da metade do vão do pico** — porque o feiticeiro também não conjura toda rodada:
 
@@ -334,3 +334,13 @@ O `conferir-sem-tecnica.py` roda **treze checagens**, e nenhum valor de regra fi
 - ~~**`Energia Reversa` contra maldição — DECIDIDA na v0.190, e por escrever.**~~ **Escrita na v0.194**, e o dono é o manual: a Forma `Cura` pode escolher alvo hostil, com `50%` a mais, e o requisito é a própria aptidão. *Os três números que este item pedia saíram todos — a base do `50%` está no §4.4, a aptidão de liberação não existe (a `Energia Reversa` é a porta), e o preço é a `Média` da Forma.*
 - **Nenhum `Manejo` publicado.** *Esta peça entrega a máquina e dois Fundamentos de exemplo; ela não abre catálogo de `Manejo` pronto, do mesmo jeito que o manual entrega três Fundamentos prontos e não uma lista fechada de feitiços.*
 - ~~**O texto de mesa.** *Como toda peça de `03-mecanica/`, esta é nota de design.* **O capítulo do livro sai dela.**~~ **Fechado na v0.170:** é o capítulo 11 do livro, logo depois da Técnica Marcial. *O livro foi de `17` para `18` capítulos, e a seção `Sem Técnica` do capítulo de Origens virou ponteiro.*
+
+## 12. O que a candidata escreveu e esta peça ainda não dizia — v0.340
+
+*Migração das Rotas do livro reconstruído (passo 5b do `PLANO.md`), a parte da Sem Técnica.* **O que mudou de número está no §6: o bônus de autocura vai a `+4` no refino `10`.** *O resto é lacuna fechada:*
+
+- **Curar (R10-07, R10-09).** *O `Manejo` de Forma Cura pode curar um aliado disposto a até `9 m`, desde que o Amparo esteja disponível e a cura seja coerente com a semente; a aptidão `Energia Reversa` só envia a terceiros se outra regra permitir. `Energia Reversa` e as curas construídas a partir dela não recuperam o Corpo Amaldiçoado; o reparo é da Origem. Contra maldição, o Manejo usa o procedimento de `Ferir maldições`, e o bônus de autocura não entra nesse dano.*
+- **`Pétala` (R10-06).** *A quarta semente voltou ao livro, com o exemplo `Espinho`: Manejos reativos e próximos do corpo, sem ataque distante independente do contato.*
+- **Sementes (R10-31).** *A semente `Domínio Simples` remete à entrada da aptidão, que tem o voto do iniciante, em vez de repetir o deslocamento e o abandono dele.*
+- **Exemplos (R10-27).** *`Recomposição` (Categoria de Efeito `2`) exige o nível `7` e dois espaços, e os tipos de dano dos exemplos são Cortante, Concussão e Força.*
+- **Vetos e Expressão (R10-26, D18).** *Sem Técnica não aprende nem auxilia `Ritual`. Ela registra a Expressão da técnica, como as outras rotas.*

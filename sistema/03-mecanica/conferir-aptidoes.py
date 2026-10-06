@@ -13,8 +13,9 @@ CONTRATO DE INVARIANTES:
      frequencia, escopo, magnitude fora de disputa, ou disputa contra outro refino.
   2. COBRIR-SE nao deriva: 1/3 do refino cresce exatamente +3 na campanha, igual a
      um atributo. E a Reacao a 1,5 x refino fica com saldo POSITIVO em todo nivel.
-  3. PROJETAR nao compete com feitico: o dano dela fica numa faixa estreita da
-     coluna Rotina, e ela deriva para BAIXO.
+  3. PROJETAR paga PE (de 1 ate metade do refino, NdF por PE): a rodada dela fica
+     ABAIXO da Rotina do nivel, nao deriva para cima, e a tabela da peca reconstroi
+     da regra. Ela pode passar o Classe 0 gratis, por decisao escrita (v0.340).
   4. KOKUSEN e pequeno e nao espirala: a cascata nao toca a margem, e o que a
      FICHA consegue com as tres empilhadas, POR MARCO PAGO, fica abaixo de um
      quarto do que um ponto de atributo compra. A trava media so a entrada base
@@ -200,7 +201,7 @@ ESCALA = {
     'canalizar, Toque':        None,
     'canalizar, dano na arma': 'magnitude fora de disputa',
     'estimulo, dano na arma':  'magnitude fora de disputa',
-    'projetar energia':        'magnitude fora de disputa',
+    'projetar energia':        'custo em PE',
     'kokusen, a chance':       'frequencia',
     'kokusen melhorado':       'frequencia',
     'clash de expansao':       'disputa contra outro refino',
@@ -274,25 +275,71 @@ if saldos[-1] >= saldos[0] * 2:
 
 
 # --------------------------------------------------------------------------
-bloco('3. PROJETAR — nao compete com feitico, e deriva para baixo')
-print('  Dano = refino, sem PE. O arquitetura pede: "fixo e baixo, para quem ficou')
-print('  sem PE, nao para competir com feitico".\n')
-print(f"  {'nivel':<8}{'Rotina':<10}{'Classe 0':<12}{'projetar':<11}{'% da Rotina'}")
-fracoes = []
-for nv in NIVEIS:
-    r = ROTINA[CLASSE_NO_NIVEL[nv]]
-    proj = refino_em('especialista', nv)
-    f = proj / r
-    fracoes.append(f)
-    print(f'  {nv:<8}{r:<10}{f"{classe_0(nv)/r:.0%}":<12}{proj:<11}{f:.0%}')
-    if f > 0.30:
-        erro(f'nv{nv}: projetar entrega {f:.0%} da Rotina — ela passou a competir com feitico')
-print(f'\n  Faixa: de {min(fracoes):.0%} a {max(fracoes):.0%} da Rotina.')
-if fracoes[-1] > fracoes[len(fracoes)//2]:
-    erro('projetar esta derivando para CIMA — a vida de inimigo deveria crescer mais '
-         'rapido que o refino')
+bloco('3. PROJETAR — paga PE, fica abaixo da Rotina, e a tabela da peca reconstroi')
+# v0.340: o projetar deixou de ser gratuito. A regra e lida da peca 11 §6: de 1 PE
+# ate metade do refino (para baixo, minimo 1), com NdF de dano por PE. Nada disso
+# mora aqui. O que o bloco mede e a segunda condicao da §2 — a rodada em que o dano
+# de refino cai fica ABAIXO da Rotina do nivel — e que a tabela publicada na peca
+# reconstroi da regra. Ate a v0.339 ele media uma faixa de 8% a 12% da Rotina, e a
+# frase "fixo e baixo, para quem ficou sem PE" que o arquitetura.md ainda cita.
+_SEC6 = re.search(r'^### Projetar energia\n.*?(?=^### Kokusen)', PECA11, re.S | re.M)
+_rg = re.search(r'Gaste de `1` até metade do seu refino \(para baixo, mínimo `1`\), e cada PE '
+                r'causa `(\d+)d(\d+)` de dano de Força', _SEC6.group(0) if _SEC6 else '')
+if not _rg:
+    erro('3: nao achei a regra do projetar na peca 11 §6 ("de 1 ate metade do refino, NdF '
+         'por PE") — a entrada mudou de forma, e o bloco parou de conferir em vez de acusar')
 else:
-    print('  Ela deriva para BAIXO, que e o lado seguro para errar.')
+    N_PROJ, F_PROJ = int(_rg.group(1)), int(_rg.group(2))
+    MEDIA_PE = N_PROJ * (F_PROJ + 1) / 2.0
+    PUB_PROJ = {}
+    for _l in _SEC6.group(0).splitlines():
+        _mt = re.match(r'\|\s*`(\d+)`(?:\s*·\s*`(\d+)`)?\s*\|\s*`(\d+)`\s*\|\s*`(\d+)`\s*\|'
+                       r'\s*`([\d,]+)`\s*\|\s*`(\d+)`\s*\|\s*`([\d,]+)×`\s*\|\s*`([\d,]+)%`', _l)
+        if _mt:
+            for _n in [int(_mt.group(1))] + ([int(_mt.group(2))] if _mt.group(2) else []):
+                PUB_PROJ[_n] = (int(_mt.group(3)), int(_mt.group(4)),
+                                float(_mt.group(5).replace(',', '.')), int(_mt.group(6)),
+                                float(_mt.group(7).replace(',', '.')),
+                                float(_mt.group(8).replace(',', '.')))
+    if sorted(PUB_PROJ) != sorted(NIVEIS):
+        erro(f'3: a tabela do projetar cobre os niveis {sorted(PUB_PROJ)} e a conta mede '
+             f'{NIVEIS} — a tabela mudou de forma, e a comparacao abaixo passaria sem conferir')
+    print(f'  Regra lida da peca: de 1 PE ate refino // 2 (minimo 1), {N_PROJ}d{F_PROJ} '
+          f'({MEDIA_PE:.1f}) por PE.\n')
+    print(f"  {'nivel':<7}{'refino':<8}{'PE':<5}{'dano':<8}{'Classe 0':<10}{'contra C0':<11}"
+          f"{'% da Rotina':<13}{'publicado'}")
+    fracoes = []
+    for nv in NIVEIS:
+        r = ROTINA[CLASSE_NO_NIVEL[nv]]
+        ref = refino_em('especialista', nv)
+        pe = max(1, ref // 2)
+        dano = pe * MEDIA_PE
+        f = dano / r
+        fracoes.append(f)
+        c0 = classe_0(nv)
+        bate = ''
+        if nv in PUB_PROJ:
+            _p = PUB_PROJ[nv]
+            _ok = (_p[0] == ref and _p[1] == pe and abs(_p[2] - dano) <= 0.05
+                   and _p[3] == c0 and abs(_p[4] - dano / c0) <= 0.006
+                   and abs(_p[5] - 100 * f) <= 0.06)
+            bate = 'ok' if _ok else '<<< DIVERGIU'
+            if not _ok:
+                erro(f'nv{nv}: a tabela do projetar publica {_p} e a regra reconstroi '
+                     f'refino {ref}, {pe} PE, dano {dano:.1f}, Classe 0 {c0}, '
+                     f'{dano/c0:.2f}x, {100*f:.1f}% da Rotina')
+        print(f'  {nv:<7}{ref:<8}{pe:<5}{dano:<8.1f}{c0:<10}{dano/c0:<11.2f}{f"{f:.1%}":<13}{bate}')
+        if f >= 1.0:
+            erro(f'nv{nv}: projetar entrega {f:.0%} da Rotina — a segunda condicao da §2 '
+                 f'exige a rodada de refino ABAIXO da Rotina do nivel')
+    print(f'\n  Faixa: de {min(fracoes):.0%} a {max(fracoes):.0%} da Rotina.')
+    if fracoes[-1] > fracoes[len(fracoes) // 2]:
+        erro('projetar esta derivando para CIMA no fim da campanha — a vida de inimigo '
+             'deveria crescer mais rapido que o refino')
+    else:
+        print('  No fim da campanha ela fica abaixo do meio: nao deriva para cima.')
+    print('  Ela passa o Classe 0 gratis do nivel 10 em diante, por decisao escrita do')
+    print('  Mizuki (v0.340, "custou uma aptidao pra isso"); isso e informacao, nao erro.')
 
 
 # --------------------------------------------------------------------------
@@ -1896,7 +1943,11 @@ _m69 = re.search(r'^## 6\.9\..*?(?=^## 7\.)', PECA11, re.S | re.M)
 if _m69:
     SEC69 = _m69.group(0)
 
-_reg69 = re.search(r'`1d(\d+)` de dano a mais a cada `(\d+)` pontos de refino', SEC69)
+# v0.340: a escada do livro comeca no refino 1 (`1d4` ja no 1, mais um a cada 3). A
+# regra e lida como RELACAO: o dado inicial, as faces e o passo; o numero de dados
+# em cada refino sai de dados_iniciais + refino // passo.
+_reg69 = re.search(r'`(\d+)d(\d+)` de dano a mais no refino `1`, e mais `1d\2` a cada '
+                   r'`(\d+)` pontos de refino', SEC69)
 # A excecao e' lida como RELACAO: o refino em que ela dispara, as faces novas, e
 # se ela acrescenta um dado. Ela nao guarda o `4d6`: o total sai de refino//passo
 # mais o acrescimo. Assim o contra-teste coerente — voltar ao `3d6` mexendo em
@@ -1912,13 +1963,14 @@ elif not _reg69 or not _exc69:
     erro('10: a SS6.9 nao publica mais a regra do dano na arma em linha de regra — '
          'sem ela a escada nao tem de onde ser reconstruida')
 else:
-    FACE_BASE, PASSO_DANO = int(_reg69.group(1)), int(_reg69.group(2))
+    DADOS_INI, FACE_BASE, PASSO_DANO = (int(_reg69.group(1)), int(_reg69.group(2)),
+                                        int(_reg69.group(3)))
     TETO_TXT, FACE_TETO = int(_exc69.group(1)), int(_exc69.group(2))
     EXTRA_TETO = 1 if _exc69.group(3) else 0
 
     def escada(r):
         """(quantos dados, faces) no refino r — reconstruido da linha de regra."""
-        n = r // PASSO_DANO
+        n = DADOS_INI + r // PASSO_DANO
         if r >= TETO_TXT:
             return n + EXTRA_TETO, FACE_TETO
         return n, FACE_BASE
@@ -1970,8 +2022,9 @@ else:
                 _mau += 1
         if _mau:
             erro(f'10: {_mau} degrau(s) da escada da SS6.9 nao reconstroem da propria '
-                 f'linha de regra — `1d{FACE_BASE}` a cada {PASSO_DANO}, com o refino '
-                 f'{TETO_TXT} virando d{FACE_TETO} com um dado a mais')
+                 f'linha de regra — `{DADOS_INI}d{FACE_BASE}` no refino 1 e mais um a cada '
+                 f'{PASSO_DANO}, com o refino {TETO_TXT} virando d{FACE_TETO}'
+                 f'{" com um dado a mais" if EXTRA_TETO else ""}')
         else:
             print('  [x] os dez degraus reconstroem da linha de regra, e nenhum deles')
             print('      esta escrito dentro deste validador.')
@@ -2173,12 +2226,25 @@ else:
                               rf'pontos de {_metrica}', _txt)
         _ok_teto = re.search(rf'(?:refino|Lapidação) `{TETO_TXT}`[^\n]*`d{FACE_TETO}`'
                              rf'[^\n]*`{_NT}d{_FT}`', _txt)
-        if not _ok_regra or not _ok_teto:
+        # v0.340: a frase da regra sozinha deixou a peca e o livro divergirem por onze
+        # versoes (a peca comecava no refino 3, o livro no 1) com este bloco verde.
+        # A LISTA de degraus que o livro escreve tambem e comparada com a escada.
+        _lst = re.search(rf'`(\d+)d{FACE_BASE}` (?:no|na) (?:refino|Lapidação) `(\d+)`, '
+                         rf'`(\d+)d{FACE_BASE}` (?:no|na) `(\d+)`, '
+                         rf'`(\d+)d{FACE_BASE}` (?:no|na) `(\d+)`, '
+                         rf'`(\d+)d{FACE_BASE}` (?:no|na) `(\d+)`', _txt)
+        _lista_ok = False
+        if _lst:
+            _g = [int(_x) for _x in _lst.groups()]
+            _lista_ok = all(_g[_i * 2] == escada(_g[_i * 2 + 1])[0]
+                            and escada(_g[_i * 2 + 1])[1] == FACE_BASE
+                            for _i in range(4))
+        if not _ok_regra or not _ok_teto or not _lista_ok:
             erro(f'10: o livro, em {_arq}, nao publica o dano na arma como a SS6.9 '
-                 f'escreve — `1d{FACE_BASE}` a cada `{PASSO_DANO}` de {_metrica}, e no '
-                 f'`{TETO_TXT}` virando `{_NT}d{_FT}`')
+                 f'escreve — `1d{FACE_BASE}` a cada `{PASSO_DANO}` de {_metrica}, os '
+                 f'degraus da lista e no `{TETO_TXT}` virando `{_NT}d{_FT}`')
         else:
-            print(f'  [x] {_arq} publica a mesma escada que a SS6.9')
+            print(f'  [x] {_arq} publica a mesma escada que a SS6.9, regra e lista')
 
 # --------------------------------------------------------------------------
 bloco('11. AS CONTAGENS DE APTIDAO — a rota pura publica o que a regra produz')

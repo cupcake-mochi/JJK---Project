@@ -296,9 +296,21 @@ else:
              'da para medir o buff contra a entrega que ele espelha')
     else:
         pulso = float(_m.group(1).replace(',', '.'))
-        buff = 3 * 0.50 / FATIA          # 1/3 do refino no teto = +3
+        # v0.340: o refino 10 da +4, e nao +3 (a candidata escreve +0,+1,+2,+3,+4 por
+        # faixa). O valor sai da linha de regra e da tabela da propria peca 25, e a
+        # relacao e conferida: a tabela tem de dizer o que a linha de regra diz.
+        _mx = re.search(r'e `\+(\d+)` no refino `10`', _REGRA9)
+        _mt = re.search(r'\*\*`\+ 1/3 do refino`, e `\+(\d+)` no refino `10`\*\*\s*\|\s*`\+(\d+)`',
+                        secao(P25, '6. A rota da Shoko'))
+        if not _mx or not _mt or not (_mx.group(1) == _mt.group(1) == _mt.group(2)):
+            erro('9: a linha de regra do buff de cura e a tabela de medida da peca 25 nao '
+                 'dizem o mesmo `+N` no refino 10 — ou uma das duas mudou de forma')
+            _NB = 3
+        else:
+            _NB = int(_mx.group(1))
+        buff = _NB * 0.50 / FATIA        # o buff no refino 10, lido da peca
         print(f'  o `Pulso` (nivel 19 da `Sutura`) vale {pulso:.2f} fatia')
-        print(f'  o buff no refino 10 (+3) vale {buff:.2f} fatia -> {buff/pulso:.2f}x')
+        print(f'  o buff no refino 10 (+{_NB}) vale {buff:.2f} fatia -> {buff/pulso:.2f}x')
         if buff > pulso:
             erro(f'9: o buff de cura vale {buff:.2f} fatia contra {pulso:.2f} do '
                  '`Pulso`, que e entrega de NIVEL 19 de uma Trilha — e este sai de graca')

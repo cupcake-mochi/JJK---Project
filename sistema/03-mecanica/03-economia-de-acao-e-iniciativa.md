@@ -210,7 +210,7 @@ O Talento **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 
 **Não existe teto de soma com o `Acúmulo` e o `Remate`, e é por conta:** *o `Alvo de Caça` soma `2,5` fixos no feitiço seguinte contra o alvo marcado (`5,6%` da Rotina na Classe `3`, `2,3%` na `7`) e `5,0` nos dois ataques do físico (`11%` na `3`, `4,6%` na `7`) — pequeno demais para mover o que o `Acúmulo` já faz sozinho.* **O que passa do teto de um alvo ali é o `Acúmulo`, e ele passa antes desta Melhoria existir** — *está registrado como problema de design aberto no `ESTADO-ATUAL.md`.*
 
-**E o invariante da peça 11 segue com folga:** *a rodada de golpe fica abaixo da Rotina. O golpe simples vai de `51,6%` para `58,3%` no nível `7` (`62,5%` com `1d8`) e de `47,2%` para `49,5%` no `30` (`51,3%`).*
+**E o invariante da peça 11 segue com folga:** *a rodada de golpe fica abaixo da Rotina. O golpe simples vai de `67,7%` para `74,4%` no nível `7` (`78,6%` com `1d8`) e de `47,2%` para `49,5%` no `30` (`51,3%`).* *(v0.340: a base do nível `7` era `51,6%`, antes de a escada do dano na arma começar no refino `1`; os acréscimos do `Alvo de Caça` são os mesmos, e o nível `30` não mudou.)*
 
 ## 3.1 A lista de ações
 

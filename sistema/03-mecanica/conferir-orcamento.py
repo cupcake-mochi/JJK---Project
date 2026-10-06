@@ -136,8 +136,9 @@ bloco('1. A LINHA DE BASE — quanto do dia um personagem consegue conjurar?')
 
 print('  Um dia normal tem 3 lutas de graca (a exaustao dispara da quarta) e cada')
 print(f'  luta dura ~{RODADAS_POR_LUTA} rodadas: {rodadas_do_dia():g} rodadas de luta por dia.')
-print('  Ninguem conjura em todas — o resto vai para Classe 0, golpe simples e')
-print('  projetar energia, que nao custam PE. A pergunta e QUANTAS cabem.\n')
+print('  Ninguem conjura em todas — o resto vai para Classe 0 e golpe simples, que')
+print('  nao custam PE (o projetar energia paga PE desde a v0.340 e fica de fora desta')
+print('  conta). A pergunta e QUANTAS cabem.\n')
 
 print(f"  {'nv':<5}{'Classe':<8}{'feitico':<9}" +
       ''.join(f'{k[:9]:<16}' for k in ('Bastiao', 'Emanador')))

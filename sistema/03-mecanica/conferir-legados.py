@@ -244,9 +244,14 @@ else:
             continue
         _niv = NIVEL_DA_CONDICAO[_cond[0]]
         _esp = DEGRAU_POR_NIVEL[_niv]
-        if rel.strip() != _esp:
+        # v0.340: o degrau do nivel e' o PISO de raridade, e nao o unico permitido. O
+        # Revezamento apaga `Guarda Aberta` (Leve) uma vez por descanso longo no livro:
+        # mais raro que o `por cena` do nivel, e mais raro so enfraquece o Legado.
+        _ORDEM = ['por cena', 'por descanso curto', 'por dia', 'por descanso longo']
+        if rel.strip() not in _ORDEM or _esp not in _ORDEM or \
+                _ORDEM.index(rel.strip()) < _ORDEM.index(_esp):
             _fora.append(f'{org} · {nome} → apaga `{_cond[0]}` ({_niv}) com relogio '
-                         f'"{rel.strip()}" e o nivel pede "{_esp}"')
+                         f'"{rel.strip()}" e o nivel pede "{_esp}" ou um mais raro')
     if _fora:
         erro('4', 'Desliga de condicao com o relogio errado:')
         for x in _fora:

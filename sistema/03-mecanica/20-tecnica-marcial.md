@@ -98,13 +98,14 @@ Esta peça é a que mais chegou com contrato assinado por outras, e vale listar 
 
 | Categoria de Efeito | exemplo | o que ele é |
 |---|---|---|
-| **Livre** | `Calo` | a sua mão reconhece pelo peso qualquer arma que você já empunhou uma vez |
 | **1** | **`Bocado`** | você guarda no corpo o que carrega. *A entrada inteira está abaixo* |
 | **1** | `Raiz` | você não é movido à força nem derrubado contra a sua vontade |
 | **1** | `Leitura` | você identifica a Classe e a Forma de qualquer feitiço conjurado a até `18 m` |
 | **2** | `Segundo Fôlego` | quando você chega a `0` de vida, uma vez por descanso longo você escolhe `Insistir` sem gastar a rodada |
-| **2** | `Contragolpe` | uma vez por cena, quando alguém erra um ataque corpo a corpo contra você, a sua próxima Kata contra ele não pode ser evitada por deslocamento |
-| **3** | `Aliança` | a sua arma nunca é desarmada, e ninguém além de você a empunha |
+| **2** | `Contragolpe` | até `maestria` vezes por cena, quando alguém erra um ataque corpo a corpo contra você, a sua próxima rolagem de ataque de uma Kata contra ele tem vantagem, até o fim da cena; uma resposta guardada por vez |
+| **3** | `Aliança` | a sua arma não é desarmada contra a sua vontade, e só você a empunha; outra criatura ainda pode carregá-la |
+
+> ***v0.340: o `Calo` saiu da lista (D12, decisão do Mizuki de 04/10/2026).*** *A candidata o retirou como Talento marcial: reconhecer pelo toque uma arma que você costuma usar descreve a relação com o equipamento, e não um efeito; identificar arma disfarçada ou detectar substituição seguem a cena e as perícias. O `Contragolpe` e a `Aliança` ganharam o texto da candidata (R10-13, R10-14): a vantagem substitui o “não pode ser evitada por deslocamento” da v0.339, e a `Aliança` veta o desarme involuntário e o uso por terceiro sem tornar a arma indestrutível nem teleportá-la de volta.*
 
 > **⚠ Os dois de Categoria de Efeito `1` do meio já existiam, e é por isso que eles estão aqui.** *O `Raiz` é o Talento da `Fisga` e o `Leitura` é o da `Bancada`, as duas Técnicas Marciais prontas do §9.* **Eles estavam publicados dentro de duas fichas e em lugar nenhum como exemplo** — quem lia a criação não passava por eles.
 
@@ -238,6 +239,8 @@ A peça 1 fixou na v0.117 que **a técnica declara um atributo na criação, qua
 > **⚠⚠ ABERTO na v0.133, e é achado do Mizuki: a trava fecha uma ficha que devia caber.** *"Se não restringe, seria sempre obrigado a usar um atributo só — e aí não teríamos gente que por exemplo quer usar armas de fogo e armas de força."*
 >
 > **A `Arma de Fogo` é Destreza e o `Machado` é Força, e as duas listas acima não se cruzam nesses dois.** *Quem quer rifle e machado nos três grupos não tem escolha legal hoje: ou os três são de Força, ou os três são de Destreza.*
+>
+> ***FECHADO na v0.340 (R10-02): a Kata usa o atributo da arma empregada naquela execução, no ataque e na CD.*** *O texto da candidata preserva o que o livro v0.331 já dizia: `d20 + atributo da arma + maestria` no ataque e `8 + atributo da arma + maestria` na CD; se a arma deixa escolher entre Força e Destreza, declare qual você usa e mantenha até resolver a execução; um efeito com duração conserva a CD definida ao ser aplicado, mesmo se você trocar de arma. Dá para escolher um grupo de Força e outro de Destreza, e o rifle com o machado cabem na mesma ficha. **A tabela acima continua valendo como o mapa de “que atributo acerta com essa arma”, e a trava “os três grupos acertam pelo atributo declarado” saiu.** A medida que faltava (“a CD aguenta?”) é a quarta linha da tabela: com o ataque e a CD do mesmo atributo, a CD é `8 + atributo + maestria` e o alvo treinado resiste `65%`, igual à base do sistema. A ficha que reparte pontos entre Força e Destreza usa o atributo de cada execução, e o par ataque e CD nunca se separa.*
 >
 > **A saída que ele propõe é que a Kata acerte pelo atributo DA ARMA**, e ela já está medida na tabela acima como a terceira linha — *acerto pela arma, CD pelo declarado* —, que reprovou com o alvo resistindo `90%`. **Mas a medida foi feita no caso afiado, com o atributo declarado em `0`:** *lá o declarado era Inteligência e a arma pedia Força.* ***No caso do Mizuki os dois são físicos, e a ficha investe nos dois*** — é outro caso, e ele não foi medido.
 >
@@ -418,3 +421,16 @@ O `conferir-marcial.py` roda **catorze checagens**, e nenhum valor de regra fica
 - **A vaga de `Desliga` do Corpo Amaldiçoado.** *Ela é a única que sobrou na peça 13: a outra fechou na v0.132, com o `Conhecido`.* **A Origem dela não espera peça nenhuma desde a v0.122** — ela esperava esta aqui —, mas o **alvo** espera: *a enumeração da peça 13 §8 ficou com zero livre quando o `Ferro Velho` gastou os degraus de exaustão, e todo `Desliga` novo passou a depender de peça nova nomear coisa.* **Alvo de `Desliga` é escopo da peça 13**, e é lá que a espera está escrita.
 - **Nenhuma Kata publicada.** *Esta peça entrega a máquina e dois Fundamentos de exemplo; ela não abre catálogo de Kata pronta, do mesmo jeito que o manual entrega três Fundamentos prontos e não uma lista fechada de feitiços.*
 - ~~**O texto de mesa.** *Como toda peça de `03-mecanica/`, esta é nota de design.* **O capítulo do livro sai dela, e é lá que a armadilha do §6 precisa aparecer onde o jogador escolhe** — não numa seção de argumento.~~ **Fechado desde a v0.124, e só riscado na v0.170.** *O capítulo saiu naquela versão, e a armadilha está nele com todas as letras — o aviso `ela cobra tarde` fica na seção em que o objeto declara se o golpe simples atravessa, que é exatamente onde o jogador escolhe.* **Quarenta e seis versões de pendência morta que nenhuma checagem alcançava**, porque o assunto dela é "texto de mesa" e não uma peça.
+
+## 12. O que a candidata escreveu e esta peça ainda não dizia — v0.340
+
+*Migração das Rotas do livro reconstruído (passo 5b do `PLANO.md`), a parte da Técnica Marcial.* **Mudaram o `Calo` (saiu), o `Contragolpe` (vantagem em vez de “não pode ser evitada”), o atributo da Kata (§5) e a lista dos Talentos que a candidata publica.** *O resto é lacuna fechada, sem número novo:*
+
+- **O Selo (R10-03).** *O equipamento em uso é o Selo e não devolve pontos uma segunda vez. O gesto de uma Kata exige mãos livres e voz.*
+- **Entidade no lugar de Kata (R10-04).** *Um espaço comum pode ser ocupado por uma entidade só se a Descrição, a Regra, a semente ou o equipamento preveem criar, chamar ou controlar uma; uma espada que só corta não ganha entidade por ter espaço sobrando. A troca usa a revisão de um espaço por nível, e preencher espaço novo não a gasta; Classe `0`, Ruptura, Liberação, Ōgi e Auge não entram nessa troca.*
+- **Ōgi, Auge e Ruptura (R10-05, R10-26).** *A aplicação máxima pode ser ataque, cura ou utilidade pelo procedimento da Técnica Máxima, e não só golpe de dano fixo. Esta rota e a Sem Técnica não aprendem nem auxiliam `Ritual`.*
+- **`Bocado` (R10-11).** *No livro a entrada se chama `Maldição do Inventário`. Você saca ou guarda até dois itens por turno de graça, em vez de um; os objetos continuam contando na carga, guardar não deixa em uso nem satisfaz o Selo, e a pequena maldição não recebe turno, ataques nem ficha de entidade.*
+- **`Leitura` (R10-12).** *O Talento tem efeito próprio. Sem energia pessoal, exige uma ferramenta cujo funcionamento preveja essa leitura, e não concede `Sentir Energia` nem aptidão.*
+- **Equipamento restrito (D33, R10-37).** *A rota de arma segue Equipamento restrito, salvo permissão do mestre, e a arma de fogo vem com a munição inicial. A frase sobre ferramenta vestida como armadura saiu desta entrada.*
+- **O exemplo do Iori (D43, R10-38, R10-39).** *O `Gancho fechado` aplica `Prende` na falha de um TR Físico contra a CD da Kata, e não no acerto; as tentativas de saída usam o mesmo TR (v0.340, peça 19).*
+- **O `Segundo Fôlego` (R10-32) não migrou:** *depende do `Insistir`, e a revisão do Morrendo está adiada.*

@@ -95,3 +95,9 @@ O resto do parágrafo não muda.
 ## Depois de gerar
 
 Se os dois parágrafos novos empurrarem texto, as páginas seguintes mudam, e o sumário e o índice também. Me manda o PDF novo que eu refaço a conferência parágrafo por parágrafo contra a candidata. Se bater, ele substitui o `Ciclo-Maldito-Livro-de-Regras.pdf` e o aviso sai do README.
+
+## Projetar Energia: decisão do Mizuki de 06/10/2026 (v0.340)
+
+O R28a e a candidata dizem **`1d6` de Força por PE, de `1` PE até o refino inteiro**. O Mizuki decidiu outra coisa para o livro: **de `1` PE até metade do refino (para baixo, mínimo `1`), com `2d6` de Força por PE.** O resto da entrada fica como está (Ação Padrão, ataque de conjuração, alcance de `18 m` e `36 m`, sem Canalizar nem Kokusen). Quem corrige é a candidata (`sistema/05-material/livro/planejamento-editorial/aptidoes/lote-01/APTIDOES-E-REFINO.md`, a seção Projetar Energia e o exemplo da Mei) e, depois dela, o gerador do R28a.
+
+**O que muda no texto:** a entrada Projetar Energia e o exemplo da Mei, que escolhia de `1` a `6` PE com Refino 6 e agora escolhe de `1` a `3`.

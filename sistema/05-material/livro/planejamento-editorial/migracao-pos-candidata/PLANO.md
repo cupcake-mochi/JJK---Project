@@ -338,6 +338,18 @@ Depois da passada, o inventário fica assim:
 
 **Então o gerador, o `.docx` e o `.pdf` vão para o arquivo junto com a migração dos Poderes avançados.** *O `conferir-repositorio.py` vai precisar de um mapa de "movidos para o arquivo" (no molde do `LOCAIS`): 33 citações em documentos e evidências apontam para `manual/gerador/`, e várias estão em arquivos presos por hash nos manifestos do livro, que não se reescrevem.*
 
+## Passo 5b, primeiros três capítulos, feitos em 06/10/2026 (v0.340)
+
+*Aptidões e Refino (peça 11), Rotas (peças 20, 25 e 11 §6.8) e Origens (peça 13). Comparação do capítulo inteiro com as peças, e não só dos registros do inventário. Revisão por modelo, não humana.*
+
+**Aptidões.** *A comparação achou que os registros A06 (a escada do dano na arma) e A10 a A12 (o `Projetar`) eram regra, e o inventário os classificava como interface.* **A06:** *a escada do livro começa no refino `1`; a peça começava no `3`. Adotada por decisão do Mizuki, com as medidas dependentes refeitas (CHANGELOG da v0.340).* **A10 a A12:** *o `Projetar` pago, na forma que o Mizuki decidiu (`1` até metade do refino, `2d6` por PE); a candidata ainda diz `1d6` e o refino inteiro.* **A20, A25 e A27:** *raio do `Domínio Simples`, levantar a barreira em combate e a `Cortina` (`40 × refino`, `90 m`).* **Os outros registros confirmados** *(A08, A11, A15, A18, A22 a A24, A26, A28, A29) estão na peça 11 §6.10.*
+
+**Rotas.** *Mudaram de regra o `Calo` (saiu, D12), o `Contragolpe`, a `Presilha`, o `Esteio`, o `Vulto`, o `Antecipar`, o `Assombro`, o `Casco`, o bônus de autocura de `+4` no refino `10` e o atributo da Kata, que era o item aberto da peça 20 §5 desde a v0.133 e fechou na regra do livro: o atributo da arma, no ataque e na CD.* **O `Segundo Fôlego` (R10-32) não migrou:** *espera o Morrendo.*
+
+**Origens.** *Cinco Legados passaram de por cena para por descanso curto, o `Revezamento` apaga a `Guarda Aberta` (e a trava do relógio do `Desliga` virou piso de raridade), e o `Sangue que Não é Sangue` ganhou a necessidade corporal.*
+
+**O que sobra destes três capítulos:** *os nomes dos três formatos de Legado (ORI01, `138` ocorrências na peça 13); o exemplo da `Abre Ferida` (candidata, junto da próxima reconstrução do PDF); e os registros editoriais e de preservação, que não mudam regra.* **A candidata e o R28a ainda têm o `Projetar` antigo** *(`R28a-o-que-falta.md`).*
+
 ## Os seis capítulos sem passo, achados em 06/10/2026
 
 **A tabela de tamanho do topo lista seis capítulos que a ordem proposta não cobria:** *Ritual e Pactos (29 registros confirmados, peças 22 e 27), Poderes avançados (21, peça 11 e o rascunho da Expansão sem Barreiras), Regras gerais (19, peças 01, 03, 04, 05 e 23), Origens (18, peças 09 e 13), Rotas (14, peças 20 e 25) e Aptidões e Refino (13, peça 11).* **São 114 registros que nenhum passo migrava.** *Eles entram como passo 5b, um capítulo por versão, comparando o capítulo inteiro com as peças (o inventário não cobre as rodadas anteriores, como se viu no Equipamento e no tipo `Força` do Dano). Antes deles vai o capítulo de Dano sem o Morrendo.*
