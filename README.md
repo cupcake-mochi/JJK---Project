@@ -9,7 +9,7 @@
 
 **[Ciclo Maldito — Livro de regras (PDF, 498 páginas)](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é o livro principal do sistema desde a v0.339, por decisão do Mizuki. *É a edição R28a, diagramada e ilustrada por ele a partir do livro reconstruído.*
 
-> **Duas decisões ainda não estão nele:** *a D43 (o ataque com Controle aplica a condição na falha do TR registrado, e não no acerto) e a D44 (a `Execução Preparada` da Vanguarda impõe `−2`).* **Elas valem na mesa**, *estão no livro reconstruído logo abaixo e nas peças, e entram no R28a pelo gerador dele, que não está neste repositório.*
+> **Duas decisões ainda não estão nele:** *a D43 (o ataque com Controle aplica a condição na falha do TR registrado, e não no acerto) e a D44 (a `Execução Preparada` da Vanguarda impõe `−2`).* **Elas valem na mesa**, *estão no livro reconstruído logo abaixo e nas peças, e entram no R28a pelo gerador dele, que não está neste repositório.* **A lista trecho a trecho, com a página do R28a, está em [`R28a-o-que-falta.md`](sistema/05-material/livro/R28a-o-que-falta.md).**
 
 O livro reconstruído continua sendo a fonte das peças e dos validadores; os PDFs `Projeto-M-Manual-da-Guilda*` da mesma pasta são a edição v0.331, guardada como estava.
 
