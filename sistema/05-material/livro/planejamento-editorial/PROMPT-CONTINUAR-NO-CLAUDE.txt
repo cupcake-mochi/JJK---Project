@@ -1,3 +1,10 @@
+ESTADO ATUALIZADO EM 06/10/2026 — LEIA ISTO PRIMEIRO
+
+A main do GitHub está na v0.339 (PR #4 mesclado; PRs #2 e #3 também). O trabalho continua a partir da main, não mais da branch do PR #2.
+Leia sistema/ESTADO-ATUAL.md e migracao-pos-candidata/PLANO.md. A migração para as peças foi autorizada em 05/10 e está nos passos 1, 2, 4 e 5 feitos; a fila vigente está em FILA-COMPLETA.md.
+O livro principal é o Ciclo Maldito R28a (498 páginas). A candidata de 382 páginas é a fonte das peças.
+O bloco "ESTADO ATUALIZADO EM 04/10/2026" abaixo é histórico, e a frase "planos ainda sem execução" não vale mais para a migração.
+
 ESTADO ATUALIZADO EM 04/10/2026 — LEIA ISTO PRIMEIRO
 
 A revisão pós-reconstrução já avançou no PR #2:
