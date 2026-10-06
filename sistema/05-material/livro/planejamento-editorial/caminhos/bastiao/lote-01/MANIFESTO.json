@@ -136,7 +136,7 @@
     },
     {
       "arquivo": "evidencias/fontes-preservadas.json",
-      "sha256": "a2bfa186bf326927f4a6f10ffb9a2d8dd1b2ad035585c27ed5d290ae053427f7",
+      "sha256": "802c627a09181b0b09fbb29a37ff1d254d58beadfe91250430bffd53c8984378",
       "bytes": 755
     },
     {
@@ -166,8 +166,8 @@
     },
     {
       "arquivo": "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
-      "sha256": "934d42bb16b56d51aec118002e9e96c775244cc8db460f1f5cfe7f19a278723b",
-      "bytes": 4596
+      "sha256": "c5f2b40fd4fc7ae3b7f61f8cec7002215c0c8805e49082220f27d6f834b84796",
+      "bytes": 5189
     },
     {
       "arquivo": "evidencias/COMPARACAO-VISUAL-2026-10-05-ciclo-maldito.json",
@@ -257,6 +257,16 @@
     "arquivos_acrescentados": [],
     "arquivos_que_nao_existem_mais": [],
     "motivo": "Passo 5 da migração, segunda parte (v0.338): cotejo das fontes preservadas que mudaram fora desta unidade (peças 01 e 26, e o CHANGELOG). O texto e o PDF da unidade não mudaram.",
+    "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
+  },
+  "atualizacao_2026_10_06_r28a": {
+    "arquivos_com_hash_novo": [
+      "evidencias/COTEJO-FONTES-PRESERVADAS-2026-10-05.json",
+      "evidencias/fontes-preservadas.json"
+    ],
+    "arquivos_acrescentados": [],
+    "arquivos_que_nao_existem_mais": [],
+    "motivo": "v0.339: cotejo do CHANGELOG, que ganhou a entrada do R28a como livro principal. O texto e o PDF da unidade não mudaram.",
     "revisor": "Revisão por modelo (sessão de continuação, 06/10/2026). Não é revisão humana."
   }
 }

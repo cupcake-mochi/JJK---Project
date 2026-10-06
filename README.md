@@ -2,7 +2,16 @@
 
 **O sistema se chama `Ciclo Maldito`** desde a v0.334, o nome do livro final do Mizuki. *Até ali era `Projeto - M`, batizado na v0.94 — a pendência mais velha que existia aqui, aberta na v0.1.* Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.338** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.339** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
+
+
+## O livro: Ciclo Maldito
+
+**[Ciclo Maldito — Livro de regras (PDF, 498 páginas)](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é o livro principal do sistema desde a v0.339, por decisão do Mizuki. *É a edição R28a, diagramada e ilustrada por ele a partir do livro reconstruído.*
+
+> **Duas decisões ainda não estão nele:** *a D43 (o ataque com Controle aplica a condição na falha do TR registrado, e não no acerto) e a D44 (a `Execução Preparada` da Vanguarda impõe `−2`).* **Elas valem na mesa**, *estão no livro reconstruído logo abaixo e nas peças, e entram no R28a pelo gerador dele, que não está neste repositório.*
+
+O livro reconstruído continua sendo a fonte das peças e dos validadores; os PDFs `Projeto-M-Manual-da-Guilda*` da mesma pasta são a edição v0.331, guardada como estava.
 
 
 ## Livro reconstruído — candidata revisada em 4 de outubro de 2026

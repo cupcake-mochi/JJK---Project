@@ -66,5 +66,14 @@
       "motivo": "Entrada [0.338] acrescentada no topo do CHANGELOG (passo 5 da migração, segunda parte). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
     }
   ],
-  "cotejo_v0338_conferido": "Diff lido: só o passo 5 da migração (segunda parte) nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
+  "cotejo_v0338_conferido": "Diff lido: só o passo 5 da migração (segunda parte) nas peças e a entrada do CHANGELOG. O manuscrito desta unidade não depende do texto mudado.",
+  "cotejo_v0339": [
+    {
+      "arquivo": "logs/CHANGELOG.md",
+      "sha256_anterior": "284bc32d9e90ac2d54fd81b6b4b59142f996d607621a97d0c933eded9dbceb98",
+      "sha256_atual": "d5336046ed1564a17b426a33ed947ce0e966130e371ff12c5440581a7b1125a9",
+      "motivo": "Entrada [0.339] acrescentada no topo do CHANGELOG (o R28a vira o livro principal do repositório). As entradas antigas não mudaram, e o Bastião não reproduz o texto do CHANGELOG."
+    }
+  ],
+  "cotejo_v0339_conferido": "Diff lido: só a entrada [0.339] do CHANGELOG. O manuscrito desta unidade não depende do texto mudado."
 }

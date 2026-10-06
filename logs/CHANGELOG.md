@@ -8,6 +8,18 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.339] — 06/10/2026
+
+**O R28a virou o livro principal do repositório.** *Decisão do Mizuki: "coloque o pdf do novo livro como principal", e, perguntado entre a candidata, o R28a e os dois, "R28a".* **O PDF dele (`Ciclo Maldito | Livro de regras`, 498 páginas) entrou em `sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf`, e o README abre por ele.**
+
+**O que não mudou, e por quê:** *os PDFs `Projeto-M-Manual-da-Guilda*` da mesma pasta são a edição v0.331, e o verificador do livro reconstruído os confere por hash como "livro e exportações preservados"; sobrescrever um deles reprovaria os 23 capítulos.* **O livro reconstruído continua sendo a fonte das peças e dos validadores.** *O README avisa que a D43 e a D44 ainda não estão no R28a: elas valem na mesa e entram nele pelo gerador do Mizuki, que não está aqui.*
+
+**Validação:** bateria de 30 de 30, com o pulo de sempre (a 7, da entrega). *O Bastião guarda este CHANGELOG por hash e ganhou o cotejo, e o ZIP foi montado de novo. O PDF do livro reconstruído não mudou.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: o capítulo de Dano sem o Morrendo, e depois o passo 5b.
+
+---
+
 ## [0.338] — 06/10/2026
 
 **O passo 5 da migração, segunda parte: as tabelas de mestre do manual do Fundamento v7 ganharam dono em peça.** *Eram a seção `Para o mestre` do manual, que o livro reconstruído não tem, e na v0.337 ainda eram lidas do gerador.* **Nenhum número mudou.**
