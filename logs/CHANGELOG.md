@@ -8,6 +8,28 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.348] — 09/10/2026
+
+**O capítulo de Regras gerais do R41 foi comparado com as peças, e nenhum número divergia.** *É o maior capítulo do passo 5b em páginas (quarenta) e o menor em mudança: o que ele tem de regra com peça dona já batia.*
+
+**Conferido contra a peça dona, e igual:** *a escada de CD, a maestria, a especialização (metade da maestria), a iniciativa e o desempate, a `Defesa`, a cobertura, a fórmula de `Bloquear`, o `Aparar`, a `Brecha` e o `+3`, o `Provocar`, o `Ler o Ambiente` e a CD do teste de concentração.*
+
+**O que entrou nas peças é lista de lacuna, sem número novo:**
+
+- **Peça 3 (o turno):** *o prazo e a posição do `Ajudar`; o total do `Provocar` como CD, com o empate resistindo; `Ler o Ambiente` sem nada a informar não gasta ação nem uso; `Influenciar` em combate; a conversão de ações em cadeia; o que provoca ataque de oportunidade e o que não provoca; um teste de concentração por golpe; e o corpo inconsciente que pode ser atravessado.*
+- **Peça 23 (`Bloquear`):** *o `20` natural que passa pelo `Aparar`, o `+3` que não dobra no crítico, aparar sem Reação, as respostas como um ataque cada, e `Bloquear` com desvantagem.*
+- **Peça 14:** *o inimigo colado só atrapalha o tiro se puder agir e perceber você, e a regra vale também para arremesso.*
+
+**Ficou escrito o que o capítulo tem e peça nenhuma tem:** *saltos, quedas, rastejar, voo, espaço e tamanho, distância em três eixos, combate montado, esconder, vasculhar, ataques e ocultação, `Estudar` e a percepção de energia.* **O dono dessas regras é o livro, e nada delas foi copiado para as peças.** *Essas páginas foram lidas só nas frases com número, para achar divergência com alguma peça; não foram revisadas como regra.*
+
+**Sem checagem nova e sem teste negativo,** *porque nenhum número entrou nem saiu: uma lista de lacuna não tem o que perturbar.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/INVENTARIO-REVISAO-R41.md`: Poderes avançados (doze linhas, com o `conferir-expansao.py` ainda lendo o gerador v7) e depois Ritual e Pactos; e o item 115 quando o Mizuki responder.
+
+---
+
 ## [0.347] — 09/10/2026
 
 **O capítulo de Dano do R41, sem a parte de vida a zero, foi comparado com as peças 19, 10 e 1.** *É o primeiro capítulo do passo 5b lido contra o R41, e não contra a candidata. Dois números divergiam, e os dois eram mais velhos que a revisão.*

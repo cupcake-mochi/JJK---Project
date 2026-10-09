@@ -1,4 +1,4 @@
-# Migração da candidata para as peças — v0.347, 09/10/2026
+# Migração da candidata para as peças — v0.348, 09/10/2026
 
 **Onde estamos:** o Mizuki autorizou migrar o livro reconstruído para as peças, os validadores, os geradores e as fichas. O plano e o estado de cada passo moram em `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`.
 
@@ -28,7 +28,9 @@
 
 **Na v0.347, o capítulo de Dano sem o Morrendo:** *os tipos de dano são quinze, com o `Força` (peça 19 §4), e o degrau 2 da exaustão é `4,5 m`, como o Mizuki tinha posto na revisão do Word da v0.176 (peça 10 §3); o resto do capítulo era lacuna, e está listado na peça 19.* **Ficou de fora tudo o que é vida a zero, Integridade e `Inconsciente`,** *que espera a revisão do Morrendo.*
 
-**Próximo, na ordem do inventário:** os três capítulos que sobram do passo 5b (Regras gerais, Poderes avançados, Ritual e Pactos), um por versão. **O item 115 entra quando o Mizuki responder** *(o Legado Próprio sem o limite de um por ficha, que é trava da peça 13 desde a v0.39).* *A D43 e a D44 já estão no R41.* O passo 3 (vida a zero) espera a revisão do Morrendo, que o Mizuki adiou.
+**Na v0.348, o capítulo de Regras gerais:** *nenhum número divergia. As peças 3 e 23 ganharam a lista do que o livro fecha (prazo e posição do `Ajudar`, o empate do `Provocar`, a conversão de ações em cadeia, o que provoca oportunidade, um teste de concentração por golpe, `Bloquear` com desvantagem), e ficou escrito quais regras do capítulo não têm peça nenhuma, porque o dono é o livro.*
+
+**Próximo, na ordem do inventário:** os dois capítulos que sobram do passo 5b (Poderes avançados e Ritual e Pactos), um por versão. *É neles que estão as 16 linhas `capítulo` do inventário da revisão.* **O item 115 entra quando o Mizuki responder** *(o Legado Próprio sem o limite de um por ficha, que é trava da peça 13 desde a v0.39).* *A D43 e a D44 já estão no R41.* O passo 3 (vida a zero) espera a revisão do Morrendo, que o Mizuki adiou.
 
 **Nesta seção, os nomes novos valem. Daqui para baixo, o histórico conserva os nomes da época.**
 
@@ -254,7 +256,7 @@
 
 Atualizado em 30/09/2026, na v0.330 (última peça fechada: **Ritual**, a peça 27, na v0.262, com o `conferir-ritual.py` e sete checagens; antes dela, o **Bestiário**, a peça 26, na v0.198; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.347.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
+**Versão v0.348.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
 
 **Continuidade atual:** resistência pontual aprovada e integrada em Claude 2; o próximo ensaio está em `bestiario/05-sukuna/ENSAIO-integracao-grade-v286.md`. PV-base aprovado como referência da cura e das partes destrutíveis; no nível 30, cura de ação 78 e partes de 157 PV. Sukuna concluído na v0.287, com a política de débito corrente aprovada. O planejamento das Invocações virou o primeiro lote de desenvolvimento, no HD, e deu os §§47 a 109 da v0.288 à v0.325; a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas (o que sobe a básica, abre Famílias e dá Livres) e a volta do capítulo ao livro, que é decisão dele; o traje, o talismã em campo e o que a entidade carrega fecharam na v0.328 (§§111 a 113), e o que ela leva quando sai de campo na v0.330 (§114); a fila do sistema fechou a cura da Origem `Corpo Amaldiçoado` na v0.326 (o mesmo reparo das invocações, no descanso curto) o peso na v0.327 (o talismã pesa `0,5` de `Volume`, e cada leve vale `0,1`, sem arredondar) e a imunidade dela a `Envenenado` na v0.329, sem medição; o que sobra na fila é o que já estava aberto antes. O histórico abaixo permanece para consulta.
 

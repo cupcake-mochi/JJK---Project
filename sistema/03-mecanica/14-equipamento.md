@@ -1094,7 +1094,7 @@ As duas estão escritas na tabela de classes e não aparecem na lista de nomes m
 > **Faixa longa** — até o número da direita na tabela do §5.2.2. **Desvantagem no ataque.**
 > **Além da faixa longa, você não alcança.**
 >
-> **E existe uma terceira, do outro lado: `colado`.** Atacar com arma de projétil **estando adjacente a um inimigo** — qualquer inimigo, não só o alvo — é **desvantagem**, do mesmo jeito.
+> **E existe uma terceira, do outro lado: `colado`.** Atacar com arma de projétil **estando adjacente a um inimigo** — qualquer inimigo, não só o alvo — é **desvantagem**, do mesmo jeito. *v0.348, do R41 (GER20): o inimigo a `1,5 m` precisa poder agir e perceber você, e a regra vale para arma de projétil e de arremesso.*
 
 **As duas pontas são a mesma regra e o mesmo tamanho.** Desvantagem vale `−25` pontos percentuais contra alvo difícil, que é **metade do dano** — o número é da peça 11, e as peças 13 e 14 já o usavam. *Uma régua, dois lados: perto demais e longe demais custam igual.*
 

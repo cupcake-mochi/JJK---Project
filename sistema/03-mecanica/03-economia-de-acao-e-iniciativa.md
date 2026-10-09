@@ -303,6 +303,23 @@ O Talento **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 - **`Preparar` é o quinto competidor pela Reação**, e a seção 7 desta peça já desconfiava do slot com quatro. *Fica marcado para o playtest, junto da pergunta que já estava lá.*
 
 
+### O que o R41 escreve sobre o turno e esta peça não dizia — v0.348
+
+*Migração do capítulo de Regras gerais do R41 (passo 5b do `PLANO.md`).* **Nenhum número desta peça mudou:** *a iniciativa, as ações, o `Provocar`, o `Ler o Ambiente` e a CD de quem te feriu são os mesmos no livro.* **O que o livro fez foi fechar as perguntas que a mesa faria:**
+
+- **`Ajudar` tem prazo.** *A vantagem acaba no começo do seu próximo turno, se não for usada antes; fora de combate ela acompanha uma tentativa concreta, e não se guarda para outra sala. Um ajudante por teste ou ataque (GER07).*
+- **`Ajudar` num ataque pede posição.** *Você escolhe um inimigo ao seu alcance corpo a corpo e um aliado; o inimigo precisa perceber a intervenção, e o aliado não precisa estar ao seu lado. A ajuda se gasta na rolagem escolhida, acertando ou errando (GER08). Se a contribuição exigir ofício, ferramenta, idioma ou sentido, quem ajuda cumpre o requisito.*
+- **O total do `Provocar` é a CD, e o empate resiste.** *O alvo faz o TR de Espírito contra o total da sua rolagem e resiste se igualar (GER10). Ele precisa perceber a provocação e conseguir compreendê-la; várias provocações guardam cada uma o seu prazo, e as vantagens e desvantagens seguem o cancelamento comum (GER11).*
+- **`Ler o Ambiente` sem nada a informar não gasta a ação nem o uso** *(GER12).*
+- **`Influenciar` em combate custa a Ação Padrão,** *com Essência e a perícia social adequada; o mestre diz se é possível e a CD antes da rolagem.*
+- **A conversão de ações vai em cadeia e só num sentido.** *Padrão vira Bônus, e essa Bônus pode virar Movimento; só se converte ação que ainda não foi gasta, e a conversão não renova limite de uso.*
+- **Uma tarefa que gasta a Ação de Movimento inteira não divide a ação com andar** *(a segunda manipulação de item, por exemplo).*
+- **O ataque de oportunidade pede acompanhar a saída** *por visão ou por um sentido equivalente, e resolve antes de a criatura sair (GER16).* **Queda, teleporte e movimento imposto por outra criatura não provocam;** *andar com o próprio movimento, mesmo por ordem de alguém, pode provocar (GER17).*
+- **Um TR de concentração por golpe ou aplicação de dano.** *Dois tipos de dano no mesmo golpe são uma aplicação só (GER18). Dano reduzido a zero pelas defesas não pede teste; dano absorvido pela vida temporária pede. `Inconsciente` encerra a concentração, e a `Guarda Aberta` sozinha não (GER19).*
+- **Um corpo inconsciente ou imóvel pode ser atravessado** *quando houver passagem física, com custo de terreno difícil; a `Guarda Aberta` não libera passagem (GER21).*
+
+**O que o capítulo tem e peça nenhuma tem:** *saltos, quedas e queda sobre criatura, rastejar e passagens estreitas, voo, espaço e tamanho das criaturas, distância em três eixos, combate montado, esconder, vasculhar, ataques e ocultação, `Estudar` e a percepção de energia (a busca de `18 m`).* **O dono dessas regras é o livro,** *como já era na v0.331. Nada delas foi copiado para cá.*
+
 ## 4. A régua de preço
 
 O Fundamento vende pedaços de turno em onze Restrições, e nunca teve uma régua para justificar quanto cada uma devolve. Com os recursos definidos, ela existe:

@@ -270,6 +270,16 @@ Ninguém pede isso e ninguém espera isso, e é de lá que sai o *"na verdade eu
 
 **E a ficha:** a checagem que confere que o gerador imprime `Defesa N · Bloquear 2d10+M`, com `M = N − 11`, mora no `conferir-ficha.py` — que é o validador dono da comparação entre a ficha e as peças. *Aqui mora a matemática; lá mora a impressão.*
 
+### O que o R41 escreve sobre `Bloquear` e esta peça não dizia — v0.348
+
+*Migração do capítulo de Regras gerais do R41 (passo 5b).* **A fórmula, o `Aparar`, a `Brecha` e o `+3` são os mesmos.** *O livro fechou cinco pontas:*
+
+- **O `20` natural do atacante passa pelo `Aparar`** *e continua crítico; uma margem de crítico ampliada não é `20` natural, precisa acertar e pode ser aparada (GER04).*
+- **O `+3` do contra-ataque é fixo e não dobra num crítico.**
+- **Sem Reação disponível você ainda apara,** *só não pode pagar o contra-ataque; e ele precisa alcançar o agressor, então aparar um disparo distante não põe o atirador ao alcance da espada.*
+- **As respostas de `Aparar` e de `Brecha` são um ataque físico cada, e não uma Ação Atacar;** *cada uma paga a Reação de quem responde, com nova rolagem de acerto (GER06). A `Brecha` não torna o acerto crítico por si.*
+- **`Bloquear` com desvantagem rola o conjunto inteiro duas vezes.** *Fica a `Brecha` se ela sair em qualquer um; sem `Brecha`, fica um resultado comum em vez de `Aparar`, e entre dois comuns o menor total. Só há `Aparar` se os dois conjuntos derem duplo `10` (GER05).*
+
 ## 9. Em aberto
 
 > ~~**O inimigo precisa de Reação na ficha dele.**~~ ***FECHADO na v0.159***, e não como valor por nível: *o §3.4 conta o porquê.* **A `Brecha` vale contra inimigo agora, e a assimetria que este item registrava acabou.**

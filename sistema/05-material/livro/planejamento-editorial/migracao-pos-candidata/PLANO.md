@@ -360,6 +360,14 @@ Depois da passada, o inventário fica assim:
 
 **Não migrou:** *`Inconsciente`, `Dano na alma`, os estágios de Integridade, `Vida a zero`, `Aguentar`, `Insistir`, `Socorro`, Sequelas e `Derrota e morte`.* **É o passo 3, que espera a revisão do Morrendo.**
 
+## Capítulo de Regras gerais, feito em 09/10/2026 (v0.348)
+
+*Comparação das quarenta páginas do capítulo no R41 com as peças 1, 3, 4, 5, 14 e 23. Revisão por modelo, não humana.*
+
+**Nenhum número divergia.** *Foram conferidos contra a peça dona a escada de CD, a maestria, a especialização, a iniciativa e o desempate, a `Defesa`, a cobertura, a fórmula de `Bloquear`, o `Aparar` e a `Brecha`, o `Provocar`, o `Ler o Ambiente` e a CD da concentração.* **Dos 19 registros confirmados do inventário, 12 viraram linha de lacuna nas peças 3, 23 e 14** *(GER05, GER07, GER08, GER10 a GER12 e GER16 a GER21, mais dois não confirmados que a leitura achou no livro, GER04 e GER06);* **os de arrasto e transporte (GER25 e GER26) já estavam na peça 14 desde a v0.335;** *os de montaria e de queda sobre criatura (GER27 a GER29) e o das modalidades de movimento (GER24) não têm peça; e o GER36 é troca de redação.*
+
+**O que o capítulo tem e peça nenhuma tem, e continua assim:** *saltos, quedas, rastejar e passagens estreitas, voo, espaço e tamanho, distância em três eixos, combate montado, esconder, vasculhar, ataques e ocultação, `Estudar` e a percepção de energia. O dono é o livro, como na v0.331.* **Essas páginas foram lidas só nas frases com número, para achar divergência com alguma peça, e não foram revisadas como regra.**
+
 ## Os seis capítulos sem passo, achados em 06/10/2026
 
 **A tabela de tamanho do topo lista seis capítulos que a ordem proposta não cobria:** *Ritual e Pactos (29 registros confirmados, peças 22 e 27), Poderes avançados (21, peça 11 e o rascunho da Expansão sem Barreiras), Regras gerais (19, peças 01, 03, 04, 05 e 23), Origens (18, peças 09 e 13), Rotas (14, peças 20 e 25) e Aptidões e Refino (13, peça 11).* **São 114 registros que nenhum passo migrava.** *Eles entram como passo 5b, um capítulo por versão, comparando o capítulo inteiro com as peças (o inventário não cobre as rodadas anteriores, como se viu no Equipamento e no tipo `Força` do Dano). Antes deles vai o capítulo de Dano sem o Morrendo.*
@@ -389,7 +397,7 @@ Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`
 4. **Equipamento e munição** (peças 14, 16, 21), *feito na v0.335, ver a seção do passo 4,* depois **Invocações** (peça 15, que conversa com `invocacoes/`), depois **Caminhos** (peça 06 e `RASCUNHO-trilhas`, que hoje não têm Fluidez nem Malabarista).
 5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha. *Primeira parte feita na v0.337 (ver a seção dela, acima): os validadores leem o livro. A segunda, na v0.338, deu dono às tabelas de mestre e tirou do gerador as leituras do Fundamento; o `manual/gerador`, o `.docx` e o `.pdf` vão para o arquivo com a migração dos Poderes avançados.*
 5a. **O inventário da revisão do R41.** *Feito na v0.342: `INVENTARIO-REVISAO-R41.md`, ao lado deste plano.* Ele entrou antes do capítulo de Dano porque muda o que os capítulos seguintes têm de copiar, e deixou três frentes, nesta ordem: as regras novas e os desfeitos que já têm peça; a troca da fonte dos validadores, da candidata para o R41; e os capítulos que faltam do 5b, já lendo o R41.
-5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *um por versão. O de Dano sem o Morrendo foi feito na v0.347; faltam Regras gerais, Poderes avançados e Ritual e Pactos.*
+5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *um por versão. O de Dano sem o Morrendo foi feito na v0.347 e o de Regras gerais na v0.348; faltam Poderes avançados e Ritual e Pactos.*
 6. **Geradores.** `gerador-ficha` e `gerador-inimigo`. O `manual/gerador` (o `.docx` do Fundamento v7) não é regerado: vai para o arquivo no passo 5. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
 7. **Fichas**, por último e em outro ambiente (seção abaixo).
 
