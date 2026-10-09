@@ -485,9 +485,12 @@
 **Três documentos apontavam para cá:** *a peça 14 §8 item 15, a peça 16 §9, e a seção "em aberto" desta peça.* **A peça 14 fecha as 52 armas, a divisão simples/marcial e o requisito de Força, e nenhum dos três dizia o que acontece com quem pega uma arma que não é dele.**
 
 > **Sem treino na categoria, você tem desvantagem na rolagem de ataque com aquela arma.**
-> **Sem o requisito de Força da arma, o seu deslocamento cai pela metade e você não soma Destreza na Defesa enquanto a estiver empunhando.**
+> **Sem o requisito de Força da arma, você tem desvantagem nos ataques com aquela arma e o seu deslocamento cai pela metade enquanto a estiver empunhando.**
+> *As duas desvantagens não se acumulam: sem treino e sem a Força, a rolagem tem uma desvantagem só. Carregar a arma guardada não cobra nada disso.*
 
-> ***v0.335: a linha acima é a do livro desde a v0.176, e esta peça só acompanhou agora.*** *Até a v0.334 ela dizia "o seu deslocamento cai `3 m`". Na revisão do Word (v0.176) o Mizuki trocou a penalidade, o capítulo 50 do livro v0.331 publicou a nova, e a candidata repete.* **A conta desta seção foi feita com os `3 m` e fica como piso:** *a penalidade de hoje tira mais nas duas parcelas — num deslocamento de `9 m` a metade são `4,5 m`, e a Destreza sai da Defesa —, então a razão contra a arma inteira só cresce, e a conclusão de porta fechada vale com folga.* **Ela não foi refeita com o valor novo.**
+> ***v0.343: a linha do requisito mudou por decisão do Mizuki*** *(08/10/2026, item 156 da revisão do R41).* *Palavras dele: "atualmente ele ta tirando defesa do portador, oq n faz sentido", e "fica desvantagem nos ataques com a arma e o deslocamento é reduzido pela metade enquanto a empunhar".* **Saiu ~~"você não soma Destreza na Defesa"~~, que vinha da revisão do Word da v0.176, e entrou a desvantagem no ataque.** *A conta de porta fechada desta seção passou a descrever esta linha sozinha: ela já somava uma desvantagem na rolagem e uma perda de deslocamento, com o piso de `3 m`.*
+
+> ***v0.335 (FECHADO na v0.343, que trocou a segunda metade da penalidade): a linha do requisito era a do livro desde a v0.176, e esta peça só acompanhou naquela versão.*** *Até a v0.334 ela dizia "o seu deslocamento cai `3 m`". Na revisão do Word (v0.176) o Mizuki trocou a penalidade, o capítulo 50 do livro v0.331 publicou a nova, e a candidata repete.* **A conta desta seção foi feita com os `3 m` e fica como piso:** *a penalidade de hoje tira mais nas duas parcelas — num deslocamento de `9 m` a metade são `4,5 m`, e ~~a Destreza sai da Defesa~~ —, então a razão contra a arma inteira só cresce, e a conclusão de porta fechada vale com folga.* **Ela não foi refeita com o valor novo.**
 
 ### A do requisito atravessou inteira; a do treino precisou de tradução
 

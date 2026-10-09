@@ -361,7 +361,7 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 |---|---|---|
 | **`Anátema`** | **Ação Padrão, tocando uma barreira de feitiço:** TR Físico contra a CD de quem a criou; no sucesso, uma passagem de `1,5 m` até o fim do turno. **E uma vez por cena, como Reação, quando um feitiço vai te afetar:** TR Físico contra a CD do conjurador; no sucesso, aquela aplicação não te afeta. *Os outros alvos continuam afetados. Não tira energia de quem ela acerta (v0.335)* | a Lança Invertida do Céu |
 | **`Cisão`** | o golpe dela **atravessa o corpo — tira Integridade, e não tira vida**: o dano é dano de Alma (peça 24). *Os dados do próprio ataque acompanham; não se escolhe golpe a golpe (v0.335, EQ27)* | a Katana de Alma Partida |
-| **`Insondável`** | com uma ponta presa sob a roupa, o alcance corpo a corpo dela é **`18 m` nos ataques do seu turno**. *Fora do turno, o normal; não aumenta oportunidade (v0.335)* | a Corrente de Mil Milhas |
+| **`Insondável`** | com uma ponta presa sob a roupa e a outra na mão, o alcance corpo a corpo dela é **na cena, na ordem de `100 m` (um quarteirão), nos ataques do seu turno**. *Fora do turno, o normal; não aumenta oportunidade. Obstáculo, cobertura e linha de efeito continuam valendo (v0.343; da v0.335 à v0.342, ~~`18 m`~~)* | a Corrente de Mil Milhas |
 | **`Contrapeso`** | **você ignora o requisito de Força dela** — *arma, Revestimento ou escudo (v0.335)* | a Nuvem Divertida, que qualquer um empunha |
 | **`Passagem`** | *roupa ou Traje:* **Ação Bônus:** teleporte com o seu equipamento até `9 m`, para onde você vê. Uma vez por descanso curto | a candidata, v0.335 |
 | **`Suspensão`** | *escudo:* **Ação Bônus:** o escudo flutua por `1` minuto e solta a mão, ocupando um lugar de item vestido. Uma vez por descanso curto | a candidata, v0.335 |
@@ -390,7 +390,7 @@ A régua é a das Classes da **peça 11 §4**, e o degrau de cada entrada foi de
 | `Perene` | **quebra** por ataque ou de propósito; não sai do lugar onde arma comum não funciona | a indestrutibilidade invalidava as regras de objeto |
 | `Quebranto` | **sucesso comum num TR contra feitiço**, e não anula | a conciliação com o manual, que já dava sucesso em vez de anular |
 | `Avulsa` | o gatilho é **depois** de o ataque recebido ser resolvido | o momento da resposta |
-| `Insondável` | **`18 m` nos ataques do seu turno**, e não "na cena" | "na cena" não era consultável, e o livro aproximava `100 m` fora da malha |
+| `Insondável` | ~~**`18 m` nos ataques do seu turno**, e não "na cena"~~ **Desfeito na v0.343:** voltou a "na cena, na ordem de `100 m`", por decisão do Mizuki (item 171 da revisão do R41). *Ficou da candidata o que limita: só nos ataques do seu turno, sem aumentar oportunidade.* | "na cena" não era consultável, e o livro aproximava `100 m` fora da malha |
 | `Anátema` | **passagem na barreira** e **Reação uma vez por cena**, só para o portador | ver §6.3 |
 | `Contrapeso` | vale também em Revestimento e escudo | a base pode ser proteção |
 | `Cisão` | igual; escrito como dano de Alma (EQ27) | o vocabulário da peça 24 |

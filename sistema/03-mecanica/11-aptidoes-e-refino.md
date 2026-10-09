@@ -285,9 +285,11 @@ Doze níveis entre o especialista e o generalista, que é o tamanho que *"quase 
 ### Cobrir-se de energia · grátis no refino 1
 
 > **Sem Traje e sem Revestimento, a sua proteção é `1/3 do refino + 1`.** Escudo **soma** com ela.
-> **Como Reação, você concentra a energia no impacto:** Redução de Dano de `1,5 × refino` num golpe, por **2 PE** — e você fica sem proteção até o fim do seu próximo turno.
+> **Como Reação, você concentra a energia no impacto:** Redução de Dano de `1,5 × refino` num golpe, por **2 PE** — e você fica sem **a proteção passiva desta aptidão** até o fim do seu próximo turno. `Traje`, `Revestimento` e escudo continuam protegendo.
 
-> *Duas mudanças da v0.42, as duas vindas da peça de equipamento.* **O escudo saiu da lista do que desliga:** com o desligamento, ele virava prejuízo já no primeiro marco — no refino 3 você trocava proteção 2 por proteção 1 — e nenhum número o salvava enquanto competisse com uma proteção que cresce. **E o preço da Reação virou agnóstico de fonte:** ele dizia *"a proteção passiva"*, e quem estava fardado não pagava nada, porque não tira o colete no meio do golpe. Uma palavra a menos conserta os dois lados.
+> ***v0.343: a Reação voltou a tirar só a proteção passiva, por decisão do Mizuki*** *(08/10/2026, item 160 da revisão do R41; as palavras dele e o tamanho do que isso entrega estão na peça 14 §7).* **Quem veste `Traje` ou `Revestimento` usa a Reação pagando a Reação e os `2` PE.** *A redução, o custo e o prazo não mudaram. Ele avisou que pode rever.*
+
+> *Duas mudanças da v0.42, as duas vindas da peça de equipamento.* **O escudo saiu da lista do que desliga:** com o desligamento, ele virava prejuízo já no primeiro marco — no refino 3 você trocava proteção 2 por proteção 1 — e nenhum número o salvava enquanto competisse com uma proteção que cresce. **E o preço da Reação virou agnóstico de fonte** *(desfeito na v0.343)*: ele dizia *"a proteção passiva"*, e quem estava fardado não pagava nada, porque não tira o colete no meio do golpe. ~~Uma palavra a menos conserta os dois lados.~~
 
 *Os 2 PE entraram na v0.30.* Até lá estava escrito só *"gastando PE"*, sem quantidade — um preço sem número, que é a lição nº 6 do README pelo avesso: o termo existia e o valor não. O `conferir-orcamento.py` procura essa forma agora.
 
@@ -1021,7 +1023,7 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 **A primeira gratuita é `cobrir-se`, portada sem inventar número.** *A fórmula já existe, peça 11 §6: `1/3 do refino + 1`. Aqui o divisor é o mesmo e o que muda é só o nome do recurso:*
 
 > **`1/3 da Lapidação + 1`, grátis na Lapidação `1`.** *Mesma curva de `1` a `4`, mesmas regras de interação — Traje e Revestimento desligam, escudo soma.*
-> **E como Reação, Redução de Dano de `1,5 × Lapidação` num golpe, por `2` PE** — e você fica sem proteção até o fim do seu próximo turno.
+> **E como Reação, Redução de Dano de `1,5 × Lapidação` num golpe, por `2` PE** — e você fica sem **a proteção passiva desta Bênção** até o fim do seu próximo turno. *`Traje`, `Revestimento` e escudo continuam protegendo (v0.343, item 160 da revisão do R41; até a v0.342, ~~sem proteção~~ de qualquer fonte).*
 
 > ***A Reação ficou de fora até a v0.165, e a pergunta era de regra e não de sabor.*** *A `cobrir-se` do feiticeiro tem duas metades — a proteção passiva e a Reação —, e a v0.118 portou só a primeira sem dizer nada da segunda.* **Decisão do Mizuki: ela vem junto.**
 
@@ -1185,7 +1187,7 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 
 - **Lapidação mínima pela Categoria de Efeito (R10-16).** *Categoria `1` exige Lapidação `1`, a `2` exige `4` e a `3` exige `7`; os atributos adicionais da entrada continuam exigidos, e não somam bônus à fórmula. Os níveis `7` e `13` dos Talentos comprados por espaços não valem para Bênçãos.*
 - **Cada escolha, uma entrada (R10-15).** *O marco que concede duas escolhas pede duas Bênçãos diferentes; ninguém compra de novo uma entrada que já tem, salvo permissão expressa dela.*
-- **Defesa sem Armadura (R10-17).** *A Reação, o `Resistir ao golpe`, é o espelho de `Cobrir-se`: Reação e `2` PE, redução de `1,5 × Lapidação` para baixo, e perda da proteção de qualquer fonte (Traje, Revestimento e escudo) até o fim do próximo turno. Pode ser usada com armadura, e cada uso paga a Reação e os PE.*
+- **Defesa sem Armadura (R10-17).** *A Reação, o `Resistir ao golpe`, é o espelho de `Cobrir-se`: Reação e `2` PE, redução de `1,5 × Lapidação` para baixo, e perda **só da proteção passiva da Bênção** até o fim do próximo turno (v0.343, item 160; até a v0.342, ~~de qualquer fonte: Traje, Revestimento e escudo~~). Pode ser usada com armadura, e cada uso paga a Reação e os PE.*
 - **Estímulo Muscular (R10-18).** *O dano vale também para ataque desarmado (a escada é a da §6.9), não dobra no crítico comum, e a exclusão é do mesmo ataque que carrega Kata de dano; manobra que substitui o ataque sem causar dano não recebe os dados.*
 - **`Ímpeto` (R10-28).** *Cai ao terminar o movimento sem apoio, como esta peça já escrevia; a Ação Bônus, a distância e as travessias continuam.*
 - **`Vigília` (R10-23).** *As consequências usam o estágio real menos um, no mínimo zero; a marca real continua na ficha para ganho e recuperação.*

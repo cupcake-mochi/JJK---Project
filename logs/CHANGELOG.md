@@ -8,6 +8,36 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.343] — 09/10/2026
+
+**As primeiras regras da revisão do R41 chegaram às peças: equipamento sem a Força, carga, a Reação de `Cobrir-se` e o `Insondável`.** *São os casos `nova` e `desfaz` do inventário da v0.342 que não dependem de resposta nenhuma. As duas Bênçãos novas ficaram para a próxima versão, pelo motivo que está no fim desta entrada.*
+
+**Decidido pelo Mizuki na revisão, e agora nas peças:**
+
+- **Arma sem a Força exigida (item 156, peça 19 §6):** *desvantagem nos ataques com aquela arma e deslocamento pela metade; a desvantagem não se acumula com a da falta de treino.* **Saiu "não soma Destreza na Defesa", que vinha da revisão do Word da v0.176.** *Palavras dele: "atualmente ele ta tirando defesa do portador, oq n faz sentido". A conta de porta fechada da seção não foi refeita: ela já somava uma desvantagem na rolagem e uma perda de deslocamento, com o piso de `3 m`, e passou a descrever esta linha sozinha.*
+- **`Traje`, `Revestimento` ou escudo sem a Força exigida (item 157, peça 14):** *veste, empunha e protege, com deslocamento pela metade e desvantagem em TR Físico. Antes a peça não podia ser preparada. Não existe treino de uniforme nem de escudo.*
+- **Carga acima do limite (item 158, peça 14):** *até o dobro, a mesma penalidade; acima do dobro, não se desloca.* **As três penalidades não se multiplicam.**
+- **A Reação de `Cobrir-se de Energia` e a de `Defesa sem Armadura` (item 160, peça 11):** *tiram só a proteção passiva; `Traje`, `Revestimento` e escudo continuam protegendo.*
+- **`Insondável` (item 171, peça 16):** *o alcance volta a ser na cena, na ordem de `100 m`, nos ataques do turno; os `18 m` da v0.335 saíram.*
+- **O cabeçalho da peça 15** *deixou de descrever três regras da candidata que a revisão mudou (itens 16, 19 e 20).*
+
+**Duas tensões que as decisões abrem, escritas nas peças e não resolvidas:**
+
+- **O item 160 desfaz o conserto da v0.42, e a peça 14 §7 já tinha medido o tamanho disso.** *Para quem veste proteção, cada uso da Reação passa a render o que a tabela de lá chama de "saldo se o preço sumir": `+4,0` no nível 6, `+10,0` no 14 e `+15,0` no 22 e no 30, contra `+2,3`, `+4,7`, `+4,2` e `+0,6` com o preço.* **O critério que a peça 11 usou para escolher o `1,5 ×` ("o saldo encolhe em vez de virar") deixa de valer para essa ficha.** *Ele aceitou ("isso da mais vantagem para o usuario de força, q ja n tem mt destaque") e avisou que pode rever.*
+- **O limite de carga foi calibrado como muro, e virou degrau.** *A peça 14 §6.6 escolheu `5 + Força` generoso porque passar dele parava o personagem; com o item 158, passar dele só penaliza, e o muro é o dobro. O limite não foi recalibrado.*
+
+**A checagem nova, e por que ela mora onde mora.** *A candidata, que os validadores leem, não recebeu a revisão; então nenhum validador de peça consegue comparar estas regras com o livro.* **Entrou a sub-checagem 10.9 do `conferir-repositorio.py`, no bloco do livro contra as peças:** *para cada uma das seis regras, a peça dona tem de escrever a regra nova, o R41 tem de escrever a mesma, e a redação antiga só pode aparecer riscada na peça.* *O `conferir-dano.py` (11) trocou a frase que cobrava da seção 6 e ganhou a guarda da Destreza.*
+
+**Testes negativos, em cópia isolada com a base passando antes e a mudança conferida no arquivo:** *devolver a frase antiga da arma acende a 10.9 e a 11 do `conferir-dano.py`; tirar o risco da proibição de vestir, apagar a penalidade de carga, devolver "fica sem proteção" e devolver os `18 m` acendem a 10.9, cada um na regra dele; e mudar no R41 o alcance do `Insondável` ou a desvantagem da arma acende a 10.9 pelo lado do livro.* **Sete perturbações, sete acesas.**
+
+**Por que as Bênçãos não vieram junto.** *`Represália` pede Força 4 ou Destreza 4 e `Sangue Frio` pede Constituição 4, e a peça 11 §6.8 tem escrito, com conta, que os gates são cinco, um por atributo, e que esse é o teto para a rota pura de Lapidação fechar os dez picks num catálogo de doze.* **Com as duas, o catálogo vai a catorze pagas e os gates a sete, com três atributos repetidos.** *A conta tem de ser refeita, e o `conferir-sem-tecnica.py` e o `conferir-aptidoes.py` leem esses números.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/INVENTARIO-REVISAO-R41.md`: as Bênçãos `Represália` e `Sangue Frio` na peça 11 §6.8, e depois Origens e Progressão.
+
+---
+
 ## [0.342] — 09/10/2026
 
 **O passo 5a da migração: o inventário da revisão do R41.** *A v0.341 pôs o R41 como livro principal e deixou escrito que, antes de qualquer capítulo, faltava dizer o que cada decisão da revisão pede das peças.* **A tabela está em `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/INVENTARIO-REVISAO-R41.md`: 63 linhas, uma por decisão, cada uma com o caso, o lugar na peça e o quanto foi conferida.** *Nenhuma peça e nenhum validador mudou nesta versão.*

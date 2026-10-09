@@ -2535,6 +2535,75 @@ else:
     print('  CONTEUDO esta. Sao perguntas diferentes, e ate a v0.124 so uma tinha dono.')
 
 
+# -- 10.9: as regras que a revisao do R41 mudou e que ja estao em peca (v0.343). ----
+# A candidata, que os validadores leem pelo livro.py, nao recebeu a revisao de
+# 07 a 09/10/2026; o livro principal (R41) recebeu. Enquanto a fonte nao troca, estas
+# regras so tem a peca e o R41 como testemunhas, e nenhum validador de peca as le.
+# Tres perguntas por regra, e as tres acendem sozinhas:
+#   - a peca dona escreve a regra nova?
+#   - o R41 escreve a mesma regra? (se o livro mudar, a peca nao pode ficar para tras)
+#   - a regra antiga saiu de circulacao na peca? Ela so pode aparecer riscada (~~...~~),
+#     porque neste projeto citacao solta e' regra, e historico e' riscado ou FECHADO.
+# As frases sao as da decisao do Mizuki (itens 156, 157, 158, 160 e 171 do
+# MUDANCAS-DE-REGRA.md do R41), e nao constante desta checagem: quem as publica sao a
+# peca e o livro, e a checagem so cobra que os dois continuem dizendo a mesma coisa.
+_R41_109 = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'ciclo-maldito-r41',
+                        'LIVRO-COMPLETO.md')
+
+
+def _sem_riscado109(t):
+    return re.sub(r'~~.*?~~', '', t)
+
+
+_REGRAS_109 = [
+    ('a arma sem a Forca exigida (item 156)', '19-dano-e-condicoes.md',
+     'você tem desvantagem nos ataques com aquela arma e o seu deslocamento cai pela metade',
+     'desvantagem nos ataques com aquela arma e seu deslocamento cai pela metade',
+     ['não soma Destreza na Defesa']),
+    ('a protecao sem a Forca exigida (item 157)', '14-equipamento.md',
+     'pode ser vestido ou empunhado e dá a proteção normal',
+     'você pode vesti-la ou empunhá-la e recebe sua proteção e seus benefícios de uso normalmente',
+     ['a peça não pode ser preparada']),
+    ('a carga acima do limite (item 158)', '14-equipamento.md',
+     'acima do limite e até o dobro dele, o deslocamento cai pela metade e os TR Físicos têm desvantagem',
+     'Acima do limite e até o dobro dele, seu deslocamento cai pela metade e você tem desvantagem em TR Físico',
+     ['passar do limite é um muro, e não um degrau', 'e não deixa andar com o excesso']),
+    ('a Reacao de Cobrir-se de Energia (item 160)', '11-aptidoes-e-refino.md',
+     'você fica sem **a proteção passiva desta aptidão** até o fim do seu próximo turno',
+     'somente a proteção passiva desta aptidão até o fim do seu próximo turno',
+     ['você fica sem proteção até o fim do seu próximo turno']),
+    ('a Reacao da Defesa sem Armadura (item 160)', '11-aptidoes-e-refino.md',
+     'você fica sem **a proteção passiva desta Bênção** até o fim do seu próximo turno',
+     'somente a proteção passiva desta Bênção até o fim do seu próximo turno',
+     ['perda da proteção de qualquer fonte']),
+    ('o Insondavel (item 171)', '16-ferramenta-amaldicoada.md',
+     'na cena, na ordem de `100 m`',
+     'na cena, na ordem de 100 metros',
+     ['`18 m` nos ataques do seu turno']),
+]
+print()
+print('  10.9: as regras da revisao do R41 que ja estao em peca')
+if not os.path.isfile(_R41_109):
+    erro('10.9: nao achei o LIVRO-COMPLETO.md do R41 — sem ele estas regras ficam sem '
+         'segunda testemunha')
+else:
+    _r41_109 = open(_R41_109, encoding='utf-8').read()
+    _antes109 = len(FALHAS)
+    for _rot, _arq, _na_peca, _no_livro, _velhas in _REGRAS_109:
+        _p109 = open(os.path.join(MEC, _arq), encoding='utf-8').read()
+        if _na_peca not in _p109:
+            erro(f'10.9: {_arq} nao escreve mais {_rot}: falta "{_na_peca}"')
+        if _no_livro not in _r41_109:
+            erro(f'10.9: o R41 nao escreve mais {_rot} como a peca: falta "{_no_livro}"')
+        for _v in _velhas:
+            if _v in _sem_riscado109(_p109):
+                erro(f'10.9: {_arq} ainda traz viva a regra antiga de {_rot}: "{_v}" '
+                     'aparece fora de trecho riscado')
+    if len(FALHAS) == _antes109:
+        print(f'  [x] as {len(_REGRAS_109)} regras estao na peca dona e no R41, e a '
+              'redacao antiga so aparece riscada')
+
+
 # --------------------------------------------------------------------------
 # 11. O `→ Continua em` — a linha de retomada do CHANGELOG.
 #

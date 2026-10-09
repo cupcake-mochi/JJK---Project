@@ -1139,14 +1139,20 @@ if not _sec6:
 else:
     _falta = [t for t, _r in (
         ('desvantagem na rolagem de ataque', 'desvantagem na rolagem de ataque'),
-        # v0.335: a regra e' a do livro desde a v0.176 (metade do deslocamento e sem
+        # v0.335: a regra era a do livro desde a v0.176 (metade do deslocamento e sem
         # Destreza na Defesa); os 3 m ficam como o piso medido, e o piso continua conferido.
+        # v0.343: por decisao do Mizuki (item 156 da revisao do R41) a segunda metade
+        # passou a ser desvantagem nos ataques com a arma. A frase antiga so' pode
+        # aparecer riscada; o cruzamento com o R41 mora na 10.9 do conferir-repositorio.
         ('a queda de deslocamento', 'deslocamento cai pela metade'),
-        ('a Destreza fora da Defesa', 'não soma Destreza na Defesa'),
+        ('a desvantagem de quem nao tem a Forca', 'desvantagem nos ataques com aquela arma'),
         ('o piso medido com 3 m', 'deslocamento `−3 m`'),
     ) if _r not in _sec6]
     if _falta:
         erro('11: a secao 6 nao escreve mais: ' + ', '.join(_falta))
+    if 'não soma Destreza na Defesa' in re.sub(r'~~.*?~~', '', _sec6):
+        erro('11: a secao 6 voltou a tirar a Destreza da Defesa de quem empunha sem a '
+             'Forca — a regra saiu na v0.343 e so pode aparecer riscada')
     _desv = ROTINA_30 * (PP_VANTAGEM / (ACERTO * 100))
     _mov = 3.0 * METRO
     _arma = FUNDO_DE_DUAS_MAOS * PONTO_DE_ARMA

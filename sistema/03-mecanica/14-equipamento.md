@@ -7,7 +7,7 @@ Versão v0.1 — 13/08/2026, fechada na v0.48 do projeto
 
 *Estado na v0.47: proteção fechada, categorias fechadas, recarga fechada, e **as 52 armas com dado e propriedades** (§5.3). A régua ganhou **fundo `3/5`** e o **dado virou entrada** — a ficção diz o tamanho da arma e o número de vagas cai da conta. **A restrição devolve orçamento** (§5.0.4). **O efeito de crítico da categoria morreu** (§5.1.1). E as duas decisões de acesso fecharam: **a divisão simples/marcial** (§5.4.1) e **o requisito de Força** (§5.5), que reancorou no dado depois de dois versões órfão.*
 
-*A **penalidade** por empunhar sem treino ou sem requisito (§8 item 15) **fechou na v0.104**, na peça 19 §6: sem treino é **desvantagem na rolagem de ataque**; sem o requisito de Força o **deslocamento cai `3 m`**. As duas somadas custam `33,8` vezes o que a arma inteira entrega — é porta fechada, e não preço.* *Desde a v0.176 a do requisito é maior — metade do deslocamento e sem Destreza na Defesa —, e esta peça e a 19 só acompanharam na v0.335 (§5.5).*  * **Os nomes dos degraus de escudo fecharam na v0.59** — `Broquel`, `Médio` e `Torre`.*
+*A **penalidade** por empunhar sem treino ou sem requisito (§8 item 15) **fechou na v0.104**, na peça 19 §6: sem treino é **desvantagem na rolagem de ataque**; sem o requisito de Força o **deslocamento cai `3 m`**. As duas somadas custam `33,8` vezes o que a arma inteira entrega — é porta fechada, e não preço.* *Da v0.176 à v0.342 a do requisito foi metade do deslocamento e sem Destreza na Defesa, e esta peça e a 19 só acompanharam na v0.335 (§5.5).* **Desde a v0.343, por decisão do Mizuki, ela é metade do deslocamento e desvantagem nos ataques com a arma; e vestir proteção sem a Força ou passar do limite de carga deixaram de ser proibição e viraram penalidade** *(manejo e peso, no §6).*  * **Os nomes dos degraus de escudo fecharam na v0.59** — `Broquel`, `Médio` e `Torre`.*
 
 > **Esta linha listava mais duas coisas até a v0.59, e as duas já estavam feitas.** O **validador** entrou na **v0.48** e é o `conferir-equipamento.py`. E **os dois dados do `Yumi`** foram corrigidos **nesta mesma peça, 573 linhas abaixo desta linha** — `Daikyū` para `1d10` e `Hankyū` para `1d8`, os dois fechando exatos em `4 de 4` (§5.3 e §8 item 16). *O §8 item 9 desta peça nomeou esse defeito com todas as letras — "uma conclusão que sobrevive à premissa" — e o cabeçalho dela estava fazendo exatamente isso, com o próprio texto dela como desmentido.*
 
@@ -1386,7 +1386,7 @@ Um é sobre o corpo, o outro sobre o que você aprendeu. **Um Emanador de Força
 
 > ***v0.335: a Espingarda e o Rifle pedem `Força 1`, e esta peça estava atrasada desde a v0.176.*** *Na revisão do Word (v0.176) o Mizuki tirou o `Força 3` das duas, e o capítulo 50 do livro v0.331 publicou `1` na coluna "requer Força".* **A peça continuou dizendo `3`, e o validador contava 16 pela régua dela, sem olhar o livro.** *A candidata publica `1`, e a peça acompanha.* **O `Força 3` pega hoje 14 de 52:** *as 11 do corpo a corpo e 3 do tiro — `Besta`, `Rifle de Precisão` e `Metralhadora Pesada`.* **As duas de `2d8` de fogo ficam num degrau abaixo**, e o *"tem arma de longo alcance que vai necessitar de força pra carregar"* continua valendo para elas, com `1`.
 >
-> ***E a penalidade também mudou de tamanho na mesma revisão:*** *sem a Força exigida, o deslocamento cai **pela metade** e você **não soma Destreza na Defesa** enquanto empunhar a arma* (o livro v0.331 e a candidata). **A dona é a peça 19 §6, que foi atualizada junto.**
+> ***E a penalidade também mudou de tamanho na mesma revisão:*** *sem a Força exigida, o deslocamento cai **pela metade**, e da v0.176 à v0.342 você também ~~não somava Destreza na Defesa~~ enquanto empunhasse a arma* (o livro v0.331 e a candidata). **Desde a v0.343 a segunda parte é desvantagem nos ataques com aquela arma, que não se acumula com a da falta de treino** *(decisão do Mizuki de 08/10/2026, item 156 da revisão do R41).* **A dona é a peça 19 §6.**
 
 **A mesma frase, duas escadas, zero parâmetro novo.** A escada do corpo a corpo é `d4 · d6 · d8 · d10 · d12` e a do tiro é `1d10 · 2d6 · 2d8 · 2d10` (§5.0.5); o requisito pega os dois degraus de cima de cada uma. Escapam as leves — Submetralhadora, Pistola, Revólver e Besta de Uma Mão — e pegam besta, espingarda, rifle, rifle de precisão e metralhadora pesada. **O corte de ficção sai sozinho da régua**, sem lista escrita à mão.
 
@@ -1686,7 +1686,7 @@ Isso é diferente de deixar em aberto — é decisão com condição de disparo,
 
 **A camada 3 do §6 ligou, e não foi o gatilho dela que disparou.** *Aquela seção deixou o espaço desligado com condição escrita — "se o playtest mostrar que o grupo leva tudo que quer sem precisar escolher, o espaço entra" —, e a pasta `04-playtest/` continua vazia.* **Quem ligou foi o Mizuki, por decisão de design, e isto fica escrito aqui para ninguém ler daqui a dez versões que o playtest aconteceu.**
 
-**Para que o peso serve, e só para isso** *(decisão dele: "de resto n vai servir pra mais nada, igual DnD 2024")*: **o limite do quanto se carrega, e os requisitos de arma e de uniforme, que já existiam e não mudam.** *Sem degraus de carga e sem penalidade por item: passar do limite é um muro, e não um degrau.*
+**Para que o peso serve, e só para isso** *(decisão dele: "de resto n vai servir pra mais nada, igual DnD 2024")*: **o limite do quanto se carrega, e os requisitos de arma e de uniforme, que já existiam e não mudam.** *Sem degraus de carga e sem penalidade por item.* ***v0.343, decisão do Mizuki (08/10/2026, item 158):*** **acima do limite e até o dobro dele, o deslocamento cai pela metade e os TR Físicos têm desvantagem; acima do dobro, você não se desloca com a carga.** *Até a v0.342: ~~passar do limite é um muro, e não um degrau~~. O muro continua existindo, e é o dobro, que já era o máximo de `Levantar`.*
 
 ### 6.6.1 A fórmula, e ela é dele
 
@@ -1699,7 +1699,7 @@ Isso é diferente de deixar em aberto — é decisão com condição de disparo,
 | em quilo, quando o mestre precisar pesar o que não tem `Volume` | `12` kg por `Volume`, ou `60` a `132` kg |
 | arrastar, empurrar e levantar | **o dobro** |
 
-> ***v0.335, da candidata (GER25 e GER26): o dobro ganhou procedimento.*** **Levantar** *vai até o dobro do limite e não deixa andar com o excesso.* **Arrastar ou empurrar** *vai até o dobro, descontado o que você já leva, e cada `1,5 m` de arrasto custa `3 m` de movimento (terreno difícil, mais `1,5 m`).* **Corpo carregado** *vale a massa em quilos dividida por `12`, mais o `Volume` do que ele leva, sem arredondar; e alvo que resiste pede Agarrar antes, porque capacidade de carga não substitui a manobra.* **Transporte em grupo** *divide o `Volume` entre quem segura, cada parte somada ao que cada um já leva e dentro do limite dele (o dobro, se for arrasto); todos andam no menor movimento, e em combate andar junto pede Preparar.* **O limite e os `12` kg continuam os desta tabela** — *a candidata só escreveu o que o dobro fazia, e fechou a carga de graça de quem pesava a bolsa do aliado.*
+> ***v0.335, da candidata (GER25 e GER26): o dobro ganhou procedimento.*** **Levantar** *vai até o dobro do limite ~~e não deixa andar com o excesso~~ (v0.343: anda, com a penalidade de carga acima do limite).* **Arrastar ou empurrar** *vai até o dobro, descontado o que você já leva, e cada `1,5 m` de arrasto custa `3 m` de movimento (terreno difícil, mais `1,5 m`).* **Corpo carregado** *vale a massa em quilos dividida por `12`, mais o `Volume` do que ele leva, sem arredondar; e alvo que resiste pede Agarrar antes, porque capacidade de carga não substitui a manobra.* **Transporte em grupo** *divide o `Volume` entre quem segura, cada parte somada ao que cada um já leva e dentro do limite dele (o dobro, se for arrasto); todos andam no menor movimento, e em combate andar junto pede Preparar.* **O limite e os `12` kg continuam os desta tabela** — *a candidata só escreveu o que o dobro fazia, e fechou a carga de graça de quem pesava a bolsa do aliado.*
 
 ***O requisito de Força de arma e de uniforme é INDEPENDENTE do `Volume`***, *por decisão dele:* **"O peso (volume) de cada item/arma vai servir como um segundo balanceador"**. *O requisito continua sendo o do §5.5 e o do §3, e ele não olha o quanto você está carregando.*
 
@@ -1760,6 +1760,8 @@ Isso é diferente de deixar em aberto — é decisão com condição de disparo,
 
 > **O desenho importa mais que o sistema, e é por isso que os outros três ficam de fora da média.** *Num sistema de degraus o primeiro degrau é apertado de propósito: passar dele dá penalidade e o jogo continua. Aqui passar do limite é um muro, então o limite tem de ser o generoso.*
 
+> ***v0.343: a premissa deste parágrafo mudou, e o limite não foi recalibrado.*** *Pela decisão do item 158, passar de `5 + Força` deixou de ser muro: dá penalidade até o dobro, e o muro é o dobro.* **O limite foi escolhido generoso porque era muro; agora ele é o primeiro degrau, e continua generoso.** *Fica como tensão aberta: se a carga virar problema de mesa, é aqui que se mexe.*
+
 ### 6.6.5 O que o limite deixa passar
 
 **O que sobra depois do kit**
@@ -1797,8 +1799,9 @@ Isso é diferente de deixar em aberto — é decisão com condição de disparo,
 
 **O requisito de Força da proteção** (EQ08)
 
-- **Sem a Força exigida, a peça não pode ser preparada**, *e não dá proteção nem benefício de uso.* **Carregar para outra pessoa continua valendo**, *dentro do limite de carga.*
-- **Força que cai abaixo do requisito com a peça já preparada suspende os benefícios.** *A peça fica no corpo, conserva o `Volume` e o teto de Destreza, e não devolve a proteção passiva enquanto estiver vestida.* **Recuperou a Força, os benefícios voltam.**
+- **Sem a Força exigida, o `Traje`, o `Revestimento` ou o escudo pode ser vestido ou empunhado e dá a proteção normal; enquanto estiver em uso, o seu deslocamento cai pela metade e os seus TR Físicos têm desvantagem.** *Os demais requisitos e o teto de Destreza da peça continuam valendo. Não existe treino de uniforme nem de escudo.* ***v0.343, decisão do Mizuki (08/10/2026, item 157).*** *Até a v0.342: ~~a peça não pode ser preparada, e não dá proteção nem benefício de uso~~.* **Carregar para outra pessoa continua valendo**, *dentro do limite de carga.*
+- **Força que cai abaixo do requisito com a peça já preparada não suspende nada:** *a peça segue funcionando, com a mesma penalidade, até a Força voltar. Até a v0.342: ~~suspende os benefícios~~.*
+- **As três penalidades não se multiplicam** *(v0.343):* *arma sem a Força, proteção sem a Força e carga acima do limite cortam o deslocamento pela metade uma vez só, e a desvantagem em TR Físico é uma só.*
 
 **Vestir e retirar** (EQ09)
 
@@ -1836,7 +1839,9 @@ Isso é diferente de deixar em aberto — é decisão com condição de disparo,
 
 ## 7. A dívida que esta peça deve à peça 11
 
-**O preço da Reação de cobrir-se tem de virar agnóstico de fonte.** Hoje ela cobra *"você fica sem **a proteção passiva**"* — e quem está de Revestimento não paga isso, porque não tira o colete no meio do golpe.
+> ***v0.343: o Mizuki desfez este conserto*** *(08/10/2026, item 160 da revisão do R41).* **A Reação de `Cobrir-se de Energia` e a de `Defesa sem Armadura` voltaram a tirar só a proteção passiva; `Traje`, `Revestimento` e escudo continuam protegendo, e quem está fardado paga só a Reação e os `2` PE.** *Palavras dele: "acho que tudo bem, isso da mais vantagem para o usuario de força, q ja n tem mt destaque, mesmo vale pro traje tbm, ele n perde efetividade", e "depois acho que posso revisar isso, mas por enquanto deixa assim".* **O que a decisão entrega está medido na tabela abaixo: para quem veste proteção, o saldo de cada uso é o da última coluna, e o critério da peça 11 ("o saldo encolhe em vez de virar") deixa de valer para essa ficha.** *Ele aceitou, e a seção fica como o registro do tamanho.*
+
+**O preço da Reação de cobrir-se tem de virar agnóstico de fonte.** *(Argumento da v0.42, desfeito na v0.343.)* Hoje ela cobra *"você fica sem **a proteção passiva**"* — e quem está de Revestimento não paga isso, porque não tira o colete no meio do golpe.
 
 O tamanho, pelos números da própria peça 11:
 
@@ -1849,7 +1854,7 @@ O tamanho, pelos números da própria peça 11:
 
 A peça 11 escolheu o `1,5 ×` com critério escrito: *"o saldo **encolhe** em vez de virar"*. Sem o preço ele sobe e trava no teto — inverte o critério.
 
-> **Conserto decidido:** trocar *"você fica sem a proteção passiva"* por *"você fica sem proteção"*, venha ela de onde vier. Uma palavra a menos.
+> **Conserto decidido na v0.42 (FECHADO, desfeito na v0.343):** ~~trocar *"você fica sem a proteção passiva"* por *"você fica sem proteção"*, venha ela de onde vier~~.
 
 **Vai junto com esta peça, na mesma versão** — decisão do Mizuki. E a linha *"sem uniforme, sem armadura e sem escudo"* muda junto, porque sob duas classes ela vira `Traje`, `Revestimento` e escudo.
 

@@ -4,6 +4,11 @@
 
 Uma linha por decisão que mudou o livro na revisão de 07 a 09/10, dizendo o que ela pede das peças. As decisões estão em `../../ciclo-maldito-r41/revisao-de-regras/MUDANCAS-DE-REGRA.md` (seções A e B) e no `DECISOES-MIZUKI.md` da mesma pasta. O que o Mizuki mandou manter da reconstrução não está aqui: segue a migração normal de cada capítulo.
 
+## O que já foi feito
+
+- **v0.343:** itens 156, 157, 158 e a regra de não acumular (peças 19 e 14), 160 (peças 11 e 14), 171 (peça 16) e o cabeçalho da peça 15 (itens 16, 19 e 20). Conferidos pela sub-checagem 10.9 do `conferir-repositorio.py` e pela checagem 11 do `conferir-dano.py`.
+- **Falta dos casos `nova` e `desfaz`:** as Bênçãos `Represália` e `Sangue Frio` (peça 11 §6.8), e os de Origens e Progressão (113, 115, 118 e 119).
+
 ## Os casos
 
 | caso | o que quer dizer | linhas |
