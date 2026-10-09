@@ -2,16 +2,16 @@
 
 **O sistema se chama `Ciclo Maldito`** desde a v0.334, o nome do livro final do Mizuki. *Até ali era `Projeto - M`, batizado na v0.94 — a pendência mais velha que existia aqui, aberta na v0.1.* Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.345** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.346** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 
 ## O livro: Ciclo Maldito
 
 **[Ciclo Maldito — Livro de regras (PDF, 373 páginas)](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é o livro principal do sistema, por decisão do Mizuki. *Desde a v0.341 é a edição R41: o R28a da v0.339 com a diagramação nova em duas colunas e com a revisão de regras que ele fez item a item entre 07 e 09/10/2026.* O texto completo, as fontes dos capítulos, os scripts do gerador e os registros da revisão estão em [`ciclo-maldito-r41/`](sistema/05-material/livro/ciclo-maldito-r41/LEIA-ME.md).
 
-> **O livro e as peças não dizem mais a mesma coisa em tudo.** *A revisão devolveu ao valor da v0.331 várias regras que o livro reconstruído tinha mudado, e fechou regra nova (arma, uniforme e carga sem a Força pedida, a Reação de `Cobrir-se de Energia`, as Bênçãos `Represália` e `Sangue Frio`).* **Nenhuma peça e nenhum validador mudou na v0.341.** *A D43, a D44 e o `Projetar Energia` de `2d6` por PE já estão no R41. O que cada decisão pede das peças é o próximo passo da migração, e a lista decidida está em [`MUDANCAS-DE-REGRA.md`](sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/MUDANCAS-DE-REGRA.md).*
+> **Desde a v0.346 é o R41 que os validadores leem.** *A revisão devolveu ao valor da v0.331 várias regras que o livro reconstruído tinha mudado, e fechou regra nova (arma, uniforme e carga sem a Força pedida, a Reação de `Cobrir-se de Energia`, as Bênçãos `Represália` e `Sangue Frio`).* **As regras novas que tinham peça entraram nas peças da v0.343 à v0.345;** *as que não têm peça (Fundamento, Catálogo, Invocações) passaram a valer para os validadores quando a fonte trocou.* *Faltam os capítulos que ainda não migraram (Dano, Regras gerais, Poderes avançados, Ritual e Pactos); o que cada decisão pede está no [inventário](sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/INVENTARIO-REVISAO-R41.md), e a lista decidida em [`MUDANCAS-DE-REGRA.md`](sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/MUDANCAS-DE-REGRA.md).*
 
-O livro reconstruído continua sendo a fonte das peças e dos validadores; os PDFs `Projeto-M-Manual-da-Guilda*` da mesma pasta são a edição v0.331, guardada como estava.
+O livro reconstruído (a candidata, abaixo) foi a fonte dos validadores da v0.337 à v0.345 e fica guardado como estava; os PDFs `Projeto-M-Manual-da-Guilda*` da mesma pasta são a edição v0.331, também guardada.
 
 
 ## Livro reconstruído — candidata revisada em 4 de outubro de 2026

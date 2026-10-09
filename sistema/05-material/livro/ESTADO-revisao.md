@@ -68,6 +68,8 @@
 | `Sangra` | *que nada reduz* contra *que não pode ser reduzido* | não | fechada na v0.227: o LIVRO vence |
 | `Tudo ou Nada` | `TR` contra `Teste de Resistência` | não | fechada na v0.227: o LIVRO vence |
 
+| `De Novo` | o DEGRAU e a frequência: `Média` e uma vez por cena no livro v0.331; `Pesada` e uma rerrolagem a cada uso do feitiço no R41 | **sim** | decidida na v0.346: o R41 vence, por decisão do Mizuki na revisão de 07/10/2026 (item 70); o livro v0.331 está congelado e não acompanha |
+| `Troca` | existe no livro v0.331, como `Média`, e saiu do Catálogo do R41 | **sim** | decidida na v0.346: o R41 vence; ela saiu do Catálogo e virou `Efeito Próprio`, por decisão do Mizuki (item 57); o livro v0.331 está congelado |
 ### Por que isso não tinha dono
 
 **A checagem 10 do `conferir-repositorio.py` compara o livro com as PEÇAS, e a 4 compara número que mora em dois documentos.** *A tabela de Melhorias não é nenhum dos dois: ela mora no manual e é copiada no livro, e os dois são cópia de um terceiro lugar nenhum.* **Ninguém olhava.**

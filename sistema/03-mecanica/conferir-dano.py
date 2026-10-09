@@ -728,7 +728,7 @@ if _man:
                    if l.startswith('| **`Surdo`**') and 'iniciativa' in l]
     try:
         # o livro escreve o sinal com hifen ASCII ("-2 na iniciativa")
-        _man_surdo = [livro.limpa(livro.secao(livro.secao(_dano_l, 'Condições leves', 1), 'Surdo', 2)).replace('-2', _SURDO)]
+        _man_surdo = [livro.limpa(livro.condicao('Condições leves', 'Surdo')).replace('-2', _SURDO)]
     except livro.LivroMudou:
         _man_surdo = []
     _p3 = ler('sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md')
@@ -1482,7 +1482,7 @@ else:
     # livro reconstruido escreve o `Calado` com outra redacao ("uma conjuracao ou habilidade
     # que exija voz", e "a Kata segue a mesma exigencia"); o que se cobra dele e' o sentido.
     try:
-        _cal_l = livro.limpa(livro.secao(livro.secao(livro.texto('dano'), 'Condições médias', 1), 'Calado', 2))
+        _cal_l = livro.limpa(livro.condicao('Condições médias', 'Calado'))
     except livro.LivroMudou:
         _cal_l = ''
     if 'exija voz' not in _cal_l or 'A Kata segue a mesma exigência' not in _cal_l:

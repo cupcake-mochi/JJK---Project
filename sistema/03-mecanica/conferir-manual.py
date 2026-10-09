@@ -1130,8 +1130,16 @@ _VELHAS = ('ou metade do dano, o que for maior', 'ou metade do dano que você to
 _quer_m('o livro', livro.limpa(CAT['Carregar']['texto']), 'TR Espírito contra a CD de quem o feriu')
 _quer_m('o livro', _novo_m, 'receber dano exige TR de Vigor contra a CD de quem causou o dano')
 _quer_m('o livro', livro.limpa(livro.texto('regras-gerais')), 'TR de Vigor contra a CD de quem causou o dano')
-# a "maior CD entre eles" do v7: o livro rola uma vez e compara o mesmo total com cada CD maior
-_quer_m('o livro', _novo_m, 'compare o mesmo total à nova CD')
+# a "maior CD entre eles" do v7. Da v0.337 a v0.345 esta linha cobrava a redacao da
+# candidata ("compare o mesmo total à nova CD": rolar uma vez e conservar o total).
+# v0.346: o livro lido e' o R41, e a revisao do Mizuki devolveu a regra do v0.331
+# (item 13 do MUDANCAS-DE-REGRA.md: o inimigo testa no maximo uma vez por jogador que
+# o acertou na rodada, contra a maior CD entre eles; saiu "conserva o primeiro total").
+_quer_m('o livro', _novo_m, 'contra a maior CD entre eles')
+if 'compare o mesmo total à nova CD' in _novo_m:
+    _ok4m = False
+    erro('4m: o livro voltou a dizer "compare o mesmo total à nova CD" — a regra que a '
+         'revisao do R41 tirou (item 13)')
 # o capitulo 9 do livro v0.331 (copia congelada)
 for _onde, _t in (('o capitulo 9 do livro', _c9m),):
     _quer_m(_onde, _t, _CARREGAR)
@@ -1358,10 +1366,19 @@ for _onde, _txt in (('o capitulo 9 do livro', _c9m),):
 # por menos pontos ou menos espaco, por conta e risco, e o manual nao recomenda"): no
 # livro, juntar duas Melhorias sob um nome nao reduz preco nem vaga, sem excecao. O dono
 # e' o livro; a copia congelada (cap. 9) fica com o paragrafo antigo ate ser trocada.
-for _frase in ('Reunir duas Melhorias sob um nome não reduz seu preço nem a quantidade ocupada',
+# v0.346: o livro lido e' o R41, e a revisao do Mizuki REABRIU a porta (item 67 do
+# MUDANCAS-DE-REGRA.md, "volta ao v0.331"): duas Melhorias escritas como uma pagam e
+# contam como as duas, e o mestre pode aprovar por menos pontos ou menos espaco, por
+# conta e risco. A frase da candidata ("Reunir duas Melhorias sob um nome não reduz...")
+# saiu do livro, e nao pode voltar sem a decisao mudar.
+for _frase in ('Duas Melhorias escritas como uma pagam e contam como as duas',
+               'O mestre pode aprovar por menos pontos ou menos espaço, por conta e risco',
                'Um novo nome não reúne várias compras em uma só'):
     if _frase not in _LIVRO_F:
         _erro_o(f'o livro nao diz mais "{_frase}" — e a regra do combo, sem ela a ficha junta duas Melhorias por uma')
+if 'Reunir duas Melhorias sob um nome não reduz seu preço nem a quantidade ocupada' in _LIVRO_F:
+    _erro_o('o livro voltou a fechar o combo sem excecao ("Reunir duas Melhorias sob um nome...") '
+            '— a revisao do R41 devolveu a porta ao mestre (item 67)')
 _CHAVES = ('duas Melhorias escritas como uma', 'soma dos preços', 'por conta e risco', 'não recomenda')
 for _onde, _txt in (('o capitulo 9 do livro', _c9m),):
     _par = [_l for _l in _txt.split('\n') if 'Duas Melhorias escritas como uma' in _l]

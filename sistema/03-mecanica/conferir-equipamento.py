@@ -244,11 +244,15 @@ if m and len(gate) != 16:
 # assim a regra da peca e a tabela do livro nao se desencontram de novo em silencio.
 _s55 = EQ[EQ.index('## 5.5 O requisito de Força'):EQ.index('### Por que o tiro entra')]
 _mx = re.search(r'pede[mn]? `Força (\d+)`', _s55)
-_cand_eq = os.path.join(AQUI, '..', '05-material', 'livro', 'planejamento-editorial',
-                        'equipamento', 'lote-final', 'EQUIPAMENTO.md')
+# v0.346: o capitulo de Equipamento e' lido do R41, pelo livro.py, como os outros. Ate a
+# v0.345 esta checagem e a 15 abriam o manuscrito da candidata direto.
+import livro as _livro_eq
 _forca = {}
-if os.path.isfile(_cand_eq):
-    _ct = open(_cand_eq, encoding='utf-8').read()
+try:
+    _ct = _livro_eq.texto('equipamento')
+except _livro_eq.LivroMudou:
+    _ct = ''
+if _ct:
     for _l in _ct[_ct.index('# Lâminas'):_ct.index('# Itens comuns')].splitlines():
         _c = [x.strip() for x in _l.strip().strip('|').split('|')] if _l.startswith('|') else []
         if len(_c) == 7 and _c[0] != 'Arma' and not set(_c[0]) <= set('-: '):
@@ -995,12 +999,13 @@ else:
         _armas_col[_cel[0]] = _cel[-1].replace('`', '').strip()
     if len(_armas_col) != 52:
         erro(f'15: o extrator achou {len(_armas_col)} armas no SS5.3 e sao 52')
-    _cand = os.path.join(AQUI, '..', '05-material', 'livro', 'planejamento-editorial',
-                         'equipamento', 'lote-final', 'EQUIPAMENTO.md')
-    if not os.path.isfile(_cand):
-        erro('15: o capitulo de Equipamento da candidata sumiu — o `Volume` das armas perdeu o dono')
+    try:
+        _ct = _livro_eq.texto('equipamento')
+    except _livro_eq.LivroMudou:
+        _ct = ''
+    if not _ct:
+        erro('15: nao li o capitulo de Equipamento do R41 — o `Volume` das armas perdeu o dono')
     else:
-        _ct = open(_cand, encoding='utf-8').read()
         _ct = _ct[_ct.index('# Lâminas'):_ct.index('# Itens comuns')]
         _vc = {}
         for _l in _ct.splitlines():
@@ -1078,8 +1083,9 @@ else:
                   ' · '.join(f'{n} {f:.0f}%' for n, f in _fr))
         # ---- v0.335: o uniforme e o escudo da peca sao copia da CANDIDATA, que e' a dona
         # desde a migracao (o livro v0.331 ficou congelado com o `leve` antigo).
-        if os.path.isfile(_cand):
-            _lv = open(_cand, encoding='utf-8').read()
+        # v0.346: lido do R41, pelo livro.py (era o manuscrito da candidata, aberto direto)
+        if _ct:
+            _lv = _livro_eq.texto('equipamento')
             _uL, _eL, _qual = {}, {}, None
             for _l in _lv.splitlines():
                 if _l.startswith('# Trajes'): _qual = 'Traje'

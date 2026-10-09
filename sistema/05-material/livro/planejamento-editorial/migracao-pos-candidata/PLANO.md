@@ -395,7 +395,7 @@ As decisões caem em três casos, e cada um pede uma coisa diferente das peças:
 
 **O passo 5a foi montar essa tabela antes de tocar em peça** (`INVENTARIO-REVISAO-R41.md`): uma linha por decisão, com a peça dona, o caso e o quanto cada linha foi conferida. Sem ela, os capítulos que faltam do passo 5b seriam copiados de uma candidata que o livro já desmentiu.
 
-**A candidata fica como está por enquanto.** *Ela é a fonte que os validadores leem pelo `03-mecanica/livro.py`. Trocar essa fonte pelo `LIVRO-COMPLETO.md` do R41 é decisão do Mizuki e muda o caminho de leitura de todos eles de uma vez. O inventário mediu o tamanho numa cópia isolada: 22 dos 27 validadores passam sem mudança, e 5 pedem ajuste.*
+**A candidata fica guardada como está.** *Ela foi a fonte que os validadores liam pelo `03-mecanica/livro.py` da v0.337 à v0.345.* **Na v0.346 a fonte passou a ser o `LIVRO-COMPLETO.md` do R41,** *anunciada ao Mizuki como a versão seguinte e liberada por ele ("verifica e siga"). O inventário tinha medido o tamanho numa cópia isolada (22 dos 27 validadores passando sem mudança); na troca de verdade, quatro precisaram de ajuste.* **Daqui em diante, "migrar um capítulo" é comparar a peça com o R41, e não com a candidata.**
 
 **Fora do livro e fora deste passo:** a seção C do `MUDANCAS-DE-REGRA.md` (direção dada, sem número) e as regras de XP de 01/10/2026 (Solo simples e Solo complexa, o multiplicador e o arredondamento em múltiplos de `12,5`), que a ficha já segue e o R41 ainda não.
 

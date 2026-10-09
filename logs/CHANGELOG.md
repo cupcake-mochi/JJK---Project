@@ -8,6 +8,41 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.346] — 09/10/2026
+
+**Os validadores passaram a ler o R41, e a candidata deixou de ser fonte.** *Da v0.337 à v0.345 eles leram o livro reconstruído, que não recebeu a revisão de regras de 07 a 09/10; desde a v0.341 o livro principal era outro. A troca foi anunciada ao Mizuki como a versão seguinte, e ele liberou ("verifica e siga").*
+
+**Como o R41 é lido.** *Ele só tem o texto inteiro num arquivo, o `LIVRO-COMPLETO.md`, porque as rodadas depois do R30 são aplicadas por script na hora de gerar e os manuscritos por capítulo ficam para trás.* **Mas ele guarda o identificador de página dos manuscritos como âncora de bloco** *(`catalogo--cat-alcance` no lugar de `<!-- page:cat-alcance|… -->`), com os títulos dois níveis abaixo.* **O `livro.py` remonta o manuscrito de cada unidade a partir das âncoras,** *e os validadores continuam chamando `livro.texto('catalogo')` como antes. A candidata ficou em `livro.texto_candidata()`.*
+
+**Duas coisas da forma do R41 que o leitor teve de aprender, e uma tentativa que não serviu:**
+
+- **O título com duas Melhorias perdeu os preços.** *Na candidata era "Concentrada - Leve / Duradoura - Média"; no R41 é "Concentrada / Duradoura", e os preços foram para a linha "Preço: Concentrada - Leve; Duradoura - Média." O `catalogo()` lê as duas formas e reprova se a linha não trouxer um preço para cada nome do título.*
+- **As três páginas de condições desceram um nível,** *viraram subseção de "Condições". O `condicoes()` passou a achar o título em qualquer nível, e entrou o `condicao()`, que o `conferir-dano.py` usa para o `Surdo` e o `Calado`.*
+- *Subir cada bloco até o primeiro título virar `#` parecia a regra certa e não era: as páginas de continuação do Catálogo não têm título próprio, e com ela o Catálogo devolvia 36 Melhorias em vez de 68. A subida ficou fixa em dois níveis, e o motivo está escrito no `livro.py`.*
+
+**O que os validadores acusaram, e de que tipo era cada coisa:**
+
+| validador | o que acusou | tipo | o que mudou |
+|---|---|---|---|
+| `conferir-acao` e `conferir-manual` (4n) | não liam `Concentrada` e `Duradoura` | forma | o leitor, acima |
+| `conferir-dano` (4 e 14) | não achava o `Surdo` nem o `Calado` | forma | passou a usar `livro.condicao()` |
+| `conferir-ritual` (3) | não lia o teto de dados do Fundamento | forma | o R41 reescreveu a frase; o regex ficou com o miolo que as duas redações têm, e o número é o mesmo |
+| `conferir-manual` (4m) | o livro não diz "compare o mesmo total à nova CD" | **regra** | item 13 da revisão: o inimigo testa uma vez por jogador que o acertou, contra a maior CD entre eles. A checagem cobra a regra nova e acende se a frase da candidata voltar |
+| `conferir-manual` (4o) | o livro não diz "Reunir duas Melhorias sob um nome não reduz…" | **regra** | item 67: o mestre pode aprovar o combo por menos, por conta e risco. Idem |
+| `conferir-repositorio` (12) | `Troca` só no livro v0.331, e `De Novo` com outro degrau | **regra** | itens 57 e 70: as duas entraram como `decidida` na tabela do `ESTADO-revisao.md`; a checagem passou a aceitar Melhoria que só existe de um lado quando ela está declarada |
+
+**O `conferir-equipamento.py` abria o manuscrito da candidata direto, em dois lugares;** *passou a ler o R41 pelo `livro.py`. As 78 linhas de tabela de arma são idênticas nas duas fontes.*
+
+**O que a troca resolve, e o que ela não resolve.** *As 22 decisões do inventário sem peça dona (Fundamento, Catálogo, Invocações) passaram a ter o dono certo: o livro lido já traz a regra decidida.* **Isso não deu checagem própria a cada uma.** *Os validadores conferem o que já conferiam.*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *mudar no R41 o preço de `Longe` acende a 12 do `conferir-repositorio`; trocar o nome do `Surdo` acende o `conferir-dano`; passar os pontos a `4 × Classe` acende o `conferir-ritual`; tirar o `Sangue Frio` da tabela de Bênçãos acende o `conferir-aptidoes`.* **E o contra-teste: mudar o preço de `Longe` na candidata não acende nada,** *que é a prova de que ninguém mais a lê.* *Com o `LIVRO-COMPLETO.md` apagado, 13 validadores reprovam em vez de conferir menos.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: os capítulos que faltam do passo 5b, começando por Dano sem o Morrendo (o tipo `Força`), agora comparando a peça com o R41; e o item 115 quando o Mizuki responder.
+
+---
+
 ## [0.345] — 09/10/2026
 
 **Origens e Progressão: três decisões da revisão do R41 chegaram às peças 12 e 13.** *Com elas, dos casos `nova` e `desfaz` do inventário só sobra o item 115, que espera o Mizuki.*

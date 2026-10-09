@@ -2890,6 +2890,14 @@ else:
 
             _so_um12 = sorted(set(_man12) ^ set(_liv12))
             for _n12 in _so_um12:
+                # v0.346: uma Melhoria que saiu do Catalogo por decisao (a `Troca`, item 57
+                # da revisao do R41) so' existe de um lado, e o livro v0.331 esta congelado.
+                # Ela passa SE estiver declarada como `decidida` na tabela; sem a linha,
+                # continua acendendo como catalogo divergente.
+                if _lista12.get(_n12, '').startswith('decidida'):
+                    print(f'  `{_n12}` so existe de um lado, e esta declarada: '
+                          f'{_lista12[_n12][:70]}')
+                    continue
                 _onde = 'so no livro reconstruido' if _n12 in _man12 else 'so no livro v0.331'
                 erro(f'12: a Melhoria `{_n12}` esta {_onde} — as duas tabelas '
                      f'publicam o mesmo catalogo')

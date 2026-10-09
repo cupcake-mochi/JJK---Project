@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Leitura do livro reconstruído, que é o dono do Fundamento desde a v0.337.
+"""Leitura do livro que é o dono do Fundamento: o R41 desde a v0.346, e antes dele,
+da v0.337 à v0.345, o livro reconstruído (a candidata).
 
 Até a v0.336 sete validadores abriam o manual do Fundamento v7 (`.docx`). No passo 5
 da migração (PLANO.md em sistema/05-material/livro/planejamento-editorial/
@@ -7,8 +8,9 @@ migracao-pos-candidata) o `.docx` foi para o arquivo, e eles passaram a ler os
 manuscritos das unidades do livro. Este arquivo só sabe ACHAR e PICOTAR o texto:
 nenhum número de regra mora aqui.
 
-Cada unidade é lida do lote que a consolidação usa (o `fontes.txt` da cadeia). Se o
-lote mudar, troque o caminho aqui e em nenhum outro lugar.
+`texto(unidade)` lê o R41 (ver o comentário acima dela). `texto_candidata(unidade)`
+lê a candidata, do lote que a consolidação usa (o `fontes.txt` da cadeia). Se o livro
+mudar de lugar ou de forma, troque aqui e em nenhum outro lugar.
 
 Tudo que não acha o que procura levanta `LivroMudou`, para o validador falhar alto
 em vez de conferir menos em silêncio.
@@ -46,9 +48,78 @@ def caminho(unidade):
     return os.path.join(BASE, UNIDADES[unidade])
 
 
-def texto(unidade):
+# --------------------------------------------------------------------------
+# v0.346: o livro que os validadores leem passou a ser o R41, o livro principal
+# desde a v0.341. Ate a v0.345 era a candidata (UNIDADES, acima), que nao recebeu
+# a revisao de regras de 07 a 09/10/2026.
+#
+# O R41 so tem o texto inteiro num arquivo, o LIVRO-COMPLETO.md, e nao um manuscrito
+# por unidade: as rodadas depois do R30 sao aplicadas por script na hora de gerar, e
+# os manuscritos da pasta `fontes-editoriais` ficam para tras. Mas ele guarda o mesmo
+# identificador de pagina dos manuscritos, como ancora de bloco:
+#     manuscrito   <!-- page:cat-alcance|Alcance -->   +   # Alcance
+#     R41          <a id="catalogo--cat-alcance"></a>  +   ### Alcance
+# Entao `texto()` REMONTA o manuscrito da unidade a partir das ancoras: uma marca de
+# pagina por bloco, e todo titulo dois niveis acima (`###` volta a ser `#`).
+#
+# A subida e FIXA, de dois niveis, e isso foi medido: subir cada bloco ate o primeiro
+# titulo virar `#` quebra as paginas de continuacao do Catalogo, que nao tem titulo
+# proprio e comecam direto na entrada (`####`); com a subida por bloco o Catalogo
+# devolvia 36 Melhorias em vez das 68. O preco da subida fixa e que um bloco que a
+# diagramacao nova desceu um nivel chega um nivel abaixo do manuscrito (as tres paginas
+# de condicoes viraram subsecao de "Condicoes"); quem le um bloco desses procura o
+# titulo sem fixar o nivel, como `condicoes()` faz.
+#
+# `texto_candidata()` continua lendo a candidata, para quem precisar comparar as duas.
+R41 = os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'ciclo-maldito-r41',
+                   'LIVRO-COMPLETO.md')
+DOC_R41 = {
+    'abertura': 'ab', 'regras-gerais': 'geral', 'dano': 'dano', 'origens': 'origens',
+    'pericias': 'pericias', 'equipamento': 'equip', 'progressao': 'progressao',
+    'fundamento': 'fundamento', 'catalogo': 'catalogo', 'aptidoes': 'aptidoes',
+    'rotas': 'rotas', 'poderes': 'poderes', 'ritual': 'ritual', 'consulta': 'consulta',
+}
+_CACHE_R41 = {}
+SOBE_R41 = 2
+
+
+def texto_candidata(unidade):
     with open(caminho(unidade), encoding='utf-8') as fh:
         return fh.read()
+
+
+def texto(unidade):
+    """O texto da unidade no R41, na forma de manuscrito (marca de pagina e titulos
+    a partir de `#`)."""
+    if unidade in _CACHE_R41:
+        return _CACHE_R41[unidade]
+    if unidade not in DOC_R41:
+        raise LivroMudou(f'a unidade "{unidade}" nao tem documento no R41')
+    if not os.path.isfile(R41):
+        raise LivroMudou('nao achei o LIVRO-COMPLETO.md do R41')
+    with open(R41, encoding='utf-8') as fh:
+        bruto = fh.read()
+    doc = DOC_R41[unidade]
+    partes = re.split(r'<a id="([a-z0-9]+)--([^"]+)"></a>', bruto)
+    saida = []
+    for i in range(1, len(partes), 3):
+        if partes[i] != doc:
+            continue
+        corpo = re.sub(r'<!--.*?-->', '', partes[i + 2])
+        # o bloco vai ate a proxima ancora; se a proxima for a abertura de capitulo
+        # (`<a id="capitulo-N">` e o `## N. Titulo`), ela nao pertence a ele
+        corpo = re.split(r'^<a id="capitulo-', corpo, flags=re.M)[0]
+        corpo = re.sub(r'^(#+)( )',
+                       lambda m: '#' * max(1, len(m.group(1)) - SOBE_R41) + m.group(2),
+                       corpo, flags=re.M)
+        corpo = corpo.replace('](#%s--' % doc, '](#')
+        m = re.search(r'^# (.+)$', corpo, re.M)
+        tit = limpa(m.group(1)) if m else partes[i + 1]
+        saida.append('<!-- page:%s|%s -->\n%s' % (partes[i + 1], tit, corpo.strip('\n')))
+    if not saida:
+        raise LivroMudou(f'o R41 nao tem bloco nenhum do documento "{doc}"')
+    _CACHE_R41[unidade] = '\n\n'.join(saida) + '\n'
+    return _CACHE_R41[unidade]
 
 
 def limpa(cel):
@@ -209,6 +280,19 @@ def catalogo():
                         poe(m.group(1).strip(), {'tipo': 'Melhoria', 'preco': m.group(2), 'familia': fam, 'texto': c})
                     continue
                 m = re.match(r'\*\*Preço: ([^*]+?)\.\*\*', prim)
+                # v0.346: no R41 o titulo com duas Melhorias perdeu os precos ("Concentrada
+                # / Duradoura"), e eles foram para a linha do preco: "Preço: Concentrada -
+                # Leve; Duradoura - Média." Os nomes da linha tem de ser os do titulo.
+                if m and len(partes) > 1:
+                    pares = [re.fullmatch(r'(.+?)\s+-\s+' + PRECO, x.strip())
+                             for x in m.group(1).split(';')]
+                    if all(pares) and [x.group(1).strip() for x in pares] == partes:
+                        for x in pares:
+                            poe(x.group(1).strip(), {'tipo': 'Melhoria', 'preco': x.group(2),
+                                                     'familia': fam, 'texto': c})
+                        continue
+                    raise LivroMudou(f'o título "{tit}" tem duas Melhorias e a linha do preço '
+                                     f'não traz um preço para cada uma: "{prim}"')
                 if m:
                     poe(tit, {'tipo': 'Melhoria', 'preco': m.group(1), 'familia': fam, 'texto': c})
     return saida
@@ -220,14 +304,34 @@ def catalogo():
 NAO_SAO_CONDICAO = {'Remoção', 'Testes de saída'}
 
 
+def _nivel_do_titulo(txt, titulo):
+    """O numero de # do titulo `titulo`, que tem de aparecer uma vez so."""
+    achados = [len(m.group(1)) for m in re.finditer(r'^(#+)\s+(.*)$', txt, re.M)
+               if limpa(m.group(2)) == titulo]
+    if len(achados) != 1:
+        raise LivroMudou(f'o título "{titulo}" aparece {len(achados)} vez(es)')
+    return achados[0]
+
+
+def condicao(titulo_da_secao, nome):
+    """O texto de UMA condicao, pelo titulo da secao dela ("Condições leves") e pelo
+    nome. Acha os dois sem fixar o nivel do titulo (v0.346)."""
+    txt = texto('dano')
+    n = _nivel_do_titulo(txt, titulo_da_secao)
+    return secao(secao(txt, titulo_da_secao, n), nome, n + 1)
+
+
 def condicoes():
     """Nível -> nomes das condições, das três seções do capítulo de Dano."""
     txt = texto('dano')
     saida = {}
     for nivel, tit in (('Leve', 'Condições leves'), ('Média', 'Condições médias'),
                        ('Pesada', 'Condições pesadas')):
-        corpo = secao(txt, tit, 1)
-        saida[nivel] = [limpa(x) for x in re.findall(r'^## (.+)$', corpo, re.M)
+        # v0.346: o titulo e' achado em qualquer nivel, e as condicoes sao os titulos
+        # um nivel abaixo dele. No R41 as tres secoes desceram um nivel (ver `texto`).
+        n = _nivel_do_titulo(txt, tit)
+        corpo = secao(txt, tit, n)
+        saida[nivel] = [limpa(x) for x in re.findall(r'^#{%d} (.+)$' % (n + 1), corpo, re.M)
                         if limpa(x) not in NAO_SAO_CONDICAO]
     return saida
 

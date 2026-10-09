@@ -21,8 +21,8 @@ O R28a, que era o livro principal desde a v0.339, recebeu 74 retoques de redaç�
 - `revisao-de-regras/alteracoes/` tem um arquivo por rodada que mexeu em texto, com o bloco, o antes e o depois. Cada rodada foi conferida do mesmo jeito: todo bloco diferente entre duas versões tem de estar no registro, e o antes e o depois têm de bater com o livro.
 - Os `PENTE-FINO-*.md` são as conferências de cada entrega, e o `MEDIDA-represalia-sangue-frio-2026-10-09.md` é a conta das duas Bênçãos novas. O `GUARDADO-orientacao-de-servidor-v0331.md` é texto do livro antigo que saiu e que ele pediu para guardar.
 
-## O que este livro ainda não é
+## Quem lê este livro
 
-Ele não é a fonte dos validadores. Eles continuam lendo a candidata, em `planejamento-editorial/consolidacao/lote-01/`, e a candidata não recebeu a revisão. O plano da migração diz o que falta para as peças chegarem aqui.
+Desde a v0.346 os validadores de `sistema/03-mecanica/` leem o `LIVRO-COMPLETO.md` daqui, pelo `livro.py`, que remonta cada capítulo a partir das âncoras de bloco. Da v0.337 à v0.345 eles liam a candidata, em `planejamento-editorial/`, que não recebeu a revisão e fica guardada. **Mexer na forma deste arquivo (âncoras, níveis de título, a linha de preço das entradas do Catálogo) é mexer no que os validadores leem.** O plano da migração diz o que falta para as peças chegarem aqui.
 
 As duas Bênçãos novas não passaram por mesa.

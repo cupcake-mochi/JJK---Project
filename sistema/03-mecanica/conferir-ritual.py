@@ -76,7 +76,10 @@ else:
 # ---------------------------------------------------------------- 3
 bloco('3. O VAO — ele tem de SER a Liberacao Maxima, derivada do Fundamento')
 mp = re.search(r"Os pontos e o PE são (\d+) × Classe", fund)
-mt = re.search(r"o total não pode passar de (\d+) × Classe em d8", fund)
+# v0.346: o R41 reescreveu a frase do teto ("a soma dos dados iniciais com esses
+# acréscimos não pode passar de N × Classe em d8"); o numero e' o mesmo, e a checagem
+# le o numero, entao o regex ficou so' com o miolo que as duas redacoes tem.
+mt = re.search(r"não pode passar de (\d+) × Classe em d8", fund)
 ml = re.search(r"Uma Liberação Máxima acrescenta a Classe", fund)
 if not (mp and mt and ml):
     erro('3: nao li Pontos, Teto e Liberacao Maxima do Fundamento do livro')
