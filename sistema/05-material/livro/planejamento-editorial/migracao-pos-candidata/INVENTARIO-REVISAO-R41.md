@@ -13,7 +13,8 @@ Uma linha por decisão que mudou o livro na revisão de 07 a 09/10, dizendo o qu
 - **v0.347:** o capítulo de Dano sem o Morrendo (tipos de dano e exaustão; nenhuma linha deste inventário, porque as duas divergências eram anteriores à revisão).
 - **v0.348:** o capítulo de Regras gerais (só lacunas; nenhuma linha deste inventário além do 158, que já tinha ido na v0.343).
 - **v0.349:** o capítulo de Poderes avançados. **Correção deste inventário:** *as dez linhas `capítulo` da Expansão (1, 2, 3, 4, 5, 8, 11, 13, 152 e 153) são do tipo `livro`. A Expansão não tem peça; o dono era o manual v7 e hoje é o R41.* As decisões passaram a ser cobradas pela sub-checagem 12.7 do `conferir-expansao.py`, como frase do livro.
-- **Falta dos casos `nova` e `desfaz`:** só o 115, que espera a resposta do Mizuki. **Falta um capítulo do passo 5b,** Ritual e Pactos, com as seis linhas `capítulo` que sobram (34 a 36, 37, 39, 42, 47 e 50).
+- **v0.350:** o capítulo de Ritual e Pactos, com as seis linhas `capítulo` que sobravam (34 a 36, 37, 39, 42, 47 e 50), nas peças 22 e 27. **Correção deste inventário:** *quatro delas mudaram regra de peça, e não só texto (34 a 36, 37, 42 e 50); a tabela da seção abaixo diz o que cada uma mudou.* Conferidas pelos sub-blocos 7.2 do `conferir-ritual.py` e 14.1 do `conferir-pactos.py`, e pela checagem 4 deste último.
+- **Falta dos casos `nova` e `desfaz`:** só o 115, que espera a resposta do Mizuki. **O passo 5b fechou.**
 
 ## Os casos
 
@@ -66,16 +67,16 @@ A peça 15 se declara registro histórico desde a v0.331, e o cabeçalho dela ap
 
 ## Ritual e Pactos
 
-Peças 22 e 27, `conferir-pactos.py` e `conferir-ritual.py`. Capítulo do passo 5b, não migrado.
+Peças 22 e 27, `conferir-pactos.py` e `conferir-ritual.py`. Capítulo do passo 5b, migrado na v0.350.
 
 | nº | decisão | caso | onde, e o que achei | conferido |
 |---|---|---|---|---|
-| 34–36 | Pacto permanente volta: nunca valor numérico, e sim mecânica única | `capítulo` | a peça 22 (linha 131) já diz que pacto não mexe em valor numérico | lido |
-| 37 | Limite de pactos conta permanente, Promessa e restrição; a vaga volta quando o pacto se perde | `capítulo` | — | pelo estado do capítulo |
-| 39 | Consentimento e quebra voltam; a punição pode ser definida na criação | `capítulo` | — | pelo estado do capítulo |
-| 42 | Falhar o Ritual volta para o conjurador; o auxiliar perde a Classe em PE | `capítulo` | a peça 27 §3.2 diz "custa a Classe do feitiço"; conferir a parte do auxiliar | lido em parte |
-| 47 | Ritual de Rerrolagem volta | `capítulo` | a peça 27 (linha 127) já está no texto antigo | lido |
-| 50 | Ritual em dupla: sem limite de auxiliares, Ação Padrão, +2 por auxiliar | `capítulo` | — | pelo estado do capítulo |
+| 34–36 | Pacto permanente volta: nunca valor numérico, e sim mecânica única | `capítulo` | **feito na v0.350.** A peça 22 §3.3 dava PE, aptidão ou espaço de feitiço e o §3.4 deixava o dano como escolha ruim; passaram a "modifica feitiço, energia, aptidão ou Estilo", "não existe pacto por dano" e pacto de energia em porcentagem | lido |
+| 37 | Limite de pactos conta permanente, Promessa e restrição; a vaga volta quando o pacto se perde | `capítulo` | **feito na v0.350.** Regra nova na peça 22 §1, §1.1, §3.1 e §6: só o permanente contava, e para a campanha inteira | lido |
+| 39 | Consentimento e quebra voltam; a punição pode ser definida na criação | `capítulo` | **feito na v0.350.** A peça 22 §2 e §5.3 já tinham o texto antigo; entrou a frase da punição | lido |
+| 42 | Falhar o Ritual volta para o conjurador; o auxiliar perde a Classe em PE | `capítulo` | **feito na v0.350.** A peça 27 §3.2 ganhou a unidade (dados de dano, sem PE a mais) e o §6 a perda do auxiliar | lido |
+| 47 | Ritual de Rerrolagem volta | `capítulo` | **feito na v0.350.** A peça 27 já estava no texto antigo; entrou "fica o segundo resultado" | lido |
+| 50 | Ritual em dupla: sem limite de auxiliares, Ação Padrão, +2 por auxiliar | `capítulo` | **feito na v0.350.** Regra nova na peça 27 §6: era Ação Completa e 4 pontos | lido |
 
 ## Fundamento e Catálogo
 

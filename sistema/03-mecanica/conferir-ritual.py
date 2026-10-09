@@ -213,6 +213,145 @@ for onde, sec in _acesso.items():
              'desde a v0.276 os capitulos 42 e 43 mandam ler as duas onde o livro escreve feitico, '
              'e sem a linha o Sem Tecnica e a Tecnica Marcial fazem ritual pela letra')
 
+# 7.2 (v0.350): a peca 27 e o capitulo de Ritual do R41. As checagens 7 e 7.1 leem o livro
+# v0.331, que esta' congelado; esta le o livro final. Ela confere os numeros que os dois lados
+# publicam (escada, precos, ritual auxiliado), refaz a tabela de chance da peca pela formula —
+# as 21 celulas estavam 10 pontos abaixo ate' a v0.349 —, e cobra as frases das decisoes do
+# Mizuki na revisao (itens 42, 47, 50 e 51). Na peca, texto ~~riscado~~ e' historico.
+print()
+print('  7.2 — a peca 27 e o capitulo de Ritual do R41')
+_R41 = ' '.join(_livro.texto('ritual').split())
+_viva = ' '.join(re.sub(r'~~.*?~~', '', txt, flags=re.S).split())
+
+# a) a escada
+_esc_r41 = [int(p) for p in re.findall(
+    r'\| (?:Breve|Completo|Recitação Prolongada) \| [^|]+\| (\d+) \|', _R41)]
+_esc_peca = [int(p) for _, p in esc]
+print(f'      escada no R41: {_esc_r41} · na peca: {_esc_peca}')
+if len(_esc_r41) != 3:
+    erro(f'7.2: li {len(_esc_r41)} modalidade(s) na tabela do R41 e esperava 3')
+elif _esc_r41 != _esc_peca:
+    erro(f'7.2: a escada do R41 e\' {_esc_r41} e a da peca e\' {_esc_peca}')
+else:
+    ok('7.2a: a escada de pontos e\' a mesma no R41 e na peca')
+
+# b) as Melhorias: nome e preco
+_mel_r41 = {n: int(p) for n, p in re.findall(r'\| (Ritual de [^|]+?) \| [^|]+\| (\d+) \|', _R41)}
+_mel_peca = {n: int(p) for n, _, p, _, _ in mel}
+print(f'      Melhorias no R41: {len(_mel_r41)} · na peca: {len(_mel_peca)}')
+if not _mel_r41:
+    erro('7.2: nao li nenhuma Melhoria de Ritual nas tabelas do R41')
+else:
+    _so_r41 = sorted(set(_mel_r41) - set(_mel_peca))
+    _so_peca = sorted(set(_mel_peca) - set(_mel_r41))
+    _preco = sorted(n for n in set(_mel_r41) & set(_mel_peca) if _mel_r41[n] != _mel_peca[n])
+    if _so_r41:
+        erro(f'7.2: so no R41: {", ".join(_so_r41)}')
+    if _so_peca:
+        erro(f'7.2: so na peca: {", ".join(_so_peca)}')
+    for n in _preco:
+        erro(f'7.2: {n} custa {_mel_r41[n]} no R41 e {_mel_peca[n]} na peca')
+    if not (_so_r41 or _so_peca or _preco):
+        ok(f'7.2b: as {len(_mel_r41)} Melhorias tem o mesmo nome e o mesmo preco dos dois lados')
+
+# c) o ritual auxiliado: acao e pontos, dos dois lados
+_aux_r41 = re.search(r'Ele dedica sua \*\*(Ação [^*]+)\*\* no próprio turno e concede '
+                     r'\*\*(\d+) Pontos de Ritual\*\*', _R41)
+_aux_peca = re.search(r'Cada aliado que ajuda gasta a (Ação \w+) dele e dá `(\d+)` pontos de ritual', _viva)
+if not _aux_r41:
+    erro('7.2: nao li no R41 a acao e os pontos do auxiliar')
+elif not _aux_peca:
+    erro('7.2: nao li na caixa do §6 da peca a acao e os pontos do auxiliar')
+else:
+    print(f'      auxiliar no R41: {_aux_r41.group(1)}, {_aux_r41.group(2)} ponto(s) · '
+          f'na peca: {_aux_peca.group(1)}, {_aux_peca.group(2)} ponto(s)')
+    if (_aux_r41.group(1), _aux_r41.group(2)) != (_aux_peca.group(1), _aux_peca.group(2)):
+        erro('7.2: a acao ou os pontos do auxiliar divergem entre o R41 e a peca')
+    else:
+        ok('7.2c: o auxiliar gasta a mesma acao e da os mesmos pontos no R41 e na peca')
+
+# d) a tabela de chance, refeita pela formula da propria peca: d20 >= 8 + Classe - Destreza.
+# Igualar a CD e' sucesso, e o R41 o escreve nas Regras gerais; a testemunha e' o exemplo do
+# capitulo, que da' a Classe, a Destreza, o dado e a chance.
+_geral = ' '.join(_livro.texto('regras-gerais').split())
+if 'Igualar ou superar a CD é sucesso' not in _geral:
+    erro('7.2: o R41 nao escreve mais "Igualar ou superar a CD e\' sucesso" — a conta da '
+         'tabela de chance perdeu a regra de onde sai')
+_cel = re.findall(r'^\|\s*passa, com Destreza (\d+)\s*\|([^\n]+)\|\s*$', txt, re.M)
+if len(_cel) != 3:
+    erro(f'7.2: li {len(_cel)} linha(s) na tabela de chance do §3.1 e esperava 3')
+else:
+    _ruins = []
+    for _d, _resto in _cel:
+        _pub = [int(x) for x in re.findall(r'(\d+)%', _resto)]
+        _der = [max(0, min(20, 21 - (8 + c - int(_d)))) * 5 for c in range(1, 8)]
+        print(f'      Destreza {_d}: publicado {_pub} · pela formula {_der}')
+        if _pub != _der:
+            _ruins.append(_d)
+    if _ruins:
+        erro(f'7.2: a tabela de chance do §3.1 nao sai da formula nas linhas de Destreza {_ruins}')
+    else:
+        ok('7.2d: as 21 celulas da tabela de chance saem da formula')
+_ex = re.search(r'Inteligência (\d+), Destreza (\d+), maestria (\d+) e treino em Ocultismo\. '
+                r'Seu feitiço é Classe (\d+)\. A CD é \*\*(\d+)\*\* e seu bônus é \*\*\+(\d+)\*\*\. '
+                r'Ele precisa tirar (\d+) ou mais: \*\*(\d+)%\*\*', _R41)
+if not _ex:
+    erro('7.2: nao li o exemplo do teste no R41 — a testemunha da tabela de chance sumiu')
+else:
+    _i, _dx, _m, _c, _cd, _b, _dado, _pct = (int(x) for x in _ex.groups())
+    _ok_ex = (_cd == 8 + _i + _m + _c - _dx and _b == _i + _m and _dado == _cd - _b
+              and _pct == (21 - _dado) * 5)
+    if not _ok_ex:
+        erro(f'7.2: o exemplo do R41 (CD {_cd}, bonus +{_b}, {_dado} ou mais, {_pct}%) nao sai '
+             'da formula da peca')
+    else:
+        ok(f'7.2d: o exemplo do R41 confere com a formula (Classe {_c}, Destreza {_dx}, '
+           f'{_dado} ou mais, {_pct}%)')
+
+# e) as frases das decisoes: no R41, e na peca.
+_VALE72 = [
+    ('42', 'sem Pontos de Ritual e com a Classe a menos em dados de dano'),
+    ('42', 'A falha não cobra PE adicionais do conjurador'),
+    ('42', '**cada auxiliar perde PE iguais à Classe**'),
+    ('47', 'Rerrole os dados de dano que caírem no mínimo, até Classe + 1 deles'),
+    ('47', 'fica o segundo resultado'),
+    ('50', 'sem limite de auxiliares'),
+]
+_SAIU72 = [
+    ('42', 'PE adicionais iguais à sua Classe'),
+    ('42', 'conjurador e auxiliar pagam, cada um'),
+    ('47', 'que tenham mostrado 1'),
+    ('50', '**um único aliado**'),
+    ('50', '4 Pontos de Ritual'),
+    ('51', 'Meio Acerto e Certeiro'),
+]
+_PECA_DIZ72 = [
+    ('42', 'O que ele custa são dados de dano, e não PE'),
+    ('42', 'cada auxiliar perde a Classe do feitiço em PE'),
+    ('47', 'Fica o segundo resultado'),
+    ('50', 'Não há limite de auxiliares'),
+]
+_PECA_NAO72 = [
+    ('50', 'gasta a Ação Completa dele e dá `4` pontos'),
+    ('42', 'os dois pagam a correção'),
+    ('48', 'o feitiço não pode ser desviado'),
+]
+_f1 = [(i, f) for i, f in _VALE72 if f not in _R41]
+_f2 = [(i, f) for i, f in _SAIU72 if f in _R41]
+_f3 = [(i, f) for i, f in _PECA_DIZ72 if f not in _viva]
+_f4 = [(i, f) for i, f in _PECA_NAO72 if f in _viva]
+for _i, _f in _f1:
+    erro(f'7.2: o R41 nao traz a frase da decisao {_i}: "{_f}"')
+for _i, _f in _f2:
+    erro(f'7.2: o R41 voltou a trazer o que a decisao {_i} tirou: "{_f}"')
+for _i, _f in _f3:
+    erro(f'7.2: a peca 27 nao escreve a regra da decisao {_i}: "{_f}"')
+for _i, _f in _f4:
+    erro(f'7.2: a peca 27 ainda afirma, fora de riscado, o que o item {_i} trocou: "{_f}"')
+if not (_f1 or _f2 or _f3 or _f4):
+    ok(f'7.2e: {len(_VALE72)} frases das decisoes no R41, {len(_SAIU72)} da candidata fora dele, '
+       f'{len(_PECA_DIZ72)} regras novas na peca e {len(_PECA_NAO72)} antigas so riscadas')
+
 print()
 print('=' * 88)
 if FALHAS:

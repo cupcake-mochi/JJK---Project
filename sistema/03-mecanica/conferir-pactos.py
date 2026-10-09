@@ -15,6 +15,7 @@ NENHUM VALOR FICA ESCRITO AQUI DENTRO:
   o piso do arredondamento . peca 1 §5.4
   as quatro travas ......... peca 8, Passo 8
   a lista de pecas ......... a pasta
+  quem ocupa vaga .......... o capitulo de Pactos do R41, pelo livro.py (v0.350)
 
 O PAR DECLARADO desta peca e' a checagem 2, e ela mede RELACAO e nao
 constante. O `0,50` nao esta escrito aqui: ele e' recalculado como
@@ -33,6 +34,8 @@ import sys
 
 MEC = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(os.path.dirname(MEC))
+sys.path.insert(0, MEC)
+import livro as _livro
 FALHAS = []
 
 
@@ -184,12 +187,14 @@ else:
 bloco('3. QUANTIDADE — a tabela reconstroi `metade da Essencia` na escala inteira')
 
 _q = tabela(P22, re.compile(r'\|\s*Ess[êe]ncia\s*\|\s*0\s*\|'))
-_linha_q = next((c for c in _q if 'pactos' in limpo(c[0]).lower()), None)
+# v0.350: a linha chamava `pactos permanentes`; desde o item 37 da revisao do R41 ela e'
+# `vagas de pacto`, porque a Promessa e o pacto de restricao dividem as mesmas vagas.
+_linha_q = next((c for c in _q if 'pacto' in limpo(c[0]).lower()), None)
 
 if not _m_esc:
     erro('3', 'sem a escala da peca 2 nao ha contra o que reconstruir')
 elif _linha_q is None:
-    erro('3', 'nao achei a linha `pactos permanentes` na tabela do §3.1 — o '
+    erro('3', 'nao achei a linha `vagas de pacto` na tabela do §3.1 — o '
               'extrator quebrou e esta checagem parou de conferir')
 else:
     _lo, _hi = int(_m_esc.group(1)), int(_m_esc.group(2))
@@ -211,7 +216,20 @@ else:
 
 
 # ---------------------------------------------------------------- 4 ---------
-bloco('4. SO O PERMANENTE TEM TETO — e as outras tres dizem que nao tem')
+bloco('4. QUEM OCUPA VAGA — as formas que o R41 lista, e o §1 e o §1.1 concordam')
+
+# v0.350. Ate' a v0.349 esta checagem cobrava "so' o permanente tem teto", que era a decisao
+# da v0.133. O item 37 da revisao do R41 mudou a regra: contam o permanente, a Promessa e o
+# pacto de restricao, e o temporario fica de fora. A lista esperada NAO esta escrita aqui: ela
+# sai da frase do R41, e cada forma do §1 e' procurada nela pela raiz do proprio nome.
+_R41 = ' '.join(_livro.texto('ritual').split())
+_m_conta = re.search(r'contando \*\*([^*]+)\*\*', _R41)
+_m_fora = re.search(r'Pactos (\w+) não entram nesse limite', _R41)
+
+
+def _raiz4(nome):
+    return nome.split()[-1][:-1].lower()
+
 
 _t4 = tabela(P22, re.compile(r'\|\s*forma\s*\|\s*vai para a ficha\?\s*\|'), 4)
 print(f'  linhas do §1.1 lidas     : {len(_t4)}  (tem de ser {FORMAS_ESPERADAS})')
@@ -221,27 +239,40 @@ if len(_t4) != FORMAS_ESPERADAS:
               f'{FORMAS_ESPERADAS}')
 elif not FORMAS:
     erro('4', 'sem a tabela do §1 nao ha contra o que comparar')
+elif not (_m_conta and _m_fora):
+    erro('4', 'nao li no R41 a frase que diz quais formas contam no limite e qual fica de '
+              'fora — o capitulo mudou de redacao e esta checagem parou de conferir')
 else:
-    _com_teto = []
-    for _c in _t4:
-        _nome, _precisa = limpo(_c[0]), limpo(_c[3]).lower()
-        print(f'      {_nome:<14} precisa de teto: {_precisa}')
-        if _nome not in NOMES_FORMA:
-            erro('4', f'o §1.1 fala da forma `{_nome}` e o §1 nao a declara')
-        if _precisa.startswith('sim'):
-            _com_teto.append(_nome)
-    if not [f for f in FALHAS if f.startswith('4:')]:
-        if _com_teto != ['permanente']:
-            erro('4', f'as formas com teto sao {_com_teto} — so o permanente '
-                      'atravessa mesa, e so ele precisa de teto')
-        else:
-            _sem = [n for n in NOMES_FORMA if n != 'permanente' and
-                    not re.match(r'n[ãa]o', TETO_DE.get(n, ''), re.I)]
-            if _sem:
-                erro('4', f'{_sem} nao dizem no §1 que nao tem teto — o §1 e o §1.1 '
-                          'discordam')
+    _lista, _resto = _m_conta.group(1).lower(), _m_fora.group(1).lower()
+    OCUPAM_R41 = [n for n in NOMES_FORMA if _raiz4(n) in _lista]
+    FORA_R41 = [n for n in NOMES_FORMA if _raiz4(n) in _resto]
+    print(f'  R41, contam no limite    : {OCUPAM_R41}')
+    print(f'  R41, ficam de fora       : {FORA_R41}')
+    if sorted(OCUPAM_R41 + FORA_R41) != sorted(NOMES_FORMA):
+        erro('4', f'o R41 classifica {sorted(OCUPAM_R41 + FORA_R41)} e as formas do §1 sao '
+                  f'{sorted(NOMES_FORMA)} — alguma forma ficou sem resposta, ou com duas')
+    else:
+        _ocupa = []
+        for _c in _t4:
+            _nome, _vaga = limpo(_c[0]), limpo(_c[3]).lower()
+            print(f'      {_nome:<14} ocupa vaga: {_vaga}')
+            if _nome not in NOMES_FORMA:
+                erro('4', f'o §1.1 fala da forma `{_nome}` e o §1 nao a declara')
+            if _vaga.startswith('sim'):
+                _ocupa.append(_nome)
+        if not [f for f in FALHAS if f.startswith('4:')]:
+            if sorted(_ocupa) != sorted(OCUPAM_R41):
+                erro('4', f'o §1.1 diz que ocupam vaga {_ocupa} e o R41 diz {OCUPAM_R41}')
             else:
-                print('  [x] so o permanente tem teto, nas duas tabelas.')
+                # o §1 tem de concordar: quem ocupa nao pode dizer "nao tem", e quem
+                # fica de fora tem de dizer.
+                _discorda = [n for n in NOMES_FORMA if (n in OCUPAM_R41) ==
+                             bool(re.match(r'n[ãa]o', TETO_DE.get(n, ''), re.I))]
+                if _discorda:
+                    erro('4', f'{_discorda}: a coluna de teto do §1 discorda do §1.1 e do R41')
+                else:
+                    print(f'  [x] ocupam vaga {OCUPAM_R41}, e fica de fora {FORA_R41}, '
+                          'no R41 e nas duas tabelas.')
 
 
 # ---------------------------------------------------------------- 5 ---------
@@ -371,7 +402,9 @@ bloco('9. ROLAGEM — a peca 22 nao CONCEDE numero em acerto, Defesa nem pericia
 # fenomeno, que e' a armadilha que este projeto ja pagou varias vezes.
 # Hoje ela procura a PROMESSA e nao a proibicao, em dois eixos.
 PROIBIDOS = ['acerto', 'defesa', 'perícia', 'pericia']
-_bene = tabela(P22, re.compile(r'\|\s*o que o pacto dá\s*\|\s*quem alcança\s*\|'), 4)
+# v0.350: a tabela era `o que o pacto dá` (PE, aptidao, espaco de feitico). Desde os itens
+# 34 a 36 da revisao do R41 o pacto MODIFICA o que a ficha ja' tem, e o cabecalho mudou.
+_bene = tabela(P22, re.compile(r'\|\s*o que o pacto modifica\s*\|\s*quem alcança\s*\|'), 4)
 
 print(f'  linhas de beneficio (§3.3): {len(_bene)}')
 if not _bene:
@@ -548,6 +581,117 @@ elif _pendurados:
                'nem definidos aqui, nem existentes em outra peca')
 else:
     print(f'  [x] os {len(_termos)} termos em crase tem destino.')
+
+
+# --------------------------------------------------------------- 14.1 -------
+# v0.350 — a peca 22 e o R41. O capitulo de Pactos do livro final voltou ao texto antigo em
+# tres pontos e ganhou regra nova em dois, por decisao do Mizuki na revisao (itens 34 a 36,
+# 37 e 39). Este sub-bloco confere tres coisas: os numeros que os dois lados publicam, as
+# frases das decisoes que tem de estar no livro, e as que nao podem voltar — no livro e na
+# peca. Na peca, texto ~~riscado~~ e' historico e nao conta.
+print()
+print('  14.1 — a peca 22 e o capitulo de Pactos do R41')
+
+
+def _sem_riscado141(s):
+    return re.sub(r'~~.*?~~', '', s, flags=re.S)
+
+
+_P22_VIVA = ' '.join(_sem_riscado141(P22).split())
+
+# a) vagas por Essencia: a tabela do R41 agrupa ("2 ou 3 | 1"), a da peca abre coluna a coluna.
+# A tabela e' achada pelo cabecalho: o livro tem outras tabelas com linhas `4 ou 5 | 2`.
+_vagas_r41 = {}
+for _c in tabela(_livro.texto('ritual'), re.compile(r'\|\s*Essência\s*\|\s*Vagas de pacto\s*\|'), 2):
+    _m141 = re.fullmatch(r'(\d)(?: ou (\d))?', limpo(_c[0]))
+    if _m141 and limpo(_c[1]).isdigit():
+        for _e in (_m141.group(1), _m141.group(2)):
+            if _e is not None:
+                _vagas_r41[int(_e)] = int(limpo(_c[1]))
+if _linha_q is None or not _m_esc:
+    erro('14.1', 'sem a linha de vagas do §3.1 nao ha o que comparar com o R41')
+else:
+    _lo141, _hi141 = int(_m_esc.group(1)), int(_m_esc.group(2))
+    _peca141 = {_lo141 + i: int(limpo(x)) for i, x in enumerate(_linha_q[1:])}
+    print(f'      vagas no R41  : {dict(sorted(_vagas_r41.items()))}')
+    print(f'      vagas na peca : {_peca141}')
+    if sorted(_vagas_r41) != list(range(_lo141, _hi141 + 1)):
+        erro('14.1', f'a tabela de vagas do R41 cobre as Essencias {sorted(_vagas_r41)} e a '
+                     f'escala da peca 2 vai de {_lo141} a {_hi141} — o extrator quebrou, ou a '
+                     'tabela do livro mudou de forma')
+    elif _vagas_r41 != _peca141:
+        erro('14.1', 'as vagas por Essencia divergem entre o R41 e o §3.1 da peca')
+    else:
+        print('  [x] 14.1a: as vagas por Essencia sao as mesmas no R41 e na peca.')
+
+# b) a acao do pacto temporario, dos dois lados.
+_acao_r41 = re.search(r'\| Temporário \| No seu turno, como (Ação Bônus ou Reação)\.', _R41)
+_acao_peca = TETO_DE and next((limpo(c[1]) for c in FORMAS if limpo(c[0]) == 'temporário'), '')
+if not _acao_r41:
+    erro('14.1', 'nao li no R41 a acao do pacto temporario — a tabela de formas mudou')
+elif _acao_r41.group(1) not in (_acao_peca or ''):
+    erro('14.1', f'o R41 fecha o pacto temporario com "{_acao_r41.group(1)}" e o §1 da peca '
+                 f'escreve "{_acao_peca}"')
+else:
+    print(f'  [x] 14.1b: o temporario se fecha com {_acao_r41.group(1)}, no R41 e na peca.')
+
+# c) as frases das decisoes, no R41.
+_VALE141 = [
+    ('34-36', 'uma mecânica única, decidida com o mestre'),
+    ('34-36', 'sem acrescentar diretamente um valor numérico'),
+    ('34-36', 'porcentagem da energia máxima, combinada com o mestre'),
+    ('34-36', '**Não existe pacto por dano.**'),
+    ('34-36', 'Pactos não concedem bônus numérico a ataques, Defesa ou perícias'),
+    ('36', '**Pacto não concede Estilo.**'),
+    ('37', 'contando **permanentes, Promessas e pactos de restrição**'),
+    ('37', 'A vaga volta quando o pacto se perde, por qualquer motivo'),
+    ('37', '**Com permissão do mestre, ele pode existir mesmo sem vaga.**'),
+    ('39', '**Nenhuma forma de pacto se fecha sob ameaça.**'),
+    ('39', 'custa a energia amaldiçoada de quem quebra e pode custar a vida'),
+    ('39', 'A punição pode ser definida na criação do pacto'),
+]
+_SAIU141 = [
+    ('34-36', 'aumento do PE máximo igual à sua maior Classe'),
+    ('34-36', '**1 a 7 PE**'),
+    ('37', 'mesmo que seu benefício seja perdido depois'),
+    ('37', 'Pactos permanentes na campanha'),
+    ('39', 'Não há uma punição universal'),
+]
+_falta141 = [(i, f) for i, f in _VALE141 if f not in _R41]
+_voltou141 = [(i, f) for i, f in _SAIU141 if f in _R41]
+for _i, _f in _falta141:
+    erro('14.1', f'o R41 nao traz a frase da decisao {_i}: "{_f}"')
+for _i, _f in _voltou141:
+    erro('14.1', f'o R41 voltou a trazer o que a decisao {_i} tirou: "{_f}"')
+if not _falta141 and not _voltou141:
+    print(f'  [x] 14.1c: as {len(_VALE141)} frases das decisoes estao no R41, e as '
+          f'{len(_SAIU141)} da candidata nao voltaram.')
+
+# d) a peca: o que ela tem de dizer, e o que so' pode aparecer riscado.
+_PECA_DIZ141 = [
+    ('37', 'a vaga volta quando ele se perde, por qualquer motivo'),
+    ('37', 'O temporário não conta'),
+    ('34-36', 'não acrescenta número a ela'),
+    ('34-36', 'E não existe pacto por dano'),
+    ('34-36', 'porcentagem da energia máxima, combinada com o mestre'),
+    ('39', 'A punição pode ser escrita na criação do pacto'),
+]
+_PECA_NAO141 = [
+    ('37', 'em toda a campanha, um número de pactos permanentes'),
+    ('37', 'Só uma das quatro precisa de teto'),
+    ('34-36', 'O que o pacto pode tocar é dano'),
+    ('34-36', 'Então o teto mede DANO, e só dano'),
+    ('34-36', 'Decisão do Mizuki: PE, aptidões e feitiços'),
+]
+_pf = [(i, f) for i, f in _PECA_DIZ141 if f not in _P22_VIVA]
+_pv = [(i, f) for i, f in _PECA_NAO141 if f in _P22_VIVA]
+for _i, _f in _pf:
+    erro('14.1', f'a peca 22 nao escreve a regra da decisao {_i}: "{_f}"')
+for _i, _f in _pv:
+    erro('14.1', f'a peca 22 ainda afirma, fora de riscado, o que a decisao {_i} desfez: "{_f}"')
+if not _pf and not _pv:
+    print(f'  [x] 14.1d: a peca escreve as {len(_PECA_DIZ141)} regras novas, e as '
+          f'{len(_PECA_NAO141)} antigas so aparecem riscadas.')
 
 
 print()

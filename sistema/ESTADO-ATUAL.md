@@ -1,4 +1,4 @@
-# Migração da candidata para as peças — v0.349, 09/10/2026
+# Migração da candidata para as peças — v0.350, 09/10/2026
 
 **Onde estamos:** o Mizuki autorizou migrar o livro reconstruído para as peças, os validadores, os geradores e as fichas. O plano e o estado de cada passo moram em `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`.
 
@@ -32,7 +32,9 @@
 
 **Na v0.349, o capítulo de Poderes avançados:** *a Expansão de Domínio não tem peça (o dono era o manual v7, e hoje é o livro), então nada foi escrito em peça. O `conferir-expansao.py` ganhou a sub-checagem 12.7, que confere que o R41 publica os números que o modelo dele usa (degraus, custo de abrir, desconto, duração, barreira) e que as decisões da revisão sobre domínio estão no livro e as frases que elas tiraram não voltaram.* **O gerador do manual v7, o `.docx` e o `.pdf` continuam onde estão:** *o validador ainda os lê (o custo de abrir, o clash e o degrau sem barreiras), e mandá-los para o arquivo é uma versão própria.*
 
-**Próximo, na ordem do inventário:** o último capítulo do passo 5b, Ritual e Pactos (peças 22 e 27, seis linhas do inventário da revisão). **O item 115 entra quando o Mizuki responder** *(o Legado Próprio sem o limite de um por ficha, que é trava da peça 13 desde a v0.39).* *A D43 e a D44 já estão no R41.* O passo 3 (vida a zero) espera a revisão do Morrendo, que o Mizuki adiou.
+**Na v0.350, o capítulo de Ritual e Pactos, o último do passo 5b:** *na peça 27, o ritual auxiliado passou a Ação Padrão e `2` pontos por auxiliar, sem limite de auxiliares, e na falha o auxiliar perde a Classe em PE enquanto o conjurador perde só os dados; a tabela de chance do §3.1 estava `10` pontos abaixo nas `21` células e foi refeita pela fórmula. Na peça 22, o limite de metade da Essência passou a contar o permanente, a `Promessa` e o pacto de restrição, com a vaga voltando quando o pacto se perde; o pacto permanente entrega uma mecânica e não um número, não existe pacto por dano, e o pacto de energia é porcentagem combinada com o mestre.* **Os dois validadores passaram a ler o R41** *(sub-blocos 7.2 e 14.1, e a checagem 4 do `conferir-pactos.py`, que trocou de regra).* **Três perguntas ficaram para o Mizuki, escritas no §9 da peça 22:** *o que fazer com o teto de `0,50` fatia, que ficou sem o que medir; se pacto ainda concede aptidão ou espaço de feitiço; e de quem é a vaga que a `Promessa` ocupa.*
+
+**Próximo:** o passo 5b fechou. **O item 115 entra quando o Mizuki responder** *(o Legado Próprio sem o limite de um por ficha, que é trava da peça 13 desde a v0.39).* *Depois dele sobram o arquivamento do gerador do manual v7 (o `conferir-expansao.py`, o `conferir-ritual.py` e outros ainda leem as fontes congeladas), os geradores e a ficha, e o passo 3 (vida a zero), que espera a revisão do Morrendo.* *A D43 e a D44 já estão no R41.*
 
 **Nesta seção, os nomes novos valem. Daqui para baixo, o histórico conserva os nomes da época.**
 
@@ -258,7 +260,7 @@
 
 Atualizado em 30/09/2026, na v0.330 (última peça fechada: **Ritual**, a peça 27, na v0.262, com o `conferir-ritual.py` e sete checagens; antes dela, o **Bestiário**, a peça 26, na v0.198; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.349.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
+**Versão v0.350.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
 
 **Continuidade atual:** resistência pontual aprovada e integrada em Claude 2; o próximo ensaio está em `bestiario/05-sukuna/ENSAIO-integracao-grade-v286.md`. PV-base aprovado como referência da cura e das partes destrutíveis; no nível 30, cura de ação 78 e partes de 157 PV. Sukuna concluído na v0.287, com a política de débito corrente aprovada. O planejamento das Invocações virou o primeiro lote de desenvolvimento, no HD, e deu os §§47 a 109 da v0.288 à v0.325; a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas (o que sobe a básica, abre Famílias e dá Livres) e a volta do capítulo ao livro, que é decisão dele; o traje, o talismã em campo e o que a entidade carrega fecharam na v0.328 (§§111 a 113), e o que ela leva quando sai de campo na v0.330 (§114); a fila do sistema fechou a cura da Origem `Corpo Amaldiçoado` na v0.326 (o mesmo reparo das invocações, no descanso curto) o peso na v0.327 (o talismã pesa `0,5` de `Volume`, e cada leve vale `0,1`, sem arredondar) e a imunidade dela a `Envenenado` na v0.329, sem medição; o que sobra na fila é o que já estava aberto antes. O histórico abaixo permanece para consulta.
 

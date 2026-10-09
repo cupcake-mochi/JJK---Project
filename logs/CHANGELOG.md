@@ -8,6 +8,47 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.350] — 09/10/2026
+
+**O capítulo de Ritual e Pactos do R41 chegou às peças 27 e 22, e o passo 5b fechou.** *As duas peças estavam no texto do livro v0.331. O R41 é a candidata com seis decisões do Mizuki em cima (itens 34 a 36, 37, 39, 42, 47 e 50) e o resto da reconstrução mantido por ele. Quatro das seis mudaram regra de peça.*
+
+**Ritual, peça 27:**
+
+- **O ritual auxiliado mudou (item 50).** *Cada aliado que ajuda gasta a Ação Padrão e dá `2` pontos de ritual, sem limite de auxiliares. Era Ação Completa e `4` pontos.*
+- **A falha ganhou a unidade (item 42).** *O conjurador perde a Classe em dados de dano e não paga PE a mais; cada auxiliar perde a Classe do feitiço em PE. A peça dizia "custa a Classe do feitiço" e "os dois pagam a correção".*
+- **A tabela de chance do §3.1 estava `10` pontos abaixo nas `21` células.** *Ela contava como se igualar a CD fosse falha. A reconstrução do livro tinha achado (RP-02), e o Mizuki aceitou no item 41. A tabela foi refeita pela fórmula, que não mudou.*
+- **Seis linhas da lista de Melhorias ganharam a redação do R41:** *`Perseguição`, `Compartilhamento` e `Tiros` foram reescritas pela reconstrução e mantidas no item 48; `Alcance` e `Meio Acerto` ganharam precisão; a `Rerrolagem` ganhou "fica o segundo resultado" (item 47). A de `Duração`, do mesmo item 48, não mudou na tabela: os limites dela entraram na lista abaixo.*
+- **Entrou a lista do que o livro fecha e a peça não dizia:** *Classe `1` ou maior, um ritual por conjuração, quais Melhorias repetem, as combinações com `Perseguir`, `Inescapável`, `Rápido`, `Reação`, `Atrasar`, `Parado` e `Carregar`, a Técnica Máxima com o ritual da Ação Completa, e as condições da ajuda (`9` m, percepção, uma conjuração indicada).*
+
+**Pactos, peça 22:**
+
+- **O limite de metade da Essência passou a contar três formas (item 37).** *O permanente, a `Promessa` e o pacto de restrição ocupam vaga; o temporário não. A vaga volta quando o pacto se perde. Antes só o permanente contava, e para a campanha inteira. O pacto de restrição pode existir sem vaga com permissão do mestre.*
+- **O pacto permanente entrega uma mecânica, e não um número (itens 34 a 36).** *Ele modifica um feitiço, a energia, uma aptidão ou um Estilo. Não existe pacto por dano. O pacto de energia, quando tem quantidade, é porcentagem da energia máxima combinada com o mestre. A peça dava PE medido em fatia, uma aptidão ou um espaço de feitiço.*
+- **O pacto temporário se fecha com Ação Bônus ou Reação.** *A Reação já estava no livro v0.331 e faltava na peça.*
+- **A punição da `Promessa` quebrada pode ser escrita na criação do pacto (item 39).**
+- **Entrou a lista do que o livro fecha:** *o registro da `Promessa` em cinco campos, o preço que não se vende três vezes, o que o temporário pode e não pode, e os quatro nomes que as ideias de restrição têm no R41.*
+
+**Validadores:**
+
+- **`conferir-ritual.py`, sub-bloco 7.2:** *compara com o R41 a escada, os dezesseis nomes e preços e a ação e os pontos do auxiliar; refaz as `21` células da tabela de chance pela fórmula, com o exemplo do R41 de testemunha; cobra seis frases das decisões no R41, seis da candidata fora dele, quatro regras novas na peça e três antigas só riscadas.*
+- **`conferir-pactos.py`, checagem 4 e sub-bloco 14.1:** *a checagem 4 cobrava "só o permanente tem teto" e passou a tirar do R41 a lista de quem ocupa vaga, conferindo as duas tabelas da peça contra ela. O 14.1 compara as vagas por Essência e a ação do temporário, e cobra doze frases das decisões no R41, cinco da candidata fora dele, seis regras novas na peça e cinco antigas só riscadas. As checagens 3 e 9 acompanharam o nome da linha e o cabeçalho da tabela.*
+
+**O que esta versão não fez, e fica declarado:**
+
+- **Nenhuma medida foi refeita.** *A faixa `1,14×` a `1,75×` das Melhorias de ritual é da redação antiga, e três delas ficaram iguais ou mais fracas. O `0,75×` do degrau da Ação Completa no nível 26 foi medido com a tabela de chance antiga. O ritual auxiliado sem limite não foi medido; a única conta nova é uma proporção, escrita com a suposição dela: pela régua da peça, `2` pontos entregam `0,33` de rodada e o auxiliar deixa de dar `0,42`.*
+- **O teto de `0,50` fatia da peça 22 ficou sem o que medir.** *Ele existia para o dano e para o PE. Continua escrito e conferido, porque a peça 25 mede o `Manejo` contra ele.*
+- **As checagens 7 e 7.1 do `conferir-ritual.py` ainda leem o capítulo 46 do livro v0.331,** *congelado, que diverge do R41 no ritual auxiliado e na falha.*
+
+**Três perguntas para o Mizuki, escritas no §9 da peça 22:** *o que fazer com o teto de `0,50` fatia; se pacto ainda concede aptidão ou espaço de feitiço (o R41 fala em modificar, e a peça seguiu a letra); e de quem é a vaga que a `Promessa` ocupa (pela letra, quem tem Essência `0` ou `1` não fecha `Promessa`).*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *vinte e três perturbações, catorze no R41 e nove nas peças, cada uma cobrada no bloco e na mensagem esperados.* **As vinte e três acenderam.** *Uma foi repetida: a âncora da tabela de vagas aparecia quatro vezes no livro, o arquivo não mudou, e a leitura dessa tabela no validador passou a ser pelo cabeçalho.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: o item 115 quando o Mizuki responder; depois, o arquivamento das fontes do manual v7 e do livro v0.331 que os validadores ainda leem, os geradores e a ficha, e o passo 3 quando o Morrendo for revisto.
+
+---
+
 ## [0.349] — 09/10/2026
 
 **O capítulo de Poderes avançados do R41 passou a ser conferido pelo `conferir-expansao.py`.** *A Expansão de Domínio não tem peça: o dono dela era o manual v7, e hoje é o livro. Então esta versão não escreve em peça nenhuma; ela põe o R41 na frente do validador.*

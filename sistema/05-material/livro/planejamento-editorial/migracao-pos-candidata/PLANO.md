@@ -382,6 +382,30 @@ Depois da passada, o inventário fica assim:
 - **As fontes congeladas divergem do R41 em pontos conhecidos, e isso fica declarado:** *elas dizem `200 m` no raio do modo aberto (o R41 diz `199,5 m`, por decisão do Mizuki), e não têm as regras novas dos itens 2, 4, 5, 8 e 152.*
 - **A página de proteção contra domínios** *remete às aptidões, que migraram na v0.340; não foi recomparada.*
 
+## Capítulo de Ritual e Pactos, feito em 09/10/2026 (v0.350)
+
+*Comparação das páginas de Ritual e de Pactos do R41 com as peças 27 e 22, com o livro v0.331 e a candidata ao lado. Revisão por modelo, não humana.*
+
+**As duas peças estavam no texto do livro v0.331,** *e o R41 é a candidata com seis decisões do Mizuki em cima (itens 34 a 36, 37, 39, 42, 47 e 50) e o resto da reconstrução mantido por ele (itens 38, 41, 43, 44, 45, 48 e 49).* **O inventário tinha as seis como `capítulo`; quatro delas mudaram regra de peça:**
+
+- **Item 50, peça 27 §6:** *o auxiliar gasta a Ação Padrão e dá `2` pontos, sem limite de auxiliares. Era Ação Completa e `4` pontos.*
+- **Item 42, peça 27 §3.2 e §6:** *na falha o conjurador perde a Classe em dados de dano e não paga PE a mais; cada auxiliar perde a Classe em PE. A peça dizia "custa a Classe do feitiço" sem unidade, e "os dois pagam a correção".*
+- **Item 37, peça 22 §1.1 e §3.1:** *contam no limite o permanente, a `Promessa` e o pacto de restrição; a vaga volta quando o pacto se perde. Só o permanente contava, e para a campanha inteira.*
+- **Itens 34 a 36, peça 22 §3.3 e §3.4:** *o pacto entrega uma mecânica, que modifica feitiço, energia, aptidão ou Estilo, sem número direto; não existe pacto por dano; o pacto de energia é porcentagem da energia máxima. A peça dava PE medido em fatia, uma aptidão ou um espaço de feitiço, e deixava o dano como escolha ruim.*
+
+**As outras duas só acrescentaram frase:** *a punição que pode ser escrita na criação do pacto (39) e o "fica o segundo resultado" da Rerrolagem (47).*
+
+**Um erro de conta da peça 27, anterior à revisão:** *a tabela de chance do §3.1 estava `10` pontos abaixo nas `21` células, porque contava como se igualar a CD fosse falha. A reconstrução tinha achado (RP-02, item 41). A tabela foi refeita pela fórmula e o validador passou a refazê-la.*
+
+**O que mudou nos validadores:** *o `conferir-ritual.py` ganhou o sub-bloco 7.2 e o `conferir-pactos.py` o 14.1, que leem o R41; a checagem 4 do `conferir-pactos.py` cobrava "só o permanente tem teto" e passou a cobrar a lista do R41; a 3 e a 9 acompanharam o nome da linha e o cabeçalho da tabela.*
+
+**O que não foi feito, e por quê:**
+
+- **Nenhuma medida foi refeita.** *Ficaram com a data de antes: a faixa `1,14×` a `1,75×` das Melhorias de ritual (três delas ficaram iguais ou mais fracas), o `0,75×` do degrau da Ação Completa no nível 26 (medido com a tabela de chance antiga) e a soma do ritual auxiliado sem limite. A peça 27 diz isso em cada lugar.*
+- **O teto de `0,50` fatia da peça 22 §3.2 continua escrito e conferido,** *porque a peça 25 §8.1 mede o `Manejo` contra ele, mas não mede mais nada que um pacto entregue. Tirar ou reaproveitar é decisão do Mizuki.*
+- **As checagens 7 e 7.1 do `conferir-ritual.py` ainda leem o capítulo 46 do livro v0.331,** *que está congelado e diverge do R41 no ritual auxiliado e na falha. Entram no mesmo arquivamento das fontes do manual v7.*
+- **O item 40 (lista de pactos de exemplo, balanceada) e o exemplo do Sukuna** *seguem na seção C do `MUDANCAS-DE-REGRA.md`; não são deste passo.*
+
 ## Os seis capítulos sem passo, achados em 06/10/2026
 
 **A tabela de tamanho do topo lista seis capítulos que a ordem proposta não cobria:** *Ritual e Pactos (29 registros confirmados, peças 22 e 27), Poderes avançados (21, peça 11 e o rascunho da Expansão sem Barreiras), Regras gerais (19, peças 01, 03, 04, 05 e 23), Origens (18, peças 09 e 13), Rotas (14, peças 20 e 25) e Aptidões e Refino (13, peça 11).* **São 114 registros que nenhum passo migrava.** *Eles entram como passo 5b, um capítulo por versão, comparando o capítulo inteiro com as peças (o inventário não cobre as rodadas anteriores, como se viu no Equipamento e no tipo `Força` do Dano). Antes deles vai o capítulo de Dano sem o Morrendo.*
@@ -411,7 +435,7 @@ Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`
 4. **Equipamento e munição** (peças 14, 16, 21), *feito na v0.335, ver a seção do passo 4,* depois **Invocações** (peça 15, que conversa com `invocacoes/`), depois **Caminhos** (peça 06 e `RASCUNHO-trilhas`, que hoje não têm Fluidez nem Malabarista).
 5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha. *Primeira parte feita na v0.337 (ver a seção dela, acima): os validadores leem o livro. A segunda, na v0.338, deu dono às tabelas de mestre e tirou do gerador as leituras do Fundamento; o `manual/gerador`, o `.docx` e o `.pdf` vão para o arquivo com a migração dos Poderes avançados.*
 5a. **O inventário da revisão do R41.** *Feito na v0.342: `INVENTARIO-REVISAO-R41.md`, ao lado deste plano.* Ele entrou antes do capítulo de Dano porque muda o que os capítulos seguintes têm de copiar, e deixou três frentes, nesta ordem: as regras novas e os desfeitos que já têm peça; a troca da fonte dos validadores, da candidata para o R41; e os capítulos que faltam do 5b, já lendo o R41.
-5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *um por versão. O de Dano sem o Morrendo foi feito na v0.347, o de Regras gerais na v0.348 e o de Poderes avançados na v0.349; falta Ritual e Pactos.*
+5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *um por versão. O de Dano sem o Morrendo foi feito na v0.347, o de Regras gerais na v0.348, o de Poderes avançados na v0.349 e o de Ritual e Pactos na v0.350. O passo 5b fechou.*
 6. **Geradores.** `gerador-ficha` e `gerador-inimigo`. O `manual/gerador` (o `.docx` do Fundamento v7) não é regerado: vai para o arquivo no passo 5. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
 7. **Fichas**, por último e em outro ambiente (seção abaixo).
 
