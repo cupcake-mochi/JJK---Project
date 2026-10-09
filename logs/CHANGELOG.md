@@ -8,7 +8,26 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
-## [0.352] — 09/10/2026
+## [0.353] — 09/10/2026
+
+**Quatro respostas do Mizuki de 09/10/2026, e o que cada uma mexeu.**
+
+- **O manual do Fundamento v7 saiu da entrega** *("tira").* *O recorte não leva mais o `.docx` e o `.pdf` dele (são `55` arquivos, eram `57`). A sincronização só copia e nunca apaga, então a checagem 7.1 passou a acusar se os dois ficarem na pasta, e a 7.3, que cobrava a versão do manual no README da entrega, passou a cobrar que ele não o anuncie. O `subir.sh` deixou de reescrever essa versão.*
+- **O item 115 fica como está** *("Vai ser refeito as origens").* *O limite de um Legado Próprio por ficha continua na peça 13 até a remodelagem das Origens.*
+- **A `Promessa` não ocupa vaga** *("Não ocupa espaço"),* **e quem tem Essência `0` ou `1` pode fechar uma** *("Sim").* *Isso desfaz parte do item 37 e contraria o R41, que escreve "contando permanentes, Promessas e pactos de restrição".* **Nada mudou na regra da peça 22 nesta versão:** *ela segue o livro, o validador tira do livro a lista de quem ocupa vaga, e o livro ainda não mudou. A decisão entrou como item 186 no `MUDANCAS-DE-REGRA.md` do R41, a peça ganhou o aviso no §1.1 e a pergunta do §9 foi fechada.*
+
+**O que esta versão não fez, e fica declarado:**
+
+- **A pasta `finalizado/` não foi tocada.** *Ela mora no HD do Mizuki, fora deste repositório. Falta apagar `manual/` de lá e rever o README, que cita o manual em oito linhas. Ela ainda é o recorte da v0.331, com o livro antigo; refazê-la em volta do R41 vem depois dos geradores.*
+- **A checagem 7 não rodou contra a entrega de verdade.** *Neste clone ela pula, porque `finalizado/` não existe. As duas guardas novas foram testadas com uma entrega fabricada numa cópia isolada: limpa, as duas passam; com o `.pdf` do manual deixado na pasta, a 7.1 acende; com o README anunciando a versão do manual, a 7.3 acende.*
+- **O livro não foi alterado.** *O texto do item 186 precisa ir para o ChatGPT, que é quem escreve o livro.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`, passo 6: os geradores (`gerador-ficha` e `gerador-inimigo`) e a ficha.
+
+---
+
 
 **O manual do Fundamento v7 foi para o arquivo.** *O gerador, o `.docx` e o `.pdf` saíram de `manual/` para `sistema/99-arquivo/manual-fundamento-v7/`, congelados na v7.41. O dono do Fundamento é o livro desde a v0.337, e o último validador que lia o gerador saiu dele na v0.351. `manual/matematica/` fica onde está.*
 

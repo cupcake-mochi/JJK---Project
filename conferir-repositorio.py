@@ -98,11 +98,9 @@ def recorte_da_entrega():
             pares.append((os.path.join(RAIZ, f), os.path.join(ent, 'desenho', f)))
     pares.append((os.path.join(RAIZ, 'sistema', '02-esqueleto', 'arquitetura.md'),
                   os.path.join(ent, 'desenho', 'arquitetura.md')))
-    # v0.352: o manual v7 foi para o arquivo. A entrega continua levando o .docx e o .pdf
-    # ate o Mizuki decidir se eles saem dela; so a FONTE mudou de lugar.
-    for f in ('Fundamento-MANUAL-v7.docx', 'Fundamento-MANUAL-v7.pdf'):
-        pares.append((os.path.join(RAIZ, 'sistema', '99-arquivo', 'manual-fundamento-v7', f),
-                      os.path.join(ent, 'manual', f)))
+    # v0.353: o manual do Fundamento v7 SAIU da entrega, por decisao do Mizuki de 09/10/2026
+    # ("tira"). Ele foi para o arquivo na v0.352 e diverge do livro final. A 7.1 acusa se o
+    # .docx ou o .pdf dele ainda estiverem la, e a 7.3 se o README da entrega ainda o anunciar.
     # v0.199: o bloco de inimigo entra junto com a ficha, e pelo mesmo motivo —
     # os tres sao material de MESA, e a peca 26 aponta para o bloco. Ele ficou de
     # fora no primeiro commit da v0.199 e quem acusou foi a 7.2: a citacao dele
@@ -980,7 +978,8 @@ else:
 
     # guarda de contagem: se o recorte encolher, ela acusa em vez de conferir
     # menos em silencio. Piso = 17 pecas + 4 desenhos + 2 avulsos + 2 do manual
-    # + 2 fichas + 2 do livro, e ele so' cresce.
+    # + 2 fichas + 2 do livro, e ele so' cresce. (v0.353: os 2 do manual sairam da entrega;
+    # o piso fica, porque o recorte de hoje tem quase o dobro dele.)
     PISO_RECORTE = 29
     if len(ESPERADO) < PISO_RECORTE:
         erro(f'7.1: o recorte deveria ter pelo menos {PISO_RECORTE} arquivos e eu montei '
@@ -1000,6 +999,16 @@ else:
         erro('7.1: a copia na entrega esta VELHA, nao bate com a fonte: ' + ', '.join(velhos))
     if not sumidos and not velhos:
         print(f'  [x] as {len(ESPERADO)} copias da entrega batem byte a byte com a fonte')
+
+    # v0.353: o que SAIU do recorte nao pode continuar na pasta. A sincronizacao so' copia,
+    # nunca apaga; sem esta guarda o manual aposentado ficaria na entrega para sempre.
+    SAIU_DA_ENTREGA = ['manual/Fundamento-MANUAL-v7.docx', 'manual/Fundamento-MANUAL-v7.pdf']
+    _sobras = [s for s in SAIU_DA_ENTREGA if os.path.exists(os.path.join(ENT, s))]
+    if _sobras:
+        erro('7.1: a entrega ainda carrega o que saiu dela na v0.353 — apague de finalizado/: '
+             + ', '.join(_sobras))
+    else:
+        print('  [x] o manual do Fundamento v7, que saiu da entrega na v0.353, nao esta la')
 
     # -- 7.2: ponteiro pendurado, resolvido contra a arvore DA ENTREGA. -------
     #
@@ -1379,9 +1388,16 @@ else:
     print('  7.3 O README da entrega e o unico arquivo escrito a mao la.')
     _entrega_confere('a versao do recorte', r'\*\*Recorte da v(\d+\.\d+)\.\*\*',
                      'logs/CHANGELOG.md', r'^## \[(\d+\.\d+)\]')
-    _entrega_confere('a versao do manual', r'\*\*v(\d+\.\d+)\*\*',
-                     'sistema/99-arquivo/manual-fundamento-v7/gerador/COMO-USAR.txt',
-                     r'GERADOR DO MANUAL — Fundamento v(\d+\.\d+)')
+    # v0.353: ate a v0.352 esta linha cobrava que o README da entrega dissesse a versao do
+    # manual do Fundamento. O manual saiu da entrega; agora ela cobra que o README nao o
+    # anuncie mais. A forma em negrito (`**v7.NN**`) e' a que aquele README usa para a versao
+    # corrente; a historica vem em crases e continua podendo aparecer.
+    _anuncia = re.findall(r'\*\*v7\.\d+\*\*|Fundamento-MANUAL-v7', _rme)
+    if _anuncia:
+        erro(f'7.3: o README da entrega ainda anuncia o manual do Fundamento v7 em '
+             f'{len(_anuncia)} lugar(es) ({sorted(set(_anuncia))}) — ele saiu da entrega na v0.353')
+    else:
+        print('    [x] o README da entrega nao anuncia o manual do Fundamento v7')
     _entrega_confere('a contagem de pecas', r'as \*\*([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) peças\*\* de mecânica',
                      'README.md', r'\*\*([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) peças de regra\*\*', extenso=True)
     _entrega_confere('a contagem de condicoes', r'as (\w+) condições',

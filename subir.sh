@@ -115,21 +115,9 @@ else
         fi
     fi
 
-    VER_MAN="$(python3 conferir-repositorio.py --versao-manual 2>/dev/null)"
-    if [ -f "$RME_ENT" ] && [ -n "$VER_MAN" ]; then
-        # ⚠ So' as mencoes em **negrito**, e a distincao NAO e' cosmetica: naquele
-        # README a versao CORRENTE vem sempre em `**v7.NN**` e a HISTORICA em
-        # crases — "o rascunho transcreveu o manual na `v7.9`". Um sed no `v7.NN`
-        # cru reescreveria a historica junto e viraria a frase do avesso. A 7.3 le
-        # a mesma forma em negrito, entao as duas concordam sobre o que e' a versao.
-        ATRASADAS=$(grep -oE '\*\*v7\.[0-9]+\*\*' "$RME_ENT" | grep -cv "^\*\*v$VER_MAN\*\*$" || true)
-        if [ "${ATRASADAS:-0}" -gt 0 ]; then
-            sed -i -E "s/\*\*v7\.[0-9]+\*\*/**v$VER_MAN**/g" "$RME_ENT"
-            printf '  ajustado finalizado/README.md — %s mencao(oes) do manual agora dizem v%s\n' \
-                "$ATRASADAS" "$VER_MAN"
-            copiados=$((copiados + 1))
-        fi
-    fi
+    # v0.353: ate a v0.352 este passo tambem reescrevia as mencoes da versao do manual do
+    # Fundamento no README da entrega. O manual saiu da entrega (decisao do Mizuki de
+    # 09/10/2026), e a 7.3 passou a cobrar que aquele README nao o anuncie.
 
     if [ "$copiados" -eq 0 ]; then
         verde "  a entrega ja estava em dia."

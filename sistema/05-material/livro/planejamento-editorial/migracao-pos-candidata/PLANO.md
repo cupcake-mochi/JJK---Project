@@ -442,7 +442,7 @@ Depois da passada, o inventário fica assim:
 **O que não foi feito, e fica declarado:**
 
 - **Os vinte scripts continuam medindo contra o manual v7,** *que diverge do livro final. Apontá-los para o livro é trabalho de cada frente (o bestiário tem a passada dele).*
-- **A entrega (`finalizado/`) continua levando o `.docx` e o `.pdf` do manual v7.** *Só a origem mudou de pasta. Tirar o manual aposentado da entrega é decisão do Mizuki.*
+- ~~**A entrega (`finalizado/`) continua levando o `.docx` e o `.pdf` do manual v7.**~~ **FECHADO na v0.353:** *o Mizuki mandou tirar ("tira"). O recorte não leva mais o manual, a 7.1 acusa se os dois arquivos ficarem na pasta e a 7.3 se o README de lá ainda o anunciar. A pasta `finalizado/` mora no HD dele, fora deste repositório: apagar `manual/` de lá e rever o README é trabalho que esta versão não fez.*
 - **O `README.md` e o `PROMPT-PROXIMA-CONVERSA.md` tiveram os caminhos trocados;** *os outros documentos ficam como estavam e resolvem pelo mapa.*
 
 ## Os seis capítulos sem passo, achados em 06/10/2026

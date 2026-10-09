@@ -14,7 +14,8 @@ Uma linha por decisão que mudou o livro na revisão de 07 a 09/10, dizendo o qu
 - **v0.348:** o capítulo de Regras gerais (só lacunas; nenhuma linha deste inventário além do 158, que já tinha ido na v0.343).
 - **v0.349:** o capítulo de Poderes avançados. **Correção deste inventário:** *as dez linhas `capítulo` da Expansão (1, 2, 3, 4, 5, 8, 11, 13, 152 e 153) são do tipo `livro`. A Expansão não tem peça; o dono era o manual v7 e hoje é o R41.* As decisões passaram a ser cobradas pela sub-checagem 12.7 do `conferir-expansao.py`, como frase do livro.
 - **v0.350:** o capítulo de Ritual e Pactos, com as seis linhas `capítulo` que sobravam (34 a 36, 37, 39, 42, 47 e 50), nas peças 22 e 27. **Correção deste inventário:** *quatro delas mudaram regra de peça, e não só texto (34 a 36, 37, 42 e 50); a tabela da seção abaixo diz o que cada uma mudou.* Conferidas pelos sub-blocos 7.2 do `conferir-ritual.py` e 14.1 do `conferir-pactos.py`, e pela checagem 4 deste último.
-- **Falta dos casos `nova` e `desfaz`:** só o 115, que espera a resposta do Mizuki. **O passo 5b fechou.**
+- **v0.353:** o item 115 foi adiado pelo Mizuki em 09/10/2026 — "Vai ser refeito as origens". A peça 13 fica como está até a remodelagem das Origens. **Não sobra nenhum caso `nova` ou `desfaz` para aplicar, e o passo 5b fechou.**
+- **Decisão nova, de depois do R41:** a `Promessa` não ocupa vaga (item 186 do `MUDANCAS-DE-REGRA.md`). Ela desfaz parte do item 37 e ainda não está no livro; a peça 22 muda quando o livro mudar.
 
 ## Os casos
 
@@ -118,7 +119,7 @@ Peças 09, 12, 13 e 18. Progressão migrou no passo 5 (v0.337) e Origens no 5b (
 | nº | decisão | caso | onde, e o que achei | conferido |
 |---|---|---|---|---|
 | 113 | Sangue que Não é Sangue volta, sem a necessidade corporal | `desfaz` | peça 13: a entrada (linha 911) e o registro da migração (linha 1169), da v0.340; conferir o `conferir-legados.py` | lido |
-| 115 | Legado personalizado sem o limite de um | `nova` | peça 13 §6 ("Um Legado Próprio por ficha", desde a v0.39) e linha 1171 (v0.340). **A trava é da peça e é mais velha que a candidata; o livro v0.331 não a trazia.** Confirmar com o Mizuki antes de tirar. | lido |
+| 115 | Legado personalizado sem o limite de um | `nova` | peça 13 §6 ("Um Legado Próprio por ficha", desde a v0.39) e linha 1171 (v0.340). **A trava é da peça e é mais velha que a candidata; o livro v0.331 não a trazia.** ~~Confirmar com o Mizuki antes de tirar.~~ **Adiado em 09/10/2026: "Vai ser refeito as origens". A peça fica como está.** | lido |
 | 118 | XP guardado no limiar vira, de uma vez, quantos níveis pagar | `desfaz` | peça 12, linha 476 (PRO04, v0.337): "não paga dois níveis de uma vez". O §7 da mesma peça já dizia "destrava de uma vez". | lido |
 | 119 | Subir de nível: com o mestre, pode recuperar tudo | `nova` | peça 12, uma frase | pelo estado da peça |
 | 120 | Troca de Trilha: fica, deixando claro que substitui tudo | `nada` | a peça 06 já tem a troca (PRO20, v0.335) | pelo registro do passo 4 |
