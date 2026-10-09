@@ -393,19 +393,43 @@
 
 ---
 
+### O que o R41 escreve sobre dano e condições e esta peça não dizia — v0.347
+
+*Migração do capítulo de Dano do R41 (passo 5b do `PLANO.md`), sem a parte de vida a zero, que espera a revisão do Morrendo.* **Dois números mudaram, e moram nas seções deles:** *os tipos de dano são quinze (§4), e o degrau 2 da exaustão é `4,5 m` (peça 10 §3).* **O resto é lacuna fechada, sem número novo:**
+
+- **A ordem de resolver um dano.** *Defesas contra o tipo, parcela por parcela; depois a Redução de Dano; depois a vida temporária; e o que sobra sai da vida. Uma redução que vale contra o golpe inteiro é usada uma vez, e não uma por tipo.*
+- **Resistência, vulnerabilidade e imunidade.** *Duas fontes da mesma resistência ainda cortam só a metade, e duas da mesma vulnerabilidade só dobram uma vez. Resistência e vulnerabilidade ao mesmo tipo se anulam antes do arredondamento. Imunidade prevalece, e o que ignora resistência não ignora imunidade por isso.*
+- **O dano recebido em fração arredonda para cima**, *depois dos multiplicadores da parcela. É a regra geral da peça 1 §5.4 (para o lado que não favorece quem recebe) dita no lugar onde a mesa procura.*
+- **Dano reduzido a zero não desfaz o acerto.** *Uma condição aplicada "ao acertar" ainda entra; um efeito que exija "causar dano" precisa de dano maior que zero.*
+- **O tipo de dano não aplica condição sozinho.** *`Veneno` é tipo e `Envenenado` é condição; fogo não continua queimando, frio não deixa `Lento` e concussão não empurra sem regra que diga.*
+- **A mesma condição recebida de novo não se intensifica.** *As fontes e as durações são anotadas separadas, e a condição fica enquanto uma aplicação estiver ativa.*
+- **`Derrubado`.** *Rastejar custa `1,5 m` a mais por trecho de `1,5 m`, sem cortar também a reserva de deslocamento; levantar custa a Ação de Movimento inteira; estar `Agarrado` não impede levantar.*
+- **`Agarrado`.** *Você ainda ataca, conjura e `Bloqueia`. A contenção acaba também se quem segura ficar Inconsciente ou soltar.*
+- **`Desarmado`.** *Você pode recuperar a arma, sacar uma reserva ou atacar desarmado, pagando o custo normal de cada coisa; a condição não impede usar outra arma.*
+- **`Enfeitiçado`.** *Acaba quando você recebe um ataque ou efeito ofensivo, mesmo que o ataque erre. Não passa o controle do personagem para ninguém.*
+- **`Cego`.** *A desvantagem nos seus ataques vale contra alvo que você não perceba por um sentido equivalente, e quem ataca você só tem vantagem se o enxergar. `Sentir Energia` localiza e não substitui a visão para isso. Dois que não se enxergam atacam os dois com desvantagem.*
+- **`Amedrontado`.** *Você não se aproxima da fonte por vontade própria nem com ela fora de vista; ser movido à força não conta.*
+- **`Impedido` e `Atordoado` não tiram `Bloquear`,** *e o `Atordoado` não reduz a Defesa.*
+- **O TR de saída das `Pesadas` leva os modificadores da própria condição:** *`Impedido` dá desvantagem no TR Físico que o encerra; `Envenenado` não atrapalha um TR de Vigor.*
+- **Cura e reservas temporárias** *(as donas são as peças 1 e 10)*: *a cura não passa do máximo que você tem na hora; `Sem Cura` impede receber, e a cura tentada não fica guardada; uma reserva temporária preparada logo antes da situação pode acompanhá-la, e o mestre confirma isso quando ela é preparada.*
+
+**O que ficou de fora, e por quê:** *a definição de `Inconsciente` (o R41 a trata como estado com várias causas; esta peça a liga à queda a zero, por decisão do Mizuki), `Dano na alma`, os estágios de Integridade, `Vida a zero`, `Aguentar`, `Insistir`, `Socorro`, Sequelas e `Derrota e morte`. Tudo isso é a revisão do Morrendo.*
+
 ## 4. Os tipos de dano
 
 *Decidido na v0.73, escrito na peça 1 na v0.74, e mudou de casa nesta versão.*
 
-> **Catorze tipos, em três grupos.**
+> **Quinze tipos, em três grupos.**
 >
 > | grupo | tipos | do dano recebido |
 > |---|---|---|
 > | **Físicos** | `Cortante` · `Perfurante` · `Concussão` | **60%** |
 > | **Elementais** | `Fogo` · `Frio` · `Elétrico` · `Ácido` · `Trovejante` · `Veneno` | **30%** |
-> | **Especiais** | `Radiante` · `Necrótico` · `Psíquico` · `Energia Reversa` · `Alma` | **10%** |
+> | **Especiais** | `Radiante` · `Necrótico` · `Psíquico` · `Energia Reversa` · `Força` · `Alma` | **10%** |
 
-> **⚠ O `Alma` é o único dos catorze que não bate só na vida, e a máquina dele NÃO é desta peça.** *Ele tira `1` de vida e `1` de Integridade, e tem quatro estágios em cima disso.* **Tudo isso é a peça 24**, que fechou na v0.145 — *aqui ele é um tipo de dano como os outros treze, e é só isso que esta peça afirma sobre ele.*
+> ***v0.347: eram catorze, e o `Força` entrou.*** *O livro reconstruído o acrescentou aos Especiais numa rodada do capítulo de Dano que o inventário da migração não registrou (achado no passo 5, v0.337), e o R41 o mantém.* **`Força` é o tipo da energia amaldiçoada pura, projetada como impacto ou disparo, quando o efeito não indica outro tipo.** *É o dano do `Projetar Energia` (peça 11 §6). Ele não usa o atributo Força, não empurra o alvo e não ignora redução nem resistência; soco, queda e impacto de objeto continuam `Concussão`, e revestir a arma de energia não muda o tipo do dano dela. "Energético" descreve a aparência, e não é um décimo sexto tipo.* **O peso do grupo não mudou:** *os Especiais continuam com `10%` do dano recebido, agora divididos por seis, e a tabela de quantos tipos você resiste não se move, porque o quarto tipo dela é um Elemental.*
+
+> **⚠ O `Alma` é o único dos quinze que não bate só na vida, e a máquina dele NÃO é desta peça.** *Ele tira `1` de vida e `1` de Integridade, e tem quatro estágios em cima disso.* **Tudo isso é a peça 24**, que fechou na v0.145 — *aqui ele é um tipo de dano como os outros catorze, e é só isso que esta peça afirma sobre ele.*
 
 **A distribuição dos tipos se escolhe na criação da ficha** *(v0.337, FU-09: o Fundamento do livro reconstruído fechou a lacuna).* **Um feitiço com mais de um tipo declara quanto vai em cada um quando é montado, e ela não muda depois de conhecer a resistência do alvo.**
 
@@ -429,7 +453,7 @@
 
 > **⚠ A coluna do meio é o que PASSA por aquele tipo, e a última já é a METADE dele.** *Resistência corta pela metade — ela não apaga —, então resistir a um tipo, que leva `20%` do que você toma, evita `10%`.* **Quem ler a coluna do meio como "o que você evita" erra por duas vezes**, e é a pergunta que mais cobra neste projeto: *esse número já inclui o que eu estou somando nele?*
 
-**Resistir a quatro tipos fura a cerca da peça 5 §4 ao pé da letra, e está aceito.** Aquela cerca autoriza *"resistência a um tipo"*, no singular, e proíbe *"desconto em tudo"*. **Quatro de catorze não é desconto em tudo** — é o que a cerca existe para barrar, e ela continua barrando. *Decisão do Mizuki, registrada com o motivo.*
+**Resistir a quatro tipos fura a cerca da peça 5 §4 ao pé da letra, e está aceito.** Aquela cerca autoriza *"resistência a um tipo"*, no singular, e proíbe *"desconto em tudo"*. **Quatro de quinze não é desconto em tudo** — é o que a cerca existe para barrar, e ela continua barrando. *Decisão do Mizuki, registrada com o motivo.*
 
 ---
 
@@ -542,7 +566,7 @@
 | **4** | **as treze batem com o manual**, nas duas direções: nome e **nível**, tabela por tabela — e o manual vende **uma** Melhoria `Condição`, cobrando o nível. *Lê o `.docx`, então **pula** sem o `python-docx` — e diz que pulou* |
 | **5** | **nenhuma condição fica sem nível**, e o nível é um dos três. Guarda de contagem: são treze, seis `Leve`, duas `Média` e cinco `Pesada` |
 | **6** | **a escada de quem cura fecha.** O teto de energia por uso em cada faixa de maestria cobre exatamente os tiers que o §2.3 publica, e ela bate com a escada de exaustão da peça 10 |
-| **7** | **os catorze tipos de dano**, os três grupos, os pesos `60/30/10` e a tabela de quantos tipos você resiste, recontada em vez de guardada |
+| **7** | **os quinze tipos de dano** (catorze até a v0.346), os três grupos, os pesos `60/30/10` e a tabela de quantos tipos você resiste, recontada em vez de guardada |
 | **8** | **a cobertura**: os três degraus, os dois números de cada um, e a `Total` sem número |
 | **9** | **as duas entregas publicadas que aplicam condição** — o `Abalo` do `DESENHO-manhas.md` e o `Encontrão` do `DESENHO-trilhas.md` — batem com a régua, com o portão que o texto de cada uma escreve |
 | **10** | **nenhum valor de regra escrito dentro do validador.** Todo número vem do documento dono, e a checagem falha se algum ficar guardado no código |

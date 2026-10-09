@@ -8,6 +8,28 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.347] — 09/10/2026
+
+**O capítulo de Dano do R41, sem a parte de vida a zero, foi comparado com as peças 19, 10 e 1.** *É o primeiro capítulo do passo 5b lido contra o R41, e não contra a candidata. Dois números divergiam, e os dois eram mais velhos que a revisão.*
+
+**Os tipos de dano são quinze, e não catorze (peça 19 §4).** *O `Força` é o tipo da energia amaldiçoada pura, projetada como impacto ou disparo, quando o efeito não indica outro; é o dano do `Projetar Energia`. Ele entrou nos Especiais numa rodada da candidata que o inventário da migração não registrou, e o passo 5 o tinha achado na v0.337.* **O peso do grupo não mudou** *(`10%`, agora dividido por seis), e a tabela de quantos tipos você resiste não se move, porque o quarto tipo dela é um Elemental.*
+
+**O degrau 2 da exaustão é `4,5 m`, e não `6 m` (peça 10 §3).** *O Mizuki trocou o número na revisão do Word da v0.176, o livro v0.331 publicou, e a candidata e o R41 mantiveram. A peça 10 e o validador dela ficaram no `6 m` por 171 versões, e o `ESTADO-ATUAL` chegou a anotar a dívida.* **A peça tinha um parágrafo defendendo a diferença:** *"os 6 m contra a metade ficam como estão, diferentes de propósito", porque a Integridade é dano de alma e devia doer mais.* **Com `4,5 m` o argumento deixa de valer, e isso fica dito:** *num deslocamento de `9 m` a exaustão e a Integridade deixam os mesmos `4,5 m`, e num de `12 m` o cansaço corta mais que a alma. O parágrafo está riscado, com a conta nova embaixo.*
+
+**O resto do capítulo era lacuna, sem número novo.** *A peça 19 ganhou uma subseção com quinze itens: a ordem de resolver um dano, o arredondamento do dano recebido, o dano zerado que não desfaz o acerto, e o que o livro escreve a mais sobre nove condições (rastejar e levantar no `Derrubado`, o que encerra o `Agarrado` e o `Enfeitiçado`, o `Cego` contra quem tem outro sentido). A peça 10 ganhou três linhas sobre descanso e exaustão.*
+
+**Os dois validadores deixaram de conferir a peça contra eles mesmos.** *O `conferir-dano.py` (7) tinha `14` escrito, e passou a ler a contagem da frase da peça e a comparar a lista, grupo a grupo, com a tabela do R41. O `conferir-descanso.py` (8) tinha `6` escrito e cobrava que a Integridade cortasse mais que a exaustão; passou a ler o número da peça e do R41, e cobra que os dois sejam iguais, que o parágrafo riscado não volte, e que a tabela de tamanho publique o percentual que o número dá.*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *tirar o `Força` da tabela da peça, devolver "catorze" à frase, pôr no R41 um tipo que a peça não tem; devolver os `6 m` à peça, pôr `6 m` no R41, tirar o risco do parágrafo, e publicar `−33%` na tabela de tamanho.* **Sete perturbações, sete acesas, cada uma na checagem dela.**
+
+**Não migrou, e é o passo 3:** *`Inconsciente` (o R41 o trata como estado com várias causas; a peça 19 o liga à queda a zero, por decisão do Mizuki), `Dano na alma`, os estágios de Integridade, `Vida a zero`, `Aguentar`, `Insistir`, `Socorro`, Sequelas e `Derrota e morte`. Tudo espera a revisão do Morrendo.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: os três capítulos que faltam do passo 5b (Regras gerais, Poderes avançados, Ritual e Pactos), um por versão; e o item 115 quando o Mizuki responder.
+
+---
+
 ## [0.346] — 09/10/2026
 
 **Os validadores passaram a ler o R41, e a candidata deixou de ser fonte.** *Da v0.337 à v0.345 eles leram o livro reconstruído, que não recebeu a revisão de regras de 07 a 09/10; desde a v0.341 o livro principal era outro. A troca foi anunciada ao Mizuki como a versão seguinte, e ele liberou ("verifica e siga").*

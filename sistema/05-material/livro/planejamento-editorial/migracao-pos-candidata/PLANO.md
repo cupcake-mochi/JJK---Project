@@ -350,6 +350,16 @@ Depois da passada, o inventário fica assim:
 
 **O que sobra destes três capítulos:** *os nomes dos três formatos de Legado (ORI01, `138` ocorrências na peça 13); o exemplo da `Abre Ferida` (candidata, junto da próxima reconstrução do PDF); e os registros editoriais e de preservação, que não mudam regra.* **A candidata e o R28a ainda têm o `Projetar` antigo** *(`R28a-o-que-falta.md`).*
 
+## Capítulo de Dano sem o Morrendo, feito em 09/10/2026 (v0.347)
+
+*Comparação das páginas do capítulo no R41 com as peças 19, 10 e 1, fora as de vida a zero. Revisão por modelo, não humana.*
+
+**Dois números divergiam, e nenhum dos dois era da revisão do R41.** **Os tipos de dano:** *o livro tem quinze, com `Força`, desde uma rodada da candidata que o inventário não registrou; as peças 1 e 19 tinham catorze (achado no passo 5, v0.337).* **O degrau 2 da exaustão:** *o Mizuki o trocou de `6 m` para `4,5 m` na revisão do Word da v0.176, o livro v0.331 publicou, e a peça 10 e o validador dela ficaram no `6 m`, com um parágrafo defendendo a diferença para a Integridade.* **Os dois entraram nas peças, e os dois validadores passaram a ler o número da peça e a compará-lo com o R41.**
+
+**O resto é lacuna fechada**, *e está na peça 19, na subseção da v0.347: a ordem de resolver um dano, o arredondamento do dano recebido, e o que o livro escreve a mais sobre nove condições.*
+
+**Não migrou:** *`Inconsciente`, `Dano na alma`, os estágios de Integridade, `Vida a zero`, `Aguentar`, `Insistir`, `Socorro`, Sequelas e `Derrota e morte`.* **É o passo 3, que espera a revisão do Morrendo.**
+
 ## Os seis capítulos sem passo, achados em 06/10/2026
 
 **A tabela de tamanho do topo lista seis capítulos que a ordem proposta não cobria:** *Ritual e Pactos (29 registros confirmados, peças 22 e 27), Poderes avançados (21, peça 11 e o rascunho da Expansão sem Barreiras), Regras gerais (19, peças 01, 03, 04, 05 e 23), Origens (18, peças 09 e 13), Rotas (14, peças 20 e 25) e Aptidões e Refino (13, peça 11).* **São 114 registros que nenhum passo migrava.** *Eles entram como passo 5b, um capítulo por versão, comparando o capítulo inteiro com as peças (o inventário não cobre as rodadas anteriores, como se viu no Equipamento e no tipo `Força` do Dano). Antes deles vai o capítulo de Dano sem o Morrendo.*
@@ -379,7 +389,7 @@ Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`
 4. **Equipamento e munição** (peças 14, 16, 21), *feito na v0.335, ver a seção do passo 4,* depois **Invocações** (peça 15, que conversa com `invocacoes/`), depois **Caminhos** (peça 06 e `RASCUNHO-trilhas`, que hoje não têm Fluidez nem Malabarista).
 5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha. *Primeira parte feita na v0.337 (ver a seção dela, acima): os validadores leem o livro. A segunda, na v0.338, deu dono às tabelas de mestre e tirou do gerador as leituras do Fundamento; o `manual/gerador`, o `.docx` e o `.pdf` vão para o arquivo com a migração dos Poderes avançados.*
 5a. **O inventário da revisão do R41.** *Feito na v0.342: `INVENTARIO-REVISAO-R41.md`, ao lado deste plano.* Ele entrou antes do capítulo de Dano porque muda o que os capítulos seguintes têm de copiar, e deixou três frentes, nesta ordem: as regras novas e os desfeitos que já têm peça; a troca da fonte dos validadores, da candidata para o R41; e os capítulos que faltam do 5b, já lendo o R41.
-5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *depois do capítulo de Dano sem o Morrendo, um por versão.*
+5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *um por versão. O de Dano sem o Morrendo foi feito na v0.347; faltam Regras gerais, Poderes avançados e Ritual e Pactos.*
 6. **Geradores.** `gerador-ficha` e `gerador-inimigo`. O `manual/gerador` (o `.docx` do Fundamento v7) não é regerado: vai para o arquivo no passo 5. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
 7. **Fichas**, por último e em outro ambiente (seção abaixo).
 

@@ -695,7 +695,7 @@ A tabela de letalidade do Fundamento mostra 1,7 a 2,0 rodadas porque supõe que 
 
 ### 8.1 Os tipos de dano
 
-**Os catorze tipos, em três grupos, com o peso de cada grupo no dano recebido.** *Escritos aqui na v0.74.* **Hoje eles são a seção 4 da peça 19.**
+**Os catorze tipos, em três grupos, com o peso de cada grupo no dano recebido.** *Escritos aqui na v0.74.* **Hoje eles são a seção 4 da peça 19, e são quinze desde a v0.347, com o `Força`.**
 
 ### 8.2 Cobertura
 

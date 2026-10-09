@@ -110,8 +110,10 @@ E o que normalmente não conta: a maldição de nível baixo que morre no primei
 |---|---|---|
 | **0** | — | 25% |
 | **1** | desvantagem em perícia e ofício | 15% |
-| **2** | deslocamento cai para 6 m | 5% |
+| **2** | deslocamento cai para 4,5 m | 5% |
 | **3** | desvantagem em ataque e em Teste de Resistência | nada |
+
+> ***v0.347, do capítulo de Dano do R41 (passo 5b):*** *uma pausa contínua conta como um descanso só, e anunciar a mesma pausa de novo não repete a recuperação; o mestre pode tirar um degrau de exaustão quando a situação justificar (uma noite de recuperação adequada, por exemplo), e não põe degrau fora da regra das lutas; e recomeçar a contagem de lutas num dia novo não tira os degraus que você já tinha.* **Nenhuma das três muda número.**
 
 **No começo da campanha os degraus 1 e 2 devolvem o mesmo PE, e tudo bem.** Com o arredondamento para baixo e o piso de 1, uma pool pequena dá 1 PE nos dois — 15% de 8 é 1,2, e 5% de 8 é 0,4 com o piso segurando em 1. A coluna separa no **nível 3** em quatro Caminhos e no **nível 4** no Bastião, que é quem tem a menor pool. Os outros dois eixos do degrau — desvantagem e deslocamento — continuam diferentes desde o nível 2, então a escada nunca fica plana de verdade.
 
@@ -124,7 +126,7 @@ O que **não** pode acontecer é um degrau pior devolver mais que um degrau melh
 | degrau | eixo | tamanho no pico | o que a falha custa |
 |---|---|---|---|
 | 1 | perícia e ofício | −25 pp | a cena anda — a peça 4 proíbe falha que trava |
-| 2 | deslocamento, de 9 m para 6 m | −33% de alcance | posição |
+| 2 | deslocamento, de 9 m para 4,5 m | −50% de alcance | posição |
 | 3 | ataque e Teste de Resistência | −25 pp | dano, e às vezes a vida |
 
 Então o degrau 1 **não é leve**. Ele é do mesmo tamanho do degrau 3 e cai em cima do que não mata — que é uma coisa diferente, e melhor, do que ser pequeno. Para comparar: treinar um Teste de Resistência vale 10 pontos percentuais, a maestria de uma campanha inteira vale 20, e sair de atributo 0 para 3 vale 15. Um degrau de exaustão é maior que os três.
@@ -140,7 +142,7 @@ Então o degrau 1 **não é leve**. Ele é do mesmo tamanho do degrau 3 e cai em
 | | exaustão (esta peça) | Integridade (**peça 24 §4**) |
 |---|---|---|
 | degrau 1 | desvantagem em perícia e ofício | desvantagem em testes de perícia |
-| degrau 2 | deslocamento cai para 6 m | deslocamento pela metade, e +1 PE por Classe |
+| degrau 2 | deslocamento cai para 4,5 m | deslocamento pela metade, e +1 PE por Classe |
 | degrau 3 | desvantagem em ataque e TR | desvantagem em ataque e TR, e teto de Classe |
 
 > **Quem está nas duas pega o pior, não soma.**
@@ -149,7 +151,9 @@ Isso não inventa nada: desvantagem não empilha com desvantagem em mesa nenhuma
 
 O que **continua valendo separado** é o que só uma delas tem: o +1 PE por Classe e o teto de Classe são da Integridade e não têm par do lado da exaustão, então eles não competem com nada — eles simplesmente acontecem.
 
-E os **6 m contra a metade** ficam como estão, diferentes de propósito. A Integridade é dano de alma e deve doer mais; se as duas dessem o mesmo corte, a alma estaria cobrando o preço do cansaço.
+~~E os **6 m contra a metade** ficam como estão, diferentes de propósito. A Integridade é dano de alma e deve doer mais; se as duas dessem o mesmo corte, a alma estaria cobrando o preço do cansaço.~~
+
+> ***v0.347: o degrau 2 é `4,5 m`, e não `6 m`.*** *O Mizuki trocou o número na revisão do Word da v0.176 (o CHANGELOG daquela versão lista "exaustão, degrau 2: `6 m` → `4,5 m`" entre as regras que ele mudou como autor), o livro v0.331 publicou, e a candidata e o R41 mantiveram. Esta peça e o validador dela ficaram no `6 m` até aqui.* **Com isso o argumento do parágrafo riscado deixou de valer:** *num deslocamento de `9 m`, a exaustão e a Integridade deixam os mesmos `4,5 m`; num de `12 m`, a Integridade deixa `6 m` e a exaustão deixa `4,5 m`, então o cansaço corta mais que a alma.* **O livro resolve o encontro das duas assim:** *compare o limite da exaustão com a metade do deslocamento e use o menor. O limite de `4,5 m` não aumenta um deslocamento que já esteja menor ou zerado.*
 
 ### O teto de três, e por que ele existe
 

@@ -51,6 +51,22 @@ def bloco(t):
 
 
 # --------------------------------------------------------------------------
+# v0.347: o deslocamento do degrau 2 e' LIDO da peca 10 e do R41, e nao escrito aqui.
+# Ate a v0.346 ele era a constante `6`, e a peca dizia `6 m` enquanto o livro dizia
+# `4,5 m` desde a revisao do Word da v0.176 — tres documentos, dois numeros, e este
+# validador conferindo a peca contra ele mesmo.
+import livro as _livro10
+_P10_TXT = open(os.path.join(AQUI, '10-descanso-e-recuperacao.md'), encoding='utf-8').read()
+DESLOC_BASE = 9                       # peca 3: deslocamento base
+_m_desl = re.search(r'^\| \*\*2\*\* \| deslocamento cai para (\d+(?:,\d+)?) m \|', _P10_TXT, re.M)
+DESLOC_EXAUSTAO = float(_m_desl.group(1).replace(',', '.')) if _m_desl else None
+try:
+    _m_liv = re.search(r'^\| 2 \| Deslocamento limitado a (\d+(?:,\d+)?) m\. \|',
+                       _livro10.texto('dano'), re.M)
+except _livro10.LivroMudou:
+    _m_liv = None
+DESLOC_EXAUSTAO_LIVRO = float(_m_liv.group(1).replace(',', '.')) if _m_liv else None
+
 CURTO_BASE = 0.25          # do PE maximo
 LONGO_FORA = 0.50          # do PE maximo, fora de ambiente propicio
 LUTAS_DE_GRACA = 3         # a exaustao entra da 4a em diante
@@ -60,7 +76,7 @@ TETO_EXAUSTAO = 3
 EXAUSTAO = {
     0: ('—',                                              0.25),
     1: ('desvantagem em pericia e oficio',                0.15),
-    2: ('deslocamento cai para 6 m',                      0.05),
+    2: ('deslocamento cai para %g m' % (DESLOC_EXAUSTAO or 0), 0.05),
     3: ('desvantagem em ataque e Teste de Resistencia',   0.00),
 }
 # quais degraus tocam a ROLAGEM DE LUTA
@@ -285,13 +301,13 @@ if abs(pico - PICO_ESPERADO) > 0.001:
 # tamanho declarado de cada degrau, na mesma moeda
 TAMANHO = {  # degrau -> (eixo, tamanho em pp, consequencia da falha)
     1: ('pericia e oficio',              25.0, 'a cena anda'),
-    2: ('deslocamento 9 m -> 6 m',       None, 'posicao'),
+    2: ('deslocamento %g m -> %g m' % (DESLOC_BASE, DESLOC_EXAUSTAO or 0), None, 'posicao'),
     3: ('ataque e Teste de Resistencia', 25.0, 'dano, e as vezes a vida'),
 }
 print()
 print(f"  {'degrau':<8}{'eixo':<34}{'tamanho no pico':<18}{'a falha custa'}")
 for d, (eixo, pp, cons) in TAMANHO.items():
-    t = f'-{pp:.0f} pp' if pp is not None else '-33% de alcance'
+    t = f'-{pp:.0f} pp' if pp is not None else '-%d%% de alcance' % round(100 * (1 - (DESLOC_EXAUSTAO or 0) / DESLOC_BASE))
     print(f'  {d:<8}{eixo:<34}{t:<18}{cons}')
 
 desv = [d for d, (_, pp, _) in TAMANHO.items() if pp is not None]
@@ -315,8 +331,6 @@ if 25 <= max(10, 20, 15):
 
 # --------------------------------------------------------------------------
 bloco('8. EXAUSTAO E INTEGRIDADE AO MESMO TEMPO — pega o pior, nao soma')
-DESLOC_BASE = 9                       # peca 3: deslocamento base
-DESLOC_EXAUSTAO = 6                   # peca 10, degrau 2
 DESLOC_INTEGRIDADE = DESLOC_BASE / 2  # manual, estagio 2: "pela metade"
 
 INTEGRIDADE = {  # estagio -> eixos, como o manual escreve
@@ -367,15 +381,34 @@ else:
     print(f'\n  Se somasse: acerto de {p:.0%} cairia para {duas_somando:.1%} em vez de {uma:.0%}.')
     print(f'  Pegando o pior, ele para em {uma:.0%} — que e o que qualquer mesa faria.')
 
-# os 6 m e a metade divergem DE PROPOSITO, e a divergencia tem sentido
-if DESLOC_INTEGRIDADE >= DESLOC_EXAUSTAO:
-    erro(f'a Integridade deixou de cortar mais deslocamento que a exaustao '
-         f'({DESLOC_INTEGRIDADE:g} m contra {DESLOC_EXAUSTAO:g} m) — '
-         f'dano de alma deveria doer mais que cansaco')
+# v0.347. Ate a v0.346 esta checagem cobrava que a Integridade cortasse MAIS que a
+# exaustao ("os 6 m e a metade divergem de proposito"). O Mizuki trocou o degrau 2 para
+# 4,5 m na revisao do Word da v0.176, e com 4,5 m a frase deixa de ser verdade: os dois
+# empatam no deslocamento de 9 m, e num de 12 m a exaustao corta mais. Entao a checagem
+# deixou de cobrar o argumento e passou a cobrar tres coisas que continuam verdadeiras:
+# a peca e o livro publicam o MESMO numero; a peca nao sustenta mais, fora de trecho
+# riscado, que os dois numeros diferem de proposito; e o tamanho publicado na tabela do
+# degrau ("-N% de alcance") e' o que o numero da.
+if DESLOC_EXAUSTAO is None:
+    erro('8: nao li na peca 10 o deslocamento do degrau 2 da exaustao')
+elif DESLOC_EXAUSTAO_LIVRO is None:
+    erro('8: nao li no R41 o deslocamento do degrau 2 da exaustao')
+elif DESLOC_EXAUSTAO != DESLOC_EXAUSTAO_LIVRO:
+    erro(f'8: a peca 10 deixa {DESLOC_EXAUSTAO:g} m no degrau 2 da exaustao e o R41 deixa '
+         f'{DESLOC_EXAUSTAO_LIVRO:g} m')
 else:
-    print(f'\n  Deslocamento: exaustao deixa {DESLOC_EXAUSTAO:g} m, Integridade deixa '
-          f'{DESLOC_INTEGRIDADE:g} m, de uma base de {DESLOC_BASE:g}.')
-    print('  A alma corta mais que o cansaco, e e por isso que os dois numeros diferem.')
+    if 'diferentes de propósito' in re.sub(r'~~.*?~~', '', _P10_TXT):
+        erro('8: a peca 10 voltou a dizer, fora de trecho riscado, que o corte da exaustao e '
+             'o da Integridade sao "diferentes de proposito" — com o numero de hoje eles '
+             'empatam no deslocamento base')
+    _pc8 = round(100 * (1 - DESLOC_EXAUSTAO / DESLOC_BASE))
+    _mp8 = re.search(r'\| 2 \| deslocamento, de (\d+) m para ([\d,]+) m \| −(\d+)% de alcance \|', _P10_TXT)
+    if not _mp8 or (int(_mp8.group(1)), float(_mp8.group(2).replace(',', '.')), int(_mp8.group(3))) != (DESLOC_BASE, DESLOC_EXAUSTAO, _pc8):
+        erro(f'8: a tabela do tamanho dos degraus nao publica "de {DESLOC_BASE} m para '
+             f'{DESLOC_EXAUSTAO:g} m, −{_pc8}% de alcance"')
+    print(f'\n  Deslocamento: exaustao deixa {DESLOC_EXAUSTAO:g} m, na peca e no R41; a Integridade '
+          f'deixa {DESLOC_INTEGRIDADE:g} m de uma base de {DESLOC_BASE:g}.')
+    print('  Os dois empatam na base; quem esta nas duas usa o menor limite.')
 
 # =============================================================================
 # 9. A ESCADA DE RELOGIOS ESTA DEFINIDA, e o degrau mais usado tem dono

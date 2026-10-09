@@ -912,7 +912,7 @@ else:
 
 
 # --------------------------------------------------------------------------
-bloco('7. OS TIPOS DE DANO — catorze, tres grupos, e a tabela de resistencia')
+bloco('7. OS TIPOS DE DANO — quinze, tres grupos, e a tabela de resistencia')
 # --------------------------------------------------------------------------
 GRUPOS = {}
 for _l in TXT.split('\n'):
@@ -928,16 +928,36 @@ if len(GRUPOS) != 3:
 else:
     _tipos = [t for g, _ in GRUPOS.values() for t in g]
     _peso = sum(p for _, p in GRUPOS.values())
-    if len(_tipos) != 14:
-        erro(f'7: sao {len(_tipos)} tipos de dano na tabela e a peca diz catorze')
-    elif len(set(_tipos)) != 14:
+    # v0.347: a contagem deixou de ser a constante 14. Ela e' lida da frase da peca
+    # ("Quinze tipos, em tres grupos") e a LISTA e' comparada, grupo a grupo, com a
+    # tabela "Tipos de dano" do R41. Foi por nao haver essa comparacao que o `Força`
+    # ficou no livro e fora da peca da v0.337 a v0.346.
+    _NUM7 = {'catorze': 14, 'quinze': 15, 'dezesseis': 16}
+    _m7 = re.search(r'> \*\*(\w+) tipos, em três grupos\.\*\*', TXT)
+    _dito7 = _NUM7.get(_m7.group(1).lower()) if _m7 else None
+    try:
+        _liv7 = {l['Grupo']: sorted(x.strip(' .') for x in re.split(r',| e ', l['Tipos']) if x.strip(' .'))
+                 for l in livro.tabela(livro.secao(livro.texto('dano'), 'Tipos de dano'), 'Grupo', 'Tipos')}
+    except livro.LivroMudou as _e7:
+        _liv7 = None
+        erro(f'7: nao li a tabela de tipos de dano do R41 — {_e7}')
+    if _dito7 is None:
+        erro('7: a secao 4 nao diz mais quantos tipos de dano sao ("N tipos, em três grupos")')
+    elif len(_tipos) != _dito7:
+        erro(f'7: sao {len(_tipos)} tipos de dano na tabela e a peca diz {_m7.group(1).lower()}')
+    elif len(set(_tipos)) != len(_tipos):
         erro('7: tem tipo de dano repetido na tabela')
     elif _peso != 100:
         erro(f'7: os tres grupos somam {_peso}% do dano recebido, e tem de somar 100')
+    elif _liv7 is not None and {g: sorted(t) for g, (t, _) in GRUPOS.items()} != _liv7:
+        _dif7 = {g: (sorted(set(GRUPOS[g][0]) - set(_liv7.get(g, []))),
+                     sorted(set(_liv7.get(g, [])) - set(GRUPOS[g][0]))) for g in GRUPOS}
+        erro('7: os tipos de dano da peca e os do R41 nao sao os mesmos — (so na peca, so no '
+             'livro) por grupo: ' + '; '.join(f'{g}: {v}' for g, v in _dif7.items() if v[0] or v[1]))
     else:
-        print(f'  14 tipos em 3 grupos: '
+        print(f'  {len(_tipos)} tipos em 3 grupos: '
               + ' · '.join(f'{g} {p}%' for g, (_, p) in GRUPOS.items()))
-        print('  [x] os tipos nao repetem e os tres pesos somam 100%')
+        print('  [x] os tipos nao repetem, os tres pesos somam 100%, e a lista e a do R41')
 
     # a natureza da lista tem de continuar dita: o peso e' PREVISAO sem dono, e
     # previsao que perde o rotulo vira numero fechado na versao seguinte.

@@ -10,7 +10,8 @@ Uma linha por decisão que mudou o livro na revisão de 07 a 09/10, dizendo o qu
 - **v0.344:** as Bênçãos `Represália` e `Sangue Frio` (itens 180 a 185), na peça 11 §6.8, com a conta dos gates refeita. Conferidas pela sub-checagem 9.1 do `conferir-aptidoes.py`.
 - **v0.345:** itens 113 (peça 13), 118 e 119 (peça 12). Conferidos pela mesma sub-checagem 10.9, que passou a cobrir nove regras.
 - **v0.346:** a fonte dos validadores passou da candidata para o R41. **As 22 linhas `livro` passaram a ter o dono certo:** *o livro que os validadores leem já traz a regra decidida.* Isso não quer dizer que cada uma tem checagem própria; os validadores conferem o que já conferiam (o Catálogo entrada por entrada, as condições, e as frases que cada um cobra).
-- **Falta dos casos `nova` e `desfaz`:** só o 115, que espera a resposta do Mizuki. **A frente seguinte são os capítulos do passo 5b,** começando por Dano sem o Morrendo.
+- **v0.347:** o capítulo de Dano sem o Morrendo (tipos de dano e exaustão; nenhuma linha deste inventário, porque as duas divergências eram anteriores à revisão).
+- **Falta dos casos `nova` e `desfaz`:** só o 115, que espera a resposta do Mizuki. **Faltam três capítulos do passo 5b,** e é neles que estão as 16 linhas `capítulo` deste inventário (Poderes avançados e Ritual e Pactos).
 
 ## Os casos
 
