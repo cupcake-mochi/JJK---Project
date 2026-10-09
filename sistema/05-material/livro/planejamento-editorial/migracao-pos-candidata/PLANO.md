@@ -406,6 +406,24 @@ Depois da passada, o inventário fica assim:
 - **As checagens 7 e 7.1 do `conferir-ritual.py` ainda leem o capítulo 46 do livro v0.331,** *que está congelado e diverge do R41 no ritual auxiliado e na falha. Entram no mesmo arquivamento das fontes do manual v7.*
 - **O item 40 (lista de pactos de exemplo, balanceada) e o exemplo do Sukuna** *seguem na seção C do `MUDANCAS-DE-REGRA.md`; não são deste passo.*
 
+## O validador da Expansão sai do gerador do manual v7, feito em 09/10/2026 (v0.351)
+
+*Preparação do arquivamento que os passos 5 e 5b deixaram pendente. Revisão por modelo, não humana.*
+
+**O `conferir-expansao.py` era o último validador que lia o `manual/gerador`.** *Ele lia o `partE.js` em dois lugares (o custo de abrir e os blocos 11 a 12) e o capítulo 9 do livro v0.331 ao lado, e cobrava que as duas cópias concordassem. As duas estão congeladas desde a v0.337 e divergem do livro final nas regras que a revisão mudou.* **Os blocos passaram a ler o capítulo de Poderes avançados do R41:**
+
+- **O custo de abrir** *sai da tabela "Abrir e manter".*
+- **Bloco 11, a disputa:** *as quatro perguntas da cascata, numeradas e decidindo, na ordem, por refino, Acerto sem dano, dado e corrida; o dado e a margem do desempate; a pergunta 4 cobrindo exatamente o que a 3 não decide; e nenhum outro número na página.*
+- **Bloco 11.1:** *as oito saídas da regra nas páginas da disputa.*
+- **Bloco 11.2, o teste de Vigor na corrida:** *as oito peças da regra, a fração e o arredondamento contra a peça 1 §5.4, e a tabela de falhas refeita célula a célula até o teto de atributo da peça 2.*
+- **Bloco 12, a Expansão sem Barreiras:** *o preço em espaços contra o texto ("mais um", "mais dois"), o gate contra o teto de refino da peça 2 e a perícia da peça 7, o custo e o desconto do modo aberto contra a maestria da peça 18, o exemplo da página refeito com as tabelas, o raio fechado, o raio aberto na tabela e no texto, e nove frases.*
+
+**Saiu sem substituto, porque o R41 não tem o que conferir:** *a caixa "REFINO, EM UMA LINHA" do manual; a comparação manual × livro (hoje há um documento só); e a tabela "Raio do domínio" do livro v0.331 (o R41 publica a fórmula).*
+
+**O tamanho do que falta, medido numa cópia sem o `manual/gerador`, o `.docx` e o `.pdf`:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` passam. O `conferir-repositorio.py` acusa `54` coisas: quatro arquivos que o README promete e cinquenta citações de caminho, em dezessete documentos (catorze neste plano, doze no `ESTADO-ATUAL.md`, e o resto em evidências do livro, várias presas por hash). A contagem é de antes dos documentos desta versão, que citam os mesmos caminhos mais algumas vezes.* **Mover os arquivos e montar o mapa de movidos é a próxima versão.** *Os dois scripts de medição que leem o gerador (`casca-sem-barreira.py` e `sobrecarga.py`) não estão na bateria e vão junto para o arquivo.*
+
+**O que continua lendo o livro v0.331, e não é deste arquivamento:** *o livro v0.331 fica onde está. O `conferir-expansao.py` ainda lê os capítulos 25 e 45 dele no bloco 10, e o `conferir-ritual.py` lê o 46 nas checagens 7 e 7.1.*
+
 ## Os seis capítulos sem passo, achados em 06/10/2026
 
 **A tabela de tamanho do topo lista seis capítulos que a ordem proposta não cobria:** *Ritual e Pactos (29 registros confirmados, peças 22 e 27), Poderes avançados (21, peça 11 e o rascunho da Expansão sem Barreiras), Regras gerais (19, peças 01, 03, 04, 05 e 23), Origens (18, peças 09 e 13), Rotas (14, peças 20 e 25) e Aptidões e Refino (13, peça 11).* **São 114 registros que nenhum passo migrava.** *Eles entram como passo 5b, um capítulo por versão, comparando o capítulo inteiro com as peças (o inventário não cobre as rodadas anteriores, como se viu no Equipamento e no tipo `Força` do Dano). Antes deles vai o capítulo de Dano sem o Morrendo.*

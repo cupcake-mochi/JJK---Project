@@ -8,7 +8,33 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
-## [0.350] — 09/10/2026
+## [0.351] — 09/10/2026
+
+**O `conferir-expansao.py` deixou de ler o gerador do manual v7.** *Ele era o último validador que lia o `manual/gerador`: o `partE.js` em dois lugares, e o capítulo 9 do livro v0.331 ao lado, cobrando que as duas cópias concordassem. As duas estão congeladas desde a v0.337.* **O custo de abrir e os blocos 11, 11.1, 11.2 e 12 passaram a ler o capítulo de Poderes avançados do R41, que é o dono da Expansão.**
+
+- **Bloco 11, a disputa de domínios:** *a cascata de quatro perguntas (refino, Acerto sem dano, dado, corrida), o desempate (`1d12`, margem `4`), a pergunta 4 cobrindo de `0` a `3`, e nenhum outro número na página.*
+- **Bloco 11.1:** *as oito saídas da regra.*
+- **Bloco 11.2, o teste de Vigor na corrida:** *oito peças da regra, a fração e o arredondamento contra a peça 1, e a tabela de falhas refeita célula a célula.*
+- **Bloco 12, a Expansão sem Barreiras:** *preço em espaços, gate, custo e desconto do modo aberto, o exemplo da página refeito com as tabelas (`49` e `8` no aberto, `42` e `5` no fechado), os raios e nove frases.*
+
+**Saiu sem substituto:** *a caixa "REFINO, EM UMA LINHA" do manual, a comparação manual × livro e a tabela "Raio do domínio" do livro v0.331. O R41 não tem nenhuma das três.*
+
+**Peça 22, respostas do Mizuki às perguntas da v0.350:**
+
+- **O teto de `0,50` fatia fica escrito e parado** *("Tudo bem").*
+- **Pacto não concede aptidão nem espaço de feitiço** *("Sim, n da"). O §3.3 já estava assim, e deixou de dizer que era leitura minha.*
+- **A pergunta da `Promessa` continua aberta.** *Eu tinha perguntado duas coisas numa frase (de quem é a vaga, e se Essência `0` ou `1` fica sem `Promessa`), e a resposta, "Não", serve às duas leituras. Nada foi aplicado.*
+
+**Medido, para a próxima versão:** *numa cópia sem o `manual/gerador`, o `.docx` e o `.pdf`, os `27` validadores, o `pac7.py` e o `v7.py` passam. Só o `conferir-repositorio.py` reclama: `54` coisas, que são quatro arquivos prometidos pelo README e cinquenta citações de caminho em dezessete documentos.*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *quinze perturbações no R41, cada uma cobrada no bloco e na mensagem esperados, e uma rodada sem a pasta do gerador.* **As quinze acenderam, e sem o gerador o validador passa.**
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: mover o gerador do manual v7, o `.docx` e o `.pdf` para o arquivo, com o mapa de movidos; o item 115 e a pergunta da `Promessa` quando o Mizuki responder.
+
+---
+
 
 **O capítulo de Ritual e Pactos do R41 chegou às peças 27 e 22, e o passo 5b fechou.** *As duas peças estavam no texto do livro v0.331. O R41 é a candidata com seis decisões do Mizuki em cima (itens 34 a 36, 37, 39, 42, 47 e 50) e o resto da reconstrução mantido por ele. Quatro das seis mudaram regra de peça.*
 

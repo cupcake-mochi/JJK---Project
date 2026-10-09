@@ -35,12 +35,12 @@ CONTRATO DE INVARIANTES:
      movimento, senao a defesa vira cerca.
   9. O DEGRAU SEM BARREIRAS (v0.226) exclui o generalista DE PROPOSITO, e so ele;
      o raio de todos sai de 1,5 m x refino; nada disso mora aqui dentro.
-  8. O CLASH NAO TEM NUMERO, E A CAIXA DO REFINO CONCORDA COM A SECAO. Ele entrou
-     na v0.173 e e' todo derivado: cascata de refino, tipo de Acerto, e corrida
-     sobre estado que ja tinha dono. A caixa REFINO, EM UMA LINHA declara em
-     quantos lugares o refino e' lido ali, e essa contagem e' a segunda copia da
-     secao — o bloco 11 le do GERADOR, que e' o dono, e nao do .docx, que e'
-     gerado a partir dele.
+  8. A DISPUTA DE DOMINIOS SO TEM UM NUMERO, O DESEMPATE. Ela entrou na v0.173 e e'
+     toda derivada: cascata de refino, tipo de Acerto, e corrida sobre estado que ja
+     tinha dono. Desde a v0.351 os blocos 11 a 12 leem o capitulo de Poderes avancados
+     do R41, que e' o dono; ate a v0.350 liam o gerador do manual v7 (partE.js) e o
+     capitulo 9 do livro v0.331, e cobravam que os dois concordassem. A caixa REFINO,
+     EM UMA LINHA do manual nao existe no R41 e saiu sem substituto.
 
 Roda sem argumento. Sai com codigo 1 se algo quebrar.
 """
@@ -111,31 +111,24 @@ PRECO = {'incompleta': 2, 'completa': 3}
 # E o valor deixou de morar aqui na mesma versao: ele e' LIDO do gerador do manual,
 # que e' o dono. Ele era a quinta copia do mesmo numero, e a lição no 9 nao abre
 # excecao para constante de validador.
-_GER_E = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                      '..', '..', 'manual', 'gerador', 'partE.js')
+# v0.351: o dono passou a ser o R41. Ate a v0.350 o valor era lido do gerador do manual v7
+# (partE.js), que esta congelado desde a v0.337.
+import livro as _livro_abrir
 try:
-    _TXT_E = renomes.traduz(open(_GER_E, encoding='utf-8').read())
-except OSError:
+    _TXT_E = _livro_abrir.texto('poderes')
+except _livro_abrir.LivroMudou:
     _TXT_E = ''
 
 PE_ABRIR = None
-if _TXT_E:
-    # duas formas legitimas da linha: os dois degraus com o mesmo numero, ou cada
-    # um com o seu. O extrator le as duas, e a guarda embaixo recusa nao achar.
-    _m = re.search(r'as duas cobram \*\*(\d+) × a sua maior Classe\*\* de PE', _TXT_E)
-    if _m:
-        PE_ABRIR = {'incompleta': int(_m.group(1)), 'completa': int(_m.group(1))}
-    else:
-        _m = re.search(r'A incompleta cobra \*\*(\d+) ×[^*]*\*\* de PE; a completa, '
-                       r'\*\*(\d+) ×\*\*', _TXT_E)
-        if _m:
-            PE_ABRIR = {'incompleta': int(_m.group(1)), 'completa': int(_m.group(2))}
+_mi_abrir = re.search(r'(?m)^\| Incompleta \| (\d+) × maior Classe em PE \|', _TXT_E)
+_mc_abrir = re.search(r'(?m)^\| Completa ou fechado \| (\d+) × maior Classe em PE \|', _TXT_E)
+if _mi_abrir and _mc_abrir:
+    PE_ABRIR = {'incompleta': int(_mi_abrir.group(1)), 'completa': int(_mc_abrir.group(1))}
 
 if PE_ABRIR is None:
-    erro('nao consegui ler o custo de abrir a Expansao no gerador do manual — sem '
-         'ele o bloco 7 mediria contra um numero inventado aqui dentro, que e '
-         'exatamente o que a v0.174 tirou. Formas aceitas: "as duas cobram N x a '
-         'sua maior Classe de PE" ou "A incompleta cobra N x ...; a completa, M x"')
+    erro('nao consegui ler o custo de abrir a Expansao na tabela "Abrir e manter" do R41 — '
+         'as linhas esperadas sao "| Incompleta | N × maior Classe em PE |" e '
+         '"| Completa ou fechado | M × maior Classe em PE |"')
     PE_ABRIR = {'incompleta': 6, 'completa': 6}   # so para o resto do arquivo rodar
 
 PE_TECNICA_MAXIMA = 5
@@ -910,381 +903,210 @@ else:
 
 
 # --------------------------------------------------------------------------
-bloco('11. O CLASH — a caixa do refino bate com a secao, e o unico numero e o desempate')
+bloco('11. A DISPUTA DE DOMINIOS — a cascata do R41, e o unico numero e o desempate')
 
-# v0.173. O dono e' o GERADOR e nao o .docx: o .docx e' saida, e conferir a saida
-# faria esta checagem depender de alguem ter rodado o make.js. Ler o gerador tambem
-# dispensa o python-docx, que e' o que faz cinco validadores pularem calados.
-_GER = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                    '..', '..', 'manual', 'gerador', 'partE.js')
+# v0.351. Ate a v0.350 os blocos 11, 11.1, 11.2 e 12 liam o gerador do manual v7 (partE.js),
+# que era o dono, e o capitulo 9 do livro v0.331, que era a copia, e cobravam que os dois
+# concordassem. Os dois estao congelados desde a v0.337 e divergem do livro final nas regras
+# que a revisao do Mizuki mudou; o dono da Expansao e' o R41, e e' ele que estes blocos leem.
+# Saiu sem substituto, porque o R41 nao tem o que conferir: a caixa "REFINO, EM UMA LINHA" do
+# manual, a comparacao manual x livro (hoje ha um documento so) e a tabela "Raio do dominio"
+# do livro v0.331 (o R41 publica a formula, e nao a tabela).
+import livro as _livro11
 try:
-    _PE = open(_GER, encoding='utf-8').read()
-except OSError:
-    _PE = ''
-    erro('11: nao consegui abrir manual/gerador/partE.js — a secao da Expansao e a '
-         'caixa do refino nao foram conferidas, e este bloco sairia verde calado')
+    _POD = _livro11.texto('poderes')
+except _livro11.LivroMudou as _e11:
+    _POD = ''
+    erro(f'11: nao li o capitulo de Poderes avancados do R41 — {_e11}')
 
-PALAVRA_N = {'um': 1, 'dois': 2, 'tres': 3, 'três': 3, 'quatro': 4, 'cinco': 5,
-             'seis': 6, 'sete': 7}
 
-if _PE:
-    # --- a caixa REFINO, EM UMA LINHA: o numero escrito contra o que ela lista --
-    _cx = re.search(r"BOX\('REFINO, EM UMA LINHA',\s*\[\s*'(.*?)',\s*\]\s*\)",
-                    _PE, re.S)
-    if not _cx:
-        erro('11: nao achei a caixa REFINO, EM UMA LINHA no partE.js — ela e a '
-             'segunda copia da contagem de leituras, e sem ela nao ha o que comparar')
+def _pagina11(titulo):
+    """O texto de uma pagina do capitulo: do titulo `# ` ate o proximo `# `."""
+    m = re.search(r'^# ' + re.escape(titulo) + r'[ \t]*$', _POD, re.M)
+    if not m:
+        erro(f'11: o capitulo de Poderes avancados do R41 nao tem a pagina "{titulo}" — o '
+             'titulo mudou, e o que este validador confere nela parou de ser conferido')
+        return ''
+    f = re.search(r'^# ', _POD[m.end():], re.M)
+    return _POD[m.end(): m.end() + f.start()] if f else _POD[m.end():]
+
+
+_DEGR = _pagina11('Expansão de Domínio')
+_ABRE = _pagina11('Abrir e manter')
+_SEMB = _pagina11('Expansão sem Barreiras')
+_DISP = _pagina11('Disputa de domínios')
+_MANT = _pagina11('Manter uma disputa')
+_SOBR = _pagina11('Áreas sobrepostas')
+_VARI = _pagina11('Vários domínios')
+
+PALAVRA_N = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'tres': 3, 'três': 3, 'quatro': 4}
+FORMAS = [(r'\d+\s*d\s*\d+', 'notacao de dado'),
+          (r'\d+\s*%', 'porcentagem'),
+          (r'\d+\s*(?:rodadas?|PE|metros?)\b', 'custo ou prazo')]
+
+if _DISP:
+    # --- a cascata: contagem, numeracao, e quem decide cada degrau ---------------
+    _linhas = re.findall(r'(?m)^\|\s*(\d)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*$', _DISP)
+    print(f'  a cascata da disputa tem {len(_linhas)} pergunta(s)')
+    # Nenhuma destas ancoras carrega o valor que confere: sao os nomes das quatro coisas
+    # que decidem, na ordem. A linha tem de casar com a sua ancora e com nenhuma outra,
+    # senao uma troca de ordem entre duas passaria calada.
+    DEGRAU = [('o refino', r'Refino diferente'),
+              ('o Acerto sem dano', r'Acerto sem dano'),
+              ('o dado do desempate', r'\d+d\d+'),
+              ('a corrida', r'disputa continua')]
+    if len(_linhas) != len(DEGRAU):
+        erro(f'11: a cascata da disputa rendeu {len(_linhas)} pergunta(s) e sao '
+             f'{len(DEGRAU)} — extrator que para de achar nao confere nada')
+    elif [n for n, _, _ in _linhas] != [str(i) for i in range(1, len(_linhas) + 1)]:
+        erro(f'11: a numeracao da cascata tem buraco: {[n for n, _, _ in _linhas]}')
     else:
-        _txt = _cx.group(1)
-        _m = re.search(r'lido em (\w+) lugares e nada mais:\s*(.+?)\.\*\*', _txt)
-        if not _m:
-            erro('11: a caixa do refino parou de dizer "lido em <numero> lugares e '
-                 f'nada mais: <lista>" — sem essa forma a contagem nao tem par: {_txt[:80]}')
-        else:
-            _declara = PALAVRA_N.get(_m.group(1))
-            _itens = [i for i in re.split(r'\*\*,\s*\*\*|\s+e\s+\*\*', _m.group(2))
-                      if i.strip(' *')]
-            _lista = [i.strip(' *') for i in _itens]
-            print(f'  a caixa declara {_declara} leitura(s) e lista {len(_lista)}: '
-                  + ' · '.join(_lista))
-            if _declara is None:
-                erro(f'11: o numeral "{_m.group(1)}" da caixa do refino nao esta no '
-                     f'dicionario — a contagem nao pode ser comparada')
-            elif _declara != len(_lista):
-                erro(f'11: a caixa do refino diz {_declara} leitura(s) e enumera '
-                     f'{len(_lista)} — um numero, dois donos, dentro da mesma caixa')
-            elif _declara < 3:
-                erro(f'11: a caixa do refino enumera so {_declara} leitura(s) — o '
-                     f'extrator quebrou, e a comparacao passaria trivialmente')
-            else:
-                print('  [x] a caixa conta o mesmo que ela lista.')
+        _ruim = []
+        for (_n, _p, _q), (_nome, _rx) in zip(_linhas, DEGRAU):
+            _casou = [nm for nm, rx in DEGRAU if re.search(rx, f'{_p} {_q}')]
+            if _casou != [_nome]:
+                _ruim.append(f'a pergunta {_n} devia decidir por {_nome} e casa com '
+                             f'{_casou or "nada"}')
+        for _r in _ruim:
+            erro(f'11: {_r}. A ordem da cascata e a regra')
+        if not _ruim:
+            print(f'  [x] a cascata esta numerada sem buraco, e os {len(DEGRAU)} degraus '
+                  'decidem, na ordem, por: ' + ' · '.join(n for n, _ in DEGRAU) + '.')
 
-            # --- e cada leitura declarada tem regra na secao ------------------
-            ANCORA = {
-                'requisito': r'refino 4',
-                'desconto': r'refino de PE na incompleta',
-                'tempo': r'\*\*Dura metade do refino em rodadas\*\*',
-                'tamanho': r'raio de [\d,]+ m × refino',
-                'conquista': r'Quem tem mais \*\*refino',
-            }
-            _faltam = []
-            for _chave, _rx in ANCORA.items():
-                _citada = any(_chave in i for i in _lista)
-                _tem_regra = re.search(_rx, _PE) is not None
-                if _citada and not _tem_regra:
-                    _faltam.append(f'"{_chave}" e declarada na caixa e nao tem regra')
-                if _tem_regra and not _citada:
-                    _faltam.append(f'"{_chave}" tem regra na secao e a caixa nao a lista')
-            for _f in _faltam:
-                erro(f'11: {_f} — a caixa diz "e nada mais", entao ela mente')
-            if not _faltam:
-                print('  [x] toda leitura declarada tem regra, e toda regra esta '
-                      'declarada.')
-
-    # --- a cascata do clash: contagem e numeracao ---------------------------
-    _sec = _PE[_PE.index("H3('Dois domínios"):] if "H3('Dois domínios" in _PE else ''
-    if not _sec:
-        erro('11: nao achei a secao "Dois dominios abertos ao mesmo tempo" no '
-             'partE.js — o clash saiu do manual')
+    # --- o desempate: o dado, a margem, e a faixa que sobra para a corrida -------
+    # Os valores NAO estao escritos aqui: sao lidos do R41. O que este bloco sabe e' a
+    # forma, e que a pergunta 4 tem de cobrir exatamente o que a 3 nao decide.
+    _dado = re.search(r'(\d+d\d+)', _DISP)
+    _marg = re.search(r'diferença de (\d+) ou mais', _DISP)
+    _faixa = re.search(r'Diferença de (\d+) a (\d+) no d\d+', _DISP)
+    if not (_dado and _marg and _faixa):
+        erro('11: nao achei o dado do desempate, a margem dele e a faixa da pergunta 4 na '
+             'pagina da disputa — sem os tres a checagem abaixo passaria vazia')
     else:
-        _sec = _sec[:_sec.index('];')] if '];' in _sec else _sec
-        _linhas = re.findall(r"\[\'(\d)\', \'([^\']+)\', \'([^\']+)\'\]", _sec)
-        print(f'  a cascata do clash tem {len(_linhas)} pergunta(s)')
-        if len(_linhas) < 4:
-            erro(f'11: a cascata do clash rendeu {len(_linhas)} pergunta(s) e sao '
-                 f'quatro — extrator que para de achar nao confere nada')
-        elif [n for n, _, _ in _linhas] != [str(i) for i in
-                                            range(1, len(_linhas) + 1)]:
-            erro(f'11: a numeracao da cascata tem buraco: '
-                 f'{[n for n, _, _ in _linhas]}')
+        print(f'  o desempate publicado no R41: {_dado.group(1)}, margem {_marg.group(1)}; '
+              f'a corrida cobre de {_faixa.group(1)} a {_faixa.group(2)}')
+        if (int(_faixa.group(1)), int(_faixa.group(2))) != (0, int(_marg.group(1)) - 1):
+            erro(f'11: a pergunta 3 decide com {_marg.group(1)} ou mais e a 4 cobre de '
+                 f'{_faixa.group(1)} a {_faixa.group(2)} — entre as duas sobra buraco ou '
+                 'sobreposicao')
         else:
-            print('  [x] a cascata esta numerada sem buraco, e a ultima e a corrida.')
+            print('  [x] a pergunta 4 cobre exatamente o que a 3 nao decide.')
 
-        # --- e a secao tem DOIS numeros proprios, e so eles ------------------
-        # ⚠ A v0.173 fechou esta secao como "zero numero novo", e a v0.200 abriu
-        # a excecao de proposito: o desempate por dado precisa de um dado e de uma
-        # margem. Entao a checagem trocou de pergunta — de "nao tem numero" para
-        # "tem exatamente estes dois, e nada mais".
-        #
-        # Os valores NAO estao escritos aqui: eles sao LIDOS do manual, que e' o
-        # dono. O que este bloco sabe e' a forma, e a 11.1 cobra que o livro repita
-        # os mesmos que o manual publicou.
-        _dado = re.search(r'(\d+d\d+)', _sec)
-        _marg = re.search(r'\*\*(\d+) ou mais\*\*', _sec)
-        if not _dado or not _marg:
-            erro('11: nao achei o dado do desempate e a margem dele na secao do '
-                 'clash — a pergunta 3 e o unico lugar do clash onde numero pode '
-                 'aparecer, e se ela sumiu a checagem abaixo passaria vazia')
-        else:
-            print(f'  o desempate publicado no manual: {_dado.group(1)}, '
-                  f'margem {_marg.group(1)}')
-
-        # o resto continua proibido: dado que nao seja o do desempate, porcentagem
-        # e prazo. A porcentagem da caixa do "por que" e' razao e nao regra, entao
-        # ela sai da varredura junto com a caixa.
-        _corpo = _sec.split("BOX('POR QUE")[0]
-        FORMAS = [(r'\d+\s*d\s*\d+', 'notacao de dado'),
-                  (r'\d+\s*%', 'porcentagem'),
-                  (r'\d+\s*(?:rodadas?|PE|metros?)\b', 'custo ou prazo')]
-        _permitido = {_dado.group(1) if _dado else None}
-        _achados = [f'{_nome}: "{_m2.group(0)}"'
-                    for _rx, _nome in FORMAS
-                    for _m2 in re.finditer(_rx, _corpo)
-                    if _m2.group(0).replace(' ', '') not in _permitido]
-        if _achados:
-            for _a in _achados:
-                erro(f'11: a secao do clash escreveu numero que nao e o desempate '
-                     f'— {_a}. Fora do dado e da margem ela continua toda derivada: '
-                     f'cascata de refino, tipo de Acerto e corrida sobre estado '
-                     f'ja publicado')
-        else:
-            print('  [x] fora do desempate a secao nao escreve dado, porcentagem '
-                  'nem prazo.')
+    # --- e a pagina tem esse numero, e so ele -----------------------------------
+    _permitido = {_dado.group(1) if _dado else None}
+    _achados = [f'{_nome}: "{_m2.group(0)}"'
+                for _rx, _nome in FORMAS
+                for _m2 in re.finditer(_rx, _DISP)
+                if _m2.group(0).replace(' ', '') not in _permitido]
+    if _achados:
+        for _a in _achados:
+            erro(f'11: a pagina da disputa escreveu numero que nao e o desempate — {_a}. '
+                 'Fora do dado e da margem ela e toda derivada: cascata de refino, tipo de '
+                 'Acerto e corrida sobre estado ja publicado')
+    else:
+        print('  [x] fora do desempate a pagina nao escreve dado, porcentagem nem prazo.')
 
 
 # --------------------------------------------------------------------------
-bloco('11.1. O CLASH MORA EM DOIS DOCUMENTOS — o livro e o manual concordam?')
+bloco('11.1. AS SAIDAS DA DISPUTA — as oito estao no R41')
 
-# v0.200: a secao entrou no livro, e com ela a licao no 9 — um numero (aqui, uma
-# ORDEM) que mora em dois documentos vai divergir. O dono continua sendo o manual;
-# o livro e' copia, e esta checagem existe para a copia nao envelhecer calada.
-#
-# O que se compara NAO e' o texto: eu reescrevi frases na passagem, e cobrar
-# byte por byte transformaria toda revisao de estilo em falha. O que nao pode
-# mudar e' a ORDEM e QUEM DECIDE cada degrau.
-_LIVRO = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..',
-                      '05-material', 'livro', 'manual', '40-fundamento.md')
-
-# o decisor de cada degrau, na ordem. Nenhum destes carrega o valor que confere:
-# sao os nomes das tres coisas, e nao os numeros delas.
-# ⚠ o ancora do degrau 1 e' `mais refino` e nao `refino` seco, e a diferenca nao
-# e' estetica: a pergunta 2 comeca com "Refino igual", entao `refino` seco casa com
-# as duas e uma troca de ordem entre elas passaria metade calada. O manual escreve
-# em negrito e o livro em texto limpo, e por isso o `\**` no meio.
-DEGRAU = [('refino',  r'mais\s+\**refino'),
-          ('o Acerto que nao fere', r'n[aã]o\s+(?:causa dano|fere)'),
-          ('o dado do desempate', r'\d+d\d+'),
-          ('a corrida', r'corrida')]
-
-def _cascata(texto, linhas):
-    """Devolve o degrau que cada linha numerada diz decidir."""
-    fora = []
-    for n, linha in linhas:
-        casou = [nome for nome, rx in DEGRAU if re.search(rx, linha, re.I)]
-        fora.append((n, casou))
-    return fora
-
-try:
-    _lv = open(_LIVRO, encoding='utf-8').read()
-except OSError:
-    _lv = ''
-    erro('11.1: nao consegui abrir o capitulo do Fundamento do livro — a copia '
-         'do clash nao foi conferida, e este bloco sairia verde calado')
-
-if _lv and _PE:
-    _i = _lv.find('### Domínios sobrepostos')
-    if _i < 0:
-        erro('11.1: o livro perdeu a secao "Dominios sobrepostos" — o clash '
-             'voltou a existir so no manual do Fundamento')
-    else:
-        _sl = _lv[_i:]
-        _fim = _sl.find('\n## ')
-        _sl = _sl[:_fim] if _fim > 0 else _sl
-        _tab = [(m.group(1), m.group(0)) for m in
-                re.finditer(r'(?m)^\|\s*(\d)\s*\|.*$', _sl)]
-        print(f'  a cascata do livro tem {len(_tab)} pergunta(s); a do manual, '
-              f'{len(_linhas)}')
-        if len(_tab) != len(_linhas):
-            erro(f'11.1: o livro escreve {len(_tab)} pergunta(s) e o manual '
-                 f'{len(_linhas)} — uma das duas copias mudou sozinha')
-        else:
-            _dl = _cascata(_sl, _tab)
-            _dm = _cascata(_sec, [(n, f'{p} {q}') for n, p, q in _linhas])
-            _ruim = []
-            for k, ((nl, cl), (nm, cm)) in enumerate(zip(_dl, _dm)):
-                esperado = DEGRAU[k][0]
-                if nl != nm:
-                    _ruim.append(f'a linha {k+1} e "{nl}" no livro e "{nm}" no manual')
-                elif esperado not in cl:
-                    _ruim.append(f'a pergunta {nl} do LIVRO nao decide por '
-                                 f'{esperado} — ela casa com {cl or "nada"}')
-                elif esperado not in cm:
-                    _ruim.append(f'a pergunta {nm} do MANUAL nao decide por '
-                                 f'{esperado} — ela casa com {cm or "nada"}')
-            for _r in _ruim:
-                erro(f'11.1: {_r}. A ordem da cascata e a regra, e as duas copias '
-                     f'tem de dizer a mesma')
-            if not _ruim:
-                print(f'  [x] os {len(DEGRAU)} degraus decidem pela mesma coisa, '
-                      f'na mesma ordem, nos dois documentos.')
-
-        # --- e a copia tem de trazer as SEIS saidas, e nao so a cascata -----
-        # ⚠ v0.200: este pedaco nasceu de uma falha real. A transposicao levou a
-        # cascata e esqueceu a caixa dos tres dominios, e o bloco 11.1 saiu VERDE
-        # porque so olhava a ordem das tres perguntas. Uma checagem que confere o
-        # meio da secao e nao as pontas dela deixa a copia encolher calada.
-        #
-        # Nenhum destes ancoras carrega valor: sao os NOMES das seis saidas.
-        SAIDAS = {
-            'a sobreposicao':        r'sobrep',
-            'os Acertos desligados': r'nenhum dos dois acerta',
-            'a corrida':             r'corrida',
-            'o perdedor recebe':     r'Acerto do vencedor',
-            'o Rescaldo dos dois':   r'Rescaldo',
-            'a incompleta que nao vence': r'n[aã]o pode vencer',
-            'tres ou mais caem':     r'tr[eê]s ou mais',
-            'a concentracao':        r'concentra',
-        }
-        for _nome, _rx in SAIDAS.items():
-            _no_man = re.search(_rx, _sec, re.I) is not None
-            _no_liv = re.search(_rx, _sl, re.I) is not None
-            if _no_man and not _no_liv:
-                erro(f'11.1: o manual escreve "{_nome}" e o livro nao — a copia '
-                     f'encolheu, e o jogador fica sem uma saida que a regra tem')
-            if _no_liv and not _no_man:
-                erro(f'11.1: o livro escreve "{_nome}" e o manual nao — a copia '
-                     f'cresceu, e quem manda na regra e o manual')
-        print(f'  [x] as {len(SAIDAS)} saidas da regra estao nos dois documentos.')
-
-        # --- o desempate: o mesmo dado e a mesma margem nos dois -----------
-        # ⚠ v0.200. Este e o unico numero que a secao tem, e ele mora nos dois
-        # documentos — licao no 9 na forma mais pura. O manual e' o dono; o valor
-        # nao esta escrito aqui, ele e' lido de la e cobrado no livro.
-        _dl = re.search(r'(\d+d\d+)', _sl)
-        _ml = re.search(r'\*\*(\d+) ou mais\*\*', _sl)
-        if not _dl or not _ml:
-            erro('11.1: o livro nao publica o dado do desempate e a margem dele — '
-                 'a pergunta 3 chegou la sem numero, e ela e o unico lugar do '
-                 'clash onde numero pode aparecer')
-        elif not _dado or not _marg:
-            pass                                  # a 11 ja acusou o lado do manual
-        elif (_dl.group(1), _ml.group(1)) != (_dado.group(1), _marg.group(1)):
-            erro(f'11.1: o desempate diverge — o manual publica '
-                 f'{_dado.group(1)} margem {_marg.group(1)} e o livro '
-                 f'{_dl.group(1)} margem {_ml.group(1)}. Um numero, dois donos')
-        else:
-            print(f'  [x] o desempate e o mesmo nos dois: {_dl.group(1)}, '
-                  f'margem {_ml.group(1)}.')
-
-        # a copia do livro herda a regra de "zero numero proprio"
-        _corpo_lv = _sl.split('> **Por que')[0]
-        _ac2 = [f'{nome}: "{m.group(0)}"' for rx, nome in FORMAS
-                for m in re.finditer(rx, _corpo_lv)
-                if m.group(0).replace(' ', '') not in _permitido]
-        if _ac2:
-            for _a in _ac2:
-                erro(f'11.1: a copia do clash no LIVRO escreveu numero proprio — '
-                     f'{_a}. O manual nao tem nenhum, e a copia nao pode ter mais '
-                     f'regra que o dono')
-        else:
-            print('  [x] a copia do livro tambem nao escreve dado, porcentagem '
-                  'nem prazo.')
+# v0.200: este pedaco nasceu de uma falha real — a copia do livro levou a cascata e esqueceu
+# a caixa dos tres dominios, e o bloco saiu verde porque so olhava a ordem das perguntas.
+# v0.351: a comparacao entre duas copias acabou, e a pergunta ficou: o livro final traz as
+# oito saidas que a regra tem? Nenhuma ancora carrega valor: sao os NOMES das saidas.
+_DISPUTA_TODA = '\n'.join((_DISP, _MANT, _SOBR, _VARI))
+SAIDAS = {
+    'a sobreposicao':             r'sobrep',
+    'os Acertos suspensos':       r'Acertos ficam suspensos',
+    'a corrida':                  r'\*\*corrida\*\*',
+    'o perdedor recebe':          r'Acerto do vencedor',
+    'o Rescaldo dos donos':       r'entram em Rescaldo',
+    'a incompleta que nao vence': r'não vence a disputa',
+    'tres ou mais barreiras':     r'três ou mais',
+    'a Concentracao fica livre':  r'não ocupam sua Concentração',
+}
+if _DISP and _MANT and _SOBR and _VARI:
+    _falta11 = [n for n, rx in SAIDAS.items() if not re.search(rx, _DISPUTA_TODA)]
+    for _n in _falta11:
+        erro(f'11.1: o R41 nao escreve "{_n}" nas paginas da disputa — o jogador fica sem '
+             'uma saida que a regra tem')
+    if not _falta11:
+        print(f'  [x] as {len(SAIDAS)} saidas da regra estao nas paginas da disputa.')
 
 
 # --------------------------------------------------------------------------
-bloco('11.2. A CONCENTRACAO NA CORRIDA — a regra nos dois documentos, e a tabela sai da conta')
+bloco('11.2. O TESTE DE VIGOR NA CORRIDA — a regra no R41, e a tabela sai da conta')
 # --------------------------------------------------------------------------
-# v0.225. Decisao do Mizuki em 13/09: na corrida, quem mantem um dominio testa
-# Vigor; o jogador testa a cada dano, o inimigo no maximo uma vez por jogador por
-# rodada; as falhas acumulam, e o dominio cai quando elas chegam a uma fracao da
-# Essencia. v0.253 (19/09): a CD deixou de ser a do dono do outro dominio (decisao
-# de 12/09) e passou a ser a de quem feriu, a mesma da Concentracao — a peca 3 §3
-# e' a dona, e a frase antiga fica PROIBIDA nos dois documentos.
+# v0.225. Decisao do Mizuki em 13/09: na corrida, quem mantem um dominio testa Vigor; o
+# jogador testa a cada dano, o inimigo no maximo uma vez por jogador por rodada; as falhas
+# acumulam, e o dominio cai quando elas chegam a uma fracao da Essencia. v0.253 (19/09): a CD
+# e' a de quem feriu, e a frase antiga ("CD do dono do outro dominio") fica PROIBIDA.
+# v0.351: a regra e' lida do R41, com a redacao dele.
 #
 # Tres coisas separadas, porque cada uma pode quebrar sozinha:
-#   a) as cinco pecas da regra estao no manual (dono) E no livro (copia)
-#   b) a FRACAO e o ARREDONDAMENTO do manual sao os da peca 1 §5.4 — a regra
-#      aplicada contra o limite de design, e nao contra ela mesma
-#   c) a tabela do livro sai da conta, celula a celula, e cobre a escala inteira
-#      de Essencia, com o teto lido da peca 2
-# Nenhum valor esta escrito aqui: a fracao sai do texto do manual, o piso e o
-# lado do arredondamento saem da peca 1, e o teto sai da peca 2.
+#   a) as oito pecas da regra estao na pagina "Manter uma disputa"
+#   b) a FRACAO e o ARREDONDAMENTO sao os da peca 1 §5.4
+#   c) a tabela sai da conta, celula a celula, e cobre a escala inteira de Essencia, com o
+#      teto lido da peca 2
 _AQ = os.path.dirname(os.path.abspath(__file__))
 _P1 = open(os.path.join(_AQ, '01-atributos-acerto-defesa.md'), encoding='utf-8').read()
 _P2 = open(os.path.join(_AQ, '02-economia-de-atributos.md'), encoding='utf-8').read()
-
-_iM = _PE.find("H3('Dois domínios")
-_secM = _PE[_iM:] if _iM >= 0 else ''
-_fM = min([x for x in (_secM.find("H3(", 5), _secM.find("H2(", 5)) if x > 0] or [len(_secM)])
-_secM = _secM[:_fM]
-_iL = _lv.find('### Domínios sobrepostos') if _lv else -1
-_secL = _lv[_iL:] if _iL >= 0 else ''
-_fL = _secL.find('\n## ')
-_secL = _secL[:_fL] if _fL > 0 else _secL
+_mant = _MANT.replace('**', '')
 
 PECAS = {
-    'o teste':                  r'Teste de Resistência de Vigor contra a CD de quem te feriu',
-    'a maior CD':               r'e contra a maior CD entre eles',
-    'a contagem de falhas':     r'as falhas chegam a (metade|um terço|um quarto) da sua Essência',
-    'o jogador, sem limite':    r'jogador testa a cada dano que toma, sem limite',
-    'o inimigo, um por jogador': r'no máximo uma vez por jogador que acertou ele na rodada',
-    'a queda na corrida':       r'falhas de concentração demais',
-    'nao ocupa a Concentracao': r'Este teste não ocupa a sua Concentração',
-    'a Mao Firme nao protege':  r'a Mão Firme não protege dele',
-    'a invocacao nao conta':    r'Golpe de invocação não conta',
+    'o teste':                   r'TR de Vigor contra a CD de quem causou o dano',
+    'a maior CD':                r'contra a maior CD entre eles',
+    'a contagem de falhas':      r'ao atingir (metade|um terço|um quarto) da sua Essência em falhas',
+    'o jogador, sem limite':     r'testa a cada aplicação de dano recebido, sem limite por rodada',
+    'o inimigo, um por jogador': r'no máximo um teste por personagem de jogador que o acertou na rodada',
+    'nao ocupa a Concentracao':  r'Esses testes não ocupam sua Concentração',
+    'beneficio de Concentracao nao protege': r'Benefícios destinados apenas à Concentração não se aplicam',
+    'a invocacao nao conta':     r'Dano de invocação reduz vida, mas não provoca esse teste',
 }
-if not _secM or not _secL:
-    erro('11.2: nao achei a secao do clash no manual ou no livro — a regra da '
-         'concentracao na corrida nao foi conferida')
-else:
-    _falta = []
-    for _nome, _rx in PECAS.items():
-        _nm = re.search(_rx, _secM.replace('**', '')) is not None
-        _nl = re.search(_rx, _secL.replace('**', '')) is not None
-        if not _nm:
-            _falta.append(f'"{_nome}" nao esta no MANUAL, que e o dono')
-        if not _nl:
-            _falta.append(f'"{_nome}" nao esta no LIVRO')
+if _MANT:
+    _falta = [n for n, rx in PECAS.items() if not re.search(rx, _mant)]
     for _f in _falta:
-        erro(f'11.2: {_f}')
+        erro(f'11.2: "{_f}" nao esta na pagina "Manter uma disputa" do R41')
     if not _falta:
-        print(f'  [x] as {len(PECAS)} pecas da regra estao no manual e no livro.')
+        print(f'  [x] as {len(PECAS)} pecas da regra estao no R41.')
 
-    # v0.253: a frase da CD antiga nao pode sobreviver em nenhuma das duas copias
-    _velha = r'CD do dono do outro domínio'
-    _ficou = [_o for _o, _t in (('MANUAL', _secM), ('LIVRO', _secL))
-              if re.search(_velha, _t.replace('**', ''))]
-    for _o in _ficou:
-        erro(f'11.2: o {_o} ainda diz "CD do dono do outro dominio" — a decisao de 19/09/2026 '
-             'passou a CD da corrida para a de quem te feriu (peca 3 §3)')
-    if not _ficou:
-        print('  [x] a CD do dono do outro dominio nao sobrevive no manual nem no livro.')
+    if re.search(r'CD do dono do outro domínio', _DISPUTA_TODA.replace('**', '')):
+        erro('11.2: o R41 diz "CD do dono do outro dominio" — a decisao de 19/09/2026 passou '
+             'a CD da corrida para a de quem te feriu (peca 3 §3)')
+    else:
+        print('  [x] a CD do dono do outro dominio nao aparece no R41.')
 
     # b) a fracao e o arredondamento
     FRAC = {'metade': 2, 'um terço': 3, 'um quarto': 4}
-    _fm = re.search(PECAS['a contagem de falhas'], _secM.replace('**', ''))
-    _fl = re.search(PECAS['a contagem de falhas'], _secL.replace('**', ''))
+    _fm = re.search(PECAS['a contagem de falhas'] +
+                    r', arredondada para (baixo|cima), no mínimo (\w+)', _mant)
     _regra_p1 = re.search(r'O que você \*\*ganha\*\* desce\. E o que você ganha nunca fica abaixo de (\d+)\.', _P1)
-    _arred_m = re.search(r'arredondando para baixo, e nunca menos de (\d+)', _secM)
     _teto = re.search(r'\*\*Teto do atributo: (\d+)\.\*\*', _P2)
-    if not (_fm and _fl and _regra_p1 and _arred_m and _teto):
-        erro('11.2: nao li a fracao nos dois documentos, a regra de arredondamento '
-             'da peca 1 §5.4, o arredondamento escrito no manual, ou o teto de '
-             'atributo da peca 2 — sem os cinco a tabela nao tem contra o que conferir')
+    if not (_fm and _regra_p1 and _teto) or _fm.group(3) not in PALAVRA_N:
+        erro('11.2: nao li a fracao e o arredondamento no R41, a regra de arredondamento da '
+             'peca 1 §5.4, ou o teto de atributo da peca 2 — sem os tres a tabela nao tem '
+             'contra o que conferir')
     else:
         _div = FRAC[_fm.group(1)]
         _piso = int(_regra_p1.group(1))
-        if _fm.group(1) != _fl.group(1):
-            erro(f'11.2: o manual diz "{_fm.group(1)}" da Essencia e o livro diz '
-                 f'"{_fl.group(1)}" — um numero, dois donos')
-        if int(_arred_m.group(1)) != _piso:
-            erro(f'11.2: o manual escreve "nunca menos de {_arred_m.group(1)}" e a peca 1 '
-                 f'§5.4 manda o ganho nunca ficar abaixo de {_piso}')
-        print(f'  a fracao do manual: 1/{_div} da Essencia · o piso da peca 1: {_piso} '
+        if _fm.group(2) != 'baixo':
+            erro(f'11.2: o R41 arredonda as falhas para {_fm.group(2)}, e a peca 1 §5.4 manda '
+                 'o que voce ganha descer')
+        if PALAVRA_N[_fm.group(3)] != _piso:
+            erro(f'11.2: o R41 escreve "no minimo {_fm.group(3)}" e a peca 1 §5.4 manda o '
+                 f'ganho nunca ficar abaixo de {_piso}')
+        print(f'  a fracao do R41: 1/{_div} da Essencia · o piso da peca 1: {_piso} '
               f'· o teto de atributo da peca 2: {_teto.group(1)}')
 
-        # c) a tabela do livro, celula a celula
-        _mt = re.search(r'\*\*Falhas que derrubam o domínio\*\*\n\{: \.tab-titulo \}\n\n'
-                        r'\| Essência \|(.*)\|\n\|[-| ]+\|\n\| Falhas \|(.*)\|', _secL)
+        # c) a tabela, celula a celula
+        _mt = re.search(r'\| Essência \| Falhas que encerram o domínio \|\n\|[-| :]+\|\n((?:\|[^\n]*\|\n?)+)', _MANT)
         if not _mt:
-            erro('11.2: o livro perdeu a tabela "Falhas que derrubam o dominio" — o '
-                 'jogador fica sem a conta pronta')
+            erro('11.2: o R41 perdeu a tabela "Falhas que encerram o dominio" — o jogador '
+                 'fica sem a conta pronta')
         else:
-            _cab = [c.strip() for c in _mt.group(1).split('|')]
-            _val = [c.strip() for c in _mt.group(2).split('|')]
             _vistos, _ruim = [], []
-            for _c, _v in zip(_cab, _val):
-                _r = re.fullmatch(r'(\d+)(?: (?:a|e) (\d+))?', _c)
+            for _c, _v in re.findall(r'\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|', _mt.group(1)):
+                _r = re.fullmatch(r'(\d+)(?: (?:a|e|ou) (\d+))?', _c)
                 if not _r or not _v.isdigit():
                     _ruim.append(f'a celula "{_c}" -> "{_v}" nao e lida como faixa de Essencia')
                     continue
@@ -1293,7 +1115,7 @@ else:
                     _vistos.append(_e)
                     _quer = max(_piso, _e // _div)
                     if int(_v) != _quer:
-                        _ruim.append(f'Essencia {_e}: o livro publica {_v} falha(s) e a '
+                        _ruim.append(f'Essencia {_e}: o R41 publica {_v} falha(s) e a '
                                      f'conta da {_quer}')
             _esc = list(range(0, int(_teto.group(1)) + 1))
             if sorted(_vistos) != _esc:
@@ -1301,71 +1123,74 @@ else:
             for _r in _ruim:
                 erro(f'11.2: {_r}')
             if not _ruim:
-                print(f'  [x] a tabela do livro cobre a Essencia de 0 a {_teto.group(1)} e cada '
+                print(f'  [x] a tabela do R41 cobre a Essencia de 0 a {_teto.group(1)} e cada '
                       f'celula e a conta: 1/{_div}, para baixo, nunca menos de {_piso}.')
+
 
 # --------------------------------------------------------------------------
 bloco('12. A EXPANSAO SEM BARREIRAS — o degrau de cima, e o raio de todos')
 # --------------------------------------------------------------------------
-# v0.226. O degrau entrou no manual (dono) e no livro (copia) depois de tres
-# rodadas com o Mizuki; o rascunho e' o RASCUNHO-expansao-sem-barreira.md, e a
-# secao 9 dele e' a especificacao. Nenhum valor mora aqui: cada numero e' LIDO do
-# manual e cobrado no livro, e o que tem dono fora da Expansao (teto de refino,
-# maestria por nivel, a pericia, o Dominio Simples) e' lido do dono.
+# v0.226. O degrau entrou depois de tres rodadas com o Mizuki; o rascunho e' o
+# RASCUNHO-expansao-sem-barreira.md, e a secao 9 dele e' a especificacao. Nenhum valor mora
+# aqui: cada numero e' LIDO do R41 (v0.351; ate a v0.350, do manual v7 e do livro v0.331), e
+# o que tem dono fora da Expansao (teto de refino, maestria por nivel, a pericia, o Dominio
+# Simples) e' lido do dono.
 #
-# ⚠ ESTE DEGRAU QUEBRA O INVARIANTE 3 DE PROPOSITO. O generalista termina com
-# refino 8 e nunca chega nele — "so dois conseguem, e eram outro patamar". A
-# checagem 12.2 cobra que a exclusao seja EXATAMENTE a declarada: generalista
-# fora, as outras duas rotas dentro. Se outra rota cair fora, o gate barra mais
-# do que a decisao pediu.
+# ⚠ ESTE DEGRAU QUEBRA O INVARIANTE 3 DE PROPOSITO. O generalista termina com refino 8 e
+# nunca chega nele — "so dois conseguem, e eram outro patamar". A checagem 12.2 cobra que a
+# exclusao seja EXATAMENTE a declarada: generalista fora, as outras duas rotas dentro.
 _AQ12 = os.path.dirname(os.path.abspath(__file__))
 _P2_12 = open(os.path.join(_AQ12, '02-economia-de-atributos.md'), encoding='utf-8').read()
 _P7_12 = open(os.path.join(_AQ12, '07-pericias-e-oficios.md'), encoding='utf-8').read()
 _P11_12 = open(os.path.join(_AQ12, '11-aptidoes-e-refino.md'), encoding='utf-8').read()
 _P18_12 = open(os.path.join(_AQ12, '18-progressao.md'), encoding='utf-8').read()
-_GL_12 = ''
-try:
-    _GL_12 = open(os.path.join(_AQ12, '..', '05-material', 'livro', 'manual', '07-glossario.md'),
-                  encoding='utf-8').read()
-except OSError:
-    pass
-_LV12 = _lv if _lv else ''
 
-def _dec12(a, b=None):
-    return float(f'{a}.{b}') if b is not None else float(a)
+
+def _dec12(s):
+    return float(s.replace(',', '.'))
+
 
 def _fmt_m(x):
     return (f'{x:.1f}'.rstrip('0').rstrip('.')).replace('.', ',') + ' m'
 
-if not (_PE and _LV12):
-    erro('12: sem o manual ou o livro, o degrau sem barreiras nao foi conferido')
+
+_ruim12 = []
+if not (_DEGR and _ABRE and _SEMB):
+    erro('12: sem as paginas dos degraus, de abrir e da Expansao sem Barreiras do R41, o '
+         'degrau de cima nao foi conferido')
 else:
-    _ruim12 = []
-    # 12.1 o preco em espacos: o degrau e a copia do livro -------------------
-    _mc = re.search(r"\['Completa', '(\d+) espaços \(\+(\d+)\)'", _PE)
-    _ms = re.search(r"\['Sem Barreiras', '(\d+) espaços \(\+(\d+)\)', 'refino (\d+) e especialização em (\w+)'", _PE)
-    _ls = re.search(r"\| \*\*Sem Barreiras\*\* \| (\d+) espaços \(\+(\d+)\) \| refino (\d+) e especialização em `(\w+)` \|", _LV12)
-    if not (_mc and _ms and _ls):
-        erro('12.1: nao achei a linha da Completa e a da Sem Barreiras na tabela de degraus '
-             'do manual, ou a da Sem Barreiras no livro')
+    # 12.1 o preco em espacos ---------------------------------------------------
+    _tot = {n: (int(e), req) for n, e, req in
+            re.findall(r'(?m)^\| (Incompleta|Completa|Sem Barreiras) \| (\d+) \| ([^|]+?) \|', _DEGR)}
+    _mais_c = re.search(r'gasta \*\*mais (\w+) espaço\*\* para adquirir Completa', _DEGR)
+    _mais_s = re.search(r'gasta \*\*mais (\w+)\*\* para adquirir Sem Barreiras', _DEGR)
+    _gs = re.search(r'Completa, refino (\d+) e especialização em (\w+)',
+                    _tot.get('Sem Barreiras', (0, ''))[1])
+    if len(_tot) != 3 or not (_mais_c and _mais_s and _gs) \
+            or _mais_c.group(1) not in PALAVRA_N or _mais_s.group(1) not in PALAVRA_N:
+        erro('12.1: nao li os tres degraus na tabela do R41, as duas frases de "mais N '
+             'espacos" ou o requisito da Sem Barreiras')
+        _gs = None
     else:
-        tot_c, tot_s, dif_s = int(_mc.group(1)), int(_ms.group(1)), int(_ms.group(2))
+        tot_i, tot_c, tot_s = (_tot[n][0] for n in ('Incompleta', 'Completa', 'Sem Barreiras'))
+        dif_c, dif_s = PALAVRA_N[_mais_c.group(1)], PALAVRA_N[_mais_s.group(1)]
+        if tot_c - tot_i != dif_c:
+            _ruim12.append(f'12.1: a Completa custa {tot_c} espacos, a Incompleta {tot_i}, e o '
+                           f'texto diz "mais {_mais_c.group(1)}" — a diferenca escrita nao e a conta')
         if tot_s - tot_c != dif_s:
-            _ruim12.append(f'12.1: a Sem Barreiras custa {tot_s} espacos (+{dif_s}) e a Completa '
-                           f'{tot_c} — a diferenca escrita nao e a conta')
-        if _ms.groups() != _ls.groups():
-            _ruim12.append(f'12.1: o manual publica {_ms.groups()} e o livro {_ls.groups()} na linha do degrau')
+            _ruim12.append(f'12.1: a Sem Barreiras custa {tot_s} espacos, a Completa {tot_c}, e o '
+                           f'texto diz "mais {_mais_s.group(1)}" — a diferenca escrita nao e a conta')
         print(f'  o degrau: {tot_s} espacos (+{dif_s} sobre a Completa de {tot_c}), refino '
-              f'{_ms.group(3)} e especializacao em {_ms.group(4)}')
+              f'{_gs.group(1)} e especializacao em {_gs.group(2)}')
 
         # 12.2 o gate ---------------------------------------------------------
         _teto = re.search(r'\*\*Teto do atributo: \d+\.\*\* Teto do refino: (\d+)\.', _P2_12)
-        _per = _ms.group(4)
+        _per = _gs.group(2)
         _cobre = re.search(r'^\*\*' + re.escape(_per) + r'\*\* — [^\n]*\bbarreiras\b', _P7_12, re.M)
         if not _teto:
             _ruim12.append('12.2: nao li o teto de refino na peca 2')
-        elif int(_ms.group(3)) != int(_teto.group(1)):
-            _ruim12.append(f'12.2: o degrau pede refino {_ms.group(3)} e o teto da peca 2 e '
+        elif int(_gs.group(1)) != int(_teto.group(1)):
+            _ruim12.append(f'12.2: o degrau pede refino {_gs.group(1)} e o teto da peca 2 e '
                            f'{_teto.group(1)} — a decisao foi o refino no teto')
         if not _cobre:
             _ruim12.append(f'12.2: a pericia do gate e "{_per}", e a peca 7 nao diz que ela cobre '
@@ -1382,24 +1207,18 @@ else:
                                f'declarada e so o generalista')
 
     # 12.3 o custo de abrir sem barreira, e o desconto -----------------------
-    _mca = re.search(r'\*\*Sem barreira, abrir cobra (\d+) × a sua maior Classe de PE\*\*, e lá dentro '
-                     r'\*\*cada feitiço custa maestria × (\d+) a menos\*\*', _PE)
-    _lca = re.search(r'\*\*Sem barreira, abrir cobra `(\d+) ×` a sua maior Classe de PE\*\*, e lá dentro '
-                     r'\*\*cada feitiço custa maestria `× (\d+)` a menos\*\*', _LV12)
+    _ab = re.search(r'(?m)^\| Aberto \| (\d+) × maior Classe em PE \| ([\d,]+) m \| (\d+) × Maestria \|', _ABRE)
     _mae = {int(a): int(b) for a, b in re.findall(r'^\| \*{0,2}(\d+)\*{0,2} \| [\d.—]+ \| (\d+) \|', _P18_12, re.M)}
-    if not (_mca and _lca) or len(_mae) != 30:
-        erro('12.3: nao li o custo de abrir sem barreira e o desconto no manual e no livro, '
-             'ou a coluna de maestria da peca 18')
+    if not _ab or len(_mae) != 30:
+        erro('12.3: nao li a linha "Aberto" da tabela "Abrir e manter" do R41, ou a coluna de '
+             'maestria da peca 18')
     else:
-        k_abrir, k_desc = int(_mca.group(1)), int(_mca.group(2))
-        if (k_abrir, k_desc) != (int(_lca.group(1)), int(_lca.group(2))):
-            _ruim12.append(f'12.3: o manual cobra {k_abrir} x e desconta maestria x {k_desc}; '
-                           f'o livro {_lca.group(1)} x e maestria x {_lca.group(2)}')
+        k_abrir, k_desc = int(_ab.group(1)), int(_ab.group(3))
         if k_abrir <= PE_ABRIR['completa']:
             _ruim12.append(f'12.3: abrir sem barreira custa {k_abrir} x e a Completa {PE_ABRIR["completa"]} x '
                            f'— o degrau de cima ficou mais barato de abrir')
         dur = duracao(TETO_REFINO)
-        print(f'  sem barreira: abrir {k_abrir} x a maior Classe, desconto maestria x {k_desc}, '
+        print(f'  sem barreira: abrir {k_abrir} x a maior Classe, desconto {k_desc} x maestria, '
               f'{dur} rodadas no refino {TETO_REFINO}')
         for nv in (22, 26, 30):
             abrir = k_abrir * maior_classe(nv)
@@ -1408,74 +1227,91 @@ else:
             if poupa >= abrir:
                 _ruim12.append(f'12.3: no nv{nv} o desconto devolve {poupa} e abrir custa {abrir} — '
                                f'abrir sem barreira virou lucro')
-
-    # 12.4 o raio do dominio fechado, e a tabela do livro --------------------
-    _mr = re.search(r'\*\*O domínio tem raio de (\d+),(\d+) m × refino\.\*\* A incompleta para em (\d+),(\d+) m\.', _PE)
-    _lr = re.search(r'\*\*O domínio tem raio de `(\d+),(\d+) m` × refino\.\*\* A incompleta para em `(\d+),(\d+) m`\.', _LV12)
-    if not (_mr and _lr):
-        erro('12.4: nao li o raio do dominio no manual e no livro')
-    else:
-        passo, teto_inc = _dec12(_mr.group(1), _mr.group(2)), _dec12(_mr.group(3), _mr.group(4))
-        if _mr.groups() != _lr.groups():
-            _ruim12.append(f'12.4: o raio diverge — manual {_mr.groups()}, livro {_lr.groups()}')
-        _tb = re.search(r'\*\*Raio do domínio\*\*\n\{: \.tab-titulo \}\n\n\| Refino \|(.*)\|\n\|[-| ]+\|\n'
-                        r'\| Incompleta \|(.*)\|\n\| Completa \|(.*)\|', _LV12)
-        if not _tb:
-            _ruim12.append('12.4: o livro perdeu a tabela "Raio do dominio"')
+        # o exemplo da pagina e' a testemunha: ele da' o nivel, a Classe, a maestria e o
+        # refino, e escreve as quatro contas. Cada uma e' refeita com os numeros da tabela.
+        _ex = re.search(r'No nível (\d+), maior Classe (\d+), Maestria (\d+) e refino (\d+), abrir custa '
+                        r'(\d+) PE\. Um feitiço de Classe \d+ custa \d+ − (\d+) = \*\*\d+ PE\*\*\. '
+                        r'Escolhendo o modo fechado, a abertura custaria (\d+) PE e esse feitiço '
+                        r'custaria \d+ − (\d+) = ', _SEMB)
+        if not _ex:
+            _ruim12.append('12.3: nao li o exemplo da pagina "Expansao sem Barreiras" do R41')
         else:
-            refs = [int(c) for c in _tb.group(1).split('|') if c.strip()]
-            for nome, linha, cap in (('incompleta', _tb.group(2), teto_inc), ('completa', _tb.group(3), None)):
-                cel = [c.strip() for c in linha.split('|') if c.strip()]
-                for r, c in zip(refs, cel):
-                    quer = '—' if r < GATE[nome][1] else _fmt_m(min(passo * r, cap) if cap else passo * r)
-                    if c != quer:
-                        _ruim12.append(f'12.4: {nome} no refino {r}: o livro publica "{c}" e a conta da "{quer}"')
-            print(f'  o raio: {_fmt_m(passo)} x refino, a incompleta ate {_fmt_m(teto_inc)}; a tabela do livro '
-                  f'tem os refinos {refs}')
+            _nv, _cl, _ma, _rf, _ca, _da, _cf, _df = (int(x) for x in _ex.groups())
+            _quer = (maior_classe(_nv), _mae.get(_nv), k_abrir * _cl, k_desc * _ma,
+                     PE_ABRIR['completa'] * _cl, _rf // DESCONTO_DIVISOR['completa'])
+            _tem = (_cl, _ma, _ca, _da, _cf, _df)
+            if _quer != _tem:
+                _ruim12.append(f'12.3: o exemplo do R41 escreve (Classe, maestria, abrir aberto, '
+                               f'desconto aberto, abrir fechado, desconto fechado) = {_tem} e a '
+                               f'conta com as tabelas da {_quer}')
+            else:
+                print(f'  [x] o exemplo do R41 (nv{_nv}) sai das tabelas: abrir {_ca} e desconto '
+                      f'{_da} no aberto; abrir {_cf} e desconto {_df} no fechado.')
+
+    # 12.4 o raio do dominio fechado ------------------------------------------
+    _ri = re.search(r'(?m)^\| Incompleta \| [^|]+\| ([\d,]+) m × refino, até ([\d,]+) m \|', _ABRE)
+    _rc = re.search(r'(?m)^\| Completa ou fechado \| [^|]+\| ([\d,]+) m × refino \|', _ABRE)
+    passo = None
+    if not (_ri and _rc):
+        erro('12.4: nao li o raio da Incompleta e o da Completa na tabela "Abrir e manter" do R41')
+    else:
+        passo, teto_inc = _dec12(_rc.group(1)), _dec12(_ri.group(2))
+        if _dec12(_ri.group(1)) != passo:
+            _ruim12.append(f'12.4: a Incompleta cresce {_ri.group(1)} m por refino e a Completa '
+                           f'{_rc.group(1)} m — o passo do raio tem de ser um so')
+        if teto_inc < passo * GATE['incompleta'][1]:
+            _ruim12.append(f'12.4: a Incompleta para em {_fmt_m(teto_inc)}, abaixo do raio que ela '
+                           f'ja tem no refino do gate ({_fmt_m(passo * GATE["incompleta"][1])})')
+        print(f'  o raio: {_fmt_m(passo)} x refino, a incompleta ate {_fmt_m(teto_inc)}')
         _ds = re.search(r'raio `(\d+),(\d+) m \+ refino ÷ (\d+)`', _P11_12)
         if _ds:
-            maior_ds = _dec12(_ds.group(1), _ds.group(2)) + TETO_REFINO / int(_ds.group(3))
+            maior_ds = float(f'{_ds.group(1)}.{_ds.group(2)}') + TETO_REFINO / int(_ds.group(3))
             menor_c = passo * GATE['completa'][1]
             if maior_ds >= menor_c:
                 aviso(f'12.4: o maior Dominio Simples ({_fmt_m(maior_ds)}) ja cobre a menor Completa '
                       f'({_fmt_m(menor_c)}) — a revisao dos anti-dominio precisa olhar isto')
 
     # 12.5 o raio sem barreira ------------------------------------------------
-    _ms5 = re.search(r'\*\*O raio é de (\d+) m, e o centro fica onde você abriu\.\*\*', _PE)
-    _ls5 = re.search(r'\*\*O raio é de `(\d+) m`, e o centro fica onde você abriu\.\*\*', _LV12)
-    if not (_ms5 and _ls5):
-        _ruim12.append('12.5: nao li o raio sem barreira no manual e no livro')
+    _txt5 = re.search(r'área de \*\*([\d,]+) m de raio\*\*, com centro fixo no ponto da abertura', _SEMB)
+    if not (_ab and _txt5):
+        _ruim12.append('12.5: nao li o raio do modo aberto na tabela e no texto do R41')
     else:
-        if _ms5.group(1) != _ls5.group(1):
-            _ruim12.append(f'12.5: o raio sem barreira e {_ms5.group(1)} m no manual e {_ls5.group(1)} m no livro')
-        if _mr and int(_ms5.group(1)) <= _dec12(_mr.group(1), _mr.group(2)) * TETO_REFINO:
+        if _ab.group(2) != _txt5.group(1):
+            _ruim12.append(f'12.5: o raio aberto e {_ab.group(2)} m na tabela e {_txt5.group(1)} m '
+                           'no texto da pagina')
+        if passo is not None and _dec12(_ab.group(2)) <= passo * TETO_REFINO:
             _ruim12.append('12.5: o raio sem barreira nao passa do maior dominio fechado')
+        print(f'  o raio aberto: {_ab.group(2)} m, contra {_fmt_m((passo or 0) * TETO_REFINO)} do '
+              'maior dominio fechado')
 
-    # 12.6 as pecas de texto, nos dois documentos ------------------------------
+    # 12.6 as pecas de texto ----------------------------------------------------
+    _tudo12 = '\n'.join((_DEGR, _SEMB, _SOBR, _VARI)).replace('**', '')
     PECAS12 = {
-        'nao prende':                 r'Ela não prende ninguém\.',
-        'nao tem borda':              r'Ela não tem borda\.',
-        'quem nao tem energia':       r'só é atingido se o seu Acerto alcança o que não tem energia',
-        'o Acerto continua fora':     r'fora dessa área o Acerto da sem barreiras continua',
-        'bate na barreira por fora':  r'bate na barreira do outro por fora',
-        'o Acerto que nao fere':      r'Acerto que não fere não encosta na barreira',
-        'a incompleta so no raio':    r'ela desliga o Acerto só dentro do próprio raio',
-        'fora dos tres ou mais':      r'A Expansão sem Barreiras aberta sem barreira não entra nessa conta',
-        'fechar e a completa':        r'fecha a barreira e ela é a completa em tudo',
+        'nao prende':                 r'Não há uma parede prendendo os ocupantes',
+        'nao tem borda':              r'não tem uma barreira exterior que possa ser destruída',
+        'quem nao tem energia':       r'alcança alguém sem energia amaldiçoada',
+        'o Acerto continua fora':     r'O Acerto do modo aberto continua funcionando fora da área fechada',
+        'bate na barreira por fora':  r'atinge a barreira rival pelo lado de fora',
+        'o Acerto que nao fere':      r'Acerto sem dano não reduz a vida da barreira',
+        'a incompleta so no raio':    r'suspende o Acerto garantido somente dentro do próprio raio',
+        'fora dos tres ou mais':      r'Um domínio aberto e uma Incompleta não contam como barreiras',
+        'fechar e a completa':        r'Abrir fechado conserva todas as regras da Completa',
     }
     for nome, rx in PECAS12.items():
-        if not re.search(rx, _PE.replace('**', '')):
-            _ruim12.append(f'12.6: "{nome}" nao esta no MANUAL, que e o dono')
-        if not re.search(rx, _LV12.replace('**', '')):
-            _ruim12.append(f'12.6: "{nome}" nao esta no LIVRO')
-    if not re.search(r'^\| \*\*Expansão sem Barreiras\*\* \|', _GL_12, re.M):
-        _ruim12.append('12.6: o glossario do livro nao tem a entrada "Expansao sem Barreiras"')
+        if not re.search(rx, _tudo12):
+            _ruim12.append(f'12.6: "{nome}" nao esta no R41')
+    try:
+        _indice12 = _livro11.texto('consulta')
+    except _livro11.LivroMudou:
+        _indice12 = ''
+    if '[Expansão sem Barreiras](#' not in _indice12:
+        _ruim12.append('12.6: o indice de consulta do R41 nao tem a entrada "Expansao sem Barreiras"')
 
     for r in _ruim12:
         erro(r)
     if not _ruim12:
-        print('  [x] o degrau, o gate, o custo, o raio dos dois lados e as pecas de texto batem '
-              'entre manual, livro e donos.')
+        print('  [x] o degrau, o gate, o custo, o exemplo, o raio dos dois lados e as pecas de '
+              'texto batem entre o R41 e os donos.')
 
 # --- 12.7: o R41 contra o modelo deste validador (v0.349) ------------------------
 # Este arquivo mede a Expansao com constantes (GATE, PRECO, PE_ABRIR, os dois
