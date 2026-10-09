@@ -1,6 +1,7 @@
 GERADOR DA FICHA — RPG da Guilda, ficha de nivel 2
 
-  npm install docx        (ou use o node_modules do manual/gerador)
+  npm install docx        (o atalho node_modules desta pasta aponta para o do manual v7 arquivado,
+                           em sistema/99-arquivo/manual-fundamento-v7/gerador; instale la' uma vez)
   node make.js
   cp *.docx ..
 

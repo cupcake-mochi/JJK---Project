@@ -445,6 +445,31 @@ Depois da passada, o inventário fica assim:
 - ~~**A entrega (`finalizado/`) continua levando o `.docx` e o `.pdf` do manual v7.**~~ **FECHADO na v0.353:** *o Mizuki mandou tirar ("tira"). O recorte não leva mais o manual, a 7.1 acusa se os dois arquivos ficarem na pasta e a 7.3 se o README de lá ainda o anunciar. A pasta `finalizado/` mora no HD dele, fora deste repositório: apagar `manual/` de lá e rever o README é trabalho que esta versão não fez.*
 - **O `README.md` e o `PROMPT-PROXIMA-CONVERSA.md` tiveram os caminhos trocados;** *os outros documentos ficam como estavam e resolvem pelo mapa.*
 
+## Passo 6, primeira metade: o gerador da ficha de papel, feito em 09/10/2026 (v0.355)
+
+*Comparação do que `gerador-ficha/` imprime com o livro (R42) e com as peças. Revisão por modelo, não humana.*
+
+**O `conferir-ficha.py` já comparava a ficha com as peças, e passava.** *Então a pergunta foi outra: o que a ficha escreve e nenhuma checagem lê?*
+
+**O que bate com o livro, conferido:** *os `23` nomes de perícia, os `11` de ofício, os `6` Caminhos, as `18` Trilhas, os oito nomes de Origem (cinco Origens, duas especiais e a Sem Técnica) e as `9` Famílias aparecem todos no livro; e batem o nível 2 e o Grau 4 de saída, os nove pontos com teto 3, os `200` XP do nível 2 (duas missões padrão de `100`), a fórmula da Integridade, a proteção de `1 + um terço do refino`, o crítico que dobra os dados básicos, os `25%` do descanso curto, o descanso longo inteiro ou pela metade, duas Famílias Livres e três Fechadas, e o desconto de metade da Classe na Livre.*
+
+**O que estava errado, e era anterior à reconstrução do livro:**
+
+- **A conta dos treinos.** *A ficha dizia "você treina 8 (ou 9)" perícias e "3 (ou 2)" ofícios. A regra é nove e dois, ou dez e nenhum, desde a v0.216 (os ofícios foram para a Origem); a peça 7 §6 é a dona, e o livro escreve a mesma conta.* **Os dois números passaram a sair do `dados.js`.**
+- **A Kaori do exemplo.** *Tinha oito perícias e três ofícios. A peça 8 corrigiu a dela na v0.263 (nove, com `Persuasão`; dois, sem `Caligrafia`), e a do gerador ficou para trás.*
+- **Duas remissões mortas na página 3:** *"o capítulo 17" (o livro final não numera assim) e "o Manual da Guilda" (o livro se chama Ciclo Maldito desde a v0.334).*
+
+**O sub-bloco 10.1 do `conferir-ficha.py` passou a cobrar os três,** *contra a peça 7, a peça 8 e o capítulo de Criação do livro, no `dados.js`, no `ficha.js`, no `make.js` e nos dois `.docx` publicados.*
+
+**Conserto da v0.352:** *o `node_modules` do `gerador-ficha` é um atalho, e o do `gerador-inimigo` aponta para ele. O atalho ia para `manual/gerador/node_modules`, e ficou quebrado quando a pasta foi para o arquivo. A busca que fiz naquela versão olhou quem abria o gerador em código e não olhou atalhos. Ele aponta agora para `sistema/99-arquivo/manual-fundamento-v7/gerador/node_modules`.*
+
+**O que não foi feito, e por quê:**
+
+- **Os Legados da página 3 ficam na forma das peças** *("o Legado Destranca, obrigatório" e "o segundo Legado"). O livro fala em dois Legados, com pelo menos um narrativo. O Mizuki avisou em 09/10/2026 que as Origens vão ser refeitas, e a ficha acompanha quando forem.*
+- **O cabeçalho "RPG da Guilda" ficou.** *É o nome do jogo no servidor; o nome do sistema aparece na remissão ao livro.*
+- **A ficha continua sendo a de nível 2 com técnica inata.** *Ela não tem variante para Técnica Marcial, Sem Técnica ou Restrição Celestial, e isso não mudou.*
+- **Os `.docx` foram gerados com a biblioteca `docx` instalada na cópia do HD do Mizuki,** *lida sem alterar nada lá; neste clone a pasta de dependências não existe, porque o `.gitignore` a exclui.*
+
 ## Os seis capítulos sem passo, achados em 06/10/2026
 
 **A tabela de tamanho do topo lista seis capítulos que a ordem proposta não cobria:** *Ritual e Pactos (29 registros confirmados, peças 22 e 27), Poderes avançados (21, peça 11 e o rascunho da Expansão sem Barreiras), Regras gerais (19, peças 01, 03, 04, 05 e 23), Origens (18, peças 09 e 13), Rotas (14, peças 20 e 25) e Aptidões e Refino (13, peça 11).* **São 114 registros que nenhum passo migrava.** *Eles entram como passo 5b, um capítulo por versão, comparando o capítulo inteiro com as peças (o inventário não cobre as rodadas anteriores, como se viu no Equipamento e no tipo `Força` do Dano). Antes deles vai o capítulo de Dano sem o Morrendo.*

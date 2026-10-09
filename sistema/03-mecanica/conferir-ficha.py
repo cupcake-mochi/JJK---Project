@@ -939,6 +939,99 @@ for _r in _mau10:
 if not _mau10:
     print(f'  [x] o TR treinado soma a {_mp10.group(1)}, como na peca 1, na tabela, na nota e nas duas fichas')
 
+# 10.1 (v0.355): OS TREINOS — quantos a ficha manda treinar, e os da Kaori.
+# A ficha dizia "voce treina 8 (ou 9)" pericias e "3 (ou 2)" oficios, e a Kaori do exemplo
+# tinha oito pericias e tres oficios. A regra e' nove e dois (ou dez e nenhum) desde a v0.216,
+# a peca 8 corrigiu a Kaori dela na v0.263, e a ficha ficou para tras: o titulo das faixas e a
+# lista da Kaori nao eram lidos por checagem nenhuma. Os donos sao a peca 7 §6 (a conta) e a
+# peca 8 (a Kaori); o livro escreve a mesma conta, e ela tambem e' cobrada.
+print()
+print('  10.1 — os treinos: a conta das faixas e os treinos da Kaori')
+_EXT101 = {'nenhum': 0, 'um': 1, 'dois': 2, 'três': 3, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11,
+           'vinte e três': 23}
+_m7 = re.search(r'\*\*(\w+) perícias de ([\w ]+?) e (\w+) ofícios de (\w+)\*\* — ou (\w+) e (\w+),', P7 or '')
+_mau101 = []
+_fj101 = ler(os.path.join(GER, 'ficha.js'), 'o ficha.js do gerador da ficha') or ''
+_g7 = tuple(g.lower() for g in _m7.groups()) if _m7 else ()
+if not _m7 or any(g not in _EXT101 for g in _g7):
+    _mau101.append('nao li na peca 7 §6 a frase "N pericias de M e K oficios de L — ou X e nenhum"')
+else:
+    _np, _tp, _no, _to, _np2, _no2 = (_EXT101[g] for g in _g7)
+    print(f'      peca 7: {_np} pericias de {_tp} e {_no} oficios de {_to}, ou {_np2} e {_no2}')
+    _dp = re.search(r'const PERICIAS_TREINADAS = (\d+);', DADOS or '')
+    _do = re.search(r'const OFICIOS_TREINADOS = (\d+);', DADOS or '')
+    if not (_dp and _do):
+        _mau101.append('o dados.js nao declara PERICIAS_TREINADAS e OFICIOS_TREINADOS')
+    else:
+        if (int(_dp.group(1)), int(_do.group(1))) != (_np, _no):
+            _mau101.append(f'o dados.js manda treinar {_dp.group(1)} pericias e {_do.group(1)} oficios, '
+                           f'e a peca 7 diz {_np} e {_no}')
+        if _np2 != _np + 1 or _no2 != 0:
+            _mau101.append(f'a troca da peca 7 ({_np2} e {_no2}) deixou de ser "uma pericia a mais e '
+                           'nenhum oficio", que e\' o que a faixa da ficha imprime')
+    for _c in ('X.PERICIAS_TREINADAS', 'X.OFICIOS_TREINADOS'):
+        if _c not in _fj101:
+            _mau101.append(f'o ficha.js nao usa {_c} no titulo da faixa — o numero voltou a ser escrito a mao')
+    # as duas fichas publicadas trazem a conta
+    _quer_p, _quer_o = f'você treina {_np} (ou {_np + 1})', f'você treina {_no} (ou nenhum)'
+    for _arq in ('ficha-em-branco.docx', 'ficha-exemplo-kaori.docx'):
+        try:
+            _tx = texto_do_docx(os.path.join(MAT, _arq))
+        except Exception as _e101:
+            _mau101.append(f'{_arq} nao abriu ({_e101})'); continue
+        # a faixa sai em maiusculas no .docx, entao a comparacao e' sem caixa
+        for _q in (_quer_p, _quer_o):
+            if _q.upper() not in _tx.upper():
+                _mau101.append(f'{_arq} nao traz "{_q}" — rode "node make.js" em gerador-ficha e copie '
+                               'para 05-material')
+    # o livro escreve a mesma conta
+    try:
+        import livro as _livro101
+        _ab101 = ' '.join(_livro101.texto('abertura').split())
+    except Exception as _e101:
+        _ab101 = ''
+        _mau101.append(f'nao li o capitulo de Criacao do livro ({_e101})')
+    _ml = re.search(r'\*\*(\w+) perícias e (\w+) ofícios\*\*, ou \*\*(\w+) perícias sem ofícios\*\*', _ab101)
+    _gl = tuple(g.lower() for g in _ml.groups()) if _ml else ()
+    if _ab101 and (not _ml or any(g not in _EXT101 for g in _gl)):
+        _mau101.append('nao li no livro a conta dos treinos ("N pericias e K oficios, ou X pericias sem oficios")')
+    elif _ml and tuple(_EXT101[g] for g in _gl) != (_np, _no, _np2):
+        _mau101.append(f'o livro diz {_gl} e a peca 7 diz ({_np}, {_no}, {_np2})')
+
+# a Kaori: as pericias e os oficios do make.js contra a peca 8
+_mk101 = ler(os.path.join(GER, 'make.js'), 'o make.js do gerador da ficha') or ''
+_kp = re.search(r"pericias: \[([^\]]+)\]", _mk101)
+_ko = re.search(r"oficios: \[([^\]]+)\]", _mk101)
+_p8p = re.search(r'\*\*Perícias — \w+\.\*\* Do Caminho, fixas: ([^.]+)\. Do Caminho, livres: ([^.]+)\. Da Origem: ([^.]+)\.', P8 or '')
+_p8o = re.search(r'\*\*Ofícios — \w+\.\*\* ([^,.]+?) e ([^,.]+?),', P8 or '')
+if not (_kp and _ko and _p8p and _p8o):
+    _mau101.append('nao li as pericias e os oficios da Kaori no make.js ou na peca 8')
+else:
+    _nomes = lambda s: {x.strip() for x in re.split(r',| e ', s) if x.strip()}
+    _fk_p = set(re.findall(r"'([^']+)'", _kp.group(1)))
+    _fk_o = set(re.findall(r"'([^']+)'", _ko.group(1)))
+    _p8_p = _nomes(_p8p.group(1)) | _nomes(_p8p.group(2)) | _nomes(_p8p.group(3))
+    _p8_o = {_p8o.group(1).strip(), _p8o.group(2).strip()}
+    print(f'      Kaori na peca 8: {len(_p8_p)} pericias e {len(_p8_o)} oficios · no make.js: '
+          f'{len(_fk_p)} e {len(_fk_o)}')
+    if _fk_p != _p8_p:
+        _mau101.append(f'as pericias da Kaori divergem: so na peca 8 {sorted(_p8_p - _fk_p)}, '
+                       f'so no make.js {sorted(_fk_p - _p8_p)}')
+    if _fk_o != _p8_o:
+        _mau101.append(f'os oficios da Kaori divergem: so na peca 8 {sorted(_p8_o - _fk_o)}, '
+                       f'so no make.js {sorted(_fk_o - _p8_o)}')
+
+# e a ficha nao manda o jogador para um livro ou um capitulo que nao existe mais
+for _velho, _porque in (('Manual da Guilda', 'o livro se chama Ciclo Maldito desde a v0.334'),
+                        (r'capítulo \d+', 'o livro final nao numera os capitulos assim')):
+    if re.search(_velho, _fj101):
+        _mau101.append(f'o ficha.js ainda escreve "{_velho}" — {_porque}')
+for _r in _mau101:
+    erro('10.1: ' + _r)
+if not _mau101:
+    print('  [x] 10.1: a conta dos treinos e\' a da peca 7 e a do livro, no dados.js, no ficha.js e '
+          'nas duas fichas; e a Kaori treina o que a peca 8 diz')
+
 # ==========================================================================
 print()
 print('=' * 88)

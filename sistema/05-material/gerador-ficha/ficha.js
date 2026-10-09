@@ -100,7 +100,7 @@ function pagina1(f) {
   out.push(NOTA('Treinado: `d20 + atributo + maestria`. Sem treino: `d20 + atributo`.'));
 
   // --- pericias
-  out.push(FAIXA('Perícias — 23, e você treina 8 (ou 9)'));
+  out.push(FAIXA(`Perícias — ${X.PERICIAS.reduce((n, p) => n + p[1].length, 0)}, e você treina ${X.PERICIAS_TREINADAS} (ou ${X.PERICIAS_TREINADAS + 1})`));
   const treinadas = (f && f.pericias) || [];
   const linhas = [];
   X.PERICIAS.forEach(([attr, lista]) => {
@@ -116,14 +116,14 @@ function pagina1(f) {
   out.push(NOTA('Treinada: `d20 + atributo + maestria`. Sem treino: `d20 + atributo` — você tenta do mesmo jeito. Constituição não tem perícia; ela paga em vida.'));
 
   // --- oficios
-  out.push(FAIXA('Ofícios — 11, e você treina 3 (ou 2)'));
+  out.push(FAIXA(`Ofícios — ${X.OFICIOS.length}, e você treina ${X.OFICIOS_TREINADOS} (ou nenhum)`));
   const of = (f && f.oficios) || [];
   const oAlt = Math.ceil(X.OFICIOS.length / 3);
   const oCols = Array.from({ length: 3 }, (_, c) => X.OFICIOS.slice(c * oAlt, (c + 1) * oAlt));
   oCols.forEach(c => { while (c.length < oAlt) c.push(null); });
   out.push(TBL(null, Array.from({ length: oAlt }, (_, i) =>
     oCols.map(c => (c[i] ? `${CX(of.includes(c[i]))}  ${c[i]}` : ''))), [34, 33, 33]));
-  out.push(NOTA('Ofício **não tem atributo fixo**: o mestre escolhe na hora. E ofício sem treino você não tenta — ninguém forja uma lâmina por tentativa.'));
+  out.push(NOTA('Ofício **não tem atributo fixo**: o mestre escolhe na hora. E ofício sem treino você não tenta — ninguém forja uma lâmina por tentativa. Os dois ofícios vêm da Origem, e você pode trocar os dois por mais uma perícia.'));
 
   return out;
 }
@@ -209,7 +209,7 @@ function pagina3(f) {
   out.push(BLOCO('a instituição — o que ela sabe de você, e o que ela não sabe', V(l, 'instituicao'), 2));
 
   out.push(BLOCO('pacto — opcional, e a maioria começa sem', V(l, 'pacto'), 2));
-  out.push(NOTA('**Na criação só entra o pacto de restrição**, escrito junto da Origem ou da técnica. As outras três formas nascem em jogo, e estão no capítulo 17.'));
+  out.push(NOTA('**Na criação só entra o pacto de restrição**, escrito junto da Origem ou da técnica. As outras três formas nascem em jogo, e estão no capítulo de Ritual e Pactos do livro.'));
 
   // --- a tira de referencia: SO' o que e estrutural e nao envelhece
   out.push(FAIXA('Referência rápida'));
@@ -219,7 +219,7 @@ function pagina3(f) {
     ['Crítico', '20 natural, e dobra os dados — só onde há rolagem de acerto'],
     ['Os dois descansos', 'curto devolve 25% do PE máximo; longo devolve tudo em ambiente propício, e metade fora dele'],
   ], [22, 78], { boldCols: [0] }));
-  out.push(NOTA('Isto é só o que não muda. **CDs, condições, exaustão e o resto da mesa estão no Manual da Guilda.** Nota de campanha vai no verso.'));
+  out.push(NOTA('Isto é só o que não muda. **CDs, condições, exaustão e o resto da mesa estão no livro, o Ciclo Maldito.** Nota de campanha vai no verso.'));
 
   return out;
 }

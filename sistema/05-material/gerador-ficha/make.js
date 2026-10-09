@@ -26,9 +26,11 @@ const KAORI = {
              cac: 'd20 + 4', distancia: 'd20 + 3',
              cd: '12', conjuracao: 'd20 + 4' },
   trs: ['Físico', 'Vigor'],
+  // peca 8, "Uma ficha inteira": nove pericias (duas fixas e cinco livres do Caminho, duas da
+  // Origem) e os dois oficios da Origem. Ate a v0.354 faltava `Persuasão` e sobrava `Caligrafia`.
   pericias: ['Atletismo', 'Provocar', 'Sentir Energia', 'Percepção',
-             'Sobrevivência', 'Intuição', 'Hierarquia', 'História'],
-  oficios: ['Forja', 'Caligrafia', 'Herbalismo'],
+             'Sobrevivência', 'Intuição', 'Persuasão', 'Hierarquia', 'História'],
+  oficios: ['Forja', 'Herbalismo'],
   tecnica: {
     regra: 'Tudo que eu prendo entre as minhas mãos fica mais pesado.',
     atributo: 'Força',

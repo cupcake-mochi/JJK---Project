@@ -2,7 +2,7 @@
 
 **O sistema se chama `Ciclo Maldito`** desde a v0.334, o nome do livro final do Mizuki. *Até ali era `Projeto - M`, batizado na v0.94 — a pendência mais velha que existia aqui, aberta na v0.1.* Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.354** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.355** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 
 ## O livro: Ciclo Maldito
@@ -96,7 +96,7 @@ Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não p
 ## Preparar a máquina
 
 ```bash
-cd sistema/99-arquivo/manual-fundamento-v7/gerador && npm install docx   # só para reabrir o manual v7, que está no arquivo
+cd sistema/99-arquivo/manual-fundamento-v7/gerador && npm install docx   # para gerar a ficha e o bloco de inimigo (os dois usam esta pasta por atalho) ou reabrir o manual v7
 ```
 
 **Nenhum validador precisa mais do `python-docx`, desde a v0.337.** *Até a v0.336 seis deles liam o manual do Fundamento v7 (`.docx`) e, sem a biblioteca, pulavam checagem e saíam verdes com código 0 — a tabela de quanto cada um pulava está no `ESTADO-ATUAL`, com a história dela.* **No passo 5 da migração o `.docx` saiu de fonte, e os sete que o abriam passaram a ler o livro reconstruído** pelo `sistema/03-mecanica/livro.py`. *Rodando os 27 com o import bloqueado, todos saem com zero puladas; a sub-checagem `9.1` do `conferir-repositorio.py` acende se algum voltar a abrir o `.docx`.* **O `npm install docx` só serve para quem for regerar o manual v7**, e o gerador dele é o próximo a ir para o arquivo (o `PLANO.md` da migração diz quando).

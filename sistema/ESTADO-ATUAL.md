@@ -1,4 +1,4 @@
-# Migração da candidata para as peças — v0.354, 09/10/2026
+# Migração da candidata para as peças — v0.355, 09/10/2026
 
 **Onde estamos:** o Mizuki autorizou migrar o livro reconstruído para as peças, os validadores, os geradores e as fichas. O plano e o estado de cada passo moram em `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`.
 
@@ -42,7 +42,9 @@
 
 **Na v0.354, o livro passou a ser o R42 e a `Promessa` saiu do limite de pactos:** *o R42 é o R41 com dois blocos mudados, os dois do item 186, e as outras 371 páginas do PDF são idênticas. O PDF, o texto completo, dois scripts do gerador e o registro entraram na pasta `ciclo-maldito-r41/`, que guarda o nome antigo. A peça 22 passou a contar no limite só o permanente e o pacto de restrição, e o `conferir-pactos.py` acompanhou (a checagem 4 lê a lista do livro; o sub-bloco 14.1 trocou as frases).*
 
-**Próximo:** os geradores (`gerador-ficha` e `gerador-inimigo`) e a ficha, que é o passo 6 do plano; o passo 3 (vida a zero) quando o Morrendo for revisto; e o item 115 com a remodelagem das Origens. *A entrega em `finalizado/` ainda é o recorte da v0.331, com o livro antigo; refazê-la em volta do R41 vem depois dos geradores.* *A D43 e a D44 já estão no R41.*
+**Na v0.355, a primeira metade do passo 6, o gerador da ficha de papel:** *os nomes que ela imprime (23 perícias, 11 ofícios, 6 Caminhos, 18 Trilhas, as Origens e as 9 Famílias) estão todos no livro, e as contas que ela resume batem com ele (nível 2, Grau 4, nove pontos, 200 XP, Integridade, proteção, crítico, descansos).* **O que estava errado era antigo e não tinha conferência:** *a ficha mandava treinar `8 (ou 9)` perícias e `3 (ou 2)` ofícios, e a regra é `9 (ou 10)` e `2 (ou nenhum)` desde a v0.216; a Kaori do exemplo tinha uma perícia a menos e um ofício a mais do que a da peça 8; e a página 3 mandava o jogador para "o capítulo 17" e para "o Manual da Guilda".* *Os dois `.docx` foram gerados de novo, e o `conferir-ficha.py` ganhou o sub-bloco 10.1.* **Conserto da v0.352:** *os dois geradores usam a biblioteca `docx` por um atalho que apontava para `manual/gerador/`, e o atalho ficou quebrado quando a pasta foi para o arquivo. Ele aponta para o lugar novo.* **Fica como está, e diverge do livro:** *a página 3 pede "o Legado Destranca" e "o segundo Legado", que é a forma das peças 8, 9 e 13; o livro fala em dois Legados com pelo menos um narrativo. As Origens vão ser refeitas, e a ficha acompanha quando forem.*
+
+**Próximo:** a segunda metade do passo 6, o `gerador-inimigo`; depois a ficha do Sheets, que mora em outro repositório; o passo 3 (vida a zero) quando o Morrendo for revisto; e o item 115 com a remodelagem das Origens. *A entrega em `finalizado/` ainda é o recorte da v0.331, com o livro antigo; refazê-la em volta do R41 vem depois dos geradores.* *A D43 e a D44 já estão no R41.*
 
 **Nesta seção, os nomes novos valem. Daqui para baixo, o histórico conserva os nomes da época.**
 
@@ -268,7 +270,7 @@
 
 Atualizado em 30/09/2026, na v0.330 (última peça fechada: **Ritual**, a peça 27, na v0.262, com o `conferir-ritual.py` e sete checagens; antes dela, o **Bestiário**, a peça 26, na v0.198; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.354.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
+**Versão v0.355.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
 
 **Continuidade atual:** resistência pontual aprovada e integrada em Claude 2; o próximo ensaio está em `bestiario/05-sukuna/ENSAIO-integracao-grade-v286.md`. PV-base aprovado como referência da cura e das partes destrutíveis; no nível 30, cura de ação 78 e partes de 157 PV. Sukuna concluído na v0.287, com a política de débito corrente aprovada. O planejamento das Invocações virou o primeiro lote de desenvolvimento, no HD, e deu os §§47 a 109 da v0.288 à v0.325; a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas (o que sobe a básica, abre Famílias e dá Livres) e a volta do capítulo ao livro, que é decisão dele; o traje, o talismã em campo e o que a entidade carrega fecharam na v0.328 (§§111 a 113), e o que ela leva quando sai de campo na v0.330 (§114); a fila do sistema fechou a cura da Origem `Corpo Amaldiçoado` na v0.326 (o mesmo reparo das invocações, no descanso curto) o peso na v0.327 (o talismã pesa `0,5` de `Volume`, e cada leve vale `0,1`, sem arredondar) e a imunidade dela a `Envenenado` na v0.329, sem medição; o que sobra na fila é o que já estava aberto antes. O histórico abaixo permanece para consulta.
 

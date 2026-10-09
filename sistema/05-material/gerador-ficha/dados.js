@@ -22,7 +22,7 @@ const OFICIOS = ['Condução', 'Arrombamento', 'Herbalismo', 'Forja', 'Caligrafi
                  'Burocracia', 'Entalhador', 'Alfaiate', 'Culinária', 'Instrumento', 'Jogatina'];
 
 // os 6 Caminhos (peca 8, passo 3) — vida no nv1, vida por nivel, PE por nivel.
-// Sem oficio fixo desde a v0.105: o Caminho da dois oficios LIVRES.
+// O Caminho nao da' oficio desde a v0.216: os dois oficios vem da Origem (peca 7 §6).
 const CAMINHOS = [
   { nome: 'Bastião',   dado: 'd12', vida1: 12, vidaNv: 7, peNv: 4,
     pericias: ['Atletismo', 'Provocar'],
@@ -80,9 +80,13 @@ const INTEGRIDADE_POR_NIVEL = 5;
 const INTEGRIDADE_NV = INTEGRIDADE_BASE + INTEGRIDADE_POR_NIVEL * (NIVEL - 1);
 const PONTOS_ATRIBUTO = 9;
 const TETO_ATRIBUTO = 3;
+// peca 7 §6: nove pericias e dois oficios na criacao — ou dez e nenhum, trocando os dois
+// oficios da Origem por mais uma pericia. A ficha dizia 8 (ou 9) e 3 (ou 2) ate a v0.354.
+const PERICIAS_TREINADAS = 9;
+const OFICIOS_TREINADOS = 2;
 
 module.exports = { PERICIAS, OFICIOS, CAMINHOS, ORIGENS, ORIGENS_ESPECIAIS,
   SUB_ORIGEM, TRS, ATRIBUTOS, FAMILIAS, NIVEL, MAESTRIA, REFINO, PROTECAO,
   CLASSE, PONTOS_POR_FEITICO, CONHECIDOS, CLASSE_0, XP_PROXIMO,
   INTEGRIDADE_BASE, INTEGRIDADE_POR_NIVEL, INTEGRIDADE_NV,
-  PONTOS_ATRIBUTO, TETO_ATRIBUTO };
+  PONTOS_ATRIBUTO, TETO_ATRIBUTO, PERICIAS_TREINADAS, OFICIOS_TREINADOS };

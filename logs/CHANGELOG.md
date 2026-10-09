@@ -8,7 +8,32 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
-## [0.354] — 09/10/2026
+## [0.355] — 09/10/2026
+
+**O gerador da ficha de papel foi comparado com o livro, e três erros antigos saíram dela.** *É a primeira metade do passo 6. O `conferir-ficha.py` já comparava a ficha com as peças e passava; os três estavam em texto que nenhuma checagem lia, e são anteriores à reconstrução do livro.*
+
+- **A conta dos treinos.** *A ficha dizia "você treina 8 (ou 9)" perícias e "3 (ou 2)" ofícios. A regra é `9 (ou 10)` e `2 (ou nenhum)` desde a v0.216, na peça 7 §6 e no livro. Os dois números passaram a sair do `dados.js`.*
+- **A Kaori do exemplo** *tinha oito perícias e três ofícios; a da peça 8 tem nove e dois desde a v0.263. Entrou `Persuasão` e saiu `Caligrafia`.*
+- **Duas remissões mortas na página 3:** *"o capítulo 17" virou "o capítulo de Ritual e Pactos do livro", e "o Manual da Guilda" virou "o livro, o Ciclo Maldito".*
+
+**Os dois `.docx` foram gerados de novo** *(a ficha em branco e a da Kaori, nas duas pastas onde ficam).*
+
+**O que bate com o livro, sem mudança:** *todos os nomes que a ficha lista (perícias, ofícios, Caminhos, Trilhas, Origens, Famílias) e as contas que ela resume (nível 2 e Grau 4, nove pontos com teto 3, 200 XP, Integridade, proteção, crítico, os dois descansos, Famílias Livres e Fechadas).*
+
+**`conferir-ficha.py`, sub-bloco 10.1:** *a conta dos treinos contra a peça 7 e contra o capítulo de Criação do livro, no `dados.js`, no `ficha.js` e nos dois `.docx`; as perícias e os ofícios da Kaori contra a peça 8; e as duas remissões mortas.*
+
+**Conserto da v0.352:** *os dois geradores usam a biblioteca `docx` por um atalho (`node_modules`) que apontava para `manual/gerador/`. Ele ficou quebrado quando a pasta foi para o arquivo, e eu não vi: procurei quem abria o gerador em código, e não procurei atalhos. Aponta agora para o lugar novo.*
+
+**O que esta versão não fez:** *os Legados da página 3 ficam na forma das peças ("Destranca" e "o segundo"), que não é a do livro (dois Legados, pelo menos um narrativo); as Origens vão ser refeitas, e a ficha acompanha quando forem. O `gerador-inimigo` é a próxima versão.*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *oito perturbações, no `dados.js`, no `make.js` (duas), no `ficha.js` (duas), na peça 7, no livro e num `.docx` trocado pelo de antes.* **As oito acenderam no sub-bloco novo.**
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`, passo 6, segunda metade: o `gerador-inimigo`.
+
+---
+
 
 **O livro passou a ser o R42, e a `Promessa` saiu do limite de pactos.** *É o item 186, decisão do Mizuki de 09/10/2026: "Não ocupa espaço", e quem tem Essência `0` ou `1` pode fechar uma ("Sim"). Ele desfaz parte do item 37.*
 
