@@ -138,7 +138,7 @@ const EXEMPLO = (() => {
     resist: `resistência a Elementais — a vida se divide por ${elem[2].replace('×', '')}`,
     vida: String(vidaCel(f, dg, n, 1 / (fr * precoIntervencao(dg, n)))), dano: golpe(f, dg), porRodada: `${NUM[n]} ações, e uma Reação`,
     defesa: String(dv[1]), acerto: `+${dv[2]}`, cd: String(dv[3]), refino: String(dv[4]),
-    caracteristicas: 'Escama (Talento) · duas aptidões do catálogo da peça 11',
+    caracteristicas: 'Escama (Talento) · duas aptidões do capítulo de Aptidões e Refino',
     intervencoes: 'a primeira bate um pouco menos que uma ação; as outras duas mudam o campo',
     pacto: 'nenhum — a Essência dele é 0, e o teto é metade dela',
     notas: `Age ${NUM[n]} vezes por rodada e rola o dado uma vez em cada. Um esquadrão de ${X.CAMBIO_POR_PESSOA * n} capangas de ${f[7]} de vida vale o mesmo encontro.`,
@@ -200,7 +200,7 @@ function prontas() {
   const lo = Math.min(...fs6.map((m) => m.lo));
   const hi = Math.max(...fs6.map((m) => m.hi));
   out.push(...titulo(`Maldições prontas — do nível ${lo} ao ${hi}`));
-  out.push(P('Seis fichas para abrir e usar, no molde de bloco do 5e. **Nenhum número foi escolhido:** todos saem das tabelas do fim desta folha, e os atributos cabem na criação da peça 2, com nove pontos e teto `3`, e dez no chefe.'));
+  out.push(P('Seis fichas para abrir e usar, no molde de bloco do 5e. **Nenhum número foi escolhido:** todos saem das tabelas do fim desta folha, e os atributos cabem na criação de personagem, com nove pontos e teto `3`, e dez no chefe.'));
   out.push(P('**A coluna do `Capanga` está vazia.** As seis são `Ameaça ×1` e `Desastre ×4`; ficha de esquadrão é o próximo passo.'));
   out.push(GAP(120));
   out.push(TBL(['MALDIÇÃO', 'CATEGORIA', 'NÍVEL', 'VIDA', 'GOLPE', 'AÇÕES'],
@@ -326,7 +326,7 @@ const doc = new Document({
     properties: { page: { margin: { top: 720, bottom: 640, left: 1153, right: 1153 } } },
     footers: { default: new Footer({ children: [new Paragraph({
       alignment: AlignmentType.CENTER,
-      children: [new TextRun({ text: 'Ciclo Maldito · bloco de inimigo · peça 26',
+      children: [new TextRun({ text: 'Ciclo Maldito · bloco de inimigo',
                                size: 14, color: C.grey })] })] }) },
     children: [...bloco(null, true), ...bloco(EXEMPLO), ...prontas(), ...tabelas()],
   }],

@@ -48,12 +48,12 @@ ONDE MEXER
   dados.js    as sete faixas, as cinco categorias, o fator da Intervencao, a
               regua de resistencia, a sub-categoria, o tamanho, a area natural e
               as seis prontas. NENHUM valor daqui e autoridade — a autoridade e a
-              peca 26 e a tabela `Inimigos` do manual, e o bloco 7 do
+              peca 26, dona tambem da tabela `Inimigos` desde a v0.338, e o bloco 7 do
               conferir-ficha.py compara os dois. Mexeu na peca? Mexa aqui e rode
               o validador.
   make.js     as quatro partes e a montagem. Os helpers de estilo vem do
               ../gerador-ficha/helpers.js — a paleta e a mesma de proposito,
-              porque a ficha, o manual e o bloco vao estar na mesma mesa.
+              porque a ficha, o livro e o bloco vao estar na mesma mesa.
 
 DUAS ESCADAS, E ELAS NAO COINCIDEM
   Vida, dano e acoes mudam em FAIXA DE CLASSE (2-4, 5-8, 9-12, ...).

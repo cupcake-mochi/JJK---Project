@@ -8,7 +8,28 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
-## [0.355] — 09/10/2026
+## [0.356] — 09/10/2026
+
+**O gerador do bloco de inimigo foi comparado com o livro e com os arquivos publicados, e o passo 6 fechou.** *O bloco é da peça 26, que o livro não reproduz; o que ele usa do livro existe lá, e o `.docx` publicado é o que o gerador produz hoje.*
+
+- **O `.pdf` publicado do bloco estava dois renomes atrás do `.docx`.** *Ainda dizia "Projeto - M" e "Passiva": o arquivo era o da v0.287, porque o gerador escreve o `.docx`, o `.pdf` sai de um comando à parte e ninguém comparava os dois. Foi gerado de novo, com as mesmas `14` páginas.*
+- **Saíram as remissões a arquivo do repositório em folha de mesa:** *"o catálogo da peça 11" virou "o capítulo de Aptidões e Refino", "a criação da peça 2" virou "a criação de personagem", o rodapé do bloco perdeu "peça 26", e o da ficha da Kaori trocou "da peça 8" por "do capítulo de Criação".*
+- **Os comentários do gerador deixaram de dar o manual v7 como dono** *da tabela `Inimigos`, da Reação do inimigo e do alcance do Projétil.*
+
+**Gerados de novo:** *o `.docx` e o `.pdf` do bloco, e os dois `.docx` da ficha (só o rodapé da Kaori mudou).*
+
+**`conferir-ficha.py`, sub-bloco 7e:** *todo parágrafo do `.docx` do bloco, com o rodapé, tem de estar no `.pdf`; e o bloco não cita peça do repositório nem documento aposentado. A comparação com o `.pdf` usa o `pdftotext` e é pulada, com aviso impresso, onde ele não estiver instalado. O sub-bloco 10.1 passou a ler o rodapé das fichas.*
+
+**O que esta versão não fez:** *o `.pdf` foi convertido nesta máquina, e a troca de fontes dela não é a da máquina de onde o anterior saiu, então a tipografia mudou um pouco; o conteúdo e a paginação são os mesmos. O bloco não foi comparado com o livro do Bestiário, que tem a passada dele.*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *o `.pdf` de antes no lugar do novo; o rodapé do bloco com "peça 26"; um parágrafo do `.docx` mudado sozinho; o corpo do bloco com "peça 11"; e o rodapé da Kaori com "peça 8".* **Cinco perturbações, cinco acesas.**
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`, passo 7: a ficha do Sheets, em outro repositório; e a entrega em `finalizado/`, que ainda é o recorte da v0.331.
+
+---
+
 
 **O gerador da ficha de papel foi comparado com o livro, e três erros antigos saíram dela.** *É a primeira metade do passo 6. O `conferir-ficha.py` já comparava a ficha com as peças e passava; os três estavam em texto que nenhuma checagem lia, e são anteriores à reconstrução do livro.*
 

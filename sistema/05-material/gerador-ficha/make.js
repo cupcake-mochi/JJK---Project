@@ -74,4 +74,4 @@ function montar(f, arquivo, rodape) {
 
 montar(null, 'ficha-em-branco.docx', 'RPG da Guilda · ficha de nível 2')
   .then(() => montar(KAORI, 'ficha-exemplo-kaori.docx',
-                     'RPG da Guilda · exemplo preenchido: a Kaori, da peça 8'));
+                     'RPG da Guilda · exemplo preenchido: a Kaori, do capítulo de Criação'));

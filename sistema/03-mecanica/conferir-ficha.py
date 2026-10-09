@@ -712,6 +712,64 @@ else:
     else:
         print('  [x] a peca declara o arredondamento meio para baixo, e o gerador segue')
 
+# 7e (v0.356): O BLOCO PUBLICADO — o .pdf diz o mesmo que o .docx, e nenhum dos dois manda o
+# mestre para um documento que ele nao tem. O .pdf de 05-material ficou DOIS renomes atras do
+# .docx (ainda dizia "Projeto - M" e "Passiva"), da v0.333 ate a v0.355: o gerador escreve o
+# .docx, o .pdf sai de um comando a parte, e nenhuma checagem comparava os dois. E o bloco
+# mandava o mestre para "a peca 11" e "a peca 2", que sao arquivos deste repositorio e nao do
+# livro que ele tem na mao.
+print()
+print('  7e — o bloco publicado: o .pdf contra o .docx, e as remissoes')
+import shutil as _sh7e, subprocess as _sp7e, zipfile as _zp7e
+_BD = os.path.join(MAT, 'bloco-de-inimigo.docx')
+_BP = os.path.join(MAT, 'bloco-de-inimigo.pdf')
+
+
+def _paragrafos7e(caminho):
+    # Os paragrafos do .docx, sem espaco nenhum: a quebra de linha do .pdf nao e' a do .docx.
+    # O rodape mora em outro arquivo do pacote (word/footerN.xml), e entra junto.
+    z = _zp7e.ZipFile(caminho)
+    x = ''.join(z.read(n).decode('utf-8') for n in sorted(z.namelist())
+                if re.fullmatch(r'word/(document|footer\d*)\.xml', n))
+    fora = []
+    for par in re.findall(r'<w:p[ >].*?</w:p>', x, re.S):
+        s = ''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', par))
+        for a_, b_ in (('&amp;', '&'), ('&lt;', '<'), ('&gt;', '>'), ('&quot;', '"')):
+            s = s.replace(a_, b_)
+        s = re.sub(r'\s+', '', s)
+        if len(s) >= 12:
+            fora.append(s)
+    return fora
+
+
+if not (os.path.isfile(_BD) and os.path.isfile(_BP)):
+    erro('7e: nao achei o bloco-de-inimigo.docx ou o .pdf em 05-material')
+else:
+    _pars7e = _paragrafos7e(_BD)
+    if len(_pars7e) < 100:
+        erro(f'7e: so li {len(_pars7e)} paragrafo(s) no bloco-de-inimigo.docx — o extrator quebrou')
+    _todo7e = ' '.join(_pars7e)
+    _rem7e = sorted(set(re.findall(r'peça\d+|ManualdaGuilda|Projeto-M|manualdoFundamento', _todo7e)))
+    if _rem7e:
+        erro(f'7e: o bloco de inimigo manda o mestre para {_rem7e} — remissao a arquivo do repositorio '
+             'ou a documento aposentado; o mestre tem o livro')
+    else:
+        print('  [x] o bloco nao manda o mestre para peca do repositorio nem para documento aposentado')
+    if not _sh7e.which('pdftotext'):
+        print('  ~~ PULADA a comparacao do .pdf com o .docx: o `pdftotext` (poppler-utils) nao esta '
+              'instalado nesta maquina.')
+    else:
+        _pdf7e = re.sub(r'\s+', '', _sp7e.run(['pdftotext', _BP, '-'], capture_output=True,
+                                             text=True).stdout).upper()
+        _falta7e = [s for s in _pars7e if s.upper() not in _pdf7e]
+        print(f'      {len(_pars7e)} paragrafos no .docx, {len(_falta7e)} sem par no .pdf')
+        if _falta7e:
+            erro(f'7e: o bloco-de-inimigo.pdf nao traz {len(_falta7e)} paragrafo(s) do .docx (o primeiro: '
+                 f'"{_falta7e[0][:60]}") — ele e\' de uma versao anterior. Gere de novo: '
+                 '`soffice --headless --convert-to pdf bloco-de-inimigo.docx`, em 05-material')
+        else:
+            print('  [x] o .pdf do bloco traz todos os paragrafos do .docx')
+
 # ==========================================================================
 print()
 print('=' * 88)
@@ -1023,8 +1081,10 @@ else:
 
 # e a ficha nao manda o jogador para um livro ou um capitulo que nao existe mais
 for _velho, _porque in (('Manual da Guilda', 'o livro se chama Ciclo Maldito desde a v0.334'),
-                        (r'capítulo \d+', 'o livro final nao numera os capitulos assim')):
-    if re.search(_velho, _fj101):
+                        (r'capítulo \d+', 'o livro final nao numera os capitulos assim'),
+                        (r'peça \d+', 'o jogador tem o livro, e nao as pecas do repositorio')):
+    # o make.js entra pelo rodape das duas fichas; os comentarios dele escrevem "peca", sem cedilha
+    if re.search(_velho, _fj101 + _mk101):
         _mau101.append(f'o ficha.js ainda escreve "{_velho}" — {_porque}')
 for _r in _mau101:
     erro('10.1: ' + _r)

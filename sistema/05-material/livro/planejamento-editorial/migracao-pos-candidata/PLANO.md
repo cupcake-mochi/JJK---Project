@@ -470,6 +470,28 @@ Depois da passada, o inventário fica assim:
 - **A ficha continua sendo a de nível 2 com técnica inata.** *Ela não tem variante para Técnica Marcial, Sem Técnica ou Restrição Celestial, e isso não mudou.*
 - **Os `.docx` foram gerados com a biblioteca `docx` instalada na cópia do HD do Mizuki,** *lida sem alterar nada lá; neste clone a pasta de dependências não existe, porque o `.gitignore` a exclui.*
 
+## Passo 6, segunda metade: o gerador do bloco de inimigo, feito em 09/10/2026 (v0.356)
+
+*Comparação do que `gerador-inimigo/` imprime com o livro (R42), com a peça 26 e com os arquivos publicados. Revisão por modelo, não humana.*
+
+**O bloco de inimigo é da peça 26, e o livro não o reproduz.** *O que ele usa do livro existe lá: os quatro tipos de dano das seis prontas, a condição `Derrubado`, as Formas `Cone` e `Esfera`. O `Retângulo` não é do livro: é a forma da área natural do inimigo, da peça 26 §6.5.* **O `.docx` publicado é o que o gerador produz hoje,** *texto por texto, e o `conferir-ficha.py` (bloco 7) e o `conferir-bestiario.py` já o comparavam com a peça.*
+
+**O que estava errado:**
+
+- **O `.pdf` publicado estava dois renomes atrás do `.docx`.** *Ainda dizia "Projeto - M" no cabeçalho e no rodapé e "Passiva" onde o `.docx` diz "Talento". O arquivo era o da v0.287, a última vez que alguém o gerou: o gerador escreve o `.docx`, o `.pdf` sai de um comando à parte, e nenhuma checagem comparava os dois. Fora os dois renomes, o texto dele era o do `.docx`.* **Gerado de novo, com as mesmas `14` páginas.**
+- **Remissões a arquivo do repositório em folha de mesa.** *O bloco mandava o mestre para "o catálogo da peça 11" e "a criação da peça 2", e o rodapé dizia "peça 26"; o rodapé da ficha da Kaori dizia "da peça 8". Quem recebe a folha tem o livro, e não as peças.*
+- **Comentários do gerador com o dono errado.** *Davam o manual do Fundamento v7 como dono da tabela `Inimigos`, da Reação do inimigo e do alcance do Projétil. A tabela é da peça 26 §3.0 desde a v0.338, e o alcance é do livro.*
+
+**O sub-bloco 7e do `conferir-ficha.py`:** *todo parágrafo do `.docx` do bloco (rodapé incluído) tem de aparecer no `.pdf`, lido pelo `pdftotext`; e nem o corpo nem o rodapé podem citar peça do repositório ou documento aposentado. Sem o `pdftotext` instalado, a comparação com o `.pdf` é pulada e isso sai impresso.* *O sub-bloco 10.1 passou a ler também o rodapé das fichas.*
+
+**O que não foi feito, e por quê:**
+
+- **A tipografia do `.pdf` mudou um pouco.** *Ele foi convertido nesta máquina, que troca as fontes do `.docx` por outras equivalentes (`Gelasio` no lugar de `Georgia`, `DejaVu Sans Mono` nos trechos de código). O `.pdf` anterior tinha saído de outra máquina, com outra troca. O conteúdo e a paginação são os mesmos.*
+- **As fichas de papel não têm `.pdf` publicado,** *então não há o que comparar nelas.*
+- **O bloco não foi comparado com o livro do Bestiário** *(`bestiario/08-livro/`), que tem a passada dele.*
+
+**O passo 6 fechou.** *Sobra o passo 7, a ficha do Sheets, que é de outro repositório e outro ambiente.*
+
 ## Os seis capítulos sem passo, achados em 06/10/2026
 
 **A tabela de tamanho do topo lista seis capítulos que a ordem proposta não cobria:** *Ritual e Pactos (29 registros confirmados, peças 22 e 27), Poderes avançados (21, peça 11 e o rascunho da Expansão sem Barreiras), Regras gerais (19, peças 01, 03, 04, 05 e 23), Origens (18, peças 09 e 13), Rotas (14, peças 20 e 25) e Aptidões e Refino (13, peça 11).* **São 114 registros que nenhum passo migrava.** *Eles entram como passo 5b, um capítulo por versão, comparando o capítulo inteiro com as peças (o inventário não cobre as rodadas anteriores, como se viu no Equipamento e no tipo `Força` do Dano). Antes deles vai o capítulo de Dano sem o Morrendo.*
@@ -500,7 +522,7 @@ Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`
 5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha. *Primeira parte feita na v0.337 (ver a seção dela, acima): os validadores leem o livro. A segunda, na v0.338, deu dono às tabelas de mestre e tirou do gerador as leituras do Fundamento; o `manual/gerador`, o `.docx` e o `.pdf` vão para o arquivo com a migração dos Poderes avançados.*
 5a. **O inventário da revisão do R41.** *Feito na v0.342: `INVENTARIO-REVISAO-R41.md`, ao lado deste plano.* Ele entrou antes do capítulo de Dano porque muda o que os capítulos seguintes têm de copiar, e deixou três frentes, nesta ordem: as regras novas e os desfeitos que já têm peça; a troca da fonte dos validadores, da candidata para o R41; e os capítulos que faltam do 5b, já lendo o R41.
 5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *um por versão. O de Dano sem o Morrendo foi feito na v0.347, o de Regras gerais na v0.348, o de Poderes avançados na v0.349 e o de Ritual e Pactos na v0.350. O passo 5b fechou.*
-6. **Geradores.** `gerador-ficha` e `gerador-inimigo`. O `manual/gerador` (o `.docx` do Fundamento v7) não é regerado: vai para o arquivo no passo 5. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
+6. **Geradores.** *Feito: v0.355 (a ficha de papel) e v0.356 (o bloco de inimigo).* `gerador-ficha` e `gerador-inimigo`. O `manual/gerador` (o `.docx` do Fundamento v7) não é regerado: vai para o arquivo no passo 5. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
 7. **Fichas**, por último e em outro ambiente (seção abaixo).
 
 ## O livro final passou a ser o R41 (v0.341, 09/10/2026)

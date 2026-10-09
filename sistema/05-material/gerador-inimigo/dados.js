@@ -1,17 +1,18 @@
 // Os catalogos e as constantes do BLOCO DE INIMIGO.
 //
-// NENHUM valor daqui e autoridade. A autoridade e a peca 26 e a tabela
-// `Inimigos` do manual, e o bloco 7 do conferir-ficha.py compara os dois. Mexeu
-// na peca? Mexa aqui e rode o validador.
+// NENHUM valor daqui e autoridade. A autoridade e a peca 26, que desde a v0.338 e'
+// tambem a dona da tabela `Inimigos` (§3.0; ate la' ela morava no manual do Fundamento
+// v7, hoje no arquivo). O bloco 7 do conferir-ficha.py compara os dois. Mexeu na peca?
+// Mexa aqui e rode o validador.
 //
-// A tabela do manual publica UMA linha por faixa de Classe, e a faixa e' quem
+// A tabela `Inimigos` publica UMA linha por faixa de Classe, e a faixa e' quem
 // manda: a linha do nivel 2 vale do 2 ao 4, a do 5 vale ate o 8, e assim por
 // diante. A peca 26 §4 e a dona dessa leitura.
 //
 // v0.282: a coluna do capanga e a do Capanga da GRADE — a vida e o dano do grupo por
 // rodada dividido por quatro, para baixo, e o golpe e METADE de um quarto do dano do
 // chefe (o esquadrao de 2N corpos com meio golpe, peca 26 §5). A vida do chefe e o
-// dano dele nao mudaram: a linha do manual e o Desastre x4 da grade.
+// dano dele nao mudaram: a linha da tabela `Inimigos` e o Desastre x4 da grade.
 const FAIXAS = [
   // rotulo, de, ate, Classe, grupo/rodada, chefe vida, chefe dano, capanga vida, capanga dano
   ['2 a 4',  2,  4, 1,   38,  114, 18,   9, 2],
@@ -131,7 +132,7 @@ const AREA_NATURAL = [
 // O mapa de faixa e categoria e o do `DECIDIDO-as-seis-prontas.md` do Bestiario, levado
 // para a grade na v0.282: Betobeto, Kamaitachi (duas na mesa), Hitotsume e Kitsune sao
 // `Ameaça x1` — a luta facil para uma pessoa —; Tsuchigumo e Oni sao `Desastre x4`, o
-// chefe da linha do manual. A Kitsune subiu para 9 a 12 para poder conjurar.
+// chefe da linha da tabela `Inimigos`. A Kitsune subiu para 9 a 12 para poder conjurar.
 //
 // Sao seis porque sao seis: a derivacao antiga (duas faixas vezes as quatro
 // categorias, menos a Calamidade) morreu com a escada. A coluna do Capanga fica
@@ -203,9 +204,9 @@ const CORPOS_CONTRA_UM = [0.62, 0.90];
 
 const CAMBIO_POR_PESSOA = 3;    // um Desastre xN vale 3N capangas — peca 26 §5
 const TETO_EMPILHAMENTO = 3;    // corpos do mesmo esquadrao no mesmo alvo — peca 26 §5
-const REACAO = 1;               // uma por rodada — manual, secao Inimigos
+const REACAO = 1;               // uma por rodada — peca 26 §3.0, a tabela `Inimigos`
 const DESLOCAMENTO = '9 m';     // peca 3 §3, a linha da ficha da peca 26 §3
-const ALCANCE_PROJETIL = '18 m'; // o Projetil nas Classes 1 a 5 — manual, partC.js
+const ALCANCE_PROJETIL = '18 m'; // o Projetil nas Classes 1 a 5 — o livro, Fundamento, tabela `Base por Classe`
 
 module.exports = { FAIXAS, DEGRAUS, N_MAXIMO, PAPEIS, MULT_VANTAGEM, GANHO_ALCANCE,
                    CORPOS_POR_PESSOA, PAPEIS_FORA_DO_CAPANGA,
