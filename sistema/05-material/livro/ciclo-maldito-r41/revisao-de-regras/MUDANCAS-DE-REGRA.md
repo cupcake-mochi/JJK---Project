@@ -87,7 +87,7 @@ Os números entre colchetes são os da lista de revisão do Mizuki. Os códigos 
 | Nº | O que muda | Como deve ficar |
 |---|---|---|
 | [94] (DR15) | Cicatriz | O jogador escolhe: a Cicatriz dá vantagem em Intimidação e desvantagem em Persuasão, ou não dá nenhum dos dois. |
-| [96] (DR20, R10-32) | Insistir e Segundo Fôlego | Escolher Insistir custa **Ação Padrão**; Movimento e Ação Bônus continuam com o jogador. Segundo Fôlego dispensa **essa ação e o primeiro custo de vida máxima**. |
+| [96] (DR20, R10-32) | Insistir e Segundo Fôlego | **Mudou em 08/10:** escolher Insistir **não custa ação** (a primeira resposta, de 07/10, cobrava a Ação Padrão; o autor voltou atrás). Segundo Fôlego dispensa o **primeiro custo de vida máxima**. |
 
 ### Origens, Progressão e Criação
 

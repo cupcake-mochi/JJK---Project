@@ -1,4 +1,4 @@
-# Migração da candidata para as peças — v0.341, 09/10/2026
+# Migração da candidata para as peças — v0.342, 09/10/2026
 
 **Onde estamos:** o Mizuki autorizou migrar o livro reconstruído para as peças, os validadores, os geradores e as fichas. O plano e o estado de cada passo moram em `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`.
 
@@ -16,7 +16,9 @@
 
 **Passo 5b, começou na v0.340:** *Aptidões e Refino, Rotas e Origens passaram para as peças 11, 20, 25 e 13.* **Dois achados e uma decisão:** *a escada do dano na arma do livro (`1d4` já no refino `1`) nunca tinha chegado à peça 11, e adotá-la refez as medidas do degrau do nível 7 (Bastião `2,06`, Vanguarda `1,29`); o `Projetar Energia` passou a pagar PE, por decisão do Mizuki: de `1` até metade do refino, `2d6` de Força por PE.* **A candidata e o R28a ainda têm o `Projetar` de `1d6` por PE com o refino inteiro.** *O CHANGELOG da v0.340 tem os números, o que não migrou e os testes negativos.*
 
-**Próximo:** o inventário da revisão do R41, antes de qualquer capítulo: *para cada decisão do `MUDANCAS-DE-REGRA.md` e do `DECISOES-MIZUKI.md`, dizer se a peça dona já está no valor decidido, se precisa desfazer o que os passos 4 a 5b migraram, ou se é regra nova.* Depois dele voltam o capítulo de Dano sem o Morrendo (o tipo `Força`) e os três que sobram do passo 5b (Regras gerais, Poderes avançados, Ritual e Pactos), um por versão. *A D43 e a D44 já estão no R41.* O passo 3 (vida a zero) espera a revisão do Morrendo, que o Mizuki adiou.
+**Passo 5a, na v0.342:** *o inventário da revisão do R41 está em `05-material/livro/planejamento-editorial/migracao-pos-candidata/INVENTARIO-REVISAO-R41.md`, com uma linha por decisão e o quanto cada uma foi conferida.* **Nenhuma peça mudou ainda.** *Numa cópia isolada, com os validadores lendo o R41 no lugar da candidata, 22 dos 27 passaram sem mudança.*
+
+**Próximo, na ordem do inventário:** as regras novas e os desfeitos que já têm peça (Equipamento, Aptidões e Bênçãos; depois Origens e Progressão; o cabeçalho da peça 15), com validador e teste negativo; depois a troca da fonte dos validadores, da candidata para o R41, numa versão só dela; e então o capítulo de Dano sem o Morrendo (o tipo `Força`) e os três que sobram do passo 5b (Regras gerais, Poderes avançados, Ritual e Pactos), um por versão. **Antes das Origens, o Mizuki responde o item 115** *(o Legado Próprio sem o limite de um por ficha, que é trava da peça 13 desde a v0.39).* *A D43 e a D44 já estão no R41.* O passo 3 (vida a zero) espera a revisão do Morrendo, que o Mizuki adiou.
 
 **Nesta seção, os nomes novos valem. Daqui para baixo, o histórico conserva os nomes da época.**
 
@@ -242,7 +244,7 @@
 
 Atualizado em 30/09/2026, na v0.330 (última peça fechada: **Ritual**, a peça 27, na v0.262, com o `conferir-ritual.py` e sete checagens; antes dela, o **Bestiário**, a peça 26, na v0.198; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.341.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
+**Versão v0.342.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
 
 **Continuidade atual:** resistência pontual aprovada e integrada em Claude 2; o próximo ensaio está em `bestiario/05-sukuna/ENSAIO-integracao-grade-v286.md`. PV-base aprovado como referência da cura e das partes destrutíveis; no nível 30, cura de ação 78 e partes de 157 PV. Sukuna concluído na v0.287, com a política de débito corrente aprovada. O planejamento das Invocações virou o primeiro lote de desenvolvimento, no HD, e deu os §§47 a 109 da v0.288 à v0.325; a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas (o que sobe a básica, abre Famílias e dá Livres) e a volta do capítulo ao livro, que é decisão dele; o traje, o talismã em campo e o que a entidade carrega fecharam na v0.328 (§§111 a 113), e o que ela leva quando sai de campo na v0.330 (§114); a fila do sistema fechou a cura da Origem `Corpo Amaldiçoado` na v0.326 (o mesmo reparo das invocações, no descanso curto) o peso na v0.327 (o talismã pesa `0,5` de `Volume`, e cada leve vale `0,1`, sem arredondar) e a imunidade dela a `Envenenado` na v0.329, sem medição; o que sobra na fila é o que já estava aberto antes. O histórico abaixo permanece para consulta.
 

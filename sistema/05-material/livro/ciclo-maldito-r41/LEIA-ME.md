@@ -5,7 +5,7 @@ O livro principal do repositório desde a v0.341. O PDF fica uma pasta acima, em
 ## O que tem aqui
 
 - `LIVRO-COMPLETO.md`: o texto inteiro, na ordem do PDF, em 521 blocos. Cada bloco abre com uma âncora `<a id="capitulo--bloco"></a>`, e é por ela que os registros de alteração apontam um trecho.
-- `fontes-editoriais/`: os capítulos de onde o gerador monta o texto.
+- `fontes-editoriais/`: os manuscritos dos capítulos de onde o gerador parte. **Eles não são o texto final:** *as rodadas depois do R30 são aplicadas pelos scripts de revisão do gerador (`gerador/revisao_r41.py` e os anteriores) na hora de gerar, então uma regra pode estar no `LIVRO-COMPLETO.md` e não estar aqui (a `Represália`, por exemplo). Para ler regra, use o `LIVRO-COMPLETO.md`.*
 - `gerador/`: os scripts que montam e conferem o PDF, com os arquivos de configuração pequenos. **Ele não roda só com o que está aqui:** a arte da capa e das aberturas, as referências ilustradas e as fontes tipográficas ficaram na pasta de entrega do Mizuki, fora do repositório, junto com as páginas renderizadas e as evidências de cada rodada.
 - `revisao-de-regras/`: o porquê das regras.
 

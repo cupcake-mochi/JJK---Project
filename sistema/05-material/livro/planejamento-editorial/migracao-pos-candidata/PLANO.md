@@ -378,7 +378,7 @@ Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`
 3. **Vida a zero.** *Adiado em 05/10/2026, até a revisão do Morrendo.* Reescrever a peça 01 §5.5 a partir do capítulo de dano da candidata, e as remissões das peças 12, 15, 20 e 24. Antes, rodar o `conferir-atributos.py` numa cópia com a regra nova para ver quais checagens medem a regra antiga, e trocá-las por checagens da regra nova com teste negativo. Não apagar checagem para passar.
 4. **Equipamento e munição** (peças 14, 16, 21), *feito na v0.335, ver a seção do passo 4,* depois **Invocações** (peça 15, que conversa com `invocacoes/`), depois **Caminhos** (peça 06 e `RASCUNHO-trilhas`, que hoje não têm Fluidez nem Malabarista).
 5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha. *Primeira parte feita na v0.337 (ver a seção dela, acima): os validadores leem o livro. A segunda, na v0.338, deu dono às tabelas de mestre e tirou do gerador as leituras do Fundamento; o `manual/gerador`, o `.docx` e o `.pdf` vão para o arquivo com a migração dos Poderes avançados.*
-5a. **O inventário da revisão do R41** (ver a seção *O livro final passou a ser o R41*, abaixo): *entra antes do capítulo de Dano, porque muda o que os capítulos seguintes têm de copiar.*
+5a. **O inventário da revisão do R41.** *Feito na v0.342: `INVENTARIO-REVISAO-R41.md`, ao lado deste plano.* Ele entrou antes do capítulo de Dano porque muda o que os capítulos seguintes têm de copiar, e deixou três frentes, nesta ordem: as regras novas e os desfeitos que já têm peça; a troca da fonte dos validadores, da candidata para o R41; e os capítulos que faltam do 5b, já lendo o R41.
 5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *depois do capítulo de Dano sem o Morrendo, um por versão.*
 6. **Geradores.** `gerador-ficha` e `gerador-inimigo`. O `manual/gerador` (o `.docx` do Fundamento v7) não é regerado: vai para o arquivo no passo 5. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
 7. **Fichas**, por último e em outro ambiente (seção abaixo).
@@ -393,9 +393,9 @@ As decisões caem em três casos, e cada um pede uma coisa diferente das peças:
 - **Voltou ao valor da v0.331 e um passo já tinha migrado a mudança** (passos 4, 5 e 5b, v0.335 a v0.340). A peça e o validador dela voltam, com teste negativo.
 - **Regra nova, que nem a v0.331 nem a candidata têm.** *Arma, uniforme, escudo e carga sem a Força pedida (itens 156 a 158), a Reação de `Cobrir-se de Energia` e de `Defesa sem Armadura` tirando só a proteção passiva (160) e as Bênçãos `Represália` e `Sangue Frio`.* Entram na peça dona como qualquer decisão.
 
-**O passo 5a é montar essa tabela antes de tocar em peça:** uma linha por decisão, com a peça dona, o caso e o validador que a confere. Sem ela, os capítulos que faltam do passo 5b seriam copiados de uma candidata que o livro já desmentiu.
+**O passo 5a foi montar essa tabela antes de tocar em peça** (`INVENTARIO-REVISAO-R41.md`): uma linha por decisão, com a peça dona, o caso e o quanto cada linha foi conferida. Sem ela, os capítulos que faltam do passo 5b seriam copiados de uma candidata que o livro já desmentiu.
 
-**A candidata fica como está por enquanto.** *Ela é a fonte que os validadores leem pelo `03-mecanica/livro.py`. Trocar essa fonte pelo `LIVRO-COMPLETO.md` do R41 é decisão do Mizuki e muda o caminho de leitura de todos eles de uma vez; o inventário diz o tamanho disso.*
+**A candidata fica como está por enquanto.** *Ela é a fonte que os validadores leem pelo `03-mecanica/livro.py`. Trocar essa fonte pelo `LIVRO-COMPLETO.md` do R41 é decisão do Mizuki e muda o caminho de leitura de todos eles de uma vez. O inventário mediu o tamanho numa cópia isolada: 22 dos 27 validadores passam sem mudança, e 5 pedem ajuste.*
 
 **Fora do livro e fora deste passo:** a seção C do `MUDANCAS-DE-REGRA.md` (direção dada, sem número) e as regras de XP de 01/10/2026 (Solo simples e Solo complexa, o multiplicador e o arredondamento em múltiplos de `12,5`), que a ficha já segue e o R41 ainda não.
 

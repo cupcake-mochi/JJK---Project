@@ -8,6 +8,28 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.342] — 09/10/2026
+
+**O passo 5a da migração: o inventário da revisão do R41.** *A v0.341 pôs o R41 como livro principal e deixou escrito que, antes de qualquer capítulo, faltava dizer o que cada decisão da revisão pede das peças.* **A tabela está em `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/INVENTARIO-REVISAO-R41.md`: 63 linhas, uma por decisão, cada uma com o caso, o lugar na peça e o quanto foi conferida.** *Nenhuma peça e nenhum validador mudou nesta versão.*
+
+**Como as 63 se dividem.** *22 não têm peça dona (Fundamento, Catálogo e a maior parte das Invocações: o dono é o livro que os validadores leem); 16 são de capítulos que ainda não migraram (Poderes avançados, Ritual e Pactos) e entram com eles; 8 são regra nova em peça que já migrou; 6 desfazem o que os passos 4 a 5b tinham levado para a peça; 6 já estão no valor decidido; 2 esperam o Morrendo; 3 são só redação.*
+
+**O que precisa desfazer, lido na peça:** *o `Insondável` de `18 m` (peça 16, v0.335), a necessidade corporal do `Sangue que Não é Sangue` (peça 13, v0.340), o "não paga dois níveis de uma vez" do limiar (peça 12, v0.337), e três linhas do cabeçalho da peça 15 que descrevem a regra da candidata.*
+
+**Um achado que pede resposta do Mizuki: o item 115.** *A decisão dele foi voltar ao livro v0.331, que deixa escrever o próprio Legado sem limite.* **Só que a peça 13 limita o Legado Próprio a um por ficha desde a v0.39, e o livro v0.331 nunca trouxe essa trava.** *Voltar ao livro, aqui, tira uma regra da peça que é mais velha que a reconstrução.*
+
+**O experimento que mede a troca de fonte.** *Numa cópia isolada, um leitor de umas trinta linhas remontou cada unidade do livro a partir das âncoras do `LIVRO-COMPLETO.md` do R41, e os 27 validadores rodaram contra ele.* **22 passaram sem mudança. 5 reprovaram:** *a maior parte por forma do texto (um título que desceu de nível, duas Melhorias que passaram a dividir um título), e o `conferir-manual.py` por cobrar duas frases da candidata que a revisão tirou.* *O Catálogo lido do R41 difere do da candidata só em `Troca`, que saiu, e em `De Novo`, que passou a Pesada: as duas são decisão.* **A cópia não está no repositório;** *o que ficou é a medida.*
+
+**Corrigido nos registros da v0.341:** *o `MUDANCAS-DE-REGRA.md` ainda trazia o `Insistir` custando Ação Padrão, e a resposta final dele, de 08/10, tirou esse custo; e o `LEIA-ME.md` do R41 dizia que as fontes dos capítulos eram o texto do livro, quando as rodadas depois do R30 são aplicadas por script na hora de gerar.*
+
+**O que o inventário não fez:** *não leu na peça as 12 linhas deduzidas pelo estado do capítulo, não comparou o Fundamento e o Catálogo linha a linha entre a candidata e o R41, e não olhou a ficha, os geradores nem o bestiário.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/INVENTARIO-REVISAO-R41.md`: a seção *A ordem que isto sugere*, começando por Equipamento, Aptidões e Bênçãos.
+
+---
+
 ## [0.341] — 09/10/2026
 
 **O R41 virou o livro principal do repositório, no lugar do R28a.** *O Mizuki fechou a revisão do livro em 09/10 ("livro ficou assim no fim") e, perguntado se já passava para o Git só o livro, antes das peças, respondeu "pode sim".* **O PDF (`Ciclo Maldito | Livro de regras`, 373 páginas) entrou no mesmo caminho do anterior, `sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf`.**
