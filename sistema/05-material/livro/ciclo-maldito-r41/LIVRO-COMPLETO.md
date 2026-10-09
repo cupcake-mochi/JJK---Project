@@ -12120,7 +12120,7 @@ Não venda a mesma limitação ao pacto, à Origem e a uma Restrição de feiti�
 <a id="ritual--pacto-permanente"></a>
 #### Pacto permanente
 
-Você pode manter **metade da Essência em pactos**, arredondada para baixo, contando **permanentes, Promessas e pactos de restrição**. Pactos temporários não entram nesse limite. Aqui não há mínimo de um. Essência 0 ou 1 não abre vagas; a exceção para um pacto de restrição depende da permissão do mestre, conforme Pactos na criação.
+Você pode manter **metade da Essência em pactos**, arredondada para baixo, contando **permanentes e pactos de restrição**. Promessas e pactos temporários não entram nesse limite. Você pode firmar uma Promessa mesmo com Essência 0 ou 1. Aqui não há mínimo de um. Essência 0 ou 1 não abre vagas; a exceção para um pacto de restrição depende da permissão do mestre, conforme Pactos na criação.
 
 | Essência | Vagas de pacto |
 |---|---:|
@@ -12201,7 +12201,7 @@ Não acrescente depois uma cláusula que nenhuma parte aceitou. Se um termo comp
 
 O **pacto de restrição** registra uma limitação da Origem, do corpo ou da técnica que já foi considerada na criação. Ele não concede um segundo benefício. A ficha precisa indicar onde essa limitação foi contabilizada.
 
-O pacto de restrição ocupa uma vaga enquanto existir, como os permanentes e as Promessas. **Com permissão do mestre, ele pode existir mesmo sem vaga.** Não abre acesso a capacidades proibidas à sua rota.
+O pacto de restrição ocupa uma vaga enquanto existir, como os permanentes. **Com permissão do mestre, ele pode existir mesmo sem vaga.** Não abre acesso a capacidades proibidas à sua rota.
 
 Pactos permanentes, temporários e Promessas são estabelecidos durante a campanha. Para começar com uma troca que faz parte do conceito, use os benefícios e limites da Origem, do Legado e da técnica, em acordo com o mestre.
 

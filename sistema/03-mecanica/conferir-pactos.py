@@ -220,11 +220,14 @@ bloco('4. QUEM OCUPA VAGA — as formas que o R41 lista, e o §1 e o §1.1 conco
 
 # v0.350. Ate' a v0.349 esta checagem cobrava "so' o permanente tem teto", que era a decisao
 # da v0.133. O item 37 da revisao do R41 mudou a regra: contam o permanente, a Promessa e o
-# pacto de restricao, e o temporario fica de fora. A lista esperada NAO esta escrita aqui: ela
+# pacto de restricao, e o temporario fica de fora. O item 186 (v0.354, R42) tirou a Promessa.
+# A lista esperada NAO esta escrita aqui: ela
 # sai da frase do R41, e cada forma do §1 e' procurada nela pela raiz do proprio nome.
 _R41 = ' '.join(_livro.texto('ritual').split())
 _m_conta = re.search(r'contando \*\*([^*]+)\*\*', _R41)
-_m_fora = re.search(r'Pactos (\w+) não entram nesse limite', _R41)
+# v0.354: no R42 a frase passou a nomear duas formas ("Promessas e pactos temporários não
+# entram nesse limite"), entao o que se le e' o sujeito inteiro da frase, e nao uma palavra.
+_m_fora = re.search(r'(?:^|\.\s+)([^.]+?) não entram nesse limite', _R41)
 
 
 def _raiz4(nome):
@@ -584,7 +587,8 @@ else:
 
 
 # --------------------------------------------------------------- 14.1 -------
-# v0.350 — a peca 22 e o R41. O capitulo de Pactos do livro final voltou ao texto antigo em
+# v0.350 — a peca 22 e o livro (R41 na v0.350, R42 desde a v0.354, com o item 186: a Promessa
+# nao ocupa vaga). O capitulo de Pactos do livro final voltou ao texto antigo em
 # tres pontos e ganhou regra nova em dois, por decisao do Mizuki na revisao (itens 34 a 36,
 # 37 e 39). Este sub-bloco confere tres coisas: os numeros que os dois lados publicam, as
 # frases das decisoes que tem de estar no livro, e as que nao podem voltar — no livro e na
@@ -643,7 +647,10 @@ _VALE141 = [
     ('34-36', '**Não existe pacto por dano.**'),
     ('34-36', 'Pactos não concedem bônus numérico a ataques, Defesa ou perícias'),
     ('36', '**Pacto não concede Estilo.**'),
-    ('37', 'contando **permanentes, Promessas e pactos de restrição**'),
+    ('186', 'contando **permanentes e pactos de restrição**'),
+    ('186', 'Promessas e pactos temporários não entram nesse limite'),
+    ('186', 'Você pode firmar uma Promessa mesmo com Essência 0 ou 1'),
+    ('186', 'O pacto de restrição ocupa uma vaga enquanto existir, como os permanentes.'),
     ('37', 'A vaga volta quando o pacto se perde, por qualquer motivo'),
     ('37', '**Com permissão do mestre, ele pode existir mesmo sem vaga.**'),
     ('39', '**Nenhuma forma de pacto se fecha sob ameaça.**'),
@@ -656,6 +663,8 @@ _SAIU141 = [
     ('37', 'mesmo que seu benefício seja perdido depois'),
     ('37', 'Pactos permanentes na campanha'),
     ('39', 'Não há uma punição universal'),
+    ('186', 'permanentes, Promessas e pactos de restrição'),
+    ('186', 'como os permanentes e as Promessas'),
 ]
 _falta141 = [(i, f) for i, f in _VALE141 if f not in _R41]
 _voltou141 = [(i, f) for i, f in _SAIU141 if f in _R41]
@@ -670,7 +679,8 @@ if not _falta141 and not _voltou141:
 # d) a peca: o que ela tem de dizer, e o que so' pode aparecer riscado.
 _PECA_DIZ141 = [
     ('37', 'a vaga volta quando ele se perde, por qualquer motivo'),
-    ('37', 'O temporário não conta'),
+    ('186', 'Contam o permanente e o de restrição. A `Promessa` e o temporário não contam'),
+    ('186', 'A `Promessa` não ocupa vaga'),
     ('34-36', 'não acrescenta número a ela'),
     ('34-36', 'E não existe pacto por dano'),
     ('34-36', 'porcentagem da energia máxima, combinada com o mestre'),
@@ -679,6 +689,8 @@ _PECA_DIZ141 = [
 _PECA_NAO141 = [
     ('37', 'em toda a campanha, um número de pactos permanentes'),
     ('37', 'Só uma das quatro precisa de teto'),
+    ('186', 'Contam o permanente, a `Promessa` e o de restrição'),
+    ('186', 'As três formas que deixam linha na ficha ocupam vaga'),
     ('34-36', 'O que o pacto pode tocar é dano'),
     ('34-36', 'Então o teto mede DANO, e só dano'),
     ('34-36', 'Decisão do Mizuki: PE, aptidões e feitiços'),

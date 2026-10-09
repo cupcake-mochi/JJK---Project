@@ -15,7 +15,7 @@ Uma linha por decisão que mudou o livro na revisão de 07 a 09/10, dizendo o qu
 - **v0.349:** o capítulo de Poderes avançados. **Correção deste inventário:** *as dez linhas `capítulo` da Expansão (1, 2, 3, 4, 5, 8, 11, 13, 152 e 153) são do tipo `livro`. A Expansão não tem peça; o dono era o manual v7 e hoje é o R41.* As decisões passaram a ser cobradas pela sub-checagem 12.7 do `conferir-expansao.py`, como frase do livro.
 - **v0.350:** o capítulo de Ritual e Pactos, com as seis linhas `capítulo` que sobravam (34 a 36, 37, 39, 42, 47 e 50), nas peças 22 e 27. **Correção deste inventário:** *quatro delas mudaram regra de peça, e não só texto (34 a 36, 37, 42 e 50); a tabela da seção abaixo diz o que cada uma mudou.* Conferidas pelos sub-blocos 7.2 do `conferir-ritual.py` e 14.1 do `conferir-pactos.py`, e pela checagem 4 deste último.
 - **v0.353:** o item 115 foi adiado pelo Mizuki em 09/10/2026 — "Vai ser refeito as origens". A peça 13 fica como está até a remodelagem das Origens. **Não sobra nenhum caso `nova` ou `desfaz` para aplicar, e o passo 5b fechou.**
-- **Decisão nova, de depois do R41:** a `Promessa` não ocupa vaga (item 186 do `MUDANCAS-DE-REGRA.md`). Ela desfaz parte do item 37 e ainda não está no livro; a peça 22 muda quando o livro mudar.
+- **Decisão nova, de depois do R41:** a `Promessa` não ocupa vaga (item 186 do `MUDANCAS-DE-REGRA.md`). Ela desfaz parte do item 37. **Feito na v0.354:** *o livro mudou no R42, e a peça 22 e o `conferir-pactos.py` com ele.*
 
 ## Os casos
 

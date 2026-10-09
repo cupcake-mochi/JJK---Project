@@ -568,7 +568,7 @@ for ch,mod,doc in [(chapters[1],r,'geral'),(chapters[2],d,'dano')]:
   new.append((part,f,x,y,w,h,mode))
  page['draws']=new
 
-PDF=B/'output/pdf/Ciclo-Maldito-R41.pdf'
+PDF=B/'output/pdf/Ciclo-Maldito-R42.pdf'
 from titulos_capitulo import desenhar as desenhar_titulo_capitulo
 estudo_capitulo=json.loads((B/'ESTUDO-CAPITULO.json').read_text())
 titulos_capitulo_aplicados=[]

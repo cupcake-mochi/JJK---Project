@@ -141,7 +141,7 @@ Estes itens foram decididos na direção, mas faltam os números. O Mizuki vai f
 
 Tudo o que não aparece nas seções A e B fica exatamente como está na R29, incluindo os itens da revisão que o autor mandou manter. Em caso de dúvida, não altere e pergunte.
 
-## E. Decidido depois do R41 (ainda não está no livro)
+## E. Decidido depois do R41 (aplicado no R42)
 
 | nº | Assunto | O que muda |
 |---|---|---|

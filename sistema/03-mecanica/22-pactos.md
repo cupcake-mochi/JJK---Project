@@ -2,7 +2,7 @@
 
 **Fase 4, vigésima segunda peça.** A quinta camada de personagem: o que você trocou por poder. As quatro formas que a obra usa, quantas cabem numa ficha, quanto cada uma entrega, e o que nenhuma delas toca.
 
-*Fechada na v0.134, com o `conferir-pactos.py` em cima dela. Ela é a **quarta economia de poder** do sistema — Caminho, Trilha e Legado são as três anteriores —, e por isso nasce com o teto mínimo que a peça 9 §2 registra para a terceira.* **Comparada com o capítulo de Pactos do R41 na v0.350:** *mudaram o que conta no limite (§1.1 e §3.1), o que um pacto permanente entrega (§3.3 e §3.4) e a ação do temporário (§4).*
+*Fechada na v0.134, com o `conferir-pactos.py` em cima dela. Ela é a **quarta economia de poder** do sistema — Caminho, Trilha e Legado são as três anteriores —, e por isso nasce com o teto mínimo que a peça 9 §2 registra para a terceira.* **Comparada com o capítulo de Pactos do R41 na v0.350:** *mudaram o que conta no limite (§1.1 e §3.1), o que um pacto permanente entrega (§3.3 e §3.4) e a ação do temporário (§4).* **Na v0.354, com o R42, a `Promessa` saiu do limite.**
 
 Ela existe por uma dívida de cento e treze versões. O Passo 8 da peça 8 prometia *"a regra completa"* desde a v0.21. A v0.116 foi escrever e achou que três quartos já tinham dono — `Restrição` e `Regra Própria` no manual, `Legado` na peça 13 —, e encolheu o recorte para uma forma só. **A v0.133 ampliou de volta, por decisão do Mizuki: são quatro formas, e elas não são as mesmas quatro.** As três com dono continuam com ele; estas quatro são recortes de *pacto*, e não de *quem já resolve pacto*.
 
@@ -16,25 +16,25 @@ Ela existe por uma dívida de cento e treze versões. O Passo 8 da peça 8 prome
 |---|---|---|---|
 | **permanente** | fora de cena, com o mestre lendo | **metade da Essência** | efeito constante, do dia a dia |
 | **temporário** | **Ação Bônus ou Reação, no seu turno** | não tem | benefício de uma cena ou instantâneo, com perda física ou energética |
-| **`Promessa`** | entre duas entidades, **as duas aceitando** | **ocupa uma vaga da metade da Essência** | o benefício vem de um dos dois lados |
+| **`Promessa`** | entre duas entidades, **as duas aceitando** | não tem | o benefício vem de um dos dois lados |
 | **de restrição** | na criação, junto da Origem ou da técnica | **ocupa uma vaga da metade da Essência**, e o mestre pode abrir exceção | **nada** — ela escreve o preço de uma coisa que a ficha já tem |
 
 **Pacto é adicional e opcional.** A ficha nasce sem, e a maioria dos personagens nunca fecha nenhum — mesmo molde do Passo 8 da peça 8, que já dizia isso quando a regra não existia.
 
-### 1.1 Três das quatro ocupam vaga, e a que não ocupa é a que morre na cena
+### 1.1 Duas das quatro ocupam vaga: o permanente e o de restrição
 
-***Decisão do Mizuki na revisão do R41 (item 37):*** *"Mantém, mas voto temporário ainda n consome máximo de votos, voto permanente, contratual ou restrição ocupam de forma permanente ou até a perda do pacto (por quaisquer motivos)". Contratual é a `Promessa`.*
+***Decisão do Mizuki na revisão do R41 (item 37):*** *"Mantém, mas voto temporário ainda n consome máximo de votos, voto permanente, contratual ou restrição ocupam de forma permanente ou até a perda do pacto (por quaisquer motivos)". Contratual é a `Promessa`, e essa parte ele desfez depois (abaixo).*
 
 | forma | vai para a ficha? | quem vive com ela | ocupa vaga? |
 |---|---|---|---|
 | **permanente** | **sim** | **sete mesas** | **sim** |
 | temporário | não — morre na cena | o mestre que aprovou | não |
-| `Promessa` | a linha vai; o efeito é do acordo | os dois que fecharam, e o mestre | **sim**, desde a v0.350 |
+| `Promessa` | a linha vai; o efeito é do acordo | os dois que fecharam, e o mestre | não |
 | de restrição | sim, e não entrega benefício | quem escreveu a ficha | **sim**, desde a v0.350, com a exceção do §6 |
 
-**As três formas que deixam linha na ficha ocupam vaga, e a que não deixa não ocupa.**
+***Decisão do Mizuki em 09/10/2026 (item 186), depois do R41:*** *perguntado de qual das duas partes era a vaga da `Promessa`, "Não ocupa espaço"; e perguntado se quem tem Essência `0` ou `1` pode fechar uma, "Sim".* **A `Promessa` não ocupa vaga.** *O livro traz a regra desde o R42: "contando permanentes e pactos de restrição. Promessas e pactos temporários não entram nesse limite. Você pode firmar uma Promessa mesmo com Essência 0 ou 1."*
 
-> **⚠ A `Promessa` vai sair desta conta, e o livro ainda não mudou.** *Em 09/10/2026, perguntado de qual das duas partes era a vaga que ela ocupa, o Mizuki respondeu "Não ocupa espaço"; e perguntado se quem tem Essência `0` ou `1` pode fechar uma, "Sim".* **O R41 escreve que ela conta** *("contando permanentes, Promessas e pactos de restrição"), e esta peça segue o livro até ele mudar: o `conferir-pactos.py` tira do R41 a lista de quem ocupa vaga.* *A decisão é o item 186 do registro de mudanças de regra do livro, em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/`.*
+~~**As três formas que deixam linha na ficha ocupam vaga: o permanente, a `Promessa` e o de restrição.**~~ *Valeu da v0.350 à v0.353, pelo item 37 como eu o tinha lido. A `Promessa` saiu da conta na v0.354.*
 
 ~~**Só uma das quatro precisa de teto: o permanente.** *A `Promessa` não tinha, e ao pacto de restrição o teto não se aplicava.*~~ *Decisão dele na v0.133, trocada na v0.350. O argumento daquela versão segue valendo para o temporário, e é o parágrafo abaixo.*
 
@@ -65,11 +65,11 @@ Três coisas vêm prontas da fonte, e nenhuma delas precisou ser inventada aqui.
 
 ### 3.1 Quantos cabem — metade da Essência
 
-> **Você mantém, ao mesmo tempo, um número de pactos igual a metade da sua Essência, arredondando para baixo. Contam o permanente, a `Promessa` e o de restrição. O temporário não conta.**
+> **Você mantém, ao mesmo tempo, um número de pactos igual a metade da sua Essência, arredondando para baixo. Contam o permanente e o de restrição. A `Promessa` e o temporário não contam.**
 >
 > **Cada pacto ocupa a vaga enquanto existir, e a vaga volta quando ele se perde, por qualquer motivo.**
 
-~~**Você fecha, em toda a campanha, um número de pactos permanentes igual a metade da sua Essência.**~~ *Regra da v0.133 à v0.349: só o permanente contava, e a vaga usada não voltava. Trocada na v0.350 pelo item 37 da revisão do R41, com as palavras dele no §1.1.*
+~~**Você fecha, em toda a campanha, um número de pactos permanentes igual a metade da sua Essência.**~~ *Regra da v0.133 à v0.349: só o permanente contava, e a vaga usada não voltava. Trocada na v0.350 pelo item 37 da revisão do R41, com as palavras dele no §1.1. Da v0.350 à v0.353 a `Promessa` também contava; ela saiu na v0.354 pelo item 186.*
 
 - **Subir a Essência pode abrir vaga.** *Baixar depois não apaga pacto que já existe, mas impede fechar outro enquanto o total não couber.*
 - **Um pacto permanente não sobe a sua maior Classe nem dá uma segunda Técnica Máxima,** *e o que ele entrega não se converte em nível de Caminho, de Trilha ou de Legado.*
@@ -80,7 +80,7 @@ Três coisas vêm prontas da fonte, e nenhuma delas precisou ser inventada aqui.
 |---|---|---|---|---|---|---|---|
 | **vagas de pacto** | 0 | 0 | 1 | 1 | 2 | 2 | 3 |
 
-***Decisão do Mizuki: zero é zero, sem piso.*** **Quem não investiu em Essência não fecha pacto permanente nenhum.** *Desde a v0.350 o mesmo zero alcança a `Promessa`, que divide as vagas com ele; o pacto de restrição tem a exceção do §6.*
+***Decisão do Mizuki: zero é zero, sem piso.*** **Quem não investiu em Essência não fecha pacto permanente nenhum.** *O pacto de restrição divide as vagas com ele e tem a exceção do §6.* **A `Promessa` não depende de Essência: quem tem `0` ou `1` pode fechar uma** *(item 186).*
 
 > **A exceção ao arredondamento da peça 1 §5.4 é de UMA linha, e não de duas.** *Aquela seção diz que o que você ganha nunca fica abaixo de `1` — e ela mesma escreve o limite disso: "o piso existe para o caso em que a conta produziu 0,4, não para desfazer um zero escrito".*
 >
@@ -305,7 +305,7 @@ O `conferir-pactos.py` roda **catorze checagens**, e **nenhum valor fica escrito
 | 1 | as quatro formas estão declaradas, e cada uma diz se tem teto | esta peça §1 | apagar uma linha acende |
 | 2 | **o teto por pacto é a camada dividida pelo pior caso** | esta peça · **peça 2** | mexer num dos três sozinho acende |
 | 3 | a tabela de quantidade reconstrói `metade da Essência` na escala inteira | **peça 2 §1** | uma célula errada acende |
-| 4 | as formas que ocupam vaga são as que o R41 lista, e o §1 e o §1.1 concordam | esta peça §1 e §1.1 · **R41** | dar vaga ao temporário acende; tirar a da `Promessa` acende |
+| 4 | as formas que ocupam vaga são as que o livro lista, e o §1 e o §1.1 concordam | esta peça §1 e §1.1 · **o livro** | dar vaga ao temporário ou à `Promessa` acende; tirar a do pacto de restrição acende |
 | 5 | o dano por rodada do teto bate com `teto × fatia` | **`DESENHO-trilhas.md`** | perturbar a fatia acende |
 | 6 | a % de um golpe simples bate com o vão da peça 6 §3 | **peça 6** | perturbar a tabela do vão acende |
 | 7 | o câmbio de PE citado aqui é o que a peça 5 publica | **peça 5** | divergir acende |
@@ -317,7 +317,7 @@ O `conferir-pactos.py` roda **catorze checagens**, e **nenhum valor fica escrito
 | 13 | todo exemplar do §7.1 declara qual das quatro formas ele é | esta peça §1 | forma que não existe acende |
 | 14 | todo termo em crase desta peça tem destino — definido aqui ou vivo noutra peça | a pasta | ponteiro pendurado acende |
 
-**A checagem 14 tem um sub-bloco desde a v0.350, o 14.1, que põe o R41 ao lado desta peça:** *a tabela de vagas por Essência, a ação do temporário, doze frases das decisões da revisão que têm de estar no livro, cinco da candidata que não podem voltar, e as frases desta peça que só podem aparecer riscadas.*
+**A checagem 14 tem um sub-bloco desde a v0.350, o 14.1, que põe o R41 ao lado desta peça:** *a tabela de vagas por Essência, a ação do temporário, as frases das decisões que têm de estar no livro, as que não podem voltar, e as frases desta peça que só podem aparecer riscadas. As contagens saem impressas pelo validador.*
 
 **A checagem 2 é o par declarado desta peça, e ela mede RELAÇÃO e não constante.** *O teto de `0,50` não está escrito no validador: ele é recalculado como `camada ÷ (teto de atributo ÷ 2)`, com os dois números lidos dos donos.* **Perturbar a camada sozinha acende; perturbar o teto de atributo sozinho acende; e mudar os dois de forma coerente — camada `3,00` com `1,00` por pacto — fica VERDE de propósito.** *É esse contra-teste que prova que ela não está se medindo contra a própria constante, que é a lição nº 8.*
 
@@ -330,5 +330,5 @@ O `conferir-pactos.py` roda **catorze checagens**, e **nenhum valor fica escrito
 - **Se a Essência passou do ponto.** *Ela já carrega a perícia mais rolada da mesa, o Teste de Resistência de Espírito, e agora o teto de Pactos.* **A pergunta está na seção *Marcado para o playtest* do `ESTADO-ATUAL` desde a v0.16, e a camada que ela previa existe agora.** *Se Essência estiver carregando demais, dói aqui primeiro.*
 - ~~**O teto de `0,50` fatia ficou sem o que medir (v0.350).** *Tirar da peça ou reaproveitar?*~~ **FECHADO em 09/10/2026: fica escrito e parado** *("Tudo bem"). Só a peça 25 §8.1 o usa, para dizer que nenhum `Manejo` cabe num pacto.*
 - ~~**Pacto ainda concede aptidão ou espaço de feitiço?**~~ **FECHADO em 09/10/2026: não concede** *("Sim, n da"). O §3.3 já estava assim.*
-- ~~**A `Promessa` ocupa a vaga de qual das duas partes, e quem tem Essência `0` ou `1` pode fechar uma?**~~ **Respondido em 09/10/2026: a `Promessa` não ocupa vaga, e quem tem Essência `0` ou `1` pode fechar uma.** *Isso desfaz parte do item 37 e contraria o R41. Falta o livro mudar; quando mudar, o §1, o §1.1 e o §3.1 desta peça mudam com ele, e a checagem 4 do validador acompanha sozinha, porque lê a lista do livro.*
+- ~~**A `Promessa` ocupa a vaga de qual das duas partes, e quem tem Essência `0` ou `1` pode fechar uma?**~~ **FECHADO: a `Promessa` não ocupa vaga, e quem tem Essência `0` ou `1` pode fechar uma** *(respostas de 09/10/2026, item 186). O livro mudou no R42 e esta peça na v0.354.*
 - **As oito ideias de restrição viram regra?** *Hoje elas são exemplo.* **Cada uma que virar entrega escrita passa pelo validador da peça dona** — e duas delas, `Fragmentação` e `Catatau`, mexem em coisa que já tem validador em cima.

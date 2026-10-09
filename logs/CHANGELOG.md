@@ -8,7 +8,28 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
-## [0.353] — 09/10/2026
+## [0.354] — 09/10/2026
+
+**O livro passou a ser o R42, e a `Promessa` saiu do limite de pactos.** *É o item 186, decisão do Mizuki de 09/10/2026: "Não ocupa espaço", e quem tem Essência `0` ou `1` pode fechar uma ("Sim"). Ele desfaz parte do item 37.*
+
+**O que o R42 é:** *o R41 com dois blocos mudados, `ritual--pacto-permanente` e `ritual--pacto-restricao`, os dois no registro, com o antes e o depois batendo. O livro passou a escrever "contando permanentes e pactos de restrição. Promessas e pactos temporários não entram nesse limite. Você pode firmar uma Promessa mesmo com Essência 0 ou 1", e "como os permanentes" onde dizia "como os permanentes e as Promessas".* **O PDF tem as mesmas `373` páginas, e só a 317 e a 318 têm texto diferente do R41.** *Nas duas, o texto novo está em ordem de leitura, nada passa da margem lateral, e as páginas foram olhadas em imagem.*
+
+**O que entrou no repositório:** *o PDF (`Ciclo-Maldito-Livro-de-Regras.pdf`), o `LIVRO-COMPLETO.md`, quatro scripts do gerador (dois com poucas linhas mudadas, dois novos) e o registro `alteracoes/R41-para-R42.json`.* **A pasta continua se chamando `ciclo-maldito-r41/`,** *e as peças, os validadores e os registros continuam chamando o livro de R41. Trocar o nome mexeria em centenas de citações sem mudar regra nenhuma; o `LEIA-ME.md` da pasta diz isso na primeira linha.*
+
+**Peça 22:** *contam no limite o permanente e o pacto de restrição; a `Promessa` e o temporário não contam, e a `Promessa` não depende de Essência. O que valeu da v0.350 à v0.353 ficou riscado.*
+
+**`conferir-pactos.py`:** *a checagem 4 lê do livro quem ocupa vaga, e só precisou ler a frase nova, que agora nomeia duas formas de fora. O sub-bloco 14.1 trocou as frases do item 37 pelas do item 186, no livro e na peça.* **Com o R42 no lugar e antes de mexer na peça, ele era o único dos `27` validadores que reprovava.**
+
+**Testes negativos, em cópia isolada com a base passando antes:** *três no livro (a `Promessa` de volta à lista, a frase da Essência `0` ou `1` fora, "e as Promessas" de volta) e quatro na peça (a `Promessa` ocupando vaga no §1.1, com teto no §1, contando na caixa do §3.1, e o pacto de restrição sem vaga).* **Sete perturbações, sete acesas.**
+
+**O que esta versão não fez:** *a conferência do PDF foi nas duas páginas que mudaram e na igualdade de texto das outras 371; a varredura inteira de margens, sobreposição, links e sumário, que as edições anteriores tiveram, não foi repetida.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`, passo 6: os geradores (`gerador-ficha` e `gerador-inimigo`) e a ficha.
+
+---
+
 
 **Quatro respostas do Mizuki de 09/10/2026, e o que cada uma mexeu.**
 

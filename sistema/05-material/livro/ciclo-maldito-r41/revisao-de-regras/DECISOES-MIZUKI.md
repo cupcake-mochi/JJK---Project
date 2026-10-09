@@ -301,3 +301,12 @@ Formato: item | palavras dele (resumidas, fiéis) | leitura | estado.
 - APLICADOS: 182 (Expansão não conta, frase nas duas Bênçãos), 183 (Represália só fora do turno), 184 (Força 4 ou Destreza 4, entrada e tabela), 185 (Sangue Frio: repetição com um d20, sem a vantagem). Também as miudezas 2 e 3 do Evocador (linha do nível 7 da tabela; dois títulos iguais à tabela).
 - Não foi: miudeza 1 (Rajada Marcial sem a linha "Nível 7."). Cosmético.
 - PDF: 11.512 trechos conferidos, margem/sobreposição/links/marcadores/branco iguais à R40 (53,3 páginas de branco).
+
+
+## Depois do R41 — 09/10/2026 (resumo; o registro completo ficou fora do repositório)
+- Perguntado se o teto de 0,50 fatia por pacto ficava escrito e parado: "Tudo bem". Fica.
+- Perguntado se pacto ainda concede aptidão ou espaço de feitiço: "Sim, n da". Não concede; só modifica.
+- Item 115 (Legado Próprio sem o limite de um por ficha): "Vai ser refeito as origens". Adiado; a peça 13 fica como está.
+- Perguntado se a entrega ainda devia levar o manual do Fundamento v7: "tira". Saiu do recorte na v0.353.
+- Item 186. Perguntado de qual das duas partes era a vaga da Promessa: "Não ocupa espaço". Perguntado se Essência 0 ou 1 pode fechar Promessa: "Sim". A Promessa não ocupa vaga; desfaz parte do item 37.
+- R42 = R41 + 2 blocos (ritual--pacto-permanente e ritual--pacto-restricao), os dois registrados, antes e depois batem. 373 páginas; só as páginas 317 e 318 têm texto diferente. PDF SHA-256 d4c23b97…29731d.

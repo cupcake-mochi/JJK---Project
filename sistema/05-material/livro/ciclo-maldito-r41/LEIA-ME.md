@@ -1,4 +1,6 @@
-# Ciclo Maldito R41
+# Ciclo Maldito R41, hoje na edição R42
+
+**Desde a v0.354 o texto desta pasta é o R42:** *o R41 com dois blocos mudados, os dois do item 186 (a `Promessa` não ocupa vaga de pacto, e quem tem Essência 0 ou 1 pode firmar uma). O registro é `revisao-de-regras/alteracoes/R41-para-R42.json`.* **A pasta guarda o nome da edição em que nasceu,** *e as peças, os validadores e os registros continuam chamando o livro de R41; tudo o que eles dizem do R41 vale para o R42, fora esses dois blocos.*
 
 O livro principal do repositório desde a v0.341. O PDF fica uma pasta acima, em `Ciclo-Maldito-Livro-de-Regras.pdf` (373 páginas). Aqui fica o que o produz e o que explica as regras dele.
 
