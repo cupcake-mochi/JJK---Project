@@ -1,0 +1,1179 @@
+<!-- page:atributos|Atributos -->
+# Atributos
+
+Sua ficha reúne as capacidades do personagem e os recursos que ele usa durante uma missão. Para resolver uma tentativa, você precisa saber qual atributo entra na rolagem, se tem o treino necessário e qual bônus deve somar.
+
+Os cinco atributos variam de **0 a 6**. O valor anotado já é o modificador: Força 3 acrescenta 3 a uma rolagem que use Força.
+
+| Atributo | Usos comuns |
+|---|---|
+| **Força** | Ataques corpo a corpo, esforço físico e carga. |
+| **Destreza** | Ataques à distância, Defesa, iniciativa e furtividade. |
+| **Constituição** | Vida e resistência física pelo TR de Vigor. |
+| **Inteligência** | Conhecimento, investigação e ofícios que exijam análise. |
+| **Essência** | Percepção, Sentir Energia e diversas interações sociais. |
+
+Cada perícia possui um atributo definido na sua descrição. **Percepção e Sentir Energia usam Essência; Intuição usa Inteligência.** Atributo e treino são escolhas distintas: ter Inteligência alta não concede perícias adicionais.
+
+## Maestria
+
+A maestria é o bônus que acompanha o avanço de nível. Ela entra nos ataques e nas CDs que a incluem. Em perícias, ofícios e Testes de Resistência, você só a soma quando tem o treino correspondente. Maestria não é acrescentada à Defesa.
+
+| Nível | Maestria |
+|---|---|
+| 2 a 9 | +1 |
+| 10 a 17 | +2 |
+| 18 a 25 | +3 |
+| 26 a 30 | +4 |
+
+A criação comum começa no **nível 2**. Campanhas que usem o nível 1 seguem a opção de criação própria; a maestria inicial também é 1.
+
+> **Exemplo:** Rina tem Destreza 3 e maestria 1. Em Furtividade, na qual é treinada, soma 4 ao d20. Numa perícia de Destreza sem treino, soma apenas 3. No nível 10, sua maestria passa a 2; se mantiver Destreza 3, o bônus treinado passa a 5.
+
+## Dados e bônus
+
+**d20** indica um dado de vinte lados. Em **2d10 + 6**, role dois dados de dez lados, some os resultados e acrescente 6. Quando a ficha já trouxer o bônus completo, use esse valor sem somar o atributo ou a maestria novamente.
+
+Confira a distribuição inicial e os treinos em **Criação de personagem**.
+
+<!-- page:testes|Testes -->
+# Testes
+
+Descreva o que seu personagem tenta fazer. O mestre pede um teste quando há incerteza e a falha pode mudar a situação. Se não houver obstáculo ou consequência relevante, a ação pode ser resolvida pela descrição.
+
+> **Role um d20, some o bônus indicado e compare com a Classe de Dificuldade, ou CD. Igualar ou superar a CD é sucesso.**
+
+O procedimento diz qual bônus usar. Uma perícia emprega seu atributo e treino; um Teste de Resistência usa o atributo daquele TR. Ataques são comparados à Defesa e seguem também as regras próprias de acerto e crítico.
+
+## Dificuldade
+
+Tarefas comuns e conhecimento sem nível próprio usam a tabela abaixo. Uma fechadura não fica mais difícil porque o personagem subiu de nível. Regras específicas, como saltos e furtividade, fornecem a dificuldade ou a forma de calculá-la.
+
+| Dificuldade | CD fixa | Ajuste à CD do criador |
+|---|---|---|
+| Fácil | 6 | -4 |
+| Média | 10 | -2 |
+| Difícil | 14 | 0 |
+| Muito difícil | 18 | +2 |
+| Extrema | 22 | Não definido nesta escala. |
+| Quase impossível | 26 | +6 |
+
+Quando a dificuldade depende do poder de quem criou uma barreira, selo ou outro efeito, use a CD indicada pela regra. Na avaliação geral de algo com nível, a base é **8 + atributo do criador + maestria do criador**, com o ajuste da última coluna escolhido pelo mestre. A escala do criador possui cinco degraus; não acrescenta um degrau Extremo.
+
+Esse ajuste serve à avaliação da tarefa. Não é um aumento automático da CD de todo feitiço ou TR: se um efeito já fornece sua CD, use-a.
+
+> **Exemplo:** com bônus +4, Rina tira 10 no d20 e alcança a CD 14. Para examinar um selo cujo criador tem atributo 4 e maestria 2, a base é 14; se o mestre classificar esse exame como muito difícil, a CD será 16.
+
+## Sucesso e falha
+
+Resolva o resultado indicado na tarefa. Uma falha pode gastar tempo, consumir uma ação ou recurso, denunciar a tentativa ou impedir o efeito pretendido. Quando o procedimento deixar espaço para interpretação, o mestre pode oferecer sucesso com custo ou complicação. Isso não substitui uma consequência já definida: falhar em Esconder, por exemplo, permite que o observador localize você conforme aquela regra.
+
+<!-- page:pericias|Treino e modificadores -->
+# Treino e modificadores
+
+**Perícias** representam capacidades como investigar, perceber e mover-se em silêncio. Cada uma usa um atributo fixo. **Ofícios** representam práticas aprendidas; o atributo depende da tarefa, como usar Destreza para manipular uma tranca ou Inteligência para entender seu mecanismo eletrônico.
+
+| Treino | Rolagem |
+|---|---|
+| Perícia treinada | d20 + atributo da perícia + maestria |
+| Perícia sem treino | d20 + atributo da perícia |
+| Ofício treinado | d20 + atributo indicado para a tarefa + maestria |
+| Ofício sem treino | Normalmente não permite tentativa; o mestre pode autorizar uma improvisação, sem maestria. |
+
+A lista de perícias e ofícios detalha os assuntos de cada um. Ter um bônus alto não dispensa uma ferramenta ou outro requisito que a tarefa exija.
+
+## Especialização
+
+Se você tiver especialização numa perícia ou ofício treinado, acrescente **metade da maestria**, arredondada para baixo, além do bônus normal. As escolhas de progressão permitem adquiri-la a partir do nível 10. Com maestria 2 ou 3, o adicional é +1; com maestria 4, é +2. Isso não concede especialização em TR.
+
+## Vantagem e desvantagem
+
+Com **vantagem**, role dois d20 e use o maior. Com **desvantagem**, use o menor. Some o bônus normalmente ao dado escolhido. Duas ou mais fontes do mesmo benefício ou penalidade não acrescentam dados. Se houver vantagem e desvantagem, elas se cancelam e você rola um d20, mesmo que existam várias fontes de um dos lados.
+
+> **Exemplo:** com bônus +4 e vantagem, Rina tira 6 e 17. Usa o 17 e obtém 21. Se também sofrer desvantagem naquele teste, rola apenas um d20 e soma 4.
+
+## Arredondamento
+
+Quando uma conta produzir fração, arredonde custos para cima e ganhos para baixo. Um ganho positivo que cair abaixo de 1 vale 1, salvo limite próprio. Um resultado zero continua zero. Copie os números já tabelados. Distâncias seguem a unidade de 1,5 m de **Movimento e terreno**.
+
+
+## Testes de grupo
+
+Quando todos precisam superar uma tarefa em conjunto, cada participante faz o teste. **Pelo menos metade precisa passar** para o grupo conseguir. Num grupo de cinco, são necessários três sucessos. Use isso para travessias e outras tarefas coletivas; em combate, a ocultação de cada personagem é resolvida separadamente.
+
+<!-- page:resistencia|Testes de Resistência -->
+# Testes de Resistência
+
+Um **Teste de Resistência**, ou **TR**, acontece quando uma criatura tenta evitar ou encerrar um efeito. A regra do efeito informa qual TR fazer, sua CD e o que acontece em cada resultado.
+
+> **TR treinado: d20 + atributo do TR + maestria.**
+
+Sem treino, some apenas o atributo e os demais modificadores aplicáveis. Igualar ou superar a CD é sucesso.
+
+| TR | Atributo | Aplicações comuns |
+|---|---|---|
+| **Físico** | Força ou Destreza, escolhido na criação | Evitar impactos e efeitos que exijam reação física. |
+| **Vigor** | Constituição | Veneno, doença, exaustão e concentração. |
+| **Intelecto** | Inteligência | Controle mental, ilusões e efeitos sobre o raciocínio. |
+| **Espírito** | Essência | Efeitos sobre vontade e determinação. |
+
+A escolha entre Força e Destreza no **TR Físico é feita na criação e permanece fixa**. Você não troca de atributo a cada ameaça. A Origem fornece treino em um TR e o Caminho em outro; confira na ficha quais são os seus.
+
+## CD e resultado
+
+A CD de um feitiço usa **8 + atributo da técnica + maestria**, com os modificadores previstos no efeito. Para manobras e outras habilidades, consulte a CD própria. Uma criatura pode usar CDs diferentes conforme o que faz.
+
+Passar no TR não tem um resultado universal. Pode impedir uma condição, reduzir dano ou terminar um efeito, conforme a regra que pediu o teste. Não aplique metade do dano a todo sucesso nem conceda uma tentativa de resistência a um efeito que não a ofereça.
+
+> **Exemplo:** Kaito tem Destreza 4, maestria 2 e treino em TR Físico, escolhido com Destreza. Diante de CD 15, tira 9 e soma 6: total 15. Ele passou. Para saber se evita o efeito ou recebe parte dele, consulta o texto do efeito.
+
+## Ataques e defesas
+
+Num ataque com rolagem de acerto, quem ataca rola contra a Defesa. Num efeito que pede TR, quem resiste faz a rolagem contra a CD. **Bloquear só pode substituir a Defesa contra uma rolagem de acerto; não substitui um TR.**
+
+> **Exemplo:** uma explosão pede TR Físico. Kaito não pode rolar Bloquear no lugar dele, mesmo que seu bônus de Bloquear seja maior. Uma proteção que conceda bônus ao TR Físico ainda funciona quando seus requisitos forem cumpridos.
+
+Condições e habilidades podem modificar o TR. O próprio teste não custa uma Reação por padrão; quando uma habilidade exige ação ou recurso para permitir a tentativa, pague o custo indicado, como ao escapar de uma contenção.
+
+<!-- page:turnos|Turnos -->
+# Turnos
+
+O combate é dividido em **rodadas de 6 segundos**. Cada participante tem um turno na rodada. A iniciativa determina a ordem; depois do último turno, começa outra rodada na mesma ordem.
+
+## Iniciativa
+
+Role **d20 + Destreza**, com os modificadores aplicáveis. Quem obtiver o maior total age primeiro. Aplique os modificadores que estiverem ativos nessa rolagem.
+
+Em empate, age primeiro quem tiver maior Destreza. Se ela também empatar entre jogador e inimigo, o jogador age primeiro. Entre personagens dos jogadores ainda empatados, os envolvidos escolhem a ordem; entre inimigos, o mestre escolhe. Registre a ordem uma vez para o combate. Uma habilidade que antecipe ou altere um turno segue suas próprias regras.
+
+## Recursos do turno
+
+| Recurso | Uso |
+|---|---|
+| **Uma Ação Padrão** | Atacar, conjurar e outras tarefas indicadas nas ações. |
+| **Uma Ação de Movimento** | Percorrer seu deslocamento ou pagar uma tarefa que consuma essa ação. |
+| **Uma Ação Bônus** | Usar uma opção que declare esse custo. |
+| **Uma Reação** | Responder ao gatilho de uma regra; recuperada no começo do seu turno. |
+
+Esses recursos são separados: gastar um não consome os demais, salvo quando a regra pedir mais de um. A Reação pode ser usada dentro ou fora do seu turno, quando houver um gatilho válido. **Ela não volta na passagem de uma rodada para outra.**
+
+## Conversão de ações
+
+Você pode converter **Ação Padrão em Ação Bônus**, e **Ação Bônus em Ação de Movimento**. A conversão segue somente essa direção e consome o recurso convertido. Você pode fazer a conversão em etapas: Padrão vira Bônus e essa Bônus vira Movimento. Converta apenas uma ação ainda não gasta. Isso não remove requisitos nem renova limites de uso.
+
+> **Exemplo:** Rina troca sua Ação Padrão por outra Ação Bônus. Pode usar duas opções de Ação Bônus, se ambas forem permitidas. Já não tem aquela Ação Padrão para atacar. Uma opção limitada a uma vez por cena continua tendo esse limite.
+
+## Movimento
+
+A Ação de Movimento oferece os metros indicados no **deslocamento** da ficha, normalmente 9 m. Você pode dividir o percurso antes e depois das outras ações. Uma tarefa que consuma a Ação de Movimento inteira não pode usar a mesma ação já gasta parcialmente para andar.
+
+Um custo de **Ação Completa** consome Ação Padrão, Ação Bônus e Ação de Movimento de uma vez. A Reação permanece disponível. As regras de Movimento detalham terrenos, saltos, quedas e travessias especiais.
+
+<!-- page:acoes|Ações -->
+# Ações
+
+As opções abaixo custam **Ação Padrão**, salvo permissão específica. O resumo ajuda a escolher; requisitos, testes e efeitos completos continuam nos procedimentos correspondentes.
+
+| Ação | O que permite |
+|---|---|
+| **Atacar** | Realizar ataque com arma ou desarmado e os ataques adicionais permitidos. Agarrar, Derrubar e Empurrar podem substituir ataques conforme suas regras. |
+| **Conjurar** | Usar um feitiço, cumprindo seus requisitos e custos. |
+| **Correr** | Ganhar movimento igual ao deslocamento até o fim do turno. |
+| **Desengajar** | Evitar ataques de oportunidade provocados por seus movimentos naquele turno. |
+| **Esquivar** | Impor desvantagem aos ataques contra você e obter vantagem nos seus TRs Físicos até o começo do seu próximo turno. |
+| **Esconder** | Tentar ocultar sua presença ou posição com Furtividade. |
+| **Ajudar** | Dar vantagem ao próximo teste ou ataque de um aliado, quando puder contribuir. |
+| **Influenciar** | Tentar mudar a atitude de alguém, com a perícia social adequada. |
+| **Preparar** | Escolher uma resposta a um evento perceptível, pagando Reação quando a executar. |
+| **Vasculhar** | Procurar uma criatura, objeto ou pista com a perícia e os sentidos adequados. |
+| **Estudar** | Compreender uma criatura ou objeto observável, fazendo uma pergunta sobre ele. |
+| **Usar objeto** | Usar um objeto não mágico que exija essa ação. |
+
+## Usar a ação adequada
+
+As ações **Provocar** e **Ler o Ambiente** custam Ação Bônus e estão em **Interação durante o combate**. Uma frase curta ou um aviso simples pode acompanhar o turno. Convencer alguém, examinar uma pista ou obter um benefício mecânico exige a ação correspondente.
+
+Você pode propor outras ações. Diga o resultado pretendido para o mestre informar a tarefa, os requisitos e o custo antes do teste.
+
+## Conjuração
+
+Usar um feitiço segue os requisitos, a ação e o limite de conjuração do **Fundamento**. Converter ações não retira esses limites. Aplicações de outras rotas conservam seus próprios requisitos.
+
+## Equipamento
+
+Consulte **Sacar e guardar**, em **Equipamento**, para manipular seus itens. Recarga, vestir proteção e uso de objetos também ficam nesse capítulo. Tenha as mãos e os itens exigidos disponíveis antes de começar a ação. Uma ação adicional não torna gratuito o custo de manipular o equipamento.
+
+<!-- page:ajudar|Ajudar -->
+# Ajudar
+
+**Ação Padrão.** Escolha um aliado e a tentativa em que vai ajudá-lo. Descreva uma contribuição possível naquela situação. No próximo teste correspondente, ele terá vantagem. O benefício termina no **começo do seu próximo turno**, se não for usado antes.
+
+## Ajudar num teste
+
+Você precisa alcançar o que vai manipular ou conseguir se comunicar de modo útil. Pode segurar a escada enquanto alguém sobe ou orientar a leitura de um mecanismo que conhece. Torcer pelo aliado não basta.
+
+A ajuda precisa ser possível para quem a oferece. Se ela exigir um ofício, ferramenta, idioma ou sentido, cumpra esse requisito. Não é necessário ter o mesmo treino do aliado para uma contribuição diferente: segurar uma lanterna pode ser útil sem saber abrir a fechadura.
+
+Fora de combate, a contribuição acompanha uma tentativa concreta. Não guarde a vantagem para outra sala ou uma tarefa futura depois de abandonar a ajuda.
+
+## Ajudar num ataque
+
+Escolha um inimigo **ao seu alcance corpo a corpo** e um aliado. Você distrai ou pressiona esse inimigo, concedendo vantagem ao próximo ataque do aliado contra ele dentro do prazo. Precisa poder agir e alcançar o inimigo, que deve perceber sua intervenção. Isso não causa dano nem exige que o aliado esteja ao seu lado.
+
+A ajuda se consome na rolagem escolhida, acertando ou errando. Se o aliado atacar outro alvo, conserve o benefício para o inimigo indicado até o prazo acabar.
+
+**Um ajudante por teste ou ataque.** Várias ajudas não acumulam vantagens. Ajudar não permite um Teste de Resistência adicional nem dá vantagem a ele por padrão.
+
+**Exemplo.** Rina se aproxima do vigia e usa Ajudar, pressionando-o com a arma para abrir espaço a Kaito. O próximo ataque de Kaito contra esse vigia tem vantagem antes do próximo turno de Rina. Ela gastou sua Padrão, sem realizar um ataque próprio.
+
+<!-- page:interacao|Interação durante o combate -->
+# Interação durante o combate
+
+## Provocar
+
+**Ação Bônus.** Escolha uma criatura que possa perceber a provocação. Use palavras, gestos ou uma afronta que ela consiga compreender. Role **Provocar** com seu bônus completo. O alvo faz um **TR de Espírito**, usando o total da sua rolagem como CD. **Empatar resiste.**
+
+Se o alvo falhar, até o **começo do seu próximo turno** os ataques dele têm vantagem contra você e desvantagem contra outros alvos. Ele ainda escolhe suas ações e pode deixar de atacar. Provocar não muda a CD de um feitiço nem afeta uma resolução que não role acerto.
+
+A provocação não alcança quem não percebe seus sinais ou não consegue compreendê-los. Não exige idioma comum quando a afronta é clara sem palavras. Várias provocações conservam seus prazos, mas suas vantagens e desvantagens seguem o cancelamento normal: cada provocador continua sujeito aos efeitos que concedeu.
+
+**Exemplo.** Kaito obtém 16 em Provocar. A maldição soma 16 no TR: resiste. Se somasse 15, seus ataques contra Kaito teriam vantagem, e contra Rina, desvantagem, até o começo do próximo turno dele.
+
+## Ler o Ambiente
+
+**Ação Bônus, uma vez por cena.** Faça Percepção ou Intuição contra a dificuldade informada pelo mestre. No sucesso, descubra algo aproveitável do lugar: um objeto, caminho, posição ou risco. Se não houver nada a informar, não gaste a ação nem o uso.
+
+Essa ação examina o ambiente. Encontrar uma criatura escondida exige **Vasculhar**; compreender uma criatura observável exige **Estudar**.
+
+## Influenciar
+
+**Ação Padrão em combate.** Diga o que quer obter e sua abordagem. O mestre avalia se ela é possível e informa a CD. Use Persuasão, Enganação, Intimidação ou Atuação, todas com Essência, conforme a tentativa.
+
+Um sucesso obtém a resposta cabível à situação. Não controla a vontade do alvo nem obriga um personagem jogador a tomar uma decisão. Uma conversa extensa pode exigir tempo além de uma ação. Repetir o mesmo pedido sem mudar a situação não cria novas tentativas.
+
+<!-- page:preparar|Preparar -->
+# Preparar
+
+**Preparar custa uma Ação Padrão agora e sua Reação ao executar a resposta.** Use para esperar alguém cruzar uma porta ou aguardar um sinal para correr.
+
+## Escolha o gatilho e a resposta
+
+No seu turno, declare um **evento perceptível**, como alguém entrar ao seu alcance, e sua **resposta**: uma ação que custe Padrão ou um deslocamento. Conjurações seguem a regra abaixo.
+
+Você mantém uma preparação por vez. Ela dura até o **começo do seu próximo turno**. Se preparar outra, a anterior termina.
+
+## Espere o evento terminar
+
+Quando o gatilho acontecer, você pode gastar sua **Reação imediatamente depois de ele terminar**. Confira então alcance, alvo, percurso e os demais requisitos da resposta. Custos adicionais são pagos quando ela é executada.
+
+Preparar não interrompe o evento. Se o gatilho for um ataque, espere esse ataque terminar, sem precisar esperar os outros da mesma ação. Para “entrar ao meu alcance”, responda depois que a criatura entrar.
+
+Você pode ignorar o gatilho e continuar esperando. Gastar a Reação em outra coisa **encerra a preparação**. Se o prazo acabar sem resposta, perde a Padrão investida, mas não gasta a Reação.
+
+## Atacar ou se mover
+
+Ao preparar **Atacar**, realize a ação com os ataques que suas habilidades permitem, respeitando seus limites por rodada. Preparar não renova uma permissão de ataque já utilizada nem libera efeitos restritos ao seu próprio turno. Você não recebe junto uma Ação Bônus ou uma Ação de Movimento.
+
+O deslocamento preparado concede metros adicionais iguais ao seu deslocamento **no momento da resposta**. Não usa o saldo do turno anterior, não renova limites próprios de movimento nem inclui ataque. Terreno, condições e ataques de oportunidade continuam valendo.
+
+> **Exemplo:** Rina prepara Agarrar quem entrar ao seu alcance pela porta. Quando isso acontece, gasta a Reação e resolve a manobra. Se já tivesse gasto a Reação para um ataque de oportunidade, a preparação teria terminado.
+
+## Conjuração preparada
+
+Conjurar como resposta exige uma montagem ou habilidade que conceda essa permissão. Use os custos, o gatilho e o prazo dela, sem acrescentar uma Ação Padrão em Preparar. O procedimento comum não torna qualquer feitiço reativo. Confira as opções em **Catálogo de criação**, na família Tempo.
+
+Um feitiço deixado à espera de um evento também usa sua própria montagem.
+
+Para entidades, consulte **Invocações em campo**: Preparar não concede comandos ou ações adicionais a outro corpo.
+
+<!-- page:oportunidade|Reações e ataques de oportunidade -->
+# Reações e ataques de oportunidade
+
+Uma **Reação** responde ao gatilho de uma regra. Depois de gastá-la, você a recupera no começo do seu próximo turno. Ter a Reação disponível não concede uma interrupção ou ataque livre.
+
+## Ataque de oportunidade
+
+Quando uma criatura que você **enxerga ou acompanha por um sentido equivalente à visão** sai do seu alcance corpo a corpo, pode gastar sua Reação para realizar **um ataque corpo a corpo com arma ou desarmado** contra ela. Resolva o ataque **imediatamente antes de ela sair**.
+
+Use o alcance da arma ou ataque escolhido. Com alcances diferentes, cada saída pode oferecer um gatilho válido, mas você precisa de uma Reação disponível para responder. Permanecer no mesmo alcance ou apenas entrar nele não provoca esse ataque.
+
+O ataque precisa cumprir seus requisitos. Uma informação anterior sobre o espaço da criatura não basta para perceber sua saída. Ouvir um ruído ou localizar energia não substitui a visão por padrão. Feitiços e manobras que substituam ataques da Ação Atacar precisam de permissão própria para serem usados nessa resposta.
+
+## Movimento que não provoca
+
+**Desengajar** protege os movimentos de quem usou essa ação até o fim do turno. Também não provocam oportunidade o teleporte, a queda e o movimento imposto por outra criatura, como um empurrão. Uma habilidade pode conceder proteção adicional.
+
+Uma ordem que obrigue alguém a caminhar usando seu próprio movimento pode provocar oportunidade. Ser levado por um empurrão não usa esse movimento. Montarias têm uma regra própria em **Combate montado**.
+
+**Exemplo.** Rina vê uma maldição sair do alcance de sua espada e gasta a Reação. O ataque acontece antes da saída. Se acertar, a criatura continua o movimento, salvo um efeito que a impeça. A passagem para outra rodada não devolve a Reação de Rina: ela espera seu próximo turno.
+
+Reações com momentos diferentes seguem o gatilho escrito: antes da rolagem, depois do acerto e depois do ataque não são o mesmo momento.
+
+<!-- page:concentracao|Concentração -->
+# Concentração
+
+Alguns efeitos exigem concentração para continuar ativos. Você mantém **um por vez**. Começar a concentração em outro encerra imediatamente o anterior. Pode abandonar a concentração sem gastar ação.
+
+## Dano durante a concentração
+
+Quando sofrer dano enquanto concentra, faça **TR de Vigor contra a CD de quem causou o dano**. Falhar encerra o efeito.
+
+| Origem do dano | CD |
+|---|---|
+| Feitiço | CD do feitiço. |
+| Arma ou ataque desarmado | 8 + atributo usado no ataque + maestria do agressor. |
+| Inimigo com CD própria | CD indicada para aquela fonte na ficha. |
+| Perigo sem autor | Dificuldade informada pelo mestre na escala de Testes. |
+
+Resolva **um teste por golpe ou aplicação de dano**. Um mesmo golpe com dois tipos de dano continua sendo uma aplicação; dois golpes exigem dois testes. Se as defesas reduzirem o dano a zero, não há teste. Dano absorvido pela vida temporária ainda conta, pois atingiu sua proteção.
+
+Faça o teste depois de resolver o dano. Se ele já encerrou a concentração por outra regra, não há efeito para manter. **Inconsciente encerra a concentração. Guarda Aberta, por si só, não a encerra.** Outras condições só a interrompem quando seu texto disser isso.
+
+**Exemplo.** Kaito mantém um efeito e recebe dois golpes de uma criatura com CD 14. Faz um TR após cada golpe enquanto o efeito continuar ativo. Se falhar no primeiro, ele já terminou e não há concentração para testar no segundo.
+
+## Procedimentos específicos
+
+Uma habilidade pode dispensar o teste em certas circunstâncias. A dispensa vale somente para o teste indicado. Preparar um feitiço antes da execução e manter uma defesa de domínio podem exigir outros testes, com custos e consequências próprios. Consulte **Catálogo de criação** e **Aptidões de energia** para esses procedimentos.
+
+A duração ainda limita o efeito: passar nos testes não a prolonga. A concentração também não dispensa alcance, posição ou outros requisitos de manutenção que a ficha estabeleça.
+
+<!-- page:ataques|Ataques -->
+# Ataques
+
+Um ataque pode ser um golpe de espada, um soco, um arremesso ou um feitiço que exija rolagem de acerto. Você rola **d20 + bônus de ataque** e compara o total com a Defesa do alvo. **Igualar ou superar a Defesa é um acerto.** O alvo pode substituir esse número por uma rolagem de [Bloquear](#bloquear).
+
+## Ação Atacar
+
+A **Ação Atacar** custa sua Ação Padrão e permite realizar um ataque com arma ou desarmado. Habilidades podem acrescentar ataques a essa ação. Resolva cada um separadamente, incluindo as respostas do alvo, antes de passar ao seguinte.
+
+Um ataque concedido por Ação Bônus, Reação ou outro efeito segue o custo e os limites daquilo que o concedeu. Receber um ataque adicional não concede outra Ação Atacar inteira. Conjurar um feitiço usa a ação indicada na ficha dele.
+
+## Resolução
+
+1. **Declare o ataque e o alvo.** Confira alcance, equipamento e requisitos. Resolva as habilidades que precisam ser usadas antes da rolagem.
+2. **Role o acerto.** Aplique os bônus e a vantagem ou desvantagem. Havendo ambas, elas se anulam conforme as regras de Testes.
+3. **Resolva a defesa.** Compare o total com a Defesa ou com Bloquear. Considere as regras de crítico e dos resultados duplos de Bloquear.
+4. **Resolva o golpe.** Se acertar, aplique o dano e os efeitos previstos. Se errar, aplique apenas o que declarar funcionar no erro. Cada habilidade conserva seu momento de uso.
+
+## Bônus de ataque
+
+| Ataque | Rolagem |
+|---|---|
+| Corpo a corpo, com arma ou desarmado | d20 + Força + maestria. Fineza permite usar Destreza no corpo a corpo. |
+| À distância, com arma | d20 + Destreza + maestria. Inclui disparos e arremessos. |
+| Conjuração | d20 + atributo da técnica + maestria. |
+
+O atributo da técnica é escolhido na criação dela. A maestria já faz parte do bônus de ataque; se a ficha disser **ataque +6**, some 6 ao d20 uma única vez. Treinos e requisitos continuam determinando as penalidades e as condições de uso das armas.
+
+> **Exemplo:** Sousuke usa a Ação Atacar contra um inimigo a 1,5 m. Tem Força 4 e maestria 2: ataque +6. Tira 11 no d20, total 17. O inimigo tem Defesa 17 e decide mantê-la: o golpe acerta. Sousuke passa à rolagem de dano.
+
+## Feitiços
+
+Feitiços de **Acerto** usam a rolagem de conjuração. Nos de **Teste de Resistência**, o alvo rola contra a CD indicada pelo feitiço. Os **Automáticos** não exigem essas rolagens. Bloquear só pode ser usado na primeira dessas resoluções; ele não substitui um TR nem impede um efeito automático.
+
+<!-- page:alcance|Alcance -->
+# Alcance
+
+O ataque precisa alcançar seu alvo a partir da posição de quem ataca. Confira a distância, os obstáculos e as exigências de visão antes de rolar. Uma habilidade que mude a origem ou a trajetória do ataque explica como medir seu alcance.
+
+## Corpo a corpo
+
+O alcance comum é **1,5 m**. Uma arma com alcance maior ou uma habilidade pode alterar essa distância; use o valor indicado por ela. Estar ao alcance permite tentar o golpe, mas não atravessar uma parede ou outro obstáculo que impeça o ataque.
+
+## Armas à distância
+
+Armas de disparo e arremesso têm duas faixas, indicadas em metros. O primeiro número é a **faixa normal**; o segundo, o limite da **faixa longa**.
+
+| Distância do alvo | Ataque |
+|---|---|
+| Até o limite da faixa normal | Sem desvantagem pela distância. |
+| Além da faixa normal, até o limite da longa | Com desvantagem. |
+| Além da faixa longa | A arma não alcança o alvo. |
+
+**Um inimigo a 1,5 m, capaz de agir e de perceber você, impõe desvantagem aos seus ataques com armas de projétil ou arremesso**, mesmo que você mire outra criatura. Um inimigo inconsciente não impõe essa penalidade. Uma permissão específica pode retirar essa penalidade.
+
+Estar junto de um inimigo e atacar na faixa longa não exige três d20: as duas fontes de desvantagem continuam valendo uma. A vantagem de outra fonte cancela a desvantagem pelas regras de Testes.
+
+> **Exemplo:** o Kunai tem faixas de 6 m e 18 m. Rina pode arremessá-lo normalmente contra um alvo a 6 m. A 9 m, ataca com desvantagem; a 18 m, também. A 19,5 m, não alcança. Se um inimigo estiver a 1,5 m de Rina, o arremesso a 6 m também terá desvantagem.
+
+Feitiços usam o alcance e os requisitos de sua própria montagem. Ter uma rolagem de conjuração não lhes concede as duas faixas de uma arma.
+
+## Visão e cobertura
+
+Saber onde alguém está permite tentar ataques que não exijam visão, mas não elimina a desvantagem por não enxergá-lo. Se você ataca um espaço onde a criatura não está, erra. Uma exigência de enxergar continua valendo mesmo que outro sentido tenha localizado o alvo.
+
+Objetos no caminho podem conceder [cobertura](#defesa). Escuridão e fumaça dificultam a visão conforme as regras de Percepção; a ocultação e sua perda depois de atacar são tratadas em **Ataques e ocultação**, nas regras comuns.
+
+<!-- page:critico|Dano e crítico -->
+# Dano e crítico
+
+Ao acertar, role o dano indicado pela arma, pelo ataque desarmado ou pelo feitiço. Some os modificadores aplicáveis. O atributo do acerto e o atributo do dano podem ser diferentes: confira ambos na ficha.
+
+## Dano do ataque
+
+| Fonte | Dano básico |
+|---|---|
+| Arma corpo a corpo ou ataque desarmado | Dados do ataque + Força; Fineza permite usar Destreza no corpo a corpo. |
+| Arremesso | Dados da arma + Força, salvo habilidade específica. |
+| Arco, categoria Yumi | Dados da arma + Destreza. |
+| Balestra ou Arma de Fogo | Dados da arma, sem somar atributo. |
+| Feitiço | Dados e demais efeitos indicados em sua montagem. |
+
+O dado desarmado é **d4 com maestria 1, d6 com maestria 2, d8 com maestria 3 e d10 com maestria 4**. Uma Trilha pode melhorá-lo ou mudar seu atributo.
+
+> **Exemplo:** com Destreza 4, Força 2 e maestria 2, Rina arremessa o Kunai com ataque +6, mas soma apenas 2 de Força ao dano. Fineza, por si só, altera apenas o corpo a corpo.
+
+## Crítico
+
+**20 natural** é o resultado 20 no d20 escolhido, antes de somar bônus. Numa rolagem de acerto, ele acerta e causa um **crítico**, mesmo contra Bloquear ou Aparar. Um total 20 obtido com bônus não é um 20 natural.
+
+No crítico, **role o dobro dos dados básicos daquele ataque**. Some o atributo e os outros valores fixos uma única vez.
+
+| Dados | Regra geral no crítico |
+|---|---|
+| Dados da arma ou do ataque desarmado | Dobram. |
+| Dados da Classe do feitiço que rolou acerto | Dobram, inclusive no feitiço de Toque. |
+| Dados adicionais de Melhoria, aptidão ou Bênção | Não dobram, salvo permissão expressa. |
+
+> **Exemplo:** a Espada Longa de Sousuke causa 1d8 + 4. Num crítico, ele rola **2d8 + 4**. Se um benefício acrescentar 3d4, o total será **2d8 + 4 + 3d4**. Uma permissão expressa pode alterar quais dados adicionais dobram.
+
+Um feitiço que acompanha outro ataque tem sua própria regra de crítico. Uma margem ampliada não transforma um 19 em 20 natural: o ataque ainda precisa acertar e continua sujeito a Aparar, salvo regra específica. Feitiços resolvidos por TR ou de modo Automático não causam crítico. Resistências, reduções e demais consequências do dano são tratadas em **Dano e recuperação**.
+
+<!-- page:defesa|Defesa e cobertura -->
+# Defesa e cobertura
+
+A **Defesa** é o número que uma rolagem de acerto precisa alcançar para atingir você. Ela funciona sem gastar uma ação ou Reação.
+
+> **Defesa = 10 + Destreza + proteção**, com os limites e modificadores aplicáveis.
+
+## Proteção
+
+Proteção pode vir de equipamento ou de uma aptidão. **Traje e Revestimento substituem a proteção passiva da rota**; não some as duas fontes. Escudo soma com a proteção permitida pela sua montagem.
+
+O equipamento pode limitar quanto de Destreza entra na Defesa. Se houver dois limites diferentes, use o menor. O Revestimento, por exemplo, permite somar 0 de Destreza, mesmo que esse atributo seja maior na ficha. Os valores e requisitos completos ficam em **Equipamento**.
+
+> **Exemplo:** Rina tem Destreza 3 e Traje com proteção 2. Sua Defesa é **10 + 3 + 2 = 15**. Com um Revestimento de proteção 5, também teria Defesa 15: **10 + 0 + 5**. A falta de Força impõe as penalidades de Proteção; os demais requisitos do equipamento continuam valendo.
+
+Bônus e penalidades de Defesa também alteram a base de Bloquear. Se a Defesa subir de 15 para 17 contra um ataque, a linha de Bloquear passa de **2d10 + 4** para **2d10 + 6** contra esse mesmo ataque.
+
+## Cobertura
+
+Uma mureta, um veículo ou outra criatura pode proteger você de ataques vindos do outro lado. O mestre determina o grau de cobertura a partir da posição de quem ataca e da parte do corpo protegida.
+
+| Cobertura | Benefício contra o que vem do outro lado |
+|---|---|
+| Parcial | +2 à Defesa e ao TR Físico. |
+| Boa | +5 à Defesa e ao TR Físico. |
+| Total | Você não pode ser escolhido diretamente como alvo através dela. |
+
+**Apenas a maior cobertura conta.** Duas coberturas Parciais não somam +4 nem se tornam Boa. Os bônus de Defesa também entram em Bloquear.
+
+Cobertura Total não concede um bônus numérico. Um efeito de área ainda pode alcançar você se as regras desse efeito permitirem atingir o local sem linha até o alvo. Uma parede não concede essa permissão ao efeito por si só.
+
+> **Exemplo:** Sousuke tem Defesa 15 e cobertura Boa contra um atirador. Sua Defesa é 20 contra o disparo; se escolher Bloquear, rola **2d10 + 9**. Contra um inimigo do mesmo lado do obstáculo, Sousuke não recebe esse bônus.
+
+## Redução de Dano
+
+Depois de resolver o acerto, aplique as reduções de dano que forem permitidas. Elas não aumentam a Defesa nem transformam um acerto em erro. Uma habilidade que reduza o dano pode exigir Reação ou outro recurso; Bloquear, por si só, não paga esses custos.
+
+<!-- page:bloquear|Bloquear -->
+# Bloquear
+
+**Quando você é alvo de um ataque com rolagem de acerto, pode substituir sua Defesa por uma rolagem de Bloquear.** Essa escolha é feita contra cada ataque, depois de conhecer sua rolagem e antes de aplicar o dano e os efeitos do acerto. Uma habilidade que exija uso antes da rolagem do atacante conserva essa exigência.
+
+> **Bloquear = 2d10 + (sua Defesa - 11)**.
+
+Bloquear é gratuito, **não gasta Reação** e está disponível tanto para personagens quanto para inimigos. Não exige arma ou escudo. Você pode usá-lo novamente contra outro ataque, mesmo que já tenha gasto sua Reação.
+
+## Resolução
+
+1. Use sua Defesa contra aquele ataque, incluindo cobertura, bônus e penalidades aplicáveis. Subtraia 11 para encontrar o modificador de Bloquear.
+2. Role dois d10 e some esse modificador. Confira antes os resultados **duplo 10 e duplo 1**, explicados em [Aparar e Brecha](#aparar).
+3. Fora desses extremos, compare o ataque com o total obtido. Se o ataque igualar ou superar Bloquear, acerta. Se ficar abaixo, erra.
+
+**O resultado substitui a Defesa, mesmo se for menor.** Você não escolhe o maior dos dois depois de rolar. A ficha pode trazer a conta pronta: **Defesa 17; Bloquear 2d10 + 6**.
+
+> **Exemplo:** uma maldição obtém 18 no ataque contra Rina, cuja Defesa é 17. Rina escolhe Bloquear e tira 7 e 4: **7 + 4 + 6 = 17**. O ataque acerta. Se os dados fossem 8 e 5, Bloquear daria 19, e o ataque erraria.
+
+## Limites
+
+**Guarda Aberta impede Bloquear.** Estar Derrubado, Agarrado ou sem Reação não impede essa rolagem por si só. Outras habilidades podem proibir Bloquear contra um ataque específico.
+
+Bloquear não pode ser usado contra um Teste de Resistência nem contra um efeito Automático. Um 20 natural continua sendo um acerto crítico, independentemente do resultado de Bloquear. Uma habilidade que use os dados dessa rolagem continua seguindo seu próprio texto.
+
+A propriedade **Talha** aplica **-1 ao resultado de Bloquear** contra a arma que a possui. Ela não reduz sua Defesa estática nem muda os resultados naturais dos dois d10.
+
+Quando um efeito impuser desvantagem a Bloquear, role o conjunto completo duas vezes. Mantenha Brecha se ela sair em qualquer conjunto. Sem Brecha, mantenha um resultado comum em vez de Aparar; entre dois comuns, use o menor total. Só há Aparar se ambos os conjuntos mostrarem duplo 10. Os dados descartados não produzem efeito.
+
+<!-- page:aparar|Aparar e Brecha -->
+# Aparar e Brecha
+
+Os resultados duplos usam os números mostrados nos dois d10 de Bloquear. Bônus de Defesa, cobertura e Talha não transformam outros resultados em um duplo.
+
+## Aparar
+
+**Se os dois d10 mostrarem 10, você apara o ataque: ele erra.** Isso vale mesmo que o total do atacante alcançasse o resultado numérico de Bloquear. A exceção é o **20 natural do atacante**, que continua acertando como crítico.
+
+Depois de aparar um ataque e impedir o acerto, você pode gastar sua **Reação** para atacar o agressor imediatamente, com **+3 de dano**. Esse valor é fixo e não dobra num crítico.
+
+Sem Reação disponível, você ainda impede o acerto, mas não pode pagar essa resposta. O contra-ataque também precisa cumprir seus requisitos, inclusive alcançar o agressor. Aparar um disparo distante não coloca o atirador ao alcance da sua espada.
+
+> **Exemplo:** Sousuke está ao alcance de Rina e obtém 23 no ataque. Ela tira dois 10 em Bloquear: o golpe erra por Aparar. Rina tem Reação e decide gastá-la para revidar. Faz uma nova rolagem de ataque; se acertar, soma 3 ao dano normal. Se o d20 de Sousuke fosse um 20 natural, Aparar não impediria o acerto nem concederia esse revide.
+
+## Brecha
+
+**Se os dois d10 mostrarem 1, o ataque acerta**, mesmo que seu total numérico não alcançasse Bloquear. Brecha não transforma esse acerto em crítico por si só.
+
+O agressor pode gastar a **Reação dele** para atacar você mais uma vez, imediatamente, sem bônus de dano concedido por Brecha. Ele precisa ter essa Reação disponível e cumprir os requisitos do novo ataque.
+
+> **Exemplo:** Rina tira dois 1 em Bloquear. O ataque original acerta. A maldição já gastou sua Reação desde o começo do último turno dela, então não pode realizar o ataque adicional de Brecha. O acerto original continua valendo.
+
+## Ataques de resposta
+
+Essas respostas permitem **um ataque**, não uma Ação Atacar completa. São ataques físicos com arma ou desarmados; um feitiço exige permissão específica. Faça uma nova rolagem de acerto e resolva a Defesa ou Bloquear de quem recebe o golpe.
+
+Cada resposta paga a Reação indicada por seu gatilho. Um novo Aparar ou Brecha pode oferecer outra resposta, mas não devolve uma Reação já gasta. Cada criatura recupera sua Reação no começo do próprio turno, conforme as regras de Turnos.
+
+O ataque original conserva seu resultado. Resolver um revide não transforma retroativamente um acerto em erro ou recupera recursos gastos. As permissões adicionais de Caminhos, Trilhas e entidades continuam usando seus custos e limites próprios.
+
+<!-- page:movimento|Movimento e terreno -->
+# Movimento e terreno
+
+## Metros disponíveis
+
+Sua **Ação de Movimento** permite percorrer uma distância igual ao deslocamento da ficha. O valor comum é **9 m**. Você pode andar, atacar e continuar andando, descontando cada trecho do movimento disponível.
+
+**Correr** custa uma Ação Padrão e acrescenta movimento igual ao seu deslocamento até o fim do turno. **Desengajar** também custa uma Ação Padrão e impede ataques de oportunidade provocados por seus movimentos naquele turno. Habilidades podem mudar esses custos.
+
+Uma tarefa que gaste sua Ação de Movimento inteira, como uma segunda manipulação de item, usa essa ação sem fazer você sair do lugar. Não use a mesma ação para andar e depois pagar uma tarefa que a consuma inteira.
+
+## Medidas de 1,5 m
+
+Use **1,5 m como unidade de distância** neste capítulo. Em um mapa quadriculado, isso corresponde a um quadrado. O mestre define as distâncias do cenário nessa escala antes da tentativa. Ao calcular uma distância, descarte a fração que não complete 1,5 m, depois de aplicar seus modificadores.
+
+> **Exemplo:** metade de 9 m é 4,5 m. Metade de 4,5 m fica em 1,5 m após o arredondamento. Essa regra vale para distâncias; não altera o arredondamento de dano, Vida ou pontos de energia.
+
+## Terreno, escalada e natação
+
+Uma passagem firme e livre usa o custo normal. Lama espessa, entulho ou vegetação fechada podem tornar o trecho difícil. O mestre informa isso antes de você escolher o percurso.
+
+| Travessia de 1,5 m | Movimento consumido |
+|---|---|
+| Caminhar em terreno regular | 1,5 m |
+| Caminhar em terreno difícil | 3 m |
+| Escalar ou nadar | 3 m |
+| Escalar ou nadar em terreno difícil | 4,5 m |
+
+Ter deslocamento de escalada ou natação elimina o custo adicional daquela modalidade: **1,5 m** em trecho regular ou **3 m** em trecho difícil. Várias causas de terreno difícil no mesmo trecho não repetem o custo.
+
+Escalar exige uma superfície que ofereça apoios utilizáveis. Nadar não permite respirar debaixo d'água. Uma escada firme ou água tranquila dispensa teste; uma superfície escorregadia ou correnteza pode exigir **Atletismo**, contra a dificuldade do ambiente. Antes da rolagem, o mestre informa o risco da falha. Uma rolagem resolve o obstáculo descrito, sem nova cobrança a cada quadrado.
+
+> **Exemplo:** com 9 m disponíveis, Rina anda 3 m, atravessa 1,5 m de entulho por 3 m e anda os 3 m restantes. Percorreu 7,5 m e gastou seus 9 m de movimento.
+
+Movimento especial segue o custo e os limites da fonte que o concedeu.
+
+<!-- page:espacos|Espaço e posição -->
+# Espaço e posição
+
+O espaço de uma criatura indica a área que ela ocupa para se mover e lutar. Confira o tamanho na ficha. Em um mapa, cada quadrado representa **1,5 m**. A área ocupada não define, por si só, o alcance de seus ataques.
+
+| Tamanho | Espaço no mapa |
+|---|---|
+| Minúsculo | Até quatro criaturas podem compartilhar um quadrado de 1,5 m. |
+| Pequeno ou Médio | Um quadrado de 1,5 m. |
+| Grande | 3 m por 3 m. |
+| Imenso | 4,5 m por 4,5 m. |
+| Colossal | 6 m por 6 m, ou mais se a ficha indicar. |
+
+## Atravessar outra criatura
+
+Você pode passar pelo espaço de um aliado disposto a dar passagem. Pode também atravessar o espaço de uma criatura pelo menos **duas categorias maior ou menor** que você, se houver passagem física. O espaço do aliado usa custo normal; o de outra criatura usa custo de terreno difícil. Vários motivos de terreno difícil não repetem essa cobrança.
+
+Não termine voluntariamente no espaço de outra criatura, salvo uma permissão específica ou o compartilhamento entre Minúsculos. Precisa haver movimento suficiente e um espaço livre para completar a travessia. Uma passagem não concede ataque nem dispensa ataques de oportunidade.
+
+> **Exemplo:** Mei é Média. Um adversário Grande bloqueia o corredor: ela não pode atravessá-lo só por ter movimento restante. Ela precisa buscar outro percurso. Se o adversário fosse Imenso, a diferença de duas categorias permitiria a travessia, havendo passagem física, movimento suficiente e um espaço livre ao final.
+
+**Guarda Aberta não libera passagem automaticamente.** Uma criatura inconsciente ou um corpo imóvel pode ser atravessado quando houver passagem física, com custo de terreno difícil.
+
+## Obstáculos e movimento imposto
+
+Uma criatura precisa caber no percurso. A autorização para atravessar alguém não permite atravessar paredes. 
+
+Se um empurrão levar uma criatura a um espaço que ela não pode ocupar, pare no último espaço válido, salvo regra específica do efeito. Isso não concede dano de colisão ou Derrubado automaticamente. Uma queda continua seguindo seu procedimento próprio.
+
+<!-- page:distancias|Distâncias e altura -->
+# Distâncias e altura
+
+Em um mapa, **cada quadrado mede 1,5 m**. Passar para um quadrado adjacente custa 1,5 m, inclusive na diagonal. Aplique os custos adicionais do percurso. Uma diagonal não atravessa o canto de uma parede.
+
+Para medir alcance, conte o percurso mais curto entre um espaço ocupado pela origem e um espaço ocupado pelo alvo, sem contar o espaço inicial. Obstáculos ainda podem impedir a trajetória. Uma criatura grande não recebe alcance adicional apenas por ocupar mais quadrados.
+
+## Três dimensões
+
+Marque a altura na mesma escala. Um passo pode avançar em até um quadrado em cada eixo ao mesmo tempo: lateral, profundidade e altura. Para dois pontos num espaço livre, a distância é o **maior desnível entre os três eixos**, em quadrados, multiplicado por 1,5 m. Essa é a convenção do mapa, usada tanto para movimento quanto para alcance.
+
+**Exemplo.** Um alvo está 6 m à frente e 4,5 m acima de Rina. São quatro quadrados num eixo e três no outro: a distância de jogo é 6 m. Se uma parede impedir a trajetória, essa medida não permite atravessá-la.
+
+## Mesas sem mapa
+
+O mestre estabelece as distâncias e as posições relevantes antes da tentativa. Use a mesma escala para decidir se um alcance ou percurso basta. Não troque de método entre o ataque de uma criatura e a defesa da outra.
+
+Use múltiplos de 1,5 m nas medidas de jogo. Arredonde a capacidade calculada para baixo depois dos modificadores. Isso não reduz o tamanho real de um obstáculo: o mestre informa previamente quanto movimento ele exige na escala da cena.
+
+## Movimento imposto
+
+Um efeito usa a direção e a distância que concedeu. Escolher o destino não permite erguer o alvo sem uma autorização para isso. Ter metros suficientes também não permite terminar dentro de uma parede ou no espaço de outra criatura. Confira **Quedas e movimento imposto** para beiradas e colisões.
+
+<!-- page:saltos|Saltos -->
+# Saltos
+
+Escolha o destino e confira o movimento. Saltos dentro da sua capacidade, entre apoios firmes e sem obstáculos, **dispensam teste**.
+
+## Distância e impulso
+
+Tome **impulso** percorrendo **3 m** sem parar antes de saltar. Esse percurso consome movimento. Movimento imposto por outra criatura não fornece impulso.
+
+Com impulso, seu salto horizontal alcança até **3 m + 1,5 m por ponto de Força**. Sem impulso, alcança metade disso, arredondada para baixo em múltiplos de 1,5 m.
+
+| Força | Com impulso | Sem impulso |
+|---|---|---|
+| 0 | 3 m | 1,5 m |
+| 1 | 4,5 m | 1,5 m |
+| 2 | 6 m | 3 m |
+| 3 | 7,5 m | 3 m |
+| 4 | 9 m | 4,5 m |
+| 5 | 10,5 m | 4,5 m |
+| 6 | 12 m | 6 m |
+
+Para um salto **para cima**, conte a subida dos pés: com impulso, você supera até **1,5 m**, ou **3 m se tiver Força 5 ou 6**. Sem impulso, Força 5 ou 6 permite subir 1,5 m; com Força menor, superar esse desnível exige o esforço descrito abaixo. Pequenos saltos no mesmo piso não exigem teste.
+
+Avanço e subida precisam caber **nos dois limites**. Pague a distância horizontal ou a subida, **a que for maior**, com movimento disponível antes de saltar. O teste não custa outra ação. Correr fornece metros, sem ampliar o salto. Saltar para baixo também segue as regras de [Quedas e movimento imposto](#quedas).
+
+Saltar dentro de terreno difícil **mantém o custo dobrado**. Você só ignora um obstáculo no chão se o ultrapassar inteiro e aterrissar em piso regular. Obstáculos que alcancem o percurso pelo ar continuam valendo.
+
+## Esforço e obstáculos
+
+Você pode tentar alcançar **mais 1,5 m**, na horizontal ou na subida, com **Atletismo CD 14**. Essa extensão vale uma vez por salto, em apenas um dos eixos. Distâncias maiores dependem de uma habilidade que as permita.
+
+Piso escorregadio ou outro risco pode exigir teste mesmo na distância normal. Havendo esforço e risco juntos, role uma vez contra a maior CD. Antes da tentativa, o mestre anuncia a CD e a consequência combinada, incluindo onde você termina; ela substitui a falha simples abaixo.
+
+Falhar apenas no esforço leva você até sua distância normal no eixo escolhido: aterrisse se houver apoio, ou caia. Gaste o movimento reservado para a tentativa. No salto vertical parado sem distância automática, a falha mantém você na partida. Riscos do terreno seguem a consequência anunciada.
+
+> **Exemplo:** Rina tem Força 1 e 9 m de movimento. Ela percorre 3 m para tomar impulso e salta 4,5 m entre telhados no mesmo nível. Não precisa rolar e ainda tem 1,5 m para andar.
+
+<!-- page:quedas|Quedas e movimento imposto -->
+# Quedas e movimento imposto
+
+## Dano de queda
+
+Ao atingir o chão, você sofre **1d6 de dano de Concussão por 3 m completos de queda**, até **20d6**. Se receber dano do impacto, termina **Derrubado**. Uma queda de menos de 3 m não causa dano pela altura.
+
+| Altura | Dano |
+|---|---|
+| 1,5 m | Nenhum |
+| 3 m ou 4,5 m | 1d6 |
+| 6 m ou 7,5 m | 2d6 |
+| 9 m ou 10,5 m | 3d6 |
+| 30 m | 10d6 |
+| 60 m ou mais | 20d6 |
+
+Meça o desnível desde o último apoio que sustentou o corpo. O arco de um salto não acrescenta altura. Descer com apoio e controle, como numa corda ou usando uma habilidade apropriada, consome movimento e não causa dano de queda.
+
+A queda não é um ataque e não permite Bloquear. Resistência a Concussão e Vida temporária se aplicam normalmente. Ao chegar a zero de vida, siga **Vida a zero**. Benefícios limitados a ataques não protegem automaticamente contra o impacto.
+
+> **Exemplo:** uma personagem com 14 de vida cai 4,5 m. O d6 resulta em 4: ele fica com 10 de Vida e Derrubado. As regras comuns não concedem uma tentativa gratuita de anular essa queda com Acrobacia.
+
+## Cair na água
+
+Se a água tiver pelo menos **3 m de profundidade**, sem obstáculo no impacto, você pode gastar sua **Reação** para fazer **Atletismo ou Acrobacia CD 14**. No sucesso, recebe metade do dano da queda, arredondada para cima. Na falha, recebe o dano inteiro. Depois, precisa nadar; o teste não elimina correnteza, perigos do líquido ou necessidade de respirar.
+
+## Empurrões e movimento imposto
+
+Um empurrão ou arremesso usa a distância e a direção da habilidade. Não consome movimento da vítima nem provoca ataques de oportunidade. Uma parede interrompe o percurso sem acrescentar dano, salvo efeito específico. Se a vítima passar de uma beirada, cai pelo desnível real.
+
+Escolher um destino no ar acima da vítima exige que a habilidade permita erguer ou lançar para cima. Um destino elevado com apoio real pode ser válido. A descrição de um arco não acrescenta dano de queda à habilidade.
+
+Resolva o efeito, a queda e o impacto antes das respostas que exigem que o efeito tenha terminado. Para uma queda superior a **150 m**, resolva os primeiros 150 m imediatamente e mais 150 m ao fim de cada turno seu seguinte; o dano usa a altura total até o impacto. Nesse caso, respostas ao efeito original ocorrem após o primeiro trecho, sem esperar o impacto futuro.
+
+<!-- page:queda-criatura|Quedas sobre criaturas -->
+# Quedas sobre criaturas
+
+Quando um corpo cai pelo espaço ocupado por outra criatura, resolva a possibilidade de impacto antes do dano. Os tamanhos dos dois precisam diferir em **no máximo uma categoria**. Fora dessa faixa, a queda não reparte dano por este procedimento. O mestre resolve o espaço de chegada e outros perigos próprios do cenário.
+
+O alvo faz **TR Físico CD 14**. No sucesso, evita o corpo: quem caiu recebe todo o dano da queda. Na falha, role o dano da altura **uma única vez**, antes de aplicar defesas. Metade, arredondada para baixo, vai para o alvo. O restante vai para quem caiu. Cada um aplica suas próprias defesas à parte recebida e fica Derrubado se sofrer dano do impacto.
+
+**Exemplo.** Um corpo Médio cai 9 m sobre uma criatura Grande. Os 3d6 somam 11. O alvo falha: recebe uma parcela de 5, e quem caiu, de 6. Resistências e reduções de cada um só entram depois dessa divisão. A resistência de quem cai não reduz previamente o dano do outro.
+
+## Queda deliberada
+
+Escolher e tentar controlar o ponto de impacto para atingir alguém exige sua **Ação Padrão antes de começar a queda**. Declare um alvo na trajetória possível. A ação não fornece metros, impulso, voo ou mudança de direção no ar, nem permite redirecionar uma queda já resolvida.
+
+Uma queda imposta acontece mesmo que você não tenha a ação disponível. Se atingir alguém por acidente, use o TR acima. O procedimento alcança **uma criatura por queda**; não distribua impactos entre todos os corpos de um espaço grande.
+
+Este dano não é um ataque, não recebe dano de arma, não causa crítico e não permite Bloquear. Uma habilidade que já resolva dano de colisão usa sua própria regra. Não some este procedimento ao mesmo impacto. Se depois houver uma nova queda real de altura, resolva esse evento separadamente.
+
+Depois do impacto, coloque quem caiu no espaço livre mais próximo do ponto de chegada, sem conceder movimento adicional. Nenhum dos dois termina dentro de um obstáculo sólido.
+
+<!-- page:rastejar|Rastejar e passagens estreitas -->
+# Rastejar e passagens estreitas
+
+Quando estiver Derrubado e puder se mover, você pode rastejar. Cada trecho de **1,5 m custa 3 m** do movimento disponível. Em terreno difícil, custa **4,5 m**. Esse custo representa a redução de velocidade por rastejar: não corte o deslocamento pela metade de novo por esse mesmo motivo.
+
+Outros efeitos que reduzam seu deslocamento continuam valendo. Com deslocamento zero, não pode rastejar para sair do lugar.
+
+> **Exemplo:** Rina tem 9 m disponíveis e está Derrubada. Pode rastejar **4,5 m** em chão regular. Se todo o percurso for terreno difícil, consegue percorrer **3 m**. Não precisa de um teste por quadrado.
+
+## Levantar
+
+Levantar de um Derrubado comum custa sua **Ação de Movimento inteira**, conforme a condição. Você não pode usar parte dessa ação para rastejar e depois usá-la inteira para levantar. Uma habilidade pode permitir outro custo.
+
+Um efeito que mantenha você Derrubado precisa ser encerrado antes de levantar. Estar Agarrado permite levantar no mesmo espaço se tiver a ação necessária; o agarrão continua, e o deslocamento permanece zero.
+
+## Passagem estreita
+
+O mestre informa se a abertura permite passar normalmente, exige espremer o corpo ou é pequena demais. Considere a forma do corpo e o equipamento. Uma diferença de tamanho na ficha não permite dobrar uma porta ou atravessar uma abertura fisicamente impossível.
+
+**Espremer-se** custa 1,5 m adicional para cada 1,5 m percorrido. Enquanto estiver preso à passagem estreita, seus ataques e TRs Físicos têm desvantagem, e ataques contra você têm vantagem. A penalidade termina ao sair da passagem; não é uma condição comprada no catálogo.
+
+| Percorrer 1,5 m | Movimento consumido |
+|---|---|
+| Espremer-se em trecho regular | 3 m. |
+| Espremer-se em terreno difícil | 4,5 m. |
+| Rastejar e espremer-se em trecho regular | 4,5 m. |
+| Rastejar, espremer-se e terreno difícil | 6 m. |
+
+Os acréscimos se somam ao custo normal; não se multiplicam. Ter várias fontes de desvantagem segue o cancelamento comum, sem dados adicionais por fonte.
+
+> **Exemplo:** para cruzar 1,5 m por um duto baixo, Rina precisa rastejar e se espremer. Gasta **4,5 m**. Se houver entulho que torne o trecho difícil, gasta **6 m**. Retirar o entulho elimina somente esse acréscimo.
+
+<!-- page:voo|Voo -->
+# Voo
+
+Voar exige uma capacidade que conceda essa modalidade. A fonte informa a distância, a duração e os requisitos para mantê-la. Um salto não concede voo.
+
+Use a Ação de Movimento e as demais permissões habituais para gastar seus metros de voo. Subir, avançar e descer voluntariamente consomem movimento. Registre a altura na escala de **1,5 m** quando ela afetar alcance, obstáculos ou uma possível queda.
+
+## Combinar modalidades
+
+Mudar de caminhada para voo não cria uma segunda reserva completa. Ao trocar de modalidade, desconte do deslocamento dela o movimento já gasto no turno. Se o resultado for zero ou negativo, não há movimento restante nessa modalidade. Custos adicionais do terreno entram nessa conta pelo que consumiram.
+
+> **Exemplo:** Mei tem deslocamento terrestre 9 m e voo 12 m concedido por um efeito. Anda 6 m e depois passa a voar: restam **6 m de voo**. Se os percorrer, terá gasto 12 m no turno e não poderá voltar a caminhar com os 9 m terrestres. A troca não entrega 21 m.
+
+Cada Ação de Movimento adicional e cada uso de Correr concedem outra reserva igual ao deslocamento da modalidade escolhida. Gaste essa reserva somente nessa modalidade, sem voltar a descontar nela os metros de outra reserva. Esse acréscimo continua sujeito às permissões e aos custos do percurso; não concede outra modalidade nem renova uma reserva própria de habilidade.
+
+## Obstáculos e alcance
+
+Estar no ar não permite atravessar teto, porta ou criatura. Obstáculos e a área ocupada continuam importando. Terreno difícil que esteja apenas no chão não cobra custo de quem voa acima dele; um obstáculo que alcance a trajetória continua presente.
+
+Meça o alcance considerando também a altura. Em um mapa com altura marcada em quadrados, use a mesma convenção de passos de 1,5 m nas três dimensões. Linha de visão e linha de efeito ainda precisam estar livres quando exigidas.
+
+## Perder sustentação
+
+Se a duração terminar ou você deixar de cumprir um requisito que mantém o voo, você cai. Uma fonte que permita **pairar** pode conservar você no ar sem movimento; isso precisa estar declarado nela. O nome ou a aparência do poder não bastam para conceder essa permissão.
+
+Ficar com deslocamento zero ou Derrubado encerra a sustentação salvo voo que permita pairar ou uma exceção explícita. Use as regras de Queda; não há uma Reação geral gratuita para recuperar apoio.
+
+Carregar uma criatura durante o voo continua sujeito aos limites de [Carga](#carga), ao espaço e aos requisitos da fonte de voo.
+
+<!-- page:carga|Carga -->
+# Carga
+
+Seu limite de carga é **5 + Força**, medido em **Volume**. Essa medida considera peso, tamanho e dificuldade de transporte. Some tudo o que leva, incluindo itens vestidos ou empunhados.
+
+**Acima do limite e até o dobro dele, seu deslocamento cai pela metade e você tem desvantagem em TR Físico.** Acima do dobro, você não pode se deslocar com a carga: reduza o que leva antes de andar, nadar, escalar ou voar. As penalidades por carga, por empunhar uma arma sem a Força exigida e por usar proteção sem a Força exigida não se multiplicam: o deslocamento cai pela metade uma única vez, e a desvantagem em TR Físico é uma só.
+
+| Força | Limite em Volume | Massa de um corpo sem equipamento |
+|---|---|---|
+| 0 | 5 | 60 kg. |
+| 2 | 7 | 84 kg. |
+| 4 | 9 | 108 kg. |
+| 6 | 11 | 132 kg. |
+
+A coluna de massa supõe que você não leva nenhum equipamento. Os itens carregados reduzem a capacidade restante.
+
+## Volume dos itens
+
+Use o valor da tabela de cada item e some sem arredondar. Oculta, Discreta, Vestida e o número de mãos não determinam Volume. **Volumosa** tem uma restrição de manejo própria, sem acrescentar carga.
+
+Se uma regra indicar apenas “item leve”, use 0,1 Volume; a tabela do item tem prioridade. O mestre pode dispensar objetos de carga desprezível.
+
+> **Exemplo:** com Força 0 e 4,5 Volume ocupado, Rina pode levar mais cinco itens de 0,1, chegando a **5**. Um sexto elevaria a carga a **5,1**, acima do limite: Rina ainda pode carregá-la, com deslocamento pela metade e desvantagem em TR Físico.
+
+## Objetos sem valor e criaturas
+
+Para um objeto sem Volume, compare com outro semelhante do catálogo. Sem equivalente, o mestre define o valor pelo peso, tamanho e dificuldade de transporte, antes da tentativa.
+
+Para carregar uma criatura, **divida a massa do corpo em quilogramas por 12**. Some o Volume tabelado dos equipamentos dela e dos seus. Compare o total exato com o limite, sem arredondar para caber. A conversão vale somente para corpos; não recalcule equipamentos com ela. Bolsas ou itens entregues à criatura carregada não reduzem a soma.
+
+> **Exemplo:** Mei tem Força 2, limite 7, e leva 2 Volume. Um aliado de 60 kg ocupa **5 Volume**, mais 1 de equipamento. A carga total seria **8**: Mei pode carregá-lo com deslocamento pela metade e desvantagem em TR Físico. Redistribuir pelo menos 1 elimina a penalidade por carga.
+
+## Erguer
+
+Você pode levantar até **o dobro do limite de carga**. Acima do limite normal, pode caminhar carregando o excesso com as penalidades descritas em Carga. Para deslocá-lo pelo chão, consulte **Arrastar e transportar**.
+
+Carga não concede arremesso, dano ou ataque. Caber no limite também não dispensa requisitos de Força do equipamento ou da habilidade usada.
+
+<!-- page:arrasto|Arrastar e transportar -->
+# Arrastar e transportar
+
+## Arrastar pelo chão
+
+Você pode arrastar ou empurrar até **o dobro do seu limite de carga**, descontando desse limite o equipamento que já leva. Uma criatura transportada usa sua massa dividida por 12, mais o Volume de seus itens. Um objeto usa seu Volume tabelado ou definido pelo mestre antes da tentativa.
+
+Cada trecho de **1,5 m custa 3 m de movimento**. Terreno difícil acrescenta mais 1,5 m ao trecho. Não some outra vez esse custo por a criatura estar agarrada: é o mesmo arrasto.
+
+O percurso precisa permitir o movimento dos dois corpos ou do objeto. Escadas, vãos e superfícies sem apoio podem exigir outra forma de transporte. Um obstáculo que bloqueie a passagem não é vencido por ter capacidade de carga suficiente.
+
+**Alvo que resiste:** cumpra a manobra de Agarrar, incluindo alcance, tamanho, mão livre e TR. Capacidade de carga não substitui esses requisitos. O arrasto mantém a contenção e exige que ambos continuem ao alcance um do outro. Um corpo inconsciente ou um aliado disposto dispensa a manobra, mas continua contando na carga.
+
+## Transporte em grupo
+
+Criaturas que consigam segurar e mover a mesma carga podem dividir o peso. Antes de começar, distribua seu Volume entre elas; cada participante soma sua parte ao que já leva. Para carregar, nenhuma parte pode ultrapassar o dobro do limite individual; acima do limite normal, aplique as penalidades de Carga. Para arrastar, vale o dobro desse limite.
+
+Todos precisam ter uma forma de segurar a carga e caber no percurso. Use o menor movimento disponível entre os participantes e cobre o mesmo trecho de cada um. Em combate, movimento simultâneo exige Preparar ou outra permissão de agir naquele momento. Ajudar num teste não fornece metros, mãos ou capacidade ilimitados.
+
+**Exemplo.** Rina e Kaito têm limite 5 e levam 1 Volume cada. Um aliado com corpo de 6 Volume e equipamento de 1 pode ser carregado se dividirem os 7: 3,5 para cada um, total individual 4,5. Se um deles soltar, o outro fica com 8 Volume e pode continuar carregando sozinho, com deslocamento pela metade e desvantagem em TR Físico.
+
+<!-- page:montaria|Combate montado -->
+# Combate montado
+
+Uma montaria precisa ser voluntária, ter corpo apropriado e ser **pelo menos uma categoria de tamanho maior** que você. Cavaleiro e equipamento contam na carga dela. A ficha informa seu deslocamento e capacidades.
+
+**Montar ou desmontar** uma criatura a até 1,5 m custa movimento igual à metade do seu deslocamento, arredondado para baixo em múltiplos de 1,5 m. Termine num espaço válido. Com deslocamento zero, não pode pagar essa manobra.
+
+## Turnos e controle
+
+Uma montaria treinada para receber ordens pode agir no seu turno enquanto você a conduz. Ela usa o próprio movimento e uma Ação Padrão, restrita a **Correr, Desengajar ou Esquivar**. Conduzi-la não gasta uma ação adicional sua, mas exige que você possa se comunicar e controlá-la.
+
+Uma montaria independente conserva a iniciativa e decide suas ações normalmente. **Entidades invocadas seguem seus comandos e recursos próprios em Invocações em campo**, mesmo quando servem de montaria. Montar uma criatura não concede outro turno, novos recursos ou um comando gratuito. Se ela já agiu na rodada, mudar de cavaleiro ou de iniciativa não permite agir de novo.
+
+O cavaleiro age com seus próprios recursos. O movimento da montaria não consome os metros dele. Ela não pode transformar esse transporte em ataques gratuitos.
+
+## Ameaças e quedas
+
+Se o movimento da montaria provocar oportunidade, o agressor pode escolher **a montaria ou o cavaleiro**, desde que alcance e perceba o alvo escolhido. Desengajar com a montaria protege ambos desse movimento.
+
+Se um efeito mover a montaria contra a vontade ou deixar cavaleiro ou montaria Derrubado, o cavaleiro faz **TR Físico CD 10**. Na falha, cai num espaço livre adjacente e fica Derrubado. No sucesso, conserva a posição montada, se houver apoio possível. Se a montaria cair, pode gastar sua Reação para desmontar num espaço livre adjacente em vez desse TR.
+
+Uma queda de altura causa seu dano normal. Cair do assento não cria altura adicional. Um cavaleiro inconsciente perde o controle e cai se não estiver preso por um suporte apropriado.
+
+<!-- page:perceber|Percepção e visibilidade -->
+# Percepção e visibilidade
+
+Uma porta batendo no corredor é perceptível sem teste. Um fio preso ao batente pode passar despercebido. Peça uma rolagem quando houver algo incerto a descobrir e uma consequência para não notar.
+
+## Ver, localizar e estar oculto
+
+Você **enxerga** uma criatura quando consegue vê-la com clareza suficiente para acompanhar suas ações. Você **localiza** uma criatura quando sabe o espaço que ela ocupa, mesmo sem enxergá-la: passos na sala escura podem denunciar esse espaço.
+
+Uma criatura está **oculta de você** quando escondeu sua presença ou posição e você ainda não a localizou. Isso é verificado para cada observador. Um vigia pode descobri-la enquanto outro continua sem saber onde ela está.
+
+Cobertura, escuridão e invisibilidade podem impedir que você veja alguém, mas não apagam automaticamente barulho, pegadas ou a posição que acabou de observar. Perder alguém de vista não exige esquecer seu último espaço conhecido; acompanhar um deslocamento escondido pode exigir uma busca.
+
+## Luz e obstáculos
+
+| Situação | O que muda |
+|---|---|
+| Visão livre e luz suficiente | Você percebe o que estiver evidente. Um detalhe escondido ainda pode exigir teste. |
+| Penumbra, fumaça leve ou vegetação rala | Percepção baseada na visão tem desvantagem. Isso, sozinho, não esconde um corpo claramente exposto. |
+| Escuridão | Você não enxerga o que estiver sem luz. Um alvo iluminado além do trecho escuro ainda pode ser visto. |
+| Fumaça densa ou obstáculo opaco | Bloqueia a visão através dele. Ouvir ou usar um sentido apropriado continua possível. |
+
+**Cobertura** protege de ataques conforme **Defesa e cobertura**.
+
+Fumaça não segura uma flecha. Uma parede pode bloquear visão e ataques. Quando ambos existirem, aplique cada efeito uma vez. Uma técnica que exija enxergar o alvo continua exigindo isso mesmo que você saiba onde ele está.
+
+**Visão às cegas** substitui a visão para perceber e atacar dentro dos limites próprios. Não concede leitura fina, visão através de paredes ou dispensa de um requisito que exija especificamente usar os olhos. Sentir Energia não recebe esses benefícios.
+
+> **Exemplo:** Kaori ouve uma gaveta fechar numa sala escura. Percepção pode localizar quem se moveu ali. Investigar a mesa pode revelar o documento retirado. Nenhuma dessas descobertas permite enxergar através da parede.
+
+<!-- page:esconder|Esconder -->
+# Esconder
+
+**Ação Padrão.** Escolha um lugar ou percurso que permita esconder seu corpo e reduzir os sinais da sua passagem. Faça um teste de **Furtividade: d20 + seu bônus completo na perícia**. Some Destreza, maestria se treinado, especialização e outros modificadores aplicáveis, conforme a ficha.
+
+## Quando é possível
+
+Uma parede, caixas que cubram seu corpo ou escuridão suficiente podem permitir a tentativa. Não é possível se esconder de alguém que o vê claramente. Estar atrás de uma cobertura Parcial ou Boa só permite a tentativa se a posição e sua postura realmente esconderem o corpo daquele observador.
+
+Você pode se esconder de uma criatura e continuar visível para outra. O mestre indica quais observadores podem perceber a tentativa e por quais sentidos; uma criatura sem acesso a nenhum sinal não faz uma detecção automática só por estar no combate.
+
+## Uma rolagem, vários observadores
+
+Compare seu resultado à **CD 10 + o bônus completo de Percepção de cada observador** capaz de perceber sua tentativa. Inclua Essência, treino, especialização e modificadores fixos aplicáveis. Dados adicionais de um efeito só entram se ele permitir afetar uma CD passiva. Empatar com a CD basta.
+
+Se o observador tiver vantagem ou desvantagem na percepção relevante, ajuste a CD em **+5 ou -5**, respectivamente. Use o sentido disponível: penumbra não prejudica alguém que pode ouvir claramente seus passos.
+
+Ao passar, você fica oculto daquele observador. Ao falhar, ele percebe onde você está. **Anote o total de Furtividade:** ele será a CD de uma busca posterior. Um novo observador compara sua CD de percepção a esse total quando passar a ter acesso aos sinais; se o total de Furtividade for menor, ele o localiza.
+
+> **Exemplo:** Rina obtém 15 em Furtividade. Um vigia tem Percepção +4, portanto CD 14; outro tem +8, portanto CD 18. Ela fica oculta do primeiro, mas o segundo a localiza. O resultado guardado para uma busca do primeiro é 15.
+
+## Enquanto você permanece escondido
+
+Não refaça o teste a cada turno ou quadrado. O resultado continua valendo enquanto você conservar um percurso que esconda sua passagem. Entrar em visão livre, produzir um ruído que denuncie seu espaço ou ser localizado encerra a ocultação para quem percebeu esse sinal.
+
+Depois de perder a ocultação, você pode usar Esconder novamente se estiver fora da visão direta e puder disfarçar seus sinais, mesmo atrás das mesmas caixas. Pague a ação ou use a permissão da habilidade. O novo teste substitui o anterior, mesmo se for menor; compare novamente os observadores com acesso aos sinais. Não é possível apagar a visão de quem continua olhando diretamente para você.
+
+**Travessia em grupo:** fora do combate, quando todos precisam passar juntos sem serem notados, use a regra existente de teste de grupo: pelo menos metade precisa passar. Em combate, resolva a ocultação de cada personagem.
+
+<!-- page:procurar|Vasculhar -->
+# Vasculhar
+
+**Ação Padrão.** Diga o que procura e em qual lugar. Use **Percepção** para notar uma presença ou detalhe e **Investigação** para examinar pistas. Uma habilidade pode permitir outra perícia ou outro sentido. **Ler o Ambiente** informa sobre o lugar; não substitui procurar criaturas.
+
+Percepção depende de sinais que alcancem seus sentidos. Investigação pode exigir abrir uma gaveta, tocar o objeto ou aproximar-se. Uma rolagem alta não encontra alguém numa sala que você não procurou nem atravessa um obstáculo que bloqueie o sentido usado.
+
+Faça **uma rolagem por busca** e compare-a aos resultados de Furtividade guardados de todas as criaturas com sinais acessíveis no lugar declarado. Você localiza aquelas cuja CD alcançar, encerrando a ocultação em relação a você. Escuridão, invisibilidade e cobertura continuam valendo. As demais permanecem ocultas; em combate, a ação foi gasta. Se o total necessário estiver fora do alcance da rolagem, outra tentativa idêntica não resolve: procure outra pista ou exponha o esconderijo.
+
+Fora do combate, o mestre informa o tempo e o risco da busca. Repita o teste apenas com nova abordagem, nova informação ou uma nova consequência pelo tempo gasto. Quem se esconde também não recebe uma rolagem nova simplesmente porque foi procurado.
+
+> **Exemplo:** o vigia procura Rina atrás das caixas. Ela guardou Furtividade 15. Ele tem Percepção +4 e tira 11: total 15, suficiente para localizá-la. Pode avisar um aliado onde ela está. O aviso informa o espaço de Rina naquele momento, sem acompanhar seus movimentos futuros. A parede continua bloqueando ataques que precisem de passagem livre.
+
+## Qual procedimento usar
+
+| Sua intenção | Onde resolver |
+|---|---|
+| Encontrar uma presença ou pista pelos sentidos comuns | Vasculhar, nesta seção. |
+| Localizar uma fonte de energia | [Vasculhar com Sentir Energia](#buscar). |
+| Compreender uma criatura, um objeto ou um sinal que já observa | [Estudar](#estudar). |
+| Reconstruir um acontecimento ou seguir resíduos | [Examinar vestígios](#ler). |
+
+Uma habilidade de percepção informa o que seu texto permitir. Conhecer uma posição e enxergar continuam sendo resultados diferentes; os limites de visão e ataques estão em [Ataques e ocultação](#ocultacao-ataque).
+
+<!-- page:ocultacao-ataque|Ataques e ocultação -->
+# Ataques e ocultação
+
+## Visão e posição do alvo
+
+Se você **enxerga o alvo e ele não enxerga você**, seu ataque tem vantagem. Se você **não enxerga o alvo**, seu ataque tem desvantagem. Saber o espaço por som ou energia permite tentar um ataque que não exija visão, sem retirar essa desvantagem.
+
+Se nem sabe o espaço, escolha onde atacar. Se a criatura não estiver ali, o ataque erra. Alcance, cobertura e exigências de visão continuam valendo. Um efeito que localize alguém não permite atravessar uma parede com a arma.
+
+Quando ambos deixam de se enxergar, cada um ataca com desvantagem: a vantagem acima exige enxergar o alvo.
+
+**Cego:** falha em testes que dependam da visão e ataca com desvantagem os alvos que não consegue perceber por um sentido equivalente. Quem o ataca tem vantagem por sua cegueira apenas se conseguir enxergá-lo. Visão às cegas substitui a visão para esses ataques dentro de seus limites; não restaura a leitura ou outros usos exclusivos dos olhos. Outras fontes de vantagem e desvantagem continuam seguindo as regras comuns.
+
+## Ataques e posição revelada
+
+Se estiver oculto do alvo ao declarar o ataque, você pode expor-se pela lateral do esconderijo como parte do golpe. Precisa obter visão, alcance e passagem livre; nesse ataque, recebe a vantagem de atacar sem ser visto. **Depois de resolvê-lo, acertando ou errando, sua posição é revelada a quem puder perceber o ataque.** Resolva isso antes do próximo ataque.
+
+Essa regra vale para armas de fogo, arremessos, outras armas e ataques desarmados. Uma arma discreta pode evitar chamar pessoas distantes, mas não concede um teste gratuito para continuar oculto dos envolvidos no ataque. Uma criatura sem acesso aos sinais não descobre sua posição apenas porque outra a descobriu.
+
+Se sua posição já era conhecida e você precisa expor-se para atacar, espiar e voltar atrás da mesma caixa não concede vantagem. Esconder de novo exige **posição adequada e a ação correspondente**, ou uma habilidade que permita outra forma. Cruzar um corredor aberto antes de declarar o ataque pode revelá-lo antes do golpe.
+
+Revelar a posição não remove cobertura, escuridão ou invisibilidade. Quem continua sem conseguir vê-lo segue as regras de visão acima. Estar invisível não garante estar oculto, e estar oculto não torna você invisível.
+
+**Conjuração:** revela sua posição a quem percebe os gestos, a voz ou outros sinais da execução. Uma permissão que impeça a revelação pelo uso conserva essa proteção. Expor o corpo, uma busca bem-sucedida ou outra pista independente ainda pode localizá-lo. Perceber o efeito de uma conjuração discreta não fornece um rastro gratuito até sua origem.
+
+
+
+**Exemplo.** Rina se esconde atrás das caixas e dispara um arco pela lateral. Ataca com vantagem, mas o disparo revela sua posição aos vigias que o percebem. Voltar atrás das caixas não recupera a ocultação. Ela precisa usar Esconder novamente, pagando a ação ou usando uma permissão específica.
+
+<!-- page:manobras|Agarrar, derrubar e empurrar -->
+# Agarrar, derrubar e empurrar
+
+Um golpe pode servir para impedir a fuga, tirar alguém do caminho ou colocá-lo no chão. Ao realizar a **Ação Atacar**, você pode substituir um de seus ataques por uma das manobras abaixo.
+
+## Faça a manobra
+
+Escolha uma criatura **ao alcance do seu ataque desarmado**, normalmente 1,5 m, e de **até uma categoria de tamanho maior que você**. Você precisa conseguir alcançá-la fisicamente. Depois, declare a manobra. A ordem de tamanhos do projeto é **Minúsculo, Pequeno, Médio, Grande, Imenso e Colossal**. Um humano comum é Médio; o tamanho do alvo é o indicado em sua ficha.
+
+O alvo faz um **TR Físico contra CD 8 + sua Força + sua maestria**. Ele usa o atributo de TR Físico escolhido na criação. Igualar ou superar a CD evita a manobra; falhar aplica o efeito escolhido.
+
+| Manobra | Efeito na falha do alvo |
+|---|---|
+| **Agarrar** | O alvo fica **Agarrado por você**, com deslocamento zero. Você precisa de uma mão livre, que fica ocupada enquanto mantiver a contenção. |
+| **Derrubar** | O alvo fica **Derrubado**. |
+| **Empurrar** | O alvo é afastado **1,5 m de você**, por um percurso possível. Uma parede ou outro obstáculo sólido interrompe o movimento. |
+
+**Cada tentativa substitui um ataque, mesmo quando o alvo resiste.** Se sua Ação Atacar permite dois ataques, você pode tentar agarrar com um e golpear com o outro, ou fazer duas manobras.
+
+A manobra substitui o dano: não há rolagem de ataque, crítico nem adicionais de dano de ataque. Ela não conta como acerto ou erro e não ativa efeitos que dependem deles, como um benefício por acertar. Proteções contra TR Físico provocado por ataque podem se aplicar; defesas que exijam rolagem de ataque ou acerto não. Ainda faz parte da **Ação Atacar**.
+
+## Mãos, armas e alcance
+
+Cada mão pode manter uma criatura agarrada. Você pode atacar com outra mão, uma arma disponível ou outras partes do corpo. A contenção comum não prende uma arma ou um membro específico do alvo.
+
+Uma arma que permita agarrar informa seu alcance e como fica ocupada em **Equipamento**.
+
+Essas opções pertencem à Ação Atacar. Um ataque concedido por **Ação Bônus ou ataque de oportunidade** não pode ser trocado por elas sem uma permissão específica. Uma habilidade que já empurra, derruba ou agarra usa seus próprios requisitos e efeitos.
+
+> **Exemplo:** Rina tem Força 3 e maestria 1: sua CD é 12. Ela troca um ataque por Agarrar. A maldição soma 10 no TR e fica agarrada. Rina não causa dano com essa tentativa, mas pode usar outro ataque disponível para golpeá-la.
+
+<!-- page:contencoes|Escapar de uma contenção -->
+# Escapar de uma contenção
+
+**Agarrado** deixa seu deslocamento em zero. Você ainda pode atacar, conjurar e Bloquear, respeitando as exigências de cada ação. Prender uma arma ou impedir um ataque exige um efeito que diga isso.
+
+## Escapar
+
+No seu turno, gaste uma **Ação Padrão** e faça um **TR Físico contra a CD da contenção**. Use a CD com que ela foi aplicada: normalmente **8 + Força + maestria de quem agarrou você**. No sucesso, a contenção termina; na falha, você permanece agarrado. Se duas criaturas o seguram, escolha de qual contenção tenta escapar.
+
+Escapar não concede ataque nem movimento. Depois do sucesso, você pode usar o movimento que ainda tiver disponível. Contenções criadas por feitiços ou habilidades seguem as formas de saída indicadas nelas.
+
+Quem agarrou pode soltar o alvo **sem gastar ação**. A contenção também termina se essa pessoa ficar com a Guarda Aberta ou Inconsciente, deixar de manter a mão ou arma ocupada, ou se as duas criaturas forem separadas além do alcance da contenção.
+
+## Arrastar
+
+Você pode mover uma criatura agarrada dentro dos limites de **Arrastar e transportar**, mantendo o alcance e as exigências da contenção. A vítima não gasta movimento e não provoca oportunidade por ser arrastada. Seus próprios movimentos podem provocar.
+
+## No chão e sob ataque
+
+Estar Agarrado não impede gastar sua **Ação de Movimento para levantar** de um Derrubado comum. Você continua agarrado e no mesmo espaço. Uma habilidade que permita levantar de outro modo conserva essa permissão.
+
+Um tiro contra alguém envolvido na contenção é resolvido contra esse alvo. Se outra criatura estiver entre o atacante e ele, aplique a cobertura correspondente. O agarrão não redireciona o ataque aleatoriamente.
+
+<!-- page:estudar|Estudar -->
+# Estudar
+
+Estudar permite compreender algo que você consegue observar: reconhecer um selo, avaliar um ferimento ou identificar um sinal da energia de uma criatura. **Em combate, custa uma Ação Padrão.**
+
+## Diga o que procura entender
+
+Escolha uma criatura ou objeto que você consiga enxergar, ou perceber por um sentido que substitua a visão, e faça uma pergunta concreta. O mestre indica a perícia adequada ao assunto. A distância só importa se impedir observar os detalhes necessários.
+
+| Perícia | Exemplos do que examinar |
+|---|---|
+| **Sentir Energia** | A manifestação de energia que você consegue perceber e os sinais que ela apresenta. |
+| **Ocultismo** | A função reconhecível de um símbolo, selo ou procedimento de feitiçaria. |
+| **Medicina** | Um ferimento, sintoma ou indício da condição física de alguém. |
+| **História** | Um emblema, objeto ou referência que você possa reconhecer pelo conhecimento do passado. |
+
+Estudar não amplia os seus sentidos. Conhecer somente o espaço de uma criatura escondida não basta: você precisa conseguir observá-la. Uma superfície opaca continua impedindo examinar o que há atrás dela.
+
+## Resolva a pergunta
+
+Quando houver incerteza, role a perícia contra a CD indicada pelo mestre. Conhecimento e tarefas sem nível usam a escada **6, 10, 14, 18, 22 e 26**. Entender um efeito cuja dificuldade dependa do poder de seu criador usa a CD correspondente, conforme as regras de testes.
+
+No sucesso, o mestre responde com **uma informação útil que os sinais ou seu conhecimento permitam descobrir**. Ela pode explicar um risco ou orientar sua próxima decisão. Uma informação evidente ou já conhecida não exige teste apenas por ter sido mencionada em combate.
+
+Na falha, a Ação Padrão foi gasta e a observação não basta para responder com segurança. Repetir a mesma pergunta sem nova pista ou mudança de abordagem não dá outra tentativa.
+
+> **Exemplo:** Kaito encontra alguém caído ao lado de um frasco vazio e pergunta se a pessoa parece envenenada. O mestre pede Medicina. Com sucesso, descreve os sinais identificáveis e o que eles indicam. O teste não revela automaticamente quem deixou o frasco nem prevê o que a vítima fará ao acordar.
+
+## Encontrar, compreender ou explorar o lugar
+
+**[Vasculhar](#procurar)** procura uma criatura, um objeto ou uma pista. **Estudar** procura compreender aquilo que você já observa. **Ler o Ambiente** procura algo aproveitável do lugar, seguindo seu custo e limite próprios.
+
+Estudar não concede vantagem no ataque, acesso à ficha inteira do alvo nem certeza sobre sua próxima decisão. Uma habilidade que forneça informação ou benefícios adicionais conserva seus custos e limites.
+
+<!-- page:mundo|Percepção de energia -->
+# Percepção de energia
+
+Uma fonte de energia pode ajudar a encontrar uma criatura, um objeto ou sinais de uma passagem anterior. Antes do teste, diga o que procura: **localizar uma presença, compreender algo observável ou seguir vestígios**.
+
+| Sua intenção | Procedimento |
+|---|---|
+| Encontrar uma fonte próxima | [Vasculhar com Sentir Energia](#buscar). |
+| Compreender o fluxo que você observa | [Examinar energia e vestígios](#ler). |
+| Investigar sinais percebidos de longe | [Sinais de energia no ambiente](#pressao). |
+| Reconstruir acontecimentos ou seguir uma pista | Investigação ou Sobrevivência, conforme a tarefa. |
+
+## Fonte e portador
+
+Encontrar a energia de um objeto não significa encontrar quem o carregava. Uma caixa vazia pode conservar vestígios. Uma ferramenta abandonada continua sendo uma fonte, sem revelar o espaço do antigo dono.
+
+Confira separadamente o corpo, a carga e os sinais acessíveis. A ausência de energia de uma criatura não apaga a energia dos itens que leva. Um equipamento ou capacidade que suprima essa emissão precisa declarar o efeito.
+
+## Limites da leitura
+
+Sentir Energia não fornece visão, identidade ou conhecimento completo de uma técnica. A informação depende do procedimento usado e daquilo que chega ao personagem. Uma leitura pode orientar a próxima ação sem permitir ver o alvo ou atacar através de um obstáculo.
+
+A reserva de PE também não mede a presença de energia no ambiente. Gastar o último PE não torna automaticamente um feiticeiro indetectável. A descrição do mundo e as exceções de cada personagem estão em seus capítulos próprios.
+
+<!-- page:buscar|Vasculhar com Sentir Energia -->
+# Vasculhar com Sentir Energia
+
+Na sala tomada por fumaça, você procura a energia do feiticeiro que se escondeu entre as mesas. Encontrá-la pode indicar onde atacar. Para acompanhar seus gestos ou reconhecer seu rosto, ainda precisa de visão ou de uma habilidade apropriada.
+
+**Ação Padrão, sem custo em PE.** Declare o trecho que vai examinar, como a sala, o corredor à frente ou a parte de baixo da escada. A busca alcança fontes de energia a **até 18 m de você**, medidos em linha reta, dentro do trecho declarado. Não precisa enxergar a fonte nem encontrar antes uma pista mundana.
+
+Escuridão, fumaça e invisibilidade não bloqueiam esta busca. Um obstáculo sólido que esconda completamente a fonte, como parede, porta fechada ou compartimento rígido fechado, impede obter sua posição exata. A busca não contorna uma esquina para alcançar outra sala. Cobertura que deixe a fonte parcialmente exposta não impede a tentativa.
+
+Roupa, bainha, mochila e estojo de equipamento carregado, mesmo rígido, não contam como divisórias do ambiente nem apagam a energia da carga. A carga pode denunciar o espaço de quem a leva, sem revelar qual item emite energia. Guardar algo que deixa de emanar energia exige uma permissão específica que suprima sua emissão.
+
+## Resolva a busca
+
+Role **d20 + seu bônus completo de Sentir Energia**, incluindo Essência, treino, especialização e modificadores aplicáveis. Compare uma única rolagem à **Furtividade guardada** de cada criatura oculta alcançada pela busca. Empatar basta para localizar sua energia.
+
+Furtividade representa também a dificuldade de distinguir aquela presença escondida. Não faça um segundo teste de supressão, não some Refino à CD e não refaça a Furtividade só porque alguém procurou. Um efeito que realmente impeça detectar a fonte conserva essa proteção.
+
+Uma fonte alcançada, sem ocultação nem interferência, é localizada sem rolagem **depois de gastar a ação**. Se houver interferência, o mestre anuncia sua dificuldade antes do dado. Para uma fonte também oculta, compare a mesma rolagem à **maior entre a CD da interferência e a Furtividade**, sem somá-las. Uma rolagem alta nunca atravessa o bloqueio ou amplia o alcance. Se nenhum sinal for encontrado, isso não comprova que o lugar esteja vazio.
+
+## Resultados
+
+Você conhece o **espaço atual da fonte** e pode indicá-lo a um aliado. Se ela for uma criatura ou algo que a criatura carrega, encontrar esse sinal encerra a ocultação dela em relação a você. Um resíduo abandonado localiza apenas o vestígio: não revela seu antigo portador. A busca não fornece visão, identidade, grau, valores da ficha ou conhecimento da técnica.
+
+A leitura desta ação é **instantânea**: não acompanha movimentos futuros, mesmo dentro dos 18 m. Você conserva a última posição conhecida. Para atualizá-la, precisa de outra busca, de outros sinais percebidos normalmente ou de uma habilidade de acompanhamento. Isso não concede uma nova rolagem de Esconder nem apaga o que acabou de observar.
+
+<!-- page:pressao|Sinais de energia no ambiente -->
+# Sinais de energia no ambiente
+
+Uma presença pode ser sentida antes de ser vista: uma pressão que toma o prédio, um pulso vindo do subsolo, resíduos na porta. O mestre descreve o sinal que chegou aos personagens. Ele pode informar que há energia ou dar uma pista de onde procurá-la; isso não revela automaticamente uma criatura e seu espaço.
+
+## Sinais da cena
+
+Quando uma manifestação puder ser percebida além de um obstáculo ou dos 18 m da busca local, a cena deve indicar **qual sinal chega, de onde pode ser percebido e o que ele revela**. Aplique a mesma informação a observadores em condições equivalentes. Não trate toda criatura com energia como se estivesse produzindo esse aviso.
+
+Uma manifestação evidente é percebida sem teste. Para distinguir um sinal incerto, use Sentir Energia e a dificuldade adequada ao exame; em combate, essa busca custa uma Ação Padrão. O mestre informa antes da rolagem se é possível apenas confirmar o sinal ou também obter outra pista. Sem sinal acessível, não há teste para descobrir o que está atrás da parede.
+
+A pista permanece a mesma enquanto sua fonte e as condições não mudarem. Andar ao redor do prédio e repetir a pergunta não produz rumos novos até formar coordenadas. Pistas independentes podem ser cruzadas por Investigação; abrir um acesso ou mudar de posição pode permitir uma busca local legítima.
+
+> **Exemplo:** a preparação da missão estabelece que pulsos saem do porão e são perceptíveis na escadaria. Distingui-los é difícil, CD 14. Kaori obtém 11 e não consegue separar o pulso do restante da energia. Um sucesso identifica a pista do porão; não informa quantas criaturas estão lá nem os espaços que ocupam.
+
+## Nova tentativa
+
+Uma nova busca segue [Vasculhar](#procurar): custa outra Ação Padrão em combate; fora dele, exige nova abordagem, informação ou consequência pelo tempo gasto. Uma tentativa incapaz de alcançar a informação precisa de outra solução.
+
+## Alvos sem energia
+
+Uma criatura sem energia amaldiçoada não é encontrada pela busca energética. Gastar seus PE até chegar a zero não torna um feiticeiro uma criatura sem energia. Percepção ainda pode notar seu corpo, passos ou outros sinais. Ferramentas e objetos amaldiçoados que ela carrega continuam sendo fontes de energia, conforme seus próprios textos.
+
+Quem não tem acesso à perícia mantém essa limitação. Uma permissão para substituir a perícia conserva a ação, o alcance e os limites do exame, salvo exceção expressa. Ela não fornece energia ao personagem.
+
+<!-- page:ler|Examinar energia e vestígios -->
+# Examinar energia e vestígios
+
+Uma presença na sala, uma marca deixada ontem e a técnica que está sendo usada agora pedem perguntas diferentes. Escolha a tarefa antes da rolagem.
+
+## Estudar uma fonte
+
+Use **[Estudar](#estudar)**, com Ação Padrão em combate, para examinar uma criatura ou objeto observável. Conhecer somente seu espaço pela busca energética não basta. Faça uma pergunta sobre o que a energia está mostrando.
+
+Sentir Energia pode revelar o que o fluxo atual mostra: concentração num membro, energia sustentando um efeito, oscilação ou desgaste perceptível. Não determina a próxima decisão do adversário. “Está reunindo energia no braço” não significa “vai atacar Rina na próxima ação”. A resposta também não concede Reação, interrupção, bônus ou dano adicionais.
+
+A dificuldade segue [Estudar](#estudar). Sentir Energia não fornece automaticamente grau ou reserva exata de PE: uma leitura especial precisa de uma regra que a conceda.
+
+## Vestígios
+
+Um resíduo pode permanecer num objeto depois que seu portador saiu. Encontrá-lo não confirma que essa pessoa esteja por perto, nem encerra a ocultação dela. Sentir Energia pode distinguir um resíduo acessível que esteja sendo examinado, sem fornecer automaticamente sua idade ou autor. Para reconstruir o ocorrido, use a perícia pertinente; para seguir a trilha, use Sobrevivência. Uma única tentativa resolve a tarefa anunciada: não exija sempre detectar, investigar e rastrear em três rolagens obrigatórias.
+
+Uma assinatura só pode ser comparada quando você já tiver uma referência confiável, e o exame ainda depende do sinal disponível. Isso não revela um nome desconhecido. Uma capacidade que altere a assinatura funciona conforme seu texto.
+
+
+Uma capacidade de seguir vestígios, apagar rastros ou marcar uma criatura tem seu próprio procedimento. Apagar sinais da passagem não remove uma marca aplicada por outro efeito. Rastrear pistas de uma cena pode abranger um percurso maior que a busca local de 18 m, mas não revela um espaço sem evidência que o determine.
+
+<!-- page:energia-exemplo|Busca numa sala escura -->
+# Busca numa sala escura
+
+Rina usa sua Ação Padrão para examinar a sala escura. Seu Sentir Energia é +6 e ela tira 10 no d20: **total 16**.
+
+Há duas criaturas ocultas em trechos acessíveis, a 9 m e 15 m, com Furtividade 16 e 19. Rina localiza a primeira e a segunda continua oculta. Uma terceira está a 6 m, atrás de uma porta fechada: a busca não informa seu espaço, qualquer que seja o resultado.
+
+## Usar a descoberta
+
+Rina indica o primeiro espaço a Kaori. Kaori pode tentar um ataque que dispense visão, se o alcance e a trajetória permitirem. Ainda terá desvantagem por não enxergar o alvo. Uma exigência de visão da habilidade continua valendo.
+
+Se a criatura se mover em silêncio depois da busca, Rina conserva a última posição conhecida. O resultado não acompanha o movimento. Ela precisa de novos sinais ou de outra busca para atualizar a posição.
+
+## Carga e resíduos
+
+Um combatente sem energia segura uma ferramenta amaldiçoada. A busca pode localizar a carga e, por ela, o espaço do portador. Isso não identifica sua natureza. Se estiver oculto, sua Furtividade também vale para a carga. Uma mochila comum não apaga a emissão.
+
+Se a ferramenta tiver sido deixada no chão, o sinal indica apenas a ferramenta. O antigo portador pode estar em outro lugar. Um vestígio abandonado funciona do mesmo modo: serve como pista, sem revelar automaticamente quem passou ou sua posição atual.
+
+## Barreiras
+
+Uma barreira conserva apenas os bloqueios que seu efeito estabelece. Impedir visão, passagem física e leitura energética são funções diferentes. A busca não ganha passagem por uma barreira que bloqueie seus sinais, e uma leitura bem-sucedida não abre passagem para o ataque.
+
+Uma proteção contra técnicas de localização não impede automaticamente uma busca comum por perícia. Confira o alcance da proteção antes de resolver o teste.

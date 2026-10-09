@@ -378,9 +378,26 @@ Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`
 3. **Vida a zero.** *Adiado em 05/10/2026, até a revisão do Morrendo.* Reescrever a peça 01 §5.5 a partir do capítulo de dano da candidata, e as remissões das peças 12, 15, 20 e 24. Antes, rodar o `conferir-atributos.py` numa cópia com a regra nova para ver quais checagens medem a regra antiga, e trocá-las por checagens da regra nova com teste negativo. Não apagar checagem para passar.
 4. **Equipamento e munição** (peças 14, 16, 21), *feito na v0.335, ver a seção do passo 4,* depois **Invocações** (peça 15, que conversa com `invocacoes/`), depois **Caminhos** (peça 06 e `RASCUNHO-trilhas`, que hoje não têm Fluidez nem Malabarista).
 5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha. *Primeira parte feita na v0.337 (ver a seção dela, acima): os validadores leem o livro. A segunda, na v0.338, deu dono às tabelas de mestre e tirou do gerador as leituras do Fundamento; o `manual/gerador`, o `.docx` e o `.pdf` vão para o arquivo com a migração dos Poderes avançados.*
+5a. **O inventário da revisão do R41** (ver a seção *O livro final passou a ser o R41*, abaixo): *entra antes do capítulo de Dano, porque muda o que os capítulos seguintes têm de copiar.*
 5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *depois do capítulo de Dano sem o Morrendo, um por versão.*
 6. **Geradores.** `gerador-ficha` e `gerador-inimigo`. O `manual/gerador` (o `.docx` do Fundamento v7) não é regerado: vai para o arquivo no passo 5. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
 7. **Fichas**, por último e em outro ambiente (seção abaixo).
+
+## O livro final passou a ser o R41 (v0.341, 09/10/2026)
+
+**O que mudou no chão deste plano.** *Até a v0.340 a migração copiava a candidata para as peças, e o livro final (R28a) era a candidata com outra diagramação.* **Desde a v0.341 o livro final é o R41, e ele tem regra que a candidata não tem.** Entre 07 e 09/10 o Mizuki reviu, por número, o que a reconstrução tinha mudado na mecânica em relação ao livro v0.331. O resultado está em `../../ciclo-maldito-r41/revisao-de-regras/`.
+
+As decisões caem em três casos, e cada um pede uma coisa diferente das peças:
+
+- **Voltou ao valor da v0.331 e a peça nunca saiu dele.** Nada a fazer na peça; o registro do inventário daquela mudança deixa de ser `confirmada` e passa a não migrar.
+- **Voltou ao valor da v0.331 e um passo já tinha migrado a mudança** (passos 4, 5 e 5b, v0.335 a v0.340). A peça e o validador dela voltam, com teste negativo.
+- **Regra nova, que nem a v0.331 nem a candidata têm.** *Arma, uniforme, escudo e carga sem a Força pedida (itens 156 a 158), a Reação de `Cobrir-se de Energia` e de `Defesa sem Armadura` tirando só a proteção passiva (160) e as Bênçãos `Represália` e `Sangue Frio`.* Entram na peça dona como qualquer decisão.
+
+**O passo 5a é montar essa tabela antes de tocar em peça:** uma linha por decisão, com a peça dona, o caso e o validador que a confere. Sem ela, os capítulos que faltam do passo 5b seriam copiados de uma candidata que o livro já desmentiu.
+
+**A candidata fica como está por enquanto.** *Ela é a fonte que os validadores leem pelo `03-mecanica/livro.py`. Trocar essa fonte pelo `LIVRO-COMPLETO.md` do R41 é decisão do Mizuki e muda o caminho de leitura de todos eles de uma vez; o inventário diz o tamanho disso.*
+
+**Fora do livro e fora deste passo:** a seção C do `MUDANCAS-DE-REGRA.md` (direção dada, sem número) e as regras de XP de 01/10/2026 (Solo simples e Solo complexa, o multiplicador e o arredondamento em múltiplos de `12,5`), que a ficha já segue e o R41 ainda não.
 
 ## O livro final, Ciclo Maldito R28a
 

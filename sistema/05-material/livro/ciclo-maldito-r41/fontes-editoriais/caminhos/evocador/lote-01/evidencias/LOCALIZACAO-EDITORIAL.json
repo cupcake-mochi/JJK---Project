@@ -1,0 +1,29 @@
+{
+  "sha256_texto": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "revisor": "/root/rotas_didatica — revisão de autoria por modelo, não leitor humano",
+  "excecoes_localizacao": [],
+  "revisao_delta_nominal": {
+    "revisor": "/root",
+    "diff": "consolidacao/lote-01/migracao-nomes/diffs/evocador.diff",
+    "conclusao": "Diff completo lido. Preços, ações, limites, acesso e efeitos permanecem iguais. Mudam categoria, nomes e concordância gramatical."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "77e47e82794850bf8e051fab789fe1e6acfa8f545a9b18d41f4f8f4bc8b45083",
+    "sha256_atual": "6c41cfd0d38b4a81705efd2243f1dbca40881c04a58521290761273318de4944",
+    "mudancas": [
+      {
+        "codigo": "D31",
+        "achado": "G2-10",
+        "secao": "evo-formacao",
+        "antes": "substitua-a por uma reserva apropriada",
+        "depois": "substitua-a por uma invocação recolhida apropriada"
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas citam a seção dona pelo nome (Equipamento restrito, Munição inicial, Invocações em campo, Trajes). Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  }
+}

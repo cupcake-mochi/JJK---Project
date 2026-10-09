@@ -1,5 +1,7 @@
 # O que falta no R28a
 
+> **FECHADO na v0.341.** O R41, que substituiu o R28a como livro principal, já traz a D43 e a D44 (e o `Projetar Energia` de `2d6` por PE). A lista abaixo fica como registro do que foi pedido ao gerador; as páginas são as do R28a, e não as do R41.
+
 O R28a foi gerado antes de duas decisões: a **D43** (Condição, Prende e Cerca pedem TR mesmo num ataque) e a **D44** (a Execução Preparada passa de −1 para −2). As duas já estão na candidata (`planejamento-editorial/consolidacao/lote-01/LIVRO-COMPLETO.md`), que é de onde as peças e os validadores leem.
 
 A lista saiu do diff da candidata nos commits `65afa3c` (D43) e `9f622a5` (D44). Cada trecho antigo foi procurado no texto do R28a, e as páginas são as do PDF. Em página de duas colunas, o parágrafo pode estar quebrado entre elas.

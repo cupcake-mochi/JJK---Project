@@ -1,0 +1,521 @@
+<!-- page:apt-refino|Aptidões e Refino -->
+# Aptidões e Refino
+
+Revestir uma arma de energia, recompor um ferimento e levantar uma barreira são conhecimentos que um personagem pode aprender além das aplicações de sua técnica. **Aptidões** representam esse treinamento. Cada uma tem requisitos e uma regra própria de uso.
+
+**Refino** mede o domínio da energia amaldiçoada. Começa em **1** e tem limite **10**. Ele aumenta nos marcos de progressão e aparece no efeito de algumas aptidões. Ter Refino alto não acrescenta esse valor a todos os testes: use-o apenas onde a regra indicar.
+
+## Treinamento e energia
+
+Quem tem energia amaldiçoada começa com **Cobrir-se de Energia** e **Canalizar Energia**, sem gastar uma escolha. As demais aptidões são adquiridas pela opção Refino dos marcos, salvo uma concessão específica da criação do personagem.
+
+Uma aptidão não ocupa espaço de feitiço conhecido. Aprender uma também não cria um feitiço com o mesmo efeito. Use a ação, o custo, o alcance e a resolução escritos na entrada. Melhorias e Restrições do Fundamento não modificam uma aptidão por conta própria.
+
+Ter **0 PE disponíveis** não significa pertencer à rota sem energia. Você conserva as aptidões gratuitas, mas precisa conseguir pagar para usar um efeito que cobre PE.
+
+Personagens da rota **sem energia amaldiçoada** usam Bênçãos e Lapidação, conforme sua criação. As substituições dessa rota estão em capítulo próprio.
+
+## Valores da ficha
+
+**Maior Classe** é a maior Classe disponível para seu nível, mesmo que você não conheça um feitiço dela. Quando uma aptidão pedir metade ou um terço de Refino, arredonde para baixo. Custos fracionários em PE são arredondados para cima. Tabelas e exceções expressas já trazem o valor a usar.
+
+<!-- page:apt-marcos|Progressão de Refino -->
+# Progressão de Refino
+
+Nos níveis **6, 10, 14, 18, 22, 26 e 30**, você alcança um marco. Cada marco concede os ganhos básicos da progressão, incluindo **+1 de Refino**, até o limite 10. Depois, faça a escolha daquele marco.
+
+Se escolher **Refino**, receba mais **+1 de Refino e uma aptidão**. Se o ganho básico já deixou seu Refino em 10, receba **duas aptidões**, em vez desse aumento adicional e de uma aptidão. Confira os requisitos com o Refino atualizado.
+
+Os ganhos de Corpo, Leque e dos espaços conhecidos ficam em **Progressão**.
+
+## Escolhas e requisitos
+
+Uma aptidão comprada não se repete, salvo permissão expressa. Quando receber duas escolhas, resolva-as em ordem: a primeira pode atender ao requisito da segunda. Não use uma compra futura para justificar a atual.
+
+> **Exemplo.** Haru tem Refino 9 antes do nível 22. O aumento básico o leva a 10. Ele escolhe Refino e aprende duas aptidões cujos requisitos consegue cumprir. Não recebe Refino 11.
+
+As duas aptidões iniciais não entram nessa contagem. Uma concessão específica de sua Origem também conserva sua própria regra de aquisição.
+
+<!-- page:apt-catalogo|Catálogo de aptidões -->
+# Catálogo de aptidões
+
+Escolha uma entrada para aprender e confira todos os seus requisitos. **Categoria de Efeito** indica a escala de uma aptidão, quando ela possui essa classificação. O requisito da entrada é que determina quando você pode adquiri-la. A classificação não acrescenta um segundo requisito oculto.
+
+| Aptidão | Requisito | Categoria de Efeito |
+|---|---|---:|
+| Cobrir-se de Energia | Gratuita no Refino 1. | — |
+| Canalizar Energia | Gratuita no Refino 1. | — |
+| Projetar Energia | Uma escolha de aptidão. | — |
+| Energia Reversa | Refino 7 e nível 14. | 3 |
+| Circulação | Energia Reversa e Refino 8. | 3 |
+| Regravação | Circulação. | 3 |
+| Kokusen Melhorado | Refino 5 e nível 14. | — |
+| Kokusen Constante | Refino 5. | — |
+| Cesta Oca de Vime | Ser Encarnado ou treinado em História. | 1 |
+| Domínio Simples | Refino 5, ou 4 com o voto do iniciante; aprendizado registrado. | 2 |
+| Pétala | Refino 4 e nível 10; ser Descendente ou aprendizado com alguém de um clã. | 2 |
+| Extensão de Domínio | Refino 7 e nível 18; aprendizado registrado; indisponível ao Corpo Amaldiçoado. | 3 |
+| Barreira Simples | Uma escolha de aptidão. | — |
+| Cortina | Barreira Simples. | — |
+| Ritual | Inteligência 5, nível 10 e Técnica Inata. Regras em Ritual e Pactos. | — |
+| Aptidão Própria | Uma única vez na ficha. | 1 ou 2 |
+
+## Registro de aprendizado
+
+Quando o requisito incluir aprendizado, anote de quem aprendeu, onde presenciou o uso ou o estudo permitido pela entrada. Essa informação acompanha a ficha entre mesas. O requisito narrativo não substitui o nível ou o Refino exigidos.
+
+**Kokusen básico não exige compra.** Suas duas melhorias podem ser adquiridas separadamente e funcionam juntas. As regras de ambas estão na seção Kokusen.
+
+<!-- page:apt-cobrir|Cobrir-se de Energia -->
+# Cobrir-se de Energia
+
+**Gratuita no Refino 1.** A energia que envolve seu corpo concede proteção e pode ser concentrada para amortecer um golpe.
+
+## Proteção
+
+Sem Traje e sem Revestimento, sua proteção é **1 + um terço do Refino, arredondado para baixo**. Escudo soma com essa proteção. Vestir Traje ou Revestimento faz você usar a proteção do equipamento, em vez da proteção passiva desta aptidão.
+
+| Refino | Proteção | Redução de Dano da Reação |
+|---|---:|---:|
+| 1–2 | 1 | 1–3 |
+| 3–5 | 2 | 4–7 |
+| 6–8 | 3 | 9–12 |
+| 9–10 | 4 | 13–15 |
+
+## Amortecer um golpe
+
+Depois de determinar o dano de um golpe contra você, antes de descontá-lo, pode gastar **Reação e 2 PE**. Reduza esse dano em **1,5 × Refino, arredondado para baixo**. A redução pode zerar o dano.
+
+Você fica **sem proteção até o fim do seu próximo turno**. Isso inclui a proteção do equipamento e do escudo. Conserve os demais componentes da Defesa. Atualize também a base de Bloquear para os ataques seguintes. O acerto já resolvido não é recalculado.
+
+Esta Reação pode ser usada mesmo vestindo proteção, mas a perda da proteção continua sendo o seu custo. Ela não devolve uma Reação já gasta.
+
+> **Exemplo.** Com Refino 6, a proteção passiva é 3 e a redução é 9. Diante de um golpe que causaria 17, você paga 2 PE e recebe 8. Sua proteção fica em zero pelo prazo indicado, deixando os próximos ataques mais perigosos.
+
+<!-- page:apt-canalizar|Canalizar Energia -->
+# Canalizar Energia
+
+**Gratuita no Refino 1.** Você envolve seus golpes em energia amaldiçoada. Atacar com uma arma mundana ou desarmado passa a poder ferir maldições. Esse revestimento não cobra PE nem uma ação separada.
+
+## Canalizar em Golpe
+
+**Canalizar em Golpe** é o dano adicional desta aptidão. Acrescente os dados da tabela a cada ataque com arma ou desarmado que acertar e puder receber esse dano.
+
+| Refino | Dados adicionais |
+|---|---:|
+| 1–2 | 1d4 |
+| 3–5 | 2d4 |
+| 6–8 | 3d4 |
+| 9 | 4d4 |
+| 10 | 4d6 |
+
+Esses dados acompanham o tipo de dano do ataque. Revestir uma espada não troca automaticamente Cortante por Força. O revestimento também não muda o alcance, o atributo ou a quantidade de ataques que você pode fazer.
+
+## Feitiços e crítico
+
+**Não acrescente esses dados a feitiços, Manejos ou Katas.** Se uma habilidade fizer um ataque carregar um feitiço de dano, inclusive de Classe 0, aquele ataque não recebe Canalizar em Golpe. Outro ataque permanece sujeito às próprias regras.
+
+Conjurar em outro momento do turno ou da rodada não apaga esse dano dos demais ataques. Ações disponíveis e limites de conjuração continuam valendo.
+
+No crítico, dobre os dados básicos da arma ou do ataque desarmado. **Os dados adicionais de Canalizar não dobram**, salvo uma habilidade que autorize expressamente.
+
+> **Exemplo.** Com Refino 6 e Força 4, um soco de 1d6 causa **1d6 + 4 + 3d4**. Num crítico comum, causa **2d6 + 4 + 3d4**. Se esse soco transportar um feitiço de dano, retire os 3d4 e siga a regra que permitiu acrescentar o feitiço.
+
+<!-- page:apt-projetar|Projetar Energia -->
+# Projetar Energia
+
+**Aquisição: uma escolha de aptidão. Sem requisito adicional.** Você dispara energia amaldiçoada pura contra um alvo.
+
+**Ação Padrão.** Escolha quanto gastar, de **1 PE até metade do seu Refino, para baixo, mínimo 1**, e pague antes da rolagem. Faça **um ataque de conjuração**: d20 + atributo de conjuração da ficha + maestria, contra a Defesa. O atributo é o já definido pela técnica ou pelo estilo que você usa para criar suas aplicações.
+
+| Maior Classe disponível | Alcance |
+|---|---:|
+| 1 a 5 | 18 m |
+| 6 ou 7 | 36 m |
+
+Escolha um alvo que você enxergue, com caminho desimpedido dentro do alcance. No acerto, cause **2d6 de Força por PE gasto**. No erro, não cause dano. Os PE ficam gastos em ambos os casos.
+
+## Ataque de energia
+
+Projetar é um uso de aptidão, com sua própria Ação Padrão. Não ocupa espaço conhecido, não exige o Selo da técnica e não aceita Melhorias ou Restrições. Ter ataques adicionais na Ação Atacar não acrescenta disparos a esse uso.
+
+Os d6 são os dados básicos deste ataque. Em um crítico, eles dobram. Não some Canalizar em Golpe nem o dano de uma arma. Como o ataque é à distância, ele não provoca Kokusen.
+
+> **Exemplo.** Com Refino 6, Mei pode gastar de 1 a 3 PE. Ela escolhe 3 e usa seu ataque de conjuração habitual. Se acertar, causa **6d6 de Força**; num crítico, **12d6**. Mesmo podendo gastar 3, não pode aumentar o investimento depois de ver a rolagem.
+
+Sem PE suficiente para pagar ao menos 1, você não pode usar Projetar Energia.
+
+<!-- page:apt-reversa|Energia Reversa -->
+# Energia Reversa
+
+**Requisitos: Refino 7 e nível 14. Categoria de Efeito 3.** Você usa energia reversa para restaurar seu próprio corpo.
+
+**Ação Padrão.** Gaste de **1 PE até sua maior Classe** e recupere **1d8 de vida por PE gasto**. Escolha e pague antes de rolar. A cura não ultrapassa sua vida máxima e não gera vida temporária.
+
+| Maior Classe | Máximo de PE por uso | Cura máxima do uso |
+|---|---:|---:|
+| 1 | 1 | 1d8 |
+| 2 | 2 | 2d8 |
+| 3 | 3 | 3d8 |
+| 4 | 4 | 4d8 |
+| 5 | 5 | 5d8 |
+| 6 | 6 | 6d8 |
+| 7 | 7 | 7d8 |
+
+As primeiras faixas atendem às concessões específicas que permitem aprender a aptidão antes dos requisitos comuns.
+
+## Alvo e limites
+
+A aptidão cura **você**. Para aplicá-la diretamente a outra criatura, você precisa de uma permissão que altere esse alvo. Aprendê-la não aumenta o alcance de um feitiço de Cura nem substitui sua montagem.
+
+O **Corpo Amaldiçoado não recupera vida com Energia Reversa nem com cura construída a partir dela**. Suas formas de reparo estão na Origem. Outras incompatibilidades de alvo também continuam valendo.
+
+Energia Reversa é requisito para usar um feitiço da Forma Cura ofensivamente contra uma maldição. A exceção está em **Ferir maldições**. A aptidão de autocura, sozinha, não concede um ataque.
+
+> **Exemplo.** Com maior Classe 4, Haru paga 3 PE e recupera 3d8 de vida. Ele poderia pagar até 4, mas não 7 apenas por ter Refino 7.
+
+<!-- page:apt-energia-positiva|Ferir maldições -->
+# Ferir maldições
+
+**Requisito: Energia Reversa.** Você pode usar um feitiço da **Forma Cura** contra uma maldição hostil. Essa aplicação usa energia positiva para feri-la, em vez de recuperar vida.
+
+## Feitiço de Cura
+
+Pague a ação e os PE normais do feitiço. Confira seu alcance, seu Selo e seus demais requisitos. Faça **um ataque de conjuração contra a Defesa**, em vez de aplicar a cura automaticamente.
+
+No acerto, os dados que a Forma destinou à cura viram **dano de Energia Reversa, com 50% a mais**. Resolva o crítico, se houver, dobrando os dados básicos antes de calcular o dano. Aplique a multiplicação e as defesas de Dano e recuperação. Bônus que aumentem somente cura não aumentam esse dano.
+
+No erro, não causa dano nem cura. Contra qualquer alvo que não seja uma maldição, esse uso ofensivo não produz efeito. A exceção não autoriza ferir outros tipos de alvo nem transforma automaticamente a Forma Onda em um ataque de área.
+
+> **Exemplo.** Uma Cura de Classe 3 com 6d8 de cura mantém seu custo de 9 PE. Contra uma maldição, exige ataque. Se os dados somarem 26, o dano é **39 de Energia Reversa**, antes das defesas. Um crítico rolaria 12d8 antes do acréscimo de 50%.
+
+## Aptidão aplicada por contato
+
+Se outra regra permitir aplicar sua **aptidão Energia Reversa a outra criatura**, você também pode escolher uma maldição a até **1,5 m** para esse uso ofensivo. Conserve a ação, o limite de PE e o dado daquela aplicação, faça ataque de conjuração e converta a cura em dano pelo procedimento acima. Sem essa permissão, a aptidão continua limitada a você.
+
+<!-- page:apt-circulacao|Circulação -->
+# Circulação
+
+**Requisitos: Energia Reversa e Refino 8. Categoria de Efeito 3.** Você melhora o uso de Energia Reversa e aprende a reconstruir partes perdidas do corpo.
+
+O limite de PE por uso de sua Energia Reversa passa a ser **1,5 × sua maior Classe, arredondado para baixo**. Você ainda escolhe quanto gastar antes de rolar.
+
+| Maior Classe | Limite de PE | Cura com Ação Padrão | Cura com Ação Bônus |
+|---|---:|---:|---:|
+| 5 | 7 | Até 7d8 | Até 7d4 |
+| 6 | 9 | Até 9d8 | Até 9d4 |
+| 7 | 10 | Até 10d8 | Até 10d4 |
+
+## Cura rápida
+
+Você pode usar Energia Reversa como **Ação Bônus**. Nesse uso, cada PE cura **1d4**, em vez de 1d8. A mudança de ação não aumenta os alvos permitidos.
+
+> **Exemplo.** Com maior Classe 5, você pode pagar 7 PE para curar 7d8 com Ação Padrão ou 7d4 com Ação Bônus. Pode gastar menos. Trocar a ação reduz o dado, não o limite de PE.
+
+## Recompor uma parte perdida
+
+Como **Ação Padrão**, gaste o limite inteiro de PE de um uso para recompor uma parte perdida do seu corpo, como um braço ou um olho. **Esse uso não recupera pontos de vida.** A opção de Ação Bônus serve à cura em d4, não a essa reconstrução.
+
+Esta regra desfaz a perda registrada pela mesa. Não cria um procedimento para amputar oponentes nem remove, por si só, uma condição com outra causa. As incompatibilidades de alvo da Energia Reversa continuam valendo.
+
+<!-- page:apt-regravacao|Regravação -->
+# Regravação
+
+**Requisito: Circulação. Categoria de Efeito 3.** Você pode encerrar o Rescaldo de sua técnica antes do fim da cena, mas usos repetidos impedem novas Expansões de Domínio naquele dia.
+
+**Ação Bônus, durante seu Rescaldo.** Gaste o **limite inteiro de PE de sua Energia Reversa**, considerando Circulação. O Rescaldo termina e sua técnica volta a responder. Esse uso não cura vida nem recompõe outra parte do corpo.
+
+## Marcas
+
+Cada uso acrescenta **uma marca de Regravação**. As marcas desaparecem no descanso longo. Seu limite é:
+
+**Metade de Inteligência + metade da maestria**, arredondando cada metade para baixo separadamente.
+
+Ao alcançar ou ultrapassar esse limite, você **não pode abrir uma Expansão de Domínio** enquanto as marcas permanecerem. O uso que alcançou o limite ainda encerra o Rescaldo normalmente.
+
+| Inteligência | Limite com maestria 3 | Limite com maestria 4 |
+|---|---:|---:|
+| 0–1 | 1 | 2 |
+| 2–3 | 2 | 3 |
+| 4–5 | 3 | 4 |
+| 6 | 4 | 5 |
+
+> **Exemplo.** Com Inteligência 5 e maestria 4, o limite é **2 + 2 = 4 marcas**. A quarta Regravação devolve a técnica, mas impede abrir outra Expansão até o descanso longo. Com maior Classe 7 e Circulação, cada uso custa **10 PE**.
+
+Esperar o Rescaldo terminar normalmente não acrescenta marcas e não apaga as existentes. Regravar também não devolve PE, ações ou recursos gastos para abrir a Expansão anterior.
+
+<!-- page:apt-kokusen|Kokusen -->
+# Kokusen
+
+Quando um personagem com energia amaldiçoada causa um **crítico com um ataque corpo a corpo de arma ou desarmado**, role **d100**. Se tirar **2 × Refino ou menos**, ocorre um Kokusen.
+
+Ele não exige escolha de aptidão nem PE adicional. Feitiços, inclusive os de Toque, não acionam essa regra. Um ataque à distância também não a aciona.
+
+## Dano
+
+Resolva o crítico e os demais valores do golpe. O Kokusen acrescenta **50% ao dano final**. Arredonde o dano recebido para cima, conforme Dano e recuperação. Não dobre outra vez os dados nem aplique novamente resistências e reduções já consideradas.
+
+> **Exemplo.** Depois do crítico e das defesas, um golpe causaria 21. Se ocorrer Kokusen, o dano será **32**: 21 × 1,5 = 31,5, arredondado para cima. Se o golpe já foi reduzido a zero, continua causando zero.
+
+## Tentativas seguintes
+
+Cada teste de Kokusen que falhar acrescenta **+2 ao limite dos próximos testes de Kokusen**. Registre esse bônus. Ele só desaparece no descanso longo, inclusive se um Kokusen acontecer antes disso. Não altera a margem de crítico nem o acerto. Um limite de 100 ou mais garante o sucesso no d100.
+
+## Kokusen Melhorado
+
+**Requisitos: Refino 5 e nível 14.** Em cada teste de Kokusen, role **dois d100 e use o menor**. Se os dois resultados falharem, acrescente +2 ao bônus acumulado uma vez, não duas.
+
+## Kokusen Constante
+
+**Requisito: Refino 5.** O limite básico do teste passa a ser **3 × Refino**, antes do bônus por tentativas falhadas.
+
+As duas melhorias funcionam juntas. Com Refino 10 e sem bônus acumulado, o limite normal é 20. Constante o leva a 30. Com Melhorado também, basta um dos dois d100 resultar em 30 ou menos.
+
+<!-- page:apt-protecao-dominios|Proteção contra domínios -->
+# Proteção contra domínios
+
+Uma Expansão completa pode atingir quem está dentro dela por seu **Acerto garantido**. Cesta Oca de Vime, Domínio Simples e Pétala oferecem respostas diferentes a esse perigo. Extensão de Domínio também protege contra ele e possui usos adicionais.
+
+| Aptidão | Proteção principal | Manutenção |
+|---|---|---:|
+| Cesta Oca de Vime | Protege você do Acerto, enquanto conservar a barreira. | 0 PE |
+| Domínio Simples | No seu raio, impede o Acerto e o Efeito da Expansão. | 2 PE |
+| Pétala | Anula ou reduz o Acerto que chega por contato. | 1 PE |
+| Extensão de Domínio | Protege você do Acerto e do Efeito em qualquer degrau de Expansão. | 1,5 × maior Classe, para cima |
+
+## Ativação e manutenção
+
+Cada ativação custa **sua maior Classe em PE**, mesmo depois de uma queda. Você pode ativar como **Reação quando uma Expansão se abre**, antes do Acerto de abertura, ou como **Ação Bônus no seu turno**. As exceções para erguer novamente estão nas entradas.
+
+Pague também a primeira manutenção ao ativar. No começo de cada turno seu seguinte, pague a manutenção para continuar. Sem pagar, a proteção termina antes dos demais efeitos desse começo de turno. Você pode encerrá-la voluntariamente sem ação. Ficar Inconsciente a encerra.
+
+As aptidões não removem a barreira que prende você na Expansão, nem os benefícios concedidos ao dono dela. Um ataque comum realizado dentro do domínio continua sendo um ataque comum.
+
+A Expansão incompleta não tem Acerto garantido. Cesta, Domínio Simples e a proteção de Pétala contra Acerto não a anulam. Extensão declara a própria exceção. As capacidades descritas aqui são regras do Projeto - M para representar essas defesas.
+
+<!-- page:apt-cesta|Cesta Oca de Vime -->
+# Cesta Oca de Vime
+
+**Requisito: ser Encarnado ou treinado em História. Categoria de Efeito 1.** Você forma um símbolo com as duas mãos e cria uma barreira em volta de si.
+
+Use a ativação de **Proteção contra domínios**. A Cesta não cobra manutenção. Ela anula o Acerto garantido contra você, mas não o Efeito da Expansão.
+
+## Símbolo e mãos
+
+Enquanto mantém as duas mãos no símbolo, pode agir, mover-se e atacar com partes livres do corpo. Não pode usar essas mãos para empunhar arma ou escudo, agarrar ou realizar um gesto exigido por outra ação.
+
+Soltar o símbolo libera suas mãos e **não encerra imediatamente a Cesta**. Enquanto estiver solto, cada Acerto que causa dano que a Cesta impedir acrescenta uma falha, no máximo uma dessas falhas por rodada. Um Acerto que não causa dano não acrescenta essa falha automática. Retomar o símbolo interrompe esse desgaste, sem apagar as falhas anteriores.
+
+## Golpes e queda
+
+Cada golpe que acertar você exige **TR Espírito contra a CD de quem o atingiu**, mesmo se o dano for reduzido a zero. Uma falha acrescenta uma falha à Cesta. O Acerto já anulado pela própria Cesta não é um golpe recebido para esse teste.
+
+Ela cai quando acumula **metade de sua Essência em falhas, arredondada para baixo, mínimo 1**.
+
+| Essência | Falhas para cair |
+|---|---:|
+| 0–3 | 1 |
+| 4–5 | 2 |
+| 6 | 3 |
+
+O teste é próprio da Cesta: não ocupa Concentração e não recebe a dispensa de Mão Firme.
+
+Quando a Cesta termina dentro de uma Expansão que ela impedia, inclusive por encerramento voluntário ou inconsciência, você recebe **um Acerto imediatamente**. Esse é um Acerto adicional; não substitui o do próximo turno do dono. Erguer novamente exige Ação Bônus no seu turno e novo pagamento. Comece com zero falhas.
+
+> **Exemplo.** Com Essência 4, uma falha ainda permite manter a Cesta. A segunda a derruba. Retomar o símbolo entre elas não reinicia a contagem.
+
+<!-- page:apt-simples|Domínio Simples -->
+# Domínio Simples
+
+**Requisito: Refino 5, ou Refino 4 com o voto do iniciante. Categoria de Efeito 2.** Você precisa ter visto um Domínio Simples sendo usado ou ter aprendido com alguém. Registre essa origem do aprendizado.
+
+Você cria uma área ao seu redor que protege quem estiver nela. Ative conforme **Proteção contra domínios** e pague **2 PE de manutenção**.
+
+## Área protegida
+
+| Refino | Raio |
+|---|---:|
+| 1 | 1,5 m |
+| 2–5 | 3 m |
+| 6–7 | 4,5 m |
+| 8–10 | 6 m |
+
+As faixas inferiores servem a concessões específicas da criação. O raio acompanha você, salvo o voto abaixo. A proteção alcança todas as criaturas dentro dele, sem uma lista escolhida de aliados.
+
+Dentro do raio, uma Expansão com Acerto garantido não aplica seu Acerto nem seu Efeito às criaturas ou ao lugar protegido. Os benefícios do dono continuam com ele. Seus ataques e feitiços comuns ainda podem entrar na área, usando suas resoluções normais.
+
+## Voto do iniciante
+
+Com Refino abaixo de 5, quando uma regra permitir adquirir esta aptidão, o Domínio Simples fica **fixo no ponto de ativação**. Se seus dois pés saírem desse ponto, por movimento próprio ou imposto, ele termina. Ao chegar a Refino 5, você pode abandonar esse voto.
+
+Se terminar pelo voto, por encerramento voluntário, falta de manutenção ou inconsciência enquanto segurava uma Expansão, quem perdeu essa proteção recebe um **Acerto adicional imediatamente**, além dos Acertos normais que ainda virão. O fim por esgotar a capacidade segue [Duração do Domínio Simples](#apt-simples-duracao).
+
+## Permanência
+
+Fora de uma Expansão, o Domínio Simples permanece enquanto você pagar a manutenção. Contra uma Expansão, sua capacidade de resistir à pressão é limitada pelos Acertos que segura. O procedimento está em **Duração do Domínio Simples**.
+
+<!-- page:apt-simples-duracao|Duração do Domínio Simples -->
+# Duração do Domínio Simples
+
+Quando seu Domínio Simples passa a enfrentar uma Expansão, compare **sua Essência com a do dono dela**. Anote quantos Acertos ele pode impedir nessa ativação.
+
+| Sua Essência | Capacidade inicial | Ao erguer novamente na mesma Expansão |
+|---|---:|---:|
+| Maior | 4 Acertos | 2 Acertos |
+| Igual | 3 Acertos | 1 Acerto |
+| Menor | 2 Acertos | 1 Acerto |
+
+## Acertos e falhas
+
+Antes de cada Acerto, compare quantos já foram impedidos com sua capacidade atual. Se já alcançou a capacidade, o Domínio Simples cai e **esse Acerto passa normalmente**. Não acrescente outro pela mesma queda.
+
+Se ainda houver capacidade, impeça o Acerto, acrescente um ao total impedido e faça **TR Espírito contra a CD do dono da Expansão**. Na falha, reduza a capacidade em 1, sem baixá-la de **metade de sua Essência, para baixo, mínimo 1**.
+
+Esse piso limita apenas a redução por falhas. Ele não aumenta a capacidade inicial nem a capacidade menor de uma nova ativação. O total já impedido não diminui. Mesmo que a falha deixe a capacidade igual ou inferior a esse total, o Acerto acabou de ser impedido. Confira a queda no próximo.
+
+> **Exemplo.** Com Essência 4 contra Essência 4, a capacidade começa em 3. Você impede um Acerto e falha no TR: a capacidade cai para 2. Impede o segundo. Outra falha não reduz a capacidade abaixo de 2. O terceiro derruba a proteção e atinge quem ela cobria.
+
+Golpes contra você não exigem esse teste. Ele não ocupa Concentração, e Mão Firme não o dispensa. **Erguer novamente na mesma Expansão custa Ação Padrão**, além dos PE, usando a última coluna da tabela. A nova ativação reinicia o total impedido.
+
+## Mudança de Expansão
+
+Um Acerto que alcance várias criaturas protegidas conta uma vez. O total impedido pertence à ativação, não a cada adversário. Sair e voltar não o zera. Ao enfrentar outra Expansão, compare as Essências de novo: use a capacidade menor entre a atual e a permitida contra o novo dono. Se já ergueu Domínio Simples durante aquela Expansão, use a coluna de nova ativação. Acertos rivais anulados pela disputa entre domínios não são Acertos impedidos por esta aptidão.
+
+<!-- page:apt-petala|Pétala -->
+# Pétala
+
+**Requisitos: Refino 4 e nível 10; ser Descendente ou ter aprendido com alguém de um clã. Categoria de Efeito 2.** Sua energia reage ao contato do Acerto de uma Expansão.
+
+Ative conforme **Proteção contra domínios**. A manutenção custa **1 PE**.
+
+## Acerto por contato
+
+Quando o Acerto garantido chega ao seu corpo por contato, compare sua Essência com a do dono da Expansão.
+
+| Sua Essência | Dano desse Acerto que você recebe |
+|---|---:|
+| Maior | Nenhum |
+| Igual | Um quarto |
+| Menor | Metade |
+
+Cortes, chamas ou criaturas que atingem seu corpo são formas de contato. Uma informação ou regra aplicada sem contato não é impedida por Pétala. Os efeitos do Acerto por contato que não sejam dano, como uma condição ou marca, são anulados nos três casos.
+
+A fração da tabela é o dano que passa. Aplique as demais defesas e o arredondamento pelas regras de Dano. A proteção não reduz um golpe comum só porque ele foi realizado dentro de uma Expansão.
+
+## Queda
+
+Cada golpe que acertar você exige **TR Espírito contra a CD de quem o atingiu**. Isso inclui um Acerto por contato que ainda lhe cause dano após Pétala. Um Acerto inteiramente anulado por ela não exige o teste.
+
+Acumule as falhas. Com **metade de sua Essência em falhas, para baixo, mínimo 1**, Pétala termina. Esse teste não ocupa Concentração e não é dispensado por Mão Firme. Sua queda **não causa um Acerto adicional**. Você pode erguer novamente com Ação Bônus e novo pagamento, zerando as falhas.
+
+## Contra-ataque
+
+Com uma arma corpo a corpo empunhada, quando um golpe corpo a corpo acertar você, pode gastar **Reação e 3 PE** para fazer um ataque de oportunidade com vantagem contra o atacante. Ele precisa estar ao alcance da arma naquele momento. Ataques desarmados não podem ser usados nesse contra-ataque.
+
+Resolva primeiro o golpe recebido. Se Pétala estava ativa quando ele acertou, uma queda dela causada por esse golpe não retira o contra-ataque, mas você ainda precisa poder usar sua Reação. Ele também funciona fora de uma Expansão.
+
+<!-- page:apt-extensao|Extensão de Domínio -->
+# Extensão de Domínio
+
+**Requisitos: Refino 7 e nível 18. Categoria de Efeito 3.** Você precisa ter visto uma Extensão em uso, estudado seu funcionamento ou aprendido com alguém. Registre isso na ficha. **Corpo Amaldiçoado não pode adquirir esta aptidão.**
+
+Você se envolve em uma camada de domínio que neutraliza técnicas. Ative conforme **Proteção contra domínios**. A manutenção custa **1,5 × sua maior Classe em PE, arredondado para cima**.
+
+## Duração e custo
+
+A ativação e sua primeira manutenção cobrem o período até o começo do seu próximo turno. Depois, você pode pagar até **Refino − 1 manutenções adicionais**, uma no começo de cada turno. A Extensão termina no começo do turno seguinte à última manutenção, ou antes se for encerrada. Golpes não a derrubam.
+
+> **Exemplo.** Com maior Classe 5 e Refino 9, ativar custa **5 + 8 = 13 PE**. Você pode renovar mais oito vezes por 8 PE, totalizando **77 PE** se mantiver até o limite.
+
+## Proteção e neutralização
+
+Enquanto ativa, ela impede que o **Acerto e o Efeito de qualquer Expansão** atinjam você, inclusive incompleta ou sem barreiras. A barreira ainda prende você, e os benefícios do dono permanecem.
+
+Uma técnica que encostar na Extensão é anulada, naquele contato, se sua Classe, Categoria de Efeito ou escala de Regra Própria for de até **1 + um terço de seu Refino, para baixo**. O limite é 3 nos Refino 7–8 e 4 nos Refino 9–10. Isso não apaga a técnica de quem a criou nem seus efeitos longe de você.
+
+Acima desse limite, você recebe **três quartos do dano**. Outros efeitos continuam seguindo suas regras. Uma habilidade sem essas classificações não ganha uma Classe presumida pelo nome ou pelo nível.
+
+## Técnica suspensa
+
+Enquanto a Extensão estiver ativa, você não usa feitiços nem Manejos. Uma Expansão sua já aberta continua funcionando. Abrir uma nova encerra a Extensão antes da abertura.
+
+<!-- page:apt-barreira|Barreira Simples -->
+# Barreira Simples
+
+**Aquisição: uma escolha de aptidão. Sem requisito adicional.** Você ergue um domo fixo para impedir a passagem por um lugar.
+
+| Uso | Regra |
+|---|---|
+| Preparação | 1 minuto. |
+| Custo | Não custa PE. |
+| Área | Domo de raio 6 m, centrado em você ao concluir. |
+| Vida | 5 × Refino. |
+| Efeito | Impede passagem e linha de efeito nos dois sentidos. |
+| Encerramento | Vida zero, você ficar Inconsciente ou decidir encerrá-la. |
+
+## Preparação
+
+Permaneça no ponto escolhido enquanto prepara a barreira. Em combate, isso exige **dez turnos consecutivos dedicando a Ação Padrão**, sem usar outra Ação Padrão para tarefa diferente. Se deixar o ponto, não puder agir ou abandonar a preparação, recomece o minuto. Sofrer dano, sozinho, não interrompe esse trabalho.
+
+A barreira surge inteira ao terminar. Não empurra nem corta criaturas ou objetos. Pode se apoiar nos limites físicos do lugar para fechar uma passagem, sem destruir o que já existia ali. O solo ou a estrutura de apoio fecha a base protegida.
+
+## Barreira erguida
+
+O domo permanece no lugar. Você pode se afastar e agir normalmente. Ele não ocupa Concentração. Uma única reserva de vida vale para toda a barreira: destruir um trecho desfaz o domo inteiro. Ela não recupera vida com cura destinada a criaturas.
+
+Um ataque capaz de alcançar sua superfície **acerta automaticamente**, sem crítico, pagando suas ações e recursos normais. Se um efeito que possa ferir barreiras exigir TR, ela falha automaticamente. Não recebe condições de criaturas. Ataques que não possam afetar uma barreira não ganham essa capacidade por acertar.
+
+**Você pode manter uma Barreira Simples ou uma Cortina de cada vez.** Concluir outra encerra a anterior. Essa escolha não impede usar Domínio Simples, que é outra aptidão.
+
+A exceção de passagem da **rota sem energia** vale para estas duas barreiras. Equipamento e objetos carregados seguem as condições da Origem. Essa exceção não permite atravessar paredes ou outras estruturas físicas.
+
+> **Exemplo.** Com Refino 6, o domo tem **30 pontos de vida**. Se sofreu 18 de dano, restam 12. Recomeçar a preparação não o restaura imediatamente: o domo novo só aparece ao concluir outro minuto.
+
+<!-- page:apt-cortina|Cortina -->
+# Cortina
+
+**Requisito: Barreira Simples.** Você delimita uma área para esconder seu interior de pessoas que não são feiticeiras e controlar a passagem por suas bordas.
+
+A preparação segue **Barreira Simples**: **1 minuto**, sem custo em PE. Antes de começar, registre o lugar e suas bordas: um prédio, uma escola, uma quadra ou outro local contínuo. **O ponto mais distante da borda deve estar a até 90 m de você ao concluir.** Essa medida limita a Cortina inteira, não cada trecho isolado.
+
+A Cortina tem **40 × Refino pontos de vida**, compartilhados por toda a superfície. Sofre ataques e TRs pelo procedimento de Barreira Simples. Fica ancorada no lugar e termina com vida zero, se você ficar Inconsciente ou se decidir encerrá-la. Ela ocupa a mesma manutenção única de Barreira Simples: concluir uma substitui a outra.
+
+## Condição de passagem
+
+Ao preparar, escreva **uma condição verificável** sobre quem pode atravessar e em qual sentido. Ela vale até a Cortina terminar. As bordas escolhidas não se movem.
+
+| Condições possíveis | Resultados que a Cortina não concede |
+|---|---|
+| Impedir uma pessoa identificada de entrar. | Causar dano na travessia. |
+| Permitir entrada somente a quem possui energia amaldiçoada. | Conceder bônus às criaturas protegidas. |
+| Permitir passagem às pessoas nomeadas. | Impedir ataques sem relação com a passagem definida. |
+| Impedir a saída de quem estiver dentro. | Seguir o criador ou esconder o interior de feiticeiros. |
+
+A condição regula a travessia das criaturas que ela identifica. **Não cria a vedação completa da Barreira Simples**: ataques e efeitos ainda seguem seu alcance, sua trajetória e a visibilidade disponível. Uma criatura impedida de atravessar pode tentar destruir a Cortina.
+
+> **Exemplo.** Haru tem Refino 6. Sua Cortina possui **240 pontos de vida** e impede a saída das pessoas dentro da escola. Aliados que já estavam ali também ficam presos se não houver uma exceção na condição preparada.
+
+<!-- page:apt-propria|Aptidão Própria -->
+# Aptidão Própria
+
+**Uma única vez na ficha. Categoria de Efeito 1 ou 2.** Você cria uma aptidão com o mestre antes da sessão; **ele define o tamanho do efeito**. Ela representa um aprendizado específico de energia que o catálogo ainda não cobre.
+
+Escreva uma frase de regra. Ela precisa dizer **quando funciona, quem afeta e o que permite fazer**. Acrescente ação, custo, distância e encerramento quando forem necessários. A descrição pode ser curta, mas deve bastar para outra mesa aplicar a mesma regra.
+
+## Limites
+
+A proposta não pode copiar uma aptidão existente com outro nome, dispensar seus requisitos ou acrescentar dados de dano. Aptidão Própria de Categoria de Efeito 2 também precisa de um limite por cena.
+
+Avalie a frequência real de uso no tipo de missão da campanha. Compare também a magnitude, o custo de ação, os alvos e o alcance com os Talentos da mesma Categoria de Efeito. Efeitos pequenos ou de informação costumam caber na Categoria 1. Intervenções mais relevantes podem exigir Categoria 2 e seu limite por cena. Permanência, sozinha, não transforma um benefício pequeno em Categoria 3. Efeitos que precisem dessa terceira Categoria ficam fora desta opção.
+
+## Exemplos
+
+A comparação abaixo serve como apoio. Quem define o tamanho da Aptidão Própria é o mestre.
+
+| Proposta | Apoio à avaliação do mestre |
+|---|---|
+| Com uma Ação Padrão examinando um objeto que toca, identificar se ele recebeu energia amaldiçoada nas últimas 24 horas. | Categoria 1, se esse vestígio específico for relevante raramente na campanha. Não revela autor, intenção ou identidade da técnica. |
+| Uma vez por cena, depois que um aliado a até 9 m falha em um TR, usar sua Reação para ele rolar de novo, conservando o segundo resultado. | Categoria 2. Tem gatilho, alcance, custo de ação e limite. |
+| Receber um ataque adicional em toda rodada, sem gastar ações. | Recusada: concede ações adicionais contínuas, fora dos limites das criações próprias. |
+
+Aptidão Própria usa uma escolha de aptidão. Uma concessão da criação que já preencha essa opção também consome a escolha única da ficha. Mudanças posteriores precisam ficar registradas junto da regra aprovada.

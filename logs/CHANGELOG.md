@@ -8,6 +8,28 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.341] — 09/10/2026
+
+**O R41 virou o livro principal do repositório, no lugar do R28a.** *O Mizuki fechou a revisão do livro em 09/10 ("livro ficou assim no fim") e, perguntado se já passava para o Git só o livro, antes das peças, respondeu "pode sim".* **O PDF (`Ciclo Maldito | Livro de regras`, 373 páginas) entrou no mesmo caminho do anterior, `sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf`.**
+
+**Adicionado: `sistema/05-material/livro/ciclo-maldito-r41/`.** *O R28a tinha entrado só como PDF, e o README avisava que o gerador dele não estava aqui.* Agora estão o texto inteiro (`LIVRO-COMPLETO.md`, 521 blocos com âncora), as fontes dos capítulos, os scripts do gerador com as configurações pequenas, e os registros da revisão de regras. **O gerador não roda só com isso:** *a arte, as referências ilustradas, as fontes tipográficas e as páginas renderizadas de cada rodada ficaram na pasta de entrega dele, fora do repositório.*
+
+**O que o R41 é.** *O R28a com 74 retoques de redação (R29), mais a revisão que o Mizuki fez entre 07 e 09/10 do que a reconstrução tinha mudado na mecânica em relação ao livro v0.331, mais a diagramação nova em duas colunas (de 498 para 373 páginas).* Cada mudança de mecânica ganhou um número e ele respondeu por número se ficava ou voltava; a lista decidida é o `revisao-de-regras/MUDANCAS-DE-REGRA.md`, e as respostas, com as palavras dele, estão no `DECISOES-MIZUKI.md`. **Cada rodada que mexeu em texto tem um registro de antes e depois por bloco em `revisao-de-regras/alteracoes/`, e todas foram conferidas do mesmo jeito:** *todo bloco diferente entre duas versões está no registro, e o antes e o depois batem com o livro.*
+
+**Decidido, pelo Mizuki, durante a revisão, e já no livro.** *Além dos itens que voltaram ao valor da v0.331:* a arma sem a Força pedida dá desvantagem nos ataques com ela e deslocamento pela metade, e deixa de tirar Defesa; uniforme, Revestimento e escudo sem a Força pedida, e carga acima do limite até o dobro, dão deslocamento pela metade e desvantagem em TR Físico, sem acumular entre si; a Reação de `Cobrir-se de Energia` e a de `Defesa sem Armadura` tiram só a proteção passiva, e Traje, Revestimento e escudo continuam protegendo (*isso desfaz o preço agnóstico de fonte da v0.42, e ele avisou que pode rever*); `Insistir` não custa Ação Padrão; duas Bênçãos novas, `Represália` (Categoria de Efeito 2) e `Sangue Frio` (Categoria de Efeito 3), que não passaram por mesa. *A D43, a D44 e o `Projetar Energia` de `2d6` por PE, que faltavam no R28a, estão no R41, e o `R28a-o-que-falta.md` ficou marcado como fechado.*
+
+**O que não mudou, e o que isso deixa aberto.** **Nenhuma peça, nenhum validador e nenhuma linha da candidata mudaram nesta versão.** *Os validadores continuam lendo a candidata, e a candidata não recebeu a revisão.* **Então o livro principal e as peças hoje divergem em regra, em bem mais que a D43 e a D44 de antes.** *O `PLANO.md` ganhou o passo 5a: antes de qualquer capítulo, uma tabela com uma linha por decisão dizendo se a peça dona já está no valor decidido, se precisa desfazer o que os passos 4 a 5b migraram, ou se é regra nova.*
+
+**Fora do livro:** *a seção C do `MUDANCAS-DE-REGRA.md` (direção dada, sem número) e as regras de XP de 01/10 (Solo simples, Solo complexa, multiplicador e arredondamento em múltiplos de `12,5`), que a ficha já segue.*
+
+**Sete citações de caminho foram ajustadas nas cópias dos registros,** *porque apontavam para a pasta de entrega e a checagem 2 do `conferir-repositorio.py` não as resolvia; os originais ficam como estavam, fora do repositório.*
+
+**Validação:** *os `27` validadores de `03-mecanica/` saem com código `0`, o `pac7.py` e o `v7.py` também, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7, da entrega, porque `finalizado/` não existe neste clone).* **O `conferir-voz.py --estrito` reprova, e já reprovava antes desta versão:** *34 achados em `manual/35-caminhos-e-trilhas.md` e `manual/60-invocacoes.md`, que são o livro v0.331 congelado depois da integração; esta versão não tocou neles. Enquanto ele reprovar, o `subir.sh` recusa o commit.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: o passo 5a, o inventário da revisão do R41, e só depois o capítulo de Dano sem o Morrendo.
+
+---
+
 ## [0.340] — 06/10/2026
 
 **O passo 5b da migração começou: Aptidões e Refino, Rotas e Origens passaram para as peças.** *São os três capítulos mais leves dos seis que nenhum passo migrava (13, 14 e 18 registros confirmados). Foram feitos na mesma versão porque saíram da mesma conversa; o `PLANO.md` pedia um por versão.*

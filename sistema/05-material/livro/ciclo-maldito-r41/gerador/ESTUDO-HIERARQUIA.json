@@ -1,0 +1,70 @@
+{
+  "opcoes": {
+    "base": {
+      "nome": "Atual · R34",
+      "descricao": "Tratamento entregue, para comparação."
+    },
+    "A": {
+      "nome": "A · Filete e serifa",
+      "descricao": "Grupos em caixa alta com filete; subtópicos com serifa e um traço lateral; nomes de exemplos com serifa, menores e sem sublinhado."
+    },
+    "B": {
+      "nome": "B · Marca lateral",
+      "descricao": "Grupos com marca vertical vinho; subtópicos condensados com filete curto; nomes de exemplos com serifa, menores e sem sublinhado."
+    }
+  },
+  "estilos": {
+    "A": {
+      "grupo": {
+        "font": "Strong",
+        "size": 15,
+        "height": 25,
+        "left": 0,
+        "color": "#522039",
+        "uppercase": true
+      },
+      "subtopico": {
+        "font": "Entry",
+        "size": 13.5,
+        "height": 20,
+        "left": 15,
+        "color": "#522039"
+      },
+      "exemplo": {
+        "font": "Entry",
+        "size": 12.5,
+        "height": 18,
+        "left": 0,
+        "color": "#251727"
+      }
+    },
+    "B": {
+      "grupo": {
+        "font": "Strong",
+        "size": 16,
+        "height": 26,
+        "left": 11,
+        "color": "#522039"
+      },
+      "subtopico": {
+        "font": "Strong",
+        "size": 15,
+        "height": 22,
+        "left": 0,
+        "color": "#9e2358"
+      },
+      "exemplo": {
+        "font": "Entry",
+        "size": 13.5,
+        "height": 19,
+        "left": 0,
+        "color": "#251727"
+      }
+    }
+  },
+  "aprovado": "B",
+  "nome": "Marca lateral",
+  "autorizacao": "Definitivamente B, pode seguir",
+  "etapa": "6E",
+  "base": "R34"
+}

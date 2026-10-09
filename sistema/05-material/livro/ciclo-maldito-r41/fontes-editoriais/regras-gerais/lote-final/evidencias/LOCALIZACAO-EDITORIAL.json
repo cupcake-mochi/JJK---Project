@@ -1,0 +1,36 @@
+{
+  "sha256_texto": "60ce622431b0dfeb4f1f6eaad8b8446e71473755a17e55eb3fc0535ce333e7f3",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "revisor": "/root/rotas_didatica — revisão de autoria por modelo",
+  "excecoes_localizacao": [],
+  "revisao_delta_nomes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_previo": "d5a7af1b3715f695ad8dae3baa7e22a04f23f0c5b692687bdab6d74323a6f489",
+    "sha256_atual": "423da38b173df0e05f9b07ce1ba2edc1f69ac928cf2a9709da0c33cb5ed93ee9",
+    "escopo": "Somente o delta nominal foi relido nesta etapa; leitura integral anterior preservada no snapshot. Números e âncoras idênticos.",
+    "evidencia": "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  },
+  "revisao_remissoes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_antes": "423da38b173df0e05f9b07ce1ba2edc1f69ac928cf2a9709da0c33cb5ed93ee9",
+    "sha256_depois": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
+    "ids": [
+      "REM-01"
+    ],
+    "independente": "/root aprovou o relatório de /root/rotas_didatica e os antes/depois."
+  },
+  "revisao_delta_2026_10_04": {
+    "sha256_revisado": "009036700319e1d3371ef84f6889539416bb0130d494dc40a316bebf08b1d18c",
+    "texto_revisado": "consolidacao/lote-01/evidencias/antes-fechamento-integracao/fontes/regras-gerais/lote-final/REGRAS-GERAIS.md",
+    "sha256_main": "2ef95f754572dace507f64392a2374c663d1d560d12986473affb747af87803c",
+    "delta_fechamento_integracao": "Entre o texto revisado e a main só mudaram remissões de posição (\"nesta página\", \"na próxima página\") para \"nesta seção\" ou links com o título da seção. Nenhuma regra, título ou nome mudou.",
+    "correcoes": [
+      "C04"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "As duas parcelas do delta foram lidas linha a linha: as remissões do fechamento e as correções e decisões desta rodada. Nenhuma regra alheia reproduzida, nenhum título alterado. Todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
+  }
+}

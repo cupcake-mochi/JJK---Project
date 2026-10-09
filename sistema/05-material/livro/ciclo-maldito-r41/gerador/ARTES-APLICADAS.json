@@ -1,0 +1,99 @@
+{
+  "bastiao--bas-bastiao": {
+    "imagem": "Bastião",
+    "corte_texto": "lead"
+  },
+  "vanguarda--van-base": {
+    "imagem": "Vanguarda",
+    "corte_texto": "lead"
+  },
+  "guia--guia": {
+    "imagem": "Guia",
+    "corte_texto": "lead"
+  },
+  "emanador--ema-base": {
+    "imagem": "Emanador",
+    "corte_texto": "lead"
+  },
+  "evocador--evocador": {
+    "imagem": "Evocador",
+    "corte_texto": "lead"
+  },
+  "ab--ab-mundo": {
+    "imagem": "Mundo jujutsu",
+    "corte_texto": "h2"
+  },
+  "equip--eqf-equipamento": {
+    "imagem": "Equipamento amaldiçoado",
+    "corte_texto": "h2"
+  },
+  "fundamento--fundamento": {
+    "imagem": "Fundamento",
+    "corte_texto": "h2"
+  },
+  "poderes--degraus": {
+    "imagem": "Expansão de Domínio",
+    "corte_texto": "h2"
+  },
+  "construcao--entidades-criar": {
+    "imagem": "Criar uma invocação",
+    "corte_texto": "h2"
+  },
+  "origens--origens": {
+    "imagem": "Origens e Legados",
+    "corte_texto": "h2",
+    "composicao": "topo",
+    "titulo_no_capitulo": true
+  },
+  "origens--origem-receptaculo": {
+    "imagem": "Receptáculo",
+    "corte_texto": "h2",
+    "composicao": "lateral-esquerda",
+    "alinhamento_vertical": "centro"
+  },
+  "origens--origem-feto": {
+    "imagem": "Feto",
+    "corte_texto": "h2",
+    "composicao": "rodape"
+  },
+  "origens--origem-corpo": {
+    "imagem": "Corpo Amaldiçoado",
+    "corte_texto": "h2",
+    "composicao": "entre-secoes",
+    "fim_abertura": "FIM DO BLOCO",
+    "inserir_apos_corpo": 3
+  },
+  "origens--origem-restricao": {
+    "imagem": "Restrição Celestial",
+    "corte_texto": "h2",
+    "composicao": "lateral-direita",
+    "fim_abertura": "Sem Energia"
+  },
+  "aptidoes--apt-refino": {
+    "imagem": "Aptidões e Refino",
+    "corte_texto": "h2",
+    "composicao": "entre-secoes",
+    "inserir_apos_corpo": 2
+  },
+  "rotas--rota-marcial": {
+    "imagem": "Técnica Marcial",
+    "corte_texto": "h2",
+    "composicao": "topo",
+    "fim_abertura": "Desenvolvimento"
+  },
+  "rotas--rota-sem-tecnica": {
+    "imagem": "Sem Técnica",
+    "corte_texto": "h2",
+    "composicao": "lateral-direita",
+    "fim_abertura": "Semente e Manejos",
+    "inserir_apos_corpo": 999,
+    "alinhamento_vertical": "centro"
+  },
+  "rotas--rota-bencaos": {
+    "imagem": "Bênçãos",
+    "corte_texto": "h2",
+    "composicao": "entre-secoes",
+    "fim_abertura": "Escolhas disponíveis",
+    "inserir_apos_corpo": 2
+  }
+}

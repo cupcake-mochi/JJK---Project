@@ -1,0 +1,68 @@
+{
+  "sha256_texto": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "revisor": "compatibilidade — leitura integral39p e comparação das sete candidatas",
+  "excecoes_vocabulario": [],
+  "excecoes_localizacao": [],
+  "revisao_delta_nomes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_previo": "c5a6b376afdbcc2439f53b270a1e82323ec99575cbdc530ce11cb31101b14f8f",
+    "sha256_atual": "89a3f7bb705a7c931a3c69f4f051fb98d62acbc065ffa42dc48275f00e2afec1",
+    "escopo": "Somente o delta nominal foi relido nesta etapa; leitura integral anterior preservada no snapshot. Números e âncoras idênticos.",
+    "evidencia": "consolidacao/lote-01/migracao-nomes/MIGRACAO.json"
+  },
+  "revisao_remissoes": {
+    "revisor": "/root/compatibilidade",
+    "sha256_antes": "89a3f7bb705a7c931a3c69f4f051fb98d62acbc065ffa42dc48275f00e2afec1",
+    "sha256_depois": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+    "ids": [
+      "REM-13",
+      "REM-14",
+      "REM-15",
+      "REM-16",
+      "REM-17",
+      "REM-UNIFORME"
+    ],
+    "independente": "/root aprovou o relatório de /root/rotas_didatica e os antes/depois."
+  },
+  "revisao_delta_2026_10_04": {
+    "sha256_revisado": "85b38026ae96486a1db359ddf81157d482b4e03bb7fe4c70c2bb17ab5755a77b",
+    "texto_revisado": "consolidacao/lote-01/evidencias/antes-fechamento-integracao/fontes/equipamento/lote-final/EQUIPAMENTO.md",
+    "sha256_main": "1cd88fbd70310dbf412be3880a239022485447922992c8bbc9503dc3b07595de",
+    "delta_fechamento_integracao": "Entre o texto revisado e a main só mudaram remissões de posição (\"nesta página\", \"na próxima página\") para \"nesta seção\" ou links com o título da seção. Nenhuma regra, título ou nome mudou.",
+    "correcoes": [
+      "C04b",
+      "C07",
+      "C11",
+      "C12"
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.json",
+    "revisor": "Revisão por modelo (thread Revisão pós-reconstrução do livro), 04/10/2026. Não é revisão humana.",
+    "conferido": "As duas parcelas do delta foram lidas linha a linha: as remissões do fechamento e as correções e decisões desta rodada. Nenhuma regra alheia reproduzida, nenhum título alterado. Todos os achados E002 coincidem em termo e trecho com excecoes_localizacao já revisadas, e o vocabulário não acusa nada."
+  },
+  "revisao_delta_2026_10_04_decisoes": {
+    "sha256_anterior": "96fe206bd2257b9839da6bc53c97c6b0ca17f82f3bf9f706709e07ecb19ec858",
+    "sha256_atual": "691e10b85c01d25f9002bc4b5717b05a947129a2ae22bef3145f83b7dd938f1b",
+    "mudancas": [
+      {
+        "codigo": "D08",
+        "achado": "G3-03",
+        "secao": "eq-manipular",
+        "antes": "A conversão de ações segue as regras do turno.",
+        "depois": "A conversão de ações segue as regras do turno.\n\nDuas capacidades que troquem essa manipulação gratuita por duas não se somam. Em cada turno, use uma delas, com as restrições dela."
+      },
+      {
+        "codigo": "D11",
+        "achado": "G1-02",
+        "secao": "eqf-reliquias",
+        "antes": "O dano dos ataques com esta arma atinge **somente a Integridade** do alvo, seguindo as regras de dano direto à alma.",
+        "depois": "O dano dos ataques com esta arma é **dano de Alma** e atinge **somente a Integridade** do alvo, conforme Receber dano de Alma, em Dano na alma."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas não explicam capacidade de outro dono: citam o procedimento geral ou a seção dona pelo nome. Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "sem_imagem_ia": true,
+  "licenca": "Não obtida. Referências provisórias para teste local.",
+  "imagens": {
+    "Incursor": {
+      "arquivo": "toji-esquiva.webp",
+      "crop": [
+        0,
+        1740,
+        1400,
+        2210
+      ],
+      "fonte": "https://comix.to/title/7nzg-jujutsu-kaisen/9499405-chapter-71",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 71",
+      "descricao": "Toji em esquiva. Referência de movimento, não classificação exata no Caminho.",
+      "url_arquivo": "https://1xx.davidwrites.site/hi/bEqPbYfoPT0Gm0nlc1afoApY1oUBasai3R0VvqLI6y4EkS5FIHyE",
+      "dimensoes_arquivo": [
+        1500,
+        2250
+      ],
+      "sha256_arquivo": "d72f955b91e290e87a521b36d908e42cc3a6bcf9513dab4909fd1e48ccaf0fb6",
+      "obtencao": "Arquivo da imagem observado no leitor e exportado pela ferramenta de ativos da página, sem captura de tela.",
+      "data_consulta": "2026-10-04"
+    },
+    "Assassino": {
+      "arquivo": "toji-arma.webp",
+      "crop": [
+        96,
+        0,
+        1499,
+        880
+      ],
+      "fonte": "https://comix.to/title/7nzg-jujutsu-kaisen/9499405-chapter-71",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 71",
+      "descricao": "Mesmo quadro da R10, agora obtido do arquivo da página, sem captura do leitor.",
+      "url_arquivo": "https://1xx.markscorner.site/hi/bEqPbYfoPT0Gm0nlc1afoApY1oUBasai3R0VvqLI6y4EgS5FIHyE",
+      "dimensoes_arquivo": [
+        1500,
+        2250
+      ],
+      "sha256_arquivo": "f560b923d4bcf44eb57ab11b11b9d3aac9175d523743e3ca9e2ad9df6dc834e2",
+      "obtencao": "Arquivo da imagem observado no leitor e exportado pela ferramenta de ativos da página, sem captura de tela.",
+      "data_consulta": "2026-10-04"
+    },
+    "Pugilista": {
+      "arquivo": "yuji-golpe.png",
+      "crop": [
+        0,
+        1510,
+        1815,
+        2650
+      ],
+      "fonte": "https://inventariooculto.com/manga/jujutsu-kaisen/volumen-12/capitulo-105/",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 105",
+      "descricao": "Yuji em troca de golpes corpo a corpo com Choso.",
+      "url_arquivo": "https://inventariooculto.com/wp-content/uploads/WP-manga/data/manga_66f0ba1e5802d/a339605af7d665278e3c8a35f114ddf6/07-jjk-105.png",
+      "dimensoes_arquivo": [
+        2000,
+        2999
+      ],
+      "sha256_arquivo": "4fc667a1dd67d04ecde96ec204789b3224d05f5abf39cfd00827273e17df8601",
+      "obtencao": "Arquivo da imagem observado no leitor e exportado pela ferramenta de ativos da página, sem captura de tela.",
+      "data_consulta": "2026-10-04"
+    },
+    "Malabarista": {
+      "arquivo": "maki-arremesso.webp",
+      "crop": [
+        160,
+        0,
+        1490,
+        750
+      ],
+      "fonte": "https://comix.to/title/7nzg-jujutsu-kaisen/9498861-chapter-40",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 40",
+      "descricao": "Maki arremessando sua arma contra Miwa.",
+      "url_arquivo": "https://rxn.olivawrites.site/hi/bEqPbYfoMT0GmwXlF1KfoBZo2rURfu6i3R0Vvq7I6y4AkS5FIHyE",
+      "dimensoes_arquivo": [
+        1500,
+        2250
+      ],
+      "sha256_arquivo": "624b1d4691b230ed11dd1e8c76ed1d50f49971072415ee807304e6133342e5c5",
+      "obtencao": "Arquivo da imagem observado no leitor e exportado pela ferramenta de ativos da página, sem captura de tela.",
+      "data_consulta": "2026-10-04"
+    },
+    "Bastião": {
+      "arquivo": "bastiao-cap-38-p-16.jpg",
+      "crop": [
+        0,
+        0,
+        2133,
+        1600
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1875/jujutsu-kaisen-chapter-38-review-1688065291",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 38",
+      "descricao": "Panda avalia a linha de tiro e enfrenta o ataque para proteger Nobara.",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_38_16.jpg",
+      "dimensoes_arquivo": [
+        2133,
+        1600
+      ],
+      "sha256_arquivo": "551550e2d46ca70c0fc22af1a3f401ee38261dc279987c5b4b8e8d9e6dab3395",
+      "obtencao": "Imagem original apontada pelo HTML público do leitor. Sem captura de tela, ampliação artificial ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "enquadramento": "Recorte conferido no PDF. Mantidas as faces e as falas relevantes. A associação ilustra uma função, sem classificar o personagem no Caminho."
+    },
+    "Vanguarda": {
+      "arquivo": "vanguarda-cap-47-p-7.jpg",
+      "crop": [
+        85,
+        0,
+        1500,
+        1360
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1884/jujutsu-kaisen-chapter-47-review-1688065291",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 47",
+      "descricao": "Maki e Megumi mantêm a pressão com armas contra Hanami.",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_47_07.jpg",
+      "dimensoes_arquivo": [
+        1500,
+        2250
+      ],
+      "sha256_arquivo": "0a07b6d3ccc88c11826f0f564e23ec7ad94e1c64f290de03da73749b852edf13",
+      "obtencao": "Imagem original apontada pelo HTML público do leitor. Sem captura de tela, ampliação artificial ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "enquadramento": "Recorte conferido no PDF. Mantidas as faces e as falas relevantes. A associação ilustra uma função, sem classificar o personagem no Caminho."
+    },
+    "Guia": {
+      "arquivo": "guia-cap-50-p-8.jpg",
+      "crop": [
+        100,
+        1200,
+        1500,
+        2250
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1887/jujutsu-kaisen-chapter-50-review-1688065291",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 50",
+      "descricao": "Todo orienta Yuji durante a luta em equipe.",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_50_08.jpg",
+      "dimensoes_arquivo": [
+        1500,
+        2250
+      ],
+      "sha256_arquivo": "5bb51dfabbbbc87589f2b82c7f193f5f0347fac19766dd64445e0fa2ffea7fcf",
+      "obtencao": "Imagem original apontada pelo HTML público do leitor. Sem captura de tela, ampliação artificial ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "enquadramento": "Recorte conferido no PDF. Mantidas as faces e as falas relevantes. A associação ilustra uma função, sem classificar o personagem no Caminho."
+    },
+    "Emanador": {
+      "arquivo": "emanador-cap-75-p-14.jpg",
+      "crop": [
+        0,
+        0,
+        2560,
+        1920
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1913/jujutsu-kaisen-chapter-75-review-1688065291",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 75",
+      "descricao": "Gojo emprega Roxo como aplicação avançada da própria técnica.",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_75_14.jpg",
+      "dimensoes_arquivo": [
+        2560,
+        1920
+      ],
+      "sha256_arquivo": "eb5ac6a782728a93511384006fb805a0cecfda750479085bffa1d2166ea47f09",
+      "obtencao": "Imagem original apontada pelo HTML público do leitor. Sem captura de tela, ampliação artificial ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "enquadramento": "Recorte conferido no PDF. Mantidas as faces e as falas relevantes. A associação ilustra uma função, sem classificar o personagem no Caminho."
+    },
+    "Evocador": {
+      "arquivo": "evocador-cap-47-p-4.jpg",
+      "crop": [
+        0,
+        0,
+        1500,
+        1050
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1884/jujutsu-kaisen-chapter-47-review-1688065291",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 47",
+      "descricao": "Cão Divino Totalidade luta como invocação de Megumi.",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_47_04.jpg",
+      "dimensoes_arquivo": [
+        1500,
+        2250
+      ],
+      "sha256_arquivo": "43a9297bd46518b48764ac8a4f3fc1dacecb3bfb918eee24783d86f2ed7b0976",
+      "obtencao": "Imagem original apontada pelo HTML público do leitor. Sem captura de tela, ampliação artificial ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "enquadramento": "Recorte conferido no PDF. Mantidas as faces e as falas relevantes. A associação ilustra uma função, sem classificar o personagem no Caminho."
+    },
+    "Mundo jujutsu": {
+      "arquivo": "ab-cap-1-p-40.jpg",
+      "crop": [
+        0,
+        0,
+        2133,
+        1600
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1474/jujutsu-kaisen-chapter-1-review-1688065291",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 1",
+      "descricao": "Maldição ameaça estudantes num ambiente escolar.",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_1_40.jpg",
+      "dimensoes_arquivo": [
+        2133,
+        1600
+      ],
+      "sha256_arquivo": "a104170f58ba0c36c61546d02f0bafb820d7d72f5091fa269de7b3e2a52954e7",
+      "obtencao": "Imagem original apontada pelo HTML público do leitor. Sem captura de tela, ampliação artificial ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "enquadramento": "Recorte conferido no PDF. Mantidas as faces e as falas relevantes. A associação ilustra uma função, sem classificar o personagem no Caminho."
+    },
+    "Equipamento amaldiçoado": {
+      "arquivo": "equip-cap-47-p-8.jpg",
+      "crop": [
+        0,
+        0,
+        1368,
+        2118
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1884/jujutsu-kaisen-chapter-47-review-1688065291",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 47",
+      "descricao": "Maki e Megumi empunham ferramentas amaldiçoadas.",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_47_08.jpg",
+      "dimensoes_arquivo": [
+        1500,
+        2250
+      ],
+      "sha256_arquivo": "ff8c7ea6a9e854e2b5ca25de57fa8536b27fd9552f264ce0eb13658343e223f4",
+      "obtencao": "Imagem original apontada pelo HTML público do leitor. Sem captura de tela, ampliação artificial ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "enquadramento": "Recorte conferido no PDF. Mantidas as faces e as falas relevantes. A associação ilustra uma função, sem classificar o personagem no Caminho.",
+      "largura_mm": 110
+    },
+    "Fundamento": {
+      "arquivo": "fundamento-cap-61-p-4.jpg",
+      "crop": [
+        0,
+        0,
+        1067,
+        1600
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1899/jujutsu-kaisen-chapter-61-review-1688065291",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 61",
+      "descricao": "Nobara aplica Ressonância por um vínculo com o alvo.",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_61_04.jpg",
+      "dimensoes_arquivo": [
+        1067,
+        1600
+      ],
+      "sha256_arquivo": "c8ec2f9713a7f88259db4ca72ac169fb53a4161fb7c45680609bca4fcdfa4a6f",
+      "obtencao": "Imagem original apontada pelo HTML público do leitor. Sem captura de tela, ampliação artificial ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "enquadramento": "Recorte conferido no PDF. Mantidas as faces e as falas relevantes. A associação ilustra uma função, sem classificar o personagem no Caminho.",
+      "largura_mm": 102
+    },
+    "Expansão de Domínio": {
+      "arquivo": "poderes-cap-15-p-13.jpg",
+      "crop": [
+        0,
+        0,
+        2133,
+        960
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1853/jujutsu-kaisen-chapter-15-review-1688065291",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 15",
+      "descricao": "Gojo abre Vazio Ilimitado. Referência visual de abertura de domínio.",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_15_13.jpg",
+      "dimensoes_arquivo": [
+        2133,
+        1600
+      ],
+      "sha256_arquivo": "8679c030328a20e0a4d5cc07b7a8f7c6c8894921f59fb1cba77a293529f9e4f9",
+      "obtencao": "Imagem original apontada pelo HTML público do leitor. Sem captura de tela, ampliação artificial ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "enquadramento": "Recorte conferido no PDF. Mantidas as faces e as falas relevantes. A associação ilustra uma função, sem classificar o personagem no Caminho.",
+      "largura_mm": 140
+    },
+    "Criar uma invocação": {
+      "arquivo": "construcao-cap-47-p-5.jpg",
+      "crop": [
+        132,
+        0,
+        1500,
+        2250
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1884/jujutsu-kaisen-chapter-47-review-1688065291",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 47",
+      "descricao": "Invocação de Megumi enfrenta Hanami.",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_47_05.jpg",
+      "dimensoes_arquivo": [
+        1500,
+        2250
+      ],
+      "sha256_arquivo": "d44ccd0a4cb24f12b768cb581f6942a194d952ad3f2bc9413328d7fa46676dd5",
+      "obtencao": "Imagem original apontada pelo HTML público do leitor. Sem captura de tela, ampliação artificial ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "enquadramento": "Recorte conferido no PDF. Mantidas as faces e as falas relevantes. A associação ilustra uma função, sem classificar o personagem no Caminho.",
+      "largura_mm": 95
+    },
+    "Origens e Legados": {
+      "arquivo": "origens-origens-cap-63-p-12.jpg",
+      "crop": [
+        0,
+        1080,
+        975,
+        1600
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1901/jujutsu-kaisen-chapter-63-review-1688065291",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_63_12.jpg",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 63",
+      "descricao": "Grupo de estudantes convivendo após a missão. A imagem apresenta vínculos entre personagens, sem atribuir uma Origem oficial a cada um.",
+      "dimensoes_arquivo": [
+        1067,
+        1600
+      ],
+      "sha256_arquivo": "11b95f346d2fd6459965bd6ea2448ad8a26cf40382a1d58c03778aaa4d1ab419",
+      "obtencao": "Imagem original apontada pelo HTML público. Sem captura de tela, ampliação ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "largura_mm": 108,
+      "composicao": "topo",
+      "borda": true,
+      "enquadramento": "Recorte aplicado apenas pela janela do PDF. Os pixels do arquivo original permanecem intactos."
+    },
+    "Receptáculo": {
+      "arquivo": "origens-receptaculo-yuji-sukuna-cap-11-p-11.jpg",
+      "crop": [
+        0,
+        1012,
+        556,
+        1600
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1849/jujutsu-kaisen-chapter-11-review-1688065291",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_11_11.jpg",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 11",
+      "descricao": "Yuji e Sukuna conversam durante a negociação de um pacto, no capítulo 11. O quadro reúne o receptáculo e a presença com quem ele divide o corpo.",
+      "dimensoes_arquivo": [
+        1067,
+        1600
+      ],
+      "sha256_arquivo": "21cc227a7a94118783db401dec3403e08d39b84e69249fe56f74b356439d1e4f",
+      "obtencao": "Arquivo original já salvo na seleção de arte anterior, reutilizado localmente. Identidade dos personagens conferida visualmente no quadro completo.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "largura_mm": 72,
+      "composicao": "lateral-esquerda",
+      "borda": true,
+      "enquadramento": "Quadro inferior esquerdo inteiro, com Yuji e Sukuna. Preservados os balões e os pixels nativos. Nenhuma reconstrução da arte."
+    },
+    "Feto": {
+      "arquivo": "origens-origem-feto-cap-62-p-21.jpg",
+      "crop": [
+        74,
+        512,
+        1067,
+        1555
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1900/jujutsu-kaisen-chapter-62-review-1688065291",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_62_21.jpg",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 62",
+      "descricao": "Choso numa cena cotidiana, antes de anunciar a morte dos irmãos. O quadro inteiro evita cortar uma fala na abertura de Feto.",
+      "dimensoes_arquivo": [
+        1067,
+        1600
+      ],
+      "sha256_arquivo": "3f78fc45a4d722f2670367dca7f4e3ebd791b020a1fdd1756510a6eb432f4594",
+      "obtencao": "Imagem original apontada pelo HTML público. Sem captura de tela, ampliação ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "largura_mm": 120,
+      "composicao": "rodape",
+      "borda": true,
+      "enquadramento": "Recorte aplicado apenas pela janela do PDF. Os pixels do arquivo original permanecem intactos."
+    },
+    "Corpo Amaldiçoado": {
+      "arquivo": "origens-origem-corpo-cap-38-p-10.jpg",
+      "crop": [
+        90,
+        1050,
+        1067,
+        1600
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1875/jujutsu-kaisen-chapter-38-review-1688065291",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_38_10.jpg",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 38",
+      "descricao": "Panda em ação. O mesmo capítulo explica sua consciência e seus núcleos, sem equipará-los às configurações criadas pelo sistema.",
+      "dimensoes_arquivo": [
+        1067,
+        1600
+      ],
+      "sha256_arquivo": "695f0345fa3707fe938cfec37c83062ec33f9635f610ff58b64d43b7b736d53d",
+      "obtencao": "Imagem original apontada pelo HTML público. Sem captura de tela, ampliação ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "largura_mm": 116,
+      "composicao": "entre-secoes",
+      "borda": true,
+      "enquadramento": "Recorte aplicado apenas pela janela do PDF. Os pixels do arquivo original permanecem intactos."
+    },
+    "Restrição Celestial": {
+      "arquivo": "origens-origem-restricao-cap-38-p-14.jpg",
+      "crop": [
+        85,
+        0,
+        1067,
+        1220
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1875/jujutsu-kaisen-chapter-38-review-1688065291",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_38_14.jpg",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 38",
+      "descricao": "Kokichi e seu corpo remoto antes da cura. Sua condição ilustra o ramo Corpo pela Técnica, sem confundir ausência de técnica com ausência de energia.",
+      "dimensoes_arquivo": [
+        1067,
+        1600
+      ],
+      "sha256_arquivo": "64afa3f0c87da566a0f2386ccb55fd428d6db2b2fc943903bfe680b1c6fcd059",
+      "obtencao": "Imagem original apontada pelo HTML público. Sem captura de tela, ampliação ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "largura_mm": 78,
+      "composicao": "lateral-direita",
+      "borda": true,
+      "enquadramento": "Recorte aplicado apenas pela janela do PDF. Os pixels do arquivo original permanecem intactos."
+    },
+    "Aptidões e Refino": {
+      "arquivo": "aptidoes-apt-refino-cap-48-p-14.jpg",
+      "crop": [
+        134,
+        640,
+        1500,
+        1140
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1885/jujutsu-kaisen-chapter-48-review-1688065291",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_48_14.jpg",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 48",
+      "descricao": "Todo orienta Yuji sobre controle durante a luta. A cena representa aprendizado, sem associar todos os efeitos de Aptidões a Kokusen.",
+      "dimensoes_arquivo": [
+        1500,
+        2250
+      ],
+      "sha256_arquivo": "c758ccc453610d3f750fadec2ceb6caf3e7b5c911c95f340e1c4b0b154504bca",
+      "obtencao": "Imagem original apontada pelo HTML público. Sem captura de tela, ampliação ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "largura_mm": 172,
+      "composicao": "entre-secoes",
+      "borda": true,
+      "enquadramento": "Recorte aplicado apenas pela janela do PDF. Os pixels do arquivo original permanecem intactos."
+    },
+    "Técnica Marcial": {
+      "arquivo": "rotas-rota-marcial-cap-35-p-18.jpg",
+      "crop": [
+        0,
+        0,
+        2133,
+        1600
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/1872/jujutsu-kaisen-chapter-35-review-1688065291",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/kaisentcb_35_18.jpg",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 35",
+      "descricao": "Maki enfrenta Miwa com uma arma. A imagem ilustra o uso de equipamento no combate. Não afirma que Katas são uma classificação oficial da obra.",
+      "dimensoes_arquivo": [
+        2133,
+        1600
+      ],
+      "sha256_arquivo": "4f6bc2b4ccd1455580c2f2758c222d776e1f1cd5bed63baaaffc2cc591701957",
+      "obtencao": "Imagem original apontada pelo HTML público. Sem captura de tela, ampliação ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "largura_mm": 144,
+      "composicao": "topo",
+      "borda": true,
+      "enquadramento": "Recorte aplicado apenas pela janela do PDF. Os pixels do arquivo original permanecem intactos."
+    },
+    "Sem Técnica": {
+      "arquivo": "rotas-rota-sem-tecnica-cap-254-p-3.jpg",
+      "crop": [
+        75,
+        355,
+        1100,
+        1606
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/7696/jujutsu-kaisen-chapter-254",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/jjk_254de_002.png",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 254",
+      "descricao": "Kusakabe luta por meio de treinamento, energia e Domínio Simples. O capítulo 254 afirma que ele não possui técnica inata.",
+      "dimensoes_arquivo": [
+        1100,
+        1606
+      ],
+      "sha256_arquivo": "4e78726627ab0f9033c2fb671fbb6fc97454ad269b8e934eb9e2b309cc0ac310",
+      "obtencao": "Imagem original apontada pelo HTML público. Sem captura de tela, ampliação ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "largura_mm": 82,
+      "composicao": "lateral-direita",
+      "borda": true,
+      "enquadramento": "Recorte aplicado apenas pela janela do PDF. Os pixels do arquivo original permanecem intactos."
+    },
+    "Bênçãos": {
+      "arquivo": "rotas-rota-bencaos-cap-149-p-19.jpg",
+      "crop": [
+        0,
+        0,
+        1770,
+        590
+      ],
+      "fonte": "https://tcbonepiecechapters.com/chapters/49/jujutsu-kaisen-chapter-149-review-1688065290",
+      "url_arquivo": "https://cdn.onepiecechapters.com/file/CDN-M-A-N/jjkv2_149_018.png",
+      "credito": "GEGE AKUTAMI / SHUEISHA - CAP. 149",
+      "descricao": "Maki após a perda da energia que restava. A escolha considera o estado da personagem neste capítulo, evitando usar a Maki anterior como exemplo de ausência total de energia.",
+      "dimensoes_arquivo": [
+        1770,
+        1300
+      ],
+      "sha256_arquivo": "b08c950e7aaf70009dd45938f995e9eee2b8fea445a0694fc0176f2a841c1e22",
+      "obtencao": "Imagem original apontada pelo HTML público. Sem captura de tela, ampliação ou execução dos anúncios.",
+      "data_consulta": "2026-10-05",
+      "preservar_recorte": true,
+      "largura_mm": 210,
+      "composicao": "entre-secoes",
+      "borda": true,
+      "enquadramento": "Recorte aplicado apenas pela janela do PDF. Os pixels do arquivo original permanecem intactos."
+    }
+  }
+}

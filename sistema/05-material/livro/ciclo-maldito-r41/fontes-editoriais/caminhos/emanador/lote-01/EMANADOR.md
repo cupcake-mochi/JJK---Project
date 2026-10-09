@@ -1,0 +1,475 @@
+<!-- page:ema-base|Emanador -->
+# Emanador
+
+Você aprende a adaptar sua técnica à situação. Um feitiço pode alcançar mais longe, mudar de área ou trocar uma função por outra sem ocupar um novo espaço na ficha. Suas Trilhas exploram essa flexibilidade por meio de uma arma, de alterações reaproveitadas ou de uma preparação que melhora a conjuração seguinte.
+
+## Características
+
+| Característica | Emanador |
+|---|---|
+| Dado de vida, na variante | d6. |
+| Vida no nível 1 | 6 + Constituição. |
+| Vida em cada nível seguinte | +4 + Constituição. |
+| PE máximo | 6 × seu nível, antes de benefícios específicos. |
+| Atributos naturais | Inteligência e Essência. |
+| Perícias treinadas | Ocultismo e Investigação, mais cinco à sua escolha. |
+| Troca de treinos | Pode trocar duas das cinco perícias por treino em uma arma específica, não na categoria inteira. |
+| Ofícios | Nenhum pelo Caminho. A Origem concede os dois iniciais. |
+| TR treinado | Um à escolha, além do concedido pela Origem. |
+| Armas | Categorias Arma de Fogo e Balestra. |
+
+Os treinos entram na criação. Adquirir uma arma e seguir suas condições e penalidades de uso continuam necessários. O tipo de PE e as substituições de feitiços dependem da sua rota.
+
+## Progressão
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Desdobramento Técnico. |
+| 7 | Expressões Familiares e Afinidade Técnica. |
+| 15 | Forma Fluida. |
+| 23 | Composição Técnica. |
+| 30 | Expressão Instintiva. |
+
+No nível 2, escolha **Condutor Armado, Ressonante ou Catalisador**. Receba as habilidades dessa Trilha nos níveis **2, 11, 19 e 27**. Nos três últimos, pode trocar de Trilha pela progressão: substitua todas as entregas da anterior, sem reunir habilidades de duas Trilhas.
+
+<!-- page:ema-desdobramento|Desdobramento Técnico -->
+# Desdobramento Técnico
+
+**Nível 2.** Ao conjurar um feitiço conhecido de **Classe 1 ou maior**, pode **Remodelar** uma parte dele ou **Forçar uma Modulação**. Escolha antes dos alvos e das rolagens. A alteração vale apenas para essa conjuração.
+
+Use os preços da Classe efetivamente conjurada, inclusive se tiver usado Ampliar. Aplique os descontos das Famílias Livres às Melhorias. A Forma não recebe esse desconto.
+
+## Requisitos da aplicação
+
+A versão alterada continua respeitando o Fundamento, as Famílias Fechadas, as incompatibilidades e os limites de dados. Conserve suas Restrições e seu Efeito Próprio. Trocar uma peça não pode dispensar uma obrigação e manter os pontos devolvidos por ela.
+
+Classe 0, Talentos, Liberações Máximas, Técnica Máxima e Expansão de Domínio não recebem Desdobramento. Um gatilho de Reação ou um Efeito Próprio precisa estar registrado previamente. Esta habilidade não permite inventá-lo durante o uso.
+
+## Escolha e pagamento
+
+1. Escolha o feitiço e a Classe da conjuração.
+2. Escolha a troca ou a Modulação e confira sua compatibilidade.
+3. Recalcule os dados, o efeito e os custos necessários.
+4. Pague a conjuração e os acréscimos, então resolva a versão escolhida.
+
+Uma tentativa que erre ou seja resistida não devolve esses gastos. A alteração não oferece outra ação nem suspende o limite de conjuração do turno.
+
+> **Exemplo.** Ocultação usa Silencioso. Ela pode dispensar os sinais que a Melhoria permite, mas não apaga a Restrição Gesto. Se você recebeu pontos por usar as duas mãos e falar, ainda precisa fazer isso.
+
+<!-- page:ema-remodelar|Remodelar -->
+# Remodelar
+
+Pague PE adicionais iguais à **metade da Classe utilizada, arredondada para cima**. Retire **uma Melhoria** do feitiço e coloque outra compatível. Sem uma Melhoria para retirar, esta troca não pode ser feita.
+
+Os pontos da peça retirada pagam a nova. Se a nova custar mais, retire a diferença do resultado da aplicação. Se custar menos, descarte a sobra. Uma Remodelagem não aumenta os dados ou a vida temporária que a versão anterior oferecia.
+
+| Para pagar 1 ponto que falta | Retire |
+|---|---|
+| Feitiço de dano | 1d8 de dano. |
+| Feitiço de cura | 1d8 de cura. |
+| Forma Apoio | 3 de vida temporária. |
+
+Recalcule também o orçamento com as Restrições ainda válidas. Se esse cálculo permitir menos resultado, use o menor valor. Não aproveite uma devolução que antes sobrava para recuperar os dados retirados pela troca.
+
+Se não houver resultado suficiente para pagar a diferença, essa versão não pode ser usada. Um feitiço que fique sem dano ainda precisa ter outro efeito válido. Divisões e repetições usam a nova quantidade de dados de base, antes de distribuir tiros ou calcular parcelas secundárias.
+
+> **Exemplo.** Um Projétil de Classe 3 tem Fura por 3 pontos, sem desconto, e causa 6d8. Trocar Fura por Rápido, que custa 5, retira **2d8**. A versão causa 4d8, usa Bônus e custa **9 + 2 = 11 PE**. É preciso cumprir as demais regras de Rápido.
+
+Efeito Próprio não pode ser retirado por essa troca. Uma nova Melhoria também não pode reproduzir uma Família Fechada sob outro nome. O catálogo define o que cada peça permite.
+
+<!-- page:ema-modulacoes|Modulações Dominadas -->
+# Modulações Dominadas
+
+No nível 2, escolha **duas** opções da tabela. Aprenda mais uma nos níveis **7, 15 e 23**, até conhecer cinco. Sempre que subir de nível, pode trocar uma escolha por outra disponível e permitida pelo seu Fundamento.
+
+| Modulação | Melhoria acrescentada | Aplicação |
+|---|---|---|
+| Extensão | Longe. | Aumentar alcance compatível. |
+| Amplitude | Maior. | Aumentar uma área. |
+| Divisão | Mais Um. | Acrescentar alvo e dividir os dados. |
+| Recorte | Escolher. | Selecionar criaturas dentro da área. |
+| Trajetória | Contorno. | Contornar obstáculos permitidos pela peça. |
+| Impulso | Passo. | Mover-se junto da conjuração. |
+| Ocultação | Silencioso. | Dispensar sinais de conjuração permitidos. |
+| Aceleração — nível 15 | Rápido. | Usar Ação Bônus. |
+| Preparação — nível 15 | Armado. | Preparar a aplicação para um gatilho. |
+| Sustentação — nível 15 | Concentrada. | Prolongar estados compatíveis. |
+
+## Forçar uma Modulação
+
+Acrescente uma Modulação Dominada ao feitiço. Pague **PE adicionais iguais ao custo em pontos da Melhoria**, depois do desconto de Família Livre. Conserve as propriedades e os dados que o feitiço já tinha.
+
+Esse pagamento substitui o gasto de pontos da peça acrescentada. Não retire dados novamente para pagá-la. Restrições não pagam esse custo adicional.
+
+Você pode exceder em **uma** o limite normal de Melhorias. Só pode haver **uma Modulação Forçada por conjuração**, mesmo se outra habilidade permitir mais alterações. Repetir uma peça já presente só é permitido quando o catálogo autoriza essa repetição.
+
+> **Exemplo.** Na Classe 3, Extensão acrescenta Longe por 2 PE, ou 1 PE se Alcance for Livre. Toque não aceita essa Modulação. O pagamento não transforma uma combinação incompatível em válida.
+
+Os requisitos de cada Melhoria permanecem. Sustentação não transforma um bônus para o próximo ataque em benefício para todos os ataques, e Preparação segue seu próprio momento de pagamento e disparo.
+
+<!-- page:ema-familiares|Expressões Familiares -->
+# Expressões Familiares
+
+**Nível 7.** Escolha **dois feitiços conhecidos de Classe 1 ou maior**. Registre para cada um uma versão alternativa feita por uma Remodelagem, com efeitos, dados e custos calculados.
+
+Ao conjurar, escolha a versão original ou a **Expressão Familiar**. A alternativa não ocupa outro espaço e dispensa o PE adicional de Remodelar. Ela conserva a redução de dados necessária para pagar a troca. Você pode Forçar uma Modulação sobre qualquer versão.
+
+Você também aprende sua **terceira Modulação Dominada**. As duas versões continuam sendo o mesmo feitiço para limites de uso da própria ficha, como a Restrição Uma Vez. Uma versão alternativa não concede outro uso por cena.
+
+## Afinidade Técnica
+
+Escolha **dois feitiços conhecidos**, de Classe 1 até **metade da sua maior Classe, arredondada para baixo**. A primeira conjuração de cada um por cena custa **metade de seu PE normal, arredondada para cima**.
+
+Original e Expressão Familiar compartilham essa primeira conjuração. As escolhas de Afinidade e de Expressão Familiar podem coincidir. Quando o limite de Classe de Afinidade aumentar, pode substituir suas escolhas de Afinidade.
+
+| Maior Classe | Classes permitidas | Primeira conjuração na Classe original |
+|---|---|---|
+| 2 ou 3 | Classe 1. | 2 PE. |
+| 4 ou 5 | Classes 1 e 2. | 2 ou 3 PE. |
+| 6 ou 7 | Classes 1 a 3. | 2, 3 ou 5 PE. |
+
+**Ampliar:** conserve a economia da Classe original e pague a diferença integral entre as Classes. Um feitiço Classe 2 com Afinidade, Ampliado para Classe 4, custa **3 + 6 = 9 PE**. Some depois os custos adicionais de Desdobramento e de outras habilidades. Errar não preserva a primeira conjuração reduzida.
+
+<!-- page:ema-forma|Forma Fluida e Composição Técnica -->
+# Forma Fluida e Composição Técnica
+
+## Nível 15 — Forma Fluida
+
+Ao Remodelar, pode trocar a **Forma** em vez de uma Melhoria. Os pontos da Forma retirada ajudam a pagar a nova. A diferença positiva retira resultado pela regra de Remodelar.
+
+Recalcule as limitações da Forma, suas devoluções e seus limites de resultado. Ao trocar Toque ou Aura por uma Forma sem Corpo a Corpo, retire essa devolução. Não mantenha os pontos de uma exigência que deixou de existir.
+
+Se a troca mudar dano, cura ou apoio, compare o saldo útil em pontos antes de fazer a nova conversão. A versão não pode ganhar saldo pela troca e ainda respeita o teto da nova Forma. Melhorias e Restrições preservadas precisam funcionar com ela.
+
+> **Exemplo.** Uma Aura de Classe 3, sem desconto, tem Fura: custo 2 + 3, com devolução 3 de Corpo a Corpo. Causa **7d8**. Trocá-la por Explosão mantém o preço da Forma, mas retira a devolução: a versão passa a **4d8**. O PE adicional de Remodelar continua sendo 2.
+
+Suas Expressões Familiares podem usar Forma diferente. Ao receber esta habilidade, pode reescrever as duas. Aprenda sua **quarta Modulação Dominada** e libere as opções de nível 15.
+
+## Nível 23 — Composição Técnica
+
+Um Desdobramento pode fazer **até duas alterações**: trocar duas Melhorias, trocar Forma e Melhoria, ou Remodelar uma parte e Forçar uma Modulação.
+
+Para duas trocas no mesmo Desdobramento, compare o custo conjunto das peças retiradas com o das novas. Pague a diferença positiva em resultado e descarte eventual sobra. Confira a montagem final inteira.
+
+Pague o PE de Remodelar **uma vez por conjuração**. A Modulação Forçada, quando houver, mantém seu custo separado e o limite de uma por conjuração. Aprenda sua **quinta Modulação Dominada**.
+
+<!-- page:ema-instintiva|Expressão Instintiva -->
+# Expressão Instintiva
+
+**Nível 30.** Afinidade Técnica passa a incluir **quatro feitiços**. Você pode refazer as escolhas ao receber esta habilidade, respeitando as Classes permitidas.
+
+Entre eles, escolha **um feitiço de Classe 1 e um de Classe 2**. Quando conjurar um desses dois com **Ação Padrão**, pague **1 PE pela Classe original**, em todas as conjurações. Não é apenas o primeiro uso da cena.
+
+A Expressão Familiar correspondente recebe o mesmo benefício quando usada como Padrão. Os limites da própria ficha, seus requisitos e as despesas adicionais continuam valendo.
+
+## Ampliar e mudar a ação
+
+Ao Ampliar, pague **1 PE + a diferença integral de custo entre as Classes**. Um Classe 2 Instintivo Ampliado para Classe 5 custa **1 + 9 = 10 PE**. Desdobramento e outros acréscimos são somados depois.
+
+Se a conjuração usar Bônus ou Reação, não recebe o custo de 1 PE. Use o preço normal e Afinidade, se aquela primeira conjuração ainda estiver disponível. Afinidade e Instintiva não se somam na mesma conjuração.
+
+> **Exemplo.** Você tem um Classe 2 Instintivo. Como Padrão, ele custa 1 PE. Forçar Aceleração transforma o uso em Bônus: nessa execução, o benefício Instintivo deixa de valer. Some o preço da Modulação ao custo aplicável à versão de Bônus.
+
+## Reduções de custo
+
+Escolha **uma alternativa completa de custo**, sem aplicar uma redução sobre outra. Afinidade e Instintiva usam a Classe original mais a diferença integral de Ampliar. Cobrança ou o Talento Eco usam a metade do custo normal da Classe conjurada. Consuma os benefícios cujo gatilho seja aquela primeira ou próxima conjuração, mesmo se escolher outro desconto.
+
+Um desconto fixo de Ritual entra antes da metade, na base da alternativa escolhida, com mínimo de 1. A base de 1 PE de Instintiva não recebe novos abatimentos. Some Desdobramento, Impulso, Dívida e outros custos independentes depois.
+
+Um Classe 2 Ampliado para 4 custa **9 por Afinidade ou 6 por Eco**, não 5 por aplicar uma metade sobre a outra. Um Classe 2 Ampliado para 5 pode usar **10 por Instintiva ou 8 por Eco**. Escolha uma dessas contas completas.
+
+Uma concessão expressa de conjuração gratuita conserva seu procedimento próprio. Mudar a ação exige conferir novamente os benefícios que dependem de Padrão.
+
+<!-- page:ema-condutor|Condutor Armado -->
+# Condutor Armado
+
+Sua arma e seus feitiços dividem a mesma rotina. Você pode alternar os dois ou desenvolver o combate com a categoria escolhida. O vínculo acrescenta propriedades à arma sem dispensar seus requisitos de uso.
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Arma Condutora e Cadência Técnica. |
+| 11 | Artes do Vínculo. |
+| 19 | Manifestação Condutora. |
+| 27 | Ritmo Convergente. |
+
+## Nível 2 — Arma Condutora
+
+Escolha **uma categoria de armas** e receba treino com ela. Escolha **Essência ou Inteligência**: pode usar o atributo no acerto e dano com suas armas dessa categoria. Os requisitos de Força continuam valendo.
+
+Ao terminar um **descanso curto ou longo**, escolha uma arma dessa categoria que esteja com você como sua **arma vinculada**. Um novo vínculo substitui o anterior. Os benefícios que exigem a arma vinculada só funcionam nela.
+
+## Cadência Técnica
+
+**Uma vez no seu turno**, combine suas ações de uma destas maneiras:
+
+| Ação Padrão | Ação Bônus |
+|---|---|
+| Atacar com arma da categoria. | Conjurar Classe 0. |
+| Conjurar Classe 0. | Fazer um ataque com arma da categoria. |
+
+O feitiço precisa normalmente usar Padrão. Resolva uma parte antes da outra. A primeira não precisa acertar para permitir a segunda. As ações ainda precisam estar disponíveis.
+
+A Cadência usa armas da categoria, mesmo sem vínculo. Empunhar a arma não dispensa o Selo ou uma Restrição que exija mãos livres. Guardar, sacar e liberar uma mão seguem Equipamento.
+
+São duas resoluções separadas. O feitiço não é acrescentado ao dano da arma, e o ataque conserva Canalizar em Golpe quando seus requisitos permitirem.
+
+<!-- page:ema-artes|Artes do Vínculo -->
+# Artes do Vínculo
+
+**Nível 11.** Escolha **uma Arte de Cadência** e **uma Propriedade de Vínculo**. No nível 19, aprenda uma segunda Propriedade diferente. Pode refazer as escolhas ao receber os níveis **19 e 27**, conservando uma Arte e a quantidade de Propriedades do seu nível.
+
+## Cadência Marcial
+
+Sua Ação Atacar permite **dois ataques** com armas da categoria escolhida. Se fizer ambos, não conjura pela Cadência Técnica naquele turno. Você pode preferir a cadência original, com um ataque e um Classe 0.
+
+Os dois ataques são resolvidos separadamente. A Arte não concede uma Ação Bônus adicional nem transforma o golpe da Bônus em outra Ação Atacar.
+
+## Cadência Expandida
+
+A Cadência Técnica aceita feitiços de **Classe até metade da sua maior Classe, arredondada para baixo**, nas duas ordens. Pague a conjuração normalmente.
+
+Confira a Classe efetivamente usada, inclusive depois de Ampliar. Com maior Classe 3, o limite é 1. Com 4 ou 5, é 2. Com 6 ou 7, é 3. A conjuração conserva o limite de feitiços do turno.
+
+## Arma vinculada
+
+As oito Propriedades estão nas próximas páginas. Você conhece uma no nível 11 e duas a partir do 19. Elas acompanham sua arma vinculada. Com Vínculo Duplo, acompanham ambas, mas **os limites de uso pertencem a você**, não a cada arma.
+
+Trocar de vínculo não restaura usos por cena. A arma continua sendo um item: munição, Vida do objeto, propriedades e efeitos precisam ser registrados. Uma capacidade que a mova não a repara nem a abastece, salvo permissão expressa.
+
+<!-- page:ema-propriedades|Propriedades da arma -->
+# Propriedades da arma
+
+## Chamado da Arma
+
+Você pode recolher a arma vinculada em sua técnica e manifestá-la ao sacá-la. Isso usa a manipulação normal de guardar ou sacar. Se a arma estiver **solta a até 18 m**, uma **Ação Bônus** a faz retornar à sua mão.
+
+O retorno não retira a arma de outra criatura que a esteja empunhando. Você precisa ter uma mão disponível para recebê-la.
+
+## Forma Mutável
+
+Somente uma arma comum ou de **Grau 4 ou 3** recebe esta Propriedade. Ao sacá-la ou manifestá-la, mude seu perfil para outra arma da mesma categoria, cujo requisito de Força você cumpra.
+
+Conserve Grau, Vida do objeto e efeitos próprios compatíveis. A transformação não repara, não recarrega e não altera o tipo ou a quantidade da munição. Antes de assumir um perfil que não aceite a munição instalada, ou que tenha capacidade menor que ela, descarregue a arma pelo procedimento normal.
+
+O perfil escolhido funciona enquanto a arma mantiver este vínculo. Ao terminá-lo, ela volta ao perfil original. Munição que então fique incompatível ou excedente permanece no item, mas impede disparar até ajustar a carga pelo procedimento normal. A mudança não altera permanentemente o valor do item.
+
+## Retorno Vinculado
+
+Você pode arremessar a arma corpo a corpo vinculada a até **6 m**. Ela retorna à sua mão depois de resolver o ataque. O arremesso usa as regras e o atributo aplicáveis a esse ataque, incluindo Arma Condutora quando escolhida.
+
+## Passo da Arma
+
+**Uma vez por cena, Ação Bônus:** transporte-se para um espaço livre adjacente à arma vinculada, se ela estiver solta e a até **9 m de você**. Você precisa perceber a arma e o espaço de chegada. A arma termina em sua mão.
+
+O espaço deve permitir sua presença, e você precisa poder receber a arma. Essa habilidade não transporta outras criaturas com você.
+
+<!-- page:ema-propriedades-apoio|Vínculo e percepção -->
+# Vínculo e percepção
+
+## Âncora Gravada
+
+Com **Ação Bônus**, fixe a arma numa superfície sólida ao alcance. Ela fica presa até você liberá-la ou alguém gastar **Ação Padrão** e passar em **TR Físico contra a CD da técnica** para removê-la.
+
+Você pode liberá-la sem ação no seu turno. Destruí-la ou destruir o apoio também encerra a fixação. A arma pode sustentar uma corda ou travar um mecanismo conforme sua resistência e a da superfície. A propriedade não torna nenhum dos dois indestrutível.
+
+## Vínculo Duplo
+
+Mantenha **duas armas vinculadas da categoria**. Pode sacar ou guardar fisicamente ambas no mesmo ato e usar qualquer uma nas habilidades da Trilha. Pague a manipulação exigida por esse ato, sem duplicá-la apenas por serem duas armas.
+
+Cada uma mantém munição, Vida do objeto e efeitos próprios separados. Os limites por cena das suas Propriedades continuam compartilhados.
+
+## Sentido do Vínculo
+
+Enquanto a arma estiver a até **1 km**, você sabe a direção em que ela está e se está sendo empunhada. Isso não revela a identidade de quem a segura, o conteúdo do local ou um caminho livre até ela.
+
+Essa percepção não amplia o alcance de atacar, chamar a arma ou se transportar. Para escolher um espaço de chegada, ainda precisa percebê-lo.
+
+## Memória da Arma
+
+Com **Ação Bônus, tocando a arma**, comece a registrar até **uma hora de sons e imagens** perceptíveis a partir da posição dela. A gravação acompanha a arma quando arremessada ou deixada no local e respeita as condições de visão e audição.
+
+Ao tocá-la, você ou uma criatura autorizada pode rever e ouvir o registro. Cada arma conserva uma gravação até outra substituí-la. A propriedade não enxerga através de obstáculos nem registra o que não poderia ser percebido ali.
+
+<!-- page:ema-manifestacao|Manifestação e convergência -->
+# Manifestação e convergência
+
+## Nível 19 — Manifestação Condutora
+
+Aprenda a segunda Propriedade de Vínculo. Durante a Cadência Técnica, arma e feitiço podem transmitir um ao outro seu ponto de origem.
+
+**Arma primeiro:** se o ataque com a arma vinculada acertar uma criatura ou objeto a até **9 m de você**, o feitiço seguinte pode partir de um ponto do espaço atingido. Meça alcance, área e direção a partir dele.
+
+**Feitiço primeiro:** escolha um ponto percebido que a aplicação alcançou a até **9 m de você**. O ataque da Cadência pode partir dali, usando a arma vinculada e seu alcance normal. Depois do golpe, ela retorna à sua mão.
+
+Confira visão, trajeto e requisitos ao resolver cada parte. O novo ponto não permite ignorar uma Restrição. Toque e Aura não podem afastar sua aplicação mantendo Corpo a Corpo. Uma Forma que precise permanecer centrada em você conserva essa exigência.
+
+> **Exemplo.** Você atinge um inimigo à frente de uma passagem e faz um Cone partir do espaço dele em direção ao corredor. O Cone mantém suas dimensões, seus alvos e suas defesas normais.
+
+## Nível 27 — Ritmo Convergente
+
+**Uma vez por cena**, use Cadência com um feitiço de **Classe até sua maior Classe menos um**, independentemente da Arte escolhida. Com Classe máxima 7, o limite é **Classe 6**, depois de Ampliar.
+
+Faça **um ataque e uma conjuração**, na ordem desejada. Uma parte usa Padrão, a outra usa Bônus. Pague o feitiço e seus Desdobramentos. Manifestação Condutora pode ligá-los. O uso da cena é gasto na declaração.
+
+Afinidade pode reduzir a primeira conjuração. Expressão Instintiva só oferece o custo de 1 PE se o feitiço usar a **Padrão**. Fazer dois ataques por Cadência Marcial continua impedindo a conjuração pela Cadência naquele turno.
+
+<!-- page:ema-eco|Ressonante -->
+# Ressonante
+
+Uma alteração usada agora pode facilitar a conjuração seguinte. Você decide o que guardar e o que abandonar. O **Eco Amaldiçoado** guarda uma alteração, não o feitiço inteiro, seus dados ou o acerto anterior.
+
+| Nível | Habilidade | Capacidade |
+|---|---|---|
+| 2 | Eco Técnico. | Um Eco, somente alterações Leves. |
+| 11 | Contraponto. | Eco e novo Desdobramento juntos. |
+| 19 | Reverberação. | Também aceita alterações Médias. |
+| 27 | Acorde Ressonante. | Dois Ecos diferentes. |
+
+## Nível 2 — Eco Técnico
+
+Depois de resolver um feitiço de **Classe 1 ou maior com Desdobramento**, guarde uma alteração realmente feita: a Melhoria obtida por Remodelar ou a Modulação Forçada. Registre qual peça foi obtida e por qual dessas maneiras.
+
+Você mantém **um Eco até o fim do seu próximo turno**. Criar outro substitui o anterior. No nível 2, a peça precisa ser **Leve no catálogo, antes de descontos**.
+
+Em uma conjuração posterior de Classe 1 ou maior, consuma o Eco na declaração para reaproveitar a alteração. Nesse nível, ele ocupa o Desdobramento daquela conjuração. O uso é gasto mesmo se a aplicação errar ou for resistida.
+
+Uma Expressão Familiar usada sozinha não é um novo Desdobramento e não cria Eco. Se fizer outra alteração por Desdobramento sobre ela, essa alteração pode ser guardada.
+
+O registro acontece depois da resolução inicial, uma vez por conjuração. Novos alvos, danos posteriores e reaplicações de uma área persistente não geram outros Ecos. Num feitiço preparado para disparar depois, o registro só acontece após esse disparo. O preparo sem resolução não guarda uma alteração realizada.
+
+<!-- page:ema-repetir|Reaproveitar alterações -->
+# Reaproveitar alterações
+
+## Eco de Remodelagem
+
+Faça uma troca que obtenha a Melhoria guardada. A peça retirada e a redução de resultado pagam os pontos necessários, como em Remodelar. **Você dispensa apenas os PE adicionais de Remodelar.** Não recebe pontos nem dados extras.
+
+Depois de receber Forma Fluida, também pode guardar e repetir uma troca de Forma. A Forma obtida precisa ser gratuita ou ter categoria de preço permitida pelo seu Eco. Formas não recebem desconto de Família.
+
+## Eco de Modulação
+
+Repita a Modulação guardada pagando **metade de seu custo adicional em PE, arredondada para cima**. Calcule o preço na Classe da nova conjuração e aplique o desconto de Família antes dessa metade.
+
+> **Exemplo.** Longe sem desconto custa 2 PE como Modulação na Classe 3. Seu Eco permite repeti-la por **1 PE** em outra aplicação dessa Classe. Se Longe já custar 1, a metade arredondada continua sendo 1.
+
+## Limites
+
+O novo feitiço precisa aceitar a peça guardada. Ter um Eco de Longe não permite aplicá-lo em Toque. O número de Melhorias e todas as Restrições continuam valendo.
+
+Só pode haver **uma Modulação Forçada por conjuração**, contando a que veio de Eco. Apenas ela pode exceder o limite de Melhorias em uma unidade. Uma troca por Eco ocupa a vaga da peça substituída, sem conceder outra vaga.
+
+A alteração reaproveitada **não cria outro Eco por si só**. É necessário um novo Desdobramento permitido por Contraponto para guardar uma alteração diferente daquela apenas repetida. Conservar um Eco por Reverberação segue o custo e o gatilho daquela habilidade.
+
+<!-- page:ema-contraponto|Contraponto e Reverberação -->
+# Contraponto e Reverberação
+
+## Nível 11 — Contraponto
+
+Ao consumir um Eco, você também pode fazer **um Desdobramento normal** na mesma conjuração, pagando por ele. Depois de resolver, uma alteração desse Desdobramento pode ser guardada como o próximo Eco.
+
+A alteração trazida pelo Eco anterior não se copia novamente. O novo registro ainda precisa ser **Leve** neste nível.
+
+Com Composição Técnica, o Desdobramento normal pode fazer duas alterações, chegando a **três ao todo**: uma repetida e duas novas. Isso não aumenta os limites de peças ou de Modulação Forçada.
+
+> **Exemplo.** Você usa um Eco para trocar uma Melhoria por Longe. Paga Remodelar para trocar outra por Empurrão. Depois da resolução, pode guardar Empurrão. Não cria outro Eco de Longe só porque repetiu a alteração anterior.
+
+## Nível 19 — Reverberação
+
+Seus Ecos passam a aceitar alterações **Médias**, além das Leves. Uma peça Pesada continua fora, mesmo se o desconto de Família tornar seu preço menor.
+
+Quando gastar um Eco numa conjuração, escolha **uma criatura antes das rolagens**. Se um ataque contra ela errar ou ela passar no primeiro TR da aplicação, pode gastar sua **Reação** para conservar o Eco até o fim do seu próximo turno.
+
+A conservação não transforma o erro em acerto nem devolve os PE pagos. Reutilizar o Eco em outra conjuração exige novamente seu custo de uso.
+
+Se Contraponto também produzir outro Eco, escolha qual guardar dentro da sua capacidade. Na capacidade de um, não conserve ambos. A conjuração pode usar uma peça Pesada pelo Desdobramento pago, desde que cumpra seus requisitos, mas não registrá-la como Eco.
+
+<!-- page:ema-acorde|Acorde Ressonante -->
+# Acorde Ressonante
+
+**Nível 27.** Você pode manter **dois Ecos diferentes**. Cada um dura até o fim do **segundo turno seu seguinte** à criação ou conservação. Ao criar outro além da capacidade, escolha qual substituir.
+
+Registre para cada Eco a peça, se veio de Remodelagem ou Modulação, e o prazo. Duas cópias da mesma peça pela mesma maneira não ocupam dois lugares. Troca de Forma e troca de Melhoria continuam sujeitas aos limites de categoria do Eco.
+
+## Usar os dois
+
+**Uma vez por cena**, consuma ambos na mesma conjuração. Pode também fazer um Desdobramento normal, mas o conjunto permite **no máximo três alterações**, mesmo com Composição Técnica. Os dois Ecos deixam espaço para apenas uma alteração nova.
+
+Cada Eco mantém seu custo. Um de Remodelagem dispensa somente o PE de sua própria troca. Se houver uma Remodelagem nova, pague o acréscimo normal por ela. Só uma das alterações pode ser Modulação Forçada.
+
+Reverberação pode preservar **apenas um** dos Ecos gastos nessa conjuração, com uma Reação e seu gatilho normal. Não conserva os dois por um único erro. Se também registrar uma alteração nova por Contraponto, confira a capacidade de dois.
+
+> **Exemplo.** No primeiro turno, você registra uma troca para Longe. No seguinte, registra outra para Contorno. No terceiro, ainda dentro do prazo de ambas, pode repetir as duas trocas e pagar uma alteração nova. As três precisam caber na aplicação final.
+
+O uso por cena é gasto ao declarar o consumo conjunto. Errar não devolve esse uso, mesmo se Reverberação permitir conservar um dos Ecos.
+
+<!-- page:ema-impulso|Catalisador -->
+# Catalisador
+
+Você prepara uma aplicação para melhorar a próxima. O **Impulso Energético** pode acelerar um feitiço ou tornar uma de suas rolagens mais confiável. Gastá-lo exige escolher o benefício e pagar a energia indicada.
+
+| Nível | Habilidade |
+|---|---|
+| 2 | Impulso Técnico. |
+| 11 | Correção de Fluxo. |
+| 19 | Sobrecarregar Energia. |
+| 27 | Fluxo Contínuo. |
+
+## Nível 2 — Impulso Técnico
+
+Depois de resolver, com **Ação Padrão**, um feitiço de **Classe 1 ou maior** Remodelado, com Modulação ou como Expressão Familiar, receba **um Impulso até o fim do seu próximo turno**. Você mantém um. Outro ganho renova o prazo, sem acumular Impulsos.
+
+O ganho ocorre após a resolução inicial. Não se repete por alvo, dano posterior ou rodada de uma área. Se a conjuração for adiada, receba somente depois do disparo da aplicação paga com Padrão.
+
+Em outra conjuração de Classe 1 ou maior que tenha uma dessas alterações ou use Expressão Familiar, pode gastar o Impulso e **metade da Classe utilizada em PE, arredondada para cima**, para escolher uma opção:
+
+**Acelerar:** um feitiço que normalmente usa Padrão passa a usar **Bônus**. Respeite as incompatibilidades de Rápido e o tempo exigido por suas Restrições.
+
+**Intensificar:** escolha **um ataque do feitiço** para ter vantagem ou **o primeiro TR de uma criatura** para ter desvantagem.
+
+Declare a escolha antes dos dados. A aplicação que gasta Impulso não produz outro por si. Conjurar como Bônus mantém o limite de conjuração: o outro feitiço permitido naquele turno é de Classe 0.
+
+<!-- page:ema-correcao|Correção de Fluxo -->
+# Correção de Fluxo
+
+**Nível 11.** Você recebe outra forma de gastar Impulso e uma nova opção para Intensificar. Ambas continuam restritas às aplicações que aceitam Impulso Técnico.
+
+## Corrigir a tentativa
+
+Antes dos dados, indique **um ataque** ou **uma criatura cujo primeiro TR** você pretende acompanhar. Se o ataque errar ou a criatura passar nesse TR, pode gastar o Impulso e **PE adicionais iguais à Classe utilizada** para repetir aquela rolagem.
+
+Decida pagar depois de conhecer o resultado, mas antes de aplicar suas consequências. Use o novo resultado, mesmo se não melhorar. Se havia vantagem ou desvantagem, repita o mesmo procedimento, sem combinar dados das duas tentativas.
+
+Isso não repete a conjuração inteira. Outros ataques, alvos, danos e custos já resolvidos permanecem. Uma criatura que falhe no TR não fornece esse gatilho de correção.
+
+## Aperfeiçoar o dano
+
+Ao escolher Intensificar, pode beneficiar **uma rolagem de dano do feitiço**, em vez de um ataque ou TR. Declare a escolha junto da conjuração.
+
+Nessa rolagem, repita **uma vez cada dado que mostrar 1 ou 2** e mantenha seus novos resultados. Um dado que volte a mostrar 1 ou 2 não é repetido outra vez por esta opção.
+
+O uso gasta o Impulso e cobra o custo normal de Intensificar: metade da Classe em PE, arredondada para cima. Não paga o custo de Corrigir a tentativa.
+
+Se a rolagem for compartilhada entre alvos, todos usam o resultado corrigido. Se houver várias rolagens de dano, escolha apenas uma antes dos dados. Essa opção não permite escolher o melhor resultado entre a rolagem antiga e a nova.
+
+<!-- page:ema-fluxo|Sobrecarga e fluxo -->
+# Sobrecarga e fluxo
+
+## Nível 19 — Sobrecarregar Energia
+
+**Uma vez por cena**, ao gastar Impulso, escolha **duas opções diferentes** entre Acelerar, Intensificar e Corrigir a tentativa. Declare a combinação antes da primeira rolagem.
+
+Pague cada custo separadamente. Se reservar Corrigir, pague essa parcela somente se o erro ou a resistência permitir a rerrolagem e você decidir usá-la. O Impulso e o uso por cena já foram gastos na combinação, mesmo sem precisar corrigir.
+
+Intensificar oferece uma escolha entre ataque, TR ou dano. A habilidade não permite escolher Intensificar duas vezes para beneficiar ambos. Acelerar continua exigindo uma aplicação compatível com Bônus.
+
+Depois desse uso, você **não recebe outro Impulso até o fim do seu próximo turno**. A proibição inclui uma aplicação resolvida naquele turno. A próxima oportunidade de gerar começa depois desse prazo.
+
+> **Exemplo.** Na Classe 4, Acelerar e Aperfeiçoar o dano custam **2 + 2 = 4 PE adicionais**. Intensificar um ataque e reservar Corrigir custam 2 de imediato e mais 4 somente se você pagar a rerrolagem.
+
+## Nível 27 — Fluxo Contínuo
+
+**Uma vez por cena**, depois de gastar Impulso numa conjuração que **não usou Sobrecarregar Energia**, recupere um Impulso após resolver o feitiço. Ele dura até o fim do seu próximo turno.
+
+Pode usá-lo na aplicação seguinte, inclusive para uma Sobrecarga. Os custos continuam sendo pagos. Fluxo Contínuo não ignora a proibição de receber Impulso que já esteja em vigor por uma Sobrecarga anterior.
+
+> **Exemplo.** Uma Expressão Familiar de Padrão prepara Impulso. No turno seguinte, você o gasta e usa Fluxo Contínuo. Na próxima aplicação, pode gastá-lo normalmente ou combinar duas opções. Recuperar o Impulso não recupera a ação ou os PE usados.

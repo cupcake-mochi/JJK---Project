@@ -1,0 +1,190 @@
+{
+  "sha256_texto": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "status": "executado",
+      "evidencia": "evidencias/COBERTURA.json",
+      "observacao": "44 cabeçalhos do uso mapeados; aquisição e montagem R12."
+    },
+    {
+      "id": "V02",
+      "nome": "Regras e fontes",
+      "status": "executado",
+      "evidencia": "ALTERACOES.json",
+      "observacao": "Sem alterar publicados; fechamentos candidatos separados de preservação."
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionalidade",
+      "status": "executado",
+      "evidencia": "evidencias/casos-executados.json",
+      "observacao": "Modelos de transição dirigidos; não motor integral ou teste com humanos."
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "status": "executado",
+      "evidencia": "auditar.py",
+      "observacao": "Tabelas lidas das fontes e exemplos calculados."
+    },
+    {
+      "id": "V05",
+      "nome": "Balanço",
+      "status": "parecer autoral",
+      "evidencia": "RELATORIO-DE-REVISAO.md",
+      "observacao": "Custos conservados e riscos de explosão temporal, manutenção e tempo explícitos."
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "status": "executado",
+      "evidencia": "evidencias/INTERFACES.json",
+      "observacao": "R01/R03/R04/R06/R07/R08/R12 e Evocador/Guia."
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos e palavras",
+      "status": "executado",
+      "evidencia": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "observacao": "Leitura contextual e validador automático; falsas colisões de homônimo e incompatibilidade necessária registradas individualmente."
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza",
+      "status": "parecer autoral",
+      "evidencia": "evidencias/REVISAO-EDITORIAL.json",
+      "observacao": "31 páginas, campos operacionais conferidos; não mede compreensão humana."
+    },
+    {
+      "id": "V09",
+      "nome": "Voz e redundância",
+      "status": "parecer autoral",
+      "evidencia": "evidencias/REVISAO-EDITORIAL.json",
+      "observacao": "PHB/DMG como estrutura de procedimento, exemplos originais; nenhum texto copiado."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "status": "parecer autoral",
+      "evidencia": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "observacao": "Remove cópia de Guia e domínios completos; remissões indispensáveis."
+    },
+    {
+      "id": "V11",
+      "nome": "Cânone",
+      "status": "não se aplica a novas afirmações",
+      "evidencia": "ESCOPO-E-FONTES.md",
+      "observacao": "Regras de RPG próprias. Não afirma cânone dePanda/Nue, que foram removidos dos exemplos."
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "status": "revisado_no_escopo",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE.md",
+      "observacao": "Revisor diferente do autor, correções verificadas. R11 inclui revisão independente complementar da reserva total. Não equivale a playtest.",
+      "revisao_delta": "Concluída por compatibilidade sobre o hash atual; parecer localizado complementa a revisão integral anterior.",
+      "evidencia_delta": "evidencias/REVISAO-SINCRONIZACAO-COMPATIBILIDADE.md; evidencias/REVISAO-SINCRONIZACAO-COMPATIBILIDADE.json"
+    },
+    {
+      "id": "V13",
+      "nome": "PDF/texto/navegação",
+      "status": "executado",
+      "evidencia": "CONFERENCIA.json",
+      "observacao": "Conferência final atual com 236 verificações, todas aprovadas.",
+      "fechamento": "Prova atual inspecionada, conferência estrutural reexecutada; manifesto emitido depois da conferência."
+    },
+    {
+      "id": "V14",
+      "nome": "Inspeção visual",
+      "status": "executado com limites",
+      "evidencia": "evidencias/inspecao-visual.json",
+      "observacao": "Inspeção integral anterior preservada em historico/antes-sincronizacao-final; comparação exata de pixels de todas as páginas com a mesma rasterização confirmou alteração somente na página 21, aberta e inspecionada com view_image nesta rodada.",
+      "fechamento": "Prova atual inspecionada, conferência estrutural reexecutada; manifesto emitido depois da conferência."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "status": "executado",
+      "evidencia": "ALTERACOES.json",
+      "observacao": "48 decisões registradas; hashes de texto, fontes e prova preservados.",
+      "fechamento": "Prova atual inspecionada, conferência estrutural reexecutada; manifesto emitido depois da conferência."
+    }
+  ],
+  "sha256_pdf": "1231611bc6d94447c9d79d9d958c22435a3c595d1b905d7ebbb761ab985deaa1",
+  "sincronizacao_final": {
+    "relatorio": "evidencias/SINCRONIZACAO-FINAL.md",
+    "casos": "evidencias/SINCRONIZACAO-FINAL.json",
+    "escopo": "Revisão localizada da seção alterada; demais conteúdos preservados, sem alegar nova leitura integral.",
+    "concluida": true
+  },
+  "fechamento_nominal": {
+    "autor_migracao": "/root/compatibilidade",
+    "leitor_independente": "/root",
+    "fonte": "consolidacao/lote-01/migracao-nomes/diffs/campo.diff",
+    "prova_visual": "evidencias/inspecao-visual.json",
+    "invariantes": "Custos, efeitos, limites e ações preservados. R10/R19 também receberam remissões aos donos atuais.",
+    "limite": "Revisões anteriores mantidas com escopo e hash próprios; não alegada nova leitura integral dos textos idênticos."
+  },
+  "integracao_final": {
+    "sha256_texto_atual": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+    "sha256_texto_revisado_antes_da_montagem": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+    "alteracoes_de_integracao": 0,
+    "mudancas_mecanicas_nesta_etapa": false,
+    "evidencia_delta": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+    "escopo": "V01–V12 reaproveitados das revisões registradas com revisão do delta de remissões; V13–V15 do PDF entregue estão no dossiê da consolidação. Provas individuais são históricas, não uma segunda edição final."
+  },
+  "revalidacao_2026_10_04": {
+    "sha256_texto_anterior": "297d96084502eb65780b9ed2ac4f7e121a235cfdbb6e41db254f980e55393dcd",
+    "sha256_pdf_anterior": "8843a6c0db4bb0766831a0c94c22e248887dbbd3fa0823894abfcb29d21b3535",
+    "sha256_texto": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+    "sha256_pdf": "04daa30d72ca2fda9268b0b9ed1e558aae52cc8149eb828e854134ded38c515d",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 236
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+    "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revalidacao_2026_10_04_quarta_passada": {
+    "sha256_texto_anterior": "b9ee96c405359f6fe879f55dd972ca8a32cc565c8c318c241be2b73047519d38",
+    "sha256_pdf_anterior": "04daa30d72ca2fda9268b0b9ed1e558aae52cc8149eb828e854134ded38c515d",
+    "sha256_texto": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
+    "sha256_pdf": "758cd481c90034de718cc4550847173f6f7ed2fc2363e617191df14af455de64",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 236
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "escopo": "Quarta passada de 04/10/2026 (D18 a D24). V01–V12 seguem as revisões registradas, renovadas por delta no bloco revisao_delta_2026_10_04_quarta_passada das evidências da unidade e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "revalidacao_2026_10_04_quinta_passada": {
+    "sha256_texto_anterior": "d059e67ee19cca81de9e3a267e8f86ae0d8c221840ff972803737f5838160d4c",
+    "sha256_pdf_anterior": "758cd481c90034de718cc4550847173f6f7ed2fc2363e617191df14af455de64",
+    "sha256_texto": "c0482965c234fc289822b26be94afaadbc0743c515166fa308fe8ee065d3711b",
+    "sha256_pdf": "1231611bc6d94447c9d79d9d958c22435a3c595d1b905d7ebbb761ab985deaa1",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 236
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "escopo": "Quinta passada de 04/10/2026 (D25 a D41). V01–V12 seguem as revisões registradas, renovadas por delta no bloco revisao_delta_2026_10_04_quinta_passada das evidências da unidade e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  }
+}

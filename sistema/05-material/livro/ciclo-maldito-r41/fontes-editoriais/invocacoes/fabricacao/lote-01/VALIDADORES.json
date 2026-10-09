@@ -1,0 +1,144 @@
+{
+  "sha256_texto": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa",
+  "validadores": [
+    {
+      "id": "V01",
+      "nome": "Cobertura",
+      "status": "executado",
+      "evidencia": "evidencias/COBERTURA.json",
+      "observacao": "23 recortes mapeados; catálogo/campo fora do escopo com remissão."
+    },
+    {
+      "id": "V02",
+      "nome": "Regras e fontes",
+      "status": "executado",
+      "evidencia": "ALTERACOES.json",
+      "observacao": "Precedência das decisões107/108, R04 e R11/R12 atuais; novos fechamentos nomeados."
+    },
+    {
+      "id": "V03",
+      "nome": "Funcionamento",
+      "status": "executado",
+      "evidencia": "evidencias/casos-executados.json",
+      "observacao": "27 casos em modelo de contrato; não motor integral de jogo."
+    },
+    {
+      "id": "V04",
+      "nome": "Números",
+      "status": "executado",
+      "evidencia": "evidencias/auditoria-numerica.json",
+      "observacao": "Classes/CD/preçoestojo lidos dos donos e valores do exemplo do manuscrito; enumeração exata."
+    },
+    {
+      "id": "V05",
+      "nome": "Balanço",
+      "status": "parecer com limites",
+      "evidencia": "RELATORIO-DE-REVISAO.md",
+      "observacao": "Custos/chance sob hipóteses; orçamento de projeto preservado. Não certifica economia de campanha."
+    },
+    {
+      "id": "V06",
+      "nome": "Compatibilidade",
+      "status": "executado",
+      "evidencia": "evidencias/INTERFACES.json",
+      "observacao": "Ofícios/fabricação, aquisição, campo, equipamentos e limites revisados."
+    },
+    {
+      "id": "V07",
+      "nome": "Títulos/vocabulário",
+      "status": "executado",
+      "evidencia": "evidencias/editorial-automatico.json",
+      "observacao": "Zero achados automáticos; revisão contextual registrada por página."
+    },
+    {
+      "id": "V08",
+      "nome": "Clareza/suficiência",
+      "status": "autorrevisão contextual",
+      "evidencia": "evidencias/REVISAO-EDITORIAL.json",
+      "observacao": "Quem, oque, custo, tempo, teste, sucesso/falha/conclusão explicitados."
+    },
+    {
+      "id": "V09",
+      "nome": "Voz/redundância",
+      "status": "autorrevisão contextual",
+      "evidencia": "ESCOPO-E-FONTES.md",
+      "observacao": "Comparação dirigida PHB e fontes oficiais; prosa original, sem narrativas ornamentais."
+    },
+    {
+      "id": "V10",
+      "nome": "Localização",
+      "status": "executado",
+      "evidencia": "evidencias/LOCALIZACAO-EDITORIAL.json",
+      "observacao": "Regra deve ser subseção deFabricação; R12/R11 remetem ao procedimento."
+    },
+    {
+      "id": "V11",
+      "nome": "Obra/referências",
+      "status": "não aplicável ao cânone; comparação executada",
+      "evidencia": "evidencias/REFERENCIAS.json",
+      "observacao": "Nenhuma afirmação nova sobreJJK; projetooriginal. ComparaçãoRPG em fonteprimária."
+    },
+    {
+      "id": "V12",
+      "nome": "Revisão independente",
+      "status": "revisado_no_escopo",
+      "evidencia": "evidencias/REVISAO-INDEPENDENTE-RAIZ.md",
+      "observacao": "Leitura integral por modelo distinto do autor, recálculo independente e cotejo das decisões. Sem playtest."
+    },
+    {
+      "id": "V13",
+      "nome": "PDF/navegação",
+      "status": "concluido",
+      "evidencia": "CONFERENCIA.json",
+      "observacao": "Prova gerada e confrontada com o manuscrito."
+    },
+    {
+      "id": "V14",
+      "nome": "Visual",
+      "status": "concluido",
+      "evidencia": "evidencias/inspecao-visual.json e COMPARACAO-PIXELS-FINAL.json",
+      "observacao": "Todas as cinco páginas inspecionadas."
+    },
+    {
+      "id": "V15",
+      "nome": "Rastreabilidade",
+      "status": "executado",
+      "evidencia": "ALTERACOES.json",
+      "observacao": "13 mudanças, hashes e fonte concorrente identificada; nenhum publicado editado."
+    }
+  ],
+  "fechamento_nominal": {
+    "sha256_texto": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+    "evidencia": "evidencias/FECHAMENTO-NOMES-E-REMISSOES.md",
+    "visual": "concluido"
+  },
+  "integracao_final": {
+    "sha256_texto_atual": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+    "sha256_texto_revisado_antes_da_montagem": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+    "alteracoes_de_integracao": 0,
+    "mudancas_mecanicas_nesta_etapa": false,
+    "evidencia_delta": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "44dfa94108e5ab79edc8fc66cda0234e3681f4b7f345b1153e03655ab0e1bdb8",
+    "escopo": "V01–V12 reaproveitados das revisões registradas com revisão do delta de remissões; V13–V15 do PDF entregue estão no dossiê da consolidação. Provas individuais são históricas, não uma segunda edição final."
+  },
+  "revalidacao_2026_10_04": {
+    "sha256_texto_anterior": "61920e6d08f0cae38bf03d2ed27a0e5df06dd9d4f7f780495453bd47fb29847a",
+    "sha256_pdf_anterior": null,
+    "sha256_texto": "cd7eb01826e2d5f5ca7205eb6dbbf510cce5e67483207e5bf58aa5b350cb4dfa",
+    "sha256_pdf": "def8f36d5e7447713d06eae47f484399b91517a8cbb5e936c7293ffe8828c9ce",
+    "conferencia": {
+      "arquivo": "CONFERENCIA.json",
+      "ok": true,
+      "verificacoes": 54
+    },
+    "registros": [
+      "revisao-interfaces/CORRECOES-APLICADAS.md"
+    ],
+    "pdf_vigente": "consolidacao/lote-01/output/pdf/Projeto-M-Livro-Completo-Candidata.pdf",
+    "sha256_pdf_vigente": "c6610e35866904629b4c60ea59605d7b85b8d6a7e6ce6e65effa687bf9fe87ea",
+    "escopo": "V01–V12 seguem as revisões registradas, renovadas por delta nas evidências da unidade (blocos revisao_delta_2026_10_04 e revisao_delta_2026_10_04_decisoes, quando houver) e no conferir.py verde. V13–V15 do livro estão em consolidacao/lote-01, com a inspeção visual encadeada em FINAL-V14.json. A prova individual corresponde ao texto atual.",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana."
+  },
+  "sha256_pdf": "def8f36d5e7447713d06eae47f484399b91517a8cbb5e936c7293ffe8828c9ce"
+}

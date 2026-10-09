@@ -1,0 +1,69 @@
+{
+  "sha256_texto": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
+  "titulos_revisto": true,
+  "sem_explicacao_alheia": true,
+  "vocabulario_revisto": true,
+  "excecoes_vocabulario": [],
+  "revisor": "Agente principal; leitura de todas as seções após correções dos revisores",
+  "notas": "Nomes de rotas explicam acesso e custo, sem reproduzir habilidades de caminho. Catálogo extensivo reservado a R07.",
+  "notas_estilo": "Seis subtítulos sem artigo; ponto e vírgula reduzido na prosa, conservado em tabelas. Texto semanticamente preservado, salvo sincronização Sem Volta/Vazio documentada.",
+  "revisao_remissao": "Parágrafo de Cura relido com o dono R09 Ferir maldições. Apenas remissão nominal adicionada. Custo, alvo e resolução permanecem no dono, sem cópia.",
+  "excecoes_localizacao": [
+    {
+      "termo": "Energia Reversa",
+      "trecho": "Uma Forma de cura não permite ferir um inimigo por conta própria. Para usar Cura contra uma maldição com Energia Reversa, consulte Ferir maldições, em Aptidões e Refino. Essa exceção tem requisitos e resolução próprios.",
+      "papel": "requisito",
+      "justificativa": "Nomeia requisito da exceção ofensiva e aponta a regra em Aptidões, sem reproduzir dados, alcance, custo ou resolução.",
+      "nao_reproduz_regra": true
+    }
+  ],
+  "delta_nominal_final": "DELTA-QA-FINAL.json",
+  "revisao_delta_2026_10_04": {
+    "sha256_anterior": "0160f774f5ea87f4ffd29bb7f7e3335dead51677bf2b894041aa61e2c5041273",
+    "sha256_atual": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+    "origem": "Ajustes de remissão feitos na montagem do livro completo (03/10/2026), sem atualização da prova individual.",
+    "mudancas": [
+      {
+        "linha": 232,
+        "secao": "formas",
+        "antes": "A **Forma** define por onde o feitiço chega e quem pode atingir. Escolha uma por ficha. As medidas desta página valem nas Classes 1 a 5. A progressão está em [Alcance e área](#alcance).",
+        "depois": "A **Forma** define por onde o feitiço chega e quem pode atingir. Escolha uma por ficha. As medidas desta seção valem nas Classes 1 a 5. A progressão está em [Alcance e área](#alcance)."
+      }
+    ],
+    "registro": "consolidacao/lote-01/evidencias/AJUSTES-FINAIS-INTEGRACAO.json",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Desfazendo as 1 trocas registradas, o texto volta exatamente ao hash anterior; não há outra diferença. Cada linha trocada foi lida no contexto: a remissão aponta a seção onde a frase está ou um título existente do capítulo. Títulos, seções e número de linhas não mudaram. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual; os achados brutos são os mesmos nos dois (mesmo código, termo e trecho), e as exceções de vocabulário continuam na mesma linha."
+  },
+  "revisao_delta_2026_10_04_quarta_passada": {
+    "sha256_anterior": "066f6e472912083a153f474460ee111a79f37606ab9941ea3322506170847783",
+    "sha256_atual": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+    "mudancas": [
+      {
+        "codigo": "D23",
+        "achado": "decisão do autor (04/10/2026)",
+        "secao": "maximadano",
+        "antes": "Os 24d8 causam média de 108 de dano. Role os dados normalmente.",
+        "depois": ""
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. A única frase nova (passo 3 de Sem Técnica) cita o procedimento de Fundamento pelo nome, como o passo 1 da Técnica Marcial. Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  },
+  "revisao_delta_2026_10_04_quinta_passada": {
+    "sha256_anterior": "107b1610f0bd2393bc5207ec51408bad2440932a7a4cb5f85404d4969f9aca0b",
+    "sha256_atual": "7fc58fa8955f2a4f820906d02d1ed78d5d190e4091f4279ab6c0d0050a9a7f9f",
+    "mudancas": [
+      {
+        "codigo": "D35",
+        "achado": "G5-09",
+        "secao": "classe0",
+        "antes": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso.",
+        "depois": "Toque e Aura mantêm seu alcance e origem sem produzir a devolução Média de Corpo a Corpo neste caso. Essa exigência da Forma não ocupa a vaga da Restrição Leve."
+      }
+    ],
+    "registro": "revisao-interfaces/CORRECOES-APLICADAS.md",
+    "revisor": "Revisão por modelo (sessão de continuação da revisão pós-reconstrução), 04/10/2026. Não é revisão humana.",
+    "conferido": "Cada trecho trocado foi lido no contexto. Com as exceções desta leitura, o conferir_editorial dá 0 achados no texto anterior e 0 no atual. As frases novas citam a seção dona pelo nome (Equipamento restrito, Munição inicial, Invocações em campo, Trajes). Nenhuma exceção de vocabulário depende de linha nesta unidade."
+  }
+}

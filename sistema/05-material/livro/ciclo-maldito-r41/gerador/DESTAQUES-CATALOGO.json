@@ -1,0 +1,2786 @@
+[
+  {
+    "id": "N001",
+    "bloco": "ab--ab-apresentacao",
+    "capitulo": "1. Ciclo Maldito",
+    "texto": "Ciclo Maldito é um material de fã baseado em Jujutsu Kaisen, de Gege Akutami.",
+    "palavras": 14,
+    "paginas_base": [
+      4
+    ],
+    "tipo": "aviso editorial",
+    "motivo": "Aviso de material de fã preservado, fora da mudança editorial desta etapa."
+  },
+  {
+    "id": "N002",
+    "bloco": "ab--ab-sociedade",
+    "capitulo": "1. Ciclo Maldito",
+    "texto": "**Ponto de partida:** três pessoas desapareceram perto de uma estação fechada. Uma delas enviou uma foto de um corredor que não consta da planta do prédio. O grupo recebe o local da última mensagem e o contato de uma funcionária que esteve lá. Descobrir o acesso, encontrar os desaparecidos e sair com eles são objetivos que podem exigir abordagens diferentes.",
+    "palavras": 60,
+    "paginas_base": [
+      8
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N003",
+    "bloco": "geral--atributos",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Rina tem Destreza 3 e maestria 1. Em Furtividade, na qual é treinada, soma 4 ao d20. Numa perícia de Destreza sem treino, soma apenas 3. No nível 10, sua maestria passa a 2; se mantiver Destreza 3, o bônus treinado passa a 5.",
+    "palavras": 45,
+    "paginas_base": [
+      11
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N004",
+    "bloco": "geral--testes",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Role um d20, some o bônus indicado e compare com a Classe de Dificuldade, ou CD. Igualar ou superar a CD é sucesso.**",
+    "palavras": 23,
+    "paginas_base": [
+      12
+    ],
+    "tipo": "regra-chave",
+    "motivo": "Síntese de procedimento ou limite; preservar destaque próprio."
+  },
+  {
+    "id": "N005",
+    "bloco": "geral--testes",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** numa tarefa de CD fixa 14, Rina tem bônus +4 e tira 10 no d20: seu total é 14, um sucesso. Já para examinar um selo pela escala do criador, use os valores de quem fez o selo. Com atributo 4 e maestria 2, a base é **8 + 4 + 2 = 14**. Se o mestre classificar o exame como muito difícil, aplique o ajuste +2: a CD será **16**.",
+    "palavras": 43,
+    "paginas_base": [
+      12
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N006",
+    "bloco": "geral--pericias",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** com bônus +4 e vantagem, Rina tira 6 e 17. Usa o 17 e obtém 21. Se também sofrer desvantagem naquele teste, rola apenas um d20 e soma 4.",
+    "palavras": 30,
+    "paginas_base": [
+      13
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N007",
+    "bloco": "geral--resistencia",
+    "capitulo": "2. Regras gerais",
+    "texto": "**TR treinado: d20 + atributo do TR + maestria.**",
+    "palavras": 9,
+    "paginas_base": [
+      14
+    ],
+    "tipo": "formula",
+    "motivo": "Conta de consulta durante o jogo; conservar destaque e usar o corpo de regra aprovado."
+  },
+  {
+    "id": "N008",
+    "bloco": "geral--resistencia",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Kaito tem Destreza 4, maestria 2 e treino em TR Físico, escolhido com Destreza. Diante de CD 15, tira 9 e soma 6: total 15. Ele passou. Para saber se evita o efeito ou recebe parte dele, consulta o texto do efeito.",
+    "palavras": 43,
+    "paginas_base": [
+      15
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N009",
+    "bloco": "geral--resistencia",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** uma explosão pede TR Físico. Kaito não pode rolar Bloquear no lugar dele, mesmo que seu bônus de Bloquear seja maior. Uma proteção que conceda bônus ao TR Físico ainda funciona quando seus requisitos forem cumpridos.",
+    "palavras": 37,
+    "paginas_base": [
+      15
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N010",
+    "bloco": "geral--turnos",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Rina troca sua Ação Padrão por outra Ação Bônus. Pode usar duas opções de Ação Bônus, se ambas forem permitidas. Já não tem aquela Ação Padrão para atacar. Uma opção limitada a uma vez por cena continua tendo esse limite.",
+    "palavras": 41,
+    "paginas_base": [
+      16
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N011",
+    "bloco": "geral--preparar",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Rina prepara Agarrar quem entrar ao seu alcance pela porta. Quando isso acontece, gasta a Reação e resolve a manobra. Se já tivesse gasto a Reação para um ataque de oportunidade, a preparação teria terminado.",
+    "palavras": 36,
+    "paginas_base": [
+      19
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N012",
+    "bloco": "geral--ataques",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Sousuke usa a Ação Atacar contra um inimigo a 1,5 m. Tem Força 4 e maestria 2: ataque +6. Tira 11 no d20, total 17. O inimigo tem Defesa 17 e decide mantê-la: o golpe acerta. Sousuke passa à rolagem de dano.",
+    "palavras": 43,
+    "paginas_base": [
+      22
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N013",
+    "bloco": "geral--alcance",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** o Kunai tem faixas de 6 m e 18 m. Rina pode arremessá-lo normalmente contra um alvo a 6 m. A 9 m, ataca com desvantagem; a 18 m, também. A 19,5 m, não alcança. Se um inimigo estiver a 1,5 m de Rina, o arremesso a 6 m também terá desvantagem.",
+    "palavras": 53,
+    "paginas_base": [
+      23
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N014",
+    "bloco": "geral--critico",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** com Destreza 4, Força 2 e maestria 2, Rina arremessa o Kunai com ataque +6, mas soma apenas 2 de Força ao dano. Fineza, por si só, altera apenas o corpo a corpo.",
+    "palavras": 34,
+    "paginas_base": [
+      24
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N015",
+    "bloco": "geral--critico",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** a Espada Longa de Sousuke causa 1d8 + 4. Num crítico, ele rola **2d8 + 4**. Se um benefício acrescentar 3d4, o total será **2d8 + 4 + 3d4**. Uma permissão expressa pode alterar quais dados adicionais dobram.",
+    "palavras": 39,
+    "paginas_base": [
+      24
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N016",
+    "bloco": "geral--defesa",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Defesa = 10 + Destreza + proteção**, com os limites e modificadores aplicáveis.",
+    "palavras": 13,
+    "paginas_base": [
+      25
+    ],
+    "tipo": "formula",
+    "motivo": "Conta de consulta durante o jogo; conservar destaque e usar o corpo de regra aprovado."
+  },
+  {
+    "id": "N017",
+    "bloco": "geral--defesa",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Rina tem Destreza 3 e Traje com proteção 2. Sua Defesa é **10 + 3 + 2 = 15**. Com um Revestimento de proteção 5, também teria Defesa 15: **10 + 0 + 5**. A falta de Força impõe as penalidades de Proteção; os demais requisitos do equipamento continuam valendo.",
+    "palavras": 51,
+    "paginas_base": [
+      25
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N018",
+    "bloco": "geral--defesa",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Sousuke tem Defesa 15 e cobertura Boa contra um atirador. Sua Defesa é 20 contra o disparo; se escolher Bloquear, rola **2d10 + 9**. Contra um inimigo do mesmo lado do obstáculo, Sousuke não recebe esse bônus.",
+    "palavras": 38,
+    "paginas_base": [
+      26
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N019",
+    "bloco": "geral--bloquear",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Bloquear = 2d10 + (sua Defesa - 11)**.",
+    "palavras": 8,
+    "paginas_base": [
+      27
+    ],
+    "tipo": "formula",
+    "motivo": "Conta de consulta durante o jogo; conservar destaque e usar o corpo de regra aprovado."
+  },
+  {
+    "id": "N020",
+    "bloco": "geral--bloquear",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** uma maldição obtém 18 no ataque contra Rina, cuja Defesa é 17. Rina escolhe Bloquear e tira 7 e 4: **7 + 4 + 6 = 17**. O ataque acerta. Se os dados fossem 8 e 5, Bloquear daria 19, e o ataque erraria.",
+    "palavras": 45,
+    "paginas_base": [
+      27
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N021",
+    "bloco": "geral--aparar",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Sousuke está ao alcance de Rina e obtém 23 no ataque. Ela tira dois 10 em Bloquear: o golpe erra por Aparar. Rina tem Reação e decide gastá-la para revidar. Faz uma nova rolagem de ataque; se acertar, soma 3 ao dano normal. Se o d20 de Sousuke fosse um 20 natural, Aparar não impediria o acerto nem concederia esse revide.",
+    "palavras": 62,
+    "paginas_base": [
+      28
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N022",
+    "bloco": "geral--aparar",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Rina tira dois 1 em Bloquear. O ataque original acerta. A maldição já gastou sua Reação desde o começo do último turno dela, então não pode realizar o ataque adicional de Brecha. O acerto original continua valendo.",
+    "palavras": 38,
+    "paginas_base": [
+      28
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N023",
+    "bloco": "geral--manobras",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Rina tem Força 3 e maestria 1: sua CD é 12. Ela troca um ataque por Agarrar. A maldição soma 10 no TR e fica agarrada. Rina não causa dano com essa tentativa, mas pode usar outro ataque disponível para golpeá-la.",
+    "palavras": 42,
+    "paginas_base": [
+      29
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N024",
+    "bloco": "geral--movimento",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** metade de 9 m é 4,5 m. Metade de 4,5 m fica em 1,5 m após o arredondamento. Essa regra vale para distâncias; não altera o arredondamento de dano, Vida ou pontos de energia.",
+    "palavras": 35,
+    "paginas_base": [
+      30
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N025",
+    "bloco": "geral--movimento",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** com 9 m disponíveis, Rina anda 3 m, atravessa 1,5 m de entulho por 3 m e anda os 3 m restantes. Percorreu 7,5 m e gastou seus 9 m de movimento.",
+    "palavras": 33,
+    "paginas_base": [
+      31
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N026",
+    "bloco": "geral--espacos",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Mei é Média. Um adversário Grande bloqueia o corredor: ela não pode atravessá-lo só por ter movimento restante. Ela precisa buscar outro percurso. Se o adversário fosse Imenso, a diferença de duas categorias permitiria a travessia, havendo passagem física, movimento suficiente e um espaço livre ao final.",
+    "palavras": 48,
+    "paginas_base": [
+      32
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N027",
+    "bloco": "geral--saltos",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Rina tem Força 1 e 9 m de movimento. Ela percorre 3 m para tomar impulso e salta 4,5 m entre telhados no mesmo nível. Não precisa rolar e ainda tem 1,5 m para andar.",
+    "palavras": 36,
+    "paginas_base": [
+      34
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N028",
+    "bloco": "geral--quedas",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** uma personagem com 14 de vida cai 4,5 m. O d6 resulta em 4: ela fica com 10 de Vida e Derrubada. As regras comuns não concedem uma tentativa gratuita de anular essa queda com Acrobacia.",
+    "palavras": 37,
+    "paginas_base": [
+      35
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N029",
+    "bloco": "geral--rastejar",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Rina tem 9 m disponíveis e está Derrubada. Pode rastejar **4,5 m** em chão regular. Se todo o percurso for terreno difícil, consegue percorrer **3 m**. Não precisa de um teste por quadrado.",
+    "palavras": 34,
+    "paginas_base": [
+      36
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N030",
+    "bloco": "geral--rastejar",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** para cruzar 1,5 m por um duto baixo, Rina precisa rastejar e se espremer. Gasta **4,5 m**. Se houver entulho que torne o trecho difícil, gasta **6 m**. Retirar o entulho elimina somente esse acréscimo.",
+    "palavras": 36,
+    "paginas_base": [
+      37
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N031",
+    "bloco": "geral--voo",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Mei tem deslocamento terrestre 9 m e voo 12 m concedido por um efeito. Anda 6 m e depois passa a voar: restam **6 m de voo**. Se os percorrer, terá gasto 12 m no turno e não poderá voltar a caminhar com os 9 m terrestres. A troca não entrega 21 m.",
+    "palavras": 54,
+    "paginas_base": [
+      38
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N032",
+    "bloco": "geral--carga",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** com Força 0 e 4,5 Volume ocupado, Rina pode levar mais cinco itens de 0,1, chegando a **5**. Um sexto elevaria a carga a **5,1**, acima do limite: Rina ainda pode carregá-la, com deslocamento pela metade e desvantagem em TR Físico.",
+    "palavras": 42,
+    "paginas_base": [
+      39
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N033",
+    "bloco": "geral--carga",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Mei tem Força 2, limite 7, e leva 2 Volume. Um aliado de 60 kg ocupa **5 Volume**, mais 1 de equipamento. A carga total seria **8**: Mei pode carregá-lo com deslocamento pela metade e desvantagem em TR Físico. Redistribuir pelo menos 1 elimina a penalidade por carga.",
+    "palavras": 49,
+    "paginas_base": [
+      39
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N034",
+    "bloco": "geral--perceber",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Kaori ouve uma gaveta fechar numa sala escura. Percepção pode localizar quem se moveu ali. Investigar a mesa pode revelar o documento retirado. Nenhuma dessas descobertas permite enxergar através da parede.",
+    "palavras": 32,
+    "paginas_base": [
+      41
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N035",
+    "bloco": "geral--esconder",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Rina obtém 15 em Furtividade. Um vigia tem Percepção +4, portanto CD 14; outro tem +8, portanto CD 18. Ela fica oculta do primeiro, mas o segundo a localiza. O resultado guardado para uma busca do primeiro é 15.",
+    "palavras": 40,
+    "paginas_base": [
+      42
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N036",
+    "bloco": "geral--procurar",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** o vigia procura Rina atrás das caixas. Ela guardou Furtividade 15. Ele tem Percepção +4 e tira 11: total 15, suficiente para localizá-la. Pode avisar um aliado onde ela está. O aviso informa o espaço de Rina naquele momento, sem acompanhar seus movimentos futuros. A parede continua bloqueando ataques que precisem de passagem livre.",
+    "palavras": 55,
+    "paginas_base": [
+      42
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N037",
+    "bloco": "geral--estudar",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** Kaito encontra alguém caído ao lado de um frasco vazio e pergunta se a pessoa parece envenenada. O mestre pede Medicina. Com sucesso, descreve os sinais identificáveis e o que eles indicam. O teste não revela automaticamente quem deixou o frasco nem prevê o que a vítima fará ao acordar.",
+    "palavras": 51,
+    "paginas_base": [
+      44
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N038",
+    "bloco": "geral--pressao",
+    "capitulo": "2. Regras gerais",
+    "texto": "**Exemplo:** a preparação da missão estabelece que pulsos saem do porão e são perceptíveis na escadaria. Distingui-los é difícil, CD 14. Kaori obtém 11 e não consegue separar o pulso do restante da energia. Um sucesso identifica a pista do porão; não informa quantas criaturas estão lá nem os espaços que ocupam.",
+    "palavras": 52,
+    "paginas_base": [
+      47
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N039",
+    "bloco": "dano--dano",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Rina receberia 21 de Fogo e tem resistência a esse tipo. Metade é 10,5, arredondada para **11**. Uma habilidade permite reduzir 4 desse golpe: restam **7**. Ela tem 3 de vida temporária, que se esgotam, e perde **4 de vida**.",
+    "palavras": 41,
+    "paginas_base": [
+      51
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N040",
+    "bloco": "dano--tipos",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** um feitiço causa 8 de Veneno e aplica Envenenado ao acertar. Imunidade ao dano de Veneno zera os 8, mas não concede imunidade à condição. Se o efeito exigisse causar dano para envenenar, o dano zerado impediria esse gatilho.",
+    "palavras": 40,
+    "paginas_base": [
+      52
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N041",
+    "bloco": "dano--reducao",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** um golpe causa 30 de Fogo. A vítima tem resistência a Fogo e uma redução de 6 aplicável àquele golpe. Recebe metade de 30, que é 15, e depois desconta 6. Perde 9 de vida, ou gasta primeiro sua vida temporária.",
+    "palavras": 42,
+    "paginas_base": [
+      53
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N042",
+    "bloco": "dano--alma",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Integridade máxima do personagem = 20 + (Essência + 5) × (nível − 1).**",
+    "palavras": 14,
+    "paginas_base": [
+      53
+    ],
+    "tipo": "formula",
+    "motivo": "Conta de consulta durante o jogo; conservar destaque e usar o corpo de regra aprovado."
+  },
+  {
+    "id": "N043",
+    "bloco": "dano--alma",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** um golpe de 8 de Alma atinge Rina. Uma redução aplicável diminui o golpe para 5. Ela possui 3 de vida temporária. Perde esses 3, mais 2 de vida e 5 de Integridade.",
+    "palavras": 34,
+    "paginas_base": [
+      53
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N044",
+    "bloco": "dano--integridade",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Kaori tem máximo 26. Está com 12 de Integridade e perdeu 14, por isso está no estágio 2. Recuperar 5 a deixa com 17. Faltam 9 para o máximo, menos da metade, e seu estágio cai para 1. Recuperar mais 3 a deixaria com 20, no estágio 0.",
+    "palavras": 49,
+    "paginas_base": [
+      54
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N045",
+    "bloco": "dano--condicoes",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Mei pode remover uma condição com teto de 2 PE por uso. Pode gastar 2 PE para tirar Calado, mas não pode tirar Cego, que exige 3. Pagar três usos separados de 1 PE não transforma essa habilidade em uma remoção de condição Pesada.",
+    "palavras": 45,
+    "paginas_base": [
+      55
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N046",
+    "bloco": "dano--leves",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** um inimigo com a Guarda Aberta ainda pode atacar Rina. Se também ficar Atordoado, perde uma Ação Padrão e não usa Reações por causa de Atordoado; sua Defesa estática permanece, e Guarda Aberta continua impedindo Bloquear.",
+    "palavras": 37,
+    "paginas_base": [
+      56
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N047",
+    "bloco": "dano--medias",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Kaori precisa dizer o nome do feitiço como Selo e está Calada. Não consegue conjurá-lo. Mei tem um Selo que exige tocar a própria pulseira e nenhum requisito de voz: Calado não impede essa conjuração.",
+    "palavras": 36,
+    "paginas_base": [
+      57
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N048",
+    "bloco": "dano--medias",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Rina está Enfeitiçada por uma inimiga. Não pode atacá-la, mas pode se afastar ou ajudar um aliado conforme as ações disponíveis. Um capanga ataca Rina e erra: Enfeitiçado termina pelo ataque recebido, embora ela não tenha perdido vida.",
+    "palavras": 39,
+    "paginas_base": [
+      57
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N049",
+    "bloco": "dano--pesadas",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Rina começa o turno Atordoada. Ainda pode se mover e usar uma Bônus permitida, mas não usa sua Padrão. Fora do turno, continua podendo Bloquear, mas não pagar o revide de Aparar. No fim do turno, passa no TR e encerra a condição; isso não devolve a Padrão perdida daquele turno.",
+    "palavras": 52,
+    "paginas_base": [
+      58
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N050",
+    "bloco": "dano--cura",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Rina tem 14 de vida, de um máximo de 20. Recebe 8 de cura e fica com 20. Os 2 excedentes não viram vida temporária.",
+    "palavras": 26,
+    "paginas_base": [
+      58
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N051",
+    "bloco": "dano--temporarios",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Mei tem vida máxima 23 e recebe 15 de vida temporária. Seu teto é 11, então anota 11. Depois perde 8 e fica com 3. Uma nova concessão de 9 a deixa com 9 temporários. Se sofrer 12 de dano, perde os 9 temporários e 3 de vida.",
+    "palavras": 49,
+    "paginas_base": [
+      59
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N052",
+    "bloco": "dano--temporarios",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Rina tem 8 PE máximos, 2 PE comuns e recebe 6 temporários. O teto deixa 4 temporários. Ao gastar 5 PE, usa esses 4 e mais 1 comum. Termina com 1 PE comum.",
+    "palavras": 34,
+    "paginas_base": [
+      59
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N053",
+    "bloco": "dano--zero",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Mei cai sem Sequelas, logo depois do turno de um inimigo. Tem três rodadas. Depois de uma volta completa da iniciativa, restam duas. Um ataque posterior causa dano à vida dela e consome outra. Resta uma rodada para socorrê-la.",
+    "palavras": 40,
+    "paginas_base": [
+      60
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N054",
+    "bloco": "dano--insistir",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Kaito cai com máximo 80 e uma Sequela. A janela é de duas rodadas. Paga 10 para Insistir e fica com máximo 70. Após uma volta completa, resta uma rodada. Paga 20 e seu máximo cai para 50. Se não receber socorro até a próxima volta, fica Derrotado. Não chega a pagar a terceira fração.",
+    "palavras": 56,
+    "paginas_base": [
+      62
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N055",
+    "bloco": "dano--socorro",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Mei caiu com referência 23. Precisa de 5 de tratamento. Recebe 3 de cura e continua a zero. Outra cura de 3 completa 6. Ela volta com 6 de vida e uma Sequela. As curas anteriores não foram desperdiçadas.",
+    "palavras": 40,
+    "paginas_base": [
+      62
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N056",
+    "bloco": "dano--sequelas",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Mei cai e recebe socorro. Fica com uma Sequela. Se cair novamente antes do descanso longo, terá duas rodadas de janela, seja para Aguentar, seja para Insistir.",
+    "palavras": 28,
+    "paginas_base": [
+      63
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N057",
+    "bloco": "dano--descansos",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Rina tem máximo 10 PE e está com 1. Sem Exaustão, recupera **2 PE** no descanso curto, ficando com 3. Sua vida não muda. Se tivesse 9 PE, recuperaria apenas 1, por já alcançar o máximo.",
+    "palavras": 37,
+    "paginas_base": [
+      65
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N058",
+    "bloco": "dano--descansos",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** ao terminar a missão fora da base, Mei tem máximo 23 de vida e saldo 3. Vai a **11**, metade arredondada para baixo. Se já tivesse 18, conservaria 18. Um personagem com máximo 60 PE e saldo 8 vai a **30 PE**.",
+    "palavras": 43,
+    "paginas_base": [
+      65
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N059",
+    "bloco": "dano--exaustao",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** com máximo 8 PE, Rina recupera 2, 1, 1 ou zero em uma pausa fora da base, conforme esteja nos degraus 0, 1, 2 ou 3. Nos degraus 1 e 2, o valor coincide pelo arredondamento e pelo mínimo de 1; as penalidades continuam diferentes.",
+    "palavras": 46,
+    "paginas_base": [
+      66
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N060",
+    "bloco": "dano--exaustao",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** com deslocamento 9 m, Exaustão 2 limita a 4,5 m; Integridade no estágio 2 também resulta em 4,5 m. A combinação mantém **4,5 m**. Com deslocamento 6 m, a metade da Integridade é 3 m, então usa **3 m**.",
+    "palavras": 40,
+    "paginas_base": [
+      67
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N061",
+    "bloco": "dano--usos",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** uma capacidade pode atender cada aliado uma vez por cena. Trocar de usuário não permite repeti-la no mesmo alvo se o limite for por alvo. A descrição precisa informar a quem pertence o limite.",
+    "palavras": 35,
+    "paginas_base": [
+      68
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N062",
+    "bloco": "dano--usos",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** em uma missão de três dias, Rina pode renovar uma habilidade por dia após cada noite de sono. Uma habilidade por descanso longo permanece gasta até o descanso de encerramento da missão. Se uma pausa segura no segundo dia contar como descanso curto, apenas os usos com essa recuperação voltam por causa dela.",
+    "palavras": 54,
+    "paginas_base": [
+      68
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N063",
+    "bloco": "ab--ab-criacao",
+    "capitulo": "4. Criar um personagem",
+    "texto": "**Ficha digital.** [Abrir a ficha do Ciclo Maldito](https://docs.google.com/spreadsheets/d/1u0zWQFVaRTTc_VlrAJsabgAiJ1D4rTYhzG7QQWof1ro/edit?gid=20627004#gid=20627004). Entre em uma conta Google e selecione **Arquivo > Fazer uma cópia** para salvar uma ficha própria no seu Google Drive. Preencha essa cópia com os dados do seu personagem.",
+    "palavras": 38,
+    "paginas_base": [
+      70
+    ],
+    "tipo": "recurso digital",
+    "motivo": "Acesso a material de apoio; quadro de serviço discreto."
+  },
+  {
+    "id": "N064",
+    "bloco": "ab--ab-criacao",
+    "capitulo": "4. Criar um personagem",
+    "texto": "**Exemplo:** Kaori recebe Força 3, Destreza 2, Constituição 2, Inteligência 1 e Essência 1. A soma é 9. Ela será forte e resistente desde o começo, conservando alguma capacidade nos demais atributos.",
+    "palavras": 32,
+    "paginas_base": [
+      70
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N065",
+    "bloco": "ab--ab-origem",
+    "capitulo": "4. Criar um personagem",
+    "texto": "**Exemplo:** Kaori escolhe TR Físico com Força e treina Físico e Vigor. Seus bônus são **+4 em Físico**, **+3 em Vigor**, **+1 em Intelecto** e **+1 em Espírito**.",
+    "palavras": 28,
+    "paginas_base": [
+      71
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N066",
+    "bloco": "ab--ab-equipamento",
+    "capitulo": "4. Criar um personagem",
+    "texto": "**Exemplo:** o Caminho de Kaori concede **12 + Constituição** no primeiro nível e **7 + Constituição** no seguinte. Com Constituição 2, ela começa no nível 2 com **14 + 9 = 23 pontos de vida (PV)**. Seu PE máximo é **4 × nível = 8**.",
+    "palavras": 45,
+    "paginas_base": [
+      73
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N067",
+    "bloco": "origens--origem-latente",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo:** Mika escolhe A Testemunha. Sua antiga chefe viu uma maldição ser exorcizada no depósito e guardou segredo. Quando o grupo procura um endereço conhecido para descansar, Mika pode procurá-la. A ficha estabelece essa relação, sem obrigar a chefe a oferecer abrigo em qualquer situação.",
+    "palavras": 45,
+    "paginas_base": [
+      82
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N068",
+    "bloco": "origens--latente-beneficios",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo:** depois da missão, Mika tem 4 de seus 20 PE. Um descanso longo num abrigo sem estrutura deixaria sua reserva em pelo menos 10. Com Chão Duro, ela recupera os 20. O Legado não transforma uma pausa sob perseguição em descanso seguro.",
+    "palavras": 43,
+    "paginas_base": [
+      82
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N069",
+    "bloco": "origens--origem-receptaculo",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo:** o passageiro de Ren conheceu a família que guardava o santuário. O grupo já tem uma ligação para investigar quando encontra o símbolo dessa família. Precisará decidir como se apresentar e lidar com o que aconteceu no passado.",
+    "palavras": 39,
+    "paginas_base": [
+      83
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N070",
+    "bloco": "origens--receptaculo-excecoes",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo:** Ren usa Revezamento diante de uma patrulha. Impede Guarda Aberta, mas recebe normalmente o dano do efeito. A patrulha vê a mudança de expressão e ouve outra voz. Na conversa seguinte, Ren precisará explicar o que aconteceu, se quiser conservar a confiança dela.",
+    "palavras": 44,
+    "paginas_base": [
+      84
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N071",
+    "bloco": "origens--descendente-beneficios",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo:** Aya escolhe Arquivo e Biblioteca. Reconhece sem teste o método secreto da família nos corpos encontrados. Depois falha em Ocultismo ao pesquisar quem poderia ter retomado o experimento. Biblioteca permite refazer esse teste uma vez naquela cena.",
+    "palavras": 38,
+    "paginas_base": [
+      85
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N072",
+    "bloco": "origens--encarnado-beneficios",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo:** Seiji reconhece uma técnica da sua época por Conhecimento Antigo. Ele sabe a função tradicional dela, mas ainda precisa observar se o usuário desenvolveu aplicações diferentes. Contra uma técnica moderna, o Legado não fornece essa identificação.",
+    "palavras": 37,
+    "paginas_base": [
+      86
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N073",
+    "bloco": "origens--origem-reparo",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo:** Rui tem 31 PV máximos e está com 8. Um aliado da mesma Classe repara seu corpo com atributo 3 e maestria 2. A CD é 13 e o bônus treinado é +5. Com 8 no d20, alcança 13 e recupera 15 PV. Rui termina com 23.",
+    "palavras": 48,
+    "paginas_base": [
+      91
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N074",
+    "bloco": "origens--corpo-configuracoes",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo:** Rui escolhe Ninhada e descreve três consciências: uma curiosa, uma cautelosa e uma que tenta mediar as discussões. Ele interpreta as três, mas rola uma única Iniciativa e usa os recursos normais de um personagem. A escolha do segundo Legado definirá o benefício mecânico associado à configuração.",
+    "palavras": 48,
+    "paginas_base": [
+      92
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N075",
+    "bloco": "origens--corpo-ninhada-gemeos",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo de Ninhada: Rodízio.** Rui escolhe Rodízio e registra Tecnologia, História e Medicina. Ao tentar compreender uma máquina, usa Tecnologia como treinado. Se maestria 2 fosse o único bônus que faltava, ele passa a somá-la naquela tentativa. O uso daquela cena foi gasto: não poderá usar o mesmo Legado em Medicina logo depois.",
+    "palavras": 50,
+    "paginas_base": [
+      92
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N076",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo:** numa missão com quatro confrontos, Recarga só poderá ser usado quatro vezes se houver os descansos curtos necessários entre os usos. O número de combates sozinho não renova a entrada.",
+    "palavras": 31,
+    "paginas_base": [
+      93
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N077",
+    "bloco": "origens--restricao-sem-energia",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo:** Sora escolhe Desde Criança. A ferramenta recebida pela criação tem a marca de uma oficina que fechou muitos anos antes. Um artesão pode reconhecê-la e contar sobre o dono anterior. Essa história não altera o dano ou os efeitos que a arma realmente possui.",
+    "palavras": 45,
+    "paginas_base": [
+      95
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N078",
+    "bloco": "origens--restricao-beneficios",
+    "capitulo": "5. Origens e Legados",
+    "texto": "**Exemplo:** Sora está escondida quando falha em Furtividade. Ninguém Viu permite repetir aquela rolagem. Se depois atacar de modo que revele sua posição, precisará seguir normalmente as regras para esconder-se outra vez.",
+    "palavras": 32,
+    "paginas_base": [
+      96
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N079",
+    "bloco": "bastiao--bas-aliados",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Um aliado tem 10 de vida e receberia 16 depois de suas proteções. Ele perde 9 e permanece com 1. Você recebe os 7 restantes. Se tiver resistência ao tipo, aplica essa defesa à sua parcela.",
+    "palavras": 37,
+    "paginas_base": [
+      102
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N080",
+    "bloco": "bastiao--bas-aliados",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Dano misto.** Depois das proteções e da reserva do aliado, restam 15 de Cortante e 6 de Fogo, nessa ordem. Com 10 de vida, ele perde 9 de Cortante e conserva 1. Você recebe **6 de Cortante e 6 de Fogo**. Resistência a Cortante deixa sua parcela em **3 + 6 = 9**. Sua Reação já gasta não impede Passa Pra Mim, mas a transferência não permite outro Bloquear.",
+    "palavras": 69,
+    "paginas_base": [
+      102
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N081",
+    "bloco": "bastiao--bas-muro",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Uma aliada está ao seu lado. Contra um atirador distante, recebe a cobertura. Contra um inimigo usando uma arma de alcance que permaneça longe de você, essa habilidade não concede cobertura por aquele ataque corpo a corpo.",
+    "palavras": 38,
+    "paginas_base": [
+      103
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N082",
+    "bloco": "bastiao--bas-casca",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Um ataque assumido causaria 36. Você tem Constituição 3 e falhou em Bloquear com 5 e 4: Duro de Matar desconta 12. Em Casca Grossa, tira 2 e 7, para outra redução de 11. Restam **13 de dano**. Se Alicerce proteger desse tipo, o dano começa em 18 e as duas reduções o zeram.",
+    "palavras": 55,
+    "paginas_base": [
+      104
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N083",
+    "bloco": "bastiao--bas-punho",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Você ativa Olhos Em Mim como Bônus e acerta sua Ação Atacar. Sua Bônus já foi gasta, portanto não ganha o golpe desse primeiro gatilho. Se depois interceptar um ataque, for acertado e o agressor estiver ao alcance, ainda pode usar a resposta que integra a Reação.",
+    "palavras": 48,
+    "paginas_base": [
+      104
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N084",
+    "bloco": "bastiao--bas-mao",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Você pode empurrar dois inimigos diferentes na rodada, se acertar ambos. Fora da ampliação de Arrastão, só um desses acertos pode receber a tentativa adicional de derrubar ou agarrar. Passar no TR evita essa condição, mas não desfaz o empurrão.",
+    "palavras": 41,
+    "paginas_base": [
+      105
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N085",
+    "bloco": "vanguarda--van-sequencia",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** No nível 10, Emi tem dois ataques na Ação Atacar. Acerta o Golpe Inicial no primeiro e Conduz no segundo, pagando 2 PE com Maestria 2. No turno seguinte, pode usar um ataque para Concluir. O outro continua disponível como ataque comum, mas não abre outra Sequência depois da Conclusão.",
+    "palavras": 51,
+    "paginas_base": [
+      111
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N086",
+    "bloco": "vanguarda--van-yumi-avanco",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Você armou Desestabilizadora com Acompanhar e guardou Antecipar. O inimigo anuncia um ataque em vez de se mover. Antes dos dados, Última Leitura permite mudar para Antecipar e soltar a mesma Desestabilizadora.",
+    "palavras": 33,
+    "paginas_base": [
+      118
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N087",
+    "bloco": "vanguarda--van-besta-avanco",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Você consome um farpado em Debilitante e reserva o comum que sobrou. Na próxima abertura acertada contra aquele inimigo, pode começar com o comum preservado e um novo, mas ainda precisa Conduzir.",
+    "palavras": 33,
+    "paginas_base": [
+      119
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N088",
+    "bloco": "vanguarda--van-fogo-avanco",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Depois de Ruptura e recarga por Movimento, escolha outro inimigo. No turno seguinte, um Golpe Inicial acertado começa com Oportunidade. Você pode usá-la na execução futura ou gastá-la numa retirada, mas ainda precisa cumprir o preparo da Conclusão.",
+    "palavras": 39,
+    "paginas_base": [
+      121
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N089",
+    "bloco": "emanador--ema-desdobramento",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Ocultação usa Silencioso. Ela pode dispensar os sinais que a Melhoria permite, mas não apaga a Restrição Gesto. Se você recebeu pontos por usar as duas mãos e falar, ainda precisa fazer isso.",
+    "palavras": 34,
+    "paginas_base": [
+      140
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N090",
+    "bloco": "emanador--ema-remodelar",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Um Projétil de Classe 3 tem Fura por 3 pontos, sem desconto, e causa 6d8. Trocar Fura por Rápido, que custa 5, retira **2d8**. A versão causa 4d8, usa Bônus e custa **9 + 2 = 11 PE**. É preciso cumprir as demais regras de Rápido.",
+    "palavras": 47,
+    "paginas_base": [
+      141
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N091",
+    "bloco": "emanador--ema-modulacoes",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Na Classe 3, Extensão acrescenta Longe por 2 PE, ou 1 PE se Alcance for Livre. Toque não aceita essa Modulação. O pagamento não transforma uma combinação incompatível em válida.",
+    "palavras": 31,
+    "paginas_base": [
+      142
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N092",
+    "bloco": "emanador--ema-forma",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Uma Aura de Classe 3, sem desconto, tem Fura: custo 2 + 3, com devolução 3 de Corpo a Corpo. Causa **7d8**. Trocá-la por Explosão mantém o preço da Forma, mas retira a devolução: a versão passa a **4d8**. O PE adicional de Remodelar continua sendo 2.",
+    "palavras": 48,
+    "paginas_base": [
+      143
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N093",
+    "bloco": "emanador--ema-instintiva",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Você tem um Classe 2 Instintivo. Como Padrão, ele custa 1 PE. Forçar Aceleração transforma o uso em Bônus: nessa execução, o benefício Instintivo deixa de valer. Some o preço da Modulação ao custo aplicável à versão de Bônus.",
+    "palavras": 40,
+    "paginas_base": [
+      144
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N094",
+    "bloco": "emanador--ema-manifestacao",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Você atinge um inimigo à frente de uma passagem e faz um Cone partir do espaço dele em direção ao corredor. O Cone mantém suas dimensões, seus alvos e suas defesas normais.",
+    "palavras": 33,
+    "paginas_base": [
+      147
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N095",
+    "bloco": "emanador--ema-repetir",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Longe sem desconto custa 2 PE como Modulação na Classe 3. Seu Eco permite repeti-la por **1 PE** em outra aplicação dessa Classe. Se Longe já custar 1, a metade arredondada continua sendo 1.",
+    "palavras": 35,
+    "paginas_base": [
+      148
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N096",
+    "bloco": "emanador--ema-contraponto",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Você usa um Eco para trocar uma Melhoria por Longe. Paga Remodelar para trocar outra por Empurrão. Depois da resolução, pode guardar Empurrão. Não cria outro Eco de Longe só porque repetiu a alteração anterior.",
+    "palavras": 36,
+    "paginas_base": [
+      149
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N097",
+    "bloco": "emanador--ema-acorde",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** No primeiro turno, você registra uma troca para Longe. No seguinte, registra outra para Contorno. No terceiro, ainda dentro do prazo de ambas, pode repetir as duas trocas e pagar uma alteração nova. As três precisam caber na aplicação final.",
+    "palavras": 41,
+    "paginas_base": [
+      149
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N098",
+    "bloco": "emanador--ema-fluxo",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Na Classe 4, Acelerar e Aperfeiçoar o dano custam **2 + 2 = 4 PE adicionais**. Intensificar um ataque e reservar Corrigir custam 2 de imediato e mais 4 somente se você pagar a rerrolagem.",
+    "palavras": 36,
+    "paginas_base": [
+      151
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N099",
+    "bloco": "emanador--ema-fluxo",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Uma Expressão Familiar de Padrão prepara Impulso. No turno seguinte, você o gasta e usa Fluxo Contínuo. Na próxima aplicação, pode gastá-lo normalmente ou combinar duas opções. Recuperar o Impulso não recupera a ação ou os PE usados.",
+    "palavras": 39,
+    "paginas_base": [
+      151
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N100",
+    "bloco": "incursor--inc-movimento",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo:** com deslocamento de 12 m, você pode percorrer 6 m de parede e usar os outros 6 m no chão. Correr dá mais 12 m de movimento, mas não permite percorrer outros 6 m pela parede antes da próxima renovação.",
+    "palavras": 41,
+    "paginas_base": [
+      179
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N101",
+    "bloco": "incursor--inc-respostas",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo:** você começa sem Fluidez e acerta um inimigo: primeira obtenção. Gasta-a em Passo Rápido. Mais tarde, um inimigo erra contra você: segunda obtenção. Você a conserva, mas não pode usar esse erro para Reflexo, pois estava sem Fluidez quando o ataque foi declarado.",
+    "palavras": 44,
+    "paginas_base": [
+      180
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N102",
+    "bloco": "incursor--inc-guarda",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Se ainda não se moveu naquela rodada e a vítima já está ao alcance da sua arma, pode estudar a guarda e atacá-la sem se mover. Se usou Passo Guardado antes do seu turno naquela rodada, não pode utilizar essa preparação. Depois de estudar, também não pode usar Passo Rápido ou Passo Guardado até a rodada terminar.",
+    "palavras": 58,
+    "paginas_base": [
+      183
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N103",
+    "bloco": "incursor--inc-parkour",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Você escolhe seu Alvo Estudado sem gastar uma ação e usa sua Bônus para Desengajar. Ataca, move-se até uma posição onde possa se esconder e, ao terminar o movimento, faz o teste de Furtividade sem gastar outra ação. Se conseguir permanecer oculto da vítima até o próximo ataque, terá uma oportunidade de abate contra ela.",
+    "palavras": 56,
+    "paginas_base": [
+      183
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N104",
+    "bloco": "incursor--inc-cirurgico",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Com Destreza 5, Golpe Cirúrgico custa **4 PE e Fluidez** e concede **4 dados adicionais**. Se seu Canalizar normal for `3d4`, uma arma de `1d8` causa **1d8 + atributo do ataque + 7d4**: os `3d4` normais de Canalizar e `4d4` adicionais. Em um crítico que dobre os dados da arma, causa **2d8 + atributo do ataque + 14d4**: os `6d4` normais de Canalizar já dobrados e os `8d4` adicionais também dobrados. Role todos esses dados normalmente. Uma ficha com Inteligência 5 também pode usar esse atributo para obter o mesmo custo e os mesmos 4 dados adicionais.",
+    "palavras": 98,
+    "paginas_base": [
+      184
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N105",
+    "bloco": "incursor--inc-cortar",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo:** Destreza 5 exige 4 PE no Golpe Cirúrgico, ou 8 PE ao combiná-lo com Instante Decisivo. As duas opções acrescentam os mesmos quatro dados; a combinação usa a Fluidez já gasta em Instante Decisivo.",
+    "palavras": 35,
+    "paginas_base": [
+      185
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N106",
+    "bloco": "incursor--inc-parkour",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo:** com deslocamento 12 m, Força 0 e Acrobacia +4, você percorre 6 m de parede e tenta saltar 4,5 m até sua vítima. O salto normal com impulso alcança 3 m; o esforço adicional pede CD 14. Um 10 no d20 basta. Você gastou 10,5 m de movimento e 6 m do limite acrobático. Se acertar durante a aproximação, pode usar a vítima como apoio para outro salto de até 1,5 m, desde que haja um destino permitido ao alcance. Só esse segundo salto evita ataques de oportunidade.",
+    "palavras": 89,
+    "paginas_base": [
+      185
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N107",
+    "bloco": "incursor--inc-base",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Com deslocamento de 12 m, um empurrão de 6 m permite gastar Fluidez para retornar até 6 m. Se for empurrado 9 m, também pode retornar até 6 m.",
+    "palavras": 30,
+    "paginas_base": [
+      189
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N108",
+    "bloco": "incursor--inc-redirecionar-resolucao",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo:** o agressor errou você com resultado 17, contra Defesa 18. Ele falha no TR da habilidade. O mesmo 17 é comparado à Defesa 15 do novo alvo, que pode Bloquear. O novo alvo precisa estar no alcance original do agressor; estar perto de você não basta.",
+    "palavras": 47,
+    "paginas_base": [
+      191
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N109",
+    "bloco": "incursor--inc-continuacoes",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Você paga 3 PE pela Ofensiva em Movimento e acerta o primeiro arremesso. Usa a Fluidez obtida nesse acerto e mais 3 PE para continuar com a mesma arma contra outro inimigo a 4,5 m da primeira vítima. Depois da continuação, ainda possui o segundo ataque da Ação Atacar. O total é de três ataques, por 6 PE e Fluidez. O acerto da continuação não permite repetir Lançamento Cruzado naquele turno.",
+    "palavras": 72,
+    "paginas_base": [
+      194
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N110",
+    "bloco": "incursor--inc-ricochete",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Seu chakram tem faixas de 6 m e 18 m. Ao atingir uma parede a 3 m, restam 3 m da faixa normal. Ricochete acrescenta 6 m: o alvo pode estar a até 9 m da parede sem desvantagem por distância. O percurso total máximo passa a 24 m, com desvantagem quando a faixa normal é ultrapassada. Se a parede já estiver a 9 m de você, o ataque recebe desvantagem mesmo que o alvo esteja logo depois dela, porque o primeiro trecho ultrapassou os 6 m originais da faixa normal.",
+    "palavras": 92,
+    "paginas_base": [
+      194
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N111",
+    "bloco": "incursor--inc-retorno",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Você acerta um inimigo com um kunai. Gasta Fluidez e 4 PE para fazê-lo atingir uma parede a 1,5 m da vítima e voltar contra ela. O percurso de retorno soma 3 m. Faça a nova rolagem de ataque. Se utilizou Ofensiva em Movimento, ainda possui seu outro ataque da Ação Atacar: a combinação custa 7 PE e Fluidez e conserva o total de até três ataques próprios.",
+    "palavras": 69,
+    "paginas_base": [
+      195
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N112",
+    "bloco": "incursor--inc-finta",
+    "capitulo": "6. Caminhos e Trilhas",
+    "texto": "**Exemplo.** Um inimigo bloqueia seu primeiro arremesso e evita o acerto. Você ainda possui Fluidez e paga 6 PE para utilizar Trajetória de Retorno. A arma ricocheteia em uma parede e volta contra ele. Você faz uma nova rolagem com vantagem, comparada à Defesa normal do alvo, sem outro Bloquear. O arremesso inicial permanece um erro.",
+    "palavras": 56,
+    "paginas_base": [
+      196
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N113",
+    "bloco": "pericias--pericias",
+    "capitulo": "7. Perícias e Ofícios",
+    "texto": "**Exemplo:** Rina é treinada em Arrombamento, tem Destreza 4, Inteligência 2 e Maestria 1. Numa tranca mecânica, seu bônus é **+5**. Ao analisar uma tranca eletrônica com as ferramentas adequadas, o mestre pede Inteligência: o bônus passa a **+3**, dois pontos a menos. Diante de CD 14, ela precisa tirar 9 ou 11, respectivamente.",
+    "palavras": 54,
+    "paginas_base": [
+      199
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N114",
+    "bloco": "pericias--tarefas",
+    "capitulo": "7. Perícias e Ofícios",
+    "texto": "**Exemplo:** Rina não identifica uma assinatura num papel borrado. Ler a mesma marca novamente não cria outra pista. Encontrar um documento nítido para comparação pode permitir uma nova tentativa. Se a tarefa fosse destrancar a fechadura de seu catálogo, uma nova tentativa seguiria o tempo já previsto para ela.",
+    "palavras": 49,
+    "paginas_base": [
+      200
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N115",
+    "bloco": "pericias--fisicas",
+    "capitulo": "7. Perícias e Ofícios",
+    "texto": "**Exemplo:** Kaori pode tentar trocar duas fichas sobre uma mesa sem que a pessoa ao lado perceba. Puxar a espada que essa pessoa está empunhando exige uma regra de desarme; não é a mesma tarefa com CD maior.",
+    "palavras": 38,
+    "paginas_base": [
+      201
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N116",
+    "bloco": "pericias--ambiente",
+    "capitulo": "7. Perícias e Ofícios",
+    "texto": "**Exemplo:** o grupo encontra uma câmera desligada. Tecnologia pode indicar que a fonte de alimentação falhou. Religar o aparelho com uma fonte adequada resolve o problema identificado; não exige automaticamente outro teste. Se o defeito estiver numa peça interna danificada, será necessário repará-la ou substituí-la.",
+    "palavras": 45,
+    "paginas_base": [
+      203
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N117",
+    "bloco": "pericias--oficios",
+    "capitulo": "7. Perícias e Ofícios",
+    "texto": "**Exemplo:** preparar a proporção de uma receita usa Culinária com Inteligência. Se o desafio for moldar à mão uma decoração delicada já planejada, o mestre pode pedir Destreza no mesmo ofício. Ter Destreza alta não muda o atributo do preparo da receita inteira.",
+    "palavras": 43,
+    "paginas_base": [
+      205
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N118",
+    "bloco": "pericias--reparos",
+    "capitulo": "7. Perícias e Ofícios",
+    "texto": "**Exemplo:** o Traje de Rina rasgou numa parte que prende sua proteção. O mestre informa que um reparo com Alfaiate exige tecido e fechos de **¥3.000**, ferramentas e **4 horas de trabalho**. É um serviço conhecido, sem risco relevante; não exige teste. Depois de 2 horas, ainda faltam **2 horas**. Ao concluir, ela recupera o funcionamento da peça, sem aumentar a proteção. Esses valores pertencem a esse reparo, não a todos os Trajes.",
+    "palavras": 73,
+    "paginas_base": [
+      206
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N119",
+    "bloco": "equip--eq-equipamento",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Rina tem Destreza 4, Força 0 e treino em Lâmina Longa. Sua Katana não exige Força e tem Fineza: ela pode usá-la com Destreza sem essas penalidades. Um Espadão exige Força 3; o treino na categoria não elimina essa exigência.",
+    "palavras": 41,
+    "paginas_base": [
+      209
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N120",
+    "bloco": "equip--eq-manipular",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Mei guarda uma faca com sua manipulação gratuita e saca um Kunai usando a Ação de Movimento inteira. Ainda pode atacar se tiver sua Ação Padrão disponível. Se já tivesse usado o Movimento para andar, precisaria obter outra ação por conversão ou esperar para sacar.",
+    "palavras": 46,
+    "paginas_base": [
+      210
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N121",
+    "bloco": "equip--eq-objetos",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Kaori já segura um pé de cabra. Quer abrir a porta emperrada antes de o perseguidor chegar. O mestre pede Atletismo CD 14 e avisa que cada tentativa custa uma Ação Padrão e faz barulho. Com total 12, ela falha e a porta permanece fechada; não recebe outra rolagem gratuita naquele turno.",
+    "palavras": 53,
+    "paginas_base": [
+      211
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N122",
+    "bloco": "equip--eq-propriedades",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** com uma Kama de d6 e Força 3, Mei rola 2 e 5, escolhe 5 e soma 3: 8 de dano, antes de outros efeitos. Com uma arma de 2d6 e Par, rolaria dois conjuntos de 2d6 e escolheria a maior soma. Em um crítico que dobre esses dados, seriam dois conjuntos de 4d6.",
+    "palavras": 55,
+    "paginas_base": [
+      213
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N123",
+    "bloco": "equip--eq-oculta",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Rina esconde um Tanto no casaco. Obtém 15 em Prestidigitação. Um vigia com Percepção +4 tem CD 14 e não o nota. Ao revistar o casaco, consegue Investigação 15 e encontra a arma. Rina continua visível durante toda a cena: só a arma estava escondida.",
+    "palavras": 46,
+    "paginas_base": [
+      213
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N124",
+    "bloco": "equip--eqp-protecao",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Rina tem Destreza 4 e usa Traje 2, que fornece proteção 2 sem teto. Sua Defesa é 10 + 4 + 2 = **16**. Com um Broquel, recebe mais 1 de proteção: 10 + 4 + 2 + 1 = **17**. Um escudo Médio exigiria Força 3; com ele, ela só poderia contar 3 de Destreza.",
+    "palavras": 57,
+    "paginas_base": [
+      214
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N125",
+    "bloco": "equip--eqp-traje",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Kaori tem Maestria 1, escolheu TR Físico e Atletismo, e seu Traje ajuda em água e chuva. Sob chuva, tem vantagem nessas duas rolagens. Furtividade e TR de Vigor continuam normais. Com Maestria 2, ela acrescenta Furtividade; o tipo de TR permanece o mesmo.",
+    "palavras": 45,
+    "paginas_base": [
+      216
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N126",
+    "bloco": "equip--eqp-escudo",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Sousuke tem Força 6 e Destreza 2. Usa Revestimento 3 e escudo Torre: sua Defesa é 10 + 0 + 6 + 3 = **19**. As duas peças ocupam **6 Volume**, dentro do limite 11; ainda precisa somar as armas e os demais itens que carrega.",
+    "palavras": 47,
+    "paginas_base": [
+      217
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N127",
+    "bloco": "equip--eqp-vestir",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Rina tem Destreza 4 e Traje 2. Decide retirá-lo. Durante o minuto da tarefa, deixa de receber os 2 pontos do Traje e ainda não recupera a proteção passiva disponível na ficha: sua Defesa, sem escudo ou outros efeitos, é **14**. Ao concluir, recalcula a Defesa com a proteção passiva disponível na ficha.",
+    "palavras": 54,
+    "paginas_base": [
+      218
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N128",
+    "bloco": "equip--eqm-recarga",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Kaori tem um Rifle com 3 unidades e 3 na reserva. O primeiro ataque consome uma e termina em 2 natural: o Rifle fica com 2 e precisa recarregar. Kaori gasta sua Ação Bônus, acrescenta uma da reserva e fica com 3 na arma e 2 guardadas. Se não tivesse reserva, a mesma ação deixaria o Rifle pronto com as 2 restantes.",
+    "palavras": 63,
+    "paginas_base": [
+      220
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N129",
+    "bloco": "equip--eqm-reserva",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** uma Pistola carregada ocupa 0,5 Volume. Dois carregadores de reserva acrescentam 0,4: o conjunto ocupa 0,9. Depois de uma troca, se guardar o carregador vazio, continua carregando dois recipientes extras e mantém 0,9 Volume.",
+    "palavras": 35,
+    "paginas_base": [
+      220
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N130",
+    "bloco": "equip--eqa-armas",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Rina quer uma arma para uma mão e tem treino em Lâmina Longa. A Katana custa ¥48.000, ocupa 1 Volume e não exige Força mínima. Sua linha informa 1d8 de Cortante e as propriedades Fineza e Versátil. Rina escolhe como empunhá-la e anota na ficha o dano com os modificadores que se aplicam.",
+    "palavras": 54,
+    "paginas_base": [
+      222
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N131",
+    "bloco": "equip--eqi-itens",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** mochila, corda, lanterna, pilhas e cantil custam **¥13.000** e ocupam **1,3 Volume**, incluindo a mochila. Acrescentar uma ração custa ¥1.000 e leva o total a 1,4 Volume.",
+    "palavras": 28,
+    "paginas_base": [
+      228
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N132",
+    "bloco": "equip--eqi-objetos",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** uma porta de madeira tem Defesa 14 e 20 de Vida. Dois golpes que acertem, causando 8 e 12 de dano, a levam a zero e abrem passagem.",
+    "palavras": 29,
+    "paginas_base": [
+      231
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N133",
+    "bloco": "equip--eqi-efeitos",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** uma parede de energia com essa ficha pode receber um golpe que a alcance. Um efeito exclusivo para criaturas continua sem poder escolhê-la como alvo.",
+    "palavras": 26,
+    "paginas_base": [
+      232
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N134",
+    "bloco": "equip--eqi-improvisadas",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Rina tem Força 2, Destreza 4 e Maestria 1. Arremessa uma garrafa a 6 m: rola o ataque com bônus +5 e desvantagem, causando 1d4 + 2 se acertar. A garrafa não recebe Fineza nem outro benefício. Se o mestre definir que ela se quebra no impacto, não poderá ser recolhida intacta.",
+    "palavras": 53,
+    "paginas_base": [
+      232
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N135",
+    "bloco": "equip--eqc-dinheiro",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Kaori começa no Grau 4 e tem dinheiro suficiente para uma Pistola. Ainda precisa de autorização, pois o acesso comum às armas de fogo começa no Grau 2. Mesmo autorizada, deve conferir a Força exigida pela arma e a carga do conjunto que pretende levar.",
+    "palavras": 46,
+    "paginas_base": [
+      234
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N136",
+    "bloco": "equip--eqc-precos",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Rina dispõe de ¥150.000. Comprar um Traje 2 por ¥90.000 deixa **¥60.000**. Ela pode usar essa quantia para uma Katana de ¥48.000 e guardar os **¥12.000** restantes, ou escolher outro conjunto. A soma cabe no dinheiro inicial; carga e requisitos ainda precisam ser conferidos.",
+    "palavras": 45,
+    "paginas_base": [
+      235
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N137",
+    "bloco": "equip--eqc-inicial",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Rina compra Katana e Broquel por ¥60.000. Acrescenta mochila, corda, lanterna, pilhas e cantil por ¥13.000. Gasta **¥73.000**, guarda **¥77.000** e leva **3,1 Volume**, incluindo o Traje 1. Com Força 0, seu limite é 5.",
+    "palavras": 36,
+    "paginas_base": [
+      236
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N138",
+    "bloco": "equip--eqc-compras",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Kaori tem ¥10.000. Compra três carregadores de Rifle por ¥4.500, uma lanterna por ¥3.000 e uma reposição de pilhas por ¥500. Gasta **¥8.000**, fica com **¥2.000** e acrescenta **1,2 Volume** ao inventário. Os carregadores fornecem 9 ataques de reserva, além da munição que já estiver na arma.",
+    "palavras": 48,
+    "paginas_base": [
+      236
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N139",
+    "bloco": "equip--eqf-equipamento",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** Kaori recebe um uniforme comum que muda de aparência. Sua Defesa permanece igual à que tinha antes de vesti-lo. Se recebesse um Traje 2 com o mesmo efeito, usaria a proteção e os requisitos de Traje 2, além da mudança de aparência.",
+    "palavras": 43,
+    "paginas_base": [
+      239
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N140",
+    "bloco": "equip--eqf-aquisicao",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** uma espada com efeito de retorno conserva suas propriedades. Esse efeito não lhe concede Longo Alcance, não muda o dado e não dispensa munição de outra arma. A ficha precisa dizer o que realmente volta para a mão e em qual situação.",
+    "palavras": 43,
+    "paginas_base": [
+      242
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N141",
+    "bloco": "equip--eqf-roupas",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** uma personagem cercada vê uma varanda vazia a 6 m. Pode usar o Manto para chegar lá, se houver apoio. Não pode escolher o interior de um quarto fechado que não consiga ver, nem levar um aliado agarrado a ela.",
+    "palavras": 41,
+    "paginas_base": [
+      244
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N142",
+    "bloco": "equip--eqf-reliquias",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** uma explosão atingiria três personagens. O portador da lança passa no TR de Anátema e evita os efeitos sobre si. Os outros dois ainda resolvem a explosão. Ele já gastou sua Reação e o uso de Anátema daquela cena.",
+    "palavras": 40,
+    "paginas_base": [
+      246
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N143",
+    "bloco": "equip--eqf-desgaste",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** uma ferramenta de grau 1 começa com três missões. O grupo registra cada missão em que o efeito foi usado, mesmo se outra pessoa receber o item emprestado.",
+    "palavras": 29,
+    "paginas_base": [
+      247
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N144",
+    "bloco": "equip--eqf-objetos",
+    "capitulo": "8. Equipamento",
+    "texto": "**Exemplo:** o grupo precisa levar um objeto selado a um depósito protegido. O mestre informa que o selo deve resistir até a entrega. Se o grupo decidir removê-lo para investigar o conteúdo, perde essa proteção e passa a lidar com a atração do objeto.",
+    "palavras": 44,
+    "paginas_base": [
+      248
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N145",
+    "bloco": "fundamento--fundamento",
+    "capitulo": "10. Fundamento",
+    "texto": "**Uma ideia, aplicações diferentes.** Mei produz fios de energia amaldiçoada. Ela pode aprender um feitiço que corta, outro que puxa uma criatura e outro que prende seus movimentos. Todos nascem dos mesmos fios. Cada um tem sua própria ficha.",
+    "palavras": 39,
+    "paginas_base": [
+      262
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N146",
+    "bloco": "fundamento--familias",
+    "capitulo": "10. Fundamento",
+    "texto": "**Exemplo.** Uma Melhoria Média de Classe 3 custa 3 pontos. Se a Família é Livre, o desconto é 2: você paga 1. Uma Leve custa 2 e também fica em 1. Não existe Melhoria gratuita por esse desconto.",
+    "palavras": 38,
+    "paginas_base": [
+      266
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N147",
+    "bloco": "fundamento--repertorio",
+    "capitulo": "10. Fundamento",
+    "texto": "**Exemplo.** A técnica de Bruna cria animais de papel que agem sob suas ordens. No nível 2, ela pode usar dois dos seus 3 espaços para feitiços e o terceiro para uma entidade de nível 2. Os dois feitiços de Classe 0 ficam separados. Uma técnica que apenas corta com fios, sem criar ou chamar entidades, não permite essa troca.",
+    "palavras": 60,
+    "paginas_base": [
+      268
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N148",
+    "bloco": "fundamento--pontos",
+    "capitulo": "10. Fundamento",
+    "texto": "**Restrição paga Melhorias, nunca a Forma.** Ela pode recuperar dados que você gastou nas Melhorias, mas nunca elevar o saldo acima dos 3 × Classe iniciais. Técnica Máxima usa outro orçamento e não recebe devolução.",
+    "palavras": 35,
+    "paginas_base": [
+      270
+    ],
+    "tipo": "regra-chave",
+    "motivo": "Síntese de procedimento ou limite; preservar destaque próprio."
+  },
+  {
+    "id": "N149",
+    "bloco": "fundamento--alcance",
+    "capitulo": "10. Fundamento",
+    "texto": "**Exemplo.** Uma Explosão de Classe 2 começa com alcance 18 m e raio 3 m. Longe muda o alcance para 36 m. Maior muda o raio para 4,5 m. Comprar ambas produz as duas mudanças, com dois preços e duas Melhorias.",
+    "palavras": 41,
+    "paginas_base": [
+      273
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N150",
+    "bloco": "fundamento--combinacoes",
+    "capitulo": "10. Fundamento",
+    "texto": "**Corrigindo uma ideia.** Mei quer golpear com um fio comprido e havia escolhido Toque + Longe. Ela troca para Projétil: os 18 m já atendem à ideia. Perde a devolução de Corpo a Corpo, refaz a conta e mantém a descrição do fio.",
+    "palavras": 43,
+    "paginas_base": [
+      276
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N151",
+    "bloco": "fundamento--controle",
+    "capitulo": "10. Fundamento",
+    "texto": "**Na ficha:** Ação Padrão, 9 PE. Esfera de raio 3 m num ponto a até 18 m. O solo fica difícil por duas rodadas. Cada criatura na área faz TR Físico contra a CD de Hana +2. Na falha, fica Atordoada por duas rodadas. No sucesso, evita essa condição. Quem ficou Atordoado repete o TR no fim de cada turno para encerrá-la antes. Sair da área não encerra a condição já aplicada.",
+    "palavras": 72,
+    "paginas_base": [
+      277
+    ],
+    "tipo": "ficha de exemplo",
+    "motivo": "Resultado pronto da montagem; manter separação visual para consulta."
+  },
+  {
+    "id": "N152",
+    "bloco": "fundamento--danolimites",
+    "capitulo": "10. Fundamento",
+    "texto": "**Exemplo.** Classe 2 dá 6 pontos. Projétil + Salto, de preço normal, gasta 2; Gesto devolve 1. São **5d8** no primeiro alvo. Salto acrescenta metade, arredondada para baixo: **2d8** no outro inimigo mais próximo a até 9 m do primeiro. Escolha entre os empatados. O total soma **7d8**, dentro do limite 8. Depois de acertar o primeiro alvo, resolva um novo ataque contra o segundo, usando o mesmo bônus. Ele pode errar normalmente. Se a ficha usar TR, o salto exige a falha inicial e o segundo alvo faz seu próprio TR. O segundo dano não volta a saltar. Toque exige que ambos os alvos estejam a até 1,5 m de você.",
+    "palavras": 112,
+    "paginas_base": [
+      279
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N153",
+    "bloco": "fundamento--efeito",
+    "capitulo": "10. Fundamento",
+    "texto": "**Luz de Oficina.** Uma técnica que produz luz monta Efeito de Classe 2 para iluminar um cômodo grande por 10 minutos. Ação Padrão, 6 PE, sem Melhorias. Iluminação comum. Não cega, não revela ocultação sobrenatural e não concede bônus. Os 6 pontos não gastos não produzem outro efeito.",
+    "palavras": 48,
+    "paginas_base": [
+      282
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N154",
+    "bloco": "fundamento--classezero",
+    "capitulo": "10. Fundamento",
+    "texto": "**Fio curto.** No nível 2, Mei conhece um Projétil de Classe 0. Alcance 9 m, Ação Padrão, 2d8 de Cortante. Se montar uma versão com Empurrão, paga um dado: 1d8 e o deslocamento de até 6 m da peça. No nível 5, essa mesma versão passa a 2d8, pois a base subiu a 3d8.",
+    "palavras": 54,
+    "paginas_base": [
+      283
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N155",
+    "bloco": "fundamento--proprio",
+    "capitulo": "10. Fundamento",
+    "texto": "**Exemplo de limite.** “Trocar duas pessoas de lugar” precisa dizer quais pessoas, de onde a distância é medida, se precisam aceitar, como uma pessoa hostil resiste e onde chegam. A troca de posições é um Efeito Próprio, montado com o mestre.",
+    "palavras": 41,
+    "paginas_base": [
+      284
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N156",
+    "bloco": "fundamento--maxima",
+    "capitulo": "10. Fundamento",
+    "texto": "**Exemplo.** Mei usa a Máxima na rodada 1. Por padrão, só poderá usá-la de novo em outra cena. Se o mestre permitir a recarga, espera as rodadas 2, 3 e 4 e pode usá-la novamente na rodada 5, se tiver os recursos.",
+    "palavras": 42,
+    "paginas_base": [
+      286
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N157",
+    "bloco": "fundamento--maximadano",
+    "capitulo": "10. Fundamento",
+    "texto": "**Na ficha:** Ação Completa e 25 PE. Um alvo a até 18 m. Ataque de conjuração. No acerto, causa 24d8 e move o alvo até 6 m numa direção permitida. Passo concede a Mei um deslocamento de até 6 m antes ou depois da resolução, sem ataques de oportunidade. É o deslocamento específico de Passo: não devolve a Ação de Movimento consumida. O Selo continua necessário.",
+    "palavras": 66,
+    "paginas_base": [
+      287
+    ],
+    "tipo": "ficha de exemplo",
+    "motivo": "Resultado pronto da montagem; manter separação visual para consulta."
+  },
+  {
+    "id": "N158",
+    "bloco": "fundamento--retirada",
+    "capitulo": "10. Fundamento",
+    "texto": "**Exemplo.** Uma aliada atravessa 9 m de terreno difícil, gastando os 18 m concedidos. Outra percorre 18 m de corredor livre. Mover o usuário primeiro não permite selecionar um sétimo alvo nem alguém que estava fora do alcance inicial.",
+    "palavras": 39,
+    "paginas_base": [
+      290
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N159",
+    "bloco": "catalogo--cat-auxiliares",
+    "capitulo": "11. Catálogo de criação",
+    "texto": "**Exemplo:** uma criatura falha no TR de um feitiço com Abre Ferida, escolhido para afetar TR Físico. A penalidade não muda aquela falha. Um novo TR Físico feito dentro do prazo recebe -2. Seu TR de Vigor continua igual.",
+    "palavras": 39,
+    "paginas_base": [
+      300
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N160",
+    "bloco": "catalogo--cat-marca-recursos",
+    "capitulo": "11. Catálogo de criação",
+    "texto": "**Exemplo:** Classe 3 causa 16 de dano em um alvo e 28 em outro. Sugar recupera um quarto de 44: **11 de vida**, abaixo do limite 15. Se causasse 80 no total, recuperaria 15, e não 15 por alvo.",
+    "palavras": 39,
+    "paginas_base": [
+      304
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N161",
+    "bloco": "catalogo--cat-amparo-protecao",
+    "capitulo": "11. Catálogo de criação",
+    "texto": "**Exemplo:** Apoio com 9 de vida temporária, Guarda e Junto pode conceder 6 de vida temporária a uma aliada e 3 a outra. Só uma recebe Guarda. A distribuição 9 para cada uma não cabe.",
+    "palavras": 35,
+    "paginas_base": [
+      306
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N162",
+    "bloco": "catalogo--cat-proprio",
+    "capitulo": "11. Catálogo de criação",
+    "texto": "**Exemplo:** uma técnica que move objetos de papel quer deslocar uma aliada sobre uma plataforma. A ficha deve dizer quanto a plataforma percorre, se precisa de chão, quantas pessoas leva e o que ocorre diante de um obstáculo. “Transporta alguém” ainda não basta para usar a capacidade em jogo.",
+    "palavras": 49,
+    "paginas_base": [
+      306
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N163",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "capitulo": "11. Catálogo de criação",
+    "texto": "**Exemplo.** Um feitiço que custa 9 PE passa a custar 5. Se houver uma Dívida de 4 PE, o total será 9 PE. Dois inimigos derrotados pela mesma conjuração não reduzem o preço seguinte para um quarto.",
+    "palavras": 37,
+    "paginas_base": [
+      312
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N164",
+    "bloco": "aptidoes--apt-marcos",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Haru tem Refino 9 antes do nível 22. O aumento básico o leva a 10. Ele escolhe Refino e aprende duas aptidões cujos requisitos consegue cumprir. Não recebe Refino 11.",
+    "palavras": 31,
+    "paginas_base": [
+      318
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N165",
+    "bloco": "aptidoes--apt-cobrir",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Sem Traje, Revestimento ou escudo, com Refino 6, a proteção passiva é 3 e a redução é 9. Diante de um golpe que causaria 17, você paga 2 PE e recebe 8. Sua proteção fica em zero pelo prazo indicado, deixando os próximos ataques mais perigosos.",
+    "palavras": 42,
+    "paginas_base": [
+      321
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N166",
+    "bloco": "aptidoes--apt-canalizar",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Com Refino 6 e Força 4, um soco de 1d6 causa **1d6 + 4 + 3d4**. Num crítico comum, causa **2d6 + 4 + 3d4**. Se esse soco transportar um feitiço de dano, retire os 3d4 e siga a regra que permitiu acrescentar o feitiço.",
+    "palavras": 46,
+    "paginas_base": [
+      322
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N167",
+    "bloco": "aptidoes--apt-projetar",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Com Refino 6, Mei pode gastar de 1 a 3 PE. Ela escolhe 3 e usa seu ataque de conjuração habitual. Se acertar, causa **6d6 de Força**; num crítico, **12d6**. Mesmo podendo gastar 3, não pode aumentar o investimento depois de ver a rolagem.",
+    "palavras": 45,
+    "paginas_base": [
+      323
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N168",
+    "bloco": "aptidoes--apt-reversa",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Com maior Classe 4, Haru paga 3 PE e recupera 3d8 de vida. Ele poderia pagar até 4, mas não 7 apenas por ter Refino 7.",
+    "palavras": 27,
+    "paginas_base": [
+      324
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N169",
+    "bloco": "aptidoes--apt-energia-positiva",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Uma Cura de Classe 3 com 6d8 de cura mantém seu custo de 9 PE. Contra uma maldição, exige ataque. Se os dados somarem 26, o dano é **39 de Energia Reversa**, antes das defesas. Um crítico rolaria 12d8 antes do acréscimo de 50%.",
+    "palavras": 45,
+    "paginas_base": [
+      324
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N170",
+    "bloco": "aptidoes--apt-circulacao",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Com maior Classe 5, você pode pagar 7 PE para curar 7d8 com Ação Padrão ou 7d4 com Ação Bônus. Pode gastar menos. Trocar a ação reduz o dado, não o limite de PE.",
+    "palavras": 35,
+    "paginas_base": [
+      325
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N171",
+    "bloco": "aptidoes--apt-regravacao",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Com Inteligência 5 e maestria 4, o limite é **2 + 2 = 4 marcas**. A quarta Regravação devolve a técnica, mas impede abrir outra Expansão até o descanso longo. Com maior Classe 7 e Circulação, cada uso custa **10 PE**.",
+    "palavras": 42,
+    "paginas_base": [
+      325
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N172",
+    "bloco": "aptidoes--apt-kokusen",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Depois do crítico e das defesas, um golpe causaria 21. Se ocorrer Kokusen, o dano será **32**: 21 × 1,5 = 31,5, arredondado para cima. Se o golpe já foi reduzido a zero, continua causando zero.",
+    "palavras": 37,
+    "paginas_base": [
+      326
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N173",
+    "bloco": "aptidoes--apt-cesta",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Com Essência 4, uma falha ainda permite manter a Cesta. A segunda a derruba. Retomar o símbolo entre elas não reinicia a contagem.",
+    "palavras": 24,
+    "paginas_base": [
+      327
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N174",
+    "bloco": "aptidoes--apt-simples-duracao",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Com Essência 4 contra Essência 4, a capacidade começa em 3. Você impede um Acerto e falha no TR: a capacidade cai para 2. Impede o segundo. Outra falha não reduz a capacidade abaixo de 2. O terceiro derruba a proteção e atinge quem ela cobria.",
+    "palavras": 47,
+    "paginas_base": [
+      329
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N175",
+    "bloco": "aptidoes--apt-extensao",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Com maior Classe 5 e Refino 9, ativar custa **5 + 8 = 13 PE**. Você pode renovar mais oito vezes por 8 PE, totalizando **77 PE** se mantiver até o limite.",
+    "palavras": 33,
+    "paginas_base": [
+      330
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N176",
+    "bloco": "aptidoes--apt-barreira",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Com Refino 6, o domo tem **30 pontos de vida**. Se sofreu 18 de dano, restam 12. Recomeçar a preparação não o restaura imediatamente: o domo novo só aparece ao concluir outro minuto.",
+    "palavras": 34,
+    "paginas_base": [
+      332
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N177",
+    "bloco": "aptidoes--apt-cortina",
+    "capitulo": "12. Aptidões e Refino",
+    "texto": "**Exemplo.** Haru tem Refino 6. Sua Cortina possui **240 pontos de vida** e impede a saída das pessoas dentro da escola. Aliados que já estavam ali também ficam presos se não houver uma exceção na condição preparada.",
+    "palavras": 37,
+    "paginas_base": [
+      332
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N178",
+    "bloco": "rotas--rota-lapidacao",
+    "capitulo": "13. Rotas de criação",
+    "texto": "**Exemplo:** Davi chega ao nível 6 com Lapidação 1. O ganho básico leva a 2. Escolhe Lapidação, chega a 3 e aprende Faro, de Categoria de Efeito 1. No nível 10, repete a escolha, chega a 5 e pode aprender Presilha, de Categoria de Efeito 2, se tiver Força 4. As duas aquisições não ocupam espaços de Kata.",
+    "palavras": 58,
+    "paginas_base": [
+      347
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N179",
+    "bloco": "rotas--rota-estimulo",
+    "capitulo": "13. Rotas de criação",
+    "texto": "**Exemplo:** com Lapidação 6, um golpe desarmado recebe 3d4 adicionais. Uma Kata lançada em seguida usa somente seus próprios dados. Se o personagem fizer outro ataque comum, ele volta a receber 3d4.",
+    "palavras": 32,
+    "paginas_base": [
+      352
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N180",
+    "bloco": "poderes--degraus",
+    "capitulo": "14. Poderes avançados",
+    "texto": "**Exemplo.** Yuri alcança o nível 14 com refino 5 e uma Incompleta. Ela reserva mais um espaço conhecido para completar seu domínio. Passa de dois para três espaços ocupados, sem pagar os três novamente.",
+    "palavras": 34,
+    "paginas_base": [
+      357
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N181",
+    "bloco": "poderes--acerto",
+    "capitulo": "14. Poderes avançados",
+    "texto": "**Exemplo.** Maior Classe 4, sem desconto de Família Livre, produz 12 − 4 = **8d8**. Na Completa, o Acerto ignora Redução de Dano, resistência e imunidade. Na Incompleta com TR, role os 8d8: um resultado de 36 causa **18 de dano** a quem passar. Completar o domínio remove esse teste; não dobra os dados.",
+    "palavras": 54,
+    "paginas_base": [
+      358
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N182",
+    "bloco": "poderes--rescaldo",
+    "capitulo": "14. Poderes avançados",
+    "texto": "**Exemplo.** A barreira de Yuri chega a 0 PV durante uma disputa. Seu domínio termina imediatamente e ela entra em Rescaldo. O rival conserva a própria Expansão e ainda não entra em Rescaldo: isso só acontece quando o domínio dele também terminar.",
+    "palavras": 42,
+    "paginas_base": [
+      360
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N183",
+    "bloco": "poderes--sembarreiras",
+    "capitulo": "14. Poderes avançados",
+    "texto": "**Exemplo.** No nível 26, maior Classe 7, Maestria 4 e refino 10, abrir custa 49 PE. Um feitiço de Classe 5 custa 15 − 8 = **7 PE**. Escolhendo o modo fechado, a abertura custaria 42 PE e esse feitiço custaria 15 − 5 = **10 PE**.",
+    "palavras": 47,
+    "paginas_base": [
+      361
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N184",
+    "bloco": "poderes--manterdisputa",
+    "capitulo": "14. Poderes avançados",
+    "texto": "**Exemplo.** Dois personagens acertam o inimigo na rodada. A maior CD entre eles é 17. O inimigo faz no máximo dois testes contra essa CD, ainda que um deles o acerte outra vez. Um golpe de invocação tira vida, mas não acrescenta teste.",
+    "palavras": 43,
+    "paginas_base": [
+      363
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N185",
+    "bloco": "poderes--sobreposicao",
+    "capitulo": "14. Poderes avançados",
+    "texto": "**Exemplo.** Uma Incompleta de raio 7,5 m protege esse trecho de um domínio aberto de 199,5 m. Um aliado a 9 m de seu centro está fora da proteção e continua sujeito ao Acerto aberto.",
+    "palavras": 35,
+    "paginas_base": [
+      363
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N186",
+    "bloco": "poderes--salatregua",
+    "capitulo": "14. Poderes avançados",
+    "texto": "**Exemplo.** A equipe usa o tempo para atender uma pessoa ferida enquanto negocia com a maldição. A criatura ainda pode caminhar até a vítima e tentar agarrá-la: a trégua impede dano, não toda ação hostil. Se outro domínio de refino 7 e Acerto de dano entrar em disputa, a Sala vence pelo Acerto sem dano. Contra refino 8, ela perde antes desse desempate.",
+    "palavras": 63,
+    "paginas_base": [
+      366
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N187",
+    "bloco": "ritual--rit-teste",
+    "capitulo": "15. Ritual e Pactos",
+    "texto": "**Exemplo.** Kaito tem Inteligência 6, Destreza 4, maestria 2 e treino em Ocultismo. Seu feitiço é Classe 4. A CD é **16** e seu bônus é **+8**. Ele precisa tirar 8 ou mais: **65%** de chance, antes de vantagem ou especialização. Se falhar, o feitiço continua custando **12 PE**, sai sem Pontos de Ritual e perde **4 dados de dano**.",
+    "palavras": 60,
+    "paginas_base": [
+      369
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N188",
+    "bloco": "ritual--rit-parcelas",
+    "capitulo": "15. Ritual e Pactos",
+    "texto": "**Exemplo.** Apoio dividido em 6 e 3 de vida temporária só copia a parcela de 3. Se Guarda foi destinada a essa pessoa, acompanha a cópia; se foi destinada à outra, não acompanha.",
+    "palavras": 33,
+    "paginas_base": [
+      371
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N189",
+    "bloco": "ritual--rit-parcelas",
+    "capitulo": "15. Ritual e Pactos",
+    "texto": "**Exemplo.** Parcelas de 4d8, 2d8 e 1d8 geram um tiro adicional de **1d8**. Distribuir os mesmos sete dados em 3d8, 2d8 e 2d8 gera um de **2d8**.",
+    "palavras": 27,
+    "paginas_base": [
+      372
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N190",
+    "bloco": "ritual--pacto-permanente",
+    "capitulo": "15. Ritual e Pactos",
+    "texto": "**Exemplo de registro.** Hana assume uma obrigação que restringe regularmente suas missões. Em troca, modifica o funcionamento de um feitiço conhecido, pela mecânica escrita com o mestre. O pacto ocupa uma vaga enquanto existir. Não eleva sua maior Classe nem lhe concede uma segunda Técnica Máxima.",
+    "palavras": 46,
+    "paginas_base": [
+      376
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N191",
+    "bloco": "ritual--pacto-temporario",
+    "capitulo": "15. Ritual e Pactos",
+    "texto": "**Exemplo.** Mei quer manter uma passagem aberta para retirar uma pessoa ferida. Propõe perder o uso da técnica pelo restante da missão em troca de prolongar aquela aplicação até a travessia terminar. O acordo precisa definir o limite de tempo e impedir uma recuperação imediata que apagaria o preço. Ele não prolonga todos os feitiços de Mei.",
+    "palavras": 57,
+    "paginas_base": [
+      376
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N192",
+    "bloco": "campo--inv-campo",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Primeiro combate.** Kaito começa com duas entidades de nível 5 já manifestadas e orientadas. Uma usa sua básica. Ele comanda a especial da outra com sua Padrão; ela gasta a própria básica e os 6 PE da especial de Classe 2. A Bônus de Kaito continua disponível para outra finalidade.",
+    "palavras": 50,
+    "paginas_base": [
+      380
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N193",
+    "bloco": "campo--inv-ciclo",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** A ave gastou a básica e 6 m dos seus 9 m antes de ser recolhida. Volta com 3 m disponíveis e sem básica naquele ciclo. Se ainda estiver em campo no começo do próximo turno de Kaito, recupera os 9 m e a básica.",
+    "palavras": 46,
+    "paginas_base": [
+      380
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N194",
+    "bloco": "campo--inv-entrada",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Kaito usa sua Bônus e 2 PE para manifestar uma entidade de nível 5. Converte a Padrão em outra Bônus e lhe dá uma tarefa. Ela pode se mover, mas essa orientação não lhe concede a básica que a entrada comum deixou de fornecer.",
+    "palavras": 45,
+    "paginas_base": [
+      381
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N195",
+    "bloco": "campo--inv-troca",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** O cão ainda pode agir. Kaito o troca pela ave, que recebe a básica. Depois que a ave ataca, recolhê-la e trazer o cão não restaura aquela atuação. Ambos continuam com o histórico daquele ciclo.",
+    "palavras": 36,
+    "paginas_base": [
+      381
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N196",
+    "bloco": "campo--inv-intencao",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** A entidade deve impedir a passagem pela escada. Um armário bloqueia o caminho: ela procura outra rota dentro dos recursos disponíveis. Quando todos deixam a escada e a tarefa termina, não passa a caçar alguém em outro andar sem receber uma nova intenção.",
+    "palavras": 44,
+    "paginas_base": [
+      382
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N197",
+    "bloco": "campo--inv-comunicacao",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** A ave continua vigiando o telhado enquanto Kaito está dentro do prédio. Ele grita uma nova tarefa, mas uma barreira impede o som de chegar. A ave conserva a tarefa anterior. Quando o som volta a passar, Kaito precisa dar uma nova orientação para mudá-la.",
+    "palavras": 46,
+    "paginas_base": [
+      382
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N198",
+    "bloco": "campo--inv-especial",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Kaito manda a ave executar uma especial contra a criatura no corredor. A ave gasta sua básica, mesmo que erre. Depois do resultado, Kaito a orienta a vigiar a janela. Ela recebeu a nova tarefa, mas não ganhou outro ataque. O cão ainda pode usar a própria básica para a tarefa que já tinha.",
+    "palavras": 55,
+    "paginas_base": [
+      384
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N199",
+    "bloco": "campo--inv-energia",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Uma domada de nível 10 e Essência 3 tem 20 PE. A especial de Classe 3 custa 9 PE: 5 seus e 4 dela. Se a reserva tiver apenas 2, você paga 7. Seu descanso curto recupera 5 PE da reserva.",
+    "palavras": 42,
+    "paginas_base": [
+      384
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N200",
+    "bloco": "campo--inv-antecipada",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** A entidade recebe a ordem contra um inimigo fora de alcance. Ele termina seu movimento perto dela. Se básica, coletiva e energia estiverem disponíveis, a entidade executa a especial. Se a coletiva já tiver sido gasta, continua esperando. Quando o próximo turno de Kaito começar e os recursos se renovarem, a entidade deve executar a especial se o impedimento tiver acabado.",
+    "palavras": 62,
+    "paginas_base": [
+      385
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N201",
+    "bloco": "campo--inv-pendentes",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Duas antecipadas ficam possíveis depois do mesmo movimento inimigo. A primeira usa a coletiva. A segunda conserva a ordem e espera outra oportunidade com todos os recursos disponíveis.",
+    "palavras": 29,
+    "paginas_base": [
+      386
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N202",
+    "bloco": "campo--inv-preparar",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** O cão prepara uma mordida contra quem cruzar a porta. A básica já foi gasta. A ave usa a coletiva para outra resposta antes disso: a preparação do cão termina. Se ninguém usasse a coletiva, o cão poderia pagar essa reação para morder no cruzamento. Ele não gastaria uma segunda básica.",
+    "palavras": 52,
+    "paginas_base": [
+      386
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N203",
+    "bloco": "campo--inv-gatilhos",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Kaito prepara uma especial quando o inimigo entrar no corredor. Ele entra, mas Kaito recusa a ocorrência. Permanecer no corredor não dispara a ordem novamente. Se sair e entrar outra vez antes do prazo, há uma nova ocorrência. Se a especial aplicar apenas dano, o alvo pode continuar até a cobertura com o Movimento que restar.",
+    "palavras": 57,
+    "paginas_base": [
+      387
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N204",
+    "bloco": "campo--inv-tempo",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Uma especial com Rápido usa a Bônus de Kaito e a básica do cão. A Padrão continua disponível para um feitiço pessoal: o comando não ocupa a conjuração do turno.",
+    "palavras": 31,
+    "paginas_base": [
+      387
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N205",
+    "bloco": "campo--inv-restricoes-tempo",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Uma especial de Classe 3 com Rápido e Carregar custa 9 PE. Kaito paga Padrão, básica da domada e energia no primeiro turno. No seguinte, a domada libera sozinha, gastando outra básica, sem cobrar ação de Kaito. O total continua 9 PE, com duas básicas em ciclos diferentes.",
+    "palavras": 49,
+    "paginas_base": [
+      388
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N206",
+    "bloco": "campo--inv-armado",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Uma especial custa 9 PE: Kaito paga 5 e a reserva paga 4. A cena acaba sem a especial disparar. A devolução total é 4 PE: 2 para cada pagador. Nenhuma ação ou básica é recuperada.",
+    "palavras": 37,
+    "paginas_base": [
+      389
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N207",
+    "bloco": "campo--inv-defesa",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Kaito não pode usar sua Padrão e fica sem comando comum de especial. As entidades continuam cumprindo tarefas com seus recursos. Se uma delas não puder reagir, a outra ainda poderá gastar a coletiva num gatilho permitido.",
+    "palavras": 38,
+    "paginas_base": [
+      389
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N208",
+    "bloco": "campo--inv-respostas",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Uma aliada concede um ataque ao cão mediante a Reação dele. O cão já tinha usado sua básica, mas pode gastar a coletiva nesse ataque. A ave não pode responder em seguida com a mesma coletiva, mesmo que ainda não tenha usado a própria básica.",
+    "palavras": 46,
+    "paginas_base": [
+      390
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N209",
+    "bloco": "campo--inv-talisma",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Uma entidade de nível 13 tem Classe 4. Kaito adianta 2 PE antes de descansar e paga os outros 2 ao manifestá-la. O talismã continua ocupando 0,5 de Volume.",
+    "palavras": 30,
+    "paginas_base": [
+      390
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N210",
+    "bloco": "campo--inv-corpos",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Kaito deixa um corpo inativo perto da saída e combate com outro. Ao fazer a troca, o primeiro é ativado onde já estava. O que foi desativado conserva sua posição e os metros restantes, mas deixa de lutar. A troca não transporta os dois nem remove os ferimentos de nenhum deles.",
+    "palavras": 52,
+    "paginas_base": [
+      391
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N211",
+    "bloco": "campo--inv-reparo",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Um corpo tem 31 PV máximos e está com 8. Quem o repara é da mesma Classe, com atributo 3 e Maestria 2: CD 13 e teste +5. Um 8 no d20 basta. Recupera 15 PV e termina com 23. A zero, precisaria primeiro ser religado.",
+    "palavras": 47,
+    "paginas_base": [
+      392
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N212",
+    "bloco": "campo--inv-liberacao",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Na Classe 3, os 6 pontos de uma montagem só de dano somam-se aos 3d8 da Liberação: 9d8. Ela custa 14 PE. Com reserva suficiente, são 7 PE de cada pagador, além da Ação Completa de Kaito, da básica da domada e do preço escolhido.",
+    "palavras": 46,
+    "paginas_base": [
+      393
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N213",
+    "bloco": "campo--inv-maxima",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo. Uma Forma de cura usa 19d8. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.",
+    "palavras": 47,
+    "paginas_base": [
+      394
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N214",
+    "bloco": "campo--inv-dominio",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Uma domada de nível 14 tem Classe 4. Com seu refino 6, sua completa custa 24 PE, tem raio de 9 m e Acerto de **9 − 4 = 5d8**, sem desconto de Família Livre. A abertura e os três começos de turno seguintes produzem quatro Acertos, se a Expansão durar até o fim.",
+    "palavras": 55,
+    "paginas_base": [
+      395
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N215",
+    "bloco": "campo--inv-queda",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Uma entidade tem 52 PV máximos e está com 8. Recebe 30 de dano direto: cai com excedente 22. Esse dano não alcançou 52 e o excedente não passou de 26. Se recebesse 35, o excedente seria 27 e ela seria destruída. Uma ocorrência em área de qualquer desses valores somente a derrubaria.",
+    "palavras": 54,
+    "paginas_base": [
+      396
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N216",
+    "bloco": "campo--inv-retorno",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** A entidade de nível 10 e 52 PV máximos retorna por 6 PE, com 26 PV. Um corpo desligado com excedente 22 é destruído por mais 5 de dano direto. Se esses 5 vierem de uma área, permanece no chão com excedente 27; uma nova parcela direta poderá destruí-lo. Com duas entidades já ativas, ainda é preciso respeitar o limite para religá-lo.",
+    "palavras": 63,
+    "paginas_base": [
+      396
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N217",
+    "bloco": "campo--inv-fora",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** A ave sofreu um dano que se repete no fim do turno, sem depender da posição. Kaito a recolhe, mas resolve a repetição no momento previsto. Uma área que ela havia criado pode permanecer; a aura que precisava acompanhar o corpo deixa de alcançar outras criaturas. Se voltar ainda sob a condição, conserva o prazo que restava.",
+    "palavras": 58,
+    "paginas_base": [
+      397
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N218",
+    "bloco": "campo--inv-inconsciente",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Kaito cai inconsciente depois de antecipar uma especial contra o inimigo. O alvo termina seu movimento em alcance. A entidade ainda tem básica e a coletiva está disponível: pode executar, pagando esses recursos e o PE devido. Kaito não pode cancelar naquele instante nem mandar a criatura perseguir outra pessoa depois. Se o alvo não puder ser afetado, a ordem continua aguardando uma oportunidade válida.",
+    "palavras": 66,
+    "paginas_base": [
+      397
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N219",
+    "bloco": "campo--inv-manutencao",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** O talento exige 3 PE no começo do turno. A reserva tem 2 e Kaito tem 4: pague 2 da reserva e 1 dele. No vencimento seguinte, ambos possuem apenas 1 PE ao todo. Não gaste esse ponto; suspenda o efeito. Mesmo que Kaito recupere energia logo depois, a próxima tentativa de pagamento acontece no começo do turno seguinte. Não há cobrança dos turnos perdidos.",
+    "palavras": 66,
+    "paginas_base": [
+      398
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N220",
+    "bloco": "campo--inv-morte",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** Kaito morre com um talismã carregado e uma maldição domada. O talismã continua no mundo, com a carga que tinha. A maldição fica livre e o mestre decide o que faz. Nenhum dos dois recebe ordens novas do personagem morto. Uma pessoa que recolha o talismã ainda precisa cumprir os requisitos para obter e usar sua entidade.",
+    "palavras": 58,
+    "paginas_base": [
+      398
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N221",
+    "bloco": "campo--inv-carga",
+    "capitulo": "16. Invocações em campo",
+    "texto": "**Exemplo.** A entidade veste um revestimento, segura a própria arma e leva um objeto encontrado para Kaito. Ao ser recolhida, conserva revestimento e arma; o objeto cai. Para usar a arma que viajou com ela, Kaito precisa retirá-la enquanto a entidade estiver em campo. Estar recolhida não permite sacar equipamento de uma criatura ausente.",
+    "palavras": 54,
+    "paginas_base": [
+      399
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N222",
+    "bloco": "construcao--entidades-aquisicao",
+    "capitulo": "17. Construir invocações",
+    "texto": "Uma técnica que cria animais de papel pode usar uma vaga para um pássaro de papel. Uma técnica que apenas afia lâminas precisa de outra forma de aquisição, pois sua definição atual não cria ou controla entidades.",
+    "palavras": 37,
+    "paginas_base": [
+      403
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N223",
+    "bloco": "construcao--entidades-domar",
+    "capitulo": "17. Construir invocações",
+    "texto": "Kaito, de nível 5, derrota uma maldição de nível 5 sem destruí-la. Sua CD é 12. A maldição consegue 11 no total do TR e passa a ser uma entidade domada. Se conseguisse 12, seria exorcizada. Uma maldição de nível 6 está acima do limite de aquisição de Kaito.",
+    "palavras": 49,
+    "paginas_base": [
+      405
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N224",
+    "bloco": "construcao--entidades-definicao",
+    "capitulo": "17. Construir invocações",
+    "texto": "**Cão de sombra:** um cão feito de sombra que reconhece vestígios de energia amaldiçoada e persegue o que seu invocador aponta.",
+    "palavras": 21,
+    "paginas_base": [
+      406
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N225",
+    "bloco": "construcao--entidades-vida-defesa",
+    "capitulo": "17. Construir invocações",
+    "texto": "Com Constituição 2, uma entidade comum de nível 5 tem **7 + 5 × 4 = 27 de vida**. Um corpo de criação do mesmo nível tem **7 + 6 × 4 = 31**.",
+    "palavras": 34,
+    "paginas_base": [
+      408
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N226",
+    "bloco": "construcao--entidades-familias",
+    "capitulo": "17. Construir invocações",
+    "texto": "Na Classe 3, uma Melhoria Média custa 3. Na Família Livre da entidade, custa **3 − 1 = 2**. Use a tabela de Família Livre: o desconto de uma entidade não é arredondado como o desconto pessoal de Fundamento.",
+    "palavras": 39,
+    "paginas_base": [
+      411
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N227",
+    "bloco": "construcao--entidades-basicas",
+    "capitulo": "17. Construir invocações",
+    "texto": "No nível 2, uma básica tem 1d6. Acrescentar Precisão retira o único dado. Ela pode resolver seu ataque, mas terá zero dado de dano. No nível 5, a mesma montagem passa a **1d6**, pois o dano-base subiu para 2d6.",
+    "palavras": 39,
+    "paginas_base": [
+      411
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N228",
+    "bloco": "construcao--entidades-medidas",
+    "capitulo": "17. Construir invocações",
+    "texto": "Uma Explosão de Classe 6 escolhe um ponto a até **36 m**, mas sua área ainda tem **3 m de raio**. Uma Explosão de Classe 7 conserva os 36 m de alcance e passa a 4,5 m de raio. Comprar Maior aumenta o raio, sem aumentar a distância até o ponto.",
+    "palavras": 51,
+    "paginas_base": [
+      415
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N229",
+    "bloco": "construcao--entidades-efeitos-reduzidos",
+    "capitulo": "17. Construir invocações",
+    "texto": "**Fura de Classe 2.** A especial tem 4 pontos e custa 6 PE. Fura custa 2, ou 1 se Mira for Livre. Seu efeito usa Classe 1 e ignora **2 de Redução de Dano**. Em Projétil, sem Restrição, a versão com Mira Livre fica com **3d8**.",
+    "palavras": 46,
+    "paginas_base": [
+      416
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N230",
+    "bloco": "construcao--entidades-saldo",
+    "capitulo": "17. Construir invocações",
+    "texto": "Uma especial de Classe 2 começa com 4 pontos. Projétil custa 0, uma Melhoria Média normal custa 2 e uma Restrição Leve devolve 1. Restam **4 − 2 + 1 = 3 pontos**. Uma segunda devolução que elevasse o saldo acima de 4 perderia o excedente.",
+    "palavras": 46,
+    "paginas_base": [
+      417
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N231",
+    "bloco": "construcao--entidades-controle",
+    "capitulo": "17. Construir invocações",
+    "texto": "Uma especial de Classe 2 com Prende pode ter até 2d8 e receber a rodada adicional. Se a ficha for montada sem dano, ganha também +2 na CD de Prende. O alvo conserva as ações de tentativa de saída indicadas na peça.",
+    "palavras": 42,
+    "paginas_base": [
+      418
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "N232",
+    "bloco": "fabricacao--fab-teste",
+    "capitulo": "17. Construir invocações",
+    "texto": "**Exemplo:** uma calígrafa de nível 13, Destreza 4 e Maestria 2 fabrica uma entidade de nível 9. As Classes são 4 e 3: a dificuldade é Média. A CD fica **8 + 4 + 2 − 2 = 12**. Seu teste é d20 + 6; um 6 no dado basta. Se fabricasse uma entidade de nível 13, a CD seria 14 e precisaria de 8.",
+    "palavras": 65,
+    "paginas_base": [
+      427
+    ],
+    "tipo": "exemplo",
+    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  }
+]
