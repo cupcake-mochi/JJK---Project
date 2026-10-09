@@ -8,6 +8,26 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.345] — 09/10/2026
+
+**Origens e Progressão: três decisões da revisão do R41 chegaram às peças 12 e 13.** *Com elas, dos casos `nova` e `desfaz` do inventário só sobra o item 115, que espera o Mizuki.*
+
+- **`Sangue que Não é Sangue` (item 113, peça 13):** *saiu a necessidade corporal obrigatória que a v0.340 tinha trazido da candidata (escolher uma necessidade e satisfazê-la para recuperar no descanso longo).* **A troca volta a ser a do livro v0.331, "o seu corpo tem necessidades que ninguém sabe nomear".** *Ficou o que só esclarece: ficar acordado não dispensa os descansos, e não respirar só impede o sufocamento.*
+- **XP guardado no limiar do 20 (item 118, peça 12):** *reconhecido o feito, o XP guardado vira, de uma vez, quantos níveis ele pagar.* **Desfaz a linha do PRO04 que a v0.337 trouxe ("não paga dois níveis de uma vez").** *Palavras dele: "Volta, preparar na ficha vai ser um inferno da outra forma". O §7 da peça nunca deixou de dizer "destrava de uma vez".* **É a única exceção ao teto de um nível por missão, e ela gasta XP guardado, e não o de uma missão só;** *por isso a checagem 3b do `conferir-xp.py`, que mede o que uma missão paga, não se move.*
+- **Subir de nível (item 119, peça 12):** *com permissão do mestre na mesa, a subida pode recuperar vida e PE por completo; Integridade, Sequelas, condições e usos continuam fora.*
+
+**A checagem:** *as três entraram na sub-checagem 10.9 do `conferir-repositorio.py`, que passou de seis para nove regras, e ela ganhou uma lista do que a revisão tirou do livro e não pode voltar sem a peça saber (hoje, a "necessidade corporal").*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *tirar o risco da necessidade na peça 13, tirar o risco do PRO04 na peça 12, apagar a recuperação com o mestre, devolver a necessidade ao R41 e devolver "um nível" ao R41.* **Cinco perturbações, cinco acesas, cada uma no item dela.**
+
+**O que continua sem resposta: o item 115.** *A peça 13 §6 limita o Legado Próprio a um por ficha desde a v0.39, com o motivo escrito; o livro v0.331 não trazia a trava, e a decisão da revisão foi voltar ao livro. A peça não foi tocada nesse ponto.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/INVENTARIO-REVISAO-R41.md`: a troca da fonte dos validadores, da candidata para o R41 (a seção *O experimento* tem a medida), e o item 115 quando o Mizuki responder.
+
+---
+
 ## [0.344] — 09/10/2026
 
 **As duas Bênçãos novas do R41, `Represália` e `Sangue Frio`, entraram na peça 11 §6.8, e a conta dos gates foi refeita.** *A v0.343 deixou as duas de fora porque a seção tinha escrito, com conta, que os gates eram cinco, um por atributo, e que esse era o teto.*

@@ -2580,6 +2580,24 @@ _REGRAS_109 = [
      'na cena, na ordem de `100 m`',
      'na cena, na ordem de 100 metros',
      ['`18 m` nos ataques do seu turno']),
+    # v0.345: Origens e Progressao (itens 113, 118 e 119).
+    ('o Sangue que Nao e Sangue (item 113)', '13-legados.md',
+     'A necessidade obrigatória saiu por decisão do Mizuki',
+     'Em troca, seu corpo tem necessidades que ninguém sabe nomear.',
+     ['para recuperar vida e PE num descanso longo, precisa satisfazê-la']),
+    ('o XP guardado no limiar do 20 (item 118)', '12-experiencia-e-progressao.md',
+     'o XP guardado no nível 20 vira, de uma vez, quantos níveis ele pagar',
+     'de uma vez, quantos níveis ele pagar',
+     ['não paga dois níveis de uma vez na mesma missão']),
+    ('a recuperacao ao subir de nivel (item 119)', '12-experiencia-e-progressao.md',
+     'a subida pode recuperar vida e PE por completo',
+     'ela pode recuperar vida e PE por completo',
+     []),
+]
+# O que a revisao TIROU do livro e nao pode voltar a ele sem a peca saber (v0.345).
+_FORA_DO_R41_109 = [
+    ('a necessidade corporal obrigatoria do Sangue que Nao e Sangue (item 113)',
+     'necessidade corporal'),
 ]
 print()
 print('  10.9: as regras da revisao do R41 que ja estao em peca')
@@ -2599,6 +2617,9 @@ else:
             if _v in _sem_riscado109(_p109):
                 erro(f'10.9: {_arq} ainda traz viva a regra antiga de {_rot}: "{_v}" '
                      'aparece fora de trecho riscado')
+    for _rot, _frase in _FORA_DO_R41_109:
+        if _frase in _r41_109:
+            erro(f'10.9: o R41 voltou a trazer {_rot}: "{_frase}" — a peca a tirou na v0.345')
     if len(FALHAS) == _antes109:
         print(f'  [x] as {len(_REGRAS_109)} regras estao na peca dona e no R41, e a '
               'redacao antiga so aparece riscada')

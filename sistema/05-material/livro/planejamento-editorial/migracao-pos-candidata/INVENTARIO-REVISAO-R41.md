@@ -8,7 +8,8 @@ Uma linha por decisão que mudou o livro na revisão de 07 a 09/10, dizendo o qu
 
 - **v0.343:** itens 156, 157, 158 e a regra de não acumular (peças 19 e 14), 160 (peças 11 e 14), 171 (peça 16) e o cabeçalho da peça 15 (itens 16, 19 e 20). Conferidos pela sub-checagem 10.9 do `conferir-repositorio.py` e pela checagem 11 do `conferir-dano.py`.
 - **v0.344:** as Bênçãos `Represália` e `Sangue Frio` (itens 180 a 185), na peça 11 §6.8, com a conta dos gates refeita. Conferidas pela sub-checagem 9.1 do `conferir-aptidoes.py`.
-- **Falta dos casos `nova` e `desfaz`:** os de Origens e Progressão (113, 115, 118 e 119). O 115 espera a resposta do Mizuki.
+- **v0.345:** itens 113 (peça 13), 118 e 119 (peça 12). Conferidos pela mesma sub-checagem 10.9, que passou a cobrir nove regras.
+- **Falta dos casos `nova` e `desfaz`:** só o 115, que espera a resposta do Mizuki. Depois dele, a frente seguinte é a troca da fonte dos validadores.
 
 ## Os casos
 
