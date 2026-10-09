@@ -8,6 +8,29 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.349] — 09/10/2026
+
+**O capítulo de Poderes avançados do R41 passou a ser conferido pelo `conferir-expansao.py`.** *A Expansão de Domínio não tem peça: o dono dela era o manual v7, e hoje é o livro. Então esta versão não escreve em peça nenhuma; ela põe o R41 na frente do validador.*
+
+**O modelo do validador e o R41 batem.** *O `conferir-expansao.py` mede a Expansão com números que ele carrega (os dois degraus e os gates de nível e refino, o preço em espaços, o custo de abrir, os dois divisores de desconto, a duração e a vida da barreira), e conferia o texto contra o gerador do manual v7 e o capítulo 9 do livro v0.331, que estão congelados.* **A sub-checagem 12.7 lê as tabelas do R41 e cobra que elas publiquem os mesmos números.** *Hoje publicam: 2 e 3 espaços; nível 10 com refino 4 e nível 14 com refino 5; `6 ×` a maior Classe para abrir; refino dividido por 3 e por 2 de desconto; metade do refino de duração; `50 ×` metade do refino de vida na barreira.*
+
+**As decisões da revisão sobre domínio ganharam testemunha.** *São catorze frases que têm de estar no R41: o Acerto de dano montado como feitiço (item 1), poupar alguém só pelo Efeito (2), a Incompleta por rolagem (3), o Acerto garantido que ignora Redução de Dano, resistência e imunidade e não tem crítico (4), a regra de ambiente que não vale contra o dono (5), a barreira que não quebra por dentro (8), o Rescaldo (11), a maior CD entre os jogadores (13), metade do resultado no TR (14), as três barreiras e o intruso (152), o aberto que ataca as duas por fora (153) e o raio de `199,5 m`.* **E quatro que não podem voltar:** *o Acerto de valor fixo, o dano por dentro dividido por quatro, o primeiro total conservado e o aberto disputando com as barreiras.*
+
+**Correção do inventário da v0.342.** *Ele tinha classificado as linhas deste capítulo como `capítulo`, supondo a peça 11 como dona. Elas são do tipo `livro`.*
+
+**O que esta versão não fez, e fica declarado:**
+
+- **O gerador do manual v7, o `.docx` e o `.pdf` não foram para o arquivo.** *O validador ainda lê o `partE.js` e o capítulo 9 do livro v0.331 (o custo de abrir, o clash e o degrau sem barreiras) e compara um com o outro; trocar isso é uma versão própria, com o mapa de movidos no `conferir-repositorio.py`.*
+- **As fontes congeladas divergem do R41 em pontos conhecidos:** *dizem `200 m` no raio do modo aberto, e não têm as regras novas dos itens 2, 4, 5, 8 e 152.*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *mudar no R41 o gate da Completa, o custo de abrir a Incompleta, o desconto da Completa e a vida da barreira; tirar a frase do item 4; devolver o Acerto de valor fixo; e devolver os `200 m`.* **Sete perturbações, sete acesas, cada uma na frase dela.** *Uma delas foi repetida com outra âncora, porque a primeira aparecia duas vezes no livro e a conferência de "o arquivo mudou" não servia.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/INVENTARIO-REVISAO-R41.md`: Ritual e Pactos, o último capítulo do passo 5b (peças 22 e 27); e o item 115 quando o Mizuki responder.
+
+---
+
 ## [0.348] — 09/10/2026
 
 **O capítulo de Regras gerais do R41 foi comparado com as peças, e nenhum número divergia.** *É o maior capítulo do passo 5b em páginas (quarenta) e o menor em mudança: o que ele tem de regra com peça dona já batia.*

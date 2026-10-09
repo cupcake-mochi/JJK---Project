@@ -368,6 +368,20 @@ Depois da passada, o inventário fica assim:
 
 **O que o capítulo tem e peça nenhuma tem, e continua assim:** *saltos, quedas, rastejar e passagens estreitas, voo, espaço e tamanho, distância em três eixos, combate montado, esconder, vasculhar, ataques e ocultação, `Estudar` e a percepção de energia. O dono é o livro, como na v0.331.* **Essas páginas foram lidas só nas frases com número, para achar divergência com alguma peça, e não foram revisadas como regra.**
 
+## Capítulo de Poderes avançados, feito em 09/10/2026 (v0.349)
+
+*Comparação das quinze páginas do capítulo no R41 com o modelo do `conferir-expansao.py`. Revisão por modelo, não humana.*
+
+**A Expansão de Domínio não tem peça.** *O próprio validador diz: ela não é aptidão, não mora na peça 11, e o dono era o manual v7 (o gerador `partE.js`), com o capítulo 9 do livro v0.331 como cópia. O inventário da revisão tinha posto as linhas deste capítulo como `capítulo`, supondo a peça 11 como dona; elas são do tipo `livro`.* **Então a migração aqui não escreve em peça: ela faz o validador ler o R41.**
+
+**O modelo do validador e o R41 batem em tudo o que o modelo mede:** *os dois degraus (2 e 3 espaços; nível 10 com refino 4, nível 14 com refino 5), abrir por `6 ×` a maior Classe, o desconto de um terço e de metade do refino, a duração de metade do refino e a barreira de `50 ×` metade do refino.* **A sub-checagem 12.7 passou a cobrar isso, e também as decisões da revisão,** *como frase que tem de estar no R41 (itens 1 a 5, 8, 11, 13, 14, 152, 153 e o raio de `199,5 m`) e frase que não pode voltar (o Acerto de valor fixo, o dano por dentro dividido por quatro, o primeiro total conservado, o aberto disputando com as barreiras).*
+
+**O que não foi feito, e por quê:**
+
+- **O gerador do manual v7, o `.docx` e o `.pdf` não foram para o arquivo.** *O `conferir-expansao.py` ainda lê o `partE.js` e o capítulo 9 do livro v0.331 (o custo de abrir, o clash e o degrau sem barreiras), e compara um com o outro. Trocar essas leituras pelo R41, uma a uma, e montar no `conferir-repositorio.py` o mapa de movidos é uma versão própria.*
+- **As fontes congeladas divergem do R41 em pontos conhecidos, e isso fica declarado:** *elas dizem `200 m` no raio do modo aberto (o R41 diz `199,5 m`, por decisão do Mizuki), e não têm as regras novas dos itens 2, 4, 5, 8 e 152.*
+- **A página de proteção contra domínios** *remete às aptidões, que migraram na v0.340; não foi recomparada.*
+
 ## Os seis capítulos sem passo, achados em 06/10/2026
 
 **A tabela de tamanho do topo lista seis capítulos que a ordem proposta não cobria:** *Ritual e Pactos (29 registros confirmados, peças 22 e 27), Poderes avançados (21, peça 11 e o rascunho da Expansão sem Barreiras), Regras gerais (19, peças 01, 03, 04, 05 e 23), Origens (18, peças 09 e 13), Rotas (14, peças 20 e 25) e Aptidões e Refino (13, peça 11).* **São 114 registros que nenhum passo migrava.** *Eles entram como passo 5b, um capítulo por versão, comparando o capítulo inteiro com as peças (o inventário não cobre as rodadas anteriores, como se viu no Equipamento e no tipo `Força` do Dano). Antes deles vai o capítulo de Dano sem o Morrendo.*
@@ -397,7 +411,7 @@ Cada passo fecha com a bateria inteira verde (os 27 validadores de `03-mecanica`
 4. **Equipamento e munição** (peças 14, 16, 21), *feito na v0.335, ver a seção do passo 4,* depois **Invocações** (peça 15, que conversa com `invocacoes/`), depois **Caminhos** (peça 06 e `RASCUNHO-trilhas`, que hoje não têm Fluidez nem Malabarista).
 5. **Criação, Fundamento e Catálogo** (peças 08, 17, 18). É o maior volume e o que mais toca a ficha. *Primeira parte feita na v0.337 (ver a seção dela, acima): os validadores leem o livro. A segunda, na v0.338, deu dono às tabelas de mestre e tirou do gerador as leituras do Fundamento; o `manual/gerador`, o `.docx` e o `.pdf` vão para o arquivo com a migração dos Poderes avançados.*
 5a. **O inventário da revisão do R41.** *Feito na v0.342: `INVENTARIO-REVISAO-R41.md`, ao lado deste plano.* Ele entrou antes do capítulo de Dano porque muda o que os capítulos seguintes têm de copiar, e deixou três frentes, nesta ordem: as regras novas e os desfeitos que já têm peça; a troca da fonte dos validadores, da candidata para o R41; e os capítulos que faltam do 5b, já lendo o R41.
-5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *um por versão. O de Dano sem o Morrendo foi feito na v0.347 e o de Regras gerais na v0.348; faltam Poderes avançados e Ritual e Pactos.*
+5b. **Os seis capítulos sem passo** (ver a seção deles, acima): *um por versão. O de Dano sem o Morrendo foi feito na v0.347, o de Regras gerais na v0.348 e o de Poderes avançados na v0.349; falta Ritual e Pactos.*
 6. **Geradores.** `gerador-ficha` e `gerador-inimigo`. O `manual/gerador` (o `.docx` do Fundamento v7) não é regerado: vai para o arquivo no passo 5. O gerador do livro antigo (`livro/build/`) só muda se a candidata não substituir o `livro/manual/`.
 7. **Fichas**, por último e em outro ambiente (seção abaixo).
 

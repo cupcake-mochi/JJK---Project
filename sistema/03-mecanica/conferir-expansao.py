@@ -1477,6 +1477,90 @@ else:
         print('  [x] o degrau, o gate, o custo, o raio dos dois lados e as pecas de texto batem '
               'entre manual, livro e donos.')
 
+# --- 12.7: o R41 contra o modelo deste validador (v0.349) ------------------------
+# Este arquivo mede a Expansao com constantes (GATE, PRECO, PE_ABRIR, os dois
+# divisores, BARREIRA_FATOR) e confere o texto contra o gerador do manual v7 e o livro
+# v0.331, que estao congelados. O livro principal desde a v0.341 e' o R41, e ate a
+# v0.348 ninguem perguntava se ele publica os mesmos numeros que o modelo usa.
+# Esta sub-checagem pergunta, e pergunta tambem pelas regras que a revisao do Mizuki
+# de 07 a 09/10/2026 fechou no capitulo de Poderes avancados (itens 1 a 14, 152 e 153
+# do MUDANCAS-DE-REGRA.md do R41). A Expansao nao tem peca: o dono e' o livro. Entao
+# a testemunha de cada decisao e' a frase do R41, e a frase que a decisao TIROU nao
+# pode voltar.
+print()
+print('  12.7: o R41 publica o que este validador mede, e as decisoes da revisao')
+import livro as _livro127
+try:
+    _pod127 = _livro127.limpa(_livro127.texto('poderes'))
+except _livro127.LivroMudou as _e127:
+    _pod127 = ''
+    erro(f'12.7: nao li o capitulo de Poderes avancados do R41 — {_e127}')
+if _pod127:
+    _antes127 = len(ERROS)
+    # a) a tabela dos degraus: espacos e gate
+    for _deg, _rot in (('incompleta', 'Incompleta'), ('completa', 'Completa')):
+        _m = re.search(r'\| %s \| (\d+) \| [^|]*?[Nn]ível (\d+) e refino (\d+) \|' % _rot, _pod127)
+        if not _m:
+            erro(f'12.7: nao achei a linha "{_rot}" na tabela de degraus do R41')
+        elif (int(_m.group(1)), (int(_m.group(2)), int(_m.group(3)))) != (PRECO[_deg], GATE[_deg]):
+            erro(f'12.7: o R41 publica a {_rot} com {_m.group(1)} espacos, nivel {_m.group(2)} e '
+                 f'refino {_m.group(3)}, e o modelo usa {PRECO[_deg]} espacos e o gate {GATE[_deg]}')
+    # b) a tabela de abrir: PE, raio e desconto
+    for _deg, _rot in (('incompleta', 'Incompleta'), ('completa', 'Completa ou fechado')):
+        _m = re.search(r'\| %s \| (\d+) × maior Classe em PE \| 1,5 m × refino[^|]*\| Refino ÷ (\d+), para baixo \|' % _rot, _pod127)
+        if not _m:
+            erro(f'12.7: nao achei a linha "{_rot}" na tabela de abertura do R41')
+        elif (int(_m.group(1)), int(_m.group(2))) != (PE_ABRIR[_deg], DESCONTO_DIVISOR[_deg]):
+            erro(f'12.7: o R41 abre a {_rot} por {_m.group(1)} × a maior Classe e desconta refino ÷ '
+                 f'{_m.group(2)}, e o modelo usa {PE_ABRIR[_deg]} × e ÷ {DESCONTO_DIVISOR[_deg]}')
+    # c) a duracao e a barreira
+    if DURACAO_DIVISOR != 2 or 'conte metade do refino, arredondada para baixo, em turnos seus' not in _pod127:
+        erro('12.7: a duracao do R41 ("conte metade do refino... em turnos seus") e o divisor do '
+             f'modelo ({DURACAO_DIVISOR}) deixaram de dizer a mesma coisa')
+    _m = re.search(r'a barreira possui (\d+) × metade do refino em pontos de vida', _pod127)
+    if not _m or int(_m.group(1)) != BARREIRA_FATOR:
+        erro(f'12.7: o R41 da a barreira {_m.group(1) if _m else "?"} × metade do refino de vida, e o '
+             f'modelo usa {BARREIRA_FATOR}')
+    # d) as decisoes da revisao: a frase que vale, e a que saiu
+    _VALE127 = [
+        ('1, o Acerto de dano montado como feitico',
+         'são 3 × sua maior Classe em pontos, menos o preço Médio dessa Melhoria'),
+        ('2, poupar alguem do Acerto', 'Poupar alguém só é possível se o Efeito do domínio disser como'),
+        ('3, a Incompleta por rolagem', 'O Acerto da Incompleta resolve por rolagem, como um feitiço'),
+        ('4, o Acerto garantido contra as defesas',
+         'O Acerto garantido ignora Redução de Dano, resistência e imunidade'),
+        ('4, o Acerto garantido sem critico', 'o Acerto não produz crítico'),
+        ('5, a regra de ambiente e o dono', 'Ela não vale contra você'),
+        ('8, a barreira por dentro', 'Por dentro, a barreira não quebra'),
+        ('11, o Rescaldo',
+         'Quando seu domínio termina, você entra em Rescaldo pelo restante da cena. Não pode usar a Técnica Inata, salvo seus feitiços de Classe 0'),
+        ('13, manter a disputa', 'contra a maior CD entre eles'),
+        ('14, passar no TR', 'quem passa no TR recebe metade do resultado do dano'),
+        ('152, tres ou mais barreiras',
+         'Enquanto houver três ou mais barreiras, o refino não decide'),
+        ('152, o intruso', 'Um intruso de nível menor entra sem derrubar nada'),
+        ('153, duas barreiras e uma aberta', 'o domínio aberto ataca as duas por fora'),
+        # o raio do modo aberto: 199,5 m e' decisao do Mizuki (133 quadrados de 1,5 m); o
+        # gerador do manual v7 e o livro v0.331, congelados, dizem 200 m, e o bloco 12 os le
+        ('178, o raio do modo aberto', '| Aberto | 7 × maior Classe em PE | 199,5 m | 2 × Maestria |'),
+    ]
+    _SAIU127 = [
+        ('1, o valor fixo do Acerto', '2 × sua maior Classe em d8'),
+        ('8, o dano por dentro dividido', 'dividido por quatro'),
+        ('13, o primeiro total', 'Conserve o total obtido no primeiro teste'),
+        ('153, o aberto disputando', 'O domínio aberto disputa com elas'),
+    ]
+    for _rot, _fr in _VALE127:
+        if _fr not in _pod127:
+            erro(f'12.7: o R41 nao escreve mais a decisao do item {_rot}: falta "{_fr}"')
+    for _rot, _fr in _SAIU127:
+        if _fr in _pod127:
+            erro(f'12.7: o R41 voltou a trazer o que a revisao tirou (item {_rot}): "{_fr}"')
+    if len(ERROS) == _antes127:
+        print('  [x] degraus, custo de abrir, desconto, duracao e barreira do R41 sao os do modelo')
+        print(f'  [x] as {len(_VALE127)} frases das decisoes estao no R41, e as {len(_SAIU127)} que '
+              'sairam nao voltaram')
+
 # --------------------------------------------------------------------------
 print()
 print('=' * 90)

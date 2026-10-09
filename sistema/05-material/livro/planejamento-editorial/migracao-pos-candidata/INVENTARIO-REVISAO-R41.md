@@ -12,7 +12,8 @@ Uma linha por decisão que mudou o livro na revisão de 07 a 09/10, dizendo o qu
 - **v0.346:** a fonte dos validadores passou da candidata para o R41. **As 22 linhas `livro` passaram a ter o dono certo:** *o livro que os validadores leem já traz a regra decidida.* Isso não quer dizer que cada uma tem checagem própria; os validadores conferem o que já conferiam (o Catálogo entrada por entrada, as condições, e as frases que cada um cobra).
 - **v0.347:** o capítulo de Dano sem o Morrendo (tipos de dano e exaustão; nenhuma linha deste inventário, porque as duas divergências eram anteriores à revisão).
 - **v0.348:** o capítulo de Regras gerais (só lacunas; nenhuma linha deste inventário além do 158, que já tinha ido na v0.343).
-- **Falta dos casos `nova` e `desfaz`:** só o 115, que espera a resposta do Mizuki. **Faltam dois capítulos do passo 5b,** e é neles que estão as 16 linhas `capítulo` deste inventário (Poderes avançados e Ritual e Pactos).
+- **v0.349:** o capítulo de Poderes avançados. **Correção deste inventário:** *as dez linhas `capítulo` da Expansão (1, 2, 3, 4, 5, 8, 11, 13, 152 e 153) são do tipo `livro`. A Expansão não tem peça; o dono era o manual v7 e hoje é o R41.* As decisões passaram a ser cobradas pela sub-checagem 12.7 do `conferir-expansao.py`, como frase do livro.
+- **Falta dos casos `nova` e `desfaz`:** só o 115, que espera a resposta do Mizuki. **Falta um capítulo do passo 5b,** Ritual e Pactos, com as seis linhas `capítulo` que sobram (34 a 36, 37, 39, 42, 47 e 50).
 
 ## Os casos
 
