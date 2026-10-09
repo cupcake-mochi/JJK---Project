@@ -28,7 +28,7 @@ Esta peça é a que mais chegou com contrato assinado por outras, e vale listar 
 | **o nome da moeda** — `PE`, lido como `Pontos de Esforço` na rota sem energia | v0.120 | peça 9 §5 |
 | **quem entrega ferir maldição** — a ferramenta, e é binário | v0.59 | peça 16 §2 |
 | **quem NÃO tem Expansão de Domínio** — quem não tem energia, nunca. *E o §3.2 estende: nem quem tem* | v0.118 | peça 9 §5 |
-| **o tamanho do catálogo de Bênçãos** — catorze: duas grátis e doze pagas | v0.116 e v0.118 | peça 11 §6.8 |
+| **o tamanho do catálogo de Bênçãos** — dezesseis: duas grátis e catorze pagas (até a v0.343, ~~catorze e doze~~) | v0.116, v0.118 e v0.344 | peça 11 §6.8 |
 
 **O tamanho do orçamento é herdado e não escolhido, e o motivo é uma soma.** A peça 6 §5 mantém `vida + PE por nível` em `10` nos quatro Caminhos e `11` no Bastião, e é essa soma parelha que faz escolher Caminho ser sabor em vez de degrau de poder. O `conferir-atributos.py` falha se ela variar mais que `2`.
 

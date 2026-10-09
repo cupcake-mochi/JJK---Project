@@ -1918,6 +1918,102 @@ else:
         print(f'  [x] a Reacao sem energia e {_l47.group(1)} x Lapidacao por {_l47.group(2)} PE na '
               f'peca 11 e no capitulo 47, igual ao cobrir-se do capitulo 45')
 
+# --- 9.1: o catalogo das Bencaos pagas — a peca, o R41 e a conta dos gates (v0.344) ---
+# Ate a v0.343 ninguem conferia a tabela das pagas: eram doze, com cinco gates, um por
+# atributo, e a conta da SS6.8 fechava exata. Na v0.344 entraram `Represalia` e
+# `Sangue Frio`, por decisao do Mizuki no livro, e tres atributos passaram a ter dois
+# gates. Entao a conta deixou de ser "um por atributo" e precisa ser refeita toda vez
+# que a tabela mudar. Tres perguntas:
+#   a) a tabela da peca e a do R41 ("Escolhas disponiveis") tem as mesmas Bencaos,
+#      com a mesma Categoria de Efeito e o mesmo requisito?
+#   b) o titulo e a linha dos gates publicam a contagem que a tabela tem?
+#   c) a rota pura fecha? Ela tem tres atributos em 4 ou mais; para CADA um dos dez
+#      jeitos de escolher os tres, o que ela alcanca tem de ser pelo menos o que a
+#      SS3 diz que ela precisa — e o minimo e o maximo publicados tem de ser os da conta.
+# Nenhum numero mora aqui: as Bencaos saem das duas tabelas, e o piso sai da SS3.
+print()
+print('  9.1: o catalogo das Bencaos pagas')
+_R41_91 = os.path.join(AQUI, '..', '05-material', 'livro', 'ciclo-maldito-r41', 'LIVRO-COMPLETO.md')
+_p11_91 = open(os.path.join(AQUI, '11-aptidoes-e-refino.md'), encoding='utf-8').read()
+_ATR91 = ['Força', 'Destreza', 'Constituição', 'Inteligência', 'Essência']
+
+
+def _gate91(cel):
+    return [a for a in _ATR91 if re.search(a + r' \d', cel)]
+
+
+_i91 = _p11_91.find('### As catorze pagas')
+_sec91 = _p11_91[_i91:_p11_91.find('\n#### ', _i91)] if _i91 >= 0 else ''
+_peca91 = {m.group(1): (m.group(2).strip(), _gate91(m.group(3)))
+           for m in re.finditer(r'^\|\s*\d+\s*\|\s*\*\*`([^`]+)`\*\*\s*\|[^|]*\|([^|]*)\|([^|]*)\|\s*$',
+                                _sec91, re.M)}
+_erros91 = len(ERROS)
+if not _peca91:
+    erro('9.1: nao li a tabela das Bencaos pagas da SS6.8 — o titulo "As catorze pagas" '
+         'mudou, e esta checagem parou de conferir')
+elif not os.path.isfile(_R41_91):
+    erro('9.1: nao achei o LIVRO-COMPLETO.md do R41')
+else:
+    _r41_91 = open(_R41_91, encoding='utf-8').read()
+    _j91 = _r41_91.find('| Bênção | CE | Requisito adicional |')
+    _livro91 = {}
+    for _l in _r41_91[_j91:].split('\n')[2:]:
+        if not _l.startswith('|'):
+            break
+        _c = [x.strip() for x in _l.strip('|').split('|')]
+        _livro91[_c[0]] = (_c[1], _gate91(_c[2]))
+    if _j91 < 0 or not _livro91:
+        erro('9.1: nao li a tabela "Escolhas disponiveis" do R41')
+    else:
+        # a)
+        if set(_peca91) != set(_livro91):
+            erro(f'9.1: a peca e o R41 nao tem as mesmas Bencaos pagas — so na peca: '
+                 f'{sorted(set(_peca91) - set(_livro91))}; so no livro: '
+                 f'{sorted(set(_livro91) - set(_peca91))}')
+        for _n in sorted(set(_peca91) & set(_livro91)):
+            if _peca91[_n][0] != _livro91[_n][0]:
+                erro(f'9.1: `{_n}` tem Categoria de Efeito {_peca91[_n][0]} na peca e '
+                     f'{_livro91[_n][0]} no R41')
+            if _peca91[_n][1] != _livro91[_n][1]:
+                erro(f'9.1: `{_n}` pede {_peca91[_n][1] or "nada"} na peca e '
+                     f'{_livro91[_n][1] or "nada"} no R41')
+        # b)
+        _NUM91 = {'doze': 12, 'treze': 13, 'catorze': 14, 'quinze': 15, 'dezesseis': 16,
+                  'cinco': 5, 'seis': 6, 'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10}
+        _com91 = {n: g for n, (_ce, g) in _peca91.items() if g}
+        _mt = re.search(r'### As (\w+) pagas', _p11_91)
+        if not _mt or _NUM91.get(_mt.group(1)) != len(_peca91):
+            erro(f'9.1: o titulo diz "{_mt.group(1) if _mt else "?"} pagas" e a tabela tem '
+                 f'{len(_peca91)}')
+        _mg = re.search(r'\*\*(\w+) gates desde a v[\d.]+\.\*\*', _p11_91)
+        if not _mg or _NUM91.get(_mg.group(1).lower()) != len(_com91):
+            erro(f'9.1: a linha dos gates diz "{_mg.group(1) if _mg else "?"}" e a tabela tem '
+                 f'{len(_com91)} Bencao(s) com requisito de atributo')
+        # c)
+        _mp = re.search(r'rota pura passa a precisar de (\d+) aptidões', _p11_91)
+        if not _mp:
+            erro('9.1: nao achei na SS3 quantas a rota pura precisa')
+        else:
+            import itertools as _it91
+            _prec91 = int(_mp.group(1))
+            _alc91 = []
+            for _S in _it91.combinations(_ATR91, 3):
+                _alc91.append(len(_peca91) - len(_com91)
+                              + sum(1 for g in _com91.values() if any(a in _S for a in g)))
+            if min(_alc91) < _prec91:
+                erro(f'9.1: com os gates de hoje a rota pura de Lapidacao alcanca '
+                     f'{min(_alc91)} Bencaos no pior arranjo e precisa de {_prec91} — o '
+                     'catalogo deixou de fechar para ela')
+            _mpub = re.search(r'\*\*`(\d+)` em \w+ arranjos e `(\d+)` nos outros \w+\*\*', _p11_91)
+            if not _mpub or (int(_mpub.group(1)), int(_mpub.group(2))) != (min(_alc91), max(_alc91)):
+                erro(f'9.1: a SS6.8 publica {_mpub.groups() if _mpub else "nada"} para o que a '
+                     f'rota pura alcanca, e a conta da ({min(_alc91)}, {max(_alc91)})')
+            if len(ERROS) == _erros91:
+                print(f'  {len(_peca91)} pagas, {len(_com91)} com requisito de atributo, as '
+                      'mesmas no R41, com a mesma Categoria e o mesmo requisito')
+                print(f'  [x] a rota pura precisa de {_prec91} e alcanca de {min(_alc91)} a '
+                      f'{max(_alc91)}, conforme os tres atributos')
+
 # --------------------------------------------------------------------------
 bloco('10. O DANO NA ARMA — a excecao da SS2, medida contra as duas condicoes')
 # v0.158. O dano na arma entrou no LIVRO na v0.147 e passou onze versoes sem peca,

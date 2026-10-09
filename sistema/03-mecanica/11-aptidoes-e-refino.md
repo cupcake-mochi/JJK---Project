@@ -1071,7 +1071,9 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 
 **Ela não escolhe o próprio tamanho.** *O §3 desta peça fixa que a rota pura de Refino precisa de **dez** aptidões — sete marcos, com os três últimos levando duas —, e o catálogo de aptidões tem treze pagas com três de folga, mais as duas gratuitas do refino `1`.* **A rota pura de Lapidação é a mesma rota com outro nome, e ela herda a MESMA derivação: duas gratuitas na Lapidação `1`, e doze pagas com duas de folga.**
 
-> **Catorze Bênçãos: `cobrir-se` e `estímulo muscular` grátis na Lapidação `1`, doze compradas com marco.** *A forma espelhava o catálogo de aptidões espaço por espaço, mesmo o conteúdo não espelhando quase nada.* **Mais a `Bênção Própria`, que é a única entrada que espelha de verdade** — ela é formato, e formato atravessa.
+> **~~Catorze~~ Bênçãos (dezesseis desde a v0.344): `cobrir-se` e `estímulo muscular` grátis na Lapidação `1`, ~~doze~~ catorze compradas com marco.** *A forma espelhava o catálogo de aptidões espaço por espaço, mesmo o conteúdo não espelhando quase nada.* **Mais a `Bênção Própria`, que é a única entrada que espelha de verdade** — ela é formato, e formato atravessa.
+
+> ***v0.344: são dezesseis, com catorze pagas.*** *Entraram `Represália` e `Sangue Frio`, que o Mizuki pediu direto ao livro (R38) e acertou no R39 e no R41.* **A conta que dá o tamanho não mudou: o piso são os `10` picks da rota pura, e o que cresceu foi a folga, de duas para quatro.** *O espelho de tamanho com o catálogo do feiticeiro já tinha se desfeito duas vezes (parágrafo abaixo), e o do feiticeiro não tem teto desde a v0.243.*
 
 > **⚠ Os dois lados ficaram desencontrados por uma versão, e vale saber por quê.** *O `Kokusen` base saiu da lista de compráveis na v0.202 e a Restrição Celestial não tem contraparte dele — kokusen é energia amaldiçoada aplicada no impacto, e aquela rota não tem energia nenhuma.* **A v0.203 fechou o vão pelo outro lado, com a `Circulação`**, e as duas voltaram a doze pagas. *O que sempre espelhou não foi a lista: foi a derivação, e as duas se medem contra os mesmos dez picks da rota pura.* **A v0.239 abriu o vão de novo, pelo lado do feiticeiro:** *a `Regravação` levou as aptidões a treze pagas, e as Bênçãos ficam em doze.* **É o caso que o aviso do fim desta seção prevê: o catálogo do feiticeiro cresce, a folga cresce junto, e o piso de `10` não se move.**
 
@@ -1085,7 +1087,9 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 
 *O que se move é a pressão:* **a frase antiga concluía que "a rota sem energia é empurrada para a Lapidação mais forte do que uma ficha comum é empurrada para o Refino, porque ela não tem um segundo eixo de poder para onde ir".** *Ela tem, e a conclusão cai junto com a premissa.*
 
-### As doze pagas
+### As catorze pagas
+
+*Eram doze até a v0.343. As linhas 13 e 14 entraram na v0.344.*
 
 ***Decisão do Mizuki:*** **elas são mecânica física, e o gate de atributo do §5 é quem deixa cada ficha escolher a área que quer seguir — inclusive os atributos mentais.**
 
@@ -1105,8 +1109,10 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 | 10 | **`Campo`** | você lê o lugar e o alvo mais rápido que os outros | 1 | — |
 | 11 | **`Esteio`** | o dado deixa de te trair no que você é bom | 3 | — |
 | 12 | **`Bênção Própria`** | a que você escreve | 1 ou 2 | uma vez na ficha |
+| 13 | **`Represália`** | quem usa técnica colado em você leva um golpe de volta | 2 | **Força 4 ou Destreza 4** |
+| 14 | **`Sangue Frio`** | o que vem de perto pega menos | 3 | **Constituição 4** |
 
-**Cinco gates, um por atributo, e esse é o teto.** *A conta está abaixo, em "Por que só cinco".*
+**Sete gates desde a v0.344.** *Até a v0.343 eram ~~cinco, um por atributo, e esse era o teto~~: Força, Destreza e Constituição passaram a ter dois cada. A conta antiga e a nova estão abaixo, em "Por que só cinco" e na seção seguinte.*
 
 #### As que precisam de número
 
@@ -1144,6 +1150,15 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 | CD 26 — quase impossível | ainda rola |
 
 > **A linha da média mudou de coluna, e ela estava errada antes.** *A tabela dizia que média "ainda rola" enquanto a prosa logo acima dizia que o `Esteio` "resolve o médio e deixa o difícil de pé".* **A prosa estava certa:** com o piso em `8` e o bônus em `10` no nível 26, a antiga CD 18 pedia exatamente `8` — e piso igual ao pedido é automático. *A escada nova põe média em `16`, que pede `6`, então a tabela e a prosa passam a dizer a mesma coisa por dois motivos ao mesmo tempo.*
+
+> **`Represália` · Categoria de Efeito 2 · Força 4 ou Destreza 4.** **Fora do seu turno**, quando uma criatura que você enxerga, ou acompanha por um sentido equivalente à visão, **usa uma aptidão que custe ação ou Reação, ou conjura um feitiço, a até `1,5 m` de você**, você pode gastar a sua **Reação** para fazer **um ataque corpo a corpo, com arma ou desarmado**, contra ela.
+> *O ataque resolve depois do uso que o provocou, e não interrompe nem desfaz a aptidão ou o feitiço. A criatura precisa continuar a até `1,5 m` e ao alcance do ataque escolhido. Aptidão e benefício passivos não contam, e manter um efeito já ativo não é gatilho novo. Abrir ou manter uma Expansão de Domínio e o Acerto de uma Expansão incompleta também não ativam a Bênção; feitiço conjurado dentro de um domínio conta.*
+
+> **`Sangue Frio` · Categoria de Efeito 3 · Constituição 4.** Você tem **vantagem nos Testes de Resistência contra feitiços e contra aptidões que custem ação ou Reação**, quando a criatura que os produz está a até **`3 m`** de você no momento do teste.
+> **Uma vez por cena**, depois de falhar num desses testes e antes das consequências, você pode repetir a rolagem, sem gastar ação: **um `d20` só, sem a vantagem desta Bênção**, com a mesma CD e os mesmos modificadores. O novo resultado é obrigatório, e a criatura precisa estar a até `3 m` também na repetição.
+> *Aptidão e benefício passivos não contam. A vantagem e a repetição não valem para a abertura ou a manutenção de uma Expansão de Domínio, nem para o Acerto de uma Expansão incompleta; feitiço conjurado dentro de um domínio conta.*
+
+> ***v0.344: de onde as duas vieram, e o que se sabe do tamanho delas.*** *O Mizuki pediu as duas direto ao livro, e a rodada que as escreveu (R38) propôs categoria, requisito e alcance sem teste.* **Depois ele fechou seis coisas, por decisão:** *a repetição do `Sangue Frio` é por cena; nas duas, conta a "aptidão que custe ação e/ou reação", palavras dele; Expansão de Domínio não ativa nenhuma; a `Represália` só fora do próprio turno, e com Força 4 ou Destreza 4; e a repetição do `Sangue Frio` rola um dado só.* **A única conta que existe está em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/MEDIDA-represalia-sangue-frio-2026-10-09.md`,** *e ela mediu a versão anterior aos dois últimos acertos. Nenhuma das duas passou por mesa.*
 
 #### As que não precisam
 
@@ -1210,7 +1225,22 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 
 > **Acima de cinco a rota pura deixa de fechar.** *Gatear as doze, que foi a primeira ideia, a deixaria alcançando `7` dos `10` picks que ela precisa.*
 
-***Decisão do Mizuki: cinco, um por atributo — separação máxima, e folga zero.*** *A alternativa medida era três gates, que devolveria a folga de duas entradas que o §3 pede, ao preço de dois atributos ficarem sem cor.*
+***Decisão do Mizuki: cinco, um por atributo — separação máxima, e folga zero.*** *A alternativa medida era três gates, que devolveria a folga de duas entradas que o §3 pede, ao preço de dois atributos ficarem sem cor.* **Valeu até a v0.343; a seção seguinte tem a conta de hoje.**
+
+#### Sete gates em catorze, desde a v0.344 — e a rota pura fecha com folga
+
+**As duas Bênçãos novas põem um segundo gate em três atributos:** *`Represália` pede Força 4 **ou** Destreza 4, e `Sangue Frio` pede Constituição 4.* **A separação deixou de ser máxima, e isso é decisão dele, tomada no livro.**
+
+**A conta do teto, refeita com o catálogo de hoje.** *A rota pura continua com o arranjo `6/6/4/0/0`: três atributos em `4` ou mais, escolhidos entre os cinco. São dez jeitos de escolher os três, e cada um destrava um conjunto diferente de gates.*
+
+| catálogo | pagas | com gate | a rota pura alcança, conforme os três atributos |
+|---|---|---|---|
+| até a v0.343 | 12 | 5 | `10` nos dez arranjos |
+| **v0.344** | **14** | **7** | **`11` em cinco arranjos e `12` nos outros cinco** |
+
+> **Ela precisa de `10` e alcança no mínimo `11`.** *Quem põe um dos três atributos em Constituição alcança `12`, a não ser que os outros dois sejam Inteligência e Essência; quem não põe alcança `11`.* **A folga, que era zero por decisão, passou a ser de uma ou duas entradas.**
+
+*O gate em "ou" conta como destravado quando qualquer um dos dois atributos está entre os três. A tabela antiga desta seção usava a média (três gates em cada cinco); com um gate por atributo a média e o caso a caso davam o mesmo `10`, e agora não dão, então a conta passou a ser caso a caso.*
 
 #### A forma da entrada sai do atributo do gate
 
@@ -1239,7 +1269,7 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 
 **O `uma vez na ficha` é da ficha inteira e não do catálogo** — vale para o feiticeiro e para o sem energia igual, e nenhuma ficha carrega duas. *A régua de frequência que preça as duas é a mesma, e ela é do manual: **uma cena por arco é Leve, metade é Média, quase toda é Pesada — na dúvida, Pesada***, e a `Própria` não alcança a Categoria de Efeito 3, então **a dúvida reprova a proposta**.
 
-> **⚠ E o tamanho das duas listas é derivado, não fixo — isso importa porque elas vão crescer.** *O Mizuki já registrou que pretende acrescentar aptidões ao catálogo do feiticeiro.* **As doze pagas de cada lado saem de uma conta só: a rota pura precisa de `10` (sete marcos, os três últimos levando duas), e o catálogo carrega `+2` de folga para que escolher qual deixar de fora seja escolha e não falta de cardápio.** *Se o marco mudar, as duas listas mudam junto; se o catálogo do feiticeiro crescer, a folga cresce e o piso de `10` não se move.* **O número que não pode ser copiado à mão é o `10`, e ele mora no §3.**
+> **⚠ E o tamanho das duas listas é derivado, não fixo — isso importa porque elas vão crescer.** *O Mizuki já registrou que pretende acrescentar aptidões ao catálogo do feiticeiro.* **As ~~doze~~ pagas de cada lado saem de uma conta só (v0.344: do lado das Bênçãos são catorze): a rota pura precisa de `10` (sete marcos, os três últimos levando duas), e o catálogo carrega `+2` de folga para que escolher qual deixar de fora seja escolha e não falta de cardápio.** *Se o marco mudar, as duas listas mudam junto; se o catálogo do feiticeiro crescer, a folga cresce e o piso de `10` não se move.* **O número que não pode ser copiado à mão é o `10`, e ele mora no §3.**
 
 ### ~~O que ainda espera a Técnica Marcial~~ — nada mais espera, desde a v0.122
 
@@ -1249,7 +1279,7 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 
 > **E a régua chegou menor do que a espera fazia parecer.** *A peça 20 não inventou orçamento nenhum: ela herdou o do Fundamento inteiro.* **Então as cinco não precisaram de número — precisaram de saber contra o que uma rodada desta rota se mede**, e a resposta é *contra a mesma coisa que a de todo mundo*.
 
-*O que NÃO espera mais:* **se espelha** (o conteúdo não, a forma sim), **quantas são** (catorze: duas grátis e doze pagas, mais a `Bênção Própria`), **as duas gratuitas** (`Defesa sem Armadura` portada e o `Estímulo Muscular`, as duas escritas acima com número), **o que as escala** (a Lapidação, `1` a `10`, mesmos degraus do §5), **como as doze se separam** (gate de atributo, o sexto formato), **e o que não precisa entrar** (ferir maldição e anti-domínio, que já têm dono na peça 16).
+*O que NÃO espera mais:* **se espelha** (o conteúdo não, a forma sim), **quantas são** (dezesseis desde a v0.344: duas grátis e catorze pagas, com a `Bênção Própria` entre elas; até a v0.343, ~~catorze e doze~~), **as duas gratuitas** (`Defesa sem Armadura` portada e o `Estímulo Muscular`, as duas escritas acima com número), **o que as escala** (a Lapidação, `1` a `10`, mesmos degraus do §5), **como as doze se separam** (gate de atributo, o sexto formato), **e o que não precisa entrar** (ferir maldição e anti-domínio, que já têm dono na peça 16).
 
 ## 6.9. O dano na arma — a exceção da §2, com o incentivo escrito
 

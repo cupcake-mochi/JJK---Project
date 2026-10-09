@@ -239,7 +239,7 @@ A troca é sempre desproporcional para os dois lados: você perde muito e ganha 
 
 **O que ela não herda é o conteúdo do catálogo — a forma, sim.** *A peça 11 §6.8 tem a contagem: das quinze aptidões, **catorze são construídas em cima da energia amaldiçoada** e a décima quinta é formato, não conteúdo.* **Espelhar conteúdo entrada por entrada não é escolha ruim — é impossível.**
 
-**A forma espelha: catorze Bênçãos, duas grátis na Lapidação `1` e doze pagas.** *As duas grátis são a `Defesa sem Armadura` portada — `1/3 da Lapidação + 1`, a mesma fórmula com outro recurso — e o `Estímulo Muscular`. **As doze pagas estão na peça 11 §6.8**, com nome, Categoria de Efeito e gate.*
+**A forma espelha: dezesseis Bênçãos desde a v0.344, duas grátis na Lapidação `1` e catorze pagas** *(até a v0.343, ~~catorze e doze~~)***.** *As duas grátis são a `Defesa sem Armadura` portada — `1/3 da Lapidação + 1`, a mesma fórmula com outro recurso — e o `Estímulo Muscular`. **As catorze pagas estão na peça 11 §6.8**, com nome, Categoria de Efeito e gate.*
 
 ### O corpo atravessa o que a energia levantou
 

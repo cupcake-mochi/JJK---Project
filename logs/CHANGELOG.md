@@ -8,6 +8,34 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.344] — 09/10/2026
+
+**As duas Bênçãos novas do R41, `Represália` e `Sangue Frio`, entraram na peça 11 §6.8, e a conta dos gates foi refeita.** *A v0.343 deixou as duas de fora porque a seção tinha escrito, com conta, que os gates eram cinco, um por atributo, e que esse era o teto.*
+
+**As duas, como estão no R41:**
+
+- **`Represália`, Categoria de Efeito 2, Força 4 ou Destreza 4.** *Fora do seu turno, quando uma criatura usa uma aptidão que custe ação ou Reação, ou conjura um feitiço, a até `1,5 m`, você gasta a Reação para um ataque corpo a corpo contra ela. O ataque resolve depois e não interrompe nada.*
+- **`Sangue Frio`, Categoria de Efeito 3, Constituição 4.** *Vantagem nos TR contra feitiços e contra aptidões que custem ação ou Reação, de quem está a até `3 m`; uma vez por cena, repete um TR falho com um `d20` só.*
+- *Nas duas, aptidão passiva não conta, e Expansão de Domínio também não.*
+
+**O que mudou na conta.** *A rota pura de Lapidação tem três atributos em `4` ou mais, e precisa de `10` Bênçãos pagas.* **Com doze pagas e cinco gates, um por atributo, ela alcançava `10` em qualquer arranjo: folga zero, por decisão do Mizuki.** **Com catorze pagas e sete gates, ela alcança `11` em cinco dos dez arranjos e `12` nos outros cinco.** *A folga subiu para uma ou duas entradas, e a separação deixou de ser máxima: Força, Destreza e Constituição têm dois gates cada.* *A tabela antiga da seção usava a média de três gates em cada cinco; com gate repetido e gate em "ou", a média e o caso a caso deixam de coincidir, e a conta passou a ser caso a caso.*
+
+**O que não foi medido.** *A única conta das duas é a `MEDIDA-represalia-sangue-frio-2026-10-09.md`, feita antes dos dois últimos acertos, e ela não é teste de mesa.* **A peça diz isso na entrada.**
+
+**Uma proximidade de nome que a triagem não pega.** *`Represália` e `Sangue Frio` saíram `LIVRE` no `conferir-nomes.py`.* *Mas `Represália` é vizinha de sentido da `Retaliação`, que é a habilidade de nível 2 do Combatente Amaldiçoado, no Bastião: as duas são revidar. Os nomes são do Mizuki; fica o aviso.*
+
+**A checagem nova: a sub-checagem 9.1 do `conferir-aptidoes.py`.** *Até aqui ninguém conferia a tabela das Bênçãos pagas.* **Ela cobra três coisas:** *que a tabela da peça e a tabela "Escolhas disponíveis" do R41 tenham as mesmas Bênçãos, com a mesma Categoria e o mesmo requisito; que o título e a linha dos gates publiquem a contagem que a tabela tem; e que a rota pura feche em cada um dos dez arranjos, com o mínimo e o máximo publicados iguais aos da conta.* *O piso de `10` é lido da §3, e não escrito na checagem.*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *tirar a linha da `Represália` da peça, trocar o requisito do `Sangue Frio`, trocar no R41 a Categoria da `Represália`, voltar a linha dos gates para cinco, publicar `10` no lugar de `11`, e pôr requisito em mais cinco Bênçãos nas duas tabelas (o que derruba a rota pura).* **Seis perturbações, seis acesas, cada uma na frase que devia.**
+
+**Cópias da contagem acertadas:** *a peça 9 e a peça 20 diziam "catorze Bênçãos, duas grátis e doze pagas"; são dezesseis e catorze.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/INVENTARIO-REVISAO-R41.md`: Origens e Progressão (itens 113, 118 e 119; o 115 espera a resposta do Mizuki), e depois a troca da fonte dos validadores para o R41.
+
+---
+
 ## [0.343] — 09/10/2026
 
 **As primeiras regras da revisão do R41 chegaram às peças: equipamento sem a Força, carga, a Reação de `Cobrir-se` e o `Insondável`.** *São os casos `nova` e `desfaz` do inventário da v0.342 que não dependem de resposta nenhuma. As duas Bênçãos novas ficaram para a próxima versão, pelo motivo que está no fim desta entrada.*
