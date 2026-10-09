@@ -19,7 +19,7 @@ def pega(txt, rx, nome, fl=re.M):
 def baixo(x): return int(x) if x - int(x) <= 0.5 else int(x) + 1          # meio para BAIXO
 def virg(x, c=2): return f'{x:.{c}f}'.replace('.', ',')
 
-pf = ler('manual/gerador/partF.js')
+pf = ler('sistema/99-arquivo/manual-fundamento-v7/gerador/partF.js')
 i = pf.find("H2('Inimigos')")
 FAIXA = {int(n): (int(g), int(d)) for n, g, d in
          re.findall(r"\['(\d+)', '~(\d+)', '[\d a]+', '(\d+)', '\d+', '\d+'\]", pf[i:i + 900])}

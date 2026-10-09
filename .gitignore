@@ -6,12 +6,12 @@ _backup/
 _to_delete/
 
 # O gerador do manual instala dependencia local
-manual/gerador/node_modules/
-manual/gerador/package-lock.json
+sistema/99-arquivo/manual-fundamento-v7/gerador/node_modules/
+sistema/99-arquivo/manual-fundamento-v7/gerador/package-lock.json
 
 # O .docx gerado dentro da pasta do gerador e copia de trabalho —
-# o que vale e o de manual/Fundamento-MANUAL-v7.docx
-manual/gerador/Fundamento-MANUAL-v7.docx
+# o que vale e o que fica uma pasta acima. O manual v7 esta no arquivo desde a v0.352.
+sistema/99-arquivo/manual-fundamento-v7/gerador/Fundamento-MANUAL-v7.docx
 
 # Python
 __pycache__/

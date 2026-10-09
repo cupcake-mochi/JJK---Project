@@ -420,9 +420,30 @@ Depois da passada, o inventário fica assim:
 
 **Saiu sem substituto, porque o R41 não tem o que conferir:** *a caixa "REFINO, EM UMA LINHA" do manual; a comparação manual × livro (hoje há um documento só); e a tabela "Raio do domínio" do livro v0.331 (o R41 publica a fórmula).*
 
-**O tamanho do que falta, medido numa cópia sem o `manual/gerador`, o `.docx` e o `.pdf`:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` passam. O `conferir-repositorio.py` acusa `54` coisas: quatro arquivos que o README promete e cinquenta citações de caminho, em dezessete documentos (catorze neste plano, doze no `ESTADO-ATUAL.md`, e o resto em evidências do livro, várias presas por hash). A contagem é de antes dos documentos desta versão, que citam os mesmos caminhos mais algumas vezes.* **Mover os arquivos e montar o mapa de movidos é a próxima versão.** *Os dois scripts de medição que leem o gerador (`casca-sem-barreira.py` e `sobrecarga.py`) não estão na bateria e vão junto para o arquivo.*
+**O tamanho do que falta, medido numa cópia sem o `manual/gerador`, o `.docx` e o `.pdf`:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` passam. O `conferir-repositorio.py` acusa `54` coisas: quatro arquivos que o README promete e cinquenta citações de caminho, em dezessete documentos (catorze neste plano, doze no `ESTADO-ATUAL.md`, e o resto em evidências do livro, várias presas por hash). A contagem é de antes dos documentos desta versão, que citam os mesmos caminhos mais algumas vezes.* **Mover os arquivos e montar o mapa de movidos é a próxima versão.** *Os dois scripts de medição de `manual/matematica/` que leem o gerador (`casca-sem-barreira.py` e `sobrecarga.py`) não estão na bateria.* ~~*Eles vão junto para o arquivo.*~~ *Na v0.352 ficaram onde estavam, com o caminho trocado.*
 
 **O que continua lendo o livro v0.331, e não é deste arquivamento:** *o livro v0.331 fica onde está. O `conferir-expansao.py` ainda lê os capítulos 25 e 45 dele no bloco 10, e o `conferir-ritual.py` lê o 46 nas checagens 7 e 7.1.*
+
+## O manual do Fundamento v7 vai para o arquivo, feito em 09/10/2026 (v0.352)
+
+*O que os passos 5 e 5b deixaram pendente. Revisão por modelo, não humana.*
+
+**O gerador, o `.docx` e o `.pdf` saíram de `manual/` para `sistema/99-arquivo/manual-fundamento-v7/`,** *com o cabeçalho de por que morreram. `manual/matematica/` fica onde está: o `pac7.py` e o `v7.py` são da bateria.*
+
+**Este plano tinha subestimado o tamanho, duas vezes:**
+
+- **Ele contava 33 citações em documentos e não contava script.** *Vinte scripts de medição abrem o gerador em linha de código: doze do `bestiario/`, seis de `sistema/01-pesquisa/` e dois de `manual/matematica/`. Nenhum está na bateria, e por isso a medida da v0.351 (uma cópia sem o gerador, com os validadores passando) não os viu.*
+- **A contagem de 54 da v0.351 estava incompleta.** *O `conferir-repositorio.py` parava numa exceção antes do fim, numa leitura da versão do manual que eu não tinha achado; o que ele imprimiu até ali foram os 54.*
+
+**O que foi feito com os vinte scripts:** *o caminho foi trocado em cada um. Para provar que o caminho novo lê os mesmos arquivos, cada script rodou duas vezes na mesma árvore, uma com o caminho antigo servido por um atalho temporário para a pasta nova e outra com o caminho novo.* **Os vinte deram a mesma saída.** *Treze deles já não rodavam até o fim antes desta versão, rodados como estavam, por âncoras que outras versões mudaram; isso não foi mexido. Dez, todos do `bestiario/`, têm a raiz do repositório escrita por extenso (o HD do Mizuki) e só acham a pasta nova quando aquela cópia estiver nesta versão.*
+
+**No `conferir-repositorio.py`:** *a estrutura esperada, a origem do `.docx` e do `.pdf` no recorte da entrega e as três leituras da versão do manual passaram para o caminho novo; e entrou o mapa `MOVIDOS`, para as citações em documentos que não se reescrevem (várias presas por hash nos manifestos do livro).* **A checagem da versão do manual continua:** *com o manual congelado na v7.41, ela cobra que ninguém anuncie outra.*
+
+**O que não foi feito, e fica declarado:**
+
+- **Os vinte scripts continuam medindo contra o manual v7,** *que diverge do livro final. Apontá-los para o livro é trabalho de cada frente (o bestiário tem a passada dele).*
+- **A entrega (`finalizado/`) continua levando o `.docx` e o `.pdf` do manual v7.** *Só a origem mudou de pasta. Tirar o manual aposentado da entrega é decisão do Mizuki.*
+- **O `README.md` e o `PROMPT-PROXIMA-CONVERSA.md` tiveram os caminhos trocados;** *os outros documentos ficam como estavam e resolvem pelo mapa.*
 
 ## Os seis capítulos sem passo, achados em 06/10/2026
 

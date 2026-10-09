@@ -15,7 +15,7 @@ esqueleto novo mantem; todo numero sai do dono.
 import re, sys, os
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) + os.sep
 def ler(c): return open(R + c, encoding='utf-8').read()
-pf = ler('manual/gerador/partF.js')
+pf = ler('sistema/99-arquivo/manual-fundamento-v7/gerador/partF.js')
 p26 = ler('sistema/03-mecanica/26-bestiario.md')
 cap = ler('bestiario/04-fase-1/fila/DECIDIDO-o-capanga.md')
 pes = ler('bestiario/09-fase-2/pesquisa/NOTAS-pesquisa-externa.md')

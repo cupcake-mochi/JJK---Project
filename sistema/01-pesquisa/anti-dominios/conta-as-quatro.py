@@ -30,9 +30,9 @@ from math import comb
 from functools import lru_cache
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))) + os.sep
 def ler(c): return open(R + c, encoding='utf-8').read()
-pa, p18, p11 = ler('manual/gerador/partA.js'), ler('sistema/03-mecanica/18-progressao.md'), ler('sistema/03-mecanica/11-aptidoes-e-refino.md')
+pa, p18, p11 = ler('sistema/99-arquivo/manual-fundamento-v7/gerador/partA.js'), ler('sistema/03-mecanica/18-progressao.md'), ler('sistema/03-mecanica/11-aptidoes-e-refino.md')
 p06, p05, p14, pF = (ler('sistema/03-mecanica/06-caminhos-e-trilhas.md'), ler('sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md'),
-                     ler('sistema/03-mecanica/14-equipamento.md'), ler('manual/gerador/partF.js'))
+                     ler('sistema/03-mecanica/14-equipamento.md'), ler('sistema/99-arquivo/manual-fundamento-v7/gerador/partF.js'))
 falhas = []
 def confere(nome, obtido, esperado):
     ok = obtido == esperado

@@ -98,8 +98,11 @@ def recorte_da_entrega():
             pares.append((os.path.join(RAIZ, f), os.path.join(ent, 'desenho', f)))
     pares.append((os.path.join(RAIZ, 'sistema', '02-esqueleto', 'arquitetura.md'),
                   os.path.join(ent, 'desenho', 'arquitetura.md')))
+    # v0.352: o manual v7 foi para o arquivo. A entrega continua levando o .docx e o .pdf
+    # ate o Mizuki decidir se eles saem dela; so a FONTE mudou de lugar.
     for f in ('Fundamento-MANUAL-v7.docx', 'Fundamento-MANUAL-v7.pdf'):
-        pares.append((os.path.join(RAIZ, 'manual', f), os.path.join(ent, 'manual', f)))
+        pares.append((os.path.join(RAIZ, 'sistema', '99-arquivo', 'manual-fundamento-v7', f),
+                      os.path.join(ent, 'manual', f)))
     # v0.199: o bloco de inimigo entra junto com a ficha, e pelo mesmo motivo —
     # os tres sao material de MESA, e a peca 26 aponta para o bloco. Ele ficou de
     # fora no primeiro commit da v0.199 e quem acusou foi a 7.2: a citacao dele
@@ -150,7 +153,7 @@ def versao_do_manual():
     `subir.sh` so' sabia ajustar a versao do RECORTE no README da entrega, e a do
     MANUAL ficava para tras calada ate a 7.3 derrubar o commit."""
     try:
-        primeira = open(os.path.join(RAIZ, 'manual', 'gerador', 'COMO-USAR.txt'),
+        primeira = open(os.path.join(RAIZ, 'sistema', '99-arquivo', 'manual-fundamento-v7', 'gerador', 'COMO-USAR.txt'),
                         encoding='utf-8').readline()
     except OSError:
         return ''
@@ -199,10 +202,11 @@ ESPERADO = [
     ('.gitignore', 'arquivo'),
     ('logs/CHANGELOG.md', 'arquivo'),
     ('logs/CHANGELOG-manual-v6-para-v7.md', 'arquivo'),
-    ('manual/Fundamento-MANUAL-v7.docx', 'arquivo'),
-    ('manual/Fundamento-MANUAL-v7.pdf', 'arquivo'),
-    ('manual/gerador/make.js', 'arquivo'),
-    ('manual/gerador/COMO-USAR.txt', 'arquivo'),
+    ('sistema/99-arquivo/manual-fundamento-v7/LEIA-ME.md', 'arquivo'),
+    ('sistema/99-arquivo/manual-fundamento-v7/Fundamento-MANUAL-v7.docx', 'arquivo'),
+    ('sistema/99-arquivo/manual-fundamento-v7/Fundamento-MANUAL-v7.pdf', 'arquivo'),
+    ('sistema/99-arquivo/manual-fundamento-v7/gerador/make.js', 'arquivo'),
+    ('sistema/99-arquivo/manual-fundamento-v7/gerador/COMO-USAR.txt', 'arquivo'),
     ('manual/matematica/pac7.py', 'arquivo'),
     ('manual/matematica/v7.py', 'arquivo'),
     ('sistema/ESTADO-ATUAL.md', 'arquivo'),
@@ -361,6 +365,29 @@ LOCAIS = {
 }
 
 
+# MOVIDOS PARA O ARQUIVO (v0.352). O gerador do manual do Fundamento v7, o .docx e o .pdf
+# sairam de `manual/` para `sistema/99-arquivo/manual-fundamento-v7/`. Dezenas de documentos
+# citam o caminho antigo, e varios estao presos por hash nos manifestos do livro, que nao se
+# reescrevem. Uma citacao que nao resolve e cai num prefixo deste mapa e' procurada no
+# destino: se o arquivo esta la, ela vale e e' CONTADA (a soma sai impressa); se nao esta,
+# continua morta. O mapa tambem e' conferido: a origem nao pode existir e o destino tem de
+# existir, senao ele envelheceu.
+MOVIDOS = {
+    'manual/gerador/': 'sistema/99-arquivo/manual-fundamento-v7/gerador/',
+    'manual/Fundamento-MANUAL-v7.docx': 'sistema/99-arquivo/manual-fundamento-v7/Fundamento-MANUAL-v7.docx',
+    'manual/Fundamento-MANUAL-v7.pdf': 'sistema/99-arquivo/manual-fundamento-v7/Fundamento-MANUAL-v7.pdf',
+}
+
+
+def _movido(alvo):
+    """O destino de uma citacao cujo caminho foi para o arquivo, ou None."""
+    for velho, novo in MOVIDOS.items():
+        i = alvo.find(velho)
+        if i >= 0 and (i == 0 or alvo[i - 1] == '/'):
+            return novo + alvo[i + len(velho):]
+    return None
+
+
 def _padroes_gitignore():
     pads = []
     try:
@@ -410,6 +437,7 @@ def _pastas_acima(base):
     return pastas
 
 locais = 0
+movidas = 0
 
 vistos = 0
 mortas = 0
@@ -506,6 +534,9 @@ for base, dirs, files in os.walk(RAIZ):
                 tentativas = [os.path.join(p, alvo) for p in _pastas_acima(base)]
                 tentativas.append(os.path.join(RAIZ, 'sistema', alvo))
                 achou = any(os.path.exists(x) for x in tentativas)
+                if not achou and _movido(alvo) and os.path.exists(os.path.join(RAIZ, _movido(alvo))):
+                    movidas += 1
+                    continue
                 if not achou and _ignorado(alvo):
                     locais += 1
                     aviso(f'{rel(caminho)} cita `{alvo}`, que o .gitignore deixa '
@@ -525,6 +556,12 @@ for base, dirs, files in os.walk(RAIZ):
 
 print(f'  {vistos} caminhos citados em .md conferidos, {mortas} mortos, '
       f'{locais} locais ou temporarios fora do repositorio (aviso).')
+print(f'  {movidas} citam um caminho que foi para o arquivo e resolvem no destino (mapa MOVIDOS).')
+for _velho, _novo in MOVIDOS.items():
+    if os.path.exists(os.path.join(RAIZ, _velho.rstrip('/'))):
+        erro(f'o mapa MOVIDOS diz que `{_velho}` foi para o arquivo, e ele existe no lugar antigo')
+    if not os.path.exists(os.path.join(RAIZ, _novo.rstrip('/'))):
+        erro(f'o mapa MOVIDOS manda `{_velho}` para `{_novo}`, e o destino nao existe')
 if mortas == 0:
     print('  Todos resolvem.')
 
@@ -623,13 +660,16 @@ confere(
 )
 
 # --- a versao do manual. Dono: a primeira linha do COMO-USAR.txt do gerador. -
+# v0.352: o manual v7 foi para o arquivo, congelado na v7.41. A checagem fica, com os
+# caminhos novos: ela passa a cobrar que ninguem anuncie outra versao de um manual que
+# nao e' mais gerado.
 # Por que o gerador e nao o .docx: o .docx e SAIDA. Quando os dois discordam,
 # quem esta errado e a capa, e o conserto e regerar — foi exatamente o que
 # aconteceu na v0.33, com a capa tres versoes atras do resto do projeto.
 confere(
     'VERSAO DO MANUAL',
-    'manual/gerador/COMO-USAR.txt', r'GERADOR DO MANUAL — Fundamento v(\d+\.\d+)',
-    [('manual/gerador/partA.js', r'Versão (\d+\.\d+)', 'a CAPA do manual gerado'),
+    'sistema/99-arquivo/manual-fundamento-v7/gerador/COMO-USAR.txt', r'GERADOR DO MANUAL — Fundamento v(\d+\.\d+)',
+    [('sistema/99-arquivo/manual-fundamento-v7/gerador/partA.js', r'Versão (\d+\.\d+)', 'a CAPA do manual gerado'),
      ('manual/matematica/COMO-USAR.txt', r'MATEMÁTICA — Fundamento v(\d+\.\d+)', 'o cabecalho'),
      ('README.md', r'manual do Fundamento na \*\*v(\d+\.\d+)\*\*', 'a linha de abertura'),
      ('sistema/ESTADO-ATUAL.md', r'manual do Fundamento \*\*v(\d+\.\d+)\*\*', 'a secao do manual'),
@@ -1340,7 +1380,7 @@ else:
     _entrega_confere('a versao do recorte', r'\*\*Recorte da v(\d+\.\d+)\.\*\*',
                      'logs/CHANGELOG.md', r'^## \[(\d+\.\d+)\]')
     _entrega_confere('a versao do manual', r'\*\*v(\d+\.\d+)\*\*',
-                     'manual/gerador/COMO-USAR.txt',
+                     'sistema/99-arquivo/manual-fundamento-v7/gerador/COMO-USAR.txt',
                      r'GERADOR DO MANUAL — Fundamento v(\d+\.\d+)')
     _entrega_confere('a contagem de pecas', r'as \*\*([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) peças\*\* de mecânica',
                      'README.md', r'\*\*([A-Za-zÀ-ÿ]+(?: e [A-Za-zÀ-ÿ]+)?) peças de regra\*\*', extenso=True)
@@ -1817,7 +1857,7 @@ def _dono8(nome):
 
 
 _MANUAL8 = re.search(r'v(7\.\d+)', open(os.path.join(
-    RAIZ, 'manual', 'gerador', 'COMO-USAR.txt'), encoding='utf-8').readline()).group(1)
+    RAIZ, 'sistema', '99-arquivo', 'manual-fundamento-v7', 'gerador', 'COMO-USAR.txt'), encoding='utf-8').readline()).group(1)
 
 _ALVOS8 = [('sistema/03-mecanica/' + p, p) for p in _P8] + \
           [('sistema/ESTADO-ATUAL.md', None), ('README.md', None)]

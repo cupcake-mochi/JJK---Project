@@ -14,8 +14,8 @@ as duas CDs sao a mesma; as contas nao mudam, so o rotulo.
 import re, math, sys
 import os
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) + os.sep
-pa = open(R + 'manual/gerador/partA.js', encoding='utf-8').read()
-pd = open(R + 'manual/gerador/partD.js', encoding='utf-8').read()
+pa = open(R + 'sistema/99-arquivo/manual-fundamento-v7/gerador/partA.js', encoding='utf-8').read()
+pd = open(R + 'sistema/99-arquivo/manual-fundamento-v7/gerador/partD.js', encoding='utf-8').read()
 lv = open(R + 'sistema/05-material/livro/manual/40-fundamento.md', encoding='utf-8').read()
 def anc(p, t, o):
     m = re.search(p, t, re.M)

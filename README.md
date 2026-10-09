@@ -2,7 +2,7 @@
 
 **O sistema se chama `Ciclo Maldito`** desde a v0.334, o nome do livro final do Mizuki. *Até ali era `Projeto - M`, batizado na v0.94 — a pendência mais velha que existia aqui, aberta na v0.1.* Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.351** · manual do Fundamento na **v7.41** · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.352** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 
 ## O livro: Ciclo Maldito
@@ -31,7 +31,7 @@ As imagens de conferência e os antigos pacotes de transferência permanecem no 
 
 O problema que ele existe para resolver não é "fazer um RPG de JJK": é **o mesmo personagem passar por sete mesas diferentes e continuar sendo o mesmo personagem**. Por isso quase toda decisão aqui passa por um filtro — *dois mestres que nunca conversaram chegam ao mesmo número?* — e por isso o projeto tem mais validador que a maioria dos sistemas publicados.
 
-O coração é o **Fundamento**: um subsistema fechado e já validado que resolve técnica, feitiço, Melhoria, Restrição, Liberação Máxima, Expansão de Domínio e dano de alma por orçamento de pontos. Ele mora em `manual/` e é gerado por código. Tudo em `sistema/` é o que existe **em volta** dele — atributos, Caminhos, perícias, criação de personagem, descanso, aptidões.
+O coração é o **Fundamento**: um subsistema fechado e já validado que resolve técnica, feitiço, Melhoria, Restrição, Liberação Máxima, Expansão de Domínio e dano de alma por orçamento de pontos. Desde a v0.337 o dono dele é o livro. O manual v7, que era gerado por código, está congelado em `sistema/99-arquivo/manual-fundamento-v7/` desde a v0.352. Tudo em `sistema/` é o que existe **em volta** dele — atributos, Caminhos, perícias, criação de personagem, descanso, aptidões.
 
 E o registro do **porquê** de cada decisão é tão importante quanto a regra: `logs/CHANGELOG.md` guarda o argumento de todas as versões desde a v0.1, e é a única parte do projeto que não dá para reconstruir sozinho lendo o resto.
 
@@ -75,10 +75,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
 │   ├── CHANGELOG.md                     o porquê de cada decisão, da v0.1 até a versão atual
 │   └── CHANGELOG-manual-v6-para-v7.md   o changelog do manual, antes de ele entrar aqui
 ├── manual/
-│   ├── Fundamento-MANUAL-v7.docx        v7.41 — o manual gerado
-│   ├── Fundamento-MANUAL-v7.pdf         v7.41 — o mesmo do .docx desde a v0.93
-│   ├── gerador/                         Node + docx. `node make.js` recria o .docx do zero
-│   └── matematica/                      pac7.py e v7.py, os validadores do manual
+│   └── matematica/                      pac7.py e v7.py, os validadores do manual (o manual v7 foi para sistema/99-arquivo/manual-fundamento-v7/)
 └── sistema/
     ├── ESTADO-ATUAL.md                  o ponto de retomada
     ├── LEIA-ME.md                       o mapa das pastas
@@ -99,7 +96,7 @@ Um arquivo `RASCUNHO-*.md` em `03-mecanica/` é levantamento engatilhado, não p
 ## Preparar a máquina
 
 ```bash
-cd manual/gerador && npm install docx               # só se for regerar o manual
+cd sistema/99-arquivo/manual-fundamento-v7/gerador && npm install docx   # só para reabrir o manual v7, que está no arquivo
 ```
 
 **Nenhum validador precisa mais do `python-docx`, desde a v0.337.** *Até a v0.336 seis deles liam o manual do Fundamento v7 (`.docx`) e, sem a biblioteca, pulavam checagem e saíam verdes com código 0 — a tabela de quanto cada um pulava está no `ESTADO-ATUAL`, com a história dela.* **No passo 5 da migração o `.docx` saiu de fonte, e os sete que o abriam passaram a ler o livro reconstruído** pelo `sistema/03-mecanica/livro.py`. *Rodando os 27 com o import bloqueado, todos saem com zero puladas; a sub-checagem `9.1` do `conferir-repositorio.py` acende se algum voltar a abrir o `.docx`.* **O `npm install docx` só serve para quem for regerar o manual v7**, e o gerador dele é o próximo a ir para o arquivo (o `PLANO.md` da migração diz quando).
@@ -252,18 +249,20 @@ O repositório é a fonte da verdade, e o Project do Claude lê dele. **A sincro
 
 Pular o passo 3 é o jeito mais fácil de acabar com duas versões do projeto: o Project continua lendo o commit anterior e passa a discutir regra que já mudou. Se uma conversa começar a citar número que você sabe que não é mais o atual, sincronize antes de qualquer outra coisa.
 
-## Regerar o manual
+## O manual v7, no arquivo
+
+**O manual do Fundamento v7 não é mais fonte de regra nem é regerado.** *O dono do Fundamento é o livro desde a v0.337, e o gerador, o `.docx` e o `.pdf` foram para `sistema/99-arquivo/manual-fundamento-v7/` na v0.352, congelados na v7.41. O que segue é como ele era gerado, para quem precisar reabrir.*
 
 O `.docx` **não é editado à mão** — ele é gerado.
 
 ```bash
-cd manual/gerador
+cd sistema/99-arquivo/manual-fundamento-v7/gerador
 npm install docx
 node make.js
 cp Fundamento-MANUAL-v7.docx ../Fundamento-MANUAL-v7.docx
 ```
 
-`manual/gerador/COMO-USAR.txt` diz onde mexer em cada parte e traz o histórico de mudanças de cada versão do manual. **Rode `pac7.py` antes de gerar** se você mexeu em número, exemplo ou feitiço pronto.
+`sistema/99-arquivo/manual-fundamento-v7/gerador/COMO-USAR.txt` diz onde mexer em cada parte e traz o histórico de mudanças de cada versão do manual. **Rode `pac7.py` antes de gerar** se você mexeu em número, exemplo ou feitiço pronto.
 
 O `.pdf` **sai junto com o `.docx`, na mesma versão**, desde a v0.93 — ele passou sete versões do manual atrasado porque era exportado a mão pelo Word. *Hoje sai de `soffice --headless --convert-to pdf`.* **A paginação não é copiada aqui:** *esta linha dizia `v7.15` e `49 páginas` com o manual na v7.37 e 50 páginas, e a v0.263 tirou os dois números — a versão tem dono, e a paginação é do artefato.*
 

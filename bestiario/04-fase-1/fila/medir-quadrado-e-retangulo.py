@@ -36,7 +36,7 @@ FILA = os.path.join(BEST, '04-fase-1/fila')
 DS = os.path.join(FILA, 'dados-recarga-area/data-md-main')
 
 BLOCO = '03-bloco/RASCUNHO-5-o-bloco-em-branco.md'
-PARTC = 'manual/gerador/partC.js'
+PARTC = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partC.js'
 QUAD = 1.5          # o lado do quadrado da grade — lido abaixo, do dono
 
 _cache = {}

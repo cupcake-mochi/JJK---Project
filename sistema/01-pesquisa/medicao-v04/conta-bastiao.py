@@ -25,7 +25,7 @@ piloto, e nenhum numero publicado saiu daqui.
 import re, sys, os
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))) + os.sep
 def ler(c): return open(R + c, encoding='utf-8').read()
-p05, dtr, pa = ler('sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md'), ler('DESENHO-trilhas.md'), ler('manual/gerador/partA.js')
+p05, dtr, pa = ler('sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md'), ler('DESENHO-trilhas.md'), ler('sistema/99-arquivo/manual-fundamento-v7/gerador/partA.js')
 p19, dca = ler('sistema/03-mecanica/19-dano-e-condicoes.md'), ler('DESENHO-caminhos.md')
 v04 = ler('caminhos/01-Caminhos-e-Trilhas/01-Bastiao-Caminho-e-Trilhas.md')
 falhas = []

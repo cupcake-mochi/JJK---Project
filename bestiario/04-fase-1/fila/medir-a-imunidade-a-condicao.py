@@ -27,7 +27,7 @@ REPO = os.environ.get('JJK_REPO', '/media/mizuki/HD Externo II/Claude/Claude 2')
 P19 = 'sistema/03-mecanica/19-dano-e-condicoes.md'
 P26 = 'sistema/03-mecanica/26-bestiario.md'
 P11 = 'sistema/03-mecanica/11-aptidoes-e-refino.md'
-PARTD = 'manual/gerador/partD.js'
+PARTD = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partD.js'
 
 _cache = {}
 

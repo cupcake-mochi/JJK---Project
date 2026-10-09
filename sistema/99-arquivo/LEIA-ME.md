@@ -20,6 +20,7 @@ Nada aqui é regra corrente. Tudo aqui foi substituído, ou já cumpriu o que ti
 | `RASCUNHO-clash-de-expansoes.md` | aberto na v0.28 e arquivado na v0.173, e **é o primeiro que veio para cá sem ter virado peça** — o dono dele acabou sendo o manual, na v7.18. O cabeçalho traz a reprovação medida do modelo de push gradual |
 | `RASCUNHO-ritmo-de-xp.md` | aberto e fechado em duas versões: v0.195 mediu o repreço da curva de XP, e a **v0.196** escreveu ele na peça 12 e no capítulo 80 — esticando a curva mais uma vez no caminho. *O cabeçalho lista as **quatro** coisas dele que não sobreviveram à conferência* — a tabela nível a nível tinha ruído, a do gatilho estava medida a uma faixa só, e dois números da prosa eram arredondamento recontado |
 | `PROMPT-TRILHAS.md` | **o terceiro, e ele foi escrito catorze versões DEPOIS do aviso acima.** Feito na v0.59 para o chat de Trilhas; ficou aqui desde então **sem cabeçalho e sem entrada nesta tabela**, com cara de documento vivo. *Envelheceu igual aos outros dois: manda conferir a versão contra `v0.59`, ler o CHANGELOG até a v0.50 e afirma 19 validadores.* **Catalogado na v0.69, varrendo lixo.** |
+| `manual-fundamento-v7/` | o manual do Fundamento v7: o gerador em Node (`gerador/`), o `.docx` e o `.pdf`, congelados na **v7.41**. Foi o dono do Fundamento até a v0.336; desde a v0.337 o dono é o livro, e a pasta veio para cá na v0.352. O `LEIA-ME.md` de lá diz por que morreu e quem ainda o lê |
 
 ## Como arquivar coisa nova
 

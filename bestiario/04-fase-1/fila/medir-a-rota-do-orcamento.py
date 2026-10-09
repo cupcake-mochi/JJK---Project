@@ -8,7 +8,7 @@ from decimal import Decimal, ROUND_HALF_UP
 R = '/media/mizuki/HD Externo II/Claude/Claude 2'
 def ler(p): return open(f'{R}/{p}', encoding='utf-8').read()
 def morre(m): sys.exit('ANCORA PERDIDA: ' + m)
-pf = ler('manual/gerador/partF.js'); t26 = ler('sistema/03-mecanica/26-bestiario.md'); mk = ler('sistema/05-material/gerador-inimigo/make.js')
+pf = ler('sistema/99-arquivo/manual-fundamento-v7/gerador/partF.js'); t26 = ler('sistema/03-mecanica/26-bestiario.md'); mk = ler('sistema/05-material/gerador-inimigo/make.js')
 LIN = {int(n): int(cd) for n, cd in re.findall(r"\['(\d+)', '~\d+', '\d+ a \d+', '(\d+)', '\d+', '\d+'\]", pf)}
 if len(LIN) != 7: morre('tabela Inimigos do partF.js (%d linhas)' % len(LIN))
 CAT = []

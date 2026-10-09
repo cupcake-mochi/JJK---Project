@@ -8,7 +8,30 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
-## [0.351] — 09/10/2026
+## [0.352] — 09/10/2026
+
+**O manual do Fundamento v7 foi para o arquivo.** *O gerador, o `.docx` e o `.pdf` saíram de `manual/` para `sistema/99-arquivo/manual-fundamento-v7/`, congelados na v7.41. O dono do Fundamento é o livro desde a v0.337, e o último validador que lia o gerador saiu dele na v0.351. `manual/matematica/` fica onde está.*
+
+**Vinte scripts de medição abriam o gerador direto, e o plano não os tinha contado.** *Doze do `bestiario/`, seis de `sistema/01-pesquisa/` e dois de `manual/matematica/`; nenhum está na bateria.* **O caminho foi trocado nos vinte, e cada um dá a mesma saída lendo o lugar antigo e o novo.** *A prova foi rodar cada script duas vezes na mesma árvore: uma com o caminho antigo servido por um atalho temporário para a pasta nova, outra com o caminho novo.*
+
+- **Treze dos vinte já não rodavam até o fim antes desta versão,** *rodados como estavam, por âncoras que outras versões mudaram. Isso não foi mexido.*
+- **Dez, todos do `bestiario/`, têm a raiz do repositório escrita por extenso** *(o HD do Mizuki). Eles só acham a pasta nova quando aquela cópia estiver nesta versão.*
+- **Os vinte continuam medindo contra o manual v7, e não contra o livro.**
+
+**O `conferir-repositorio.py` ganhou o mapa `MOVIDOS`.** *Uma citação de caminho antigo que não resolve é procurada no destino: se o arquivo está lá, ela vale e é contada (são `27` com os documentos desta versão); se não está, continua morta. O mapa também é conferido: a origem não pode existir e o destino tem de existir.* *A estrutura esperada, a origem do `.docx` e do `.pdf` no recorte da entrega e as três leituras da versão do manual passaram para o caminho novo.*
+
+**Correção da v0.351:** *ela disse que, sem o gerador, o `conferir-repositorio.py` acusava 54 coisas. A contagem estava incompleta: ele parava numa exceção antes do fim, numa leitura da versão do manual que eu não tinha achado.*
+
+**O que não foi feito:** *a entrega (`finalizado/`) continua levando o `.docx` e o `.pdf` do manual v7, só com a origem em outra pasta; tirar o manual aposentado dela é decisão do Mizuki.*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *citar um arquivo que não existe no gerador arquivado; recriar a pasta antiga; apagar do arquivo um arquivo citado; mudar a versão na capa arquivada; anunciar outra versão no README; apagar o `.pdf`.* **Seis perturbações, seis acesas.**
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes da v0.341.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`: os geradores e a ficha (passo 6); o item 115 e a pergunta da `Promessa` quando o Mizuki responder.
+
+---
+
 
 **O `conferir-expansao.py` deixou de ler o gerador do manual v7.** *Ele era o último validador que lia o `manual/gerador`: o `partE.js` em dois lugares, e o capítulo 9 do livro v0.331 ao lado, cobrando que as duas cópias concordassem. As duas estão congeladas desde a v0.337.* **O custo de abrir e os blocos 11, 11.1, 11.2 e 12 passaram a ler o capítulo de Poderes avançados do R41, que é o dono da Expansão.**
 

@@ -16,7 +16,7 @@ CP = os.environ.get('ARNES_COPIA', '/tmp/claude-1000/-media-mizuki-HD-Externo-II
                     '8caa82d6-467d-4d5d-bdd6-3e44a9933b71/scratchpad/arnes-c')
 PECA = 'sistema/03-mecanica/26-bestiario.md'
 DJ = 'sistema/05-material/gerador-inimigo/dados.js'
-PC = 'manual/gerador/partC.js'
+PC = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partC.js'
 CB, CF = 'conferir-bestiario.py', 'conferir-ficha.py'
 EXCL = ['.git', 'finalizado', 'node_modules', 'PDFs - Sistemas Extras', '_to_delete', '_backup',
         '.claude', 'Fichas - Teste']

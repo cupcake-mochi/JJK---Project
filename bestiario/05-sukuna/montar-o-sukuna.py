@@ -24,7 +24,7 @@ BEST = os.environ.get('JJK_BEST', '/media/mizuki/HD Externo II/Claude/Claude 2/b
 P19 = 'sistema/03-mecanica/19-dano-e-condicoes.md'
 P26 = 'sistema/03-mecanica/26-bestiario.md'
 P24 = 'sistema/03-mecanica/24-dano-de-alma.md'
-PARTE = 'manual/gerador/partE.js'
+PARTE = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partE.js'
 
 TABELA = '04-fase-1/TABELA.md'
 ESCADA = '04-fase-1/a-escada-com-numero.md'
@@ -494,8 +494,8 @@ else:
     linha(f'  Acima do piso de {PISO_PONTOS:.0f}. Ele monta feitiço, e o Fundamento faz o resto.')
 linha()
 # a escada de Classe, lida do gerador do manual — nada de valor no padrão
-PARTF = 'manual/gerador/partF.js'
-PARTD = 'manual/gerador/partD.js'
+PARTF = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partF.js'
+PARTD = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partD.js'
 CLASSES = {int(a): int(b) for a, b in
            re.findall(r"H2\('Classe (\d+) · (\d+) pontos", ler(PARTF))}
 if not CLASSES:
@@ -747,7 +747,7 @@ linha(f'    Nada no bloco é dividido: o golpe fica na banda, e o domínio é o 
 # ────────────────────────────────────────────────────────────────────────────
 bloco('A CHAMA DIVINA E O ALCANCE — a Recarga, pela peça 26 §6.5')
 # ────────────────────────────────────────────────────────────────────────────
-PARTC = 'manual/gerador/partC.js'
+PARTC = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partC.js'
 _cab = pega(PARTC, r"TBL\(\['Forma', 'Classe (\d+)', 'Classes (\d+)–(\d+)', 'Classes (\d+)–(\d+)'\]", 'as faixas de Classe da tabela de alcance')
 _faixas_cls = [(int(_cab.group(1)), int(_cab.group(1)), 1), (int(_cab.group(2)), int(_cab.group(3)), 2), (int(_cab.group(4)), int(_cab.group(5)), 3)]
 _col = next(c for lo, hi, c in _faixas_cls if lo <= CLASSE_ACAO <= hi)

@@ -56,7 +56,7 @@ versões foram quase todas nela:
 
 O `Fundamento` tem um exemplo guiado para feitiço e ele funciona: cinco passos numerados,
 depois um feitiço montado do zero passo a passo, uma tabela de ficha pronta no fim, e uma
-caixa de **erros comuns**. Está em `manual/gerador/partC.js`, e o feitiço é o `Corte
+caixa de **erros comuns**. Está em `sistema/99-arquivo/manual-fundamento-v7/gerador/partC.js`, e o feitiço é o `Corte
 Medido`.
 
 O capítulo 60 (`invocacoes/museu/60-invocacoes.md` desde a v0.270, quando saiu do livro) tem **dezoito seções**,
@@ -126,7 +126,7 @@ colunas antes de commitar.
 6. `conferir-voz.py --estrito`, de dentro de `sistema/05-material/livro/`
 7. `conferir-repositorio.py`, da raiz
 
-Se mexeu no manual do Fundamento: `node make.js` em `manual/gerador/`, copiar o `.docx` para
+Se mexeu no manual do Fundamento: `node make.js` em `sistema/99-arquivo/manual-fundamento-v7/gerador/`, copiar o `.docx` para
 `manual/`, e exportar o `.pdf` com `soffice --headless --convert-to pdf`.
 
 O `conferir-repositorio.py` vai acusar `7.1` e `7.3` antes do commit — são o recorte da

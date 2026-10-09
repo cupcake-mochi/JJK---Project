@@ -41,7 +41,7 @@ from itertools import product
 from functools import lru_cache
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))) + os.sep
 def ler(c): return open(R + c, encoding='utf-8').read()
-pa, p18, p11 = ler('manual/gerador/partA.js'), ler('sistema/03-mecanica/18-progressao.md'), ler('sistema/03-mecanica/11-aptidoes-e-refino.md')
+pa, p18, p11 = ler('sistema/99-arquivo/manual-fundamento-v7/gerador/partA.js'), ler('sistema/03-mecanica/18-progressao.md'), ler('sistema/03-mecanica/11-aptidoes-e-refino.md')
 p05, dtr = ler('sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md'), ler('DESENHO-trilhas.md')
 p03, p01 = ler('sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md'), ler('sistema/03-mecanica/01-atributos-acerto-defesa.md')
 

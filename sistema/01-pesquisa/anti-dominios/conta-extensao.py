@@ -26,7 +26,7 @@ import re, sys, os, math
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))) + os.sep
 def ler(c): return open(R + c, encoding='utf-8').read()
 p11, p18, p26 = ler('sistema/03-mecanica/11-aptidoes-e-refino.md'), ler('sistema/03-mecanica/18-progressao.md'), ler('sistema/03-mecanica/26-bestiario.md')
-pF, p05, pA = ler('manual/gerador/partF.js'), ler('sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md'), ler('manual/gerador/partA.js')
+pF, p05, pA = ler('sistema/99-arquivo/manual-fundamento-v7/gerador/partF.js'), ler('sistema/03-mecanica/05-caminho-e-combate-sem-feitico.md'), ler('sistema/99-arquivo/manual-fundamento-v7/gerador/partA.js')
 falhas = []
 def confere(nome, obtido, esperado):
     ok = obtido == esperado

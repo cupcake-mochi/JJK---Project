@@ -9,7 +9,7 @@
 # Este script NAO digita numero: ele reabre os donos, refaz as 35 celulas pela rota B
 # e reescreve os tres lugares que publicam a conta. Morre se uma ancora sumir.
 #
-#   dono da linha de dano       manual/gerador/partF.js, tabela `Inimigos`
+#   dono da linha de dano       sistema/99-arquivo/manual-fundamento-v7/gerador/partF.js, tabela `Inimigos`
 #   dono da categoria           peca 26 §4 (fator, acoes, carrega Intervencao)
 #   dono do fator 0,923         peca 26 §6.5
 #   dono do piso da Classe 1    peca 26 §6.5
@@ -26,7 +26,7 @@ P60 = f'{B}/08-livro/capitulos/60-a-montagem.md'
 def ler(p): return open(p, encoding='utf-8').read()
 def morre(m): sys.exit('✗ ÂNCORA PERDIDA: ' + m)
 
-pf = ler(f'{R}/manual/gerador/partF.js'); t26 = ler(P26)
+pf = ler(f'{R}/sistema/99-arquivo/manual-fundamento-v7/gerador/partF.js'); t26 = ler(P26)
 mk = ler(f'{R}/sistema/05-material/gerador-inimigo/make.js')
 
 LIN = {int(n): int(cd) for n, cd in re.findall(r"\['(\d+)', '~\d+', '\d+ a \d+', '(\d+)', '\d+', '\d+'\]", pf)}

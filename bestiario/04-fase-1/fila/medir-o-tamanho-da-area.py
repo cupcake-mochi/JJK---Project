@@ -16,7 +16,7 @@ from collections import defaultdict, Counter
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 REPO = "/media/mizuki/HD Externo II/Claude/Claude 2"
-GER  = REPO + "/manual/gerador/partC.js"
+GER  = REPO + "/sistema/99-arquivo/manual-fundamento-v7/gerador/partC.js"
 
 def ler(p):
     if not os.path.exists(p): sys.exit('DONO SUMIU: %s' % p)
@@ -145,7 +145,7 @@ L(); L('=' * 88)
 L('E A NOSSA — a base que ele chamou de "3m é nada"')
 L('=' * 88)
 nos = nossas()
-exige(nos, 'as escadas de área sumiram do manual/gerador/partC.js')
+exige(nos, 'as escadas de área sumiram do sistema/99-arquivo/manual-fundamento-v7/gerador/partC.js')
 for k, v in nos.items():
     q = v / M_POR_QUAD
     a = area_burst(q) if 'raio' in k else area_cone(q)

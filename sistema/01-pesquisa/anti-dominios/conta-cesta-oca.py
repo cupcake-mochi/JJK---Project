@@ -18,7 +18,7 @@ Nada de numero digitado quando existe dono: tudo que tem ancora e lido do reposi
 import re, sys, math, os
 from math import comb
 R = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))) + os.sep
-pa = open(R + 'manual/gerador/partA.js', encoding='utf-8').read()
+pa = open(R + 'sistema/99-arquivo/manual-fundamento-v7/gerador/partA.js', encoding='utf-8').read()
 p18 = open(R + 'sistema/03-mecanica/18-progressao.md', encoding='utf-8').read()
 p11 = open(R + 'sistema/03-mecanica/11-aptidoes-e-refino.md', encoding='utf-8').read()
 

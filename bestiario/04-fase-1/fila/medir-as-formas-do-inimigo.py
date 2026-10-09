@@ -27,8 +27,8 @@ BEST = os.environ.get('JJK_BEST', '/media/mizuki/HD Externo II/Claude/Claude 2/b
 REPO = os.environ.get('JJK_REPO', '/media/mizuki/HD Externo II/Claude/Claude 2')
 
 BLOCO = '03-bloco/RASCUNHO-5-o-bloco-em-branco.md'
-PARTC = 'manual/gerador/partC.js'
-PARTD = 'manual/gerador/partD.js'
+PARTC = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partC.js'
+PARTD = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partD.js'
 
 _cache = {}
 

@@ -33,8 +33,8 @@ BEST = os.environ.get('JJK_BEST', '/media/mizuki/HD Externo II/Claude/Claude 2/b
 REPO = os.environ.get('JJK_REPO', '/media/mizuki/HD Externo II/Claude/Claude 2')
 FILA = os.path.join(BEST, '04-fase-1/fila')
 DS = os.path.join(FILA, 'dados-recarga-area/data-md-main')
-PARTC = 'manual/gerador/partC.js'
-PARTD = 'manual/gerador/partD.js'
+PARTC = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partC.js'
+PARTD = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partD.js'
 P19 = 'finalizado/regra/19-dano-e-condicoes.md'
 
 QUAD = 1.5

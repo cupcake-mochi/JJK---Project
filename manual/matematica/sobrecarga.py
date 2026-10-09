@@ -49,7 +49,7 @@ P03  = 'sistema/03-mecanica/03-economia-de-acao-e-iniciativa.md'
 P19  = 'sistema/03-mecanica/19-dano-e-condicoes.md'
 P26  = 'sistema/03-mecanica/26-bestiario.md'
 DTRI = 'DESENHO-trilhas.md'
-PARTD = 'manual/gerador/partD.js'
+PARTD = 'sistema/99-arquivo/manual-fundamento-v7/gerador/partD.js'
 FUND  = 'sistema/05-material/livro/manual/40-fundamento.md'
 
 print('=' * 86)
