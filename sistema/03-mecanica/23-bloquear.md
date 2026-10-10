@@ -87,6 +87,12 @@ E a regra declara a própria neutralidade, o que resolve o *"nem pode parecer va
 >
 > **O Aparar não anula um `20` natural.** Crítico fura guarda.
 > Bloquear não custa nada, não gasta a sua Reação, vale contra qualquer ataque com rolagem de acerto, **não vale em Teste de Resistência**, e é de todo mundo — jogador e inimigo.
+>
+> **A escolha vem antes da rolagem de acerto do atacante, sem conhecer o resultado.**
+
+**A ordem faz parte da regra, porque a neutralidade depende dela.** *Quem escolhesse depois de ver o `d20` só rolaria quando a Defesa parada já tivesse perdido: ficaria com os `8,2%` de ataques que o dado salva e nunca pagaria os `8,2%` que ele trai (§7.1).* **Seria Defesa de graça, o defeito que a seção 1 reprovou.**
+
+> **O livro dizia a ordem contrária até o R42**, ~~"depois de conhecer a rolagem do atacante"~~, *e o R43 corrigiu em 10/10/2026, a pedido do Mizuki: "a ordem do bloquear estava errada, estava vindo depois da rolagem de acerto".* **Uma habilidade mudou junto:** *no `Redirecionar a Força` do Pugilista o novo alvo usa só a Defesa, porque o `d20` já foi rolado quando o golpe chega nele.* Registro em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R42-para-R43.json`.
 
 **O crítico não muda em nada.** O atacante continua rolando `d20`, então *"`20` natural numa rolagem de acerto"* segue intocado: `5%`, dobra os dados, zero texto novo. *Isso é vantagem desta rota sobre virar a rolagem para o jogador, que obrigaria a mudar a casa do crítico.*
 

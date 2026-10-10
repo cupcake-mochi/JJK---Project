@@ -199,6 +199,9 @@ publication_changes.extend(aplicar_r41(enriched,hierarquia))
 # R42: item 186 autorizado pelo autor.
 from revisao_r42 import aplicar as aplicar_r42
 publication_changes.extend(aplicar_r42(enriched))
+# R43: alteração de Bloquear e decisão do autor sobre redirecionamento.
+from revisao_r43 import aplicar as aplicar_r43
+publication_changes.extend(aplicar_r43(enriched))
 for key,block in all_blocks.items():
  first=enriched[key].splitlines()[0] if enriched[key].splitlines() else ''
  if re.match(r'^#{1,6} ',first):block.title=re.sub(r'^#{1,6} ','',first)

@@ -112,6 +112,7 @@ with pdfplumber.open(pdf) as pp:
  for i,p in enumerate(pp.pages,1):
   check(all(c['x0']>=-.2 and c['x1']<=p.width+.2 and c['top']>=-.2 and c['bottom']<=p.height+.2 for c in p.chars),'Glifos dentro da página',i)
   check(not any(c['text'] in ['\ufffd','■'] for c in p.chars),'Glifos faltantes',i)
+  p.close()  # Release each checked page instead of retaining glyph caches for the whole book.
 # Images: verify original files, crop bounds, native PDF pixels and text separation.
 from PIL import Image
 for name,data in m['imagens']['imagens'].items():

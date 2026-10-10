@@ -141,8 +141,9 @@ Estes itens foram decididos na direção, mas faltam os números. O Mizuki vai f
 
 Tudo o que não aparece nas seções A e B fica exatamente como está na R29, incluindo os itens da revisão que o autor mandou manter. Em caso de dúvida, não altere e pergunte.
 
-## E. Decidido depois do R41 (aplicado no R42)
+## E. Decidido depois do R41 (o 186 aplicado no R42, o 187 no R43)
 
 | nº | Assunto | O que muda |
 |---|---|---|
 | [186] | Promessa e o limite de pactos | **A Promessa não ocupa vaga.** O limite de metade da Essência conta só o pacto **permanente** e o **pacto de restrição**. Promessa e pacto temporário ficam de fora, e quem tem Essência 0 ou 1 pode firmar uma Promessa. Corrige o item [37]. Palavras do autor em 09/10/2026: "Não ocupa espaço". Trechos do R41: em Pacto permanente, "contando **permanentes, Promessas e pactos de restrição**. Pactos temporários não entram nesse limite."; em Pactos na criação, "como os permanentes e as Promessas". |
+| [187] | Bloquear: a ordem da escolha | **A escolha entre a Defesa e Bloquear vem antes da rolagem de acerto do atacante, sem conhecer o resultado.** Corrige o texto do livro, que até o R42 punha a escolha depois da rolagem; a peça `23-bloquear.md` sempre calculou a regra como escolha às cegas. Palavras do autor em 10/10/2026: "a ordem do bloquear estava errada, estava vindo depois da rolagem de acerto". Consequência decidida por ele no mesmo dia: no `Redirecionar a Força`, "Manter a rolagem original; novo alvo usa só Defesa". Aplicado no R43, em seis blocos: Ataques, Bloquear, Assumir um golpe (Bastião), Instante Decisivo e Redirecionar a Força (Incursor e Pugilista) e a consulta rápida. |

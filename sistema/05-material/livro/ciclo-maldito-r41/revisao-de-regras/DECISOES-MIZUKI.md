@@ -310,3 +310,9 @@ Formato: item | palavras dele (resumidas, fiéis) | leitura | estado.
 - Perguntado se a entrega ainda devia levar o manual do Fundamento v7: "tira". Saiu do recorte na v0.353.
 - Item 186. Perguntado de qual das duas partes era a vaga da Promessa: "Não ocupa espaço". Perguntado se Essência 0 ou 1 pode fechar Promessa: "Sim". A Promessa não ocupa vaga; desfaz parte do item 37.
 - R42 = R41 + 2 blocos (ritual--pacto-permanente e ritual--pacto-restricao), os dois registrados, antes e depois batem. 373 páginas; só as páginas 317 e 318 têm texto diferente. PDF SHA-256 d4c23b97…29731d.
+
+
+## R43 — 10/10/2026
+- Ele mandou a R43 dizendo: "Atualização menor no livro pq a ordem do bloquear estava errada, estava vindo depois da rolagem de acerto". Item 187.
+- Ao ChatGPT, sobre o `Redirecionar a Força`, que reaproveita um d20 já rolado: "Manter a rolagem original; novo alvo usa só Defesa" (registrado na pasta de entrega do R43, fora do repositório, no arquivo de decisões do autor).
+- R43 = R42 + 6 blocos, 10 trechos de texto, todos sobre o momento da escolha de Bloquear. Mesmas 14.347 linhas e 373 páginas. As contas dos exemplos não mudaram. PDF SHA-256 8c936686…76b175.

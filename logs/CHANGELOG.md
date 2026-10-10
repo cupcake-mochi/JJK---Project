@@ -8,6 +8,29 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.357] — 10/10/2026
+
+**O livro passa a ser o R43, que corrige a ordem do Bloquear.** *Até o R42 o texto punha a escolha entre a Defesa e Bloquear depois da rolagem de acerto do atacante. O Mizuki mandou a correção: "a ordem do bloquear estava errada, estava vindo depois da rolagem de acerto". A escolha vem antes, sem conhecer o resultado.*
+
+- **O R43 é o R42 com seis blocos mudados e mais nenhum:** *Ataques (o passo 1 da resolução e o exemplo do Sousuke), Bloquear (a frase da regra e o exemplo da Rina), `Assumir um golpe` do Bastião, `Instante Decisivo` do Incursor, `Redirecionar a Força` do Pugilista e a consulta rápida. São dez trechos de texto em 14.347 linhas, as mesmas da R42, e as mesmas 373 páginas. As contas dos exemplos não mudaram.*
+- **Uma regra mudou junto, por decisão dele:** *no `Redirecionar a Força` o golpe chega ao novo alvo com o `d20` já rolado, e o novo alvo usa só a Defesa, sem Bloquear ("Manter a rolagem original; novo alvo usa só Defesa").*
+- **A peça `23-bloquear.md` passou a dizer a ordem**, *na seção 3, com o motivo: a neutralidade que ela prova só vale para quem escolhe sem ver o `d20`. Quem escolhesse depois ficaria com os `8,2%` de ataques que o dado salva e nunca pagaria os `8,2%` que ele trai. A peça calculava assim desde o começo e não tinha a frase.*
+- **Item [187]** *na seção E do `MUDANCAS-DE-REGRA.md`, e as palavras dele no `DECISOES-MIZUKI.md` da pasta do livro.*
+
+**Entraram na pasta do livro:** *o PDF (SHA-256 `8c936686…76b175`), o `LIVRO-COMPLETO.md`, o `revisao_r43.py` e o `conferir_r43.py` do gerador, quatro arquivos do gerador que mudaram (`gerar_livro.py`, `ler_fontes.py`, `conferir_livro.py`, `DESTAQUES-CATALOGO.json`) e o registro `alteracoes/R42-para-R43.json`.*
+
+**`conferir-bloquear.py`, bloco 9:** *a seção 3 da peça diz a ordem; os dois `8,2%` do argumento são os do tráfego, recontados; o livro diz a ordem em sete lugares; nenhuma das cinco frases da ordem antiga voltou ao livro; e na peça a frase antiga só aparece riscada.*
+
+**Como o R43 foi conferido antes de entrar:** *o texto foi comparado linha a linha com o do R42 (dez trechos diferentes, todos dentro dos seis blocos registrados); o resto do livro foi varrido atrás de outra frase sobre o momento da escolha, e não há; e as dez frases novas estão no PDF, sem nenhuma das cinco antigas. O `Mudar o Destino` não precisou mudar, porque faz uma rolagem nova.*
+
+**O que esta versão não fez:** *a ficha do Sheets, em outro repositório, ainda lê o R42; três cartas de habilidade dela mudam de texto com o R43. O exemplo de Aparar ("Sousuke obtém 23 no ataque. Ela tira dois 10 em Bloquear") não diz quando a Rina escolheu; não contradiz a regra e ficou como está.*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *sete no livro (a regra do Bloquear, o passo 1 de Ataques, o exemplo da Rina, o Bastião, o `Instante Decisivo`, o novo alvo do `Redirecionar a Força` e a consulta, cada um devolvido à ordem antiga) e quatro na peça (a frase da ordem some, o número do argumento muda, a frase antiga sai do risco, o registro dela some).* **Onze perturbações, onze reprovações no sub-bloco esperado.**
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`, e o `conferir-repositorio.py` passa com o pulo de sempre (a checagem 7). O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes.*
+
+→ **Continua em** `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`, passo 7: a ficha do Sheets, em outro repositório, que precisa trocar o R42 pelo R43; e a entrega em `finalizado/`, que ainda é o recorte da v0.331.
+
 ## [0.356] — 09/10/2026
 
 **O gerador do bloco de inimigo foi comparado com o livro e com os arquivos publicados, e o passo 6 fechou.** *O bloco é da peça 26, que o livro não reproduz; o que ele usa do livro existe lá, e o `.docx` publicado é o que o gerador produz hoje.*

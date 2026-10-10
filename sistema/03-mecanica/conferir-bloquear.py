@@ -669,6 +669,83 @@ else:
 
 
 # ==========================================================================
+bloco('9. A ORDEM — a escolha vem antes da rolagem, na peca e no livro (v0.357, R43)')
+# ==========================================================================
+# Ate o R42 o livro dizia que a escolha de Bloquear vinha "depois de conhecer a rolagem
+# do atacante". A peca nunca disse isso, mas tambem nao dizia a ordem, e a neutralidade
+# do bloco 1 so vale para quem escolhe sem ver o d20: quem ve fica com o lado do
+# trafego que salva e nunca paga o que trai. O R43 corrigiu o livro em 10/10/2026.
+import livro as _livro
+
+# 9a — a peca diz a ordem, dentro da regra
+_m9 = re.search(r'## 3\. A regra(.*?)(?=\n## |\n### )', T23, re.S)
+_regra = _m9.group(1) if _m9 else ''
+if 'antes da rolagem de acerto do atacante' not in _regra:
+    erro('9a', 'a secao 3 da peca 23 nao diz mais que a escolha de Bloquear vem antes '
+               'da rolagem de acerto do atacante')
+else:
+    print('  [x] a secao 3 da peca diz que a escolha vem antes da rolagem de acerto')
+
+# 9b — o numero do argumento e o do trafego, recontado no bloco 3 (nao esta escrito aqui)
+_m9b = re.search(r'ficaria com os `([\d,]+)%` de ataques que o dado salva e nunca pagaria '
+                 r'os `([\d,]+)%` que ele trai', T23)
+if not _m9b:
+    erro('9b', 'a peca 23 nao publica mais o que escolher depois de ver o d20 renderia '
+               '(o lado do trafego que salva, sem o que trai)')
+else:
+    _sv, _tr = num(_m9b.group(1)), num(_m9b.group(2))
+    _sv_r, _tr_r = round(_salvou / N * 100, 1), round(_traiu / N * 100, 1)
+    if abs(_sv - _sv_r) > 1e-9 or abs(_tr - _tr_r) > 1e-9:
+        erro('9b', f'a peca diz que escolher depois de ver ficaria com {_sv:g}% e escaparia '
+                   f'de {_tr:g}%, e a enumeracao da {_sv_r:g}% e {_tr_r:g}%')
+    else:
+        print(f'  [x] escolher depois de ver o d20 ficaria com {_sv_r:g}% que salva sem pagar '
+              f'{_tr_r:g}% que trai — recontado da enumeracao')
+
+# 9c — o livro diz a mesma ordem, em todo lugar que fala do momento da escolha
+with open(_livro.R41, encoding='utf-8') as _fh:
+    _LIVRO9 = ' '.join(_fh.read().replace('**', '').split())
+_VALE9 = [
+    ('Bloquear', 'Essa escolha é feita contra cada ataque, antes da rolagem de acerto do '
+                 'atacante, sem conhecer seu resultado.'),
+    ('Ataques, Resolução', 'O alvo escolhe entre sua Defesa e Bloquear antes da rolagem de acerto.'),
+    ('o exemplo da Rina', 'Antes da rolagem da maldição, Rina escolhe Bloquear.'),
+    ('Bastião, Assumir um golpe', 'Ao assumir o golpe, escolha entre sua Defesa e Bloquear, antes '
+                                  'da rolagem do atacante, pelo procedimento normal.'),
+    ('Incursor, Instante Decisivo', 'Após rolar o d20 e antes de resolver a defesa do alvo, gaste Fluidez'),
+    ('Pugilista, Redirecionar a Força', 'Compare o resultado com a Defesa do novo alvo. Ele não pode '
+                                        'Bloquear esse ataque.'),
+    ('Consulta', 'O alvo escolhe entre sua Defesa e Bloquear, quando permitido.'),
+]
+_SAIU9 = [
+    'depois de conhecer a rolagem do atacante',
+    'antes de o alvo escolher entre a Defesa e Bloquear',
+    'Depois da rolagem, resolva contra sua Defesa ou escolha Bloquear',
+    'que pode Bloquear normalmente',
+    'Bloquear e as respostas cuja janela ainda seja válida continuam possíveis',
+]
+_falta9 = [onde for onde, f in _VALE9 if f not in _LIVRO9]
+_voltou9 = [f for f in _SAIU9 if f in _LIVRO9]
+if _falta9:
+    erro('9c', f'o livro nao diz mais que Bloquear e escolhido antes da rolagem em: {_falta9}')
+if _voltou9:
+    erro('9c', f'o livro voltou a dizer que Bloquear vem depois da rolagem: {_voltou9}')
+if not _falta9 and not _voltou9:
+    print(f'  [x] o livro diz a ordem nos {len(_VALE9)} lugares, e nenhuma das {len(_SAIU9)} '
+          f'frases da ordem antiga voltou')
+
+# 9d — na peca, a frase antiga do livro so aparece riscada
+_sem_risco = re.sub(r'~~.*?~~', '', T23, flags=re.S)
+_solta = [f for f in _SAIU9 if f in _sem_risco]
+if _solta:
+    erro('9d', f'a peca 23 cita a ordem antiga fora de um trecho riscado: {_solta}')
+elif 'depois de conhecer a rolagem do atacante' not in T23:
+    erro('9d', 'a peca 23 nao registra mais, riscada, a frase que o livro trazia ate o R42')
+else:
+    print('  [x] a frase antiga do livro so aparece riscada na peca')
+
+
+# ==========================================================================
 print()
 print('=' * 88)
 if FALHAS:

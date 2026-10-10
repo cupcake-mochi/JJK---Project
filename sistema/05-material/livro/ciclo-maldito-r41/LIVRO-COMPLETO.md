@@ -471,7 +471,7 @@ Um ataque concedido por Ação Bônus, Reação ou outro efeito segue o custo e 
 
 #### Resolução
 
-1. **Declare o ataque e o alvo.** Confira alcance, equipamento e requisitos. Resolva as habilidades que precisam ser usadas antes da rolagem.
+1. **Declare o ataque e o alvo.** Confira alcance, equipamento e requisitos. O alvo escolhe entre sua Defesa e Bloquear antes da rolagem de acerto. Resolva as habilidades que precisam ser usadas antes da rolagem.
 2. **Role o acerto.** Aplique os bônus e a vantagem ou desvantagem. Havendo ambas, elas se anulam conforme as regras de Testes.
 3. **Resolva a defesa.** Compare o total com a Defesa ou com Bloquear. Considere as regras de crítico e dos resultados duplos de Bloquear.
 4. **Resolva o golpe.** Se acertar, aplique o dano e os efeitos previstos. Se errar, aplique apenas o que declarar funcionar no erro. Cada habilidade conserva seu momento de uso.
@@ -486,7 +486,7 @@ Um ataque concedido por Ação Bônus, Reação ou outro efeito segue o custo e 
 
 O atributo da técnica é escolhido na criação dela. A maestria já faz parte do bônus de ataque; se a ficha disser **ataque +6**, some 6 ao d20 uma única vez. Treinos e requisitos continuam determinando as penalidades e as condições de uso das armas.
 
-> **Exemplo:** Sousuke usa a Ação Atacar contra um inimigo a 1,5 m. Tem Força 4 e maestria 2: ataque +6. Tira 11 no d20, total 17. O inimigo tem Defesa 17 e decide mantê-la: o golpe acerta. Sousuke passa à rolagem de dano.
+> **Exemplo:** Sousuke usa a Ação Atacar contra um inimigo a 1,5 m. Tem Força 4 e maestria 2: ataque +6. O inimigo tem Defesa 17 e decide mantê-la antes da rolagem. Sousuke tira 11 no d20, total 17: o golpe acerta. Sousuke passa à rolagem de dano.
 
 #### Feitiços
 
@@ -604,7 +604,7 @@ Depois de resolver o acerto, aplique as reduções de dano que forem permitidas.
 <a id="geral--bloquear"></a>
 #### Bloquear
 
-**Quando você é alvo de um ataque com rolagem de acerto, pode substituir sua Defesa por uma rolagem de Bloquear.** Essa escolha é feita contra cada ataque, depois de conhecer a rolagem do atacante e antes de aplicar o dano e os efeitos do acerto. Uma habilidade que exija uso antes da rolagem do atacante conserva essa exigência.
+**Quando você é alvo de um ataque com rolagem de acerto, pode substituir sua Defesa por uma rolagem de Bloquear.** Essa escolha é feita contra cada ataque, **antes da rolagem de acerto do atacante**, sem conhecer seu resultado. Uma habilidade que exija uso antes da rolagem do atacante conserva essa exigência.
 
 > **Bloquear = 2d10 + (sua Defesa - 11)**.
 
@@ -618,7 +618,7 @@ Bloquear é gratuito, **não gasta Reação** e está disponível tanto para per
 
 **O resultado substitui a Defesa, mesmo se for menor.** Você não escolhe o maior dos dois depois de rolar. A ficha pode trazer a conta pronta: **Defesa 17; Bloquear 2d10 + 6**.
 
-> **Exemplo:** uma maldição obtém 18 no ataque contra Rina, cuja Defesa é 17. Rina escolhe Bloquear e tira 7 e 4: **7 + 4 + 6 = 17**. O ataque acerta. Se os dados fossem 8 e 5, Bloquear daria 19, e o ataque erraria.
+> **Exemplo:** uma maldição declara um ataque contra Rina, cuja Defesa é 17. Antes da rolagem da maldição, Rina escolhe Bloquear. A maldição obtém 18 no ataque. Rina tira 7 e 4: **7 + 4 + 6 = 17**. O ataque acerta. Se os dados fossem 8 e 5, Bloquear daria 19, e o ataque erraria.
 
 ##### Limites
 
@@ -2821,7 +2821,7 @@ Quem falhar sofre os efeitos da ação **Provocar**, descrita em Ações, até o
 
 Enquanto a área estiver ativa, quando perceber um ataque com rolagem declarado contra um aliado dentro dela, pode gastar sua **Reação, antes da rolagem de acerto**, para se tornar o alvo. Você precisa perceber o aliado e o ataque.
 
-O alcance já conferido contra o aliado continua válido: você pode interceptar sem se mover, mesmo que esteja além do alcance normal do atacante. Depois da rolagem, resolva contra **sua Defesa** ou escolha **Bloquear**, pelo procedimento normal. Bloquear não exige outra Reação.
+O alcance já conferido contra o aliado continua válido: você pode interceptar sem se mover, mesmo que esteja além do alcance normal do atacante. Ao assumir o golpe, escolha entre **sua Defesa** e **Bloquear**, antes da rolagem do atacante, pelo procedimento normal. Bloquear não exige outra Reação.
 
 Se acertar, você recebe o dano e os demais efeitos do golpe, incluindo o crítico. Se errar, o ataque não acerta nenhum dos dois. Um efeito específico que cause dano no erro ainda usa você como alvo; ele não conta como acerto para suas respostas. A interceptação vale apenas para o ataque declarado. Não transfere uma área, um TR ou um efeito automático, nem os outros ataques daquela ação.
 
@@ -5854,7 +5854,7 @@ Antes de um ataque com arma ou desarmado, gaste Fluidez para realizá-lo **com v
 
 ##### Instante Decisivo
 
-Após rolar o d20 e antes de o alvo escolher entre a Defesa e Bloquear, gaste Fluidez para **ampliar sua margem de crítico em 1**, normalmente de 20 para 19–20. Esse mesmo acerto não pode recuperar Fluidez.
+Após rolar o d20 e antes de resolver a defesa do alvo, gaste Fluidez para **ampliar sua margem de crítico em 1**, normalmente de 20 para 19–20. Esse mesmo acerto não pode recuperar Fluidez.
 
 ##### Passo Rápido
 
@@ -6343,12 +6343,12 @@ Na falha, siga [Redirecionar a Força](#incursor--inc-redirecionar-resolucao).
 **Corpo em Harmonia, nível 27.** Depois que o agressor falhar no TR Físico, resolva o mesmo ataque contra o novo alvo:
 
 - Reutilize **o resultado do d20 já escolhido**, mantendo a vantagem ou desvantagem já resolvida. Não role novamente o ataque. Mantenha os modificadores do atacante e ajuste somente aqueles que dependam especificamente do alvo.
-- Compare o resultado com a **Defesa do novo alvo**, que pode **Bloquear normalmente**, incluindo as regras de Aparar e Brecha.
+- Compare o resultado com a **Defesa do novo alvo**. Ele **não pode Bloquear** esse ataque.
 - Se acertar, aplique o dano e os efeitos daquele golpe normalmente. **O agressor continua sendo o autor do ataque**; use os recursos já pagos e as regras de crítico dele. Nenhum custo do ataque original é pago de novo.
 
-**O erro que ativou Redirecionar a Força não pode repor a Fluidez gasta nessa resposta.** O ataque redirecionado não é um ataque seu e não gera Fluidez para você por acerto. Um mesmo ataque só pode ser redirecionado uma vez por esta habilidade. Como o d20 já foi escolhido, o redirecionamento não abre outra janela anterior à rolagem desse d20. Bloquear e as respostas cuja janela ainda seja válida continuam possíveis.
+**O erro que ativou Redirecionar a Força não pode repor a Fluidez gasta nessa resposta.** O ataque redirecionado não é um ataque seu e não gera Fluidez para você por acerto. Um mesmo ataque só pode ser redirecionado uma vez por esta habilidade. Como o d20 já foi escolhido, o redirecionamento não abre outra janela anterior à rolagem desse d20. As respostas cuja janela ainda seja válida continuam possíveis.
 
-> **Exemplo:** o agressor errou você com resultado 17, contra Defesa 18. Ele falha no TR da habilidade. O mesmo 17 é comparado à Defesa 15 do novo alvo, que pode Bloquear. O novo alvo precisa estar no alcance original do agressor; estar perto de você não basta.
+> **Exemplo:** o agressor errou você com resultado 17, contra Defesa 18. Ele falha no TR da habilidade. O mesmo 17 supera a Defesa 15 do novo alvo, que não pode Bloquear: o ataque acerta. O novo alvo precisa estar no alcance original do agressor; estar perto de você não basta.
 
 <!-- fonte:caminhos/incursor/lote-01/INCURSOR.md#inc-malabarista -->
 <a id="incursor--inc-malabarista"></a>
@@ -13974,8 +13974,8 @@ Antes de passar a vez, confira efeitos com prazo no fim do turno e anote recurso
 #### Ataque com rolagem
 
 1. Declare a capacidade e o alvo. Confira alcance, posição, equipamento e custos.
-2. Resolva as respostas que precisam ocorrer antes da rolagem.
-3. Role o ataque. Resolva a Defesa ou a escolha de Bloquear, quando permitida.
+2. O alvo escolhe entre sua Defesa e Bloquear, quando permitido. Resolva as respostas que precisam ocorrer antes da rolagem.
+3. Role o ataque. Resolva a Defesa ou o Bloquear escolhido.
 4. Confira acerto, crítico e os resultados especiais de Bloquear.
 5. Aplique o dano e os demais efeitos que cabem naquele resultado. Depois, resolva as respostas posteriores.
 
