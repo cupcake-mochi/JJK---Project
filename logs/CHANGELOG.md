@@ -8,6 +8,26 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.358] — 10/10/2026
+
+**A entrega pública passa a carregar o livro final.** *O recorte de `finalizado/` (o repositório `JJK---PDF---RPG`) estava parado na v0.330, com o Manual da Guilda. Perguntado sobre o que ela passa a carregar agora que o livro final existe, o Mizuki respondeu: "Só trocar o livro".*
+
+- **O livro do recorte é o `Ciclo-Maldito-Livro-de-Regras.pdf`**, *a edição R43, no lugar do `.pdf` e do `.docx` de revisão do Manual da Guilda.* O recorte tem 54 arquivos.
+- **O resto da entrega foi posto em dia com o repositório de hoje:** *as 27 peças, os desenhos, as fichas e o bloco de inimigo, a edição integrada dos Caminhos e o capítulo de Invocações da v0.331.* **O manual do Fundamento v7 saiu de lá**, *como decidido na v0.353.*
+- **O README da entrega diz que o livro é a edição atual** *e que os textos de `caminhos/`, `invocacoes/` e `desenho/` são registros de antes dele. As remissões que apontavam para a pasta do manual apontam para capítulos do livro.*
+
+**`conferir-repositorio.py`:** *o recorte troca o livro; a 7.1 acusa se o Manual da Guilda ou o manual v7 continuarem na entrega; na 7.3 o dono da contagem de capítulos passou a ser o texto do Ciclo Maldito (os títulos `## N.` do `LIVRO-COMPLETO.md`), e o README da entrega tem de apontar para o PDF novo e não pode citar o antigo.*
+
+**O que esta versão não fez:** *as fontes antigas que ficaram na entrega contradizem o livro em pontos que a revisão de outubro mudou (o Incursor de `caminhos/` ainda deixa o novo alvo do `Redirecionar a Força` Bloquear); o README avisa, e elas não foram reescritas. O PDF tem 61 MB, acima dos 50 MB em que o GitHub passa a avisar no envio.*
+
+**A lista branca da 7.2 foi medida de novo:** *a checagem 7 era pulada desde a v0.331, porque nenhum clone de trabalho tinha a entrega. Com ela no lugar, são `198` citações brancas no commit publicado e `224` hoje. As vinte e seis que entraram estão identificadas no código, uma família por linha: onze são o `PLANO.md` da migração, nove são nomes de validador e seis são caminhos da árvore da fonte. Nenhuma é material de mesa.*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *o Manual da Guilda de volta na pasta do livro; o manual v7 de volta; o PDF da entrega diferente do da fonte; o README da entrega com `19 capítulos`; o README citando o PDF antigo; o README sem o PDF novo; e o `PLANO.md` fora da lista branca.* **Sete perturbações, sete reprovações na checagem esperada.**
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py` e o `v7.py` saem com código `0`. O `conferir-repositorio.py` passa em tudo menos na 7.4, que só fecha depois que a entrega for commitada no repositório dela: por isso a entrega sobe antes deste commit. O `conferir-voz.py --estrito` continua reprovando no manual v0.331 congelado, como antes.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, parágrafo "Próximo": o teste da ficha do Sheets, e depois o Morrendo e as Origens, que esperam a revisão do Mizuki.
+
 ## [0.357] — 10/10/2026
 
 **O livro passa a ser o R43, que corrige a ordem do Bloquear.** *Até o R42 o texto punha a escolha entre a Defesa e Bloquear depois da rolagem de acerto do atacante. O Mizuki mandou a correção: "a ordem do bloquear estava errada, estava vindo depois da rolagem de acerto". A escolha vem antes, sem conhecer o resultado.*

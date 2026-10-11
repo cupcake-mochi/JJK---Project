@@ -130,11 +130,22 @@ def recorte_da_entrega():
                 pares.append((fonte, os.path.join(ent, os.path.relpath(fonte, RAIZ))))
     # A fonte do livro e' o ARTEFATO que o build gera, e nao o .md — o que a
     # entrega carrega e' o compilado, e e' ele que envelhece calado (v0.114).
+    # v0.358: o livro da entrega passa a ser o Ciclo Maldito, o livro principal desde a
+    # v0.341 (decisao do Mizuki de 10/10/2026: "So trocar o livro"). O Manual da Guilda,
+    # o .pdf e o .docx de revisao, saiu do recorte; a 7.1 acusa se ele continuar la.
     livro = os.path.join(RAIZ, 'sistema', '05-material', 'livro')
-    for f in ('Projeto-M-Manual-da-Guilda.pdf',
-              'Projeto-M-Manual-da-Guilda-REVISAO.docx'):
+    for f in ('Ciclo-Maldito-Livro-de-Regras.pdf',):
         pares.append((os.path.join(livro, f), os.path.join(ent, 'livro', f)))
     return pares
+
+
+def capitulos_do_livro():
+    """Quantos capitulos o Ciclo Maldito tem: os titulos `## N. Nome` do LIVRO-COMPLETO.md,
+    que tem de ser a sequencia 1..N sem buraco. O dono e' o texto do livro."""
+    with open(os.path.join(RAIZ, 'sistema', '05-material', 'livro', 'ciclo-maldito-r41',
+                           'LIVRO-COMPLETO.md'), encoding='utf-8') as fh:
+        nums = [int(n) for n in re.findall(r'^## (\d+)\. ', fh.read(), re.MULTILINE)]
+    return len(nums) if nums == list(range(1, len(nums) + 1)) else None
 
 
 def versao_do_recorte():
@@ -1002,13 +1013,17 @@ else:
 
     # v0.353: o que SAIU do recorte nao pode continuar na pasta. A sincronizacao so' copia,
     # nunca apaga; sem esta guarda o manual aposentado ficaria na entrega para sempre.
-    SAIU_DA_ENTREGA = ['manual/Fundamento-MANUAL-v7.docx', 'manual/Fundamento-MANUAL-v7.pdf']
+    # v0.358: o Manual da Guilda saiu junto, trocado pelo Ciclo Maldito.
+    SAIU_DA_ENTREGA = ['manual/Fundamento-MANUAL-v7.docx', 'manual/Fundamento-MANUAL-v7.pdf',
+                       'livro/Projeto-M-Manual-da-Guilda.pdf',
+                       'livro/Projeto-M-Manual-da-Guilda-REVISAO.docx']
     _sobras = [s for s in SAIU_DA_ENTREGA if os.path.exists(os.path.join(ENT, s))]
     if _sobras:
-        erro('7.1: a entrega ainda carrega o que saiu dela na v0.353 — apague de finalizado/: '
-             + ', '.join(_sobras))
+        erro('7.1: a entrega ainda carrega o que saiu dela (o manual v7 na v0.353, o Manual da '
+             'Guilda na v0.358) — apague de finalizado/: ' + ', '.join(_sobras))
     else:
-        print('  [x] o manual do Fundamento v7, que saiu da entrega na v0.353, nao esta la')
+        print('  [x] o manual do Fundamento v7 (saiu na v0.353) e o Manual da Guilda (saiu na '
+              'v0.358) nao estao na entrega')
 
     # -- 7.2: ponteiro pendurado, resolvido contra a arvore DA ENTREGA. -------
     #
@@ -1024,6 +1039,7 @@ else:
         r'^(conferir-[a-z-]+\.py'
         r'|subir\.sh|mensagem-de-commit\.txt'
         r'|ESTADO-ATUAL\.md|LEIA-ME\.md|CHANGELOG\.md|PROMPT-[A-Z-]+\.md'
+        r'|PLANO\.md'                         # o plano da migracao pos-candidata, v0.358
         r'|pitch-de-design\.md|dossie-de-metodologia\.md'
         r'|dados\.js|ficha\.js|pac7\.py|v7\.py|bf2\.py|validador-feiticos\.py'
         r'|(?:sistema/)?\d\d-[a-z-]+/.*'      # caminho na arvore da FONTE
@@ -1338,7 +1354,21 @@ else:
     # v0.280: 199 -> 200, MEDIDO pelo diff da entrega entre a v0.279 e a v0.280 simuladas. UMA: o
     #   `conferir-catalogo.py` na tabela nova da peca 6 §2, `Pendencias da v0.4 decididas`, dizendo
     #   qual checagem compara a frase com o livro. Mesma familia.
-    BRANCAS_AQUI, FOLGA = 200, 5
+    # v0.358: 200 -> 224, MEDIDO com a entrega de verdade, pela primeira vez desde a v0.330
+    #   (da v0.331 a v0.357 nenhum clone de trabalho tinha finalizado/, e a checagem 7 era
+    #   pulada). A medida usa os tres regex lidos deste codigo, no commit publicado da entrega
+    #   (a v0.330: 345 citacoes, 198 brancas) e na arvore sincronizada com a v0.358 (383 e 224).
+    #   A base dizia 200 e o publicado da 198: duas sairam entre a v0.280 e a v0.330 sem
+    #   registro, e nao foram identificadas. Entraram VINTE E SEIS, nenhuma material de mesa:
+    #   . 11 sao `PLANO.md`, o plano da migracao pos-candidata, citado no historico de onze
+    #     pecas ("passo 5b do PLANO.md"). Arquivo de trabalho, familia nova, declarada acima.
+    #   . 9 sao nomes de validador, familia `conferir-[a-z-]+\.py`: aptidoes (2) e equipamento
+    #     (2), e manual, invocacoes, progressao, alma e ritual (1 cada).
+    #   . 6 sao caminhos da arvore da fonte, familia `(?:sistema/)?\d\d-[a-z-]+/.*`: a conta da
+    #     Execucao Preparada e a pasta dos Caminhos da candidata (peca 6), a medida das duas
+    #     Bencaos e o registro das alteracoes de Aptidoes (peca 11), a pasta das Invocacoes da
+    #     candidata (peca 15) e o registro R42-para-R43 (peca 23).
+    BRANCAS_AQUI, FOLGA = 224, 5
     PISO_CITACOES, TETO_BRANCOS = 120, BRANCAS_AQUI + FOLGA
     if vistos_e < PISO_CITACOES:
         erro(f'7.2: achei so {vistos_e} citacoes na entrega, e o piso e {PISO_CITACOES} — '
@@ -1414,8 +1444,29 @@ else:
     # esta nao tinha. A paginacao NAO entra: ela nao tem dono em documento nenhum
     # do projeto, e inventar um seria escrever numero para fechar checagem. O
     # conserto dela foi outro — ela passou a aparecer UMA vez na entrega.
-    _entrega_confere('a contagem de capitulos do livro', r'\*\*(\d+) capítulos\*\*',
-                     'README.md', r'o Manual da Guilda em \*\*(\d+) capítulos\*\*')
+    # v0.358: o livro da entrega e' o Ciclo Maldito, e o dono da contagem de capitulos passou a
+    # ser o texto dele (ate a v0.357 era a linha do Manual da Guilda no README da fonte).
+    _ncap = capitulos_do_livro()
+    _caps = re.findall(r'\*\*(\d+) capítulos\*\*', _rme)
+    if _ncap is None:
+        erro('7.3: os titulos `## N. Nome` do LIVRO-COMPLETO.md nao formam mais a sequencia '
+             '1..N — nao sei contar os capitulos do livro')
+    elif not _caps:
+        erro('7.3: nao achei a contagem de capitulos do livro no README da entrega')
+    elif sorted(set(_caps)) != [str(_ncap)]:
+        erro(f'7.3: o README da entrega diz {sorted(set(_caps))} capitulos, e o Ciclo Maldito '
+             f'tem {_ncap}')
+    else:
+        print(f'    [x] a contagem de capitulos do livro: {len(_caps)} ocorrencia(s), todas "{_ncap}"')
+    # e o README da entrega nao pode mais apontar para o livro que saiu
+    _velho = re.findall(r'Projeto-M-Manual-da-Guilda[\w.-]*', _rme)
+    if _velho:
+        erro(f'7.3: o README da entrega ainda aponta para o Manual da Guilda '
+             f'({sorted(set(_velho))}), que saiu dela na v0.358')
+    elif 'Ciclo-Maldito-Livro-de-Regras.pdf' not in _rme:
+        erro('7.3: o README da entrega nao diz onde esta o livro (Ciclo-Maldito-Livro-de-Regras.pdf)')
+    else:
+        print('    [x] o README da entrega aponta para o Ciclo Maldito, e nao para o Manual da Guilda')
 
     # -- 7.4: a entrega esta SINCRONIZADA no disco, mas foi COMMITADA? --------
     #
