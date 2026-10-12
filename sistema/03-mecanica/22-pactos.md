@@ -15,7 +15,7 @@ Ela existe por uma dívida de cento e treze versões. O Passo 8 da peça 8 prome
 | forma | quando se fecha | teto | o que ela entrega |
 |---|---|---|---|
 | **permanente** | fora de cena, com o mestre lendo | **metade da Essência** | efeito constante, do dia a dia |
-| **temporário** | **Ação Bônus ou Reação, no seu turno** | não tem | benefício de uma cena ou instantâneo, com perda física ou energética |
+| **temporário** | **Ação Bônus, no seu turno; Reação fora dele, a um gatilho** | não tem | benefício de uma cena ou instantâneo, com perda física ou energética |
 | **`Promessa`** | entre duas entidades, **as duas aceitando** | não tem | o benefício vem de um dos dois lados |
 | **de restrição** | na criação, junto da Origem ou da técnica | **ocupa uma vaga da metade da Essência**, e o mestre pode abrir exceção | **nada** — ela escreve o preço de uma coisa que a ficha já tem |
 
@@ -182,7 +182,9 @@ O que `0,50` fatia é, nas moedas em que alguém pergunta:
 
 ## 4. O pacto temporário
 
-> **Como Ação Bônus ou Reação, no seu turno, você fecha um pacto na hora: declara o que perde e o que ganha, e o mestre aprova ou não.**
+> **No seu turno, com a Ação Bônus, você fecha um pacto na hora. Fora do seu turno, com a Reação, em resposta a um gatilho que você percebe.** *Nos dois casos você declara o que perde, o que ganha e o prazo, e o mestre aprova ou não.*
+>
+> ~~**Como Ação Bônus ou Reação, no seu turno, você fecha um pacto na hora: declara o que perde e o que ganha, e o mestre aprova ou não.**~~ *Valeu até a v0.358. Trocada na v0.359 pelo item 192.*
 >
 > **A perda é física ou energética, e ela é de verdade.** Um braço não volta porque a cena acabou.
 
@@ -196,12 +198,32 @@ O que `0,50` fatia é, nas moedas em que alguém pergunta:
 
 *Migração do capítulo de Pactos do R41 (passo 5b). A Reação já estava no livro v0.331 e faltava aqui.*
 
-- **A Reação gasta para fechar o pacto não deixa agir fora do turno nem mudar uma rolagem já resolvida.** *Perda, benefício e prazo são declarados antes de resolver a ação que o pacto vai melhorar.*
+- ~~**A Reação gasta para fechar o pacto não deixa agir fora do turno nem mudar uma rolagem já resolvida.**~~ *Frase da reconstrução do livro, que eu trouxe para cá na v0.350 sem ela ter passado pelo Mizuki como mudança numerada. Desfeita na v0.359 pelo item 192; a regra que vale está logo abaixo.*
 - **O benefício acaba, no máximo, no fim da cena.**
 - **Ele passa de um limite comum só na medida escrita e aprovada para aquela cena.** *Não é permissão geral para ignorar as outras regras.*
 - **Informação só paga preço se for nova, relevante e compreensível para quem recebe.** *Repetir o que o outro já sabe, ou mentir, não paga.*
 - **Dá para combinar modelos de pacto com o mestre antes da sessão.** *Na hora, ele confere se o preço ainda vale o mesmo; o modelo não é aprovação automática.*
 - **A mesma limitação não se vende três vezes:** *ao pacto, à Origem e a uma `Restrição` de feitiço. O que a ficha já recebeu por ela não vem de novo. Perder o que você já não podia usar não paga nada.*
+
+### O que a v0.359 muda no pacto temporário — itens 191 e 192
+
+*Decisões do Mizuki em 12/10/2026, publicadas no livro R44.*
+
+- **Fora do seu turno, o pacto temporário se fecha com a Reação, e o gatilho é obrigatório** *(item 192):* um ataque recebido, uma ação do inimigo ou outro evento que você perceba. *Palavras dele: "eles obrigatoriamente tinham q ter gatilhos, tipo um ataque recebido, ação do inimigo, etc".*
+- **A Reação entra depois de os dados do gatilho serem rolados e antes de as consequências serem aplicadas**, como a Reação de Cobrir-se de Energia. *O pacto não refaz nem muda uma rolagem; muda o que acontece dali em diante.*
+- **O pacto temporário dá um ganho temporário e pode cobrar uma perda permanente** *(item 191).* O prazo do benefício e o prazo do preço são combinados em separado.
+- **Pacto temporário nunca ocupa vaga, mesmo quando o preço dura para sempre.** *Palavras dele: "todo pacto temporario n custa espaço".*
+
+### A régua do câmbio — item 151
+
+**A régua mede o ganho, e o preço acompanha.** *Ela serve ao mestre para aprovar ou negar um pacto; não é tabela de conversão entre sacrifício e resultado.*
+
+| tamanho | o que o pacto entrega |
+|---|---|
+| **Pequeno** | muda uma conjuração, ou vale uma cena |
+| **Médio** | muda de forma permanente como um feitiço ou uma ação sua funciona |
+| **Grande** | muda de forma permanente como a sua energia ou um Estilo inteiro funciona |
+| **Enorme** | quebra um limite do sistema, uma vez |
 
 ## 5. A `Promessa`
 
@@ -258,18 +280,21 @@ O que `0,50` fatia é, nas moedas em que alguém pergunta:
 
 **Nenhuma das duas listas é fechada.** *Pacto de restrição é tempero, e tempero não se cataloga inteiro.*
 
-### 7.1 Os oito exemplares da obra
+### 7.1 Os nove exemplos do livro
 
 | exemplar | forma | o que ele prova |
 |---|---|---|
-| **Nanami · Overtime** | permanente | `80–90%` da energia no horário, `110–120%` na hora extra. **Efeito constante, e o gatilho é o relógio da ficção** |
-| **Mostrar a mão** | **temporário** | explicar a própria técnica ao adversário aumenta ela. **O preço não é o corpo: é a vantagem** |
-| **Hakari · o braço** | **temporário** | na explosão de vapor ele jogou a energia que protegia o braço esquerdo para o resto do corpo, **e perdeu o braço** |
-| **Hakari · o domínio** | permanente | `4` minutos e `11` segundos de imortalidade depois de abrir a Expansão. **É o câmbio no topo: arrisca a vida, ganha enorme** |
+| **Sukuna · o corte que parte o mundo** | **temporário** | lança o feitiço uma vez sem cumprir o Selo nem as Restrições; daí em diante ele exige as duas mãos, a recitação e apontar a direção. **Ganho temporário, perda permanente. Ganho Enorme** |
+| **Nanami · Overtime** | permanente | `2,5%` da energia máxima por hora de jornada combinada: `8` horas dão `20%` a menos durante a jornada e `20%` a mais na hora extra. **A jornada conta do começo das missões do dia; o descanso curto não conta e o longo zera. Ganho Grande** |
+| **Mostrar a mão** | **temporário** | com a Ação Bônus, explicar a própria técnica a quem ouve e entende: no turno da revelação, vantagem no acerto dos feitiços dela e desvantagem nos TRs do alvo; no turno seguinte, normal; no terceiro, invertido. **O preço não é o corpo: é a vantagem. Ganho Pequeno** |
+| **Hakari · o braço** | **temporário** | com a Reação, quando um golpe o levaria a zero: fica com `1` de vida **e perde o braço para sempre. Ganho Enorme** |
+| **Movimento direcional** | permanente | só se desloca em linha reta, até gastar os metros ou bater em alguma coisa; esse movimento não provoca ataque de oportunidade. **Ganho Médio** |
 | **Mahito ↔ Mechamaru** | `Promessa` | cura em troca de informação, **mais a cláusula que ele acrescentou** — ninguém de Kyoto |
 | **Sukuna ↔ Itadori** | `Promessa` | volta à vida em troca de um minuto de uso pleno do corpo, **cobrado quando o outro lado quiser** |
 | **Yuta ↔ os superiores** | `Promessa` | ele jura executar o Itadori e ganha o posto de carrasco. **A segunda parte é uma instituição, e não uma pessoa** |
 | **Kenjaku ↔ os feiticeiros antigos** | `Promessa` | eles viraram objeto amaldiçoado e pararam de viver; em troca, a existência deles fica garantida. **Ela atravessa mil anos** |
+
+***Mudou na v0.359 (item 40):*** *a lista passou a ser a dos nove exemplos do livro R44, com o tamanho do ganho pela régua do §4 nos cinco primeiros. As quatro da forma `Promessa` não têm tamanho: nelas cada parte entrega o que ficou escrito.* ~~**Hakari · o domínio** como pacto permanente~~ *saiu: os `4` minutos e `11` segundos são o prêmio do domínio, e não um pacto. O* ~~`80–90%` no horário e `110–120%` na hora extra~~ *do Overtime deu lugar à conta por hora de jornada.*
 
 > **A última é a que a peça 21 §3 já tinha achado**, indo escrever objeto amaldiçoado: *"o que segura um objeto especial não é material nem barreira: é um trato com cláusula escrita, feito com alguém que já morreu"*. **Aquela peça fecha dizendo que a de Pactos começa por ali, e é o que esta faz.**
 
@@ -290,7 +315,7 @@ O que `0,50` fatia é, nas moedas em que alguém pergunta:
 | **`Aquecendo`** | o seu corpo demora a acordar. **Você entra em toda luta com a vida máxima em `1`, e ela sobe a cada turno seu até a sua vida máxima de sempre — e para ali.** Ela nunca passa dela. O perigo são os primeiros turnos, em que qualquer golpe te derruba | peça 1 §5.1 |
 | **`Catatau`** | a sua vida e a sua energia são a mesma coisa, e a conversão é `1` para `1`: **cada `1` de dano que você leva tira `1` de PE, e cada `1` de PE que você gasta tira `1` de vida.** Conjurar te machuca, e apanhar te desarma | peça 1 · `conferir-orcamento.py` |
 
-**O R41 publica as oito só como pergunta, sem a mecânica, e troca quatro nomes** *(item 38 da revisão, "Pode manter"):* **`50/50` é Energia alternada, `Direcional` é Movimento direcional, `Aquecendo` é Despertar do corpo e `Catatau` é Reserva vital.** *As outras quatro mantêm o nome. A mecânica de cada uma só existe nesta tabela, e o livro avisa que nenhuma entra na ficha antes de ter procedimento escrito.*
+**Desde o R44 o livro publica sete delas como pergunta; a `Direcional` virou o exemplo 5 do §7.1, com mecânica escrita.** **O R41 publica as oito só como pergunta, sem a mecânica, e troca quatro nomes** *(item 38 da revisão, "Pode manter"):* **`50/50` é Energia alternada, `Direcional` é Movimento direcional, `Aquecendo` é Despertar do corpo e `Catatau` é Reserva vital.** *As outras quatro mantêm o nome. A mecânica de cada uma só existe nesta tabela, e o livro avisa que nenhuma entra na ficha antes de ter procedimento escrito.*
 
 > **⚠ `Aquecendo` colide de sentido com `Aquecer`, e a colisão fica declarada.** *`Aquecer` é **Restrição de feitiço** no manual — "não pode ser usado na primeira rodada do combate" —, e é a mesma ideia de estar frio no começo da luta, em outra camada.* **A triagem devolveu `LIVRE`, porque ela pega substring e não sentido.** ***Decisão do Mizuki: fica.*** *No molde do `Médio` da peça 14, que carrega duas colisões aceitas e escritas.*
 >

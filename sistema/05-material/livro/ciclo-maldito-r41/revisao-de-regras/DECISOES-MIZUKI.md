@@ -316,3 +316,12 @@ Formato: item | palavras dele (resumidas, fiéis) | leitura | estado.
 - Ele mandou a R43 dizendo: "Atualização menor no livro pq a ordem do bloquear estava errada, estava vindo depois da rolagem de acerto". Item 187.
 - Ao ChatGPT, sobre o `Redirecionar a Força`, que reaproveita um d20 já rolado: "Manter a rolagem original; novo alvo usa só Defesa" (registrado na pasta de entrega do R43, fora do repositório, no arquivo de decisões do autor).
 - R43 = R42 + 6 blocos, 10 trechos de texto, todos sobre o momento da escolha de Bloquear. Mesmas 14.347 linhas e 373 páginas. As contas dos exemplos não mudaram. PDF SHA-256 8c936686…76b175.
+
+
+## R44 — 12/10/2026
+- Ele pediu para fechar os itens da seção C: "Vamos resolver a questão desses 8 itens, vamos em ordem". Morte e Integridade e as Origens ficaram para depois, por decisão dele.
+- Itens fechados e aplicados no R44: 24, 33, 40, 46, 101 e 151, mais os novos 188 a 192. A regra de cada um está na seção E do `MUDANCAS-DE-REGRA.md`, com as palavras dele. O item 15 não pede mudança no livro.
+- Energia alternada: proposta como exemplo de pacto, medida, e retirada por ele: "Acho q pode apagar o pacto". Segue só como ideia a desenvolver.
+- Item 192: eu tinha recomendado manter o pacto temporário só no próprio turno, e ele corrigiu: a Reação fora do turno é permitida, com gatilho obrigatório. A frase que proibia veio da reconstrução do livro e eu a tinha trazido para a peça 22 na v0.350.
+- R44 = R43 + 25 blocos registrados (1 novo, `ritual--pacto-exemplos`; 2 retirados, o projeto e o exemplo de fabricação). 56 trechos de texto, todos dentro dos blocos registrados. 14.390 linhas e 373 páginas. PDF SHA-256 e9215944…47b750d.
+- Sobras de palavra no R44, sem regra: "fabricadas", "fabricar" e "Corpo fabricado" em três linhas fora da seção de criação.

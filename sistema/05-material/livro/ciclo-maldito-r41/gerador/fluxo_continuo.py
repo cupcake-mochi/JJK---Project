@@ -96,7 +96,23 @@ class Fluxo:
                         result.append(a);i=target;kept=True;break
                 if kept:continue
             result.append(a);i+=1
-        return result
+        # R44: exemplos curtos de pacto conservam a troca completa na mesma
+        # coluna; "Dá" não fica separado de "Recebe" por uma virada de página.
+        compact=[];i=0
+        while i<len(result):
+            a=result[i];ps=a['unit'].parts
+            if ps[0].block=='ritual--pacto-exemplos' and ps[0].kind in heads and re.match(r'^\d+\.',str(ps[0].text)):
+                end=i+1
+                while end<len(result):
+                    nxt=result[end]['unit'].parts
+                    if nxt[0].block!='ritual--pacto-exemplos' or nxt[0].kind in heads:break
+                    end+=1
+                u=self.joined_unit(result[i:end]);cw=u.measure(n['CW'])[0]
+                if cw<=n['CAP']/2 and not any(x['wide'] for x in result[i:end]):
+                    a=dict(a);a.update(unit=u,cw=cw,aw=u.measure(n['AW'])[0])
+                    compact.append(a);i=end;continue
+            compact.append(a);i+=1
+        return compact
 
     def table_join(self,left,right,width):
         """Overhead removed when consecutive pieces of one table share a column."""

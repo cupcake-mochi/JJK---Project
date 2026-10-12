@@ -1,4 +1,4 @@
-# Migração da candidata para as peças — v0.358, 10/10/2026
+# Migração da candidata para as peças — v0.359, 12/10/2026
 
 **Onde estamos:** o Mizuki autorizou migrar o livro reconstruído para as peças, os validadores, os geradores e as fichas. O plano e o estado de cada passo moram em `sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/PLANO.md`.
 
@@ -50,7 +50,9 @@
 
 **Na v0.358, a entrega pública passou a carregar o livro final:** *o recorte de `finalizado/` estava na v0.330, com o Manual da Guilda. O Mizuki decidiu "Só trocar o livro": entra o PDF do Ciclo Maldito (R43), saem o Manual da Guilda e o manual do Fundamento v7, e o resto do recorte foi posto em dia. A checagem 7 do `conferir-repositorio.py` rodou com a entrega de verdade pela primeira vez desde a v0.330, e a lista branca de citações foi medida de novo (198 no publicado, 224 hoje, as vinte e seis identificadas).*
 
-**Próximo:** o teste da ficha do Sheets (passo 7), que mora em outro repositório e já lê o R43; o passo 3 (vida a zero) quando o Morrendo for revisto; e o item 115 com a remodelagem das Origens. *A D43 e a D44 já estão no livro.*
+**Na v0.359, o livro passou a ser o R44, com os itens que estavam com direção e sem número:** *o Mizuki fechou em 12/10/2026 os itens 24, 33, 40, 46, 101 e 151 e abriu os 188 a 192. O reparo usa o ofício compatível e aceita reparador de Classe menor (um terço e um quarto da vida máxima); a seção de fabricação virou Criação de entidades, só com o teste pela Classe, e a entidade de criação acompanha o nível do invocador até o último da Classe dela; os pactos ganharam a régua de quatro tamanhos e nove exemplos, e o temporário pode ser fechado com a Reação fora do turno, com gatilho; cinco Melhorias de Ritual repetem; e o teto da Cortina depende do Refino. As peças 11, 15, 22 e 27 acompanham, com checagem nova no `conferir-pactos.py` (14.1), no `conferir-ritual.py` (7.3) e no `conferir-aptidoes.py` (13). O teste da ficha do Sheets (passo 7) foi feito por ele e aprovado.*
+
+**Próximo:** a ficha do Sheets, que mora em outro repositório, passa a ler o R44 e ganha o campo do ofício compatível; o passo 3 (vida a zero) quando o Morrendo for revisto; e o item 115 com a remodelagem das Origens. *A D43 e a D44 já estão no livro.*
 
 **Nesta seção, os nomes novos valem. Daqui para baixo, o histórico conserva os nomes da época.**
 
@@ -276,7 +278,7 @@
 
 Atualizado em 30/09/2026, na v0.330 (última peça fechada: **Ritual**, a peça 27, na v0.262, com o `conferir-ritual.py` e sete checagens; antes dela, o **Bestiário**, a peça 26, na v0.198; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.358.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
+**Versão v0.359.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
 
 **Continuidade atual:** resistência pontual aprovada e integrada em Claude 2; o próximo ensaio está em `bestiario/05-sukuna/ENSAIO-integracao-grade-v286.md`. PV-base aprovado como referência da cura e das partes destrutíveis; no nível 30, cura de ação 78 e partes de 157 PV. Sukuna concluído na v0.287, com a política de débito corrente aprovada. O planejamento das Invocações virou o primeiro lote de desenvolvimento, no HD, e deu os §§47 a 109 da v0.288 à v0.325; a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas (o que sobe a básica, abre Famílias e dá Livres) e a volta do capítulo ao livro, que é decisão dele; o traje, o talismã em campo e o que a entidade carrega fecharam na v0.328 (§§111 a 113), e o que ela leva quando sai de campo na v0.330 (§114); a fila do sistema fechou a cura da Origem `Corpo Amaldiçoado` na v0.326 (o mesmo reparo das invocações, no descanso curto) o peso na v0.327 (o talismã pesa `0,5` de `Volume`, e cada leve vale `0,1`, sem arredondar) e a imunidade dela a `Envenenado` na v0.329, sem medição; o que sobra na fila é o que já estava aberto antes. O histórico abaixo permanece para consulta.
 
@@ -1466,7 +1468,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-equipamento.py` | o fundo de cada arma, a dominância **uma vez por rota de proteção — e são três**, e o teto de Defesa derivado dos três donos |
 | `03-mecanica/conferir-nomes.py` | o vocabulário do Fundamento, extraído do livro reconstruído (era do `.docx` até a v0.336), contra todo nome que o projeto batizou |
 | `03-mecanica/conferir-manual.py` | a direção contrária: o Fundamento do livro contra o vocabulário e os números do projeto |
-| `03-mecanica/conferir-aptidoes.py` | as **doze** checagens da peça 11: a trava do refino, as três rotas do marco, o teto de Passivas, o kokusen, o **dano na arma** e as **contagens de aptidão**. *A 10 entrou na v0.158 e lê a exceção do teto como **relação** — em que refino ela dispara, quais faces, e se ela acrescenta um dado —, para que reverter o valor de forma coerente saia verde. A 11 é da v0.161: ela reconstrói quantas aptidões cada rota leva e compara com os **nove** lugares que publicam o número, e amarra as **três** cópias do `meio a meio`* |
+| `03-mecanica/conferir-aptidoes.py` | as **treze** checagens da peça 11 (a 13, da v0.359, compara o teto da Cortina por faixa de Refino com o livro): a trava do refino, as três rotas do marco, o teto de Passivas, o kokusen, o **dano na arma** e as **contagens de aptidão**. *A 10 entrou na v0.158 e lê a exceção do teto como **relação** — em que refino ela dispara, quais faces, e se ela acrescenta um dado —, para que reverter o valor de forma coerente saia verde. A 11 é da v0.161: ela reconstrói quantas aptidões cada rota leva e compara com os **nove** lugares que publicam o número, e amarra as **três** cópias do `meio a meio`* |
 | `03-mecanica/conferir-expansao.py` | os gates da Expansão, a ordem entre os degraus, o preço em espaços, a fragilidade da curva, o clash, a concentração na corrida e o degrau sem barreiras |
 | `03-mecanica/conferir-orcamento.py` | o somatório: todos os drenos de PE ao mesmo tempo, e se todo preço tem número |
 | `03-mecanica/conferir-xp.py` | a curva, o abismo que fecha, e se a regra ainda entrega o tempo que a Guilda pediu |

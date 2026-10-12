@@ -202,6 +202,9 @@ publication_changes.extend(aplicar_r42(enriched))
 # R43: alteração de Bloquear e decisão do autor sobre redirecionamento.
 from revisao_r43 import aplicar as aplicar_r43
 publication_changes.extend(aplicar_r43(enriched))
+# R44: cinco conjuntos de decisões de 12/10/2026.
+from revisao_r44 import aplicar as aplicar_r44
+publication_changes.extend(aplicar_r44(enriched,all_blocks,chapters,hierarquia))
 for key,block in all_blocks.items():
  first=enriched[key].splitlines()[0] if enriched[key].splitlines() else ''
  if re.match(r'^#{1,6} ',first):block.title=re.sub(r'^#{1,6} ','',first)

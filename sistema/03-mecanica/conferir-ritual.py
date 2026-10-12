@@ -352,6 +352,38 @@ if not (_f1 or _f2 or _f3 or _f4):
     ok(f'7.2e: {len(_VALE72)} frases das decisoes no R41, {len(_SAIU72)} da candidata fora dele, '
        f'{len(_PECA_DIZ72)} regras novas na peca e {len(_PECA_NAO72)} antigas so riscadas')
 
+# 7.3 (v0.359, item 46): quais Melhorias repetem. O livro R44 ganhou a coluna "Repete" nas
+# duas tabelas; a peca escreve "Pode comprar duas vezes" na linha de cada uma que repete.
+print()
+print('  7.3 — as Melhorias que repetem, no livro e na peca')
+_rep_livro = {n: r.startswith('Sim') for n, r in re.findall(
+    r'\| (Ritual de [^|]+?) \| [^|]+\| \d+ \| ((?:Sim|Não)[^|]*)\|', _R41)}
+_rep_peca = {n: ('Pode comprar duas vezes' in d) for n, d, _, _, _ in mel}
+_sim_l = sorted(n for n, v in _rep_livro.items() if v)
+_sim_p = sorted(n for n, v in _rep_peca.items() if v)
+print(f'      repetem no livro: {len(_sim_l)} de {len(_rep_livro)} · na peca: {len(_sim_p)} de {len(_rep_peca)}')
+if len(_rep_livro) != len(_mel_r41):
+    erro(f'7.3: li a coluna Repete em {len(_rep_livro)} Melhoria(s) do livro e ele tem {len(_mel_r41)}')
+elif _sim_l != _sim_p:
+    erro(f'7.3: repetem no livro {_sim_l} e na peca {_sim_p}')
+else:
+    ok(f'7.3a: as mesmas {len(_sim_l)} Melhorias repetem dos dois lados: ' + ', '.join(n[10:] for n in _sim_l))
+_VALE73 = ['permitem **até duas compras cada**', 'As outras onze entradas só podem ser escolhidas uma vez',
+           'até **2 × (Classe + 1) dados**', 'duas compras sobem **dois degraus**']
+_SAIU73 = ['Você pode escolher uma vez cada entrada, salvo Acerto e Dificuldade']
+_PECA_DIZ73 = ['Cinco Melhorias aceitam até duas compras', 'Alcance e Tamanho comprados duas vezes sobem dois degraus',
+               'até `2 × (Classe + 1)` dados']
+_PECA_NAO73 = ['fora `Ritual de Acerto` e `Ritual de Dificuldade`, que aceitam duas']
+_e73 = ([f'o livro nao traz "{f}"' for f in _VALE73 if f not in _R41]
+        + [f'o livro voltou a trazer "{f}"' for f in _SAIU73 if f in _R41]
+        + [f'a peca nao escreve "{f}"' for f in _PECA_DIZ73 if f not in _viva]
+        + [f'a peca ainda afirma, fora de riscado, "{f}"' for f in _PECA_NAO73 if f in _viva])
+for _m in _e73:
+    erro('7.3: ' + _m)
+if not _e73:
+    ok(f'7.3b: {len(_VALE73)} frases do item 46 no livro, {len(_SAIU73)} antiga fora dele, '
+       f'{len(_PECA_DIZ73)} na peca e {len(_PECA_NAO73)} antiga so riscada')
+
 print()
 print('=' * 88)
 if FALHAS:

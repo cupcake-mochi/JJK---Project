@@ -629,15 +629,16 @@ else:
         print('  [x] 14.1a: as vagas por Essencia sao as mesmas no R41 e na peca.')
 
 # b) a acao do pacto temporario, dos dois lados.
-_acao_r41 = re.search(r'\| Temporário \| No seu turno, como (Ação Bônus ou Reação)\.', _R41)
+# v0.359 (item 192): no seu turno com a Acao Bonus; fora dele com a Reacao, a um gatilho.
+_acao_r41 = re.search(r'\| Temporário \| No seu turno, com (Ação Bônus); fora dele, com (Reação) a um (gatilho) percebido\.', _R41)
 _acao_peca = TETO_DE and next((limpo(c[1]) for c in FORMAS if limpo(c[0]) == 'temporário'), '')
 if not _acao_r41:
     erro('14.1', 'nao li no R41 a acao do pacto temporario — a tabela de formas mudou')
-elif _acao_r41.group(1) not in (_acao_peca or ''):
-    erro('14.1', f'o R41 fecha o pacto temporario com "{_acao_r41.group(1)}" e o §1 da peca '
+elif any(g not in (_acao_peca or '') for g in _acao_r41.groups()):
+    erro('14.1', f'o livro fecha o pacto temporario com "{", ".join(_acao_r41.groups())}" e o §1 da peca '
                  f'escreve "{_acao_peca}"')
 else:
-    print(f'  [x] 14.1b: o temporario se fecha com {_acao_r41.group(1)}, no R41 e na peca.')
+    print(f'  [x] 14.1b: o temporario se fecha com {", ".join(_acao_r41.groups())}, no livro e na peca.')
 
 # c) as frases das decisoes, no R41.
 _VALE141 = [
@@ -656,6 +657,15 @@ _VALE141 = [
     ('39', '**Nenhuma forma de pacto se fecha sob ameaça.**'),
     ('39', 'custa a energia amaldiçoada de quem quebra e pode custar a vida'),
     ('39', 'A punição pode ser definida na criação do pacto'),
+    ('192', 'O gatilho é obrigatório.'),
+    ('192', 'depois de os dados dele serem rolados e antes de as consequências serem aplicadas'),
+    ('191', '**Pacto temporário nunca ocupa vaga**, mesmo com preço permanente.'),
+    ('191', 'dá um **ganho temporário** e pode cobrar uma **perda permanente**'),
+    ('151', 'A régua mede **o ganho**; o preço acompanha.'),
+    ('151', '| Enorme | Quebra um limite do sistema, uma vez. |'),
+    ('40', 'Nos cinco primeiros, o tamanho do ganho segue a régua do câmbio.'),
+    ('40', 'O percentual é **2,5% por hora**'),
+    ('40', 'esse movimento não provoca ataque de oportunidade'),
 ]
 _SAIU141 = [
     ('34-36', 'aumento do PE máximo igual à sua maior Classe'),
@@ -665,6 +675,10 @@ _SAIU141 = [
     ('39', 'Não há uma punição universal'),
     ('186', 'permanentes, Promessas e pactos de restrição'),
     ('186', 'como os permanentes e as Promessas'),
+    ('192', 'Gastar Reação aqui não permite agir fora do turno'),
+    ('192', 'No seu turno, como Ação Bônus ou Reação.'),
+    ('40', 'O Overtime é o modelo dessa troca'),
+    ('40', '| Movimento direcional | Como o deslocamento lida'),
 ]
 _falta141 = [(i, f) for i, f in _VALE141 if f not in _R41]
 _voltou141 = [(i, f) for i, f in _SAIU141 if f in _R41]
@@ -685,6 +699,11 @@ _PECA_DIZ141 = [
     ('34-36', 'E não existe pacto por dano'),
     ('34-36', 'porcentagem da energia máxima, combinada com o mestre'),
     ('39', 'A punição pode ser escrita na criação do pacto'),
+    ('192', 'com a Reação, e o gatilho é obrigatório'),
+    ('192', 'depois de os dados do gatilho serem rolados e antes de as consequências serem aplicadas'),
+    ('191', 'Pacto temporário nunca ocupa vaga, mesmo quando o preço dura para sempre'),
+    ('151', 'A régua mede o ganho, e o preço acompanha'),
+    ('40', '`2,5%` da energia máxima por hora de jornada combinada'),
 ]
 _PECA_NAO141 = [
     ('37', 'em toda a campanha, um número de pactos permanentes'),
@@ -694,6 +713,9 @@ _PECA_NAO141 = [
     ('34-36', 'O que o pacto pode tocar é dano'),
     ('34-36', 'Então o teto mede DANO, e só dano'),
     ('34-36', 'Decisão do Mizuki: PE, aptidões e feitiços'),
+    ('192', 'Como Ação Bônus ou Reação, no seu turno, você fecha um pacto na hora'),
+    ('192', 'não deixa agir fora do turno nem mudar uma rolagem já resolvida'),
+    ('40', '`110–120%` na hora extra'),
 ]
 _pf = [(i, f) for i, f in _PECA_DIZ141 if f not in _P22_VIVA]
 _pv = [(i, f) for i, f in _PECA_NAO141 if f in _P22_VIVA]

@@ -2775,8 +2775,8 @@
     "id": "N232",
     "bloco": "fabricacao--fab-teste",
     "capitulo": "17. Construir invocações",
-    "texto": "**Exemplo:** uma calígrafa de nível 13, Destreza 4 e Maestria 2 fabrica uma entidade de nível 9. As Classes são 4 e 3: a dificuldade é Média. A CD fica **8 + 4 + 2 − 2 = 12**. Seu teste é d20 + 6; um 6 no dado basta. Se fabricasse uma entidade de nível 13, a CD seria 14 e precisaria de 8.",
-    "palavras": 65,
+    "texto": "**Exemplo:** uma calígrafa de nível 13, Destreza 4 e Maestria 2 cria uma entidade de Classe 3 para um invocador de nível 9. A entidade começa no nível 9. As Classes comparadas são 4 e 3: a dificuldade é Média. A CD fica **8 + 4 + 2 − 2 = 12**. Seu teste é d20 + 6; um 6 no dado basta. Se criasse uma entidade de Classe 4 para um invocador de nível 13, ela começaria no nível 13, a CD seria 14 e precisaria de 8.",
+    "palavras": 89,
     "paginas_base": [
       427
     ],

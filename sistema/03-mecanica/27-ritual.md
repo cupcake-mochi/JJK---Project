@@ -132,10 +132,10 @@ Isso decide o que a lista da seção 4 pode conter e o que não pode. **Uma Melh
 | `Ritual de Acerto` | `+1` na rolagem de acerto. Pode comprar duas vezes. | 1 | quem rola | nenhuma |
 | `Ritual de Dificuldade` | `+1` na CD do Teste de Resistência. Pode comprar duas vezes. | 1 | quem rola | nenhuma |
 | `Ritual de Defesa` | `+2` de Defesa até o seu próximo turno. | 1 | todas | nenhuma |
-| `Ritual de Rerrolagem` | rerrola os dados de dano que caírem no mínimo, até `Classe + 1` deles. Fica o segundo resultado. | 1 | com dano ou cura | nenhuma |
+| `Ritual de Rerrolagem` | rerrola os dados de dano que caírem no mínimo, até `Classe + 1` deles. Fica o segundo resultado. Pode comprar duas vezes: a segunda pega também o dado um ponto acima do mínimo, até `2 × (Classe + 1)` dados. | 1 | com dano ou cura | nenhuma |
 | `Ritual de Energia` | o feitiço custa metade da Classe, mínimo `1`, a menos de PE. | 2 | todas | nenhuma |
-| `Ritual de Tamanho` | sobe um degrau na escada de área. | 2 | com área | nenhuma |
-| `Ritual de Alcance` | aumenta uma vez a distância ou o comprimento que a Melhoria `Longe` aumentaria. | 2 | todas | `Corpo a Corpo` |
+| `Ritual de Tamanho` | sobe um degrau na escada de área. Pode comprar duas vezes, e sobe dois. | 2 | com área | nenhuma |
+| `Ritual de Alcance` | aumenta uma vez a distância ou o comprimento que a Melhoria `Longe` aumentaria. Pode comprar duas vezes, e sobe dois degraus. | 2 | todas | `Corpo a Corpo` |
 | `Ritual de Perseguição` | o alvo que se desloca depois de escolhido não sai do alcance desta aplicação. | 2 | com dano | nenhuma |
 | `Ritual de Excedente` | a cura que passa do máximo vira vida temporária, até um quarto da cura. | 2 | `Amparo` | nenhuma |
 | `Ritual de Compartilhamento` | um aliado a mais recebe uma cópia da parcela de um beneficiário; com `Junto`, da menor parcela. | 2 | `Amparo` | nenhuma |
@@ -175,7 +175,10 @@ Isso decide o que a lista da seção 4 pode conter e o que não pode. **Uma Melh
 *Migração do capítulo de Ritual do R41 (passo 5b). Os dezesseis nomes e os dezesseis preços são os mesmos dos dois lados.* **O livro fechou estas pontas, e o Mizuki manteve as dos itens 44, 48 e 49 da revisão.** *No item 46 ele pediu a lista de quais Melhorias repetem, e o R41 responde na segunda linha abaixo.*
 
 - **Só ritualiza feitiço de Classe `1` ou maior, e cada conjuração recebe um ritual só.**
-- **Cada Melhoria se compra uma vez,** *fora `Ritual de Acerto` e `Ritual de Dificuldade`, que aceitam duas.* **Os preços são fixos e não recebem desconto de Família.**
+- **Cinco Melhorias aceitam até duas compras: `Ritual de Acerto`, `Ritual de Dificuldade`, `Ritual de Alcance`, `Ritual de Tamanho` e `Ritual de Rerrolagem`. As outras onze, uma só.** *Decisão do Mizuki em 12/10/2026 (item 46), publicada no R44: "Acho q alcance / rerrolagem (se precisar a gente rebalanceia ele) / tamanho / poderiam ser repetiveis / de resto pode manter", e "Duas" quando perguntado quantas vezes.* **Os preços são fixos e não recebem desconto de Família.**
+  - **Alcance e Tamanho comprados duas vezes sobem dois degraus.**
+  - **A segunda Rerrolagem passa a rerrolar também os dados que caírem um ponto acima do mínimo, o `1` e o `2` de um d8, e o limite dobra: até `2 × (Classe + 1)` dados.** *Medido por script em 12/10/2026, guardado junto da revisão de regras do livro, com `3 × Classe` d8: uma compra soma `1,31 × Classe` de dano esperado, e duas somam `2,25 × Classe`.*
+  - ~~**Cada Melhoria se compra uma vez,** *fora `Ritual de Acerto` e `Ritual de Dificuldade`, que aceitam duas.*~~ *Valeu até a v0.358.*
 - **Ponto de ritual que sobra some quando a conjuração termina.** *Ele não vira dado de dano, PE guardado nem ponto de montagem.*
 - **A Melhoria precisa da parte do feitiço que ela altera:** *acerto pede ataque, dificuldade pede Teste de Resistência, tamanho pede área. `Toque` continua em `1,5` m, e a área centrada em você continua saindo de você.*
 - **`Ritual de Energia`:** *o desconto fixo entra antes das reduções à metade, e o custo que sobra nunca fica abaixo de `1` PE.* **`Ritual de Defesa` repetido não soma.**

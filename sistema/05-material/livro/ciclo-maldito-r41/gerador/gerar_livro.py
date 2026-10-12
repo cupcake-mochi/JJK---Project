@@ -12,7 +12,7 @@ B=Path(__file__).resolve().parent
 g=runpy.run_path(str(B/'ler_fontes.py'))
 chapters,all_blocks,enriched,order=g['chapters'],g['all_blocks'],g['enriched'],g['order']
 hierarquia=g['hierarquia']
-nav_r40=json.loads((B/'revisao-r40/NAVEGACAO.json').read_text())
+nav_r40=json.loads((B/'revisao-r44/NAVEGACAO.json').read_text())
 index_specific=json.loads((B/'revisao-de-estrutura/DESTINOS-INDICE.json').read_text())
 index_specific += [{'termo':r['titulo'],'titulo':r['cabecalho'],'bloco':r['bloco'],'alias':r['destino']} for r in nav_r40 if 'cabecalho' in r]
 assert not g['link_issues']
@@ -81,6 +81,8 @@ def fractions(rows):
   if h[0]=='Ofício':return [.20,.21,.59]
   return [.27,.34,.39]
  if n==4:
+  if h==['Melhoria','Benefício','Pontos','Repete']:return [.24,.56,.08,.12]
+  if h==['Classe do corpo em relação a quem repara','Dificuldade','Ajuste','No sucesso recupera']:return [.39,.16,.09,.36]
   if h[0]=='Item':return [.28,.43,.16,.13]
   if h[0]=='Arma e carga correspondente':return [.44,.21,.19,.16]
   if h[0]=='Nível':return [.14,.28,.30,.28]
@@ -568,7 +570,7 @@ for ch,mod,doc in [(chapters[1],r,'geral'),(chapters[2],d,'dano')]:
   new.append((part,f,x,y,w,h,mode))
  page['draws']=new
 
-PDF=B/'output/pdf/Ciclo-Maldito-R43.pdf'
+PDF=B/'output/pdf/Ciclo-Maldito-R44.pdf'
 from titulos_capitulo import desenhar as desenhar_titulo_capitulo
 estudo_capitulo=json.loads((B/'ESTUDO-CAPITULO.json').read_text())
 titulos_capitulo_aplicados=[]

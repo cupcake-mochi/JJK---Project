@@ -922,7 +922,17 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 
 *O exemplar da obra é o feiticeiro que levantou uma cortina que deixava outros feiticeiros passarem e barrava só o Gojo.*
 
-> **O tamanho dela agora tem um metro, e ele é um teto.** *Até a v0.339 esta peça escrevia que a Cortina era a única coisa do sistema cujo tamanho nunca entrava numa rolagem, e que isso era decisão: dois mestres discordarem se ela pega um quarteirão ou dois não mudava número nenhum.* **A candidata (A27) escreveu o contrário, e é ela que vale:** ***o ponto mais distante da borda precisa estar a até `90 m` de você ao concluir,*** *e essa medida limita a Cortina inteira, não cada trecho.* **A razão para ainda não virar medida de combate é a mesma de antes:** *nada dentro dela se mede em metros — a condição regula a travessia e não cria a vedação da Barreira Simples —, e quem quiser fechar uma distância com energia usa a `Barreira Simples`, que tem raio.*
+> **O tamanho dela agora tem um metro, e ele é um teto.** *Até a v0.339 esta peça escrevia que a Cortina era a única coisa do sistema cujo tamanho nunca entrava numa rolagem, e que isso era decisão: dois mestres discordarem se ela pega um quarteirão ou dois não mudava número nenhum.* **A candidata (A27) escreveu o contrário, e é ela que vale:** ~~***o ponto mais distante da borda precisa estar a até `90 m` de você ao concluir,***~~ *e essa medida limita a Cortina inteira, não cada trecho. Os `90 m` fixos valeram da v0.340 à v0.358.*
+>
+> **Desde a v0.359 o teto depende do Refino** *(item 101, decisão do Mizuki em 12/10/2026, publicada no R44; palavras dele de 08/10: "cortina tem q ter a capacidade de poder englobar uma escola toda... talvez colocar níveis com base no refino").* **A distância de você até o ponto mais distante da borda, ao concluir, não passa do teto:**
+>
+> | Refino | o que cobre | de você até o ponto mais distante da borda |
+> |---|---|---|
+> | `1` a `3` | uma escola inteira, um hospital, um prédio com o terreno | até `150 m` |
+> | `4` a `6` | um quarteirão | até `300 m` |
+> | `7` ou mais | o entorno de uma estação, um bairro pequeno | até `400 m` |
+>
+> *O lugar e as bordas continuam definidos pela descrição; o número é o teto.* **A razão para ainda não virar medida de combate é a mesma de antes:** *nada dentro dela se mede em metros — a condição regula a travessia e não cria a vedação da Barreira Simples —, e quem quiser fechar uma distância com energia usa a `Barreira Simples`, que tem raio.*
 
 ### O que a candidata fechou nas duas barreiras — v0.340
 

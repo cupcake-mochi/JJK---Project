@@ -5,7 +5,7 @@ from reportlab.lib.styles import ParagraphStyle
 from xml.sax.saxutils import escape
 
 def construir(n):
- rows=json.loads((n['B']/'revisao-r40/NAVEGACAO.json').read_text())
+ rows=json.loads((n['B']/'revisao-r44/NAVEGACAO.json').read_text())
  S=n['S'];styles={
  'parte':ParagraphStyle('toc-parte',parent=S['body'],fontName='Strong',fontSize=16,leading=19,textColor=n['ACC'],spaceBefore=12,spaceAfter=6),
  'capitulo':ParagraphStyle('toc-capitulo',parent=S['body'],fontName='Entry',fontSize=12,leading=15,spaceBefore=9,spaceAfter=4),
@@ -64,4 +64,4 @@ def construir(n):
   if key:page.setdefault('toc_rows',[]).append((key,x+n['CW'],y-st.spaceBefore-fh-4))
   log[-1]['entradas'].append({'titulo':txt,'destino':key,'nivel':lv,'coluna':column,'y':y,'altura':height})
   y-=height
- (n['B']/'revisao-r40/SUMARIO-PAGINADO.json').write_text(json.dumps(log,ensure_ascii=False,indent=2)+'\n')
+ (n['B']/'revisao-r44/SUMARIO-PAGINADO.json').write_text(json.dumps(log,ensure_ascii=False,indent=2)+'\n')

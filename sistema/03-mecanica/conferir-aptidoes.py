@@ -2695,6 +2695,30 @@ else:
         print('  [x] 12.3 a peca declara o invariante e diz que ela nao e da categoria.')
 
 # --------------------------------------------------------------------------
+# 13 (v0.359, item 101): o teto da Cortina por Refino, no livro e na peca 11.
+print()
+print('=' * 90)
+print('13. A CORTINA — o teto em metros por faixa de Refino, no livro e na peca')
+print('=' * 90)
+import livro as _livro13
+_l13 = ' '.join(_livro13.texto('aptidoes').split())
+_p13 = ' '.join(re.sub(r'~~.*?~~', '', open(os.path.join(AQUI, '11-aptidoes-e-refino.md'),
+                                              encoding='utf-8').read(), flags=re.S).split())
+_teto_l = re.findall(r'\| (\d+ a \d+|\d+ ou mais) \| [^|]+\| Até (\d+) m\. \|', _l13)
+_teto_p = [(f.replace('`', ''), m) for f, m in
+           re.findall(r'\| (`\d+` a `\d+`|`\d+` ou mais) \| [^|]+\| até `(\d+) m` \|', _p13)]
+print(f'  livro: {_teto_l}')
+print(f'  peca : {_teto_p}')
+if len(_teto_l) != 3:
+    erro(f'13: li {len(_teto_l)} faixa(s) de Refino na tabela da Cortina do livro e esperava 3')
+elif _teto_l != _teto_p:
+    erro(f'13: o teto da Cortina no livro e {_teto_l} e na peca e {_teto_p}')
+elif 'a até 90 m de você ao concluir' in _l13 or 'até `90 m` de você ao concluir' in _p13:
+    erro('13: os 90 m fixos da Cortina voltaram, no livro ou na peca fora de riscado')
+else:
+    print('  [x] 13 as tres faixas e os tres tetos sao os mesmos dos dois lados, e os 90 m fixos so aparecem riscados.')
+
+# --------------------------------------------------------------------------
 print()
 print('=' * 90)
 if ERROS:

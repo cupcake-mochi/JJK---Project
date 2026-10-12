@@ -8,6 +8,28 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.359] — 12/10/2026
+
+**O livro passa a ser o R44, com os itens que estavam decididos na direção e sem número.** *O Mizuki pediu para fechá-los em ordem, em 12/10/2026. São os itens 24, 33, 40, 46, 101 e 151 do `MUDANCAS-DE-REGRA.md`, e cinco que nasceram na conversa, 188 a 192. Morte e Integridade e as Origens ficaram para depois, por decisão dele.*
+
+- **Reparo de corpo (24 e 188).** *O reparo e o socorro usam o ofício compatível com o corpo, escolhido na criação e anotado na ficha. Quem tem Classe menor que a do corpo repara: uma Classe de diferença recupera um terço da vida máxima, e duas ou mais, um quarto.*
+- **Criação de entidades (33, 189 e 190).** *A seção de fabricação mudou de nome e ficou só com o teste pela Classe. A entidade de criação acompanha o nível do invocador até o último nível da Classe dela, e passa à seguinte por reconstrução, um degrau mais fácil. Vantagem nesses testes só de ajudante treinado ou de habilidade permanente.*
+- **Pactos (40, 151, 191 e 192).** *Régua de quatro tamanhos pelo ganho, nove exemplos, e o pacto temporário: ganho temporário, perda que pode ser permanente, nunca ocupa vaga, e fora do turno se fecha com a Reação, com gatilho obrigatório.*
+- **Ritual (46).** *Acerto, Dificuldade, Alcance, Tamanho e Rerrolagem aceitam até duas compras.*
+- **Cortina (101).** *O teto passa a depender do Refino: `150 m`, `300 m` e `400 m`.*
+
+**As peças acompanham:** *a `22-pactos.md` (§1, §4, a régua e o §7.1), a `27-ritual.md` (§4.2 e a lista do que o livro fechou), a `11-aptidoes-e-refino.md` (a Cortina) e a nota do topo da `15-invocacoes.md`. A regra antiga de cada uma ficou riscada.* **Na peça 22 saiu a frase de que a Reação não deixa agir fora do turno:** *ela veio da reconstrução do livro, nunca passou pelo Mizuki como mudança numerada, e eu a tinha trazido para a peça na v0.350.*
+
+**Validadores:** *o `conferir-pactos.py` lê a ação do temporário na forma nova e cobra as frases dos itens 40, 151, 191 e 192, no livro e na peça; o `conferir-ritual.py` ganhou a 7.3, que compara a coluna `Repete` do livro com a peça; o `conferir-aptidoes.py` ganhou a 13, que compara as três faixas e os três tetos da Cortina.*
+
+**O que esta versão não fez:** *reparo e criação de entidades não têm peça própria, porque o dono dessas regras é o livro desde a v0.335; ficaram registrados na seção E do `MUDANCAS-DE-REGRA.md` e na nota da peça 15. Três linhas do R44 ainda escrevem "fabricar" fora da seção de criação, sem regra dentro. A diagramação do PDF não foi conferida página a página, só o texto extraído dele.*
+
+**Testes negativos, em cópia isolada com a base passando antes:** *dezoito perturbações, nove no `conferir-pactos.py`, cinco no `conferir-ritual.py` e quatro no `conferir-aptidoes.py`, no livro e nas peças: a tabela de formas de volta a "no seu turno", o gatilho sem obrigação, a frase que proibia a Reação de volta, o temporário ocupando vaga, a régua sem o Enorme, o Overtime com outro percentual, uma Melhoria a mais ou a menos repetindo, a frase antiga do Ritual de volta, um teto da Cortina trocado, uma faixa a menos e os `90 m` fora do risco.* **As dezoito mudaram o arquivo e acenderam no bloco esperado.**
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `pac7.py`, o `v7.py` e o `conferir-repositorio.py` saem com código `0`. O `conferir-voz.py --estrito` continua reprovando no manual v0.331, como antes. O texto do R44 foi comparado com o do R43 linha a linha: 56 trechos diferentes, todos dentro dos 25 blocos do registro; 28 frases novas conferidas no texto extraído do PDF e 10 antigas ausentes dele.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, parágrafo "Próximo": a ficha do Sheets passa a ler o R44, e depois o Morrendo e as Origens, que esperam a revisão do Mizuki.
+
 ## [0.358] — 10/10/2026
 
 **A entrega pública passa a carregar o livro final.** *O recorte de `finalizado/` (o repositório `JJK---PDF---RPG`) estava parado na v0.330, com o Manual da Guilda. Perguntado sobre o que ela passa a carregar agora que o livro final existe, o Mizuki respondeu: "Só trocar o livro".*

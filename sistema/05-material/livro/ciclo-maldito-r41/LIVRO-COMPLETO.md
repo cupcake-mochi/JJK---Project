@@ -1737,7 +1737,7 @@ Uma regra que permita levantar abaixo do limiar usa seu próprio valor de cura. 
 
 ##### Estabilizar
 
-Uma criatura a até **1,5 m**, com acesso físico ao alvo, pode gastar **Ação Padrão**, com uma mão livre e meios adequados de atendimento, para fazer **Medicina CD 14**. Para um corpo construído, use Entalhador ou Forja em lugar de Medicina. O alvo precisa estar Inconsciente e Morrendo. Quem Insiste pode escolher Aguentar antes do tratamento.
+Uma criatura a até **1,5 m**, com acesso físico ao alvo, pode gastar **Ação Padrão**, com uma mão livre e meios adequados de atendimento, para fazer **Medicina CD 14**. Para um corpo construído, use o ofício compatível com o corpo em lugar de Medicina. O alvo precisa estar Inconsciente e Morrendo. Quem Insiste pode escolher Aguentar antes do tratamento.
 
 No sucesso, a pessoa fica **estável**. A janela para de diminuir pelo tempo enquanto ela não sofrer novo dano à vida. Não recupera vida, não acorda e conserva o tratamento acumulado e o tempo restante. Uma falha apenas gasta a ação. Outra tentativa é possível enquanto houver tempo.
 
@@ -2525,7 +2525,7 @@ Se preferisse **Arquivo** como segundo Legado, Aya teria dois Legados narrativos
 
 Seu corpo foi construído e ganhou consciência. Madeira, tecido, metal ou outros materiais podem fazer parte dele. Você tem lembranças, vontades e relações próprias. O modo como foi criado e a reação das pessoas ao encontrar você são bons pontos de partida para a história.
 
-**Perícia da Origem:** escolha Atletismo, Percepção, Ocultismo ou Intimidação. **Criação:** Técnica Marcial, em Rotas de criação.
+**Perícia da Origem:** escolha Atletismo, Percepção, Ocultismo ou Intimidação. **Criação:** Técnica Marcial, em Rotas de criação. Na criação do personagem, escolha também o **ofício compatível com seu corpo** e anote-o na ficha, conforme Reparo do corpo.
 
 **Sugestões de traço:** o objetivo de quem criou você, a pessoa que o acolheu ou algo que guarda sobre seus núcleos. Seus ofícios podem ter sido ensinados pelo criador ou aprendidos depois que ganhou autonomia.
 
@@ -2545,18 +2545,21 @@ Você é **imune a Envenenado**. Essa imunidade à condição não concede resis
 <a id="origens--origem-reparo"></a>
 #### Reparo do corpo
 
-Durante um **descanso curto**, uma pessoa treinada em **Entalhador ou Forja** pode reparar você. Pode ser outro personagem ou você mesmo, se estiver capaz de trabalhar. São necessárias ferramentas e materiais adequados ao corpo. Há **uma tentativa por corpo a cada descanso curto**, mesmo que mais de uma pessoa possa reparar.
+Durante um **descanso curto**, uma pessoa treinada em **ofício compatível com o corpo, anotado na ficha** pode reparar você. Pode ser outro personagem ou você mesmo, se estiver capaz de trabalhar. São necessárias ferramentas e materiais adequados ao corpo. Há **uma tentativa por corpo a cada descanso curto**, mesmo que mais de uma pessoa possa reparar.
+
+O ofício é escolhido na criação do personagem e fica registrado na ficha. Por exemplo, Entalhador pode atender a madeira, pedra ou osso; Forja, a metal; Alfaiate, a pano. A escolha depende do corpo, sem uma lista fechada de materiais.
 
 Compare as Classes de capacidade permitidas pelos níveis de quem repara e do personagem reparado, conforme a tabela de Classes em Fundamento. Use a Classe máxima disponível pelo nível, sem depender das capacidades que cada um conhece.
 
-| Classe do reparado em relação ao reparador | Dificuldade | Ajuste |
-|---|---|---|
-| Igual | Difícil. | +0. |
-| Uma abaixo | Média. | −2. |
-| Duas ou mais abaixo | Fácil. | −4. |
-| Acima | Exige um reparador de Classe suficiente. | — |
+| Classe do corpo em relação a quem repara | Dificuldade | Ajuste | No sucesso recupera |
+|---|---|---|---|
+| Igual | Difícil | 0 | Metade da vida máxima. |
+| Uma abaixo | Média | −2 | Metade da vida máxima. |
+| Duas ou mais abaixo | Fácil | −4 | Metade da vida máxima. |
+| Uma acima | Difícil | 0 | Um terço da vida máxima. |
+| Duas ou mais acima | Difícil | 0 | Um quarto da vida máxima. |
 
-A CD é **8 + atributo usado no ofício + maestria de quem repara + ajuste**. Defina o atributo conforme o trabalho, antes de rolar. Especialização e outros modificadores alteram a rolagem, sem aumentar essa base de CD. No sucesso, recupere **metade da vida máxima**, arredondada para baixo, sem ultrapassar o máximo. A falha consome a tentativa daquele descanso.
+A CD é **8 + atributo usado no ofício + maestria de quem repara + ajuste**. Defina o atributo conforme o trabalho, antes de rolar. Especialização e outros modificadores alteram a rolagem, sem aumentar essa base de CD. No sucesso, recupere a parcela de vida máxima indicada na tabela, **arredondada para baixo**, sem ultrapassar o máximo. A falha consome a tentativa daquele descanso.
 
 Uma técnica cuja Regra alcance um corpo construído também pode curar você. Energia Reversa e curas derivadas dela continuam incompatíveis. Descanso longo segue Descansos. Chegar a zero de vida segue Vida a zero, em Dano e recuperação, sem exceção concedida por este reparo.
 
@@ -10794,7 +10797,13 @@ A exceção de passagem da **rota sem energia** vale para estas duas barreiras. 
 
 **Requisito: Barreira Simples.** Você delimita uma área para esconder seu interior de pessoas que não são feiticeiras e controlar a passagem por suas bordas.
 
-A preparação segue **Barreira Simples**: **1 minuto**, sem custo em PE. Antes de começar, registre o lugar e suas bordas: um prédio, uma escola, uma quadra ou outro local contínuo. **O ponto mais distante da borda deve estar a até 90 m de você ao concluir.** Essa medida limita a Cortina inteira, não cada trecho isolado.
+A preparação segue **Barreira Simples**: **1 minuto**, sem custo em PE. Antes de começar, registre o lugar e suas bordas: um prédio, uma escola, uma quadra ou outro local contínuo. **Ao concluir, a distância de você até o ponto mais distante da borda não pode ultrapassar o teto do seu Refino.** O lugar e as bordas continuam definidos pela descrição; a medida limita a Cortina inteira, não cada trecho isolado.
+
+| Refino | O que cobre | De você até o ponto mais distante da borda |
+|---|---|---|
+| 1 a 3 | Uma escola inteira, um hospital, um prédio com o terreno. | Até 150 m. |
+| 4 a 6 | Um quarteirão. | Até 300 m. |
+| 7 ou mais | O entorno de uma estação, um bairro pequeno. | Até 400 m. |
 
 A Cortina tem **40 × Refino pontos de vida**, compartilhados por toda a superfície. Sofre ataques e TRs pelo procedimento de Barreira Simples. Fica ancorada no lugar e termina com vida zero, se você ficar Inconsciente ou se decidir encerrá-la. Ela compartilha o limite de uma barreira mantida com Barreira Simples: concluir uma substitui a outra.
 
@@ -11971,22 +11980,24 @@ Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e 
 <a id="ritual--rit-melhorias"></a>
 #### Melhorias de Ritual
 
-Cada benefício abaixo vale para a conjuração ritualizada. Você pode escolher uma vez cada entrada, salvo Acerto e Dificuldade, que permitem duas compras. Os preços são fixos e não recebem descontos de Família.
+Cada benefício abaixo vale para a conjuração ritualizada. Acerto, Dificuldade, Alcance, Tamanho e Rerrolagem permitem **até duas compras cada**. As outras onze entradas só podem ser escolhidas uma vez. Os preços são fixos e não recebem descontos de Família.
 
 Uma Melhoria exige a parte do feitiço que ela altera. Acerto precisa de ataque, Dificuldade precisa de TR, Tamanho precisa de área. **Toque conserva 1,5 m**, e uma área centrada em você continua tendo essa origem. A Forma Efeito não ritualiza.
 
-| Melhoria | Benefício | Pontos |
-|---|---|---:|
-| Ritual de Acerto | +1 nas rolagens de ataque do feitiço. Máximo de duas compras. | 1 |
-| Ritual de Dificuldade | +1 na CD do feitiço, inclusive seu teste de saída. Máximo de duas compras. | 1 |
-| Ritual de Defesa | Você recebe +2 na Defesa até o começo de seu próximo turno. | 1 |
-| Ritual de Rerrolagem | Rerrole os dados de dano que caírem no mínimo, até Classe + 1 deles. | 1 |
-| Ritual de Energia | Reduza o custo do feitiço em metade da Classe, para baixo, mínimo 1 PE de desconto. | 2 |
-| Ritual de Tamanho | Aumente uma vez o tamanho da área pela escada de Fundamento. | 2 |
-| Ritual de Alcance | Aumente uma vez a distância ou o comprimento que Longe poderia aumentar. | 2 |
-| Ritual de Perseguição | Deslocar-se depois de ser escolhido não retira o alvo do alcance dessa aplicação. | 2 |
+| Melhoria | Benefício | Pontos | Repete |
+|---|---|---:|---|
+| Ritual de Acerto | +1 nas rolagens de ataque do feitiço. Máximo de duas compras. | 1 | Sim, até 2. |
+| Ritual de Dificuldade | +1 na CD do feitiço, inclusive seu teste de saída. Máximo de duas compras. | 1 | Sim, até 2. |
+| Ritual de Defesa | Você recebe +2 na Defesa até o começo de seu próximo turno. | 1 | Não. |
+| Ritual de Rerrolagem | Rerrole os dados de dano que caírem no mínimo, até Classe + 1 deles. | 1 | Sim, até 2. |
+| Ritual de Energia | Reduza o custo do feitiço em metade da Classe, para baixo, mínimo 1 PE de desconto. | 2 | Não. |
+| Ritual de Tamanho | Aumente uma vez o tamanho da área pela escada de Fundamento. | 2 | Sim, até 2. |
+| Ritual de Alcance | Aumente uma vez a distância ou o comprimento que Longe poderia aumentar. | 2 | Sim, até 2. |
+| Ritual de Perseguição | Deslocar-se depois de ser escolhido não retira o alvo do alcance dessa aplicação. | 2 | Não. |
 
-**Rerrolagem:** fica o segundo resultado.
+**Rerrolagem:** fica o segundo resultado. Com duas compras, rerrole também os dados que caírem um ponto acima do mínimo, como o 1 e o 2 de um d8, até **2 × (Classe + 1) dados**.
+
+**Alcance e Tamanho:** duas compras sobem **dois degraus** nas respectivas escalas.
 
 **Energia:** aplique descontos fixos antes das reduções à metade, com custo positivo mínimo de 1 PE. Benefícios repetidos de Defesa não se somam entre si.
 
@@ -11994,16 +12005,16 @@ Uma Melhoria exige a parte do feitiço que ela altera. Acerto precisa de ataque,
 <a id="ritual--rit-beneficios"></a>
 #### Alvos e efeitos do Ritual
 
-| Melhoria | Benefício | Pontos |
-|---|---|---:|
-| Ritual de Excedente | Cura que ultrapasse a vida máxima vira vida temporária, até um quarto da cura rolada para aquele alvo, para baixo. | 2 |
-| Ritual de Compartilhamento | Cura ou Apoio alcança um aliado adicional com uma cópia da parcela definida abaixo. | 2 |
-| Ritual de Duração | Prolongue em uma rodada um efeito de estado do feitiço. | 2 |
-| Ritual de Cobertura | Ignore Cobertura Parcial na aplicação. | 2 |
-| Ritual de Transmutação | Escolha outro tipo de dano entre os já registrados como possíveis na sua técnica. | 2 |
-| Ritual de Meio Acerto | No erro final de um ataque, cause metade dos dados daquele ataque, para baixo, sem outros efeitos. | 3 |
-| Ritual de Seleção | Escolha os aliados que a área não afetará. | 3 |
-| Ritual de Tiros | Rajada recebe um tiro adicional contra outro alvo, com a parcela definida abaixo. | 4 |
+| Melhoria | Benefício | Pontos | Repete |
+|---|---|---:|---|
+| Ritual de Excedente | Cura que ultrapasse a vida máxima vira vida temporária, até um quarto da cura rolada para aquele alvo, para baixo. | 2 | Não. |
+| Ritual de Compartilhamento | Cura ou Apoio alcança um aliado adicional com uma cópia da parcela definida abaixo. | 2 | Não. |
+| Ritual de Duração | Prolongue em uma rodada um efeito de estado do feitiço. | 2 | Não. |
+| Ritual de Cobertura | Ignore Cobertura Parcial na aplicação. | 2 | Não. |
+| Ritual de Transmutação | Escolha outro tipo de dano entre os já registrados como possíveis na sua técnica. | 2 | Não. |
+| Ritual de Meio Acerto | No erro final de um ataque, cause metade dos dados daquele ataque, para baixo, sem outros efeitos. | 3 | Não. |
+| Ritual de Seleção | Escolha os aliados que a área não afetará. | 3 | Não. |
+| Ritual de Tiros | Rajada recebe um tiro adicional contra outro alvo, com a parcela definida abaixo. | 4 | Não. |
 
 ##### Escolhas antes da aplicação
 
@@ -12104,7 +12115,7 @@ Um pacto troca uma limitação ou um compromisso por uma capacidade definida. Es
 | Forma | Quando é estabelecida | Duração e quantidade |
 |---|---|---|
 | Permanente | Fora de cena, com registro aprovado. | Benefício contínuo. Quantidade limitada pela Essência. |
-| Temporário | No seu turno, como Ação Bônus ou Reação. | Benefício até o fim da cena. A perda segue o acordo. |
+| Temporário | No seu turno, com Ação Bônus; fora dele, com Reação a um gatilho percebido. | Benefício até o fim da cena. A perda segue o acordo. |
 | Promessa | Quando duas partes capazes de decidir aceitam os termos. | Prazo e consequências registrados no acordo. |
 | Pacto de restrição | Na criação, com a Origem ou técnica. | Registra uma limitação já considerada na ficha. |
 
@@ -12115,6 +12126,19 @@ As quatro formas e os limites deste capítulo são a adaptação do Ciclo Maldit
 O preço precisa alterar uma escolha ou consumir algo que você realmente possui. Perder uma capacidade que já não podia usar não paga um benefício novo. Uma perda reparada imediatamente vale menos que uma limitação que permanece.
 
 Não venda a mesma limitação ao pacto, à Origem e a uma Restrição de feitiço ao mesmo tempo. O registro precisa distinguir qual benefício cada preço sustenta. Se a ficha já recebeu compensação por uma limitação, ela não fornece outra compensação automaticamente.
+
+##### Régua do câmbio
+
+A régua mede **o ganho**; o preço acompanha. Ela é uma referência para o mestre aprovar ou negar um pacto, não uma tabela de conversão entre sacrifícios e resultados.
+
+| Tamanho | O que o pacto entrega |
+|---|---|
+| Pequeno | Muda uma conjuração, ou vale uma cena. |
+| Médio | Muda de forma permanente como um feitiço ou uma ação sua funciona. |
+| Grande | Muda de forma permanente como a sua energia ou um Estilo inteiro funciona. |
+| Enorme | Quebra um limite do sistema, uma vez. |
+
+Promessa pequena, ganho pequeno; quem arrisca a vida pode pedir um ganho enorme.
 
 <!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#pacto-permanente -->
 <a id="ritual--pacto-permanente"></a>
@@ -12137,7 +12161,7 @@ O pacto concede **uma mecânica única, decidida com o mestre**. Pode modificar 
 
 **Pacto não concede Estilo.** Pode modificar um Estilo, como modifica um feitiço. A mecânica é escrita e decidida com o mestre.
 
-Um **pacto de energia** muda como a energia funciona ou devolve energia. Quando houver uma quantidade, ela é uma **porcentagem da energia máxima, combinada com o mestre**, nunca um número fixo. O Overtime é o modelo dessa troca.
+Um **pacto de energia** muda como a energia funciona ou devolve energia. Quando houver uma quantidade, ela é uma **porcentagem da energia máxima, combinada com o mestre**, nunca um número fixo. O [exemplo 4, Nanami e Overtime](#ritual--pacto-exemplos), mostra essa troca.
 
 Pactos não concedem bônus numérico a ataques, Defesa ou perícias. **Não existe pacto por dano.** Não converta esses benefícios em níveis de Caminho, Trilha ou Legado.
 
@@ -12149,9 +12173,11 @@ A avaliação considera quanto a obrigação pesa nas missões da campanha. Uma 
 <a id="ritual--pacto-temporario"></a>
 #### Pacto temporário
 
-No seu turno, use **Ação Bônus ou Reação** para propor e firmar um pacto temporário aprovado pelo mestre. Declare a perda, o benefício e o prazo antes de resolver a ação que pretende melhorar. Gastar Reação aqui não permite agir fora do turno nem alterar uma rolagem já resolvida.
+No seu turno, use **Ação Bônus** para propor e firmar um pacto temporário. **Fora do seu turno, use Reação em resposta a um gatilho que perceba:** um ataque recebido, uma ação do inimigo ou outro evento. O gatilho é obrigatório. Declare a perda, o benefício e o prazo; o mestre precisa aprovar a troca na hora.
 
-O benefício termina, no máximo, **no fim da cena**. O preço pode durar mais: energia gasta não volta ao encerrar o combate e um ferimento não se cura apenas porque o prazo do benefício acabou.
+A Reação responde ao gatilho **depois de os dados dele serem rolados e antes de as consequências serem aplicadas**, como a Reação de Cobrir-se de Energia. O pacto não refaz nem muda uma rolagem: muda o que acontece a partir dali.
+
+O pacto temporário dá um **ganho temporário** e pode cobrar uma **perda permanente**. Combine separadamente o prazo do benefício e o prazo do preço. O benefício termina, no máximo, **no fim da cena**; o preço pode durar para sempre. **Pacto temporário nunca ocupa vaga**, mesmo com preço permanente. Energia gasta não volta ao encerrar o combate e um ferimento não se cura apenas porque o prazo do benefício acabou. O [exemplo 1, o corte de Sukuna](#ritual--pacto-exemplos), mostra essa troca.
 
 ##### Definir a troca
 
@@ -12215,12 +12241,89 @@ Estas ideias descrevem conceitos, **não regras prontas nem benefícios adquirid
 | Liberação irregular | Que quantidade de energia fica disponível e quando ela muda? |
 | Energia alternada | O que deixa de funcionar nos períodos sem acesso à energia? |
 | Pacifismo impraticável | Qual obrigação entra em conflito com o voto e como corre seu prazo? |
-| Movimento direcional | Como o deslocamento lida com obstáculos, interrupções e apoio? |
 | Magnetismo energético | Quais ataques podem ser atraídos e até que distância? |
 | Despertar do corpo | Qual capacidade cresce, por quanto tempo e como se reinicia? |
 | Reserva vital | Como dano, gasto e recuperação interagem entre vida e energia? |
 
 Ideias que mudem vida, Integridade ou gasto de PE precisam ser conferidas também com dano, recuperação e progressão. O nome da limitação não decide seu valor, e um conceito sem procedimento completo ainda não deve ser usado numa sessão.
+
+<!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#pacto-exemplos -->
+<a id="ritual--pacto-exemplos"></a>
+#### Exemplos de pacto
+
+Os exemplos mostram o que se entrega e o que se recebe. Nos cinco primeiros, o tamanho do ganho segue a régua do câmbio. Nas Promessas, a troca é entre duas partes: cada uma entrega o que ficou escrito no acordo.
+
+##### 1. Sukuna: o corte que parte o mundo
+
+**Forma: temporário. Ganho: Enorme.**
+
+**Dá:** daí em diante, aquele feitiço exige o gesto com as duas mãos, a recitação e apontar a direção. Essas exigências são permanentes e não devolvem pontos.
+
+**Recebe:** lançar aquele feitiço uma vez, na hora, sem cumprir o Selo nem as Restrições dele naquela conjuração. É um ganho temporário pago com uma perda permanente.
+
+##### 2. Hakari: o braço
+
+**Forma: temporário. Ganho: Enorme.**
+
+**Dá:** a proteção de um braço, que perde de forma permanente, como consequência combinada com o mestre.
+
+**Recebe:** quando um golpe o levaria a zero de vida, gasta sua **Reação**, depois dos dados e antes das consequências, para ficar com **1 de vida**. O benefício vale para aquele golpe; o mestre aprova o pacto na hora.
+
+##### 3. Mostrar a mão
+
+**Forma: temporário. Ganho: Pequeno.**
+
+**Dá:** com a **Ação Bônus** do pacto temporário, você explica sua técnica a uma criatura que ouve e entende. A informação precisa ser **nova e verdadeira**.
+
+**Recebe:** no turno da revelação, suas rolagens de acerto dos feitiços daquela técnica contra ela têm **vantagem**, e os TRs dela contra esses feitiços têm **desvantagem**. Feitiços Automáticos não mudam.
+
+Conte os turnos de quem revelou: **no turno seguinte, tudo normal**; no terceiro, a troca se inverte a favor dela, com **desvantagem nas rolagens de acerto desses feitiços e vantagem nos TRs dela** contra eles. Depois acaba.
+
+##### 4. Nanami: Overtime
+
+**Forma: permanente, pacto de energia. Ocupa vaga. Ganho: Grande.**
+
+Combine com o mestre uma **jornada em horas de trabalho**, na criação do pacto. Essa jornada fica fixa e não muda depois. O percentual é **2,5% por hora**: 4 horas dão 10%; 8 horas, a jornada normal, dão 20%; 12 horas dão 30%.
+
+**Dá:** durante a jornada, seu **PE máximo** conta esse percentual a menos. No começo do dia de missões, você está com o máximo reduzido.
+
+**Recebe:** passada a jornada, na hora extra, seu PE máximo conta esse percentual a mais. Ao entrar na hora extra, receba imediatamente **a diferença entre os dois máximos**. Arredonde para baixo.
+
+A jornada conta a partir do começo das missões do dia, a qualquer hora do relógio. O **descanso curto não conta como hora de trabalho**. O **descanso longo encerra a hora extra e zera a contagem**, que recomeça na jornada seguinte.
+
+Com PE máximo 40 e jornada de 8 horas, seu máximo é **32 durante a jornada** e **48 na hora extra**. Ao passar de um para o outro, você recebe **16 PE**, a diferença entre os máximos.
+
+##### 5. Movimento direcional
+
+**Forma: permanente. Ocupa vaga. Ganho: Médio.**
+
+**Dá:** você só se desloca em linha reta, até gastar os metros ou bater em alguma coisa, sem curva e sem parar no meio.
+
+**Recebe:** esse movimento não provoca ataque de oportunidade.
+
+##### 6. Mahito e Mechamaru
+
+**Forma: Promessa.**
+
+**Mechamaru dá informação e recebe a cura do corpo. Mahito entrega a cura e recebe a informação.** Mechamaru acrescenta uma cláusula ao acordo: **ninguém de Kyoto seria tocado**.
+
+##### 7. Sukuna e Itadori
+
+**Forma: Promessa.**
+
+**Itadori dá um minuto do próprio corpo e recebe a volta à vida. Sukuna devolve sua vida e recebe esse minuto**, cobrado quando quiser, com a condição de **não ferir ninguém durante ele**.
+
+##### 8. Yuta e os superiores
+
+**Forma: Promessa.**
+
+**Yuta dá o juramento de executar Itadori e recebe o posto de carrasco. Os superiores entregam o posto e recebem esse compromisso.** A outra parte é uma instituição.
+
+##### 9. Kenjaku e os feiticeiros antigos
+
+**Forma: Promessa.**
+
+**Os feiticeiros antigos deixam de viver e se tornam objetos amaldiçoados; recebem a garantia de voltar no futuro. Kenjaku recebe os feiticeiros nessa forma e garante sua volta.** É uma Promessa que dura mais que a vida de quem fechou.
 
 <!-- parte:4 -->
 # Parte 4 — Invocações
@@ -12610,18 +12713,19 @@ Todo corpo amaldiçoado é imune a Envenenado. Um corpo não autônomo não tem 
 
 **Corpos só recuperam vida por técnica feita para repará-los, reparo ou descanso longo.** Energia Reversa e curas baseadas nela não os curam. O retorno depois de uma queda sem destruição continua concedendo metade da vida máxima.
 
-No descanso curto, uma pessoa treinada em **Entalhador ou Forja**, com ferramentas e materiais adequados, pode fazer **uma tentativa por corpo**, mesmo que haja outros reparadores. O corpo precisa estar acima de zero. Compare as Classes de capacidade permitidas pelos níveis do corpo e de quem repara, sem usar Grau de item:
+No descanso curto, uma pessoa treinada em **ofício compatível com o corpo, anotado na ficha**, com ferramentas e materiais adequados, pode fazer **uma tentativa por corpo**, mesmo que haja outros reparadores. O corpo precisa estar acima de zero. Compare as Classes de capacidade permitidas pelos níveis do corpo e de quem repara, sem usar Grau de item:
 
-| Classe do corpo em relação ao reparador | Dificuldade | Ajuste |
-|---|---|---|
-| Igual | Difícil. | 0 |
-| Uma abaixo | Média. | −2 |
-| Duas ou mais abaixo | Fácil. | −4 |
-| Acima | Requer reparador de Classe suficiente. | — |
+| Classe do corpo em relação a quem repara | Dificuldade | Ajuste | No sucesso recupera |
+|---|---|---|---|
+| Igual | Difícil | 0 | Metade da vida máxima. |
+| Uma abaixo | Média | −2 | Metade da vida máxima. |
+| Duas ou mais abaixo | Fácil | −4 | Metade da vida máxima. |
+| Uma acima | Difícil | 0 | Um terço da vida máxima. |
+| Duas ou mais acima | Difícil | 0 | Um quarto da vida máxima. |
 
 A CD é **8 + atributo usado no ofício + Maestria de quem repara + ajuste**. Defina o atributo antes do teste. Especialização e outros modificadores entram na rolagem, sem aumentar a base da CD.
 
-O dono ou outra pessoa pode realizar o reparo. Sucesso recupera metade da vida máxima, para baixo, sem ultrapassar o máximo. Falha não recupera vida e consome a tentativa daquele descanso. Reparo não religa Desligada. Para outros tipos de entidade, descanso curto não recupera vida por esta regra.
+O dono ou outra pessoa pode realizar o reparo. Sucesso recupera a parcela da tabela, arredondada para baixo, sem ultrapassar o máximo. Falha não recupera vida e consome a tentativa daquele descanso. Reparo não religa Desligada. Para outros tipos de entidade, descanso curto não recupera vida por esta regra.
 
 > **Exemplo.** Um corpo tem 31 PV máximos e está com 8. Quem o repara é da mesma Classe, com atributo 3 e Maestria 2: CD 13 e teste +5. Um 8 no d20 basta. Recupera 15 PV e termina com 23. A zero, precisaria primeiro ser religado.
 
@@ -12785,7 +12889,7 @@ Ordens e preparações acabam sem execução. Não há transferência de básica
 | Criação | Permanece como objeto. O talismã conserva sua carga; o corpo permanece parado. |
 | Maldição domada | Fica livre e passa ao controle do mestre. Pode ser domada por outra pessoa. |
 
-A maldição libertada deixa de ser uma entidade comandada. O mestre resolve sua conduta na cena; ela não continua cumprindo ordens por ser a última intenção registrada. Herdar um talismã ou corpo criado depende das regras de aquisição e criação, sem transferir automaticamente o vínculo.
+A maldição libertada deixa de ser uma entidade comandada. O mestre resolve sua conduta na cena; ela não continua cumprindo ordens por ser a última intenção registrada. Herdar um talismã ou corpo criado segue [Transferência e herança](#fabricacao--fab-conclusao), em Criação de entidades, sem transferir automaticamente o vínculo.
 
 Enquanto o personagem estiver apenas inconsciente, aplique o procedimento de inconsciência. Não antecipe os efeitos definitivos da morte durante uma oportunidade de recuperação que ainda exista pelas regras gerais.
 
@@ -12827,6 +12931,8 @@ Comece pelo trabalho que a entidade terá na equipe. Ela pode lutar, investigar,
 5. **Habilidades.** Monte a básica, as especiais e os talentos disponíveis naquele nível.
 6. **Registro.** Anote custos, alcances, requisitos e comunicação. Confira a ficha antes de levá-la à sessão.
 
+Toda entidade de criação, em talismã ou corpo, e todo corpo amaldiçoado registra na ficha o campo **ofício compatível**, escolhido na criação. A escolha depende do trabalho e dos materiais: Entalhador para madeira, pedra ou osso; Forja para metal; Alfaiate para pano; Caligrafia para o talismã de um shikigami de criação são exemplos, não uma lista fechada. Nos shikigamis de criação, o campo serve ao teste de criação; só corpos recuperam vida por reparo.
+
 **Pontos de montagem** compram partes de uma habilidade. **PE** pagam seu uso. Uma especial pode ter 4 pontos de montagem e custar 6 PE, por exemplo. A **Classe** determina essas contas. **Categoria de Efeito**, abreviada como CE, é uma escala diferente, usada nas características permanentes ou reativas.
 
 O exemplo [Cão de sombra](#construcao--entidade-cao) percorre essas etapas com uma entidade de nível 2. [Vigia de papel](#construcao--entidade-vigia) mostra uma entidade voltada à investigação e ao apoio. Os efeitos são propostas originais deste sistema.
@@ -12842,7 +12948,7 @@ O exemplo [Cão de sombra](#construcao--entidade-cao) percorre essas etapas com 
 | Espaço conhecido | Uma vaga de feitiço, Manejo ou Kata. | Acompanha seu nível. |
 | Lista de ritual | Um feitiço com uma lista própria e desafios individuais de submissão. | As entidades conquistadas acompanham seu nível. |
 | Maldição domada | Encontrar, derrotar e submeter uma maldição. | Conserva o nível em que foi domada. |
-| Criação | Tempo, testes e materiais de fabricação. | Conserva o nível em que foi criada. |
+| Criação | Teste de criação, quando o mestre permitir. | Acompanha seu nível até o último nível da Classe dela; passar disso pede reconstruir. |
 
 #### Espaço conhecido
 
@@ -12930,9 +13036,9 @@ Este ritual de submissão é parte da aquisição. Os **Pontos de Ritual**, usad
 
 ##### Criação
 
-Shikigamis de criação ficam ligados a talismãs. Corpos amaldiçoados de criação são construídos com peças. Ambos dependem de tempo, testes e materiais, conforme **Fabricação de entidades**. Caligrafia é o ofício dos talismãs. Entalhador ou Forja atende aos corpos, conforme o material e o trabalho.
+Shikigamis de criação ficam ligados a talismãs. Corpos amaldiçoados de criação são construídos com peças. Ambos usam o ofício compatível registrado na ficha, conforme [Criação de entidades](#fabricacao--fab-entidades). O mestre decide quando podem ser criados e o custo em tempo e materiais.
 
-Registre o nível e a ficha resultantes da fabricação. Subir de nível com o invocador não melhora automaticamente essa criatura. O reparo de um corpo existente segue **Invocações em campo — Cura e reparo**.
+Registre a Classe e a ficha da entidade. Ela acompanha o nível do invocador até o último nível da sua Classe; passar à Classe seguinte exige reconstruí-la. O reparo de um corpo existente segue **Invocações em campo — Cura e reparo**.
 
 Domar ou fabricar não exige possuir uma técnica de invocação. Ainda é preciso cumprir os procedimentos de aquisição e pagar os custos de uso. Uma entidade adquirida dessa maneira não ocupa uma vaga de feitiço apenas por existir.
 
@@ -12983,7 +13089,7 @@ Não há limite geral para o total adquirido. **O máximo é duas entidades ativ
 
 Talismãs ocupam carga. Corpos amaldiçoados permanecem no mundo e possuem um limite próprio de corpos mantidos. Uma maldição domada permanece no mundo se você não tiver uma capacidade que a recolha. Esses procedimentos e os benefícios de cada tipo ficam em **Invocações em campo**.
 
-O nível de qualquer entidade fica limitado ao seu. Nas formas de aquisição que concedem evolução, atualize sua ficha quando ela subir. Criadas e domadas mantêm seus níveis, mesmo que você avance na campanha.
+O nível de qualquer entidade fica limitado ao seu. Nas formas de aquisição que concedem evolução, atualize sua ficha quando ela subir. A criada acompanha o nível do invocador até o último nível da Classe dela; passar à Classe seguinte exige reconstrução. A domada mantém o nível em que foi domada.
 
 <!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-definicao -->
 <a id="construcao--entidades-definicao"></a>
@@ -13101,7 +13207,7 @@ A domada com técnica também usa esses espaços para adquirir seus degraus de D
 
 Atualize vida, marcos de atributo, perícias dependentes de Inteligência, dados da básica e novas vagas. Você pode **reescrever uma especial**. A Classe de uma especial antiga permanece registrada. Usá-la ampliada aplica o procedimento de [Ampliação](#construcao--entidades-ampliacao).
 
-Uma entidade obtida já em nível maior recebe os ganhos que correspondem a esse nível. Isso não concede níveis de evolução a uma domada ou criada depois da aquisição.
+Uma entidade obtida já em nível maior recebe os ganhos que correspondem a esse nível. A domada conserva o nível em que foi domada. A criada acompanha o nível do invocador até o último nível da Classe dela; passar à Classe seguinte exige reconstrução.
 
 <!-- fonte:invocacoes/lote-02/CONSTRUIR-INVOCACOES.md#entidades-familias -->
 <a id="construcao--entidades-familias"></a>
@@ -13545,129 +13651,67 @@ Depois da conferência, registre o texto acordado. Ajustes posteriores usam os p
 
 <!-- fonte:invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md#fab-entidades -->
 <a id="fabricacao--fab-entidades"></a>
-### Fabricação de entidades
+### Criação de entidades
 
-Você pode fabricar um talismã que guarda um shikigami ou construir um corpo amaldiçoado. Escolha a entidade, prepare sua ficha em **Criar uma invocação** e reúna os meios para produzi-la. A fabricação usa o procedimento de **Ofícios**, com o teste de conclusão apresentado aqui.
+Você pode criar um talismã que guarda um shikigami ou construir um corpo amaldiçoado. Escolha a entidade e prepare sua ficha em **Criar uma invocação**. Criar é uma aquisição: **não exige técnica de invocação nem ocupa espaço conhecido**.
 
-Esta é uma aquisição por criação. **Não exige técnica inata de invocação nem ocupa espaço conhecido.** A entidade conserva o nível em que foi fabricada. Para obter uma versão mais poderosa, você precisa de um novo projeto; subir de nível ou fazer um reparo não a melhora.
+O mestre decide quando você pode criar e o que isso custa em tempo e materiais; o livro de mestres vai tratar dessas decisões.
 
-#### Responsável pelo trabalho
+Uma pessoa **treinada no ofício compatível registrado na ficha** conduz o trabalho e faz o teste. Pode criar para si ou para outro invocador, definido antes do teste. **Cada entidade pede a própria tentativa.**
 
-Escolha uma pessoa treinada no ofício adequado. Ela conduz o projeto e faz o teste de conclusão. Pode fabricar para si ou para outro invocador, identificado desde o início.
-
-| Resultado | Ofício do responsável |
-|---|---|
-| Talismã de shikigami | Caligrafia. |
-| Corpo de madeira, pedra ou osso | Entalhador. |
-| Corpo de metal | Forja. |
-
-Um corpo de materiais diferentes usa o ofício de seu trabalho principal. Participantes com outros conhecimentos podem cuidar das etapas que os exigirem, conforme o projeto. Cada entidade exige sua própria tentativa de conclusão.
-
-**O nível da entidade não pode superar o do responsável nem o do futuro invocador.** A diferença de Classe determina a dificuldade do teste, mas não substitui esse limite de nível.
-
-#### Conhecimento da fabricação
-
-Treino permite executar o ofício. Para produzir uma entidade, o responsável também precisa conhecer o processo que dá vida ao resultado: uma receita ensinada, um registro acessível ou um método desenvolvido na campanha. O mestre define como esse conhecimento pode ser obtido.
-
-A receita descreve a fonte de energia e os participantes necessários. Pode usar materiais preparados ou a colaboração de alguém capaz de executar sua etapa. Quem não possui energia amaldiçoada pessoal continua sem ela. Conhecer o ofício ou fabricar um corpo não concede uma Origem, técnica, aptidão, alma autônoma ou reserva pessoal de energia.
-
-<!-- fonte:invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md#fab-projeto -->
-<a id="fabricacao--fab-projeto"></a>
-#### Projeto de fabricação
-
-Antes de começar, registre o projeto com o mestre. Defina **uma entidade por projeto**, com a ficha final já conferida. Um pedido para fabricar várias cópias informa os recursos e o prazo de cada uma; as tentativas permanecem individuais.
-
-| Campo | Registro necessário |
-|---|---|
-| Resultado | Tipo, nível, ficha da entidade e futuro invocador. |
-| Processo | Receita, responsável, ofício e participantes de cada etapa. |
-| Recursos | Materiais, ferramentas, local e valores a pagar. |
-| Prazo e risco | Horas de trabalho, esperas, teste e consequência da falha. |
-
-##### Materiais e custo
-
-O mestre informa quais materiais estão disponíveis e seu custo em ienes. Registre também os obtidos em missão, emprestados ou fornecidos pela instituição. Dinheiro só substitui um componente se houver quem o venda.
-
-Separe materiais consumidos, peças reaproveitáveis e ferramentas. Um estojo de ofício não fornece os consumíveis nem substitui uma oficina exigida. Se o processo gastar PE, indique o pagador, a quantidade e a etapa do pagamento antes de iniciar. **Não existe uma cobrança geral adicional de PE pela fabricação.** Os custos de manifestar e usar a entidade continuam em Invocações em campo.
-
-Não há preço universal por nível, desconto automático pela metade ou conversão entre Classe da entidade e Grau de ferramenta. Os preços de itens comuns valem para as peças realmente compradas. Restrições de acesso aos componentes continuam valendo; conhecer o ofício não concede autorizações de compra.
-
-##### Prazo
-
-Registre o trabalho efetivo e as esperas, como secagem ou preparação de material. Uma pausa conserva o progresso possível, conforme o processo. Tempo trabalhado não conta também como descanso. Ajuda só reduz o prazo quando o projeto permite repartir tarefas.
-
-O projeto deve exigir tempo e materiais reais. Nível maior, capacidades mais difíceis de produzir e componentes raros precisam ser considerados no orçamento. Combine os valores antes do gasto, incluindo o que será necessário refazer em caso de falha. Uma ficha pronta, sozinha, não entrega a entidade.
+Na criação, escolha a **Classe da entidade**. Ela não pode superar a Classe de quem cria nem a do invocador. O nível da entidade é o do invocador, limitado ao último nível da Classe escolhida.
 
 <!-- fonte:invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md#fab-teste -->
 <a id="fabricacao--fab-teste"></a>
-#### Teste de fabricação
+#### Teste de criação
 
-Depois de cumprir o prazo, fornecer os materiais e executar o processo, o responsável faz **um teste do ofício indicado**. Este teste é exigido na fabricação de entidades, mesmo quando as etapas físicas forem trabalhos rotineiros.
+Quando o mestre permitir a criação e o trabalho combinado estiver cumprido, o responsável faz **um teste do ofício compatível**.
 
-Use o atributo adequado ao trabalho e a Maestria do responsável. A base da dificuldade é **8 + esse atributo + essa Maestria**. Compare a Classe permitida pelo nível da entidade com a permitida pelo nível do responsável, usando a Progressão da entidade.
+Use o atributo adequado ao trabalho e a Maestria do responsável. A base da dificuldade é **8 + esse atributo + essa Maestria**. Compare a Classe escolhida para a entidade com a Classe de quem cria, usando a Progressão da entidade.
 
-| Classe da entidade em relação ao responsável | Dificuldade | Ajuste à base |
+| Classe da entidade em relação a quem cria | Dificuldade | Ajuste |
 |---|---|---|
 | Igual | Difícil | 0 |
 | Uma abaixo | Média | −2 |
 | Duas ou mais abaixo | Fácil | −4 |
 
-**Role d20 + atributo + Maestria.** Igualar a CD é sucesso. Especialização e outros modificadores alteram o teste conforme suas próprias regras; não entram novamente na base da CD. Ajudar segue Tarefas e testes. Uma contribuição não fornece ao responsável o treino que lhe falta.
+**Role d20 + atributo + Maestria.** Igualar a CD é sucesso. Especialização e outros modificadores alteram o teste conforme suas próprias regras; não entram novamente na base da CD.
 
-> **Exemplo:** uma calígrafa de nível 13, Destreza 4 e Maestria 2 fabrica uma entidade de nível 9. As Classes são 4 e 3: a dificuldade é Média. A CD fica **8 + 4 + 2 − 2 = 12**. Seu teste é d20 + 6; um 6 no dado basta. Se fabricasse uma entidade de nível 13, a CD seria 14 e precisaria de 8.
+> **Exemplo:** uma calígrafa de nível 13, Destreza 4 e Maestria 2 cria uma entidade de Classe 3 para um invocador de nível 9. A entidade começa no nível 9. As Classes comparadas são 4 e 3: a dificuldade é Média. A CD fica **8 + 4 + 2 − 2 = 12**. Seu teste é d20 + 6; um 6 no dado basta. Se criasse uma entidade de Classe 4 para um invocador de nível 13, ela começaria no nível 13, a CD seria 14 e precisaria de 8.
+
+##### Vantagem nos testes
+
+Nos testes para **criar, reconstruir ou transferir**, a vantagem só pode vir de **um ajudante treinado no ofício compatível**, com permissão do mestre e dedicando o mesmo tempo que o responsável, ou de **uma habilidade que conceda vantagem permanente nesse teste**. Vantagem ativada, por cena ou temporária não vale. Esta é uma exceção ao Ajudar de Regras gerais, que não exige treino do ajudante.
+
+A vantagem da tentativa seguinte a uma falha vem da própria regra e continua valendo nos três testes.
 
 ##### Sucesso e falha
 
-No sucesso, conclua a entidade com a ficha combinada e registre seu invocador. Na falha, ela ainda não funciona. Aplique apenas o atraso, retrabalho ou perda de materiais que o projeto anunciou. Não crie automaticamente uma criatura hostil nem destrua todos os componentes.
-
-Uma nova tentativa exige cumprir o retrabalho previsto e pagar seus custos. Repete-se o teste de conclusão, sem repetir as etapas que permaneceram aproveitáveis. Enquanto faltar uma condição do projeto, não há nova rolagem. Vários participantes não podem testar a mesma peça em sequência para evitar o retrabalho.
+No sucesso, conclua a entidade com a ficha combinada e registre seu invocador. Na falha, ela ainda não funciona. Uma nova tentativa acontece quando o mestre permitir e tem vantagem.
 
 <!-- fonte:invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md#fab-conclusao -->
 <a id="fabricacao--fab-conclusao"></a>
-#### Conclusão e transferência
+#### Conclusão, evolução e transferência
 
-Uma entidade nova começa com vida máxima. O shikigami fica recolhido em seu talismã, **sem carga adiantada**; o corpo permanece inativo onde foi construído. A conclusão não manifesta, ativa ou transporta a entidade. Antes de usá-la, siga **Invocações em campo** e seus limites de controle. Um corpo que exceda seu limite permanece no mundo sem controle e volta conforme **Invocações em campo**; fabricar ou receber outro não amplia esse limite.
+Uma entidade nova começa com a **vida máxima**. O shikigami fica recolhido em seu talismã, **sem carga**; o corpo permanece inativo onde foi construído. O talismã ocupa **0,5 de Volume**. Manifestar, ativar, transportar e controlar a entidade seguem **Invocações em campo**.
 
-O talismã ocupa **0,5 de Volume**. Transporte, carga de energia e recuperação seguem aquele capítulo. Os materiais escolhidos não concedem proteção, resistência, imunidade ou habilidade além da ficha conferida. Equipar a criatura também exige obter as peças usadas.
+##### Evolução e reconstrução
+
+A entidade de criação **acompanha o nível do invocador até o último nível da Classe dela**. As faixas da Progressão da entidade são: Classe 1, níveis 1–4; Classe 2, 5–8; Classe 3, 9–12; Classe 4, 13–16; Classe 5, 17–20; Classe 6, 21–25; e Classe 7, 26–30.
+
+Para passar à Classe seguinte, é preciso **reconstruir a entidade** ou criar outra do zero. Reconstruir usa o mesmo teste de criação, comparando a **nova Classe** com a de quem reconstrói, e reduz a dificuldade em um degrau: Igual vira **Média (−2)**; Uma abaixo vira **Fácil (−4)**; Duas ou mais abaixo continua **Fácil (−4)**. A nova Classe não pode superar a de quem reconstrói nem a do invocador. **É um teste por Classe.**
+
+Na falha, a entidade continua onde está. A nova tentativa acontece quando o mestre permitir e tem vantagem.
 
 ##### Transferência e herança
 
-Um talismã ou corpo criado pode passar a outro invocador. A transferência exige um **projeto para mudar o vínculo**, fora de combate, pelo mesmo ofício que o fabrica. O objeto precisa estar acessível durante o trabalho. O shikigami deve estar recolhido; o corpo, inativo ou na condição Desligada.
+Passar um talismã ou corpo criado a outro invocador, ou herdá-lo, pede **o mesmo teste de criação, fora de combate**, com o consentimento do dono anterior ou a morte dele. O novo invocador precisa ter **Classe igual ou maior que a da entidade**.
 
-O invocador anterior precisa consentir ou estar morto. Possuir um objeto roubado não permite trocar seu vínculo por este procedimento. O projeto informa como alcançar o registro do vínculo, os materiais e o tempo necessários. Use um responsável treinado e o mesmo teste de fabricação, com o nível da entidade limitado ao dele e ao do novo invocador.
+No sucesso, registre o novo invocador. A transferência conserva **Classe, ficha, vida atual e usos gastos**, além da queda e da carga do talismã. Depois dela, a entidade acompanha o nível do novo invocador dentro da Classe dela; atualize os valores que dependem dele. A transferência não recupera energia, não concede outra atuação no ciclo nem religa um corpo Desligado.
 
-No sucesso, registre **um único invocador**. O anterior perde o controle quando o novo vínculo termina de ser estabelecido. Na falha, o vínculo anterior permanece, ou o objeto continua sem invocador vivo, conforme o caso. O retrabalho segue o projeto.
+Na falha, o vínculo anterior permanece, ou o objeto continua sem invocador vivo, conforme o caso. A nova tentativa acontece quando o mestre permitir e tem vantagem.
 
-**A transferência conserva nível, ficha, vida atual, queda, carga do talismã e usos gastos.** Atualize somente os valores que dependem da ficha do invocador. Ela não recupera energia, não dá outra atuação no ciclo e não religa um corpo na condição Desligada. O novo invocador precisa cumprir os limites de controle e os procedimentos normais de retorno e entrada.
-
-Uma entidade destruída exige nova fabricação. Reaproveitar restos depende do projeto e não traz de volta a criatura anterior. Reparar uma entidade existente, conservar seu vínculo ou herdar uma peça não concede aumento de nível nem ocupa espaço conhecido.
-
-<!-- fonte:invocacoes/fabricacao/lote-01/FABRICACAO-DE-ENTIDADES.md#fab-exemplo -->
-<a id="fabricacao--fab-exemplo"></a>
-### Exemplo: Talismã de vigia
-
-Rina, de nível 13, quer fabricar um shikigami de nível 9 para vigiar um depósito. Sua ficha foi montada em **Criar uma invocação**, com sentidos e habilidades que permitem a tarefa. Rina é treinada em Caligrafia, tem Destreza 4, Maestria 2 e conhece a receita.
-
-O mestre prepara o projeto abaixo. **Os preços e prazos deste exemplo pertencem a este projeto; não são uma tabela para todo talismã.**
-
-| Campo | Projeto combinado |
-|---|---|
-| Resultado | Um talismã com uma entidade de nível 9, vinculada a Rina. |
-| Recursos | Papel e tinta preparados: ¥30.000. Estojo de Caligrafia próprio e mesa de trabalho. A energia está nos materiais; nenhum PE adicional. |
-| Prazo | 16 horas de trabalho, divididas conforme a disponibilidade de Rina. |
-| Falha | Refazer a inscrição: mais 4 horas e ¥6.000 em materiais a cada nova tentativa. |
-
-A receita e os materiais já estão disponíveis na campanha. Se Rina precisasse comprar o estojo, pagaria os **¥10.000** de Ferramentas de ofício separadamente; ele continuaria com ela depois do trabalho.
-
-#### Execução
-
-Rina gasta ¥30.000 e trabalha 16 horas. Faz seu teste de Caligrafia contra CD 12. Tira 5: **5 + 4 + 2 = 11**, uma falha. O talismã continua sem funcionar; o projeto exige retrabalho.
-
-Ela escolhe continuar, compra ¥6.000 de materiais e trabalha mais 4 horas. Na nova tentativa, tira 9: **9 + 4 + 2 = 15**, sucesso. O gasto total foi **¥36.000 e 20 horas**, além do estojo que já possuía.
-
-Rina anota a entidade de nível 9 e o talismã de 0,5 Volume, sem carga. Manifestá-la seguirá seu custo normal. Quando Rina subir de nível, esta entidade continuará no 9.
-
-Para fabricar um corpo, ela precisaria do responsável em Entalhador ou Forja, do processo e dos materiais compatíveis. O projeto acima não transforma papel e tinta em um corpo de metal pelo mesmo preço.
+**Uma entidade destruída exige criar outra.** A maldição domada conserva o nível em que foi domada; esta evolução pertence às entidades de criação.
 
 <!-- parte:5 -->
 # Parte 5 — Mestrar e consultar
@@ -14084,6 +14128,7 @@ Ao sofrer dano, siga Dano e Recuperação para os recursos atingidos, a queda e 
 [Corpo amaldiçoado](#campo--inv-corpos)
 [Corpo Amaldiçoado (Origem)](#origens--origem-corpo)
 [CP (sigla anterior)](#fundamento--selo)
+[Criação de entidades](#fabricacao--fab-entidades)
 [Crítico](#indice-especifico-07)
 [Cura (Forma)](#fundamento--amparoformas)
 [Cura (recuperação)](#dano--cura)
@@ -14141,7 +14186,6 @@ Ao sofrer dano, siga Dano e Recuperação para os recursos atingidos, a queda e 
 [Experiência semanal](#progressao--prog-semana)
 [Explosão](#fundamento--formas)
 [Expressão da técnica](#indice-r37-08)
-[Fabricação de entidades](#fabricacao--fab-entidades)
 [Família](#fundamento--familias)
 [Feitiço](#fundamento--primeiro)
 [Ferramenta amaldiçoada](#equip--eqf-equipamento)
