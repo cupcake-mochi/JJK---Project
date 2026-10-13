@@ -205,6 +205,10 @@ publication_changes.extend(aplicar_r43(enriched))
 # R44: cinco conjuntos de decisões de 12/10/2026.
 from revisao_r44 import aplicar as aplicar_r44
 publication_changes.extend(aplicar_r44(enriched,all_blocks,chapters,hierarquia))
+from revisao_r45 import aplicar as aplicar_r45
+publication_changes.extend(aplicar_r45(enriched,all_blocks,chapters,hierarquia,supplement_enriched))
+from revisao_r46 import aplicar as aplicar_r46
+publication_changes.extend(aplicar_r46(enriched))
 for key,block in all_blocks.items():
  first=enriched[key].splitlines()[0] if enriched[key].splitlines() else ''
  if re.match(r'^#{1,6} ',first):block.title=re.sub(r'^#{1,6} ','',first)

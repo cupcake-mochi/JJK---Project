@@ -34,7 +34,7 @@ class Fluxo:
                 if not pending and atoms:
                     lead=atoms[-1]['unit'].parts
                     if (lead[-1].block==part.block and lead[-1].kind=='body'
-                            and len(lead[-1].text.split())<=30
+                            and (len(lead[-1].text.split())<=30 or part.block=='origens--restricao-saida')
                             and any(x.kind in heads for x in lead)):
                         pending=atoms.pop()['unit'].parts
                 rows=part.text;wide=n['tabela_larga'](part) or any(x.kind=='major' for x in pending)
@@ -112,7 +112,28 @@ class Fluxo:
                     a=dict(a);a.update(unit=u,cw=cw,aw=u.measure(n['AW'])[0])
                     compact.append(a);i=end;continue
             compact.append(a);i+=1
-        return compact
+        # R45: catálogos e clãs não anunciam escolhas numa coluna sem
+        # mostrar ao menos a primeira entrada e seu parágrafo inicial.
+        connected=[];i=0
+        while i<len(compact):
+            a=compact[i];ps=a['unit'].parts
+            label=str(ps[0].text)
+            if ps[0].doc=='origens' and ps[0].kind in heads and (label.startswith('Menores d') or label in {'Zenin','Kamo','Gojo','Inumaki'}):
+                stop=i+1
+                while stop<len(compact):
+                    nxt=compact[stop]['unit'].parts
+                    if nxt[0].doc!='origens' or any(p.kind in {'h1','major'} for p in nxt):break
+                    if any(p.kind in heads for p in nxt):
+                        stop+=1
+                        u=self.joined_unit(compact[i:stop]);cw=u.measure(n['CW'])[0]
+                        if cw<=n['CAP']-20 and not any(x['wide'] for x in compact[i:stop]):
+                            a=dict(a);a.update(unit=u,cw=cw,aw=u.measure(n['AW'])[0])
+                            self.opening_log.append({'bloco':ps[0].block,'titulo':label,'motivo':'R45: catálogo/clã junto da primeira capacidade e seu primeiro parágrafo.'})
+                            i=stop-1
+                        break
+                    stop+=1
+            connected.append(a);i+=1
+        return connected
 
     def table_join(self,left,right,width):
         """Overhead removed when consecutive pieces of one table share a column."""
@@ -152,7 +173,7 @@ class Fluxo:
             context=a['context']
             if a.get('continuation_title'):
                 title=str(a['continuation_title']).replace(' (continuação)','')
-                context=(context if context==title or context.endswith(' / '+title) else context+' / '+title)+' (continuação)'
+                context=(context if context==title or context.endswith(' / '+title) else context+' / '+title)
             label=re.sub(r'\*|`','',str(ps[0].text))
             if label==context:return None
             if not context or context==ch['titulo']:return None

@@ -1,0 +1,1266 @@
+{
+  "metodo": "Enumeração e cálculo determinístico; não é playtest ou prova de equilíbrio",
+  "casos": [
+    {
+      "grupo": "T01/T16",
+      "caso": "Sem energia",
+      "entradas": {
+        "menores_elegiveis": 8,
+        "vagas": 2
+      },
+      "esperado": 28,
+      "obtido": 28,
+      "fonte": "A008/A010 e montagem vigente de cada Origem",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T01/T16",
+      "caso": "Latente",
+      "entradas": {
+        "menores_elegiveis": 8,
+        "vagas": 2
+      },
+      "esperado": 28,
+      "obtido": 28,
+      "fonte": "A008/A010 e montagem vigente de cada Origem",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T01/T16",
+      "caso": "Corpo geral",
+      "entradas": {
+        "menores_elegiveis": 8,
+        "vagas": 2
+      },
+      "esperado": 28,
+      "obtido": 28,
+      "fonte": "A008/A010 e montagem vigente de cada Origem",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T01/T16",
+      "caso": "Corpo Manutenção",
+      "entradas": {
+        "menores_elegiveis": 10,
+        "vagas": 2
+      },
+      "esperado": 45,
+      "obtido": 45,
+      "fonte": "A008/A010 e montagem vigente de cada Origem",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T01/T16",
+      "caso": "Encarnado",
+      "entradas": {
+        "menores_elegiveis": 7,
+        "vagas": 2
+      },
+      "esperado": 21,
+      "obtido": 21,
+      "fonte": "A008/A010 e montagem vigente de cada Origem",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T01/T16",
+      "caso": "Restrição corporal",
+      "entradas": {
+        "menores_elegiveis": 8,
+        "vagas": 2
+      },
+      "esperado": 28,
+      "obtido": 28,
+      "fonte": "A008/A010 e montagem vigente de cada Origem",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T01/T16",
+      "caso": "Receptáculo Coexistência",
+      "entradas": {
+        "menores_elegiveis": 7,
+        "vagas": 2
+      },
+      "esperado": 21,
+      "obtido": 21,
+      "fonte": "A008/A010 e montagem vigente de cada Origem",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T01/T16",
+      "caso": "Receptáculo Conflito",
+      "entradas": {
+        "menores_elegiveis": 7,
+        "vagas": 2
+      },
+      "esperado": 21,
+      "obtido": 21,
+      "fonte": "A008/A010 e montagem vigente de cada Origem",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T01/T16",
+      "caso": "Cada clã Descendente",
+      "entradas": {
+        "menores_elegiveis": 7,
+        "vagas": 2
+      },
+      "esperado": 21,
+      "obtido": 21,
+      "fonte": "A008/A010 e montagem vigente de cada Origem",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T16",
+      "caso": "Duplas detalhadas do Híbrido",
+      "entradas": {
+        "opcoes": [
+          [
+            "Anatomia",
+            0
+          ],
+          [
+            "Anatomia",
+            1
+          ],
+          [
+            "Armamento",
+            0
+          ],
+          [
+            "Armamento",
+            1
+          ],
+          [
+            "Armamento",
+            2
+          ],
+          [
+            "Armamento",
+            3
+          ],
+          [
+            "Locomoção",
+            0
+          ],
+          [
+            "Locomoção",
+            1
+          ],
+          [
+            "Locomoção",
+            2
+          ],
+          [
+            "0",
+            0
+          ],
+          [
+            "1",
+            0
+          ],
+          [
+            "2",
+            0
+          ],
+          [
+            "3",
+            0
+          ],
+          [
+            "4",
+            0
+          ]
+        ]
+      },
+      "esperado": 91,
+      "obtido": 91,
+      "fonte": "A050: repetição somente dos três menus e com opções distintas",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T03",
+      "caso": "Distribuição exata Latente",
+      "entradas": {
+        "maestria": 1,
+        "d20": "1–20"
+      },
+      "esperado": [
+        8,
+        4,
+        8
+      ],
+      "obtido": [
+        8,
+        4,
+        8
+      ],
+      "fonte": "A038",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T03",
+      "caso": "Distribuição exata Latente",
+      "entradas": {
+        "maestria": 2,
+        "d20": "1–20"
+      },
+      "esperado": [
+        7,
+        4,
+        9
+      ],
+      "obtido": [
+        7,
+        4,
+        9
+      ],
+      "fonte": "A038",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T03",
+      "caso": "Distribuição exata Latente",
+      "entradas": {
+        "maestria": 3,
+        "d20": "1–20"
+      },
+      "esperado": [
+        6,
+        4,
+        10
+      ],
+      "obtido": [
+        6,
+        4,
+        10
+      ],
+      "fonte": "A038",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T03",
+      "caso": "Distribuição exata Latente",
+      "entradas": {
+        "maestria": 4,
+        "d20": "1–20"
+      },
+      "esperado": [
+        5,
+        4,
+        11
+      ],
+      "obtido": [
+        5,
+        4,
+        11
+      ],
+      "fonte": "A038",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T03",
+      "caso": "Fronteira do custo",
+      "entradas": {
+        "classe": 3,
+        "custo_completo": 6,
+        "total": 9
+      },
+      "esperado": 8,
+      "obtido": 8,
+      "fonte": "A037/A038",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T03",
+      "caso": "Fronteira do custo",
+      "entradas": {
+        "classe": 3,
+        "custo_completo": 6,
+        "total": 10
+      },
+      "esperado": 6,
+      "obtido": 6,
+      "fonte": "A037/A038",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T03",
+      "caso": "Fronteira do custo",
+      "entradas": {
+        "classe": 3,
+        "custo_completo": 6,
+        "total": 13
+      },
+      "esperado": 6,
+      "obtido": 6,
+      "fonte": "A037/A038",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T03",
+      "caso": "Fronteira do custo",
+      "entradas": {
+        "classe": 3,
+        "custo_completo": 6,
+        "total": 14
+      },
+      "esperado": 4,
+      "obtido": 4,
+      "fonte": "A037/A038",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T03",
+      "caso": "Piso de custo Classe 1",
+      "entradas": {
+        "custo_completo": 1,
+        "controle": true
+      },
+      "esperado": 1,
+      "obtido": 1,
+      "fonte": "A038",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T03",
+      "caso": "Desconto antes da oscilação",
+      "entradas": {
+        "base": 9,
+        "desconto": 2,
+        "classe": 3,
+        "controle": true
+      },
+      "esperado": 5,
+      "obtido": 5,
+      "fonte": "A037",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T04/T05",
+      "caso": "Faixa de regeneração",
+      "entradas": {
+        "vida": 31,
+        "maximo_atual": 100,
+        "temporaria_ignorada": 10
+      },
+      "esperado": false,
+      "obtido": false,
+      "fonte": "A048 e requisito de ficha",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T04/T05",
+      "caso": "Faixa de regeneração",
+      "entradas": {
+        "vida": 30,
+        "maximo_atual": 100,
+        "temporaria_ignorada": 10
+      },
+      "esperado": true,
+      "obtido": true,
+      "fonte": "A048 e requisito de ficha",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T04/T05",
+      "caso": "Faixa de regeneração",
+      "entradas": {
+        "vida": 0,
+        "maximo_atual": 100,
+        "temporaria_ignorada": 10
+      },
+      "esperado": false,
+      "obtido": false,
+      "fonte": "A048 e requisito de ficha",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T04/T05",
+      "caso": "Faixa de regeneração",
+      "entradas": {
+        "vida": 13,
+        "maximo_atual": 41,
+        "temporaria_ignorada": 10
+      },
+      "esperado": false,
+      "obtido": false,
+      "fonte": "A048 e requisito de ficha",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T04/T05",
+      "caso": "Faixa de regeneração",
+      "entradas": {
+        "vida": 12,
+        "maximo_atual": 41,
+        "temporaria_ignorada": 10
+      },
+      "esperado": true,
+      "obtido": true,
+      "fonte": "A048 e requisito de ficha",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T04/T05",
+      "caso": "Faixa de regeneração",
+      "entradas": {
+        "vida": 20,
+        "maximo_atual": 100,
+        "temporaria_ignorada": 10
+      },
+      "esperado": true,
+      "obtido": true,
+      "fonte": "A048 e requisito de ficha",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T04/T05",
+      "caso": "Faixa de regeneração",
+      "entradas": {
+        "vida": 40,
+        "maximo_atual": 100,
+        "temporaria_ignorada": 10
+      },
+      "esperado": false,
+      "obtido": false,
+      "fonte": "A048 e requisito de ficha",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T04/T05",
+      "caso": "Faixa de regeneração",
+      "entradas": {
+        "vida": 20,
+        "maximo_atual": 60,
+        "temporaria_ignorada": 10
+      },
+      "esperado": false,
+      "obtido": false,
+      "fonte": "A048 e requisito de ficha",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T04",
+      "caso": "Usos por Constituição",
+      "entradas": {
+        "constituições": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "esperado": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "obtido": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "fonte": "A048",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T04",
+      "caso": "Cura pode passar do limiar",
+      "entradas": {
+        "maximo": 41,
+        "vida": 12,
+        "dados": [
+          3,
+          5
+        ]
+      },
+      "esperado": 20,
+      "obtido": 20,
+      "fonte": "A048",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T06",
+      "caso": "Reparo por diferença de Classe",
+      "entradas": {
+        "corpo_menos_reparador": -2,
+        "atributo": 3,
+        "maestria": 2,
+        "especializacao": 1,
+        "vida_maxima": 31
+      },
+      "esperado": [
+        9,
+        6,
+        15
+      ],
+      "obtido": [
+        9,
+        6,
+        15
+      ],
+      "fonte": "R44 itens 24/188; I002",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T06",
+      "caso": "Reparo por diferença de Classe",
+      "entradas": {
+        "corpo_menos_reparador": -1,
+        "atributo": 3,
+        "maestria": 2,
+        "especializacao": 1,
+        "vida_maxima": 31
+      },
+      "esperado": [
+        11,
+        6,
+        15
+      ],
+      "obtido": [
+        11,
+        6,
+        15
+      ],
+      "fonte": "R44 itens 24/188; I002",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T06",
+      "caso": "Reparo por diferença de Classe",
+      "entradas": {
+        "corpo_menos_reparador": 0,
+        "atributo": 3,
+        "maestria": 2,
+        "especializacao": 1,
+        "vida_maxima": 31
+      },
+      "esperado": [
+        13,
+        6,
+        15
+      ],
+      "obtido": [
+        13,
+        6,
+        15
+      ],
+      "fonte": "R44 itens 24/188; I002",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T06",
+      "caso": "Reparo por diferença de Classe",
+      "entradas": {
+        "corpo_menos_reparador": 1,
+        "atributo": 3,
+        "maestria": 2,
+        "especializacao": 1,
+        "vida_maxima": 31
+      },
+      "esperado": [
+        13,
+        6,
+        10
+      ],
+      "obtido": [
+        13,
+        6,
+        10
+      ],
+      "fonte": "R44 itens 24/188; I002",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T06",
+      "caso": "Reparo por diferença de Classe",
+      "entradas": {
+        "corpo_menos_reparador": 2,
+        "atributo": 3,
+        "maestria": 2,
+        "especializacao": 1,
+        "vida_maxima": 31
+      },
+      "esperado": [
+        13,
+        6,
+        7
+      ],
+      "obtido": [
+        13,
+        6,
+        7
+      ],
+      "fonte": "R44 itens 24/188; I002",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T06",
+      "caso": "Autorreparo mantém 30%",
+      "entradas": {
+        "maximo": 31
+      },
+      "esperado": 9,
+      "obtido": 9,
+      "fonte": "A055; I002",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T07",
+      "caso": "Núcleo Dependente",
+      "entradas": {
+        "essencia": 3,
+        "nivel": 2
+      },
+      "esperado": 3,
+      "obtido": 3,
+      "fonte": "A053",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T07",
+      "caso": "Núcleo Dependente",
+      "entradas": {
+        "essencia": 3,
+        "nivel": 10
+      },
+      "esperado": 5,
+      "obtido": 5,
+      "fonte": "A053",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T07",
+      "caso": "Núcleo Dependente",
+      "entradas": {
+        "essencia": 4,
+        "nivel": 10
+      },
+      "esperado": 8,
+      "obtido": 8,
+      "fonte": "A053",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T07",
+      "caso": "Núcleo Dependente",
+      "entradas": {
+        "essencia": 5,
+        "nivel": 18
+      },
+      "esperado": 13,
+      "obtido": 13,
+      "fonte": "A053",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T07",
+      "caso": "Núcleo Dependente",
+      "entradas": {
+        "essencia": 6,
+        "nivel": 30
+      },
+      "esperado": 27,
+      "obtido": 27,
+      "fonte": "A053",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T07",
+      "caso": "Inatividade e energia temporária",
+      "entradas": {
+        "PE": 0,
+        "temporarios": 0
+      },
+      "esperado": true,
+      "obtido": true,
+      "fonte": "A059",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T07",
+      "caso": "Inatividade e energia temporária",
+      "entradas": {
+        "PE": 0,
+        "temporarios": 1
+      },
+      "esperado": false,
+      "obtido": false,
+      "fonte": "A059",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T07",
+      "caso": "Inatividade e energia temporária",
+      "entradas": {
+        "PE": 1,
+        "temporarios": 0
+      },
+      "esperado": false,
+      "obtido": false,
+      "fonte": "A059",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T08",
+      "caso": "Reserva Impregnada mínimos separados",
+      "entradas": {
+        "nivel": 1,
+        "essencia": 0
+      },
+      "esperado": 2,
+      "obtido": 2,
+      "fonte": "A066",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T10",
+      "caso": "Ensaio e desvantagem",
+      "entradas": {
+        "preparo": [
+          5,
+          12,
+          17
+        ],
+        "gasto": 17,
+        "outro_d20": 6
+      },
+      "esperado": [
+        12,
+        6
+      ],
+      "obtido": [
+        12,
+        6
+      ],
+      "fonte": "A081",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T10",
+      "caso": "Entendimento Tácito bônus próprios",
+      "entradas": {
+        "naturais": [
+          6,
+          15
+        ],
+        "bonus": [
+          2,
+          7
+        ]
+      },
+      "esperado": [
+        17,
+        22
+      ],
+      "obtido": [
+        17,
+        22
+      ],
+      "fonte": "A084/A085",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T10",
+      "caso": "Leitura a Dois substitui bônus",
+      "entradas": {
+        "d20": 9,
+        "proprio": 2,
+        "emprestado": 7
+      },
+      "esperado": 16,
+      "obtido": 16,
+      "fonte": "A085",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T12",
+      "caso": "Saída Elevada",
+      "entradas": {
+        "classes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "esperado": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "obtido": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "fonte": "A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T14",
+      "caso": "Sobrecarga arredonda custo-base",
+      "entradas": {
+        "base": 9,
+        "desconto_ignorado": 3
+      },
+      "esperado": 5,
+      "obtido": 5,
+      "fonte": "A099",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T13",
+      "caso": "Exaurido: descanso não é dividido novamente",
+      "entradas": {
+        "maximo": 41,
+        "vida": 7
+      },
+      "esperado": 17,
+      "obtido": 17,
+      "fonte": "A095/A096",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T13",
+      "caso": "Exaurido cura positiva",
+      "entradas": {
+        "curas": [
+          1,
+          3,
+          8
+        ]
+      },
+      "esperado": [
+        1,
+        1,
+        4
+      ],
+      "obtido": [
+        1,
+        1,
+        4
+      ],
+      "fonte": "A095/A096",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T14",
+      "caso": "Recuperação Abundante",
+      "entradas": {
+        "maximoPE": 41
+      },
+      "esperado": 16,
+      "obtido": 16,
+      "fonte": "A099",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 1
+      },
+      "esperado": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "obtido": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 2
+      },
+      "esperado": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "obtido": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 5
+      },
+      "esperado": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "obtido": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 6
+      },
+      "esperado": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "obtido": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 9
+      },
+      "esperado": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "obtido": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 10
+      },
+      "esperado": [
+        3,
+        2,
+        1,
+        2
+      ],
+      "obtido": [
+        3,
+        2,
+        1,
+        2
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 13
+      },
+      "esperado": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "obtido": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 14
+      },
+      "esperado": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "obtido": [
+        4,
+        2,
+        2,
+        2
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 17
+      },
+      "esperado": [
+        5,
+        2,
+        2,
+        2
+      ],
+      "obtido": [
+        5,
+        2,
+        2,
+        2
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 18
+      },
+      "esperado": [
+        5,
+        3,
+        2,
+        3
+      ],
+      "obtido": [
+        5,
+        3,
+        2,
+        3
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 21
+      },
+      "esperado": [
+        6,
+        3,
+        3,
+        3
+      ],
+      "obtido": [
+        6,
+        3,
+        3,
+        3
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 22
+      },
+      "esperado": [
+        6,
+        3,
+        3,
+        3
+      ],
+      "obtido": [
+        6,
+        3,
+        3,
+        3
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 25
+      },
+      "esperado": [
+        6,
+        3,
+        3,
+        3
+      ],
+      "obtido": [
+        6,
+        3,
+        3,
+        3
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 26
+      },
+      "esperado": [
+        7,
+        4,
+        3,
+        4
+      ],
+      "obtido": [
+        7,
+        4,
+        3,
+        4
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    },
+    {
+      "grupo": "T09/T12/T16",
+      "caso": "Marco de progressão",
+      "entradas": {
+        "nivel": 30
+      },
+      "esperado": [
+        7,
+        4,
+        3,
+        4
+      ],
+      "obtido": [
+        7,
+        4,
+        3,
+        4
+      ],
+      "fonte": "Progressão vigente; A071/A092",
+      "passou": true,
+      "tipo": "cálculo determinístico"
+    }
+  ],
+  "total": 68,
+  "falhas": 0
+}

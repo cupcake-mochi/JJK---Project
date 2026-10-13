@@ -2687,11 +2687,10 @@ _REGRAS_109 = [
      'na cena, na ordem de `100 m`',
      'na cena, na ordem de 100 metros',
      ['`18 m` nos ataques do seu turno']),
-    # v0.345: Origens e Progressao (itens 113, 118 e 119).
-    ('o Sangue que Nao e Sangue (item 113)', '13-legados.md',
-     'A necessidade obrigatória saiu por decisão do Mizuki',
-     'Em troca, seu corpo tem necessidades que ninguém sabe nomear.',
-     ['para recuperar vida e PE num descanso longo, precisa satisfazê-la']),
+    # v0.345: Origens e Progressao (itens 118 e 119). O item 113, o Sangue que Nao e
+    # Sangue, saiu desta lista na v0.360: o livro R46 nao tem mais esse Legado, porque as
+    # Origens foram refeitas (marcante e duas menores). O que a revisao tirou continua
+    # vigiado em _FORA_DO_R41_109, e o modelo novo e' conferido na 10.10.
     ('o XP guardado no limiar do 20 (item 118)', '12-experiencia-e-progressao.md',
      'o XP guardado no nível 20 vira, de uma vez, quantos níveis ele pagar',
      'de uma vez, quantos níveis ele pagar',
@@ -2730,6 +2729,102 @@ else:
     if len(FALHAS) == _antes109:
         print(f'  [x] as {len(_REGRAS_109)} regras estao na peca dona e no R41, e a '
               'redacao antiga so aparece riscada')
+
+
+# -- 10.10: as Origens do livro R46 (v0.360). ------------------------------------------
+# O Mizuki refez as Origens direto no livro: sete Origens, cada uma com uma marcante e
+# duas menores, e o Legado virou Legado de historia, sem beneficio. O dono dessa regra e'
+# o livro; as pecas 9 e 13 guardam o desenho anterior e um resumo do novo. Tres perguntas:
+#   - a tabela de abertura do capitulo lista as sete Origens que o resumo da peca 9 lista?
+#   - cada catalogo de menores tem, nos titulos, a quantidade que o proprio capitulo
+#     escreve por extenso e que o resumo da peca 9 publica?
+#   - as frases do modelo antigo ficaram fora do livro, e na peca so' aparecem riscadas?
+print()
+print('  10.10: as Origens do livro, com marcante e duas menores')
+if not os.path.isfile(_R41_109):
+    erro('10.10: nao achei o LIVRO-COMPLETO.md')
+else:
+    _antes1010 = len(FALHAS)
+    _l1010 = open(_R41_109, encoding='utf-8').read()
+    _m1010 = re.search(r'^## 5\. Origens\n(.*?)^## 6\. ', _l1010, flags=re.S | re.M)
+    _p9 = open(os.path.join(MEC, '09-origens.md'), encoding='utf-8').read()
+    _p13 = open(os.path.join(MEC, '13-legados.md'), encoding='utf-8').read()
+    _res = re.search(r'\*menores por catálogo, contadas nos títulos do capítulo:\* \*\*(.+?)\*\*', _p9)
+    if not _m1010:
+        erro('10.10: nao achei o capitulo 5, Origens, no livro')
+    elif not _res:
+        erro('10.10: a peca 9 nao traz mais o resumo das menores por catalogo')
+    else:
+        _cap = _m1010.group(1)
+        _tab = re.findall(r'^\| (Latente|Receptáculo|Descendente|Encarnado|Híbrido|Corpo Amaldiçoado|'
+                          r'Restrição Celestial) \|', _cap, flags=re.M)
+        _nomes9 = re.search(r'\*sete Origens:\* \*\*(.+?)\*\*', _p9)
+        _nomes9 = re.split(r', | e ', _nomes9.group(1)) if _nomes9 else []
+        if len(_tab) != 7 or sorted(_tab) != sorted(_nomes9):
+            erro(f'10.10: a tabela de abertura do capitulo lista {_tab} e o resumo da peca 9 '
+                 f'lista {_nomes9}')
+        # os titulos de menores, por catalogo
+        _cont, _atual = {}, None
+        for _ln in _cap.split('\n'):
+            _h = re.match(r'^(#{3,6}) (.+)$', _ln)
+            if not _h:
+                continue
+            if len(_h.group(1)) == 4 and _h.group(2).startswith('Menores'):
+                _atual = _h.group(2); _cont[_atual] = 0
+            elif len(_h.group(1)) <= 4:
+                _atual = None
+            elif len(_h.group(1)) == 5 and _atual:
+                _cont[_atual] += 1
+        _rot = {'Latente': 'Menores do Latente', 'Receptáculo': 'Menores do Receptáculo',
+                'Descendente': 'Menores do Descendente', 'Encarnado': 'Menores do Encarnado',
+                'Híbrido': 'Menores do Híbrido', 'Corpo Amaldiçoado': 'Menores do Corpo Amaldiçoado',
+                'de Manutenção': 'Menores de Manutenção', 'Sem Energia': 'Menores de Sem Energia',
+                'Restrição corporal': 'Menores da Restrição corporal'}
+        _pub = {k: int(v) for k, v in re.findall(
+            r'(Latente|Receptáculo|Descendente|Encarnado|Híbrido|Corpo Amaldiçoado|Sem Energia|'
+            r'Restrição corporal) `(\d+)`', _res.group(1))}
+        _mm = re.search(r'mais `(\d+)` de Manutenção', _res.group(1))
+        if _mm:
+            _pub['de Manutenção'] = int(_mm.group(1))
+        print('      menores nos titulos do livro: ' + ', '.join(f'{k} {_cont.get(v, 0)}' for k, v in _rot.items()))
+        for _k, _v in _rot.items():
+            if _cont.get(_v, 0) != _pub.get(_k):
+                erro(f'10.10: `{_v}` tem {_cont.get(_v, 0)} titulo(s) no livro e o resumo da '
+                     f'peca 9 publica {_pub.get(_k)}')
+        _tot = re.search(r'`(\d+)` ao todo', _p9)
+        if not _tot or int(_tot.group(1)) != sum(_cont.values()):
+            erro(f'10.10: o livro tem {sum(_cont.values())} menores nos titulos e o resumo da '
+                 f'peca 9 diz {_tot.group(1) if _tot else "nada"}')
+        # a quantidade que o proprio capitulo escreve por extenso
+        _ext = {'sete': 7, 'oito': 8, 'seis': 6}
+        for _v, _re_ in (('Menores do Latente', r'entre as (\w+) abaixo'),
+                         ('Menores do Encarnado', r'entre as (\w+) abaixo'),
+                         ('Menores de Sem Energia', r'entre as (\w+) abaixo'),
+                         ('Menores da Restrição corporal', r'entre as (\w+) abaixo'),
+                         ('Menores do Corpo Amaldiçoado', r'entre as (\w+) gerais')):
+            _s = re.search(r'^#### ' + re.escape(_v) + r'\n\n(.+)$', _cap, flags=re.M)
+            _n = _s and re.search(_re_, _s.group(1))
+            if not _n or _ext.get(_n.group(1)) != _cont.get(_v):
+                erro(f'10.10: o texto de `{_v}` diz "{_n.group(1) if _n else "?"}" e ha '
+                     f'{_cont.get(_v)} titulo(s) abaixo dele')
+        # frases que tem de estar, e as que nao podem voltar
+        for _f in ('**uma capacidade marcante e duas capacidades menores**',
+                   '**não ocupa uma escolha de marcante ou menor**',
+                   'Traços e Legados de história sem benefício mecânico **não consomem escolhas**',
+                   'Receba o CE4 **na criação**, sem ocupar espaço conhecido nem contar entre os cinco Talentos pagos'):
+            if _f not in _cap:
+                erro(f'10.10: o capitulo de Origens nao traz mais "{_f}"')
+        for _f in ('Feto Amaldiçoado', 'dois Legados iniciais', 'Origens e Legados',
+                   'Pelo menos um dos Legados deve ser narrativo', 'sub-origem'):
+            if _f in _l1010:
+                erro(f'10.10: o livro voltou a trazer "{_f}", do modelo antigo de Origens')
+        if 'A ficha leva dois Legados: um Destranca' in _sem_riscado109(_p13):
+            erro('10.10: a peca 13 afirma, fora de riscado, que a ficha leva dois Legados')
+        if 'o catálogo de Legados desta peça saiu de uso' not in _p13:
+            erro('10.10: a peca 13 nao avisa mais que o catalogo de Legados saiu de uso')
+    if len(FALHAS) == _antes1010:
+        print('  [x] as sete Origens, as contagens de menores e as frases do modelo novo batem '
+              'entre o livro e as pecas 9 e 13')
 
 
 # --------------------------------------------------------------------------

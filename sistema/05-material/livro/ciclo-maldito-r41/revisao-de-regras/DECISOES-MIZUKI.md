@@ -325,3 +325,11 @@ Formato: item | palavras dele (resumidas, fiéis) | leitura | estado.
 - Item 192: eu tinha recomendado manter o pacto temporário só no próprio turno, e ele corrigiu: a Reação fora do turno é permitida, com gatilho obrigatório. A frase que proibia veio da reconstrução do livro e eu a tinha trazido para a peça 22 na v0.350.
 - R44 = R43 + 25 blocos registrados (1 novo, `ritual--pacto-exemplos`; 2 retirados, o projeto e o exemplo de fabricação). 56 trechos de texto, todos dentro dos blocos registrados. 14.390 linhas e 373 páginas. PDF SHA-256 e9215944…47b750d.
 - Sobras de palavra no R44, sem regra: "fabricadas", "fabricar" e "Corpo fabricado" em três linhas fora da seção de criação.
+
+
+## R45 e R46 — 13/10/2026
+- Ele mandou a R46 dizendo "atualização completinha" e pediu: revisar o que mudou, atualizar os nossos arquivos e validar o que falta; a ficha fica para depois.
+- R45 = R44 + as Origens refeitas (item 193). A remodelagem foi feita por ele com o ChatGPT, fora desta revisão; os registros que vieram na entrega estão em `origens-r45/` (pedido de integração, conciliação, pendências, nomenclatura, o texto final por Origem, o mapa decisão-texto-ficha e os testes de cálculo). As duas respostas dele na integração: I001, "Sim, na criação e fora dos dois limites"; I002, "Sim, conservar o reparo da R44".
+- R46 = R45 com um título sem "(continuação)". Nenhuma regra mudou.
+- Conferido aqui: 163 trechos diferentes entre o R44 e o R46, 142 no capítulo 5 e 21 fora dele, todos dependência das Origens; os 145 títulos e os 288 trechos em negrito do capítulo novo estão no texto extraído do PDF; as contas dos exemplos do capítulo fecham. 14.912 linhas e 388 páginas. PDF SHA-256 6c426133…30764d7.
+- Pontas de redação que achei no R46, sem decisão dele: "visão noturna a 9 m" (Olho adicional, do Híbrido) usa um termo que o livro não define em nenhum outro lugar; duas frases de Pactos ainda tratam Legado como coisa com benefício ("níveis de Caminho, Trilha ou Legado" e "os benefícios e limites da Origem, do Legado e da técnica"); Progressão diz que as Categorias de Efeito são 1, 2 e 3, e a 4 só aparece na Restrição corporal.

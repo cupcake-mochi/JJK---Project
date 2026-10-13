@@ -1,0 +1,66 @@
+# Integração das Origens do Ciclo Maldito ao livro
+
+Continue o projeto de reconstrução das Origens do RPG Ciclo Maldito usando este pacote como continuidade. Prepare, revise e integre o conteúdo aprovado ao livro, seguindo a metodologia editorial do projeto e as oito etapas originais. Não reinicie o design nem reabra escolhas encerradas.
+
+## Entrada e fonte de verdade
+
+1. Leia `00-LEIA-PRIMEIRO-WORK.md`, `01-RESUMO-MESTRE.md` e `02-PLANO-E-MODELOS.md`.
+2. Use `ENTREGA-PARA-O-LIVRO/01-INDICE-DAS-REGRAS-VIGENTES.md` para localizar as montagens atuais. Consulte os textos completos e a evidência em `03-DECISOES-APROVADAS-ETAPAS-1-A-5.md` e `ANEXOS/` quando um ponto exigir.
+3. Leia `ENTREGA-PARA-O-LIVRO/02-METODO-DE-ESCRITA-E-REVISAO.md`, as cópias da metodologia consultada e a metodologia vigente junto do livro de destino.
+4. Leia `ENTREGA-PARA-O-LIVRO/03-PENDENCIAS-E-LIMITES-DA-ENTREGA.md` e `04-PLANO-DE-TESTES-E-ACEITE.md` nessa mesma pasta.
+
+O pacote preserva A001–A100 e o histórico completo disponível. Revisões posteriores prevalecem somente no alcance aprovado. Propostas, interpretações, pesquisas, nomes de arquivos e silêncio do autor não são aprovação. Separe fato da obra, interpretação, proposta de adaptação, decisão aprovada e regra existente do R41.
+
+Os cabeçalhos antigos dentro de históricos podem mandar desenvolver opções já concluídas. Siga a entrada e o índice vigentes; use aqueles registros para rastreabilidade. R41 é referência preservada, não garantia da edição mais recente do livro.
+
+## Estado que deve ser preservado
+
+São sete núcleos, com dois ramos alternativos da Restrição Celestial. A estrutura é base da Origem, uma marcante e duas menores elegíveis. As diferenças de catálogo e permissões específicas de repetição devem seguir cada entrada. Sem Técnica permanece separado; não se torna oitava Origem ou menor obrigatória. Legados de história e customização aprovados conservam seu papel sem bônus inventados.
+
+O catálogo da Restrição corporal fechou com oito menores: Reserva Condensada, Reserva Excedente, Recuperação Abundante, Sobrecarga Deliberada, Leitura de Reservas, Último Fôlego de Energia, Percepção Estendida e Prática Cotidiana. Esta última dá dois feitiços adicionais de Classe 0, em quaisquer Formas normalmente permitidas nessa Classe; não limitar a Apoio/Efeito. Cada personagem escolhe duas, não recebe as oito.
+
+Preserve o Latente vigente com d20 + Maestria e mínimo de 1 PE; não recuperar o d6. Preserve A028–A031 da Restrição sem energia. No Híbrido, mantenha 30% e o aviso visual da ficha. No Corpo Amaldiçoado, use o reparo adotado em A062 e preserve os limites de cura, M1/M2 e Arquivo. Não adicionar penalidade de cura ao Híbrido por inferência canônica. No Descendente, mantenha as quatro marcantes, dez menores e acesso ao cofre por grau/patente, com autorização para grau 1. Não conceder Fala Amaldiçoada a todo Inumaki.
+
+Na Restrição corporal, preserve um CE4, a Saída Elevada, a possibilidade de criar ganho e penalidade com o mestre e a exigência de restrição real equivalente ou maior. Os três exemplos mantêm Defesa 0 e não podem Bloquear. A severidade adicional não aumenta os benefícios. Reserva Condensada mantém quantidade, ocasião e máximo definidos com o mestre; não inventar um teto universal para “completar” a regra. Não confundir critérios de CE4 aprovados com todos os parâmetros candidatos de seus exemplos.
+
+## Execução por etapas
+
+### Conciliação final da Etapa 5
+
+Localize a última base confirmável do livro por suas fontes, manifestos e histórico. Identifique os arquivos donos e o sistema de exportação. Preserve os R41 e os checkpoints sem alteração e trabalhe numa cópia nova da base escolhida. Registre versão, caminho, data e hashes. Se houver bases concorrentes e a escolha não puder ser resolvida documentalmente, apresente a diferença concreta ao autor; continue o trabalho independente da escolha.
+
+Monte uma tabela que relacione cada regra aprovada, sua decisão, fonte, destino no capítulo e dependências. Confira as pendências reais: aquisição/limites de CE4, alcance operacional dos três exemplos selecionados além de Rede Remota, remissões de Reparar, interfaces de sentidos/Katas, rotas e fichas. Não reabra Saída Elevada ou penalidades por uma nota antiga que já foi superada. Resolva lacunas documentais pelas decisões existentes; só peça decisão quando faltar realmente uma escolha mecânica.
+
+### Etapa 6 — testes no Work
+
+Execute os casos pertinentes do plano de testes com gabaritos tirados das regras aprovadas. Compare fichas em marcos relevantes, duplas de menores legalmente escolhidas, consumo por cena e missão, limites e interações com Caminhos, Trilhas e rotas. Não uniformize a quantidade de combinações: Encarnado tem sete menores; Corpo e Descendente têm condições próprias; Híbrido tem permissões específicas de repetição.
+
+Registre entradas, premissas, resultados esperados/obtidos e diferenças. Separe cálculo, simulação, leitura editorial e mesa real. Não alegue playtest humano ou equilíbrio definitivo sem evidência. Se surgir mudança de design necessária, preserve a regra aprovada, mostre o problema com um caso reproduzível e apresente a alteração proposta para decisão. A etapa não é dispensada por o catálogo estar fechado.
+
+### Etapa 7 — redação final e revisão
+
+Redija o capítulo na metodologia e na voz vigentes do livro, usando os resultados anteriores. Apresente a identidade e a fantasia de cada Origem, depois as escolhas e seus efeitos na ficha. Preserve narrativa integrada às consequências dos corpos, sem esconder a regra em linguagem vaga. Siga as quatro camadas aplicáveis às entradas de catálogo: identificação, situação de uso, efeitos reconhecíveis e regra; adapte a forma ao tamanho e à família da entrada.
+
+Use segunda pessoa, voz ativa, títulos localizáveis, termos consistentes, exemplos jogáveis com contas completas e remissões por nome/âncora. Introduza o significado necessário antes de usar jargão. Não imponha cortes percentuais, tamanho uniforme, tabela duplicada ou rótulos artificiais. Preserve cada condição e exceção que seja dona de uma regra. Diferencie Classe, Categoria de Efeito, grau e patente. Não renomeie termos aprovados só para facilitar a prosa.
+
+Mantenha justificativas de balanceamento, histórico, IDs de decisões, pesquisa e notas da equipe fora do texto do jogador. Orientações de mestre têm seu destino próprio, mas requisitos e permissões de escolha precisam continuar visíveis ao jogador. A customização aprovada com o mestre é parte da regra; não a apague como pendência editorial.
+
+Faça uma revisão mecânica comparando cada entrada à aprovação e outra revisão de leitura/consulta. Verifique palavras operacionais além dos números. Mudar “pode” para “deve”, “após” para “antes” ou “um alvo” para “todos” é mudança de regra. Use segunda leitura independente quando efetivamente disponível e autorizada; identifique autorrevisão como autorrevisão. Registre achados, correções e conferência posterior; não invente aprovação de revisor ou leitor.
+
+### Etapa 8 — integração no Work
+
+Integre somente o conteúdo fechado numa nova versão do livro. Atualize capítulo de Origens, criação, rotas, referências a aptidões, regras compartilhadas de reparo/Invocações, tabelas, glossário, índice, sumário e modelos de ficha afetados. Preserve o conteúdo não relacionado. Evite regras duplicadas divergentes: use resumo fiel e remissão quando a regra completa tiver outro dono.
+
+Implemente o aviso de 30% do Híbrido na ficha, se a fonte da ficha estiver acessível; valide o acionamento e sua reversão. Se faltar a ficha, entregue especificação e caso de teste completos, registrando a implementação como pendente. Não finja que editar o texto do requisito implementou a automação.
+
+Use o gerador e os estilos efetivos da base. Preserve a identidade visual vigente e a restrição documentada contra imagens geradas por IA. Inspecione os scripts antes de executá-los: não chamar rotinas que publiquem, façam commit ou push como se fossem apenas validadores. Não fazer commit, push ou publicação nesta tarefa.
+
+Execute as verificações aplicáveis e registre o que não pôde ser executado. Gere o PDF e as outras exportações previstas na base, com fontes editáveis preservadas. Revise visualmente cada variante entregue: páginas alteradas, entradas longas, tabelas, títulos, custo junto do efeito, quebras, cabeçalhos e remissões. Confira destinos de sumário/marcadores, âncoras, busca e ordem de leitura. Não declare prova visual por extração de texto, compreensão humana por agente ou acessibilidade certificada sem a verificação correspondente.
+
+## Comunicação e entrega
+
+Prossiga autonomamente com organização, redação e correções editoriais autorizadas. Aprovações de mecânica ficam em mensagens curtas, com uma questão por bloco; análises, fontes, comparações e justificativas ficam nos arquivos. Prepare a solução concreta antes de pedir decisão e continue as frentes independentes. Não peça de novo aprovação para A001–A100.
+
+Entregue: nova edição identificada; fontes editáveis; PDF e DOCX se fizer parte do fluxo; mapa decisão→texto→ficha; relatório de testes e revisão; antes/depois das mudanças relevantes; registro de nomenclatura; pendências reais; sumário das alterações e ZIP com manifesto e SHA-256. Declare separadamente o que foi integrado, testado, inspecionado visualmente e o que depende de aprovação ou material ausente.
+
+Comece apresentando uma confirmação breve da base encontrada e do estado. Em seguida, faça a conciliação e avance na ordem acima. Não pule diretamente para copiar os rascunhos no livro nem reinicie a pesquisa de todas as Origens.

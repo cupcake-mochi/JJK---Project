@@ -744,42 +744,6 @@
     "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
   },
   {
-    "id": "N063",
-    "bloco": "ab--ab-criacao",
-    "capitulo": "4. Criar um personagem",
-    "texto": "**Ficha digital.** [Abrir a ficha do Ciclo Maldito](https://docs.google.com/spreadsheets/d/1u0zWQFVaRTTc_VlrAJsabgAiJ1D4rTYhzG7QQWof1ro/edit?gid=20627004#gid=20627004). Entre em uma conta Google e selecione **Arquivo > Fazer uma cópia** para salvar uma ficha própria no seu Google Drive. Preencha essa cópia com os dados do seu personagem.",
-    "palavras": 38,
-    "paginas_base": [
-      70
-    ],
-    "tipo": "recurso digital",
-    "motivo": "Acesso a material de apoio; quadro de serviço discreto."
-  },
-  {
-    "id": "N064",
-    "bloco": "ab--ab-criacao",
-    "capitulo": "4. Criar um personagem",
-    "texto": "**Exemplo:** Kaori recebe Força 3, Destreza 2, Constituição 2, Inteligência 1 e Essência 1. A soma é 9. Ela será forte e resistente desde o começo, conservando alguma capacidade nos demais atributos.",
-    "palavras": 32,
-    "paginas_base": [
-      70
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N065",
-    "bloco": "ab--ab-origem",
-    "capitulo": "4. Criar um personagem",
-    "texto": "**Exemplo:** Kaori escolhe TR Físico com Força e treina Físico e Vigor. Seus bônus são **+4 em Físico**, **+3 em Vigor**, **+1 em Intelecto** e **+1 em Espírito**.",
-    "palavras": 28,
-    "paginas_base": [
-      71
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
     "id": "N066",
     "bloco": "ab--ab-equipamento",
     "capitulo": "4. Criar um personagem",
@@ -787,150 +751,6 @@
     "palavras": 45,
     "paginas_base": [
       73
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N067",
-    "bloco": "origens--origem-latente",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo:** Mika escolhe A Testemunha. Sua antiga chefe viu uma maldição ser exorcizada no depósito e guardou segredo. Quando o grupo procura um endereço conhecido para descansar, Mika pode procurá-la. A ficha estabelece essa relação, sem obrigar a chefe a oferecer abrigo em qualquer situação.",
-    "palavras": 45,
-    "paginas_base": [
-      82
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N068",
-    "bloco": "origens--latente-beneficios",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo:** depois da missão, Mika tem 4 de seus 20 PE. Um descanso longo num abrigo sem estrutura deixaria sua reserva em pelo menos 10. Com Chão Duro, ela recupera os 20. O Legado não transforma uma pausa sob perseguição em descanso seguro.",
-    "palavras": 43,
-    "paginas_base": [
-      82
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N069",
-    "bloco": "origens--origem-receptaculo",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo:** o passageiro de Ren conheceu a família que guardava o santuário. O grupo já tem uma ligação para investigar quando encontra o símbolo dessa família. Precisará decidir como se apresentar e lidar com o que aconteceu no passado.",
-    "palavras": 39,
-    "paginas_base": [
-      83
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N070",
-    "bloco": "origens--receptaculo-excecoes",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo:** Ren usa Revezamento diante de uma patrulha. Impede Guarda Aberta, mas recebe normalmente o dano do efeito. A patrulha vê a mudança de expressão e ouve outra voz. Na conversa seguinte, Ren precisará explicar o que aconteceu, se quiser conservar a confiança dela.",
-    "palavras": 44,
-    "paginas_base": [
-      84
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N071",
-    "bloco": "origens--descendente-beneficios",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo:** Aya escolhe Arquivo e Biblioteca. Reconhece sem teste o método secreto da família nos corpos encontrados. Depois falha em Ocultismo ao pesquisar quem poderia ter retomado o experimento. Biblioteca permite refazer esse teste uma vez naquela cena.",
-    "palavras": 38,
-    "paginas_base": [
-      85
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N072",
-    "bloco": "origens--encarnado-beneficios",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo:** Seiji reconhece uma técnica da sua época por Conhecimento Antigo. Ele sabe a função tradicional dela, mas ainda precisa observar se o usuário desenvolveu aplicações diferentes. Contra uma técnica moderna, o Legado não fornece essa identificação.",
-    "palavras": 37,
-    "paginas_base": [
-      86
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N073",
-    "bloco": "origens--origem-reparo",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo:** Rui tem 31 PV máximos e está com 8. Um aliado da mesma Classe repara seu corpo com atributo 3 e maestria 2. A CD é 13 e o bônus treinado é +5. Com 8 no d20, alcança 13 e recupera 15 PV. Rui termina com 23.",
-    "palavras": 48,
-    "paginas_base": [
-      91
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N074",
-    "bloco": "origens--corpo-configuracoes",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo:** Rui escolhe Ninhada e descreve três consciências: uma curiosa, uma cautelosa e uma que tenta mediar as discussões. Ele interpreta as três, mas rola uma única Iniciativa e usa os recursos normais de um personagem. A escolha do segundo Legado definirá o benefício mecânico associado à configuração.",
-    "palavras": 48,
-    "paginas_base": [
-      92
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N075",
-    "bloco": "origens--corpo-ninhada-gemeos",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo de Ninhada: Rodízio.** Rui escolhe Rodízio e registra Tecnologia, História e Medicina. Ao tentar compreender uma máquina, usa Tecnologia como treinado. Se maestria 2 fosse o único bônus que faltava, ele passa a somá-la naquela tentativa. O uso daquela cena foi gasto: não poderá usar o mesmo Legado em Medicina logo depois.",
-    "palavras": 50,
-    "paginas_base": [
-      92
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N076",
-    "bloco": "origens--corpo-inteiro-manutencao",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo:** numa missão com quatro confrontos, Recarga só poderá ser usado quatro vezes se houver os descansos curtos necessários entre os usos. O número de combates sozinho não renova a entrada.",
-    "palavras": 31,
-    "paginas_base": [
-      93
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N077",
-    "bloco": "origens--restricao-sem-energia",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo:** Sora escolhe Desde Criança. A ferramenta recebida pela criação tem a marca de uma oficina que fechou muitos anos antes. Um artesão pode reconhecê-la e contar sobre o dono anterior. Essa história não altera o dano ou os efeitos que a arma realmente possui.",
-    "palavras": 45,
-    "paginas_base": [
-      95
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N078",
-    "bloco": "origens--restricao-beneficios",
-    "capitulo": "5. Origens e Legados",
-    "texto": "**Exemplo:** Sora está escondida quando falha em Furtividade. Ninguém Viu permite repetir aquela rolagem. Se depois atacar de modo que revele sua posição, precisará seguir normalmente as regras para esconder-se outra vez.",
-    "palavras": 32,
-    "paginas_base": [
-      96
     ],
     "tipo": "exemplo",
     "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
@@ -2004,18 +1824,6 @@
     "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
   },
   {
-    "id": "N168",
-    "bloco": "aptidoes--apt-reversa",
-    "capitulo": "12. Aptidões e Refino",
-    "texto": "**Exemplo.** Com maior Classe 4, Haru paga 3 PE e recupera 3d8 de vida. Ele poderia pagar até 4, mas não 7 apenas por ter Refino 7.",
-    "palavras": 27,
-    "paginas_base": [
-      324
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
     "id": "N169",
     "bloco": "aptidoes--apt-energia-positiva",
     "capitulo": "12. Aptidões e Refino",
@@ -2520,18 +2328,6 @@
     "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
   },
   {
-    "id": "N211",
-    "bloco": "campo--inv-reparo",
-    "capitulo": "16. Invocações em campo",
-    "texto": "**Exemplo.** Um corpo tem 31 PV máximos e está com 8. Quem o repara é da mesma Classe, com atributo 3 e Maestria 2: CD 13 e teste +5. Um 8 no d20 basta. Recupera 15 PV e termina com 23. A zero, precisaria primeiro ser religado.",
-    "palavras": 47,
-    "paginas_base": [
-      392
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
     "id": "N212",
     "bloco": "campo--inv-liberacao",
     "capitulo": "16. Invocações em campo",
@@ -2782,5 +2578,175 @@
     ],
     "tipo": "exemplo",
     "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
+  },
+  {
+    "id": "R45-N-216",
+    "bloco": "ab--ab-criacao",
+    "capitulo": "Criação",
+    "texto": "**Ficha digital.** [Abrir a ficha do Ciclo Maldito](https://docs.google.com/spreadsheets/d/1u0zWQFVaRTTc_VlrAJsabgAiJ1D4rTYhzG7QQWof1ro/edit?gid=20627004#gid=20627004). Entre em uma conta Google e selecione **Arquivo > Fazer uma cópia** para salvar uma ficha própria no seu Google Drive. Preencha essa cópia com os dados do seu personagem.",
+    "palavras": 38,
+    "paginas_base": [],
+    "tipo": "recurso digital",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-217",
+    "bloco": "ab--ab-criacao",
+    "capitulo": "Criação",
+    "texto": "**Exemplo:** Kaori recebe Força 3, Destreza 2, Constituição 2, Inteligência 1 e Essência 1. A soma é 9. Ela será forte e resistente desde o começo, conservando alguma capacidade nos demais atributos.",
+    "palavras": 32,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-218",
+    "bloco": "ab--ab-origem",
+    "capitulo": "Criação",
+    "texto": "**Exemplo:** Kaori escolhe TR Físico com Força e treina Físico e Vigor. Seus bônus são **+4 em Físico**, **+3 em Vigor**, **+1 em Intelecto** e **+1 em Espírito**.",
+    "palavras": 28,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-219",
+    "bloco": "origens--origem-latente",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** um feitiço de Classe 3 custa 6 PE depois dos ajustes. A variação é 2: você precisa ter 8 PE para tentar. Desperdício custa 8, Estável custa 6 e Controle custa 4. Já um feitiço de Classe 1 com custo completo de 1 PE custa 2, 1 ou 1 PE; o desconto nunca o torna gratuito.",
+    "palavras": 57,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-220",
+    "bloco": "origens--origem-feto",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** com Constituição 3, você tem dois usos por cena. Se a vida máxima atual é 41, o limite para ativar é 12 PV. Com 12 PV e Classe 2 disponível, pode gastar 2 PE e rolar 2d6. Resultados 3 e 5 recuperam 8 PV, levando você a 20. Com 13 PV ou zero, não poderia iniciar essa regeneração.",
+    "palavras": 59,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-221",
+    "bloco": "origens--origem-sem-tecnica",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** Aya é Descendente Zenin e escolhe Sem Técnica. Recebe a formação Kukuru, depois escolhe duas menores: Notas de Família e Treino de Armas da Casa. A rota não consome nenhuma dessas escolhas. Em Rotas de criação, escolherá sua semente e construirá os Manejos.",
+    "palavras": 44,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-222",
+    "bloco": "origens--origem-reparo",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** Rui tem 31 PV máximos e está com 8. Um aliado da mesma Classe repara seu corpo com atributo 3 e Maestria 2. A CD é 13 e o bônus treinado é +5. Com 8 no d20, alcança 13 e recupera 15 PV. Rui termina com 23.",
+    "palavras": 48,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-223",
+    "bloco": "origens--corpo-inteiro-manutencao",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** com Essência 3 no nível 10, há dois marcos: 3 + 2 × 1 = **5 PE adicionais**. Se Essência subir para 4, recalcule: 4 + 2 × 2 = **8 PE adicionais**.",
+    "palavras": 34,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-224",
+    "bloco": "origens--restricao-beneficios",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** Força 3 e Maestria 1 dão limite de **5 + 3 + 1 = 9 Volume**, com teto de 18 para o excesso permitido. As penalidades de carga continuam valendo.",
+    "palavras": 31,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-225",
+    "bloco": "origens--restricao-beneficios",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** cinco personagens precisam de três sucessos. Você e um aliado passam, totalizando dois. Sua contribuição passa a valer dois; com a do aliado, o grupo chega a três. Ninguém refaz a rolagem.",
+    "palavras": 33,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-226",
+    "bloco": "aptidoes--apt-reversa",
+    "capitulo": "Criação",
+    "texto": "**Exemplo.** Com maior Classe 4, Haru paga 3 PE e recupera 3d8 de vida. Ele poderia pagar até 4, mas não 7 apenas por ter Refino 7.",
+    "palavras": 27,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-227",
+    "bloco": "campo--inv-reparo",
+    "capitulo": "Criação",
+    "texto": "**Exemplo.** Um corpo tem 31 PV máximos e está com 8. Quem o repara é da mesma Classe, com atributo 3 e Maestria 2: CD 13 e teste +5. Um 8 no d20 basta. Recupera 15 PV e termina com 23. A zero, precisaria primeiro ser religado.",
+    "palavras": 47,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-228",
+    "bloco": "origens--descendente-kamo",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** você escolhe Acrobacia e Vigor, ambos treinados. Rola 5, 12 e 17, guardando 12 e 17. Antes de um teste de Acrobacia, usa o 17 e soma seus bônus. O 12 continua disponível. Com desvantagem, ainda rolaria o outro d20 e ficaria com o menor.",
+    "palavras": 46,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-229",
+    "bloco": "origens--descendente-inumaki",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** vocês obtêm 6 e 15 nos dados. Ambos podem usar 15; com bônus de +2 e +7, os totais ficam 17 e 22.",
+    "palavras": 24,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-230",
+    "bloco": "origens--descendente-inumaki",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** você acompanha uma negociação e sinaliza quais argumentos usar. Se for treinado em Persuasão, seu companheiro pode trocar o bônus de +2 pelo seu +7. Com 9 no d20 dele, o total é 16, sem somar os dois bônus.",
+    "palavras": 40,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-231",
+    "bloco": "origens--restricao-prenuncio",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** uma Kata de 3 PE com Ataque sem Prenúncio custa **5 PE**. Resolva a Kata normalmente, sem acrescentar dano de arma ou de Estímulo Muscular quando suas fontes não permitirem. Se o adversário já estudou você, mas nunca enfrentou essa Kata, a primeira execução ainda pode receber o benefício; depois de percebê-la, ele a reconhece nos reencontros.",
+    "palavras": 58,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R45-N-232",
+    "bloco": "origens--restricao-ce4",
+    "capitulo": "5. Origens",
+    "texto": "**Exemplo:** seu corpo está a 800 km da missão. Uma marionete acompanha o grupo, usando a visão, audição e conversa fornecidas pela técnica. Um disparo de alcance 18 m parte da marionete: o vínculo atravessa os 800 km, mas o disparo conserva seus 18 m a partir dela.",
+    "palavras": 48,
+    "paginas_base": [],
+    "tipo": "exemplo",
+    "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
   }
 ]

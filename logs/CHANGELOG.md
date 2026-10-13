@@ -8,6 +8,26 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.360] — 13/10/2026
+
+**O livro passa a ser o R46, com as Origens refeitas.** *O Mizuki remodelou as Origens direto no livro, com o ChatGPT (pacote "Origens v178"), e mandou a edição pronta: "atualização completinha". O R45 integra as Origens; o R46 só tira "(continuação)" de um título. O livro foi de 373 para 388 páginas.*
+
+- **O modelo novo (item 193):** *sete Origens (Latente, Receptáculo, Descendente, Encarnado, Híbrido, Corpo Amaldiçoado e Restrição Celestial, esta com os ramos Sem Energia e Restrição corporal). Cada uma dá a base de treinos, uma capacidade marcante e duas menores do catálogo dela. O Legado virou Legado de história, sem benefício mecânico e sem gastar escolha. Feto Amaldiçoado passou a se chamar Híbrido. Sem Técnica é opção separada das cinco primeiras.*
+- **Duas respostas dele na integração:** *o Talento de Categoria de Efeito 4 da Restrição corporal vem "na criação e fora dos dois limites" (I001), e "conservar o reparo da R44" (I002).*
+- **Fora do capítulo mudaram só as dependências:** *Derrota (quem tem Núcleo Dependente não tem Integridade), Criar um personagem, Progressão, Energia Reversa, Rotas, Reparar em Invocações em campo, Glossário e Índice.*
+
+**As peças:** *o dono das regras de Origens passou a ser o livro, como já era com Invocações desde a v0.335. A `09-origens.md` ganhou no topo o resumo do modelo novo; a `13-legados.md` avisa que o catálogo de Legados saiu de uso e risca a regra dos dois Legados; a `08-criacao-de-personagem.md` aponta para o capítulo 5. O desenho anterior fica guardado nelas.*
+
+**`conferir-repositorio.py`:** *a 10.9 deixou de cobrar o `Sangue que Não é Sangue` (item 113), um Legado que o livro não tem mais; a 10.10, nova, confere as Origens: as sete da tabela de abertura contra o resumo da peça 9, a quantidade de menores de cada catálogo (contada nos títulos, comparada com o que o próprio capítulo escreve por extenso e com o resumo), quatro frases do modelo novo e cinco do antigo que não podem voltar.*
+
+**O que esta versão não fez:** *as Origens não foram reescritas em peça nem medidas aqui: a remodelagem e os testes dela são do pacote que veio com o livro, guardado em `revisao-de-regras/origens-r45/`, e ele mesmo declara que não houve playtest. Os validadores `conferir-legados.py` e `conferir-criacao.py` continuam conferindo o desenho anterior, que as peças guardam. Três pontas de redação do R46 ficaram anotadas no `DECISOES-MIZUKI.md` da revisão, sem mudança: "visão noturna" sem definição, duas frases de Pactos que ainda tratam Legado como benefício, e a Categoria de Efeito 4 fora da lista de Progressão. A ficha do Sheets ainda lê o R43. A diagramação do PDF não foi conferida página a página, só o texto extraído dele.*
+
+**Testes negativos, em cópia isolada com a base passando antes e depois:** *catorze perturbações na 10.10, nove no livro e cinco nas peças: uma menor a menos e uma a mais num catálogo, o Híbrido de volta ao nome antigo, três menores em vez de duas, Sem Técnica gastando menor, o Legado de história gastando escolha, o CE4 contando nos cinco Talentos, a frase dos dois Legados iniciais de volta, o texto dizendo sete com oito títulos, e no resumo da peça 9 uma contagem, o total e uma Origem trocados, mais a regra dos dois Legados fora do risco e o aviso da peça 13 apagado.* **As catorze mudaram o arquivo e acenderam.**
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `conferir-repositorio.py`, o `pac7.py` e o `v7.py` saem com código `0`. O `conferir-voz.py --estrito` continua reprovando no manual v0.331, como antes. O texto do R46 foi comparado com o do R44 linha a linha: 163 trechos diferentes, 142 no capítulo de Origens e 21 fora dele, todos dentro dos blocos dos dois registros. Os 145 títulos e os 288 trechos em negrito do capítulo novo estão no texto extraído do PDF, e sete frases do modelo antigo não estão.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, parágrafo "Próximo": a ficha do Sheets passa a ler o R46, e depois o Morrendo, que espera a revisão do Mizuki.
+
 ## [0.359] — 12/10/2026
 
 **O livro passa a ser o R44, com os itens que estavam decididos na direção e sem número.** *O Mizuki pediu para fechá-los em ordem, em 12/10/2026. São os itens 24, 33, 40, 46, 101 e 151 do `MUDANCAS-DE-REGRA.md`, e cinco que nasceram na conversa, 188 a 192. Morte e Integridade e as Origens ficaram para depois, por decisão dele.*

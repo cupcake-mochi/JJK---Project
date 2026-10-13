@@ -1,5 +1,7 @@
 # CRIAÇÃO DE PERSONAGEM
 
+> ***v0.360 — o passo da Origem mudou no livro R46:*** *escolha a Origem, a marcante dela e duas menores, além da base de treinos e do traço; o Legado de história não gasta escolha. Onde esta peça fala em Legados da Origem, vale o capítulo 5 do livro. O resumo está no topo da `09-origens.md`.*
+
 **Fase 4, oitava peça.** A soma de tudo, na ordem em que você preenche a ficha.
 Versão v0.21, atualizada na v0.22 e na v0.24, com o recorte de Pactos na v0.116 e a atribuição dos ofícios acertada na v0.171 — 08/08/2026
 

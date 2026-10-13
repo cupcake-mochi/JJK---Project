@@ -12,7 +12,7 @@ B=Path(__file__).resolve().parent
 g=runpy.run_path(str(B/'ler_fontes.py'))
 chapters,all_blocks,enriched,order=g['chapters'],g['all_blocks'],g['enriched'],g['order']
 hierarquia=g['hierarquia']
-nav_r40=json.loads((B/'revisao-r44/NAVEGACAO.json').read_text())
+nav_r40=json.loads((B/'revisao-r45/NAVEGACAO.json').read_text())
 index_specific=json.loads((B/'revisao-de-estrutura/DESTINOS-INDICE.json').read_text())
 index_specific += [{'termo':r['titulo'],'titulo':r['cabecalho'],'bloco':r['bloco'],'alias':r['destino']} for r in nav_r40 if 'cabecalho' in r]
 assert not g['link_issues']
@@ -289,7 +289,7 @@ def atoms_for(parts,group):
        carry.insert(0,chunk.pop())
       assert chunk,(q.block,'oversize heading bundle')
       chunks.append(chunk)
-      cont=Part('h3',lasthead+' (continuação)',doc=q.doc,block=q.block,generated=True)
+      cont=Part('h3',lasthead,doc=q.doc,block=q.block,generated=True)
       chunk=[cont]+carry
      chunk.append(q)
    if chunk:chunks.append(chunk)
@@ -570,7 +570,7 @@ for ch,mod,doc in [(chapters[1],r,'geral'),(chapters[2],d,'dano')]:
   new.append((part,f,x,y,w,h,mode))
  page['draws']=new
 
-PDF=B/'output/pdf/Ciclo-Maldito-R44.pdf'
+PDF=B/'output/pdf/Ciclo-Maldito-R46.pdf'
 from titulos_capitulo import desenhar as desenhar_titulo_capitulo
 estudo_capitulo=json.loads((B/'ESTUDO-CAPITULO.json').read_text())
 titulos_capitulo_aplicados=[]

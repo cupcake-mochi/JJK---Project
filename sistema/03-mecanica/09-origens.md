@@ -1,5 +1,18 @@
 # ORIGENS
 
+> ***v0.360 — o dono das regras de Origens passou a ser o livro, na edição R46.*** *O Mizuki refez as Origens direto no livro (pacote "Origens v178", integrado no R45 em 13/10/2026), e o modelo desta peça deixou de valer para quem monta ficha.* **O que vale está no capítulo 5 do livro**, *o Ciclo Maldito, e os registros da integração estão junto da revisão de regras dele, na pasta origens-r45.* **Esta peça fica como registro do desenho anterior e das contas que o sustentavam.**
+>
+> **O modelo novo, em uma tela:**
+>
+> - *sete Origens:* **Latente, Receptáculo, Descendente, Encarnado, Híbrido, Corpo Amaldiçoado e Restrição Celestial**, *esta com dois ramos alternativos, Sem Energia e Restrição corporal;* ~~Feto Amaldiçoado~~ *passou a se chamar Híbrido;*
+> - *cada Origem dá a base de treinos (uma perícia da lista, uma perícia livre, dois ofícios, um Teste de Resistência, um traço),* **uma capacidade marcante e duas menores** *do catálogo dela;*
+> - **o Legado de história não tem benefício mecânico e não gasta escolha.** ~~A ficha leva dois Legados: um Destranca, obrigatório, e mais um de qualquer lista da sua Origem.~~
+> - **Sem Técnica é uma opção separada** *do Latente, do Receptáculo, do Descendente, do Encarnado e do Híbrido, e não ocupa a marcante nem uma menor;*
+> - *menores por catálogo, contadas nos títulos do capítulo:* **Latente `8`, Receptáculo `8`, Descendente `10`, Encarnado `7`, Híbrido `8`, Corpo Amaldiçoado `8` mais `2` de Manutenção, Sem Energia `8` e Restrição corporal `8`**, *`67` ao todo;*
+> - *a Restrição corporal recebe na criação um Talento de Categoria de Efeito `4`, fora dos espaços conhecidos e dos cinco Talentos pagos (decisão I001 dele, "Sim, na criação e fora dos dois limites"), e o reparo do Corpo Amaldiçoado é o do R44 (decisão I002, "Sim, conservar o reparo da R44").*
+>
+> *A checagem 10.10 do `conferir-repositorio.py` confere esse resumo contra o livro.*
+
 **Fase 4, nona peça.** De onde veio o seu poder.
 Versão v0.22, com as Bênçãos e o contrato de moeda na v0.116, com a correção de contraparte na v0.117 — 07/08/2026
 

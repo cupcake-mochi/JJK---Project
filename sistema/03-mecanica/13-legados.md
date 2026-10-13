@@ -1,10 +1,12 @@
 # Legados — a régua de magnitude e o catálogo
 
+> ***v0.360 — o catálogo de Legados desta peça saiu de uso.*** *No livro R46 a Origem dá uma capacidade marcante e duas menores, e o Legado passou a ser* **Legado de história: um vínculo ou detalhe da vida do personagem, sem benefício mecânico e sem gastar escolha.** *As oitenta e uma entradas daqui e a régua de magnitude ficam como registro do desenho anterior; quem monta ficha lê o capítulo 5 do livro. O resumo do modelo novo está no topo da `09-origens.md`.*
+
 **As duas metades fecharam.** A régua veio na v0.37, o catálogo na v0.38 — **oitenta e uma entradas, sete listas de Origem, mais o `Sem Técnica`.**
 
 A peça 9 continua dona das Origens, dos traços e de qual lista você lê. **O que mora aqui é a régua de magnitude e o catálogo inteiro.**
 
-> **A ficha leva dois Legados: um Destranca, obrigatório, e mais um de qualquer lista da sua Origem.**
+> ~~**A ficha leva dois Legados: um Destranca, obrigatório, e mais um de qualquer lista da sua Origem.**~~ *Valeu até a v0.359.*
 
 O validador desta peça é o **`conferir-legados.py`**, e ele lê tudo que confere dos documentos donos — os quatro degraus da peça 10, as Origens da peça 9, e as contagens da própria pasta. Nunca do próprio código.
 

@@ -38,7 +38,7 @@ class TituloIntermediario(Flowable):
         c.restoreState()
 
 def instalar(Part,ns):
-    rows=json.loads((ns['B']/'revisao-r44/CLASSIFICACAO.json').read_text())
+    rows=json.loads((ns['B']/'revisao-r45/CLASSIFICACAO.json').read_text())
     lookup={(r['bloco'],r['titulo']):r for r in rows}
     def classificar(p):
         if p.generated:return p

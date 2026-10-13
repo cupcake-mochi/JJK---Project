@@ -1796,6 +1796,8 @@ Uma derrota por Integridade exige uma fonte que a recupere ou o descanso longo. 
 
 Um personagem morto não recupera vida por cura comum, descanso, estabilização ou remoção de condição. Voltar à vida exige uma regra expressa da campanha. Também não se transforma automaticamente numa maldição.
 
+**Núcleo Dependente.** Um Corpo Amaldiçoado com essa menor não possui Integridade; a exigência de recuperar essa reserva não se aplica a ele. Queda por vida, outras causas de inconsciência e as demais condições de recuperação continuam valendo. Receber PE encerra a inatividade por energia, não essas outras causas.
+
 <!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#inconsciente -->
 <a id="dano--inconsciente"></a>
 #### Inconsciente
@@ -1940,7 +1942,7 @@ Este roteiro usa a criação padrão no **nível 2**. Se a campanha começar em 
 | Etapa | Escolha |
 |---|---|
 | 1. Atributos | Distribua seus nove pontos. |
-| 2. Origem | Escolha sua história inicial, seus Legados e os treinos concedidos. |
+| 2. Origem | Escolha sua história, a marcante, duas menores e os treinos da Origem. |
 | 3. Caminho | Escolha sua forma de atuar e sua primeira Trilha. |
 | 4. Capacidades | Prepare técnica, Manejos ou Katas, conforme sua rota. |
 | 5. Equipamento | Receba o uniforme, faça as escolhas do Traje e faça suas compras. |
@@ -1962,11 +1964,11 @@ Você pode revisar a distribuição enquanto monta a ficha. Confira os requisito
 <a id="ab--ab-origem"></a>
 ### Origem e treinos
 
-Escolha **uma Origem** no capítulo de Origens. Leia sua entrada inteira e anote o traço, os dois Legados iniciais e os treinos que ela concede. Pelo menos um dos Legados deve ser narrativo.
+Escolha **uma Origem** no capítulo de Origens. Leia sua entrada inteira e registre a base de treinos, o traço, uma capacidade marcante e duas menores elegíveis. Legados de história sem benefício não consomem essas escolhas; Sem Técnica é uma opção separada, disponível somente às Origens indicadas.
 
 A Origem fornece **uma perícia de sua lista e uma perícia à sua escolha**, além de **dois ofícios**. Você pode trocar os dois ofícios por mais uma perícia livre. Essa troca precisa ser anotada: você deixa de receber ambos os ofícios.
 
-O Caminho acrescentará duas perícias indicadas em sua entrada e cinco escolhas livres. Portanto, antes de trocas específicas, a criação reúne **nove perícias e dois ofícios**, ou **dez perícias sem ofícios** quando usar a troca acima. Repetir um treino não soma Maestria outra vez. Confira a regra de escolhas repetidas em Origens.
+O Caminho acrescentará duas perícias indicadas em sua entrada e cinco escolhas livres. Portanto, antes de capacidades que concedam treinos adicionais e de trocas específicas, a criação reúne **nove perícias e dois ofícios**, ou **dez perícias sem ofícios** quando usar a troca acima. Repetir um treino não soma Maestria outra vez. Confira a regra de escolhas repetidas em Origens.
 
 #### Testes de Resistência
 
@@ -2168,7 +2170,7 @@ Os resultados acima mostram uma sequência possível. Se o ataque de Kaori erras
 
 Antes da primeira missão, confira suas escolhas com o mestre. Use esta lista também quando transferir a ficha para outra ferramenta.
 
-- **Identidade:** nome, aparência, história, motivo para acompanhar o grupo, Origem e Legados.
+- **Identidade:** nome, aparência, história, motivo para acompanhar o grupo, Origem, marcante, duas menores e Legados de história.
 - **Atributos:** nove pontos na criação padrão, entre 0 e 3 em cada atributo.
 - **Treinos:** perícias, ofícios, dois TR diferentes, atributo permanente do TR Físico e treino com armas.
 - **Caminho:** características, Trilha e todas as escolhas recebidas no nível inicial.
@@ -2189,35 +2191,33 @@ Ao terminar, registre as recompensas, os gastos e as consequências que persiste
 As escolhas de crescimento estão em Progressão. Quando receber uma habilidade, prepare suas opções e confira as mudanças na ficha antes de usá-la na próxima missão.
 
 <a id="capitulo-5"></a>
-## 5. Origens e Legados
+## 5. Origens
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origens -->
 <a id="origens--origens"></a>
-### Origens
+Sua Origem apresenta a vida que você levava antes da primeira missão e sua relação com o mundo jujutsu. Você pode ter crescido numa família de feiticeiros, descoberto outra presença dentro do próprio corpo ou despertado como uma criação de alguém. Essa história acompanha a forma como você aprende, luta e se relaciona com os outros.
 
-Sua Origem apresenta a vida que você levava antes da primeira missão e a relação do seu personagem com o mundo jujutsu. Ele pode ter crescido numa família de feiticeiros, descoberto uma presença dentro do próprio corpo ou despertado como uma criação de alguém.
-
-Escolha **uma Origem**. As sete opções abaixo oferecem histórias diferentes e indicam onde criar suas capacidades. Pense no personagem que quer interpretar e nas pessoas que fazem parte da vida dele.
+Escolha **uma Origem**. Ela fornece sua base de treinamentos, **uma capacidade marcante e duas capacidades menores**, escolhidas entre as opções disponíveis para você. Pense também nas pessoas, lugares e acontecimentos que fazem parte dessa vida.
 
 | Origem | Personagem | Criação de capacidades |
 |---|---|---|
-| Latente | Descobriu o próprio poder fora da tradição de um clã. | Fundamento. |
-| Receptáculo | Divide o corpo com outra presença. | Fundamento. |
-| Descendente | Pertence a uma família do meio jujutsu. | Fundamento. |
-| Encarnado | Voltou a viver no corpo de outra pessoa. | Fundamento. |
-| Feto | É uma criação que reúne natureza humana e amaldiçoada. | Fundamento. |
-| Corpo Amaldiçoado | É um corpo construído, com consciência própria. | Técnica Marcial. |
-| Restrição Celestial | Nasceu com uma troca entre corpo e energia. | Depende do ramo escolhido. |
+| Latente | Descobriu o próprio poder fora da tradição de um clã. | Fundamento ou Sem Técnica. |
+| Receptáculo | É o hospedeiro que divide o corpo com outra presença. | Fundamento ou Sem Técnica. |
+| Descendente | Pertence a uma família do meio jujutsu. | Fundamento ou Sem Técnica. |
+| Encarnado | É a consciência que voltou a viver no corpo de outra pessoa. | Fundamento ou Sem Técnica. |
+| Híbrido | Reúne natureza humana e amaldiçoada. | Fundamento ou Sem Técnica. |
+| Corpo Amaldiçoado | É um corpo construído, com consciência própria. | Técnica Marcial, com energia. |
+| Restrição Celestial | Nasceu com uma troca entre corpo e energia. Escolhe um de dois ramos. | Fundamento no ramo corporal; Técnica Marcial sem energia no outro. |
 
-**Sem Técnica** é uma opção para as cinco primeiras Origens. Ela ocupa um Legado e encaminha sua criação para Manejos, conforme [Sem Técnica](#origens--origem-sem-tecnica).
+**Sem Técnica** é uma opção separada para as cinco primeiras Origens. Ela encaminha sua criação para Manejos e **não ocupa uma escolha de marcante ou menor**. Consulte [Sem Técnica](#origens--origem-sem-tecnica).
 
-Os nomes agrupam possibilidades de personagem neste sistema. Mais de uma descrição pode servir à história de alguém. Escolha a que fornecerá as regras da ficha e use os demais detalhes na história, sem somar os benefícios de duas Origens.
+Mais de uma descrição pode servir à história de alguém. Escolha a que fornecerá as regras da ficha e use os demais detalhes na história, sem somar os benefícios de duas Origens.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-escolhas -->
 <a id="origens--origem-escolhas"></a>
 ### Escolhas da Origem
 
-Toda Origem concede os benefícios desta seção. Sua entrada apresenta as opções específicas e as mudanças na criação de capacidades.
+Toda Origem concede a base abaixo. Sua entrada indica a lista de perícias, a rota e as capacidades disponíveis.
 
 | Escolha | O que registrar |
 |---|---|
@@ -2226,520 +2226,1032 @@ Toda Origem concede os benefícios desta seção. Sua entrada apresenta as opç�
 | Dois ofícios | Escolha no catálogo de Ofícios. Pode trocar os dois por mais uma perícia livre. |
 | Um Teste de Resistência | Escolha Físico, Vigor, Intelecto ou Espírito para treinar. |
 | Um traço | Escreva um detalhe importante da sua história. |
-| Dois Legados | Escolha na lista da Origem. Pelo menos um deve ser narrativo. |
+| Uma marcante | Receba a capacidade central da Origem ou escolha a modalidade indicada. |
+| Duas menores | Escolha duas opções elegíveis do catálogo da Origem. |
 | Rota de criação | Anote Fundamento, Manejos ou Técnica Marcial, conforme a Origem. |
 
-As perícias e os ofícios escolhidos ficam treinados. Confira o que já recebeu do Caminho e escolha treinamentos diferentes. O Teste de Resistência da Origem também deve ser diferente daquele concedido pelo Caminho. A escolha livre precisa fazer sentido para a história apresentada ao mestre.
+Os treinos devem ser **novos e distintos**. Confira o que já recebeu do Caminho; o TR da Origem também precisa ser diferente do TR concedido por ele. A escolha livre deve fazer sentido para a história apresentada ao mestre. Receba a base uma única vez, mesmo quando a Origem tiver modalidades ou ramos.
 
-#### Traço
+As duas menores são diferentes, salvo quando uma entrada permitir repeti-la. Você não recebe o catálogo inteiro. Uma modalidade pode exigir ou excluir determinadas opções; isso não concede vagas adicionais. Não troque a marcante por menores, menores por outra marcante ou escolhas da Origem por benefícios de outra parte da ficha.
 
-Um traço pode ser uma relação, uma lembrança, uma ambição ou um problema ainda aberto. Escreva uma frase que ajude a interpretar o personagem: “Meu irmão entrou para a escola antes de mim e desapareceu durante uma missão”. As sugestões de cada Origem ajudam a começar. Você pode criar outra.
+#### Traço e história
 
-Traços não concedem bônus. Um deles pode explicar a escolha de um Legado, mas não ocupa uma vaga adicional.
+Um traço pode ser uma relação, uma lembrança, uma ambição ou um problema ainda aberto: “Meu irmão entrou para a escola antes de mim e desapareceu durante uma missão”. As sugestões de cada Origem ajudam a começar. Você pode criar outra.
 
-#### Limites
+Traços e Legados de história sem benefício mecânico **não consomem escolhas**. Sua marcante e suas duas menores continuam disponíveis. Uma relação importante pode explicar uma capacidade, mas não concede por si só mais treinos, poderes ou recursos.
 
-Origens não concedem pontos de atributo, Famílias, Melhorias ou aumento de Classe. Na criação padrão, todos começam no **Grau 4**. Exceções de campanha e promoções seguem **Patentes**, em Progressão. Ter um sobrenome famoso, um passageiro poderoso ou uma vida anterior não antecipa esse avanço.
+Na criação padrão, todos começam no **Grau 4**. Exceções de campanha e promoções seguem Patentes, em Progressão. Um sobrenome famoso, um passageiro poderoso ou uma vida anterior não antecipa esse avanço. Ganhos de Origem valem no alcance escrito em cada capacidade.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#legados -->
 <a id="origens--legados"></a>
-### Legados
+### Legados de história
 
-Um Legado registra uma vantagem específica que o personagem trouxe para a aventura. Você escolhe **dois na criação**, ambos disponíveis para sua Origem. Pelo menos um deve ser **narrativo**. O segundo pode ser de qualquer um dos três tipos, inclusive outro narrativo.
+Um Legado de história registra algo que você trouxe para a aventura: uma pessoa que conhece, um compromisso, uma lembrança, uma instituição ou uma particularidade da sua existência. Use as sugestões da Origem ou escreva as suas com o mestre. Elas ajudam a dar continuidade à vida do personagem e não são compras obrigatórias.
 
-| Tipo | O que oferece |
-|---|---|
-| Legado narrativo | Uma pessoa, informação, relação, acesso ou característica da sua história. |
-| Legado de rolagem | Vantagem, repetição ou mudança específica de um teste. |
-| Legado de exceção | Dispensa uma exigência ou impede um efeito nomeado, com uma contrapartida. |
+Defina o que essa ligação estabelece na campanha e como você pode recorrer a ela. Conhecer quem guarda um arquivo dá ao grupo alguém para procurar; não obriga o guardião a obedecer ou entregar documentos. Uma ferramenta herdada ainda precisa ser obtida pelos recursos e requisitos de Equipamento antes de entrar no inventário.
 
-O Corpo Amaldiçoado e os ramos da Restrição Celestial têm condições próprias de seleção. Siga as listas da configuração ou do ramo escolhido.
+Quando uma escolha de história for requisito de uma menor, como **Manutenção** no Corpo Amaldiçoado, registre ambas. A história não gasta vaga; a capacidade ocupa uma das duas escolhas normais.
 
-#### Usar um Legado
+#### Usar as capacidades da Origem
 
-A frequência pertence à entrada: **por cena, por descanso curto, por dia ou por descanso longo**. Use os períodos definidos em Testes e Descansos. Uma nova luta não recupera automaticamente um uso por descanso curto. Personagens que dispensam sono ainda precisam passar pelo período de repouso que renova usos por dia.
+Cada entrada informa seu momento e sua frequência: por cena, por dia, por descanso curto ou por descanso longo. Use os períodos definidos em Testes e Descansos. Uma nova luta não renova automaticamente um uso por descanso longo. Quem dispensa sono ainda passa pelo repouso que renova usos por dia.
 
-Declare vantagem antes de rolar. Quando o Legado permite refazer uma falha, use-o depois de conhecer o resultado e antes de aplicar as consequências. Faça uma nova rolagem completa, com os mesmos modificadores e a mesma vantagem ou desvantagem, e conserve o novo resultado. O uso foi gasto mesmo se a segunda tentativa falhar.
+Declare vantagem antes de rolar. Quando uma capacidade permitir repetir uma falha, use-a depois de conhecer o resultado e antes das consequências, salvo momento próprio da entrada. Repita o procedimento com os mesmos modificadores e vantagem ou desvantagem aplicáveis, aceitando o novo resultado. Uma entrada que mande repetir apenas um dado conserva essa exceção.
 
-Uma exceção que impeça uma condição é escolhida quando ela seria aplicada. Impede aquela aplicação, sem remover uma condição anterior nem impedir aplicações futuras além da frequência disponível. Dano e outros efeitos da mesma fonte continuam sendo resolvidos.
-
-Legados não causam dano nem concedem novos benefícios ou usos conforme você sobe de nível. Quando um efeito permite fazer um teste como treinado, use sua maestria atual. A progressão não concede novas vagas de Legado. Você pode escrever seus Legados com o mestre, conforme [Criar um Legado](#origens--legado-criar).
+A progressão não fornece novas escolhas de Origem. Capacidades que dependam de nível, Maestria ou outro valor acompanham a fórmula que apresentam. Para mudanças duradouras na história, consulte [Rever a Origem](#origens--legado-criar).
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-latente -->
 <a id="origens--origem-latente"></a>
 ### Latente
 
-Você descobriu o jujutsu fora das tradições de uma família de feiticeiros. Talvez um acidente tenha revelado sua técnica, ou você tenha passado anos tentando entender acontecimentos que ninguém ao seu redor percebia. Aprender depois com um professor não apaga essa história.
+Você descobriu o jujutsu fora das tradições de uma família de feiticeiros. Talvez um acidente tenha revelado sua técnica, ou você tenha passado anos tentando entender acontecimentos que ninguém ao seu redor percebia. Aprender depois com um professor não apaga essa história. Seu potencial apareceu antes de você ter um método para usá-lo.
 
-**Perícia da Origem:** escolha Sentir Energia, Sobrevivência, Furtividade ou Intuição. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica.
+**Perícia da Origem:** escolha Sentir Energia, Sobrevivência, Furtividade ou Intuição. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
-**Sugestões de traço:** um professor que você procurou sem sucesso, a primeira ameaça à qual sobreviveu ou alguém comum que conhece seu segredo. Seus ofícios podem vir do trabalho, da família ou dos recursos que usou para se virar.
+**Legados de história:** o professor que você procurou sem sucesso; alguém comum que conhece seu segredo e nunca o revelou; um erro que marcou seu aprendizado. Seus ofícios podem vir do trabalho, da família ou dos recursos que usou para se virar.
 
-#### Legados narrativos
+#### Tentativa e Erro
 
-**O Jeito Errado.** Escreva algo que aprendeu de modo errado antes de receber orientação. **Uma vez por dia**, ao observar alguém cometer o mesmo erro, pergunte ao mestre o que aquilo está custando à pessoa. A resposta é verdadeira e se refere à situação observada.
+Você arrisca a dosagem de energia para executar um feitiço ou Manejo de **Classe 1 ou maior**. **Uma vez entre o começo de um turno seu e o começo do próximo**, antes de pagar a aplicação, pode usar Tentativa e Erro, sem outra ação. Se não tentar, paga o custo normal.
 
-**O Professor Que Você Não Teve.** Escreva um feiticeiro que poderia ter ensinado você e não ensinou, com o motivo. Ele está vivo e sabe que você existe. Você pode procurá-lo, mas a disposição dele para ajudar continua sendo uma decisão dessa pessoa.
+Calcule o **custo normal completo**, com descontos e acréscimos. A variação é **metade da Classe utilizada, arredondada para cima**. Você só pode tentar se tiver PE suficientes para pagar o pior resultado possível: o custo completo mais essa variação, respeitado o mínimo de 1 PE. Depois, role **1d20 + Maestria**.
 
-**A Testemunha.** Escreva uma pessoa fora do meio jujutsu que conhece seu segredo e nunca o revelou. Ela continua vivendo sua própria vida. Pode ser um vizinho, um familiar ou alguém que você salvou.
+| Total | Custo |
+|---|---|
+| 9 ou menos | Desperdício: acrescente a variação. |
+| 10 a 13 | Estável: conserve o custo completo. |
+| 14 ou mais | Controle: desconte a variação. |
 
-> **Exemplo:** Mika escolhe A Testemunha. Sua antiga chefe viu uma maldição ser exorcizada no depósito e guardou segredo. Quando o grupo procura um endereço conhecido para descansar, Mika pode procurá-la. A ficha estabelece essa relação, sem obrigar a chefe a oferecer abrigo em qualquer situação.
+O **custo final mínimo é 1 PE**. Classes 1 e 2 variam 1 PE; 3 e 4, 2 PE; 5 e 6, 3 PE; Classe 7, 4 PE. Pague apenas o resultado obtido. Dano, acerto, CD, alcance, duração e efeitos permanecem iguais.
+
+Esta é uma rolagem própria da capacidade, **não um teste**. Não recebe vantagem, desvantagem, especialização ou modificadores de testes, salvo regra específica para ela. Também não usa crítico ou sucesso e falha automáticos de outros procedimentos.
+
+> **Exemplo:** um feitiço de Classe 3 custa 6 PE depois dos ajustes. A variação é 2: você precisa ter 8 PE para tentar. Desperdício custa 8, Estável custa 6 e Controle custa 4. Já um feitiço de Classe 1 com custo completo de 1 PE custa 2, 1 ou 1 PE; o desconto nunca o torna gratuito.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#latente-beneficios -->
 <a id="origens--latente-beneficios"></a>
-#### Legados do Latente
+#### Menores do Latente
 
-##### Legados de rolagem
+Escolha **duas menores distintas** entre as oito abaixo.
 
-**Aprendi Apanhando.** **Uma vez por dia**, refaça um teste de perícia em que falhou.
+##### Manifestação Instintiva
 
-**Instinto Bruto.** **Uma vez por cena**, use Sentir Energia no lugar de Intuição. Descreva quais sinais de energia permitem interpretar a situação. A substituição mantém a dificuldade, o tempo e os limites da tentativa. Ela não transforma a percepção de energia em leitura de pensamentos.
+Uma função da sua técnica se manifesta antes de você aprender a desenvolvê-la pelo método comum. Escolha um **Talento de Categoria de Efeito 1 do catálogo**, compatível com sua técnica ou semente de Sem Técnica, que ainda não possua.
 
-**Gambiarra.** **Uma vez por dia**, faça um teste de um ofício em que não é treinado como se tivesse o treinamento. Ferramentas, materiais e tempo da tarefa continuam necessários.
+Ele não ocupa espaço conhecido nem conta entre os cinco Talentos pagos. Mantenha seus requisitos, custos e limites. A escolha fica fixa, sem duplicação, evolução gratuita de Categoria ou troca livre. Categoria de Efeito não é Classe de conjuração.
 
-**Desconfiado.** **Uma vez por cena**, faça com vantagem um Teste de Resistência contra ficar Enfeitiçado.
+##### Prontidão Instintiva
 
-##### Legados de exceção
+Você reage ao perigo antes de organizar uma resposta. Role **Iniciativa com vantagem**, conservando Destreza e os demais modificadores normais.
 
-**Inédito.** Sua técnica não consta dos registros conhecidos. Uma consulta a catálogos não permite reconhecê-la ou preparar uma resposta específica. Para isso, é necessário observar você utilizá-la. Em troca, os especialistas não conseguem orientar você a partir de registros dessa técnica. O Legado também pode descrever Manejos de um personagem Sem Técnica. Ele não esconde as manifestações que alguém presencia.
+##### Foco Visceral
 
-**Chão Duro.** Qualquer lugar conta como **ambiente propício** para sua recuperação em Descansos. Ainda é preciso conseguir parar para descansar. Em troca, você não percebe espontaneamente quando as condições do lugar estão desgastando seus companheiros. Eles precisam contar ou mostrar o problema.
+Você se apega ao que está fazendo, mesmo sob pressão. **Maestria vezes por cena**, antes de um TR para manter Concentração após sofrer dano, pode obter **vantagem** nessa rolagem. Cada uso beneficia um TR e é gasto mesmo na falha.
 
-> **Exemplo:** depois da missão, Mika tem 4 de seus 20 PE. Um descanso longo num abrigo sem estrutura deixaria sua reserva em pelo menos 10. Com Chão Duro, ela recupera os 20. O Legado não transforma uma pausa sob perseguição em descanso seguro.
+##### Aptidão Intuitiva
+
+Você encontra caminhos que ainda não aprendeu a explicar. **Uma vez por cena**, antes de um teste de perícia em que não tenha treino, acrescente sua **Maestria** ao resultado. Vale apenas para a tentativa; não concede treino nem dispensa requisitos. Não se aplica a Ofícios, ataques ou TRs.
+
+##### Presença Bruta
+
+Sua energia manifesta uma intensidade difícil de ignorar. **Uma vez por cena**, ao manifestá-la de forma perceptível pelo alvo, declare o uso antes de um teste de **Intimidação ou Provocar** e acrescente sua **Maestria**, além do bônus normal. As duas opções compartilham o uso e conservam suas ações e efeitos.
+
+##### Retomar o Controle
+
+Você força seu corpo e sua energia a responder novamente. **Uma vez por cena**, use uma **Ação Bônus** para fazer imediatamente, **com vantagem**, um TR para encerrar uma condição que já permita essa tentativa no fim do seu turno. Escolha uma condição e mantenha CD e modificadores.
+
+Se falhar, conserva a tentativa normal no fim do turno. O benefício não devolve ações já perdidas.
+
+##### Certeza Momentânea
+
+Por um instante, a hesitação desaparece. **Uma vez por dia**, antes de rolar um teste de perícia treinada, declare o uso. Se o resultado usado do d20 for menor que **10**, trate-o como 10 e some os modificadores normais. O uso é gasto mesmo se o dado já mostrar 10 ou mais. Não se aplica a Ofícios, ataques ou TRs.
+
+##### Gambiarra
+
+Você aprendeu a resolver problemas com o que tinha à mão. **Uma vez por dia**, antes de um teste de Ofício em que não tenha treino, pode realizar a tentativa **como treinado, somando sua Maestria**, e usar objetos disponíveis como ferramentas improvisadas adequadas à tarefa.
+
+Mantenha tempo, materiais e demais requisitos. O uso vale para uma tentativa e é gasto mesmo na falha. **Não pode criar itens, realizar invocações ou obter aquisições permanentes por este benefício.**
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-receptaculo -->
 <a id="origens--origem-receptaculo"></a>
 ### Receptáculo
 
-Você divide o corpo com outra presença. Ela pode conversar, resistir ou cooperar. Talvez você consiga mantê-la contida, talvez tenham um acordo. A existência dessa presença é parte da personagem que você cria com o mestre.
+Você divide o corpo com outra presença. Ela pode conversar, resistir ou cooperar. Talvez você consiga mantê-la contida, talvez tenham um acordo. Nesta Origem, você interpreta **o hospedeiro**. Quem voltou a viver no corpo recebido usa Encarnado; as duas perspectivas não se somam na ficha.
 
-Nesta Origem, você interpreta quem a recebe. O controle do corpo e as capacidades da ficha seguem as regras escolhidas. Carregar um ser poderoso não concede automaticamente suas técnicas, seus atributos ou um segundo turno.
+Carregar um ser poderoso não concede automaticamente suas técnicas, atributos ou um segundo turno. Escolha **Coexistência ou Conflito** como modalidade da sua marcante e duas menores elegíveis.
 
-**Perícia da Origem:** escolha Sentir Energia, Ocultismo, Intuição ou Religião. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica.
+**Perícia da Origem:** escolha Sentir Energia, Ocultismo, Intuição ou Religião. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
-**Sugestões de traço:** o desejo do passageiro que contraria o seu, alguém que testemunhou sua chegada ou a instituição que acompanha seu caso. Os ofícios podem ser aprendizados seus ou conhecimentos ligados à convivência com a presença.
+**Legados de história:** o nome pelo qual o passageiro era conhecido; alguém que o conheceu antes de você; um desejo dele que contraria o seu; a instituição que acompanha seu caso. Registre como vocês se relacionam e o que sabem um do outro.
 
-#### Legados narrativos
+#### Coexistência
 
-**A Voz de Dentro.** **Uma vez por dia**, pergunte ao mestre uma informação sobre uma maldição ou técnica presente na cena. Ele responde com a verdade. Formule uma pergunta concreta, como a função de um selo ou do que a criatura se alimenta. A resposta informa o grupo, sem executar uma solução por vocês.
+A presença aceita conscientemente você à frente do corpo. As identidades permanecem distintas e ainda podem discordar. Sua marcante reúne Repertório Compartilhado e Amparo Interior.
 
-**De Antes de Você.** Escreva uma pessoa, lugar ou clã que conheceu o passageiro antes de ele habitar você. Essa ligação existe, e as pessoas envolvidas sabem o que você carrega. O que farão ao encontrá-lo depende delas.
+##### Repertório Compartilhado
 
-> **Exemplo:** o passageiro de Ren conheceu a família que guardava o santuário. O grupo já tem uma ligação para investigar quando encontra o símbolo dessa família. Precisará decidir como se apresentar e lidar com o que aconteceu no passado.
+Ao receber a marcante, aprenda **dois feitiços adicionais**, fora dos espaços comuns de repertório. Se for Sem Técnica, receba dois Manejos em seu lugar. Eles seguem a Regra, as Famílias, os requisitos e o limite de Classe da sua rota, com ações e custos normais.
+
+O ganho acontece uma vez. As aplicações permanecem conhecidas e seguem as revisões normais da ficha. Não são espaços livres para Talentos, Domínio ou invocações, não concedem outra Regra e não aumentam a quantidade de Classe 0.
+
+##### Amparo Interior
+
+**Uma vez por cena**, no começo do seu turno, se estiver **Atordoado**, pode gastar **6 PE** para encerrar essa condição em você, sem ação ou teste, antes de perder a Padrão daquele turno. Precisa ter vida e Integridade positivas e PE suficientes.
+
+Amparo não encerra Inconsciente, recupera reservas ou devolve ações gastas ou perdidas em turnos anteriores. Uma Concentração já interrompida continua encerrada.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#receptaculo-acordos -->
 <a id="origens--receptaculo-acordos"></a>
-#### Presença no corpo
+#### Conflito
 
-##### Legados narrativos
+A presença pretende tomar o corpo, e você a mantém contida. Sua marcante reúne a defesa da alma, Reserva Impregnada e Resposta à Invasão.
 
-**Alcunha.** Escreva o nome pelo qual o passageiro era conhecido. Quem pertence ao meio jujutsu reconhece seu significado quando o ouve. Você pode anunciá-lo para revelar o que carrega. A reação depende da pessoa que escuta e da história associada ao nome.
+Você tem **vantagem nos TRs que um efeito permitir para evitar dano de Alma**. Isso não cria um teste contra ataques que não o concedam, não amplia o benefício a todo efeito mental ou manipulação da alma e não muda a redução desse dano.
 
-**O Que Ele Quer.** Escreva um desejo do passageiro que contrarie o seu. **Uma vez por descanso longo**, você pode lhe entregar algo que ele deseja em troca de ajuda para superar um obstáculo ligado ao conhecimento, à identidade ou às relações dele. Antes da entrega, o mestre apresenta o preço e a ajuda concreta. Registre a concessão na ficha, mesmo depois do descanso. Essa ajuda pode fornecer informação ou acesso, mas não concede ataques, acertos, técnicas ou controle automático sobre outra pessoa.
+##### Reserva Impregnada
 
-##### Legados de rolagem
+**Uma vez por dia**, use uma **Ação Bônus** para recuperar PE iguais à **metade do seu nível + metade de Essência ou Constituição**, escolhida no uso. Arredonde cada metade para baixo, **mínimo 1 em cada parcela**, sem ultrapassar seus PE máximos.
 
-**Não Sou Só Eu.** **Uma vez por cena**, refaça um Teste de Resistência de Espírito em que falhou contra controle, dominação ou leitura de seus pensamentos.
+É recuperação da reserva comum, sem custo de PE ou exigência de vida baixa. Não concede energia temporária.
 
-**Costume Antigo.** Escolha uma perícia na criação. **Uma vez por cena**, faça um teste dela como se fosse treinado.
+##### Resposta à Invasão
 
-**Tranco.** **Uma vez por cena**, refaça um Teste de Resistência Físico em que falhou. O efeito precisa exigir esse TR, como uma ameaça que tente derrubar você. O Legado não muda o tipo de resistência pedido.
+**Uma vez entre o começo de um turno seu e o começo do próximo**, depois de uma criatura tentar causar dano de Alma ou manipular diretamente sua alma de forma hostil, você pode fazê-la enfrentar a presença que guarda. Resolva a tentativa original normalmente, mesmo que você evite o efeito. Depois, o agressor faz **TR de Espírito com desvantagem, CD 8 + sua Maestria + Constituição ou Essência**, escolhida no uso.
 
-**Passagem.** **Uma vez por dia**, permita que o passageiro assuma o corpo e refaça qualquer rolagem. Combine a duração da passagem com o mestre antes de usá-la, ou siga o prazo estabelecido por uma Promessa. Quando retomar o controle, o mestre informa algo que ele fez nesse período. O benefício mecânico desta entrada é a repetição da rolagem. As ações tomadas durante a passagem usam os recursos e as capacidades disponíveis da ficha.
+Na falha, ele fica **Amedrontado por você até o fim do próximo turno dele**, com o TR normal de saída no fim de cada turno. No sucesso, seja no TR inicial ou numa saída, fica **imune à resposta deste Receptáculo até o fim do próximo turno dele**. Mantenha a CD da aplicação nas saídas; a desvantagem especial vale para o teste inicial, sem afastar outras fontes que alterem os testes posteriores.
+
+A resposta não gasta ação, Reação ou PE. O limite é total, não um uso por agressor, e é consumido ao exigir o teste inicial. A tentativa original não é desfeita. Dano Psíquico comum, contato físico comum e cura consentida não satisfazem o gatilho por si sós.
+
+Se o efeito começar durante o turno do agressor, “próximo turno” é o seguinte, não o atual. Fora do turno dele, é o primeiro que vier depois. A duração terminar sem sucesso num TR não concede a imunidade; a imunidade recebida não vale contra outras fontes de medo.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#receptaculo-excecoes -->
 <a id="origens--receptaculo-excecoes"></a>
-#### Legados de exceção do Receptáculo
+#### Menores do Receptáculo
 
-**Máscara.** Quem percebe sua energia amaldiçoada identifica a energia do passageiro. Em troca, as pessoas reagem à identidade que reconheceram, que pode ser mais perigosa para você do que a verdade.
+Escolha **duas menores distintas**. Seis estão disponíveis nas duas modalidades; Conselho Interior exige Coexistência, e Vontade de Cárcere exige Conflito.
 
-A energia continua presente e perceptível. Uma Cortina que identifique assinaturas pode reagir à do passageiro. Uma barreira que impeça qualquer criatura com energia continua reconhecendo a sua presença. Máscara não ignora critérios independentes de identidade, como tamanho, objetos carregados ou uma obstrução física.
+##### Memória Corporal
 
-**Revezamento.** **Uma vez por descanso longo**, quando você ficaria **com a Guarda Aberta**, impeça essa aplicação. A outra presença sustenta a resposta do corpo. Em troca, quem observa percebe que outra consciência agiu por você. O mestre considera essa revelação nas reações das pessoas presentes.
+**Uma vez por dia**, use uma **Ação Bônus** para receber treino em uma perícia até o fim da cena. Não concede especialização, treino permanente ou bônus adicional numa perícia já treinada. Ofícios, TRs e Aptidões ficam fora.
 
-Guarda Aberta é a condição nomeada em Dano e recuperação. Revezamento não impede Inconsciente, a perda de vida ou as consequências de chegar a zero. Se a mesma capacidade causar dano e Guarda Aberta, o dano continua sendo resolvido.
+##### Traço Incorporado
 
-##### Acordos na mesa
+Receba um **Talento passivo de Categoria de Efeito 1**, fixo e compatível com sua ficha. Cumpra seus requisitos e limites. Ele fica fora dos espaços conhecidos e dos cinco Talentos pagos, como Manifestação Instintiva, sem duplicação ou evolução gratuita. Não concede uma Aptidão ou outra Regra.
 
-Registre o nome ou a descrição do passageiro, o que ele quer e a relação atual entre vocês. Os Legados podem modificar essa relação, mas não determinam a história inteira. Um acordo de cooperação pode se desgastar, e uma relação hostil pode mudar durante a campanha.
+##### Voz Intrusa
 
-> **Exemplo:** Ren usa Revezamento diante de uma patrulha. Impede Guarda Aberta, mas recebe normalmente o dano do efeito. A patrulha vê a mudança de expressão e ouve outra voz. Na conversa seguinte, Ren precisará explicar o que aconteceu, se quiser conservar a confiança dela.
+A outra voz atravessa sua fala e provoca o adversário. **Uma vez por cena**, durante seu turno, pode usar uma **Ação de Movimento para Provocar**. Mantenha rolagem, TR do alvo, requisitos, efeitos e riscos da ação. Não recebe deslocamento junto dessa ação; o uso normal de Provocar continua disponível.
+
+##### Foco Inscrito
+
+**Uma vez por cena**, após falhar em um TR para manter Concentração por ter sofrido dano, repita o teste e aceite o segundo resultado. Conserve a CD e os modificadores. Não permite duas Concentrações nem restaura um efeito encerrado por outro motivo.
+
+##### Reserva Residual
+
+**Uma vez por dia**, depois de resolver o uso que gastou seus últimos PE comuns e temporários, receba **Constituição ou Essência + Maestria em PE temporários**, sem ação. Escolha o atributo no uso e use seu valor inteiro. A reserva dura até o fim da cena e respeita o teto de metade dos PE máximos.
+
+##### Orientação Instintiva
+
+**Uma vez por dia**, após falhar em um teste de perícia seu, repita a rolagem com os mesmos modificadores e aceite o segundo resultado. Não exige outra ação e não inclui ataques, TRs ou Ofícios.
+
+##### Conselho Interior
+
+**Requisito: Coexistência. Uma vez por cena**, após falhar em Intuição ou Ocultismo, repita o teste e aceite o segundo resultado. As duas perícias compartilham o uso. A presença interpreta os indícios disponíveis; não lê pensamentos nem oferece conhecimento infalível.
+
+##### Vontade de Cárcere
+
+**Requisito: Conflito. Uma vez por cena**, após falhar em um TR que o efeito já permita para evitar ou encerrar Enfeitiçado ou Amedrontado, repita o teste e aceite o segundo resultado. As condições compartilham o uso.
+
+Não cria um TR novo, antecipa uma tentativa de saída ou devolve ações consumidas.
+
+#### Disputa pelo corpo
+
+A disputa entre hospedeiro e ocupante é conduzida pela história combinada na mesa. Não há rotina automática de testes, limite de vida ou PE, ou falha desta Origem que entregue o controle do personagem. O livro de mestres aprofundará essa relação. Registre os acordos e mudanças que acontecerem na campanha sem acrescentar poderes à ficha por conta própria.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-descendente -->
 <a id="origens--origem-descendente"></a>
 ### Descendente
 
-Sua família participa do meio jujutsu. Você cresceu entre ensinamentos, obrigações e histórias que outras pessoas só conhecem de longe. Pode pertencer a um clã da obra ou criar uma família para a campanha.
+Sua família participa do meio jujutsu. Você cresceu entre ensinamentos, obrigações e histórias que outras pessoas só conhecem de longe. Pode pertencer a um dos clãs apresentados ou criar uma família com o mestre, conforme Personalizar sua Origem.
 
-**Perícia da Origem:** escolha Hierarquia, História, Ocultismo ou Persuasão. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica.
+**Perícia da Origem:** escolha Hierarquia, História, Ocultismo ou Persuasão. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
-**Sugestões de traço:** uma expectativa que rejeita, um parente que deseja impressionar ou um conflito entre ramos da família. Seus ofícios podem vir da educação recebida ou de algo que aprendeu longe de casa.
+Escolha a **marcante do seu clã** e duas menores elegíveis. Cada marcante reúne os componentes indicados; eles não são compras separadas. A formação familiar não concede automaticamente uma técnica hereditária.
 
-#### Legados narrativos
+**Legados de história:** uma expectativa que rejeita; o direito ainda não atendido a uma ferramenta guardada pela família; um conhecimento que sua casa preserva; a reputação de cumprir a palavra; um parente que deseja impressionar. Essas relações podem abrir conversas e problemas, sem garantir obediência ou equipamento gratuito.
 
-**O Sobrenome.** Você consegue audiência com quem manda em um lugar da sociedade jujutsu. A reunião acontece pelas condições possíveis no local. Convencer essa pessoa, negociar com ela ou obter sua ajuda continua dependendo da conversa e dos testes necessários.
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#descendente-zenin -->
+<a id="origens--descendente-zenin"></a>
+#### Zenin
 
-**Armaria.** Escreva qual ferramenta amaldiçoada da família é sua por direito e quem a guarda. A peça existe e ainda não foi entregue a você. Defina-a com o mestre conforme Equipamento. O Legado estabelece o direito e o acesso à história da peça, sem acrescentá-la ao inventário inicial.
+Sua formação prepara postura, movimentos e resistência para enfrentar a pressão de uma luta. **Kukuru** é a formação Sem Técnica; **Akashi** integra esse preparo ao uso de uma técnica. Ambas concedem os três componentes abaixo; Disciplina Treinada muda o TR conforme a formação.
 
-**Arquivo.** Escreva um experimento corporal que sua família manteve em segredo. Quando encontrar esse método em uso, você o reconhece sem teste. Ninguém de fora sabe que sua família o utilizou. Reconhecer o método não concede capacidade para reproduzi-lo.
+##### Recuperação do Fôlego
 
-**Palavra Dada.** Sua família tem reputação de cumprir promessas. Sua palavra pode servir de garantia num acordo. O outro lado decide se a aceita, e poderá cobrar o compromisso depois.
+**Uma vez por dia**, ao concluir um descanso curto válido, pode remover **um degrau de Exaustão**. Calcule a recuperação normal da pausa antes dessa remoção. A contagem de lutas do dia permanece, assim como as exigências de descanso e ambiente.
 
-**Treino de Berço.** Escreva um conhecimento ou procedimento que só sua família ensina. Quem quiser aprendê-lo precisa procurar a casa ou você. Escolha algo que faça parte da história, como uma tradição de selamento ou a conservação de documentos. Capacidades com regras continuam exigindo suas escolhas e custos próprios.
+Não guarda retiradas futuras, reduz Exaustão abaixo de zero ou recupera Integridade e condições de outras fontes.
+
+##### Execução Treinada
+
+**Maestria vezes por dia**, antes de um teste de **Atletismo ou Acrobacia**, pode fazê-lo **com vantagem**, sem ação ou PE adicionais. As duas perícias compartilham os usos. Mantenha modificadores e requisitos; não concede treino nem afeta ataques ou TRs.
+
+##### Disciplina Treinada
+
+**Uma vez por dia**, quando falhar no TR da sua formação, pode repeti-lo antes das consequências e deve aceitar o segundo resultado: **Vigor para Kukuru; Espírito para Akashi**.
+
+Não exige ação ou PE adicionais. Mantenha modificadores, vantagem e desvantagem aplicáveis. O uso é gasto mesmo na nova falha. Não concede treino, troca o atributo do TR ou permite substituir o teste pedido. Uma interrupção direta sem teste continua acontecendo.
+
+Os três componentes têm estoques independentes. Descanso curto não renova usos por dia.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#descendente-kamo -->
+<a id="origens--descendente-kamo"></a>
+#### Kamo
+
+Você aprendeu a ensaiar procedimentos e corrigir a execução quando algo sai errado. Sua marcante reúne Execução Ensaiada e Contingência Estudada. A formação não concede Manipulação de Sangue.
+
+##### Execução Ensaiada
+
+Ao concluir um **descanso longo**, escolha **duas opções distintas entre perícias, Ofícios e TRs em que seja treinado**. Depois role **3d20 e anote os dois maiores resultados**. Essa reserva permanece até concluir o próximo descanso longo.
+
+Antes de rolar um teste de uma das opções, pode gastar um resultado anotado para **substituir um dos d20 por aquele valor**, somando os modificadores normais. No máximo um resultado por teste; cada um só pode ser usado uma vez. Os dois resultados são compartilhados entre as duas competências.
+
+Com vantagem ou desvantagem, role o outro d20 e escolha normalmente o maior ou menor. Se ambas se anularem, substitua o único d20. Declare antes de rolar qualquer dado do teste, sem ação ou PE adicionais. Pode gastar os dois resultados em testes diferentes da mesma competência.
+
+As opções precisam estar treinadas no preparo e no uso. Escolha TRs pelo nome, como Vigor, não por atributo. Ataques, dano e testes de outra criatura ficam fora. A tarefa conserva ferramentas, materiais, ações e demais requisitos; um resultado reservado não garante sucesso.
+
+Os 3d20 do preparo são uma rolagem própria, sem modificadores, vantagem ou repetições de testes. Não produzem crítico ou sucesso ao serem anotados. No próximo descanso longo, resultados não usados expiram e o novo ensaio substitui escolhas e reserva. Descanso curto não renova os dados. Se outra regra permitir repetir o teste posteriormente, o valor reservado já foi consumido e a nova tentativa usa os dados normais.
+
+> **Exemplo:** você escolhe Acrobacia e Vigor, ambos treinados. Rola 5, 12 e 17, guardando 12 e 17. Antes de um teste de Acrobacia, usa o 17 e soma seus bônus. O 12 continua disponível. Com desvantagem, ainda rolaria o outro d20 e ficaria com o menor.
+
+##### Contingência Estudada
+
+**Maestria vezes por dia**, quando errar uma **rolagem de acerto que você faça**, inclusive a de um feitiço de Acerto, pode repeti-la antes das consequências. Aceite o segundo resultado. Não exige outra ação ou PE e pode ser usada **uma vez por tentativa**.
+
+Repita o procedimento completo, com os modificadores e vantagem ou desvantagem aplicáveis, sem misturar dados das duas rolagens. Conserve alvo, capacidade, custos pagos e defesa já resolvida. Não repita os outros ataques ou alvos da aplicação.
+
+Não rerrola dano, faz o alvo repetir TR ou modifica feitiço Automático. Não devolve PE nem permite trocar de feitiço. Os usos são independentes dos resultados de Execução Ensaiada e renovam por dia, não por descanso longo.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#descendente-gojo -->
+<a id="origens--descendente-gojo"></a>
+#### Gojo
+
+O estudo da sua técnica inclui execuções reservadas e respostas a capacidades que já conhece. Sua marcante reúne Execução Reservada e Antecipação Estudada. Ela não concede Seis Olhos ou Ilimitado.
+
+##### Execução Reservada
+
+Escolha **feitiços ou Manejos conhecidos em quantidade total igual à Maestria** e registre a lista. **Maestria vezes por dia**, ao usar uma dessas capacidades, antes dos dados, escolha um benefício:
+
+- **Vantagem em uma rolagem de acerto** da aplicação.
+- **Desvantagem no primeiro TR de um único alvo** contra a aplicação.
+
+Indique a rolagem ou o alvo antes dos dados. Cada aplicação recebe no máximo um uso, escolhendo apenas um benefício. Não custa ação ou PE adicionais; a capacidade conserva seus custos e requisitos. O uso é gasto ao declarar, mesmo sem resultado favorável.
+
+Os usos formam um estoque compartilhado entre as capacidades. A lista é fixa: se conhecer menos opções que sua Maestria, preencha as vagas restantes quando aprender uma elegível; quando Maestria aumentar, acrescente uma opção conhecida. Se a progressão permitir substituir uma capacidade registrada, a vaga pode acompanhar sua substituta, sem conceder troca extra.
+
+Uma área não impõe desvantagem a todos os alvos. TRs posteriores e os outros ataques da aplicação conservam suas rolagens. Automáticos sem acerto ou TR não oferecem rolagem elegível, e ataques comuns não se tornam elegíveis pela sua Origem. Bloquear continua disponível normalmente, sem desvantagem concedida por esta capacidade.
+
+##### Antecipação Estudada
+
+**Maestria vezes por dia**, depois de falhar em um **TR contra feitiço ou Manejo** e antes das consequências, pode gastar sua **Reação** para repetir esse teste, se a capacidade cumprir pelo menos uma condição:
+
+- Pertencer a uma técnica que você tenha estudado; para Manejos, vale o estudo da própria capacidade.
+- Você já ter presenciado uma aplicação anterior dela nesta cena.
+- Ela já ter sido usada contra você anteriormente.
+
+Aceite o segundo resultado, mantendo modificadores, vantagem e desvantagem, sem misturar dados. Não custa PE e só pode ser usada uma vez por teste. Não cria um TR inexistente, deslocamento ou resistência.
+
+O estudo precisa ser conhecimento estabelecido; ver um feitiço não ensina automaticamente toda a técnica. Execução Reservada e Antecipação Estudada têm **reservas diárias independentes**, ambas de Maestria usos.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#descendente-inumaki -->
+<a id="origens--descendente-inumaki"></a>
+#### Inumaki
+
+Sua família cultiva uma comunicação atenta, feita de poucas palavras e sinais discretos. A imagem da serpente aparece nesse repertório e nos símbolos usados pela casa. Sua marcante reúne Entendimento Tácito e Linguagem da Serpente, com Leitura a Dois.
+
+Essa formação funciona com ou sem Fala Amaldiçoada. Não concede a técnica, obriga você a portar suas marcas ou impede o uso de linguagem comum.
+
+##### Entendimento Tácito
+
+Durante um **descanso longo**, escolha **um companheiro**. **Uma vez por cena**, quando ambos fizerem o mesmo tipo de **TR Físico ou de Espírito contra a mesma aplicação**, podem usar **o melhor resultado natural entre os dois**, mantendo seus próprios bônus. Precisam estar a até **9 m** e perceber um sinal um do outro.
+
+Façam as rolagens normalmente, inclusive vantagem ou desvantagem. Depois de conhecer os resultados, antes das consequências, decida pelo uso. Comparem os d20 efetivamente escolhidos, sem recuperar dados descartados. O benefício não garante sucesso.
+
+> **Exemplo:** vocês obtêm 6 e 15 nos dados. Ambos podem usar 15; com bônus de +2 e +7, os totais ficam 17 e 22.
+
+##### Linguagem da Serpente
+
+Durante um **descanso longo**, ensine aos companheiros que participarem um repertório de palavras comuns e gestos. Quem aprendeu consegue trocar mensagens com os demais participantes **sem testes para transmitir ou compreender o sentido pretendido**, inclusive mensagens não combinadas individualmente antes.
+
+Quem desconhece o código não compreende o sentido só por ouvir palavras ou ver gestos. A comunicação ainda pode ser percebida, e o código pode ser descoberto. Palavras precisam ser ouvidas; gestos, percebidos. As mensagens levam o tempo normal de comunicação e não substituem exigências verbais de capacidades ou concedem ações.
+
+Aprender o código não torna todos os participantes companheiros de Entendimento Tácito. Escolher outro companheiro também não apaga o código aprendido pelos anteriores.
+
+##### Leitura a Dois
+
+**Duas vezes por cena, no total**, antes de você ou o companheiro escolhido fazer um teste de **Investigação, Intuição, Percepção, Persuasão, Enganação ou Intimidação**, o executor pode usar **o bônus da mesma perícia do outro no lugar do próprio**.
+
+Quem oferece o bônus precisa ser treinado na perícia, acompanhar a situação e transmitir suas observações. Vocês devem estar conscientes, a até **9 m**, acompanhando a situação e percebendo a comunicação necessária.
+
+O executor conserva seu d20 e as circunstâncias da tarefa. Os bônus não se somam, e o empréstimo não concede treino, especialização, requisitos ou outras capacidades do companheiro. Os dois usos são compartilhados pela dupla, em qualquer direção, e são independentes do uso de Entendimento Tácito.
+
+> **Exemplo:** você acompanha uma negociação e sinaliza quais argumentos usar. Se for treinado em Persuasão, seu companheiro pode trocar o bônus de +2 pelo seu +7. Com 9 no d20 dele, o total é 16, sem somar os dois bônus.
+
+Nenhum componente concede outra ação ou tentativa, cobra PE adicionais ou oferece telepatia e sentidos compartilhados. Mantenha o tempo e os requisitos da tarefa; a orientação não revela pistas que nenhum dos dois percebeu.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#descendente-beneficios -->
 <a id="origens--descendente-beneficios"></a>
-#### Legados do Descendente
+#### Menores do Descendente
 
-##### Legados de rolagem
+Escolha **duas menores distintas**: a exclusiva do seu clã e uma comum, ou duas comuns. A exclusiva não é obrigatória. As seis comuns ficam disponíveis aos quatro clãs.
 
-**Conversa de Jantar.** **Uma vez por cena**, faça com vantagem um Teste de Resistência contra uma técnica conhecida no mundo jujutsu. Você precisa reconhecer qual técnica está sendo usada e já conhecer sua existência pelos relatos do meio. O mestre confirma essas duas informações antes do teste. Uma técnica recém-descoberta durante o combate não passa a cumprir o requisito apenas porque alguém viu seu efeito.
+##### Cofre da Família
 
-**Etiqueta.** **Uma vez por cena**, refaça um teste social em que falhou diante de alguém com patente superior à sua ou pertencente a um clã de maior posição naquela comunidade. A relação entre as casas deve estar estabelecida na campanha.
+**Exclusiva Zenin.** Receba **uma ferramenta amaldiçoada emprestada por vez**, de grau igual ou inferior à sua patente reconhecida, até grau 1. Para trocar, volte ao cofre e devolva a anterior.
 
-**Repetição.** Escolha um dos quatro Testes de Resistência na criação. **Uma vez por descanso curto**, faça esse TR com vantagem.
+**Armas de grau 1 exigem feitos que justifiquem o acesso e autorização do mestre.** Ferramentas especiais ficam fora da concessão. Mantenha os requisitos próprios da ferramenta; nível não substitui patente.
 
-**Biblioteca.** **Uma vez por cena**, refaça um teste de História ou Ocultismo em que falhou.
+##### Ensaio Partilhado
 
-##### Legados de exceção
+**Exclusiva Kamo.** Durante um descanso curto, pode rerrolar uma vez **cada resultado de Execução Ensaiada ainda disponível**, com um d20 por resultado, aceitando os novos valores. Não recupera resultados gastos, repete o ensaio de três dados ou muda as competências escolhidas.
 
-**Coleira.** Uma técnica não consegue localizar ou rastrear você à distância. O selo da família impede essa forma de busca. Em troca, sua família sempre sabe onde você está. Rastros físicos, testemunhas e observação direta continuam disponíveis. A exceção afeta a localização por técnica, sem tornar o corpo ou sua energia invisíveis.
+Ao concluir um descanso longo e realizar o ensaio normal, pode entregar um dos resultados a um aliado treinado na perícia ou Ofício ensaiado, que tenha praticado com você. Retire o resultado da sua reserva. O aliado o usa antes da rolagem, substituindo um d20 pelo procedimento do ensaio. Não transmite TR, treino ou a capacidade de rerrolar durante descanso curto.
 
-**Cabo.** **Uma vez por cena**, quando ficaria Desarmado, impeça essa aplicação: a arma permanece ou retorna à sua mão. Em troca, você se recusa a largá-la quando seria conveniente. Quem revista você encontra a arma, e você não se apresenta como civil desarmado enquanto insiste em carregá-la.
+O resultado é consumido no uso e expira ao fim do dia em jogo ou no próximo descanso longo do Kamo, o que vier primeiro.
 
-> **Exemplo:** Aya escolhe Arquivo e Biblioteca. Reconhece sem teste o método secreto da família nos corpos encontrados. Depois falha em Ocultismo ao pesquisar quem poderia ter retomado o experimento. Biblioteca permite refazer esse teste uma vez naquela cena.
+##### Método Reescrito
+
+**Exclusiva Gojo.** Ao concluir um descanso longo, pode substituir uma capacidade da lista de Execução Reservada por outro feitiço ou Manejo já conhecido. Não aprende nova capacidade, amplia a lista ou renova os usos diários por esta menor.
+
+##### Círculo Íntimo
+
+**Exclusiva Inumaki.** No descanso longo, escolha **dois companheiros**, em vez de um. A cada aplicação da marcante, decida com qual deles cooperar.
+
+Os limites continuam compartilhados: **um Entendimento Tácito e duas Leituras a Dois por cena**. Você participa de cada dupla; os efeitos não alcançam os três ao mesmo tempo nem os dois companheiros sem você. Mantenha os demais requisitos.
+
+##### Notas de Família
+
+**Uma vez por cena**, depois de falhar em História ou Ocultismo, consulte anotações familiares para obter uma informação verdadeira, mas parcial, pertinente à pergunta e ao conhecimento registrado. A falha no objetivo completo permanece. Não fornece algo que não possa constar das anotações.
+
+##### Autoridade de Berço
+
+**Uma vez por cena**, antes de rolar, pode usar **Hierarquia no lugar de Persuasão ou Intimidação** numa interação do meio jujutsu apoiada em obrigações, precedentes ou relações institucionais. Precisa ser treinado em Hierarquia. Não força obediência.
+
+##### Bagagem Prevenida
+
+Ao preparar uma missão, reserve **dinheiro próprio e 0,5 de Volume**. **Uma vez na missão**, revele um item comum comprado no preparo, de até 0,5 de Volume e preço dentro da reserva, descontando-o dela. Não permite armas, proteções, itens amaldiçoados ou restritos.
+
+| Grau reconhecido no preparo | Máximo de dinheiro próprio reservado |
+|---|---|
+| Grau 4 | ¥10.000 |
+| Grau 3 | ¥20.000 |
+| Grau 2 | ¥30.000 |
+| Grau 1 | ¥40.000 |
+| Especial | ¥50.000 |
+
+O limite acompanha grau ou patente, não nível ou Maestria. Use as equivalências de patentes intermediárias já estabelecidas na campanha. A menor não fornece dinheiro, mais Volume ou usos extras.
+
+##### Palavra Empenhada
+
+**Uma vez por descanso longo**, após falhar em Persuasão numa negociação viável, ofereça sua palavra e reputação como garantia. O mestre apresenta uma condição adicional concreta: pagamento, serviço ou concessão. Você pode aceitar ou recusar; cumprir a condição conclui o acordo sem repetir aquele teste.
+
+Não torna um pedido inviável aceitável nem fornece dinheiro para pagar a condição.
+
+##### Fundamento Incorporado
+
+**Uma vez por dia, antes da rolagem**, pode usar **10 no lugar de um d20** num teste da perícia recebida pela base da Origem, somando seus bônus. Com vantagem ou desvantagem, role o outro d20 e resolva normalmente.
+
+Não é um piso aplicado depois do resultado. O benefício alcança a perícia escolhida, não todas as opções da base, ataques ou TRs.
+
+##### Treino de Armas da Casa
+
+Receba treino permanente em **duas categorias de arma à escolha**, como Yumi e Lâmina Longa. Não recebe duas listas inteiras de armas simples ou marciais. A menor não fornece equipamento, troca de atributo ou dispensa de requisitos de aquisição.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-encarnado -->
 <a id="origens--origem-encarnado"></a>
 ### Encarnado
 
-Você voltou a viver no corpo de outra pessoa. Traz lembranças de uma época anterior e precisa lidar com a vida que esse corpo tinha. Nesta Origem, você interpreta a consciência que retornou. A situação da pessoa que recebeu a encarnação faz parte da história combinada com o mestre.
+Você voltou a viver no corpo de outra pessoa. Traz lembranças de uma época anterior e precisa lidar com a vida que esse corpo tinha. Nesta Origem, você interpreta **a consciência que retornou**. A situação da pessoa que recebeu a encarnação faz parte da história combinada com o mestre.
 
-**Perícia da Origem:** escolha História, Ocultismo, Investigação ou Intimidação. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica.
+**Perícia da Origem:** escolha História, Ocultismo, Investigação ou Intimidação. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
-**Sugestões de traço:** o motivo de ter aceitado voltar, alguém que reconheceu você ou a família de quem vivia nesse corpo. Os ofícios podem ser lembranças da vida anterior ou conhecimentos associados à história do corpo atual.
+**Legados de história:** o motivo de ter aceitado voltar; quem pagou ou trabalhou por seu retorno; alguém que reconheceu você; a família de quem vivia nesse corpo. Uma aparência ligada à sua vida anterior pode compor a história, sem conceder cura ou capacidades por si só.
 
-#### Legados narrativos
+#### Duas Vidas
 
-**O Que Ninguém Lembra.** **Uma vez por descanso longo**, obtenha do mestre uma informação sobre um lugar, nome ou técnica da sua época que responda a uma dúvida da cena. É uma lembrança que você possui e que as pessoas presentes não teriam como fornecer.
+Sua experiência reaparece em gestos, conhecimentos e maneiras de resolver problemas. Receba **um treinamento adicional em perícia ou Ofício**, novo e permanente, por Conhecimento Reavivado.
 
-**Encomenda.** Alguém pagou para trazer você de volta. Escreva quem foi e a condição do acordo. Essa pessoa está viva e considera o compromisso em aberto. Registre também o que você entende que prometeu, sobretudo se houver divergência entre as duas versões.
+Para a **Reserva de Experiência**, escolha **duas perícias ou Ofícios treinados**, distintos e fixos. O treino de Conhecimento Reavivado pode ser um deles. **Maestria vezes por descanso longo, compartilhadas entre as duas escolhas**, depois de rolar um teste de uma delas e antes das consequências, pode rolar **1d4 e somar ao total**.
 
-**Quem Morava Aqui.** Escreva de quem era o corpo e uma pessoa que ainda espera esse alguém voltar. Ela desconhece a encarnação e continua procurando quem conhecia.
+Não custa ação ou PE adicionais. Só pode acrescentar um d4 por teste; o uso é gasto mesmo se o total continuar falhando. Resolva primeiro vantagem ou desvantagem e use o d20 escolhido. O d4 não muda seu resultado natural nem reabre consequências já aplicadas.
 
-**Enterrado.** Escreva um objeto que guardou antes de morrer e o lugar. Ele continua lá, se o lugar ainda existir. Defina o objeto com o mestre conforme o equipamento da campanha. Encontrar e recuperar a peça são acontecimentos da aventura, e ela não começa em seu inventário.
+A tarefa conserva ações, tempo, materiais e requisitos. A Reserva não vale para ataques, TRs, Iniciativa, Bloquear ou dados de dano e cura. Seu d4 é fixo; Maestria determina os usos, renovados ao concluir um descanso longo. Descanso curto, início de sessão ou dormir durante uma missão não renovam esse estoque.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#encarnado-beneficios -->
 <a id="origens--encarnado-beneficios"></a>
-#### Legados do Encarnado
+#### Menores do Encarnado
 
-##### Legados de rolagem
+Escolha **duas menores distintas** entre as sete abaixo.
 
-**Corpo Emprestado.** **Uma vez por cena**, faça com vantagem um Teste de Resistência contra ficar com a Guarda Aberta. Essa condição é diferente de Inconsciente ou das consequências de chegar a zero de vida.
+##### Especialidade Antiga
 
-**Espasmo.** **Uma vez por descanso curto**, refaça um Teste de Resistência Físico ou de Vigor em que falhou.
+Ao alcançar o **nível 10**, torne-se especialista na perícia ou Ofício escolhido na criação e recebido por **Conhecimento Reavivado**, sem precisar escolher Corpo no Marco. Use o bônus normal de especialização: **metade da Maestria, arredondada para baixo**. Não acumula outra especialização na mesma competência.
 
-**Já Morri.** **Uma vez por cena**, faça com vantagem um Teste de Resistência contra ficar Amedrontado.
+##### Guarda Reaprendida
 
-**Método Velho.** **Uma vez por cena**, faça um teste de perícia ou ofício que envolva um método da sua época como se fosse treinado. Pode ser a leitura de uma escrita antiga, o exame de um selo ou uma tarefa de ritual. O Legado fornece o treinamento para aquela rolagem. Os demais requisitos da tarefa continuam valendo.
+**Uma vez por cena**, depois de rolar Bloquear e antes das consequências, pode **rerrolar um dos d10**, aceitando o novo resultado. Conserve o outro dado e os modificadores; resolva Aparar e Brecha pelos dados finais. Não exige ação, Reação ou PE adicionais.
 
-##### Legados de exceção
+Com desvantagem, role os dois conjuntos e rerrole **um único d10 de um deles antes de selecionar o conjunto final**. Depois aplique normalmente desvantagem, Aparar e Brecha.
 
-**Conhecimento Antigo.** Defina sua época na criação. Você reconhece automaticamente técnicas daquela época, sem teste. Em troca, falha nos testes para reconhecer ou compreender técnicas modernas. Essa identificação revela o conhecimento disponível sobre a técnica, sem revelar escolhas secretas da ficha de quem a usa. Observar uma manifestação ainda permite perceber o que aconteceu diante de você.
+##### Percepção de Contorno
 
-**Usado.** **Uma vez por cena**, impeça uma aplicação de Derrubado. Em troca, o mestre aponta um pequeno problema do corpo que dura até o fim da cena, como tremor ao manipular algo delicado. Combine a consequência concreta antes de confirmar o uso. Ela deve prejudicar uma tarefa cotidiana pertinente, sem retirar ações, incapacitar um membro ou criar dano adicional.
+Você tem **visão às cegas a 3 m × Maestria**, passivamente: 3, 6, 9 ou 12 m. Use esse sentido para perceber e atacar conforme suas regras, sem depender de Sentir Energia.
 
-> **Exemplo:** Seiji reconhece uma técnica da sua época por Conhecimento Antigo. Ele sabe a função tradicional dela, mas ainda precisa observar se o usuário desenvolveu aplicações diferentes. Contra uma técnica moderna, o Legado não fornece essa identificação.
+Obstáculos sólidos continuam bloqueando. Não oferece leitura fina, percepção da alma, ficha de técnica ou dispensa de exigências que peçam especificamente seus olhos. Furtividade continua possível quando os sinais alcançados puderem ser ocultados.
+
+##### Experiência Transmitida
+
+Depois de um aliado a até **9 m** rolar um teste de **qualquer perícia em que você seja treinado**, antes das consequências, pode gastar um uso da sua Reserva de Experiência para acrescentar **1d4** ao resultado dele. Ele precisa ouvir e compreender sua orientação. Não exige outra ação ou PE, com no máximo um d4 de Reserva por teste.
+
+A perícia não precisa ser uma das duas escolhidas para seus usos pessoais. O aliado não precisa ter treino, mas continua sujeito aos requisitos da tarefa; a orientação não supre treino obrigatório ausente. Não alcança Ofícios, ataques ou TRs.
+
+Você e os aliados gastam o **mesmo estoque de Maestria usos por descanso longo**. Seus usos pessoais continuam limitados às duas competências fixas.
+
+##### Memória Testemunha
+
+**Uma vez por dia**, dedique **1 minuto** a revisitar uma cena que você ou seu hospedeiro realmente presenciou. Faça ao mestre **até três perguntas sobre detalhes que poderiam ter sido percebidos naquela ocasião**, sem teste de lembrança.
+
+As respostas recuperam o que a lembrança permite. Não criam acontecimentos, não revelam algo imperceptível na ocasião nem transformam uma impressão equivocada em conhecimento do que estava oculto. O uso é gasto ao iniciar a consulta; as perguntas pertencem à mesma cena.
+
+##### Vivência de Outra Era
+
+**Uma vez por cena**, antes de um teste da **perícia escolhida na base do Encarnado** — História, Ocultismo, Investigação ou Intimidação —, pode fazê-lo com **vantagem**, sem ação ou PE adicionais. A escolha é a registrada na criação e não muda entre usos.
+
+##### Experiência Preservada
+
+**Uma vez por cena**, se usar a Reserva de Experiência num teste próprio e ele continuar falhando depois do d4, **esse uso da Reserva não é consumido**. A falha e suas consequências acontecem normalmente, sem nova rolagem ou tentativa.
+
+Você precisa ter um uso disponível para empregar a Reserva. A preservação não aumenta o saldo acima do máximo e não vale para o d4 concedido a um aliado.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-feto -->
 <a id="origens--origem-feto"></a>
-### Feto
+### Híbrido
 
-Você é uma criação que reúne natureza humana e amaldiçoada. Alguém participou deliberadamente da sua formação, e o motivo pode ter sido pesquisa, ambição ou uma tentativa de produzir algo que ainda não existia. O nome desta Origem descreve essa procedência. Seu personagem pode ter aparência e idade adulta.
+Seu corpo reúne natureza humana e amaldiçoada. Você pode ser fruto de uma criação deliberada, de uma experiência ou de uma história semelhante às Pinturas da Morte. Talvez procure quem participou da sua formação ou tenha começado a construir uma vida longe dessa pessoa. Aparência, idade e tempo vivido não precisam coincidir.
 
-As Pinturas da Morte inspiram essa possibilidade no Ciclo Maldito. A campanha também pode apresentar outras criações. Os efeitos dos Legados são regras desta Origem, não características obrigatórias de todo ser parecido na obra.
+Escolher Híbrido não classifica você como maldição para as regras. Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e recuperação normais, salvo exceção expressa da ficha; sua Origem não impõe uma penalidade de cura por Energia Reversa nem imunidade geral a venenos.
 
-Para as regras do Ciclo Maldito, escolher Feto não classifica seu personagem como uma maldição. Requisitos e efeitos destinados a maldições não passam a alcançá-lo por essa escolha. Você recebe cura e recuperação normais, salvo uma exceção expressa da sua ficha.
+**Perícia da Origem:** escolha Ocultismo, Medicina, Sentir Energia ou Natureza. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
-**Perícia da Origem:** escolha Ocultismo, Medicina, Sentir Energia ou Natureza. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica.
+**Legados de história:** irmãos com quem compartilha sua formação; uma numeração que identifica a série criada; quem guardou você antes do despertar; a diferença entre a idade aparente e os anos que viveu. Esses detalhes não concedem sentidos ou vínculos sobrenaturais adicionais.
 
-**Sugestões de traço:** seus irmãos, a pessoa que criou você ou uma diferença entre a idade aparente e o tempo vivido. Seus ofícios podem ter sido ensinados durante sua formação ou escolhidos depois que começou a viver por conta própria.
+#### Regeneração Orgânica
 
-#### Legados narrativos
+Quando seus ferimentos se tornam graves, você concentra energia para recompor o próprio corpo. Pode usar esta capacidade **metade da Constituição, arredondada para baixo, +1 vezes por cena**, no máximo **uma vez em cada turno seu**.
 
-**Irmãos.** Escreva quantos irmãos tem e o que aconteceu com eles. Você reconhece um irmão ao encontrá-lo e sabe quando um deles morre, mesmo distante. Eles podem ser criações diferentes da mesma pessoa. Combine novas relações com o mestre antes de acrescentá-las à história. O vínculo não informa a localização nem os pensamentos do irmão.
+Enquanto tiver **pelo menos 1 PV e até 30% da vida máxima atual, arredondados para baixo**, use uma **Ação Bônus** e gaste **de 1 PE até sua maior Classe disponível pelo nível**. Escolha e pague antes de rolar: recupere **1d6 PV por PE gasto**, até o máximo atual.
 
-**Numeração.** Escreva seu número e quantos integrantes havia na série criada. Quem conhece esse trabalho reconhece a série a que você pertence.
+Confira a vida ao ativar, sem contar vida temporária. A cura pode ultrapassar os 30%. Cada ativação consome um uso, qualquer que seja o gasto ou o resultado dos dados.
 
-**Guardado.** Antes de despertar, você foi guardado como um objeto. Escreva quem guardou você, onde e por quanto tempo. Essa pessoa, ou o que restou dela, faz parte da sua história.
+A regeneração cura apenas você. Não recupera Integridade, remove condições ou Sequelas, nem recompõe partes perdidas. Não é Energia Reversa, feitiço ou Manejo, e funciona com Sem Técnica. Impedimentos e modificadores de cura aplicáveis continuam valendo.
 
-**Devagar.** Seu corpo envelhece em outro ritmo. Escreva há quanto tempo existe e a idade que aparenta. Pessoas que conheceram você no passado podem notar a diferença. O Legado não altera seus atributos ou o nível inicial.
+> **Exemplo:** com Constituição 3, você tem dois usos por cena. Se a vida máxima atual é 41, o limite para ativar é 12 PV. Com 12 PV e Classe 2 disponível, pode gastar 2 PE e rolar 2d6. Resultados 3 e 5 recuperam 8 PV, levando você a 20. Com 13 PV ou zero, não poderia iniciar essa regeneração.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#feto-beneficios -->
 <a id="origens--feto-beneficios"></a>
-#### Legados do Feto
+#### Menores do Híbrido
 
-##### Legados de rolagem
+Escolha **duas menores**. Anatomia Suplementar, Armamento Orgânico e Locomoção Adaptada podem ocupar as duas vagas, desde que você escolha **opções diferentes**. As outras menores não se repetem.
 
-**Meio e Meio.** **Uma vez por cena**, faça com vantagem um Teste de Resistência contra veneno ou doença.
+##### Anatomia Suplementar
 
-**Como Se Monta.** **Uma vez por cena**, refaça um teste de Medicina em que falhou.
+Escolha uma alteração:
 
-**Faro.** **Uma vez por cena**, use Sentir Energia no lugar de Investigação ao procurar uma maldição. A tentativa precisa contar com sinais que você possa perceber. A substituição mantém o alcance e as limitações da percepção disponível, sem revelar automaticamente uma criatura oculta ou atravessar obstáculos que bloqueiem seus sentidos.
+- **Apêndice preênsil:** braço auxiliar, cauda ou tentáculo que segura um objeto de até **1 Volume** e faz manipulações simples com as ações normais. Deixa as mãos livres, sem conceder ataques, escudo ou gestos adicionais.
+- **Olho adicional:** escolha sua posição. Enquanto estiver exposto, você pode enxergar por ele, com **visão noturna a 9 m**.
 
-**Paciência.** **Uma vez por dia**, refaça um teste de perícia realizado enquanto esperava, vigiava ou permanecia escondido sem se mover.
+Uma boca extra usada em combate é representada por Presas ou boca predatória, abaixo.
 
-##### Legados de exceção
+##### Armamento Orgânico
 
-**Sangue que Não é Sangue.** Você dispensa comida, sono e respiração humanos. Em troca, seu corpo tem necessidades que ninguém sabe nomear.
+Seu corpo oferece uma forma própria de atacar. Cada aquisição dá um perfil, usando **seu dado desarmado atual**, que acompanha sua evolução, sem acrescentar outro dado.
 
-A dispensa de sono permite permanecer acordado, mas recuperar recursos continua exigindo os descansos normais. Dispensar respiração impede sufocamento, sem conceder imunidade a veneno, doença, dano ou gases que afetem o corpo por outros meios.
+| Perfil | Dano | Benefício |
+|---|---|---|
+| Garras ou lâminas ósseas | Cortante | Fineza: pode usar Destreza no acerto e no dano. |
+| Presas ou boca predatória | Perfurante | Pode Agarrar com a boca, mantendo as mãos livres. Usa a manobra normal, substituindo um ataque e sem causar dano nessa tentativa. |
+| Punhos nodosos ou chifre rombudo | Concussão | Rompe: vantagem contra objetos e estruturas que consiga danificar. |
+| Membro extensível | Concussão | Ataques feitos com esse membro têm alcance permanente de 3 m. |
 
-**Talhe.** **Uma vez por cena**, impeça uma aplicação de Agarrado. O agressor escolhe a contrapartida: você solta um objeto que segura ou é deslocado **1,5 m** para um espaço livre com apoio que ele escolher, adjacente à sua posição. Se uma opção for impossível, o agressor escolhe a outra. Se nenhuma for possível, você não pode usar o Legado. Esse deslocamento não provoca ataques de oportunidade.
+Dois perfis oferecem alternativas; suas propriedades não se somam no mesmo golpe. Membro Extensível vale também para ataques de oportunidade e Reações que já permitam atacar. Não exige outra ação, não concede ataques extras nem exige manter o membro esticado o tempo todo.
 
-<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-sem-tecnica -->
-<a id="origens--origem-sem-tecnica"></a>
-### Sem Técnica
+O alcance adicional não amplia armas empunhadas ou manobras: Agarrar, Derrubar e Empurrar conservam suas distâncias normais.
 
-Você tem energia amaldiçoada, mas não possui técnica inata. Desenvolveu seu estilo a partir de uma aptidão que pode ser aprendida. Sua criação usa a rota Sem Técnica, apresentada em **Rotas de criação**.
+##### Locomoção Adaptada
 
-Essa opção se soma a **Latente, Receptáculo, Descendente, Encarnado ou Feto**. Escolha uma dessas Origens e conserve sua perícia, seus ofícios, seu Teste de Resistência e seu traço. Depois, ocupe uma das duas vagas de Legado com a entrada abaixo.
+Escolha uma adaptação:
 
-#### Legado narrativo
+- **Aderência:** deslocamento de escalada igual ao normal, inclusive em paredes lisas e tetos, com uma mão livre e apoio dos pés.
+- **Anfíbio:** respiração aquática e deslocamento de natação igual ao normal.
+- **Planagem:** use sua **Reação ao começar uma queda**, com os braços livres, para descer sem dano de altura. Pode avançar horizontalmente até a altura perdida, limitado ao deslocamento normal por queda. Não permite subir ou pairar.
 
-**Sem Técnica.** Você não possui técnica inata. Escolha uma semente pelo procedimento de **Rotas de criação — Sem Técnica**. Seus Manejos serão desenvolvidos a partir dela, com os requisitos e as permissões descritos naquela rota.
+##### Bolsa Orgânica
 
-Sem Técnica satisfaz a exigência de ter um Legado narrativo. Sua segunda escolha pode ser outro narrativo, um de rolagem ou um de exceção da Origem principal. Você não recebe uma terceira vaga por escolher esta opção.
+Sua capacidade de carga aumenta em **Maestria Volume**; os valores que usam o dobro do limite acompanham esse aumento. Você também pode guardar corporalmente **um objeto de até 1 Volume**, que continua contando na carga. Guardar e retirar seguem as manipulações normais.
 
-Corpo Amaldiçoado e Restrição Celestial não aceitam este Legado. Essas Origens já definem seus próprios caminhos de criação. Uma história que reúna características parecidas continua usando uma única combinação de regras.
+##### Memória da Dor
 
-#### Exemplo de escolha
+**Uma vez por cena**, depois de falhar em um TR contra um feitiço, pode marcar aquela ameaça. Receba **vantagem no próximo TR contra uma nova conjuração do mesmo feitiço pelo mesmo inimigo**, ainda nesta cena.
 
-Aya pertence a um clã, mas nasceu sem técnica inata. Escolhe **Descendente** como Origem e **Sem Técnica** como primeiro Legado. Para o segundo, escolhe **Biblioteca**, que representa os anos estudando no arquivo da família. Em Rotas de criação, escolherá a semente e construirá seus Manejos.
+O benefício acaba nessa rolagem. Não refaz a falha anterior nem melhora saídas de uma condição já aplicada.
 
-Se preferisse **Arquivo** como segundo Legado, Aya teria dois Legados narrativos. Essa escolha seria válida: a obrigação é ter pelo menos um narrativo, e não comprar obrigatoriamente um benefício de rolagem.
+##### Recomposição Precisa
+
+Por aplicação de cura recebida, pode repetir até **metade da Constituição, arredondada para baixo, mínimo 1**, dos dados que deram 1. Aceite os novos resultados.
+
+A repetição não cria outra aplicação de cura nem reaplica seus bônus. Uma cura sem dados não ganha dados para repetir.
+
+##### Reserva Orgânica
+
+Transforme a cura que excederia sua vida máxima em **vida temporária, até Constituição, mínimo 1**, respeitando o teto geral e sem somar reservas. Isso não altera a exigência de vida para iniciar Regeneração Orgânica.
+
+##### Metabolismo Flexível
+
+No descanso curto, pode ceder até **sua maior Classe** dos PE que efetivamente recuperaria para receber **3 PV por PE cedido**. Não gasta PE que já possuía nem recebe os pontos cedidos junto da cura.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-corpo -->
 <a id="origens--origem-corpo"></a>
 ### Corpo Amaldiçoado
 
-Seu corpo foi construído e ganhou consciência. Madeira, tecido, metal ou outros materiais podem fazer parte dele. Você tem lembranças, vontades e relações próprias. O modo como foi criado e a reação das pessoas ao encontrar você são bons pontos de partida para a história.
+Seu corpo foi construído e ganhou consciência. Madeira, tecido, metal ou outros materiais podem fazer parte dele. Você tem lembranças, vontades e relações próprias. O objetivo de quem criou você, a pessoa que o acolheu e a reação de quem o encontra ajudam a definir sua história.
 
-**Perícia da Origem:** escolha Atletismo, Percepção, Ocultismo ou Intimidação. **Criação:** Técnica Marcial, em Rotas de criação. Na criação do personagem, escolha também o **ofício compatível com seu corpo** e anote-o na ficha, conforme Reparo do corpo.
+**Perícia da Origem:** escolha Atletismo, Percepção, Ocultismo ou Intimidação. **Criação:** Técnica Marcial, com energia amaldiçoada, PE, Refino e Aptidões. Receba também os demais treinos da base. Sem Técnica não é compatível com esta Origem.
 
-**Sugestões de traço:** o objetivo de quem criou você, a pessoa que o acolheu ou algo que guarda sobre seus núcleos. Seus ofícios podem ter sido ensinados pelo criador ou aprendidos depois que ganhou autonomia.
+Na criação, escolha o **ofício compatível com seu corpo** e registre-o na ficha. Por exemplo: Entalhador para madeira, pedra ou osso; Forja para metal; Alfaiate para pano. A lista não é fechada. O ofício deve corresponder ao trabalho necessário para reparar sua estrutura, sem cobrar automaticamente todos os ofícios dos materiais presentes.
 
-#### Energia e capacidades
+Você não recebe técnica inata pelo material, aparência ou número de núcleos. Todas as histórias usam a mesma marcante, **Existência Artificial**, e duas menores elegíveis.
 
-Você possui energia amaldiçoada, PE, Refino e aptidões. As regras de Técnica Marcial determinam como montar suas Katas e quais capacidades essa rota admite. Você não recebe uma técnica inata por ter vários núcleos ou uma aparência diferente.
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#corpo-configuracoes -->
+<a id="origens--corpo-configuracoes"></a>
+#### Histórias do corpo
 
-Escolha **uma configuração** entre Ninhada, Gêmeos, Inteiro e Manutenção. Ela ocupa seu Legado narrativo obrigatório e libera a lista de Legados de rolagem correspondente. Você não pode combinar duas configurações. Seu segundo Legado pode vir da lista liberada, ser Ferro Velho ou ser um Legado personalizado permitido pelas regras de criação.
+Escolha uma história ou escreva outra com o mestre. Ela não consome uma menor nem altera a marcante comum. Consciências e personalidades compartilham ficha, recursos, ações e condições.
 
-Panda é uma referência de corpo construído com consciência. As quatro configurações abaixo oferecem possibilidades de personagem do Ciclo Maldito. Elas não representam quatro métodos comprovados de fabricação na obra.
+**Ninhada.** Três seres compartilham o corpo e se reconhecem como partes dele. Escreva quem são e como se relacionam. Uma conversa entre eles não fornece três tentativas para a mesma tarefa.
 
-#### Corpo construído
+**Gêmeos.** Duas consciências se alternam num corpo cuja organização ainda não se estabilizou. Combinem os sinais da troca e o que muda na interpretação. As regras da ficha permanecem as mesmas.
 
-Você é **imune a Envenenado**. Essa imunidade à condição não concede resistência ao tipo de dano Veneno nem dispensa outras consequências de uma capacidade. Energia Reversa não cura você. Consulte [Reparo do corpo](#origens--origem-reparo) para recuperação e para as curas compatíveis.
+**Inteiro.** Você despertou com um único núcleo. Registre o que sabe sobre a criação e o que ainda deseja descobrir.
+
+**Manutenção.** Sua consciência é própria, mas sua história inclui alguém que fornece energia ao corpo. Escreva quem é e o que cobra. Isso não drena PE automaticamente nem obriga uma doação em cada descanso. Esta história permite escolher Núcleo Dependente e Mente Resguardada, cada uma numa vaga normal de menor.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#corpo-existencia -->
+<a id="origens--corpo-existencia"></a>
+#### Existência Artificial
+
+Energia amaldiçoada sustenta a consciência no seu corpo construído. Você **não precisa comer, beber, respirar ou dormir**, embora possa comer e beber por vontade própria. Não adquire estágios de **Exaustão** e é **imune a Envenenado**.
+
+Isso não concede resistência ao dano Veneno ou imunidade a outras condições. Dispensar respiração evita a falta de ar; calor, pressão e substâncias que danifiquem a estrutura continuam funcionando. Uma capacidade ainda pode impor Inconsciente. Dano, Integridade, Sequelas, derrota e morte seguem suas regras.
+
+##### Repouso
+
+Qualquer local conta como **ambiente propício para seus descansos curtos e longos**. Os demais requisitos permanecem: poder parar em segurança no curto e encerrar a missão com oportunidade de repousar no longo. O benefício vale só para você.
+
+Pode permanecer consciente e em vigília passiva durante o repouso, usando seus sentidos normalmente. Isso não oferece detecção automática nem permite trabalhar, combater ou manter tarefas incompatíveis com o descanso. Interrupções seguem as regras gerais.
+
+Para renovar usos por dia, um repouso equivalente ao sono exigido pela regra geral substitui dormir. A mesma pausa não renova habilidades várias vezes nem se torna descanso longo por essa permissão.
+
+##### Recuperação da estrutura
+
+**Energia Reversa e curas derivadas dela não recuperam sua vida.** Efeitos destinados apenas a restaurar tecido vivo também não reparam sua estrutura. Técnicas e capacidades cuja regra alcance explicitamente corpos construídos funcionam dentro de seus limites.
+
+Seu reparo segue [Reparo do corpo](#origens--origem-reparo). Qualquer pessoa treinada no ofício compatível pode fazê-lo, inclusive você, se estiver capaz e tiver ferramentas e materiais adequados. Não precisa ser seu criador ou possuir um vínculo especial. Reparar não restaura um núcleo destruído, não devolve a vida nem fabrica poderes.
+
+##### Manutenção Precisa
+
+**Uma vez por dia**, quando um teste para reparar você durante um **descanso curto** falhar, quem faz o reparo pode **repetir a rolagem e deve aceitar o novo resultado**.
+
+É a mesma tentativa. No sucesso, recupere apenas a quantidade prevista pelo reparo, uma única vez. O uso diário pertence a você; trocar de reparador não o renova. Também pode usar o benefício ao reparar a si mesmo, se for qualificado e capaz.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-reparo -->
 <a id="origens--origem-reparo"></a>
 #### Reparo do corpo
 
-Durante um **descanso curto**, uma pessoa treinada em **ofício compatível com o corpo, anotado na ficha** pode reparar você. Pode ser outro personagem ou você mesmo, se estiver capaz de trabalhar. São necessárias ferramentas e materiais adequados ao corpo. Há **uma tentativa por corpo a cada descanso curto**, mesmo que mais de uma pessoa possa reparar.
+Durante um **descanso curto**, uma pessoa treinada no **ofício compatível anotado na sua ficha**, com ferramentas e materiais adequados, pode reparar você. Pode ser outro personagem ou você mesmo, se estiver capaz de trabalhar. Há **uma tentativa por corpo a cada descanso curto**, mesmo com vários reparadores disponíveis.
 
-O ofício é escolhido na criação do personagem e fica registrado na ficha. Por exemplo, Entalhador pode atender a madeira, pedra ou osso; Forja, a metal; Alfaiate, a pano. A escolha depende do corpo, sem uma lista fechada de materiais.
+Use o procedimento e a tabela de [Reparar, em Cura e reparo](#campo--inv-reparo). Para um personagem desta Origem, compare as **Classes máximas permitidas pelo nível** de quem repara e de quem é reparado, sem depender das capacidades conhecidas.
 
-Compare as Classes de capacidade permitidas pelos níveis de quem repara e do personagem reparado, conforme a tabela de Classes em Fundamento. Use a Classe máxima disponível pelo nível, sem depender das capacidades que cada um conhece.
+A CD é **8 + atributo usado no ofício + Maestria do reparador + ajuste da comparação**. No sucesso, um corpo da mesma Classe ou de Classe inferior recupera **metade da vida máxima**; uma Classe acima, **um terço**; duas ou mais acima, **um quarto**. Arredonde para baixo e não ultrapasse o máximo. A falha consome a tentativa. Especialização altera a rolagem, sem aumentar a base da CD.
 
-| Classe do corpo em relação a quem repara | Dificuldade | Ajuste | No sucesso recupera |
-|---|---|---|---|
-| Igual | Difícil | 0 | Metade da vida máxima. |
-| Uma abaixo | Média | −2 | Metade da vida máxima. |
-| Duas ou mais abaixo | Fácil | −4 | Metade da vida máxima. |
-| Uma acima | Difícil | 0 | Um terço da vida máxima. |
-| Duas ou mais acima | Difícil | 0 | Um quarto da vida máxima. |
+Manutenção Precisa permite a repetição descrita na marcante. Reparo Autônomo conserva sua própria ação, frequência e recuperação de 30%. Descanso longo e vida a zero seguem suas regras, sem exceção concedida por este reparo.
 
-A CD é **8 + atributo usado no ofício + maestria de quem repara + ajuste**. Defina o atributo conforme o trabalho, antes de rolar. Especialização e outros modificadores alteram a rolagem, sem aumentar essa base de CD. No sucesso, recupere a parcela de vida máxima indicada na tabela, **arredondada para baixo**, sem ultrapassar o máximo. A falha consome a tentativa daquele descanso.
-
-Uma técnica cuja Regra alcance um corpo construído também pode curar você. Energia Reversa e curas derivadas dela continuam incompatíveis. Descanso longo segue Descansos. Chegar a zero de vida segue Vida a zero, em Dano e recuperação, sem exceção concedida por este reparo.
-
-> **Exemplo:** Rui tem 31 PV máximos e está com 8. Um aliado da mesma Classe repara seu corpo com atributo 3 e maestria 2. A CD é 13 e o bônus treinado é +5. Com 8 no d20, alcança 13 e recupera 15 PV. Rui termina com 23.
-
-<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#corpo-configuracoes -->
-<a id="origens--corpo-configuracoes"></a>
-#### Configurações do corpo
-
-Cada configuração descreve sua consciência e sua relação com a energia que mantém o corpo. Escolha uma como **Legado narrativo**. As personalidades compartilham a mesma ficha, recursos, ações e condições.
-
-**Ninhada.** Três seres compartilham o corpo e se reconhecem como partes dele. Escreva quem são e a relação entre eles. Essa configuração libera Rodízio, Vigília e Desempate. Interpretar uma conversa entre os três não fornece três tentativas para resolver uma tarefa.
-
-**Gêmeos.** Duas consciências se alternam num corpo que não estabilizou sua organização. O mestre determina quando ocorre a troca. Antes da primeira sessão, combinem os sinais e o que muda na interpretação. Você continua interpretando o personagem. A troca não modifica atributos, Legados, ações ou recursos. Essa configuração libera Cabeça Trocada, Nunca os Dois e Palpite.
-
-**Inteiro.** Você despertou com um único núcleo. Sua criação é uma exceção que a campanha pode investigar. Escreva o que sabe sobre o despertar e o que ainda procura descobrir. Essa configuração libera Feito de Uma Peça, Teimosia e Peça Única.
-
-**Manutenção.** Sua consciência é própria, mas você depende de uma pessoa que fornece energia ao corpo. Escreva quem é e o que cobra pelo abastecimento. Você decide quando procurá-la. Essa dependência faz parte dos acontecimentos da campanha e não drena PE automaticamente. Você conserva a recuperação normal enquanto a história não estabelecer um problema concreto. Essa configuração libera Ajuste Fino, Recarga e Fiado.
-
-> **Exemplo:** Rui escolhe Ninhada e descreve três consciências: uma curiosa, uma cautelosa e uma que tenta mediar as discussões. Ele interpreta as três, mas rola uma única Iniciativa e usa os recursos normais de um personagem. A escolha do segundo Legado definirá o benefício mecânico associado à configuração.
+> **Exemplo:** Rui tem 31 PV máximos e está com 8. Um aliado da mesma Classe repara seu corpo com atributo 3 e Maestria 2. A CD é 13 e o bônus treinado é +5. Com 8 no d20, alcança 13 e recupera 15 PV. Rui termina com 23.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#corpo-ninhada-gemeos -->
 <a id="origens--corpo-ninhada-gemeos"></a>
-#### Legados de Ninhada e Gêmeos
+#### Menores do Corpo Amaldiçoado
 
-Escolha um Legado de rolagem apenas na lista da sua configuração. As escolhas de perícias, atributos e outros detalhes são registradas na criação e permanecem as mesmas entre utilizações.
+Escolha **duas menores distintas** entre as oito gerais. Se sua história for Manutenção, pode usar essas mesmas vagas nas duas opções adicionais da seção seguinte.
 
-##### Ninhada
+##### Ferramentas Integradas
 
-**Rodízio.** Escolha três perícias, uma para cada ser. **Uma vez por cena**, faça um teste de uma delas como se fosse treinado. A lista oferece três possibilidades para o mesmo uso, não um uso separado por perícia.
+Incorpore à estrutura um conjunto de ferramentas de um Ofício em que seja treinado. O conjunto **não ocupa Volume** e fica disponível sem sacar ou guardar. **Uma vez por cena**, antes de um teste desse Ofício que use as ferramentas integradas, receba **vantagem**.
 
-**Vigília.** **Uma vez por cena**, role Iniciativa com vantagem. Declare o uso antes de rolar. A vantagem afeta a posição de seu personagem, sem remover as demais consequências de uma emboscada.
+A isenção não inclui materiais, peças transportadas ou produtos. Você ainda precisa obter o conjunto; a menor não concede ferramentas gratuitas ou o treino. Instalação e troca acompanham a manutenção, sem exigir oficina fixa ou vínculo com o criador. Restrições próprias de um teste continuam valendo, como as fontes de vantagem permitidas em Criação de entidades.
 
-**Desempate.** **Uma vez por dia**, refaça um Teste de Resistência em que falhou. Qualquer um dos quatro tipos pode ser escolhido naquela utilização.
+##### Acabamento Trocável
 
-> **Exemplo de Ninhada: Rodízio.** Rui escolhe Rodízio e registra Tecnologia, História e Medicina. Ao tentar compreender uma máquina, usa Tecnologia como treinado. Se maestria 2 fosse o único bônus que faltava, ele passa a somá-la naquela tentativa. O uso daquela cena foi gasto: não poderá usar o mesmo Legado em Medicina logo depois.
+Depois de mudar seu acabamento, escolha duas perícias entre **Persuasão, Enganação, Intimidação e Atuação**. **Uma vez por cena**, antes de um teste social de uma delas, receba **vantagem**. As duas compartilham o uso.
 
-##### Gêmeos
+Durante um descanso curto ou longo, pode fazer **uma mudança visível** com materiais adequados disponíveis, como roupas, tintas ou revestimentos. Ao concluir o descanso, entram em vigor a aparência e a nova escolha de perícias, sem PE ou teste. Isso não renova o uso por cena.
 
-**Cabeça Trocada.** Escolha uma perícia e um atributo na criação. **Uma vez por cena**, faça um teste daquela perícia usando o atributo escolhido em vez do atributo normal. Os demais modificadores da perícia permanecem.
+A seleção acompanha a mudança de acabamento, não cada teste. A alteração não modifica automaticamente voz, tamanho, capacidades ou assinatura de energia, nem oferece treino ou sucesso social impossível.
 
-**Nunca os Dois.** **Uma vez por descanso curto**, refaça um Teste de Resistência de Intelecto em que falhou.
+##### Amortecimento de Queda
 
-**Palpite.** **Uma vez por dia**, faça com vantagem um teste de perícia em que não seja treinado. Ter especialização em outra perícia ou um atributo alto não altera esse requisito.
+**Uma vez por cena**, estando consciente, use sua **Reação** para reduzir à metade o dano que sofreria de uma queda, arredondando para baixo depois das defesas aplicáveis.
+
+Não permite voo, planagem ou mudança do local de chegada. Um ataque que cause a queda e a queda em si são eventos distintos.
+
+##### Reparo Autônomo
+
+**Uma vez por dia**, gaste uma **Ação Padrão** para reparar a si mesmo, inclusive em combate. No sucesso, recupere **30% da vida máxima, arredondados para baixo**. Precisa estar consciente e capaz, treinado no ofício compatível, com ferramentas e materiais acessíveis.
+
+Use o teste de Reparar, comparando sua Classe consigo mesma. Esta menor tem sua própria ação, frequência e taxa; não consome uma tentativa de um descanso curto futuro. Manutenção Precisa continua exigindo reparo durante descanso curto.
+
+##### Redundância
+
+Escolha **Físico, Vigor, Intelecto ou Espírito**. **Uma vez por cena**, quando falhar no TR escolhido, pode repetir a rolagem e deve aceitar o segundo resultado. A escolha é fixa; não exige treino nem o concede. Mantenha os modificadores e requisitos do teste.
+
+##### Carcaça Grande
+
+Você é da categoria de tamanho **Grande**, de forma passiva e permanente. Aplique as regras gerais de tamanho. Não há ativação, custo ou transformação temporária, nem bônus próprio de vida, dano, Força, carga ou alcance concedido por esta menor.
+
+##### Construção Especializada
+
+Receba um **Talento passivo de Categoria de Efeito 1**, compatível com sua rota e respeitando os requisitos. Ele representa uma função incorporada ao projeto e fica fora dos espaços conhecidos e dos cinco Talentos pagos.
+
+Escolha na criação, sem duplicação, evolução gratuita ou troca livre durante manutenção. O benefício não concede técnica inata.
+
+##### Arquivo de Procedimentos
+
+Registre **três perícias ou Ofícios**. Você mantém **treino em um deles por vez**. Durante um descanso curto ou longo, pode trocar uma vez o procedimento ativo; a mudança entra em vigor ao concluir o descanso, sem PE, teste ou material adicional apenas para selecioná-lo.
+
+A lista dos três permanece fixa. Pode trocar o procedimento no mesmo descanso em que muda o acabamento. Mantenha os requisitos de ferramentas, materiais, receitas e conhecimentos da tarefa.
+
+**O treino do Arquivo não pode ser aprimorado para especialização nem servir de requisito para adquiri-la.** Não soma bônus a um treino já possuído nem concede os três ao mesmo tempo. Treinos e especializações obtidos por fontes independentes conservam suas regras.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#corpo-inteiro-manutencao -->
 <a id="origens--corpo-inteiro-manutencao"></a>
-#### Legados de Inteiro e Manutenção
+#### Menores de Manutenção
 
-##### Inteiro
+Estas duas opções exigem a história **Manutenção**. Cada uma ocupa uma das duas escolhas normais de menor.
 
-**Feito de Uma Peça.** **Uma vez por descanso curto**, refaça um Teste de Resistência de Vigor em que falhou.
+##### Núcleo Dependente
 
-**Teimosia.** **Uma vez por cena**, refaça um teste necessário para manter algo que já está fazendo, como segurar uma porta, sustentar uma estrutura ou conservar um agarrão. A tentativa precisa ser de manutenção. Iniciar outro ataque ou repetir uma ação concluída não cumpre esse requisito.
+Sua estrutura depende diretamente da reserva de energia. Aumente seus PE máximos em **Essência + quantidade de marcos alcançados × metade da Essência, arredondada para baixo**. Conte os marcos dos níveis **6, 10, 14, 18, 22, 26 e 30**.
 
-**Peça Única.** Escolha uma perícia na qual seja treinado. **Uma vez por cena**, faça um teste dela com vantagem.
+Quando Essência aumentar, recalcule todo o benefício, inclusive as parcelas anteriores. Não use Maestria nessa conta. Alterar o máximo não recupera toda a reserva; o saldo segue a regra geral aplicável à mudança.
 
-##### Manutenção
+> **Exemplo:** com Essência 3 no nível 10, há dois marcos: 3 + 2 × 1 = **5 PE adicionais**. Se Essência subir para 4, recalcule: 4 + 2 × 2 = **8 PE adicionais**.
 
-**Ajuste Fino.** Escolha um ofício na criação. **Uma vez por cena**, faça um teste dele com vantagem. O Legado não concede treinamento permanente nem dispensa ferramentas ou materiais.
+###### Alma e Integridade
 
-**Recarga.** Escolha duas perícias na criação. **Uma vez por descanso curto**, faça um teste de uma delas com vantagem. As duas compartilham o mesmo uso.
+Você **não possui barra de Integridade**. Dano de Alma que também atinja vida continua causando sua perda de vida. Você é imune ao dano exclusivo à Integridade, que não atinge vida; nenhum desses danos se converte em perda de PE. Os estágios de Integridade não se aplicam, e recuperar Integridade não recupera energia.
 
-**Fiado.** **Uma vez por dia**, refaça qualquer rolagem em que falhou. Antes de confirmar o uso, combine com o mestre o que passará a dever a quem mantém você. Registre a dívida na ficha. Descansar renova o uso conforme sua frequência, mas não apaga a dívida.
+Isso não significa ausência de alma ou imunidade a todos os efeitos que a atinjam. Em um efeito misto, resolva os demais componentes aplicáveis. Exigências de recuperar Integridade após derrota só se aplicam a quem possui essa reserva; outras causas de queda ou inconsciência continuam valendo.
 
-##### Legado de exceção de qualquer configuração
+###### Falta de energia
 
-**Ferro Velho.** Você não adquire estágios de Exaustão. Em troca, não conhece sua vida atual: o mestre registra os pontos e descreve os sinais de dano que seu corpo apresenta. Ele ainda informa quando você chega a um limite que exige escolha ou permite usar uma habilidade, para que possa decidir. O Legado não impede dano, queda ou destruição do corpo.
+Você fica **inativo quando não resta nenhum PE comum ou temporário**. Se gastar os últimos PE numa capacidade, resolva primeiro o efeito pago e fique inativo depois.
 
-> **Exemplo:** numa missão com quatro confrontos, Recarga só poderá ser usado quatro vezes se houver os descansos curtos necessários entre os usos. O número de combates sozinho não renova a entrada.
+Enquanto inativo, permanece consciente, pode falar, perceber o entorno e fazer gestos simples. Seu deslocamento cai à metade. **Falha automaticamente em quaisquer testes e não pode realizar outras ações, usar Reações ou Bloquear.** Sua Defesa continua normal. Isso não impede inconsciência ou derrota por outros motivos.
+
+Receber pelo menos **1 PE comum ou temporário por uma fonte válida** encerra imediatamente a inatividade, sem ação adicional. Não renova ações ou Reações gastas nem remove outros impedimentos. Se a energia temporária acabar ou expirar e não houver PE comuns, você fica inativo novamente.
+
+###### Recuperação de energia
+
+Conserve a recuperação normal por descanso, **inclusive enquanto inativo**: 25% dos PE máximos no curto e até o máximo no longo, com os arredondamentos e requisitos normais. Existência Artificial torna o ambiente propício, mas ainda é preciso uma pausa real e encerrar a missão para o descanso longo.
+
+O fornecedor de energia e o que cobra fazem parte da história. Esta menor não cria consumo automático, doação obrigatória por descanso ou transferência livre de PE entre personagens. Recuperar durante uma cena exige uma fonte que permita fazê-lo. Abastecimento de energia e reparo de vida são procedimentos distintos.
+
+##### Mente Resguardada
+
+Você é **imune a Enfeitiçado e Amedrontado**. Ao escolher esta menor, escolha permanentemente uma contrapartida:
+
+- Vulnerabilidade a **um tipo de dano Físico**; ou
+- Vulnerabilidade a **um tipo de dano Elemental e um tipo de dano Especial**.
+
+Escolha tipos individuais dos grupos apresentados em Dano, não grupos inteiros. Use as regras normais de vulnerabilidade. A imunidade não se estende a dano Psíquico, todo TR Mental, ilusões ou outras condições. Você continua tendo emoções, vontade e alma.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-restricao -->
 <a id="origens--origem-restricao"></a>
 ### Restrição Celestial
 
-Você nasceu com uma troca entre o corpo e a energia amaldiçoada. Escolha **um dos dois ramos** na criação. O ramo define sua lista de perícias, seus Legados e a rota de capacidades. Você recebe os benefícios comuns de Origem uma única vez.
+Você nasceu com uma troca entre corpo e energia amaldiçoada. Escolha **um dos dois ramos** na criação: **Sem Energia** ou **Restrição corporal**. Cada um define sua rota, marcante e catálogo de menores. Receba a base de treinamentos uma única vez.
 
-#### Corpo pela Técnica
-
-Seu corpo possui uma limitação importante associada à troca. Escreva como ela afeta a vida cotidiana e combine suas consequências com o mestre antes de jogar. Você possui energia amaldiçoada e cria sua técnica pelo Fundamento.
-
-**Perícia da Origem:** escolha Sentir Energia, Tecnologia, Ocultismo ou Percepção. **Criação:** Fundamento.
-
-Uma técnica que compense a limitação precisa ser construída com seus recursos normais. Esta Origem não concede alcance, entidades ou PE adicionais. Kokichi Muta serve de referência para a pessoa que age por meio de um corpo remoto. A regra da ficha deve fornecer o meio utilizado para isso.
-
-#### Sem Energia
-
-Você nasceu sem energia amaldiçoada. Usa Técnica Marcial e desenvolve **Bênçãos e Lapidação**, conforme Rotas de criação. Seu Caminho entrega a quantidade normal de PE, lidos como **Pontos de Esforço**. Gastá-los não produz energia amaldiçoada pessoal.
-
-**Perícia da Origem:** escolha Atletismo, Acrobacia, Furtividade ou Pontaria. **Criação:** Técnica Marcial.
-
-Você não adquire Sentir Energia, Refino ou aptidões. Percebe o ambiente pelos sentidos e pelos recursos que sua ficha permitir. A proibição de conjurar energia pessoal não impede Katas de contato compatíveis com a rota, nem o uso de ferramentas amaldiçoadas.
-
-**Sugestões de traço para os dois ramos:** a família que rejeitou você, alguém que reconhece o que a troca custou ou uma ferramenta que acompanha sua história. Restrição Celestial não obriga você a escolher um atributo alto específico. Seu modo de atuar será construído nas demais escolhas da ficha.
-
-<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-corpo -->
-<a id="origens--restricao-corpo"></a>
-#### Legados de Corpo pela Técnica
-
-Escolha seu Legado narrativo e, se desejar, o de rolagem entre as entradas deste ramo. Os Legados de exceção da Restrição Celestial estão disponíveis para ambos os ramos.
-
-##### Legados narrativos
-
-**Nasci Assim.** Escreva uma limitação corporal e o que ela exige no cotidiano. Você indica quando ela dificulta a situação, dentro do que foi estabelecido na criação. Essa condição é conhecida pelas pessoas próximas, e você ainda não encontrou como resolvê-la.
-
-**O Substituto.** Escreva pelo que o meio jujutsu conhece você: um nome, uma voz, uma representação ou outro meio diferente do seu corpo. Poucas pessoas sabem quem está por trás disso. Se a representação precisar se mover, falar ou agir à distância, sua ficha deve possuir o recurso apropriado.
-
-**A Oferta.** Escreva o que daria para resolver sua limitação corporal. Alguém que afirma oferecer essa solução sabe que você existe. A oferta pode entrar na história, mas a promessa dessa pessoa ainda precisa ser avaliada.
-
-##### Legados de rolagem
-
-**Antena.** **Uma vez por cena**, refaça um teste de Sentir Energia em que falhou. A repetição mantém os limites dos seus sentidos.
-
-**Do Meu Canto.** **Uma vez por cena**, faça um teste com vantagem enquanto permanece no mesmo lugar. Em combate, você não pode ter se deslocado voluntariamente desde o começo do seu turno atual ou mais recente e não pode fazê-lo até o começo do próximo. Fora do combate, permaneça no lugar durante toda a tentativa. Deslocamento forçado não invalida uma rolagem já resolvida.
-
-**Insônia.** **Uma vez por dia**, refaça um teste de perícia realizado enquanto as outras pessoas do seu grupo dormiam. O Legado não dispensa suas próprias necessidades de descanso.
-
-**Li Tudo.** **Uma vez por cena**, refaça um teste de Ocultismo ou Investigação em que falhou.
+Sua história pode incluir a família que rejeitou você, alguém que reconhece o que a troca custou ou uma ferramenta que o acompanha desde a infância. Restrição Celestial não obriga a escolher um atributo alto específico. As demais escolhas da ficha definem como você atua.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-sem-energia -->
 <a id="origens--restricao-sem-energia"></a>
-#### Legados narrativos de Sem Energia
+#### Sem Energia
 
-Estes Legados apresentam sua relação com a falta de energia e com as pessoas que conheceram você antes das aventuras. Escolha pelo menos um narrativo deste ramo.
+Você nasceu sem energia amaldiçoada pessoal. Usa **Técnica Marcial** e desenvolve **Bênçãos e Lapidação**. Seu Caminho fornece a quantidade normal de PE, lidos como **Pontos de Esforço**; gastá-los não produz energia amaldiçoada.
 
-**Descartado.** Escreva quem da sua família tratou você como alguém sem valor e o que exigiram enquanto vivia lá. Você conhece a casa por dentro: os lugares que frequentava, os hábitos das pessoas e a vida que levava. Mudanças ocorridas depois da sua saída ainda precisam ser descobertas.
+**Perícia da Origem:** escolha Atletismo, Acrobacia, Furtividade ou Pontaria. Receba também os demais treinos da base, coerentes com esta rota. Lapidação começa em 1. Defesa sem Armadura e Estímulo Muscular já são gratuitas pela rota, sem consumir escolhas de Origem ou duplicar benefícios.
 
-**Dividido.** Escreva quem nasceu junto de você e a ligação dessa pessoa com sua Restrição Celestial. Ela representa a outra parte de uma troca que marcou os dois. Defina onde está e como vocês se relacionam. O Legado estabelece esse vínculo na história. Seu personagem continua usando integralmente as regras de Sem Energia, sem ganhar energia residual ou bônus quando algo acontece à outra pessoa.
+Você não adquire Sentir Energia, Refino ou Aptidões. Percebe pelos sentidos e pelos recursos que sua ficha permite. Pode usar ferramentas amaldiçoadas e Katas compatíveis com a rota. Consulte **Ausência de energia**, em Defesa sem Armadura, para barreiras, Acerto garantido e equipamentos carregados.
 
-**Desde Criança.** Escolha uma ferramenta de sua história e escreva como chegou às suas mãos. Quem conhece a fabricação ou o dono anterior reconhece a peça. Se começar com ela no inventário, obtenha-a pelos recursos normais de equipamento. O Legado não aumenta seu grau ou concede efeitos adicionais.
+**Legados de história:** quem tratou você como alguém sem valor; a pessoa que nasceu junto e compartilha a história da troca; a ferramenta herdada; como aprendeu a perceber maldições por equipamento ou observação. A função desses recursos precisa existir na ficha; a história não concede uma Bênção ou percepção irrestrita.
 
-**Aprendi a Ver.** Escreva como aprendeu a perceber maldições sem o sentido de energia: um equipamento ou um método de observação. Registre também seus limites. A função concreta deve vir de uma regra disponível à ficha. Este Legado estabelece a história do aprendizado, sem conceder percepção irrestrita ou uma Bênção gratuita.
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-prenuncio -->
+<a id="origens--restricao-prenuncio"></a>
+#### Ataque sem Prenúncio
 
-> **Exemplo:** Sora escolhe Desde Criança. A ferramenta recebida pela criação tem a marca de uma oficina que fechou muitos anos antes. Um artesão pode reconhecê-la e contar sobre o dono anterior. Essa história não altera o dano ou os efeitos que a arma realmente possui.
+Seu adversário percebe o golpe, mas não recebe o sinal energético que esperava para antecipá-lo. **Uma vez por turno seu**, ao declarar um ataque que já possa realizar, anuncie Ataque sem Prenúncio e gaste **2 PE adicionais**, antes das respostas à declaração e da escolha entre Defesa e Bloquear. Não exige outra ação. Pague também o custo do ataque ou da Kata; errar não devolve os custos.
+
+A marcante abrange **ataques comuns corpo a corpo, com arma ou desarmados, e Katas ofensivas por acerto, TR ou resultado Automático**, inclusive Katas à distância ou transportadas por um golpe. Escolha **um defensor**. O benefício direto alcança apenas a **primeira resolução ofensiva contra ele naquela execução**, sem aplicações automáticas nos outros ataques, alvos ou pulsações. Não concede um ataque novo nem modifica a montagem.
+
+##### Antecipação e bloqueio
+
+Se o defensor **puder perceber energia amaldiçoada e ainda não reconhecer por estudo essa execução sua**:
+
+- Ele não pode iniciar uma Reação provocada pela declaração dessa execução que seria resolvida antes da rolagem de acerto, do TR escolhido ou da aplicação Automática inicial, conforme o procedimento usado.
+- Se a resolução admitir Bloquear e ele escolher essa defesa, faz a rolagem **com desvantagem**, seguindo os dois conjuntos completos e os extremos de Aparar e Brecha.
+
+O TR mantém dado, CD e modificadores. Automáticos não ganham teste nem ignoram imunidades, resistências ou requisitos. Benefícios sem gasto de Reação continuam disponíveis. Numa resolução com acerto seguido de TR, a marcante não acrescenta penalidade ao TR.
+
+Defesa fixa, proteção, efeitos já ativos e respostas posteriores ao erro, acerto ou dano conservam suas regras. Uma ativação impedida não consome a reserva de Reação. A escolha de Defesa ou Bloquear permanece antes do d20 do ataque.
+
+Intervenções de terceiros continuam disponíveis. Se outra criatura assumir o ataque, confira a suscetibilidade dela, sem desfazer a intervenção já resolvida ou transferir o reconhecimento do alvo anterior.
+
+##### Estudar a execução
+
+Depois de ser alvo efetivo de uma execução sua e percebê-la por visão ou sentido equivalente, o adversário pode usar **Estudar enquanto consegue observar você**. Gasta a ação de Estudar — normalmente Padrão, salvo permissão válida — e faz seu teste inicial, com a perícia e a CD do procedimento. **Precisa passar para iniciar o reconhecimento.** Não há segunda rolagem para habilitá-lo nem outra informação livre pelo mesmo gasto.
+
+Na falha, a ação foi gasta e o reconhecimento não começa; novas tentativas seguem Estudar. Seus outros usos, inclusive informações evidentes sem teste, permanecem iguais.
+
+A execução pode ter acertado, errado, sido bloqueada ou resistida. Não exige dano nem pagamento de Ataque sem Prenúncio naquela execução. Apenas observar outra pessoa ou receber dano transferido sem ser alvo não equivale a enfrentá-la.
+
+Depois do primeiro Estudar bem-sucedido, o defensor neutraliza a marcante contra as execuções suas que já enfrentou. Cada execução inédita ainda pode receber o benefício na primeira tentativa; depois de enfrentá-la e percebê-la, ele passa a reconhecê-la, **sem novo estudo, teste ou limite de Katas por estudo**.
+
+##### Memória entre encontros
+
+Registre ataques comuns por **tipo ou perfil de arma**, não por exemplar. Outra cópia equivalente não renova a novidade. Ataques comuns desarmados formam um único perfil: trocar soco por chute não o torna inédito.
+
+Katas são reconhecidas separadamente. Conhecer uma arma não revela as Katas ainda desconhecidas feitas com ela. Mudar apenas números, Classe, custo ou arma compatível não torna a mesma Kata inédita. Uma mudança real de funcionamento pode definir outra aplicação, previamente identificada no repertório e adquirida normalmente.
+
+Cada defensor conserva o estudo e as execuções reconhecidas daquele Restringido entre encontros. Combate, missão ou descanso não apagam o aprendizado, que não se transfere automaticamente a aliados ou a outro Restringido. Reconhecimento protege contra esta marcante, não contra o dano e os demais efeitos da execução.
+
+> **Exemplo:** uma Kata de 3 PE com Ataque sem Prenúncio custa **5 PE**. Resolva a Kata normalmente, sem acrescentar dano de arma ou de Estímulo Muscular quando suas fontes não permitirem. Se o adversário já estudou você, mas nunca enfrentou essa Kata, a primeira execução ainda pode receber o benefício; depois de percebê-la, ele a reconhece nos reencontros.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-beneficios -->
 <a id="origens--restricao-beneficios"></a>
-#### Benefícios da Restrição Celestial
+#### Menores de Sem Energia
 
-##### Legados de rolagem de Sem Energia
+Escolha **duas menores distintas** entre as oito abaixo.
 
-**Sentido Treinado.** **Uma vez por cena**, use Percepção no lugar de Sentir Energia. Descreva um indício que seus sentidos possam alcançar, como poeira deslocada ou marcas de passagem. A tentativa conserva a dificuldade e seus limites. Você não ganha a perícia Sentir Energia, visão através de obstáculos ou detecção automática.
+##### Porte Incomum
 
-**Couro.** **Uma vez por descanso curto**, refaça um Teste de Resistência Físico em que falhou.
+Seu limite normal de carga aumenta em **Volume igual à Maestria**. Calcule o dobro a partir do novo limite. Não aumenta Força, tamanho ou dano, nem dispensa requisitos de empunhadura e proteção. Você ainda precisa conseguir segurar e transportar o que carrega.
 
-**Ninguém Viu.** **Uma vez por cena**, refaça um teste de Furtividade em que falhou. As exigências para esconder-se e a ação utilizada continuam valendo. O Legado não concede uma nova tentativa gratuita depois de agir.
+> **Exemplo:** Força 3 e Maestria 1 dão limite de **5 + 3 + 1 = 9 Volume**, com teto de 18 para o excesso permitido. As penalidades de carga continuam valendo.
 
-**No Braço.** **Uma vez por dia**, refaça um teste de perícia que utilize Força ou Destreza e em que tenha falhado. Ataques e Testes de Resistência não são testes de perícia.
+##### Corpo Flexível
 
-##### Legados de exceção dos dois ramos
+Ao se espremer, ignore apenas o custo adicional de movimento da passagem estreita. A abertura ainda precisa comportar corpo e equipamento; penalidades de combate, terreno difícil e rastejar permanecem. Atravessar 3 m de passagem regular custa 3 m em vez de 6 m.
 
-**Peso Real.** Você percebe a presença de ferramenta amaldiçoada, barreira ou véu pelo tato, pelo peso e pelos efeitos físicos que produzem. Essa percepção funciona mesmo quando a energia foi disfarçada. Em troca, o aviso informa somente que existe algo ali, sem identificar sua natureza ou funcionamento. É necessário contato ou um indício físico acessível. Um objeto distante sem sinais ao seu alcance não é detectado.
+##### Mapa Mental
 
-**Assinado.** **Uma vez por descanso longo**, impeça uma aplicação de Cego. Em troca, escolha na criação uma atividade cotidiana que seu personagem é incapaz de realizar e registre a limitação permanente. Ela deve ter importância na vida apresentada, como distinguir rostos pela visão. A exceção não concede visão no escuro, alcance sensorial adicional ou identificação de algo que você nunca percebeu.
+Recorde sem teste o percurso que atravessou conscientemente: curvas, bifurcações e a ordem dos marcos percebidos. Não revela atalhos, caminhos desconhecidos, mudanças posteriores ou deslocamentos que não pôde acompanhar. A capacidade preserva trajetos difíceis sem retirar dos outros a memória cotidiana de caminhos simples.
 
-> **Exemplo:** Sora está escondida quando falha em Furtividade. Ninguém Viu permite repetir aquela rolagem. Se depois atacar de modo que revele sua posição, precisará seguir normalmente as regras para esconder-se outra vez.
+##### Aprendizado Complementar
+
+Receba treino em **uma perícia ou dois Ofícios** que ainda não possua e possa aprender pela sua rota. Escolha ao adquirir a menor. Não fornece ferramentas, materiais, idiomas, treino em armas, TR ou especialização. Não libera Sentir Energia.
+
+##### Assistência Técnica
+
+Escolha **uma perícia ou Ofício em que seja treinado**. Quando usar **Ajudar** no teste correspondente de um aliado, ele recebe **bônus igual à sua Maestria**, além da vantagem normal da ajuda. O aliado mantém seus próprios modificadores.
+
+Aplique o bônus uma vez no total, não por dado. Uma desvantagem que cancele a vantagem de Ajudar não cancela esse bônus. Mantenha contribuição possível, ação, prazo e limite normal de um ajudante; não supre treino obrigatório, ferramenta ou sentido ausente. Não vale para seu próprio teste, ataques ou TRs.
+
+##### Ferramentas Improvisadas
+
+Escolha **um Ofício treinado**. Nas tarefas que exigem apenas ferramentas manuais portáteis desse Ofício, pode substituir o conjunto por objetos que tenha em mãos e consiga usar fisicamente nas funções necessárias. Trate-os como ferramentas adequadas, sem penalidade apenas por serem improvisados.
+
+Não substitui ingredientes, consumíveis, instalações, fonte de calor, diagnóstico eletrônico, proteção necessária ou processos especiais. Também não fornece poderes de ferramenta amaldiçoada ou um Selo. Os objetos precisam existir e cumprir a função.
+
+##### Fôlego Recuperado
+
+Ao concluir um **descanso curto que permita recuperar PE**, recupere PE adicionais iguais à **sua maior Classe disponível**, sem ultrapassar o máximo. Calcule a recuperação normal primeiro e acrescente o bônus.
+
+Recuperação expressamente proibida continua zero. A menor não cura vida, recupera Integridade ou retira Exaustão. Uma pausa contínua é um descanso, não várias recuperações. Use a Classe disponível pela progressão, não a maior Kata conhecida ou a última utilizada.
+
+##### Contribuição Decisiva
+
+**Uma vez por cena**, depois das rolagens e antes da consequência de um **teste de grupo de uma perícia em que seja treinado**, se você passou, pode fazer seu sucesso contar como **dois** para o resultado coletivo. Não exige ação ou PE além da participação na tarefa.
+
+Cada teste coletivo recebe **no máximo uma aplicação**, mesmo com vários portadores. Quem não a aplicou conserva seu uso. O grupo mantém o número de participantes e o limiar normal; a contagem ganha uma contribuição de sucesso. Isso não torna outro personagem bem-sucedido para consequências individuais ou transforma uma tarefa individual em teste de grupo.
+
+> **Exemplo:** cinco personagens precisam de três sucessos. Você e um aliado passam, totalizando dois. Sua contribuição passa a valer dois; com a do aliado, o grupo chega a três. Ninguém refaz a rolagem.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-corpo -->
+<a id="origens--restricao-corpo"></a>
+#### Restrição corporal
+
+Sua energia alcança um funcionamento extraordinário, enquanto seu corpo carrega uma limitação que afeta a vida cotidiana. Os meios para agir, receber cuidados e acompanhar o grupo fazem parte da criação do personagem.
+
+**Perícia da Origem:** escolha Sentir Energia, Tecnologia, Ocultismo ou Percepção. **Criação:** Fundamento. Você tem energia amaldiçoada, Refino e Aptidões; Sem Técnica não é compatível com este ramo. Receba também os demais treinos da base.
+
+Sua marcante reúne **um Talento de Categoria de Efeito 4 ligado à técnica, Saída Elevada e a condição corporal combinada com o mestre**. Receba o CE4 **na criação**, sem ocupar espaço conhecido nem contar entre os cinco Talentos pagos. Escolha também duas menores deste ramo.
+
+**Legados de história:** a representação pela qual o meio jujutsu conhece você; quem cuida do corpo; o que daria para resolver sua limitação; alguém que afirma poder fazê-lo. Marionetes, transporte e outros meios de ação precisam estar sustentados pela ficha e pelos recursos da campanha.
+
+##### Criar sua Restrição
+
+Os ganhos e as penalidades apresentados são **exemplos, não uma lista obrigatória**. Jogador e mestre podem criar um ganho extraordinário ligado à técnica e uma condição corporal próprios, usando-os como referência de alcance e impacto.
+
+O ganho segue os critérios de CE4, com funcionamento, limites e consequências definidos. A penalidade precisa ter impacto equivalente ou maior ao dos exemplos e impor **restrições reais e relevantes** ao personagem, considerando técnica, recursos e campanha. Uma condição mais severa não aumenta os benefícios.
+
+Registre as regras combinadas, os cuidados necessários e os meios de lidar com a condição. Os três corpos apresentados são alternativas completas, não penalidades acumuladas para comprar mais ganhos.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-ce4 -->
+<a id="origens--restricao-ce4"></a>
+#### Talento de Categoria de Efeito 4
+
+Um CE4 permite que sua técnica ultrapasse os limites habituais em um aspecto específico, tornando possível um feito extraordinário. Seu benefício está numa forma única de funcionamento, sem se resumir a aumentar números ou acrescentar efeitos convencionais de combate.
+
+Ao criá-lo, jogador e mestre definem **o que a exceção permite, seus limites e suas consequências**, usando os exemplos como referência de alcance e impacto. Categoria de Efeito não é Classe de conjuração. Este ramo concede um único CE4, não o conjunto de exemplos.
+
+##### Rede Remota
+
+Sua energia mantém uma ligação extraordinária com os intermediários da técnica. O vínculo alcança até **3.000 km a partir do seu corpo**. Você comanda os intermediários e usa os sentidos e a comunicação que a técnica já oferece, sem precisar enxergá-los diretamente.
+
+Capacidades que o intermediário já podia executar continuam disponíveis. Meça da posição dele os alcances, áreas e requisitos de alvo. O benefício é **passivo**, sem PE adicionais apenas pela distância; preserve custos, duração, quantidade de intermediários e ações da técnica.
+
+O intermediário precisa chegar ao local e pode ser enfrentado ou destruído. O talento não fornece marionetes gratuitas, ações extras ou sentidos ausentes. Bloqueios específicos do vínculo continuam valendo.
+
+> **Exemplo:** seu corpo está a 800 km da missão. Uma marionete acompanha o grupo, usando a visão, audição e conversa fornecidas pela técnica. Um disparo de alcance 18 m parte da marionete: o vínculo atravessa os 800 km, mas o disparo conserva seus 18 m a partir dela.
+
+##### Outras referências de criação
+
+As três ideias abaixo servem para criar o CE4 com o mestre. Registrem a operação e os limites antes de usá-lo; o conceito sozinho não fornece uma capacidade completa.
+
+**Arquitetura Microscópica.** Uma técnica compatível coordena trabalhos materiais de precisão microscópica e grande complexidade. A exceção reúne precisão e execução simultânea de um procedimento conhecido. Conhecimento, materiais e testes pertinentes continuam necessários.
+
+**Manifestação Colossal.** Uma técnica compatível leva uma manifestação controlável a uma escala material extraordinária. Definam a dimensão, o uso do espaço e como a manifestação funciona. O tamanho não concede por si só bônus de combate.
+
+**Geografia Interior.** Uma técnica espacial compatível sustenta um espaço interno materialmente acessível, de escala e estabilidade extraordinárias. Definam acesso, ocupação, permanência e consequências para pessoas e objetos. Esse espaço não concede uma Expansão de Domínio por si só.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-saida -->
+<a id="origens--restricao-saida"></a>
+#### Saída Elevada
+
+Seus **feitiços comuns da técnica de Classe 1 ou maior** recebem pontos adicionais de montagem iguais à **metade da Classe utilizada, arredondada para baixo, mínimo 1**. Esses pontos servem **somente para Melhorias**, considerando os descontos normais.
+
+| Classe utilizada | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|---|---|
+| Pontos adicionais | 1 | 1 | 1 | 2 | 2 | 3 | 3 |
+
+Classe, custo-base em PE, quantidade permitida de Melhorias, acessos às Famílias e demais tetos permanecem. Pontos adicionais não usados se perdem; não viram diretamente dano, cura ou vida temporária. Podem preservar pontos normais que seriam gastos em Melhorias, dentro dos limites existentes.
+
+Saída Elevada não vale para **Máximas ou Manejos**. Receber os pontos não acrescenta custo em PE; os custos específicos do feitiço continuam normais.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-debilitado -->
+<a id="origens--restricao-debilitado"></a>
+#### Corpo Debilitado
+
+Sua Restrição comprometeu seu corpo desde o nascimento: o braço direito e as partes das pernas abaixo dos joelhos não se desenvolveram, você não possui sensibilidade abaixo da cintura e convive com dor constante. Sua pele é tão frágil que até o luar pode queimá-la. Este exemplo tem Mechamaru como referência; proteção, cuidados e meios de agir além do corpo fazem parte do cotidiano.
+
+Sua **Defesa fica fixada em 0**, sem alteração por bônus ou penalidades numéricos, e você **não pode Bloquear**. Cobertura total, impedimentos de alvo, resistências, imunidades, redução de dano e vida temporária seguem suas regras. A limitação não concede acerto ou crítico automático nem passa a um intermediário com Defesa própria.
+
+Seu **deslocamento próprio é 0 m**, e você tem somente **uma mão funcional**. Depende de transporte, assistência ou recursos adequados para se locomover e realizar tarefas que exijam os membros ausentes. **Falha automaticamente nos TRs de Vigor e Físico exigidos do corpo real**, inclusive no TR de Concentração após dano: quando ele for exigido, o efeito termina.
+
+##### Pele e repouso
+
+Ao final de cada turno seu, se alguma pele estiver exposta à luz do sol ou da lua, sofra **1d4 de dano Radiante, sem TR**. Fora de combate, aplique a cada rodada de exposição contínua. Uma cobertura opaca que impeça a luz de alcançar toda a pele exposta evita o dano. Iluminação artificial não aciona essa regra por si só.
+
+Para descansar em **ambiente propício**, precisa de estrutura protegida, materiais e cuidados adequados, registrados na ficha. Sem eles, use o descanso fora de ambiente propício. Pessoas ou recursos compatíveis da técnica podem prestar a assistência.
+
+Cura e descanso recuperam recursos normalmente, mas não removem as limitações congênitas. As consequências pertencem ao **corpo real**; não passam automaticamente a marionetes ou intermediários. Um teste exigido de você continua sujeito à penalidade, e os meios de compensá-la seguem suas próprias regras.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-quebradico -->
+<a id="origens--restricao-quebradico"></a>
+#### Corpo Quebradiço
+
+Sua Restrição preservou seus membros, mas deixou a estrutura incapaz de sustentar o próprio peso e o esforço de uma luta. Mesmo saudável, você depende de apoio para acomodar o corpo e de transporte para se deslocar. Ferimentos que outra pessoa suportaria podem colocar sua vida em risco.
+
+Sua **Defesa fica fixada em 0**, sem alteração por bônus ou penalidades numéricos, e você **não pode Bloquear**. Cobertura total, impedimentos de alvo, resistências, imunidades, redução de dano e vida temporária seguem suas regras. A limitação não concede acerto ou crítico automático nem passa a um intermediário com Defesa própria.
+
+Seu **deslocamento próprio é 0 m**, e sua **vida máxima é metade da normal, arredondada para baixo, mínimo 1**. A redução também se aplica aos aumentos futuros. Você não consegue caminhar, correr, saltar, escalar ou nadar por esforço próprio.
+
+**Falha automaticamente em testes de Força e TRs Físicos exigidos do corpo real.** Ataques que dependam do esforço físico desse corpo também falham, mesmo usando Destreza. Seus membros não sustentam seu peso, não empurram nem arrastam cargas pesadas e não carregam outra criatura, mesmo sem rolagem.
+
+As mãos permitem manipulação leve, como escrever, segurar pequenos objetos e fazer gestos de uma técnica compatível. Uma conjuração não falha apenas por usar Força ou Destreza no cálculo. **TRs de Vigor seguem normalmente**, inclusive os de Concentração.
+
+##### Cuidados
+
+Para descansar em **ambiente propício**, precisa de apoio corporal, materiais e cuidados adequados, registrados na ficha. O atendimento pode ser feito por alguém treinado em Medicina, inclusive você, se estiver treinado, capaz e com os meios necessários. Sem isso, use o descanso fora de ambiente propício.
+
+Cura e descanso recuperam vida normalmente dentro do máximo reduzido, sem remover as limitações congênitas. As consequências pertencem ao **corpo real**, sem passar automaticamente a marionetes ou intermediários. Transporte e recursos compatíveis seguem suas regras. A fragilidade não acrescenta vulnerabilidade a dano ou queimaduras por luz.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-exaurido -->
+<a id="origens--restricao-exaurido"></a>
+#### Corpo Exaurido
+
+Seu organismo permanece debilitado. Você conserva a capacidade de falar, fazer tarefas leves e caminhar devagar, mas não sustenta o esforço de uma luta. Ferimentos consomem a pouca autonomia física que possui, e recuperar-se exige cuidados prolongados.
+
+Sua **Defesa fica fixada em 0**, sem alteração por bônus ou penalidades numéricos, e você **não pode Bloquear**. Cobertura total, impedimentos de alvo, resistências, imunidades, redução de dano e vida temporária seguem suas regras. A limitação não concede acerto ou crítico automático nem passa a um intermediário com Defesa própria.
+
+**Falha automaticamente nos TRs de Vigor e Físico exigidos do corpo real**, inclusive Concentração quando Vigor for exigido. Testes e ataques que dependam do esforço físico desse corpo também falham automaticamente.
+
+Seu **deslocamento próprio é limitado a 4,5 m**, em movimento leve no chão. Não consegue correr, saltar, escalar, nadar, sustentar o peso pelos braços, empurrar ou arrastar cargas pesadas, nem carregar outra criatura por esforço próprio, mesmo sem rolagem. Ainda pode escrever, manipular objetos leves e fazer gestos de uma técnica compatível; usar um atributo físico na conjuração não a faz falhar por si só.
+
+Com **metade da vida máxima ou menos, arredondada para baixo**, seu deslocamento próprio passa a **0 m**. Recuperar vida acima do limite devolve o deslocamento permitido. Isso não aplica Atordoado, retira ações ou consciência, nem impede transporte.
+
+##### Cura e repouso
+
+Efeitos de cura recuperam **metade da vida normal, arredondada para baixo, mínimo 1 quando positiva**. Um **descanso longo em ambiente propício recupera 25% da vida máxima**, arredondados para baixo, mínimo 1, somados à vida atual até o máximo. **Fora de ambiente propício, o descanso longo não recupera vida.** Os demais recursos e efeitos, inclusive PE, seguem normalmente.
+
+O ambiente propício exige cuidados e meios adequados à sua condição, registrados na ficha. Os 25% do descanso **não são divididos novamente**; efeitos de cura usados durante ele continuam pela metade. Descanso curto não recupera vida por si só, e uma mesma pausa não pode ser repetida para multiplicar a recuperação.
+
+Cura comum não remove a condição congênita. Exaustão adquirida segue suas regras, sem degrau permanente adicional. As consequências pertencem ao **corpo real**, sem passar automaticamente a marionetes ou intermediários; testes exigidos de você continuam sujeitos às limitações.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-menores-corporais -->
+<a id="origens--restricao-menores-corporais"></a>
+#### Menores da Restrição corporal
+
+Escolha **duas menores distintas** entre as oito abaixo.
+
+##### Reserva Condensada
+
+Você aprendeu a preservar uma parcela de sua energia, reunindo aos poucos uma reserva para necessidades futuras. Ela permanece guardada até você decidir recorrer ao que acumulou.
+
+Jogador e mestre definem **quanto pode ser guardado em cada ocasião, quando e em quais condições o armazenamento pode ocorrer e o máximo acumulável**. Registre esses limites e condições na ficha.
+
+##### Reserva Excedente
+
+Seus **PE máximos aumentam em 2 × Essência**. Atualize o acréscimo quando o atributo mudar. A recuperação desses pontos segue normalmente.
+
+##### Recuperação Abundante
+
+Num **descanso curto em ambiente propício para sua Restrição**, recupere **40% dos PE máximos, arredondados para baixo, mínimo 1**, sem ultrapassar o máximo.
+
+Os cuidados continuam obrigatórios: estrutura protegida e assistência no Debilitado; apoio e atendimento no Quebradiço; os cuidados registrados no Exaurido. **Reduções ou impedimentos específicos à recuperação de PE continuam valendo.** Fora de ambiente propício, use a recuperação normal. A redução de cura do Exaurido afeta vida, não esses PE.
+
+##### Sobrecarga Deliberada
+
+**Uma vez por cena**, antes das rolagens de um **feitiço comum de Classe 1 ou maior**, pague PE adicionais iguais à **metade do custo-base, arredondada para cima**, e escolha **vantagem em uma rolagem de ataque** ou **desvantagem para um alvo em um TR da aplicação inicial**.
+
+Escolha antes do dado. O custo-base é o da Classe utilizada, antes de descontos e acréscimos: base 9 PE cobra **5 PE adicionais**, além do custo normal do feitiço. Só aquela rolagem recebe o benefício; não alcança outros ataques, alvos ou TRs posteriores para sair de uma condição. Não vale para Manejos ou Máximas.
+
+##### Leitura de Reservas
+
+Ao passar num exame de fluxo com **Sentir Energia**, descubra também os **PE atuais e máximos** do alvo naquele momento. Mantenha o procedimento normal; esta é uma informação adicional do exame.
+
+##### Último Fôlego de Energia
+
+**Uma vez por descanso longo**, após pagar um feitiço que deixe sua energia em zero, receba **PE temporários iguais a 2 × sua maior Classe**, respeitando o teto normal. Duram até o fim do próximo turno e não podem ser armazenados na Reserva Condensada.
+
+##### Percepção Estendida
+
+O alcance de **Vasculhar com Sentir Energia aumenta de 18 m para 36 m**, permanentemente. Mantenha ação, testes e obstáculos normais. Isso não aumenta outros sentidos, procedimentos ou alcances de feitiços.
+
+##### Prática Cotidiana
+
+Aprenda **dois feitiços adicionais de Classe 0**, compatíveis com sua técnica, em **quaisquer Formas normalmente permitidas nessa Classe**. Eles ficam além da quantidade normal conhecida e seguem as demais regras dessas aplicações.
+
+A escolha não se limita a Apoio ou Efeito. Esses feitiços não viram espaços comuns para Talentos ou invocações.
+
+<!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#origem-sem-tecnica -->
+<a id="origens--origem-sem-tecnica"></a>
+### Sem Técnica
+
+Você tem energia amaldiçoada, mas não possui técnica inata. Desenvolveu seu estilo a partir de uma aptidão que pode ser aprendida. Sua criação usa **Manejos**, na rota Sem Técnica de Rotas de criação.
+
+Essa opção acompanha **Latente, Receptáculo, Descendente, Encarnado ou Híbrido**, sem ocupar escolha de marcante ou menor. Conserve a base, a marcante e suas duas menores elegíveis. Escolha uma semente pelo procedimento da rota; seus Manejos seguem os requisitos e permissões dela, sem conceder uma segunda Regra.
+
+**Corpo Amaldiçoado e Restrição Celestial não aceitam Sem Técnica.** Já possuem suas rotas de criação. Uma história que reúna características parecidas continua usando uma única combinação de regras.
+
+> **Exemplo:** Aya é Descendente Zenin e escolhe Sem Técnica. Recebe a formação Kukuru, depois escolhe duas menores: Notas de Família e Treino de Armas da Casa. A rota não consome nenhuma dessas escolhas. Em Rotas de criação, escolherá sua semente e construirá os Manejos.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#legado-criar -->
 <a id="origens--legado-criar"></a>
-### Criar um Legado
+### Personalizar sua Origem
 
-Você pode criar **seus Legados** com o mestre antes da primeira sessão, sem limitar a personalização a apenas um deles. Conserve a exigência de pelo menos um narrativo e as condições de ramo ou configuração. Escreva nome, tipo, efeito, frequência e escolhas feitas na criação.
+Você pode criar com o mestre uma marcante e menores compatíveis com sua Origem, usando as entradas publicadas como referência. Registrem o pacote antes da primeira sessão: **base, uma marcante e duas menores**. A personalização pode alcançar ambas as menores; não exige escolher uma opção pronta primeiro.
 
-#### Legado narrativo
+Definam o que cada capacidade faz, quando funciona, ação, custo, frequência, limites e escolhas fixas. Comparem seu alcance com uma capacidade de função semelhante, incluindo as condições necessárias para usá-la. A história pode variar sem modificar a regra: outra aparência, material ou personalidade não concede benefícios extras.
 
-Defina uma pessoa, relação, informação, lugar ou característica da sua história. Diga o que passa a existir na campanha e como o personagem pode recorrer a isso. Quando o efeito exigir uma resposta verdadeira do mestre, estabeleça uma frequência, usando uma entrada publicada de alcance semelhante como referência.
+#### Famílias próprias
 
-O jogador pode criar uma relação importante sem decidir a vontade da outra pessoa. “Conheço quem guarda o arquivo” funciona. “O guardião sempre obedece” retira dessa pessoa suas decisões.
+Para um Descendente de uma família criada para a campanha, descrevam sua formação, relações e obrigações. Construam com o mestre uma versão coerente da base e um pacote próprio, usando os quatro clãs apresentados como referência. A família define as opções disponíveis; seu nome não custa uma escolha adicional de marcante. Mantenham uma única base, uma marcante e duas menores elegíveis, sem reunir automaticamente os benefícios de vários clãs.
 
-#### Legado de rolagem
+#### Rever a Origem
 
-Indique o teste afetado e o benefício: vantagem, repetição de falha, treinamento temporário ou substituição limitada. Inclua a frequência. Uma perícia nomeada ou uma situação restrita pode ter um uso por cena. Uma categoria ampla, como qualquer perícia ou qualquer rolagem, exige no máximo um uso por dia.
+Uma perda duradoura pode tornar uma escolha incompatível com a história ou impedir seu funcionamento. **Entre missões**, jogador e mestre podem rever a escolha afetada para manter um pacote coerente. Isso não concede vagas extras nem permite trocar livremente toda a Origem a cada situação.
 
-Compare também o momento do uso. Vantagem é declarada antes do resultado. Repetir uma falha permite reservar o uso até que algo dê errado. Não acrescente os dois benefícios à mesma entrada para ocupar uma única vaga.
-
-#### Legado de exceção
-
-Escolha uma exigência ou efeito específico e escreva a contrapartida. Para impedir uma condição, use o máximo de **uma aplicação por cena** se for Leve, **por dia** se for Média e **por descanso longo** se for Pesada. Uma entrada publicada pode ter limite mais restrito.
-
-Legados personalizados não concedem dano, técnicas, ações extras, bônus direto de acerto, Defesa ou vida, nem imunidade a dano. A exceção afeta seu personagem, sem cancelar a ficha de outra criatura. Uma contrapartida precisa aparecer no jogo e ser conhecida antes de usar o benefício.
+A revisão não altera por si só sua técnica, Aptidões, Lapidação ou rota. Capacidades dessas partes da ficha seguem suas próprias permissões de mudança, em Progressão.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#legados-exemplos -->
 <a id="origens--legados-exemplos"></a>
@@ -2747,23 +3259,23 @@ Legados personalizados não concedem dano, técnicas, ações extras, bônus dir
 
 #### Latente com passado comum
 
-Mika escolhe Furtividade da lista do Latente e Tecnologia como perícia livre, pois trabalhava com manutenção. Escolhe dois ofícios ligados ao emprego, um TR diferente do que o Caminho concedeu e escreve um traço sobre seu primeiro encontro com uma maldição.
+Mika escolhe Furtividade da lista do Latente e Tecnologia como perícia livre, pois trabalhava com manutenção. Recebe dois ofícios ligados ao emprego, um TR diferente do Caminho e escreve um traço sobre seu primeiro encontro com uma maldição.
 
-Seus Legados são **A Testemunha** e **Aprendi Apanhando**. O primeiro cria uma relação com a antiga chefe. O segundo oferece uma repetição de perícia por dia. São duas escolhas, uma narrativa e uma de rolagem. A criação da técnica continua no Fundamento.
+Sua marcante é **Tentativa e Erro**; suas menores são **Prontidão Instintiva e Gambiarra**. A antiga chefe que conhece seu segredo continua sendo um Legado de história, sem consumir uma menor. A criação da técnica segue no Fundamento.
 
-#### Legado narrativo personalizado
+#### Corpo com endereço de retorno
 
-Rui é um Corpo Amaldiçoado de Ninhada. Em vez de escolher um dos benefícios de rolagem da configuração, escreve seu segundo Legado com o mestre:
+Rui é um Corpo Amaldiçoado de Ninhada. Três consciências dividem a ficha e os recursos, sem ganhar turnos separados. Ele recebe **Existência Artificial** e escolhe **Ferramentas Integradas e Reparo Autônomo**. Registra o ofício compatível com o corpo e confere se é treinado nele para usar o autorreparo.
 
-**Endereço de Retorno — narrativo.** Uma oficina recebe objetos encontrados com sua marca de fabricação. Escolha a oficina e quem trabalha nela. Você pode procurá-la para saber se alguma peça ou mensagem sua chegou. O responsável guarda o que recebe até conseguir avisar você. O Legado não transporta objetos nem garante que algo perdido será encontrado.
-
-A entrada oferece um lugar para voltar e uma relação que pode participar das aventuras. Ninhada continua ocupando a primeira vaga, portanto a configuração e as regras da Origem permanecem definidas.
+Como Legado de história, escreve **Endereço de Retorno**: uma oficina recebe peças e mensagens encontradas com sua marca de fabricação. Ele sabe quem trabalha lá e pode procurar o responsável. Isso não transporta objetos nem garante que algo perdido será encontrado; oferece uma relação e um lugar para voltar.
 
 #### Conferência da ficha
 
-Ao terminar, confira se registrou uma Origem, os treinamentos, o traço, dois Legados e a rota. Nos Legados que pedem escolhas, anote as perícias, atributos, pessoas, condições ou contrapartidas agora. O mestre precisa dessas informações para apresentar situações que façam sentido para a história.
+Ao terminar, confira sua **Origem, modalidade ou ramo, base de treinos, traço, marcante, duas menores e rota**. Anote escolhas fixas, custos, frequências e seus estoques separados. Uma capacidade por dia e outra por descanso longo não renovam necessariamente juntas.
 
-Novos acontecimentos podem mudar relações, revelar pessoas ou transformar sua vida. Eles não acrescentam automaticamente mais benefícios de Legado à ficha. Use Progressão para ganhos e alterações mecânicas durante a campanha.
+Registre também os campos particulares: ofício de um corpo, competências da Reserva de Experiência, companheiro de Entendimento Tácito, limites do CE4 ou cuidados da Restrição. Use a regra completa de cada entrada para resolver o efeito.
+
+Novos acontecimentos podem mudar relações e transformar sua vida. Não acrescentam automaticamente capacidades à ficha. Ganhos e revisões mecânicas seguem Progressão e as permissões de Personalizar sua Origem.
 
 <a id="capitulo-6"></a>
 ## 6. Caminhos e Trilhas
@@ -6341,7 +6853,7 @@ Na falha, siga [Redirecionar a Força](#incursor--inc-redirecionar-resolucao).
 
 <!-- fonte:caminhos/incursor/lote-01/INCURSOR.md#inc-redirecionar-resolucao -->
 <a id="incursor--inc-redirecionar-resolucao"></a>
-##### Redirecionar a Força (continuação)
+##### Redirecionar a Força
 
 **Corpo em Harmonia, nível 27.** Depois que o agressor falhar no TR Físico, resolva o mesmo ataque contra o novo alvo:
 
@@ -8354,7 +8866,7 @@ Condições, perdas de Integridade e outros custos não desaparecem. Usos por ce
 
 **Exemplo.** Uma personagem com vida máxima 40 e atual 25 aumenta o máximo para 48. Fica com **33 de vida**, conservando os 15 pontos que faltavam. Só volta a 48 se o mestre permitir a recuperação completa de vida e PE.
 
-Origem e Legados são escolhas da criação; a subida não oferece novos Legados. Efeitos de Origem que dependam de nível acompanham sua própria regra.
+A Origem, sua marcante e as duas menores são escolhas da criação; subir de nível não concede novas vagas. Efeitos que dependam de nível acompanham sua própria regra. Uma perda duradoura pode permitir rever a escolha afetada entre missões, com jogador e mestre, conforme [Rever a Origem](#origens--legado-criar), sem troca livre ou vagas extras.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-trilhas -->
 <a id="progressao--prog-trilhas"></a>
@@ -10477,7 +10989,7 @@ As primeiras faixas atendem às concessões específicas que permitem aprender a
 
 A aptidão cura **você**. Para aplicá-la diretamente a outra criatura, você precisa de uma permissão que altere esse alvo. Aprendê-la não aumenta o alcance de um feitiço de Cura nem substitui sua montagem.
 
-O **Corpo Amaldiçoado não recupera vida com Energia Reversa nem com cura construída a partir dela**. Suas formas de reparo estão na Origem. Outras incompatibilidades de alvo também continuam valendo.
+O **Corpo Amaldiçoado não recupera vida com Energia Reversa nem com cura construída a partir dela**. Suas formas de recuperação estão na Origem, com o procedimento compartilhado em [Cura e reparo](#campo--inv-reparo). Outras incompatibilidades de alvo também continuam valendo.
 
 Energia Reversa é requisito para usar um feitiço da Forma Cura ofensivamente contra uma maldição. A exceção está em **Ferir maldições**. A aptidão de autocura, sozinha, não concede um ataque.
 
@@ -10855,13 +11367,13 @@ Aptidão Própria usa uma escolha de aptidão. Uma concessão da criação que j
 <a id="rotas--rotas"></a>
 Uma Técnica Marcial reúne o que você consegue fazer com seu corpo e seu equipamento. Um Manejo desenvolve uma aptidão aprendida, como Energia Reversa. Ambas usam o procedimento de **Fundamento**, com as diferenças apresentadas neste capítulo.
 
-Sua Origem indica a rota disponível. Confira essa escolha em **Origens e Legados** antes de criar suas aplicações.
+Sua Origem indica a rota disponível. Confira essa escolha em **Origens** antes de criar suas aplicações.
 
 | Rota | Quem a usa | Aplicações | Desenvolvimento |
 |---|---|---|---|
 | Técnica Marcial | Corpo Amaldiçoado. | Katas. | Refino e aptidões. |
 | Técnica Marcial | Restrição Celestial sem energia. | Katas. | Lapidação e Bênçãos. |
-| Sem Técnica | Personagem com essa sub-origem. | Manejos. | Refino e aptidões. |
+| Sem Técnica | Latente, Receptáculo, Descendente, Encarnado ou Híbrido que escolha essa opção separada. | Manejos. | Refino e aptidões. |
 
 #### Termos das rotas
 
@@ -11095,7 +11607,7 @@ Um Talento que descreve uma criatura como parte de seu efeito entrega apenas o e
 
 Você aprendeu a usar energia amaldiçoada sem desenvolver uma técnica inata. Seu repertório nasce de uma **semente**: uma aptidão que você estudou e transformou em seu próprio estilo de combate ou apoio.
 
-Escolha Sem Técnica entre as opções permitidas por **Origens e Legados**. Esta rota conserva PE de energia, refino e aptidões. Ela não concede Expansão de Domínio nem permite aprender ou auxiliar Ritual.
+Escolha Sem Técnica entre as opções permitidas por **Origens**. A opção não consome a marcante nem uma das duas menores da Origem. Esta rota conserva PE de energia, refino e aptidões. Ela não concede Expansão de Domínio nem permite aprender ou auxiliar Ritual.
 
 #### Criação
 
@@ -12713,7 +13225,9 @@ Todo corpo amaldiçoado é imune a Envenenado. Um corpo não autônomo não tem 
 
 **Corpos só recuperam vida por técnica feita para repará-los, reparo ou descanso longo.** Energia Reversa e curas baseadas nela não os curam. O retorno depois de uma queda sem destruição continua concedendo metade da vida máxima.
 
-No descanso curto, uma pessoa treinada em **ofício compatível com o corpo, anotado na ficha**, com ferramentas e materiais adequados, pode fazer **uma tentativa por corpo**, mesmo que haja outros reparadores. O corpo precisa estar acima de zero. Compare as Classes de capacidade permitidas pelos níveis do corpo e de quem repara, sem usar Grau de item:
+#### Reparar
+
+No descanso curto, uma pessoa treinada em **ofício compatível com o corpo, anotado na ficha**, com ferramentas e materiais adequados, pode fazer **uma tentativa por corpo**, mesmo que haja outros reparadores. Para uma entidade, o corpo precisa estar acima de zero. O personagem de Origem Corpo Amaldiçoado usa o mesmo teste e tabela; vida a zero segue Socorro e as curas compatíveis, sem permitir religá-lo pelo retorno pago de uma entidade. Compare as Classes de capacidade permitidas pelos níveis do corpo e de quem repara, sem usar Grau de item:
 
 | Classe do corpo em relação a quem repara | Dificuldade | Ajuste | No sucesso recupera |
 |---|---|---|---|
@@ -12728,6 +13242,8 @@ A CD é **8 + atributo usado no ofício + Maestria de quem repara + ajuste**. De
 O dono ou outra pessoa pode realizar o reparo. Sucesso recupera a parcela da tabela, arredondada para baixo, sem ultrapassar o máximo. Falha não recupera vida e consome a tentativa daquele descanso. Reparo não religa Desligada. Para outros tipos de entidade, descanso curto não recupera vida por esta regra.
 
 > **Exemplo.** Um corpo tem 31 PV máximos e está com 8. Quem o repara é da mesma Classe, com atributo 3 e Maestria 2: CD 13 e teste +5. Um 8 no d20 basta. Recupera 15 PV e termina com 23. A zero, precisaria primeiro ser religado.
+
+O ofício compatível do personagem é escolhido na criação e fica registrado na ficha. **Manutenção Precisa** permite uma repetição diária do teste falho durante descanso curto, na mesma tentativa e sem cura dupla. **Reparo Autônomo** conserva sua Ação Padrão, frequência diária e recuperação de 30%, conforme a Origem; não consome a tentativa de uma pausa futura.
 
 <!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-liberacao -->
 <a id="campo--inv-liberacao"></a>
@@ -13890,13 +14406,15 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Lapidação](#rotas--rota-lapidacao). Progressão de controle corporal da rota sem energia amaldiçoada.
 
-[Legado](#origens--origens). Escolha da Origem que registra uma capacidade ou vínculo, conforme sua entrada.
+[Legado de história](#origens--legados). Relação ou detalhe da história; sem benefício mecânico, não ocupa escolha de marcante ou menor.
 
 [Leve, Média e Pesada](#fundamento--pontos). Categorias de preço ou Condição, conforme a tabela consultada. Leve também é uma propriedade de arma.
 
 [Maestria](#geral--atributos). Bônus ligado ao nível, aplicado somente quando a regra indica seu uso.
 
 [Manejo](#rotas--rota-sem-tecnica). Aplicação criada a partir da semente da rota Sem Técnica.
+
+[Marcante e menores](#origens--origem-escolhas). Uma capacidade central e duas escolhas elegíveis da Origem, sem trocar suas vagas entre si.
 
 [Marco](#progressao--prog-marcos). Nível que entrega escolhas adicionais de progressão, conforme as opções e condições de Progressão.
 
@@ -13910,7 +14428,7 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Ofício](#pericias--oficios). Prática aprendida, com atributo, treino e ferramentas definidos pelo procedimento da tarefa.
 
-[Origem](#origens--origens). Escolha de criação que reúne traço, Legados, treinos e opções de rota.
+[Origem](#origens--origens). Escolha de criação que reúne base de treinos, história, uma marcante, duas menores elegíveis e opções de rota.
 
 [Pacto](#ritual--pactos). Acordo ou compromisso com benefício e preço definidos pelas regras de Pactos.
 
@@ -14211,6 +14729,7 @@ Ao sofrer dano, siga Dano e Recuperação para os recursos atingidos, a queda e 
 [Guarda](#indice-especifico-12)
 [Guarda Aberta](#dano--leves)
 [Guia](#guia--guia)
+[Híbrido](#origens--origem-feto)
 [Identificar Feitiço](#indice-especifico-13)
 [Impedido](#dano--pesadas)
 [Incapacitado (nome anterior)](#dano--leves)
@@ -14226,7 +14745,7 @@ Ao sofrer dano, siga Dano e Recuperação para os recursos atingidos, a queda e 
 [Invocador](#campo--inv-campo)
 [Kata](#rotas--rota-marcial)
 [Lapidação](#rotas--rota-lapidacao)
-[Legado](#origens--origens)
+[Legado de história](#origens--legados)
 [Leitura de Feitiços](#indice-r37-11)
 [Lento](#dano--leves)
 
@@ -14251,6 +14770,7 @@ Ao sofrer dano, siga Dano e Recuperação para os recursos atingidos, a queda e 
 [Manifestar](#campo--inv-entrada)
 [Manutenção (entidades)](#campo--inv-manutencao)
 [Mão Firme](#indice-r37-12)
+[Marcante e menores](#origens--origem-escolhas)
 [Marco](#progressao--prog-marcos)
 [Média](#fundamento--pontos)
 [Melhoria](#fundamento--pontos)
@@ -14321,6 +14841,7 @@ Ao sofrer dano, siga Dano e Recuperação para os recursos atingidos, a queda e 
 [Regra Própria](#catalogo--cat-regra-propria)
 [Religar](#campo--inv-retorno)
 [Remenda](#indice-especifico-16)
+[Reparar](#campo--inv-reparo)
 [Ressonante](#emanador--ema-eco)
 
 <!-- fonte:consulta/lote-01/CONSULTA.md#consulta-indice-10 -->
@@ -14351,6 +14872,7 @@ Ao sofrer dano, siga Dano e Recuperação para os recursos atingidos, a queda e 
 [Socorro de emergência](#guia--guia-emergencia-cuidado)
 [Surdo](#dano--leves)
 [Talento](#fundamento--selo)
+[Talento de Categoria de Efeito 4](#origens--restricao-ce4)
 [Talento Próprio](#catalogo--cat-passiva-propria)
 [Talha](#equip--eq-propriedades)
 [Talismã](#campo--inv-talisma)

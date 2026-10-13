@@ -135,13 +135,13 @@ Estes itens foram decididos na direção, mas faltam os números. O Mizuki vai f
 | [15] | Domínios da obra | Ficam fora do livro; vão para um guia de criação futuro. **Conferido em 12/10/2026: nada muda no livro.** |
 | ~~[151]~~ | ~~Câmbio dos pactos~~ | **FECHADO em 12/10/2026 e aplicado no R44.** A regra está na seção E. |
 | ~~—~~ | ~~Exemplo do Sukuna nos pactos~~ | **FECHADO em 12/10/2026:** é o exemplo 1 da lista do item [40], na seção E. |
-| — | Morte e Integridade | Vão ser revistas inteiras. Por enquanto fica o texto atual, com os itens [94] e [96]. |
+| — | Morte e Integridade | Vão ser revistas inteiras. Por enquanto fica o texto atual, com os itens [94] e [96]. **É o único assunto que segue aberto nesta seção:** as Origens fecharam no item [193]. |
 
 ## D. O que não muda
 
 Tudo o que não aparece nas seções A e B fica exatamente como está na R29, incluindo os itens da revisão que o autor mandou manter. Em caso de dúvida, não altere e pergunte.
 
-## E. Decidido depois do R41 (o 186 aplicado no R42, o 187 no R43, e do 24 ao 192 no R44)
+## E. Decidido depois do R41 (o 186 aplicado no R42, o 187 no R43, do 24 ao 192 no R44, e o 193 no R45)
 
 | nº | Assunto | O que muda |
 |---|---|---|
@@ -158,3 +158,4 @@ Tudo o que não aparece nas seções A e B fica exatamente como está na R29, in
 | [192] | Pacto temporário como Reação | **Fora do próprio turno, o pacto temporário se fecha com a Reação e exige um gatilho** que o personagem perceba. A Reação entra depois dos dados do gatilho e antes das consequências, sem refazer rolagem. Desfaz a frase "Gastar Reação aqui não permite agir fora do turno", que entrou na reconstrução do livro sem passar pelo autor. Palavras dele: "eles obrigatoriamente tinham q ter gatilhos, tipo um ataque recebido, ação do inimigo, etc". Aplicado no R44. |
 | [46] | Melhorias de Ritual que repetem | **Cinco aceitam até duas compras:** Acerto, Dificuldade, Alcance, Tamanho e Rerrolagem. As outras onze, uma só. Alcance e Tamanho sobem dois degraus; a segunda Rerrolagem pega também o dado um ponto acima do mínimo, e o limite dobra para `2 × (Classe + 1)` dados. Aplicado no R44. |
 | [101] | Área da Cortina | **O teto depende do Refino:** `1` a `3`, até `150 m`; `4` a `6`, até `300 m`; `7` ou mais, até `400 m`, de você até o ponto mais distante da borda. O lugar e as bordas continuam descritos pelo jogador. Aplicado no R44. |
+| [193] | Origens refeitas | **Cada Origem dá a base de treinos, uma capacidade marcante e duas menores do catálogo dela.** São sete Origens: Latente, Receptáculo, Descendente, Encarnado, Híbrido (era Feto Amaldiçoado), Corpo Amaldiçoado e Restrição Celestial, esta com dois ramos, Sem Energia e Restrição corporal. O Legado passa a ser Legado de história, sem benefício mecânico e sem gastar escolha. Sem Técnica é opção separada das cinco primeiras. O autor fez a remodelagem direto com o ChatGPT (pacote "Origens v178", decisões A001 a A100), e na integração respondeu a duas perguntas: I001, o Talento de Categoria de Efeito 4 da Restrição corporal vem "na criação e fora dos dois limites"; I002, "conservar o reparo da R44". Substitui o capítulo de Origens inteiro e desfaz os itens de Legado desta lista, entre eles o [113] e o [115]. Dependências fora do capítulo: Derrota (Núcleo Dependente não tem Integridade), Criar um personagem, Progressão, Energia Reversa, Rotas, Reparar em Invocações em campo, Glossário e Índice. Aplicado no R45; o R46 só tira "(continuação)" de um título. Registros em `origens-r45/`. |
