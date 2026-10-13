@@ -8,6 +8,20 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.362] — 13/10/2026
+
+**O PDF passa a ser o do R49. O texto continua o do R47.** *O Mizuki mandou a edição nova: "nova atualização, foi inserido as mudanças". O R48 e o R49 são duas rodadas só de diagramação: a primeira para não quebrar entradas, tabelas e exemplos entre colunas e páginas (402 páginas), a segunda para recuperar espaço (397). O `LIVRO-COMPLETO.md` é idêntico ao do R47, linha por linha, e os dois registros de alteração vêm vazios.*
+
+- **O que entrou no repositório:** *o PDF novo, os dois arquivos do gerador que mudaram (`gerar_livro.py` e `fluxo_continuo.py`) e os dois registros vazios.* **Nenhuma peça e nenhum validador mudou.**
+- **O que foi conferido no PDF:** *nenhum título, negrito ou pedaço de parágrafo do livro se perdeu do R47 para o R49; o texto sobreposto é o mesmo das 21 aberturas de capítulo nos dois; e quatro folhas de contato foram olhadas (as páginas de Origens e três trechos citados no relatório da edição), sem corte nem colisão.*
+- **O branco no pé das colunas, medido por `medir_branco.py` em todas as páginas de texto:** *`61,7` páginas equivalentes no R47, `77,2` no R48 e `72,2` no R49. A edição nova tem nove páginas e cerca de dez páginas equivalentes de branco a mais que o R47: é o que custou manter as entradas inteiras.*
+
+**O que esta versão não fez:** *as pontas de redação anotadas na v0.361 não entraram nem no R48 nem no R49 e seguem num rascunho à parte, fora do repositório: a definição de "visão noturna", as duas frases de Pactos que tratam Legado como benefício, a Categoria de Efeito 4 fora da lista de Progressão e os custos da Reação cancelada pelo Ataque sem Prenúncio. A diagramação não foi conferida página a página: as folhas de contato cobrem 28 das 397 páginas.*
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `conferir-repositorio.py`, o `pac7.py` e o `v7.py` saem com código `0`. O `conferir-voz.py --estrito` continua reprovando no manual v0.331, como antes. Não há teste negativo novo, porque nenhuma checagem mudou.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, parágrafo "Próximo": as pontas de redação que ainda não entraram no livro, e depois a ficha do Sheets.
+
 ## [0.361] — 13/10/2026
 
 **O livro passa a ser o R47, com a ordem do Ataque sem Prenúncio acertada.** *Depois da v0.360 o Mizuki pediu uma medida de balanceamento das Origens: "as origens estão boas? legais? justas?". A medida está em `MEDIDA-origens-2026-10-13.md`, na revisão de regras do livro, com o script que a produz.*

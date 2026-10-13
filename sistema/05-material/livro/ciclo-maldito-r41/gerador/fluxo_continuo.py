@@ -34,10 +34,17 @@ class Fluxo:
                 if not pending and atoms:
                     lead=atoms[-1]['unit'].parts
                     if (lead[-1].block==part.block and lead[-1].kind=='body'
-                            and (len(lead[-1].text.split())<=30 or part.block=='origens--restricao-saida')
                             and any(x.kind in heads for x in lead)):
-                        pending=atoms.pop()['unit'].parts
+                        q=copy(part);q.text=part.text[:3]
+                        width=n['AW'] if n['tabela_larga'](part) or any(x.kind=='major' for x in lead) else n['CW']
+                        if Unit(lead+[q]).measure(width)[0]<=n['CAP']-20:
+                            pending=atoms.pop()['unit'].parts
                 rows=part.text;wide=n['tabela_larga'](part) or any(x.kind=='major' for x in pending)
+                # R48: tabelas realmente curtas permanecem inteiras; tabelas
+                # longas seguem divisíveis, com o cabeçalho repetido.
+                width=n['AW'] if wide else n['CW']
+                if Unit([part]).measure(width)[0]<=n['CAP']*.30 and Unit(pending+[part]).measure(width)[0]<=n['CAP']-20:
+                    emit(pending+[part],wide);pending=[];continue
                 start=1;segments=[]
                 while start<len(rows):
                     stop=min(start+2,len(rows))
@@ -133,7 +140,81 @@ class Fluxo:
                         break
                     stop+=1
             connected.append(a);i+=1
-        return connected
+        # R48: a apresentação de uma categoria acompanha a primeira
+        # entrada, quando a abertura combinada cabe numa coluna.
+        anchored=[];i=0
+        while i<len(connected):
+            a=connected[i];ps=a['unit'].parts;first=ps[0]
+            is_group=(getattr(first,'editorial_style',None)=='grupo' or first.kind=='h1' or first.text=='Especiais com preparação prolongada')
+            if is_group and sum(p.kind in heads for p in ps)==1 and not a['wide']:
+                stop=i+1
+                while stop<len(connected):
+                    ns=connected[stop]['unit'].parts
+                    if ns[0].doc!=first.doc or connected[stop]['wide']:break
+                    hs=[p for p in ns if p.kind in heads]
+                    if hs:
+                        child=hs[0]
+                        subordinate=(child.kind not in {'h1','major'} and getattr(child,'editorial_style',None)!='grupo')
+                        if subordinate:
+                            u=self.joined_unit(connected[i:stop+1]);cw=u.measure(n['CW'])[0]
+                            limit=n['CAP']-20 if getattr(first,'editorial_style',None)=='grupo' or first.text=='Especiais com preparação prolongada' else n['CAP']*.58
+                            if cw<=limit:
+                                a=dict(a);a.update(unit=u,cw=cw,aw=u.measure(n['AW'])[0])
+                                self.opening_log.append({'bloco':first.block,'titulo':first.text,'motivo':'R48: apresentação junto da primeira entrada e do início de sua regra.'})
+                                i=stop
+                        break
+                    stop+=1
+            anchored.append(a);i+=1
+        # A ficha curta do equipamento não substitui o início do efeito.
+        result=[];i=0
+        while i<len(anchored):
+            a=anchored[i];ps=a['unit'].parts
+            if (i+1<len(anchored) and ps[0].doc=='equip' and any(p.kind in heads for p in ps)
+                    and ps[-1].kind=='body' and 'Grau' in str(ps[-1].text) and 'Efeito' in str(ps[-1].text)):
+                z=anchored[i+1];zs=z['unit'].parts
+                if zs[0].block==ps[-1].block and zs[0].kind=='body' and not a['wide'] and not z['wide']:
+                    u=self.joined_unit([a,z]);cw=u.measure(n['CW'])[0]
+                    if cw<=n['CAP']-20:
+                        a=dict(a);a.update(unit=u,cw=cw,aw=u.measure(n['AW'])[0]);i+=1
+                        self.opening_log.append({'bloco':ps[0].block,'titulo':ps[0].text,'motivo':'R48: nome e metadados junto do primeiro parágrafo do efeito.'})
+            result.append(a);i+=1
+        # Uma conclusão breve depois de tabela larga acompanha as últimas
+        # linhas, em vez de ocupar sozinha a página seguinte.
+        final=[];i=0
+        while i<len(result):
+            a=result[i];ps=a['unit'].parts
+            if a['wide'] and ps[-1].kind=='table' and i+1<len(result):
+                j=i+1
+                while j<len(result):
+                    qs=result[j]['unit'].parts
+                    if qs[0].block!=ps[-1].block or any(p.kind in heads or p.kind=='table' for p in qs):break
+                    j+=1
+                tail=result[i+1:j]
+                if tail and sum(x['aw'] for x in tail)<=n['CAP']*.16:
+                    u=self.joined_unit(result[i:j]);aw=u.measure(n['AW'])[0]
+                    if aw<=n['CAP']*.65:
+                        a=dict(a);a.update(unit=u,cw=u.measure(n['CW'])[0],aw=aw);i=j-1
+                        self.opening_log.append({'bloco':ps[-1].block,'motivo':'R48: conclusão curta junto do fim da tabela larga.'})
+            final.append(a);i+=1
+        # Fechamentos localizados na revisão visual: o exemplo acompanha
+        # a regra que demonstra, e a Bênção curta conserva suas condições.
+        kept=[];i=0
+        while i<len(final):
+            a=final[i];ps=a['unit'].parts
+            if str(ps[0].text) in {'Sangue Frio','Leitura a Dois','Gambiarra'}:
+                j=i+1
+                while j<len(final) and final[j]['unit'].parts[0].block==ps[0].block and not any(p.kind in heads for p in final[j]['unit'].parts):j+=1
+                u=self.joined_unit(final[i:j]);cw=u.measure(n['CW'])[0]
+                if cw<=n['CAP']-20 and not any(x['wide'] for x in final[i:j]):
+                    a=dict(a);a.update(unit=u,cw=cw,aw=u.measure(n['AW'])[0]);i=j-1
+            if kept and ps[0].block in {'dano--temporarios','guia--guia-modelos'} and (ps[0].kind=='note' or str(ps[0].text).startswith('**Exemplo')):
+                z=kept[-1];zs=z['unit'].parts
+                if zs[-1].block==ps[0].block and zs[-1].kind=='body' and not z['wide'] and not a['wide']:
+                    u=self.joined_unit([z,a]);cw=u.measure(n['CW'])[0]
+                    if cw<=n['CAP']*.5:
+                        z.update(unit=u,cw=cw,aw=u.measure(n['AW'])[0]);i+=1;continue
+            kept.append(a);i+=1
+        return kept
 
     def table_join(self,left,right,width):
         """Overhead removed when consecutive pieces of one table share a column."""
@@ -236,6 +317,37 @@ class Fluxo:
                 joins=[0]+[self.table_join(atoms[i-1],atoms[i],CW) for i in range(origin+1,end)]
                 for j,item in enumerate(atoms[origin:end]):prefix.append(prefix[-1]+item['cw']+gap-joins[j])
                 def span(i,j):return prefix[j-origin]-prefix[i-origin]-gap+joins[i-origin]+ctx_height(atoms[i])
+                # R48: page balance must not strand the end of a rule.
+                # A boundary inside a subsection is more costly when only a
+                # short tail remains, or the entire subsection fits a column.
+                @lru_cache(None)
+                def split_cost(pos, page_break=True):
+                    if pos<=origin or pos>=end:return 0
+                    nxt=atoms[pos];prev=atoms[pos-1]
+                    leftpart=prev['unit'].parts[-1];rightpart=nxt['unit'].parts[0]
+                    table_id=getattr(leftpart,'r38_table_id',None)
+                    if table_id is not None and getattr(rightpart,'r38_table_id',None)==table_id:
+                        lo=pos-1;hi=pos+1
+                        while lo>origin and getattr(atoms[lo-1]['unit'].parts[-1],'r38_table_id',None)==table_id:lo-=1
+                        while hi<end and getattr(atoms[hi]['unit'].parts[0],'r38_table_id',None)==table_id:hi+=1
+                        if span(lo,hi)<=n['CAP']-20:return n['CAP']**2*(2 if page_break else .7)
+                    if (not nxt.get('continuation_title') or
+                            prev['unit'].parts[-1].block!=nxt['unit'].parts[0].block):return 0
+                    lo=pos-1
+                    while lo>origin and atoms[lo].get('continuation_title') and atoms[lo-1]['unit'].parts[-1].block==nxt['unit'].parts[0].block:lo-=1
+                    hi=pos+1
+                    while hi<end and atoms[hi].get('continuation_title') and atoms[hi]['unit'].parts[0].block==nxt['unit'].parts[0].block:hi+=1
+                    whole=span(lo,hi);tail=span(pos,hi)
+                    if page_break:
+                        return n['CAP']**2*(.10 + (.65 if tail<n['CAP']*.25 else 0) + (.25 if whole<n['CAP']*.85 else 0))
+                    return n['CAP']**2*(.06 if whole<n['CAP']*.55 else .005)
+                @lru_cache(None)
+                def next_complete_height(pos):
+                    # Uma entrada curta inteira pode ocupar o espaço restante;
+                    # nunca preencher o rodapé apenas com seu título.
+                    hi=pos+1
+                    while hi<end and atoms[hi].get('continuation_title') and atoms[hi]['unit'].parts[0].block==atoms[pos]['unit'].parts[0].block:hi+=1
+                    return span(pos,hi)-ctx_height(atoms[pos])
                 @lru_cache(None)
                 def plan(i,room):
                     if i==end:return (0,0,[])
@@ -252,14 +364,20 @@ class Fluxo:
                         if not choices:
                             if prefix[stop-origin]-prefix[i-origin]-gap>2*room:break
                             continue
-                        if stop==end or y<n['TOP']:cut,left,right=min(choices,key=lambda x:abs(x[1]-x[2]))
+                        # Keep room for the following full-width element.
+                        # Continuity preference must not add a table-only page
+                        # when another valid split fits that element here.
+                        if stop==end and end<len(atoms):
+                            fits_next=[v for v in choices if max(v[1],v[2])+atoms[end]['aw']+gap<=room+.01]
+                            if fits_next:choices=fits_next
+                        if stop==end or y<n['TOP']:cut,left,right=min(choices,key=lambda x:split_cost(x[0],False)+abs(x[1]-x[2])*30)
                         else:
-                            cut,left,right=max(choices,key=lambda x:x[1])
+                            cut,left,right=min(choices,key=lambda x:split_cost(x[0],False)+(room-x[1])*100)
                             # With little text on this page, filling the left
                             # column first can leave only one paragraph on the
                             # right. Balance that pair without adding a region.
                             if right < .4*room:
-                                cut,left,right=min(choices,key=lambda x:abs(x[1]-x[2]))
+                                cut,left,right=min(choices,key=lambda x:split_cost(x[0],False)+abs(x[1]-x[2])*30)
                         rest=plan(stop,n['CAP'])
                         # Reservar espaço para a tabela larga que vem depois das
                         # colunas evita uma página final quase vazia.
@@ -272,7 +390,18 @@ class Fluxo:
                         used=left+right
                         low=max(0,.9*n['CAP']-used)**2 if room>=n['CAP']-.1 else 0
                         ragged=(2*room-used)**2*.04
-                        cost=rest[1]+((2*room-used)**2 if stop<end else max(0,.65*n['CAP']-used)**2*10)+abs(left-right)*.05
+                        cost=rest[1]+((2*room-used)**2 if stop<end else max(0,.65*n['CAP']-used)**2*10)+abs(left-right)*.05+split_cost(stop)+split_cost(cut,False)
+                        if stop<end and split_cost(stop) and right and right+atoms[stop]['cw']+gap-self.table_join(atoms[stop-1],atoms[stop],CW)<=room:
+                            cost+=n['CAP']**2
+                        # Evitar uma página quase vazia, intermediária ou final.
+                        # Não transferir o vão para outra página da sequência.
+                        if (stop<end or end==len(atoms)) and room>=n['CAP']-.1:
+                            cost+=max(0,n['CAP']*.95-used)**2*40
+                        if stop<end and right:
+                            next_h=next_complete_height(stop)
+                            free=room-right-gap
+                            if next_h<=free+.01:
+                                cost+=n['CAP']**2*3
                         candidates.append((rest[0]+1+extra_page,cost,[(stop,cut,left,right)]+rest[2]))
                     return min(candidates,key=lambda x:(x[0],x[1])) if candidates else (10**6,10**12,[])
                 sequence=plan(at,available)[2]

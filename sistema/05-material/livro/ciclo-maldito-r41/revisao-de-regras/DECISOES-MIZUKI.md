@@ -341,3 +341,9 @@ Formato: item | palavras dele (resumidas, fiéis) | leitura | estado.
 - R47 = R46 + 1 bloco (`origens--restricao-prenuncio`), 3 trechos de texto. Mesmas 14.912 linhas e 388 páginas; no PDF mudam as páginas 89 a 97 e um número de página do sumário. PDF SHA-256 41a44839…878522b3.
 - Não entraram no R47, por estarem num rascunho à parte do ChatGPT: a definição de "visão noturna", as duas frases de Pactos que tratam Legado como benefício e a Categoria de Efeito 4 fora da lista de Progressão. Ele disse que as três estão sendo mexidas.
 - Ponta nova: o texto diz que a Reação cancelada não é gasta, e não fala dos outros custos dela (a Fluidez do Incursor, o uso por cena de Interromper um feitiço).
+
+
+## R48 e R49 — 13/10/2026
+- Ele mandou a R49 dizendo "nova atualização, foi inserido as mudanças". As duas edições são só de diagramação: o texto é idêntico ao do R47. R48, 402 páginas; R49, 397. PDF R49 SHA-256 c9d1b6cc…ac9f8975.
+- As pontas de redação que ele disse estarem sendo mexidas não entraram: seguem num rascunho do ChatGPT, fora do livro.
+- Branco no pé das colunas (`medir_branco.py`): 61,7 páginas equivalentes no R47, 77,2 no R48, 72,2 no R49.
