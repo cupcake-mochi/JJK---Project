@@ -2968,7 +2968,7 @@ Você não adquire Sentir Energia, Refino ou Aptidões. Percebe pelos sentidos e
 <a id="origens--restricao-prenuncio"></a>
 #### Ataque sem Prenúncio
 
-Seu adversário percebe o golpe, mas não recebe o sinal energético que esperava para antecipá-lo. **Uma vez por turno seu**, ao declarar um ataque que já possa realizar, anuncie Ataque sem Prenúncio e gaste **2 PE adicionais**, antes das respostas à declaração e da escolha entre Defesa e Bloquear. Não exige outra ação. Pague também o custo do ataque ou da Kata; errar não devolve os custos.
+Seu adversário percebe o golpe, mas não recebe o sinal energético que esperava para antecipá-lo. **Uma vez por turno seu**, depois de declarar um ataque que já possa realizar e de o defensor escolher entre Defesa e Bloquear, quando essa escolha couber, anuncie Ataque sem Prenúncio e gaste **2 PE adicionais**, antes do d20 do ataque, do TR ou da aplicação Automática. Não exige outra ação. Pague também o custo do ataque ou da Kata; errar não devolve os custos.
 
 A marcante abrange **ataques comuns corpo a corpo, com arma ou desarmados, e Katas ofensivas por acerto, TR ou resultado Automático**, inclusive Katas à distância ou transportadas por um golpe. Escolha **um defensor**. O benefício direto alcança apenas a **primeira resolução ofensiva contra ele naquela execução**, sem aplicações automáticas nos outros ataques, alvos ou pulsações. Não concede um ataque novo nem modifica a montagem.
 
@@ -2976,12 +2976,12 @@ A marcante abrange **ataques comuns corpo a corpo, com arma ou desarmados, e Kat
 
 Se o defensor **puder perceber energia amaldiçoada e ainda não reconhecer por estudo essa execução sua**:
 
-- Ele não pode iniciar uma Reação provocada pela declaração dessa execução que seria resolvida antes da rolagem de acerto, do TR escolhido ou da aplicação Automática inicial, conforme o procedimento usado.
-- Se a resolução admitir Bloquear e ele escolher essa defesa, faz a rolagem **com desvantagem**, seguindo os dois conjuntos completos e os extremos de Aparar e Brecha.
+- O anúncio impede uma Reação do defensor provocada pela declaração dessa execução que seria resolvida antes da rolagem de acerto, do TR escolhido ou da aplicação Automática inicial, conforme o procedimento usado. Se ele já tiver declarado uma Reação dessas contra aquela execução, o anúncio a cancela, sem gastar a Reação dele.
+- Se a resolução admitir Bloquear e ele tiver escolhido essa defesa, faz a rolagem **com desvantagem**, seguindo os dois conjuntos completos e os extremos de Aparar e Brecha.
 
 O TR mantém dado, CD e modificadores. Automáticos não ganham teste nem ignoram imunidades, resistências ou requisitos. Benefícios sem gasto de Reação continuam disponíveis. Numa resolução com acerto seguido de TR, a marcante não acrescenta penalidade ao TR.
 
-Defesa fixa, proteção, efeitos já ativos e respostas posteriores ao erro, acerto ou dano conservam suas regras. Uma ativação impedida não consome a reserva de Reação. A escolha de Defesa ou Bloquear permanece antes do d20 do ataque.
+Defesa fixa, proteção, efeitos já ativos e respostas posteriores ao erro, acerto ou dano conservam suas regras. Uma ativação impedida não consome a reserva de Reação. A escolha de Defesa ou Bloquear permanece antes do d20 do ataque; o anúncio vem entre essa escolha e o d20. Depois do anúncio, o defensor não pode trocar a escolha.
 
 Intervenções de terceiros continuam disponíveis. Se outra criatura assumir o ataque, confira a suscetibilidade dela, sem desfazer a intervenção já resolvida ou transferir o reconhecimento do alvo anterior.
 

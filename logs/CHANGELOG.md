@@ -8,6 +8,23 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.361] — 13/10/2026
+
+**O livro passa a ser o R47, com a ordem do Ataque sem Prenúncio acertada.** *Depois da v0.360 o Mizuki pediu uma medida de balanceamento das Origens: "as origens estão boas? legais? justas?". A medida está em `MEDIDA-origens-2026-10-13.md`, na revisão de regras do livro, com o script que a produz.*
+
+- **Item 194, o único que mudou o livro:** *o Restringido anuncia o Ataque sem Prenúncio depois de o defensor escolher entre Defesa e Bloquear, e antes do dado. Quem escolheu Bloquear rola com desvantagem e não troca a escolha; a Reação que ele já tivesse declarado contra aquele ataque é cancelada sem ser gasta. Com o anúncio antes da escolha, como era, o defensor ficava na Defesa, e Bloquear é neutro em média.*
+- **O que ele manteve:** *a Tentativa e Erro do Latente ("latente fica") e a Regeneração Orgânica do Híbrido.*
+
+**`conferir-repositorio.py`:** *a 10.10 cobra três frases do item 194 no capítulo de Origens e acusa se a ordem antiga voltar. A `09-origens.md` ganhou a linha do item no resumo.*
+
+**O que esta versão não fez:** *três pontas de redação do R46 seguem como estavam, porque o R47 traz só o item 194: "visão noturna" sem definição, duas frases de Pactos que tratam Legado como benefício e a Categoria de Efeito 4 fora da lista de Progressão. O Mizuki está tratando as três no livro. Uma ponta nova ficou anotada: o texto diz que a Reação cancelada não é gasta e não fala dos outros custos dela. A ficha do Sheets ainda lê o R43, e só muda quando o livro fechar.*
+
+**Testes negativos, em cópia isolada com a base passando antes e depois:** *quatro perturbações no bloco do livro: o anúncio de volta para antes da escolha, a Reação já declarada sem cancelamento, o defensor podendo trocar a escolha e a Reação cancelada sendo gasta.* **As quatro mudaram o arquivo e acenderam na 10.10.**
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `conferir-repositorio.py`, o `pac7.py` e o `v7.py` saem com código `0`. O `conferir-voz.py --estrito` continua reprovando no manual v0.331, como antes. O texto do R47 difere do R46 em três trechos, todos no bloco registrado; no texto extraído do PDF, as páginas 89 a 97 mudam só pelas palavras desse bloco e pelos cabeçalhos que o refluxo deslocou, e fora delas muda um número de página do sumário. As seis frases novas estão no PDF e as duas antigas não estão.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, parágrafo "Próximo": as pontas de redação que voltam na próxima edição do livro, e depois a ficha do Sheets.
+
 ## [0.360] — 13/10/2026
 
 **O livro passa a ser o R46, com as Origens refeitas.** *O Mizuki remodelou as Origens direto no livro, com o ChatGPT (pacote "Origens v178"), e mandou a edição pronta: "atualização completinha". O R45 integra as Origens; o R46 só tira "(continuação)" de um título. O livro foi de 373 para 388 páginas.*

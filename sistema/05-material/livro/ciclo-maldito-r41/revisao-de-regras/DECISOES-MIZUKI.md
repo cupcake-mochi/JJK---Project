@@ -333,3 +333,11 @@ Formato: item | palavras dele (resumidas, fiéis) | leitura | estado.
 - R46 = R45 com um título sem "(continuação)". Nenhuma regra mudou.
 - Conferido aqui: 163 trechos diferentes entre o R44 e o R46, 142 no capítulo 5 e 21 fora dele, todos dependência das Origens; os 145 títulos e os 288 trechos em negrito do capítulo novo estão no texto extraído do PDF; as contas dos exemplos do capítulo fecham. 14.912 linhas e 388 páginas. PDF SHA-256 6c426133…30764d7.
 - Pontas de redação que achei no R46, sem decisão dele: "visão noturna a 9 m" (Olho adicional, do Híbrido) usa um termo que o livro não define em nenhum outro lugar; duas frases de Pactos ainda tratam Legado como coisa com benefício ("níveis de Caminho, Trilha ou Legado" e "os benefícios e limites da Origem, do Legado e da técnica"); Progressão diz que as Categorias de Efeito são 1, 2 e 3, e a 4 só aparece na Restrição corporal.
+
+
+## R47 — 13/10/2026
+- Depois da v0.360 ele pediu uma medida de balanceamento das Origens. A medida e as três decisões dele estão em `MEDIDA-origens-2026-10-13.md`.
+- Item 194, o único que mudou o livro: o Ataque sem Prenúncio é anunciado depois da escolha entre Defesa e Bloquear. O cancelamento, sem gasto, da Reação que o defensor já tivesse declarado foi detalhe meu, avisado a ele antes de o pedido ir para o ChatGPT.
+- R47 = R46 + 1 bloco (`origens--restricao-prenuncio`), 3 trechos de texto. Mesmas 14.912 linhas e 388 páginas; no PDF mudam as páginas 89 a 97 e um número de página do sumário. PDF SHA-256 41a44839…878522b3.
+- Não entraram no R47, por estarem num rascunho à parte do ChatGPT: a definição de "visão noturna", as duas frases de Pactos que tratam Legado como benefício e a Categoria de Efeito 4 fora da lista de Progressão. Ele disse que as três estão sendo mexidas.
+- Ponta nova: o texto diz que a Reação cancelada não é gasta, e não fala dos outros custos dela (a Fluidez do Incursor, o uso por cena de Interromper um feitiço).

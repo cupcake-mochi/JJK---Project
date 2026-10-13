@@ -2811,13 +2811,18 @@ else:
         for _f in ('**uma capacidade marcante e duas capacidades menores**',
                    '**não ocupa uma escolha de marcante ou menor**',
                    'Traços e Legados de história sem benefício mecânico **não consomem escolhas**',
-                   'Receba o CE4 **na criação**, sem ocupar espaço conhecido nem contar entre os cinco Talentos pagos'):
+                   'Receba o CE4 **na criação**, sem ocupar espaço conhecido nem contar entre os cinco Talentos pagos',
+                   # v0.361, item 194: o Ataque sem Prenuncio e' anunciado depois da escolha de defesa.
+                   'depois de declarar um ataque que já possa realizar e de o defensor escolher entre Defesa e Bloquear',
+                   'o anúncio a cancela, sem gastar a Reação dele',
+                   'Depois do anúncio, o defensor não pode trocar a escolha'):
             if _f not in _cap:
                 erro(f'10.10: o capitulo de Origens nao traz mais "{_f}"')
         for _f in ('Feto Amaldiçoado', 'dois Legados iniciais', 'Origens e Legados',
-                   'Pelo menos um dos Legados deve ser narrativo', 'sub-origem'):
+                   'Pelo menos um dos Legados deve ser narrativo', 'sub-origem',
+                   'antes das respostas à declaração e da escolha entre Defesa e Bloquear'):
             if _f in _l1010:
-                erro(f'10.10: o livro voltou a trazer "{_f}", do modelo antigo de Origens')
+                erro(f'10.10: o livro voltou a trazer "{_f}", que as Origens novas tiraram')
         if 'A ficha leva dois Legados: um Destranca' in _sem_riscado109(_p13):
             erro('10.10: a peca 13 afirma, fora de riscado, que a ficha leva dois Legados')
         if 'o catálogo de Legados desta peça saiu de uso' not in _p13:
