@@ -2810,7 +2810,7 @@ else:
         # frases que tem de estar, e as que nao podem voltar
         for _f in ('**uma capacidade marcante e duas capacidades menores**',
                    '**não ocupa uma escolha de marcante ou menor**',
-                   'Traços e Legados de história sem benefício mecânico **não consomem escolhas**',
+                   'Esses detalhes **não consomem escolhas de marcante ou menores**',   # redacao do R50
                    'Receba o CE4 **na criação**, sem ocupar espaço conhecido nem contar entre os cinco Talentos pagos',
                    # v0.361, item 194: o Ataque sem Prenuncio e' anunciado depois da escolha de defesa.
                    'depois de declarar um ataque que já possa realizar e de o defensor escolher entre Defesa e Bloquear',

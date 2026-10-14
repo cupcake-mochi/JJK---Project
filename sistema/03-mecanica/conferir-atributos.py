@@ -591,10 +591,52 @@ JANELA = int(m.group(1)) if m else None
 if JANELA is None:
     erro('nao achei a janela do Aguentar no texto da secao 5.5')
 
-m = _re.search(r'\*\*1/(\d+), depois 1/(\d+), depois 1/(\d+)\*\*', sec)
-ESCADA = [1/int(x) for x in m.groups()] if m else None
-if ESCADA is None:
-    erro('nao achei a escada de custo do Insistir no texto da secao 5.5')
+# v0.363: o Insistir deixou de cobrar vida maxima. O que a regra publica agora e' o TRATAMENTO que
+# tira da queda: uma fracao para Aguentar, duas para Insistir (a primeira vez na cena e as
+# seguintes) e um teto por Classe. Tudo lido da caixa viva da secao, sem o que esta' riscado.
+_viva9 = '\n'.join(_l for _l in _re.sub(r'~~.*?~~', '', sec, flags=_re.S).splitlines()
+                   if _l.lstrip().startswith('>'))
+m = _re.search(r'alcança \*\*1/(\d+) da sua vida máxima\*\*', _viva9)
+FR_AG = int(m.group(1)) if m else None
+m = _re.search(r'\*\*1/(\d+) da sua vida máxima\*\* na primeira vez que você Insiste na cena e '
+               r'\*\*1/(\d+)\*\* nas seguintes', _viva9)
+FR_I1, FR_I2 = (int(m.group(1)), int(m.group(2))) if m else (None, None)
+m = _re.search(r'teto de \*\*(\d+) × a sua maior Classe\*\*', _viva9)
+TETO9 = int(m.group(1)) if m else None
+if None in (FR_AG, FR_I1, FR_I2, TETO9):
+    erro('nao achei as fracoes do tratamento (Aguentar, 1o e 2o Insistir) ou o teto por Classe '
+         'na caixa de regra da secao 5.5')
+
+# a Classe maxima por nivel sai da tabela de Progressao do livro
+import livro as _livro9
+_CLS9 = {int(_r[0]): int(_r[4]) for _r in _re.findall(
+    r'^\| (\d+) \| (\d+) \| (\d+) \| (\d+) \| (\d+) \| (\d+) \| (\d+) \|$',
+    _livro9.texto('progressao'), _re.M)}
+if sorted(_CLS9) != list(range(1, 31)):
+    erro(f'li {len(_CLS9)} nivel(is) na tabela de Progressao do livro e esperava os 30 — sem ela '
+         'o teto do Insistir nao tem Classe contra a qual ser medido')
+
+
+def _req9(vmax, cls, teto):
+    """(Aguentar, 1o Insistir, 2o Insistir): fracao para cima, e o teto so' no Insistir."""
+    return (_math.ceil(vmax / FR_AG),
+            min(_math.ceil(vmax / FR_I1), teto * cls),
+            min(_math.ceil(vmax / FR_I2), teto * cls))
+
+
+def _varre9(teto):
+    """(combinacoes, fora de ordem, teto cortou o 1o, teto cortou o 2o)."""
+    n = fora = c1 = c2 = 0
+    for cam in CAMINHO:
+        for con in (0, 3, 6):
+            for nv in NIVEIS:
+                vmax, cls = vida(nv, con, cam), _CLS9.get(nv, 1)
+                ag, i1, i2 = _req9(vmax, cls, teto)
+                n += 1
+                fora += not (ag <= i1 <= i2)
+                c1 += _math.ceil(vmax / FR_I1) > teto * cls
+                c2 += _math.ceil(vmax / FR_I2) > teto * cls
+    return n, fora, c1, c2
 
 m = _re.search(r'\*\*Na (segunda|terceira|quarta) queda', sec)
 ORDINAL = {'segunda': 2, 'terceira': 3, 'quarta': 4}
@@ -620,45 +662,39 @@ if JANELA is not None:
     print(f'  janela do Aguentar: {JANELA} rodadas, num combate de '
           f'{RODADAS_MIN} a {RODADAS_MAX}.')
 
-# --- 9.2 a escada do Insistir da o mesmo numero de rodadas para TODOS -------
-if ESCADA:
-    total = sum(ESCADA)
-    if total >= CUSTO_TOTAL_MAXIMO:
-        erro(f'a escada do Insistir soma {total:.3f} da vida maxima, que e >= 1 — '
-             f'ela zera a maxima antes de a terceira rodada terminar')
-    janelas = set()
-    for cam in CAMINHO:
-        for con in (0, 3, 6):
-            for nv in NIVEIS:
-                vmax = vida(nv, con, cam)
-                restante, rodadas = vmax, 0
-                for frac in ESCADA:
-                    custo = _math.ceil(vmax * frac)   # arredondamento da 5.4: custo sobe
-                    if custo > restante:
-                        break
-                    restante -= custo
-                    rodadas += 1
-                janelas.add(rodadas)
-    if len(janelas) != 1:
-        erro(f'o Insistir NAO da a mesma janela para todo mundo: {sorted(janelas)} rodadas '
-             f'conforme Caminho, Constituicao e nivel. Era esse o motivo de cobrar fracao '
-             f'em vez do dano que entra — a vida maxima espalha 3,2x entre os Caminhos')
+# --- 9.2 o tratamento: Aguentar nunca pede mais que Insistir, e o teto morde -
+# O desenho novo cobra o Insistir no tamanho do tratamento. Duas coisas tem de ser verdade
+# com a vida base de todo Caminho, e nenhuma esta' escrita aqui:
+#   - a ordem: Aguentar <= 1o Insistir <= 2o Insistir. O teto por Classe corta so' o Insistir,
+#     e se ele cortasse abaixo do Aguentar, ficar de pe' sairia mais barato que apagar;
+#   - o teto alcanca alguem. Teto que nunca corta e' numero decorativo.
+if None not in (FR_AG, FR_I1, FR_I2, TETO9):
+    if not (FR_AG > FR_I1 > FR_I2):
+        erro(f'as fracoes do tratamento estao fora de ordem: 1/{FR_AG} para Aguentar, 1/{FR_I1} e '
+             f'1/{FR_I2} para Insistir — Aguentar tem de pedir menos, e o segundo Insistir, mais')
+    _n9, _fora9, _c19, _c29 = _varre9(TETO9)
+    if _fora9:
+        erro(f'em {_fora9} de {_n9} combinacoes de Caminho, Constituicao e nivel o tratamento do '
+             f'Aguentar passa o do Insistir, ou o do 1o Insistir passa o do 2o — o teto de '
+             f'{TETO9} x a Classe cortou fundo demais')
+    elif not _c29:
+        erro(f'o teto de {TETO9} x a Classe nao corta o Insistir em nenhuma das {_n9} combinacoes '
+             'da vida base: ele virou numero decorativo')
     else:
-        print(f'  Insistir: {total:.3f} da maxima no total, e {janelas.pop()} rodadas para os '
-              f'{len(CAMINHO)} Caminhos x 3 Constituicoes x {len(NIVEIS)} niveis.')
+        print(f'  tratamento: 1/{FR_AG} para Aguentar, 1/{FR_I1} e 1/{FR_I2} para Insistir, teto '
+              f'{TETO9} x a Classe. Em {_n9} combinacoes de {len(CAMINHO)} Caminhos x 3 '
+              f'Constituicoes x {len(NIVEIS)} niveis a ordem se mantem; o teto corta o 1o '
+              f'Insistir em {_c19} e o 2o em {_c29}.')
 
-# --- 9.3 o contra-teste: o dano que entra NAO daria janela igual ------------
-# se esta perturbacao deixar de acender, a checagem 9.2 virou decoracao
-janelas_dano = set()
-for cam in CAMINHO:
-    for con in (0, 3, 6):
-        janelas_dano.add(round(vida(14, con, cam) / (dano_chefe(14) * 0.5)))
-if len(janelas_dano) == 1:
-    erro('contra-teste falhou: cobrar o dano que entra daria a MESMA janela para todos, '
-         'entao a checagem 9.2 nao esta provando nada')
-else:
-    print(f'  contra-teste: cobrar o dano que entra daria {min(janelas_dano)} a '
-          f'{max(janelas_dano)} rodadas conforme o corpo. Por isso a escada e fracao.')
+    # --- 9.3 o contra-teste: um teto mais baixo quebraria a ordem ---------------
+    # se nenhum teto menor acender, a 9.2 nao esta' provando nada
+    _quebra9 = [k for k in range(1, TETO9) if _varre9(k)[1]]
+    if not _quebra9:
+        erro('contra-teste falhou: nenhum teto menor que o da regra poe o Aguentar acima do '
+             'Insistir, entao a checagem 9.2 nao esta provando nada')
+    else:
+        print(f'  contra-teste: com teto de {max(_quebra9)} x a Classe a ordem ja quebraria em '
+              f'{_varre9(max(_quebra9))[1]} combinacao(oes). Por isso o teto e {TETO9}.')
 
 # --- 9.4 a Cicatriz entra numa queda que acontece de verdade ---------------
 LUTAS_POR_MISSAO, ACERTO, GRUPO = 4, 0.5, 4
@@ -787,10 +823,12 @@ else:
         print('  o teto de 1 Cicatriz deriva da peca 4 §5: vantagem nao empilha.')
 
 # --- 9.6 Aguentar e Insistir nao se dominam (teste de conjunto da peca 3) ---
-AGUENTAR = ({'janela de 3 rodadas', 'acorda com 20% da maxima de uma vez'},
+# v0.363: os conjuntos sao os do Morrendo do R50. Aguentar compra o menor tratamento e paga
+# com a luta; Insistir compra as acoes e paga com tratamento maior. A Sequela e' das duas.
+AGUENTAR = ({'o menor tratamento'},
             {'fora da luta desde ja', 'uma Sequela'})
-INSISTIR = ({'age por 3 rodadas'},
-            {'7/8 da vida maxima', 'uma Sequela', 'so acorda com metade da maxima'})
+INSISTIR = ({'segue agindo', 'pode tratar a si mesmo'},
+            {'tratamento maior', 'uma Sequela'})
 for (na, a), (nb, b) in ((('Aguentar', AGUENTAR), ('Insistir', INSISTIR)),
                          (('Insistir', INSISTIR), ('Aguentar', AGUENTAR))):
     if a[0] >= b[0] and a[1] <= b[1] and (a[0] > b[0] or a[1] < b[1]):
@@ -799,119 +837,142 @@ print('  Aguentar e Insistir: nenhum contem o outro. A escolha existe nos dois s
 
 
 print('=' * 88)
-print('9.8 O SOCORRO A 0 — o %, a porta do Levanta, o dano que entra, e a copia do livro')
+print('9.8 O MORRENDO — a peca 1 e o livro: os numeros, os exemplos, a tabela e as frases')
 print('=' * 88)
 #
-# v0.245. Ate a v0.244 a peca dizia "cura de 1 ou mais" e o livro dizia 25%, e
-# NINGUEM comparava os dois — a licao no 9 sobrevivendo por falta de leitor. Esta
-# checagem faz as tres coisas: le a regra da peca, cobra a mesma regra no livro, e
-# recomputa a tabela do socorro dos donos (a vida da §5.1, a Cura do manual e a
-# Classe por nivel do livro). Nenhum numero mora aqui.
-_regra98 = '\n'.join(_l for _l in sec.splitlines() if _l.lstrip().startswith('>'))
-_LIV98 = os.path.join(AQUI, '..', '05-material', 'livro', 'manual')
-try:
-    _cap98 = open(os.path.join(_LIV98, '10-como-jogar.md'), encoding='utf-8').read()
-    _cap98 = _cap98.split('## Vida a 0')[1].split('\n## ')[0]
-except (OSError, IndexError):
-    _cap98 = ''
-    erro('9.8: nao achei a secao `Vida a 0` no capitulo 2 do livro — ela e a copia que esta '
-         'checagem existe para comparar')
-
-_FRASES98 = (
-    ('o socorro por cura', r'Uma cura de \*\*(\d+)% ou mais da sua vida máxima\*\*, de uma vez'),
-    ('a porta do `Levanta`', r'a Melhoria `Levanta` te põe de pé com qualquer valor'),
-    ('o dano que custa rodada', r'Cada dano que você recebe apagado tira uma rodada da janela'),
-    ('o acumulado em negativo', r'metade da sua vida máxima original\*\*'),
-    ('o custo do Insistir fora da conta', r'custo do `Insistir` não entra nessa conta'),
-    ('o despertar que soma', r'a cura \*\*soma\*\*'),
-)
-_PCT98 = None
+# v0.363. Ate a v0.362 esta checagem comparava a peca com a secao `Vida a 0` do livro v0.331
+# (socorro de 20%, Insistir pago em vida maxima, dano acumulado). O Mizuki fechou o Morrendo
+# no livro R50 e a regra mudou inteira; o livro v0.331 ficou congelado com a antiga e deixou
+# de ser testemunha. Agora ela faz quatro coisas, e nenhum numero mora aqui:
+#   a) os numeros que os dois lados publicam: fracoes, teto, janela e a CD de Estabilizar;
+#   b) os tres exemplos do livro, refeitos pelas fracoes que o proprio livro escreve;
+#   c) a tabela do tratamento da peca, refeita da vida da §5.1 e da Classe da Progressao;
+#   d) as frases que tem de estar, e as da regra antiga que nao podem voltar.
 _mau98 = []
-for _rot, _rx in _FRASES98:
-    _mp = _re.search(_rx, _regra98)
-    _ml = _re.search(_rx.replace('`Insistir`', 'Insistir').replace('\\*\\*', r'\**'), _cap98) if _cap98 else None
-    if not _mp:
-        _mau98.append(f'a peca 1 §5.5 parou de publicar {_rot}')
-    elif not _ml:
-        _mau98.append(f'o livro nao publica {_rot} — a peca e a dona, e a copia encolheu')
-    if _mp and _rot == 'o socorro por cura':
-        _PCT98 = int(_mp.group(1))
-        if _ml and int(_ml.group(1)) != _PCT98:
-            _mau98.append(f'a peca diz {_PCT98}% de socorro e o livro diz {_ml.group(1)}% — '
-                          'e exatamente a divergencia que a v0.245 consertou')
-
-# --- a tabela do socorro: recomputada dos donos --------------------------------
-_man98 = ''
 try:
-    _man98 = open(os.path.join(_LIV98, '40-fundamento.md'), encoding='utf-8').read()
-except OSError:
-    _mau98.append('nao consegui abrir o capitulo do Fundamento para ler a Cura e a Classe por nivel')
-_cura98, _cls98 = {}, []
-if _man98:
-    _mc98 = _re.search(r'^\| \*\*Cura cheia\*\* \|([^\n]+)\|$', _man98, _re.M)
-    if _mc98:
-        _cura98 = {_i + 1: int(_x) for _i, _x in enumerate(_re.findall(r'= (\d+)', _mc98.group(1)))}
-    _g98 = _man98[_man98.find('| Nível | O que ganha |'):]
-    _cls98 = sorted((int(_a), int(_b)) for _a, _b in
-                    _re.findall(r'^\| \*\*(\d+)\*\* \| [^\n]*?\bClasse (\d+)\.', _g98[:_g98.find('\n\n')], _re.M))
-if not _cura98 or not _cls98:
-    _mau98.append('nao li a tabela de Cura ou a Classe por nivel no livro — sem elas a tabela do '
-                  'socorro nao reconstroi de nada')
+    _dano98 = ' '.join(_livro9.texto('dano').split())
+    _todo98 = ' '.join(open(os.path.join(AQUI, '..', '05-material', 'livro', 'ciclo-maldito-r41',
+                                         'LIVRO-COMPLETO.md'), encoding='utf-8').read().split())
+except Exception as _e98:                                    # noqa: BLE001
+    _dano98 = _todo98 = ''
+    _mau98.append(f'nao consegui ler o capitulo de Dano do livro ({_e98})')
+
+# a) os numeros dos dois lados
+_la98 = _re.search(r'\| Aguentar \| [^|]+\| 1/(\d+) do máximo de referência, para cima, sem teto\. \|', _dano98)
+_l198 = _re.search(r'\| Insistir pela primeira vez na cena \| [^|]+\| 1/(\d+) do máximo de referência, '
+                   r'para cima, até (\d+) × sua maior Classe\. \|', _dano98)
+_l298 = _re.search(r'\| Insistir pela segunda vez ou mais na cena \| [^|]+\| 1/(\d+) do máximo de '
+                   r'referência, para cima, até (\d+) × sua maior Classe\. \|', _dano98)
+_lj98 = _re.search(r'A janela começa com \*\*(\d+) rodadas, menos 1 por Sequela', _dano98)
+_lc98 = _re.search(r'\*\*Medicina CD (\d+)\*\*', _dano98)
+_pc98 = _re.search(r'Medicina CD \*\*(\d+)\*\*', _viva9)
+_LIVRO98 = None
+if not all((_la98, _l198, _l298, _lj98, _lc98)):
+    _mau98.append('nao li no livro a tabela das escolhas, a janela ou a CD de Estabilizar — a forma mudou')
+elif not _pc98:
+    _mau98.append('a caixa de regra da peca parou de publicar a CD de Estabilizar')
 else:
-    _TOPO98 = max(_cura98)
-    def _maior_cura98(nv):
-        _c = max(_b for _a, _b in _cls98 if nv >= _a)
-        return _cura98[min(_c, _TOPO98)]
-    _linhas98 = _re.findall(r'^\| `(\d+)` \| `(\d+)` \| `(\d+)` \| `(\d+)` \| `(\d+)` \| `(\d+)` \|$', sec, _re.M)
-    if not _linhas98:
-        _mau98.append('a tabela do socorro sumiu da secao 5.5, ou mudou de forma')
-    elif _PCT98:
-        for _nv, _med, _p20, _bas, _b20, _cur in ((int(x) for x in _l) for _l in _linhas98):
-            _esp_med = sum(vida(_nv, 3, _c) for _c in CAMINHO) / len(CAMINHO)
-            # o Caminho mais duro sai da tabela, e nao de um nome escrito aqui
-            _esp_bas = vida(_nv, 3, max(CAMINHO, key=lambda _c: vida(30, 3, _c)))
-            _esp = (round(_esp_med), round(_esp_med * _PCT98 / 100), _esp_bas,
-                    round(_esp_bas * _PCT98 / 100), _maior_cura98(_nv))
-            if (_med, _p20, _bas, _b20, _cur) != _esp:
-                _mau98.append(f'a linha do nivel {_nv} publica {(_med, _p20, _bas, _b20, _cur)} e a conta '
-                              f'da {_esp}')
-        # a porta: enquanto existir nivel em que a maior cura nao alcanca o socorro, a
-        # regra TEM de nomear o Levanta. Se um dia alcancar em todos, a porta fica sem motivo.
-        _faltam98 = [nv for nv in NIVEIS for _c in CAMINHO
-                     if _maior_cura98(nv) < vida(nv, 3, _c) * _PCT98 / 100]
-        _tem_porta98 = bool(_re.search(r'`Levanta` te põe de pé com qualquer valor', _regra98))
-        if _faltam98 and not _tem_porta98:
-            _mau98.append(f'em {len(set(_faltam98))} nivel(is) a maior cura publicada nao alcanca '
-                          f'{_PCT98}% da vida, e a regra nao nomeia nenhuma porta que independa do valor')
-        elif not _faltam98 and _tem_porta98:
-            print(f'  ⚠ a cura publicada ja alcanca {_PCT98}% em todo nivel — a porta do `Levanta` '
-                  f'virou redundante, e vale reler a regra')
+    _LIVRO98 = tuple(int(x) for x in (_la98.group(1), _l198.group(1), _l198.group(2), _l298.group(1),
+                                      _l298.group(2), _lj98.group(1), _lc98.group(1)))
+    _PECA98 = (FR_AG, FR_I1, TETO9, FR_I2, TETO9, JANELA, int(_pc98.group(1)))
+    print(f'      livro: Aguentar 1/{_LIVRO98[0]}, Insistir 1/{_LIVRO98[1]} (teto {_LIVRO98[2]}) e '
+          f'1/{_LIVRO98[3]} (teto {_LIVRO98[4]}), janela {_LIVRO98[5]}, CD {_LIVRO98[6]}')
+    if _LIVRO98 != _PECA98:
+        _mau98.append(f'o livro publica {_LIVRO98} e a peca {_PECA98} (Aguentar, 1o Insistir, teto, '
+                      '2o Insistir, teto, janela, CD de Estabilizar)')
 
-# --- o acumulado em golpes de chefe, contra a banda que a peca 26 §6.5 publica --
-_mb98 = None
-try:
-    _mb98 = _re.search(r'O golpe fica entre `(\d+)%` e `(\d+)%` da vida de um personagem do nível',
-                       open(os.path.join(AQUI, '26-bestiario.md'), encoding='utf-8').read())
-except OSError:
-    _mau98.append('nao consegui abrir a peca 26 para ler a banda do golpe de chefe')
-_mg98 = _re.search(r'fecha os dois estados em `(\d),(\d)` a `(\d),(\d)` golpes de chefe', sec)
-if _mb98 and _mg98:
-    _lo98, _hi98 = int(_mb98.group(1)), int(_mb98.group(2))
-    _esp98 = (round(50 / _hi98, 1), round(50 / _lo98, 1))
-    _pub98 = (float(f'{_mg98.group(1)}.{_mg98.group(2)}'), float(f'{_mg98.group(3)}.{_mg98.group(4)}'))
-    if _esp98 != _pub98:
-        _mau98.append(f'o acumulado fecha em {_esp98} golpes pela banda de {_lo98}% a {_hi98}% da '
-                      f'peca 26 §6.5, e a peca publica {_pub98}')
-elif not _mg98:
-    _mau98.append('a secao parou de publicar em quantos golpes de chefe o acumulado fecha')
+# b) os exemplos do livro, refeitos pelas fracoes do livro
+_EX98 = 0
+if _LIVRO98:
+    _ag, _i1, _t1, _i2, _t2 = _LIVRO98[:5]
+    _e1 = _re.search(r'com máximo de referência (\d+) e maior Classe (\d+), Aguentar pede (\d+) de '
+                     r'tratamento\. A primeira escolha de Insistir na cena pede (\d+)\. Na segunda e nas '
+                     r'seguintes, metade daria (\d+), mas o teto de (\d+) reduz a exigência para (\d+)', _dano98)
+    _e2 = _re.search(r'com máximo de referência (\d+) e maior Classe (\d+), Aguentar pede (\d+)\. O '
+                     r'primeiro Insistir daria (\d+) e o segundo, (\d+); ambos ficam limitados a (\d+)', _dano98)
+    _e3 = _re.search(r'Mei caiu com máximo (\d+) e escolheu Aguentar\. Precisa de (\d+)\. Recebe (\d+) de '
+                     r'cura e continua a zero\. Outra cura de (\d+) completa (\d+): sai de Morrendo com '
+                     r'(\d+) de vida e uma Sequela\. Se tivesse escolhido Insistir pela primeira vez na '
+                     r'cena, precisaria de (\d+) e ainda faltariam (\d+)', _dano98)
+    if not (_e1 and _e2 and _e3):
+        _mau98.append('nao achei os tres exemplos do tratamento no livro (o de Classe 3, o do teto e o '
+                      'da Mei) — sem eles a regra fica sem regressao')
+    else:
+        _c = _math.ceil
+        _g = [int(x) for x in _e1.groups()]
+        _esp = [_c(_g[0] / _ag), _c(_g[0] / _i1), _c(_g[0] / _i2), _t2 * _g[1], min(_c(_g[0] / _i2), _t2 * _g[1])]
+        if _g[2:] != _esp:
+            _mau98.append(f'o exemplo de maximo {_g[0]} e Classe {_g[1]} escreve {_g[2:]} e a conta da {_esp}')
+        _g = [int(x) for x in _e2.groups()]
+        _esp = [_c(_g[0] / _ag), _c(_g[0] / _i1), _c(_g[0] / _i2), _t1 * _g[1]]
+        if _g[2:] != _esp or min(_esp[1], _esp[3]) != _esp[3] or min(_esp[2], _esp[3]) != _esp[3]:
+            _mau98.append(f'o exemplo do teto, de maximo {_g[0]} e Classe {_g[1]}, escreve {_g[2:]} e a '
+                          f'conta da {_esp}, com os dois Insistir tendo de bater no teto')
+        _g = [int(x) for x in _e3.groups()]
+        _esp = [_c(_g[0] / _ag), _g[2], _g[3], _g[2] + _g[3], _g[2] + _g[3], _c(_g[0] / _i1),
+                _c(_g[0] / _i1) - (_g[2] + _g[3])]
+        if _g[1:] != _esp or _g[2] + _g[3] < _esp[0]:
+            _mau98.append(f'o exemplo da Mei, de maximo {_g[0]}, escreve {_g[1:]} e a conta da {_esp}')
+        _EX98 = 3
+
+# c) a tabela do tratamento, na subsecao propria da peca
+_num98 = sec.split('### O Morrendo do R50, em números')[1].split('\n### ')[0] \
+    if '### O Morrendo do R50, em números' in sec else ''
+_linhas98 = _re.findall(r'^\| `(\d+)` \| `(\d+)` \| `(\d+)` \| `(\d+)` \| `(\d+)` \| `(\d+)` \|$', _num98, _re.M)
+_pub98 = {int(_l[0]): tuple(int(x) for x in _l) for _l in _linhas98}
+if not _num98:
+    _mau98.append('a subsecao "O Morrendo do R50, em numeros" sumiu da secao 5.5')
+elif None not in (FR_AG, FR_I1, FR_I2, TETO9):
+    for _nv in NIVEIS:
+        _vm = round(sum(vida(_nv, 3, _c) for _c in CAMINHO) / len(CAMINHO))
+        _esp = (_nv, _CLS9.get(_nv, 1), _vm) + _req9(_vm, _CLS9.get(_nv, 1), TETO9)
+        if _nv not in _pub98:
+            _mau98.append(f'a tabela do tratamento nao tem a linha do nivel {_nv}; a conta da {_esp}')
+        elif _pub98[_nv] != _esp:
+            _mau98.append(f'a linha do nivel {_nv} publica {_pub98[_nv]} e a conta da {_esp}')
+    for _nv in sorted(set(_pub98) - set(NIVEIS)):
+        _mau98.append(f'a tabela do tratamento tem a linha do nivel {_nv}, que nao e nivel da tabela da peca')
+
+# d) as frases
+_LIVRO_DIZ98 = (
+    'As duas escolhas conservam sua vida máxima.',
+    'transforme **todo o tratamento acumulado em vida**',
+    '**Dano posterior não desconta tratamento acumulado nem aumenta o tratamento necessário.**',
+    'Com três ou mais Sequelas, você fica Derrotado imediatamente',
+    'Remoção genérica de condições, incluindo Limpa Fundo, não substitui esse socorro.',
+    'depois, remova todas as Sequelas, inclusive essa',
+    'recuperar **3 × sua maior Classe em pontos de vida**',
+    'você pode usar **1/4 do máximo de referência**, arredondado para cima, como tratamento necessário naquela queda',
+)
+_LIVRO_NAO98 = (
+    '20% do máximo de referência', '1/8 da referência', 'Custo de vida máxima',
+    'máximo perdido por Insistir', 'limiar normal de recuperação', 'primeiro custo de vida máxima',
+    'recuperar **5 × sua maior Classe em pontos de vida**',
+)
+_PECA_DIZ98 = (
+    'Não custa vida máxima nem ação', 'todo o tratamento vira vida',
+    'não mexe no tratamento já recebido nem no pedido', 'com três a próxima queda derrota na hora',
+    'encerram a queda com qualquer valor', 'primeiro a recuperação',
+)
+_PECA_NAO98 = (
+    'Uma cura de **20% ou mais da sua vida máxima**', '**1/8, depois 1/4, depois 1/2**',
+    'Só acorda com **metade da sua vida máxima original**', 'se acumula.** Passou de **metade',
+)
+if _todo98:
+    _mau98 += [f'o livro nao traz mais "{_f}"' for _f in _LIVRO_DIZ98 if _f not in _todo98]
+    _mau98 += [f'o livro voltou a trazer "{_f}", da vida a zero antiga' for _f in _LIVRO_NAO98 if _f in _todo98]
+_viva98 = ' '.join(_viva9.split())
+_mau98 += [f'a caixa de regra da peca nao escreve "{_f}"' for _f in _PECA_DIZ98 if _f not in _viva98]
+_mau98 += [f'a caixa de regra da peca ainda afirma, fora de riscado, "{_f}"' for _f in _PECA_NAO98 if _f in _viva98]
 
 for _r98 in _mau98:
     erro('9.8: ' + _r98)
 if not _mau98:
-    print(f'  o socorro e {_PCT98}% da maxima, e a peca e o livro dizem a mesma coisa nas seis frases.')
-    print(f'  a tabela do socorro reconstroi nas {len(_linhas98)} linhas, da vida da §5.1, da Cura do '
-          f'manual e da Classe por nivel.')
-    print(f'  o acumulado fecha em {_esp98[0]} a {_esp98[1]} golpes de chefe, pela banda da peca 26 §6.5.')
+    print(f'  a peca e o livro publicam os mesmos sete numeros, e os {_EX98} exemplos do livro refazem.')
+    print(f'  a tabela do tratamento reconstroi nas {len(_linhas98)} linhas, da vida da §5.1 e da Classe '
+          'da Progressao.')
+    print(f'  {len(_LIVRO_DIZ98)} frases do Morrendo estao no livro e {len(_LIVRO_NAO98)} da regra antiga '
+          f'nao; na peca, {len(_PECA_DIZ98)} estao na caixa e {len(_PECA_NAO98)} antigas so riscadas.')
 
 
 print('=' * 88)

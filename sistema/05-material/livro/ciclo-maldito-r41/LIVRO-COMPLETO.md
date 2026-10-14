@@ -1627,7 +1627,7 @@ A fonte deve ser compatível com o corpo que recebe o tratamento. Confira em Ori
 
 As duas reservas são recuperadas separadamente. Cura de vida não devolve Integridade. Recuperar Integridade não devolve vida. Uma capacidade que atenda ambas precisa dizer isso em sua descrição.
 
-Para socorrer quem está a zero de vida, siga **Socorro**. Um efeito que ignore o limiar normal de recuperação continua sujeito a seus alvos, sua frequência e aos impedimentos de cura.
+Para socorrer quem está a zero de vida, siga **Socorro**. Um efeito que dispense o tratamento necessário para sair de Morrendo continua sujeito a seus alvos, sua frequência e aos impedimentos de cura.
 
 <!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#temporarios -->
 <a id="dano--temporarios"></a>
@@ -1652,7 +1652,7 @@ O que restar desaparece ao terminar a cena, salvo duração própria. Uma prote�
 
 ##### Limites
 
-Vida temporária não aumenta a máxima e não é cura. Recebê-la a zero de vida não faz você acordar, não encerra Insistir e não conta como tratamento. Ela pode absorver dano posterior conforme sua regra normal.
+Vida temporária não aumenta a máxima e não é cura. Recebê-la a zero de vida não faz você acordar, não encerra Morrendo e não conta como tratamento. Ela pode absorver dano posterior conforme sua regra normal.
 
 Energia temporária paga custos de PE permitidos, mas não aumenta seus PE máximos. O descanso recupera PE comuns. Não refaz uma reserva temporária concedida por uma capacidade.
 
@@ -1662,60 +1662,63 @@ Energia temporária paga custos de PE permitidos, mas não aumenta seus PE máxi
 <a id="dano--zero"></a>
 ### Vida a zero
 
-Ao chegar a **zero de vida**, você está **Morrendo**. Resolva primeiro as capacidades disparadas pela própria queda; em seguida, escolha **Aguentar** ou **Insistir**. Se uma dessas capacidades encerrar a queda, não há escolha. Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele.
+Ao chegar a **zero de vida**, você entra na condição **Morrendo**. Confira sua janela de socorro: se não restar nenhuma rodada, fica **Derrotado imediatamente**. Uma capacidade disparada pela queda só supera essa derrota se disser expressamente que pode fazê-lo.
 
-| Escolha | Consequência |
-|---|---|
-| Aguentar | Você fica Inconsciente e espera socorro. Não perde vida máxima por essa escolha. |
-| Insistir | Você permanece capaz de agir, pagando vida máxima enquanto estiver a zero. |
+Se ainda houver janela, resolva primeiro as capacidades disparadas pela própria queda. Se uma delas encerrar Morrendo, não precisa escolher; caso contrário, escolha **Aguentar** ou **Insistir**. Cura que não encerre Morrendo por uma permissão expressa entra no tratamento; confira se ela basta depois de definir sua escolha.
 
-Anote a vida máxima que tinha ao cair, sem vida temporária. Esse será o **máximo de referência** até aquela queda terminar. Registre também sua janela de socorro e, se receber cura, o tratamento acumulado.
+Estas regras são para personagens jogadores. Entidades seguem Invocações em campo. Um inimigo a zero de vida ou de Integridade é derrotado, e o mestre descreve o desfecho, como morte, fuga ou exorcismo, salvo uma regra da ficha dele.
+
+Anote a vida máxima que tinha ao cair, sem vida temporária. Esse é o **máximo de referência** até aquela queda terminar. Registre também o tratamento necessário, o tratamento já recebido e sua janela de socorro.
+
+| Escolha | Estado | Tratamento necessário |
+|---|---|---|
+| Aguentar | Fica Inconsciente e espera socorro. | 1/4 do máximo de referência, para cima, sem teto. |
+| Insistir pela primeira vez na cena | Permanece consciente e conserva as ações e os recursos disponíveis. | 1/3 do máximo de referência, para cima, até 15 × sua maior Classe. |
+| Insistir pela segunda vez ou mais na cena | Permanece consciente e conserva as ações e os recursos disponíveis. | 1/2 do máximo de referência, para cima, até 15 × sua maior Classe. |
+
+As duas escolhas conservam sua vida máxima. Insistir não consome uma rodada como custo; o tempo e o dano continuam reduzindo a janela normalmente.
 
 #### Janela de socorro
 
-A janela começa com **3 rodadas, menos 1 por Sequela que você já tenha**. As duas escolhas usam essa mesma janela. Se o resultado for zero, você fica Derrotado imediatamente, conforme **Derrota e morte**.
+A janela começa com **3 rodadas, menos 1 por Sequela que você já tenha**. As duas escolhas usam essa mesma janela. Com três ou mais Sequelas, você fica Derrotado imediatamente, conforme **Derrota e morte**.
 
-Marque o ponto da iniciativa em que caiu. Cada volta completa até esse ponto consome uma rodada da janela. A janela não concede turnos extras e não muda a iniciativa. Quando chegar a zero, você fica Derrotado.
+Marque o ponto da iniciativa em que caiu. Cada volta completa até esse ponto consome uma rodada da janela. A janela não concede turnos extras e não muda a iniciativa. Quando chegar a zero, você fica Derrotado. Uma ação de socorro que só começaria naquele ponto não antecede o prazo já esgotado; capacidades com gatilho próprio conservam seu momento de resolução.
 
 Se a queda ocorrer fora de combate, organize turnos pelas regras de Iniciativa para resolver o socorro. Marque o começo dessa primeira rodada como ponto da queda. A primeira volta completa consome uma rodada da janela; uma tentativa de atendimento segue seus custos normais.
 
-Cada ocorrência de dano que alcance sua vida enquanto estiver a zero consome mais **uma rodada da janela**, depois das defesas e da vida temporária. Um mesmo golpe com vários tipos de dano conta uma vez. Ataques distintos contam separadamente. Dano reduzido a zero não consome uma rodada.
+Cada **ocorrência posterior de dano** que alcance sua vida consome mais **uma rodada da janela**, depois das defesas e da vida temporária. Um mesmo golpe com vários tipos de dano conta uma vez. Ataques distintos contam separadamente. Dano reduzido a zero ou totalmente absorvido pela vida temporária não consome uma rodada.
 
-O golpe que levou sua vida a zero inicia a queda. Seu excesso não consome outra rodada. Reduzir vida máxima como custo não é dano.
+O golpe que levou sua vida a zero inicia a queda. Seu excesso não consome outra rodada. **Dano posterior não desconta tratamento acumulado nem aumenta o tratamento necessário.** Isso vale tanto para Aguentar quanto para Insistir.
 
-> **Exemplo:** Mei cai sem Sequelas, logo depois do turno de um inimigo. Tem três rodadas. Depois de uma volta completa da iniciativa, restam duas. Um ataque posterior causa dano à vida dela e consome outra. Resta uma rodada para socorrê-la.
+> **Exemplo:** você precisa de 31 de tratamento e já recebeu 18. Tem duas rodadas restantes. Sofre 7 de dano depois das proteções: conserva os 18 de tratamento e passa a ter uma rodada. Ainda faltam 13 de tratamento, mas há menos tempo para recebê-los.
 
 #### Aguentar
 
-Você fica Inconsciente. Pode receber cura ou ser estabilizado conforme **Socorro**. A escolha conserva sua vida máxima, mas você não age para se proteger ou tratar os próprios ferimentos.
+Você fica Inconsciente. Pode receber cura ou ser estabilizado conforme **Socorro**, mas não age para se proteger ou tratar os próprios ferimentos.
 
-Escolher Aguentar não permite mudar para Insistir mais tarde naquela queda. Se já estava Inconsciente antes de perder o último ponto de vida, você Aguenta. Insistir não remove uma condição que já o impedia de agir.
+Escolher Aguentar não permite mudar para Insistir mais tarde naquela queda. Se já estava Inconsciente antes de perder o último ponto de vida, você Aguenta. Insistir não remove outra causa de inconsciência.
 
 <!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#insistir -->
 <a id="dano--insistir"></a>
 #### Insistir
 
-Ao escolher Insistir, você continua a zero de vida e conserva as ações, os recursos e as respostas que ainda puder usar. A escolha não devolve uma ação já gasta nem encerra condições. Pague vida máxima para permanecer agindo:
+Ao escolher Insistir, você continua a zero de vida e conserva as ações, os recursos e as respostas que ainda puder usar. A escolha não devolve uma ação já gasta nem encerra outras condições. Pode tratar a si mesmo enquanto conseguir agir e cumprir os requisitos da fonte.
 
-| Momento | Custo de vida máxima | Referência 80 |
-|---|---|---|
-| Ao escolher Insistir | 1/8 da referência. | Paga 10. Máximo atual 70. |
-| Após uma volta completa, se ainda houver janela | 1/4 da referência. | Paga 20. Máximo atual 50. |
-| Após outra volta completa, se ainda houver janela | 1/2 da referência. | Paga 40. Máximo atual 10. |
+Conte **uma escolha de Insistir por queda**. Continuar agindo ou sofrer dano nessa mesma queda não aumenta a contagem. Uma queda em que escolha Aguentar não aumenta nem zera essa contagem. Na próxima cena, a contagem de Insistir volta a zero; as Sequelas e os recursos gastos conservam seus próprios prazos.
 
-Arredonde cada custo para cima. Use sempre o máximo de referência da queda, mesmo depois de reduzi-lo. Primeiro desconte a rodada da janela. Só pague o próximo custo se ainda houver tempo e você continuar Insistindo.
+Na primeira escolha de Insistir da cena, o tratamento necessário é **1/3 do máximo de referência**. Na segunda e nas seguintes, é **1/2**. Arredonde para cima. Se o resultado superar **15 × sua maior Classe**, use esse teto. Esse limite não reduz sua vida máxima nem limita a quantidade de cura recebida.
 
-A perda permanece até o descanso longo. Não é dano e não pode ser paga com vida temporária, reduzida por resistência ou anulada por uma redução de dano.
-
-**A vida máxima precisa continuar em pelo menos 1.** Se não puder pagar o próximo custo, você passa a Aguentar, com a janela que ainda tiver. Pode fazer essa mudança antes, por escolha própria, sem ação. A perda já paga permanece. A mudança não reinicia a janela nem o tratamento.
+Pode passar de Insistir para Aguentar **sem ação**. Fica Inconsciente, mas conserva o tratamento necessário definido na queda, o que já acumulou e o tempo restante. Não pode voltar a Insistir naquela ocorrência.
 
 ##### Socorro durante Insistir
 
-Você precisa do mesmo tratamento de quem escolheu Aguentar, conforme Socorro. Recuperar apenas 1 de vida não encerra essa queda, salvo uma exceção expressa ao limiar. Você pode tratar a si mesmo enquanto conseguir agir e cumprir os requisitos da fonte.
+Acumule a cura conforme **Socorro**. Recuperar apenas 1 de vida não encerra essa queda, salvo uma capacidade com permissão expressa para encerrar Morrendo abaixo do tratamento necessário.
 
 Quando a janela termina, você fica Derrotado. Não recebe uma segunda janela por desabar. Dano à vida enquanto Insiste também consome rodadas dessa janela.
 
-> **Exemplo:** Kaito cai com máximo 80 e uma Sequela. A janela é de duas rodadas. Paga 10 para Insistir e fica com máximo 70. Após uma volta completa, resta uma rodada. Paga 20 e seu máximo cai para 50. Se não receber socorro até a próxima volta, fica Derrotado. Não chega a pagar a terceira fração.
+> **Exemplo:** com máximo de referência 93 e maior Classe 3, Aguentar pede 24 de tratamento. A primeira escolha de Insistir na cena pede 31. Na segunda e nas seguintes, metade daria 47, mas o teto de 45 reduz a exigência para 45. Se escolher Insistir e depois desistir de agir, conserva o requisito daquela queda. Sua vida máxima permanece 93.
+
+> **Exemplo do teto:** com máximo de referência 395 e maior Classe 7, Aguentar pede 99. O primeiro Insistir daria 132 e o segundo, 198; ambos ficam limitados a 105. Mesmo com a mesma exigência de tratamento, as Sequelas de quedas anteriores encurtam a janela de socorro. Sua vida máxima continua 395.
 
 <!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#socorro -->
 <a id="dano--socorro"></a>
@@ -1725,31 +1728,39 @@ Uma pessoa Morrendo pode ser curada ou estabilizada antes de sua janela acabar. 
 
 ##### Cura
 
-Acumule a cura válida recebida enquanto a pessoa estiver a zero. Ela volta a agir quando o total alcançar **20% do máximo de referência**, arredondado para cima. As curas podem vir de várias fontes e rodadas, inclusive durante Insistir.
+Enquanto estiver Morrendo, sua vida permanece zero. Acumule separadamente toda **cura válida** recebida. Ela pode vir de várias fontes, pessoas e turnos, inclusive durante Insistir. Calcule a quantidade pelo efeito usado, com seus modificadores e impedimentos, antes de aplicar o limite da vida máxima.
 
-Até alcançar esse total, a vida continua a zero. Anote o tratamento separadamente. Ao alcançar o limiar, converta o tratamento acumulado em vida, até o máximo atual. A contagem da queda termina e a pessoa recebe uma Sequela. O tratamento excedente ao máximo é perdido.
+Ao alcançar o tratamento necessário para sua escolha, encerre Morrendo e transforme **todo o tratamento acumulado em vida**, até o máximo atual. O requisito não é um custo subtraído dessa quantidade. O excesso sobre a vida máxima é perdido. A contagem daquela queda termina e você recebe uma Sequela.
 
-Calcule a cura pelo efeito usado, antes do limite da vida máxima reduzida. Uma fonte impedida ou incompatível não entra no total. Uma capacidade que exija um alvo acima de zero continua sem poder ser usada para esse socorro.
+A inconsciência causada apenas por Aguentar termina com esse socorro. Outras condições conservam suas regras. Sair de Morrendo não devolve ações, não coloca você automaticamente de pé nem reabre um efeito que terminou na queda.
 
-> **Exemplo:** Mei caiu com referência 23. Precisa de 5 de tratamento. Recebe 3 de cura e continua a zero. Outra cura de 3 completa 6. Ela volta com 6 de vida e uma Sequela. As curas anteriores não foram desperdiçadas.
+> **Exemplo:** Mei caiu com máximo 23 e escolheu Aguentar. Precisa de 6. Recebe 3 de cura e continua a zero. Outra cura de 3 completa 6: sai de Morrendo com 6 de vida e uma Sequela. Se tivesse escolhido Insistir pela primeira vez na cena, precisaria de 8 e ainda faltariam 2.
 
-Uma regra que permita levantar abaixo do limiar usa seu próprio valor de cura. Ela encerra a queda e concede a Sequela normalmente. Se já havia tratamento acumulado válido, some-o à cura e aplique o máximo atual. Nenhuma dessas fontes ressuscita alguém morto ou permite voltar à mesma cena depois de Derrotado, salvo permissão que diga isso expressamente.
+Cura insuficiente não renova o prazo nem devolve rodadas. Vida temporária protege contra dano, mas não conta como tratamento. Uma fonte impedida ou incompatível não entra no total. Uma capacidade que exige vida positiva, como Regeneração Orgânica, continua indisponível a zero.
+
+##### Resgates expressos
+
+**Morrendo só termina pelo procedimento desta condição ou por uma capacidade que diga expressamente que permite encerrá-lo.** Remoção genérica de condições, incluindo Limpa Fundo, não substitui esse socorro. Morrendo não entra na lista de condições compráveis.
+
+Uma capacidade que permita levantar abaixo do tratamento necessário, como **Levanta** ou **Ainda Há Tempo**, conserva essa permissão mesmo para quem escolheu Insistir. Use o valor de cura da capacidade, some o tratamento válido já recebido e aplique o máximo atual. A saída concede a Sequela normalmente.
+
+Cada capacidade conserva alvos, alcance, ação, frequência, preparação e impedimentos próprios. Essa permissão não ressuscita alguém morto nem reabre participação na cena depois de Derrotado, salvo regra que diga isso expressamente.
 
 ##### Estabilizar
 
-Uma criatura a até **1,5 m**, com acesso físico ao alvo, pode gastar **Ação Padrão**, com uma mão livre e meios adequados de atendimento, para fazer **Medicina CD 14**. Para um corpo construído, use o ofício compatível com o corpo em lugar de Medicina. O alvo precisa estar Inconsciente e Morrendo. Quem Insiste pode escolher Aguentar antes do tratamento.
+Uma criatura a até **1,5 m**, com acesso físico ao alvo, pode gastar **Ação Padrão**, com uma mão livre e meios adequados de atendimento, para fazer **Medicina CD 14**. Para um corpo construído, use o ofício compatível com o corpo em lugar de Medicina, respeitando seus requisitos. O alvo precisa estar **Inconsciente e Morrendo**. Quem Insiste pode escolher Aguentar antes do atendimento, conservando seu requisito de tratamento.
 
-No sucesso, a pessoa fica **estável**. A janela para de diminuir pelo tempo enquanto ela não sofrer novo dano à vida. Não recupera vida, não acorda e conserva o tratamento acumulado e o tempo restante. Uma falha apenas gasta a ação. Outra tentativa é possível enquanto houver tempo.
+No sucesso, a pessoa fica **estável**: o tempo deixa de diminuir a janela. Não recupera vida, não acorda, não reduz o requisito e conserva o tratamento acumulado e o prazo restante. Uma falha apenas gasta a ação. Outra tentativa é possível enquanto houver tempo.
 
-Dano positivo à vida encerra a estabilidade e consome uma rodada da janela. Retome a contagem naquele ponto da iniciativa. A estabilização seguinte pode deter o tempo de novo, sem repor a rodada perdida.
+Dano positivo que alcance a vida encerra a estabilidade e consome uma rodada. Marque esse novo ponto para retomar a contagem temporal com o prazo que restar. Estabilizar de novo não devolve rodadas.
 
-Depois de sair do perigo, uma pessoa estável que conclua um descanso curto recupera **1 de vida** e recebe a Sequela da queda. Essa recuperação é uma exceção ao limiar de socorro. Não ocorre se houver um impedimento de cura. Também pode receber cura suficiente para voltar antes da pausa.
+Depois de sair do perigo, uma pessoa estável que conclua um descanso curto recupera **1 de vida** e encerra Morrendo, recebendo uma Sequela. Essa é uma saída excepcional, mesmo abaixo do tratamento necessário. Some o tratamento válido anterior a esse ponto de vida, até o máximo atual. Impedimentos de cura continuam valendo. Estabilizar, por si só, não é cura.
 
 <!-- fonte:dano-e-recuperacao/lote-final/DANO-E-RECUPERACAO.md#sequelas -->
 <a id="dano--sequelas"></a>
 #### Sequelas e Cicatrizes
 
-Sair de uma queda por chegar a zero de vida deixa **uma Sequela**. Registre-a quando o socorro encerrar a queda, inclusive com cura própria ou uma exceção ao limiar. A Sequela nova afeta a próxima queda. Se ficar Derrotado, registre-a ao sair desse estado, conforme Derrota e morte.
+Sair de uma queda por chegar a zero de vida deixa **uma Sequela**. Registre-a quando o socorro encerrar a queda, inclusive com cura própria, uma exceção ao tratamento necessário ou a recuperação segura depois de estabilizar. A Sequela nova afeta a próxima queda. Se ficar Derrotado, registre-a ao sair desse estado, conforme Derrota e morte.
 
 | Sequelas antes de cair | Janela de Aguentar ou Insistir |
 |---|---|
@@ -1758,7 +1769,7 @@ Sair de uma queda por chegar a zero de vida deixa **uma Sequela**. Registre-a qu
 | 2 | 1 rodada. |
 | 3 ou mais | Fica Derrotado imediatamente. |
 
-Sequelas não penalizam ataques, perícias ou TRs. Elas são removidas no descanso longo. Cura comum não as remove. Receber mais cura quando já está acima de zero não acrescenta Sequela.
+Sequelas não penalizam ataques, perícias ou TRs. Elas são removidas no descanso longo: resolva primeiro a recuperação e registre a Sequela se ela encerrar a queda ou a derrota por vida a zero; depois, remova todas as Sequelas, inclusive essa. Cura comum não as remove. Receber mais cura quando já está acima de zero não acrescenta Sequela.
 
 > **Exemplo:** Mei cai e recebe socorro. Fica com uma Sequela. Se cair novamente antes do descanso longo, terá duas rodadas de janela, seja para Aguentar, seja para Insistir.
 
@@ -1786,13 +1797,13 @@ A morte também pode decorrer de uma consequência física que impeça qualquer 
 
 ##### Recuperação depois da derrota
 
-Se o personagem estiver vivo, converta o tratamento acumulado em vida, até seu máximo atual. Depois disso, a cura recupera vida normalmente, sem exigir o limiar de 20%. O personagem continua Derrotado: recuperar reservas não devolve sua participação naquela cena nem abre outra janela de socorro.
+Se o personagem estiver vivo, converta o tratamento acumulado em vida, até seu máximo atual. Depois disso, a cura recupera vida normalmente, sem exigir o tratamento necessário para sair de Morrendo. O personagem continua Derrotado: recuperar reservas não devolve sua participação naquela cena nem abre outra janela de socorro.
 
 Depois de sair do perigo, pode recuperar a consciência ao concluir um descanso curto com atendimento, desde que tenha pelo menos **1 de vida e 1 de Integridade**. Se ainda estiver a zero de vida, use o teste de Estabilizar durante a pausa. No sucesso, recupera 1 de vida ao concluí-la. Uma nova pausa permite outra tentativa. Esse atendimento não restaura Integridade.
 
 Ao sair da derrota, recebe uma Sequela se essa queda envolveu vida a zero. Conte apenas uma, mesmo que tenha recebido mais dano enquanto estava Derrotado. A derrota apenas por Integridade não gera essa Sequela.
 
-Uma derrota por Integridade exige uma fonte que a recupere ou o descanso longo. **Concluir um descanso longo também encerra a inconsciência causada pela derrota**, desde que as duas reservas voltem a pelo menos 1. Aplique a recuperação desse descanso, incluindo a remoção das Sequelas. Outras causas de inconsciência conservam suas saídas próprias.
+Uma derrota por Integridade exige uma fonte que a recupere ou o descanso longo. **Concluir um descanso longo também encerra a inconsciência causada pela derrota**, desde que as duas reservas voltem a pelo menos 1. Resolva primeiro a recuperação, registrando a Sequela se essa derrota envolveu vida a zero; depois, remova todas as Sequelas, inclusive a recebida nessa recuperação. Outras causas de inconsciência conservam suas saídas próprias.
 
 Um personagem morto não recupera vida por cura comum, descanso, estabilização ou remoção de condição. Voltar à vida exige uma regra expressa da campanha. Também não se transforma automaticamente numa maldição.
 
@@ -1845,9 +1856,11 @@ Arredonde a recuperação para baixo, mínimo 1 quando a fração for positiva. 
 | Vida e PE | Voltam ao máximo. | Ficam, no mínimo, na metade do máximo. |
 | Integridade | Volta ao máximo; estágios são limpos. | Volta ao máximo; estágios são limpos. |
 | Exaustão | É removida. | Permanece. |
-| Sequelas e máximo perdido por Insistir | Sequelas são removidas; máximo é restaurado. | Sequelas são removidas; máximo é restaurado. |
+| Sequelas | São removidas depois da recuperação. | São removidas depois da recuperação. |
 
-Restaure o máximo perdido por Insistir antes de calcular a vida recuperada. Fora de lugar propício, a metade é o mínimo em que a reserva fica após o descanso. Não se soma ao saldo nem reduz uma reserva que já esteja acima desse valor. Arredonde a metade para baixo, com mínimo 1 quando o máximo for positivo.
+Resolva primeiro a recuperação. Se ela encerrar uma queda ou uma derrota por vida a zero, registre a Sequela correspondente; depois, remova todas as Sequelas, inclusive essa.
+
+Fora de lugar propício, a metade é o mínimo em que a reserva fica após o descanso. Não se soma ao saldo nem reduz uma reserva que já esteja acima desse valor. Arredonde a metade para baixo, com mínimo 1 quando o máximo for positivo.
 
 > **Exemplo:** ao terminar a missão fora da base, Mei tem máximo 23 de vida e saldo 3. Vai a **11**, metade arredondada para baixo. Se já tivesse 18, conservaria 18. Um personagem com máximo 60 PE e saldo 8 vai a **30 PE**.
 
@@ -1964,7 +1977,7 @@ Você pode revisar a distribuição enquanto monta a ficha. Confira os requisito
 <a id="ab--ab-origem"></a>
 ### Origem e treinos
 
-Escolha **uma Origem** no capítulo de Origens. Leia sua entrada inteira e registre a base de treinos, o traço, uma capacidade marcante e duas menores elegíveis. Legados de história sem benefício não consomem essas escolhas; Sem Técnica é uma opção separada, disponível somente às Origens indicadas.
+Escolha **uma Origem** no capítulo de Origens. Leia sua entrada inteira e registre a base de treinos, o traço, uma capacidade marcante e duas menores elegíveis. Legados de história registram vínculos e acontecimentos, sem conceder benefícios mecânicos nem consumir essas escolhas. Sem Técnica é uma opção separada, disponível somente às Origens indicadas.
 
 A Origem fornece **uma perícia de sua lista e uma perícia à sua escolha**, além de **dois ofícios**. Você pode trocar os dois ofícios por mais uma perícia livre. Essa troca precisa ser anotada: você deixa de receber ambos os ofícios.
 
@@ -2238,7 +2251,7 @@ As duas menores são diferentes, salvo quando uma entrada permitir repeti-la. Vo
 
 Um traço pode ser uma relação, uma lembrança, uma ambição ou um problema ainda aberto: “Meu irmão entrou para a escola antes de mim e desapareceu durante uma missão”. As sugestões de cada Origem ajudam a começar. Você pode criar outra.
 
-Traços e Legados de história sem benefício mecânico **não consomem escolhas**. Sua marcante e suas duas menores continuam disponíveis. Uma relação importante pode explicar uma capacidade, mas não concede por si só mais treinos, poderes ou recursos.
+Você pode desenvolver esse traço em **Legados de história**: pessoas, compromissos e acontecimentos que ainda fazem parte da sua vida. Esses detalhes **não consomem escolhas de marcante ou menores**. Uma relação importante pode explicar uma capacidade; treinos, poderes e recursos dependem das regras que os concedem.
 
 Na criação padrão, todos começam no **Grau 4**. Exceções de campanha e promoções seguem Patentes, em Progressão. Um sobrenome famoso, um passageiro poderoso ou uma vida anterior não antecipa esse avanço. Ganhos de Origem valem no alcance escrito em cada capacidade.
 
@@ -2246,11 +2259,13 @@ Na criação padrão, todos começam no **Grau 4**. Exceções de campanha e pro
 <a id="origens--legados"></a>
 ### Legados de história
 
-Um Legado de história registra algo que você trouxe para a aventura: uma pessoa que conhece, um compromisso, uma lembrança, uma instituição ou uma particularidade da sua existência. Use as sugestões da Origem ou escreva as suas com o mestre. Elas ajudam a dar continuidade à vida do personagem e não são compras obrigatórias.
+Uma pessoa que guardou seu segredo, uma promessa antiga ou uma oficina para onde você sempre volta: um Legado de história liga sua vida anterior às aventuras do grupo. Ele pode desenvolver seu traço ou registrar outra relação, lembrança, instituição ou particularidade da sua existência. Use as sugestões da Origem ou escreva as suas com o mestre; elas são pontos de partida, sem uma compra obrigatória.
 
-Defina o que essa ligação estabelece na campanha e como você pode recorrer a ela. Conhecer quem guarda um arquivo dá ao grupo alguém para procurar; não obriga o guardião a obedecer ou entregar documentos. Uma ferramenta herdada ainda precisa ser obtida pelos recursos e requisitos de Equipamento antes de entrar no inventário.
+Dê a essa ligação um lugar na campanha: quem está envolvido, o que aconteceu entre vocês e que assunto continua aberto. Isso oferece alguém para procurar, um motivo para aceitar uma missão ou uma conversa que você vem adiando. Os Legados de história **não ocupam suas escolhas de marcante ou menores e não concedem benefícios mecânicos por si só**.
 
-Quando uma escolha de história for requisito de uma menor, como **Manutenção** no Corpo Amaldiçoado, registre ambas. A história não gasta vaga; a capacidade ocupa uma das duas escolhas normais.
+Conhecer quem guarda um arquivo dá ao grupo alguém para procurar, mas o guardião conserva seus interesses e pode negar os documentos. Uma ferramenta herdada ainda precisa ser obtida pelos recursos e requisitos de Equipamento antes de entrar no inventário.
+
+Algumas histórias permitem escolher capacidades específicas. **Manutenção**, por exemplo, dá acesso a duas menores do Corpo Amaldiçoado: registre a história e a capacidade que escolher. A história não gasta vaga; cada menor escolhida ocupa uma das duas vagas normais.
 
 #### Usar as capacidades da Origem
 
@@ -2268,7 +2283,7 @@ Você descobriu o jujutsu fora das tradições de uma família de feiticeiros. T
 
 **Perícia da Origem:** escolha Sentir Energia, Sobrevivência, Furtividade ou Intuição. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
-**Legados de história:** o professor que você procurou sem sucesso; alguém comum que conhece seu segredo e nunca o revelou; um erro que marcou seu aprendizado. Seus ofícios podem vir do trabalho, da família ou dos recursos que usou para se virar.
+**Legados de história:** talvez você ainda procure o professor que nunca conseguiu encontrar, confie seu segredo a alguém de fora do jujutsu ou tenha deixado um erro do aprendizado sem reparação. Registre quem participou disso e por que essa relação ainda importa. Seus ofícios podem vir do trabalho, da família ou dos recursos que usou para se virar.
 
 #### Tentativa e Erro
 
@@ -2342,7 +2357,7 @@ Carregar um ser poderoso não concede automaticamente suas técnicas, atributos 
 
 **Perícia da Origem:** escolha Sentir Energia, Ocultismo, Intuição ou Religião. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
-**Legados de história:** o nome pelo qual o passageiro era conhecido; alguém que o conheceu antes de você; um desejo dele que contraria o seu; a instituição que acompanha seu caso. Registre como vocês se relacionam e o que sabem um do outro.
+**Legados de história:** o nome antigo do passageiro pode levar até alguém que o conheceu antes de você. Um desejo dele pode contrariar o seu, enquanto uma instituição acompanha o que acontece com vocês. Escolha o que faz parte dessa convivência e registre como se relacionam e o que sabem um do outro.
 
 #### Coexistência
 
@@ -2358,7 +2373,7 @@ O ganho acontece uma vez. As aplicações permanecem conhecidas e seguem as revi
 
 **Uma vez por cena**, no começo do seu turno, se estiver **Atordoado**, pode gastar **6 PE** para encerrar essa condição em você, sem ação ou teste, antes de perder a Padrão daquele turno. Precisa ter vida e Integridade positivas e PE suficientes.
 
-Amparo não encerra Inconsciente, recupera reservas ou devolve ações gastas ou perdidas em turnos anteriores. Uma Concentração já interrompida continua encerrada.
+Amparo não encerra Inconsciente, não recupera reservas nem devolve ações gastas ou perdidas em turnos anteriores. Uma Concentração já interrompida continua encerrada.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#receptaculo-acordos -->
 <a id="origens--receptaculo-acordos"></a>
@@ -2438,7 +2453,7 @@ Sua família participa do meio jujutsu. Você cresceu entre ensinamentos, obriga
 
 Escolha a **marcante do seu clã** e duas menores elegíveis. Cada marcante reúne os componentes indicados; eles não são compras separadas. A formação familiar não concede automaticamente uma técnica hereditária.
 
-**Legados de história:** uma expectativa que rejeita; o direito ainda não atendido a uma ferramenta guardada pela família; um conhecimento que sua casa preserva; a reputação de cumprir a palavra; um parente que deseja impressionar. Essas relações podem abrir conversas e problemas, sem garantir obediência ou equipamento gratuito.
+**Legados de história:** você pode rejeitar uma expectativa da família, querer impressionar um parente ou cultivar a reputação de cumprir a palavra. Talvez sua casa preserve um conhecimento importante ou ainda não tenha entregue uma ferramenta à qual você reivindica direito. Defina quem representa essa ligação. Ela pode abrir conversas e problemas; obediência e equipamento gratuito não são garantidos.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#descendente-zenin -->
 <a id="origens--descendente-zenin"></a>
@@ -2635,7 +2650,7 @@ Você voltou a viver no corpo de outra pessoa. Traz lembranças de uma época an
 
 **Perícia da Origem:** escolha História, Ocultismo, Investigação ou Intimidação. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
-**Legados de história:** o motivo de ter aceitado voltar; quem pagou ou trabalhou por seu retorno; alguém que reconheceu você; a família de quem vivia nesse corpo. Uma aparência ligada à sua vida anterior pode compor a história, sem conceder cura ou capacidades por si só.
+**Legados de história:** o motivo que levou você a aceitar o retorno pode continuar pendente. Quem pagou ou trabalhou para trazê-lo de volta, alguém que o reconheceu e a família de quem vivia nesse corpo oferecem relações para desenvolver. Sua aparência também pode lembrar a vida anterior; esse detalhe, por si só, não concede cura ou capacidades.
 
 #### Duas Vidas
 
@@ -2703,7 +2718,7 @@ Escolher Híbrido não classifica você como maldição para as regras. Requisit
 
 **Perícia da Origem:** escolha Ocultismo, Medicina, Sentir Energia ou Natureza. **Criação:** Fundamento, ou Manejos se escolher Sem Técnica. Receba também os demais treinos da base.
 
-**Legados de história:** irmãos com quem compartilha sua formação; uma numeração que identifica a série criada; quem guardou você antes do despertar; a diferença entre a idade aparente e os anos que viveu. Esses detalhes não concedem sentidos ou vínculos sobrenaturais adicionais.
+**Legados de história:** talvez você procure irmãos que compartilham sua formação ou a pessoa que o guardou antes do despertar. Uma numeração pode ser a pista de onde veio; a diferença entre sua aparência e os anos vividos pode marcar como se relaciona com os outros. Esses vínculos fazem parte da história, sem conceder sentidos ou ligações sobrenaturais adicionais.
 
 #### Regeneração Orgânica
 
@@ -2713,7 +2728,7 @@ Enquanto tiver **pelo menos 1 PV e até 30% da vida máxima atual, arredondados 
 
 Confira a vida ao ativar, sem contar vida temporária. A cura pode ultrapassar os 30%. Cada ativação consome um uso, qualquer que seja o gasto ou o resultado dos dados.
 
-A regeneração cura apenas você. Não recupera Integridade, remove condições ou Sequelas, nem recompõe partes perdidas. Não é Energia Reversa, feitiço ou Manejo, e funciona com Sem Técnica. Impedimentos e modificadores de cura aplicáveis continuam valendo.
+A regeneração cura apenas você. Não recupera Integridade, não remove condições ou Sequelas nem recompõe partes perdidas. Não é Energia Reversa, feitiço ou Manejo, e funciona com Sem Técnica. Impedimentos e modificadores de cura aplicáveis continuam valendo.
 
 > **Exemplo:** com Constituição 3, você tem dois usos por cena. Se a vida máxima atual é 41, o limite para ativar é 12 PV. Com 12 PV e Classe 2 disponível, pode gastar 2 PE e rolar 2d6. Resultados 3 e 5 recuperam 8 PV, levando você a 20. Com 13 PV ou zero, não poderia iniciar essa regeneração.
 
@@ -2728,7 +2743,7 @@ Escolha **duas menores**. Anatomia Suplementar, Armamento Orgânico e Locomoçã
 Escolha uma alteração:
 
 - **Apêndice preênsil:** braço auxiliar, cauda ou tentáculo que segura um objeto de até **1 Volume** e faz manipulações simples com as ações normais. Deixa as mãos livres, sem conceder ataques, escudo ou gestos adicionais.
-- **Olho adicional:** escolha sua posição. Enquanto estiver exposto, você pode enxergar por ele, com **visão noturna a 9 m**.
+- **Olho adicional:** escolha sua posição. Enquanto estiver exposto, você pode enxergar por ele. A até **9 m**, enxerga na penumbra e na escuridão comum sem a penalidade por falta de luz, mas não distingue cores no escuro. Os demais impedimentos de visão continuam valendo.
 
 Uma boca extra usada em combate é representada por Presas ou boca predatória, abaixo.
 
@@ -2795,7 +2810,7 @@ Você não recebe técnica inata pelo material, aparência ou número de núcleo
 <a id="origens--corpo-configuracoes"></a>
 #### Histórias do corpo
 
-Escolha uma história ou escreva outra com o mestre. Ela não consome uma menor nem altera a marcante comum. Consciências e personalidades compartilham ficha, recursos, ações e condições.
+As histórias abaixo são Legados de história sobre sua existência. Escolha uma ou escreva outra com o mestre. Ela não consome uma menor nem altera a marcante comum. Consciências e personalidades compartilham ficha, recursos, ações e condições.
 
 **Ninhada.** Três seres compartilham o corpo e se reconhecem como partes dele. Escreva quem são e como se relacionam. Uma conversa entre eles não fornece três tentativas para a mesma tarefa.
 
@@ -2962,7 +2977,7 @@ Você nasceu sem energia amaldiçoada pessoal. Usa **Técnica Marcial** e desenv
 
 Você não adquire Sentir Energia, Refino ou Aptidões. Percebe pelos sentidos e pelos recursos que sua ficha permite. Pode usar ferramentas amaldiçoadas e Katas compatíveis com a rota. Consulte **Ausência de energia**, em Defesa sem Armadura, para barreiras, Acerto garantido e equipamentos carregados.
 
-**Legados de história:** quem tratou você como alguém sem valor; a pessoa que nasceu junto e compartilha a história da troca; a ferramenta herdada; como aprendeu a perceber maldições por equipamento ou observação. A função desses recursos precisa existir na ficha; a história não concede uma Bênção ou percepção irrestrita.
+**Legados de história:** alguém pode ter tratado você como uma pessoa sem valor, enquanto outra pessoa compartilha desde o nascimento a história dessa troca. Uma ferramenta herdada e a maneira como aprendeu a perceber maldições por equipamento ou observação também podem ligar seu passado às missões. A função desses recursos precisa existir na ficha; a história não concede uma Bênção ou percepção irrestrita.
 
 <!-- fonte:origens/lote-01/ORIGENS-E-LEGADOS.md#restricao-prenuncio -->
 <a id="origens--restricao-prenuncio"></a>
@@ -3065,7 +3080,7 @@ Sua energia alcança um funcionamento extraordinário, enquanto seu corpo carreg
 
 Sua marcante reúne **um Talento de Categoria de Efeito 4 ligado à técnica, Saída Elevada e a condição corporal combinada com o mestre**. Receba o CE4 **na criação**, sem ocupar espaço conhecido nem contar entre os cinco Talentos pagos. Escolha também duas menores deste ramo.
 
-**Legados de história:** a representação pela qual o meio jujutsu conhece você; quem cuida do corpo; o que daria para resolver sua limitação; alguém que afirma poder fazê-lo. Marionetes, transporte e outros meios de ação precisam estar sustentados pela ficha e pelos recursos da campanha.
+**Legados de história:** talvez o meio jujutsu conheça você por uma representação e poucas pessoas saibam quem está por trás dela. Quem cuida do seu corpo, o que você daria para resolver sua limitação e alguém que afirma poder fazê-lo podem orientar suas relações e decisões. Marionetes, transporte e outros meios de ação precisam estar sustentados pela ficha e pelos recursos da campanha.
 
 ##### Criar sua Restrição
 
@@ -3261,13 +3276,13 @@ A revisão não altera por si só sua técnica, Aptidões, Lapidação ou rota. 
 
 Mika escolhe Furtividade da lista do Latente e Tecnologia como perícia livre, pois trabalhava com manutenção. Recebe dois ofícios ligados ao emprego, um TR diferente do Caminho e escreve um traço sobre seu primeiro encontro com uma maldição.
 
-Sua marcante é **Tentativa e Erro**; suas menores são **Prontidão Instintiva e Gambiarra**. A antiga chefe que conhece seu segredo continua sendo um Legado de história, sem consumir uma menor. A criação da técnica segue no Fundamento.
+Sua marcante é **Tentativa e Erro**; suas menores são **Prontidão Instintiva e Gambiarra**. Mika também registra sua antiga chefe como Legado de história: ela conhece seu segredo e nunca o revelou. Essa relação não consome uma menor. A criação da técnica segue no Fundamento.
 
 #### Corpo com endereço de retorno
 
 Rui é um Corpo Amaldiçoado de Ninhada. Três consciências dividem a ficha e os recursos, sem ganhar turnos separados. Ele recebe **Existência Artificial** e escolhe **Ferramentas Integradas e Reparo Autônomo**. Registra o ofício compatível com o corpo e confere se é treinado nele para usar o autorreparo.
 
-Como Legado de história, escreve **Endereço de Retorno**: uma oficina recebe peças e mensagens encontradas com sua marca de fabricação. Ele sabe quem trabalha lá e pode procurar o responsável. Isso não transporta objetos nem garante que algo perdido será encontrado; oferece uma relação e um lugar para voltar.
+Como Legado de história, escreve **Endereço de Retorno** e combina com o mestre qual oficina recebe peças e mensagens encontradas com sua marca de fabricação. Rui conhece quem trabalha lá e tem um lugar para voltar e procurar o responsável. A ligação não transporta objetos nem garante que algo perdido será encontrado.
 
 #### Conferência da ficha
 
@@ -4698,7 +4713,7 @@ Essa é a cura completa da emergência, no lugar de 1d8 + atributo. Se a Abertur
 
 Resolva primeiro o dano e os efeitos do golpe. Neste uso, o aliado recupera vida em vez de retirar uma condição.
 
-Enquanto o aliado ainda estiver **Morrendo**, esta cura encerra a queda mesmo abaixo do limiar normal de recuperação. Tratamento já acumulado e Sequela seguem **Socorro**, em Dano e Recuperação. Ela não permite voltar à cena depois de **Derrotado**.
+Enquanto o aliado ainda estiver **Morrendo**, esta cura **encerra Morrendo** mesmo abaixo do tratamento necessário. Tratamento já acumulado e Sequela seguem **Socorro**, em Dano e Recuperação. Ela não permite voltar à cena depois de **Derrotado**.
 
 **Exemplo.** Com Essência 6, a cura de emergência é **3d8 + 6**. É preciso que o Cuidado já estivesse preparado antes do golpe.
 
@@ -9125,6 +9140,8 @@ A Expressão da técnica cuida da aparência e da expressão do personagem. Ela 
 
 Os Talentos pagos ocupam espaços de feitiço. Suas **Categorias de Efeito (CE)** 1, 2 e 3 custam respectivamente 1, 2 e 3 espaços e ficam disponíveis nos níveis 1, 7 e 13. O máximo é cinco Talentos pagos.
 
+A **Categoria de Efeito 4** é uma concessão específica da [Restrição corporal](#origens--restricao-ce4), recebida na criação, fora dos espaços conhecidos e do limite de cinco Talentos pagos. Ela não faz parte dessa compra por nível.
+
 O catálogo de Talentos traz seus efeitos e a Regra Própria. A Expressão da técnica não ocupa espaço; Regra Própria segue o custo específico de sua progressão. Nenhuma dessas opções permite comprar efeitos de uma Família Fechada por outro nome.
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#repertorio -->
@@ -10413,13 +10430,13 @@ Remova do aliado uma condição Leve ou Média. Escolha a condição ao resolver
 
 **Preço: Pesada.**
 
-Remova uma condição de qualquer nível. O efeito não é uma imunidade nem remove todas as condições do aliado de uma vez.
+Remova uma condição de qualquer nível. O efeito não é uma imunidade nem remove todas as condições do aliado de uma vez. **Morrendo** exige seu próprio procedimento ou uma permissão expressa; Limpa Fundo não o encerra.
 
 #### Levanta
 
 **Preço: Pesada.**
 
-Um aliado a **0 de vida**, ainda **Morrendo**, recupera **5 × Classe de vida**, limitado à vida máxima, e pode voltar a agir mesmo abaixo do limiar normal de recuperação. Ele fica de pé se tiver apoio e não houver outro efeito que o mantenha Derrubado. A peça não encerra esse impedimento.
+Um aliado a **0 de vida**, ainda **Morrendo**, recupera **5 × Classe de vida**, limitado à vida máxima, e **encerra Morrendo** mesmo abaixo do tratamento necessário. Ele fica de pé se tiver apoio e não houver outro efeito que o mantenha Derrubado. A peça não encerra esse impedimento.
 
 Você só usa Levanta **uma vez por cena**, em qualquer feitiço seu. A peça alcança um aliado escolhido, mesmo numa Onda. Não ressuscita uma criatura morta, não recupera Integridade e não elimina as demais condições. Consulte Socorro para as consequências da queda.
 
@@ -10682,7 +10699,7 @@ Essa vida segue as regras gerais: não se soma a outra reserva, tem teto de meta
 
 #### Recomposição
 
-**Uma vez por descanso curto**, use **Ação Padrão** para recuperar **5 × sua maior Classe em pontos de vida**, até sua vida máxima. Não gasta PE. Recuperar vida não remove condições por conta própria.
+**Uma vez por descanso curto**, use **Ação Padrão** para recuperar **3 × sua maior Classe em pontos de vida**, até sua vida máxima. Não gasta PE. Recuperar vida não remove condições por conta própria.
 
 #### Segunda Natureza
 
@@ -11497,9 +11514,9 @@ Os Talentos abaixo complementam uma Técnica Marcial. Cada um tem seu próprio g
 
 **Categoria de Efeito: 2.**
 
-**Uma vez por descanso longo**, ao escolher **Insistir**, você pode dispensar o **primeiro custo de vida máxima**, correspondente a **1/8 do máximo de referência** daquela queda.
+**Uma vez por descanso longo**, ao escolher **Insistir**, você pode usar **1/4 do máximo de referência**, arredondado para cima, como tratamento necessário naquela queda, em vez do requisito normal de Insistir. Anuncie nessa escolha. O uso continua contando como uma escolha de Insistir na cena. O requisito de 1/4 permanece até a queda terminar, mesmo que depois passe a Aguentar.
 
-Os custos posteriores e a janela de socorro continuam normais. O Talento não concede rodada ou ação adicional nem recupera vida ou Integridade. A escolha, os pagamentos seguintes e o socorro seguem **Insistir, em Dano e recuperação**.
+O Talento não recupera vida ou Integridade, não concede ação ou rodada adicional e não protege contra o agravamento por dano. Os demais procedimentos de **Morrendo, em Dano e recuperação**, continuam valendo.
 
 ##### Contragolpe
 
@@ -12675,7 +12692,7 @@ O pacto concede **uma mecânica única, decidida com o mestre**. Pode modificar 
 
 Um **pacto de energia** muda como a energia funciona ou devolve energia. Quando houver uma quantidade, ela é uma **porcentagem da energia máxima, combinada com o mestre**, nunca um número fixo. O [exemplo 4, Nanami e Overtime](#ritual--pacto-exemplos), mostra essa troca.
 
-Pactos não concedem bônus numérico a ataques, Defesa ou perícias. **Não existe pacto por dano.** Não converta esses benefícios em níveis de Caminho, Trilha ou Legado.
+Pactos não concedem bônus numérico a ataques, Defesa ou perícias. **Não existe pacto por dano.** Não converta esses benefícios em níveis de Caminho ou Trilha nem em escolhas adicionais de marcante ou menores.
 
 > **Exemplo de registro.** Hana assume uma obrigação que restringe regularmente suas missões. Em troca, modifica o funcionamento de um feitiço conhecido, pela mecânica escrita com o mestre. O pacto ocupa uma vaga enquanto existir. Não eleva sua maior Classe nem lhe concede uma segunda Técnica Máxima.
 
@@ -12741,7 +12758,7 @@ O **pacto de restrição** registra uma limitação da Origem, do corpo ou da t�
 
 O pacto de restrição ocupa uma vaga enquanto existir, como os permanentes. **Com permissão do mestre, ele pode existir mesmo sem vaga.** Não abre acesso a capacidades proibidas à sua rota.
 
-Pactos permanentes, temporários e Promessas são estabelecidos durante a campanha. Para começar com uma troca que faz parte do conceito, use os benefícios e limites da Origem, do Legado e da técnica, em acordo com o mestre.
+Pactos permanentes, temporários e Promessas são estabelecidos durante a campanha. Para começar com uma troca que faz parte do conceito, use os benefícios e limites da sua Origem e da sua técnica, em acordo com o mestre.
 
 ##### Ideias para desenvolver
 
@@ -14406,7 +14423,7 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Lapidação](#rotas--rota-lapidacao). Progressão de controle corporal da rota sem energia amaldiçoada.
 
-[Legado de história](#origens--legados). Relação ou detalhe da história; sem benefício mecânico, não ocupa escolha de marcante ou menor.
+[Legado de história](#origens--legados). Vínculo, lembrança, compromisso ou detalhe da sua existência que participa da campanha. Não concede benefício mecânico por si só nem ocupa escolha de marcante ou menor.
 
 [Leve, Média e Pesada](#fundamento--pontos). Categorias de preço ou Condição, conforme a tabela consultada. Leve também é uma propriedade de arma.
 
@@ -14420,7 +14437,7 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Melhoria](#fundamento--pontos). Peça comprada na montagem para alterar a aplicação ou acrescentar um efeito permitido.
 
-[Morrendo](#dano--zero). Situação resolvida pelas regras de queda e recuperação em Vida a zero.
+[Morrendo](#dano--zero). Condição de quem caiu a zero de vida, resolvida pelo tratamento e pela janela de socorro de Vida a zero.
 
 [Movimento imposto](#geral--quedas). Deslocamento provocado por outra criatura ou efeito, com procedimento distinto do percurso voluntário.
 

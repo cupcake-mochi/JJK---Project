@@ -1495,10 +1495,30 @@ else:
         _recomp   = _mult * _classe_max
         print(f'  [x] no nivel 30: Energia Reversa {_classe_max}d{_face} = {_teto_er:.1f} '
               f'de cura, Recomposicao = {_recomp}.')
+        # v0.363: o dono do multiplicador da Recomposicao e' o livro, que o baixou de 5 para 3
+        # junto com o Morrendo. A peca tem de publicar o mesmo, e a comparacao com a Energia
+        # Reversa deixa de ser trava: se a aptidao passa o Talento, a peca tem de DECLARAR por
+        # quanto, e o numero declarado e' refeito aqui. Relacao calada continua acendendo.
+        import livro as _livro_er
+        _mliv = re.search(r'recuperar \*\*(\d+) × sua maior Classe em pontos de vida\*\*',
+                          ' '.join(_livro_er.texto('catalogo').split()))
+        if not _mliv:
+            erro('nao li no Catalogo do livro quanto a `Recomposição` cura por Classe')
+        elif int(_mliv.group(1)) != _mult:
+            erro(f'a `Recomposição` cura {_mliv.group(1)} x a maior Classe no livro e a peca 11 '
+                 f'escreve {_mult} x')
         if _teto_er > _recomp:
-            erro(f'a `Energia Reversa` cura {_teto_er:.1f} no teto contra os {_recomp} da '
-                 f'Talento `Recomposição` — a aptidao APRENDIDA passou a inata, e a '
-                 f'secao 7 mandava medir uma contra a outra')
+            _mdecl = re.search(r'no teto passa a `Recomposição`: ela cura `(\d+),(\d+)` vez', _s6)
+            _razao = round(_teto_er / _recomp, 1)
+            if not _mdecl:
+                erro(f'a `Energia Reversa` cura {_teto_er:.1f} no teto contra os {_recomp} do '
+                     f'Talento `Recomposição`, e a peca nao declara que a aptidao passou a inata')
+            elif float(f'{_mdecl.group(1)}.{_mdecl.group(2)}') != _razao:
+                erro(f'a peca declara que a `Energia Reversa` cura {_mdecl.group(1)},{_mdecl.group(2)} '
+                     f'vez a `Recomposição`, e a conta da {_razao}')
+            else:
+                print(f'  [x] a aptidao passa o Talento em {_razao} vez, e a peca declara. '
+                      'O dono do Talento e o livro.')
 
     # 4. o teto e' a `maior Classe` e nao o refino — MEDIDO, e nao procurado.
     #

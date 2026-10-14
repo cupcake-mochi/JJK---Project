@@ -101,7 +101,7 @@ Esta peça é a que mais chegou com contrato assinado por outras, e vale listar 
 | **1** | **`Bocado`** | você guarda no corpo o que carrega. *A entrada inteira está abaixo* |
 | **1** | `Raiz` | você não é movido à força nem derrubado contra a sua vontade |
 | **1** | `Leitura` | você identifica a Classe e a Forma de qualquer feitiço conjurado a até `18 m` |
-| **2** | `Segundo Fôlego` | quando você chega a `0` de vida, uma vez por descanso longo você escolhe `Insistir` sem gastar a rodada |
+| **2** | `Segundo Fôlego` | uma vez por descanso longo, ao escolher `Insistir`, o tratamento que tira você da queda passa a ser `1/4` da vida máxima, o do `Aguentar`. ~~você escolhe `Insistir` sem gastar a rodada~~ *(até a v0.362)* |
 | **2** | `Contragolpe` | até `maestria` vezes por cena, quando alguém erra um ataque corpo a corpo contra você, a sua próxima rolagem de ataque de uma Kata contra ele tem vantagem, até o fim da cena; uma resposta guardada por vez |
 | **3** | `Aliança` | a sua arma não é desarmada contra a sua vontade, e só você a empunha; outra criatura ainda pode carregá-la |
 
@@ -433,4 +433,4 @@ O `conferir-marcial.py` roda **catorze checagens**, e nenhum valor de regra fica
 - **`Leitura` (R10-12).** *O Talento tem efeito próprio. Sem energia pessoal, exige uma ferramenta cujo funcionamento preveja essa leitura, e não concede `Sentir Energia` nem aptidão.*
 - **Equipamento restrito (D33, R10-37).** *A rota de arma segue Equipamento restrito, salvo permissão do mestre, e a arma de fogo vem com a munição inicial. A frase sobre ferramenta vestida como armadura saiu desta entrada.*
 - **O exemplo do Iori (D43, R10-38, R10-39).** *O `Gancho fechado` aplica `Prende` na falha de um TR Físico contra a CD da Kata, e não no acerto; as tentativas de saída usam o mesmo TR (v0.340, peça 19).*
-- **O `Segundo Fôlego` (R10-32) não migrou:** *depende do `Insistir`, e a revisão do Morrendo está adiada.*
+- ~~**O `Segundo Fôlego` (R10-32) não migrou:**~~ **FECHADO na v0.363:** *o Morrendo fechou no livro R50, e o `Segundo Fôlego` troca o tratamento do `Insistir` por `1/4` da vida máxima naquela queda, uma vez por descanso longo. Conta como uma escolha de `Insistir` na cena, e não dá cura, ação nem rodada. A regra da queda está na peça 1 §5.5.*

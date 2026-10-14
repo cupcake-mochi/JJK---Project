@@ -395,7 +395,7 @@
 
 ### O que o R41 escreve sobre dano e condições e esta peça não dizia — v0.347
 
-*Migração do capítulo de Dano do R41 (passo 5b do `PLANO.md`), sem a parte de vida a zero, que espera a revisão do Morrendo.* **Dois números mudaram, e moram nas seções deles:** *os tipos de dano são quinze (§4), e o degrau 2 da exaustão é `4,5 m` (peça 10 §3).* **O resto é lacuna fechada, sem número novo:**
+*Migração do capítulo de Dano do R41 (passo 5b do `PLANO.md`), sem a parte de vida a zero, que esperava a revisão do Morrendo.* **O Morrendo fechou no livro R50 e entrou na peça 1 §5.5 na v0.363.** **Dois números mudaram, e moram nas seções deles:** *os tipos de dano são quinze (§4), e o degrau 2 da exaustão é `4,5 m` (peça 10 §3).* **O resto é lacuna fechada, sem número novo:**
 
 - **A ordem de resolver um dano.** *Defesas contra o tipo, parcela por parcela; depois a Redução de Dano; depois a vida temporária; e o que sobra sai da vida. Uma redução que vale contra o golpe inteiro é usada uma vez, e não uma por tipo.*
 - **Resistência, vulnerabilidade e imunidade.** *Duas fontes da mesma resistência ainda cortam só a metade, e duas da mesma vulnerabilidade só dobram uma vez. Resistência e vulnerabilidade ao mesmo tipo se anulam antes do arredondamento. Imunidade prevalece, e o que ignora resistência não ignora imunidade por isso.*

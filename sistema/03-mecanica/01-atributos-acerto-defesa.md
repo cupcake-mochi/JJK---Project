@@ -455,17 +455,25 @@ O próprio esqueleto justifica a trava 6 dizendo que *"o filtro existe para impe
 
 > **Você chega a 0 de vida. Escolha uma das duas, na hora:**
 >
-> **Aguentar** — você apaga. Tem uma janela de **3 rodadas**. Uma cura de **20% ou mais da sua vida máxima**, de uma vez, te põe de pé, e a Melhoria `Levanta` te põe de pé com qualquer valor. **Cada dano que você recebe apagado tira uma rodada da janela**, no mínimo uma. A janela acabou sem socorro, você chega ao **estágio 4 de dano de alma**.
+> **Aguentar** — você apaga e espera socorro. Tem uma janela de **3 rodadas**. Você sai da queda quando o tratamento recebido alcança **1/4 da sua vida máxima**, arredondado para cima. As curas somam, de várias fontes e em várias rodadas.
 >
-> **Insistir** — você fica de pé a 0 de vida e age normalmente. Cada rodada custa um pedaço da sua **vida máxima**, e ele dobra: **1/8, depois 1/4, depois 1/2**. Na quarta rodada você desaba.
+> **Insistir** — você fica de pé a 0 de vida e age normalmente, com a mesma janela. **Não custa vida máxima nem ação.** O tratamento que tira você da queda é **1/3 da sua vida máxima** na primeira vez que você Insiste na cena e **1/2** nas seguintes, arredondado para cima, com teto de **15 × a sua maior Classe**. Dá para largar e passar a Aguentar sem ação; o tratamento pedido não baixa.
 >
-> **O dano que entra enquanto você está a 0 se acumula.** Passou de **metade da sua vida máxima original**, acaba na hora: no `Aguentar` você chega ao estágio 4, e no `Insistir` você desaba. **O custo do `Insistir` não entra nessa conta**, porque ele já cobra na vida máxima.
+> **A vida fica em 0 enquanto o tratamento se acumula.** Completou, **todo o tratamento vira vida**, até a máxima. **Cada dano que alcança a sua vida a 0 tira uma rodada da janela**, e não mexe no tratamento já recebido nem no pedido. A janela acabou sem socorro, você fica Derrotado e sai da cena.
 >
-> **Quem desaba pelo Insistir não levanta com um ponto de cura.** Só acorda com **metade da sua vida máxima original**, e aqui a cura **soma**: pode vir de várias fontes, em várias rodadas. **A Melhoria `Levanta` põe de pé com qualquer valor, aqui também.**
+> **A Melhoria `Levanta` e o `Ainda Há Tempo` do Socorrista encerram a queda com qualquer valor.** Remoção de condição não encerra, nem a `Limpa Fundo`. **Estabilizar** é Medicina CD **14** com a Ação Padrão, em quem Aguenta: o tempo para de correr, e ninguém é curado por isso.
 >
-> **Toda vez que você levanta de uma queda, ganha uma Sequela.** Cada Sequela tira uma rodada da janela da próxima queda. **Na segunda queda você também ganha uma Cicatriz**, que é permanente e não sai no descanso.
+> ~~**Aguentar** — você apaga. Tem uma janela de **3 rodadas**. Uma cura de **20% ou mais da sua vida máxima**, de uma vez, te põe de pé, e a Melhoria `Levanta` te põe de pé com qualquer valor. **Cada dano que você recebe apagado tira uma rodada da janela**, no mínimo uma. A janela acabou sem socorro, você chega ao **estágio 4 de dano de alma**.~~
 >
-> **Sequela some no descanso longo. Vida máxima e Integridade voltam junto, como sempre.**
+> ~~**Insistir** — você fica de pé a 0 de vida e age normalmente. Cada rodada custa um pedaço da sua **vida máxima**, e ele dobra: **1/8, depois 1/4, depois 1/2**. Na quarta rodada você desaba.~~
+>
+> ~~**O dano que entra enquanto você está a 0 se acumula.** Passou de **metade da sua vida máxima original**, acaba na hora: no `Aguentar` você chega ao estágio 4, e no `Insistir` você desaba. **O custo do `Insistir` não entra nessa conta**, porque ele já cobra na vida máxima.~~
+>
+> ~~**Quem desaba pelo Insistir não levanta com um ponto de cura.** Só acorda com **metade da sua vida máxima original**, e aqui a cura **soma**: pode vir de várias fontes, em várias rodadas. **A Melhoria `Levanta` põe de pé com qualquer valor, aqui também.**~~ *As quatro riscadas valeram da v0.245 à v0.362. A regra de cima é a do livro R50, que o Mizuki fechou com o nome de Morrendo (candidata v0.17 dele); o livro é o dono, e esta peça guarda o resumo e as contas.*
+>
+> **Toda vez que você levanta de uma queda, ganha uma Sequela.** Cada Sequela tira uma rodada da janela da próxima queda, e com três a próxima queda derrota na hora. **Na segunda queda você também ganha uma Cicatriz**, que é permanente e não sai no descanso.
+>
+> **Sequela some no descanso longo, e a ordem importa: primeiro a recuperação, que registra a Sequela de quem saiu da queda ali, e só depois todas saem, inclusive essa.** Vida e Integridade voltam junto, como sempre.
 >
 > **A Cicatriz é uma marca que o mundo lê. Você rola `Intimidação` com vantagem e `Persuasão` com desvantagem, e ela não muda mais nada.**
 >
@@ -478,6 +486,8 @@ O próprio esqueleto justifica a trava 6 dizendo que *"o filtro existe para impe
 Um combate dura de 3,4 a 4,0 rodadas (seção 8), e você cai, em média, no meio dele. Uma janela de 1 rodada quase nunca dá tempo de alguém chegar; de 4 em diante o socorro deixa de custar decisão. **Entre 2 e 3 é onde a escolha existe** — dá para socorrer, e custa o turno de quem estava lutando.
 
 ### Por que o Insistir cobra fração, e não o dano que entra
+
+*Desenho da v0.245, que a v0.363 substituiu pelo Morrendo do livro R50. Fica como registro de por que a regra anterior era o que era; o que vale está em "A regra", acima, e em "O Morrendo do R50, em números", abaixo.*
 
 A versão óbvia era o dano continuar entrando, só que na vida máxima. Ela quebra, e o motivo é que **vida máxima é justamente o eixo em que os Caminhos divergem 3,2×**:
 
@@ -503,6 +513,8 @@ O Bastião paga mais em número absoluto e **a mesma fração de si mesmo**. Nin
 
 ### As duas escolhas não se dominam
 
+*Desenho da v0.245, que a v0.363 substituiu pelo Morrendo do livro R50. Fica como registro de por que a regra anterior era o que era; o que vale está em "A regra", acima, e em "O Morrendo do R50, em números", abaixo.*
+
 | | ganha | custa |
 |---|---|---|
 | **Aguentar** | janela de 3 rodadas, e acorda com `20%` da máxima de uma vez | fora da luta desde já, 1 Sequela, e cada dano recebido custa uma rodada da janela |
@@ -513,6 +525,8 @@ Nenhum conjunto contém o outro, pelo teste da peça 3. Com cura sobrando no gru
 **E a trava do despertar se auto-equilibra:** o Bastião é quem mais lucra com Insistir, porque tem mais corpo para queimar — e é o mais caro de trazer de volta, porque metade dele é muito. Uma cura do topo cobre o frágil em toda a faixa e não cobre o Bastião quase nunca. Ninguém fica trancado: duas curas sempre resolvem, e o descanso longo devolve tudo.
 
 ### O socorro, e o dano que entra a 0
+
+*Desenho da v0.245, que a v0.363 substituiu pelo Morrendo do livro R50. Fica como registro de por que a regra anterior era o que era; o que vale está em "A regra", acima, e em "O Morrendo do R50, em números", abaixo.*
 
 ***Decisões do Mizuki, v0.245:*** *o socorro do `Aguentar` é `20%` da vida máxima; a Melhoria `Levanta` põe de pé com qualquer valor — "ela é exceção, sempre foi" —; e no `Insistir` a cura que acorda **soma**, ao contrário do `Aguentar`, onde ela vem de uma vez.*
 
@@ -534,6 +548,8 @@ Nenhum conjunto contém o outro, pelo teste da peça 3. Com cura sobrando no gru
 **E o custo do `Insistir` fica fora do acumulado de propósito.** *Ele já cobra na vida máxima, e somar os dois derrubaria quase toda ficha na segunda rodada — o que apagaria as três rodadas que o `Insistir` existe para comprar.*
 
 ### O estado terminal já estava escrito, e era inalcançável
+
+*Desenho da v0.245, que a v0.363 substituiu pelo Morrendo do livro R50. Fica como registro de por que a regra anterior era o que era; o que vale está em "A regra", acima, e em "O Morrendo do R50, em números", abaixo.*
 
 A peça 24 §4 tem os quatro estágios de dano de alma, e o quarto diz: ***"você não é mais você — o que sobra é decisão do mestre."***
 
@@ -597,6 +613,34 @@ Porque na quarta ela nunca aconteceria. Com a vida **não voltando no descanso c
 *Com isso o `Insistir` passou a comprar uma terceira coisa, e ela não é número:* **quem cura a si mesmo não leva a marca.** *A tabela de "as duas escolhas não se dominam" acima continua valendo — o que entrou não foi vantagem, foi uma linha de ficção que só um dos dois ramos alcança.*
 
 **⚠ E a perícia que ela derruba é fixa do Guia.** *`Persuasão` é uma das duas assinaturas dele, então ele é o Caminho que mais perde com a marca — e é o único que a evita de graça, porque a Trilha `Sutura` entrega a `Energia Reversa` no nível 2 sem gate nenhum.* **Quem mais teria a perder é quem mais pode não levar.** *Não foi desenhado assim; é o que as duas regras já escritas produzem quando encostam.*
+
+### O Morrendo do R50, em números
+
+*Seção da v0.363. Ela resume o que o livro R50 publica em `Vida a zero`, no capítulo de Dano e recuperação, e o que o `conferir-atributos.py` recalcula dele.*
+
+**O que mudou de lugar:** *o `Insistir` deixou de cobrar vida máxima. O preço dele agora é o tamanho do tratamento que tira você da queda, que cresce se você Insiste de novo na mesma cena.* **O que ficou:** *a janela de três rodadas, a Sequela que a encurta, e o dano a zero que custa rodada.*
+
+| | ganha | custa |
+|---|---|---|
+| **Aguentar** | o menor tratamento, `1/4` da vida máxima | fora da luta desde já, 1 Sequela ao sair |
+| **Insistir** | segue agindo, e pode tratar a si mesmo | tratamento de `1/3` na primeira vez da cena e `1/2` nas seguintes, 1 Sequela ao sair |
+
+**O teto de `15 ×` a maior Classe só alcança quem tem muita vida,** *e ele nunca deixa o `Insistir` mais barato que o `Aguentar` com a vida base dos Caminhos: a checagem 9.2 confere isso em todo Caminho, com Constituição `0`, `3` e `6`, nos oito níveis da tabela.*
+
+**O tratamento pedido, pela vida média dos Caminhos com Constituição `3`:**
+
+| nível | Classe | vida | Aguentar | 1º Insistir | 2º Insistir |
+|---|---|---|---|---|---|
+| `2` | `1` | `20` | `5` | `7` | `10` |
+| `6` | `2` | `53` | `14` | `18` | `27` |
+| `10` | `3` | `86` | `22` | `29` | `43` |
+| `14` | `4` | `119` | `30` | `40` | `60` |
+| `18` | `5` | `152` | `38` | `51` | `75` |
+| `22` | `6` | `185` | `47` | `62` | `90` |
+| `26` | `7` | `218` | `55` | `73` | `105` |
+| `30` | `7` | `251` | `63` | `84` | `105` |
+
+***Decisões do Mizuki, fechadas com o livro R50 em 13/10/2026:*** *`Aguentar` pede `1/4` e não tem teto; `Insistir` pede `1/3` e depois `1/2`, com o teto; `Insistir` não gasta Ação Padrão, vida máxima nem rodada; no descanso longo a Sequela da saída é registrada antes de todas serem removidas. A `Recomposição` passou de `5 ×` para `3 ×` a maior Classe, e o `Segundo Fôlego` troca o tratamento do `Insistir` por `1/4` naquela queda.*
 
 ### Em aberto nesta seção
 

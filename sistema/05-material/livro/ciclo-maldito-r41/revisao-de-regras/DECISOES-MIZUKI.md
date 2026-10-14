@@ -347,3 +347,13 @@ Formato: item | palavras dele (resumidas, fiéis) | leitura | estado.
 - Ele mandou a R49 dizendo "nova atualização, foi inserido as mudanças". As duas edições são só de diagramação: o texto é idêntico ao do R47. R48, 402 páginas; R49, 397. PDF R49 SHA-256 c9d1b6cc…ac9f8975.
 - As pontas de redação que ele disse estarem sendo mexidas não entraram: seguem num rascunho do ChatGPT, fora do livro.
 - Branco no pé das colunas (`medir_branco.py`): 61,7 páginas equivalentes no R47, 77,2 no R48, 72,2 no R49.
+
+
+## R50 — 13 e 14/10/2026
+- Ele mandou o R50: "Tivemos diversas atualizações no sistema, chat gpt revisionou tudo mas peço para que você 1 - Revisione também 2 - Aplique as mudanças nos nossos validadores".
+- Item 195, o Morrendo, e item 196, as pontas de redação das Origens. A regra do Morrendo foi fechada por ele com o ChatGPT (candidata v0.17); os registros que vieram na entrega estão em `morrendo-r50/`.
+- R50 = R49 + 29 blocos, 62 trechos de texto, todos dentro do registro. 14.929 linhas e 397 páginas. PDF SHA-256 c0be8892…51d308e4.
+- Conferido aqui: os 13 números dos exemplos refazem; nenhuma frase da vida a zero antiga sobrou no livro; no PDF nenhum título, negrito ou pedaço de parágrafo se perdeu.
+- Pergunta aberta, levada a ele: a `Energia Reversa` acompanha a descida da `Recomposição`? Era regra da peça 11 a aptidão aprendida não passar o Talento inato.
+- Ponta que segue aberta desde o R47: os outros custos da Reação cancelada pelo Ataque sem Prenúncio.
+- Item 197. Ao ver que o R50 escreve a `Recomposição` a 3 × a maior Classe, ele disse: "era pra ser 4x classe". O registro do estudo do Morrendo cita ele pedindo 3 × ("anote pra reduzir para 3x maior classe"). Fica 4 ×, a aplicar na próxima edição; o repositório acompanha o livro (3 ×) até lá.

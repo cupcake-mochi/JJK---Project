@@ -624,78 +624,6 @@
     "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
   },
   {
-    "id": "N053",
-    "bloco": "dano--zero",
-    "capitulo": "3. Dano e recuperação",
-    "texto": "**Exemplo:** Mei cai sem Sequelas, logo depois do turno de um inimigo. Tem três rodadas. Depois de uma volta completa da iniciativa, restam duas. Um ataque posterior causa dano à vida dela e consome outra. Resta uma rodada para socorrê-la.",
-    "palavras": 40,
-    "paginas_base": [
-      60
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N054",
-    "bloco": "dano--insistir",
-    "capitulo": "3. Dano e recuperação",
-    "texto": "**Exemplo:** Kaito cai com máximo 80 e uma Sequela. A janela é de duas rodadas. Paga 10 para Insistir e fica com máximo 70. Após uma volta completa, resta uma rodada. Paga 20 e seu máximo cai para 50. Se não receber socorro até a próxima volta, fica Derrotado. Não chega a pagar a terceira fração.",
-    "palavras": 56,
-    "paginas_base": [
-      62
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N055",
-    "bloco": "dano--socorro",
-    "capitulo": "3. Dano e recuperação",
-    "texto": "**Exemplo:** Mei caiu com referência 23. Precisa de 5 de tratamento. Recebe 3 de cura e continua a zero. Outra cura de 3 completa 6. Ela volta com 6 de vida e uma Sequela. As curas anteriores não foram desperdiçadas.",
-    "palavras": 40,
-    "paginas_base": [
-      62
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N056",
-    "bloco": "dano--sequelas",
-    "capitulo": "3. Dano e recuperação",
-    "texto": "**Exemplo:** Mei cai e recebe socorro. Fica com uma Sequela. Se cair novamente antes do descanso longo, terá duas rodadas de janela, seja para Aguentar, seja para Insistir.",
-    "palavras": 28,
-    "paginas_base": [
-      63
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N057",
-    "bloco": "dano--descansos",
-    "capitulo": "3. Dano e recuperação",
-    "texto": "**Exemplo:** Rina tem máximo 10 PE e está com 1. Sem Exaustão, recupera **2 PE** no descanso curto, ficando com 3. Sua vida não muda. Se tivesse 9 PE, recuperaria apenas 1, por já alcançar o máximo.",
-    "palavras": 37,
-    "paginas_base": [
-      65
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
-    "id": "N058",
-    "bloco": "dano--descansos",
-    "capitulo": "3. Dano e recuperação",
-    "texto": "**Exemplo:** ao terminar a missão fora da base, Mei tem máximo 23 de vida e saldo 3. Vai a **11**, metade arredondada para baixo. Se já tivesse 18, conservaria 18. Um personagem com máximo 60 PE e saldo 8 vai a **30 PE**.",
-    "palavras": 43,
-    "paginas_base": [
-      65
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
     "id": "N059",
     "bloco": "dano--exaustao",
     "capitulo": "3. Dano e recuperação",
@@ -1764,18 +1692,6 @@
     "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
   },
   {
-    "id": "N163",
-    "bloco": "catalogo--cat-passivas-2-recursos",
-    "capitulo": "11. Catálogo de criação",
-    "texto": "**Exemplo.** Um feitiço que custa 9 PE passa a custar 5. Se houver uma Dívida de 4 PE, o total será 9 PE. Dois inimigos derrotados pela mesma conjuração não reduzem o preço seguinte para um quarto.",
-    "palavras": 37,
-    "paginas_base": [
-      312
-    ],
-    "tipo": "exemplo",
-    "motivo": "Ilustra a aplicação da regra; manter o texto e aliviar a caixa recorrente."
-  },
-  {
     "id": "N164",
     "bloco": "aptidoes--apt-marcos",
     "capitulo": "12. Aptidões e Refino",
@@ -2748,5 +2664,101 @@
     "paginas_base": [],
     "tipo": "exemplo",
     "motivo": "R45: exemplo ou recurso preserva tratamento vigente."
+  },
+  {
+    "id": "R50-N-R50-001-1",
+    "bloco": "dano--zero",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** você precisa de 31 de tratamento e já recebeu 18. Tem duas rodadas restantes. Sofre 7 de dano depois das proteções: conserva os 18 de tratamento e passa a ter uma rodada. Ainda faltam 13 de tratamento, mas há menos tempo para recebê-los.",
+    "palavras": 40,
+    "paginas_base": [
+      60
+    ],
+    "tipo": "exemplo",
+    "motivo": "Exemplo atualizado com as decisões de Morrendo; conservar o tratamento visual discreto aprovado."
+  },
+  {
+    "id": "R50-N-R50-002-1",
+    "bloco": "dano--insistir",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** com máximo de referência 93 e maior Classe 3, Aguentar pede 24 de tratamento. A primeira escolha de Insistir na cena pede 31. Na segunda e nas seguintes, metade daria 47, mas o teto de 45 reduz a exigência para 45. Se escolher Insistir e depois desistir de agir, conserva o requisito daquela queda. Sua vida máxima permanece 93.",
+    "palavras": 56,
+    "paginas_base": [
+      62
+    ],
+    "tipo": "exemplo",
+    "motivo": "Exemplo atualizado com as decisões de Morrendo; conservar o tratamento visual discreto aprovado."
+  },
+  {
+    "id": "R50-N-R50-002-2",
+    "bloco": "dano--insistir",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo do teto:** com máximo de referência 395 e maior Classe 7, Aguentar pede 99. O primeiro Insistir daria 132 e o segundo, 198; ambos ficam limitados a 105. Mesmo com a mesma exigência de tratamento, as Sequelas de quedas anteriores encurtam a janela de socorro. Sua vida máxima continua 395.",
+    "palavras": 56,
+    "paginas_base": [
+      62
+    ],
+    "tipo": "exemplo",
+    "motivo": "Exemplo atualizado com as decisões de Morrendo; conservar o tratamento visual discreto aprovado."
+  },
+  {
+    "id": "R50-N-R50-003-1",
+    "bloco": "dano--socorro",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Mei caiu com máximo 23 e escolheu Aguentar. Precisa de 6. Recebe 3 de cura e continua a zero. Outra cura de 3 completa 6: sai de Morrendo com 6 de vida e uma Sequela. Se tivesse escolhido Insistir pela primeira vez na cena, precisaria de 8 e ainda faltariam 2.",
+    "palavras": 40,
+    "paginas_base": [
+      62
+    ],
+    "tipo": "exemplo",
+    "motivo": "Exemplo atualizado com as decisões de Morrendo; conservar o tratamento visual discreto aprovado."
+  },
+  {
+    "id": "R50-N-R50-004-1",
+    "bloco": "dano--sequelas",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Mei cai e recebe socorro. Fica com uma Sequela. Se cair novamente antes do descanso longo, terá duas rodadas de janela, seja para Aguentar, seja para Insistir.",
+    "palavras": 28,
+    "paginas_base": [
+      63
+    ],
+    "tipo": "exemplo",
+    "motivo": "Exemplo atualizado com as decisões de Morrendo; conservar o tratamento visual discreto aprovado."
+  },
+  {
+    "id": "R50-N-R50-006-1",
+    "bloco": "dano--descansos",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** Rina tem máximo 10 PE e está com 1. Sem Exaustão, recupera **2 PE** no descanso curto, ficando com 3. Sua vida não muda. Se tivesse 9 PE, recuperaria apenas 1, por já alcançar o máximo.",
+    "palavras": 37,
+    "paginas_base": [
+      65
+    ],
+    "tipo": "exemplo",
+    "motivo": "Exemplo atualizado com as decisões de Morrendo; conservar o tratamento visual discreto aprovado."
+  },
+  {
+    "id": "R50-N-R50-006-2",
+    "bloco": "dano--descansos",
+    "capitulo": "3. Dano e recuperação",
+    "texto": "**Exemplo:** ao terminar a missão fora da base, Mei tem máximo 23 de vida e saldo 3. Vai a **11**, metade arredondada para baixo. Se já tivesse 18, conservaria 18. Um personagem com máximo 60 PE e saldo 8 vai a **30 PE**.",
+    "palavras": 43,
+    "paginas_base": [
+      65
+    ],
+    "tipo": "exemplo",
+    "motivo": "Exemplo atualizado com as decisões de Morrendo; conservar o tratamento visual discreto aprovado."
+  },
+  {
+    "id": "R50-N-R50-008-1",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "capitulo": "11. Catálogo de criação",
+    "texto": "**Exemplo.** Um feitiço que custa 9 PE passa a custar 5. Se houver uma Dívida de 4 PE, o total será 9 PE. Dois inimigos derrotados pela mesma conjuração não reduzem o preço seguinte para um quarto.",
+    "palavras": 37,
+    "paginas_base": [
+      312
+    ],
+    "tipo": "exemplo",
+    "motivo": "Exemplo atualizado com as decisões de Morrendo; conservar o tratamento visual discreto aprovado."
   }
 ]

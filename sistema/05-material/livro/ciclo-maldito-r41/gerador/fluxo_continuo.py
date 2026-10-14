@@ -201,7 +201,9 @@ class Fluxo:
         kept=[];i=0
         while i<len(final):
             a=final[i];ps=a['unit'].parts
-            if str(ps[0].text) in {'Sangue Frio','Leitura a Dois','Gambiarra'}:
+            if (str(ps[0].text) in {'Sangue Frio','Leitura a Dois','Gambiarra'}
+                    or (ps[0].block=='dano--zero' and ps[0].text=='Aguentar')
+                    or (ps[0].block=='origens--feto-beneficios' and ps[0].text=='Locomoção Adaptada')):
                 j=i+1
                 while j<len(final) and final[j]['unit'].parts[0].block==ps[0].block and not any(p.kind in heads for p in final[j]['unit'].parts):j+=1
                 u=self.joined_unit(final[i:j]);cw=u.measure(n['CW'])[0]
