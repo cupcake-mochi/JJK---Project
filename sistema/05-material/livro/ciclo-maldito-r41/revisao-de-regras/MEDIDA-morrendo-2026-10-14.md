@@ -64,4 +64,4 @@ O Mizuki mandou o R50 e pediu: "Revisione também" e "Aplique as mudanças nos n
 - O `conferir-atributos.py` refaz os três exemplos do livro e a tabela da peça 1 a cada rodada (checagem 9.8), e confere em todo Caminho que Aguentar nunca pede mais que Insistir (9.2).
 - O contra-teste da 9.3 mostrou que `15 ×` a maior Classe é o menor teto que mantém essa ordem com a vida base: com `14 ×` ela já quebra.
 - A `Recomposição` a `3 ×` a maior Classe deixou a `Energia Reversa` acima dela (`31,5` contra `21` no nível 30). A peça 11 declara a relação, e a pergunta está aberta para o Mizuki.
-- Ao ver o `3 ×` no livro, ele disse que a `Recomposição` "era pra ser 4x classe" (item 197). A parte 5 da saída põe os dois lado a lado; a correção entra na próxima edição do livro.
+- Ao ver o `3 ×` no livro, ele disse que a `Recomposição` "era pra ser 4x classe" (item 197). A parte 5 da saída põe os dois lado a lado; a correção entrou no R51 (v0.364).

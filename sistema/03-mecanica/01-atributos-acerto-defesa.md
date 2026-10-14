@@ -640,7 +640,7 @@ Porque na quarta ela nunca aconteceria. Com a vida **não voltando no descanso c
 | `26` | `7` | `218` | `55` | `73` | `105` |
 | `30` | `7` | `251` | `63` | `84` | `105` |
 
-***Decisões do Mizuki, fechadas com o livro R50 em 13/10/2026:*** *`Aguentar` pede `1/4` e não tem teto; `Insistir` pede `1/3` e depois `1/2`, com o teto; `Insistir` não gasta Ação Padrão, vida máxima nem rodada; no descanso longo a Sequela da saída é registrada antes de todas serem removidas. A `Recomposição` passou de `5 ×` para `3 ×` a maior Classe, e o `Segundo Fôlego` troca o tratamento do `Insistir` por `1/4` naquela queda.*
+***Decisões do Mizuki, fechadas com o livro R50 em 13/10/2026:*** *`Aguentar` pede `1/4` e não tem teto; `Insistir` pede `1/3` e depois `1/2`, com o teto; `Insistir` não gasta Ação Padrão, vida máxima nem rodada; no descanso longo a Sequela da saída é registrada antes de todas serem removidas. A `Recomposição` passou de `5 ×` para `4 ×` a maior Classe (o R50 escreveu `3 ×`, e o R51 corrigiu), e o `Segundo Fôlego` troca o tratamento do `Insistir` por `1/4` naquela queda.*
 
 ### Em aberto nesta seção
 

@@ -941,13 +941,14 @@ _LIVRO_DIZ98 = (
     'Com três ou mais Sequelas, você fica Derrotado imediatamente',
     'Remoção genérica de condições, incluindo Limpa Fundo, não substitui esse socorro.',
     'depois, remova todas as Sequelas, inclusive essa',
-    'recuperar **3 × sua maior Classe em pontos de vida**',
+    'recuperar **4 × sua maior Classe em pontos de vida**',   # v0.364, item 197
     'você pode usar **1/4 do máximo de referência**, arredondado para cima, como tratamento necessário naquela queda',
 )
 _LIVRO_NAO98 = (
     '20% do máximo de referência', '1/8 da referência', 'Custo de vida máxima',
     'máximo perdido por Insistir', 'limiar normal de recuperação', 'primeiro custo de vida máxima',
     'recuperar **5 × sua maior Classe em pontos de vida**',
+    'recuperar **3 × sua maior Classe em pontos de vida**',   # o R50 escreveu 3 x; o R51 corrigiu
 )
 _PECA_DIZ98 = (
     'Não custa vida máxima nem ação', 'todo o tratamento vira vida',

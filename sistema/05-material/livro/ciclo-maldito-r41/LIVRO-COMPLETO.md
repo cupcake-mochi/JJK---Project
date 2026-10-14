@@ -10699,7 +10699,7 @@ Essa vida segue as regras gerais: não se soma a outra reserva, tem teto de meta
 
 #### Recomposição
 
-**Uma vez por descanso curto**, use **Ação Padrão** para recuperar **3 × sua maior Classe em pontos de vida**, até sua vida máxima. Não gasta PE. Recuperar vida não remove condições por conta própria.
+**Uma vez por descanso curto**, use **Ação Padrão** para recuperar **4 × sua maior Classe em pontos de vida**, até sua vida máxima. Não gasta PE. Recuperar vida não remove condições por conta própria.
 
 #### Segunda Natureza
 

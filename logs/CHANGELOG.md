@@ -8,6 +8,21 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.364] — 14/10/2026
+
+**O livro passa a ser o R51: a `Recomposição` recupera `4 ×` a maior Classe.** *O R50 tinha escrito `3 ×`. Ao ver o número, o Mizuki disse "era pra ser 4x classe" (item 197), pediu a correção e mandou a edição: "mudança feita". É a única linha que muda do R50 para o R51.*
+
+- **Peça 11:** *a âncora da `Energia Reversa` passa a `4 × maior Classe`, `28` no nível 30, com o `35` e o `21` riscados. A aptidão no teto cura `1,1` vez o Talento (`31,5` contra `28`), e não mais `1,5`.*
+- **`conferir-atributos.py`, 9.8:** *a frase da `Recomposição` cobrada no livro é a de `4 ×`, e a de `3 ×` entrou na lista das que não podem voltar, ao lado da de `5 ×`.* **O `conferir-aptidoes.py` não mudou:** *ele lê o multiplicador do livro e da peça, e refaz a razão declarada.*
+
+**O que esta versão não fez:** *a pergunta sobre a `Energia Reversa` segue aberta para o Mizuki (peça 11 §9). As simulações do estudo do Morrendo que usaram `3 ×` não foram refeitas; elas ficam fora do repositório. A ponta dos custos da Reação cancelada pelo Ataque sem Prenúncio segue fora do livro. A ficha do Sheets ainda lê o R43.*
+
+**Testes negativos, em cópia isolada com a base passando antes e depois:** *seis perturbações: a `Recomposição` de volta a `3 ×` no livro (acende nos dois validadores) e a `5 ×`, a peça 11 escrevendo `3 ×`, a razão declarada de volta a `1,5` e a declaração apagada.* **As seis mudaram o arquivo e acenderam.**
+
+**Validação:** *os `27` validadores de `03-mecanica/`, o `conferir-repositorio.py`, o `pac7.py` e o `v7.py` saem com código `0`. O `conferir-voz.py --estrito` continua reprovando no manual v0.331, como antes. O texto do R51 difere do R50 em uma linha; no texto extraído do PDF muda só a página 285, onde sai um `3` e entra um `4`.*
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, parágrafo "Próximo": a resposta sobre a `Energia Reversa`, e depois a ficha do Sheets.
+
 ## [0.363] — 14/10/2026
 
 **O livro passa a ser o R50, com o Morrendo. O passo 3 da migração fechou.** *O Mizuki refez a vida a zero com o ChatGPT e mandou a edição: "Tivemos diversas atualizações no sistema, chat gpt revisionou tudo mas peço para que você 1 - Revisione também 2 - Aplique as mudanças nos nossos validadores".*

@@ -213,6 +213,8 @@ from revisao_r47 import aplicar as aplicar_r47
 publication_changes.extend(aplicar_r47(enriched))
 from revisao_r50 import aplicar as aplicar_r50
 publication_changes.extend(aplicar_r50(enriched))
+from revisao_r51 import aplicar as aplicar_r51
+publication_changes.extend(aplicar_r51(enriched))
 for key,block in all_blocks.items():
  first=enriched[key].splitlines()[0] if enriched[key].splitlines() else ''
  if re.match(r'^#{1,6} ',first):block.title=re.sub(r'^#{1,6} ','',first)

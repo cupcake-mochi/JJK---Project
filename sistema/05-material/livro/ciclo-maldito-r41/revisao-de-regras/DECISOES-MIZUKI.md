@@ -357,3 +357,8 @@ Formato: item | palavras dele (resumidas, fiéis) | leitura | estado.
 - Pergunta aberta, levada a ele: a `Energia Reversa` acompanha a descida da `Recomposição`? Era regra da peça 11 a aptidão aprendida não passar o Talento inato.
 - Ponta que segue aberta desde o R47: os outros custos da Reação cancelada pelo Ataque sem Prenúncio.
 - Item 197. Ao ver que o R50 escreve a `Recomposição` a 3 × a maior Classe, ele disse: "era pra ser 4x classe". O registro do estudo do Morrendo cita ele pedindo 3 × ("anote pra reduzir para 3x maior classe"). Fica 4 ×, a aplicar na próxima edição; o repositório acompanha o livro (3 ×) até lá.
+
+
+## R51 — 14/10/2026
+- Ele mandou o R51: "mudança feita". R51 = R50 com uma linha: a `Recomposição` recupera 4 × a maior Classe (item 197). No PDF muda só a página 285, um algarismo. 397 páginas. PDF SHA-256 a5c5ff95…1cbfe7cd.
+- A pergunta da `Energia Reversa` segue aberta: com o Talento a 4 ×, ela cura 31,5 contra 28 no nível 30.
