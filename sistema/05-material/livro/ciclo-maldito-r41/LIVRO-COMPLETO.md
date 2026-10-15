@@ -3254,13 +3254,13 @@ Essa opção acompanha **Latente, Receptáculo, Descendente, Encarnado ou Híbri
 <a id="origens--legado-criar"></a>
 ### Personalizar sua Origem
 
-Você pode criar com o mestre uma marcante e menores compatíveis com sua Origem, usando as entradas publicadas como referência. Registrem o pacote antes da primeira sessão: **base, uma marcante e duas menores**. A personalização pode alcançar ambas as menores; não exige escolher uma opção pronta primeiro.
+Você pode criar com o mestre menores compatíveis com sua Origem, usando as entradas publicadas como referência. A marcante segue as opções publicadas para sua Origem; a exceção é a criação prevista em **Criar sua Restrição**, no ramo **Restrição corporal**. Registrem o pacote antes da primeira sessão: **base, uma marcante e duas menores**. A personalização pode alcançar ambas as menores; não exige escolher uma opção pronta primeiro.
 
-Definam o que cada capacidade faz, quando funciona, ação, custo, frequência, limites e escolhas fixas. Comparem seu alcance com uma capacidade de função semelhante, incluindo as condições necessárias para usá-la. A história pode variar sem modificar a regra: outra aparência, material ou personalidade não concede benefícios extras.
+Definam o que cada menor criada faz, quando funciona, ação, custo, frequência, limites e escolhas fixas. Comparem seu alcance com uma capacidade de função semelhante, incluindo as condições necessárias para usá-la. A história pode variar sem modificar a regra: outra aparência, material ou personalidade não concede benefícios extras.
 
 #### Famílias próprias
 
-Para um Descendente de uma família criada para a campanha, descrevam sua formação, relações e obrigações. Construam com o mestre uma versão coerente da base e um pacote próprio, usando os quatro clãs apresentados como referência. A família define as opções disponíveis; seu nome não custa uma escolha adicional de marcante. Mantenham uma única base, uma marcante e duas menores elegíveis, sem reunir automaticamente os benefícios de vários clãs.
+Para um Descendente de uma família criada para a campanha, descrevam sua formação, relações e obrigações. Construam com o mestre uma versão coerente da base e menores próprias, usando os quatro clãs apresentados como referência. Para a marcante, adotem uma das modalidades publicadas do Descendente. A família define as opções disponíveis; seu nome não custa uma escolha adicional de marcante. Mantenham uma única base, uma marcante e duas menores elegíveis, sem reunir automaticamente os benefícios de vários clãs.
 
 #### Rever a Origem
 

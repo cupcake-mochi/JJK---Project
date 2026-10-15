@@ -1,0 +1,153 @@
+{
+  "versao": "v0.365",
+  "livro": "R52",
+  "paginas": 397,
+  "blocos_alterados": 1,
+  "substituicoes": 3,
+  "texto_integral_corresponde_ao_registro": true,
+  "sha256_pdf": "c04d86e11ac867d9dc60b398528cd0eac8626455ab5c125e6191a26b1e03e026",
+  "sha256_texto": "c29d49befd671a1d654476b807a196548c0bc94ced134b2dfe6be5b556172ba8",
+  "validadores_regra": 27,
+  "validadores_matematicos": 2,
+  "resultados": [
+    {
+      "arquivo": "sistema/03-mecanica/conferir-acao.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-alma.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-aptidoes.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-atributos.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-bestiario.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-bloquear.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-catalogo.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-criacao.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-dano.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-descanso.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-equipamento.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-expansao.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-ferramenta.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-ficha.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-invocacoes.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-legados.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-manual.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-marcial.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-nomes.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-objeto.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-orcamento.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-pactos.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-pericias.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-progressao.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-ritual.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-sem-tecnica.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-xp.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "manual/matematica/pac7.py",
+      "saida": 0
+    },
+    {
+      "arquivo": "manual/matematica/v7.py",
+      "saida": 0
+    }
+  ],
+  "conferir_repositorio_saida": 0,
+  "negativos": {
+    "metodo": "Leitura do livro substituída só no processo de teste; nenhum arquivo do repositório é modificado.",
+    "livro_preservado": true,
+    "casos": [
+      {
+        "caso": "permissao-geral-volta",
+        "saida": 1,
+        "reprovou_na_checagem_10_10": true
+      },
+      {
+        "caso": "pacote-sem-limite-volta",
+        "saida": 1,
+        "reprovou_na_checagem_10_10": true
+      },
+      {
+        "caso": "excecao-retirada",
+        "saida": 1,
+        "reprovou_na_checagem_10_10": true
+      }
+    ]
+  },
+  "escopo": "Apenas sistema e livro; ficha digital sem alterações. Snapshot R45 preservado com notas de retificação; regra vigente no livro R52. PDF idêntico à entrega visualmente conferida."
+}

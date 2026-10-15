@@ -1,0 +1,22 @@
+{
+  "edicao": "R52",
+  "sha256_pdf": "c04d86e11ac867d9dc60b398528cd0eac8626455ab5c125e6191a26b1e03e026",
+  "sha256_texto": "c29d49befd671a1d654476b807a196548c0bc94ced134b2dfe6be5b556172ba8",
+  "paginas": 397,
+  "blocos_alterados": 1,
+  "blocos_preservados": 510,
+  "texto_integral_corresponde_apenas_as_tres_substituicoes": true,
+  "restricao_corporal_e_CE4_preservados": true,
+  "recomposicao_4C_preservada": true,
+  "R51_preservada": true,
+  "paginas_com_diferenca_na_extracao": [
+    99,
+    100
+  ],
+  "paginas_renderizadas": [
+    98,
+    99,
+    100,
+    101
+  ]
+}

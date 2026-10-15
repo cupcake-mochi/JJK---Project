@@ -8,6 +8,20 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.365] — 15/10/2026
+
+**O livro passa a ser o R52: a personalização geral das Origens permite criar menores e Legados de história, e as marcantes seguem as opções publicadas.** O Mizuki corrigiu a permissão que a montagem anterior tinha aberto: “n era suposto permitir personalizar a marcante mas sim só as menores, legado de historia e talz”. A criação específica de **Criar sua Restrição**, no ramo Restrição corporal, permanece.
+
+- Um bloco do livro foi alterado, com três substituições de redação. Famílias próprias do Descendente usam uma modalidade publicada da marcante. O PDF continua com 397 páginas, e só as páginas 99 e 100 têm diferença na extração de texto. Registro em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R51-para-R52.json`.
+- Livro, PDF, gerador, resumo da peça 9 e a verificação 10.10 acompanham a correção. A conciliação e o mapa da integração R45 apontam a retificação; os snapshots e os registros antigos foram preservados, para conservar a sequência de aplicação das revisões.
+- A verificação 10.10 exige a permissão para menores, as marcantes publicadas e a exceção da Restrição corporal; acusa a volta da permissão geral e do pacote próprio sem essa delimitação.
+
+**Validação:** os 27 validadores de regra, os dois matemáticos e o `conferir-repositorio.py` passaram. Três testes negativos, alterando só a leitura dentro do processo, foram rejeitados na verificação 10.10: permissão geral de criar marcantes, pacote próprio de família sem delimitação e retirada da exceção expressa da Restrição corporal. Texto e PDF conferidos contra a entrega R52. Resultados em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/origens-r52/VALIDACAO-SINCRONIZACAO.json`.
+
+**Escopo decidido pelo autor:** publicar apenas o sistema/livro. A ficha digital é tratada nos outros chats que receberam o PDF; nenhum arquivo dela foi alterado nesta rodada. Recomposição continua em 4 × a maior Classe. Não houve regra nova de magnitude, custo ou balanceamento.
+
+→ **Continua em** `sistema/ESTADO-ATUAL.md`, parágrafo “Próximo”: as questões de regra ainda abertas; a ficha digital segue nos outros chats.
+
 ## [0.364] — 14/10/2026
 
 **O livro passa a ser o R51: a `Recomposição` recupera `4 ×` a maior Classe.** *O R50 tinha escrito `3 ×`. Ao ver o número, o Mizuki disse "era pra ser 4x classe" (item 197), pediu a correção e mandou a edição: "mudança feita". É a única linha que muda do R50 para o R51.*

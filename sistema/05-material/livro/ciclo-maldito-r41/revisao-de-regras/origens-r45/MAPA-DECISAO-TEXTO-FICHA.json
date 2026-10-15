@@ -69,7 +69,8 @@
     "texto": "texto-final/01-escolhas.md",
     "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
     "automacao": "registro manual; efeito não aplicado automaticamente",
-    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente",
+    "retificacao_R52": "A permissão geral de criar marcantes foi retirada em 15/10/2026. Menores e Legados de história podem ser criados; marcantes seguem opções publicadas, com a criação específica da Restrição corporal preservada. O texto apontado nesta linha é histórico da R45; o vigente está no LIVRO-COMPLETO.md, bloco origens--legado-criar, após alteracoes/R51-para-R52.json."
   },
   {
     "entrada": "Famílias próprias",
@@ -81,7 +82,8 @@
     "texto": "texto-final/01-escolhas.md",
     "ficha": "ORIGENS R45!A4:H12 — registro manual de escolhas; estoques em campo próprio",
     "automacao": "registro manual; efeito não aplicado automaticamente",
-    "verificacao": "autorrevisão mecânica e leitura; não revisor independente"
+    "verificacao": "autorrevisão mecânica e leitura; não revisor independente",
+    "retificacao_R52": "A permissão geral de criar marcantes foi retirada em 15/10/2026. Menores e Legados de história podem ser criados; marcantes seguem opções publicadas, com a criação específica da Restrição corporal preservada. O texto apontado nesta linha é histórico da R45; o vigente está no LIVRO-COMPLETO.md, bloco origens--legado-criar, após alteracoes/R51-para-R52.json."
   },
   {
     "entrada": "Rever a Origem",

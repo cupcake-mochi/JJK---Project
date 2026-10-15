@@ -2812,6 +2812,11 @@ else:
                    '**não ocupa uma escolha de marcante ou menor**',
                    'Esses detalhes **não consomem escolhas de marcante ou menores**',   # redacao do R50
                    'Receba o CE4 **na criação**, sem ocupar espaço conhecido nem contar entre os cinco Talentos pagos',
+                   # v0.365, R52: criar menores, marcantes publicadas e a excecao da Restricao corporal.
+                   'Você pode criar com o mestre menores compatíveis com sua Origem',
+                   'A marcante segue as opções publicadas para sua Origem',
+                   'a exceção é a criação prevista em **Criar sua Restrição**, no ramo **Restrição corporal**',
+                   'Para a marcante, adotem uma das modalidades publicadas do Descendente',
                    # v0.361, item 194: o Ataque sem Prenuncio e' anunciado depois da escolha de defesa.
                    'depois de declarar um ataque que já possa realizar e de o defensor escolher entre Defesa e Bloquear',
                    'o anúncio a cancela, sem gastar a Reação dele',
@@ -2820,9 +2825,13 @@ else:
                 erro(f'10.10: o capitulo de Origens nao traz mais "{_f}"')
         for _f in ('Feto Amaldiçoado', 'dois Legados iniciais', 'Origens e Legados',
                    'Pelo menos um dos Legados deve ser narrativo', 'sub-origem',
-                   'antes das respostas à declaração e da escolha entre Defesa e Bloquear'):
+                   'antes das respostas à declaração e da escolha entre Defesa e Bloquear',
+                   'criar com o mestre uma marcante e menores compatíveis',
+                   'uma versão coerente da base e um pacote próprio'):
             if _f in _l1010:
                 erro(f'10.10: o livro voltou a trazer "{_f}", que as Origens novas tiraram')
+        if 'criar capacidades da Origem vale para as menores' not in _p9 or 'As marcantes seguem as opções publicadas' not in _p9:
+            erro('10.10: a peca 9 nao acompanha a permissao de personalizacao do R52')
         if 'A ficha leva dois Legados: um Destranca' in _sem_riscado109(_p13):
             erro('10.10: a peca 13 afirma, fora de riscado, que a ficha leva dois Legados')
         if 'o catálogo de Legados desta peça saiu de uso' not in _p13:

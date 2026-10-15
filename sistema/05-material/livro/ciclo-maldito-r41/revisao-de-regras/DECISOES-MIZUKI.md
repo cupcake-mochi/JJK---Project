@@ -362,3 +362,9 @@ Formato: item | palavras dele (resumidas, fiéis) | leitura | estado.
 ## R51 — 14/10/2026
 - Ele mandou o R51: "mudança feita". R51 = R50 com uma linha: a `Recomposição` recupera 4 × a maior Classe (item 197). No PDF muda só a página 285, um algarismo. 397 páginas. PDF SHA-256 a5c5ff95…1cbfe7cd.
 - A pergunta da `Energia Reversa` segue aberta: com o Talento a 4 ×, ela cura 31,5 contra 28 no nível 30.
+
+
+## R52 — 15/10/2026
+- O autor esclareceu: "n era suposto permitir personalizar a marcante mas sim só as menores, legado de historia e talz" e "só o restrição de corpo realmente cria em si, a grande".
+- A R52 corrige Personalizar sua Origem e Famílias próprias: as marcantes seguem as opções publicadas para a Origem; conserva-se a criação específica da Restrição corporal. Um bloco alterado, 397 páginas. Registro em `alteracoes/R51-para-R52.json`.
+- Ele pediu corrigir as fontes e atualizar o Git. Ao distinguir o repositório do sistema do da ficha digital, respondeu: "apenas sismtea/livro, eu mandei o novo pdf pra elas nos outros chats, eles resolvem por si". A publicação desta rodada se limita ao sistema/livro.

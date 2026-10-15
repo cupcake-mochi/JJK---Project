@@ -9,6 +9,8 @@
 > - **o Legado de história não tem benefício mecânico e não gasta escolha.** ~~A ficha leva dois Legados: um Destranca, obrigatório, e mais um de qualquer lista da sua Origem.~~
 > - **Sem Técnica é uma opção separada** *do Latente, do Receptáculo, do Descendente, do Encarnado e do Híbrido, e não ocupa a marcante nem uma menor;*
 > - *menores por catálogo, contadas nos títulos do capítulo:* **Latente `8`, Receptáculo `8`, Descendente `10`, Encarnado `7`, Híbrido `8`, Corpo Amaldiçoado `8` mais `2` de Manutenção, Sem Energia `8` e Restrição corporal `8`**, *`67` ao todo;*
+> - **desde a v0.365 (R52), criar capacidades da Origem vale para as menores; os Legados de história também podem ser escritos com o mestre. As marcantes seguem as opções publicadas, inclusive em famílias próprias do Descendente. A criação específica da Restrição corporal permanece.**
+>
 > - *a Restrição corporal recebe na criação um Talento de Categoria de Efeito `4`, fora dos espaços conhecidos e dos cinco Talentos pagos (decisão I001 dele, "Sim, na criação e fora dos dois limites"), e o reparo do Corpo Amaldiçoado é o do R44 (decisão I002, "Sim, conservar o reparo da R44").*
 >
 > - **desde a v0.361 (R47, item 194), o Ataque sem Prenúncio é anunciado depois de o defensor escolher entre Defesa e Bloquear, e antes do dado;** *quem escolheu Bloquear rola com desvantagem e não troca a escolha, e a Reação que ele já tivesse declarado contra aquele ataque é cancelada sem ser gasta.*
