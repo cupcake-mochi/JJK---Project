@@ -1,0 +1,137 @@
+[
+  {
+    "arquivo": "conferir-acao.py",
+    "codigo": 0,
+    "segundos": 0.17
+  },
+  {
+    "arquivo": "conferir-alma.py",
+    "codigo": 0,
+    "segundos": 0.57
+  },
+  {
+    "arquivo": "conferir-aptidoes.py",
+    "codigo": 0,
+    "segundos": 0.62
+  },
+  {
+    "arquivo": "conferir-atributos.py",
+    "codigo": 0,
+    "segundos": 0.27
+  },
+  {
+    "arquivo": "conferir-bestiario.py",
+    "codigo": 0,
+    "segundos": 1.63
+  },
+  {
+    "arquivo": "conferir-bloquear.py",
+    "codigo": 0,
+    "segundos": 0.27
+  },
+  {
+    "arquivo": "conferir-catalogo.py",
+    "codigo": 0,
+    "segundos": 0.72
+  },
+  {
+    "arquivo": "conferir-criacao.py",
+    "codigo": 0,
+    "segundos": 0.12
+  },
+  {
+    "arquivo": "conferir-dano.py",
+    "codigo": 0,
+    "segundos": 0.17
+  },
+  {
+    "arquivo": "conferir-descanso.py",
+    "codigo": 0,
+    "segundos": 0.11
+  },
+  {
+    "arquivo": "conferir-equipamento.py",
+    "codigo": 0,
+    "segundos": 0.37
+  },
+  {
+    "arquivo": "conferir-expansao.py",
+    "codigo": 0,
+    "segundos": 0.21
+  },
+  {
+    "arquivo": "conferir-ferramenta.py",
+    "codigo": 0,
+    "segundos": 0.11
+  },
+  {
+    "arquivo": "conferir-ficha.py",
+    "codigo": 0,
+    "segundos": 0.32
+  },
+  {
+    "arquivo": "conferir-invocacoes.py",
+    "codigo": 0,
+    "segundos": 0.37
+  },
+  {
+    "arquivo": "conferir-legados.py",
+    "codigo": 0,
+    "segundos": 0.12
+  },
+  {
+    "arquivo": "conferir-manual.py",
+    "codigo": 0,
+    "segundos": 0.27
+  },
+  {
+    "arquivo": "conferir-marcial.py",
+    "codigo": 0,
+    "segundos": 36.45
+  },
+  {
+    "arquivo": "conferir-nomes.py",
+    "codigo": 0,
+    "segundos": 37.94
+  },
+  {
+    "arquivo": "conferir-objeto.py",
+    "codigo": 0,
+    "segundos": 0.22
+  },
+  {
+    "arquivo": "conferir-orcamento.py",
+    "codigo": 0,
+    "segundos": 0.22
+  },
+  {
+    "arquivo": "conferir-pactos.py",
+    "codigo": 0,
+    "segundos": 0.26
+  },
+  {
+    "arquivo": "conferir-pericias.py",
+    "codigo": 0,
+    "segundos": 1.37
+  },
+  {
+    "arquivo": "conferir-progressao.py",
+    "codigo": 0,
+    "segundos": 0.12
+  },
+  {
+    "arquivo": "conferir-ritual.py",
+    "codigo": 0,
+    "segundos": 0.11
+  },
+  {
+    "arquivo": "conferir-sem-tecnica.py",
+    "codigo": 0,
+    "segundos": 38.96
+  },
+  {
+    "arquivo": "conferir-xp.py",
+    "codigo": 0,
+    "segundos": 0.17
+  }
+]

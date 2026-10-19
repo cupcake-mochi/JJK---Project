@@ -1,0 +1,129 @@
+========================================================================================
+  conferir-ferramenta.py — a peca 16, e nenhum numero mora aqui dentro
+========================================================================================
+
+ 1. FUNDO — a camada nao fura o fundo de Equipamento
+  peca 14 SS5 — fundo: `3` numa mao, `5` em duas
+  [x] a peca 16 le o fundo do dono e nao guarda copia propria
+  [x] nenhuma das entradas do catalogo toca no orcamento da arma
+
+ 2. UM-ESTIGMA — um por ferramenta, nunca dois
+  o SS1 declara: mais UM Estigma (limite 1)
+  [x] os cinco graus carregam no maximo um: {'4': 0, '3': 1, '2': 1, '1': 1, 'especial': 1}
+  [x] nenhum texto da peca abre porta para a segunda
+
+ 3. GATE — desta peca, e conferido contra a peca 11 SS6
+  peca 11 SS6 — gate por Classe: Classe 1: sem gate · Classe 2: nivel 10 · Classe 3: nivel 18
+  [x] o gate e desta peca, cresce com a Classe do Estigma, e nao some onde a peca 11 gateia
+  peca 16 — gate por Classe: Classe 1: sem gate · Classe 2: nivel 7 · Classe 3: nivel 13
+
+ 4. SEM-REFINO — nenhum gate de refino em lugar nenhum
+  [x] o refino so aparece na peca para dizer que ele nao entra
+  [x] e a peca declara isso por escrito, em vez de deixar por omissao
+
+ 5. DESGASTE — compra o gate e nunca a Classe
+  o SS4 declara: o Desgaste ignora o gate de nivel do Estigma
+  [x] o Desgaste nao encosta em Classe em lugar nenhum do texto
+  [x] a separacao formato/magnitude esta escrita, nao subentendida
+  [x] o Desgaste apaga um gate que existe de verdade: [7, 13]
+
+ 6. TETO — busca exaustiva sobre as rotas de mao x o teto de apoio
+  peca 2 SS3 — marcos: [6, 10, 14, 18, 22, 26, 30]  (n=7 escolhas na campanha)
+  9 montagens legais enumeradas · teto declarado 3 · extremo 4
+  o extremo custa 4/7 = 57% do orcamento de escolha de marco
+  [x] fica dentro do limite declarado de 57%
+  [x] a tabela de fracao escrita no SS5 bate com a recalculada
+
+ 7. CLASSE — cada grau declara UMA Classe, e ela existe na peca 11 SS4
+  peca 11 SS4 — Classes que existem: [1, 2, 3]
+  [x] os 17 Estigmas caem em Classes que a peca 11 declara
+  [x] o escrito ("dezessete") bate com o contado (17)
+
+ 8. SEM-DADO — nenhum grau da dado de dano nem numero que cresca com refino
+  [x] as 17 entradas passaram: nenhuma com dado, nenhuma com refino
+
+ 9. ESCADA — lida do documento dono, e o par com a checagem 3
+  escada do SS3: grau especial: Classe 3, gate 13 · grau 1: Classe 3, gate 13 · grau 2: Classe 2, gate 7 · grau 3: Classe 1, gate nenhum · grau 4: Classe —, gate nenhum
+  [x] o SS7 se declara ritmo e nao requisito, por escrito
+  o ritmo do SS7 e mais alto que o gate herdado em 5 dos 5 graus: ['1', '2', '3', '4', 'especial']
+  [x] PAR DECLARADO com a checagem 3: o gate que a 3 mede continua sendo o
+      da peca 11, porque o SS7 nao gateia. Perturbar a peca 11 move a 3.
+
+ 10. PATENTE — a patente e o grau da ferramenta nao se tocam
+  peca 12 SS2: "Grau e reconhecimento; nivel e poder"
+  [x] a peca 16 nega a ligacao com todas as letras, em vez de por omissao
+  [x] nenhum trecho da peca pendura ferramenta em patente
+
+ 11. DOMINANCIA — nenhum grau domina outro
+  5x5 pares rodados · dominadas: 0 · empates: 1
+  [x] a escada e monotona: mais Classe custa mais gate, sem excecao
+  [x] o empate 1/especial esta declarado, e o que separa e escassez e nao mecanica
+
+ 12. SOMATORIO — nada entra no bolso sem estar no orcamento
+  conferir-orcamento.py e quem sabe medir o bolso
+  entradas que ADICIONAM dreno de PE: 0 · que REMOVEM custo: 0 (—)
+  [x] nenhum Estigma abre dreno novo de PE — o bolso da peca 11 nao se move
+
+ 13. SEM-ENERGIA — a rota sem energia nenhuma, ponta a ponta
+  peca 9 SS5: sem Fundamento, sem feitico de Toque, sem Sentir Energia
+  [x] e a linha NAO diz "sem PE": o contrato de moeda da v0.116 esta aplicado
+  [x] a peca 9 ja nomeia esta peca como o eixo de poder da rota
+  [x] o grau 4 nao tem gate: a rota fere maldicao desde o nivel 2
+  [x] 1 Estigma(s) cobrem o buraco de Sentir Energia: ['Aferido']
+
+ 14. TRIAGEM — todo nome que a peca cria
+  19 nomes batizados: Aferido, Anátema, Aparência Mutável, Avulsa, Cisão, Contrapeso, Costura de Fuga, Fiel, Insondável, Passagem, Perene, Presságio, Quebranto, Reserva de Ar, Retirada, Suspensão, Âncora, Estigma, Desgaste
+  [x] nenhum dos nomes colide com termo batizado por outra peca
+  [x] a colisao de sentido de `Grau` esta declarada a mao, como manda o SS7 do rascunho
+
+ 15. DESLIGA — as duas vagas da peca 13 SS8
+  a peca 13 SS8 nomeia esta peca em: ['Armaria', 'Descendente', 'Restrição Celestial']
+  [x] as 2 vagas existem e nomeiam esta peca
+  dos 17 Estigmas, 12 custam acesso (gate) e 5 nao custam
+  alvos legais de Desliga — o que ninguem comprou: 5 (Fiel, Aferido, Presságio, Perene, Aparência Mutável)
+  [x] a peca 16 registra que fecha as duas, e o contador de vagas anda
+
+ 16. EMPUNHAR OU VESTIR — a sintonia saiu na v0.256, e nada pode trazer ela de volta
+  o SS1 declara: nao empunhada nem vestida = objeto comum, e nada mais
+  [x] sentido 1: a arma por baixo continua gastando o fundo exato
+  [x] sentido 2: nenhuma entrada entrega efeito sem o pagamento correspondente
+  [x] a regra nova esta escrita: funciona enquanto se empunha ou veste
+  [x] a outra ponta esta escrita: guardada, o Estigma nao age
+  [x] o SS1.1 aponta para o dono do limite novo: a peca 14 §6.6
+  [x] a regra antiga nao volta: a peca nao a escreve como regra, e o livro nao a cita
+  [x] nenhum relogio: a ferramenta serve na mao, e trocar custa o que custa sacar
+
+ 17. RELOGIO — Classe 2 promete limite de uso, e ele tem de morder
+  o titulo promete: "opção de combate ou exploração, com limite de uso por cena ou por descanso"
+    Avulsa       2x por cena
+    Costura de Fuga 1x por cena
+    Quebranto    1x por cena
+    Reserva de Ar 1x por descanso curto
+    Retirada     1x por cena
+    Âncora       1x por cena
+    teto de Reacoes por luta, lido da peca 1: 3.7
+  [x] o Avulsa morde: 2 usos contra teto de 3.7
+  [x] o Quebranto morde: 1 usos contra teto de 3.7
+  [x] o Retirada morde: 1 usos contra teto de 3.7
+  [x] o Âncora morde: 1 usos contra teto de 3.7
+
+ 19. IRMAOS — a dominancia se mede DENTRO da Classe, nunca entre Classes
+  [x] a peca declara o corte: dentro do degrau, nunca entre degraus
+  filtro lido da peca: 3.00x
+  4 preco(s) lidos do dono, em 2 Classe(s)
+  [x] Classe 2: 2 com preco, razao 1.75x
+  Classe 3: 1 entrada(s) com preco — razao nao existe
+  [x] nenhuma entrada domina um irmao da mesma Classe
+
+========================================================================================
+
+ 18. DESGASTE-MISSAO — o contador do SS4 contra a escada do SS3
+  [x] a tabela cobre os 4 graus que tem Estigma, e so eles
+  [x] mais Classe, mais missao: [('3', 1), ('2', 2), ('1', 3), ('especial', 3)]
+  [x] a prosa e a tabela dizem o mesmo para o grau 1: 3
+  [x] o grau 4 esta declarado fora, e nao apenas ausente da tabela
+  [x] nada faz a ferramenta descer de grau
+>>> TUDO OK — o fundo sai da peca 14, o gate sai da peca 11, os marcos saem
+    da peca 2, a rota sai da peca 9, e as 18 checagens do SS8 fecham sem
+    nenhum valor de regra escrito dentro deste arquivo.
+========================================================================================

@@ -195,8 +195,6 @@ COLISOES_ACEITAS = {
     'Investigacao': 'v0.337: a mesma frase, em minuscula ("ou investigacao"). Prosa solta.',
     'Furtividade': 'v0.337: "um beneficio de furtividade precisa estar escrito no efeito", '
                    'no Fundamento. Prosa solta, e no sentido da pericia.',
-    'Atuacao': 'v0.337: "nem concede atuacao gratuita", no Fundamento, sobre a entidade '
-               'agir. Outro sentido da palavra, prosa solta.',
 }
 
 

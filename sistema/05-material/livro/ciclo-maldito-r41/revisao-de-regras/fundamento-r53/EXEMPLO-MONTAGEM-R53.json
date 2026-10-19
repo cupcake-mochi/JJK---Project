@@ -1,0 +1,8 @@
+{
+  "nome": "Ferir e recuperar",
+  "classe": 3,
+  "forma": "Projétil",
+  "funcoes": ["dano", "cura"],
+  "melhorias": [{"nome": "Mais Um"}],
+  "distribuicao": {"dano": 2, "cura": 2}
+}

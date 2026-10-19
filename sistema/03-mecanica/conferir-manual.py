@@ -1011,7 +1011,7 @@ print('  4l. a Regra Propria gratis na criacao: a subida, o teto e as cinco copi
 # Catalogo do livro ("Nivel minimo 7. Custo: 2 espacos de feitico por Talento."). Ate a
 # v0.336 saiam da tabela `Classe | Custa | Libera no nivel` do .docx.
 _custa, _libera = {}, {}
-for _m in re.finditer(r'^# Talentos de Categoria (\d)\s*\n\s*\n\*\*Nível mínimo (\d+)\. Custo: (\d+) espaços? de feitiço por Talento\.\*\*',
+for _m in re.finditer(r'^#+ Talentos de Categoria (\d)\s*\n\s*\n\*\*Nível mínimo (\d+)\. Custo: (\d+) espaços? de feitiço por Talento\.\*\*',
                       _TXT['catalogo'], re.M):
     _custa[int(_m.group(1))] = int(_m.group(3))
     _libera[int(_m.group(1))] = int(_m.group(2))
@@ -1221,7 +1221,7 @@ try:
     _dur_d = livro.tabela(CAT['Concentrada']['texto'], 'Efeito prolongado', 'Concentrada', 'Duradoura')
 except (livro.LivroMudou, KeyError):
     _dur_d = []
-if _tem_dono != {'Concentrada', 'Duradoura'} or len(_dur_d) != 3:
+if _tem_dono != {'Concentrada', 'Duradoura'} or len(_dur_d) != 4:
     _erro_n(f'nao achei no livro as duas Melhorias ({sorted(_tem_dono)}) ou a tabela de duracao ({len(_dur_d)} linhas)')
 elif 'salvo duração diferente da ficha' not in livro.limpa(CAT.get('Condição', {}).get('texto', '')):
     _erro_n('a Melhoria Condição do livro parou de dizer que a duracao de uma rodada vale "salvo '
@@ -1275,7 +1275,7 @@ else:
     # isso que se cobra, contra a tabela de Familias dele.
     _n_melhorias = sum(1 for d in CAT.values() if d['tipo'] == 'Melhoria')
     _nf = len(livro.familias())
-    if 'se dividem em nove Famílias' not in _LIVRO_F or _nf != 9:
+    if 'resumo das nove Famílias' not in _LIVRO_F or _nf != 9:
         _erro_n(f'o livro parou de dizer que as Melhorias "se dividem em nove Famílias", ou a tabela tem {_nf}')
     _mc = None
 if _ok4n:
@@ -1337,9 +1337,9 @@ else:
 # --- o `Efeito Próprio` conta como Melhoria ---
 # no livro (dono): na entrada do Catalogo e na tabela de limite do Fundamento
 for _rot, _txt, _frase in (('a entrada do Catalogo', livro.limpa(CAT.get('Efeito Próprio', {}).get('texto', '')),
-                            'contando no limite de Melhorias da Classe'),
+                            'Cada compra conta no limite normal de Melhorias da Classe'),
                            ('a regra do limite no Fundamento', livro.limpa(_TXT['fundamento']),
-                            'O Efeito Próprio conta como uma.')):
+                            'incluindo Efeito Próprio')):
     if _frase not in _txt:
         _erro_o(f'o livro: {_rot} nao diz que o `Efeito Próprio` conta como Melhoria ("{_frase}")')
 # na copia congelada (cap. 9), as TRES copias da frase
@@ -1371,9 +1371,9 @@ for _onde, _txt in (('o capitulo 9 do livro', _c9m),):
 # contam como as duas, e o mestre pode aprovar por menos pontos ou menos espaco, por
 # conta e risco. A frase da candidata ("Reunir duas Melhorias sob um nome não reduz...")
 # saiu do livro, e nao pode voltar sem a decisao mudar.
-for _frase in ('Duas Melhorias escritas como uma pagam e contam como as duas',
-               'O mestre pode aprovar por menos pontos ou menos espaço, por conta e risco',
-               'Um novo nome não reúne várias compras em uma só'):
+for _frase in ('Reunir duas Melhorias em uma descrição conserva o custo e a contagem de ambas',
+               'O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta',
+               'Uma compra que acrescenta alvos conserva os demais limites da aplicação'):
     if _frase not in _LIVRO_F:
         _erro_o(f'o livro nao diz mais "{_frase}" — e a regra do combo, sem ela a ficha junta duas Melhorias por uma')
 if 'Reunir duas Melhorias sob um nome não reduz seu preço nem a quantidade ocupada' in _LIVRO_F:
@@ -1418,8 +1418,8 @@ _ctrl = [(n, d['preco'], livro.limpa(d['texto'])) for n, d in CAT.items() if d.g
 if not _ctrl:
     erro('5: nao achei a Familia Controle no Catalogo do livro — ou o catalogo mudou de '
          'forma, ou a extracao parou de achar')
-elif len(_ctrl) != 7:
-    erro(f'5: a tabela de Controle tem {len(_ctrl)} linha(s) e eu esperava 7 — a '
+elif len(_ctrl) != 6:
+    erro(f'5: a tabela de Controle tem {len(_ctrl)} linha(s) e eu esperava 6 — a '
          'familia mudou de tamanho e esta checagem parou de cobrir ela')
 else:
     _DURA = (r'até o fim do próximo turno', r'por uma rodada', r'por 1 minuto',
@@ -1599,237 +1599,40 @@ else:
                   'que sao dela.')
 
 # --------------------------------------------------------------------------
-bloco('8. A CURA COMECA NA CLASSE 1 — e a Classe 0 nao pode ter uma')
-# --------------------------------------------------------------------------
-# v0.166. Achado do Mizuki: a regra da Classe 0 diz "nao se montam: escolha uma
-# Forma e pronto", e `Cura` E uma Forma. A coluna `Custa` da tabela de Formas
-# (`Cura` = Media, `Onda` = Pesada) nunca era aplicada, porque uma Classe 0 nao
-# tem orcamento de onde pagar. Entao um Classe 0 com Forma `Cura` entregava
-# 6d8 = 27 de cura POR RODADA, de graca, EM ALIADO, no nivel 30 — 5,31 fatias,
-# que e 1,06 Trilha inteira. E a peca 11 §6 escreve que curar terceiro e o degrau
-# RARO do material, pago pela Trilha `Sutura` no nivel 11 dela.
-#
-# ⚠ Nao era mudanca de regra: era CONTRADICAO DENTRO DO MANUAL. A tabela de cura
-# dele comeca na Classe 1 — nunca houve cura de Classe 0 precada. Quem abria o
-# buraco era a tabela `Base por Classe`, que juntava `Cura, Apoio e Onda` numa
-# linha so e dava a ela uma coluna `Classe 0`; o `Apoio` custa `—` e pertence
-# ali, as outras duas nao.
-#
-# NADA DA DECISAO MORA AQUI. Esta checagem le da tabela de cura DO PROPRIO MANUAL
-# quais Classes curam, e cobra que a `Base por Classe` concorde. Ela falha nas
-# DUAS direcoes: coluna `Classe 0` viva numa Forma de cura acende, e cura de
-# Classe 0 precada sem a coluna correspondente tambem. Mudar os dois de forma
-# coerente sai VERDE de proposito — e' esse o contra-teste.
-#
-# E o que ela NAO cobra, declarado: a FRASE do texto. Apagar o paragrafo
-# "Classe 0 nao cura" sai verde, e e de proposito — exigir frase literal e' a
-# armadilha da "frase morta EXIGIDA por um validador", que nunca mais sai.
-# Quem manda aqui e a TABELA; o paragrafo e placa, e placa nao e dono.
-# Arnes da v0.166: 10 perturbacoes, 8 acendendo e 2 contra-testes verdes.
-def _tabela_com_rotulo(rotulo):
-    # ⚠ o `if not r.cells` nao e paranoia: sem ele esta funcao ESTOURA numa tabela
-    # com linha vazia, e o arnes pegou isso. Guarda que acusa e estoura logo
-    # depois e' o defeito da v0.161 — a checagem morre antes de dizer o que viu.
-    for t in TABELAS:
-        for r in t.rows[1:]:
-            if not r.cells:
-                continue
-            if r.cells[0].text.strip().startswith(rotulo):
-                return t
-    return None
+bloco('8. FUNÇÕES E CLASSE ZERO')
+_fun = livro.limpa(livro.por_bloco('fundamento', 'funcoes'))
+_zero = livro.limpa(livro.por_bloco('fundamento', 'classezero'))
+for frase in ('Cura direta | Média', 'Vida temporária individual | Leve',
+              'pague somente a maior base exigida por elas',
+              'Cada ponto pode ser usado uma vez nessa distribuição'):
+    if frase not in _fun:
+        erro('8: regra de função ausente: ' + frase)
+for frase in ('Cura e aplicação coletiva de benefícios não estão disponíveis',
+              'Vida temporária permanece indisponível', 'sem criar pontos de montagem'):
+    if frase not in _zero:
+        erro('8: Classe 0 perdeu sua delimitação: ' + frase)
+_tetos = livro.tabela(_fun, 'Classe', 'Cura individual: d8', 'Coletivo: pontos')
+for linha in _tetos:
+    c = int(linha['Classe'])
+    pesado = int(next(r['Pesada'] for r in livro.tabela(_TXT['fundamento'], 'Classe', 'Pontos / PE', 'Pesada') if int(r['Classe']) == c))
+    if int(linha['Cura individual: d8']) != 2*c or int(linha['Coletivo: pontos']) != 3*c-pesado:
+        erro(f'8: teto de cura divergente na Classe {c}')
+if len(_tetos) != 7:
+    erro('8: a tabela de cura não cobre as sete Classes')
 
-
-# v0.337: no livro, a tabela de cura e' a do teto por Classe ("Cura: maximo de d8",
-# "Onda: maximo de pontos uteis"), e a "Base por Classe" e' a tabela de Alcance e area
-# (Forma | Classe 0 | Classes 1 a 5 | Classes 6 e 7). Ate a v0.336, as duas do .docx.
-_tc = _tabela_com_rotulo('Cura:')
-_tb = _tabela_com(['Forma', 'Classe 0'])
-if _tc is None or _tb is None:
-    erro('8: nao achei a tabela de cura ("Cura: maximo de d8") ou a "Base por Classe" no '
-         'manual — sem as duas esta checagem nao tem o que comparar, e passaria '
-         'verde sem conferir nada')
-else:
-    # 8a. quais Classes o manual preca cura, lido do cabecalho da tabela de cura
-    _CL_CURA = []
-    for _c in _tc.rows[0].cells[1:]:
-        _m = re.fullmatch(r'\s*(\d+)\s*', _c.text)
-        if _m:
-            _CL_CURA.append(int(_m.group(1)))
-    # as Formas que aquela tabela governa saem dos ROTULOS dela, e nao de lista minha
-    _FORMAS_CURA = []
-    for _r in _tc.rows[1:]:
-        _rot = _r.cells[0].text.strip()
-        _m = re.match(r'([A-Za-zÀ-ÿ]+)', _rot)
-        if _m and 'Dano' not in _rot:
-            _FORMAS_CURA.append(_m.group(1))
-    # guarda de reconhecedor
-    if not _CL_CURA or len(_FORMAS_CURA) < 2:
-        erro(f'8: li {len(_CL_CURA)} Classe(s) e {len(_FORMAS_CURA)} Forma(s) na tabela '
-             'de cura do manual, e esperava pelo menos uma Classe e duas Formas — '
-             'a tabela mudou de forma, e a comparacao abaixo nao provaria nada')
-    else:
-        _CURA_NA_0 = 0 in _CL_CURA
-        print(f'  a tabela de cura do manual preca as Classes: '
-              f'{" · ".join(str(c) for c in _CL_CURA)}')
-        print(f'  e as Formas que ela governa, lidas dos rotulos dela: '
-              f'{" · ".join(_FORMAS_CURA)}')
-        print(f'  => cura de Classe 0 e {"PRECADA" if _CURA_NA_0 else "inexistente"} '
-              'no manual')
-        # 8b. a `Base por Classe` tem de concordar com isso
-        _hdr = [c.text.strip() for c in _tb.rows[0].cells]
-        try:
-            _col0 = next(i for i, h in enumerate(_hdr) if re.fullmatch(r'Classe\s*0', h))
-        except StopIteration:
-            _col0 = None
-        if _col0 is None:
-            erro('8: a tabela "Base por Classe" perdeu a coluna `Classe 0` — sem ela '
-                 'nao da para conferir se uma Forma de cura tem alcance ali')
-        else:
-            _vazio = re.compile(r'^\s*(—|-|–|n/?a|\.|indispon[ií]vel\.?)?\s*$', re.I)
-            _acusa, _conferidas = [], 0
-            for _r in _tb.rows[1:]:
-                _rot = _r.cells[0].text.strip()
-                _quais = [f for f in _FORMAS_CURA
-                          if re.search(rf'\b{re.escape(f)}\b', _rot)]
-                if not _quais:
-                    continue
-                _conferidas += 1
-                _cel = _r.cells[_col0].text.strip()
-                _tem = not _vazio.match(_cel)
-                # v0.337: o livro junta `Cura e Apoio` numa linha e escreve na coluna
-                # `Classe 0` so o que vale ali ("Apoio: 4,5 m."). Celula que nomeia uma
-                # Forma que nao cura nao da alcance de Classe 0 a Forma de cura.
-                _so = re.match(r'([A-Za-zÀ-ÿ]+):', _cel)
-                if _tem and _so and _so.group(1) not in _FORMAS_CURA:
-                    _tem = False
-                if _tem != _CURA_NA_0:
-                    _acusa.append((_rot, _quais, _cel or '(vazio)'))
-            if _conferidas == 0:
-                erro('8: nenhuma linha da "Base por Classe" nomeia uma Forma de cura. '
-                     'Ou a tabela foi renomeada, ou esta checagem parou de achar o '
-                     'que ela confere — nos dois casos ela passaria verde a toa')
-            elif _acusa:
-                for _rot, _quais, _cel in _acusa:
-                    print(f'     linha "{_rot}" ({" · ".join(_quais)}): '
-                          f'Classe 0 = {_cel}')
-                if _CURA_NA_0:
-                    erro(f'8: o manual preca cura de Classe 0 na tabela de cura, e a '
-                         f'"Base por Classe" nao da alcance de Classe 0 para '
-                         f'{len(_acusa)} Forma(s) de cura. As duas tem de dizer a '
-                         'mesma coisa')
-                else:
-                    erro(f'8: a tabela de cura do manual comeca na Classe '
-                         f'{min(_CL_CURA)}, mas a "Base por Classe" da alcance de '
-                         f'Classe 0 para {len(_acusa)} Forma(s) de cura. Um Classe 0 '
-                         'com Forma de cura sai de graca e toda rodada, EM ALIADO — '
-                         'e curar terceiro e o degrau que a Trilha `Sutura` paga uma '
-                         'Trilha inteira por, no nivel 11 dela (peca 11 §6)')
-            else:
-                print(f'  [x] as {_conferidas} linha(s) da "Base por Classe" que nomeiam '
-                      f'Forma de cura concordam')
-                print(f'      com a tabela de cura: alcance de Classe 0 '
-                      f'{"existe" if _CURA_NA_0 else "nao existe"} nos dois lugares.')
-
-# --------------------------------------------------------------------------
-bloco('8.1 A BASE POR CLASSE COBRE AS FORMAS — e a do Corpo a Corpo herda o raio')
-# --------------------------------------------------------------------------
-# v0.263. A tabela tinha seis linhas e a Aura, uma das dez Formas, nao estava em
-# nenhuma: a descricao dela diz "raio 3 m", que e o valor das Classes 1 a 5, e
-# nas Classes 6 e 7 ninguem sabia se ela ia a 4,5 m como a Explosao. Decisao do
-# Mizuki em 21/09/2026: acompanha a Explosao. E o raio nao e escolha — a Aura e
-# "Explosao com Corpo a Corpo embutida", e o Corpo a Corpo muda ONDE a esfera
-# nasce, nao o tamanho dela. Com raio fixo, a mesma Explosao com a Restricao
-# comprada teria dois tamanhos conforme o caminho da montagem.
-#
-# Tres coisas, e nenhuma lista de Forma escrita aqui:
-#  (a) toda Forma que mede alguma coisa em metros na tabela de Formas tem linha
-#      na Base por Classe. A que nao mede — a Efeito, fora de combate — fica de
-#      fora sozinha, sem estar nomeada neste arquivo.
-#  (b) a Forma que e "<X> com [a Restricao] Corpo a Corpo embutida" tem, em cada
-#      coluna, o mesmo RAIO que X. Se X nao tem raio (o Projetil), nao ha o que
-#      herdar, e ela e conferida so por (a). Guarda: pelo menos uma heranca tem
-#      de ser conferida, senao (b) passaria verde a toa.
-#  (c) a tabela do capitulo 9 do livro diz o mesmo que a do manual, linha a
-#      linha. Copia sem comparacao diverge — licao no 9.
-# v0.337: no livro, as Formas moram em duas tabelas do Fundamento (Forma | Custo | ...),
-# e a "Aura e Explosao com Corpo a Corpo embutida" do .docx e' a frase da Restricao
-# `Corpo a Corpo` no Catalogo ("Projetil se torna Toque ... Explosao se torna Aura").
-_tfs = [t for t in TABELAS if [c.text.strip() for c in t.rows[0].cells][:2] == ['Forma', 'Custo']]
-_tf = _tfs[0] if _tfs else None
-if _tb is None or _tf is None:
-    erro('8.1: nao achei a "Base por Classe" ou a tabela de Formas no manual — '
-         'sem as duas nao ha o que comparar')
-else:
-    def _limpa81(s):
-        return re.sub(r'[`*]', '', s).strip()
-
-    _formas81 = {}
-    for _t81 in _tfs:
-        for _r in _t81.rows[1:]:
-            _c = [c.text.strip() for c in _r.cells]
-            if _c and _c[0]:
-                _formas81[_c[0]] = _c[2] if len(_c) > 2 else ''
-    _cac = livro.limpa(CAT.get('Corpo a Corpo', {}).get('texto', ''))
-    _pares81 = re.findall(r'([A-Za-zÀ-ÿ]+) se torna ([A-Za-zÀ-ÿ]+)', _cac)
-    _base81 = {}
-    for _r in _tb.rows[1:]:
-        _c = [c.text.strip() for c in _r.cells]
-        if _c and _c[0]:
-            _base81[_limpa81(_c[0])] = [_limpa81(x) for x in _c[1:]]
-
-    def _linha81(forma):
-        return next((r for r in _base81
-                     if re.search(rf'(?<![\wÀ-ÿ]){re.escape(forma)}(?![\wÀ-ÿ])', r)), None)
-
-    # (a)
-    _medem = [f for f, d in _formas81.items() if re.search(r'\d\s*m\b', d)]
-    _sem = [f for f in _medem if _linha81(f) is None]
-    if len(_formas81) < 8 or not _medem:
-        erro(f'8.1: li {len(_formas81)} Forma(s), {len(_medem)} com medida — a tabela '
-             'de Formas mudou de forma e (a) nao provaria nada')
-    elif _sem:
-        erro(f'8.1: {len(_sem)} Forma(s) medem alguma coisa na tabela de Formas e nao '
-             f'tem linha na "Base por Classe": {" · ".join(_sem)}')
-    else:
-        _fora = [f for f in _formas81 if f not in _medem]
-        print(f'  [x] as {len(_medem)} Formas que medem alguma coisa tem linha na '
-              f'"Base por Classe"; fora dela, por nao medir: {" · ".join(_fora) or "nenhuma"}')
-
-    # (b)
-    _raio = lambda cels: [re.findall(r'raio\s+([\d,]+)\s*m', c) for c in cels]
-    _herdadas = 0
-    for x, f in _pares81:
-        lf, lx = _linha81(f), _linha81(x)
-        if lx is None:
-            erro(f'8.1: a {f} e "{x} com Corpo a Corpo", e a {x} nao tem linha na '
-                 '"Base por Classe"')
-            continue
-        rx = _raio(_base81[lx])
-        if not any(rx):
-            print(f'   - a {f} e {x} com Corpo a Corpo, e a {x} nao tem raio: nada a herdar')
-            continue
-        if lf is None or lf == lx:
-            erro(f'8.1: a {f} e {x} com Corpo a Corpo e nao tem linha propria na '
-                 '"Base por Classe" — o raio dela nas Classes 6 e 7 fica sem dono')
-            continue
-        rf81 = _raio(_base81[lf])
-        _herdadas += 1
-        if rf81 != rx:
-            erro(f'8.1: a {f} tem raio {rf81} por coluna e a {x} tem {rx} — o Corpo a '
-                 'Corpo muda onde a esfera nasce, e nao o tamanho dela')
-        else:
-            print(f'  [x] a {f} tem o raio da {x} em toda coluna: '
-                  f'{" · ".join("/".join(r) + " m" for r in rf81)}')
-    if _herdadas == 0:
-        erro('8.1: nenhuma Forma com raio herdado foi conferida — a frase "X se torna Y" da '
-             'Restricao `Corpo a Corpo` mudou ou a Forma sumiu, e (b) passaria verde a toa')
-
-    # (c) ate a v0.336 a "Base por Classe" do capitulo 9 do livro v0.331 era conferida
-    # contra a do .docx, linha a linha. Desde a v0.337 o dono e' o livro reconstruido,
-    # e a tabela dele separou a linha da `Onda` da de `Cura e Apoio` (a Onda nao existe
-    # em Classe 0, e o Apoio de Classe 0 alcanca 4,5 m). A copia v0.331 fica congelada
-    # com a forma antiga ate o capitulo ser trocado pelo da candidata, entao a
-    # comparacao saiu: ela acenderia pela mudanca aprovada, e nao por erro.
+bloco('8.1 ALCANCE, ÁREA E PROXIMIDADE')
+_medidas = livro.tabela(livro.por_bloco('fundamento', 'alcance'), 'Medida básica', 'Classe 0', 'Classes 1 a 5')
+_formas = livro.tabela(livro.por_bloco('fundamento', 'formas'), 'Forma', 'Pontos', 'Entrega')
+if len(_medidas) != 7 or len(_formas) != 6:
+    erro('8.1: tabelas de medidas ou das seis Formas incompletas')
+_preco_forma = {r['Forma']: r['Pontos'] for r in _formas}
+if _preco_forma != {'Projétil':'0', 'Toque':'Devolve Leve', 'Explosão':'Média', 'Aura':'Leve', 'Cone':'Leve', 'Linha':'Leve'}:
+    erro('8.1: custo ou devolução de Forma divergente: ' + repr(_preco_forma))
+_cac = livro.limpa(CAT['Queima-Roupa']['texto'])
+for frase in ('Toque e Aura não podem escolher Queima-Roupa', 'A área conserva suas dimensões',
+              'Média em Projétil; Leve em Explosão, Cone ou Linha'):
+    if frase not in _cac:
+        erro('8.1: Queima-Roupa perdeu regra de proximidade: ' + frase)
 
 # --------------------------------------------------------------------------
 print()

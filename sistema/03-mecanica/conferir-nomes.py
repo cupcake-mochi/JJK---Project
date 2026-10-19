@@ -506,7 +506,7 @@ PLURAL = {'Familia': 'Familias', 'Forma': 'Formas', 'Melhoria': 'Melhorias',
 # escritos aqui porque nao ha coluna para ler — mas cada um tem secao propria
 # no livro, entao colidir com eles e colisao forte.
 NUCLEO_DO_MANUAL = ['Fundamento', 'Regra', 'Descricao', 'Familia', 'Selo', 'Talento',
-                    'Classe', 'Forma', 'Melhoria', 'Restricao', 'Liberacao Maxima',
+                    'Classe', 'Função', 'Forma', 'Melhoria', 'Restricao', 'Liberacao Maxima',
                     'Tecnica Maxima', 'Integridade', 'Uso Livre', 'Efeito Proprio',
                     'Regra Propria', 'Restricao Propria', 'Ampliar']
 
@@ -539,7 +539,7 @@ try:
         erro(f'o livro devolveu {len(CATEGORIAS["Condicao"])} Condicoes, e sao treze '
              f'desde a v7.12 — seis Leve, duas Media e cinco Pesada. A '
              f'extracao quebrou e a triagem voltou a ser cega para elas')
-    for _c, _min in (('Melhoria', 60), ('Restricao', 15), ('Talento', 15), ('Forma', 10)):
+    for _c, _min in (('Melhoria', 60), ('Restricao', 15), ('Talento', 15), ('Forma', 6)):
         if len(CATEGORIAS[_c]) < _min:
             erro(f'o livro devolveu {len(CATEGORIAS[_c])} {PLURAL[_c]} — a extracao quebrou')
 except (livro.LivroMudou, OSError) as e:

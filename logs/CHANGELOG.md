@@ -8,6 +8,35 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.366] - 19/10/2026
+
+### Alterado
+
+- Os validadores locais passaram a ler a R53 completa, com 411 páginas. Texto, snapshots de integração, registro antes/depois e os dois PDFs publicados foram sincronizados no repositório do sistema.
+- O leitor do catálogo usa os metadados de cada entrada. As 61 entradas de Melhorias oferecem 62 opções nomeadas, pois Concentrada e Duradoura compartilham uma entrada. As 19 Restrições e os 18 Talentos também são extraídos. Longe e Maior preservam preços por modalidade.
+- As conferências de ação, nomes, condições, ficha, Ritual e manual acompanham a organização atual. As peças afetadas usam função de cura, Queima-Roupa, Sobrecusto e os prazos individuais de vantagem. A comparação antiga de Adianta foi arquivada.
+- A conferência de repositório exige correspondência entre o texto publicado, os 576 blocos finais e o registro dos 202 blocos alterados. A comparação de preços com o manual congelado pertence ao histórico.
+
+### Adicionado
+
+- Conferência de Fundamento com exemplos numéricos e casos inválidos de distribuição, bases compartilhadas, devoluções, Famílias, Controle Livre e contas de entidades. As interfaces de Emanador, Ritual e rotas são conferidas no texto final.
+- Conta comum reutilizável e entrada JSON para o validador avulso. O escopo numérico e os requisitos que dependem de revisão estão declarados na saída.
+- O verificador editorial legado preserva o inventário de 34 pendências que já existiam na base R52 e reprova qualquer mudança nele. As guardas de referências e vocabulário continuam ativas. O modo estrito integral continua disponível. Esse inventário não representa uma revisão editorial da R53.
+- O auxiliar de validação do Bestiário usa o próprio clone e devolve erro quando a bateria falha.
+
+### Preservado
+
+- Os modelos matemáticos anteriores foram guardados no arquivo histórico. pac7.py e v7.py continuam disponíveis como entradas de compatibilidade, sem execução duplicada na bateria.
+- A pasta antiga Claude 2 com mudanças locais pendentes foi preservada. A ficha digital permanece no trabalho do outro chat.
+
+Validação: 28 validadores de regras, conferência de repositório e regressão editorial legada passaram. A conferência nova executou 216 verificações. As provas de integridade e de entradas JSON também passaram. O relatório registra os 34 achados editoriais legados e os 37 avisos históricos da árvore.
+
+Detalhes da revisão: `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/fundamento-r53/VALIDACAO-LOCAL.json`.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a fonte R53 e o retorno da atualização da ficha digital.
+
+---
+
 ## [0.365] — 15/10/2026
 
 **O livro passa a ser o R52: a personalização geral das Origens permite criar menores e Legados de história, e as marcantes seguem as opções publicadas.** O Mizuki corrigiu a permissão que a montagem anterior tinha aberto: “n era suposto permitir personalizar a marcante mas sim só as menores, legado de historia e talz”. A criação específica de **Criar sua Restrição**, no ramo Restrição corporal, permanece.

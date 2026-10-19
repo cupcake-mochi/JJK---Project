@@ -1,0 +1,179 @@
+Livro lido: fundamento, catalogo, poderes — 1339 linhas com texto, 44 tabelas, e 3 tabelas de mestre lidas das pecas.
+
+========================================================================================
+1. VOCABULARIO ORFAO — palavra de outro sistema viva no manual
+========================================================================================
+  Nenhum dos 13 termos de outro sistema aparece no manual.
+  Esta e a checagem que teria pego o Bonus de Treinamento na v0.24 e o
+  Habilidade/Sabedoria da Fraqueza tres versoes antes de a v0.26 achar.
+
+========================================================================================
+2. TESTE NOMEADO PELO ATRIBUTO, EM VEZ DO TESTE DE RESISTENCIA
+========================================================================================
+  Aqui existem quatro Testes de Resistencia — Fisico · Vigor · Intelecto · Espirito — e cada um
+  tem um atributo por baixo. O manual nao pode chamar um teste pelo ATRIBUTO:
+  "teste de Constituicao" nao diz se e o TR Vigor ou outra coisa, e o TR Fisico
+  usa Forca OU Destreza, entao a traducao nem e um para um.
+
+  Nenhum teste do manual e nomeado pelo atributo.
+
+  E nenhum atributo de fora aparece. Uma regra de preco que cite atributo
+  (como a Restricao Fraqueza) so pode citar os cinco daqui.
+
+  Contagem, so para leitura — a palavra tambem aparece como Tema e como prosa:
+    Forca             1x
+    Destreza          2x
+    Constituicao      0x
+    Inteligencia      1x
+    Essencia          3x
+    (Vontade e Forca aparecem tambem como Tema, nos grupos "Mente e alma" e
+     "Forca e movimento". Tema nao e atributo, e por isso a checagem olha para
+     a frase "teste de X" em vez de para a palavra solta.)
+
+========================================================================================
+3. TERMO MECANICO USADO E NUNCA DEFINIDO
+========================================================================================
+  dano fisico      0 usos — nao esta no manual
+  resistencia      2 uso(s), definido
+  inimigo fraco    0 usos — nao esta no manual
+
+  Termos IMPORTADOS do projeto — o manual usa, e tem que definir:
+    refino (18x, definido no manual)
+      motivo: a Expansao de Dominio tem gate de refino, desconto de refino e duracao por refino. Ate a v0.336 o .docx definia o termo na caixa "REFINO, EM UMA LINHA"; desde a v0.337 a definicao e a do capitulo de Aptidoes do livro ("Refino mede o dominio da energia amaldicoada"), que e o mesmo livro.
+
+  Indefinidos ACEITOS, com motivo declarado:
+
+========================================================================================
+4. OS NUMEROS COMPARTILHADOS, E QUEM MANDA EM CADA UM
+========================================================================================
+  Estes numeros aparecem nos DOIS lados. Se divergirem, o projeto mente em
+  silencio — mas divergir nao quer dizer que o projeto errou. Os limitadores
+  do manual foram calibrados quando o sistema em volta era outro: eles servem
+  de continuidade, e nao de lei.
+
+  PE         dono: o PROJETO
+             nada exige que o Emanador tenha 6 de PE por nivel. O que exige e que a coluna "quantas vezes voce lanca" diga a verdade sobre a ficha. Mudou o 6? Regere a coluna. O numero e nosso; a coluna e a consequencia
+  inimigo    dono: o PLAYTEST
+             esta e a unica das tres que afirma alguma coisa sobre o mundo: que um combate dura ~3,5 rodadas. A trava de vida inteira da peca 1 foi calibrada contra ela. Ninguem e dono ate alguem jogar
+  Classe 0   dono: o MANUAL
+             ele tem tabela propria — 2d8 . 3d8 . 4d8 . 5d8 . 6d8 por faixa de nivel — e ate a v0.79 nenhum documento do projeto e nenhum validador abriam ela. A peca 6 precava ele em 4,50 fixo, que nao existe no manual. Ele e a QUARTA tabela compartilhada, e era a unica sem dono
+  Rotina     dono: o MANUAL
+             ela nao e uma medida, e a DEFINICAO de "quanto dano por rodada e normal". Nao ha verdade fora dela — o projeto compara tudo contra ela, inclusive ela mesma. Mudar a Rotina e mudar a regua, e reprecifica tudo
+
+  nivel   PE do manual    6 x nivel   bate?
+  1       6               6           sim
+  5       30              30          sim
+  9       54              54          sim
+  13      78              78          sim
+  17      102             102         sim
+  20      120             120         sim
+
+  Classe  Rotina no manual    no projeto    bate?
+  1       13                  13            sim
+  2       31                  31            sim
+  3       45                  45            sim
+  4       63                  63            sim
+  5       76                  76            sim
+  6       94                  94            sim
+  7       108                 108           sim
+
+  Os tres conjuntos batem. Enquanto baterem, nenhuma das dez decisoes do
+  projeto penduradas neles precisa ser reaberta.
+
+  4d. a Rotina por NIVEL da peca 6 SS3 contra a coluna do manual
+    nivel   peca 6 diz   manual, pela faixa   bate?
+    2       13           13                   sim
+    10      45           45                   sim
+    18      76           76                   sim
+    30      108          108                  sim
+    11      45           45                   sim
+    22      94           94                   sim
+    20      76           76                   sim
+    As 7 linhas de Rotina da peca 6 saem da coluna certa do manual,
+    e a faixa de cada Classe foi lida da tabela da curva em vez de escrita aqui.
+
+  4e. a Rotina reconstroi como o meio entre "num alvo" e "somando alvos"
+    Classe  num alvo   somando   o meio   Rotina   bate?  num alvo + C0
+    1       3d8        4d8       3d8      3d8      sim    5d8
+    2       6d8        8d8       7d8      7d8      sim    9d8
+    3       9d8        12d8      10d8     10d8     sim    12d8
+    4       12d8       16d8      14d8     14d8     sim    16d8
+    5       15d8       20d8      17d8     17d8     sim    20d8
+    6       18d8       24d8      21d8     21d8     sim    23d8
+    7       21d8       28d8      24d8     24d8     sim    27d8
+    Contra-teste: "num alvo + Classe 0" NAO reproduz a Rotina. A frase
+    "a Rotina ja e feitico + Classe 0" morreu na v0.80, e esta linha e
+    o que impede ela de voltar.
+
+  4f. a coluna "conjurador" da peca 6 contra o feitico sozinho do manual
+    nv   conjurador  feitico sozinho  fisico   vao    bate?
+    2    13          13               22       9      sim
+    10   40          40               50       10     sim
+    18   67          67               78       11     sim
+    30   94          94               106      12     sim
+    A frase morta nao aparece viva em nenhuma linha (2 em nota historica, que e onde ela deve ficar).
+
+  4g. o NUMERO morto do Classe 0 (4,50), e nao so a frase morta
+    Nenhuma linha viva preca Classe 0 em 4,50 (3 em nota historica).
+
+  4h. a FORMA do ataque extra na peca 6 — exige a Acao Atacar, com valvula
+    [x] a peca 6 declara que o ataque extra exige a Acao Atacar
+    [x] a forma velha so aparece em nota historica
+    [x] a valvula continua escrita: habilidade pode dizer o contrario
+    [x] o gate do golpe do Arremate e do Coro continua escrito
+
+  4i. a parede da Melhoria `Anteparo` contra a copia da peca 11
+    [x] as duas dizem 10 x Classe. No Classe 7 sao 70 de vida.
+
+  4j. a escada de frequencia do `Efeito Proprio` contra a copia da peca 11
+    [x] a peca 11 SS6.7 guarda a escada uma/Leve, metade/Media, quase toda/Pesada.
+  ~~ 4j: o livro nao publica mais a escada do `Efeito Proprio`, e a copia da peca 11 SS6.7 nao tem com quem ser comparada ate a migracao das Aptidoes
+
+  4k. os Talentos por Categoria de Efeito no livro contra a copia da peca 11 SS4
+    [x] Categoria de Efeito 1: 6 · Categoria de Efeito 2: 7 · Categoria de Efeito 3: 3 — as tres linhas batem, nome por nome e na mesma ordem.
+    [x] a `Regra Própria` e o `Talento Próprio` continuam sem Categoria fixa, fora das tres.
+
+  4l. a Regra Propria gratis na criacao: a subida, o teto e as cinco copias
+    [x] a Regra Propria vem gratis em Classe 1 (a mais alta aberta no nivel 2); subir custa 1 e 2 espaços (a diferenca para a Categoria 1, lida do Catalogo do livro); as cinco copias dizem o mesmo e a frase antiga sumiu.
+
+  4m. a Concentracao contra a CD de quem te feriu: as copias, a frase antiga e a Mao Firme
+    [x] o Carregar, a corrida, o capitulo 2, o glossario e a peca 3 dizem a CD de quem te feriu; nenhuma copia guarda a regra antiga; a Mao Firme diz o mesmo numero nas quatro.
+
+  4n. a Concentrada e a Duradoura: as copias, e a contagem de Melhorias por extenso
+    [x] o livro tem as duas e a tabela de duracao, e a Condicao abre a porta; o capitulo 9 e o texto compilado dizem o mesmo um que o outro, com o custo do livro; o capitulo 2 e o glossario falam delas; o livro divide as 62 Melhorias em nove Familias.
+
+  4o. o `Alvo de Caça`, o `Efeito Próprio` que conta, e a regra do combo
+    [x] o `Alvo de Caça` (Leve) esta na Familia da `Marca` no livro, e o capitulo 9 e o texto compilado dizem o mesmo um que o outro; o glossario aponta para o 9; o `Efeito Próprio` conta no livro e nas tres copias do capitulo 9; o livro fecha o combo, e o capitulo 9 guarda o paragrafo antigo.
+
+========================================================================================
+5. O PORTAO DAS LINHAS DE CONTROLE — quem prende o alvo diz como solta
+========================================================================================
+  3 linha(s) de Controle seguram o alvo alem do instante: Condição, Cerca, Prende
+  e as 3 nomeiam a saida.
+  fora da selecao, por nao segurarem alvo nenhum: Terreno, Desarma o Feitiço, Anteparo
+
+========================================================================================
+6. OS CINCO DEGRAUS DE NIVEL 7 — a diferenca declarada
+========================================================================================
+     Bastiao 2.06 · Vanguarda 1.29 · os outros tres 2.36
+     [x] os totais batem com a diferenca declarada, e ela cabe no teto (a Vanguarda passa dele por decisao escrita, D44).
+
+========================================================================================
+7. A COBERTURA — o manual cita o grau, e a escala e da peca 19 §5
+========================================================================================
+  a escala, lida da peca 19 §5: Parcial · Boa · Total
+  [x] as 14 linhas do manual que falam de cobertura citam so os graus da peca,
+      e nenhuma repete os bonus (+2 · +5) que sao dela.
+
+========================================================================================
+8. FUNÇÕES E CLASSE ZERO
+========================================================================================
+
+========================================================================================
+8.1 ALCANCE, ÁREA E PROXIMIDADE
+========================================================================================
+
+========================================================================================
+>>> TUDO OK — nenhum vocabulario de outro sistema no manual, nenhum termo
+    mecanico indefinido sem motivo, e os numeros importados continuam batendo.
+    1 aviso(s) acima, que nao falham o validador.

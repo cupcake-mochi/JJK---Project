@@ -1,3 +1,9 @@
+# Fonte corrente R53
+
+O arquivo `LIVRO-COMPLETO.md` é a edição R53 de 411 páginas, exportada da integração aprovada. Os snapshots finais e o antes/depois ficam em `revisao-de-regras/fundamento-r53/` e `revisao-de-regras/alteracoes/R52-para-R53.json`. Os validadores locais leem este texto. Os PDFs ficam na pasta acima e seus hashes estão em `EDICAO-ATUAL.json`.
+
+A composição integral da R53 permanece na entrega local `/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/`, do projeto editorial. Os scripts abaixo documentam a cadeia anterior de composição. Regerar por uma cadeia anterior não atualiza automaticamente a R53; a conferência de integridade reprova um texto que deixe de corresponder ao snapshot final.
+
 # Ciclo Maldito R41, hoje na edição R52
 
 **Desde a v0.365 o texto e o PDF são os do R52:** a personalização permite criar menores e Legados de história. A marcante segue as opções publicadas; a criação específica do ramo Restrição corporal permanece. Famílias próprias do Descendente usam uma modalidade publicada da marcante. Um bloco mudou, registrado em `revisao-de-regras/alteracoes/R51-para-R52.json`. A conferência da entrega está em `revisao-de-regras/origens-r52/`.

@@ -1,0 +1,273 @@
+[
+  {
+    "arquivo": "conferir-acao.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-acao.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.11,
+    "log": "publicacao-conferir-acao.py.log"
+  },
+  {
+    "arquivo": "conferir-alma.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-alma.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.47,
+    "log": "publicacao-conferir-alma.py.log"
+  },
+  {
+    "arquivo": "conferir-aptidoes.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-aptidoes.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.57,
+    "log": "publicacao-conferir-aptidoes.py.log"
+  },
+  {
+    "arquivo": "conferir-atributos.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-atributos.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.16,
+    "log": "publicacao-conferir-atributos.py.log"
+  },
+  {
+    "arquivo": "conferir-bestiario.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-bestiario.py"
+    ],
+    "codigo": 0,
+    "segundos": 1.17,
+    "log": "publicacao-conferir-bestiario.py.log"
+  },
+  {
+    "arquivo": "conferir-bloquear.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-bloquear.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.21,
+    "log": "publicacao-conferir-bloquear.py.log"
+  },
+  {
+    "arquivo": "conferir-catalogo.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-catalogo.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.67,
+    "log": "publicacao-conferir-catalogo.py.log"
+  },
+  {
+    "arquivo": "conferir-criacao.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-criacao.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.11,
+    "log": "publicacao-conferir-criacao.py.log"
+  },
+  {
+    "arquivo": "conferir-dano.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-dano.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.16,
+    "log": "publicacao-conferir-dano.py.log"
+  },
+  {
+    "arquivo": "conferir-descanso.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-descanso.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.07,
+    "log": "publicacao-conferir-descanso.py.log"
+  },
+  {
+    "arquivo": "conferir-equipamento.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-equipamento.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.37,
+    "log": "publicacao-conferir-equipamento.py.log"
+  },
+  {
+    "arquivo": "conferir-expansao.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-expansao.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.27,
+    "log": "publicacao-conferir-expansao.py.log"
+  },
+  {
+    "arquivo": "conferir-ferramenta.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-ferramenta.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.12,
+    "log": "publicacao-conferir-ferramenta.py.log"
+  },
+  {
+    "arquivo": "conferir-ficha.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-ficha.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.32,
+    "log": "publicacao-conferir-ficha.py.log"
+  },
+  {
+    "arquivo": "conferir-fundamento.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-fundamento.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.92,
+    "log": "publicacao-conferir-fundamento.py.log"
+  },
+  {
+    "arquivo": "conferir-invocacoes.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-invocacoes.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.37,
+    "log": "publicacao-conferir-invocacoes.py.log"
+  },
+  {
+    "arquivo": "conferir-legados.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-legados.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.11,
+    "log": "publicacao-conferir-legados.py.log"
+  },
+  {
+    "arquivo": "conferir-manual.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-manual.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.32,
+    "log": "publicacao-conferir-manual.py.log"
+  },
+  {
+    "arquivo": "conferir-marcial.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-marcial.py"
+    ],
+    "codigo": 0,
+    "segundos": 35.99,
+    "log": "publicacao-conferir-marcial.py.log"
+  },
+  {
+    "arquivo": "conferir-nomes.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-nomes.py"
+    ],
+    "codigo": 0,
+    "segundos": 34.79,
+    "log": "publicacao-conferir-nomes.py.log"
+  },
+  {
+    "arquivo": "conferir-objeto.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-objeto.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.17,
+    "log": "publicacao-conferir-objeto.py.log"
+  },
+  {
+    "arquivo": "conferir-orcamento.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-orcamento.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.16,
+    "log": "publicacao-conferir-orcamento.py.log"
+  },
+  {
+    "arquivo": "conferir-pactos.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-pactos.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.21,
+    "log": "publicacao-conferir-pactos.py.log"
+  },
+  {
+    "arquivo": "conferir-pericias.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-pericias.py"
+    ],
+    "codigo": 0,
+    "segundos": 1.37,
+    "log": "publicacao-conferir-pericias.py.log"
+  },
+  {
+    "arquivo": "conferir-progressao.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-progressao.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.06,
+    "log": "publicacao-conferir-progressao.py.log"
+  },
+  {
+    "arquivo": "conferir-ritual.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-ritual.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.11,
+    "log": "publicacao-conferir-ritual.py.log"
+  },
+  {
+    "arquivo": "conferir-sem-tecnica.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-sem-tecnica.py"
+    ],
+    "codigo": 0,
+    "segundos": 34.74,
+    "log": "publicacao-conferir-sem-tecnica.py.log"
+  },
+  {
+    "arquivo": "conferir-xp.py",
+    "argumentos": [
+      "sistema/03-mecanica/conferir-xp.py"
+    ],
+    "codigo": 0,
+    "segundos": 0.11,
+    "log": "publicacao-conferir-xp.py.log"
+  },
+  {
+    "arquivo": "conferir-repositorio.py",
+    "argumentos": [
+      "conferir-repositorio.py"
+    ],
+    "codigo": 0,
+    "segundos": 11.14,
+    "log": "publicacao-conferir-repositorio.py.log"
+  },
+  {
+    "arquivo": "conferir-voz.py",
+    "argumentos": [
+      "sistema/05-material/livro/conferir-voz.py",
+      "--legado-sem-regressao"
+    ],
+    "codigo": 0,
+    "segundos": 0.72,
+    "log": "publicacao-conferir-voz.py.log"
+  }
+]

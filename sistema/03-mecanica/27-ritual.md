@@ -109,21 +109,20 @@ Isso decide o que a lista da seção 4 pode conter e o que não pode. **Uma Melh
 
 > **A régua que preça a lista não é o dano por rodada — é o feitiço auxiliar.** *Gastar um feitiço inteiro só para buffar entrega `0,76` de rodada e custa `1,30`: razão de `0,59×`, um negócio ruim, e é por isso que ninguém faz.* **O ritual é a alternativa barata, porque ele compra buff sem gastar PE.** *Palavras do Mizuki:* **"Fazer um ritual é mais economico q por exemplo usar dois feitiço no turno, ent necessariamente n precisa ser parelho com as ações gastas, mas tem q valer apena."*
 
-### 4.1 Que Melhoria entra em que Forma
+### 4.1 Funções e Formas
 
-***Pedido do Mizuki:*** *"Permitir uma forma de apoio receber uma melhoria de dano fica cu."* **A trava não é julgamento de mestre: ela sai do que a Melhoria faz e do que a Forma é.**
+O Ritual acompanha a ficha registrada. A compatibilidade depende das funções, das peças e dos destinatários. Cada benefício conserva os requisitos do livro.
 
-| Forma | `Mira` | `Área` | `Castigo` | `Marca` | `Amparo` | `Controle` | `Alcance` | `Auxiliares` |
-|---|---|---|---|---|---|---|---|---|
-| `Projétil` · `Toque` | sim | — | sim | sim | — | sim | sim | sim |
-| `Explosão` · `Aura` · `Cone` · `Linha` | sim | sim | sim | sim | — | sim | sim | sim |
-| `Cura` · `Apoio` | — | — | — | — | sim | — | sim | sim |
-| `Onda` | — | sim | — | — | sim | — | sim | sim |
-| `Efeito` | — | — | — | — | — | — | sim | sim |
+| Forma | Medida que precisa ser conservada |
+|---|---|
+| Projétil | Distância até cada alvo. |
+| Toque | Alvos a até 1,5 m. |
+| Explosão | Distância até o centro e raio da esfera. |
+| Aura | Centro em quem executa e raio. |
+| Cone | Distância até a origem e comprimento. |
+| Linha | Distância até a origem, comprimento e largura. |
 
-**A regra de cada coluna, e ela é uma frase:** *`Mira` exige que exista rolagem ou Teste de Resistência · `Área` exige que exista área · `Castigo` e `Marca` exigem que exista dano e alvo hostil · `Amparo` exige que o alvo seja aliado · `Controle` exige inimigo ou terreno · `Alcance` e `Auxiliares` valem em tudo.*
-
-> **A Forma `Efeito` NÃO ritualiza.** *Ela é "fora de combate, sem dano", e o ritual é ação de combate.* **Não é buraco: é a consequência escrita.**
+Cura, vida temporária e os demais benefícios são funções da aplicação. Cura individual exige Amparo. Uma aplicação coletiva exige também Área e conserva seu teto e seus destinatários. Efeito fora de combate tem seu procedimento próprio em Fundamento.
 
 ### 4.2 As dezesseis
 
@@ -135,10 +134,10 @@ Isso decide o que a lista da seção 4 pode conter e o que não pode. **Uma Melh
 | `Ritual de Rerrolagem` | rerrola os dados de dano que caírem no mínimo, até `Classe + 1` deles. Fica o segundo resultado. Pode comprar duas vezes: a segunda pega também o dado um ponto acima do mínimo, até `2 × (Classe + 1)` dados. | 1 | com dano ou cura | nenhuma |
 | `Ritual de Energia` | o feitiço custa metade da Classe, mínimo `1`, a menos de PE. | 2 | todas | nenhuma |
 | `Ritual de Tamanho` | sobe um degrau na escada de área. Pode comprar duas vezes, e sobe dois. | 2 | com área | nenhuma |
-| `Ritual de Alcance` | aumenta uma vez a distância ou o comprimento que a Melhoria `Longe` aumentaria. Pode comprar duas vezes, e sobe dois degraus. | 2 | todas | `Corpo a Corpo` |
+| `Ritual de Alcance` | aumenta uma vez a distância ou o comprimento que a Melhoria `Longe` aumentaria. Pode comprar duas vezes, e sobe dois degraus. | 2 | todas | `Queima-Roupa` |
 | `Ritual de Perseguição` | o alvo que se desloca depois de escolhido não sai do alcance desta aplicação. | 2 | com dano | nenhuma |
 | `Ritual de Excedente` | a cura que passa do máximo vira vida temporária, até um quarto da cura. | 2 | `Amparo` | nenhuma |
-| `Ritual de Compartilhamento` | um aliado a mais recebe uma cópia da parcela de um beneficiário; com `Junto`, da menor parcela. | 2 | `Amparo` | nenhuma |
+| `Ritual de Compartilhamento` | na aplicação benéfica individual, um aliado a mais recebe uma cópia da parcela de um beneficiário; com `Mais Um`, da menor parcela. | 2 | `Amparo` | nenhuma |
 | `Ritual de Duração` | o efeito de estado dura uma rodada a mais. | 2 | com estado | nenhuma |
 | `Ritual de Cobertura` | ignora Cobertura Parcial. | 2 | quem rola | nenhuma |
 | `Ritual de Transmutação` | escolhe o tipo de dano entre os que a sua técnica faz. | 2 | com dano | nenhuma |
@@ -164,11 +163,11 @@ Isso decide o que a lista da seção 4 pode conter e o que não pode. **Uma Melh
 
 **A primeira é o `Ritual de Meio Acerto` contra a Restrição `Sem Volta`:** *aquela Restrição devolve `Média` e diz "se o feitiço não acertar ninguém, você não conjura nada no seu próximo turno".* **Se metade dos dados sempre acerta, ela nunca dispara — devolve o ponto e nunca cobra.**
 
-**A segunda é o `Ritual de Alcance` contra a Restrição `Corpo a Corpo`.** *Aquela Restrição devolve `Média` por transformar `Projétil` em `Toque` e te obrigar a chegar a `1,5` m.* **Subir um degrau na escada de alcance desfaz parte do que ela cobra.** *Eu não tinha visto essa, e ela só apareceu quando a checagem me fez passar as dezesseis pelas dezoito, uma a uma.*
+**Ritual de Alcance e Queima-Roupa são incompatíveis.** A Restrição mantém os alvos de Projétil a 1,5 m ou a origem da área em quem executa. Toque conserva seus 1,5 m. A área pode manter ou ampliar suas dimensões pelas permissões próprias, sem ampliar a distância até a origem.
 
 > ***Duas candidatas morreram por isto, as duas apontadas pelo Mizuki:*** *a que dava vantagem no seu próximo Teste de Resistência (anulava a `Fraqueza`) e a que escondia qual técnica você usou (anulava a `Barulho` e a `Assinatura`).* **A segunda fechou um eixo inteiro: toda Melhoria que mexe em quem-sabe-o-quê encosta nas Restrições de exposição.**
 
-**O `conferir-ritual.py` tem uma checagem só para isso**, *e ela não tenta adivinhar anulação — isso é semântica e script nenhum resolve.* **Ela exige que CADA Melhoria de ritual declare com quais das dezoito Restrições ela não entra, inclusive quando a resposta é "nenhuma".** *Ela pega erro de OMISSÃO, que foi o meu: eu não tinha olhado a `Sem Volta` uma vez sequer até ele mandar olhar.*
+**O `conferir-ritual.py` tem uma checagem só para isso**, *e ela não tenta adivinhar anulação — isso é semântica e script nenhum resolve.* **Ela exige que CADA Melhoria de ritual declare com quais das Restrições publicadas ela não entra, inclusive quando a resposta é "nenhuma".** *Ela pega erro de OMISSÃO, que foi o meu: eu não tinha olhado a `Sem Volta` uma vez sequer até ele mandar olhar.*
 
 ### 4.4 O que o R41 escreve sobre a lista e esta peça não dizia — v0.350
 

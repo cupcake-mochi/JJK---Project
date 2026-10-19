@@ -1,0 +1,282 @@
+
+==========================================================================================
+1. OS GATES SEPARAM O QUE DIZEM SEPARAR?
+==========================================================================================
+  A curva de refino, nos dois niveis que importam:
+
+  nivel    especialista    meio a meio     generalista
+  10       5               4               3
+  14       7               6               4
+
+  incompleta — nivel 10 e refino 4
+    especialista    refino 5   passa   folga +1
+    meio a meio     refino 4   passa   folga +0
+    generalista     refino 3   BARRA   folga -1
+
+  completa — nivel 14 e refino 5
+    especialista    refino 7   passa   folga +2
+    meio a meio     refino 6   passa   folga +1
+    generalista     refino 4   BARRA   folga -1
+
+  No nivel 10 as tres rotas estao em 5 / 4 / 3 — coladas, sem buraco entre elas.
+  Logo, qualquer gate que barre o generalista pega o meio a meio com folga ZERO.
+  Isso nao e escolha de numero: e o formato da curva. So da para escolher quem raspa.
+
+==========================================================================================
+2. A ORDEM INVERTE EM ALGUM LUGAR?
+==========================================================================================
+  A completa exige ter a incompleta. Entao nenhuma rota pode alcancar a
+  completa num marco anterior ao da incompleta.
+
+  rota              incompleta      completa        distancia
+  especialista      nv 10           nv 14           4 niveis
+  meio a meio       nv 10           nv 14           4 niveis
+  generalista       nv 14           nv 18           4 niveis
+
+  Os dois eixos do gate da completa sao >= os da incompleta, entao a
+  inversao nao pode nascer nem dos gates nem da curva.
+
+==========================================================================================
+3. BARRADO E ATRASADO, OU TRANCADO?
+==========================================================================================
+  "Generalista barrado" precisa querer dizer ATRASADO. Se alguma rota nao
+  chega antes do nivel 30, o gate deixou de comprar tempo e passou a excluir.
+
+  incompleta:
+    especialista    nv 10
+    meio a meio     nv 10
+    generalista     nv 14  (4 niveis atras do especialista)
+  completa:
+    especialista    nv 14
+    meio a meio     nv 14
+    generalista     nv 18  (4 niveis atras do especialista)
+
+  O generalista chega a completa 4 niveis depois do especialista.
+  Ele nao e trancado fora dela: ele paga em tempo o que nao pagou em marco.
+
+==========================================================================================
+4. O PRECO EM ESPACOS FECHA COM AS TABELAS DA PECA 11?
+==========================================================================================
+  montagem                    nv14    nv20    nv26    nv30
+  so feitico                  12      16      21      24
+  3 Talentos C2               6       10      15      18
+  3 Talentos C2 + completa    3       7       12      15
+  5 Talentos C3 + completa    0       0       3       6
+
+  As quatro linhas so fecham com a incompleta a 2 espacos e a completa a 3.
+  O preco nao esta "a definir": ele ja esta travado por tabela publicada.
+
+  A montagem mais pesada legal — cinco Talentos de Categoria de Efeito 3 mais a completa —
+  pede 18 espacos, e cabe a partir do nivel 22.
+
+  nivel    espacos    a incompleta e    a completa e
+  10       9          22%               33%
+  14       12         17%               25%
+  18       15         13%               20%
+  22       18         11%               17%
+  26       21         10%               14%
+  30       24         8%                12%
+
+==========================================================================================
+5. A RESPOSTA CHEGA ANTES DA AMEACA?
+==========================================================================================
+  A completa acerta GARANTIDO. Isso so e jogavel porque a resposta e barata:
+  a Cesta Oca nao tem gate de refino nem de nivel — custa uma escolha de
+  marco, e a primeira escolha de marco acontece no nivel 6.
+
+  anti-dominio mais cedo (um marco de Refino, Cesta Oca)        nv 6
+  Expansao mais cedo (incompleta, especialista ou meio a meio)   nv 10
+
+  A resposta chega 4 niveis antes da ameaca, e custa
+  UM marco, uma vez. Nao e preciso ser do eixo do controle: e preciso gastar
+  uma escolha nele, uma vez na campanha inteira.
+
+  Mas as duas rotas puras que nunca escolhem Refino — sempre Corpo e sempre
+  Leque — terminam com ZERO aptidoes, e portanto com zero resposta anti-dominio.
+  Isso e propriedade da rota e nao defeito do gate; o texto da peca 11 ja avisa
+  que quem nunca escolhe Refino termina sem aptidao nenhuma. Vale o playtest.
+
+==========================================================================================
+6. FRAGILIDADE — quem cai se a curva de refino se mexer?
+==========================================================================================
+  Um gate com folga zero quebra se a curva CAIR; um gate com folga quebra se
+  ela SUBIR. Nenhum dos dois e seguro nas duas direcoes, e por isso a escolha
+  entre eles e sobre qual falha voce prefere ter.
+
+  incompleta (nv 10, refino 4):
+    a curva cai 1   PERDEM o degrau no nv10: meio a meio
+    a curva sobe 1  passam a ter no nv10: generalista
+    quem raspa hoje  meio a meio (folga zero)
+  completa (nv 14, refino 5):
+    a curva cai 1   ninguem se move
+    a curva sobe 1  passam a ter no nv14: generalista
+    quem raspa hoje  ninguem — todo mundo que passa tem folga
+
+  A leitura: a falha por curva que CAI e silenciosa — uma rota perde acesso e
+  ninguem percebe. A falha por curva que SOBE aparece na tabela da checagem 1,
+  que passa a acusar que o gate barra menos gente do que a intencao escrita.
+  Este validador torna as duas barulhentas, e e por isso que a escolha entre
+  refino 5 e refino 6 na completa deixou de ser aposta.
+
+  Registrado: no nivel 14, refino 5 e refino 6
+  separam EXATAMENTE as mesmas rotas. O escolhido nao compra separacao a
+  mais que o outro — ele compra a direcao em que o gate falha.
+
+==========================================================================================
+7. O DESCONTO LA DENTRO PAGA A PROPRIA EXPANSAO?
+==========================================================================================
+  A duracao e quantas rodadas o dominio fica de pe — e portanto quantos
+  feiticos saem la dentro. Se desconto x duracao alcancar o custo de abrir,
+  abrir o dominio fica de graca, e um preco que se paga sozinho nao e preco.
+
+  incompleta — abrir custa 6 x Classe, desconto 1/3 do refino
+    nv    Classe   refino   abrir    duracao   economia   saldo
+    14    4        7        24       3         6          +18
+    18    5        9        30       4         12         +18
+    22    6        10       36       5         15         +21
+    26    7        10       42       5         15         +27
+    30    7        10       42       5         15         +27
+
+  completa — abrir custa 6 x Classe, desconto 1/2 do refino
+    nv    Classe   refino   abrir    duracao   economia   saldo
+    14    4        7        24       3         9          +15
+    18    5        9        30       4         16         +14
+    22    6        10       36       5         25         +11
+    26    7        10       42       5         25         +17
+    30    7        10       42       5         25         +17
+
+  As duas abrem pelo mesmo PE (6x), e isso e decisao da v0.174 e nao descuido.
+  O degrau de cima se paga em ESPACO (+1, de 2 para 3) e em GATE (nivel
+  14 e refino 5, contra 10 e 4). O manual ja escrevia que a completa
+  "paga so a diferenca — um espaco a mais, no molde da Regra Propria";
+  cobrar PE por cima era a segunda cobranca pelo mesmo degrau.
+  A escada de custo fecha: feitico do topo 3x < Tecnica Maxima 5x < incompleta 6x = completa 6x.
+
+==========================================================================================
+8. O DESCONTO ZERA FEITICO?
+==========================================================================================
+  Custo de um feitico = 3 x Classe. Com o desconto da completa no refino 10:
+
+  Classe   custo    ref 1      ref 5      ref 10
+  1        3        2          1          1
+  2        6        5          4          1
+  3        9        8          7          4
+  4        12       11         10         7
+  5        15       14         13         10
+  6        18       17         16         13
+  7        21       20         19         16
+
+  O piso de 1 PE segura 1 combinacao(oes) que ficariam em zero ou negativo.
+  Sem ele, o dominio nao teria custo nenhum para quem investiu em refino.
+
+==========================================================================================
+9. A BARREIRA CAI DENTRO DA PROPRIA DURACAO?
+==========================================================================================
+  A barreira so significa alguma coisa se der para derrubar antes de o tempo
+  acabar sozinho. Se ela aguentar mais do que a duracao, quem esta de fora
+  nao tem o que fazer, e a decisao de atacar ou esperar deixa de existir.
+
+  nv    refino   duracao   Rotina   barreira   aguenta     da para derrubar?
+  14    7        3         63       150        2.4         sim
+  18    9        4         76       200        2.6         sim
+  22    10       5         94       250        2.7         sim
+  26    10       5         108      250        2.3         sim
+  30    10       5         108      250        2.3         sim
+
+  Por dentro ela nao quebra, e isso e regra e nao numero.
+  E o mestre pode declarar que uma barreira cede fora desta conta — tres
+  dominios se atravessando, uma fraqueza ja estabelecida. Excecao declarada.
+
+==========================================================================================
+10. AS QUATRO ANTI-DOMINIO
+==========================================================================================
+  aptidao               Classe  especialista   meio a meio    generalista    PE/rodada
+  Cesta Oca de Vime     1       nv 6           nv 6           nv 6           nenhum
+  Domínio Simples       2       nv 10          nv 10          nv 14          2 fixos
+  Pétala                2       nv 10          nv 10          nv 14          1 fixo
+  Extensão de Domínio   3       nv 14          nv 18          nv 26          1.5 x Classe
+
+  A anti-dominio mais barata e Classe 1, e a rota mais lenta a
+  alcanca no nv 6. A Expansao mais cedo aparece no nv 10.
+  Folga de 4 niveis, e ela vale para as tres rotas.
+
+  Erguer custa a maior Classe, toda vez: Cesta Oca de Vime, Domínio Simples, Pétala, Extensão de Domínio. Uma vez por luta, mais o PE
+  de rodada numa luta de 3,5 rodadas, contra o dia de um Bastiao (o menor bolso):
+    nv    Classe  Cesta Oca de Vime   Domínio Simples     Pétala              Extensão de Domíni
+    6     2       2 PE, 12 lutas      —                   —                   —
+    10    3       3 PE, 13 lutas      10 PE, 4 lutas      6.5 PE, 6 lutas     —
+    14    4       4 PE, 14 lutas      11 PE, 5 lutas      7.5 PE, 7 lutas     25 PE, 2 lutas
+    20    5       5 PE, 16 lutas      12 PE, 6 lutas      8.5 PE, 9 lutas     33 PE, 2 lutas
+    26    7       7 PE, 14 lutas      14 PE, 7 lutas      10.5 PE, 9 lutas    45.5 PE, 2 lutas
+    30    7       7 PE, 17 lutas      14 PE, 8 lutas      10.5 PE, 11 lutas   45.5 PE, 2 lutas
+  A Extensao fica fora do limite do dia de proposito, e e a mais cara das quatro em todo nivel.
+
+  Domínio Simples: 2 PE fixos por rodada. Fora de combate, o dia inteiro do Bastiao o segura por:
+    nv 10: 2.0 min · uma luta custa 7 PE, 18% do dia
+    nv 30: 6.0 min · uma luta custa 7 PE, 6% do dia
+
+  Pétala: 1 PE fixo por rodada. Fora de combate, o dia inteiro do Bastiao o segura por:
+    nv 10: 4.0 min · uma luta custa 3.5 PE, 9% do dia
+    nv 30: 12.0 min · uma luta custa 3.5 PE, 3% do dia
+
+  A Petala, pela Essencia contra a do dono (maior / igual / menor): voce leva 0 / 0.25 / 0.5 do dano do Acerto que toca
+  Sem a queda na hora, usar e erguer de novo nunca deixa passar mais do que nao ter ela,
+  nem no pior caso, em refino 4 a 10.
+  O contra-ataque vale 2.77 PE no nv 10 · 3.06 PE no nv 20 · 3.36 PE no nv 30 (media 3.06); a peca cobra 3.
+  O capitulo 45 do livro copia a tabela da Essencia e o preco do contra-ataque igual a peca 11.
+  A Extensao: o gate (refino, nivel) = ('7', '18') nas cinco copias, acima do teto voce leva 3/4 na peca e no livro, o Corpo Amaldicoado fora dela nos quatro lugares, o `Manejo` proibido pelo nome nos quatro, e a caixa sem lista do que continua.
+  A queda na hora: o Acerto e a mais, e o do comeco do turno do dono continua vindo — na caixa da Cesta
+  na peca e no livro, no Simples que cai pelo voto e na regra das quatro.
+
+  O raio do Dominio Simples (1,5 m + refino/2), contra o movimento de 9 m:
+    ref 1: 1.5 m  ·  ref 2: 2.5 m  ·  ref 4: 3.5 m  ·  ref 6: 4.5 m  ·  ref 8: 5.5 m  ·  ref 10: 6.5 m
+    Nenhum passa de um movimento: ela e defesa, e nao prende ninguem.
+
+  O custo por rodada nao decresce com a Classe, em nenhum nivel do 10 ao 30: Cesta Oca de Vime 0 · Domínio Simples 2 · Pétala 1 · Extensão de Domínio 11 no nivel 30.
+  A Cesta Oca e a unica que nao custa PE de pe: desde a v0.267 o preco dela sao
+  as maos presas no simbolo e a queda pelos golpes em quem segura, e desde a v0.272
+  erguer custa a maior Classe, como nas outras duas.
+
+==========================================================================================
+11. A DISPUTA DE DOMINIOS — a cascata do R41, e o unico numero e o desempate
+==========================================================================================
+  a cascata da disputa tem 4 pergunta(s)
+  [x] a cascata esta numerada sem buraco, e os 4 degraus decidem, na ordem, por: o refino · o Acerto sem dano · o dado do desempate · a corrida.
+  o desempate publicado no R41: 1d12, margem 4; a corrida cobre de 0 a 3
+  [x] a pergunta 4 cobre exatamente o que a 3 nao decide.
+  [x] fora do desempate a pagina nao escreve dado, porcentagem nem prazo.
+
+==========================================================================================
+11.1. AS SAIDAS DA DISPUTA — as oito estao no R41
+==========================================================================================
+  [x] as 8 saidas da regra estao nas paginas da disputa.
+
+==========================================================================================
+11.2. O TESTE DE VIGOR NA CORRIDA — a regra no R41, e a tabela sai da conta
+==========================================================================================
+  [x] as 8 pecas da regra estao no R41.
+  [x] a CD do dono do outro dominio nao aparece no R41.
+  a fracao do R41: 1/2 da Essencia · o piso da peca 1: 1 · o teto de atributo da peca 2: 6
+  [x] a tabela do R41 cobre a Essencia de 0 a 6 e cada celula e a conta: 1/2, para baixo, nunca menos de 1.
+
+==========================================================================================
+12. A EXPANSAO SEM BARREIRAS — o degrau de cima, e o raio de todos
+==========================================================================================
+  o degrau: 5 espacos (+2 sobre a Completa de 3), refino 10 e especializacao em Ocultismo
+  refino 10 chega em: especialista nv22 · meio a meio nv26 · generalista NUNCA
+  sem barreira: abrir 7 x a maior Classe, desconto 2 x maestria, 5 rodadas no refino 10
+    nv22: abrir 42 · o desconto devolve no maximo 30 · saldo -12
+    nv26: abrir 49 · o desconto devolve no maximo 40 · saldo -9
+    nv30: abrir 49 · o desconto devolve no maximo 40 · saldo -9
+  [x] o exemplo do R41 (nv26) sai das tabelas: abrir 49 e desconto 8 no aberto; abrir 42 e desconto 5 no fechado.
+  o raio: 1,5 m x refino, a incompleta ate 7,5 m
+  o raio aberto: 199,5 m, contra 15 m do maior dominio fechado
+  [x] o degrau, o gate, o custo, o exemplo, o raio dos dois lados e as pecas de texto batem entre o R41 e os donos.
+
+  12.7: o R41 publica o que este validador mede, e as decisoes da revisao
+  [x] degraus, custo de abrir, desconto, duracao e barreira do R41 sao os do modelo
+  [x] as 14 frases das decisoes estao no R41, e as 4 que sairam nao voltaram
+
+==========================================================================================
+>>> TUDO OK — os gates separam o que dizem, a ordem nao inverte, o preco fecha
+    com as tabelas publicadas e a resposta anti-dominio chega antes da ameaca.

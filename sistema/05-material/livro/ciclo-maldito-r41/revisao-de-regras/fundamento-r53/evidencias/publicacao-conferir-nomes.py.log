@@ -1,0 +1,129 @@
+========================================================================================
+CONFERIR NOMES — colisao de termo nas duas direcoes
+========================================================================================
+  149 nomes batizados, contra 41 arquivos vivos
+  livro: Fundamento, Catalogo, Poderes avancados e Dano
+     Familias               9 extraidos do livro
+     Formas                 6 extraidos do livro
+     Melhorias             62 extraidos do livro
+     Restricoes            19 extraidos do livro
+     Talentos              18 extraidos do livro
+     pecas do Fundamento   19 extraidos do livro
+     Condicoes             13 extraidos do livro
+
+========================================================================================
+1. COLISAO PARA FORA — o nome ja e termo definido no Fundamento
+========================================================================================
+  Nota de metodo da v0.6: TERMO DEFINIDO colide; PROSA SOLTA nao.
+
+  Nenhum nome do projeto e termo definido do manual.
+
+========================================================================================
+2. COLISAO PARA DENTRO — o nome ja significa outra coisa no projeto
+========================================================================================
+  ~  "Guia" (Caminho) tambem e palavra comum: 5x em minuscula em levantamento-ritmo-fora-do-projeto.md
+  ~  "Muro" (Trilha do Bastiao) tambem e palavra comum: 3x em minuscula em 07-pericias-e-oficios.md
+  ~  "Muro" (Trilha do Bastiao) tambem e palavra comum: 6x em minuscula em 14-equipamento.md
+  ~  "Punho" (Trilha do Bastiao) tambem e palavra comum: 5x em minuscula em 14-equipamento.md
+  ~  "Dobro" (entrega de catalogo) tambem e palavra comum: 8x em minuscula em 11-aptidoes-e-refino.md
+  ~  "Dobro" (entrega de catalogo) tambem e palavra comum: 14x em minuscula em 12-experiencia-e-progressao.md
+  ~  "Dobro" (entrega de catalogo) tambem e palavra comum: 17x em minuscula em 14-equipamento.md
+  ~  "Dobro" (entrega de catalogo) tambem e palavra comum: 5x em minuscula em 26-bestiario.md
+  ~  "Dobro" (entrega de catalogo) tambem e palavra comum: 10x em minuscula em ESTADO-ATUAL.md
+  ~  "Retomada" (entrega de catalogo) tambem e palavra comum: 4x em minuscula em ESTADO-ATUAL.md
+  ~  "Chão" (entrega de catalogo) tambem e palavra comum: 4x em minuscula em 11-aptidoes-e-refino.md
+  ~  "Chão" (entrega de catalogo) tambem e palavra comum: 3x em minuscula em 13-legados.md
+  ~  "Chão" (entrega de catalogo) tambem e palavra comum: 3x em minuscula em 14-equipamento.md
+  ~  "Chão" (entrega de catalogo) tambem e palavra comum: 5x em minuscula em 15-invocacoes.md
+  ~  "Chão" (entrega de catalogo) tambem e palavra comum: 5x em minuscula em 19-dano-e-condicoes.md
+  ~  "Chão" (entrega de catalogo) tambem e palavra comum: 3x em minuscula em 25-sem-tecnica.md
+  ~  "Chão" (entrega de catalogo) tambem e palavra comum: 8x em minuscula em DESENHO-trilhas.md
+  ~  "Encalço" (entrega de catalogo) tambem e palavra comum: 4x em minuscula em DESENHO-trilhas.md
+  ~  "Portão" (entrega de catalogo) tambem e palavra comum: 3x em minuscula em 19-dano-e-condicoes.md
+  ~  "Portão" (entrega de catalogo) tambem e palavra comum: 12x em minuscula em DESENHO-manhas.md
+  ~  "Cheia" (entrega de catalogo) tambem e palavra comum: 4x em minuscula em 13-legados.md
+  ~  "Cheia" (entrega de catalogo) tambem e palavra comum: 3x em minuscula em 15-invocacoes.md
+  ~  "Cheia" (entrega de catalogo) tambem e palavra comum: 4x em minuscula em DESENHO-trilhas.md
+  ~  "Cheia" (entrega de catalogo) tambem e palavra comum: 7x em minuscula em ESTADO-ATUAL.md
+  ~  "Empunhadura" (entrega de catalogo) tambem e palavra comum: 3x em minuscula em 14-equipamento.md
+  ~  "Segurar" (entrega de catalogo) tambem e palavra comum: 4x em minuscula em 11-aptidoes-e-refino.md
+  ~  "Segurar" (entrega de catalogo) tambem e palavra comum: 4x em minuscula em DESENHO-trilhas.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 5x em minuscula em 01-atributos-acerto-defesa.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 3x em minuscula em 08-criacao-de-personagem.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 11x em minuscula em 11-aptidoes-e-refino.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 3x em minuscula em 12-experiencia-e-progressao.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 13x em minuscula em 14-equipamento.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 5x em minuscula em 15-invocacoes.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 3x em minuscula em 16-ferramenta-amaldicoada.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 3x em minuscula em 18-progressao.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 4x em minuscula em 19-dano-e-condicoes.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 7x em minuscula em 21-objeto-amaldicoado.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 4x em minuscula em 24-dano-de-alma.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 8x em minuscula em DESENHO-trilhas.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 26x em minuscula em ESTADO-ATUAL.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 20x em minuscula em RASCUNHO-expansao-sem-barreira.md
+  ~  "Fonte" (entrega de catalogo) tambem e palavra comum: 7x em minuscula em levantamento-ritmo-fora-do-projeto.md
+  ~  "Coleira" (entrega de catalogo) tambem e palavra comum: 3x em minuscula em 13-legados.md
+  Nenhum nome batizado carrega dois significados dentro do projeto.
+
+========================================================================================
+3. COLISAO FRACA — o nome fica a uma letra de um termo do manual
+========================================================================================
+  ~  "Mirar" (entrega de catalogo) fica a uma letra de "Mira", que e Familia no manual — na mesa falada isso confunde
+  ~  "Segurar" (entrega de catalogo) fica a uma letra de "Segura", que e Melhoria no manual — na mesa falada isso confunde
+  ~  "Sangria" (entrega de catalogo) fica a uma letra de "Sangra", que e Restricao no manual — na mesa falada isso confunde
+
+========================================================================================
+4. CATEGORIA ERRADA — exemplo do projeto citando nome que nao existe la
+========================================================================================
+  Todo nome citado como Familia, Forma, Melhoria ou Restricao existe
+  na lista correspondente do manual.
+
+========================================================================================
+5. TERMO MORTO VIVO — nome aposentado fora de nota historica
+========================================================================================
+  ACEITA  Canalizador          em 06-caminhos-e-trilhas.md
+          motivo: a secao 1 desta peca e justamente a que explica o rename
+  ACEITA  Linha de Frente      em 06-caminhos-e-trilhas.md
+          motivo: citada na linha que lista os rotulos de rascunho
+  ACEITA  Ponta de Lanca       em 06-caminhos-e-trilhas.md
+          motivo: citada na linha que lista os rotulos de rascunho
+  ACEITA  Acao de Atacar       em 06-caminhos-e-trilhas.md
+          motivo: a tabela de renomes da SS2 guarda o nome que a v0.4 escreve, e a SS3.1 cita a frase da v0.81
+  ACEITA  Acao de Atacar       em DESENHO-manhas.md
+          motivo: registro com preco da colecao anterior
+  ACEITA  Acao de Atacar       em DESENHO-trilhas.md
+          motivo: registro com preco da colecao anterior
+  ACEITA  Acao de Atacar       em ESTADO-ATUAL.md
+          motivo: as decisoes da v0.80 a v0.147, com o nome da epoca
+  ACEITA  Incapacitado         em ESTADO-ATUAL.md
+          motivo: as decisoes ate a v0.331, com o nome da epoca
+  ACEITA  Sobre Carregar Energia em ESTADO-ATUAL.md
+          motivo: as decisoes ate a v0.331, com o nome da epoca
+  ACEITA  Reencarnado          em ESTADO-ATUAL.md
+          motivo: as decisoes ate a v0.331, com o nome da epoca
+  ACEITA  Passiva Livre        em ESTADO-ATUAL.md
+          motivo: as decisoes ate a v0.331, com o nome da epoca
+  ACEITA  Classe Passiva       em ESTADO-ATUAL.md
+          motivo: as decisoes ate a v0.331, com o nome da epoca
+  ACEITA  Passivas             em ESTADO-ATUAL.md
+          motivo: as decisoes ate a v0.331, com o nome da epoca
+  ACEITA  Passiva              em ESTADO-ATUAL.md
+          motivo: as decisoes ate a v0.331, com o nome da epoca
+  ACEITA  Projeto - M          em ESTADO-ATUAL.md
+          motivo: as decisoes ate a v0.333, com o nome da epoca
+  ACEITA  Projeto M            em ESTADO-ATUAL.md
+          motivo: as decisoes ate a v0.333, com o nome da epoca
+  ACEITA  Potencia             em arquitetura.md
+          motivo: citado no aviso de cabecalho, que registra o nome antigo
+  Nenhum termo aposentado sobrou capitalizado fora de nota historica.
+
+========================================================================================
+6. TRIAGEM DE CANDIDATO — rode antes de batizar qualquer coisa
+========================================================================================
+  (nenhum. Uso: python3 conferir-nomes.py --candidatos Vulto Matilha ...)
+
+========================================================================================
+>>> TUDO OK — nenhum nome batizado colide, nenhuma categoria do manual foi
+    citada errada, e nenhum termo morto sobrou fora de nota historica.
+    46 aviso(s) acima, que nao falham o validador.

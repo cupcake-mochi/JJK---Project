@@ -15,7 +15,7 @@ O que o manual já declara, no glossário: `Ação | Padrão · Bônus · Reaç�
 |---|---|
 | Passo, Pressa, Peso Morto | **Deslocamento base.** Passo dá 6 m, Pressa dá +6 m, Peso Morto corta pela metade — de quanto? |
 | Passo, Pressa | **Ataque de oportunidade.** As duas dizem "sem provocar". Provocar o quê? |
-| Adianta | **Iniciativa.** A Melhoria dá +2 na CD se você conjurar antes de qualquer inimigo agir. |
+| Iniciativa | d20 + Destreza, com os desempates da seção 5. |
 | Fica, Mão Firme | **Concentração.** Uma exige, a outra protege de dano até 10. |
 | Parado, Atrasar | **Movimento como recurso separado.** Parado tira o movimento e mantém a ação bônus. |
 
@@ -139,6 +139,7 @@ O Talento **Mão Firme** cobre os dois, e o manual v7.6 diz isso com todas as le
 
 | O que o efeito faz | Concentrada | Duradoura |
 |---|---|---|
+| Vantagem ou desvantagem de uso único em ataque ou teste | `1` minuto | `1` minuto |
 | Condição, buff ofensivo e debuff | 1 minuto | 1 minuto |
 | Buff defensivo numérico: um bônus fixo na Defesa ou num Teste de Resistência (a `Guarda`) | 10 minutos | 1 minuto |
 | Buff defensivo mecânico: resistência, imunidade, pontos de vida ou dividir dano (a `Divide`) | 10 minutos | Classe 1 e 2: 1 hora · Classe 3: 8 horas · Classe 4 em diante: 24 horas |
@@ -337,7 +338,8 @@ Conferindo o catálogo existente contra essa régua:
 | Frágil | Leve | risco de perder o efeito | sim |
 | Tudo ou Nada | Leve | chance de zerar | sim |
 | Atrasar | Média | movimento + bônus + padrão | sim |
-| Corpo a Corpo | Média | a distância inteira, para sempre | sim |
+| Queima-Roupa (Projétil) | Média | alvos a até 1,5 m | sim |
+| Queima-Roupa (área) | Leve | origem da área em quem executa | sim |
 | Sangra | Média | vida | sim |
 | Recuo | Média | condição no corpo até o próximo turno | sim |
 | Sem Volta | Média | o próximo turno inteiro, se errar | sim |
@@ -387,28 +389,18 @@ Um item que estava aberto há duas versões se resolve escrevendo uma frase que 
 
 ## 5. Iniciativa
 
-> **Iniciativa = d20 + Destreza.** Maior age primeiro. Empate se resolve pela maior Destreza; persistindo, o jogador decide antes do inimigo.
+**Iniciativa = d20 + Destreza.** Maior age primeiro. Empate se resolve pela maior Destreza; persistindo, o jogador decide antes do inimigo.
 
-> **Uma coisa só mexe nessa conta fora da Destreza, e é a condição `Surdo`: ela dá `−2`.** *Escrita na v0.104, na peça 19 §3.7, com a conta de quanto isso custa — `9,75` pontos percentuais de agir antes, que são `2,05` pontos de Destreza.* **Se aparecer uma segunda coisa que mexa na iniciativa, ela passa por aqui antes**, porque duas fontes de modificador sem ninguém somando é como o `Adianta` viraria bônus automático.
+`Surdo` aplica −2 na iniciativa, conforme Condições. O dado mantém a ordem incerta mesmo entre personagens com atributos diferentes.
 
-A parte que exige explicação é por que **rolada** e não fixa.
+| Sua Destreza | Destreza do inimigo | Probabilidade de agir antes |
+|---|---|---|
+| 3 | 3 | 52,5% |
+| 4 | 3 | 57,25% |
+| 6 | 3 | 66% |
+| 3 | 5 | 38,25% |
 
-Iniciativa fixa — a ordem simplesmente sendo a Destreza — é tentadora num sistema de cinco a sete mestres: uma rolagem a menos, ordem previsível, ficha auditável. Mas ela quebra uma peça que já existe.
-
-**A Melhoria Adianta** dá +2 na CD se você conjurar antes de qualquer inimigo agir na rodada. Com iniciativa fixa, um conjurador de Destreza alta **sempre** age antes, e Adianta vira +2 permanente por 2 pontos. Isso é exatamente o teste do bônus automático falhando: um bônus que a montagem óbvia sempre alcança não é bônus, é a linha de base com um passo a mais.
-
-Com iniciativa rolada, Adianta é uma aposta: você paga por algo que costuma acontecer e às vezes não. O preço passa a fazer sentido.
-
-**A conta de quanto Adianta vale:**
-
-| sua Destreza | Destreza do inimigo | você age antes | efeito médio de Adianta |
-|---|---|---|---|
-| 3 | 3 | 52% | 5,2 pp |
-| 4 | 3 | 57% | 5,7 pp |
-| 6 | 3 | 66% | 6,6 pp |
-| 3 | 5 | 38% | 3,8 pp |
-
-O +2 na CD vale 10 pontos percentuais quando dispara, e ele dispara na maioria das rodadas mas não em todas. O efeito médio fica entre 4 e 7 pontos percentuais, por um preço Médio — **abaixo do que uma Média costuma entregar**, e vale acompanhar no playtest. Com iniciativa fixa seriam 10 pp garantidos, e aí o preço estaria errado no outro sentido.
+A antiga comparação de preço com Adianta está preservada no registro histórico da integração R53. O catálogo atual usa Precisão e seus próprios gatilhos.
 
 ## 6. A regra que fecha o turno
 
@@ -434,6 +426,11 @@ O Fundamento já tem, e ela é a regra de ouro nº 6:
 
 - **Se ação bônus deve existir mesmo.** Ela é a mais herdada das quatro, e a que mais custa em tempo de mesa: todo turno, todo jogador pergunta "tenho alguma coisa de ação bônus?". Duas peças do Fundamento dependem dela (Rápido e Parado). Vale medir no playtest quantos turnos realmente usam uma.
 - **Quantas reações por rodada.** Uma é o padrão, e quatro coisas competem por ela: ataque de oportunidade, a Melhoria Reação e os Talentos Contramedida e Reforço. Competir é bom — vira escolha. Mas se na prática ninguém nunca tiver reação sobrando, os Talentos de reação ficam mortos.
-- **O valor real de Adianta** (seção 5). Entre 4 e 7 pontos percentuais de efeito médio, abaixo do que uma Média costuma entregar.
+- **Iniciativa rolada** (seção 5), com probabilidades conferidas e modificador de Surdo.
 
 *Resolvido e tirado daqui:* o ataque de oportunidade **é ataque físico, rolado como ataque comum e pago com a Reação** — e um conjurador faz um normalmente, com soco ou arma. Conjurar na Reação continua exigindo a Melhoria Reação. A conta está na peça 4, seção 6.
+
+
+### Sobrecusto na R53
+
+Sobrecusto acrescenta **2 × a Classe usada em PE**, pagos na própria conjuração. O adicional é integral mesmo com redução ou dispensa do custo normal. Sem custo adicional positivo, não concede devolução. A devolução Média só recupera pontos pagos em Melhorias. Toque concede sua própria devolução Leve fora das vagas; Aura custa Leve. Queima-Roupa ocupa uma vaga e mantém as modalidades descritas no livro.

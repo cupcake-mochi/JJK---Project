@@ -98,7 +98,7 @@ O teto não é o problema. **O problema é quantas vezes ele acontece**, e aí e
 
 *As rolagens por período saem das âncoras que já existem:* combate de 3,4 a 4,0 rodadas na peça 1, e três lutas de graça por dia na peça 10.
 
-**A âncora de preço é a Melhoria Adianta.** A peça 3 mediu ela em **4 a 7 pontos percentuais** de efeito médio, por um **preço Médio** — preço de verdade, pago dentro do feitiço. Um Legado custa zero. O denominador dos dois não é idêntico, mas a ordem de grandeza é a mesma, e ela diz uma coisa desconfortável:
+**Comparação histórica:** a antiga âncora de preço usava Adianta, retirada do catálogo na R53. A peça 3 mediu ela em **4 a 7 pontos percentuais** de efeito médio, por um **preço Médio** — preço de verdade, pago dentro do feitiço. Um Legado custa zero. O denominador dos dois não é idêntico, mas a ordem de grandeza é a mesma, e ela diz uma coisa desconfortável:
 
 > **"Por cena" com gatilho largo entrega de graça o que uma Média entrega paga.**
 

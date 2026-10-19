@@ -77,7 +77,7 @@ Ordenados por carga: quanto o resto do sistema depende deles. Os quatro primeiro
 
 **3.3 · Defesa e iniciativa.** "+2 de defesa" existe como Melhoria sem que defesa exista como número. Iniciativa nunca aparece.
 
-**3.4 · O que se rola fora de combate.** Perícia, teste social, investigação. O Fundamento tem a Forma Efeito para feitiço fora de combate, mas nada para o personagem sem feitiço na mão.
+**3.4 · O que se rola fora de combate.** Perícia, teste social, investigação. O Fundamento tem o procedimento de Efeito fora de combate, mas nada para o personagem sem feitiço na mão.
 
 ### Carga média — o sistema roda sem, mas fica manco
 

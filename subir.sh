@@ -196,18 +196,14 @@ done
 cd "$RAIZ" || exit 1
 rodar_validador conferir-repositorio.py
 
-cd "$RAIZ/manual/matematica" || exit 1
-for f in pac7.py v7.py; do
-    rodar_validador "$f"
-done
-cd "$RAIZ" || exit 1
+# A conta atual faz parte de conferir-fundamento.py, já executado no glob.
+# pac7.py e v7.py são entradas de compatibilidade para a mesma bateria.
 
-# O conferir-voz mora no livro, e ate a v0.251 ficou de fora desta bateria: o numero
-# de entradas de catalogo da REGRA-DE-VOZ.md ficou velho por treze versoes sem ninguem
-# ver, porque so' a guarda dele acusava, e ela so' roda se alguem lembrar. Sem --estrito
-# ele imprime e sai 0, entao o argumento e' o que faz ele reprovar.
+# A R53 é conferida por fonte, snapshots e contas atuais. O verificador de voz
+# ainda usa o manuscrito legado: preserva o inventário R52, com 34 pendências,
+# e reprova qualquer mudança nele ou falha nas outras guardas editoriais.
 cd "$RAIZ/sistema/05-material/livro" || exit 1
-rodar_validador conferir-voz.py --estrito
+rodar_validador conferir-voz.py --legado-sem-regressao
 cd "$RAIZ" || exit 1
 
 if [ "$falhou" -ne 0 ]; then

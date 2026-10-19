@@ -1,0 +1,406 @@
+{
+  "estado": "concluído",
+  "revisao": "R53",
+  "versao_repositorio": "0.366",
+  "data_utc": "2026-10-19T03:12:43.352813+00:00",
+  "clone_atual": "/home/mizuki/JJK-v0.341-para-subir",
+  "base_sistema": "e593ba8cf24ce6bbd2f517f5431a73a96610e02b",
+  "entrega_publicada": "cdc91a0446304c9def2a2e862b11fd32e0d894c0",
+  "resultado": {
+    "validadores_de_regras": 28,
+    "comandos_bateria": 30,
+    "falhas": 0,
+    "verificacoes_especificas_fundamento": 216,
+    "testes_integridade_e_regressao_legada": [
+      {
+        "teste": "controle",
+        "rejeitou": false,
+        "resultado": "passou"
+      },
+      {
+        "teste": "cabeçalho",
+        "rejeitou": true,
+        "resultado": "passou"
+      },
+      {
+        "teste": "corpo",
+        "rejeitou": true,
+        "resultado": "passou"
+      },
+      {
+        "teste": "bloco retirado",
+        "rejeitou": true,
+        "resultado": "passou"
+      },
+      {
+        "teste": "registro incompleto",
+        "rejeitou": true,
+        "resultado": "passou"
+      },
+      {
+        "teste": "voz legado preservado",
+        "codigo": 0,
+        "resultado": "passou"
+      },
+      {
+        "teste": "voz legado com novo achado",
+        "codigo": 1,
+        "resultado": "passou"
+      }
+    ],
+    "testes_entradas_compatibilidade_e_cli": [
+      {
+        "comando": "pac7.py",
+        "codigo": 0,
+        "escopo": "Entrada de compatibilidade, mesma bateria do Fundamento"
+      },
+      {
+        "comando": "v7.py",
+        "codigo": 0,
+        "escopo": "Entrada de compatibilidade, mesma bateria do Fundamento"
+      },
+      {
+        "teste": "exemplo",
+        "codigo": 0,
+        "resultado": "passou"
+      },
+      {
+        "teste": "saldo excedido",
+        "codigo": 1,
+        "resultado": "passou"
+      },
+      {
+        "teste": "campo antigo",
+        "codigo": 1,
+        "resultado": "passou"
+      },
+      {
+        "teste": "JSON inválido",
+        "codigo": 1,
+        "resultado": "passou"
+      },
+      {
+        "teste": "arquivo ausente",
+        "codigo": 1,
+        "resultado": "passou"
+      }
+    ]
+  },
+  "bateria": [
+    {
+      "arquivo": "conferir-acao.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-acao.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.11,
+      "log": "publicacao-conferir-acao.py.log"
+    },
+    {
+      "arquivo": "conferir-alma.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-alma.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.47,
+      "log": "publicacao-conferir-alma.py.log"
+    },
+    {
+      "arquivo": "conferir-aptidoes.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-aptidoes.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.57,
+      "log": "publicacao-conferir-aptidoes.py.log"
+    },
+    {
+      "arquivo": "conferir-atributos.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-atributos.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.16,
+      "log": "publicacao-conferir-atributos.py.log"
+    },
+    {
+      "arquivo": "conferir-bestiario.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-bestiario.py"
+      ],
+      "codigo": 0,
+      "segundos": 1.17,
+      "log": "publicacao-conferir-bestiario.py.log"
+    },
+    {
+      "arquivo": "conferir-bloquear.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-bloquear.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.21,
+      "log": "publicacao-conferir-bloquear.py.log"
+    },
+    {
+      "arquivo": "conferir-catalogo.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-catalogo.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.67,
+      "log": "publicacao-conferir-catalogo.py.log"
+    },
+    {
+      "arquivo": "conferir-criacao.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-criacao.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.11,
+      "log": "publicacao-conferir-criacao.py.log"
+    },
+    {
+      "arquivo": "conferir-dano.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-dano.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.16,
+      "log": "publicacao-conferir-dano.py.log"
+    },
+    {
+      "arquivo": "conferir-descanso.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-descanso.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.07,
+      "log": "publicacao-conferir-descanso.py.log"
+    },
+    {
+      "arquivo": "conferir-equipamento.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-equipamento.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.37,
+      "log": "publicacao-conferir-equipamento.py.log"
+    },
+    {
+      "arquivo": "conferir-expansao.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-expansao.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.27,
+      "log": "publicacao-conferir-expansao.py.log"
+    },
+    {
+      "arquivo": "conferir-ferramenta.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-ferramenta.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.12,
+      "log": "publicacao-conferir-ferramenta.py.log"
+    },
+    {
+      "arquivo": "conferir-ficha.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-ficha.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.32,
+      "log": "publicacao-conferir-ficha.py.log"
+    },
+    {
+      "arquivo": "conferir-fundamento.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-fundamento.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.92,
+      "log": "publicacao-conferir-fundamento.py.log"
+    },
+    {
+      "arquivo": "conferir-invocacoes.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-invocacoes.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.37,
+      "log": "publicacao-conferir-invocacoes.py.log"
+    },
+    {
+      "arquivo": "conferir-legados.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-legados.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.11,
+      "log": "publicacao-conferir-legados.py.log"
+    },
+    {
+      "arquivo": "conferir-manual.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-manual.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.32,
+      "log": "publicacao-conferir-manual.py.log"
+    },
+    {
+      "arquivo": "conferir-marcial.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-marcial.py"
+      ],
+      "codigo": 0,
+      "segundos": 35.99,
+      "log": "publicacao-conferir-marcial.py.log"
+    },
+    {
+      "arquivo": "conferir-nomes.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-nomes.py"
+      ],
+      "codigo": 0,
+      "segundos": 34.79,
+      "log": "publicacao-conferir-nomes.py.log"
+    },
+    {
+      "arquivo": "conferir-objeto.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-objeto.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.17,
+      "log": "publicacao-conferir-objeto.py.log"
+    },
+    {
+      "arquivo": "conferir-orcamento.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-orcamento.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.16,
+      "log": "publicacao-conferir-orcamento.py.log"
+    },
+    {
+      "arquivo": "conferir-pactos.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-pactos.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.21,
+      "log": "publicacao-conferir-pactos.py.log"
+    },
+    {
+      "arquivo": "conferir-pericias.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-pericias.py"
+      ],
+      "codigo": 0,
+      "segundos": 1.37,
+      "log": "publicacao-conferir-pericias.py.log"
+    },
+    {
+      "arquivo": "conferir-progressao.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-progressao.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.06,
+      "log": "publicacao-conferir-progressao.py.log"
+    },
+    {
+      "arquivo": "conferir-ritual.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-ritual.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.11,
+      "log": "publicacao-conferir-ritual.py.log"
+    },
+    {
+      "arquivo": "conferir-sem-tecnica.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-sem-tecnica.py"
+      ],
+      "codigo": 0,
+      "segundos": 34.74,
+      "log": "publicacao-conferir-sem-tecnica.py.log"
+    },
+    {
+      "arquivo": "conferir-xp.py",
+      "argumentos": [
+        "sistema/03-mecanica/conferir-xp.py"
+      ],
+      "codigo": 0,
+      "segundos": 0.11,
+      "log": "publicacao-conferir-xp.py.log"
+    },
+    {
+      "arquivo": "conferir-repositorio.py",
+      "argumentos": [
+        "conferir-repositorio.py"
+      ],
+      "codigo": 0,
+      "segundos": 11.14,
+      "log": "publicacao-conferir-repositorio.py.log"
+    },
+    {
+      "arquivo": "conferir-voz.py",
+      "argumentos": [
+        "sistema/05-material/livro/conferir-voz.py",
+        "--legado-sem-regressao"
+      ],
+      "codigo": 0,
+      "segundos": 0.72,
+      "log": "publicacao-conferir-voz.py.log"
+    }
+  ],
+  "reexecucoes_apos_revisao": [
+    {
+      "arquivo": "conferir-dano.py",
+      "codigo": 0,
+      "motivo": "Conferir quantidade de condições entre a entrada do catálogo e a lista, com a redação R53."
+    },
+    {
+      "arquivo": "conferir-manual.py",
+      "codigo": 0,
+      "motivo": "Preservar a exigência de duração diferente da ficha para a condição."
+    }
+  ],
+  "integridade": {
+    "paginas": 411,
+    "blocos": 576,
+    "registros_antes_depois": 202,
+    "sha256_texto": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+    "pdf_claro_sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+    "pdf_noturno_sha256": "5d9ab8468c25741b5de2b29ec8864decf917138f1b5a25e2a89a7500c002c35a",
+    "pdfs_identicos_aos_publicados": true
+  },
+  "verificacoes_estaticas": {
+    "compilacao_python": "passou",
+    "sintaxe_subir_sh": "passou",
+    "sintaxe_valida_sh": "passou",
+    "git_diff_check": "passou"
+  },
+  "avisos_e_limites": [
+    "O verificador de voz usa o manuscrito legado. Há 34 pendências preexistentes, comprovadas na base R52. O modo legado exige inventário idêntico e mantém as demais guardas; --estrito continua reprovando essas pendências. Esse resultado não certifica a voz da R53.",
+    "A conferência do repositório mantém 37 avisos de referências históricas/locais e contagem de lista branca. Não há referência pendurada na entrega nem checagem pulada na bateria.",
+    "A conta comum cobre Classes 1 a 7, orçamento, bases, acessos e parcelas. Requisitos, compatibilidade narrativa e resolução de cada peça exigem revisão. Classe 0 e máximas têm procedimentos próprios.",
+    "Os comandos de compatibilidade repetem a mesma bateria de Fundamento e não representam verificações independentes.",
+    "Os PDFs e as regras aprovadas da R53 não foram alterados nesta tarefa. A cadeia anterior de composição permanece histórica; não foi validada a reprodução integral da R53 por ela.",
+    "A ficha digital segue no outro chat. A cópia antiga da pasta Claude 2, com modificações locais anteriores, ficou intacta."
+  ],
+  "mudancas": [
+    "Leitor do catálogo por metadados, com 62 opções em 61 entradas de Melhorias, 19 Restrições e 18 Talentos.",
+    "Bases de função, distribuição de pontos e limites de cura e vida temporária.",
+    "Descontos distintos de entidades, Controle, Toque, Aura, Queima-Roupa e Sobrecusto.",
+    "Interfaces de rotas, Emanador, Ritual e entidades conferidas contra os blocos finais.",
+    "Guarda da fonte integral, snapshots e registro antes/depois.",
+    "Entrada JSON, comandos de compatibilidade e arquivo histórico dos modelos anteriores.",
+    "Auxiliares de validação atualizados, com execução em série e detecção de falha."
+  ]
+}

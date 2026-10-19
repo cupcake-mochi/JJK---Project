@@ -1,5 +1,10 @@
 MATEMÁTICA — Fundamento v7.41
 
+ATUALIZAÇÃO R53: as entradas pac7.py e v7.py executam conferir-fundamento.py.
+O validador-feiticos.py recebe uma montagem comum em JSON e confere sua conta.
+As instruções abaixo descrevem a matemática histórica do manual congelado.
+
+
   v7.py                  valida a economia de PE, os limites por Classe, o teto, o
                          gatilho de Controle, a Técnica Máxima recarregável e a
                          Integridade (taxa 2:1, teto na alma, estágios). Roda a

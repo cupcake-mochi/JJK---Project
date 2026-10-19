@@ -443,17 +443,17 @@ E "mais fácil depois do primeiro" sem teto é a espiral da exaustão com o sina
 ### Energia Reversa · Categoria de Efeito 3 · refino 7 e nível 14
 
 > **Ação padrão. Gaste até `maior Classe` de PE e recupere `1d8` de vida por PE gasto, em você.**
-> **E ela é o requisito de todo uso ofensivo de energia reversa** — a Forma `Cura` do manual só fere maldição na mão de quem tem esta aptidão, e sem ela apontar aquele feitiço num inimigo não produz nada.
+> **E ela é o requisito de todo uso ofensivo de energia reversa** — a função de cura direta do manual só fere maldição na mão de quem tem esta aptidão, e sem ela apontar aquele feitiço num inimigo não produz nada.
 
 *Ela estava na lista das que faltavam desde a v0.27 e fechou na v0.77, quando a Trilha `Sutura` do Guia precisou dela para existir.*
 
 #### Ferir maldição — escrito na v0.194, e o número não é desta peça
 
-**Energia positiva machuca maldição, e o manual v7.20 é o dono da regra:** *a Forma `Cura` pode escolher um alvo hostil, e ali ela pede rolagem de acerto em vez de ser automática; contra maldição os dados viram dano com `50%` a mais.*
+**Energia positiva machuca maldição, e o livro atual é o dono da regra:** *a função de cura direta pode escolher um alvo hostil, e ali ela pede rolagem de acerto em vez de ser automática; contra maldição os dados viram dano com `50%` a mais.*
 
 > **Os `50%` não são bônus, e é por isso que eles não precisaram ser escolhidos.** *A cura já rende **dois terços** do dano da mesma Classe, nas sete — e `2/3 × 1,5 = 1`.* **Somar metade em cima devolve exatamente a linha de dano daquela Classe**, e nenhum número novo entra no sistema.
 
-**A rota nunca é a melhor escolha, e isso é o que a segura.** *Ela custa a `Média` da Forma, e um `Projétil` custa zero e fere qualquer coisa.* **Ela existe para o feitiço de cura não ser inútil contra maldição — não para ser arma.**
+**A rota nunca é a melhor escolha, e isso é o que a segura.** *Ela custa a base `Média` da função, e um `Projétil` custa zero e fere qualquer coisa.* **Ela existe para o feitiço de cura não ser inútil contra maldição — não para ser arma.**
 
 ***Decisão do Mizuki na v0.194: esta aptidão é o requisito.*** **Sem ela, uma técnica focada em cura já feriria maldição sem nunca passar por aqui** — e aí a aptidão viraria enfeite para quem cura. *Com ela como porta, os dois usos ficam pendurados na mesma compra.*
 
@@ -1431,7 +1431,7 @@ A cena é a das tabelas da Cesta e do Simples: a Expansão com o refino típico 
 - **A ordem no marco (A02, A03).** *Aplique primeiro o aumento básico de refino do marco, depois resolva a escolha; com duas escolhas, resolva-as em ordem, e o requisito vale quando cada uma é adquirida — nunca por uma compra que só viria depois. É o que preserva as dez escolhas da rota que sempre investe em Refino.*
 - **`Cobrir-se` tira também o equipamento (A05).** *Amortecer um golpe deixa você sem a proteção da própria aptidão, a do Traje ou Revestimento e a do escudo, até o fim do próximo turno; os outros componentes da Defesa ficam, e a base de Bloquear dos ataques seguintes é atualizada.*
 - **`Canalizar` e o feitiço (A07, A08).** *Vale para ataque com arma e desarmado. A exclusão é do ataque que carrega um feitiço de dano, inclusive de Classe `0`; outro ataque da mesma rodada segue as próprias regras, e conjurar em outro momento do turno não apaga o dano dos demais.*
-- **`Energia Reversa` (A13, A14, A15).** *Cura você; para outra criatura precisa de uma permissão que mude o alvo. O Corpo Amaldiçoado não recupera vida com ela nem com cura feita a partir dela, e os reparos estão na Origem. Ela é requisito do feitiço da Forma Cura contra maldição (a exceção de §6 `Ferir maldição`); por contato, exige permissão expressa de alcançar outra criatura.*
+- **`Energia Reversa` (A13, A14, A15).** *Cura você; para outra criatura precisa de uma permissão que mude o alvo. O Corpo Amaldiçoado não recupera vida com ela nem com cura feita a partir dela, e os reparos estão na Origem. Ela é requisito do feitiço da função de cura direta contra maldição (a exceção de §6 `Ferir maldição`); por contato, exige permissão expressa de alcançar outra criatura.*
 - **`Circulação` (A16).** *Reconstruir uma parte exige Ação Padrão e o limite inteiro de PE, e não recupera vida; a opção de Ação Bônus serve só à cura em `d4`.*
 - **`Kokusen Melhorado` (A17).** *Role dois `d100` e use o menor; se os dois falharem, o bônus acumulado sobe `+2` uma vez só, e sucesso não o apaga antes do descanso longo.*
 - **Proteções contra domínio (A18).** *A ativação custa a maior Classe e a primeira manutenção; depois a manutenção sai no começo de cada turno seu, e sem pagar a proteção termina antes dos outros efeitos desse começo de turno. Pode encerrar sem ação; ficar `Inconsciente` encerra.*

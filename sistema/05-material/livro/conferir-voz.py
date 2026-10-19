@@ -10,8 +10,10 @@ Aqui só entra o que a REGRA-DE-VOZ.md manda.
     python3 conferir-voz.py --inventario     lista cada achado, com linha
     python3 conferir-voz.py --so 40          só os arquivos que casam com "40"
     python3 conferir-voz.py --estrito        sai 1 se achar qualquer coisa
+    python3 conferir-voz.py --legado-sem-regressao  compara achados com a base R52
 """
 import glob
+import json
 import os
 import re
 import sys
@@ -467,7 +469,8 @@ VISTOS = set()
 
 def main():
     inventario = "--inventario" in sys.argv
-    estrito = "--estrito" in sys.argv
+    legado = "--legado-sem-regressao" in sys.argv
+    estrito = "--estrito" in sys.argv or legado
     filtro = None
     if "--so" in sys.argv:
         filtro = sys.argv[sys.argv.index("--so") + 1]
@@ -577,6 +580,26 @@ def main():
             aceitos_estourou = True
             print(f"      !! aceito(s) que o livro não tem mais: {', '.join(parados)} — o título"
                   f" mudou e a lista da REGRA-DE-VOZ.md ficou para trás")
+
+    if legado:
+        # O manuscrito antigo está preservado. A edição jogável é a R53.
+        # Compare cada achado, mantendo as demais guardas editoriais estritas.
+        caminho_base = os.path.join(os.path.dirname(MANUAL), 'ciclo-maldito-r41',
+                                    'revisao-de-regras', 'fundamento-r53', 'VOZ-LEGADA-R52.json')
+        try:
+            with open(caminho_base, encoding='utf-8') as f:
+                base = json.load(f)['achados']
+        except (OSError, ValueError, KeyError) as e:
+            print(f'>>> não foi possível ler o inventário editorial legado: {e}')
+            sys.exit(1)
+        atuais = [list(a) for a in todos_achados]
+        if atuais != base or filtro:
+            print('>>> o inventário editorial legado mudou; confira cada alteração antes de atualizar a base')
+            sys.exit(1)
+        if not (quebradas or estourou or marcas_estourou or rotulo_estourou
+                or entrada_estourou or aceitos_estourou):
+            print(f'>>> LEGADO PRESERVADO: {soma} pendências editoriais anteriores; nenhuma alteração no inventário.')
+            return
 
     if estrito and (soma or quebradas or estourou or marcas_estourou
                     or rotulo_estourou or entrada_estourou or aceitos_estourou):

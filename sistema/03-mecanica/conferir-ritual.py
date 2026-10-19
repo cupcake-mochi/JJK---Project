@@ -146,7 +146,7 @@ else:
         print(f'      {m} nao entra com `{r}`')
 
 # ---------------------------------------------------------------- 6
-bloco('6. A MATRIZ FORMA x MELHORIA — as dez Formas aparecem')
+bloco('6. A MATRIZ FORMA x MELHORIA — as seis Formas aparecem')
 formas = list(dict.fromkeys(_livro.formas()))
 print(f'  {len(formas)} Forma(s) no Fundamento do livro: {", ".join(formas)}')
 faltam = [f for f in formas if f not in txt]
@@ -154,11 +154,10 @@ if faltam:
     erro(f'6: a peca 27 nao nomeia {len(faltam)} Forma(s): {", ".join(faltam)}')
 else:
     ok(f'a peca nomeia as {len(formas)} Formas do Fundamento')
-if 'Efeito` NÃO ritualiza' in txt or 'Efeito** | não ritualiza' in txt or 'não ritualiza' in txt:
-    ok('a peca declara qual Forma fica de fora, em vez de deixar o buraco calado')
-else:
-    erro('6: nenhuma Forma e declarada fora do ritual. Se todas entram, diga isso; '
-         'se alguma nao entra, escreva qual e por que')
+if 'Funções e Formas' not in txt or 'são funções da aplicação' not in txt:
+    erro('6: a peça precisa distinguir funções e as seis Formas')
+if any('`'+n+'` |' in txt for n in ['Cura','Apoio','Onda','Efeito']):
+    erro('6: função voltou à matriz de Formas')
 
 # ---------------------------------------------------------------- 7
 bloco('7. A PECA E O LIVRO — as mesmas Melhorias dos dois lados')

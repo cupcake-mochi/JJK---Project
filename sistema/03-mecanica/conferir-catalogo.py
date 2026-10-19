@@ -64,6 +64,8 @@ PECAS_ESPERADAS = 27   # 19 ate a v0.121; a peca 20 entrou na v0.122, a 21 na v0
                        # na v0.168, a 26, o Bestiario, na v0.198, e a 27, o Ritual,
                        # na v0.262 — decidida na v0.259 e escrita tres versoes depois
 
+VALIDADORES_ESPERADOS = 28  # A conferência de Fundamento é transversal às peças.
+
 PECA  = ler(os.path.join(AQUI, '17-catalogo-de-entregas.md'))
 TRI   = ler(os.path.join(RAIZ, 'DESENHO-trilhas.md')).split('\n')
 CAM   = ler(os.path.join(RAIZ, 'DESENHO-caminhos.md'))
@@ -317,7 +319,7 @@ if not contradizem:
 
 # ================================================================ 7. CONTAGEM
 print('\n' + '=' * 88)
-print(f'7. CONTAGEM — a pasta tem {PECAS_ESPERADAS} pecas e {PECAS_ESPERADAS} validadores')
+print(f'7. CONTAGEM — a pasta tem {PECAS_ESPERADAS} pecas e {VALIDADORES_ESPERADOS} validadores')
 print('=' * 88)
 pecas = sorted(f for f in os.listdir(AQUI) if re.match(r'^\d\d-.*\.md$', f))
 vals  = sorted(f for f in os.listdir(AQUI) if re.match(r'^conferir-.*\.py$', f))
@@ -325,10 +327,10 @@ print(f'  pecas na pasta      : {len(pecas)}')
 print(f'  validadores na pasta: {len(vals)}')
 if len(pecas) != PECAS_ESPERADAS:
     erro('7', f'a pasta tem {len(pecas)} pecas e o limite de design diz {PECAS_ESPERADAS}')
-if len(vals) != PECAS_ESPERADAS:
-    erro('7', f'a pasta tem {len(vals)} validadores e o limite de design diz {PECAS_ESPERADAS}')
-if len(pecas) == len(vals) == PECAS_ESPERADAS:
-    print('  [x] peca e validador andam em par, e o par bate com o numero declarado.')
+if len(vals) != VALIDADORES_ESPERADOS:
+    erro('7', f'a pasta tem {len(vals)} validadores e o limite de design diz {VALIDADORES_ESPERADOS}')
+if len(pecas) == PECAS_ESPERADAS and len(vals) == VALIDADORES_ESPERADOS:
+    print('  [x] as contagens de peças e validadores batem com os totais declarados.')
 
 # ================================================================ 8. COPIAS
 print('\n' + '=' * 88)

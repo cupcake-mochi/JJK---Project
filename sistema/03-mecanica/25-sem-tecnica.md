@@ -136,13 +136,13 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 ### 4.4 A `Energia Reversa` fere maldição — fechado na v0.194, e o dono é o manual
 
-***Decisão do Mizuki:*** **energia positiva machuca maldição.** *A regra mora no manual v7.20, na Forma `Cura`, e esta peça só aponta: a Forma pode escolher um alvo hostil, ali ela pede rolagem de acerto em vez de ser automática, e contra maldição os dados viram dano com `50%` a mais.*
+***Decisão do Mizuki:*** **energia positiva machuca maldição.** *A regra mora no manual v7.20, na função de cura direta, e esta peça só aponta: a Forma pode escolher um alvo hostil, ali ela pede rolagem de acerto em vez de ser automática, e contra maldição os dados viram dano com `50%` a mais.*
 
 **O `50%` não foi escolhido — ele é o que desfaz o desconto da cura.** *A cura rende **dois terços** do dano da mesma Classe nas sete, e `2/3 × 1,5 = 1`.* **Somar metade em cima devolve a linha cheia daquela Classe, e nenhum número novo entra no sistema.**
 
 ***E o requisito é a aptidão `Energia Reversa`.*** **Sem ela, uma técnica focada em cura já feriria maldição sem nunca passar pela aptidão** — *e aí ela viraria enfeite para quem cura.* **Com ela como porta, os dois usos ficam pendurados na mesma compra.**
 
-> **A rota nunca é a melhor escolha, e é isso que a segura.** *Ela custa a `Média` da Forma, e um `Projétil` custa zero e fere qualquer coisa.* **Ela existe para o `Manejo` de cura não ser inútil contra maldição, e não para ser arma.**
+> **A rota nunca é a melhor escolha, e é isso que a segura.** *Ela custa a base `Média` da função, e um `Projétil` custa zero e fere qualquer coisa.* **Ela existe para o `Manejo` de cura não ser inútil contra maldição, e não para ser arma.**
 >
 > **E ferir com a APTIDÃO, fora do `Manejo`, pede que ela já alcance os outros** — hoje isso é o `Enxerto` da Trilha `Sutura`, no nível 11 dela. *A energia tem de sair do corpo antes de tocar em alguém, e curar a si mesmo não prova isso.*
 >
@@ -182,7 +182,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > **E ela mora AQUI e não na `Sutura`, e isso é a peça 9 §1 decidindo.** *Aquela seção diz, sobre por que a Origem não dá atributo: "amarrar número à origem criaria **a origem certa para cada montagem**".* **Pendurar o buff na Trilha do Guia faria `Sem Técnica` virar a Origem certa para todo `Sutura`.** *Na máquina da rota, ele vale para quem tem a semente, tenha pegado `Sutura` ou não — e quem pegar as duas empilha, como qualquer um empilha Trilha.*
 
-> **⚠⚠ O que fica de fora da criação é curar os outros PELA APTIDÃO, e não curar os outros.** *Corrigido na v0.194, e a distinção estava perdida em três lugares desta peça.* **Pelo FEITIÇO qualquer um cura um aliado a até 9 m** — é a Forma `Cura` do manual, e ela é livre para quem não fechou a Família `Amparo`. *O que a Trilha `Sutura` vende, no `Enxerto` do nível 11, é curar os outros **sem gastar espaço de feitiço**.*
+> **⚠⚠ O que fica de fora da criação é curar os outros PELA APTIDÃO, e não curar os outros.** *Corrigido na v0.194, e a distinção estava perdida em três lugares desta peça.* **Pelo FEITIÇO qualquer um cura um aliado a até 9 m** — é a função de cura direta do manual, e ela é livre para quem não fechou a Família `Amparo`. *O que a Trilha `Sutura` vende, no `Enxerto` do nível 11, é curar os outros **sem gastar espaço de feitiço**.*
 >
 > **A aptidão nunca foi a porta da cura de terceiro: ela é a cura que não custa lista.** *O levantamento explica por que a rota da aptidão é cara — só três pessoas na obra inteira curam os outros com energia reversa, e o Gojo não consegue —, e isso vale para aquela rota, não para o `Manejo`.*
 
@@ -279,7 +279,7 @@ A terceira linha é a que faz esta peça caber sem furar nada. **O `arquitetura.
 
 > **⚠ Este exemplo carrega uma decisão, e ela vale estar escrita: um Fundamento pode não causar dano nenhum.** *O manual já permite — a Forma `Apoio` não causa, e a `Efeito` também não — mas nenhum dos três Fundamentos prontos dele mostra isso.* **Uma rota cuja porta mais famosa é uma médica precisava do exemplar.**
 
-*E a cura dele soma `1/3 do refino`, pelo §6.* **Curar os outros ele FAZ, e a ficha acima já mostra como:** *`Amparo` está entre as Livres dele, então ele monta um `Manejo` com a Forma `Cura` e alcança um aliado a até 9 m, como qualquer um que não fechou aquela Família.*
+*E a cura dele soma `1/3 do refino`, pelo §6.* **Curar os outros ele FAZ, e a ficha acima já mostra como:** *`Amparo` está entre as Livres dele, então ele monta um `Manejo` com a função de cura direta e alcança um aliado a até 9 m, como qualquer um que não fechou aquela Família.*
 
 > ***⚠ Esta linha dizia o contrário, e ela contradizia a própria ficha quatro linhas acima.*** *Ela mandava o `Sutura Fria` pegar o Guia e a `Sutura` para curar terceiro.* **O que a `Sutura` vende é curar os outros PELA APTIDÃO, sem gastar espaço de `Manejo`** — e a semente dele cura só ele mesmo, que é outra coisa. *Corrigido na v0.194.*
 
@@ -331,7 +331,7 @@ O `conferir-sem-tecnica.py` roda **treze checagens**, e nenhum valor de regra fi
 **Em aberto:**
 
 - ~~**A `Pétala` como quarta porta.**~~ ***DECIDIDA na v0.190: ela vira porta***, e a linha está na tabela do §4.2. *O que falta é o texto dela e o exemplo — decisão tomada, escrita pendente.*
-- ~~**`Energia Reversa` contra maldição — DECIDIDA na v0.190, e por escrever.**~~ **Escrita na v0.194**, e o dono é o manual: a Forma `Cura` pode escolher alvo hostil, com `50%` a mais, e o requisito é a própria aptidão. *Os três números que este item pedia saíram todos — a base do `50%` está no §4.4, a aptidão de liberação não existe (a `Energia Reversa` é a porta), e o preço é a `Média` da Forma.*
+- ~~**`Energia Reversa` contra maldição — DECIDIDA na v0.190, e por escrever.**~~ **Escrita na v0.194**, e o dono é o manual: a função de cura direta pode escolher alvo hostil, com `50%` a mais, e o requisito é a própria aptidão. *Os três números que este item pedia saíram todos — a base do `50%` está no §4.4, a aptidão de liberação não existe (a `Energia Reversa` é a porta), e o preço é a base `Média` da função.*
 - **Nenhum `Manejo` publicado.** *Esta peça entrega a máquina e dois Fundamentos de exemplo; ela não abre catálogo de `Manejo` pronto, do mesmo jeito que o manual entrega três Fundamentos prontos e não uma lista fechada de feitiços.*
 - ~~**O texto de mesa.** *Como toda peça de `03-mecanica/`, esta é nota de design.* **O capítulo do livro sai dela.**~~ **Fechado na v0.170:** é o capítulo 11 do livro, logo depois da Técnica Marcial. *O livro foi de `17` para `18` capítulos, e a seção `Sem Técnica` do capítulo de Origens virou ponteiro.*
 
@@ -339,7 +339,7 @@ O `conferir-sem-tecnica.py` roda **treze checagens**, e nenhum valor de regra fi
 
 *Migração das Rotas do livro reconstruído (passo 5b do `PLANO.md`), a parte da Sem Técnica.* **O que mudou de número está no §6: o bônus de autocura vai a `+4` no refino `10`.** *O resto é lacuna fechada:*
 
-- **Curar (R10-07, R10-09).** *O `Manejo` de Forma Cura pode curar um aliado disposto a até `9 m`, desde que o Amparo esteja disponível e a cura seja coerente com a semente; a aptidão `Energia Reversa` só envia a terceiros se outra regra permitir. `Energia Reversa` e as curas construídas a partir dela não recuperam o Corpo Amaldiçoado; o reparo é da Origem. Contra maldição, o Manejo usa o procedimento de `Ferir maldições`, e o bônus de autocura não entra nesse dano.*
+- **Curar (R10-07, R10-09).** *O `Manejo` de função de cura direta pode curar um aliado disposto a até `9 m`, desde que o Amparo esteja disponível e a cura seja coerente com a semente; a aptidão `Energia Reversa` só envia a terceiros se outra regra permitir. `Energia Reversa` e as curas construídas a partir dela não recuperam o Corpo Amaldiçoado; o reparo é da Origem. Contra maldição, o Manejo usa o procedimento de `Ferir maldições`, e o bônus de autocura não entra nesse dano.*
 - **`Pétala` (R10-06).** *A quarta semente voltou ao livro, com o exemplo `Espinho`: Manejos reativos e próximos do corpo, sem ataque distante independente do contato.*
 - **Sementes (R10-31).** *A semente `Domínio Simples` remete à entrada da aptidão, que tem o voto do iniciante, em vez de repetir o deslocamento e o abandono dele.*
 - **Exemplos (R10-27).** *`Recomposição` (Categoria de Efeito `2`) exige o nível `7` e dois espaços, e os tipos de dano dos exemplos são Cortante, Concussão e Força.*

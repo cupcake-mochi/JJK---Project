@@ -1,0 +1,37 @@
+[
+  {
+    "comando": "pac7.py",
+    "codigo": 0,
+    "escopo": "Entrada de compatibilidade, mesma bateria do Fundamento"
+  },
+  {
+    "comando": "v7.py",
+    "codigo": 0,
+    "escopo": "Entrada de compatibilidade, mesma bateria do Fundamento"
+  },
+  {
+    "teste": "exemplo",
+    "codigo": 0,
+    "resultado": "passou"
+  },
+  {
+    "teste": "saldo excedido",
+    "codigo": 1,
+    "resultado": "passou"
+  },
+  {
+    "teste": "campo antigo",
+    "codigo": 1,
+    "resultado": "passou"
+  },
+  {
+    "teste": "JSON inválido",
+    "codigo": 1,
+    "resultado": "passou"
+  },
+  {
+    "teste": "arquivo ausente",
+    "codigo": 1,
+    "resultado": "passou"
+  }
+]

@@ -45,7 +45,8 @@ RESTRICOES = {
     'Fragil':        ('Leve',  {'risco_perder_efeito'},                      'ate o proximo'),
     'Tudo ou Nada':  ('Leve',  {'chance_de_zerar'},                          'na hora'),
     'Atrasar':       ('Media', {'movimento', 'acao_bonus', 'acao_padrao'},   'este turno'),
-    'Corpo a Corpo': ('Media', {'distancia'},                                'permanente'),
+    'Queima-Roupa (Projétil)': ('Media', {'distancia_alvo'},                                'permanente'),
+    'Queima-Roupa (área)': ('Leve', {'origem_area'}, 'permanente'),
     'Sangra':        ('Media', {'vida'},                                     'na hora'),
     'Recuo':         ('Media', {'corpo_condicao_menor'},                     'ate o proximo'),
     'Sem Volta':     ('Media', {'proximo_turno_inteiro'},                    'condicional'),
@@ -83,7 +84,7 @@ for a, b in itertools.permutations(RESTRICOES, 2):
         print(f'     {b}: {sorted(rb)}')
         print(f'     {a}: {sorted(ra)}')
 if not achou:
-    print('  Nenhum par estritamente dominado. As 11 Restricoes cabem na regua.')
+    print('  Nenhum par estritamente dominado nas modalidades de recursos analisadas.')
 
 print()
 print('=' * 92)
@@ -101,7 +102,7 @@ print('  Nenhuma Leve consome o turno inteiro; nenhuma Media custa menos que um 
 
 print()
 print('=' * 92)
-print('4. ADIANTA — quanto vale, e por que a iniciativa precisa ser rolada')
+print('4. INICIATIVA — probabilidade na ordem rolada')
 print('=' * 92)
 D20 = soma([20])
 
@@ -117,17 +118,11 @@ def ganha_iniciativa(minha_des, dele_des):
     return p / 400
 
 
-print(f"  {'Destreza sua':<14}{'Destreza dele':<16}{'age antes':<12}{'valor medio de Adianta'}")
-for md, dd in [(3, 3), (4, 3), (6, 3), (3, 5)]:
+for md, dd, esperado in [(3,3,0.525),(4,3,0.5725),(6,3,0.66),(3,5,0.3825)]:
     p = ganha_iniciativa(md, dd)
-    print(f'  {md:<14}{dd:<16}{p*100:>8.0f}%    {p*10:>10.1f} pp de efeito')
-print()
-print('  Com iniciativa FIXA (ordem = Destreza), quem tem Destreza maior age antes')
-print('  em 100% das rodadas: Adianta vira +2 permanente por preco Medio.')
-print('  Isso e o teste do bonus automatico falhando. Por isso a iniciativa e rolada.')
-fixa = 1.0
-if fixa * 10 <= 10 * ganha_iniciativa(4, 3):
-    erro('iniciativa fixa nao tornaria Adianta automatica — reveja o argumento')
+    print(f'  Destreza {md} contra {dd}: {p:.2%} de agir antes')
+    if abs(p-esperado)>1e-10:
+        erro(f'iniciativa {md}/{dd}: {p} difere da referência {esperado}')
 
 print()
 print('=' * 92)
@@ -216,7 +211,7 @@ else:
 
 print()
 print('=' * 92)
-print('5. A `Divida` — o mesmo numero nas duas publicacoes, e sem o desvio do Classe 0')
+print('5. SOBRECUSTO — adicional integral na própria conjuração')
 print('=' * 92)
 # ⚠ Este validador NAO abria o manual, e a peca 14 registra isso como divida:
 # "a faixa de cada Restricao esta escrita a mao dentro dele, e ele cobre 11 das
@@ -237,47 +232,15 @@ except (livro.LivroMudou, OSError) as _e5:
     erro(f'nao consegui ler o Catalogo do livro — {_e5}. As checagens 5, 6, 8 e 9 nao rodaram')
 
 if _CAT:
-    _cel = _CAT.get('Dívida', {}).get('texto', '').strip()
-    if not _cel:
-        erro('a `Divida` sumiu das Restricoes do Catalogo do livro')
-    else:
-        _mdoc = _re.search(r'(\d+) × a Classe usada neste feitiço', _cel)
-        _dobro = 'o dobro de energia' in _cel
-        if _dobro:
-            erro('o livro voltou a dizer "o dobro de energia" na `Divida` — o dobro de '
-                 'um feitico de Classe 0 e ZERO, e a Restricao se esquiva com o golpe '
-                 'que o proprio Fundamento manda usar para poupar PE')
-        elif not _mdoc:
-            erro(f'nao achei o multiplicador da `Divida` no livro: "{_cel[:70]}"')
-        else:
-            _n = int(_mdoc.group(1))
-            _md = open(_MD, encoding='utf-8').read()
-            # ⚠ a palavra `Dívida` aparece TRES vezes neste capitulo — a linha da
-            # tabela, a lista de Restricoes de frequencia e a trava de combinacao.
-            # Pegar "a primeira ocorrencia" le a lista, nao a regra. Casa a LINHA
-            # inteira da tabela, que e a unica que carrega o multiplicador.
-            _mmd = _re.search(r'^\|\s*`Dívida`\s*\|[^|]*\|([^|]*)\|\s*$', _md, _re.M)
-            _linha_md = _mmd.group(1) if _mmd else ''
-            _mmd = _re.search(r'`(\d+) ×` a Classe deste feitiço', _linha_md) if _mmd else None
-            if not _mmd:
-                erro('o 40-fundamento.md nao publica o multiplicador da `Divida` na forma '
-                     'que esta checagem le — um numero, um dono')
-            elif int(_mmd.group(1)) != _n:
-                erro(f'a `Divida` e {_n}x no livro e {_mmd.group(1)}x no 40-fundamento.md')
-            elif 'Classe 0' not in _cel or 'Classe 0' not in _linha_md:
-                erro('a `Divida` parou de dizer que vale mesmo num feitico de Classe 0 — '
-                     'sem essa frase o desvio de graca volta')
-            else:
-                # a ancora: uma `Media` devolve 1 x Classe, e o cap. 40 escreve que
-                # duas `Media` batem no teto de 2 x Classe. Cobrar MENOS do que
-                # devolve faria a Restricao pagar para ser levada.
-                if _n < 1:
-                    erro(f'a `Divida` cobra {_n}x a Classe e uma `Media` DEVOLVE 1x — '
-                         'ela passaria a dar mais do que tira')
-                else:
-                    print(f'  [x] a `Divida` cobra {_n} x a Classe do proprio feitico, o '
-                          f'livro e o 40-fundamento.md concordam, e os dois dizem que ela '
-                          f'vale mesmo num Classe 0.')
+    _cel = livro.limpa(_CAT.get('Sobrecusto', {}).get('texto', ''))
+    _mdoc = _re.search(r'(\d+) × a Classe usada em PE adicionais', _cel)
+    if not _mdoc or int(_mdoc[1]) != 2:
+        erro('5: Sobrecusto precisa cobrar 2 × a Classe na própria conjuração')
+    for _frase in ('pagos na própria conjuração', 'mesmo quando houver redução ou dispensa do custo normal',
+                   'Não concede devolução quando o adicional seria zero'):
+        if _frase not in _cel:
+            erro('5: Sobrecusto perdeu exigência: ' + _frase)
+    print('  [x] Sobrecusto tem adicional próprio, pago integralmente no uso')
 
     # v0.221: a MESMA frase morava na `Sobrecarga`, e esta checagem so' olhava a
     # `Divida`. La ela dizia "o feitico dele custa o dobro de energia" — ZERO contra
@@ -703,6 +666,7 @@ def _dur8_classes(cel, cls):
 
 
 def _chave8(rotulo):
+    if 'uso único' in rotulo: return 'uso_unico'
     for _k in ('Condição', 'numérico', 'mecânic'):
         if _k in rotulo:
             return _k

@@ -650,17 +650,16 @@ try:
     _dano_l = livro.texto('dano')
     _cat_l = livro.texto('catalogo')
     _man = livro.condicoes()
-    _treze = re.search(r'uma das (\w+) condições compráveis', livro.limpa(_cat_l))
+    _treze = re.search(r'uma das (\w+) condições', livro.limpa(livro.catalogo()['Condição']['texto']))
 except (livro.LivroMudou, OSError) as _e4:
     _man, _treze = {}, None
     erro(f'4: nao consegui ler as condicoes do livro — {_e4}')
 _EXTENSO = {'doze': 12, 'treze': 13, 'catorze': 14, 'quatorze': 14, 'quinze': 15}
 if _man:
     if not _treze or _treze.group(1) not in _EXTENSO:
-        erro('4: o Catalogo do livro parou de dizer quantas condicoes a Melhoria `Condição` compra')
+        erro('4: a entrada Condição precisa informar quantas condições podem ser compradas')
     elif sum(len(v) for v in _man.values()) != _EXTENSO[_treze.group(1)]:
-        erro(f'4: as tres secoes do livro somam {sum(len(v) for v in _man.values())} condicoes e '
-             f'o Catalogo dele diz {_treze.group(1)}')
+        erro('4: a quantidade de condições diverge entre a entrada e o catálogo de condições')
     else:
         # os nomes E os niveis vem DA PECA, e nao de lista escrita aqui dentro:
         # uma checagem que se mede contra a propria constante sai verde na
@@ -706,18 +705,11 @@ if _man:
 
     # v0.104: a Melhoria e' uma so, e as duas de antes nao existem mais. No livro, o
     # preco de cada Melhoria e' a primeira frase embaixo do titulo dela.
-    _mel = {t: livro.limpa(c) for t, c in re.findall(r'^## (Condição(?: Menor| Maior)?)\s*\n\s*\n([^\n]+)', _cat_l, re.M)}
-    _velhas = sorted(m for m in _mel if m != 'Condição')
-    if _velhas:
-        erro('4: o livro ainda vende ' + ', '.join(_velhas)
-             + ' — a v0.104 fundiu as duas na Melhoria Condição')
-    elif 'Condição' not in _mel:
-        erro('4: nao achei a Melhoria Condição no Catalogo do livro')
-    elif not _mel['Condição'].startswith('Preço: Nível da condição.'):
-        erro(f'4: a Melhoria Condição do livro cobra "{_mel["Condição"][:40]}" e a peca §3.6 diz '
-             'que o preco e o nivel da condicao')
-    else:
-        print('  [x] o livro vende UMA Melhoria Condição, e o preco dela e o nivel')
+    _mel = livro.catalogo().get('Condição')
+    if not _mel or _mel['preco'] != 'Nível da condição':
+        erro('4: Condição precisa cobrar o nível da condição escolhida')
+    if {'Condição Menor', 'Condição Maior'} & set(livro.catalogo()):
+        erro('4: condições antigas separadas voltaram ao catálogo')
 
     # v0.104: o -2 na iniciativa do Surdo mora em TRES lugares — a tabela de mesa
     # desta peca, o livro e a peca 3 §5, que e' a dona da formula da iniciativa.

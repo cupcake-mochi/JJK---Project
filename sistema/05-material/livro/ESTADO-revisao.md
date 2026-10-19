@@ -1,3 +1,7 @@
+# Integração R53 concluída
+
+O catálogo atual é o da R53, aprovado pelo autor em 18/10/2026. A conferência 12 usa os snapshots R52 e R53 e o registro completo de alterações aprovado pelo autor. As modalidades de preço e as peças retiradas estão documentadas nesse registro. As comparações abaixo pertencem ao histórico das edições anteriores.
+
 # Estado da revisão · Manual da Guilda
 
 ## Oitava passada — v0.219, 07/09/2026

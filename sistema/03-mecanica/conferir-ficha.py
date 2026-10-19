@@ -620,8 +620,8 @@ else:
     # v0.338: o alcance do Projetil sai da tabela de Alcance e area do Fundamento do livro (era o
     # partC.js do gerador do manual do Fundamento v7, que saiu de fonte)
     import livro as _livro
-    _pc = '\n'.join(f"|{r['Forma']}|{r['Classes 1 a 5']}|" for r in
-                     _livro.tabela(_livro.texto('fundamento'), 'Forma', 'Classe 0', 'Classes 1 a 5'))
+    _pc = '\n'.join(f"|{'Projétil' if r['Medida básica'].startswith('Projétil') else r['Medida básica']}|{r['Classes 1 a 5']}|" for r in
+                     _livro.tabela(_livro.texto('fundamento'), 'Medida básica', 'Classe 0', 'Classes 1 a 5'))
     _PT = {'um': 1, 'uma': 1, 'dois': 2, 'duas': 2, 'três': 3, 'quatro': 4, 'cinco': 5, 'seis': 6}
     _pares7 = (
         ('quantas Intervencoes por luta', r'const INTERVENCOES = (\d+)', _js, r'O inimigo com `Intervenção` carrega (\w+) por luta', _md,
@@ -793,7 +793,7 @@ try:
 except _livro8.LivroMudou:
     _fam_livro = None
 _mfam = _fam_livro
-_mqtd = re.search(r"se dividem em (\w+) Famílias", _livro8.limpa(_livro8.texto('fundamento')))
+_mqtd = re.search(r"(?:se dividem em|resumo das) (\w+) Famílias", _livro8.limpa(_livro8.texto('fundamento')))
 _fam_ficha = lista_js('FAMILIAS')
 if not _mfam or not _mqtd:
     erro('8: nao achei a tabela de Familias no Fundamento do livro, ou a frase que diz quantas '

@@ -1,4 +1,14 @@
-# Migração da candidata para as peças — v0.365, 15/10/2026
+# Validadores locais atualizados para R53
+
+A edição corrente tem 411 páginas. O clone do sistema recebeu o texto final, os dois PDFs publicados e o registro de 202 blocos alterados. O leitor do catálogo acompanha Família e preço por entrada, incluindo modalidades de Longe e Maior. A conferência de Fundamento usa exemplos numéricos, rejeições e contratos de rotas e entidades. A revisão do repositório confere o texto final contra o snapshot e todo o antes/depois da integração.
+
+As entradas matemáticas antigas chamam a conferência atual. Os modelos anteriores estão no arquivo histórico. A ficha digital está sendo atualizada em outro chat; o pedido da linha Função foi repassado por prompt. Esta rodada altera os validadores do sistema/livro e suas fontes.
+
+Relatório da execução: `05-material/livro/ciclo-maldito-r41/revisao-de-regras/fundamento-r53/VALIDACAO-LOCAL.json`.
+
+As seções anteriores abaixo preservam a cronologia da migração.
+
+# Migração da candidata para as peças — v0.366, 15/10/2026
 
 **R52, v0.365:** o autor corrigiu a permissão de personalizar marcantes. Só menores e Legados de história recebem essa criação geral; o ramo Restrição corporal conserva sua criação específica. Livro, PDF, resumo da peça 9 e verificação 10.10 acompanham a correção. A ficha digital é tratada nos outros chats, por decisão dele de 15/10/2026; esta rodada publica somente o sistema/livro.
 
@@ -288,7 +298,7 @@
 
 Atualizado em 30/09/2026, na v0.330 (última peça fechada: **Ritual**, a peça 27, na v0.262, com o `conferir-ritual.py` e sete checagens; antes dela, o **Bestiário**, a peça 26, na v0.198; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.365.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e sete validadores**.
+**Versão v0.366.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e oito validadores**.
 
 **Continuidade atual:** resistência pontual aprovada e integrada em Claude 2; o próximo ensaio está em `bestiario/05-sukuna/ENSAIO-integracao-grade-v286.md`. PV-base aprovado como referência da cura e das partes destrutíveis; no nível 30, cura de ação 78 e partes de 157 PV. Sukuna concluído na v0.287, com a política de débito corrente aprovada. O planejamento das Invocações virou o primeiro lote de desenvolvimento, no HD, e deu os §§47 a 109 da v0.288 à v0.325; a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas (o que sobe a básica, abre Famílias e dá Livres) e a volta do capítulo ao livro, que é decisão dele; o traje, o talismã em campo e o que a entidade carrega fecharam na v0.328 (§§111 a 113), e o que ela leva quando sai de campo na v0.330 (§114); a fila do sistema fechou a cura da Origem `Corpo Amaldiçoado` na v0.326 (o mesmo reparo das invocações, no descanso curto) o peso na v0.327 (o talismã pesa `0,5` de `Volume`, e cada leve vale `0,1`, sem arredondar) e a imunidade dela a `Envenenado` na v0.329, sem medição; o que sobra na fila é o que já estava aberto antes. O histórico abaixo permanece para consulta.
 
@@ -1507,6 +1517,7 @@ Arredondamento       = para o lado que não te favorece. Custo sobe, ganho desce
 | `03-mecanica/conferir-bestiario.py` | as **onze** checagens da peça 26, e nenhum valor de regra mora dentro dela. *A 2 é a que decide a peça: ela não guarda a Defesa nem a CD do inimigo — reconstrói as duas das fórmulas da peça 1 §5 e cobra que elas devolvam, do lado do inimigo, os mesmos `50%` a `55%` de acerto e `65%` de resistência que a peça 1 §6 publica do lado do jogador.* **A 5 não guarda o câmbio: ela roda a simulação de fogo concentrado aqui dentro**, nos seis níveis da tabela do manual |
 | `03-mecanica/27-ritual.md` | **o Ritual**: a escada de `2 · 6 · 10` pontos, a CD que rola `Ocultismo` contra `8` + Classe − Destreza, a lista própria de dezesseis, e a matriz Forma × Melhoria. *A peça inverte a regra da obra — o padrão do sistema é omitir, e ritualizar é desfazer a omissão.* |
 | `03-mecanica/conferir-ritual.py` | as **sete** checagens da peça 27. *A `5` é a que ele pediu: ela não julga se a Melhoria anula Restrição — exige que cada uma DECLARE com quais ela não entra, inclusive "nenhuma". Pega erro de omissão, e achou a segunda trava na primeira rodada.* |
+| `03-mecanica/conferir-fundamento.py` | as **oito** frentes de conferência da R53: fonte, preços, funções, acessos, proximidade, Controle, entidades e integridade da edição. As contas esperadas e rejeições são executadas na mesma bateria. |
 | `05-material/gerador-ficha/` | o gerador da ficha (Node: `node make.js`), e os dois `.docx` que ele produz |
 | `05-material/gerador-inimigo/` | **o gerador do bloco de inimigo** (Node: `node make.js`), e o `bloco-de-inimigo.docx` de quatro páginas que ele produz — as tabelas que o mestre copia, o bloco em branco e um exemplo preenchido. *O `dados.js` dele não é autoridade de nada: o bloco `7` do `conferir-ficha.py` compara com a peça 26* |
 | `conferir-repositorio.py` | a árvore, as referências mortas, os números que moram em mais de um documento, os **ponteiros de seção** — todo `peça N §M` citado tem de apontar para seção que existe, desde a v0.54 —, o **mapa** desta tabela contra a pasta, a **entrega** contra a fonte, a **pendência morta** desde a v0.100 — nenhum item de "Em aberto" pode pedir coisa que já existe —, e, **desde a v0.102**, a **contagem de checagens de cada validador, lida do código** |

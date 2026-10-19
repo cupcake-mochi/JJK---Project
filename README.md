@@ -2,17 +2,18 @@
 
 **O sistema se chama `Ciclo Maldito`** desde a v0.334, o nome do livro final do Mizuki. *Até ali era `Projeto - M`, batizado na v0.94 — a pendência mais velha que existia aqui, aberta na v0.1.* Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.365** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e sete validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.366** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e oito validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 
-## O livro: Ciclo Maldito
+## O livro Ciclo Maldito
 
-**[Ciclo Maldito — Livro de regras (PDF, 397 páginas)](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é o livro principal do sistema, por decisão do Mizuki. *Desde a v0.365 é a edição R52. Ela corrige a personalização das Origens: menores e Legados de história podem ser criados; marcantes seguem as opções publicadas, com a criação específica da Restrição corporal preservada. A edição R51 da v0.364 é a base: a R41 da v0.341 (o R28a com a diagramação nova em duas colunas e com a revisão de regras que ele fez item a item entre 07 e 09/10/2026) mais a regra de que a `Promessa` não ocupa vaga de pacto (R42, v0.354), a de que Bloquear é escolhido antes da rolagem de acerto (R43, v0.357) e os onze itens fechados em 12/10/2026 (R44): reparo, criação de entidades, exemplos e régua de pacto, pacto temporário como Reação, Melhorias de Ritual que repetem e o teto da Cortina por Refino. Por cima disso vieram as Origens refeitas, com uma marcante e duas menores por Origem (R45), um título acertado (R46) e a ordem do anúncio do Ataque sem Prenúncio (R47). O R48 e o R49 mudam só a diagramação. O R50 traz o Morrendo, a regra nova da vida a zero, e o R51 acerta a `Recomposição` em 4 × a maior Classe.* O texto completo, as fontes dos capítulos, os scripts do gerador e os registros da revisão estão em [`ciclo-maldito-r41/`](sistema/05-material/livro/ciclo-maldito-r41/LEIA-ME.md).
+**[Ciclo Maldito R53, livro completo com 411 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os dois PDFs são idênticos aos publicados na Vercel. Seus hashes ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
 
-> **Desde a v0.346 é o R41 que os validadores leem, desde a v0.354 o R42, desde a v0.357 o R43, desde a v0.359 o R44, desde a v0.360 o R46, desde a v0.361 o R47, desde a v0.363 o R50, desde a v0.364 o R51 e desde a v0.365 o R52, na mesma pasta `ciclo-maldito-r41/`.** *A revisão devolveu ao valor da v0.331 várias regras que o livro reconstruído tinha mudado, e fechou regra nova (arma, uniforme e carga sem a Força pedida, a Reação de `Cobrir-se de Energia`, as Bênçãos `Represália` e `Sangue Frio`).* **As regras novas que tinham peça entraram nas peças da v0.343 à v0.345;** *as que não têm peça (Fundamento, Catálogo, Invocações) passaram a valer para os validadores quando a fonte trocou.* *Faltam os capítulos que ainda não migraram (Dano, Regras gerais, Poderes avançados, Ritual e Pactos); o que cada decisão pede está no [inventário](sistema/05-material/livro/planejamento-editorial/migracao-pos-candidata/INVENTARIO-REVISAO-R41.md), e a lista decidida em [`MUDANCAS-DE-REGRA.md`](sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/MUDANCAS-DE-REGRA.md).*
+A R53 integra o Fundamento aprovado, as funções separadas das seis Formas, o catálogo e as dependências em rotas, Emanador, Ritual e entidades. A vida temporária individual paga base Leve. Toque concede sua devolução Leve fora das vagas; Aura custa Leve; Queima-Roupa tem devolução por modalidade. Os leitores e as contas locais usam essa edição.
 
-O livro reconstruído (a candidata, abaixo) foi a fonte dos validadores da v0.337 à v0.345 e fica guardado como estava; os PDFs `Projeto-M-Manual-da-Guilda*` da mesma pasta são a edição v0.331, também guardada.
+O texto final fica em `sistema/05-material/livro/ciclo-maldito-r41/LIVRO-COMPLETO.md`. O nome dessa pasta foi conservado para os leitores existentes. Os registros de integração estão em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/fundamento-r53/` e `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R52-para-R53.json`, dentro dela. A R52 e as revisões anteriores continuam no histórico do Git.
 
+O validador de montagem é `sistema/03-mecanica/conferir-fundamento.py`. Ele cobre contas e interfaces da R53. Os comandos antigos `pac7.py` e `v7.py` são entradas de compatibilidade para a mesma conferência e são executados uma única vez na bateria. O validador avulso recebe JSON em `manual/matematica/validador-feiticos.py`. Os modelos antigos ficam em `sistema/99-arquivo/matematica-fundamento-anterior-r53/`. O verificador editorial do manuscrito antigo conserva um inventário de 34 pendências da R52 e reprova mudanças nele; esse resultado não certifica a voz da R53.
 
 ## Livro reconstruído — candidata revisada em 4 de outubro de 2026
 
@@ -82,7 +83,7 @@ Depois disso, a ordem de leitura é a da próxima seção, e os validadores são
     ├── 00-fundacao/                     os três pilares e as restrições do projeto
     ├── 01-pesquisa/                     dossiê de metodologia — a seção 8 lista as dez travas
     ├── 02-esqueleto/                    arquitetura: subsistemas e como se encaixam
-    ├── 03-mecanica/                     as vinte e sete peças de regra e os vinte e sete validadores
+    ├── 03-mecanica/                     as vinte e sete peças de regra e os vinte e oito validadores
     ├── 04-playtest/                     a Mesa 1, medida na v0.215 — a primeira sessão
     ├── 05-material/                     a ficha (e o gerador dela) e o livro/, o Manual da Guilda completo
     ├── 99-arquivo/                      material morto, com LEIA-ME próprio
@@ -112,13 +113,14 @@ O hábito continua, porque é o que o `subir.sh` faz e é o que o resto da docum
 ```bash
 cd sistema/03-mecanica
 python3 conferir-atributos.py     # acerto, defesa, TR, perícia, vida, PE máximo, deriva
-python3 conferir-acao.py          # régua das Restrições, dominância, Adianta
+python3 conferir-acao.py          # recursos, Restrições, Sobrecusto e duração
 python3 conferir-pericias.py      # quadro de perícias, listas de Caminho e Origem, colisão
 python3 conferir-descanso.py      # piso, exaustão, arredondamento, magnitude, empilhamento
 python3 conferir-nomes.py         # todo nome batizado, projeto → manual
 python3 conferir-manual.py        # vocabulário e números importados, manual → projeto
 python3 conferir-aptidoes.py      # a trava do refino, as três rotas do marco, o kokusen
 python3 conferir-expansao.py      # os gates da Expansão, a ordem, o preço em espaços
+python3 conferir-fundamento.py   # montagem R53, funções, Formas, mesclas e entidades
 python3 conferir-orcamento.py     # o somatório: todos os drenos de PE ao mesmo tempo
 python3 conferir-xp.py           # a curva, o abismo que fecha, e a faixa que a Guilda pediu
 python3 conferir-equipamento.py  # o fundo de cada arma, a dominancia, o teto de Defesa
@@ -177,7 +179,7 @@ jjk               # o atalho que entra nesta pasta
 ./subir.sh "v0.28 — tabela de XP"
 ```
 
-Ele roda **todos os validadores** — os de `03-mecanica/`, o `conferir-repositorio.py`, os dois de `manual/matematica/` e o `conferir-voz.py --estrito` do livro —, mostra o que mudou, commita e dá push, e **se recusa a commitar se algum falhar**. *Quantos são, exatamente, está na linha de versão no topo deste arquivo, e só lá — este parágrafo já disse "dezoito" e "quinze" enquanto eram dezenove e dezesseis, porque contagem copiada envelhece na versão seguinte (lição nº 9).*
+Ele roda **todos os validadores** — os de `03-mecanica/`, o `conferir-repositorio.py`, o `conferir-voz.py --estrito` do livro e o conferidor de repositório. As entradas matemáticas antigas já convergem para a conferência de Fundamento —, mostra o que mudou, commita e dá push, e **se recusa a commitar se algum falhar**. *Quantos são, exatamente, está na linha de versão no topo deste arquivo, e só lá — este parágrafo já disse "dezoito" e "quinze" enquanto eram dezenove e dezesseis, porque contagem copiada envelhece na versão seguinte (lição nº 9).*
 
 ### A entrega: o `subir.sh` copia, e você commita
 

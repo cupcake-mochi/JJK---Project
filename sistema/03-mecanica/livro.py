@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Leitura do livro que é o dono do Fundamento: o R41 desde a v0.346, e antes dele,
+"""Leitura da edição atual, R53. Os identificadores R41 são mantidos por compatibilidade.
+
+O R41 passou a ser fonte na v0.346; antes dele,
 da v0.337 à v0.345, o livro reconstruído (a candidata).
 
 Até a v0.336 sete validadores abriam o manual do Fundamento v7 (`.docx`). No passo 5
@@ -78,6 +80,8 @@ DOC_R41 = {
     'pericias': 'pericias', 'equipamento': 'equip', 'progressao': 'progressao',
     'fundamento': 'fundamento', 'catalogo': 'catalogo', 'aptidoes': 'aptidoes',
     'rotas': 'rotas', 'poderes': 'poderes', 'ritual': 'ritual', 'consulta': 'consulta',
+    'invocacoes': 'campo', 'construcao': 'construcao',
+    'emanador': 'emanador', 'evocador': 'evocador',
 }
 _CACHE_R41 = {}
 SOBE_R41 = 2
@@ -233,6 +237,8 @@ def catalogo():
         Própria e o Talento Próprio, que são página inteira.
     """
     txt = texto('catalogo')
+    if any(pid.startswith('melhoria-') for pid, _, _ in paginas(txt)):
+        return _catalogo_r53(txt)
     pags = paginas(txt)
     fam_de = {}
     for linha in tabela(txt, 'Família', 'O que você encontra'):
@@ -298,6 +304,76 @@ def catalogo():
     return saida
 
 
+def _catalogo_r53(txt):
+    """Cada entrada da R53 declara Família e preço no próprio bloco.
+
+    A entrada conjunta Concentrada / Duradoura fornece duas opções nomeadas.
+    Talentos conservam suas categorias e títulos próprios. Falta de metadados
+    em uma entrada conhecida é erro, inclusive se a contagem total continuar alta.
+    """
+    saida = {}
+    categoria = None
+
+    def poe(nome, dados):
+        if nome in saida:
+            raise LivroMudou(f'entrada duplicada no Catálogo: {nome}')
+        saida[nome] = dados
+
+    for pid, titulo, corpo in paginas(txt):
+        cabecalho = re.search(r'^(#+) (.+)$', corpo, re.M)
+        if cabecalho:
+            titulo = limpa(cabecalho[2])
+        if pid.startswith(('melhoria-', 'restricao-')):
+            hs = re.findall(r'^#+ (.+)$', corpo, re.M)
+            if not hs:
+                raise LivroMudou(f'entrada sem título: {pid}')
+            nome = limpa(hs[0])
+            tipo = 'Melhoria' if pid.startswith('melhoria-') else 'Restrição'
+            rotulo = 'Preço' if tipo == 'Melhoria' else 'Devolução'
+            mp = re.search(r'\*\*' + rotulo + r': (.+?)\*\*', corpo)
+            mf = re.search(r'\*\*Família: (.+?)\.\*\*', corpo)
+            modalidades = {}
+            if not mp and tipo == 'Melhoria':
+                for linha in tabela(corpo, 'Modalidade', 'Preço'):
+                    modalidades[linha['Modalidade']] = linha['Preço']
+            if (not mp and not modalidades) or (tipo == 'Melhoria' and not mf):
+                raise LivroMudou(f'{pid}: falta {rotulo} ou Família')
+            preco = mp[1].rstrip('.') if mp else ' / '.join(modalidades.values())
+            familia = mf[1] if mf else None
+            if familia == 'definida com o mestre':
+                familia = None
+            nomes = nome.split(' / ')
+            if len(nomes) > 1:
+                pares = re.findall(r'([^;]+?) - (Leve|Média|Pesada)', preco)
+                if [n.strip() for n, p in pares] != nomes:
+                    raise LivroMudou(f'{pid}: preço sem correspondência com as opções')
+            else:
+                pares = [(nome, preco)]
+            for n, p in pares:
+                poe(n.strip(), {'tipo': tipo, 'preco': p, 'familia': familia,
+                                'texto': corpo, 'bloco': pid, 'modalidades': modalidades})
+        elif pid in ('cat-regra-propria', 'cat-passiva-propria'):
+            poe(titulo, {'tipo': 'Talento', 'preco': None, 'texto': corpo})
+        elif pid.startswith('cat-passiva'):
+            m = re.search(r'Categoria (\d)', titulo)
+            categoria = m[1] if m else categoria
+            if categoria is None:
+                raise LivroMudou(f'{pid}: Categoria do Talento ausente')
+            nivel = len(cabecalho[1]) if cabecalho else 2
+            for nome, prim, c in _entradas(corpo, nivel):
+                if nome != titulo:
+                    poe(nome, {'tipo': 'Talento', 'preco': categoria, 'texto': c})
+    return saida
+
+
+def por_bloco(unidade, identificador):
+    """Obtém um bloco por identidade, sem depender da redação do título."""
+    achados = [c for pid, _, c in paginas(texto(unidade)) if pid == identificador]
+    if len(achados) != 1:
+        raise LivroMudou(f'{unidade}/{identificador}: achei {len(achados)} blocos')
+    return achados[0]
+
+
 # Os dois títulos das seções de condição que não são condição. São os únicos que a
 # extração pula; um título novo qualquer entra como condição, e quem compara com a
 # peça 19 acende.
@@ -337,12 +413,14 @@ def condicoes():
 
 
 def familias():
-    return [r['Família'] for r in tabela(texto('fundamento'), 'Família', 'Aplicações')]
+    txt = texto('fundamento')
+    col = 'O que você encontra nela' if 'O que você encontra nela' in txt else 'Aplicações'
+    return [r['Família'] for r in tabela(txt, 'Família', col)]
 
 
 def formas():
-    """As Formas, das tabelas do Fundamento com as colunas Forma e Custo."""
-    achadas = [t for t in tabelas(texto('fundamento')) if t[0][:2] == ['Forma', 'Custo']]
+    """As Formas das tabelas do Fundamento, com custo em Pontos."""
+    achadas = [t for t in tabelas(texto('fundamento')) if t[0][:2] in (['Forma', 'Custo'], ['Forma', 'Pontos'])]
     if not achadas:
         raise LivroMudou('não achei as tabelas de Forma do Fundamento')
     return [linha[0] for t in achadas for linha in t[1:]]
