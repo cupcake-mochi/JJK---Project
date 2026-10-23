@@ -1,0 +1,109 @@
+{
+  "status": "hipoteses ilustrativas; nao adotadas",
+  "dias_ciclo": 7,
+  "dedicacao_basica_horas": 8,
+  "unidade_horas": 4,
+  "personagens": {
+    "Rina": {
+      "missoes": [
+        {
+          "dia": 2,
+          "inicio": 8,
+          "fim": 20,
+          "atividade": "missao"
+        }
+      ],
+      "dedicacao": [
+        {
+          "dia": 1,
+          "inicio": 14,
+          "fim": 16,
+          "atividade": "reparo"
+        },
+        {
+          "dia": 3,
+          "inicio": 14,
+          "fim": 16,
+          "atividade": "reparo"
+        },
+        {
+          "dia": 4,
+          "inicio": 10,
+          "fim": 11,
+          "atividade": "pratica"
+        },
+        {
+          "dia": 5,
+          "inicio": 10,
+          "fim": 11,
+          "atividade": "pratica"
+        },
+        {
+          "dia": 6,
+          "inicio": 14,
+          "fim": 16,
+          "atividade": "leitura"
+        }
+      ]
+    },
+    "Mei": {
+      "missoes": [],
+      "dedicacao": [
+        {
+          "dia": 1,
+          "inicio": 14,
+          "fim": 16,
+          "atividade": "arquivo"
+        },
+        {
+          "dia": 2,
+          "inicio": 10,
+          "fim": 11,
+          "atividade": "pratica"
+        },
+        {
+          "dia": 3,
+          "inicio": 10,
+          "fim": 11,
+          "atividade": "pratica"
+        },
+        {
+          "dia": 4,
+          "inicio": 14,
+          "fim": 16,
+          "atividade": "arquivo"
+        },
+        {
+          "dia": 5,
+          "inicio": 14,
+          "fim": 16,
+          "atividade": "leitura"
+        }
+      ],
+      "documentos_disponiveis": {
+        "dia": 4,
+        "hora": 9
+      }
+    }
+  },
+  "variacao_remessa_atrasada": {
+    "personagem": "Mei",
+    "chegada_dia": 8,
+    "trabalho_removido": {
+      "dia": 4,
+      "inicio": 14,
+      "fim": 16,
+      "atividade": "arquivo"
+    },
+    "politicas_comparadas": [
+      "sem acumulo",
+      "transferir apenas as 2 horas nao usadas neste caso"
+    ]
+  },
+  "variacao_missao_integral": {
+    "personagem": "Rina",
+    "intervalo_indisponivel": "todos os sete dias, longe da oficina",
+    "trabalho_projeto_horas": 0
+  },
+  "limites": "Pratica e leitura nao concedem beneficios mecanicos; hipotese sem impedimento de recuperacao; nenhuma politica permanente aprovada."
+}

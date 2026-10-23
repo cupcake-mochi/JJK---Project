@@ -1,0 +1,27 @@
+{
+  "estado": "Zero possível escolhido; frequências abaixo apenas hipóteses não aprovadas.",
+  "premissa": "Sorteios independentes. Três ou cinco sorteios são janelas de observação, não duração afirmada de combate. Não define resultados positivos nem benefício.",
+  "casos": [
+    {
+      "chance_zero": "1/4",
+      "pct_zero": 25.0,
+      "pelo_menos_um_zero_em_3": 57.8125,
+      "pelo_menos_um_zero_em_5": 76.26953125,
+      "dois_zeros_em_dois_sorteios_especificados": 6.25
+    },
+    {
+      "chance_zero": "1/6",
+      "pct_zero": 16.666666666666668,
+      "pelo_menos_um_zero_em_3": 42.129629629629626,
+      "pelo_menos_um_zero_em_5": 59.81224279835391,
+      "dois_zeros_em_dois_sorteios_especificados": 2.7777777777777777
+    },
+    {
+      "chance_zero": "1/8",
+      "pct_zero": 12.5,
+      "pelo_menos_um_zero_em_3": 33.0078125,
+      "pelo_menos_um_zero_em_5": 48.7091064453125,
+      "dois_zeros_em_dois_sorteios_especificados": 1.5625
+    }
+  ]
+}

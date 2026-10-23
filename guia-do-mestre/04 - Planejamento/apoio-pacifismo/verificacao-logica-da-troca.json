@@ -1,0 +1,34 @@
+{
+  "data": "2026-10-22",
+  "manifesto_anterior": 146,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md"
+  ],
+  "novos": [
+    "04 - Planejamento/45-logica-da-troca-do-pacifismo.md",
+    "04 - Planejamento/apoio-pacifismo/verificacao-logica-da-troca.json"
+  ],
+  "links_locais": 649,
+  "ausentes": [],
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_preservada": true,
+  "escolha": "Desenvolver ganho a partir de atuação indireta da própria capacidade no ambiente.",
+  "nao_aprovado": [
+    "Passagem de aplicação através de criaturas como benefício concreto.",
+    "Controle geral da matéria.",
+    "Novos ganhos por mortes adicionais."
+  ],
+  "pendencias": [
+    "Selecionar ficha-base.",
+    "Escrever exceção e demonstrar utilidade e limites.",
+    "Revisar suficiência da troca e demais fronteiras do Pacto."
+  ],
+  "limites": "Conferência documental e de escopo. Sem teste humano, simulação ou alteração da fonte."
+}

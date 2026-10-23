@@ -1,0 +1,283 @@
+{
+  "data": "2026-10-22",
+  "estado": "propostas, não adotadas",
+  "ritmos": [
+    {
+      "ritmo": "A_acesso_rapido",
+      "classe": 1,
+      "horas": 8,
+      "ciclos_com_28": 1,
+      "ciclos_com_20": 1,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "A_acesso_rapido",
+      "classe": 2,
+      "horas": 12,
+      "ciclos_com_28": 1,
+      "ciclos_com_20": 1,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "A_acesso_rapido",
+      "classe": 3,
+      "horas": 16,
+      "ciclos_com_28": 1,
+      "ciclos_com_20": 1,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "A_acesso_rapido",
+      "classe": 4,
+      "horas": 24,
+      "ciclos_com_28": 1,
+      "ciclos_com_20": 2,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "A_acesso_rapido",
+      "classe": 5,
+      "horas": 32,
+      "ciclos_com_28": 2,
+      "ciclos_com_20": 2,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "A_acesso_rapido",
+      "classe": 6,
+      "horas": 40,
+      "ciclos_com_28": 2,
+      "ciclos_com_20": 2,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "A_acesso_rapido",
+      "classe": 7,
+      "horas": 48,
+      "ciclos_com_28": 2,
+      "ciclos_com_20": 3,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "B_projetos_progressivos",
+      "classe": 1,
+      "horas": 8,
+      "ciclos_com_28": 1,
+      "ciclos_com_20": 1,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "B_projetos_progressivos",
+      "classe": 2,
+      "horas": 16,
+      "ciclos_com_28": 1,
+      "ciclos_com_20": 1,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "B_projetos_progressivos",
+      "classe": 3,
+      "horas": 32,
+      "ciclos_com_28": 2,
+      "ciclos_com_20": 2,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "B_projetos_progressivos",
+      "classe": 4,
+      "horas": 48,
+      "ciclos_com_28": 2,
+      "ciclos_com_20": 3,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "B_projetos_progressivos",
+      "classe": 5,
+      "horas": 72,
+      "ciclos_com_28": 3,
+      "ciclos_com_20": 4,
+      "ciclos_abrindo_com_56_depois_28": 2
+    },
+    {
+      "ritmo": "B_projetos_progressivos",
+      "classe": 6,
+      "horas": 96,
+      "ciclos_com_28": 4,
+      "ciclos_com_20": 5,
+      "ciclos_abrindo_com_56_depois_28": 3
+    },
+    {
+      "ritmo": "B_projetos_progressivos",
+      "classe": 7,
+      "horas": 128,
+      "ciclos_com_28": 5,
+      "ciclos_com_20": 7,
+      "ciclos_abrindo_com_56_depois_28": 4
+    },
+    {
+      "ritmo": "C_projetos_longos",
+      "classe": 1,
+      "horas": 16,
+      "ciclos_com_28": 1,
+      "ciclos_com_20": 1,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "C_projetos_longos",
+      "classe": 2,
+      "horas": 32,
+      "ciclos_com_28": 2,
+      "ciclos_com_20": 2,
+      "ciclos_abrindo_com_56_depois_28": 1
+    },
+    {
+      "ritmo": "C_projetos_longos",
+      "classe": 3,
+      "horas": 64,
+      "ciclos_com_28": 3,
+      "ciclos_com_20": 4,
+      "ciclos_abrindo_com_56_depois_28": 2
+    },
+    {
+      "ritmo": "C_projetos_longos",
+      "classe": 4,
+      "horas": 96,
+      "ciclos_com_28": 4,
+      "ciclos_com_20": 5,
+      "ciclos_abrindo_com_56_depois_28": 3
+    },
+    {
+      "ritmo": "C_projetos_longos",
+      "classe": 5,
+      "horas": 144,
+      "ciclos_com_28": 6,
+      "ciclos_com_20": 8,
+      "ciclos_abrindo_com_56_depois_28": 5
+    },
+    {
+      "ritmo": "C_projetos_longos",
+      "classe": 6,
+      "horas": 192,
+      "ciclos_com_28": 7,
+      "ciclos_com_20": 10,
+      "ciclos_abrindo_com_56_depois_28": 6
+    },
+    {
+      "ritmo": "C_projetos_longos",
+      "classe": 7,
+      "horas": 256,
+      "ciclos_com_28": 10,
+      "ciclos_com_20": 13,
+      "ciclos_abrindo_com_56_depois_28": 9
+    }
+  ],
+  "operacoes_B": [
+    {
+      "classe": 1,
+      "criar_h": 8,
+      "reconstruir_da_anterior_h": null,
+      "transferir_h": 2,
+      "retomar_criar_h": 2,
+      "retomar_reconstruir_h": null,
+      "retomar_transferir_h": 1
+    },
+    {
+      "classe": 2,
+      "criar_h": 16,
+      "reconstruir_da_anterior_h": 8,
+      "transferir_h": 2,
+      "retomar_criar_h": 4,
+      "retomar_reconstruir_h": 2,
+      "retomar_transferir_h": 1
+    },
+    {
+      "classe": 3,
+      "criar_h": 32,
+      "reconstruir_da_anterior_h": 16,
+      "transferir_h": 4,
+      "retomar_criar_h": 8,
+      "retomar_reconstruir_h": 4,
+      "retomar_transferir_h": 1
+    },
+    {
+      "classe": 4,
+      "criar_h": 48,
+      "reconstruir_da_anterior_h": 16,
+      "transferir_h": 6,
+      "retomar_criar_h": 12,
+      "retomar_reconstruir_h": 4,
+      "retomar_transferir_h": 2
+    },
+    {
+      "classe": 5,
+      "criar_h": 72,
+      "reconstruir_da_anterior_h": 24,
+      "transferir_h": 9,
+      "retomar_criar_h": 18,
+      "retomar_reconstruir_h": 6,
+      "retomar_transferir_h": 3
+    },
+    {
+      "classe": 6,
+      "criar_h": 96,
+      "reconstruir_da_anterior_h": 24,
+      "transferir_h": 12,
+      "retomar_criar_h": 24,
+      "retomar_reconstruir_h": 6,
+      "retomar_transferir_h": 3
+    },
+    {
+      "classe": 7,
+      "criar_h": 128,
+      "reconstruir_da_anterior_h": 32,
+      "transferir_h": 16,
+      "retomar_criar_h": 32,
+      "retomar_reconstruir_h": 8,
+      "retomar_transferir_h": 4
+    }
+  ],
+  "probabilidades_sem_especializacao_ou_outros_modificadores": [
+    {
+      "dado_minimo": 8,
+      "sucesso_normal": 0.65,
+      "sucesso_vantagem": 0.8775,
+      "falhas_ate_duas_tentativas": 0.04287500000000002,
+      "retrabalhos_esperados_hipotese_repetivel": 0.39886039886039887,
+      "multiplicador_trabalho_com_retomada_25pct": 1.0997150997150997
+    },
+    {
+      "dado_minimo": 6,
+      "sucesso_normal": 0.75,
+      "sucesso_vantagem": 0.9375,
+      "falhas_ate_duas_tentativas": 0.015625,
+      "retrabalhos_esperados_hipotese_repetivel": 0.26666666666666666,
+      "multiplicador_trabalho_com_retomada_25pct": 1.0666666666666667
+    },
+    {
+      "dado_minimo": 4,
+      "sucesso_normal": 0.85,
+      "sucesso_vantagem": 0.9775,
+      "falhas_ate_duas_tentativas": 0.003374999999999995,
+      "retrabalhos_esperados_hipotese_repetivel": 0.1534526854219949,
+      "multiplicador_trabalho_com_retomada_25pct": 1.0383631713554988
+    }
+  ],
+  "casos": {
+    "classe3_falha_e_sucesso_h": 40,
+    "classe3_ciclos_20h": 2,
+    "classe3_material_exemplo": 36000,
+    "reconstruir_1_ate_4_h": 40,
+    "criar1_e_reconstruir_ate7_h": 128,
+    "meio_tempo_reconstruir_1_ate7_h": 196.0,
+    "transferir_classe3_falha_depois_sucesso_h": 5,
+    "transferir_classe3_material_exemplo": 4000,
+    "duas_fichas_classe3_56h_cada_max_sem_falha": 2,
+    "duas_fichas_classe1_28h_cada_max_sem_falha": 6,
+    "saldo_abertura_para32h": 8
+  },
+  "limites": [
+    "Ciclos são capacidade de trabalho, não data garantida.",
+    "Cálculo probabilístico condicionado a novas tentativas sempre autorizadas, com requisitos disponíveis e mesma CD.",
+    "Não é validação de economia, diversão ou jogo humano."
+  ]
+}

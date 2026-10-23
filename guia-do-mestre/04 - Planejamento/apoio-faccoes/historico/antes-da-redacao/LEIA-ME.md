@@ -1,0 +1,42 @@
+# Primeiros textos do Guia do Mestre
+
+Rascunhos de leitura e ferramentas de mesa, iniciados em 21 de outubro de 2026. Esta pasta reúne a redação destinada ao leitor. O [planejamento](<../04 - Planejamento/01-plano-completo-do-guia.md>) conserva decisões, pesquisas e verificações.
+
+## Por onde começar
+
+1. [Mundo e cotidiano](06-mundo-e-cotidiano.md): entrada essencial sem revelações da trama, instituições, Origens e situações jogáveis. Quem conhece o mundo pode ir direto às partes práticas.
+2. [Preparar o grupo](07-preparar-o-grupo.md): proposta de campanha, relação com a obra, acordos e início do jogo.
+3. [Ficha de acordos](08-ficha-de-acordos-do-grupo.md) e [exemplo preenchido](09-exemplo-de-acordos-do-grupo.md): ferramentas para essa conversa.
+4. [Preparar uma missão](01-preparar-uma-missao.md): procedimento explicado e exemplos curtos.
+5. [Ficha de preparação](02-ficha-de-preparacao.md) e [As batidas no anexo para consulta](03-as-batidas-no-anexo-consulta.md): modelo em branco e preparo preenchido.
+6. [Conduzir uma sessão](04-conduzir-uma-sessao.md) e [folha de condução](05-folha-de-conducao.md): procedimento e lembretes de mesa.
+7. [Conduzir uma investigação](10-investigacao-em-andamento.md), [Espaço e usos criativos](11-espaco-e-usos-criativos.md) e [Registro de descobertas](12-registro-de-descobertas.md): aprofundamento da condução e continuidade da informação.
+8. [Preparar uma investigação](13-preparar-uma-investigacao.md) e [O aviso de reabertura](14-o-aviso-de-reabertura.md): procedimento e caso completo com fontes alternativas.
+9. [Ligar missões e desenvolver uma campanha](15-ligar-missoes-e-campanhas.md) e [linha de continuidade](16-linha-de-continuidade.md): resultados, possibilidades futuras e passagem entre mesas.
+10. [Piloto comentado](<../04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md>): investigação e confronto acompanhados, incluindo socorro e fechamento.
+
+A numeração dos arquivos acompanha sua criação. A ordem de leitura acima organiza a entrada atual do manuscrito e ainda poderá ser ajustada na integração.
+
+As três fichas de inimigos propostas permanecem na [base experimental com referência na R53](<../04 - Planejamento/14-base-pequena-de-inimigos-r53.md>). Os valores não foram transferidos do Bestiário antigo. A [verificação](<../04 - Planejamento/15-verificacao-da-base-e-do-piloto.md>) informa o alcance dos cálculos e simulações.
+
+As [referências da seção](REFERENCIAS.md) registram as fontes e os créditos de preparação.
+
+## Alcance desta entrega
+
+Preparar uma missão é a primeira seção em redação de C02. Campanhas, facções e arcos terão desenvolvimento próprio; este texto não encerra todo o capítulo. A numeração e a ordem dos capítulos continuam de trabalho.
+
+As orientações usam a guilda como referência frequente e também atendem campanhas fechadas. A redação foi conferida editorialmente e com os procedimentos usados da R53. Compreensão por leitores e funcionamento em mesa continuam sujeitos a avaliação com pessoas. As novas regras de treinamentos e a atualização integral do Bestiário permanecem para depois.
+
+Revisão de clareza: a seção e as duas ferramentas foram comparadas à escrita e ao método de ensino da R53. O [registro de revisão](<../04 - Planejamento/17-revisao-de-clareza-r53.md>) mostra as mudanças e seus motivos.
+
+Conduzir uma sessão inicia a redação de C03. O [registro da etapa](<../04 - Planejamento/18-conducao-e-revisao-do-conjunto.md>) informa cobertura, conferências e avaliação pendente.
+
+## Direção da próxima edição
+
+A produção seguirá até um manuscrito completo pré-1.0. Os textos atuais são partes desse manuscrito, ainda em elaboração. Revisões internas acompanham a escrita, e sugestões de leitores serão incorporadas quando chegarem. O [roteiro de produção](<../04 - Planejamento/19-roteiro-pre-1-e-modelos.md>) organiza capítulos, decisões e recomendações de modelo e esforço.
+
+O núcleo inicial de C01 reúne mundo, cotidiano e formação do grupo. Aprofundamentos específicos da obra e da sociedade jujutsu ainda terão desenvolvimento próprio; o [registro de C01](<../04 - Planejamento/20-c01-mundo-cotidiano-e-grupo.md>) informa o alcance desta redação.
+
+C03 foi ampliado com procedimentos de investigação e espaço. O [registro da ampliação](<../04 - Planejamento/21-c03-investigacao-e-espaco.md>) identifica fontes, exemplos e conferências.
+
+C02 recebeu preparação de investigações, um caso completo e ligação entre missões e campanhas. O [registro da etapa](<../04 - Planejamento/22-c02-investigacoes-e-continuidade.md>) informa o alcance e o desenvolvimento restante.

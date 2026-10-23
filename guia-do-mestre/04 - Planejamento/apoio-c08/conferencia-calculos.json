@@ -1,0 +1,182 @@
+{
+  "data": "2026-10-21",
+  "metodo": "Contas determinísticas; exemplos de orçamento locais e conversões de opções ainda não adotadas identificados; sem simulação ou teste de mesa.",
+  "total": 35,
+  "verificacoes": [
+    {
+      "caso": "Arrombamento Destreza",
+      "resultado": 5,
+      "esperado": 5
+    },
+    {
+      "caso": "Arrombamento Inteligência",
+      "resultado": 3,
+      "esperado": 3
+    },
+    {
+      "caso": "Dado mínimo mecânica",
+      "resultado": 9,
+      "esperado": 9
+    },
+    {
+      "caso": "Dado mínimo eletrônica",
+      "resultado": 11,
+      "esperado": 11
+    },
+    {
+      "caso": "Etiquetas: bônus",
+      "resultado": 4,
+      "esperado": 4
+    },
+    {
+      "caso": "Etiquetas: primeira tentativa",
+      "resultado": 13,
+      "esperado": 13
+    },
+    {
+      "caso": "Etiquetas: falha",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "caso": "Etiquetas: segunda tentativa",
+      "resultado": 16,
+      "esperado": 16
+    },
+    {
+      "caso": "Etiquetas: duração total em minutos",
+      "resultado": 150,
+      "esperado": 150
+    },
+    {
+      "caso": "Reparo: restante",
+      "resultado": 2,
+      "esperado": 2
+    },
+    {
+      "caso": "Reparo: duas etapas",
+      "resultado": 4,
+      "esperado": 4
+    },
+    {
+      "caso": "Compra: Traje 2 e Katana",
+      "resultado": 12000,
+      "esperado": 12000
+    },
+    {
+      "caso": "Lanterna: autonomia restante",
+      "resultado": 5,
+      "esperado": 5
+    },
+    {
+      "caso": "Reposição: custo",
+      "resultado": 8000,
+      "esperado": 8000
+    },
+    {
+      "caso": "Reposição: saldo",
+      "resultado": 2000,
+      "esperado": 2000
+    },
+    {
+      "caso": "Desgaste Grau 2 após primeira missão de uso",
+      "resultado": 1,
+      "esperado": 1
+    },
+    {
+      "caso": "Desgaste Grau 2 após missão guardada",
+      "resultado": 1,
+      "esperado": 1
+    },
+    {
+      "caso": "Desgaste Grau 2 após segunda missão de uso",
+      "resultado": 0,
+      "esperado": 0
+    },
+    {
+      "caso": "Primeira padrão",
+      "resultado": 100,
+      "esperado": 100
+    },
+    {
+      "caso": "Terceira padrão",
+      "resultado": 50,
+      "esperado": 50
+    },
+    {
+      "caso": "Quinta longa",
+      "resultado": 25,
+      "esperado": 25
+    },
+    {
+      "caso": "Quinta padrão",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "Terceira longa falha metade",
+      "resultado": 50,
+      "esperado": 50
+    },
+    {
+      "caso": "Primeira longa falha metade",
+      "resultado": 100,
+      "esperado": 100
+    },
+    {
+      "caso": "Recompensa zero na terceira",
+      "resultado": 0,
+      "esperado": 0
+    },
+    {
+      "caso": "Positiva pequena na décima",
+      "resultado": 1,
+      "esperado": 1
+    },
+    {
+      "caso": "Nível 2: saldo antes do avanço",
+      "resultado": 250,
+      "esperado": 250
+    },
+    {
+      "caso": "Nível 3: saldo preservado",
+      "resultado": 50,
+      "esperado": 50
+    },
+    {
+      "caso": "Salário grau 3 duas participações",
+      "resultado": 225000,
+      "esperado": 225000
+    },
+    {
+      "caso": "Salário grau 4 zero participações se política adotada",
+      "resultado": 37500,
+      "esperado": 37500
+    },
+    {
+      "caso": "Unidade proposta 4h: reparo4h",
+      "resultado": 1.0,
+      "esperado": 1
+    },
+    {
+      "caso": "Unidade proposta 2h: reparo4h",
+      "resultado": 2.0,
+      "esperado": 2
+    },
+    {
+      "caso": "Unidade proposta 4h: interrupção2h",
+      "resultado": 0.5,
+      "esperado": 0.5
+    },
+    {
+      "caso": "Unidade proposta 4h: trabalho8h",
+      "resultado": 2.0,
+      "esperado": 2
+    },
+    {
+      "caso": "Unidade proposta 2h: trabalho8h",
+      "resultado": 4.0,
+      "esperado": 4
+    }
+  ]
+}

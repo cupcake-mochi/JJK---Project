@@ -1,0 +1,32 @@
+# Estado salvo da base pequena e do piloto
+
+21 de outubro de 2026. O trabalho foi retomado depois de um reinício do computador. As propostas numéricas e o verificador haviam ficado salvos; os resultados que ainda não estavam gravados foram recalculados.
+
+## Escopo autorizado
+
+Mizuki autorizou uma base menor de inimigos com referência na R53 para completar o piloto. O Bestiário antigo está muito desatualizado e seus números ficam fora da referência de equilíbrio. A atualização integral foi deixada para depois. A mecânica nova de treinamentos também continua para elaboração posterior.
+
+## Entregas concluídas
+
+- `../13-piloto-editorial-ocorrencia-sobrenatural.md`: preparação, investigação, mapa com medidas, confronto acompanhado, socorro, retirada, aquisição e fechamento.
+- `../14-base-pequena-de-inimigos-r53.md`: Rastejante, Amontoado do depósito e Vigia das farpas, com conversões de aquisição. Propostas numéricas para uso experimental, sem escala universal aprovada.
+- `../15-verificacao-da-base-e-do-piloto.md`: cálculos e estados conferidos, 160.000 confrontos abreviados em 32 casos restritos e exemplo fixo conferido. Inclui Canalizar Energia nos ataques físicos das referências. Não houve jogo de mesa ou leitura com público externo.
+
+O encontro principal usa só um Amontoado, para referência de três personagens de nível 2 com recursos e sem Sequelas iniciais. Dupla, desgaste e inimigo adicional têm resultados distintos. Os três perfis parciais de personagens usados nas contas não são fichas prontas completas.
+
+## Arquivos de produção e evidência
+
+- `base-inimigos.json` é a fonte numérica única da base proposta.
+- `gerar_fichas.py` gera o documento 14.
+- `validar_base.py` executa contas e simulações, gravando `resultado-validacao.json` progressivamente. O registro final deve indicar `completo: true` e corresponder às identificações dos arquivos de entrada.
+- `conferir_exemplo_guiado.py` grava `resultado-exemplo-guiado.json`.
+- `gerar_relatorio.py` gera o documento 15 somente com resultados concluídos e correspondentes à base, ao modelo e ao texto de referência.
+- `historico/2026-10-21-antes-da-conclusao/` preserva o planejamento recuperado antes de completar esta etapa.
+
+A fonte de regras é `/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md`. Os originais do livro e o Bestiário antigo não foram editados.
+
+## Próxima frente
+
+A revisão editorial seguinte está no documento 16. A pasta `../../06 - Redacao do Guia/` reúne a primeira seção de preparação, um modelo em branco e a ocorrência para consulta. Mina foi definida como contato original por telefone; o piloto ganhou caminhos de leitura, sem alteração das contas ou fichas de combate. As referências e atribuições acompanham a redação. O preparo de campanhas, facções e mistérios extensos continua aberto.
+
+Avaliar o texto com Mizuki e recolher leitura e uso com fichas reais. Condução de cenas pode avançar pelos procedimentos já definidos. Ampliar a construção geral apenas depois de separar o que este piloto demonstra do que ainda depende de outras composições, níveis, técnicas e condições de missão. Não repetir a análise do acervo inteiro ou reconstruir o Bestiário como consequência automática desta entrega.

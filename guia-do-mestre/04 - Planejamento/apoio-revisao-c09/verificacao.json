@@ -1,0 +1,506 @@
+{
+  "data": "2026-10-23",
+  "entrega": "Revisão integrada de C09",
+  "base_manifesto": 185,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/34-c09-pactos-promessas-e-entidades.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/41-pactos-e-promessas.md",
+    "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md",
+    "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md"
+  ],
+  "novos": [
+    "04 - Planejamento/58-revisao-integrada-de-c09.md",
+    "04 - Planejamento/apoio-revisao-c09/verificacao.json"
+  ],
+  "documentos_com_links_conferidos": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/34-c09-pactos-promessas-e-entidades.md",
+    "04 - Planejamento/58-revisao-integrada-de-c09.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/41-pactos-e-promessas.md",
+    "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md",
+    "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+    "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+    "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+    "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+    "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+    "06 - Redacao do Guia/49-liberacao-irregular-minuta.md",
+    "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+    "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md",
+    "06 - Redacao do Guia/52-domar-o-amontoado.md",
+    "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+    "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "links_locais": 386,
+  "ancoras_R53": 36,
+  "conferencias_selecionadas": [
+    {
+      "campo": "Essência 1 sem vaga",
+      "resultado": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "campo": "Essência 5 vagas",
+      "resultado": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "campo": "Overtime jornada 8",
+      "resultado": 20.0,
+      "esperado": 20,
+      "ok": true
+    },
+    {
+      "campo": "Overtime máximos",
+      "resultado": [
+        32.0,
+        48.0
+      ],
+      "esperado": [
+        32,
+        48
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Overtime saldo após transição",
+      "resultado": 28,
+      "esperado": 28,
+      "ok": true
+    },
+    {
+      "campo": "Reação Pacto antes da queda",
+      "resultado": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "campo": "Pacifismo janela 30 dias",
+      "resultado": "2026-11-21T18:00:00",
+      "esperado": "2026-11-21T18:00:00",
+      "ok": true
+    },
+    {
+      "campo": "Pacifismo suspensão 3 dias",
+      "resultado": "2026-11-24T18:00:00",
+      "esperado": "2026-11-24T18:00:00",
+      "ok": true
+    },
+    {
+      "campo": "Liberação tetos máximo 40",
+      "resultado": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        40
+      ],
+      "esperado": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        40
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Refluxo manutenção exemplo",
+      "resultado": [
+        7,
+        1
+      ],
+      "esperado": [
+        7,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Liberação mudança máximo",
+      "resultado": [
+        8,
+        18,
+        0,
+        8
+      ],
+      "esperado": [
+        8,
+        18,
+        0,
+        8
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Promessa duração ilustrativa",
+      "resultado": 16,
+      "esperado": 16,
+      "ok": true
+    },
+    {
+      "campo": "Cão vida",
+      "resultado": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "campo": "Cão retorno",
+      "resultado": 6,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "campo": "Cão Defesa e Bloquear",
+      "resultado": [
+        13,
+        2
+      ],
+      "esperado": [
+        13,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Doma excedente",
+      "resultado": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "campo": "Doma igualdade não destrói",
+      "resultado": false,
+      "esperado": false,
+      "ok": true
+    },
+    {
+      "campo": "Doma mais um destrói",
+      "resultado": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "campo": "Domada vida",
+      "resultado": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "campo": "Domada energia",
+      "resultado": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "campo": "Domada corpo mantido",
+      "resultado": 5,
+      "esperado": 5,
+      "ok": true
+    },
+    {
+      "campo": "Dano posterior direto",
+      "resultado": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "campo": "Escriba vida por marcos",
+      "resultado": [
+        27,
+        38,
+        50,
+        56
+      ],
+      "esperado": [
+        27,
+        38,
+        50,
+        56
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Escriba vagas",
+      "resultado": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "esperado": [
+        2,
+        2,
+        3,
+        3
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Escriba Fura Classe 2",
+      "resultado": [
+        2,
+        2
+      ],
+      "esperado": [
+        2,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Escriba Fura Classe 3",
+      "resultado": [
+        3,
+        4
+      ],
+      "esperado": [
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Mula vida e defesa",
+      "resultado": [
+        14,
+        12
+      ],
+      "esperado": [
+        14,
+        12
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Mula Bloquear Defesa menos 11",
+      "resultado": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "campo": "Mula Volume",
+      "resultado": 8.0,
+      "esperado": 8,
+      "ok": true
+    },
+    {
+      "campo": "Mula montar",
+      "resultado": 4.5,
+      "esperado": 4.5,
+      "ok": true
+    },
+    {
+      "campo": "Criação CD e resultado",
+      "resultado": [
+        12,
+        11,
+        14
+      ],
+      "esperado": [
+        12,
+        11,
+        14
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Criação trabalho e materiais",
+      "resultado": [
+        48,
+        36000
+      ],
+      "esperado": [
+        48,
+        36000
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Reconstrução horas",
+      "resultado": [
+        8.0,
+        16.0,
+        24.0,
+        36.0,
+        48.0,
+        64.0
+      ],
+      "esperado": [
+        8,
+        16,
+        24,
+        36,
+        48,
+        64
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Reconstrução exemplo",
+      "resultado": [
+        36,
+        18000
+      ],
+      "esperado": [
+        36,
+        18000
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Transferência horas",
+      "resultado": [
+        2,
+        2,
+        4,
+        6,
+        9,
+        12,
+        16
+      ],
+      "esperado": [
+        2,
+        2,
+        4,
+        6,
+        9,
+        12,
+        16
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Transferência retrabalho",
+      "resultado": [
+        1,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "esperado": [
+        1,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Transferência exemplo",
+      "resultado": [
+        6,
+        4000
+      ],
+      "esperado": [
+        6,
+        4000
+      ],
+      "ok": true
+    },
+    {
+      "campo": "quantidade de entradas na matriz",
+      "resultado": 130,
+      "esperado": 130,
+      "ok": true
+    },
+    {
+      "campo": "entradas e classificações preservadas",
+      "resultado": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "campo": "cobertura da revisão",
+      "resultado": [
+        "M103",
+        "M104",
+        "M105",
+        "M106",
+        "M107",
+        "M108",
+        "M109",
+        "M110",
+        "M111",
+        "M112",
+        "M113",
+        "M114",
+        "M115",
+        "M116",
+        "M117",
+        "M118",
+        "M119",
+        "M120",
+        "M121",
+        "M122"
+      ],
+      "esperado": [
+        "M103",
+        "M104",
+        "M105",
+        "M106",
+        "M107",
+        "M108",
+        "M109",
+        "M110",
+        "M111",
+        "M112",
+        "M113",
+        "M114",
+        "M115",
+        "M116",
+        "M117",
+        "M118",
+        "M119",
+        "M120",
+        "M121",
+        "M122"
+      ],
+      "ok": true
+    }
+  ],
+  "fontes": {
+    "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md": {
+      "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+      "preservado": true
+    },
+    "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/output/pdf/Ciclo-Maldito-R53.pdf": {
+      "sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+      "preservado": true
+    }
+  },
+  "respostas_e_base_piloto": "Preservadas pelos hashes do manifesto.",
+  "cobertura": "M103–M122; complemento M119/M122 permanece explicitamente pendente.",
+  "limites": [
+    "Conferência documental e de contas selecionadas; não é prova de equilíbrio.",
+    "Sem teste humano ou simulação nova.",
+    "Não encerradas pendências de C07, C04, treinamentos ou Bestiário."
+  ],
+  "erros": [],
+  "ok": true
+}

@@ -1,0 +1,26 @@
+{
+  "estado": "Conferência documental e aritmética concluída; sem teste de mesa ou conclusão de equilíbrio.",
+  "arquivos_existentes_alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "04 - Planejamento/48-liberacao-irregular-estrutura-e-comparacao.md"
+  ],
+  "arquivos_novos": [
+    "04 - Planejamento/49-liberacao-irregular-zero-e-diretriz-do-beneficio.md",
+    "04 - Planejamento/apoio-liberacao-irregular/comparar-ritmos.py",
+    "04 - Planejamento/apoio-liberacao-irregular/comparacao-de-ritmos.json",
+    "04 - Planejamento/apoio-liberacao-irregular/comparacao-zero.json"
+  ],
+  "links_locais_conferidos": 266,
+  "erros_de_links": [],
+  "contas_zero": "3 frequências; 9 probabilidades conferidas por frações exatas.",
+  "r53_markdown_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_pdf_sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "fonte_preservada": true,
+  "escolhas": "Teto total entre turnos com zero possível; benefício, dado e percentuais abertos."
+}

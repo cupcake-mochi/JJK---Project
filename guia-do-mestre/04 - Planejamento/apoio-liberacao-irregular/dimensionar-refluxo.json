@@ -1,0 +1,5645 @@
+{
+  "estado": "COMPARAÇÃO: após o estudo, o autor escolheu d6 e uma recuperação de 25% por descanso. Demais opções são alternativas não adotadas; números não validam equilíbrio.",
+  "premissas": [
+    "Sorteios independentes, máximo constante, sem descontos ou outros acréscimos na ficha.",
+    "Perfis numéricos não presumem acesso ao Pacto ou a todas as capacidades.",
+    "Cabimento exige saldo suficiente e não mede acerto, eficácia ou disponibilidade de ações.",
+    "N sorteios próprios observados, sem marca prévia, sem descanso entre eles; não presume duração de combate.",
+    "Oportunidades pressupõem poder usar a Bônus e ter espaço na reserva; recuperações reais podem ser menores.",
+    "Liberação Máxima não pode usar a mesma ação Bônus já gasta no Refluxo.",
+    "Resultados positivos arredondados para baixo, mínimo 1; zero conserva zero. Essa convenção ainda é proposta."
+  ],
+  "distribuicoes": {
+    "d4": [
+      0,
+      25,
+      50,
+      100
+    ],
+    "d6": [
+      0,
+      25,
+      50,
+      75,
+      100,
+      100
+    ],
+    "d8": [
+      0,
+      25,
+      50,
+      50,
+      75,
+      75,
+      100,
+      100
+    ]
+  },
+  "ganhos": {
+    "uma_25": [
+      1,
+      25
+    ],
+    "duas_15": [
+      2,
+      15
+    ],
+    "uma_50": [
+      1,
+      50
+    ]
+  },
+  "perfis": {
+    "d4": [
+      {
+        "nivel": 2,
+        "PE_por_nivel": 4,
+        "maximo": 8,
+        "classe": 1,
+        "tetos": [
+          0,
+          2,
+          4,
+          8
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 2,
+          "feitico_e_reacao_2": 1,
+          "manutencao_2_feitico_reacao_2": 1,
+          "integridade_2": 2,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 3,
+        "PE_por_nivel": 4,
+        "maximo": 12,
+        "classe": 1,
+        "tetos": [
+          0,
+          3,
+          6,
+          12
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 2,
+          "manutencao_2_feitico_reacao_2": 1,
+          "integridade_2": 2,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 4,
+        "PE_por_nivel": 4,
+        "maximo": 16,
+        "classe": 1,
+        "tetos": [
+          0,
+          4,
+          8,
+          16
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 2,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 3,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 5,
+        "PE_por_nivel": 4,
+        "maximo": 20,
+        "classe": 2,
+        "tetos": [
+          0,
+          5,
+          10,
+          20
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 2,
+          "feitico_e_reacao_2": 2,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 6,
+        "PE_por_nivel": 4,
+        "maximo": 24,
+        "classe": 2,
+        "tetos": [
+          0,
+          6,
+          12,
+          24
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 2,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 7,
+        "PE_por_nivel": 4,
+        "maximo": 28,
+        "classe": 2,
+        "tetos": [
+          0,
+          7,
+          14,
+          28
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 2,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 8,
+        "PE_por_nivel": 4,
+        "maximo": 32,
+        "classe": 2,
+        "tetos": [
+          0,
+          8,
+          16,
+          32
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 3,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 9,
+        "PE_por_nivel": 4,
+        "maximo": 36,
+        "classe": 3,
+        "tetos": [
+          0,
+          9,
+          18,
+          36
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 2,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 10,
+        "PE_por_nivel": 4,
+        "maximo": 40,
+        "classe": 3,
+        "tetos": [
+          0,
+          10,
+          20,
+          40
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 2,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 11,
+        "PE_por_nivel": 4,
+        "maximo": 44,
+        "classe": 3,
+        "tetos": [
+          0,
+          11,
+          22,
+          44
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 12,
+        "PE_por_nivel": 4,
+        "maximo": 48,
+        "classe": 3,
+        "tetos": [
+          0,
+          12,
+          24,
+          48
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 13,
+        "PE_por_nivel": 4,
+        "maximo": 52,
+        "classe": 4,
+        "tetos": [
+          0,
+          13,
+          26,
+          52
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 2,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 14,
+        "PE_por_nivel": 4,
+        "maximo": 56,
+        "classe": 4,
+        "tetos": [
+          0,
+          14,
+          28,
+          56
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 15,
+        "PE_por_nivel": 4,
+        "maximo": 60,
+        "classe": 4,
+        "tetos": [
+          0,
+          15,
+          30,
+          60
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 16,
+        "PE_por_nivel": 4,
+        "maximo": 64,
+        "classe": 4,
+        "tetos": [
+          0,
+          16,
+          32,
+          64
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 17,
+        "PE_por_nivel": 4,
+        "maximo": 68,
+        "classe": 5,
+        "tetos": [
+          0,
+          17,
+          34,
+          68
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 18,
+        "PE_por_nivel": 4,
+        "maximo": 72,
+        "classe": 5,
+        "tetos": [
+          0,
+          18,
+          36,
+          72
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 19,
+        "PE_por_nivel": 4,
+        "maximo": 76,
+        "classe": 5,
+        "tetos": [
+          0,
+          19,
+          38,
+          76
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 20,
+        "PE_por_nivel": 4,
+        "maximo": 80,
+        "classe": 5,
+        "tetos": [
+          0,
+          20,
+          40,
+          80
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 21,
+        "PE_por_nivel": 4,
+        "maximo": 84,
+        "classe": 6,
+        "tetos": [
+          0,
+          21,
+          42,
+          84
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 22,
+        "PE_por_nivel": 4,
+        "maximo": 88,
+        "classe": 6,
+        "tetos": [
+          0,
+          22,
+          44,
+          88
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 23,
+        "PE_por_nivel": 4,
+        "maximo": 92,
+        "classe": 6,
+        "tetos": [
+          0,
+          23,
+          46,
+          92
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 24,
+        "PE_por_nivel": 4,
+        "maximo": 96,
+        "classe": 6,
+        "tetos": [
+          0,
+          24,
+          48,
+          96
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 25,
+        "PE_por_nivel": 4,
+        "maximo": 100,
+        "classe": 6,
+        "tetos": [
+          0,
+          25,
+          50,
+          100
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 26,
+        "PE_por_nivel": 4,
+        "maximo": 104,
+        "classe": 7,
+        "tetos": [
+          0,
+          26,
+          52,
+          104
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 27,
+        "PE_por_nivel": 4,
+        "maximo": 108,
+        "classe": 7,
+        "tetos": [
+          0,
+          27,
+          54,
+          108
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 2,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 28,
+        "PE_por_nivel": 4,
+        "maximo": 112,
+        "classe": 7,
+        "tetos": [
+          0,
+          28,
+          56,
+          112
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 29,
+        "PE_por_nivel": 4,
+        "maximo": 116,
+        "classe": 7,
+        "tetos": [
+          0,
+          29,
+          58,
+          116
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 30,
+        "PE_por_nivel": 4,
+        "maximo": 120,
+        "classe": 7,
+        "tetos": [
+          0,
+          30,
+          60,
+          120
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 2
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 2,
+        "PE_por_nivel": 6,
+        "maximo": 12,
+        "classe": 1,
+        "tetos": [
+          0,
+          3,
+          6,
+          12
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 2,
+          "manutencao_2_feitico_reacao_2": 1,
+          "integridade_2": 2,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 3,
+        "PE_por_nivel": 6,
+        "maximo": 18,
+        "classe": 1,
+        "tetos": [
+          0,
+          4,
+          9,
+          18
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 2,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 3,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 4,
+        "PE_por_nivel": 6,
+        "maximo": 24,
+        "classe": 1,
+        "tetos": [
+          0,
+          6,
+          12,
+          24
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 3,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 5,
+        "PE_por_nivel": 6,
+        "maximo": 30,
+        "classe": 2,
+        "tetos": [
+          0,
+          7,
+          15,
+          30
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 2,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 2,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 6,
+        "PE_por_nivel": 6,
+        "maximo": 36,
+        "classe": 2,
+        "tetos": [
+          0,
+          9,
+          18,
+          36
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 3,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 7,
+        "PE_por_nivel": 6,
+        "maximo": 42,
+        "classe": 2,
+        "tetos": [
+          0,
+          10,
+          21,
+          42
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 8,
+        "PE_por_nivel": 6,
+        "maximo": 48,
+        "classe": 2,
+        "tetos": [
+          0,
+          12,
+          24,
+          48
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 9,
+        "PE_por_nivel": 6,
+        "maximo": 54,
+        "classe": 3,
+        "tetos": [
+          0,
+          13,
+          27,
+          54
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 10,
+        "PE_por_nivel": 6,
+        "maximo": 60,
+        "classe": 3,
+        "tetos": [
+          0,
+          15,
+          30,
+          60
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 11,
+        "PE_por_nivel": 6,
+        "maximo": 66,
+        "classe": 3,
+        "tetos": [
+          0,
+          16,
+          33,
+          66
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 12,
+        "PE_por_nivel": 6,
+        "maximo": 72,
+        "classe": 3,
+        "tetos": [
+          0,
+          18,
+          36,
+          72
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 13,
+        "PE_por_nivel": 6,
+        "maximo": 78,
+        "classe": 4,
+        "tetos": [
+          0,
+          19,
+          39,
+          78
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 14,
+        "PE_por_nivel": 6,
+        "maximo": 84,
+        "classe": 4,
+        "tetos": [
+          0,
+          21,
+          42,
+          84
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 15,
+        "PE_por_nivel": 6,
+        "maximo": 90,
+        "classe": 4,
+        "tetos": [
+          0,
+          22,
+          45,
+          90
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 16,
+        "PE_por_nivel": 6,
+        "maximo": 96,
+        "classe": 4,
+        "tetos": [
+          0,
+          24,
+          48,
+          96
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 17,
+        "PE_por_nivel": 6,
+        "maximo": 102,
+        "classe": 5,
+        "tetos": [
+          0,
+          25,
+          51,
+          102
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 18,
+        "PE_por_nivel": 6,
+        "maximo": 108,
+        "classe": 5,
+        "tetos": [
+          0,
+          27,
+          54,
+          108
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 19,
+        "PE_por_nivel": 6,
+        "maximo": 114,
+        "classe": 5,
+        "tetos": [
+          0,
+          28,
+          57,
+          114
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 20,
+        "PE_por_nivel": 6,
+        "maximo": 120,
+        "classe": 5,
+        "tetos": [
+          0,
+          30,
+          60,
+          120
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 21,
+        "PE_por_nivel": 6,
+        "maximo": 126,
+        "classe": 6,
+        "tetos": [
+          0,
+          31,
+          63,
+          126
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 22,
+        "PE_por_nivel": 6,
+        "maximo": 132,
+        "classe": 6,
+        "tetos": [
+          0,
+          33,
+          66,
+          132
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 23,
+        "PE_por_nivel": 6,
+        "maximo": 138,
+        "classe": 6,
+        "tetos": [
+          0,
+          34,
+          69,
+          138
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 24,
+        "PE_por_nivel": 6,
+        "maximo": 144,
+        "classe": 6,
+        "tetos": [
+          0,
+          36,
+          72,
+          144
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 25,
+        "PE_por_nivel": 6,
+        "maximo": 150,
+        "classe": 6,
+        "tetos": [
+          0,
+          37,
+          75,
+          150
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 26,
+        "PE_por_nivel": 6,
+        "maximo": 156,
+        "classe": 7,
+        "tetos": [
+          0,
+          39,
+          78,
+          156
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 27,
+        "PE_por_nivel": 6,
+        "maximo": 162,
+        "classe": 7,
+        "tetos": [
+          0,
+          40,
+          81,
+          162
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 28,
+        "PE_por_nivel": 6,
+        "maximo": 168,
+        "classe": 7,
+        "tetos": [
+          0,
+          42,
+          84,
+          168
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 29,
+        "PE_por_nivel": 6,
+        "maximo": 174,
+        "classe": 7,
+        "tetos": [
+          0,
+          43,
+          87,
+          174
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      },
+      {
+        "nivel": 30,
+        "PE_por_nivel": 6,
+        "maximo": 180,
+        "classe": 7,
+        "tetos": [
+          0,
+          45,
+          90,
+          180
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 3,
+          "manutencao_2": 3,
+          "liberacao_maxima": 3
+        },
+        "total_resultados": 4
+      }
+    ],
+    "d6": [
+      {
+        "nivel": 2,
+        "PE_por_nivel": 4,
+        "maximo": 8,
+        "classe": 1,
+        "tetos": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          8
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 4,
+          "feitico_e_reacao_2": 3,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 4,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 3,
+        "PE_por_nivel": 4,
+        "maximo": 12,
+        "classe": 1,
+        "tetos": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          12
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 4,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 4,
+        "PE_por_nivel": 4,
+        "maximo": 16,
+        "classe": 1,
+        "tetos": [
+          0,
+          4,
+          8,
+          12,
+          16,
+          16
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 5,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 5,
+        "PE_por_nivel": 4,
+        "maximo": 20,
+        "classe": 2,
+        "tetos": [
+          0,
+          5,
+          10,
+          15,
+          20,
+          20
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 4,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 6,
+        "PE_por_nivel": 4,
+        "maximo": 24,
+        "classe": 2,
+        "tetos": [
+          0,
+          6,
+          12,
+          18,
+          24,
+          24
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 7,
+        "PE_por_nivel": 4,
+        "maximo": 28,
+        "classe": 2,
+        "tetos": [
+          0,
+          7,
+          14,
+          21,
+          28,
+          28
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 8,
+        "PE_por_nivel": 4,
+        "maximo": 32,
+        "classe": 2,
+        "tetos": [
+          0,
+          8,
+          16,
+          24,
+          32,
+          32
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 5,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 9,
+        "PE_por_nivel": 4,
+        "maximo": 36,
+        "classe": 3,
+        "tetos": [
+          0,
+          9,
+          18,
+          27,
+          36,
+          36
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 10,
+        "PE_por_nivel": 4,
+        "maximo": 40,
+        "classe": 3,
+        "tetos": [
+          0,
+          10,
+          20,
+          30,
+          40,
+          40
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 11,
+        "PE_por_nivel": 4,
+        "maximo": 44,
+        "classe": 3,
+        "tetos": [
+          0,
+          11,
+          22,
+          33,
+          44,
+          44
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 12,
+        "PE_por_nivel": 4,
+        "maximo": 48,
+        "classe": 3,
+        "tetos": [
+          0,
+          12,
+          24,
+          36,
+          48,
+          48
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 13,
+        "PE_por_nivel": 4,
+        "maximo": 52,
+        "classe": 4,
+        "tetos": [
+          0,
+          13,
+          26,
+          39,
+          52,
+          52
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 14,
+        "PE_por_nivel": 4,
+        "maximo": 56,
+        "classe": 4,
+        "tetos": [
+          0,
+          14,
+          28,
+          42,
+          56,
+          56
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 15,
+        "PE_por_nivel": 4,
+        "maximo": 60,
+        "classe": 4,
+        "tetos": [
+          0,
+          15,
+          30,
+          45,
+          60,
+          60
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 16,
+        "PE_por_nivel": 4,
+        "maximo": 64,
+        "classe": 4,
+        "tetos": [
+          0,
+          16,
+          32,
+          48,
+          64,
+          64
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 17,
+        "PE_por_nivel": 4,
+        "maximo": 68,
+        "classe": 5,
+        "tetos": [
+          0,
+          17,
+          34,
+          51,
+          68,
+          68
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 18,
+        "PE_por_nivel": 4,
+        "maximo": 72,
+        "classe": 5,
+        "tetos": [
+          0,
+          18,
+          36,
+          54,
+          72,
+          72
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 19,
+        "PE_por_nivel": 4,
+        "maximo": 76,
+        "classe": 5,
+        "tetos": [
+          0,
+          19,
+          38,
+          57,
+          76,
+          76
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 20,
+        "PE_por_nivel": 4,
+        "maximo": 80,
+        "classe": 5,
+        "tetos": [
+          0,
+          20,
+          40,
+          60,
+          80,
+          80
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 21,
+        "PE_por_nivel": 4,
+        "maximo": 84,
+        "classe": 6,
+        "tetos": [
+          0,
+          21,
+          42,
+          63,
+          84,
+          84
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 22,
+        "PE_por_nivel": 4,
+        "maximo": 88,
+        "classe": 6,
+        "tetos": [
+          0,
+          22,
+          44,
+          66,
+          88,
+          88
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 23,
+        "PE_por_nivel": 4,
+        "maximo": 92,
+        "classe": 6,
+        "tetos": [
+          0,
+          23,
+          46,
+          69,
+          92,
+          92
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 24,
+        "PE_por_nivel": 4,
+        "maximo": 96,
+        "classe": 6,
+        "tetos": [
+          0,
+          24,
+          48,
+          72,
+          96,
+          96
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 25,
+        "PE_por_nivel": 4,
+        "maximo": 100,
+        "classe": 6,
+        "tetos": [
+          0,
+          25,
+          50,
+          75,
+          100,
+          100
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 26,
+        "PE_por_nivel": 4,
+        "maximo": 104,
+        "classe": 7,
+        "tetos": [
+          0,
+          26,
+          52,
+          78,
+          104,
+          104
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 27,
+        "PE_por_nivel": 4,
+        "maximo": 108,
+        "classe": 7,
+        "tetos": [
+          0,
+          27,
+          54,
+          81,
+          108,
+          108
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 4,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 28,
+        "PE_por_nivel": 4,
+        "maximo": 112,
+        "classe": 7,
+        "tetos": [
+          0,
+          28,
+          56,
+          84,
+          112,
+          112
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 29,
+        "PE_por_nivel": 4,
+        "maximo": 116,
+        "classe": 7,
+        "tetos": [
+          0,
+          29,
+          58,
+          87,
+          116,
+          116
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 30,
+        "PE_por_nivel": 4,
+        "maximo": 120,
+        "classe": 7,
+        "tetos": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          120
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 4
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 2,
+        "PE_por_nivel": 6,
+        "maximo": 12,
+        "classe": 1,
+        "tetos": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          12
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 3,
+          "integridade_2": 4,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 3,
+        "PE_por_nivel": 6,
+        "maximo": 18,
+        "classe": 1,
+        "tetos": [
+          0,
+          4,
+          9,
+          13,
+          18,
+          18
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 5,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 4,
+        "PE_por_nivel": 6,
+        "maximo": 24,
+        "classe": 1,
+        "tetos": [
+          0,
+          6,
+          12,
+          18,
+          24,
+          24
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 5,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 5,
+        "PE_por_nivel": 6,
+        "maximo": 30,
+        "classe": 2,
+        "tetos": [
+          0,
+          7,
+          15,
+          22,
+          30,
+          30
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 4,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 6,
+        "PE_por_nivel": 6,
+        "maximo": 36,
+        "classe": 2,
+        "tetos": [
+          0,
+          9,
+          18,
+          27,
+          36,
+          36
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 5,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 7,
+        "PE_por_nivel": 6,
+        "maximo": 42,
+        "classe": 2,
+        "tetos": [
+          0,
+          10,
+          21,
+          31,
+          42,
+          42
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 8,
+        "PE_por_nivel": 6,
+        "maximo": 48,
+        "classe": 2,
+        "tetos": [
+          0,
+          12,
+          24,
+          36,
+          48,
+          48
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 9,
+        "PE_por_nivel": 6,
+        "maximo": 54,
+        "classe": 3,
+        "tetos": [
+          0,
+          13,
+          27,
+          40,
+          54,
+          54
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 10,
+        "PE_por_nivel": 6,
+        "maximo": 60,
+        "classe": 3,
+        "tetos": [
+          0,
+          15,
+          30,
+          45,
+          60,
+          60
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 11,
+        "PE_por_nivel": 6,
+        "maximo": 66,
+        "classe": 3,
+        "tetos": [
+          0,
+          16,
+          33,
+          49,
+          66,
+          66
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 12,
+        "PE_por_nivel": 6,
+        "maximo": 72,
+        "classe": 3,
+        "tetos": [
+          0,
+          18,
+          36,
+          54,
+          72,
+          72
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 13,
+        "PE_por_nivel": 6,
+        "maximo": 78,
+        "classe": 4,
+        "tetos": [
+          0,
+          19,
+          39,
+          58,
+          78,
+          78
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 14,
+        "PE_por_nivel": 6,
+        "maximo": 84,
+        "classe": 4,
+        "tetos": [
+          0,
+          21,
+          42,
+          63,
+          84,
+          84
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 15,
+        "PE_por_nivel": 6,
+        "maximo": 90,
+        "classe": 4,
+        "tetos": [
+          0,
+          22,
+          45,
+          67,
+          90,
+          90
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 16,
+        "PE_por_nivel": 6,
+        "maximo": 96,
+        "classe": 4,
+        "tetos": [
+          0,
+          24,
+          48,
+          72,
+          96,
+          96
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 17,
+        "PE_por_nivel": 6,
+        "maximo": 102,
+        "classe": 5,
+        "tetos": [
+          0,
+          25,
+          51,
+          76,
+          102,
+          102
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 18,
+        "PE_por_nivel": 6,
+        "maximo": 108,
+        "classe": 5,
+        "tetos": [
+          0,
+          27,
+          54,
+          81,
+          108,
+          108
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 19,
+        "PE_por_nivel": 6,
+        "maximo": 114,
+        "classe": 5,
+        "tetos": [
+          0,
+          28,
+          57,
+          85,
+          114,
+          114
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 20,
+        "PE_por_nivel": 6,
+        "maximo": 120,
+        "classe": 5,
+        "tetos": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          120
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 21,
+        "PE_por_nivel": 6,
+        "maximo": 126,
+        "classe": 6,
+        "tetos": [
+          0,
+          31,
+          63,
+          94,
+          126,
+          126
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 22,
+        "PE_por_nivel": 6,
+        "maximo": 132,
+        "classe": 6,
+        "tetos": [
+          0,
+          33,
+          66,
+          99,
+          132,
+          132
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 23,
+        "PE_por_nivel": 6,
+        "maximo": 138,
+        "classe": 6,
+        "tetos": [
+          0,
+          34,
+          69,
+          103,
+          138,
+          138
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 24,
+        "PE_por_nivel": 6,
+        "maximo": 144,
+        "classe": 6,
+        "tetos": [
+          0,
+          36,
+          72,
+          108,
+          144,
+          144
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 25,
+        "PE_por_nivel": 6,
+        "maximo": 150,
+        "classe": 6,
+        "tetos": [
+          0,
+          37,
+          75,
+          112,
+          150,
+          150
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 26,
+        "PE_por_nivel": 6,
+        "maximo": 156,
+        "classe": 7,
+        "tetos": [
+          0,
+          39,
+          78,
+          117,
+          156,
+          156
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 27,
+        "PE_por_nivel": 6,
+        "maximo": 162,
+        "classe": 7,
+        "tetos": [
+          0,
+          40,
+          81,
+          121,
+          162,
+          162
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 28,
+        "PE_por_nivel": 6,
+        "maximo": 168,
+        "classe": 7,
+        "tetos": [
+          0,
+          42,
+          84,
+          126,
+          168,
+          168
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 29,
+        "PE_por_nivel": 6,
+        "maximo": 174,
+        "classe": 7,
+        "tetos": [
+          0,
+          43,
+          87,
+          130,
+          174,
+          174
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      },
+      {
+        "nivel": 30,
+        "PE_por_nivel": 6,
+        "maximo": 180,
+        "classe": 7,
+        "tetos": [
+          0,
+          45,
+          90,
+          135,
+          180,
+          180
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 5,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 5,
+          "integridade_2": 5,
+          "manutencao_2": 5,
+          "liberacao_maxima": 5
+        },
+        "total_resultados": 6
+      }
+    ],
+    "d8": [
+      {
+        "nivel": 2,
+        "PE_por_nivel": 4,
+        "maximo": 8,
+        "classe": 1,
+        "tetos": [
+          0,
+          2,
+          4,
+          4,
+          6,
+          6,
+          8,
+          8
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 4,
+          "manutencao_2_feitico_reacao_2": 2,
+          "integridade_2": 6,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 3,
+        "PE_por_nivel": 4,
+        "maximo": 12,
+        "classe": 1,
+        "tetos": [
+          0,
+          3,
+          6,
+          6,
+          9,
+          9,
+          12,
+          12
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 6,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 6,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 4,
+        "PE_por_nivel": 4,
+        "maximo": 16,
+        "classe": 1,
+        "tetos": [
+          0,
+          4,
+          8,
+          8,
+          12,
+          12,
+          16,
+          16
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 6,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 7,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 5,
+        "PE_por_nivel": 4,
+        "maximo": 20,
+        "classe": 2,
+        "tetos": [
+          0,
+          5,
+          10,
+          10,
+          15,
+          15,
+          20,
+          20
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 6,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 6,
+        "PE_por_nivel": 4,
+        "maximo": 24,
+        "classe": 2,
+        "tetos": [
+          0,
+          6,
+          12,
+          12,
+          18,
+          18,
+          24,
+          24
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 6,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 7,
+        "PE_por_nivel": 4,
+        "maximo": 28,
+        "classe": 2,
+        "tetos": [
+          0,
+          7,
+          14,
+          14,
+          21,
+          21,
+          28,
+          28
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 6,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 8,
+        "PE_por_nivel": 4,
+        "maximo": 32,
+        "classe": 2,
+        "tetos": [
+          0,
+          8,
+          16,
+          16,
+          24,
+          24,
+          32,
+          32
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 7,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 9,
+        "PE_por_nivel": 4,
+        "maximo": 36,
+        "classe": 3,
+        "tetos": [
+          0,
+          9,
+          18,
+          18,
+          27,
+          27,
+          36,
+          36
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 6,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 10,
+        "PE_por_nivel": 4,
+        "maximo": 40,
+        "classe": 3,
+        "tetos": [
+          0,
+          10,
+          20,
+          20,
+          30,
+          30,
+          40,
+          40
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 6,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 11,
+        "PE_por_nivel": 4,
+        "maximo": 44,
+        "classe": 3,
+        "tetos": [
+          0,
+          11,
+          22,
+          22,
+          33,
+          33,
+          44,
+          44
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 12,
+        "PE_por_nivel": 4,
+        "maximo": 48,
+        "classe": 3,
+        "tetos": [
+          0,
+          12,
+          24,
+          24,
+          36,
+          36,
+          48,
+          48
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 13,
+        "PE_por_nivel": 4,
+        "maximo": 52,
+        "classe": 4,
+        "tetos": [
+          0,
+          13,
+          26,
+          26,
+          39,
+          39,
+          52,
+          52
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 6,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 14,
+        "PE_por_nivel": 4,
+        "maximo": 56,
+        "classe": 4,
+        "tetos": [
+          0,
+          14,
+          28,
+          28,
+          42,
+          42,
+          56,
+          56
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 15,
+        "PE_por_nivel": 4,
+        "maximo": 60,
+        "classe": 4,
+        "tetos": [
+          0,
+          15,
+          30,
+          30,
+          45,
+          45,
+          60,
+          60
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 16,
+        "PE_por_nivel": 4,
+        "maximo": 64,
+        "classe": 4,
+        "tetos": [
+          0,
+          16,
+          32,
+          32,
+          48,
+          48,
+          64,
+          64
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 17,
+        "PE_por_nivel": 4,
+        "maximo": 68,
+        "classe": 5,
+        "tetos": [
+          0,
+          17,
+          34,
+          34,
+          51,
+          51,
+          68,
+          68
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 18,
+        "PE_por_nivel": 4,
+        "maximo": 72,
+        "classe": 5,
+        "tetos": [
+          0,
+          18,
+          36,
+          36,
+          54,
+          54,
+          72,
+          72
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 19,
+        "PE_por_nivel": 4,
+        "maximo": 76,
+        "classe": 5,
+        "tetos": [
+          0,
+          19,
+          38,
+          38,
+          57,
+          57,
+          76,
+          76
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 20,
+        "PE_por_nivel": 4,
+        "maximo": 80,
+        "classe": 5,
+        "tetos": [
+          0,
+          20,
+          40,
+          40,
+          60,
+          60,
+          80,
+          80
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 21,
+        "PE_por_nivel": 4,
+        "maximo": 84,
+        "classe": 6,
+        "tetos": [
+          0,
+          21,
+          42,
+          42,
+          63,
+          63,
+          84,
+          84
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 22,
+        "PE_por_nivel": 4,
+        "maximo": 88,
+        "classe": 6,
+        "tetos": [
+          0,
+          22,
+          44,
+          44,
+          66,
+          66,
+          88,
+          88
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 23,
+        "PE_por_nivel": 4,
+        "maximo": 92,
+        "classe": 6,
+        "tetos": [
+          0,
+          23,
+          46,
+          46,
+          69,
+          69,
+          92,
+          92
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 24,
+        "PE_por_nivel": 4,
+        "maximo": 96,
+        "classe": 6,
+        "tetos": [
+          0,
+          24,
+          48,
+          48,
+          72,
+          72,
+          96,
+          96
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 25,
+        "PE_por_nivel": 4,
+        "maximo": 100,
+        "classe": 6,
+        "tetos": [
+          0,
+          25,
+          50,
+          50,
+          75,
+          75,
+          100,
+          100
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 26,
+        "PE_por_nivel": 4,
+        "maximo": 104,
+        "classe": 7,
+        "tetos": [
+          0,
+          26,
+          52,
+          52,
+          78,
+          78,
+          104,
+          104
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 27,
+        "PE_por_nivel": 4,
+        "maximo": 108,
+        "classe": 7,
+        "tetos": [
+          0,
+          27,
+          54,
+          54,
+          81,
+          81,
+          108,
+          108
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 6,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 28,
+        "PE_por_nivel": 4,
+        "maximo": 112,
+        "classe": 7,
+        "tetos": [
+          0,
+          28,
+          56,
+          56,
+          84,
+          84,
+          112,
+          112
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 29,
+        "PE_por_nivel": 4,
+        "maximo": 116,
+        "classe": 7,
+        "tetos": [
+          0,
+          29,
+          58,
+          58,
+          87,
+          87,
+          116,
+          116
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 30,
+        "PE_por_nivel": 4,
+        "maximo": 120,
+        "classe": 7,
+        "tetos": [
+          0,
+          30,
+          60,
+          60,
+          90,
+          90,
+          120,
+          120
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 6
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 2,
+        "PE_por_nivel": 6,
+        "maximo": 12,
+        "classe": 1,
+        "tetos": [
+          0,
+          3,
+          6,
+          6,
+          9,
+          9,
+          12,
+          12
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 6,
+          "manutencao_2_feitico_reacao_2": 4,
+          "integridade_2": 6,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 3,
+        "PE_por_nivel": 6,
+        "maximo": 18,
+        "classe": 1,
+        "tetos": [
+          0,
+          4,
+          9,
+          9,
+          13,
+          13,
+          18,
+          18
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 6,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 7,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 4,
+        "PE_por_nivel": 6,
+        "maximo": 24,
+        "classe": 1,
+        "tetos": [
+          0,
+          6,
+          12,
+          12,
+          18,
+          18,
+          24,
+          24
+        ],
+        "custos": {
+          "feitico": 3,
+          "feitico_e_reacao_2": 5,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 4,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 7,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 5,
+        "PE_por_nivel": 6,
+        "maximo": 30,
+        "classe": 2,
+        "tetos": [
+          0,
+          7,
+          15,
+          15,
+          22,
+          22,
+          30,
+          30
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 6,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 6,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 6,
+        "PE_por_nivel": 6,
+        "maximo": 36,
+        "classe": 2,
+        "tetos": [
+          0,
+          9,
+          18,
+          18,
+          27,
+          27,
+          36,
+          36
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 6,
+          "integridade_2": 7,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 7,
+        "PE_por_nivel": 6,
+        "maximo": 42,
+        "classe": 2,
+        "tetos": [
+          0,
+          10,
+          21,
+          21,
+          31,
+          31,
+          42,
+          42
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 8,
+        "PE_por_nivel": 6,
+        "maximo": 48,
+        "classe": 2,
+        "tetos": [
+          0,
+          12,
+          24,
+          24,
+          36,
+          36,
+          48,
+          48
+        ],
+        "custos": {
+          "feitico": 6,
+          "feitico_e_reacao_2": 8,
+          "manutencao_2_feitico_reacao_2": 10,
+          "integridade_2": 8,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 9,
+        "PE_por_nivel": 6,
+        "maximo": 54,
+        "classe": 3,
+        "tetos": [
+          0,
+          13,
+          27,
+          27,
+          40,
+          40,
+          54,
+          54
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 10,
+        "PE_por_nivel": 6,
+        "maximo": 60,
+        "classe": 3,
+        "tetos": [
+          0,
+          15,
+          30,
+          30,
+          45,
+          45,
+          60,
+          60
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 11,
+        "PE_por_nivel": 6,
+        "maximo": 66,
+        "classe": 3,
+        "tetos": [
+          0,
+          16,
+          33,
+          33,
+          49,
+          49,
+          66,
+          66
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 12,
+        "PE_por_nivel": 6,
+        "maximo": 72,
+        "classe": 3,
+        "tetos": [
+          0,
+          18,
+          36,
+          36,
+          54,
+          54,
+          72,
+          72
+        ],
+        "custos": {
+          "feitico": 9,
+          "feitico_e_reacao_2": 11,
+          "manutencao_2_feitico_reacao_2": 13,
+          "integridade_2": 12,
+          "manutencao_2": 2,
+          "liberacao_maxima": 14
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 13,
+        "PE_por_nivel": 6,
+        "maximo": 78,
+        "classe": 4,
+        "tetos": [
+          0,
+          19,
+          39,
+          39,
+          58,
+          58,
+          78,
+          78
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 14,
+        "PE_por_nivel": 6,
+        "maximo": 84,
+        "classe": 4,
+        "tetos": [
+          0,
+          21,
+          42,
+          42,
+          63,
+          63,
+          84,
+          84
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 15,
+        "PE_por_nivel": 6,
+        "maximo": 90,
+        "classe": 4,
+        "tetos": [
+          0,
+          22,
+          45,
+          45,
+          67,
+          67,
+          90,
+          90
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 16,
+        "PE_por_nivel": 6,
+        "maximo": 96,
+        "classe": 4,
+        "tetos": [
+          0,
+          24,
+          48,
+          48,
+          72,
+          72,
+          96,
+          96
+        ],
+        "custos": {
+          "feitico": 12,
+          "feitico_e_reacao_2": 14,
+          "manutencao_2_feitico_reacao_2": 16,
+          "integridade_2": 16,
+          "manutencao_2": 2,
+          "liberacao_maxima": 18
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 17,
+        "PE_por_nivel": 6,
+        "maximo": 102,
+        "classe": 5,
+        "tetos": [
+          0,
+          25,
+          51,
+          51,
+          76,
+          76,
+          102,
+          102
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 18,
+        "PE_por_nivel": 6,
+        "maximo": 108,
+        "classe": 5,
+        "tetos": [
+          0,
+          27,
+          54,
+          54,
+          81,
+          81,
+          108,
+          108
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 19,
+        "PE_por_nivel": 6,
+        "maximo": 114,
+        "classe": 5,
+        "tetos": [
+          0,
+          28,
+          57,
+          57,
+          85,
+          85,
+          114,
+          114
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 20,
+        "PE_por_nivel": 6,
+        "maximo": 120,
+        "classe": 5,
+        "tetos": [
+          0,
+          30,
+          60,
+          60,
+          90,
+          90,
+          120,
+          120
+        ],
+        "custos": {
+          "feitico": 15,
+          "feitico_e_reacao_2": 17,
+          "manutencao_2_feitico_reacao_2": 19,
+          "integridade_2": 20,
+          "manutencao_2": 2,
+          "liberacao_maxima": 23
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 21,
+        "PE_por_nivel": 6,
+        "maximo": 126,
+        "classe": 6,
+        "tetos": [
+          0,
+          31,
+          63,
+          63,
+          94,
+          94,
+          126,
+          126
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 22,
+        "PE_por_nivel": 6,
+        "maximo": 132,
+        "classe": 6,
+        "tetos": [
+          0,
+          33,
+          66,
+          66,
+          99,
+          99,
+          132,
+          132
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 23,
+        "PE_por_nivel": 6,
+        "maximo": 138,
+        "classe": 6,
+        "tetos": [
+          0,
+          34,
+          69,
+          69,
+          103,
+          103,
+          138,
+          138
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 24,
+        "PE_por_nivel": 6,
+        "maximo": 144,
+        "classe": 6,
+        "tetos": [
+          0,
+          36,
+          72,
+          72,
+          108,
+          108,
+          144,
+          144
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 25,
+        "PE_por_nivel": 6,
+        "maximo": 150,
+        "classe": 6,
+        "tetos": [
+          0,
+          37,
+          75,
+          75,
+          112,
+          112,
+          150,
+          150
+        ],
+        "custos": {
+          "feitico": 18,
+          "feitico_e_reacao_2": 20,
+          "manutencao_2_feitico_reacao_2": 22,
+          "integridade_2": 24,
+          "manutencao_2": 2,
+          "liberacao_maxima": 27
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 26,
+        "PE_por_nivel": 6,
+        "maximo": 156,
+        "classe": 7,
+        "tetos": [
+          0,
+          39,
+          78,
+          78,
+          117,
+          117,
+          156,
+          156
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 27,
+        "PE_por_nivel": 6,
+        "maximo": 162,
+        "classe": 7,
+        "tetos": [
+          0,
+          40,
+          81,
+          81,
+          121,
+          121,
+          162,
+          162
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 28,
+        "PE_por_nivel": 6,
+        "maximo": 168,
+        "classe": 7,
+        "tetos": [
+          0,
+          42,
+          84,
+          84,
+          126,
+          126,
+          168,
+          168
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 29,
+        "PE_por_nivel": 6,
+        "maximo": 174,
+        "classe": 7,
+        "tetos": [
+          0,
+          43,
+          87,
+          87,
+          130,
+          130,
+          174,
+          174
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      },
+      {
+        "nivel": 30,
+        "PE_por_nivel": 6,
+        "maximo": 180,
+        "classe": 7,
+        "tetos": [
+          0,
+          45,
+          90,
+          90,
+          135,
+          135,
+          180,
+          180
+        ],
+        "custos": {
+          "feitico": 21,
+          "feitico_e_reacao_2": 23,
+          "manutencao_2_feitico_reacao_2": 25,
+          "integridade_2": 28,
+          "manutencao_2": 2,
+          "liberacao_maxima": 32
+        },
+        "cabem": {
+          "feitico": 7,
+          "feitico_e_reacao_2": 7,
+          "manutencao_2_feitico_reacao_2": 7,
+          "integridade_2": 7,
+          "manutencao_2": 7,
+          "liberacao_maxima": 7
+        },
+        "total_resultados": 8
+      }
+    ]
+  },
+  "resumo_58_perfis": {
+    "d4": {
+      "0": 0,
+      "1": 0,
+      "2": 2,
+      "3": 56,
+      "4": 0
+    },
+    "d6": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 56,
+      "6": 0
+    },
+    "d8": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 2,
+      "7": 56,
+      "8": 0
+    }
+  },
+  "janelas": {
+    "d4": {
+      "3": {
+        "p_ao_menos_um_zero_pct": 57.8125,
+        "p_ao_menos_uma_oportunidade_pct": 37.5,
+        "p_ao_menos_duas_oportunidades_pct": 0.0,
+        "distribuicao_exata_oportunidades": {
+          "0": "5/8",
+          "1": "3/8"
+        },
+        "usos_esperados": {
+          "uma_25": 0.375,
+          "duas_15": 0.375,
+          "uma_50": 0.375
+        }
+      },
+      "5": {
+        "p_ao_menos_um_zero_pct": 76.26953125,
+        "p_ao_menos_uma_oportunidade_pct": 64.453125,
+        "p_ao_menos_duas_oportunidades_pct": 10.546875,
+        "distribuicao_exata_oportunidades": {
+          "0": "91/256",
+          "1": "69/128",
+          "2": "27/256"
+        },
+        "usos_esperados": {
+          "uma_25": 0.64453125,
+          "duas_15": 0.75,
+          "uma_50": 0.64453125
+        }
+      },
+      "8": {
+        "p_ao_menos_um_zero_pct": 89.98870849609375,
+        "p_ao_menos_uma_oportunidade_pct": 84.98382568359375,
+        "p_ao_menos_duas_oportunidades_pct": 39.92156982421875,
+        "distribuicao_exata_oportunidades": {
+          "0": "9841/65536",
+          "1": "7383/16384",
+          "2": "11043/32768",
+          "3": "999/16384",
+          "4": "81/65536"
+        },
+        "usos_esperados": {
+          "uma_25": 0.8498382568359375,
+          "duas_15": 1.249053955078125,
+          "uma_50": 0.8498382568359375
+        }
+      },
+      "10": {
+        "p_ao_menos_um_zero_pct": 94.36864852905273,
+        "p_ao_menos_uma_oportunidade_pct": 91.55302047729492,
+        "p_ao_menos_duas_oportunidades_pct": 57.76405334472656,
+        "distribuicao_exata_oportunidades": {
+          "0": "88573/1048576",
+          "1": "354303/1048576",
+          "2": "210321/524288",
+          "3": "83295/524288",
+          "4": "18225/1048576",
+          "5": "243/1048576"
+        },
+        "usos_esperados": {
+          "uma_25": 0.9155302047729492,
+          "duas_15": 1.4931707382202148,
+          "uma_50": 0.9155302047729492
+        }
+      }
+    },
+    "d6": {
+      "3": {
+        "p_ao_menos_um_zero_pct": 42.129629629629626,
+        "p_ao_menos_uma_oportunidade_pct": 27.77777777777778,
+        "p_ao_menos_duas_oportunidades_pct": 0.0,
+        "distribuicao_exata_oportunidades": {
+          "0": "13/18",
+          "1": "5/18"
+        },
+        "usos_esperados": {
+          "uma_25": 0.2777777777777778,
+          "duas_15": 0.2777777777777778,
+          "uma_50": 0.2777777777777778
+        }
+      },
+      "5": {
+        "p_ao_menos_um_zero_pct": 59.81224279835391,
+        "p_ao_menos_uma_oportunidade_pct": 49.76851851851852,
+        "p_ao_menos_duas_oportunidades_pct": 5.787037037037037,
+        "distribuicao_exata_oportunidades": {
+          "0": "217/432",
+          "1": "95/216",
+          "2": "25/432"
+        },
+        "usos_esperados": {
+          "uma_25": 0.4976851851851852,
+          "duas_15": 0.5555555555555556,
+          "uma_50": 0.4976851851851852
+        }
+      },
+      "8": {
+        "p_ao_menos_um_zero_pct": 76.74319606386221,
+        "p_ao_menos_uma_oportunidade_pct": 70.92900996418228,
+        "p_ao_menos_duas_oportunidades_pct": 23.6884502171925,
+        "distribuicao_exata_oportunidades": {
+          "0": "488281/1679616",
+          "1": "198365/419904",
+          "2": "59125/279936",
+          "3": "10625/419904",
+          "4": "625/1679616"
+        },
+        "usos_esperados": {
+          "uma_25": 0.7092900996418229,
+          "duas_15": 0.9461746018137479,
+          "uma_50": 0.7092900996418229
+        }
+      },
+      "10": {
+        "p_ao_menos_um_zero_pct": 83.84944171101543,
+        "p_ao_menos_uma_oportunidade_pct": 79.81180255222358,
+        "p_ao_menos_duas_oportunidades_pct": 36.911876153702856,
+        "distribuicao_exata_oportunidades": {
+          "0": "12207031/60466176",
+          "1": "25939945/60466176",
+          "2": "8821475/30233088",
+          "3": "2175625/30233088",
+          "4": "321875/60466176",
+          "5": "3125/60466176"
+        },
+        "usos_esperados": {
+          "uma_25": 0.7981180255222358,
+          "duas_15": 1.1672367870592644,
+          "uma_50": 0.7981180255222358
+        }
+      }
+    },
+    "d8": {
+      "3": {
+        "p_ao_menos_um_zero_pct": 33.0078125,
+        "p_ao_menos_uma_oportunidade_pct": 21.875,
+        "p_ao_menos_duas_oportunidades_pct": 0.0,
+        "distribuicao_exata_oportunidades": {
+          "0": "25/32",
+          "1": "7/32"
+        },
+        "usos_esperados": {
+          "uma_25": 0.21875,
+          "duas_15": 0.21875,
+          "uma_50": 0.21875
+        }
+      },
+      "5": {
+        "p_ao_menos_um_zero_pct": 48.7091064453125,
+        "p_ao_menos_uma_oportunidade_pct": 40.1611328125,
+        "p_ao_menos_duas_oportunidades_pct": 3.5888671875,
+        "distribuicao_exata_oportunidades": {
+          "0": "2451/4096",
+          "1": "749/2048",
+          "2": "147/4096"
+        },
+        "usos_esperados": {
+          "uma_25": 0.401611328125,
+          "duas_15": 0.4375,
+          "uma_50": 0.401611328125
+        }
+      },
+      "8": {
+        "p_ao_menos_um_zero_pct": 65.63910841941833,
+        "p_ao_menos_uma_oportunidade_pct": 59.912294149398804,
+        "p_ao_menos_duas_oportunidades_pct": 15.370386838912964,
+        "distribuicao_exata_oportunidades": {
+          "0": "6725601/16777216",
+          "1": "1868223/4194304",
+          "2": "1183203/8388608",
+          "3": "52479/4194304",
+          "4": "2401/16777216"
+        },
+        "usos_esperados": {
+          "uma_25": 0.599122941493988,
+          "duas_15": 0.7528268098831177,
+          "uma_50": 0.599122941493988
+        }
+      },
+      "10": {
+        "p_ao_menos_um_zero_pct": 73.69244238361716,
+        "p_ao_menos_uma_oportunidade_pct": 69.3078494630754,
+        "p_ao_menos_duas_oportunidades_pct": 24.974742904305458,
+        "distribuicao_exata_oportunidades": {
+          "0": "329554457/1073741824",
+          "1": "476023107/1073741824",
+          "2": "112902909/536870912",
+          "3": "20060355/536870912",
+          "4": "2220925/1073741824",
+          "5": "16807/1073741824"
+        },
+        "usos_esperados": {
+          "uma_25": 0.693078494630754,
+          "duas_15": 0.9428259236738086,
+          "uma_50": 0.693078494630754
+        }
+      }
+    }
+  },
+  "recuperacao_por_maximo": {
+    "8": {
+      "uma_25": {
+        "por_uso": 2,
+        "total_maximo_sem_novo_descanso": 2
+      },
+      "duas_15": {
+        "por_uso": 1,
+        "total_maximo_sem_novo_descanso": 2
+      },
+      "uma_50": {
+        "por_uso": 4,
+        "total_maximo_sem_novo_descanso": 4
+      }
+    },
+    "40": {
+      "uma_25": {
+        "por_uso": 10,
+        "total_maximo_sem_novo_descanso": 10
+      },
+      "duas_15": {
+        "por_uso": 6,
+        "total_maximo_sem_novo_descanso": 12
+      },
+      "uma_50": {
+        "por_uso": 20,
+        "total_maximo_sem_novo_descanso": 20
+      }
+    },
+    "120": {
+      "uma_25": {
+        "por_uso": 30,
+        "total_maximo_sem_novo_descanso": 30
+      },
+      "duas_15": {
+        "por_uso": 18,
+        "total_maximo_sem_novo_descanso": 36
+      },
+      "uma_50": {
+        "por_uso": 60,
+        "total_maximo_sem_novo_descanso": 60
+      }
+    },
+    "180": {
+      "uma_25": {
+        "por_uso": 45,
+        "total_maximo_sem_novo_descanso": 45
+      },
+      "duas_15": {
+        "por_uso": 27,
+        "total_maximo_sem_novo_descanso": 54
+      },
+      "uma_50": {
+        "por_uso": 90,
+        "total_maximo_sem_novo_descanso": 90
+      }
+    }
+  }
+}

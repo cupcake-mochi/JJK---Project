@@ -1,0 +1,112 @@
+{
+  "data": "2026-10-22",
+  "fonte_r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "tipo": "contas e limites dos exemplos, conferidos contra a redação",
+  "casos": [
+    {
+      "caso": "Essência 5: vagas",
+      "obtido": 2,
+      "esperado": 2
+    },
+    {
+      "caso": "Essência 4: vagas",
+      "obtido": 2,
+      "esperado": 2
+    },
+    {
+      "caso": "Essência 1: sem mínimo",
+      "obtido": 0,
+      "esperado": 0
+    },
+    {
+      "caso": "Overtime: máximo reduzido",
+      "obtido": 32,
+      "esperado": 32
+    },
+    {
+      "caso": "Overtime: máximo elevado",
+      "obtido": 48,
+      "esperado": 48
+    },
+    {
+      "caso": "Overtime: diferença recebida",
+      "obtido": 16,
+      "esperado": 16
+    },
+    {
+      "caso": "Overtime: 12 atuais mais diferença",
+      "obtido": 28,
+      "esperado": 28
+    },
+    {
+      "caso": "Criação: Classe 3, responsável Classe 4",
+      "obtido": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "Criação: igualar CD",
+      "obtido": true,
+      "esperado": true
+    },
+    {
+      "caso": "Criação: dado 5 falha",
+      "obtido": false,
+      "esperado": false
+    },
+    {
+      "caso": "Nova tentativa autorizada: vantagem 2 e 8",
+      "obtido": 14,
+      "esperado": 14
+    },
+    {
+      "caso": "Criar Classe 4 com responsável Classe 4",
+      "obtido": 14,
+      "esperado": 14
+    },
+    {
+      "caso": "Reconstruir para Classe 4 com responsável Classe 4",
+      "obtido": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "Transferir Classe 4 com responsável Classe 4: sem desconto de reconstrução",
+      "obtido": 14,
+      "esperado": 14
+    },
+    {
+      "caso": "Classe 3: invocador 9",
+      "obtido": 9,
+      "esperado": 9
+    },
+    {
+      "caso": "Classe 3: invocador 13",
+      "obtido": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "Dano direto 30, PV atual 8, máximo 52: destruição",
+      "obtido": false,
+      "esperado": false
+    },
+    {
+      "caso": "Dano direto 34, PV atual 8, máximo 52: destruição",
+      "obtido": false,
+      "esperado": false
+    },
+    {
+      "caso": "Dano direto 35, PV atual 8, máximo 52: destruição",
+      "obtido": true,
+      "esperado": true
+    },
+    {
+      "caso": "Dano direto 52, PV atual 8, máximo 52: destruição",
+      "obtido": true,
+      "esperado": true
+    }
+  ],
+  "limites": [
+    "Não valida a economia completa.",
+    "Não estabelece duração ou custo material de projetos.",
+    "Não é teste humano ou sessão de jogo."
+  ]
+}

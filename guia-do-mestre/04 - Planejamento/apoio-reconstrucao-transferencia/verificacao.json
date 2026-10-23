@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-22",
+  "arquivos_previos": 127,
+  "divergencias_iniciais": 0,
+  "alteracoes_esperadas": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/35-propostas-de-tempo-e-materiais-de-entidades.md",
+    "04 - Planejamento/37-reavaliacao-da-falha-e-complexidade-dos-projetos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+    "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "r53_preservada": true,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "links_locais": 584,
+  "links_quebrados": [],
+  "ancoras_verificadas": false,
+  "tabelas_da_secao46_conferidas": true,
+  "casos_finais": {
+    "reconstrucao3_4_uma_falha_h": 36,
+    "reconstrucao3_4_material_uma_falha": 18000,
+    "reconstrucao1_4_sem_falha_h": 48,
+    "reconstrucao1_4_uma_falha_no_meio_h": 56,
+    "criar1_reconstruir7_h": 204,
+    "transferencia3_uma_falha_h": 6,
+    "transferencia3_uma_falha_materiais": 4000,
+    "retomada_transferencia5_h": 5,
+    "reconstrucao3_4_apos_ciclo28_h": 8,
+    "reconstrucao_cd_mesma_classe": 12,
+    "transferencia_cd_mesma_classe": 14,
+    "transferencia_cd_uma_classe_abaixo": 12
+  },
+  "direcoes_escolhidas": {
+    "reconstrucao": "metade do tempo de criação da Classe nova",
+    "transferencia": "um oitavo, arredondar para cima em horas inteiras, mínimo 2 h",
+    "retomada": "50%, mínimo 1 h; opção detalhada prévia",
+    "diferenca_exata": "não adotada"
+  },
+  "revisao": [
+    "Dificuldade reduzida apenas para reconstrução.",
+    "Um teste por Classe; falha não apaga passagem concluída.",
+    "Herança conserva estados e não religa corpo.",
+    "Materiais ilustrativos sem tabela universal."
+  ],
+  "validacao_humana": false,
+  "validacao_economica_integral": false
+}

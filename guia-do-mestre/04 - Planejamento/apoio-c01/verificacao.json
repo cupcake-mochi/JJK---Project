@@ -1,0 +1,23 @@
+{
+  "links_conferidos": 118,
+  "problemas_links": [],
+  "alterados_anteriores": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md",
+    "04 - Planejamento/10-mundo-cotidiano-e-caminhos-de-ensino.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "textos_novos_palavras": {
+    "06-mundo-e-cotidiano.md": 2084,
+    "07-preparar-o-grupo.md": 1646,
+    "08-ficha-de-acordos-do-grupo.md": 402,
+    "09-exemplo-de-acordos-do-grupo.md": 705
+  },
+  "fichas_piloto_calculos_e_simulacoes_preservados": true,
+  "regras_r53_fonte_preservada": true,
+  "teste_leitura_humano": false,
+  "teste_mesa": false
+}

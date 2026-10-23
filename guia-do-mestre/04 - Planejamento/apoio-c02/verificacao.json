@@ -1,0 +1,23 @@
+{
+  "links_conferidos": 161,
+  "problemas_links": [],
+  "arquivos_anteriores_alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/01-preparar-uma-missao.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "palavras_textos_novos": {
+    "13-preparar-uma-investigacao.md": 1445,
+    "14-o-aviso-de-reabertura.md": 1871,
+    "15-ligar-missoes-e-campanhas.md": 1574,
+    "16-linha-de-continuidade.md": 419
+  },
+  "pilotos_base_numerica_e_simulacoes_preservados": true,
+  "teste_leitura_humano": false,
+  "teste_mesa": false,
+  "horarios_e_documentos_do_caso": "ficção original, sem prazo geral adotado"
+}

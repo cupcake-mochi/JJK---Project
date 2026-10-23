@@ -1,0 +1,49 @@
+{
+  "data": "2026-10-23",
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/64-prototipos-de-recursos-dos-inimigos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "04 - Planejamento/apoio-prototipos-inimigos/comparar_recursos.py",
+    "04 - Planejamento/apoio-prototipos-inimigos/resultados.json",
+    "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "novos": [
+    "04 - Planejamento/65-criterios-e-interacoes-das-habilidades.md",
+    "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md",
+    "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md",
+    "04 - Planejamento/apoio-habilidades-inimigos/verificacao.json"
+  ],
+  "links_locais_conferidos": 332,
+  "links_quebrados": [],
+  "arquivos_anteriores_preservados": 195,
+  "historico_anterior_conferido": true,
+  "resultados_anteriores_recalculados": true,
+  "totais_anteriores_inalterados": true,
+  "diferenca_nos_resultados": "Somente custo_base_classe=3 e pagamento_normal_dispensado=true no caso de recarga com estágio 2. Chave antiga mantida por continuidade.",
+  "casos_aritmeticos": {
+    "cd_agarrar": 12,
+    "tr11_evitar": false,
+    "tr12_evitar": true,
+    "classe1_base": 3,
+    "pagamento_dispensado": 0,
+    "dispensa_estagio2": 1,
+    "dispensa_sobrecusto": 2,
+    "dispensa_ambos": 3,
+    "metade_base_para_cima": 2,
+    "pv_apos_protecao": 3
+  },
+  "fonte_r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "base_inimigos_preservada": true,
+  "registro_decisoes_preservado": true,
+  "classificacao": "Método e exemplos desenvolvidos, sem adoção de economia universal ou valores novos pelo autor.",
+  "leitura_r53": "Manobras/contenções, ações, conjuração, custos, Integridade, energia percebida, cancelamento, Rescaldo e entidades; revisão dirigida de interações.",
+  "pesquisa_claude": "Leitura dirigida do índice, seleção de inimigos e trechos de design; sem auditoria integral, importação de estatísticas ou edição.",
+  "simulacao_combate": false,
+  "teste_humano": false,
+  "equilibrio_validado": false
+}

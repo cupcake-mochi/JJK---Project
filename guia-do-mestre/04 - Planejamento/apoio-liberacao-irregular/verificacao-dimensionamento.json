@@ -1,0 +1,35 @@
+{
+  "estado": "Comparação conferida e respondida: d6 0/25/50/75/100/100% e uma recuperação de 25% por descanso curto ou longo escolhidos como referência experimental.",
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "04 - Planejamento/50-comparacao-de-beneficios-da-liberacao-irregular.md",
+    "04 - Planejamento/06-registro-das-decisoes.md"
+  ],
+  "novos": [
+    "04 - Planejamento/51-dimensionamento-do-refluxo-e-dos-limites.md",
+    "04 - Planejamento/apoio-liberacao-irregular/dimensionar-refluxo.py",
+    "04 - Planejamento/apoio-liberacao-irregular/dimensionar-refluxo.json"
+  ],
+  "links_locais": 260,
+  "ancoras_r53": 20,
+  "erros": [],
+  "perfis_por_distribuicao": 58,
+  "distribuicoes": 3,
+  "janelas": "3, 5, 8 e 10 sorteios, sem marca inicial; probabilidades exatas.",
+  "conferencia_independente": "Enumeração binária de 1 a 6 sorteios para cada chance de zero.",
+  "caso_manutencao": "6 saldo/10 teto; paga 3, recupera 10, paga 6; termina 7 saldo/1 teto.",
+  "r53_md_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_pdf_sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "limites": "Sem simulação de combate, teste humano ou validação de equilíbrio. Valores escolhidos; procedimentos complementares em consolidação.",
+  "escolhas_recebidas": {
+    "distribuicao": "d6: 0/25/50/75/100/100%",
+    "refluxo": "25% uma vez por descanso curto ou longo, Bônus, limitado ao que falta",
+    "arredondamento_recuperacao": "para baixo, mínimo 1 quando positivo",
+    "tetos_positivos": "arredondamento ainda descrito como proposta procedimental"
+  }
+}

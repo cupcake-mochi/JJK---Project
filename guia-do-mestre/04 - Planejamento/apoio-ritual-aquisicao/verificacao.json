@@ -1,0 +1,53 @@
+{
+  "estado": "M112 desenvolvido como proposta experimental completa; condições locais ainda não constituem regras gerais aprovadas.",
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/34-c09-pactos-promessas-e-entidades.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+    "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "novos": [
+    "04 - Planejamento/54-desafio-de-ritual-do-cao-de-sombra.md",
+    "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md"
+  ],
+  "links_locais_conferidos": 294,
+  "contas_e_limites": {
+    "atributos": true,
+    "vida": true,
+    "integridade": true,
+    "defesa": true,
+    "bloquear": true,
+    "ataque": true,
+    "CD": true,
+    "especial": true,
+    "treinos": true,
+    "retorno": true,
+    "saldo": true,
+    "estagios_integridade": true,
+    "primeiro_golpe": true,
+    "golpe_final": true,
+    "dano_igual_maximo": true,
+    "area_nao_destroi": true,
+    "excedente_igual_metade": true,
+    "excedente_maior_metade": true
+  },
+  "erros": [],
+  "r53_md_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_pdf_sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "conferencia_editorial": [
+    "Aquisição por lista apresentada como alternativa ao espaço dedicado do exemplo publicado.",
+    "Turno próprio restrito ao adversário da prova; conquista usa ciclo e coletiva normais.",
+    "Nenhuma reserva própria inventada para shikigami; especial não executada na prova.",
+    "Derrota da entidade distingue queda e destruição; retorno e Integridade preservados.",
+    "Queda do participante encerra a prova sem substituir Vida a zero e Socorro.",
+    "Intervenção de criatura distinta de conversa e esclarecimento de regras entre jogadores.",
+    "Condições locais identificadas como elaboração editorial; nenhuma decisão autoral nova inventada."
+  ],
+  "limites": "Verificação documental, aritmética e de clareza. Sem sessão humana, simulação de combate ou validação de equilíbrio.",
+  "proxima_tarefa": "M113–M114: doma conduzida com base pequena R53; GPT-6 Astra, esforço alto."
+}

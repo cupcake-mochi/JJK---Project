@@ -1,0 +1,32 @@
+{
+  "links_conferidos": 43,
+  "problemas_links": [],
+  "arquivos_anteriores_preservados": {
+    "04 - Planejamento/01-plano-completo-do-guia.md": true,
+    "04 - Planejamento/02-decisoes-para-conversar.md": true,
+    "04 - Planejamento/03-matriz-dos-130-pontos.md": true,
+    "04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md": true,
+    "04 - Planejamento/05-como-selecionar-e-adaptar-as-referencias.md": true,
+    "04 - Planejamento/06-registro-das-decisoes.md": true,
+    "04 - Planejamento/07-revisao-dos-novos-relatorios.md": true,
+    "04 - Planejamento/08-primeira-conversa-sobre-tempo-de-trabalho.md": true,
+    "04 - Planejamento/09-atividades-fora-de-missao-e-treinamentos.md": true,
+    "04 - Planejamento/10-mundo-cotidiano-e-caminhos-de-ensino.md": true,
+    "04 - Planejamento/11-fontes-da-obra-localizadas.md": true,
+    "04 - Planejamento/12-piloto-editorial-cotidiano.md": true,
+    "04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md": true,
+    "04 - Planejamento/14-base-pequena-de-inimigos-r53.md": true,
+    "04 - Planejamento/15-verificacao-da-base-e-do-piloto.md": true,
+    "04 - Planejamento/apoio-piloto/base-inimigos.json": true,
+    "04 - Planejamento/apoio-piloto/conferir_exemplo_guiado.py": true,
+    "04 - Planejamento/apoio-piloto/gerar_fichas.py": true,
+    "04 - Planejamento/apoio-piloto/gerar_relatorio.py": true,
+    "04 - Planejamento/apoio-piloto/resultado-exemplo-guiado.json": true,
+    "04 - Planejamento/apoio-piloto/resultado-validacao.json": true,
+    "04 - Planejamento/apoio-piloto/RETOMADA.md": true,
+    "04 - Planejamento/apoio-piloto/validar_base.py": true,
+    "04 - Planejamento/apoio-piloto/verificacao-da-entrega.json": true,
+    "04 - Planejamento/apoio-preparacao/verificacao-editorial.json": true
+  },
+  "revisao_humana_ou_teste_mesa": false
+}

@@ -1,0 +1,62 @@
+{
+  "estado": "M111/M115/M122 desenvolvidos com ficha e evolução; Retrato de referência permanece proposta de CE1.",
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/34-c09-pactos-promessas-e-entidades.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+    "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "novos": [
+    "04 - Planejamento/56-construcao-e-evolucao-do-escriba.md",
+    "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md"
+  ],
+  "links_locais_conferidos": 317,
+  "contas_e_limites": {
+    "atributos_5": true,
+    "atributos_6": true,
+    "PV_niveis": true,
+    "Integridade_niveis": true,
+    "vagas": true,
+    "pericias": true,
+    "defesa": true,
+    "bloquear": true,
+    "acerto": true,
+    "acerto_precisao": true,
+    "CD": true,
+    "precisao_1_2_3": true,
+    "fura_2_3": true,
+    "guiada_C1": true,
+    "guiada_C2": true,
+    "guiada_C3": true,
+    "perfurante_C2": true,
+    "perfurante_C3": true,
+    "RD_reduzida": true,
+    "PE_uso": true,
+    "invalida_tres_melhorias": true,
+    "invalida_saldo": true,
+    "alternativa_saldo": true,
+    "turno_saldo": true,
+    "turno_acerto": true,
+    "turno_dano": true
+  },
+  "erros": [],
+  "r53_md_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_pdf_sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "conferencia_editorial": [
+    "Família Livre conserva preço mínimo; Forma não recebe desconto.",
+    "Talento, vaga de especial, pontos de montagem e energia de uso separados.",
+    "Fura usa Classe reduzida no efeito e Classe real no preço.",
+    "Montagem inválida falha tanto em número de Melhorias quanto em saldo anunciado.",
+    "Aumento de Constituição recalcula todos os níveis; Maestria permanece 1 até nível 9.",
+    "Projeção de vagas não concede novos poderes nem promove talento antigo.",
+    "Retrato compara informação visual e sonora sem declarar equivalência ou aprovação universal.",
+    "Uso válido, impedido, comando, entrada e turno numérico incluídos."
+  ],
+  "limites": "Conferência documental, aritmética e editorial. Sem sessão, simulação de combate ou validação de equilíbrio.",
+  "proxima_tarefa": "M116–M118: transporte, passageiros, armazenamento e atuação; GPT-6 Astra, esforço alto."
+}

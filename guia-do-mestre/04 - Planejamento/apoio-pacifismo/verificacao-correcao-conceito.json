@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-22",
+  "estado": "Correção autoral incorporada; direção causal escolhida; procedimento completo ainda pendente.",
+  "manifesto_anterior": 137,
+  "divergencias_iniciais": 0,
+  "arquivos_alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "04 - Planejamento/39-avaliacao-das-sete-ideias-de-pactos.md",
+    "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+    "04 - Planejamento/40-proposta-de-pacifismo-impraticavel.md",
+    "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md"
+  ],
+  "arquivos_novos": [
+    "04 - Planejamento/41-reformulacao-do-pacifismo-impraticavel.md",
+    "04 - Planejamento/apoio-pacifismo/verificacao-correcao-conceito.json"
+  ],
+  "links_locais": 616,
+  "ausentes": [],
+  "ancoras_verificadas": false,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_preservada": true,
+  "decidido": [
+    "Incapacidade de violência direta com obrigação periódica de uma morte.",
+    "Responsabilidade indireta pode cumprir a obrigação.",
+    "Referência de três dias preservada no contexto da pergunta sobre suspensão."
+  ],
+  "pendente": [
+    "Critério de responsabilidade indireta e alcance de pessoa.",
+    "Intervalo X.",
+    "Benefício único e sua entrega narrativa.",
+    "Gatilho e retomada da consequência no conceito corrigido.",
+    "Forma do Pacto e procedimento completo."
+  ],
+  "retirado": [
+    "Voto voluntário de não iniciar agressão como representação do conceito.",
+    "Estabilizar com Ação Bônus como benefício deste modelo."
+  ],
+  "proposta_nao_aprovada": "Acesso a lembrança significativa por eco produzido pelo Pacto.",
+  "historico_preservado": "apoio-pacifismo/historico/antes-da-correcao-do-conceito/",
+  "limites": [
+    "Revisão documental e editorial, sem teste humano ou simulação.",
+    "Nenhuma regra nova completa aprovada.",
+    "Sem alteração de Bestiário, treinamentos ou regras de entidades."
+  ]
+}

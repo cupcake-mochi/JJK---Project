@@ -1,0 +1,34 @@
+{
+  "estado": "Promessa consolidada como exemplo experimental; perda de PE e bloqueio até reparação definida.",
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/34-c09-pactos-promessas-e-entidades.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/41-pactos-e-promessas.md",
+    "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "novos": [
+    "04 - Planejamento/53-promessa-do-arquivo-termos-e-quebra.md",
+    "06 - Redacao do Guia/50-promessa-do-arquivo.md"
+  ],
+  "links_locais_conferidos": 284,
+  "erros": [],
+  "r53_md_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_pdf_sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "conferencia_editorial": [
+    "Troca original encerra na quebra; reparação e bloqueio permanecem.",
+    "Sem receber original, Akira não assume devolução.",
+    "Entrega válida encerra bloqueio sem reposição automática de PE.",
+    "Impossibilidade antes da quebra não apaga punição anterior.",
+    "Reparações concretas e dispensa identificadas como elaboração editorial.",
+    "16 horas entre Dia 2 às 18h e Dia 3 às 10h; descanso curto normal recupera 25% de 40 = 10 PE.",
+    "Proposta antiga de 24 horas mantida somente nos registros históricos."
+  ],
+  "limites": "Conferência documental e editorial; sem teste em mesa nem validação de equilíbrio.",
+  "proxima_tarefa": "Desafio completo de ritual de aquisição M112, baseado na R53; GPT-6 Astra, esforço alto."
+}

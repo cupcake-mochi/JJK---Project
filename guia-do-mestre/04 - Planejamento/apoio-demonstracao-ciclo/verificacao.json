@@ -1,0 +1,68 @@
+{
+  "data": "2026-10-22",
+  "etapa": "Demonstracao e ajuste para calendario real aproximado",
+  "resultados_aritmeticos_e_horarios": {
+    "Rina": {
+      "horas_por_atividade": {
+        "reparo": 4,
+        "pratica": 2,
+        "leitura": 2
+      },
+      "horas_totais": 8,
+      "periodos_de_4_horas": 2.0,
+      "saldo": 0,
+      "conflitos_de_horario": false
+    },
+    "Mei": {
+      "horas_por_atividade": {
+        "arquivo": 4,
+        "pratica": 2,
+        "leitura": 2
+      },
+      "horas_totais": 8,
+      "periodos_de_4_horas": 2.0,
+      "saldo": 0,
+      "conflitos_de_horario": false
+    },
+    "remessa_atrasada": {
+      "dedicacao_usada": 6,
+      "saldo_nao_usado": 2,
+      "trabalho_arquivo_concluido": 2,
+      "trabalho_arquivo_restante": 2,
+      "segundo_ciclo_sem_acumulo": {
+        "inicial": 8,
+        "apos_concluir_arquivo": 6
+      },
+      "segundo_ciclo_transferindo_2h": {
+        "inicial": 10,
+        "apos_concluir_arquivo": 8
+      }
+    },
+    "missao_integral": {
+      "trabalho_na_oficina": 0,
+      "disponibilidade_hipotetica_nao_executada": 8,
+      "destino_do_saldo": "em aberto"
+    }
+  },
+  "arquivos_anteriores_conferidos": 103,
+  "arquivos_alterados_previstos": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/08-primeira-conversa-sobre-tempo-de-trabalho.md",
+    "04 - Planejamento/09-atividades-fora-de-missao-e-treinamentos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/28-proposta-unidade-de-dedicacao.md",
+    "04 - Planejamento/29-pesquisa-comparada-de-tempo-e-atividades.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md"
+  ],
+  "links_locais_conferidos": 463,
+  "links_locais_quebrados": [],
+  "fonte_r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_manuscrito_e_base_de_inimigos_preservados": true,
+  "decisao_autoral_nova": "Tempo do mundo acompanha aproximadamente os dias reais",
+  "unidade_escolhida": false,
+  "quota_escolhida": false,
+  "teste_humano_ou_mesa": false,
+  "limites": "Conferencia de somas e compatibilidade dos horarios sob premissas declaradas; nao valida economia, treinamento, quantidade de dedicacao ou usabilidade."
+}

@@ -1,0 +1,55 @@
+{
+  "data": "2026-10-22",
+  "arquivos_previos": 121,
+  "divergencias_antes_da_proposta": 0,
+  "alterados_esperados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "r53_preservada": true,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "links_locais": 562,
+  "links_quebrados": [],
+  "ancoras_verificadas": false,
+  "tabela_da_secao45_conferida": [
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      16
+    ],
+    [
+      3,
+      32
+    ],
+    [
+      4,
+      48
+    ],
+    [
+      5,
+      72
+    ],
+    [
+      6,
+      96
+    ],
+    [
+      7,
+      128
+    ]
+  ],
+  "referencia_retomada": 50,
+  "proposta_25pct": "não aprovada; preservada como comparação histórica",
+  "reconstrucao_e_transferencia": "prazos ainda não aprovados",
+  "precos_em_ienes": "orçamentos ilustrativos, não tabela universal",
+  "validacao": "Documental, aritmética e enumeração de dados; sem teste humano ou economia completa."
+}

@@ -1,0 +1,129 @@
+# Registro das decisões do Guia do Mestre
+
+Registro iniciado em 21 de outubro de 2026. Somente respostas efetivas de Mizuki são tratadas como decisões. As consequências editoriais abaixo aplicam essas respostas ao planejamento; detalhes de conteúdo e mecânica continuam sujeitos ao desenvolvimento correspondente.
+
+## Público finalidade e formatos de campanha
+
+**Decidido:** ensinar a mestrar Ciclo Maldito, com apoio para a guilda. A guilda é o foco principal de referência, e o livro deve explicar que o sistema está melhor adaptado a esse formato. O Guia também atende campanhas fechadas e outros formatos; participar de uma guilda não é uma obrigação de uso.
+
+**Resposta de Mizuki:**
+
+> Ensinar a mestrar ciclo maldito, com apoio para a guilda. Devemos ser claros que o foco do sistema é pra guilda e o guia de mestre vai ser mais focado nisso, mas ele vai dar um belo geral em como auxiliar mestres no sistema como foco principal
+
+**Esclarecimento posterior de Mizuki, que integra a decisão:**
+
+> deixando claro, o guia de mestre n vai obrigar a pessoa a mestrar em um ambiente de guilda, mas ele vai abordar o foco nisso e deixar claro que o sistema é adaptado de melhor forma para uma guilda, mas q os ensinamento abordados no livro podem vir a ser usados em uma campanha fechada e afins
+
+**Aplicação no planejamento:** usar a guilda como referência frequente, identificar suas particularidades e mostrar adaptações de campanha quando elas forem necessárias. O núcleo de ensino deve ser utilizável fora da guilda.
+
+## Caminho recomendado e alternativas
+
+**Decidido:** oferecer um caminho recomendado, com alternativas explicadas e aconselhamento ou ferramentas que ajudem o mestre a escolher sua abordagem. A preferência é por esse equilíbrio, mais próximo de uma orientação recomendada do que de uma coleção sem direção.
+
+**Resposta de Mizuki:**
+
+> Um caminho recomendado, com alternativas explicadas, essas alternativas e caminhos recomendados podem ter aconselhamento com ferramentas para ajudar na escolha de abordagem do mestre tbm. Um meio termo mais puxado pra 1, basicamente
+
+**Aplicação no planejamento:** apresentar primeiro a recomendação, explicar sua razão e mostrar condições para escolher alternativas. Distinguir recomendações de regras publicadas e de políticas específicas de uma guilda.
+
+## Clareza conhecimento do mundo e cotidiano
+
+**Decidido:** evitar falta de clareza; atender mestres que desconhecem Jujutsu Kaisen e mestres que conhecem bem a obra; abordar o mundo com acesso flexível ao aprofundamento; trabalhar o cotidiano de diferentes feiticeiros e fontes de força, incluindo vida comum, tarefas e problemas do mundo.
+
+**Resposta de Mizuki:**
+
+> quero evitar falta de clareza, principalmente e também quero q o livro consiga ajudar um mestre q n sabe oq é jujutsu kaisen e um  mestre q sabe muito bem oq é jujutsu kaisen a mestrar no sistema, ele vai abordar bem o mundo, mas n necessariamente força o mestre q ja sabe do mundo a ler esse conhecimento superficial ou aprofundado da obra. Mas as mesas de ciclo maldito tem q abordar bem o cotidiano de um feiticeiro, independente de onde ele seja ou sua fonte de "força", atual. Seja desde o cotidiano comum, até as tarefas que pode ou não vir da escola, problemas a se enfrentar no mundo e afins
+
+**Aplicação no planejamento:** organizar contexto essencial, aprofundamentos consultáveis e procedimentos de mesa com remissões. Usar exemplos de vida comum, relações, instituições e iniciativas próprias de personagens diversos. Planejar como distinguir a obra, as escolhas do sistema e os fatos de uma campanha.
+
+## Revelações da obra e aprofundamentos
+
+**Decidido em 21 de outubro de 2026, D01:** a entrada do Guia explicará o mundo sem revelar a trama. Os aprofundamentos poderão usar o mangá completo, em conteúdo separado e sinalizado, permitindo ao leitor escolher o que consultar.
+
+**Resposta de Mizuki à pergunta sobre o tratamento das revelações:**
+
+> Entrada sem revelações da trama + aprofundamentos sinalizados do mangá completo (recomendado)
+
+**Aplicação no planejamento:** preparar caminhos de leitura essencial, consulta e aprofundamento; sinalizar antes da revelação, inclusive ao revisar títulos e remissões; manter o procedimento prático compreensível quando o aprofundamento for pulado. O desenho e a extensão dessas partes continuam em desenvolvimento.
+
+**Pesquisa autorizada:** Mizuki autorizou pesquisar a obra e o mundo quando necessário e indicou os levantamentos já presentes no Claude 2 como ponto de partida, com revisão por pesquisa. Os caminhos recuperados estão no [mapa de fontes](11-fontes-da-obra-localizadas.md). A autorização de consulta não transforma propostas históricas em regras atuais nem aprova automaticamente as conclusões dos levantamentos.
+
+## Divisão entre Guia do Mestre e Livro de Inimigos
+
+**Decidido em 21 de outubro de 2026, D11:** ensinar criação, adaptação e avaliação de inimigos, preparação de encontros e condução no Guia do Mestre. Concentrar fichas prontas, variantes, lore e orientações específicas de uso no Livro de Inimigos.
+
+**Proposta apresentada a Mizuki:** exemplos completos e comentados no Guia para ensinar o processo; variedade de entradas prontas no catálogo para ampliar o repertório. O catálogo explica como ler e usar suas fichas e remete ao Guia para construção. As regras completas de criação têm uma referência principal no Guia.
+
+**Resposta de Mizuki à proposta:**
+
+> Perfeito, concordo
+
+**Aplicação no planejamento:** ampliar explicitamente o escopo de C04 e de P14; revisar D11; manter fichas e exemplos coerentes entre os livros e evitar tabelas numéricas concorrentes. A integração depende de uma base de inimigos compatível com a R53. Números, mecânicas adicionais e extensão dos exemplos não foram aprovados por essa escolha editorial.
+
+### Bestiário desatualizado e regras atuais de derrota
+
+**Esclarecimento de Mizuki em 21 de outubro de 2026:** o Bestiário atual está muito desatualizado em relação ao Livro do Jogador. Seus números não devem fundamentar os exemplos antes de uma eventual atualização orientada pela base atual. Mizuki destacou que a atualização do sistema de derrota afeta bastante a quantidade de rodadas de combate.
+
+**Respostas de Mizuki:**
+
+> deixando claro q o livro de inimigos, bestiario, atual, n foi atualizado e está BEEEEM mal atualizado em referencia ao livro de jogador atual, ent n recomendo usar os numeros q temá l, n antes da gente talvez fazer uma atualizaççao pra tal usando o nosso livro como referencia
+
+> pq por exemplo, o sistema de derrota foi atualizado, e ele muda bastante a quantidade de rodadas de um combate
+
+**Aplicação no planejamento:** excluir os números antigos como referência de equilíbrio ou ficha pronta. Pesquisas de lore e conceitos podem ser consultadas e revisadas separadamente. Conferir criação de inimigos e encontros com as regras atuais de ações, dano, vida, Integridade, Insistir, janela de socorro, tratamento e Sequelas. D11 e D14 passam a compartilhar explicitamente essa dependência. A janela de socorro não é uma duração prevista para o combate.
+
+**Alcance:** a orientação corrige a base do trabalho; não autoriza por si uma reconstrução integral do catálogo. A preparação e a investigação do piloto podem avançar. Seu confronto depende de fichas completas e avaliação compatível com a R53; o texto não será apresentado como missão completa pronta para jogar enquanto essa parte estiver pendente.
+
+## Tempo de trabalho e atividades fora de missão
+
+**Decidido em 21 de outubro de 2026, D02:** combinar períodos de dedicação com prazos da história. O Guia usará essa direção para desenvolver fabricação, reparos e criação de entidades. Quantidades, equivalência em horas, concessão de disponibilidade e custos não foram definidos.
+
+**Direção acrescentada, D15:** desenvolver atividades fora de missão, com atenção própria a treinamentos e ações menores, além de fabricação e uso de ofícios.
+
+**Resposta de Mizuki:**
+
+> Combinação: períodos de dedicação + prazos da história. Por sinal futuramente teremos de trabalhar coisas que são feitas em off missão, como fabricação de itens uso de oficios (q acho q já estão no planejamento), mas principalmente treinamentos, coisas menores q o player possa fazer sem realmente ir em uma missão
+
+**Aplicação no planejamento:** desenvolver a disponibilidade de tempo antes de escolher durações; criar a pauta D15 e um quadro de atividades consultável. Separar treino narrativo, aplicação de regra existente e proposta de aprendizado ou benefício novo. A decisão não concede XP, bônus ou aquisições por atividade sem o procedimento correspondente.
+
+## Ciclo comum com duração ajustável
+
+**Decidido em 21 de outubro de 2026, D02:** disponibilizar tempo básico por um ciclo comum. O mestre pode ajustar a duração para intervalos maiores ou menores. Quinze dias foi um exemplo de ajuste citado por Mizuki, sem fixar uma duração padrão.
+
+**Resposta de Mizuki:**
+
+> Tempo básico por ciclo comum mesmo, podendo ser alterado pelo mestre pra mais tipo 15 dias, ou menos. Mas sim, ideal é ciclo comum
+
+**Aplicação no planejamento:** usar ciclo comum como referência recomendada da guilda; apresentar cadência ajustável e manter a relação com a disponibilidade ficcional. Quantidade de dedicação, duração padrão, acúmulo, múltiplas fichas e elegibilidade continuam abertos. O ajuste da duração deve conservar a referência comum do grupo.
+
+## Treinamentos graduais com manutenção
+
+**Direção decidida em 21 de outubro de 2026, D15:** desenvolver treinamentos específicos além da progressão, com benefícios inicialmente pequenos e etapas que permitam benefícios maiores. Os benefícios não são permanentes: a prática ou o estímulo mantém o desenvolvimento, e longos períodos sem ambos podem causar alguma regressão. Físico, mental, Ofícios e armas são áreas citadas por Mizuki; outras poderão ser consideradas.
+
+**Resposta de Mizuki:**
+
+> Aprendizados especificos, além da progressão. N precisamos trabalhar no mecanico ainda disso, mas oq eu tava pensando era na possibilidade das fichas treinarem coisas especificas e irem ganhando beneficios pequenos, em troca de ir subindo nas etapas desses treinos para beneficios maiores, nada permanente, parar de treinar faz seu esforço atrofiar um pouco caso venha a ficar tempos prolongados sem treinar novamente ou estimular, como na vida real mesmo, ai teria questões como fisico, mental, oficios, armas e dentre outros q eu acho interessante de se abordar nesse mundo e talz
+
+**Alcance da escolha:** a resposta detalha uma direção diferente da proposta anterior de começar pela aquisição permanente de novos Ofícios. O desenvolvimento atual será de prática gradual e benefícios mantidos pelo uso ou treino. A aquisição permanente de um Ofício por tempo de estudo não foi aprovada por essa resposta.
+
+**Aplicação no planejamento:** organizar áreas, objetivos, etapas, manutenção, regressão e retomada como assuntos de desenvolvimento. Distinguir os benefícios dessa futura expansão das capacidades já adquiridas pela R53. O pedido atual é conceitual: números, bônus, prazos, quantidade de etapas, testes e critérios de estímulo serão tratados mais adiante.
+
+## Participação no desenvolvimento
+
+**Combinado:** Mizuki pode responder dúvidas e auxiliar em decisões, linhas e abordagens do projeto. O assistente deve preparar o problema e as opções antes de solicitar a escolha. A colaboração ocorrerá por assuntos, sem exigir que todas as perguntas sejam respondidas de uma vez.
+
+**Pedido de Mizuki:**
+
+> okey, ent vamos fazer um planejamento encima do q temos
+>
+> eu n sei mt bem criar esses livros, mas temos um acervo imenso e fundamentalmente muitas opniões, temos de peneirar e polir elas
+>
+> oq necessitar de duvidas a tirar comigo, posso responder e vir a auxiliar no projeto, como decisões, linhas, abordagens e afins
+
+## O que permanece aberto
+
+Os prazos e custos de projetos, quantidade e políticas de tempo entre missões, procedimentos novos de entidades, referências de criação, ideias de Pactos, surpresa, possíveis mecânicas de chefes, extensão e apresentação final do livro ainda estão abertos. Os treinamentos têm direção conceitual escolhida, com elaboração mecânica posterior a pedido de Mizuki. A pauta está no [caderno de decisões](02-decisoes-para-conversar.md).
+
+## Como atualizar o registro
+
+Acrescentar cada nova escolha com sua pergunta, resposta, alcance e efeitos. Quando uma resposta posterior esclarecer uma anterior, preservar a relação entre elas. Se uma decisão for substituída, identificar a nova decisão e os materiais que precisam de revisão.

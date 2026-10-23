@@ -1,0 +1,50 @@
+{
+  "data": "2026-10-22",
+  "estado": "Proposta e minuta aguardando respostas sobre voto, benefício e consequência.",
+  "manifesto_anterior": 134,
+  "divergencias_iniciais": 0,
+  "arquivos_alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "arquivos_novos": [
+    "04 - Planejamento/40-proposta-de-pacifismo-impraticavel.md",
+    "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+    "04 - Planejamento/apoio-pacifismo/verificacao.json"
+  ],
+  "r53_preservada": true,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "links_locais": 611,
+  "ausentes": [],
+  "ancoras_verificadas": false,
+  "contas": {
+    "uma_tentativa": {
+      "resultados": 20,
+      "sucessos": 12,
+      "probabilidade": 0.6
+    },
+    "duas_tentativas_independentes": {
+      "resultados": 400,
+      "sucessos": 336,
+      "probabilidade": 0.84
+    },
+    "prazo_72h": "2026-10-25T18:00:00",
+    "reinicio_72h": "2026-10-27T10:00:00"
+  },
+  "conferencia_documental": [
+    "Formas, vagas e ganhos de permanentes.",
+    "Ação, alcance, meios, teste, estado e efeitos de Estabilizar.",
+    "Manobras sem dano podem agredir.",
+    "Tentativa com Bônus não antecipa prazo esgotado nem cura.",
+    "Voto, benefício e suspensão identificados como proposta."
+  ],
+  "limites": [
+    "Sem teste humano, teste de mesa ou simulação de combate.",
+    "Sem aprovação mecânica inferida do recorte editorial.",
+    "Sem alterações de treino, Bestiário ou regras de entidades."
+  ]
+}

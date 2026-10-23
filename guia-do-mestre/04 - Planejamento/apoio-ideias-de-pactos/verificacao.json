@@ -1,0 +1,47 @@
+{
+  "data": "2026-10-22",
+  "arquivos_manifesto_anterior": 131,
+  "divergencias_antes_da_edicao": 0,
+  "arquivos_alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/41-pactos-e-promessas.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "arquivos_novos": [
+    "04 - Planejamento/39-avaliacao-das-sete-ideias-de-pactos.md",
+    "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+    "04 - Planejamento/apoio-ideias-de-pactos/verificacao.json"
+  ],
+  "links_locais_conferidos": 600,
+  "links_locais_ausentes": [],
+  "ancoras_internas_verificadas": false,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_preservada": true,
+  "sete_ideias_cobertas": [
+    "Fragmentação",
+    "Liberação irregular",
+    "Energia alternada",
+    "Pacifismo impraticável",
+    "Magnetismo energético",
+    "Despertar do corpo",
+    "Reserva vital"
+  ],
+  "decisao_recebida": "dois modelos agora, duas orientações e três procedimentos para depois",
+  "modelos_a_desenvolver": [
+    "Pacifismo impraticável",
+    "Liberação irregular"
+  ],
+  "regras_novas_aprovadas_nesta_etapa": false,
+  "conferencia": "Comparação documental, revisão editorial de escopo, referências e integridade dos arquivos.",
+  "limites": [
+    "Sem teste de mesa ou leitura humana.",
+    "Sem simulação de equilíbrio.",
+    "Sem pesquisa externa ou novas afirmações canônicas.",
+    "Sem alterações de Bestiário ou regras de treinamento."
+  ]
+}

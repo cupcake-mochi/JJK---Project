@@ -1,0 +1,84 @@
+{
+  "status": "Hipóteses não aprovadas; enumeração de quatro resultados equiprováveis com saldo suficiente.",
+  "bonus_pct": 25,
+  "d4_percentuais": [
+    10,
+    20,
+    40,
+    100
+  ],
+  "perfis": [
+    {
+      "base": 8,
+      "maximo": 10,
+      "classe": 1,
+      "tetos": [
+        1,
+        2,
+        4,
+        10
+      ],
+      "custo_feitico": 3,
+      "permite_feitico_pct": 50,
+      "permite_feitico_e_reacao_pct": 25,
+      "custo_liberacao_maxima": null,
+      "permite_liberacao_maxima_pct": null,
+      "descanso_curto_base": 2,
+      "descanso_curto_ampliado": 2
+    },
+    {
+      "base": 40,
+      "maximo": 50,
+      "classe": 3,
+      "tetos": [
+        5,
+        10,
+        20,
+        50
+      ],
+      "custo_feitico": 9,
+      "permite_feitico_pct": 75,
+      "permite_feitico_e_reacao_pct": 50,
+      "custo_liberacao_maxima": 14,
+      "permite_liberacao_maxima_pct": 50,
+      "descanso_curto_base": 10,
+      "descanso_curto_ampliado": 12
+    },
+    {
+      "base": 120,
+      "maximo": 150,
+      "classe": 7,
+      "tetos": [
+        15,
+        30,
+        60,
+        150
+      ],
+      "custo_feitico": 21,
+      "permite_feitico_pct": 75,
+      "permite_feitico_e_reacao_pct": 75,
+      "custo_liberacao_maxima": 32,
+      "permite_liberacao_maxima_pct": 50,
+      "descanso_curto_base": 30,
+      "descanso_curto_ampliado": 37
+    },
+    {
+      "base": 180,
+      "maximo": 225,
+      "classe": 7,
+      "tetos": [
+        22,
+        45,
+        90,
+        225
+      ],
+      "custo_feitico": 21,
+      "permite_feitico_pct": 100,
+      "permite_feitico_e_reacao_pct": 75,
+      "custo_liberacao_maxima": 32,
+      "permite_liberacao_maxima_pct": 75,
+      "descanso_curto_base": 45,
+      "descanso_curto_ampliado": 56
+    }
+  ]
+}

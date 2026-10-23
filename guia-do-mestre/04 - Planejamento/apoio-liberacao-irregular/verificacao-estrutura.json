@@ -1,0 +1,30 @@
+{
+  "data": "2026-10-22",
+  "manifesto_anterior": 152,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md"
+  ],
+  "novos": [
+    "04 - Planejamento/48-liberacao-irregular-estrutura-e-comparacao.md",
+    "04 - Planejamento/apoio-liberacao-irregular/comparacao-hipotetica.json",
+    "04 - Planejamento/apoio-liberacao-irregular/verificacao-estrutura.json"
+  ],
+  "links_locais": 695,
+  "ausentes": [],
+  "ancoras_r53": 8,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_preservada": true,
+  "perfis_enumerados": 4,
+  "resultados_por_perfil": 4,
+  "estado": "Estrutura e ganho não escolhidos. Autor pediu esclarecimento sobre conteúdo já existente e deixou benefício para depois.",
+  "numeros": "Hipóteses +25% e 10/20/40/100%; não aprovadas nem recomendadas como tabela universal.",
+  "manuscrito": "Sem seção 49; orientação 47 esclarecida. Pacifismo preservado.",
+  "limites": "Conferência documental e aritmética, sem simulação de combate, teste humano ou validação de equilíbrio."
+}

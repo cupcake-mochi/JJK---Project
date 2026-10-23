@@ -1,0 +1,40 @@
+{
+  "data": "2026-10-22",
+  "estado": "Calendário escolhido; causalidade corrigida; benefício questionado e retirado da recomendação.",
+  "manifesto_anterior": 141,
+  "divergencias_iniciais": 0,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+    "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+    "04 - Planejamento/41-reformulacao-do-pacifismo-impraticavel.md",
+    "04 - Planejamento/42-proposta-do-paradoxo-pacifismo.md"
+  ],
+  "novos": [
+    "04 - Planejamento/43-pacifismo-causalidade-e-base-do-beneficio.md",
+    "04 - Planejamento/apoio-pacifismo/verificacao-causalidade-ambiental.json"
+  ],
+  "links_locais": 633,
+  "ausentes": [],
+  "ancoras_verificadas": false,
+  "r53_preservada": true,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "decisoes": [
+    "30 dias por janela fixa com três dias de suspensão após descumprimento, sem dívida ou saldo.",
+    "Causalidade ambiental não exige decisão autônoma intermediária.",
+    "Desconhecimento da presença da vítima não impede o exemplo de cumprimento dado pelo autor."
+  ],
+  "nao_aprovado": [
+    "Testemunha dos Ausentes.",
+    "Definição de pessoa.",
+    "Todas as ordens ou efeitos adiados como categoria única.",
+    "Procedimento de saída."
+  ],
+  "conferencia": "Revisão documental e de atribuição das respostas; sem teste de mesa ou equilíbrio."
+}

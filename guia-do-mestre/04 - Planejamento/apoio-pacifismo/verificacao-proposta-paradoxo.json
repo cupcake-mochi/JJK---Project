@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-22",
+  "estado": "Proposta aguardando escolhas específicas; detalhes de bloqueio e saída também pendentes.",
+  "manifesto_anterior": 139,
+  "divergencias_iniciais": 0,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+    "04 - Planejamento/41-reformulacao-do-pacifismo-impraticavel.md"
+  ],
+  "novos": [
+    "04 - Planejamento/42-proposta-do-paradoxo-pacifismo.md",
+    "04 - Planejamento/apoio-pacifismo/verificacao-proposta-paradoxo.json"
+  ],
+  "links_locais": 625,
+  "links_ausentes": [],
+  "ancoras_verificadas": false,
+  "r53_preservada": true,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "calendario": {
+    "inicio": "2026-10-22T18:00:00",
+    "fechamento": "2026-11-21T18:00:00",
+    "retorno_beneficio": "2026-11-24T18:00:00",
+    "segundo_fechamento": "2026-12-21T18:00:00",
+    "janelas_completas_em_90_dias": {
+      "7": 12,
+      "15": 6,
+      "30": 3
+    }
+  },
+  "conferencia_editorial": [
+    "Direto não vira indireto só por trocar corpo ou atrasar efeito.",
+    "Definição ficcional de pessoa identificada como proposta.",
+    "Benefício não se confunde com cumprimento da obrigação.",
+    "Consulta concluída e interrompida têm tratamentos distintos.",
+    "Cumprimento na borda pertence a uma única janela.",
+    "Suspensão conserva impedimento e informações aprendidas.",
+    "Sem dívida acumulada ou saldo de mortes na proposta.",
+    "Saída e casos especiais não receberam aprovação presumida."
+  ],
+  "limites": [
+    "Sem teste humano, simulação de combate ou avaliação de equilíbrio.",
+    "Sem fatos canônicos novos.",
+    "R53, Bestiário, treino mecânico e decisões de entidades preservados."
+  ]
+}

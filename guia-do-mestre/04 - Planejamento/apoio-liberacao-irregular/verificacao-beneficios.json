@@ -1,0 +1,31 @@
+{
+  "estado": "Conferência documental e aritmética concluída; direção de Refluxo escolhida. Sem teste humano ou validação de equilíbrio.",
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "04 - Planejamento/49-liberacao-irregular-zero-e-diretriz-do-beneficio.md"
+  ],
+  "novo": "04 - Planejamento/50-comparacao-de-beneficios-da-liberacao-irregular.md",
+  "links_conferidos": 271,
+  "ancoras_r53_conferidas": 20,
+  "erros": [],
+  "casos": {
+    "Refluxo_40_12_10pct": "recupera 4; saldo 16; gasto 9 deixa saldo 7 e limite 1",
+    "Refluxo_quase_cheio": "39 de 40 recupera 1 com hipótese 10%",
+    "Divisoria": "6 pontos, custo de montagem 2, sobra 4; 6 PE; 20 PV; 12 painéis; 1 minuto",
+    "zero": "continua impedindo novos pagamentos; recuperação futura não altera teto"
+  },
+  "r53_md_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_pdf_sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "parametros_nao_escolhidos": [
+    "percentual",
+    "quantidade de usos",
+    "distribuição",
+    "detalhes complementares"
+  ]
+}

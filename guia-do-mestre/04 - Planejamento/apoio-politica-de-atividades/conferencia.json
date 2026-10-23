@@ -1,0 +1,181 @@
+{
+  "data": "2026-10-22",
+  "parametros": {
+    "status": "Decisoes recebidas: 7 dias, 28h por ficha, saldo curto, acesso proporcional",
+    "ritmo_escolhido_horas_por_7_dias": 28,
+    "cadencias_dias": [
+      7,
+      15
+    ],
+    "entrada_exemplo_dia": 5,
+    "fichas_comparadas": [
+      1,
+      2,
+      3
+    ],
+    "compartilhado_exemplo": [
+      16,
+      12
+    ],
+    "ajuda_horas_por_ficha": [
+      2,
+      2
+    ],
+    "fechamento": {
+      "concessao_nova": 28,
+      "confirmadas": 10,
+      "reservadas": 8,
+      "livres": 10
+    },
+    "politica_saldo": "somente concessao nova nao utilizada ou reservada passa; antiga expira no fim do ciclo seguinte",
+    "modelo_escolhido": "por ficha independente; compartilhado apenas comparacao nao adotada"
+  },
+  "resultados": {
+    "7": {
+      "base": 28,
+      "entrada_no_dia_5": 12,
+      "saldo_maximo": 28,
+      "abertura_maxima_com_saldo": 56,
+      "concessao_compartilhada_com_1_2_3_fichas": [
+        28,
+        28,
+        28
+      ],
+      "concessoes_independentes_com_1_2_3_fichas": [
+        28,
+        56,
+        84
+      ]
+    },
+    "15": {
+      "base": 60,
+      "entrada_no_dia_5": 44,
+      "saldo_maximo": 60,
+      "abertura_maxima_com_saldo": 120,
+      "concessao_compartilhada_com_1_2_3_fichas": [
+        60,
+        60,
+        60
+      ],
+      "concessoes_independentes_com_1_2_3_fichas": [
+        60,
+        120,
+        180
+      ]
+    },
+    "fechamento": {
+      "confirmado_original": 10,
+      "reservado_original": 8,
+      "transferencia_livre": 10,
+      "novo_ciclo_livre": 38,
+      "total_concedido_em_dois_ciclos": 56,
+      "apos_confirmar_reserva": {
+        "gasto_original": 18,
+        "livre_total": 38
+      },
+      "limite": "resultado pendente nao fica disponivel antes da conferencia"
+    },
+    "retorno_mesmo_ciclo": {
+      "concessao_ja_emitida": 28,
+      "concessao_adicional": 0,
+      "total": 28
+    },
+    "modelo_escolhido_por_ficha": {
+      "Rina": {
+        "ciclos": [
+          {
+            "ciclo": 1,
+            "antigo": 0,
+            "novo": 28,
+            "trabalho": 18,
+            "usado_antigo": 0,
+            "usado_novo": 18,
+            "expirado": 0,
+            "transferido": 10
+          },
+          {
+            "ciclo": 2,
+            "antigo": 10,
+            "novo": 28,
+            "trabalho": 20,
+            "usado_antigo": 10,
+            "usado_novo": 10,
+            "expirado": 0,
+            "transferido": 18
+          },
+          {
+            "ciclo": 3,
+            "antigo": 18,
+            "novo": 28,
+            "trabalho": 12,
+            "usado_antigo": 12,
+            "usado_novo": 0,
+            "expirado": 6,
+            "transferido": 28
+          }
+        ],
+        "abertura_ciclo_4": 56,
+        "horas_trabalhadas": 50,
+        "horas_expiradas": 6
+      },
+      "Mei": {
+        "ciclos": [
+          {
+            "ciclo": 1,
+            "antigo": 0,
+            "novo": 28,
+            "trabalho": 28,
+            "usado_antigo": 0,
+            "usado_novo": 28,
+            "expirado": 0,
+            "transferido": 0
+          },
+          {
+            "ciclo": 2,
+            "antigo": 0,
+            "novo": 28,
+            "trabalho": 8,
+            "usado_antigo": 0,
+            "usado_novo": 8,
+            "expirado": 0,
+            "transferido": 20
+          },
+          {
+            "ciclo": 3,
+            "antigo": 20,
+            "novo": 28,
+            "trabalho": 0,
+            "usado_antigo": 0,
+            "usado_novo": 0,
+            "expirado": 20,
+            "transferido": 28
+          }
+        ],
+        "abertura_ciclo_4": 56,
+        "horas_trabalhadas": 36,
+        "horas_expiradas": 20
+      }
+    },
+    "entrada_de_outra_ficha_dia_5": {
+      "ficha_presente_desde_inicio": 28,
+      "nova_ficha": 12,
+      "total_das_duas": 40,
+      "transferencia_entre_fichas": false
+    },
+    "retorno_apos_afastamento": {
+      "dias_restantes_no_ciclo_de_retorno": 3,
+      "concessao_proporcional": 12,
+      "credito_pelo_afastamento": 0,
+      "reabrir_mesmo_registro_concede": 0
+    },
+    "confirmadas_reservadas_livres_por_ficha": {
+      "concessao_ciclo1": 28,
+      "confirmadas": 10,
+      "reservadas": 8,
+      "livres_transferidas": 10,
+      "livres_na_abertura_ciclo2": 38,
+      "concedido_em_dois_ciclos": 56
+    }
+  },
+  "limite": "conferencia de contagem e separacao entre reservado e livre, sem teste de mesa"
+}

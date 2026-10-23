@@ -1,0 +1,22 @@
+{
+  "data": "2026-10-22",
+  "etapa": "minuta de acesso saldo e fechamento",
+  "arquivos_anteriores_conferidos": 109,
+  "mudancas_planejadas": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/09-atividades-fora-de-missao-e-treinamentos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/31-propostas-de-disponibilidade-para-a-guilda.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md"
+  ],
+  "links_locais_conferidos": 487,
+  "links_quebrados": [],
+  "sha256_r53": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_manuscrito_base_e_registro_autoral_preservados": true,
+  "conferencia_aritmetica": "conferencia.json",
+  "quatro_perguntas_apresentadas": true,
+  "respostas_registradas_nesta_etapa": false,
+  "politicas_adicionais_adotadas": false,
+  "teste_humano_ou_economia_completa": false
+}

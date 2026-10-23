@@ -1,0 +1,84 @@
+{
+  "data": "2026-10-22",
+  "parametros": {
+    "status": "propostas aguardando escolhas autorais",
+    "ritmo_escolhido_horas_por_7_dias": 28,
+    "cadencias_dias": [
+      7,
+      15
+    ],
+    "entrada_exemplo_dia": 5,
+    "fichas_comparadas": [
+      1,
+      2,
+      3
+    ],
+    "compartilhado_exemplo": [
+      16,
+      12
+    ],
+    "ajuda_horas_por_ficha": [
+      2,
+      2
+    ],
+    "fechamento": {
+      "concessao_nova": 28,
+      "confirmadas": 10,
+      "reservadas": 8,
+      "livres": 10
+    },
+    "politica_saldo": "somente concessao nova nao utilizada ou reservada passa; antiga expira no fim do ciclo seguinte"
+  },
+  "resultados": {
+    "7": {
+      "base": 28,
+      "entrada_no_dia_5": 12,
+      "saldo_maximo": 28,
+      "abertura_maxima_com_saldo": 56,
+      "concessao_compartilhada_com_1_2_3_fichas": [
+        28,
+        28,
+        28
+      ],
+      "concessoes_independentes_com_1_2_3_fichas": [
+        28,
+        56,
+        84
+      ]
+    },
+    "15": {
+      "base": 60,
+      "entrada_no_dia_5": 44,
+      "saldo_maximo": 60,
+      "abertura_maxima_com_saldo": 120,
+      "concessao_compartilhada_com_1_2_3_fichas": [
+        60,
+        60,
+        60
+      ],
+      "concessoes_independentes_com_1_2_3_fichas": [
+        60,
+        120,
+        180
+      ]
+    },
+    "fechamento": {
+      "confirmado_original": 10,
+      "reservado_original": 8,
+      "transferencia_livre": 10,
+      "novo_ciclo_livre": 38,
+      "total_concedido_em_dois_ciclos": 56,
+      "apos_confirmar_reserva": {
+        "gasto_original": 18,
+        "livre_total": 38
+      },
+      "limite": "resultado pendente nao fica disponivel antes da conferencia"
+    },
+    "retorno_mesmo_ciclo": {
+      "concessao_ja_emitida": 28,
+      "concessao_adicional": 0,
+      "total": 28
+    }
+  },
+  "limite": "conferencia de contagem e separacao entre reservado e livre, sem teste de mesa"
+}

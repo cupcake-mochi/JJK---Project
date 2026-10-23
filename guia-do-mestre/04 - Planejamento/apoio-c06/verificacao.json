@@ -1,0 +1,30 @@
+{
+  "links_conferidos": 269,
+  "problemas_links": [],
+  "arquivos_anteriores_alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/07-preparar-o-grupo.md",
+    "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "palavras_textos_novos": {
+    "25-conferir-personagens.md": 1282,
+    "26-vinculos-e-mudancas.md": 1545,
+    "27-convivencia-do-receptaculo.md": 1757,
+    "28-ficha-de-convivencia.md": 437
+  },
+  "fonte_r53_preservada": true,
+  "matriz_pilotos_base_e_simulacoes_preservados": true,
+  "conferencias_aritmeticas": 9,
+  "competencias_identificadores": 20,
+  "direcao_autoral_voz_registrada": true,
+  "correcao_c05_excecoes_de_recuperacao": true,
+  "teste_leitura_humano": false,
+  "teste_mesa": false
+}

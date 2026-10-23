@@ -1,0 +1,33 @@
+{
+  "data": "2026-10-22",
+  "manifesto_anterior": 148,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+    "04 - Planejamento/45-logica-da-troca-do-pacifismo.md"
+  ],
+  "novos": [
+    "04 - Planejamento/46-pacifismo-conducao-pela-materia.md",
+    "04 - Planejamento/apoio-pacifismo/verificacao-conducao-pela-materia.json"
+  ],
+  "links_locais": 665,
+  "ausentes": [],
+  "ancoras_r53_conferidas": 8,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_preservada": true,
+  "escolha": "Condução pela matéria como exemplo particular do Guia; resposta exata no registro 06.",
+  "base": "Fundamento Fios de Tensão publicado; Fio de Corte é montagem demonstrativa nova, não Fio de Arrasto.",
+  "conferencia": "Montagem Classe 1, custos, ataque, dano, alvo, informação desatualizada, suspensão e distinção de Sem Ver.",
+  "pendencias": [
+    "Pessoa e fronteiras gerais de violência direta.",
+    "Tentativa bloqueada e encerramento.",
+    "Avaliação de equilíbrio em mesa."
+  ],
+  "limites": "Conferência documental e aritmética; sem teste humano ou simulação de equilíbrio."
+}

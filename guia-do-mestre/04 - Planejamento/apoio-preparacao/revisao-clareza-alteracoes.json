@@ -1,0 +1,122 @@
+[
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Esse material permite responder ao grupo durante o jogo.",
+    "depois": "Esse material permite responder ao grupo durante o jogo. Leia esta seção para montar seu preparo; depois use a [ficha em branco](02-ficha-de-preparacao.md) para reunir o que precisará consultar."
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "## Parta dos personagens e do compromisso da sessão",
+    "depois": "## O que você terá ao terminar\n\nO preparo deve responder às perguntas abaixo. As próximas seções mostram como preencher cada parte.\n\n| Parte do preparo | Pergunta que você precisa responder |\n|---|---|\n| Situação | O que está acontecendo e por que os personagens se envolveriam? |\n| Pessoas e lugares | Com quem podem falar, por onde podem entrar e como podem sair? |\n| Descobertas | O que precisam descobrir e como podem conseguir essa informação? |\n| Perigos | O que pode ameaçá-los e quais regras resolvem esse contato? |\n| Consequências | O que muda com as escolhas e o que fica para depois? |\n\n## Conheça o grupo e o tempo disponível"
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Confira quem participa, suas fichas e os recursos com que chegam. Pergunte o que estavam fazendo e quais interesses já têm na situação.",
+    "depois": "Confira quem participa, suas fichas e os recursos disponíveis: vida, energia, equipamento e usos de capacidades já gastos. Retome o que os personagens estavam fazendo e seus interesses."
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Conheça as possibilidades importantes do grupo: perceber uma maldição, alcançar lugares, obter informação, socorrer e retirar alguém. Se um personagem consegue resolver um obstáculo por uma capacidade legítima, deixe essa capacidade fazer diferença. A revisão das fichas também mostra requisitos que o grupo ainda não cumpre e riscos que precisam ser comunicados.",
+    "depois": "Confira como o grupo pode perceber uma maldição, alcançar lugares, obter informação e socorrer alguém. Se uma capacidade resolve um obstáculo, aplique seu efeito. Por exemplo, quem consegue enxergar a criatura pode descrevê-la aos colegas, mas isso não faz os demais passarem a vê-la. Confira também o que o grupo não consegue fazer e comunique os impedimentos que os personagens teriam condições de perceber."
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Na guilda, confira a revisão das fichas, recursos de entrada, opções autorizadas e responsáveis pelos registros.",
+    "depois": "Na guilda, confira a versão das fichas, as opções autorizadas e quem registra as mudanças."
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "## Fixe os fatos que sustentam as respostas",
+    "depois": "## Separe os fatos das suspeitas"
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Anote os acontecimentos que já ocorreram, o estado atual e as relações necessárias para resolver as propostas do grupo. No exemplo, Davi viu as caixas do batente e recuou pelo corredor. Ele pode mostrar esse caminho, mas não conhece todos os poderes da criatura.",
+    "depois": "Anote o que aconteceu, como o lugar está agora e o que cada pessoa presenciou. Davi viu as caixas da porta do depósito e recuou pelo corredor. Ele pode mostrar esse caminho, mas não conhece os poderes da criatura."
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Esses interesses ajudam a responder sem escrever todas as falas possíveis. Uma pessoa disposta a colaborar pode entregar uma informação ou atender a um pedido viável. Quando houver uma incerteza social relevante, use o procedimento adequado. Persuasão não concede controle sobre todas as decisões de outra pessoa.",
+    "depois": "Esses interesses ajudam a responder sem escrever todas as falas. Ana quer ajuda e tem a planta: quando o grupo a pede, ela a entrega. Não é preciso exigir Persuasão para essa colaboração. Se o pedido encontrar resistência, descubra o motivo e confira qual procedimento resolve a tentativa; uma rolagem não torna qualquer pedido possível."
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Na R53, uma informação evidente ou uma tarefa rotineira sem pressão nem risco relevante pode dispensar teste. Para as demais tentativas, identifique intenção, meios, procedimento, requisitos e consequência antes de resolver. Uma falha conserva o efeito previsto por aquela regra. Quando o procedimento permitir, ela pode mudar a situação sem apagar todos os caminhos da investigação.",
+    "depois": "Na R53, **peça um teste quando houver incerteza e a falha puder mudar a situação**. Sem obstáculo ou consequência relevante, resolva pela descrição. Antes de uma rolagem, confira o que o personagem quer conseguir, como tenta fazê-lo e qual regra se aplica. Informe os custos e riscos que ele pode prever.\n\n**Exemplo:** Ana entrega o registro. Se as pessoas estão disponíveis e conseguem confirmar quem saiu, essa conferência pode ser resolvida na conversa. Se o grupo tenta se aproximar da criatura sem ser percebido, consulte as regras de furtividade: elas determinam a oposição e o que acontece na falha.\n\nQuando uma regra já definir a consequência, aplique-a. Quando deixar espaço para interpretação, uma falha pode gastar tempo ou chamar atenção, sem necessariamente eliminar todos os caminhos de investigação. Para escolher a rolagem e a dificuldade, consulte [Testes, na R53](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#geral--testes>)."
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Repetir a mesma pergunta sem mudança relevante não concede tentativas ilimitadas.",
+    "depois": "Uma nova tentativa deve respeitar as condições de repetição da regra usada; pedir outro teste não apaga a consequência anterior."
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Uma descrição de aparência precisa estar acompanhada da regra que produz seu efeito.",
+    "depois": "Se a descrição anunciar um efeito de jogo, registre a regra correspondente. Aparência, por si só, não concede capacidades."
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Insistir, socorro, Sequelas, invocações e capacidades específicas também podem mudar a duração e o risco. Consulte as orientações de criação e avaliação de inimigos; este procedimento de preparação não substitui essa conferência.",
+    "depois": "As regras de queda e socorro podem manter alguém no confronto ou permitir seu retorno. Invocações e outras capacidades também mudam as opções disponíveis. Por isso, nível e quantidade de personagens não bastam para avaliar o encontro. Neste exemplo, a [base experimental](<../04 - Planejamento/14-base-pequena-de-inimigos-r53.md>) fornece a ficha, e a [verificação do piloto](<../04 - Planejamento/15-verificacao-da-base-e-do-piloto.md>) explica o alcance dos ensaios; a avaliação ainda precisa considerar o grupo real."
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Se uma capacidade dos jogadores puder permitir a aquisição de uma criatura, tenha o resultado e os requisitos preparados antes da tentativa. A captura não transfere automaticamente a ficha de inimigo inteira para uma entidade do grupo.",
+    "depois": "Se o grupo puder adquirir a criatura por uma regra como a Doma, prepare também a ficha que ela usará como entidade do personagem. Confira os requisitos dessa aquisição e apresente a conversão antes da tentativa. A ficha de inimigo pode ter valores diferentes dos permitidos para uma entidade adquirida."
+  },
+  {
+    "arquivo": "01-preparar-uma-missao.md",
+    "antes": "Depois, confira recursos, quedas, Sequelas, aquisições, pendências e o que as pessoas envolvidas sabem.",
+    "depois": "Depois, registre os recursos restantes, as consequências das quedas, as criaturas adquiridas, o que ficou pendente e o que as pessoas envolvidas sabem."
+  },
+  {
+    "arquivo": "02-ficha-de-preparacao.md",
+    "antes": "Use este modelo com o procedimento de [preparação](01-preparar-uma-missao.md).",
+    "depois": "Use este modelo para consulta durante o jogo. O procedimento de [preparação](01-preparar-uma-missao.md) explica como preenchê-lo."
+  },
+  {
+    "arquivo": "02-ficha-de-preparacao.md",
+    "antes": "usar a CD específica quando existir.",
+    "depois": "usar a Classe de Dificuldade (CD), o valor que o teste precisa alcançar, indicada pela regra quando existir."
+  },
+  {
+    "arquivo": "02-ficha-de-preparacao.md",
+    "antes": "**Conversão conhecida se houver aquisição possível:**",
+    "depois": "**Ficha que a criatura usará se puder ser adquirida pelo grupo, e requisitos dessa aquisição:**"
+  },
+  {
+    "arquivo": "02-ficha-de-preparacao.md",
+    "antes": "**Socorro ainda em andamento e prazo acompanhado:**",
+    "depois": "**Socorro ainda em andamento:** anotar quem caiu, tratamento acumulado, janela restante e ponto da iniciativa usado na contagem, conforme Vida a zero."
+  },
+  {
+    "arquivo": "03-as-batidas-no-anexo-consulta.md",
+    "antes": "com recursos disponíveis e sem Sequelas iniciais.",
+    "depois": "com vida e energia completas e sem Sequelas iniciais (consequências de quedas anteriores)."
+  },
+  {
+    "arquivo": "03-as-batidas-no-anexo-consulta.md",
+    "antes": "Davi viu as caixas do batente.",
+    "depois": "Davi viu as caixas da porta do depósito."
+  },
+  {
+    "arquivo": "03-as-batidas-no-anexo-consulta.md",
+    "antes": "**Ficha:** um Amontoado do depósito da base pequena da R53.",
+    "depois": "**Ficha:** um Amontoado do depósito da base experimental construída com referência na R53."
+  },
+  {
+    "arquivo": "03-as-batidas-no-anexo-consulta.md",
+    "antes": "quando os PE se esgotam.",
+    "depois": "quando os pontos de energia (PE) se esgotam."
+  },
+  {
+    "arquivo": "03-as-batidas-no-anexo-consulta.md",
+    "antes": "**Socorro:** manter Vida a zero e Socorro disponíveis. Acompanhar máximo de referência, escolha, tratamento e ponto da iniciativa. Cura insuficiente não renova prazo; vida positiva após Derrotado não reabre participação naquela cena.",
+    "depois": "**Socorro:** deixe abertas as regras [Vida a zero](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#dano--zero>) e [Socorro](</home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md#dano--socorro>). Se alguém cair, registre:\n\n- o máximo de vida usado como referência para calcular o tratamento;\n- a escolha entre Aguentar e Insistir;\n- o tratamento necessário e quanto já foi recebido;\n- a janela restante e o ponto da iniciativa usado na contagem.\n\nCura insuficiente não renova a janela. **Derrotado encerra a participação ativa naquela cena**, mesmo que o personagem receba cura e volte a ter vida positiva."
+  },
+  {
+    "arquivo": "03-as-batidas-no-anexo-consulta.md",
+    "antes": "**Aquisição:** mostrar a conversão antes da submissão; conferir nível, derrota sem destruição e o TR Espírito da R53.",
+    "depois": "**Aquisição por Doma:** apresentar antes da tentativa a ficha que a criatura usará como entidade. Conferir o limite de nível, a derrota sem destruição e o Teste de Resistência (TR) de Espírito previsto na R53."
+  }
+]

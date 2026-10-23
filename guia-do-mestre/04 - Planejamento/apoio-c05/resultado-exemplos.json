@@ -1,0 +1,191 @@
+{
+  "completo": true,
+  "tipo": "aritmetica e casos de limite, nao teste de mesa",
+  "quantidade": 46,
+  "casos": [
+    {
+      "caso": "vida 23 menos 5",
+      "resultado": 18
+    },
+    {
+      "caso": "dano21 resistencia",
+      "resultado": 11
+    },
+    {
+      "caso": "dano apos RD4 e temporarios3",
+      "resultado": 4
+    },
+    {
+      "caso": "vida18 apos dano4",
+      "resultado": 14
+    },
+    {
+      "caso": "teto temporario vida23",
+      "resultado": 11
+    },
+    {
+      "caso": "temporarios3 substituidos por9",
+      "resultado": 9
+    },
+    {
+      "caso": "perda6 integridade26 abaixo1quarto",
+      "resultado": true
+    },
+    {
+      "caso": "perda7 integridade26 atinge1quarto",
+      "resultado": true
+    },
+    {
+      "caso": "tratamento 23 classe1 Aguentar",
+      "resultado": 6
+    },
+    {
+      "caso": "tratamento 23 classe1 primeiro",
+      "resultado": 8
+    },
+    {
+      "caso": "tratamento 23 classe1 posterior",
+      "resultado": 12
+    },
+    {
+      "caso": "tratamento 93 classe3 Aguentar",
+      "resultado": 24
+    },
+    {
+      "caso": "tratamento 93 classe3 primeiro",
+      "resultado": 31
+    },
+    {
+      "caso": "tratamento 93 classe3 posterior",
+      "resultado": 45
+    },
+    {
+      "caso": "tratamento 395 classe7 Aguentar",
+      "resultado": 99
+    },
+    {
+      "caso": "tratamento 395 classe7 primeiro",
+      "resultado": 105
+    },
+    {
+      "caso": "tratamento 395 classe7 posterior",
+      "resultado": 105
+    },
+    {
+      "caso": "tratamento31 acumulado18 faltante",
+      "resultado": 13
+    },
+    {
+      "caso": "tratamento5+4 converte todo total",
+      "resultado": 9
+    },
+    {
+      "caso": "estavel18 mais1 especial",
+      "resultado": 19
+    },
+    {
+      "caso": "piloto total7+5",
+      "resultado": 12
+    },
+    {
+      "caso": "piloto janela segundaqueda",
+      "resultado": 2
+    },
+    {
+      "caso": "piloto volta ao ponto",
+      "resultado": 1
+    },
+    {
+      "caso": "piloto dano posterior janela1",
+      "resultado": 0
+    },
+    {
+      "caso": "corpo60kg volume",
+      "resultado": 5.0
+    },
+    {
+      "caso": "carga propria2 corpo5 equipamento1",
+      "resultado": 8
+    },
+    {
+      "caso": "limite Forca2",
+      "resultado": 7
+    },
+    {
+      "caso": "carga8 entre normal7 e dobro14",
+      "resultado": true
+    },
+    {
+      "caso": "deslocamento9 reduzido",
+      "resultado": 4.5
+    },
+    {
+      "caso": "curto max10 saldo1",
+      "resultado": 3
+    },
+    {
+      "caso": "curto respeita maximo10 saldo9",
+      "resultado": 10
+    },
+    {
+      "caso": "curto fora max8 degrau0",
+      "resultado": 2
+    },
+    {
+      "caso": "curto fora max8 degrau1",
+      "resultado": 1
+    },
+    {
+      "caso": "curto fora max8 degrau2",
+      "resultado": 1
+    },
+    {
+      "caso": "curto fora max8 degrau3",
+      "resultado": 0
+    },
+    {
+      "caso": "curto propicio max8 degrau0",
+      "resultado": 2
+    },
+    {
+      "caso": "curto propicio max8 degrau1",
+      "resultado": 2
+    },
+    {
+      "caso": "curto propicio max8 degrau2",
+      "resultado": 2
+    },
+    {
+      "caso": "curto propicio max8 degrau3",
+      "resultado": 2
+    },
+    {
+      "caso": "curto maxzero",
+      "resultado": 0
+    },
+    {
+      "caso": "longo fora vida23 saldo3",
+      "resultado": 11
+    },
+    {
+      "caso": "longo fora vida23 saldo18 nao reduz",
+      "resultado": 18
+    },
+    {
+      "caso": "longo fora PE60 saldo8",
+      "resultado": 30
+    },
+    {
+      "caso": "longo fora maxzero",
+      "resultado": 0
+    },
+    {
+      "caso": "integridade e Exaustao deslocamento9",
+      "resultado": 4.5
+    },
+    {
+      "caso": "integridade e Exaustao deslocamento6",
+      "resultado": 3.0
+    }
+  ]
+}

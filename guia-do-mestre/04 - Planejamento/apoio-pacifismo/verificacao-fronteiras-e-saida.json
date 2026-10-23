@@ -1,0 +1,39 @@
+{
+  "data": "2026-10-22",
+  "manifesto_anterior": 150,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md"
+  ],
+  "novos": [
+    "04 - Planejamento/47-pacifismo-pessoa-impedimento-e-saida.md",
+    "04 - Planejamento/apoio-pacifismo/verificacao-fronteiras-e-saida.json"
+  ],
+  "links_locais": 681,
+  "ausentes": [],
+  "ancoras_r53_conferidas": 7,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_preservada": true,
+  "respostas_incorporadas": [
+    "Pessoa: humanos e indivíduos não humanos com identidade própria.",
+    "Impedimento: execução ofensiva bloqueada; consequência ambiental permitida; custos conforme conhecimento e início.",
+    "Saída: fechar a janela e suspensão pendente, sem nova obrigação final."
+  ],
+  "conferencias": [
+    "Categoria de dano da R53 separada de execução direta do Pacto.",
+    "Derrota e queda não equivalem a morte.",
+    "Bloqueio não autoriza ataque mediante punição posterior.",
+    "Saída não devolve benefício ao fim da suspensão.",
+    "Janela 30 dias e suspensão 72h conferidas.",
+    "Consulta rápida coerente com o texto."
+  ],
+  "estado": "Exemplo experimental consolidado para a pré-1.0; escolhas registradas separadamente.",
+  "proxima_tarefa": "Liberação irregular — GPT-6 Astra alto.",
+  "limites": "Conferência documental e aritmética; sem teste humano ou validação de equilíbrio. Compatibilidades específicas precisam de registro antes da adoção."
+}

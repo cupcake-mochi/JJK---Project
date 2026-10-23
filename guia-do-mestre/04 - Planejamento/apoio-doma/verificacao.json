@@ -1,0 +1,59 @@
+{
+  "estado": "M113–M114 desenvolvidos em exemplo experimental; sem limiar geral aprovado para antecipação.",
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/34-c09-pactos-promessas-e-entidades.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+    "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "novos": [
+    "04 - Planejamento/55-doma-do-amontoado-e-tentativa-antecipada.md",
+    "06 - Redacao do Guia/52-domar-o-amontoado.md"
+  ],
+  "links_locais_conferidos": 305,
+  "contas_e_limites": {
+    "base_encontro": true,
+    "atributos": true,
+    "vida_convertida": true,
+    "integridade_convertida": true,
+    "reserva": true,
+    "defesa": true,
+    "bloquear": true,
+    "CD_Nara": true,
+    "especial_base": true,
+    "falha_doma": true,
+    "empate_exorciza": true,
+    "retorno": true,
+    "saldo_invocadora": true,
+    "descanso_reserva": true,
+    "corpos_mantidos": true,
+    "conversao_atual": true,
+    "conversao_antecipada": true,
+    "golpe_12": true,
+    "golpe_32_limite": true,
+    "golpe_33_excesso": true,
+    "golpe_48_maximo": true,
+    "area_nao_destroi": true,
+    "excedente_preservado": true,
+    "dano_posterior": true
+  },
+  "erros": [],
+  "r53_md_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_pdf_sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "conferencia_editorial": [
+    "Distingue ataque corpo a corpo do inimigo e Forma Toque da básica da entidade.",
+    "Resultado do TR pertence à maldição; falha doma, sucesso e empate exorcizam.",
+    "Grupo pode ajudar; último golpe não precisa ser da futura invocadora.",
+    "Destruição anterior usa ficha de encontro; novos danos usam ficha convertida e excedente conservado.",
+    "Conquista não recupera PV ou PE nem fornece recolhimento ou imunidades de corpo amaldiçoado.",
+    "Demonstração antecipada condicional; orientação de ações identificada como proposta editorial.",
+    "R53, base de inimigos e registro de decisões autorais preservados."
+  ],
+  "limites": "Conferência documental, aritmética e de clareza. Nenhuma simulação nova ou avaliação em mesa.",
+  "proxima_tarefa": "M111/M115/M122: construção e evolução de entidade com Famílias e poderes próprios; GPT-6 Astra, esforço alto."
+}

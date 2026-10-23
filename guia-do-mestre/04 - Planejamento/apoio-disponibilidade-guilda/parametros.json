@@ -1,0 +1,41 @@
+{
+  "referencia_dias": 7,
+  "ritmos_horas": [
+    14,
+    28,
+    42
+  ],
+  "ritmo_escolhido_para_desenvolver": 28,
+  "reserva_ilustrativa_por_ciclo": 8,
+  "projeto_teste_horas": 48,
+  "reparo_r53_horas": 4,
+  "periodos_administrativos_comparados": [
+    7,
+    14,
+    15
+  ],
+  "politica_saldo": "proposta nao adotada: parcela nova nao usada passa somente ao proximo ciclo; usar mais antiga primeiro",
+  "casos_saldo_B": {
+    "espera": [
+      18,
+      20
+    ],
+    "missao_dez_dias": [
+      0,
+      16
+    ],
+    "ausencia_tres_ciclos": [
+      0,
+      0,
+      0
+    ],
+    "consumo_de_duas_concessoes": [
+      0,
+      56
+    ],
+    "tempo_ficcional_de_doze_horas": [
+      0,
+      12
+    ]
+  }
+}

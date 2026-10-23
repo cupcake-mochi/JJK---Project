@@ -1,0 +1,32 @@
+{
+  "data": "2026-10-23",
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/62-energia-e-limites-dos-inimigos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "novos": [
+    "04 - Planejamento/63-reservas-usos-e-ritmo-dos-inimigos.md",
+    "04 - Planejamento/apoio-ritmo-inimigos/verificacao.json"
+  ],
+  "links_locais": 305,
+  "contas": {
+    "dois_usos": 2,
+    "saldo_reserva_alta": 15,
+    "media_recarga_3": "5/3",
+    "media_recarga_5": "7/3",
+    "media_recarga_8": "10/3",
+    "sem_retorno_5": 19.75,
+    "todos_retornos_5": 1.23
+  },
+  "decisao": "reavaliar antes de escolher",
+  "fontes_online": "três referências oficiais e três discussões abertas; URLs no registro63",
+  "simulacao_combate": false,
+  "teste_humano": false,
+  "base_inimigos_preservada": true
+}

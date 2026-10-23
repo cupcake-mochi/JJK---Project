@@ -1,0 +1,34 @@
+{
+  "links_conferidos": 136,
+  "problemas_links": [],
+  "alterados_anteriores": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+    "06 - Redacao do Guia/05-folha-de-conducao.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "calculos_exemplos": {
+    "busca_energia": 16,
+    "movimento_anexo_gasto": 7.5,
+    "movimento_anexo_restante": 1.5,
+    "terreno_gasto": 6,
+    "terreno_percorrido": 4.5,
+    "terreno_restante": 3,
+    "defesa_parcial": 15,
+    "carga_exemplo": 4,
+    "limite_exemplo": 5
+  },
+  "textos_novos_palavras": {
+    "10-investigacao-em-andamento.md": 1799,
+    "11-espaco-e-usos-criativos.md": 1870,
+    "12-registro-de-descobertas.md": 441
+  },
+  "piloto_fichas_resultados_simulacoes_preservados": true,
+  "fonte_r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "leitura_com_participantes": false,
+  "teste_mesa": false
+}

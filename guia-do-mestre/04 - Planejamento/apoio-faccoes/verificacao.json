@@ -1,0 +1,23 @@
+{
+  "links_conferidos": 190,
+  "problemas_links": [],
+  "arquivos_anteriores_alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/15-ligar-missoes-e-campanhas.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "palavras_textos_novos": {
+    "17-faccoes-e-reacoes.md": 1425,
+    "18-preparar-antagonistas.md": 1461,
+    "19-encerrar-arcos-e-campanhas.md": 1228,
+    "20-ficha-de-faccao.md": 399
+  },
+  "base_piloto_calculos_e_simulacoes_preservados": true,
+  "leitura_por_participantes": false,
+  "teste_mesa": false,
+  "novos_valores_mecanicos": false
+}

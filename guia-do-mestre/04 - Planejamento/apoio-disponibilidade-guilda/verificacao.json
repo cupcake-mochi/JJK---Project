@@ -1,0 +1,275 @@
+{
+  "data": "2026-10-22",
+  "escopo": "comparacao de disponibilidade e saldo",
+  "resultados": {
+    "ritmos": {
+      "14": {
+        "apos_reserva_8h": 6,
+        "progresso_por_ciclo": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "ciclo_conclusao": 8,
+        "reparos_inteiros": 3,
+        "horas_do_proximo_reparo": 2,
+        "concessao_por_duracao": {
+          "7": 14,
+          "14": 28,
+          "15": 30
+        },
+        "maximo_abertura_com_saldo_por_duracao": {
+          "7": 28,
+          "14": 56,
+          "15": 60
+        }
+      },
+      "28": {
+        "apos_reserva_8h": 20,
+        "progresso_por_ciclo": [
+          20,
+          20,
+          8
+        ],
+        "ciclo_conclusao": 3,
+        "reparos_inteiros": 7,
+        "horas_do_proximo_reparo": 0,
+        "concessao_por_duracao": {
+          "7": 28,
+          "14": 56,
+          "15": 60
+        },
+        "maximo_abertura_com_saldo_por_duracao": {
+          "7": 56,
+          "14": 112,
+          "15": 120
+        }
+      },
+      "42": {
+        "apos_reserva_8h": 34,
+        "progresso_por_ciclo": [
+          34,
+          14
+        ],
+        "ciclo_conclusao": 2,
+        "reparos_inteiros": 10,
+        "horas_do_proximo_reparo": 2,
+        "concessao_por_duracao": {
+          "7": 42,
+          "14": 84,
+          "15": 90
+        },
+        "maximo_abertura_com_saldo_por_duracao": {
+          "7": 84,
+          "14": 168,
+          "15": 180
+        }
+      }
+    },
+    "saldo_B": {
+      "espera": {
+        "ciclos": [
+          {
+            "ciclo": 1,
+            "novo": 28,
+            "saldo_anterior": 0,
+            "disponibilidade_inicial": 28,
+            "trabalho": 18,
+            "antigo_usado": 0,
+            "novo_usado": 18,
+            "expirado": 0,
+            "transferido": 10
+          },
+          {
+            "ciclo": 2,
+            "novo": 28,
+            "saldo_anterior": 10,
+            "disponibilidade_inicial": 38,
+            "trabalho": 20,
+            "antigo_usado": 10,
+            "novo_usado": 10,
+            "expirado": 0,
+            "transferido": 18
+          }
+        ],
+        "abertura_seguinte": 46,
+        "conservacao": {
+          "concedido": 56,
+          "usado": 38,
+          "expirado": 0,
+          "saldo": 18
+        }
+      },
+      "missao_dez_dias": {
+        "ciclos": [
+          {
+            "ciclo": 1,
+            "novo": 28,
+            "saldo_anterior": 0,
+            "disponibilidade_inicial": 28,
+            "trabalho": 0,
+            "antigo_usado": 0,
+            "novo_usado": 0,
+            "expirado": 0,
+            "transferido": 28
+          },
+          {
+            "ciclo": 2,
+            "novo": 28,
+            "saldo_anterior": 28,
+            "disponibilidade_inicial": 56,
+            "trabalho": 16,
+            "antigo_usado": 16,
+            "novo_usado": 0,
+            "expirado": 12,
+            "transferido": 28
+          }
+        ],
+        "abertura_seguinte": 56,
+        "conservacao": {
+          "concedido": 56,
+          "usado": 16,
+          "expirado": 12,
+          "saldo": 28
+        }
+      },
+      "ausencia_tres_ciclos": {
+        "ciclos": [
+          {
+            "ciclo": 1,
+            "novo": 28,
+            "saldo_anterior": 0,
+            "disponibilidade_inicial": 28,
+            "trabalho": 0,
+            "antigo_usado": 0,
+            "novo_usado": 0,
+            "expirado": 0,
+            "transferido": 28
+          },
+          {
+            "ciclo": 2,
+            "novo": 28,
+            "saldo_anterior": 28,
+            "disponibilidade_inicial": 56,
+            "trabalho": 0,
+            "antigo_usado": 0,
+            "novo_usado": 0,
+            "expirado": 28,
+            "transferido": 28
+          },
+          {
+            "ciclo": 3,
+            "novo": 28,
+            "saldo_anterior": 28,
+            "disponibilidade_inicial": 56,
+            "trabalho": 0,
+            "antigo_usado": 0,
+            "novo_usado": 0,
+            "expirado": 28,
+            "transferido": 28
+          }
+        ],
+        "abertura_seguinte": 56,
+        "conservacao": {
+          "concedido": 84,
+          "usado": 0,
+          "expirado": 56,
+          "saldo": 28
+        }
+      },
+      "consumo_de_duas_concessoes": {
+        "ciclos": [
+          {
+            "ciclo": 1,
+            "novo": 28,
+            "saldo_anterior": 0,
+            "disponibilidade_inicial": 28,
+            "trabalho": 0,
+            "antigo_usado": 0,
+            "novo_usado": 0,
+            "expirado": 0,
+            "transferido": 28
+          },
+          {
+            "ciclo": 2,
+            "novo": 28,
+            "saldo_anterior": 28,
+            "disponibilidade_inicial": 56,
+            "trabalho": 56,
+            "antigo_usado": 28,
+            "novo_usado": 28,
+            "expirado": 0,
+            "transferido": 0
+          }
+        ],
+        "abertura_seguinte": 28,
+        "conservacao": {
+          "concedido": 56,
+          "usado": 56,
+          "expirado": 0,
+          "saldo": 0
+        }
+      },
+      "tempo_ficcional_de_doze_horas": {
+        "ciclos": [
+          {
+            "ciclo": 1,
+            "novo": 28,
+            "saldo_anterior": 0,
+            "disponibilidade_inicial": 28,
+            "trabalho": 0,
+            "antigo_usado": 0,
+            "novo_usado": 0,
+            "expirado": 0,
+            "transferido": 28
+          },
+          {
+            "ciclo": 2,
+            "novo": 28,
+            "saldo_anterior": 28,
+            "disponibilidade_inicial": 56,
+            "trabalho": 12,
+            "antigo_usado": 12,
+            "novo_usado": 0,
+            "expirado": 16,
+            "transferido": 28
+          }
+        ],
+        "abertura_seguinte": 56,
+        "conservacao": {
+          "concedido": 56,
+          "usado": 12,
+          "expirado": 16,
+          "saldo": 28
+        }
+      }
+    }
+  },
+  "arquivos_anteriores_conferidos": 106,
+  "mudancas_previstas": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/08-primeira-conversa-sobre-tempo-de-trabalho.md",
+    "04 - Planejamento/09-atividades-fora-de-missao-e-treinamentos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/28-proposta-unidade-de-dedicacao.md",
+    "04 - Planejamento/30-demonstracao-de-um-ciclo-de-atividades.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md"
+  ],
+  "links_locais_conferidos": 476,
+  "links_locais_quebrados": [],
+  "sha256_r53": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_manuscrito_e_base_preservados": true,
+  "decisao_autoral": "28 h por 7 dias como ritmo para desenvolver a politica",
+  "saldo_aprovado": false,
+  "cadencia_administrativa_escolhida": false,
+  "unidade_escolhida": false,
+  "validacao_humana_ou_de_economia_completa": false,
+  "limite": "Aritmetica e conservacao de concessoes em cenarios declarados; nao comprova equilibrio da producao ou de treinamento."
+}

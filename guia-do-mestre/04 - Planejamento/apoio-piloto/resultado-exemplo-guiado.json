@@ -1,0 +1,67 @@
+{
+  "conferido": true,
+  "critico_fisico_com_canalizar_conferido": true,
+  "etapas": [
+    {
+      "evento": "R1: crítico 24, primeiro Insistir",
+      "frente_pv": 0,
+      "frente_pe": 8,
+      "estado": "Insistir",
+      "sequelas": 0,
+      "tratamento": 0,
+      "janela": 3,
+      "amontoado_pv": 48,
+      "amontoado_pe": 3,
+      "apoio_pe": 10,
+      "conjuradora_pe": 12
+    },
+    {
+      "evento": "R1: socorro8, inimigo22",
+      "frente_pv": 8,
+      "frente_pe": 5,
+      "estado": "ativo",
+      "sequelas": 1,
+      "tratamento": 0,
+      "janela": null,
+      "amontoado_pv": 22,
+      "amontoado_pe": 3,
+      "apoio_pe": 7,
+      "conjuradora_pe": 9
+    },
+    {
+      "evento": "R2: segunda queda, tratamento7, inimigo11",
+      "frente_pv": 0,
+      "frente_pe": 2,
+      "estado": "Insistir",
+      "sequelas": 1,
+      "tratamento": 7,
+      "janela": 2,
+      "amontoado_pv": 11,
+      "amontoado_pe": 0,
+      "apoio_pe": 4,
+      "conjuradora_pe": 6
+    },
+    {
+      "evento": "R3: socorro12 e inimigo derrotado",
+      "frente_pv": 12,
+      "frente_pe": 2,
+      "estado": "ativo",
+      "sequelas": 2,
+      "tratamento": 0,
+      "janela": null,
+      "amontoado_pv": 0,
+      "amontoado_pe": 0,
+      "apoio_pe": 1,
+      "conjuradora_pe": 3
+    }
+  ],
+  "ramo_alternativo": {
+    "estado": "Derrotado",
+    "pv_depois_da_cura": 12
+  },
+  "chance_exata_2d8_atingir": {
+    "6": 0.84375,
+    "8": 0.671875,
+    "12": 0.234375
+  }
+}

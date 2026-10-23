@@ -1,0 +1,31 @@
+{
+  "estado": "Saída escolhida e Liberação irregular consolidada como exemplo experimental pré-1.0.",
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/34-c09-pactos-promessas-e-entidades.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+    "04 - Planejamento/51-dimensionamento-do-refluxo-e-dos-limites.md",
+    "04 - Planejamento/52-procedimento-da-liberacao-irregular.md",
+    "06 - Redacao do Guia/49-liberacao-irregular-minuta.md"
+  ],
+  "links_locais": 282,
+  "erros": [],
+  "conferencia_editorial": [
+    "Gatilho de Refluxo no quadro exclui sorteio inicial.",
+    "Contagem de gastos inclui o intervalo inicial.",
+    "Curto renova uso sem encerrar; próximo longo encerra; outro longo permite nova adesão.",
+    "Números e procedimentos anteriores preservados.",
+    "Complementos editoriais continuam identificados em P52."
+  ],
+  "escolha": "Encerrar no próximo descanso longo (recomendado)",
+  "r53_md_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_pdf_sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "limites": "Revisão documental e de clareza; nenhuma nova simulação de combate ou avaliação de equilíbrio em mesa.",
+  "proxima_tarefa": "Promessa original completa em C09, M107–M109; GPT-6 Astra, esforço alto."
+}

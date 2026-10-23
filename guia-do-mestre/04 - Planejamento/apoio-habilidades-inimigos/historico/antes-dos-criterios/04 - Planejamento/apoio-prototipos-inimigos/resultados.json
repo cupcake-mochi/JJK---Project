@@ -1,0 +1,975 @@
+{
+  "escopo": "Disponibilidade e estados condicionais; sem combate completo, teste humano ou equilíbrio validado.",
+  "fonte_base_sha256": "e00eb6297c7d3584a9cce27fd1a193aabeaf624b46ea2b9995fa251dc00d124b",
+  "fonte_r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "janelas": {
+    "1": {
+      "R": {
+        "sequencia": [
+          "H"
+        ],
+        "impactos": 1,
+        "saldo": 3,
+        "unidade_saldo": "PE"
+      },
+      "U": {
+        "sequencia": [
+          "H"
+        ],
+        "impactos": 1,
+        "saldo": 1,
+        "unidade_saldo": "usos"
+      },
+      "I": {
+        "sequencia": [
+          "H"
+        ],
+        "impactos": 1,
+        "saldo": null,
+        "unidade_saldo": null
+      },
+      "M": {
+        "sequencia": [
+          "H"
+        ],
+        "impactos": 1,
+        "saldo": 3,
+        "unidade_saldo": "PE"
+      }
+    },
+    "3": {
+      "R": {
+        "sequencia": [
+          "H",
+          "H",
+          "B"
+        ],
+        "impactos": 2,
+        "saldo": 0,
+        "unidade_saldo": "PE"
+      },
+      "U": {
+        "sequencia": [
+          "H",
+          "H",
+          "B"
+        ],
+        "impactos": 2,
+        "saldo": 0,
+        "unidade_saldo": "usos"
+      },
+      "I": {
+        "sequencia": [
+          "H",
+          "B",
+          "H"
+        ],
+        "impactos": 2,
+        "saldo": null,
+        "unidade_saldo": null
+      },
+      "M": {
+        "sequencia": [
+          "H",
+          "B",
+          "H"
+        ],
+        "impactos": 2,
+        "saldo": 0,
+        "unidade_saldo": "PE"
+      }
+    },
+    "5": {
+      "R": {
+        "sequencia": [
+          "H",
+          "H",
+          "B",
+          "B",
+          "B"
+        ],
+        "impactos": 2,
+        "saldo": 0,
+        "unidade_saldo": "PE"
+      },
+      "U": {
+        "sequencia": [
+          "H",
+          "H",
+          "B",
+          "B",
+          "B"
+        ],
+        "impactos": 2,
+        "saldo": 0,
+        "unidade_saldo": "usos"
+      },
+      "I": {
+        "sequencia": [
+          "H",
+          "B",
+          "H",
+          "B",
+          "H"
+        ],
+        "impactos": 3,
+        "saldo": null,
+        "unidade_saldo": null
+      },
+      "M": {
+        "sequencia": [
+          "H",
+          "B",
+          "H",
+          "B",
+          "B"
+        ],
+        "impactos": 2,
+        "saldo": 0,
+        "unidade_saldo": "PE"
+      }
+    },
+    "8": {
+      "R": {
+        "sequencia": [
+          "H",
+          "H",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B"
+        ],
+        "impactos": 2,
+        "saldo": 0,
+        "unidade_saldo": "PE"
+      },
+      "U": {
+        "sequencia": [
+          "H",
+          "H",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B"
+        ],
+        "impactos": 2,
+        "saldo": 0,
+        "unidade_saldo": "usos"
+      },
+      "I": {
+        "sequencia": [
+          "H",
+          "B",
+          "H",
+          "B",
+          "H",
+          "B",
+          "H",
+          "B"
+        ],
+        "impactos": 4,
+        "saldo": null,
+        "unidade_saldo": null
+      },
+      "M": {
+        "sequencia": [
+          "H",
+          "B",
+          "H",
+          "B",
+          "B",
+          "B",
+          "B",
+          "B"
+        ],
+        "impactos": 2,
+        "saldo": 0,
+        "unidade_saldo": "PE"
+      }
+    }
+  },
+  "escolhas": {
+    "2": {
+      "R": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "U": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "M": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    "3": {
+      "R": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "U": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "M": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      }
+    },
+    "5": {
+      "R": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "U": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "M": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      }
+    },
+    "8": {
+      "R": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "U": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      },
+      "M": {
+        "pares_possiveis": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "combinacoes_maximas": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ]
+      }
+    }
+  },
+  "recarga": {
+    "1": {
+      "media": "1",
+      "minimo": 1,
+      "maximo": 1,
+      "probabilidades": {
+        "1": "1"
+      }
+    },
+    "3": {
+      "media": "5/3",
+      "minimo": 1,
+      "maximo": 3,
+      "probabilidades": {
+        "1": "4/9",
+        "2": "4/9",
+        "3": "1/9"
+      }
+    },
+    "5": {
+      "media": "7/3",
+      "minimo": 1,
+      "maximo": 5,
+      "probabilidades": {
+        "1": "16/81",
+        "2": "32/81",
+        "3": "8/27",
+        "4": "8/81",
+        "5": "1/81"
+      }
+    },
+    "8": {
+      "media": "10/3",
+      "minimo": 1,
+      "maximo": 8,
+      "probabilidades": {
+        "1": "128/2187",
+        "2": "448/2187",
+        "3": "224/729",
+        "4": "560/2187",
+        "5": "280/2187",
+        "6": "28/729",
+        "7": "14/2187",
+        "8": "1/2187"
+      }
+    }
+  },
+  "preparo": {
+    "1": {
+      "sequencia": [
+        "P"
+      ],
+      "impactos": 0
+    },
+    "3": {
+      "sequencia": [
+        "P",
+        "H",
+        "P"
+      ],
+      "impactos": 1
+    },
+    "5": {
+      "sequencia": [
+        "P",
+        "H",
+        "P",
+        "H",
+        "P"
+      ],
+      "impactos": 2
+    },
+    "8": {
+      "sequencia": [
+        "P",
+        "H",
+        "P",
+        "H",
+        "P",
+        "H",
+        "P",
+        "H"
+      ],
+      "impactos": 4
+    }
+  },
+  "integridade_estagio2": {
+    "R": {
+      "pares_possiveis": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "combinacoes_maximas": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "U": {
+      "pares_possiveis": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "combinacoes_maximas": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    "M": {
+      "pares_possiveis": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "combinacoes_maximas": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "U_observacao": "Sem tradução: divergência deliberada, não integração com a R53."
+  },
+  "casos": {
+    "estagio2_antes_do_primeiro": {
+      "impactos": 1,
+      "saldo": 2
+    },
+    "estagio2_depois_do_primeiro": {
+      "saldo": 3,
+      "paga_segundo": false
+    },
+    "proteger_com_5pv": {
+      "pv": 3,
+      "pe": 1
+    },
+    "guardar_com_5pv": {
+      "pv": 0,
+      "pe": 3
+    },
+    "proteger_com_20pv": {
+      "pv": 18,
+      "pe": 1
+    },
+    "guardar_com_20pv": {
+      "pv": 14,
+      "pe": 3
+    },
+    "retirada_turno2_retorno3": {
+      "saldo": 3,
+      "intervalo_terminou": true
+    },
+    "perda_condicional_de_2pe": {
+      "saldo_apos_perda": 4,
+      "saldo_apos_impacto": 1
+    },
+    "preparo_cancelado_por_movimento": {
+      "preparo_antes": true,
+      "preparo_depois": false
+    },
+    "recarga_custo_zero_estagio2": {
+      "custo": 1,
+      "tentativas_pagaveis": 6
+    }
+  },
+  "conferencia": "Concluída; assertivas de disponibilidade, combinações e estados satisfeitas."
+}

@@ -1,0 +1,32 @@
+{
+  "data": "2026-10-22",
+  "arquivos_previos_conferidos": 114,
+  "divergencias_iniciais": 0,
+  "alteracoes_previas_esperadas": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_preservada": true,
+  "arquivos_previos_nao_alterados": 108,
+  "links_locais_conferidos": 531,
+  "links_quebrados": [],
+  "fragmentos_de_ancora_verificados": false,
+  "casos_numericos": 20,
+  "revisao_editorial": [
+    "Forma de aquisição antes de requisitos e exceções.",
+    "Horas de projeto, jornada do Pacto e ciclo de atuação distinguidos.",
+    "Reconstrução e transferência com dificuldades separadas.",
+    "Promessa parcial e teste sem custos identificados como demonstrações delimitadas.",
+    "Doma em grupo distinguida de ritual individual.",
+    "Nenhuma tabela nova de tempo, materiais ou treinos."
+  ],
+  "pendencias": "Ver registro 34, tabela de cobertura.",
+  "validacao_humana": false,
+  "simulacao_de_combate_nova": false,
+  "fonte_de_inimigos_antiga_usada": false
+}

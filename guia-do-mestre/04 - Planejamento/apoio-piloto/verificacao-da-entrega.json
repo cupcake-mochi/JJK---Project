@@ -1,0 +1,17 @@
+{
+  "resultados_concluidos": true,
+  "checagens": 46,
+  "simulacoes": 160000,
+  "casos": 32,
+  "exemplo_guiado_conferido": true,
+  "critico_com_canalizar_conferido": true,
+  "links_quebrados": [],
+  "matriz_preservada": true,
+  "competencias_preservadas": true,
+  "pontos": 130,
+  "competencias": 20,
+  "blocos_decisao": 15,
+  "base_sha256_confere": true,
+  "modelo_sha256_confere": true,
+  "r53_sha256_confere": true
+}

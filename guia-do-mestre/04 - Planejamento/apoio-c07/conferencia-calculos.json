@@ -1,0 +1,196 @@
+{
+  "metodo": "Contas determinísticas dos exemplos; sem simulação de combate ou teste com participantes.",
+  "verificacoes": [
+    {
+      "caso": "Toque sem Melhorias: devolução útil",
+      "calculado": 0,
+      "esperado": 0
+    },
+    {
+      "caso": "Toque sem Melhorias: dados",
+      "calculado": 3,
+      "esperado": 3
+    },
+    {
+      "caso": "Toque e Precisão: dados",
+      "calculado": 3,
+      "esperado": 3
+    },
+    {
+      "caso": "Ataque com Precisão",
+      "calculado": 6,
+      "esperado": 6
+    },
+    {
+      "caso": "Prende Classe 2: saldo descartado",
+      "calculado": 4,
+      "esperado": 4
+    },
+    {
+      "caso": "Prende sem dano: CD",
+      "calculado": 15,
+      "esperado": 15
+    },
+    {
+      "caso": "Recomposição na maior Classe 3",
+      "calculado": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "Fundamento Incorporado antes do dado",
+      "calculado": 15,
+      "esperado": 15
+    },
+    {
+      "caso": "Teste já rolado: benefício não retroage",
+      "calculado": 14,
+      "esperado": 14
+    },
+    {
+      "caso": "Liberação de Linha Classe 3: dados",
+      "calculado": 10,
+      "esperado": 10
+    },
+    {
+      "caso": "Liberação Classe 3: PE",
+      "calculado": 14,
+      "esperado": 14
+    },
+    {
+      "caso": "Liberação Sangue Classe 3",
+      "calculado": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "Máxima Fenda de Arrasto: pontos gastos",
+      "calculado": 2,
+      "esperado": 2
+    },
+    {
+      "caso": "Máxima Fenda de Arrasto: sobra descartada",
+      "calculado": 6,
+      "esperado": 6
+    },
+    {
+      "caso": "Máxima TR: três quartos de 101",
+      "calculado": 76,
+      "esperado": 76
+    },
+    {
+      "caso": "Máxima cura+Guarda sem desconto: custo",
+      "calculado": 10,
+      "esperado": 10
+    },
+    {
+      "caso": "Máxima cura+Guarda sem desconto: cabe",
+      "calculado": false,
+      "esperado": false
+    },
+    {
+      "caso": "Desconto pessoal Livre na Classe 5",
+      "calculado": 3,
+      "esperado": 3
+    },
+    {
+      "caso": "Guarda Média Livre na Classe 5",
+      "calculado": 2,
+      "esperado": 2
+    },
+    {
+      "caso": "Máxima cura+Guarda Livre: custo",
+      "calculado": 7,
+      "esperado": 7
+    },
+    {
+      "caso": "Máxima cura+Guarda Livre: sobra",
+      "calculado": 1,
+      "esperado": 1
+    },
+    {
+      "caso": "Máxima cura simples: sobra",
+      "calculado": 3,
+      "esperado": 3
+    },
+    {
+      "caso": "Recarga opcional: primeira rodada permitida",
+      "calculado": 5,
+      "esperado": 5
+    },
+    {
+      "caso": "Domínio: dados do Acerto normal na Classe 4",
+      "calculado": 8,
+      "esperado": 8
+    },
+    {
+      "caso": "Domínio Completo: PE de abertura",
+      "calculado": 24,
+      "esperado": 24
+    },
+    {
+      "caso": "Domínio Completo: raio Refino 5",
+      "calculado": 7.5,
+      "esperado": 7.5
+    },
+    {
+      "caso": "Domínio: turnos seguintes Refino 5",
+      "calculado": 2,
+      "esperado": 2
+    },
+    {
+      "caso": "Domínio: aplicações incluindo abertura",
+      "calculado": 3,
+      "esperado": 3
+    },
+    {
+      "caso": "Domínio: soma potencial de dados em aplicações distintas",
+      "calculado": 24,
+      "esperado": 24
+    },
+    {
+      "caso": "Domínio Completo: desconto",
+      "calculado": 2,
+      "esperado": 2
+    },
+    {
+      "caso": "Domínio: PV exteriores",
+      "calculado": 100,
+      "esperado": 100
+    },
+    {
+      "caso": "Remodelar: diferença paga em dados",
+      "calculado": 2,
+      "esperado": 2
+    },
+    {
+      "caso": "Remodelar: dados finais",
+      "calculado": 4,
+      "esperado": 4
+    },
+    {
+      "caso": "Remodelar: PE total",
+      "calculado": 11,
+      "esperado": 11
+    },
+    {
+      "caso": "Cortina Refino 6: PV",
+      "calculado": 240,
+      "esperado": 240
+    },
+    {
+      "caso": "Cortina: borda dentro do teto",
+      "calculado": true,
+      "esperado": true
+    },
+    {
+      "caso": "Cortina: borda excedente",
+      "calculado": false,
+      "esperado": false
+    },
+    {
+      "caso": "Ficha de avaliação: ataque",
+      "calculado": 14,
+      "esperado": 14
+    }
+  ],
+  "total": 38
+}

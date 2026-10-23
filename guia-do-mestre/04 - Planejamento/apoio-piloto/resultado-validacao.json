@@ -1,0 +1,728 @@
+{
+  "completo": true,
+  "base_sha256": "e00eb6297c7d3584a9cce27fd1a193aabeaf624b46ea2b9995fa251dc00d124b",
+  "modelo_sha256": "cff16a63d89ed8620f4bb30bef173631d71668723ff79ba70db23c18e7987573",
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "checagens": [
+    "rastejante atributos",
+    "rastejante Defesa",
+    "rastejante dano desarmado",
+    "rastejante perícias",
+    "rastejante conversão de vida",
+    "rastejante famílias da domada",
+    "amontoado atributos",
+    "amontoado Defesa",
+    "amontoado dano desarmado",
+    "amontoado perícias",
+    "amontoado orçamento e PE",
+    "amontoado conversão de vida",
+    "amontoado famílias da domada",
+    "amontoado orçamento da especial domada",
+    "vigia atributos",
+    "vigia Defesa",
+    "vigia dano desarmado",
+    "vigia perícias",
+    "vigia orçamento e PE",
+    "vigia conversão de vida",
+    "vigia famílias da domada",
+    "vigia orçamento da especial domada",
+    "frente vida",
+    "frente Defesa",
+    "conjurador vida",
+    "conjurador Defesa",
+    "apoio vida",
+    "apoio Defesa",
+    "Kaori: ataque 16 acerta Defesa 12; 14 de dano encerra inimigo 14",
+    "Mei 23: Aguentar 6, primeiro Insistir 8",
+    "Exemplo 93/Classe3: 24,31,45",
+    "Teto 395/Classe7: 99,105,105",
+    "Excesso da queda não agrava janela",
+    "Cura insuficiente não renova janela",
+    "Prazo no ponto de iniciativa",
+    "Dano posterior conserva tratamento e reduz prazo",
+    "Socorro converte todo tratamento, dá Sequela, não subtrai requisito",
+    "Nova queda: janela2 e segundo Insistir12",
+    "Estável suspende tempo",
+    "Dano rompe estabilidade e marca novo ponto",
+    "Cura não reabre Derrotado",
+    "Depois da derrota, tratamento7 e cura5 dão12PV sem retorno à cena",
+    "Três Sequelas: derrota imediata",
+    "Integridade NPC é metade da vida; Alma pode derrotar com PV restantes",
+    "Acerto estático +4 contra13",
+    "Refino1: Canalizar no físico e não na conjuração"
+  ],
+  "acertos_exatos": {
+    "11": {
+      "estatica": {
+        "acerto": 0.7,
+        "critico": 0.05
+      },
+      "bloquear": {
+        "acerto": 0.693,
+        "critico": 0.05
+      }
+    },
+    "12": {
+      "estatica": {
+        "acerto": 0.65,
+        "critico": 0.05
+      },
+      "bloquear": {
+        "acerto": 0.6465,
+        "critico": 0.05
+      }
+    },
+    "13": {
+      "estatica": {
+        "acerto": 0.6,
+        "critico": 0.05
+      },
+      "bloquear": {
+        "acerto": 0.5985,
+        "critico": 0.05
+      }
+    }
+  },
+  "resultados": [
+    {
+      "caso": "rastejante",
+      "politica": "Aguentar",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 1.0,
+      "ic95": [
+        0.9992322698624194,
+        1.0000000000000002
+      ],
+      "mediana_rodadas": 1.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 2,
+      "alguma_queda": 0.0,
+      "algum_derrotado": 0.0,
+      "morrendo_ao_encerrar": 0.0,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0,
+      "censurados": 0
+    },
+    {
+      "caso": "rastejante",
+      "politica": "Aguentar",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 1.0,
+      "ic95": [
+        0.9992322698624194,
+        1.0000000000000002
+      ],
+      "mediana_rodadas": 1.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 2,
+      "alguma_queda": 0.0002,
+      "algum_derrotado": 0.0,
+      "morrendo_ao_encerrar": 0.0002,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0,
+      "censurados": 0
+    },
+    {
+      "caso": "rastejante",
+      "politica": "Insistir",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 1.0,
+      "ic95": [
+        0.9992322698624194,
+        1.0000000000000002
+      ],
+      "mediana_rodadas": 1.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 2,
+      "alguma_queda": 0.0,
+      "algum_derrotado": 0.0,
+      "morrendo_ao_encerrar": 0.0,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0,
+      "censurados": 0
+    },
+    {
+      "caso": "rastejante",
+      "politica": "Insistir",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 1.0,
+      "ic95": [
+        0.9992322698624194,
+        1.0000000000000002
+      ],
+      "mediana_rodadas": 1.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 2,
+      "alguma_queda": 0.0002,
+      "algum_derrotado": 0.0,
+      "morrendo_ao_encerrar": 0.0002,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado",
+      "politica": "Aguentar",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 0.9974,
+      "ic95": [
+        0.9955563744107833,
+        0.9984798876483515
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.2036,
+      "algum_derrotado": 0.0032,
+      "morrendo_ao_encerrar": 0.0652,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.197,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado",
+      "politica": "Aguentar",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 0.9982,
+      "ic95": [
+        0.9965823163898597,
+        0.9990527173010548
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.2092,
+      "algum_derrotado": 0.0032,
+      "morrendo_ao_encerrar": 0.0622,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.2068,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado",
+      "politica": "Insistir",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 0.9994,
+      "ic95": [
+        0.99823726209947,
+        0.9997959290391145
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.2036,
+      "algum_derrotado": 0.0034,
+      "morrendo_ao_encerrar": 0.1064,
+      "acoes_insistindo_media": 0.1468,
+      "curas_media": 0.1594,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado",
+      "politica": "Insistir",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 0.9994,
+      "ic95": [
+        0.99823726209947,
+        0.9997959290391145
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.2092,
+      "algum_derrotado": 0.0048,
+      "morrendo_ao_encerrar": 0.1022,
+      "acoes_insistindo_media": 0.1488,
+      "curas_media": 0.166,
+      "censurados": 0
+    },
+    {
+      "caso": "vigia",
+      "politica": "Aguentar",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 1.0,
+      "ic95": [
+        0.9992322698624194,
+        1.0000000000000002
+      ],
+      "mediana_rodadas": 1.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.1066,
+      "algum_derrotado": 0.0,
+      "morrendo_ao_encerrar": 0.0308,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.0978,
+      "censurados": 0
+    },
+    {
+      "caso": "vigia",
+      "politica": "Aguentar",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 1.0,
+      "ic95": [
+        0.9992322698624194,
+        1.0000000000000002
+      ],
+      "mediana_rodadas": 1.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.1116,
+      "algum_derrotado": 0.0002,
+      "morrendo_ao_encerrar": 0.0294,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.104,
+      "censurados": 0
+    },
+    {
+      "caso": "vigia",
+      "politica": "Insistir",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 1.0,
+      "ic95": [
+        0.9992322698624194,
+        1.0000000000000002
+      ],
+      "mediana_rodadas": 1.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 2,
+      "alguma_queda": 0.1066,
+      "algum_derrotado": 0.0008,
+      "morrendo_ao_encerrar": 0.0578,
+      "acoes_insistindo_media": 0.0718,
+      "curas_media": 0.0788,
+      "censurados": 0
+    },
+    {
+      "caso": "vigia",
+      "politica": "Insistir",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 1.0,
+      "ic95": [
+        0.9992322698624194,
+        1.0000000000000002
+      ],
+      "mediana_rodadas": 1.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 2,
+      "alguma_queda": 0.1116,
+      "algum_derrotado": 0.0012,
+      "morrendo_ao_encerrar": 0.0606,
+      "acoes_insistindo_media": 0.0766,
+      "curas_media": 0.0848,
+      "censurados": 0
+    },
+    {
+      "caso": "dois_rastejantes",
+      "politica": "Aguentar",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 0.9998,
+      "ic95": [
+        0.998867881829747,
+        0.9999646951247276
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.005,
+      "algum_derrotado": 0.0004,
+      "morrendo_ao_encerrar": 0.0038,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.0022,
+      "censurados": 0
+    },
+    {
+      "caso": "dois_rastejantes",
+      "politica": "Aguentar",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 1.0,
+      "ic95": [
+        0.9992322698624194,
+        1.0000000000000002
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.0076,
+      "algum_derrotado": 0.0006,
+      "morrendo_ao_encerrar": 0.0048,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.0044,
+      "censurados": 0
+    },
+    {
+      "caso": "dois_rastejantes",
+      "politica": "Insistir",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 1.0,
+      "ic95": [
+        0.9992322698624194,
+        1.0000000000000002
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.005,
+      "algum_derrotado": 0.0002,
+      "morrendo_ao_encerrar": 0.0036,
+      "acoes_insistindo_media": 0.0034,
+      "curas_media": 0.0022,
+      "censurados": 0
+    },
+    {
+      "caso": "dois_rastejantes",
+      "politica": "Insistir",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 0.9998,
+      "ic95": [
+        0.998867881829747,
+        0.9999646951247276
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.0076,
+      "algum_derrotado": 0.0004,
+      "morrendo_ao_encerrar": 0.0052,
+      "acoes_insistindo_media": 0.0066,
+      "curas_media": 0.0038,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_dupla",
+      "politica": "Aguentar",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 0.9056,
+      "ic95": [
+        0.8971812558257242,
+        0.9133959614866705
+      ],
+      "mediana_rodadas": 3.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 8,
+      "alguma_queda": 0.349,
+      "algum_derrotado": 0.045,
+      "morrendo_ao_encerrar": 0.1554,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.3426,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_dupla",
+      "politica": "Aguentar",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 0.8948,
+      "ic95": [
+        0.8859903979312685,
+        0.903003402352098
+      ],
+      "mediana_rodadas": 3.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 8,
+      "alguma_queda": 0.3576,
+      "algum_derrotado": 0.0446,
+      "morrendo_ao_encerrar": 0.1654,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.3522,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_dupla",
+      "politica": "Insistir",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 0.9686,
+      "ic95": [
+        0.9633947075096198,
+        0.9730857758054398
+      ],
+      "mediana_rodadas": 3.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 7,
+      "alguma_queda": 0.349,
+      "algum_derrotado": 0.0538,
+      "morrendo_ao_encerrar": 0.1558,
+      "acoes_insistindo_media": 0.4128,
+      "curas_media": 0.3238,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_dupla",
+      "politica": "Insistir",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 0.9598,
+      "ic95": [
+        0.9539929460185922,
+        0.9649010493468887
+      ],
+      "mediana_rodadas": 3.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 7,
+      "alguma_queda": 0.3576,
+      "algum_derrotado": 0.0628,
+      "morrendo_ao_encerrar": 0.1554,
+      "acoes_insistindo_media": 0.4268,
+      "curas_media": 0.3272,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_desgastado",
+      "politica": "Aguentar",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 0.9568,
+      "ic95": [
+        0.9508051744456979,
+        0.9620934273006084
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 4,
+      "alguma_queda": 0.605,
+      "algum_derrotado": 0.2894,
+      "morrendo_ao_encerrar": 0.1092,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.5926,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_desgastado",
+      "politica": "Aguentar",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 0.9472,
+      "ic95": [
+        0.94065072899258,
+        0.953062613172368
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 4,
+      "alguma_queda": 0.5954,
+      "algum_derrotado": 0.2842,
+      "morrendo_ao_encerrar": 0.1174,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.5926,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_desgastado",
+      "politica": "Insistir",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 0.9814,
+      "ic95": [
+        0.9772686637995099,
+        0.9847921656240276
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 4,
+      "alguma_queda": 0.605,
+      "algum_derrotado": 0.244,
+      "morrendo_ao_encerrar": 0.1734,
+      "acoes_insistindo_media": 0.463,
+      "curas_media": 0.5528,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_desgastado",
+      "politica": "Insistir",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 0.9784,
+      "ic95": [
+        0.9739880084023371,
+        0.9820774274020259
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 4,
+      "alguma_queda": 0.5954,
+      "algum_derrotado": 0.244,
+      "morrendo_ao_encerrar": 0.165,
+      "acoes_insistindo_media": 0.4622,
+      "curas_media": 0.5522,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_e_rastejante",
+      "politica": "Aguentar",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 0.9608,
+      "ic95": [
+        0.9550573107844406,
+        0.9658351491207652
+      ],
+      "mediana_rodadas": 3.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 6,
+      "alguma_queda": 0.3814,
+      "algum_derrotado": 0.0376,
+      "morrendo_ao_encerrar": 0.1478,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.4484,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_e_rastejante",
+      "politica": "Aguentar",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 0.9624,
+      "ic95": [
+        0.956762266413203,
+        0.9673277367555625
+      ],
+      "mediana_rodadas": 3.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 6,
+      "alguma_queda": 0.3898,
+      "algum_derrotado": 0.039,
+      "morrendo_ao_encerrar": 0.1434,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.4658,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_e_rastejante",
+      "politica": "Insistir",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 0.9926,
+      "ic95": [
+        0.9898171986694128,
+        0.9946264335990428
+      ],
+      "mediana_rodadas": 3.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 5,
+      "alguma_queda": 0.3814,
+      "algum_derrotado": 0.0622,
+      "morrendo_ao_encerrar": 0.139,
+      "acoes_insistindo_media": 0.3572,
+      "curas_media": 0.3902,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_e_rastejante",
+      "politica": "Insistir",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 0.992,
+      "ic95": [
+        0.9891252022422699,
+        0.9941193513023507
+      ],
+      "mediana_rodadas": 3.0,
+      "p10_rodadas": 2,
+      "p90_rodadas": 5,
+      "alguma_queda": 0.3898,
+      "algum_derrotado": 0.0636,
+      "morrendo_ao_encerrar": 0.1384,
+      "acoes_insistindo_media": 0.3726,
+      "curas_media": 0.4086,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_com_alma",
+      "politica": "Aguentar",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 0.9986,
+      "ic95": [
+        0.9971127434504155,
+        0.9993216760563892
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.1402,
+      "algum_derrotado": 0.0018,
+      "morrendo_ao_encerrar": 0.0462,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.1262,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_com_alma",
+      "politica": "Aguentar",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 0.9994,
+      "ic95": [
+        0.99823726209947,
+        0.9997959290391145
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.1438,
+      "algum_derrotado": 0.0018,
+      "morrendo_ao_encerrar": 0.0456,
+      "acoes_insistindo_media": 0,
+      "curas_media": 0.1324,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_com_alma",
+      "politica": "Insistir",
+      "bloquear": false,
+      "n": 5000,
+      "neutralizacao": 1.0,
+      "ic95": [
+        0.9992322698624194,
+        1.0000000000000002
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.1402,
+      "algum_derrotado": 0.001,
+      "morrendo_ao_encerrar": 0.0704,
+      "acoes_insistindo_media": 0.0968,
+      "curas_media": 0.109,
+      "censurados": 0
+    },
+    {
+      "caso": "amontoado_com_alma",
+      "politica": "Insistir",
+      "bloquear": true,
+      "n": 5000,
+      "neutralizacao": 0.9998,
+      "ic95": [
+        0.998867881829747,
+        0.9999646951247276
+      ],
+      "mediana_rodadas": 2.0,
+      "p10_rodadas": 1,
+      "p90_rodadas": 3,
+      "alguma_queda": 0.1438,
+      "algum_derrotado": 0.0038,
+      "morrendo_ao_encerrar": 0.0642,
+      "acoes_insistindo_media": 0.0998,
+      "curas_media": 0.1192,
+      "censurados": 0
+    }
+  ]
+}

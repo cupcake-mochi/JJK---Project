@@ -1,0 +1,277 @@
+{
+  "data": "2026-10-23",
+  "base": 187,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+    "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "novos": [
+    "04 - Planejamento/59-fabricacao-completa-e-evolucao-do-vigia.md",
+    "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+    "04 - Planejamento/apoio-fabricacao-completa/verificacao.json"
+  ],
+  "links": 300,
+  "contas": [
+    {
+      "campo": "atributos9",
+      "resultado": 10,
+      "esperado": 10,
+      "ok": true
+    },
+    {
+      "campo": "atributos10",
+      "resultado": 11,
+      "esperado": 11,
+      "ok": true
+    },
+    {
+      "campo": "vidas",
+      "resultado": [
+        56,
+        72,
+        79,
+        86,
+        93
+      ],
+      "esperado": [
+        56,
+        72,
+        79,
+        86,
+        93
+      ],
+      "ok": true
+    },
+    {
+      "campo": "integridades",
+      "resultado": [
+        28,
+        36,
+        39,
+        43,
+        46
+      ],
+      "esperado": [
+        28,
+        36,
+        39,
+        43,
+        46
+      ],
+      "ok": true
+    },
+    {
+      "campo": "vagas",
+      "resultado": [
+        3,
+        3,
+        3,
+        4,
+        4
+      ],
+      "esperado": [
+        3,
+        3,
+        3,
+        4,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "campo": "Defesa Kaito",
+      "resultado": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "campo": "Defesa Mei",
+      "resultado": 13,
+      "esperado": 13,
+      "ok": true
+    },
+    {
+      "campo": "Bloquear",
+      "resultado": [
+        3,
+        2
+      ],
+      "esperado": [
+        3,
+        2
+      ],
+      "ok": true
+    },
+    {
+      "campo": "ataques",
+      "resultado": [
+        4,
+        6,
+        5,
+        7
+      ],
+      "esperado": [
+        4,
+        6,
+        5,
+        7
+      ],
+      "ok": true
+    },
+    {
+      "campo": "CDs",
+      "resultado": [
+        12,
+        13
+      ],
+      "esperado": [
+        12,
+        13
+      ],
+      "ok": true
+    },
+    {
+      "campo": "dados especiais",
+      "resultado": [
+        5,
+        8
+      ],
+      "esperado": [
+        5,
+        8
+      ],
+      "ok": true
+    },
+    {
+      "campo": "custo especiais",
+      "resultado": [
+        9,
+        12
+      ],
+      "esperado": [
+        9,
+        12
+      ],
+      "ok": true
+    },
+    {
+      "campo": "carga talismã",
+      "resultado": [
+        3,
+        4
+      ],
+      "esperado": [
+        3,
+        4
+      ],
+      "ok": true
+    },
+    {
+      "campo": "perícias",
+      "resultado": 5,
+      "esperado": 5,
+      "ok": true
+    },
+    {
+      "campo": "projeto",
+      "resultado": [
+        48,
+        36000,
+        12,
+        11,
+        14
+      ],
+      "esperado": [
+        48,
+        36000,
+        12,
+        11,
+        14
+      ],
+      "ok": true
+    },
+    {
+      "campo": "reconstrução",
+      "resultado": [
+        36,
+        18000
+      ],
+      "esperado": [
+        36,
+        18000
+      ],
+      "ok": true
+    },
+    {
+      "campo": "transferência",
+      "resultado": [
+        6,
+        4000,
+        8,
+        15
+      ],
+      "esperado": [
+        6,
+        4000,
+        8,
+        15
+      ],
+      "ok": true
+    },
+    {
+      "campo": "corpo criado",
+      "resultado": [
+        64,
+        105
+      ],
+      "esperado": [
+        64,
+        105
+      ],
+      "ok": true
+    },
+    {
+      "campo": "integridades corpo",
+      "resultado": [
+        32,
+        52
+      ],
+      "esperado": [
+        32,
+        52
+      ],
+      "ok": true
+    },
+    {
+      "campo": "corpos mantidos",
+      "resultado": 6,
+      "esperado": 6,
+      "ok": true
+    }
+  ],
+  "fontes": {
+    "LIVRO-COMPLETO.md": {
+      "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+      "preservado": true
+    },
+    "output/pdf/Ciclo-Maldito-R53.pdf": {
+      "sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+      "preservado": true
+    }
+  },
+  "limites": [
+    "Sem teste humano ou simulação nova.",
+    "Montagem original com peças publicadas; orçamento ilustrativo.",
+    "Preenchimento M119/M122 não equivale a equilíbrio validado ou manuscrito completo."
+  ],
+  "proximo": "C04 — GPT-6 Astra extra alto",
+  "erros": [],
+  "ok": true
+}

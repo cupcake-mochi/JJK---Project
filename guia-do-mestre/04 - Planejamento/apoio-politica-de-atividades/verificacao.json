@@ -1,0 +1,36 @@
+{
+  "data": "2026-10-22",
+  "etapa": "politica consolidada por ficha",
+  "arquivos_anteriores_conferidos": 109,
+  "mudancas_planejadas": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/09-atividades-fora-de-missao-e-treinamentos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/31-propostas-de-disponibilidade-para-a-guilda.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "links_locais_conferidos": 503,
+  "links_quebrados": [],
+  "sha256_r53": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_base_e_demais_arquivos_anteriores_preservados": true,
+  "manuscrito_alterado": [
+    "39-atividades-e-tempo-entre-missoes.md",
+    "40-registro-de-dedicacao-por-ficha.md",
+    "LEIA-ME.md",
+    "REFERENCIAS.md"
+  ],
+  "decisoes": [
+    "7 dias / 28h",
+    "concessao independente por ficha",
+    "saldo valido apenas no ciclo seguinte",
+    "acesso proporcional sem minimo de missoes/postagens e afastamento formal"
+  ],
+  "compartilhamento_por_jogador_adotado": false,
+  "conferencia_aritmetica": "conferencia.json",
+  "limite": "Contas, saldos, reservas e linhas dos exemplos conferidas; sem teste humano, economia completa ou mecanica de treinamento nova."
+}

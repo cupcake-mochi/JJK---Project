@@ -1,0 +1,47 @@
+{
+  "data": "2026-10-22",
+  "estado": "Comparação preparada, aguardando estrutura e benefício escolhidos pelo autor.",
+  "manifesto_anterior": 143,
+  "divergencias_iniciais": 0,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md"
+  ],
+  "novos": [
+    "04 - Planejamento/44-comparacao-de-beneficios-do-pacifismo.md",
+    "04 - Planejamento/apoio-pacifismo/verificacao-comparacao-beneficios.json"
+  ],
+  "links_locais": 641,
+  "ausentes": [],
+  "ancoras_novas_da_r53_verificadas": [
+    "ritual--pacto-permanente",
+    "aptidoes--apt-cortina",
+    "aptidoes--apt-cobrir"
+  ],
+  "r53_preservada": true,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "contas": {
+    "cortina_refino4_vida": 160,
+    "cortina_refino4_distancia_maxima_borda_m": 300,
+    "amortecimento_refino6": 9,
+    "dano17_apos_reducao": 8
+  },
+  "conferencia_documental": [
+    "Aptidões necessárias devem existir antes do ganho.",
+    "Modalidade da Cortina não soma barreiras nem concede vedação física.",
+    "Visão comum bloqueada nos dois sentidos; energia e sons preservados.",
+    "Cobrir-se de Energia conserva custo, momento e redução.",
+    "Defesa por aliado não concede Guarda-Costas ou bônus de cobertura.",
+    "Ganho particular não é menu acumulável."
+  ],
+  "limites": [
+    "Sem escolha de ganho presumida.",
+    "Sem teste humano ou simulação de equilíbrio.",
+    "Sem alteração de regras-fonte, Bestiário, entidades ou treinamentos."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "data": "2026-10-22",
+  "estado": "Prazos propostos; 50% de retomada já escolhido.",
+  "reconstrucao": [
+    {
+      "de": 1,
+      "para": 2,
+      "diferenca_h": 8,
+      "metade_nova_h": 8.0,
+      "retomada_diferenca_h": 4
+    },
+    {
+      "de": 2,
+      "para": 3,
+      "diferenca_h": 16,
+      "metade_nova_h": 16.0,
+      "retomada_diferenca_h": 8
+    },
+    {
+      "de": 3,
+      "para": 4,
+      "diferenca_h": 16,
+      "metade_nova_h": 24.0,
+      "retomada_diferenca_h": 8
+    },
+    {
+      "de": 4,
+      "para": 5,
+      "diferenca_h": 24,
+      "metade_nova_h": 36.0,
+      "retomada_diferenca_h": 12
+    },
+    {
+      "de": 5,
+      "para": 6,
+      "diferenca_h": 24,
+      "metade_nova_h": 48.0,
+      "retomada_diferenca_h": 12
+    },
+    {
+      "de": 6,
+      "para": 7,
+      "diferenca_h": 32,
+      "metade_nova_h": 64.0,
+      "retomada_diferenca_h": 16
+    }
+  ],
+  "transferencia": [
+    {
+      "classe": 1,
+      "oitavo_h": 2,
+      "retomada_oitavo_h": 1,
+      "quarto_h": 2,
+      "fixo_h": 4
+    },
+    {
+      "classe": 2,
+      "oitavo_h": 2,
+      "retomada_oitavo_h": 1,
+      "quarto_h": 4,
+      "fixo_h": 4
+    },
+    {
+      "classe": 3,
+      "oitavo_h": 4,
+      "retomada_oitavo_h": 2,
+      "quarto_h": 8,
+      "fixo_h": 4
+    },
+    {
+      "classe": 4,
+      "oitavo_h": 6,
+      "retomada_oitavo_h": 3,
+      "quarto_h": 12,
+      "fixo_h": 4
+    },
+    {
+      "classe": 5,
+      "oitavo_h": 9,
+      "retomada_oitavo_h": 5,
+      "quarto_h": 18,
+      "fixo_h": 4
+    },
+    {
+      "classe": 6,
+      "oitavo_h": 12,
+      "retomada_oitavo_h": 6,
+      "quarto_h": 24,
+      "fixo_h": 4
+    },
+    {
+      "classe": 7,
+      "oitavo_h": 16,
+      "retomada_oitavo_h": 8,
+      "quarto_h": 32,
+      "fixo_h": 4
+    }
+  ],
+  "casos": {
+    "reconstrucao3_4_uma_falha_h": 24,
+    "reconstrucao3_4_uma_falha_materiais_exemplo": 18000,
+    "reconstrucao1_4_sem_falha_h": 40,
+    "reconstrucao1_4_falha_na_passagem2_3_h": 48,
+    "criar1_e_reconstruir7_por_diferenca_h": 128,
+    "criar1_e_reconstruir7_por_metade_h": 204.0,
+    "transferencia3_uma_falha_h": 6,
+    "transferencia3_duas_falhas_h": 8,
+    "transferencia3_uma_falha_materiais_exemplo": 4000,
+    "reconstrucao_classe4_cd_mesma_classe": 12,
+    "transferencia_classe4_cd_mesma_classe": 14,
+    "transferencia_classe3_cd_uma_abaixo": 12
+  },
+  "limites": [
+    "Materiais de exemplos são orçamentos ficcionais.",
+    "Cálculos não comprovam equilíbrio econômico ou uso em mesa.",
+    "Complexidade continua permitida com acordo prévio."
+  ],
+  "tabelas_da_proposta_conferidas": true,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d"
+}

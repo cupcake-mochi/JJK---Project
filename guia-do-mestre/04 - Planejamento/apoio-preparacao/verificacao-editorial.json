@@ -1,0 +1,20 @@
+{
+  "links_quebrados": [],
+  "matriz_preservada": true,
+  "pontos": 130,
+  "competencias": 20,
+  "blocos_decisao": 15,
+  "fichas_preservadas": true,
+  "relatorio_numerico_preservado": true,
+  "confronto_guiado_preservado": true,
+  "base_sha256_confere": true,
+  "modelo_sha256_confere": true,
+  "r53_sha256_confere": true,
+  "palavras_da_redacao": {
+    "01-preparar-uma-missao.md": 2080,
+    "02-ficha-de-preparacao.md": 578,
+    "03-as-batidas-no-anexo-consulta.md": 1314,
+    "LEIA-ME.md": 225,
+    "REFERENCIAS.md": 315
+  }
+}

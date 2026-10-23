@@ -1,0 +1,30 @@
+{
+  "data": "2026-10-23",
+  "base": 195,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+    "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "novos": [
+    "04 - Planejamento/61-acervo-adicional-de-inimigos.md",
+    "04 - Planejamento/62-energia-e-limites-dos-inimigos.md",
+    "04 - Planejamento/apoio-acervo-inimigos/verificacao.json"
+  ],
+  "links_locais": 314,
+  "contas_de_saldo_conferidas": 7,
+  "R53_preservada": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "registro_decisoes_preservado": true,
+  "base_inimigos_preservada": true,
+  "limites": [
+    "Triagem dirigida; não revisão integral do acervo.",
+    "Escolha de energia pendente.",
+    "Sem nova simulação ou sessão humana.",
+    "Fichas externas lidas com dependências de glossário identificadas, sem conversão."
+  ]
+}

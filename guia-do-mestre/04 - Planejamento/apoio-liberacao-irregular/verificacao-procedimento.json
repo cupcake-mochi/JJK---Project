@@ -1,0 +1,52 @@
+{
+  "estado": "Procedimento e minuta conferidos. Saída voluntária apresentada ao autor, aguardando resposta.",
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+    "04 - Planejamento/51-dimensionamento-do-refluxo-e-dos-limites.md"
+  ],
+  "novos": [
+    "04 - Planejamento/52-procedimento-da-liberacao-irregular.md",
+    "06 - Redacao do Guia/49-liberacao-irregular-minuta.md"
+  ],
+  "links_locais": 267,
+  "ancoras_r53": 14,
+  "erros": [],
+  "conferencia": {
+    "maximos": [
+      40,
+      60,
+      20,
+      40
+    ],
+    "percentual": 50,
+    "gasto_conservado": 12,
+    "tetos": [
+      20,
+      30,
+      10,
+      20
+    ],
+    "restantes": [
+      8,
+      18,
+      0,
+      8
+    ],
+    "manutencao_refluxo_feitico": {
+      "saldo_final": 7,
+      "restante_final": 1
+    },
+    "zero_nao_prepara_por_esgotar_cota": true,
+    "inicial_nao_prepara": true,
+    "saida": "Proposta no próximo descanso longo; aguardando escolha."
+  },
+  "r53_md_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "r53_pdf_sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+  "limites": "Conferência documental, aritmética e leitura de casos; sem simulação de combate, teste humano ou validação de equilíbrio."
+}

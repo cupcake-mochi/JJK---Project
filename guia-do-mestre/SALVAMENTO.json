@@ -1,0 +1,2852 @@
+{
+  "data": "2026-10-23",
+  "origem_local": "/media/mizuki/HD Externo II/Claude/Pesquisa de Campo - Mestragem",
+  "repositorio": "cupcake-mochi/JJK---Project",
+  "branch": "codex/guia-do-mestre-pre-1-2026-10-23",
+  "estado": "planejamento v55; decisões v49; registro 65; manuscrito até seção 61",
+  "arquivos_de_origem": 699,
+  "bytes_de_origem": 12555596,
+  "arquivos": {
+    "04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "60d31be94c926d61b148a1730ee2d4e834b2f80a58df46699d80896fe6afb5b2",
+      "bytes": 45200
+    },
+    "04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "db2001834a440722845915e59d0be991276aa3df75f4c00b3ded2d666864cb39",
+      "bytes": 45878
+    },
+    "04 - Planejamento/03-matriz-dos-130-pontos.md": {
+      "sha256": "eb877c84fd7af887e6ac1cff8faa5e41d0773672487834381b8fa37e53929855",
+      "bytes": 23986
+    },
+    "04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "7fe0eac5ab20307cd61d90160c6b102a4ca76e86e4da1325e277c4647de79feb",
+      "bytes": 16300
+    },
+    "04 - Planejamento/05-como-selecionar-e-adaptar-as-referencias.md": {
+      "sha256": "93ca399cf788d70a3e799f2e05781d542d8700572d6d723b4ca99ab77298f47a",
+      "bytes": 15480
+    },
+    "04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "81a74cb80dac1b0fef832dec3ab19fa696b410d520bf8d88b2b7f16be43f06c0",
+      "bytes": 55597
+    },
+    "04 - Planejamento/07-revisao-dos-novos-relatorios.md": {
+      "sha256": "4c456b7b6da3e709f35fb31cb53f0dfea2b7435b0f1b6f0bfc77feec5c37c4e5",
+      "bytes": 11632
+    },
+    "04 - Planejamento/08-primeira-conversa-sobre-tempo-de-trabalho.md": {
+      "sha256": "68091ad58ad7d025078f865c4380075f41f5f76217b232fe700d21bc428550c3",
+      "bytes": 8159
+    },
+    "04 - Planejamento/09-atividades-fora-de-missao-e-treinamentos.md": {
+      "sha256": "87852ab2b0d865dcf9deaa3c3f92d3bcc27daaa71b1066d123718a08dad2382e",
+      "bytes": 19541
+    },
+    "04 - Planejamento/10-mundo-cotidiano-e-caminhos-de-ensino.md": {
+      "sha256": "66f4f4cfa6a8a92b9ba4c0c8d71382d4137f0fd61cd69403df8625ac5a7118ca",
+      "bytes": 10944
+    },
+    "04 - Planejamento/11-fontes-da-obra-localizadas.md": {
+      "sha256": "40c0d16714a64884628b5dfdeede4ca3a2c3400c427ae79760a54d81b11fefc0",
+      "bytes": 8420
+    },
+    "04 - Planejamento/12-piloto-editorial-cotidiano.md": {
+      "sha256": "2cccdaf31fb90ac249342d111cd57fcbb67ffae92d5b71dbf04dd7163a22ff15",
+      "bytes": 8429
+    },
+    "04 - Planejamento/13-piloto-editorial-ocorrencia-sobrenatural.md": {
+      "sha256": "800bb2083439759fefca56b0c6dd9be9153d25b05745bff14235ae2a107033c1",
+      "bytes": 24578
+    },
+    "04 - Planejamento/14-base-pequena-de-inimigos-r53.md": {
+      "sha256": "54364d148c17ddf6c182b08e235f6b484b17829718f68da1acc22adaa9498ebf",
+      "bytes": 14690
+    },
+    "04 - Planejamento/15-verificacao-da-base-e-do-piloto.md": {
+      "sha256": "14db85acef6d6d5b4da3ae9709de6b4b46728e5567502307bc93045aeeaa6d19",
+      "bytes": 13400
+    },
+    "04 - Planejamento/16-revisao-editorial-e-preparacao.md": {
+      "sha256": "453d6d26cc84c129994659a905d1adee73e3ebb3ac13d5d6f6681424d9099e2c",
+      "bytes": 8839
+    },
+    "04 - Planejamento/17-revisao-de-clareza-r53.md": {
+      "sha256": "d0269f93d7e7d2ee59cf6f22c23a9e64a337988e47180710a71350b55e0d68db",
+      "bytes": 4927
+    },
+    "04 - Planejamento/18-conducao-e-revisao-do-conjunto.md": {
+      "sha256": "61c28eba7f324e75f5343cf676aa01edf963ae01b5b2c12a0fb49b7d5824721c",
+      "bytes": 7599
+    },
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "3b004c3e7c0d64497a44084fddb0d9a98eda3528af09c5377f873b4d6d4e94e7",
+      "bytes": 12443
+    },
+    "04 - Planejamento/20-c01-mundo-cotidiano-e-grupo.md": {
+      "sha256": "8b1cdf834ebeb965258642295e06d0c6d6130fa4f60a3268e016241f67daac34",
+      "bytes": 7527
+    },
+    "04 - Planejamento/21-c03-investigacao-e-espaco.md": {
+      "sha256": "38c614d32ad5c032b60778bd5808b522f450f4925dd0d298c86e3a8b42970d75",
+      "bytes": 6881
+    },
+    "04 - Planejamento/22-c02-investigacoes-e-continuidade.md": {
+      "sha256": "e28fd29b632fb6ebeab80e0c735f7affe07285b81a4c94a81e2213ced0e9de19",
+      "bytes": 7208
+    },
+    "04 - Planejamento/23-c02-faccoes-antagonistas-e-encerramentos.md": {
+      "sha256": "e2ed4df6882985e0d50db8eb0d49edf381901287682638a7193f9a40bebfa1f9",
+      "bytes": 7396
+    },
+    "04 - Planejamento/24-c05-recursos-derrota-e-retomada.md": {
+      "sha256": "da293f56ba096c1b518fe8af9d647e55509e29a271d166a4a7c4cfe4dc325506",
+      "bytes": 6924
+    },
+    "04 - Planejamento/25-c06-personagens-vinculos-e-convivencias.md": {
+      "sha256": "0b3cfdbe0e358c3c36705d08109479ccea4dc9792a08fd950f76c9e0d0818c17",
+      "bytes": 7332
+    },
+    "04 - Planejamento/26-c07-avaliacao-de-tecnicas-e-criacoes.md": {
+      "sha256": "eaaef4ecbb76223a433dd9772f8c8275eda1e2021d853c3fd3b0355f564c5a29",
+      "bytes": 8051
+    },
+    "04 - Planejamento/27-c08-oficios-equipamento-e-recompensas.md": {
+      "sha256": "4ab1a78d7d4f2c53824ae987cb8489b261b7684d225566ecf0305a9c881e08c8",
+      "bytes": 8304
+    },
+    "04 - Planejamento/28-proposta-unidade-de-dedicacao.md": {
+      "sha256": "8035608e30cd38dec848ec26393765821f15ce0a04f0fcc6c74325467eba796c",
+      "bytes": 5107
+    },
+    "04 - Planejamento/29-pesquisa-comparada-de-tempo-e-atividades.md": {
+      "sha256": "3b285121bf250d058eaf487321ec6adbc5311dfbd1826c855933266203788a41",
+      "bytes": 15362
+    },
+    "04 - Planejamento/30-demonstracao-de-um-ciclo-de-atividades.md": {
+      "sha256": "d3f1ae9ae5b41ec546d5f33ed652437217ea3d3c11e32ed97a9e13431d56b1fa",
+      "bytes": 18043
+    },
+    "04 - Planejamento/31-propostas-de-disponibilidade-para-a-guilda.md": {
+      "sha256": "44c5eccfc5e0e00fba1d5b3158ef9b2ee3344ae057e2e66f00d9cdb9e47951b7",
+      "bytes": 18697
+    },
+    "04 - Planejamento/32-politica-de-acesso-saldo-e-fechamento.md": {
+      "sha256": "76740c8fd9816aa57cb23a845b089db53e35a0ec46d50881c21d37c1436cde07",
+      "bytes": 15348
+    },
+    "04 - Planejamento/33-politica-de-tempo-consolidada-por-ficha.md": {
+      "sha256": "10b62a453a94252218d1e55b54b866fdbb48dc25f9c7a8316f561e1bac10b1e2",
+      "bytes": 4054
+    },
+    "04 - Planejamento/34-c09-pactos-promessas-e-entidades.md": {
+      "sha256": "9336206301592cb157072fbeedd259592860fa57c6f2b1fe9c916875621ddf95",
+      "bytes": 12926
+    },
+    "04 - Planejamento/35-propostas-de-tempo-e-materiais-de-entidades.md": {
+      "sha256": "49844a4cc932846f2f5c22b6bfbc3879825efc4ec3da2558d777374806ef5ce2",
+      "bytes": 17417
+    },
+    "04 - Planejamento/36-casos-de-projetos-de-entidades.md": {
+      "sha256": "6b7f3d104769de6adbf4df1e959a389ec1792cf1f1f09618c90660a7447aba1e",
+      "bytes": 12238
+    },
+    "04 - Planejamento/37-reavaliacao-da-falha-e-complexidade-dos-projetos.md": {
+      "sha256": "b0e890591cf5647420e710a83297c590dcff29b3eb3077d4a9ce02274c67ef86",
+      "bytes": 12197
+    },
+    "04 - Planejamento/38-reconstrucao-transferencia-e-heranca.md": {
+      "sha256": "671758346363925e5fb21d60f9bcbcbc320194a097b7ffd9e17517268fe7f0df",
+      "bytes": 12565
+    },
+    "04 - Planejamento/39-avaliacao-das-sete-ideias-de-pactos.md": {
+      "sha256": "8559df0bac17f29146e6d10b06335e4efbf5262c340239de5ddaa064b4ffc928",
+      "bytes": 16998
+    },
+    "04 - Planejamento/40-proposta-de-pacifismo-impraticavel.md": {
+      "sha256": "87b4ac81ab973f3230da30f57420b7c2c7b7bb481207060a4ccecf84165f4f67",
+      "bytes": 14921
+    },
+    "04 - Planejamento/41-reformulacao-do-pacifismo-impraticavel.md": {
+      "sha256": "ca945513dd4fc17d4511ecf27817b6a62fee1f4fa1289e66a58da01e8483d98d",
+      "bytes": 9469
+    },
+    "04 - Planejamento/42-proposta-do-paradoxo-pacifismo.md": {
+      "sha256": "3c58c0b563fc7699bfd8f2779fd9fa54addb1b9d60734e3ac838bf8ff654c4cd",
+      "bytes": 17744
+    },
+    "04 - Planejamento/43-pacifismo-causalidade-e-base-do-beneficio.md": {
+      "sha256": "9ec9524b16682594a9cbcbf3dfb6a20448620799d992d0ec5ed29f2bd28c5fb1",
+      "bytes": 7603
+    },
+    "04 - Planejamento/44-comparacao-de-beneficios-do-pacifismo.md": {
+      "sha256": "f79c6db0fdd9197c85cb7f5af39265bd6c6805a9298353154bdb894ce66f4156",
+      "bytes": 12737
+    },
+    "04 - Planejamento/45-logica-da-troca-do-pacifismo.md": {
+      "sha256": "b34cdad0df1a84a4b71d05447b51a83dad7c35a59d9456556df075b9e5a0bcf8",
+      "bytes": 8759
+    },
+    "04 - Planejamento/46-pacifismo-conducao-pela-materia.md": {
+      "sha256": "91eba0dccd69d71b21987bbdf66d245ac1efefdc88a79802c6c5820bfce4bb1b",
+      "bytes": 14871
+    },
+    "04 - Planejamento/47-pacifismo-pessoa-impedimento-e-saida.md": {
+      "sha256": "90d715f29a010e3880ebe5898d2fca9b2697149d26009956f720975644301066",
+      "bytes": 18197
+    },
+    "04 - Planejamento/48-liberacao-irregular-estrutura-e-comparacao.md": {
+      "sha256": "81994e0e830fea45e22701b7e5008016585f19d83baa25509e68f28235f34261",
+      "bytes": 16408
+    },
+    "04 - Planejamento/49-liberacao-irregular-zero-e-diretriz-do-beneficio.md": {
+      "sha256": "19c9db7f030b8eaa81085f77744d5825cb22b290e1dfbddd94050c8f171806e9",
+      "bytes": 11550
+    },
+    "04 - Planejamento/50-comparacao-de-beneficios-da-liberacao-irregular.md": {
+      "sha256": "270d3b69857333a7bdc0cfe6ab652756c3c1e5f36847b932d713c3f5f9edd6ed",
+      "bytes": 16844
+    },
+    "04 - Planejamento/51-dimensionamento-do-refluxo-e-dos-limites.md": {
+      "sha256": "1439f0886c325611d2e9eef02c39e8622bfb949e2992d8fe2b13882bb7916d5e",
+      "bytes": 17253
+    },
+    "04 - Planejamento/52-procedimento-da-liberacao-irregular.md": {
+      "sha256": "15d8f4d936dd9efc428777c2e12551f974c2df7662d6cc9963f5267eeafd5a2c",
+      "bytes": 8759
+    },
+    "04 - Planejamento/53-promessa-do-arquivo-termos-e-quebra.md": {
+      "sha256": "2e8f2db50bd881afbd43ef4b63241c0bd9241d8f67036d0834ed0941650f2720",
+      "bytes": 8515
+    },
+    "04 - Planejamento/54-desafio-de-ritual-do-cao-de-sombra.md": {
+      "sha256": "4481445ff0f3a628bd2cd7feb639946ffb7975682822bc22b6d5743f9aaa362c",
+      "bytes": 7948
+    },
+    "04 - Planejamento/55-doma-do-amontoado-e-tentativa-antecipada.md": {
+      "sha256": "18ced5c8ac2d5bb2f754cec082056ddb2348044836ef5badde2d91290f7f18ba",
+      "bytes": 7297
+    },
+    "04 - Planejamento/56-construcao-e-evolucao-do-escriba.md": {
+      "sha256": "0367d5fc4e397468d9d127682a530772a552556f9d279c18350b3c439754e9d3",
+      "bytes": 7420
+    },
+    "04 - Planejamento/57-transporte-passageiros-e-continuidade.md": {
+      "sha256": "193ccef80df0ef4003ad699f893013976e7c9335d5bda07f26884a91f35eddd6",
+      "bytes": 7448
+    },
+    "04 - Planejamento/58-revisao-integrada-de-c09.md": {
+      "sha256": "44a9779ec6bc459885cc7478846b28aae844ddfed0750018be068eee406f306c",
+      "bytes": 13395
+    },
+    "04 - Planejamento/59-fabricacao-completa-e-evolucao-do-vigia.md": {
+      "sha256": "7f65db183ab8d80bf35cce54e319269a9870de6ee422ffc022bb27f19e2d001b",
+      "bytes": 4216
+    },
+    "04 - Planejamento/60-c04-preparo-e-avaliacao-de-encontros.md": {
+      "sha256": "c342fa9b1775efbffd6902ca53a9680723f296772063ee04774039a2f209a4ab",
+      "bytes": 10230
+    },
+    "04 - Planejamento/61-acervo-adicional-de-inimigos.md": {
+      "sha256": "6408eb2194c4f7a4c896ca125eee49b0c0b79b989949037e9e863cd856574f3e",
+      "bytes": 5661
+    },
+    "04 - Planejamento/62-energia-e-limites-dos-inimigos.md": {
+      "sha256": "a63f9e4a716edad1adc1d262639ed441f24a586739bfa9bba5800f94e1ef2a2a",
+      "bytes": 9149
+    },
+    "04 - Planejamento/63-reservas-usos-e-ritmo-dos-inimigos.md": {
+      "sha256": "5b6b148938f0ab8eaacfc40c84a75f6d0bc44c4445835021575e841d9026a183",
+      "bytes": 11924
+    },
+    "04 - Planejamento/64-prototipos-de-recursos-dos-inimigos.md": {
+      "sha256": "9520b17428b3907a6a86117e4eef721be348d8d0a2571d47592b65f688f486e3",
+      "bytes": 30896
+    },
+    "04 - Planejamento/65-criterios-e-interacoes-das-habilidades.md": {
+      "sha256": "0139eb9895b5aaad4a27a1a951fa1b6c849d4fe5daf5c040a059f4ab072138f7",
+      "bytes": 11612
+    },
+    "04 - Planejamento/apoio-acervo-inimigos/historico/antes-da-triagem/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "864d7d11bd26098be4dda67799965e59e57f8523ae499ffe13e3b6ff9bbb7b3f",
+      "bytes": 42702
+    },
+    "04 - Planejamento/apoio-acervo-inimigos/historico/antes-da-triagem/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "147e8c43db8a24b00fb2d0dccd943a62e4a992fe9e55772b56384087669a41a0",
+      "bytes": 44315
+    },
+    "04 - Planejamento/apoio-acervo-inimigos/historico/antes-da-triagem/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "fc4220cb02c06d60d1caf7e677c32b37bf5b9fcee079d511c535394b96e8cdfd",
+      "bytes": 12445
+    },
+    "04 - Planejamento/apoio-acervo-inimigos/historico/antes-da-triagem/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "891cec11bcdf8d9a40d7dbcbcff26cc59aee1c7f2bfd61e63e9ae3ba6a3c7141",
+      "bytes": 58736
+    },
+    "04 - Planejamento/apoio-acervo-inimigos/historico/antes-da-triagem/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "d8d57f680b8f67b0defa9303d17aabc77ef898cc14cb794c1e28c42dcc2fb19c",
+      "bytes": 25291
+    },
+    "04 - Planejamento/apoio-acervo-inimigos/historico/antes-da-triagem/06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md": {
+      "sha256": "378dfb9b6342292a4ae7548bdd335e8dfd7c252c8243f2c0687002c1e193b91a",
+      "bytes": 13269
+    },
+    "04 - Planejamento/apoio-acervo-inimigos/historico/antes-da-triagem/06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md": {
+      "sha256": "164255cac562df9c39550f187639af9f1301e9d07e908ab00c48e99e8e6296da",
+      "bytes": 4609
+    },
+    "04 - Planejamento/apoio-acervo-inimigos/historico/antes-da-triagem/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "f41eb8cffcb2371ab1ca4f2b904119d86157beb85afbfa958e6e64b568d95ca2",
+      "bytes": 12234
+    },
+    "04 - Planejamento/apoio-acervo-inimigos/historico/antes-da-triagem/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "86ec68a37e6305fb5021d457f19c241f64b07e35cc582292356c067dbd797d4a",
+      "bytes": 45371
+    },
+    "04 - Planejamento/apoio-acervo-inimigos/verificacao.json": {
+      "sha256": "a297af632c67c4de7fd2799b81099fecb2f3a1cca2485c3412fa5a93163c4c1e",
+      "bytes": 1171
+    },
+    "04 - Planejamento/apoio-c01/historico/antes-da-redacao/01-plano-completo-do-guia.md": {
+      "sha256": "6524df4db3ca01adcc9229e66b41e54b54f625edde713e73046d2c5bedaa1f45",
+      "bytes": 26784
+    },
+    "04 - Planejamento/apoio-c01/historico/antes-da-redacao/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "5ac1716bf7cb6ebc5f3e3fe6356becf4268e2fba4ab7acc42da4bd3bd684cd02",
+      "bytes": 11487
+    },
+    "04 - Planejamento/apoio-c01/historico/antes-da-redacao/10-mundo-cotidiano-e-caminhos-de-ensino.md": {
+      "sha256": "75f7af69d3319a30694f1cb8b62d11a51994cf9fff31ede6bf152a83cd5d7f85",
+      "bytes": 10433
+    },
+    "04 - Planejamento/apoio-c01/historico/antes-da-redacao/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "e93554f47062d66f77d615f9091669fbc6e81d7f931aa91645121f5227a9fe67",
+      "bytes": 10779
+    },
+    "04 - Planejamento/apoio-c01/historico/antes-da-redacao/LEIA-ME.md": {
+      "sha256": "ee59beb53b064f440702497369dd972ade78587d8a9dcc5770fad817b3eea829",
+      "bytes": 2920
+    },
+    "04 - Planejamento/apoio-c01/historico/antes-da-redacao/REFERENCIAS.md": {
+      "sha256": "be7850d1e0734a5a2052492d3f1abbc969571112c47990d7a4ed3d8b3420bea7",
+      "bytes": 3514
+    },
+    "04 - Planejamento/apoio-c01/historico/antes-da-redacao/RETOMADA.md": {
+      "sha256": "9cf835af55f0b5b5c5d85a43f1b4bacb7030dd247cc6f94aaf6a1b19b5d76c4a",
+      "bytes": 3800
+    },
+    "04 - Planejamento/apoio-c01/historico/antes-da-redacao/manifesto-entrega.json": {
+      "sha256": "2926a459a3ca6135ac90a6f1e589088d5622cb7975f4a92a0ae57296954a0a8e",
+      "bytes": 5045
+    },
+    "04 - Planejamento/apoio-c01/verificacao.json": {
+      "sha256": "78dffde7e702695c25a0248e22e0fd60cf16a59600bb89bfedc1ddd86574320e",
+      "bytes": 815
+    },
+    "04 - Planejamento/apoio-c02/historico/antes-da-ampliacao/01-plano-completo-do-guia.md": {
+      "sha256": "d99426488b23d124b8c477bedbcd6b726613c6d9ea1de7d0d21b554919760bcf",
+      "bytes": 27210
+    },
+    "04 - Planejamento/apoio-c02/historico/antes-da-ampliacao/01-preparar-uma-missao.md": {
+      "sha256": "a6b60f72a7ac6808b3038422c04d8afd64edd5ee25325f391aacdd83c6042ad1",
+      "bytes": 15672
+    },
+    "04 - Planejamento/apoio-c02/historico/antes-da-ampliacao/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "d4ea5529831c60b8285a74e214b8820012fb3138c32e592314dab3c4c9311fc2",
+      "bytes": 12705
+    },
+    "04 - Planejamento/apoio-c02/historico/antes-da-ampliacao/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "8cffd9f28590b387481e15af4a5715055ca27fd44b79cac5e6c3800368e8347b",
+      "bytes": 10930
+    },
+    "04 - Planejamento/apoio-c02/historico/antes-da-ampliacao/LEIA-ME.md": {
+      "sha256": "b2c16263474cd102b7a69221395bf11ac6500c8ace173ced234d23c175c03d34",
+      "bytes": 4132
+    },
+    "04 - Planejamento/apoio-c02/historico/antes-da-ampliacao/REFERENCIAS.md": {
+      "sha256": "0d1989f875dc3cf0d45339920c2e5250af0a8a7d12e8b11fe9f587321b87f83c",
+      "bytes": 6386
+    },
+    "04 - Planejamento/apoio-c02/historico/antes-da-ampliacao/RETOMADA.md": {
+      "sha256": "1c32235ea2042b75906eacbe224180f523307386c0f9542eeecc506d3dd765cc",
+      "bytes": 4674
+    },
+    "04 - Planejamento/apoio-c02/historico/antes-da-ampliacao/manifesto-entrega.json": {
+      "sha256": "70baedb82abf7b63e59e0ddab312c72b5ca71937d12e066970fef100699fc176",
+      "bytes": 6392
+    },
+    "04 - Planejamento/apoio-c02/verificacao.json": {
+      "sha256": "964404fa55cc35e5d1f6b3647fbeaed4a989e7d446086ca3d3401946db8fdf95",
+      "bytes": 859
+    },
+    "04 - Planejamento/apoio-c03/historico/antes-da-ampliacao/01-plano-completo-do-guia.md": {
+      "sha256": "8601a4efff162686268e83a8c8600da582e0df0e7d71f3667741ed9a524e3caa",
+      "bytes": 26968
+    },
+    "04 - Planejamento/apoio-c03/historico/antes-da-ampliacao/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "0013f2b362b35b654e7e850f67e595a6fad2c6db7e4f5e1fa15e359a197070b9",
+      "bytes": 12075
+    },
+    "04 - Planejamento/apoio-c03/historico/antes-da-ampliacao/04-conduzir-uma-sessao.md": {
+      "sha256": "3b0ae2ac517bb14a644c5ba4c4aee4e7791779a3a3b65e0b51748ed01d450fe9",
+      "bytes": 16597
+    },
+    "04 - Planejamento/apoio-c03/historico/antes-da-ampliacao/05-folha-de-conducao.md": {
+      "sha256": "0ee777465ebce7a6ed1625ec942001e9fa07ac2323f14011ea91815142882861",
+      "bytes": 3828
+    },
+    "04 - Planejamento/apoio-c03/historico/antes-da-ampliacao/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "62b51388f236950113933f49998f28656b260cff680c1919d5adc35ee471ccbc",
+      "bytes": 10838
+    },
+    "04 - Planejamento/apoio-c03/historico/antes-da-ampliacao/LEIA-ME.md": {
+      "sha256": "2a907f2039a56ed232e1d54a79b6500ccd38e1511145fd34179a5d98938b8a07",
+      "bytes": 3692
+    },
+    "04 - Planejamento/apoio-c03/historico/antes-da-ampliacao/REFERENCIAS.md": {
+      "sha256": "7d9598aceb83c5bc685e59e57c7f6e0601891aa840ba7084c5e994c4af2552a3",
+      "bytes": 5051
+    },
+    "04 - Planejamento/apoio-c03/historico/antes-da-ampliacao/RETOMADA.md": {
+      "sha256": "e1459aa8df1d6698fa288e656183ef15d66b5a8bb569fd6d5d775a1a9a70674e",
+      "bytes": 4250
+    },
+    "04 - Planejamento/apoio-c03/historico/antes-da-ampliacao/manifesto-entrega.json": {
+      "sha256": "3a2f49bd11032658afd757f117dcc9109ba2be5e1847e89ae2c72d5db0a59624",
+      "bytes": 5777
+    },
+    "04 - Planejamento/apoio-c03/verificacao.json": {
+      "sha256": "579183a88d5f5582b1e3994b6bf9a440cdb51d15a3dbce2189d5f51c25b4f6f4",
+      "bytes": 1158
+    },
+    "04 - Planejamento/apoio-c04/historico/antes-da-redacao/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "e39aad48d8b4940029cfb90460b5952bca71d320f6a22ec3cede420335647b75",
+      "bytes": 41741
+    },
+    "04 - Planejamento/apoio-c04/historico/antes-da-redacao/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "3a1d9d9e705f1882ca88db9fb1554b22720ad6a9481d96dcbf0256c4d90724dc",
+      "bytes": 43374
+    },
+    "04 - Planejamento/apoio-c04/historico/antes-da-redacao/04 - Planejamento/03-matriz-dos-130-pontos.md": {
+      "sha256": "2049ec0b1e7c09a149718bb2b65beb0bc46d4215444d4387cf30966a0557c683",
+      "bytes": 23589
+    },
+    "04 - Planejamento/apoio-c04/historico/antes-da-redacao/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "ea76ffeff09b845294bdcfd096caedfab1bb137a406bd042d07428d84913661c",
+      "bytes": 12111
+    },
+    "04 - Planejamento/apoio-c04/historico/antes-da-redacao/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "eb0e453313cdfd40111c6f6724690f267a016fcc271f7748767f856c128495c3",
+      "bytes": 57168
+    },
+    "04 - Planejamento/apoio-c04/historico/antes-da-redacao/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "bf100347d959bc0d55729bdb17643df16328c834f954c372b40453a71f2c9868",
+      "bytes": 24641
+    },
+    "04 - Planejamento/apoio-c04/historico/antes-da-redacao/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "a2d18fc4d4736edbeb2e79fc025aef60d79273ca89acb315604f3503671265a3",
+      "bytes": 11314
+    },
+    "04 - Planejamento/apoio-c04/historico/antes-da-redacao/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "6c3308169ff4be7fff1fac3491c28f2232a8fc84126fa93d00ac7dac200f05e9",
+      "bytes": 44414
+    },
+    "04 - Planejamento/apoio-c04/verificacao.json": {
+      "sha256": "47dbe1dd072c478694bee040143b188da9beb221ddd604637b6705e2fd8a7f0f",
+      "bytes": 5714
+    },
+    "04 - Planejamento/apoio-c05/conferir_exemplos.py": {
+      "sha256": "94aa19903a3d4aeeba17f38e045e0cf2b7da61059400e64bf6cd51f30e703e01",
+      "bytes": 3179
+    },
+    "04 - Planejamento/apoio-c05/fonte-r53.json": {
+      "sha256": "12d009c5309b45007dea56f017577722bfad7c4cfe8339263e7a7938346b7a5e",
+      "bytes": 463
+    },
+    "04 - Planejamento/apoio-c05/historico/antes-da-redacao/01-plano-completo-do-guia.md": {
+      "sha256": "6abfd43dec48b560ef56e87ebfbb5f20506535380bb4506f16204e33f67d4f41",
+      "bytes": 27701
+    },
+    "04 - Planejamento/apoio-c05/historico/antes-da-redacao/02-decisoes-para-conversar.md": {
+      "sha256": "f1dd0bdaa9473c0241dcccc3b29892210b30c47da910c5a5af08833a02a51aaf",
+      "bytes": 31330
+    },
+    "04 - Planejamento/apoio-c05/historico/antes-da-redacao/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "a92e3b3c06aa77523e24145c95951aadab6b46a0c4b41386588c7eb70b7dde1a",
+      "bytes": 14010
+    },
+    "04 - Planejamento/apoio-c05/historico/antes-da-redacao/05-folha-de-conducao.md": {
+      "sha256": "d97a6b8971ce936d556bde523f135c55319d44c545b64fdffe8a74dd9c8ceeec",
+      "bytes": 4038
+    },
+    "04 - Planejamento/apoio-c05/historico/antes-da-redacao/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "0cba12c08e0f1e97a8e06800e0f9d4536cd1a121fde592a8d47b2c6fc47ce962",
+      "bytes": 11001
+    },
+    "04 - Planejamento/apoio-c05/historico/antes-da-redacao/LEIA-ME.md": {
+      "sha256": "c062e9454cd68b0e5dc3927848e4401503017f44fa5a9d6b0f943916c6facc78",
+      "bytes": 5331
+    },
+    "04 - Planejamento/apoio-c05/historico/antes-da-redacao/REFERENCIAS.md": {
+      "sha256": "2b761e3f0441848e6927f39b2b32b46fcef8d4cd9ffc55aaabff6c9fbd48b1d7",
+      "bytes": 10662
+    },
+    "04 - Planejamento/apoio-c05/historico/antes-da-redacao/RETOMADA.md": {
+      "sha256": "86b6d98a7f45487ac930f02b059368ee62eadf5d9b239c842be5c93fc18186cb",
+      "bytes": 5665
+    },
+    "04 - Planejamento/apoio-c05/historico/antes-da-redacao/manifesto-entrega.json": {
+      "sha256": "873382c5c49144622a3c0ae57d79fb6c1bffbc36696d679d3799234f1472de1c",
+      "bytes": 7879
+    },
+    "04 - Planejamento/apoio-c05/resultado-exemplos.json": {
+      "sha256": "3c2c17be0b0745f1b30a940d44efde449aaf7941e27ef4955c782becda37cbaa",
+      "bytes": 3752
+    },
+    "04 - Planejamento/apoio-c05/verificacao.json": {
+      "sha256": "978dea27eedde651973bc34115ce644db189ae0757b22d4267f5271af2b7a881",
+      "bytes": 989
+    },
+    "04 - Planejamento/apoio-c06/conferencia-calculos.json": {
+      "sha256": "18ae8265dbdee50286bb09b60c3285b0f7a02f424411bee741b92df31422cfe5",
+      "bytes": 711
+    },
+    "04 - Planejamento/apoio-c06/fonte-r53.json": {
+      "sha256": "7f38738338f017831cc3dc410890aa56f1b550f7c3d43e0f8234ff184e166385",
+      "bytes": 175
+    },
+    "04 - Planejamento/apoio-c06/historico/antes-da-redacao/01-plano-completo-do-guia.md": {
+      "sha256": "d4c7ac1beb471828409bfeecc5b7c0e9b7f3d985edfc7e9d0f32e4b773ed43c8",
+      "bytes": 28043
+    },
+    "04 - Planejamento/apoio-c06/historico/antes-da-redacao/02-decisoes-para-conversar.md": {
+      "sha256": "0470175681c88113e28925873f014da628cbf4aad4e77972f036597104827d9c",
+      "bytes": 31884
+    },
+    "04 - Planejamento/apoio-c06/historico/antes-da-redacao/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "6a0cd3cc9e8df92e4f046906187763603772b74f46b08c6d0d23b145bf220746",
+      "bytes": 14572
+    },
+    "04 - Planejamento/apoio-c06/historico/antes-da-redacao/06-registro-das-decisoes.md": {
+      "sha256": "f0063fb50ad6b046b7c5beca39246937053e554888c8139611386981393ac4a5",
+      "bytes": 15348
+    },
+    "04 - Planejamento/apoio-c06/historico/antes-da-redacao/07-preparar-o-grupo.md": {
+      "sha256": "475109ceeba714785fc8beb9ec7184823b8ea511b8d42976894733a493fd290e",
+      "bytes": 11002
+    },
+    "04 - Planejamento/apoio-c06/historico/antes-da-redacao/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "55232e614ad980454d8c34b231c5022eb0d8db00a0bf845e2c31fdb0d99cfb4c",
+      "bytes": 10964
+    },
+    "04 - Planejamento/apoio-c06/historico/antes-da-redacao/23-retirada-e-recuperacao.md": {
+      "sha256": "5d0b882ef05b7490124846bc86cb51fd5c69c78630d1aed1e60447a7622ecd83",
+      "bytes": 13613
+    },
+    "04 - Planejamento/apoio-c06/historico/antes-da-redacao/LEIA-ME.md": {
+      "sha256": "10bcd45a23fc6b544d581a9fdcb617b7fa71363c34e1362b293e7a9b6e94994c",
+      "bytes": 5801
+    },
+    "04 - Planejamento/apoio-c06/historico/antes-da-redacao/REFERENCIAS.md": {
+      "sha256": "f74e7ac2f272b39aaf40564d01ccd21396d4051e1b19b1214e7b85afa941e9aa",
+      "bytes": 11943
+    },
+    "04 - Planejamento/apoio-c06/historico/antes-da-redacao/RETOMADA.md": {
+      "sha256": "d8e3a7575b1533d3c00e949c1ad865af262e4ba5df87b224caf6c4c94fef5124",
+      "bytes": 6270
+    },
+    "04 - Planejamento/apoio-c06/historico/antes-da-redacao/manifesto-entrega.json": {
+      "sha256": "5123cf421029866c499ae6f2efc8256271da1c27ad267026bb3cb9833e9f471a",
+      "bytes": 8978
+    },
+    "04 - Planejamento/apoio-c06/verificacao.json": {
+      "sha256": "8c46844c331aa416102c605c28e0921cf680973f1fc6914267cb037f16f126cc",
+      "bytes": 1124
+    },
+    "04 - Planejamento/apoio-c07/conferencia-calculos.json": {
+      "sha256": "fcc72973449725bf4aa9d2dd04a74302a0531707ab56364c7e37f3750335ebf9",
+      "bytes": 4202
+    },
+    "04 - Planejamento/apoio-c07/fonte-r53.json": {
+      "sha256": "7f38738338f017831cc3dc410890aa56f1b550f7c3d43e0f8234ff184e166385",
+      "bytes": 175
+    },
+    "04 - Planejamento/apoio-c07/historico/antes-da-redacao/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "9889fc9d31a05c3f30d696f627efd70af1028d89377e546fbc159933726082af",
+      "bytes": 28329
+    },
+    "04 - Planejamento/apoio-c07/historico/antes-da-redacao/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "efafe0edc903c9e8b3a95ececbcb4980c676444dba1aa501052b062a97bbc5ae",
+      "bytes": 32253
+    },
+    "04 - Planejamento/apoio-c07/historico/antes-da-redacao/04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "ea00011db99f1caef4bb29898ecb535db8440952fcc4c113d4d60b684d8851bf",
+      "bytes": 15238
+    },
+    "04 - Planejamento/apoio-c07/historico/antes-da-redacao/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "2490bbbd47ddfb242aac2c05a99e6490189e5a68d437107a1f2b8316639c48d6",
+      "bytes": 10980
+    },
+    "04 - Planejamento/apoio-c07/historico/antes-da-redacao/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "50b92f5d78e5d9d6c69e4ea6747130d19a8fff562a72e420e838aaf9d41c91ca",
+      "bytes": 6915
+    },
+    "04 - Planejamento/apoio-c07/historico/antes-da-redacao/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "b71644ea507818dd813f0e69e0ea226efa2e42a529b4b82762e001b9cf78113d",
+      "bytes": 9965
+    },
+    "04 - Planejamento/apoio-c07/historico/antes-da-redacao/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "927e1a8f4ec155d9a5f19bdf64d6d6aaebcf5e02a818cf84a16935b7bc84ad52",
+      "bytes": 6403
+    },
+    "04 - Planejamento/apoio-c07/historico/antes-da-redacao/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "263f4fe02e16b58d12398fcf37b802c2c145953369c9de6e9c2ab168ef422411",
+      "bytes": 13080
+    },
+    "04 - Planejamento/apoio-c07/verificacao.json": {
+      "sha256": "a1d585e872f5a14177797666e809b891b4376155d6e29e9dc23bdd8d2d2c64a4",
+      "bytes": 770
+    },
+    "04 - Planejamento/apoio-c08/conferencia-calculos.json": {
+      "sha256": "56943b8d8c090dd1dae0b8a910e1cc5ad861e6797727f202abef02ebe8950035",
+      "bytes": 3817
+    },
+    "04 - Planejamento/apoio-c08/fonte-r53.json": {
+      "sha256": "7f38738338f017831cc3dc410890aa56f1b550f7c3d43e0f8234ff184e166385",
+      "bytes": 175
+    },
+    "04 - Planejamento/apoio-c08/historico/antes-da-redacao/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "db62f2f93892f0950f5caf6d679afb771ac1ad12a13c74cadd5d8e4b20c5962a",
+      "bytes": 28845
+    },
+    "04 - Planejamento/apoio-c08/historico/antes-da-redacao/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "786a9590dac420e3d1df010de94cf19a04d9357c1558c90d69ca88195be517a4",
+      "bytes": 33033
+    },
+    "04 - Planejamento/apoio-c08/historico/antes-da-redacao/04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "40997d957c52789128eb932a719bceea18294495831667b57c95167cfc33df0d",
+      "bytes": 15805
+    },
+    "04 - Planejamento/apoio-c08/historico/antes-da-redacao/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "7b0b5f47575c155f4f69048b7da72e0a68be6e5f877e25fbdb3a7060d57bec1d",
+      "bytes": 16335
+    },
+    "04 - Planejamento/apoio-c08/historico/antes-da-redacao/04 - Planejamento/08-primeira-conversa-sobre-tempo-de-trabalho.md": {
+      "sha256": "c864ad58c48242385f717bc2a80addde6640e3723ac9a708e3865136e5823348",
+      "bytes": 6454
+    },
+    "04 - Planejamento/apoio-c08/historico/antes-da-redacao/04 - Planejamento/09-atividades-fora-de-missao-e-treinamentos.md": {
+      "sha256": "f8323882edd614a481023a348a1374b2360c6875370a1af066446e4cebfe909b",
+      "bytes": 16659
+    },
+    "04 - Planejamento/apoio-c08/historico/antes-da-redacao/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "73831d90a8b59eaec50a72543adc41a11fb7ad18d79446e3645cf88ed20d6702",
+      "bytes": 11098
+    },
+    "04 - Planejamento/apoio-c08/historico/antes-da-redacao/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "e3884447ce9c49b8ffacaf59aefa7aad911201216c774d10e750e7987e30f420",
+      "bytes": 7869
+    },
+    "04 - Planejamento/apoio-c08/historico/antes-da-redacao/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "78e6b8d1aeeabc48b8a58b0bc026da5c65d2338436f14538d8dad235a300a47e",
+      "bytes": 11100
+    },
+    "04 - Planejamento/apoio-c08/historico/antes-da-redacao/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "c314be5dfd090466b5551a025e2ea74164ebad04f87ccd05c107626dcd5c6604",
+      "bytes": 7057
+    },
+    "04 - Planejamento/apoio-c08/historico/antes-da-redacao/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "7a4037c69a5b09a60b04f38ef340ac8d35d178348cc27fd209a7f2f45c0740c4",
+      "bytes": 15036
+    },
+    "04 - Planejamento/apoio-c08/verificacao.json": {
+      "sha256": "6291f69222c451385035feeae5264880c97520d40d46c89c41a9a7fbeb6cdecb",
+      "bytes": 948
+    },
+    "04 - Planejamento/apoio-c09/conferencia.json": {
+      "sha256": "c3292552359b16112acc5aff32dcfba740d661a01bdf5e288896327707d92eaf",
+      "bytes": 2562
+    },
+    "04 - Planejamento/apoio-c09/historico/antes-da-redacao/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "629e358f54a032e9160f2fa5eab9e2e55101264c65c9b40231c79d0561cfe200",
+      "bytes": 32114
+    },
+    "04 - Planejamento/apoio-c09/historico/antes-da-redacao/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "e84c5d7ba38280f12f8addbf98ea2e033341b53920e2e59707ff51ac44dc8d32",
+      "bytes": 35737
+    },
+    "04 - Planejamento/apoio-c09/historico/antes-da-redacao/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "18d500f0f9f9e8e0c0a3039dabb45ce13ce293c2fb5c87038adbd3b1449f3ae5",
+      "bytes": 11785
+    },
+    "04 - Planejamento/apoio-c09/historico/antes-da-redacao/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "f6a56dc71eaedf7bb5beab73d81a9e4c0e62b49e3575fc1d6efb468fc26ed7a3",
+      "bytes": 14590
+    },
+    "04 - Planejamento/apoio-c09/historico/antes-da-redacao/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "3068251d6dc77a71dc55b68ae188681b443dd4651ce52c02f75ed75baab07bea",
+      "bytes": 14380
+    },
+    "04 - Planejamento/apoio-c09/historico/antes-da-redacao/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "6148a7daf8aa432336849bc3ca2a7e74c5872ad3653e0a3304188e32a3fc9800",
+      "bytes": 8368
+    },
+    "04 - Planejamento/apoio-c09/historico/antes-da-redacao/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "218a3a3feb71a70687abc91578a86538b14d3eb5a0b9a75137405966f44991e2",
+      "bytes": 17934
+    },
+    "04 - Planejamento/apoio-c09/verificacao.json": {
+      "sha256": "b4968b84be4e7a7907b0c5dc0e7648d304e94fb8305c48e806d06b0ea85462ec",
+      "bytes": 1318
+    },
+    "04 - Planejamento/apoio-conducao/historico/antes-da-redacao/01-plano-completo-do-guia.md": {
+      "sha256": "2cec0b0ffc3b7053fcd3c1839d4f2e091cca5c7c1b4f7be581a8af56644c073c",
+      "bytes": 25431
+    },
+    "04 - Planejamento/apoio-conducao/historico/antes-da-redacao/01-preparar-uma-missao.md": {
+      "sha256": "46fa3282c5141c03f4d941eb3de1d5238e33a8b497e6a734ac071ec583d3da72",
+      "bytes": 15544
+    },
+    "04 - Planejamento/apoio-conducao/historico/antes-da-redacao/02-ficha-de-preparacao.md": {
+      "sha256": "ce81bffc0f325b28ff82fb00b6e8aeffab73ebb541700c563b8ba52ffdb82891",
+      "bytes": 4059
+    },
+    "04 - Planejamento/apoio-conducao/historico/antes-da-redacao/03-as-batidas-no-anexo-consulta.md": {
+      "sha256": "447d47a89ae441c1b9b71aa43aa4dd3adde55afd0ba3e8b0f191308633dc343a",
+      "bytes": 9125
+    },
+    "04 - Planejamento/apoio-conducao/historico/antes-da-redacao/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "855cedadc539b6376bb8699018e09170229d70ac330089f7883ea2496666401d",
+      "bytes": 10978
+    },
+    "04 - Planejamento/apoio-conducao/historico/antes-da-redacao/LEIA-ME.md": {
+      "sha256": "31d89969a2e6311ff5b52649c34585468fdf41f00ef074756999dce195430124",
+      "bytes": 2094
+    },
+    "04 - Planejamento/apoio-conducao/historico/antes-da-redacao/REFERENCIAS.md": {
+      "sha256": "1dc72e4f8b88017b66c7055f048953363e88f37d4ab9dba93ccf4ae15d7125dd",
+      "bytes": 2428
+    },
+    "04 - Planejamento/apoio-conducao/historico/antes-da-redacao/manifesto-entrega.json": {
+      "sha256": "39ef499266956470d4066df8e1bfaa3e10afc6bacc8e4be5283db2b726a3a201",
+      "bytes": 4308
+    },
+    "04 - Planejamento/apoio-conducao/verificacao.json": {
+      "sha256": "8d5c29c8cd354575cb199eb65f997619cb671abb5d26d698ee1ca3b765fd8a8c",
+      "bytes": 2104
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/casos.json": {
+      "sha256": "69e2e8d87405d09c647a1f5aa75b82183e5c13f440a48197a7da78c0fca0cb53",
+      "bytes": 2309
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/historico/antes-da-demonstracao/01-plano-completo-do-guia.md": {
+      "sha256": "f38b1c9cb74abbe00c59ab7098e1d1e16f69e662e09589fcddde1037d6b23e29",
+      "bytes": 29688
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/historico/antes-da-demonstracao/02-decisoes-para-conversar.md": {
+      "sha256": "f31c062472a1f6fe99f6d9d5aaab2a732615ec8bb79c8ce5a46cce2fd07620c5",
+      "bytes": 34700
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/historico/antes-da-demonstracao/06-registro-das-decisoes.md": {
+      "sha256": "42dd181cac8452227e5b3010df38842a082b58163520cbc50c09cc94090728fd",
+      "bytes": 17621
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/historico/antes-da-demonstracao/08-primeira-conversa-sobre-tempo-de-trabalho.md": {
+      "sha256": "b7dd724e74c3754d5744c5a1035fffdf5bd4c247124b5871e2967abeb4a1c84c",
+      "bytes": 7186
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/historico/antes-da-demonstracao/09-atividades-fora-de-missao-e-treinamentos.md": {
+      "sha256": "c513d66936867c55b99dfbb12b9013d149f2ec31b441c23b99e9121961791b39",
+      "bytes": 17391
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/historico/antes-da-demonstracao/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "8a6dbc507ca8097d9dc02a2238753d4c361c70cf8ee6a58995aebe3ae0c3e121",
+      "bytes": 11231
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/historico/antes-da-demonstracao/28-proposta-unidade-de-dedicacao.md": {
+      "sha256": "c309e607fbd8fca4516efbf42a11273c1928e67726b34a0f5b8b004a0d8751d4",
+      "bytes": 4187
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/historico/antes-da-demonstracao/29-pesquisa-comparada-de-tempo-e-atividades.md": {
+      "sha256": "fd7941964699bf39a71ae8c2106ea2c444e02137fb4b4dd4602083d4d5122bd6",
+      "bytes": 14570
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/historico/antes-da-demonstracao/apoio-piloto/RETOMADA.md": {
+      "sha256": "efe19fca56910408e2a0874c0af65bbbb6f6a2b52ff9984e2f9cb894710f75ad",
+      "bytes": 9877
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/historico/antes-da-demonstracao/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "969c1ab35e79b1bd6fe3dad81d268c7e763a87ee5c935dbccb26b51ca85bdea9",
+      "bytes": 12893
+    },
+    "04 - Planejamento/apoio-demonstracao-ciclo/verificacao.json": {
+      "sha256": "066df77b5a30a253b94431dc38ac7c116cfc7e042387d30ebf915d2826e28e40",
+      "bytes": 2329
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/historico/antes-da-comparacao/01-plano-completo-do-guia.md": {
+      "sha256": "b9aeb6c372aeffe1f84fd019d6ee8eb094655d1993e38ca6fe64066624a8dcc9",
+      "bytes": 30438
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/historico/antes-da-comparacao/02-decisoes-para-conversar.md": {
+      "sha256": "ce5a5ed018fbae918e5df5494f082459ea7d90f1aebea2e4818b91ecf067b3dc",
+      "bytes": 35307
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/historico/antes-da-comparacao/06-registro-das-decisoes.md": {
+      "sha256": "d97205231a8135d398948dc1b6b355395d969ad67fa51226313ca67b080d3da5",
+      "bytes": 19270
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/historico/antes-da-comparacao/08-primeira-conversa-sobre-tempo-de-trabalho.md": {
+      "sha256": "3432f168cd4a16e4d919b300d2db1251be03268807fc4352aea2de0d464f0dcb",
+      "bytes": 7419
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/historico/antes-da-comparacao/09-atividades-fora-de-missao-e-treinamentos.md": {
+      "sha256": "8f0691df7ba61062784506b7094e5eaf00b597080bd56f5745aea81ad7027d21",
+      "bytes": 17624
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/historico/antes-da-comparacao/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "a93a94e36dd6f92bd1927092240613427691d97cfdaf35b88e4d9fc95bdebcf3",
+      "bytes": 11412
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/historico/antes-da-comparacao/28-proposta-unidade-de-dedicacao.md": {
+      "sha256": "c6320e10b79d9abe01809f133ab7781bb22a3d94e79b4bdf21af551e30ea2db5",
+      "bytes": 4541
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/historico/antes-da-comparacao/30-demonstracao-de-um-ciclo-de-atividades.md": {
+      "sha256": "23cabea025dca4ab7191e2f9e264e6c86013ea2cd78bb1e707e1a2076562fdd4",
+      "bytes": 17521
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/historico/antes-da-comparacao/apoio-piloto/RETOMADA.md": {
+      "sha256": "a1da9b90daea49a4c97b6eb49cfa5caffb77cfe7cfdf818d6e62b081d21ac0d9",
+      "bytes": 11081
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/historico/antes-da-comparacao/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "615fc428b49f7ef6b3e49012bb8388f5a496eadc114a856922e48b930736caf2",
+      "bytes": 13289
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/parametros.json": {
+      "sha256": "b377c42ad8135da267eccbd9d27d6110e0a912b85432699d87238ca8f31c05d2",
+      "bytes": 710
+    },
+    "04 - Planejamento/apoio-disponibilidade-guilda/verificacao.json": {
+      "sha256": "55990c6d97e32b0ed4f4a74163db8293324844fc7d0ee4201964a42bec74bd88",
+      "bytes": 7179
+    },
+    "04 - Planejamento/apoio-doma/historico/antes-do-exemplo/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "66c9239d0259f89b6cb4abb90f12c8fe28f96e5de8bc0d88b541aaec2a318894",
+      "bytes": 39221
+    },
+    "04 - Planejamento/apoio-doma/historico/antes-do-exemplo/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "1e74942b8158707ae547a368e4f1babd7b42c6af09d4054473274f4717a9e223",
+      "bytes": 44909
+    },
+    "04 - Planejamento/apoio-doma/historico/antes-do-exemplo/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "e0df93b2935dc219b123a5eadba82a935dc23ce78ada2fc412e5851a22aea0ba",
+      "bytes": 12052
+    },
+    "04 - Planejamento/apoio-doma/historico/antes-do-exemplo/04 - Planejamento/34-c09-pactos-promessas-e-entidades.md": {
+      "sha256": "39dca0291c9a4464a0247b7eba1830932a9bad436fc942994f9818ee3b913d26",
+      "bytes": 9799
+    },
+    "04 - Planejamento/apoio-doma/historico/antes-do-exemplo/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "f215aee77979dbd109f6d0ae6aefa09cff2bf9dfacbeda8c6fc8683f26685f26",
+      "bytes": 47480
+    },
+    "04 - Planejamento/apoio-doma/historico/antes-do-exemplo/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "8388e0c05451d62be37dadd15d619e18d81a2f40fe988555ed70b7ba46f1ee00",
+      "bytes": 22826
+    },
+    "04 - Planejamento/apoio-doma/historico/antes-do-exemplo/06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md": {
+      "sha256": "6695d27ff8e81f776c0259f117e469aa9a00edbc1a605cf19197dc9fe59d1740",
+      "bytes": 16691
+    },
+    "04 - Planejamento/apoio-doma/historico/antes-do-exemplo/06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md": {
+      "sha256": "28502b265a6d51a16b7f3d32f97b43c591d9a7d79b19e29c42c59cf5b9cf2ac9",
+      "bytes": 4835
+    },
+    "04 - Planejamento/apoio-doma/historico/antes-do-exemplo/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "a3a04f1dd275e36ebec30781dbb599af5a308302e6d9afb5d6c91b8b106a0a4d",
+      "bytes": 16033
+    },
+    "04 - Planejamento/apoio-doma/historico/antes-do-exemplo/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "382be282c8b4ed539c3106aa72b0f1e58629d1982d2c3564741c3570c42f22b0",
+      "bytes": 39646
+    },
+    "04 - Planejamento/apoio-doma/verificacao.json": {
+      "sha256": "8f1b451597be9142810d9d8970466d07c378b4e5cf711265a534c00610548efc",
+      "bytes": 2625
+    },
+    "04 - Planejamento/apoio-escriba/historico/antes-do-exemplo/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "64d6c5faabc895dd1975b7ba2bc745f0f0fb82c33af90e3f5a20cd9539e01f5d",
+      "bytes": 39709
+    },
+    "04 - Planejamento/apoio-escriba/historico/antes-do-exemplo/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "defcc50b530388088dcaa08cfc3317016c011027180f91dd84193894eab703f8",
+      "bytes": 45397
+    },
+    "04 - Planejamento/apoio-escriba/historico/antes-do-exemplo/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "0383506ec07dc1829b2223ab56e292ab9377673c61aa660726acc592183e262b",
+      "bytes": 12058
+    },
+    "04 - Planejamento/apoio-escriba/historico/antes-do-exemplo/04 - Planejamento/34-c09-pactos-promessas-e-entidades.md": {
+      "sha256": "1aac861ccd263d967176ab59ddd5bba6231230ea1848ba9d68e36eb935fbe277",
+      "bytes": 10672
+    },
+    "04 - Planejamento/apoio-escriba/historico/antes-do-exemplo/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "e672571310d93738035bffe87c7fdea8f7243740fc8dcc6bbb002940928dd508",
+      "bytes": 49142
+    },
+    "04 - Planejamento/apoio-escriba/historico/antes-do-exemplo/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "60c394cb68610acf5a9d289be93fb2b18070ff57f81eff7b162fafa96c2da645",
+      "bytes": 23201
+    },
+    "04 - Planejamento/apoio-escriba/historico/antes-do-exemplo/06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md": {
+      "sha256": "b36dc8be265fdab3e7c44e17073f3955cc3aea4c5b8e039c2eaab1407ac532d8",
+      "bytes": 16956
+    },
+    "04 - Planejamento/apoio-escriba/historico/antes-do-exemplo/06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md": {
+      "sha256": "eb9e7b48466e069d5de090a80a4a5bb8ef6b97f5dbbf41e57adaf6ca837a20e0",
+      "bytes": 5174
+    },
+    "04 - Planejamento/apoio-escriba/historico/antes-do-exemplo/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "ae3a274d3df1188c75d7e408c753cb620f9b4a7931ab9dd860202e8e21fdd046",
+      "bytes": 16463
+    },
+    "04 - Planejamento/apoio-escriba/historico/antes-do-exemplo/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "ae2a72d6b7da86a580982db1eeb0293a2030632a71d9d5f93143445f5284dffb",
+      "bytes": 40721
+    },
+    "04 - Planejamento/apoio-escriba/verificacao.json": {
+      "sha256": "94373a900ba589f689cc1ae4ee41e9fe4bba1066be56a2c035ab678860108e34",
+      "bytes": 2641
+    },
+    "04 - Planejamento/apoio-fabricacao-completa/historico/antes-do-exemplo/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "93ed9f692036f59f9e558d555e41501b2c33a6dfe68e79195e9fa777294bdc32",
+      "bytes": 41333
+    },
+    "04 - Planejamento/apoio-fabricacao-completa/historico/antes-do-exemplo/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "adc694980e3dbbe4137defbc50ba868d1f34e55c148bd9c691b3fedb54ca15b9",
+      "bytes": 43003
+    },
+    "04 - Planejamento/apoio-fabricacao-completa/historico/antes-do-exemplo/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "ee01fc79b56598b4cf30cce80afafb401bdc14643ee1acee17fef1ebf4554f2a",
+      "bytes": 12217
+    },
+    "04 - Planejamento/apoio-fabricacao-completa/historico/antes-do-exemplo/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "e1ac31b0e4049849746139ca6ad92e79a404b266a3d9ac8dd247c1a2d7f7b6bf",
+      "bytes": 55912
+    },
+    "04 - Planejamento/apoio-fabricacao-completa/historico/antes-do-exemplo/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "70f33a8a5544e652ba81c2eaca4c9a17c663ccd22025741ff337b399701c22b0",
+      "bytes": 24231
+    },
+    "04 - Planejamento/apoio-fabricacao-completa/historico/antes-do-exemplo/06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md": {
+      "sha256": "fff2133f2a6fe1b651edae73857d9f3884af2755ecdec397a48f0ac8b28df1eb",
+      "bytes": 6257
+    },
+    "04 - Planejamento/apoio-fabricacao-completa/historico/antes-do-exemplo/06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md": {
+      "sha256": "4506c2dcb40f69efa854345fe62c16710830206ae00f602d3d8322837a297c36",
+      "bytes": 10399
+    },
+    "04 - Planejamento/apoio-fabricacao-completa/historico/antes-do-exemplo/06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md": {
+      "sha256": "f6309163a8e621fdd4206683e3714e2cd99fbf679347d58241502263f75461d4",
+      "bytes": 11338
+    },
+    "04 - Planejamento/apoio-fabricacao-completa/historico/antes-do-exemplo/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "fa959210757600940be977becb857fd212923c3f9e36719f3ab74d56c15865a8",
+      "bytes": 11516
+    },
+    "04 - Planejamento/apoio-fabricacao-completa/historico/antes-do-exemplo/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "d8c0fb3a7e993b3a95d20b596559041e64ac1ffd29b0db9776abce8d146ef773",
+      "bytes": 43769
+    },
+    "04 - Planejamento/apoio-fabricacao-completa/verificacao.json": {
+      "sha256": "0ec5d3eebcd13685979fc79c07c4cb5bbeb7f4deaed9de261aca69c842637945",
+      "bytes": 4770
+    },
+    "04 - Planejamento/apoio-faccoes/historico/antes-da-redacao/01-plano-completo-do-guia.md": {
+      "sha256": "a22273dbb46f8b4d297e4d77fed204aa716302465ff3ba9baaa80e970fb0637f",
+      "bytes": 27485
+    },
+    "04 - Planejamento/apoio-faccoes/historico/antes-da-redacao/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "1879a16939886dacfd2022f0e33fee060b9328dcc44c0d0f164c09611d003213",
+      "bytes": 13362
+    },
+    "04 - Planejamento/apoio-faccoes/historico/antes-da-redacao/15-ligar-missoes-e-campanhas.md": {
+      "sha256": "618b1e2f5d9212d4bb3e7a84ac8b464222fae4a39bee59d37d153d8bf050c947",
+      "bytes": 10389
+    },
+    "04 - Planejamento/apoio-faccoes/historico/antes-da-redacao/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "41db5b7c0a45fbd32888ef74c4513a08a64c8c26bdbab75927ef22e04cb4bd45",
+      "bytes": 10859
+    },
+    "04 - Planejamento/apoio-faccoes/historico/antes-da-redacao/LEIA-ME.md": {
+      "sha256": "6f435254b2b871558225248d5740b87afc33f528aaa7eef2410055285d419d66",
+      "bytes": 4740
+    },
+    "04 - Planejamento/apoio-faccoes/historico/antes-da-redacao/REFERENCIAS.md": {
+      "sha256": "cfefa590c3f562f11d90ef4733257a74208395761792548198445ad6644a3f0b",
+      "bytes": 8233
+    },
+    "04 - Planejamento/apoio-faccoes/historico/antes-da-redacao/RETOMADA.md": {
+      "sha256": "1446198d5e3adadedf8fa85e707471635a0e17257074d62ce85e7dbaf7592f9f",
+      "bytes": 5147
+    },
+    "04 - Planejamento/apoio-faccoes/historico/antes-da-redacao/manifesto-entrega.json": {
+      "sha256": "aa1bffcc880d5975ebab584561a939c1098fc3a96305d6175e9cdc0a02ca6eb1",
+      "bytes": 7136
+    },
+    "04 - Planejamento/apoio-faccoes/verificacao.json": {
+      "sha256": "60dcd0cd0d0b58ce624976ef9c751b7d85f339d8da5c889509b06f19ea42fcf3",
+      "bytes": 811
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/historico/antes-dos-criterios/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "1a7c9a990c83dbb4063a2df9705d91b6e7d006661282a62f6cd48a99f72b3f9b",
+      "bytes": 44223
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/historico/antes-dos-criterios/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "f5850b52d03c24147387b5efc23226d029c4e162d19dab97f5e202e2a9798311",
+      "bytes": 45556
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/historico/antes-dos-criterios/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "b8369881851bfedd65769b0693582fdf7b9895de717a2996b757ca105f686e36",
+      "bytes": 12399
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/historico/antes-dos-criterios/04 - Planejamento/64-prototipos-de-recursos-dos-inimigos.md": {
+      "sha256": "ec59d776bc164a6fd6740489bb948f8cf8c5fbd77ee7c0b7d7406aca401f1839",
+      "bytes": 30137
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/historico/antes-dos-criterios/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "9d1adec2a8bd751de0ce95df16b44b2461a5042a9b60306b580de1cd364c46db",
+      "bytes": 62289
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/historico/antes-dos-criterios/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "ab0d1ab67a6d1e8943b0f2eae88d9b58ba74c69bf02f10cf080a3265f60433bc",
+      "bytes": 26604
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/historico/antes-dos-criterios/04 - Planejamento/apoio-prototipos-inimigos/comparar_recursos.py": {
+      "sha256": "5fa593925e53774297ee67abf37e47cf8d85af7fce44a38fc47afbbacdeebe34",
+      "bytes": 6424
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/historico/antes-dos-criterios/04 - Planejamento/apoio-prototipos-inimigos/resultados.json": {
+      "sha256": "351a7c9b6605d944709fdb452c8d7458286628982c7e9f1e8c69e1e032ac35ea",
+      "bytes": 14673
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/historico/antes-dos-criterios/06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md": {
+      "sha256": "a2fff084777d7a83fcdab552daa338aa23960edd7355cda1ab933bdfa7d325a6",
+      "bytes": 8856
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/historico/antes-dos-criterios/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "bff1077b85a8e3f6c41fb316196e5654760a61cc1f419a9799a9f7fb57330f4e",
+      "bytes": 13151
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/historico/antes-dos-criterios/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "35d73719de56372faece8b0d0e1c977fb67d9b64cd24965a056e6a31346d038c",
+      "bytes": 48545
+    },
+    "04 - Planejamento/apoio-habilidades-inimigos/verificacao.json": {
+      "sha256": "c49de00550fa2b6e16d3f2b885d66adb5e7623d7c09917b7f3947ca9ab8c4fcc",
+      "bytes": 2309
+    },
+    "04 - Planejamento/apoio-ideias-de-pactos/historico/antes-da-avaliacao/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "c02b325de72ea3667e186ce50570840fb307592970214cd4f88897f02da32890",
+      "bytes": 33541
+    },
+    "04 - Planejamento/apoio-ideias-de-pactos/historico/antes-da-avaliacao/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "05c18af5a373a92a0deb55b948e66023b37ef7e8cc87b9b3868825035c950125",
+      "bytes": 38030
+    },
+    "04 - Planejamento/apoio-ideias-de-pactos/historico/antes-da-avaliacao/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "80f3e5c06a849bb38dcbfec185df4f7c30af7f7d9e98186c075627ec319cfe5c",
+      "bytes": 27107
+    },
+    "04 - Planejamento/apoio-ideias-de-pactos/historico/antes-da-avaliacao/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "4d2ea5951ddad027ca8366c2f386ab5aa39771487e8394c872907df330216188",
+      "bytes": 11949
+    },
+    "04 - Planejamento/apoio-ideias-de-pactos/historico/antes-da-avaliacao/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "e6549d7e5169db8c60085347bc3335fd73ee0ee16a837d727e9502f9962f9c38",
+      "bytes": 18449
+    },
+    "04 - Planejamento/apoio-ideias-de-pactos/historico/antes-da-avaliacao/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "764e5386c2e2798f0dc1d56d9c12fe43bfb61de6e5f774ba736bcb4db9b0e830",
+      "bytes": 16652
+    },
+    "04 - Planejamento/apoio-ideias-de-pactos/historico/antes-da-avaliacao/06 - Redacao do Guia/41-pactos-e-promessas.md": {
+      "sha256": "7b1f06885dcf1e66e2e7be444c6088a764f86b11022ce43759e3761d8fc01561",
+      "bytes": 11019
+    },
+    "04 - Planejamento/apoio-ideias-de-pactos/historico/antes-da-avaliacao/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "c72e8ecdf17954bf376a696ad21dfcd097fc4cd2ae2e5f479a255a2d1a38ef8f",
+      "bytes": 10222
+    },
+    "04 - Planejamento/apoio-ideias-de-pactos/historico/antes-da-avaliacao/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "75ca9aed6f3adf5607f18d4ebc0fcc1a6d362f1105008d2e1d39b236480765c0",
+      "bytes": 23156
+    },
+    "04 - Planejamento/apoio-ideias-de-pactos/historico/antes-da-resposta/39-avaliacao-das-sete-ideias-de-pactos.md": {
+      "sha256": "60058bbdee228c4a2e436ed0b7340be4f08eec3abe1f8effc52cbef2bfbb4338",
+      "bytes": 15718
+    },
+    "04 - Planejamento/apoio-ideias-de-pactos/verificacao.json": {
+      "sha256": "35ec3f88b93f071dd507083fda7d6a531082eb06bea6347388c1ab6dd4a91ed5",
+      "bytes": 1771
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/comparacao-de-ritmos.json": {
+      "sha256": "b5898c5791fc2556886ab3767c074bb390106254824c8ee3d32c1e62b5633b4f",
+      "bytes": 367904
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/comparacao-hipotetica.json": {
+      "sha256": "9f4622aa6b6e5f0eb33d83f7fcd0015db7dae95f06edaaea72a90d31499ff4b7",
+      "bytes": 1782
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/comparacao-zero.json": {
+      "sha256": "1928ca1c599a8977187b93b6ba544f528e3adcc9b0c414c81bf48e44d3381663",
+      "bytes": 977
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/comparar-ritmos.py": {
+      "sha256": "da09e0a187e870fa3f4a2526007f363b40eb3f22aa377951e8b31276914ce676",
+      "bytes": 3924
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/dimensionar-refluxo.json": {
+      "sha256": "e755a582eefe7c18a3505ad053f5defc07ea7277a56e24b164b0d91490dbe623",
+      "bytes": 129181
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/dimensionar-refluxo.py": {
+      "sha256": "dcced16ea87ab00a6140326c3763f843b889e46de2eb5a0132d15c47eb18205d",
+      "bytes": 4714
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-beneficios/01-plano-completo-do-guia.md": {
+      "sha256": "7d76762513fde0e6dfe9c22790a1d01b259733a02666408956789ed9c689cf05",
+      "bytes": 37046
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-beneficios/02-decisoes-para-conversar.md": {
+      "sha256": "f11e35dbd66af6a3623d1a71dfa517bf37c26f81fc7c97567f1ab28840902b80",
+      "bytes": 42347
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-beneficios/06-registro-das-decisoes.md": {
+      "sha256": "34e4fe6fd708030a4262420f713d25720c5a11e2795e3953fd1613cf419c9d68",
+      "bytes": 45181
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-beneficios/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "368178e9380f5b1ea61ba9f0a92dbd73bbe954104403b9a83837e40f899ee561",
+      "bytes": 12228
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-beneficios/49-liberacao-irregular-zero-e-diretriz-do-beneficio.md": {
+      "sha256": "24dde96bbfaeda7a600d9d61114d1bc933f5e7e695c919a206cb096f3b70f359",
+      "bytes": 11248
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-beneficios/LEIA-ME.md": {
+      "sha256": "9016885bc2bc8ccbfc1cfce7c9ad8ee8a90fcf7a4644cfffaba6464dd6bca557",
+      "bytes": 15056
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-beneficios/REFERENCIAS.md": {
+      "sha256": "f130f857cf581c653b696e1b7b655dd35ae0a5f5f81328735c289bc0700d6854",
+      "bytes": 34276
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-beneficios/RETOMADA.md": {
+      "sha256": "dbab05a5cf39b55daa40008b0defd0fc38f97fe46b9475f4bf47d78311766ae9",
+      "bytes": 36564
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-beneficios/manifesto-entrega.json": {
+      "sha256": "340e634b0e4524b6edf6f587fa61ee47da3aef81303828b36ca95d410b6ae4b2",
+      "bytes": 20649
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-ritmos/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "46428d849c61d32b91f34b47702b228c44ace4efd834ac3a29542393f97ea2ed",
+      "bytes": 36929
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-ritmos/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "4f79f002ee103a7ab803c34173cc402a787ea84d897d459d07cffdeec3007bb4",
+      "bytes": 41998
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-ritmos/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "9ef68f47fbb3dc0bd3980a8c34685ebf25b5524444b5412135e4add932f0e9be",
+      "bytes": 42967
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-ritmos/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "08a999d56d903011a25253e14737d81bf1156fbeddf77125432dcc6487b0258e",
+      "bytes": 12157
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-ritmos/04 - Planejamento/48-liberacao-irregular-estrutura-e-comparacao.md": {
+      "sha256": "a3616d7cc2fc9c51cd09e885f1b37edfd7d06fd0b77f5ee45ced2e28f51f8e92",
+      "bytes": 15898
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-ritmos/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "96deb32d08579f17b479dd2ec3b12fe61079e303a612013d7c68e7bc70a9ffd5",
+      "bytes": 35127
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-ritmos/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "f9d5b2a678bfebeee7421c1dea02f6d54d17bffa0d21ec2c6db114728c8af007",
+      "bytes": 19936
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-ritmos/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "de479cbe55d9d77ac9ae8eae3d01f556e94353936ee9efd7ff26ad90ff6b3cec",
+      "bytes": 14976
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-comparacao-de-ritmos/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "14768d26158d0cd09fdda2ae264f16906b34d39094e30e786da973430c4e2480",
+      "bytes": 33039
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/01-plano-completo-do-guia.md": {
+      "sha256": "de86964a4a7e765cb8d7f4c77c8526ef2c1db435d07aa407403285383f3eb74a",
+      "bytes": 38239
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/02-decisoes-para-conversar.md": {
+      "sha256": "ffc75620d33f8db338146004a15d5e5257014f46ac3f1cae01a6659a3e83d342",
+      "bytes": 44005
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/06-registro-das-decisoes.md": {
+      "sha256": "0b02cb6e8609eed445d86f2f48ba9c217bb180c529eee5291259e37d71e4892c",
+      "bytes": 49160
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "cf54bd63a97781ee5a2efde1652c60857097a1e6a5f06fc8dde418e106e48f00",
+      "bytes": 11999
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/34-c09-pactos-promessas-e-entidades.md": {
+      "sha256": "f7ab64566ebdeebcd4efcb9004c18b2d52bbf32583588c8be01575fca94a781c",
+      "bytes": 7458
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/47-desenvolver-uma-ideia-de-pacto.md": {
+      "sha256": "cfd08f7569bb8987b470e039250d0b1c0a3da202a142e88359444547569fbf96",
+      "bytes": 11240
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/49-liberacao-irregular-minuta.md": {
+      "sha256": "29ed9229c61a4d8dd6c8dca0d4a5ac791cbbe8d50545d35510f55004b4de1579",
+      "bytes": 14522
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/51-dimensionamento-do-refluxo-e-dos-limites.md": {
+      "sha256": "2bda60fe794fccd9ebfecfa66c97f34cb60989762c93dcef8ac4f0d0b014d03d",
+      "bytes": 17235
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/52-procedimento-da-liberacao-irregular.md": {
+      "sha256": "5dd9b0ae873230de8b7f0cc090df764165acb944e12c889bf121037c7106c7ee",
+      "bytes": 7898
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/LEIA-ME.md": {
+      "sha256": "76095ffedbceddcc92d0da940d364ae4b1c2a0fe84b2939bbd34702cbdacfbad",
+      "bytes": 15069
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/REFERENCIAS.md": {
+      "sha256": "5305a53b36b9386c3f12269f83c133b20104c88bf4ab84fda22eb6b1cbeecb12",
+      "bytes": 37374
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/RETOMADA.md": {
+      "sha256": "f1162a5b97ff06bd68bfffbfd4a6b6f59fae8bab6b6d512a87b8329023dc7e71",
+      "bytes": 42026
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-consolidacao/manifesto-entrega.json": {
+      "sha256": "e389e64f087cb30d956094c7b0f028b2996607f2af8f19039d2752670ec47361",
+      "bytes": 21916
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-estrutura/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "146ddd9bbdb67efb9d2cd956c2257530d338bea8823f18e29437f3ff73355565",
+      "bytes": 36423
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-estrutura/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "3e36624e805f9d2fabf3be19109b19edf7e33a51031f0bf63523c4f17e0db837",
+      "bytes": 41434
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-estrutura/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "fffe5d7c8c6ab69fc4368d641019b5864ad7660327ac90d26ec480728e8c8c04",
+      "bytes": 41253
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-estrutura/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "ab2fd2b57847b43deb23141c6e505a70a06ee20b84426e42653e00e0096920f8",
+      "bytes": 12233
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-estrutura/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "cf61ef7fbc4b4a84f30481df218175f2b04ea3e07273d3ce3a957344b0c1079f",
+      "bytes": 33727
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-estrutura/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "008f6258924d7f30ca8911eef18c4b4c1248e197246b66755a47583ece74b1e2",
+      "bytes": 19508
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-estrutura/06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md": {
+      "sha256": "1823d134835b9c2af598259f3cbe6b8b3019f52d017641fff20d26bd2b6e8549",
+      "bytes": 10499
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-estrutura/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "c0cdde684d23fd86f1a2db58ff13e719d663e8296280452a01d0a7c927f0583b",
+      "bytes": 14566
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-da-estrutura/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "e75e1393cee54f0a55c9f18c4ae03428423c10b4b15febc9151be183f0d5a674",
+      "bytes": 32111
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-dimensionamento-refluxo/01-plano-completo-do-guia.md": {
+      "sha256": "ac54a0b13b505c92aa79fb148c6bed5c8b74f88aa48834bae20860ea04551c54",
+      "bytes": 37373
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-dimensionamento-refluxo/02-decisoes-para-conversar.md": {
+      "sha256": "7bf907cc1f28e91bf16035a4755bbf6a342d8d2bd55b542db3dbe13649d25bbb",
+      "bytes": 42934
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-dimensionamento-refluxo/06-registro-das-decisoes.md": {
+      "sha256": "60f3d4a86437119d61bc7663fc2c9e7046115b2c4c1caf824c78b95997a468dd",
+      "bytes": 46806
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-dimensionamento-refluxo/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "f2943606e9e21e30985128539b0256bec3acd83c7a17d9075539911d5c1d873d",
+      "bytes": 12063
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-dimensionamento-refluxo/50-comparacao-de-beneficios-da-liberacao-irregular.md": {
+      "sha256": "49c9512610b4bf8a73e708a2ced2f8fa149e3d97bf7eea53835117e1764dad07",
+      "bytes": 16550
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-dimensionamento-refluxo/LEIA-ME.md": {
+      "sha256": "2c9a327f60f5e8c4f0796c6f44c649bdd7cc019289c8f29f86c630e529460e09",
+      "bytes": 15077
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-dimensionamento-refluxo/REFERENCIAS.md": {
+      "sha256": "0a0b43423e354304a4d7a6676b3c1deb65f7c1b7ad745654d39aa71fcdfc4bb3",
+      "bytes": 35353
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-dimensionamento-refluxo/RETOMADA.md": {
+      "sha256": "6ca2b2c10754ca49c18d72916d0189b3537afdc21b35ea27bcb6125355d0eba6",
+      "bytes": 38504
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-dimensionamento-refluxo/manifesto-entrega.json": {
+      "sha256": "45c48eba9e3ae3d33e662d415e65b0db5e3723cdd970f149df2355db082dee5f",
+      "bytes": 20939
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-procedimento/01-plano-completo-do-guia.md": {
+      "sha256": "a8dbe6150f2dba505084288c9b25aa321c719b5ee9b19c2712f7cc7166d444b8",
+      "bytes": 37783
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-procedimento/02-decisoes-para-conversar.md": {
+      "sha256": "8552b59acf611d0bfc7577c0ac33aefe65cdc2e7476dca87be47ceddfef91854",
+      "bytes": 43584
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-procedimento/06-registro-das-decisoes.md": {
+      "sha256": "0b02cb6e8609eed445d86f2f48ba9c217bb180c529eee5291259e37d71e4892c",
+      "bytes": 49160
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-procedimento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "716df1f825d9d91829c62d3891c3ecec7a31993d5b7c23b3cb05781a1e2ef5d0",
+      "bytes": 12124
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-procedimento/47-desenvolver-uma-ideia-de-pacto.md": {
+      "sha256": "f3ab986bfdfbfced6fb0b330479bff6583bab1570ade6eb894594caf01f1c017",
+      "bytes": 10819
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-procedimento/51-dimensionamento-do-refluxo-e-dos-limites.md": {
+      "sha256": "f4b5d8838e75312cea0e0ca54ec48916e29edef7ac70c8f256d13e147e64a7fc",
+      "bytes": 16954
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-procedimento/LEIA-ME.md": {
+      "sha256": "37239f44adaeb9f6e15078386be7b7951c36565ae5cc9365212e59da7429b10b",
+      "bytes": 15067
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-procedimento/REFERENCIAS.md": {
+      "sha256": "c4a9a0d0d94db9eecf2c5bd009e4148de09a276496be0557a7279984b92d2dcd",
+      "bytes": 36458
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-procedimento/RETOMADA.md": {
+      "sha256": "82cea2405f6becd1c8d5d1c946485c3b23bb790cc06f69e00e31d2c3794eecdd",
+      "bytes": 40690
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/historico/antes-do-procedimento/manifesto-entrega.json": {
+      "sha256": "8663a7d3c82200d2d065d195a7290a03e5e2a9cc5254fe3692d52033780dd205",
+      "bytes": 21509
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/verificacao-beneficios.json": {
+      "sha256": "0335fb4c6fbc29897db46e3ee6c289a83ff33b77a68b4a313031e9522c9fadcf",
+      "bytes": 1421
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/verificacao-consolidacao.json": {
+      "sha256": "aed2278a46a7ebbcc8db01d359a4a6513898d90ed9c88f518bfe67f3ec70edd6",
+      "bytes": 1671
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/verificacao-dimensionamento.json": {
+      "sha256": "34a1f16f6b2b60c0c2f0cbb2384a16732335fba29870cca404fba7c90025a059",
+      "bytes": 1907
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/verificacao-estrutura.json": {
+      "sha256": "2df0cd06d4f8222bdad1dea2160613df0b5376d37c580607583656a8e961dde3",
+      "bytes": 1422
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/verificacao-procedimento.json": {
+      "sha256": "ef753edb2807c9dd863b341fe3714aa4b6da354b2a2eff01b88d73d984b7e317",
+      "bytes": 1597
+    },
+    "04 - Planejamento/apoio-liberacao-irregular/verificacao-zero-e-diretriz.json": {
+      "sha256": "5c68dac92d4a2897df1a81f98ffcd711631974ced4e6b30c1a983ecce31e0061",
+      "bytes": 1359
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-comparacao-de-beneficios/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "25e2d0dfb09b7c2f3fc4211c80abcc39a8efa299f222796cf43b447ba1c664bd",
+      "bytes": 35054
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-comparacao-de-beneficios/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "10e217ed85a7a9219d60df0a76ccea0b8a497782865561ce0b0901a7a6738fad",
+      "bytes": 39423
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-comparacao-de-beneficios/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "db94ef3212e84930a7364a930d1879d557a4691c0b5718cc55db63fc38c46ec1",
+      "bytes": 32804
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-comparacao-de-beneficios/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "4a521060da9d3336f728bb075d681ff98c1dd99646ea082e67324dead11bdbf3",
+      "bytes": 12428
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-comparacao-de-beneficios/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "cee98d450e0235a45153fe9c6049a1f441fcf43ceab9acdc94b81d84c7e4dca6",
+      "bytes": 25029
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-comparacao-de-beneficios/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "0f17dbf0f5e040aa8820c93182f1388cdb6d8de2f955e095d43d7e6527644480",
+      "bytes": 18266
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-comparacao-de-beneficios/06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md": {
+      "sha256": "41ed7c6ceb2ce5b642dd055a2d65e1aeead89c6011087efc319324125c2e65c1",
+      "bytes": 5239
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-comparacao-de-beneficios/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "3246d0e059562c8ac9a29628991326eb57ef559a0ae8d93887a4f8d573b2a22c",
+      "bytes": 12328
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-comparacao-de-beneficios/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "c19c18361cbbf5a0ace90de5d069a307cbc4ee2f2dbb450f7b950864d554f99d",
+      "bytes": 27596
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-conducao-pela-materia/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "734c91dd0c17510ac2c561bcc8f88890b01311ad5825a808942c337654b5e620",
+      "bytes": 35824
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-conducao-pela-materia/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "89ff6c6f15e2544d0c6d337c233900106d4426a8993c81f146f2fb9800d78bca",
+      "bytes": 40147
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-conducao-pela-materia/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "2b6c2be5ef58a6b00912e9dfac5dc970404930482027c4f139819038d925eae9",
+      "bytes": 35674
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-conducao-pela-materia/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "58615b6f6f049c31a89618d34394b4f280093541e9ed74ca18d70e10e4893d34",
+      "bytes": 12742
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-conducao-pela-materia/04 - Planejamento/45-logica-da-troca-do-pacifismo.md": {
+      "sha256": "60c6d8da227e2b9d978cf8ebf17e82172069bc1f7a837ed7c88392e67cac35cf",
+      "bytes": 8303
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-conducao-pela-materia/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "788424b37e562a13911ff30a042e311723df6d5ea83868ef9fa21f4f53250606",
+      "bytes": 29146
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-conducao-pela-materia/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "c689a0ef2ba7e156365ab1084310f359130b758c9616d4d25081f73b8c6f941f",
+      "bytes": 18956
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-conducao-pela-materia/06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md": {
+      "sha256": "21132c750c0802d87abf1237f9337538bf73c6b4f279ed1dbfe43d924b04d107",
+      "bytes": 7865
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-conducao-pela-materia/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "bcb6b364dd631ddaa538441abefbe6080677565cf93ae9c5293183e35ef32ec6",
+      "bytes": 13249
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-conducao-pela-materia/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "c155aa750d3aee94248905ff19e81c1ceeec847775d24c7de2ad563f7c3d23d0",
+      "bytes": 29576
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "e0c72442a0dd9f4466afe3638b46c239f85b72d050a50cc22bb8e454d6b09789",
+      "bytes": 34280
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "16befdcdb949b258e44d2bd22b9e5b041ac9a002c3735ce790dd131725c60822",
+      "bytes": 38640
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "7f90411a96fb3bf2eccd4064b07abb3204604e6cac10ec5193d824c34a6956cb",
+      "bytes": 28464
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "c6b0dba9aab65ea2c06ee6f64d5c07506b20537cd4411ac38b8d18cf1bbb673c",
+      "bytes": 12301
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/04 - Planejamento/39-avaliacao-das-sete-ideias-de-pactos.md": {
+      "sha256": "cfe260dd29929db5b072c337fb229f2318a816fe7117e115e88ae8986452d2f6",
+      "bytes": 16545
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/04 - Planejamento/40-proposta-de-pacifismo-impraticavel.md": {
+      "sha256": "cbe56e78d65366f2390f2eac7bbb16f641af7fc45dc5385ba3bf295704949452",
+      "bytes": 14615
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "a55942cb0bb926409cd26aaf3ce815172f83bd2bad2027b01cd1b27a557b5ad9",
+      "bytes": 20823
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "731fa8f843b0b1ff7083494d1da32da295d2cb4e032b64d9ab3bc3307c0c6894",
+      "bytes": 17433
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md": {
+      "sha256": "8f4f111497b1b0fe07e52ad54135ed6fa3ecb1a260a9bbfb5509cfc1ffc5de8b",
+      "bytes": 9982
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md": {
+      "sha256": "c8bb5a4f1ce2ebc4d4d22f29b136f7795a995301cd09d707c85eff4308f1f46e",
+      "bytes": 7840
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "46e46ad8e1baa14de0aecac26b681b7ea2c02853940293ed580020e8c2fe32b7",
+      "bytes": 11364
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-correcao-do-conceito/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "52e456334569862341260f954782675e0e0828ec7e6c6f642848f0972c8c7f2e",
+      "bytes": 25505
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-logica-da-troca/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "d6b2eb117c87f53a9230e9eb1db7fd681d8938dea5cedc639e84a167a191e664",
+      "bytes": 35571
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-logica-da-troca/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "80bb66e709ad6e83b607bd56fa97c9f67875d94cc7b1d09d9804d291342551bc",
+      "bytes": 39794
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-logica-da-troca/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "2e3cd1d3d7d61d975bd0e43725512504500876c3c97451afd25903175845c2c2",
+      "bytes": 34613
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-logica-da-troca/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "ddbbf15acb4b331473c72a932afedd4eb43241b0237b503ed916b765843677d0",
+      "bytes": 12623
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-logica-da-troca/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "a5d342fe825fa3beda3cda0d5f71616b5107820d466ebf1968644d3e80708484",
+      "bytes": 27547
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-logica-da-troca/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "81a1c425ff8d169c6b41beaab7420ded79eb185f1d9dfd268a2379d6d42daa3e",
+      "bytes": 18690
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-logica-da-troca/06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md": {
+      "sha256": "ec1e04da615cf340d8eedafb91281cc228ee73763289da1cdcfe84b2e3caaea8",
+      "bytes": 6478
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-logica-da-troca/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "ed7b2d56a43e07d553c7355f4264ee844a04077d124e91c16cbc53fe6f23202f",
+      "bytes": 12921
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-logica-da-troca/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "a14882155e714a7a74562c183f5e9499a69d92b5a461d53f992ed9332ae35ed7",
+      "bytes": 28773
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "446e73176f56b2108e9bdf4f794a7911929ea300cc64194db3e8c875f00b436a",
+      "bytes": 34039
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "65372658079b140caa9084ce2ba62a080a8dc20d48a7c5fbaf5889e97aeb0e55",
+      "bytes": 38485
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "7f90411a96fb3bf2eccd4064b07abb3204604e6cac10ec5193d824c34a6956cb",
+      "bytes": 28464
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "daea3c322830f47f437cc02b3759334661700718f8a5bc6804d11ac55485570c",
+      "bytes": 12167
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "93216fdcb27d887b56bf15677eeadc405591dfebdd4d29c653ec11a39280dfdb",
+      "bytes": 19670
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "bc38285fcc9a0bb1bb0285e6b86f5dac04b1823b110e0e242662c2e6698db57d",
+      "bytes": 17047
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "6120b9c3ec204400a7a1d0a421506b63f4bf22394ea04bc59ecaa492193f8f2b",
+      "bytes": 10910
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "1550203b071d700fd24e898d5ec9e7312e3cde4b9a8d29f278ed65e44db072ea",
+      "bytes": 24426
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta-do-paradoxo/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "c0627a941eaf3052b577da4ec9e9050d4f62dbf8f43a7add992377709bd3d2a2",
+      "bytes": 34522
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta-do-paradoxo/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "69111d12aa958b022bcfb09e7bf525cbc6e072c3e1a39d060e55f4e69e5db680",
+      "bytes": 39008
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta-do-paradoxo/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "255fc929afd41d7c7c6babfdb2015feeff26b847139d050ab34f799096b6c65a",
+      "bytes": 30725
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta-do-paradoxo/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "99f496f273805a0230972a1c69e22e7518cd48a5b0469a0e95d062c3b49b7ffa",
+      "bytes": 12351
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta-do-paradoxo/04 - Planejamento/41-reformulacao-do-pacifismo-impraticavel.md": {
+      "sha256": "5323efc46b9ca11e6855dba5cb2893a20726d942dd5db576412d8bb2c884ad5d",
+      "bytes": 8866
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta-do-paradoxo/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "5d5b57f6e61efec2b36db17c4fcf1f573d69820c3955c12617151e8f98255a49",
+      "bytes": 22323
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta-do-paradoxo/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "d07bdb4e518c618e99c1d32e555a42456956decaebda98f249fc7bc62a3e32e5",
+      "bytes": 17711
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta-do-paradoxo/06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md": {
+      "sha256": "b492d831f318ab371839d61739d6d9717a7fbd32992f9f62f86fc7bae1d25bd6",
+      "bytes": 4669
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta-do-paradoxo/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "8efda5d325c79365b095344595d92781c5dc8f57bf0070eca45142b4dfd1c7a7",
+      "bytes": 11577
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-proposta-do-paradoxo/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "6e2cc1017b8b1cbd710c0a5247c9fa3e26dfff2ed07bb9bf11cc89527855564d",
+      "bytes": 25984
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "2421063da125155f3df4a2d277f9b31268ea77fa2bc84e3dd475bea52c2be1d2",
+      "bytes": 34732
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "77a2193c655721410230d8822efb5fc8d29a18f168a2b26d56eedefe41db85fe",
+      "bytes": 39388
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "255fc929afd41d7c7c6babfdb2015feeff26b847139d050ab34f799096b6c65a",
+      "bytes": 30725
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "78c27ff8d9ffc4082c7776cf8e8f25d79f4b9a1b70197abdd8a232bfdf9e0d86",
+      "bytes": 12328
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/04 - Planejamento/41-reformulacao-do-pacifismo-impraticavel.md": {
+      "sha256": "fbf4daf55fbd9545778c2ce2a79d8c70b1d6095acacd9c1fe298401e7f52de30",
+      "bytes": 9173
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/04 - Planejamento/42-proposta-do-paradoxo-pacifismo.md": {
+      "sha256": "6fff4eb04ab8793d0eff2d7369afda73f668cacc0a05003d5fabeb19e6175baf",
+      "bytes": 17245
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "24f5b6256a01bbb04b84a1043e36c288bbd80685df7210ea67349e18cff16bd4",
+      "bytes": 23591
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "e8b5906624d3ed23a4d69dc8a206aacc72aa7b6f972eb23f7b011baf092411e1",
+      "bytes": 17981
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md": {
+      "sha256": "1ef037e80ee4d4dbc788e274d70f5a3c09da983fc533ddbe9372777e4dbb8e7d",
+      "bytes": 10062
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md": {
+      "sha256": "4c127887770ee78126b4cb44671d52dcb1629d461b64b99dba30795bd33a0fdb",
+      "bytes": 8539
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "a4a56ea58c7b47563462e723dc186669493599c6ac331aeb2f1a566cb728b6fa",
+      "bytes": 11906
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-da-resposta-sobre-causalidade/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "f6f9d884fed27a634261d1dfd7c3b8c573777a96c1b3905bfdffbd14a4309741",
+      "bytes": 26814
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-das-fronteiras-e-saida/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "779945349c9776b8b5211062a482c9f9f2e44eb39428aac55643c21146a8c97e",
+      "bytes": 36139
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-das-fronteiras-e-saida/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "c6e592e81d0cbd712d5390561f11691737eff26cec09a8fdf295c944287e9be7",
+      "bytes": 40792
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-das-fronteiras-e-saida/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "ee76fc8468ed56dc603e009f1a66b70e159b130527b23f47cdaeeb6742a2f1b6",
+      "bytes": 37769
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-das-fronteiras-e-saida/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "2c27897605eedc38b8d3f36deaf8ff53c1d7d9421fe68c7c96b475c02b0e0f9e",
+      "bytes": 12341
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-das-fronteiras-e-saida/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "496732317db88c148620204ee5b5164756f68c74834d9ba5dbe61fdc8f9809f8",
+      "bytes": 31292
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-das-fronteiras-e-saida/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "0f134c3fb6df2a880389b0d5335d2d3fe3898e9399cf78c7865a4f8b2f72b362",
+      "bytes": 19231
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-das-fronteiras-e-saida/06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md": {
+      "sha256": "555956755ea3a6e0ab589565dd2eb3db25fdc1c25ff178c70b42e6c5ac422131",
+      "bytes": 10737
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-das-fronteiras-e-saida/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "809cc291ea624b69a60ff01c99552127e750a98993c41d51e9674d3a86198748",
+      "bytes": 13749
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-das-fronteiras-e-saida/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "f90a92cf36086b860e82ff3dfcd226272bc315bbee8a5fb0a91801b4bb04b797",
+      "bytes": 30795
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-do-criterio-de-coerencia/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "faca80ef598da6f8c9eb9b4aea26863fc368a37ed69837ff92c186315cecb176",
+      "bytes": 35306
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-do-criterio-de-coerencia/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "4d47834f6f65bc427c10783b8a8512b23c07213f71e82df4a7816cc85e644bdf",
+      "bytes": 39752
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-do-criterio-de-coerencia/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "db94ef3212e84930a7364a930d1879d557a4691c0b5718cc55db63fc38c46ec1",
+      "bytes": 32804
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-do-criterio-de-coerencia/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "8d611650e158b77172bcb75ab4860ce6f015cd8ecc6d9ea4889364fbdf5f7d77",
+      "bytes": 12534
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-do-criterio-de-coerencia/04 - Planejamento/44-comparacao-de-beneficios-do-pacifismo.md": {
+      "sha256": "302c3cd867d8c75eec97b98c61e7edd8f9184e839c67072aa755be0a1e5d23ce",
+      "bytes": 11737
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-do-criterio-de-coerencia/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "d4e9677192d24ca204ab24f4980b95072d570e154b47d371cf0a0928813d80a4",
+      "bytes": 26447
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-do-criterio-de-coerencia/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "32355b50a4d703f079f5e3deddbe1a446aacbe2f782723293cbb62b143f6d279",
+      "bytes": 18547
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-do-criterio-de-coerencia/06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md": {
+      "sha256": "8aa936e47a9c3897cb81158a3a3038e79a10f53d4e07e6cfc561aeb296f3de4e",
+      "bytes": 10316
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-do-criterio-de-coerencia/06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md": {
+      "sha256": "56e0bd05522eac9eec5f500b5a95297e6a44898ff6646feb4ad3d2973fc72428",
+      "bytes": 7519
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-do-criterio-de-coerencia/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "0b47400e7e98e7bacf14a7114c0b4f83dbe730b6f36e4aff4bbdb30bcfafc4dd",
+      "bytes": 12623
+    },
+    "04 - Planejamento/apoio-pacifismo/historico/antes-do-criterio-de-coerencia/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "7d2e48c58b4f8674fabed956f897c6851121464b50eab93664251e728e7f4f7d",
+      "bytes": 28379
+    },
+    "04 - Planejamento/apoio-pacifismo/verificacao-causalidade-ambiental.json": {
+      "sha256": "f151635cbddf014d44b54b060a8f157af606b87d07c9815cd6554eb2fc1740f9",
+      "bytes": 1773
+    },
+    "04 - Planejamento/apoio-pacifismo/verificacao-coerencia-da-troca.json": {
+      "sha256": "2e4f3ed49a07e3cacef4735fe5f3dfa511b3b92a88ee1423cdf43d816a59354a",
+      "bytes": 1369
+    },
+    "04 - Planejamento/apoio-pacifismo/verificacao-comparacao-beneficios.json": {
+      "sha256": "14e8679d1f16aab8eaea59e341bd9909a0627e34c4adaca4e4718cbbf52e16e2",
+      "bytes": 1813
+    },
+    "04 - Planejamento/apoio-pacifismo/verificacao-conducao-pela-materia.json": {
+      "sha256": "7ca68e44c1130715cdebad68f222e5cf2919bf2fdb7a9124f4b4adc812259371",
+      "bytes": 1513
+    },
+    "04 - Planejamento/apoio-pacifismo/verificacao-correcao-conceito.json": {
+      "sha256": "a9ba978372ba576ae68a376627052d6542242dd6e04df72b832d225a3246931a",
+      "bytes": 2277
+    },
+    "04 - Planejamento/apoio-pacifismo/verificacao-fronteiras-e-saida.json": {
+      "sha256": "5f1e8040a126d164d1f7cb5eee58cf8ff7c7b8b9577c68880199717d92bb4b47",
+      "bytes": 1859
+    },
+    "04 - Planejamento/apoio-pacifismo/verificacao-logica-da-troca.json": {
+      "sha256": "a090b81b145fbeb2d7d6bbbb978a9c49c7bc07ebc8c221cbdbfed96927a74c7b",
+      "bytes": 1361
+    },
+    "04 - Planejamento/apoio-pacifismo/verificacao-proposta-paradoxo.json": {
+      "sha256": "99cc8927c665480e309c47309f92b89f62ee3fb1734c99fd834dd763f3d37589",
+      "bytes": 2052
+    },
+    "04 - Planejamento/apoio-pacifismo/verificacao.json": {
+      "sha256": "0d780cdb21c2d8793c67f0bf5ce8cd91003cb38e060b416bb0d92cd9b1eb19c6",
+      "bytes": 1772
+    },
+    "04 - Planejamento/apoio-pesquisa-tempo/fonte-r53.json": {
+      "sha256": "83530ae43b3665ca4fbb2d8349796e41cba63e791bcd1ab38e7aa78711fcdb1a",
+      "bytes": 253
+    },
+    "04 - Planejamento/apoio-pesquisa-tempo/historico/antes-da-pesquisa/01-plano-completo-do-guia.md": {
+      "sha256": "79540984b74cdb727210781fdde7e8d757b0602af760db314935c9dfed4827d8",
+      "bytes": 29175
+    },
+    "04 - Planejamento/apoio-pesquisa-tempo/historico/antes-da-pesquisa/02-decisoes-para-conversar.md": {
+      "sha256": "a70ea328cc806b0d03bb99fdcbfdff9589c3a6ab2c5877592470db23417253cc",
+      "bytes": 34465
+    },
+    "04 - Planejamento/apoio-pesquisa-tempo/historico/antes-da-pesquisa/06-registro-das-decisoes.md": {
+      "sha256": "7b0b5f47575c155f4f69048b7da72e0a68be6e5f877e25fbdb3a7060d57bec1d",
+      "bytes": 16335
+    },
+    "04 - Planejamento/apoio-pesquisa-tempo/historico/antes-da-pesquisa/08-primeira-conversa-sobre-tempo-de-trabalho.md": {
+      "sha256": "fc770aa1a929337e615475182f317816342eaed2ba412d08d4f5e780e9effdd0",
+      "bytes": 6901
+    },
+    "04 - Planejamento/apoio-pesquisa-tempo/historico/antes-da-pesquisa/09-atividades-fora-de-missao-e-treinamentos.md": {
+      "sha256": "e0e465ae96d75bf4d70edf81e9702a0204c58b6979fb8d3b2853f7db545634e7",
+      "bytes": 17106
+    },
+    "04 - Planejamento/apoio-pesquisa-tempo/historico/antes-da-pesquisa/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "71239208cb88c132461e0165d01fd3dcaa1d3895e3fc9b961a8fa0dc0ca2855b",
+      "bytes": 11066
+    },
+    "04 - Planejamento/apoio-pesquisa-tempo/historico/antes-da-pesquisa/28-proposta-unidade-de-dedicacao.md": {
+      "sha256": "41bddc8341522970c8ec71defa8d81392f0167686946c52b5683300f5500e69d",
+      "bytes": 3121
+    },
+    "04 - Planejamento/apoio-pesquisa-tempo/historico/antes-da-pesquisa/apoio-piloto/RETOMADA.md": {
+      "sha256": "9f08e34184b8c4aeaeedac0a8856385859df3273d774b8427f482251c65aaa57",
+      "bytes": 8737
+    },
+    "04 - Planejamento/apoio-pesquisa-tempo/historico/antes-da-pesquisa/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "81a73040224aa1a1d3d1a1a200b266e29dce8dd2ed65034849fa88528fc0d8e4",
+      "bytes": 12499
+    },
+    "04 - Planejamento/apoio-pesquisa-tempo/verificacao.json": {
+      "sha256": "e55cc9a1cc00e8e076a5cb49600a07a64177c216ad643fdb58360b8351410fc6",
+      "bytes": 1072
+    },
+    "04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "7991dd29e06adeac40427a0b095fa94a47f1d363b31c268ef8b017e82a34e1b0",
+      "bytes": 64104
+    },
+    "04 - Planejamento/apoio-piloto/base-inimigos.json": {
+      "sha256": "e00eb6297c7d3584a9cce27fd1a193aabeaf624b46ea2b9995fa251dc00d124b",
+      "bytes": 4450
+    },
+    "04 - Planejamento/apoio-piloto/conferir_exemplo_guiado.py": {
+      "sha256": "8147e02ae02f9b7940031fe2409f66be2edf5a4f46554affddc76a6dfa7f074f",
+      "bytes": 3292
+    },
+    "04 - Planejamento/apoio-piloto/gerar_fichas.py": {
+      "sha256": "11bb10b323cfdcbc2a01c5a0efa8f5cf131a8594fafc2edd34e67a2f0b044030",
+      "bytes": 13991
+    },
+    "04 - Planejamento/apoio-piloto/gerar_relatorio.py": {
+      "sha256": "e836bcb6f80e8385cb2eebe50af023d061e719651b62d285c228e7758cb39dfe",
+      "bytes": 14695
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/01-plano-completo-do-guia.md": {
+      "sha256": "e55c6c62c572fe1f40fde26740ec70f180397ca3fa7bb177d2fef1f13d475cff",
+      "bytes": 24450
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/02-decisoes-para-conversar.md": {
+      "sha256": "306182b71d69ca7343f001a86838a9d5747d80dd13a587544b42eb299527a068",
+      "bytes": 30167
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/03-matriz-dos-130-pontos.md": {
+      "sha256": "93a7f6161cc476f7882525bb59c90e983901e88628584677649d7eb20949f505",
+      "bytes": 23404
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "76e7cf341555a425fb4f409b3a178602b6072abd5b6d692f632d86fa5c1306e4",
+      "bytes": 10244
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/05-como-selecionar-e-adaptar-as-referencias.md": {
+      "sha256": "93ca399cf788d70a3e799f2e05781d542d8700572d6d723b4ca99ab77298f47a",
+      "bytes": 15480
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/06-registro-das-decisoes.md": {
+      "sha256": "31c7db7142f170ba060d9d832ac8f5a14614e923cb046ef0278f450c8f1592da",
+      "bytes": 12931
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/07-revisao-dos-novos-relatorios.md": {
+      "sha256": "4c456b7b6da3e709f35fb31cb53f0dfea2b7435b0f1b6f0bfc77feec5c37c4e5",
+      "bytes": 11632
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/08-primeira-conversa-sobre-tempo-de-trabalho.md": {
+      "sha256": "c864ad58c48242385f717bc2a80addde6640e3723ac9a708e3865136e5823348",
+      "bytes": 6454
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/09-atividades-fora-de-missao-e-treinamentos.md": {
+      "sha256": "f8323882edd614a481023a348a1374b2360c6875370a1af066446e4cebfe909b",
+      "bytes": 16659
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/10-mundo-cotidiano-e-caminhos-de-ensino.md": {
+      "sha256": "6e8c386f3376b50004a0dd7d8b7727ca8f575f27919b20db1aa1499c664f7444",
+      "bytes": 10366
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/11-fontes-da-obra-localizadas.md": {
+      "sha256": "40c0d16714a64884628b5dfdeede4ca3a2c3400c427ae79760a54d81b11fefc0",
+      "bytes": 8420
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/12-piloto-editorial-cotidiano.md": {
+      "sha256": "7c13696ccc0060df43691067eb703140704bf3ba66a05f0682c889ce7e24566f",
+      "bytes": 8281
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/13-piloto-editorial-ocorrencia-sobrenatural.md": {
+      "sha256": "759214b1ecb7864670e61b5f9b50f891e11df2d0dad6f393cc7b84cad39e7b11",
+      "bytes": 11080
+    },
+    "04 - Planejamento/apoio-piloto/historico/2026-10-21-antes-da-conclusao/validar_base.py": {
+      "sha256": "ab5b7a7a6b8092e52c46c49178571926cb0b5e79e7dbc82f6c8979829eeba339",
+      "bytes": 16124
+    },
+    "04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "2708178102ca1d5b67fd8312bca66cab7e435f90d44dbd56460734eb5c79d616",
+      "bytes": 27137
+    },
+    "04 - Planejamento/apoio-piloto/resultado-exemplo-guiado.json": {
+      "sha256": "660a04ed784727526541a3a25dccb67c96d481b4ef06c4daa50dabea27dad170",
+      "bytes": 1465
+    },
+    "04 - Planejamento/apoio-piloto/resultado-validacao.json": {
+      "sha256": "00feea4f6d11d433110079947c71c133a5b155b7d2fc0998e1603fc26630d1e5",
+      "bytes": 18303
+    },
+    "04 - Planejamento/apoio-piloto/validar_base.py": {
+      "sha256": "cff16a63d89ed8620f4bb30bef173631d71668723ff79ba70db23c18e7987573",
+      "bytes": 17589
+    },
+    "04 - Planejamento/apoio-piloto/verificacao-da-entrega.json": {
+      "sha256": "a66d989f6598e2088a3e3e4ce90180cc43550f78fb3b0c15b9cda795029b3d1d",
+      "bytes": 419
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/conferencia.json": {
+      "sha256": "2a133e5ccc37a6096e106ce2f2ba7adc3ceaf3d2553c69fdb03be9bfc46b2676",
+      "bytes": 4466
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-da-politica/01-plano-completo-do-guia.md": {
+      "sha256": "0cbc00f1029523b9e5aeab5426b0b2939a0e06cc5c2de9e8f98f42c1dd3a17e7",
+      "bytes": 31060
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-da-politica/02-decisoes-para-conversar.md": {
+      "sha256": "bdec323795a190640b1fbc24a767adf9a52d4b4335ceccb933924975686f8296",
+      "bytes": 35834
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-da-politica/06-registro-das-decisoes.md": {
+      "sha256": "cd6275d64422fb1d961f8688b07cbbb7faf1fb0588e246f206889aab8424902e",
+      "bytes": 20769
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-da-politica/09-atividades-fora-de-missao-e-treinamentos.md": {
+      "sha256": "db209d9a7fbb359e26b13bd088c6943fa59a1c215d3bd8c4b2c15ebb9b092741",
+      "bytes": 18364
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-da-politica/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "33b35f0ad81c1817a87de266d9f6b5238189848a7350d9eb104f2fbad900d4d6",
+      "bytes": 11542
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-da-politica/31-propostas-de-disponibilidade-para-a-guilda.md": {
+      "sha256": "310e08fe179383ecb55670ab3e16b4023d6de9dc2e9a8fab356d4169c0dfd9b5",
+      "bytes": 17763
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-da-politica/apoio-piloto/RETOMADA.md": {
+      "sha256": "303684243f8cb608954f8a4e0b50dad9317fb2946213dbbb266d8b1c11a687de",
+      "bytes": 12276
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-da-politica/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "8e8c8907abeb68f4b2d17dddfb71cf88b28bbea337fc26ce5230dd8a74d92e9d",
+      "bytes": 13702
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "ff5f893bb1d52dae450abda6a59b616eba5bdc9da6f5c526cb126a69a920bfd7",
+      "bytes": 31620
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "251f7697b251eee1381467a8e794bf97691053b1d30d58bf9026f4044756ad1d",
+      "bytes": 36298
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "7fe0eac5ab20307cd61d90160c6b102a4ca76e86e4da1325e277c4647de79feb",
+      "bytes": 16300
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "cd6275d64422fb1d961f8688b07cbbb7faf1fb0588e246f206889aab8424902e",
+      "bytes": 20769
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/09-atividades-fora-de-missao-e-treinamentos.md": {
+      "sha256": "9b69956bcb2b031b2f58d9a818333b146a818f44b7bda5b7d139b39bc5650347",
+      "bytes": 18920
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "7338b6f9a719a772dfeddfcf856bd9b149a1246f82c4da90409cfcc788d1eed0",
+      "bytes": 11646
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/31-propostas-de-disponibilidade-para-a-guilda.md": {
+      "sha256": "16cafe45487d2dd1a9f7194b52796a38a734b755fb50673b8240e1bc3414bcad",
+      "bytes": 18195
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/32-politica-de-acesso-saldo-e-fechamento.md": {
+      "sha256": "622244cc44593b9e484e52973accbe519fa464d8f6737b6d81abed16350e95bf",
+      "bytes": 14750
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "a3862537573bc82fdef9beccfedcf54b3c5d90f28ed47c51b928e54ad92edf56",
+      "bytes": 13524
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "d54f50b78ead4bc68a33f025e51d908cb058f54eec914c82ff3a0b40277a734b",
+      "bytes": 14111
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/apoio-politica-de-atividades/conferencia.json": {
+      "sha256": "655bd89818e18d1ffeadf619aac33438f988cdcfd346eae9907fcd33427f5194",
+      "bytes": 1904
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/04 - Planejamento/apoio-politica-de-atividades/verificacao.json": {
+      "sha256": "6dfda5cde3e7cee70e3f2c9e709e9b2ac3a1e7c96e2ce24423f78c7dc1ce6aef",
+      "bytes": 937
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md": {
+      "sha256": "0c8b9e79c7ae8484421d4e2106ab6916c01326965721fe3060a29b23944c62a0",
+      "bytes": 6029
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "42780d6f9780bf1e151343f09b64dbb0238388018fb67cc0e0a7e46791238a0c",
+      "bytes": 7928
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/historico/antes-das-respostas/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "9d50345983f3d6a504400dfb8cb4b3acce385bb6c24516ee54c593704977643e",
+      "bytes": 16910
+    },
+    "04 - Planejamento/apoio-politica-de-atividades/verificacao.json": {
+      "sha256": "d49263a418a08291faea68d8c54ffce7899573c657746e762a4a75bb3a3d6114",
+      "bytes": 1517
+    },
+    "04 - Planejamento/apoio-pre-1/historico/antes-do-ajuste/01-plano-completo-do-guia.md": {
+      "sha256": "8254121a15f31ae843cffe2c6452d7dd3a2965b5a8d7d02ac97115423e52cafb",
+      "bytes": 25780
+    },
+    "04 - Planejamento/apoio-pre-1/historico/antes-do-ajuste/06-registro-das-decisoes.md": {
+      "sha256": "24eae6172b5352579bf84d83f24cb443b30293b1260e3c05b693f6ae2159828b",
+      "bytes": 14085
+    },
+    "04 - Planejamento/apoio-pre-1/historico/antes-do-ajuste/18-conducao-e-revisao-do-conjunto.md": {
+      "sha256": "22b5b054842087ab152ffcf7328270b73aca1b9db6628d5febbc80d1dccdacc9",
+      "bytes": 7157
+    },
+    "04 - Planejamento/apoio-pre-1/historico/antes-do-ajuste/LEIA-ME.md": {
+      "sha256": "86a1d435b10bc82100935275b72efc190d1c321878a61a7762d9320cbd6759c2",
+      "bytes": 2500
+    },
+    "04 - Planejamento/apoio-pre-1/historico/antes-do-ajuste/RETOMADA.md": {
+      "sha256": "f8d60c26464865fbe0910951aa8ed8794521afc1c2cfcecd9e7088e539c0f53f",
+      "bytes": 3333
+    },
+    "04 - Planejamento/apoio-pre-1/historico/antes-do-ajuste/manifesto-entrega.json": {
+      "sha256": "cf598e5e53b61251036cf1909ef3d056dda017c989a0ef9c437cccb755685634",
+      "bytes": 4797
+    },
+    "04 - Planejamento/apoio-pre-1/verificacao-ajuste.json": {
+      "sha256": "bf12b15bc6846f2d64480baece2745573d416a759b95fcc60c833afc27c35b1f",
+      "bytes": 532
+    },
+    "04 - Planejamento/apoio-preparacao/fontes/inventario.json": {
+      "sha256": "342b37ef355ba20ef4fbc68407e622abdc0dea56ff88c8d72025f7b241f57ca1",
+      "bytes": 1119
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/01-plano-completo-do-guia.md": {
+      "sha256": "e63f6b0bf77c74e5a377b59ec9f2f502ba17b4cb20d2ccb2e6af8d68dd00de1d",
+      "bytes": 24963
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/02-decisoes-para-conversar.md": {
+      "sha256": "93ae0868a4f5ae0373fcee42b38a5e679655a8e63f0e9e0259af933addeda08e",
+      "bytes": 31087
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/03-matriz-dos-130-pontos.md": {
+      "sha256": "93a7f6161cc476f7882525bb59c90e983901e88628584677649d7eb20949f505",
+      "bytes": 23404
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/04-competencias-que-o-livro-deve-ensinar.md": {
+      "sha256": "76e7cf341555a425fb4f409b3a178602b6072abd5b6d692f632d86fa5c1306e4",
+      "bytes": 10244
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/05-como-selecionar-e-adaptar-as-referencias.md": {
+      "sha256": "93ca399cf788d70a3e799f2e05781d542d8700572d6d723b4ca99ab77298f47a",
+      "bytes": 15480
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/06-registro-das-decisoes.md": {
+      "sha256": "24eae6172b5352579bf84d83f24cb443b30293b1260e3c05b693f6ae2159828b",
+      "bytes": 14085
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/07-revisao-dos-novos-relatorios.md": {
+      "sha256": "4c456b7b6da3e709f35fb31cb53f0dfea2b7435b0f1b6f0bfc77feec5c37c4e5",
+      "bytes": 11632
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/08-primeira-conversa-sobre-tempo-de-trabalho.md": {
+      "sha256": "c864ad58c48242385f717bc2a80addde6640e3723ac9a708e3865136e5823348",
+      "bytes": 6454
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/09-atividades-fora-de-missao-e-treinamentos.md": {
+      "sha256": "f8323882edd614a481023a348a1374b2360c6875370a1af066446e4cebfe909b",
+      "bytes": 16659
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/10-mundo-cotidiano-e-caminhos-de-ensino.md": {
+      "sha256": "75f7af69d3319a30694f1cb8b62d11a51994cf9fff31ede6bf152a83cd5d7f85",
+      "bytes": 10433
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/11-fontes-da-obra-localizadas.md": {
+      "sha256": "40c0d16714a64884628b5dfdeede4ca3a2c3400c427ae79760a54d81b11fefc0",
+      "bytes": 8420
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/12-piloto-editorial-cotidiano.md": {
+      "sha256": "2cccdaf31fb90ac249342d111cd57fcbb67ffae92d5b71dbf04dd7163a22ff15",
+      "bytes": 8429
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/13-piloto-editorial-ocorrencia-sobrenatural.md": {
+      "sha256": "97e6977028f6153cd34f4c53b83216f054a8e38c9e1f505a9de6bb41be92a131",
+      "bytes": 23244
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/14-base-pequena-de-inimigos-r53.md": {
+      "sha256": "54364d148c17ddf6c182b08e235f6b484b17829718f68da1acc22adaa9498ebf",
+      "bytes": 14690
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/15-verificacao-da-base-e-do-piloto.md": {
+      "sha256": "14db85acef6d6d5b4da3ae9709de6b4b46728e5567502307bc93045aeeaa6d19",
+      "bytes": 13400
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-desta-etapa/manifesto-piloto-anterior.json": {
+      "sha256": "b374cf68690c310ed1a09251c82e03858994fcc6a78bb978ade7bc9140b6dc0e",
+      "bytes": 2628
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-revisao-clareza-r53/01-preparar-uma-missao.md": {
+      "sha256": "6ee73a20770b17a117353f574ccc7dbbcbaad763fe5e6de9bbe187d897b28666",
+      "bytes": 13655
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-revisao-clareza-r53/02-ficha-de-preparacao.md": {
+      "sha256": "aeb203365895ccda17d9068eb7b728f00996c455e2a5bb434f63f1e7e389f849",
+      "bytes": 3795
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-revisao-clareza-r53/03-as-batidas-no-anexo-consulta.md": {
+      "sha256": "74d4108911b461e81e5161158962c05d873bf2f823f99cc700f915a6d52461ec",
+      "bytes": 8489
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-revisao-clareza-r53/16-revisao-editorial-e-preparacao.md": {
+      "sha256": "57ef266c153ab0dfa05cf7c4de0d31ae3de21b99aece6d14762ffba6db2b053c",
+      "bytes": 8576
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-revisao-clareza-r53/LEIA-ME.md": {
+      "sha256": "9df6edcf32dea3235afbcf9571169844ecc377558d3f0c1397717a9e4e6c07c4",
+      "bytes": 1846
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-revisao-clareza-r53/REFERENCIAS.md": {
+      "sha256": "1dc72e4f8b88017b66c7055f048953363e88f37d4ab9dba93ccf4ae15d7125dd",
+      "bytes": 2428
+    },
+    "04 - Planejamento/apoio-preparacao/historico/antes-revisao-clareza-r53/manifesto-entrega.json": {
+      "sha256": "de2df029c8f50094fcfef1bf9cf971a59fd7520002227606403b0f024c67b86a",
+      "bytes": 3906
+    },
+    "04 - Planejamento/apoio-preparacao/revisao-clareza-alteracoes.json": {
+      "sha256": "a76950bf47ae609df5015bf15fa47d99076318dc8e8080f738878091c73f26bc",
+      "bytes": 11490
+    },
+    "04 - Planejamento/apoio-preparacao/verificacao-editorial.json": {
+      "sha256": "5b5e6e7901e85b21264713af703649144c66582dfcf03ea1bdf6d1192504d82f",
+      "bytes": 529
+    },
+    "04 - Planejamento/apoio-preparacao/verificacao-revisao-clareza.json": {
+      "sha256": "cc6cd0ee6a39efd675ce67acb781cd2086582c9b131427a4288a250916699905",
+      "bytes": 1830
+    },
+    "04 - Planejamento/apoio-projetos-entidades/conferencia.json": {
+      "sha256": "33a3806438f312bfbce68117aa4b840db2d479b401eff6bcc0b771ea709d404d",
+      "bytes": 13331
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-proposta/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "3a2bfce758a1faa1686f433fcea2d5245a2f15239540c6ee4ff691c27207dfc8",
+      "bytes": 32585
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-proposta/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "9209b28c53fa9fd4a5eca227cf679f903fcd33a8232abca5b9c99b339dab628f",
+      "bytes": 37160
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-proposta/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "c9800e6779c2ea1eadb6ef2912bf082914c83dcc47ccb6aeef11277c2f0d4eb8",
+      "bytes": 23058
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-proposta/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "bb36ea6becef5d05fe7d4e727acda38fc424955df70fdf016f815991ca6c4bea",
+      "bytes": 11599
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-proposta/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "ebee3880183011b57d88d2a68afbb8371f8109121ee579b89183dcb12ece6edd",
+      "bytes": 15795
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-proposta/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "b0283376d71c22863caf97b01d89f10a8aad57000d104534df4b6068a51e4674",
+      "bytes": 15273
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-proposta/06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md": {
+      "sha256": "9ea437b675c558487310072e8854856c1c61cc8b631a29b481dbb07b91eae70c",
+      "bytes": 16066
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-proposta/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "370aa8f00fa1403ecd849ad35e47c426f6c2c0d66339ef4677e2859ea9793602",
+      "bytes": 9168
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-proposta/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "c46cb5d0bc27ca8dc695596b22f3d6c0d5b7ad3c4e16949b68f6705a18c9dc8d",
+      "bytes": 20003
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-reavaliacao/35-propostas-de-tempo-e-materiais-de-entidades.md": {
+      "sha256": "1d10d7fd9dd8d285fa18117fdfd4d2aacde93299994b6e2ce9d32bf67a11d415",
+      "bytes": 17764
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-reavaliacao/36-casos-de-projetos-de-entidades.md": {
+      "sha256": "2cbeee4accb76a7cf5fc393f04bf71bed925f22ddfa83b7e69ec8bf01e0ce4c6",
+      "bytes": 11491
+    },
+    "04 - Planejamento/apoio-projetos-entidades/historico/antes-da-reavaliacao/conferencia.json": {
+      "sha256": "4ce177e76d3bdb269845b7dd8a7f204c324d863dd93e7db15bee64693595e8c7",
+      "bytes": 7159
+    },
+    "04 - Planejamento/apoio-projetos-entidades/verificacao.json": {
+      "sha256": "7c5ab5b9fd4a0caf7117719df04de71669abfa1f446ea9f7d4b3d164d60feb5a",
+      "bytes": 1337
+    },
+    "04 - Planejamento/apoio-promessa/historico/antes-do-exemplo/01-plano-completo-do-guia.md": {
+      "sha256": "92a8182143f95204c232830fac72494545929f2c155a0981b0658dc7411703b1",
+      "bytes": 38185
+    },
+    "04 - Planejamento/apoio-promessa/historico/antes-do-exemplo/02-decisoes-para-conversar.md": {
+      "sha256": "c662cdaa8e7965af16c4152b71d0b8867cf9bb3d1416e7970315e36b939faf6d",
+      "bytes": 43985
+    },
+    "04 - Planejamento/apoio-promessa/historico/antes-do-exemplo/06-registro-das-decisoes.md": {
+      "sha256": "c369b29c6a700daa1fd6dad5ffc7d8e8fa29ca9189893c47842fd6d2da71f829",
+      "bytes": 50621
+    },
+    "04 - Planejamento/apoio-promessa/historico/antes-do-exemplo/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "e11bb929236be45bbdef4e5fbad66fe4470b6716b4aee35a7f14e41b07208d7c",
+      "bytes": 12075
+    },
+    "04 - Planejamento/apoio-promessa/historico/antes-do-exemplo/34-c09-pactos-promessas-e-entidades.md": {
+      "sha256": "b7b7c32cf270a0869139655be321a8f72c1626f5a4276cc87112baae2bdeae45",
+      "bytes": 8455
+    },
+    "04 - Planejamento/apoio-promessa/historico/antes-do-exemplo/41-pactos-e-promessas.md": {
+      "sha256": "ab2bd2f8942e048a5bdab582e4edc12723efbfcb3a3791ee6447a7af62c4961a",
+      "bytes": 11186
+    },
+    "04 - Planejamento/apoio-promessa/historico/antes-do-exemplo/42-registro-de-pactos-e-promessas.md": {
+      "sha256": "2f91459815f0b5023b13db1cf86d0d3d4506f2b9fb78718f68cbfa717943551c",
+      "bytes": 3607
+    },
+    "04 - Planejamento/apoio-promessa/historico/antes-do-exemplo/LEIA-ME.md": {
+      "sha256": "01c05899d1f06180faad2d4bda1e6645a2dba6e97dd3fcfa08bb46de664d50a0",
+      "bytes": 15112
+    },
+    "04 - Planejamento/apoio-promessa/historico/antes-do-exemplo/REFERENCIAS.md": {
+      "sha256": "0a3683d9757aee3f4ca09ad64d90e786b68e5935a464cdcb697730ccc681e24b",
+      "bytes": 37377
+    },
+    "04 - Planejamento/apoio-promessa/historico/antes-do-exemplo/RETOMADA.md": {
+      "sha256": "45d88c4236eb670dabe37f4e8bb0da3527db8973c7ed4bd5380e1086bb6477f1",
+      "bytes": 42990
+    },
+    "04 - Planejamento/apoio-promessa/historico/antes-do-exemplo/manifesto-entrega.json": {
+      "sha256": "cbd8343616f58cb57466f427714aa3e2caddf1469b07e413937582f0d23badaf",
+      "bytes": 22063
+    },
+    "04 - Planejamento/apoio-promessa/verificacao.json": {
+      "sha256": "e0a6a32c65ade0d6cffaf01ce91fc84a00d7fc08c3efe410fa9c3c1e70565bd7",
+      "bytes": 1827
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/comparar_recursos.py": {
+      "sha256": "7831c53b7dac4d8fe704caf55f092cc7b3402809b69b7e339c25ac51dfecc4cb",
+      "bytes": 6525
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/historico/antes-da-comparacao/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "eb31eb2a0c0d2afba94d224ec31ae7bb9a50a52a857fcbc4cf7e7181ced66b52",
+      "bytes": 43332
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/historico/antes-da-comparacao/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "df539ae0575f556a595ba5b88a43e0c772be55d923f5af3747fc15d9102f1e8f",
+      "bytes": 44711
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/historico/antes-da-comparacao/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "bea39d24d1cfcfb0556a83090612dcadfeacf02c166878e579986a0bd34047c2",
+      "bytes": 53536
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/historico/antes-da-comparacao/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "52ae04d381486f7680645cdc418f553d67f3a64ea9667997e48112daf2e748ff",
+      "bytes": 12185
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/historico/antes-da-comparacao/04 - Planejamento/63-reservas-usos-e-ritmo-dos-inimigos.md": {
+      "sha256": "84030bc6bc77fc157224a3a94a0d7df776521b369715aebc7c0ede5d71090749",
+      "bytes": 11392
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/historico/antes-da-comparacao/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "7b260641d693352007f19d4a0f3b6210a94278f8a1417c8b1cff7c5a5ca4f127",
+      "bytes": 60166
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/historico/antes-da-comparacao/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "606b4e2a6348924cbcdeaf061de3899037afffd2186184074bc6b5bcb865e9a9",
+      "bytes": 25936
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/historico/antes-da-comparacao/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "173f133cfd65f903a67c16394c2d7265a7107e46a49bf875c5ca3c80e1a308bc",
+      "bytes": 12874
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/historico/antes-da-comparacao/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "320e0cc115d7257d6e11136ba91a25cbd1b2e9f1541112e1508bd4474bb3dcb4",
+      "bytes": 46572
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/resultados.json": {
+      "sha256": "d576d027a150caa3c41e1d56d7311932e38bda1794da203fcb986439c8d5c824",
+      "bytes": 14746
+    },
+    "04 - Planejamento/apoio-prototipos-inimigos/verificacao.json": {
+      "sha256": "239d40f6e901cafaa32b663e67bce61bcec07a95eb48c53c41a22bffc1d4f529",
+      "bytes": 2013
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/conferencia.json": {
+      "sha256": "d56f163c1b80d9bccd05daf5fb80be58b5194c545d1e0fbe62937c1ad98027b9",
+      "bytes": 3995
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "e326d4619e15cce0b45fc5a3f229d6c7ea84b4f6dbf193875d3813aa62f161c3",
+      "bytes": 33108
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "dda8421dc30ef7e24bf774642aac33d157dc09f56719df046c79c2e128d09c3a",
+      "bytes": 37657
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "df4fab1f66db9e22eef2baeb935b6b50773e47929e818c3f69ca83cb6bc18ebf",
+      "bytes": 25245
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "fa7cadfa79a9bcd74d4a300d7fd067987a373e2188a8853d79ff686265b37643",
+      "bytes": 11700
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/04 - Planejamento/35-propostas-de-tempo-e-materiais-de-entidades.md": {
+      "sha256": "6ee9756d5ca6341a5c28e79854764a2978a20e13ee97e08d9ae539483c477ce6",
+      "bytes": 16872
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/04 - Planejamento/37-reavaliacao-da-falha-e-complexidade-dos-projetos.md": {
+      "sha256": "7d82e7d2d3ae182aa11d6680356dad0ccfd3f45c975fe904e676908d82f2e8e5",
+      "bytes": 11782
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "e2b9b77d9397ec52ba57366a187c352da6daed50322f82eb2689e7cc94613f39",
+      "bytes": 17170
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "aa8cf5429bfa45eab980ad9facb934d63ab18b0fee6be61224b405c7069fd197",
+      "bytes": 16094
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md": {
+      "sha256": "3501ea56769d682c52fa11a1260823179aa3212a51428dd86445a8eface1d535",
+      "bytes": 16320
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md": {
+      "sha256": "6ac277d4d0f79f1c6242a9886b247bc48657c89ac7e08d4dca71c3f71189116f",
+      "bytes": 10036
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "d5b6dc49a9a022b9221938de16eabb1989000f316b8745c94d94ba142afc4af1",
+      "bytes": 9723
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-da-proposta/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "f0dbcea8e49a22335d0af705ec2b20b0f04cd1906e6144e2fe8a8820bfc99e48",
+      "bytes": 21598
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-das-respostas/38-reconstrucao-transferencia-e-heranca.md": {
+      "sha256": "8fbf4678c20de4fab174e5235e19234a6847e540564160ece0002f72c46070be",
+      "bytes": 11539
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/historico/antes-das-respostas/conferencia.json": {
+      "sha256": "667b683c33631302fb15c877ac0bcd744fb96600cf0ea800ba0962ca36cda4d8",
+      "bytes": 2698
+    },
+    "04 - Planejamento/apoio-reconstrucao-transferencia/verificacao.json": {
+      "sha256": "64f4550dd69bc12579491444f9c671c7bc20815d37254bb5489ee0134ee597b7",
+      "bytes": 2118
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "7a87d5dfa18ce636f0de6ee04f13a279fa43b001d84fec6c94e8483027ef37df",
+      "bytes": 40786
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "f37766aedd495ad75d60177215e653613f51d89150520249a399c825c08b3807",
+      "bytes": 46474
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/04 - Planejamento/03-matriz-dos-130-pontos.md": {
+      "sha256": "93a7f6161cc476f7882525bb59c90e983901e88628584677649d7eb20949f505",
+      "bytes": 23404
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "a80620ec8cafd183cc18787169445683304bf039fc82676caca0e8a2c8d98864",
+      "bytes": 12132
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/04 - Planejamento/34-c09-pactos-promessas-e-entidades.md": {
+      "sha256": "82b30c49bab2071ca20e2e4a7c9d276a550d44139cba7bc19b9efe12eb13ab30",
+      "bytes": 12568
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "2107724e5460b015d65aba32472e6f8d6515097e7ebf575085472227e4cc219f",
+      "bytes": 54055
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "ee2ae430b0fb0d2c6c4bd12e2807883dd523d6dab75a7faeb729342c6d0c156f",
+      "bytes": 23983
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/06 - Redacao do Guia/41-pactos-e-promessas.md": {
+      "sha256": "dffb2b15e851742f869d30e3d01b7f2fc0225044e5b1291556ca2fda9d3a6a68",
+      "bytes": 11320
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md": {
+      "sha256": "5fcab5ad14edd98cf3cfcc6460a57e5754c7bc99e740cc216764eb1932af4bdb",
+      "bytes": 3981
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md": {
+      "sha256": "7087643eb8be47ab7a486b66eb66e2ded99b3f76e9c8a68d16cbef1c3d1d387f",
+      "bytes": 6012
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md": {
+      "sha256": "3523f6f6d8b74e62ea0d479928974ddea4053f7b88fa731c3c941b668cd01dd5",
+      "bytes": 10170
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md": {
+      "sha256": "c5d20eb03037e8c71c2dfa6d0a624abd0ea2fef146b106b51eb27eb358442bea",
+      "bytes": 11258
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "524177b557e4d08bb95fbd996d5f0246b2a56b441b0dd81a609b9698742053e3",
+      "bytes": 17301
+    },
+    "04 - Planejamento/apoio-revisao-c09/historico/antes-da-revisao/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "c2007256cb726993e5e85258e3ff3289864fcdb8263e99272c6ab9cd86a78d23",
+      "bytes": 42952
+    },
+    "04 - Planejamento/apoio-revisao-c09/verificacao.json": {
+      "sha256": "3a83cff7a51f396087ff225c5badb339b9f738988d5375899174113218b34718",
+      "bytes": 10317
+    },
+    "04 - Planejamento/apoio-ritmo-inimigos/historico/antes-da-reavaliacao/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "cf9f2ecb115334e288a6277d9e7c19c83ecb1df11bcca7150ef2bd207565276d",
+      "bytes": 43051
+    },
+    "04 - Planejamento/apoio-ritmo-inimigos/historico/antes-da-reavaliacao/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "2f4616103cc001e9318bc81446413e23320914b6e6e962dd0369a89c8220def4",
+      "bytes": 44610
+    },
+    "04 - Planejamento/apoio-ritmo-inimigos/historico/antes-da-reavaliacao/04 - Planejamento/06-registro-das-decisoes.md": {
+      "sha256": "052de3f0e2595d841337201431c28665e1b6e0d67e1c127c0d6b2fbf30c63051",
+      "bytes": 52762
+    },
+    "04 - Planejamento/apoio-ritmo-inimigos/historico/antes-da-reavaliacao/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "b896b7572018b4388c2d76ff909e51d054a3ea9014faebcca914cd684258f954",
+      "bytes": 12211
+    },
+    "04 - Planejamento/apoio-ritmo-inimigos/historico/antes-da-reavaliacao/04 - Planejamento/62-energia-e-limites-dos-inimigos.md": {
+      "sha256": "c43fddef19a5428c18ef03833c4f92f1b51d196f012eaeda4df1a41549da3953",
+      "bytes": 8838
+    },
+    "04 - Planejamento/apoio-ritmo-inimigos/historico/antes-da-reavaliacao/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "8de423a501010148e9c47ffe8dacbe7e7fdbf575c403257e548b79957fc4828b",
+      "bytes": 59539
+    },
+    "04 - Planejamento/apoio-ritmo-inimigos/historico/antes-da-reavaliacao/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "5ef96f27d8c6539c3e2ad97a3fc9f6483def7b4aa892ba7eba46df66b9871ef5",
+      "bytes": 25675
+    },
+    "04 - Planejamento/apoio-ritmo-inimigos/historico/antes-da-reavaliacao/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "e167d9a99609ad917dbb916b37ccf801ee45a19f5d54bbdbefb5d87de811d5fc",
+      "bytes": 12765
+    },
+    "04 - Planejamento/apoio-ritmo-inimigos/historico/antes-da-reavaliacao/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "383a34c4b292288f1628ae53be1f1a79b0f0cfde317dbfcbb843620b1ab4872d",
+      "bytes": 46020
+    },
+    "04 - Planejamento/apoio-ritmo-inimigos/verificacao.json": {
+      "sha256": "05c40bca71410e1f55a92b3282d0aa59ed9020f857698f87fb53ec86e9791a7f",
+      "bytes": 1078
+    },
+    "04 - Planejamento/apoio-ritual-aquisicao/historico/antes-do-exemplo/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "bf540e518d98c33b9f5ea66a83c5007b4a6c341a6057c12e36288ec3283ad72a",
+      "bytes": 38725
+    },
+    "04 - Planejamento/apoio-ritual-aquisicao/historico/antes-do-exemplo/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "124b40d65710499447e5a6673cfd90a5c647927f08f3f70d4a3b469cee449e36",
+      "bytes": 44413
+    },
+    "04 - Planejamento/apoio-ritual-aquisicao/historico/antes-do-exemplo/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "28f8646af0237a450d8a00d1ad05138bdaf811d1ed154b57b68dd59a918c6ca7",
+      "bytes": 12061
+    },
+    "04 - Planejamento/apoio-ritual-aquisicao/historico/antes-do-exemplo/04 - Planejamento/34-c09-pactos-promessas-e-entidades.md": {
+      "sha256": "aba9131236c34d106e700808a72ccd8837c78346c8a5625d1b3c05362c66e4b6",
+      "bytes": 8946
+    },
+    "04 - Planejamento/apoio-ritual-aquisicao/historico/antes-do-exemplo/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "8a2f7538266ff08ab0e8e9a58b7b14dcf31bd0a4c903626c763876a4def561f6",
+      "bytes": 45667
+    },
+    "04 - Planejamento/apoio-ritual-aquisicao/historico/antes-do-exemplo/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "d23a6df9b634c368beab7013421cc1a49e0d38061a6b17b881e27e89976fd4c7",
+      "bytes": 22439
+    },
+    "04 - Planejamento/apoio-ritual-aquisicao/historico/antes-do-exemplo/06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md": {
+      "sha256": "2d29e9a1d5fca0333d1c5a1a789929b8a29791c26016eb07d6ce59c65023ae5a",
+      "bytes": 16475
+    },
+    "04 - Planejamento/apoio-ritual-aquisicao/historico/antes-do-exemplo/06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md": {
+      "sha256": "683f9bb36c4935fff6d2ebabf60d3d61656638afcb6e128603adb4d190005dc7",
+      "bytes": 4414
+    },
+    "04 - Planejamento/apoio-ritual-aquisicao/historico/antes-do-exemplo/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "c6768e60dda39e60f011d49c6d0be2e58e68c4c9c39d3cd2a78d0b1fa2050e4d",
+      "bytes": 15649
+    },
+    "04 - Planejamento/apoio-ritual-aquisicao/historico/antes-do-exemplo/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "ccc23ab5b0dab7fd2b90387d652cf0a43667ae32ca85f50cdca1a80933db6b55",
+      "bytes": 38436
+    },
+    "04 - Planejamento/apoio-ritual-aquisicao/verificacao.json": {
+      "sha256": "87a0f7a681b71a1e6e493e2fb788c9d10e75cbaa35c949c60d5dc5b15c5e9b3c",
+      "bytes": 2454
+    },
+    "04 - Planejamento/apoio-transporte/historico/antes-do-exemplo/04 - Planejamento/01-plano-completo-do-guia.md": {
+      "sha256": "4627c0a4f391e388084d110b824159a10b4ecd07dd30c8b2b33361bbe29cf8ff",
+      "bytes": 40209
+    },
+    "04 - Planejamento/apoio-transporte/historico/antes-do-exemplo/04 - Planejamento/02-decisoes-para-conversar.md": {
+      "sha256": "a47949e220be5bd09ab72a40f7df511d8f46acceb0aa2c8749f7f88925a26fc0",
+      "bytes": 45897
+    },
+    "04 - Planejamento/apoio-transporte/historico/antes-do-exemplo/04 - Planejamento/19-roteiro-pre-1-e-modelos.md": {
+      "sha256": "ae85647f19f513cbea713979f5dccee4a923206a2b6172827fdd903b771a6f63",
+      "bytes": 12052
+    },
+    "04 - Planejamento/apoio-transporte/historico/antes-do-exemplo/04 - Planejamento/34-c09-pactos-promessas-e-entidades.md": {
+      "sha256": "0493a54646d6c05b80813f38120a18360ba4a8858a4d3ba6b5090a4b92d121c1",
+      "bytes": 11493
+    },
+    "04 - Planejamento/apoio-transporte/historico/antes-do-exemplo/04 - Planejamento/apoio-piloto/RETOMADA.md": {
+      "sha256": "9fc60fa610e4568d66e6dceb8184b47575a8f62a913ed761fe637ccf30be91c1",
+      "bytes": 51552
+    },
+    "04 - Planejamento/apoio-transporte/historico/antes-do-exemplo/04 - Planejamento/apoio-piloto/manifesto-entrega.json": {
+      "sha256": "4909e813aacdbee7b9f140e17535fed6845dcf2b57d055d7470dfe22c90b2f4e",
+      "bytes": 23583
+    },
+    "04 - Planejamento/apoio-transporte/historico/antes-do-exemplo/06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md": {
+      "sha256": "32c37084bfb87472e4a8e0c1669f846d3189bd68d72a761fceea7e4c73d3798c",
+      "bytes": 17245
+    },
+    "04 - Planejamento/apoio-transporte/historico/antes-do-exemplo/06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md": {
+      "sha256": "7f293b7999fc5981fae99785564e86db0da61be15f1198fc785c7e7940499a78",
+      "bytes": 5563
+    },
+    "04 - Planejamento/apoio-transporte/historico/antes-do-exemplo/06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "f7719da1f12aabccc9bf550914dee77e88a5cb4745a5ec26efea62b264384f28",
+      "bytes": 16822
+    },
+    "04 - Planejamento/apoio-transporte/historico/antes-do-exemplo/06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "385c905123e47e44e6ac2a4ae737ac24a9da0516d1fc8c77b67b17ccc657f658",
+      "bytes": 41884
+    },
+    "04 - Planejamento/apoio-transporte/verificacao.json": {
+      "sha256": "4a048a5c335d65888d10b07432815964a212c46949ffb61aed1f4a95258ea9fe",
+      "bytes": 4733
+    },
+    "06 - Redacao do Guia/01-preparar-uma-missao.md": {
+      "sha256": "c9aa88b0b4c7ce78d23e00b7619650f2fa8fe728b55d50636586a861f200dc30",
+      "bytes": 15870
+    },
+    "06 - Redacao do Guia/02-ficha-de-preparacao.md": {
+      "sha256": "ce81bffc0f325b28ff82fb00b6e8aeffab73ebb541700c563b8ba52ffdb82891",
+      "bytes": 4059
+    },
+    "06 - Redacao do Guia/03-as-batidas-no-anexo-consulta.md": {
+      "sha256": "447d47a89ae441c1b9b71aa43aa4dd3adde55afd0ba3e8b0f191308633dc343a",
+      "bytes": 9125
+    },
+    "06 - Redacao do Guia/04-conduzir-uma-sessao.md": {
+      "sha256": "3dc5e9f83beef603a450739e77195eaaa06f1ce56522cd6d2abd426764d86a25",
+      "bytes": 16773
+    },
+    "06 - Redacao do Guia/05-folha-de-conducao.md": {
+      "sha256": "bea925a22bd4d66d94dab2e766e8f36574e00d46513bfc032e8a7e8e9ce94a3a",
+      "bytes": 4272
+    },
+    "06 - Redacao do Guia/06-mundo-e-cotidiano.md": {
+      "sha256": "39fb97ad522ffe4fcd71d0d9e09b8958788ad00c21ae6e368f1bf0513e5ceffb",
+      "bytes": 13679
+    },
+    "06 - Redacao do Guia/07-preparar-o-grupo.md": {
+      "sha256": "f3cf3f27278e5b7861289f0fa134d908ff5f4c6b5d11a66b3abff9180a05fbdc",
+      "bytes": 11209
+    },
+    "06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md": {
+      "sha256": "213bf16d5f91b487cf3d8cac390d5473b25f300e841194e8fdcc94cc3348c0a7",
+      "bytes": 2689
+    },
+    "06 - Redacao do Guia/09-exemplo-de-acordos-do-grupo.md": {
+      "sha256": "4df23c8d6405951634803d899e5d3afba27e8f6e0a776183681e8fc7a2f5d537",
+      "bytes": 4720
+    },
+    "06 - Redacao do Guia/10-investigacao-em-andamento.md": {
+      "sha256": "0c19bd5137488a853b8e3f9fb0dab1ce5083d9fd46e8ce6d03d0ebc5fced6b81",
+      "bytes": 11742
+    },
+    "06 - Redacao do Guia/11-espaco-e-usos-criativos.md": {
+      "sha256": "d8cb460bf72eb0051a340a7adf437ce42ff4ee54027a9d9c3809f3493a51ba74",
+      "bytes": 11697
+    },
+    "06 - Redacao do Guia/12-registro-de-descobertas.md": {
+      "sha256": "0bcc48bd8ff8a65fec1d26ef4a22761d0782783f9b9dc713fcaa4103b1c53324",
+      "bytes": 2859
+    },
+    "06 - Redacao do Guia/13-preparar-uma-investigacao.md": {
+      "sha256": "086c4b8aa4edcfdbc6cfc7cb00a299fb220321ec741bfb3aa61ae1d11157d3e7",
+      "bytes": 9322
+    },
+    "06 - Redacao do Guia/14-o-aviso-de-reabertura.md": {
+      "sha256": "f80817cf25d68d3f42c403a06bad94c186716cca6ae58b998c4cb8b0cfb39084",
+      "bytes": 12214
+    },
+    "06 - Redacao do Guia/15-ligar-missoes-e-campanhas.md": {
+      "sha256": "9aac7e6da0a6cd7a3f5bf050ea85670aaf3c5487c2e022908e1b659a8060f0a9",
+      "bytes": 10641
+    },
+    "06 - Redacao do Guia/16-linha-de-continuidade.md": {
+      "sha256": "a8b92bfa443df18d9351452a3d82458c87a8adb42df961de8ddcbfacfea355a0",
+      "bytes": 2815
+    },
+    "06 - Redacao do Guia/17-faccoes-e-reacoes.md": {
+      "sha256": "340ceb5d07bdadbf69e6b9e00277123f1ad8aee35f9fd92bbdd128f23b7ad4a3",
+      "bytes": 9387
+    },
+    "06 - Redacao do Guia/18-preparar-antagonistas.md": {
+      "sha256": "59406d606fdd956a8b5e9b38e3adc10a2a5d2f6aec31fd46625d3473a42998ec",
+      "bytes": 9364
+    },
+    "06 - Redacao do Guia/19-encerrar-arcos-e-campanhas.md": {
+      "sha256": "c6f6f381f36754e49bb8e1a0e1fc5840c2e06b9754c17e0f98307ca8cfcd4a04",
+      "bytes": 7961
+    },
+    "06 - Redacao do Guia/20-ficha-de-faccao.md": {
+      "sha256": "4e1152c04ca2d0d83da1cb903018aabe7280a018618faf98282dd38d5588f78e",
+      "bytes": 2793
+    },
+    "06 - Redacao do Guia/21-acompanhar-recursos.md": {
+      "sha256": "a3dd51e95da079ee48048ec9d943de9b91a3d17a1bfb1faaac119d4f015ba188",
+      "bytes": 8220
+    },
+    "06 - Redacao do Guia/22-quedas-e-socorro.md": {
+      "sha256": "8ac1f4fb3636cd845019f246c6730c261f0d274d3a4d9502b66beb2465de22c1",
+      "bytes": 12912
+    },
+    "06 - Redacao do Guia/23-retirada-e-recuperacao.md": {
+      "sha256": "2b1cd8ef08e1ee656bb7fc8a11906c5c0b450dd89e12a93e93a2a8a5794c3296",
+      "bytes": 15265
+    },
+    "06 - Redacao do Guia/24-registro-de-estado-e-socorro.md": {
+      "sha256": "cb92a609ca294994660fd86ebb6a38182aefc307be90ed7b701bb1f4a559e6ee",
+      "bytes": 2756
+    },
+    "06 - Redacao do Guia/25-conferir-personagens.md": {
+      "sha256": "05de4037c0695ebd0d1f3095ec6c1d8c02c34b1b0f486321c3d493d66738c09a",
+      "bytes": 8278
+    },
+    "06 - Redacao do Guia/26-vinculos-e-mudancas.md": {
+      "sha256": "0726c69d2805872056a76ad20a1229036f19c250ad3deb0149d5775ff7b9660b",
+      "bytes": 10031
+    },
+    "06 - Redacao do Guia/27-convivencia-do-receptaculo.md": {
+      "sha256": "794702890b47054d50fedc3e7f48a8f815b0f136d8eceb76ef3dcd62b14dd02a",
+      "bytes": 11423
+    },
+    "06 - Redacao do Guia/28-ficha-de-convivencia.md": {
+      "sha256": "e2bda20a8b8f6ba13abf97f9358787f23660aa0b6a4fe23b12e2db7c7b8d783e",
+      "bytes": 3014
+    },
+    "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md": {
+      "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297",
+      "bytes": 11653
+    },
+    "06 - Redacao do Guia/30-pareceres-de-criacoes.md": {
+      "sha256": "ed072efc695cb2e61dd6ffe5901247727f14467d47d7a58adc19b59add3a0491",
+      "bytes": 11178
+    },
+    "06 - Redacao do Guia/31-avaliar-poderes-avancados.md": {
+      "sha256": "816a2854cedb2123d67ac3376c6f72338486c931d5b7a678f8670bd458e64612",
+      "bytes": 13364
+    },
+    "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md": {
+      "sha256": "e407884e080f493edf2b19a46cd4e4aaa5a7107ff12e882e5e80f3e3cb613f7e",
+      "bytes": 3084
+    },
+    "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md": {
+      "sha256": "8f557e4e67f15da1b922500b0d29e82bd6d33e43cdf8ce678471a21076f3bba9",
+      "bytes": 9838
+    },
+    "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md": {
+      "sha256": "fd3d519ccd29fe96495ad642c28e121b29122f3517650f29ffdecad74fea7839",
+      "bytes": 10350
+    },
+    "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md": {
+      "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d",
+      "bytes": 7620
+    },
+    "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md": {
+      "sha256": "56c577de788f0f1a101f5fc80e05d474720fed92cdf18f466408df1c017490b7",
+      "bytes": 8817
+    },
+    "06 - Redacao do Guia/37-recompensas-e-fechamento.md": {
+      "sha256": "80093db38c97369bd78e0a25d79452f2e592b212d40bbb517609dcea6d593ce7",
+      "bytes": 9187
+    },
+    "06 - Redacao do Guia/38-ficha-de-projeto-e-entrega.md": {
+      "sha256": "250ad3db60484ff535c7499045b1ae6747caa63bfe84f80f866c5e687a4cbc6f",
+      "bytes": 2951
+    },
+    "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md": {
+      "sha256": "d48fc9528891a7b619a0439d979f6232974e60923c3618adf207be11ee0bdc2a",
+      "bytes": 11983
+    },
+    "06 - Redacao do Guia/40-registro-de-dedicacao-por-ficha.md": {
+      "sha256": "499088ba18ddb5db7720ac51e31b850dd5bc44a314478e54f7c49c1a5c69bc3c",
+      "bytes": 4488
+    },
+    "06 - Redacao do Guia/41-pactos-e-promessas.md": {
+      "sha256": "af6672acfd24a858e0c98baf262b98e074595d3c2166043f853639b874f817b9",
+      "bytes": 13813
+    },
+    "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md": {
+      "sha256": "b50eee68582e44729b2fbf4da26efc8538797f4d25c0b06379798dd5466fd14c",
+      "bytes": 4240
+    },
+    "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md": {
+      "sha256": "9831619cf2195a2674b7b280ad53e30797d06eff1218cd422bdb580996b0db9c",
+      "bytes": 17582
+    },
+    "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md": {
+      "sha256": "d721d8a98e3febf660d2b214926c79100b7614407ef1cd7ff9fbfb39251fd92e",
+      "bytes": 6550
+    },
+    "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md": {
+      "sha256": "c8c58ae001cca1d4d6ba82255ecd6351c9406dedcc9c5e959fbcdd76bf17c440",
+      "bytes": 10414
+    },
+    "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md": {
+      "sha256": "69eaeef3dbdd6128c233357645b2b3c0d3d4f4fa643ef95adb2978c0cead3f78",
+      "bytes": 11654
+    },
+    "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md": {
+      "sha256": "2985506a85e06adca590f5b5ceb44b695d8405d79ae2f949d6c0bc42916a8156",
+      "bytes": 11858
+    },
+    "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md": {
+      "sha256": "0201d2eeb50047d709ddd3cb5dd43f16b93966396d339c76a26e80004af1e2e6",
+      "bytes": 18401
+    },
+    "06 - Redacao do Guia/49-liberacao-irregular-minuta.md": {
+      "sha256": "530622c225e9a56a57015b927acae5a606395c2eacfda0230a1da36d1d887cca",
+      "bytes": 14926
+    },
+    "06 - Redacao do Guia/50-promessa-do-arquivo.md": {
+      "sha256": "b9a0cc79f645ec69230ba2a2a42efaa3dea032db9cb0241f4cf21922d8b3c4d9",
+      "bytes": 19368
+    },
+    "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md": {
+      "sha256": "3ee7ffa4fc1b0708c8b3721f7d34665ad1650621f800e615d5e8e393f615a211",
+      "bytes": 18565
+    },
+    "06 - Redacao do Guia/52-domar-o-amontoado.md": {
+      "sha256": "0cdae4082e05705a5943deeb6ad2712d19a9a46f0743098fb4e425032ff0f68e",
+      "bytes": 18544
+    },
+    "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md": {
+      "sha256": "5d81d8284a09acb9a62f48dc30d4c09f8b0d6ee81135efa83c87e620de1bb30b",
+      "bytes": 18229
+    },
+    "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md": {
+      "sha256": "76293094b529acfede3da88de8d0282f80dd4d14466f88ca17583073742e9dc1",
+      "bytes": 19996
+    },
+    "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md": {
+      "sha256": "d401669e0448158992efa33434c2c7a23f7585e0bd7ee4788c63885cf22bff86",
+      "bytes": 14926
+    },
+    "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md": {
+      "sha256": "b5be605bab4d98c6edf81e21748408914a2d8edf399d79dab6f2b11313813514",
+      "bytes": 14211
+    },
+    "06 - Redacao do Guia/57-avaliar-o-encontro-do-amontoado.md": {
+      "sha256": "72e7f78489f44a92b5f30a037b0ec5baf0c0a4b093aa3452703842a303583a24",
+      "bytes": 9898
+    },
+    "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md": {
+      "sha256": "ab67202a447dce75a4ed909b32457049b3cad505ba84936b8aa6af8f8ae91705",
+      "bytes": 4853
+    },
+    "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md": {
+      "sha256": "19259a8c519ae1e5299b9cead02e6a36495baf5147dc6074f53fbef02c136a46",
+      "bytes": 9294
+    },
+    "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md": {
+      "sha256": "37bfca2cb4168bce5b04e844ca40d7f73166fabc6cadea3af528daaa9f26846f",
+      "bytes": 12329
+    },
+    "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md": {
+      "sha256": "98427feeaccf04ce23a758f10e357ed384790b2460c392258a2c68511caffde4",
+      "bytes": 4432
+    },
+    "06 - Redacao do Guia/LEIA-ME.md": {
+      "sha256": "47e67513ff7e04b67f2836cf6992c06e441ec368f7ef3f5e9ff212ee14ed16f1",
+      "bytes": 13316
+    },
+    "06 - Redacao do Guia/REFERENCIAS.md": {
+      "sha256": "8efe081ed049fd262ce9688eeea464e334d550da78ec9ed3da6633a54738ed6e",
+      "bytes": 50043
+    }
+  },
+  "omitidos": [
+    {
+      "caminho": "04 - Planejamento/apoio-c02/fontes/fate-long-game-posicoes-260-a-262.txt",
+      "motivo": "extração de fonte externa; preservada somente no acervo local"
+    },
+    {
+      "caminho": "04 - Planejamento/apoio-c03/fontes/three-clue-rule.txt",
+      "motivo": "extração de fonte externa; preservada somente no acervo local"
+    },
+    {
+      "caminho": "04 - Planejamento/apoio-conducao/fontes/pacing-posicoes-2-a-5.txt",
+      "motivo": "extração de fonte externa; preservada somente no acervo local"
+    },
+    {
+      "caminho": "04 - Planejamento/apoio-faccoes/fontes/ending-campaigns.txt",
+      "motivo": "extração de fonte externa; preservada somente no acervo local"
+    },
+    {
+      "caminho": "04 - Planejamento/apoio-faccoes/fontes/villainy.txt",
+      "motivo": "extração de fonte externa; preservada somente no acervo local"
+    },
+    {
+      "caminho": "04 - Planejamento/apoio-faccoes/fontes/worlds-without-number.txt",
+      "motivo": "extração de fonte externa; preservada somente no acervo local"
+    },
+    {
+      "caminho": "04 - Planejamento/apoio-piloto/__pycache__/validar_base.cpython-312.pyc",
+      "motivo": "cache local de execução"
+    },
+    {
+      "caminho": "04 - Planejamento/apoio-preparacao/fontes/cairn.txt",
+      "motivo": "extração de fonte externa; preservada somente no acervo local"
+    },
+    {
+      "caminho": "04 - Planejamento/apoio-preparacao/fontes/fate.txt",
+      "motivo": "extração de fonte externa; preservada somente no acervo local"
+    },
+    {
+      "caminho": "04 - Planejamento/apoio-preparacao/fontes/lazy-gm.txt",
+      "motivo": "extração de fonte externa; preservada somente no acervo local"
+    }
+  ],
+  "fontes_do_manifesto_nao_publicadas": [],
+  "originais_modificados": false,
+  "escopo": "Salvamento documental; não aprova regras experimentais ou publica o acervo bibliográfico."
+}

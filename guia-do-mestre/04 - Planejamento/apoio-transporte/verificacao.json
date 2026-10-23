@@ -1,0 +1,194 @@
+{
+  "data": "2026-10-22",
+  "entrega": "M116–M118 — transporte e continuidade",
+  "base_manifesto": 182,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/34-c09-pactos-promessas-e-entidades.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+    "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md"
+  ],
+  "novos": [
+    "04 - Planejamento/57-transporte-passageiros-e-continuidade.md",
+    "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+    "04 - Planejamento/apoio-transporte/verificacao.json"
+  ],
+  "links_locais_conferidos": 329,
+  "ancoras_R53_conferidas": 16,
+  "contas": [
+    {
+      "campo": "soma dos atributos",
+      "resultado": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "campo": "vida",
+      "resultado": 14,
+      "esperado": 14,
+      "ok": true
+    },
+    {
+      "campo": "Integridade",
+      "resultado": 7,
+      "esperado": 7,
+      "ok": true
+    },
+    {
+      "campo": "Defesa",
+      "resultado": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "campo": "parcela de Bloquear",
+      "resultado": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "campo": "ataque e Físico treinado",
+      "resultado": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "campo": "CD",
+      "resultado": 12,
+      "esperado": 12,
+      "ok": true
+    },
+    {
+      "campo": "quantidade de perícias",
+      "resultado": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "campo": "Atletismo",
+      "resultado": 4,
+      "esperado": 4,
+      "ok": true
+    },
+    {
+      "campo": "Percepção",
+      "resultado": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "campo": "Sobrevivência",
+      "resultado": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "campo": "Intuição",
+      "resultado": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "campo": "vaga de especial",
+      "resultado": 1,
+      "esperado": 1,
+      "ok": true
+    },
+    {
+      "campo": "capacidade normal",
+      "resultado": 8,
+      "esperado": 8,
+      "ok": true
+    },
+    {
+      "campo": "corpo de Iori",
+      "resultado": 6.0,
+      "esperado": 6,
+      "ok": true
+    },
+    {
+      "campo": "carga total",
+      "resultado": 8.0,
+      "esperado": 8,
+      "ok": true
+    },
+    {
+      "campo": "objeto extra excede",
+      "resultado": true,
+      "esperado": true,
+      "ok": true
+    },
+    {
+      "campo": "outro corpo e inventário",
+      "resultado": 9.0,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "campo": "embarque",
+      "resultado": 4.5,
+      "esperado": 4.5,
+      "ok": true
+    },
+    {
+      "campo": "retirada com Desengajar",
+      "resultado": 9,
+      "esperado": 9,
+      "ok": true
+    },
+    {
+      "campo": "Correr",
+      "resultado": 18,
+      "esperado": 18,
+      "ok": true
+    },
+    {
+      "campo": "dados de queda 6 m",
+      "resultado": 2,
+      "esperado": 2,
+      "ok": true
+    },
+    {
+      "campo": "dados de queda 1,5 m",
+      "resultado": 0,
+      "esperado": 0,
+      "ok": true
+    },
+    {
+      "campo": "entrada nível 2",
+      "resultado": 1,
+      "esperado": 1,
+      "ok": true
+    }
+  ],
+  "fontes": {
+    "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/LIVRO-COMPLETO.md": {
+      "sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+      "preservado": true
+    },
+    "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r53/output/pdf/Ciclo-Maldito-R53.pdf": {
+      "sha256": "a69455a9ca0451983c524362f2765d5753ddfb56b1b52a161d8a444dda4eeece",
+      "preservado": true
+    }
+  },
+  "registro_de_decisoes_e_base_piloto": "Preservados: nenhuma alteração fora dos nove arquivos previstos no manifesto.",
+  "revisao_editorial": [
+    "Talento e sua CE1 identificados como proposta editorial.",
+    "Quantidade de passageiros e acomodação não são permissões universais.",
+    "Recolhimento, inconsciência e morte confirmada separados.",
+    "Orientação de conservação da ficha libertada distinta da regra textual da R53.",
+    "Cobertura de C09 permanece sujeita à revisão integrada."
+  ],
+  "limites": [
+    "Sem sessão humana ou simulação de combate.",
+    "Conferência documental e aritmética não valida equilíbrio."
+  ],
+  "proxima_tarefa": "Revisão integrada de C09 — GPT-6 Astra, esforço extra alto.",
+  "erros": [],
+  "ok": true
+}

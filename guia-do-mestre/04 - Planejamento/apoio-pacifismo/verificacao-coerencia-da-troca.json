@@ -1,0 +1,29 @@
+{
+  "data": "2026-10-22",
+  "manifesto_anterior": 145,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+    "06 - Redacao do Guia/48-pacifismo-impraticavel-minuta.md",
+    "04 - Planejamento/44-comparacao-de-beneficios-do-pacifismo.md"
+  ],
+  "novo": "04 - Planejamento/apoio-pacifismo/verificacao-coerencia-da-troca.json",
+  "links_locais": 641,
+  "ausentes": [],
+  "r53_preservada": true,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "decidido": "Ganho particular da capacidade, fixo por ficha, com exemplo completo; sem acúmulo ou troca por missão.",
+  "criterio_autoral": "Preço, penalidade e benefício precisam fazer sentido diretamente entre si.",
+  "nao_aprovados": [
+    "Resguardo de Cortina",
+    "Amortecer um aliado"
+  ],
+  "estado": "Benefício aberto; formular lógica da troca antes de outro candidato.",
+  "limites": "Revisão documental e de atribuição das respostas. Sem teste humano, simulação ou mudança da fonte."
+}

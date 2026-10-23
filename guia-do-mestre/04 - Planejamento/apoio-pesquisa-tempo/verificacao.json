@@ -1,0 +1,25 @@
+{
+  "data": "2026-10-21",
+  "etapa": "Pesquisa comparada antes da escolha da unidade",
+  "arquivos_anteriores_conferidos": 100,
+  "arquivos_anteriores_alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/08-primeira-conversa-sobre-tempo-de-trabalho.md",
+    "04 - Planejamento/09-atividades-fora-de-missao-e-treinamentos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/28-proposta-unidade-de-dedicacao.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md"
+  ],
+  "links_locais_conferidos": 448,
+  "links_locais_quebrados": [],
+  "fonte_r53_preservada": true,
+  "manuscrito_preservado": true,
+  "demais_arquivos_do_manifesto_preservados": true,
+  "regra_nova_adotada": false,
+  "unidade_decidida": false,
+  "validacao_humana": false,
+  "teste_de_mesa": false,
+  "limite": "Pesquisa documental e revisão de compatibilidade; não mede usabilidade nem equilíbrio da disponibilidade futura."
+}

@@ -1,0 +1,42 @@
+{
+  "quantidade": 9,
+  "casos": [
+    {
+      "caso": "atributos",
+      "resultado": 9
+    },
+    {
+      "caso": "crescimento_maximo",
+      "resultado": 8
+    },
+    {
+      "caso": "saldo_subida",
+      "resultado": 33
+    },
+    {
+      "caso": "dano_conservado",
+      "resultado": 15
+    },
+    {
+      "caso": "amparo_custo",
+      "resultado": 2
+    },
+    {
+      "caso": "reserva_nivel",
+      "resultado": 3
+    },
+    {
+      "caso": "reserva_atributo",
+      "resultado": 2
+    },
+    {
+      "caso": "reserva_ganho",
+      "resultado": 5
+    },
+    {
+      "caso": "reserva_teto",
+      "resultado": 35
+    }
+  ],
+  "alcance": "aritmetica dos exemplos parciais, sem simulacao ou teste de mesa"
+}
