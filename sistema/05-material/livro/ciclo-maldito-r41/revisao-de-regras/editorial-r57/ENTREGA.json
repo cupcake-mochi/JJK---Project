@@ -18,5 +18,36 @@
       "sha256": "40a405e0ac954b68cc31fe20192f36c94c52103613a58eec3c39f9919a3ce4bc"
     }
   ],
-  "publicado": false
+  "publicado": true,
+  "publicacao": {
+    "estado": "publicada e verificada",
+    "revisao": "R57",
+    "paginas": 415,
+    "repositorio_pdf": "https://github.com/cupcake-mochi/JJK---PDF---RPG",
+    "commit_pdf": "d6f462cc598e8783d7cb8fd6b8a32164985f0775",
+    "repositorio_sistema": "https://github.com/cupcake-mochi/JJK---Project",
+    "commit_integracao": "a063c0121b90381e9aa087b4f73835bb2d67f748",
+    "branch": "main",
+    "implantacao": "https://vercel.com/mizuki-steam/ciclo-maldito/97wuJRB5pVyNjn3tn2UHf2C3FdEj",
+    "status_vercel": "Ready, Production",
+    "verificado_em": "2026-10-25T19:53:04.406621+00:00",
+    "claro": {
+      "url": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras.pdf",
+      "url_final": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras.pdf",
+      "status": 200,
+      "tipo": "application/pdf",
+      "sha256": "40a405e0ac954b68cc31fe20192f36c94c52103613a58eec3c39f9919a3ce4bc",
+      "bytes": 61889533
+    },
+    "noturno": {
+      "url": "https://ciclo-maldito.vercel.app/noturno",
+      "url_final": "https://ciclo-maldito.vercel.app/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf",
+      "status": 200,
+      "tipo": "application/pdf",
+      "sha256": "347be0ecc616088b27d468ff9bb5e570ac691ed9e888abd6f1a1d4d0dd4a56c8",
+      "bytes": 62952660
+    },
+    "verificacao": "Download integral dos dois PDFs publicados e comparação SHA-256 com os arquivos aprovados.",
+    "autorizacao": "Autor aprovou a R57 e solicitou atualizar Git, Vercel e dependências em 25/10/2026."
+  }
 }

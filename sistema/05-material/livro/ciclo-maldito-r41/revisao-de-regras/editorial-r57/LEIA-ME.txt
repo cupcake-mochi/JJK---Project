@@ -23,4 +23,4 @@ revisao-r57/REVISAO-TEXTUAL.json: passagens e limites da revisão.
 revisao-r57/REVISAO-VISUAL.json: cobertura das passagens visuais.
 revisao-r57/ENTREGA.json: arquivos finais e hashes.
 
-Sem commit, push ou publicação nesta rodada. A revisão não constitui garantia absoluta de ausência de ambiguidades; não restaram problemas identificados no escopo registrado.
+Publicação posterior autorizada pelo autor em 25/10/2026: R57 publicada no Git e na Vercel. Registro completo em revisao-r57/publicacao/PUBLICACAO.json. Os downloads claro e noturno são idênticos aos PDFs aprovados. A revisão não constitui garantia absoluta de ausência de ambiguidades; não restaram problemas identificados no escopo registrado.
