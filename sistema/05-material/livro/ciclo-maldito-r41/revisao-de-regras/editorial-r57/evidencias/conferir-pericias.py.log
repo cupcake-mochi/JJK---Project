@@ -1,0 +1,162 @@
+
+========================================================================================
+1. CONTAGEM POR ATRIBUTO
+========================================================================================
+  Forca             1 pericias     4%   Atletismo
+  Destreza          4 pericias    17%   Acrobacia · Furtividade · Pontaria · Prestidigitacao
+  Inteligencia     11 pericias    48%   Intuicao · Investigacao · Ocultismo · Religiao · Historia · Hierarquia · Medicina · Sobrevivencia · Natureza · Lidar com Animais · Tecnologia
+  Essencia          7 pericias    30%   Sentir Energia · Percepcao · Persuasao · Enganacao · Intimidacao · Atuacao · Provocar
+  Constituicao      0 pericias     0%
+
+  total: 23 pericias, 11 oficios
+
+========================================================================================
+2. PESO DE MESA — contagem nao e a mesma coisa que valor
+========================================================================================
+  atributo          pericias  contagem  peso de mesa
+  Forca                    1       4%           6%
+  Destreza                 4      17%          16%
+  Inteligencia            11      48%          39%
+  Essencia                 7      30%          39%
+  Constituicao             0       0%           0%
+
+  Antes da v0.16, com Sentir Energia e Percepcao em Inteligencia:
+    Inteligencia 56% de peso, Essencia 21%.
+  A troca nao mudou a contagem para melhor — mudou o peso, que e o que importa.
+
+========================================================================================
+3. NENHUM NOME REPETIDO, E NENHUM EM DUAS LISTAS
+========================================================================================
+  34 nomes, todos unicos entre pericias e oficios.
+
+========================================================================================
+4. AS FIXAS DE CADA CAMINHO
+========================================================================================
+  Caminho      pericias fixas                     atributos
+  Bastiao      Atletismo · Provocar               For + Ess
+  Vanguarda    Acrobacia · Percepcao              Des + Ess
+  Guia         Persuasao · Medicina               Ess + Int
+  Emanador     Ocultismo · Investigacao           Int + Int
+  Evocador     Religiao · Lidar com Animais       Int + Int
+  Incursor     Acrobacia · Intuicao               Des + Int
+  4.1: a peca 7 e a dona; conferidas a lista daqui, 4 copias de tabela e a Kaori em duas
+
+  fixada por mais de um Caminho: Acrobacia
+  As fixas sao a assinatura do Caminho. Repetir demais apaga a diferenca entre eles.
+
+  Caminho       peso das duas fixas
+  Bastiao                       3.0
+  Vanguarda                     4.5
+  Guia                          3.0
+  Emanador                      3.5
+  Evocador                      2.0
+  Incursor                      3.5
+
+  faixa: 2.0 a 4.5. Diferenca de 2.5 sobre 8 pericias treinadas.
+  Dentro do ruido: as 4 escolhas livres corrigem sozinhas essa diferenca.
+
+========================================================================================
+5. FRACAO TREINADA
+========================================================================================
+  2 fixas + 5 livres do Caminho + 2 da Origem, e os 2 oficios da Origem; os dois se trocam por 1 pericia, e 2 pericias por uma arma:
+
+  rota                                  pericias         oficios
+  0 arma(s)                        9 de 23 = 39%   2 de 11 = 18%   BASE, julgada
+  0 arma(s), troca os oficios     10 de 23 = 43%    0 de 11 = 0%   troca, so impressa
+  1 arma(s)                        7 de 23 = 30%   2 de 11 = 18%   troca, so impressa
+  1 arma(s), troca os oficios      8 de 23 = 35%    0 de 11 = 0%   troca, so impressa
+  2 arma(s)                        5 de 23 = 22%   2 de 11 = 18%   troca, so impressa
+  2 arma(s), troca os oficios      6 de 23 = 26%    0 de 11 = 0%   troca, so impressa
+
+  faixa da peca 7 §7, para a rota de base: 30% a 42%
+  Abaixo disso a ficha esvazia. Acima, "ser treinado" para de significar algo.
+  As trocas sao do jogador e tem preco escrito: elas saem da faixa de proposito.
+
+========================================================================================
+5.1 AS LISTAS DE ORIGEM
+========================================================================================
+  lidas da peca 09: 8 (esperadas 8)
+
+  Origem                              oferece   pericias
+  Latente                                   4   Sentir Energia · Sobrevivencia · Furtividade · Intuicao
+  Receptáculo                               4   Sentir Energia · Ocultismo · Intuicao · Religiao
+  Descendente                               4   Hierarquia · Historia · Ocultismo · Persuasao
+  Encarnado                                 4   Historia · Ocultismo · Investigacao · Intimidacao
+  Feto                                      4   Ocultismo · Medicina · Sentir Energia · Natureza
+  Corpo Amaldiçoado                         4   Atletismo · Percepcao · Ocultismo · Intimidacao
+  Restrição Celestial · corpo pela técnica        4   Sentir Energia · Tecnologia · Ocultismo · Percepcao
+  Restrição Celestial · sem energia         4   Atletismo · Acrobacia · Furtividade · Pontaria
+
+  o que a peca 09 nega a uma Origem, conferido contra a lista dela:
+    Restrição Celestial · sem energia        nega Sentir Energia
+
+  Origem cuja lista o Caminho ja fixa por inteiro (a escolha da Origem morreria):
+    nenhuma. Sobreposicao parcial e esperada — quem cair nela escolhe outra da lista.
+
+  as 8 listas tocam 18 das 23 pericias
+
+========================================================================================
+5.2 O TREINO TEM DOIS GRAUS — e nenhuma linha viva diz que ele e binario
+========================================================================================
+  [x] a peca 11 publica a especializacao, e nenhuma linha viva das 51 pecas e capitulos chama o treino de binario
+
+========================================================================================
+6. TODA PERICIA E ALCANCAVEL
+========================================================================================
+  Com 4 pericias e 1 oficio de escolha livre em todo o quadro, qualquer nome
+  e alcancavel por qualquer Caminho. Nao existe pericia orfa desde a v0.16 —
+  antes, Prestidigitacao e Jogatina so vinham da Origem.
+
+  pericias que nenhum Caminho fixa (12 de 23): Furtividade, Pontaria, Prestidigitacao, Historia, Hierarquia, Sobrevivencia, Natureza, Tecnologia, Sentir Energia, Enganacao, Intimidacao, Atuacao
+  Isso e esperado: so 10 das pericias sao assinatura de alguem.
+
+========================================================================================
+7. COLISAO DE TERMO — contra o Fundamento e contra o proprio projeto
+========================================================================================
+  Nota de metodo da v0.6: separar TERMO DEFINIDO de PROSA SOLTA.
+
+  ACEITA  Furtividade        1x no livro
+          motivo: v0.337: "um beneficio de furtividade precisa estar escrito no efeito", no Fundamento. Prosa solta, e no sentido da pericia.
+  ACEITA  Investigacao       1x no livro
+          motivo: v0.337: a mesma frase, em minuscula ("ou investigacao"). Prosa solta.
+  ACEITA  Ocultismo          1x no livro
+          motivo: v0.226: o livro cita a PERICIA de proposito, como requisito da Expansao sem Barreiras (especializacao em Ocultismo). E o nome da pericia usado como pericia, e nao um termo do Fundamento que colide.
+  ACEITA  Historia           1x no livro
+          motivo: prosa solta ("quando voce conta uma historia", no Catalogo). Pela nota de metodo da v0.6, prosa solta nao e colisao.
+  ACEITA  Natureza           1x no livro
+          motivo: o livro tem o Talento "Segunda Natureza". Duas palavras contra uma, e o Talento e raro. Colisao fraca, aceita.
+  ACEITA  Sentir Energia     1x no livro
+          motivo: v0.337: a mesma frase do Fundamento, citando a PERICIA pelo nome.
+  ACEITA  Percepcao          3x no livro
+          motivo: v0.337: o Fundamento cita a PERICIA ("nao substitui Percepcao, Sentir Energia ou investigacao"); a outra ocorrencia e "percepcao valida", prosa solta no Catalogo.
+  ACEITA  Provocar           2x no livro
+          motivo: o livro usa "sem provocar ataques de oportunidade". Decidido na v0.16 que a frase e comum demais para confundir na mesa.
+
+========================================================================================
+8. A ESCADA DE DIFICULDADE — a peca 4 §2 e a dona, e as copias batem
+========================================================================================
+  a peca 4 publica 6 degraus, nos niveis [2, 30]
+  dificuldade               nv2     nv30       sem treino no nv30
+  CD 6 (fácil)                95%    100%          100%
+  CD 10 (média)               75%    100%           85%
+  CD 14 (difícil)             55%     85%           65%
+  CD 18 (muito difícil)       35%     65%           45%
+  CD 22 (extrema)             15%     45%           25%
+  CD 26 (quase impossível)     0%     25%            5%
+  [x] as 12 porcentagens publicadas batem com d20 + atributo investido + maestria
+  [x] CD 6 e 95% no nv2 e automatica no nv30; sem treino ainda falha 10% no comeco
+  [x] CD 26 e impossivel no nv2 e ainda incomoda no nv30 (25%)
+  [x] peca 1 §Pericias republica 6 degrau(s), todos iguais a peca 4
+  [x] peca 11 §Esteio republica 6 degrau(s), todos iguais a peca 4
+  [x] capitulo 10 do livro republica 6 degrau(s), todos iguais a peca 4
+
+========================================================================================
+O ATRIBUTO PADRAO DE CADA OFICIO — v0.104
+========================================================================================
+  Força 1 · Destreza 5 · Constituição 0 · Inteligência 3 · Essência 2
+  [x] os 11 oficios tem atributo padrao, e a prosa bate com a tabela
+  [x] o mestre diz o atributo antes da rolagem, e a peca cobra isso
+
+========================================================================================
+>>> TUDO OK — o quadro fecha, a fracao esta na faixa, e as colisoes que existem
+    estao declaradas com motivo em vez de esquecidas.

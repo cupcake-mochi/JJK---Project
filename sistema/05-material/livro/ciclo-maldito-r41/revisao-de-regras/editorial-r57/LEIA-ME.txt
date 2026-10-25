@@ -1,0 +1,26 @@
+CICLO MALDITO R57 | REVISÃO DE CONTEXTO E APRESENTAÇÃO
+
+Base: R56, preservada. Entrega local: PDFs claro e noturno, ambos com 415 páginas.
+
+Foram feitas 42 operações editoriais em 34 blocos, em três passagens (29, 9 e 4). A conferência textual final não identificou outro ajuste necessário dentro do escopo. As mudanças apresentam a função de nomes citados antecipadamente, indicam níveis de habilidades futuras e acrescentam remissões para suas regras completas. Não alteram mecânicas, custos, tabelas ou títulos.
+
+Exemplos: ações Provocar e Ler o Ambiente; Selo, Restrição e Kata na condição Calado; Saída Elevada; habilidades futuras de Caminhos e Trilhas; peças da montagem no Emanador; aprimoramentos do Evocador; Sem Ver; Cortina; Kokusen; efeitos reduzidos das invocações.
+
+A varredura estrutural percorreu os 576 blocos. Os 501 sinais automáticos de nomes antecipados são candidatos de busca, não uma contagem de erros. Sumários, listas de progressão e referências de navegação não exigem repetir a regra completa. As correções oferecem contexto quando ele é necessário para entender a passagem.
+
+VISUAL
+Duas passagens de composição completas: 415 páginas claras e 415 noturnas, em 52 pranchas por edição. Uma terceira passagem ampliou 12 páginas selecionadas. Não foram encontrados novos cortes de texto, sobreposições ou títulos soltos. A paginação absorveu os esclarecimentos com uma página adicional, no encerramento do Evocador.
+
+O espaço residual agregado não diminuiu: a métrica vertical passou de 57,78 para 58,34 páginas equivalentes. As páginas 239 e 269 mantêm colunas desiguais para conservar unidades independentes de consulta. Os demais espaços sinalizados, incluindo finais de seção e transições para tabelas largas, estão justificados em revisao-r57/ESPACOS-PRESERVADOS.json. A página 25 contém ilustração não contada pela métrica textual.
+
+VALIDAÇÃO
+121.828 verificações automáticas do PDF claro, sem problemas registrados. 2.814 links internos, 205 marcadores. Edição noturna aprovada em 1.732 verificações de equivalência, geometria, imagens e cores. Contraste mínimo medido: 6,18:1. Títulos, tabelas e números originais preservados. Remissões sem destino: nenhuma.
+
+REGISTROS
+ALTERACOES-R56-para-R57.json: antes e depois completos dos 34 blocos.
+revisao-r57/OPERACOES.json: 42 operações editoriais.
+revisao-r57/REVISAO-TEXTUAL.json: passagens e limites da revisão.
+revisao-r57/REVISAO-VISUAL.json: cobertura das passagens visuais.
+revisao-r57/ENTREGA.json: arquivos finais e hashes.
+
+Sem commit, push ou publicação nesta rodada. A revisão não constitui garantia absoluta de ausência de ambiguidades; não restaram problemas identificados no escopo registrado.

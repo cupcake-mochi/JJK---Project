@@ -8,6 +8,19 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.367] - 25/10/2026
+
+### Alterado
+
+- Publicação da R57, clara e noturna, com 415 páginas. Sincronizados PDFs, texto corrente, hashes e registros editoriais das rodadas R54 a R57.
+- A R57 acrescenta 42 esclarecimentos em 34 blocos para contextualizar nomes e mecânicas antes de sua explicação completa, sem alterar regras.
+- A guarda de integridade acompanha a cadeia de snapshots e registros até a R57. O recorte passa a conferir também o PDF noturno e os metadados da edição.
+- Revisão visual completa nas duas paletas, com uma passagem ampliada em 12 páginas. Espaços preservados e limites das verificações estão registrados.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a edição R57 e sua publicação.
+
+---
+
 ## [0.366] - 19/10/2026
 
 ### Alterado

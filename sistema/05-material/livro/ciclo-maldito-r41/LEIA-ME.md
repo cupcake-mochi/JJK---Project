@@ -1,3 +1,13 @@
+# Fonte corrente R57
+
+LIVRO-COMPLETO.md é a edição R57, de 415 páginas, usada pelos validadores. A revisão acrescentou contexto a termos e referências antecipadas. As regras do Fundamento continuam com o modelo integrado na R53.
+
+Os snapshots R54 a R57, as evidências e a impressão digital atual ficam em revisao-de-regras/editorial-r57/. O antes e depois de cada rodada está em revisao-de-regras/alteracoes/. A integração R53 permanece preservada em fundamento-r53/. Os PDFs ficam na pasta acima, com seus hashes em EDICAO-ATUAL.json.
+
+A composição atual está na entrega local /home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57/. As cadeias antigas de geração documentam versões anteriores.
+
+## Histórico da fonte e da geração
+
 # Fonte corrente R53
 
 O arquivo `LIVRO-COMPLETO.md` é a edição R53 de 411 páginas, exportada da integração aprovada. Os snapshots finais e o antes/depois ficam em `revisao-de-regras/fundamento-r53/` e `revisao-de-regras/alteracoes/R52-para-R53.json`. Os validadores locais leem este texto. Os PDFs ficam na pasta acima e seus hashes estão em `EDICAO-ATUAL.json`.

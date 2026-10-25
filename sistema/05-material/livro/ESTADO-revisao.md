@@ -1,3 +1,7 @@
+# Revisão editorial R57 concluída
+
+Texto e PDFs atuais: R57, 415 páginas. Registros e evidências em ciclo-maldito-r41/revisao-de-regras/editorial-r57/. A integração mecânica R53 e os relatórios anteriores abaixo permanecem como histórico.
+
 # Integração R53 concluída
 
 O catálogo atual é o da R53, aprovado pelo autor em 18/10/2026. A conferência 12 usa os snapshots R52 e R53 e o registro completo de alterações aprovado pelo autor. As modalidades de preço e as peças retiradas estão documentadas nesse registro. As comparações abaixo pertencem ao histórico das edições anteriores.

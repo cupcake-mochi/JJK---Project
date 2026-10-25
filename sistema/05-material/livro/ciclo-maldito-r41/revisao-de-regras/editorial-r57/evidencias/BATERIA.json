@@ -1,0 +1,169 @@
+{
+  "resultado": "aprovado",
+  "execucoes": [
+    {
+      "arquivo": "sistema/03-mecanica/conferir-acao.py",
+      "codigo": 0,
+      "log": "conferir-acao.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-alma.py",
+      "codigo": 0,
+      "log": "conferir-alma.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-aptidoes.py",
+      "codigo": 0,
+      "log": "conferir-aptidoes.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-atributos.py",
+      "codigo": 0,
+      "log": "conferir-atributos.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-bestiario.py",
+      "codigo": 0,
+      "log": "conferir-bestiario.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-bloquear.py",
+      "codigo": 0,
+      "log": "conferir-bloquear.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-catalogo.py",
+      "codigo": 0,
+      "log": "conferir-catalogo.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-criacao.py",
+      "codigo": 0,
+      "log": "conferir-criacao.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-descanso.py",
+      "codigo": 0,
+      "log": "conferir-descanso.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-equipamento.py",
+      "codigo": 0,
+      "log": "conferir-equipamento.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-expansao.py",
+      "codigo": 0,
+      "log": "conferir-expansao.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-ferramenta.py",
+      "codigo": 0,
+      "log": "conferir-ferramenta.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-ficha.py",
+      "codigo": 0,
+      "log": "conferir-ficha.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-fundamento.py",
+      "codigo": 0,
+      "log": "conferir-fundamento.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-invocacoes.py",
+      "codigo": 0,
+      "log": "conferir-invocacoes.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-legados.py",
+      "codigo": 0,
+      "log": "conferir-legados.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-manual.py",
+      "codigo": 0,
+      "log": "conferir-manual.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-marcial.py",
+      "codigo": 0,
+      "log": "conferir-marcial.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-nomes.py",
+      "codigo": 0,
+      "log": "conferir-nomes.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-objeto.py",
+      "codigo": 0,
+      "log": "conferir-objeto.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-orcamento.py",
+      "codigo": 0,
+      "log": "conferir-orcamento.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-pactos.py",
+      "codigo": 0,
+      "log": "conferir-pactos.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-pericias.py",
+      "codigo": 0,
+      "log": "conferir-pericias.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-ritual.py",
+      "codigo": 0,
+      "log": "conferir-ritual.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-sem-tecnica.py",
+      "codigo": 0,
+      "log": "conferir-sem-tecnica.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-xp.py",
+      "codigo": 0,
+      "log": "conferir-xp.py.log"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r57/testar-integridade.py",
+      "codigo": 0,
+      "log": "testar-integridade.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-dano.py",
+      "codigo": 0,
+      "log": "conferir-dano.py.log"
+    },
+    {
+      "arquivo": "sistema/03-mecanica/conferir-progressao.py",
+      "codigo": 0,
+      "log": "conferir-progressao.py.log"
+    },
+    {
+      "arquivo": "conferir-repositorio.py",
+      "codigo": 0,
+      "log": "conferir-repositorio.py.log"
+    },
+    {
+      "arquivo": "sistema/05-material/livro/conferir-voz.py",
+      "codigo": 0,
+      "log": "conferir-voz.py.log"
+    }
+  ],
+  "validadores_de_regras": 28,
+  "conferencia_repositorio": true,
+  "regressao_integridade": 7,
+  "voz_legada": "Inventário legado preservado; não é revisão de voz da R57.",
+  "ajustes_de_compatibilidade": [
+    "Calado: reconhecer o aposto que define Kata.",
+    "Progressão: reconhecer a explicação entre Liberação Máxima e seu nível.",
+    "Integridade: reaplicar registros de blocos inteiros e substituições locais em ordem."
+  ]
+}

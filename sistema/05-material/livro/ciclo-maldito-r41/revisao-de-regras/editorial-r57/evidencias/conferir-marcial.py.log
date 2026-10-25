@@ -1,0 +1,118 @@
+
+========================================================================================
+1. O ORCAMENTO E O PE DO CAMINHO, e esta peca nao escreve numero proprio
+========================================================================================
+  peca 6 SS5 · PE por nivel, lido do dono: [4, 5, 5, 6, 6, 6]
+  [x] a peca 20 cita a faixa `4` a `6`, e ela sai da peca 6
+  [x] a peca 20 nao publica coluna de PE propria: ela cita o dono
+  [x] a peca 20 usa a sigla `PE` com a leitura que a v0.120 fixou
+
+========================================================================================
+2. A SOMA vida+PE CONTINUA PARELHA com esta peca em cima
+========================================================================================
+  somas por Caminho, recontadas: [11, 10, 10, 10, 10, 10]   espalhamento 1
+  [x] espalhamento 1 <= 2: a troca continua sabor
+  [x] contra-teste: com a coluna valendo zero o espalhamento seria 3, que reprova. E por isso que o orcamento e herdado
+
+========================================================================================
+3. TRES GRUPOS, DIFERENTES ENTRE SI, e nenhuma Manha junto
+========================================================================================
+  13 Manhas lidas do dono · media 0.94 fatia · min 0.53 · max 1.18
+  tres Manhas medias = 2.81 fatias contra um Caminho de 3.00
+  [x] tres Manhas seriam 93.8% de um Caminho inteiro: e por isso que os grupos nao dao Manha
+  [x] 3.1 as tres linhas da tabela do SS4.1 reconstroem do catalogo e do orcamento de Caminho
+  [x] a peca 20 escreve `Manha nenhuma`
+  [x] o SS4.1 exige tres grupos diferentes entre si
+
+========================================================================================
+4. OS GRUPOS ACERTAM PELO ATRIBUTO DECLARADO
+========================================================================================
+  categorias lidas da peca 14 SS5.1.2: 13
+  Força: 8 grupos, e a lista tem 8
+  Destreza: 6 grupos, e a lista tem 6
+  [x] as 13 categorias da peca 14 estao todas classificadas
+
+========================================================================================
+5. NENHUM GRUPO DE ARMA ACERTA POR INTELIGENCIA, ESSENCIA OU CONSTITUICAO
+========================================================================================
+  [x] a tabela de grupos so tem Forca e Destreza
+  [x] a peca 20 declara o fechamento, com todas as letras
+  [x] e a rota de ferramenta declara qualquer um dos cinco: a saida existe
+
+========================================================================================
+6. A MAQUINA NAO TEM NUMERO PROPRIO — os de montagem batem com o dono
+========================================================================================
+  [x] a peca 20 cita `pontos por Classe`
+  [x] a peca 20 cita `custo em PE`
+  [x] a peca 20 cita `espacos de feitico`
+  [x] a formula de espacos bate com a do ESTADO-ATUAL, que e o dono dela
+  [x] os dados citados sao os do Fundamento e da peca 14: []
+
+========================================================================================
+7. OS TRES RENOMES EXISTEM, e cada um continua sendo o que era
+========================================================================================
+  [x] `Kata` esta declarado, e o texto diz o que ele continua sendo
+  [x] `Ruptura` esta declarado, e o texto diz o que ele continua sendo
+  [x] `Ogi` esta declarado, e o texto diz o que ele continua sendo
+  [x] `Libera[cç][aã]o M[aá]xima` so aparece como o nome que foi trocado
+  [x] `T[eé]cnica M[aá]xima` so aparece como o nome que foi trocado
+
+========================================================================================
+8. A EXPANSAO DE DOMINIO NAO E ALCANCAVEL POR ESTA ROTA
+========================================================================================
+  [x] a peca 9 SS5 continua negando, e ela e a dona
+  [x] a peca 20 nega por conta propria, e nao so pela Origem sem energia
+  [x] o argumento antigo da negacao foi reescrito onde ele morava
+
+========================================================================================
+9. O `Desarmado` NAO PASSA DO FILTRO DE DOMINANCIA contra esta rota
+========================================================================================
+  `Desarmado` lido da peca 19: nivel 4 · 3.45 de dano por rodada · 0.0 fatia
+  Kata cheia de Classe 5 = 67 · razao contra o preco = 19.4x · filtro 3.00x
+  [x] 19.4x reprova em 3.00x, e e por isso que a rota precisa de mais de um grupo
+  [x] a peca 20 entrega 3 grupos, contra um minimo de 2
+  [x] e a rota de ferramenta tem a resposta dela escrita
+
+========================================================================================
+10. FERIR MALDICAO CONTINUA SENDO DA FERRAMENTA
+========================================================================================
+  [x] a peca 16 SS2 continua sendo a dona da porta
+  [x] a peca 20 entrega grau 4, que e o degrau que fere e nao da Estigma
+  [x] a peca 20 concede a porta pelo equipamento, e nunca sozinha
+
+========================================================================================
+11. O TETO DE `Estigma` NA FICHA NAO SE MOVEU
+========================================================================================
+  teto de `Estigma` na ficha, lido da peca 16 SS5: 3
+  [x] o SS4.1 declara o teto junto da entrega das tres armas
+  [x] e diz o motivo: o teto conta pelas maos, nao pela mochila
+
+========================================================================================
+12. TRIAGEM DE TODO NOME QUE A PECA CRIA
+========================================================================================
+  [x] `Kata` sai OCUPADO como ele mesmo — batizado e protegido
+  [x] `Ruptura` sai OCUPADO como ele mesmo — batizado e protegido
+  [x] `Ogi` sai OCUPADO como ele mesmo — batizado e protegido
+  [x] `Fisga` sai LIVRE
+  [x] `Bancada` sai LIVRE
+  [x] os tres renomes estao protegidos contra rebatismo
+
+========================================================================================
+13. O `Bocado` NAO INVENTA O SAQUE DOBRADO — a peca 3 SS3.2 e a dona
+========================================================================================
+  peca 3 SS3.2: de graca por turno .. 1
+  peca 20: o `Bocado` entrega ...... 2
+  [x] o `Bocado` entrega um a mais que a base, que e o degrau que a peca 3 SS3.2 preca em Categoria de Efeito 1.
+
+========================================================================================
+14. O RENOME TAMBEM VALE NO LIVRO — a peca so olhava para si mesma
+========================================================================================
+  [x] `Liberação Máxima` so aparece no livro dentro da frase da troca
+  [x] `Técnica Máxima` so aparece no livro dentro da frase da troca
+  [x] a troca vale no livro inteiro, e a excecao do Restringido esta no capitulo 42, no 25 e na peca 9
+
+========================================================================================
+>>> TUDO OK — o orcamento e herdado, a soma continua parelha, os tres grupos
+    nao entregam Manha, o atributo fecha os dois lados da rolagem, e o
+    `Desarmado` volta a valer o preco de tabela.
+========================================================================================

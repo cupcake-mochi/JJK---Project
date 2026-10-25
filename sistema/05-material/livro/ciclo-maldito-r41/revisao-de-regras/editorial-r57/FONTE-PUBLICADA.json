@@ -1,0 +1,12 @@
+{
+  "revisao": "R57",
+  "sha256_texto": "18dbdb50014a7345fa0dfeef69e6fc19f3c6eda9dd259cb7600ed2b8b0db9364",
+  "blocos": 576,
+  "cadeia_editorial": [
+    "R53-para-R54",
+    "R54-para-R55",
+    "R55-para-R56",
+    "R56-para-R57"
+  ],
+  "composicao_local": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57"
+}

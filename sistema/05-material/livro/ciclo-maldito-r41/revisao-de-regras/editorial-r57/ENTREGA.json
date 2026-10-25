@@ -1,0 +1,22 @@
+{
+  "versao": "R57",
+  "base": "R56",
+  "base_preservada": true,
+  "paginas": 415,
+  "operacoes_editoriais": 42,
+  "blocos_alterados": 34,
+  "alteracoes_de_regra": false,
+  "arquivos": [
+    {
+      "arquivo": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57/output/pdf/Ciclo-Maldito-R57-Noturno-Vinho-e-Pessego.pdf",
+      "bytes": 62952660,
+      "sha256": "347be0ecc616088b27d468ff9bb5e570ac691ed9e888abd6f1a1d4d0dd4a56c8"
+    },
+    {
+      "arquivo": "/home/mizuki/CHAT-GPT/RPG -JJK/entregas/livro-diagramado-r57/output/pdf/Ciclo-Maldito-R57.pdf",
+      "bytes": 61889533,
+      "sha256": "40a405e0ac954b68cc31fe20192f36c94c52103613a58eec3c39f9919a3ce4bc"
+    }
+  ],
+  "publicado": false
+}

@@ -2,14 +2,16 @@
 
 **O sistema se chama `Ciclo Maldito`** desde a v0.334, o nome do livro final do Mizuki. *Até ali era `Projeto - M`, batizado na v0.94 — a pendência mais velha que existia aqui, aberta na v0.1.* Sistema de RPG de mesa feito do zero, ambientado no universo de Jujutsu Kaisen, para um server de guilda com **5 a 7 mestres ativos** e **personagem persistente entre mesas**. Material de fã, gratuito, sem fins comerciais.
 
-**Versão v0.366** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e oito validadores passando** · o Manual da Guilda em **19 capítulos**.
+**Versão v0.367** · manual do Fundamento na **v7.41**, no arquivo desde a v0.352 · **vinte e sete peças de regra** e **vinte e oito validadores passando** · o Manual da Guilda em **19 capítulos**.
 
 
 ## O livro Ciclo Maldito
 
-**[Ciclo Maldito R53, livro completo com 411 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os dois PDFs são idênticos aos publicados na Vercel. Seus hashes ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
+**[Ciclo Maldito R57, livro completo com 415 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os dois PDFs são idênticos aos publicados na Vercel. Seus hashes ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
 
 A R53 integra o Fundamento aprovado, as funções separadas das seis Formas, o catálogo e as dependências em rotas, Emanador, Ritual e entidades. A vida temporária individual paga base Leve. Toque concede sua devolução Leve fora das vagas; Aura custa Leve; Queima-Roupa tem devolução por modalidade. Os leitores e as contas locais usam essa edição.
+
+A R57 conclui as revisões editoriais de contexto e diagramação posteriores à R53. Os registros de R54 a R57 ficam em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r57/`, com o antes e depois de cada rodada em `alteracoes/`.
 
 O texto final fica em `sistema/05-material/livro/ciclo-maldito-r41/LIVRO-COMPLETO.md`. O nome dessa pasta foi conservado para os leitores existentes. Os registros de integração estão em `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/fundamento-r53/` e `sistema/05-material/livro/ciclo-maldito-r41/revisao-de-regras/alteracoes/R52-para-R53.json`, dentro dela. A R52 e as revisões anteriores continuam no histórico do Git.
 

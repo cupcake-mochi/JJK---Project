@@ -1,3 +1,13 @@
+# Edição corrente R57
+
+**Versão v0.367.**
+
+Os dois PDFs e o texto dos validadores estão sincronizados na R57, com 415 páginas. As rodadas R54 a R57 revisaram apresentação, contexto e diagramação. A R57 contém 42 ajustes editoriais em 34 blocos, sem alterações de regra.
+
+A guarda de integridade valida a cadeia de alterações da R52 até a R57 e compara o texto final ao snapshot atual. Evidências em `05-material/livro/ciclo-maldito-r41/revisao-de-regras/editorial-r57/`. O modelo de montagem mantém o nome fundamento_r53 por compatibilidade e lê a edição corrente.
+
+O histórico abaixo registra o estado anterior.
+
 # Validadores locais atualizados para R53
 
 A edição corrente tem 411 páginas. O clone do sistema recebeu o texto final, os dois PDFs publicados e o registro de 202 blocos alterados. O leitor do catálogo acompanha Família e preço por entrada, incluindo modalidades de Longe e Maior. A conferência de Fundamento usa exemplos numéricos, rejeições e contratos de rotas e entidades. A revisão do repositório confere o texto final contra o snapshot e todo o antes/depois da integração.
@@ -298,7 +308,7 @@ As seções anteriores abaixo preservam a cronologia da migração.
 
 Atualizado em 30/09/2026, na v0.330 (última peça fechada: **Ritual**, a peça 27, na v0.262, com o `conferir-ritual.py` e sete checagens; antes dela, o **Bestiário**, a peça 26, na v0.198; antes dela, **Sem Técnica, a peça 25, na v0.168**; antes dela, **Dano de alma e Integridade, na v0.145**). Este arquivo existe para retomar o trabalho — inclusive em conversa nova — sem recontextualizar tudo. Leia ele inteiro antes de mexer em qualquer coisa: ele tem a seção *"Onde estamos, e o que falta"* no fim, que é o ponto de retomada.
 
-**Versão v0.366.** Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e oito validadores**.
+Versão histórica v0.366. Fases 0 a 3 fechadas; Fase 4 (mecânica) em andamento, **vinte e sete peças escritas** e **vinte e oito validadores**.
 
 **Continuidade atual:** resistência pontual aprovada e integrada em Claude 2; o próximo ensaio está em `bestiario/05-sukuna/ENSAIO-integracao-grade-v286.md`. PV-base aprovado como referência da cura e das partes destrutíveis; no nível 30, cura de ação 78 e partes de 157 PV. Sukuna concluído na v0.287, com a política de débito corrente aprovada. O planejamento das Invocações virou o primeiro lote de desenvolvimento, no HD, e deu os §§47 a 109 da v0.288 à v0.325; a fila das Invocações fechou; o que sobra é do Evocador e das Trilhas (o que sobe a básica, abre Famílias e dá Livres) e a volta do capítulo ao livro, que é decisão dele; o traje, o talismã em campo e o que a entidade carrega fecharam na v0.328 (§§111 a 113), e o que ela leva quando sai de campo na v0.330 (§114); a fila do sistema fechou a cura da Origem `Corpo Amaldiçoado` na v0.326 (o mesmo reparo das invocações, no descanso curto) o peso na v0.327 (o talismã pesa `0,5` de `Volume`, e cada leve vale `0,1`, sem arredondar) e a imunidade dela a `Envenenado` na v0.329, sem medição; o que sobra na fila é o que já estava aberto antes. O histórico abaixo permanece para consulta.
 

@@ -1,0 +1,308 @@
+
+========================================================================================
+1. TETO-ROTINA — o teto somado vem da peca 6 SS4, nunca de constante
+========================================================================================
+  peca 6 SS4 e dona: o dono e todas as invocacoes somados entregam 1 Rotina. A peca 15 cita a frase 3x.
+  Servo     2 x 1/2 = 1.00 Rotina
+  Matilha   5 x 1/5 = 1.00 Rotina
+
+========================================================================================
+2. DOMINANCIA — a matriz entre as tres Trilhas, por quantidade de corpos
+========================================================================================
+  Servo     saida 1 Rotina · 1 corpo(s) · comanda, nao ataca · orcamento x1,5 · vida 2.5h
+  Matilha   saida 1 Rotina · 5 corpo(s) · comanda, nao ataca · orcamento da ficha · vida 2.5h
+  Coro      saida 1 Rotina · 1 corpo(s) · ataca e comanda · orcamento da ficha · vida 2h
+  6 pares, 0 dominancia(s), 0 declarada(s) como pendente da Q6.
+  nenhuma dominancia entre as tres, e nenhuma declarada — a Q6 fechou os dois pares que apontavam para o Servo.
+  [x] o corpo do Servo (2.5h) nao sai da luta por golpe menor que o da Matilha (2.5h) — as duas entregam a mesma Rotina.
+  [x] a vida do corpo forte (2.5x a formula) confere nas duas publicacoes, nos tres tipos e nos quatro niveis.
+  [x] as 3 linhas de rodadas-de-chefe recomputam: vida do SS3.6, 2x e 2.5x das concessoes, e o chefe do conferir-atributos.py.
+
+========================================================================================
+3. SOMATORIO — invocar contra o bolso, sem apagar o dia de feitico
+========================================================================================
+  nv   bolso   invocar x3  feiticos no dia   o doc diz
+  2    8       3           2                 1 de 2
+  10   40      9           4                 1 de 4
+  18   72      15          4                 1 de 4
+  30   120     21          5                 1 de 5
+
+========================================================================================
+4. TEMPO-DE-MESA — a tabela de rolagens fecha, e o numero esperado esta escrito
+========================================================================================
+  personagem comum                                1.5 por rodada   5-6 por combate
+  Bastião ou Vanguarda no nv6, dois golpes        3.0 por rodada   10-12 por combate
+  Coro                                            4.5 por rodada   15-18 por combate
+  Matilha                                         7.5 por rodada   26-30 por combate
+  a Matilha custa 2.5x o personagem de nivel 6 — e o doc escreve 2.5x
+
+========================================================================================
+5. TRIAGEM — todo nome que a peca cria, contra a propria triagem dela
+========================================================================================
+  20 nomes de catalogo conferidos contra a lista de OCUPADO (10 nomes) e contra o corpo do documento.
+  (quem confere nome contra o .docx e o conferir-nomes.py, e nao este.)
+
+========================================================================================
+6. REGUA — toda entrada cai no degrau que a regua da criacao manda
+========================================================================================
+  Comando  degrau 0: 1 entrada(s) — o ataque
+  Comando  degrau 4: 4 entrada(s) — faz uma coisa com um alvo ou um objeto
+  Comando  degrau 8: 2 entrada(s) — protege o dono, ou nega a ação de outro
+  Traço    degrau 2: 2 entrada(s) — como ela anda, e só ela
+  Traço    degrau 3: 1 entrada(s) — o que ela comunica
+  Traço    degrau 5: 2 entrada(s) — o que ela percebe — e o `Vigia` chega em você
+  Traço    degrau 7: 1 entrada(s) — que espaço ocupa, a um passo de mexer no tabuleiro
+  Traço    degrau 8: 7 entrada(s) — encosta em outra criatura ou no tabuleiro:** carrega
+
+========================================================================================
+7. ILEGAIS — dado de dano, refino e venda de atributo nao tem preco
+========================================================================================
+  20 entradas varridas, 0 com dado, refino ou valor positivo.
+
+========================================================================================
+8. ARRANJO — os atributos sao dela, no orcamento e no teto da peca 2
+========================================================================================
+  peca 2 e dona: 9 pontos, teto 3 na criacao, teto 6 no total.
+  [x] o arranjo dela le a peca 2 nos tres numeros, sem copia.
+  [x] atributo cresce +3 e maestria +3 — a taxa dela fica reta, que e a licao no 1 aplicada a ficha da invocacao.
+  [x] 6 arranjos legais na criacao, os mesmos do personagem.
+  [x] o capitulo 16 publica as 6 linhas da ficha, e o jogador le a mesma regra.
+
+========================================================================================
+9. ORCAMENTO — derivado dos marcos da peca 2, nunca lido de constante
+========================================================================================
+  marcos da peca 2: [6, 10, 14, 18, 22, 26, 30]   base no nivel 2: 8   cada marco da: 4
+  nv   marcos ate ali   derivado   no doc
+  2    0                8          8
+  6    1                12         12
+  10   2                16         16
+  18   4                24         24
+  26   6                32         32
+  30   7                36         36
+  o resumo do topo bate com o dono: 8 de base, 4 por marco, 36 no 30.
+  a tabela do Servo: 4 linhas derivadas da ficha x1,5, contra um catalogo de 112 pontos recontado.
+
+========================================================================================
+10. DUAS-MOEDAS — ponto de arma e ponto de ficha nao se convertem
+========================================================================================
+  ponto de arma  (peca 14 SS5): 0.33 de dano por rodada
+  ponto de ficha (SS3.6)      : +-10% do que a invocacao entrega
+  Nenhuma taxa de conversao escrita, e nenhuma entrada precada em moeda de arma.
+  [x] as 3 linhas da taxa de cambio recomputam do d20, e o +-10% do SS3.6 bate com a linha do acerto.
+
+========================================================================================
+11. AREA — o multiplicador sai do documento, e o pool nao se apaga
+========================================================================================
+  pool da Matilha = 1.25 Rotina(s), 5 corpos de 0.25 R cada; area de rotina = 0.5 Rotina por alvo
+  como entra              no pool   % do pool   corpos   doc
+  por corpo — como era    2.50      200%        5.0      2.5 R · 200% · 5
+  ×3                      1.50      120%        5.0      1.5 R · 120% · 5
+  ×2                      1.00      80%         4.0      1 R · 80% · 4
+  ×1,5 — vulnerável       0.75      60%         3.0      0.75 R · 60% · 3
+  uma vez, sem bônus      0.50      40%         2.0      0.5 R · 40% · 2
+  [x] a frase do SS3.5 repete o x1.5 e os 3 corpos, e as duas batem com a tabela.
+  [x] o capitulo 16 do livro publica a mesma vulnerabilidade (x1.5).
+  com o x1.5 escolhido, um feitico de area de rotina tira 3 dos 5 corpos.
+
+========================================================================================
+12. MORTE — a regua e a vida maxima do corpo, e nenhum golpe comum destroi
+========================================================================================
+  regua = a vida maxima do corpo · gatilho A: excedente > 1/2 da regua · gatilho B: um golpe >= a regua · area NAO e golpe unico
+  no nv30, tipo `tecnica`, Con 1: corpo do Coro (2x) = 154 · corpo forte (2.5x) = 185
+  Capanga                                      38  Coro cai     forte cai
+  Ameaça                                       73  Coro cai     forte cai
+  Desastre                                     76  Coro cai     forte cai
+  Catástrofe                                   91  Coro cai     forte cai
+  Calamidade`, o maior golpe da tabela         95  Coro cai     forte cai
+  crítico de `Calamidade                      155  Coro destroi forte cai
+  [x] nenhum golpe comum destroi nenhum dos dois corpos.
+  [x] a coluna de golpes e a da peca 26 §4.4 — 5 golpe(s) —, e o critico e o do maior, 12d10 + 35
+  [x] os dois corpos sao mesmo diferentes (154 contra 185, margem 31), e a regua le cada um pelo seu — 0 linha(s) da tabela separam os dois.
+  [x] o capitulo 60 publica a mesma regua e o exemplo fecha: vida 54, regua 54, metade 27.
+
+========================================================================================
+13. PRECO — o preco de invocar medido contra o Bastiao, nunca contra o Evocador
+========================================================================================
+  bolso do Bastiao: nv2 8 PE · nv10 40 PE · nv18 72 PE · nv30 120 PE
+  regua `0,5 × maior Classe`    3 PE  38%   6 PE  15%   9 PE  12%  12 PE  10%    -> nv2 sobra 5 PE = 1 feitico(s)
+  regua `1 × maior Classe`      3 PE  38%   9 PE  22%  15 PE  21%  21 PE  18%    -> nv2 sobra 5 PE = 1 feitico(s)
+  regua `1,5 ×`                 6 PE  75%  15 PE  38%  24 PE  33%  33 PE  28%    -> nv2 sobra 2 PE = 0 feitico(s)
+  regua `2 ×`                   6 PE  75%  18 PE  45%  30 PE  42%  42 PE  35%    -> nv2 sobra 2 PE = 0 feitico(s)
+  a regua ESCOLHIDA e 1x, e no nv2 ela deixa 1 feitico(s) no dia do Bastiao.
+  reguas que zerariam o dia no nv2: `1,5 ×`, `2 ×`
+
+========================================================================================
+14. ECONOMIA — o teto cai da economia de acao, e nao de decreto
+========================================================================================
+  comandar custa a acao padrao: dono e invocacao ficam mutuamente exclusivos, e a soma fica em 1 Rotina.
+
+========================================================================================
+15. CORO — a excecao medida somada nao passa de uma Rotina
+========================================================================================
+  Coro: o dono entrega 0.5 e a invocacao 0.5 — somados, 1 Rotina.
+
+========================================================================================
+16. BUSCA — todas as montagens legais: gasto exato e zero dominadas
+========================================================================================
+  nv   orcamento   montagens cheias    maior   % do catalogo
+  2    8           21                  3       16%
+  6    12          71                  4       21%
+  10   16          195                 5       26%
+  18   24          1026                7       37%
+  26   32          3441                8       42%
+  30   36          5429                9       47%
+  toda entrada compravel custa >= 2, e toda montagem gasta o orcamento EXATO —
+  logo nenhuma montagem e superconjunto estrito de outra: zero dominadas, por construcao.
+  as 19 entradas aparecem em alguma montagem cheia do topo.
+
+========================================================================================
+17. INSTANCIAS — as montagens publicadas conferidas contra a maquina
+========================================================================================
+  montagem            entradas                        pts    doc   cabe no nv  doc
+  Cão Divino          Faro                            5      5     2           2
+  Nue                 Voo                             8      8     2           2
+  Elefante Máximo     Jorro                           8      8     2           2
+  Serpente            Emboscada + Agarrar             12     12    6           6
+  Sapo                Fisgada + Agarrar               12     12    6           6
+  Nue completo        Voo + Montaria                  16     16    10          10
+  [x] 6 arranjo(s) conferido(s): somam 9, teto 3, principal saindo da entrada comprada, e todos distintos.
+  [x] o capitulo 16 publica os mesmos 6 arranjos.
+  [x] as 3 montagens por Trilha gastam o orcamento do nv2, o principal sai da entrada, e o capitulo 16 publica os mesmos arranjos.
+
+========================================================================================
+17.1 EXEMPLO GUIADO — cada numero do passo a passo do capitulo 16
+========================================================================================
+  [x] o exemplo guiado fecha: bolso 18 dos marcos da peca 2, gasto 18 pelo catalogo, vida 55 e regua 55 da formula do SS3.6, e a regua acompanhando a vida nas tres Trilhas da tabela de fecho.
+
+========================================================================================
+18. RITMO — nenhuma linha derivada cresce fora do ritmo do dono
+========================================================================================
+  linha                         nv2     nv30    cresce
+  acerto do dono                4       10      +6
+  invocacao, atributo 3         4       10      +6
+  invocacao, atributo 2         3       9       +6
+  invocacao, atributo 1         2       8       +6
+  a Defesa do alvo cresce                     +6        (Destreza +3, protecao +3)
+  contra-teste: os dois lados sao lidos de PECAS DIFERENTES — o acerto da peca 1 e a Defesa das pecas 2 e 11.
+  Perturbar a maestria, o teto de atributo ou o teto de refino desencaixa a igualdade, e nenhum dos tres mora aqui dentro.
+
+========================================================================================
+19. VIDA — a formula no molde da peca 1, e a tabela recalculada
+========================================================================================
+  formula: base do tipo + (2 + Con) x nivel do dono, impressa com Con 0
+  tipo                              base   nv2      nv10     nv18     nv30
+  talismã** · **corpo amaldiçoado   1      5        21       37       61
+  técnica                           2      6        22       38       62
+  maldição domada                   3      7        23       39       63
+  alvo — meia Rotina                       6.5      22.5     38.0     54.0
+
+========================================================================================
+20. POOL — a invariante da Q2: ninguem ganha barra de vida propria
+========================================================================================
+  barra unica com cascata declarada; 0 frase(s) concedendo barra separada.
+  (uma Trilha ou aptidao que devolva barras separadas desfaz a conta do limiar D = h do SS3.2.)
+
+========================================================================================
+21. COTA — 1/n lido da peca 6 SS4, com n = corpos no campo
+========================================================================================
+  Servo     1/2 em cada, 1 corpo(s) no campo -> n = 2
+  Matilha   1/5 em cada, 5 corpo(s) no campo -> n = 5
+  Coro      sem cota por corpo (a excecao da economia de acao)
+
+========================================================================================
+22. CRITICO — o ganho de critico da Matilha, e o salto do pacote unico
+========================================================================================
+  5 d20: P(pelo menos um 20) = 22.6%
+  somando  — cada 20 dobra os dados do proprio corpo: ganho medio 5% da Rotina
+  pacote   — um 20 dobra o pacote inteiro:            ganho medio 23% da Rotina
+
+========================================================================================
+23. INICIATIVA — a invariante da Q1: ninguem ganha casa separada
+========================================================================================
+  o que a Q1 comprou: com casa por corpo, "um corpo meu age antes do inimigo" ia a 97,6%; na casa do dono fica em 52,5%, com um corpo ou com cinco.
+  20 entradas varridas, 0 concedendo casa separada.
+  E invariante de TEXTO e nao de numero, no molde do teto de Defesa de Equipamento.
+
+========================================================================================
+24. AMARRA — os 18 m lidos da peca 3 SS3, nunca de constante
+========================================================================================
+  peca 3 SS3: o alcance base de Projetil e 18 m (deslocamento base 9 m).
+  peca 15   : a amarra e 18 m — 2 turnos de movimento.
+
+========================================================================================
+25. FAIXAS — "na cena" e "fora da cena" nao ganham metro
+========================================================================================
+  na cena          (um quarteirão, na ordem de 100 m)
+  fora da cena     (um país)
+
+========================================================================================
+26. GATE — o gate de Origem do Remoto e o unico do catalogo
+========================================================================================
+  entradas com requisito declarado: ['Remoto']
+
+========================================================================================
+27. NAO-COMPRA — nenhuma entrada vende linha que ja tem outro dono
+========================================================================================
+  20 entradas varridas contra ('defesa', 'acerto', 'vida', 'constituicao'): 0 encostando.
+
+========================================================================================
+28. CONTAGEM — o catalogo recontado bate com o que o documento afirma
+========================================================================================
+  contado na tabela: 19 compraveis — 13 Traco e 6 Comando, mais 1 a custo 0 (Investir).
+  o documento afirma a contagem 3x, dizendo [19].
+
+========================================================================================
+29. BUSCA-DEGRAU — a busca por degrau bate com o numero escrito antes
+========================================================================================
+  no nv30, orcamento 36, gasto exato: 5429 montagens cheias; a maior usa 9 das 19 entradas (47%).
+
+========================================================================================
+30. DEFESA — a metade do atributo escolhido segura o passo da Defesa do alvo
+========================================================================================
+  Defesa da invocacao = 10 + Destreza dela + metade da Essência ou Inteligência do dono
+  nv2: 14 · nv30: 19 · cresce +5
+  [x] cresce +5 contra os +6 da Defesa do alvo — a invocacao nao vira alvo gratis.
+  [x] contra-teste: sem ela o passo cairia de +5 para +3.
+
+========================================================================================
+31. QUEDA-DO-DONO — o dono cai, e o que a invocacao pode fazer
+========================================================================================
+  os dois estados de 0 de vida saem da peca 1 §5.5, e a secao responde os dois.
+  a recusa de "age sozinha" se ancora no teto da peca 6 §4, publicado na §1.
+  a vida cheia segue a escada da peca 10 §3: respiro nao devolve vida.
+  o capitulo 60 publica as quatro linhas, e o jogador le a mesma regra.
+
+========================================================================================
+32. INVESTIR — o dano da invocacao, derivado e conferido nas duas publicacoes
+========================================================================================
+  media do dado derivada da ancora nv30: 108 / 24 dados = 4.5
+  [x] a reconstrucao bate nos 4 pontos que a peca 6 SS3 publica — a tabela abaixo nao tem parametro livre.
+  [x] a peca 15 SS3.7: 7 faixa(s), todo dado com media dentro da cota e sem folga para mais um.
+  [x] o capitulo 16 do livro: 7 faixa(s), todo dado com media dentro da cota e sem folga para mais um.
+  [x] no nv30 a soma fica no teto: uma invocacao 108, Matilha 105, de uma Rotina de 108.
+  [x] o pior caso da Matilha e 77% da Rotina, e a peca declara.
+
+========================================================================================
+33. CD-DOS-EFEITOS — a CD no molde do jogador, o atributo unico, a Voz e o Preito, e o que o alvo resiste
+========================================================================================
+  [x] a peca 15 §3.6, tabela da ficha: `8 + o atributo dela + a sua maestria`, o molde da peca 1.
+  [x] o capitulo 16, linha da ficha: `8 + o atributo dela + a sua maestria`, o molde da peca 1.
+  [x] o capitulo 16, secao dos efeitos: `8 + o atributo dela + a sua maestria`, o molde da peca 1.
+  [x] o atributo e um so, a CD o guarda, e a arma so mexe no acerto.
+  [x] Voz e Preito na CD dao o mesmo numero nos 29 niveis (2 faixa(s): 2-25: +1, 26-30: +2).
+  [x] a CD maxima derivada fecha em [13, 16, 18, 20] contra [12, 15, 17, 18] do jogador; somando Voz e Preito seria 22, e a peca diz isso.
+  [x] 5 entradas pedem TR (Agarrar, Arrastar, Chamariz, Fisgada, Jorro), as outras 14 compraveis nao; o `Chamariz` rola Espírito, como o `Provocar`; o `Graúdo` fica de fora.
+  [x] a Carranca (nivel 6, Força 3, maestria 1): CD 12 na ficha, no passo 5, na secao dos efeitos e no teste do capanga.
+
+========================================================================================
+34. RITMO-DO-DONO — a maestria deste validador contra os 30 niveis da peca 1
+========================================================================================
+  a peca 1 publica 4 faixas cobrindo os niveis 2 a 30: 2-9=1 · 10-17=2 · 18-25=3 · 26-30=4
+  [x] a formula reproduz os 29 niveis da tabela, um a um
+  [x] no nivel 1, fora da tabela da peca 1, a peca 18 publica 1 e a formula devolve 1
+  [x] contra-teste: a formula de ate a v0.257 erraria em 3 nivel(is) — nv9, nv17, nv25
+  [x] v0.331: capitulo atual integral, referencia aprovada e treino conferidos
+>>> TUDO OK — contratos atuais da v0.331 e regressao historica separados; o teto antigo
+    da peca 2, a amarra sai da peca 3, a vida sai do molde da peca 1, e as 34
+    checagens do SS5 fecham sem nenhum valor escrito dentro deste arquivo.
+========================================================================================

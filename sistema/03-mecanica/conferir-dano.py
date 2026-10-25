@@ -1497,7 +1497,7 @@ else:
         _cal_l = livro.limpa(livro.condicao('Condições médias', 'Calado'))
     except livro.LivroMudou:
         _cal_l = ''
-    if 'exija voz' not in _cal_l or 'A Kata segue a mesma exigência' not in _cal_l:
+    if 'exija voz' not in _cal_l or not re.search(r'A Kata(?:, aplicação de uma Técnica Marcial,)? segue a mesma exigência', _cal_l):
         erro('14: o `Calado` do livro reconstruido parou de dizer que cala o que "exija voz", ou que '
              '"a Kata segue a mesma exigencia" — e o mesmo nicho da peca 19, com outras palavras')
     _fora = [k for k, t in _copias.items() if _cal not in t]

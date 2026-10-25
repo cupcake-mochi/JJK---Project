@@ -1,0 +1,226 @@
+[
+  {
+    "id": "R55-001",
+    "bloco": "dano--integridade",
+    "antes": "Escolher Insistir não permite agir com Integridade a zero.",
+    "depois": "[Insistir](#dano--insistir) é a opção de continuar agindo ao chegar a zero de vida, conforme o procedimento de Morrendo. Essa opção exige Integridade acima de zero.",
+    "motivo": "Explicar a opção na primeira menção, mantendo a derrota por Integridade.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-002",
+    "bloco": "dano--derrota",
+    "antes": "Um Corpo Amaldiçoado com essa menor",
+    "depois": "Um Corpo Amaldiçoado com essa capacidade de Origem",
+    "motivo": "Identificar a natureza da capacidade antes do capítulo de Origens.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-003",
+    "bloco": "aptidoes--apt-regravacao",
+    "antes": "Você pode encerrar o Rescaldo de sua técnica antes do fim da cena, mas usos repetidos impedem novas Expansões de Domínio naquele dia.",
+    "depois": "Quando uma Expansão de Domínio termina, o [Rescaldo](#poderes--rescaldo) impede o uso da Técnica Inata pelo restante da cena, salvo seus feitiços de Classe 0. Regravação permite encerrar esse estado antes do fim da cena. Usos repetidos impedem novas Expansões de Domínio naquele dia.",
+    "motivo": "Definir Rescaldo antes de apresentar a capacidade que o encerra.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-004",
+    "bloco": "emanador--ema-instintiva",
+    "antes": "Some Desdobramento, Impulso, Sobrecusto e outros custos independentes depois.",
+    "depois": "Some depois os custos de Desdobramento, do [Impulso Técnico do Catalisador](#emanador--ema-impulso), de Sobrecusto e de outras despesas independentes.",
+    "motivo": "Distinguir o recurso do Catalisador da Melhoria Impulso.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-005",
+    "bloco": "emanador--ema-impulso",
+    "antes": "O **Impulso Energético** pode acelerar um feitiço",
+    "depois": "O **Impulso** recebido por Impulso Técnico pode acelerar um feitiço",
+    "motivo": "Apresentar o recurso com o nome da habilidade que o concede.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-006",
+    "bloco": "catalogo--restricao-carregar",
+    "antes": "Mão Firme dispensa esse teste",
+    "depois": "O Talento [Mão Firme](#indice-r37-12) dispensa esse teste",
+    "motivo": "Identificar o Talento e oferecer remissão à entrada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-007",
+    "bloco": "catalogo--restricao-fragil",
+    "antes": "Mão Firme não protege esses efeitos.",
+    "depois": "O Talento [Mão Firme](#indice-r37-12) não protege esses efeitos.",
+    "motivo": "Identificar o Talento e oferecer remissão à entrada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-008",
+    "bloco": "construcao--entidades-passivas-avancadas",
+    "antes": "| Costura | 2 | Impede que um aliado caia a zero. Proteção e presença. |",
+    "depois": "| Costura | 2 | Impede que um aliado caia a zero. Talentos de Categoria 2. |",
+    "motivo": "Atualizar a remissão para o nome da seção do catálogo atual.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-009",
+    "bloco": "construcao--entidades-passivas-avancadas",
+    "antes": "| Contramedida | 2 | Reação que aumenta a CD de outro feitiço. Proteção e presença. |",
+    "depois": "| Contramedida | 2 | Reação que aumenta a CD de outro feitiço. Talentos de Categoria 2. |",
+    "motivo": "Atualizar a remissão para o nome da seção do catálogo atual.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-010",
+    "bloco": "construcao--entidades-passivas-avancadas",
+    "antes": "**Invocações em campo — Energia das entidades**",
+    "depois": "**Energia das entidades**, em Invocações em campo",
+    "motivo": "Remissão em ordem direta, sem travessão.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-011",
+    "bloco": "construcao--entidades-medidas",
+    "antes": "Não use a Classe reduzida da área para diminuir esse grupo.",
+    "depois": "As medidas reduzidas de área não diminuem esse grupo.",
+    "motivo": "Evitar antecipar o termo Classe reduzida antes da explicação dos efeitos reduzidos.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-012",
+    "bloco": "consulta--consulta-indice-3",
+    "antes": "[Cura (Forma)](#fundamento--amparoformas)",
+    "depois": "[Cura (função)](#fundamento--funcoes)",
+    "motivo": "Atualizar o termo de consulta para a montagem aprovada, em que cura é função.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-013",
+    "bloco": "consulta--consulta-indice-1",
+    "antes": "[Agarrado](#dano--leves)",
+    "depois": "[Agarrado](#indice-r55-01)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-014",
+    "bloco": "consulta--consulta-indice-1",
+    "antes": "[Aparar](#geral--aparar)",
+    "depois": "[Aparar](#indice-r55-02)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-015",
+    "bloco": "consulta--consulta-indice-2",
+    "antes": "[Calado](#dano--medias)",
+    "depois": "[Calado](#indice-r55-03)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-016",
+    "bloco": "consulta--consulta-indice-2",
+    "antes": "[Canalizar em Golpe](#aptidoes--apt-canalizar)",
+    "depois": "[Canalizar em Golpe](#indice-r55-04)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-017",
+    "bloco": "consulta--consulta-indice-2",
+    "antes": "[Cego](#dano--pesadas)",
+    "depois": "[Cego](#indice-r55-05)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-018",
+    "bloco": "consulta--consulta-indice-3",
+    "antes": "[Derrubado](#dano--leves)",
+    "depois": "[Derrubado](#indice-r55-06)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-019",
+    "bloco": "consulta--consulta-indice-3",
+    "antes": "[Desarmado](#dano--leves)",
+    "depois": "[Desarmado](#indice-r55-07)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-020",
+    "bloco": "consulta--consulta-indice-4",
+    "antes": "[Enfeitiçado](#dano--medias)",
+    "depois": "[Enfeitiçado](#indice-r55-08)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-021",
+    "bloco": "consulta--consulta-indice-5",
+    "antes": "[Guarda Aberta](#dano--leves)",
+    "depois": "[Guarda Aberta](#indice-r55-09)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-022",
+    "bloco": "consulta--consulta-indice-6",
+    "antes": "[Impedido](#dano--pesadas)",
+    "depois": "[Impedido](#indice-r55-10)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-023",
+    "bloco": "consulta--consulta-indice-6",
+    "antes": "[Lento](#dano--leves)",
+    "depois": "[Lento](#indice-r55-11)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-024",
+    "bloco": "consulta--consulta-indice-6",
+    "antes": "[Maestria](#geral--atributos)",
+    "depois": "[Maestria](#indice-r55-12)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-025",
+    "bloco": "consulta--consulta-indice-8",
+    "antes": "[Pontos de Vínculo](#evocador--ev-vinculo)",
+    "depois": "[Pontos de Vínculo](#indice-r55-13)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-026",
+    "bloco": "consulta--consulta-indice-9",
+    "antes": "[Reparar](#campo--inv-reparo)",
+    "depois": "[Reparar](#indice-r55-14)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-027",
+    "bloco": "consulta--consulta-indice-10",
+    "antes": "[Selo](#fundamento--selo)",
+    "depois": "[Selo](#indice-r55-15)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  },
+  {
+    "id": "R55-028",
+    "bloco": "consulta--consulta-indice-10",
+    "antes": "[Surdo](#dano--leves)",
+    "depois": "[Surdo](#indice-r55-16)",
+    "motivo": "Apontar para o subtítulo exato, com sua página recalculada.",
+    "altera_regras": false
+  }
+]

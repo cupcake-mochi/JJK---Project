@@ -1,0 +1,115 @@
+
+==========================================================================================
+1. A LINHA DE BASE — quanto do dia um personagem consegue conjurar?
+==========================================================================================
+  Um dia normal tem 3 lutas de graca (a exaustao dispara da quarta) e cada
+  luta dura ~3.5 rodadas: 10.5 rodadas de luta por dia.
+  Ninguem conjura em todas — o resto vai para Classe 0 e golpe simples, que
+  nao custam PE (o projetar energia paga PE desde a v0.340 e fica de fora desta
+  conta). A pergunta e QUANTAS cabem.
+
+  nv   Classe  feitico  Bastiao         Emanador
+  10   3       9        4x = 38%        6x = 57%
+  14   4       12       4x = 38%        7x = 67%
+  18   5       15       4x = 38%        7x = 67%
+  22   6       18       4x = 38%        7x = 67%
+  26   7       21       4x = 38%        7x = 67%
+  30   7       21       5x = 48%        8x = 76%
+
+  A taxa de conjuracao do Bastiao fica entre 38% e 48% das rodadas do dia.
+  Isso e a regua. Todo compromisso abaixo e medido contra ela.
+
+==========================================================================================
+2. O CANDIDATO ESCOLHIDO CABE, SOMANDO TUDO?
+==========================================================================================
+  Cenario: um inimigo abre Expansao. Voce ativa a anti-dominio, segura pela
+  duracao dela, e conjura o que sobrar. Depois ainda tem duas lutas no dia.
+
+  candidato                     nv   ativar  upkeep  um dominio  % do dia   feiticos que sobram no dia
+  A  0x ativar · 1,00x upkeep   14   0       4       12          21%        3 <<<
+                                22   0       6       30          34%        3
+                                30   0       7       35          29%        4
+
+  B  0x ativar · 0,50x upkeep   14   0       2       6           11%        4
+                                22   0       3       15          17%        4
+                                30   0       4       20          17%        4
+
+  C  2x ativar · 0,50x upkeep   14   8       2       14          25%        3
+                                22   12      3       27          31%        3
+                                30   14      4       34          28%        4
+
+  D  3x ativar · 0,25x upkeep   14   12      1       15          27%        3
+                                22   18      2       28          32%        3
+                                30   21      2       31          26%        4
+
+  E  2x ativar · 0,75x upkeep   14   8       3       17          30%        3
+                                22   12      5       37          42%        2
+                                30   14      6       44          37%        3
+
+  F  1x ativar · 1,00x upkeep   14   4       4       16          29%        3
+                                22   6       6       36          41%        2
+                                30   7       7       42          35%        3
+
+  Invariante: depois da luta de dominio, tem que sobrar PE para conjurar
+  pelo menos uma vez em cada uma das outras 2 lutas do dia.
+
+    nv10   gasta 6    de 40   e sobra para 3 feitico(s)  ok
+    nv14   gasta 12   de 56   e sobra para 3 feitico(s)  ok
+    nv18   gasta 20   de 72   e sobra para 3 feitico(s)  ok
+    nv22   gasta 30   de 88   e sobra para 3 feitico(s)  ok
+    nv26   gasta 35   de 104  e sobra para 3 feitico(s)  ok
+    nv30   gasta 35   de 120  e sobra para 4 feitico(s)  ok
+
+==========================================================================================
+3. PRE-LIGAR COMPENSA?
+==========================================================================================
+  Se der para andar com a aptidao ligada, ela deixa de ser decisao e vira
+  rotina. Uma rodada e 10s, entao 6 rodadas por minuto.
+
+  candidato                     nv14        nv22        nv30
+  A  0x ativar · 1,00x upkeep   2.3 min     2.4 min     2.9 min      <<<
+  B  0x ativar · 0,50x upkeep   4.7 min     4.9 min     5.0 min
+  C  2x ativar · 0,50x upkeep   4.0 min     4.2 min     4.4 min
+  D  3x ativar · 0,25x upkeep   7.3 min     5.8 min     8.2 min
+  E  2x ativar · 0,75x upkeep   2.7 min     2.5 min     2.9 min
+  F  1x ativar · 1,00x upkeep   2.2 min     2.3 min     2.7 min
+
+  O escolhido segura no maximo 6 min pre-ligado em todo nivel.
+  Curto o bastante para ser decisao tatica, e nao estado permanente.
+
+  E note as DUAS travas, que fazem coisas diferentes:
+    o custo de ATIVAR pune ligar sem precisar — e afundado, some se a luta nao vem
+    o UPKEEP limita quanto tempo voce segura — quanto menor, mais tempo ligado
+  Baixar so o upkeep ALARGA a janela de pre-ligamento. Foi o que a v0.30 achou.
+
+==========================================================================================
+4. O DANO DE ALMA EMPILHA POR BAIXO
+==========================================================================================
+  A Integridade no degrau 2 faz todo feitico custar +1 PE por Classe. E ela
+  chega justamente por dano de alma — que e o que uma Expansao entrega.
+  Ou seja: no momento em que voce mais precisa da defesa, conjurar encarece.
+
+  nv   feitico   com Integr.2   + upkeep   a rodada cheia e  conjura na luta
+  10   9         12             15         38%               2x
+  14   12        16             20         36%               2x
+  18   15        20             25         35%               2x
+  22   18        24             30         34%               2x
+  26   21        28             35         34%               2x
+  30   21        28             35         29%               3x
+
+  A leitura: uma rodada de compromisso total custa cerca de um terco do dia,
+  e o personagem ainda conjura 3 vezes dentro da luta de dominio. Isso e caro
+  e jogavel — que e o formato certo.
+
+  E note o que esta checagem NAO pergunta: se da para conjurar toda rodada.
+  Nunca deu, e supor que dava foi o vicio que produziu esta peca inteira.
+
+==========================================================================================
+5. TODO PRECO TEM NUMERO?
+==========================================================================================
+  Nenhuma peca de 03-mecanica anuncia custo em PE sem dizer quanto.
+
+==========================================================================================
+>>> TUDO OK — a linha de base cabe, o compromisso nao cala o personagem,
+    pre-ligar nao compensa, o dano de alma empilha sem quebrar, e todo
+    preco em PE tem numero.
