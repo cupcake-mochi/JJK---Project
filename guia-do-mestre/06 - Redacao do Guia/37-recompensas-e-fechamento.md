@@ -56,6 +56,8 @@ Registre feitos no momento em que acontecerem, com informação suficiente para 
 
 Patente depende do reconhecimento de feitos pela organização ou mestre, não da subida de nível. Registre Grau, motivo e momento da promoção. Possuir uma ferramenta de grau elevado não promove automaticamente seu portador.
 
+[Reconhecer um feito e registrar uma promoção](99-limiar-feitos-e-promocao.md) confere o socorro de Aoi contra os requisitos do Limiar, aplica o XP guardado e registra separadamente o parecer institucional de Grau. O exemplo usa a queda atual da R53.
+
 ## Remuneração opcional
 
 Salário e recompensa por mestrar são políticas opcionais. A tabela institucional da R53 oferece referências mensais: Grau 4, ¥150.000; Grau 3, ¥300.000; Grau 2, ¥600.000; Grau 1, ¥1.200.000; Especial, ¥2.400.000. São valores do jogo para esse modelo de instituição.

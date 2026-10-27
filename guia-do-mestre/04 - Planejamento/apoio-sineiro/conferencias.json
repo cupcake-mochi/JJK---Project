@@ -1,0 +1,220 @@
+{
+  "escopo": "Contas determinísticas e cronologia declarada; não é simulação integral, teste humano ou validação de equilíbrio.",
+  "quantidade": 33,
+  "casos": [
+    {
+      "caso": "Atributos iniciais e ganho de nível 6",
+      "obtido": 10,
+      "esperado": 10,
+      "confere": true
+    },
+    {
+      "caso": "Ataque inimigo",
+      "obtido": 5,
+      "esperado": 5,
+      "confere": true
+    },
+    {
+      "caso": "CD inimigo",
+      "obtido": 13,
+      "esperado": 13,
+      "confere": true
+    },
+    {
+      "caso": "Vida domada",
+      "obtido": 38,
+      "esperado": 38,
+      "confere": true
+    },
+    {
+      "caso": "Integridade domada",
+      "obtido": 19,
+      "esperado": 19,
+      "confere": true
+    },
+    {
+      "caso": "Espaços de especial nível 6",
+      "obtido": 2,
+      "esperado": 2,
+      "confere": true
+    },
+    {
+      "caso": "Talentos ganhos nos níveis 1 e 6",
+      "obtido": 2,
+      "esperado": 2,
+      "confere": true
+    },
+    {
+      "caso": "Carga normal",
+      "obtido": 9,
+      "esperado": 9,
+      "confere": true
+    },
+    {
+      "caso": "Pessoa de 72 kg e 1 Volume",
+      "obtido": 7.0,
+      "esperado": 7,
+      "confere": true
+    },
+    {
+      "caso": "Pessoa de 96 kg e 1 Volume cabe",
+      "obtido": true,
+      "esperado": true,
+      "confere": true
+    },
+    {
+      "caso": "Pessoa de 96 kg e 1,1 Volume não cabe",
+      "obtido": false,
+      "esperado": false,
+      "confere": true
+    },
+    {
+      "caso": "Condução inimiga regular com 9 m",
+      "obtido": 9.0,
+      "esperado": 9,
+      "confere": true
+    },
+    {
+      "caso": "Condução inimiga difícil com 9 m",
+      "obtido": 4.5,
+      "esperado": 4.5,
+      "confere": true
+    },
+    {
+      "caso": "Condução domada regular com 9 m",
+      "obtido": 4.5,
+      "esperado": 4.5,
+      "confere": true
+    },
+    {
+      "caso": "Condução domada difícil com 9 m",
+      "obtido": 3.0,
+      "esperado": 3,
+      "confere": true
+    },
+    {
+      "caso": "Condução urgente difícil com reserva 6 m",
+      "obtido": 3.0,
+      "esperado": 3,
+      "confere": true
+    },
+    {
+      "caso": "Condução urgente e movimento normal regulares",
+      "obtido": 10.5,
+      "esperado": 10.5,
+      "confere": true
+    },
+    {
+      "caso": "Dois redutores de deslocamento sobre 9 m",
+      "obtido": 1.5,
+      "esperado": 1.5,
+      "confere": true
+    },
+    {
+      "caso": "Integridade inimiga: perdas de um, dois, três quartos",
+      "obtido": [
+        27,
+        18,
+        9
+      ],
+      "esperado": [
+        27,
+        18,
+        9
+      ],
+      "confere": true
+    },
+    {
+      "caso": "Custo especial Classe 2",
+      "obtido": 6,
+      "esperado": 6,
+      "confere": true
+    },
+    {
+      "caso": "Custo Classe 2 com acréscimo por Integridade",
+      "obtido": 8,
+      "esperado": 8,
+      "confere": true
+    },
+    {
+      "caso": "Aura não recebe desconto de Família",
+      "obtido": 1,
+      "esperado": 1,
+      "confere": true
+    },
+    {
+      "caso": "Escolher após desconto Livre",
+      "obtido": 1,
+      "esperado": 1,
+      "confere": true
+    },
+    {
+      "caso": "Devolução limitada a Melhorias pagas",
+      "obtido": 1,
+      "esperado": 1,
+      "confere": true
+    },
+    {
+      "caso": "Saldo de dano da Aura",
+      "obtido": 3,
+      "esperado": 3,
+      "confere": true
+    },
+    {
+      "caso": "Saldo de Condução urgente, sem dano",
+      "obtido": 3,
+      "esperado": 3,
+      "confere": true
+    },
+    {
+      "caso": "Dano 23 com sucesso no TR",
+      "obtido": 12,
+      "esperado": 12,
+      "confere": true
+    },
+    {
+      "caso": "Excedente 36 não destrói",
+      "obtido": false,
+      "esperado": false,
+      "confere": true
+    },
+    {
+      "caso": "Excedente 37 destrói",
+      "obtido": true,
+      "esperado": true,
+      "confere": true
+    },
+    {
+      "caso": "Dano direto igual ao máximo destrói",
+      "obtido": true,
+      "esperado": true,
+      "confere": true
+    },
+    {
+      "caso": "Doma não cura",
+      "obtido": 0,
+      "esperado": 0,
+      "confere": true
+    },
+    {
+      "caso": "Retorno com metade da vida",
+      "obtido": 19,
+      "esperado": 19,
+      "confere": true
+    },
+    {
+      "caso": "Participantes entre dois turnos do Sineiro",
+      "obtido": [
+        "Mei",
+        "Akira",
+        "Rina"
+      ],
+      "esperado": [
+        "Mei",
+        "Akira",
+        "Rina"
+      ],
+      "confere": true
+    }
+  ]
+}

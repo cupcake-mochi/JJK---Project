@@ -498,3 +498,7 @@ Foram apresentadas duas propostas: teto total de gasto entre começos de turno, 
 **Estado:** critérios em desenvolvimento. Piloto e R53 preservados; nenhuma quantidade por nível adotada. Próximo: distinguir feitiços conservados, adaptações e habilidades próprias, com seus limites e interações. GPT-6 Astra, esforço extra alto.
 
 **Trabalho paralelo informado:** Mizuki colocou Claude para polir a coleção de ideias e autorizou levantar dúvidas. A coleção foi usada somente como referência; as entregas desta etapa ficam na pasta do Guia. A imagem anexada fornece contexto, não autorização para executar tarefas de outros projetos.
+
+## 25/10/2026 — Pedido de reavaliação do Carregador vigilante
+
+Ao responder à proposta de manter Vigília móvel como exemplo experimental de chefe, Mizuki pediu comparação com inimigos de outros sistemas e questionou a qualidade da habilidade. **Não confirmou adoção, parâmetros ou CE1.** A solicitação é comparar e reavaliar, sem mudança autoral de regras já aprovadas. A análise do assistente e sua retirada da recomendação de chefe estão no [registro71](71-reavaliacao-do-chefe-e-comparacao-externa.md); essa conclusão editorial não deve ser apresentada como escolha mecânica já feita por Mizuki.

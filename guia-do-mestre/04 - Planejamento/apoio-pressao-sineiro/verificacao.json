@@ -1,0 +1,30 @@
+{
+  "arquivos_iniciais": 263,
+  "arquivos_anteriores_preservados": 253,
+  "arquivos_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/71-sineiro-do-recolhimento.md",
+    "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "arquivos_novos": [
+    "04 - Planejamento/73-pressao-e-sobrevivencia-do-sineiro.md",
+    "04 - Planejamento/apoio-pressao-sineiro/estado-inicial.json",
+    "04 - Planejamento/apoio-pressao-sineiro/calcular.py",
+    "04 - Planejamento/apoio-pressao-sineiro/resultados.json",
+    "04 - Planejamento/apoio-pressao-sineiro/verificacao.json"
+  ],
+  "total_final": 268,
+  "testes_nomeados": 18,
+  "comparacoes_de_reserva": 12,
+  "janelas_comparadas": 24,
+  "links_locais_conferidos": 396,
+  "problemas": [],
+  "limites": "Enumeração finita com pressupostos declarados. Não é simulação integral, certificação de equilíbrio ou aprovação autoral. Sem publicação remota."
+}

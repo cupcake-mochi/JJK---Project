@@ -1,0 +1,43 @@
+{
+  "data": "2026-10-23",
+  "entrega": "P66/G62/G63",
+  "fonte_r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "casos_automaticos": 38,
+  "links_locais_conferidos": 316,
+  "links_quebrados": [],
+  "remissoes_linux_historicas_nao_resolvidas_neste_windows": 21,
+  "ancoras_r53_conferidas": 24,
+  "arquivos_anteriores_preservados": 201,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md",
+    "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md"
+  ],
+  "novos": [
+    "04 - Planejamento/66-encontro-do-carregador-de-sinos.md",
+    "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+    "06 - Redacao do Guia/63-carregador-consulta-e-doma.md"
+  ],
+  "snapshot_conferido": true,
+  "registro_decisoes_preservado": true,
+  "base_piloto_preservada": true,
+  "revisao_documental": [
+    "ações e conversões",
+    "contenção e saídas",
+    "carga e trajeto dos dois corpos",
+    "informação e negociação delimitadas",
+    "amarras e transporte de feridos",
+    "zero/participação/socorro/encerramento",
+    "Doma e proposta explícita do talento"
+  ],
+  "simulacao_combate": false,
+  "teste_humano": false,
+  "equilibrio_validado": false,
+  "publicado_no_github": false,
+  "limites": "A referência numérica e o talento de Doma continuam experimentais. Remissões absolutas Linux antigas conservam destino histórico; a base original do conceito não foi recuperada nesta etapa."
+}

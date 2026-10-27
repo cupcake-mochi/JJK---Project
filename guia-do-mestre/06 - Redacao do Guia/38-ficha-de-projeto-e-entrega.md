@@ -20,6 +20,8 @@ Use para fabricar, reparar ou contratar um trabalho que precise de acompanhament
 - **Processo sobrenatural separado, se necessário:**
 - **Quem combinou e data:**
 
+Para um projeto sobrenatural preenchido, consulte [Anel de Testemunho](96-fabricar-e-identificar-o-anel.md). Ele separa trabalho da ficha, serviço contratado e espera; registra uma tentativa falha e a entrega posterior.
+
 ## Andamento
 
 | Data ou intervalo | Trabalho feito | Materiais consumidos | Teste ou consequência | O que falta |

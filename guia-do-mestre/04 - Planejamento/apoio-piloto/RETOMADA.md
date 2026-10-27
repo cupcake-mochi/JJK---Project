@@ -411,3 +411,280 @@ Agarrar do Carregador: recorte Médio, mão livre, Força3/Maestria1/um ataque; 
 Nova pesquisa do Claude localizada em Pesquisa de Campo - Inimigos, Itens e Tecnicas; leitura dirigida de índice, seleção e trechos, sem auditoria integral ou importação numérica. Acervos, R53, piloto e P06 preservados. M124 ampliado, não concluído. Apoio e histórico: apoio-habilidades-inimigos. Nenhuma nova decisão autoral, sessão humana ou simulação de combate.
 
 Próximo: encontro curto com Carregador de sinos e elemento ambiental; corpo experimental, percurso, informação, respostas, retirada e encerramento. GPT-6 Astra extra alto; prosa GPT-6.1 Sol alto. Não presumir escala universal, reiniciar comparação binária, atualizar Bestiário integral ou desenvolver treinos.
+
+## Retomada — 23/10/2026: encontro do Carregador entregue no Windows
+
+P66/G62/G63: encontro completo de recuperação de caixa, um Carregador e entulho, com duas rotas, informação, respostas, retirada, contenção posterior, socorro e Doma opcional. Produção em E:\Claude\Pesquisa de Campo - Mestragem; não é checkout. Os 699 arquivos de produção coincidiram com o commit f13e0814d5011b834c2f5a0059196c712c1a7742; README/SALVAMENTO pertencem à cópia de salvamento. Manifesto inicial209/209 íntegro.
+
+R53 recuperada do GitHub no caminho histórico sistema/05-material/livro/ciclo-maldito-r41/LIVRO-COMPLETO.md. Conteúdo tem SHA256 7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d; cópia exata em apoio-carregador/fontes. Não presumir revisão pela pasta r41. Acervo original do conceito não recuperado; intenção retomada via P61/P65, cenário é elaboração nova. Índice e camada curada do Claude relidos, sem edição ou auditoria integral.
+
+Inimigo experimental nível2, atributos3/1/3/1/1, 32PV/16I, 0PE, sem técnica, Defesa11/Bloquear2d10, +4/Pancada1d4+3, AgarrarTR12, um ataque. CorpoMédio72kg, duas mãos, carga8/tetoarrasto16. Terreno direto18m (6reg+6dif+6reg): andar24, arrastar42. Lateral24reg: andar24, arrastar48. Bônus pode virar Movimento: turno de Agarrar já ao alcance oferece18m, anda7,5m arrastando por custo16,5; próximo com Correr+Movimento+Bônus convertida27 paga25,5 restantes. Não prometer rodada gratuita de resgate. Entulho sem dano/teste automático; recuo aberto não encerra participação.
+
+Doma preparada antes da tentativa: nível2 ou maior, derrota sem destruição, TREspírito+1 com penalidades atuais vs CD da rota; falha doma/sucesso exorciza. Limites inimigo32/excedente>16. Convertida14PV/7I, básica1d6, vagaespecial vazia, sem técnica/reserva; talento próprioCE1 Conduzir pelo chão ocupa escolha, um transportadoMédiooumenor/teto8/custos3ou4,5por1,5m. Não duplica8para16. Sem Bônus independente, sem recolhimento gratuito, retorno2PE/Bônus7PV sem curarI. Números/talento permanecem experimentais, sem escolha autoral nova.
+
+Plano56/pauta50, roteiro, índice, referências e remissões atualizados. P06, piloto e protótipos preservados. QA apoio-carregador/verificacao.json; histórico antes-do-encontro. Somente salvamento local, sem commit/push. Conferência documental/aritmética, não sessão humana ou simulação integral de combate.
+
+**Próxima tarefa recomendada:** preparar um perigo ambiental completo com escalada perceptível, intervenção e encerramento, distinguindo regras da R53 de eventuais propostas. Ampliar D12 além do terreno difícil antes de combiná-lo com um chefe. **GPT-6 Astra, esforço extra alto** para interações de tempo, dano, socorro e retirada; **GPT-6.1 Sol, esforço alto** para a prosa. Bestiário integral e treinamentos continuam adiados.
+
+## Retomada — 23/10/2026: perigo da passarela
+
+Autorização “Pode seguir” após P66. P67/G64 completam perigo ambiental sem inimigo, com acionamento deliberado precedido de informação, apoio móvel3m e piso inferior6m abaixo. Contagem local proposta0–3, um avanço ao fim da rodada completa; ruptura única no terceiro. Parada antes impede; depois não restaura. Sem ativação não há contagem secreta. Interrupção por alavanca/Padrão no Leste ou dano em pino de transmissão madeiraDef14/PV5 no Oeste; freio independente é fato ficcional declarado, não regra de cortar qualquer cabo.
+
+Superior9m; inferior27m físicos/39m de movimento (andar15+escalar12×2). Via inferior turno1Mov+Bônus convertida+Correr27; turno2faltam12, doisMov18 preservam Padrão para parada. Queda6m=2d6Concussão sem Bloquear, Derrubado se dano. Sem nova chance gratuita de borda, dano de escombros, soterramento, parcelas recorrentes ou ação no ar. Saltos e escadas seguem R53; rota de socorro e transporte dependem de posições, mãos, apoios e carga.
+
+221/221 arquivos do manifesto inicial íntegros. R53 mesmo hash7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d. Plano57/pauta51, matriz, roteiro, índice e referências atualizados; registro06 e entregas anteriores preservados. Snapshot apoio-perigo/historico/antes-do-perigo; QA apoio-perigo/verificacao.json. Salvamento local, sem commit/push, sessão humana, simulação integral ou validação de dificuldade. Cronograma e dispositivo experimentais. M017/M129 ampliados, não concluídos integralmente.
+
+**Próxima tarefa recomendada:** preparar a comparação de um confronto com objetivo e uma fonte ambiental de pressão, usando o Carregador como base e conferindo espaço, ações, informação e retirada. Não somar automaticamente o perigo da passarela nem presumir equilíbrio. **GPT-6 Astra, esforço extra alto** para interações; **GPT-6.1 Sol, esforço alto** para redação. Bestiário integral e treinamentos continuam adiados.
+
+## Transferência — 23/10/2026
+
+Mizuki pediu salvar o processo para passar ao Codex. A retomada consolidada está em `RETOMADA-CODEX-2026-10-23.md`, na raiz de produção, com estado atual, fontes, entregas66/67, limites, próxima tarefa e cuidados com os verificadores históricos. `CONFERIR-SALVAMENTO.py` confere o manifesto atual sem escrever arquivos. Pacote portátil inclui planejamento e manuscrito completos com históricos e R53; bibliografia externa não incluída. Salvamento local, sem alteração do GitHub. A próxima etapa segue sendo a comparação de confronto com objetivo e pressão ambiental (Astra extra alto; prosa Sol alto).
+
+## Retomada — 25/10/2026: composição de confronto e pressão
+
+232 arquivos iniciais íntegros. Produção retomada no Linux, com a R53 incluída e o original local de hash7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d. P68/G65/G66 entregam método de composição e variante de saída. Carregador, Doma e seções62–64 preservados. Não é junção automática da passarela nem nova ficha de chefe.
+
+Três referências: original; mapa novo com motor desligado; mesmo mapa em fechamento. Atalho C-A6m, portãoG a3m de cada; serviço C-P-Q-A com três trechos6m. ParadaP a12m da aberturaA e6m deC. Todas novas rotas regulares/largura3m. Marcador0–3 no fim de rodada completa; no3 só fecha com faixa livre. Corpo sólido ou objeto>=1Volume ocupa; se impedido, aguarda e verifica só no próximo fim de rodada. Sem dano/esmagamento/queda. ParadaP porPadrão/mão mantém posição; comando madeiraDef14/PV10 para motor aozero; folha ferro/açoDef18/PV40 libera vão aozero. São fatos/procedimentos experimentais do cenário, não novos preços universais. Motor não é ação do Carregador; Doma não o adquire.
+
+41 casos de contas/estados, sem combate simulado. C-A andar6/18 ou arrastar12/36. SocorristaF2/itens1 + corpo72kg/itens2 =9 até teto14. DoisMov18 comPadrão reservada: transporte1/2turnos a partirdeC. Do recuo pelo entulho e atalho, custo54 exige4turnos de orçamento18 (16,5/16,5/18/3), não54÷18. Serviço nesse recorte exige5. Os custos pressupõem posições e falta de nova interferência, sem prever duração de combate.
+
+Plano58/pauta52, matriz, roteiro, índice, referências e retomadas atualizados. P06, piloto, apoios antigos e R53 preservados. Apoio-composicao-carregador contém snapshot, parâmetros, conferência somente de leitura, resultados e verificação; não reutilizar verificadores antigos que sobrescrevem manifestos. Sem teste humano, aprovação numérica nova ou push.
+
+**Próxima tarefa recomendada:** desenvolver o método de chefes e confrontos maiores, comparando quantidade de ações, fases, sinais e oportunidades de resposta antes de propor uma ficha ampliada ou multiplicadores. **GPT-6 Astra, esforço extra alto**, para desenho e interações; **GPT-6.1 Sol, esforço alto**, para redação. Bestiário integral e treinamentos continuam adiados.
+
+## Retomada — 25/10/2026: método de chefes
+
+240 itens iniciais íntegros. P69/G67/G68 entregam diagnóstico, quantidade/distribuição de ações, intervalo de resposta, fases, controle, partes, aliados, encerramento e folha aplicada ao Carregador. Fichas, Doma, portão, base do piloto e registro06 preservados. Não há protótipo numérico de chefe pronto ou nova escolha autoral atribuída ao usuário.
+
+Preparar deslocamento oferece atuação depois do clique da parada usando Padrão anterior e Reação; não inclui ataque nem desfaz a operação. Meio de rodada e fim de rodada não garantem turno a todos entre anúncio e consequência. Agarrado impede deslocamento; estágio2 reduz9para4,5m, suficiente apenas para chegar a1,5m de um ponto a6m. Retirada com8PV usa ações; a0PV resolve derrota. Mudança de fase não renova cena. Dois Carregadores têm reservas separadas, sem equivalência a um corpo64PV/32Integridade.
+
+Pesquisa externa primária: D&D Beyond (ações lendárias) e GM Core/AoN (construção e reações); sem importar regras. Relatórios05/08 e camada curada01 consultados por recorte, sem auditoria da coleção ou releitura dos PDFs de Fabula. Apoio-chefes guarda estado inicial, histórico dos oito registros, conferências documentais e verificação. Usar CONFERIR-SALVAMENTO.py para integridade atual; não regenerar com verificadores antigos. Plano59/pauta53; manuscrito até68. Salvo localmente, sem push nesta etapa.
+
+**Próxima tarefa recomendada:** montar o primeiro protótipo de chefe com uma resposta de reposicionamento que dispute a Reação comum; compará-lo à versão sem essa resposta e ao uso de Preparar. Fechar ação, gatilho, limites, estados e aquisição antes de discutir sua adoção; números continuam experimentais. **GPT-6 Astra, esforço extra alto**, para desenho e interações; **GPT-6.1 Sol, esforço alto**, para clareza. Bestiário integral e treinamentos continuam adiados.
+
+## Retomada — 25/10/2026: Carregador vigilante
+
+246 arquivos iniciais íntegros. P70/G69/G70 entregam primeiro protótipo, comparação e Doma. Mesmo inimigo nível2/32PV/16Integridade/0PE; nova capacidade corporal Vigília móvel. Não altera G63 ou o piloto. Objetivo da proposta: conservar Padrão para agir e reservar caminhada para depois, sem metros novos.
+
+No fim do próprio turno, após efeitos, consciente/nãoDerrotado: retirar do saldo até min(3m,deslocamentoAtual/3), arredondado em1,5m. Gatilho após fim do turno de outro participante percebido visualmente a9m, fora do próprio turno e antes do avanço ambiental de fim de rodada. Reação comum, reserva e requisitos. Caminhar apenas; sem transportar/arrastar criatura ou manter Agarrar; pode soltar antes. Oportunidade normal; Desengajar anterior não protege. Ao uso encerra toda reserva; também próximo turno,0PV/0I,Inconsciente,fim de cena e saída de campo da entidade. Antes do primeiro turno reserva0. Uma resposta antes/depois do próprio turno pode ocorrer na mesma rodada com reservas diferentes. Não criar contador por rodada.
+
+Doma nível2/14PV/7I, mesma construção da original, com única escolha Talento PróprioCE1 proposta para Vigília móvel, substituindo Conduzir pelo chão. Não oferece transporte de pessoas. Exige coletiva explicitamente, segue tarefa; reserva ao fim do turno do invocador; não dispara com cada entidade aliada. Preparar de entidade não cria metros. Ficha resultante conhecida antes da tentativa, sem cura da Doma.
+
+20 casos de contas e revisão documental, sem simulação integral. Apoio-chefe-vigilante guarda dados, conferidor somente de leitura, resultados, histórico e verificação. Plano60/pauta54, manuscrito até70. Registro06 e bases anteriores preservados; sem push. Escolha autoral pendente: manter reserva de movimento como exemplo ou comparar também metros adicionais. Não declarar aprovação sem resposta. A régua numérica pode avançar independentemente.
+
+**Próxima tarefa recomendada:** incorporar a resposta autoral sobre a vigília e iniciar a régua numérica de inimigos pela R53, começando por poucos níveis e perfis. Comparar vida, Integridade, defesas, acerto, dano e ações sem usar os números antigos do Bestiário. **GPT-6 Astra, esforço extra alto**, para as comparações; **GPT-6.1 Sol, esforço alto**, para a redação. A régua pode avançar sem presumir aprovação da vigília. Bestiário integral e treinamentos continuam adiados.
+
+## Retomada — 25/10/2026: crítica ao protótipo e comparação externa
+
+254 arquivos iniciais íntegros. Mizuki questionou a qualidade da habilidade e pediu comparação externa; não aprovou Vigília móvel nem CE1. P71 compara Goblin2014, Giant Ant/Monster Core e Construct/Acid Burrower do SRD oficial de Daggerheart, por função e decisões, sem conversão numérica. O assistente retira a recomendação do Carregador vigilante como exemplo principal de chefe: utilidade situacional não demonstrou função suficiente, gestão excessiva, conflito com captura e limiteCE1 adotado cedo demais.
+
+G69/G70 preservados com aviso; seus números e cálculos continuam históricos, sem validar desenho. Carregador comum e demais fichas intactos. P06 registra somente o pedido real do autor. Plano61/pauta55. Próxima etapa passa a ser reconstrução de função/capacidade central, direção proposta de captura e isolamento; depois ações, números e aquisição compatível conhecida antes de oferecer Doma. Não forçar primeiro todo o chefe aCE1, nem prometer aquisição integral. Não repetir a antiga pergunta binária como pendência obrigatória.
+
+Apoio-reavaliacao-chefe guarda estado anterior e histórico de11 registros. Sem novo teste de combate, regra autoral aprovada ou push. Manuscrito continua até70; novo documento é de análise, sem inflar o livro com outro capítulo de revisão.
+
+**Próxima tarefa recomendada:** reconstruir o chefe a partir de captura e isolamento, comparando sua capacidade central e as respostas dos jogadores antes de fixar números ou uma conversão CE1. **GPT-6 Astra, esforço extra alto**, para desenho; **GPT-6.1 Sol, esforço alto**, para clareza. A régua numérica entra na sequência. Bestiário integral e treinamentos continuam adiados.
+
+## Retomada — 25/10/2026: reconstrução do chefe
+
+P72/G71/G72 entregues: Sineiro do Recolhimento, nível 6/M1, Grande, F4 D1 C3 I1 E1, 72 PV/36 I/0 PE, Defesa11/Bloquear2d10, mv9. Dois ataques 2d6+4/+5, no máximo uma manobra por Atacar/CD13. Transporta uma presa Média ou menor até9 Volume com movimento próprio e custo1,5/3 por passo1,5. Bônus anuncia zona fixa de raio3m; Padrão do próprio turno seguinte resolve5d8/TRFísico13/metadepara cima. Movimento, Derrubado, Guarda Aberta, falta de apoio, inconsciência ou derrota cancelam. Após impacto, Guarda Aberta até começo próximo turno e soltura do agarrão. Sem PE/recarga/ações fora de turno novas.
+
+Doma conhecida antes: nível6/38PV/19I, uma básica2d6 sem atributo, duas especiaisClasse2/6PE, duas escolhasCE1: Instinto e Conduzir pelo chão (proposto, carga9, custo3/4,5 por passo). Famílias ÁreaLivre/Alcance/Controle. Condução urgente: Efeito PróprioAlcanceMédio2p, Toque devolve1, saldo3 semuso; concede6m imediatos para transporte já válido, sem imunidade a oportunidade, comandoPadrão+básica. Dobrar: Aura1p+Escolher1p+Carregar/Recuo, devolução aproveitada1, saldo3d8; R53Carregar com testesEspírito por dano, duas básicas em ciclos diferentes, liberação sem novo comando. Recuo até fim do próximo turno após liberação. As diferenças da ficha inimiga estão explícitas; não forçar todo pacote aCE1.
+
+257 arquivos iniciais íntegros; 33 contas/cronologia e revisão documental. Apoio-sineiro guarda estado inicial, oito históricos, conferências e verificação. Não é simulação integral nem aprovação de equilíbrio. Registro06, Carregador e estudos anteriores preservados. Plano62/pauta56/manuscritoaté72. Salvamento local, sem push. Não repetir antiga pergunta sobre Vigília como pendência. Usar somente CONFERIR-SALVAMENTO.py para integridade, sem regenerar com conferidores antigos.
+
+**Próxima tarefa recomendada:** comparar o Sineiro com perfis de personagens de nível 6 pela R53: acerto, defesas, dano, Integridade, contenção e duração com ou sem interrupções. Usar essa comparação para iniciar a régua de inimigos; revisar o protótipo antes de propor adoção. **GPT-6 Astra, esforço extra alto**, para análise mecânica; **GPT-6.1 Sol, esforço alto**, para clareza. Bestiário integral e treinamentos continuam adiados.
+
+## Retomada — 26/10/2026: pressão do Sineiro e versão 2
+
+263 arquivos iniciais íntegros. P73 entregue; manuscrito permanece até72, com G71/G72 revisados para **108 PV/54 Integridade**. Demais ações, dano, CD, corpo, movimento e interrupções preservados; Doma continua38PV/19I. Limiares atuaisI:54–41 estágio0;40–28 estágio1;27–14 estágio2;13–1 estágio3. Destruição direta108 ou excedente>54; a partir5,59não/60sim. Versão1 e registros anteriores permanecem no histórico, sem alteração do registro06.
+
+Enumeração finita, sem amostragem ou combate integral: três perfis parciais nível6/Corpo/Refino2, atributos principais4 eCon3, PV65/44/51,PE24/36/30,I50/55/65,Def13,TRF5/3/2. FeitiçosClasse2+5/6d8/6PE; variaçãoB com espada1d8+4+1d4. Após4declarações puras, vivo72PV29,3%,108PV75,5%,144PV97,4%; recorte misto67,6%,98,2%,~100%. Não chamar isso chance de vitória ou rodadas garantidas. Na janelaB→S→E→G→B, Empurrão com5d8 leva preparo disponível no108 a23,9%, preservando valor de controle. Bloquear calculado sem executar revides; gatilhos separados. Recuo físico não dá crítico automático a feitiços de Toque.
+
+Dano mantido: risco condicional de queda cresce com desgaste. Controle e resistência doMuro, Aberturas e Cobrir-se tratados separadamente, sem empilhar Trilhas. Não foi concedido6d8AlmaClasse2: Toca a Alma exigeClasse3 e corta dados; permissão concreta de Alma deve ser conferida antes de modelar esse perfil. Integridade tratada por limiares, sem atribuir acesso automático.
+
+Apoio-pressao-sineiro: estado anterior, dez históricos, calcular.py (--salvar só grava resultados.json), resultados e verificação.18conferências nomeadas e invariantes. Não executar verificadores antigos que regeneram manifestos. Plano63/pauta57/registro73/manuscrito72. Salvamento local, sem push. Números e capacidades próprios experimentais, sem aprovação autoral atribuída.
+
+**Próxima tarefa recomendada:** conduzir um ensaio guiado da versão 2, com três perfis de nível 6, posições, recursos e escolhas de captura, interrupção, resgate e retirada; incluir as capacidades de Caminho usadas e a passagem de zero de vida para socorro. Conferir também um grupo com menor uso de feitiços antes de fixar a referência. **GPT-6 Astra, esforço extra alto**, para mecânica; **GPT-6.1 Sol, esforço alto**, para clareza. Bestiário integral e treinamentos continuam adiados.
+
+## 26/10/2026 — ensaio guiado do Sineiro concluído
+
+Plano64/pauta58/registro74/manuscrito73. Leia P74 e G73. Sineiro continua108/54, Doma38/19, sem alteração de capacidades ou aprovação autoral atribuída. Ensaio escrito com dados escolhidos: objetivo retirado sem derrotar chefe; segundo percurso com Mei ferida, interrupção falha, Insistir, saída e duas curas. Não é sessão humana nem taxa de vitória.
+
+Principal: Rina53PV/24PE, Mei44/23, Akira51/28, Sineiro52PV. Ferida: Rina59/24, Mei18/21 com1Sequela, Akira51/17, Sineiro74PV. Integridade intacta nos dois. Aguentar apenas comparado no ponto da queda: não herda a fuga de Insistir. Primeira alternativa usa dois feitiços ofensivos e espada; não conclui duração de combate até zerar chefe.
+
+Apoio-ensaio-sineiro: estado-inicial.json, dez cópias históricas, reproduzir.py, resultados.json, verificacao.json. O programa só grava resultados.json com --salvar; não regenera manifesto nem simula todas as regras. Confira integridade pelo CONFERIR-SALVAMENTO.py; não rode validadores antigos que substituem o manifesto. Salvamento desta etapa local, sem push. Fonte R53 atual e cópia conferidas.
+
+**Próxima tarefa recomendada:** montar a primeira régua experimental de criação de inimigos, usando Carregador e Sineiro como referências locais; separar papel, precisão, defesas, reservas, dano e frequência das capacidades, declarando onde faltam comparações. Começar pelas faixas já trabalhadas, sem estender uma fórmula a todos os níveis ou reutilizar o Bestiário antigo. **GPT-6 Astra, esforço extra alto**, para construção e contas; **GPT-6.1 Sol, esforço alto**, para o texto de consulta. Bestiário integral e treinamentos continuam adiados.
+
+## 26/10/2026 — primeira régua experimental de inimigos
+
+Plano65/pauta59/registro75/manuscrito74. Leia P75/G74. Referências propostas níveis2/6: centro24/12 e72/36 PV/Integridade; alternativas16/24/32 e48/72/108PV; Defesas11/13/15 com componentes válidos. Não é escala autoral aprovada, orçamento de encontro ou fórmula para outros níveis. Ataques e CDs preservam fórmulas. Carregador32/16 e Sineiro108/54 e suas Domas intactos.
+
+72 curvas enumeradas: reservas/defesa/Bloquear/feitiços/misto; duas declarações por pessoa, seis no grupo. Sem motor integral, sessões humanas, Kokusen, revides, cura, Alma ou capacidades completas de Caminho. Pressão compara Pancada1d4+3 do Carregador e candidata1d8+3; contra14PV/Defesa13, duas declarações dão4,9%/27,0% de chegar a zero, sem concluir morte.
+
+Apoio-regua-inicial contém estado anterior, nove históricos, calcular.py, resultados.json e verificacao.json. Reutiliza funções da etapa73, sem modificar aquele apoio. --salvar grava só resultados.json. Conferir integridade com CONFERIR-SALVAMENTO.py; não executar validadores antigos que substituem o manifesto. Salvamento local, sem push.
+
+**Próxima tarefa recomendada:** aplicar a régua a dois rascunhos completos de nível 6 com funções diferentes — um atacante e um apoio — e conferir uma composição com ambos contra o trio de referência. Avaliar concentração de ataques, interação entre capacidades, perda de pressão quando um cai e gasto real de recursos antes de propor dificuldade. **GPT-6 Astra, esforço extra alto**; revisão de clareza com **GPT-6.1 Sol, esforço alto**. Bestiário integral e treinamentos continuam adiados.
+
+## 26/10/2026 — atacante e apoio concluídos
+
+Plano66/pauta60/registro76/manuscrito76. Leia P76/G75/G76. Ren e Sora: humanos, inimigos de nível6 sem Doma; reservas próprias propostas, não Caminhos de PJ. Ren72PV/36I/8PE, espada1d8+4+1d4 e FendaC1/3PE/2d8+Passo. Sora48PV/24I/12PE, FioC1/3PE/Impulso+3VT (baseLeve1+Impulso1+saldo1) e RemendoC2/6PE/4d8. AmbosDef13; uma aplicação na Padrão; CobrirReação/2PE/RD3 e Canalizar. Kokusen básico mantém procedimento. Sem parâmetros autorais aprovados.
+
+Comparação condicionada após Ren1: duas ofensivas restantes5d8+6d8/+5 versusDef13, alvo cobre3. Derrotar Sora antes de Sora2:23,9%; Ren67PV:4,5%. Não são chances de vitória. Apoio altera espada de Ren de7,39 para10,12 de média por declaração contraDef13, primeiro teste de Kokusen/bônus0.
+
+Percurso didático com dados escolhidos termina com Rina52PV/24PE, Mei44/24, Akira51/16 comestojo; Ren46/1 fora, Sora0/1 incapacitada. Integridade preservada; sem quedaPJ. Grupo decide não perseguir; porta não impede ataques. Falta resolver saída/atendimento/transporte posterior pela continuidade, sem ações gratuitas.
+
+Apoio-dupla-n6: estado inicial, nove históricos, calcular.py/resultados.json, reproduzir.py/resultados-ensaio.json e verificacao.json. Scripts --salvar gravam só seus resultados; não substituem manifesto. Integridade por CONFERIR-SALVAMENTO.py; evitar validadores antigos. Salvamento local, sem push.
+
+**Próxima tarefa recomendada:** revisar de forma integrada o método de criação e avaliação das seções 56–76, separar regras da R53 de propostas, reduzir repetição e preparar uma ficha única de construção preenchida com Ren/Sora e remissões aos exemplos. **GPT-6.1 Sol, esforço alto**, para organização e clareza; **GPT-6 Astra, esforço extra alto**, para divergências mecânicas que surgirem. Bestiário integral e treinamentos continuam adiados.
+
+## 26/10/2026 — integração editorial do método de inimigos
+
+Plano67/pauta61/registro77/manuscrito77; matrizversão5. Entrada atual G56, ficha única G58, preenchimento Ren/Sora G77. G61 e G68 são aprofundamentos opcionais, sem repetir formulário completo. G59/G60/G67/G74 e índice atualizados. G69/G70 preservados como estudo histórico; retirada a indicação superada do final de G68 que ainda propunha desenvolver a resposta de reposicionamento. Valores, fichas, conversões, contas e percursos G75/G76 preservados.
+
+289 arquivos iniciais íntegros. Apoio-integracao-c04 contém manifesto anterior, histórico dos16 arquivos revisados e verificação final. FonteR53 e cópia conferidas. Conferência de remissões locais novas ou alteradas, sem revalidar cada link histórico. Sem sessão humana, simulação nova, escala geral concluída ou aprovação autoral presumida. P77 registra lacunas; M017/M124/M129 continuam parciais. Não executar verificadores antigos que substituem o manifesto; usar CONFERIR-SALVAMENTO.py. Salvamento desta etapa local, sem push.
+
+**Próxima tarefa recomendada:** completar o procedimento de perigos ambientais de C04 além da queda e do portão: escolher referências de CD e consequências pela R53, tratar exposição e efeitos persistentes e escrever um caso completo de perigo recorrente. Começar pelas regras existentes; identificar qualquer prazo, dano ou condição novos como proposta antes de pedir adoção. **GPT-6 Astra, esforço extra alto**, para cruzar regras e consequências; **GPT-6.1 Sol, esforço alto**, para a apresentação. Depois, consolidar as ferramentas de C10 e conferir a cobertura do manuscrito. Régua geral de inimigos permanece em desenvolvimento; Bestiário integral e treinamentos continuam adiados.
+
+## 26/10/2026 — perigos ambientais e exposição recorrente
+
+Plano68/pauta62/matriz6/registro78/manuscrito79. Leia P78 e G78/G79. Procedimento geral de exposição, CD, consequências, ritmo, intervenção, condição persistente e doença como preparação. Caso completo: pó material, duasfaixasA/B×12células/18m, TRVigor14, falha1d6Veneno+Envenenado. Condição umaaplicação dafonte, semrenovar enquantoativa, saídaTRVigor14fimturno, máximo10rodadas; expira antes da exposição dafase correspondente. Semrespiração não evita contato; danoVeneno/condição têm imunidades independentes. Todos esses parâmetros do caso são experimentais, sem decisão autoral atribuída.
+
+FechoA12/P e exaustorB0/P; limpeza2fases após todos os turnos, exposição antes do avanço, primeira conta narodada de operação. Pino cerâmicaDef12/PV2, mola fecha fonte ao quebrar, compatível com impacto deMei a18m. Nuvemleve só prejudicaPercepção visual, sem cobertura. MeiVigor+3sem treino é complemento explícito do recorte. Principal termina Mei44PV/36PE/55I, semcondição/Sequelas; Akira51/24/65I. RamoMei3PV:4dano→Insistirtrat15/janela3; R2sai18m e recebe15cura→15PV1Sequela. Se continuar dentro semsocorro, temporal3→2 e dano posterior2→1. Fonte/pino/interdição permanecemregistrados.
+
+293 arquivos iniciais íntegros. Apoio-perigos-recorrentes guarda estado inicial, histórico de11arquivos, calcular.py/resultados e verificação. --salvar só grava próprioresultados; não refaz manifesto. Revisão mecânica independente e dados escolhidos, sem sessãohumana ou escala geral. Fichas, Domas, cálculos anteriores e acervo paralelo preservados. Usar CONFERIR-SALVAMENTO.py para integridade; evitar validadores antigos que substituem manifesto. Salvamento local, sem push.
+
+**Próxima tarefa recomendada:** consolidar as ferramentas de C10: organizar as folhas por situação, conectar preparação, condução, fechamento e passagem entre mestres e preparar um exemplo de entrega de missão. **GPT-6.1 Sol, esforço alto**, para organização e clareza. Depois, auditar os 130 pontos e as lacunas do manuscrito com **GPT-6 Astra, esforço extra alto**. Régua geral de inimigos e demais perigos continuam em desenvolvimento; Bestiário integral e treinamentos permanecem adiados.
+
+## 26/10/2026 — C10, ferramentas e passagem
+
+Plano69/pauta63/matriz7/competências10/registro79/manuscrito81. Leia P79/G80/G81. Índice de14ferramentas principais;61/68aprofundamentos opcionais. G02/G05/G16/G24 conectados: nota dedúvida, ponto daretomada, referências, destinatários, recebimento, retorno e tarefas. M126/M127 eP18/P19 receberam texto/modelo/exemplo, sem validaçãohumana ou nova política.
+
+Passagem usaG79ramoferido, apósfase1antesMei2. MeiA12/0de44PV/36PE/55I, MorrendoInsistir1 eEnvenenado,0Sequelas,trat15/acum0/janela3; AkiraB0/51PV/30PE/65I. Fontefechada/fanligado/pinointacto/limpeza1de2; próximoMei2→Akira2→fase2. RetomadaM+B18,saídaTR9+3falha,Sutura15/6PEantesfase2→Mei15PV1Sequela; fase2limpa,Mei3TR12+3encerraEnvenenado. FinalMei15/36/55I,Akira51/24/65I,sem descanso. Pendênciascomunicação/reparo/recompensas identificadas, sem inventar classificação ou crédito. Corrigirdúvida3vs2janela pela fonte, não pela ordemdosarquivos. Retornoéilustrativo, não coletado depessoa.
+
+300arquivos iniciais íntegros. Apoio-c10 guarda estadoanterior,13históricos,catálogo estruturado e verificação. Não há simulaçãonova. Fontes R53/cópia e inventário conferidos, registros de decisão e demais fichas preservados. Usar CONFERIR-SALVAMENTO.py; evitar validadores antigos que substituemmanifesto. Salvamento local,sem push.
+
+**Próxima tarefa recomendada:** auditar a cobertura do manuscrito contra os 130 pontos e as 20 competências, identificando explicação, exemplo, ferramenta, pendência e decisão autoral. Priorizar as lacunas antes de organizar a edição completa de leitura. **GPT-6 Astra, esforço extra alto**, para cruzar os requisitos; **GPT-6.1 Sol, esforço alto**, para complementos e clareza. Treinamentos e Bestiário integral continuam adiados.
+
+## 26/10/2026 — auditoria de cobertura e fila de complementos
+
+Plano 70, pauta 64, matriz 8, competências 11, registro 80 e manuscrito até 81. Leia P80 e apoio-auditoria-cobertura/cobertura.json. Leitura dirigida de cobertura, sem reauditoria integral de regras, simulação nova, pesquisa externa ou teste humano. 130 pontos: 93 E, 35 P, 2 L; 20 competências: 16 E e 4 P (P02/P14/P15/P20). Não usar essas contagens como porcentagem de conclusão. M017 passou a base demonstrada; M124/M129 continuam parciais. M119/M122 já têm seção 55; não refazer. Lacunas específicas sem procedimento localizado: M066 e M128.
+
+Oito lotes, na ordem L1/L3/L2/L8/L4/L6/L5/L7, depois integração. Ver critério de aceite e evidência de cada um. L1 é independente de decisões: sucesso com custo, teste coletivo e empate. Surpresa/Instinto segue aberta fora dos 130; Reserva Condensada precisa de proposta completa antes de decisão de padrão. Políticas locais opcionais não viram perguntas obrigatórias. Treinamentos, Bestiário completo e três ideias adiadas de Pactos ficam para depois.
+
+306 arquivos iniciais íntegros. O apoio preserva manifesto inicial, histórico de oito arquivos, extração do inventário, mapa estruturado, verificador somente leitura e verificação. As 81 seções numeradas, fontes R53/cópia, registro 06 e números anteriores permanecem inalterados. Não executar validadores antigos que substituem manifesto. Usar CONFERIR-SALVAMENTO.py na raiz. Salvamento local, sem push.
+
+**Próxima tarefa:** L1: completar sucesso com custo, testes coletivos e empate na iniciativa, conferindo a R53 e preparando exemplos para o leitor. **GPT-6 Astra, esforço extra alto**, para regras e casos; **GPT-6.1 Sol, esforço alto**, para redação e integração.
+
+## 26/10/2026 — L1, testes e iniciativa
+
+Plano 71, pauta 65, matriz 9, competências 12, registro 81 e manuscrito até 82. Leia P81/G82 e apoio-lote1/cobertura-atualizada.json. M010/M014/M128 passaram de P/P/L para E: cobertura 96 E/33 P/1 L, 34 pontos a complementar; competências mantêm 16 E/4 P. Demais classificações preservadas. P80 e apoio-auditoria-cobertura são retratos anteriores; seu verificador confere aquela revisão e não deve ser usado como se as fontes nunca fossem editadas. O histórico desta etapa preserva as versões substituídas de 04/05/80 e do planejamento.
+
+G82: arquivo começa às 17h40; dez minutos, Investigação CD 14, bônus +4 e dado 9 = 13. Aceita mais 20 minutos e termina às 18h10; perde o transporte das 18h00, com o arquivo aberto até 18h30. Recusar conserva a falha e os dez minutos gastos. Ajuda antes do dado: maior entre 9 e 15, somado a +4 = 19. Grupo de Furtividade contra vigia com Percepção +4/CD 14: Aoi 13 + 3 = 16, Nao 9 + 3 = 12, Haru 11 + 3 = 14, Tomo 7 + 1 = 8, Emi 10 + 4 = 14; três de cinco passam. Ramo com Emi 9 + 4 = 13 deixa dois sucessos; Contribuição Decisiva válida pode acrescentar um, com uma aplicação. Em combate, Esconder individual: três ocultos e dois localizados. Iniciativa: cinco totais 14; Haste com Destreza 3, demais com Destreza 2. Escolhas fixas: Haste, Aoi, Nao, Trinco, Dobra. Sem nova surpresa ou fichas completas presumidas. As seções 04/05/80 conectam casos e consulta; números de inimigos, projetos, Pactos e R53 preservados.
+
+312 arquivos iniciais íntegros. Apoio guarda manifesto anterior, histórico de 13 arquivos, fontes, cobertura e conferência. Verificar integridade atual com CONFERIR-SALVAMENTO.py; não executar validadores antigos que reescrevam o manifesto. Salvamento local, sem push, simulação de combate ou teste humano. Treinamentos, Bestiário integral e três ideias de Pactos continuam adiados.
+
+**Próxima tarefa:** L3 — completar percepção e informação: Esconder, Ler o Ambiente, Intuição e lembranças, busca energética com interferência e sinais/assinaturas. **GPT-6 Astra, esforço extra alto**, para regras e casos; **GPT-6.1 Sol, esforço alto**, para clareza e integração.
+
+## 26/10/2026 — L3, percepção e informação
+
+Plano 72, pauta 66, matriz 10, competências 13, registro 82 e manuscrito até 83. Leia P82/G83 e apoio-lote3/cobertura-atualizada.json. Somente M025–M029 passaram de P para E: cobertura 101 E/28 P/1 L, com 29 pontos a complementar. Competências mantêm 16 E/4 P. L1 e L3 entregues. A diferença Lembrança Retomada no inventário/Memória Testemunha na fonte atual está documentada, sem nova capacidade.
+
+G83: Nao, Furtividade 11 + 5 = 16, contra CDs 14/17/13; Sora localiza, vigia e operadora não. Sala sem sinal não participa da comparação. Busca do vigia: 12 + 4 = 16 passa, 11 + 4 = 15 falha. Novo observador com CD 16 não localiza, com 17 localiza. Percepção de Contorno de Yui: Maestria 2, alcance 6 m, alvo a 4,5 m, Furtividade ainda aplicável. Ler o Ambiente: 9 + 5 = 14 passa, 8 + 5 = 13 falha; ambos gastam Bônus e uso, ao contrário do caso sem informação. Intuição: 10 + 4 = 14; variante 9 + 4 = 13 falha. Memória Testemunha: um minuto, uso diário ao iniciar, três perguntas da mesma cena, conteúdo da caixa fechada não acessível. Interferência CD 18 e busca 12 + 6 = 18: maior entre interferência/Furtividade 16 ou 19; porta sólida bloqueia. Zero PE não é ausência de energia. Pulso distante: resultados 14/17, mesma pista; assinatura exige referência confiável, sem localização do antigo portador.
+
+320 arquivos iniciais íntegros; 15 arquivos integrados, com histórico preservado, e oito novos arquivos no manifesto final de 328. Os retratos anteriores de cobertura permanecem históricos. Use CONFERIR-SALVAMENTO.py para integridade atual; não execute validadores antigos que reescrevam manifestos ou interprete hashes históricos como defeito atual. R53, decisões autorais, inimigos, Pactos e projetos preservados. Sem push, teste humano ou simulação de combate. Surpresa/Instinto permanece em frente separada; demais adiamentos mantidos.
+
+**Próxima tarefa:** L2 — espaço, objetos e capacidades do cenário: travessias, saltos com risco, queda sobre criatura, trajetórias, ferramentas, contenção e arma improvisada. **GPT-6 Astra, esforço extra alto**, para regras e exemplos; **GPT-6.1 Sol, esforço alto**, para clareza e integração.
+
+## 26/10/2026 — L2, espaço e objetos
+
+Plano 73, pauta 67, matriz 11, competências 14, registro 83 e manuscrito até 85. Leia P83/G84/G85 e apoio-lote2/cobertura-atualizada.json. M019/M020/M021/M022/M054/M064 passaram de P para E; M066, de L para E. Cobertura 108 E/22 P/0 L; competências mantêm 16 E/4 P. L1, L3 e L2 entregues; nenhuma nova política ou tabela aprovada.
+
+G84: canal 4,5 m custa 9 m, CD 14, grade na falha local anunciada; salto Força 1/Maestria 2/especialização, bônus +4, impulso 3 + salto 6 = 9 m, maior CD 18, resultados 18/17; duto 1,5 m custa 4,5 m ou 6 m difícil, maleta fica fora; queda 9 m, 3d6 = 11, divisão 5/6 antes da resistência de Ema, que recebe 3, ou 6 se alvo evitar. Médio/Imenso não divide. Obras: atributo 3, nível 2, Maestria 1, limite 3, 30 min, Vida 27, Defesa 11, 300 kg, Bônus/2 PE ao todo; Abertura de Avançar para Mina. Parkour: parede 3 + salto 4,5 = 7,5, limite usado 3 de 6; mão ocupada, sem abate automático.
+
+G85: Ricochete de Chakram 6/18 vira 12/24, primeiro trecho continua limitado a 18 e pode causar desvantagem acima de 6. Mapa (0,0) → (4,0) → (4,4), mureta (2,2), trechos 6 + 6 = 12; Defesa 14 em vez de 16 pela direção final; ataque +5, dano 1d4 + 2. Kit preparado um minuto/duas mãos, descida 6 m custa 12, folga 1,5 m sem dano de altura. Tranca reforçada CD 18, +5, 17 falha às 16h01; nova tentativa possível termina às 16h02. Algema CD 24 para romper, totais 23/24. Cabo curto: referência Bastão, uma mão, Volume 0,5, 1d6 + 2, alcance 1,5 m e sem propriedades especiais. Garrafa: +3 corpo a corpo/+5 arremesso, 1d4 + 2, 6/18, desvantagem sem treino específico; a 9 m também tem desvantagem por faixa, mas mantém dois dados. Quebra anunciada antes.
+
+328 arquivos iniciais íntegros; 15 integrados com histórico e nove novos no manifesto final de 337. R53, decisões, fichas de inimigos, Pactos e projetos preservados. Usar CONFERIR-SALVAMENTO.py para integridade atual. Verificadores de cobertura anteriores guardam hashes históricos. Sem push ou teste humano. Surpresa/Instinto, treinamentos e Bestiário integral seguem separados/adiados conforme seus registros.
+
+**Próxima tarefa:** L8 — mundo para consulta: sociedade, funções institucionais, diferentes modos de vida, aprofundamentos sinalizados e índice de termos. **GPT-6.1 Sol, esforço alto**, para curadoria e redação; **GPT-6 Astra, esforço alto**, se houver interpretação autoral em disputa. Conferir fontes primárias quando necessário e preservar a entrada sem revelações da trama.
+
+## 26/10/2026 — L8, mundo para consulta
+
+Plano 74, pauta 68, matriz 12, competências 15, registro 84 e manuscrito até 88. Leia P84/G86/G87/G88 e apoio-lote8/cobertura-atualizada.json. P02 passa de P para E; 130 pontos mantêm 108 E/22 P/0 L, competências agora 17 E/3 P. L1/L3/L2/L8 entregues. Próximos L4 → L6 → L5 → L7 → integração/edição. Nenhuma decisão mecânica nova.
+
+G86: rede de apoio, autoridade/influência/confiança, famílias, trabalho, cotidianos diversos, testemunhas, escolha de região/época e depósito com preparo e continuidade. G87: cinco casos opcionais com aviso antes de revelações, fontes oficiais delimitadas e exemplo original separado da R53. G88: índice por dúvida e termos, distinções mecânicas e dois percursos de consulta. G06 e índice de leitura integrados; entrada sem revelações preservada.
+
+O dossiê v142 do Claude 2 forneceu triagem de certeza. Novas conferências: perfis oficiais da primeira temporada, apresentação da Shonen Jump, sinopses oficiais 48/50/51/55 e catálogo do volume 18. Volume 17 apenas triado; volume 16 falhou no acesso completo, sem uso como fundamento. Sem leitura integral nova de mangá/fanbook/episódios. Modulo não incorporado.
+
+337 arquivos iniciais íntegros; manifesto ampliado por união, com históricos dos arquivos integrados. Consultar apoio-lote8/verificacao.json para contagens finais e CONFERIR-SALVAMENTO.py para integridade. Verificadores anteriores conservam evidências históricas. Sem push, nova regra, simulação de combate ou teste humano.
+
+**Próxima tarefa:** L4 — personalização e cuidados dos personagens: vida rolada, família original, reparo corporal, CE4/condição, cuidados e comparação de Reserva Condensada. **GPT-6 Astra, esforço extra alto**, para análise; **GPT-6.1 Sol, esforço alto**, para redação. A referência comum de Reserva Condensada será apresentada ao autor depois da comparação concreta.
+
+## 26/10/2026 — L4 parcial, cinco exemplos e validação de Reserva
+
+Plano 75, pauta 69, matriz 13, competências 16; registros 85/86; manuscrito até 92. Leia P85/P86/G89–92 e apoio-lote4/cobertura-atualizada.json. M040/M043/M048/M049/M050 passam a E. M051 permanece P. Totais: 113 E/17 P/0 L; competências 17 E/3 P, ainda P14/P15/P20. L1/L3/L2/L8 entregues; L4 em andamento. Depois de L4: L6 → L5 → L7 → integração/edição.
+
+G89: vida rolada com declaração local inclusive primeiro nível; família Arata com marcante Kamo publicada e duas menores originais experimentais. G90: Ena 9/41, CD12, repetição de Manutenção Precisa, +20 e saldo29; reparador n4 não tem especialização. G91: Nilo Emanador5, Quebradiço, Rede Remota, PV16, PE36, Escriba da seção53 com Def13; canal comum real, sem novos sentidos; três cuidados/resoluções corporais. G92: alternativa B de Reserva, depósito até Essência antes da recuperação longa, teto4Ess, retirada2Ess/Bônus; TODO esse padrão continua proposto.
+
+O autor NÃO aprovou Reserva. Respondeu à consulta inicial pedindo validação com materiais. P86 compara R53 e fontes externas; minuta diária A preservada em apoio-lote4/modelo-a-inicial.md. Recomendação passou a testar B primeiro por guardar sobras entre missões, mas poucas missões podem abastecer devagar. Ação Bônus não é custo relevante fora do combate. Teto4Ess pesa especialmente no Bastião inicial; ainda não demonstrado como melhor. Não converter recomendação em decisão autoral.
+
+346 arquivos iniciais íntegros; históricos dos integrados e manifesto por união. Consultar apoio-lote4/verificacao.json e CONFERIR-SALVAMENTO.py. Sem push, teste humano ou equilíbrio declarado. Não usar verificadores antigos como se descrevessem fontes atuais modificadas.
+
+**Próxima tarefa:** Decidir com o autor o papel de Reserva Condensada e fechar a referência a partir dos modelos, usos e cadências comparados. **GPT-6 Astra, esforço extra alto**, para comparação; **GPT-6.1 Sol, esforço alto**, para consolidar a redação após a escolha. Os cinco exemplos de L4 já entregues não precisam ser reiniciados.
+
+## 26/10/2026 — correção de escopo de Reserva
+
+O autor determinou descartar o detalhamento proposto e manter Reserva Condensada como está na R53 por enquanto. A escolha anterior de depósito antes do longo foi desconsiderada. Modelos A/B, depósitos, tetos e retiradas propostos não são decisões autorais vigentes. A pesquisa é histórica; o livro-base permanece intacto.
+
+Estado vigente: plano 76, pauta 70, matriz 14, competências 17; registro 87. O usuário selecionou poupança antes do longo e imediatamente corrigiu: “agora q vi oq aprovei, guardar PE é pros players? n nunca”. A seleção anterior não deve ser usada como aprovação. A habilidade é uma menor opcional de Restrição corporal na R53, não uma regra geral de jogadores ou de inimigos. Não afirmar que ela foi removida do livro.
+
+Resposta recebida: “Descartar o detalhamento proposto; manter a habilidade existente por enquanto”. Escopo resolvido; não perguntar novamente nem continuar escolhendo parâmetros. G92 foi substituída por orientação do acordo particular previsto na R53; versão anterior preservada no histórico. Os cinco exemplos de L4 permanecem; M051/P20 e totais não mudam. Cobertura atual: apoio-correcao-reserva/cobertura-atualizada.json; verificação correspondente nessa pasta. Os conferidores anteriores preservam o estado histórico das fontes. CONFERIR-SALVAMENTO.py confere o manifesto atual.
+
+**Próxima tarefa:** Seguir para L6 — montagens e pareceres que faltam: Forma Fluida, mescla ampliada, repetição de peça, Condicional/Restrição Própria, efeito fora de combate e cancelamento. **GPT-6 Astra, esforço extra alto**, para análise; **GPT-6.1 Sol, esforço alto**, para revisão. M051 conserva apenas conferência editorial do escopo publicado, sem retomada do detalhamento descartado.
+
+## 26/10/2026 — L6 entregue: montagens e pareceres
+
+Plano 77, pauta 71, matriz 15, competências 18; registro 88; manuscrito até 95. Leia P88 e G93–95. Cobertura vigente: apoio-lote6/cobertura-atualizada.json. M055/M084/M087/M088/M090/M091 passam a E; 119 E/11 P/0 L, competências 17 E/3 P (P14/P15/P20). L1/L3/L2/L8/L6 entregues. P20 mantém L5 e conferência editorial de M051; L4 conserva somente essa conferência. Fila: L5 → L7 → integração e edição de leitura.
+
+G93: Yara Emanadora15, C3/C4, Aura/cura/Escolher/Gesto; parcelas2+1 e3+1; Forma Fluida troca para Explosão, reduz ambas as linhas a1+1 e acrescenta2PE. G94: Firmeza repetida somente por categorias diferentes, preço e vagas separados; Condicional com água definida, impedimento hipotético4/6 e devoluçãoM; Matriz de chão própria experimental com devoluçãoL e consumo por tentativa. G95: Luz de OficinaC2 por6PE/10min, encerramento em combate registrado; DesarmaC1/C2; exibição sobrenatural do Escriba recebe Classe1 local para cancelamento, sem conversão de CE e sem apagar memória; Domínio impossível.
+
+Nenhum padrão geral novo aprovado; sem teste humano ou equilíbrio declarado. Decisão87 permanece: detalhamento de Reserva descartado; habilidade existente mantida na R53. Não retomar A/B nem seus parâmetros. Não mudar números do Bestiário antigo. R53 e G92 intactas. Conferidor atual: apoio-lote6/conferir.py; salvamento: CONFERIR-SALVAMENTO.py. Conferidores anteriores preservam evidências históricas e podem apontar alterações legítimas posteriores. Histórico desta integração em apoio-lote6/historico; manifesto por união. Sem envio ao GitHub.
+
+**Próxima tarefa:** L5 — equipamento, projetos e reconhecimento: ferramenta original e processo especial; objeto ou selo com risco de ingestão; negociação/revenda; feito do Limiar e promoção. **GPT-6 Astra, esforço extra alto**, para projetos e efeitos; **GPT-6.1 Sol, esforço alto**, para revisão de clareza.
+
+## 26/10/2026 — L5 entregue: equipamento, projetos e reconhecimento
+
+Plano 78, pauta 72, matriz 16, competências 19; registro 89; manuscrito até 99. Leia P89 e G96–99. Cobertura vigente: apoio-lote5/cobertura-atualizada.json. M052/M058/M067/M069/M070/M071/M074/M078 passam a E. Totais 127 E/3 P/0 L; competências 17 E/3 P. Restam M051/M124/M129; P14/P15/P20 parciais. L1/L3/L2/L8/L6/L5 entregues; L4 só conferência editorial de M051, sem retomar números de Reserva. Fila: L7 → conferência editorial restante → integração e edição de leitura.
+
+G96: Anel de Testemunho grau3 local, uma marca por item/personagem; informação no fecho, sem contenção. Receita específica na oficina, Kenji faz base6h, Aya processo8h e retomada4h; espera12h; custo30mil, falha/retomada+8mil, total38mil; 6h pessoais. G97: Kenji Zenin nível7/Grau3, Cofre+Palavra Empenhada; Kunai Fiel emprestada, anel próprio vendido por24mil após condição de2h; saldo26mil e20h se mesmo ciclo. G98: Pastilha local, selo8h, proteção6m, chamado60m; ingestão desfaz objeto, chamado10min e TR Espírito14 contra Surdo10min; riscos prévios e intervenção próprias. G99: Aoi nível20, socorro de Mako0/84, Aguentar21, janela2; cura4d8=22 por6PE, devolve participação. Feito atende à lista/faixa/ameaça real. 3950+50XP=4000, paga3000, nível22 com1000; promoção Grau2→1 por parecer local separado.
+
+Não houve aprovação autoral de padrões gerais, sessão humana, equilíbrio declarado, mudança na R53 ou envio ao GitHub. Números do Bestiário antigo não foram usados. Decisão87 preservada; G92 intacta. Conferidor vigente: apoio-lote5/conferir.py; salvamento: CONFERIR-SALVAMENTO.py. Conferidores anteriores são históricos e podem apontar alterações posteriores legítimas. Histórico desta integração em apoio-lote5/historico; manifesto por união.
+
+**Próxima tarefa:** L7 — ampliar referências de ameaças e perigos a partir da R53, comparar perfis/chefes/composições e completar uma consequência prolongada. **GPT-6 Astra, esforço extra alto**, para análise e cálculos; **GPT-6.1 Sol, esforço alto**, para revisão de clareza. Depois: conferência editorial restante e integração da edição de leitura.
+
+## 26/10/2026 — L7 entregue: ameaças e consequência prolongada
+
+Plano 79, pauta 73, matriz 17, competências 20; registro 90; manuscrito até 103. Leia P90 e G100–103. Cobertura vigente: apoio-lote7/cobertura-atualizada.json. M124/M129 e P14/P15 passam a E. Totais 129 E/1 P/0 L; competências 19 E/1 P. Restam M051/P20 apenas no escopo editorial publicado de Reserva. L1/L3/L2/L8/L6/L5/L7 entregues; L4 só conferência editorial. Fila: conferência editorial restante → integração e edição de leitura.
+
+G100: 24 recortes de personagem nos níveis2/6/10/15/20/22/26/30; 144 curvas de alvos; feitiços/misto, Duro de Matar, apoio e Alma. Não são fichas completas nem escala geral; níveis26/30 iguais na ofensiva básica não são equivalentes no jogo. G101: Haru15 PV280/I140/PE26, dois ataques ou FitaC2/4; aviso no turno anterior e um turno sem uso após conjurar. Vigia15 PV120/I60/PE14 um ataque; Tessa15 PV80/I40/PE26, cura8d8C4/12PE e ImpulsoC1/3PE. Recursos e Integridade reais, sem Doma ou Caminho oculto. G102: mapa, arquivo com três Padrões contínuas ou fechoDef18/PV5, alternativa social, guarda/dupla e cálculo condicional de sobrevivência. Socorro de Mei137máx/1Sequela, Insistir46/janela2, cura36+10 fecha com46PV/2Sequelas; Aguentar35 muda objetivo. Quatro ataques em24PV distinguem queda e derrota, sem volta temporal. G103: doença fictícia por contato, sem transmissão entre pessoas, incubação6h, crises6/6h, TRVigor14, falha2d6Veneno+Envenenado10rodadas com saídaPesada. Encerra em2sucessosconsecutivos ou48h, ou atendimento2hMedicina14; falha espera6h e exige novo2h. Desfecho e relógio são locais; descanso e dedicação não mudaram.
+
+Conferência documental, enumeração de recortes e revisão editorial; sem sessão humana, equilíbrio declarado, escala geral adotada, alteração da R53 ou envio ao GitHub. Decisão87 e G92 preservadas. Conferidor vigente: apoio-lote7/conferir.py; salvamento: CONFERIR-SALVAMENTO.py. Conferidores anteriores são históricos; evidências alteradas foram relocalizadas na cobertura nova. Histórico em apoio-lote7/historico; manifesto por união.
+
+**Próxima tarefa:** Conferir M051 no escopo publicado de Reserva, sem retomar modelos descartados, e integrar a edição de leitura: ordem de capítulos, remissões, repetições e consultas. **GPT-6.1 Sol, esforço alto**. Contradições mecânicas novas, se aparecerem, ficam para análise separada com Astra extra alto.
+
+## 26/10/2026 — primeira edição de leitura integrada
+
+Plano80, pauta74, matriz18, competências21; registro91. M051/P20 passam a E após conferência editorial de Reserva no escopo publicado; L4 entregue. Cobertura vigente: apoio-edicao-leitura/cobertura-atualizada.json,130 E/0 P/0 L e20 E/0 P. Aprendizagem observada continua falsa. A decisão87 não mudou: detalhamento descartado, habilidade publicada mantida. G92 tem quatro campos, registro e conferência sem números; inclui a exceção publicada de Último Fôlego. G33 remete à consulta atual.
+
+Abra07 - Edicao de Leitura/index.html. Dez capítulos,17 fichas/exemplos de registro, termos e piloto.100 textos numerados no corpo principal; G87 em aprofundamento separado e fora da busca; G69/70 históricos fora do corpo. PilotoP13 e baseP14 incorporados. Manuscrito completoMarkdown editável. GERAR-EDICAO.py reconstrói a edição a partir das fontes; mapa-editorial.json registra hashes, destinos e cortes. Fontes permanecem em06; corrigir nelas antes de regenerar. Não chamar isso de1.0 ou afirmar revisão semântica integral nova de todo o texto.
+
+Registro91 e apoio-edicao-leitura guardam integração, cobertura e verificação. Histórico dos12 arquivos alterados em apoio-edicao-leitura/historico; manifesto por união. R53 intacta, sem envio ao GitHub ou mudança de mecânicas. Treinamentos, Bestiário integral e escala geral ficam em trabalhos próprios. A navegação foi conferida; sugestões de leitores podem chegar durante a revisão.
+
+**Próxima tarefa:** Revisar o manuscrito organizado como conjunto, em passagens por capítulo: clareza, coerência entre exemplos e regra, caminhos de consulta e pontos de decisão. **GPT-6 Astra, esforço extra alto**, para a revisão crítica; **GPT-6.1 Sol, esforço alto**, para aplicar correções. O retorno de leitores pode ser incorporado em paralelo; não bloqueia a revisão interna.
+
+
+## 26/10/2026 — revisão crítica e PDF pré-1.0
+
+**Atualização de 26/10/2026 — edição diagramada:** corpo abaixo histórico. Plano81, pauta75, matriz18, competências21; [registro92](<../../04 - Planejamento/92-revisao-critica-e-edicao-diagramada.md>). Abra a [edição de leitura 2](<../../07 - Edicao de Leitura/index.html>) ou o [PDF pré-1.0](<../../08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf>). A revisão estrutural e dirigida, as opções de imagens e as provas visuais estão documentadas. A correção do balanceamento que fragmentava parágrafos foi incorporada após observação do autor. Próximo: retorno e revisão dirigida — Sol alto; contradições mecânicas — Astra extra alto. Decisão87 preservada, R53 intacta. Não afirmar teste humano ou equilíbrio certificado. CONFERIR-SALVAMENTO.py verifica o acervo local. Esta edição ainda não foi enviada ao GitHub.
+
+A ordem da leitura mudou; os números de produção foram preservados. Conferir o registro92 e o relatório visual antes de editar. As instruções anteriores sobre iniciar a diagramação ou ainda aguardar a primeira revisão são históricas. Não reintroduzir o detalhamento de Reserva. As fontes devem ser editadas antes da regeneração.

@@ -1,0 +1,79 @@
+{
+  "etapa": 90,
+  "data": "2026-10-26",
+  "escopo": "L7: outras faixas, comparação de guarda/dupla, socorro/objetivo e doença fictícia; sem escala geral adotada.",
+  "manifesto_anterior": 385,
+  "arquivos_anteriores_intactos_antes_da_instalacao": 385,
+  "arquivos_atualizados": 16,
+  "arquivos_novos_no_manifesto": 14,
+  "arquivos_anteriores_sem_alteracao": 369,
+  "copias_historicas_conferidas": 16,
+  "manifesto_final": 399,
+  "matriz_130_linhas_preservada": true,
+  "competencias_20_linhas_preservadas": true,
+  "cobertura": {
+    "etapa": 90,
+    "contagens_M": {
+      "E": 129,
+      "P": 1,
+      "L": 0
+    },
+    "contagens_P": {
+      "E": 19,
+      "P": 1
+    },
+    "evidencias_conferidas": 322,
+    "reclassificados": [
+      "M124",
+      "M129",
+      "P14",
+      "P15"
+    ],
+    "pontos_parciais": [
+      "M051"
+    ],
+    "competencias_parciais": [
+      "P20"
+    ],
+    "R53_intacta": true,
+    "decisao_Reserva_preservada": true,
+    "perfis": 24,
+    "curvas": 144,
+    "composicoes_condicionais": 8,
+    "verificacoes_numericas": 9,
+    "recalculado": false,
+    "problemas": [],
+    "limites": "Integridade documental, contas e recortes condicionais; sem validação de aprendizagem ou equilíbrio."
+  },
+  "links_novos_ou_alterados_conferidos": 72,
+  "blocos_de_tabelas_conferidos": 20,
+  "reproducao_numerica_previa": {
+    "comando": "conferir.py --recalcular, no pacote preparado",
+    "resultado": "sem problemas; out reproduzido igual a resultados.json",
+    "script_sha256": "dd5dfe126d0685ca29e44bce5b80f4393b91ad619d921af6a29d31a209d903ae",
+    "resultados_sha256": "a9d1c2f1f7cc6b9fb795e86ea6696631f03350c92eaa769ccd19386d0ba485d8",
+    "verificacoes": 9,
+    "perfis": 24,
+    "curvas": 144,
+    "composicoes_condicionais": 8
+  },
+  "revisao_editorial_manual": [
+    "Perfis são recortes explícitos, com marcos e habilidades não modeladas; o empate26/30 não declara equivalência de níveis.",
+    "Conjuntos usam três Padrões; Ataque Extra não se repete na mesma rodada; energia comporta os usos declarados.",
+    "Duro usa a soma real de Bloquear, conferida por enumeração independente; não se aplica a TR.",
+    "Fichas de inimigo têm corpo, sentidos, equipamento, perícias/TRs, recursos, ações, fim e estágio de Integridade.",
+    "Fita conserva montagem normal de Área/Controle; aviso/intervalo não devolvem pontos nem concedem Carregar; custos, alvos e saídas de Prende escritos.",
+    "Tessa não cura após cair; Impulso favorece uma tentativa e cura compartilha Padrão e PE.",
+    "Comparação de composição não executa a resposta sobre os jogadores e não estima duração integral; guarda de objetivo não declarado chefe equilibrado.",
+    "Arquivo tem operação, alternativa de força e conversa; fecho corrigido para pequena peça resistente de açoDef18/PV5 pela R53.",
+    "Socorro compara Insistir46 e Aguentar35 para137PV/Classe4, janela2; cura36+10 acumula e não remove Prende.",
+    "Quatro ataques legais no recorte sem volta temporal diferenciam zeroPV e Derrotado; Haru não ganha quatro golpes.",
+    "Doença possui transmissão específica, sinais, incubação, crises, tratamento/falha, duas saídas naturais e cuidado entre mestres; sem transmissão oculta.",
+    "Envenenado conserva TR de saída; doença, PV, fonte e socorro são estados diferentes; descansos e dedicação preservados.",
+    "R53/G92 e decisão87 intactas; M051/P20 continuam parciais; 130 pontos e20 competências preservados."
+  ],
+  "R53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "preservados": "R53, decisão de Reserva, Bestiário antigo, casos anteriores e histórico. Manifesto por união.",
+  "limites": "Conferência documental, enumeração de recortes e revisão editorial; sem sessão humana, simulação integral de combate, validação de equilíbrio, aprovação de escala geral ou envio ao GitHub.",
+  "problemas": []
+}

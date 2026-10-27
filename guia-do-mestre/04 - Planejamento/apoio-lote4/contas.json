@@ -1,0 +1,218 @@
+{
+  "vida_rolada": [
+    11,
+    17,
+    29
+  ],
+  "vida_fixa": [
+    14,
+    23,
+    32
+  ],
+  "reparo": {
+    "maximo": 41,
+    "CD": 12,
+    "bonus": 4,
+    "primeiro": 11,
+    "repeticao": 12,
+    "recupera": 20,
+    "final": 29,
+    "classes": [
+      20,
+      20,
+      20,
+      13,
+      10
+    ],
+    "autonomo": 12
+  },
+  "nilo": {
+    "PV": 16,
+    "PE": 36,
+    "defesa_escriba": 13,
+    "bloquear_constante": 2,
+    "vigor": 3
+  },
+  "comparacao_cheia": [
+    {
+      "curtos": 0,
+      "excedente": 36,
+      "abundante": 30,
+      "condensada_cheia": 42
+    },
+    {
+      "curtos": 1,
+      "excedente": 45,
+      "abundante": 42,
+      "condensada_cheia": 49
+    },
+    {
+      "curtos": 2,
+      "excedente": 54,
+      "abundante": 54,
+      "condensada_cheia": 56
+    },
+    {
+      "curtos": 3,
+      "excedente": 63,
+      "abundante": 66,
+      "condensada_cheia": 63
+    }
+  ],
+  "estoque_por_longos": [
+    3,
+    5,
+    5,
+    8
+  ],
+  "ciclo_B": [
+    [
+      30,
+      12
+    ],
+    [
+      21,
+      12
+    ],
+    [
+      27,
+      6
+    ],
+    [
+      17,
+      6
+    ],
+    [
+      24,
+      6
+    ],
+    [
+      30,
+      0
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      30,
+      3
+    ]
+  ],
+  "escala": [
+    {
+      "nivel": 1,
+      "essencia": 3,
+      "bastiao": 4,
+      "vanguarda": 5,
+      "emanador": 6,
+      "teto": 12,
+      "excedente": 6
+    },
+    {
+      "nivel": 2,
+      "essencia": 3,
+      "bastiao": 8,
+      "vanguarda": 10,
+      "emanador": 12,
+      "teto": 12,
+      "excedente": 6
+    },
+    {
+      "nivel": 5,
+      "essencia": 3,
+      "bastiao": 20,
+      "vanguarda": 25,
+      "emanador": 30,
+      "teto": 12,
+      "excedente": 6
+    },
+    {
+      "nivel": 10,
+      "essencia": 4,
+      "bastiao": 40,
+      "vanguarda": 50,
+      "emanador": 60,
+      "teto": 16,
+      "excedente": 8
+    },
+    {
+      "nivel": 20,
+      "essencia": 5,
+      "bastiao": 80,
+      "vanguarda": 100,
+      "emanador": 120,
+      "teto": 20,
+      "excedente": 10
+    }
+  ],
+  "usos_cadencias": {
+    "inicial_um_curto": {
+      "condensada": 22,
+      "excedente": 17,
+      "abundante": 11
+    },
+    "avancada": [
+      [
+        170,
+        162,
+        168
+      ],
+      [
+        200,
+        194,
+        216
+      ]
+    ],
+    "saque_inicial": [
+      8,
+      6
+    ],
+    "apos_conjuracao_inicial": [
+      5,
+      6
+    ],
+    "saque_avancado": [
+      18,
+      10
+    ],
+    "apos_conjuracao_avancada": [
+      9,
+      10
+    ],
+    "cadencias": [
+      {
+        "semanas": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "estoque": [
+          3,
+          6,
+          9,
+          12
+        ]
+      },
+      {
+        "semanas": [
+          4,
+          8,
+          12,
+          16
+        ],
+        "estoque": [
+          3,
+          6,
+          9,
+          12
+        ]
+      }
+    ]
+  }
+}

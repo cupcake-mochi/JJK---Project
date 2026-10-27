@@ -1,6 +1,8 @@
 # Decisões para o Guia do Mestre do Ciclo Maldito
 
-Versão 49, de 23 de outubro de 2026. Critérios de habilidades e interações desenvolvidos no registro 65 e nas seções 60/61. Conservar, adaptar e criar são caminhos de trabalho; a resolução de cada capacidade mantém seus requisitos e interações. Nenhuma economia universal ou número experimental foi aprovado.
+Versão 75, de 26 de outubro de 2026. Revisão crítica e edição diagramada no registro92; pré-1.0, revisão de leitura 2. Próximo: incorporar retorno e revisar os pontos identificados.
+
+> **Orientação vigente:** A [edição de leitura 2](<../07 - Edicao de Leitura/index.html>) e o [PDF diagramado](<../08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf>) estão organizados em dez capítulos e quatro apêndices. O [registro92](92-revisao-critica-e-edicao-diagramada.md) documenta a revisão crítica, a seleção de imagens e a revisão visual, incluindo a correção das quebras de coluna apontada pelo autor. A cobertura permanece 130 E/0 P/0 L e 20 E/0 P: demonstrações escritas, sem aprendizagem observada ou equilíbrio certificado. Reserva segue a decisão87. As atualizações anteriores são históricas.
 
 Este caderno reúne as escolhas de projeto a discutir com Mizuki antes de adotar novos números ou procedimentos. As alternativas dos blocos ainda abertos são propostas para discussão. As respostas efetivas estão identificadas nos respectivos blocos e no registro de decisões.
 
@@ -196,11 +198,21 @@ As referências M correspondem ao inventário R53. Uma ligação com este cadern
 
 **Entrega inicial preparada:** Rastejante, Amontoado do depósito e Vigia das farpas, com conversões de aquisição, no documento 14. O piloto usa um Amontoado isolado. O documento 15 registra cálculos, perfis parciais de referência, hipóteses e resultados de simulações restritas. A base foi escrita com os procedimentos atuais da R53; seus valores novos são propostas locais, sem uma escala geral de dificuldade aprovada.
 
-**Desenvolvimento atual:** registros 60–65 e seções 56–61: preparação, avaliação, ficha de encontro, comparação dos recursos e critérios de habilidades. O [registro 65](65-criterios-e-interacoes-das-habilidades.md) confere procedimento, dependência e interações e acrescenta uma ficha de habilidade. Agarrar exemplifica uma função característica sem gasto adicional. PE, usos, intervalo, recarga e preparo são comparados pela função; nenhuma economia universal foi escolhida. Estatísticas do piloto preservadas; valores dos novos ensaios continuam experimentais.
+**Desenvolvimento atual:** registros60–70 e seções56–70: preparo, recursos, habilidades, Carregador, perigo, composição ambiental, método e primeiro protótipo de chefe. O [registro70](70-prototipo-do-carregador-vigilante.md) apresenta Vigília móvel, com movimento reservado e Reação comum, comparação com Preparar e conversão completa. PE, usos, intervalo, recarga e preparo continuam escolhidos pela função; nenhuma economia universal ou escala geral foi aprovada.
 
-**O que desenvolver e decidir depois:** aplicar os critérios em um encontro curto com o Carregador de sinos e um elemento ambiental, fechando corpo, percurso, respostas e continuidade. Desenvolver depois as referências numéricas de construção por nível, função e composição, com energia conforme as capacidades escolhidas. A pergunta binária anterior sobre PE não recebeu aprovação; não retomá-la como decisão tomada. Preparar alternativas concretas e receber a decisão de Mizuki antes de adotar mudanças mecânicas adicionais. A produção da pré-1.0 continua com conferências internas; aplicação com fichas reais e retorno de leitores contribuirão quando disponíveis, sem impedir a escrita seguinte. A atualização integral do catálogo permanece para depois, conforme sua resposta.
+**Resposta autoral recebida:** Mizuki pediu comparar com inimigos de outros sistemas e questionou a qualidade do Carregador com essa habilidade. Não confirmou a adoção nem a CE1. A pergunta anterior foi respondida com pedido de reavaliação; não voltar a oferecê-la como escolha binária obrigatória sem apresentar uma reconstrução.
 
-**Perguntas da conversa:** como manter fichas e exemplos a partir de uma fonte comum? Quais quantidades de participantes e faixas de progressão precisam aparecer nos testes? Que critérios de duração, pressão e objetivos serão usados para avaliar encontros?
+**Reavaliação atual:** o [registro71](71-reavaliacao-do-chefe-e-comparacao-externa.md) compara quatro criaturas publicadas por função. O assistente retira Vigília móvel da recomendação de exemplo principal de chefe: pouca consequência nova, gestão elevada e conflito com captura/transporte. G69/G70 permanecem como estudo, com aviso. Isso não invalida o Carregador comum nem prova dificuldade numérica.
+
+**Reconstrução entregue:** [registro 72](72-reconstrucao-do-chefe-sineiro.md), com Sineiro, sequência de captura e impacto, respostas do grupo e Doma. Não houve aprovação autoral dos novos valores ou peças próprias.
+
+**Comparação entregue:** [registro 73](73-pressao-e-sobrevivencia-do-sineiro.md), com probabilidades por ação e sequência declarada. O assistente revisou a candidata para 108 PV/54 de Integridade; dano, CD e Doma preservados, sem aprovação autoral atribuída. A montagem de 6d8 de Alma não foi presumida como acesso comum de Classe 2: conferir a permissão concreta antes de introduzir esse perfil.
+
+**Continuação entregue:** ensaio guiado no [registro 74](74-ensaio-guiado-do-sineiro.md) e primeira régua no [registro 75](75-primeira-regua-de-inimigos.md). A proposta central usa 24PV/12 de Integridade no nível2 e 72/36 no nível6, com comparação de alternativas; não equivale a aprovação autoral ou dificuldade garantida. A pergunta binária sobre PE não volta como pendência obrigatória. A composição foi entregue no [registro 76](76-dupla-de-nivel-6-e-composicao.md): Ren/Sora, parâmetros de inimigo, duas iniciativas e recursos disputados. A escala geral, o catálogo integral e os treinamentos continuam pendentes.
+
+**Integração entregue:** [registro 77](77-integracao-do-metodo-de-inimigos.md), com método, ficha única e exemplo preenchido; manter a referência completa da criatura e sua versão como fonte comum. Sem nova decisão autoral.
+
+**Perguntas da conversa:** como ampliar a manutenção conjunta de fichas e exemplos? Quais quantidades de participantes e faixas de progressão precisam aparecer nos testes? Que critérios de duração, pressão e objetivos serão usados para avaliar encontros?
 
 **Limites:** fichas completas antes do encontro aberto; nenhuma tabela de outro jogo fornece diretamente a dificuldade do Ciclo Maldito. Verificar nível, Grau, categoria e papel segundo as fontes próprias antes de usar esses termos como medida. A avaliação deve considerar ações disponíveis, dano, recursos, socorro e retirada, incluindo o funcionamento atual de Insistir, janela de socorro, tratamento e Sequelas. Distinguir tempo até chegar a zero de vida, tempo de participação ativa e término do encontro. Não fixar uma duração de combate a partir da janela de socorro nem presumir que todos os combates ficaram mais longos.
 
@@ -216,13 +228,15 @@ As referências M correspondem ao inventário R53. Uma ligação com este cadern
 
 **Reavaliação e esclarecimento:** o [registro 63](63-reservas-usos-e-ritmo-dos-inimigos.md) substituiu a recomendação provisória do 62. O [registro 64](64-prototipos-de-recursos-dos-inimigos.md) entrega os protótipos e incorpora a preocupação central de Mizuki: PE virarem apenas incentivo a gastar tudo cedo. Sua sugestão é considerar recarga, condições e outros limites em algumas capacidades, sem excluir PE quando fizerem sentido. A pergunta de preservar PE ou simplificar interações não recebeu aprovação; foi considerada prematura.
 
-**Próximo desenvolvimento:** definir critérios para feitiço conservado, adaptação de inimigo e habilidade própria. Escolher uso livre, recarga, intervalo, preparo ou reserva pela função, antes de estabelecer PE por nível. Informação de energia não obriga gasto em toda habilidade. Conferir interações sem atribuir automaticamente custo de feitiço a toda ação. A seção 59 ensina essa distinção. Quantidades, Trançar placas e exceções de custo-base zero são propostas de ensaio, não escolhas autorais. Não repetir a pergunta binária anterior como pendência obrigatória.
+**Critérios entregues e aplicados:** registro 65 e seções 60/61 distinguem conservar, adaptar e criar; registro 66 e seções 62/63 aplicam o método num encontro completo. Informação de energia não obriga gasto em toda habilidade. As variantes N conservam custo-base 3 da Classe 1 e dispensam apenas o pagamento normal; base zero é formulação superada. Nenhuma economia universal foi escolhida. Não repetir a pergunta binária anterior como pendência obrigatória.
 
 ## D12 Perigos ambientais
 
-**Desenvolvimento atual:** a seção 58 oferece campos de sinais, área, gatilho, ritmo, resolução e intervenção. O registro 60 identifica os casos ambientais completos como pendentes; a ferramenta não conclui M017/M129 nem aprova dano, doença ou subsistema novo.
+**Desenvolvimento atual:** a seção58 oferece a ferramenta; registro66/seções62–63 apresentam terreno e arrasto. O [67 — Perigo da passarela](67-perigo-da-passarela-e-do-guincho.md) e seção64 completam um perigo sem autor: passarela com sinais, ruptura única, interrupção, rotas e socorro. Dano de queda e ações são publicados; cronograma e dispositivo são propostas locais. O [registro 68](68-confronto-com-objetivo-e-pressao-ambiental.md) acrescenta mudança de acesso durante um confronto, com espaço, ações e estados definidos. M017/M129 continuam parciais para outros danos, doenças e efeitos não tabelados.
 
-**O que decidir:** conjunto de perigos a exemplificar e necessidade de referências novas para dificuldade, dano, ritmo e intervenção.
+**Ampliação entregue:** [registro 78](78-perigos-ambientais-e-exposicao.md) e seções 78/79 ensinam exposição, consequências separadas, prazos e limpeza, com caso de pó material. Os valores 14/1d6/dez rodadas/duas fases são parâmetros experimentais dessa ocorrência, sem aprovação autoral presumida.
+
+**O que decidir:** destino editorial dos parâmetros propostos e conjunto adicional de perigos; referências gerais só serão adotadas após comparação e decisão.
 
 **Perguntas da conversa:** quais perigos são relevantes às missões do sistema? Quais já podem ser montados com as regras atuais? O que exige aprovação de número ou procedimento adicional? Como comunicar sinais e saídas antes da consequência?
 
@@ -237,6 +251,8 @@ As referências M correspondem ao inventário R53. Uma ligação com este cadern
 **Depende de:** D01 e escalas da base verificadas. **Articula com:** D11 e D14. Sem decisão registrada.
 
 ## D13 Guilda e recompensas
+
+**Continuidade e consulta desenvolvidas:** [registro 79](79-c10-ferramentas-e-passagem.md) e seções 80/81 ligam registros, dúvidas, versões, retorno e passagem. O texto orienta a comunicação e o acompanhamento; não institui uma nova hierarquia de aprovações ou remuneração.
 
 **Desenvolvimento:** C08 explica XP por missão, falha, posição semanal por jogador, passagem de sessão, salário opcional e recompensa por mestrar. Exemplos não adotam salário, horário de reinício, quantidade de missões para prêmio ou critério universal de falha para uma guilda real. [Registro](27-c08-oficios-equipamento-e-recompensas.md).
 
@@ -320,7 +336,9 @@ Usar um registro para cada escolha efetiva. Um bloco pode precisar de vários re
 | Revisão | Condição que exigirá reconsiderar a decisão |
 | Estado | A conversar, decidido, em validação, revisado ou adiado |
 
-## Próxima avaliação
+## Histórico de avaliações e entregas
+
+Os registros seguintes conservam o estado de cada etapa. Uma indicação antiga de pergunta pendente pode ter sido respondida adiante; o estado atual está no início deste caderno e na última atualização.
 
 As diretrizes de D01, incluindo a divisão entre entrada sem revelações e aprofundamentos do mangá completo, estão registradas. Os pilotos foram preparados, e o sobrenatural tem base pequena, conversões e verificações. A [primeira seção em redação](<../06 - Redacao do Guia/01-preparar-uma-missao.md>) transforma o preparo em um procedimento com modelo em branco e exemplo consultável. A [revisão editorial](16-revisao-editorial-e-preparacao.md) registra escolhas de apresentação e limites da cobertura. Avaliar clareza e uso com fichas reais; condução de cenas pode avançar pelos procedimentos já definidos. A divisão editorial de D11, o modelo combinado de D02, o ciclo comum ajustável e a direção de D15 permanecem respondidos. Atualização integral do Bestiário e detalhes mecânicos dos treinos ficam para depois. O mapa dos materiais acrescentados ao acervo está na [revisão](07-revisao-dos-novos-relatorios.md).
 
@@ -374,3 +392,105 @@ O autor pediu recuperar o que havia sido trabalhado no livro e desenvolver um ga
 ## Continuação — fabricação completa
 
 [59 — Fabricação e evolução do Vigia](59-fabricacao-completa-e-evolucao-do-vigia.md) preenche o complemento da revisão 58. Ficha, projeto, estado de entrega, evolução, reconstrução e transferência conectados. Próximo: C04, GPT-6 Astra, esforço extra alto. A atualização integral do Bestiário e treinamentos permanecem adiados.
+
+## Ensaio guiado entregue — continuidade de C04
+
+[Registro 74](74-ensaio-guiado-do-sineiro.md) e [seção 73](<../06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md>): captura, interrupção, interceptação, objetivo, retirada e socorro em dois percursos. A alternativa de menor gasto ofensivo usa dois feitiços e uma espada. Não houve nova decisão autoral ou alteração da ficha. O construtor geral e a escala de chefes seguem abertos.
+
+**Etapa seguinte à época, agora entregue:** primeira régua experimental, registro 75.
+
+## Primeira régua entregue — continuação do construtor
+
+[Registro 75](75-primeira-regua-de-inimigos.md) e [seção 74](<../06 - Redacao do Guia/74-regua-inicial-de-inimigos.md>): propostas de partida, 72 curvas de sobrevivência e leitura separada de dano, frequência, controle e recursos. Sem modificar Carregador, Sineiro ou Domas. Não encerra C04/M124.
+
+**Etapa seguinte à época, agora entregue:** aplicação a atacante e apoio, registro 76.
+
+## Atacante e apoio — composição entregue
+
+[Registro 76](76-dupla-de-nivel-6-e-composicao.md) e seções75/76: fichas humanas próprias de inimigos, Ren72PV/36 de Integridade/8PE e Sora48/24/12PE, com capacidades montadas pela R53. São parâmetros editoriais experimentais, não reservas de Caminho ou escolhas autorais. Comparação condicionada de alvos e percurso com ações, posições e estados. Nenhuma dificuldade foi atribuída.
+
+**Etapa seguinte à época, agora entregue:** integração editorial do método e ficha única, registro 77.
+
+## Integração editorial de C04 — método e ferramenta
+
+[Registro 77](77-integracao-do-metodo-de-inimigos.md) reúne a revisão das seções 56–76 e o preenchimento da seção 77. A seção 56 é a entrada do procedimento; a 58 reúne os seis blocos de preparo; 61 e 68 aprofundam interações e chefes sem exigir outras fichas. O roteiro separa exemplos atuais e estudo histórico do Carregador vigilante. Regras, orientações, escolhas locais e propostas estão identificadas. Nenhuma ficha numérica foi alterada.
+
+**Etapa seguinte à época, agora entregue:** procedimento ambiental e exposição recorrente, registro 78.
+
+## Perigos ambientais — exposição e continuidade
+
+[Registro 78](78-perigos-ambientais-e-exposicao.md), [procedimento](<../06 - Redacao do Guia/78-preparar-perigos-ambientais.md>) e [caso completo](<../06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md>): uma fonte material, verificações de exposição, dano e condição independentes, limpeza e socorro. Escalas e saídas da R53 identificadas; CD, dano, duração e rotina locais ainda propostos. Sem nova decisão autoral atribuída, catálogo universal ou alteração das fichas anteriores.
+
+**Etapa seguinte à época, agora entregue:** ferramentas e passagem de C10, registro 79.
+
+## C10 — ferramentas, dúvidas e passagem
+
+[Registro 79](79-c10-ferramentas-e-passagem.md), [índice por situação](<../06 - Redacao do Guia/80-escolher-e-usar-as-ferramentas.md>) e [passagem preenchida](<../06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md>): modelos existentes conectados, nota de dúvida na folha de condução, ponto de retomada e tarefas na linha de continuidade. Exemplo distingue queda ativa, atendimento, fim do perigo e fechamento administrativo. Novos valores, recompensas e decisões autorais não foram acrescentados.
+
+**Próxima tarefa recomendada:** auditar a cobertura do manuscrito contra os 130 pontos e as 20 competências, identificando explicação, exemplo, ferramenta, pendência e decisão autoral. Priorizar as lacunas antes de organizar a edição completa de leitura. **GPT-6 Astra, esforço extra alto**, para cruzar os requisitos; **GPT-6.1 Sol, esforço alto**, para complementos e clareza. Treinamentos e Bestiário integral continuam adiados.
+
+## Auditoria de cobertura — estado vigente
+
+A [auditoria de cobertura](80-auditoria-de-cobertura-e-lacunas.md) registra evidências, limites e oito lotes ordenados. M017 recebeu base demonstrada; M124/M129 permanecem parciais. A fabricação criada de M119/M122 já está desenvolvida na seção 55. C10 não precisa ser refeito. Aprofundamento do mundo, Surpresa/Instinto e Reserva Condensada conservam os destinos próprios indicados na auditoria. Treinamentos, Bestiário integral e três ideias de Pactos adiadas ficam fora da complementação atual.
+
+**Próxima tarefa:** L1: completar sucesso com custo, testes coletivos e empate na iniciativa, conferindo a R53 e preparando exemplos para o leitor. **GPT-6 Astra, esforço extra alto**, para regras e casos; **GPT-6.1 Sol, esforço alto**, para redação e integração.
+
+## L1 entregue — testes e iniciativa
+
+O [registro 81](81-lote1-testes-grupo-e-iniciativa.md) reúne a conferência da R53, a redação e os exemplos. O diagnóstico 80 foi preservado como retrato anterior; a [cobertura atualizada](apoio-lote1/cobertura-atualizada.json) incorpora somente os três pontos revistos e atualiza as referências dos textos editados. Restam 34 pontos a complementar, com pesos diferentes, e quatro competências parciais. Não é uma porcentagem de conclusão. Nenhuma decisão autoral nova foi atribuída.
+
+**Próxima tarefa:** L3 — completar percepção e informação: Esconder, Ler o Ambiente, Intuição e lembranças, busca energética com interferência e sinais/assinaturas. **GPT-6 Astra, esforço extra alto**, para regras e casos; **GPT-6.1 Sol, esforço alto**, para clareza e integração.
+
+## L3 entregue — percepção e informação
+
+O [registro 82](82-lote3-percepcao-e-informacao.md) documenta os cinco complementos e a integração. A fonte atual chama de Memória Testemunha o procedimento de lembrança citado como Lembrança Retomada no inventário; a diferença foi registrada sem criar outra capacidade. A [cobertura atualizada](apoio-lote3/cobertura-atualizada.json) conserva o escopo e atualiza as evidências. Restam 29 pontos a complementar e quatro competências parciais; não é uma porcentagem de conclusão. Nenhuma aprovação nova foi atribuída.
+
+**Próxima tarefa:** L2 — espaço, objetos e capacidades do cenário: travessias, saltos com risco, queda sobre criatura, trajetórias, ferramentas, contenção e arma improvisada. **GPT-6 Astra, esforço extra alto**, para regras e exemplos; **GPT-6.1 Sol, esforço alto**, para clareza e integração.
+
+## L2 entregue — espaço e objetos
+
+O [registro 83](83-lote2-espaco-objetos-e-capacidades.md) reúne os complementos de M019/M020/M021/M022/M054/M064/M066. Os objetos improvisados e os riscos locais são exemplos de aplicação, sem aprovação de tabela geral. A [cobertura atual](apoio-lote2/cobertura-atualizada.json) conserva os 130 IDs e atualiza somente esses sete estados. Restam 22 pontos parciais e quatro competências parciais; a edição pré-1.0 continua incompleta.
+
+**Próxima tarefa:** L8 — mundo para consulta: sociedade, funções institucionais, diferentes modos de vida, aprofundamentos sinalizados e índice de termos. **GPT-6.1 Sol, esforço alto**, para curadoria e redação; **GPT-6 Astra, esforço alto**, se houver interpretação autoral em disputa. Conferir fontes primárias quando necessário e preservar a entrada sem revelações da trama.
+
+## L8 entregue — mundo para consulta
+
+O [registro 84](84-lote8-mundo-para-consulta.md) completa a base escrita de P02: consulta de sociedade e cotidiano, cinco aprofundamentos com avisos de revelações e índice de termos com percursos de uso. Os casos distinguem fontes oficiais, R53 e exemplos originais. Nenhuma época, região, instituição ou mecânica se torna padrão. A [cobertura atual](apoio-lote8/cobertura-atualizada.json) conserva 108 E/22 P/0 L e registra 17 E/3 P nas competências.
+
+**Próxima tarefa:** L4 — personalização e cuidados dos personagens: vida rolada, família original, reparo corporal, CE4/condição, cuidados e comparação de Reserva Condensada. **GPT-6 Astra, esforço extra alto**, para análise; **GPT-6.1 Sol, esforço alto**, para redação. A referência comum de Reserva Condensada será apresentada ao autor depois da comparação concreta.
+
+## L4 — cinco exemplos entregues; Reserva em avaliação
+
+O [registro 85](85-lote4-personalizacao-e-cuidados.md) integra vida rolada, família própria, reparo corporal, pacote CE4/condição e cuidados. M040/M043/M048/M049/M050 passam a E. M051 permanece P: o autor pediu validar a proposta de Reserva antes de adotá-la. A [comparação 86](86-validacao-da-reserva-condensada.md) recomenda testar o depósito antes da recuperação longa; teto e retirada continuam propostos. Não houve aprovação de A ou B. [Cobertura atual](apoio-lote4/cobertura-atualizada.json): 113 E/17 P/0 L e 17 E/3 P nas competências.
+
+**Próxima tarefa:** Decidir com o autor o papel de Reserva Condensada e fechar a referência a partir dos modelos, usos e cadências comparados. **GPT-6 Astra, esforço extra alto**, para comparação; **GPT-6.1 Sol, esforço alto**, para consolidar a redação após a escolha. Os cinco exemplos de L4 já entregues não precisam ser reiniciados.
+
+## Correção de escopo — Reserva Condensada
+
+O autor determinou descartar o detalhamento proposto e manter Reserva Condensada como está na R53 por enquanto. A escolha anterior de depósito antes do longo foi desconsiderada. Modelos A/B, depósitos, tetos e retiradas propostos não são decisões autorais vigentes. A pesquisa é histórica; o livro-base permanece intacto.
+
+**Próximo:** Seguir para L6 — montagens e pareceres que faltam: Forma Fluida, mescla ampliada, repetição de peça, Condicional/Restrição Própria, efeito fora de combate e cancelamento. **GPT-6 Astra, esforço extra alto**, para análise; **GPT-6.1 Sol, esforço alto**, para revisão. M051 conserva apenas conferência editorial do escopo publicado, sem retomada do detalhamento descartado.
+
+## L6 — montagens e pareceres entregues
+
+O [registro 88](88-lote6-montagens-e-pareceres.md) integra mescla ampliada e Forma Fluida, compras repetidas, Condicional/Restrição Própria, efeito de cena e cancelamento. Seis pontos passam a E por demonstração escrita: M055/M084/M087/M088/M090/M091. Não é aprovação de padrão experimental ou aprendizagem observada. As demais classificações estão preservadas; P20 continua parcial por L5 e conferência editorial de M051.
+
+**Próxima tarefa:** L5 — equipamento, projetos e reconhecimento: ferramenta original e processo especial; objeto ou selo com risco de ingestão; negociação/revenda; feito do Limiar e promoção. **GPT-6 Astra, esforço extra alto**, para projetos e efeitos; **GPT-6.1 Sol, esforço alto**, para revisão de clareza.
+
+## L5 — equipamento, projetos e reconhecimento entregues
+
+O [registro 89](89-lote5-equipamento-projetos-e-reconhecimento.md) demonstra os oito pontos nas seções 96–99. Ferramenta original e identificação têm fonte, processo, custo, trabalho, falha e entrega; a negociação preserva recusa; o objeto tem risco e encerramento; o feito de Limiar é conferido antes do XP, separadamente da promoção. Pareceres locais experimentais não se tornam padrões gerais. Cobertura 127 E/3 P/0 L e 17 E/3 P nas competências, sem aprendizagem observada.
+
+**Próxima tarefa:** L7 — ampliar referências de ameaças e perigos a partir da R53, comparar perfis/chefes/composições e completar uma consequência prolongada. **GPT-6 Astra, esforço extra alto**, para análise e cálculos; **GPT-6.1 Sol, esforço alto**, para revisão de clareza. Depois: conferência editorial restante e integração da edição de leitura.
+
+## L7 — ameaças e consequências prolongadas entregues
+
+O [registro 90](90-lote7-ameacas-e-consequencias-prolongadas.md) apresenta as seções 100–103: perfis em outras faixas, três fichas de nível15, composição/objetivo/socorro e doença fictícia completa. Referências numéricas são locais e experimentais; nenhuma escala geral ou atualização integral do Bestiário foi adotada. Cobertura 129 E/1 P/0 L e 19 E/1 P nas competências; resta M051/P20 no escopo editorial publicado.
+
+**Próxima tarefa:** Conferir M051 no escopo publicado de Reserva, sem retomar modelos descartados, e integrar a edição de leitura: ordem de capítulos, remissões, repetições e consultas. **GPT-6.1 Sol, esforço alto**. Contradições mecânicas novas, se aparecerem, ficam para análise separada com Astra extra alto.
+
+## Primeira edição de leitura integrada
+
+[Registro91](91-integracao-da-primeira-edicao-de-leitura.md): M051/P20 conferidos pela entrada da R53 e decisão87. L1/L3/L2/L8/L4/L6/L5/L7 têm demonstrações escritas no escopo definido. Dez capítulos, 17 folhas/exemplos de registro, termos e piloto formam a edição navegável; o aprofundamento com revelações fica separado e os estudos69/70 permanecem fora do percurso principal. O manuscrito completo em Markdown é editável. Integração estrutural não equivale a revisão semântica nova de cada passagem nem a avaliação humana.
+
+**Próxima tarefa:** Revisar o manuscrito organizado como conjunto, em passagens por capítulo: clareza, coerência entre exemplos e regra, caminhos de consulta e pontos de decisão. **GPT-6 Astra, esforço extra alto**, para a revisão crítica; **GPT-6.1 Sol, esforço alto**, para aplicar correções. O retorno de leitores pode ser incorporado em paralelo; não bloqueia a revisão interna.

@@ -1,0 +1,926 @@
+{
+  "metodo": "Enumeração finita e acumulação de distribuições; sem sorteio, sem combate completo. Probabilidades apresentadas com arredondamento.",
+  "testes": [
+    "Distribuição de 6d8 soma 1",
+    "Média 6d8",
+    "Ataque +5 contra Defesa11: acerto inclui crítico",
+    "20 natural contra Aparar",
+    "Duplo10 sem 20 natural oferece Aparar",
+    "Duplo1 oferece Brecha",
+    "Caso anterior publicado +4 Defesa13 Bloquear",
+    "TR +5 CD13 falha",
+    "TR +5 CD13 com vantagem falha",
+    "TR +5 CD13 com desvantagem falha",
+    "TR Espírito +1 CD15 falha",
+    "Média impacto sem TR reduzido",
+    "72PV sobrevivem sempre a um 6d8 sem crítico",
+    "Primeira declaração contra 72 inclui crítico",
+    "Integridade108PV: quarto exige14 pontos perdidos",
+    "Integridade108PV: três quartos exigem41 perdidos",
+    "Destruição: 59 de dano a partir de5 não supera54",
+    "Destruição: 60 de dano a partir de5 supera54"
+  ],
+  "perfis": [
+    {
+      "nome": "Bastião de referência",
+      "atributos": [
+        4,
+        2,
+        3,
+        1,
+        1
+      ],
+      "vida": 65,
+      "pe": 24,
+      "integridade": 50,
+      "tr_fisico": 5
+    },
+    {
+      "nome": "Emanador de referência",
+      "atributos": [
+        0,
+        2,
+        3,
+        4,
+        2
+      ],
+      "vida": 44,
+      "pe": 36,
+      "integridade": 55,
+      "tr_fisico": 3
+    },
+    {
+      "nome": "Guia de referência",
+      "atributos": [
+        0,
+        2,
+        3,
+        2,
+        4
+      ],
+      "vida": 51,
+      "pe": 30,
+      "integridade": 65,
+      "tr_fisico": 2
+    }
+  ],
+  "ataques": [
+    {
+      "defesa": 11,
+      "bloquear": false,
+      "miss": 0.25,
+      "hit": 0.7000000000000001,
+      "critical": 0.05,
+      "media_pancada_2d6_mais4": 8.600000000000001,
+      "media_feitico_6d8": 21.6
+    },
+    {
+      "defesa": 11,
+      "bloquear": true,
+      "hit": 0.6874999999999797,
+      "breach_trigger": 0.010000000000000005,
+      "miss": 0.2625000000000002,
+      "parry_trigger": 0.009500000000000005,
+      "critical": 0.05000000000000004,
+      "media_pancada_2d6_mais4": 8.462499999999777,
+      "media_feitico_6d8": 21.262499999999452
+    },
+    {
+      "defesa": 13,
+      "bloquear": false,
+      "miss": 0.35,
+      "hit": 0.6,
+      "critical": 0.05,
+      "media_pancada_2d6_mais4": 7.5,
+      "media_feitico_6d8": 18.9
+    },
+    {
+      "defesa": 13,
+      "bloquear": true,
+      "hit": 0.5964999999999897,
+      "breach_trigger": 0.010000000000000005,
+      "miss": 0.35350000000000026,
+      "parry_trigger": 0.009500000000000005,
+      "critical": 0.05000000000000004,
+      "media_pancada_2d6_mais4": 7.461499999999887,
+      "media_feitico_6d8": 18.805499999999725
+    },
+    {
+      "defesa": 16,
+      "bloquear": false,
+      "miss": 0.49999999999999994,
+      "hit": 0.44999999999999996,
+      "critical": 0.05,
+      "media_pancada_2d6_mais4": 5.85,
+      "media_feitico_6d8": 14.85
+    },
+    {
+      "defesa": 16,
+      "bloquear": true,
+      "hit": 0.45050000000000034,
+      "breach_trigger": 0.010000000000000005,
+      "miss": 0.4995000000000004,
+      "parry_trigger": 0.009500000000000005,
+      "critical": 0.05000000000000004,
+      "media_pancada_2d6_mais4": 5.855500000000005,
+      "media_feitico_6d8": 14.86350000000001
+    }
+  ],
+  "impacto": [
+    {
+      "tr": 2,
+      "resistencia": false,
+      "reducao": 0,
+      "falha": 0.5,
+      "dano_medio": 17.0,
+      "queda_a_partir_de_22pv": 0.28753662109375
+    },
+    {
+      "tr": 2,
+      "resistencia": false,
+      "reducao": 3,
+      "falha": 0.5,
+      "dano_medio": 14.0,
+      "queda_a_partir_de_22pv": 0.1761474609375
+    },
+    {
+      "tr": 2,
+      "resistencia": true,
+      "reducao": 0,
+      "falha": 0.5,
+      "dano_medio": 8.75,
+      "queda_a_partir_de_22pv": 0
+    },
+    {
+      "tr": 2,
+      "resistencia": true,
+      "reducao": 3,
+      "falha": 0.5,
+      "dano_medio": 5.7508544921875,
+      "queda_a_partir_de_22pv": 0
+    },
+    {
+      "tr": 3,
+      "resistencia": false,
+      "reducao": 0,
+      "falha": 0.45,
+      "dano_medio": 16.45,
+      "queda_a_partir_de_22pv": 0.258782958984375
+    },
+    {
+      "tr": 3,
+      "resistencia": false,
+      "reducao": 3,
+      "falha": 0.45,
+      "dano_medio": 13.45,
+      "queda_a_partir_de_22pv": 0.15853271484375
+    },
+    {
+      "tr": 3,
+      "resistencia": true,
+      "reducao": 0,
+      "falha": 0.45,
+      "dano_medio": 8.475,
+      "queda_a_partir_de_22pv": 0
+    },
+    {
+      "tr": 3,
+      "resistencia": true,
+      "reducao": 3,
+      "falha": 0.45,
+      "dano_medio": 5.47593994140625,
+      "queda_a_partir_de_22pv": 0
+    },
+    {
+      "tr": 5,
+      "resistencia": false,
+      "reducao": 0,
+      "falha": 0.35,
+      "dano_medio": 15.35,
+      "queda_a_partir_de_22pv": 0.201275634765625
+    },
+    {
+      "tr": 5,
+      "resistencia": false,
+      "reducao": 3,
+      "falha": 0.35,
+      "dano_medio": 12.35,
+      "queda_a_partir_de_22pv": 0.12330322265624999
+    },
+    {
+      "tr": 5,
+      "resistencia": true,
+      "reducao": 0,
+      "falha": 0.35,
+      "dano_medio": 7.925,
+      "queda_a_partir_de_22pv": 0
+    },
+    {
+      "tr": 5,
+      "resistencia": true,
+      "reducao": 3,
+      "falha": 0.35,
+      "dano_medio": 4.92611083984375,
+      "queda_a_partir_de_22pv": 0
+    }
+  ],
+  "controles": [
+    {
+      "bonus_tr": 5,
+      "cd": 13,
+      "vantagem": 0,
+      "falha": 0.35
+    },
+    {
+      "bonus_tr": 5,
+      "cd": 13,
+      "vantagem": 1,
+      "falha": 0.1225
+    },
+    {
+      "bonus_tr": 5,
+      "cd": 13,
+      "vantagem": -1,
+      "falha": 0.5775
+    },
+    {
+      "bonus_tr": 1,
+      "cd": 13,
+      "vantagem": 0,
+      "falha": 0.55
+    },
+    {
+      "bonus_tr": 1,
+      "cd": 13,
+      "vantagem": 1,
+      "falha": 0.3025
+    },
+    {
+      "bonus_tr": 1,
+      "cd": 13,
+      "vantagem": -1,
+      "falha": 0.7975
+    },
+    {
+      "bonus_tr": 1,
+      "cd": 15,
+      "vantagem": 0,
+      "falha": 0.65
+    },
+    {
+      "bonus_tr": 1,
+      "cd": 15,
+      "vantagem": 1,
+      "falha": 0.4225
+    },
+    {
+      "bonus_tr": 1,
+      "cd": 15,
+      "vantagem": -1,
+      "falha": 0.8775
+    }
+  ],
+  "reservas": [
+    {
+      "pv": 72,
+      "integridade": 36,
+      "bloquear": false,
+      "uma_arma_e_dois_feiticos": false,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 0.9993488524050919
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 0.9323834856259906
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.5843556719257578
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.2933765187505729
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.12864131302761245
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.051512204885792987
+        }
+      ]
+    },
+    {
+      "pv": 72,
+      "integridade": 36,
+      "bloquear": false,
+      "uma_arma_e_dois_feiticos": true,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 1.0
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 0.9911205333068933
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.8399599385782872
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.6763269380356313
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.3462521674715575
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.1496793917827227
+        }
+      ]
+    },
+    {
+      "pv": 72,
+      "integridade": 36,
+      "bloquear": true,
+      "uma_arma_e_dois_feiticos": false,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 0.9993488524050717
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 0.9336361247603485
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.6005738021181403
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.31226252680003563
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.14240824158208784
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.05945425722817466
+        }
+      ]
+    },
+    {
+      "pv": 72,
+      "integridade": 36,
+      "bloquear": true,
+      "uma_arma_e_dois_feiticos": true,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 0.9999999999999799
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 0.9912497705606197
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.8454124276981415
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.6905685238223104
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.36653070972562507
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.1652028694881736
+        }
+      ]
+    },
+    {
+      "pv": 108,
+      "integridade": 54,
+      "bloquear": false,
+      "uma_arma_e_dois_feiticos": false,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 1.0
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 0.9985067071636485
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.9545547110178091
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.7554761368200198
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.4875556155765348
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.26848495894954494
+        }
+      ]
+    },
+    {
+      "pv": 108,
+      "integridade": 54,
+      "bloquear": false,
+      "uma_arma_e_dois_feiticos": true,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 1.0
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 0.9999999975583047
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.9945127781481177
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.9819168533880507
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.8378505891004282
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.5530000958700035
+        }
+      ]
+    },
+    {
+      "pv": 108,
+      "integridade": 54,
+      "bloquear": true,
+      "uma_arma_e_dois_feiticos": false,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 0.9999999999999799
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 0.9985102634904249
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.9559920188250134
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.7672376146069673
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.5085197120164556
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.28978296505697404
+        }
+      ]
+    },
+    {
+      "pv": 108,
+      "integridade": 54,
+      "bloquear": true,
+      "uma_arma_e_dois_feiticos": true,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 0.9999999999999799
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 0.9999999975591338
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.9946373865089339
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.9825933396242748
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.8463121313014201
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.5740434782338574
+        }
+      ]
+    },
+    {
+      "pv": 144,
+      "integridade": 72,
+      "bloquear": false,
+      "uma_arma_e_dois_feiticos": false,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 1.0
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 0.9999983736596041
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.9985246685933055
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.9741713853794759
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.8627669072185052
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.6505089207099676
+        }
+      ]
+    },
+    {
+      "pv": 144,
+      "integridade": 72,
+      "bloquear": false,
+      "uma_arma_e_dois_feiticos": true,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 1.0
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 1.0
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.9999654721709353
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.9997829478897237
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.9896269195663492
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.912280077131085
+        }
+      ]
+    },
+    {
+      "pv": 144,
+      "integridade": 72,
+      "bloquear": true,
+      "uma_arma_e_dois_feiticos": false,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 0.9999999999999799
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 0.9999983736595637
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.9985497373122056
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.9752804064380656
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.8705784799611896
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.6697806151197061
+        }
+      ]
+    },
+    {
+      "pv": 144,
+      "integridade": 72,
+      "bloquear": true,
+      "uma_arma_e_dois_feiticos": true,
+      "curva": [
+        {
+          "declaracoes": 1,
+          "sobrevive": 0.9999999999999799
+        },
+        {
+          "declaracoes": 2,
+          "sobrevive": 0.9999999999999598
+        },
+        {
+          "declaracoes": 3,
+          "sobrevive": 0.9999659625704582
+        },
+        {
+          "declaracoes": 4,
+          "sobrevive": 0.9997886598684788
+        },
+        {
+          "declaracoes": 5,
+          "sobrevive": 0.990110485576526
+        },
+        {
+          "declaracoes": 6,
+          "sobrevive": 0.9175269372373775
+        }
+      ]
+    }
+  ],
+  "janela": [
+    {
+      "pv": 72,
+      "bloquear": false,
+      "tatica": "dano",
+      "sobrevive": 0.2933765187505729,
+      "sobrevive_com_preparo": 0.2933765187505729
+    },
+    {
+      "pv": 72,
+      "bloquear": false,
+      "tatica": "empurrao",
+      "sobrevive": 0.3323016573469094,
+      "sobrevive_com_preparo": 0.14608891798143944
+    },
+    {
+      "pv": 72,
+      "bloquear": false,
+      "tatica": "guarda_com_dano",
+      "sobrevive": 0.3416955753833963,
+      "sobrevive_com_preparo": 0.19853902078862207
+    },
+    {
+      "pv": 72,
+      "bloquear": false,
+      "tatica": "guarda_sem_dano",
+      "sobrevive": 0.5843556719257578,
+      "sobrevive_com_preparo": 0.20452448517401522
+    },
+    {
+      "pv": 72,
+      "bloquear": true,
+      "tatica": "dano",
+      "sobrevive": 0.31226252680003563,
+      "sobrevive_com_preparo": 0.31226252680003563
+    },
+    {
+      "pv": 72,
+      "bloquear": true,
+      "tatica": "empurrao",
+      "sobrevive": 0.35130177842994004,
+      "sobrevive_com_preparo": 0.15765062305601193
+    },
+    {
+      "pv": 72,
+      "bloquear": true,
+      "tatica": "guarda_com_dano",
+      "sobrevive": 0.35499674278958454,
+      "sobrevive_com_preparo": 0.20635249931474567
+    },
+    {
+      "pv": 72,
+      "bloquear": true,
+      "tatica": "guarda_sem_dano",
+      "sobrevive": 0.5971136703366093,
+      "sobrevive_com_preparo": 0.21020083074134907
+    },
+    {
+      "pv": 108,
+      "bloquear": false,
+      "tatica": "dano",
+      "sobrevive": 0.7554761368200198,
+      "sobrevive_com_preparo": 0.7554761368200198
+    },
+    {
+      "pv": 108,
+      "bloquear": false,
+      "tatica": "empurrao",
+      "sobrevive": 0.8077134250536218,
+      "sobrevive_com_preparo": 0.23863867775445227
+    },
+    {
+      "pv": 108,
+      "bloquear": false,
+      "tatica": "guarda_com_dano",
+      "sobrevive": 0.8353546006993064,
+      "sobrevive_com_preparo": 0.4065970873916023
+    },
+    {
+      "pv": 108,
+      "bloquear": false,
+      "tatica": "guarda_sem_dano",
+      "sobrevive": 0.9545547110178091,
+      "sobrevive_com_preparo": 0.3340941488562332
+    },
+    {
+      "pv": 108,
+      "bloquear": true,
+      "tatica": "dano",
+      "sobrevive": 0.7672376146069673,
+      "sobrevive_com_preparo": 0.7672376146069673
+    },
+    {
+      "pv": 108,
+      "bloquear": true,
+      "tatica": "empurrao",
+      "sobrevive": 0.8168957479147824,
+      "sobrevive_com_preparo": 0.25094790494156616
+    },
+    {
+      "pv": 108,
+      "bloquear": true,
+      "tatica": "guarda_com_dano",
+      "sobrevive": 0.8399655479159226,
+      "sobrevive_com_preparo": 0.4081026501991539
+    },
+    {
+      "pv": 108,
+      "bloquear": true,
+      "tatica": "guarda_sem_dano",
+      "sobrevive": 0.9556834018153536,
+      "sobrevive_com_preparo": 0.3345972065887547
+    },
+    {
+      "pv": 144,
+      "bloquear": false,
+      "tatica": "dano",
+      "sobrevive": 0.9741713853794759,
+      "sobrevive_com_preparo": 0.9741713853794759
+    },
+    {
+      "pv": 144,
+      "bloquear": false,
+      "tatica": "empurrao",
+      "sobrevive": 0.984042082498651,
+      "sobrevive_com_preparo": 0.24963116714832637
+    },
+    {
+      "pv": 144,
+      "bloquear": false,
+      "tatica": "guarda_com_dano",
+      "sobrevive": 0.9893006715696502,
+      "sobrevive_com_preparo": 0.44792518275118715
+    },
+    {
+      "pv": 144,
+      "bloquear": false,
+      "tatica": "guarda_sem_dano",
+      "sobrevive": 0.9985246685933055,
+      "sobrevive_com_preparo": 0.3494836340076569
+    },
+    {
+      "pv": 144,
+      "bloquear": true,
+      "tatica": "dano",
+      "sobrevive": 0.9752804064380656,
+      "sobrevive_com_preparo": 0.9752804064380656
+    },
+    {
+      "pv": 144,
+      "bloquear": true,
+      "tatica": "empurrao",
+      "sobrevive": 0.9846964339230438,
+      "sobrevive_com_preparo": 0.26211930604445416
+    },
+    {
+      "pv": 144,
+      "bloquear": true,
+      "tatica": "guarda_com_dano",
+      "sobrevive": 0.989511643869841,
+      "sobrevive_com_preparo": 0.44797080824295354
+    },
+    {
+      "pv": 144,
+      "bloquear": true,
+      "tatica": "guarda_sem_dano",
+      "sobrevive": 0.9985443090599478,
+      "sobrevive_com_preparo": 0.34949240805927195
+    }
+  ],
+  "queda_se_sequencia_concluir": [
+    {
+      "perfil": "Bastião de referência",
+      "pv_cheios": 65,
+      "chance_zero_cheio": 9.065792884355709e-08,
+      "pv_desgastado": 32,
+      "chance_zero_desgastado": 0.16639796828046258
+    },
+    {
+      "perfil": "Emanador de referência",
+      "pv_cheios": 44,
+      "chance_zero_cheio": 0.017483551119580682,
+      "pv_desgastado": 22,
+      "chance_zero_desgastado": 0.6064448294816194
+    },
+    {
+      "perfil": "Guia de referência",
+      "pv_cheios": 51,
+      "chance_zero_cheio": 0.0015119069888267988,
+      "pv_desgastado": 25,
+      "chance_zero_desgastado": 0.4783928176503123
+    }
+  ],
+  "ataque_com_abertura": {
+    "miss": 0.06250000000000001,
+    "hit": 0.8399999999999931,
+    "critical": 0.09750000000000004
+  },
+  "integridade": [
+    {
+      "pv_maximo": 72,
+      "integridade_maxima": 36,
+      "perdas_para_estagios": [
+        9,
+        18,
+        27,
+        36
+      ]
+    },
+    {
+      "pv_maximo": 108,
+      "integridade_maxima": 54,
+      "perdas_para_estagios": [
+        14,
+        27,
+        41,
+        54
+      ]
+    },
+    {
+      "pv_maximo": 144,
+      "integridade_maxima": 72,
+      "perdas_para_estagios": [
+        18,
+        36,
+        54,
+        72
+      ]
+    }
+  ],
+  "captura_e_fuga": [
+    {
+      "tr_fisico": 2,
+      "chance_captura": 0.5,
+      "chance_captura_e_fuga_fracassada": 0.25
+    },
+    {
+      "tr_fisico": 3,
+      "chance_captura": 0.45,
+      "chance_captura_e_fuga_fracassada": 0.2025
+    },
+    {
+      "tr_fisico": 5,
+      "chance_captura": 0.35,
+      "chance_captura_e_fuga_fracassada": 0.12249999999999998
+    }
+  ],
+  "espada_em_guarda_aberta_sem_kokusen": 11.625,
+  "limites": [
+    "Revides de Aparar/Brecha não são executados; seus gatilhos são contabilizados separadamente.",
+    "Não há IA, deslocamento automático, iniciativa aleatória, socorro, morte, condição por desgaste dos jogadores ou simulação de sucesso da missão.",
+    "Salvas supõem que os personagens possam pagar e executar as ações; não equivalem a rodadas completas.",
+    "Guarda Aberta não transforma feitiço de Toque em crítico automático.",
+    "O recorte misto usa uma Espada Longa com Canalizar e dois feitiços; não executa Kokusen, respostas, Bônus ofensiva ou efeitos próprios de arma.",
+    "Alma aparece somente nos limiares de Integridade, sem conceder uma aplicação de 6d8 de Classe 2. Toca a Alma exige Classe 3 e precisa ser distinguido de eventual permissão própria.",
+    "Não certifica equilíbrio de Caminhos ou fichas completas."
+  ]
+}

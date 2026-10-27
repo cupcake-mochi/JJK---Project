@@ -1,0 +1,139 @@
+{
+  "mescla": [
+    {
+      "classe": 3,
+      "orcamento": 9,
+      "base": 3,
+      "aura": 2,
+      "escolher": 3,
+      "devolucao": 2,
+      "melhorias": 1,
+      "restricoes": 1,
+      "teto_devolucao": 6,
+      "teto_cura_individual": 6,
+      "teto_cura_coletiva": 4,
+      "saldo": 3,
+      "parcelas": [
+        2,
+        1
+      ],
+      "explosao": 3,
+      "diferenca": 1,
+      "saldo_remodelado": 2,
+      "parcelas_remodeladas": [
+        1,
+        1
+      ],
+      "PE": 9,
+      "PE_remodelado": 11
+    },
+    {
+      "classe": 4,
+      "orcamento": 12,
+      "base": 4,
+      "aura": 2,
+      "escolher": 4,
+      "devolucao": 2,
+      "melhorias": 1,
+      "restricoes": 1,
+      "teto_devolucao": 8,
+      "teto_cura_individual": 8,
+      "teto_cura_coletiva": 6,
+      "saldo": 4,
+      "parcelas": [
+        3,
+        1
+      ],
+      "explosao": 4,
+      "diferenca": 2,
+      "saldo_remodelado": 2,
+      "parcelas_remodeladas": [
+        1,
+        1
+      ],
+      "PE": 12,
+      "PE_remodelado": 14
+    }
+  ],
+  "resolucoes_mescla": {
+    "CD": 14,
+    "dano_ampliado": 11,
+    "dano_resistido": 6,
+    "PE_ampliado": 8,
+    "PE_fluida": 11,
+    "dano_fluida": 5,
+    "dano_fluida_resistido": 3
+  },
+  "firmeza": {
+    "C2_duas_categorias": {
+      "precos": [
+        1,
+        1
+      ],
+      "vagas": 2,
+      "limite": 2,
+      "saldo": 4,
+      "PE_final": 8
+    },
+    "C2_tres_categorias_cabe": false,
+    "C3_tres_categorias": {
+      "precos": [
+        2,
+        2,
+        2
+      ],
+      "vagas": 3,
+      "limite": 3,
+      "saldo": 3
+    },
+    "C2_guarda_e_oficios": {
+      "precos": [
+        1,
+        2
+      ],
+      "vagas": 2,
+      "saldo": 3
+    },
+    "manobra": {
+      "bonus": 4,
+      "rolagem": 18,
+      "CD": 14
+    }
+  },
+  "restricoes": {
+    "C3_melhorias": [
+      2,
+      3
+    ],
+    "C3_devolucoes": [
+      3,
+      2,
+      0
+    ],
+    "C3_resultados": [
+      7,
+      6,
+      4
+    ],
+    "ataque": 6,
+    "acerto": 18,
+    "dano": 25,
+    "recuo_distancia": 2.5,
+    "matriz_saldo": 6,
+    "matriz_ataque": 14,
+    "defesa": 16,
+    "matriz_custo": 9
+  },
+  "cancelamento": {
+    "luz_custo": 6,
+    "luz_PE_final": 9,
+    "C1_saldo": 2,
+    "C2_saldo": 4,
+    "CD": 12,
+    "rolagem": 11,
+    "sem_Maestria": true,
+    "C1_PE_final": 7,
+    "C2_PE_final": 4,
+    "CE_nao_convertida": true
+  }
+}

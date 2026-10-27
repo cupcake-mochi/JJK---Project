@@ -74,6 +74,12 @@ Depois da rolagem, aplique a consequência prevista. Quando a regra deixar marge
 
 **Exemplo de limite:** em combate, Estudar custa uma Ação Padrão e busca responder uma pergunta concreta sobre algo observável. Na falha, a ação foi gasta e a observação não respondeu com segurança. Repetir a mesma pergunta sem nova pista ou mudança de abordagem não permite outra tentativa. Esse limite pertence a Estudar; confira o procedimento correspondente para outras tarefas.
 
+### Resultado com custo e trabalho em grupo
+
+Quando o procedimento deixar margem, você pode oferecer sucesso com custo ou complicação. Apresente uma consequência coerente e preserve resultados já fechados pela regra. O [caso do arquivo](82-testes-trabalho-em-grupo-e-iniciativa.md) mostra uma investigação concluída com atraso, a opção de recusar esse custo e um resultado que não pode ser substituído dessa forma.
+
+Se uma pessoa conduz a tarefa e outra contribui, confira **Ajudar**. Se todos precisam superar uma tarefa juntos, cada participante faz o teste e **pelo menos metade precisa passar**: duas pessoas em quatro, três em cinco. Ocultação durante combate é individual. Os [casos de ajuda e travessia](82-testes-trabalho-em-grupo-e-iniciativa.md) comparam esses procedimentos sem somar os bônus dos participantes.
+
 ## Responda ao inesperado
 
 Use os fatos preparados para avaliar uma proposta nova. Primeiro confira se ela é possível com os meios presentes. Depois procure a regra que resolve seu efeito. Se faltar um detalhe comum, complete-o de maneira coerente e anote quando ele importar para a continuidade.
@@ -131,6 +137,8 @@ Ao resumir tempo, confira efeitos em andamento, riscos e recursos. Uma mudança 
 No anexo, o Amontoado fica hostil se for atacado ou se tentarem desmontar sua pilha. Quando o confronto começar, organize a iniciativa antes de resolver suas ações. Declare as posições conhecidas, confira distâncias e mantenha a ficha do inimigo disponível.
 
 O relato de uma intenção de ataque não concede um golpe gratuito antes da iniciativa. Da mesma forma, a entrada de serviço oferece outra aproximação, mas não concede surpresa automaticamente. Aplique as regras e capacidades que a situação realmente permite.
+
+Na iniciativa comum, compare os totais de d20 + Destreza e demais modificadores ativos. Em empate, maior Destreza vem primeiro. Se ela também empatar, personagem de jogador vem antes de inimigo; entre jogadores, eles escolhem a ordem, e entre inimigos você escolhe. Registre uma vez para o combate. O [quadro de cinco participantes](82-testes-trabalho-em-grupo-e-iniciativa.md) demonstra a sequência.
 
 Durante o confronto, acompanhe a ordem dos turnos, os recursos gastos e os efeitos com duração. A Reação é recuperada no começo do turno do participante, conforme a R53. Termine a resolução em curso, incluindo as respostas permitidas por seus gatilhos, antes de seguir para outra tentativa.
 

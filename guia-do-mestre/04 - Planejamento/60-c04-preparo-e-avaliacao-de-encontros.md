@@ -1,5 +1,7 @@
 # C04 — Preparo e avaliação de encontros
 
+> **Atualização de 26/10/2026:** [L7](90-lote7-ameacas-e-consequencias-prolongadas.md) completa as referências em outras faixas, a comparação numérica de guarda/dupla e o perigo prolongado nas seções 100–103. O planejamento abaixo conserva a história. Nenhuma escala geral de dificuldade ou atualização integral do Bestiário foi adotada.
+
 23 de outubro de 2026. Primeira redação de C04, depois do complemento de fabricação de C09. Esta entrega desenvolve o procedimento de avaliação e adaptação, com exemplo e ferramenta. Não conclui o construtor numérico geral, os perigos ambientais ou os grandes confrontos.
 
 ## Entregas
@@ -76,3 +78,7 @@ As formulações da primeira coluna são exemplos de explicações evitadas, nã
 3. Em paralelo à pauta de decisões, escrever perigos ambientais com procedimentos existentes e exemplos completos; depois tratar chefes e hipóteses adicionais. A leitura externa não é requisito para continuar a redação. **GPT-6.1 Sol alto** para prosa e **GPT-6 Astra alto** para casos mecânicos; extra alto quando houver várias exceções interagindo.
 
 Sem decisão autoral nova. Conferência documental, numérica e de remissões; sem nova simulação ou sessão humana. Histórico em apoio-c04/historico/antes-da-redacao e [verificação desta entrega](apoio-c04/verificacao.json). R53, registro de decisões, base de inimigos e cenário original preservados.
+
+## Complementos de L7
+
+[Faixas e capacidades](<../06 - Redacao do Guia/100-comparar-inimigos-em-outras-faixas.md>), [fichas de nível15](<../06 - Redacao do Guia/101-haru-vigia-e-tessa.md>), [arquivo e comparação](<../06 - Redacao do Guia/102-o-arquivo-e-as-oportunidades-de-agir.md>) e [doença prolongada](<../06 - Redacao do Guia/103-a-febre-dos-fios.md>). M124/M129 e P14/P15 recebem demonstração escrita; avaliação com leitores e equilíbrio em mesa continuam posteriores.

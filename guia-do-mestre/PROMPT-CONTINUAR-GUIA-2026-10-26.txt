@@ -1,0 +1,58 @@
+Continue o projeto do Guia do Mestre de Ciclo Maldito a partir da pré-1.0 diagramada, sem reiniciar o planejamento nem reabrir decisões já respondidas. Sou Mizuki; priorizo clareza, compreensão e exemplos utilizáveis.
+
+ACESSO E ESTADO ATUAL
+
+Repositório: https://github.com/cupcake-mochi/JJK---Project
+Branch: codex/guia-do-mestre-pre-1-2026-10-23
+Pasta do projeto no repositório: guia-do-mestre/
+Use o salvamento de 26/10/2026, com o registro 92 e a pasta 08 - Diagramacao do Guia. O commit antigo f13e0814d5011b834c2f5a0059196c712c1a7742 não contém esta entrega. Confira o histórico da branch.
+
+Neste computador, a produção principal está em:
+/media/mizuki/HD Externo II/Claude/Pesquisa de Campo - Mestragem/
+
+A cópia Git de salvamento fica em:
+/home/mizuki/CHAT-GPT/salvamentos/guia-do-mestre-2026-10-23/repositorio/
+
+A pasta de produção não é um checkout. Compare versões antes de copiar entre os locais. Não mexa em outros trabalhos do repositório ou do Claude. Em outro computador, trabalhe na pasta guia-do-mestre da branch e adapte apenas os caminhos necessários. Bibliografia integral externa não foi enviada; SALVAMENTO.json identifica o escopo e as omissões. CONFERIR-COPIA-GIT.py confere a cópia publicada; CONFERIR-SALVAMENTO.py confere o manifesto de produção e pode apontar fontes omitidas no pacote remoto.
+
+LEITURA INICIAL, NESTA ORDEM
+
+Dentro da raiz do Guia:
+1. 04 - Planejamento/92-revisao-critica-e-edicao-diagramada.md
+2. 08 - Diagramacao do Guia/LEIA-ME.md e revisao/revisao-visual.json
+3. 04 - Planejamento/19-roteiro-pre-1-e-modelos.md, começando pela fila vigente.
+4. 04 - Planejamento/01-plano-completo-do-guia.md e 06-registro-das-decisoes.md.
+5. 04 - Planejamento/87-correcao-de-escopo-da-reserva.md.
+6. Índice e referências de 06 - Redacao do Guia; 07 - Edicao de Leitura/mapa-editorial.json relaciona as consultas às fontes.
+
+O manuscrito tem seções G01–G103; G69/G70 são estudos históricos excluídos da leitura principal. A edição integra 104 fontes em dez capítulos e quatro apêndices, incluindo os pilotos. Plano 81, pauta 75, matriz 18 e competências 21. Atualizações mais antigas conservam a história; não são automaticamente a fila vigente.
+
+PDF ATUAL
+
+08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf
+358 páginas. SHA-256: 82518e1e34b9cebe5827e493a5dfcd607f6a19e9824c7f1fe28e428662803b34.
+
+A revisão anterior cobriu estrutura, percurso de ensino, remissões e passagens mecânicas selecionadas. Todas as páginas foram observadas em 60 pranchas, com ampliações dirigidas e reinspeção das páginas alteradas. Não equivale a auditoria semântica integral nem teste humano ou de mesa. Foram conferidos 2374 links no PDF e 1044 links locais no HTML, sem problemas encontrados. As evidências estão em 08/revisao.
+
+O livro segue o perfil visual da R53: A4, Spectral 10,25/13,2 pt, margens de 19 mm, intervalo de 7 mm, títulos Barlow Condensed/Bree Serif e duas colunas. Foram comparadas 24 opções de imagem e mantidas quatro. Cinco esquemas de caracteres viraram mapas vetoriais; o Carregador foi redesenhado novamente após minha crítica. Na página 113, a rota direta mostra três trechos de 6 m, com entulho no meio; a lateral de 24 m une os mesmos pontos. Não restaure a versão anterior que parecia contorno de sala.
+
+DIREÇÃO AUTORAL E LIMITES
+
+- Ensinar a mestrar o sistema; guilda como contexto principal, sem exigir guilda e com adaptação para campanhas fechadas. Cotidiano e vínculos importam além do combate.
+- Caminho recomendado, alternativas explicadas e ferramentas de escolha. Servir a quem conhece e a quem não conhece Jujutsu Kaisen. Entrada sem revelações; aprofundamentos sinalizados no apêndice D.
+- R53 é a referência mecânica; não alterá-la por conveniência editorial. Cópia de texto em 04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md. SHA-256: 7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d. Há uma pasta histórica r41 no repositório: o nome sozinho não identifica a revisão.
+- Não usar números do Bestiário antigo. Construção e avaliação de inimigos ficam no Guia; catálogo amplo no futuro Livro de Inimigos. PE, usos, recarga, preparo e condições dependem da função; não obrigar todo especial a gastar PE.
+- Preservar a decisão 87: descartei o detalhamento numérico proposto de Reserva Condensada; mantivemos a habilidade existente da R53 e o acordo por personagem. Não retomar os modelos A/B de depósito, teto e retirada.
+- Dedicação: 28 h por 7 dias POR FICHA; saldo só no ciclo seguinte, parcela antiga primeiro, acesso proporcional e tempo compatível com a história. Não converter em concessão compartilhada por jogador.
+- Pactos, entidades, reconstrução e falhas já têm decisões registradas. Não substituir por novas propostas sem consultar esses registros. Exemplos experimentais não se tornam padrões gerais aprovados.
+- Treinamentos novos, Bestiário integral e escala geral de dificuldade continuam trabalhos próprios. Não inventar aprovação, teste humano ou equilíbrio demonstrado.
+
+PRÓXIMA TAREFA
+
+Depois de recuperar o estado, continue a revisão editorial dirigida por capítulo e incorpore minhas observações. Se eu trouxer outro trecho, ele tem prioridade. Sem nova indicação, comece pelo capítulo 1: verifique clareza, sequência de ensino, termos introduzidos, remissões, repetições e aplicação dos exemplos; entregue correções concretas, sem parar apenas em um plano. Não espere leitores para corrigir problemas demonstráveis.
+
+Edite primeiro as fontes numeradas. Depois regenere o HTML com GERAR-EDICAO.py e o PDF com GERAR-PDF.py; os mapas estão em MAPAS.py. Consulte os LEIA-ME para dependências e verificações. Preserve históricos e atualize o manifesto quando os arquivos mudarem. CONFERIR-SALVAMENTO.py e VERIFICAR-PDF.py são as entradas atuais; verificadores antigos podem usar versões históricas.
+
+Após qualquer alteração, renderize e examine todas as páginas afetadas. Ausência de sobreposição não basta: observe parágrafos cortados artificialmente entre colunas, título separado de tabela, continuação de tabelas, rótulos de mapas, legendas e espaços vazios. Mantenha explicações completas quando couberem. Compare com a R53. Não declare qualidade visual apenas por testes automáticos.
+
+Tome decisões editoriais reversíveis por conta própria. Para uma dúvida autoral ou mudança de regra, prepare uma comparação concreta e pergunte; continue o trabalho independente enquanto aguarda. Ao final de cada entrega, recomende a próxima tarefa, o modelo e o esforço: GPT-6.1 Sol, alto, para redação e revisão; GPT-6 Astra, extra alto, para contradições mecânicas amplas. Não abra outro chat nem use agentes paralelos sem minha autorização.

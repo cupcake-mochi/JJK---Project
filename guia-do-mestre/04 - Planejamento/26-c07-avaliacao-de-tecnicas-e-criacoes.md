@@ -1,8 +1,12 @@
 # C07 — Avaliação de técnicas e criações
 
+> **Atualização de 26/10/2026:** [L6](88-lote6-montagens-e-pareceres.md) acrescenta as consultas 93–95: mesclas, Forma Fluida, repetição, Restrições, utilidade e cancelamento. Os exemplos de L4 permanecem. A [decisão 87](87-correcao-de-escopo-da-reserva.md) descartou o detalhamento de Reserva; G92 limita-se ao acordo publicado. O núcleo abaixo é complementado por essas entregas.
+
 21 de outubro de 2026. Núcleo de redação para o manuscrito pré-1.0, autorizado pela continuidade da produção. Esta etapa aplica a R53 e desenvolve o ensino da avaliação; não atribui a Mizuki decisões novas de preço, capacidade ou política de campanha.
 
 ## Entrega
+
+Complementos de L6: [mescla e Forma Fluida](<../06 - Redacao do Guia/93-ampliar-mesclas-e-trocar-formas.md>), [compras e Restrições](<../06 - Redacao do Guia/94-compras-repetidas-e-restricoes.md>) e [efeito de cena e cancelamento](<../06 - Redacao do Guia/95-efeitos-de-cena-e-cancelamento.md>). Cada caso mostra a resolução e o limite; os pareceres locais estão sinalizados.
 
 | Texto | Função |
 |---|---|

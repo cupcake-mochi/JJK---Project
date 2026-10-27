@@ -1,0 +1,298 @@
+{
+  "estado_final": {
+    "Rina": {
+      "PV": 52,
+      "PE": 24,
+      "integridade": 50,
+      "temporarios": 0,
+      "posicao": "E6"
+    },
+    "Mei": {
+      "PV": 44,
+      "PE": 24,
+      "integridade": 55,
+      "temporarios": 0,
+      "posicao": "D4"
+    },
+    "Akira": {
+      "PV": 51,
+      "PE": 16,
+      "integridade": 65,
+      "temporarios": 0,
+      "posicao": "G12"
+    },
+    "Ren": {
+      "PV": 46,
+      "PE": 1,
+      "integridade": 36,
+      "temporarios": 0,
+      "posicao": "F-1"
+    },
+    "Sora": {
+      "PV": 0,
+      "PE": 1,
+      "integridade": 24,
+      "temporarios": 0,
+      "posicao": "H12"
+    }
+  },
+  "estojo": "Akira",
+  "conferencias": 381,
+  "eventos": [
+    {
+      "evento": "Turno",
+      "pessoa": "Sora",
+      "rodada": 1
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Rina",
+      "rodada": 1
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Rina",
+      "de": "C0",
+      "para": "C4",
+      "metros": 6.0,
+      "modo": "M"
+    },
+    {
+      "evento": "Ataque",
+      "origem": "Rina",
+      "alvo": "Ren",
+      "acerto": 17,
+      "acertou": true,
+      "dano_apos_defesas": 8,
+      "vida": 67
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Ren",
+      "rodada": 1
+    },
+    {
+      "evento": "Ataque",
+      "origem": "Ren",
+      "alvo": "Rina",
+      "acerto": 18,
+      "acertou": true,
+      "dano_apos_defesas": 7,
+      "vida": 58
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Mei",
+      "rodada": 1
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Mei",
+      "de": "D0",
+      "para": "D4",
+      "metros": 6.0,
+      "modo": "M"
+    },
+    {
+      "evento": "Ataque",
+      "origem": "Mei",
+      "alvo": "Sora",
+      "acerto": 13,
+      "acertou": true,
+      "dano_apos_defesas": 26,
+      "vida": 22
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Sora",
+      "de": "F8",
+      "para": "H12",
+      "metros": 6.0,
+      "modo": "Empurrão"
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Akira",
+      "rodada": 1
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Akira",
+      "de": "F0",
+      "para": "F6",
+      "metros": 9.0,
+      "modo": "M"
+    },
+    {
+      "evento": "Ataque",
+      "origem": "Akira",
+      "alvo": "Sora",
+      "acerto": 11,
+      "acertou": false,
+      "dano_apos_defesas": 0,
+      "vida": 22
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Sora",
+      "rodada": 2
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Sora",
+      "de": "H12",
+      "para": "F8",
+      "metros": 6.0,
+      "modo": "M"
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Rina",
+      "rodada": 2
+    },
+    {
+      "evento": "Ataque",
+      "origem": "Rina",
+      "alvo": "Ren",
+      "acerto": 14,
+      "acertou": true,
+      "dano_apos_defesas": 8,
+      "vida": 59
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Ren",
+      "rodada": 2
+    },
+    {
+      "evento": "Ataque",
+      "origem": "Ren",
+      "alvo": "Rina",
+      "acerto": 14,
+      "acertou": true,
+      "dano_apos_defesas": 6,
+      "vida": 52
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Ren",
+      "de": "D5",
+      "para": "F7",
+      "metros": 3.0,
+      "modo": "Passo"
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Mei",
+      "rodada": 2
+    },
+    {
+      "evento": "Ataque",
+      "origem": "Mei",
+      "alvo": "Sora",
+      "acerto": 19,
+      "acertou": true,
+      "dano_apos_defesas": 24,
+      "vida": 16
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Sora",
+      "de": "F8",
+      "para": "H12",
+      "metros": 6.0,
+      "modo": "Empurrão"
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Akira",
+      "rodada": 2
+    },
+    {
+      "evento": "Ataque",
+      "origem": "Akira",
+      "alvo": "Sora",
+      "acerto": 17,
+      "acertou": true,
+      "dano_apos_defesas": 21,
+      "vida": 0
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Rina",
+      "rodada": 3
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Rina",
+      "de": "C4",
+      "para": "D6",
+      "metros": 3.0,
+      "modo": "Avançar"
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Rina",
+      "de": "D6",
+      "para": "E6",
+      "metros": 1.5,
+      "modo": "M"
+    },
+    {
+      "evento": "Ataque",
+      "origem": "Rina",
+      "alvo": "Ren",
+      "acerto": 17,
+      "acertou": true,
+      "dano_apos_defesas": 13,
+      "vida": 46
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Ren",
+      "rodada": 3
+    },
+    {
+      "evento": "Desengajar",
+      "pessoa": "Ren"
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Ren",
+      "de": "F7",
+      "para": "F1",
+      "metros": 9.0,
+      "modo": "M"
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Ren",
+      "de": "F1",
+      "para": "F-1",
+      "metros": 3.0,
+      "modo": "Bônus"
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Mei",
+      "rodada": 3
+    },
+    {
+      "evento": "Grupo decide não perseguir"
+    },
+    {
+      "evento": "Turno",
+      "pessoa": "Akira",
+      "rodada": 3
+    },
+    {
+      "evento": "Movimento",
+      "pessoa": "Akira",
+      "de": "F6",
+      "para": "G12",
+      "metros": 9.0,
+      "modo": "M"
+    }
+  ],
+  "limites": "Percurso com dados escolhidos; não motor completo da R53, sorteio, taxa de vitória ou teste humano."
+}

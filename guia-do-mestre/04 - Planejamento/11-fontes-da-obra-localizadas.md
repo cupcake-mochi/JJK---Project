@@ -1,5 +1,7 @@
 # Fontes da obra localizadas para o Guia
 
+> **Atualização de 26/10/2026:** L8 foi entregue no [registro 84](84-lote8-mundo-para-consulta.md) e nas seções 86/87/88. A consulta de sociedade, os aprofundamentos sinalizados e o índice de termos agora têm base escrita. O texto abaixo conserva o levantamento histórico. Veja [fontes desta etapa](apoio-lote8/fontes-conferidas.md) e [cobertura atual](apoio-lote8/cobertura-atualizada.json).
+
 21 de outubro de 2026. Índice de pesquisa para a produção do Guia, com caminhos conferidos no Claude 2 e consulta oficial dirigida. Alguns documentos vinculados discutem revelações do mangá. A entrada essencial do livro terá tratamento separado, conforme a decisão de Mizuki.
 
 O material local já oferece levantamentos sobre Origens, convivência, corpos construídos, percepção, instituições e lugares. Usá-lo para localizar perguntas e fontes; conferir a afirmação que será publicada e sua correspondência com a R53. Os pacotes históricos conservam propostas e regras de versões anteriores.

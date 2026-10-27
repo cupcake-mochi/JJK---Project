@@ -1,0 +1,186 @@
+{
+  "tipo": "Contas determinísticas restritas; não simula combate, reações adversárias ou decisões humanas.",
+  "casos": [
+    {
+      "caso": "9m de deslocamento,6 andados:3 reserváveis",
+      "resultado": 3.0,
+      "esperado": 3
+    },
+    {
+      "caso": "Todo movimento gasto:sem reserva",
+      "resultado": 0.0,
+      "esperado": 0
+    },
+    {
+      "caso": "Sobram9:capacidade só separa3",
+      "resultado": 3.0,
+      "esperado": 3
+    },
+    {
+      "caso": "Mais movimento por conversão não aumenta teto",
+      "resultado": 3.0,
+      "esperado": 3
+    },
+    {
+      "caso": "Deslocamento4,5:reserva1,5",
+      "resultado": 1.5,
+      "esperado": 1.5
+    },
+    {
+      "caso": "Lento e Integridade2:deslocamento1,5",
+      "resultado": 1.5,
+      "esperado": 1.5
+    },
+    {
+      "caso": "Duas reduções:teto não completa trecho",
+      "resultado": 0.0,
+      "esperado": 0
+    },
+    {
+      "caso": "Agarrado:deslocamento zero impede",
+      "resultado": 0.0,
+      "esperado": 0
+    },
+    {
+      "caso": "Redução posterior limita os3 guardados",
+      "resultado": 1.5,
+      "esperado": 1.5
+    },
+    {
+      "caso": "Recuperação não aumenta1,5 guardado",
+      "resultado": 1.5,
+      "esperado": 1.5
+    },
+    {
+      "caso": "3m em chão regular",
+      "resultado": [
+        3.0,
+        3.0,
+        0.0
+      ],
+      "esperado": [
+        3,
+        3,
+        0
+      ]
+    },
+    {
+      "caso": "3m em chão difícil",
+      "resultado": [
+        1.5,
+        3.0,
+        0.0
+      ],
+      "esperado": [
+        1.5,
+        3,
+        0
+      ]
+    },
+    {
+      "caso": "1,5m não paga trecho difícil",
+      "resultado": [
+        0.0,
+        0.0,
+        1.5
+      ],
+      "esperado": [
+        0,
+        0,
+        1.5
+      ]
+    },
+    {
+      "caso": "Trecho regular seguido de difícil:sem fracionar segundo",
+      "resultado": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "esperado": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    },
+    {
+      "caso": "Retirar reserva do saldo não duplica metros",
+      "resultado": 9.0,
+      "esperado": 9
+    },
+    {
+      "caso": "Três recortes de caminhada,sem Bônus",
+      "resultado": {
+        "sem_resposta": 9,
+        "preparar": 18,
+        "vigilia": 9
+      },
+      "esperado": {
+        "sem_resposta": 9,
+        "preparar": 18,
+        "vigilia": 9
+      }
+    },
+    {
+      "caso": "Padrão ofensiva preservada ou investida",
+      "resultado": {
+        "sem_resposta": 1,
+        "preparar": 0,
+        "vigilia": 1
+      },
+      "esperado": {
+        "sem_resposta": 1,
+        "preparar": 0,
+        "vigilia": 1
+      }
+    },
+    {
+      "caso": "Vida convertida nível2,Constituição3",
+      "resultado": 14,
+      "esperado": 14
+    },
+    {
+      "caso": "Integridade convertida",
+      "resultado": 7,
+      "esperado": 7
+    },
+    {
+      "caso": "Estágios da domada para Integridade7até0",
+      "resultado": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        4
+      ],
+      "esperado": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "total": 20,
+  "erros": [],
+  "revisao_documental_separada": [
+    "Reserva zero antes do primeiro turno; a capacidade não cria um gatilho de entrada em iniciativa.",
+    "Uma resposta antes e outra depois do próprio turno exigem reservas diferentes; mudança de rodada não renova recurso.",
+    "Uso consome a reserva inteira; uma sobra não oferece segunda resposta.",
+    "Gatilho inválido conserva reserva até prazo; condição melhorar não retroage evento.",
+    "Desengajar anterior não protege movimento fora daquele turno.",
+    "Oportunidade adversária ocorre antes da saída; derrota/interrupção não devolve custos.",
+    "Guarda Aberta conserva ações; Atordoado impede reações; Derrubado impede esta caminhada.",
+    "Conter ou transportar criatura impede iniciar; soltar a própria contenção é permitido.",
+    "Coletiva única, sem Bônus de entidade; Preparar de entidade não cria metros.",
+    "Saída de campo apaga reserva sem refundir metros ao Movimento.",
+    "CE1 e parâmetros são propostas, não escolhas autorais ou classificação publicada."
+  ]
+}

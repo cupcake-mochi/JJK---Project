@@ -1,0 +1,70 @@
+{
+  "data": "2026-10-25",
+  "entrega": "P68/G65/G66",
+  "manifesto_inicial_integro": 232,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "novos": [
+    "04 - Planejamento/68-confronto-com-objetivo-e-pressao-ambiental.md",
+    "06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md",
+    "06 - Redacao do Guia/66-o-carregador-e-a-saida-que-fecha.md",
+    "04 - Planejamento/apoio-composicao-carregador/estado-inicial.json",
+    "04 - Planejamento/apoio-composicao-carregador/dados-comparacao.json",
+    "04 - Planejamento/apoio-composicao-carregador/conferir.py",
+    "04 - Planejamento/apoio-composicao-carregador/resultados.json",
+    "04 - Planejamento/apoio-composicao-carregador/verificacao.json"
+  ],
+  "anteriores_preservados": 224,
+  "historico_preservado": true,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "registro_decisoes_preservado": true,
+  "base_piloto_preservada": true,
+  "carregador_e_passarela_preservados": true,
+  "casos_deterministicos": 41,
+  "links_locais_conferidos": 355,
+  "links_quebrados": [],
+  "textos": [
+    {
+      "arquivo": "65-comparar-confronto-e-pressao-ambiental.md",
+      "palavras": 1329,
+      "linhas": 85
+    },
+    {
+      "arquivo": "66-o-carregador-e-a-saida-que-fecha.md",
+      "palavras": 2330,
+      "linhas": 112
+    }
+  ],
+  "conferencia_documental": [
+    "fonte e estatuto das propostas",
+    "três referências de comparação",
+    "mesma ficha e política de percepção",
+    "rotas e largura",
+    "tempo de rodada e ocupação",
+    "parada antes/depois do fechamento",
+    "alvos e estatísticas de objetos",
+    "Preparar depois do gatilho",
+    "resgate com carga e sobras por trecho",
+    "Doma sem controle do cenário",
+    "fins de oposição/mecanismo/retirada separados"
+  ],
+  "limites": [
+    "não simula iniciativa ou ataques de um grupo inteiro",
+    "não demonstra equilíbrio",
+    "não valida engenharia real",
+    "três rodadas e sensor são propriedades propostas deste cenário"
+  ],
+  "teste_humano": false,
+  "simulacao_integral": false,
+  "equilibrio_validado": false,
+  "publicado_no_github": false,
+  "manifesto_final_esperado": 240
+}

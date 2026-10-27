@@ -1,5 +1,7 @@
 # C08 — Ofícios, equipamento e recompensas
 
+> **Atualização de 26/10/2026:** [L5](89-lote5-equipamento-projetos-e-reconhecimento.md) completa os exemplos das seções 96–99: ferramenta, identificação, projeto, negociação, objeto, ingestão, Limiar e promoção. O núcleo abaixo é histórico; o ciclo e a dedicação já têm orientação autoral registrada na seção 39, sem reabrir a proposta inicial de unidade.
+
 21 de outubro de 2026. Núcleo de redação para o manuscrito pré-1.0. Desenvolve os procedimentos atuais da R53 e prepara uma decisão concreta sobre a unidade de dedicação. Não adota uma política de tempo, salário ou distribuição de equipamento sem resposta autoral.
 
 ## Entrega
@@ -79,3 +81,7 @@ Os 130 pontos permanecem na matriz, sem marcação artificial de conclusão. Est
 Histórico em `apoio-c08/historico/antes-da-redacao/`, incluindo os arquivos potencialmente afetados pela decisão de tempo e o manifesto anterior. Índice, plano, D02/D03/D04/D13, competências, documentos de tempo, roteiro de modelos, referências e retomada foram atualizados. O registro autoral não recebeu uma resposta inexistente. [Verificação de preservação e links](apoio-c08/verificacao.json).
 
 **Próxima tarefa:** incorporar a escolha efetiva da unidade quando chegar e preparar quantidade por ciclo, elegibilidade e acúmulo com exemplos comparados. Em seguida, C09 desenvolve Pactos e entidades com as dependências identificadas. **Modelo recomendado: GPT-6 Astra, esforço alto**, para avaliar efeitos de disponibilidade e aquisição; Sol alto para redação explicativa já estabilizada.
+
+## Complementos de L5
+
+[Anel e fabricação](<../06 - Redacao do Guia/96-fabricar-e-identificar-o-anel.md>), [empréstimo e negociação](<../06 - Redacao do Guia/97-emprestimo-familiar-e-negociacao.md>), [objeto e ingestão](<../06 - Redacao do Guia/98-objeto-selado-e-risco-de-ingestao.md>) e [feito e promoção](<../06 - Redacao do Guia/99-limiar-feitos-e-promocao.md>). Prazos e preços locais não formam tabela universal; os procedimentos publicados ficam identificados.

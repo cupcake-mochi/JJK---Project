@@ -1,0 +1,4441 @@
+{
+  "data": "2026-10-26",
+  "recorte": "L4 parcial: cinco demonstrações completas; M051 em comparação sem aprovação. Evidências integradas relocalizadas; não é auditoria integral.",
+  "criterios": {
+    "E": "Base operacional demonstrada no recorte: explicação utilizável e caso, comparação ou ferramenta pertinente. Não significa validação de equilíbrio ou aprendizado.",
+    "P": "Parte escrita; falta um segmento ou demonstração identificada.",
+    "L": "Procedimento específico não localizado no manuscrito; o contexto geral não basta."
+  },
+  "pontos": [
+    {
+      "id": "M001",
+      "pagina_inventario": 4,
+      "assunto": "Época, lugar e relação com a obra",
+      "natureza": "M",
+      "discussao": "D01",
+      "previsto": "Roteiro para época, lugar, instituição e relação com a obra.",
+      "capitulo": "C01",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "inicio": 17,
+          "fim": 26,
+          "titulo": "Defina a relação com a obra",
+          "sha256": "f3cf3f27278e5b7861289f0fa134d908ff5f4c6b5d11a66b3abff9180a05fbdc"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/09-exemplo-de-acordos-do-grupo.md",
+          "inicio": 11,
+          "fim": 18,
+          "titulo": "Obra e tom",
+          "sha256": "4df23c8d6405951634803d899e5d3afba27e8f6e0a776183681e8fc7a2f5d537"
+        }
+      ],
+      "presente": "Época, relação com a obra, revelações e conhecimento do personagem aplicados ao grupo.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M002",
+      "pagina_inventario": 4,
+      "assunto": "Conteúdos e conflitos entre personagens",
+      "natureza": "M",
+      "discussao": "D01, D06",
+      "previsto": "Acordos de conteúdo, conflito entre personagens e ajuste da sessão.",
+      "capitulo": "C01",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "inicio": 27,
+          "fim": 38,
+          "titulo": "Combine o tom e os limites de conteúdo",
+          "sha256": "f3cf3f27278e5b7861289f0fa134d908ff5f4c6b5d11a66b3abff9180a05fbdc"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md",
+          "inicio": 21,
+          "fim": 30,
+          "titulo": "Tom e limites",
+          "sha256": "213bf16d5f91b487cf3d8cac390d5473b25f300e841194e8fdcc94cc3348c0a7"
+        }
+      ],
+      "presente": "Acordos, pausa, conflito e autoridade sobre a ficha, com caso de desaparecimento.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M003",
+      "pagina_inventario": 4,
+      "assunto": "Nível, patente e recursos de entrada",
+      "natureza": "M",
+      "discussao": "D01, D13",
+      "previsto": "Exemplo de início padrão e declaração de variantes de campanha.",
+      "capitulo": "C01",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "inicio": 49,
+          "fim": 58,
+          "titulo": "Confira a criação e os recursos de entrada",
+          "sha256": "f3cf3f27278e5b7861289f0fa134d908ff5f4c6b5d11a66b3abff9180a05fbdc"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "inicio": 23,
+          "fim": 32,
+          "titulo": "Compra inicial e reposição",
+          "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d"
+        }
+      ],
+      "presente": "Entrada padrão e alternativa de nível; orçamento de compras e separação de patente.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M004",
+      "pagina_inventario": 4,
+      "assunto": "Participação e continuidade na guilda",
+      "natureza": "G",
+      "discussao": "D13",
+      "previsto": "Participação e continuidade, com remissão ao registro de fechamento.",
+      "capitulo": "C01",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "inicio": 71,
+          "fim": 85,
+          "titulo": "Organize as sessões e a continuidade",
+          "sha256": "f3cf3f27278e5b7861289f0fa134d908ff5f4c6b5d11a66b3abff9180a05fbdc"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "inicio": 1,
+          "fim": 113,
+          "titulo": "Passar a missão entre mestres",
+          "sha256": "1e7607b51e412c13fd6eae07cb137e51eb84ecd31e74b5e402b2729196b2205f"
+        }
+      ],
+      "presente": "Participação, versões e passagem com recursos persistentes.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M005",
+      "pagina_inventario": 4,
+      "assunto": "Vínculos, organizações e contatos",
+      "natureza": "G",
+      "discussao": "D01",
+      "previsto": "Modelo de contatos com conhecimento, interesses e limites.",
+      "capitulo": "C01",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "inicio": 7,
+          "fim": 14,
+          "titulo": "Dê ao vínculo uma pessoa e um assunto",
+          "sha256": "b740aa7a17381f13808fcbed82e7339304db311edf2b10f1b13a107f771dd968"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/20-ficha-de-faccao.md",
+          "inicio": 30,
+          "fim": 50,
+          "titulo": "Exemplo preenchido",
+          "sha256": "4e1152c04ca2d0d83da1cb903018aabe7280a018618faf98282dd38d5588f78e"
+        }
+      ],
+      "presente": "Vínculos e facções com conhecimento, interesses e limites.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M006",
+      "pagina_inventario": 4,
+      "assunto": "Objetivo e classificação da missão",
+      "natureza": "M",
+      "discussao": "D11, D13",
+      "previsto": "Exemplos de objetivo e classificação da missão antes do jogo.",
+      "capitulo": "C02",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+          "inicio": 33,
+          "fim": 42,
+          "titulo": "Escreva a situação e o objetivo apresentado",
+          "sha256": "c9aa88b0b4c7ce78d23e00b7619650f2fa8fe728b55d50636586a861f200dc30"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "inicio": 5,
+          "fim": 14,
+          "titulo": "Anuncie o tamanho da missão",
+          "sha256": "80093db38c97369bd78e0a25d79452f2e592b212d40bbb517609dcea6d593ce7"
+        }
+      ],
+      "presente": "Objetivo e classificação, com missão de testemunha resolvida sem combate.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M007",
+      "pagina_inventario": 5,
+      "assunto": "Quando pedir uma rolagem",
+      "natureza": "R",
+      "discussao": "—",
+      "previsto": "Distinguir tarefa evidente, incerteza e consequência relevante.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 55,
+          "fim": 82,
+          "titulo": "Escolha como resolver",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "inicio": 39,
+          "fim": 48,
+          "titulo": "Decida se precisa de teste",
+          "sha256": "784e5577fb572b43dce18e4dd4e980ebd0634775f4a631b68f07b68dae403bf1"
+        }
+      ],
+      "presente": "Teste pela incerteza e consequência; conversa colaborativa e trabalho rotineiro sem dado.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M008",
+      "pagina_inventario": 5,
+      "assunto": "Escolha da dificuldade",
+      "natureza": "R",
+      "discussao": "—",
+      "previsto": "Escolher a escala correta em exemplos de dificuldade.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "inicio": 24,
+          "fim": 42,
+          "titulo": "Escolha a regra e a dificuldade",
+          "sha256": "191977d4a10338ca64c2b9beb421474bcdf02ed82d7f3ea80c3cdf72571a4b35"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 70,
+          "fim": 77,
+          "titulo": "3. Uso completo",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        }
+      ],
+      "presente": "CD específica, fixa e do criador distinguidas; conta e aplicação. A tabela completa do criador permanece na R53.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M009",
+      "pagina_inventario": 5,
+      "assunto": "Intenção, tempo e consequências",
+      "natureza": "R",
+      "discussao": "D03",
+      "previsto": "Roteiro de intenção, tempo, custo e risco antes do dado.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 45,
+          "fim": 54,
+          "titulo": "Entenda a intenção e os meios",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/05-folha-de-conducao.md",
+          "inicio": 5,
+          "fim": 24,
+          "titulo": "Para cada tentativa",
+          "sha256": "f39a47bfe74a892c73de4d913eef8458cc045bcf1e17f235237c411905b3a145"
+        }
+      ],
+      "presente": "Intenção, meios, risco e custo antes da resolução.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M010",
+      "pagina_inventario": 5,
+      "assunto": "Falha e sucesso com custo",
+      "natureza": "R",
+      "discussao": "—",
+      "previsto": "Exemplificar falha e sucesso com custo quando permitidos.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+          "inicio": 21,
+          "fim": 48,
+          "titulo": "Quando oferecer sucesso com custo",
+          "sha256": "25a4d5c2e627fc468f1c294c3ac815b29fa606b3e777e955ccc65ffb8fe2c46f"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+          "inicio": 43,
+          "fim": 48,
+          "titulo": "Quando conservar o resultado fechado",
+          "sha256": "25a4d5c2e627fc468f1c294c3ac815b29fa606b3e777e955ccc65ffb8fe2c46f"
+        }
+      ],
+      "presente": "Arquivo com falha, oferta de vinte minutos adicionais, aceitação/recusa e contraste com resultado fechado de Esconder.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M011",
+      "pagina_inventario": 5,
+      "assunto": "Repetir uma tentativa",
+      "natureza": "R",
+      "discussao": "D03, D05",
+      "previsto": "Distinguir nova abordagem de repetição sem mudança relevante.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/10-investigacao-em-andamento.md",
+          "inicio": 74,
+          "fim": 87,
+          "titulo": "Quando uma tentativa falha",
+          "sha256": "022fa50774d05cc3827c06247800657228a99a43253bbf9610223d6118d852ec"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "inicio": 49,
+          "fim": 62,
+          "titulo": "Caso: etiquetas para um depósito",
+          "sha256": "784e5577fb572b43dce18e4dd4e980ebd0634775f4a631b68f07b68dae403bf1"
+        }
+      ],
+      "presente": "Nova abordagem, impedimento físico e nova tentativa com retrabalho anunciado.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M012",
+      "pagina_inventario": 5,
+      "assunto": "Perícia, ofício e atributo da tarefa",
+      "natureza": "R",
+      "discussao": "D03",
+      "previsto": "Exemplificar atributo pertinente de ofício sem alterar perícias.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "inicio": 7,
+          "fim": 20,
+          "titulo": "Conhecimento e meios",
+          "sha256": "784e5577fb572b43dce18e4dd4e980ebd0634775f4a631b68f07b68dae403bf1"
+        }
+      ],
+      "presente": "Arrombamento com Destreza ou Inteligência; Maestria e CD calculadas.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M013",
+      "pagina_inventario": 6,
+      "assunto": "Improvisação sem treino",
+      "natureza": "M",
+      "discussao": "D03",
+      "previsto": "Casos de tentativa simples sem treino e limites da autorização.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "inicio": 7,
+          "fim": 20,
+          "titulo": "Conhecimento e meios",
+          "sha256": "784e5577fb572b43dce18e4dd4e980ebd0634775f4a631b68f07b68dae403bf1"
+        }
+      ],
+      "presente": "Condução simples sem treino contraposta a tarefas especializadas; sem Maestria extra.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M014",
+      "pagina_inventario": 6,
+      "assunto": "Ajudar e tarefas coletivas",
+      "natureza": "R",
+      "discussao": "D05",
+      "previsto": "Comparar ajuda, tarefa de grupo e exceção de criação.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+          "inicio": 49,
+          "fim": 62,
+          "titulo": "Uma pessoa age, outra ajuda",
+          "sha256": "25a4d5c2e627fc468f1c294c3ac815b29fa606b3e777e955ccc65ffb8fe2c46f"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+          "inicio": 63,
+          "fim": 102,
+          "titulo": "Todos precisam superar a tarefa juntos",
+          "sha256": "25a4d5c2e627fc468f1c294c3ac815b29fa606b3e777e955ccc65ffb8fe2c46f"
+        }
+      ],
+      "presente": "Ajuda com vantagem e contribuição concreta; travessia coletiva com três de cinco; combate individual e exceções de Contribuição Decisiva/criação.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M015",
+      "pagina_inventario": 6,
+      "assunto": "Ações propostas fora das opções prontas",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Exemplificar ação improvisada com custo e resolução completos.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 83,
+          "fim": 96,
+          "titulo": "Responda ao inesperado",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+          "inicio": 1,
+          "fim": 152,
+          "titulo": "A passarela e o guincho",
+          "sha256": "ad6c6d47e5160df328730cb93975df9f77312390b1ff8f1ee50b040f5f15934f"
+        }
+      ],
+      "presente": "Método de proposta inesperada; alavanca do perigo com posição, ação e consequência preparadas.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M016",
+      "pagina_inventario": 6,
+      "assunto": "Influência social e negociação",
+      "natureza": "R",
+      "discussao": "—",
+      "previsto": "Exemplificar negociação sem controle da vontade alheia.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 97,
+          "fim": 108,
+          "titulo": "Interprete pessoas pelo que querem e sabem",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+          "inicio": 1,
+          "fim": 165,
+          "titulo": "O Carregador e o corredor de entulho",
+          "sha256": "3e47284b0763e6428b8125fb3c2f7b591ed3c8200c49ce918d460bee6da23f48"
+        }
+      ],
+      "presente": "Pedido ao Carregador: Persuasão, Padrão, CD local 14, sucesso limitado e recusa preservada.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M017",
+      "pagina_inventario": 6,
+      "assunto": "Perigos sem autor",
+      "natureza": "M",
+      "discussao": "D12",
+      "previsto": "Preparar dificuldades ambientais respeitando CDs existentes.",
+      "capitulo": "C04",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "inicio": 24,
+          "fim": 42,
+          "titulo": "Escolha a regra e a dificuldade",
+          "sha256": "191977d4a10338ca64c2b9beb421474bcdf02ed82d7f3ea80c3cdf72571a4b35"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "inicio": 102,
+          "fim": 111,
+          "titulo": "Concentração, queda e socorro",
+          "sha256": "191977d4a10338ca64c2b9beb421474bcdf02ed82d7f3ea80c3cdf72571a4b35"
+        }
+      ],
+      "presente": "Dificuldade ambiental, CD própria e Concentração tratadas; aplicação no pó da sala.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M018",
+      "pagina_inventario": 7,
+      "assunto": "Distâncias e método de medição",
+      "natureza": "R",
+      "discussao": "D10",
+      "previsto": "Exemplificar posições, obstáculos e medição consistente.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+          "inicio": 11,
+          "fim": 26,
+          "titulo": "Estabeleça a posição antes da decisão",
+          "sha256": "596e5a2a7a3956989220a1bf52b8490685477a6564099abb120bd135da03fd80"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+          "inicio": 27,
+          "fim": 36,
+          "titulo": "Separe movimento de alcance",
+          "sha256": "596e5a2a7a3956989220a1bf52b8490685477a6564099abb120bd135da03fd80"
+        }
+      ],
+      "presente": "Posição e medição consistente; percurso de 7,5 m com saldo de movimento.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M019",
+      "pagina_inventario": 7,
+      "assunto": "Terreno, escalada e natação",
+      "natureza": "R",
+      "discussao": "D12",
+      "previsto": "Exemplos de terreno e travessia sem testes repetidos por quadrado.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "inicio": 7,
+          "fim": 27,
+          "titulo": "Nadar através de uma correnteza",
+          "sha256": "ce44a089c097708dd14263c21b309fc68e664b4db06d905029190c53f3b20b5f"
+        }
+      ],
+      "presente": "Correnteza com uma rolagem, movimento da modalidade e posição anunciada na falha.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M020",
+      "pagina_inventario": 7,
+      "assunto": "Saltos com risco adicional",
+      "natureza": "R",
+      "discussao": "D12",
+      "previsto": "Separar salto normal de risco adicional e anunciar chegada.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "inicio": 28,
+          "fim": 49,
+          "titulo": "Salto com esforço e piso escorregadio",
+          "sha256": "ce44a089c097708dd14263c21b309fc68e664b4db06d905029190c53f3b20b5f"
+        }
+      ],
+      "presente": "Esforço e risco combinados em uma CD 18; impulso, movimento, sucesso e queda anunciada.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M021",
+      "pagina_inventario": 7,
+      "assunto": "Passagens, espaços e quedas sobre criaturas",
+      "natureza": "R",
+      "discussao": "D12",
+      "previsto": "Exemplificar passagens, chegada e impacto dentro dos limites.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "inicio": 50,
+          "fim": 61,
+          "titulo": "Uma passagem que o corpo permite, mas a bagagem não",
+          "sha256": "ce44a089c097708dd14263c21b309fc68e664b4db06d905029190c53f3b20b5f"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "inicio": 62,
+          "fim": 86,
+          "titulo": "Cair sobre outra criatura",
+          "sha256": "ce44a089c097708dd14263c21b309fc68e664b4db06d905029190c53f3b20b5f"
+        }
+      ],
+      "presente": "Passagem estreita com bagagem incompatível e queda com faixa de tamanho, TR, divisão e defesas.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M022",
+      "pagina_inventario": 7,
+      "assunto": "Cobertura e direção do ataque",
+      "natureza": "R",
+      "discussao": "D12",
+      "previsto": "Resolver cobertura pela posição e pelo trajeto do ataque.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "inicio": 7,
+          "fim": 49,
+          "titulo": "Ricochete e a direção da cobertura",
+          "sha256": "2c73a39761ce476c68694e19faf9ffb686409cab0199e19a68f327b9f53a01d1"
+        }
+      ],
+      "presente": "Último trecho de Ricochete define a cobertura; mapa e ataque resolvido.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M023",
+      "pagina_inventario": 7,
+      "assunto": "Volume de objetos sem tabela",
+      "natureza": "M",
+      "discussao": "D04",
+      "previsto": "Comparar Volume de objetos sem tabela e transporte possível.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+          "inicio": 78,
+          "fim": 91,
+          "titulo": "Mover um objeto não equivale a atacar com ele",
+          "sha256": "596e5a2a7a3956989220a1bf52b8490685477a6564099abb120bd135da03fd80"
+        }
+      ],
+      "presente": "Volume local anunciado, limite 5 + Força, carga e caminho físico.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M024",
+      "pagina_inventario": 8,
+      "assunto": "Luz e sinais disponíveis",
+      "natureza": "G",
+      "discussao": "D10",
+      "previsto": "Preparar sinais sensoriais e distinguir ver de compreender.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/10-investigacao-em-andamento.md",
+          "inicio": 60,
+          "fim": 73,
+          "titulo": "Localizar não é enxergar",
+          "sha256": "022fa50774d05cc3827c06247800657228a99a43253bbf9610223d6118d852ec"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "inicio": 33,
+          "fim": 44,
+          "titulo": "Suprimentos com continuidade",
+          "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+          "inicio": 1,
+          "fim": 131,
+          "titulo": "O pó na sala de conservação",
+          "sha256": "5b74dcf67dccff93c639e3dbad77d70b791356bbf2d98d6f2b57ab82af46efd8"
+        }
+      ],
+      "presente": "Luz, barreira e nuvem distinguem sinais, localização e compreensão.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M025",
+      "pagina_inventario": 8,
+      "assunto": "Esconder, buscar e sentidos alternativos",
+      "natureza": "R",
+      "discussao": "D10",
+      "previsto": "Casos de ocultação e busca com observadores e sentidos definidos.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+          "inicio": 22,
+          "fim": 58,
+          "titulo": "Uma tentativa de Esconder, observadores diferentes",
+          "sha256": "dc0c940f006d93141e7f3aeb9d0b4882132ac63a28e410e9a54c3a3556a138b6"
+        }
+      ],
+      "presente": "Uma tentativa, observadores distintos, CD ajustada pelo sentido, busca ativa, novo observador e visão às cegas com Percepção de Contorno.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M026",
+      "pagina_inventario": 8,
+      "assunto": "Ler o Ambiente",
+      "natureza": "R",
+      "discussao": "D10",
+      "previsto": "Exemplos de informação útil e uso que não deve ser gasto.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+          "inicio": 59,
+          "fim": 80,
+          "titulo": "Ler o Ambiente: aproveitar o lugar",
+          "sha256": "dc0c940f006d93141e7f3aeb9d0b4882132ac63a28e410e9a54c3a3556a138b6"
+        }
+      ],
+      "presente": "Ler o Ambiente com caminho útil/CD 14, sucesso/falha e caso sem informação conservando ação e uso.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M027",
+      "pagina_inventario": 8,
+      "assunto": "Estudar, Intuição e lembranças",
+      "natureza": "R",
+      "discussao": "D06",
+      "previsto": "Exemplificar perguntas, lembranças e limites de leitura de informação.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+          "inicio": 81,
+          "fim": 112,
+          "titulo": "Estudar e Intuição: responder ao que foi observado",
+          "sha256": "dc0c940f006d93141e7f3aeb9d0b4882132ac63a28e410e9a54c3a3556a138b6"
+        }
+      ],
+      "presente": "Intuição resolvida por indícios, Estudar em combate e consulta de memória com três perguntas; fonte atual usa Memória Testemunha onde o inventário cita Lembrança Retomada.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M028",
+      "pagina_inventario": 8,
+      "assunto": "Busca energética com interferência",
+      "natureza": "R",
+      "discussao": "D10",
+      "previsto": "Aplicar interferência sem somar indevidamente Furtividade.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+          "inicio": 113,
+          "fim": 135,
+          "titulo": "Busca energética com interferência",
+          "sha256": "dc0c940f006d93141e7f3aeb9d0b4882132ac63a28e410e9a54c3a3556a138b6"
+        }
+      ],
+      "presente": "Uma rolagem com CD 18 de interferência, maior dificuldade sem soma, fontes ocultas, PE zero, ferramenta e porta bloqueada.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M029",
+      "pagina_inventario": 8,
+      "assunto": "Pressão, vestígios e assinatura",
+      "natureza": "G",
+      "discussao": "D10",
+      "previsto": "Preparar vestígios e assinaturas com informação consistente.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md",
+          "inicio": 136,
+          "fim": 161,
+          "titulo": "Sinais distantes e assinaturas",
+          "sha256": "dc0c940f006d93141e7f3aeb9d0b4882132ac63a28e410e9a54c3a3556a138b6"
+        }
+      ],
+      "presente": "Pulso distante, observadores equivalentes e pista estável; comparação de resíduo com referência confiável de assinatura.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M030",
+      "pagina_inventario": 9,
+      "assunto": "Desfecho dos inimigos derrotados",
+      "natureza": "M",
+      "discussao": "D11, D14",
+      "previsto": "Diferenciar destino do inimigo e procedimentos dos personagens.",
+      "capitulo": "C05",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "inicio": 131,
+          "fim": 145,
+          "titulo": "Dê destino às consequências da missão",
+          "sha256": "4fe04537a93cad88ac5ac7e453e6d547dc54d0cc92e0510a034867d5f1022dc0"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/62-o-carregador-e-o-corredor-de-entulho.md",
+          "inicio": 1,
+          "fim": 165,
+          "titulo": "O Carregador e o corredor de entulho",
+          "sha256": "3e47284b0763e6428b8125fb3c2f7b591ed3c8200c49ce918d460bee6da23f48"
+        }
+      ],
+      "presente": "Desfecho do inimigo e continuidade distinguidos da queda do jogador.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M031",
+      "pagina_inventario": 9,
+      "assunto": "Retirada de Derrotados e morte",
+      "natureza": "R",
+      "discussao": "D14",
+      "previsto": "Exemplificar retirada, captura e risco de morte comunicado.",
+      "capitulo": "C05",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "inicio": 7,
+          "fim": 14,
+          "titulo": "Torne a saída compreensível",
+          "sha256": "4fe04537a93cad88ac5ac7e453e6d547dc54d0cc92e0510a034867d5f1022dc0"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "inicio": 131,
+          "fim": 145,
+          "titulo": "Dê destino às consequências da missão",
+          "sha256": "4fe04537a93cad88ac5ac7e453e6d547dc54d0cc92e0510a034867d5f1022dc0"
+        }
+      ],
+      "presente": "Retirada, transporte, captura e comunicação de consequências.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M032",
+      "pagina_inventario": 9,
+      "assunto": "Socorro fora da iniciativa",
+      "natureza": "R",
+      "discussao": "D14",
+      "previsto": "Organizar a janela de socorro fora da iniciativa.",
+      "capitulo": "C05",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+          "inicio": 43,
+          "fim": 52,
+          "titulo": "Conte o tempo pelo ponto da queda",
+          "sha256": "8ac1f4fb3636cd845019f246c6730c261f0d274d3a4d9502b66beb2465de22c1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "inicio": 1,
+          "fim": 113,
+          "titulo": "Passar a missão entre mestres",
+          "sha256": "1e7607b51e412c13fd6eae07cb137e51eb84ecd31e74b5e402b2729196b2205f"
+        }
+      ],
+      "presente": "Ponto da queda, tempo da ficção e socorro conservado em interrupção/retomada.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M033",
+      "pagina_inventario": 9,
+      "assunto": "Corpos e fontes de tratamento compatíveis",
+      "natureza": "R",
+      "discussao": "D05",
+      "previsto": "Distinguir fontes de tratamento e saída expressa de Morrendo.",
+      "capitulo": "C05",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+          "inicio": 68,
+          "fim": 79,
+          "titulo": "Acumule cura válida",
+          "sha256": "8ac1f4fb3636cd845019f246c6730c261f0d274d3a4d9502b66beb2465de22c1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "inicio": 68,
+          "fim": 82,
+          "titulo": "Confira as exceções da ficha",
+          "sha256": "4fe04537a93cad88ac5ac7e453e6d547dc54d0cc92e0510a034867d5f1022dc0"
+        }
+      ],
+      "presente": "Fonte válida, limiar, reserva e exceções de corpo/Origem.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M034",
+      "pagina_inventario": 9,
+      "assunto": "Cicatrizes e marcas de história",
+      "natureza": "M",
+      "discussao": "D14",
+      "previsto": "Combinar cicatriz narrativa sem penalidade mecânica adicional.",
+      "capitulo": "C05",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+          "inicio": 107,
+          "fim": 119,
+          "titulo": "Sequelas, Cicatrizes e derrota",
+          "sha256": "8ac1f4fb3636cd845019f246c6730c261f0d274d3a4d9502b66beb2465de22c1"
+        }
+      ],
+      "presente": "Marca narrativa combinada e distinção da Sequela mecânica.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M035",
+      "pagina_inventario": 9,
+      "assunto": "Reservas preparadas antes da cena",
+      "natureza": "R",
+      "discussao": "—",
+      "previsto": "Mostrar continuidade de cena sem reposição ou acúmulo de reserva.",
+      "capitulo": "C05",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/21-acompanhar-recursos.md",
+          "inicio": 35,
+          "fim": 44,
+          "titulo": "Vida e energia temporárias",
+          "sha256": "a3dd51e95da079ee48048ec9d943de9b91a3d17a1bfb1faaac119d4f015ba188"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/21-acompanhar-recursos.md",
+          "inicio": 71,
+          "fim": 85,
+          "titulo": "Recupere usos pelo prazo certo",
+          "sha256": "a3dd51e95da079ee48048ec9d943de9b91a3d17a1bfb1faaac119d4f015ba188"
+        }
+      ],
+      "presente": "Preparação, máximos, não acúmulo e continuidade de recursos.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M036",
+      "pagina_inventario": 10,
+      "assunto": "Descanso e ambiente propício",
+      "natureza": "R",
+      "discussao": "D02",
+      "previsto": "Exemplificar pausa segura, fim da missão e ambiente propício.",
+      "capitulo": "C05",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "inicio": 55,
+          "fim": 67,
+          "titulo": "Confirme o descanso pela situação",
+          "sha256": "4fe04537a93cad88ac5ac7e453e6d547dc54d0cc92e0510a034867d5f1022dc0"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "inicio": 83,
+          "fim": 90,
+          "titulo": "Descanso curto",
+          "sha256": "4fe04537a93cad88ac5ac7e453e6d547dc54d0cc92e0510a034867d5f1022dc0"
+        }
+      ],
+      "presente": "Situação e ambiente propício, exceções e cálculos.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M037",
+      "pagina_inventario": 10,
+      "assunto": "Exaustão e o que conta como luta",
+      "natureza": "M",
+      "discussao": "D14",
+      "previsto": "Comparar esforço relevante e situações que não contam como luta.",
+      "capitulo": "C05",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "inicio": 91,
+          "fim": 111,
+          "titulo": "Exaustão e combates do dia",
+          "sha256": "4fe04537a93cad88ac5ac7e453e6d547dc54d0cc92e0510a034867d5f1022dc0"
+        }
+      ],
+      "presente": "Critério de luta relevante, exemplos contrastados e recuperação por degrau.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M038",
+      "pagina_inventario": 10,
+      "assunto": "Mudança de cena e usos diários",
+      "natureza": "R",
+      "discussao": "D02, D13",
+      "previsto": "Mostrar quais mudanças de situação alteram cada recurso.",
+      "capitulo": "C05",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/21-acompanhar-recursos.md",
+          "inicio": 71,
+          "fim": 85,
+          "titulo": "Recupere usos pelo prazo certo",
+          "sha256": "a3dd51e95da079ee48048ec9d943de9b91a3d17a1bfb1faaac119d4f015ba188"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+          "inicio": 106,
+          "fim": 112,
+          "titulo": "Recuperação e passagem",
+          "sha256": "d48fc9528891a7b619a0439d979f6232974e60923c3618adf207be11ee0bdc2a"
+        }
+      ],
+      "presente": "Cena, repouso, missão e disponibilidade administrativa separados.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M039",
+      "pagina_inventario": 10,
+      "assunto": "Conferência inicial da ficha",
+      "natureza": "R",
+      "discussao": "D07, D13",
+      "previsto": "Checklist inicial da ficha e conferência antes de outra mesa.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "inicio": 15,
+          "fim": 33,
+          "titulo": "Percorra a ficha na ordem da criação",
+          "sha256": "f45a6f401ef3b691740170808a59ccc8caf66cde5853cbff1c711037df5e6318"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "inicio": 78,
+          "fim": 84,
+          "titulo": "Confira o estado de entrada",
+          "sha256": "f45a6f401ef3b691740170808a59ccc8caf66cde5853cbff1c711037df5e6318"
+        }
+      ],
+      "presente": "Roteiro de criação, correção e estado de entrada.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M040",
+      "pagina_inventario": 10,
+      "assunto": "Vida rolada como variante",
+      "natureza": "M",
+      "discussao": "D01",
+      "previsto": "Apresentar a variante de vida rolada e sua declaração prévia.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "inicio": 58,
+          "fim": 69,
+          "titulo": "Confira a atualização sem confundir com descanso",
+          "sha256": "f45a6f401ef3b691740170808a59ccc8caf66cde5853cbff1c711037df5e6318"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+          "inicio": 1,
+          "fim": 75,
+          "titulo": "Vida rolada e uma família própria",
+          "sha256": "b5859ec6d94f77c834fec7da96846c2388edf842bbd5078968733be90317fbec"
+        }
+      ],
+      "presente": "Declaração prévia, três níveis comparados e crescimento/recálculo do máximo sem recuperação automática.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M041",
+      "pagina_inventario": 10,
+      "assunto": "Treino livre e história",
+      "natureza": "R",
+      "discussao": "—",
+      "previsto": "Conferir treinos de criação e vínculo com a história.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "inicio": 15,
+          "fim": 33,
+          "titulo": "Percorra a ficha na ordem da criação",
+          "sha256": "f45a6f401ef3b691740170808a59ccc8caf66cde5853cbff1c711037df5e6318"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "inicio": 42,
+          "fim": 54,
+          "titulo": "Diferencie conhecimento, acesso e benefício",
+          "sha256": "b740aa7a17381f13808fcbed82e7339304db311edf2b10f1b13a107f771dd968"
+        }
+      ],
+      "presente": "Treino livre ligado à história, vagas e conversão de Ofícios conservadas.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M042",
+      "pagina_inventario": 11,
+      "assunto": "Legados de história",
+      "natureza": "M",
+      "discussao": "D01",
+      "previsto": "Exemplos de Legados de história sem concessão automática de poder.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "inicio": 39,
+          "fim": 48,
+          "titulo": "Dê aos personagens razões para participar",
+          "sha256": "f3cf3f27278e5b7861289f0fa134d908ff5f4c6b5d11a66b3abff9180a05fbdc"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "inicio": 42,
+          "fim": 54,
+          "titulo": "Diferencie conhecimento, acesso e benefício",
+          "sha256": "b740aa7a17381f13808fcbed82e7339304db311edf2b10f1b13a107f771dd968"
+        }
+      ],
+      "presente": "Legado com Nara e centro cultural, sem equipamento ou poder automático.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M043",
+      "pagina_inventario": 11,
+      "assunto": "Menores personalizadas e famílias novas",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Exemplos comentados de menores e famílias personalizadas.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "inicio": 79,
+          "fim": 94,
+          "titulo": "Uma menor e o pacote de Origem",
+          "sha256": "11ba611c5f9d77515362e32fd92d3c9e3c7e16c09dcb566dd53001098f4e5db3"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+          "inicio": 1,
+          "fim": 75,
+          "titulo": "Vida rolada e uma família própria",
+          "sha256": "b5859ec6d94f77c834fec7da96846c2388edf842bbd5078968733be90317fbec"
+        }
+      ],
+      "presente": "Família Arata com base, marcante publicada, duas menores próprias comparadas e resolução conjunta; exemplo experimental.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M044",
+      "pagina_inventario": 11,
+      "assunto": "Rever uma Origem depois de uma perda",
+      "natureza": "R",
+      "discussao": "D14",
+      "previsto": "Explicar revisão específica após perda duradoura.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "inicio": 63,
+          "fim": 72,
+          "titulo": "Rever uma escolha depois de uma perda duradoura",
+          "sha256": "b740aa7a17381f13808fcbed82e7339304db311edf2b10f1b13a107f771dd968"
+        }
+      ],
+      "presente": "Perda funcional distinguida de afastamento; revisão delimitada entre missões.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M045",
+      "pagina_inventario": 11,
+      "assunto": "Receptáculo e controle do hospedeiro",
+      "natureza": "A",
+      "discussao": "D06",
+      "previsto": "Desenvolver convivência do Receptáculo e controle do jogador.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/27-convivencia-do-receptaculo.md",
+          "inicio": 9,
+          "fim": 22,
+          "titulo": "Combine a distribuição das vozes",
+          "sha256": "794702890b47054d50fedc3e7f48a8f815b0f136d8eceb76ef3dcd62b14dd02a"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/28-ficha-de-convivencia.md",
+          "inicio": 34,
+          "fim": 50,
+          "titulo": "Exemplo: Maia e Taru",
+          "sha256": "e2bda20a8b8f6ba13abf97f9358787f23660aa0b6a4fe23b12e2db7c7b8d783e"
+        }
+      ],
+      "presente": "Voz recomendada, alternativas, cooperação, conflito e controle preservado.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M046",
+      "pagina_inventario": 11,
+      "assunto": "Encarnado e a pessoa do corpo recebido",
+      "natureza": "M",
+      "discussao": "D06",
+      "previsto": "Modelos de acordo sobre hospedeiro, lembranças e relações.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "inicio": 73,
+          "fim": 82,
+          "titulo": "Encarnado: relações de uma vida recebida",
+          "sha256": "b740aa7a17381f13808fcbed82e7339304db311edf2b10f1b13a107f771dd968"
+        }
+      ],
+      "presente": "Pessoa do corpo recebido e encontro com antiga colega sem memória/treino gratuito.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M047",
+      "pagina_inventario": 11,
+      "assunto": "Consciências e manutenção do Corpo Amaldiçoado",
+      "natureza": "M",
+      "discussao": "D06",
+      "previsto": "Acordos sobre consciências e manutenção sem recursos extras.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "inicio": 83,
+          "fim": 97,
+          "titulo": "Corpo Amaldiçoado: consciência e cuidado",
+          "sha256": "b740aa7a17381f13808fcbed82e7339304db311edf2b10f1b13a107f771dd968"
+        }
+      ],
+      "presente": "Ninhada/Gêmeos, vozes, cuidado e ficha compartilhada, sem drenagem inventada.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M048",
+      "pagina_inventario": 12,
+      "assunto": "Ofício compatível e reparo",
+      "natureza": "M",
+      "discussao": "D03, D05",
+      "previsto": "Exemplificar ofício compatível, materiais e limites de reparo.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "inicio": 83,
+          "fim": 97,
+          "titulo": "Corpo Amaldiçoado: consciência e cuidado",
+          "sha256": "b740aa7a17381f13808fcbed82e7339304db311edf2b10f1b13a107f771dd968"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "inicio": 95,
+          "fim": 103,
+          "titulo": "Trabalho, tratamento e aprendizado",
+          "sha256": "784e5577fb572b43dce18e4dd4e980ebd0634775f4a631b68f07b68dae403bf1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/90-reparar-personagem-de-corpo-construido.md",
+          "inicio": 1,
+          "fim": 63,
+          "titulo": "Reparar um personagem de corpo construído",
+          "sha256": "c29e9a96a642b589a36f5b1bdb0b81d06c010d6665f50e893a4aaeeb3238bb59"
+        }
+      ],
+      "presente": "Reparo corporal com Ofício, materiais/consumo local, CD, repetição, recuperação, Classes e limite de núcleo.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M049",
+      "pagina_inventario": 12,
+      "assunto": "Restrição corporal e CE4",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Caso completo de CE4 e condição corporal dentro da exceção.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "inicio": 102,
+          "fim": 116,
+          "titulo": "CE4: delimite a exceção",
+          "sha256": "7ec940242eaa00f6367a0242e4281becc9c309d2488e4c907fa1819a30f38176"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+          "inicio": 1,
+          "fim": 88,
+          "titulo": "Restrição corporal, meios de agir e cuidados",
+          "sha256": "21d4d988e9db57bcb8532bacf8c0def945c8a17e71f8adc798ff0862aa60a1d2"
+        }
+      ],
+      "presente": "Pacote publicado Rede Remota/Quebradiço, meios reais de participação, uso, interrupção e cuidados.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M050",
+      "pagina_inventario": 12,
+      "assunto": "Cuidados das limitações corporais",
+      "natureza": "M",
+      "discussao": "D03",
+      "previsto": "Exemplificar apoios e cuidados sem inventar penalidades universais.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "inicio": 68,
+          "fim": 82,
+          "titulo": "Confira as exceções da ficha",
+          "sha256": "4fe04537a93cad88ac5ac7e453e6d547dc54d0cc92e0510a034867d5f1022dc0"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "inicio": 1,
+          "fim": 118,
+          "titulo": "Preparar perigos ambientais",
+          "sha256": "191977d4a10338ca64c2b9beb421474bcdf02ed82d7f3ea80c3cdf72571a4b35"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+          "inicio": 1,
+          "fim": 88,
+          "titulo": "Restrição corporal, meios de agir e cuidados",
+          "sha256": "21d4d988e9db57bcb8532bacf8c0def945c8a17e71f8adc798ff0862aa60a1d2"
+        }
+      ],
+      "presente": "Preparo de abrigo/assistência para as três condições, com exposição, cura e recuperação/movimento demonstrados.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M051",
+      "pagina_inventario": 12,
+      "assunto": "Armazenamento de energia próprio",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Modelo de aprovação com quantidade, condições e teto de energia.",
+      "capitulo": "C06",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "inicio": 69,
+          "fim": 88,
+          "titulo": "Armazenamento de energia",
+          "sha256": "2f0567aaee355aeedb57d080b37b426dc15cc873c2c0b4ec8d7305d9eecbbf14"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+          "inicio": 1,
+          "fim": 122,
+          "titulo": "Reserva Condensada: poupança e uso da energia",
+          "sha256": "5fca69dcd0b5b60881d7a4f933c23656a8c5e81382d2ec4715ca1ca3da2dae10"
+        }
+      ],
+      "presente": "Modelos A/B e alternativas comparados; B com entrada, retirada, teto, interações e ciclo completo; recomendação experimental sem aprovação.",
+      "falta": "Definir com o autor o papel e a referência de Reserva após a comparação de modelos, usos e cadências; nenhum modelo ou número aprovado.",
+      "lote": "L4"
+    },
+    {
+      "id": "M052",
+      "pagina_inventario": 12,
+      "assunto": "Concessão familiar de ferramentas e negociação",
+      "natureza": "M",
+      "discussao": "D04, D13",
+      "previsto": "Casos de acesso familiar e negociação com condição recusável.",
+      "capitulo": "C06",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "inicio": 45,
+          "fim": 61,
+          "titulo": "Empréstimos e itens do grupo",
+          "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "inicio": 70,
+          "fim": 78,
+          "titulo": "Negociação e revenda",
+          "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d"
+        }
+      ],
+      "presente": "Cofre e Palavra Empenhada explicados, com direito de recusa.",
+      "falta": "Falta condição concreta oferecida e aceita/recusada numa negociação completa.",
+      "lote": "L5"
+    },
+    {
+      "id": "M053",
+      "pagina_inventario": 12,
+      "assunto": "Caminho com arma de fogo",
+      "natureza": "R",
+      "discussao": "D04",
+      "previsto": "Checklist de acesso antes de escolher rota dependente de arma.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "inicio": 5,
+          "fim": 22,
+          "titulo": "Separe dinheiro, acesso e uso",
+          "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d"
+        }
+      ],
+      "presente": "Kaori verifica autorização antes de fechar rota e compra.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M054",
+      "pagina_inventario": 13,
+      "assunto": "Obras, saltos e ricochetes",
+      "natureza": "R",
+      "discussao": "—",
+      "previsto": "Exemplificar terreno e trajetória para capacidades já publicadas.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "inicio": 87,
+          "fim": 107,
+          "titulo": "Obras de Apoio: uma ponte com requisitos",
+          "sha256": "ce44a089c097708dd14263c21b309fc68e664b4db06d905029190c53f3b20b5f"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/84-percursos-apoios-e-quedas.md",
+          "inicio": 108,
+          "fim": 130,
+          "titulo": "Parkour: alcançar uma borda e sustentar-se",
+          "sha256": "ce44a089c097708dd14263c21b309fc68e664b4db06d905029190c53f3b20b5f"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "inicio": 7,
+          "fim": 49,
+          "titulo": "Ricochete e a direção da cobertura",
+          "sha256": "2c73a39761ce476c68694e19faf9ffb686409cab0199e19a68f327b9f53a01d1"
+        }
+      ],
+      "presente": "Passarela e Abertura com requisitos, Parkour com apoios/limites e Ricochete com dois trechos.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M055",
+      "pagina_inventario": 13,
+      "assunto": "Trocas e alterações do Emanador",
+      "natureza": "R",
+      "discussao": "D07",
+      "previsto": "Conferir trocas do Emanador sem criar peça durante a conjuração.",
+      "capitulo": "C07",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "inicio": 5,
+          "fim": 18,
+          "titulo": "A troca do Emanador",
+          "sha256": "2f0567aaee355aeedb57d080b37b426dc15cc873c2c0b4ec8d7305d9eecbbf14"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+          "inicio": 1,
+          "fim": 157,
+          "titulo": "Retirar a caixa, proteger a equipe",
+          "sha256": "99774072bb18507ea50a795371580ae77eb42f0e26dc19dafe864c2e42c7cd33"
+        }
+      ],
+      "presente": "Remodelar tem conta e aplicação posterior.",
+      "falta": "Falta demonstrar Forma Fluida preservando funções e parcelas da mescla.",
+      "lote": "L6"
+    },
+    {
+      "id": "M056",
+      "pagina_inventario": 13,
+      "assunto": "Projeto de fabricação comum",
+      "natureza": "M",
+      "discussao": "D02, D03",
+      "previsto": "Desenvolver referências de projeto, tempo, materiais e etapas.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "inicio": 21,
+          "fim": 38,
+          "titulo": "Combine o projeto antes do gasto",
+          "sha256": "784e5577fb572b43dce18e4dd4e980ebd0634775f4a631b68f07b68dae403bf1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "inicio": 49,
+          "fim": 62,
+          "titulo": "Caso: etiquetas para um depósito",
+          "sha256": "784e5577fb572b43dce18e4dd4e980ebd0634775f4a631b68f07b68dae403bf1"
+        }
+      ],
+      "presente": "Projeto comum com resultado, material, preço, tempo e teste pertinente.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M057",
+      "pagina_inventario": 13,
+      "assunto": "Falha de fabricação e nova tentativa",
+      "natureza": "M",
+      "discussao": "D03",
+      "previsto": "Exemplificar falha, retrabalho e condições de nova tentativa.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "inicio": 49,
+          "fim": 62,
+          "titulo": "Caso: etiquetas para um depósito",
+          "sha256": "784e5577fb572b43dce18e4dd4e980ebd0634775f4a631b68f07b68dae403bf1"
+        }
+      ],
+      "presente": "Falha de CD14, trinta minutos de retrabalho e sucesso posterior.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M058",
+      "pagina_inventario": 13,
+      "assunto": "Receitas e produtos sobrenaturais",
+      "natureza": "M",
+      "discussao": "D03, D04",
+      "previsto": "Distinguir receita e aquisição de componentes de poder gratuito.",
+      "capitulo": "C08",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "inicio": 81,
+          "fim": 94,
+          "titulo": "Reparar, reconstruir e melhorar",
+          "sha256": "784e5577fb572b43dce18e4dd4e980ebd0634775f4a631b68f07b68dae403bf1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "inicio": 37,
+          "fim": 48,
+          "titulo": "Criar a ficha e fabricar a peça",
+          "sha256": "56c577de788f0f1a101f5fc80e05d474720fed92cdf18f466408df1c017490b7"
+        }
+      ],
+      "presente": "Meios mundanos separados da concessão sobrenatural.",
+      "falta": "Falta fabricação especial de produto/equipamento com ficha, fonte e processo; entidade criada não substitui esse caso.",
+      "lote": "L5"
+    },
+    {
+      "id": "M059",
+      "pagina_inventario": 13,
+      "assunto": "Conserto, oficina e reconstrução",
+      "natureza": "M",
+      "discussao": "D02, D03",
+      "previsto": "Separar reparo, reconstrução e melhoria em projetos comentados.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "inicio": 63,
+          "fim": 72,
+          "titulo": "Caso: um reparo interrompido",
+          "sha256": "784e5577fb572b43dce18e4dd4e980ebd0634775f4a631b68f07b68dae403bf1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md",
+          "inicio": 81,
+          "fim": 94,
+          "titulo": "Reparar, reconstruir e melhorar",
+          "sha256": "784e5577fb572b43dce18e4dd4e980ebd0634775f4a631b68f07b68dae403bf1"
+        }
+      ],
+      "presente": "Reparo do Traje interrompido, progresso preservado e distinção de reconstrução/melhoria.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M060",
+      "pagina_inventario": 14,
+      "assunto": "Uso criativo de objetos",
+      "natureza": "R",
+      "discussao": "—",
+      "previsto": "Resolver uso de objeto por adequação, posição, ação e teste.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+          "inicio": 64,
+          "fim": 77,
+          "titulo": "Um uso criativo começa pelo efeito desejado",
+          "sha256": "596e5a2a7a3956989220a1bf52b8490685477a6564099abb120bd135da03fd80"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+          "inicio": 1,
+          "fim": 152,
+          "titulo": "A passarela e o guincho",
+          "sha256": "ad6c6d47e5160df328730cb93975df9f77312390b1ff8f1ee50b040f5f15934f"
+        }
+      ],
+      "presente": "Objeto tratado por função; mecanismo da passarela oferece execução concreta.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M061",
+      "pagina_inventario": 14,
+      "assunto": "Situação de proteção de Traje",
+      "natureza": "M",
+      "discussao": "D04, D07",
+      "previsto": "Exemplos de proteção alternativa física, reconhecível e ocasional.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "inicio": 47,
+          "fim": 56,
+          "titulo": "A situação do Traje",
+          "sha256": "2f0567aaee355aeedb57d080b37b426dc15cc873c2c0b4ec8d7305d9eecbbf14"
+        }
+      ],
+      "presente": "Situação física e ocasional; Água e chuva com perícias/TR definidos.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M062",
+      "pagina_inventario": 14,
+      "assunto": "Armas de fogo e equipamento restrito",
+      "natureza": "M",
+      "discussao": "D04, D13",
+      "previsto": "Modelo de autorização e fornecedor para equipamento restrito.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "inicio": 5,
+          "fim": 22,
+          "titulo": "Separe dinheiro, acesso e uso",
+          "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "inicio": 33,
+          "fim": 44,
+          "titulo": "Suprimentos com continuidade",
+          "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d"
+        }
+      ],
+      "presente": "Autorização, fornecedor e limites de acesso, com compra e reposição.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M063",
+      "pagina_inventario": 14,
+      "assunto": "Baterias, consumíveis e autonomia",
+      "natureza": "M",
+      "discussao": "D04",
+      "previsto": "Exemplificar autonomia e recarga sem renovação por cena.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "inicio": 33,
+          "fim": 44,
+          "titulo": "Suprimentos com continuidade",
+          "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d"
+        }
+      ],
+      "presente": "Lanterna 8 h, três gastas, pilhas, telefone e bateria com continuidade.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M064",
+      "pagina_inventario": 14,
+      "assunto": "Cordas, kits, fechaduras e contenção",
+      "natureza": "R",
+      "discussao": "—",
+      "previsto": "Aplicar apoios, anatomia e falha sem consequências automáticas extras.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "inicio": 50,
+          "fim": 63,
+          "titulo": "Instalar uma corda e preparar o kit",
+          "sha256": "2c73a39761ce476c68694e19faf9ffb686409cab0199e19a68f327b9f53a01d1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "inicio": 64,
+          "fim": 75,
+          "titulo": "Uma fechadura, uma tentativa completa",
+          "sha256": "2c73a39761ce476c68694e19faf9ffb686409cab0199e19a68f327b9f53a01d1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "inicio": 76,
+          "fim": 87,
+          "titulo": "Conter exige mais do que vencer um agarrão",
+          "sha256": "2c73a39761ce476c68694e19faf9ffb686409cab0199e19a68f327b9f53a01d1"
+        }
+      ],
+      "presente": "Kit e apoio preparados, fechadura com falha anunciada e contenção compatível com custos e escape.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M065",
+      "pagina_inventario": 14,
+      "assunto": "Danificar objetos e materiais",
+      "natureza": "M",
+      "discussao": "D12",
+      "previsto": "Definir parte atingida e referência adequada de objeto ou estrutura.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "inicio": 43,
+          "fim": 62,
+          "titulo": "Separe as consequências",
+          "sha256": "191977d4a10338ca64c2b9beb421474bcdf02ed82d7f3ea80c3cdf72571a4b35"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+          "inicio": 1,
+          "fim": 131,
+          "titulo": "O pó na sala de conservação",
+          "sha256": "5b74dcf67dccff93c639e3dbad77d70b791356bbf2d98d6f2b57ab82af46efd8"
+        }
+      ],
+      "presente": "Parte de objeto, material e ataque compatível no pino de cerâmica; sem colapso automático.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M066",
+      "pagina_inventario": 15,
+      "assunto": "Armas improvisadas",
+      "natureza": "M",
+      "discussao": "D04",
+      "previsto": "Comparar objetos com armas de catálogo e perfil improvisado.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "inicio": 88,
+          "fim": 107,
+          "titulo": "Objeto semelhante a uma arma",
+          "sha256": "2c73a39761ce476c68694e19faf9ffb686409cab0199e19a68f327b9f53a01d1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md",
+          "inicio": 108,
+          "fim": 132,
+          "titulo": "Objeto sem referência: a garrafa",
+          "sha256": "2c73a39761ce476c68694e19faf9ffb686409cab0199e19a68f327b9f53a01d1"
+        }
+      ],
+      "presente": "Cabo com referência de catálogo e garrafa genérica: treino, mãos, dano, arremesso, crítico e quebra.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M067",
+      "pagina_inventario": 15,
+      "assunto": "Revenda, serviços e itens sem preço",
+      "natureza": "M",
+      "discussao": "D03, D04",
+      "previsto": "Casos de serviço, revenda e valor negociado sem lucro garantido.",
+      "capitulo": "C08",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "inicio": 62,
+          "fim": 69,
+          "titulo": "Comprar um serviço",
+          "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "inicio": 70,
+          "fim": 78,
+          "titulo": "Negociação e revenda",
+          "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d"
+        }
+      ],
+      "presente": "Serviço, revenda e ausência de lucro garantido explicados.",
+      "falta": "Falta revenda ou item sem preço resolvido com comprador, valor e condições locais.",
+      "lote": "L5"
+    },
+    {
+      "id": "M068",
+      "pagina_inventario": 15,
+      "assunto": "Aquisição de ferramentas amaldiçoadas",
+      "natureza": "M",
+      "discussao": "D04, D13",
+      "previsto": "Exemplificar aquisição, ficha completa e Desgaste entre portadores.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "inicio": 15,
+          "fim": 26,
+          "titulo": "Confira como a peça é usada",
+          "sha256": "56c577de788f0f1a101f5fc80e05d474720fed92cdf18f466408df1c017490b7"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "inicio": 49,
+          "fim": 58,
+          "titulo": "Desgaste acompanha o objeto",
+          "sha256": "56c577de788f0f1a101f5fc80e05d474720fed92cdf18f466408df1c017490b7"
+        }
+      ],
+      "presente": "Kunai Fiel e Desgaste entre missões/portadores demonstram uso e continuidade; ficha do catálogo continua fonte.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M069",
+      "pagina_inventario": 15,
+      "assunto": "Ferramentas novas e identificação",
+      "natureza": "M",
+      "discussao": "D04, D07",
+      "previsto": "Projeto de ferramenta e pistas de identificação, com limites.",
+      "capitulo": "C08",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "inicio": 27,
+          "fim": 36,
+          "titulo": "Identificar uma peça desconhecida",
+          "sha256": "56c577de788f0f1a101f5fc80e05d474720fed92cdf18f466408df1c017490b7"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "inicio": 37,
+          "fim": 48,
+          "titulo": "Criar a ficha e fabricar a peça",
+          "sha256": "56c577de788f0f1a101f5fc80e05d474720fed92cdf18f466408df1c017490b7"
+        }
+      ],
+      "presente": "Método de identificação e avaliação da ferramenta.",
+      "falta": "Falta ferramenta original completa ligada a pistas de identificação e fabricação; aproveitar M058.",
+      "lote": "L5"
+    },
+    {
+      "id": "M070",
+      "pagina_inventario": 15,
+      "assunto": "Objetos amaldiçoados e selos",
+      "natureza": "M",
+      "discussao": "D04, D12",
+      "previsto": "Preparar objeto e selo com alcance, cuidados e destruição próprios.",
+      "capitulo": "C08",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "inicio": 59,
+          "fim": 80,
+          "titulo": "Prepare o objeto da missão",
+          "sha256": "56c577de788f0f1a101f5fc80e05d474720fed92cdf18f466408df1c017490b7"
+        }
+      ],
+      "presente": "Campos de objeto, selo, risco e intervenção definidos.",
+      "falta": "Falta objeto concreto com alcance/duração do selo e meios de intervenção, sem parâmetro universal.",
+      "lote": "L5"
+    },
+    {
+      "id": "M071",
+      "pagina_inventario": 15,
+      "assunto": "Ingerir um objeto desconhecido",
+      "natureza": "M",
+      "discussao": "D04, D06",
+      "previsto": "Exemplo de risco conhecido e consequência específica de ingestão.",
+      "capitulo": "C08",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/36-ferramentas-objetos-e-contencao.md",
+          "inicio": 59,
+          "fim": 80,
+          "titulo": "Prepare o objeto da missão",
+          "sha256": "56c577de788f0f1a101f5fc80e05d474720fed92cdf18f466408df1c017490b7"
+        }
+      ],
+      "presente": "Ingestão distinguida de aquisição automática de Origem/poder.",
+      "falta": "Falta consequência específica preparada e risco acessível antes da ingestão.",
+      "lote": "L5"
+    },
+    {
+      "id": "M072",
+      "pagina_inventario": 16,
+      "assunto": "XP em missão malsucedida",
+      "natureza": "M",
+      "discussao": "D13, D14",
+      "previsto": "Casos de missão malsucedida e aplicação posterior do desconto semanal.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "inicio": 15,
+          "fim": 26,
+          "titulo": "Falha e resultados parciais",
+          "sha256": "80093db38c97369bd78e0a25d79452f2e592b212d40bbb517609dcea6d593ce7"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "inicio": 27,
+          "fim": 48,
+          "titulo": "Calcule a experiência semanal",
+          "sha256": "80093db38c97369bd78e0a25d79452f2e592b212d40bbb517609dcea6d593ce7"
+        }
+      ],
+      "presente": "Metade/zero fundamentados e desconto semanal posterior, com contas.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M073",
+      "pagina_inventario": 16,
+      "assunto": "Semana e fechamento das missões",
+      "natureza": "M",
+      "discussao": "D02, D13",
+      "previsto": "Modelo de semana e fechamento sem contar sessões como missões.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "inicio": 27,
+          "fim": 48,
+          "titulo": "Calcule a experiência semanal",
+          "sha256": "80093db38c97369bd78e0a25d79452f2e592b212d40bbb517609dcea6d593ce7"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+          "inicio": 68,
+          "fim": 83,
+          "titulo": "Missões e trabalhos pendentes",
+          "sha256": "d48fc9528891a7b619a0439d979f6232974e60923c3618adf207be11ee0bdc2a"
+        }
+      ],
+      "presente": "Conclusão, semana, várias sessões e tempo fictício separados.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M074",
+      "pagina_inventario": 16,
+      "assunto": "Feitos do Limiar",
+      "natureza": "R",
+      "discussao": "D13",
+      "previsto": "Conferir evidências dos feitos publicados e evitar equivalência.",
+      "capitulo": "C08",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "inicio": 49,
+          "fim": 58,
+          "titulo": "Atualize a ficha e registre os feitos",
+          "sha256": "80093db38c97369bd78e0a25d79452f2e592b212d40bbb517609dcea6d593ce7"
+        }
+      ],
+      "presente": "Limiar e feito publicado são encaminhados sem equivalência inventada.",
+      "falta": "Falta conferir um feito concreto contra todos os requisitos pertinentes.",
+      "lote": "L5"
+    },
+    {
+      "id": "M075",
+      "pagina_inventario": 16,
+      "assunto": "Recuperação ao subir de nível",
+      "natureza": "M",
+      "discussao": "D13",
+      "previsto": "Distinguir recuperação autorizada ao subir de descanso e socorro.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "inicio": 58,
+          "fim": 69,
+          "titulo": "Confira a atualização sem confundir com descanso",
+          "sha256": "f45a6f401ef3b691740170808a59ccc8caf66cde5853cbff1c711037df5e6318"
+        }
+      ],
+      "presente": "Máximo 40→48, saldo 25→33 e exceção de PV zero; recuperação autorizada distinguida.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M076",
+      "pagina_inventario": 16,
+      "assunto": "Reescrita e troca de Trilha",
+      "natureza": "R",
+      "discussao": "D07, D13",
+      "previsto": "Registrar alterações de Trilha e ajustes restritos às partes afetadas.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "inicio": 58,
+          "fim": 69,
+          "titulo": "Confira a atualização sem confundir com descanso",
+          "sha256": "f45a6f401ef3b691740170808a59ccc8caf66cde5853cbff1c711037df5e6318"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 100,
+          "fim": 110,
+          "titulo": "Registre e acompanhe",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        }
+      ],
+      "presente": "Trilha, saldo limitado ao máximo, Ampliar e reescrita distinguidos.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M077",
+      "pagina_inventario": 16,
+      "assunto": "Salário e remuneração por mestrar",
+      "natureza": "M",
+      "discussao": "D13",
+      "previsto": "Apresentar políticas opcionais de remuneração e seu registro.",
+      "capitulo": "C08",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "inicio": 59,
+          "fim": 72,
+          "titulo": "Remuneração opcional",
+          "sha256": "80093db38c97369bd78e0a25d79452f2e592b212d40bbb517609dcea6d593ce7"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "inicio": 73,
+          "fim": 80,
+          "titulo": "Recompensa por mestrar",
+          "sha256": "80093db38c97369bd78e0a25d79452f2e592b212d40bbb517609dcea6d593ce7"
+        }
+      ],
+      "presente": "Salário facultativo, conta de participação e marca de mestragem; X permanece escolha local explícita.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M078",
+      "pagina_inventario": 17,
+      "assunto": "Promoções de patente",
+      "natureza": "M",
+      "discussao": "D13",
+      "previsto": "Exemplos de promoção com feito registrado e sem automatismo de nível.",
+      "capitulo": "C08",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/37-recompensas-e-fechamento.md",
+          "inicio": 49,
+          "fim": 58,
+          "titulo": "Atualize a ficha e registre os feitos",
+          "sha256": "80093db38c97369bd78e0a25d79452f2e592b212d40bbb517609dcea6d593ce7"
+        }
+      ],
+      "presente": "Patente depende de reconhecimento e feito, não de nível/item.",
+      "falta": "Falta parecer de promoção concreto com feito e registro, sem criar promoção automática.",
+      "lote": "L5"
+    },
+    {
+      "id": "M079",
+      "pagina_inventario": 17,
+      "assunto": "Conceito e limites da técnica",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Construir conceito e verificar funções dentro da Regra da técnica.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 7,
+          "fim": 14,
+          "titulo": "Comece pelo resultado",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 54,
+          "fim": 59,
+          "titulo": "1. Acesso e funcionamento",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        }
+      ],
+      "presente": "Conceito convertido em função e limites da técnica, com caso dos fios.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M080",
+      "pagina_inventario": 17,
+      "assunto": "Famílias Livres e Fechadas",
+      "natureza": "R",
+      "discussao": "D07",
+      "previsto": "Conferir acessos pela função mecânica e não pela aparência.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 54,
+          "fim": 59,
+          "titulo": "1. Acesso e funcionamento",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "inicio": 42,
+          "fim": 51,
+          "titulo": "Escolha as Famílias",
+          "sha256": "5d81d8284a09acb9a62f48dc30d4c09f8b0d6ee81135efa83c87e620de1bb30b"
+        }
+      ],
+      "presente": "Família pela função; compras e desconto exemplificados no Escriba.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M081",
+      "pagina_inventario": 17,
+      "assunto": "Selo e exigências adicionais",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Exemplificar Selo e exigência adicional sem contar custo duas vezes.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 60,
+          "fim": 69,
+          "titulo": "2. Custo e capacidade",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "inicio": 95,
+          "fim": 105,
+          "titulo": "Uma Restrição que nunca cobrou nada",
+          "sha256": "11ba611c5f9d77515362e32fd92d3c9e3c7e16c09dcb566dd53001098f4e5db3"
+        }
+      ],
+      "presente": "Selo/exigência e dupla compensação; Gesto não desaparece por Silencioso.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M082",
+      "pagina_inventario": 17,
+      "assunto": "Expressão e Uso Livre",
+      "natureza": "R",
+      "discussao": "D07",
+      "previsto": "Comparar expressão, Uso Livre e vantagem funcional.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 15,
+          "fim": 31,
+          "titulo": "Identifique o tipo de pedido",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        }
+      ],
+      "presente": "Vela e sombra distinguem Uso Livre, expressão e informação desconhecida.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M083",
+      "pagina_inventario": 17,
+      "assunto": "Resolução, TR e tipos de dano",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Fechar TR e tipos de dano antes de conhecer o alvo.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "inicio": 17,
+          "fim": 32,
+          "titulo": "A rede que pretendia impedir qualquer ação",
+          "sha256": "11ba611c5f9d77515362e32fd92d3c9e3c7e16c09dcb566dd53001098f4e5db3"
+        }
+      ],
+      "presente": "Rede por TR Físico CD15 com alternativa por ataque distinguida antes do uso.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M084",
+      "pagina_inventario": 18,
+      "assunto": "Mesclas e Ampliação",
+      "natureza": "R",
+      "discussao": "D07",
+      "previsto": "Exemplificar mesclas e Ampliação preservando a montagem.",
+      "capitulo": "C07",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 100,
+          "fim": 110,
+          "titulo": "Registre e acompanhe",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+          "inicio": 1,
+          "fim": 119,
+          "titulo": "Ren e Sora: atacante e apoio",
+          "sha256": "e1c37839bff7988f27700303becb2ed601421078be96f4b9dd0130fb9815a6da"
+        }
+      ],
+      "presente": "Mescla aparece em aplicação; Ampliar é distinguido de trocar peças.",
+      "falta": "Falta mescla ampliada em duas Classes com parcelas, destinatários e dependências completos.",
+      "lote": "L6"
+    },
+    {
+      "id": "M085",
+      "pagina_inventario": 18,
+      "assunto": "Efeito Próprio: operação e preço",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Parecer de Efeito Próprio com funcionamento, limite e preço comparado.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 60,
+          "fim": 69,
+          "titulo": "2. Custo e capacidade",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+          "inicio": 1,
+          "fim": 105,
+          "titulo": "Sineiro — consulta e Doma",
+          "sha256": "55917cd79003c843a94b7f2b36876efbb755c94af95d59feb6b806da4fb82298"
+        }
+      ],
+      "presente": "Efeito Próprio Condução urgente tem preço, comparação, montagem, uso e limites identificados como proposta.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M086",
+      "pagina_inventario": 18,
+      "assunto": "Família e desconto da criação própria",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Classificar a Família pela função e registrar ausência de desconto.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 60,
+          "fim": 69,
+          "titulo": "2. Custo e capacidade",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "inicio": 52,
+          "fim": 61,
+          "titulo": "Conferência de uma Máxima de utilidade",
+          "sha256": "7ec940242eaa00f6367a0242e4281becc9c309d2488e4c907fa1819a30f38176"
+        }
+      ],
+      "presente": "Família pela função; Passagem de Papel demonstra preço sem desconto.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M087",
+      "pagina_inventario": 18,
+      "assunto": "Repetir ou reunir Melhorias",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Exemplificar repetição de peça e benefícios pagos separadamente.",
+      "capitulo": "C07",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "inicio": 19,
+          "fim": 30,
+          "titulo": "Repetição e benefícios independentes",
+          "sha256": "2f0567aaee355aeedb57d080b37b426dc15cc873c2c0b4ec8d7305d9eecbbf14"
+        }
+      ],
+      "presente": "Repetição, acúmulo e benefícios independentes distinguidos.",
+      "falta": "Falta uma aprovação concreta com número de compras, preço e acréscimo por repetição.",
+      "lote": "L6"
+    },
+    {
+      "id": "M088",
+      "pagina_inventario": 18,
+      "assunto": "Restrições próprias e Condicional",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Modelos de restrição e Condicional com impedimento verificável.",
+      "capitulo": "C07",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "inicio": 95,
+          "fim": 105,
+          "titulo": "Uma Restrição que nunca cobrou nada",
+          "sha256": "11ba611c5f9d77515362e32fd92d3c9e3c7e16c09dcb566dd53001098f4e5db3"
+        }
+      ],
+      "presente": "Devolução sem impedimento e incompatibilidade são comparadas.",
+      "falta": "Falta Condicional/Restrição Própria completa com distância, momento, impedimento e devolução.",
+      "lote": "L6"
+    },
+    {
+      "id": "M089",
+      "pagina_inventario": 18,
+      "assunto": "Revisão após três sessões",
+      "natureza": "R",
+      "discussao": "D07, D13",
+      "previsto": "Registro da revisão de restrições após três sessões de uso.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 100,
+          "fim": 110,
+          "titulo": "Registre e acompanhe",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+          "inicio": 40,
+          "fim": 51,
+          "titulo": "Acompanhamento de Restrição",
+          "sha256": "e407884e080f493edf2b19a46cd4e4aaa5a7107ff12e882e5e80f3e3cb613f7e"
+        }
+      ],
+      "presente": "Três sessões de uso e revisão por impedimento real, com registro e caso negativo.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M090",
+      "pagina_inventario": 19,
+      "assunto": "Efeito fora de combate",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Exemplo fora de combate e transição para iniciativa.",
+      "capitulo": "C07",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 15,
+          "fim": 31,
+          "titulo": "Identifique o tipo de pedido",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "inicio": 52,
+          "fim": 61,
+          "titulo": "Conferência de uma Máxima de utilidade",
+          "sha256": "7ec940242eaa00f6367a0242e4281becc9c309d2488e4c907fa1819a30f38176"
+        }
+      ],
+      "presente": "Escala e limite geral; Máxima de utilidade é outro procedimento.",
+      "falta": "Falta aplicação comum fora de combate e transição para iniciativa com custos e término.",
+      "lote": "L6"
+    },
+    {
+      "id": "M091",
+      "pagina_inventario": 19,
+      "assunto": "Controle próprio e cancelamento de outros efeitos",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Definir saídas e classificação de cancelamento sem atingir Domínios.",
+      "capitulo": "C07",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "inicio": 17,
+          "fim": 32,
+          "titulo": "A rede que pretendia impedir qualquer ação",
+          "sha256": "11ba611c5f9d77515362e32fd92d3c9e3c7e16c09dcb566dd53001098f4e5db3"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "inicio": 19,
+          "fim": 30,
+          "titulo": "Repetição e benefícios independentes",
+          "sha256": "2f0567aaee355aeedb57d080b37b426dc15cc873c2c0b4ec8d7305d9eecbbf14"
+        }
+      ],
+      "presente": "Prende tem resolução/saídas; cancelamento é encaminhado.",
+      "falta": "Falta atribuição concreta de Classe a outra aplicação para Desarma o Feitiço ou impossibilidade fundamentada.",
+      "lote": "L6"
+    },
+    {
+      "id": "M092",
+      "pagina_inventario": 19,
+      "assunto": "Conferência prática antes da sessão",
+      "natureza": "R",
+      "discussao": "D07, D13",
+      "previsto": "Demonstrar uso completo e caso de limite antes da sessão.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 70,
+          "fim": 77,
+          "titulo": "3. Uso completo",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+          "inicio": 52,
+          "fim": 62,
+          "titulo": "Exemplo preenchido: um ajuste de montagem",
+          "sha256": "e407884e080f493edf2b19a46cd4e4aaa5a7107ff12e882e5e80f3e3cb613f7e"
+        }
+      ],
+      "presente": "Conferência de uso, limite, combinação e parecer corrigido antes da sessão.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M093",
+      "pagina_inventario": 19,
+      "assunto": "Talento Próprio",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Parecer de Talento Próprio com Categoria, custo e limites.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "inicio": 59,
+          "fim": 68,
+          "titulo": "Um Talento que eliminaria todas as dificuldades",
+          "sha256": "11ba611c5f9d77515362e32fd92d3c9e3c7e16c09dcb566dd53001098f4e5db3"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "inicio": 90,
+          "fim": 111,
+          "titulo": "O poder próprio: Retrato de referência",
+          "sha256": "5d81d8284a09acb9a62f48dc30d4c09f8b0d6ee81135efa83c87e620de1bb30b"
+        }
+      ],
+      "presente": "Limites de Talento e Retrato de referência com CE, aquisição e operação.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M094",
+      "pagina_inventario": 19,
+      "assunto": "Regra Própria",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Exemplo de Regra Própria com simetria e aposta genuína.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "inicio": 69,
+          "fim": 78,
+          "titulo": "Uma aposta que precisa ser uma disputa",
+          "sha256": "11ba611c5f9d77515362e32fd92d3c9e3c7e16c09dcb566dd53001098f4e5db3"
+        }
+      ],
+      "presente": "Disputa real, simetria, empate, prazo e custos de espaço.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M095",
+      "pagina_inventario": 19,
+      "assunto": "Aptidão Própria e semente de Sem Técnica",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Parecer de Aptidão Própria e semente na única opção da ficha.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "inicio": 33,
+          "fim": 46,
+          "titulo": "A proposta de informação que cresceu",
+          "sha256": "11ba611c5f9d77515362e32fd92d3c9e3c7e16c09dcb566dd53001098f4e5db3"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "inicio": 57,
+          "fim": 68,
+          "titulo": "Sem Técnica e Técnica Marcial",
+          "sha256": "2f0567aaee355aeedb57d080b37b426dc15cc873c2c0b4ec8d7305d9eecbbf14"
+        }
+      ],
+      "presente": "Aptidão de vestígio comparada; semente e única escolha de Aptidão Própria conservadas.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M096",
+      "pagina_inventario": 20,
+      "assunto": "Bênção Própria",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Parecer de Bênção Própria com Categoria e Lapidação pertinentes.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/30-pareceres-de-criacoes.md",
+          "inicio": 47,
+          "fim": 58,
+          "titulo": "Uma Bênção sem sentidos completos através da parede",
+          "sha256": "11ba611c5f9d77515362e32fd92d3c9e3c7e16c09dcb566dd53001098f4e5db3"
+        }
+      ],
+      "presente": "Marca do pulso comparada com localização contínua; CE e limites da aquisição.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M097",
+      "pagina_inventario": 20,
+      "assunto": "Manejos, Katas e equipamento de origem",
+      "natureza": "R",
+      "discussao": "D04, D07",
+      "previsto": "Conferir Manejos, Katas e ferramenta inicial sem acumular proteção.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "inicio": 57,
+          "fim": 68,
+          "titulo": "Sem Técnica e Técnica Marcial",
+          "sha256": "2f0567aaee355aeedb57d080b37b426dc15cc873c2c0b4ec8d7305d9eecbbf14"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/35-equipamento-acesso-e-servicos.md",
+          "inicio": 23,
+          "fim": 32,
+          "titulo": "Compra inicial e reposição",
+          "sha256": "42a418a2fe1619d4d2e872672fe129e0bdeafc0df7c72b9c6587113aea997e2d"
+        }
+      ],
+      "presente": "Semente, Kata, equipamento e ausência de acúmulo de proteção.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M098",
+      "pagina_inventario": 20,
+      "assunto": "Cortina: condição e bordas",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Exemplo de Cortina com bordas e condição verificável.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "inicio": 31,
+          "fim": 46,
+          "titulo": "Cortina: delimitar antes de fechar",
+          "sha256": "2f0567aaee355aeedb57d080b37b426dc15cc873c2c0b4ec8d7305d9eecbbf14"
+        }
+      ],
+      "presente": "Bordas 270/300/320 m, condição, preparação e aliados, com caso de limite.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M099",
+      "pagina_inventario": 20,
+      "assunto": "Máxima de ataque, cura ou utilidade",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Exemplos de Máxima com resultado principal e orçamento preservado.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "inicio": 32,
+          "fim": 41,
+          "titulo": "Conferência de uma Máxima de dano",
+          "sha256": "7ec940242eaa00f6367a0242e4281becc9c309d2488e4c907fa1819a30f38176"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "inicio": 42,
+          "fim": 51,
+          "titulo": "Conferência de uma Máxima de cura",
+          "sha256": "7ec940242eaa00f6367a0242e4281becc9c309d2488e4c907fa1819a30f38176"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "inicio": 52,
+          "fim": 61,
+          "titulo": "Conferência de uma Máxima de utilidade",
+          "sha256": "7ec940242eaa00f6367a0242e4281becc9c309d2488e4c907fa1819a30f38176"
+        }
+      ],
+      "presente": "Três funções comparadas com orçamentos e permissões próprios.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M100",
+      "pagina_inventario": 21,
+      "assunto": "Recarga opcional de Máxima",
+      "natureza": "M",
+      "discussao": "D01, D07",
+      "previsto": "Apresentar uso padrão e autorização opcional de recarga.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "inicio": 62,
+          "fim": 67,
+          "titulo": "Recarga opcional",
+          "sha256": "7ec940242eaa00f6367a0242e4281becc9c309d2488e4c907fa1819a30f38176"
+        }
+      ],
+      "presente": "Uso padrão recomendado; opção de rodada 1→5 explicitamente dependente de autorização local.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M101",
+      "pagina_inventario": 21,
+      "assunto": "Criação do domínio e execução em outra mesa",
+      "natureza": "M",
+      "discussao": "D07",
+      "previsto": "Ficha comentada de Domínio separando Acerto, Efeito e aparência.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "inicio": 78,
+          "fim": 91,
+          "titulo": "Leia uma ficha em funcionamento",
+          "sha256": "7ec940242eaa00f6367a0242e4281becc9c309d2488e4c907fa1819a30f38176"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "inicio": 92,
+          "fim": 101,
+          "titulo": "Uma regra de ambiente também precisa de limites",
+          "sha256": "7ec940242eaa00f6367a0242e4281becc9c309d2488e4c907fa1819a30f38176"
+        }
+      ],
+      "presente": "Galeria de Vidro e Sala de Trégua distinguem aparência, Acerto, Efeito e execução.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M102",
+      "pagina_inventario": 21,
+      "assunto": "Domínio, aliados e proteções",
+      "natureza": "R",
+      "discussao": "D07",
+      "previsto": "Casos de aliados, objetos e proteções específicas do Domínio.",
+      "capitulo": "C07",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "inicio": 78,
+          "fim": 91,
+          "titulo": "Leia uma ficha em funcionamento",
+          "sha256": "7ec940242eaa00f6367a0242e4281becc9c309d2488e4c907fa1819a30f38176"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/31-avaliar-poderes-avancados.md",
+          "inicio": 68,
+          "fim": 101,
+          "titulo": "Domínio: aparência, Acerto e Efeito",
+          "sha256": "7ec940242eaa00f6367a0242e4281becc9c309d2488e4c907fa1819a30f38176"
+        }
+      ],
+      "presente": "Aliado em contato, outro aliado atingido, objetos e defesas específicas. Disputa ampla permanece complemento de C04.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M103",
+      "pagina_inventario": 21,
+      "assunto": "Aprovação de uma troca",
+      "natureza": "M",
+      "discussao": "D08",
+      "previsto": "Exemplos comparados de troca voluntária com ganho e perda claros.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "inicio": 20,
+          "fim": 31,
+          "titulo": "Confira se o preço muda alguma coisa",
+          "sha256": "af6672acfd24a858e0c98baf262b98e074595d3c2166043f853639b874f817b9"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+          "inicio": 7,
+          "fim": 26,
+          "titulo": "Escreva a mudança que precisa acontecer",
+          "sha256": "2985506a85e06adca590f5b5ceb44b695d8405d79ae2f949d6c0bc42916a8156"
+        }
+      ],
+      "presente": "Troca verificável e capacidade, com modelos 48/49 identificados como experimentais.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M104",
+      "pagina_inventario": 21,
+      "assunto": "Permanente e pacto de energia",
+      "natureza": "M",
+      "discussao": "D08",
+      "previsto": "Modelo de Pacto permanente e definição do pacto de energia.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "inicio": 32,
+          "fim": 41,
+          "titulo": "Permanentes: espaço na ficha e regra completa",
+          "sha256": "af6672acfd24a858e0c98baf262b98e074595d3c2166043f853639b874f817b9"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/49-liberacao-irregular-minuta.md",
+          "inicio": 5,
+          "fim": 10,
+          "titulo": "A troca",
+          "sha256": "530622c225e9a56a57015b927acae5a606395c2eacfda0230a1da36d1d887cca"
+        }
+      ],
+      "presente": "Vaga, Overtime e Liberação irregular, com reserva distinta do teto de gasto.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M105",
+      "pagina_inventario": 21,
+      "assunto": "Temporário em resposta a gatilho",
+      "natureza": "M",
+      "discussao": "D08",
+      "previsto": "Modelos de gatilho e momento de uso do Pacto temporário.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "inicio": 42,
+          "fim": 71,
+          "titulo": "Temporários: declare antes da consequência",
+          "sha256": "af6672acfd24a858e0c98baf262b98e074595d3c2166043f853639b874f817b9"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "inicio": 64,
+          "fim": 71,
+          "titulo": "Uma Reação depois dos dados",
+          "sha256": "af6672acfd24a858e0c98baf262b98e074595d3c2166043f853639b874f817b9"
+        }
+      ],
+      "presente": "Gatilho, momento, custo e consequência após dados exemplificados.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M106",
+      "pagina_inventario": 22,
+      "assunto": "Revelação de informação como preço",
+      "natureza": "R",
+      "discussao": "D08",
+      "previsto": "Casos de revelação nova e informação que não paga a troca.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "inicio": 50,
+          "fim": 63,
+          "titulo": "Mostrar a mão, turno a turno",
+          "sha256": "af6672acfd24a858e0c98baf262b98e074595d3c2166043f853639b874f817b9"
+        }
+      ],
+      "presente": "Informação nova, destinatário, duração e turnos demonstrados.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M107",
+      "pagina_inventario": 22,
+      "assunto": "Promessa e autoridade das partes",
+      "natureza": "R",
+      "discussao": "D08",
+      "previsto": "Conferir partes, autoridade, autonomia e possibilidade de cumprir.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+          "inicio": 13,
+          "fim": 38,
+          "titulo": "O acordo antes da aceitação",
+          "sha256": "b9a0cc79f645ec69230ba2a2a42efaa3dea032db9cb0241f4cf21922d8b3c4d9"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+          "inicio": 39,
+          "fim": 61,
+          "titulo": "Como decidir o que aconteceu",
+          "sha256": "b9a0cc79f645ec69230ba2a2a42efaa3dea032db9cb0241f4cf21922d8b3c4d9"
+        }
+      ],
+      "presente": "Partes e autoridade delimitadas; terceiros não vinculados.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M108",
+      "pagina_inventario": 22,
+      "assunto": "Cláusulas e quebra da Promessa",
+      "natureza": "M",
+      "discussao": "D08",
+      "previsto": "Modelo de cláusulas e quebra conhecidas antes da aceitação.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+          "inicio": 62,
+          "fim": 77,
+          "titulo": "Consequência de quebra",
+          "sha256": "b9a0cc79f645ec69230ba2a2a42efaa3dea032db9cb0241f4cf21922d8b3c4d9"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/50-promessa-do-arquivo.md",
+          "inicio": 78,
+          "fim": 107,
+          "titulo": "O que encerra o bloqueio",
+          "sha256": "b9a0cc79f645ec69230ba2a2a42efaa3dea032db9cb0241f4cf21922d8b3c4d9"
+        }
+      ],
+      "presente": "Cláusulas, bloqueio e reparação de cada parte antes da aceitação.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M109",
+      "pagina_inventario": 22,
+      "assunto": "Pacto de restrição na criação",
+      "natureza": "M",
+      "discussao": "D08",
+      "previsto": "Exemplificar autorização sem vaga e impedir benefício duplicado.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "inicio": 72,
+          "fim": 79,
+          "titulo": "Restrição registrada sem benefício duplicado",
+          "sha256": "af6672acfd24a858e0c98baf262b98e074595d3c2166043f853639b874f817b9"
+        }
+      ],
+      "presente": "Autorização sem vaga e compensação já usada, sem duplicação.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M110",
+      "pagina_inventario": 22,
+      "assunto": "Ideias ainda sem procedimento e Overtime",
+      "natureza": "A",
+      "discussao": "D08",
+      "previsto": "Decidir destino das sete ideias e distinguir o exemplo de Overtime.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+          "inicio": 27,
+          "fim": 32,
+          "titulo": "O recorte desta edição",
+          "sha256": "2985506a85e06adca590f5b5ceb44b695d8405d79ae2f949d6c0bc42916a8156"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/47-desenvolver-uma-ideia-de-pacto.md",
+          "inicio": 33,
+          "fim": 96,
+          "titulo": "O que conferir nas sete ideias",
+          "sha256": "2985506a85e06adca590f5b5ceb44b695d8405d79ae2f949d6c0bc42916a8156"
+        }
+      ],
+      "presente": "Destino das sete ideias conforme recorte decidido; Overtime separado. Três desenvolvimentos adiados não são dívida desta edição.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M111",
+      "pagina_inventario": 22,
+      "assunto": "Aquisição e definição da entidade",
+      "natureza": "R",
+      "discussao": "D05, D07",
+      "previsto": "Conferir origem, corpo, ficha e aquisição sem benefício por aparência.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+          "inicio": 7,
+          "fim": 19,
+          "titulo": "Escolha a forma de aquisição",
+          "sha256": "9831619cf2195a2674b7b280ad53e30797d06eff1218cd422bdb580996b0db9c"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "inicio": 5,
+          "fim": 16,
+          "titulo": "O resultado antes do trabalho",
+          "sha256": "d401669e0448158992efa33434c2c7a23f7585e0bd7ee4788c63885cf22bff86"
+        }
+      ],
+      "presente": "Aquisição, corpo e ficha antecedem criação/manifestação.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M112",
+      "pagina_inventario": 23,
+      "assunto": "Lista de ritual e submissão individual",
+      "natureza": "M",
+      "discussao": "D09",
+      "previsto": "Desafio individual completo de submissão e resultado anunciado.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md",
+          "inicio": 1,
+          "fim": 162,
+          "titulo": "A prova do Cão de sombra",
+          "sha256": "3ee7ffa4fc1b0708c8b3721f7d34665ad1650621f800e615d5e8e393f615a211"
+        }
+      ],
+      "presente": "Prova individual com ficha, espaço, ajuda, desistência e resultado anunciado.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M113",
+      "pagina_inventario": 23,
+      "assunto": "Doma e ficha jogável resultante",
+      "natureza": "G",
+      "discussao": "D09, D11",
+      "previsto": "Exemplo de conversão do inimigo à ficha de entidade antes da doma.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+          "inicio": 19,
+          "fim": 47,
+          "titulo": "As duas fichas",
+          "sha256": "0cdae4082e05705a5943deeb6ad2712d19a9a46f0743098fb4e425032ff0f68e"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+          "inicio": 1,
+          "fim": 122,
+          "titulo": "Carregador de sinos — consulta e Doma",
+          "sha256": "e01e99938ce60b3b2e5a73b9c95bd16364790b45a80b86c75bf18fca121d8289"
+        }
+      ],
+      "presente": "Conversão completa antes de domar, com recursos e requisitos preservados.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M114",
+      "pagina_inventario": 23,
+      "assunto": "Doma antes da derrota",
+      "natureza": "M",
+      "discussao": "D09",
+      "previsto": "Orientar autorização antecipada sem limiar universal presumido.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+          "inicio": 133,
+          "fim": 152,
+          "titulo": "Tentar antes da derrota",
+          "sha256": "0cdae4082e05705a5943deeb6ad2712d19a9a46f0743098fb4e425032ff0f68e"
+        }
+      ],
+      "presente": "Recomendação após derrota e limiar local condicional, sem regra universal.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M115",
+      "pagina_inventario": 23,
+      "assunto": "Famílias e poderes próprios da entidade",
+      "natureza": "M",
+      "discussao": "D05, D07",
+      "previsto": "Conferir Famílias e poderes próprios dentro do orçamento da entidade.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "inicio": 42,
+          "fim": 51,
+          "titulo": "Escolha as Famílias",
+          "sha256": "5d81d8284a09acb9a62f48dc30d4c09f8b0d6ee81135efa83c87e620de1bb30b"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "inicio": 90,
+          "fim": 111,
+          "titulo": "O poder próprio: Retrato de referência",
+          "sha256": "5d81d8284a09acb9a62f48dc30d4c09f8b0d6ee81135efa83c87e620de1bb30b"
+        }
+      ],
+      "presente": "Orçamento, Famílias, especiais e talento próprio avaliados.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M116",
+      "pagina_inventario": 23,
+      "assunto": "Transporte, passageiros e armazenamento",
+      "natureza": "M",
+      "discussao": "D05, D07",
+      "previsto": "Exemplo de talento de carga e passageiros e objetos ao sair de campo.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+          "inicio": 41,
+          "fim": 61,
+          "titulo": "Talento proposto: Albarda de papel",
+          "sha256": "76293094b529acfede3da88de8d0282f80dd4d14466f88ca17583073742e9dc1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+          "inicio": 120,
+          "fim": 139,
+          "titulo": "Recolher não guarda o passageiro",
+          "sha256": "76293094b529acfede3da88de8d0282f80dd4d14466f88ca17583073742e9dc1"
+        }
+      ],
+      "presente": "Carga, passageiro, embarque e destino ao recolher.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M117",
+      "pagina_inventario": 23,
+      "assunto": "Tarefa e autonomia em campo",
+      "natureza": "R",
+      "discussao": "D05",
+      "previsto": "Exemplificar tarefa executável, ordens e limites de autonomia.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+          "inicio": 92,
+          "fim": 101,
+          "titulo": "Uma tarefa que pode continuar",
+          "sha256": "76293094b529acfede3da88de8d0282f80dd4d14466f88ca17583073742e9dc1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+          "inicio": 102,
+          "fim": 119,
+          "titulo": "Quando Ren fica inconsciente",
+          "sha256": "76293094b529acfede3da88de8d0282f80dd4d14466f88ca17583073742e9dc1"
+        }
+      ],
+      "presente": "Tarefa recebida, comunicação e inconsciência sem comando gratuito.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M118",
+      "pagina_inventario": 24,
+      "assunto": "Morte do invocador e entidades livres",
+      "natureza": "R",
+      "discussao": "D05, D14",
+      "previsto": "Condução de entidades livres e preservação do estado da criação.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/54-transporte-e-continuidade-das-entidades.md",
+          "inicio": 140,
+          "fim": 165,
+          "titulo": "Quando o invocador morre",
+          "sha256": "76293094b529acfede3da88de8d0282f80dd4d14466f88ca17583073742e9dc1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+          "inicio": 164,
+          "fim": 176,
+          "titulo": "Quando o invocador deixa de agir",
+          "sha256": "9831619cf2195a2674b7b280ad53e30797d06eff1218cd422bdb580996b0db9c"
+        }
+      ],
+      "presente": "Morte confirmada e destino por aquisição; maldição livre sem reconversão numérica inventada.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M119",
+      "pagina_inventario": 24,
+      "assunto": "Autorização, custo e tempo de criação",
+      "natureza": "A",
+      "discussao": "D02, D05",
+      "previsto": "Desenvolver oportunidade, tempo e materiais de criação de entidades.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+          "inicio": 5,
+          "fim": 24,
+          "titulo": "Comece com uma referência comum",
+          "sha256": "c8c58ae001cca1d4d6ba82255ecd6351c9406dedcc9c5e959fbcdd76bf17c440"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "inicio": 60,
+          "fim": 79,
+          "titulo": "Trabalho, falha e entrega",
+          "sha256": "d401669e0448158992efa33434c2c7a23f7585e0bd7ee4788c63885cf22bff86"
+        }
+      ],
+      "presente": "Tempo, orçamento, falha, ficha criada e estado entregue reunidos.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M120",
+      "pagina_inventario": 24,
+      "assunto": "Ajuda e vantagem nos testes de criação",
+      "natureza": "R",
+      "discussao": "D05",
+      "previsto": "Casos de ajuda compatível e vantagens admitidas no teste.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/43-aquisicao-e-projetos-de-entidades.md",
+          "inicio": 102,
+          "fim": 111,
+          "titulo": "Ajuda e nova tentativa",
+          "sha256": "9831619cf2195a2674b7b280ad53e30797d06eff1218cd422bdb580996b0db9c"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/45-tempo-materiais-e-retomada-de-entidades.md",
+          "inicio": 75,
+          "fim": 82,
+          "titulo": "Ajuda é dedicação de outra pessoa",
+          "sha256": "c8c58ae001cca1d4d6ba82255ecd6351c9406dedcc9c5e959fbcdd76bf17c440"
+        }
+      ],
+      "presente": "Treino, autorização, dedicação e vantagem sem duplicação.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M121",
+      "pagina_inventario": 24,
+      "assunto": "Reconstrução, transferência e novas tentativas",
+      "natureza": "M",
+      "discussao": "D05",
+      "previsto": "Referências para nova tentativa, reconstrução e transferência.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+          "inicio": 7,
+          "fim": 63,
+          "titulo": "Reconstruir para a Classe seguinte",
+          "sha256": "69eaeef3dbdd6128c233357645b2b3c0d3d4f4fa643ef95adb2978c0cead3f78"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/46-reconstruir-transferir-e-herdar-entidades.md",
+          "inicio": 64,
+          "fim": 119,
+          "titulo": "Transferir ou herdar",
+          "sha256": "69eaeef3dbdd6128c233357645b2b3c0d3d4f4fa643ef95adb2978c0cead3f78"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "inicio": 108,
+          "fim": 119,
+          "titulo": "Reconstruir para Classe 4",
+          "sha256": "d401669e0448158992efa33434c2c7a23f7585e0bd7ee4788c63885cf22bff86"
+        }
+      ],
+      "presente": "Passagens, retrabalho, materiais, transferência e herança com contas.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M122",
+      "pagina_inventario": 24,
+      "assunto": "Conferência e evolução da ficha de invocação",
+      "natureza": "R",
+      "discussao": "D05, D09",
+      "previsto": "Checklist de ficha e evolução distinta de criada e domada.",
+      "capitulo": "C09",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/53-construir-e-evoluir-o-escriba.md",
+          "inicio": 134,
+          "fim": 147,
+          "titulo": "A evolução para o nível 6",
+          "sha256": "5d81d8284a09acb9a62f48dc30d4c09f8b0d6ee81135efa83c87e620de1bb30b"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "inicio": 88,
+          "fim": 107,
+          "titulo": "Até o limite da Classe",
+          "sha256": "d401669e0448158992efa33434c2c7a23f7585e0bd7ee4788c63885cf22bff86"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/52-domar-o-amontoado.md",
+          "inicio": 96,
+          "fim": 132,
+          "titulo": "Depois de conseguir domar",
+          "sha256": "0cdae4082e05705a5943deeb6ad2712d19a9a46f0743098fb4e425032ff0f68e"
+        }
+      ],
+      "presente": "Técnica, criada e domada possuem exemplos de conferência/continuidade e evolução pertinente.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M123",
+      "pagina_inventario": 25,
+      "assunto": "Situação, lugares e pistas",
+      "natureza": "G",
+      "discussao": "D11, D14",
+      "previsto": "Situação completa com acessos, pistas e piora sem ação dos personagens.",
+      "capitulo": "C02",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+          "inicio": 43,
+          "fim": 50,
+          "titulo": "Separe os fatos das suspeitas",
+          "sha256": "c9aa88b0b4c7ce78d23e00b7619650f2fa8fe728b55d50636586a861f200dc30"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+          "inicio": 1,
+          "fim": 113,
+          "titulo": "O aviso de reabertura",
+          "sha256": "f80817cf25d68d3f42c403a06bad94c186716cca6ae58b998c4cb8b0cfb39084"
+        }
+      ],
+      "presente": "Situação completa com fontes alternativas, caminhos, pressão e consequências.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M124",
+      "pagina_inventario": 25,
+      "assunto": "Fichas de perigos e encontros",
+      "natureza": "G",
+      "discussao": "D10, D11",
+      "previsto": "Encontros com fichas completas, regras e sinais reconhecíveis.",
+      "capitulo": "C04",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+          "inicio": 1,
+          "fim": 134,
+          "titulo": "Preparar inimigos e avaliar encontros",
+          "sha256": "56d3795f796a9095a0548a8be2ae4078b8a01abe483dae8a57a44a523d72ec8a"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+          "inicio": 1,
+          "fim": 129,
+          "titulo": "Escolher os números de um inimigo",
+          "sha256": "b221580efe42cbc9442a2a7f0c8935bf575edd806711e766825507c7e1697af9"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+          "inicio": 1,
+          "fim": 110,
+          "titulo": "Ficha preenchida: Ren e Sora",
+          "sha256": "f421e37faf2a94c2919345ddf9a6aefbd07dd56e6dd438cf5b6ca1ce304b5f45"
+        }
+      ],
+      "presente": "Método, ficha única, funções, composição, chefe e conversão demonstrados.",
+      "falta": "Régua cobre somente níveis 2/6; faltam outras faixas/perfis e avaliação numérica de chefes/composições. Não há escala geral de dificuldade.",
+      "lote": "L7"
+    },
+    {
+      "id": "M125",
+      "pagina_inventario": 25,
+      "assunto": "Informação e ritmo na mesa",
+      "natureza": "G",
+      "discussao": "D01",
+      "previsto": "Exemplos de descrição, foco, ritmo e resolução antes da próxima rolagem.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 25,
+          "fim": 44,
+          "titulo": "Descreva o suficiente para agir",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 109,
+          "fim": 122,
+          "titulo": "Distribua a atenção",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 123,
+          "fim": 134,
+          "titulo": "Avance quando a situação permitir",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        }
+      ],
+      "presente": "Descrição, participação, cortes e resolução antes da próxima escolha.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M126",
+      "pagina_inventario": 25,
+      "assunto": "Dúvida de regra durante a sessão",
+      "natureza": "G",
+      "discussao": "D01, D13",
+      "previsto": "Modelo de decisão provisória e comunicação de correção.",
+      "capitulo": "C10",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/05-folha-de-conducao.md",
+          "inicio": 64,
+          "fim": 79,
+          "titulo": "Se houver dúvida de regra",
+          "sha256": "f39a47bfe74a892c73de4d913eef8458cc045bcf1e17f235237c411905b3a145"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "inicio": 1,
+          "fim": 113,
+          "titulo": "Passar a missão entre mestres",
+          "sha256": "1e7607b51e412c13fd6eae07cb137e51eb84ecd31e74b5e402b2729196b2205f"
+        }
+      ],
+      "presente": "Fonte, decisão provisória, conferência, correção e comunicação exemplificadas.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M127",
+      "pagina_inventario": 25,
+      "assunto": "Fechamento e passagem entre mestres",
+      "natureza": "G",
+      "discussao": "D13, D14",
+      "previsto": "Ficha de fechamento e passagem de recursos e consequências.",
+      "capitulo": "C10",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+          "inicio": 29,
+          "fim": 42,
+          "titulo": "Ao entregar ou retomar",
+          "sha256": "989a92f9c218272fdd191cb79d72c4a05dd6783757919c3883c1c27d6193e43e"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "inicio": 1,
+          "fim": 113,
+          "titulo": "Passar a missão entre mestres",
+          "sha256": "1e7607b51e412c13fd6eae07cb137e51eb84ecd31e74b5e402b2729196b2205f"
+        }
+      ],
+      "presente": "Passagem preenchida com ponto da iniciativa, estado, informação e tarefas aceitas.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M128",
+      "pagina_inventario": 6,
+      "assunto": "Empates entre inimigos na iniciativa",
+      "natureza": "R",
+      "discussao": "D10",
+      "previsto": "Exemplo de empate completo preservando as prioridades existentes.",
+      "capitulo": "C03",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md",
+          "inicio": 103,
+          "fim": 132,
+          "titulo": "Resolva o empate na iniciativa",
+          "sha256": "25a4d5c2e627fc468f1c294c3ac815b29fa606b3e777e955ccc65ffb8fe2c46f"
+        }
+      ],
+      "presente": "Cinco totais 14: Destreza primeiro, jogador antes de inimigo no empate completo e escolhas internas registradas uma vez.",
+      "falta": "—",
+      "lote": "—"
+    },
+    {
+      "id": "M129",
+      "pagina_inventario": 25,
+      "assunto": "Perigos ambientais e efeitos não tabelados",
+      "natureza": "G",
+      "discussao": "D12",
+      "previsto": "Ficha de perigo com sinais, área, ritmo, resolução e saídas.",
+      "capitulo": "C04",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "inicio": 1,
+          "fim": 118,
+          "titulo": "Preparar perigos ambientais",
+          "sha256": "191977d4a10338ca64c2b9beb421474bcdf02ed82d7f3ea80c3cdf72571a4b35"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+          "inicio": 1,
+          "fim": 131,
+          "titulo": "O pó na sala de conservação",
+          "sha256": "5b74dcf67dccff93c639e3dbad77d70b791356bbf2d98d6f2b57ab82af46efd8"
+        }
+      ],
+      "presente": "Perigo pontual e recorrente, condições, limpeza e socorro demonstrados.",
+      "falta": "Falta efeito prolongado/doença com transmissão, prazo, tratamento e término concretos; sem tabela universal presumida.",
+      "lote": "L7"
+    },
+    {
+      "id": "M130",
+      "pagina_inventario": 20,
+      "assunto": "Aprendizado narrativo de aptidões",
+      "natureza": "R",
+      "discussao": "D07, D13",
+      "previsto": "Registro do aprendizado narrativo sem requisitos ocultos adicionais.",
+      "capitulo": "C06",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/25-conferir-personagens.md",
+          "inicio": 70,
+          "fim": 77,
+          "titulo": "Registre o aprendizado que a regra exige",
+          "sha256": "f45a6f401ef3b691740170808a59ccc8caf66cde5853cbff1c711037df5e6318"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/33-casos-especificos-de-avaliacao.md",
+          "inicio": 57,
+          "fim": 68,
+          "titulo": "Sem Técnica e Técnica Marcial",
+          "sha256": "2f0567aaee355aeedb57d080b37b426dc15cc873c2c0b4ec8d7305d9eecbbf14"
+        }
+      ],
+      "presente": "Registro do aprendizado exigido e concessão particular de semente; sem professor ou custo oculto universal.",
+      "falta": "—",
+      "lote": "—"
+    }
+  ],
+  "competencias": [
+    {
+      "id": "P01",
+      "competencia": "Começar a mestrar e explicar o necessário para jogar",
+      "capitulo": "C01",
+      "demonstracao_prevista": "Caminho de primeira preparação e roteiro de apresentação",
+      "aplicacao_prevista": "Preparar uma situação curta e explicar as regras que ela usa",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+          "inicio": 1,
+          "fim": 117,
+          "titulo": "Mundo e cotidiano",
+          "sha256": "f3f7fbe78e570b7fed4470df7d05ca9edf8374f19683009602925f32a8839cfe"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+          "inicio": 1,
+          "fim": 139,
+          "titulo": "Preparar uma missão",
+          "sha256": "c9aa88b0b4c7ce78d23e00b7619650f2fa8fe728b55d50636586a861f200dc30"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/03-as-batidas-no-anexo-consulta.md",
+          "inicio": 1,
+          "fim": 89,
+          "titulo": "As batidas no anexo para consulta",
+          "sha256": "447d47a89ae441c1b9b71aa43aa4dd3adde55afd0ba3e8b0f191308633dc343a"
+        }
+      ],
+      "presente": "Entrada explica papéis, dado e resultado; preparo e situação preenchida permitem uma primeira aplicação.",
+      "restante": "Organizar esse percurso na edição, preservando acesso direto aos procedimentos.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P02",
+      "competencia": "Consultar o mundo sem depender de conhecimento da obra",
+      "capitulo": "C01",
+      "demonstracao_prevista": "Orientação essencial, termos e aprofundamentos localizáveis",
+      "aplicacao_prevista": "Explicar o contexto de uma situação e localizar a informação que falta",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+          "inicio": 1,
+          "fim": 117,
+          "titulo": "Mundo e cotidiano",
+          "sha256": "f3f7fbe78e570b7fed4470df7d05ca9edf8374f19683009602925f32a8839cfe"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "inicio": 17,
+          "fim": 26,
+          "titulo": "Defina a relação com a obra",
+          "sha256": "f3cf3f27278e5b7861289f0fa134d908ff5f4c6b5d11a66b3abff9180a05fbdc"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md",
+          "inicio": 1,
+          "fim": 110,
+          "titulo": "Sociedade, apoio e modos de vida",
+          "sha256": "ff343d599bc51639df572a4388e4ea0471e62529f17cb2234d17b3b1de29cb40"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/87-casos-da-obra-para-preparar-situacoes.md",
+          "inicio": 1,
+          "fim": 89,
+          "titulo": "Casos da obra para preparar situações",
+          "sha256": "4024ce0a2580a2a4310121123ee3bee51e8abdd26150c1dfafa8d1aef845c8e9"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/88-indice-de-termos-do-mundo.md",
+          "inicio": 1,
+          "fim": 79,
+          "titulo": "Índice de termos do mundo",
+          "sha256": "83c418662e8a425257ae415e7308e38b2a0f8b6e41ce8ce93407985b99d0d2f5"
+        }
+      ],
+      "presente": "Entrada essencial, consulta de sociedade/modos de vida, cinco aprofundamentos sinalizados e índice com percursos de uso.",
+      "restante": "—",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P03",
+      "competencia": "Transformar o cotidiano de diferentes feiticeiros em jogo",
+      "capitulo": "C01",
+      "demonstracao_prevista": "Situações de vida comum, vínculos, trabalho e atividades fora de missão, com fontes diversas de força",
+      "aplicacao_prevista": "Criar uma situação com escolhas que não dependa de uma única instituição ou Origem",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/06-mundo-e-cotidiano.md",
+          "inicio": 83,
+          "fim": 100,
+          "titulo": "Cotidianos de Origens diferentes",
+          "sha256": "f3f7fbe78e570b7fed4470df7d05ca9edf8374f19683009602925f32a8839cfe"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "inicio": 1,
+          "fim": 97,
+          "titulo": "Vínculos e mudanças do personagem",
+          "sha256": "b740aa7a17381f13808fcbed82e7339304db311edf2b10f1b13a107f771dd968"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md",
+          "inicio": 1,
+          "fim": 112,
+          "titulo": "Atividades e tempo entre missões",
+          "sha256": "d48fc9528891a7b619a0439d979f6232974e60923c3618adf207be11ee0bdc2a"
+        }
+      ],
+      "presente": "Sete Origens, vínculos e atividades ordinárias oferecem situações além de missão.",
+      "restante": "Treinamentos mecânicos continuam adiados por escolha autoral.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P04",
+      "competencia": "Combinar o funcionamento do grupo e seu formato de campanha",
+      "capitulo": "C01",
+      "demonstracao_prevista": "Sessão zero, acordos e particularidades de guilda e campanha fechada",
+      "aplicacao_prevista": "Registrar expectativas e identificar quem decide ou acompanha cada assunto",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/07-preparar-o-grupo.md",
+          "inicio": 1,
+          "fim": 94,
+          "titulo": "Preparar o grupo",
+          "sha256": "f3cf3f27278e5b7861289f0fa134d908ff5f4c6b5d11a66b3abff9180a05fbdc"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md",
+          "inicio": 1,
+          "fim": 72,
+          "titulo": "Ficha de acordos do grupo",
+          "sha256": "213bf16d5f91b487cf3d8cac390d5473b25f300e841194e8fdcc94cc3348c0a7"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/09-exemplo-de-acordos-do-grupo.md",
+          "inicio": 1,
+          "fim": 49,
+          "titulo": "Exemplo de acordos: os contatos do bairro",
+          "sha256": "4df23c8d6405951634803d899e5d3afba27e8f6e0a776183681e8fc7a2f5d537"
+        }
+      ],
+      "presente": "Procedimento, formulário e acordos preenchidos distinguem guilda e campanha fechada.",
+      "restante": "Integração deve trocar remissões antigas de tempo pela política já redigida.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P05",
+      "competencia": "Preparar material suficiente com esforço viável",
+      "capitulo": "C02",
+      "demonstracao_prevista": "Folha de preparo preenchida e versão de preparo reduzido",
+      "aplicacao_prevista": "Identificar o que precisa estar pronto e o que pode ser improvisado",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+          "inicio": 121,
+          "fim": 126,
+          "titulo": "Quando o tempo de preparação for curto",
+          "sha256": "c9aa88b0b4c7ce78d23e00b7619650f2fa8fe728b55d50636586a861f200dc30"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/02-ficha-de-preparacao.md",
+          "inicio": 1,
+          "fim": 114,
+          "titulo": "Ficha de preparação de missão",
+          "sha256": "1a0818e190dd2c7bb9636d73f3c744e2279a26b8efaad7b7135f91f827bb1213"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/03-as-batidas-no-anexo-consulta.md",
+          "inicio": 1,
+          "fim": 89,
+          "titulo": "As batidas no anexo para consulta",
+          "sha256": "447d47a89ae441c1b9b71aa43aa4dd3adde55afd0ba3e8b0f191308633dc343a"
+        }
+      ],
+      "presente": "Preparo suficiente, versão reduzida, folha em branco e consulta preenchida.",
+      "restante": "Aplicação humana ainda não observada.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P06",
+      "competencia": "Criar uma missão com objetivos e caminhos possíveis",
+      "capitulo": "C02",
+      "demonstracao_prevista": "Situação comentada, acessos, pessoas, riscos e consequências",
+      "aplicacao_prevista": "Resolver abordagens diferentes sem exigir uma sequência única de ações",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/01-preparar-uma-missao.md",
+          "inicio": 1,
+          "fim": 139,
+          "titulo": "Preparar uma missão",
+          "sha256": "c9aa88b0b4c7ce78d23e00b7619650f2fa8fe728b55d50636586a861f200dc30"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+          "inicio": 79,
+          "fim": 92,
+          "titulo": "Caminhos possíveis",
+          "sha256": "f80817cf25d68d3f42c403a06bad94c186716cca6ae58b998c4cb8b0cfb39084"
+        }
+      ],
+      "presente": "Objetivos, acessos, pessoas, consequências e respostas a abordagens diferentes.",
+      "restante": "Aplicação humana ainda não observada.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P07",
+      "competencia": "Preparar e conduzir investigação sem depender de uma única pista",
+      "capitulo": "C02",
+      "demonstracao_prevista": "Conclusões, pistas e informações acessíveis por meios compatíveis",
+      "aplicacao_prevista": "Continuar a missão quando uma pista for perdida ou interpretada de outra forma",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/13-preparar-uma-investigacao.md",
+          "inicio": 1,
+          "fim": 92,
+          "titulo": "Preparar uma investigação",
+          "sha256": "086c4b8aa4edcfdbc6cfc7cb00a299fb220321ec741bfb3aa61ae1d11157d3e7"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+          "inicio": 1,
+          "fim": 113,
+          "titulo": "O aviso de reabertura",
+          "sha256": "f80817cf25d68d3f42c403a06bad94c186716cca6ae58b998c4cb8b0cfb39084"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/12-registro-de-descobertas.md",
+          "inicio": 1,
+          "fim": 49,
+          "titulo": "Registro de descobertas",
+          "sha256": "fece75a7a713eabbc27c06c6d1691f0f79cb80b76a17bbc5896c916c281b9436"
+        }
+      ],
+      "presente": "Investigação completa com alternativas, hipótese, fonte perdida e registro.",
+      "restante": "Aplicação humana ainda não observada.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P08",
+      "competencia": "Descrever o que importa para decisões informadas",
+      "capitulo": "C03",
+      "demonstracao_prevista": "Exemplos de descrição e de esclarecimento de riscos",
+      "aplicacao_prevista": "Distinguir informação evidente, informação incerta e informação inacessível",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 25,
+          "fim": 44,
+          "titulo": "Descreva o suficiente para agir",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/10-investigacao-em-andamento.md",
+          "inicio": 23,
+          "fim": 36,
+          "titulo": "Entregue a descoberta com seu alcance",
+          "sha256": "022fa50774d05cc3827c06247800657228a99a43253bbf9610223d6118d852ec"
+        }
+      ],
+      "presente": "Descrição e perguntas distinguem evidente, incerto e inacessível.",
+      "restante": "Os complementos técnicos de percepção estão em L3; a competência geral já tem demonstração.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P09",
+      "competencia": "Abrir, desenvolver e encerrar cenas com ritmo",
+      "capitulo": "C03",
+      "demonstracao_prevista": "Antes e depois de uma cena, com perguntas e cortes comentados",
+      "aplicacao_prevista": "Avançar o tempo preservando escolhas, custos e continuidade relevantes",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 123,
+          "fim": 134,
+          "titulo": "Avance quando a situação permitir",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/19-encerrar-arcos-e-campanhas.md",
+          "inicio": 49,
+          "fim": 56,
+          "titulo": "Ofereça uma cena depois do resultado",
+          "sha256": "c6f6f381f36754e49bb8e1a0e1fc5840c2e06b9754c17e0f98307ca8cfcd4a04"
+        }
+      ],
+      "presente": "Cortes, passagem do tempo, conversa significativa e cena posterior ao resultado.",
+      "restante": "Aplicação humana ainda não observada.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P10",
+      "competencia": "Distribuir atenção entre personagens e jogadores",
+      "capitulo": "C03",
+      "demonstracao_prevista": "Roteiro de alternância de foco e participação combinada",
+      "aplicacao_prevista": "Conduzir uma situação sem concentrar decisões sempre na mesma pessoa",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 109,
+          "fim": 122,
+          "titulo": "Distribua a atenção",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/26-vinculos-e-mudancas.md",
+          "inicio": 26,
+          "fim": 33,
+          "titulo": "Distribua espaço entre os personagens",
+          "sha256": "b740aa7a17381f13808fcbed82e7339304db311edf2b10f1b13a107f771dd968"
+        }
+      ],
+      "presente": "Alternância, participante que observa, separação do grupo e informação própria.",
+      "restante": "Aplicação humana ainda não observada.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P11",
+      "competencia": "Improvisar e arbitrar ações mantendo consistência",
+      "capitulo": "C03",
+      "demonstracao_prevista": "Casos de ação inesperada, regra pertinente e registro de dúvida",
+      "aplicacao_prevista": "Explicar a resolução e distinguir detalhe narrativo de benefício mecânico",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 83,
+          "fim": 96,
+          "titulo": "Responda ao inesperado",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/11-espaco-e-usos-criativos.md",
+          "inicio": 64,
+          "fim": 77,
+          "titulo": "Um uso criativo começa pelo efeito desejado",
+          "sha256": "596e5a2a7a3956989220a1bf52b8490685477a6564099abb120bd135da03fd80"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/05-folha-de-conducao.md",
+          "inicio": 64,
+          "fim": 79,
+          "titulo": "Se houver dúvida de regra",
+          "sha256": "f39a47bfe74a892c73de4d913eef8458cc045bcf1e17f235237c411905b3a145"
+        }
+      ],
+      "presente": "Intenção, capacidade existente, benefício novo e consulta/correção distinguidos.",
+      "restante": "L1/L2/L3 ampliam repertório técnico; não anulam o método já demonstrado.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P12",
+      "competencia": "Interpretar NPCs e conduzir conversas com objetivos",
+      "capitulo": "C03",
+      "demonstracao_prevista": "Ficha curta de pessoa, interesses, conhecimento e comportamento",
+      "aplicacao_prevista": "Retomar um NPC após intervalo e responder a abordagens diferentes",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/04-conduzir-uma-sessao.md",
+          "inicio": 97,
+          "fim": 108,
+          "titulo": "Interprete pessoas pelo que querem e sabem",
+          "sha256": "48456fb38e166fe62a1f95cb64c8ccea406c5134c1e50c0764c3937fe1a66ce6"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/02-ficha-de-preparacao.md",
+          "inicio": 37,
+          "fim": 44,
+          "titulo": "Pessoas",
+          "sha256": "1a0818e190dd2c7bb9636d73f3c744e2279a26b8efaad7b7135f91f827bb1213"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/14-o-aviso-de-reabertura.md",
+          "inicio": 27,
+          "fim": 41,
+          "titulo": "Pessoas e acesso",
+          "sha256": "f80817cf25d68d3f42c403a06bad94c186716cca6ae58b998c4cb8b0cfb39084"
+        }
+      ],
+      "presente": "NPC com desejo, conhecimento, limites e exemplos de fala direta/resumo.",
+      "restante": "Aplicação humana ainda não observada.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P13",
+      "competencia": "Fazer instituições, facções e antagonistas reagirem",
+      "capitulo": "C02",
+      "demonstracao_prevista": "Objetivos, recursos, relações e registro de acontecimentos",
+      "aplicacao_prevista": "Mostrar consequências entre missões sem predeterminar a resposta dos personagens",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/17-faccoes-e-reacoes.md",
+          "inicio": 1,
+          "fim": 106,
+          "titulo": "Facções e reações",
+          "sha256": "340ceb5d07bdadbf69e6b9e00277123f1ad8aee35f9fd92bbdd128f23b7ad4a3"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/20-ficha-de-faccao.md",
+          "inicio": 1,
+          "fim": 50,
+          "titulo": "Ficha de facção",
+          "sha256": "4e1152c04ca2d0d83da1cb903018aabe7280a018618faf98282dd38d5588f78e"
+        }
+      ],
+      "presente": "Objetivos, informação, recursos, reação e ficha preenchida, sem resposta predeterminada.",
+      "restante": "Aplicação humana ainda não observada.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P14",
+      "competencia": "Criar e adaptar inimigos, preparar encontros e conduzir grandes confrontos",
+      "capitulo": "C04",
+      "demonstracao_prevista": "Construção comentada, fichas completas, sinais, objetivos e comportamentos",
+      "aplicacao_prevista": "Justificar uma criação ou adaptação, usar uma ficha do catálogo e conferir composição e duração",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+          "inicio": 1,
+          "fim": 134,
+          "titulo": "Preparar inimigos e avaliar encontros",
+          "sha256": "56d3795f796a9095a0548a8be2ae4078b8a01abe483dae8a57a44a523d72ec8a"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+          "inicio": 1,
+          "fim": 129,
+          "titulo": "Escolher os números de um inimigo",
+          "sha256": "b221580efe42cbc9442a2a7f0c8935bf575edd806711e766825507c7e1697af9"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+          "inicio": 1,
+          "fim": 110,
+          "titulo": "Ficha preenchida: Ren e Sora",
+          "sha256": "f421e37faf2a94c2919345ddf9a6aefbd07dd56e6dd438cf5b6ca1ce304b5f45"
+        }
+      ],
+      "presente": "Construção/adaptação, vários papéis, chefe e encontro possuem procedimento e demonstrações.",
+      "restante": "Faltam referências e comparação para outras faixas; não há medida geral de dificuldade concluída.",
+      "lote": "L7",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P15",
+      "competencia": "Preparar perigos com intervenção e resolução claras",
+      "capitulo": "C04",
+      "demonstracao_prevista": "Ficha de perigo com sinais, área, ritmo e saídas",
+      "aplicacao_prevista": "Resolver contato, prevenção e intervenção sem inventar efeitos após a escolha",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+          "inicio": 1,
+          "fim": 118,
+          "titulo": "Preparar perigos ambientais",
+          "sha256": "191977d4a10338ca64c2b9beb421474bcdf02ed82d7f3ea80c3cdf72571a4b35"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+          "inicio": 1,
+          "fim": 131,
+          "titulo": "O pó na sala de conservação",
+          "sha256": "5b74dcf67dccff93c639e3dbad77d70b791356bbf2d98d6f2b57ab82af46efd8"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+          "inicio": 1,
+          "fim": 152,
+          "titulo": "A passarela e o guincho",
+          "sha256": "ad6c6d47e5160df328730cb93975df9f77312390b1ff8f1ee50b040f5f15934f"
+        }
+      ],
+      "presente": "Perigos pontual e recorrente possuem sinais, intervenção e resolução completa.",
+      "restante": "Falta demonstrar consequência prolongada/doença; não basta o campo do formulário.",
+      "lote": "L7",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P16",
+      "competencia": "Acompanhar recursos, derrota, retirada e retomada",
+      "capitulo": "C05",
+      "demonstracao_prevista": "Situação comentada e registro de estado",
+      "aplicacao_prevista": "Continuar o jogo respeitando recuperação, consequências e informação comunicada",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/21-acompanhar-recursos.md",
+          "inicio": 1,
+          "fim": 92,
+          "titulo": "Acompanhar recursos e consequências",
+          "sha256": "a3dd51e95da079ee48048ec9d943de9b91a3d17a1bfb1faaac119d4f015ba188"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/22-quedas-e-socorro.md",
+          "inicio": 1,
+          "fim": 119,
+          "titulo": "Quedas e socorro",
+          "sha256": "8ac1f4fb3636cd845019f246c6730c261f0d274d3a4d9502b66beb2465de22c1"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/23-retirada-e-recuperacao.md",
+          "inicio": 1,
+          "fim": 152,
+          "titulo": "Retirada e recuperação",
+          "sha256": "4fe04537a93cad88ac5ac7e453e6d547dc54d0cc92e0510a034867d5f1022dc0"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "inicio": 1,
+          "fim": 113,
+          "titulo": "Passar a missão entre mestres",
+          "sha256": "1e7607b51e412c13fd6eae07cb137e51eb84ecd31e74b5e402b2729196b2205f"
+        }
+      ],
+      "presente": "Recursos, janela de socorro, retirada, recuperação e passagem exemplificados.",
+      "restante": "Aplicação humana ainda não observada; contas anteriores não medem aprendizagem.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P17",
+      "competencia": "Conectar missões, desenvolver arcos e preparar encerramentos",
+      "capitulo": "C02",
+      "demonstracao_prevista": "Linha de continuidade, interesses do grupo e epílogo",
+      "aplicacao_prevista": "Aproveitar o resultado de uma missão no próximo preparo e fechar fios relevantes",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/15-ligar-missoes-e-campanhas.md",
+          "inicio": 1,
+          "fim": 108,
+          "titulo": "Ligar missões e desenvolver uma campanha",
+          "sha256": "9aac7e6da0a6cd7a3f5bf050ea85670aaf3c5487c2e022908e1b659a8060f0a9"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/19-encerrar-arcos-e-campanhas.md",
+          "inicio": 1,
+          "fim": 88,
+          "titulo": "Encerrar arcos e campanhas",
+          "sha256": "c6f6f381f36754e49bb8e1a0e1fc5840c2e06b9754c17e0f98307ca8cfcd4a04"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+          "inicio": 1,
+          "fim": 71,
+          "titulo": "Linha de continuidade",
+          "sha256": "989a92f9c218272fdd191cb79d72c4a05dd6783757919c3883c1c27d6193e43e"
+        }
+      ],
+      "presente": "Ligações entre missões, pergunta de arco, reações, final e epílogo, com modelo.",
+      "restante": "Aplicação humana ainda não observada.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P18",
+      "competencia": "Manter continuidade em mesas online e com vários mestres",
+      "capitulo": "C10",
+      "demonstracao_prevista": "Passagem de missão, comunicação, versões e rotina de mesa",
+      "aplicacao_prevista": "Outro mestre reconstrói o estado necessário; campanha fechada adapta os registros",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/80-escolher-e-usar-as-ferramentas.md",
+          "inicio": 1,
+          "fim": 88,
+          "titulo": "Escolher e usar as ferramentas",
+          "sha256": "9be86029aebff0f2ce3803616a7c6b282a172ea28478a61a93584f0fa8dbe2ac"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "inicio": 1,
+          "fim": 113,
+          "titulo": "Passar a missão entre mestres",
+          "sha256": "1e7607b51e412c13fd6eae07cb137e51eb84ecd31e74b5e402b2729196b2205f"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+          "inicio": 29,
+          "fim": 42,
+          "titulo": "Ao entregar ou retomar",
+          "sha256": "989a92f9c218272fdd191cb79d72c4a05dd6783757919c3883c1c27d6193e43e"
+        }
+      ],
+      "presente": "Índice de ferramentas, versões, destinatários, ponto da retomada e exemplo preenchido.",
+      "restante": "Outro mestre ainda não reconstruiu esse estado em avaliação observada.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P19",
+      "competencia": "Recolher retorno e compartilhar o trabalho de mestrar",
+      "capitulo": "C10",
+      "demonstracao_prevista": "Conversa de fechamento, registro de retorno e distribuição de tarefas",
+      "aplicacao_prevista": "Transformar uma observação em mudança concreta no próximo preparo",
+      "estado": "E",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/16-linha-de-continuidade.md",
+          "inicio": 43,
+          "fim": 54,
+          "titulo": "Retorno e tarefas de revisão",
+          "sha256": "989a92f9c218272fdd191cb79d72c4a05dd6783757919c3883c1c27d6193e43e"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+          "inicio": 1,
+          "fim": 113,
+          "titulo": "Passar a missão entre mestres",
+          "sha256": "1e7607b51e412c13fd6eae07cb137e51eb84ecd31e74b5e402b2729196b2205f"
+        }
+      ],
+      "presente": "Retorno ilustrativo vira providência e tarefa aceita; observação separada de solução.",
+      "restante": "Ainda não houve coleta humana nessa demonstração.",
+      "lote": "—",
+      "aprendizagem_observada": false
+    },
+    {
+      "id": "P20",
+      "competencia": "Avaliar personagens, poderes, projetos, Pactos e entidades",
+      "capitulo": "C07",
+      "demonstracao_prevista": "Parecer comparado, ficha de decisão e remissões aos capítulos específicos",
+      "aplicacao_prevista": "Demonstrar um uso, um limite e o motivo de uma aprovação ou ajuste",
+      "estado": "P",
+      "evidencias": [
+        {
+          "arquivo": "06 - Redacao do Guia/29-avaliar-tecnicas-e-criacoes.md",
+          "inicio": 1,
+          "fim": 110,
+          "titulo": "Avaliar técnicas e criações",
+          "sha256": "8c294c8ca8cc4597dcbc7bd3dc7aa31346f0ecec466b3f1d07b582719401a297"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md",
+          "inicio": 1,
+          "fim": 62,
+          "titulo": "Ficha de avaliação de capacidade",
+          "sha256": "e407884e080f493edf2b19a46cd4e4aaa5a7107ff12e882e5e80f3e3cb613f7e"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/41-pactos-e-promessas.md",
+          "inicio": 1,
+          "fim": 112,
+          "titulo": "Pactos e Promessas",
+          "sha256": "af6672acfd24a858e0c98baf262b98e074595d3c2166043f853639b874f817b9"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md",
+          "inicio": 1,
+          "fim": 142,
+          "titulo": "Fabricar e evoluir o Vigia do depósito",
+          "sha256": "d401669e0448158992efa33434c2c7a23f7585e0bd7ee4788c63885cf22bff86"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/89-vida-rolada-e-familia-propria.md",
+          "inicio": 1,
+          "fim": 75,
+          "titulo": "Vida rolada e uma família própria",
+          "sha256": "b5859ec6d94f77c834fec7da96846c2388edf842bbd5078968733be90317fbec"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/91-restricao-corporal-e-cuidados.md",
+          "inicio": 1,
+          "fim": 88,
+          "titulo": "Restrição corporal, meios de agir e cuidados",
+          "sha256": "21d4d988e9db57bcb8532bacf8c0def945c8a17e71f8adc798ff0862aa60a1d2"
+        },
+        {
+          "arquivo": "06 - Redacao do Guia/92-reserva-condensada-proposta-e-comparacao.md",
+          "inicio": 1,
+          "fim": 122,
+          "titulo": "Reserva Condensada: poupança e uso da energia",
+          "sha256": "5fca69dcd0b5b60881d7a4f933c23656a8c5e81382d2ec4715ca1ca3da2dae10"
+        }
+      ],
+      "presente": "Método e casos de avaliação, projeto, Pacto, entidade; L4 acrescenta família, pacote corporal e comparação de Reserva.",
+      "restante": "Concluir Reserva Condensada de L4 e lacunas de montagem/equipamento de L5/L6.",
+      "lote": "L4,L5,L6",
+      "aprendizagem_observada": false
+    }
+  ],
+  "lotes": [
+    {
+      "id": "L1",
+      "titulo": "Decisões comuns durante a sessão",
+      "entrega": "Completar sucesso com custo, testes coletivos e empate na iniciativa. Reunir um lembrete de seleção de CD com remissão ao procedimento ambiental já escrito.",
+      "aceite": "Casos resolvidos com intenção, custo, resultado e limite; grupo versus ajuda/ocultação; empate entre inimigos e entre jogador/inimigo. Conferir na R53 antes de redigir.",
+      "modelo": "GPT-6 Astra — extra alto para regras; GPT-6.1 Sol — alto para redação",
+      "decisao": "Nenhuma nova regra necessária.",
+      "pontos": [],
+      "competencias": [],
+      "estado": "entregue"
+    },
+    {
+      "id": "L3",
+      "titulo": "Percepção e informação",
+      "entrega": "Conectar Esconder, Vasculhar, Ler o Ambiente, Estudar, Intuição, lembranças, interferência e assinatura a situações curtas.",
+      "aceite": "Identificar observadores, acesso, ação, dificuldade, informação entregue e o que não foi descoberto. Incluir caso em que Ler o Ambiente não consome ação/uso.",
+      "modelo": "GPT-6 Astra — extra alto; Sol — alto na revisão de clareza",
+      "decisao": "Aplicar a R53. Surpresa/Instinto segue uma frente separada.",
+      "pontos": [],
+      "competencias": [],
+      "estado": "entregue"
+    },
+    {
+      "id": "L2",
+      "titulo": "Espaço, objetos e capacidades do cenário",
+      "entrega": "Completar travessias, saltos com risco, queda sobre criatura, trajetórias, ferramentas, contenção e arma improvisada.",
+      "aceite": "Dois ou mais casos podem reunir vários pontos, sem duplicar a explicação: posição inicial/final, mãos, metros, ações, dano quando houver e falha anunciada.",
+      "modelo": "GPT-6 Astra — extra alto; Sol — alto na redação",
+      "decisao": "Parâmetros de cenário serão exemplos locais; não pedir adoção de tabela para aplicar regras existentes.",
+      "pontos": [],
+      "competencias": [],
+      "estado": "entregue"
+    },
+    {
+      "id": "L8",
+      "titulo": "Mundo para consulta",
+      "entrega": "Desenvolver sociedade, funções institucionais, diferentes modos de vida e aprofundamentos da obra previstos em P10/P11; preparar índice de termos.",
+      "aceite": "Cada aprofundamento precisa servir a uma decisão de preparo, distinguir obra/R53/campanha e avisar revelações antes do conteúdo. A entrada essencial funciona sem sua leitura.",
+      "modelo": "GPT-6.1 Sol — alto; Astra — alto se houver interpretação autoral em disputa",
+      "decisao": "Pesquisar o acervo local e conferir fontes primárias quando necessário. Não impor época, região ou instituição padrão.",
+      "pontos": [],
+      "competencias": [
+        "P02"
+      ],
+      "estado": "entregue"
+    },
+    {
+      "id": "L4",
+      "titulo": "Personalização e cuidados dos personagens",
+      "entrega": "Completar vida rolada, família original, reparo corporal, CE4/condição e cuidados. Preparar comparação concreta de Reserva Condensada.",
+      "aceite": "Separar exemplo de opção publicada, projeto próprio e padrão comum proposto; mostrar o conjunto da ficha e um uso/limite. Reserva Condensada exige ciclo completo de recursos.",
+      "modelo": "GPT-6 Astra — extra alto; Sol — alto na redação",
+      "decisao": "Levar referência comum de Reserva Condensada ao autor depois da proposta. Variantes e escolhas locais não se tornam obrigatórias.",
+      "pontos": [
+        "M040",
+        "M043",
+        "M048",
+        "M049",
+        "M050",
+        "M051"
+      ],
+      "competencias": [
+        "P20"
+      ],
+      "estado": "em andamento"
+    },
+    {
+      "id": "L6",
+      "titulo": "Montagens e pareceres que faltam",
+      "entrega": "Completar Forma Fluida, mescla ampliada, repetição de peça, Condicional/Restrição Própria, efeito fora de combate e cancelamento.",
+      "aceite": "Antes/depois de orçamento e parcelas; ação, custo, saída e transição; Classe atribuída ou impossibilidade de Desarma o Feitiço fundamentada na fonte.",
+      "modelo": "GPT-6 Astra — extra alto; Sol — alto na revisão",
+      "decisao": "Casos próprios são propostas experimentais; novos padrões gerais só após decisão específica.",
+      "pontos": [
+        "M055",
+        "M084",
+        "M087",
+        "M088",
+        "M090",
+        "M091"
+      ],
+      "competencias": [
+        "P20"
+      ],
+      "estado": "pendente"
+    },
+    {
+      "id": "L5",
+      "titulo": "Equipamento, projetos e reconhecimento",
+      "entrega": "Reunir ferramenta original e processo especial; objeto/selo com risco de ingestão; negociação/revenda; feito do Limiar e promoção.",
+      "aceite": "Ficha do produto, autorização, fonte, material, trabalho, falha, entrega e continuidade. Separar aquisição de poder; não copiar prazos de entidades para ferramentas.",
+      "modelo": "GPT-6 Astra — extra alto para projetos e efeitos; Sol — alto para apresentação",
+      "decisao": "Orçamentos e riscos concretos são propostas locais; políticas gerais serão discutidas somente se necessárias.",
+      "pontos": [
+        "M052",
+        "M058",
+        "M067",
+        "M069",
+        "M070",
+        "M071",
+        "M074",
+        "M078"
+      ],
+      "competencias": [
+        "P20"
+      ],
+      "estado": "pendente"
+    },
+    {
+      "id": "L7",
+      "titulo": "Ampliar as referências de ameaças e perigos",
+      "entrega": "Desenvolver as faixas/perfis restantes a partir da progressão e capacidades da R53; comparar chefes e composições; escrever uma consequência prolongada completa.",
+      "aceite": "Separar sobrevivência, participação, socorro e objetivo; declarar hipóteses e limites dos cálculos. Nenhuma referência de outro sistema vira número do Ciclo Maldito por conversão direta.",
+      "modelo": "GPT-6 Astra — extra alto; Sol — alto para texto final",
+      "decisao": "Qualquer escala geral é proposta antes de adoção. Este lote não atualiza o Bestiário inteiro.",
+      "pontos": [
+        "M124",
+        "M129"
+      ],
+      "competencias": [
+        "P14",
+        "P15"
+      ],
+      "estado": "pendente"
+    }
+  ],
+  "totais_pontos": {
+    "E": 113,
+    "P": 17,
+    "L": 0
+  },
+  "totais_competencias": {
+    "E": 17,
+    "P": 3
+  },
+  "etapa": 85,
+  "reavaliados": [
+    "M040",
+    "M043",
+    "M048",
+    "M049",
+    "M050",
+    "M051",
+    "P20"
+  ],
+  "referencia_anterior": "04 - Planejamento/apoio-lote8/cobertura-atualizada.json"
+}

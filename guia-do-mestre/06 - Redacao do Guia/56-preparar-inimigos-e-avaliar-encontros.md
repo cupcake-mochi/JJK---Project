@@ -1,8 +1,27 @@
 # Preparar inimigos e avaliar encontros
 
-**Para ler antes de preparar um confronto.** Esta seção ensina a escolher, adaptar e conferir ameaças para uma missão. Use a [comparação do Amontoado](57-avaliar-o-encontro-do-amontoado.md) para acompanhar o método e a [ficha de avaliação](58-ficha-de-inimigo-e-encontro.md) para registrar seu preparo.
+**Comece por aqui para preparar uma ameaça ou um confronto.** Esta seção reúne o procedimento principal. Registre as escolhas na [ficha única de construção e encontro](58-ficha-de-inimigo-e-encontro.md); o [preenchimento com Ren e Sora](77-ficha-preenchida-ren-e-sora.md) mostra o resultado. Consulte os aprofundamentos apenas quando precisar deles.
 
-**Estado da pré-1.0:** o procedimento usa as regras da R53 e as três fichas experimentais do piloto. A tabela geral para construir inimigos de outros níveis ainda está em desenvolvimento. As fichas do piloto permitem estudar escolhas concretas; seus valores não estabelecem o padrão de todo inimigo daquele nível.
+**Estado da pré-1.0:** o procedimento usa a R53, as fichas experimentais do piloto e os exemplos posteriores. [Escolher os números de um inimigo](74-regua-inicial-de-inimigos.md) oferece a primeira régua de rascunho nos níveis 2 e 6. A escala geral continua em desenvolvimento; os valores propostos não estabelecem dificuldade nem o padrão de todo inimigo daquele nível.
+
+## Um percurso de preparo
+
+| Etapa | O que deixar pronto | Onde aprofundar |
+|---|---|---|
+| 1. Definir a situação e o grupo | Objetivo, oposição, saída e estado real dos participantes. | [Amontoado: avaliar um encontro existente](57-avaliar-o-encontro-do-amontoado.md). |
+| 2. Escolher ou construir a ameaça | Ficha completa, origem dos parâmetros e função de cada corpo. | [Régua inicial de números](74-regua-inicial-de-inimigos.md). |
+| 3. Fechar as capacidades | Procedimento, limite útil, custo, duração e respostas. | [Recursos e ritmo](59-recursos-e-ritmo-dos-inimigos.md), depois [montagem de habilidades](60-montar-habilidades-de-inimigos.md). |
+| 4. Preparar o lugar | Posições, sinais, intervenções e perigos com resolução própria. | [Perigos ambientais](78-preparar-perigos-ambientais.md) e [composição com o confronto](65-comparar-confronto-e-pressao-ambiental.md). |
+| 5. Conferir a composição | Ações disputadas, acerto, dano, controle, sequências adversas e continuidade. | [Chefes](67-preparar-chefes-e-confrontos-maiores.md), quando esse for o papel da ameaça. |
+| 6. Registrar a aplicação | O que ocorreu, estados finais, objetivos e revisão necessária. | [Ren e Sora: percurso comentado](76-confronto-de-ren-e-sora.md). |
+
+As seis etapas correspondem aos blocos da ficha única. Uma ameaça pronta pode ser identificada por sua versão e referência completa: não é necessário transcrever todas as suas capacidades. Se estiver criando ou alterando a ficha, conclua o texto antes da mesa. Os aprofundamentos de [habilidades](61-ficha-de-habilidade-de-inimigo.md) e [chefes](68-ficha-e-comparacao-de-chefes.md) ajudam a resolver dúvidas específicas; não são duas folhas adicionais obrigatórias.
+
+## Reconheça a origem de cada escolha
+
+**Regra da R53** é um procedimento publicado: ações, fórmulas, requisitos e limites continuam valendo. **Orientação do Guia** ensina a preparar e conduzir; por exemplo, comparar uma alteração de cada vez. **Proposta experimental** é um parâmetro ou uma capacidade que o Guia está desenvolvendo. **Escolha desta ocorrência** define mapa, prioridades ou desfechos dentro das permissões existentes.
+
+Essas origens podem aparecer na mesma ficha. Em Ren e Sora, a conta de Defesa e as peças de seus feitiços vêm da R53; as reservas inimigas de 8 e 12 PE são propostas do exemplo; proteger o estojo é uma intenção local. Montar o feitiço corretamente não aprova automaticamente o conjunto da criatura. Registre o alcance de qualquer decisão autoral, sem tratar autorização para continuar escrevendo como aprovação dos números.
 
 ## O trabalho da ameaça
 
@@ -54,6 +73,8 @@ Depois, examine tarefas que competem com atacar: atravessar o lugar, alcançar u
 
 Na guilda, registre a composição e o estado para os quais preparou o encontro. Se uma substituição ocorrer antes da sessão, reavalie essas condições. Em campanha fechada, faça a mesma conferência após o desgaste das cenas anteriores.
 
+A [comparação de outras faixas](100-comparar-inimigos-em-outras-faixas.md) acompanha os marcos 10/15/20/22/26/30 e demonstra por que capacidades como Duro de Matar exigem conferir mais que vida e dano.
+
 ## Compare ações, alcance e recursos
 
 Conte as oportunidades reais de agir. Uma criatura com a rotina comum possui Padrão, Movimento, Bônus e Reação conforme as regras. Isso não significa quatro ataques. As capacidades dizem quais recursos gastam e quantas execuções permitem.
@@ -62,7 +83,7 @@ Dois inimigos com um ataque cada oferecem duas possíveis ocorrências de dano e
 
 Confira as Reações pelo gatilho escrito. Elas voltam no começo do turno do participante, e Bloquear é gratuito, sem gastar Reação. Não conte todo Bloquear como perda da capacidade de responder a uma oportunidade posterior.
 
-**Exemplo:** o Amontoado tem 6 PE e seu Impacto concentrado custa 3. Nas condições normais da ficha, consegue pagar duas conjurações e depois depende de Pancada ou outras ações disponíveis. Se o estágio de Integridade elevar o custo, essa previsão muda. Escrever “usa o golpe mais forte sempre” esconderia a reserva que limita sua rotina.
+**Exemplo:** o Amontoado tem 6 PE e seu Impacto concentrado custa 3. Nas condições normais, consegue pagar duas conjurações e depois depende de Pancada ou outras ações disponíveis. Se a Integridade elevar o custo, essa previsão muda. Isso limita a quantidade de tentativas, mas não oferece, sozinho, uma razão para adiar a primeira. Para uma pausa, uma interrupção ou uma disputa entre ataque e proteção, escolha o mecanismo pela função que precisa cumprir; [Recursos e ritmo](59-recursos-e-ritmo-dos-inimigos.md) compara essas alternativas. PE e recarga não são exigências para toda capacidade especial.
 
 ## Observe mais que o dano médio
 

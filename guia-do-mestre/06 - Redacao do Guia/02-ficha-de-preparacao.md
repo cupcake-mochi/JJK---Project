@@ -110,3 +110,5 @@ Percorra uma busca de informação, uma aproximação alternativa e uma retirada
 **Dúvida de regra ou de apresentação a revisar:**
 
 Na guilda, passe os registros pertinentes ao próximo mestre. Na campanha fechada, conserve o necessário nas notas de continuidade. Este modelo organiza informação; os procedimentos da R53 continuam determinando os resultados.
+
+**Ferramentas complementares:** [Escolher e usar as ferramentas](80-escolher-e-usar-as-ferramentas.md) orienta quando acrescentar cada registro. Para retomar a missão, vincule o [estado das fichas](24-registro-de-estado-e-socorro.md) à [linha de continuidade](16-linha-de-continuidade.md); o resumo da missão pode apontar essas folhas sem transcrever seus campos.

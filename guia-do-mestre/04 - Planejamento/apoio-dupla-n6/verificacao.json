@@ -1,0 +1,34 @@
+{
+  "arquivos_iniciais": 280,
+  "arquivos_anteriores_preservados": 271,
+  "arquivos_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "arquivos_novos": [
+    "04 - Planejamento/76-dupla-de-nivel-6-e-composicao.md",
+    "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md",
+    "06 - Redacao do Guia/76-confronto-de-ren-e-sora.md",
+    "04 - Planejamento/apoio-dupla-n6/estado-inicial.json",
+    "04 - Planejamento/apoio-dupla-n6/calcular.py",
+    "04 - Planejamento/apoio-dupla-n6/resultados.json",
+    "04 - Planejamento/apoio-dupla-n6/reproduzir.py",
+    "04 - Planejamento/apoio-dupla-n6/resultados-ensaio.json",
+    "04 - Planejamento/apoio-dupla-n6/verificacao.json"
+  ],
+  "total_final": 289,
+  "comparacoes_de_foco": 2,
+  "referencias_de_ataque_fisico": 6,
+  "percursos_guiados": 1,
+  "links_locais_novos_conferidos": 26,
+  "problemas": [],
+  "limites": "Enumeração condicionada e percurso com dados escolhidos/reprodução parcial. Sem sessão humana, motor completo, dificuldade certificada ou aprovação autoral. Sem publicação remota.",
+  "escopo_de_links": "Novos destinos nos documentos alterados e todos os destinos dos documentos novos. Remissões antigas inalteradas não reconferidas."
+}

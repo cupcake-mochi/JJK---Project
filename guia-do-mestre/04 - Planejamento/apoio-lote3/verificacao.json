@@ -1,0 +1,38 @@
+{
+  "etapa": 82,
+  "data": "2026-10-26",
+  "escopo": "L3: M025–M029; integração e atualização incremental de cobertura.",
+  "manifesto_anterior": 320,
+  "arquivos_anteriores_intactos_antes_da_instalacao": 320,
+  "arquivos_atualizados": 15,
+  "arquivos_novos_no_manifesto": 8,
+  "arquivos_anteriores_sem_alteracao": 305,
+  "copias_historicas_conferidas": 15,
+  "manifesto_final": 328,
+  "matriz_130_linhas_preservada": true,
+  "competencias_20_linhas_preservadas": true,
+  "reclassificados": [
+    "M025",
+    "M026",
+    "M027",
+    "M028",
+    "M029"
+  ],
+  "cobertura_M": {
+    "E": 101,
+    "P": 28,
+    "L": 1
+  },
+  "cobertura_P": {
+    "E": 16,
+    "P": 4
+  },
+  "evidencias_atuais_conferidas": 279,
+  "links_novos_ou_alterados_conferidos": 41,
+  "blocos_de_tabelas_novos_ou_alterados_conferidos": 10,
+  "conferencia_de_exemplos": "resultados.json; contas de percepção passiva/ativa, informação, interferência e cobertura conferidas.",
+  "R53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "preservados": "R53, decisões autorais, números dos inimigos, Pactos, projetos e histórico anterior. Manifesto atualizado por união, sem excluir arquivos anteriores.",
+  "limites": "Conferência documental, aritmética e de integridade. Sem nova regra, simulação de combate, teste humano, auditoria integral dos outros 125 pontos ou envio ao GitHub.",
+  "problemas": []
+}

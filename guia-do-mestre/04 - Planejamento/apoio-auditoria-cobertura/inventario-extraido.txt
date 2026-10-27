@@ -1,0 +1,1692 @@
+CICLO MALDITO                                                                          Inventário para o Guia do Mestre | R53
+
+
+
+
+Inventário para o
+Guia do Mestre
+Decisões, aprovações e apoio na condução do Ciclo Maldito
+Base: edição R53, 411 páginas, 21 capítulos. O inventário reúne 130 pontos em 15 áreas de trabalho,
+com referências ao livro. As regras publicadas permanecem como referência para preparar o Guia do
+Mestre.
+
+Comece por estes assuntos
+• Convivência do Receptáculo e preservação do controle do jogador.
+• Tempo, materiais e oportunidades para criar entidades.
+• Critérios e exemplos para aprovar capacidades próprias.
+• Preparação de ameaças, pistas e consequências de missão.
+• Registros compartilhados da guilda e recompensas.
+• Definição de surpresa, citada por Instinto.
+Os dois primeiros assuntos têm desenvolvimento anunciado expressamente para o livro de mestres. Surpresa
+precisa de definição antes de receber consequências próprias. As demais frentes combinam decisões previstas e
+orientação a desenvolver.
+
+
+Como consultar
+Cada entrada informa o que cabe ao mestre e o limite que continua valendo. Conferir e Aplicar
+identificam procedimentos já publicados. Aprovar, Definir e Criar junto indicam escolhas que
+precisam ser fechadas. A categoria deve ser lida com o trecho de referência.
+As referências usam a posição da página no PDF da R53. Os links abrem o livro na página indicada. O material para
+desenvolver depois aparece em seção própria, com seu status.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                     1
+CICLO MALDITO                                                             Inventário para o Guia do Mestre | R53
+
+
+
+
+Consulta rápida por momento de trabalho
+Antes da campanha
+Combinar tema, conteúdos, nível e patente inicial. Anunciar políticas de guilda, recompensas e
+critérios de aquisição. Fechar os vínculos e o funcionamento geral das técnicas.
+
+Antes de aprovar uma ficha
+Conferir requisitos, Famílias, contas, custos, resolução e duração. Registrar criações próprias e o
+motivo do preço. Fazer um uso completo e um exemplo de limite.
+
+Antes da missão
+Ter objetivo, lugares, pistas, pessoas e fichas completas dos perigos. Informar tamanho da missão,
+riscos perceptíveis, recursos de entrada e opções de repouso.
+
+Durante a sessão
+Descrever sinais e posições. Informar procedimento, custo e risco antes do dado. Concluir cada
+resolução antes de passar a outra e anunciar mudanças de cena relevantes.
+
+Depois da missão
+Conferir recursos, consequências, XP, empréstimos, Pactos, Desgaste e promoções. Fazer o registro
+compartilhado antes da próxima mesa.
+
+Depois de três sessões de uso
+Rever Restrições que nunca dificultaram o uso, incluindo as das entidades. Conferir efeitos de aliados
+que eliminem sempre o custo prometido.
+
+Ao publicar uma correção
+Registrar versão, decisão e fichas afetadas. Comunicar as mudanças e preservar o procedimento de
+ajuste previsto no livro.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                        2
+CICLO MALDITO                                                                         Inventário para o Guia do Mestre | R53
+
+
+
+
+Sumário do inventário
+Consulta rápida por momento de trabalho . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+
+01. Campanha e acordos iniciais . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+02. Testes e arbitragem de ações . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+
+03. Cenário, movimento e informação . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+
+04. Dano, socorro e recuperação . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+05. Criação de personagem e Origens . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+06. Caminhos e possibilidades do cenário . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+07. Ofícios, fabricação e reparos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+08. Equipamento e economia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+09. Progressão, recompensas e registro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+10. Fundamento e criação de capacidades . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+11. Talentos, Aptidões e rotas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+
+12. Técnica Máxima e Expansão de Domínio . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+
+13. Pactos e Promessas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+
+14. Invocações e entidades de criação . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+
+15. Preparar, conduzir e encerrar a sessão . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+
+Referências de regras já fechadas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+
+Frentes para desenvolver no Guia do Mestre . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+
+Estrutura sugerida para o Guia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+
+Modelos de registro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+
+Organização do repositório . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+
+Cobertura e conferências . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+Os identificadores M001 a M130 permitem citar uma entrada ao planejar capítulos ou registrar uma decisão.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                    3
+CICLO MALDITO                                                                               Inventário para o Guia do Mestre | R53
+
+
+
+
+01. Campanha e acordos iniciais
+M001 | Época, lugar e relação com a obra
+Combinar. Definir onde e quando a campanha acontece, a organização dos personagens e quanto ela
+depende dos acontecimentos do mangá ou anime.
+Limite da R53. O conhecimento de revelações da obra não deve ser necessário para participar.
+Cap. 1, Primeira sessão, p. 8; Cap. 1, Sociedade jujutsu, p. 11; Cap. 18, Mestrar uma sessão, p. 397.
+
+
+M002 | Conteúdos e conflitos entre personagens
+Combinar. Conversar sobre violência, terror e conflitos entre personagens. Estabelecer como pedir
+pausa ou mudança de conteúdo.
+Limite da R53. Qualquer participante pode pedir a mudança. Acordos entre jogadores dispensam
+resolução por dados.
+Cap. 1, Primeira sessão, p. 8.
+
+
+M003 | Nível, patente e recursos de entrada
+Definir. Informar nível, Grau inicial e recursos antes da criação. Explicar o fundo inicial quando a
+campanha usar outra patente ou outra forma de sustento.
+Limite da R53. O padrão é nível 2 e Grau 4. Nível maior não promove o Grau automaticamente.
+Cap. 1, Primeira sessão, p. 8; Cap. 8, Equipamento inicial, p. 223.
+
+
+M004 | Participação e continuidade na guilda
+Organizar. Definir quem pode participar das mesas e como registrar recursos, empréstimos e
+consequências entre missões.
+Limite da R53. Trocar de sessão ou de mestre não renova recursos por si.
+Cap. 1, Jogadores e mestre, p. 7; Cap. 18, Mestrar uma sessão, p. 397.
+
+
+M005 | Vínculos, organizações e contatos
+Preparar. Apresentar as pessoas e instituições relevantes, o que sabem, suas obrigações e como podem
+reagir aos personagens.
+Limite da R53. Um vínculo de história não garante obediência, recursos ou poderes.
+Cap. 1, Sociedade jujutsu, p. 11; Cap. 5, Legados de história, p. 70; Cap. 5, Menores do Descendente, p. 79.
+
+
+M006 | Objetivo e classificação da missão
+Definir. Anunciar o objetivo e o tamanho da missão antes de começar, considerando duração,
+importância e risco.
+Limite da R53. Um final de arco pode ser resolvido por conversa. O tamanho não depende só da
+duração.
+Cap. 9, Recompensas e custos, p. 235; Cap. 18, Preparar uma missão, p. 396.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                          4
+CICLO MALDITO                                                                                   Inventário para o Guia do Mestre | R53
+
+
+
+
+02. Testes e arbitragem de ações
+M007 | Quando pedir uma rolagem
+Aplicar. Verificar se há incerteza e uma consequência relevante para a falha. Resolver pela descrição
+tarefas evidentes ou rotineiras.
+Limite da R53. Tempo, materiais e ferramentas ainda podem ser exigidos sem rolagem.
+Cap. 2, Testes, p. 14; Cap. 7, Tarefas e testes, p. 193; Cap. 8, Usar objetos, p. 202.
+
+
+M008 | Escolha da dificuldade
+Definir. Selecionar a escala adequada: CD fixa para tarefa comum; CD do procedimento ou escala do
+criador quando a tarefa depender daquele efeito.
+Limite da R53. Ajustes de dificuldade não elevam automaticamente a CD de todo feitiço ou TR. Não
+criar um degrau Extremo na escala do criador.
+Cap. 2, Testes, p. 14.
+
+
+M009 | Intenção, tempo e consequências
+Definir. Antes do dado, esclarecer o resultado pretendido, o custo de ação ou tempo, os requisitos e o
+risco perceptível.
+Limite da R53. Consequências já fechadas por um procedimento continuam valendo.
+Cap. 2, Testes, p. 14; Cap. 2, Ações, p. 18; Cap. 7, Tarefas e testes, p. 193; Cap. 8, Usar objetos, p. 202.
+
+
+M010 | Falha e sucesso com custo
+Aplicar. Quando o procedimento permitir interpretação, oferecer uma complicação ou sucesso com
+custo adequado à tarefa.
+Limite da R53. Essa opção não substitui resultados expressamente definidos, como a localização após
+falha em Esconder.
+Cap. 2, Testes, p. 14.
+
+
+M011 | Repetir uma tentativa
+Aplicar. Conferir se houve nova informação, abordagem diferente ou consequência real pelo tempo
+gasto, e informar o novo custo.
+Limite da R53. Repetir a mesma pergunta sem mudança relevante não fornece testes ilimitados.
+Procedimentos próprios têm prioridade.
+Cap. 7, Tarefas e testes, p. 193; Cap. 2, Vasculhar, p. 38.
+
+
+M012 | Perícia, ofício e atributo da tarefa
+Definir. Escolher o conhecimento pertinente e, num ofício, informar antes do dado quando o trabalho
+exige atributo diferente do padrão.
+Limite da R53. Perícias mantêm seu atributo fixo. A troca de atributo de ofício acompanha a tarefa e
+não é permanente.
+Cap. 2, Treino e modificadores, p. 15; Cap. 7, Treino, p. 192; Cap. 7, Ofícios, p. 197; Cap. 7, Perícias físicas, p. 194.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                              5
+CICLO MALDITO                                                                                 Inventário para o Guia do Mestre | R53
+
+
+
+M013 | Improvisação sem treino
+Autorizar. Decidir se uma tentativa simples de Ofício sem treino é possível e em quais condições.
+Limite da R53. A autorização comum não concede Maestria, treino futuro ou domínio de todas as
+tarefas daquele ofício. Capacidades que concedem treino temporário conservam sua exceção.
+Cap. 2, Treino e modificadores, p. 15; Cap. 7, Treino, p. 192; Cap. 5, Menores do Latente, p. 72.
+
+
+M014 | Ajudar e tarefas coletivas
+Aplicar. Verificar se a contribuição é possível e distinguir auxílio a uma tentativa de uma tarefa que
+todos precisam superar juntos.
+Limite da R53. Testes de grupo usam pelo menos metade de sucessos. Ocultação em combate é
+individual; ajudar na criação de entidades tem exceção própria de treino.
+Cap. 2, Ajudar, p. 19; Cap. 2, Treino e modificadores, p. 15; Cap. 7, Tarefas e testes, p. 193; Cap. 17, Teste de criação, p. 393.
+
+
+M015 | Ações propostas fora das opções prontas
+Definir. Ouvir o resultado pretendido e informar procedimento, requisitos e ação antes do teste.
+Limite da R53. A proposta não concede uma ação adicional nem elimina custos de uma capacidade
+existente.
+Cap. 2, Ações, p. 18; Cap. 18, Mestrar uma sessão, p. 397.
+
+
+M016 | Influência social e negociação
+Aplicar. Avaliar a viabilidade do pedido, a abordagem e a reação possível. Definir CD e tempo cabíveis.
+Limite da R53. Sucesso não controla a vontade do alvo nem impõe uma decisão ao personagem de
+outro jogador.
+Cap. 2, Interação durante o combate, p. 19; Cap. 7, Percepção e influência, p. 196.
+
+
+M017 | Perigos sem autor
+Definir. Preparar a dificuldade de perigos ambientais, incluindo testes de concentração provocados
+por essas fontes.
+Limite da R53. Quando uma fonte possui CD própria, usar essa CD.
+Cap. 2, Concentração, p. 21; Cap. 2, Testes, p. 14.
+
+
+M128 | Empates entre inimigos na iniciativa
+Escolher. Quando total de iniciativa e Destreza empatarem entre inimigos, escolher a ordem e
+registrá-la uma vez para o combate.
+Limite da R53. Entre jogadores ainda empatados, eles escolhem a ordem. Em empate completo entre
+jogador e inimigo, o jogador age primeiro.
+Cap. 2, Turnos, p. 17.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                               6
+CICLO MALDITO                                                                                Inventário para o Guia do Mestre | R53
+
+
+
+
+03. Cenário, movimento e informação
+M018 | Distâncias e método de medição
+Definir. Estabelecer as posições, obstáculos e medidas relevantes antes da tentativa; usar a mesma
+escala para todos.
+Limite da R53. As distâncias de jogo usam unidades de 1,5 m. O tamanho real do obstáculo não
+encolhe por arredondamento da capacidade.
+Cap. 2, Movimento e terreno, p. 28; Cap. 2, Distâncias e altura, p. 30.
+
+
+M019 | Terreno, escalada e natação
+Definir. Informar trechos difíceis, apoios, correnteza e condições que realmente exigem Atletismo.
+Limite da R53. Uma rolagem resolve o obstáculo descrito; não cobrar outra por quadrado. Modalidades
+especiais de movimento conservam seus limites.
+Cap. 2, Movimento e terreno, p. 28.
+
+
+M020 | Saltos com risco adicional
+Definir. Anunciar a CD, o risco e onde a criatura termina quando piso ou obstáculos acrescentarem
+perigo à tentativa.
+Limite da R53. Saltos normais entre apoios firmes dispensam teste. Esforço e risco juntos usam uma
+rolagem contra a maior CD.
+Cap. 2, Saltos, p. 31.
+
+
+M021 | Passagens, espaços e quedas sobre criaturas
+Aplicar. Conferir corpo, equipamento, apoios e percurso. Resolver o espaço de chegada e perigos fora
+da faixa de divisão de dano da queda.
+Limite da R53. Autorizar uma travessia não permite atravessar paredes. O procedimento de impacto só
+reparte dano entre tamanhos dentro da faixa escrita.
+Cap. 2, Espaço e posição, p. 30; Cap. 2, Rastejar e passagens estreitas, p. 33; Cap. 2, Quedas sobre criaturas, p. 32.
+
+
+M022 | Cobertura e direção do ataque
+Definir. Determinar o grau de cobertura pela posição do agressor e pela proteção real. Conferir de
+onde chega o último trecho de uma trajetória.
+Limite da R53. Altura ou aparência de uma obra não elevam a cobertura tabelada. Obstáculos e
+trajetórias continuam valendo.
+Cap. 2, Defesa e cobertura, p. 24; Cap. 6, Aberturas junto das obras, p. 130; Cap. 6, Ricochete, p. 187.
+
+
+M023 | Volume de objetos sem tabela
+Definir. Comparar objetos semelhantes ou atribuir Volume por peso, tamanho e dificuldade de
+transporte antes da tentativa.
+Limite da R53. Itens desprezíveis podem ser dispensados. Capacidade de carga não vence um percurso
+fisicamente bloqueado.
+Cap. 2, Carga, p. 34; Cap. 2, Arrastar e transportar, p. 35.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                           7
+CICLO MALDITO                                                                                Inventário para o Guia do Mestre | R53
+
+
+
+M024 | Luz e sinais disponíveis
+Preparar. Descrever iluminação, fumaça, acessos e quais sinais podem chegar a cada observador.
+Limite da R53. Enxergar, localizar e compreender são resultados distintos. Um teste alto não atravessa
+um sentido bloqueado.
+Cap. 2, Percepção e visibilidade, p. 36; Cap. 2, Vasculhar, p. 38; Cap. 2, Percepção de energia, p. 40.
+
+
+M025 | Esconder, buscar e sentidos alternativos
+Aplicar. Identificar observadores com acesso à tentativa e os sentidos pertinentes; escolher o
+procedimento de busca apropriado.
+Limite da R53. Não há detecção automática sem sinal acessível. Escuridão e cobertura não dispensam
+os requisitos de Esconder.
+Cap. 2, Esconder, p. 37; Cap. 2, Vasculhar, p. 38.
+
+
+M026 | Ler o Ambiente
+Definir. Preparar informação útil sobre posição, objeto, percurso ou risco e informar a dificuldade.
+Limite da R53. Se não houver nada a informar, a ação e o uso não são gastos. Criaturas escondidas são
+tratadas por Vasculhar.
+Cap. 2, Interação durante o combate, p. 19.
+
+
+M027 | Estudar, Intuição e lembranças
+Definir. Responder à pergunta concreta com informação útil que o sinal ou conhecimento permita;
+conferir detalhes realmente presenciados em Lembrança Retomada.
+Limite da R53. Não revelar pensamentos, futuro ou ficha completa por uma leitura comum. Intuição
+não é detector infalível de mentira.
+Cap. 2, Estudar, p. 39; Cap. 7, Investigação e conhecimento, p. 194; Cap. 5, Menores do Encarnado, p. 81; Cap. 1, Mundo
+jujutsu, p. 9; Cap. 8, Armas amaldiçoadas, p. 228.
+
+
+M028 | Busca energética com interferência
+Definir. Determinar a dificuldade da interferência antes do dado. Distinguir uma fonte localizada de
+um sinal distante.
+Limite da R53. A busca local mantém sua ação, alcance e barreiras; interferência e Furtividade não se
+somam. PE zero não apaga a energia do feiticeiro.
+Cap. 2, Vasculhar com Sentir Energia, p. 41; Cap. 2, Sinais de energia no ambiente, p. 42.
+
+
+M029 | Pressão, vestígios e assinatura
+Preparar. Definir qual sinal chega além de uma parede ou da busca local, de onde é percebido e qual
+pista fornece. Avaliar referências confiáveis de assinatura.
+Limite da R53. A mesma situação fornece a mesma pista a observadores equivalentes. Repetir
+perguntas ao redor do prédio não cria triangulação gratuita.
+Cap. 2, Sinais de energia no ambiente, p. 42; Cap. 2, Examinar energia e vestígios, p. 42.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                           8
+CICLO MALDITO                                                                               Inventário para o Guia do Mestre | R53
+
+
+
+
+04. Dano, socorro e recuperação
+M030 | Desfecho dos inimigos derrotados
+Definir. Descrever o destino de um inimigo reduzido a zero de vida ou Integridade: morte, fuga,
+exorcismo ou outro desfecho coerente.
+Limite da R53. A regra de Morrendo é dos personagens jogadores; entidades e fichas especiais usam
+seus procedimentos.
+Cap. 3, Vida a zero, p. 53.
+
+
+M031 | Retirada de Derrotados e morte
+Aplicar. Resolver resgate, captura, perda de objetivo ou outra consequência depois da derrota.
+Anunciar risco físico de morte antes de uma decisão possível do personagem.
+Limite da R53. Na campanha padrão, derrota não causa morte automática. Cura não reabre
+participação encerrada naquela cena.
+Cap. 3, Derrota e morte, p. 57.
+
+
+M032 | Socorro fora da iniciativa
+Aplicar. Organizar turnos quando houver queda fora de combate e acompanhar a janela de socorro,
+atendimento e retirada.
+Limite da R53. A contagem e os requisitos de tratamento já estão definidos. O mestre não inventa
+outro prazo por ser uma cena fora de combate.
+Cap. 3, Vida a zero, p. 53; Cap. 3, Socorro, p. 55.
+
+
+M033 | Corpos e fontes de tratamento compatíveis
+Conferir. Verificar se cura, Medicina, reparo e meios de atendimento são adequados ao alvo.
+Limite da R53. Morrendo exige saída expressa; vida temporária e remoção genérica de condições não
+encerram a queda.
+Cap. 3, Cura, p. 52; Cap. 3, Socorro, p. 55; Cap. 11, Limpa Fundo, p. 284; Cap. 5, Reparo do corpo, p. 89.
+
+
+M034 | Cicatrizes e marcas de história
+Combinar. Após a segunda queda na missão, registrar com o jogador se houve uma cicatriz e como
+ficou.
+Limite da R53. A marca narrativa não cria outra penalidade mecânica. Sequelas seguem a regra própria
+de desgaste e recuperação.
+Cap. 3, Sequelas e Cicatrizes, p. 56.
+
+
+M035 | Reservas preparadas antes da cena
+Confirmar. Ao preparar vida temporária imediatamente antes da situação em que será usada,
+confirmar se há continuidade com aquela cena.
+Limite da R53. A continuidade não repõe pontos consumidos e não permite acumular reservas.
+Cap. 3, Vida e energia temporárias, p. 53.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                          9
+CICLO MALDITO                                                                                  Inventário para o Guia do Mestre | R53
+
+
+
+M036 | Descanso e ambiente propício
+Confirmar. Decidir se houve uma pausa segura ou encerramento da missão com oportunidade de
+repousar, e conferir abrigo, suprimentos e atendimento.
+Limite da R53. Descansos não exigem uma quantidade universal de horas. Uma pausa contínua não
+conta várias vezes. Sono durante a missão não é descanso longo automático.
+Cap. 3, Descansos, p. 58.
+
+
+M037 | Exaustão e o que conta como luta
+Definir. Identificar combates, fugas ou contenções com oposição e esforço relevantes. Avaliar uma
+recuperação excepcional de um degrau quando a situação justificar.
+Limite da R53. Treino e ameaça resolvida sem esforço normalmente não contam. Não acrescentar
+Exaustão por gatilhos inventados.
+Cap. 3, Exaustão, p. 59.
+
+
+M038 | Mudança de cena e usos diários
+Anunciar. Avisar o fim da pressão da situação quando isso mudar reservas e usos. Distinguir cena,
+combate, sessão, missão e sono.
+Limite da R53. Mudar de sala, iniciar sessão ou declarar outra cena não renova automaticamente todos
+os recursos.
+Cap. 3, Cena e usos de habilidades, p. 60; Cap. 3, Descansos, p. 58; Cap. 18, Mestrar uma sessão, p. 397.
+
+
+
+
+05. Criação de personagem e Origens
+M039 | Conferência inicial da ficha
+Conferir. Verificar escolhas, requisitos, contas, funcionamento dos poderes e registros necessários
+para outro mestre usar a mesma ficha.
+Limite da R53. Uma aplicação deve ter procedimento completo antes de entrar na sessão.
+Cap. 4, Capacidades iniciais, p. 64; Cap. 4, Ficha pronta, p. 67; Cap. 10, Ficha de feitiço, p. 277.
+
+
+M040 | Vida rolada como variante
+Autorizar. Decidir antes da criação se o dado de vida do Caminho substituirá o ganho fixo por nível.
+Limite da R53. Constituição continua sendo somada normalmente; a opção depende da permissão do
+mestre.
+Cap. 4, Equipamento e valores, p. 64.
+
+
+M041 | Treino livre e história
+Conferir. Relacionar a perícia livre e os demais treinos à história e conferir distinção em relação ao
+Caminho.
+Limite da R53. A base é recebida uma vez; TR da Origem e TR do Caminho precisam ser distintos.
+Cap. 5, Escolhas da Origem, p. 70.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                            10
+CICLO MALDITO                                                                  Inventário para o Guia do Mestre | R53
+
+
+
+M042 | Legados de história
+Criar junto. Escrever relações, lembranças, instituições e lugares importantes; combinar o que a
+ligação significa na campanha.
+Limite da R53. Legado de história não é uma compra obrigatória nem concede poderes ou
+equipamento automaticamente.
+Cap. 5, Legados de história, p. 70; Cap. 5, Exemplos de personagens, p. 101.
+
+
+M043 | Menores personalizadas e famílias novas
+Criar junto. Escrever menores com gatilhos, ações, custos, frequência e limites. Para um Descendente
+novo, definir formação e obrigações usando os clãs como referência.
+Limite da R53. A marcante usa modalidade publicada. A criação da marcante só tem a exceção
+expressa de Restrição corporal. O pacote continua base, uma marcante e duas menores.
+Cap. 5, Personalizar sua Origem, p. 100; Cap. 5, Descendente, p. 75.
+
+
+M044 | Rever uma Origem depois de uma perda
+Combinar. Entre missões, rever apenas a escolha que se tornou incompatível por uma perda
+duradoura.
+Limite da R53. Subir de nível ou mudar a história não abre troca livre da Origem nem vagas adicionais.
+Cap. 5, Personalizar sua Origem, p. 100; Cap. 9, Atualizar a ficha, p. 240.
+
+
+M045 | Receptáculo e controle do hospedeiro
+Combinar. Definir convivência, conflito, cooperação e os limites narrativos da outra presença.
+Registrar mudanças da campanha.
+Limite da R53. Não existe tomada automática de controle por uma falha, quantidade de vida ou PE. A
+ficha é compartilhada e não recebe poderes extras por interpretação.
+Cap. 5, Receptáculo, p. 73; Cap. 5, Menores do Receptáculo, p. 74.
+
+
+M046 | Encarnado e a pessoa do corpo recebido
+Combinar. Definir a situação do hospedeiro, as lembranças disponíveis e as relações herdadas.
+Limite da R53. Lembranças concedem detalhes que poderiam ter sido percebidos, dentro da
+capacidade usada.
+Cap. 5, Encarnado, p. 81; Cap. 5, Menores do Encarnado, p. 81.
+
+
+M047 | Consciências e manutenção do Corpo Amaldiçoado
+Combinar. Escrever quem divide o corpo, os sinais de troca e a relação com quem fornece manutenção
+na história.
+Limite da R53. Consciências não multiplicam testes, recursos ou ações. A história de manutenção não
+cria drenagem automática de PE.
+Cap. 5, Histórias do corpo, p. 88; Cap. 5, Existência Artificial, p. 88.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                            11
+CICLO MALDITO                                                                              Inventário para o Guia do Mestre | R53
+
+
+
+M048 | Ofício compatível e reparo
+Conferir. Escolher na criação o ofício adequado à estrutura e registrar ferramentas e materiais
+pertinentes. Conferir o atendimento antes de reparar.
+Limite da R53. A lista de materiais é exemplificativa. Não exigir automaticamente um ofício por
+material nem restaurar núcleo destruído ou vida de quem morreu.
+Cap. 5, Corpo Amaldiçoado, p. 87; Cap. 5, Reparo do corpo, p. 89; Cap. 16, Cura e reparo, p. 368.
+
+
+M049 | Restrição corporal e CE4
+Criar junto. Definir o ganho extraordinário, sua operação, consequências e a condição corporal,
+usando os exemplos como referência.
+Limite da R53. É um único CE4 recebido na criação, fora dos espaços e dos cinco Talentos pagos.
+Penalidade mais severa não compra benefícios adicionais.
+Cap. 5, Restrição corporal, p. 96; Cap. 5, Talento de Categoria de Efeito 4, p. 96.
+
+
+M050 | Cuidados das limitações corporais
+Definir. Registrar estrutura protegida, apoios, assistência, materiais e meios necessários ao descanso
+propício de cada corpo.
+Limite da R53. Cura comum não remove a limitação congênita. As consequências pertencem ao corpo
+real e os percentuais específicos permanecem.
+Cap. 5, Corpo Debilitado, p. 97; Cap. 5, Corpo Quebradiço, p. 98; Cap. 5, Corpo Exaurido, p. 98; Cap. 5, Menores da Restrição
+corporal, p. 99.
+
+
+M051 | Armazenamento de energia próprio
+Definir. Na menor corporal que permite guardar energia, combinar quantidade por ocasião, condições
+de armazenamento e máximo acumulável.
+Limite da R53. A ficha precisa fechar esses limites antes do uso; o conceito não concede uma reserva
+ilimitada.
+Cap. 5, Menores da Restrição corporal, p. 99.
+
+
+M052 | Concessão familiar de ferramentas e negociação
+Aplicar. Autorizar acesso a ferramentas de grau 1 quando os feitos justificarem; em Palavra
+Empenhada, oferecer a condição concreta da negociação.
+Limite da R53. Ferramentas especiais ficam fora da concessão. O jogador pode recusar a condição de
+pagamento, serviço ou concessão.
+Cap. 5, Menores do Descendente, p. 79.
+
+
+
+
+06. Caminhos e possibilidades do cenário
+M053 | Caminho com arma de fogo
+Conferir. Confirmar o acesso antes da escolha da rota ou Trilha que depende dessas armas.
+Limite da R53. Dinheiro, treino ou nível não substituem o Grau exigido ou a autorização prévia.
+Cap. 6, Batedor: Arma de Fogo, p. 121; Cap. 13, Armas, p. 318; Cap. 8, Dinheiro e acesso, p. 221.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                        12
+CICLO MALDITO                                                                              Inventário para o Guia do Mestre | R53
+
+
+
+M054 | Obras, saltos e ricochetes
+Aplicar. Preparar superfícies, apoios e trajetórias e conferir o encaixe das capacidades no local.
+Limite da R53. Obras, Parkour e ricochetes conservam seus números e procedimentos. Não são
+poderes sujeitos a nova aprovação a cada uso válido.
+Cap. 6, Aberturas junto das obras, p. 130; Cap. 6, Movimento Acrobático, p. 172; Cap. 6, Parkour, p. 178; Cap. 6, Ricochete, p.
+187; Cap. 6, Trajetória Perfeita, p. 190.
+
+
+M055 | Trocas e alterações do Emanador
+Conferir. Validar as peças já aprovadas e a montagem resultante, inclusive funções, parcelas e
+incompatibilidades.
+Limite da R53. Remodelar não inventa uma peça própria durante a conjuração. Forma Fluida conserva
+as funções e sua distribuição.
+Cap. 6, Remodelar, p. 138; Cap. 6, Forma Fluida, p. 140; Cap. 10, Caminhos e usos especiais, p. 277.
+
+
+
+
+07. Ofícios, fabricação e reparos
+M056 | Projeto de fabricação comum
+Combinar. Definir o produto, etapas, orçamento de materiais, ferramentas e tempo do projeto.
+Limite da R53. Preço de compra não é custo universal de fabricação. Não há desconto fixo ou lucro
+garantido de revenda.
+Cap. 7, Fabricação, p. 198.
+
+
+M057 | Falha de fabricação e nova tentativa
+Definir. Antes do teste, anunciar atraso, retrabalho ou perda de material cabíveis, e o que permite
+tentar novamente.
+Limite da R53. Uma falha não destrói automaticamente todos os recursos. Trabalho rotineiro pode
+dispensar teste.
+Cap. 7, Fabricação, p. 198; Cap. 7, Tarefas e testes, p. 193.
+
+
+M058 | Receitas e produtos sobrenaturais
+Conferir. Verificar conhecimentos, ingredientes e efeito final de uma receita. Planejar a aquisição dos
+componentes especiais.
+Limite da R53. Treino em um Ofício não cria poderes por si; aparência copiada não reproduz o efeito
+de uma relíquia.
+Cap. 7, Fabricação, p. 198; Cap. 7, Ambiente e saúde, p. 195.
+
+
+M059 | Conserto, oficina e reconstrução
+Definir. Determinar o que pode ser aproveitado e quais peças, ferramentas, instalações e tempo o
+reparo requer.
+Limite da R53. Reparar restaura o projeto anterior. Melhorar números ou criar outra característica
+exige projeto permitido. Corpos com ficha de criatura usam seu procedimento.
+Cap. 7, Reparos, p. 199; Cap. 16, Cura e reparo, p. 368.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                        13
+CICLO MALDITO                                                                                Inventário para o Guia do Mestre | R53
+
+
+
+
+08. Equipamento e economia
+M060 | Uso criativo de objetos
+Aplicar. Conferir se o objeto serve, se pode ser manipulado naquela posição e se a tarefa exige ação,
+tempo e teste.
+Limite da R53. Ter uma ferramenta não concede vantagem ou sucesso automático sem regra própria.
+Cap. 8, Usar objetos, p. 202.
+
+
+M061 | Situação de proteção de Traje
+Aprovar. Avaliar uma situação alternativa proposta para a proteção do uniforme e registrar nome e
+aparência.
+Limite da R53. Precisa ser física, reconhecível e ocasional; não apenas uma tarefa nem algo presente
+em quase toda cena.
+Cap. 8, Trajes, p. 206.
+
+
+M062 | Armas de fogo e equipamento restrito
+Autorizar. Registrar a autorização, seu alcance, o fornecedor e eventuais condições de compra.
+Conferir os acessos de Revestimentos e munições.
+Limite da R53. A tabela de acesso não garante estoque. Autorização de arma comum não inclui
+ferramenta amaldiçoada equivalente.
+Cap. 8, Dinheiro e acesso, p. 221; Cap. 8, Armas, p. 211; Cap. 8, Reservas e reposição, p. 210.
+
+
+M063 | Baterias, consumíveis e autonomia
+Definir. Informar autonomia reduzida em tarefas intensas de telefone ou equipamentos e preparar
+oportunidades de recarga.
+Limite da R53. Consumíveis e cargas elétricas não se renovam por mudança de cena.
+Cap. 8, Itens comuns, p. 217.
+
+
+M064 | Cordas, kits, fechaduras e contenção
+Aplicar. Conferir apoio, carga, anatomia e instalação. Informar consequências extras de falha, como
+ruído ou alarme, antes do teste.
+Limite da R53. Uma falha comum não quebra gazuas automaticamente. Cordas não suprimem energia
+nem impõem condições extras por associação.
+Cap. 8, Exploração e ferramentas, p. 217; Cap. 8, Fechaduras e contenção, p. 218.
+
+
+M065 | Danificar objetos e materiais
+Definir. Antes do ataque, estabelecer parte atingida, capacidade de danificá-la, valores pertinentes e
+ajustes do material.
+Limite da R53. Cortar uma corda acessível pode dispensar ataque, gastando a ação. Objetos, estruturas
+e corpos construídos com ficha não são intercambiáveis.
+Cap. 8, Danificar objetos, p. 219.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                          14
+CICLO MALDITO                                                                               Inventário para o Guia do Mestre | R53
+
+
+
+M066 | Armas improvisadas
+Definir. Escolher uma referência adequada do catálogo ou aplicar o perfil improvisado. Determinar
+tipo de dano, possibilidade de arremesso e risco de quebra.
+Limite da R53. Forma e peso podem inviabilizar o golpe. Não há desgaste automático por ataque para
+todo objeto resistente.
+Cap. 8, Armas improvisadas, p. 221.
+
+
+M067 | Revenda, serviços e itens sem preço
+Combinar. Informar comprador, valor, condições de troca e custo de serviços ou objetos sem tabela
+antes da negociação.
+Limite da R53. Preço de catálogo não garante revenda. Itens gratuitos da criação não viram crédito de
+compra.
+Cap. 8, Compras e reposição, p. 224.
+
+
+M068 | Aquisição de ferramentas amaldiçoadas
+Definir. Decidir disponibilidade, empréstimo, recompensa ou venda e entregar a ficha completa do
+item. Quando houver Desgaste, contar missões conforme o uso e acompanhar a troca de portador sem
+reiniciar o contador.
+Limite da R53. Cumprir nível mínimo permite usar o efeito; não garante encontrar a ferramenta.
+Registrar requisitos, Volume, usos e Desgaste.
+Cap. 8, Graus das ferramentas, p. 226; Cap. 8, Aquisição e criação, p. 228; Cap. 8, Desgaste, p. 232.
+
+
+M069 | Ferramentas novas e identificação
+Criar junto. Escolher base compatível, grau, efeito e procedimento de aquisição. Definir quais pistas
+permitem conhecer um item desconhecido.
+Limite da R53. Uma especial não recebe um segundo efeito pelo nome do grau. Não existe descanso
+obrigatório universal de identificação.
+Cap. 8, Graus das ferramentas, p. 226; Cap. 8, Aquisição e criação, p. 228.
+
+
+M070 | Objetos amaldiçoados e selos
+Preparar. Definir atração de maldições, duração e alcance do selo, destino de entrega, cuidados e
+condições próprias de destruição.
+Limite da R53. O livro não fixa frequência ou distância da atração. Amuleto não dá imunidade geral e
+quebrar objetos comuns não resolve qualquer relíquia.
+Cap. 8, Objetos amaldiçoados, p. 233.
+
+
+M071 | Ingerir um objeto desconhecido
+Definir. Apresentar os riscos que o personagem pode conhecer e estabelecer as consequências próprias
+daquele objeto.
+Limite da R53. A ingestão não concede automaticamente poderes, uma Origem ou domínio sobre a
+presença contida.
+Cap. 8, Objetos amaldiçoados, p. 233; Cap. 5, Encarnado, p. 81.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                         15
+CICLO MALDITO                                                                    Inventário para o Guia do Mestre | R53
+
+
+
+
+09. Progressão, recompensas e registro
+M072 | XP em missão malsucedida
+Definir. Ao terminar, decidir entre metade da recompensa e nenhuma, conforme o que aconteceu.
+Limite da R53. Aplicar depois o desconto semanal individual. Zero continua zero.
+Cap. 9, Recompensas e custos, p. 235; Cap. 9, Experiência semanal, p. 236.
+
+
+M073 | Semana e fechamento das missões
+Organizar. Fixar dia e horário de reinício da semana e registrar cada conclusão de missão.
+Limite da R53. Missão de várias sessões conta uma vez; missão sem XP ainda ocupa posição semanal.
+Cap. 9, Experiência semanal, p. 236.
+
+
+M074 | Feitos do Limiar
+Conferir. Confirmar a ocorrência real dos feitos e registrar a evidência, inclusive a instituição
+destinatária quando a campanha não tiver guilda.
+Limite da R53. A lista é fechada. Não aceitar uma façanha por equivalência nem ameaças provocadas
+para cumprir o requisito.
+Cap. 9, Limiar do nível 20, p. 237.
+
+
+M075 | Recuperação ao subir de nível
+Autorizar. Decidir se aquela subida na mesa recupera vida e PE por completo. Conferir os aumentos
+normais da ficha.
+Limite da R53. A subida não é descanso; não limpa Integridade, Sequelas, condições ou usos. Vida zero
+ainda exige socorro.
+Cap. 9, Atualizar a ficha, p. 240.
+
+
+M076 | Reescrita e troca de Trilha
+Conferir. Registrar retiradas, aquisições e ajustes obrigatórios nas montagens que perderam
+permissão.
+Limite da R53. Ajuste obrigatório se limita às partes afetadas. Troca não cura, devolve PE ou reinicia
+consequências.
+Cap. 9, Repertório e novas escolhas, p. 240; Cap. 9, Trocar de Trilha, p. 241.
+
+
+M077 | Salário e remuneração por mestrar
+Combinar. Decidir se haverá salário, recompensas alternativas, participações mensais e recompensa
+por missões mestradas. Anunciar a política.
+Limite da R53. São políticas opcionais. Usar a patente do fechamento correto; uma marca de
+recompensa concluída não fica guardada para outro Grau.
+Cap. 9, Recompensas da guilda, p. 242.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                              16
+CICLO MALDITO                                                            Inventário para o Guia do Mestre | R53
+
+
+
+M078 | Promoções de patente
+Definir. O mestre ou a organização informa a promoção e registra o feito que a motivou.
+Limite da R53. Subida de nível, Limiar e posse de ferramenta não promovem automaticamente.
+Cap. 9, Patentes, p. 243.
+
+
+
+
+10. Fundamento e criação de capacidades
+M079 | Conceito e limites da técnica
+Criar junto. Escrever Descrição e Regra e conferir se cada função proposta cabe nesse funcionamento.
+Limite da R53. Comprar uma peça não altera automaticamente o conceito da técnica. Outra aparência
+não cria efeito adicional.
+Cap. 10, Sua técnica, p. 248; Cap. 4, Capacidades iniciais, p. 64.
+
+
+M080 | Famílias Livres e Fechadas
+Conferir. Relacionar a identidade da técnica às duas Livres, três Fechadas e acessos de cada função.
+Limite da R53. Família Fechada vale pela função mecânica, inclusive com outro nome. Aparência
+criativa continua disponível dentro dos acessos.
+Cap. 10, Famílias, p. 249; Cap. 10, Sua técnica, p. 248.
+
+
+M081 | Selo e exigências adicionais
+Combinar. Registrar um Selo reconhecível e avaliar dificuldades adicionais de cada feitiço. Revisar
+alterações do Selo com o jogador.
+Limite da R53. Selo custa zero e não devolve pontos. Exigência já obrigatória não financia outra
+Restrição.
+Cap. 10, Selo e Talentos, p. 250.
+
+
+M082 | Expressão e Uso Livre
+Aplicar. Distinguir detalhe de aparência e pequena manifestação de informação protegida, oposição ou
+vantagem funcional.
+Limite da R53. Acender uma vela pode resolver um problema simples. Invisibilidade, detecção, dano e
+bônus exigem as capacidades adequadas.
+Cap. 10, Selo e Talentos, p. 250; Cap. 10, Uso Livre, p. 265.
+
+
+M083 | Resolução, TR e tipos de dano
+Definir. Na montagem, escolher o TR apropriado e registrar atributo, tipos de dano e sua distribuição.
+Limite da R53. O TR e a divisão entre tipos não mudam após conhecer o alvo ou suas resistências.
+Cap. 10, Conjurar, p. 257; Cap. 10, Sua técnica, p. 248.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                      17
+CICLO MALDITO                                                                                 Inventário para o Guia do Mestre | R53
+
+
+
+M084 | Mesclas e Ampliação
+Conferir. Registrar destinatários, dependências e resolução de cada função. Preparar as distribuições
+por Classe usadas na sessão.
+Limite da R53. Cada linha mantém sua distribuição. Ampliar conserva Forma, funções, compras e
+Restrições; vagas extras não acrescentam novas peças.
+Cap. 10, Combinar peças, p. 259; Cap. 10, Ampliar um feitiço, p. 267.
+
+
+M085 | Efeito Próprio: operação e preço
+Aprovar. Comparar com peças semelhantes e registrar resultado, alvos, aplicação, oposição, ação,
+duração, saída e preço. Exigir exemplo de funcionamento e de limite.
+Limite da R53. A proposta conta nas compras normais. Uma criatura com atuação própria exige
+Invocações, mesmo descrita como um efeito.
+Cap. 10, Efeitos próprios, p. 270; Cap. 11, Efeito Próprio, p. 291; Cap. 11, Perseguir, p. 285.
+
+
+M086 | Família e desconto da criação própria
+Definir. Escolher a Família pela função mecânica; se nenhuma servir, registrar preço integral e
+ausência de desconto.
+Limite da R53. A classificação não pode contornar uma Família Fechada.
+Cap. 10, Efeitos próprios, p. 270; Cap. 11, Efeito Próprio, p. 291.
+
+
+M087 | Repetir ou reunir Melhorias
+Aprovar. Para peças próprias, combinar número de compras, preço e acréscimo de cada repetição.
+Avaliar eventual redução específica de pontos ou espaço.
+Limite da R53. Aprovação da peça não aprova repetição. Benefícios independentes pagam e contam
+separadamente, salvo exceção explicitamente registrada.
+Cap. 10, Pontos e preços, p. 252; Cap. 10, Efeitos próprios, p. 270; Cap. 11, Efeito Próprio, p. 291.
+
+
+M088 | Restrições próprias e Condicional
+Aprovar. Definir exigência, momento, duração, devolução e compatibilidade. Em Condicional, fechar
+distância e o que satisfaz a condição.
+Limite da R53. O impedimento precisa dificultar o uso, permanecer após as Melhorias e não repetir
+um custo já obrigatório.
+Cap. 10, Restrições, p. 258; Cap. 11, Condicional, p. 295; Cap. 11, Restrição Própria, p. 296.
+
+
+M089 | Revisão após três sessões
+Revisar. Contar sessões em que o feitiço foi usado e rever a Restrição depois de três; substituir a que
+nunca dificultou o uso.
+Limite da R53. A revisão incide no efeito real da exigência. Não é uma autorização para trocar a ficha a
+cada conjuração.
+Cap. 10, Restrições, p. 258; Cap. 17, Restrições da entidade, p. 388.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                           18
+CICLO MALDITO                                                                              Inventário para o Guia do Mestre | R53
+
+
+
+M090 | Efeito fora de combate
+Aprovar. Registrar escala, extensão, duração, custo e encerramento, inclusive o que ocorre se começar
+um combate.
+Limite da R53. Benefícios sobre testes, ataques ou ações exigem capacidade correspondente. Sobras
+não geram dano, cura ou vida temporária por associação.
+Cap. 10, Efeitos fora de combate, p. 266; Cap. 10, Feitiços de Classe 0, p. 269.
+
+
+M091 | Controle próprio e cancelamento de outros efeitos
+Definir. Conferir estados, TRs e saídas de uma peça própria. Atribuir Classe de 1 a 7 a outras
+aplicações para Desarma o Feitiço, ou determinar impossibilidade de cancelar.
+Limite da R53. Reforços de Controle só alcançam efeitos compatíveis. Domínios não são alvos de
+Desarma o Feitiço.
+Cap. 10, Controle, p. 261; Cap. 11, Desarma o Feitiço, p. 281.
+
+
+M092 | Conferência prática antes da sessão
+Conferir. Simular um uso válido e um caso em que a ficha não funciona, pagando ações e recursos e
+resolvendo cada parte.
+Limite da R53. Completar qualquer decisão necessária antes de aprovar a ficha. Correções devem ficar
+disponíveis a outros mestres.
+Cap. 10, Ficha de feitiço, p. 277; Cap. 10, Montar sua aplicação, p. 245.
+
+
+
+
+11. Talentos, Aptidões e rotas
+M093 | Talento Próprio
+Aprovar. Comparar o resultado com a Categoria adequada e registrar aquisição, ação, custo, frequência
+e limites.
+Limite da R53. CE1 a CE3 usam seus custos e requisitos. Não conceder bônus permanentes irrestritos,
+ações contínuas extras, imunidade geral, cura ilimitada ou acesso a Família Fechada.
+Cap. 11, Talento Próprio, p. 300; Cap. 11, Talentos de Categoria 1, p. 296; Cap. 17, Exemplo: Vigia de papel, p. 391.
+
+
+M094 | Regra Própria
+Criar junto. Definir gatilho verificável, simetria, consequência sem dano direto e limite por cena.
+Conferir a aquisição própria dessa opção.
+Limite da R53. A simetria não torna qualquer efeito adequado à Categoria. Uma aposta precisa ser
+genuína e aceita por ambos.
+Cap. 11, Regra Própria, p. 299.
+
+
+M095 | Aptidão Própria e semente de Sem Técnica
+Aprovar. Definir o tamanho do efeito e comparar frequência real, magnitude, ação, alvos e alcance.
+Registrar mudanças posteriores.
+Limite da R53. Uma Aptidão Própria por ficha, CE1 ou CE2. A semente própria de Sem Técnica
+consome essa opção; não cria uma segunda.
+Cap. 12, Aptidão Própria, p. 313; Cap. 13, Sementes, p. 324.
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                        19
+CICLO MALDITO                                                                             Inventário para o Guia do Mestre | R53
+
+
+
+M096 | Bênção Própria
+Aprovar. Definir um feito corporal ou outra capacidade admitida, com gatilho e limites, e adquirir pela
+escolha de Bênção.
+Limite da R53. Uma por personagem, CE1 ou CE2, respeitando Lapidação. Efeito que exige CE3
+precisa ser reduzido ou substituído.
+Cap. 13, Bênção Própria, p. 334.
+
+
+M097 | Manejos, Katas e equipamento de origem
+Criar junto. Conferir semente ou rota permanente, Regra, Selo, Famílias e requisitos. Na rota de
+ferramenta, preparar a ferramenta de grau 4 e seu atributo de controle.
+Limite da R53. Trocar nomes não remove custos. Ferramenta usada como proteção conserva categoria
+e acesso; não soma outra camada defensiva.
+Cap. 13, Como montar Manejos e Katas, p. 315; Cap. 13, Técnica Marcial, p. 317; Cap. 13, Sem Técnica, p. 323; Cap. 13,
+Ferramenta, p. 318.
+
+
+M098 | Cortina: condição e bordas
+Conferir. Registrar local contínuo, bordas e uma condição verificável de passagem, incluindo direção e
+exceções pretendidas.
+Limite da R53. Os tetos por Refino e a vida já estão definidos. Cortina não concede dano na travessia,
+defesa geral ou vedação completa de Barreira Simples.
+Cap. 12, Cortina, p. 312.
+
+
+M130 | Aprendizado narrativo de aptidões
+Conferir. Registrar instrutor, demonstração presenciada ou estudo admitido pela entrada. Preparar na
+história o acesso necessário a Domínio Simples, Pétala ou Extensão de Domínio.
+Limite da R53. A origem do aprendizado acompanha a ficha entre mesas. Não substitui nível ou Refino
+nem cria requisito adicional oculto de Categoria. Sementes conservam as exigências de uso e
+aprendizagem previstas na rota.
+Cap. 12, Catálogo de aptidões, p. 303; Cap. 12, Domínio Simples, p. 309; Cap. 12, Pétala, p. 310; Cap. 12, Extensão de Domínio,
+p. 311; Cap. 13, Sem Técnica, p. 323.
+
+
+
+
+12. Técnica Máxima e Expansão de Domínio
+M099 | Máxima de ataque, cura ou utilidade
+Criar junto. Fechar função, resultado principal, requisitos e limites antes da sessão. Avaliar efeitos
+próprios de utilidade e versões que só possam existir como Máxima.
+Limite da R53. Escolha e orçamento permanecem registrados. Sobras e dados descartados não viram
+outros benefícios. Ōgi segue a mesma referência e seus requisitos de rota.
+Cap. 10, Técnica Máxima, p. 272; Cap. 13, Técnica Marcial, p. 317.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                       20
+CICLO MALDITO                                                                           Inventário para o Guia do Mestre | R53
+
+
+
+M100 | Recarga opcional de Máxima
+Autorizar. Decidir se haverá outro uso após a espera de três rodadas completas, além dos recursos
+normais.
+Limite da R53. O padrão é uma vez por cena. O mesmo cuidado vale à Máxima da maldição domada;
+sair e voltar não renova o uso.
+Cap. 10, Técnica Máxima, p. 272; Cap. 16, Técnica Máxima da domada, p. 369.
+
+
+M101 | Criação do domínio e execução em outra mesa
+Criar junto. Separar Acerto, Efeito e aparência; definir destinatários, oposição, origem, ação, custo,
+duração e encerramento da capacidade.
+Limite da R53. Aparência não concede vantagens extras. Uma regra de ambiente precisa ser
+verificável; o Acerto informativo não revela fatos desconhecidos.
+Cap. 14, Expansão de Domínio, p. 336; Cap. 14, Criar um domínio, p. 337; Cap. 14, Acerto do domínio, p. 338.
+
+
+M102 | Domínio, aliados e proteções
+Conferir. Registrar se e como a ficha poupa aliados, alcança objetos ou seres sem energia e interage
+com proteções específicas.
+Limite da R53. Poupar aliados não é automático. Proteção contra Acerto não remove por si o Efeito, a
+barreira ou benefícios do dono.
+Cap. 14, Acerto do domínio, p. 338; Cap. 14, Proteção contra domínios, p. 338; Cap. 13, Defesa sem Armadura, p. 330.
+
+
+
+
+13. Pactos e Promessas
+M103 | Aprovação de uma troca
+Aprovar. Fechar preço, benefício, duração e condições de cumprimento e avaliar o tamanho do ganho
+pela régua.
+Limite da R53. Pactos são opcionais, exigem aceitação voluntária e não se fecham sob ameaça. A régua
+não converte qualquer sacrifício em qualquer resultado.
+Cap. 15, Pactos, p. 352.
+
+
+M104 | Permanente e pacto de energia
+Criar junto. Escrever uma mecânica única e, quando envolver quantidade de energia, definir a
+porcentagem do máximo e o procedimento.
+Limite da R53. Não concede Estilo, níveis ou bônus numéricos diretos. Permanente e restrição ocupam
+as vagas; Promessa e temporário ficam fora.
+Cap. 15, Pacto permanente, p. 353.
+
+
+M105 | Temporário em resposta a gatilho
+Aprovar. Na hora do uso, conferir gatilho percebido, perda real, benefício exato e prazos
+independentes. Preparar modelos antes da sessão.
+Limite da R53. No turno usa Bônus; fora dele, Reação depois dos dados e antes das consequências. Não
+refaz uma rolagem e pode ter perda permanente.
+Cap. 15, Pacto temporário, p. 354.
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                     21
+CICLO MALDITO                                                                              Inventário para o Guia do Mestre | R53
+
+
+
+M106 | Revelação de informação como preço
+Conferir. Verificar se a explicação entrega algo novo, verdadeiro, relevante e compreensível.
+Limite da R53. Informação falsa ou já conhecida não paga o preço de revelar uma técnica. Usar os
+turnos e limites do exemplo aplicável.
+Cap. 15, Pacto temporário, p. 354; Cap. 15, Exemplos de pacto, p. 356.
+
+
+M107 | Promessa e autoridade das partes
+Conferir. Confirmar autonomia, consentimento, capacidade de cumprir e autoridade de quem
+representa uma instituição.
+Limite da R53. Invocação sem vontade própria não é segunda parte. Uma Promessa não obriga
+ausentes nem concede capacidades que ninguém possui.
+Cap. 15, Promessa, p. 355.
+
+
+M108 | Cláusulas e quebra da Promessa
+Combinar. Escrever obrigações, prazo, exceções, quebra e punição; esclarecer leituras divergentes
+antes do acordo.
+Limite da R53. Não acrescentar depois uma cláusula não aceita. Ambiguidade de redação não deve
+virar punição inesperada.
+Cap. 15, Promessa, p. 355.
+
+
+M109 | Pacto de restrição na criação
+Autorizar. Identificar onde a limitação já foi contabilizada e decidir a exceção de existência sem vaga.
+Limite da R53. Não concede segundo benefício nem acesso proibido à rota.
+Cap. 15, Pactos na criação, p. 355; Cap. 15, Pacto permanente, p. 353.
+
+
+M110 | Ideias ainda sem procedimento e Overtime
+Desenvolver. Fechar as sete ideias da tabela antes de permitir uso, incluindo relação com vida,
+Integridade e PE. No Overtime, combinar a jornada fixa ao criar o pacto.
+Limite da R53. As ideias são propostas sem benefício adquirido. Jornada de Overtime não muda
+depois; descanso curto e longo seguem as regras do exemplo.
+Cap. 15, Pactos na criação, p. 355; Cap. 15, Exemplos de pacto, p. 356.
+
+
+
+
+14. Invocações e entidades de criação
+M111 | Aquisição e definição da entidade
+Conferir. Registrar origem, corpo, nível, anatomia, sentidos, comunicação e o vínculo com a técnica ou
+rota.
+Limite da R53. Asas desenhadas não concedem voo; aparência não compra poderes. Entidades por
+criação ou doma não exigem técnica de invocação nem espaço só por existir.
+Cap. 17, Criar uma invocação, p. 376; Cap. 17, Adquirir entidades, p. 377; Cap. 17, Definição e corpo, p. 380.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                        22
+CICLO MALDITO                                                                                Inventário para o Guia do Mestre | R53
+
+
+
+M112 | Lista de ritual e submissão individual
+Criar junto. Fechar o feitiço de lista, a ficha de cada entrada, o desafio, início, término e resultado da
+submissão.
+Limite da R53. O desafio é individual. Novas entradas exigem a permissão escrita da técnica. Pontos de
+Ritual não substituem a aquisição.
+Cap. 17, Lista de ritual e criação, p. 379.
+
+
+M113 | Doma e ficha jogável resultante
+Preparar. Antes da tentativa, preparar e mostrar a ficha de entidade resultante, convertendo a maldição
+à escala de construção e atuação.
+Limite da R53. O mestre pode permitir que o jogador monte a conversão. Ações extras de inimigo não
+passam automaticamente à domada.
+Cap. 17, Domar uma maldição, p. 379; Cap. 17, Conferência da ficha, p. 392.
+
+
+M114 | Doma antes da derrota
+Autorizar. Decidir se há tentativa antecipada e qual quantidade de vida a permite.
+Limite da R53. Não existe requisito geral de metade da vida. Conservar ação, TR e resultados da doma.
+Cap. 17, Domar uma maldição, p. 379.
+
+
+M115 | Famílias e poderes próprios da entidade
+Conferir. Relacionar as três Famílias abertas, uma Livre e as capacidades à definição. Aprovar Efeito
+ou Talento Próprio quando necessário.
+Limite da R53. Usar orçamento, desconto e efeitos reduzidos da entidade. Efeito sem Família
+adequada não copia uma Fechada.
+Cap. 17, Famílias da entidade, p. 383; Cap. 17, Habilidades especiais, p. 384; Cap. 17, Controle e utilidade, p. 387; Cap. 17,
+Características próprias, p. 390.
+
+
+M116 | Transporte, passageiros e armazenamento
+Aprovar. Definir capacidade do talento, quantidade de passageiros, anatomia e custo de movimento.
+Conferir equipamentos que acompanham a saída.
+Limite da R53. Carga adicional ou passageiros exigem característica própria que ocupe talento.
+Objetos carregados para terceiros ou apanhados caem ao sair de campo.
+Cap. 16, Carga e equipamento, p. 374.
+
+
+M117 | Tarefa e autonomia em campo
+Aplicar. Conferir se a intenção indica alvo, lugar ou grupo reconhecível e se a entidade pode executar a
+tarefa.
+Limite da R53. Sem tarefa executável, cuida da segurança pelos limites escritos. Não escolhe uma
+especial nova sozinha nem recebe atuação extra por descrição.
+Cap. 16, Dar uma tarefa, p. 360; Cap. 16, Ordens pendentes, p. 363; Cap. 16, Invocador inconsciente, p. 372.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                           23
+CICLO MALDITO                                                                                 Inventário para o Guia do Mestre | R53
+
+
+
+M118 | Morte do invocador e entidades livres
+Assumir controle. Conduzir a conduta de maldição libertada e de corpo autônomo com alma quando
+passarem ao controle do mestre.
+Limite da R53. Não continuam obedecendo só porque a última intenção estava registrada. Criações
+conservam seu estado e exigem transferência de vínculo.
+Cap. 16, Morte do invocador, p. 373.
+
+
+M119 | Autorização, custo e tempo de criação
+Definir. Decidir quando uma entidade pode ser construída e o custo de tempo e materiais; definir
+invocador e responsável antes do teste.
+Limite da R53. Cada entidade exige tentativa própria. A Classe não pode superar a do criador nem a do
+invocador.
+Cap. 17, Criação de entidades, p. 393; Cap. 17, Teste de criação, p. 393; Cap. 17, Lista de ritual e criação, p. 379.
+
+
+M120 | Ajuda e vantagem nos testes de criação
+Autorizar. Conferir o ajudante treinado no ofício compatível, sua participação pelo mesmo tempo e a
+compatibilidade da ajuda.
+Limite da R53. Vantagens ativadas, temporárias ou por cena não valem. Permanecem a vantagem
+permanente permitida e a da nova tentativa após falha.
+Cap. 17, Teste de criação, p. 393.
+
+
+M121 | Reconstrução, transferência e novas tentativas
+Autorizar. Aprovar quando pode ocorrer a nova tentativa após falha e registrar reconstrução de Classe,
+transferência ou herança.
+Limite da R53. Aplicar as dificuldades e limites publicados. Transferir não restaura vida, energia, usos
+ou estado do talismã/corpo.
+Cap. 17, Conclusão, evolução e transferência, p. 394.
+
+
+M122 | Conferência e evolução da ficha de invocação
+Conferir. Antes da sessão, fechar ficha, comunicação, comandos, custos e limites; atualizar nível,
+atributos e capacidades pelos procedimentos de evolução.
+Limite da R53. Criadas acompanham o invocador até o teto da Classe; domadas conservam seu nível.
+Ajustes posteriores precisam do registro acordado.
+Cap. 17, Conferência da ficha, p. 392; Cap. 17, Progressão da entidade, p. 382; Cap. 17, Conclusão, evolução e transferência, p.
+394.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                           24
+CICLO MALDITO                                                                                Inventário para o Guia do Mestre | R53
+
+
+
+
+15. Preparar, conduzir e encerrar a sessão
+M123 | Situação, lugares e pistas
+Preparar. Definir acontecimento, objetivo reconhecível, acessos, saídas, pessoas, pistas e o que piora se
+ninguém agir.
+Limite da R53. O grupo escolhe os meios de enfrentar o problema; uma boa abordagem não exige um
+obstáculo criado apenas para anulá-la.
+Cap. 18, Preparar uma missão, p. 396.
+
+
+M124 | Fichas de perigos e encontros
+Preparar. Ter fichas completas, regras e sinais reconhecíveis antes da sessão, incluindo sentidos,
+movimento e resistências.
+Limite da R53. A descrição de uma maldição e um quadro de resolução guiada não substituem a ficha
+para um encontro aberto.
+Cap. 18, Preparar uma missão, p. 396; Cap. 4, Exemplo: Resgate na ala oeste, p. 66.
+
+
+M125 | Informação e ritmo na mesa
+Conduzir. Descrever o que pode ser percebido e os riscos previsíveis, alternar o foco e manter
+iniciativa, posições e durações visíveis.
+Limite da R53. Resolver a rolagem e suas consequências antes de iniciar outra reduz dúvidas sobre
+intervenções.
+Cap. 18, Mestrar uma sessão, p. 397.
+
+
+M126 | Dúvida de regra durante a sessão
+Combinar. Consultar a capacidade e o procedimento geral; se a dúvida persistir, adotar uma decisão
+para a sessão e registrar o trecho divergente.
+Limite da R53. Comunicar correções posteriores às pessoas afetadas e distinguir decisão de regra de
+acontecimento da aventura.
+Cap. 18, Mestrar uma sessão, p. 397.
+
+
+M127 | Fechamento e passagem entre mestres
+Registrar. Conferir com os jogadores recursos, recompensas, empréstimos, Pactos e consequências,
+usando um registro comum.
+Limite da R53. O próximo mestre precisa receber a versão e o estado da ficha. Trocar de mesa não
+reinicia recursos ou consequências.
+Cap. 18, Mestrar uma sessão, p. 397; Cap. 1, Jogadores e mestre, p. 7.
+
+
+M129 | Perigos ambientais e efeitos não tabelados
+Preparar. Dar a cada perigo de cenário um procedimento concreto: sinais, área, ritmo, teste ou ataque,
+dano e condições, quando houver. Usar as escalas e os procedimentos existentes.
+Limite da R53. A R53 não faz o tipo de dano conceder condições ou consequências extras por si. Fogo
+não mantém queimadura automática e uma descrição não autoriza dano novo a cada turno.
+Cap. 18, Preparar uma missão, p. 396; Cap. 2, Testes, p. 14; Cap. 3, Tipos de dano, p. 46.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                          25
+CICLO MALDITO                                                                                Inventário para o Guia do Mestre | R53
+
+
+
+
+Referências de regras já fechadas
+Estas regras precisam aparecer nas orientações e nos exemplos do Guia. Elas já possuem procedimento
+na R53. Uma autorização dada para uma criação específica não altera automaticamente o restante do
+sistema.
+
+Bloquear
+A escolha ocorre antes do d20 do atacante e não custa Reação. O momento próprio de Ataque sem
+Prenúncio permanece registrado.
+Cap. 2, Bloquear, p. 25; Cap. 5, Ataque sem Prenúncio, p. 93.
+
+Teste de grupo
+Pelo menos metade dos participantes precisa passar. A ocultação em combate continua individual.
+Cap. 2, Treino e modificadores, p. 15; Cap. 2, Esconder, p. 37.
+
+Origens personalizadas
+Menores e Legados de história podem ser construídos em conjunto. A criação da marcante tem apenas
+a exceção expressa da Restrição corporal.
+Cap. 5, Personalizar sua Origem, p. 100.
+
+Cura e Morrendo
+Cura respeita o tratamento da queda; vida temporária não conta como tratamento. Remoção genérica
+de condições não encerra Morrendo.
+Cap. 3, Socorro, p. 55; Cap. 11, Limpa Fundo, p. 284.
+
+Descansos
+Curto exige pausa segura; longo exige encerramento da missão e oportunidade de repousar. O
+ambiente é conferido separadamente.
+Cap. 3, Descansos, p. 58.
+
+Ampliação
+Conserva a montagem; linhas de mescla são preparadas por Classe. Novas Melhorias não entram pelas
+vagas adicionais durante Ampliar.
+Cap. 10, Ampliar um feitiço, p. 267.
+
+Exceção da progressão da Máxima
+Nos níveis 21 e 26, a regra da Máxima permite acrescentar peças se houver pontos e vagas. Essa
+permissão pertence àquela progressão.
+Cap. 10, Técnica Máxima, p. 272.
+
+Toque, Aura e Queima-Roupa
+Toque devolve Leve fora das vagas comuns; Aura custa Leve. Queima-Roupa tem devolução e alcance
+próprios por Forma.
+Cap. 10, Formas, p. 255; Cap. 11, Queima-Roupa, p. 292.
+
+Função e Forma
+Cura e vida temporária são funções. Área coletiva exige os acessos adequados. Forma Fluida conserva
+as funções da ficha.
+Cap. 10, Funções e saldo, p. 253; Cap. 10, Famílias, p. 249; Cap. 6, Forma Fluida, p. 140.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                          26
+CICLO MALDITO                                                                             Inventário para o Guia do Mestre | R53
+
+
+
+Aptidão Própria
+Há uma por ficha. A semente própria de Sem Técnica ocupa essa opção.
+Cap. 12, Aptidão Própria, p. 313; Cap. 13, Sementes, p. 324.
+
+Vagas de Pacto
+Permanente e restrição contam. Promessas e temporários ficam fora; a exceção sem vaga do pacto de
+restrição exige autorização.
+Cap. 15, Pacto permanente, p. 353; Cap. 15, Pactos na criação, p. 355.
+
+Invocações
+Aparência não concede recursos extras. Intenção, comandos, atuações e reação coletiva seguem suas
+regras.
+Cap. 16, Dar uma tarefa, p. 360; Cap. 16, Comandar uma especial, p. 362; Cap. 17, Definição e corpo, p. 380.
+
+Evolução de entidades
+Criadas acompanham o invocador até o teto da Classe, depois pedem reconstrução. Domadas
+conservam o nível de aquisição.
+Cap. 17, Conclusão, evolução e transferência, p. 394.
+
+Requisitos de aprendizado
+Registro de instrutor ou demonstração não substitui nível e Refino. Não criar requisito oculto pela
+classificação de CE.
+Cap. 12, Catálogo de aptidões, p. 303.
+
+Tipos de dano
+O nome do dano não cria condição, dano recorrente ou destruição de equipamento por si.
+Cap. 3, Tipos de dano, p. 46.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                       27
+CICLO MALDITO                                                                               Inventário para o Guia do Mestre | R53
+
+
+
+
+Frentes para desenvolver no Guia do Mestre
+As frentes seguintes orientam a escrita futura. O status separa orientações, material adicional e a
+definição de regra que ainda precisa ser fechada pelo autor. Exemplos e tabelas inéditos deverão ser
+apresentados como propostas até sua aprovação.
+
+Surpresa e Instinto
+Definição de regra pendente. Instinto protege contra surpresa, mas a R53 não publica um
+procedimento geral de surpresa. Antes de dar efeitos a esse termo, o autor precisa definir o que ele faz,
+quando é verificado e como Instinto interfere. Furtividade, visibilidade e iniciativa continuam com
+suas regras atuais.
+Cap. 11, Talentos de Categoria 1, p. 296; Cap. 17, Talentos da entidade, p. 389; Cap. 2, Esconder, p. 37; Cap. 2, Turnos, p. 17.
+
+Convivência do Receptáculo
+Desenvolvimento prometido expressamente. O livro informa que o Guia de Mestres aprofundará a
+relação entre ocupante e hospedeiro. Desenvolver acordos de interpretação, conflitos e mudanças de
+relação preservando a ausência de tomada automática de controle.
+Cap. 5, Menores do Receptáculo, p. 74.
+
+Tempo, materiais e acesso para criar entidades
+Desenvolvimento prometido expressamente. A R53 entrega ao mestre a oportunidade e o custo de
+criação e anuncia o tratamento desse assunto no livro de mestres. Preparar referências de projeto,
+materiais, tempo, reconstrução e novas tentativas. Qualquer tabela numérica nova precisará de
+aprovação do autor.
+Cap. 17, Criação de entidades, p. 393; Cap. 17, Teste de criação, p. 393; Cap. 17, Conclusão, evolução e transferência, p. 394.
+
+Preços de criações próprias
+Orientação a desenvolver. Produzir exemplos comparados e fichas de decisão para Efeitos, Talentos,
+Aptidões, Bênçãos e CE4. Preservar as diferenças de aquisição e seus limites. Criar precedentes
+reutilizáveis sem reduzir a liberdade de propor outras soluções.
+Cap. 10, Efeitos próprios, p. 270; Cap. 11, Talento Próprio, p. 300; Cap. 12, Aptidão Própria, p. 313; Cap. 13, Bênção Própria, p.
+334; Cap. 5, Talento de Categoria de Efeito 4, p. 96.
+
+Encontros e fichas de inimigos
+Material adicional de mestragem. Desenvolver construção e escolha de ameaças, composição de
+encontros e testes com grupos de tamanhos diferentes. A R53 exige fichas completas, mas o inventário
+não fornece uma régua inédita de dificuldade de combate. Consultar e validar o material próprio de
+Bestiário antes de integrá-lo.
+Cap. 18, Preparar uma missão, p. 396; Cap. 4, Exemplo: Resgate na ala oeste, p. 66.
+
+Perigos ambientais
+Material adicional de mestragem. Preparar perigos com sinais, ritmo, CD, consequências e formas de
+intervenção. Diferenciar dano de Fogo de uma regra que mantém incêndio, por exemplo. Uma nova
+tabela de dano ou doença deve ser aprovada como conteúdo novo.
+Cap. 2, Testes, p. 14; Cap. 2, Concentração, p. 21; Cap. 3, Tipos de dano, p. 46; Cap. 18, Preparar uma missão, p. 396.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                             28
+CICLO MALDITO                                                                               Inventário para o Guia do Mestre | R53
+
+
+
+Projetos comuns e ferramentas amaldiçoadas
+Orientação a desenvolver. Oferecer projetos comentados, fornecedores e recompensas. Usar os custos
+de cada exemplo como referências locais. A R53 não define desconto universal de fabricação nem preço
+universal de ferramenta amaldiçoada.
+Cap. 7, Fabricação, p. 198; Cap. 7, Reparos, p. 199; Cap. 8, Aquisição e criação, p. 228.
+
+Preço real de Pactos e quebra de Promessas
+Orientação a desenvolver. Reunir modelos com gatilho, benefício, perda, prazo e punição verificáveis.
+Esclarecer em cada acordo o que significa perder energia e quais consequências são permanentes. Não
+introduzir cláusulas depois da aceitação.
+Cap. 15, Pactos, p. 352; Cap. 15, Pacto temporário, p. 354; Cap. 15, Promessa, p. 355.
+
+Submissão e conversão de maldições
+Orientação a desenvolver. Fornecer exemplos de desafio individual e conversão da ficha de inimigo
+para entidade, apresentados antes da tentativa. A autorização antecipada de doma continua uma opção
+do mestre.
+Cap. 17, Lista de ritual e criação, p. 379; Cap. 17, Domar uma maldição, p. 379.
+
+Retirada, captura e continuidade após derrota
+Orientação a desenvolver. Preparar consequências de missão e retomadas que usem Derrotado e os
+riscos previamente comunicados. Se o Guia introduzir ressurreição ou outra saída ainda ausente,
+tratá-la como regra nova sujeita à aprovação.
+Cap. 3, Derrota e morte, p. 57; Cap. 18, Preparar uma missão, p. 396.
+
+Missões investigativas e respostas dos PNJs
+Material adicional de mestragem. Desenvolver exemplos de pistas, conversas, caminhos alternativos,
+pressão de tempo e consequências de recuo. Mostrar como um sucesso informa o que a percepção
+permite, conservando decisões dos personagens.
+Cap. 2, Estudar, p. 39; Cap. 7, Investigação e conhecimento, p. 194; Cap. 18, Preparar uma missão, p. 396; Cap. 18, Mestrar uma
+sessão, p. 397.
+
+Governança e registros da guilda
+Orientação a desenvolver. Definir processo de aprovação de fichas, circulação de decisões, versões
+válidas, promoção e fechamento de recompensas. Preservar as fichas e recursos entre mestres;
+estabelecer responsáveis pela comunicação de correções.
+Cap. 1, Jogadores e mestre, p. 7; Cap. 9, Recompensas da guilda, p. 242; Cap. 9, Patentes, p. 243; Cap. 18, Mestrar uma sessão,
+p. 397.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                         29
+CICLO MALDITO                                                          Inventário para o Guia do Mestre | R53
+
+
+
+
+Estrutura sugerida para o Guia
+A proposta abaixo organiza o material pelo trabalho de preparar e conduzir uma mesa. O Guia de D&D;
+pode servir como referência de apresentação e exemplos. As regras e escalas usadas precisam continuar
+sendo as do Ciclo Maldito.
+
+01. Conduzir o grupo
+Acordos, instituição, época, participação e passagem entre mestres.
+
+02. Preparar missões
+Objetivo, pessoas, lugares, pistas, ameaças e consequências.
+
+03. Resolver situações
+Testes, informação, interação social, movimento e usos criativos.
+
+04. Perigos e encontros
+Fichas, composição de ameaças, ambiente e exemplos de condução.
+
+05. Recursos e consequências
+Cenas, Exaustão, descansos, socorro, derrota e continuidade.
+
+06. Aprovar personagens
+Origens, menores, vínculos, Restrição corporal e aprendizagem.
+
+07. Aprovar técnicas e poderes
+Fundamento, criações próprias, rotas, Máximas e Domínios.
+
+08. Ofícios e recompensas
+Projetos, ferramentas, objetos, acesso, dinheiro e progressão.
+
+09. Pactos e entidades
+Acordos, Promessas, submissão, conversão, criação e herança.
+
+10. Anexos de trabalho
+Fichas de aprovação, precedentes e registros comuns da guilda.
+
+Prioridade de escrita
+Começar pelas decisões já prometidas ao livro de mestres: Receptáculo e criação de entidades. Em
+seguida, preparar o processo de aprovação de capacidades e os exemplos de missão. As fichas e
+procedimentos de encontro podem acompanhar essa etapa, usando material próprio validado.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                    30
+CICLO MALDITO                                                                      Inventário para o Guia do Mestre | R53
+
+
+
+
+Modelos de registro
+Aprovação de uma capacidade
+• Nome, personagem e versão da ficha
+• Regra que permite a aquisição e requisitos cumpridos
+• Resultado, alvos, alcance e obstáculos
+• Ação, custo, gatilho e frequência
+• Resolução, duração, encerramento e saídas
+• Preço, Família, parcelas e limites
+• Referência comparada e motivo da decisão
+• Exemplo de uso e exemplo em que não funciona
+• Responsável, data e condição para reavaliar
+Os campos organizam o registro. Obrigações novas de campanha precisam ser anunciadas e combinadas.
+
+
+Decisão durante uma sessão
+• Situação observada e dúvida concreta
+• Trechos consultados e leituras possíveis
+• Decisão válida para a sessão
+• Pessoas e fichas afetadas
+• Ação posterior: esclarecer, corrigir ou propor regra
+• Responsável por comunicar o resultado
+Os campos organizam o registro. Obrigações novas de campanha precisam ser anunciadas e combinadas.
+
+
+Fechamento de missão
+• Personagens, versões de ficha e recursos finais
+• Vida, PE, Integridade, condições e recuperação
+• XP, posição semanal, feitos e patente
+• Dinheiro, equipamentos, empréstimos e Desgaste
+• Pactos, Promessas, obrigações e prazos
+• Estado das entidades, carga e vínculo
+• Consequências de história e informações do próximo mestre
+Os campos organizam o registro. Obrigações novas de campanha precisam ser anunciadas e combinadas.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                31
+CICLO MALDITO                                                                         Inventário para o Guia do Mestre | R53
+
+
+
+
+Organização do repositório
+Recomendação: manter o Guia no mesmo repositório de fontes do sistema. Criar uma pasta própria
+para seus capítulos, decisões e geração do documento. Compartilhar as referências de regras,
+identificadores e recursos visuais.
+Os livros dependem da mesma progressão, economia e criação de capacidades. Revisões conjuntas
+podem atualizar uma regra e suas orientações de aplicação no mesmo histórico. Cada publicação deve
+informar a revisão do livro-base com que é compatível.
+As saídas podem ter nomes e links separados. O repositório atual de publicação dos PDFs pode receber
+uma pasta para o Guia; não é necessário criar outro repositório só para ter uma segunda URL.
+Uma separação de repositório passa a ser útil se houver equipes com permissões diferentes, conteúdo
+de preparação que precise ficar privado ou um ciclo editorial independente. Nesse caso, será preciso
+definir como sincronizar as referências do sistema.
+
+Referências técnicas
+GitHub Docs: releases e tags. Tags permitem marcar pontos específicos do histórico. GitHub Docs: filtros de caminhos. Uma
+geração automatizada pode ser acionada pelas pastas que mudaram.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                   32
+CICLO MALDITO                                                                              Inventário para o Guia do Mestre | R53
+
+
+
+
+Cobertura e conferências
+Base conferida: texto completo da R53 e PDF claro de 411 páginas. A matriz de cobertura acompanha
+576 blocos dos 21 capítulos. O inventário final usa 180 blocos de referência em 130 entradas.
+
+Passada inicial
+Varredura integral do texto e das tabelas para localizar decisões, acordos, aprovações e remissões ao
+mestre. Os candidatos foram separados de permissões concedidas apenas por habilidades.
+
+Primeira revisão adicional
+Busca complementar por procedimentos próprios, escolhas de criação, custos de fabricação e tarefas de
+condução. Conferência de requisitos e limites nos trechos de contexto.
+
+Segunda revisão adicional
+Confronto do inventário com as menções diretas ainda sem referência, revisão de limites e distinção de
+propostas futuras. Foram acrescentados os empates entre inimigos, perigos ambientais e registros de
+aprendizagem.
+
+Cobertura por capítulo
+ Capítulo                                                                         Blocos       Referenciados no inventário
+ 1. Ciclo Maldito                                                                 4            4
+ 2. Regras gerais                                                                 40           24
+ 3. Dano e recuperação                                                            20           10
+ 4. Criar um personagem                                                           9            4
+ 5. Origens                                                                       38           21
+ 6. Caminhos e Trilhas                                                            126          8
+ 7. Perícias e Ofícios                                                            9            9
+ 8. Equipamento                                                                   39           17
+ 9. Progressão                                                                    13           8
+ 10. Fundamento                                                                   29           17
+ 11. Catálogo de criação                                                          95           9
+ 12. Aptidões e Refino                                                            20           6
+ 13. Rotas de criação                                                             23           8
+ 14. Poderes avançados                                                            15           4
+ 15. Ritual e Pactos                                                              14           6
+ 16. Invocações em campo                                                          31           7
+ 17. Construir invocações                                                         30           16
+ 18. Mestrar                                                                      2            2
+ 19. Glossário                                                                    6            0
+ 20. Consulta rápida                                                              2            0
+ 21. Índice                                                                     11           0
+Glossário, consulta rápida e índice foram conferidos como material de consulta e remissão. A ausência de uma entrada
+própria para um bloco de regra fechada não o transforma em uma autorização nova ao mestre.
+O livro-base foi preservado. Este trabalho organiza as decisões para a escrita do Guia e não substitui revisão de
+balanceamento, teste de mesa ou aprovação de conteúdo novo.
+
+
+
+
+Base editorial | 21 de outubro de 2026                                                                                        33
+

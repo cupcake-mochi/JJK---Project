@@ -1,6 +1,10 @@
 # Competências que o Guia do Mestre deve ensinar
 
-Versão 9, de 21 de outubro de 2026. Mantém as 20 competências e registra C08, além das frentes anteriores. Exemplos e contas continuam distintos de aprendizagem observada.
+Versão 21, de 26 de outubro de 2026. Primeira edição de leitura integrada no registro91. M051/P20 conferidos no escopo publicado; 130 E/0 P/0 L e 20 E/0 P. Próximo: revisão do conjunto. Reserva mantida conforme decisão87.
+
+> **Orientação vigente:** A [primeira edição de leitura](<../07 - Edicao de Leitura/index.html>) está organizada em dez capítulos, fichas de mesa, termos e piloto, com aprofundamento da obra em acesso separado sinalizado. O [registro91](91-integracao-da-primeira-edicao-de-leitura.md) fecha a conferência editorial de M051/P20 conforme a decisão87. [Cobertura vigente](apoio-edicao-leitura/cobertura-atualizada.json): 130 E/0 P/0 L e 20 E/0 P, sem aprendizagem observada ou equilíbrio certificado. Os totais indicam demonstrações escritas, não porcentagem de conclusão. As atualizações anteriores são históricas.
+
+> **Cobertura vigente:** [Registro91](91-integracao-da-primeira-edicao-de-leitura.md) conclui a conferência editorial de M051/P20. As quatro condições publicadas de Reserva têm modelo de registro e conferência demonstrada, sem números novos. Consulte a [cobertura atual](apoio-edicao-leitura/cobertura-atualizada.json). E significa demonstração escrita no escopo acordado, sem aprendizagem observada.
 
 Esta matriz acompanha o que o leitor deve conseguir fazer. Ela complementa os 130 pontos do inventário, que acompanham principalmente aplicação, escolhas e aprovações específicas do sistema. Os conteúdos serão escritos, exemplificados e conferidos por assunto.
 
@@ -32,6 +36,12 @@ Os códigos C indicam os capítulos de trabalho do [plano](01-plano-completo-do-
 | P18 | Manter continuidade em mesas online e com vários mestres | C10 | Passagem de missão, comunicação, versões e rotina de mesa | Outro mestre reconstrói o estado necessário; campanha fechada adapta os registros |
 | P19 | Recolher retorno e compartilhar o trabalho de mestrar | C10 | Conversa de fechamento, registro de retorno e distribuição de tarefas | Transformar uma observação em mudança concreta no próximo preparo |
 | P20 | Avaliar personagens, poderes, projetos, Pactos e entidades | C07 | Parecer comparado, ficha de decisão e remissões aos capítulos específicos | Demonstrar um uso, um limite e o motivo de uma aprovação ou ajuste |
+
+## Diagnóstico atual
+
+A [auditoria 80](80-auditoria-de-cobertura-e-lacunas.md) liga cada competência a explicação, demonstração e possibilidade de aplicação. P02 recebeu aprofundamentos consultáveis e índice de termos no [registro 84](84-lote8-mundo-para-consulta.md). Permanecem parciais P14, para ampliar referências de ameaças; P15, para um efeito prolongado completo; P20, para os casos especializados ainda faltantes. As outras competências têm base escrita para aplicação, sem certificação de aprendizagem.
+
+Os registros de desenvolvimento abaixo são históricos: indicações de trabalho futuro podem ter sido atendidas por entregas posteriores. Para a fila vigente, consultar o [registro 84](84-lote8-mundo-para-consulta.md): L1, L3, L2 e L8 estão entregues; o próximo lote é L4. Os demais lotes conservam os critérios da auditoria. Treinamentos mecânicos e atualização do Bestiário integral continuam adiados.
 
 ## Como selecionar as referências para cada competência
 
@@ -105,3 +115,59 @@ As 20 competências estão propostas para desenvolvimento. A direção de clarez
 ## Projetos, equipamento e recompensas em C08
 
 [Ofícios, fabricação e reparos](<../06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md>) e sua ficha desenvolvem P20 pela definição de projeto, risco, recurso e entrega. Equipamento, ferramentas e recompensas ligam P16 e P18 à continuidade de consumíveis, Desgaste, XP e pagamentos. Atividades entre missões desenvolvem P03 e P17 sem antecipar os treinamentos. Consulte o [registro](27-c08-oficios-equipamento-e-recompensas.md) para cobertura e decisões ainda abertas.
+
+## Consulta e passagem em C10
+
+[Escolher e usar as ferramentas](<../06 - Redacao do Guia/80-escolher-e-usar-as-ferramentas.md>) e [Passar a missão entre mestres](<../06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md>) desenvolvem P18/P19 com índice, versões, ponto da retomada, informação por destinatário, recursos, dúvidas, fechamento, retorno e tarefas aceitas. O exemplo conserva o socorro e os estados do perigo já escrito; não demonstra uso humano. O [registro 79](79-c10-ferramentas-e-passagem.md) delimita a conferência. A auditoria conjunta foi entregue no [registro 80](80-auditoria-de-cobertura-e-lacunas.md); a complementação começa por L1.
+
+## L1 — decisões comuns na sessão
+
+[Casos de testes, trabalho em grupo e iniciativa](<../06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md>) ampliam P08/P11 com oferta de custo, distinção de procedimentos e ordenação. As folhas 04/05/80 receberam remissões e lembretes, apoiando P18. Nenhuma competência foi promovida a aprendizagem observada; não houve novo teste com leitores. Próximo: L3, percepção e informação.
+
+## L3 — informação acessível e resultado útil
+
+[Perceber, procurar e interpretar sinais](<../06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md>) demonstra observadores diferentes, recursos de consulta, limites da interpretação, memória e sinais energéticos. A integração amplia P07/P08/P11 e a passagem de informação de P18, sem reclassificar competências ou afirmar uso observado por leitores.
+
+## L2 — espaço e equipamento na decisão
+
+[Percursos e quedas](<../06 - Redacao do Guia/84-percursos-apoios-e-quedas.md>) e [Trajetórias e ferramentas](<../06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md>) ampliam a demonstração de P08/P11 e a continuidade de P18. Nenhuma competência muda de classificação. P02 continua parcial e será trabalhada no próximo lote, preservando os níveis de aprofundamento e a sinalização de revelações.
+
+## L8 — consulta do mundo demonstrada
+
+As seções [86](<../06 - Redacao do Guia/86-sociedade-apoio-e-modos-de-vida.md>), **87, com revelações sinalizadas**, e [88](<../06 - Redacao do Guia/88-indice-de-termos-do-mundo.md>) completam o recorte escrito de P02. Há entrada, consulta por problema, fonte delimitada, exemplo original e continuidade; o índice demonstra como localizar apoio e distinguir uma capacidade. P02 passa de P para E; 17 E/3 P no total, sem validação de aprendizagem com leitores.
+
+## L4 — demonstrações e decisão de Reserva
+
+O [registro 85](85-lote4-personalizacao-e-cuidados.md) demonstra M040/M043/M048/M049/M050 nas seções 89/90/91; a seção 92 e a [validação 86](86-validacao-da-reserva-condensada.md) ampliam M051 sem encerrar sua decisão autoral. P20 recebe evidências, mantendo as lacunas de Reserva, montagem e equipamento. Estados atuais: 113 E/17 P/0 L e 17 E/3 P. L4 permanece em andamento.
+
+**Próximo:** Decidir com o autor o papel de Reserva Condensada e fechar a referência a partir dos modelos, usos e cadências comparados. **GPT-6 Astra, esforço extra alto**, para comparação; **GPT-6.1 Sol, esforço alto**, para consolidar a redação após a escolha. Os cinco exemplos de L4 já entregues não precisam ser reiniciados.
+
+## Correção de escopo — Reserva Condensada
+
+O autor determinou descartar o detalhamento proposto e manter Reserva Condensada como está na R53 por enquanto. A escolha anterior de depósito antes do longo foi desconsiderada. Modelos A/B, depósitos, tetos e retiradas propostos não são decisões autorais vigentes. A pesquisa é histórica; o livro-base permanece intacto.
+
+**Próximo:** Seguir para L6 — montagens e pareceres que faltam: Forma Fluida, mescla ampliada, repetição de peça, Condicional/Restrição Própria, efeito fora de combate e cancelamento. **GPT-6 Astra, esforço extra alto**, para análise; **GPT-6.1 Sol, esforço alto**, para revisão. M051 conserva apenas conferência editorial do escopo publicado, sem retomada do detalhamento descartado.
+
+## L6 — montagens e pareceres entregues
+
+O [registro 88](88-lote6-montagens-e-pareceres.md) integra mescla ampliada e Forma Fluida, compras repetidas, Condicional/Restrição Própria, efeito de cena e cancelamento. Seis pontos passam a E por demonstração escrita: M055/M084/M087/M088/M090/M091. Não é aprovação de padrão experimental ou aprendizagem observada. As demais classificações estão preservadas; P20 continua parcial por L5 e conferência editorial de M051.
+
+**Próxima tarefa:** L5 — equipamento, projetos e reconhecimento: ferramenta original e processo especial; objeto ou selo com risco de ingestão; negociação/revenda; feito do Limiar e promoção. **GPT-6 Astra, esforço extra alto**, para projetos e efeitos; **GPT-6.1 Sol, esforço alto**, para revisão de clareza.
+
+## L5 — equipamento, projetos e reconhecimento entregues
+
+O [registro 89](89-lote5-equipamento-projetos-e-reconhecimento.md) demonstra os oito pontos nas seções 96–99. Ferramenta original e identificação têm fonte, processo, custo, trabalho, falha e entrega; a negociação preserva recusa; o objeto tem risco e encerramento; o feito de Limiar é conferido antes do XP, separadamente da promoção. Pareceres locais experimentais não se tornam padrões gerais. Cobertura 127 E/3 P/0 L e 17 E/3 P nas competências, sem aprendizagem observada.
+
+**Próxima tarefa:** L7 — ampliar referências de ameaças e perigos a partir da R53, comparar perfis/chefes/composições e completar uma consequência prolongada. **GPT-6 Astra, esforço extra alto**, para análise e cálculos; **GPT-6.1 Sol, esforço alto**, para revisão de clareza. Depois: conferência editorial restante e integração da edição de leitura.
+
+## L7 — ameaças e consequências prolongadas entregues
+
+O [registro 90](90-lote7-ameacas-e-consequencias-prolongadas.md) apresenta as seções 100–103: perfis em outras faixas, três fichas de nível15, composição/objetivo/socorro e doença fictícia completa. Referências numéricas são locais e experimentais; nenhuma escala geral ou atualização integral do Bestiário foi adotada. Cobertura 129 E/1 P/0 L e 19 E/1 P nas competências; resta M051/P20 no escopo editorial publicado.
+
+**Próxima tarefa:** Conferir M051 no escopo publicado de Reserva, sem retomar modelos descartados, e integrar a edição de leitura: ordem de capítulos, remissões, repetições e consultas. **GPT-6.1 Sol, esforço alto**. Contradições mecânicas novas, se aparecerem, ficam para análise separada com Astra extra alto.
+
+## Primeira edição de leitura integrada
+
+[Registro91](91-integracao-da-primeira-edicao-de-leitura.md): M051/P20 conferidos pela entrada da R53 e decisão87. L1/L3/L2/L8/L4/L6/L5/L7 têm demonstrações escritas no escopo definido. Dez capítulos, 17 folhas/exemplos de registro, termos e piloto formam a edição navegável; o aprofundamento com revelações fica separado e os estudos69/70 permanecem fora do percurso principal. O manuscrito completo em Markdown é editável. Integração estrutural não equivale a revisão semântica nova de cada passagem nem a avaliação humana.
+
+**Próxima tarefa:** Revisar o manuscrito organizado como conjunto, em passagens por capítulo: clareza, coerência entre exemplos e regra, caminhos de consulta e pontos de decisão. **GPT-6 Astra, esforço extra alto**, para a revisão crítica; **GPT-6.1 Sol, esforço alto**, para aplicar correções. O retorno de leitores pode ser incorporado em paralelo; não bloqueia a revisão interna.

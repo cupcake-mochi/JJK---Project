@@ -1,50 +1,27 @@
-# Ficha de habilidade de inimigo
+# Conferir uma habilidade de inimigo
 
-**Para preencher depois de [Montar as habilidades](60-montar-habilidades-de-inimigos.md).** Anexe à [ficha do encontro](58-ficha-de-inimigo-e-encontro.md). Preencha apenas campos pertinentes; “não se aplica” é diferente de deixar uma regra sem resolver. A ficha do corpo, da vida e das defesas continua separada.
+**Aprofundamento opcional da ficha única.** Registre a capacidade no bloco 3 da [ficha de construção e encontro](58-ficha-de-inimigo-e-encontro.md). Use as perguntas abaixo quando uma adaptação ou capacidade própria exigir conferir interações. Não é necessário preencher outra ficha de identificação, corpo ou reservas. O [método de montagem](60-montar-habilidades-de-inimigos.md) explica como chegar ao texto.
 
-## Identificação
+## Antes de conferir
 
-| Campo | Registro |
+Tenha o procedimento completo: ação, requisitos, resolução, pagamento, limite, duração e respostas. Identifique se conservou uma regra, adaptou algo ou criou uma capacidade. Classe de feitiço, Categoria de Efeito e nível da criatura não são termos intercambiáveis; anote apenas as classificações que se aplicam. Uma classificação ou um benefício experimental precisa aparecer como proposta, com sua referência.
+
+## Perguntas para as interações
+
+| Conferência | O que resolver no texto da capacidade |
 |---|---|
-| Inimigo, habilidade e versão | |
-| Função na cena | O que tenta mudar ou preservar? |
-| Referência | Regra conservada, adaptação ou criação própria; indicar a fonte. |
-| Alteração proposta | O que muda e por quê? Se conservar a regra, escrever “nenhuma”. |
-| Procedimento | Feitiço, ataque com arma ou desarmado, manobra, aptidão ou procedimento próprio descrito. |
-| Dependência | Corpo, equipamento, Técnica Inata ou outra fonte definida. |
-| Classificações aplicáveis | Classe do feitiço; Categoria de Efeito quando pertinente. Não inventar uma para preencher o campo. |
-| Estado da proposta | Base publicada, exemplo experimental, decisão autoral ou revisão pendente. |
+| Falta um requisito antes do uso | O que impede a declaração e quais gastos ainda não aconteceram? |
+| O ataque erra, o alvo resiste ou o preparo é interrompido | Quais custos permanecem e que regra permite eventual devolução? |
+| A Integridade passa de estágio | O procedimento é um feitiço afetado pelo acréscimo por Classe? Que outras penalidades cumulativas passam a valer? |
+| A Reação já foi gasta | A capacidade continua disponível por outra permissão expressa, ou precisa esperar o próximo turno próprio? |
+| O corpo, a mão, a voz ou o equipamento fica impedido | Qual requisito realmente deixou de ser cumprido? Não tratar Agarrado como silêncio ou mãos presas. |
+| Rescaldo, cancelamento ou manutenção | A capacidade depende da Técnica Inata? Qual regra pode interrompê-la, em que momento e com qual resultado? |
+| Sentir Energia ou Leitura de Reservas | Que informação a regra concede? Saldo e máximo precisam existir quando forem consultáveis. |
+| O alvo sai do alcance ou a fonte cai | O alcance só é conferido na aplicação? Existe vínculo, Concentração, manutenção ou prazo que encerre o efeito? |
+| Retirada e reencontro | Quais gastos, condições e prazos continuam? Como a disponibilidade retorna fora da iniciativa? |
+| Aquisição | Há ficha convertida e resultado conhecido antes de oferecer a tentativa? Uma capacidade inimiga não passa automaticamente para a entidade. |
 
-## Uso na mesa
-
-| Campo | Registro |
-|---|---|
-| Ação e momento | Inclua o gatilho e se ocorre antes ou depois de sua resolução. |
-| Requisitos | Alvo, alcance, visão, caminho, mãos, voz, Selo, equipamento ou preparo. |
-| Resolução | Ataque e bônus; ou TR e CD; ou efeito sem rolagem permitido pela ficha. |
-| Resultado | Acerto/falha, crítico quando houver, dano, condição e deslocamento. |
-| Custo | Pagamento e momento; custo-base da Classe separado de dispensa ou desconto. |
-| Limite principal | Livre, usos, intervalo, recarga, preparo, condição ou reserva compartilhada. |
-| Função de um limite adicional | Deixar sem segundo limite se não houver outra função a atender. |
-| Disponibilidade inicial | Pronta, em espera, sem preparo, usos ou saldo existentes. |
-| Retorno e continuidade | Quando volta; efeito de retirada, passagem do tempo e descanso aplicável. |
-| Duração e interrupção | Prazo, testes de manutenção, causas de término e recursos perdidos ou devolvidos. |
-| Sinais e respostas | O que o grupo percebe; o que pode fazer com essa informação. |
-
-## Conferência de interações
-
-| Situação | Resultado neste caso |
-|---|---|
-| Falta de alvo, ação ou requisito antes do uso | |
-| Erro, resistência ou interrupção após o pagamento | |
-| Estágios de Integridade; energia insuficiente | |
-| Reação já gasta; impedimento de ação | |
-| Rescaldo; cancelamento de aplicação; manutenção | |
-| Sentir Energia e Leitura de Reservas | |
-| Retirada e reencontro | |
-| Conversão por Doma, quando aplicável | Ficha resultante ou pendência identificada antes da oferta. |
-
-Não trate toda linha como uma nova regra que precisa ser criada. Quando a R53 já resolver o caso, registre sua aplicação. Uma pendência que altere a resolução da capacidade precisa ser fechada antes de usá-la num encontro aberto.
+Use as exceções da R53 quando já houver um procedimento. A revisão pode concluir que uma linha não se aplica; uma interação ainda sem resposta deve permanecer identificada. Se impedir a resolução do encontro, conclua essa parte antes de usar a versão.
 
 ## Exemplo breve: Agarrar do Carregador
 
@@ -56,4 +33,4 @@ Não trate toda linha como uma nova regra que precisa ser criada. Quando a R53 j
 
 **Interações:** estágio 2 não acrescenta PE à manobra; o estágio 3 do agarrador não impõe desvantagem ao TR de outra criatura. Se o próprio alvo estiver no estágio 3, aplica sua desvantagem em TR. Arrastar segue as regras comuns e ainda depende do corpo, da carga e do percurso. Não há recarga por mudança de cena: existe uma contenção que continua ou termina por suas regras.
 
-**Limite do exemplo:** ficha de uma capacidade. A criatura e o encontro completos ainda precisam de preparação; estes valores não formam uma tabela geral de construção.
+**Alcance deste exemplo:** conferência de uma capacidade. A criatura e o encontro foram completados em [O Carregador e o corredor de entulho](62-o-carregador-e-o-corredor-de-entulho.md), com [consulta e Doma](63-carregador-consulta-e-doma.md). Os valores experimentais não formam uma tabela geral de construção.

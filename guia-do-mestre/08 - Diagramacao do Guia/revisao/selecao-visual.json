@@ -1,0 +1,67 @@
+{
+  "opcoes_inspecionadas": [
+    "ab-cap-1-p-40.jpg",
+    "aptidoes-apt-refino-cap-48-p-14.jpg",
+    "bastiao-cap-38-p-16.jpg",
+    "construcao-cap-47-p-5.jpg",
+    "emanador-cap-75-p-14.jpg",
+    "equip-cap-47-p-8.jpg",
+    "evocador-cap-47-p-4.jpg",
+    "fundamento-cap-61-p-4.jpg",
+    "guia-cap-50-p-8.jpg",
+    "maki-arremesso.webp",
+    "origens-origem-corpo-cap-38-p-10.jpg",
+    "origens-origem-feto-cap-62-p-21.jpg",
+    "origens-origem-receptaculo-cap-11-p-2.jpg",
+    "origens-origem-restricao-cap-38-p-14.jpg",
+    "origens-origens-cap-63-p-12.jpg",
+    "origens-receptaculo-yuji-sukuna-cap-11-p-11.jpg",
+    "poderes-cap-15-p-13.jpg",
+    "rotas-rota-bencaos-cap-149-p-19.jpg",
+    "rotas-rota-marcial-cap-35-p-18.jpg",
+    "rotas-rota-sem-tecnica-cap-254-p-3.jpg",
+    "toji-arma.webp",
+    "toji-esquiva.webp",
+    "vanguarda-cap-47-p-7.jpg",
+    "yuji-golpe.png"
+  ],
+  "selecionadas": [
+    {
+      "arquivo": "ab-cap-1-p-40.jpg",
+      "consulta": "s006",
+      "legenda": "A presença de uma ameaça num lugar comum.",
+      "capitulo_manga": 1,
+      "motivo": "Relação direta com o tema e leitura reconhecível na escala planejada; contexto narrativo reservado ao apêndice quando necessário."
+    },
+    {
+      "arquivo": "rotas-rota-marcial-cap-35-p-18.jpg",
+      "consulta": "s086",
+      "legenda": "Treino, convivência e relações também fazem parte do cotidiano.",
+      "capitulo_manga": 35,
+      "motivo": "Relação direta com o tema e leitura reconhecível na escala planejada; contexto narrativo reservado ao apêndice quando necessário."
+    },
+    {
+      "arquivo": "equip-cap-47-p-8.jpg",
+      "consulta": "s035",
+      "legenda": "A posição e o uso do equipamento ajudam a descrever as decisões.",
+      "capitulo_manga": 47,
+      "motivo": "Relação direta com o tema e leitura reconhecível na escala planejada; contexto narrativo reservado ao apêndice quando necessário."
+    },
+    {
+      "arquivo": "origens-receptaculo-yuji-sukuna-cap-11-p-11.jpg",
+      "consulta": "s087",
+      "legenda": "A negociação de um vínculo: referência da obra, não um contrato automático de regras.",
+      "capitulo_manga": 11,
+      "motivo": "Relação direta com o tema e leitura reconhecível na escala planejada; contexto narrativo reservado ao apêndice quando necessário."
+    }
+  ],
+  "criterios": [
+    "Relação com o procedimento",
+    "Risco de revelar trama",
+    "Legibilidade e proporção",
+    "Ausência de redundância",
+    "Proveniência no acervo da R53"
+  ],
+  "exclusoes": "Poderes avançados, confrontos tardios, revelações de personagens e imagens redundantes ficaram fora do corpo. Uma cena de negociação com revelações fica somente no apêndice sinalizado.",
+  "direitos": "Créditos mantidos conforme acervo da R53; não há autorização de uso registrada para os quadros. Não foi feita busca ou download de novas páginas."
+}

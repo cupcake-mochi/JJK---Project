@@ -1,0 +1,36 @@
+{
+  "data": "2026-10-25",
+  "manifesto_anterior": 246,
+  "registros_alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "arquivos_anteriores_preservados": 238,
+  "novos_arquivos": [
+    "04 - Planejamento/70-prototipo-do-carregador-vigilante.md",
+    "06 - Redacao do Guia/69-carregador-vigilante-prototipo-de-chefe.md",
+    "06 - Redacao do Guia/70-comparar-a-vigilia-e-preparar-a-doma.md",
+    "04 - Planejamento/apoio-chefe-vigilante/estado-inicial.json",
+    "04 - Planejamento/apoio-chefe-vigilante/dados.json",
+    "04 - Planejamento/apoio-chefe-vigilante/conferir.py",
+    "04 - Planejamento/apoio-chefe-vigilante/resultados.json",
+    "04 - Planejamento/apoio-chefe-vigilante/verificacao.json"
+  ],
+  "total_manifesto_resultante": 254,
+  "links_locais_conferidos": 1134,
+  "historico_conferido": true,
+  "contas_deterministicas": 20,
+  "revisao_documental_separada": 11,
+  "limites": [
+    "Não simula confronto completo ou decisões humanas.",
+    "Não declara equilíbrio ou aprovação autoral.",
+    "Sem envio ao GitHub nesta etapa."
+  ],
+  "problemas": []
+}

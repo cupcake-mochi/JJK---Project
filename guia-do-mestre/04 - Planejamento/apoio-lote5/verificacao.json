@@ -1,0 +1,71 @@
+{
+  "etapa": 89,
+  "data": "2026-10-26",
+  "escopo": "L5 completo: oito pontos demonstrados em quatro consultas. Ferramenta, orçamento, objeto e promoção locais; sem padrões gerais novos.",
+  "manifesto_anterior": 374,
+  "arquivos_anteriores_intactos_antes_da_instalacao": 374,
+  "arquivos_atualizados": 16,
+  "arquivos_novos_no_manifesto": 11,
+  "arquivos_anteriores_sem_alteracao": 358,
+  "copias_historicas_conferidas": 16,
+  "manifesto_final": 385,
+  "matriz_130_linhas_preservada": true,
+  "competencias_20_linhas_preservadas": true,
+  "cobertura": {
+    "etapa": 89,
+    "contagens_M": {
+      "E": 127,
+      "P": 3,
+      "L": 0
+    },
+    "contagens_P": {
+      "E": 17,
+      "P": 3
+    },
+    "evidencias_conferidas": 314,
+    "reclassificados": [
+      "M052",
+      "M058",
+      "M067",
+      "M069",
+      "M070",
+      "M071",
+      "M074",
+      "M078"
+    ],
+    "pontos_parciais": [
+      "M051",
+      "M124",
+      "M129"
+    ],
+    "competencias_parciais": [
+      "P14",
+      "P15",
+      "P20"
+    ],
+    "R53_intacta": true,
+    "decisao_Reserva_preservada": true,
+    "grupos_de_contas_conferidos": 5,
+    "problemas": [],
+    "limites": "Integridade documental, contas explícitas e transições de cobertura; sem validação de aprendizagem ou equilíbrio."
+  },
+  "links_novos_ou_alterados_conferidos": 63,
+  "blocos_de_tabelas_conferidos": 13,
+  "revisao_editorial_manual": [
+    "Anel tem uma função informativa limitada, grau proposto, base, Volume, preparação e uma marca por item/personagem; não contém maldições.",
+    "Identificação possui informações concretas disponíveis, ficha do responsável e demonstração; perceber energia não revela todo o poder.",
+    "Projeto distingue base, fonte, receita, habilitação do prestador, consumíveis, trabalho e espera.",
+    "Falha consome lote anunciado e preserva base; retomada orçada sem importar regra de entidades; dedicação da ficha não inclui serviço contratado.",
+    "Cofre usa patente, limite de uma peça e requisitos; a venda envolve item próprio, não a arma emprestada.",
+    "Palavra Empenhada tem falha inicial viável, condição concreta, recusa e cumprimento; acordo comercial não é Promessa sobrenatural.",
+    "Objeto tem prazo, alcance, sinais, intervenção e risco previamente acessível; todos os parâmetros são locais.",
+    "Ingestão tem TR, Surdo conforme publicado, prazo e consequência de entrega; nenhuma nova Origem ou punição oculta permanente.",
+    "Socorro usa máximo de referência84, Aguentar21 e janela2; cura22 devolve participação antes de Derrotado.",
+    "Feito de Limiar confere lista, faixa, ameaça real e evidência; XP guardado e promoção são resolvidos separadamente.",
+    "R53 e G92 intactas; M051 e competências parciais preservadas; 130 linhas/20 competências mantidas."
+  ],
+  "R53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "preservados": "R53, decisão de Reserva, números de inimigos, Pactos, projetos anteriores e histórico. Manifesto por união.",
+  "limites": "Conferência documental, aritmética e editorial; sem sessão humana, simulação de combate, validação de equilíbrio, aprovação de padrão geral ou envio ao GitHub.",
+  "problemas": []
+}

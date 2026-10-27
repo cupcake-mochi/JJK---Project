@@ -1,0 +1,45 @@
+{
+  "etapa": 78,
+  "arquivos_iniciais": 293,
+  "arquivos_anteriores_preservados": 282,
+  "arquivos_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+    "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md",
+    "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "arquivos_novos": [
+    "04 - Planejamento/78-perigos-ambientais-e-exposicao.md",
+    "06 - Redacao do Guia/78-preparar-perigos-ambientais.md",
+    "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md",
+    "04 - Planejamento/apoio-perigos-recorrentes/estado-inicial.json",
+    "04 - Planejamento/apoio-perigos-recorrentes/calcular.py",
+    "04 - Planejamento/apoio-perigos-recorrentes/resultados.json",
+    "04 - Planejamento/apoio-perigos-recorrentes/verificacao.json"
+  ],
+  "total_final": 300,
+  "R53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "matriz_identificadores": 130,
+  "conferencias_calculo": 15,
+  "reproducao_resultado": true,
+  "links_locais_novos_conferidos": {
+    "06 - Redacao do Guia/78-preparar-perigos-ambientais.md": true,
+    "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md": true,
+    "04 - Planejamento/78-perigos-ambientais-e-exposicao.md": true,
+    "06 - Redacao do Guia/24-registro-de-estado-e-socorro.md": true,
+    "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md": true,
+    "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md": true,
+    "06 - Redacao do Guia/22-quedas-e-socorro.md": true,
+    "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md": true
+  },
+  "problemas": [],
+  "revisao_independente": "Leitura deR53 eG78/G79, com correção de expiração/reaplicação e TR no ramo de socorro. Não é teste humano.",
+  "escopo": "Preservação por hash; novos destinos locais (sem âncoras/URLs); estrutura de tabelas; contas e cronologia escolhida. Não simula todos os recursos ou estratégias de uma mesa."
+}

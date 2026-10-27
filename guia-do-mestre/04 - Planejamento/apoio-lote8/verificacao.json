@@ -1,0 +1,46 @@
+{
+  "etapa": 84,
+  "data": "2026-10-26",
+  "escopo": "L8: sociedade e cotidiano, cinco aprofundamentos sinalizados e índice de termos. P02 passa de P para E.",
+  "manifesto_anterior": 337,
+  "arquivos_anteriores_intactos_antes_da_instalacao": 337,
+  "arquivos_atualizados": 14,
+  "arquivos_novos_no_manifesto": 9,
+  "arquivos_anteriores_sem_alteracao": 323,
+  "copias_historicas_conferidas": 14,
+  "manifesto_final": 346,
+  "matriz_130_linhas_preservada": true,
+  "competencias_20_linhas_preservadas": true,
+  "cobertura": {
+    "etapa": 84,
+    "contagens_M": {
+      "E": 108,
+      "P": 22,
+      "L": 0
+    },
+    "contagens_P": {
+      "E": 17,
+      "P": 3
+    },
+    "evidencias_conferidas": 284,
+    "reclassificados": [
+      "P02"
+    ],
+    "problemas": [],
+    "limites": "Integridade documental e transições de cobertura. Não verifica compreensão humana, cânone integral ou equilíbrio de regras."
+  },
+  "links_novos_ou_alterados_conferidos": 112,
+  "blocos_de_tabelas_conferidos": 11,
+  "revisao_editorial_manual": [
+    "Entrada 06 e consultas 86/88 sem acontecimentos da trama.",
+    "Aviso anterior ao conteúdo em 87 e nas remissões novas.",
+    "Cinco casos distinguem fonte oficial, interpretação do Guia, exemplo original e R53.",
+    "Perfis e sinopses usados dentro do alcance acessível; sem declarar leitura integral.",
+    "Termos e distinções conferidos com a abertura, capacidades pertinentes e glossário da R53.",
+    "Situações incluem alternativas e continuidade; guilda distinguida de instituição ficcional."
+  ],
+  "R53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "preservados": "R53, decisões autorais, números de inimigos, Pactos, projetos e histórico. Manifesto por união.",
+  "limites": "Verificação documental e editorial. Sem revisão integral de cânone, simulação de combate, teste humano, aprovação de nova regra ou envio ao GitHub. Estados M preservados; não é nova auditoria integral dos 130 pontos.",
+  "problemas": []
+}

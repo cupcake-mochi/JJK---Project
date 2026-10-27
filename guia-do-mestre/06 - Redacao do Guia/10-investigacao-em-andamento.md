@@ -53,6 +53,10 @@ Esses procedimentos não formam uma sequência obrigatória de testes. Se a tare
 
 Para uma informação evidente ou conversa colaborativa, a descrição pode bastar. Se Ana tem a planta e a entrega, o grupo pode ler o caminho indicado. Não acrescente Investigação apenas porque há um papel na cena.
 
+### Casos para consultar
+
+[Perceber, procurar e interpretar sinais](83-perceber-procurar-e-interpretar-sinais.md) demonstra Esconder com vários observadores, uma busca posterior, Ler o Ambiente com e sem informação, Intuição e Memória Testemunha. Também resolve interferência energética, um sinal distante e a comparação de uma assinatura. Use o caso correspondente à pergunta, com os sentidos e custos da ficha em jogo.
+
 ## Localizar não é enxergar
 
 Uma criatura pode ser localizada por um som ou uma busca energética sem ser vista. Isso informa onde está naquele momento, dentro do alcance do procedimento. Não concede automaticamente visão, identidade ou compreensão de sua técnica.
@@ -64,6 +68,8 @@ A mesma rolagem não localizaria outra fonte completamente escondida por uma por
 Uma fonte alcançada, sem ocultação nem interferência, é localizada sem rolagem depois de gastar a ação de Vasculhar com Sentir Energia. Dispensar o dado nesse caso não dispensa a Ação Padrão. Confira o texto completo da ação para as demais condições.
 
 Uma caixa com resíduos pode ser localizada sem que seu antigo portador esteja perto. Separar fonte, objeto e pessoa evita entregar uma resposta que a busca não fornece.
+
+Quando houver interferência e ocultação, compare a busca à **maior entre a CD anunciada da interferência e a Furtividade guardada**, sem somar ambas. Gastar o último PE não torna um feiticeiro sem energia amaldiçoada. A [tabela do depósito](83-perceber-procurar-e-interpretar-sinais.md) aplica esses limites a fontes acessíveis e a uma porta fechada.
 
 ## Quando uma tentativa falha
 

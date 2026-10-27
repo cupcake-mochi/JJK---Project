@@ -1,0 +1,30 @@
+{
+  "arquivos_iniciais": 274,
+  "arquivos_anteriores_preservados": 265,
+  "arquivos_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "arquivos_novos": [
+    "04 - Planejamento/75-primeira-regua-de-inimigos.md",
+    "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+    "04 - Planejamento/apoio-regua-inicial/estado-inicial.json",
+    "04 - Planejamento/apoio-regua-inicial/calcular.py",
+    "04 - Planejamento/apoio-regua-inicial/resultados.json",
+    "04 - Planejamento/apoio-regua-inicial/verificacao.json"
+  ],
+  "total_final": 280,
+  "curvas": 72,
+  "celulas_de_tabela_sincronizadas": 24,
+  "links_locais_conferidos": 21,
+  "problemas": [],
+  "limites": "Enumeração parcial, sem combate integral, mesa humana, escala universal aprovada ou publicação remota. Fichas existentes preservadas.",
+  "escopo_de_links": "Destinos locais novos nos arquivos alterados e todos os destinos locais dos novos documentos; remissões antigas não modificadas não foram reconferidas. A varredura ampla foi interrompida por espera do sistema de arquivos ao resolver uma remissão antiga."
+}

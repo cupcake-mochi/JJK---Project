@@ -65,7 +65,7 @@ Rina trabalha 20 horas no primeiro ciclo e 12 no segundo. Como fabrica Classe 3 
 
 Ela conserva as partes aproveitáveis, repõe ¥6.000 e dedica **16 horas de retrabalho**, metade do trabalho inicial. Na tentativa autorizada seguinte, com vantagem, tira 2 e 8; usa 8, total 14: sucesso. O total é **48 horas e ¥36.000**. Se houver ajuda válida para conceder vantagem, o ajudante precisa cumprir o mesmo tempo da operação em que ajuda; não divide essas horas com Rina.
 
-O cronograma de três ciclos da seção 45 é possível porque Rina escolheu dedicar até 20 horas por ciclo a esse projeto. Não é um prazo obrigatório de três semanas. Com tempo na história e 28 horas disponíveis no segundo ciclo, ela poderia terminar nele as 12 horas iniciais restantes e as 16 de retomada.
+O cronograma de três ciclos da consulta [Tempo, materiais e retomada de entidades](45-tempo-materiais-e-retomada-de-entidades.md) é possível porque Rina escolheu dedicar até 20 horas por ciclo a esse projeto. Não é um prazo obrigatório de três semanas. Com tempo na história e 28 horas disponíveis no segundo ciclo, ela poderia terminar nele as 12 horas iniciais restantes e as 16 de retomada.
 
 | Campo de entrega | Registro |
 |---|---|

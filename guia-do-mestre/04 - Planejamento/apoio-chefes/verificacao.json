@@ -1,0 +1,28 @@
+{
+  "data": "2026-10-25",
+  "manifesto_anterior": 240,
+  "registros_alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "arquivos_anteriores_preservados": 232,
+  "novos_arquivos": [
+    "04 - Planejamento/69-metodo-de-chefes-e-confrontos-maiores.md",
+    "06 - Redacao do Guia/67-preparar-chefes-e-confrontos-maiores.md",
+    "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md",
+    "04 - Planejamento/apoio-chefes/estado-inicial.json",
+    "04 - Planejamento/apoio-chefes/conferencias.json",
+    "04 - Planejamento/apoio-chefes/verificacao.json"
+  ],
+  "total_manifesto_resultante": 246,
+  "links_locais_conferidos": 1109,
+  "conferencia_do_historico": true,
+  "conferencias_mecanicas": "10 recortes documentais, 3 ordens de resposta e contas diretas; não são 10 testes de combate.",
+  "problemas": []
+}

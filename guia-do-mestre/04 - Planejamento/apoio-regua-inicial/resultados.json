@@ -1,0 +1,1372 @@
+{
+  "metodo": "Enumeração de seis declarações no grupo, duas por personagem, com custos pagáveis. Sem oposição ativa ou duração de combate inferida.",
+  "sobrevivencia": [
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.7452825546264649,
+        0.36517087137119236,
+        0.15443773571360192,
+        0.06052352939744978,
+        0.022633523761786335,
+        0.008198914144857228
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.962276840209961,
+        0.6022069323083997,
+        0.3107526321815478,
+        0.1435408126648408,
+        0.061687511345596746,
+        0.025196698757506433
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9892024993896484,
+        0.8410759044689985,
+        0.5435688171193317,
+        0.29716042758191713,
+        0.14598746630741177,
+        0.06664087427143849
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.98046875,
+        0.44692897364497186,
+        0.1823318401353281,
+        0.0809414520104514,
+        0.029366764398653353,
+        0.01040156917425109
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        1.0,
+        0.7168778857588768,
+        0.3782187596860567,
+        0.21164219907834073,
+        0.08907353125541777,
+        0.03561238641150989
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        1.0,
+        0.9407456047832966,
+        0.6293532033428474,
+        0.40989100426263436,
+        0.20275423239460647,
+        0.09228037256080483
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.7474973983764546,
+        0.3725443584631145,
+        0.16070506415884203,
+        0.06430502993702131,
+        0.02456635637252961,
+        0.009093758611785132
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9622905120849458,
+        0.6089820113909041,
+        0.31925273828661677,
+        0.15016052541153152,
+        0.06579696315912022,
+        0.02742420147865188
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9892024993896332,
+        0.8435115781261825,
+        0.5519480749949951,
+        0.30670791535501657,
+        0.15344963852686871,
+        0.07141299702543094
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9804687499999848,
+        0.45503118872856246,
+        0.18940047060382445,
+        0.08569750007584723,
+        0.03177133889047279,
+        0.011501734800510924
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999848,
+        0.721768792476635,
+        0.3869431014563947,
+        0.21991396083478842,
+        0.09446171211674818,
+        0.03856755940161814
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999848,
+        0.9414502791025352,
+        0.6371727150456044,
+        0.42023131349064885,
+        0.21173756229415652,
+        0.09828357630695413
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.7769231796264647,
+        0.4672676282914107,
+        0.2518042321791091,
+        0.12760218291707015,
+        0.06216270946188258,
+        0.029462071789157728
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9624721527099609,
+        0.6922497295609354,
+        0.43367107488080975,
+        0.2501086441329167,
+        0.13642696053003778,
+        0.07147732811167959
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9892024993896483,
+        0.873862907315597,
+        0.6539975672070885,
+        0.43529018353304844,
+        0.26707901993463307,
+        0.15452733885825423
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9804687499999999,
+        0.556735254973173,
+        0.29081468520494663,
+        0.16351464716970218,
+        0.077561194422517,
+        0.03603533145266751
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999999,
+        0.7821161457896232,
+        0.5008123393581826,
+        0.33761581160282733,
+        0.1824960702366833,
+        0.09449365893897715
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999999,
+        0.9503946073353289,
+        0.7299826176482364,
+        0.5531367767014369,
+        0.3423633410457255,
+        0.19825598929660193
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.7773977890014617,
+        0.4687460577974868,
+        0.25337866562146216,
+        0.12882360301647838,
+        0.06297190138160502,
+        0.029949442034675807
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9624750823974563,
+        0.6934899649473767,
+        0.4355221376291822,
+        0.25188726259401806,
+        0.1378159101542746,
+        0.07243541296920908
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9892024993896438,
+        0.8743218339689298,
+        0.655505833416583,
+        0.4373605792886041,
+        0.26910189823383207,
+        0.15616766026081966
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9804687499999953,
+        0.5582851114001243,
+        0.29254664319119433,
+        0.16498946120487717,
+        0.07853201561702114,
+        0.03661466346423265
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999953,
+        0.7830188920533595,
+        0.5026072268663899,
+        0.3396076455087347,
+        0.1841583104530934,
+        0.09567032072705886
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999953,
+        0.950532503018132,
+        0.7313179616544124,
+        0.5551877750681491,
+        0.3446016378881721,
+        0.20016253681724352
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.8085638046264647,
+        0.562399282062215,
+        0.36217946789004596,
+        0.22254191527150957,
+        0.13247903208565814,
+        0.07708497014806398
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9626674652099608,
+        0.7677892003974555,
+        0.5552080325749005,
+        0.377566800965756,
+        0.24604983885300707,
+        0.155366868728956
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9892024993896483,
+        0.9023309099180549,
+        0.7454660674316441,
+        0.569611717131274,
+        0.410402134468672,
+        0.28274287342505156
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9804687499999999,
+        0.6537680988013743,
+        0.41057404956380544,
+        0.27588648204436855,
+        0.160508127903839,
+        0.09177842436784295
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999999,
+        0.8373934683203695,
+        0.6161694992855189,
+        0.4735242289714128,
+        0.30804130394060564,
+        0.1935428666885701
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999999,
+        0.9591451723873613,
+        0.8087359993776606,
+        0.680777702740239,
+        0.49506061007797914,
+        0.3420720823821083
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.8084056015014655,
+        0.5619409494874462,
+        0.3616050982603842,
+        0.22200157210545043,
+        0.13204062100589972,
+        0.07676012341026044
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9626664886474616,
+        0.7674475800677342,
+        0.5546155664580854,
+        0.37689284399489303,
+        0.24541939071202876,
+        0.1548417836093521
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9892024993896492,
+        0.9021993134181515,
+        0.7450533536740039,
+        0.5689664594827982,
+        0.4096561144474088,
+        0.28201611666328724
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 16,
+      "integridade": 8,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9804687500000008,
+        0.6533147085080157,
+        0.4099596928752854,
+        0.2752587020141571,
+        0.15999827438808178,
+        0.09140265216276992
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 24,
+      "integridade": 12,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        1.0000000000000007,
+        0.8371418595397485,
+        0.6156180411711859,
+        0.4728375671508291,
+        0.30734698431794166,
+        0.1929431606672543
+      ]
+    },
+    {
+      "nivel": 2,
+      "PV": 32,
+      "integridade": 16,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        1.0000000000000007,
+        0.959103654425384,
+        0.8083916417996339,
+        0.6801908055299606,
+        0.49429430925991136,
+        0.34128238255350934
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9604300010701992,
+        0.5199686934833795,
+        0.22558711193490996,
+        0.08671947773467431,
+        0.03087067460740026,
+        0.010418937293231513
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9993488524050919,
+        0.9323834856259906,
+        0.5843556719257578,
+        0.2933765187505729,
+        0.12864131302761245,
+        0.051512204885792987
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        1.0,
+        0.9985067071636485,
+        0.9545547110178091,
+        0.7554761368200198,
+        0.4875556155765348,
+        0.26848495894954494
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        1.0,
+        0.9147441272151435,
+        0.4264958827464369,
+        0.29171843670379627,
+        0.10515336236006073,
+        0.03494095830631775
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        1.0,
+        0.9911205333068933,
+        0.8399599385782872,
+        0.6763269380356313,
+        0.3462521674715575,
+        0.1496793917827227
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 11,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        1.0,
+        0.9999999975583047,
+        0.9945127781481177,
+        0.9819168533880507,
+        0.8378505891004282,
+        0.5530000958700035
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9604300487538947,
+        0.5339541443518627,
+        0.24010061281623737,
+        0.0960895210460777,
+        0.035699626487480866,
+        0.012593998656952337
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9993488524050717,
+        0.9336361247603485,
+        0.6005738021181403,
+        0.31226252680003563,
+        0.14240824158208784,
+        0.05945425722817466
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999799,
+        0.9985102634904249,
+        0.9559920188250134,
+        0.7672376146069673,
+        0.5085197120164556,
+        0.28978296505697404
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999799,
+        0.9160865506887597,
+        0.44367435163923935,
+        0.3091144531076166,
+        0.11657127491450568,
+        0.04058432020464499
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999799,
+        0.9912497705606197,
+        0.8454124276981415,
+        0.6905685238223104,
+        0.36653070972562507,
+        0.1652028694881736
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 11,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999799,
+        0.9999999975591338,
+        0.9946373865089339,
+        0.9825933396242748,
+        0.8463121313014201,
+        0.5740434782338574
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9604303825399256,
+        0.6249280846762767,
+        0.34613302270180735,
+        0.17497165057702455,
+        0.08331524736508399,
+        0.03802116951187138
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9993488524050917,
+        0.9422906478720522,
+        0.7008053628721,
+        0.4449861996344737,
+        0.2545161935171798,
+        0.13531306738058566
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        1.0,
+        0.9985351577781821,
+        0.965331741634713,
+        0.837149231055516,
+        0.6419077975271916,
+        0.4424286906989617
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999999,
+        0.9249381243090384,
+        0.555080207323735,
+        0.43130977316351243,
+        0.21127015906201838,
+        0.09651911627353252
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999999,
+        0.9921544313370253,
+        0.8797502883556536,
+        0.7766264944715288,
+        0.5048446455129451,
+        0.2888941992370079
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 13,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999999,
+        0.9999999975652598,
+        0.9954581099503909,
+        0.9868304511854392,
+        0.8956119196160903,
+        0.7032759197149338
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.960430395891356,
+        0.6283150008357579,
+        0.35049055793002926,
+        0.17858895426488788,
+        0.08575972478432851,
+        0.03948198998977325
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9993488524050818,
+        0.9426326809863202,
+        0.7043568937780168,
+        0.4502244916459422,
+        0.2594847183630111,
+        0.13909009809306627
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.99999999999999,
+        0.998536153549671,
+        0.9656791642147898,
+        0.8395334540438881,
+        0.6467320251076848,
+        0.44850987271683584
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.99999999999999,
+        0.9252723350325195,
+        0.5592167387814534,
+        0.4361492628219829,
+        0.21554276581040524,
+        0.09938825696344508
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.99999999999999,
+        0.9921906177680601,
+        0.8809912231196332,
+        0.7796084947467874,
+        0.5101600067608483,
+        0.294271659727183
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 13,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.99999999999999,
+        0.9999999975654834,
+        0.9954890630109784,
+        0.9869825087369956,
+        0.8972605971370949,
+        0.7077938539551962
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9604307640096521,
+        0.7140606970003787,
+        0.47166938341802495,
+        0.29049190698392374,
+        0.17069859185056904,
+        0.09695233718665301
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9993488524050916,
+        0.9519373510801507,
+        0.789848325832532,
+        0.5884085626168155,
+        0.4054843871553008,
+        0.26382571150770584
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999999,
+        0.9985636083927159,
+        0.974470454166478,
+        0.8947810199852158,
+        0.7637534377487086,
+        0.608412621000087
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999999,
+        0.9338855140993142,
+        0.6637010204271035,
+        0.5650169859331369,
+        0.34432896323035106,
+        0.19803460751707058
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999999,
+        0.9931883293671573,
+        0.9115627743268992,
+        0.849754430635996,
+        0.6465818321179391,
+        0.44866904462166113
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 15,
+      "bloquear": false,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        0.9999999999999999,
+        0.9999999975722151,
+        0.9962856472784795,
+        0.9906859390580753,
+        0.9347596205477642,
+        0.813779421222971
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9604307659170016,
+        0.7144665952800926,
+        0.47229575827546527,
+        0.2911263424885502,
+        0.17122753719188988,
+        0.09734529465689931
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        0.9993488524050925,
+        0.9519849301928599,
+        0.7902326947150504,
+        0.5890841845568667,
+        0.4062696702721652,
+        0.26456502111961344
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": false,
+      "sobrevive_apos_declaracoes": [
+        1.0000000000000007,
+        0.9985637506457903,
+        0.9745120601193004,
+        0.895019488191469,
+        0.7642799835213099,
+        0.6091871005229589
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 48,
+      "integridade": 24,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        1.0000000000000007,
+        0.9339271189474169,
+        0.6641946379389737,
+        0.5656544140304856,
+        0.3450398520393263,
+        0.19864104924756007
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 72,
+      "integridade": 36,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        1.0000000000000007,
+        0.9931934988573097,
+        0.9117038757041731,
+        0.850062012291227,
+        0.6472308385880791,
+        0.4494811330496918
+      ]
+    },
+    {
+      "nivel": 6,
+      "PV": 108,
+      "integridade": 54,
+      "defesa": 15,
+      "bloquear": true,
+      "misto": true,
+      "sobrevive_apos_declaracoes": [
+        1.0000000000000007,
+        0.9999999975722517,
+        0.9962894890065203,
+        0.9907027750440395,
+        0.9349182642628182,
+        0.8142398409296804
+      ]
+    }
+  ],
+  "acerto": [
+    {
+      "ataque": 4,
+      "defesa": 11,
+      "bloquear": false,
+      "acerta": 0.7000000000000001,
+      "critico": 0.05
+    },
+    {
+      "ataque": 4,
+      "defesa": 11,
+      "bloquear": true,
+      "acerta": 0.6929999999999846,
+      "critico": 0.05000000000000004
+    },
+    {
+      "ataque": 4,
+      "defesa": 13,
+      "bloquear": false,
+      "acerta": 0.6,
+      "critico": 0.05
+    },
+    {
+      "ataque": 4,
+      "defesa": 13,
+      "bloquear": true,
+      "acerta": 0.598499999999995,
+      "critico": 0.05000000000000004
+    },
+    {
+      "ataque": 4,
+      "defesa": 15,
+      "bloquear": false,
+      "acerta": 0.49999999999999994,
+      "critico": 0.05
+    },
+    {
+      "ataque": 4,
+      "defesa": 15,
+      "bloquear": true,
+      "acerta": 0.5005000000000004,
+      "critico": 0.05000000000000004
+    },
+    {
+      "ataque": 4,
+      "defesa": 16,
+      "bloquear": false,
+      "acerta": 0.44999999999999996,
+      "critico": 0.05
+    },
+    {
+      "ataque": 4,
+      "defesa": 16,
+      "bloquear": true,
+      "acerta": 0.45150000000000035,
+      "critico": 0.05000000000000004
+    },
+    {
+      "ataque": 5,
+      "defesa": 11,
+      "bloquear": false,
+      "acerta": 0.7500000000000001,
+      "critico": 0.05
+    },
+    {
+      "ataque": 5,
+      "defesa": 11,
+      "bloquear": true,
+      "acerta": 0.7374999999999797,
+      "critico": 0.05000000000000004
+    },
+    {
+      "ataque": 5,
+      "defesa": 13,
+      "bloquear": false,
+      "acerta": 0.65,
+      "critico": 0.05
+    },
+    {
+      "ataque": 5,
+      "defesa": 13,
+      "bloquear": true,
+      "acerta": 0.6464999999999897,
+      "critico": 0.05000000000000004
+    },
+    {
+      "ataque": 5,
+      "defesa": 15,
+      "bloquear": false,
+      "acerta": 0.5499999999999999,
+      "critico": 0.05
+    },
+    {
+      "ataque": 5,
+      "defesa": 15,
+      "bloquear": true,
+      "acerta": 0.5495000000000004,
+      "critico": 0.05000000000000004
+    },
+    {
+      "ataque": 5,
+      "defesa": 16,
+      "bloquear": false,
+      "acerta": 0.49999999999999994,
+      "critico": 0.05
+    },
+    {
+      "ataque": 5,
+      "defesa": 16,
+      "bloquear": true,
+      "acerta": 0.5005000000000004,
+      "critico": 0.05000000000000004
+    }
+  ],
+  "pressao": [
+    {
+      "aplicacao": "Carregador",
+      "vida_maxima": 23,
+      "media_por_declaracao": 3.4249999999999994,
+      "zero_em_uma_cheio": 0,
+      "zero_em_duas_cheio": 0,
+      "vida_ferida": 12,
+      "zero_em_duas_ferido": 0.16229492187499994
+    },
+    {
+      "aplicacao": "Carregador",
+      "vida_maxima": 14,
+      "media_por_declaracao": 3.4249999999999994,
+      "zero_em_uma_cheio": 0,
+      "zero_em_duas_cheio": 0.04856445312499999,
+      "vida_ferida": 7,
+      "zero_em_duas_ferido": 0.5024999999999998
+    },
+    {
+      "aplicacao": "Carregador",
+      "vida_maxima": 17,
+      "media_por_declaracao": 3.4249999999999994,
+      "zero_em_uma_cheio": 0,
+      "zero_em_duas_cheio": 0.00447265625,
+      "vida_ferida": 9,
+      "zero_em_duas_ferido": 0.3560937499999999
+    },
+    {
+      "aplicacao": "Candidata_n2",
+      "vida_maxima": 23,
+      "media_por_declaracao": 4.725,
+      "zero_em_uma_cheio": 0,
+      "zero_em_duas_cheio": 0.01445068359375,
+      "vida_ferida": 12,
+      "zero_em_duas_ferido": 0.33415710449218744
+    },
+    {
+      "aplicacao": "Candidata_n2",
+      "vida_maxima": 14,
+      "media_por_declaracao": 4.725,
+      "zero_em_uma_cheio": 0.01640625,
+      "zero_em_duas_cheio": 0.27008605957031245,
+      "vida_ferida": 7,
+      "zero_em_duas_ferido": 0.6731249999999999
+    },
+    {
+      "aplicacao": "Candidata_n2",
+      "vida_maxima": 17,
+      "media_por_declaracao": 4.725,
+      "zero_em_uma_cheio": 0.004687500000000001,
+      "zero_em_duas_cheio": 0.14748901367187495,
+      "vida_ferida": 9,
+      "zero_em_duas_ferido": 0.5540234374999998
+    },
+    {
+      "aplicacao": "Pancada_Sineiro",
+      "vida_maxima": 65,
+      "media_por_declaracao": 7.5,
+      "zero_em_uma_cheio": 0,
+      "zero_em_duas_cheio": 0,
+      "vida_ferida": 33,
+      "zero_em_duas_ferido": 0.014256539887688614
+    },
+    {
+      "aplicacao": "Pancada_Sineiro",
+      "vida_maxima": 44,
+      "media_por_declaracao": 7.5,
+      "zero_em_uma_cheio": 0,
+      "zero_em_duas_cheio": 0.0001530677250038104,
+      "vida_ferida": 22,
+      "zero_em_duas_ferido": 0.26618635598851165
+    },
+    {
+      "aplicacao": "Pancada_Sineiro",
+      "vida_maxima": 51,
+      "media_por_declaracao": 7.5,
+      "zero_em_uma_cheio": 0,
+      "zero_em_duas_cheio": 1.915616426611797e-06,
+      "vida_ferida": 26,
+      "zero_em_duas_ferido": 0.10774227263850784
+    }
+  ],
+  "tr": {
+    "CD12_vs_4_3_2": [
+      0.35,
+      0.4,
+      0.45
+    ],
+    "CD13_vs_5_3_2": [
+      0.35,
+      0.45,
+      0.5
+    ]
+  },
+  "limites": [
+    "Sem críticos Kokusen, propriedades de arma, respostas de Caminho, reação de Aparar ou Brecha, cura, dano de Alma ou resistências.",
+    "Alcance, recursos e liberdade de agir são pressupostos; sem iniciativa, movimento, controle ou missão simulados.",
+    "Dois ataques são duas declarações legalmente disponíveis; a tabela não concede ataque extra a uma ficha.",
+    "Chegar a zero de PV de jogador não é morte ou derrota automática."
+  ]
+}

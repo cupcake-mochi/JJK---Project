@@ -1,0 +1,92 @@
+{
+  "etapa": 77,
+  "arquivos_iniciais": 289,
+  "arquivos_anteriores_preservados": 273,
+  "arquivos_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md",
+    "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md",
+    "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md",
+    "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md",
+    "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md",
+    "06 - Redacao do Guia/67-preparar-chefes-e-confrontos-maiores.md",
+    "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md",
+    "06 - Redacao do Guia/74-regua-inicial-de-inimigos.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "arquivos_novos": [
+    "04 - Planejamento/77-integracao-do-metodo-de-inimigos.md",
+    "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md",
+    "04 - Planejamento/apoio-integracao-c04/estado-inicial.json",
+    "04 - Planejamento/apoio-integracao-c04/verificacao.json"
+  ],
+  "total_final": 293,
+  "fonte_r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "matriz_identificadores": 130,
+  "estado_final_copiado": {
+    "Rina": {
+      "PV": 52,
+      "integridade": 50,
+      "PE": 24,
+      "posicao": "E6"
+    },
+    "Mei": {
+      "PV": 44,
+      "integridade": 55,
+      "PE": 24,
+      "posicao": "D4"
+    },
+    "Akira": {
+      "PV": 51,
+      "integridade": 65,
+      "PE": 16,
+      "posicao": "G12"
+    },
+    "Ren": {
+      "PV": 46,
+      "integridade": 36,
+      "PE": 1,
+      "posicao": "F-1"
+    },
+    "Sora": {
+      "PV": 0,
+      "integridade": 24,
+      "PE": 1,
+      "posicao": "H12"
+    }
+  },
+  "corpos_preservados": [
+    "G74: corpo numérico",
+    "G68: casos concretos",
+    "G61: exemplo Agarrar, exceto rótulo editorial"
+  ],
+  "links_locais_novos_conferidos": {
+    "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md": true,
+    "06 - Redacao do Guia/69-carregador-vigilante-prototipo-de-chefe.md": true,
+    "06 - Redacao do Guia/70-comparar-a-vigilia-e-preparar-a-doma.md": true,
+    "06 - Redacao do Guia/71-sineiro-do-recolhimento.md": true,
+    "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md": true,
+    "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md": true,
+    "06 - Redacao do Guia/75-ren-e-sora-atacante-e-apoio.md": true,
+    "06 - Redacao do Guia/76-confronto-de-ren-e-sora.md": true,
+    "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md": true,
+    "04 - Planejamento/77-integracao-do-metodo-de-inimigos.md": true,
+    "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md": true,
+    "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md": true,
+    "06 - Redacao do Guia/56-preparar-inimigos-e-avaliar-encontros.md": true,
+    "06 - Redacao do Guia/59-recursos-e-ritmo-dos-inimigos.md": true,
+    "06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md": true,
+    "06 - Redacao do Guia/65-comparar-confronto-e-pressao-ambiental.md": true,
+    "06 - Redacao do Guia/67-preparar-chefes-e-confrontos-maiores.md": true,
+    "04 - Planejamento/76-dupla-de-nivel-6-e-composicao.md": true
+  },
+  "problemas": [],
+  "escopo_de_links": "Destinos locais novos/alterados nas16 revisões e todos os destinos locais dos2 textos novos; não revalidou cada link histórico, âncoras ouURLs.",
+  "limites": "Conferência editorial e preservação. Sem nova simulação ou sessão humana; entrada copiada conferida documentalmente, saída comparada ao JSON do percurso anterior."
+}

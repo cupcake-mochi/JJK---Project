@@ -4,6 +4,10 @@ Quando uma proposta depende do lugar, estabeleça onde estão os envolvidos, o c
 
 Leia esta seção como complemento de [Conduzir uma sessão](04-conduzir-uma-sessao.md). Os exemplos usam o anexo quando indicam isso; os demais são casos separados para ensinar as regras. A [ficha de consulta do anexo](03-as-batidas-no-anexo-consulta.md) conserva seu preparo e suas medidas.
 
+## Casos para consultar
+
+[Percursos, apoios e quedas](84-percursos-apoios-e-quedas.md) resolve correnteza, salto com risco combinado, passagem estreita com bagagem, queda sobre criatura, Obras de Apoio e Parkour. [Trajetórias, ferramentas e improvisação](85-trajetorias-ferramentas-e-improvisacao.md) aplica Ricochete, instalação de corda, fechaduras, contenção e dois perfis de arma improvisada. Os casos têm posições e custos próprios; não alteram as medidas do anexo.
+
 ## Estabeleça a posição antes da decisão
 
 Um mapa pode mostrar o que importa, mas uma descrição também pode bastar. Use a mesma escala e as mesmas posições para todos. Se não houver mapa, registre as medidas relevantes em múltiplos de 1,5 m e esclareça antes de resolver uma ação que dependa delas.
@@ -80,6 +84,10 @@ A capacidade de carregar, erguer ou arrastar determina o que pode ser movido. El
 Para arrastar pelo chão, cada trecho de 1,5 m custa 3 m de movimento, com o custo adicional correspondente se houver terreno difícil. Se uma criatura resistir, capacidade de carga não substitui os requisitos de Agarrar.
 
 Transportar em grupo também tem regras de carga, mãos, percurso e momento de agir. Em combate, compartilhar um objeto não permite mover todos fora dos próprios momentos de ação sem Preparar ou outra permissão. A solução deve caber nos recursos dos envolvidos.
+
+### Quando o objeto será usado como arma
+
+Escolha o perfil antes do ataque. Se funcionar como uma arma do catálogo, use a referência com seu treino, mãos e requisitos, conservando apenas propriedades compatíveis. Sem referência adequada, confira o perfil de improvisação da R53: 1d4, atributos e faixas próprios, Maestria e desvantagem sem treino específico. O Volume permanece o do objeto. Os [casos do cabo e da garrafa](85-trajetorias-ferramentas-e-improvisacao.md) mostram ataque, dano e quebra anunciada.
 
 ## Ajuda e distração precisam de uma contribuição
 

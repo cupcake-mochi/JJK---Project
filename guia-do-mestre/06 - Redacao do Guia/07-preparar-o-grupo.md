@@ -81,7 +81,7 @@ Combinem os meios de comunicação, a duração prevista dos encontros e o que f
 
 Essas formas de organização preservam os estados de jogo. Trocar de mesa não renova usos, e uma pessoa disponível em mais encontros não recebe automaticamente mais tempo de atividades fora de missão. Essa disponibilidade seguirá o procedimento comum adotado para a campanha ou guilda.
 
-No planejamento do Guia, atividades fora de missão recebem tratamento próprio. Enquanto seus procedimentos novos estiverem em desenvolvimento, a ficção pode mostrar estudo, prática e convívio, aplicando os efeitos que as regras existentes realmente concedem. Não atribua bônus, etapas ou perda de capacidades por um treinamento ainda sem regra adotada.
+Use [Atividades e tempo entre missões](39-atividades-e-tempo-entre-missoes.md) para organizar o cotidiano, os projetos e a dedicação de cada ficha. O Guia já apresenta esse procedimento. A expansão de treinamentos específicos ainda não define benefícios: estudo, prática e convívio aplicam apenas os efeitos das regras adotadas pela campanha.
 
 ## Termine com algo pronto para jogar
 

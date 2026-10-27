@@ -46,6 +46,8 @@ Uma receita precisa definir o efeito final e respeitar as regras do equipamento.
 
 O reparo também distingue material e poder. Reconstituir uma lâmina não recupera automaticamente uma função sobrenatural perdida. O projeto deve dizer o que será restaurado. Usos já consumidos e poder encerrado por Desgaste não voltam por conserto comum.
 
+[Anel de Testemunho](96-fabricar-e-identificar-o-anel.md) reúne ficha experimental, comparação de grau, pistas de identificação e processo de fabricação completo. A marca da ferramenta registra uma abertura; não contém objetos amaldiçoados.
+
 ## Desgaste acompanha o objeto
 
 Desgaste é uma propriedade registrada na ficha que permite antecipar o uso de um efeito antes do nível mínimo. O portador não a acrescenta por iniciativa própria. Grau 2 permite duas missões de uso; grau 1 ou especial, três. No grau 3, uma missão torna o efeito temporário, pois não há nível mínimo a dispensar. Grau 4 não recebe Desgaste.
@@ -78,3 +80,5 @@ Um objeto preparado como amuleto pode usar um selo para afastar maldições. A p
 Ingerir um objeto desconhecido não concede automaticamente poderes, nova Origem ou controle da presença contida. Se essa possibilidade estiver no cenário, prepare suas consequências e comunique os riscos acessíveis à personagem. Uma alteração da ficha deve respeitar o acordo e as regras pertinentes; a ingestão não substitui esse processo.
 
 Destruir o recipiente e destruir o objeto também são coisas distintas. Condições próprias de destruição precisam constar da preparação. Não use o procedimento de quebrar um item comum como solução automática para qualquer objeto amaldiçoado.
+
+A [Pastilha do Último Aviso](98-objeto-selado-e-risco-de-ingestao.md) é uma preparação experimental completa: alcance e prazo locais, aviso de risco, renovação, ingestão e neutralização. Suas consequências e formas de encerramento são conhecidas antes da escolha.

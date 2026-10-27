@@ -29,6 +29,8 @@ Uso Livre pode resolver tarefas pequenas compatíveis com a técnica. Uma chama 
 
 O mesmo cuidado vale fora do combate. O procedimento de Efeito fora de combate oferece referências de escala e duração para uma aplicação preparada. “Afetar uma casa” não concede todos os resultados possíveis dentro dela. Registre a alteração pretendida e as peças necessárias. Quando existe oposição ou um efeito mecânico específico, conserve sua resolução.
 
+[Efeitos de cena e cancelamento](95-efeitos-de-cena-e-cancelamento.md) demonstra um feitiço comum de utilidade, seu custo, término na passagem para combate e a diferença para uma Máxima.
+
 ## Confira a aquisição
 
 O preço de uma capacidade inclui a escolha usada para aprendê-la. Categoria de Efeito, abreviada CE, classifica certas capacidades; Classe organiza a montagem e o uso de feitiços. São medidas diferentes.
@@ -108,3 +110,5 @@ As Restrições têm uma revisão prevista: depois de **três sessões em que o 
 Anote o que aconteceu, sem criar obstáculos artificiais apenas para justificar uma devolução. Se a proposta usa uma condição sempre garantida naquela campanha, a comparação precisa reconhecer isso.
 
 As outras mudanças respeitam as permissões de revisão da ficha. Ao subir de nível, Ampliar e reescrever não significam a mesma coisa: Ampliar conserva as compras e recalcula seus valores; mudar peças exige a revisão apropriada. Correções por mudança das regras seguem a concessão específica da R53. Confira também [Conferir personagens](25-conferir-personagens.md).
+
+Em [Ampliar uma mescla e trocar sua Forma](93-ampliar-mesclas-e-trocar-formas.md), as linhas de Classes 3 e 4 conservam as compras, registram as parcelas e mostram quem recebe dano e cura. A troca por Forma Fluida é conferida separadamente.

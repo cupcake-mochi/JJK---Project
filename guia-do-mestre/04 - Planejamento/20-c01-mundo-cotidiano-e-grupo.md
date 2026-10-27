@@ -1,5 +1,7 @@
 # C01 — primeira redação de mundo, cotidiano e grupo
 
+> **Atualização de 26/10/2026:** L8 foi entregue no [registro 84](84-lote8-mundo-para-consulta.md) e nas seções 86/87/88. A consulta de sociedade, os aprofundamentos sinalizados e o índice de termos agora têm base escrita. O texto abaixo conserva o levantamento histórico. Veja [fontes desta etapa](apoio-lote8/fontes-conferidas.md) e [cobertura atual](apoio-lote8/cobertura-atualizada.json).
+
 21 de outubro de 2026. Continuação autorizada por Mizuki para desenvolver o manuscrito pré-1.0. Esta etapa entrega o núcleo inicial de C01, com entrada essencial, preparação do grupo e duas ferramentas. O capítulo ainda terá aprofundamentos próprios; o material atual não representa uma edição completa do Guia.
 
 ## Entregas

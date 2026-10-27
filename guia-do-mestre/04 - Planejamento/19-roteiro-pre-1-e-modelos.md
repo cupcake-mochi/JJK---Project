@@ -1,6 +1,16 @@
 # Roteiro do manuscrito pré-1.0 e modelos por tarefa
 
-21 de outubro de 2026. Direção escolhida por Mizuki: desenvolver o material completo e incorporar sugestões durante a produção. A edição de leitura será anterior à 1.0. Os arquivos atuais ainda são partes do manuscrito; não constituem a edição completa.
+21 de outubro de 2026. Direção escolhida por Mizuki: desenvolver o material completo e incorporar sugestões durante a produção. A edição de leitura será anterior à 1.0. Essa direção histórica levou à edição de leitura e ao PDF registrados abaixo.
+
+## Fila vigente após a edição diagramada
+
+O [registro92](92-revisao-critica-e-edicao-diagramada.md) entrega a revisão crítica estrutural e dirigida, a edição de leitura 2 e o PDF com referência visual na R53. A correção das quebras de parágrafo apontada pelo autor foi incorporada à diagramação e à revisão das provas. Os limites dos exemplos continuam explícitos; a decisão87 e a habilidade publicada de Reserva permanecem preservadas.
+
+A fila segue **incorporação de retorno → revisão dirigida por capítulo → circulação da pré-1.0 → avaliação de uma candidata à 1.0**. A revisão realizada não equivale a uma nova conferência semântica de cada linha nem a teste humano. Treinamentos novos, atualização integral do Bestiário e eventual escala geral de dificuldade mantêm trabalhos próprios.
+
+**Próxima tarefa:** incorporar observações de leitura e corrigir as fontes, com **GPT-6.1 Sol, esforço alto**. Usar **GPT-6 Astra, esforço extra alto**, quando houver contradição mecânica ou uma decisão que afete várias partes. Conferir visualmente toda página alterada após cada regeneração.
+
+As atualizações cronológicas abaixo conservam a história e não mandam reiniciar entregas concluídas.
 
 ## Forma de trabalho
 
@@ -73,8 +83,60 @@ Ao encerrar uma resposta ou entrega, indicar **a próxima tarefa concreta, o mod
 
 **Continuação:** reconstrução e transferência escolhidas na comparação 38 e redigidas na seção 46. Reconstrução usa metade do tempo da Classe nova; transferência usa um oitavo, mínimo duas horas. A proposta inicial da diferença exata não foi adotada.
 
-**Próxima tarefa recomendada:** preparar um encontro curto com o Carregador de sinos e um elemento ambiental, usando base experimental identificada. Completar corpo, percurso, informação, respostas, retirada e encerramento. Os [critérios 65](65-criterios-e-interacoes-das-habilidades.md) e as seções 60/61 já distinguem regras conservadas, adaptações e criações e conferem suas interações. O exemplo seguinte aplica o método sem presumir PE ou recarga em toda ação. **GPT-6 Astra, esforço extra alto**, pelas interações; prosa com **GPT-6.1 Sol alto**. Não reabrir Bestiário integral ou treinos nem declarar uma curva geral de dificuldade a partir do caso.
+**Entrega atual:** [66 — Encontro do Carregador](66-encontro-do-carregador-de-sinos.md) e seções 62/63 completam o encontro autorizado. Conferências de regras, contas e preservação registradas; números e talento de Doma continuam experimentais.
+
+**Continuação entregue:** [67 — Perigo da passarela](67-perigo-da-passarela-e-do-guincho.md) e seção64 completam o perigo proposto. Cronograma local e limites de verificação identificados.
+
+**Composição entregue:** [68 — Confronto com objetivo e pressão ambiental](68-confronto-com-objetivo-e-pressao-ambiental.md) e seções 65/66: três referências comparáveis, ficha conservada, portão e serviço, intervenção, transporte e continuidade. Valores e dispositivo experimentais.
+
+**Método entregue:** [69 — Chefes e confrontos maiores](69-metodo-de-chefes-e-confrontos-maiores.md) e seções67/68: comparação de recursos, janelas de resposta, fases, controle, encerramento e ferramenta aplicada. Sem ficha ampliada ou multiplicadores adotados.
+
+**Protótipo entregue:** [70 — Carregador vigilante](70-prototipo-do-carregador-vigilante.md) e seções69/70. Reserva de movimento, Reação comum, comparação com Preparar e conversãoCE1 sem acumular transporte. Registro histórico: a resposta autoral pediu reavaliação; o protótipo deixou de ser a recomendação principal, conforme o registro 71. Não há escolha binária pendente a reapresentar.
+
+**Reavaliação entregue:** [71 — Comparação externa](71-reavaliacao-do-chefe-e-comparacao-externa.md). O protótipo foi retirado da recomendação de exemplo principal de chefe; preservado como estudo de movimento. O pedido do autor foi comparar e revisar, sem aprovar CE1. Prioridade imediata corrigida para função e capacidade central.
+
+**Reconstrução entregue:** [72 — Sineiro](72-reconstrucao-do-chefe-sineiro.md), seções 71/72. Ameaça e respostas descritas; números iniciais e aquisição compatível preparados, ainda experimentais.
+
+**Comparação entregue:** [73 — Pressão e sobrevivência](73-pressao-e-sobrevivencia-do-sineiro.md). Versão 2 experimental nas seções 71/72; sem declarar equilíbrio ou aplicar números a todo grupo.
+
+**Ensaio entregue:** [74 — Ensaio guiado do Sineiro](74-ensaio-guiado-do-sineiro.md), seção 73: dois percursos fixos, com objetivo, ações, movimento, recursos e socorro. Ficha preservada e limites declarados.
+
+**Régua inicial entregue:** [75 — Primeira régua de inimigos](75-primeira-regua-de-inimigos.md), seção74. Referências experimentais para níveis2/6, sem fórmula universal ou dificuldade garantida.
+
+**Composição entregue:** [76 — Dupla de nível6](76-dupla-de-nivel-6-e-composicao.md), seções75/76. Atacante e apoio, capacidades, recursos, foco e perda de pressão quando um cai.
+
+**Integração entregue:** [77 — Método e ficha única](77-integracao-do-metodo-de-inimigos.md), com preenchimento da dupla e navegação por função. Números preservados e lacunas registradas.
+
+**Etapa seguinte à época, agora entregue:** procedimento ambiental e exposição recorrente, registro 78.
+
+**Ampliação entregue:** [78 — Perigos e exposição](78-perigos-ambientais-e-exposicao.md), seções 78/79. Procedimento geral e caso recorrente com parâmetros locais, conferências e limitações.
+
+**Etapa seguinte à época, agora entregue:** ferramentas e passagem de C10, registro 79.
+
+**C10 entregue:** [79 — Ferramentas e passagem](79-c10-ferramentas-e-passagem.md), seções 80/81 e conexão dos modelos anteriores. Núcleo de consulta e exemplo preenchido, com limitações declaradas.
+
+**Próxima tarefa recomendada:** auditar a cobertura do manuscrito contra os 130 pontos e as 20 competências, identificando explicação, exemplo, ferramenta, pendência e decisão autoral. Priorizar as lacunas antes de organizar a edição completa de leitura. **GPT-6 Astra, esforço extra alto**, para cruzar os requisitos; **GPT-6.1 Sol, esforço alto**, para complementos e clareza. Treinamentos e Bestiário integral continuam adiados.
 
 ## Base das recomendações de modelo
 
-A [orientação oficial de seleção de modelos da OpenAI](https://developers.openai.com/api/docs/guides/model-selection), consultada em 21 de outubro de 2026, apresenta Sol para trabalho complexo com atenção a tempo e custo, Astra para análise exigente e Luna para tarefas delimitadas. Também orienta experimentar configurações na mesma tarefa. **A aplicação a capítulos de RPG e os esforços específicos desta tabela são recomendações do assistente**, não uma classificação oficial de qualidade para este livro ou uma garantia de desempenho. Não foi feito um teste comparativo entre modelos neste projeto.
+A [orientação oficial de seleção de modelos da OpenAI](https://developers.openai.com/api/docs/guides/model-selection), consultada novamente em 26 de outubro de 2026 com OpenAI Docs, recomenda escolher modelo e esforço conforme exigência, custo, latência e qualidade observada na tarefa. **A aplicação a capítulos de RPG e os esforços específicos desta tabela são recomendações do assistente**, não uma classificação oficial para este livro nem uma garantia de desempenho. Não foi feito um teste comparativo entre modelos neste projeto. Os nomes disponíveis foram conferidos no ambiente da conversa; a recomendação não muda o seletor automaticamente.
+
+**Auditoria entregue:** [80 — Cobertura e lacunas](80-auditoria-de-cobertura-e-lacunas.md). Diagnóstico por ponto/competência e fila ordenada. Próximo: L1: completar sucesso com custo, testes coletivos e empate na iniciativa, conferindo a R53 e preparando exemplos para o leitor. **GPT-6 Astra, esforço extra alto**, para regras e casos; **GPT-6.1 Sol, esforço alto**, para redação e integração.
+
+**L1 entregue:** [registro 81](81-lote1-testes-grupo-e-iniciativa.md), seção 82 e integração nas seções 04/05/80. **Próximo:** L3 — completar percepção e informação: Esconder, Ler o Ambiente, Intuição e lembranças, busca energética com interferência e sinais/assinaturas. **GPT-6 Astra, esforço extra alto**, para regras e casos; **GPT-6.1 Sol, esforço alto**, para clareza e integração.
+
+**L3 entregue:** [registro 82](82-lote3-percepcao-e-informacao.md), seção 83 e integração à investigação e consulta. **Próximo:** L2 — espaço, objetos e capacidades do cenário: travessias, saltos com risco, queda sobre criatura, trajetórias, ferramentas, contenção e arma improvisada. **GPT-6 Astra, esforço extra alto**, para regras e exemplos; **GPT-6.1 Sol, esforço alto**, para clareza e integração.
+
+**L2 entregue:** [registro 83](83-lote2-espaco-objetos-e-capacidades.md), seções 84/85 e integração à consulta. **Próximo:** L8 — mundo para consulta: sociedade, funções institucionais, diferentes modos de vida, aprofundamentos sinalizados e índice de termos. **GPT-6.1 Sol, esforço alto**, para curadoria e redação; **GPT-6 Astra, esforço alto**, se houver interpretação autoral em disputa. Conferir fontes primárias quando necessário e preservar a entrada sem revelações da trama.
+
+**L8 entregue:** [registro 84](84-lote8-mundo-para-consulta.md), seções 86/87/88. **Próximo:** L4 — personalização e cuidados dos personagens: vida rolada, família original, reparo corporal, CE4/condição, cuidados e comparação de Reserva Condensada. **GPT-6 Astra, esforço extra alto**, para análise; **GPT-6.1 Sol, esforço alto**, para redação. A referência comum de Reserva Condensada será apresentada ao autor depois da comparação concreta.
+
+**L4 parcial:** [registro 85](85-lote4-personalizacao-e-cuidados.md), seções 89–92; M051 pendente. **Próximo:** Decidir com o autor o papel de Reserva Condensada e fechar a referência a partir dos modelos, usos e cadências comparados. **GPT-6 Astra, esforço extra alto**, para comparação; **GPT-6.1 Sol, esforço alto**, para consolidar a redação após a escolha. Os cinco exemplos de L4 já entregues não precisam ser reiniciados.
+
+**L6 entregue:** [registro 88](88-lote6-montagens-e-pareceres.md), seções 93–95, seis M completados. **Próximo:** L5 — equipamento, projetos e reconhecimento: ferramenta original e processo especial; objeto ou selo com risco de ingestão; negociação/revenda; feito do Limiar e promoção. **GPT-6 Astra, esforço extra alto**, para projetos e efeitos; **GPT-6.1 Sol, esforço alto**, para revisão de clareza.
+
+**L5 entregue:** [registro 89](89-lote5-equipamento-projetos-e-reconhecimento.md), seções 96–99, oito M completados. **Próximo:** L7 — ampliar referências de ameaças e perigos a partir da R53, comparar perfis/chefes/composições e completar uma consequência prolongada. **GPT-6 Astra, esforço extra alto**, para análise e cálculos; **GPT-6.1 Sol, esforço alto**, para revisão de clareza. Depois: conferência editorial restante e integração da edição de leitura.
+
+**L7 entregue:** [registro 90](90-lote7-ameacas-e-consequencias-prolongadas.md), seções 100–103, M124/M129 e P14/P15 demonstrados. **Próximo:** Conferir M051 no escopo publicado de Reserva, sem retomar modelos descartados, e integrar a edição de leitura: ordem de capítulos, remissões, repetições e consultas. **GPT-6.1 Sol, esforço alto**. Contradições mecânicas novas, se aparecerem, ficam para análise separada com Astra extra alto.
+
+**Edição de leitura integrada:** [registro91](91-integracao-da-primeira-edicao-de-leitura.md); M051/P20 concluídos no escopo publicado. **Próximo:** Revisar o manuscrito organizado como conjunto, em passagens por capítulo: clareza, coerência entre exemplos e regra, caminhos de consulta e pontos de decisão. **GPT-6 Astra, esforço extra alto**, para a revisão crítica; **GPT-6.1 Sol, esforço alto**, para aplicar correções. O retorno de leitores pode ser incorporado em paralelo; não bloqueia a revisão interna.

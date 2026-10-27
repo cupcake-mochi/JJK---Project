@@ -1,0 +1,21 @@
+{
+  "versao": 1,
+  "estatuto": "proposta local; sem aprovação de prazo, dificuldade ou economia universal",
+  "fonte_inimigo": "../apoio-carregador/dados-encontro.json",
+  "nos": ["A", "G", "C", "P", "Q"],
+  "arestas_regulares_m": [["A", "G", 3], ["G", "C", 3], ["C", "P", 6], ["P", "Q", 6], ["Q", "A", 6]],
+  "aresta_bloqueada_por_portao": ["G", "C"],
+  "largura_m": 3,
+  "estados_ate_fechamento": 3,
+  "comando": {"material": "madeira", "porte": "objeto de mão resistente", "defesa": 14, "pv": 10},
+  "portao": {"material": "ferro ou aço", "porte": "objeto maior resistente", "defesa": 18, "pv": 40},
+  "socorrista": {"forca": 2, "itens_proprios_volume": 1, "deslocamento": 9},
+  "transportado": {"massa_kg": 72, "itens_volume": 2},
+  "regras_da_contagem": {
+    "abertura": "marcador zero, iniciativa completa antes do primeiro avanço",
+    "fase": "uma ao fim de cada rodada completa",
+    "ocupacao_no_estado_tres": "aguarda aberto; só verifica novamente no próximo fim de rodada",
+    "parada": "preserva a posição atual; não reabre",
+    "destruicao_folha": "libera vão e impede novos fechamentos"
+  }
+}

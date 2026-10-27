@@ -1,0 +1,60 @@
+{
+  "etapa": 91,
+  "evidencias_conferidas": 324,
+  "pontos": {
+    "E": 130,
+    "P": 0,
+    "L": 0
+  },
+  "competencias": {
+    "E": 20,
+    "P": 0
+  },
+  "capitulos": 10,
+  "paginas_HTML": 16,
+  "fontes_incorporadas": 103,
+  "fontes_numeradas_com_destino": 103,
+  "consultas_na_busca": 102,
+  "links_HTML": 1022,
+  "destinos_locais_conferidos": 1166,
+  "recursos_locais": 48,
+  "tabelas_HTML": 295,
+  "imagens_no_corpo": 0,
+  "IDs_no_manuscrito": 936,
+  "cortes_editoriais": 4,
+  "R53_intacta": true,
+  "observacao_no_navegador": {
+    "abertura": "capturada e inspecionada em navegador local",
+    "busca": "socorro:48 consultas, Quedas e socorro no topo; clique abriu consulta22",
+    "apresentacao": "desktop; sem avaliação por leitores externos ou teste móvel real",
+    "previa": "previa-da-edicao.jpg"
+  },
+  "limites": "Integração estrutural, remissões, fontes e navegação. Sem nova revisão semântica integral de cada passagem, aprendizagem observada ou validação de equilíbrio.",
+  "problemas": [],
+  "data": "2026-10-26",
+  "manifesto_anterior": 399,
+  "arquivos_anteriores_intactos_antes_da_instalacao": 399,
+  "arquivos_atualizados": 12,
+  "arquivos_novos_no_manifesto": 31,
+  "arquivos_anteriores_sem_alteracao": 387,
+  "copias_historicas_conferidas": 12,
+  "manifesto_final": 430,
+  "remissoes_de_integracao": 54,
+  "matriz_130_linhas_preservada": true,
+  "competencias_20_linhas_preservadas": true,
+  "decisao_Reserva": "Detalhamento descartado; habilidade publicada mantida. Conferência sem números novos.",
+  "R53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "revisao_editorial": [
+    "Registro de Reserva limita-se aos quatro campos publicados; exemplo de conferência não atribui valores.",
+    "Exceção de Último Fôlego consultada na fonte, sem criar regra nova.",
+    "Dez capítulos e caminhos por necessidade;17 folhas/exemplos de registro.",
+    "Texto87 em aprofundamento separado, fora da busca e do corpo Markdown.",
+    "Estudos69/70 fora da leitura principal, preservados no acervo.",
+    "Piloto e base incorporados para evitar depender do planejamento ao conduzir a primeira ocorrência.",
+    "Os quatro cortes de metadados/histórico estão registrados com trecho e motivo no mapa.",
+    "Foi corrigida a remissão do Markdown para o aprofundamento87, que precisa apontar ao arquivo separado.",
+    "Busca por socorro e salto para consulta22 observados no navegador; abertura inspecionada.",
+    "Integração estrutural não foi apresentada como nova revisão semântica integral ou diagramação definitiva."
+  ],
+  "sem_envio_ao_GitHub": true
+}

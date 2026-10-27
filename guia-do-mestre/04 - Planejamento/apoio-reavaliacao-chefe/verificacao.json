@@ -1,0 +1,28 @@
+{
+  "data": "2026-10-25",
+  "manifesto_anterior": 254,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/06-registro-das-decisoes.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "06 - Redacao do Guia/69-carregador-vigilante-prototipo-de-chefe.md",
+    "06 - Redacao do Guia/70-comparar-a-vigilia-e-preparar-a-doma.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "anteriores_preservados": 243,
+  "novos": [
+    "04 - Planejamento/71-reavaliacao-do-chefe-e-comparacao-externa.md",
+    "04 - Planejamento/apoio-reavaliacao-chefe/estado-inicial.json",
+    "04 - Planejamento/apoio-reavaliacao-chefe/verificacao.json"
+  ],
+  "total_atual": 257,
+  "links_locais_conferidos": 1146,
+  "historico_conferido": true,
+  "escopo": "Reavaliação documental e editorial. Sem novos testes de combate ou aprovação de mecânica.",
+  "problemas": []
+}

@@ -1,0 +1,118 @@
+{
+  "etapa": 81,
+  "arquivo": {
+    "inicio": "17h40",
+    "fim_normal": "17h50",
+    "fim_com_custo": "18h10",
+    "custo_aceito_minutos": 30,
+    "custo_recusado_minutos": 10,
+    "dado_falho_total": 13,
+    "ajuda_total": 19
+  },
+  "grupo": {
+    "participantes": [
+      {
+        "nome": "Aoi",
+        "d20": 13,
+        "bonus": 3,
+        "total": 16,
+        "sucesso": true
+      },
+      {
+        "nome": "Nao",
+        "d20": 9,
+        "bonus": 3,
+        "total": 12,
+        "sucesso": false
+      },
+      {
+        "nome": "Haru",
+        "d20": 11,
+        "bonus": 3,
+        "total": 14,
+        "sucesso": true
+      },
+      {
+        "nome": "Tomo",
+        "d20": 7,
+        "bonus": 1,
+        "total": 8,
+        "sucesso": false
+      },
+      {
+        "nome": "Emi",
+        "d20": 10,
+        "bonus": 4,
+        "total": 14,
+        "sucesso": true
+      }
+    ],
+    "limiar": 3,
+    "sucessos": 3,
+    "ramo_alternativo_sucessos": 2,
+    "com_contribuicao_decisiva": 3,
+    "quatro_participantes_limiar": 2
+  },
+  "iniciativa": {
+    "participantes": [
+      {
+        "nome": "Haste",
+        "controle": "Mestre, inimigo",
+        "destreza": 3,
+        "d20": 11,
+        "total": 14
+      },
+      {
+        "nome": "Aoi",
+        "controle": "Jogadora",
+        "destreza": 2,
+        "d20": 12,
+        "total": 14
+      },
+      {
+        "nome": "Nao",
+        "controle": "Jogador",
+        "destreza": 2,
+        "d20": 12,
+        "total": 14
+      },
+      {
+        "nome": "Trinco",
+        "controle": "Mestre, inimigo",
+        "destreza": 2,
+        "d20": 12,
+        "total": 14
+      },
+      {
+        "nome": "Dobra",
+        "controle": "Mestre, inimigo",
+        "destreza": 2,
+        "d20": 12,
+        "total": 14
+      }
+    ],
+    "ordem": [
+      "Haste",
+      "Aoi",
+      "Nao",
+      "Trinco",
+      "Dobra"
+    ]
+  },
+  "reclassificados": [
+    "M010",
+    "M014",
+    "M128"
+  ],
+  "contagens_M": {
+    "E": 96,
+    "P": 33,
+    "L": 1
+  },
+  "contagens_P": {
+    "E": 16,
+    "P": 4
+  },
+  "problemas": [],
+  "limites": "Conferência documental e aritmética de exemplos fixos, não simulação de combate, validação de aprendizagem ou teste humano."
+}

@@ -98,6 +98,12 @@ As situações são sugestões originais para conversar com o jogador. Confira s
 
 No Receptáculo, discordar de uma presença não concede controle extra ao mestre nem um segundo turno: consulte a modalidade, as capacidades e os acordos. Na Restrição Celestial, confira o ramo escolhido. Sem Energia e Restrição corporal possuem regras diferentes; percepção e uso de capacidades não podem ser generalizados entre eles.
 
+## Consulte conforme a necessidade
+
+[Sociedade, apoio e modos de vida](86-sociedade-apoio-e-modos-de-vida.md) desenvolve funções institucionais, relações, trabalho, testemunhas e um preparo preenchido. O [índice de termos do mundo](88-indice-de-termos-do-mundo.md) localiza conceitos e procedimentos. Essas duas consultas não exigem conhecer a trama.
+
+**Aprofundamento opcional com revelações importantes da trama:** [Casos da obra para preparar situações](87-casos-da-obra-para-preparar-situacoes.md). O aviso aparece antes dos acontecimentos. Você pode pular essa leitura e seguir com o preparo abaixo.
+
 ## Transforme contexto em uma situação
 
 Escolha um lugar conhecido, uma pessoa que queira algo e uma mudança que permita agir. Então confira o que os personagens podem saber e fazer.
@@ -108,4 +114,4 @@ Os dois pilotos mostram essas possibilidades: [A entrega trocada](<../04 - Plane
 
 Antes de preparar a primeira situação do seu grupo, use [Preparar o grupo](07-preparar-o-grupo.md) para combinar o formato da campanha, sua relação com a obra e as condições de participação.
 
-*Fontes e alcance: [referências de mundo e grupo](REFERENCIAS.md). Esta seção usa o contexto da abertura e as Origens da R53. Não fixa uma época ou região padrão nem cobre toda a sociedade jujutsu; aprofundamentos da obra terão sinalização própria antes das revelações.*
+*Fontes e alcance: [referências de mundo e grupo](REFERENCIAS.md). Esta seção usa o contexto da abertura e as Origens da R53. Não fixa época ou região padrão. [Sociedade, apoio e modos de vida](86-sociedade-apoio-e-modos-de-vida.md) e o [Índice de termos do mundo](88-indice-de-termos-do-mundo.md) ampliam o repertório; [Casos da obra](87-casos-da-obra-para-preparar-situacoes.md) sinaliza as revelações antes do acesso.*

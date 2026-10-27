@@ -112,3 +112,5 @@ Para outra proposta, escreva a exceção com a mesma precisão: o que ultrapassa
 Confira a condição corporal e os cuidados da ficha em conjunto com o CE4. Os três corpos publicados são alternativas completas; não se somam penalidades para comprar benefícios indefinidos. Uma Restrição corporal própria exige comparar o pacote concreto, dentro da exceção de criação prevista na R53.
 
 Saída Elevada tem outra função: oferece pontos adicionais apenas para Melhorias de feitiços comuns da técnica de Classe 1 ou maior. Seus pontos não usados se perdem, e ela não se aplica a Máximas ou Manejos. Não use o CE4 como justificativa para aplicar esse benefício a montagens que a entrada exclui.
+
+Em [Restrição corporal, meios de agir e cuidados](91-restricao-corporal-e-cuidados.md), Nilo reúne Rede Remota, Corpo Quebradiço, entidade e comunicação num caso completo. O exemplo conserva os limites de sentidos, ações e atendimento.

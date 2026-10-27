@@ -1,0 +1,359 @@
+{
+  "tipo": "casos determinísticos; não combate simulado",
+  "casos": [
+    {
+      "caso": "soma de atributos",
+      "resultado": 9,
+      "esperado": 9
+    },
+    {
+      "caso": "CD por Força e Maestria",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "TR igual resiste",
+      "resultado": [
+        false,
+        true
+      ],
+      "esperado": [
+        false,
+        true
+      ]
+    },
+    {
+      "caso": "Integridade do inimigo",
+      "resultado": 16,
+      "esperado": 16
+    },
+    {
+      "caso": "limite normal",
+      "resultado": 8,
+      "esperado": 8
+    },
+    {
+      "caso": "teto de arrasto",
+      "resultado": 16,
+      "esperado": 16
+    },
+    {
+      "caso": "corpo e itens",
+      "resultado": 8.0,
+      "esperado": 8.0
+    },
+    {
+      "caso": "limites sem arredondar",
+      "resultado": [
+        true,
+        false,
+        true,
+        false
+      ],
+      "esperado": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "caso": "equipamento próprio reduz teto de arrasto",
+      "resultado": 15.0,
+      "esperado": 15.0
+    },
+    {
+      "caso": "carga do socorrista",
+      "resultado": 9.0,
+      "esperado": 9.0
+    },
+    {
+      "caso": "socorrista com excesso permitido",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "caso": "rota direta andando",
+      "resultado": 24.0,
+      "esperado": 24.0
+    },
+    {
+      "caso": "rota direta arrastando",
+      "resultado": 42.0,
+      "esperado": 42.0
+    },
+    {
+      "caso": "rota lateral andando",
+      "resultado": 24.0,
+      "esperado": 24.0
+    },
+    {
+      "caso": "rota lateral arrastando",
+      "resultado": 48.0,
+      "esperado": 48.0
+    },
+    {
+      "caso": "turno de Agarrar com Bônus convertida",
+      "resultado": {
+        "indice": 5,
+        "avanco": 7.5,
+        "gasto": 16.5,
+        "sobra": 1.5
+      },
+      "esperado": {
+        "indice": 5,
+        "avanco": 7.5,
+        "gasto": 16.5,
+        "sobra": 1.5
+      }
+    },
+    {
+      "caso": "turno seguinte com Correr",
+      "resultado": {
+        "indice": 12,
+        "avanco": 10.5,
+        "gasto": 25.5,
+        "sobra": 1.5
+      },
+      "esperado": {
+        "indice": 12,
+        "avanco": 10.5,
+        "gasto": 25.5,
+        "sobra": 1.5
+      }
+    },
+    {
+      "caso": "Desengajar não chega no segundo turno",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "caso": "restante após primeiro turno",
+      "resultado": 25.5,
+      "esperado": 25.5
+    },
+    {
+      "caso": "estágio2 com dois movimentos",
+      "resultado": {
+        "indice": 3,
+        "avanco": 4.5,
+        "gasto": 9.0,
+        "sobra": 0.0
+      },
+      "esperado": {
+        "indice": 3,
+        "avanco": 4.5,
+        "gasto": 9.0,
+        "sobra": 0.0
+      }
+    },
+    {
+      "caso": "fronteiras Integridade",
+      "resultado": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "esperado": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "caso": "vida convertida",
+      "resultado": 14,
+      "esperado": 14
+    },
+    {
+      "caso": "Integridade convertida",
+      "resultado": 7,
+      "esperado": 7
+    },
+    {
+      "caso": "perícias da entidade",
+      "resultado": 4,
+      "esperado": 4
+    },
+    {
+      "caso": "vagas de especial",
+      "resultado": 1,
+      "esperado": 1
+    },
+    {
+      "caso": "Defesa com Essência2",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "domada sem técnica não ganha reserva",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "caso": "retorno e cura de vida",
+      "resultado": 7,
+      "esperado": 7
+    },
+    {
+      "caso": "domada arrasto normal",
+      "resultado": 4.5,
+      "esperado": 4.5
+    },
+    {
+      "caso": "domada arrasto difícil",
+      "resultado": 3.0,
+      "esperado": 3.0
+    },
+    {
+      "caso": "domada Correr sem novo Agarrar",
+      "resultado": 9.0,
+      "esperado": 9.0
+    },
+    {
+      "caso": "destruição direta a5PV por21",
+      "resultado": false,
+      "esperado": false
+    },
+    {
+      "caso": "área a5PV por21 não destrói",
+      "resultado": false,
+      "esperado": false
+    },
+    {
+      "caso": "destruição direta a5PV por22",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "caso": "área a5PV por22 não destrói",
+      "resultado": false,
+      "esperado": false
+    },
+    {
+      "caso": "destruição direta a5PV por32",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "caso": "área a5PV por32 não destrói",
+      "resultado": false,
+      "esperado": false
+    },
+    {
+      "caso": "empurrão depende de separação",
+      "resultado": [
+        false,
+        true
+      ],
+      "esperado": [
+        false,
+        true
+      ]
+    }
+  ],
+  "integridade_por_saldo": {
+    "0": 4,
+    "1": 3,
+    "2": 3,
+    "3": 3,
+    "4": 3,
+    "5": 2,
+    "6": 2,
+    "7": 2,
+    "8": 2,
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 0,
+    "14": 0,
+    "15": 0,
+    "16": 0
+  },
+  "fontes_primarias": [
+    {
+      "titulo": "#### Agarrar, derrubar e empurrar",
+      "linha": 667,
+      "sha256_trecho": "af43b3a4df49eb56f0ba07fdf9938f75af2ccc2c5bba87a1ea1b49f3f438c8db"
+    },
+    {
+      "titulo": "#### Escapar de uma contenção",
+      "linha": 699,
+      "sha256_trecho": "44ed3a4b5bdc81e9ac8b5c3288c0b2ac2b185d9875e4440cc0dcecc962e35df0"
+    },
+    {
+      "titulo": "#### Carga",
+      "linha": 970,
+      "sha256_trecho": "efac2ee5b0f83947510225a9c05a6b118c48e88040a125775e0a39f8a59e7ece"
+    },
+    {
+      "titulo": "#### Arrastar e transportar",
+      "linha": 1009,
+      "sha256_trecho": "d0b75d6e4cf0e3143b6ab3690941fbd729fe1b05a25a86b2494ef954a95fe20e"
+    },
+    {
+      "titulo": "### Fechaduras e contenção",
+      "linha": 8059,
+      "sha256_trecho": "174fe2b03da93e93c4ca65e8188021d8f00aec383131feebe3c54b4aa7fac341"
+    },
+    {
+      "titulo": "#### Domar uma maldição",
+      "linha": 14071,
+      "sha256_trecho": "79bfb66fe1a3610a2aaa2d3277831c5fa2d59fbc6c57963adae01b8a3ba507a8"
+    },
+    {
+      "titulo": "### Carga e equipamento",
+      "linha": 13924,
+      "sha256_trecho": "1c1dec6153b7815f41ee09808ed974cb356dda3c3e0905178ce76860eff8a8a6"
+    },
+    {
+      "titulo": "#### Características próprias",
+      "linha": 14530,
+      "sha256_trecho": "dd5c870ff4c5d6b1a07e1447b888a3eaaf2d8df893be2bf8b405159e4b04d649"
+    },
+    {
+      "titulo": "##### Leitura de Reservas",
+      "linha": 3223,
+      "sha256_trecho": "25d6a868c43bb01eba2b032de78b7b33d1db5345aee7ae18e3be7cfe35cc6fbb"
+    }
+  ],
+  "ancoras_conferidas": [
+    "campo--inv-basica",
+    "campo--inv-carga",
+    "campo--inv-energia",
+    "campo--inv-entrada",
+    "campo--inv-intencao",
+    "campo--inv-queda",
+    "campo--inv-retorno",
+    "construcao--entidades-atributos",
+    "construcao--entidades-domar",
+    "construcao--entidades-vida-defesa",
+    "dano--derrota",
+    "dano--integridade",
+    "dano--leves",
+    "geral--acoes",
+    "geral--ajudar",
+    "geral--arrasto",
+    "geral--carga",
+    "geral--contencoes",
+    "geral--espacos",
+    "geral--estudar",
+    "geral--ler",
+    "geral--manobras",
+    "geral--movimento",
+    "geral--turnos"
+  ]
+}

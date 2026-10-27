@@ -303,3 +303,154 @@ Fonte mecânica: R53, Agarrar/derrubar/empurrar, Escapar de uma contenção, Tur
 A intenção do Carregador de sinos vem da base editorial local de inimigos; seu recorte didático declara parâmetros próprios e usa Agarrar publicado. Trançar placas permanece proposta local, agora com fonte e dependência explícitas. Não foram concedidas aptidões da R53 por analogia de nome ou aparência.
 
 A nova Pesquisa de Campo — Inimigos, Itens e Técnicas, produzida pelo Claude, recebeu leitura dirigida de índice, seleção de inimigos e trechos do relatório de design. Foi usada para localizar questões de decisão, sinal e resposta. Não houve validação integral dessa pesquisa, importação de estatísticas ou edição do acervo. R53, decisões do autor e base do piloto preservadas; sem sessão humana ou nova simulação de combate.
+
+## Seções 62–63 — Encontro do Carregador e Doma
+
+Fonte primária: [R53 recuperada do commit f13e081](<../04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md>), SHA-256 `7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d`. O arquivo do GitHub estava em `sistema/05-material/livro/ciclo-maldito-r41/LIVRO-COMPLETO.md`; o nome histórico da pasta não corresponde à revisão do conteúdo. O [registro 66](<../04 - Planejamento/66-encontro-do-carregador-de-sinos.md>) relaciona regras consultadas e âncoras: ações/conversões, manobras/contenções, espaço, terreno, carga/arrasto, informação, amarras, Integridade, socorro, Doma, construção e campo de entidades.
+
+Conceito retomado pelos registros61/65 e seções60/61. A base editorial original de Conceitos de Ideias para o sistema não foi recuperada nesta etapa; não houve alegação de releitura. Galpão, caixa, geografia, ficha32PV e comportamento específico são criação local. Talento de transporteCE1 da domada é proposta expressa, com limite8, sem duplicação pelo arrasto. Não se importaram números do Bestiário antigo ou de outro sistema.
+
+Índice e camada curada da Pesquisa de Campo — Inimigos, Itens e Técnicas relidos, para localizar sinal, decisão e resposta. A pesquisa paralela não foi editada nem auditada integralmente. Conferências desta entrega são documentais, aritméticas e de preservação de arquivos; não equivalem a teste humano, simulação integral de combate ou validação de equilíbrio.
+
+## Seção64 — A passarela e o guincho
+
+Fonte primária: a [R53 recuperada](<../04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md>), SHA-2567311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d. Leitura dirigida de Turnos/conversões, Preparar, Movimento/escalada, Saltos, Quedas e Queda sobre uma criatura, Danificar objetos/Objetos e efeitos, Estudar, manipulação de itens, Carga/transporte e Vida a zero/Socorro. O [registro67](<../04 - Planejamento/67-perigo-da-passarela-e-do-guincho.md>) identifica a aplicação de cada fonte.
+
+Guincho, freio, geometria e três rodadas são elaboração local experimental. MadeiraDef14/peça5PV e queda6m/2d6 aplicam tabelas publicadas, sem tabela universal nova de perigo. Não houve consulta externa de engenharia, auditoria do acervo, teste humano ou validação de dificuldade. Cenário e cronograma permanecem revisáveis.
+
+## Seções 65–66 — Composição de confronto e pressão ambiental
+
+Fonte mecânica: R53, Turnos/Conversão de ações, Preparar, Reações e ataques de oportunidade, Agarrar/Contenções, Movimento, Carga/Arrastar, Danificar objetos/Vida do objeto/Objetos e efeitos, Vida a zero/Socorro e atuação das entidades. Cópia conferida em apoio-carregador/fontes. A ficha do Carregador e sua Doma vêm das seções62/63; nenhuma estatística foi modificada. O perigo da seção64 continua separado.
+
+Portão, corredor de serviço, cronograma0–3, sensor de ocupação, parada e resultados de dano nas peças são definição local do cenário. Defesa14/PV10 e Defesa18/PV40 aplicam as tabelas publicadas aos materiais/portes escolhidos. Não são escala de dificuldade, cânone ou validação de engenharia real. O [registro68](<../04 - Planejamento/68-confronto-com-objetivo-e-pressao-ambiental.md>) documenta fontes, revisão,41 casos e limites. Sem fonte externa nova, teste humano, simulação integral ou adoção de números pelo autor.
+
+## Seções67–68 — Chefes e confrontos maiores
+
+Base: R53, Turnos/Conversão, Preparar, Reações/Oportunidade, Integridade e Turnos das entidades; procedimentos de contenção, derrota, socorro e aquisição cruzados com as seções existentes. A aplicação conserva a ficha e o cenário das seções62/63/66. A linha com dois corpos é comparação hipotética de ações e reservas separadas, sem recomendação de dificuldade.
+
+Pesquisa dirigida no relatório05, camada curada01 e recorte inicial do relatório08 do acervo Inimigos, Itens e Técnicas. Conferência externa em25/10/2026: [D&D Beyond — How to Use a Monster](https://www.dndbeyond.com/sources/dnd/br-2024/how-to-use-a-monster), Legendary Actions; [Pathfinder2e — GM Core: Building Creatures](https://2e.aonprd.com/Rules.aspx?ID=2874), Action Economy e Reactive Abilities. A seleção, as inferências e os limites estão no [registro69](<../04 - Planejamento/69-metodo-de-chefes-e-confrontos-maiores.md>). Sem importação de patentes, multiplicadores ou recursos de outro jogo; PDFs de Fabula Ultima não relidos nesta etapa.
+
+Método, ferramenta e casos autorais de procedimento. Sem simulação integral, teste humano, tabela numérica de chefes ou aprovação de nova capacidade por Mizuki.
+
+## Seções69–70 — Carregador vigilante
+
+Fonte mecânica: R53, Movimento/medidas/terreno, Preparar, Reações/Oportunidade, condições, Talento Próprio, catálogoCE1, talentos de entidades, coletiva, Preparar de entidade, movimento/defesa e invocador inconsciente. Ficha, aquisição e retorno conferidos com a seção63. Sem nova pesquisa externa ou importação de estatísticas antigas.
+
+Vigília móvel, seu gatilho, a reserva, os parâmetros e a traduçãoCE1 são propostas originais. A classificação foi limitada pela proibição de ação extra de Talento Próprio: usa metros existentes, sem outra Ação de Movimento ou básica. Instinto é referência situacional, não equivalência numérica. A R53 não publica essa capacidade. A conversão oferece um talento, em substituição ao transporte, antes da Doma. [Registro70](<../04 - Planejamento/70-prototipo-do-carregador-vigilante.md>).
+
+Verificação limitada a contas e revisão documental. Não houve simulação completa, sessão humana ou certificação de equilíbrio. Aprovação autoral do exemplo ainda pendente.
+
+## Reavaliação das seções69/70
+
+[Registro71](<../04 - Planejamento/71-reavaliacao-do-chefe-e-comparacao-externa.md>), após pedido de Mizuki. Fontes conferidas em25/10/2026: [Goblin, Basic Rules2014](https://www.dndbeyond.com/monsters/16907-goblin); [Giant Ant, Monster Core p.21](https://2e.aonprd.com/Monsters.aspx?ID=2824); [Daggerheart SRD1.0, páginas impressas74/75](https://www.daggerheart.com/wp-content/uploads/2025/09/Daggerheart-SRD-9-09-25.pdf#page=38). A comparação de função é inferência editorial, sem converter valores ou certificar equilíbrio. O protótipo anterior foi preservado como estudo, com aviso de que deixou de ser a recomendação de exemplo principal de chefe.
+
+## Seções 71–72 — Sineiro do Recolhimento
+
+R53: ações, manobras, carga e transporte, condições, Integridade, derrota/Doma; Invocações em campo (comando, energia, Carregar, básica e coletiva); Construir invocações (atributos, progressão, vida, Famílias, Formas, especiais e talentos); catálogo (Instinto, Passo, Escolher, Carregar, Recuo e Efeito Próprio). Cópia e hash no [registro 72](<../04 - Planejamento/72-reconstrucao-do-chefe-sineiro.md>).
+
+Criatura e encontro originais, com números experimentais. Transporte do Carregador serve de referência local para um talento da conversão; não é uma opção publicada da R53. Condução urgente tem preço próprio proposto. A comparação externa permanece a do registro 71; não houve nova coleta nem conversão de estatísticas estrangeiras. Conferência de procedimentos e contas, sem teste integral de combate ou validação de equilíbrio.
+
+## Revisão numérica do Sineiro — versão 2
+
+[Registro 73](<../04 - Planejamento/73-pressao-e-sobrevivencia-do-sineiro.md>), 26/10/2026. R53: progressão, Corpo, Caminhos Bastião/Emanador/Guia, características de ataque, Bloquear e respostas, TRs, Controle, Empurrão, Condição, equipamento, Canalizar, Cobrir-se, Integridade e Toca a Alma. Livro atual e cópia conferidos pelo mesmo hash registrado na etapa 72. Sem nova fonte externa.
+
+Cálculo por enumeração de resultados, com 18 conferências nomeadas e limites declarados. Recortes parciais de personagens; salvas de dano e janela de preparação não constituem taxa de vitória nem combate completo. O preço do controle é mantido em ações e PE, e o risco a personagens feridos é tratado separadamente. Proposta editorial de 108/54, preservando dano, CD e a construção domada; não é escala geral aprovada.
+
+## Seção 73 — Retirar a caixa, proteger a equipe
+
+[Registro 74](<../04 - Planejamento/74-ensaio-guiado-do-sineiro.md>), 26/10/2026. R53: iniciativa; ações, conversão da Bônus, reações e oportunidades; movimento, medidas, passagem por aliados, carga e arrasto; Agarrar; Provocar; Esquivar, Bloquear, Guarda Aberta, Inconsciente e Derrubado; dano e resistência; vida a zero, Insistir, Aguentar, cura acumulada, prazo e Sequelas; Bastião/Muro (Olhos Em Mim, Alicerce); Emanador/Catalisador (Remodelar, Impulso Técnico); Guia/Socorrista (aberturas, Cuidado Preparado); montagem de Classe 2, alcance de benefícios, Passo, Empurrão, Canalizar e Cobrir-se. Mesma cópia e hash de R53 registrados nas etapas 72–74, conferidos com o arquivo atual.
+
+Mapa, perfis, nomes de feitiços e percursos são construções editoriais. Dados selecionados para ensino, com reprodução parcial de trajetos, aritmética, ações e recursos e revisão documental das permissões. Não é sessão jogada, motor completo de regras ou estimativa de vitória. A ficha experimental do Sineiro e a Doma não receberam novos números. Sem nova pesquisa externa nesta etapa.
+
+## Seção 74 — Escolher os números de um inimigo
+
+[Registro 75](<../04 - Planejamento/75-primeira-regua-de-inimigos.md>), 26/10/2026. R53: Maestria, progressão2/6, Caminhos e reservas, atributos, ataque/CD/TR, Defesa/Bloquear, dano/crítico, Integridade, Refino, montagem de Classe1/2, ações, condições, queda e aquisição. Mesma fonte e hash da etapa74, conferidos com o arquivo atual. Carregador, Sineiro e Domas preservados.
+
+Leitura dirigida da camada curada01 e do relatório05 do acervo Inimigos, Itens e Técnicas. Conferência externa em26/10: [Pathfinder2e — Building Creatures](https://2e.aonprd.com/Rules.aspx?ID=2874), conceito, funções e relação entre vida e defesa; [D&D2024 — How to Use a Monster](https://www.dndbeyond.com/sources/dnd/br-2024/how-to-use-a-monster), ações e usos limitados. Organização adaptada editorialmente, sem transportar estatísticas ou orçamentos.
+
+Valores centrais24/72PV e alternativas são propostas do assistente para rascunho, não regra publicada ou decisão autoral. Enumeração de72 curvas, com hipóteses e exclusões declaradas; não representa combate completo, sessão humana, equivalência de níveis ou certificação de equilíbrio.
+
+## Seções75–76 — Ren, Sora e prioridade de alvo
+
+[Registro76](<../04 - Planejamento/76-dupla-de-nivel-6-e-composicao.md>), 26/10/2026. R53: atributos/treinos/ataques/CDs; Defesa/Bloquear; movimento/corpos/carga/ações/reações; reservas temporárias; Integridade de criaturas não jogadoras; derrota; progressão; Fundamento, mesclas, custos de função, alcance de benefícios; Impulso/Auxiliares, Passo/Alcance, cura/Amparo; Canalizar, Cobrir-se e Kokusen; Olhos Em Mim/Alicerce e aberturas do Guia. Fonte atual conferida com a cópia e hash preservados. Sem nova fonte externa.
+
+Fichas, nomes, cena, reservas de8/12PE e políticas de atuação são propostas editoriais de inimigos, não fichas de personagem jogador ou parâmetros aprovados. Montagens e procedimentos publicados identificados no texto. Enumeração condicionada de duas declarações e referências de uma aplicação física, incluindo primeiro teste de Kokusen; percurso com dados fixos e reprodução parcial de estados. Não há taxa de vitória, combate integral aleatório, sessão humana ou escala de dificuldade certificada. Carregador, Sineiro e Domas preservados.
+
+## Integração editorial de C04 — seções 56–77
+
+[Registro 77](<../04 - Planejamento/77-integracao-do-metodo-de-inimigos.md>), 26/10/2026. Revisão do procedimento e da navegação das seções 56–76, consolidando os formulários 58/61/68 e acrescentando o preenchimento 77. As referências mecânicas são as mesmas da R53 e dos registros 60–76. Não houve nova fonte externa de RPG, regra numérica ou decisão autoral nesta integração.
+
+As fichas completas, conversões, cálculos e percursos anteriores foram preservados; o preenchimento remete à seção 75 e reproduz estados da seção 76. Revisão editorial dirigida, conferência dos novos destinos locais de links, preservação por hashes e comparação dos valores copiados. Não é repetição da auditoria mecânica de todos os exemplos nem teste de leitura ou sessão humana. As fontes e decisões históricas continuam disponíveis no planejamento.
+
+## Seções 78–79 — perigos ambientais e sala de conservação
+
+[Registro 78](<../04 - Planejamento/78-perigos-ambientais-e-exposicao.md>), 26/10/2026. R53: Testes e escala fixa/do criador, TR, ações e movimento, Concentração, Percepção/fumaça, tipos de dano/defesas, condições e saídas de Pesadas, Envenenado, corpo construído, Corpo Debilitado, dano a objetos e vida a zero/socorro. Mesma fonte e hash das etapas anteriores, novamente conferidos. Sem nova pesquisa externa de RPG.
+
+Método editorial e cenário fictício; CD, dano, área, duração, regra de reaplicação e limpeza são propostas locais. Recortes de Mei/Akira da seção 73, com Vigor de Mei declarado no novo percurso. Conferência documental independente, contas de percurso/socorro e enumeração finita de aplicações condicionadas à exposição. Não é teste humano, motor completo, catálogo de doença ou dificuldade certificada.
+
+## Seções 80–81 — ferramentas, consulta e passagem
+
+[Registro 79](<../04 - Planejamento/79-c10-ferramentas-e-passagem.md>), 26/10/2026. Inventário R53, página/posição 25, M126/M127; Livro do Jogador R53, Mestrar uma sessão — Dúvidas e Continuidade da guilda; Bloquear; Vida a zero e Socorro. Mesmo hash da fonte e da cópia preservada, conferido novamente.
+
+Quatorze ferramentas existentes inventariadas e conectadas, sem outro formulário geral. O exemplo da sala de conservação usa os recortes das seções 73/79 e os estados já calculados na etapa 78. A extensão à passagem explicita o ponto inicial e o fechamento; resultados escolhidos para ensino. Conferência documental, de remissões e preservação, sem nova simulação, opinião real de leitor ou avaliação de aprendizagem. Não houve nova fonte externa ou regra numérica.
+
+## Seção 82 — testes, trabalho em grupo e iniciativa
+
+[Registro 81](<../04 - Planejamento/81-lote1-testes-grupo-e-iniciativa.md>), 26/10/2026. Livro do Jogador R53: Testes — Dificuldade e Sucesso e falha; Testes de grupo; Turnos — Iniciativa; Ajudar; Esconder, incluindo travessia coletiva; Tarefas e testes; Contribuição Decisiva; ajuda nos testes de criação, reconstrução e transferência de entidades. Fonte editável e cópia preservada conferidas por hash; trechos e linhas registrados no apoio da etapa.
+
+Casos originais de arquivo, travessia e ordenação, com resultados escolhidos para ensinar. O horário, o custo de tempo e as circunstâncias pertencem aos exemplos. Aplicação de procedimentos publicados, sem nova regra geral, política de surpresa, número de inimigo adotado ou decisão autoral. Conferência de contas, requisitos e clareza; sem pesquisa externa ou avaliação de aprendizagem com pessoas.
+
+## Seção 83 — percepção e informação
+
+[Registro 82](<../04 - Planejamento/82-lote3-percepcao-e-informacao.md>), 26/10/2026. R53 editável e cópia preservada: Testes; Ler o Ambiente; Percepção e visibilidade; Esconder; Vasculhar; Estudar; Percepção de energia; Percepção de Contorno; Memória Testemunha; Tarefas e testes; Intuição; Percepção e Sentir Energia. Trechos e linhas da fonte guardados em apoio-lote3/fontes-conferidas.md.
+
+O inventário M027 menciona Lembrança Retomada; a fonte atual consultada apresenta Memória Testemunha. O texto usa o nome e o procedimento dessa fonte, sem criar capacidade ou alterar regra. Casos originais de estantes, arquivo, oficina, recepção e sinais energéticos; números locais de demonstração. Conferência documental, aritmética e editorial, sem pesquisa externa, sessão humana ou nova simulação de combate.
+
+## Seções 84/85 — espaço e objetos
+
+[Registro 83](<../04 - Planejamento/83-lote2-espaco-objetos-e-capacidades.md>), 26/10/2026. R53 editável e cópia preservada: Movimento e terreno; Espaço e posição; Saltos; Quedas sobre criaturas; Passagem estreita; Ataques, Dano e crítico; Defesa e cobertura; Abrir Caminho e Obras de Apoio; Movimento Acrobático, Parkour, Fluidez e Ricochete; Sacar e guardar; catálogos de Porrete/Arremesso; Exploração e ferramentas; Fechaduras e contenção; Armas improvisadas. Trechos e linhas guardados em apoio-lote2/fontes-conferidas.md.
+
+Casos originais de canal, salto, duto, impacto, obra, apoio acrobático, trajetória, instalação, fechadura e improvisação. As escolhas de terreno e os perfis de objetos são exemplos locais de aplicação, sem nova tabela geral. Conferência documental, aritmética e editorial; sem pesquisa externa, teste humano ou simulação integral.
+
+## Seções 86–88 — mundo para consulta
+
+[Registro 84](<../04 - Planejamento/84-lote8-mundo-para-consulta.md>), 26/10/2026. Abertura, Origens, equipamentos, Cortina, Pactos e glossário da R53; mapa P10 e levantamento P11; dossiê local v142 de cânone como triagem de certeza, sem substituir a regra atual. [Fontes e alcance consultado](<../04 - Planejamento/apoio-lote8/fontes-conferidas.md>).
+
+**As fontes externas abaixo podem conter revelações da trama.** Apresentação editorial da [Shonen Jump](https://sp.shonenjump.com/j/rensai/jujutsu/) e [perfis oficiais da primeira temporada](https://jujutsukaisen.jp/character/index_1st.php); sinopses oficiais dos episódios [48](https://jujutsukaisen.jp/episodes/48.php), [50](https://jujutsukaisen.jp/episodes/50.php), [51](https://jujutsukaisen.jp/episodes/51.php) e [55](https://jujutsukaisen.jp/episodes/55.php); apresentação editorial do [volume 18](https://www.shueisha.co.jp/books/items/contents_amp.html?jdcn=08X10000000018964300). Sinopses efetivamente consultadas, sem alegação de leitura integral do mangá, dos episódios ou do fanbook. Exemplos de depósito, oficina e contatos são originais.
+
+## Seções 89–92 — personalização, cuidado e reserva
+
+[Registro 85](<../04 - Planejamento/85-lote4-personalizacao-e-cuidados.md>) e [validação 86](<../04 - Planejamento/86-validacao-da-reserva-condensada.md>), 26/10/2026. R53: vida rolada/Progressão; Descendente e personalização; reparo e menores de Corpo Amaldiçoado; Restrição corporal, Rede Remota, Saída Elevada, condições e menores; descansos; Caminhos; comandos e talismãs de Invocações. [Fontes e alcance](<../04 - Planejamento/apoio-lote4/fontes-conferidas.md>). Família Arata, materiais e cuidados locais são exemplos do Guia; Reserva permanece proposta.
+
+Comparação delimitada de mecanismos: [anel de armazenamento, D&D 5e, texto 2014](https://www.dndbeyond.com/magic-items/4730-ring-of-spell-storing), [cristais, SRD 3.5 reproduzido no d20SRD](https://www.d20srd.org/srd/psionic/items/cognizanceCrystals.htm) e [preparação de cajados, PF2e Remaster](https://2e.aonprd.com/Rules.aspx?ID=3214). O registro 86 explica suas diferenças; os números de outros sistemas não são importados para PE.
+
+## Seções 93–95 — montagens e pareceres
+
+[Registro 88](<../04 - Planejamento/88-lote6-montagens-e-pareceres.md>), 26/10/2026. Fonte mecânica: R53 local, com [trechos e limites conferidos](<../04 - Planejamento/apoio-lote6/fontes-conferidas.md>). Emanador: Remodelar, Forma Fluida e Composição Técnica. Construção: preços, Formas, funções, mesclas, efeitos fora de combate e Ampliação. Catálogo: Desarma o Feitiço, Firmeza, Guarda, Escolher, Precisão, Fura, Condicional e Restrição Própria.
+
+Pulso de remendo adapta Pulso de renovação; Luz de Oficina usa o exemplo publicado. Matriz de chão é proposta local experimental. A atribuição de Classe à exibição do Escriba limita-se ao cancelamento daquela aplicação. Não há conversão geral de CE em Classe nem pesquisa externa nova nesta entrega. As comparações anteriores de Reserva permanecem históricas, com detalhamento descartado pela [decisão 87](<../04 - Planejamento/87-correcao-de-escopo-da-reserva.md>).
+
+## Seções 96–99 — equipamento, projetos e reconhecimento
+
+[Registro 89](<../04 - Planejamento/89-lote5-equipamento-projetos-e-reconhecimento.md>), 26/10/2026; [fontes e alcance da conferência](<../04 - Planejamento/apoio-lote5/fontes-conferidas.md>). R53: Cofre da Família, Palavra Empenhada, Ofícios e fabricação, Kunai/Fiel, equipamento amaldiçoado, identificação e criação, Medalhão de Presságio, objetos e selos, Surdo, vida a zero/socorro, cura individual, XP semanal, Limiar e patentes. Dedicação segue a orientação já registrada na seção 39.
+
+Anel de Testemunho, receita e orçamento, comprador e condições, Pastilha e seus números e o parecer institucional de promoção são exemplos locais do Guia. Não há nova tabela geral de fabricação, revenda, selos ou promoção. A R53 permanece intacta; não houve pesquisa externa nova nesta entrega.
+
+## Seções 100–103 — ameaças e consequências prolongadas
+
+[Registro 90](<../04 - Planejamento/90-lote7-ameacas-e-consequencias-prolongadas.md>), 26/10/2026; [fontes e alcance](<../04 - Planejamento/apoio-lote7/fontes-conferidas.md>). R53: progressão e marcos de Corpo, Bastião/Emanador/Guia, acerto/Bloquear/crítico, Canalizar/Cobrir-se/Kokusen, Forma/base/Classe/Ampliar, Prende/Impulso/Toca a Alma, Integridade, condições, Socorro, objetos e descansos. Os cálculos podem ser reproduzidos em apoio-lote7.
+
+Vida e PE dos inimigos, combinação de capacidades, intervalo de Haru, cenário e doença são parâmetros locais experimentais. As contagens de ações não simulam o confronto completo e não formam uma escala aprovada de dificuldade. Não há conversão de números do Bestiário antigo. A pesquisa externa deste lote se limitou à orientação de modelos para a próxima tarefa, fora das regras do livro.
+
+## Primeira edição de leitura — integração estrutural
+
+[Registro91](<../04 - Planejamento/91-integracao-da-primeira-edicao-de-leitura.md>), 26/10/2026. [Mapa editorial](<../07 - Edicao de Leitura/mapa-editorial.json>) identifica os arquivos, seus resumos criptográficos, capítulos, remissões e quatro cortes de metadados/histórico. Os103 textos numerados foram destinados:100 ao corpo principal, um aprofundamento com revelações e dois estudos históricos fora desse corpo. Piloto e base pequena acrescentam duas fontes à edição. Não houve pesquisa nova de obra ou regra na integração.
+
+Reserva foi conferida na R53, linhas3201–3205 e3229, e na decisão87. A consulta92 acrescenta registro dos quatro campos e exemplo de conferência documental, sem valores. O impedimento expresso de guardar os PE temporários de Último Fôlego foi preservado. Não se concedeu um armazenamento geral nem se retomaram os modelos descartados.
+
+Os capítulos e a navegação são uma organização editorial revisável. Não houve revisão semântica integral nova de cada passagem, sessão humana, aprovação de escala geral de dificuldade ou diagramação definitiva. A [verificação da integração](<../04 - Planejamento/apoio-edicao-leitura/verificacao.json>) registra o que foi efetivamente conferido.
+
+
+## Edição diagramada e revisão crítica — 26/10/2026
+
+Ver [registro92](<../04 - Planejamento/92-revisao-critica-e-edicao-diagramada.md>), [seleção de imagens](<../08 - Diagramacao do Guia/revisao/selecao-visual.json>) e [composição](<../08 - Diagramacao do Guia/revisao/composicao.json>). Referência visual: PDF R53 de 411 páginas, no acervo local `entregas/livro-diagramado-r53`. Imagens comparadas no mesmo acervo; autoria Gege Akutami / Shueisha, capítulos nas legendas. Fontes de licença aberta acompanham a pasta de diagramação. A revisão não alterou o livro-base.

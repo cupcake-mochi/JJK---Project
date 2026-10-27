@@ -1,0 +1,361 @@
+{
+  "data": "2026-10-25",
+  "tipo": "contas de percursos e estados condicionais; sem combate simulado",
+  "casos_conferidos": 41,
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "casos": [
+    {
+      "caso": "base do Carregador conservada",
+      "resultado": [
+        32,
+        16,
+        0,
+        1
+      ],
+      "esperado": [
+        32,
+        16,
+        0,
+        1
+      ]
+    },
+    {
+      "caso": "rota C-A andando; fechado=False",
+      "resultado": 6,
+      "esperado": 6
+    },
+    {
+      "caso": "rota C-A arrastando; fechado=False",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "retorno A-C continua acessível; fechado=False",
+      "resultado": 6,
+      "esperado": 6
+    },
+    {
+      "caso": "rota C-A andando; fechado=True",
+      "resultado": 18,
+      "esperado": 18
+    },
+    {
+      "caso": "rota C-A arrastando; fechado=True",
+      "resultado": 36,
+      "esperado": 36
+    },
+    {
+      "caso": "retorno A-C continua acessível; fechado=True",
+      "resultado": 18,
+      "esperado": 18
+    },
+    {
+      "caso": "pátio até parada",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "pátio até parada após fechamento",
+      "resultado": 12,
+      "esperado": 12
+    },
+    {
+      "caso": "trabalho até parada",
+      "resultado": 6,
+      "esperado": 6
+    },
+    {
+      "caso": "intervir com dois Movimentos e Padrão",
+      "resultado": 6,
+      "esperado": 6
+    },
+    {
+      "caso": "retorno a C após parada sem outra ação Padrão",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "caso": "transporte total sem arredondamento",
+      "resultado": 9.0,
+      "esperado": 9
+    },
+    {
+      "caso": "teto de arrasto da socorrista",
+      "resultado": 14,
+      "esperado": 14
+    },
+    {
+      "caso": "transporte dentro do teto",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "caso": "andar no atalho com um Movimento",
+      "resultado": {
+        "turnos": 1,
+        "gastos": [
+          6.0
+        ]
+      },
+      "esperado": {
+        "turnos": 1,
+        "gastos": [
+          6.0
+        ]
+      }
+    },
+    {
+      "caso": "andar no serviço com um Movimento por turno",
+      "resultado": {
+        "turnos": 2,
+        "gastos": [
+          9.0,
+          9.0
+        ]
+      },
+      "esperado": {
+        "turnos": 2,
+        "gastos": [
+          9.0,
+          9.0
+        ]
+      }
+    },
+    {
+      "caso": "andar no serviço com Movimento e Bônus",
+      "resultado": {
+        "turnos": 1,
+        "gastos": [
+          18.0
+        ]
+      },
+      "esperado": {
+        "turnos": 1,
+        "gastos": [
+          18.0
+        ]
+      }
+    },
+    {
+      "caso": "arrastar pelo atalho preservando Padrão",
+      "resultado": {
+        "turnos": 1,
+        "gastos": [
+          12.0
+        ]
+      },
+      "esperado": {
+        "turnos": 1,
+        "gastos": [
+          12.0
+        ]
+      }
+    },
+    {
+      "caso": "arrastar pelo serviço preservando Padrão",
+      "resultado": {
+        "turnos": 2,
+        "gastos": [
+          18.0,
+          18.0
+        ]
+      },
+      "esperado": {
+        "turnos": 2,
+        "gastos": [
+          18.0,
+          18.0
+        ]
+      }
+    },
+    {
+      "caso": "arrastar pelo serviço com Correr",
+      "resultado": {
+        "turnos": 2,
+        "gastos": [
+          27.0,
+          9.0
+        ]
+      },
+      "esperado": {
+        "turnos": 2,
+        "gastos": [
+          27.0,
+          9.0
+        ]
+      }
+    },
+    {
+      "caso": "estágio2, dois Movimentos, atalho arrastando",
+      "resultado": {
+        "turnos": 2,
+        "gastos": [
+          9.0,
+          3.0
+        ]
+      },
+      "esperado": {
+        "turnos": 2,
+        "gastos": [
+          9.0,
+          3.0
+        ]
+      }
+    },
+    {
+      "caso": "estágio2, dois Movimentos, serviço arrastando",
+      "resultado": {
+        "turnos": 4,
+        "gastos": [
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ]
+      },
+      "esperado": {
+        "turnos": 4,
+        "gastos": [
+          9.0,
+          9.0,
+          9.0,
+          9.0
+        ]
+      }
+    },
+    {
+      "caso": "recuo até pátio pelo atalho; custo agregado",
+      "resultado": 54.0,
+      "esperado": 54.0
+    },
+    {
+      "caso": "54 metros não cabem em três orçamentos18",
+      "resultado": {
+        "turnos": 4,
+        "gastos": [
+          16.5,
+          16.5,
+          18.0,
+          3.0
+        ]
+      },
+      "esperado": {
+        "turnos": 4,
+        "gastos": [
+          16.5,
+          16.5,
+          18.0,
+          3.0
+        ]
+      }
+    },
+    {
+      "caso": "recuo até pátio pelo serviço",
+      "resultado": {
+        "turnos": 5,
+        "gastos": [
+          16.5,
+          16.5,
+          18.0,
+          18.0,
+          9.0
+        ]
+      },
+      "esperado": {
+        "turnos": 5,
+        "gastos": [
+          16.5,
+          16.5,
+          18.0,
+          18.0,
+          9.0
+        ]
+      }
+    },
+    {
+      "caso": "fechamento único na terceira rodada",
+      "resultado": [
+        3
+      ],
+      "esperado": [
+        3
+      ]
+    },
+    {
+      "caso": "parada rodada1 mantém zero",
+      "resultado": 0,
+      "esperado": 0
+    },
+    {
+      "caso": "parada rodada3 antes da fase mantém aberto",
+      "resultado": false,
+      "esperado": false
+    },
+    {
+      "caso": "parada depois não reabre",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "caso": "ocupação no terceiro aguarda",
+      "resultado": false,
+      "esperado": false
+    },
+    {
+      "caso": "saída da faixa só fecha na fase seguinte",
+      "resultado": [
+        4
+      ],
+      "esperado": [
+        4
+      ]
+    },
+    {
+      "caso": "ocupação persistente não fecha",
+      "resultado": [],
+      "esperado": []
+    },
+    {
+      "caso": "parada durante espera mantém aberto",
+      "resultado": false,
+      "esperado": false
+    },
+    {
+      "caso": "romper folha antes impede fechamento",
+      "resultado": [],
+      "esperado": []
+    },
+    {
+      "caso": "romper folha depois libera",
+      "resultado": false,
+      "esperado": false
+    },
+    {
+      "caso": "dano acumulado encerra comando",
+      "resultado": 0,
+      "esperado": 0
+    },
+    {
+      "caso": "dano acumulado rompe folha",
+      "resultado": 0,
+      "esperado": 0
+    },
+    {
+      "caso": "dano insuficiente conserva bloqueio",
+      "resultado": 1,
+      "esperado": 1
+    },
+    {
+      "caso": "resposta preparada alcança atalho aberto",
+      "resultado": true,
+      "esperado": true
+    },
+    {
+      "caso": "resposta depois do fechamento não alcança saída com9",
+      "resultado": false,
+      "esperado": false
+    }
+  ],
+  "teste_humano": false,
+  "equilibrio_validado": false
+}

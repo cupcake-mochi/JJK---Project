@@ -1,0 +1,2976 @@
+{
+  "metodo": "Enumeração finita de recortes; sem mesa humana ou previsão de duração de combate.",
+  "perfis": [
+    {
+      "nivel": 2,
+      "caminho": "Bastiao",
+      "atributos": [
+        3,
+        2,
+        2,
+        1,
+        1
+      ],
+      "maestria": 1,
+      "refino": 1,
+      "classe": 1,
+      "PV": 23,
+      "PE": 8,
+      "integridade": 26,
+      "defesa": 13,
+      "ataque": 4,
+      "CD": 12,
+      "TR_fisico": 4,
+      "canalizar": 1,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 2,
+      "caminho": "Emanador",
+      "atributos": [
+        0,
+        2,
+        2,
+        3,
+        2
+      ],
+      "maestria": 1,
+      "refino": 1,
+      "classe": 1,
+      "PV": 14,
+      "PE": 12,
+      "integridade": 27,
+      "defesa": 13,
+      "ataque": 4,
+      "CD": 12,
+      "TR_fisico": 3,
+      "canalizar": 1,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 2,
+      "caminho": "Guia",
+      "atributos": [
+        0,
+        2,
+        2,
+        2,
+        3
+      ],
+      "maestria": 1,
+      "refino": 1,
+      "classe": 1,
+      "PV": 17,
+      "PE": 10,
+      "integridade": 28,
+      "defesa": 13,
+      "ataque": 4,
+      "CD": 12,
+      "TR_fisico": 2,
+      "canalizar": 1,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 6,
+      "caminho": "Bastiao",
+      "atributos": [
+        4,
+        2,
+        3,
+        1,
+        1
+      ],
+      "maestria": 1,
+      "refino": 2,
+      "classe": 2,
+      "PV": 65,
+      "PE": 24,
+      "integridade": 50,
+      "defesa": 13,
+      "ataque": 5,
+      "CD": 13,
+      "TR_fisico": 5,
+      "canalizar": 1,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 6,
+      "caminho": "Emanador",
+      "atributos": [
+        0,
+        2,
+        3,
+        4,
+        2
+      ],
+      "maestria": 1,
+      "refino": 2,
+      "classe": 2,
+      "PV": 44,
+      "PE": 36,
+      "integridade": 55,
+      "defesa": 13,
+      "ataque": 5,
+      "CD": 13,
+      "TR_fisico": 3,
+      "canalizar": 1,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 6,
+      "caminho": "Guia",
+      "atributos": [
+        0,
+        2,
+        3,
+        2,
+        4
+      ],
+      "maestria": 1,
+      "refino": 2,
+      "classe": 2,
+      "PV": 51,
+      "PE": 30,
+      "integridade": 65,
+      "defesa": 13,
+      "ataque": 5,
+      "CD": 13,
+      "TR_fisico": 2,
+      "canalizar": 1,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 10,
+      "caminho": "Bastiao",
+      "atributos": [
+        5,
+        2,
+        4,
+        1,
+        1
+      ],
+      "maestria": 2,
+      "refino": 3,
+      "classe": 3,
+      "PV": 115,
+      "PE": 40,
+      "integridade": 74,
+      "defesa": 13,
+      "ataque": 7,
+      "CD": 15,
+      "TR_fisico": 7,
+      "canalizar": 2,
+      "ataques_na_padrao": 2
+    },
+    {
+      "nivel": 10,
+      "caminho": "Emanador",
+      "atributos": [
+        0,
+        2,
+        4,
+        5,
+        2
+      ],
+      "maestria": 2,
+      "refino": 3,
+      "classe": 3,
+      "PV": 82,
+      "PE": 60,
+      "integridade": 83,
+      "defesa": 13,
+      "ataque": 7,
+      "CD": 15,
+      "TR_fisico": 4,
+      "canalizar": 2,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 10,
+      "caminho": "Guia",
+      "atributos": [
+        0,
+        2,
+        4,
+        2,
+        5
+      ],
+      "maestria": 2,
+      "refino": 3,
+      "classe": 3,
+      "PV": 93,
+      "PE": 50,
+      "integridade": 110,
+      "defesa": 13,
+      "ataque": 7,
+      "CD": 15,
+      "TR_fisico": 2,
+      "canalizar": 2,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 15,
+      "caminho": "Bastiao",
+      "atributos": [
+        6,
+        2,
+        5,
+        1,
+        1
+      ],
+      "maestria": 2,
+      "refino": 4,
+      "classe": 4,
+      "PV": 185,
+      "PE": 60,
+      "integridade": 104,
+      "defesa": 13,
+      "ataque": 8,
+      "CD": 16,
+      "TR_fisico": 8,
+      "canalizar": 2,
+      "ataques_na_padrao": 2
+    },
+    {
+      "nivel": 15,
+      "caminho": "Emanador",
+      "atributos": [
+        0,
+        2,
+        5,
+        6,
+        2
+      ],
+      "maestria": 2,
+      "refino": 4,
+      "classe": 4,
+      "PV": 137,
+      "PE": 90,
+      "integridade": 118,
+      "defesa": 13,
+      "ataque": 8,
+      "CD": 16,
+      "TR_fisico": 4,
+      "canalizar": 2,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 15,
+      "caminho": "Guia",
+      "atributos": [
+        0,
+        2,
+        5,
+        2,
+        6
+      ],
+      "maestria": 2,
+      "refino": 4,
+      "classe": 4,
+      "PV": 153,
+      "PE": 75,
+      "integridade": 174,
+      "defesa": 13,
+      "ataque": 8,
+      "CD": 16,
+      "TR_fisico": 2,
+      "canalizar": 2,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 20,
+      "caminho": "Bastiao",
+      "atributos": [
+        6,
+        3,
+        6,
+        1,
+        1
+      ],
+      "maestria": 3,
+      "refino": 5,
+      "classe": 5,
+      "PV": 265,
+      "PE": 80,
+      "integridade": 134,
+      "defesa": 14,
+      "ataque": 9,
+      "CD": 17,
+      "TR_fisico": 9,
+      "canalizar": 2,
+      "ataques_na_padrao": 2
+    },
+    {
+      "nivel": 20,
+      "caminho": "Emanador",
+      "atributos": [
+        0,
+        3,
+        6,
+        6,
+        2
+      ],
+      "maestria": 3,
+      "refino": 5,
+      "classe": 5,
+      "PV": 202,
+      "PE": 120,
+      "integridade": 153,
+      "defesa": 14,
+      "ataque": 9,
+      "CD": 17,
+      "TR_fisico": 6,
+      "canalizar": 2,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 20,
+      "caminho": "Guia",
+      "atributos": [
+        0,
+        3,
+        6,
+        2,
+        6
+      ],
+      "maestria": 3,
+      "refino": 5,
+      "classe": 5,
+      "PV": 223,
+      "PE": 100,
+      "integridade": 229,
+      "defesa": 14,
+      "ataque": 9,
+      "CD": 17,
+      "TR_fisico": 3,
+      "canalizar": 2,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 22,
+      "caminho": "Bastiao",
+      "atributos": [
+        6,
+        4,
+        6,
+        2,
+        1
+      ],
+      "maestria": 3,
+      "refino": 6,
+      "classe": 6,
+      "PV": 291,
+      "PE": 88,
+      "integridade": 146,
+      "defesa": 15,
+      "ataque": 9,
+      "CD": 17,
+      "TR_fisico": 9,
+      "canalizar": 3,
+      "ataques_na_padrao": 2
+    },
+    {
+      "nivel": 22,
+      "caminho": "Emanador",
+      "atributos": [
+        0,
+        4,
+        6,
+        6,
+        3
+      ],
+      "maestria": 3,
+      "refino": 6,
+      "classe": 6,
+      "PV": 222,
+      "PE": 132,
+      "integridade": 188,
+      "defesa": 15,
+      "ataque": 9,
+      "CD": 17,
+      "TR_fisico": 7,
+      "canalizar": 3,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 22,
+      "caminho": "Guia",
+      "atributos": [
+        0,
+        4,
+        6,
+        3,
+        6
+      ],
+      "maestria": 3,
+      "refino": 6,
+      "classe": 6,
+      "PV": 245,
+      "PE": 110,
+      "integridade": 251,
+      "defesa": 15,
+      "ataque": 9,
+      "CD": 17,
+      "TR_fisico": 4,
+      "canalizar": 3,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 26,
+      "caminho": "Bastiao",
+      "atributos": [
+        6,
+        5,
+        6,
+        3,
+        1
+      ],
+      "maestria": 4,
+      "refino": 7,
+      "classe": 7,
+      "PV": 343,
+      "PE": 104,
+      "integridade": 170,
+      "defesa": 16,
+      "ataque": 10,
+      "CD": 18,
+      "TR_fisico": 10,
+      "canalizar": 3,
+      "ataques_na_padrao": 2
+    },
+    {
+      "nivel": 26,
+      "caminho": "Emanador",
+      "atributos": [
+        0,
+        5,
+        6,
+        6,
+        4
+      ],
+      "maestria": 4,
+      "refino": 7,
+      "classe": 7,
+      "PV": 262,
+      "PE": 156,
+      "integridade": 245,
+      "defesa": 16,
+      "ataque": 10,
+      "CD": 18,
+      "TR_fisico": 9,
+      "canalizar": 3,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 26,
+      "caminho": "Guia",
+      "atributos": [
+        0,
+        5,
+        6,
+        4,
+        6
+      ],
+      "maestria": 4,
+      "refino": 7,
+      "classe": 7,
+      "PV": 289,
+      "PE": 130,
+      "integridade": 295,
+      "defesa": 16,
+      "ataque": 10,
+      "CD": 18,
+      "TR_fisico": 5,
+      "canalizar": 3,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 30,
+      "caminho": "Bastiao",
+      "atributos": [
+        6,
+        6,
+        6,
+        4,
+        1
+      ],
+      "maestria": 4,
+      "refino": 8,
+      "classe": 7,
+      "PV": 395,
+      "PE": 120,
+      "integridade": 194,
+      "defesa": 17,
+      "ataque": 10,
+      "CD": 18,
+      "TR_fisico": 10,
+      "canalizar": 3,
+      "ataques_na_padrao": 2
+    },
+    {
+      "nivel": 30,
+      "caminho": "Emanador",
+      "atributos": [
+        0,
+        6,
+        6,
+        6,
+        5
+      ],
+      "maestria": 4,
+      "refino": 8,
+      "classe": 7,
+      "PV": 302,
+      "PE": 180,
+      "integridade": 310,
+      "defesa": 17,
+      "ataque": 10,
+      "CD": 18,
+      "TR_fisico": 10,
+      "canalizar": 3,
+      "ataques_na_padrao": 1
+    },
+    {
+      "nivel": 30,
+      "caminho": "Guia",
+      "atributos": [
+        0,
+        6,
+        6,
+        5,
+        6
+      ],
+      "maestria": 4,
+      "refino": 8,
+      "classe": 7,
+      "PV": 333,
+      "PE": 150,
+      "integridade": 339,
+      "defesa": 17,
+      "ataque": 10,
+      "CD": 18,
+      "TR_fisico": 6,
+      "canalizar": 3,
+      "ataques_na_padrao": 1
+    }
+  ],
+  "referencias": [
+    {
+      "nivel": 2,
+      "defesa": 13,
+      "misto": false,
+      "PV": 16,
+      "integridade": 8,
+      "sobrevive": [
+        0.2518042321791091,
+        0.029462071789157728
+      ],
+      "media_por_conjunto": 26.324999999999992
+    },
+    {
+      "nivel": 2,
+      "defesa": 13,
+      "misto": false,
+      "PV": 24,
+      "integridade": 12,
+      "sobrevive": [
+        0.43367107488080975,
+        0.07147732811167959
+      ],
+      "media_por_conjunto": 26.324999999999992
+    },
+    {
+      "nivel": 2,
+      "defesa": 13,
+      "misto": false,
+      "PV": 32,
+      "integridade": 16,
+      "sobrevive": [
+        0.6539975672070885,
+        0.15452733885825423
+      ],
+      "media_por_conjunto": 26.324999999999992
+    },
+    {
+      "nivel": 2,
+      "defesa": 13,
+      "misto": true,
+      "PV": 16,
+      "integridade": 8,
+      "sobrevive": [
+        0.29081468520494663,
+        0.03603533145266751
+      ],
+      "media_por_conjunto": 23.774999999999995
+    },
+    {
+      "nivel": 2,
+      "defesa": 13,
+      "misto": true,
+      "PV": 24,
+      "integridade": 12,
+      "sobrevive": [
+        0.5008123393581826,
+        0.09449365893897715
+      ],
+      "media_por_conjunto": 23.774999999999995
+    },
+    {
+      "nivel": 2,
+      "defesa": 13,
+      "misto": true,
+      "PV": 32,
+      "integridade": 16,
+      "sobrevive": [
+        0.7299826176482364,
+        0.19825598929660193
+      ],
+      "media_por_conjunto": 23.774999999999995
+    },
+    {
+      "nivel": 2,
+      "defesa": 16,
+      "misto": false,
+      "PV": 16,
+      "integridade": 8,
+      "sobrevive": [
+        0.4203815726264856,
+        0.11470440036991277
+      ],
+      "media_por_conjunto": 20.249999999999993
+    },
+    {
+      "nivel": 2,
+      "defesa": 16,
+      "misto": false,
+      "PV": 24,
+      "integridade": 12,
+      "sobrevive": [
+        0.6132326209213366,
+        0.2133682205552584
+      ],
+      "media_por_conjunto": 20.249999999999993
+    },
+    {
+      "nivel": 2,
+      "defesa": 16,
+      "misto": false,
+      "PV": 32,
+      "integridade": 16,
+      "sobrevive": [
+        0.7845690990585242,
+        0.3587752428737628
+      ],
+      "media_por_conjunto": 20.249999999999993
+    },
+    {
+      "nivel": 2,
+      "defesa": 16,
+      "misto": true,
+      "PV": 16,
+      "integridade": 8,
+      "sobrevive": [
+        0.472322794670088,
+        0.13500044869322245
+      ],
+      "media_por_conjunto": 18.224999999999994
+    },
+    {
+      "nivel": 2,
+      "defesa": 16,
+      "misto": true,
+      "PV": 24,
+      "integridade": 12,
+      "sobrevive": [
+        0.6697502280966553,
+        0.2585992462354989
+      ],
+      "media_por_conjunto": 18.224999999999994
+    },
+    {
+      "nivel": 2,
+      "defesa": 16,
+      "misto": true,
+      "PV": 32,
+      "integridade": 16,
+      "sobrevive": [
+        0.8408551296669918,
+        0.42334184645038725
+      ],
+      "media_por_conjunto": 18.224999999999994
+    },
+    {
+      "nivel": 2,
+      "defesa": 19,
+      "misto": false,
+      "PV": 16,
+      "integridade": 8,
+      "sobrevive": [
+        0.5980996407465775,
+        0.29520989718915425
+      ],
+      "media_por_conjunto": 14.175000000000002
+    },
+    {
+      "nivel": 2,
+      "defesa": 19,
+      "misto": false,
+      "PV": 24,
+      "integridade": 12,
+      "sobrevive": [
+        0.765646822564592,
+        0.44504273154819746
+      ],
+      "media_por_conjunto": 14.175000000000002
+    },
+    {
+      "nivel": 2,
+      "defesa": 19,
+      "misto": false,
+      "PV": 32,
+      "integridade": 16,
+      "sobrevive": [
+        0.8776519210214268,
+        0.605038634296864
+      ],
+      "media_por_conjunto": 14.175000000000002
+    },
+    {
+      "nivel": 2,
+      "defesa": 19,
+      "misto": true,
+      "PV": 16,
+      "integridade": 8,
+      "sobrevive": [
+        0.6537190490246104,
+        0.33651582820628384
+      ],
+      "media_por_conjunto": 12.675000000000002
+    },
+    {
+      "nivel": 2,
+      "defesa": 19,
+      "misto": true,
+      "PV": 24,
+      "integridade": 12,
+      "sobrevive": [
+        0.8074568799284063,
+        0.5017094171504807
+      ],
+      "media_por_conjunto": 12.675000000000002
+    },
+    {
+      "nivel": 2,
+      "defesa": 19,
+      "misto": true,
+      "PV": 32,
+      "integridade": 16,
+      "sobrevive": [
+        0.9127228461083707,
+        0.6698042777067469
+      ],
+      "media_por_conjunto": 12.675000000000002
+    },
+    {
+      "nivel": 6,
+      "defesa": 13,
+      "misto": false,
+      "PV": 48,
+      "integridade": 24,
+      "sobrevive": [
+        0.34613302270180735,
+        0.03802116951187138
+      ],
+      "media_por_conjunto": 56.69999999999999
+    },
+    {
+      "nivel": 6,
+      "defesa": 13,
+      "misto": false,
+      "PV": 72,
+      "integridade": 36,
+      "sobrevive": [
+        0.7008053628721,
+        0.13531306738058566
+      ],
+      "media_por_conjunto": 56.69999999999999
+    },
+    {
+      "nivel": 6,
+      "defesa": 13,
+      "misto": false,
+      "PV": 108,
+      "integridade": 54,
+      "sobrevive": [
+        0.965331741634713,
+        0.4424286906989617
+      ],
+      "media_por_conjunto": 56.69999999999999
+    },
+    {
+      "nivel": 6,
+      "defesa": 13,
+      "misto": true,
+      "PV": 48,
+      "integridade": 24,
+      "sobrevive": [
+        0.555080207323735,
+        0.09651911627353252
+      ],
+      "media_por_conjunto": 45.175
+    },
+    {
+      "nivel": 6,
+      "defesa": 13,
+      "misto": true,
+      "PV": 72,
+      "integridade": 36,
+      "sobrevive": [
+        0.8797502883556537,
+        0.2888941992370079
+      ],
+      "media_por_conjunto": 45.175
+    },
+    {
+      "nivel": 6,
+      "defesa": 13,
+      "misto": true,
+      "PV": 108,
+      "integridade": 54,
+      "sobrevive": [
+        0.9954581099503909,
+        0.7032759197149338
+      ],
+      "media_por_conjunto": 45.175
+    },
+    {
+      "nivel": 6,
+      "defesa": 16,
+      "misto": false,
+      "PV": 48,
+      "integridade": 24,
+      "sobrevive": [
+        0.5337323175204062,
+        0.14161947783785647
+      ],
+      "media_por_conjunto": 44.54999999999999
+    },
+    {
+      "nivel": 6,
+      "defesa": 16,
+      "misto": false,
+      "PV": 72,
+      "integridade": 36,
+      "sobrevive": [
+        0.8255836067170323,
+        0.34143318222779373
+      ],
+      "media_por_conjunto": 44.54999999999999
+    },
+    {
+      "nivel": 6,
+      "defesa": 16,
+      "misto": false,
+      "PV": 108,
+      "integridade": 54,
+      "sobrevive": [
+        0.9784307756406587,
+        0.6822248014595337
+      ],
+      "media_por_conjunto": 44.54999999999999
+    },
+    {
+      "nivel": 6,
+      "defesa": 16,
+      "misto": true,
+      "PV": 48,
+      "integridade": 24,
+      "sobrevive": [
+        0.710650127656564,
+        0.26308198296563673
+      ],
+      "media_por_conjunto": 35.42499999999999
+    },
+    {
+      "nivel": 6,
+      "defesa": 16,
+      "misto": true,
+      "PV": 72,
+      "integridade": 36,
+      "sobrevive": [
+        0.9248650301185867,
+        0.5291561925815909
+      ],
+      "media_por_conjunto": 35.42499999999999
+    },
+    {
+      "nivel": 6,
+      "defesa": 16,
+      "misto": true,
+      "PV": 108,
+      "integridade": 54,
+      "sobrevive": [
+        0.9966552430173129,
+        0.8557004981843089
+      ],
+      "media_por_conjunto": 35.42499999999999
+    },
+    {
+      "nivel": 6,
+      "defesa": 19,
+      "misto": false,
+      "PV": 48,
+      "integridade": 24,
+      "sobrevive": [
+        0.7047321428683706,
+        0.34185952197554137
+      ],
+      "media_por_conjunto": 32.4
+    },
+    {
+      "nivel": 6,
+      "defesa": 19,
+      "misto": false,
+      "PV": 72,
+      "integridade": 36,
+      "sobrevive": [
+        0.9048029945028747,
+        0.5943841926935632
+      ],
+      "media_por_conjunto": 32.4
+    },
+    {
+      "nivel": 6,
+      "defesa": 19,
+      "misto": false,
+      "PV": 108,
+      "integridade": 54,
+      "sobrevive": [
+        0.9879012064494734,
+        0.8525749703602578
+      ],
+      "media_por_conjunto": 32.4
+    },
+    {
+      "nivel": 6,
+      "defesa": 19,
+      "misto": true,
+      "PV": 48,
+      "integridade": 24,
+      "sobrevive": [
+        0.8226523359624488,
+        0.49607414306723363
+      ],
+      "media_por_conjunto": 25.675
+    },
+    {
+      "nivel": 6,
+      "defesa": 19,
+      "misto": true,
+      "PV": 72,
+      "integridade": 36,
+      "sobrevive": [
+        0.9562168650380346,
+        0.7436747525875785
+      ],
+      "media_por_conjunto": 25.675
+    },
+    {
+      "nivel": 6,
+      "defesa": 19,
+      "misto": true,
+      "PV": 108,
+      "integridade": 54,
+      "sobrevive": [
+        0.9975873385454892,
+        0.9391550328550613
+      ],
+      "media_por_conjunto": 25.675
+    },
+    {
+      "nivel": 10,
+      "defesa": 13,
+      "misto": false,
+      "PV": 90,
+      "integridade": 45,
+      "sobrevive": [
+        0.45256408595122494,
+        0.028141985054436713
+      ],
+      "media_por_conjunto": 97.20000000000002
+    },
+    {
+      "nivel": 10,
+      "defesa": 13,
+      "misto": false,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.8971822870521259,
+        0.14998730300627797
+      ],
+      "media_por_conjunto": 97.20000000000002
+    },
+    {
+      "nivel": 10,
+      "defesa": 13,
+      "misto": false,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.9966186363496079,
+        0.527618494458313
+      ],
+      "media_por_conjunto": 97.20000000000002
+    },
+    {
+      "nivel": 10,
+      "defesa": 13,
+      "misto": true,
+      "PV": 90,
+      "integridade": 45,
+      "sobrevive": [
+        0.49556327021096086,
+        0.03400234995772626
+      ],
+      "media_por_conjunto": 87.00000000000003
+    },
+    {
+      "nivel": 10,
+      "defesa": 13,
+      "misto": true,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.9535926225416594,
+        0.22477744427693158
+      ],
+      "media_por_conjunto": 87.00000000000003
+    },
+    {
+      "nivel": 10,
+      "defesa": 13,
+      "misto": true,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.999536244812618,
+        0.7066284518750983
+      ],
+      "media_por_conjunto": 87.00000000000003
+    },
+    {
+      "nivel": 10,
+      "defesa": 16,
+      "misto": false,
+      "PV": 90,
+      "integridade": 45,
+      "sobrevive": [
+        0.6413197553259671,
+        0.13496378809525875
+      ],
+      "media_por_conjunto": 78.97499999999998
+    },
+    {
+      "nivel": 10,
+      "defesa": 16,
+      "misto": false,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.9346172831413727,
+        0.3900540598625802
+      ],
+      "media_por_conjunto": 78.97499999999998
+    },
+    {
+      "nivel": 10,
+      "defesa": 16,
+      "misto": false,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.9973492320958939,
+        0.7565422587256595
+      ],
+      "media_por_conjunto": 78.97499999999998
+    },
+    {
+      "nivel": 10,
+      "defesa": 16,
+      "misto": true,
+      "PV": 90,
+      "integridade": 45,
+      "sobrevive": [
+        0.6895549685802416,
+        0.15626410823493966
+      ],
+      "media_por_conjunto": 70.49999999999997
+    },
+    {
+      "nivel": 10,
+      "defesa": 16,
+      "misto": true,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.9696844459439543,
+        0.49637097392256774
+      ],
+      "media_por_conjunto": 70.49999999999997
+    },
+    {
+      "nivel": 10,
+      "defesa": 16,
+      "misto": true,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.9996658813893787,
+        0.8746736290365518
+      ],
+      "media_por_conjunto": 70.49999999999997
+    },
+    {
+      "nivel": 10,
+      "defesa": 19,
+      "misto": false,
+      "PV": 90,
+      "integridade": 45,
+      "sobrevive": [
+        0.7796618903257092,
+        0.3389208057915842
+      ],
+      "media_por_conjunto": 60.749999999999986
+    },
+    {
+      "nivel": 10,
+      "defesa": 19,
+      "misto": false,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.9616668812445207,
+        0.6436547516664627
+      ],
+      "media_por_conjunto": 60.749999999999986
+    },
+    {
+      "nivel": 10,
+      "defesa": 19,
+      "misto": false,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.9980594959899984,
+        0.8931420040900825
+      ],
+      "media_por_conjunto": 60.749999999999986
+    },
+    {
+      "nivel": 10,
+      "defesa": 19,
+      "misto": true,
+      "PV": 90,
+      "integridade": 45,
+      "sobrevive": [
+        0.8231443346615847,
+        0.3819695701333964
+      ],
+      "media_por_conjunto": 53.99999999999998
+    },
+    {
+      "nivel": 10,
+      "defesa": 19,
+      "misto": true,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.9818876667922753,
+        0.7374659098490143
+      ],
+      "media_por_conjunto": 53.99999999999998
+    },
+    {
+      "nivel": 10,
+      "defesa": 19,
+      "misto": true,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.9997750965395905,
+        0.952968092382048
+      ],
+      "media_por_conjunto": 53.99999999999998
+    },
+    {
+      "nivel": 15,
+      "defesa": 13,
+      "misto": false,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.4644842751069886,
+        0.018596395762713262
+      ],
+      "media_por_conjunto": 137.70000000000007
+    },
+    {
+      "nivel": 15,
+      "defesa": 13,
+      "misto": false,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.9198304743044023,
+        0.11466510390807436
+      ],
+      "media_por_conjunto": 137.70000000000007
+    },
+    {
+      "nivel": 15,
+      "defesa": 13,
+      "misto": false,
+      "PV": 280,
+      "integridade": 140,
+      "sobrevive": [
+        0.9982056543921897,
+        0.5273697293567705
+      ],
+      "media_por_conjunto": 137.70000000000007
+    },
+    {
+      "nivel": 15,
+      "defesa": 13,
+      "misto": true,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.7191971070664513,
+        0.04538374566386169
+      ],
+      "media_por_conjunto": 117.05000000000007
+    },
+    {
+      "nivel": 15,
+      "defesa": 13,
+      "misto": true,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.9797123161164627,
+        0.25017243756909624
+      ],
+      "media_por_conjunto": 117.05000000000007
+    },
+    {
+      "nivel": 15,
+      "defesa": 13,
+      "misto": true,
+      "PV": 280,
+      "integridade": 140,
+      "sobrevive": [
+        0.9999570505590039,
+        0.800262455306019
+      ],
+      "media_por_conjunto": 117.05000000000007
+    },
+    {
+      "nivel": 15,
+      "defesa": 16,
+      "misto": false,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.6730524002122932,
+        0.11328295255944609
+      ],
+      "media_por_conjunto": 113.39999999999999
+    },
+    {
+      "nivel": 15,
+      "defesa": 16,
+      "misto": false,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.9463905389125336,
+        0.34417572626383386
+      ],
+      "media_por_conjunto": 113.39999999999999
+    },
+    {
+      "nivel": 15,
+      "defesa": 16,
+      "misto": false,
+      "PV": 280,
+      "integridade": 140,
+      "sobrevive": [
+        0.9985400920783933,
+        0.7618473250822636
+      ],
+      "media_por_conjunto": 113.39999999999999
+    },
+    {
+      "nivel": 15,
+      "defesa": 16,
+      "misto": true,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.837306191561086,
+        0.20242811131471836
+      ],
+      "media_por_conjunto": 96.19999999999999
+    },
+    {
+      "nivel": 15,
+      "defesa": 16,
+      "misto": true,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.9871328590322545,
+        0.5392692607879186
+      ],
+      "media_por_conjunto": 96.19999999999999
+    },
+    {
+      "nivel": 15,
+      "defesa": 16,
+      "misto": true,
+      "PV": 280,
+      "integridade": 140,
+      "sobrevive": [
+        0.9999700001994123,
+        0.9155537704194668
+      ],
+      "media_por_conjunto": 96.19999999999999
+    },
+    {
+      "nivel": 15,
+      "defesa": 19,
+      "misto": false,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.811050603501936,
+        0.3125096469382891
+      ],
+      "media_por_conjunto": 89.09999999999997
+    },
+    {
+      "nivel": 15,
+      "defesa": 19,
+      "misto": false,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.9670082401636937,
+        0.6031644339278087
+      ],
+      "media_por_conjunto": 89.09999999999997
+    },
+    {
+      "nivel": 15,
+      "defesa": 19,
+      "misto": false,
+      "PV": 280,
+      "integridade": 140,
+      "sobrevive": [
+        0.9988743646731114,
+        0.8947640692888416
+      ],
+      "media_por_conjunto": 89.09999999999997
+    },
+    {
+      "nivel": 15,
+      "defesa": 19,
+      "misto": true,
+      "PV": 140,
+      "integridade": 70,
+      "sobrevive": [
+        0.9090685033147307,
+        0.4514710344502661
+      ],
+      "media_por_conjunto": 75.34999999999997
+    },
+    {
+      "nivel": 15,
+      "defesa": 19,
+      "misto": true,
+      "PV": 200,
+      "integridade": 100,
+      "sobrevive": [
+        0.9922280566802226,
+        0.7683225088083879
+      ],
+      "media_por_conjunto": 75.34999999999997
+    },
+    {
+      "nivel": 15,
+      "defesa": 19,
+      "misto": true,
+      "PV": 280,
+      "integridade": 140,
+      "sobrevive": [
+        0.9999806283975559,
+        0.9668901306327733
+      ],
+      "media_por_conjunto": 75.34999999999997
+    },
+    {
+      "nivel": 20,
+      "defesa": 13,
+      "misto": false,
+      "PV": 180,
+      "integridade": 90,
+      "sobrevive": [
+        0.38564904532533595,
+        0.007628763952952354
+      ],
+      "media_por_conjunto": 182.2500000000001
+    },
+    {
+      "nivel": 20,
+      "defesa": 13,
+      "misto": false,
+      "PV": 260,
+      "integridade": 130,
+      "sobrevive": [
+        0.9236538152067948,
+        0.08059783558650206
+      ],
+      "media_por_conjunto": 182.2500000000001
+    },
+    {
+      "nivel": 20,
+      "defesa": 13,
+      "misto": false,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9990729577653065,
+        0.47728833250301095
+      ],
+      "media_por_conjunto": 182.2500000000001
+    },
+    {
+      "nivel": 20,
+      "defesa": 13,
+      "misto": true,
+      "PV": 180,
+      "integridade": 90,
+      "sobrevive": [
+        0.837718235090537,
+        0.03709324227760181
+      ],
+      "media_por_conjunto": 148.3000000000001
+    },
+    {
+      "nivel": 20,
+      "defesa": 13,
+      "misto": true,
+      "PV": 260,
+      "integridade": 130,
+      "sobrevive": [
+        0.9942953783898809,
+        0.27684035032008353
+      ],
+      "media_por_conjunto": 148.3000000000001
+    },
+    {
+      "nivel": 20,
+      "defesa": 13,
+      "misto": true,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9999986975046827,
+        0.8722201432138222
+      ],
+      "media_por_conjunto": 148.3000000000001
+    },
+    {
+      "nivel": 20,
+      "defesa": 16,
+      "misto": false,
+      "PV": 180,
+      "integridade": 90,
+      "sobrevive": [
+        0.6186475684453667,
+        0.07279074306299822
+      ],
+      "media_por_conjunto": 151.875
+    },
+    {
+      "nivel": 20,
+      "defesa": 16,
+      "misto": false,
+      "PV": 260,
+      "integridade": 130,
+      "sobrevive": [
+        0.9475564667572252,
+        0.2949101049303938
+      ],
+      "media_por_conjunto": 151.875
+    },
+    {
+      "nivel": 20,
+      "defesa": 16,
+      "misto": false,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.999223766235097,
+        0.7442905771503071
+      ],
+      "media_por_conjunto": 151.875
+    },
+    {
+      "nivel": 20,
+      "defesa": 16,
+      "misto": true,
+      "PV": 180,
+      "integridade": 90,
+      "sobrevive": [
+        0.8935309525167847,
+        0.19438966361230323
+      ],
+      "media_por_conjunto": 123.4
+    },
+    {
+      "nivel": 20,
+      "defesa": 16,
+      "misto": true,
+      "PV": 260,
+      "integridade": 130,
+      "sobrevive": [
+        0.9957391875226419,
+        0.5751560271499029
+      ],
+      "media_por_conjunto": 123.4
+    },
+    {
+      "nivel": 20,
+      "defesa": 16,
+      "misto": true,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9999990743824906,
+        0.9375376301996866
+      ],
+      "media_por_conjunto": 123.4
+    },
+    {
+      "nivel": 20,
+      "defesa": 19,
+      "misto": false,
+      "PV": 180,
+      "integridade": 90,
+      "sobrevive": [
+        0.7756712547700124,
+        0.24037854073191134
+      ],
+      "media_por_conjunto": 121.49999999999994
+    },
+    {
+      "nivel": 20,
+      "defesa": 19,
+      "misto": false,
+      "PV": 260,
+      "integridade": 130,
+      "sobrevive": [
+        0.9665757670293149,
+        0.5535920093666016
+      ],
+      "media_por_conjunto": 121.49999999999994
+    },
+    {
+      "nivel": 20,
+      "defesa": 19,
+      "misto": false,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9993745738249,
+        0.8872605135717603
+      ],
+      "media_por_conjunto": 121.49999999999994
+    },
+    {
+      "nivel": 20,
+      "defesa": 19,
+      "misto": true,
+      "PV": 180,
+      "integridade": 90,
+      "sobrevive": [
+        0.9311118939070636,
+        0.4412933039475682
+      ],
+      "media_por_conjunto": 98.49999999999996
+    },
+    {
+      "nivel": 20,
+      "defesa": 19,
+      "misto": true,
+      "PV": 260,
+      "integridade": 130,
+      "sobrevive": [
+        0.9967519632110319,
+        0.7870981284732418
+      ],
+      "media_por_conjunto": 98.49999999999996
+    },
+    {
+      "nivel": 20,
+      "defesa": 19,
+      "misto": true,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9999993869866416,
+        0.9722760369784568
+      ],
+      "media_por_conjunto": 98.49999999999996
+    },
+    {
+      "nivel": 22,
+      "defesa": 13,
+      "misto": false,
+      "PV": 220,
+      "integridade": 110,
+      "sobrevive": [
+        0.39345602923839146,
+        0.008127780695173066
+      ],
+      "media_por_conjunto": 218.70000000000013
+    },
+    {
+      "nivel": 22,
+      "defesa": 13,
+      "misto": false,
+      "PV": 320,
+      "integridade": 160,
+      "sobrevive": [
+        0.9364403903761186,
+        0.09958747714163503
+      ],
+      "media_por_conjunto": 218.70000000000013
+    },
+    {
+      "nivel": 22,
+      "defesa": 13,
+      "misto": false,
+      "PV": 440,
+      "integridade": 220,
+      "sobrevive": [
+        0.9995405309783008,
+        0.5055489186113923
+      ],
+      "media_por_conjunto": 218.70000000000013
+    },
+    {
+      "nivel": 22,
+      "defesa": 13,
+      "misto": true,
+      "PV": 220,
+      "integridade": 110,
+      "sobrevive": [
+        0.8822728822549518,
+        0.04559493943621251
+      ],
+      "media_por_conjunto": 176.8500000000001
+    },
+    {
+      "nivel": 22,
+      "defesa": 13,
+      "misto": true,
+      "PV": 320,
+      "integridade": 160,
+      "sobrevive": [
+        0.9970010300327403,
+        0.3346042377156114
+      ],
+      "media_por_conjunto": 176.8500000000001
+    },
+    {
+      "nivel": 22,
+      "defesa": 13,
+      "misto": true,
+      "PV": 440,
+      "integridade": 220,
+      "sobrevive": [
+        0.9999999380762871,
+        0.8944099449424578
+      ],
+      "media_por_conjunto": 176.8500000000001
+    },
+    {
+      "nivel": 22,
+      "defesa": 16,
+      "misto": false,
+      "PV": 220,
+      "integridade": 110,
+      "sobrevive": [
+        0.6234244277486718,
+        0.07501148684535487
+      ],
+      "media_por_conjunto": 182.25000000000003
+    },
+    {
+      "nivel": 22,
+      "defesa": 16,
+      "misto": false,
+      "PV": 320,
+      "integridade": 160,
+      "sobrevive": [
+        0.956192930595643,
+        0.3310640579269904
+      ],
+      "media_por_conjunto": 182.25000000000003
+    },
+    {
+      "nivel": 22,
+      "defesa": 16,
+      "misto": false,
+      "PV": 440,
+      "integridade": 220,
+      "sobrevive": [
+        0.9996038384641457,
+        0.7677030232680874
+      ],
+      "media_por_conjunto": 182.25000000000003
+    },
+    {
+      "nivel": 22,
+      "defesa": 16,
+      "misto": true,
+      "PV": 220,
+      "integridade": 110,
+      "sobrevive": [
+        0.9159168043456507,
+        0.21842828031689124
+      ],
+      "media_por_conjunto": 147.15
+    },
+    {
+      "nivel": 22,
+      "defesa": 16,
+      "misto": true,
+      "PV": 320,
+      "integridade": 160,
+      "sobrevive": [
+        0.9973812167263256,
+        0.6256165435072238
+      ],
+      "media_por_conjunto": 147.15
+    },
+    {
+      "nivel": 22,
+      "defesa": 16,
+      "misto": true,
+      "PV": 440,
+      "integridade": 220,
+      "sobrevive": [
+        0.9999999560179317,
+        0.9476417489518115
+      ],
+      "media_por_conjunto": 147.15
+    },
+    {
+      "nivel": 22,
+      "defesa": 19,
+      "misto": false,
+      "PV": 220,
+      "integridade": 110,
+      "sobrevive": [
+        0.7784517346294755,
+        0.24406528523375384
+      ],
+      "media_por_conjunto": 145.79999999999995
+    },
+    {
+      "nivel": 22,
+      "defesa": 19,
+      "misto": false,
+      "PV": 320,
+      "integridade": 160,
+      "sobrevive": [
+        0.9719537938394072,
+        0.5876839145223466
+      ],
+      "media_por_conjunto": 145.79999999999995
+    },
+    {
+      "nivel": 22,
+      "defesa": 19,
+      "misto": false,
+      "PV": 440,
+      "integridade": 220,
+      "sobrevive": [
+        0.9996671459462734,
+        0.9007661275692536
+      ],
+      "media_por_conjunto": 145.79999999999995
+    },
+    {
+      "nivel": 22,
+      "defesa": 19,
+      "misto": true,
+      "PV": 220,
+      "integridade": 110,
+      "sobrevive": [
+        0.9411634216360004,
+        0.4697524351155098
+      ],
+      "media_por_conjunto": 117.44999999999995
+    },
+    {
+      "nivel": 22,
+      "defesa": 19,
+      "misto": true,
+      "PV": 320,
+      "integridade": 160,
+      "sobrevive": [
+        0.9976901294064768,
+        0.8148775621110066
+      ],
+      "media_por_conjunto": 117.44999999999995
+    },
+    {
+      "nivel": 22,
+      "defesa": 19,
+      "misto": true,
+      "PV": 440,
+      "integridade": 220,
+      "sobrevive": [
+        0.9999999709005675,
+        0.9770004713204166
+      ],
+      "media_por_conjunto": 117.44999999999995
+    },
+    {
+      "nivel": 26,
+      "defesa": 13,
+      "misto": false,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.26438669451718244,
+        0.0015197935676674016
+      ],
+      "media_por_conjunto": 269.32500000000016
+    },
+    {
+      "nivel": 26,
+      "defesa": 13,
+      "misto": false,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9050441657419731,
+        0.028796322790988694
+      ],
+      "media_por_conjunto": 269.32500000000016
+    },
+    {
+      "nivel": 26,
+      "defesa": 13,
+      "misto": false,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9990770374061886,
+        0.3450841026246121
+      ],
+      "media_por_conjunto": 269.32500000000016
+    },
+    {
+      "nivel": 26,
+      "defesa": 13,
+      "misto": true,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.8758302401008718,
+        0.02009912363635657
+      ],
+      "media_por_conjunto": 212.40000000000018
+    },
+    {
+      "nivel": 26,
+      "defesa": 13,
+      "misto": true,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9963153343918656,
+        0.21614968463741077
+      ],
+      "media_por_conjunto": 212.40000000000018
+    },
+    {
+      "nivel": 26,
+      "defesa": 13,
+      "misto": true,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9999999302054905,
+        0.8674848465090478
+      ],
+      "media_por_conjunto": 212.40000000000018
+    },
+    {
+      "nivel": 26,
+      "defesa": 16,
+      "misto": false,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.5358879402508862,
+        0.0367663693614896
+      ],
+      "media_por_conjunto": 226.80000000000004
+    },
+    {
+      "nivel": 26,
+      "defesa": 16,
+      "misto": false,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9335271772798667,
+        0.1916672235082621
+      ],
+      "media_por_conjunto": 226.80000000000004
+    },
+    {
+      "nivel": 26,
+      "defesa": 16,
+      "misto": false,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9992179488554931,
+        0.6719869175527826
+      ],
+      "media_por_conjunto": 226.80000000000004
+    },
+    {
+      "nivel": 26,
+      "defesa": 16,
+      "misto": true,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.9091246047650028,
+        0.1573093303538474
+      ],
+      "media_por_conjunto": 178.65000000000006
+    },
+    {
+      "nivel": 26,
+      "defesa": 16,
+      "misto": true,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.996851530517067,
+        0.5310456895427329
+      ],
+      "media_por_conjunto": 178.65000000000006
+    },
+    {
+      "nivel": 26,
+      "defesa": 16,
+      "misto": true,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9999999496149241,
+        0.9291626787713703
+      ],
+      "media_por_conjunto": 178.65000000000006
+    },
+    {
+      "nivel": 26,
+      "defesa": 19,
+      "misto": false,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.7221288519792946,
+        0.1643056748770225
+      ],
+      "media_por_conjunto": 184.27499999999992
+    },
+    {
+      "nivel": 26,
+      "defesa": 19,
+      "misto": false,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9565382135510925,
+        0.44399585472286107
+      ],
+      "media_por_conjunto": 184.27499999999992
+    },
+    {
+      "nivel": 26,
+      "defesa": 19,
+      "misto": false,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9993588602928237,
+        0.8503909051615461
+      ],
+      "media_por_conjunto": 184.27499999999992
+    },
+    {
+      "nivel": 26,
+      "defesa": 19,
+      "misto": true,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.9345092473891037,
+        0.3936814926416691
+      ],
+      "media_por_conjunto": 144.89999999999992
+    },
+    {
+      "nivel": 26,
+      "defesa": 19,
+      "misto": true,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9972446003499689,
+        0.7550601330348674
+      ],
+      "media_por_conjunto": 144.89999999999992
+    },
+    {
+      "nivel": 26,
+      "defesa": 19,
+      "misto": true,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9999999658693336,
+        0.9660961161636765
+      ],
+      "media_por_conjunto": 144.89999999999992
+    },
+    {
+      "nivel": 30,
+      "defesa": 13,
+      "misto": false,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.26438669451718244,
+        0.0015197935676674016
+      ],
+      "media_por_conjunto": 269.32500000000016
+    },
+    {
+      "nivel": 30,
+      "defesa": 13,
+      "misto": false,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9050441657419731,
+        0.028796322790988694
+      ],
+      "media_por_conjunto": 269.32500000000016
+    },
+    {
+      "nivel": 30,
+      "defesa": 13,
+      "misto": false,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9990770374061886,
+        0.3450841026246121
+      ],
+      "media_por_conjunto": 269.32500000000016
+    },
+    {
+      "nivel": 30,
+      "defesa": 13,
+      "misto": true,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.8758302401008718,
+        0.02009912363635657
+      ],
+      "media_por_conjunto": 212.40000000000018
+    },
+    {
+      "nivel": 30,
+      "defesa": 13,
+      "misto": true,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9963153343918656,
+        0.21614968463741077
+      ],
+      "media_por_conjunto": 212.40000000000018
+    },
+    {
+      "nivel": 30,
+      "defesa": 13,
+      "misto": true,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9999999302054905,
+        0.8674848465090478
+      ],
+      "media_por_conjunto": 212.40000000000018
+    },
+    {
+      "nivel": 30,
+      "defesa": 16,
+      "misto": false,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.5358879402508862,
+        0.0367663693614896
+      ],
+      "media_por_conjunto": 226.80000000000004
+    },
+    {
+      "nivel": 30,
+      "defesa": 16,
+      "misto": false,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9335271772798667,
+        0.1916672235082621
+      ],
+      "media_por_conjunto": 226.80000000000004
+    },
+    {
+      "nivel": 30,
+      "defesa": 16,
+      "misto": false,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9992179488554931,
+        0.6719869175527826
+      ],
+      "media_por_conjunto": 226.80000000000004
+    },
+    {
+      "nivel": 30,
+      "defesa": 16,
+      "misto": true,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.9091246047650028,
+        0.1573093303538474
+      ],
+      "media_por_conjunto": 178.65000000000006
+    },
+    {
+      "nivel": 30,
+      "defesa": 16,
+      "misto": true,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.996851530517067,
+        0.5310456895427329
+      ],
+      "media_por_conjunto": 178.65000000000006
+    },
+    {
+      "nivel": 30,
+      "defesa": 16,
+      "misto": true,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9999999496149241,
+        0.9291626787713703
+      ],
+      "media_por_conjunto": 178.65000000000006
+    },
+    {
+      "nivel": 30,
+      "defesa": 19,
+      "misto": false,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.7221288519792946,
+        0.1643056748770225
+      ],
+      "media_por_conjunto": 184.27499999999992
+    },
+    {
+      "nivel": 30,
+      "defesa": 19,
+      "misto": false,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9565382135510925,
+        0.44399585472286107
+      ],
+      "media_por_conjunto": 184.27499999999992
+    },
+    {
+      "nivel": 30,
+      "defesa": 19,
+      "misto": false,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9993588602928237,
+        0.8503909051615461
+      ],
+      "media_por_conjunto": 184.27499999999992
+    },
+    {
+      "nivel": 30,
+      "defesa": 19,
+      "misto": true,
+      "PV": 250,
+      "integridade": 125,
+      "sobrevive": [
+        0.9345092473891037,
+        0.3936814926416691
+      ],
+      "media_por_conjunto": 144.89999999999992
+    },
+    {
+      "nivel": 30,
+      "defesa": 19,
+      "misto": true,
+      "PV": 360,
+      "integridade": 180,
+      "sobrevive": [
+        0.9972446003499689,
+        0.7550601330348674
+      ],
+      "media_por_conjunto": 144.89999999999992
+    },
+    {
+      "nivel": 30,
+      "defesa": 19,
+      "misto": true,
+      "PV": 500,
+      "integridade": 250,
+      "sobrevive": [
+        0.9999999658693336,
+        0.9660961161636765
+      ],
+      "media_por_conjunto": 144.89999999999992
+    }
+  ],
+  "defesas": [
+    {
+      "nivel": 10,
+      "ataque": 7,
+      "defesa": 13,
+      "bloquear": false,
+      "duro": 0,
+      "media": 11.100000000000001,
+      "chance_dano_positivo": 0.75
+    },
+    {
+      "nivel": 10,
+      "ataque": 7,
+      "defesa": 13,
+      "bloquear": true,
+      "duro": 0,
+      "media": 10.918749999999706,
+      "chance_dano_positivo": 0.7374999999999998
+    },
+    {
+      "nivel": 15,
+      "ataque": 8,
+      "defesa": 13,
+      "bloquear": false,
+      "duro": 0,
+      "media": 12.625000000000002,
+      "chance_dano_positivo": 0.8
+    },
+    {
+      "nivel": 15,
+      "ataque": 8,
+      "defesa": 13,
+      "bloquear": true,
+      "duro": 0,
+      "media": 12.307249999999614,
+      "chance_dano_positivo": 0.7794999999999999
+    },
+    {
+      "nivel": 15,
+      "ataque": 8,
+      "defesa": 13,
+      "bloquear": true,
+      "duro": 5,
+      "media": 1.8124433593750011,
+      "chance_dano_positivo": 0.40443164062499926
+    },
+    {
+      "nivel": 20,
+      "ataque": 9,
+      "defesa": 14,
+      "bloquear": false,
+      "duro": 0,
+      "media": 12.625000000000002,
+      "chance_dano_positivo": 0.8
+    },
+    {
+      "nivel": 20,
+      "ataque": 9,
+      "defesa": 14,
+      "bloquear": true,
+      "duro": 0,
+      "media": 12.307249999999614,
+      "chance_dano_positivo": 0.7794999999999999
+    },
+    {
+      "nivel": 20,
+      "ataque": 9,
+      "defesa": 14,
+      "bloquear": true,
+      "duro": 6,
+      "media": 1.408011718750001,
+      "chance_dano_positivo": 0.3421635742187492
+    },
+    {
+      "nivel": 22,
+      "ataque": 9,
+      "defesa": 15,
+      "bloquear": false,
+      "duro": 0,
+      "media": 13.725000000000001,
+      "chance_dano_positivo": 0.75
+    },
+    {
+      "nivel": 22,
+      "ataque": 9,
+      "defesa": 15,
+      "bloquear": true,
+      "duro": 0,
+      "media": 13.499999999999636,
+      "chance_dano_positivo": 0.7374999999999998
+    },
+    {
+      "nivel": 22,
+      "ataque": 9,
+      "defesa": 15,
+      "bloquear": true,
+      "duro": 6,
+      "media": 2.495170410156252,
+      "chance_dano_positivo": 0.47391601562499974
+    },
+    {
+      "nivel": 26,
+      "ataque": 10,
+      "defesa": 16,
+      "bloquear": false,
+      "duro": 0,
+      "media": 13.725000000000001,
+      "chance_dano_positivo": 0.75
+    },
+    {
+      "nivel": 26,
+      "ataque": 10,
+      "defesa": 16,
+      "bloquear": true,
+      "duro": 0,
+      "media": 13.499999999999636,
+      "chance_dano_positivo": 0.7374999999999998
+    },
+    {
+      "nivel": 26,
+      "ataque": 10,
+      "defesa": 16,
+      "bloquear": true,
+      "duro": 6,
+      "media": 2.495170410156252,
+      "chance_dano_positivo": 0.47391601562499974
+    },
+    {
+      "nivel": 30,
+      "ataque": 10,
+      "defesa": 17,
+      "bloquear": false,
+      "duro": 0,
+      "media": 12.825000000000001,
+      "chance_dano_positivo": 0.7
+    },
+    {
+      "nivel": 30,
+      "ataque": 10,
+      "defesa": 17,
+      "bloquear": true,
+      "duro": 0,
+      "media": 12.698999999999725,
+      "chance_dano_positivo": 0.6929999999999998
+    },
+    {
+      "nivel": 30,
+      "ataque": 10,
+      "defesa": 17,
+      "bloquear": true,
+      "duro": 6,
+      "media": 2.4064243164062518,
+      "chance_dano_positivo": 0.4520029296875
+    }
+  ],
+  "apoio": [
+    {
+      "nivel": 10,
+      "media_normal": 70.49999999999999,
+      "media_com_um_impulso": 74.19374999999992
+    },
+    {
+      "nivel": 15,
+      "media_normal": 96.19999999999999,
+      "media_com_um_impulso": 99.93999999999991
+    },
+    {
+      "nivel": 20,
+      "media_normal": 123.4,
+      "media_com_um_impulso": 126.8687499999999
+    },
+    {
+      "nivel": 22,
+      "media_normal": 147.15,
+      "media_com_um_impulso": 151.1437499999999
+    },
+    {
+      "nivel": 26,
+      "media_normal": 178.65000000000003,
+      "media_com_um_impulso": 182.2387499999999
+    },
+    {
+      "nivel": 30,
+      "media_normal": 178.65000000000003,
+      "media_com_um_impulso": 182.2387499999999
+    }
+  ],
+  "alma": [
+    {
+      "nivel": 10,
+      "PV": 140,
+      "integridade": 70,
+      "classe": 3,
+      "dados_Alma": 3,
+      "sobrevive_PV_e_integridade": 0.6352089647533113,
+      "vivo_em_estagio_1_ou_maior": 0.24832183815837458,
+      "vivo_em_estagio_2_ou_maior": 0.03638016786293146,
+      "vivo_em_estagio_3": 0.0012258538835249171
+    },
+    {
+      "nivel": 15,
+      "PV": 200,
+      "integridade": 100,
+      "classe": 4,
+      "dados_Alma": 5,
+      "sobrevive_PV_e_integridade": 0.6038427904076691,
+      "vivo_em_estagio_1_ou_maior": 0.3176104547150966,
+      "vivo_em_estagio_2_ou_maior": 0.06964046736536245,
+      "vivo_em_estagio_3": 0.0050628239935024315
+    },
+    {
+      "nivel": 20,
+      "PV": 260,
+      "integridade": 130,
+      "classe": 5,
+      "dados_Alma": 6,
+      "sobrevive_PV_e_integridade": 0.5866727842286426,
+      "vivo_em_estagio_1_ou_maior": 0.29963236792182685,
+      "vivo_em_estagio_2_ou_maior": 0.03876905118964413,
+      "vivo_em_estagio_3": 0.001423030155876828
+    },
+    {
+      "nivel": 22,
+      "PV": 320,
+      "integridade": 160,
+      "classe": 6,
+      "dados_Alma": 7,
+      "sobrevive_PV_e_integridade": 0.6294553534212531,
+      "vivo_em_estagio_1_ou_maior": 0.3164718222642622,
+      "vivo_em_estagio_2_ou_maior": 0.028179438759119428,
+      "vivo_em_estagio_3": 0.0006896833955524018
+    },
+    {
+      "nivel": 26,
+      "PV": 360,
+      "integridade": 180,
+      "classe": 7,
+      "dados_Alma": 8,
+      "sobrevive_PV_e_integridade": 0.500382616224893,
+      "vivo_em_estagio_1_ou_maior": 0.2686826198763315,
+      "vivo_em_estagio_2_ou_maior": 0.021779431397183725,
+      "vivo_em_estagio_3": 0.0005499142581184388
+    },
+    {
+      "nivel": 30,
+      "PV": 360,
+      "integridade": 180,
+      "classe": 7,
+      "dados_Alma": 8,
+      "sobrevive_PV_e_integridade": 0.500382616224893,
+      "vivo_em_estagio_1_ou_maior": 0.2686826198763315,
+      "vivo_em_estagio_2_ou_maior": 0.021779431397183725,
+      "vivo_em_estagio_3": 0.0005499142581184388
+    }
+  ],
+  "composicoes": [
+    {
+      "misto": false,
+      "caso": "chefe200",
+      "resultados": [
+        {
+          "conjunto": 1,
+          "chefe_ativo": 0.9293478569268088,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.9293478569268088,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.9293478569268088
+        },
+        {
+          "conjunto": 2,
+          "chefe_ativo": 0.1814872971084662,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.1814872971084662,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.1814872971084662
+        },
+        {
+          "conjunto": 3,
+          "chefe_ativo": 0.013003825837516147,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.013003825837516147,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.013003825837516147
+        }
+      ]
+    },
+    {
+      "misto": false,
+      "caso": "chefe280",
+      "resultados": [
+        {
+          "conjunto": 1,
+          "chefe_ativo": 0.9983171519644226,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.9983171519644226,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.9983171519644226
+        },
+        {
+          "conjunto": 2,
+          "chefe_ativo": 0.6188959864105513,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.6188959864105513,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.6188959864105513
+        },
+        {
+          "conjunto": 3,
+          "chefe_ativo": 0.10564371871746618,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.10564371871746618,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.10564371871746618
+        }
+      ]
+    },
+    {
+      "misto": false,
+      "caso": "dupla_sem_cura",
+      "resultados": [
+        {
+          "conjunto": 1,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.14879362935598028,
+          "apoio_ativo": 0.14879362935598028,
+          "atacante_ativo": 0.9883020352885845,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0.14879362935598023,
+          "pelo_menos_um_ativo": 0.9883020352885845
+        },
+        {
+          "conjunto": 2,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.004495882740394454,
+          "apoio_ativo": 0.004495882740394454,
+          "atacante_ativo": 0.3717537764438889,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0.004495882740394455,
+          "pelo_menos_um_ativo": 0.3717537764438889
+        },
+        {
+          "conjunto": 3,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.0001055794919446332,
+          "apoio_ativo": 0.0001055794919446332,
+          "atacante_ativo": 0.037068948968989726,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0.00010557949194463317,
+          "pelo_menos_um_ativo": 0.037068948968989726
+        }
+      ]
+    },
+    {
+      "misto": false,
+      "caso": "dupla_com_cura",
+      "resultados": [
+        {
+          "conjunto": 1,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.14879362935598028,
+          "apoio_ativo": 0.14879362935598028,
+          "atacante_ativo": 0.9883020352885845,
+          "acoes_de_cura_esperadas": 0.13316862935598028,
+          "impulsos_esperados": 0.015625,
+          "pelo_menos_um_ativo": 0.9883020352885845
+        },
+        {
+          "conjunto": 2,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.016815590747693402,
+          "apoio_ativo": 0.016815590747693402,
+          "atacante_ativo": 0.38144609511165767,
+          "acoes_de_cura_esperadas": 0.016481610152201703,
+          "impulsos_esperados": 0.00033398059549170374,
+          "pelo_menos_um_ativo": 0.38144609511165767
+        },
+        {
+          "conjunto": 3,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.0013461241126805662,
+          "apoio_ativo": 0.0013461241126805662,
+          "atacante_ativo": 0.05982636423633574,
+          "acoes_de_cura_esperadas": 3.2511872401362374e-05,
+          "impulsos_esperados": 0.00024359934830204183,
+          "pelo_menos_um_ativo": 0.05982636423633574
+        }
+      ]
+    },
+    {
+      "misto": true,
+      "caso": "chefe200",
+      "resultados": [
+        {
+          "conjunto": 1,
+          "chefe_ativo": 0.9824706173848676,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.9824706173848676,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.9824706173848676
+        },
+        {
+          "conjunto": 2,
+          "chefe_ativo": 0.34760122528748977,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.34760122528748977,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.34760122528748977
+        },
+        {
+          "conjunto": 3,
+          "chefe_ativo": 0.03659901840083397,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.03659901840083397,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.03659901840083397
+        }
+      ]
+    },
+    {
+      "misto": true,
+      "caso": "chefe280",
+      "resultados": [
+        {
+          "conjunto": 1,
+          "chefe_ativo": 0.9999616250438474,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.9999616250438474,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.9999616250438474
+        },
+        {
+          "conjunto": 2,
+          "chefe_ativo": 0.8490811735430887,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.8490811735430887,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.8490811735430887
+        },
+        {
+          "conjunto": 3,
+          "chefe_ativo": 0.23742945876866703,
+          "ambos_ativos": 0,
+          "apoio_ativo": 0,
+          "atacante_ativo": 0.23742945876866703,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0,
+          "pelo_menos_um_ativo": 0.23742945876866703
+        }
+      ]
+    },
+    {
+      "misto": true,
+      "caso": "dupla_sem_cura",
+      "resultados": [
+        {
+          "conjunto": 1,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.24853666311571557,
+          "apoio_ativo": 0.24853666311571557,
+          "atacante_ativo": 0.9970921266544837,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0.24853666311571557,
+          "pelo_menos_um_ativo": 0.9970921266544837
+        },
+        {
+          "conjunto": 2,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.00836875896151048,
+          "apoio_ativo": 0.00836875896151048,
+          "atacante_ativo": 0.48735516745362367,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0.00836875896151048,
+          "pelo_menos_um_ativo": 0.48735516745362367
+        },
+        {
+          "conjunto": 3,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.00021702492315089496,
+          "apoio_ativo": 0.00021702492315089496,
+          "atacante_ativo": 0.06748023498963927,
+          "acoes_de_cura_esperadas": 0,
+          "impulsos_esperados": 0.0002170249231508949,
+          "pelo_menos_um_ativo": 0.06748023498963927
+        }
+      ]
+    },
+    {
+      "misto": true,
+      "caso": "dupla_com_cura",
+      "resultados": [
+        {
+          "conjunto": 1,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.24853666311571557,
+          "apoio_ativo": 0.24853666311571557,
+          "atacante_ativo": 0.9970921266544837,
+          "acoes_de_cura_esperadas": 0.24463041311571557,
+          "impulsos_esperados": 0.00390625,
+          "pelo_menos_um_ativo": 0.9970921266544835
+        },
+        {
+          "conjunto": 2,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.029131627082656708,
+          "apoio_ativo": 0.029131627082656708,
+          "atacante_ativo": 0.5270885877665803,
+          "acoes_de_cura_esperadas": 0.028919907448405308,
+          "impulsos_esperados": 0.00021171963425140248,
+          "pelo_menos_um_ativo": 0.5270885877665803
+        },
+        {
+          "conjunto": 3,
+          "chefe_ativo": 0,
+          "ambos_ativos": 0.0033528532939505165,
+          "apoio_ativo": 0.0033528532939505165,
+          "atacante_ativo": 0.11848646930601561,
+          "acoes_de_cura_esperadas": 3.7327638720049372e-06,
+          "impulsos_esperados": 0.00015889037731576578,
+          "pelo_menos_um_ativo": 0.11848646930601561
+        }
+      ]
+    }
+  ],
+  "area": [
+    {
+      "caminho": "Bastiao",
+      "PV": 185,
+      "TR": 8,
+      "vantagem": false,
+      "reducao": 0,
+      "media": 17.724999999999998,
+      "falha": 0.3
+    },
+    {
+      "caminho": "Bastiao",
+      "PV": 185,
+      "TR": 8,
+      "vantagem": false,
+      "reducao": 6,
+      "media": 11.725638198852538,
+      "falha": 0.3
+    },
+    {
+      "caminho": "Bastiao",
+      "PV": 185,
+      "TR": 8,
+      "vantagem": true,
+      "reducao": 0,
+      "media": 14.9425,
+      "falha": 0.09
+    },
+    {
+      "caminho": "Bastiao",
+      "PV": 185,
+      "TR": 8,
+      "vantagem": true,
+      "reducao": 6,
+      "media": 8.9433296585083,
+      "falha": 0.09
+    },
+    {
+      "caminho": "Emanador",
+      "PV": 137,
+      "TR": 4,
+      "vantagem": false,
+      "reducao": 0,
+      "media": 20.375,
+      "falha": 0.5
+    },
+    {
+      "caminho": "Emanador",
+      "PV": 137,
+      "TR": 4,
+      "vantagem": false,
+      "reducao": 6,
+      "media": 14.375455856323242,
+      "falha": 0.5
+    },
+    {
+      "caminho": "Guia",
+      "PV": 153,
+      "TR": 2,
+      "vantagem": false,
+      "reducao": 0,
+      "media": 21.7,
+      "falha": 0.6
+    },
+    {
+      "caminho": "Guia",
+      "PV": 153,
+      "TR": 2,
+      "vantagem": false,
+      "reducao": 6,
+      "media": 15.700364685058593,
+      "falha": 0.6
+    }
+  ],
+  "concentracao_de_ataques": [
+    {
+      "sequelas": 0,
+      "resultados": [
+        {
+          "ataques": 1,
+          "zero_PV": 0.0033203125000000003,
+          "derrotado": 0
+        },
+        {
+          "ataques": 2,
+          "zero_PV": 0.40730762720108027,
+          "derrotado": 0
+        },
+        {
+          "ataques": 3,
+          "zero_PV": 0.7086731361905114,
+          "derrotado": 0
+        },
+        {
+          "ataques": 4,
+          "zero_PV": 0.8709202384900303,
+          "derrotado": 0.0011388671875000003
+        }
+      ]
+    },
+    {
+      "sequelas": 2,
+      "resultados": [
+        {
+          "ataques": 1,
+          "zero_PV": 0.0033203125000000003,
+          "derrotado": 0
+        },
+        {
+          "ataques": 2,
+          "zero_PV": 0.40730762720108027,
+          "derrotado": 0.00232421875
+        },
+        {
+          "ataques": 3,
+          "zero_PV": 0.7086731361905114,
+          "derrotado": 0.2858126046657562
+        },
+        {
+          "ataques": 4,
+          "zero_PV": 0.8709202384900305,
+          "derrotado": 0.5818149767330851
+        }
+      ]
+    }
+  ],
+  "verificacoes": [
+    "6d8 média",
+    "Carregador +4 Def13 média",
+    "Pancada antiga +5 Def13 média",
+    "Acerto Bloquear antigo 59,85%",
+    "Emanador6 PV",
+    "Guia6 Integridade",
+    "Bastiao30 PV",
+    "Físico+4 CD15 com vantagem",
+    "Duro de Matar por enumeração independente"
+  ],
+  "limites": [
+    "Sem política ótima, recursos de Origem/Trilha, Kokusen, Domínio, Liberações ou Técnica Máxima.",
+    "Os perfis são recortes; os conjuntos ofensivos pressupõem ações, alvos, alcance e energia disponíveis.",
+    "A comparação de oportunidades não executa dano e controle sobre os jogadores; pode superestimar as ações ofensivas disponíveis a eles.",
+    "Duro de Matar é analisado separadamente com os dados efetivos de Bloquear, não uma redução média.",
+    "Alma pressupõe um único feitiço legal, Classe3+, Regra sobre alma e preço normal de Toca a Alma."
+  ]
+}

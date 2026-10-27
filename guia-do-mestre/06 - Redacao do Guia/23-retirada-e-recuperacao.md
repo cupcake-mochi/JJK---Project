@@ -78,6 +78,8 @@ Os procedimentos gerais abaixo podem ser modificados pela Origem e por capacidad
 
 Esses são casos relevantes para a consulta, não uma lista de todas as exceções possíveis. Reparo do corpo, Núcleo Dependente e outras condições conservam seus procedimentos. Consulte [Vínculos e mudanças](26-vinculos-e-mudancas.md) para o cotidiano e o cuidado, e a entrada completa da Origem na R53 para a resolução.
 
+Veja [Restrição corporal, meios de agir e cuidados](91-restricao-corporal-e-cuidados.md) para preparar cada uma das três condições e acompanhar suas recuperações. O [reparo de Ena](90-reparar-personagem-de-corpo-construido.md) demonstra o atendimento de um Corpo Amaldiçoado.
+
 ## Descanso curto
 
 Normalmente recupera **25% dos PE máximos**, arredondados para baixo, mínimo 1 quando a fração for positiva, sem ultrapassar o máximo. Vida e Integridade não voltam por essa pausa sozinha. Capacidades de cura ou reparo e saídas excepcionais do socorro conservam seus procedimentos.

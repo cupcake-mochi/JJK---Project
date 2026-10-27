@@ -1,0 +1,153 @@
+{
+  "tipo": "contas e sequências determinísticas, sem simulação de grupo",
+  "casos": [
+    {
+      "caso": "superior",
+      "resultado": 9
+    },
+    {
+      "caso": "inferior físico",
+      "resultado": 27
+    },
+    {
+      "caso": "inferior movimento",
+      "resultado": 39
+    },
+    {
+      "caso": "primeiro turno por três ações",
+      "resultado": 27
+    },
+    {
+      "caso": "segundo turno preserva Padrão",
+      "resultado": true
+    },
+    {
+      "caso": "primeiro turno com Padrão na parada não completa inferior",
+      "resultado": true
+    },
+    {
+      "caso": "intervalo ficcional de três rodadas",
+      "resultado": 18
+    },
+    {
+      "caso": "sem ativação",
+      "resultado": {
+        "marcador": 0,
+        "rupturas": [],
+        "motor": false,
+        "transmissao": true
+      }
+    },
+    {
+      "caso": "parada na rodada1 antes da fase",
+      "resultado": 0
+    },
+    {
+      "caso": "parada na rodada2",
+      "resultado": 1
+    },
+    {
+      "caso": "parada rodada3 ainda impede",
+      "resultado": []
+    },
+    {
+      "caso": "sem parada só uma ruptura",
+      "resultado": [
+        3
+      ]
+    },
+    {
+      "caso": "parada depois conserva ruptura",
+      "resultado": [
+        3
+      ]
+    },
+    {
+      "caso": "pino deixa motor desacoplado",
+      "resultado": {
+        "marcador": 1,
+        "rupturas": [],
+        "motor": true,
+        "transmissao": false
+      }
+    },
+    {
+      "caso": "dano acumulado na peça",
+      "resultado": 0
+    },
+    {
+      "caso": "dano insuficiente conserva peça",
+      "resultado": 1
+    },
+    {
+      "caso": "queda6m",
+      "resultado": 2
+    },
+    {
+      "caso": "7,5m tem os mesmos dados",
+      "resultado": 2
+    },
+    {
+      "caso": "impacto ilustrativo",
+      "resultado": 7
+    },
+    {
+      "caso": "vida após dano",
+      "resultado": 3
+    },
+    {
+      "caso": "zero não é saldo negativo",
+      "resultado": 0
+    },
+    {
+      "caso": "Força0 com impulso",
+      "resultado": 3.0
+    },
+    {
+      "caso": "Força1 sem impulso",
+      "resultado": 1.5
+    },
+    {
+      "caso": "Força2 sem impulso",
+      "resultado": 3.0
+    },
+    {
+      "caso": "extensão do salto parado de Força1",
+      "resultado": 3.0
+    },
+    {
+      "caso": "impulso e salto pagos",
+      "resultado": 6
+    }
+  ],
+  "trechos_conferidos": [
+    {
+      "titulo": "#### Saltos",
+      "linha": 814
+    },
+    {
+      "titulo": "#### Quedas e movimento imposto",
+      "linha": 852
+    },
+    {
+      "titulo": "### Danificar objetos",
+      "linha": 8096
+    },
+    {
+      "titulo": "### Objetos e efeitos",
+      "linha": 8131
+    },
+    {
+      "titulo": "#### Preparar",
+      "linha": 373
+    },
+    {
+      "titulo": "#### Estudar",
+      "linha": 1171
+    },
+    {
+      "titulo": "#### Arrastar e transportar",
+      "linha": 1009
+    }
+  ]
+}

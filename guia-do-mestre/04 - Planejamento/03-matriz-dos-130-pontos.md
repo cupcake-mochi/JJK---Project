@@ -1,12 +1,16 @@
 # Matriz dos pontos do inventário para o Guia do Mestre
 
-Versão 4, de 23 de outubro de 2026. Mantém os 130 pontos, classificações e destinos principais; remissões à cobertura de C09 e à primeira redação de C04.
+Versão 18, de 26 de outubro de 2026. Primeira edição de leitura integrada no registro91. M051/P20 conferidos no escopo publicado; 130 E/0 P/0 L e 20 E/0 P. Próximo: revisão do conjunto. Reserva mantida conforme decisão87.
+
+> **Orientação vigente:** A [primeira edição de leitura](<../07 - Edicao de Leitura/index.html>) está organizada em dez capítulos, fichas de mesa, termos e piloto, com aprofundamento da obra em acesso separado sinalizado. O [registro91](91-integracao-da-primeira-edicao-de-leitura.md) fecha a conferência editorial de M051/P20 conforme a decisão87. [Cobertura vigente](apoio-edicao-leitura/cobertura-atualizada.json): 130 E/0 P/0 L e 20 E/0 P, sem aprendizagem observada ou equilíbrio certificado. Os totais indicam demonstrações escritas, não porcentagem de conclusão. As atualizações anteriores são históricas.
+
+> **Cobertura vigente:** [Registro91](91-integracao-da-primeira-edicao-de-leitura.md) conclui a conferência editorial de M051/P20. As quatro condições publicadas de Reserva têm modelo de registro e conferência demonstrada, sem números novos. Consulte a [cobertura atual](apoio-edicao-leitura/cobertura-atualizada.json). E significa demonstração escrita no escopo acordado, sem aprendizagem observada.
 
 [Plano completo](01-plano-completo-do-guia.md) · [Decisões para conversar](02-decisoes-para-conversar.md) · [Competências de mestragem](04-competencias-que-o-livro-deve-ensinar.md)
 
 Cada entrada aparece uma vez, no capítulo responsável por seu desenvolvimento principal. Outros capítulos poderão remeter a ela. Os códigos M são os identificadores do inventário; as páginas indicadas são as páginas do inventário de 33 páginas, não as páginas do livro-base.
 
-A classificação é uma leitura de trabalho do inventário, sujeita à conferência dos trechos na R53 local identificada no plano. A matriz registra o escopo previsto, não o estado atualizado de cada entrega. A cobertura atual de **M103–M122 (C09)** está na [revisão integrada 58](58-revisao-integrada-de-c09.md); os demais capítulos conservam seus registros próprios. A classificação não declara alteração ou aprovação de regra.
+A classificação é uma leitura de trabalho do inventário, sujeita à conferência dos trechos na R53 local identificada no plano. A matriz registra o escopo previsto. A [auditoria 80](80-auditoria-de-cobertura-e-lacunas.md) conserva a base de evidências; o [registro 81](81-lote1-testes-grupo-e-iniciativa.md) atualiza M010/M014/M128 após L1. O [registro 82](82-lote3-percepcao-e-informacao.md) acrescenta M025–M029 após L3. O [registro 83](83-lote2-espaco-objetos-e-capacidades.md) incorpora os sete complementos de L2. O [registro 84](84-lote8-mundo-para-consulta.md) e a [cobertura atual](apoio-lote8/cobertura-atualizada.json) completam P02 em L8 sem alterar os estados M. A revisão 58 é histórica: a seção 55 já completou a ficha criada e a evolução antes pendentes em M119/M122. A classificação não declara alteração ou aprovação de regra.
 
 ## Como interpretar a natureza do trabalho
 
@@ -33,6 +37,26 @@ Há ainda uma frente expressa sem código M próprio: Surpresa e Instinto. Ela �
 
 Esta é a cobertura técnica do inventário. O ensino de mestragem, o contexto do mundo e o cotidiano também são acompanhados na matriz de competências. A quantidade de entradas de um capítulo não define a importância nem o tamanho que ele terá no livro.
 
+## Estado de cobertura em 26/10/2026
+
+E = base operacional demonstrada no recorte; P = parte a complementar; L = procedimento específico não localizado. Esses estados não substituem a natureza R/M/G/A e não significam aprovação de propostas ou validação humana.
+
+| Capítulo | E | P | L | Total |
+|---|---:|---:|---:|---:|
+| C01 | 5 | 0 | 0 | 5 |
+| C02 | 2 | 0 | 0 | 2 |
+| C03 | 29 | 0 | 0 | 29 |
+| C04 | 1 | 2 | 0 | 3 |
+| C05 | 9 | 0 | 0 | 9 |
+| C06 | 9 | 7 | 0 | 16 |
+| C07 | 19 | 6 | 0 | 25 |
+| C08 | 12 | 7 | 0 | 19 |
+| C09 | 20 | 0 | 0 | 20 |
+| C10 | 2 | 0 | 0 | 2 |
+| Total | 108 | 22 | 0 | 130 |
+
+O motivo das classificações iniciais está no registro 80; as atualizações de L1 e L3 estão nos registros 81/82, e as de L2 no [registro 83](83-lote2-espaco-objetos-e-capacidades.md). A continuação após L8 está no [registro 84](84-lote8-mundo-para-consulta.md). Não converter a contagem em porcentagem de livro concluído.
+
 ## Capítulo 01 Mundo cotidiano e grupo
 
 5 entradas com desenvolvimento principal neste capítulo.
@@ -55,6 +79,12 @@ Esta é a cobertura técnica do inventário. O ensino de mestragem, o contexto d
 | M123 · p. 25 | Situação, lugares e pistas | G | D11, D14 | Situação completa com acessos, pistas e piora sem ação dos personagens. |
 
 ## Capítulo 03 Conduzir cenas e resolver situações
+
+**Complemento L1 entregue:** [Testes, trabalho em grupo e iniciativa](<../06 - Redacao do Guia/82-testes-trabalho-em-grupo-e-iniciativa.md>) e lembretes nas seções 04/05. M010/M014/M128 têm base demonstrada; os demais complementos deste capítulo seguem identificados na auditoria.
+
+**Complemento L3 entregue:** [Perceber, procurar e interpretar sinais](<../06 - Redacao do Guia/83-perceber-procurar-e-interpretar-sinais.md>) demonstra M025–M029 e usa Memória Testemunha, nome da capacidade na fonte atual.
+
+**Complemento L2 entregue:** [Percursos, apoios e quedas](<../06 - Redacao do Guia/84-percursos-apoios-e-quedas.md>) e [Trajetórias, ferramentas e improvisação](<../06 - Redacao do Guia/85-trajetorias-ferramentas-e-improvisacao.md>) demonstram M019/M020/M021/M022/M054/M064/M066. Os 29 pontos deste capítulo têm base demonstrada; revisão editorial e integração da edição continuam previstas.
 
 29 entradas com desenvolvimento principal neste capítulo.
 
@@ -94,7 +124,11 @@ Esta é a cobertura técnica do inventário. O ensino de mestragem, o contexto d
 
 3 entradas com desenvolvimento principal neste capítulo.
 
-**Redação iniciada:** [registro 60](60-c04-preparo-e-avaliacao-de-encontros.md) e seções 56–58 do Guia desenvolvem preparo, avaliação e ferramenta de M124, com o encontro existente do Amontoado. O construtor geral e os demais confrontos continuam abertos. M017/M129 têm campos de preparação, mas ainda precisam de exemplos ambientais completos; cobertura não concluída.
+**Estado vigente:** M017 tem base operacional demonstrada; M124 e M129 continuam parciais, pelos motivos da auditoria 80.
+
+**Histórico da cobertura parcial, conferida editorialmente no [registro 77](77-integracao-do-metodo-de-inimigos.md):** M124 recebeu método, ficha única, exemplos de criatura isolada, composição com apoio e chefe, aquisição e continuidade. As seções 56/58/77 organizam a consulta; 59–61 e 67–68 aprofundam recursos, capacidades e chefes. A seção 74 oferece referências experimentais somente nos níveis 2 e 6. Ainda faltam outros perfis e faixas, tratamento numérico de chefes e avaliação de dificuldade; não há escala geral concluída.
+
+M017/M129 receberam terreno, queda, ruptura anunciada e mudança de acesso nas seções 62–66, com sinais, intervenção e encerramento; ver [registro 67](67-perigo-da-passarela-e-do-guincho.md) e [registro 68](68-confronto-com-objetivo-e-pressao-ambiental.md). O [registro 78](78-perigos-ambientais-e-exposicao.md) e as seções 78/79 acrescentam método geral, exposição recorrente, imunidades, condição persistente, limpeza e socorro. Outros perigos e doença prolongada ainda precisam de exemplos; não há tabela universal de dano ou doença. Contas e percursos escritos não substituem avaliação com leitores e mesas. A integração não altera classificações nem declara nenhum desses três pontos integralmente concluído.
 
 | ID e página | Assunto do inventário | Natureza | Discussão | Tratamento previsto |
 |---|---|---|---|---|
@@ -230,6 +264,8 @@ Esta é a cobertura técnica do inventário. O ensino de mestragem, o contexto d
 
 2 entradas com desenvolvimento principal neste capítulo.
 
+**Redação e ferramentas entregues:** [registro 79](79-c10-ferramentas-e-passagem.md) e seções 80/81 organizam consulta, fechamento e passagem. M126 usa a nota da folha 05, com fonte, decisão da sessão, conferência e comunicação. M127 usa a linha 16 e o estado 24, com versões, próximo evento e exemplo de socorro em andamento. Entrega editorial e conferência documental; compreensão e uso por pessoas ainda precisam de observação. A auditoria de cobertura foi entregue no [registro 80](80-auditoria-de-cobertura-e-lacunas.md); a integração final permanece pendente.
+
 | ID e página | Assunto do inventário | Natureza | Discussão | Tratamento previsto |
 |---|---|---|---|---|
 | M126 · p. 25 | Dúvida de regra durante a sessão | G | D01, D13 | Modelo de decisão provisória e comunicação de correção. |
@@ -253,3 +289,39 @@ A futura decisão deve dizer o que surpresa faz, quando é verificada e como Ins
 ## Fonte
 
 [Inventário para o Guia do Mestre R53](<../00 - Ciclo Maldito (Guia do Mestre)/Ciclo-Maldito-Inventario-para-o-Guia-do-Mestre-R53.pdf>), com referências ao livro-base e limites por entrada. As páginas 26 e 27 também reúnem regras já fechadas a conferir nos exemplos. As páginas 28 e 29 distinguem as frentes de desenvolvimento.
+
+## L4 — demonstrações e decisão de Reserva
+
+O [registro 85](85-lote4-personalizacao-e-cuidados.md) demonstra M040/M043/M048/M049/M050 nas seções 89/90/91; a seção 92 e a [validação 86](86-validacao-da-reserva-condensada.md) ampliam M051 sem encerrar sua decisão autoral. P20 recebe evidências, mantendo as lacunas de Reserva, montagem e equipamento. Estados atuais: 113 E/17 P/0 L e 17 E/3 P. L4 permanece em andamento.
+
+**Próximo:** Decidir com o autor o papel de Reserva Condensada e fechar a referência a partir dos modelos, usos e cadências comparados. **GPT-6 Astra, esforço extra alto**, para comparação; **GPT-6.1 Sol, esforço alto**, para consolidar a redação após a escolha. Os cinco exemplos de L4 já entregues não precisam ser reiniciados.
+
+## Correção de escopo — Reserva Condensada
+
+O autor determinou descartar o detalhamento proposto e manter Reserva Condensada como está na R53 por enquanto. A escolha anterior de depósito antes do longo foi desconsiderada. Modelos A/B, depósitos, tetos e retiradas propostos não são decisões autorais vigentes. A pesquisa é histórica; o livro-base permanece intacto.
+
+**Próximo:** Seguir para L6 — montagens e pareceres que faltam: Forma Fluida, mescla ampliada, repetição de peça, Condicional/Restrição Própria, efeito fora de combate e cancelamento. **GPT-6 Astra, esforço extra alto**, para análise; **GPT-6.1 Sol, esforço alto**, para revisão. M051 conserva apenas conferência editorial do escopo publicado, sem retomada do detalhamento descartado.
+
+## L6 — montagens e pareceres entregues
+
+O [registro 88](88-lote6-montagens-e-pareceres.md) integra mescla ampliada e Forma Fluida, compras repetidas, Condicional/Restrição Própria, efeito de cena e cancelamento. Seis pontos passam a E por demonstração escrita: M055/M084/M087/M088/M090/M091. Não é aprovação de padrão experimental ou aprendizagem observada. As demais classificações estão preservadas; P20 continua parcial por L5 e conferência editorial de M051.
+
+**Próxima tarefa:** L5 — equipamento, projetos e reconhecimento: ferramenta original e processo especial; objeto ou selo com risco de ingestão; negociação/revenda; feito do Limiar e promoção. **GPT-6 Astra, esforço extra alto**, para projetos e efeitos; **GPT-6.1 Sol, esforço alto**, para revisão de clareza.
+
+## L5 — equipamento, projetos e reconhecimento entregues
+
+O [registro 89](89-lote5-equipamento-projetos-e-reconhecimento.md) demonstra os oito pontos nas seções 96–99. Ferramenta original e identificação têm fonte, processo, custo, trabalho, falha e entrega; a negociação preserva recusa; o objeto tem risco e encerramento; o feito de Limiar é conferido antes do XP, separadamente da promoção. Pareceres locais experimentais não se tornam padrões gerais. Cobertura 127 E/3 P/0 L e 17 E/3 P nas competências, sem aprendizagem observada.
+
+**Próxima tarefa:** L7 — ampliar referências de ameaças e perigos a partir da R53, comparar perfis/chefes/composições e completar uma consequência prolongada. **GPT-6 Astra, esforço extra alto**, para análise e cálculos; **GPT-6.1 Sol, esforço alto**, para revisão de clareza. Depois: conferência editorial restante e integração da edição de leitura.
+
+## L7 — ameaças e consequências prolongadas entregues
+
+O [registro 90](90-lote7-ameacas-e-consequencias-prolongadas.md) apresenta as seções 100–103: perfis em outras faixas, três fichas de nível15, composição/objetivo/socorro e doença fictícia completa. Referências numéricas são locais e experimentais; nenhuma escala geral ou atualização integral do Bestiário foi adotada. Cobertura 129 E/1 P/0 L e 19 E/1 P nas competências; resta M051/P20 no escopo editorial publicado.
+
+**Próxima tarefa:** Conferir M051 no escopo publicado de Reserva, sem retomar modelos descartados, e integrar a edição de leitura: ordem de capítulos, remissões, repetições e consultas. **GPT-6.1 Sol, esforço alto**. Contradições mecânicas novas, se aparecerem, ficam para análise separada com Astra extra alto.
+
+## Primeira edição de leitura integrada
+
+[Registro91](91-integracao-da-primeira-edicao-de-leitura.md): M051/P20 conferidos pela entrada da R53 e decisão87. L1/L3/L2/L8/L4/L6/L5/L7 têm demonstrações escritas no escopo definido. Dez capítulos, 17 folhas/exemplos de registro, termos e piloto formam a edição navegável; o aprofundamento com revelações fica separado e os estudos69/70 permanecem fora do percurso principal. O manuscrito completo em Markdown é editável. Integração estrutural não equivale a revisão semântica nova de cada passagem nem a avaliação humana.
+
+**Próxima tarefa:** Revisar o manuscrito organizado como conjunto, em passagens por capítulo: clareza, coerência entre exemplos e regra, caminhos de consulta e pontos de decisão. **GPT-6 Astra, esforço extra alto**, para a revisão crítica; **GPT-6.1 Sol, esforço alto**, para aplicar correções. O retorno de leitores pode ser incorporado em paralelo; não bloqueia a revisão interna.

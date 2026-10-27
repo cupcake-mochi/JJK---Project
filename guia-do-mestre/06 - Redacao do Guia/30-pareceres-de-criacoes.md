@@ -30,6 +30,8 @@ Na falha, o alvo não pode se deslocar voluntariamente até o fim de seu segundo
 
 A versão por ataque seria outra montagem: primeiro precisaria acertar, depois resolver o TR de Prende. O jogador não escolhe entre ataque e TR depois de observar as defesas do adversário.
 
+A consulta [Efeitos de cena e cancelamento](95-efeitos-de-cena-e-cancelamento.md) mostra outro tipo de parecer: o cancelamento de uma aplicação específica, com Classe publicada ou atribuída, preservando resultados concluídos e respeitando a exclusão de Domínios.
+
 ## A proposta de informação que cresceu
 
 **Pedido.** “Quero tocar um objeto e saber quem usou energia nele, onde essa pessoa está e como funciona sua técnica.”
@@ -88,7 +90,9 @@ A Regra Própria começa em CE1 sem ocupar espaço; sua versão CE2 ocupa um esp
 
 Para uma família original, descreva formação, relações e obrigações. Construa uma base coerente usando os clãs como referência, escolha uma modalidade publicada da marcante do Descendente e duas menores elegíveis. O nome da família não concede outra marcante. Somar Execução Ensaiada, Execução Reservada e Entendimento Tácito produziria um pacote diferente do autorizado.
 
-A R53 permite criar ambas as menores. A comparação deve mostrar os resultados de cada uma e do conjunto. O Guia usa aqui uma referência publicada para demonstrar o método; uma família inteiramente nova ainda precisa ter seu pacote concreto avaliado.
+A R53 permite criar ambas as menores. A comparação deve mostrar os resultados de cada uma e do conjunto. A referência publicada demonstra o método; o pacote original abaixo encaminha uma comparação concreta, ainda sujeita à avaliação da mesa.
+
+A [família Arata](89-vida-rolada-e-familia-propria.md) desenvolve uma base completa de Origem, marcante publicada e duas menores próprias, com comparação e resolução conjunta. É exemplo experimental de avaliação, sem inclusão automática na R53.
 
 ## Uma Restrição que nunca cobrou nada
 
@@ -101,3 +105,5 @@ A R53 permite criar ambas as menores. A comparação deve mostrar os resultados 
 Outro caso: uma ficha recebe devolução por Gesto e compra Silencioso esperando abandonar as duas mãos livres e a fala. Gesto conserva essas exigências. A melhoria não apaga a dificuldade que financiou a montagem.
 
 Para Condicional ou Restrição Própria, a R53 usa a frequência prevista de impedimento para orientar Leve ou Média. Depois de três sessões de uso, confronte essa estimativa com o ocorrido. O registro deve distinguir “o jogador nunca tentou naquela situação” de “a exigência era sempre garantida”.
+
+[Compras repetidas e Restrições verificáveis](94-compras-repetidas-e-restricoes.md) preenche Condicional com distância, fonte, momento de conferência e devolução. A Matriz de chão acrescenta um exemplo experimental de Restrição Própria, com preparo, consumo, falha e revisão.

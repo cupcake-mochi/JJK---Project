@@ -1,0 +1,58 @@
+{
+  "etapa": 85,
+  "data": "2026-10-26",
+  "escopo": "L4 parcial: cinco exemplos completos; Reserva Condensada comparada e proposta B sem aprovação autoral.",
+  "manifesto_anterior": 346,
+  "arquivos_anteriores_intactos_antes_da_instalacao": 346,
+  "arquivos_atualizados": 18,
+  "arquivos_novos_no_manifesto": 13,
+  "arquivos_anteriores_sem_alteracao": 328,
+  "copias_historicas_conferidas": 18,
+  "manifesto_final": 359,
+  "matriz_130_linhas_preservada": true,
+  "competencias_20_linhas_preservadas": true,
+  "cobertura": {
+    "etapa": 85,
+    "contagens_M": {
+      "E": 113,
+      "P": 17,
+      "L": 0
+    },
+    "contagens_P": {
+      "E": 17,
+      "P": 3
+    },
+    "evidencias_conferidas": 293,
+    "reclassificados": [
+      "M040",
+      "M043",
+      "M048",
+      "M049",
+      "M050"
+    ],
+    "pendentes_preservados": [
+      "M051",
+      "P20"
+    ],
+    "grupos_de_contas_conferidos": 9,
+    "problemas": [],
+    "limites": "Integridade documental, contas explícitas e transições de cobertura. Não verifica compreensão humana ou equilíbrio de regras; Reserva não aprovada."
+  },
+  "links_novos_ou_alterados_conferidos": 58,
+  "blocos_de_tabelas_conferidos": 29,
+  "revisao_editorial_manual": [
+    "Vida rolada declarada antes, inclusive primeiro nível; ajuste não tratado como descanso.",
+    "Família original com base e marcante publicadas, duas menores próprias explicitamente experimentais; exemplo conjunto com recursos.",
+    "Reparo de Ena: Ofício/material e consumo local, CD, repetição e recuperação; sem especialização indevida no nível 4.",
+    "Rede Remota conserva comunicação/sentidos; novo invocador recalcula Defesa 13 e Bloquear +2 do Escriba.",
+    "Condições corporais publicadas separadas: Vigor no Quebradiço, luz no Debilitado, cura e repouso no Exaurido.",
+    "Reserva A preservada; pedido de validação não convertido em aprovação.",
+    "Modelo B é recomendação experimental; custo de Bônus fora de combate, frequência de missões e proporção inicial explicitados.",
+    "Fontes externas sintetizadas no alcance acessível, sem equivalência numérica entre sistemas.",
+    "Casos de Bônus publicados nos níveis 2/20 e cadências semanais/espaçadas comparados; escolha de função permanece autoral."
+  ],
+  "R53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "preservados": "R53, decisões autorais anteriores, números de inimigos, Pactos, projetos e histórico. Manifesto por união.",
+  "limites": "Verificação documental, aritmética e editorial. Sem simulação de combate, teste humano, aprovação de nova regra ou envio ao GitHub. Cobertura reavaliada apenas no recorte de L4.",
+  "problemas": []
+}

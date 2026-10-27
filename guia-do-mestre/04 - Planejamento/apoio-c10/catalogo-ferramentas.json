@@ -1,0 +1,145 @@
+{
+  "etapa": 79,
+  "criterio": "Ferramentas principais de registro ou consulta; exemplos preenchidos e aprofundamentos não são formulários principais adicionais.",
+  "principais": [
+    {
+      "secao": 2,
+      "arquivo": "02-ficha-de-preparacao.md",
+      "assunto": "preparação",
+      "funcao": "Situação, pessoas, acessos, informações, perigos e consequências.",
+      "exemplos_ou_procedimentos": [
+        "03-as-batidas-no-anexo-consulta.md"
+      ]
+    },
+    {
+      "secao": 5,
+      "arquivo": "05-folha-de-conducao.md",
+      "assunto": "condução",
+      "funcao": "Tentativas, participação, dúvidas e encerramento.",
+      "exemplos_ou_procedimentos": [
+        "04-conduzir-uma-sessao.md",
+        "81-passar-a-missao-entre-mestres.md"
+      ]
+    },
+    {
+      "secao": 8,
+      "arquivo": "08-ficha-de-acordos-do-grupo.md",
+      "assunto": "acordos",
+      "funcao": "Proposta, limites, organização e revisões dos combinados.",
+      "exemplos_ou_procedimentos": [
+        "09-exemplo-de-acordos-do-grupo.md"
+      ]
+    },
+    {
+      "secao": 12,
+      "arquivo": "12-registro-de-descobertas.md",
+      "assunto": "descobertas",
+      "funcao": "Informação obtida, fonte, conclusão, hipótese e destinatários.",
+      "exemplos_ou_procedimentos": [
+        "12-registro-de-descobertas.md"
+      ]
+    },
+    {
+      "secao": 16,
+      "arquivo": "16-linha-de-continuidade.md",
+      "assunto": "continuidade",
+      "funcao": "Mudanças, pendências, passagem, retorno e tarefas.",
+      "exemplos_ou_procedimentos": [
+        "16-linha-de-continuidade.md",
+        "81-passar-a-missao-entre-mestres.md"
+      ]
+    },
+    {
+      "secao": 20,
+      "arquivo": "20-ficha-de-faccao.md",
+      "assunto": "facção",
+      "funcao": "Objetivo, representantes, meios, relações e próxima ação.",
+      "exemplos_ou_procedimentos": [
+        "20-ficha-de-faccao.md"
+      ]
+    },
+    {
+      "secao": 24,
+      "arquivo": "24-registro-de-estado-e-socorro.md",
+      "assunto": "estado e socorro",
+      "funcao": "Reservas, condições, queda, ponto da iniciativa e recuperação.",
+      "exemplos_ou_procedimentos": [
+        "81-passar-a-missao-entre-mestres.md"
+      ]
+    },
+    {
+      "secao": 28,
+      "arquivo": "28-ficha-de-convivencia.md",
+      "assunto": "convivência",
+      "funcao": "Vozes, conhecimentos, limites e mudanças da relação.",
+      "exemplos_ou_procedimentos": [
+        "28-ficha-de-convivencia.md"
+      ]
+    },
+    {
+      "secao": 32,
+      "arquivo": "32-ficha-de-avaliacao-de-capacidade.md",
+      "assunto": "avaliação",
+      "funcao": "Aquisição, operação, parecer, versão e alcance da decisão.",
+      "exemplos_ou_procedimentos": [
+        "30-pareceres-de-criacoes.md",
+        "32-ficha-de-avaliacao-de-capacidade.md"
+      ]
+    },
+    {
+      "secao": 38,
+      "arquivo": "38-ficha-de-projeto-e-entrega.md",
+      "assunto": "projeto e entrega",
+      "funcao": "Requisitos, trabalho, materiais, andamento, entrega e empréstimo.",
+      "exemplos_ou_procedimentos": [
+        "38-ficha-de-projeto-e-entrega.md",
+        "55-fabricar-e-evoluir-o-vigia-do-deposito.md"
+      ]
+    },
+    {
+      "secao": 40,
+      "arquivo": "40-registro-de-dedicacao-por-ficha.md",
+      "assunto": "dedicação",
+      "funcao": "Concessões por ficha, reservas, confirmação, saldo e vencimento.",
+      "exemplos_ou_procedimentos": [
+        "40-registro-de-dedicacao-por-ficha.md"
+      ]
+    },
+    {
+      "secao": 42,
+      "arquivo": "42-registro-de-pactos-e-promessas.md",
+      "assunto": "Pactos e Promessas",
+      "funcao": "Termos, ganho, preço, prazo, quebra, encerramento e estado.",
+      "exemplos_ou_procedimentos": [
+        "42-registro-de-pactos-e-promessas.md",
+        "50-promessa-do-arquivo.md"
+      ]
+    },
+    {
+      "secao": 44,
+      "arquivo": "44-registro-de-aquisicao-e-estado-de-entidade.md",
+      "assunto": "entidade",
+      "funcao": "Aquisição, projeto e estado vinculado à ficha completa.",
+      "exemplos_ou_procedimentos": [
+        "51-ritual-do-cao-de-sombra.md",
+        "52-domar-o-amontoado.md",
+        "55-fabricar-e-evoluir-o-vigia-do-deposito.md"
+      ]
+    },
+    {
+      "secao": 58,
+      "arquivo": "58-ficha-de-inimigo-e-encontro.md",
+      "assunto": "construção e encontro",
+      "funcao": "Ameaça, grupo, capacidade, lugar, conferência e resultado.",
+      "exemplos_ou_procedimentos": [
+        "77-ficha-preenchida-ren-e-sora.md"
+      ]
+    }
+  ],
+  "aprofundamentos": [
+    "61-ficha-de-habilidade-de-inimigo.md",
+    "68-ficha-e-comparacao-de-chefes.md"
+  ],
+  "entrada_c10": "80-escolher-e-usar-as-ferramentas.md",
+  "passagem_preenchida": "81-passar-a-missao-entre-mestres.md"
+}

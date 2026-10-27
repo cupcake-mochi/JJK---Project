@@ -65,6 +65,8 @@ Uma troca de Trilha ou outro ajuste de máximo não acrescenta esse ganho ao sal
 
 Se a campanha adotar a variante de vida rolada, registre o critério adotado e os resultados usados, seguindo as orientações e decisões aplicáveis. A referência da R53 usa esses resultados no lugar dos valores fixos do Caminho. Não misture os dois métodos sem identificar a diferença.
 
+Em [Vida rolada e uma família própria](89-vida-rolada-e-familia-propria.md), a declaração do método antecede três níveis calculados, uma subida sem descanso e o recálculo de Constituição.
+
 ## Registre o aprendizado que a regra exige
 
 Quando uma Aptidão exigir aprendizado, registre a origem permitida por sua entrada: com quem aprendeu, onde viu o uso ou que estudo foi realizado. O registro acompanha a ficha e não substitui nível, Refino ou outros requisitos.

@@ -1,0 +1,40 @@
+{
+  "etapa": 83,
+  "data": "2026-10-26",
+  "escopo": "L2: M019/M020/M021/M022/M054/M064/M066; integração e atualização incremental de cobertura.",
+  "manifesto_anterior": 328,
+  "arquivos_anteriores_intactos_antes_da_instalacao": 328,
+  "arquivos_atualizados": 15,
+  "arquivos_novos_no_manifesto": 9,
+  "arquivos_anteriores_sem_alteracao": 313,
+  "copias_historicas_conferidas": 15,
+  "manifesto_final": 337,
+  "matriz_130_linhas_preservada": true,
+  "competencias_20_linhas_preservadas": true,
+  "reclassificados": [
+    "M019",
+    "M020",
+    "M021",
+    "M022",
+    "M054",
+    "M064",
+    "M066"
+  ],
+  "cobertura_M": {
+    "E": 108,
+    "P": 22,
+    "L": 0
+  },
+  "cobertura_P": {
+    "E": 16,
+    "P": 4
+  },
+  "evidencias_atuais_conferidas": 281,
+  "links_novos_ou_alterados_conferidos": 54,
+  "blocos_de_tabelas_novos_ou_alterados_conferidos": 13,
+  "conferencia_de_exemplos": "resultados.json; contas de movimento, saltos, quedas, apoios, trajetórias, equipamentos e armas improvisadas conferidas.",
+  "R53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "preservados": "R53, decisões autorais, números dos inimigos, Pactos, projetos e histórico anterior. Manifesto atualizado por união, sem excluir arquivos anteriores.",
+  "limites": "Conferência documental, aritmética e de integridade. Sem nova regra, simulação de combate, teste humano, auditoria integral dos outros 123 pontos ou envio ao GitHub.",
+  "problemas": []
+}

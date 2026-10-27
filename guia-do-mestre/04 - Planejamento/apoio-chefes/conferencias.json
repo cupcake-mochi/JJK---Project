@@ -1,0 +1,93 @@
+{
+  "data": "2026-10-25",
+  "metodo": "Revisão documental dos casos e contas diretas. Não simula combate, escolhas humanas ou probabilidade de vitória.",
+  "ordem_ilustrativa": [
+    "Rina",
+    "Carregador",
+    "Mei",
+    "Akira"
+  ],
+  "turnos_entre_anuncio_e_resolucao": {
+    "fim_da_mesma_rodada": [
+      "Mei",
+      "Akira"
+    ],
+    "comeco_do_proximo_turno_inimigo": [
+      "Mei",
+      "Akira",
+      "Rina"
+    ],
+    "anuncio_antes_da_primeira_rodada": [
+      "Rina",
+      "Mei",
+      "Akira"
+    ]
+  },
+  "contas": {
+    "dois_corpos_PV_independentes": 64,
+    "dois_corpos_integridade_independente": 32,
+    "Mei_movimento_restante": 6,
+    "Carregador_deslocamento_estagio_2": 4.5,
+    "distancia_restante_ate_P": 1.5,
+    "retirada_PV_restantes": 7,
+    "derrota_PV_restantes": 0
+  },
+  "recortes_documentais": [
+    {
+      "caso": "Preparar deslocamento",
+      "fonte": "R53 — Preparar",
+      "resultado": "Padrão antes, Reação na execução; sem ataque incluído e sem Padrão duplicada."
+    },
+    {
+      "caso": "Clique da parada",
+      "fonte": "R53 — Preparar; G66",
+      "resultado": "Resposta depois da operação; o motor já parou na posição atual."
+    },
+    {
+      "caso": "Reação indisponível ou expiração",
+      "fonte": "R53 — Preparar e Reações",
+      "resultado": "Gastar Reação em outra coisa encerra preparação. Começo do próximo turno encerra seu prazo. Rodada não recupera Reação."
+    },
+    {
+      "caso": "Agarrado",
+      "fonte": "R53 — Contenções; G62",
+      "resultado": "Deslocamento zero. A preparação não concede soltura."
+    },
+    {
+      "caso": "Integridade e alcance",
+      "fonte": "R53 — Integridade; G63; G66",
+      "resultado": "Estágio2 fornece4,5m, alcançando espaço a1,5m do pontoP situado a6m. Não percorre6m."
+    },
+    {
+      "caso": "Intervalo de resposta",
+      "fonte": "R53 — Turnos; ordem declarada neste estudo",
+      "resultado": "Fim da rodada após turno inimigo exclui o próximo turno de Rina; começo do próximo turno inimigo inclui os três personagens."
+    },
+    {
+      "caso": "Retirada ou derrota",
+      "fonte": "G62/G63; R53 — Derrota",
+      "resultado": "10→7 aciona conduta de retirada sem movimento gratuito. 10→0 resolve derrota normal; não cria segunda vida."
+    },
+    {
+      "caso": "Dois corpos",
+      "fonte": "G63; R53 — Turnos",
+      "resultado": "64PV/32Integridade são somas contábeis de reservas separadas; duas Padrões condicionadas a dois turnos. Não estabelece equivalência de dificuldade."
+    },
+    {
+      "caso": "Fases",
+      "fonte": "G62/G66; R53 — recursos e estados",
+      "resultado": "Comportamento e ambiente preservam ficha e continuidade. Transformação que altere derrota exigiria regra nova completa."
+    },
+    {
+      "caso": "Aquisição",
+      "fonte": "G63; procedimentos de entidades já redigidos",
+      "resultado": "Cenário e capacidades de chefe não foram adicionados à Doma. Conversão nova deve ser definida antes da aquisição."
+    }
+  ],
+  "limites": [
+    "Sem fichas completas de jogadores simuladas.",
+    "Sem novo parâmetro de chefe aprovado.",
+    "Sem alteração das fichas do piloto, do Carregador ou de sua Doma.",
+    "Sem teste humano ou validação de equilíbrio."
+  ]
+}

@@ -1,31 +1,29 @@
-# Guia do Mestre do Ciclo Maldito — desenvolvimento pré-1.0
+# Guia do Mestre de Ciclo Maldito — pré-1.0 diagramada
 
-Salvamento de 23 de outubro de 2026 do trabalho editorial autorizado por Mizuki. Reúne o planejamento, as decisões, o manuscrito, os exemplos, os programas de conferência, os resultados e as versões anteriores conservadas durante a produção.
+Salvamento de 26 de outubro de 2026, na branch `codex/guia-do-mestre-pre-1-2026-10-23`. Contém as etapas posteriores ao salvamento de 23/10, incluindo planejamento, decisões, manuscrito, exemplos, históricos, edição HTML e PDF revisado.
 
-## Por onde começar
+## Começar e continuar
 
-- [Planejamento completo, versão 55](<04 - Planejamento/01-plano-completo-do-guia.md>)
-- [Decisões efetivamente recebidas](<04 - Planejamento/06-registro-das-decisoes.md>)
-- [Índice do manuscrito](<06 - Redacao do Guia/LEIA-ME.md>)
-- [Roteiro da pré-1.0 e recomendação de modelos](<04 - Planejamento/19-roteiro-pre-1-e-modelos.md>)
-- [Estado de retomada, em ordem cronológica](<04 - Planejamento/apoio-piloto/RETOMADA.md>)
+- [Prompt para o próximo chat](PROMPT-CONTINUAR-GUIA-2026-10-26.txt)
+- [PDF pré-1.0 — 358 páginas](<08 - Diagramacao do Guia/output/pdf/Ciclo-Maldito-Guia-do-Mestre-Pre-1.0.pdf>)
+- [Relatório da revisão crítica e visual](<04 - Planejamento/92-revisao-critica-e-edicao-diagramada.md>)
+- [Edição de leitura HTML](<07 - Edicao de Leitura/index.html>) — abra localmente após obter a pasta
+- [Roteiro e próxima tarefa](<04 - Planejamento/19-roteiro-pre-1-e-modelos.md>)
+- [Fontes do manuscrito](<06 - Redacao do Guia/LEIA-ME.md>)
+- [Reprodução e revisão da diagramação](<08 - Diagramacao do Guia/LEIA-ME.md>)
 
-## Estado atual
+## Estado e limites
 
-O Guia ensina a mestrar Ciclo Maldito, usando a guilda como contexto principal e oferecendo adaptações para campanhas fechadas. A produção busca uma pré-1.0 completa, com revisão contínua e foco em clareza. A R53 é a referência mecânica. O Bestiário antigo não serve de referência numérica.
+Plano 81, pauta 75, matriz 18 e competências 21; registro 92. A edição integra 104 fontes em dez capítulos e quatro apêndices. O PDF conserva o padrão tipográfico da R53 e inclui quatro referências visuais selecionadas, três esquemas de procedimento e cinco mapas vetoriais. A inspeção observou todas as páginas em pranchas, com ampliações dirigidas e reinspeção das páginas alteradas. Relatórios, pranchas e páginas ampliadas estão em `08 - Diagramacao do Guia/revisao`.
 
-A entrega mais recente desenvolve [critérios e interações das habilidades de inimigos](<04 - Planejamento/65-criterios-e-interacoes-das-habilidades.md>), o [método de montagem](<06 - Redacao do Guia/60-montar-habilidades-de-inimigos.md>) e a [ficha de consulta](<06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md>). PE, recarga, intervalo, preparo e requisitos são avaliados pela função da habilidade. Não foi adotada uma economia universal para inimigos.
+A revisão crítica foi estrutural e dirigida. Não constitui nova auditoria semântica de cada linha, teste humano ou comprovação de equilíbrio. A R53 permaneceu intacta; o detalhamento numérico rejeitado de Reserva Condensada não foi incorporado. O Bestiário antigo não forneceu os números dos exemplos novos. Treinamentos, Bestiário integral e escala geral continuam trabalhos próprios.
 
-A base pequena e os exemplos novos têm seus limites de verificação registrados. Conferir contas e interações não constitui teste humano nem comprovação de equilíbrio. As propostas experimentais não se tornam regras aprovadas por estarem neste salvamento.
+**Próxima tarefa:** incorporar observações e continuar a revisão editorial por capítulo. GPT-6.1 Sol, esforço alto, para clareza e redação; GPT-6 Astra, extra alto, para contradições mecânicas amplas. O prompt explicita prioridades e decisões a preservar.
 
-Próxima tarefa: encontro curto com o Carregador de sinos e um elemento ambiental, completando corpo, percurso, informação, respostas, retirada e encerramento. Recomendação: GPT-6 Astra, esforço extra alto; GPT-6.1 Sol, esforço alto para redação. O Bestiário integral e as mecânicas de treinamento continuam adiados.
+## Conteúdo salvo e conferência
 
-## Conteúdo e reprodução
+`SALVAMENTO.json` inventaria a cópia, com tamanho e SHA-256 de cada arquivo. Execute `python3 CONFERIR-COPIA-GIT.py` nesta pasta para conferir o conjunto publicado. `CONFERIR-SALVAMENTO.py` mantém a verificação do manifesto de produção; suas referências não publicadas, se houver, estão listadas no inventário. Os verificadores históricos preservam o estado de suas respectivas etapas.
 
-As pastas `04 - Planejamento` e `06 - Redacao do Guia` conservam os nomes e os bytes dos arquivos de origem, incluindo os históricos internos. `SALVAMENTO.json` lista seus tamanhos e identificações SHA-256 para conferir a cópia.
+Foram copiados planejamento, redação, edição de leitura, diagramação e registros de continuidade, incluindo históricos. Mantiveram-se as exclusões de extrações integrais externas do salvamento anterior e de caches de execução; os originais continuam no acervo local. Bibliotecas completas de terceiros e pesquisas paralelas não fazem parte deste envio. As imagens selecionadas do próprio projeto e as licenças tipográficas acompanham o PDF; atribuição não equivale a licença da obra.
 
-Os PDFs e as extrações integrais de livros e páginas de terceiros não fazem parte deste envio. As extrações omitidas dentro das pastas copiadas estão relacionadas em `SALVAMENTO.json`; continuam no acervo local. As referências bibliográficas e os registros de consulta foram preservados. A pesquisa paralela do Claude também continua em seu próprio acervo.
-
-Os links internos entre arquivos copiados funcionam a partir destas pastas. Caminhos absolutos para o computador do autor e referências ao acervo externo exigem os originais locais. Alguns programas consultam a R53 por um caminho local; para reproduzi-los em outra máquina, disponibilize essa mesma referência e ajuste somente o caminho necessário. Não substitua a R53 por uma versão diferente e trate os resultados como equivalentes.
-
-O manifesto original de produção foi mantido para rastreabilidade. Ele pode referenciar extrações omitidas neste envio; consulte `fontes_do_manifesto_nao_publicadas` em `SALVAMENTO.json`. Para conferir o conjunto enviado, use o inventário deste salvamento.
+A produção principal no computador de Mizuki permanece em `/media/mizuki/HD Externo II/Claude/Pesquisa de Campo - Mestragem/`. A cópia Git é separada: compare antes de sincronizar. Caminhos absolutos ou referências à bibliografia externa exigem os originais locais. Uma cópia conferida do texto da R53 está em `04 - Planejamento/apoio-carregador/fontes/LIVRO-COMPLETO-R53.md`; o nome histórico r41 de outra pasta do repositório não define a revisão do conteúdo.

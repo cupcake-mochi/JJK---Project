@@ -1,99 +1,101 @@
-# Ficha de preparação e avaliação de encontro
+# Ficha única de construção e encontro
 
-**Ferramenta de consulta.** Preencha antes da sessão e complete o resultado depois. Use o [método de avaliação](56-preparar-inimigos-e-avaliar-encontros.md) e o [exemplo do Amontoado](57-avaliar-o-encontro-do-amontoado.md). Mantenha as fichas completas dos participantes disponíveis; esta folha organiza o encontro e aponta para essas fichas.
+**Use esta ficha para registrar o preparo e a aplicação.** Ela acompanha o [método principal](56-preparar-inimigos-e-avaliar-encontros.md). O [exemplo preenchido com Ren e Sora](77-ficha-preenchida-ren-e-sora.md) usa os mesmos seis blocos.
 
-## Identificação
+Preencha uma vez a situação, o grupo e o lugar. Repita o bloco 2 por tipo de ameaça e mantenha um estado separado para cada corpo. Use o bloco 3 para capacidades novas ou alteradas; uma referência completa e acessível pode substituir a transcrição de uma ficha já pronta. Num perigo sem criaturas, marque o bloco 2 como não aplicável e desenvolva o bloco 4. “Não se aplica” e “ainda falta decidir” têm significados diferentes.
 
-| Campo | Registro |
+## 1. Situação e grupo
+
+| Campo | Preenchimento |
 |---|---|
-| Missão, lugar e responsável | |
-| Versão das regras e data do preparo | |
-| Objetivo apresentado ao grupo | |
-| O que a oposição quer e sabe | |
-| Como o problema pode terminar | |
-| O que acontece com demora, retirada ou abandono | |
+| Identificação | Missão, lugar, responsável, versão e data. |
+| Objetivo e oposição | O que o grupo precisa obter? O que a oposição quer e sabe? |
+| Saídas e consequências | O que encerra a oposição? O que ocorre ao negociar, demorar, recuar ou abandonar? |
+| Participantes | Fichas e versões disponíveis. Se forem perfis de estudo, quais capacidades estão representadas e quais ficaram de fora? |
 
-## Participantes
-
-| Personagem / versão da ficha | Nível | Vida e Integridade atuais / máximas | PE, usos e condições | Sequelas | Alcances e meios de socorro relevantes |
-|---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
+| Participante / versão | Nível | PV atuais/máximos | Integridade atual/máxima | PE, usos e condições | Sequelas, alcance e socorro |
+|---|---:|---|---|---|---|
 | | | | | | |
 
-**Entidades, comandos e recursos compartilhados:**
+**Entidades, comandos e recursos compartilhados:**  
+**Quem consegue perceber e atingir a ameaça:**  
+**Estado anterior que continua nesta cena:**
 
-**Como o grupo percebe e atinge a ameaça:**
+## 2. Construção ou escolha de cada ameaça
 
-**Hipóteses usadas quando faltarem fichas reais:**
+Se conservar uma ficha existente, indique onde consultá-la e destaque apenas as mudanças. Se construir uma nova, complete todos os campos aplicáveis. O nome de um papel, como atacante ou apoio, não concede capacidades.
 
-## Ficha de cada ameaça
-
-Copie este bloco para cada tipo de inimigo. Se vários usam a mesma ficha, registre separadamente reservas, estados e iniciativa de cada corpo.
-
-| Campo | Registro |
+| Campo | Preenchimento |
 |---|---|
-| Nome, quantidade e referência da ficha completa | |
-| Versão e origem dos valores | |
-| Nível; classificação no cenário, se houver | |
-| Papel, intenção e prioridade de alvos | |
-| Corpo, sentidos, comunicação e alma | |
-| Vida, Integridade, PE e demais reservas de entrada | |
-| Defesa, Bloquear, proteções e TRs | |
-| Ações de rotina, custos e quantidades permitidas | |
-| Reações: gatilhos, custos e recuperação | |
-| Mudanças de conduta e critério de perseguição | |
-| Derrota, possível destruição e aquisição | |
+| Identificação e função | Nome, quantidade, versão da ficha, nível e função no encontro; grau no cenário, se usado. |
+| Corpo e percepção | Tamanho, membros, mãos, massa, sentidos, comunicação e alma. |
+| Progressão e testes | Atributos, Maestria, Refino e Classe máxima quando aplicáveis; ataques, CDs, perícias e TRs com treinos identificados. |
+| Reservas de entrada | Vida, Integridade, PE atuais/máximos, usos, preparos e condições de cada corpo. |
+| Defesas e movimento | Defesa com componentes, Bloquear, proteções, deslocamentos, carga e equipamento. |
+| Atuação | Padrão, Movimento, Bônus e Reação; número de ataques, capacidades completas e o que disputa o mesmo recurso. |
+| Prioridades | Alvos, informação disponível, negociação, perseguição, retirada e mudanças de comportamento. |
+| Derrota e aquisição | O que ocorre a zero de PV ou Integridade; destino dos efeitos; destruição, retorno e conversão de aquisição, quando cabíveis. |
+| Origem e alterações | O que vem da R53, o que é escolha local e quais parâmetros ou capacidades são propostas. Para cada mudança, registrar motivo e referência anterior. |
 
-**Capacidade alterada ou nova:** escreva ação, alvo, alcance, acerto ou TR, efeito, duração, frequência, custo e formas de encerramento. Indique a regra de origem e o que ainda é proposta. Um nome de capacidade sem procedimento não permite usá-la.
+**Ficha completa para consulta:**  
+**Pendência que impede usar esta versão:**
 
-**Mudanças em relação à ficha de partida e motivo de cada uma:**
+## 3. Capacidade nova ou alterada
 
-## Lugar e sinais
+Repita somente para o que precisa ser desenvolvido. Para uma capacidade pronta, registre nome e referência no bloco 2. As [conferências de habilidade](61-ficha-de-habilidade-de-inimigo.md) ajudam quando houver interação difícil.
 
-| Elemento | Posição ou área | Sinal perceptível | Regra e momento de resolução | Intervenção ou saída |
+| Campo | Preenchimento |
+|---|---|
+| Identificação e origem | Nome, função, procedimento — arma, manobra, feitiço, aptidão ou regra própria — e dependência de corpo, equipamento ou técnica. Fonte, alteração e estado de aprovação. |
+| Uso | Ação, momento, gatilho e requisitos; alvo, alcance, visão, trajeto, mãos, voz, Selo e preparação. |
+| Resolução | Ataque e crítico, ou TR/CD e resultados; dano, condição, deslocamento e demais efeitos. |
+| Pagamento e limite | Custo-base e custo pago, quando diferentes; quando pagar, o que consome disponibilidade e o motivo de cada limite adicional. |
+| Duração e retorno | Prazo, manutenção, interrupção, perda ou devolução; estado inicial e recuperação de usos dentro e fora da iniciativa. |
+| Sinal e resposta | O que o grupo percebe, quando pode intervir, com qual ação e o que a intervenção altera. |
+| Interações relevantes | Integridade, energia percebida, cancelamento, Rescaldo, contenção e aquisição, conforme a capacidade. |
+
+**Texto completo ou referência da aplicação:**  
+**Caso de falha, interrupção ou alvo ausente conferido:**
+
+## 4. Lugar, sinais e mudanças
+
+Para desenvolver uma fonte sem autor, consulte [Preparar perigos ambientais](78-preparar-perigos-ambientais.md). A [sala de conservação](79-o-po-na-sala-de-conservacao.md) exemplifica exposição recorrente e efeitos após a retirada.
+
+| Elemento | Posição / percurso | Sinal percebido | Gatilho e momento da consequência | Intervenção e resultado |
 |---|---|---|---|---|
-| Acessos e obstáculos | | | | |
-| Cobertura e linhas de ataque | | | | |
+| Acessos, obstáculos e cobertura | | | | |
+| Objetivo ou pessoa em risco | | | | |
 | Perigo ambiental, se houver | | | | |
-| Objetivo ou pessoa a proteger | | | | |
 
-Para perigo ambiental, indique o gatilho, se acontece uma vez ou se repete, o instante de cada ocorrência, o teste ou TR quando houver e suas consequências. Diferencie dano de descrição. Use um procedimento existente quando ele resolver o caso; identifique qualquer referência nova antes de aplicá-la.
+**Resolução do perigo:** área, tempo/frequência, teste ou TR/CD, dano/condição, término e fonte de cada regra. Se algo não tiver resolução mecânica, não deduzir dano só da descrição.  
+**Retirada, transporte e lugar de atendimento:**  
+**Mudanças de fase ou chegada de aliados, se houver:** gatilho, momento, alvos, ações, registros preservados e encerramento. Partes atacáveis precisam de regras de alvo e compartilhamento de dano. O [aprofundamento de chefes](68-ficha-e-comparacao-de-chefes.md) ajuda a comparar essas escolhas.
 
-**Caminho de retirada, transporte e local possível de atendimento:**
+## 5. Conferência antes da aplicação
 
-## Conferência antes da sessão
+- [ ] Fichas completas e versões disponíveis; estados de cada corpo separados.
+- [ ] Capacidades com ação, custo, requisitos e resolução; nenhum benefício concedido só pelo nome ou pela aparência.
+- [ ] Ações, alcance, defesas, dano e Integridade comparados com o grupo real ou com perfis declarados.
+- [ ] Sequência comum e sequência adversa plausível examinadas; participação, respostas ao controle e socorro acessíveis conferidos.
+- [ ] Sinais e informação fornecida pelas capacidades respeitados; saídas e intervenções possuem resolução.
+- [ ] Queda, fim da participação, fim da oposição e socorro restante tratados separadamente.
+- [ ] Propostas identificadas; pendências que impedem resolver o encontro concluídas antes de usá-lo.
 
-- [ ] As fichas estão completas e disponíveis; as diferenças de versão foram resolvidas.
-- [ ] Conferi recursos e Sequelas do grupo, meios de atingir a ameaça e acesso ao socorro.
-- [ ] Cada capacidade possui seus custos e limites; ações e comandos não foram contados duas vezes.
-- [ ] Examinei acerto, dano, Integridade e controle, além da vida total.
-- [ ] Comparei uma sequência comum e uma sequência desfavorável plausível.
-- [ ] Preparei posições, sinais, alvos, perseguição e saídas.
-- [ ] Separei chegada a zero de vida, participação ativa e encerramento da oposição.
-- [ ] Identifiquei as propostas locais e o que ainda impede usar este preparo.
+**Principal risco e ajuste considerado:**  
+**Método de verificação e evidência:** leitura de regras, contas, percurso escrito ou sessão observada; registrar o que foi realmente feito.  
+**O que ainda não foi avaliado:**
 
-**Informação que capacidades dos personagens podem revelar:**
+## 6. Resultado e continuidade
 
-**Controle e transporte: o que o alvo ainda pode fazer, como aliados ajudam e duração possível sem participação:**
+Preencha depois da aplicação. Se for um ensaio escrito, identifique os dados escolhidos e não o registre como sessão jogada.
 
-**Principal risco identificado e ajuste feito antes da sessão:**
-
-**Limite da avaliação:** conferência documental / cálculo / simulação com hipóteses / sessão humana. Registre qual ocorreu e onde consultar a evidência.
-
-## Resultado e continuidade
-
-| Observar | Registro depois da sessão |
+| Campo | Registro |
 |---|---|
-| Composição e estado inicial reais | |
-| Rodadas até encerrar a oposição e motivo do encerramento | |
-| Quedas e participação durante Insistir | |
-| Tempo sem poder agir; escolhas e ajuda disponíveis | |
-| Socorro: ações, recursos, alcance e dificuldades | |
-| Retirada, derrota e destino dos inimigos | |
-| Objetivo cumprido e pendências da missão | |
-| Estado de saída; socorro ainda em andamento | |
-| Dúvidas, correções e sugestões dos participantes | |
-| O que revisar para outra aplicação | |
+| Aplicação | Data, participantes reais ou perfis, versão e alterações de entrada. |
+| Confronto | Rodadas e motivo do fim da oposição; escolhas, recursos e intervenções que fizeram diferença. |
+| Quedas e participação | Momento de cada queda, Aguentar/Insistir quando cabíveis, tempo sem agir, socorro e Sequelas. |
+| Saída | PV, Integridade, PE, condições, efeitos e prazos restantes; destino de inimigos, objetos, acessos e objetivo. |
+| Pendências da cena | Retirada, atendimento, transporte, custódia ou consequências ainda não resolvidas. |
+| Retorno e revisão | Dificuldades de compreensão ou condução, evidência observada e alteração a comparar na próxima versão. |
 
-Se houver socorro em andamento, use também o [registro de estado e socorro](24-registro-de-estado-e-socorro.md). Na guilda, identifique quem recebe a pendência e conserve a versão usada das fichas. Em campanha fechada, mantenha o mesmo registro entre sessões.
+Use o [registro de queda, socorro e retomada](24-registro-de-estado-e-socorro.md) quando houver atendimento em andamento. Na guilda, deixe os estados e a versão da ficha disponíveis ao próximo mestre. Numa campanha fechada, conserve a mesma continuidade no registro da campanha.

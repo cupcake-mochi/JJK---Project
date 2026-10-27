@@ -59,6 +59,8 @@ Isso não cria multa ou dívida automática. Se houver consequência prevista, i
 
 Essa concessão não é uma regra geral de todo arsenal. Outras instituições podem emprestar equipamentos sob condições preparadas para a campanha, com o mesmo cuidado de registrar a peça e o acesso.
 
+[Empréstimo familiar e venda com condição](97-emprestimo-familiar-e-negociacao.md) confere patente e nível de Kenji antes da retirada de uma Kunai Fiel e registra sua devolução separadamente da venda de um item próprio.
+
 ## Comprar um serviço
 
 Defina a entrega, os recursos incluídos, o prazo e o preço antes de descontar dinheiro. Quem contrata uma alfaiate pode estar pagando trabalho e material, ou apenas o serviço com material fornecido. As duas propostas precisam ser identificadas para evitar cobrança duplicada.
@@ -76,3 +78,5 @@ Um teste social bem-sucedido entrega o resultado que foi definido para a intera�
 A menor **Palavra Empenhada** oferece um caso específico: uma vez por descanso longo, após falhar em Persuasão numa negociação viável, o personagem pode oferecer palavra e reputação. O mestre apresenta uma condição adicional concreta. O jogador pode aceitá-la ou recusá-la; cumprir a condição conclui o acordo sem repetir aquele teste. A capacidade não fornece o dinheiro necessário nem torna viável um pedido impossível.
 
 O mesmo cuidado vale para prestar serviços. Antes do trabalho, combine quem paga, pelo quê e em quais condições. Fabricar um produto não concede salário, lucro ou experiência automaticamente. O cotidiano pode render relações, oportunidades e resultados concretos sem precisar transformar toda atividade em missão remunerada.
+
+A [venda do Anel de Testemunho](97-emprestimo-familiar-e-negociacao.md) apresenta comprador, oferta, teste e condição adicional de Palavra Empenhada. O exemplo resolve aceitação, recusa, pagamento e diferença entre saldo e lucro.

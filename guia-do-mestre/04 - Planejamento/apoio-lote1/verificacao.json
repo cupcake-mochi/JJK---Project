@@ -1,0 +1,36 @@
+{
+  "etapa": 81,
+  "data": "2026-10-26",
+  "escopo": "L1: M010/M014/M128; integração e atualização incremental de cobertura.",
+  "manifesto_anterior": 312,
+  "arquivos_anteriores_intactos_antes_da_instalacao": 312,
+  "arquivos_atualizados": 13,
+  "arquivos_novos_no_manifesto": 8,
+  "arquivos_anteriores_sem_alteracao": 299,
+  "copias_historicas_conferidas": 13,
+  "manifesto_final": 320,
+  "matriz_130_linhas_preservada": true,
+  "competencias_20_linhas_preservadas": true,
+  "reclassificados": [
+    "M010",
+    "M014",
+    "M128"
+  ],
+  "cobertura_M": {
+    "E": 96,
+    "P": 33,
+    "L": 1
+  },
+  "cobertura_P": {
+    "E": 16,
+    "P": 4
+  },
+  "evidencias_atuais_conferidas": 282,
+  "links_novos_ou_alterados_conferidos": 40,
+  "blocos_de_tabelas_novos_ou_alterados_conferidos": 9,
+  "conferencia_de_exemplos": "resultados.json; contas, horários, trabalho de grupo e ordem de iniciativa conferidos.",
+  "R53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "preservados": "R53, decisões autorais, números dos inimigos, Pactos, projetos e histórico anterior. Manifesto atualizado por união, sem excluir arquivos anteriores.",
+  "limites": "Conferência documental, aritmética e de integridade. Sem nova regra, simulação de combate, teste humano, auditoria integral dos outros 127 pontos ou envio ao GitHub.",
+  "problemas": []
+}

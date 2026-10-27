@@ -1,0 +1,18 @@
+{
+  "versao": 1,
+  "estatuto": "experimental; sem aprovação numérica ou equilíbrio validado",
+  "inimigo": {
+    "nivel": 2, "maestria": 1,
+    "atributos": {"forca": 3, "destreza": 1, "constituicao": 3, "inteligencia": 1, "essencia": 1},
+    "vida": 32, "integridade": 16, "pe": 0, "deslocamento": 9,
+    "massa_kg": 72, "equipamento_volume": 0, "ataques": 1,
+    "pancada": {"dados": 1, "faces": 4, "atributo_dano": 3},
+    "cd_agarrar": 12, "limite_carga": 8, "teto_arrasto": 16
+  },
+  "rotas": {
+    "direta": [{"metros": 6, "terreno": "regular"}, {"metros": 6, "terreno": "dificil"}, {"metros": 6, "terreno": "regular"}],
+    "lateral": [{"metros": 24, "terreno": "regular"}]
+  },
+  "cenario": {"entrada_ate_area": 6, "largura_minima": 3, "recuo_lado": 6, "caixa_volume": 1},
+  "domada": {"nivel": 2, "vida": 14, "integridade": 7, "reserva_propria": 0, "tecnica_propria": false, "basica_faces": 6, "especiais_vagas": 1, "especiais_preenchidas": 0, "talentos": 1, "transporte_volume": 8, "transporte_quantidade": 1, "talento_ce": 1}
+}

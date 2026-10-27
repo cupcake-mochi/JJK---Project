@@ -1,0 +1,98 @@
+{
+  "conferencias": [
+    "fase1: falha causa4 e vida40",
+    "saídaR2:9+3falha",
+    "cura limita ao máximo44 e não remove condição",
+    "Akira paga6PE",
+    "saídaR3:12+3encerra",
+    "fase1 expõe antes de avançarlimpeza",
+    "fase2 limpa mesmo sem ninguémexposto",
+    "ficar dentro nafase2 ainda permite exposição",
+    "dez ciclos completos=60segundos",
+    "queda inicial:0PV janela3",
+    "Insistirprimeiro:15tratamento",
+    "cura15encerraqueda antesdo próximo ponto",
+    "semretirada:tempoedano3para2para1",
+    "pino compatível:7+5acerta12 e5d8mínimoquebra2",
+    "médias crescem comfrequência"
+  ],
+  "percurso_principal": {
+    "Mei": {
+      "PV": 44,
+      "PE": 36,
+      "Integridade": 55,
+      "Envenenado": false,
+      "Sequelas": 0
+    },
+    "Akira": {
+      "PV": 51,
+      "PE": 24,
+      "Integridade": 65
+    },
+    "fases": [
+      {
+        "rodada": 1,
+        "nuvem_antes": true,
+        "exposto": true,
+        "limpeza_antes": 0,
+        "limpeza_depois": 1,
+        "nuvem_depois": true
+      },
+      {
+        "rodada": 2,
+        "nuvem_antes": true,
+        "exposto": false,
+        "limpeza_antes": 1,
+        "limpeza_depois": 2,
+        "nuvem_depois": false
+      }
+    ]
+  },
+  "ramo_queda": {
+    "maximo_referencia": 44,
+    "tratamento": 15,
+    "PV_apos_socorro": 15,
+    "Sequelas": 1,
+    "PE_Akira": 24,
+    "janela_sem_retirada_apos_fase2": 1
+  },
+  "protecoes": {
+    "sem_protecao": {
+      "dano": 4,
+      "condicao": true
+    },
+    "resistencia_veneno": {
+      "dano": 2,
+      "condicao": true
+    },
+    "imunidade_dano": {
+      "dano": 0,
+      "condicao": true
+    },
+    "imunidade_condicao": {
+      "dano": 4,
+      "condicao": false
+    }
+  },
+  "exposicoes_independentes": {
+    "1": {
+      "exposicoes": 1,
+      "dano_medio_antes_protecoes": 1.75,
+      "prob_algum_dano": 0.5,
+      "prob_chegar_zero_com6PV": 0.08333333333333333
+    },
+    "2": {
+      "exposicoes": 2,
+      "dano_medio_antes_protecoes": 3.5,
+      "prob_algum_dano": 0.75,
+      "prob_chegar_zero_com6PV": 0.2638888888888889
+    },
+    "3": {
+      "exposicoes": 3,
+      "dano_medio_antes_protecoes": 5.25,
+      "prob_algum_dano": 0.875,
+      "prob_chegar_zero_com6PV": 0.4525462962962963
+    }
+  },
+  "limites": "Contas, distribuição de dano condicionada a exposição e cronologia escolhida. Não modela estratégias, todosos corpos/capacidades, desempenho de leitores ou dificuldade de missão."
+}

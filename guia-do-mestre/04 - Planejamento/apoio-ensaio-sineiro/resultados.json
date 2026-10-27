@@ -1,0 +1,670 @@
+{
+  "metodo": "Percursos fixos; sem aleatoriedade; verificador parcial, não motor da R53.",
+  "principal": {
+    "estado_final": {
+      "Rina": {
+        "posicao": "C-1",
+        "vida": 53,
+        "PE": 24,
+        "integridade": 50,
+        "sequelas": 0
+      },
+      "Mei": {
+        "posicao": "D-4",
+        "vida": 44,
+        "PE": 23,
+        "integridade": 55,
+        "sequelas": 0
+      },
+      "Akira": {
+        "posicao": "C0",
+        "vida": 51,
+        "PE": 28,
+        "integridade": 65,
+        "sequelas": 0
+      },
+      "Sineiro": {
+        "posicao": "D7",
+        "vida": 52,
+        "PE": 0,
+        "integridade": 54,
+        "sequelas": 0
+      }
+    },
+    "caixa": "Akira",
+    "socorro": null,
+    "impulso_pendente": true,
+    "conferencias_executadas": 262,
+    "eventos": [
+      {
+        "evento": "Entrada",
+        "ferida": false
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Rina",
+        "rodada": 1
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Rina",
+        "de": "C0",
+        "para": "C6",
+        "modo": "M",
+        "metros": 9.0
+      },
+      {
+        "evento": "Dano",
+        "alvo": "Sineiro",
+        "dano": 11,
+        "vida": 97
+      },
+      {
+        "evento": "Ataque",
+        "origem": "Rina",
+        "alvo": "Sineiro",
+        "dados": [
+          12
+        ],
+        "total": 17,
+        "defesa": 11,
+        "acertou": true
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Sineiro",
+        "rodada": 1
+      },
+      {
+        "evento": "Dano",
+        "alvo": "Rina",
+        "dano": 6,
+        "vida": 59
+      },
+      {
+        "evento": "Ataque",
+        "origem": "Sineiro",
+        "alvo": "Rina",
+        "dados": [
+          8,
+          14
+        ],
+        "total": 19,
+        "defesa": 13,
+        "acertou": true
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Sineiro",
+        "de": "D6",
+        "para": "D10",
+        "modo": "M",
+        "metros": 6.0
+      },
+      {
+        "evento": "Preparação",
+        "posicao": "D10"
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Mei",
+        "rodada": 1
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Mei",
+        "de": "D0",
+        "para": "D6",
+        "modo": "M",
+        "metros": 9.0
+      },
+      {
+        "evento": "Dano",
+        "alvo": "Sineiro",
+        "dano": 22,
+        "vida": 75
+      },
+      {
+        "evento": "Ataque",
+        "origem": "Mei",
+        "alvo": "Sineiro",
+        "dados": [
+          7
+        ],
+        "total": 12,
+        "defesa": 11,
+        "acertou": true
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Sineiro",
+        "de": "D10",
+        "para": "E10",
+        "modo": "imposto",
+        "metros": 1.5
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Akira",
+        "rodada": 1
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "F0",
+        "para": "E1",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "E1",
+        "para": "D2",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "D2",
+        "para": "C3",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "C3",
+        "para": "C4",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "C4",
+        "para": "C5",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "C5",
+        "para": "C6",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Rina",
+        "de": "C10",
+        "para": "C8",
+        "modo": "avancar",
+        "metros": 3.0
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "C6",
+        "para": "C0",
+        "modo": "correr",
+        "metros": 9.0
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Rina",
+        "rodada": 2
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Rina",
+        "de": "C8",
+        "para": "C4",
+        "modo": "M",
+        "metros": 6.0
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Sineiro",
+        "rodada": 2
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Sineiro",
+        "de": "E10",
+        "para": "D7",
+        "modo": "M",
+        "metros": 4.5
+      },
+      {
+        "evento": "Dano",
+        "alvo": "Rina",
+        "dano": 6,
+        "vida": 53
+      },
+      {
+        "evento": "Ataque",
+        "origem": "Sineiro",
+        "alvo": "Rina",
+        "dados": [
+          17,
+          9
+        ],
+        "total": 14,
+        "defesa": 12,
+        "acertou": true
+      },
+      {
+        "evento": "Preparação",
+        "posicao": "D7"
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Mei",
+        "rodada": 2
+      },
+      {
+        "evento": "Dano",
+        "alvo": "Sineiro",
+        "dano": 23,
+        "vida": 52
+      },
+      {
+        "evento": "Ataque",
+        "origem": "Mei",
+        "alvo": "Sineiro",
+        "dados": [
+          8
+        ],
+        "total": 13,
+        "defesa": 11,
+        "acertou": true
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Mei",
+        "de": "D6",
+        "para": "D2",
+        "modo": "passo",
+        "metros": 6.0
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Mei",
+        "de": "D2",
+        "para": "D-4",
+        "modo": "M",
+        "metros": 9.0
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Akira",
+        "rodada": 2
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Rina",
+        "rodada": 3
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Rina",
+        "de": "C4",
+        "para": "C2",
+        "modo": "avancar",
+        "metros": 3.0
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Rina",
+        "de": "C2",
+        "para": "C-1",
+        "modo": "M",
+        "metros": 4.5
+      }
+    ]
+  },
+  "ferida": {
+    "estado_final": {
+      "Rina": {
+        "posicao": "C-2",
+        "vida": 59,
+        "PE": 24,
+        "integridade": 50,
+        "sequelas": 0
+      },
+      "Mei": {
+        "posicao": "C-5",
+        "vida": 18,
+        "PE": 21,
+        "integridade": 55,
+        "sequelas": 1
+      },
+      "Akira": {
+        "posicao": "C0",
+        "vida": 51,
+        "PE": 17,
+        "integridade": 65,
+        "sequelas": 0
+      },
+      "Sineiro": {
+        "posicao": "D10",
+        "vida": 74,
+        "PE": 0,
+        "integridade": 54,
+        "sequelas": 0
+      }
+    },
+    "caixa": "Akira",
+    "socorro": {
+      "necessario": 15,
+      "tratamento": 18,
+      "rodadas": 2,
+      "encerrada": true,
+      "marca": "impacto: iniciativa 14, rodada 2"
+    },
+    "impulso_pendente": false,
+    "conferencias_executadas": 280,
+    "eventos": [
+      {
+        "evento": "Entrada",
+        "ferida": true
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Rina",
+        "rodada": 1
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Rina",
+        "de": "C0",
+        "para": "C6",
+        "modo": "M",
+        "metros": 9.0
+      },
+      {
+        "evento": "Dano",
+        "alvo": "Sineiro",
+        "dano": 11,
+        "vida": 97
+      },
+      {
+        "evento": "Ataque",
+        "origem": "Rina",
+        "alvo": "Sineiro",
+        "dados": [
+          12
+        ],
+        "total": 17,
+        "defesa": 11,
+        "acertou": true
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Sineiro",
+        "rodada": 1
+      },
+      {
+        "evento": "Dano",
+        "alvo": "Rina",
+        "dano": 6,
+        "vida": 59
+      },
+      {
+        "evento": "Ataque",
+        "origem": "Sineiro",
+        "alvo": "Rina",
+        "dados": [
+          8,
+          14
+        ],
+        "total": 19,
+        "defesa": 13,
+        "acertou": true
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Sineiro",
+        "de": "D6",
+        "para": "D10",
+        "modo": "M",
+        "metros": 6.0
+      },
+      {
+        "evento": "Preparação",
+        "posicao": "D10"
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Mei",
+        "rodada": 1
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Mei",
+        "de": "D0",
+        "para": "C6",
+        "modo": "M",
+        "metros": 9.0
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Mei",
+        "de": "C6",
+        "para": "C11",
+        "modo": "bonus",
+        "metros": 7.5
+      },
+      {
+        "evento": "Ataque",
+        "origem": "Mei",
+        "alvo": "Sineiro",
+        "dados": [
+          2
+        ],
+        "total": 7,
+        "defesa": 11,
+        "acertou": false
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Akira",
+        "rodada": 1
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "F0",
+        "para": "E1",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "E1",
+        "para": "D2",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "D2",
+        "para": "C3",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "C3",
+        "para": "C4",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "C4",
+        "para": "C5",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "C5",
+        "para": "C6",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Akira",
+        "de": "C6",
+        "para": "C0",
+        "modo": "correr",
+        "metros": 9.0
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Rina",
+        "rodada": 2
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Rina",
+        "de": "C10",
+        "para": "C9",
+        "modo": "M",
+        "metros": 1.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Rina",
+        "de": "C9",
+        "para": "C4",
+        "modo": "M",
+        "metros": 7.5
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Rina",
+        "de": "C4",
+        "para": "C-2",
+        "modo": "bonus",
+        "metros": 9.0
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Sineiro",
+        "rodada": 2
+      },
+      {
+        "evento": "Dano",
+        "alvo": "Mei",
+        "dano": 27,
+        "vida": 0
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Mei",
+        "rodada": 2
+      },
+      {
+        "evento": "Dano",
+        "alvo": "Sineiro",
+        "dano": 23,
+        "vida": 74
+      },
+      {
+        "evento": "Ataque",
+        "origem": "Mei",
+        "alvo": "Sineiro",
+        "dados": [
+          8
+        ],
+        "total": 13,
+        "defesa": 11,
+        "acertou": true
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Mei",
+        "de": "C11",
+        "para": "C7",
+        "modo": "passo",
+        "metros": 6.0
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Mei",
+        "de": "C7",
+        "para": "C1",
+        "modo": "M",
+        "metros": 9.0
+      },
+      {
+        "evento": "Movimento",
+        "pessoa": "Mei",
+        "de": "C1",
+        "para": "C-5",
+        "modo": "bonus",
+        "metros": 9.0
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Akira",
+        "rodada": 2
+      },
+      {
+        "evento": "Cura",
+        "valor": 10,
+        "vida": 0,
+        "necessario": 15,
+        "tratamento": 10,
+        "rodadas": 3,
+        "encerrada": false,
+        "marca": "impacto: iniciativa 14, rodada 2"
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Rina",
+        "rodada": 3
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Sineiro",
+        "rodada": 3
+      },
+      {
+        "evento": "Volta ao ponto da queda",
+        "rodadas": 2
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Mei",
+        "rodada": 3
+      },
+      {
+        "evento": "Turno",
+        "pessoa": "Akira",
+        "rodada": 3
+      },
+      {
+        "evento": "Cura",
+        "valor": 8,
+        "vida": 18,
+        "necessario": 15,
+        "tratamento": 18,
+        "rodadas": 2,
+        "encerrada": true,
+        "marca": "impacto: iniciativa 14, rodada 2"
+      }
+    ]
+  }
+}

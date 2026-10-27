@@ -1,0 +1,137 @@
+{
+  "etapa": 79,
+  "arquivos_iniciais": 300,
+  "arquivos_anteriores_preservados": 287,
+  "arquivos_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/04-competencias-que-o-livro-deve-ensinar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/02-ficha-de-preparacao.md",
+    "06 - Redacao do Guia/05-folha-de-conducao.md",
+    "06 - Redacao do Guia/16-linha-de-continuidade.md",
+    "06 - Redacao do Guia/24-registro-de-estado-e-socorro.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "arquivos_novos": [
+    "04 - Planejamento/79-c10-ferramentas-e-passagem.md",
+    "06 - Redacao do Guia/80-escolher-e-usar-as-ferramentas.md",
+    "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md",
+    "04 - Planejamento/apoio-c10/estado-inicial.json",
+    "04 - Planejamento/apoio-c10/catalogo-ferramentas.json",
+    "04 - Planejamento/apoio-c10/verificacao.json"
+  ],
+  "total_final": 306,
+  "historicos": 13,
+  "ferramentas_principais": 14,
+  "aprofundamentos": 2,
+  "matriz_M": 130,
+  "competencias_P": 20,
+  "estado_final_copiado": {
+    "Mei": [
+      [
+        15,
+        44
+      ],
+      [
+        36,
+        36
+      ],
+      [
+        55,
+        55
+      ]
+    ],
+    "Akira": [
+      [
+        51,
+        51
+      ],
+      [
+        24,
+        30
+      ],
+      [
+        65,
+        65
+      ]
+    ]
+  },
+  "estado_final_de_origem": {
+    "Mei": [
+      [
+        15,
+        44
+      ],
+      [
+        36,
+        36
+      ],
+      [
+        55,
+        55
+      ]
+    ],
+    "Akira": [
+      [
+        51,
+        51
+      ],
+      [
+        24,
+        30
+      ],
+      [
+        65,
+        65
+      ]
+    ]
+  },
+  "R53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "links_locais_novos_conferidos": {
+    "04 - Planejamento/79-c10-ferramentas-e-passagem.md": true,
+    "06 - Redacao do Guia/80-escolher-e-usar-as-ferramentas.md": true,
+    "06 - Redacao do Guia/81-passar-a-missao-entre-mestres.md": true,
+    "06 - Redacao do Guia/16-linha-de-continuidade.md": true,
+    "06 - Redacao do Guia/24-registro-de-estado-e-socorro.md": true,
+    "00 - Ciclo Maldito (Guia do Mestre)/Ciclo-Maldito-Inventario-para-o-Guia-do-Mestre-R53.pdf": true,
+    "06 - Redacao do Guia/12-registro-de-descobertas.md": true,
+    "06 - Redacao do Guia/32-ficha-de-avaliacao-de-capacidade.md": true,
+    "06 - Redacao do Guia/34-oficios-fabricacao-e-reparos.md": true,
+    "06 - Redacao do Guia/28-ficha-de-convivencia.md": true,
+    "06 - Redacao do Guia/42-registro-de-pactos-e-promessas.md": true,
+    "06 - Redacao do Guia/03-as-batidas-no-anexo-consulta.md": true,
+    "06 - Redacao do Guia/39-atividades-e-tempo-entre-missoes.md": true,
+    "06 - Redacao do Guia/09-exemplo-de-acordos-do-grupo.md": true,
+    "06 - Redacao do Guia/04-conduzir-uma-sessao.md": true,
+    "06 - Redacao do Guia/08-ficha-de-acordos-do-grupo.md": true,
+    "06 - Redacao do Guia/02-ficha-de-preparacao.md": true,
+    "06 - Redacao do Guia/61-ficha-de-habilidade-de-inimigo.md": true,
+    "06 - Redacao do Guia/27-convivencia-do-receptaculo.md": true,
+    "06 - Redacao do Guia/20-ficha-de-faccao.md": true,
+    "06 - Redacao do Guia/44-registro-de-aquisicao-e-estado-de-entidade.md": true,
+    "06 - Redacao do Guia/68-ficha-e-comparacao-de-chefes.md": true,
+    "06 - Redacao do Guia/30-pareceres-de-criacoes.md": true,
+    "06 - Redacao do Guia/38-ficha-de-projeto-e-entrega.md": true,
+    "06 - Redacao do Guia/17-faccoes-e-reacoes.md": true,
+    "06 - Redacao do Guia/58-ficha-de-inimigo-e-encontro.md": true,
+    "06 - Redacao do Guia/78-preparar-perigos-ambientais.md": true,
+    "06 - Redacao do Guia/22-quedas-e-socorro.md": true,
+    "06 - Redacao do Guia/40-registro-de-dedicacao-por-ficha.md": true,
+    "06 - Redacao do Guia/51-ritual-do-cao-de-sombra.md": true,
+    "06 - Redacao do Guia/15-ligar-missoes-e-campanhas.md": true,
+    "06 - Redacao do Guia/55-fabricar-e-evoluir-o-vigia-do-deposito.md": true,
+    "06 - Redacao do Guia/05-folha-de-conducao.md": true,
+    "06 - Redacao do Guia/50-promessa-do-arquivo.md": true,
+    "06 - Redacao do Guia/77-ficha-preenchida-ren-e-sora.md": true,
+    "06 - Redacao do Guia/52-domar-o-amontoado.md": true,
+    "06 - Redacao do Guia/79-o-po-na-sala-de-conservacao.md": true,
+    "06 - Redacao do Guia/37-recompensas-e-fechamento.md": true
+  },
+  "problemas": [],
+  "limites": "Revisão editorial/documental, comparação de estados com resultados anteriores, preservação e destinos locais novos (sem âncoras/URLs). Não há nova simulação, teste humano ou certificação de aprendizagem."
+}

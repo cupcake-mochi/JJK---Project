@@ -1,0 +1,29 @@
+{
+  "arquivos_iniciais": 268,
+  "arquivos_anteriores_preservados": 258,
+  "arquivos_atualizados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "06 - Redacao do Guia/71-sineiro-do-recolhimento.md",
+    "06 - Redacao do Guia/72-sineiro-consulta-e-doma.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "RETOMADA-CODEX-2026-10-23.md"
+  ],
+  "arquivos_novos": [
+    "04 - Planejamento/74-ensaio-guiado-do-sineiro.md",
+    "06 - Redacao do Guia/73-ensaio-guiado-do-sineiro.md",
+    "04 - Planejamento/apoio-ensaio-sineiro/estado-inicial.json",
+    "04 - Planejamento/apoio-ensaio-sineiro/reproduzir.py",
+    "04 - Planejamento/apoio-ensaio-sineiro/resultados.json",
+    "04 - Planejamento/apoio-ensaio-sineiro/verificacao.json"
+  ],
+  "total_final": 274,
+  "percursos": 2,
+  "links_locais_conferidos": 412,
+  "problemas": [],
+  "limites": "Ensaio escrito com dados escolhidos, reprodução parcial e revisão documental. Sem sessão humana, motor completo de regras, equilíbrio certificado ou publicação remota."
+}

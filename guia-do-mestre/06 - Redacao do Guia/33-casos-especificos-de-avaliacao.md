@@ -16,6 +16,8 @@ Se a troca fosse por uma peça mais barata, a sobra seria descartada. Remodelar 
 
 Efeito Próprio não pode ser retirado por essa troca. Numa mescla, a diferença sai das parcelas registradas sem aumentar outra função. Se não houver resultado suficiente para pagar, a versão não pode ser usada.
 
+[Ampliar uma mescla e trocar sua Forma](93-ampliar-mesclas-e-trocar-formas.md) acompanha a troca de Aura por Explosão em duas Classes, com custo adicional e redução de parcelas sem apagar funções. A ficha antes e depois permite conferir cada limite.
+
 ## Repetição e benefícios independentes
 
 Aprovar um Efeito Próprio uma vez não autoriza comprá-lo repetidamente. Registre quantas compras são permitidas, o custo de cada uma e o que acrescentam. Cada compra conta no limite de Melhorias, salvo exceção expressamente acordada.
@@ -27,6 +29,8 @@ Compare o funcionamento. Mudar o nome não cria autorização de repetição ou 
 Se uma peça própria reúne benefícios independentes, pague e conte cada um. A R53 permite ao mestre autorizar uma redução específica após avaliar a proposta. Registre o que foi reduzido e por quê; essa decisão não cria uma redução automática para qualquer outra peça composta.
 
 Quando o poder pretende cancelar outra capacidade, identifique exatamente o que ele pode interromper. Uma permissão sobre feitiços não deve ser estendida a Domínios, itens ou toda manifestação sobrenatural pela descrição de “anular energia”. Compare a entrada pertinente e registre teste, Classe alcançada, momento e resultado antes do uso.
+
+[Compras repetidas e Restrições verificáveis](94-compras-repetidas-e-restricoes.md) demonstra duas compras de Firmeza com categorias, preços, vagas e consumo separados. [Efeitos de cena e cancelamento](95-efeitos-de-cena-e-cancelamento.md) aplica Desarma a uma Classe publicada e ao painel do Escriba, com atribuição local justificada.
 
 ## Cortina: delimitar antes de fechar
 
@@ -85,4 +89,4 @@ Essas perguntas completam a operação de uma proposta; não fixam suas resposta
 
 Antes de aceitar, acompanhe um ciclo completo: estado inicial, armazenamento, descanso, novo armazenamento e retirada. Se o procedimento permitir repetir etapas, faça essa repetição na conferência. Mostre o total efetivamente utilizável e o que limitou seu crescimento.
 
-**Estado desta orientação:** o método de avaliação está pronto; a referência numérica de Reserva Condensada para o Guia ainda depende de uma proposta específica e decisão autoral. Até ela existir, não apresente uma taxa, teto ou recarga como padrão do sistema. Uma mesa pode definir seu acordo conforme a R53 e registrá-lo para os próximos mestres.
+**Acordo por personagem.** Reserva Condensada conserva a entrada da R53. A menor pertence à Restrição corporal e depende de escolha. As perguntas acima ajudam a esclarecer uma proposta individual; os números e modelos descartados pelo autor não são referências de adoção. A consulta [Reserva Condensada: acordo por personagem](92-reserva-condensada-proposta-e-comparacao.md) apresenta os quatro campos publicados, uma folha de registro e um caso de conferência.

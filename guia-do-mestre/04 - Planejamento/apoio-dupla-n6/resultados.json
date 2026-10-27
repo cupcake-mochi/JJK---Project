@@ -1,0 +1,80 @@
+{
+  "metodo": "Enumeração condicionada a posição, ações, recursos e política declarados. Não calcula vitória do encontro.",
+  "ataques": [
+    {
+      "nome": "Ren",
+      "vantagem": false,
+      "acerto": 0.65,
+      "critico": 0.05,
+      "kokusen": 0.002,
+      "dano_medio": 7.390999999999999
+    },
+    {
+      "nome": "Ren contra Alicerce Cortante",
+      "vantagem": false,
+      "acerto": 0.65,
+      "critico": 0.05,
+      "kokusen": 0.002,
+      "dano_medio": 3.8585
+    },
+    {
+      "nome": "Ren",
+      "vantagem": true,
+      "acerto": 0.8774999999999944,
+      "critico": 0.09750000000000004,
+      "kokusen": 0.003900000000000002,
+      "dano_medio": 10.122449999999938
+    },
+    {
+      "nome": "Ren contra Alicerce Cortante",
+      "vantagem": true,
+      "acerto": 0.8774999999999944,
+      "critico": 0.09750000000000004,
+      "kokusen": 0.003900000000000002,
+      "dano_medio": 5.281574999999968
+    },
+    {
+      "nome": "Sora",
+      "vantagem": false,
+      "acerto": 0.44999999999999996,
+      "critico": 0.05,
+      "kokusen": 0.002,
+      "dano_medio": 2.383
+    },
+    {
+      "nome": "Sora",
+      "vantagem": true,
+      "acerto": 0.6974999999999982,
+      "critico": 0.09750000000000004,
+      "kokusen": 0.003900000000000002,
+      "dano_medio": 3.746849999999991
+    }
+  ],
+  "foco": [
+    {
+      "alvo": "Sora",
+      "vida_inicial": 48,
+      "maximo": 48,
+      "derrotado_antes_de_nova_acao_de_Sora": 0.23922551936930112,
+      "Sora_escolhe_cura_se_alvo_vivo": 0.3769888855037728,
+      "Sora_escolhe_Fio_se_alvo_vivo": 0.38378559512692595,
+      "cura_media_ponderada_incluindo_casos_sem_cura": 6.775770918656738
+    },
+    {
+      "alvo": "Ren",
+      "vida_inicial": 67,
+      "maximo": 72,
+      "derrotado_antes_de_nova_acao_de_Sora": 0.04548748747018369,
+      "Sora_escolhe_cura_se_alvo_vivo": 0.43443274438965396,
+      "Sora_escolhe_Fio_se_alvo_vivo": 0.5200797681401621,
+      "cura_media_ponderada_incluindo_casos_sem_cura": 7.819789399013772
+    }
+  ],
+  "estado_comparado": "Depois de Ren agir na rodada1: Ren67PV/6PE, Sora48PV/9PE. Restam Mei5d8 e Akira6d8; ambos+5, alvoDef13 e uma redução3 por Reação/2PE.",
+  "limites": [
+    "Defesa estática, sem vantagem nos dois feitiços, sem novas ações/revides/Alma/curas antes de Sora2.",
+    "Primeiro teste de Kokusen possível nas referências de ataque físico; falhas anteriores exigem recalcular o limite.",
+    "Sora cura alvo vivo até metade da máxima; caso contrário oferece Fio. Nenhuma cura reabre o alvo derrotado.",
+    "Se Ren cair, Sora tenta retirada; não se concede buff a Ren derrotado."
+  ]
+}

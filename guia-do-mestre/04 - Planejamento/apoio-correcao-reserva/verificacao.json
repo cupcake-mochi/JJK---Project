@@ -1,0 +1,29 @@
+{
+  "etapa": 87,
+  "data": "2026-10-26",
+  "decisao": "Descartar detalhamento proposto; manter habilidade existente na R53 por enquanto.",
+  "arquivos_anteriores": 359,
+  "arquivos_alterados": 13,
+  "arquivos_novos": 5,
+  "copias_historicas": 13,
+  "manifesto_final": 364,
+  "links_novos_ou_alterados": 24,
+  "cobertura": {
+    "etapa": 87,
+    "evidencias_conferidas": 293,
+    "contagens_M": {
+      "E": 113,
+      "P": 17,
+      "L": 0
+    },
+    "contagens_P": {
+      "E": 17,
+      "P": 3
+    },
+    "R53_intacta": true,
+    "decisao": "Detalhamento descartado; habilidade existente mantida por enquanto.",
+    "problemas": []
+  },
+  "limites": "Correção de escopo e integridade documental; nenhum novo parâmetro mecânico, alteração da R53 ou envio ao GitHub.",
+  "problemas": []
+}

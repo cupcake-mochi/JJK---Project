@@ -1,0 +1,75 @@
+{
+  "estatuto": "Proposta experimental, sem aprovação numérica ou validação de equilíbrio",
+  "base": "06 - Redacao do Guia/63-carregador-consulta-e-doma.md",
+  "inimigo": {
+    "nivel": 2,
+    "maestria": 1,
+    "PV": 32,
+    "integridade": 16,
+    "PE": 0,
+    "deslocamento": 9,
+    "defesa": 11,
+    "ataque": 4,
+    "dano": "1d4+3",
+    "CD_corporal": 12
+  },
+  "passo": {
+    "nome": "Vigília móvel",
+    "gatilho": "Depois dos efeitos de fim do turno de outro participante, visível a até9m, fora do turno do portador. Antes de avanço ambiental de fim de rodada.",
+    "alcance_gatilho": 9,
+    "teto_reserva": 3,
+    "fracao_deslocamento": 3,
+    "unidade": 1.5,
+    "custo": "Reação comum; metros reservados do próprio turno; sem PE.",
+    "inicio": "Reserva0 antes do primeiro turno.",
+    "reserva": "No fim do próprio turno, após efeitos, consciente e nãoDerrotado: retirar do saldo até min(saldo,3,deslocamento_atual/3), arredondado em1,5m. Metros de Movimento, conversões ou Correr; sem reciclar reserva anterior.",
+    "expira": [
+      "uso",
+      "começo do próximo turno",
+      "zeroPV",
+      "zeroIntegridade",
+      "inconsciente",
+      "fim de cena",
+      "saída de campo se entidade"
+    ],
+    "requisitos": [
+      "consciente",
+      "não derrotado",
+      "pode reagir",
+      "em pé",
+      "caminho com apoio",
+      "deslocamento positivo",
+      "sem transportar criatura",
+      "Não manter Agarrar; pode soltar a contenção antes da verificação."
+    ],
+    "efeito": "Somente caminhar com metros reservados, sem ataque, salto, levantar, abrir porta, teleporte ou metros novos. Oportunidades normais.",
+    "domada": "Reação coletiva explicitamente exigida; reserva do Movimento próprio ao fim do turno do invocador. Gatilho fora desse turno. CE1 proposta substitui Conduzir pelo chão."
+  },
+  "conversao": {
+    "nivel": 2,
+    "PV": 14,
+    "integridade": 7,
+    "PE": 0,
+    "talento": "Vigília móvel",
+    "CE_proposta": 1,
+    "transporte_de_criaturas": false
+  },
+  "comparacao": {
+    "deslocamento": 9,
+    "movimento_no_turno": {
+      "sem_resposta": 9,
+      "preparar": 9,
+      "vigilia": 6
+    },
+    "movimento_posterior": {
+      "sem_resposta": 0,
+      "preparar": 9,
+      "vigilia": 3
+    },
+    "padrao_ofensiva_disponivel": {
+      "sem_resposta": 1,
+      "preparar": 0,
+      "vigilia": 1
+    }
+  }
+}

@@ -62,7 +62,7 @@ Use como apoio à ficha durante a missão e na passagem entre mestres. Os proced
 
 **Posição, meios de retirada e quem precisa de transporte:**
 
-**Se a sessão interrompeu um confronto:** iniciativa, ações e respostas já gastas, posições e efeitos com prazo.
+**Se a sessão interrompeu uma situação em turnos:** iniciativa, último evento resolvido, próximo ponto a resolver, ações e respostas já gastas, posições e efeitos com prazo. Registrar separadamente fases do ambiente e pontos de contagem do socorro.
 
 **Atendimento ainda necessário e quem acompanha:**
 
@@ -77,3 +77,5 @@ Use como apoio à ficha durante a missão e na passagem entre mestres. Os proced
 **Jogador e responsável que conferiram a atualização:**
 
 O registro não concede cura, tempo ou recuperação. Use os resultados reais; a interrupção da sessão não reinicia seus valores.
+
+**Para a passagem:** a [linha de continuidade](16-linha-de-continuidade.md) reúne o resumo e aponta este estado. O [exemplo preenchido](81-passar-a-missao-entre-mestres.md) mostra recursos, prazo e próxima ação sem reiniciar a situação.

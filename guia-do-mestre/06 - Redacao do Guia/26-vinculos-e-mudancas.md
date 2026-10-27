@@ -78,6 +78,8 @@ Combine o que o personagem sabe, quem pode reconhecê-lo e quais encontros o jog
 
 **Exemplo original:** uma antiga colega do corpo recebido procura a personagem. Antes da cena, jogador e mestre já combinaram o que a personagem sabe dessa relação. O mestre apresenta o pedido da colega; o jogador decide o que conta ou omite. A memória evocada não concede um treino além das escolhas da ficha.
 
+O [caso de Memória Testemunha](83-perceber-procurar-e-interpretar-sinais.md) mostra a consulta de uma cena presenciada pelo hospedeiro: um minuto, uso diário e três perguntas, com respostas limitadas ao que poderia ter sido percebido. Confira a capacidade realmente escolhida pela ficha; a Origem não concede todas as menores.
+
 ## Corpo Amaldiçoado: consciência e cuidado
 
 Um Corpo Amaldiçoado tem consciência, vontades e relações próprias. Nas histórias Ninhada e Gêmeos, consciências e personalidades compartilham ficha, ações, recursos e condições. Trocar de voz ou personalidade não fornece outra tentativa, turno ou reserva.
@@ -91,3 +93,5 @@ As necessidades de alimentação, sono, energia e cura também dependem da entra
 Para uma convivência que merece registro próprio, use a [ficha de convivência](28-ficha-de-convivencia.md). Preserve no resumo de missão apenas o que a continuidade compartilhada precisa, com os detalhes pessoais guardados no lugar combinado com o jogador.
 
 *Base: Origens, Legados de história, Personalizar sua Origem, Encarnado e Corpo Amaldiçoado da R53. As situações são originais e não alteram os acontecimentos dos pilotos anteriores.*
+
+O [atendimento de Ena](90-reparar-personagem-de-corpo-construido.md) reúne Ofício, materiais, teste, repetição e recuperação; distingue reparo no descanso, Reparo Autônomo e os limites do núcleo.

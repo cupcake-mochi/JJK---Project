@@ -77,4 +77,8 @@ Registre o que foi apenas calculado e o que foi observado em jogo. Os ensaios de
 
 ## Continuar a construção
 
-[Montar as habilidades](60-montar-habilidades-de-inimigos.md) aplica esses critérios a regras conservadas, adaptações e capacidades próprias. A seção distingue custo-base da Classe e pagamento dispensado e mostra como conferir Integridade, energia percebida, cancelamento e Doma. Use a [ficha de habilidade](61-ficha-de-habilidade-de-inimigo.md) para registrar a resolução e as respostas possíveis.
+[Montar as habilidades](60-montar-habilidades-de-inimigos.md) aplica esses critérios a regras conservadas, adaptações e capacidades próprias. A seção distingue custo-base da Classe e pagamento dispensado e mostra como conferir Integridade, energia percebida, cancelamento e Doma. Registre a escolha no bloco 3 da [ficha única](58-ficha-de-inimigo-e-encontro.md). As [conferências de habilidade](61-ficha-de-habilidade-de-inimigo.md) são um aprofundamento opcional para interações difíceis. Para comparar uma reserva realmente disputada no mesmo combate, consulte [Ren e Sora](75-ren-e-sora-atacante-e-apoio.md); para uma capacidade com preparação e sem PE, consulte o [Sineiro](71-sineiro-do-recolhimento.md). Os dois caminhos continuam experimentais como conjuntos de inimigo.
+
+## Aplicação em outra faixa
+
+[Haru e Tessa](101-haru-vigia-e-tessa.md) usam PE reais nos feitiços e em Cobrir-se. Haru também anuncia a área e respeita um intervalo entre conjurações; Tessa escolhe entre cura e Impulso na mesma Padrão. Esses recursos resolvem problemas diferentes. O exemplo não torna PE obrigatórios para capacidades próprias que usem outro procedimento.

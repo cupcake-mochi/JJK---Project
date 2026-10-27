@@ -1,0 +1,142 @@
+{
+  "etapa": 83,
+  "natacao": [
+    9,
+    4.5,
+    13.5,
+    9
+  ],
+  "salto": {
+    "normal": 4.5,
+    "esforco": 6.0,
+    "movimento": 9,
+    "cd": 18,
+    "bonus": 4,
+    "sucesso": 18,
+    "falha": 17
+  },
+  "duto": {
+    "regular": 4.5,
+    "dificil": 6.0,
+    "restante_regular": 4.5
+  },
+  "queda": {
+    "dados": 3,
+    "total": 11,
+    "alvo_antes_defesas": 5,
+    "quem_cai_antes_defesas": 6,
+    "quem_cai_com_resistencia": 3,
+    "quem_cai_se_alvo_evitar": 6
+  },
+  "obra": {
+    "limite": 3,
+    "minutos": 30,
+    "vida": 27,
+    "defesa": 11,
+    "kg": 300,
+    "PE": 2
+  },
+  "parkour": {
+    "movimento": 12,
+    "limite": 6.0,
+    "gasto": 7.5,
+    "restante": 4.5,
+    "limite_restante": 3
+  },
+  "ricochete": {
+    "trechos_do_mapa": [
+      6.0,
+      6.0
+    ],
+    "percursos": [
+      {
+        "primeiro": 6.0,
+        "segundo": 6.0,
+        "total": 12.0,
+        "permitido": true,
+        "desvantagem_por_distancia": false
+      },
+      {
+        "primeiro": 9.0,
+        "segundo": 1.5,
+        "total": 10.5,
+        "permitido": true,
+        "desvantagem_por_distancia": true
+      },
+      {
+        "primeiro": 18.0,
+        "segundo": 6.0,
+        "total": 24.0,
+        "permitido": true,
+        "desvantagem_por_distancia": true
+      },
+      {
+        "primeiro": 19.5,
+        "segundo": 1.5,
+        "total": 21.0,
+        "permitido": false,
+        "desvantagem_por_distancia": null
+      },
+      {
+        "primeiro": 6.0,
+        "segundo": 19.5,
+        "total": 25.5,
+        "permitido": false,
+        "desvantagem_por_distancia": null
+      }
+    ],
+    "defesa_direta": 16,
+    "defesa_final": 14,
+    "ataque": 14,
+    "dano": 5
+  },
+  "ferramentas": {
+    "instalacao_minutos": 1,
+    "maos": 2,
+    "descida_fisica_m": 6,
+    "movimento_descida_m": 12,
+    "fechadura": {
+      "cd": 18,
+      "falha": 17,
+      "sucesso": 18,
+      "fim_primeira": "16h01",
+      "fim_segunda_se_possivel": "16h02"
+    },
+    "algema": {
+      "cd": 24,
+      "falha": 23,
+      "sucesso": 24
+    }
+  },
+  "armas_improvisadas": {
+    "cabo_ataque": 14,
+    "cabo_dano": 6,
+    "garrafa_ataque": 14,
+    "garrafa_dano": 5,
+    "garrafa_faixas": [
+      6,
+      18
+    ],
+    "garrafa_critico": "2d4 + 2"
+  },
+  "reclassificados": [
+    "M019",
+    "M020",
+    "M021",
+    "M022",
+    "M054",
+    "M064",
+    "M066"
+  ],
+  "contagens_M": {
+    "E": 108,
+    "P": 22,
+    "L": 0
+  },
+  "contagens_P": {
+    "E": 16,
+    "P": 4
+  },
+  "problemas": [],
+  "limites": "Conferência documental e aritmética de casos fixos; não simulação integral de combate, resgate ou aprendizagem com pessoas."
+}

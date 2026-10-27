@@ -16,6 +16,8 @@ No teste de Ofício treinado, some **atributo da tarefa + Maestria** ao d20, com
 
 Sem treino, um Ofício normalmente não permite tentativa. Uma improvisação simples pode ser autorizada pelo mestre, com condições anunciadas, usando apenas atributo. Dirigir um carro automático por um trecho desimpedido é uma possibilidade já exemplificada no livro. Isso não habilita perseguições, consertos de motor ou todas as aplicações de Condução.
 
+Os [casos de ferramentas](85-trajetorias-ferramentas-e-improvisacao.md) mostram um kit realmente conectado, uma fechadura com duas mãos e tempo por tentativa e uma falha que conserva as gazuas. Instalar um apoio ou abrir uma tranca usa seu procedimento; não exige transformar toda tarefa breve em projeto de fabricação.
+
 ## Combine o projeto antes do gasto
 
 | Parte | O que precisa ficar claro |
@@ -90,6 +92,8 @@ Um remendo provisório não ganha funcionamento completo só porque o teste pass
 
 Uma ferramenta amaldiçoada pode ter dano na base física, no efeito ou em ambos. Restaurar o poder exige o processo especial previsto para ele. Conserto não renova usos gastos nem recupera poder esgotado por Desgaste. Consulte [Ferramentas e objetos amaldiçoados](36-ferramentas-objetos-e-contencao.md).
 
+O [projeto do Anel de Testemunho](96-fabricar-e-identificar-o-anel.md) separa a base feita pelo personagem do processo especial contratado. Mostra fonte sobrenatural, receita específica, orçamento, falha, material reaproveitado e retomada, sem importar o procedimento de entidades.
+
 ## Trabalho, tratamento e aprendizado
 
 Corpos e criaturas têm procedimentos próprios de tratamento. O projeto de consertar um objeto não recupera automaticamente PV, Integridade ou condições. Mesmo no Corpo Amaldiçoado, siga o reparo de sua Origem, incluindo Ofício compatível e os limites do procedimento. A aparência do corpo não o transforma num item do catálogo.
@@ -97,3 +101,5 @@ Corpos e criaturas têm procedimentos próprios de tratamento. O projeto de cons
 Concluir um trabalho também não concede treino permanente, especialização, XP de missão ou bônus de treinamento por associação. A R53 informa as vias de aquisição. Os futuros treinamentos específicos terão seus próprios benefícios e manutenção quando forem desenvolvidos.
 
 Na guilda, um projeto pode continuar entre mestres se o registro mostrar o que foi combinado e o que já aconteceu. Na campanha fechada, basta conservar essas informações na mesma linha de tempo. Para prazos, interrupções e compromissos, consulte [Atividades e tempo entre missões](39-atividades-e-tempo-entre-missoes.md).
+
+O [reparo de Ena](90-reparar-personagem-de-corpo-construido.md) mostra o procedimento próprio do Corpo Amaldiçoado, com consumo local de materiais declarado antes e sem transformar PV em horas de um projeto comum.

@@ -1,0 +1,42 @@
+{
+  "data": "2026-10-23",
+  "entrega": "P67/G64",
+  "r53_sha256": "7311979bdfc61bda1d2fd5113106f072edc7dd5b8a801a02779ada53fd13a81d",
+  "manifesto_inicial_integro": 221,
+  "arquivos_anteriores_preservados": 214,
+  "alterados": [
+    "04 - Planejamento/01-plano-completo-do-guia.md",
+    "04 - Planejamento/02-decisoes-para-conversar.md",
+    "04 - Planejamento/19-roteiro-pre-1-e-modelos.md",
+    "04 - Planejamento/apoio-piloto/RETOMADA.md",
+    "06 - Redacao do Guia/LEIA-ME.md",
+    "06 - Redacao do Guia/REFERENCIAS.md",
+    "04 - Planejamento/03-matriz-dos-130-pontos.md"
+  ],
+  "novos": [
+    "04 - Planejamento/67-perigo-da-passarela-e-do-guincho.md",
+    "06 - Redacao do Guia/64-a-passarela-e-o-guincho.md"
+  ],
+  "historico_preservado": true,
+  "casos_conferidos": 26,
+  "links_locais_conferidos": 316,
+  "links_quebrados": [],
+  "remissoes_linux_historicas": 21,
+  "conferencia_documental": [
+    "ações e conversões",
+    "saltos e quedas",
+    "objeto com dano acumulado",
+    "momento de Preparar",
+    "rotas e apoios",
+    "zero/atendimento/encerramento"
+  ],
+  "propostas_locais": [
+    "cronograma de três rodadas",
+    "dispositivo e freio",
+    "geografia e operação da parada"
+  ],
+  "teste_humano": false,
+  "simulacao_integral": false,
+  "equilibrio_validado": false,
+  "publicado_no_github": false
+}

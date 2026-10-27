@@ -1,0 +1,73 @@
+{
+  "socorro": {
+    "maximo": 137,
+    "classe": 4,
+    "sequelas_antes": 1,
+    "janela": 2,
+    "tratamento_insistir": 46,
+    "tratamento_aguentar": 35,
+    "dados_cura1": [
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5
+    ],
+    "dados_cura2": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "cura1": 36,
+    "cura2": 10,
+    "PV_final": 46,
+    "sequelas_final": 2,
+    "PE_Guia_final": 63,
+    "PE_Bastiao_final": 54
+  },
+  "inimigos": {
+    "Haru_vida": 280,
+    "Haru_integridade": 140,
+    "Vigia_vida": 120,
+    "Tessa_vida": 80,
+    "Fita_C2_dados": 3,
+    "Fita_C4_dados": 6,
+    "Remendo_C4_dados": 8,
+    "Haru_PE_apos_Fita4": 14,
+    "Fita4_PE_estagio2": 16,
+    "Impulso_PE_estagio2": 4,
+    "Tessa_PE_apos_2curas": 2,
+    "fecho_Defesa": 18,
+    "fecho_PV": 5
+  },
+  "doenca": {
+    "contato": 8,
+    "primeira_crise": 14,
+    "fim_maximo": 56,
+    "tentativa1_inicio": 15,
+    "tentativa1_fim": 17,
+    "tentativa2_inicio": 23,
+    "tentativa2_fim": 25,
+    "horas_trabalho": 4,
+    "PV_final": 33,
+    "tentativa1_total": 11,
+    "tentativa2_total": 15,
+    "sucessos_naturais": [
+      20,
+      26
+    ],
+    "crises_sem_termino_antecipado": [
+      14,
+      20,
+      26,
+      32,
+      38,
+      44,
+      50
+    ]
+  }
+}

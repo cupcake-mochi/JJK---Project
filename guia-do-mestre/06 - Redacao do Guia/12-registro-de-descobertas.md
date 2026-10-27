@@ -22,6 +22,8 @@ Use quando a informação de uma investigação precisar continuar entre cenas, 
 
 **Resultado e custo das tentativas relevantes:** incluir ação, recurso e consequência que precisem permanecer.
 
+**Posição ou sinal:** anote o momento da leitura e quem teve acesso. Distinga a última posição conhecida de um acompanhamento contínuo; numa assinatura, registre a referência usada para comparar. Os [casos de percepção](83-perceber-procurar-e-interpretar-sinais.md) mostram esses limites preenchidos.
+
 **Passagem da informação:** quem vai comunicar, a quem e por qual meio?
 
 **Pendência e responsável pelo acompanhamento:**

@@ -1,0 +1,118 @@
+{
+  "etapa": 82,
+  "esconder": {
+    "total": 16,
+    "observadores": [
+      {
+        "observador": "Vigia",
+        "cd": 14,
+        "localiza": false
+      },
+      {
+        "observador": "Sora",
+        "cd": 17,
+        "localiza": true
+      },
+      {
+        "observador": "Operadora",
+        "cd": 13,
+        "localiza": false
+      }
+    ],
+    "busca_ativa": {
+      "sucesso": 16,
+      "falha": 15
+    },
+    "novo_observador": {
+      "cd16_localiza": false,
+      "cd17_localiza": true
+    }
+  },
+  "contorno": {
+    "maestria": 2,
+    "alcance_m": 6,
+    "alvo_m": 4.5
+  },
+  "ler_ambiente": {
+    "cd": 14,
+    "sucesso": 14,
+    "falha": 13,
+    "sem_informacao": "conserva ação e uso; sem dado"
+  },
+  "intuicao": {
+    "cd": 14,
+    "sucesso": 14,
+    "falha": 13
+  },
+  "memoria": {
+    "nome_atual": "Memória Testemunha",
+    "minutos": 1,
+    "perguntas": 3,
+    "uso": "diário, gasto ao iniciar"
+  },
+  "energia": {
+    "rolagem": 18,
+    "fontes": [
+      {
+        "fonte": "Feiticeiro a 9 m",
+        "furtividade": 16,
+        "interferencia": 18,
+        "cd": 18,
+        "localiza": true
+      },
+      {
+        "fonte": "Outra criatura a 15 m",
+        "furtividade": 19,
+        "interferencia": 18,
+        "cd": 19,
+        "localiza": false
+      },
+      {
+        "fonte": "Ferramenta no chão a 6 m",
+        "furtividade": null,
+        "interferencia": 18,
+        "cd": 18,
+        "localiza": true
+      }
+    ],
+    "bloqueada": "posição não revelada",
+    "sem_interferencia": {
+      "ocultas_cd": [
+        16,
+        19
+      ],
+      "ferramenta": "sem dado após gastar ação"
+    }
+  },
+  "pulso": {
+    "cd": 14,
+    "resultados": [
+      14,
+      17
+    ],
+    "informacao": "mesma pista do subsolo"
+  },
+  "assinatura": {
+    "cd": 14,
+    "resultado": 14,
+    "requisito": "referência confiável e sinal acessível"
+  },
+  "reclassificados": [
+    "M025",
+    "M026",
+    "M027",
+    "M028",
+    "M029"
+  ],
+  "contagens_M": {
+    "E": 101,
+    "P": 28,
+    "L": 1
+  },
+  "contagens_P": {
+    "E": 16,
+    "P": 4
+  },
+  "problemas": [],
+  "limites": "Conferência documental e aritmética de casos fixos; não simulação de combate, validação de aprendizagem ou teste humano."
+}
