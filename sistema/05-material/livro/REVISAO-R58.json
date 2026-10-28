@@ -1,0 +1,315 @@
+{
+  "revisao": "R58",
+  "paginas": 420,
+  "resultado": "aprovado",
+  "blocos_alterados": 45,
+  "regras_alteradas_na_rodada": false,
+  "texto": "Integração da candidata aprovada de Fundamento e Catálogo, com ajustes editoriais já preparados nos demais capítulos.",
+  "conferencia_pdf": {
+    "resultado": "aprovado",
+    "paginas": 420,
+    "verificacoes": [
+      {
+        "verificacao": "Contagem das duas paletas corresponde ao manifesto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Blocos seguem a ordem editorial entre páginas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Regra Própria antecede o primeiro feitiço.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Fonte da composição é idêntica à candidata.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Texto idêntico em todas as páginas entre paletas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todas as linhas e células da candidata localizadas no PDF.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem glifos de substituição ou âncoras brutas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem estouro de margem nos blocos de texto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem sobreposição entre blocos de texto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todos os links internos chegam a páginas existentes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Texto ocupa as mesmas posições nas duas paletas.",
+        "aprovado": true
+      }
+    ],
+    "conteudo_ausente": [],
+    "margens": [],
+    "sobreposicoes": [],
+    "links": {
+      "internos": 2901,
+      "externos": 4
+    },
+    "links_invalidos": [],
+    "diferencas_geometria": [],
+    "paginas_para_atencao_visual": [
+      {
+        "pagina": 5,
+        "ocupacao_esquerda": 0.23,
+        "ocupacao_direita": 0.21,
+        "tipo": "toc"
+      },
+      {
+        "pagina": 8,
+        "ocupacao_esquerda": 0.59,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 10,
+        "ocupacao_esquerda": 0.49,
+        "ocupacao_direita": 0.58,
+        "tipo": "content"
+      },
+      {
+        "pagina": 11,
+        "ocupacao_esquerda": 0.65,
+        "ocupacao_direita": 0.51,
+        "tipo": "content"
+      },
+      {
+        "pagina": 25,
+        "ocupacao_esquerda": 0.42,
+        "ocupacao_direita": 0.6,
+        "tipo": "content"
+      },
+      {
+        "pagina": 46,
+        "ocupacao_esquerda": 0.55,
+        "ocupacao_direita": 0.5,
+        "tipo": "content"
+      },
+      {
+        "pagina": 53,
+        "ocupacao_esquerda": 0.69,
+        "ocupacao_direita": 0.94,
+        "tipo": "content"
+      },
+      {
+        "pagina": 60,
+        "ocupacao_esquerda": 0.59,
+        "ocupacao_direita": 0.87,
+        "tipo": "content"
+      },
+      {
+        "pagina": 70,
+        "ocupacao_esquerda": 0.51,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 83,
+        "ocupacao_esquerda": 0.49,
+        "ocupacao_direita": 0.61,
+        "tipo": "content"
+      },
+      {
+        "pagina": 85,
+        "ocupacao_esquerda": 0.54,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 87,
+        "ocupacao_esquerda": 0.63,
+        "ocupacao_direita": 0.52,
+        "tipo": "content"
+      },
+      {
+        "pagina": 89,
+        "ocupacao_esquerda": 0.36,
+        "ocupacao_direita": 0.36,
+        "tipo": "content"
+      },
+      {
+        "pagina": 115,
+        "ocupacao_esquerda": 0.62,
+        "ocupacao_direita": 0.63,
+        "tipo": "content"
+      },
+      {
+        "pagina": 116,
+        "ocupacao_esquerda": 0.5,
+        "ocupacao_direita": 0.51,
+        "tipo": "content"
+      },
+      {
+        "pagina": 117,
+        "ocupacao_esquerda": 0.67,
+        "ocupacao_direita": 0.66,
+        "tipo": "content"
+      },
+      {
+        "pagina": 130,
+        "ocupacao_esquerda": 0.6,
+        "ocupacao_direita": 0.58,
+        "tipo": "content"
+      },
+      {
+        "pagina": 182,
+        "ocupacao_esquerda": 0.61,
+        "ocupacao_direita": 0.5,
+        "tipo": "content"
+      },
+      {
+        "pagina": 193,
+        "ocupacao_esquerda": 0.48,
+        "ocupacao_direita": 0.51,
+        "tipo": "content"
+      },
+      {
+        "pagina": 200,
+        "ocupacao_esquerda": 0.34,
+        "ocupacao_direita": 0.3,
+        "tipo": "content"
+      },
+      {
+        "pagina": 227,
+        "ocupacao_esquerda": 0.55,
+        "ocupacao_direita": 0.6,
+        "tipo": "content"
+      },
+      {
+        "pagina": 239,
+        "ocupacao_esquerda": 0.51,
+        "ocupacao_direita": 0.9,
+        "tipo": "content"
+      },
+      {
+        "pagina": 246,
+        "ocupacao_esquerda": 0.5,
+        "ocupacao_direita": 0.63,
+        "tipo": "content"
+      },
+      {
+        "pagina": 262,
+        "ocupacao_esquerda": 0.6,
+        "ocupacao_direita": 0.6,
+        "tipo": "content"
+      },
+      {
+        "pagina": 266,
+        "ocupacao_esquerda": 0.37,
+        "ocupacao_direita": 0.45,
+        "tipo": "content"
+      },
+      {
+        "pagina": 270,
+        "ocupacao_esquerda": 0.4,
+        "ocupacao_direita": 0.35,
+        "tipo": "content"
+      },
+      {
+        "pagina": 278,
+        "ocupacao_esquerda": 0.58,
+        "ocupacao_direita": 0.88,
+        "tipo": "content"
+      },
+      {
+        "pagina": 282,
+        "ocupacao_esquerda": 0.39,
+        "ocupacao_direita": 0.41,
+        "tipo": "content"
+      },
+      {
+        "pagina": 286,
+        "ocupacao_esquerda": 0.26,
+        "ocupacao_direita": 0.28,
+        "tipo": "content"
+      },
+      {
+        "pagina": 311,
+        "ocupacao_esquerda": 0.73,
+        "ocupacao_direita": 0.99,
+        "tipo": "content"
+      },
+      {
+        "pagina": 312,
+        "ocupacao_esquerda": 0.67,
+        "ocupacao_direita": 0.99,
+        "tipo": "content"
+      },
+      {
+        "pagina": 322,
+        "ocupacao_esquerda": 0.27,
+        "ocupacao_direita": 0.37,
+        "tipo": "content"
+      },
+      {
+        "pagina": 325,
+        "ocupacao_esquerda": 0.47,
+        "ocupacao_direita": 0.43,
+        "tipo": "content"
+      },
+      {
+        "pagina": 331,
+        "ocupacao_esquerda": 0.42,
+        "ocupacao_direita": 0.54,
+        "tipo": "content"
+      },
+      {
+        "pagina": 336,
+        "ocupacao_esquerda": 0.47,
+        "ocupacao_direita": 0.63,
+        "tipo": "content"
+      },
+      {
+        "pagina": 360,
+        "ocupacao_esquerda": 0.39,
+        "ocupacao_direita": 0.31,
+        "tipo": "content"
+      },
+      {
+        "pagina": 403,
+        "ocupacao_esquerda": 0.57,
+        "ocupacao_direita": 0.59,
+        "tipo": "content"
+      },
+      {
+        "pagina": 406,
+        "ocupacao_esquerda": 0.62,
+        "ocupacao_direita": 0.62,
+        "tipo": "content"
+      },
+      {
+        "pagina": 412,
+        "ocupacao_esquerda": 0.65,
+        "ocupacao_direita": 0.64,
+        "tipo": "content"
+      },
+      {
+        "pagina": 413,
+        "ocupacao_esquerda": 0.59,
+        "ocupacao_direita": 0.46,
+        "tipo": "content"
+      }
+    ]
+  },
+  "visual": {
+    "escopo": "Inspeção de pranchas de Fundamento e Catálogo, páginas 249 a 312; conferência dirigida da edição final. A revisão estrutural adicional dos demais capítulos prossegue separadamente.",
+    "limite": "A conferência geométrica cobre as 420 páginas; não equivale à leitura visual ampliada de cada página."
+  },
+  "sha256_claro": "f779e6f00860f9cd50a8c7e7aa3667aaebc8bc02910501d01733abd4b2c92bdb",
+  "sha256_noturno": "b63f1e8a6cdc769e2d548636d437707a97e3cda656ee79e398b5f1b936281a59"
+}

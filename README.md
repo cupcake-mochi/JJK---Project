@@ -7,7 +7,7 @@
 
 ## O livro Ciclo Maldito
 
-**[Ciclo Maldito R57, livro completo com 415 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os dois PDFs são idênticos aos publicados na Vercel. Seus hashes ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
+**[Ciclo Maldito R58, livro completo com 420 páginas](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras.pdf)** é a referência atual. A [edição noturna vinho e pêssego](sistema/05-material/livro/Ciclo-Maldito-Livro-de-Regras-Noturno.pdf) tem o mesmo texto. Os dois PDFs são idênticos aos publicados na Vercel. Seus hashes ficam em `sistema/05-material/livro/EDICAO-ATUAL.json`.
 
 A R53 integra o Fundamento aprovado, as funções separadas das seis Formas, o catálogo e as dependências em rotas, Emanador, Ritual e entidades. A vida temporária individual paga base Leve. Toque concede sua devolução Leve fora das vagas; Aura custa Leve; Queima-Roupa tem devolução por modalidade. Os leitores e as contas locais usam essa edição.
 

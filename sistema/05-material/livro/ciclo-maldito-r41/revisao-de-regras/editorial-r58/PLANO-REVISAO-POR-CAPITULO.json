@@ -1,0 +1,133 @@
+{
+  "estado": "Integração R58 validada; publicação em andamento",
+  "criterios": [
+    "Conceitos contextualizados antes do uso",
+    "Transições de assunto explícitas",
+    "Repetições com finalidade de consulta",
+    "Exemplos junto do procedimento",
+    "Títulos e tabelas sem quebras prejudiciais"
+  ],
+  "capitulos": [
+    {
+      "numero": "1",
+      "titulo": "Ciclo Maldito",
+      "estado": "Lido integralmente nesta rodada; nenhum ajuste estrutural adicional identificado"
+    },
+    {
+      "numero": "2",
+      "titulo": "Regras gerais",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "3",
+      "titulo": "Dano e recuperação",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "4",
+      "titulo": "Criar um personagem",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "5",
+      "titulo": "Origens",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "6",
+      "titulo": "Caminhos e Trilhas",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "7",
+      "titulo": "Perícias e Ofícios",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "8",
+      "titulo": "Equipamento",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "9",
+      "titulo": "Progressão",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "10",
+      "titulo": "Fundamento",
+      "estado": "Aprovado pelo autor e integrado à R58; composição e navegação validadas"
+    },
+    {
+      "numero": "11",
+      "titulo": "Catálogo de criação",
+      "estado": "Aprovado pelo autor e integrado à R58; composição e navegação validadas"
+    },
+    {
+      "numero": "12",
+      "titulo": "Aptidões e Refino",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "13",
+      "titulo": "Rotas de criação",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "14",
+      "titulo": "Poderes avançados",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "15",
+      "titulo": "Ritual e Pactos",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "16",
+      "titulo": "Invocações em campo",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "17",
+      "titulo": "Construir invocações",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "18",
+      "titulo": "Mestrar",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "19",
+      "titulo": "Glossário",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "20",
+      "titulo": "Consulta rápida",
+      "estado": "revisão estrutural pendente"
+    },
+    {
+      "numero": "21",
+      "titulo": "Índice",
+      "estado": "revisão estrutural pendente"
+    }
+  ],
+  "ordem": "Concluir integração R58; depois capítulos 1 a 5, 6 a 9, 12 a 17 e 18 a 21; validar cada lote antes do seguinte.",
+  "integracao": {
+    "claro": "Validado, 420 páginas",
+    "noturno": "Validado, 420 páginas",
+    "publicacao": "Em andamento",
+    "repositorio_fonte": "/home/mizuki/JJK-v0.341-para-subir",
+    "repositorio_publicacao": "/home/mizuki/JJK---PDF---RPG",
+    "proximos_passos": [
+      "Concluir geração noturna",
+      "Validar conteúdo e navegação dos dois PDFs",
+      "Revisar visualmente mudanças de paginação",
+      "Integrar fonte e registros no repositório de sistema",
+      "Publicar PDFs via Git e verificar hashes na Vercel",
+      "Revisar estrutura dos demais capítulos por lotes"
+    ]
+  }
+}

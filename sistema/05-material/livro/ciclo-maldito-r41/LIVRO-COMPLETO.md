@@ -2025,12 +2025,12 @@ O **Caminho** reúne suas capacidades principais de combate. A **Trilha** desenv
 
 | Caminho | Proposta de personagem |
 |---|---|
-| Bastião | Proteger companheiros e suportar a pressão dos inimigos. |
-| Vanguarda | Sustentar a ofensiva com armas e golpes. |
-| Guia | Apoiar o grupo, preparar recursos e criar oportunidades. |
-| Emanador | Concentrar sua atuação na conjuração e no controle da energia. |
-| Evocador | Lutar e cumprir tarefas ao lado de entidades. |
-| Incursor | Explorar mobilidade, precisão e oportunidades de combate. |
+| Bastião | Proteger aliados, atrair inimigos e assumir ataques contra companheiros próximos. A Trilha Punho desenvolve o combate desarmado. |
+| Vanguarda | Preparar uma sequência de ataques contra um adversário e consumi-la numa execução. |
+| Guia | Preparar oportunidades que os aliados usam para avançar, atacar ou resistir. |
+| Emanador | Adaptar as peças de feitiços conhecidos às situações de combate, conforme suas habilidades. |
+| Evocador | Comandar entidades e investir em uma principal, numa parceria ou num conjunto. |
+| Incursor | Usar mobilidade e o recurso Fluidez para aproveitar oportunidades. A Trilha Pugilista desenvolve golpes desarmados e defesa. |
 
 Leia **Características** e **Progressão** no Caminho escolhido. Registre os treinos, a vida, os **pontos de energia (PE)** e as habilidades recebidas no seu nível. Depois faça o mesmo com a Trilha. As descrições completas permanecem nas respectivas entradas para consulta durante a sessão.
 
@@ -3319,6 +3319,10 @@ Novos acontecimentos podem mudar relações e transformar sua vida. Não acresce
 <a id="capitulo-6"></a>
 ## 6. Caminhos e Trilhas
 
+O **Caminho** reúne suas habilidades principais de combate. A **Trilha** é a especialidade escolhida dentro dele no nível 2. Para comparar os seis Caminhos, consulte [Caminho e Trilha](#ab--ab-caminho), no roteiro de criação.
+
+Leia primeiro a apresentação do Caminho e suas Características. A tabela de Progressão indica quando cada habilidade chega; as entradas seguintes explicam como usá-la. Depois escolha uma das Trilhas apresentadas para ele e registre os benefícios do seu nível. Os treinos da tabela e a aquisição do equipamento são conferidos separadamente.
+
 <!-- fonte:caminhos/bastiao/lote-01/BASTIAO.md#bas-bastiao -->
 <a id="bastiao--bas-bastiao"></a>
 ### Bastião
@@ -3333,7 +3337,6 @@ Você luta perto dos companheiros, atrai a atenção dos inimigos e se coloca no
 | Vida no nível 1 | 12 + Constituição. |
 | Vida em cada nível seguinte | +7 + Constituição. |
 | PE máximo | 4 × seu nível, antes de benefícios específicos. |
-| Atributos naturais | Força e Constituição. |
 | Perícias treinadas | Atletismo e Provocar, mais cinco à sua escolha. |
 | Ofícios | Nenhum pelo Caminho; sua Origem fornece os dois iniciais. |
 | TR treinado | Um à sua escolha, além do concedido pela Origem. |
@@ -3663,7 +3666,6 @@ Você transforma ataques em preparação contra um adversário. Decide quando ma
 | **Vida inicial** | 8 + Constituição. |
 | **Vida por nível** | 5 + Constituição nos níveis seguintes. |
 | **PE por nível** | 5 |
-| **Atributos naturais** | Destreza · Força |
 | **Perícias fixas** | Acrobacia · Percepção |
 | **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema |
 | **Ofícios** | nenhum. A Origem concede dois |
@@ -4294,7 +4296,6 @@ Você orienta a equipe: indica uma passagem, prepara um ataque ou ajuda alguém 
 | **Vida inicial** | 8 + Constituição. |
 | **Vida por nível** | 5 + Constituição nos níveis seguintes. |
 | **PE por nível** | 5; máximo de 5 × seu nível, antes de benefícios específicos. |
-| **Atributo natural** | Essência |
 | **Perícias fixas** | Persuasão · Medicina |
 | **Perícias à sua escolha** | 5, de qualquer uma da lista de perícias do sistema. Você pode trocar duas dessas escolhas por treino em **uma arma específica**, sem receber toda a categoria |
 | **Ofícios** | nenhum. Os dois vêm da sua Origem |
@@ -4759,7 +4760,7 @@ Cada Cuidado termina com a parte da Abertura que acompanha. Criar outra Abertura
 <a id="emanador--ema-base"></a>
 ### Emanador
 
-Você aprende a adaptar sua técnica à situação. Um feitiço pode alcançar mais longe, mudar de área ou trocar uma função por outra sem ocupar um novo espaço na ficha. Suas Trilhas exploram essa flexibilidade por meio de uma arma, de alterações reaproveitadas ou de uma preparação que melhora a conjuração seguinte.
+Você aprende a adaptar feitiços conhecidos à situação. Suas habilidades permitem alterar o alcance e a área ou trocar uma peça de montagem por outra, conforme as opções e os limites de cada entrada. Suas Trilhas desenvolvem essa flexibilidade por meio de uma arma, de alterações reaproveitadas ou da preparação de uma conjuração seguinte.
 
 #### Características
 
@@ -4769,7 +4770,6 @@ Você aprende a adaptar sua técnica à situação. Um feitiço pode alcançar m
 | Vida no nível 1 | 6 + Constituição. |
 | Vida em cada nível seguinte | +4 + Constituição. |
 | PE máximo | 6 × seu nível, antes de benefícios específicos. |
-| Atributos naturais | Inteligência e Essência. |
 | Perícias treinadas | Ocultismo e Investigação, mais cinco à sua escolha. |
 | Troca de treinos | Pode trocar duas das cinco perícias por treino em uma arma específica, não na categoria inteira. |
 | Ofícios | Nenhum pelo Caminho. A Origem concede os dois iniciais. |
@@ -5300,7 +5300,7 @@ Pode usá-lo na aplicação seguinte, inclusive para uma Sobrecarga. Os custos c
 <a id="evocador--evocador"></a>
 ### Evocador
 
-Você comanda criaturas que lutam e cumprem tarefas ao seu lado. Pode concentrar seus recursos em uma invocação, lutar em parceria com ela ou reunir um grupo com funções diferentes. Os aprimoramentos favorecem a atuação escolhida. Os Pontos de Vínculo permitem intervir quando o plano precisa mudar.
+Você comanda criaturas que lutam e cumprem tarefas ao seu lado. Pode concentrar seus recursos em uma invocação, lutar em parceria com ela ou reunir um grupo com funções diferentes. **Aprimoramentos de Vínculo** são benefícios mantidos nas invocações. Os **Pontos de Vínculo** formam a reserva que paga suas intervenções, efeitos pontuais escolhidos no catálogo do Caminho.
 
 #### Características
 
@@ -5311,7 +5311,6 @@ Você comanda criaturas que lutam e cumprem tarefas ao seu lado. Pode concentrar
 | Vida por nível após o primeiro | 4 + Constituição. |
 | Vida máxima | (6 + Constituição) + (4 + Constituição) × (nível − 1). |
 | PE máximos do Caminho | 6 × nível. |
-| Atributos naturais | Inteligência e Essência. |
 | Perícias fixas | Religião e Lidar com Animais. |
 | Outras perícias | Cinco à sua escolha. Pode trocar duas por treino em uma arma específica. |
 | Teste de Resistência | Um treinado, à sua escolha. A Origem treina outro. |
@@ -6345,7 +6344,6 @@ Você encontra espaço para atravessar a luta, prepara sua aproximação e reage
 | Vida inicial | 6 + Constituição. |
 | Vida por nível seguinte | 4 + Constituição. |
 | PE | 6 por nível; máximo de 6 × nível. |
-| Atributos naturais | Destreza e Força. |
 | Perícias fixas | Acrobacia e Intuição. |
 | Perícias à escolha | Cinco da lista do sistema. |
 | Ofícios | Nenhum pelo Caminho; dois pela Origem. |
@@ -7421,7 +7419,7 @@ Conserto não renova usos gastos nem recupera uma ferramenta esgotada por Desgas
 
 #### Tratamento de criaturas
 
-As regras de objetos não servem para recuperar Vida ou remover condições de uma criatura. Medicina e Herbalismo têm aplicações próprias; tratamento, socorro e recuperação seguem seus procedimentos. Um projeto de reparo não substitui essas regras.
+Tratamento, socorro e recuperação de criaturas seguem seus próprios procedimentos, incluindo as aplicações de Medicina e Herbalismo. Os corpos construídos têm um reparo específico, descrito em [Cura e reparo de invocações](#campo--inv-reparo) e em [Reparo do corpo da Origem Corpo Amaldiçoado](#origens--origem-reparo). Consulte essas entradas para a tentativa e a vida recuperada. O projeto usado para consertar um objeto não substitui o procedimento da criatura.
 
 <a id="capitulo-8"></a>
 ## 8. Equipamento
@@ -8785,6 +8783,8 @@ O feito **não concede XP nem um nível gratuito**. Sem ele, você continua no n
 
 Os **marcos** são níveis que concedem ganhos comuns e uma escolha adicional de progressão. Os valores abaixo já incluem os ganhos comuns de todos os marcos alcançados. **Não some o espaço ou o Refino gratuito do marco outra vez.** As escolhas de marco e os benefícios específicos da ficha são acrescentados separadamente.
 
+**Espaços** são a capacidade comum do repertório. **Classe máxima** permite montar e ampliar aplicações daquela Classe. **Categoria de Efeito** é o acesso aos Talentos adquiridos como tais, não um requisito adicional para toda aptidão que use essa classificação. **Classe 0** é a quantidade recebida fora dos espaços.
+
 | Nível | Maestria | Espaços | Refino básico | Classe máxima | Categoria de Efeito | Classe 0 |
 |---|---:|---:|---:|---:|---:|---:|
 | 1 | 1 | 2 | 1 | 1 | 1 | 2 |
@@ -8802,8 +8802,6 @@ Os **marcos** são níveis que concedem ganhos comuns e uma escolha adicional de
 | 13 | 2 | 10 | 3 | 4 | 3 | 4 |
 | 14 | 2 | 12 | 4 | 4 | 3 | 4 |
 | 15 | 2 | 12 | 4 | 4 | 3 | 4 |
-
-**Espaços** são a capacidade comum do repertório. **Classe máxima** permite montar e ampliar aplicações daquela Classe. **Categoria de Efeito** é o acesso aos Talentos adquiridos como tais, não um requisito adicional para toda aptidão que use essa classificação. **Classe 0** é a quantidade recebida fora dos espaços.
 
 Você recebe habilidades de **Caminho nos níveis 2, 7 e 15** e de **Trilha nos níveis 2 e 11**. Os primeiros marcos são **6, 10 e 14**. A primeira **Liberação Máxima**, um feitiço preparado com mais dano e exigências próprias, chega no **10**. Consulte [Liberação Máxima](#fundamento--liberacao) para montá-la.
 
@@ -8837,7 +8835,7 @@ Receba habilidades de **Caminho no 23 e no 30**, e de **Trilha no 19 e no 27**. 
 
 Cada benefício conserva os requisitos do capítulo que o descreve. A tabela não concede automaticamente uma aptidão, Expansão de Domínio ou entidade da Classe recém-aberta. É preciso adquiri-la pelo procedimento adequado.
 
-**Exemplo.** No nível 18, a capacidade comum é 15 espaços. Esses 15 já incluem o espaço gratuito do quarto marco. Se você escolheu Leque três vezes, anote também suas três aplicações adicionais e três Talentos concedidos, separados das compras feitas nesses 15 espaços.
+**Exemplo.** No nível 18, a capacidade comum é 15 espaços. Esses 15 já incluem o espaço gratuito do quarto marco. A opção **Leque**, detalhada em [Marcos](#progressao--prog-marcos), concede uma aplicação e um Talento por escolha, sem pagar espaços por eles. Quem a escolheu três vezes registra três aplicações e três Talentos adicionais, separados das compras feitas nos 15 espaços.
 
 <!-- fonte:progressao/lote-01/PROGRESSAO.md#prog-marcos -->
 <a id="progressao--prog-marcos"></a>
@@ -9007,55 +9005,42 @@ Se a campanha usar remuneração, consulte **Recompensas da guilda**. Registre a
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#fundamento -->
 <a id="fundamento--fundamento"></a>
-O **Fundamento** descreve o funcionamento de uma técnica e estabelece seus limites. Você pode criar uma técnica de fogo ou imaginar outro poder, como fios de energia que puxam criaturas. Cada **feitiço** representa um uso específico da técnica e tem uma ficha com suas regras.
+O **Fundamento** descreve o funcionamento de uma técnica e estabelece seus limites. Cada **feitiço** é uma aplicação dela, registrada numa ficha. Uma técnica de fios pode cortar um inimigo ou levantar uma parede de fios, conforme as regras escolhidas para cada aplicação.
 
-Para criar um feitiço, descreva o que deseja fazer com a técnica. Em seguida, escolha as opções deste capítulo que permitem realizar esse efeito. Você pode combinar funções e propor Melhorias ou Restrições próprias ao mestre. O catálogo oferece opções prontas e referências para essas criações.
+Comece pela técnica inteira: o poder que ela manifesta, seu funcionamento e as possibilidades que você quer desenvolver. Registre essas escolhas com o mestre. O catálogo oferece opções prontas e procedimentos para propor capacidades próprias, com preço e limites definidos antes da sessão.
 
-Este capítulo apresenta as regras de criação de feitiços e suas aplicações nas outras rotas. As regras gerais de combate, de Dano e recuperação e de aquisição de entidades estão nos capítulos correspondentes.
+Primeiro, este capítulo acompanha a criação da técnica **Fios de Tensão**, de Mei. Depois, você monta **Fio de Arrasto**, um de seus feitiços, e aprende a combinar efeitos em outras aplicações. Consulte os capítulos correspondentes para as regras gerais de combate, Dano e recuperação e aquisição de entidades.
 
-### Montar sua aplicação
+### Criar sua técnica
 
-#### Da ideia à ficha
+<!-- fonte:fundamento/lote-01/FUNDAMENTO.md#tecnica -->
+<a id="fundamento--tecnica"></a>
+#### Sua técnica
 
-Comece descrevendo o efeito desejado e quem será afetado. Acrescente as condições necessárias para usá-lo. Você pode escrever essa descrição em linguagem comum e escolher as regras correspondentes nas etapas seguintes.
+##### Descrição e Regra
 
-> **Exemplo.** Mei quer criar um fio que corte um inimigo distante e o puxe para o lado, desde que consiga acertá-lo. O feitiço precisa causar dano e deslocar uma criatura. Sua Forma deve alcançar o inimigo, e o efeito será resolvido com uma rolagem de ataque. O exemplo **Fio de Arrasto**, adiante, apresenta a montagem completa.
+Crie o Fundamento com o mestre. Na **Descrição**, apresente como o poder se manifesta. Na **Regra**, escreva em uma frase o que ele permite fazer e as condições de seu funcionamento. Todos os feitiços da técnica devem ser compatíveis com essa definição.
 
-| Pergunta | Escolha na montagem |
-|---|---|
-| O que acontece? | A função: dano, cura, proteção, movimento, condição ou outro efeito. |
-| Quem recebe e por onde chega? | A Forma, os alvos, o alcance e a área. |
-| Como alguém resiste? | Ataque, TR ou benefício automático em alvo disposto. |
-| O que torna a aplicação especial? | Melhorias e, se desejar, Restrições reais. |
-| Quanto ela entrega? | Classe, pontos e resultado que fica escrito na ficha. |
+Mei descreve fios de energia que saem dos dedos. Sua Regra será: “Produzo fios para cortar, deslocar e prender aquilo que alcançam”. Ela procura as **Famílias**, grupos de opções que permitem desenvolver esses efeitos. Cada feitiço terá uma ficha com as peças compradas, o alcance e a resolução.
 
-A **função** determina o efeito do feitiço, como causar dano ou recuperar vida. Para definir quem ele pode atingir, escolha uma **Forma**. Um feitiço de cura, por exemplo, pode alcançar um aliado à distância ou afetar uma região ao redor do conjurador. A ficha registra o efeito aplicado em cada alvo.
+Para conferir a proposta, descreva uma aplicação possível e um limite. Mei pode montar o deslocamento que puxa uma criatura. Para recuperar vida, precisaria prever esse funcionamento na técnica, manter disponível a Família **Amparo**, que reúne opções de cura e proteção da vida, e montar a cura.
 
-##### As palavras da montagem
+##### Registre as consequências
 
-No PDF, toque nos nomes abaixo para abrir a seção correspondente. Estas definições ficam na abertura de **Fundamento**, acessível pelo sumário.
+Quando uma frase da técnica produzir um benefício em jogo, identifique a capacidade que permite aplicá-lo. Alcance, dano, vantagens e outros resultados seguem as regras dessa capacidade. A Regra do Fundamento orienta quais propostas combinam com a técnica; a ficha registra as permissões necessárias para usá-las.
 
-**[Fundamento](#fundamento--tecnica).** A técnica, seu funcionamento e seus limites. Cada feitiço é uma aplicação dela.
+A seção **[Capacidades da técnica](#fundamento-link-capacidades)** orienta onde registrar benefícios próprios e apresenta o exemplo de uma técnica que reúne informações sobre o adversário.
 
-**[Família](#fundamento-link-guia-familias).** Grupo de opções que define o que a técnica pode comprar e quais Melhorias recebem desconto. O resumo das nove Famílias vem a seguir.
+##### Pequenas manifestações
 
-**[Função](#fundamento--funcoes).** O efeito que o feitiço produz, como causar dano ou recuperar vida. Sua quantidade pode vir dos pontos disponíveis ou da Melhoria escolhida.
+A técnica permite **Uso Livre**: manifestações pequenas e compatíveis com sua Regra, como aquecer uma bebida com fogo ou fazer um fio acompanhar o dedo, sem preparar um feitiço nem gastar Pontos de Energia (PE). Para causar dano, curar, obter um bônus ou vencer oposição, use uma capacidade que produza esse resultado. A seção [Uso Livre](#fundamento--livre) explica os limites e quando preparar uma ficha.
 
-**[Forma](#fundamento--formas).** Define como o feitiço alcança seus alvos e qual área ocupa.
+##### Se sua técnica usa entidades
 
-**[Melhoria](#catalogo--cat-catalogo).** Uma peça comprada para acrescentar um efeito ou modificar a aplicação. Empurrar o alvo e aumentar o alcance são exemplos.
+Se pretende criar, chamar ou controlar entidades, preveja isso na Descrição e explique na Regra como elas se ligam ao poder do personagem. Esse funcionamento é requisito para adquirir uma invocação por espaço conhecido. A aquisição e a montagem da entidade seguem seus próprios procedimentos, apresentados em [Invocação por espaço](#fundamento--repertorio) e no capítulo de Invocações.
 
-**[Restrição](#fundamento--restricoes).** Uma dificuldade real, cumprida em todo uso, que devolve pontos gastos em Melhorias.
-
-**[Classe](#fundamento--pontos).** O patamar usado na montagem e na conjuração. Define pontos, PE e limites.
-
-**[Saldo](#fundamento-link-saldo).** Os pontos restantes depois de pagar os custos e aplicar as devoluções permitidas.
-
-**[Selo](#fundamento--selo).** Um requisito que você cumpre para conjurar, como um gesto ou uma palavra. Fica registrado na técnica.
-
-Os **[pontos](#fundamento--pontos)** permitem comprar as opções usadas na criação do feitiço. Registre os cálculos na ficha antes da sessão. Para conjurá-lo, você gasta **[PE](#fundamento--conjurar)** e a ação indicada, usando os alvos e resultados já definidos.
-
-##### Conheça as Famílias
+<a id="fundamento-link-guia-familias"></a>
+#### Conheça as Famílias
 
 As **Famílias** agrupam as opções que uma técnica pode usar. Comece pelo efeito que você imagina e consulte o resumo para localizar as opções relacionadas a ele.
 
@@ -9071,46 +9056,14 @@ As **Famílias** agrupam as opções que uma técnica pode usar. Comece pelo efe
 | Marca | Efeitos ligados a um alvo, rastreamento e recuperação de recursos. |
 | Amparo | Cura, vida temporária e remoção de condições. |
 
-Na criação do Fundamento, escolha **duas Famílias Livres** e **três Fechadas**. As quatro restantes ficam disponíveis pelo preço normal. Uma Livre concede desconto em suas Melhorias. Uma Fechada impede as compras e funções indicadas nas regras de acesso. Cada Família ocupa somente uma dessas posições.
-
-Cada efeito exige as peças e os requisitos correspondentes. O funcionamento da técnica também precisa explicar como você o produz. Uma técnica de fios pode usar Controle para prender alguém; usar Amparo para curar exigiria um funcionamento que explicasse essa recuperação.
+Na criação do Fundamento, escolha **duas Famílias Livres** e **três Fechadas**. As quatro restantes ficam disponíveis pelo preço normal. Uma Livre concede desconto em suas **Melhorias**, peças compradas para acrescentar ou modificar efeitos de um feitiço. Uma Fechada impede as compras e funções indicadas nas regras de acesso. Cada Família ocupa somente uma dessas posições.
 
 As contas dos descontos e as proibições de acesso estão em **[Famílias](#fundamento--familias)**. O exemplo **[Fios de Tensão](#fundamento-link-fios-de-tensao)** mostra essas escolhas numa técnica pronta.
 
-##### Um caminho curto para começar
-
-1. Descreva sua técnica com o mestre. Com o **[resumo das Famílias](#fundamento-link-guia-familias)**, escolha duas Livres e três Fechadas que combinem com seu funcionamento.
-2. Escolha uma ideia simples para o primeiro feitiço. Uma função já pode ser suficiente.
-3. Consulte sua **[Classe](#fundamento--pontos)** e escolha uma **[Forma](#fundamento--formas)** que alcance o alvo imaginado.
-4. Compre as **[Melhorias](#catalogo--cat-catalogo)** necessárias; confira o **[saldo](#fundamento-link-saldo)** e os limites. Escolha **[Restrições](#fundamento--restricoes)** se quiser acrescentar exigências reais.
-5. Escreva o que ocorre no acerto, no erro e no sucesso do TR, conforme a ficha.
-6. Faça uma utilização de exemplo. Se precisar inventar uma regra para terminar, complete a ficha antes de jogar.
-
-Consulte **Funções e saldo** e **Formas** para escolher os efeitos do feitiço. **Combinar peças** explica como reuni-los em uma mesma aplicação. Durante a criação, use o catálogo para localizar as Melhorias e Restrições de que precisa. As capacidades adquiridas separadamente aparecem em **Talentos e Regra Própria**. Para montar Manejos, Katas ou habilidades de invocação, consulte **Outras rotas e entidades**.
-
-##### Outras rotas
-
-Na rota Sem Técnica, os feitiços recebem o nome de **Manejos** e seguem os requisitos da semente escolhida. Na Técnica Marcial, são chamados de **Katas** e dependem do estilo e do equipamento. Restrição corporal usa as regras comuns de Fundamento. As regras de Técnica Marcial se aplicam ao ramo Sem Energia.
-
-Você pode usar uma vaga de feitiço, Manejo ou Kata para adquirir uma invocação, desde que a técnica ou o estilo comporte entidades. Consulte **Feitiços conhecidos**. A invocação adquirida continua sujeita aos custos de manifestação e de comando, incluindo seu gasto de PE.
-
-<!-- fonte:fundamento/lote-01/FUNDAMENTO.md#tecnica -->
-<a id="fundamento--tecnica"></a>
-#### Sua técnica
-
-Crie o Fundamento com o mestre, começando pela descrição do poder. Depois, use as regras de montagem para definir os valores de cada feitiço.
-
-##### Descrição e Regra
-
-A **Descrição** apresenta a manifestação do poder e o que acontece quando ele é usado. A **Regra** define seu funcionamento em uma frase. Todos os feitiços da técnica devem ser compatíveis com essa definição.
-
-Escolha o tema da técnica e defina como ela funciona. Uma técnica de fogo pode ter a Regra “Produzo chamas a partir das marcas que deixo com a mão”. Essa definição permite imaginar feitiços que dependam de uma marca e formas de impedir seu uso.
-
-Uma mesma técnica pode permitir efeitos diferentes. Para cada feitiço, compre as opções que produzem o resultado desejado. Uma técnica de fios, por exemplo, pode causar dano em uma aplicação e imobilizar uma criatura em outra.
-
+<a id="fundamento-link-fios-de-tensao"></a>
 ##### Fios de Tensão
 
-Este Fundamento acompanha os exemplos do capítulo. Mei quer trabalhar com fios que cortam, puxam e seguram. Ela usa esse funcionamento para orientar as escolhas abaixo.
+Mei registra o Fundamento na ficha:
 
 | Parte | Escolha de Mei |
 |---|---|
@@ -9119,60 +9072,310 @@ Este Fundamento acompanha os exemplos do capítulo. Mei quer trabalhar com fios 
 | Tipos de dano | Cortante. |
 | Famílias Livres | Alcance e Controle. |
 | Famílias Fechadas | Amparo, Castigo e Marca. |
-| Selo | Deslizar o polegar contra o indicador. |
-| Atributo | Destreza. |
-| Expressão da técnica | Os fios inativos aparecem como linhas prateadas entre os dedos. |
+| Selo (requisito para conjurar) | Deslizar o polegar contra o indicador. |
+| Atributo usado na conjuração | Destreza. |
+| Expressão da técnica | Detalhe de aparência: os fios inativos aparecem como linhas prateadas entre os dedos. |
 
 Mei escolhe **Alcance Livre** para favorecer os deslocamentos produzidos pelos fios. **Controle Livre** favorece as condições e os obstáculos que ela poderá montar, como uma rede que prende alguém ou uma parede de fios. As Melhorias dessas Famílias recebem desconto, respeitando o preço mínimo.
 
 Ela fecha **Amparo** e abre mão da cura direta, da vida temporária pelo saldo e das opções de remoção de condições dessa Família. **Castigo Fechada** impede comprar as Melhorias dessa Família, que acrescentam dano em situações específicas. **Marca Fechada** impede as compras dessa Família, como rastrear um alvo com Rastro. Área, Mira, Auxiliares e Tempo permanecem disponíveis pelo preço normal, quando a Regra da técnica comportar a aplicação.
 
-Para uma técnica de fios que também curasse, seria preciso definir esse funcionamento e deixar Amparo disponível na criação. Ler uma lembrança ou voltar no tempo também exigiria outra Regra; cada efeito proposto ainda precisaria de uma opção de montagem que o permitisse.
+##### Atributo da técnica
+
+Ao criar o Fundamento, escolha um dos cinco atributos do personagem. Ele permanece o atributo da técnica e entra nas suas rolagens de ataque e na dificuldade dos testes para resistir a seus feitiços. Mei escolheu Destreza. As fórmulas aparecem em [Conjurar](#fundamento--conjurar). Na Técnica Marcial, siga o atributo determinado pela rota de arma ou ferramenta.
 
 ##### Tipos de dano
 
 Escolha um ou dois tipos de dano compatíveis com a Descrição e registre quais são usados em cada feitiço. Se um feitiço causar mais de um tipo de dano, defina a distribuição durante sua criação e mantenha-a ao conjurar, inclusive depois de conhecer as resistências do alvo. Consulte o catálogo de Dano para a definição dos tipos. **Força** representa energia pura.
 
+<!-- fonte:fundamento/lote-01/FUNDAMENTO.md#selo -->
+<a id="fundamento--selo"></a>
+#### Selo
+
+O **Selo** é um requisito que você cumpre para conjurar os feitiços da técnica. Pode ser um gesto ou som, ou outra condição simples reconhecível pelo grupo. Exemplos incluem tocar as palmas ou manter os pés apoiados no chão.
+
+Você deve cumprir o Selo em cada conjuração. Escolhê-lo não custa pontos de montagem nem devolve pontos para o feitiço.
+
+Ao montar um feitiço, você pode acrescentar uma **Restrição**, uma exigência adicional que devolve pontos gastos em Melhorias. Ela precisa acrescentar uma dificuldade real além do Selo. Se ambos exigirem a mesma coisa, essa parte não concede devolução.
+
+| Selo | Exigência adicional por feitiço |
+|---|---|
+| Ver o alvo. | O alvo também precisa estar sem perceber você. |
+| Fazer um gesto com uma mão. | Ter as duas mãos livres e falar em voz audível. |
+| Tocar o objeto. | O objeto precisa pertencer a alguém que você conheça. |
+
+Avalie as exigências adicionais com o mestre antes da sessão, conforme [Restrições](#fundamento--restricoes).
+
+Alterar o Selo exige uma revisão da técnica com o mestre; seus impedimentos continuam valendo durante o uso, mesmo que a descrição seja modificada. A Melhoria Silencioso estabelece as permissões para dispensar gesto e som.
+
+<a id="fundamento-link-capacidades"></a>
+### Capacidades da técnica
+
+A técnica começa com uma Expressão, que personaliza sua aparência. Você também pode adquirir Talentos, capacidades com efeitos próprios. Técnicas baseadas em aposta, contrato, julgamento ou obrigação podem ter uma Regra Própria, conforme o procedimento desta seção. Confira a aquisição de cada opção ao registrar a ficha.
+
+#### Expressão da técnica
+
+Você começa com uma **Expressão da técnica**, uma manifestação visual ou outro detalhe ligado à Descrição. Escolha uma característica que ajude a reconhecer o personagem, como o brilho de sua energia ou um reflexo incomum.
+
+**Faíscas.** Fios de luz percorrem seu cabelo quando você demonstra entusiasmo.
+
+**Teatro de sombras.** Quando você conta uma história, sua sombra encena o relato. Uma perseguição ganha corredores e telhados em miniatura. Uma criatura inventada toma forma entre as figuras. Você escolhe o que a cena representa, inclusive ao contar uma história que inventou.
+
+A utilização da Expressão conserva os testes exigidos pela situação, sem conceder vantagem ou informação desconhecida. Para iluminar um lugar ou criar uma ilusão capaz de enganar, adquira uma capacidade com esse efeito.
+
+#### Talentos pagos
+
+Os Talentos pagos são capacidades adquiridas separadamente das aplicações montadas. Eles ocupam **espaços de feitiço conhecido**, as vagas do repertório em que você registra suas aplicações e outras aquisições permitidas. As **Categorias de Efeito (CE)** indicam o patamar de cada Talento. As Categorias 1, 2 e 3 custam respectivamente 1, 2 e 3 espaços e ficam disponíveis nos níveis 1, 7 e 13. O máximo é cinco Talentos pagos.
+
+A **Categoria de Efeito 4** está disponível exclusivamente como benefício da Restrição corporal na criação. Esse benefício fica fora dos espaços conhecidos e do limite de cinco Talentos pagos.
+
+O catálogo de Talentos traz seus efeitos e a [Regra Própria](#catalogo--cat-regra-propria), um Talento específico para técnicas de aposta, contrato, julgamento ou obrigação. A Expressão da técnica não ocupa espaço; Regra Própria segue o custo específico de sua progressão. Nenhuma dessas opções permite comprar efeitos de uma Família Fechada por outro nome.
+
+#### Onde registrar sua proposta?
+
+Escolha o registro adequado à proposta na tabela abaixo. As compras de Melhorias e Restrições têm limites por feitiço. **Leve** e **Média** são faixas de custo ou devolução, calculadas pela **Classe**, o patamar da aplicação. As contas aparecem na montagem do primeiro feitiço e em Pontos e preços.
+
+| Nome | O que registra | Aquisição |
+|---|---|---|
+| Regra do Fundamento | A frase que define como a técnica inteira funciona. | Parte da definição da técnica; cada aplicação precisa das opções que produzem seus efeitos. |
+| [Efeito Próprio](#fundamento--proprio) | Uma Melhoria criada para uma capacidade ausente do catálogo. | Preço combinado em pontos; cada compra conta no limite de Melhorias da Classe. |
+| [Restrição Própria](#catalogo--restricao-restricao-propria) | Uma dificuldade real que vale em todo uso daquele feitiço. | Ocupa uma das duas vagas de Restrição e pode devolver Leve ou Média, conforme sua regra. |
+| [Talento Próprio](#catalogo--cat-passiva-propria) | Uma capacidade adquirida separadamente dos feitiços. | Categorias 1, 2 ou 3; ocupa os espaços da Categoria e conta entre os cinco Talentos pagos. |
+| [Regra Própria](#catalogo--cat-regra-propria) | Um Talento específico para técnicas de aposta, contrato, julgamento ou obrigação. | Versão inicial de Categoria 1 sem espaço; progressão própria até Categoria 3. Fica fora dos cinco Talentos pagos. |
+
+Confira custos e limites no procedimento indicado para cada escolha.
+
+<a id="fundamento-link-criar-regra-propria"></a>
+#### Criar uma Regra Própria
+
+A Regra Própria atende técnicas de aposta, contrato, julgamento ou obrigação. Sua versão inicial é de Categoria de Efeito 1, disponível no nível 1, sem ocupar espaço conhecido. Compare o benefício com os Talentos dessa Categoria e combine a proposta com o mestre.
+
+Comece por uma frase que a mesa consiga aplicar. Depois registre alcance, alvos, consequência e prazo quando forem necessários. A Regra Própria precisa cumprir estas condições:
+
+- **Gatilho verificável.** O grupo identifica quando acontece.
+- **Simetria.** A mesma consequência pode valer contra você, nas mesmas condições.
+- **Sem dano direto.** Ela pode produzir um recurso, uma condição ou uma obrigação com funcionamento definido.
+- **Limite por cena.** Escreva quantas vezes a consequência pode ser aplicada.
+
+Compare seu resultado com os Talentos da mesma Categoria. Uma frase como “o alvo fica ligado a mim” ainda precisa dizer o que a ligação faz, quem afeta, quanto dura e como termina. A simetria e o limite não tornam qualquer consequência adequada à Categoria de Efeito 1.
+
+##### Exemplo: aposta entre dois
+
+**Regra:** uma vez por cena, quando você e outra criatura aceitarem uma aposta sobre uma disputa real entre ambos, quem vencer recebe vantagem no próximo teste que fizer antes do fim da cena.
+
+Os dois precisam entender e aceitar a aposta antes da disputa. Registrem um resultado que possa ser verificado e mantenham a disputa genuína, com o vencedor ainda por decidir. Empate consome a aposta da cena sem conceder vantagem. As ações disponíveis e os testes já resolvidos permanecem inalterados. Esta proposta original de **Categoria de Efeito 1** depende da aprovação da mesa.
+
+Uma regra que imponha uma condição a alguém contra a vontade precisa declarar sua defesa ou seu TR, a CD, a duração e a saída. Não basta escrever a obrigação na narrativa para retirar as ações de outra criatura.
+
+##### Uma técnica que reúne informações
+
+Um jogador propõe reunir nome, idade e ocupação de uma criatura para fortalecer sua técnica contra ela. Para avaliar a ideia, o mestre precisa saber o benefício de cada informação, como confirmar sua veracidade, quem pode ser afetado e quando os benefícios terminam.
+
+Se a proposta for uma Regra Própria, ela precisa cumprir os critérios acima, incluindo a simetria. O grupo deve conseguir aplicar a mesma consequência contra o personagem nas mesmas condições. Uma proposta que não cumpra esses critérios precisa ser revista ou avaliada pelas regras de outra capacidade adequada, como um Talento Próprio. Seu benefício e sua aquisição dependem dessa avaliação.
+
+Se reunir informações for uma exigência de um feitiço, o grupo pode avaliar uma Restrição para aquela ficha. A devolução segue os critérios das Restrições. Registrar a exigência na descrição geral da técnica, por si só, não concede pontos nem define um benefício progressivo.
+
+<a id="fundamento-link-montar"></a>
+### Montar sua aplicação
+
+#### Da ideia à ficha
+
+Descreva o que acontece quando o feitiço funciona e quem será afetado. Mei começa com esta ideia: “Um fio corta um inimigo distante e o puxa para o lado”. Ela precisará de regras para causar dano e mover a criatura, além de uma maneira de alcançá-la.
+
+| Pergunta | O que será escolhido |
+|---|---|
+| O que o feitiço faz? | Suas funções, como causar dano, recuperar vida ou mover uma criatura. |
+| Quem ele alcança? | A Forma, os destinatários, o alcance e a área, quando houver. |
+| Como se resolve? | Ataque contra Defesa, Teste de Resistência (TR) ou benefício automático em alvo disposto. |
+| Quais peças serão usadas? | As Melhorias que produzem os efeitos e as Restrições escolhidas. |
+| Quanto ele entrega? | Os valores calculados pela Classe e registrados na ficha. |
+
+Você fará essas escolhas antes da sessão. Durante o jogo, usará a ficha pronta para escolher alvos válidos, pagar os custos e resolver os efeitos.
+
+##### As palavras da montagem
+
+No PDF, toque nos nomes para consultar suas regras completas. O exemplo acompanhado apresenta cada escolha em uso.
+
+**[Fundamento](#fundamento--tecnica).** A técnica, seu funcionamento e seus limites. Seus feitiços precisam ser compatíveis com essa definição.
+
+**[Família](#fundamento-link-guia-familias).** Grupo de opções que determina o acesso e os descontos da técnica. O resumo está em **[Conheça as Famílias](#fundamento-link-guia-familias)**, na criação da técnica.
+
+**[Função](#fundamento--funcoes).** O resultado que o feitiço produz. O dano pode vir dos pontos reservados a ele; mover um alvo pode vir da compra de uma Melhoria com uma distância definida.
+
+**[Forma](#fundamento--formas).** Define como o feitiço alcança seus alvos e qual área ocupa. Projétil alcança um alvo à distância; Explosão afeta uma região.
+
+**[Melhoria](#catalogo--cat-catalogo).** Peça comprada para acrescentar um efeito ou modificar a aplicação. Empurrão move o alvo; Longe aumenta a distância alcançada. O catálogo reúne essas peças nos grupos Efeitos e Modificadores. Ambos são Melhorias e usam o mesmo limite de compras.
+
+**[Restrição](#fundamento--restricoes).** Exigência adicional cumprida em todo uso do feitiço. Devolve pontos gastos em Melhorias, dentro dos limites da montagem.
+
+**[Classe](#fundamento--pontos).** Patamar do feitiço que define pontos, custo em energia e limites. Seu nível determina a maior Classe disponível.
+
+**[Pontos](#fundamento--pontos).** Orçamento para montar a ficha. Nas Classes 1 a 7, você começa com 3 × Classe pontos.
+
+**[PE](#fundamento--conjurar).** Pontos de Energia gastos ao conjurar. Um feitiço comum de Classe 1 custa 3 PE a cada uso. Comprar suas peças usa o orçamento de montagem; o custo de conjuração segue a Classe.
+
+**[Saldo](#fundamento-link-saldo).** Pontos restantes após os custos e as devoluções aproveitadas. Você pode reservá-los para dano, cura ou vida temporária, conforme as funções e os limites da ficha.
+
+**[Selo](#fundamento--selo).** Requisito da técnica, como um gesto ou uma palavra, cumprido para conjurar seus feitiços. Ele tem custo zero e não devolve pontos.
+
+##### Seu repertório
+
+Um **espaço de feitiço conhecido** mantém uma aplicação na ficha. Usá-la gasta os PE indicados e conserva o feitiço aprendido. Talentos pagos e invocações também podem ocupar esses espaços, conforme suas regras. A Expansão de Domínio também usa esse repertório; confira sua aquisição no capítulo de Domínio. No nível 1, você tem **dois espaços comuns**.
+
+No nível 1, você também conhece **dois feitiços de Classe 0**, separados dos espaços comuns e usados sem gastar PE. Seus dados-base aumentam automaticamente com o nível. A montagem tem um procedimento próprio para acrescentar uma Melhoria; cura e benefícios coletivos ficam fora das opções dessa Classe. Consulte [Feitiços de Classe 0](#fundamento--classezero) para conferir sua montagem e as funções permitidas.
+
+No nível 2, Mei tem **três espaços comuns e dois feitiços de Classe 0**. Fio de Arrasto ocupará um dos três espaços. A seção [Feitiços conhecidos](#fundamento--repertorio) apresenta a conta completa do repertório.
+
+Ao avançar, você recebe **Liberações Máximas**, aplicações que concentram mais dano, nos níveis 10, 20 e 30. A **Técnica Máxima**, recebida no nível 17, é uma aplicação excepcional com montagem própria. Essas capacidades ficam fora dos espaços comuns e têm custos e requisitos específicos, explicados nas suas seções.
+
+##### Suas escolhas ao avançar
+
+Um feitiço pode ser usado em uma Classe maior por [Ampliar](#fundamento--ampliar), até sua Classe máxima, mantendo o mesmo espaço. As peças escolhidas permanecem; seus custos e valores são recalculados. Ao subir de nível, você também pode reescrever um feitiço conhecido. Classe 0 e aplicações máximas seguem seus procedimentos próprios. Consulte [Feitiços conhecidos](#fundamento--repertorio) para as regras de revisão.
+
+##### Conjurações no turno
+
+O uso normal de um feitiço custa Ação Padrão. No seu turno, conjurar um feitiço de Classe acima de 0 permite apenas mais um feitiço de Classe 0. Usar Bônus ou Reação conserva esse limite. Considere isso ao escolher peças que mudam a ação de conjuração; [Conjurar](#fundamento--conjurar) reúne o procedimento completo.
+
+##### Um caminho curto para começar
+
+1. **Defina a técnica com o mestre.** Escreva seu funcionamento e use o resumo das Famílias para escolher as duas Livres e as três Fechadas.
+2. **Descreva o feitiço.** Diga o que ele faz e quem recebe cada efeito. Confira se a técnica e suas Famílias permitem essa proposta.
+3. **Escolha a Classe e as funções.** Consulte os pontos disponíveis e os custos das funções que pretende usar.
+4. **Escolha a Forma e as peças.** Defina como os alvos serão alcançados e compre as Melhorias necessárias. Se desejar Restrições, registre exigências válidas e suas devoluções.
+5. **Calcule o saldo e registre os resultados.** Destine os pontos às funções escolhidas e confira seus limites. Escreva a resolução, os requisitos e os prazos na ficha.
+6. **Teste um uso.** Escolha um alvo válido e resolva a ficha. Confira também uma situação em que ela deve falhar, como falta de requisito ou alvo fora do alcance.
+
+O exemplo de Fio de Arrasto mostra as regras necessárias a cada escolha. Depois dele, as seções de [Famílias](#fundamento--familias), [Pontos e preços](#fundamento--pontos), [Funções e saldo](#fundamento--funcoes) e [Formas](#fundamento--formas) permitem consultar outras opções.
+
+Para uma capacidade ausente, consulte [Efeitos próprios](#fundamento--proprio). Ali você acompanha uma proposta de transporte por plataforma, com comparação, preço combinado e limites. A aparência escolhida para um efeito conserva as permissões das peças compradas.
+
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#primeiro -->
 <a id="fundamento--primeiro"></a>
 #### Seu primeiro feitiço
 
-Mei está no nível 2 e deseja afastar um inimigo, prendendo um fio nele para puxá-lo. Ela escolhe as opções necessárias para montar esse feitiço.
+Mei está no nível 2. Sua técnica, **Fios de Tensão**, permite cortar e deslocar criaturas. Ela quer montar **Fio de Arrasto** para cortar um inimigo distante e puxá-lo para o lado. A montagem ocupa um dos seus três espaços comuns.
 
-##### Montagem
+##### Escolha a Classe
 
-**1. Classe.** A maior Classe de Mei é 1. Ela tem **3 pontos** para montar o feitiço. Cada uso custará **3 PE**.
+No nível 2, a maior Classe disponível para Mei é 1. Um feitiço dessa Classe começa com **3 pontos de montagem** e custa **3 PE a cada uso**. A ação normal para conjurá-lo é a **Ação Padrão**.
 
-**2. Forma.** Ela escolhe **Projétil**: um alvo a até 18 m, com rolagem de acerto. A Forma não custa pontos.
+##### Defina as funções
 
-**3. Melhoria.** **[Empurrão](#catalogo--melhoria-empurrao)** permite mover o alvo até 6 m. Essa Melhoria Leve pertence à Família Alcance e custa 1 ponto nesta Classe. O desconto de Alcance Livre está sujeito ao preço mínimo de 1 ponto.
+Mei escolhe **dano e deslocamento do alvo**. Dano tem base de custo zero; cada ponto destinado a essa função produz **1d8**. O deslocamento será obtido pela Melhoria Empurrão, que informa sua própria distância.
 
-**4. Resultado.** Após as compras, restam **3 − 0 − 1 = 2 pontos**, usados para causar **2d8 de dano**. Mei escolhe manter o feitiço sem Restrição. Se desejasse apenas puxar o alvo, poderia descartar os pontos restantes. Nesse caso, Empurrão conservaria sua distância de até 6 m.
+##### Escolha a Forma
 
-**5. Ficha.** Mei registra a resolução e os efeitos do feitiço, conforme a tabela abaixo, e dá à aplicação o nome de Fio de Arrasto.
+Mei escolhe **Projétil**, uma Forma de custo zero que alcança um alvo a até **18 m** nas Classes 1 a 5. O fio é a aparência dessa aplicação. Nesta ficha, ela fará um ataque de conjuração contra a Defesa do inimigo para aplicar os efeitos.
+
+Até aqui, a base de dano e a Forma custaram zero. O orçamento continua em **3 pontos**.
+
+##### Compre a Melhoria
+
+**[Empurrão](#catalogo--melhoria-empurrao)** move o alvo até **6 m**, na direção escolhida por Mei, depois da resolução. O percurso precisa estar livre: o movimento para diante de um obstáculo ou espaço que não comporte o alvo. O destino não pode ficar suspenso no ar. O deslocamento não concede ataque adicional nem dano de colisão; quedas de uma beirada seguem as regras comuns.
+
+Empurrão pertence à Família **Alcance** e tem preço **Leve**. Na Classe 1, esse preço vale **1 ponto**. Alcance é Livre na técnica de Mei, mas o desconto respeita o preço mínimo de 1 ponto por Melhoria. Ela paga **1 ponto**.
+
+Essa é sua primeira compra de Melhoria. A Classe 1 permite até duas; Mei encerra a montagem com apenas Empurrão.
+
+##### Confira o saldo
+
+Mei escolhe **nenhuma Restrição**. A montagem conserva o Selo normal de sua técnica: deslizar o polegar contra o indicador. Esse gesto precisa ser cumprido e não devolve pontos.
+
+| Conta da montagem | Pontos |
+|---|---:|
+| Orçamento de Classe 1 | 3 |
+| Base de dano | 0 |
+| Forma Projétil | 0 |
+| Melhoria Empurrão | −1 |
+| Devoluções | 0 |
+| Saldo | **2** |
+
+Mei reserva os **2 pontos de saldo para dano**, obtendo **2d8 de Cortante**. Empurrão conserva seu deslocamento de até 6 m. Se ela quisesse uma aplicação que apenas movesse o alvo, poderia descartar o saldo; os 6 m da Melhoria permaneceriam.
+
+##### Registre a ficha
+
+Mei registra os valores e a ordem de resolução na ficha:
 
 | Fio de Arrasto | Regra |
 |---|---|
 | Classe e custo | Classe 1; 3 PE; Ação Padrão. |
-| Alvo e alcance | Uma criatura a até 18 m, com caminho desimpedido. |
+| Funções e distribuição | Dano: 2 pontos de saldo, que produzem 2d8 de Cortante. Deslocamento: até 6 m por Empurrão. |
+| Alvo e alcance | Uma criatura a até 18 m, com caminho desimpedido. Mei precisa enxergá-la. |
 | Selo | Deslizar o polegar contra o indicador. |
 | Resolução | Ataque de conjuração contra Defesa. |
-| Acerto | 2d8 de Cortante; depois, move o alvo até 6 m numa direção escolhida. |
+| Acerto | 2d8 de Cortante; depois, move o alvo até 6 m numa direção permitida. |
 | Erro | Não causa dano nem desloca o alvo. |
 | Duração | Instantânea. O alvo permanece onde chegou. |
-| Montagem | Projétil (0) e Empurrão (1). Sem Restrição. |
+| Montagem | Base de dano (0), Projétil (0) e Empurrão (1). Sem Restrição. Saldo 2 destinado a dano. |
+| Repertório | Um espaço de feitiço conhecido. |
 
-O deslocamento segue as regras gerais de movimento forçado e exige uma passagem física até o destino. O fio não pode levar o alvo através de uma parede, e esse movimento não concede um ataque.
+##### Use durante a sessão
 
-##### Na mesa
+O ataque de conjuração soma **d20 + atributo da técnica + Maestria**. Mei usa Destreza 3 e Maestria 1: seu ataque é **d20 + 4**.
 
-Mei tem Destreza 3 e Maestria 1, somando **d20 + 4** no ataque de conjuração. Contra Defesa 14, um resultado 10 no dado totaliza 14 e acerta. Ela rola os 2d8 de dano e, depois de aplicá-los, desloca o alvo. O uso custa 3 PE, inclusive se o ataque errar.
+Ela escolhe um inimigo que enxerga a 12 m, cumpre o Selo, usa Ação Padrão e paga 3 PE. Contra Defesa 14, um resultado 10 no d20 totaliza 14 e acerta. Mei rola os 2d8 de dano. Depois da aplicação do dano, desloca o inimigo por um percurso permitido de até 6 m.
+
+Se o ataque errar, os 3 PE continuam gastos e o inimigo permanece sem receber os efeitos. Antes de jogar, Mei e o mestre conferem também uma tentativa contra alguém atrás de uma parede: esse obstáculo impede a aplicação do feitiço.
+
+#### Outras rotas
+
+Sem Técnica e Técnica Marcial usam as mesmas funções, Formas, preços e limites pessoais de montagem. A rota muda a origem das aplicações e seus requisitos:
+
+| Quem usa | Nome da aplicação | O que orienta a criação |
+|---|---|---|
+| Técnica amaldiçoada | Feitiço. | A Descrição e a Regra do Fundamento. |
+| [Sem Técnica](#rotas--rota-sem-tecnica) | Manejo. | Uma semente, a aptidão escolhida para desenvolver o estilo, e a Regra escrita a partir dela. |
+| [Técnica Marcial](#rotas--rota-marcial) | Kata. | O estilo e o equipamento da rota, usado como Selo. |
+| [Invocação](#construcao--entidades-criar) | Básica ou especial. | A definição da entidade e suas tabelas próprias de montagem e progressão. |
+
+**Exemplo de equivalência.** Um Manejo ou Kata que permita dano e deslocamento pode usar Projétil e Empurrão, com Alcance disponível. Na Classe 1, Empurrão custa 1 ponto; sobram 2 para 2d8. O uso custa 3 PE. Cada rota ainda precisa justificar esse efeito pela semente ou pelo equipamento e cumprir seu Selo. A Kata usa os dados da montagem, sem somar o dado da arma.
+
+**Na entidade, confira outra tabela.** Uma especial de Classe 1 começa com 2 pontos. Com Alcance disponível e definição compatível, pode usar Projétil e Empurrão de custo 1: resta 1d8 de dano, e o uso custa 3 PE. As ações de comando, os alcances e os demais limites vêm de Construir invocações e Invocações em campo. A conta pessoal de 3 × Classe permanece restrita às aplicações que a usam.
+
+PE representa **Pontos de Esforço** para quem não possui energia amaldiçoada. O valor cobrado continua o mesmo. O ramo **Sem Energia** usa Técnica Marcial; **Restrição corporal** usa o Fundamento comum. Corpo Amaldiçoado pode usar Técnica Marcial conservando energia, Refino e aptidões, conforme a Origem.
+
+Uma vaga de feitiço, Manejo ou Kata também pode adquirir uma invocação quando a técnica, a semente ou o estilo comportar entidades. Confira [Feitiços conhecidos](#fundamento--repertorio). Manifestação e comando conservam suas ações e custos.
+
+### Montar aplicações de Classe 0
+
+<!-- fonte:fundamento/lote-01/FUNDAMENTO.md#classezero -->
+<a id="fundamento--classezero"></a>
+#### Feitiços de Classe 0
+
+Classe 0 reúne aplicações pequenas que você pode usar sem gastar PE. Elas têm uma quantidade própria na ficha e não ocupam os espaços de feitiços conhecidos.
+
+| Seu nível | 1 a 4 | 5 a 10 | 11 a 16 | 17 a 24 | 25 a 30 |
+|---|---|---|---|---|---|
+| Quantidade conhecida | 2 | 3 | 4 | 5 | 5 |
+| Dano-base | 2d8 | 3d8 | 4d8 | 5d8 | 6d8 |
+
+Escolha a Forma e use a base de alcance da Classe 0. A Regra, as Famílias Fechadas e o Selo continuam valendo. **Cura e aplicação coletiva de benefícios não estão disponíveis.**
+
+##### Uma Melhoria
+
+Você pode acrescentar **uma Melhoria Leve**, retirando **um dado** do dano-base. Use Classe 0 nos valores da Melhoria que dependam de Classe. Uma entrada com requisito mínimo de Classe superior continua indisponível.
+
+Pode haver uma Restrição Leve: ela devolve o dado que a Melhoria tirou, sem criar pontos de montagem. A Classe 0 conserva seu procedimento de dados-base: Toque mantém 1,5 m e não concede sua devolução automática de pontos. Aura mantém a origem no conjurador. Queima-Roupa só pode ser escolhida nas áreas em que devolve Leve, ocupando a única vaga de Restrição. Ela recupera no máximo o dado pago pela Melhoria; em Projétil, sua devolução Média permanece indisponível.
+
+> **Fio curto.** No nível 2, Mei conhece um Projétil de Classe 0. Alcance 9 m, Ação Padrão, 2d8 de Cortante. Se montar uma versão com Empurrão, paga um dado: 1d8 e o deslocamento de até 6 m da peça. No nível 5, essa mesma versão passa a 2d8, pois a base subiu a 3d8.
+
+##### Aplicações sem dano
+
+Um benefício individual de **Classe 0** alcança um aliado a até 4,5 m, ou 1,5 m com Toque. Compre uma Melhoria Leve que tenha efeito aplicável, como Impulso, e descarte os dados de dano. Essa aplicação concede o benefício comprado sem causar dano ao aliado. Vida temporária permanece indisponível, pois a Classe 0 usa dados-base e dispensa o saldo de pontos.
+
+Uma aplicação de **Efeito fora de combate de Classe 0** faz a pequena aplicação registrada, dentro da escala própria. O que já cabe em Uso Livre não exige ocupar um dos feitiços de Classe 0 apenas para mudar a aparência da técnica.
+
+##### Uso e progressão
+
+O uso normal custa Ação Padrão. O aumento do dano pela tabela é automático. Você não compra uma segunda versão quando sobe de faixa. Mudar as peças exige reescrita. Os Classe 0 não fornecem espaços para adquirir invocações ou Talentos pagos.
+
+### Consultar a montagem
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#familias -->
 <a id="fundamento--familias"></a>
 #### Famílias
 
-O resumo das nove Famílias está em **[Conheça as Famílias](#fundamento-link-guia-familias)**, antes do exemplo de Mei. Esta seção apresenta os descontos das Livres e os acessos impedidos pelas Fechadas. Conserve a escolha feita na criação: duas Livres, três Fechadas e quatro de preço normal.
+Com as duas Famílias Livres, três Fechadas e quatro de preço normal escolhidas na criação, aplique os descontos e as proibições abaixo. O [resumo das Famílias](#fundamento-link-guia-familias) apresenta suas funções.
 
 Toda Melhoria custa pontos e conta para o mesmo limite de compras. Sua entrada informa a Família correspondente. No catálogo, **[Efeitos](#catalogo--cat-efeitos)** acrescentam capacidades, como mover uma criatura ou criar uma parede. **[Modificadores](#catalogo--cat-modificadores)** alteram características da aplicação, como o alcance. O desconto de Família Livre se aplica às Melhorias dos dois grupos.
 
@@ -9203,44 +9406,6 @@ Confira o acesso de cada efeito em sua entrada. Guarda pertence a Auxiliares e p
 
 **A base da função e o custo da Forma são pagos integralmente**, fora do limite de compras de Melhorias. As devoluções de Toque e das Restrições só podem cobrir o gasto com Melhorias, às quais também se aplica o desconto de Família Livre.
 
-<!-- fonte:fundamento/lote-01/FUNDAMENTO.md#selo -->
-<a id="fundamento--selo"></a>
-#### Selo e Talentos
-
-##### Selo
-
-O **Selo** é um requisito que você cumpre para conjurar os feitiços da técnica. Pode ser um gesto ou som, ou outra condição simples reconhecível pelo grupo. Exemplos incluem tocar as palmas ou manter os pés apoiados no chão.
-
-O Selo tem custo zero e não devolve pontos. Você deve cumpri-lo em cada conjuração. Uma Restrição só devolve pontos quando acrescenta uma dificuldade real ao requisito existente. Se exigir a mesma coisa que o Selo, a parte coincidente fica sem devolução.
-
-| Selo | Exigência adicional por feitiço |
-|---|---|
-| Ver o alvo. | O alvo também precisa estar sem perceber você. |
-| Fazer um gesto com uma mão. | Ter as duas mãos livres e falar em voz audível. |
-| Tocar o objeto. | O objeto precisa pertencer a alguém que você conheça. |
-
-A exigência adicional pode ser uma Restrição, se cumprir os critérios de Restrições. Defina com o mestre antes da sessão.
-
-Você precisa conseguir cumprir o Selo para conjurar. Alterá-lo exige uma revisão da técnica com o mestre; seus impedimentos continuam valendo durante o uso, mesmo que a descrição seja modificada. A Melhoria Silencioso estabelece as permissões para dispensar gesto e som.
-
-##### Expressão da técnica
-
-Você começa com uma **Expressão da técnica**, uma manifestação visual ou outro detalhe ligado à Descrição. Escolha uma característica que ajude a reconhecer o personagem, como o brilho de sua energia ou um reflexo incomum.
-
-**Faíscas.** Fios de luz percorrem seu cabelo quando você demonstra entusiasmo.
-
-**Teatro de sombras.** Quando você conta uma história, sua sombra encena o relato. Uma perseguição ganha corredores e telhados em miniatura. Uma criatura inventada toma forma entre as figuras. Você escolhe o que a cena representa, inclusive ao contar uma história que inventou.
-
-A Expressão da técnica permite personalizar a aparência do personagem. Sua utilização conserva os testes exigidos pela situação, sem conceder vantagem ou informação desconhecida. Para iluminar um lugar ou criar uma ilusão capaz de enganar, adquira uma capacidade com esse efeito.
-
-##### Talentos pagos
-
-Os Talentos pagos ocupam espaços de feitiço. Suas **Categorias de Efeito (CE)** 1, 2 e 3 custam respectivamente 1, 2 e 3 espaços e ficam disponíveis nos níveis 1, 7 e 13. O máximo é cinco Talentos pagos.
-
-A **Categoria de Efeito 4** está disponível exclusivamente como benefício da Restrição corporal na criação. Esse benefício fica fora dos espaços conhecidos e do limite de cinco Talentos pagos.
-
-O catálogo de Talentos traz seus efeitos e a [Regra Própria](#catalogo--cat-regra-propria), um Talento específico para técnicas de aposta, contrato, julgamento ou obrigação. A Expressão da técnica não ocupa espaço; Regra Própria segue o custo específico de sua progressão. Nenhuma dessas opções permite comprar efeitos de uma Família Fechada por outro nome.
-
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#repertorio -->
 <a id="fundamento--repertorio"></a>
 #### Feitiços conhecidos
@@ -9268,6 +9433,8 @@ A aquisição está disponível em espaços de feitiço, de Manejo e de Kata. Si
 ##### Fora da conta
 
 Feitiços de **Classe 0** têm quantidade própria. **Liberações Máximas** e a **Técnica Máxima** são recebidas pela progressão e não ocupam espaços. Esses benefícios gratuitos não podem ser convertidos em entidades pela troca acima.
+
+##### Revisar um feitiço conhecido
 
 Ao subir de nível, você pode reescrever um feitiço conhecido. Uma Liberação Máxima pode ser a escolhida. Se uma revisão das regras invalidar uma montagem, corrija-a gratuitamente, sem gastar essa troca de nível.
 
@@ -9299,8 +9466,11 @@ Os **pontos** são usados para construir a ficha; os **PE** são gastos ao conju
 | 3 e 4 | Até 3 | Até 2 | 2 × Classe |
 | 5 a 7 | Até 4 | Até 2 | 2 × Classe |
 
-O limite de Melhorias conta cada compra separadamente, incluindo Efeito Próprio. A base da função e a Forma ficam fora dele. Para comprar a mesma Melhoria mais de uma vez, siga a permissão de sua entrada; uma criação própria exige acordo com o mestre antes do uso. Reunir duas Melhorias em uma descrição conserva o custo e a contagem de ambas. O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta.
+O limite de Melhorias conta cada compra separadamente, incluindo Efeito Próprio. A base da função e a Forma ficam fora dele.
 
+Para comprar a mesma Melhoria mais de uma vez, siga a permissão de sua entrada; uma criação própria exige acordo com o mestre antes do uso. Reunir duas Melhorias em uma descrição conserva o custo e a contagem de ambas. O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta.
+
+<a id="fundamento-link-saldo"></a>
 ##### Cálculo dos pontos
 
 Faça a conta depois de escolher as funções e a Forma:
@@ -9310,11 +9480,11 @@ Faça a conta depois de escolher as funções e a Forma:
 3. **Devolução:** some as devoluções das Restrições válidas e a devolução Leve de Toque, quando aplicável. Aproveite no máximo o gasto em Melhorias e no máximo 2 × Classe. O excedente se perde.
 4. **Saldo:** dos pontos iniciais, retire a base e as Melhorias, depois acrescente a devolução aproveitada.
 
-**Saldo = 3 × Classe − base − Melhorias + devolução aproveitada.**
+**Saldo = 3 × Classe − base das funções − custo da Forma − Melhorias + devolução aproveitada.**
 
 A montagem deve terminar com saldo igual ou maior que zero. Distribua os pontos disponíveis entre as funções escolhidas na criação, respeitando seus limites. Você também pode deixar pontos sem uso.
 
-> **Exemplo.** Um feitiço de Classe 3 tem 9 pontos. Sua base de cura individual custa 3 pontos, e Guarda custa mais 3. Os 3 pontos restantes fornecem 3d8 de cura ao aliado, que também recebe +2 Defesa. Essa montagem tem uma Melhoria e nenhuma Restrição; cada conjuração custa 9 PE.
+> **Exemplo.** Uma técnica com Amparo e Auxiliares disponíveis monta cura individual com Projétil e Guarda na Classe 3, sem descontos. São 9 pontos: base de cura (3), Projétil (0) e Guarda (3). O saldo **9 − 3 − 0 − 3 = 3** fornece 3d8 de cura ao aliado, que também recebe +2 Defesa até o fim do próximo turno dele. É uma Melhoria, nenhuma Restrição e 9 PE por uso. A sobra de pontos não aumenta o bônus de Guarda.
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#funcoes -->
 <a id="fundamento--funcoes"></a>
@@ -9336,13 +9506,13 @@ Nas demais aplicações com vida temporária individual, use Leve. Quando a fich
 
 **Guarda** concede bônus de Defesa; **Impulso** favorece um ataque; **Firmeza** favorece o teste da categoria escolhida na montagem. Nas aplicações individuais, essas opções pagam apenas suas Melhorias. Pague a Forma uma vez e cada Melhoria separadamente. A base não recebe desconto de Família nem pode ser recuperada por devoluções. Capacidades próprias conservam os custos aprovados em sua criação.
 
-Guarda fornece o bônus de +2 Defesa pelo preço indicado na entrada. A compra de Anteparo define a vida da parede de acordo com a Classe. Esses efeitos ficam completos com a compra de suas Melhorias e conservam seus valores quando há saldo restante.
+A entrada da Melhoria define sua quantidade: Guarda fornece +2 Defesa; Anteparo calcula a vida da parede pela Classe. Essas quantidades se mantêm mesmo quando sobra saldo.
 
 > **Vida temporária na Classe 1.** Um feitiço com Projétil e vida temporária individual, sem Melhorias ou Restrições, começa com 3 pontos. A base Leve custa 1: restam 2 pontos, que concedem **6 de vida temporária**. Toque também precisa pagar essa base; sua devolução só recupera pontos gastos em Melhorias.
 
 ##### Escolha o destino do saldo
 
-Na criação, distribua o saldo entre as funções de dano, cura e vida temporária presentes na ficha. Cada ponto pode ser usado uma vez nessa distribuição. Com saldo 6, por exemplo, você pode destinar quatro pontos à cura e dois à reserva, obtendo 4d8 de cura e 6 de vida temporária. Obter 6d8 de cura e 18 de vida temporária exigiria pontos separados para cada parcela.
+Na criação, distribua o saldo entre as funções de dano, cura e vida temporária presentes na ficha. Cada ponto pode ser usado uma vez nessa distribuição. Por exemplo, uma aplicação individual de Classe 3 com Amparo disponível, Projétil e base Média de cura, sem Melhorias, tem **9 − 3 = 6 pontos de saldo**. Pode reservar quatro à cura e dois à vida temporária, registrando **4d8 de cura e 6 de vida temporária**. A cura cabe no teto individual de 6d8 desta Classe; a vida temporária ainda respeita o teto da reserva do beneficiário.
 
 Reserve pelo menos um ponto para cada função variável registrada na ficha. Um feitiço com saldo zero ainda pode produzir os efeitos das Melhorias compradas, como a vantagem de Impulso. A cura precisa ter pontos destinados a ela. Para preparar versões em Classes maiores, consulte **Ampliar um feitiço**.
 
@@ -9363,6 +9533,11 @@ A cura individual tem teto de **2 × Classe em d8**. A cura e a vida temporária
 | 7 | 14 | 10 |
 
 O saldo pode superar o teto de uma função. Nesse caso, o excedente destinado a ela fica sem uso e permanece nessa distribuição durante a conjuração. Habilidades de entidade usam os orçamentos e tetos apresentados em sua seção.
+
+> **Teto coletivo.** Uma cura coletiva de Classe 3 com Aura, sem Melhorias ou Restrições, tem **9 − base 3 − Aura 2 = 4 pontos**. Esses quatro pontos cabem no teto coletivo e fornecem 4d8 de cura para cada aliado elegível na região. O teto é conferido antes de converter a parcela em dados.
+
+> **Teto da reserva.** Uma concessão de 6 de vida temporária a uma criatura com vida máxima 10 e sem reserva anterior fica limitada a **5**, metade desse máximo. O ponto de vida temporária excedente se perde. A distribuição do feitiço continua a mesma durante o uso. Consulte [Vida e energia temporárias](#dano--temporarios) para o recebimento e a substituição de reservas.
+
 
 Para usar cura contra maldições com Energia Reversa, consulte **Ferir maldições**, em Aptidões e Refino. A exceção tem requisitos e resolução próprios; escolher cura não concede essa aptidão.
 
@@ -9393,15 +9568,22 @@ O ataque é a resolução normal das partes ofensivas individuais; áreas ofensi
 
 ##### Toque, Aura e proximidade
 
-**Toque** tem custo zero e concede uma devolução Leve nas montagens comuns de Classes 1 a 7. Essa devolução compensa pontos pagos em Melhorias, respeitando o teto geral de 2 × Classe junto das Restrições. Ela fica fora das duas vagas de Restrição. Uma ficha que só possa afetar você fica sem a devolução por proximidade.
+Nas montagens comuns de Classes 1 a 7, compare o custo da Forma e a devolução da Restrição:
 
-**Aura custa Leve** pela área centrada em você. Essa Forma não concede devolução por proximidade. Toque e Aura não podem escolher **Queima-Roupa**.
+| Escolha | Alcance ou origem | Custo ou devolução | Vaga de Restrição |
+|---|---|---|---|
+| Forma Toque | Um alvo a até 1,5 m. | Custo zero e devolução Leve para compensar Melhorias pagas. | Fica fora das duas vagas. |
+| Forma Aura | Esfera centrada em você. | Custa Leve pela área. | A Forma não ocupa vaga nem concede devolução. |
+| Queima-Roupa em Projétil | Todos os alvos a até 1,5 m. | Devolve Média para compensar Melhorias pagas. | Ocupa uma das duas vagas. |
+| Queima-Roupa em Explosão, Cone ou Linha | Origem da área em você; suas dimensões permanecem. | Devolve Leve para compensar Melhorias pagas. | Ocupa uma das duas vagas. |
 
-**Queima-Roupa** ocupa uma das duas vagas de Restrição. Em Projétil, limita os alvos a 1,5 m e devolve Média. Em Explosão, Cone ou Linha, fixa a origem da área em você e devolve Leve. O tamanho da área permanece igual: um Cone de 4,5 m continua se estendendo por 4,5 m. Consulte a entrada da Restrição para as incompatibilidades.
+Some a devolução de Toque às Restrições: o total aproveitado fica limitado ao gasto com Melhorias e a **2 × Classe**. Base e custo da Forma são pagos integralmente. Uma aplicação exclusivamente pessoal fica sem a devolução por proximidade e sem Queima-Roupa. Toque e Aura não podem escolher essa Restrição.
 
-**Longe** amplia o alcance até um alvo ou uma origem escolhida. **Maior** amplia as dimensões da área. Toque e Aura mantêm suas medidas de alcance; Queima-Roupa também impede ampliar a distância até seus alvos ou sua origem.
+Longe aumenta a distância até um alvo ou origem escolhida. Toque, Aura e montagens com Queima-Roupa conservam suas distâncias. Maior amplia as dimensões de uma área, quando permitido. Assim, um Cone de 4,5 m com Queima-Roupa parte de você e continua se estendendo por 4,5 m.
 
-> **Exemplo.** Na Classe 3, Toque com Precisão de preço normal custa 2 pontos em Melhorias e devolve Leve, que vale 2. O saldo é 9 − 2 + 2 = **9d8 de dano**, com resolução por ataque e **+2 no acerto**, o bônus da Melhoria [Precisão](#catalogo--melhoria-precisao), e alcance de 1,5 m. A montagem usa uma Melhoria e nenhuma Restrição.
+> **Exemplo.** Na Classe 3, Toque com Precisão de preço normal paga 2 pontos pela Melhoria e aproveita a devolução Leve de 2. O saldo é **9 − 2 + 2 = 9**, destinado a **9d8 de dano**. Precisão concede +2 no acerto. A ficha usa uma Melhoria, nenhuma Restrição e alcance de 1,5 m. Sem uma Melhoria paga, a devolução de Toque não acrescentaria pontos ao orçamento.
+
+Classe 0 e Técnica Máxima possuem as exceções apresentadas em suas seções. A entrada de [Queima-Roupa](#catalogo--restricao-queima-roupa) reúne seus requisitos completos.
 
 ##### O que uma área distribui
 
@@ -9458,7 +9640,7 @@ Compare os preços nas Classes em que pretende usar a ficha. Com Alcance Livre, 
 <a id="fundamento--conjurar"></a>
 #### Conjurar
 
-Para usar um feitiço conhecido, escolha sua Classe original ou uma maior por Ampliar, confira o alvo e cumpra seus requisitos. Você precisa enxergar o alvo ou o ponto de origem escolhido, salvo uma permissão como [Sem Ver](#catalogo--melhoria-sem-ver), Melhoria que permite escolher um alvo ou ponto de origem cuja posição atual você conhece, mesmo sem enxergá-lo, dentro de seus requisitos. Gaste a ação e o PE indicados, resolva a ficha e marque os efeitos que continuam.
+Escolha a Classe original do feitiço ou uma maior por [Ampliar](#fundamento--ampliar). Confira os alvos e cumpra os requisitos. Você precisa enxergar o alvo ou a origem escolhida, salvo permissão específica. [Sem Ver](#catalogo--melhoria-sem-ver), por exemplo, permite uma posição atual conhecida, dentro dos requisitos da peça. Gaste a ação e os PE, resolva a ficha e marque os efeitos em andamento.
 
 ##### Atributo, ataque e CD
 
@@ -9487,6 +9669,8 @@ O uso normal custa **Ação Padrão**. Bônus, Reação e Ação Completa precis
 Instantes de término devem estar escritos. Quando a duração disser apenas **uma rodada**, termina no começo do seu próximo turno. “Até o fim do próximo turno do alvo” conserva esse momento específico. Concentração, interrupções e tentativas para escapar seguem as regras do efeito.
 
 O PE é gasto mesmo quando o ataque erra ou o alvo resiste. Só uma regra expressa permite recuperar esse custo.
+
+### Restrições e combinações
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#restricoes -->
 <a id="fundamento--restricoes"></a>
@@ -9525,15 +9709,130 @@ O mestre deve rever uma Restrição depois de três sessões em que o feitiço t
 <a id="fundamento--combinacoes"></a>
 #### Combinar peças
 
-Um feitiço pode reunir funções diferentes. Ao montar essa **mescla**, defina os destinatários de cada efeito e registre qualquer dependência entre eles. Use uma única conta de pontos para a montagem e descreva como cada parte será resolvida.
+Uma **mescla** reúne efeitos diferentes na mesma conjuração, como dano e recuperação de vida. A técnica e as Famílias disponíveis precisam permitir cada efeito.
 
-##### Partes independentes e dependentes
+Use uma única conta de pontos. Pague a maior base exigida pelas funções uma vez, acrescente o custo da Forma e compre cada Melhoria necessária. Depois das devoluções válidas, distribua o saldo entre as funções que usam pontos, como dano, cura e vida temporária. Os efeitos das Melhorias conservam os valores de suas entradas.
 
-Se a ficha tem dano e cura independentes, errar o ataque não cancela a cura. Se a recuperação vem de Sugar, ela depende do dano efetivamente causado e segue aquela peça. Estar na mesma ficha não cria nem elimina um vínculo entre efeitos.
+##### O que fica na ficha
 
-Resolva as partes na ordem registrada. Quando uma criatura recebe dano e benefício da mesma aplicação, resolva primeiro o dano. Uma parte sem alvo válido não transfere seus dados para outra. Independência também não permite ignorar uma condição que impeça a conjuração inteira, como não poder cumprir seu Selo.
+| Na criação, antes da sessão | Durante a conjuração |
+|---|---|
+| Escolha as funções e reserve os pontos de saldo de cada uma. Registre seus destinatários permitidos e sua resolução. | Escolha destinatários válidos e use as quantidades da ficha. Se houver Mais Um, reparta essas quantidades antes das rolagens, conforme a peça. |
+| Registre o vínculo entre os efeitos e sua ordem de resolução. | Aplique essa ordem. Se uma criatura receber dano e benefício da mesma aplicação, resolva primeiro o dano. |
 
-Na ficha, descreva a resolução de cada parte com seu destinatário. Informe o resultado do ataque ou do TR e o que acontece com os demais efeitos se ele falhar. Essa descrição será usada durante a conjuração.
+Cada função mantém a quantidade registrada, mesmo quando outra parte fica sem alvo válido. Para usar a mescla em Classes maiores, prepare suas distribuições conforme [Ampliar um feitiço](#fundamento--ampliar).
+
+Acompanhe a montagem de **Ferir e recuperar** a seguir. Depois dela, os exemplos mostram uma recuperação dependente do dano e duas aplicações em área. As tabelas de consulta ficam no fim desta seção de exemplos.
+
+<!-- fonte:fundamento/lote-01/FUNDAMENTO.md#mesclas -->
+<a id="fundamento--mesclas"></a>
+#### Três mesclas prontas
+
+As três montagens acompanhadas usam **Classe 3, Ação Padrão e 9 PE por conjuração**. A Classe 3 fica disponível a partir do **nível 9**. As contas consideram preço normal nas Famílias mencionadas. Se uma Família for Livre na sua técnica, refaça os custos e o saldo com o desconto correspondente.
+
+Estas aplicações pertencem a técnicas que permitem os efeitos apresentados. Ferir e recuperar e Pulso de renovação exigem **Amparo e Área disponíveis**. Recompor e guardar exige também **Auxiliares**. Para comparar com Mei, lembre que Fios de Tensão tem Amparo Fechada e conserva essa proibição de cura direta.
+
+##### Ferir e recuperar
+
+**Ideia:** um pulso fere um adversário enquanto recompõe um aliado. O dano e a cura terão resoluções independentes. O personagem poderá ser o aliado beneficiado.
+
+**1. Escolha as funções.** Dano tem base zero. Cura direta exige uma base Média, que vale 3 pontos na Classe 3. A montagem paga a maior base uma vez: **3 pontos** cobrem a base das funções escolhidas.
+
+**2. Alcance os dois destinatários.** Projétil tem custo zero e alcança um destinatário. A Melhoria **[Mais Um](#catalogo--melhoria-mais-um)** acrescenta outro destinatário individual diferente. Ela tem preço Leve, de **2 pontos** nesta Classe. Para esta ficha, os dois destinatários ficarão a até **9 m**, respeitando a distância da cura individual.
+
+**3. Confira a conta.** A montagem usa uma Melhoria e nenhuma Restrição.
+
+| Conta | Pontos |
+|---|---:|
+| Orçamento de Classe 3 | 9 |
+| Base das funções | −3 |
+| Forma Projétil | 0 |
+| Melhoria Mais Um | −2 |
+| Saldo | **4** |
+
+**4. Distribua o saldo na criação.** Reserve dois pontos para dano e dois para cura.
+
+| Função | Pontos reservados | Resultado registrado |
+|---|---:|---|
+| Dano | 2 | 2d8 do tipo registrado, no acerto contra o inimigo. |
+| Cura | 2 | Um aliado disposto recupera 2d8, respeitando seu máximo e os impedimentos de cura. |
+
+A cura de 2d8 cabe no teto individual de **6d8** da Classe 3. Mais Um permite destinar o dano ao inimigo e a cura ao aliado, mantendo os totais registrados.
+
+**5. Registre a ficha**, incluindo o Selo da técnica:
+
+| Ferir e recuperar | Regra |
+|---|---|
+| Classe e custo | Classe 3; Ação Padrão; 9 PE. |
+| Funções e distribuição | Dano: 2 pontos, para 2d8. Cura: 2 pontos, para 2d8. |
+| Destinatários | Um inimigo válido e um aliado disposto a até 9 m. O personagem pode ser esse aliado. |
+| Dano | Ataque de conjuração contra Defesa. No acerto, aplica 2d8 do tipo registrado. No erro, essa parte falha. |
+| Cura | Recuperação automática no aliado disposto, independente do ataque. Respeita vida máxima, impedimentos e o procedimento de Morrendo. |
+| Duração | Instantânea. |
+| Montagem | Base Média (3), Projétil (0) e Mais Um (2). Uma Melhoria, nenhuma Restrição. |
+
+**6. Resolva na mesa.** Cumpra o Selo, use Ação Padrão e pague 9 PE pela conjuração. Escolha os destinatários válidos e faça o ataque contra o inimigo. Se acertar, role os 2d8 de dano. Resolva também os 2d8 de cura no aliado.
+
+| Situação | O que acontece |
+|---|---|
+| O ataque acerta; os dados dão 11 de dano e 7 de cura. | Aplique os 11 de dano com as defesas do inimigo. O aliado recupera até 7 de vida. |
+| O ataque erra; os dados de cura dão 7. | O aliado recupera até 7 de vida. A parte ofensiva fica sem efeito. |
+| A parte de cura fica sem destinatário válido. | Seus dois pontos ficam sem uso. A parte ofensiva conserva 2d8. |
+
+Uma parte independente pode funcionar quando outra falha ou fica sem destinatário válido. Um impedimento da conjuração inteira, como não conseguir cumprir o Selo, impede usar o feitiço. Os custos continuam seguindo as regras de conjuração, inclusive o gasto de PE quando o ataque erra.
+
+##### Quando um efeito depende de outro
+
+Registre o vínculo entre as partes na ficha, respeitando a peça comprada. Em Ferir e recuperar, um aliado válido e disposto recebe a cura mesmo se o ataque errar.
+
+A Melhoria **[Sugar](#catalogo--melhoria-sugar)**, da Família Marca, recupera vida para o usuário a partir do dano elegível: o que saiu da vida ou da vida temporária de criaturas, depois das defesas, nas parcelas iniciais aplicadas por acerto ou falha no TR. Reúna essas parcelas e recupere um quarto da soma, arredondado para baixo, até 5 × Classe por conjuração. O dano de um TR bem-sucedido fica fora da soma. Repetições e dano posterior seguem as exclusões da entrada de Sugar.
+
+Sugar de Classe 3 que reúna **16 + 28 = 44 de dano elegível** recupera **11 de vida**, dentro do limite 15 da conjuração. Dano elegível zero produz recuperação zero. Essa quantidade vem da Melhoria; Ferir e recuperar usa os dados de cura reservados pelo saldo.
+
+##### Pulso de renovação
+
+**Ideia:** ferir adversários ao redor e recuperar um aliado na mesma região. Agora a Forma será **Aura**, uma esfera de raio 3 m centrada no usuário. A ficha reserva a cura para **um único aliado**.
+
+Para proteger as criaturas que devem ficar fora das partes nocivas, compre **[Escolher](#catalogo--melhoria-escolher)**. Essa Melhoria Média custa 3 pontos. A Restrição **Gesto** exige duas mãos livres e voz audível, devolvendo Leve, de 2 pontos. Essa devolução pressupõe que a exigência acrescente uma dificuldade real ao Selo da técnica.
+
+| Conta | Pontos |
+|---|---:|
+| Orçamento de Classe 3 | 9 |
+| Base de cura | −3 |
+| Forma Aura, Leve | −2 |
+| Melhoria Escolher, Média | −3 |
+| Restrição Gesto, Leve | +2 |
+| Saldo | **3** |
+
+A montagem usa uma Melhoria e uma Restrição. A devolução de Gesto cobre 2 dos 3 pontos pagos em Melhorias, dentro dos tetos.
+
+**Funções e distribuição:** reserve dois pontos para **2d8 de dano** na área e um ponto para **1d8 de cura** no aliado. Registre o tipo de dano e o Teste de Resistência (TR) correspondente, com sua CD, a dificuldade que o alvo precisa alcançar no teste.
+
+**Na mesa:** cumpra Gesto e o Selo, use Ação Padrão e pague 9 PE. Escolher permite selecionar, entre as criaturas que você distingue por uma percepção válida, quais receberão as partes nocivas iniciais. As criaturas protegidas dessa parte ainda podem receber o benefício permitido na ficha.
+
+Role os 2d8 de dano uma vez. Cada criatura sujeita à parte nociva faz seu TR: na falha, recebe o dano; no sucesso, recebe metade, com o arredondamento de Dano. Depois, um aliado disposto e válido na mesma área recupera 1d8. Você pode ser esse aliado.
+
+Se os dados de dano somarem **9**, quem falhar recebe 9 e quem passar recebe **5**, antes das demais defesas. Se a cura resultar em 6, o aliado recupera até 6. A recuperação acontece mesmo se todos os inimigos resistirem ou se não houver inimigos na área. Os dois pontos destinados a dano permanecem nessa parcela e ficam sem uso quando ela não tem alvo válido.
+
+##### Recompor e guardar
+
+**Ideia:** recuperar aliados próximos e protegê-los. A ficha combina cura coletiva com **[Guarda](#catalogo--melhoria-guarda)**, a Melhoria que concede +2 Defesa. As funções compartilham uma base Média. A Forma Aura entrega os efeitos na esfera de raio 3 m centrada no usuário.
+
+| Conta | Pontos |
+|---|---:|
+| Orçamento de Classe 3 | 9 |
+| Base compartilhada, Média | −3 |
+| Forma Aura, Leve | −2 |
+| Melhoria Guarda, Média | −3 |
+| Saldo | **1** |
+
+**Funções e distribuição:** o ponto de saldo fornece **1d8 de cura** por aliado elegível, dentro do teto coletivo de **4 pontos** desta Classe. Guarda fornece +2 Defesa pela compra da Melhoria. É uma Melhoria e nenhuma Restrição; a base Média foi cobrada uma vez.
+
+**Na mesa:** cumpra o Selo, use Ação Padrão e pague 9 PE. Os aliados dispostos e válidos na região recuperam 1d8. Escolha até **Classe + 1**, ou **quatro** deles, para receber também +2 Defesa até o fim do próximo turno de cada um. Você ocupa uma dessas quatro vagas se for escolhido. Uma criatura que entrar depois fica sem os efeitos desta aplicação.
+
+Com seis aliados elegíveis na região, os seis podem receber a cura; até quatro recebem Guarda.
+
+Para criar uma versão que apenas ofereça Guarda, mantenha a base compartilhada e a Forma e retire a cura. Essa versão exige Auxiliares e Área disponíveis e dispensa Amparo. O ponto restante fica sem uso. Prepare a nova montagem conforme as regras de espaço ou reescrita de feitiços.
 
 ##### Alvos, ataques e áreas
 
@@ -9545,7 +9844,7 @@ Na ficha, descreva a resolução de cada parte com seu destinatário. Informe o 
 | Evitar aliados na parte nociva de uma área | Escolher | Exclui criaturas das partes nocivas iniciais; elas ainda podem receber benefícios permitidos. |
 | Causar dano secundário | Salto ou Estilhaço | Usa o gatilho e os dados da peça; não repete todas as funções da ficha. |
 
-Na criação, fixe quanto do saldo pertence a dano, cura e vida temporária. Ao conjurar com Mais Um, pode repartir as quantidades de cada função entre os destinatários, antes das rolagens. Isso não permite transformar dados de cura em dano. Um único alvo não ocupa duas vagas de Mais Um para receber o efeito repetido.
+Mais Um reparte as quantidades registradas de cada função entre destinatários, antes das rolagens. Os dados de cura permanecem destinados à cura. Cada vaga precisa de uma criatura diferente; um alvo não ocupa duas vagas para receber o efeito repetido.
 
 Guarda, Impulso e as categorias compradas de Firmeza podem beneficiar integralmente os destinatários individuais escolhidos por Mais Um. Outros benefícios conservam sua quantidade própria. Mais alvos não concedem outro uso de Levanta, uma segunda parede de Anteparo, outro Passo ou outra marca exclusiva.
 
@@ -9564,42 +9863,6 @@ Guarda, Impulso e as categorias compradas de Firmeza podem beneficiar integralme
 | Frágil + apenas efeitos instantâneos | Não combina: não existe efeito mantido para interromper. |
 
 Condição, Prende e Cerca sempre pedem TR, mesmo depois de um ataque acertar. Uma peça que exige ataque, como Rajada, não funciona numa ficha resolvida apenas por TR. Respeite também as proibições específicas de cada entrada.
-
-<!-- fonte:fundamento/lote-01/FUNDAMENTO.md#mesclas -->
-<a id="fundamento--mesclas"></a>
-#### Três mesclas prontas
-
-Os exemplos desta seção usam Classe 3, Ação Padrão e 9 PE. Todos consideram preço normal para as Famílias mencionadas. Para usar uma dessas montagens, a Regra da técnica precisa permitir seus efeitos. As compras ficam definidas antes da conjuração.
-
-##### Ferir e recuperar
-
-**Ideia:** um pulso fere um adversário enquanto recompõe um aliado. A técnica permite essas duas funções, com Amparo e Área disponíveis.
-
-**Montagem:** Projétil (0), base de cura (3) e Mais Um (2). Saldo 4: dois pontos para dano e dois para cura. Uma Melhoria, nenhuma Restrição. Para simplificar a ficha, os dois destinatários ficam a até 9 m.
-
-**Na mesa:** escolha um inimigo válido e um aliado disposto. Faça um ataque de conjuração contra o inimigo: no acerto, cause 2d8 do tipo registrado. O aliado recupera 2d8, mesmo se você errar o ataque. Você pode ser o aliado. O erro não aumenta a cura.
-
-##### Pulso de renovação
-
-**Ideia:** ferir adversários ao redor e recuperar um aliado. Exige Amparo e Área; a ficha registra o tipo de dano e o TR apropriado.
-
-**Montagem:** Aura (2), base de cura (3), Escolher (3), Gesto (devolve 2). Saldo 3: dois pontos de dano e um de cura. Uma Melhoria e uma Restrição. Aura conserva seu custo Leve e não concede devolução.
-
-**Na mesa:** cumpra Gesto: duas mãos livres e voz audível. Na esfera de raio 3 m centrada em você, exclua as criaturas que não devem receber as partes nocivas. As demais fazem o TR registrado. Falha recebe 2d8 de dano; sucesso recebe metade, com o arredondamento de Dano. Depois, um aliado disposto e válido na mesma área recupera 1d8. Você pode ser esse aliado.
-
-A cura ocorre mesmo se todos os adversários resistirem ou se a área estiver sem inimigos. Essa montagem destina 1d8 de cura a um único aliado. A parcela reservada ao dano permanece separada e fica sem uso quando falta um alvo válido para ela.
-
-> **Resolução de exemplo.** Os dados de dano somam 9: quem falhou recebe 9 e quem passou recebe 5, antes das demais defesas. A cura resulta em 6: o aliado recupera até 6, respeitando seu máximo e impedimentos. A cura não depende do dano recebido pelos inimigos.
-
-##### Recompor e guardar
-
-**Ideia:** recuperar aliados próximos e protegê-los. Exige Amparo, Auxiliares e Área.
-
-**Montagem:** Aura (2), base compartilhada (3) e Guarda (3). Saldo 1 para cura. Uma Melhoria, nenhuma Restrição. A base Média foi cobrada uma vez.
-
-**Na mesa:** os aliados dispostos e válidos no raio de 3 m recuperam 1d8. Escolha até quatro deles para receber também +2 Defesa, até o fim do próximo turno de cada um. Você conta entre os quatro se for escolhido. Entrar depois não recebe o benefício.
-
-Para criar uma versão que apenas ofereça proteção, mantenha a base compartilhada e Guarda, retirando a função de cura. Essa versão dispensa Amparo. O ponto restante fica sem uso, e Guarda conserva o bônus de Defesa indicado na entrada.
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#controle -->
 <a id="fundamento--controle"></a>
@@ -9650,13 +9913,25 @@ Uma peça própria de Controle só recebe esses reforços quando seus estados, T
 
 ##### Rede de contenção
 
-Hana produz raízes que se enroscam em criaturas. Neste exemplo, Área e Controle têm preço normal. Suas Famílias Livres são Amparo e Tempo, e as Fechadas são Mira, Marca e Castigo.
+Hana produz raízes que se enroscam em criaturas. Ela tem acesso à **Classe 4**, disponível a partir do nível 13. Neste exemplo, Área e Controle têm preço normal. Suas Famílias Livres são Amparo e Tempo; as Fechadas são Mira, Marca e Castigo.
 
-Ela monta **Explosão (4) + Condição Atordoado (6) + Terreno (2)**, na Classe 4. Gasta os 12 pontos, usa duas Melhorias e não compra Restrição. Registra a opção sem dano. Condição e Terreno recebem a rodada adicional; a CD da Condição recebe +2. Se Controle fosse Livre, o gasto cairia para 9. Registrando sem dano, a rede teria os mesmos reforços e descartaria os 3 pontos restantes.
+Hana quer criar terreno difícil e aplicar Atordoado, uma condição Pesada. Escolhe Explosão para atingir uma esfera e compra Condição e Terreno.
 
-> **Na ficha:** Ação Padrão, 12 PE. Esfera de raio 3 m num ponto a até 18 m. O solo fica difícil por duas rodadas. Cada criatura na área faz TR Físico contra a CD de Hana +2. Na falha, fica Atordoada por duas rodadas. No sucesso, evita essa condição. Quem ficou Atordoado repete o TR no fim de cada turno para encerrá-la antes. Sair da área não encerra a condição já aplicada.
+| Conta de Classe 4 | Pontos |
+|---|---:|
+| Orçamento | 12 |
+| Forma Explosão, Média | −4 |
+| Melhoria Condição: Atordoado, Pesada | −6 |
+| Melhoria Terreno, Leve | −2 |
+| Saldo | **0** |
 
-O terreno afeta quem passar por ele enquanto durar. A condição só é aplicada no disparo. Entrar na área depois não causa novo Atordoado. As raízes são a aparência desses efeitos, sem acrescentar agarrão ou dano por conta própria.
+A montagem usa **duas Melhorias e nenhuma Restrição**, com Ação Padrão e 12 PE por uso. Hana registra a opção **sem dano**. Essa opção concede a rodada adicional aos dois efeitos curtos e +2 à CD do TR de Condição. Terreno conserva sua aplicação sem TR.
+
+**Na ficha:** esfera de raio 3 m, com centro a até 18 m. O terreno fica difícil por duas rodadas. Cada criatura presente faz TR Físico contra a CD de Hana +2; na falha, fica Atordoada pelo mesmo prazo. Aqui, duas rodadas terminam no começo do segundo turno de Hana após a conjuração. A condição Pesada permite repetir o TR no fim de cada turno do alvo e encerrá-la antes no sucesso.
+
+O terreno afeta quem passar por ele enquanto durar. Atordoado só é aplicado no disparo. Entrar depois encontra o terreno difícil; sair da área conserva a condição já recebida até seu término ou uma saída válida. As raízes representam esses efeitos e não acrescentam agarrão ou dano.
+
+**Se Controle fosse Livre:** na Classe 4, o desconto seria 2 por Melhoria. Condição cairia de 6 para 4; Terreno, de 2 para o mínimo 1. Explosão continuaria custando 4. O gasto seria **4 + 4 + 1 = 9**, com saldo 3. A opção sem dano descartaria esses três pontos e manteria os mesmos reforços de duração e CD.
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#aplicacoes -->
 <a id="fundamento--aplicacoes"></a>
@@ -9666,15 +9941,17 @@ Volte à ideia da técnica e procure outro problema que ela pode resolver. Os fi
 
 ##### Travessia por um fio
 
-Mei prende um fio num apoio à frente e avança pelo chão, puxando o próprio corpo. Ela monta uma aplicação de **Classe 0 com Projétil e Passo**. A Melhoria custa um dado. A ficha descarta também o dano restante e serve apenas ao movimento comprado.
+Mei prende um fio num apoio à frente e avança pelo chão, puxando o próprio corpo. Ela usa uma aplicação de **Classe 0 com Projétil e Passo**. Classe 0 trabalha com dados-base, em vez do orçamento de pontos das Classes 1 a 7.
 
-A aplicação custa Ação Padrão e **0 PE**. Passo permite deslocar-se até 6 m sem provocar ataques de oportunidade. Condições que reduzem ou impedem seu movimento também afetam essa distância concedida. O feitiço não concede escalada, voo nem teleporte: o destino e o percurso precisam ser alcançáveis pelo movimento que Mei possui. Ela não pode usar o nome do feitiço para atravessar um fosso de 18 m.
+No nível 2, sua base é 2d8. A compra de Passo, uma Melhoria Leve, retira um dado. Mei descarta também o dado restante e registra somente o deslocamento de **até 6 m**. A ficha ocupa uma de suas aplicações de Classe 0, com **Ação Padrão e 0 PE**. O procedimento completo está em [Feitiços de Classe 0](#fundamento--classezero).
 
-Se a intenção for viajar pelo ar entre apoios, isso é outro efeito e precisa de uma peça que conceda esse movimento ou de um Efeito Próprio. Escrever esse requisito torna visível o que ainda falta comprar.
+Passo permite esse deslocamento sem provocar ataques de oportunidade. Condições que reduzem ou impedem seu movimento também afetam a distância concedida. Destino e percurso precisam ser alcançáveis pelos modos de movimento que Mei possui; a peça não concede escalada, voo ou teleporte. Um fosso de 18 m continua fora dessa aplicação.
+
+Uma proposta para viajar pelo ar entre apoios precisa de uma peça que conceda esse transporte ou de um [Efeito Próprio](#fundamento--proprio), com o funcionamento e os limites registrados.
 
 ##### Divisória de fios
 
-Na Classe 3, Mei pode criar uma parede de fios com **Projétil (0) + Anteparo (1, Controle Livre)**. Descarta os 8 pontos restantes. Eles não aumentam a parede nem ativam o bônus de Controle.
+Quando tiver acesso à Classe 3, Mei poderá criar uma parede de fios com **Projétil (0) + Anteparo (1, Controle Livre)**. Anteparo custa Média, de 3 pontos; o desconto de Controle Livre é 2, ficando em 1. A conta é **9 − 0 − 1 = 8 pontos restantes**, que ela descarta. Eles não aumentam a parede nem ativam o reforço de Controle, indisponível para a vida de Anteparo.
 
 Ação Padrão, 9 PE. Ela coloca a divisória em espaços livres num ponto a até 18 m. O Anteparo tem **30 pontos de vida**, dura **1 minuto** e usa os 12 quadrados de 1,5 m que a peça permite nesta Classe. Nesta ficha, formam uma parede de 9 m de largura e 3 m de altura. Todos os trechos compartilham essa vida. Uma destruição encerra a divisória inteira.
 
@@ -9682,7 +9959,7 @@ Coloque a parede em espaços desocupados, sem rolagem de ataque contra uma criat
 
 ##### Socorro durante a retirada
 
-Uma técnica diferente, capaz de fortalecer o corpo, pode usar **vida temporária individual + Projétil + Impulso + Pressa**. Na Classe 2 e sem descontos, a base Leve custa 1, Projétil custa 0, Impulso custa 1 e Pressa custa 2. O total é **1 + 0 + 1 + 2 = 4**, de um orçamento de 6.
+Uma técnica capaz de fortalecer o corpo, com **Amparo e Auxiliares disponíveis**, pode usar vida temporária individual com Projétil, Impulso e Pressa. Na Classe 2 e sem descontos, a base Leve custa 1, Projétil custa 0, Impulso custa 1 e Pressa custa 2. O total é **1 + 0 + 1 + 2 = 4**, de um orçamento de 6. São duas Melhorias, dentro do limite dessa Classe, e nenhuma Restrição.
 
 O saldo 2 concede **6 de vida temporária**. O aliado a até 9 m recebe vantagem no próximo ataque que fizer até o fim do próximo turno dele. Também ganha +6 m de deslocamento e não provoca ataques de oportunidade até o fim desse turno. A aplicação custa Ação Padrão e 6 PE. Ela não cura ferimentos nem move o aliado imediatamente: ele usa o deslocamento no momento em que puder se mover.
 
@@ -9720,7 +9997,9 @@ Fica mantém a área por **1 minuto**, com concentração. Cada criatura recebe 
 
 ##### Exemplo de permanência
 
-Uma área com 10d8 de dano inicial é criada na rodada 2. Fica usa 5d8 nas resoluções posteriores. Um inimigo continua próximo durante toda a duração:
+Para este exemplo, uma técnica com Área Livre monta **Aura de Classe 5 e Fica**. Aura custa 3. Fica tem preço Médio, de 5, e recebe desconto de 3: custa 2. Sem Restrições, o saldo **15 − 3 − 2 = 10** fornece 10d8 de dano inicial. É uma Melhoria, com Ação Padrão e 15 PE por conjuração.
+
+A área é criada na rodada 2 e permanece naquele lugar. Fica usa **metade de 10, ou 5d8**, nas resoluções posteriores. Um inimigo permanece na região durante toda a duração:
 
 | Rodada | O que acontece | Resolução para esse inimigo |
 |---|---|---|
@@ -9731,6 +10010,8 @@ Uma área com 10d8 de dano inicial é criada na rodada 2. Fica usa 5d8 nas resol
 | 12 | Completa-se um minuto desde a conjuração. | Fica termina no mesmo ponto da iniciativa em que começou. |
 
 A perda de concentração encerra a área antes desse prazo. Conte separadamente as aplicações recebidas por cada criatura, respeitando o máximo de uma resolução por rodada para cada uma.
+
+### Usar a técnica fora de combate
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#livre -->
 <a id="fundamento--livre"></a>
@@ -9797,6 +10078,8 @@ Registre a origem e a extensão da aplicação, descrevendo a alteração que el
 
 > **Luz de Oficina.** Uma técnica de luz prepara uma aplicação de Efeito fora de combate de Classe 2 para iluminar um cômodo grande por 10 minutos. Cada uso custa Ação Padrão e 6 PE. A ficha oferece iluminação comum e mantém os procedimentos usuais de visão, incluindo ocultação sobrenatural. Para cegar alguém ou conceder um bônus, seria necessário adquirir o efeito correspondente. Os 6 pontos disponíveis ficam sem uso, pois essa montagem dispensa Melhorias.
 
+### Desenvolver suas aplicações
+
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#ampliar -->
 <a id="fundamento--ampliar"></a>
 #### Ampliar um feitiço
@@ -9840,11 +10123,11 @@ Quando um feitiço tem uma única função variável, aplique o saldo normalment
 
 Prepare novas linhas antes da sessão. Para alterar uma linha existente, siga a regra normal de revisão da ficha. A distribuição registrada permanece durante o uso. Feitiços de Classe 0 e aplicações máximas seguem seus próprios procedimentos.
 
-| Classe usada | PE | Dano | Cura |
+| Classe e PE | Conta do saldo | Dano | Cura |
 |---|---|---|---|
-| 3 | 9 | 2d8 | 2d8 |
-| 4 | 12 | 4d8 | 2d8 |
-| 5 | 15 | 5d8 | 2d8 |
+| 3; 9 PE | 9 − base 3 − Mais Um 2 = 4 | 2d8 | 2d8 |
+| 4; 12 PE | 12 − base 4 − Mais Um 2 = 6 | 4d8 | 2d8 |
+| 5; 15 PE | 15 − base 5 − Mais Um 3 = 7 | 5d8 | 2d8 |
 
 A tabela mostra uma progressão de **Ferir e recuperar**, com base Média e Mais Um Leve, sem descontos ou Restrições. Você pode escolher outra distribuição para sua ficha, respeitando as funções e seus limites. Registre antes da sessão os valores de cada Classe que pretende usar.
 
@@ -9852,71 +10135,59 @@ A tabela mostra uma progressão de **Ferir e recuperar**, com base Média e Mais
 
 Trocar Projétil por Explosão, acrescentar uma condição ou mudar o TR é criar outra montagem. Use outro espaço disponível ou a reescrita permitida ao subir de nível. Feitiços de Classe 0 seguem sua própria progressão e não usam esta conta de ampliação.
 
-<!-- fonte:fundamento/lote-01/FUNDAMENTO.md#classezero -->
-<a id="fundamento--classezero"></a>
-#### Feitiços de Classe 0
-
-Classe 0 reúne aplicações pequenas que você pode usar sem gastar PE. Elas têm uma quantidade própria na ficha e não ocupam os espaços de feitiços conhecidos.
-
-| Seu nível | 1 a 4 | 5 a 10 | 11 a 16 | 17 a 24 | 25 a 30 |
-|---|---|---|---|---|---|
-| Quantidade conhecida | 2 | 3 | 4 | 5 | 5 |
-| Dano-base | 2d8 | 3d8 | 4d8 | 5d8 | 6d8 |
-
-Escolha a Forma e use a base de alcance da Classe 0. A Regra, as Famílias Fechadas e o Selo continuam valendo. **Cura e aplicação coletiva de benefícios não estão disponíveis.**
-
-##### Uma Melhoria
-
-Você pode acrescentar **uma Melhoria Leve**, retirando **um dado** do dano-base. Use Classe 0 nos valores da Melhoria que dependam de Classe. Uma entrada com requisito mínimo de Classe superior continua indisponível.
-
-Pode haver uma Restrição Leve: ela devolve o dado que a Melhoria tirou, sem criar pontos de montagem. A Classe 0 conserva seu procedimento de dados-base: Toque mantém 1,5 m e não concede sua devolução automática de pontos. Aura mantém a origem no conjurador. Queima-Roupa só pode ser escolhida nas áreas em que devolve Leve, ocupando a única vaga de Restrição. Ela recupera no máximo o dado pago pela Melhoria; em Projétil, sua devolução Média permanece indisponível.
-
-> **Fio curto.** No nível 2, Mei conhece um Projétil de Classe 0. Alcance 9 m, Ação Padrão, 2d8 de Cortante. Se montar uma versão com Empurrão, paga um dado: 1d8 e o deslocamento de até 6 m da peça. No nível 5, essa mesma versão passa a 2d8, pois a base subiu a 3d8.
-
-##### Aplicações sem dano
-
-Um benefício individual de **Classe 0** alcança um aliado a até 4,5 m, ou 1,5 m com Toque. Compre uma Melhoria Leve que tenha efeito aplicável, como Impulso, e descarte os dados de dano. Essa aplicação concede o benefício comprado sem causar dano ao aliado. Vida temporária permanece indisponível, pois a Classe 0 usa dados-base e dispensa o saldo de pontos.
-
-Uma aplicação de **Efeito fora de combate de Classe 0** faz a pequena aplicação registrada, dentro da escala própria. O que já cabe em Uso Livre não exige ocupar um dos feitiços de Classe 0 apenas para mudar a aparência da técnica.
-
-##### Uso e progressão
-
-O uso normal custa Ação Padrão. O aumento do dano pela tabela é automático. Você não compra uma segunda versão quando sobe de faixa. Mudar as peças exige reescrita. Os Classe 0 não fornecem espaços para adquirir invocações ou Talentos pagos.
-
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#proprio -->
 <a id="fundamento--proprio"></a>
 #### Efeitos próprios
 
-Quando o catálogo não contém a mecânica que você imaginou, proponha um **Efeito Próprio** ao mestre, antes da sessão. Ele conta como uma Melhoria, com preço definido pelo mestre na criação. Cada compra conta no limite normal de Melhorias da Classe. Não há um limite adicional só para peças próprias.
+Proponha um **Efeito Próprio** ao mestre antes da sessão para uma capacidade ausente do catálogo. Cada compra paga o preço combinado e ocupa uma vaga no limite de Melhorias da Classe. As peças próprias usam esse limite, sem cota adicional.
 
 ##### Da ideia à regra
 
-Descreva o resultado esperado e os efeitos necessários para realizá-lo. “Fazer dobraduras vivas” pode representar um objeto que carrega algo ou uma criatura capaz de lutar. Para obter uma entidade que age por conta própria, siga as regras de aquisição e criação de Invocações.
+Descreva o resultado esperado. Depois confira se uma entrada existente já produz esse resultado. Uma plataforma de papel que empurra uma aliada pelo chão pode ser a aparência de Empurrão, respeitando a distância e os limites dessa peça. Para sustentar a passagem sobre um vão, a proposta precisa permitir expressamente esse transporte.
+
+Registre os campos abaixo. Eles permitem comparar a proposta com peças existentes e resolver seu uso durante a sessão.
 
 | Campo | O que precisa estar definido |
 |---|---|
 | Resultado | O que muda quando a aplicação funciona. |
 | Alvos | Quem ou o que pode receber o efeito. |
-| Aplicação | Origem, alcance, área e obstáculos que o impedem. |
+| Aplicação | Origem, alcance, percurso, área e obstáculos que o impedem. |
 | Resolução | Ataque, TR ou efeito automático sem oposição. |
 | Duração | Momento de término, concentração e formas de interromper. |
 | Custo | Preço da peça, Classe, ação e PE da ficha. |
+| Comparação | Quais peças serviram de referência e quais diferenças foram avaliadas. |
+
+Se a ideia for criar uma entidade que age por conta própria, como uma dobradura capaz de lutar, siga a aquisição e a criação de [Invocações](#construcao--entidades-criar). O espaço do feitiço e a compra de um Efeito Próprio conservam as exigências de aquisição da entidade.
 
 ##### Preço e comparação
 
-Compare a proposta com uma Melhoria que produza um efeito semelhante. Use seus custos e limitações como referência. O mestre define o preço do Efeito Próprio após avaliar essa comparação.
+Compare resultado, alvos, distâncias e duração com Melhorias próximas. Apresente um uso possível e uma situação que limite a capacidade. O mestre define o preço pela comparação; guarde a justificativa junto da regra aprovada.
 
-Mestre e jogador escolhem a Família que melhor representa a função mecânica da proposta. Essa escolha determina o acesso e o desconto de Livre da rota. Se nenhuma Família for adequada, registrem o preço integral, sem desconto de Família. A criação deve respeitar as proibições das Famílias Fechadas. Quando houver benefícios independentes, pague e conte cada um. O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta.
+Mestre e jogador escolhem a Família que melhor representa a função mecânica da proposta. Ela define o acesso e o desconto de Livre. Se nenhuma Família for adequada, registrem o preço integral, sem desconto de Família. A criação respeita as proibições das Famílias Fechadas.
 
-Apresente ao mestre um exemplo de uso e uma situação em que a capacidade encontra um limite. O mestre usa esses exemplos para avaliar o alcance da proposta e decidir seu preço. Registre a justificativa junto da regra aprovada.
+Quando a proposta reunir benefícios independentes, pague e conte cada um. O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta. Registre essa decisão junto dos efeitos que ela abrange.
 
-##### Registro na ficha
+##### Exemplo de acordo: Travessia de papel
 
-Guarde a regra aprovada e o exemplo usado na comparação. Confira se o texto permite resolver a aplicação com os alvos, requisitos e duração registrados. Complete qualquer informação necessária antes de usar o efeito em jogo.
+Uma técnica produz plataformas de papel sustentadas por energia. A jogadora quer levar **uma aliada disposta sobre um vão curto**, colocando-a num apoio do outro lado. A técnica comporta esse transporte e tem Alcance disponível pelo preço normal.
 
-**Repetir uma Melhoria própria depende de acordo com o mestre antes do uso.** Registrem quantas compras são permitidas, o preço de cada uma e o que cada repetição acrescenta. Aprovar a peça uma vez não aprova sua repetição. Cada compra paga e conta no limite normal, salvo exceção expressamente acordada.
+**Comparação.** Empurrão já move uma aliada disposta até 6 m por um percurso permitido, mas não fornece o apoio suspenso desejado. A proposta acrescenta essa passagem sobre o vão. Para este acordo ilustrativo, o mestre escolhe **Família Alcance e preço Médio**. Esse preço pertence à capacidade descrita no exemplo; outras propostas exigem sua própria avaliação.
 
-Compras com o mesmo benefício precisam de autorização para repetição, inclusive quando recebem nomes ou aparências diferentes. Compare o funcionamento das propostas: uma parede e um bônus de Defesa oferecem proteções distintas e podem ser avaliados separadamente. Aplique as permissões de cada entrada e as regras de acúmulo. Cada impedimento só pode devolver pontos de Restrição uma vez.
+**Regra combinada.** Escolha uma aliada disposta que você veja a até 9 m. Uma plataforma a transporta por até 6 m, inclusive sobre um vão, e se desfaz ao colocá-la num espaço livre e apoiado que você veja. O percurso deve estar livre e a chegada deve comportar a aliada. Ela conserva os impedimentos que a impeçam de sair, como uma contenção da qual ainda precise escapar. A aplicação é automática para a aliada disposta e instantânea; ela não gasta outra ação para esse transporte.
+
+Paredes e barreiras impedem o percurso; os perigos da passagem usam suas regras normais. A capacidade atende uma aliada por aplicação. Alterar distâncias ou quantidade exige permissão expressa da ficha ou nova avaliação com o mestre.
+
+**Montagem de Classe 3.** Projétil (0) e a Melhoria própria Média (3) deixam saldo **9 − 0 − 3 = 6**, descartado. A ficha entrega somente o transporte definido, sem efeitos ou metros adicionais pela sobra. É uma Melhoria, nenhuma Restrição e **Ação Padrão e 9 PE** por uso, com o Selo da técnica.
+
+**Conferência.** Uma aliada a 6 m pode atravessar um vão de 3 m até um apoio válido. Se a chegada estiver ocupada ou exigir terminar suspensa no ar, essa proposta não permite o transporte. A ficha precisa conter as condições e os limites acordados antes do uso.
+
+##### Registro e repetição
+
+Antes de jogar, confira se a regra aprovada permite resolver a aplicação. Guarde sua comparação e justificativa de preço. Recursos e ações concedidos precisam estar definidos e pagos.
+
+**Repetir uma Melhoria própria depende de acordo com o mestre antes do uso.** Registrem quantas compras são permitidas, o preço de cada uma e o que cada repetição acrescenta. Cada compra paga e conta no limite normal, salvo exceção expressamente acordada.
+
+Compras com o mesmo benefício precisam de autorização para repetição, inclusive quando recebem nomes ou aparências diferentes. Uma parede e um bônus de Defesa oferecem proteções distintas e podem ser avaliados separadamente. Aplique as permissões de cada entrada e as regras de acúmulo. Cada impedimento só pode devolver pontos de Restrição uma vez.
 
 <!-- fonte:fundamento/lote-01/FUNDAMENTO.md#liberacao -->
 <a id="fundamento--liberacao"></a>
@@ -10113,6 +10384,7 @@ Preencha a ficha com as informações da tabela abaixo. Ela deve conter os dados
 | Alvos e alcance | Criaturas ou objetos permitidos; origem, distância, área e obstáculos. |
 | Requisitos | Selo, equipamento, preparação e condições de uso. |
 | Resolução | Bônus de ataque, TR e CD, ou aplicação automática. |
+| Funções e distribuição | Quais funções a ficha produz; pontos destinados a cada uma e valores das Melhorias. Nas mesclas ampliadas, a linha preparada para cada Classe. |
 | Resultado | Dano, cura, vida temporária e efeitos; o que ocorre no erro ou no sucesso do TR. |
 | Duração e saída | Momento de término, concentração, testes de saída e interrupções. |
 | Montagem | Forma, Melhorias, descontos, Restrições, gasto e devoluções aproveitadas, incluindo Toque. |
@@ -10135,26 +10407,50 @@ Guarde a versão conferida. Se uma mudança de regra exigir corrigir a montagem,
 <a id="fundamento--interfaces"></a>
 #### Caminhos e usos especiais
 
-**Ritual de Compartilhamento.** Essa regra copia uma parcela benéfica individual e seus benefícios para um aliado adicional, conforme seu procedimento no livro. Se Mais Um repartir a aplicação, use a menor parcela. A cópia deve vir de uma única origem e conservar os limites únicos das peças. O apoio coletivo fica fora dessa permissão. Técnica Marcial continua sem Ritual.
+Algumas capacidades alteram uma montagem ou copiam uma parcela dela. Consulte a regra da origem antes de aplicar essas exceções:
 
-**Remodelar**, do Emanador, trata Efeitos e Modificadores como Melhorias. Use os custos, limites e permissões da habilidade, incluindo a proibição de retirar Efeito Próprio. Uma troca durante a conjuração não permite inventar uma capacidade nova: as peças próprias precisam estar definidas e aprovadas antes do uso.
+| Capacidade e origem | Acesso | Relação com a montagem |
+|---|---|---|
+| [Compartilhamento, de Ritual](#ritual--rit-parcelas) | Ritual exige nível 10, Inteligência 5 e Técnica Inata. | Copia para um aliado adicional a parcela de cura ou vida temporária individual de uma única origem e seus benefícios. Com Mais Um, use uma das menores parcelas. Limites únicos permanecem; apoio coletivo fica fora da permissão. |
+| [Remodelar, do Emanador](#emanador--ema-remodelar) | Desdobramento Técnico, nível 2. | Troca uma Melhoria por outra compatível, com os pagamentos da habilidade. Efeitos e Modificadores contam como Melhorias. Efeito Próprio permanece na ficha. |
+| [Modulações Dominadas, do Emanador](#emanador--ema-modulacoes) | Escolhas nos níveis 2, 7, 15 e 23, com os requisitos de cada opção. | Forçar uma Modulação acrescenta a peça prevista pela opção e paga seu custo próprio. Divisão acrescenta Mais Um e usa sua repartição, inclusive numa aplicação sem dano. |
+| [Expressões Familiares, do Emanador](#emanador--ema-familiares) | Nível 7. | Prepara versões alternativas de dois feitiços conhecidos, por Remodelagem, com efeitos, dados e custos registrados. |
+| [Repertório Ampliado, da Invocação Principal](#evocador--ev-principal) | Trilha do Evocador, nível 2. | A ficha da principal tem cinco Famílias abertas, duas Livres, conforme os requisitos da Trilha. Use os descontos de entidade. |
+| [Famílias do Conjunto, de Múltiplas Invocações](#evocador--ev-multiplas) | Trilha do Evocador, nível 2. | Cada invocação tem quatro Famílias abertas, uma Livre, conforme a Trilha. Use os descontos de entidade. |
 
-Reduzir os dados durante uma Remodelagem não troca a opção de Controle registrada na ficha. Registre essa opção também nas versões alternativas preparadas, como **Expressões Familiares**, respeitando os limites da habilidade. **Modulações Dominadas** usa suas permissões específicas; **Divisão** segue Mais Um, inclusive para uma aplicação sem dano.
+Sem Técnica e Técnica Marcial não permitem aprender ou auxiliar Ritual. Uma alteração durante a conjuração também exige que qualquer peça própria já esteja definida e aprovada antes do uso.
 
-No Evocador, a **Invocação Principal** tem cinco Famílias abertas, duas delas Livres; **Múltiplas Invocações** tem quatro abertas, uma Livre. Use o desconto e as demais permissões da entidade.
+A redução de dados por Remodelagem conserva a opção de Controle registrada. Mantenha essa opção nas versões alternativas preparadas, respeitando as permissões da habilidade.
 
-**Liberação Máxima e Técnica Máxima** usam seus orçamentos, ações e requisitos próprios. Escolher ataque ou TR na montagem não dispensa a exigência de ataque de uma peça como Rajada nem torna o resultado automático.
+Liberação Máxima e Técnica Máxima usam seus próprios orçamentos, ações e requisitos. Escolher ataque ou TR na montagem conserva a exigência de ataque de Rajada e não torna o resultado automático.
 
 <a id="capitulo-11"></a>
 ## 11. Catálogo de criação
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#cat-catalogo -->
 <a id="catalogo--cat-catalogo"></a>
-O catálogo organiza as Melhorias em **Efeitos**, que acrescentam capacidades ao feitiço, e **Modificadores**, que alteram seu funcionamento. As duas seções usam o mesmo limite de compras. Escolha as opções necessárias à montagem; uma Melhoria própria também pode desempenhar qualquer desses papéis.
+O catálogo reúne as peças usadas para montar os feitiços. As **Melhorias** aparecem em dois grupos:
 
-A entrada de cada Melhoria informa sua Família, que determina o acesso e o desconto. Ao comprar a Melhoria, registre seus custos e descreva os efeitos que ela acrescenta à ficha, incluindo alvos, resolução e duração. Siga os gatilhos de cada peça: **Salto** leva uma parcela de dano a outro alvo; **Prende** cria uma contenção e exige sua própria aplicação. Dano parcial só aplica uma Melhoria quando a regra dela permitir.
+| Grupo de Melhorias | Para que serve | Exemplos |
+|---|---|---|
+| Efeitos | Acrescentar uma capacidade à aplicação. | Empurrão move o alvo; Guarda concede um bônus de Defesa. |
+| Modificadores | Alterar uma característica da aplicação. | Longe aumenta a distância; Maior amplia uma área existente. |
 
-Cada compra concede o efeito descrito na entrada. Para repeti-la, siga a permissão da peça ou o acordo de criação própria. Uma compra que acrescenta alvos conserva os demais limites da aplicação; repetição de dano e duração exigem suas próprias permissões. Talentos usam os espaços de repertório indicados em sua aquisição e conservam os custos de ação ou PE declarados na entrada.
+As compras dos dois grupos usam o **mesmo limite de Melhorias** da Classe. Uma Melhoria própria também participa dessa conta e pode produzir um efeito ou modificar a aplicação.
+
+##### Como ler uma entrada
+
+**Família** informa o acesso e o desconto. Se ela estiver Fechada, a compra fica impedida. Se for Livre, aplique o desconto ao preço da Melhoria, respeitando o mínimo de 1 ponto.
+
+**Preço** é o custo em pontos de montagem. Consulte os valores de Leve, Média e Pesada em [Pontos e preços](#fundamento--pontos). A entrada define seus requisitos e quantidades: Empurrão move até 6 m; Anteparo calcula a vida da parede pela Classe.
+
+**Repetição** segue a permissão da peça. Longe informa modalidades e quantas compras aceita; cada compra paga e ocupa uma vaga. Para repetir uma Melhoria própria, combine a permissão com o mestre antes do uso.
+
+Ao comprar, registre alvos, resolução e duração na ficha. Uma peça que aumenta alcance precisa ter um alvo ou origem cuja distância possa aumentar. Uma peça que amplia área precisa de uma região para ampliar. As permissões de Formas e Famílias continuam valendo.
+
+Siga os gatilhos de cada peça: **Salto** leva uma parcela de dano a outro alvo; **Prende** cria uma contenção e exige sua própria aplicação. Dano parcial só aplica uma Melhoria quando a regra dela permitir. Uma compra que acrescenta alvos conserva os limites das demais peças; repetição de dano e duração exigem suas próprias permissões.
+
+Para propor uma capacidade ausente, consulte [Efeito Próprio](#catalogo--melhoria-efeito-proprio). O catálogo também contém [Restrições](#catalogo--cat-restricoes), que devolvem pontos por exigências reais, e [Talentos](#catalogo--cat-talentos), capacidades adquiridas com as regras de repertório. Talentos conservam os custos de ação ou PE declarados em suas entradas.
 
 #### Regras compartilhadas das Famílias
 
@@ -10186,9 +10482,9 @@ Estas Melhorias ajudam criaturas dispostas por uma Forma que alcance seus alvos,
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#cat-efeitos -->
 <a id="catalogo--cat-efeitos"></a>
-### Efeitos: acrescentar uma função
+### Melhorias: Efeitos
 
-Escolha aqui o que a aplicação acrescenta: movimento, condição, proteção, informação ou outro resultado. Confira também a Família e os requisitos da entrada. A Forma precisa entregar o efeito ao alvo ou lugar apropriado.
+Escolha aqui as capacidades que a aplicação acrescenta, como movimento, condição, proteção ou informação. Confira a Família e os requisitos da entrada. A Forma precisa alcançar o alvo ou lugar apropriado. Cada compra ocupa uma vaga no limite de Melhorias da Classe.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#melhoria-passo -->
 <a id="catalogo--melhoria-passo"></a>
@@ -10536,9 +10832,9 @@ O dano enviado conserva o tipo e recebe as defesas do aliado. Ele não pode ser 
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#cat-modificadores -->
 <a id="catalogo--cat-modificadores"></a>
-### Modificadores: ajustar a aplicação
+### Melhorias: Modificadores
 
-Os Modificadores alteram características de uma aplicação existente. Confira o requisito de cada entrada antes de comprá-la: Maior exige uma área para ampliar. Rajada usa ataques com dados de dano. Mais Um acrescenta destinatários individuais conforme a distribuição de cada função.
+Estas Melhorias alteram características de uma aplicação existente. Cada compra participa do mesmo limite usado pelos Efeitos. Confira o requisito da entrada: Maior exige uma área para ampliar; Rajada usa ataques com dados de dano; Mais Um acrescenta destinatários individuais conforme a distribuição de cada função.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#melhoria-longe -->
 <a id="catalogo--melhoria-longe"></a>
@@ -10923,27 +11219,23 @@ A peça não adia as outras Melhorias. Mais Um divide a cura antes de guardá-la
 
 **Preço: definido com o mestre, antes da sessão.**
 
-Esta Melhoria cria uma capacidade que não existe no catálogo. Cada compra conta no limite normal de Melhorias da Classe, sem um limite adicional só para peças próprias.
+Esta Melhoria permite registrar uma capacidade que o catálogo não representa. Cada compra paga o preço acordado e conta no limite normal de Melhorias da Classe, sem uma cota adicional para peças próprias.
 
-Confira se uma entrada existente atende à proposta. Passo, por exemplo, permite um deslocamento durante a conjuração. Você pode adaptar a aparência desse movimento à técnica usando a mesma compra.
+Confira primeiro se uma entrada existente atende à ideia. Você pode adaptar a aparência de Passo para um deslocamento por fios, mantendo os efeitos e limites da peça. Quando faltar uma capacidade mecânica, escreva o resultado pretendido e faça a comparação com o mestre.
 
-##### Uma capacidade nova
+##### Campos da proposta
 
-Escreva o resultado, os alvos, a distância, a ação, a oposição e a duração. Indique também o que encerra o efeito e uma situação em que ele não funciona. Compare esses campos com as peças de função mais próxima; o mestre define o preço em pontos e registra o motivo na ficha.
+Registre o resultado, os alvos, a distância, a ação, a oposição e a duração. Indique o encerramento e uma situação em que o efeito não funciona. Compare com as peças de função mais próxima; o mestre define o preço e anota o motivo na ficha.
 
-Mestre e jogador escolhem a Família que melhor representa a função mecânica da proposta. Essa escolha determina o acesso e o desconto de Livre da rota. Se nenhuma Família for adequada, registrem o preço integral, sem desconto de Família. A criação deve respeitar as proibições das Famílias Fechadas. Quando houver benefícios independentes, pague e conte cada um. O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta.
+A Família escolhida representa a função mecânica e determina acesso e desconto. Se nenhuma servir, use o preço integral, sem desconto de Família. A proposta respeita a Descrição, a Regra do Fundamento e as Famílias Fechadas. Benefícios independentes pagam e contam separadamente, salvo redução específica de pontos ou de espaço autorizada pelo mestre após avaliar a proposta.
 
-**Repetir uma Melhoria própria depende de acordo com o mestre antes do uso.** Registrem quantas compras são permitidas, o preço de cada uma e o que cada repetição acrescenta. Aprovar a peça uma vez não aprova sua repetição. Cada compra paga e conta no limite normal, salvo exceção expressamente acordada.
+##### Repetição e limites
 
-Compras com o mesmo benefício precisam de autorização para repetição, inclusive quando recebem nomes ou aparências diferentes. Compare o funcionamento das propostas: uma parede e um bônus de Defesa oferecem proteções distintas e podem ser avaliados separadamente. Aplique as permissões de cada entrada e as regras de acúmulo. Cada impedimento só pode devolver pontos de Restrição uma vez.
+Repetir a compra exige acordo prévio sobre quantidade, preço e resultado de cada repetição. Cada compra paga e conta no limite normal, salvo exceção expressamente acordada. Nomes ou aparências diferentes conservam essa exigência quando o benefício é o mesmo. Aplique as regras de acúmulo e conte a devolução de cada impedimento de Restrição apenas uma vez.
 
-##### Limites da técnica
+Recursos e ações concedidos precisam estar definidos e pagos. A criação de entidades e os espaços do repertório seguem suas regras próprias. Uma capacidade com requisito de Técnica Máxima continua limitada a essa montagem, mesmo se seu preço couber numa Classe comum.
 
-A capacidade deve respeitar as funções permitidas pela Descrição e pela Regra do Fundamento. Qualquer recurso ou ação concedida precisa estar expressamente definido e pago. A aquisição de entidades e os espaços de repertório continuam seguindo suas próprias regras.
-
-> **Exemplo:** para transportar uma aliada sobre uma plataforma de papel, registre a distância percorrida e a quantidade de pessoas que ela suporta. Defina se o movimento depende do chão e como a plataforma interage com obstáculos. Use essas informações para resolver o deslocamento em jogo.
-
-Os procedimentos e os exemplos completos estão em **Efeitos próprios**, no Fundamento. A versão de Técnica Máxima usa seu orçamento e seus requisitos próprios; caber nos pontos de uma Classe comum não remove o requisito de Máxima.
+O procedimento acompanhado e a Travessia de papel estão em [Efeitos próprios](#fundamento--proprio), no Fundamento.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#cat-restricoes -->
 <a id="catalogo--cat-restricoes"></a>
@@ -11155,7 +11447,7 @@ Depois de três sessões em que o feitiço tenha sido usado, comparem a dificuld
 <a id="catalogo--cat-talentos"></a>
 ### Talentos e Regra Própria
 
-Os Talentos pagos usam as categorias, os requisitos e os espaços definidos em [Selo e Talentos](#fundamento--selo).
+Os Talentos pagos usam as categorias, os requisitos e os espaços definidos em [Capacidades da técnica](#fundamento-link-capacidades).
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#cat-passivas-1 -->
 <a id="catalogo--cat-passivas-1"></a>
@@ -11271,8 +11563,6 @@ Reserva Profunda concede um aumento permanente do PE máximo. A recuperação do
 <a id="catalogo--cat-regra-propria"></a>
 #### Regra Própria
 
-Você continua livre para criar com o mestre fora dos exemplos deste capítulo; os campos abaixo ajudam a registrar a proposta.
-
 Técnicas baseadas em aposta, contrato, julgamento ou obrigação podem ter uma **Regra Própria**, definida com o mestre antes da campanha. Ela é um Talento específico, com aquisição diferente das demais.
 
 | Categoria de Efeito | Nível mínimo | Espaços ocupados |
@@ -11283,30 +11573,11 @@ Técnicas baseadas em aposta, contrato, julgamento ou obrigação podem ter uma 
 
 Ao melhorar de Categoria de Efeito 2 para 3, ocupe somente **mais um espaço**. Regra Própria não conta no máximo de cinco Talentos pagos. O nome se refere a este efeito. A **Regra do Fundamento** continua sendo a frase que define o funcionamento da técnica inteira.
 
-##### Escreva o efeito
-
-Comece por uma frase que a mesa consiga aplicar. Depois registre alcance, alvos, consequência e prazo quando forem necessários. A Regra Própria precisa cumprir estas condições:
-
-- **Gatilho verificável.** O grupo identifica quando acontece.
-- **Simetria.** A mesma consequência pode valer contra você, nas mesmas condições.
-- **Sem dano direto.** Ela pode produzir um recurso, uma condição ou uma obrigação com funcionamento definido.
-- **Limite por cena.** Escreva quantas vezes a consequência pode ser aplicada.
-
-Compare seu resultado com os Talentos da mesma Categoria. Uma frase como “o alvo fica ligado a mim” ainda precisa dizer o que a ligação faz, quem afeta, quanto dura e como termina. A simetria e o limite não tornam qualquer consequência adequada à Categoria de Efeito 1.
-
-##### Exemplo: aposta entre dois
-
-**Regra:** uma vez por cena, quando você e outra criatura aceitarem uma aposta sobre uma disputa real entre ambos, quem vencer recebe vantagem no próximo teste que fizer antes do fim da cena.
-
-Os dois precisam entender e aceitar a aposta antes da disputa. Registrem um resultado que possa ser verificado e mantenham a disputa genuína, com o vencedor ainda por decidir. Empate consome a aposta da cena sem conceder vantagem. As ações disponíveis e os testes já resolvidos permanecem inalterados. Esta proposta original de **Categoria de Efeito 1** depende da aprovação da mesa.
-
-Uma regra que imponha uma condição a alguém contra a vontade precisa declarar sua defesa ou seu TR, a CD, a duração e a saída. Não basta escrever a obrigação na narrativa para retirar as ações de outra criatura.
+Veja **[Criar uma Regra Própria](#fundamento-link-criar-regra-propria)**, em Fundamento, para o procedimento, os critérios e o exemplo de aposta.
 
 <!-- fonte:catalogo/lote-01/CATALOGO.md#cat-passiva-propria -->
 <a id="catalogo--cat-passiva-propria"></a>
 #### Talento Próprio
-
-Você continua livre para criar com o mestre fora dos exemplos deste capítulo; os campos abaixo ajudam a registrar a proposta.
 
 **Categoria de Efeito 1, 2 ou 3. Custos e níveis da Categoria escolhida.** Se o catálogo não representar a ideia, escreva o efeito com o mestre antes da sessão. Ele ocupa os espaços correspondentes e conta no máximo de cinco Talentos pagos.
 
@@ -11344,7 +11615,7 @@ Revestir uma arma de energia, recompor um ferimento e levantar uma barreira são
 
 #### Treinamento e energia
 
-Quem tem energia amaldiçoada começa com **Cobrir-se de Energia** e **Canalizar Energia**, sem gastar uma escolha. As demais aptidões são adquiridas pela opção Refino dos marcos, salvo uma concessão específica da criação do personagem.
+Quem tem energia amaldiçoada começa com **[Cobrir-se de Energia](#aptidoes--apt-cobrir)**, que fornece proteção e uma Reação para reduzir dano, e **[Canalizar Energia](#aptidoes--apt-canalizar)**, que permite aos golpes físicos ferir maldições e lhes acrescenta dano conforme suas regras. Essas duas aptidões não gastam uma escolha. As demais são adquiridas pela opção Refino dos marcos, salvo uma concessão específica da criação do personagem.
 
 Uma aptidão não ocupa espaço de feitiço conhecido. Aprender uma também não cria um feitiço com o mesmo efeito. Use a ação, o custo, o alcance e a resolução escritos na entrada. Melhorias e Restrições do Fundamento não modificam uma aptidão por conta própria.
 
@@ -11369,6 +11640,8 @@ Os ganhos de Corpo, Leque e dos espaços conhecidos ficam em **Progressão**.
 #### Escolhas e requisitos
 
 Uma aptidão comprada não se repete, salvo permissão expressa. Quando receber duas escolhas, resolva-as em ordem: a primeira pode atender ao requisito da segunda. Não use uma compra futura para justificar a atual.
+
+> **Primeiro marco.** Com Refino 1 antes do nível 6, Haru recebe o ganho comum e chega a 2. Se escolher Refino, chega a 3 e aprende uma aptidão cujos requisitos cumpra. Se escolher Corpo ou Leque, conserva Refino 2 e recebe os benefícios daquela opção.
 
 > **Exemplo.** Haru tem Refino 9 antes do nível 22. O aumento básico o leva a 10. Ele escolhe Refino e aprende duas aptidões cujos requisitos consegue cumprir. Não recebe Refino 11.
 
@@ -11899,6 +12172,7 @@ Sua Origem indica as rotas disponíveis. Confira essa escolha em [Origens](#orig
 | Técnica Marcial | Restrição Celestial sem energia. | Katas. | Lapidação e Bênçãos. |
 | Sem Técnica | Latente, Receptáculo, Descendente, Encarnado ou Híbrido que escolha essa opção separada. | Manejos. | Refino e aptidões. |
 
+<a id="rotas-link-montagem"></a>
 #### Como montar Manejos e Katas
 
 Use esta sequência depois de escolher sua rota. Consulte [Montar sua aplicação](#fundamento--fundamento) para as tabelas e as regras de cada escolha.
@@ -13036,7 +13310,7 @@ Técnica Máxima pode receber Ritual completo, preservando seu custo, recarga e 
 
 Cada benefício abaixo vale para a conjuração ritualizada. Acerto, Dificuldade, Alcance, Tamanho e Rerrolagem permitem **até duas compras cada**. As outras onze entradas só podem ser escolhidas uma vez. Os preços são fixos e não recebem descontos de Família.
 
-Uma Melhoria exige a parte do feitiço que ela altera. Acerto precisa de ataque, Dificuldade precisa de TR, Tamanho precisa de área. **Toque conserva 1,5 m**, e uma área centrada em você continua tendo essa origem. A Forma Efeito não ritualiza.
+Uma Melhoria exige a parte do feitiço que ela altera. Acerto precisa de ataque, Dificuldade precisa de TR, Tamanho precisa de área. **Toque conserva 1,5 m**, e uma área centrada em você continua tendo essa origem. Aplicações do procedimento de [Efeito fora de combate](#fundamento--efeito) não recebem Ritual.
 
 | Melhoria | Benefício | Pontos | Repete |
 |---|---|---:|---|
@@ -13054,6 +13328,8 @@ Uma Melhoria exige a parte do feitiço que ela altera. Acerto precisa de ataque,
 **Alcance e Tamanho:** duas compras sobem **dois degraus** nas respectivas escalas.
 
 **Energia:** aplique descontos fixos antes das reduções à metade, com custo positivo mínimo de 1 PE. Benefícios repetidos de Defesa não se somam entre si.
+
+> **Uma escolha de Ritual.** Kaito prepara um Ritual breve para um Projétil com alcance de 18 m. Seus 2 Pontos de Ritual compram Ritual de Alcance uma vez. No sucesso do teste de Ritual, o alcance passa a 36 m naquela conjuração, conforme a escada de Fundamento. O feitiço continua com a mesma ficha de montagem.
 
 <!-- fonte:ritual-e-pactos/lote-01/RITUAL-E-PACTOS.md#rit-beneficios -->
 <a id="ritual--rit-beneficios"></a>
@@ -13401,7 +13677,7 @@ A aquisição e a montagem definem quais entidades você possui e o que cada uma
 
 Anote cada corpo separadamente: vida, condições, Movimento restante, básica disponível, tarefa e usos já gastos. Todas as entidades compartilham uma Reação coletiva. Sua Reação pessoal permanece separada.
 
-> **Primeiro combate.** Kaito começa com duas entidades de nível 5 já manifestadas e orientadas. Uma usa sua básica. Ele comanda a especial da outra com sua Padrão; ela gasta a própria básica e os 6 PE da especial de Classe 2. A Bônus de Kaito continua disponível para outra finalidade.
+> **Primeiro combate.** Kaito começa com duas entidades de técnica de nível 5 já manifestadas e orientadas. O cão usa sua atuação básica para atacar. Depois, Kaito gasta a própria Ação Padrão para comandar uma especial de Classe 2 da ave: ela gasta sua atuação básica e Kaito paga os 6 PE da especial. A Ação Bônus de Kaito continua disponível.
 
 <!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-ciclo -->
 <a id="campo--inv-ciclo"></a>
@@ -13825,7 +14101,7 @@ Comande com sua **Ação Completa** e gaste a básica da domada. Divida o PE com
 
 O sucesso num TR reduz o dano em um quarto, pelo procedimento comum da Máxima. Uma aplicação de cura usa os dados próprios desta tabela. Uma aplicação sem dano exige seu efeito escrito e delimitado antes da sessão; não transforma dados em qualquer benefício escolhido no momento.
 
-> **Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo. Uma Forma de cura usa 19d8. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
+> **Exemplo.** A domada de nível 17 causa 19d8 numa montagem ofensiva válida. Paga 25 PE: 13 de Kaito e 12 da reserva, quando houver saldo. Uma aplicação de cura usa 19d8. Uma Máxima pessoal da mesma faixa usa outra escala; a domada não recebe esses dados maiores.
 
 <!-- fonte:invocacoes/lote-01/INVOCACOES-EM-CAMPO.md#inv-dominio -->
 <a id="campo--inv-dominio"></a>
@@ -13979,6 +14255,10 @@ Essas regras valem para recolhimento, queda e fim da manifestação de quem é r
 Um cão que fareja vestígios de energia, um boneco que protege uma entrada ou uma maldição capturada têm algo em comum: são **entidades**, criaturas com ficha própria. Este capítulo explica como adquiri-las e preparar as fichas das entidades. **Invocações em campo** reúne as regras de manifestação, comando, recuperação e morte.
 
 Comece pelo trabalho que a entidade terá na equipe. Ela pode lutar, investigar, transportar ou apoiar. Escolher uma função ajuda a decidir suas características sem precisar examinar todo o catálogo de uma vez.
+
+Antes das escolhas, confira os termos usados no roteiro. **Famílias** agrupam os efeitos e as Melhorias disponíveis à entidade. Uma Família **aberta** permite os acessos descritos em suas regras; a escolhida como **Livre** também concede o desconto próprio das entidades. As demais ficam Fechadas. O [quadro de Famílias da entidade](#construcao--entidades-familias) apresenta os nove grupos e seus custos.
+
+A **básica** é uma capacidade de Classe 0, sem custo de PE. Uma **especial** é uma capacidade montada para execução por comando. **Talentos** são benefícios adquiridos pela progressão própria da entidade. Em campo, o comando comum de uma especial usa a Padrão do invocador e a atuação básica da entidade, conforme [Invocações em campo](#campo--inv-especial).
 
 #### Etapas da ficha
 
@@ -14894,6 +15174,8 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Duração](#fundamento--conjurar). Prazo de um efeito, com participante e evento de término definidos.
 
+[Efeito Próprio](#catalogo--melhoria-efeito-proprio). Melhoria criada com o mestre para uma capacidade que o catálogo não representa. Paga seu preço e ocupa uma compra no limite de Melhorias da Classe.
+
 [Entidade](#construcao--entidades-criar). Criatura com ficha própria, obtida por uma forma de aquisição de Invocações.
 
 [Espaço conhecido](#fundamento--repertorio). Vaga ocupada por uma aplicação ou opção expressamente permitida. Permanece ocupada entre conjurações.
@@ -14956,7 +15238,7 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 
 [Marco](#progressao--prog-marcos). Nível que entrega escolhas adicionais de progressão, conforme as opções e condições de Progressão.
 
-[Melhoria](#fundamento--pontos). Peça comprada na montagem para alterar a aplicação ou acrescentar um efeito permitido.
+[Melhoria](#fundamento--pontos). Peça comprada na montagem. O Catálogo organiza Melhorias em Efeitos, que acrescentam capacidades, e Modificadores, que alteram a aplicação. Ambos usam o mesmo limite de compras.
 
 [Morrendo](#dano--zero). Condição de quem caiu a zero de vida, resolvida pelo tratamento e pela janela de socorro de Vida a zero.
 
@@ -14995,6 +15277,8 @@ Quando uma campanha incluir personagens ou acontecimentos da obra, combinem a é
 [Refino](#aptidoes--apt-refino). Progressão de controle de energia amaldiçoada, usada por aptidões e requisitos específicos.
 
 [Regra da técnica](#fundamento--tecnica). Frase que delimita o poder e orienta quais aplicações cabem em seu conceito.
+
+[Regra Própria](#catalogo--cat-regra-propria). Talento específico para técnicas baseadas em aposta, contrato, julgamento ou obrigação. Sua versão inicial é de Categoria de Efeito 1 e não ocupa espaço; as versões superiores seguem a progressão da entrada.
 
 [Restrição](#fundamento--restricoes). Exigência da montagem que pode devolver pontos quando impõe uma limitação válida.
 
@@ -15179,7 +15463,7 @@ Ao sofrer dano, siga Dano e Recuperação para os recursos atingidos, a queda e 
 
 [Aura](#fundamento--formas)
 
-[Aviso (Melhoria; nome anterior)](#catalogo--cat-marca-recursos)
+[Aviso (Melhoria; nome anterior)](#catalogo--melhoria-identificar-feitico)
 
 [Aviso (Talento; nome anterior)](#catalogo--cat-passivas-1)
 
@@ -15205,7 +15489,7 @@ Ao sofrer dano, siga Dano e Recuperação para os recursos atingidos, a queda e 
 
 [Carregar](#catalogo--restricao-carregar)
 
-[Carregar (Restrição)](#indice-r37-06)
+[Carregar (Restrição)](#catalogo--restricao-carregar)
 
 [Catalisador](#emanador--ema-impulso)
 
@@ -15243,7 +15527,7 @@ Ao sofrer dano, siga Dano e Recuperação para os recursos atingidos, a queda e 
 
 [Concentração](#geral--concentracao)
 
-[Concentrada](#catalogo--cat-tempo-duracao)
+[Concentrada](#catalogo--melhoria-concentrada-duradoura)
 
 [Concentrada / Duradoura](#catalogo--melhoria-concentrada-duradoura)
 
@@ -15313,11 +15597,11 @@ Ao sofrer dano, siga Dano e Recuperação para os recursos atingidos, a queda e 
 
 [Duração](#fundamento--conjurar)
 
-[Duradoura](#catalogo--cat-tempo-duracao)
+[Duradoura](#catalogo--melhoria-concentrada-duradoura)
 
 [Ecoa](#catalogo--melhoria-ecoa)
 
-[Efeito](#fundamento--amparoformas)
+[Efeito fora de combate](#fundamento--efeito)
 
 [Efeito Próprio](#catalogo--melhoria-efeito-proprio)
 

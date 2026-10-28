@@ -1,0 +1,1 @@
+Scripts da composição R58 preservados como registro. Ambiente completo de geração: /home/mizuki/CHAT-GPT/RPG -JJK/desenvolvimento-fundamentos/revisao-didatica-r57-v1/integracao-r58/composicao. Os scripts dependem dos recursos e módulos desse ambiente; esta pasta não é um pacote autônomo de geração.

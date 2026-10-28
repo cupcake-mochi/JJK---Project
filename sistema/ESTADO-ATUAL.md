@@ -1,3 +1,9 @@
+# Edição corrente R58
+
+Fundamento e Catálogo aprovados integrados aos dois PDFs de 420 páginas. A revisão editorial registra 45 blocos alterados, preservando as regras. A ordem de composição acompanha a fonte aprovada e apresenta a Regra Própria antes do primeiro feitiço. A cadeia de integridade cobre R52 a R58. A revisão estrutural adicional por capítulo está em andamento.
+
+## Histórico
+
 # Edição corrente R57
 
 **Versão v0.367.**
