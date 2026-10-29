@@ -1275,7 +1275,10 @@ else:
     # isso que se cobra, contra a tabela de Familias dele.
     _n_melhorias = sum(1 for d in CAT.values() if d['tipo'] == 'Melhoria')
     _nf = len(livro.familias())
-    if 'resumo das nove Famílias' not in _LIVRO_F or _nf != 9:
+    # R58: "o resumo das nove Famílias" saiu na revisão didática. O total vem da escolha
+    # da criação, que reparte todas: duas Livres + três Fechadas + quatro restantes.
+    _rep = re.search(r'escolha duas Famílias Livres e três Fechadas\. As quatro restantes', _LIVRO_F)
+    if not _rep or _nf != 2 + 3 + 4:
         _erro_n(f'o livro parou de dizer que as Melhorias "se dividem em nove Famílias", ou a tabela tem {_nf}')
     _mc = None
 if _ok4n:
@@ -1337,7 +1340,7 @@ else:
 # --- o `Efeito Próprio` conta como Melhoria ---
 # no livro (dono): na entrada do Catalogo e na tabela de limite do Fundamento
 for _rot, _txt, _frase in (('a entrada do Catalogo', livro.limpa(CAT.get('Efeito Próprio', {}).get('texto', '')),
-                            'Cada compra conta no limite normal de Melhorias da Classe'),
+                            'conta no limite normal de Melhorias da Classe'),
                            ('a regra do limite no Fundamento', livro.limpa(_TXT['fundamento']),
                             'incluindo Efeito Próprio')):
     if _frase not in _txt:
@@ -1373,7 +1376,7 @@ for _onde, _txt in (('o capitulo 9 do livro', _c9m),):
 # saiu do livro, e nao pode voltar sem a decisao mudar.
 for _frase in ('Reunir duas Melhorias em uma descrição conserva o custo e a contagem de ambas',
                'O mestre pode autorizar uma redução específica de pontos ou de espaço após avaliar a proposta',
-               'Uma compra que acrescenta alvos conserva os demais limites da aplicação'):
+               'Uma compra que acrescenta alvos conserva os limites das demais peças'):
     if _frase not in _LIVRO_F:
         _erro_o(f'o livro nao diz mais "{_frase}" — e a regra do combo, sem ela a ficha junta duas Melhorias por uma')
 if 'Reunir duas Melhorias sob um nome não reduz seu preço nem a quantidade ocupada' in _LIVRO_F:

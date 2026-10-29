@@ -1981,6 +1981,8 @@ else:
         if not _l.startswith('|'):
             break
         _c = [x.strip() for x in _l.strip('|').split('|')]
+        # R59: o nome da Bênção virou link para a rota; o nome é o texto do link.
+        _c[0] = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', _c[0])
         _livro91[_c[0]] = (_c[1], _gate91(_c[2]))
     if _j91 < 0 or not _livro91:
         erro('9.1: nao li a tabela "Escolhas disponiveis" do R41')

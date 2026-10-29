@@ -1,0 +1,153 @@
+[
+  {
+    "etapa": "revisao-capitulo05",
+    "alteracao": {
+      "elemento": "Ilustração de abertura de Origens",
+      "antes": "108 mm de largura",
+      "depois": "88 mm de largura, com proporção e recorte preservados",
+      "motivo": "Acomodar a contextualização anterior à tabela sem reduzir letras nem invadir o rodapé."
+    }
+  },
+  {
+    "etapa": "revisao-capitulo06c-guia",
+    "alteracao": {
+      "elemento": "Abertura de Obras de Apoio",
+      "antes": "Título e escolha do atributo podiam ficar separados do procedimento de criação pela virada de página.",
+      "depois": "Título, escolha do atributo e criação da obra permanecem na mesma coluna.",
+      "motivo": "Apresentar a primeira capacidade do Arquiteto com seu funcionamento básico.",
+      "arquivo": "composicao/fluxo_continuo.py"
+    }
+  },
+  {
+    "etapa": "revisao-capitulo06c-guia",
+    "alteracao": {
+      "elemento": "Títulos de Leitura de Equipe e Obras maiores",
+      "alteracoes": [
+        {
+          "titulo": "Leitura de Equipe",
+          "antes": "subtopico",
+          "depois": "entrada",
+          "motivo": "Identificação visual de habilidade com nível próprio e linha na tabela de progressão."
+        },
+        {
+          "titulo": "Obras maiores",
+          "antes": "grupo",
+          "depois": "entrada",
+          "motivo": "Identificação visual de habilidade com nível próprio e linha na tabela de progressão."
+        }
+      ],
+      "arquivo": "composicao/titulos_intermediarios.py",
+      "observacao": "A classificação efetiva é aplicada na instalação dos estilos, após o carregamento da base que reconstrói o arquivo CLASSIFICACAO.json."
+    }
+  },
+  {
+    "etapa": "revisao-capitulo06d-emanador",
+    "alteracao": {
+      "elemento": "Artes de Cadência e Reduções de custo",
+      "arquivo": "composicao/titulos_intermediarios.py",
+      "motivo": "Distinguir escolhas de Artes do Vínculo e o procedimento geral de descontos das habilidades com nível próprio."
+    }
+  },
+  {
+    "etapa": "revisao-capitulo06e-evocador",
+    "alteracao": {
+      "elemento": "Concessões de aprimoramentos e intervenções; exemplo de troca de aprimoramento",
+      "arquivo": "composicao/titulos_intermediarios.py",
+      "motivo": "Distinguir habilidades com nível próprio, procedimentos e exemplos, preservando a hierarquia aprovada."
+    }
+  },
+  {
+    "etapa": "revisao-capitulo06f-incursor",
+    "alteracao": {
+      "elemento": "Rajada Marcial, Fluidez no nível 7, pagamento das execuções e resolução de Redirecionar a Força",
+      "arquivo": "composicao/titulos_intermediarios.py",
+      "motivo": "Distinguir evoluções, instruções comuns e resolução das habilidades, preservando a hierarquia aprovada."
+    }
+  },
+  {
+    "etapa": "revisao-capitulo06f-incursor",
+    "alteracao": {
+      "elemento": "Cabeçalho da resolução de Redirecionar a Força",
+      "arquivo": "composicao/gerar_livro.py",
+      "motivo": "Conservar Incursor / Pugilista no contexto da coluna e no cabeçalho da página, incluindo a parte final da habilidade."
+    }
+  },
+  {
+    "etapa": "revisao-capitulo07",
+    "alteracao": {
+      "elemento": "Legenda da abertura de Perícias e Ofícios",
+      "arquivo": "composicao/fluxo_continuo.py",
+      "motivo": "Suprimir a legenda redundante Perícias e Ofícios / 7. Perícias e Ofícios sob a abertura do próprio capítulo, preservando os títulos e o texto."
+    }
+  },
+  {
+    "etapa": "revisao-capitulo08",
+    "alteracao": {
+      "elemento": "Explicação de distância",
+      "arquivo": "composicao/titulos_intermediarios.py",
+      "motivo": "Apresentar a leitura das faixas como orientação comum às propriedades, com estilo de subtópico."
+    }
+  },
+  {
+    "etapa": "revisao-capitulo08",
+    "alteracao": {
+      "elemento": "Legenda da abertura de Equipamento",
+      "arquivo": "composicao/fluxo_continuo.py",
+      "motivo": "Suprimir a repetição Equipamento / 8. Equipamento logo abaixo do título do próprio capítulo."
+    }
+  },
+  {
+    "etapa": "revisao-capitulo09",
+    "alteracao": {
+      "elemento": "Tabela de Experiência semanal",
+      "arquivo": "composicao/fluxo_continuo.py",
+      "antes": "Abertura e tabela semanal inteira indivisíveis, deixando um vão na coluna anterior.",
+      "depois": "Título, introdução e primeiras duas linhas juntos; demais linhas podem continuar na outra coluna com cabeçalho repetido.",
+      "motivo": "Reduzir o vão entre as colunas sem separar título e explicação, alterar valores ou reduzir fontes. Exceção limitada à tabela semanal."
+    }
+  },
+  {
+    "etapa": "revisao-capitulo12",
+    "alteracao": "ajustes"
+  },
+  {
+    "etapa": "revisao-capitulo12",
+    "alteracao": "resultado"
+  },
+  {
+    "etapa": "revisao-capitulo12",
+    "alteracao": "espacos_preservados"
+  },
+  {
+    "etapa": "revisao-capitulo13",
+    "alteracao": "ajustes"
+  },
+  {
+    "etapa": "revisao-capitulo13",
+    "alteracao": "resultado"
+  },
+  {
+    "etapa": "revisao-capitulo13",
+    "alteracao": "espacos_preservados"
+  },
+  {
+    "etapa": "revisao-capitulo14",
+    "alteracao": {
+      "elemento": "Encerramento e Rescaldo",
+      "arquivo": "composicao/fluxo_continuo.py",
+      "antes": "A abertura era unida à primeira subseção e seu parágrafo inicial; a combinação impedia um corte equilibrado entre as colunas.",
+      "depois": "A abertura e a primeira subseção podem ocupar colunas diferentes. Cada título continua acompanhado do seu primeiro parágrafo.",
+      "motivo": "Reduzir o vão na coluna de Mover o domínio sem alterar o texto, as tabelas, fontes ou tamanhos. Exceção restrita ao bloco poderes--rescaldo."
+    }
+  },
+  {
+    "etapa": "revisao-capitulo17",
+    "alteracao": {
+      "bloco": "fabricacao--fab-entidades",
+      "antes": "Agrupamento da abertura com o primeiro subtítulo força toda a Criação de entidades para a coluna direita. Ocupação na página 404: 0,52 esquerda e 0,90 direita.",
+      "depois": "Abertura conserva o primeiro parágrafo; o primeiro subtítulo pode seguir em outra coluna.",
+      "motivo": "Permitir equilíbrio sem separar título e explicação inicial.",
+      "resultado": "Página 404: ocupação final aproximada de 0,99 na esquerda e 0,95 na direita. Título e primeiro parágrafo permanecem juntos; Teste de criação inicia na coluna seguinte."
+    }
+  }
+]

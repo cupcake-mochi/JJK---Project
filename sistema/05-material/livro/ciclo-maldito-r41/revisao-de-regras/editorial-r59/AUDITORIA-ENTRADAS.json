@@ -1,0 +1,5400 @@
+[
+  {
+    "termo": "Abre Ferida",
+    "destino": "catalogo--melhoria-abre-ferida",
+    "bloco": "catalogo--melhoria-abre-ferida",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Abre Ferida"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ação",
+    "destino": "geral--turnos",
+    "bloco": "geral--turnos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Turnos",
+      "Iniciativa",
+      "Recursos do turno",
+      "Conversão de ações",
+      "Movimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ação Bônus",
+    "destino": "geral--turnos",
+    "bloco": "geral--turnos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Turnos",
+      "Iniciativa",
+      "Recursos do turno",
+      "Conversão de ações",
+      "Movimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ação Completa",
+    "destino": "geral--turnos",
+    "bloco": "geral--turnos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Turnos",
+      "Iniciativa",
+      "Recursos do turno",
+      "Conversão de ações",
+      "Movimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ação de Movimento",
+    "destino": "geral--turnos",
+    "bloco": "geral--turnos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Turnos",
+      "Iniciativa",
+      "Recursos do turno",
+      "Conversão de ações",
+      "Movimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ação Padrão",
+    "destino": "geral--acoes",
+    "bloco": "geral--acoes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ações",
+      "Usar a ação adequada",
+      "Conjuração",
+      "Equipamento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Acerto do domínio",
+    "destino": "poderes--acerto",
+    "bloco": "poderes--acerto",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Acerto do domínio",
+      "Completa",
+      "Incompleta"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Acúmulo",
+    "destino": "catalogo--melhoria-acumulo",
+    "bloco": "catalogo--melhoria-acumulo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Acúmulo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Afinidade",
+    "destino": "indice-r59-afinidade",
+    "bloco": "catalogo--cat-passivas-3",
+    "cabecalho_preciso": "Afinidade",
+    "titulos_da_secao": [
+      "Talentos de Categoria 3",
+      "Escama",
+      "Afinidade",
+      "Reserva Profunda"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Agarrado",
+    "destino": "indice-r55-01",
+    "bloco": "dano--leves",
+    "cabecalho_preciso": "Agarrado",
+    "titulos_da_secao": [
+      "Condições leves",
+      "Lento",
+      "Guarda Aberta",
+      "Derrubado",
+      "Agarrado",
+      "Desarmado",
+      "Surdo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Agarrar",
+    "destino": "geral--manobras",
+    "bloco": "geral--manobras",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Agarrar, derrubar e empurrar",
+      "Faça a manobra",
+      "Mãos, armas e alcance"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ágil (nome anterior)",
+    "destino": "incursor--inc-caminho",
+    "bloco": "incursor--inc-caminho",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Incursor",
+      "Características",
+      "Progressão do Caminho"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Aguentar",
+    "destino": "indice-especifico-01",
+    "bloco": "dano--zero",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Vida a zero",
+      "Contagem da janela",
+      "Aguentar"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ajudar",
+    "destino": "geral--ajudar",
+    "bloco": "geral--ajudar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ajudar",
+      "Ajudar num teste",
+      "Ajudar num ataque"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Alcance",
+    "destino": "fundamento--alcance",
+    "bloco": "fundamento--alcance",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Alcance e área",
+      "Aumentos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Alcance (Família)",
+    "destino": "fundamento-link-guia-familias",
+    "bloco": "fundamento--fundamento",
+    "cabecalho_preciso": "Conheça as Famílias",
+    "titulos_da_secao": [
+      "Criar sua técnica"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Aliança",
+    "destino": "indice-r59-alianca",
+    "bloco": "rotas--rota-passivas-resposta",
+    "cabecalho_preciso": "Aliança",
+    "titulos_da_secao": [
+      "Talentos de resposta",
+      "Segundo Fôlego",
+      "Contragolpe",
+      "Aliança"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Alvo de Caça",
+    "destino": "catalogo--melhoria-alvo-de-caca",
+    "bloco": "catalogo--melhoria-alvo-de-caca",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Alvo de Caça"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Amedrontado",
+    "destino": "indice-r37-01",
+    "bloco": "dano--pesadas",
+    "cabecalho_preciso": "Amedrontado",
+    "titulos_da_secao": [
+      "Condições pesadas",
+      "Impedido",
+      "Cego",
+      "Amedrontado",
+      "Envenenado",
+      "Atordoado",
+      "Testes de saída"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Amparo (Família)",
+    "destino": "fundamento-link-guia-familias",
+    "bloco": "fundamento--fundamento",
+    "cabecalho_preciso": "Conheça as Famílias",
+    "titulos_da_secao": [
+      "Criar sua técnica"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Ampliar",
+    "destino": "fundamento--ampliar",
+    "bloco": "fundamento--ampliar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ampliar um feitiço",
+      "Corte Medido",
+      "Medidas e limites",
+      "Mesclas em Classes maiores",
+      "Nova versão"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Analista",
+    "destino": "guia--guia-analista",
+    "bloco": "guia--guia-analista",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Analista",
+      "Progressão da Trilha",
+      "Ler a Resposta"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Antecipar",
+    "destino": "indice-r59-antecipar",
+    "bloco": "rotas--rota-combate",
+    "cabecalho_preciso": "Antecipar",
+    "titulos_da_secao": [
+      "Bênçãos de combate",
+      "Esteio",
+      "Antecipar",
+      "Represália",
+      "Sangue Frio",
+      "Campo",
+      "Assombro"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Anteparo",
+    "destino": "catalogo--melhoria-anteparo",
+    "bloco": "catalogo--melhoria-anteparo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Anteparo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Aparar",
+    "destino": "indice-r55-02",
+    "bloco": "geral--aparar",
+    "cabecalho_preciso": "Aparar",
+    "titulos_da_secao": [
+      "Aparar e Brecha",
+      "Aparar",
+      "Brecha",
+      "Ataques de resposta"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Aptidão",
+    "destino": "aptidoes--apt-refino",
+    "bloco": "aptidoes--apt-refino",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Treinamento e energia",
+      "Valores da ficha"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Aptidão Própria",
+    "destino": "aptidoes--apt-propria",
+    "bloco": "aptidoes--apt-propria",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Aptidão Própria",
+      "Limites",
+      "Exemplos"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Aquecer",
+    "destino": "catalogo--restricao-aquecer",
+    "bloco": "catalogo--restricao-aquecer",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Aquecer"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Área",
+    "destino": "fundamento--alcance",
+    "bloco": "fundamento--alcance",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Alcance e área",
+      "Aumentos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Área (Família)",
+    "destino": "fundamento-link-guia-familias",
+    "bloco": "fundamento--fundamento",
+    "cabecalho_preciso": "Conheça as Famílias",
+    "titulos_da_secao": [
+      "Criar sua técnica"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Armado",
+    "destino": "catalogo--melhoria-armado",
+    "bloco": "catalogo--melhoria-armado",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Armado"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Arquiteto",
+    "destino": "guia--guia-arquiteto",
+    "bloco": "guia--guia-arquiteto",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Arquiteto",
+      "Progressão da Trilha",
+      "Obras de Apoio"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Arredondamento",
+    "destino": "indice-r37-03",
+    "bloco": "geral--pericias",
+    "cabecalho_preciso": "Arredondamento",
+    "titulos_da_secao": [
+      "Treino e modificadores",
+      "Especialização",
+      "Vantagem e desvantagem",
+      "Arredondamento",
+      "Testes de grupo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Assassino",
+    "destino": "incursor--inc-assassino",
+    "bloco": "incursor--inc-assassino",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Assassino",
+      "Progressão da Trilha",
+      "Alvo Estudado"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Assinatura",
+    "destino": "catalogo--restricao-assinatura",
+    "bloco": "catalogo--restricao-assinatura",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Assinatura"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Assombro",
+    "destino": "indice-r59-assombro",
+    "bloco": "rotas--rota-combate",
+    "cabecalho_preciso": "Assombro",
+    "titulos_da_secao": [
+      "Bênçãos de combate",
+      "Esteio",
+      "Antecipar",
+      "Represália",
+      "Sangue Frio",
+      "Campo",
+      "Assombro"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Atacar",
+    "destino": "geral--ataques",
+    "bloco": "geral--ataques",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ataques",
+      "Ação Atacar",
+      "Resolução",
+      "Bônus de ataque",
+      "Feitiços"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ataque",
+    "destino": "geral--ataques",
+    "bloco": "geral--ataques",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ataques",
+      "Ação Atacar",
+      "Resolução",
+      "Bônus de ataque",
+      "Feitiços"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ataque sem Prenúncio",
+    "destino": "origens--restricao-prenuncio",
+    "bloco": "origens--restricao-prenuncio",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ataque sem Prenúncio",
+      "Antecipação e bloqueio",
+      "Estudar a execução",
+      "Memória entre encontros"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Atordoado",
+    "destino": "indice-r37-04",
+    "bloco": "dano--pesadas",
+    "cabecalho_preciso": "Atordoado",
+    "titulos_da_secao": [
+      "Condições pesadas",
+      "Impedido",
+      "Cego",
+      "Amedrontado",
+      "Envenenado",
+      "Atordoado",
+      "Testes de saída"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Atrasar",
+    "destino": "catalogo--restricao-atrasar",
+    "bloco": "catalogo--restricao-atrasar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Atrasar"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Atributo",
+    "destino": "geral--atributos",
+    "bloco": "geral--atributos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Atributos",
+      "Maestria",
+      "Dados e bônus"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Atuação básica",
+    "destino": "campo--inv-basica",
+    "bloco": "campo--inv-basica",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Atuação básica"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Auge",
+    "destino": "rotas--rota-sem-tecnica",
+    "bloco": "rotas--rota-sem-tecnica",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sem Técnica",
+      "Criação",
+      "Semente e Manejos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Aura",
+    "destino": "fundamento--formas",
+    "bloco": "fundamento--formas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Formas",
+      "Toque, Aura e proximidade",
+      "O que uma área distribui",
+      "Fora de combate"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Auxiliares (Família)",
+    "destino": "fundamento-link-guia-familias",
+    "bloco": "fundamento--fundamento",
+    "cabecalho_preciso": "Conheça as Famílias",
+    "titulos_da_secao": [
+      "Criar sua técnica"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Aviso (Melhoria; nome anterior)",
+    "destino": "catalogo--melhoria-identificar-feitico",
+    "bloco": "catalogo--melhoria-identificar-feitico",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Identificar Feitiço"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Aviso (Talento; nome anterior)",
+    "destino": "catalogo--cat-passivas-1",
+    "bloco": "catalogo--cat-passivas-1",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Talentos de Categoria 1",
+      "Leitura",
+      "Instinto",
+      "Raiz",
+      "Mão Firme",
+      "Farejador",
+      "Leitura de Feitiços"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Barreira Simples",
+    "destino": "aptidoes--apt-barreira",
+    "bloco": "aptidoes--apt-barreira",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Barreira Simples",
+      "Preparação",
+      "Barreira erguida"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Barulho",
+    "destino": "catalogo--restricao-barulho",
+    "bloco": "catalogo--restricao-barulho",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Barulho"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Básica",
+    "destino": "campo--inv-basica",
+    "bloco": "campo--inv-basica",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Atuação básica"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Básica de invocação",
+    "destino": "construcao--entidades-basicas",
+    "bloco": "construcao--entidades-basicas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Habilidades básicas",
+      "Uma Melhoria Leve",
+      "Básica benéfica"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Bastião",
+    "destino": "bastiao--bas-bastiao",
+    "bloco": "bastiao--bas-bastiao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Bastião",
+      "Características",
+      "Progressão do Caminho"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Batedor",
+    "destino": "vanguarda--van-yumi",
+    "bloco": "vanguarda--van-yumi",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Batedor",
+      "Batedor: Yumi",
+      "Soltura Preparada",
+      "Armar uma Conclusão",
+      "Soltura Simples"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Batedor: Arma de Fogo",
+    "destino": "vanguarda--van-fogo",
+    "bloco": "vanguarda--van-fogo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Batedor: Arma de Fogo",
+      "Combate Irregular",
+      "Oportunidade Tática",
+      "Conduções da Arma de Fogo"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Batedor: Besta",
+    "destino": "vanguarda--van-besta",
+    "bloco": "vanguarda--van-besta",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Batedor: Besta",
+      "Virotes Cravados",
+      "Conduções da Besta"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Batedor: Yumi",
+    "destino": "vanguarda--van-yumi",
+    "bloco": "vanguarda--van-yumi",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Batedor",
+      "Batedor: Yumi",
+      "Soltura Preparada",
+      "Armar uma Conclusão",
+      "Soltura Simples"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Bênção",
+    "destino": "rotas--rota-bencaos",
+    "bloco": "rotas--rota-bencaos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Bênçãos",
+      "Escolhas disponíveis"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Bênção Própria",
+    "destino": "rotas--rota-propria",
+    "bloco": "rotas--rota-propria",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Bênção Própria",
+      "Limites",
+      "Exemplo: Marca do pulso"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Bloquear",
+    "destino": "geral--bloquear",
+    "bloco": "geral--bloquear",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Bloquear",
+      "Resolução",
+      "Limites"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Brecha",
+    "destino": "indice-r37-05",
+    "bloco": "geral--aparar",
+    "cabecalho_preciso": "Brecha",
+    "titulos_da_secao": [
+      "Aparar e Brecha",
+      "Aparar",
+      "Brecha",
+      "Ataques de resposta"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Calado",
+    "destino": "indice-r55-03",
+    "bloco": "dano--medias",
+    "cabecalho_preciso": "Calado",
+    "titulos_da_secao": [
+      "Condições médias",
+      "Calado",
+      "Enfeitiçado",
+      "Remoção"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Caminho",
+    "destino": "ab--ab-caminho",
+    "bloco": "ab--ab-caminho",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Caminho e Trilha",
+      "Treino com armas",
+      "Escolhas que se combinam"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Campo",
+    "destino": "indice-r59-campo",
+    "bloco": "rotas--rota-combate",
+    "cabecalho_preciso": "Campo",
+    "titulos_da_secao": [
+      "Bênçãos de combate",
+      "Esteio",
+      "Antecipar",
+      "Represália",
+      "Sangue Frio",
+      "Campo",
+      "Assombro"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Canalizar em Golpe",
+    "destino": "indice-r55-04",
+    "bloco": "aptidoes--apt-canalizar",
+    "cabecalho_preciso": "Canalizar em Golpe",
+    "titulos_da_secao": [
+      "Canalizar Energia",
+      "Canalizar em Golpe",
+      "Feitiços e crítico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Canalizar Energia",
+    "destino": "aptidoes--apt-canalizar",
+    "bloco": "aptidoes--apt-canalizar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Canalizar Energia",
+      "Canalizar em Golpe",
+      "Feitiços e crítico"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Carga",
+    "destino": "geral--carga",
+    "bloco": "geral--carga",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Carga",
+      "Volume dos itens",
+      "Objetos sem Volume definido e criaturas",
+      "Erguer"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Carregar",
+    "destino": "catalogo--restricao-carregar",
+    "bloco": "catalogo--restricao-carregar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Carregar"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Carregar (Restrição)",
+    "destino": "catalogo--restricao-carregar",
+    "bloco": "catalogo--restricao-carregar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Carregar"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Casco",
+    "destino": "indice-r59-casco",
+    "bloco": "rotas--rota-corpo",
+    "cabecalho_preciso": "Casco",
+    "titulos_da_secao": [
+      "Bênçãos de corpo",
+      "Ímpeto",
+      "Casco",
+      "Presilha",
+      "Vigília"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Castigo (Família)",
+    "destino": "fundamento-link-guia-familias",
+    "bloco": "fundamento--fundamento",
+    "cabecalho_preciso": "Conheça as Famílias",
+    "titulos_da_secao": [
+      "Criar sua técnica"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Catalisador",
+    "destino": "emanador--ema-impulso",
+    "bloco": "emanador--ema-impulso",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Catalisador",
+      "Progressão da Trilha",
+      "Impulso Técnico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Categoria de Efeito",
+    "destino": "fundamento-link-capacidades",
+    "bloco": "fundamento-link-capacidades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Capacidades da técnica",
+      "Expressão da técnica",
+      "Talentos pagos",
+      "Onde registrar sua proposta?"
+    ],
+    "estado": "destino corrigido"
+  },
+  {
+    "termo": "CD",
+    "destino": "geral--testes",
+    "bloco": "geral--testes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Testes",
+      "Dificuldade",
+      "Sucesso e falha"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "CE",
+    "destino": "fundamento-link-capacidades",
+    "bloco": "fundamento-link-capacidades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Capacidades da técnica",
+      "Expressão da técnica",
+      "Talentos pagos",
+      "Onde registrar sua proposta?"
+    ],
+    "estado": "destino corrigido"
+  },
+  {
+    "termo": "Cego",
+    "destino": "indice-r55-05",
+    "bloco": "dano--pesadas",
+    "cabecalho_preciso": "Cego",
+    "titulos_da_secao": [
+      "Condições pesadas",
+      "Impedido",
+      "Cego",
+      "Amedrontado",
+      "Envenenado",
+      "Atordoado",
+      "Testes de saída"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Cena",
+    "destino": "indice-especifico-04",
+    "bloco": "dano--usos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Cena e usos de habilidades",
+      "Cena",
+      "Missões longas",
+      "Conferência da ficha"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Cerca",
+    "destino": "catalogo--melhoria-cerca",
+    "bloco": "catalogo--melhoria-cerca",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Cerca"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Cesta Oca de Vime",
+    "destino": "aptidoes--apt-cesta",
+    "bloco": "aptidoes--apt-cesta",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Cesta Oca de Vime",
+      "Símbolo e mãos",
+      "Golpes e queda"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Cicatriz",
+    "destino": "dano--sequelas",
+    "bloco": "dano--sequelas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sequelas e Cicatrizes",
+      "Cicatrizes"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Circulação",
+    "destino": "aptidoes--apt-circulacao",
+    "bloco": "aptidoes--apt-circulacao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Circulação",
+      "Cura rápida",
+      "Recompor uma parte perdida"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Classe",
+    "destino": "fundamento--pontos",
+    "bloco": "fundamento--pontos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pontos e preços",
+      "Quantidade de peças"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Classe 0",
+    "destino": "fundamento--classezero",
+    "bloco": "fundamento--classezero",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Feitiços de Classe 0",
+      "Uma Melhoria",
+      "Aplicações sem dano",
+      "Uso e progressão",
+      "Consultar a montagem"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Classe Passiva (nome anterior)",
+    "destino": "fundamento-link-capacidades",
+    "bloco": "fundamento-link-capacidades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Capacidades da técnica",
+      "Expressão da técnica",
+      "Talentos pagos",
+      "Onde registrar sua proposta?"
+    ],
+    "estado": "destino corrigido"
+  },
+  {
+    "termo": "Cobertura",
+    "destino": "indice-especifico-05",
+    "bloco": "geral--defesa",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Defesa e cobertura",
+      "Proteção",
+      "Cobertura",
+      "Redução de Dano"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Cobrança",
+    "destino": "catalogo--melhoria-cobranca",
+    "bloco": "catalogo--melhoria-cobranca",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Cobrança"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Cobrir-se de Energia",
+    "destino": "aptidoes--apt-cobrir",
+    "bloco": "aptidoes--apt-cobrir",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Cobrir-se de Energia",
+      "Proteção",
+      "Amortecer um golpe"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Combatente Amaldiçoado",
+    "destino": "bastiao--bas-combatente",
+    "bloco": "bastiao--bas-combatente",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Combatente Amaldiçoado",
+      "Progressão da Trilha",
+      "Retaliação",
+      "Embalo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Combinar Aprimoramentos",
+    "destino": "evocador--ev-combinar",
+    "bloco": "evocador--ev-combinar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Combinar Aprimoramentos",
+      "Intervenção Eficiente"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Concentração",
+    "destino": "geral--concentracao",
+    "bloco": "geral--concentracao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Concentração",
+      "Dano durante a concentração",
+      "Procedimentos específicos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Concentrada",
+    "destino": "catalogo--melhoria-concentrada-duradoura",
+    "bloco": "catalogo--melhoria-concentrada-duradoura",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Concentrada / Duradoura"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Concentrada / Duradoura",
+    "destino": "catalogo--melhoria-concentrada-duradoura",
+    "bloco": "catalogo--melhoria-concentrada-duradoura",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Concentrada / Duradoura"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Condição",
+    "destino": "dano--condicoes",
+    "bloco": "dano--condicoes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Condições",
+      "Aplicação e duração",
+      "Condições em feitiços",
+      "Mais de uma condição",
+      "Encerrar uma condição"
+    ],
+    "estado": "destino corrigido"
+  },
+  {
+    "termo": "Condição (Melhoria)",
+    "destino": "catalogo--melhoria-condicao",
+    "bloco": "catalogo--melhoria-condicao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Condição"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Condicional",
+    "destino": "catalogo--restricao-condicional",
+    "bloco": "catalogo--restricao-condicional",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Condicional"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Condições leves",
+    "destino": "dano--leves",
+    "bloco": "dano--leves",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Condições leves",
+      "Lento",
+      "Guarda Aberta",
+      "Derrubado",
+      "Agarrado",
+      "Desarmado",
+      "Surdo"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Condições médias",
+    "destino": "dano--medias",
+    "bloco": "dano--medias",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Condições médias",
+      "Calado",
+      "Enfeitiçado",
+      "Remoção"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Condições pesadas",
+    "destino": "dano--pesadas",
+    "bloco": "dano--pesadas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Condições pesadas",
+      "Impedido",
+      "Cego",
+      "Amedrontado",
+      "Envenenado",
+      "Atordoado",
+      "Testes de saída"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Condutor Armado",
+    "destino": "emanador--ema-condutor",
+    "bloco": "emanador--ema-condutor",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Condutor Armado",
+      "Progressão da Trilha",
+      "Arma Condutora",
+      "Cadência Técnica"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Cone",
+    "destino": "fundamento--formas",
+    "bloco": "fundamento--formas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Formas",
+      "Toque, Aura e proximidade",
+      "O que uma área distribui",
+      "Fora de combate"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Contorno",
+    "destino": "catalogo--melhoria-contorno",
+    "bloco": "catalogo--melhoria-contorno",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Contorno"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Contragolpe",
+    "destino": "indice-r59-contragolpe",
+    "bloco": "rotas--rota-passivas-resposta",
+    "cabecalho_preciso": "Contragolpe",
+    "titulos_da_secao": [
+      "Talentos de resposta",
+      "Segundo Fôlego",
+      "Contragolpe",
+      "Aliança"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Contramedida",
+    "destino": "indice-r59-contramedida",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "cabecalho_preciso": "Contramedida",
+    "titulos_da_secao": [
+      "Talentos de Categoria 2",
+      "Fluxo",
+      "Recomposição",
+      "Segunda Natureza",
+      "Eco",
+      "Costura",
+      "Contramedida",
+      "Peso da Presença"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Controle (Família)",
+    "destino": "fundamento-link-guia-familias",
+    "bloco": "fundamento--fundamento",
+    "cabecalho_preciso": "Conheça as Famílias",
+    "titulos_da_secao": [
+      "Criar sua técnica"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Corpo",
+    "destino": "progressao--prog-marcos",
+    "bloco": "progressao--prog-marcos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Marcos",
+      "Ganhos de Leque"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Corpo amaldiçoado",
+    "destino": "campo--inv-corpos",
+    "bloco": "campo--inv-corpos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Corpos amaldiçoados"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Corpo Amaldiçoado (Origem)",
+    "destino": "origens--origem-corpo",
+    "bloco": "origens--origem-corpo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Corpo Amaldiçoado"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Corrói",
+    "destino": "catalogo--melhoria-corroi",
+    "bloco": "catalogo--melhoria-corroi",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Corrói"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Cortina",
+    "destino": "aptidoes--apt-cortina",
+    "bloco": "aptidoes--apt-cortina",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Cortina",
+      "Condição de passagem"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Costura",
+    "destino": "indice-r59-costura",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "cabecalho_preciso": "Costura",
+    "titulos_da_secao": [
+      "Talentos de Categoria 2",
+      "Fluxo",
+      "Recomposição",
+      "Segunda Natureza",
+      "Eco",
+      "Costura",
+      "Contramedida",
+      "Peso da Presença"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "CP (sigla anterior)",
+    "destino": "fundamento-link-capacidades",
+    "bloco": "fundamento-link-capacidades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Capacidades da técnica",
+      "Expressão da técnica",
+      "Talentos pagos",
+      "Onde registrar sua proposta?"
+    ],
+    "estado": "destino corrigido"
+  },
+  {
+    "termo": "Criação de entidades",
+    "destino": "fabricacao--fab-entidades",
+    "bloco": "fabricacao--fab-entidades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Criação de entidades"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Criar um domínio",
+    "destino": "poderes--criardominio",
+    "bloco": "poderes--criardominio",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Criar um domínio",
+      "Acerto",
+      "Efeito"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Crítico",
+    "destino": "indice-especifico-07",
+    "bloco": "geral--critico",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Dano e crítico",
+      "Dano do ataque",
+      "Crítico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Cura (função)",
+    "destino": "fundamento--funcoes",
+    "bloco": "fundamento--funcoes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Funções e saldo",
+      "Escolha o destino do saldo",
+      "Cura e vida temporária"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Cura (recuperação)",
+    "destino": "dano--cura",
+    "bloco": "dano--cura",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Cura",
+      "Receber tratamento",
+      "Vida e Integridade"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Cura e benefícios em área",
+    "destino": "fundamento--funcoes",
+    "bloco": "fundamento--funcoes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Funções e saldo",
+      "Escolha o destino do saldo",
+      "Cura e vida temporária"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Dano",
+    "destino": "dano--dano",
+    "bloco": "dano--dano",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Dano",
+      "Resolução",
+      "Resistência, vulnerabilidade e imunidade",
+      "Acerto e dano"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Dano na alma",
+    "destino": "dano--alma",
+    "bloco": "dano--alma",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Dano na alma",
+      "Receber dano de Alma"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "De Novo",
+    "destino": "catalogo--melhoria-de-novo",
+    "bloco": "catalogo--melhoria-de-novo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "De Novo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Defesa",
+    "destino": "geral--defesa",
+    "bloco": "geral--defesa",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Defesa e cobertura",
+      "Proteção",
+      "Cobertura",
+      "Redução de Dano"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Defesa sem Armadura",
+    "destino": "rotas--rota-defesa",
+    "bloco": "rotas--rota-defesa",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Defesa sem Armadura",
+      "Resistir ao golpe",
+      "Ausência de energia",
+      "Equipamento amaldiçoado"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Derrotado",
+    "destino": "dano--derrota",
+    "bloco": "dano--derrota",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Derrota e morte",
+      "Missões com morte permanente",
+      "Recuperação depois da derrota"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Derrubado",
+    "destino": "indice-r55-06",
+    "bloco": "dano--leves",
+    "cabecalho_preciso": "Derrubado",
+    "titulos_da_secao": [
+      "Condições leves",
+      "Lento",
+      "Guarda Aberta",
+      "Derrubado",
+      "Agarrado",
+      "Desarmado",
+      "Surdo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Desarma o Feitiço",
+    "destino": "catalogo--melhoria-desarma-o-feitico",
+    "bloco": "catalogo--melhoria-desarma-o-feitico",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Desarma o Feitiço"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Desarmado",
+    "destino": "indice-r55-07",
+    "bloco": "dano--leves",
+    "cabecalho_preciso": "Desarmado",
+    "titulos_da_secao": [
+      "Condições leves",
+      "Lento",
+      "Guarda Aberta",
+      "Derrubado",
+      "Agarrado",
+      "Desarmado",
+      "Surdo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Descanso curto",
+    "destino": "dano--descansos",
+    "bloco": "dano--descansos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Descansos",
+      "Ambiente propício",
+      "Descanso curto",
+      "Descanso longo"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Descanso longo",
+    "destino": "dano--descansos",
+    "bloco": "dano--descansos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Descansos",
+      "Ambiente propício",
+      "Descanso curto",
+      "Descanso longo"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Descendente",
+    "destino": "origens--origem-descendente",
+    "bloco": "origens--origem-descendente",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Descendente"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Desgaste",
+    "destino": "equip--eqf-desgaste",
+    "bloco": "equip--eqf-desgaste",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Desgaste",
+      "Missões de uso",
+      "Esgotamento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Desligada",
+    "destino": "campo--inv-retorno",
+    "bloco": "campo--inv-retorno",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Retorno e corpos caídos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Deslocamento",
+    "destino": "geral--movimento",
+    "bloco": "geral--movimento",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Movimento e terreno",
+      "Metros disponíveis",
+      "Medidas de 1,5 m",
+      "Terreno, escalada e natação"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Desvantagem",
+    "destino": "geral--pericias",
+    "bloco": "geral--pericias",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Treino e modificadores",
+      "Especialização",
+      "Vantagem e desvantagem",
+      "Arredondamento",
+      "Testes de grupo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Discreta",
+    "destino": "equip--eq-oculta",
+    "bloco": "equip--eq-oculta",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Armas escondidas",
+      "Observação e revista",
+      "Outras armas e restrições"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Disputa de domínios",
+    "destino": "poderes--disputa",
+    "bloco": "poderes--disputa",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Disputa de domínios",
+      "Vitória"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Divide",
+    "destino": "catalogo--melhoria-divide",
+    "bloco": "catalogo--melhoria-divide",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Divide"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Domar",
+    "destino": "construcao--entidades-domar",
+    "bloco": "construcao--entidades-domar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Domar uma maldição",
+      "Submissão",
+      "Tentativa durante o combate"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Domínio Simples",
+    "destino": "aptidoes--apt-simples",
+    "bloco": "aptidoes--apt-simples",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Domínio Simples",
+      "Área protegida",
+      "Voto do iniciante",
+      "Permanência"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Duração",
+    "destino": "fundamento--conjurar",
+    "bloco": "fundamento--conjurar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Conjurar",
+      "Atributo, ataque e CD",
+      "Resultados",
+      "Ação e duração",
+      "Restrições e combinações"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Duradoura",
+    "destino": "catalogo--melhoria-concentrada-duradoura",
+    "bloco": "catalogo--melhoria-concentrada-duradoura",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Concentrada / Duradoura"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Eco",
+    "destino": "indice-r59-eco",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "cabecalho_preciso": "Eco",
+    "titulos_da_secao": [
+      "Talentos de Categoria 2",
+      "Fluxo",
+      "Recomposição",
+      "Segunda Natureza",
+      "Eco",
+      "Costura",
+      "Contramedida",
+      "Peso da Presença"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Ecoa",
+    "destino": "catalogo--melhoria-ecoa",
+    "bloco": "catalogo--melhoria-ecoa",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ecoa",
+      "Duração e usos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Efeito fora de combate",
+    "destino": "fundamento--efeito",
+    "bloco": "fundamento--efeito",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Efeitos fora de combate",
+      "Oposição",
+      "Ficha da aplicação",
+      "Desenvolver suas aplicações"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Efeito Próprio",
+    "destino": "catalogo--melhoria-efeito-proprio",
+    "bloco": "catalogo--melhoria-efeito-proprio",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Efeito Próprio",
+      "Campos da proposta",
+      "Repetição e limites"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Emanador",
+    "destino": "emanador--ema-base",
+    "bloco": "emanador--ema-base",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Emanador",
+      "Características",
+      "Progressão do Caminho"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Emaranha",
+    "destino": "equip--eq-propriedades",
+    "bloco": "equip--eq-propriedades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Propriedades",
+      "Distância de disparo e arremesso",
+      "Par e crítico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Embainhada",
+    "destino": "equip--eq-oculta",
+    "bloco": "equip--eq-oculta",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Armas escondidas",
+      "Observação e revista",
+      "Outras armas e restrições"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Empurrão",
+    "destino": "catalogo--melhoria-empurrao",
+    "bloco": "catalogo--melhoria-empurrao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Empurrão"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Encarnado",
+    "destino": "origens--origem-encarnado",
+    "bloco": "origens--origem-encarnado",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Encarnado",
+      "Duas Vidas"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Energia amaldiçoada pura (dano)",
+    "destino": "dano--tipos",
+    "bloco": "dano--tipos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Tipos de dano",
+      "Força",
+      "Efeitos adicionais",
+      "Tema e nome do feitiço",
+      "Golpes com vários tipos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Energia Reversa",
+    "destino": "aptidoes--apt-reversa",
+    "bloco": "aptidoes--apt-reversa",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Energia Reversa",
+      "Alvo e limites"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Energia temporária",
+    "destino": "dano--temporarios",
+    "bloco": "dano--temporarios",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Vida e energia temporárias",
+      "Receber outra fonte",
+      "Limites"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Enfeitiçado",
+    "destino": "indice-r55-08",
+    "bloco": "dano--medias",
+    "cabecalho_preciso": "Enfeitiçado",
+    "titulos_da_secao": [
+      "Condições médias",
+      "Calado",
+      "Enfeitiçado",
+      "Remoção"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Enfraquece",
+    "destino": "catalogo--melhoria-enfraquece",
+    "bloco": "catalogo--melhoria-enfraquece",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Enfraquece"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Entidade",
+    "destino": "construcao--entidades-criar",
+    "bloco": "construcao--entidades-criar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Criar uma invocação",
+      "Etapas da ficha"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Envenenado",
+    "destino": "indice-r37-07",
+    "bloco": "dano--pesadas",
+    "cabecalho_preciso": "Envenenado",
+    "titulos_da_secao": [
+      "Condições pesadas",
+      "Impedido",
+      "Cego",
+      "Amedrontado",
+      "Envenenado",
+      "Atordoado",
+      "Testes de saída"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Escama",
+    "destino": "indice-r59-escama",
+    "bloco": "catalogo--cat-passivas-3",
+    "cabecalho_preciso": "Escama",
+    "titulos_da_secao": [
+      "Talentos de Categoria 3",
+      "Escama",
+      "Afinidade",
+      "Reserva Profunda"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Escolher",
+    "destino": "catalogo--melhoria-escolher",
+    "bloco": "catalogo--melhoria-escolher",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Escolher"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Esconder",
+    "destino": "geral--esconder",
+    "bloco": "geral--esconder",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Esconder",
+      "Quando é possível",
+      "Uma rolagem, vários observadores",
+      "Enquanto você permanece escondido"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Escudo",
+    "destino": "equip--eqp-escudo",
+    "bloco": "equip--eqp-escudo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Revestimentos e escudos",
+      "Revestimentos",
+      "Escudos",
+      "Mão ocupada"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Espaço conhecido",
+    "destino": "fundamento--repertorio",
+    "bloco": "fundamento--repertorio",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Feitiços conhecidos",
+      "Invocação por espaço",
+      "Fora da conta",
+      "Revisar um feitiço conhecido"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Espaço de feitiço",
+    "destino": "fundamento--repertorio",
+    "bloco": "fundamento--repertorio",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Feitiços conhecidos",
+      "Invocação por espaço",
+      "Fora da conta",
+      "Revisar um feitiço conhecido"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Especial de invocação",
+    "destino": "campo--inv-especial",
+    "bloco": "campo--inv-especial",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Comandar uma especial"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Especial e repertório",
+    "destino": "evocador--ev-principal-especial",
+    "bloco": "evocador--ev-principal-especial",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Especial primeiro",
+      "Repertório Ampliado"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Essência",
+    "destino": "geral--atributos",
+    "bloco": "geral--atributos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Atributos",
+      "Maestria",
+      "Dados e bônus"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Estabilizar",
+    "destino": "indice-especifico-09",
+    "bloco": "dano--socorro",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Socorro",
+      "Cura",
+      "Resgates expressos",
+      "Estabilizar"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Estágios de Integridade",
+    "destino": "dano--integridade",
+    "bloco": "dano--integridade",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Estágios de Integridade",
+      "Recuperar Integridade"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Esteio",
+    "destino": "indice-r59-esteio",
+    "bloco": "rotas--rota-combate",
+    "cabecalho_preciso": "Esteio",
+    "titulos_da_secao": [
+      "Bênçãos de combate",
+      "Esteio",
+      "Antecipar",
+      "Represália",
+      "Sangue Frio",
+      "Campo",
+      "Assombro"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Estilhaço",
+    "destino": "catalogo--melhoria-estilhaco",
+    "bloco": "catalogo--melhoria-estilhaco",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Estilhaço"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Estímulo Muscular",
+    "destino": "rotas--rota-estimulo",
+    "bloco": "rotas--rota-estimulo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Estímulo Muscular",
+      "Dano adicional"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Estocada",
+    "destino": "vanguarda--van-estocada",
+    "bloco": "vanguarda--van-estocada",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Estocada",
+      "Progressão da Trilha",
+      "Compasso"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Estudar",
+    "destino": "geral--estudar",
+    "bloco": "geral--estudar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Estudar",
+      "Diga o que procura entender",
+      "Resolva a pergunta",
+      "Encontrar, compreender ou explorar o lugar"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Evocador",
+    "destino": "evocador--evocador",
+    "bloco": "evocador--evocador",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Evocador",
+      "Características",
+      "Progressão do Caminho"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Evolução de entidade criada",
+    "destino": "indice-r59-evolucao-de-entidade-criada",
+    "bloco": "fabricacao--fab-conclusao",
+    "cabecalho_preciso": "Evolução e reconstrução",
+    "titulos_da_secao": [
+      "Conclusão, evolução e transferência",
+      "Evolução e reconstrução",
+      "Transferência e herança"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Exaustão",
+    "destino": "dano--exaustao",
+    "bloco": "dano--exaustao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Exaustão",
+      "Efeitos",
+      "Recuperação",
+      "Exaustão e Integridade"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Executor",
+    "destino": "vanguarda--van-executor",
+    "bloco": "vanguarda--van-executor",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Executor",
+      "Progressão da Trilha",
+      "Finta de Execução",
+      "Resposta do adversário",
+      "Decisão do Executor",
+      "Conclusões do Executor"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Expansão Completa",
+    "destino": "poderes--acerto",
+    "bloco": "poderes--acerto",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Acerto do domínio",
+      "Completa",
+      "Incompleta"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Expansão de Domínio",
+    "destino": "poderes--degraus",
+    "bloco": "poderes--degraus",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Expansão de Domínio",
+      "Registro"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Expansão Incompleta",
+    "destino": "poderes--acerto",
+    "bloco": "poderes--acerto",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Acerto do domínio",
+      "Completa",
+      "Incompleta"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Expansão sem Barreiras",
+    "destino": "poderes--sembarreiras",
+    "bloco": "poderes--sembarreiras",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Expansão sem Barreiras",
+      "Espaço aberto",
+      "Encerramento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Experiência semanal",
+    "destino": "progressao--prog-semana",
+    "bloco": "progressao--prog-semana",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Experiência semanal"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Explosão",
+    "destino": "fundamento--formas",
+    "bloco": "fundamento--formas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Formas",
+      "Toque, Aura e proximidade",
+      "O que uma área distribui",
+      "Fora de combate"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Expressão da técnica",
+    "destino": "fundamento-link-capacidades",
+    "bloco": "fundamento-link-capacidades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Capacidades da técnica",
+      "Expressão da técnica",
+      "Talentos pagos",
+      "Onde registrar sua proposta?"
+    ],
+    "estado": "destino corrigido"
+  },
+  {
+    "termo": "Extensão de Domínio",
+    "destino": "aptidoes--apt-extensao",
+    "bloco": "aptidoes--apt-extensao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Extensão de Domínio",
+      "Duração e custo",
+      "Proteção e neutralização",
+      "Técnica suspensa"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Família",
+    "destino": "fundamento--familias",
+    "bloco": "fundamento--familias",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Famílias",
+      "Famílias Livres",
+      "Famílias Fechadas"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Famílias Fechadas",
+    "destino": "fundamento--familias",
+    "bloco": "fundamento--familias",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Famílias",
+      "Famílias Livres",
+      "Famílias Fechadas"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Famílias Livres",
+    "destino": "fundamento--familias",
+    "bloco": "fundamento--familias",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Famílias",
+      "Famílias Livres",
+      "Famílias Fechadas"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Farejador",
+    "destino": "indice-r59-farejador",
+    "bloco": "catalogo--cat-passivas-1",
+    "cabecalho_preciso": "Farejador",
+    "titulos_da_secao": [
+      "Talentos de Categoria 1",
+      "Leitura",
+      "Instinto",
+      "Raiz",
+      "Mão Firme",
+      "Farejador",
+      "Leitura de Feitiços"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Faro",
+    "destino": "indice-r59-faro",
+    "bloco": "rotas--rota-perseguicao",
+    "cabecalho_preciso": "Faro",
+    "titulos_da_secao": [
+      "Bênçãos de perseguição",
+      "Faro",
+      "Sem Pegada",
+      "Vulto"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Feitiço",
+    "destino": "fundamento--primeiro",
+    "bloco": "fundamento--primeiro",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Seu primeiro feitiço",
+      "Escolha a Classe",
+      "Defina as funções",
+      "Escolha a Forma",
+      "Compre a Melhoria",
+      "Confira o saldo",
+      "Registre a ficha",
+      "Use durante a sessão",
+      "Outras rotas",
+      "Montar aplicações de Classe 0"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ferramenta amaldiçoada",
+    "destino": "equip--eqf-equipamento",
+    "bloco": "equip--eqf-equipamento",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Equipamento amaldiçoado",
+      "Tipos de ferramenta",
+      "Características da base"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ferramentas e reparo",
+    "destino": "pericias--reparos",
+    "bloco": "pericias--reparos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Reparos",
+      "Estado da peça",
+      "Resultado do reparo",
+      "Poder e material",
+      "Tratamento de criaturas"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Fica",
+    "destino": "catalogo--melhoria-fica",
+    "bloco": "catalogo--melhoria-fica",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Fica"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Fineza",
+    "destino": "equip--eq-propriedades",
+    "bloco": "equip--eq-propriedades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Propriedades",
+      "Distância de disparo e arremesso",
+      "Par e crítico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Firmeza",
+    "destino": "catalogo--melhoria-firmeza",
+    "bloco": "catalogo--melhoria-firmeza",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Firmeza"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Fluidez",
+    "destino": "incursor--inc-fluidez",
+    "bloco": "incursor--inc-fluidez",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Fluidez",
+      "Investida",
+      "Instante Decisivo",
+      "Passo Rápido"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Fluxo",
+    "destino": "indice-especifico-10",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Talentos de Categoria 2",
+      "Fluxo",
+      "Recomposição",
+      "Segunda Natureza",
+      "Eco",
+      "Costura",
+      "Contramedida",
+      "Peso da Presença"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Força (atributo)",
+    "destino": "geral--atributos",
+    "bloco": "geral--atributos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Atributos",
+      "Maestria",
+      "Dados e bônus"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Força (dano)",
+    "destino": "indice-r37-09",
+    "bloco": "dano--tipos",
+    "cabecalho_preciso": "Força",
+    "titulos_da_secao": [
+      "Tipos de dano",
+      "Força",
+      "Efeitos adicionais",
+      "Tema e nome do feitiço",
+      "Golpes com vários tipos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Forma",
+    "destino": "fundamento--formas",
+    "bloco": "fundamento--formas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Formas",
+      "Toque, Aura e proximidade",
+      "O que uma área distribui",
+      "Fora de combate"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Frágil",
+    "destino": "catalogo--restricao-fragil",
+    "bloco": "catalogo--restricao-fragil",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Frágil"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Fraqueza",
+    "destino": "catalogo--restricao-fraqueza",
+    "bloco": "catalogo--restricao-fraqueza",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Fraqueza"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Função",
+    "destino": "fundamento--funcoes",
+    "bloco": "fundamento--funcoes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Funções e saldo",
+      "Escolha o destino do saldo",
+      "Cura e vida temporária"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Funções e saldo",
+    "destino": "fundamento--funcoes",
+    "bloco": "fundamento--funcoes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Funções e saldo",
+      "Escolha o destino do saldo",
+      "Cura e vida temporária"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Fundamento",
+    "destino": "fundamento--fundamento",
+    "bloco": "fundamento--fundamento",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Criar sua técnica"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Fura",
+    "destino": "catalogo--melhoria-fura",
+    "bloco": "catalogo--melhoria-fura",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Fura"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Gatilho",
+    "destino": "geral--oportunidade",
+    "bloco": "geral--oportunidade",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Reações e ataques de oportunidade",
+      "Ataque de oportunidade",
+      "Movimento que não provoca"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Gesto",
+    "destino": "catalogo--restricao-gesto",
+    "bloco": "catalogo--restricao-gesto",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Gesto"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Grau",
+    "destino": "equip--eqf-graus",
+    "bloco": "equip--eqf-graus",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Graus das ferramentas",
+      "Grau e patente",
+      "Efeito e aparência",
+      "Números e progressão"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Grau (patente)",
+    "destino": "progressao--prog-patentes",
+    "bloco": "progressao--prog-patentes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Patentes"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Guarda",
+    "destino": "catalogo--melhoria-guarda",
+    "bloco": "catalogo--melhoria-guarda",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Guarda"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Guarda Aberta",
+    "destino": "indice-r55-09",
+    "bloco": "dano--leves",
+    "cabecalho_preciso": "Guarda Aberta",
+    "titulos_da_secao": [
+      "Condições leves",
+      "Lento",
+      "Guarda Aberta",
+      "Derrubado",
+      "Agarrado",
+      "Desarmado",
+      "Surdo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Guia",
+    "destino": "guia--guia",
+    "bloco": "guia--guia",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Guia",
+      "Características"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Híbrido",
+    "destino": "origens--origem-feto",
+    "bloco": "origens--origem-feto",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Híbrido",
+      "Regeneração Orgânica"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Identificar Feitiço",
+    "destino": "catalogo--melhoria-identificar-feitico",
+    "bloco": "catalogo--melhoria-identificar-feitico",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Identificar Feitiço"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Impedido",
+    "destino": "indice-r55-10",
+    "bloco": "dano--pesadas",
+    "cabecalho_preciso": "Impedido",
+    "titulos_da_secao": [
+      "Condições pesadas",
+      "Impedido",
+      "Cego",
+      "Amedrontado",
+      "Envenenado",
+      "Atordoado",
+      "Testes de saída"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ímpeto",
+    "destino": "indice-r59-impeto",
+    "bloco": "rotas--rota-corpo",
+    "cabecalho_preciso": "Ímpeto",
+    "titulos_da_secao": [
+      "Bênçãos de corpo",
+      "Ímpeto",
+      "Casco",
+      "Presilha",
+      "Vigília"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Impulso",
+    "destino": "catalogo--melhoria-impulso",
+    "bloco": "catalogo--melhoria-impulso",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Impulso"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Incapacitado (nome anterior)",
+    "destino": "dano--leves",
+    "bloco": "dano--leves",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Condições leves",
+      "Lento",
+      "Guarda Aberta",
+      "Derrubado",
+      "Agarrado",
+      "Desarmado",
+      "Surdo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Inconsciente",
+    "destino": "dano--inconsciente",
+    "bloco": "dano--inconsciente",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Inconsciente",
+      "Recuperar a consciência"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Incursor",
+    "destino": "incursor--inc-caminho",
+    "bloco": "incursor--inc-caminho",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Incursor",
+      "Características",
+      "Progressão do Caminho"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Inescapável",
+    "destino": "catalogo--melhoria-inescapavel",
+    "bloco": "catalogo--melhoria-inescapavel",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Inescapável"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Insistir",
+    "destino": "dano--insistir",
+    "bloco": "dano--insistir",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Insistir",
+      "Socorro durante Insistir"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Instinto",
+    "destino": "indice-r59-instinto",
+    "bloco": "catalogo--cat-passivas-1",
+    "cabecalho_preciso": "Instinto",
+    "titulos_da_secao": [
+      "Talentos de Categoria 1",
+      "Leitura",
+      "Instinto",
+      "Raiz",
+      "Mão Firme",
+      "Farejador",
+      "Leitura de Feitiços"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Integridade",
+    "destino": "dano--integridade",
+    "bloco": "dano--integridade",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Estágios de Integridade",
+      "Recuperar Integridade"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Integridade máxima",
+    "destino": "dano--alma",
+    "bloco": "dano--alma",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Dano na alma",
+      "Receber dano de Alma"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Intenção",
+    "destino": "campo--inv-intencao",
+    "bloco": "campo--inv-intencao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Dar uma tarefa"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Inventário",
+    "destino": "equip--eq-equipamento",
+    "bloco": "equip--eq-equipamento",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Características das armas",
+      "Treino e Força",
+      "Carga"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Invocação",
+    "destino": "construcao--entidades-aquisicao",
+    "bloco": "construcao--entidades-aquisicao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Adquirir entidades",
+      "Espaço conhecido"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Invocação Principal",
+    "destino": "evocador--ev-principal",
+    "bloco": "evocador--ev-principal",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Invocação Principal",
+      "Progressão da Trilha",
+      "Quando a Trilha funciona",
+      "Duas Atuações Básicas",
+      "Outras escolhas"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Invocador",
+    "destino": "campo--inv-campo",
+    "bloco": "campo--inv-campo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Isca",
+    "destino": "catalogo--melhoria-isca",
+    "bloco": "catalogo--melhoria-isca",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Isca",
+      "Ataques seguintes"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Janela de socorro",
+    "destino": "dano--zero",
+    "bloco": "dano--zero",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Vida a zero",
+      "Contagem da janela",
+      "Aguentar"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Kata",
+    "destino": "rotas--rota-marcial",
+    "bloco": "rotas--rota-marcial",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Técnica Marcial",
+      "Criação",
+      "Desenvolvimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Kokusen",
+    "destino": "aptidoes--apt-kokusen",
+    "bloco": "aptidoes--apt-kokusen",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Kokusen",
+      "Dano",
+      "Tentativas seguintes",
+      "Kokusen Melhorado",
+      "Kokusen Constante"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Lapidação",
+    "destino": "rotas--rota-lapidacao",
+    "bloco": "rotas--rota-lapidacao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Lapidação",
+      "Ganhos de marco",
+      "Usar o valor"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Latente",
+    "destino": "origens--origem-latente",
+    "bloco": "origens--origem-latente",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Latente",
+      "Tentativa e Erro"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Legado de história",
+    "destino": "origens--legados",
+    "bloco": "origens--legados",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Legados de história",
+      "Usar as capacidades da Origem"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Leitura",
+    "destino": "indice-r59-leitura",
+    "bloco": "catalogo--cat-passivas-1",
+    "cabecalho_preciso": "Leitura",
+    "titulos_da_secao": [
+      "Talentos de Categoria 1",
+      "Leitura",
+      "Instinto",
+      "Raiz",
+      "Mão Firme",
+      "Farejador",
+      "Leitura de Feitiços"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Leitura de Feitiços",
+    "destino": "indice-r37-11",
+    "bloco": "catalogo--cat-passivas-1",
+    "cabecalho_preciso": "Leitura de Feitiços",
+    "titulos_da_secao": [
+      "Talentos de Categoria 1",
+      "Leitura",
+      "Instinto",
+      "Raiz",
+      "Mão Firme",
+      "Farejador",
+      "Leitura de Feitiços"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Lento",
+    "destino": "indice-r55-11",
+    "bloco": "dano--leves",
+    "cabecalho_preciso": "Lento",
+    "titulos_da_secao": [
+      "Condições leves",
+      "Lento",
+      "Guarda Aberta",
+      "Derrubado",
+      "Agarrado",
+      "Desarmado",
+      "Surdo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Leque",
+    "destino": "progressao--prog-marcos",
+    "bloco": "progressao--prog-marcos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Marcos",
+      "Ganhos de Leque"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Levanta",
+    "destino": "catalogo--melhoria-levanta",
+    "bloco": "catalogo--melhoria-levanta",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Levanta"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Leve",
+    "destino": "fundamento--pontos",
+    "bloco": "fundamento--pontos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pontos e preços",
+      "Quantidade de peças"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Leve (preço)",
+    "destino": "fundamento--pontos",
+    "bloco": "fundamento--pontos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pontos e preços",
+      "Quantidade de peças"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Leve (propriedade)",
+    "destino": "equip--eq-propriedades",
+    "bloco": "equip--eq-propriedades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Propriedades",
+      "Distância de disparo e arremesso",
+      "Par e crítico"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Leve, Média e Pesada",
+    "destino": "fundamento--pontos",
+    "bloco": "fundamento--pontos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pontos e preços",
+      "Quantidade de peças"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Liberação Máxima",
+    "destino": "fundamento--liberacao",
+    "bloco": "fundamento--liberacao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Liberação Máxima",
+      "Custo e uso",
+      "Exemplo: Corte de ruptura",
+      "Progressão"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Limpa",
+    "destino": "catalogo--melhoria-limpa",
+    "bloco": "catalogo--melhoria-limpa",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Limpa"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Limpa Fundo",
+    "destino": "catalogo--melhoria-limpa-fundo",
+    "bloco": "catalogo--melhoria-limpa-fundo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Limpa Fundo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Linha",
+    "destino": "fundamento--formas",
+    "bloco": "fundamento--formas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Formas",
+      "Toque, Aura e proximidade",
+      "O que uma área distribui",
+      "Fora de combate"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Longe",
+    "destino": "catalogo--melhoria-longe",
+    "bloco": "catalogo--melhoria-longe",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Longe"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Longo Alcance",
+    "destino": "equip--eq-propriedades",
+    "bloco": "equip--eq-propriedades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Propriedades",
+      "Distância de disparo e arremesso",
+      "Par e crítico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Maestria",
+    "destino": "indice-r55-12",
+    "bloco": "geral--atributos",
+    "cabecalho_preciso": "Maestria",
+    "titulos_da_secao": [
+      "Atributos",
+      "Maestria",
+      "Dados e bônus"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Maior",
+    "destino": "catalogo--melhoria-maior",
+    "bloco": "catalogo--melhoria-maior",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Maior"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Maior Classe",
+    "destino": "progressao--prog-tabela-inicial",
+    "bloco": "progressao--prog-tabela-inicial",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Progressão dos níveis 1 a 15"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Mais Um",
+    "destino": "catalogo--melhoria-mais-um",
+    "bloco": "catalogo--melhoria-mais-um",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Mais Um"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Malabarista",
+    "destino": "incursor--inc-malabarista",
+    "bloco": "incursor--inc-malabarista",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Malabarista",
+      "Progressão da Trilha",
+      "Manejo de Combate",
+      "Ofensiva em Movimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Manejo",
+    "destino": "rotas--rota-sem-tecnica",
+    "bloco": "rotas--rota-sem-tecnica",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sem Técnica",
+      "Criação",
+      "Semente e Manejos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Manifestação e convergência",
+    "destino": "emanador--ema-manifestacao",
+    "bloco": "emanador--ema-manifestacao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Manifestação Condutora",
+      "Ritmo Convergente"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Manifestação em Grupo",
+    "destino": "evocador--ev-multiplas-entrada",
+    "bloco": "evocador--ev-multiplas-entrada",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Manifestação em Grupo",
+      "Entrada Ágil"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Manifestar",
+    "destino": "campo--inv-entrada",
+    "bloco": "campo--inv-entrada",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Manifestar e recolher"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Manutenção (entidades)",
+    "destino": "campo--inv-manutencao",
+    "bloco": "campo--inv-manutencao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Manutenção"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Mão Firme",
+    "destino": "indice-r37-12",
+    "bloco": "catalogo--cat-passivas-1",
+    "cabecalho_preciso": "Mão Firme",
+    "titulos_da_secao": [
+      "Talentos de Categoria 1",
+      "Leitura",
+      "Instinto",
+      "Raiz",
+      "Mão Firme",
+      "Farejador",
+      "Leitura de Feitiços"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Marca",
+    "destino": "catalogo--melhoria-marca",
+    "bloco": "catalogo--melhoria-marca",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Marca"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Marca (Família)",
+    "destino": "fundamento-link-guia-familias",
+    "bloco": "fundamento--fundamento",
+    "cabecalho_preciso": "Conheça as Famílias",
+    "titulos_da_secao": [
+      "Criar sua técnica"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Marcante e menores",
+    "destino": "origens--origem-escolhas",
+    "bloco": "origens--origem-escolhas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Escolhas da Origem",
+      "Traço e história"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Marco",
+    "destino": "progressao--prog-marcos",
+    "bloco": "progressao--prog-marcos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Marcos",
+      "Ganhos de Leque"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Média",
+    "destino": "fundamento--pontos",
+    "bloco": "fundamento--pontos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pontos e preços",
+      "Quantidade de peças"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Melhoria",
+    "destino": "fundamento--pontos",
+    "bloco": "fundamento--pontos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pontos e preços",
+      "Quantidade de peças"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Melhorias de Ritual",
+    "destino": "ritual--rit-melhorias",
+    "bloco": "ritual--rit-melhorias",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Melhorias de Ritual"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Melhorias: efeitos",
+    "destino": "catalogo--cat-efeitos",
+    "bloco": "catalogo--cat-efeitos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Melhorias: Efeitos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Melhorias: modificadores",
+    "destino": "catalogo--cat-modificadores",
+    "bloco": "catalogo--cat-modificadores",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Melhorias: Modificadores"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Mesclas de funções",
+    "destino": "fundamento--mesclas",
+    "bloco": "fundamento--mesclas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Três mesclas prontas",
+      "Ferir e recuperar",
+      "Quando um efeito depende de outro",
+      "Pulso de renovação",
+      "Recompor e guardar",
+      "Alvos, ataques e áreas",
+      "Compatibilidade"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Mira (Família)",
+    "destino": "fundamento-link-guia-familias",
+    "bloco": "fundamento--fundamento",
+    "cabecalho_preciso": "Conheça as Famílias",
+    "titulos_da_secao": [
+      "Criar sua técnica"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Monge (nome anterior)",
+    "destino": "incursor--inc-pugilista",
+    "bloco": "incursor--inc-pugilista",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pugilista",
+      "Progressão da Trilha",
+      "Resistência às habilidades"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Morrendo",
+    "destino": "dano--zero",
+    "bloco": "dano--zero",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Vida a zero",
+      "Contagem da janela",
+      "Aguentar"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Movimento imposto",
+    "destino": "geral--quedas",
+    "bloco": "geral--quedas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Quedas e movimento imposto",
+      "Dano de queda",
+      "Cair na água",
+      "Empurrões e movimento imposto"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Múltiplas Invocações",
+    "destino": "evocador--ev-multiplas",
+    "bloco": "evocador--ev-multiplas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Múltiplas Invocações",
+      "Progressão da Trilha",
+      "Conjunto Ampliado",
+      "Atuação ofensiva",
+      "Famílias do Conjunto"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Munição",
+    "destino": "equip--eqm-municao",
+    "bloco": "equip--eqm-municao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Munição",
+      "Arcos e bestas",
+      "Armas de fogo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Muro",
+    "destino": "bastiao--bas-muro",
+    "bloco": "bastiao--bas-muro",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Muro",
+      "Progressão da Trilha",
+      "Alicerce",
+      "Guarda-Costas"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Nível",
+    "destino": "progressao--prog-inicio",
+    "bloco": "progressao--prog-inicio",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Experiência e Progressão",
+      "Registro de missão"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Obras em emergência",
+    "destino": "guia--guia-emergencia",
+    "bloco": "guia--guia-emergencia",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Obra de Emergência",
+      "Plano Construído"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Oculta",
+    "destino": "equip--eq-oculta",
+    "bloco": "equip--eq-oculta",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Armas escondidas",
+      "Observação e revista",
+      "Outras armas e restrições"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ofício",
+    "destino": "pericias--oficios",
+    "bloco": "pericias--oficios",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ofícios",
+      "Conhecimento e execução",
+      "Atributo padrão",
+      "Materiais e ferramentas"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ofício compatível",
+    "destino": "fabricacao--fab-entidades",
+    "bloco": "fabricacao--fab-entidades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Criação de entidades"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Ōgi",
+    "destino": "rotas--rota-marcial",
+    "bloco": "rotas--rota-marcial",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Técnica Marcial",
+      "Criação",
+      "Desenvolvimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ordem antecipada",
+    "destino": "campo--inv-antecipada",
+    "bloco": "campo--inv-antecipada",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ordem antecipada"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ordens pendentes",
+    "destino": "campo--inv-pendentes",
+    "bloco": "campo--inv-pendentes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ordens pendentes"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Origem",
+    "destino": "origens--origens",
+    "bloco": "origens--origens",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Pacto",
+    "destino": "ritual--pactos",
+    "bloco": "ritual--pactos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pactos",
+      "Preço real",
+      "Régua do câmbio"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Pacto de restrição",
+    "destino": "ritual--pacto-restricao",
+    "bloco": "ritual--pacto-restricao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pactos na criação",
+      "Ideias para desenvolver"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Pacto permanente",
+    "destino": "ritual--pacto-permanente",
+    "bloco": "ritual--pacto-permanente",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pacto permanente",
+      "Benefícios"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Pacto temporário",
+    "destino": "ritual--pacto-temporario",
+    "bloco": "ritual--pacto-temporario",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pacto temporário",
+      "Definir a troca",
+      "Preparação fora de combate"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Par",
+    "destino": "equip--eq-propriedades",
+    "bloco": "equip--eq-propriedades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Propriedades",
+      "Distância de disparo e arremesso",
+      "Par e crítico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Parado",
+    "destino": "catalogo--restricao-parado",
+    "bloco": "catalogo--restricao-parado",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Parado"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Parceria",
+    "destino": "evocador--ev-parceria",
+    "bloco": "evocador--ev-parceria",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Parceria",
+      "Progressão da Trilha",
+      "Entrada Ágil",
+      "Treino de Combate",
+      "Repertório de Parceria"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Passiva (nome anterior)",
+    "destino": "fundamento-link-capacidades",
+    "bloco": "fundamento-link-capacidades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Capacidades da técnica",
+      "Expressão da técnica",
+      "Talentos pagos",
+      "Onde registrar sua proposta?"
+    ],
+    "estado": "destino corrigido"
+  },
+  {
+    "termo": "Passiva Livre (nome anterior)",
+    "destino": "fundamento-link-capacidades",
+    "bloco": "fundamento-link-capacidades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Capacidades da técnica",
+      "Expressão da técnica",
+      "Talentos pagos",
+      "Onde registrar sua proposta?"
+    ],
+    "estado": "destino corrigido"
+  },
+  {
+    "termo": "Passiva Própria (nome anterior)",
+    "destino": "catalogo--cat-passiva-propria",
+    "bloco": "catalogo--cat-passiva-propria",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Talento Próprio",
+      "Defina a aplicação",
+      "Limites"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Passo",
+    "destino": "catalogo--melhoria-passo",
+    "bloco": "catalogo--melhoria-passo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Passo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Patente",
+    "destino": "progressao--prog-patentes",
+    "bloco": "progressao--prog-patentes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Patentes"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "PE",
+    "destino": "rotas--rotas",
+    "bloco": "rotas--rotas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Perícia",
+    "destino": "pericias--pericias",
+    "bloco": "pericias--pericias",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Treino",
+      "Tentativas sem treino",
+      "Atributo e tarefa"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Perseguir",
+    "destino": "catalogo--melhoria-perseguir",
+    "bloco": "catalogo--melhoria-perseguir",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Perseguir"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Personalizar sua Origem",
+    "destino": "origens--legado-criar",
+    "bloco": "origens--legado-criar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Personalizar sua Origem",
+      "Famílias de Descendentes",
+      "Rever a Origem"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Pesada",
+    "destino": "fundamento--pontos",
+    "bloco": "fundamento--pontos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pontos e preços",
+      "Quantidade de peças"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Peso da Presença",
+    "destino": "indice-r59-peso-da-presenca",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "cabecalho_preciso": "Peso da Presença",
+    "titulos_da_secao": [
+      "Talentos de Categoria 2",
+      "Fluxo",
+      "Recomposição",
+      "Segunda Natureza",
+      "Eco",
+      "Costura",
+      "Contramedida",
+      "Peso da Presença"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Peso Morto",
+    "destino": "catalogo--restricao-peso-morto",
+    "bloco": "catalogo--restricao-peso-morto",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Peso Morto"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Pétala",
+    "destino": "aptidoes--apt-petala",
+    "bloco": "aptidoes--apt-petala",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pétala",
+      "Acerto por contato",
+      "Queda",
+      "Contra-ataque"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Planos em andamento",
+    "destino": "guia--guia-planos",
+    "bloco": "guia--guia-planos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Reajustar o Plano",
+      "Passar a Oportunidade"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Pontos",
+    "destino": "fundamento--pontos",
+    "bloco": "fundamento--pontos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pontos e preços",
+      "Quantidade de peças"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Pontos de energia",
+    "destino": "rotas--rotas",
+    "bloco": "rotas--rotas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Pontos de Esforço",
+    "destino": "rotas--rotas",
+    "bloco": "rotas--rotas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Pontos de montagem",
+    "destino": "fundamento--pontos",
+    "bloco": "fundamento--pontos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pontos e preços",
+      "Quantidade de peças"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Pontos de Ritual",
+    "destino": "ritual--ritual",
+    "bloco": "ritual--ritual",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ritual",
+      "Preparar a conjuração"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Pontos de vida",
+    "destino": "dano--dano",
+    "bloco": "dano--dano",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Dano",
+      "Resolução",
+      "Resistência, vulnerabilidade e imunidade",
+      "Acerto e dano"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Pontos de Vínculo",
+    "destino": "indice-r55-13",
+    "bloco": "evocador--ev-vinculo",
+    "cabecalho_preciso": "Pontos de Vínculo",
+    "titulos_da_secao": [
+      "Vínculo",
+      "Pontos de Vínculo",
+      "Escolher o aprimoramento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Precisão",
+    "destino": "catalogo--melhoria-precisao",
+    "bloco": "catalogo--melhoria-precisao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Precisão"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Prende",
+    "destino": "catalogo--melhoria-prende",
+    "bloco": "catalogo--melhoria-prende",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Prende"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Preparar",
+    "destino": "geral--preparar",
+    "bloco": "geral--preparar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Preparar",
+      "Escolha o gatilho e a resposta",
+      "Espere o evento terminar",
+      "Atacar ou se mover",
+      "Conjuração preparada"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Presilha",
+    "destino": "indice-r59-presilha",
+    "bloco": "rotas--rota-corpo",
+    "cabecalho_preciso": "Presilha",
+    "titulos_da_secao": [
+      "Bênçãos de corpo",
+      "Ímpeto",
+      "Casco",
+      "Presilha",
+      "Vigília"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Pressa",
+    "destino": "catalogo--melhoria-pressa",
+    "bloco": "catalogo--melhoria-pressa",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pressa"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Progressão do Guia",
+    "destino": "guia--guia-progressao",
+    "bloco": "guia--guia-progressao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Progressão do Caminho",
+      "Abrir Caminho"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Projetar Energia",
+    "destino": "aptidoes--apt-projetar",
+    "bloco": "aptidoes--apt-projetar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Projetar Energia",
+      "Ataque de energia"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Projétil",
+    "destino": "fundamento--formas",
+    "bloco": "fundamento--formas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Formas",
+      "Toque, Aura e proximidade",
+      "O que uma área distribui",
+      "Fora de combate"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Promessa",
+    "destino": "ritual--promessa",
+    "bloco": "ritual--promessa",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Promessa",
+      "Registro do acordo",
+      "Quebra"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Proteção",
+    "destino": "equip--eqp-protecao",
+    "bloco": "equip--eqp-protecao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Proteção",
+      "Uniforme",
+      "Escudo",
+      "Requisitos e carga"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Proteção de aliados",
+    "destino": "bastiao--bas-aliados",
+    "bloco": "bastiao--bas-aliados",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Chega Mais",
+      "Passa Pra Mim"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Pugilista",
+    "destino": "incursor--inc-pugilista",
+    "bloco": "incursor--inc-pugilista",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Pugilista",
+      "Progressão da Trilha",
+      "Resistência às habilidades"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Punho",
+    "destino": "bastiao--bas-punho",
+    "bloco": "bastiao--bas-punho",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Punho",
+      "Progressão da Trilha",
+      "Trocação Franca"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "PV",
+    "destino": "dano--dano",
+    "bloco": "dano--dano",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Dano",
+      "Resolução",
+      "Resistência, vulnerabilidade e imunidade",
+      "Acerto e dano"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Quebra Coisa",
+    "destino": "catalogo--melhoria-quebra-coisa",
+    "bloco": "catalogo--melhoria-quebra-coisa",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Quebra Coisa"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Quedas",
+    "destino": "geral--quedas",
+    "bloco": "geral--quedas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Quedas e movimento imposto",
+      "Dano de queda",
+      "Cair na água",
+      "Empurrões e movimento imposto"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Queima",
+    "destino": "catalogo--melhoria-queima",
+    "bloco": "catalogo--melhoria-queima",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Queima"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Queima-Roupa",
+    "destino": "catalogo--restricao-queima-roupa",
+    "bloco": "catalogo--restricao-queima-roupa",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Queima-Roupa"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Raiz",
+    "destino": "indice-r59-raiz",
+    "bloco": "catalogo--cat-passivas-1",
+    "cabecalho_preciso": "Raiz",
+    "titulos_da_secao": [
+      "Talentos de Categoria 1",
+      "Leitura",
+      "Instinto",
+      "Raiz",
+      "Mão Firme",
+      "Farejador",
+      "Leitura de Feitiços"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Rajada",
+    "destino": "catalogo--melhoria-rajada",
+    "bloco": "catalogo--melhoria-rajada",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Rajada"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Rápido",
+    "destino": "catalogo--melhoria-rapido",
+    "bloco": "catalogo--melhoria-rapido",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Rápido"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Rasga Escudo",
+    "destino": "catalogo--melhoria-rasga-escudo",
+    "bloco": "catalogo--melhoria-rasga-escudo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Rasga Escudo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Rastro",
+    "destino": "catalogo--melhoria-rastro",
+    "bloco": "catalogo--melhoria-rastro",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Rastro"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "RD",
+    "destino": "dano--reducao",
+    "bloco": "dano--reducao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Redução de Dano",
+      "Limites do efeito"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Reação",
+    "destino": "geral--oportunidade",
+    "bloco": "geral--oportunidade",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Reações e ataques de oportunidade",
+      "Ataque de oportunidade",
+      "Movimento que não provoca"
+    ],
+    "estado": "destino corrigido"
+  },
+  {
+    "termo": "Reação (Melhoria)",
+    "destino": "catalogo--melhoria-reacao",
+    "bloco": "catalogo--melhoria-reacao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Reação"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Reação coletiva",
+    "destino": "campo--inv-ciclo",
+    "bloco": "campo--inv-ciclo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Turnos das entidades"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Recarregar",
+    "destino": "equip--eqm-recarga",
+    "bloco": "equip--eqm-recarga",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Recarregar",
+      "Depois de disparar",
+      "Recarga completa ou parcial",
+      "Recarga entre ataques"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Receptáculo",
+    "destino": "origens--origem-receptaculo",
+    "bloco": "origens--origem-receptaculo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Receptáculo",
+      "Coexistência",
+      "Repertório Compartilhado",
+      "Amparo Interior"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Recolher",
+    "destino": "campo--inv-entrada",
+    "bloco": "campo--inv-entrada",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Manifestar e recolher"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Recomposição",
+    "destino": "indice-r59-recomposicao",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "cabecalho_preciso": "Recomposição",
+    "titulos_da_secao": [
+      "Talentos de Categoria 2",
+      "Fluxo",
+      "Recomposição",
+      "Segunda Natureza",
+      "Eco",
+      "Costura",
+      "Contramedida",
+      "Peso da Presença"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Reconstruir uma entidade",
+    "destino": "indice-r59-reconstruir-uma-entidade",
+    "bloco": "fabricacao--fab-conclusao",
+    "cabecalho_preciso": "Evolução e reconstrução",
+    "titulos_da_secao": [
+      "Conclusão, evolução e transferência",
+      "Evolução e reconstrução",
+      "Transferência e herança"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Recuo",
+    "destino": "catalogo--restricao-recuo",
+    "bloco": "catalogo--restricao-recuo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Recuo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Redução de Dano",
+    "destino": "dano--reducao",
+    "bloco": "dano--reducao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Redução de Dano",
+      "Limites do efeito"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Refino",
+    "destino": "aptidoes--apt-refino",
+    "bloco": "aptidoes--apt-refino",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Treinamento e energia",
+      "Valores da ficha"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Regra",
+    "destino": "fundamento--tecnica",
+    "bloco": "fundamento--tecnica",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sua técnica",
+      "Descrição e Regra",
+      "Registre as consequências",
+      "Pequenas manifestações",
+      "Se sua técnica usa entidades"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Regra da técnica",
+    "destino": "fundamento--tecnica",
+    "bloco": "fundamento--tecnica",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sua técnica",
+      "Descrição e Regra",
+      "Registre as consequências",
+      "Pequenas manifestações",
+      "Se sua técnica usa entidades"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Regra do Fundamento",
+    "destino": "fundamento--tecnica",
+    "bloco": "fundamento--tecnica",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sua técnica",
+      "Descrição e Regra",
+      "Registre as consequências",
+      "Pequenas manifestações",
+      "Se sua técnica usa entidades"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Regra Própria",
+    "destino": "catalogo--cat-regra-propria",
+    "bloco": "catalogo--cat-regra-propria",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Regra Própria"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Regravação",
+    "destino": "aptidoes--apt-regravacao",
+    "bloco": "aptidoes--apt-regravacao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Regravação",
+      "Marcas"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Religar",
+    "destino": "campo--inv-retorno",
+    "bloco": "campo--inv-retorno",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Retorno e corpos caídos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Remate",
+    "destino": "catalogo--melhoria-remate",
+    "bloco": "catalogo--melhoria-remate",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Remate"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Remenda",
+    "destino": "catalogo--melhoria-remenda",
+    "bloco": "catalogo--melhoria-remenda",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Remenda"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Reparar",
+    "destino": "indice-r55-14",
+    "bloco": "campo--inv-reparo",
+    "cabecalho_preciso": "Reparar",
+    "titulos_da_secao": [
+      "Cura e reparo",
+      "Reparar"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Represália",
+    "destino": "indice-r59-represalia",
+    "bloco": "rotas--rota-combate",
+    "cabecalho_preciso": "Represália",
+    "titulos_da_secao": [
+      "Bênçãos de combate",
+      "Esteio",
+      "Antecipar",
+      "Represália",
+      "Sangue Frio",
+      "Campo",
+      "Assombro"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Rescaldo",
+    "destino": "poderes--rescaldo",
+    "bloco": "poderes--rescaldo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Encerramento e Rescaldo",
+      "Técnica indisponível"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Reserva",
+    "destino": "catalogo--melhoria-reserva",
+    "bloco": "catalogo--melhoria-reserva",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Reserva"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Reserva Profunda",
+    "destino": "indice-r59-reserva-profunda",
+    "bloco": "catalogo--cat-passivas-3",
+    "cabecalho_preciso": "Reserva Profunda",
+    "titulos_da_secao": [
+      "Talentos de Categoria 3",
+      "Escama",
+      "Afinidade",
+      "Reserva Profunda"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Ressonante",
+    "destino": "emanador--ema-eco",
+    "bloco": "emanador--ema-eco",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ressonante",
+      "Progressão da Trilha",
+      "Eco Técnico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Restrição",
+    "destino": "fundamento--restricoes",
+    "bloco": "fundamento--restricoes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Restrições",
+      "Escolha uma dificuldade real",
+      "Combinações",
+      "Revisão"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Restrição Celestial",
+    "destino": "origens--origem-restricao",
+    "bloco": "origens--origem-restricao",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Restrição Celestial"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Restrição Celestial sem energia (criação)",
+    "destino": "rotas--rota-marcial",
+    "bloco": "rotas--rota-marcial",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Técnica Marcial",
+      "Criação",
+      "Desenvolvimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Restrição corporal",
+    "destino": "origens--restricao-corpo",
+    "bloco": "origens--restricao-corpo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Restrição corporal",
+      "Criar sua Restrição"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Restrição Própria",
+    "destino": "catalogo--restricao-restricao-propria",
+    "bloco": "catalogo--restricao-restricao-propria",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Restrição Própria"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Retorno",
+    "destino": "campo--inv-retorno",
+    "bloco": "campo--inv-retorno",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Retorno e corpos caídos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Revestimento",
+    "destino": "equip--eqp-escudo",
+    "bloco": "equip--eqp-escudo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Revestimentos e escudos",
+      "Revestimentos",
+      "Escudos",
+      "Mão ocupada"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ritual",
+    "destino": "ritual--ritual",
+    "bloco": "ritual--ritual",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ritual",
+      "Preparar a conjuração"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Rodada",
+    "destino": "geral--turnos",
+    "bloco": "geral--turnos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Turnos",
+      "Iniciativa",
+      "Recursos do turno",
+      "Conversão de ações",
+      "Movimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Rodada inteira",
+    "destino": "geral--turnos",
+    "bloco": "geral--turnos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Turnos",
+      "Iniciativa",
+      "Recursos do turno",
+      "Conversão de ações",
+      "Movimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Rompe",
+    "destino": "equip--eq-propriedades",
+    "bloco": "equip--eq-propriedades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Propriedades",
+      "Distância de disparo e arremesso",
+      "Par e crítico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Ruptura",
+    "destino": "rotas--rota-marcial",
+    "bloco": "rotas--rota-marcial",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Técnica Marcial",
+      "Criação",
+      "Desenvolvimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sacar e guardar",
+    "destino": "equip--eq-manipular",
+    "bloco": "equip--eq-manipular",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sacar e guardar",
+      "Trocar de arma",
+      "Mãos disponíveis"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Saldo",
+    "destino": "fundamento-link-saldo",
+    "bloco": "fundamento--pontos",
+    "cabecalho_preciso": "Cálculo dos pontos",
+    "titulos_da_secao": [
+      "Pontos e preços",
+      "Quantidade de peças"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Salto",
+    "destino": "catalogo--melhoria-salto",
+    "bloco": "catalogo--melhoria-salto",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Salto"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Saltos",
+    "destino": "geral--saltos",
+    "bloco": "geral--saltos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Saltos",
+      "Distância e impulso",
+      "Esforço e obstáculos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sangra",
+    "destino": "catalogo--restricao-sangra",
+    "bloco": "catalogo--restricao-sangra",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sangra"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sangue Frio",
+    "destino": "indice-r59-sangue-frio",
+    "bloco": "rotas--rota-combate",
+    "cabecalho_preciso": "Sangue Frio",
+    "titulos_da_secao": [
+      "Bênçãos de combate",
+      "Esteio",
+      "Antecipar",
+      "Represália",
+      "Sangue Frio",
+      "Campo",
+      "Assombro"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Segunda Natureza",
+    "destino": "indice-r59-segunda-natureza",
+    "bloco": "catalogo--cat-passivas-2-recursos",
+    "cabecalho_preciso": "Segunda Natureza",
+    "titulos_da_secao": [
+      "Talentos de Categoria 2",
+      "Fluxo",
+      "Recomposição",
+      "Segunda Natureza",
+      "Eco",
+      "Costura",
+      "Contramedida",
+      "Peso da Presença"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Segundo Fôlego",
+    "destino": "indice-r59-segundo-folego",
+    "bloco": "rotas--rota-passivas-resposta",
+    "cabecalho_preciso": "Segundo Fôlego",
+    "titulos_da_secao": [
+      "Talentos de resposta",
+      "Segundo Fôlego",
+      "Contragolpe",
+      "Aliança"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Segura",
+    "destino": "catalogo--melhoria-segura",
+    "bloco": "catalogo--melhoria-segura",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Segura"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Selo",
+    "destino": "indice-r55-15",
+    "bloco": "fundamento--selo",
+    "cabecalho_preciso": "Selo",
+    "titulos_da_secao": [
+      "Selo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sem Cobertura",
+    "destino": "catalogo--melhoria-sem-cobertura",
+    "bloco": "catalogo--melhoria-sem-cobertura",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sem Cobertura"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sem Cura",
+    "destino": "catalogo--melhoria-sem-cura",
+    "bloco": "catalogo--melhoria-sem-cura",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sem Cura"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sem Pegada",
+    "destino": "indice-r59-sem-pegada",
+    "bloco": "rotas--rota-perseguicao",
+    "cabecalho_preciso": "Sem Pegada",
+    "titulos_da_secao": [
+      "Bênçãos de perseguição",
+      "Faro",
+      "Sem Pegada",
+      "Vulto"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Sem Técnica (Origem)",
+    "destino": "origens--origem-sem-tecnica",
+    "bloco": "origens--origem-sem-tecnica",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sem Técnica"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sem Técnica (rota e criação)",
+    "destino": "rotas--rota-sem-tecnica",
+    "bloco": "rotas--rota-sem-tecnica",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sem Técnica",
+      "Criação",
+      "Semente e Manejos"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sem Ver",
+    "destino": "catalogo--melhoria-sem-ver",
+    "bloco": "catalogo--melhoria-sem-ver",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sem Ver"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sem Volta",
+    "destino": "catalogo--restricao-sem-volta",
+    "bloco": "catalogo--restricao-sem-volta",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sem Volta"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sentir Energia",
+    "destino": "geral--mundo",
+    "bloco": "geral--mundo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Percepção de energia",
+      "Fonte e portador",
+      "Limites da leitura"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sequela",
+    "destino": "dano--sequelas",
+    "bloco": "dano--sequelas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sequelas e Cicatrizes",
+      "Cicatrizes"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Silencioso",
+    "destino": "catalogo--melhoria-silencioso",
+    "bloco": "catalogo--melhoria-silencioso",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Silencioso"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sobrecarga",
+    "destino": "catalogo--melhoria-sobrecarga",
+    "bloco": "catalogo--melhoria-sobrecarga",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sobrecarga"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sobrecarga e fluxo",
+    "destino": "emanador--ema-fluxo",
+    "bloco": "emanador--ema-fluxo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sobrecarregar Energia",
+      "Fluxo Contínuo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sobrecusto",
+    "destino": "catalogo--restricao-sobrecusto",
+    "bloco": "catalogo--restricao-sobrecusto",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sobrecusto"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Socorrista",
+    "destino": "guia--guia-socorrista",
+    "bloco": "guia--guia-socorrista",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Socorrista",
+      "Progressão da Trilha",
+      "Cuidado Preparado",
+      "Receber o socorro antes"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Socorro",
+    "destino": "dano--socorro",
+    "bloco": "dano--socorro",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Socorro",
+      "Cura",
+      "Resgates expressos",
+      "Estabilizar"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Socorro de emergência",
+    "destino": "guia--guia-emergencia-cuidado",
+    "bloco": "guia--guia-emergencia-cuidado",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ainda Há Tempo",
+      "Atendimento em Cadeia"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Sugar",
+    "destino": "catalogo--melhoria-sugar",
+    "bloco": "catalogo--melhoria-sugar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Sugar"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Surdo",
+    "destino": "indice-r55-16",
+    "bloco": "dano--leves",
+    "cabecalho_preciso": "Surdo",
+    "titulos_da_secao": [
+      "Condições leves",
+      "Lento",
+      "Guarda Aberta",
+      "Derrubado",
+      "Agarrado",
+      "Desarmado",
+      "Surdo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Talento",
+    "destino": "fundamento-link-capacidades",
+    "bloco": "fundamento-link-capacidades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Capacidades da técnica",
+      "Expressão da técnica",
+      "Talentos pagos",
+      "Onde registrar sua proposta?"
+    ],
+    "estado": "destino corrigido"
+  },
+  {
+    "termo": "Talento de Categoria de Efeito 4",
+    "destino": "origens--restricao-ce4",
+    "bloco": "origens--restricao-ce4",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Talento de Categoria de Efeito 4",
+      "Rede Remota",
+      "Outras referências de criação"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Talento Próprio",
+    "destino": "catalogo--cat-passiva-propria",
+    "bloco": "catalogo--cat-passiva-propria",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Talento Próprio",
+      "Defina a aplicação",
+      "Limites"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Talha",
+    "destino": "equip--eq-propriedades",
+    "bloco": "equip--eq-propriedades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Propriedades",
+      "Distância de disparo e arremesso",
+      "Par e crítico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Talismã",
+    "destino": "campo--inv-talisma",
+    "bloco": "campo--inv-talisma",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Talismãs"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Técnica amaldiçoada",
+    "destino": "ab--ab-mundo",
+    "bloco": "ab--ab-mundo",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Mundo jujutsu",
+      "Maldições",
+      "Energia e técnicas",
+      "Ver e perceber"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Técnica Marcial",
+    "destino": "rotas--rota-marcial",
+    "bloco": "rotas--rota-marcial",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Técnica Marcial",
+      "Criação",
+      "Desenvolvimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Técnica Máxima",
+    "destino": "fundamento--maxima",
+    "bloco": "fundamento--maxima",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Técnica Máxima",
+      "Montagem",
+      "Ação e recarga",
+      "Restrições",
+      "Ataque, cura e utilidade",
+      "Dano ou cura",
+      "Um ataque com outra função",
+      "Aplicação sem dano",
+      "Melhorias da Técnica Máxima",
+      "Efeito próprio em combate",
+      "Progressão"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Tempo (Família)",
+    "destino": "fundamento-link-guia-familias",
+    "bloco": "fundamento--fundamento",
+    "cabecalho_preciso": "Conheça as Famílias",
+    "titulos_da_secao": [
+      "Criar sua técnica"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Terreno",
+    "destino": "catalogo--melhoria-terreno",
+    "bloco": "catalogo--melhoria-terreno",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Terreno"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Teste",
+    "destino": "geral--testes",
+    "bloco": "geral--testes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Testes",
+      "Dificuldade",
+      "Sucesso e falha"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Teste de Resistência",
+    "destino": "geral--resistencia",
+    "bloco": "geral--resistencia",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Testes de Resistência",
+      "CD e resultado",
+      "Ataques e defesas"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Teto",
+    "destino": "fundamento--danolimites",
+    "bloco": "fundamento--danolimites",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Dano e repetições",
+      "Áreas e ataques divididos",
+      "Dados adicionais da própria montagem"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Toca a Alma",
+    "destino": "catalogo--melhoria-toca-a-alma",
+    "bloco": "catalogo--melhoria-toca-a-alma",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Toca a Alma"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Toque",
+    "destino": "fundamento--formas",
+    "bloco": "fundamento--formas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Formas",
+      "Toque, Aura e proximidade",
+      "O que uma área distribui",
+      "Fora de combate"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Toque e proximidade",
+    "destino": "fundamento--formas",
+    "bloco": "fundamento--formas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Formas",
+      "Toque, Aura e proximidade",
+      "O que uma área distribui",
+      "Fora de combate"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "TR",
+    "destino": "geral--resistencia",
+    "bloco": "geral--resistencia",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Testes de Resistência",
+      "CD e resultado",
+      "Ataques e defesas"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Traço",
+    "destino": "origens--origens",
+    "bloco": "origens--origens",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Traje",
+    "destino": "equip--eqp-traje",
+    "bloco": "equip--eqp-traje",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Trajes",
+      "Situação do Traje",
+      "Escolhas e progressão",
+      "Situação própria"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Transferência e herança",
+    "destino": "indice-r59-transferencia-e-heranca",
+    "bloco": "fabricacao--fab-conclusao",
+    "cabecalho_preciso": "Transferência e herança",
+    "titulos_da_secao": [
+      "Conclusão, evolução e transferência",
+      "Evolução e reconstrução",
+      "Transferência e herança"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Tratamento necessário",
+    "destino": "dano--zero",
+    "bloco": "dano--zero",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Vida a zero",
+      "Contagem da janela",
+      "Aguentar"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Trava",
+    "destino": "catalogo--melhoria-trava",
+    "bloco": "catalogo--melhoria-trava",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Trava"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Treino",
+    "destino": "geral--pericias",
+    "bloco": "geral--pericias",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Treino e modificadores",
+      "Especialização",
+      "Vantagem e desvantagem",
+      "Arredondamento",
+      "Testes de grupo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Trilha",
+    "destino": "ab--ab-caminho",
+    "bloco": "ab--ab-caminho",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Caminho e Trilha",
+      "Treino com armas",
+      "Escolhas que se combinam"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Trocar de entidade",
+    "destino": "campo--inv-troca",
+    "bloco": "campo--inv-troca",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Trocar de entidade"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Trocar de Trilha",
+    "destino": "progressao--prog-trilhas",
+    "bloco": "progressao--prog-trilhas",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Trocar de Trilha",
+      "Conferência da mudança"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Tudo ou Nada",
+    "destino": "catalogo--restricao-tudo-ou-nada",
+    "bloco": "catalogo--restricao-tudo-ou-nada",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Tudo ou Nada"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Turno",
+    "destino": "geral--turnos",
+    "bloco": "geral--turnos",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Turnos",
+      "Iniciativa",
+      "Recursos do turno",
+      "Conversão de ações",
+      "Movimento"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Uma Vez",
+    "destino": "catalogo--restricao-uma-vez",
+    "bloco": "catalogo--restricao-uma-vez",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Uma Vez"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Uso limitado",
+    "destino": "ab--ab-conferencia",
+    "bloco": "ab--ab-conferencia",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Ficha pronta",
+      "Capacidades na ficha",
+      "Registro da missão"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Uso Livre",
+    "destino": "fundamento--livre",
+    "bloco": "fundamento--livre",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Uso Livre",
+      "Aplicações livres",
+      "Informação e obstáculos",
+      "Quando preparar um feitiço"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Vanguarda",
+    "destino": "vanguarda--van-base",
+    "bloco": "vanguarda--van-base",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Vanguarda",
+      "Características",
+      "Progressão do Caminho"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Vantagem",
+    "destino": "geral--pericias",
+    "bloco": "geral--pericias",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Treino e modificadores",
+      "Especialização",
+      "Vantagem e desvantagem",
+      "Arredondamento",
+      "Testes de grupo"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Vasculhar",
+    "destino": "geral--procurar",
+    "bloco": "geral--procurar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Vasculhar",
+      "Qual procedimento usar"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Vasculhar com Sentir Energia",
+    "destino": "geral--buscar",
+    "bloco": "geral--buscar",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Vasculhar com Sentir Energia",
+      "Resolva a busca",
+      "Resultados"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Versado",
+    "destino": "vanguarda--van-escola",
+    "bloco": "vanguarda--van-escola",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Prazo e troca de alvo",
+      "Escola de Arma"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Versátil",
+    "destino": "equip--eq-propriedades",
+    "bloco": "equip--eq-propriedades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Propriedades",
+      "Distância de disparo e arremesso",
+      "Par e crítico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Vestida",
+    "destino": "equip--eq-propriedades",
+    "bloco": "equip--eq-propriedades",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Propriedades",
+      "Distância de disparo e arremesso",
+      "Par e crítico"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Vida temporária",
+    "destino": "dano--temporarios",
+    "bloco": "dano--temporarios",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Vida e energia temporárias",
+      "Receber outra fonte",
+      "Limites"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Vida temporária (função)",
+    "destino": "fundamento--funcoes",
+    "bloco": "fundamento--funcoes",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Funções e saldo",
+      "Escolha o destino do saldo",
+      "Cura e vida temporária"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Vigília",
+    "destino": "indice-r59-vigilia",
+    "bloco": "rotas--rota-corpo",
+    "cabecalho_preciso": "Vigília",
+    "titulos_da_secao": [
+      "Bênçãos de corpo",
+      "Ímpeto",
+      "Casco",
+      "Presilha",
+      "Vigília"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "Volume",
+    "destino": "geral--carga",
+    "bloco": "geral--carga",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Carga",
+      "Volume dos itens",
+      "Objetos sem Volume definido e criaturas",
+      "Erguer"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Volumosa",
+    "destino": "equip--eq-oculta",
+    "bloco": "equip--eq-oculta",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Armas escondidas",
+      "Observação e revista",
+      "Outras armas e restrições"
+    ],
+    "estado": "preservado"
+  },
+  {
+    "termo": "Vulto",
+    "destino": "indice-r59-vulto",
+    "bloco": "rotas--rota-perseguicao",
+    "cabecalho_preciso": "Vulto",
+    "titulos_da_secao": [
+      "Bênçãos de perseguição",
+      "Faro",
+      "Sem Pegada",
+      "Vulto"
+    ],
+    "estado": "acrescentado"
+  },
+  {
+    "termo": "XP",
+    "destino": "progressao--prog-xp",
+    "bloco": "progressao--prog-xp",
+    "cabecalho_preciso": null,
+    "titulos_da_secao": [
+      "Recompensas e custos",
+      "Subir de nível"
+    ],
+    "estado": "preservado"
+  }
+]

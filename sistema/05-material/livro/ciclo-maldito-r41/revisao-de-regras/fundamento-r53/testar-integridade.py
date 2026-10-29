@@ -1,4 +1,4 @@
-# Entrada mantida por compatibilidade; a guarda confere a fonte corrente R58.
+# Entrada mantida por compatibilidade; a guarda confere a fonte corrente R59.
 import builtins, contextlib, io, json, os, re, runpy, sys
 from pathlib import Path
 from unittest.mock import patch
@@ -6,7 +6,7 @@ raiz=Path(__file__).resolve().parents[6]
 fonte=raiz/'sistema/05-material/livro/ciclo-maldito-r41/LIVRO-COMPLETO.md'
 registro=fonte.parent/'revisao-de-regras/alteracoes/R52-para-R53.json'
 codigo=(raiz/'conferir-repositorio.py').read_text()
-inicio=codigo.index("bloco('12. FONTE R58")
+inicio=codigo.index("bloco('12. FONTE R59")
 fim=codigo.index('# --------------------------------------------------------------------------',inicio)
 trecho=codigo[inicio:fim]
 texto=fonte.read_text()

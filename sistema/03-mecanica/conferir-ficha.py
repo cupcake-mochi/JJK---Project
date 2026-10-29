@@ -786,14 +786,18 @@ print('=' * 88)
 # passar a declarar, a fonte muda para ela. Nenhum nome de Familia e nenhuma contagem estao
 # escritos aqui.
 _EXT8 = {'sete': 7, 'oito': 8, 'nove': 9, 'dez': 10, 'onze': 11, 'doze': 12,
-         'duas': 2, 'dois': 2, 'três': 3, 'tres': 3}
+         'duas': 2, 'dois': 2, 'três': 3, 'tres': 3, 'quatro': 4, 'cinco': 5, 'seis': 6}
 import livro as _livro8
 try:
     _fam_livro = _livro8.familias()
 except _livro8.LivroMudou:
     _fam_livro = None
 _mfam = _fam_livro
-_mqtd = re.search(r"(?:se dividem em|resumo das) (\w+) Famílias", _livro8.limpa(_livro8.texto('fundamento')))
+# R58: a frase "o resumo das nove Famílias" saiu na revisão didática. A contagem passa a
+# vir da escolha da criação, que reparte TODAS as Famílias: duas Livres, três Fechadas e
+# "as N restantes". A soma das três partes é o total que o livro afirma.
+_mqtd = re.search(r"escolha (\w+) Famílias Livres e (\w+) Fechadas\. As (\w+) restantes",
+                  _livro8.limpa(_livro8.texto('fundamento')))
 _fam_ficha = lista_js('FAMILIAS')
 if not _mfam or not _mqtd:
     erro('8: nao achei a tabela de Familias no Fundamento do livro, ou a frase que diz quantas '
@@ -802,10 +806,11 @@ elif _fam_ficha is None:
     erro('8: nao achei FAMILIAS no dados.js da ficha')
 else:
     _fam_manual = list(_fam_livro)
-    _qtd = _EXT8.get(_mqtd.group(1).lower())
+    _partes = [_EXT8.get(g.lower()) for g in _mqtd.groups()]
+    _qtd = None if None in _partes else sum(_partes)
     if _qtd is None or len(_fam_manual) != _qtd:
-        erro(f'8: li {len(_fam_manual)} Familias na tabela do livro, e a frase dele diz '
-             f'"{_mqtd.group(1)}" — a leitura esta errada, conserte ela antes de confiar')
+        erro(f'8: li {len(_fam_manual)} Familias na tabela do livro, e a criação reparte '
+             f'"{" + ".join(_mqtd.groups())}" — a leitura esta errada, conserte ela antes de confiar')
     else:
         _sobra = [f for f in _fam_ficha if f not in _fam_manual]
         _falta = [f for f in _fam_manual if f not in _fam_ficha]

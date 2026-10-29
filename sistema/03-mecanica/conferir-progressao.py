@@ -377,7 +377,8 @@ if LIVRO is not None:
     # os eventos que so o livro escreve: a prosa embaixo de cada metade da tabela
     _prosa = re.sub(r'\*', '', _prog)
     _lm1 = re.search(r'A primeira Liberação Máxima(?:, um feitiço preparado com mais dano e exigências próprias,)? chega no (\d+)', _prosa)
-    _tm = re.search(r'A Técnica Máxima chega no (\d+); as outras Liberações Máximas, no (\d+) e no (\d+)', _prosa)
+    # R59: o nome virou link e ganhou um aposto ("A [Técnica Máxima](...), uma aplicação ..., chega no").
+    _tm = re.search(r'A \[?Técnica Máxima\]?(?:\([^)]*\))?(?:, [^,;]+,)? chega no (\d+); as outras Liberações Máximas, no (\d+) e no (\d+)', _prosa)
     if not _lm1 or not _tm:
         erro('7: o livro parou de dizer em que nivel chegam a Tecnica Maxima e as '
              'Liberacoes Maximas — ele mudou de forma e esta checagem parou de conferir')

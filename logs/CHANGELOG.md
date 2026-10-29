@@ -8,6 +8,23 @@ Formato: `## [versão] — data` com as seções `Adicionado`, `Alterado`, `Remo
 
 ---
 
+## [0.368] - 29/10/2026
+
+### Alterado
+
+- Integração da R58 (28/10), que entrou sem entrada aqui: Fundamento e Catálogo revisados, 420 páginas, 45 blocos alterados, com a Regra Própria antes do primeiro feitiço.
+- Integração da R59, clara e noturna, com 425 páginas. A revisão didática por capítulos soma 510 operações editoriais em 227 blocos e nenhuma mudança de regra. O Índice passou de 346 para 452 verbetes, e dez destinos foram corrigidos.
+- A guarda de integridade agora cobre a cadeia R52 a R59. A fonte publicada, os blocos da R59 e o registro `R58-para-R59.json` ficam em `editorial-r59/` e `alteracoes/`.
+- Sete validadores cobravam frases que a revisão reescreveu e foram atualizados: ficha (8) e manual (4n e 4o) já falhavam na R58, e aptidões (9.1), atributos (9.8), Bloquear (9c), progressão (7) e Ritual (7.2) falhariam na R59. A regra conferida é a mesma; a frase cobrada é a nova. Cada checagem acendeu num teste negativo em cópia isolada.
+
+### Decidido
+
+- A contagem das nove Famílias passa a sair da escolha da criação: duas Livres, três Fechadas e quatro restantes. A frase "o resumo das nove Famílias" saiu do livro na R58.
+
+→ Continua em `sistema/ESTADO-ATUAL.md`, com a publicação da R59 na Vercel.
+
+---
+
 ## [0.367] - 25/10/2026
 
 ### Alterado

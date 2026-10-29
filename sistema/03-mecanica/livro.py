@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Leitura da edição atual, R58. Os identificadores R41 são mantidos por compatibilidade.
+"""Leitura da edição atual, R59. Os identificadores R41 são mantidos por compatibilidade.
 
 O R41 passou a ser fonte na v0.346; antes dele,
 da v0.337 à v0.345, o livro reconstruído (a candidata).

@@ -1,0 +1,74 @@
+[
+  {
+    "teste": "controle",
+    "rejeitou": false,
+    "resultado": "passou"
+  },
+  {
+    "teste": "cabeçalho",
+    "rejeitou": true,
+    "resultado": "passou"
+  },
+  {
+    "teste": "corpo",
+    "rejeitou": true,
+    "resultado": "passou"
+  },
+  {
+    "teste": "bloco retirado",
+    "rejeitou": true,
+    "resultado": "passou"
+  },
+  {
+    "teste": "registro incompleto",
+    "rejeitou": true,
+    "resultado": "passou"
+  },
+  {
+    "teste": "voz legado preservado",
+    "codigo": 0,
+    "resultado": "passou"
+  },
+  {
+    "teste": "voz legado com novo achado",
+    "codigo": 1,
+    "resultado": "passou"
+  }
+]
+[
+  {
+    "teste": "controle",
+    "rejeitou": false,
+    "resultado": "passou"
+  },
+  {
+    "teste": "cabeçalho",
+    "rejeitou": true,
+    "resultado": "passou"
+  },
+  {
+    "teste": "corpo",
+    "rejeitou": true,
+    "resultado": "passou"
+  },
+  {
+    "teste": "bloco retirado",
+    "rejeitou": true,
+    "resultado": "passou"
+  },
+  {
+    "teste": "registro incompleto",
+    "rejeitou": true,
+    "resultado": "passou"
+  },
+  {
+    "teste": "voz legado preservado",
+    "codigo": 0,
+    "resultado": "passou"
+  },
+  {
+    "teste": "voz legado com novo achado",
+    "codigo": 1,
+    "resultado": "passou"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "arquivo": "fontes-por-capitulo/00-abertura.md",
+    "sha256": "f34e24d9f77b9adc65b4c52c65cefaf596c1d9a044680f98560d5a24d928cebf"
+  },
+  {
+    "capitulo": 1,
+    "titulo": "Ciclo Maldito",
+    "arquivo": "fontes-por-capitulo/01.md",
+    "sha256": "f99e1e8b04ccb2de95540776fc738af2e3e7f4d077dd2fe69c52f2b7fdbb924a"
+  },
+  {
+    "capitulo": 2,
+    "titulo": "Regras gerais",
+    "arquivo": "fontes-por-capitulo/02.md",
+    "sha256": "50c9a0fcaa4e4cbc805a523ba16f53f7b9f05f18a2316530cf2d57efa7370e3d"
+  },
+  {
+    "capitulo": 3,
+    "titulo": "Dano e recuperação",
+    "arquivo": "fontes-por-capitulo/03.md",
+    "sha256": "6fd6f5913dd6642d3023b9753f2fece24f0045ec3cbc8cb42bf991f6d3b2e3d3"
+  },
+  {
+    "capitulo": 4,
+    "titulo": "Criar um personagem",
+    "arquivo": "fontes-por-capitulo/04.md",
+    "sha256": "87b30089ad0eae7980a908f82932379514131c5c2744ffb97e78b35cf09a4985"
+  },
+  {
+    "capitulo": 5,
+    "titulo": "Origens",
+    "arquivo": "fontes-por-capitulo/05.md",
+    "sha256": "981a3c52f37801c0f541300d2a7ede6cf7ce2a70e050a1fbefdebf7e57c4a286"
+  },
+  {
+    "capitulo": 6,
+    "titulo": "Caminhos e Trilhas",
+    "arquivo": "fontes-por-capitulo/06.md",
+    "sha256": "daa6694545cc12441f3490ed75359520ef781fa23abc0d30a5bc0426643f172a"
+  },
+  {
+    "capitulo": 7,
+    "titulo": "Perícias e Ofícios",
+    "arquivo": "fontes-por-capitulo/07.md",
+    "sha256": "83f97bf7fdbf99c4a976e7bf588d28bfc0d2637e05f6d6a0c1fbd4ff24f4dd83"
+  },
+  {
+    "capitulo": 8,
+    "titulo": "Equipamento",
+    "arquivo": "fontes-por-capitulo/08.md",
+    "sha256": "aa932e833221826f5d0a8d4289da35fa1812ee62a84c81513bb7b611e2beb9e5"
+  },
+  {
+    "capitulo": 9,
+    "titulo": "Progressão",
+    "arquivo": "fontes-por-capitulo/09.md",
+    "sha256": "22d47467d8460a09985821bc0d6ba06f5c629de7b7a0bd2b85d4f60d6fa814e8"
+  },
+  {
+    "capitulo": 10,
+    "titulo": "Fundamento",
+    "arquivo": "fontes-por-capitulo/10.md",
+    "sha256": "d79f7e015724f297eb89093680f9766263eebe28f26f3e9847f4e1f552f70001"
+  },
+  {
+    "capitulo": 11,
+    "titulo": "Catálogo de criação",
+    "arquivo": "fontes-por-capitulo/11.md",
+    "sha256": "3ccce7659bfaffd8e2a02022afad5d6daed165012aa98df971688b4931a22bed"
+  },
+  {
+    "capitulo": 12,
+    "titulo": "Aptidões e Refino",
+    "arquivo": "fontes-por-capitulo/12.md",
+    "sha256": "77bd2cb364c9dd35fcb8fc6f4d2e7719ed6079690bf7f5ae9234d678848ab011"
+  },
+  {
+    "capitulo": 13,
+    "titulo": "Rotas de criação",
+    "arquivo": "fontes-por-capitulo/13.md",
+    "sha256": "905d2c49681f19537a88f7822d356c81a8be5c6787328f4d7c3406fcac034286"
+  },
+  {
+    "capitulo": 14,
+    "titulo": "Poderes avançados",
+    "arquivo": "fontes-por-capitulo/14.md",
+    "sha256": "9ce1e79b0f2fcc76100605ceac1051688e4bc3cc76342785ce3424638d9764ff"
+  },
+  {
+    "capitulo": 15,
+    "titulo": "Ritual e Pactos",
+    "arquivo": "fontes-por-capitulo/15.md",
+    "sha256": "f2c8b340af5fb733de9f741806756fd8e14301fccb646f706bd5da5263c30a21"
+  },
+  {
+    "capitulo": 16,
+    "titulo": "Invocações em campo",
+    "arquivo": "fontes-por-capitulo/16.md",
+    "sha256": "b95413ce98158903f14cb0d2631501b294b87240e5faaaa155058bbc6e80b6cd"
+  },
+  {
+    "capitulo": 17,
+    "titulo": "Construir invocações",
+    "arquivo": "fontes-por-capitulo/17.md",
+    "sha256": "f1ec8807e17f87ef04b27848181f77ec6260d060c2c23a247dcba223605ed03c"
+  },
+  {
+    "capitulo": 18,
+    "titulo": "Mestrar",
+    "arquivo": "fontes-por-capitulo/18.md",
+    "sha256": "9ed2916746de8ed273f5c025ad0b64d85cb2dcf10c80f62d458be5c4d022bdfc"
+  },
+  {
+    "capitulo": 19,
+    "titulo": "Glossário",
+    "arquivo": "fontes-por-capitulo/19.md",
+    "sha256": "bf98bad5454d8f83b4e579931ab7a0f6cdd6c582d6c134983a7be4bef8c861f8"
+  },
+  {
+    "capitulo": 20,
+    "titulo": "Consulta rápida",
+    "arquivo": "fontes-por-capitulo/20.md",
+    "sha256": "f63ee96da25a475968a018f9e61414867ed5e643acf09773f5813ca02931de31"
+  },
+  {
+    "capitulo": 21,
+    "titulo": "Índice",
+    "arquivo": "fontes-por-capitulo/21.md",
+    "sha256": "5d3c2ef8e26fa101ac7ac0d07df9cc5b206336a56dd20b3cbad34f28c1067d60"
+  }
+]

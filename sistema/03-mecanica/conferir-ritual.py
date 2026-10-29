@@ -309,7 +309,8 @@ else:
 
 # e) as frases das decisoes: no R41, e na peca.
 _VALE72 = [
-    ('42', 'sem Pontos de Ritual e com a Classe a menos em dados de dano'),
+    # R59: a revisão didática reescreveu a frase; a regra (perde Classe em dados de dano) é a mesma.
+    ('42', 'retire dos dados de dano uma quantidade igual à Classe do feitiço'),
     ('42', 'A falha não cobra PE adicionais do conjurador'),
     ('42', '**cada auxiliar perde PE iguais à Classe**'),
     ('47', 'Rerrole os dados de dano que caírem no mínimo, até Classe + 1 deles'),

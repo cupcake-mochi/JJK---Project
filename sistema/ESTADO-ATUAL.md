@@ -1,4 +1,14 @@
-# Edição corrente R58
+# Edição corrente R59
+
+**Versão v0.368.**
+
+A revisão didática por capítulos foi integrada aos dois PDFs, agora com 425 páginas. Ela soma 510 operações editoriais em 227 blocos dos capítulos 2 a 9 e 12 a 21, sem mudar regra. O Índice passou de 346 para 452 verbetes. A cadeia de integridade cobre R52 a R59.
+
+Sete validadores cobravam frases que a revisão reescreveu. Eles agora leem a redação nova, e cada um ganhou teste negativo. A contagem das nove Famílias passou a sair da escolha da criação (duas Livres, três Fechadas e quatro restantes).
+
+Falta publicar a R59 na Vercel. O repositório `JJK---PDF---RPG` ainda serve a R58.
+
+# Edição anterior R58
 
 Fundamento e Catálogo aprovados integrados aos dois PDFs de 420 páginas. A revisão editorial registra 45 blocos alterados, preservando as regras. A ordem de composição acompanha a fonte aprovada e apresenta a Regra Própria antes do primeiro feitiço. A cadeia de integridade cobre R52 a R58. A revisão estrutural adicional por capítulo está em andamento.
 
@@ -6,7 +16,7 @@ Fundamento e Catálogo aprovados integrados aos dois PDFs de 420 páginas. A rev
 
 # Edição corrente R57
 
-**Versão v0.367.**
+*Versão v0.367.*
 
 Os dois PDFs e o texto dos validadores estão sincronizados na R57, com 415 páginas. As rodadas R54 a R57 revisaram apresentação, contexto e diagramação. A R57 contém 42 ajustes editoriais em 34 blocos, sem alterações de regra.
 

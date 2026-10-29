@@ -938,7 +938,7 @@ _LIVRO_DIZ98 = (
     'As duas escolhas conservam sua vida máxima.',
     'transforme **todo o tratamento acumulado em vida**',
     '**Dano posterior não desconta tratamento acumulado nem aumenta o tratamento necessário.**',
-    'Com três ou mais Sequelas, você fica Derrotado imediatamente',
+    'Com três ou mais Sequelas, você fica **Derrotado imediatamente**',   # R59: o negrito entrou
     'Remoção genérica de condições, incluindo Limpa Fundo, não substitui esse socorro.',
     'depois, remova todas as Sequelas, inclusive essa',
     'recuperar **4 × sua maior Classe em pontos de vida**',   # v0.364, item 197

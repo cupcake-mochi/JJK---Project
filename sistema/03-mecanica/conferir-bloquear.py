@@ -715,7 +715,7 @@ _VALE9 = [
     ('Incursor, Instante Decisivo', 'Após rolar o d20 e antes de resolver a defesa do alvo, gaste Fluidez'),
     ('Pugilista, Redirecionar a Força', 'Compare o resultado com a Defesa do novo alvo. Ele não pode '
                                         'Bloquear esse ataque.'),
-    ('Consulta', 'O alvo escolhe entre sua Defesa e Bloquear, quando permitido.'),
+    ('Consulta', 'Antes da rolagem de acerto, o alvo escolhe entre sua Defesa e Bloquear, quando permitido.'),
 ]
 _SAIU9 = [
     'depois de conhecer a rolagem do atacante',

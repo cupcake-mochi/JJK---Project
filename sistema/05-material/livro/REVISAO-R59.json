@@ -1,0 +1,296 @@
+{
+  "revisao": "R59",
+  "paginas": 425,
+  "resultado": "aprovado",
+  "blocos_alterados": 227,
+  "operacoes_editoriais": 510,
+  "regras_alteradas_na_rodada": false,
+  "texto": "Revisão didática por capítulos sobre a R58: clareza, transições, exemplos, glossário e Índice de 452 verbetes.",
+  "capitulos_editados": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "capitulos_preservados": [
+    1,
+    10,
+    11
+  ],
+  "conferencia_pdf": {
+    "resultado": "aprovado",
+    "paginas": 425,
+    "verificacoes": [
+      {
+        "verificacao": "Contagem das duas paletas corresponde ao manifesto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Blocos seguem a ordem editorial entre páginas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Regra Própria antecede o primeiro feitiço.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Dificultar a Resistência antecede o catálogo de intervenções.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Fonte da composição é idêntica à candidata.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Texto idêntico em todas as páginas entre paletas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todas as linhas e células da candidata localizadas no PDF.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem glifos de substituição ou âncoras brutas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem estouro de margem nos blocos de texto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Sem sobreposição entre blocos de texto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todos os links internos chegam a páginas existentes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Texto ocupa as mesmas posições nas duas paletas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Patentes antecedem as recompensas da guilda.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Tabela semanal continua nas duas colunas com cabeçalho repetido.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ativação compartilhada antecede as quatro defesas de domínio.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Catálogo contextualiza Kokusen antes da tabela.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Aquisição da Aptidão Própria antecede sua escrita.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Definição das rotas e montagem comum antecedem os exemplos.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Lapidação e requisitos de Bênçãos antecedem as entradas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Tabela de escolhas de Bênçãos tem quatorze links.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Exceção da Incompleta antecede a tabela de disputa.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Alerta sobre três barreiras antecede a tabela de disputa.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Rescaldo apresentado antes da montagem do domínio.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Exceções das modalidades antecedem o teste de Ritual.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Catálogo do Ritual identifica as duas tabelas como dezesseis entradas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Vagas de pacto contextualizadas antes de Preço real.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Promessas e temporários continuam fora do limite de vagas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Coletiva e gasto da básica contextualizados na abertura.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Preparar e gatilhos antecedem Ordens pendentes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ordem física segue antecipada, preparar, gatilhos e pendentes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Exceção dos corpos antecede a posição de entrada.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Capacidade e atuação básicas distinguidas antes do roteiro.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Classe real contextualizada antes de Família Livre.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Cão de sombra preservado antes das aquisições seguintes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Vantagem da tentativa seguinte antecede a limitação de fontes.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Lista de ritual e criação acompanha o começo da primeira opção.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Colunas equilibradas na abertura de Criação de entidades.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Preparação da missão antecede a condução da sessão.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ferramentas de consulta apresentadas antes da busca de regra.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Recursos no começo da missão explicitados.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Glossário contém 104 entradas sem duplicatas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Glossário em ordem alfabética.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Remissões de Talento, Expressão e Categoria levam à explicação.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Glossário preserva momento de Bloquear e recuperação das Sequelas.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Resumo de ataque exige escolha da defesa antes da comparação.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Ataque separa escolha anterior e resultado de Bloquear.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Socorro antecede registro de duração.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Resumo de socorro define tratamento e conserva a exceção de inconsciência.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Índice contém 452 nomes únicos em ordem alfabética.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Todas as entradas do Índice foram compostas na mesma ordem.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Números impressos e links dos 452 verbetes apontam ao destino correto.",
+        "aprovado": true
+      },
+      {
+        "verificacao": "Novos destinos precisos chegam ao próprio subtítulo.",
+        "aprovado": true
+      }
+    ],
+    "links": {
+      "internos": 3423,
+      "externos": 4
+    }
+  },
+  "revisao_visual": {
+    "paginas_em_pranchas": [
+      7,
+      13,
+      26,
+      46,
+      55,
+      63,
+      71,
+      106,
+      195,
+      204,
+      238,
+      248,
+      288,
+      310,
+      324,
+      345,
+      356,
+      368,
+      386,
+      404,
+      407,
+      410,
+      415,
+      418
+    ],
+    "paletas": [
+      "claro",
+      "noturno"
+    ],
+    "ampliacoes": [
+      "claro/026.png",
+      "noturno/055.png",
+      "claro/404.png"
+    ],
+    "resultado": "Sem novos problemas de cortes, hierarquia ou equilíbrio de colunas identificados na amostra.",
+    "limite": "Esta passagem final usa uma amostra de 24 páginas por paleta, apoiada na revisão visual anterior por capítulos e na comparação automatizada integral das 425 páginas."
+  },
+  "sha256": {
+    "claro": "7bf2520ecc036f96e8455cc796a7667e597c1d47c31d05b902e135d59b705116",
+    "noturno": "dcf11855ba9a6f833b78256e045cedb18927434041cb14e99be3aeac721fbd59",
+    "texto": "4845a0bc5f4cb39d89e9576eb13a34a413753d1691529a5934fad2338963c330"
+  }
+}
